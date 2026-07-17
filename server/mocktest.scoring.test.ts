@@ -13,11 +13,9 @@ function createGuestContext(): TrpcContext {
 const guestCaller = appRouter.createCaller(createGuestContext());
 
 /**
- * The mock-test score is computed client-side as:
- *   score = questions.reduce((sum, q) => sum + (answers[q.testId] === q.answer ? 1 : 0), 0)
- * This suite validates the server contract that the client scoring relies on:
- * every question carries a valid answer index, unique testId, options, and
- * a Bengali explanation, and that scoring semantics behave as expected.
+ * Mock tests are scored in the client for guest UX and re-scored on the server
+ * when authenticated clients submit answers + mockQuestions.
+ * This suite validates the payload contract (answer keys, unique testIds, splits).
  */
 describe("mock test scoring contract", () => {
   it("provides valid answer keys so a fully-correct submission scores 100%", async () => {

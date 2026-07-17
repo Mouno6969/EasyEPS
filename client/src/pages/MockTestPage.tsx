@@ -36,7 +36,20 @@ export default function MockTestPage() {
     const durationSec = Math.max(1, Math.round((Date.now() - startedAt) / 1000));
     setFinished(true);
     addLocalAttempt({ kind: "mock-test", score, total: questions.length, durationSec });
-    if (isAuthenticated) recordRemote.mutate({ kind: "mock-test", score, total: questions.length, durationSec });
+    if (isAuthenticated) {
+      recordRemote.mutate({
+        kind: "mock-test",
+        score,
+        total: questions.length,
+        durationSec,
+        answers,
+        mockQuestions: questions.map(question => ({
+          chapter: question.chapter,
+          id: question.id,
+          testId: question.testId,
+        })),
+      });
+    }
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 

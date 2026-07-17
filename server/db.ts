@@ -100,7 +100,15 @@ export async function saveProgress(
   if (existing) {
     await db.update(lessonProgress).set(patch).where(eq(lessonProgress.id, existing.id));
   } else {
-    await db.insert(lessonProgress).values({ userId, chapter, ...patch });
+    try {
+      await db.insert(lessonProgress).values({ userId, chapter, ...patch });
+    } catch {
+      // Unique (userId, chapter) race: fall back to update
+      await db
+        .update(lessonProgress)
+        .set(patch)
+        .where(and(eq(lessonProgress.userId, userId), eq(lessonProgress.chapter, chapter)));
+    }
   }
   const [saved] = await db
     .select()
@@ -142,7 +150,21 @@ export async function recordStudyDay(userId: number, date: string, minutes: numb
       .set({ minutes: existing.minutes + minutes, activities: existing.activities + activityCount })
       .where(eq(studyDays.id, existing.id));
   } else {
-    await db.insert(studyDays).values({ userId, date, minutes, activities: activityCount });
+    try {
+      await db.insert(studyDays).values({ userId, date, minutes, activities: activityCount });
+    } catch {
+      const [race] = await db
+        .select()
+        .from(studyDays)
+        .where(and(eq(studyDays.userId, userId), eq(studyDays.date, date)))
+        .limit(1);
+      if (race) {
+        await db
+          .update(studyDays)
+          .set({ minutes: race.minutes + minutes, activities: race.activities + activityCount })
+          .where(eq(studyDays.id, race.id));
+      }
+    }
   }
 }
 
@@ -220,8 +242,18 @@ export async function awardBadge(userId: number, badgeId: string) {
     .where(and(eq(badges.userId, userId), eq(badges.badgeId, badgeId)))
     .limit(1);
   if (existing) return existing;
-  const result = await db.insert(badges).values({ userId, badgeId });
-  return { id: Number(result[0].insertId), userId, badgeId, earnedAt: new Date() };
+  try {
+    const result = await db.insert(badges).values({ userId, badgeId });
+    return { id: Number(result[0].insertId), userId, badgeId, earnedAt: new Date() };
+  } catch {
+    const [race] = await db
+      .select()
+      .from(badges)
+      .where(and(eq(badges.userId, userId), eq(badges.badgeId, badgeId)))
+      .limit(1);
+    if (race) return race;
+    throw new Error(`Failed to award badge ${badgeId}`);
+  }
 }
 
 export async function issueCertificate(input: {

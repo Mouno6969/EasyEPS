@@ -41,7 +41,22 @@ function VocabularyView({ lesson, done, onDone }: { lesson: Lesson; done?: boole
   return <section className="paper-card p-6 md:p-8"><div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="eyebrow">{lesson.vocabulary.length}টি দরকারি শব্দ</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">শব্দভাণ্ডার</h2></div><Button variant="outline" onClick={() => setFlashcards(true)} className="rounded-full"><RotateCcw className="size-4" />Flashcard mode</Button></div><div className="mt-7 grid gap-3">{lesson.vocabulary.map((word, wordIndex) => <div key={`${word.ko}-${wordIndex}`} className="group grid gap-4 rounded-2xl border border-[var(--navy)]/8 bg-white p-4 transition hover:border-[var(--gold)]/30 md:grid-cols-[1.1fr_1fr_2fr_auto] md:items-center"><div><p className="text-xl font-bold text-[var(--navy)]">{word.ko}</p><p className="mt-1 text-xs text-[var(--navy)]/42">{word.romanization} · {word.pos}</p></div><div><p className="font-bold text-[var(--navy)]">{word.bn}</p><p className="text-xs text-[var(--navy)]/45">{word.en}</p></div><div className="rounded-xl bg-[var(--cream)] px-4 py-3"><p className="font-semibold text-[var(--navy)]">{word.example.ko}</p><p className="mt-1 text-xs leading-5 text-[var(--navy)]/52">{word.example.bn}</p></div><button onClick={() => speak(`${word.ko}. ${word.example.ko}`)} aria-label="Play Korean" className="grid size-10 place-items-center rounded-full bg-[var(--gold)]/14 text-[var(--gold-dark)]"><Volume2 className="size-4" /></button></div>)}</div><CompleteButton done={done} onClick={onDone}>শব্দভাণ্ডার সম্পন্ন করুন</CompleteButton></section>;
 }
 
-function PracticeRunner({ lesson, kind, savedScore, onComplete }: { lesson: Lesson; kind: "practice" | "exam"; savedScore?: number; onComplete: (score: number, total: number, duration: number) => void }) {
+function PracticeRunner({
+  lesson,
+  kind,
+  savedScore,
+  onComplete,
+}: {
+  lesson: Lesson;
+  kind: "practice" | "exam";
+  savedScore?: number;
+  onComplete: (
+    score: number,
+    total: number,
+    duration: number,
+    payload: { answers: Record<string, number>; matching: Record<string, Record<number, string>> },
+  ) => void;
+}) {
   const questions = kind === "practice" ? lesson.practice : lesson.epsQuestions;
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [matching, setMatching] = useState<Record<string, Record<number, string>>>({});
@@ -58,16 +73,25 @@ function PracticeRunner({ lesson, kind, savedScore, onComplete }: { lesson: Less
     return sum + (answers[question.id] === question.answer ? 1 : 0);
   }, 0), [answers, matching, questions, kind]);
 
+  const finish = (finalScore: number) => {
+    setSubmitted(true);
+    onComplete(finalScore, questions.length, Math.round((Date.now() - startedAt) / 1000), { answers, matching });
+  };
+
   useEffect(() => {
     if (kind !== "exam" || submitted) return;
     const timer = window.setInterval(() => setRemaining(value => {
-      if (value <= 1) { window.clearInterval(timer); setSubmitted(true); onComplete(score, questions.length, Math.round((Date.now() - startedAt) / 1000)); return 0; }
+      if (value <= 1) {
+        window.clearInterval(timer);
+        queueMicrotask(() => finish(score));
+        return 0;
+      }
       return value - 1;
     }), 1000);
     return () => window.clearInterval(timer);
-  }, [kind, submitted, onComplete, questions.length, score, startedAt]);
+  });
 
-  const submit = () => { setSubmitted(true); onComplete(score, questions.length, Math.round((Date.now() - startedAt) / 1000)); };
+  const submit = () => finish(score);
   const reset = () => { setAnswers({}); setMatching({}); setSubmitted(false); };
   return <section className="paper-card overflow-hidden"><div className="flex flex-col gap-4 border-b border-[var(--navy)]/8 p-6 md:flex-row md:items-center md:justify-between"><div><p className="eyebrow">{kind === "exam" ? "EPS-style chapter test" : "নিজেকে যাচাই করুন"}</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">{kind === "exam" ? "অধ্যায় পরীক্ষা" : "অনুশীলন"}</h2>{typeof savedScore === "number" && !submitted && <p className="mt-2 text-sm text-[var(--sage-dark)]">সর্বশেষ স্কোর: {savedScore}/{questions.length}</p>}</div>{kind === "exam" && <div className="inline-flex items-center gap-2 self-start rounded-full bg-[var(--navy)] px-4 py-2 font-mono text-sm font-bold text-white"><Clock3 className="size-4 text-[var(--gold)]" />{String(Math.floor(remaining / 60)).padStart(2, "0")}:{String(remaining % 60).padStart(2, "0")}</div>}</div><div className="divide-y divide-[var(--navy)]/8">{questions.map((question, questionIndex) => {
     const practice = question as PracticeQuestion;
@@ -97,7 +121,37 @@ export default function LessonPage() {
 
   useEffect(() => { window.scrollTo({ top: 0, behavior: "smooth" }); setActive("overview"); }, [chapter]);
   const saveProgress = (patch: Parameters<typeof updateChapterProgress>[1], minutes = 5) => { const saved = updateChapterProgress(chapter, patch, minutes); if (isAuthenticated) saveRemote.mutate({ chapter, ...patch, minutes }); return saved; };
-  const record = (kind: "practice" | "chapter-exam", score: number, total: number, durationSec: number) => { addLocalAttempt({ kind, chapter, score, total, durationSec }); if (isAuthenticated) recordRemote.mutate({ kind, chapter, score, total, durationSec }); if (kind === "practice") saveProgress({ practiceScore: score, practiceTotal: total }, Math.max(1, Math.round(durationSec / 60))); else saveProgress({ examScore: score, examTotal: total, completed: score / total >= .75 }, Math.max(1, Math.round(durationSec / 60))); toast.success(`স্কোর ${score}/${total} সংরক্ষিত হয়েছে`); };
+  const record = (
+    kind: "practice" | "chapter-exam",
+    score: number,
+    total: number,
+    durationSec: number,
+    payload?: { answers: Record<string, number>; matching?: Record<string, Record<number, string>> },
+  ) => {
+    addLocalAttempt({ kind, chapter, score, total, durationSec });
+    if (isAuthenticated) {
+      const matching =
+        payload?.matching &&
+        Object.fromEntries(
+          Object.entries(payload.matching).map(([id, pairs]) => [
+            id,
+            Object.fromEntries(Object.entries(pairs).map(([index, value]) => [String(index), value])),
+          ]),
+        );
+      recordRemote.mutate({
+        kind,
+        chapter,
+        durationSec,
+        answers: payload?.answers ?? {},
+        matching,
+        score,
+        total,
+      });
+    }
+    if (kind === "practice") saveProgress({ practiceScore: score, practiceTotal: total }, Math.max(1, Math.round(durationSec / 60)));
+    else saveProgress({ examScore: score, examTotal: total, completed: score / total >= .75 }, Math.max(1, Math.round(durationSec / 60)));
+    toast.success(`স্কোর ${score}/${total} সংরক্ষিত হয়েছে`);
+  };
 
   if (lessonQuery.isLoading) return <div className="container py-32 text-center"><Loader2 className="mx-auto size-8 animate-spin text-[var(--gold-dark)]" /><p className="mt-4 font-semibold text-[var(--navy)]/55">পাঠ প্রস্তুত হচ্ছে…</p></div>;
   if (!lesson) return <div className="container py-28 text-center"><h1 className="font-serif text-4xl font-bold text-[var(--navy)]">পাঠ পাওয়া যায়নি</h1><Link href="/curriculum" className="mt-5 inline-flex font-bold text-[var(--gold-dark)]">পাঠ্যক্রমে ফিরুন</Link></div>;
@@ -112,8 +166,8 @@ export default function LessonPage() {
       {active === "vocabulary" && <VocabularyView lesson={lesson} done={local?.vocabDone} onDone={() => saveProgress({ vocabDone: true })} />}
       {active === "grammar" && <section className="paper-card p-6 md:p-8"><p className="eyebrow">Pattern + meaning + examples</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">ব্যাকরণ</h2><div className="mt-7 space-y-5">{lesson.grammar.map((grammar, index) => <article key={grammar.pattern} className="overflow-hidden rounded-3xl border border-[var(--navy)]/9"><div className="flex flex-col gap-3 bg-[var(--navy)] p-5 text-white sm:flex-row sm:items-center sm:justify-between"><span className="text-xs font-bold text-[var(--gold)]">GRAMMAR {index + 1}</span><p className="font-serif text-2xl font-bold">{grammar.pattern}</p></div><div className="p-6"><h3 className="text-lg font-bold text-[var(--navy)]">{grammar.titleBn}</h3><p className="mt-3 leading-7 text-[var(--navy)]/65">{grammar.explanationBn}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/45">{grammar.explanationEn}</p><div className="mt-5 grid gap-3">{grammar.examples.map((example, exampleIndex) => <div key={exampleIndex} className="rounded-2xl bg-[var(--cream)] p-4"><div className="flex items-start justify-between gap-3"><p className="font-bold leading-7 text-[var(--navy)]">{example.ko}</p><button onClick={() => speak(example.ko)} className="grid size-8 shrink-0 place-items-center rounded-full bg-white text-[var(--gold-dark)]"><Volume2 className="size-3.5" /></button></div><p className="mt-1 text-sm leading-6 text-[var(--navy)]/58">{example.bn}</p></div>)}</div></div></article>)}</div><CompleteButton done={local?.grammarDone} onClick={() => saveProgress({ grammarDone: true })}>ব্যাকরণ সম্পন্ন করুন</CompleteButton></section>}
       {active === "dialogue" && <section className="paper-card p-6 md:p-8"><p className="eyebrow">শুনুন ও অনুকরণ করুন</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">বাস্তব সংলাপ</h2><div className="mt-7 grid gap-6">{lesson.dialogues.map((dialogue, dialogueIndex) => <article key={dialogueIndex} className="rounded-3xl border border-[var(--navy)]/9 p-5 md:p-7"><div className="flex items-center justify-between gap-4"><div><p className="text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">Dialogue {dialogueIndex + 1}</p><h3 className="mt-1 font-serif text-2xl font-bold text-[var(--navy)]">{dialogue.titleBn}</h3></div><button onClick={() => speak(dialogue.lines.map(line => line.ko).join(". "), .8)} className="grid size-11 place-items-center rounded-full bg-[var(--gold)]/18 text-[var(--gold-dark)]"><Headphones className="size-5" /></button></div><div className="mt-6 space-y-4">{dialogue.lines.map((line, lineIndex) => <div key={lineIndex} className={`flex ${lineIndex % 2 ? "justify-end" : "justify-start"}`}><div className={`max-w-[88%] rounded-2xl p-4 md:max-w-[72%] ${lineIndex % 2 ? "rounded-tr-md bg-[var(--navy)] text-white" : "rounded-tl-md bg-[var(--cream)] text-[var(--navy)]"}`}><p className={`text-xs font-bold ${lineIndex % 2 ? "text-[var(--gold)]" : "text-[var(--gold-dark)]"}`}>{line.speaker}</p><div className="mt-2 flex items-start gap-3"><p className="text-lg font-semibold leading-7">{line.ko}</p><button onClick={() => speak(line.ko)} className="mt-1 opacity-60 hover:opacity-100"><Volume2 className="size-3.5" /></button></div><p className={`mt-2 text-sm leading-6 ${lineIndex % 2 ? "text-white/60" : "text-[var(--navy)]/55"}`}>{line.bn}</p></div></div>)}</div></article>)}</div><CompleteButton done={local?.dialogueDone} onClick={() => saveProgress({ dialogueDone: true })}>সংলাপ সম্পন্ন করুন</CompleteButton></section>}
-      {active === "practice" && <PracticeRunner lesson={lesson} kind="practice" savedScore={local?.practiceScore} onComplete={(score, total, duration) => record("practice", score, total, duration)} />}
-      {active === "exam" && <PracticeRunner lesson={lesson} kind="exam" savedScore={local?.examScore} onComplete={(score, total, duration) => record("chapter-exam", score, total, duration)} />}
+      {active === "practice" && <PracticeRunner lesson={lesson} kind="practice" savedScore={local?.practiceScore} onComplete={(score, total, duration, payload) => record("practice", score, total, duration, payload)} />}
+      {active === "exam" && <PracticeRunner lesson={lesson} kind="exam" savedScore={local?.examScore} onComplete={(score, total, duration, payload) => record("chapter-exam", score, total, duration, payload)} />}
     </div>
     <div className="container flex items-center justify-between border-t border-[var(--navy)]/10 py-7"><Link href={`/lesson/${Math.max(1, chapter - 1)}`} className={`inline-flex items-center gap-2 text-sm font-bold text-[var(--navy)] ${chapter === 1 ? "pointer-events-none opacity-30" : ""}`}><ChevronLeft className="size-4" />আগের অধ্যায়</Link><Link href={`/lesson/${Math.min(60, chapter + 1)}`} className={`inline-flex items-center gap-2 text-sm font-bold text-[var(--navy)] ${chapter === 60 ? "pointer-events-none opacity-30" : ""}`}>পরের অধ্যায়<ChevronRight className="size-4" /></Link></div>
   </>;

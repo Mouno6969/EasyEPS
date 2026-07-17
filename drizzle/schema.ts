@@ -1,4 +1,4 @@
-import { boolean, int, json, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-orm/mysql-core";
+import { boolean, index, int, json, mysqlEnum, mysqlTable, text, timestamp, uniqueIndex, varchar } from "drizzle-orm/mysql-core";
 
 /**
  * Core user table backing auth flow.
@@ -42,44 +42,56 @@ export const lessons = mysqlTable("lessons", {
 export type Lesson = typeof lessons.$inferSelect;
 
 /** Per-user per-lesson progress. */
-export const lessonProgress = mysqlTable("lessonProgress", {
-  id: int("id").autoincrement().primaryKey(),
-  userId: int("userId").notNull(),
-  chapter: int("chapter").notNull(),
-  vocabDone: boolean("vocabDone").default(false).notNull(),
-  grammarDone: boolean("grammarDone").default(false).notNull(),
-  dialogueDone: boolean("dialogueDone").default(false).notNull(),
-  practiceScore: int("practiceScore"),
-  practiceTotal: int("practiceTotal"),
-  examScore: int("examScore"),
-  examTotal: int("examTotal"),
-  completed: boolean("completed").default(false).notNull(),
-  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
-});
+export const lessonProgress = mysqlTable(
+  "lessonProgress",
+  {
+    id: int("id").autoincrement().primaryKey(),
+    userId: int("userId").notNull(),
+    chapter: int("chapter").notNull(),
+    vocabDone: boolean("vocabDone").default(false).notNull(),
+    grammarDone: boolean("grammarDone").default(false).notNull(),
+    dialogueDone: boolean("dialogueDone").default(false).notNull(),
+    practiceScore: int("practiceScore"),
+    practiceTotal: int("practiceTotal"),
+    examScore: int("examScore"),
+    examTotal: int("examTotal"),
+    completed: boolean("completed").default(false).notNull(),
+    updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+  },
+  table => [uniqueIndex("lessonProgress_user_chapter_unique").on(table.userId, table.chapter)],
+);
 export type LessonProgress = typeof lessonProgress.$inferSelect;
 
 /** Quiz / exam attempts (chapter practice, chapter exam, full mock). */
-export const attempts = mysqlTable("attempts", {
-  id: int("id").autoincrement().primaryKey(),
-  userId: int("userId").notNull(),
-  kind: mysqlEnum("kind", ["practice", "chapter-exam", "mock-test"]).notNull(),
-  chapter: int("chapter"),
-  score: int("score").notNull(),
-  total: int("total").notNull(),
-  durationSec: int("durationSec"),
-  detail: json("detail"),
-  createdAt: timestamp("createdAt").defaultNow().notNull(),
-});
+export const attempts = mysqlTable(
+  "attempts",
+  {
+    id: int("id").autoincrement().primaryKey(),
+    userId: int("userId").notNull(),
+    kind: mysqlEnum("kind", ["practice", "chapter-exam", "mock-test"]).notNull(),
+    chapter: int("chapter"),
+    score: int("score").notNull(),
+    total: int("total").notNull(),
+    durationSec: int("durationSec"),
+    detail: json("detail"),
+    createdAt: timestamp("createdAt").defaultNow().notNull(),
+  },
+  table => [index("attempts_user_created_idx").on(table.userId, table.createdAt)],
+);
 export type Attempt = typeof attempts.$inferSelect;
 
 /** Daily study activity for streaks. One row per user per date (yyyy-mm-dd). */
-export const studyDays = mysqlTable("studyDays", {
-  id: int("id").autoincrement().primaryKey(),
-  userId: int("userId").notNull(),
-  date: varchar("date", { length: 10 }).notNull(),
-  minutes: int("minutes").default(0).notNull(),
-  activities: int("activities").default(0).notNull(),
-});
+export const studyDays = mysqlTable(
+  "studyDays",
+  {
+    id: int("id").autoincrement().primaryKey(),
+    userId: int("userId").notNull(),
+    date: varchar("date", { length: 10 }).notNull(),
+    minutes: int("minutes").default(0).notNull(),
+    activities: int("activities").default(0).notNull(),
+  },
+  table => [uniqueIndex("studyDays_user_date_unique").on(table.userId, table.date)],
+);
 
 /** Study planner settings and scheduled items. */
 export const plannerSettings = mysqlTable("plannerSettings", {
@@ -91,24 +103,32 @@ export const plannerSettings = mysqlTable("plannerSettings", {
   targetExamDate: varchar("targetExamDate", { length: 10 }),
 });
 
-export const plannerItems = mysqlTable("plannerItems", {
-  id: int("id").autoincrement().primaryKey(),
-  userId: int("userId").notNull(),
-  date: varchar("date", { length: 10 }).notNull(),
-  chapter: int("chapter").notNull(),
-  kind: mysqlEnum("kind", ["lesson", "practice", "exam", "review"]).default("lesson").notNull(),
-  done: boolean("done").default(false).notNull(),
-  createdAt: timestamp("createdAt").defaultNow().notNull(),
-});
+export const plannerItems = mysqlTable(
+  "plannerItems",
+  {
+    id: int("id").autoincrement().primaryKey(),
+    userId: int("userId").notNull(),
+    date: varchar("date", { length: 10 }).notNull(),
+    chapter: int("chapter").notNull(),
+    kind: mysqlEnum("kind", ["lesson", "practice", "exam", "review"]).default("lesson").notNull(),
+    done: boolean("done").default(false).notNull(),
+    createdAt: timestamp("createdAt").defaultNow().notNull(),
+  },
+  table => [index("plannerItems_user_date_idx").on(table.userId, table.date)],
+);
 export type PlannerItem = typeof plannerItems.$inferSelect;
 
 /** Earned badges. */
-export const badges = mysqlTable("badges", {
-  id: int("id").autoincrement().primaryKey(),
-  userId: int("userId").notNull(),
-  badgeId: varchar("badgeId", { length: 64 }).notNull(),
-  earnedAt: timestamp("earnedAt").defaultNow().notNull(),
-});
+export const badges = mysqlTable(
+  "badges",
+  {
+    id: int("id").autoincrement().primaryKey(),
+    userId: int("userId").notNull(),
+    badgeId: varchar("badgeId", { length: 64 }).notNull(),
+    earnedAt: timestamp("earnedAt").defaultNow().notNull(),
+  },
+  table => [uniqueIndex("badges_user_badge_unique").on(table.userId, table.badgeId)],
+);
 export type Badge = typeof badges.$inferSelect;
 
 /** Issued certificates. */

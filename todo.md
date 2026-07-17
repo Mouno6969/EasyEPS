@@ -36,5 +36,15 @@
 
 ## Delivery
 - [x] Save checkpoint (version 4185483b)
-- [ ] Push final state to GitHub Mouno6969/EasyEPS
-- [ ] Deliver usage guidance to user
+- [x] Push final state to GitHub Mouno6969/EasyEPS
+- [x] Deliver usage guidance (README + .env.example)
+
+## Hardening (follow-up)
+- [x] README, .env.example, seed script, CI
+- [x] Unique DB indexes for progress / studyDays / badges
+- [x] Server-side attempt grading for badges/certificates
+- [x] Fisher–Yates mock shuffle + stricter lesson Zod schema
+- [ ] Answer-key rebalance across options A–D
+- [ ] Guest→account progress merge on login
+- [ ] Listening passage hidden until submit
+- [ ] Tutor rate limiting
