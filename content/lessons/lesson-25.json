@@ -1,0 +1,643 @@
+{
+  "chapter": 25,
+  "slug": "foreign-workers-support-center",
+  "title": {
+    "ko": "외국인력지원센터",
+    "bn": "বিদেশি কর্মী সহায়তা কেন্দ্র",
+    "en": "Foreign Workers Support Center"
+  },
+  "category": "culture",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "বিদেশি কর্মী সহায়তা কেন্দ্রের পরিষেবা সম্পর্কে জানা",
+      "পরামর্শ এবং শিক্ষার জন্য আবেদন করতে শেখা",
+      "প্রয়োজনীয় সহায়তার জন্য অনুরোধ করতে পারা"
+    ],
+    "en": [
+      "Learn about the services of the Foreign Workers Support Center",
+      "Learn how to apply for counseling and education",
+      "Be able to request necessary assistance"
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "외국인력지원센터",
+      "romanization": "oeguginnyeokjiwonseenteo",
+      "bn": "বিদেশি কর্মী সহায়তা কেন্দ্র",
+      "en": "Foreign Workers Support Center",
+      "pos": "noun",
+      "example": {
+        "ko": "주말에 외국인력지원센터에 갑니다.",
+        "bn": "সপ্তাহান্তে বিদেশি কর্মী সহায়তা কেন্দ্রে যাই।",
+        "en": "I go to the Foreign Workers Support Center on weekends."
+      }
+    },
+    {
+      "ko": "상담",
+      "romanization": "sangdam",
+      "bn": "পরামর্শ",
+      "en": "counseling",
+      "pos": "noun",
+      "example": {
+        "ko": "문제가 있으면 상담을 받으세요.",
+        "bn": "সমস্যা থাকলে পরামর্শ নিন।",
+        "en": "If you have a problem, get counseling."
+      }
+    },
+    {
+      "ko": "교육",
+      "romanization": "gyoyuk",
+      "bn": "শিক্ষা",
+      "en": "education",
+      "pos": "noun",
+      "example": {
+        "ko": "센터에서 다양한 교육을 합니다.",
+        "bn": "কেন্দ্রে বিভিন্ন শিক্ষা প্রদান করা হয়।",
+        "en": "The center provides various education."
+      }
+    },
+    {
+      "ko": "한국어 교육",
+      "romanization": "hangugeo gyoyuk",
+      "bn": "কোরিয়ান ভাষা শিক্ষা",
+      "en": "Korean language education",
+      "pos": "noun",
+      "example": {
+        "ko": "무료로 한국어 교육을 받을 수 있습니다.",
+        "bn": "বিনামূল্যে কোরিয়ান ভাষা শিক্ষা গ্রহণ করতে পারেন।",
+        "en": "You can receive Korean language education for free."
+      }
+    },
+    {
+      "ko": "컴퓨터 교육",
+      "romanization": "keompyuteo gyoyuk",
+      "bn": "কম্পিউটার শিক্ষা",
+      "en": "computer education",
+      "pos": "noun",
+      "example": {
+        "ko": "일요일에 컴퓨터 교육이 있습니다.",
+        "bn": "রবিবারে কম্পিউটার শিক্ষা আছে।",
+        "en": "There is computer education on Sunday."
+      }
+    },
+    {
+      "ko": "법률 상담",
+      "romanization": "beomnyul sangdam",
+      "bn": "আইনি পরামর্শ",
+      "en": "legal counseling",
+      "pos": "noun",
+      "example": {
+        "ko": "변호사에게 법률 상담을 받았습니다.",
+        "bn": "আইনজীবীর কাছ থেকে আইনি পরামর্শ নিয়েছি।",
+        "en": "I received legal counseling from a lawyer."
+      }
+    },
+    {
+      "ko": "고충 상담",
+      "romanization": "gochung sangdam",
+      "bn": "অভিযোগ পরামর্শ",
+      "en": "grievance counseling",
+      "pos": "noun",
+      "example": {
+        "ko": "회사 생활이 힘들면 고충 상담을 신청하세요.",
+        "bn": "কোম্পানির জীবন কঠিন হলে অভিযোগ পরামর্শের জন্য আবেদন করুন।",
+        "en": "If company life is hard, apply for grievance counseling."
+      }
+    },
+    {
+      "ko": "체류",
+      "romanization": "cheryu",
+      "bn": "অবস্থান",
+      "en": "sojourn/stay",
+      "pos": "noun",
+      "example": {
+        "ko": "체류 기간을 확인해야 합니다.",
+        "bn": "অবস্থানের মেয়াদ পরীক্ষা করতে হবে।",
+        "en": "You need to check your period of stay."
+      }
+    },
+    {
+      "ko": "연장",
+      "romanization": "yeonjang",
+      "bn": "মেয়াদ বৃদ্ধি",
+      "en": "extension",
+      "pos": "noun",
+      "example": {
+        "ko": "비자 연장 방법을 알고 싶습니다.",
+        "bn": "ভিসার মেয়াদ বৃদ্ধির পদ্ধতি জানতে চাই।",
+        "en": "I want to know how to extend my visa."
+      }
+    },
+    {
+      "ko": "예약하다",
+      "romanization": "yeyakhada",
+      "bn": "বুকিং করা",
+      "en": "to make a reservation",
+      "pos": "verb",
+      "example": {
+        "ko": "전화로 먼저 예약해야 합니다.",
+        "bn": "প্রথমে ফোনে বুকিং করতে হবে।",
+        "en": "You must make a reservation by phone first."
+      }
+    },
+    {
+      "ko": "방문하다",
+      "romanization": "bangmunhada",
+      "bn": "পরিদর্শন করা",
+      "en": "to visit",
+      "pos": "verb",
+      "example": {
+        "ko": "내일 센터를 방문할 예정입니다.",
+        "bn": "আগামীকাল কেন্দ্র পরিদর্শন করার পরিকল্পনা আছে।",
+        "en": "I plan to visit the center tomorrow."
+      }
+    },
+    {
+      "ko": "무료",
+      "romanization": "muryo",
+      "bn": "বিনামূল্যে",
+      "en": "free of charge",
+      "pos": "noun",
+      "example": {
+        "ko": "이 수업은 무료입니다.",
+        "bn": "এই ক্লাসটি বিনামূল্যে।",
+        "en": "This class is free."
+      }
+    },
+    {
+      "ko": "지원하다",
+      "romanization": "jiwonhada",
+      "bn": "সহায়তা করা",
+      "en": "to support",
+      "pos": "verb",
+      "example": {
+        "ko": "외국인 근로자를 지원합니다.",
+        "bn": "বিদেশি কর্মীদের সহায়তা করে।",
+        "en": "It supports foreign workers."
+      }
+    },
+    {
+      "ko": "문화 체험",
+      "romanization": "munhwa cheheom",
+      "bn": "সাংস্কৃতিক অভিজ্ঞতা",
+      "en": "cultural experience",
+      "pos": "noun",
+      "example": {
+        "ko": "한국 문화 체험 행사에 참여했습니다.",
+        "bn": "কোরিয়ান সাংস্কৃতিক অভিজ্ঞতা অনুষ্ঠানে অংশগ্রহণ করেছি।",
+        "en": "I participated in a Korean cultural experience event."
+      }
+    },
+    {
+      "ko": "행사",
+      "romanization": "haengsa",
+      "bn": "অনুষ্ঠান",
+      "en": "event",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 주말에 큰 행사가 있습니다.",
+        "bn": "এই সপ্তাহান্তে একটি বড় অনুষ্ঠান আছে।",
+        "en": "There is a big event this weekend."
+      }
+    },
+    {
+      "ko": "통역",
+      "romanization": "tongyeok",
+      "bn": "দোভাষী",
+      "en": "interpretation",
+      "pos": "noun",
+      "example": {
+        "ko": "병원에 갈 때 통역이 필요합니다.",
+        "bn": "হাসপাতালে যাওয়ার সময় দোভাষী প্রয়োজন।",
+        "en": "I need interpretation when going to the hospital."
+      }
+    },
+    {
+      "ko": "번역",
+      "romanization": "beonyeok",
+      "bn": "অনুবাদ",
+      "en": "translation",
+      "pos": "noun",
+      "example": {
+        "ko": "서류 번역을 부탁했습니다.",
+        "bn": "কাগজপত্র অনুবাদের অনুরোধ করেছি।",
+        "en": "I asked for document translation."
+      }
+    },
+    {
+      "ko": "진료",
+      "romanization": "jillyo",
+      "bn": "চিকিৎসা",
+      "en": "medical treatment",
+      "pos": "noun",
+      "example": {
+        "ko": "일요일에 무료 진료를 받을 수 있습니다.",
+        "bn": "রবিবারে বিনামূল্যে চিকিৎসা নিতে পারেন।",
+        "en": "You can receive free medical treatment on Sunday."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V-(으)려면",
+      "titleBn": "উদ্দেশ্য বা ইচ্ছা প্রকাশ",
+      "explanationBn": "কোনো কাজ করার ইচ্ছা বা উদ্দেশ্য থাকলে কী করতে হবে তা বোঝাতে এই ব্যাকরণ ব্যবহৃত হয়। ক্রিয়াপদের শেষে ব্যঞ্জনবর্ণ থাকলে '-으려면' এবং স্বরবর্ণ বা 'ㄹ' থাকলে '-려면' যুক্ত হয়।",
+      "explanationEn": "Used to express what one needs to do if they intend or want to do a certain action. '-으려면' is added after a consonant, and '-려면' is added after a vowel or 'ㄹ'.",
+      "examples": [
+        {
+          "ko": "한국어를 배우려면 어디로 가야 해요?",
+          "bn": "কোরিয়ান ভাষা শিখতে চাইলে কোথায় যেতে হবে?",
+          "en": "Where should I go if I want to learn Korean?"
+        },
+        {
+          "ko": "상담을 받으려면 미리 예약해야 합니다.",
+          "bn": "পরামর্শ নিতে চাইলে আগে থেকে বুকিং করতে হবে।",
+          "en": "If you want to get counseling, you must make a reservation in advance."
+        }
+      ]
+    },
+    {
+      "pattern": "V-아/어 주다",
+      "titleBn": "অন্যের জন্য কিছু করা",
+      "explanationBn": "অন্য কারো জন্য কোনো কাজ করে দেওয়া বোঝাতে এই ব্যাকরণ ব্যবহৃত হয়। ক্রিয়াপদের শেষে 'ㅏ' বা 'ㅗ' থাকলে '-아 주다', অন্য স্বরবর্ণ থাকলে '-어 주다' এবং '하다' থাকলে '해 주다' হয়।",
+      "explanationEn": "Used to express doing an action for someone else. '-아 주다' is used when the verb stem ends in 'ㅏ' or 'ㅗ', '-어 주다' for other vowels, and '하다' becomes '해 주다'.",
+      "examples": [
+        {
+          "ko": "이 서류 좀 번역해 주세요.",
+          "bn": "দয়া করে এই কাগজপত্রটি অনুবাদ করে দিন।",
+          "en": "Please translate this document for me."
+        },
+        {
+          "ko": "센터 직원이 친절하게 설명해 주었습니다.",
+          "bn": "কেন্দ্রের কর্মী সদয়ভাবে ব্যাখ্যা করে দিয়েছেন।",
+          "en": "The center staff kindly explained it to me."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "কোরিয়ান ভাষা শিক্ষার খোঁজখবর",
+      "titleEn": "Inquiring about Korean Language Classes",
+      "lines": [
+        {
+          "speaker": "A",
+          "ko": "안녕하세요. 한국어 교육을 받고 싶은데 어떻게 해야 해요?",
+          "bn": "নমস্কার। আমি কোরিয়ান ভাষা শিক্ষা নিতে চাই, কী করতে হবে?",
+          "en": "Hello. I want to take Korean language classes, what should I do?"
+        },
+        {
+          "speaker": "B",
+          "ko": "외국인력지원센터에 오셔서 신청서를 쓰시면 됩니다.",
+          "bn": "বিদেশি কর্মী সহায়তা কেন্দ্রে এসে আবেদনপত্র লিখলেই হবে।",
+          "en": "You can come to the Foreign Workers Support Center and fill out an application form."
+        },
+        {
+          "speaker": "A",
+          "ko": "수업은 언제 있어요?",
+          "bn": "ক্লাস কখন আছে?",
+          "en": "When are the classes?"
+        },
+        {
+          "speaker": "B",
+          "ko": "일요일 오후에 있습니다. 수업료는 무료입니다.",
+          "bn": "রবিবার বিকেলে আছে। ক্লাসের ফি বিনামূল্যে।",
+          "en": "They are on Sunday afternoons. The tuition is free."
+        },
+        {
+          "speaker": "A",
+          "ko": "네, 감사합니다. 이번 주 일요일에 방문하겠습니다.",
+          "bn": "হ্যাঁ, ধন্যবাদ। এই রবিবার আমি পরিদর্শন করব।",
+          "en": "Yes, thank you. I will visit this Sunday."
+        }
+      ]
+    },
+    {
+      "titleBn": "আইনি পরামর্শের জন্য বুকিং",
+      "titleEn": "Making a Reservation for Legal Counseling",
+      "lines": [
+        {
+          "speaker": "A",
+          "ko": "여보세요. 외국인력지원센터입니다.",
+          "bn": "হ্যালো। এটি বিদেশি কর্মী সহায়তা কেন্দ্র।",
+          "en": "Hello. This is the Foreign Workers Support Center."
+        },
+        {
+          "speaker": "B",
+          "ko": "안녕하세요. 법률 상담을 받으려면 어떻게 해야 합니까?",
+          "bn": "নমস্কার। আইনি পরামর্শ নিতে চাইলে কী করতে হবে?",
+          "en": "Hello. What should I do if I want to get legal counseling?"
+        },
+        {
+          "speaker": "A",
+          "ko": "먼저 예약을 하셔야 합니다. 무슨 일로 상담을 원하십니까?",
+          "bn": "প্রথমে আপনাকে বুকিং করতে হবে। কী বিষয়ে পরামর্শ চান?",
+          "en": "You must make a reservation first. What do you want counseling for?"
+        },
+        {
+          "speaker": "B",
+          "ko": "체류 기간 연장 문제 때문에 상담을 받고 싶습니다.",
+          "bn": "অবস্থানের মেয়াদ বৃদ্ধির সমস্যার কারণে পরামর্শ নিতে চাই।",
+          "en": "I want to get counseling regarding the issue of extending my period of stay."
+        },
+        {
+          "speaker": "A",
+          "ko": "네, 알겠습니다. 이번 주 토요일 오후 2시로 예약해 드리겠습니다.",
+          "bn": "হ্যাঁ, বুঝতে পেরেছি। এই শনিবার দুপুর ২টায় আপনার জন্য বুকিং করে দিচ্ছি।",
+          "en": "Yes, I understand. I will make a reservation for you this Saturday at 2 PM."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "상담",
+        "교육",
+        "진료",
+        "행사"
+      ],
+      "answer": 1,
+      "explanationBn": "কোরিয়ান ভাষা শেখার জন্য '교육' (শিক্ষা) প্রয়োজন। তাই সঠিক উত্তর '교육'।",
+      "passage": "한국어를 배우고 싶습니다. 센터에서 한국어 (  )을/를 받습니다."
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "예약해야",
+        "방문해야",
+        "지원해야",
+        "연장해야"
+      ],
+      "answer": 0,
+      "explanationBn": "পরামর্শ নেওয়ার আগে '예약하다' (বুকিং করা) প্রয়োজন। তাই সঠিক উত্তর '예약해야'।",
+      "passage": "상담을 받으려면 먼저 전화를 해서 (  ) 합니다."
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "통역",
+        "번역",
+        "무료",
+        "체류"
+      ],
+      "answer": 2,
+      "explanationBn": "টাকা না লাগলে তাকে '무료' (বিনামূল্যে) বলা হয়। তাই সঠিক উত্তর '무료'।",
+      "passage": "이 수업은 돈을 내지 않습니다. (  )입니다."
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "고충 상담",
+        "법률 상담",
+        "한국어 교육",
+        "문화 체험"
+      ],
+      "answer": 1,
+      "explanationBn": "আইনজীবীর কাছ থেকে যে পরামর্শ নেওয়া হয় তা হলো '법률 상담' (আইনি পরামর্শ)। তাই সঠিক উত্তর '법률 상담'।",
+      "passage": "비자 문제 때문에 변호사에게 (  )을/를 받았습니다."
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক ব্যাকরণটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "배우려면",
+        "배우면",
+        "배워서",
+        "배우고"
+      ],
+      "answer": 0,
+      "explanationBn": "কোনো কিছু করার ইচ্ছা বা উদ্দেশ্য বোঝাতে '-(으)려면' ব্যবহৃত হয়। '배우다' এর সাথে '려면' যুক্ত হয়ে '배우려면' হবে।",
+      "passage": "한국어를 (  ) 외국인력지원센터에 가 보세요."
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক ব্যাকরণটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "도와 줍니다",
+        "도와 줍니다면",
+        "도와 주려면",
+        "도와 주어서"
+      ],
+      "answer": 0,
+      "explanationBn": "অন্যের জন্য কিছু করা বোঝাতে '-아/어 주다' ব্যবহৃত হয়। '돕다' এর সাথে '-아 주다' যুক্ত হয়ে '도와 주다' হয়।",
+      "passage": "센터 직원이 친절하게 (  )."
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "통역해",
+        "번역해",
+        "예약해",
+        "방문해"
+      ],
+      "answer": 0,
+      "explanationBn": "হাসপাতালে কথা বলার জন্য '통역' (দোভাষী) প্রয়োজন। তাই সঠিক উত্তর '통역해'।",
+      "passage": "병원에서 의사 선생님과 이야기할 때 자원봉사자가 (  ) 주었습니다."
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "연장",
+        "체류",
+        "진료",
+        "행사"
+      ],
+      "answer": 0,
+      "explanationBn": "ভিসার মেয়াদ বাড়ানোকে '연장' (মেয়াদ বৃদ্ধি) বলা হয়। তাই সঠিক উত্তর '연장'।",
+      "passage": "체류 기간을 (  ) 하려면 출입국관리사무소에 가야 합니다."
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "상담",
+          "right": "পরামর্শ"
+        },
+        {
+          "left": "교육",
+          "right": "শিক্ষা"
+        },
+        {
+          "left": "무료",
+          "right": "বিনামূল্যে"
+        },
+        {
+          "left": "예약하다",
+          "right": "বুকিং করা"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "통역",
+          "right": "দোভাষী"
+        },
+        {
+          "left": "번역",
+          "right": "অনুবাদ"
+        },
+        {
+          "left": "진료",
+          "right": "চিকিৎসা"
+        },
+        {
+          "left": "체류",
+          "right": "অবস্থান"
+        }
+      ]
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 한국어를 배우고 싶은데 어디로 가야 해요?\n나: 외국인력지원센터에 가 보세요. 무료로 한국어 (  )을/를 받을 수 있어요.",
+      "options": [
+        "상담",
+        "교육",
+        "진료",
+        "행사"
+      ],
+      "answer": 1,
+      "explanationBn": "কোরিয়ান ভাষা শেখার কথা বলা হয়েছে, তাই '교육' (শিক্ষা) শব্দটি সবচেয়ে উপযুক্ত।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 회사 생활이 너무 힘들어요. 어떻게 해야 할지 모르겠어요.\n나: 그러면 센터에 가서 고충 (  )을/를 받아 보세요.",
+      "options": [
+        "상담",
+        "교육",
+        "번역",
+        "통역"
+      ],
+      "answer": 0,
+      "explanationBn": "কোম্পানির জীবন কঠিন হলে অভিযোগের জন্য '상담' (পরামর্শ) নেওয়া উচিত।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 내일 센터에 가서 법률 상담을 받을 수 있을까요?\n나: 아니요, 상담을 (  ) 미리 전화를 해야 해요.",
+      "options": [
+        "받으면",
+        "받으려면",
+        "받아서",
+        "받고"
+      ],
+      "answer": 1,
+      "explanationBn": "পরামর্শ নেওয়ার ইচ্ছা বা উদ্দেশ্য বোঝাতে '-(으)려면' ব্যবহৃত হয়। তাই '받으려면' সঠিক।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음을 읽고 물음에 답하십시오.",
+      "passage": "[외국인력지원센터 한국어 교실]\n- 시간: 매주 일요일 오후 2시 ~ 4시\n- 장소: 3층 교육실\n- 비용: 무료\n* 수업을 들으려면 먼저 센터에 와서 신청서를 써야 합니다.",
+      "options": [
+        "수업은 토요일에 있습니다.",
+        "수업료를 내야 합니다.",
+        "수업을 들으려면 신청서를 써야 합니다.",
+        "수업은 2층에서 합니다."
+      ],
+      "answer": 2,
+      "explanationBn": "লেখায় বলা হয়েছে ক্লাস করতে চাইলে প্রথমে আবেদনপত্র লিখতে হবে (수업을 들으려면 먼저 센터에 와서 신청서를 써야 합니다)। তাই ৩ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음을 읽고 물음에 답하십시오.",
+      "passage": "저는 이번 주말에 외국인력지원센터에 갈 것입니다. 비자 연장 문제 때문에 법률 상담을 받을 것입니다. 상담을 받으려면 미리 예약을 해야 해서 어제 전화를 했습니다.",
+      "options": [
+        "이 사람은 어제 센터에 갔습니다.",
+        "이 사람은 한국어를 배우려고 합니다.",
+        "이 사람은 비자 문제로 상담을 받을 것입니다.",
+        "이 사람은 아직 예약을 하지 않았습니다."
+      ],
+      "answer": 2,
+      "explanationBn": "লেখায় বলা হয়েছে যে সে ভিসার মেয়াদ বৃদ্ধির সমস্যার কারণে আইনি পরামর্শ নেবে (비자 연장 문제 때문에 법률 상담을 받을 것입니다)। তাই ৩ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 한국어 교육을 신청하려면 어떻게 해야 합니까?\n남: 센터에 직접 오셔서 신청서를 쓰시면 됩니다.",
+      "options": [
+        "전화로 신청합니다.",
+        "센터에 가서 신청서를 씁니다.",
+        "인터넷으로 신청합니다.",
+        "친구에게 부탁합니다."
+      ],
+      "answer": 1,
+      "explanationBn": "পুরুষটি বলেছে কেন্দ্রে সরাসরি এসে আবেদনপত্র লিখতে হবে (센터에 직접 오셔서 신청서를 쓰시면 됩니다)। তাই ২ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남: 법률 상담은 언제 받을 수 있어요?\n여: 매주 일요일 오후에 받을 수 있습니다. 미리 예약해 주세요.",
+      "options": [
+        "토요일 오전",
+        "토요일 오후",
+        "일요일 오전",
+        "일요일 오후"
+      ],
+      "answer": 3,
+      "explanationBn": "মহিলাটি বলেছে প্রতি রবিবার বিকেলে পরামর্শ নেওয়া যাবে (매주 일요일 오후에 받을 수 있습니다)। তাই ৪ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 병원에 가야 하는데 한국어를 잘 못해서 걱정이에요.\n남: 외국인력지원센터에 전화해 보세요. 병원에 갈 때 (  )을/를 도와줄 거예요.",
+      "options": [
+        "통역",
+        "번역",
+        "진료",
+        "교육"
+      ],
+      "answer": 0,
+      "explanationBn": "হাসপাতালে কথা বলার জন্য দোভাষীর প্রয়োজন। তাই '통역' (দোভাষী) সঠিক উত্তর।"
+    }
+  ]
+}

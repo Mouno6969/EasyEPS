@@ -1,0 +1,647 @@
+{
+  "chapter": 24,
+  "slug": "bank",
+  "title": {
+    "ko": "은행",
+    "bn": "ব্যাংক",
+    "en": "Bank"
+  },
+  "category": "daily-life",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "ব্যাংকে অ্যাকাউন্ট খোলার পদ্ধতি জানা",
+      "টাকা জমা, উত্তোলন এবং পাঠানোর উপায় শেখা",
+      "মুদ্রা বিনিময় বা মানি এক্সচেঞ্জ সম্পর্কে জানা"
+    ],
+    "en": [
+      "Learn how to open a bank account",
+      "Learn how to deposit, withdraw, and remit money",
+      "Understand how to exchange currency"
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "은행",
+      "romanization": "eunhaeng",
+      "bn": "ব্যাংক",
+      "en": "bank",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 은행에 갑니다.",
+        "bn": "আমি ব্যাংকে যাই।",
+        "en": "I am going to the bank."
+      }
+    },
+    {
+      "ko": "통장",
+      "romanization": "tongjang",
+      "bn": "ব্যাংকবুক / পাসবুক",
+      "en": "bankbook",
+      "pos": "noun",
+      "example": {
+        "ko": "통장을 만들고 싶어요.",
+        "bn": "আমি একটি ব্যাংকবুক তৈরি করতে চাই।",
+        "en": "I want to make a bankbook."
+      }
+    },
+    {
+      "ko": "신분증",
+      "romanization": "sinbunjeung",
+      "bn": "পরিচয়পত্র",
+      "en": "ID card",
+      "pos": "noun",
+      "example": {
+        "ko": "신분증을 주세요.",
+        "bn": "আপনার পরিচয়পত্র দিন।",
+        "en": "Please give me your ID card."
+      }
+    },
+    {
+      "ko": "계좌 번호",
+      "romanization": "gyejwa beonho",
+      "bn": "অ্যাকাউন্ট নম্বর",
+      "en": "account number",
+      "pos": "noun",
+      "example": {
+        "ko": "계좌 번호를 잊어버렸어요.",
+        "bn": "আমি অ্যাকাউন্ট নম্বর ভুলে গেছি।",
+        "en": "I forgot my account number."
+      }
+    },
+    {
+      "ko": "현금 자동 입출금기",
+      "romanization": "hyeongeum jadong ipchulgeumgi",
+      "bn": "এটিএম (ATM)",
+      "en": "ATM",
+      "pos": "noun",
+      "example": {
+        "ko": "현금 자동 입출금기에서 돈을 찾아요.",
+        "bn": "আমি এটিএম থেকে টাকা তুলি।",
+        "en": "I withdraw money from the ATM."
+      }
+    },
+    {
+      "ko": "입금하다",
+      "romanization": "ipgeumhada",
+      "bn": "টাকা জমা দেওয়া",
+      "en": "to deposit",
+      "pos": "verb",
+      "example": {
+        "ko": "통장에 돈을 입금했어요.",
+        "bn": "আমি ব্যাংকবুকে টাকা জমা দিয়েছি।",
+        "en": "I deposited money into the bankbook."
+      }
+    },
+    {
+      "ko": "출금하다",
+      "romanization": "chulgeumhada",
+      "bn": "টাকা তোলা",
+      "en": "to withdraw",
+      "pos": "verb",
+      "example": {
+        "ko": "오늘 돈을 출금해야 해요.",
+        "bn": "আজ আমাকে টাকা তুলতে হবে।",
+        "en": "I need to withdraw money today."
+      }
+    },
+    {
+      "ko": "송금하다",
+      "romanization": "songgeumhada",
+      "bn": "টাকা পাঠানো (রেমিট্যান্স)",
+      "en": "to remit / to transfer",
+      "pos": "verb",
+      "example": {
+        "ko": "고향에 돈을 송금했어요.",
+        "bn": "আমি দেশে টাকা পাঠিয়েছি।",
+        "en": "I remitted money to my hometown."
+      }
+    },
+    {
+      "ko": "환전하다",
+      "romanization": "hwanjeonhada",
+      "bn": "মুদ্রা বিনিময় করা",
+      "en": "to exchange money",
+      "pos": "verb",
+      "example": {
+        "ko": "달러를 한국 돈으로 환전하고 싶어요.",
+        "bn": "আমি ডলারকে কোরিয়ান টাকায় পরিবর্তন করতে চাই।",
+        "en": "I want to exchange dollars for Korean money."
+      }
+    },
+    {
+      "ko": "비밀번호",
+      "romanization": "bimilbeonho",
+      "bn": "পাসওয়ার্ড / পিন নম্বর",
+      "en": "password / PIN",
+      "pos": "noun",
+      "example": {
+        "ko": "비밀번호를 누르세요.",
+        "bn": "আপনার পিন নম্বর চাপুন।",
+        "en": "Please press your PIN."
+      }
+    },
+    {
+      "ko": "서명하다",
+      "romanization": "seomyeonghada",
+      "bn": "স্বাক্ষর করা",
+      "en": "to sign",
+      "pos": "verb",
+      "example": {
+        "ko": "여기에 서명해 주세요.",
+        "bn": "দয়া করে এখানে স্বাক্ষর করুন।",
+        "en": "Please sign here."
+      }
+    },
+    {
+      "ko": "수수료",
+      "romanization": "susuryo",
+      "bn": "ফি / চার্জ",
+      "en": "fee / commission",
+      "pos": "noun",
+      "example": {
+        "ko": "송금 수수료가 얼마예요?",
+        "bn": "টাকা পাঠানোর চার্জ কত?",
+        "en": "How much is the remittance fee?"
+      }
+    },
+    {
+      "ko": "체크카드",
+      "romanization": "chekeukadeu",
+      "bn": "ডেবিট কার্ড",
+      "en": "debit card / check card",
+      "pos": "noun",
+      "example": {
+        "ko": "체크카드로 계산할게요.",
+        "bn": "আমি ডেবিট কার্ড দিয়ে বিল দেব।",
+        "en": "I will pay with a debit card."
+      }
+    },
+    {
+      "ko": "외국인 등록증",
+      "romanization": "oegugin deungnokjeung",
+      "bn": "বিদেশী নিবন্ধন কার্ড (ARC)",
+      "en": "Alien Registration Card",
+      "pos": "noun",
+      "example": {
+        "ko": "외국인 등록증을 가져왔어요.",
+        "bn": "আমি বিদেশী নিবন্ধন কার্ড এনেছি।",
+        "en": "I brought my Alien Registration Card."
+      }
+    },
+    {
+      "ko": "환율",
+      "romanization": "hwanyul",
+      "bn": "বিনিময় হার",
+      "en": "exchange rate",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 환율이 좋아요.",
+        "bn": "আজকের বিনিময় হার ভালো।",
+        "en": "The exchange rate is good today."
+      }
+    },
+    {
+      "ko": "창구",
+      "romanization": "changgu",
+      "bn": "কাউন্টার",
+      "en": "counter / teller window",
+      "pos": "noun",
+      "example": {
+        "ko": "3번 창구로 가세요.",
+        "bn": "৩ নম্বর কাউন্টারে যান।",
+        "en": "Please go to counter number 3."
+      }
+    },
+    {
+      "ko": "대기표",
+      "romanization": "daegipyo",
+      "bn": "অপেক্ষার টিকিট",
+      "en": "waiting ticket",
+      "pos": "noun",
+      "example": {
+        "ko": "대기표를 뽑고 기다리세요.",
+        "bn": "অপেক্ষার টিকিট তুলে অপেক্ষা করুন।",
+        "en": "Please take a waiting ticket and wait."
+      }
+    },
+    {
+      "ko": "도장",
+      "romanization": "dojang",
+      "bn": "সিলমোহর / স্ট্যাম্প",
+      "en": "seal / stamp",
+      "pos": "noun",
+      "example": {
+        "ko": "도장이 필요합니까?",
+        "bn": "সিলমোহর কি দরকার?",
+        "en": "Do you need a seal?"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "-(으)려면",
+      "titleBn": "-(으)려면 (উদ্দেশ্য বা শর্ত)",
+      "explanationBn": "কোনো কাজ করার উদ্দেশ্য বা ইচ্ছা থাকলে কী করতে হবে তা বোঝাতে এই ব্যাকরণ ব্যবহৃত হয়। ক্রিয়াপদের শেষে ব্যঞ্জনবর্ণ থাকলে '-으려면' এবং স্বরবর্ণ বা 'ㄹ' থাকলে '-려면' যুক্ত হয়।",
+      "explanationEn": "Used to express a condition to fulfill an intention or plan. It translates to 'if one intends to do...'.",
+      "examples": [
+        {
+          "ko": "통장을 만들려면 신분증이 필요해요.",
+          "bn": "ব্যাংকবুক তৈরি করতে চাইলে পরিচয়পত্র দরকার।",
+          "en": "If you want to make a bankbook, you need an ID card."
+        },
+        {
+          "ko": "고향에 돈을 보내려면 은행에 가야 해요.",
+          "bn": "দেশে টাকা পাঠাতে চাইলে ব্যাংকে যেতে হবে।",
+          "en": "If you intend to send money to your hometown, you have to go to the bank."
+        }
+      ]
+    },
+    {
+      "pattern": "-(으)면 되다",
+      "titleBn": "-(으)면 되다 (যথেষ্ট হওয়া)",
+      "explanationBn": "কোনো কাজ করার জন্য একটি নির্দিষ্ট শর্ত পূরণ করলেই চলবে বা যথেষ্ট হবে, তা বোঝাতে এটি ব্যবহৃত হয়। ব্যঞ্জনবর্ণের পর '-으면 되다' এবং স্বরবর্ণ বা 'ㄹ' এর পর '-면 되다' বসে।",
+      "explanationEn": "Used to indicate that a certain action or condition is sufficient. It translates to 'you just need to...' or 'it is enough if...'.",
+      "examples": [
+        {
+          "ko": "여기에 서명하시면 됩니다.",
+          "bn": "এখানে স্বাক্ষর করলেই হবে।",
+          "en": "You just need to sign here."
+        },
+        {
+          "ko": "비밀번호를 누르면 돼요.",
+          "bn": "পিন নম্বর চাপলেই হবে।",
+          "en": "You just need to press the PIN."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "ব্যাংকবুক তৈরি করা",
+      "titleEn": "Making a Bankbook",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "어떻게 오셨습니까?",
+          "bn": "আমি আপনাকে কীভাবে সাহায্য করতে পারি?",
+          "en": "How may I help you?"
+        },
+        {
+          "speaker": "라힘",
+          "ko": "통장을 만들고 싶어요.",
+          "bn": "আমি একটি ব্যাংকবুক তৈরি করতে চাই।",
+          "en": "I want to make a bankbook."
+        },
+        {
+          "speaker": "직원",
+          "ko": "신분증을 가지고 오셨습니까?",
+          "bn": "আপনি কি পরিচয়পত্র নিয়ে এসেছেন?",
+          "en": "Did you bring your ID card?"
+        },
+        {
+          "speaker": "라힘",
+          "ko": "네, 여기 외국인 등록증이 있습니다.",
+          "bn": "হ্যাঁ, এই যে আমার বিদেশী নিবন্ধন কার্ড।",
+          "en": "Yes, here is my Alien Registration Card."
+        },
+        {
+          "speaker": "직원",
+          "ko": "여기에 서명해 주세요. 그리고 비밀번호를 눌러 주세요.",
+          "bn": "দয়া করে এখানে স্বাক্ষর করুন। এবং পিন নম্বর চাপুন।",
+          "en": "Please sign here. And please press your PIN."
+        }
+      ]
+    },
+    {
+      "titleBn": "টাকা পাঠানো",
+      "titleEn": "Remitting Money",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "무엇을 도와드릴까요?",
+          "bn": "আমি আপনাকে কী সাহায্য করতে পারি?",
+          "en": "How can I help you?"
+        },
+        {
+          "speaker": "수잔",
+          "ko": "방글라데시로 송금하려고 하는데요.",
+          "bn": "আমি বাংলাদেশে টাকা পাঠাতে চাই।",
+          "en": "I would like to remit money to Bangladesh."
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 송금하려면 이 신청서를 써 주세요.",
+          "bn": "হ্যাঁ, টাকা পাঠাতে চাইলে এই আবেদনপত্রটি পূরণ করুন।",
+          "en": "Yes, if you want to remit money, please fill out this application form."
+        },
+        {
+          "speaker": "수잔",
+          "ko": "수수료는 얼마예요?",
+          "bn": "চার্জ কত?",
+          "en": "How much is the fee?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "오천 원입니다. 현금으로 내시면 됩니다.",
+          "bn": "পাঁচ হাজার ওন। নগদ টাকা দিলেই হবে।",
+          "en": "It is 5,000 won. You just need to pay in cash."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "통장",
+        "신분증",
+        "수수료",
+        "환율"
+      ],
+      "answer": 1,
+      "explanationBn": "ব্যাংকে নিজের পরিচয় প্রমাণের জন্য '신분증' (পরিচয়পত্র) প্রয়োজন।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "입금합니다",
+        "출금합니다",
+        "환전합니다",
+        "송금합니다"
+      ],
+      "answer": 3,
+      "explanationBn": "고향에 돈을 보내다 (দেশে টাকা পাঠানো) এর সমার্থক শব্দ হলো '송금하다' (রেমিট্যান্স করা)।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক ব্যাকরণটি বেছে নিন।",
+      "questionKo": "알맞은 문법을 고르십시오.",
+      "options": [
+        "만들면",
+        "만들려면",
+        "만들어서",
+        "만들고"
+      ],
+      "answer": 1,
+      "explanationBn": "ব্যাংকবুক তৈরি করার উদ্দেশ্য বোঝাতে '-(으)려면' ব্যবহৃত হয়, তাই '만들려면' সঠিক।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "알맞은 것을 고르십시오.",
+      "options": [
+        "서명하면 됩니다",
+        "서명하려면",
+        "서명하고 싶습니다",
+        "서명하지 마세요"
+      ],
+      "answer": 0,
+      "explanationBn": "এখানে স্বাক্ষর করলেই হবে বোঝাতে '서명하면 됩니다' সঠিক।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "대기표",
+        "비밀번호",
+        "계좌 번호",
+        "도장"
+      ],
+      "answer": 0,
+      "explanationBn": "ব্যাংকে গিয়ে প্রথমে '대기표' (অপেক্ষার টিকিট) নিতে হয়।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "환전하고",
+        "입금하고",
+        "출금하고",
+        "송금하고"
+      ],
+      "answer": 0,
+      "explanationBn": "ডলারকে কোরিয়ান টাকায় পরিবর্তন করাকে '환전하다' (মুদ্রা বিনিময় করা) বলে।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "창구",
+        "현금 자동 입출금기",
+        "외국인 등록증",
+        "수수료"
+      ],
+      "answer": 1,
+      "explanationBn": "এটিএম থেকে টাকা তোলা যায়, তাই '현금 자동 입출금기' সঠিক।"
+    },
+    {
+      "id": "p8",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "pairs": [
+        {
+          "left": "은행",
+          "right": "ব্যাংক"
+        },
+        {
+          "left": "통장",
+          "right": "ব্যাংকবুক"
+        },
+        {
+          "left": "신분증",
+          "right": "পরিচয়পত্র"
+        },
+        {
+          "left": "수수료",
+          "right": "ফি / চার্জ"
+        }
+      ],
+      "explanationBn": "সঠিক শব্দার্থ মেলানো হয়েছে।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "pairs": [
+        {
+          "left": "입금하다",
+          "right": "টাকা জমা দেওয়া"
+        },
+        {
+          "left": "출금하다",
+          "right": "টাকা তোলা"
+        },
+        {
+          "left": "송금하다",
+          "right": "টাকা পাঠানো"
+        },
+        {
+          "left": "환전하다",
+          "right": "মুদ্রা বিনিময় করা"
+        }
+      ],
+      "explanationBn": "সঠিক শব্দার্থ মেলানো হয়েছে।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "pairs": [
+        {
+          "left": "비밀번호",
+          "right": "পাসওয়ার্ড"
+        },
+        {
+          "left": "서명하다",
+          "right": "স্বাক্ষর করা"
+        },
+        {
+          "left": "계좌 번호",
+          "right": "অ্যাকাউন্ট নম্বর"
+        },
+        {
+          "left": "대기표",
+          "right": "অপেক্ষার টিকিট"
+        }
+      ],
+      "explanationBn": "সঠিক শব্দার্থ মেলানো হয়েছে।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "가: 은행에서 돈을 찾으려면 어떻게 해야 해요?\n나: ( )에 가서 카드를 넣고 비밀번호를 누르면 돼요.",
+      "options": [
+        "창구",
+        "현금 자동 입출금기",
+        "대기표",
+        "신분증"
+      ],
+      "answer": 1,
+      "explanationBn": "টাকা তোলার জন্য কার্ড ঢুকিয়ে পিন নম্বর চাপতে হয় '현금 자동 입출금기' (এটিএম)-এ।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "가: 고향에 돈을 ( ) 하는데요.\n나: 그럼 이 신청서를 써 주세요.",
+      "options": [
+        "입금하려고",
+        "출금하려고",
+        "송금하려고",
+        "환전하려고"
+      ],
+      "answer": 2,
+      "explanationBn": "দেশে টাকা পাঠানোর কথা বলা হয়েছে, তাই '송금하려고' (টাকা পাঠাতে চাই) সঠিক।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "가: 달러를 한국 돈으로 바꾸고 싶어요.\n나: 네, 오늘 ( )이/가 아주 좋습니다.",
+      "options": [
+        "수수료",
+        "환율",
+        "계좌 번호",
+        "비밀번호"
+      ],
+      "answer": 1,
+      "explanationBn": "ডলারকে কোরিয়ান টাকায় পরিবর্তন করার ক্ষেত্রে '환율' (বিনিময় হার) গুরুত্বপূর্ণ।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "은행에 사람이 많습니다. 그래서 먼저 ( )을/를 뽑고 기다려야 합니다.",
+      "options": [
+        "통장",
+        "도장",
+        "대기표",
+        "신분증"
+      ],
+      "answer": 2,
+      "explanationBn": "ব্যাংকে ভিড় থাকলে প্রথমে '대기표' (অপেক্ষার টিকিট) নিতে হয়।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "가: 통장을 만들고 싶어요.\n나: 네, ( )을/를 주시겠어요?",
+      "options": [
+        "외국인 등록증",
+        "수수료",
+        "현금",
+        "대기표"
+      ],
+      "answer": 0,
+      "explanationBn": "ব্যাংকবুক তৈরি করতে পরিচয়পত্র বা '외국인 등록증' (বিদেশী নিবন্ধন কার্ড) প্রয়োজন।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 어떻게 오셨습니까?\n남: 통장을 만들려고 하는데요.\n여: 신분증을 가지고 오셨습니까?\n남: 네, 여기 있습니다.",
+      "options": [
+        "남자는 돈을 찾으려고 합니다.",
+        "남자는 고향에 돈을 보내려고 합니다.",
+        "남자는 통장을 만들려고 합니다.",
+        "남자는 환전을 하려고 합니다."
+      ],
+      "answer": 2,
+      "explanationBn": "পুরুষটি বলেছে '통장을 만들려고 하는데요' (আমি ব্যাংকবুক তৈরি করতে চাই)। তাই সঠিক উত্তর ৩।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남: 방글라데시로 송금하고 싶은데요.\n여: 네, 이 신청서를 써 주세요. 그리고 수수료는 오천 원입니다.",
+      "options": [
+        "남자는 신청서를 쓰지 않았습니다.",
+        "수수료는 만 원입니다.",
+        "남자는 방글라데시로 돈을 보냅니다.",
+        "여자는 방글라데시 사람입니다."
+      ],
+      "answer": 2,
+      "explanationBn": "পুরুষটি বাংলাদেশে টাকা পাঠাতে চায় (송금하고 싶은데요)। তাই সঠিক উত্তর ৩।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 비밀번호를 잊어버렸어요. 어떻게 해야 해요?\n남: 신분증을 가지고 창구로 가시면 됩니다.",
+      "options": [
+        "여자는 비밀번호를 알고 있습니다.",
+        "여자는 창구에 가야 합니다.",
+        "남자는 비밀번호를 잊어버렸습니다.",
+        "여자는 신분증이 없습니다."
+      ],
+      "answer": 1,
+      "explanationBn": "মহিলাটি পিন নম্বর ভুলে গেছে, তাই তাকে পরিচয়পত্র নিয়ে কাউন্টারে (창구) যেতে হবে। তাই সঠিক উত্তর ২।"
+    }
+  ]
+}

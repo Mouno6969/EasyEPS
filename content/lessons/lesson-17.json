@@ -1,0 +1,675 @@
+{
+  "chapter": 17,
+  "slug": "vacation",
+  "title": {
+    "ko": "휴가",
+    "bn": "ছুটি ও ভ্রমণ",
+    "en": "Vacation"
+  },
+  "category": "daily-life",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "ছুটি ও ভ্রমণের পরিকল্পনা সম্পর্কে কথা বলতে শেখা",
+      "ভ্রমণের অভিজ্ঞতা বর্ণনা করতে শেখা",
+      "ভ্রমণ সম্পর্কিত শব্দভাণ্ডার আয়ত্ত করা"
+    ],
+    "en": [
+      "Learn to talk about vacation and travel plans",
+      "Learn to describe travel experiences",
+      "Master vocabulary related to travel"
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "휴가",
+      "romanization": "hyuga",
+      "bn": "ছুটি",
+      "en": "vacation",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 휴가에 제주도에 갈 거예요.",
+        "bn": "এই ছুটিতে আমি জেজু দ্বীপে যাব।",
+        "en": "I will go to Jeju Island this vacation."
+      }
+    },
+    {
+      "ko": "여행",
+      "romanization": "yeohaeng",
+      "bn": "ভ্রমণ",
+      "en": "travel/trip",
+      "pos": "noun",
+      "example": {
+        "ko": "여행을 좋아해요.",
+        "bn": "আমি ভ্রমণ পছন্দ করি।",
+        "en": "I like traveling."
+      }
+    },
+    {
+      "ko": "산",
+      "romanization": "san",
+      "bn": "পাহাড়",
+      "en": "mountain",
+      "pos": "noun",
+      "example": {
+        "ko": "주말에 산에 가요.",
+        "bn": "সপ্তাহান্তে পাহাড়ে যাই।",
+        "en": "I go to the mountain on weekends."
+      }
+    },
+    {
+      "ko": "바다",
+      "romanization": "bada",
+      "bn": "সমুদ্র",
+      "en": "sea/ocean",
+      "pos": "noun",
+      "example": {
+        "ko": "여름에는 바다가 좋아요.",
+        "bn": "গ্রীষ্মকালে সমুদ্র ভালো লাগে।",
+        "en": "The sea is nice in summer."
+      }
+    },
+    {
+      "ko": "섬",
+      "romanization": "seom",
+      "bn": "দ্বীপ",
+      "en": "island",
+      "pos": "noun",
+      "example": {
+        "ko": "제주도는 아름다운 섬이에요.",
+        "bn": "জেজু একটি সুন্দর দ্বীপ।",
+        "en": "Jeju is a beautiful island."
+      }
+    },
+    {
+      "ko": "온천",
+      "romanization": "oncheon",
+      "bn": "উষ্ণ প্রস্রবণ",
+      "en": "hot spring",
+      "pos": "noun",
+      "example": {
+        "ko": "겨울에 온천에 가고 싶어요.",
+        "bn": "শীতকালে উষ্ণ প্রস্রবণে যেতে চাই।",
+        "en": "I want to go to a hot spring in winter."
+      }
+    },
+    {
+      "ko": "유적지",
+      "romanization": "yujeokji",
+      "bn": "ঐতিহাসিক স্থান",
+      "en": "historic site",
+      "pos": "noun",
+      "example": {
+        "ko": "경주에는 유적지가 많아요.",
+        "bn": "গিয়ংজুতে অনেক ঐতিহাসিক স্থান আছে।",
+        "en": "There are many historic sites in Gyeongju."
+      }
+    },
+    {
+      "ko": "민속촌",
+      "romanization": "minsokchon",
+      "bn": "লোকজ গ্রাম",
+      "en": "folk village",
+      "pos": "noun",
+      "example": {
+        "ko": "민속촌에서 한복을 입었어요.",
+        "bn": "লোকজ গ্রামে আমি হানবক পরেছিলাম।",
+        "en": "I wore Hanbok at the folk village."
+      }
+    },
+    {
+      "ko": "아름답다",
+      "romanization": "areumdapda",
+      "bn": "সুন্দর",
+      "en": "beautiful",
+      "pos": "adjective",
+      "example": {
+        "ko": "경치가 정말 아름다워요.",
+        "bn": "দৃশ্যটি সত্যিই সুন্দর।",
+        "en": "The scenery is really beautiful."
+      }
+    },
+    {
+      "ko": "유명하다",
+      "romanization": "yumyeonghada",
+      "bn": "বিখ্যাত",
+      "en": "famous",
+      "pos": "adjective",
+      "example": {
+        "ko": "이 식당은 비빔밥으로 유명해요.",
+        "bn": "এই রেস্তোরাঁটি বিবিমবাপের জন্য বিখ্যাত।",
+        "en": "This restaurant is famous for bibimbap."
+      }
+    },
+    {
+      "ko": "경치가 좋다",
+      "romanization": "gyeongchiga jota",
+      "bn": "দৃশ্য ভালো",
+      "en": "good scenery",
+      "pos": "expression",
+      "example": {
+        "ko": "여기는 경치가 참 좋네요.",
+        "bn": "এখানকার দৃশ্য সত্যিই ভালো।",
+        "en": "The scenery here is really good."
+      }
+    },
+    {
+      "ko": "사람들이 친절하다",
+      "romanization": "saramdeuri chinjeolhada",
+      "bn": "মানুষ দয়ালু",
+      "en": "people are kind",
+      "pos": "expression",
+      "example": {
+        "ko": "한국 사람들은 친절해요.",
+        "bn": "কোরিয়ান মানুষ দয়ালু।",
+        "en": "Korean people are kind."
+      }
+    },
+    {
+      "ko": "여행을 계획하다",
+      "romanization": "yeohaengeul gyehoekhada",
+      "bn": "ভ্রমণের পরিকল্পনা করা",
+      "en": "plan a trip",
+      "pos": "expression",
+      "example": {
+        "ko": "친구와 여행을 계획하고 있어요.",
+        "bn": "বন্ধুর সাথে ভ্রমণের পরিকল্পনা করছি।",
+        "en": "I am planning a trip with a friend."
+      }
+    },
+    {
+      "ko": "표를 사다",
+      "romanization": "pyoreul sada",
+      "bn": "টিকিট কেনা",
+      "en": "buy a ticket",
+      "pos": "expression",
+      "example": {
+        "ko": "기차표를 샀어요.",
+        "bn": "ট্রেনের টিকিট কিনেছি।",
+        "en": "I bought a train ticket."
+      }
+    },
+    {
+      "ko": "숙소를 예약하다",
+      "romanization": "suksoreul yeyakhada",
+      "bn": "থাকার জায়গা বুক করা",
+      "en": "book accommodation",
+      "pos": "expression",
+      "example": {
+        "ko": "인터넷으로 숙소를 예약했어요.",
+        "bn": "ইন্টারনেটে থাকার জায়গা বুক করেছি।",
+        "en": "I booked accommodation on the internet."
+      }
+    },
+    {
+      "ko": "짐을 싸다",
+      "romanization": "jimeul ssada",
+      "bn": "ব্যাগ গোছানো",
+      "en": "pack luggage",
+      "pos": "expression",
+      "example": {
+        "ko": "내일 출발이라서 짐을 싸고 있어요.",
+        "bn": "আগামীকাল রওনা হব তাই ব্যাগ গোছাচ্ছি।",
+        "en": "I am packing my luggage because I depart tomorrow."
+      }
+    },
+    {
+      "ko": "출발하다",
+      "romanization": "chulbalhada",
+      "bn": "রওনা হওয়া",
+      "en": "depart",
+      "pos": "verb",
+      "example": {
+        "ko": "아침 8시에 출발할 거예요.",
+        "bn": "সকাল ৮টায় রওনা হব।",
+        "en": "I will depart at 8 AM."
+      }
+    },
+    {
+      "ko": "도착하다",
+      "romanization": "dochakhada",
+      "bn": "পৌঁছানো",
+      "en": "arrive",
+      "pos": "verb",
+      "example": {
+        "ko": "오후 2시에 도착했어요.",
+        "bn": "দুপুর ২টায় পৌঁছেছি।",
+        "en": "I arrived at 2 PM."
+      }
+    },
+    {
+      "ko": "기념품을 사다",
+      "romanization": "ginyeompumeul sada",
+      "bn": "স্মৃতিচিহ্ন কেনা",
+      "en": "buy souvenirs",
+      "pos": "expression",
+      "example": {
+        "ko": "시장에서 기념품을 샀어요.",
+        "bn": "বাজার থেকে স্মৃতিচিহ্ন কিনেছি।",
+        "en": "I bought souvenirs at the market."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + 아/어 보다",
+      "titleBn": "অভিজ্ঞতা প্রকাশ (아/어 보다)",
+      "explanationBn": "ক্রিয়ার সাথে যুক্ত হয়ে কোনো কাজ করার অভিজ্ঞতা বোঝায়। এর অর্থ 'কোনো কিছু করে দেখা'।",
+      "explanationEn": "Attached to a verb to express an experience of doing something. It means 'to try doing something'.",
+      "examples": [
+        {
+          "ko": "제주도에 가 봤어요.",
+          "bn": "আমি জেজু দ্বীপে গিয়েছি (যাওয়ার অভিজ্ঞতা আছে)।",
+          "en": "I have been to Jeju Island."
+        },
+        {
+          "ko": "불고기를 먹어 봤어요.",
+          "bn": "আমি বুলগোগি খেয়ে দেখেছি।",
+          "en": "I have tried eating Bulgogi."
+        },
+        {
+          "ko": "한복을 입어 봤어요?",
+          "bn": "আপনি কি হানবক পরে দেখেছেন?",
+          "en": "Have you tried wearing Hanbok?"
+        }
+      ]
+    },
+    {
+      "pattern": "V + (으)ㄹ 거예요",
+      "titleBn": "ভবিষ্যৎ কাল ((으)ㄹ 거예요)",
+      "explanationBn": "ক্রিয়ার সাথে যুক্ত হয়ে ভবিষ্যৎ পরিকল্পনা বা ইচ্ছা প্রকাশ করে। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '을 거예요' এবং স্বরবর্ণ দিয়ে শেষ হলে 'ㄹ 거예요' বসে।",
+      "explanationEn": "Attached to a verb to express a future plan or intention. '을 거예요' is used after a consonant, and 'ㄹ 거예요' is used after a vowel.",
+      "examples": [
+        {
+          "ko": "내일 부산에 갈 거예요.",
+          "bn": "আগামীকাল বুসানে যাব।",
+          "en": "I will go to Busan tomorrow."
+        },
+        {
+          "ko": "주말에 집에서 쉴 거예요.",
+          "bn": "সপ্তাহান্তে বাড়িতে বিশ্রাম নেব।",
+          "en": "I will rest at home on the weekend."
+        },
+        {
+          "ko": "이번 휴가에 무엇을 할 거예요?",
+          "bn": "এই ছুটিতে কী করবেন?",
+          "en": "What will you do this vacation?"
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "ভ্রমণের অভিজ্ঞতা",
+      "titleEn": "Travel Experience",
+      "lines": [
+        {
+          "speaker": "투안",
+          "ko": "리한 씨는 제주도에 가 봤어요?",
+          "bn": "রিহান সাহেব, আপনি কি জেজু দ্বীপে গিয়েছেন?",
+          "en": "Rihan, have you been to Jeju Island?"
+        },
+        {
+          "speaker": "리한",
+          "ko": "네, 가 봤어요.",
+          "bn": "হ্যাঁ, গিয়েছি।",
+          "en": "Yes, I have."
+        },
+        {
+          "speaker": "투안",
+          "ko": "제주도가 어땠어요? 좋았어요?",
+          "bn": "জেজু দ্বীপ কেমন ছিল? ভালো লেগেছিল?",
+          "en": "How was Jeju Island? Was it good?"
+        },
+        {
+          "speaker": "리한",
+          "ko": "네, 정말 좋았어요. 특히 바다가 너무 아름다웠어요.",
+          "bn": "হ্যাঁ, সত্যিই ভালো ছিল। বিশেষ করে সমুদ্র খুব সুন্দর ছিল।",
+          "en": "Yes, it was really good. Especially the sea was very beautiful."
+        },
+        {
+          "speaker": "투안",
+          "ko": "그래요? 저도 제주도에 가 보고 싶어요.",
+          "bn": "তাই নাকি? আমিও জেজু দ্বীপে যেতে চাই।",
+          "en": "Really? I want to go to Jeju Island too."
+        }
+      ]
+    },
+    {
+      "titleBn": "ছুটির পরিকল্পনা",
+      "titleEn": "Vacation Plans",
+      "lines": [
+        {
+          "speaker": "수루",
+          "ko": "투안 씨, 이번 휴가에 뭐 할 거예요?",
+          "bn": "তুয়ান সাহেব, এই ছুটিতে কী করবেন?",
+          "en": "Tuan, what will you do this vacation?"
+        },
+        {
+          "speaker": "투안",
+          "ko": "저는 친구하고 설악산에 갈 거예요.",
+          "bn": "আমি বন্ধুর সাথে সরাক পাহাড়ে যাব।",
+          "en": "I will go to Seorak Mountain with a friend."
+        },
+        {
+          "speaker": "수루",
+          "ko": "수루 씨는 뭐 할 거예요?",
+          "bn": "সুরু সাহেব, আপনি কী করবেন?",
+          "en": "Suru, what will you do?"
+        },
+        {
+          "speaker": "투안",
+          "ko": "저는 제주도에 다녀올 거예요.",
+          "bn": "আমি জেজু দ্বীপ থেকে ঘুরে আসব।",
+          "en": "I will go to Jeju Island and come back."
+        },
+        {
+          "speaker": "수루",
+          "ko": "비행기 표는 샀어요?",
+          "bn": "বিমানের টিকিট কিনেছেন?",
+          "en": "Did you buy the airplane ticket?"
+        },
+        {
+          "speaker": "투안",
+          "ko": "네, 숙소도 벌써 다 예약했어요.",
+          "bn": "হ্যাঁ, থাকার জায়গাও ইতিমধ্যে সব বুক করে ফেলেছি।",
+          "en": "Yes, I have already booked the accommodation too."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "바다",
+        "산",
+        "섬",
+        "온천"
+      ],
+      "answer": 1,
+      "explanationBn": "설악산 (সরাক পাহাড়) একটি পাহাড়, তাই সঠিক উত্তর '산' (পাহাড়)।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "아름다워요",
+        "유명해요",
+        "친절해요",
+        "도착해요"
+      ],
+      "answer": 0,
+      "explanationBn": "경치가 (দৃশ্য) এর সাথে 아름다워요 (সুন্দর) শব্দটি মানানসই।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক ব্যাকরণটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "가 봤어요",
+        "갈 거예요",
+        "가고 싶어요",
+        "가세요"
+      ],
+      "answer": 0,
+      "explanationBn": "অতীতের অভিজ্ঞতা বোঝাতে '가 봤어요' (গিয়েছি) ব্যবহৃত হয়।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক ব্যাকরণটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "할 거예요",
+        "해 봤어요",
+        "하고 싶어요",
+        "하세요"
+      ],
+      "answer": 0,
+      "explanationBn": "ভবিষ্যতের পরিকল্পনা বোঝাতে '할 거예요' (করব) ব্যবহৃত হয়।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "표를 사요",
+        "짐을 싸요",
+        "출발해요",
+        "도착해요"
+      ],
+      "answer": 1,
+      "explanationBn": "ভ্রমণে যাওয়ার আগে '짐을 싸요' (ব্যাগ গোছানো) হয়।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "예약했어요",
+        "도착했어요",
+        "출발했어요",
+        "샀어요"
+      ],
+      "answer": 0,
+      "explanationBn": "숙소 (থাকার জায়গা) এর সাথে 예약했어요 (বুক করেছি) মানানসই।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "기념품",
+        "숙소",
+        "표",
+        "짐"
+      ],
+      "answer": 0,
+      "explanationBn": "ভ্রমণ শেষে সাধারণত '기념품' (স্মৃতিচিহ্ন) কেনা হয়।"
+    },
+    {
+      "id": "p8",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "휴가",
+          "right": "ছুটি"
+        },
+        {
+          "left": "여행",
+          "right": "ভ্রমণ"
+        },
+        {
+          "left": "바다",
+          "right": "সমুদ্র"
+        },
+        {
+          "left": "섬",
+          "right": "দ্বীপ"
+        }
+      ],
+      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "아름답다",
+          "right": "সুন্দর"
+        },
+        {
+          "left": "유명하다",
+          "right": "বিখ্যাত"
+        },
+        {
+          "left": "친절하다",
+          "right": "দয়ালু"
+        },
+        {
+          "left": "출발하다",
+          "right": "রওনা হওয়া"
+        }
+      ],
+      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "কোরিয়ান বাক্যাংশের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "표를 사다",
+          "right": "টিকিট কেনা"
+        },
+        {
+          "left": "숙소를 예약하다",
+          "right": "থাকার জায়গা বুক করা"
+        },
+        {
+          "left": "짐을 싸다",
+          "right": "ব্যাগ গোছানো"
+        },
+        {
+          "left": "기념품을 사다",
+          "right": "স্মৃতিচিহ্ন কেনা"
+        }
+      ],
+      "explanationBn": "বাক্যাংশগুলোর সঠিক অর্থ মেলানো হয়েছে।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 이번 휴가에 뭐 할 거예요?\n나: 제주도에 (    ).",
+      "options": [
+        "갔어요",
+        "갈 거예요",
+        "가 봤어요",
+        "가세요"
+      ],
+      "answer": 1,
+      "explanationBn": "ভবিষ্যতের পরিকল্পনা জানতে চাওয়া হয়েছে, তাই '갈 거예요' (যাব) সঠিক উত্তর।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 제주도가 어땠어요?\n나: 경치가 정말 (    ).",
+      "options": [
+        "아름다웠어요",
+        "친절했어요",
+        "유명했어요",
+        "도착했어요"
+      ],
+      "answer": 0,
+      "explanationBn": "경치 (দৃশ্য) এর সাথে 아름다웠어요 (সুন্দর ছিল) মানানসই।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "내일 여행을 갑니다. 그래서 지금 (    )을/를 싸고 있습니다.",
+      "options": [
+        "표",
+        "숙소",
+        "짐",
+        "기념품"
+      ],
+      "answer": 2,
+      "explanationBn": "ভ্রমণে যাওয়ার আগে '짐' (ব্যাগ) গোছানো হয়।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 질문에 답하십시오.",
+      "passage": "저는 이번 휴가에 친구하고 부산에 갈 거예요. 우리는 어제 기차표를 샀어요. 그리고 인터넷으로 숙소도 예약했어요. 부산 바다가 아주 아름다울 거예요. 빨리 가고 싶어요.",
+      "options": [
+        "이 사람은 혼자 부산에 갈 거예요.",
+        "이 사람은 아직 기차표를 안 샀어요.",
+        "이 사람은 인터넷으로 숙소를 예약했어요.",
+        "이 사람은 부산 바다에 가 봤어요."
+      ],
+      "answer": 2,
+      "explanationBn": "অনুচ্ছেদে বলা হয়েছে '인터넷으로 숙소도 예약했어요' (ইন্টারনেটে থাকার জায়গাও বুক করেছি), তাই ৩ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 질문에 답하십시오.",
+      "passage": "지난 주말에 경주에 다녀왔어요. 경주에는 유적지가 많아서 구경할 곳이 많았어요. 불국사도 가 보고 박물관도 구경했어요. 날씨도 좋고 사람들도 친절해서 아주 즐거운 여행이었어요.",
+      "options": [
+        "이 사람은 이번 주말에 경주에 갈 거예요.",
+        "경주에는 구경할 곳이 별로 없어요.",
+        "이 사람은 불국사에 가 봤어요.",
+        "날씨가 안 좋아서 여행이 재미없었어요."
+      ],
+      "answer": 2,
+      "explanationBn": "অনুচ্ছেদে বলা হয়েছে '불국사도 가 보고' (বুলগুকসাতেও গিয়ে দেখেছি), তাই ৩ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 투안 씨, 이번 휴가에 뭐 할 거예요?\n남: 저는 친구하고 설악산에 갈 거예요.",
+      "options": [
+        "남자는 바다에 갈 거예요.",
+        "남자는 친구하고 산에 갈 거예요.",
+        "여자는 설악산에 갈 거예요.",
+        "남자는 혼자 여행을 갈 거예요."
+      ],
+      "answer": 1,
+      "explanationBn": "পুরুষটি বলেছে সে বন্ধুর সাথে সরাক পাহাড়ে যাবে, তাই ২ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남: 수루 씨는 제주도에 가 봤어요?\n여: 네, 작년에 가 봤어요. 경치가 정말 아름다웠어요.",
+      "options": [
+        "여자는 제주도에 안 가 봤어요.",
+        "남자는 작년에 제주도에 갔어요.",
+        "여자는 제주도 경치가 아름다웠다고 했어요.",
+        "두 사람은 지금 제주도에 있어요."
+      ],
+      "answer": 2,
+      "explanationBn": "মহিলাটি বলেছে জেজু দ্বীপের দৃশ্য সত্যিই সুন্দর ছিল, তাই ৩ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 여행 준비는 다 했어요?\n남: 네, 표도 사고 숙소도 예약했어요. 이제 짐만 싸면 돼요.",
+      "options": [
+        "남자는 아직 표를 안 샀어요.",
+        "남자는 숙소를 예약했어요.",
+        "남자는 짐을 다 쌌어요.",
+        "여자가 여행 준비를 다 했어요."
+      ],
+      "answer": 1,
+      "explanationBn": "পুরুষটি বলেছে সে থাকার জায়গা বুক করেছে, তাই ২ নম্বর অপশনটি সঠিক।"
+    }
+  ]
+}

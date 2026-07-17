@@ -1,0 +1,631 @@
+{
+  "chapter": 30,
+  "slug": "korean-popular-culture",
+  "title": {
+    "ko": "한국의 대중문화",
+    "bn": "কোরিয়ার জনপ্রিয় সংস্কৃতি",
+    "en": "Korean Popular Culture"
+  },
+  "category": "culture",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কোরিয়ান জনপ্রিয় সংস্কৃতি (হাল্লিউ) সম্পর্কে বোঝা এবং আলোচনা করা।",
+      "প্রিয় কোরিয়ান নাটক, সিনেমা এবং সঙ্গীত সম্পর্কে কথা বলা।",
+      "বিনোদন এবং মিডিয়া সম্পর্কিত শব্দভাণ্ডার শেখা।",
+      "সাংস্কৃতিক বিষয়বস্তু সম্পর্কে পছন্দ এবং মতামত প্রকাশ করা।"
+    ],
+    "en": [
+      "Understand and discuss Korean popular culture (Hallyu).",
+      "Talk about favorite Korean dramas, movies, and music.",
+      "Learn vocabulary related to entertainment and media.",
+      "Express preferences and opinions about cultural content."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "대중문화",
+      "romanization": "daejungmunhwa",
+      "bn": "জনপ্রিয় সংস্কৃতি",
+      "en": "popular culture",
+      "pos": "noun",
+      "example": {
+        "ko": "한국의 대중문화가 인기가 많습니다.",
+        "bn": "কোরিয়ার জনপ্রিয় সংস্কৃতি খুব জনপ্রিয়।",
+        "en": "Korean popular culture is very popular."
+      }
+    },
+    {
+      "ko": "한류",
+      "romanization": "hallyu",
+      "bn": "কোরিয়ান ওয়েভ (হাল্লিউ)",
+      "en": "Korean Wave",
+      "pos": "noun",
+      "example": {
+        "ko": "한류 때문에 한국어를 배우는 사람이 많습니다.",
+        "bn": "হাল্লিউ এর কারণে কোরিয়ান ভাষা শেখা মানুষের সংখ্যা অনেক।",
+        "en": "Many people learn Korean because of the Korean Wave."
+      }
+    },
+    {
+      "ko": "연예인",
+      "romanization": "yeonyein",
+      "bn": "তারকা/সেলিব্রিটি",
+      "en": "celebrity/entertainer",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 한국 연예인을 좋아합니다.",
+        "bn": "আমি কোরিয়ান তারকাদের পছন্দ করি।",
+        "en": "I like Korean celebrities."
+      }
+    },
+    {
+      "ko": "가수",
+      "romanization": "gasu",
+      "bn": "গায়ক/গায়িকা",
+      "en": "singer",
+      "pos": "noun",
+      "example": {
+        "ko": "제가 제일 좋아하는 가수는 방탄소년단입니다.",
+        "bn": "আমার সবচেয়ে প্রিয় গায়ক হলো বিটিএস।",
+        "en": "My favorite singer is BTS."
+      }
+    },
+    {
+      "ko": "배우",
+      "romanization": "baeu",
+      "bn": "অভিনেতা/অভিনেত্রী",
+      "en": "actor/actress",
+      "pos": "noun",
+      "example": {
+        "ko": "이 영화에 유명한 배우가 나옵니다.",
+        "bn": "এই সিনেমায় একজন বিখ্যাত অভিনেতা অভিনয় করেছেন।",
+        "en": "A famous actor appears in this movie."
+      }
+    },
+    {
+      "ko": "영화",
+      "romanization": "yeonghwa",
+      "bn": "সিনেমা/চলচ্চিত্র",
+      "en": "movie",
+      "pos": "noun",
+      "example": {
+        "ko": "주말에 친구와 영화를 봤습니다.",
+        "bn": "সাপ্তাহিক ছুটিতে বন্ধুর সাথে সিনেমা দেখেছি।",
+        "en": "I watched a movie with a friend on the weekend."
+      }
+    },
+    {
+      "ko": "드라마",
+      "romanization": "deurama",
+      "bn": "নাটক",
+      "en": "drama",
+      "pos": "noun",
+      "example": {
+        "ko": "한국 드라마는 아주 재미있습니다.",
+        "bn": "কোরিয়ান নাটক খুব মজাদার।",
+        "en": "Korean dramas are very interesting."
+      }
+    },
+    {
+      "ko": "음악",
+      "romanization": "eumak",
+      "bn": "সঙ্গীত/গান",
+      "en": "music",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 매일 한국 음악을 듣습니다.",
+        "bn": "আমি প্রতিদিন কোরিয়ান সঙ্গীত শুনি।",
+        "en": "I listen to Korean music every day."
+      }
+    },
+    {
+      "ko": "예능 프로그램",
+      "romanization": "yeneung peurogeuraem",
+      "bn": "বিনোদনমূলক অনুষ্ঠান",
+      "en": "entertainment program",
+      "pos": "noun",
+      "example": {
+        "ko": "가족과 함께 예능 프로그램을 봅니다.",
+        "bn": "পরিবারের সাথে বিনোদনমূলক অনুষ্ঠান দেখি।",
+        "en": "I watch entertainment programs with my family."
+      }
+    },
+    {
+      "ko": "콘서트",
+      "romanization": "konseoteu",
+      "bn": "কনসার্ট",
+      "en": "concert",
+      "pos": "noun",
+      "example": {
+        "ko": "내일 좋아하는 가수의 콘서트에 갑니다.",
+        "bn": "আগামীকাল আমার প্রিয় গায়কের কনসার্টে যাব।",
+        "en": "I am going to my favorite singer's concert tomorrow."
+      }
+    },
+    {
+      "ko": "팬",
+      "romanization": "paen",
+      "bn": "ভক্ত",
+      "en": "fan",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 그 배우의 열성 팬입니다.",
+        "bn": "আমি সেই অভিনেতার একজন বড় ভক্ত।",
+        "en": "I am a huge fan of that actor."
+      }
+    },
+    {
+      "ko": "인기",
+      "romanization": "ingi",
+      "bn": "জনপ্রিয়তা",
+      "en": "popularity",
+      "pos": "noun",
+      "example": {
+        "ko": "요즘 이 노래가 인기가 많습니다.",
+        "bn": "আজকাল এই গানটির অনেক জনপ্রিয়তা রয়েছে।",
+        "en": "This song has a lot of popularity these days."
+      }
+    },
+    {
+      "ko": "유명하다",
+      "romanization": "yumyeonghada",
+      "bn": "বিখ্যাত হওয়া",
+      "en": "to be famous",
+      "pos": "adjective",
+      "example": {
+        "ko": "그 사람은 한국에서 아주 유명합니다.",
+        "bn": "সেই ব্যক্তি কোরিয়ায় খুব বিখ্যাত।",
+        "en": "That person is very famous in Korea."
+      }
+    },
+    {
+      "ko": "멋있다",
+      "romanization": "meositta",
+      "bn": "সুন্দর/আকর্ষণীয় হওয়া",
+      "en": "to be cool/handsome",
+      "pos": "adjective",
+      "example": {
+        "ko": "무대 위의 가수가 정말 멋있습니다.",
+        "bn": "মঞ্চের গায়কটি সত্যিই খুব আকর্ষণীয়।",
+        "en": "The singer on the stage is really cool."
+      }
+    },
+    {
+      "ko": "재미있다",
+      "romanization": "jaemiitta",
+      "bn": "মজাদার/আকর্ষণীয় হওয়া",
+      "en": "to be interesting/fun",
+      "pos": "adjective",
+      "example": {
+        "ko": "이 예능 프로그램은 정말 재미있습니다.",
+        "bn": "এই বিনোদনমূলক অনুষ্ঠানটি সত্যিই খুব মজাদার।",
+        "en": "This entertainment program is really fun."
+      }
+    },
+    {
+      "ko": "감동적이다",
+      "romanization": "gamdongjeogida",
+      "bn": "হৃদয়স্পর্শী হওয়া",
+      "en": "to be touching/moving",
+      "pos": "adjective",
+      "example": {
+        "ko": "어제 본 영화는 아주 감동적이었습니다.",
+        "bn": "গতকাল দেখা সিনেমাটি খুব হৃদয়স্পর্শী ছিল।",
+        "en": "The movie I watched yesterday was very touching."
+      }
+    },
+    {
+      "ko": "시청하다",
+      "romanization": "sicheonghada",
+      "bn": "দেখা (টিভি/সম্প্রচার)",
+      "en": "to watch (TV/broadcast)",
+      "pos": "verb",
+      "example": {
+        "ko": "저녁마다 뉴스를 시청합니다.",
+        "bn": "প্রতিদিন সন্ধ্যায় খবর দেখি।",
+        "en": "I watch the news every evening."
+      }
+    },
+    {
+      "ko": "유행하다",
+      "romanization": "yuhaenghada",
+      "bn": "জনপ্রিয় হওয়া/প্রচলিত হওয়া",
+      "en": "to be in fashion/popular",
+      "pos": "verb",
+      "example": {
+        "ko": "요즘 이 옷이 유행하고 있습니다.",
+        "bn": "আজকাল এই পোশাকটি জনপ্রিয় হচ্ছে।",
+        "en": "This clothes are in fashion these days."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V-기 때문에",
+      "titleBn": "কারণ বা হেতু বোঝাতে (기 때문에)",
+      "explanationBn": "কোনো কাজের কারণ বা হেতু বোঝাতে ক্রিয়াপদের সাথে '-기 때문에' যুক্ত হয়। এটি '-아/어서' এর চেয়ে বেশি জোরালো কারণ বোঝায়।",
+      "explanationEn": "Attached to a verb or adjective stem to express a clear reason or cause. It is stronger than '-아/어서'.",
+      "examples": [
+        {
+          "ko": "한국 드라마가 재미있기 때문에 자주 봅니다.",
+          "bn": "কোরিয়ান নাটক মজাদার হওয়ার কারণে আমি প্রায়ই দেখি।",
+          "en": "I watch Korean dramas often because they are interesting."
+        },
+        {
+          "ko": "비가 오기 때문에 집에 있습니다.",
+          "bn": "বৃষ্টি আসার কারণে আমি বাড়িতে আছি।",
+          "en": "I am at home because it is raining."
+        }
+      ]
+    },
+    {
+      "pattern": "V-(으)ㄴ 적이 있다/없다",
+      "titleBn": "অভিজ্ঞতা প্রকাশ করতে ((으)ㄴ 적이 있다/없다)",
+      "explanationBn": "অতীতে কোনো কাজ করার অভিজ্ঞতা আছে বা নেই তা বোঝাতে ক্রিয়াপদের সাথে '-(으)ㄴ 적이 있다/없다' ব্যবহৃত হয়।",
+      "explanationEn": "Used to express having or not having the experience of doing something in the past.",
+      "examples": [
+        {
+          "ko": "한국 영화를 본 적이 있습니다.",
+          "bn": "আমার কোরিয়ান সিনেমা দেখার অভিজ্ঞতা আছে।",
+          "en": "I have watched a Korean movie."
+        },
+        {
+          "ko": "콘서트에 간 적이 없습니다.",
+          "bn": "আমার কনসার্টে যাওয়ার অভিজ্ঞতা নেই।",
+          "en": "I have never been to a concert."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "কোরিয়ান নাটক সম্পর্কে কথা বলা",
+      "titleEn": "Talking about Korean Dramas",
+      "lines": [
+        {
+          "speaker": "리한",
+          "ko": "수피아 씨, 주말에 보통 뭐 해요?",
+          "bn": "সুপিয়া, আপনি সাধারণত সাপ্তাহিক ছুটিতে কী করেন?",
+          "en": "Supia, what do you usually do on weekends?"
+        },
+        {
+          "speaker": "수피아",
+          "ko": "저는 한국 드라마를 자주 봐요.",
+          "bn": "আমি প্রায়ই কোরিয়ান নাটক দেখি।",
+          "en": "I often watch Korean dramas."
+        },
+        {
+          "speaker": "리한",
+          "ko": "어떤 드라마를 좋아해요?",
+          "bn": "আপনি কোন ধরনের নাটক পছন্দ করেন?",
+          "en": "What kind of dramas do you like?"
+        },
+        {
+          "speaker": "수피아",
+          "ko": "로맨스 드라마를 좋아해요. 아주 재미있어요.",
+          "bn": "আমি রোমান্টিক নাটক পছন্দ করি। এগুলো খুব মজাদার।",
+          "en": "I like romance dramas. They are very interesting."
+        },
+        {
+          "speaker": "리한",
+          "ko": "저도 한국 드라마를 본 적이 있어요.",
+          "bn": "আমারও কোরিয়ান নাটক দেখার অভিজ্ঞতা আছে।",
+          "en": "I have also watched Korean dramas."
+        }
+      ]
+    },
+    {
+      "titleBn": "কে-পপ কনসার্ট",
+      "titleEn": "K-pop Concert",
+      "lines": [
+        {
+          "speaker": "투안",
+          "ko": "수루 씨, 한국 가수를 좋아해요?",
+          "bn": "সুরু, আপনি কি কোরিয়ান গায়ক পছন্দ করেন?",
+          "en": "Suru, do you like Korean singers?"
+        },
+        {
+          "speaker": "수루",
+          "ko": "네, 저는 방탄소년단 팬이에요.",
+          "bn": "হ্যাঁ, আমি বিটিএস-এর ভক্ত।",
+          "en": "Yes, I am a fan of BTS."
+        },
+        {
+          "speaker": "투안",
+          "ko": "콘서트에 가 본 적이 있어요?",
+          "bn": "আপনি কি কখনো তাদের কনসার্টে গেছেন?",
+          "en": "Have you ever been to their concert?"
+        },
+        {
+          "speaker": "수루",
+          "ko": "아니요, 아직 간 적이 없어요.",
+          "bn": "না, আমি এখনো যাইনি।",
+          "en": "No, I haven't been there yet."
+        },
+        {
+          "speaker": "투안",
+          "ko": "나중에 기회가 있으면 같이 가요.",
+          "bn": "পরে সুযোগ থাকলে একসাথে যাব।",
+          "en": "Let's go together later if there is a chance."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোনটি 'সিনেমা' এর কোরিয়ান শব্দ?",
+      "options": [
+        "드라마",
+        "영화",
+        "음악",
+        "가수"
+      ],
+      "answer": 1,
+      "explanationBn": "'영화' মানে সিনেমা। '드라마' মানে নাটক, '음악' মানে সঙ্গীত, '가수' মানে গায়ক।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "'유명하다' শব্দটির অর্থ কী?",
+      "options": [
+        "বিখ্যাত হওয়া",
+        "মজাদার হওয়া",
+        "সুন্দর হওয়া",
+        "জনপ্রিয়তা"
+      ],
+      "answer": 0,
+      "explanationBn": "'유명하다' অর্থ বিখ্যাত হওয়া।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 한국 _____이/가 전 세계적으로 인기가 많습니다.",
+      "options": [
+        "한류",
+        "배우",
+        "예능",
+        "팬"
+      ],
+      "answer": 0,
+      "explanationBn": "'한류' (কোরিয়ান ওয়েভ) সারা বিশ্বে খুব জনপ্রিয়।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "'연예인' শব্দটির অর্থ কী?",
+      "options": [
+        "গায়ক",
+        "অভিনেতা",
+        "তারকা/সেলিব্রিটি",
+        "ভক্ত"
+      ],
+      "answer": 2,
+      "explanationBn": "'연예인' অর্থ তারকা বা সেলিব্রিটি।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 저는 한국 음악을 좋아하____ 매일 듣습니다.",
+      "options": [
+        "기 때문에",
+        "고",
+        "지만",
+        "아서"
+      ],
+      "answer": 0,
+      "explanationBn": "কারণ বোঝাতে '기 때문에' ব্যবহৃত হয়। \"আমি কোরিয়ান সঙ্গীত পছন্দ করার কারণে প্রতিদিন শুনি।\""
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 한국에 가 ____ 적이 있습니까?",
+      "options": [
+        "본",
+        "볼",
+        "보는",
+        "보"
+      ],
+      "answer": 0,
+      "explanationBn": "অভিজ্ঞতা বোঝাতে '-(으)ㄴ 적이 있다' ব্যবহৃত হয়। '가 본 적이 있다' মানে যাওয়ার অভিজ্ঞতা আছে।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 주말에 친구와 함께 _____에 가서 노래를 들었습니다.",
+      "options": [
+        "콘서트",
+        "영화",
+        "드라마",
+        "배우"
+      ],
+      "answer": 0,
+      "explanationBn": "গান শোনার জন্য '콘서트' (কনসার্ট)-এ যাওয়া হয়।"
+    },
+    {
+      "id": "p8",
+      "type": "matching",
+      "questionBn": "সঠিক জোড়া মিলান",
+      "pairs": [
+        {
+          "left": "대중문화",
+          "right": "জনপ্রিয় সংস্কৃতি"
+        },
+        {
+          "left": "인기",
+          "right": "জনপ্রিয়তা"
+        },
+        {
+          "left": "시청하다",
+          "right": "দেখা (টিভি)"
+        },
+        {
+          "left": "감동적이다",
+          "right": "হৃদয়স্পর্শী হওয়া"
+        }
+      ],
+      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "সঠিক জোড়া মিলান",
+      "pairs": [
+        {
+          "left": "가수",
+          "right": "গায়ক"
+        },
+        {
+          "left": "배우",
+          "right": "অভিনেতা"
+        },
+        {
+          "left": "음악",
+          "right": "সঙ্গীত"
+        },
+        {
+          "left": "예능 프로그램",
+          "right": "বিনোদনমূলক অনুষ্ঠান"
+        }
+      ],
+      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।"
+    },
+    {
+      "id": "p10",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 이 영화는 정말 _____. 눈물이 났어요.",
+      "options": [
+        "재미있어요",
+        "감동적이에요",
+        "유명해요",
+        "멋있어요"
+      ],
+      "answer": 1,
+      "explanationBn": "'감동적이에요' মানে হৃদয়স্পর্শী। \"এই সিনেমাটি সত্যিই হৃদয়স্পর্শী। আমার চোখে জল এসে গিয়েছিল।\""
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "요즘 외국에서 한국의 음악과 드라마가 아주 인기가 많습니다. 이것을 (  )(이)라고 합니다.",
+      "options": [
+        "한류",
+        "여행",
+        "운동",
+        "쇼핑"
+      ],
+      "answer": 0,
+      "explanationBn": "কোরিয়ান সঙ্গীত ও নাটকের জনপ্রিয়তাকে '한류' (হাল্লিউ বা কোরিয়ান ওয়েভ) বলা হয়।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "저는 한국 (  )을/를 좋아합니다. 그래서 주말마다 텔레비전으로 한국 가요 프로그램을 봅니다.",
+      "options": [
+        "영화",
+        "음악",
+        "소설",
+        "신문"
+      ],
+      "answer": 1,
+      "explanationBn": "টিভিতে গানের অনুষ্ঠান দেখার কথা বলা হয়েছে, তাই সঠিক উত্তর '음악' (সঙ্গীত)।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "저는 한국 영화를 아주 좋아합니다. 그래서 주말에는 보통 영화관에 가서 영화를 봅니다. 어제도 친구와 함께 한국 영화를 봤습니다. 영화가 아주 감동적이어서 많이 울었습니다.",
+      "options": [
+        "저는 어제 집에서 영화를 봤습니다.",
+        "저는 주말에 보통 친구를 만납니다.",
+        "어제 본 영화는 아주 슬펐습니다.",
+        "저는 한국 드라마를 자주 봅니다."
+      ],
+      "answer": 2,
+      "explanationBn": "প্যাসেজে বলা হয়েছে সিনেমাটি হৃদয়স্পর্শী ছিল এবং সে অনেক কেঁদেছে, তাই সিনেমাটি দুঃখের ছিল (슬펐습니다)।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 수루 씨는 한국 드라마를 본 (  ) 있어요?\n나: 네, 작년에 '겨울연가'를 봤어요.",
+      "options": [
+        "것이",
+        "적이",
+        "수밖에",
+        "줄이"
+      ],
+      "answer": 1,
+      "explanationBn": "অভিজ্ঞতা বোঝাতে '-(으)ㄴ 적이 있다' ব্যবহৃত হয়। তাই '적이' সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "요즘 한국의 예능 프로그램이 외국인들에게 인기가 많습니다. 한국어를 잘 몰라도 재미있게 볼 수 있기 때문입니다. 저도 매일 저녁 예능 프로그램을 시청합니다.",
+      "options": [
+        "예능 프로그램은 한국인들만 좋아합니다.",
+        "한국어를 모르면 예능 프로그램을 볼 수 없습니다.",
+        "저는 매일 아침에 예능 프로그램을 봅니다.",
+        "외국인들도 한국 예능 프로그램을 좋아합니다."
+      ],
+      "answer": 3,
+      "explanationBn": "প্যাসেজে বলা হয়েছে যে আজকাল বিদেশিদের কাছে কোরিয়ান বিনোদনমূলক অনুষ্ঠান জনপ্রিয়।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 투안 씨, 주말에 뭐 했어요?\n남: 한국 가수의 콘서트에 갔다 왔어요. 정말 멋있었어요.",
+      "options": [
+        "영화관에 갔습니다.",
+        "콘서트에 갔습니다.",
+        "드라마를 봤습니다.",
+        "노래방에 갔습니다."
+      ],
+      "answer": 1,
+      "explanationBn": "পুরুষ লোকটি বলেছে সে কোরিয়ান গায়কের কনসার্টে গিয়েছিল।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남: 리한 씨는 어떤 텔레비전 프로그램을 좋아해요?\n여: 저는 한국 예능 프로그램을 좋아해요. 아주 재미있거든요.",
+      "options": [
+        "뉴스를 좋아합니다.",
+        "드라마를 좋아합니다.",
+        "예능 프로그램을 좋아합니다.",
+        "음악 프로그램을 좋아합니다."
+      ],
+      "answer": 2,
+      "explanationBn": "মহিলাটি বলেছে সে কোরিয়ান বিনোদনমূলক অনুষ্ঠান (예능 프로그램) পছন্দ করে।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 이 영화 본 적이 있어요?\n남: 아니요, 아직 못 봤어요. 재미있어요?\n여: 네, 정말 감동적이에요. 꼭 한번 보세요.",
+      "options": [
+        "남자는 이 영화를 봤습니다.",
+        "여자는 이 영화를 아직 안 봤습니다.",
+        "이 영화는 아주 감동적입니다.",
+        "남자는 영화를 별로 안 좋아합니다."
+      ],
+      "answer": 2,
+      "explanationBn": "মহিলাটি বলেছে সিনেমাটি সত্যিই হৃদয়স্পর্শী (감동적이에요)।"
+    }
+  ]
+}

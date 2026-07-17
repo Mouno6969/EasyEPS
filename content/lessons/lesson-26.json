@@ -1,0 +1,677 @@
+{
+  "chapter": 26,
+  "slug": "korean-housing-culture-and-food-culture",
+  "title": {
+    "ko": "한국의 주거 문화와 음식 문화",
+    "bn": "কোরিয়ার বাসস্থান ও খাদ্যসংস্কৃতি",
+    "en": "Korean Housing Culture and Food Culture"
+  },
+  "category": "culture",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কোরিয়ার বিভিন্ন ধরনের বাসস্থান সম্পর্কে জানা",
+      "কোরিয়ান খাদ্যসংস্কৃতি ও খাবার খাওয়ার নিয়ম বোঝা",
+      "বাসস্থান ও খাবার সম্পর্কিত শব্দভাণ্ডার শেখা"
+    ],
+    "en": [
+      "Understand different types of Korean housing",
+      "Understand Korean food culture and dining etiquette",
+      "Learn vocabulary related to housing and food"
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "주택",
+      "romanization": "jutaek",
+      "bn": "বাড়ি",
+      "en": "house",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 단독 주택에 살고 싶어요.",
+        "bn": "আমি একটি একক বাড়িতে বাস করতে চাই।",
+        "en": "I want to live in a detached house."
+      }
+    },
+    {
+      "ko": "아파트",
+      "romanization": "apateu",
+      "bn": "অ্যাপার্টমেন্ট",
+      "en": "apartment",
+      "pos": "noun",
+      "example": {
+        "ko": "한국에는 아파트가 많습니다.",
+        "bn": "কোরিয়াতে অনেক অ্যাপার্টমেন্ট আছে।",
+        "en": "There are many apartments in Korea."
+      }
+    },
+    {
+      "ko": "원룸",
+      "romanization": "wollum",
+      "bn": "ওয়ানরুম (এক কামরার বাসা)",
+      "en": "one-room (studio)",
+      "pos": "noun",
+      "example": {
+        "ko": "혼자 살기에는 원룸이 좋습니다.",
+        "bn": "একা থাকার জন্য ওয়ানরুম ভালো।",
+        "en": "A one-room is good for living alone."
+      }
+    },
+    {
+      "ko": "고시원",
+      "romanization": "gosiwon",
+      "bn": "গোশিওন (ছোট সস্তা ঘর)",
+      "en": "gosiwon (cheap small room)",
+      "pos": "noun",
+      "example": {
+        "ko": "고시원은 방이 작지만 쌉니다.",
+        "bn": "গোশিওনের রুম ছোট কিন্তু সস্তা।",
+        "en": "Gosiwon rooms are small but cheap."
+      }
+    },
+    {
+      "ko": "기숙사",
+      "romanization": "gisuksa",
+      "bn": "ছাত্রাবাস/ডরমিটরি",
+      "en": "dormitory",
+      "pos": "noun",
+      "example": {
+        "ko": "회사 기숙사에서 생활합니다.",
+        "bn": "আমি কোম্পানির ডরমিটরিতে থাকি।",
+        "en": "I live in the company dormitory."
+      }
+    },
+    {
+      "ko": "방",
+      "romanization": "bang",
+      "bn": "রুম/কক্ষ",
+      "en": "room",
+      "pos": "noun",
+      "example": {
+        "ko": "제 방은 아주 깨끗합니다.",
+        "bn": "আমার রুম খুব পরিষ্কার।",
+        "en": "My room is very clean."
+      }
+    },
+    {
+      "ko": "거실",
+      "romanization": "geosil",
+      "bn": "বসার ঘর",
+      "en": "living room",
+      "pos": "noun",
+      "example": {
+        "ko": "가족들이 거실에 모여 있습니다.",
+        "bn": "পরিবারের সদস্যরা বসার ঘরে জড়ো হয়েছে।",
+        "en": "The family is gathered in the living room."
+      }
+    },
+    {
+      "ko": "부엌",
+      "romanization": "bueok",
+      "bn": "রান্নাঘর",
+      "en": "kitchen",
+      "pos": "noun",
+      "example": {
+        "ko": "어머니가 부엌에서 요리를 하십니다.",
+        "bn": "মা রান্নাঘরে রান্না করছেন।",
+        "en": "Mother is cooking in the kitchen."
+      }
+    },
+    {
+      "ko": "화장실",
+      "romanization": "hwajangsil",
+      "bn": "বাথরুম",
+      "en": "bathroom",
+      "pos": "noun",
+      "example": {
+        "ko": "화장실은 저쪽에 있습니다.",
+        "bn": "বাথরুম ওই দিকে।",
+        "en": "The bathroom is over there."
+      }
+    },
+    {
+      "ko": "월세",
+      "romanization": "wolse",
+      "bn": "মাসিক ভাড়া",
+      "en": "monthly rent",
+      "pos": "noun",
+      "example": {
+        "ko": "매달 월세를 내야 합니다.",
+        "bn": "প্রতি মাসে মাসিক ভাড়া দিতে হবে।",
+        "en": "I have to pay monthly rent every month."
+      }
+    },
+    {
+      "ko": "전세",
+      "romanization": "jeonse",
+      "bn": "ডিপোজিট ভাড়া (জন্সে)",
+      "en": "jeonse (lump-sum deposit rent)",
+      "pos": "noun",
+      "example": {
+        "ko": "전세로 집을 구했습니다.",
+        "bn": "আমি জন্সে (ডিপোজিট) দিয়ে একটি বাড়ি নিয়েছি।",
+        "en": "I got a house on jeonse."
+      }
+    },
+    {
+      "ko": "밥",
+      "romanization": "bap",
+      "bn": "ভাত",
+      "en": "cooked rice",
+      "pos": "noun",
+      "example": {
+        "ko": "한국 사람은 매일 밥을 먹습니다.",
+        "bn": "কোরিয়ানরা প্রতিদিন ভাত খায়।",
+        "en": "Koreans eat rice every day."
+      }
+    },
+    {
+      "ko": "국",
+      "romanization": "guk",
+      "bn": "স্যুপ/ঝোল",
+      "en": "soup",
+      "pos": "noun",
+      "example": {
+        "ko": "밥과 국을 같이 먹습니다.",
+        "bn": "ভাত এবং স্যুপ একসাথে খাওয়া হয়।",
+        "en": "We eat rice and soup together."
+      }
+    },
+    {
+      "ko": "반찬",
+      "romanization": "banchan",
+      "bn": "তরকারি/পার্শ্বপদ",
+      "en": "side dishes",
+      "pos": "noun",
+      "example": {
+        "ko": "식탁에 반찬이 많습니다.",
+        "bn": "খাবারের টেবিলে অনেক তরকারি আছে।",
+        "en": "There are many side dishes on the table."
+      }
+    },
+    {
+      "ko": "숟가락",
+      "romanization": "sutgarak",
+      "bn": "চামচ",
+      "en": "spoon",
+      "pos": "noun",
+      "example": {
+        "ko": "국은 숟가락으로 먹습니다.",
+        "bn": "স্যুপ চামচ দিয়ে খাওয়া হয়।",
+        "en": "Soup is eaten with a spoon."
+      }
+    },
+    {
+      "ko": "젓가락",
+      "romanization": "jeotgarak",
+      "bn": "চপস্টিক",
+      "en": "chopsticks",
+      "pos": "noun",
+      "example": {
+        "ko": "반찬은 젓가락으로 집어 먹습니다.",
+        "bn": "তরকারি চপস্টিক দিয়ে তুলে খাওয়া হয়।",
+        "en": "Side dishes are picked up and eaten with chopsticks."
+      }
+    },
+    {
+      "ko": "식사하다",
+      "romanization": "siksahada",
+      "bn": "খাওয়া/আহার করা",
+      "en": "to have a meal",
+      "pos": "verb",
+      "example": {
+        "ko": "가족과 함께 식사합니다.",
+        "bn": "পরিবারের সাথে খাবার খাই।",
+        "en": "I have a meal with my family."
+      }
+    },
+    {
+      "ko": "맵다",
+      "romanization": "maepda",
+      "bn": "ঝাল",
+      "en": "spicy",
+      "pos": "adjective",
+      "example": {
+        "ko": "김치는 조금 맵습니다.",
+        "bn": "কিমচি একটু ঝাল।",
+        "en": "Kimchi is a little spicy."
+      }
+    },
+    {
+      "ko": "짜다",
+      "romanization": "jjada",
+      "bn": "নোনতা",
+      "en": "salty",
+      "pos": "adjective",
+      "example": {
+        "ko": "이 음식은 너무 짭니다.",
+        "bn": "এই খাবারটি খুব নোনতা।",
+        "en": "This food is too salty."
+      }
+    },
+    {
+      "ko": "달다",
+      "romanization": "dalda",
+      "bn": "মিষ্টি",
+      "en": "sweet",
+      "pos": "adjective",
+      "example": {
+        "ko": "아이스크림이 달고 맛있습니다.",
+        "bn": "আইসক্রিম মিষ্টি এবং সুস্বাদু।",
+        "en": "The ice cream is sweet and delicious."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V-기 전에",
+      "titleBn": "কোনো কিছু করার আগে",
+      "explanationBn": "ক্রিয়ার সাথে যুক্ত হয়ে কোনো কাজ করার পূর্বের সময় নির্দেশ করে। এর অর্থ 'কোনো কিছু করার আগে' বা 'Before doing something'।",
+      "explanationEn": "Attached to a verb stem to indicate the time before an action occurs. It means 'before doing something'.",
+      "examples": [
+        {
+          "ko": "밥을 먹기 전에 손을 씻으세요.",
+          "bn": "ভাত খাওয়ার আগে হাত ধুয়ে নিন।",
+          "en": "Please wash your hands before eating."
+        },
+        {
+          "ko": "한국에 오기 전에 한국어를 공부했어요.",
+          "bn": "কোরিয়ায় আসার আগে কোরিয়ান ভাষা পড়েছিলাম।",
+          "en": "I studied Korean before coming to Korea."
+        }
+      ]
+    },
+    {
+      "pattern": "V-(으)ㄴ 후에",
+      "titleBn": "কোনো কিছু করার পরে",
+      "explanationBn": "ক্রিয়ার সাথে যুক্ত হয়ে কোনো কাজ করার পরের সময় নির্দেশ করে। এর অর্থ 'কোনো কিছু করার পরে' বা 'After doing something'। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '-은 후에' এবং স্বরবর্ণ দিয়ে শেষ হলে '-ㄴ 후에' বসে।",
+      "explanationEn": "Attached to a verb stem to indicate the time after an action occurs. It means 'after doing something'. Use '-은 후에' after a consonant and '-ㄴ 후에' after a vowel.",
+      "examples": [
+        {
+          "ko": "퇴근한 후에 친구를 만날 거예요.",
+          "bn": "কাজ শেষ করার পরে বন্ধুর সাথে দেখা করব।",
+          "en": "I will meet a friend after getting off work."
+        },
+        {
+          "ko": "밥을 먹은 후에 약을 드세요.",
+          "bn": "ভাত খাওয়ার পরে ওষুধ খাবেন।",
+          "en": "Please take the medicine after eating."
+        }
+      ]
+    },
+    {
+      "pattern": "N(이)나",
+      "titleBn": "অথবা / বা",
+      "explanationBn": "বিশেষ্যের সাথে যুক্ত হয়ে দুটি বা ততোধিক বিকল্পের মধ্যে একটি বেছে নেওয়া বোঝায়। এর অর্থ 'অথবা' বা 'বা'। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '이나' এবং স্বরবর্ণ দিয়ে শেষ হলে '나' বসে।",
+      "explanationEn": "Attached to a noun to indicate a choice between two or more options. It means 'or'. Use '이나' after a consonant and '나' after a vowel.",
+      "examples": [
+        {
+          "ko": "아침에 빵이나 밥을 먹어요.",
+          "bn": "সকালে রুটি বা ভাত খাই।",
+          "en": "I eat bread or rice in the morning."
+        },
+        {
+          "ko": "주말에 영화를 보거나 운동을 해요.",
+          "bn": "সপ্তাহান্তে সিনেমা দেখি বা ব্যায়াম করি।",
+          "en": "I watch a movie or exercise on the weekend."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "বাসস্থান সম্পর্কে কথা বলা",
+      "titleEn": "Talking about Housing",
+      "lines": [
+        {
+          "speaker": "투안",
+          "ko": "리한 씨, 지금 어디에 살아요?",
+          "bn": "রিহান সাহেব, আপনি এখন কোথায় থাকেন?",
+          "en": "Rihan, where do you live now?"
+        },
+        {
+          "speaker": "리한",
+          "ko": "저는 회사 기숙사에 살아요. 투안 씨는요?",
+          "bn": "আমি কোম্পানির ডরমিটরিতে থাকি। আর আপনি, তুয়ান সাহেব?",
+          "en": "I live in the company dormitory. How about you, Tuan?"
+        },
+        {
+          "speaker": "투안",
+          "ko": "저는 원룸에 살아요. 기숙사는 어때요?",
+          "bn": "আমি ওয়ানরুমে থাকি। ডরমিটরি কেমন?",
+          "en": "I live in a one-room. How is the dormitory?"
+        },
+        {
+          "speaker": "리한",
+          "ko": "방은 좀 작지만 회사에서 가까워서 좋아요.",
+          "bn": "রুম একটু ছোট কিন্তু কোম্পানির কাছাকাছি হওয়ায় ভালো।",
+          "en": "The room is a bit small, but it's good because it's close to the company."
+        },
+        {
+          "speaker": "투안",
+          "ko": "그렇군요. 제 원룸은 넓지만 월세가 좀 비싸요.",
+          "bn": "তাই নাকি। আমার ওয়ানরুম বড় কিন্তু মাসিক ভাড়া একটু বেশি।",
+          "en": "I see. My one-room is spacious, but the monthly rent is a bit expensive."
+        }
+      ]
+    },
+    {
+      "titleBn": "খাবার খাওয়ার নিয়ম",
+      "titleEn": "Dining Etiquette",
+      "lines": [
+        {
+          "speaker": "바루",
+          "ko": "지훈 씨, 한국에서는 밥을 먹을 때 그릇을 들고 먹으면 안 돼요?",
+          "bn": "জিহুন সাহেব, কোরিয়াতে ভাত খাওয়ার সময় বাটি তুলে খাওয়া কি নিষেধ?",
+          "en": "Jihoon, is it not allowed to hold the bowl while eating rice in Korea?"
+        },
+        {
+          "speaker": "지훈",
+          "ko": "네, 한국에서는 밥그릇을 식탁에 놓고 먹어야 해요.",
+          "bn": "হ্যাঁ, কোরিয়াতে ভাতের বাটি টেবিলে রেখে খেতে হয়।",
+          "en": "Yes, in Korea, you should leave the rice bowl on the table while eating."
+        },
+        {
+          "speaker": "바루",
+          "ko": "아, 그렇군요. 몰랐어요.",
+          "bn": "আহ, তাই নাকি। আমি জানতাম না।",
+          "en": "Ah, I see. I didn't know."
+        },
+        {
+          "speaker": "지훈",
+          "ko": "그리고 국은 숟가락으로 먹고, 반찬은 젓가락으로 먹어요.",
+          "bn": "আর স্যুপ চামচ দিয়ে খেতে হয়, এবং তরকারি চপস্টিক দিয়ে খেতে হয়।",
+          "en": "And you eat soup with a spoon, and side dishes with chopsticks."
+        },
+        {
+          "speaker": "바루",
+          "ko": "네, 알겠습니다. 가르쳐 주셔서 감사합니다.",
+          "bn": "হ্যাঁ, বুঝতে পেরেছি। শিখিয়ে দেওয়ার জন্য ধন্যবাদ।",
+          "en": "Yes, I understand. Thank you for teaching me."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন। (একটি ছোট এক কামরার বাসার ছবি)",
+      "questionKo": "다음 그림을 보고 알맞은 단어를 고르십시오.",
+      "options": [
+        "아파트",
+        "원룸",
+        "기숙사",
+        "주택"
+      ],
+      "answer": 1,
+      "explanationBn": "ছবিতে একটি এক কামরার বাসা বা '원룸' (ওয়ানরুম) দেখানো হয়েছে।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 한국 사람은 밥을 먹을 때 무엇을 사용해요?\n나: 밥과 국은 ( )으로 먹어요.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "젓가락",
+        "숟가락",
+        "포크",
+        "칼"
+      ],
+      "answer": 1,
+      "explanationBn": "কোরিয়ানরা ভাত এবং স্যুপ '숟가락' (চামচ) দিয়ে খায়।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 집이 어때요?\n나: 방이 두 개 있고 ( )이/가 넓어서 좋아요.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "거실",
+        "월세",
+        "전세",
+        "고시원"
+      ],
+      "answer": 0,
+      "explanationBn": "বাড়িতে দুটি রুম আছে এবং '거실' (বসার ঘর) বড় হওয়ায় ভালো।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক ব্যাকরণ বেছে নিন।\n손을 ( ) 밥을 먹습니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "씻은 후에",
+        "씻기 전에",
+        "씻고",
+        "씻어서"
+      ],
+      "answer": 0,
+      "explanationBn": "হাত ধোয়ার পরে ভাত খাই। তাই '씻은 후에' সঠিক।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n한국에서는 식사할 때 밥그릇을 들고 먹으면 안 됩니다. 식탁에 ( ) 먹어야 합니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "놓고",
+        "들고",
+        "잡고",
+        "버리고"
+      ],
+      "answer": 0,
+      "explanationBn": "কোরিয়াতে ভাতের বাটি টেবিলে '놓고' (রেখে) খেতে হয়।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n저는 매달 집주인에게 ( )을/를 냅니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "전세",
+        "월세",
+        "보증금",
+        "관리비"
+      ],
+      "answer": 1,
+      "explanationBn": "প্রতি মাসে বাড়ির মালিককে '월세' (মাসিক ভাড়া) দিতে হয়।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "সঠিক ব্যাকরণ বেছে নিন।\n주말에 친구를 만나거나 집에서 ( ).",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "쉬기 전에",
+        "쉰 후에",
+        "쉽니다",
+        "쉬고"
+      ],
+      "answer": 2,
+      "explanationBn": "সপ্তাহান্তে বন্ধুর সাথে দেখা করি বা বাড়িতে '쉽니다' (বিশ্রাম নিই)।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "সঠিক ব্যাকরণ বেছে নিন।\n아침에 빵( ) 우유를 먹습니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "options": [
+        "이나",
+        "나",
+        "은",
+        "는"
+      ],
+      "answer": 0,
+      "explanationBn": "빵 (রুটি) ব্যঞ্জনবর্ণ দিয়ে শেষ হয়েছে, তাই '이나' বসবে।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "부엌",
+          "right": "রান্নাঘর"
+        },
+        {
+          "left": "화장실",
+          "right": "বাথরুম"
+        },
+        {
+          "left": "반찬",
+          "right": "তরকারি"
+        },
+        {
+          "left": "기숙사",
+          "right": "ছাত্রাবাস"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "맵다",
+          "right": "ঝাল"
+        },
+        {
+          "left": "짜다",
+          "right": "নোনতা"
+        },
+        {
+          "left": "달다",
+          "right": "মিষ্টি"
+        },
+        {
+          "left": "식사하다",
+          "right": "খাওয়া"
+        }
+      ]
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "저는 회사 기숙사에 삽니다. 기숙사에는 방이 많습니다. 제 방에는 침대와 책상이 있습니다. 화장실은 방 밖에 있습니다. 여러 사람이 같이 화장실을 사용합니다.",
+      "options": [
+        "이 사람은 아파트에 삽니다.",
+        "방 안에 화장실이 있습니다.",
+        "기숙사에는 방이 하나만 있습니다.",
+        "화장실을 다른 사람들과 같이 씁니다."
+      ],
+      "answer": 3,
+      "explanationBn": "প্যাসেজে বলা হয়েছে যে বাথরুম রুমের বাইরে এবং অনেক মানুষ একসাথে বাথরুম ব্যবহার করে। তাই সঠিক উত্তর '화장실을 다른 사람들과 같이 씁니다' (অন্যদের সাথে বাথরুম ব্যবহার করি)।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "한국에서는 밥을 먹을 때 숟가락과 젓가락을 사용합니다. 국은 ( )으로 먹고, 반찬은 젓가락으로 먹습니다.",
+      "options": [
+        "포크",
+        "칼",
+        "숟가락",
+        "손"
+      ],
+      "answer": 2,
+      "explanationBn": "কোরিয়াতে স্যুপ '숟가락' (চামচ) দিয়ে খাওয়া হয়।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 집을 구했어요?\n나: 네, 회사 근처에 ( )을/를 구했어요. 방은 작지만 혼자 살기 좋아요.",
+      "options": [
+        "원룸",
+        "아파트",
+        "거실",
+        "부엌"
+      ],
+      "answer": 0,
+      "explanationBn": "একা থাকার জন্য ছোট রুম হলো '원룸' (ওয়ানরুম)।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "한국 사람들은 식사할 때 밥그릇을 들고 먹지 않습니다. 식탁에 놓고 먹습니다. 그리고 어른이 먼저 식사를 시작한 후에 밥을 먹습니다.",
+      "options": [
+        "밥그릇을 들고 먹어야 합니다.",
+        "어른보다 먼저 밥을 먹어야 합니다.",
+        "밥그릇을 식탁에 놓고 먹어야 합니다.",
+        "식사할 때 말을 많이 해야 합니다."
+      ],
+      "answer": 2,
+      "explanationBn": "প্যাসেজে বলা হয়েছে যে কোরিয়ানরা ভাতের বাটি টেবিলে রেখে খায়। তাই '밥그릇을 식탁에 놓고 먹어야 합니다' সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 김치찌개가 어때요?\n나: 조금 ( ) 맛있어요.",
+      "options": [
+        "맵지만",
+        "달지만",
+        "짜지만",
+        "싱겁지만"
+      ],
+      "answer": 0,
+      "explanationBn": "কিমচি চিগে সাধারণত ঝাল হয়। তাই '맵지만' (ঝাল হলেও) সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 투안 씨, 지금 어디에 살아요?\n남: 저는 회사 기숙사에 살아요.",
+      "options": [
+        "남자는 아파트에 삽니다.",
+        "남자는 원룸에 삽니다.",
+        "남자는 기숙사에 삽니다.",
+        "남자는 고시원에 삽니다."
+      ],
+      "answer": 2,
+      "explanationBn": "পুরুষটি বলেছে যে সে কোম্পানির ডরমিটরিতে (기숙사) থাকে।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남: 한국에서는 밥을 먹을 때 어떻게 해야 해요?\n여: 밥그릇을 식탁에 놓고 먹어야 해요. 그리고 어른이 먼저 드신 후에 먹어야 해요.",
+      "options": [
+        "밥그릇을 들고 먹습니다.",
+        "어른이 먼저 식사를 시작합니다.",
+        "숟가락만 사용합니다.",
+        "식탁에 앉지 않습니다."
+      ],
+      "answer": 1,
+      "explanationBn": "মহিলাটি বলেছে যে বয়স্করা আগে খাওয়া শুরু করার পর খেতে হয়। তাই '어른이 먼저 식사를 시작합니다' সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 반찬이 참 많네요. 이 국은 무슨 국이에요?\n남: 된장찌개예요. 숟가락으로 드세요.",
+      "options": [
+        "여자는 지금 요리를 하고 있습니다.",
+        "남자는 젓가락으로 국을 먹으라고 합니다.",
+        "식탁에 반찬이 많습니다.",
+        "된장찌개는 맵습니다."
+      ],
+      "answer": 2,
+      "explanationBn": "মহিলাটি বলেছে '반찬이 참 많네요' (অনেক তরকারি আছে)। তাই '식탁에 반찬이 많습니다' সঠিক।"
+    }
+  ]
+}

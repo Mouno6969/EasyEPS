@@ -1,0 +1,647 @@
+{
+  "chapter": 20,
+  "slug": "the-internet-and-smartphones",
+  "title": {
+    "ko": "인터넷과 스마트폰",
+    "bn": "ইন্টারনেট ও স্মার্টফোন",
+    "en": "The Internet and Smartphones"
+  },
+  "category": "daily-life",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "ইন্টারনেট এবং স্মার্টফোন সম্পর্কিত শব্দভাণ্ডার শেখা।",
+      "ওয়াই-ফাই এবং অ্যাপ ব্যবহার সম্পর্কে কথা বলতে পারা।",
+      "অনলাইনে তথ্য অনুসন্ধান এবং মেসেজ পাঠানোর পদ্ধতি জানা।"
+    ],
+    "en": [
+      "Learn vocabulary related to the internet and smartphones.",
+      "Be able to talk about using Wi-Fi and apps.",
+      "Know how to search for information online and send messages."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "인터넷",
+      "romanization": "inteonet",
+      "bn": "ইন্টারনেট",
+      "en": "internet",
+      "pos": "noun",
+      "example": {
+        "ko": "인터넷이 아주 빠릅니다.",
+        "bn": "ইন্টারনেট খুব দ্রুত।",
+        "en": "The internet is very fast."
+      }
+    },
+    {
+      "ko": "스마트폰",
+      "romanization": "seumateupon",
+      "bn": "স্মার্টফোন",
+      "en": "smartphone",
+      "pos": "noun",
+      "example": {
+        "ko": "새 스마트폰을 샀습니다.",
+        "bn": "আমি একটি নতুন স্মার্টফোন কিনেছি।",
+        "en": "I bought a new smartphone."
+      }
+    },
+    {
+      "ko": "와이파이",
+      "romanization": "waipai",
+      "bn": "ওয়াই-ফাই",
+      "en": "Wi-Fi",
+      "pos": "noun",
+      "example": {
+        "ko": "여기 와이파이 비밀번호가 뭐예요?",
+        "bn": "এখানে ওয়াই-ফাই পাসওয়ার্ড কী?",
+        "en": "What is the Wi-Fi password here?"
+      }
+    },
+    {
+      "ko": "검색하다",
+      "romanization": "geomsaekhada",
+      "bn": "অনুসন্ধান করা",
+      "en": "to search",
+      "pos": "verb",
+      "example": {
+        "ko": "인터넷으로 정보를 검색합니다.",
+        "bn": "আমি ইন্টারনেটে তথ্য অনুসন্ধান করি।",
+        "en": "I search for information on the internet."
+      }
+    },
+    {
+      "ko": "문자",
+      "romanization": "munja",
+      "bn": "টেক্সট মেসেজ",
+      "en": "text message",
+      "pos": "noun",
+      "example": {
+        "ko": "친구에게 문자를 보냅니다.",
+        "bn": "আমি বন্ধুকে টেক্সট মেসেজ পাঠাই।",
+        "en": "I send a text message to a friend."
+      }
+    },
+    {
+      "ko": "보내다",
+      "romanization": "bonaeda",
+      "bn": "পাঠানো",
+      "en": "to send",
+      "pos": "verb",
+      "example": {
+        "ko": "고향에 돈을 보냅니다.",
+        "bn": "আমি দেশে টাকা পাঠাই।",
+        "en": "I send money to my hometown."
+      }
+    },
+    {
+      "ko": "전화하다",
+      "romanization": "jeonhwahada",
+      "bn": "ফোন করা",
+      "en": "to call",
+      "pos": "verb",
+      "example": {
+        "ko": "가족에게 전화합니다.",
+        "bn": "আমি পরিবারকে ফোন করি।",
+        "en": "I call my family."
+      }
+    },
+    {
+      "ko": "앱",
+      "romanization": "aep",
+      "bn": "অ্যাপ",
+      "en": "app",
+      "pos": "noun",
+      "example": {
+        "ko": "이 앱은 아주 편리합니다.",
+        "bn": "এই অ্যাপটি খুব সুবিধাজনক।",
+        "en": "This app is very convenient."
+      }
+    },
+    {
+      "ko": "설치하다",
+      "romanization": "seolchihada",
+      "bn": "ইনস্টল করা",
+      "en": "to install",
+      "pos": "verb",
+      "example": {
+        "ko": "스마트폰에 앱을 설치합니다.",
+        "bn": "আমি স্মার্টফোনে অ্যাপ ইনস্টল করি।",
+        "en": "I install an app on my smartphone."
+      }
+    },
+    {
+      "ko": "비밀번호",
+      "romanization": "bimilbeonho",
+      "bn": "পাসওয়ার্ড",
+      "en": "password",
+      "pos": "noun",
+      "example": {
+        "ko": "비밀번호를 잊어버렸습니다.",
+        "bn": "আমি পাসওয়ার্ড ভুলে গেছি।",
+        "en": "I forgot my password."
+      }
+    },
+    {
+      "ko": "로그인",
+      "romanization": "rogeuin",
+      "bn": "লগইন",
+      "en": "login",
+      "pos": "noun",
+      "example": {
+        "ko": "아이디와 비밀번호로 로그인하세요.",
+        "bn": "আইডি এবং পাসওয়ার্ড দিয়ে লগইন করুন।",
+        "en": "Please login with your ID and password."
+      }
+    },
+    {
+      "ko": "로그아웃",
+      "romanization": "rogeuaut",
+      "bn": "লগআউট",
+      "en": "logout",
+      "pos": "noun",
+      "example": {
+        "ko": "사용 후에는 로그아웃을 하세요.",
+        "bn": "ব্যবহারের পর লগআউট করুন।",
+        "en": "Please logout after use."
+      }
+    },
+    {
+      "ko": "이메일",
+      "romanization": "imeil",
+      "bn": "ইমেইল",
+      "en": "email",
+      "pos": "noun",
+      "example": {
+        "ko": "회사에서 이메일을 확인합니다.",
+        "bn": "আমি কোম্পানিতে ইমেইল চেক করি।",
+        "en": "I check my email at the company."
+      }
+    },
+    {
+      "ko": "영상 통화",
+      "romanization": "yeongsang tonghwa",
+      "bn": "ভি디오 কল",
+      "en": "video call",
+      "pos": "noun",
+      "example": {
+        "ko": "부모님과 영상 통화를 합니다.",
+        "bn": "আমি বাবা-মায়ের সাথে ভিডিও কল করি।",
+        "en": "I make a video call with my parents."
+      }
+    },
+    {
+      "ko": "배터리",
+      "romanization": "baeteori",
+      "bn": "ব্যাটারি",
+      "en": "battery",
+      "pos": "noun",
+      "example": {
+        "ko": "배터리가 없습니다.",
+        "bn": "ব্যাটারি নেই।",
+        "en": "There is no battery."
+      }
+    },
+    {
+      "ko": "충전하다",
+      "romanization": "chungjeonhada",
+      "bn": "চার্জ করা",
+      "en": "to charge",
+      "pos": "verb",
+      "example": {
+        "ko": "휴대폰을 충전해야 합니다.",
+        "bn": "মোবাইল ফোন চার্জ করতে হবে।",
+        "en": "I need to charge my mobile phone."
+      }
+    },
+    {
+      "ko": "켜다",
+      "romanization": "kyeoda",
+      "bn": "চালু করা",
+      "en": "to turn on",
+      "pos": "verb",
+      "example": {
+        "ko": "컴퓨터를 켭니다.",
+        "bn": "আমি কম্পিউটার চালু করি।",
+        "en": "I turn on the computer."
+      }
+    },
+    {
+      "ko": "끄다",
+      "romanization": "kkeuda",
+      "bn": "বন্ধ করা",
+      "en": "to turn off",
+      "pos": "verb",
+      "example": {
+        "ko": "자기 전에 스마트폰을 끕니다.",
+        "bn": "ঘুমানোর আগে আমি স্মার্টফোন বন্ধ করি।",
+        "en": "I turn off my smartphone before sleeping."
+      }
+    },
+    {
+      "ko": "다운로드",
+      "romanization": "daunrodeu",
+      "bn": "ডাউনলোড",
+      "en": "download",
+      "pos": "noun",
+      "example": {
+        "ko": "영화를 다운로드합니다.",
+        "bn": "আমি সিনেমা ডাউনলোড করি।",
+        "en": "I download a movie."
+      }
+    },
+    {
+      "ko": "가입하다",
+      "romanization": "gaiphada",
+      "bn": "সাইন আপ করা",
+      "en": "to sign up",
+      "pos": "verb",
+      "example": {
+        "ko": "새로운 사이트에 가입했습니다.",
+        "bn": "আমি একটি নতুন সাইটে সাইন আপ করেছি।",
+        "en": "I signed up for a new site."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "-고",
+      "titleBn": "এবং / আর (সংযোজক)",
+      "explanationBn": "দুটি কাজ বা অবস্থাকে যুক্ত করতে ক্রিয়াপদ বা বিশেষণের সাথে '-고' ব্যবহৃত হয়। এটি 'এবং' বা 'আর' এর মতো কাজ করে।",
+      "explanationEn": "Used with verbs or adjectives to connect two actions or states. It functions like 'and'.",
+      "examples": [
+        {
+          "ko": "인터넷으로 뉴스를 보고 음악을 듣습니다.",
+          "bn": "আমি ইন্টারনেটে খবর দেখি এবং গান শুনি।",
+          "en": "I watch news and listen to music on the internet."
+        },
+        {
+          "ko": "이 스마트폰은 싸고 좋습니다.",
+          "bn": "এই স্মার্টফোনটি সস্তা এবং ভালো।",
+          "en": "This smartphone is cheap and good."
+        }
+      ]
+    },
+    {
+      "pattern": "-(으)ㄹ 수 있다/없다",
+      "titleBn": "পারা / না পারা",
+      "explanationBn": "কোনো কিছু করার ক্ষমতা বা সম্ভাবনা বোঝাতে ক্রিয়াপদের সাথে '-(으)ㄹ 수 있다' (পারা) এবং '-(으)ㄹ 수 없다' (না পারা) ব্যবহৃত হয়।",
+      "explanationEn": "Used with verbs to express ability or possibility ('can') or inability/impossibility ('cannot').",
+      "examples": [
+        {
+          "ko": "여기서 와이파이를 쓸 수 있어요?",
+          "bn": "এখানে কি ওয়াই-ফাই ব্যবহার করতে পারি?",
+          "en": "Can I use Wi-Fi here?"
+        },
+        {
+          "ko": "비밀번호를 몰라서 로그인할 수 없어요.",
+          "bn": "পাসওয়ার্ড না জানার কারণে লগইন করতে পারছি না।",
+          "en": "I cannot login because I don't know the password."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "ওয়াই-ফাই পাসওয়ার্ড জিজ্ঞাসা করা",
+      "titleEn": "Asking for Wi-Fi Password",
+      "lines": [
+        {
+          "speaker": "라힘",
+          "ko": "여기 와이파이를 쓸 수 있어요?",
+          "bn": "এখানে কি ওয়াই-ফাই ব্যবহার করতে পারি?",
+          "en": "Can I use Wi-Fi here?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 쓸 수 있어요.",
+          "bn": "হ্যাঁ, ব্যবহার করতে পারেন।",
+          "en": "Yes, you can use it."
+        },
+        {
+          "speaker": "라힘",
+          "ko": "비밀번호가 뭐예요?",
+          "bn": "পাসওয়ার্ড কী?",
+          "en": "What is the password?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "벽에 적혀 있어요. 12345678입니다.",
+          "bn": "দেয়ালে লেখা আছে। ১২৩৪৫৬৭৮।",
+          "en": "It's written on the wall. It's 12345678."
+        }
+      ]
+    },
+    {
+      "titleBn": "অ্যাপ ইনস্টল করা",
+      "titleEn": "Installing an App",
+      "lines": [
+        {
+          "speaker": "수루즈",
+          "ko": "이 앱을 어떻게 설치해요?",
+          "bn": "এই অ্যাপটি কীভাবে ইনস্টল করব?",
+          "en": "How do I install this app?"
+        },
+        {
+          "speaker": "민수",
+          "ko": "스토어에 들어가서 검색하세요.",
+          "bn": "স্টোরে গিয়ে অনুসন্ধান করুন।",
+          "en": "Go to the store and search for it."
+        },
+        {
+          "speaker": "수루즈",
+          "ko": "찾았어요. 이제 어떻게 해요?",
+          "bn": "পেয়েছি। এখন কী করব?",
+          "en": "I found it. What do I do now?"
+        },
+        {
+          "speaker": "민수",
+          "ko": "설치 버튼을 누르세요. 그리고 로그인하세요.",
+          "bn": "ইনস্টল বোতাম চাপুন। এবং লগইন করুন।",
+          "en": "Press the install button. And login."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "배터리",
+        "와이파이",
+        "비밀번호",
+        "이메일"
+      ],
+      "answer": 1,
+      "explanationBn": "ইন্টারনেট ব্যবহার করার জন্য ওয়াই-ফাই (와이파이) প্রয়োজন।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "설치합니다",
+        "검색합니다",
+        "충전합니다",
+        "가입합니다"
+      ],
+      "answer": 2,
+      "explanationBn": "ব্যাটারি না থাকলে ফোন চার্জ (충전합니다) করতে হয়।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "알맞은 것을 고르십시오.",
+      "options": [
+        "전화하다",
+        "로그아웃",
+        "다운로드",
+        "문자"
+      ],
+      "answer": 3,
+      "explanationBn": "টেক্সট মেসেজকে কোরিয়ান ভাষায় 문자 (munja) বলা হয়।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "알맞은 것을 고르십시오.",
+      "options": [
+        "앱",
+        "로그인",
+        "영상 통화",
+        "인터넷"
+      ],
+      "answer": 2,
+      "explanationBn": "ভিডিও কলকে কোরিয়ান ভাষায় 영상 통화 (yeongsang tonghwa) বলা হয়।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "끄고",
+        "켜고",
+        "보내고",
+        "받고"
+      ],
+      "answer": 1,
+      "explanationBn": "কম্পিউটার চালু করে (켜고) কাজ শুরু করতে হয়।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "할 수 있어요",
+        "할 수 없어요",
+        "하고 싶어요",
+        "하기 싫어요"
+      ],
+      "answer": 0,
+      "explanationBn": "ইন্টারনেট থাকলে ভিডিও কল করতে পারা যায় (할 수 있어요)।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "검색할 수 없어요",
+        "검색할 수 있어요",
+        "검색하고",
+        "검색해서"
+      ],
+      "answer": 1,
+      "explanationBn": "স্মার্টফোন দিয়ে ইন্টারনেটে তথ্য অনুসন্ধান করতে পারা যায় (검색할 수 있어요)।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "가입하고",
+        "설치하고",
+        "로그인하고",
+        "로그아웃하고"
+      ],
+      "answer": 2,
+      "explanationBn": "ওয়েবসাইটে আইডি এবং পাসওয়ার্ড দিয়ে লগইন করে (로그인하고) ব্যবহার করতে হয়।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "pairs": [
+        {
+          "left": "스마트폰",
+          "right": "স্মার্টফোন"
+        },
+        {
+          "left": "비밀번호",
+          "right": "পাসওয়ার্ড"
+        },
+        {
+          "left": "이메일",
+          "right": "ইমেইল"
+        },
+        {
+          "left": "다운로드",
+          "right": "ডাউনলোড"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "pairs": [
+        {
+          "left": "검색하다",
+          "right": "অনুসন্ধান করা"
+        },
+        {
+          "left": "설치하다",
+          "right": "ইনস্টল করা"
+        },
+        {
+          "left": "충전하다",
+          "right": "চার্জ করা"
+        },
+        {
+          "left": "가입하다",
+          "right": "সাইন আপ করা"
+        }
+      ]
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 여기 와이파이 (   )이/가 뭐예요?\n나: 12345678이에요.",
+      "options": [
+        "이메일",
+        "비밀번호",
+        "배터리",
+        "문자"
+      ],
+      "answer": 1,
+      "explanationBn": "ওয়াই-ফাই এর সাথে পাসওয়ার্ড (비밀번호) জানতে চাওয়া হচ্ছে।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "스마트폰 (   )이/가 없습니다. 그래서 전화를 할 수 없습니다.",
+      "options": [
+        "앱",
+        "인터넷",
+        "배터리",
+        "로그인"
+      ],
+      "answer": 2,
+      "explanationBn": "ব্যাটারি (배터리) না থাকলে ফোন করা যায় না।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 고향에 있는 가족의 얼굴을 보고 싶어요.\n나: 그러면 스마트폰으로 (   )을/를 해 보세요.",
+      "options": [
+        "영상 통화",
+        "로그아웃",
+        "다운로드",
+        "가입"
+      ],
+      "answer": 0,
+      "explanationBn": "পরিবারের মুখ দেখার জন্য ভিডিও কল (영상 통화) করতে হয়।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "인터넷 쇼핑몰에서 물건을 사려면 먼저 사이트에 (   )해야 합니다.",
+      "options": [
+        "설치",
+        "충전",
+        "가입",
+        "검색"
+      ],
+      "answer": 2,
+      "explanationBn": "ইন্টারনেট শপিং মলে জিনিস কেনার আগে সাইটে সাইন আপ (가입) করতে হয়।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পরবর্তী বাক্যটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음 문장을 읽고 알맞은 것을 고르십시오.",
+      "passage": "저는 매일 인터넷으로 한국어 뉴스를 (   ) 한국어 공부를 합니다.",
+      "options": [
+        "보고",
+        "보지만",
+        "볼 수 없고",
+        "보거나"
+      ],
+      "answer": 0,
+      "explanationBn": "ইন্টারনেটে কোরিয়ান খবর দেখে এবং (-고) কোরিয়ান ভাষা অধ্যয়ন করি।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남: 이 앱은 어떻게 사용해요?\n여: 먼저 아이디와 비밀번호를 쓰고 로그인하세요.",
+      "options": [
+        "앱을 삭제합니다.",
+        "로그인을 합니다.",
+        "배터리를 충전합니다.",
+        "와이파이를 끕니다."
+      ],
+      "answer": 1,
+      "explanationBn": "মহিলাটি প্রথমে আইডি এবং পাসওয়ার্ড দিয়ে লগইন (로그인) করতে বলেছেন।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 휴대폰 배터리가 없어요. 충전기 있어요?\n남: 네, 여기 있어요.",
+      "options": [
+        "휴대폰을 끕니다.",
+        "문자를 보냅니다.",
+        "휴대폰을 충전합니다.",
+        "인터넷을 검색합니다."
+      ],
+      "answer": 2,
+      "explanationBn": "মহিলাটির ফোনের ব্যাটারি নেই, তাই তিনি ফোন চার্জ (충전) করবেন।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남: 고향에 있는 부모님께 어떻게 연락해요?\n여: 저는 보통 주말에 영상 통화를 해요.",
+      "options": [
+        "이메일을 보냅니다.",
+        "영상 통화를 합니다.",
+        "문자를 보냅니다.",
+        "전화를 받습니다."
+      ],
+      "answer": 1,
+      "explanationBn": "মহিলাটি সাধারণত সপ্তাহান্তে ভিডিও কল (영상 통화) করেন।"
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "chapter": 18,
+  "slug": "hobbies",
+  "title": {
+    "ko": "취미",
+    "bn": "শখ",
+    "en": "Hobbies"
+  },
+  "category": "daily-life",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "শখ সম্পর্কে কথা বলতে শেখা।",
+      "অবসর সময়ে কী করেন তা বর্ণনা করতে শেখা।",
+      "ভবিষ্যতের পরিকল্পনা বা শখের কাজ করতে যাওয়ার বিষয়ে কথা বলা।"
+    ],
+    "en": [
+      "Learn to talk about hobbies.",
+      "Learn to describe what you do in your free time.",
+      "Talk about future plans or going to do a hobby."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "취미",
+      "romanization": "chwimi",
+      "bn": "শখ",
+      "en": "hobby",
+      "pos": "noun",
+      "example": {
+        "ko": "제 취미는 독서입니다.",
+        "bn": "আমার শখ বই পড়া।",
+        "en": "My hobby is reading."
+      }
+    },
+    {
+      "ko": "독서",
+      "romanization": "dokseo",
+      "bn": "বই পড়া",
+      "en": "reading",
+      "pos": "noun",
+      "example": {
+        "ko": "주말에 보통 독서를 해요.",
+        "bn": "সপ্তাহান্তে আমি সাধারণত বই পড়ি।",
+        "en": "I usually read books on weekends."
+      }
+    },
+    {
+      "ko": "낚시",
+      "romanization": "naksi",
+      "bn": "মাছ ধরা",
+      "en": "fishing",
+      "pos": "noun",
+      "example": {
+        "ko": "아버지는 낚시를 좋아하십니다.",
+        "bn": "বাবা মাছ ধরতে পছন্দ করেন।",
+        "en": "My father likes fishing."
+      }
+    },
+    {
+      "ko": "여행",
+      "romanization": "yeohaeng",
+      "bn": "ভ্রমণ",
+      "en": "travel",
+      "pos": "noun",
+      "example": {
+        "ko": "시간이 있을 때 여행을 가요.",
+        "bn": "সময় পেলে আমি ভ্রমণে যাই।",
+        "en": "When I have time, I go traveling."
+      }
+    },
+    {
+      "ko": "등산",
+      "romanization": "deungsan",
+      "bn": "পাহাড়ে ওঠা",
+      "en": "hiking",
+      "pos": "noun",
+      "example": {
+        "ko": "친구들과 같이 등산을 했어요.",
+        "bn": "বন্ধুদের সাথে পাহাড়ে উঠেছিলাম।",
+        "en": "I went hiking with my friends."
+      }
+    },
+    {
+      "ko": "사진 촬영",
+      "romanization": "sajin chwaryeong",
+      "bn": "ছবি তোলা",
+      "en": "photography",
+      "pos": "noun",
+      "example": {
+        "ko": "사진 촬영이 제 취미예요.",
+        "bn": "ছবি তোলা আমার শখ।",
+        "en": "Photography is my hobby."
+      }
+    },
+    {
+      "ko": "음악 감상",
+      "romanization": "eumak gamsang",
+      "bn": "গান শোনা",
+      "en": "listening to music",
+      "pos": "noun",
+      "example": {
+        "ko": "밤에 음악 감상을 자주 해요.",
+        "bn": "রাতে আমি প্রায়ই গান শুনি।",
+        "en": "I often listen to music at night."
+      }
+    },
+    {
+      "ko": "영화 보기",
+      "romanization": "yeonghwa bogi",
+      "bn": "সিনেমা দেখা",
+      "en": "watching movies",
+      "pos": "expression",
+      "example": {
+        "ko": "주말에 영화 보기를 좋아해요.",
+        "bn": "সপ্তাহান্তে সিনেমা দেখতে পছন্দ করি।",
+        "en": "I like watching movies on weekends."
+      }
+    },
+    {
+      "ko": "자전거 타기",
+      "romanization": "jajeongeo tagi",
+      "bn": "সাইকেল চালানো",
+      "en": "riding a bicycle",
+      "pos": "expression",
+      "example": {
+        "ko": "공원에서 자전거 타기를 해요.",
+        "bn": "পার্কে সাইকেল চালাই।",
+        "en": "I ride a bicycle in the park."
+      }
+    },
+    {
+      "ko": "수영",
+      "romanization": "suyeong",
+      "bn": "সাঁতার",
+      "en": "swimming",
+      "pos": "noun",
+      "example": {
+        "ko": "여름에는 수영을 자주 해요.",
+        "bn": "গ্রীষ্মকালে আমি প্রায়ই সাঁতার কাটি।",
+        "en": "I often swim in the summer."
+      }
+    },
+    {
+      "ko": "축구",
+      "romanization": "chukgu",
+      "bn": "ফুটবল",
+      "en": "soccer",
+      "pos": "noun",
+      "example": {
+        "ko": "일요일마다 축구를 해요.",
+        "bn": "প্রতি রবিবার আমি ফুটবল খেলি।",
+        "en": "I play soccer every Sunday."
+      }
+    },
+    {
+      "ko": "야구",
+      "romanization": "yagu",
+      "bn": "বেসবল",
+      "en": "baseball",
+      "pos": "noun",
+      "example": {
+        "ko": "야구 경기를 보는 것을 좋아해요.",
+        "bn": "বেসবল খেলা দেখতে পছন্দ করি।",
+        "en": "I like watching baseball games."
+      }
+    },
+    {
+      "ko": "농구",
+      "romanization": "nonggu",
+      "bn": "বাস্কেটবল",
+      "en": "basketball",
+      "pos": "noun",
+      "example": {
+        "ko": "학교에서 농구를 했어요.",
+        "bn": "স্কুলে বাস্কেটবল খেলেছিলাম।",
+        "en": "I played basketball at school."
+      }
+    },
+    {
+      "ko": "배드민턴",
+      "romanization": "baedeuminteon",
+      "bn": "ব্যাডমিন্টন",
+      "en": "badminton",
+      "pos": "noun",
+      "example": {
+        "ko": "동생과 배드민턴을 쳐요.",
+        "bn": "ছোট ভাইয়ের সাথে ব্যাডমিন্টন খেলি।",
+        "en": "I play badminton with my younger sibling."
+      }
+    },
+    {
+      "ko": "피아노 치기",
+      "romanization": "piano chigi",
+      "bn": "পিয়ানো বাজানো",
+      "en": "playing piano",
+      "pos": "expression",
+      "example": {
+        "ko": "어릴 때 피아노 치기를 배웠어요.",
+        "bn": "ছোটবেলায় পিয়ানো বাজানো শিখেছিলাম।",
+        "en": "I learned playing piano when I was young."
+      }
+    },
+    {
+      "ko": "기타 치기",
+      "romanization": "gita chigi",
+      "bn": "গিটার বাজানো",
+      "en": "playing guitar",
+      "pos": "expression",
+      "example": {
+        "ko": "기타 치기가 너무 재미있어요.",
+        "bn": "গিটার বাজানো খুব মজার।",
+        "en": "Playing guitar is very fun."
+      }
+    },
+    {
+      "ko": "외국어 공부",
+      "romanization": "oegugeo gongbu",
+      "bn": "বিদেশি ভাষা শেখা",
+      "en": "studying foreign languages",
+      "pos": "noun",
+      "example": {
+        "ko": "제 취미는 외국어 공부입니다.",
+        "bn": "আমার শখ বিদেশি ভাষা শেখা।",
+        "en": "My hobby is studying foreign languages."
+      }
+    },
+    {
+      "ko": "콘서트 보기",
+      "romanization": "konseoteu bogi",
+      "bn": "কনসার্ট দেখা",
+      "en": "watching a concert",
+      "pos": "expression",
+      "example": {
+        "ko": "주말에 콘서트 보러 갈 거예요.",
+        "bn": "সপ্তাহান্তে কনসার্ট দেখতে যাব।",
+        "en": "I will go to watch a concert on the weekend."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V-(으)ㄹ 때",
+      "titleBn": "সময় নির্দেশক (যখন)",
+      "explanationBn": "কোনো কাজ বা ঘটনা ঘটার সময় বোঝাতে ক্রিয়াপদের সাথে '-(으)ㄹ 때' যুক্ত হয়। ক্রিয়াপদের শেষে ব্যঞ্জনবর্ণ থাকলে '-을 때' এবং স্বরবর্ণ বা 'ㄹ' থাকলে '-ㄹ 때' বসে।",
+      "explanationEn": "Used to express the time when an action or state occurs. '-을 때' is used after a consonant, and '-ㄹ 때' is used after a vowel or 'ㄹ'.",
+      "examples": [
+        {
+          "ko": "시간이 있을 때 낚시를 해요.",
+          "bn": "সময় পেলে আমি মাছ ধরি।",
+          "en": "When I have time, I go fishing."
+        },
+        {
+          "ko": "기분이 좋을 때 노래를 불러요.",
+          "bn": "মন ভালো থাকলে আমি গান গাই।",
+          "en": "When I feel good, I sing a song."
+        },
+        {
+          "ko": "비가 올 때 집에서 영화를 봐요.",
+          "bn": "বৃষ্টি হলে আমি বাড়িতে সিনেমা দেখি।",
+          "en": "When it rains, I watch movies at home."
+        }
+      ]
+    },
+    {
+      "pattern": "V-(으)러 가다/오다",
+      "titleBn": "উদ্দেশ্য নির্দেশক (কোনো কিছু করতে যাওয়া/আসা)",
+      "explanationBn": "কোনো স্থানে যাওয়ার বা আসার উদ্দেশ্য বোঝাতে ক্রিয়াপ드의 সাথে '-(으)러 가다/오다' ব্যবহৃত হয়। ব্যঞ্জনবর্ণ থাকলে '-으러' এবং স্বরবর্ণ বা 'ㄹ' থাকলে '-러' বসে।",
+      "explanationEn": "Used to express the purpose of going or coming to a place. '-으러' is used after a consonant, and '-러' is used after a vowel or 'ㄹ'.",
+      "examples": [
+        {
+          "ko": "주말에 친구하고 축구하러 가요.",
+          "bn": "সপ্তাহান্তে বন্ধুর সাথে ফুটবল খেলতে যাই।",
+          "en": "I go to play soccer with my friend on the weekend."
+        },
+        {
+          "ko": "한국어를 배우러 한국에 왔어요.",
+          "bn": "কোরিয়ান ভাষা শিখতে কোরিয়ায় এসেছি।",
+          "en": "I came to Korea to learn Korean."
+        },
+        {
+          "ko": "밥을 먹으러 식당에 가요.",
+          "bn": "ভাত খেতে রেস্তোরাঁয় যাই।",
+          "en": "I go to the restaurant to eat."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "শখ সম্পর্কে জিজ্ঞাসা করা",
+      "titleEn": "Asking about hobbies",
+      "lines": [
+        {
+          "speaker": "수루",
+          "ko": "투안 씨는 취미가 뭐예요?",
+          "bn": "তুয়ান সাহেব, আপনার শখ কী?",
+          "en": "Tuan, what is your hobby?"
+        },
+        {
+          "speaker": "투안",
+          "ko": "제 취미는 낚시예요. 수루 씨는요?",
+          "bn": "আমার শখ মাছ ধরা। সুরু সাহেবের কী?",
+          "en": "My hobby is fishing. How about you, Suru?"
+        },
+        {
+          "speaker": "수루",
+          "ko": "저는 독서를 좋아해요.",
+          "bn": "আমি বই পড়তে পছন্দ করি।",
+          "en": "I like reading."
+        },
+        {
+          "speaker": "투안",
+          "ko": "그래요? 시간이 있을 때 보통 책을 읽어요?",
+          "bn": "তাই নাকি? সময় পেলে সাধারণত বই পড়েন?",
+          "en": "Really? Do you usually read books when you have time?"
+        },
+        {
+          "speaker": "수루",
+          "ko": "네, 시간이 있을 때 책을 많이 읽어요.",
+          "bn": "হ্যাঁ, সময় পেলে আমি অনেক বই পড়ি।",
+          "en": "Yes, I read a lot of books when I have time."
+        }
+      ]
+    },
+    {
+      "titleBn": "সপ্তাহান্তের পরিকল্পনা",
+      "titleEn": "Weekend plans",
+      "lines": [
+        {
+          "speaker": "민수",
+          "ko": "리한 씨, 주말에 보통 뭐 해요?",
+          "bn": "রিহান সাহেব, সপ্তাহান্তে সাধারণত কী করেন?",
+          "en": "Rihan, what do you usually do on weekends?"
+        },
+        {
+          "speaker": "리한",
+          "ko": "저는 운동을 좋아해서 주로 운동을 해요.",
+          "bn": "আমি খেলাধুলা পছন্দ করি, তাই সাধারণত খেলাধুলা করি।",
+          "en": "I like sports, so I usually play sports."
+        },
+        {
+          "speaker": "민수",
+          "ko": "무슨 운동을 가장 좋아해요?",
+          "bn": "কোন খেলা সবচেয়ে বেশি পছন্দ করেন?",
+          "en": "What sport do you like the most?"
+        },
+        {
+          "speaker": "리한",
+          "ko": "축구를 가장 좋아해요.",
+          "bn": "ফুটবল সবচেয়ে বেশি পছন্দ করি।",
+          "en": "I like soccer the most."
+        },
+        {
+          "speaker": "민수",
+          "ko": "그럼 내일 저하고 같이 축구하러 갈래요?",
+          "bn": "তাহলে আগামীকাল আমার সাথে ফুটবল খেলতে যাবেন?",
+          "en": "Then do you want to go play soccer with me tomorrow?"
+        },
+        {
+          "speaker": "리한",
+          "ko": "좋아요. 같이 가요.",
+          "bn": "ঠিক আছে। চলুন একসাথে যাই।",
+          "en": "Sounds good. Let's go together."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "취미",
+        "이름",
+        "나이",
+        "직업"
+      ],
+      "answer": 0,
+      "explanationBn": "বাক্যটি শখ সম্পর্কে জিজ্ঞাসা করছে, তাই '취미' (শখ) সঠিক উত্তর।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "독서",
+        "수영",
+        "등산",
+        "낚시"
+      ],
+      "answer": 3,
+      "explanationBn": "মাছ ধরার কথা বলা হয়েছে, তাই '낚시' (মাছ ধরা) সঠিক উত্তর।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক ব্যাকরণটি বেছে নিন।",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "있을 때",
+        "있으러",
+        "있어서",
+        "있고"
+      ],
+      "answer": 0,
+      "explanationBn": "'시간이 있을 때' (সময় থাকলে) সঠিক ব্যাকরণ।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক ব্যাকরণটি বেছে নিন।",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "축구할 때",
+        "축구하러",
+        "축구해서",
+        "축구하고"
+      ],
+      "answer": 1,
+      "explanationBn": "ফুটবল খেলতে যাওয়ার উদ্দেশ্য বোঝাতে '축구하러' (ফুটবল খেলতে) সঠিক।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "음악",
+        "영화",
+        "사진",
+        "자전거"
+      ],
+      "answer": 0,
+      "explanationBn": "গান শোনার কথা বলা হয়েছে, তাই '음악' (গান) সঠিক।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "배드민턴",
+        "야구",
+        "농구",
+        "축구"
+      ],
+      "answer": 0,
+      "explanationBn": "র‍্যাকেট দিয়ে খেলা হয়, তাই '배드민턴' (ব্যাডমিন্টন) সঠিক।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "여행",
+        "독서",
+        "수영",
+        "등산"
+      ],
+      "answer": 3,
+      "explanationBn": "পাহাড়ে ওঠার কথা বলা হয়েছে, তাই '등산' (পাহাড়ে ওঠা) সঠিক।"
+    },
+    {
+      "id": "p8",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "pairs": [
+        {
+          "left": "취미",
+          "right": "শখ"
+        },
+        {
+          "left": "독서",
+          "right": "বই পড়া"
+        },
+        {
+          "left": "낚시",
+          "right": "মাছ ধরা"
+        },
+        {
+          "left": "여행",
+          "right": "ভ্রমণ"
+        }
+      ],
+      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "pairs": [
+        {
+          "left": "등산",
+          "right": "পাহাড়ে ওঠা"
+        },
+        {
+          "left": "수영",
+          "right": "সাঁতার"
+        },
+        {
+          "left": "축구",
+          "right": "ফুটবল"
+        },
+        {
+          "left": "야구",
+          "right": "বেসবল"
+        }
+      ],
+      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "pairs": [
+        {
+          "left": "음악 감상",
+          "right": "গান শোনা"
+        },
+        {
+          "left": "영화 보기",
+          "right": "সিনেমা দেখা"
+        },
+        {
+          "left": "사진 촬영",
+          "right": "ছবি তোলা"
+        },
+        {
+          "left": "자전거 타기",
+          "right": "সাইকেল চালানো"
+        }
+      ],
+      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 주말에 보통 뭐 해요?\n나: 저는 (   )을/를 좋아해서 산에 자주 가요.",
+      "options": [
+        "독서",
+        "수영",
+        "등산",
+        "낚시"
+      ],
+      "answer": 2,
+      "explanationBn": "পাহাড়ে যাওয়ার কথা বলা হয়েছে, তাই '등산' (পাহাড়ে ওঠা) সঠিক উত্তর।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 시간이 있을 때 뭐 해요?\n나: 저는 음악 (   )을/를 좋아해요.",
+      "options": [
+        "감상",
+        "촬영",
+        "공부",
+        "여행"
+      ],
+      "answer": 0,
+      "explanationBn": "গানের সাথে '감상' (শোনা/উপভোগ করা) বসে, তাই '음악 감상' সঠিক।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 내일 같이 자전거 (   ) 갈래요?\n나: 좋아요. 같이 가요.",
+      "options": [
+        "탈 때",
+        "타러",
+        "타서",
+        "타고"
+      ],
+      "answer": 1,
+      "explanationBn": "সাইকেল চালাতে যাওয়ার উদ্দেশ্য বোঝাতে '타러' (চালাতে) সঠিক।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음을 읽고 물음에 답하십시오.",
+      "passage": "제 취미는 낚시입니다. 저는 시간이 있을 때 낚시를 하러 갑니다. 이번 주말에도 친구하고 같이 바다에 낚시를 하러 갈 것입니다.",
+      "options": [
+        "이 사람은 낚시를 싫어합니다.",
+        "이 사람은 주말에 산에 갈 것입니다.",
+        "이 사람은 시간이 있을 때 낚시를 합니다.",
+        "이 사람은 혼자 낚시를 하러 갈 것입니다."
+      ],
+      "answer": 2,
+      "explanationBn": "লেখায় বলা হয়েছে '시간이 있을 때 낚시를 하러 갑니다' (সময় পেলে মাছ ধরতে যাই), তাই ৩ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음을 읽고 물음에 답하십시오.",
+      "passage": "저는 운동을 좋아합니다. 그중에서 축구를 가장 좋아합니다. 그래서 일요일마다 공원에서 친구들과 축구를 합니다.",
+      "options": [
+        "이 사람은 운동을 싫어합니다.",
+        "이 사람은 일요일에 축구를 합니다.",
+        "이 사람은 농구를 가장 좋아합니다.",
+        "이 사람은 집에서 축구를 합니다."
+      ],
+      "answer": 1,
+      "explanationBn": "লেখায় বলা হয়েছে '일요일마다 공원에서 친구들과 축구를 합니다' (প্রতি রবিবার পার্কে বন্ধুদের সাথে ফুটবল খেলি), তাই ২ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 투안 씨는 취미가 뭐예요?\n남: 제 취미는 독서예요.",
+      "options": [
+        "남자의 취미는 낚시입니다.",
+        "남자의 취미는 독서입니다.",
+        "여자의 취미는 독서입니다.",
+        "여자의 취미는 낚시입니다."
+      ],
+      "answer": 1,
+      "explanationBn": "পুরুষটি বলেছে তার শখ বই পড়া (독서), তাই ২ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남: 리한 씨, 주말에 보통 뭐 해요?\n여: 저는 운동을 좋아해서 주로 운동을 해요.",
+      "options": [
+        "여자는 주말에 보통 운동을 합니다.",
+        "여자는 주말에 보통 요리를 합니다.",
+        "남자는 주말에 보통 운동을 합니다.",
+        "남자는 주말에 보통 요리를 합니다."
+      ],
+      "answer": 0,
+      "explanationBn": "মহিলাটি বলেছে সে খেলাধুলা পছন্দ করে এবং সাধারণত খেলাধুলা করে, তাই ১ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 시간이 있을 때 뭐 해요?\n남: 저는 사진 촬영을 좋아해서 사진을 찍으러 가요.",
+      "options": [
+        "남자는 시간이 있을 때 영화를 봅니다.",
+        "남자는 시간이 있을 때 음악을 듣습니다.",
+        "남자는 시간이 있을 때 사진을 찍습니다.",
+        "남자는 시간이 있을 때 등산을 합니다."
+      ],
+      "answer": 2,
+      "explanationBn": "পুরুষটি বলেছে সে ছবি তুলতে পছন্দ করে এবং ছবি তুলতে যায়, তাই ৩ নম্বর অপশনটি সঠিক।"
+    }
+  ]
+}

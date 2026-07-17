@@ -1,0 +1,663 @@
+{
+  "chapter": 21,
+  "slug": "hospital",
+  "title": {
+    "ko": "병원",
+    "bn": "হাসপাতাল",
+    "en": "Hospital"
+  },
+  "category": "daily-life",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "হাসপাতালের বিভিন্ন বিভাগ সম্পর্কে জানা",
+      "অসুস্থতার লক্ষণ বর্ণনা করতে শেখা",
+      "ডাক্তারের সাথে কথা বলা এবং ওষুধ কেনা"
+    ],
+    "en": [
+      "Learn about different hospital departments",
+      "Learn to describe symptoms of illness",
+      "Talk to a doctor and buy medicine"
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "병원",
+      "romanization": "byeongwon",
+      "bn": "হাসপাতাল",
+      "en": "hospital",
+      "pos": "noun",
+      "example": {
+        "ko": "아파서 병원에 갑니다.",
+        "bn": "অসুস্থ হওয়ায় হাসপাতালে যাচ্ছি।",
+        "en": "I am going to the hospital because I am sick."
+      }
+    },
+    {
+      "ko": "의사",
+      "romanization": "uisa",
+      "bn": "ডাক্তার",
+      "en": "doctor",
+      "pos": "noun",
+      "example": {
+        "ko": "의사 선생님이 진찰을 합니다.",
+        "bn": "ডাক্তার সাহেব পরীক্ষা করছেন।",
+        "en": "The doctor is examining."
+      }
+    },
+    {
+      "ko": "간호사",
+      "romanization": "ganhosa",
+      "bn": "নার্স",
+      "en": "nurse",
+      "pos": "noun",
+      "example": {
+        "ko": "간호사가 주사를 놓습니다.",
+        "bn": "নার্স ইনজেকশন দিচ্ছেন।",
+        "en": "The nurse is giving an injection."
+      }
+    },
+    {
+      "ko": "약국",
+      "romanization": "yakguk",
+      "bn": "ফার্মেসি",
+      "en": "pharmacy",
+      "pos": "noun",
+      "example": {
+        "ko": "약국에서 약을 삽니다.",
+        "bn": "ফার্মেসি থেকে ওষুধ কিনছি।",
+        "en": "I buy medicine at the pharmacy."
+      }
+    },
+    {
+      "ko": "약",
+      "romanization": "yak",
+      "bn": "ওষুধ",
+      "en": "medicine",
+      "pos": "noun",
+      "example": {
+        "ko": "밥을 먹고 약을 드세요.",
+        "bn": "খাবার খেয়ে ওষুধ খাবেন।",
+        "en": "Please take the medicine after eating."
+      }
+    },
+    {
+      "ko": "내과",
+      "romanization": "naegwa",
+      "bn": "মেডিসিন বিভাগ",
+      "en": "internal medicine",
+      "pos": "noun",
+      "example": {
+        "ko": "배가 아파서 내과에 갔어요.",
+        "bn": "পেট ব্যথার কারণে মেডিসিন বিভাগে গিয়েছিলাম।",
+        "en": "I went to internal medicine because my stomach hurt."
+      }
+    },
+    {
+      "ko": "외과",
+      "romanization": "oegwa",
+      "bn": "সার্জারি বিভাগ",
+      "en": "surgery",
+      "pos": "noun",
+      "example": {
+        "ko": "다리를 다쳐서 외과에 가야 해요.",
+        "bn": "পায়ে আঘাত পাওয়ায় সার্জারি বিভাগে যেতে হবে।",
+        "en": "I need to go to surgery because I hurt my leg."
+      }
+    },
+    {
+      "ko": "치과",
+      "romanization": "chigwa",
+      "bn": "ডেন্টাল ক্লিনিক",
+      "en": "dentistry",
+      "pos": "noun",
+      "example": {
+        "ko": "이가 아파서 치과에 갑니다.",
+        "bn": "দাঁত ব্যথার কারণে ডেন্টাল ক্লিনিকে যাচ্ছি।",
+        "en": "I am going to the dentist because my tooth hurts."
+      }
+    },
+    {
+      "ko": "안과",
+      "romanization": "angwa",
+      "bn": "চক্ষু বিভাগ",
+      "en": "ophthalmology",
+      "pos": "noun",
+      "example": {
+        "ko": "눈이 빨개서 안과에 왔어요.",
+        "bn": "চোখ লাল হওয়ায় চক্ষু বিভাগে এসেছি।",
+        "en": "I came to ophthalmology because my eyes are red."
+      }
+    },
+    {
+      "ko": "이비인후과",
+      "romanization": "ibiinhugwa",
+      "bn": "নাক-কান-গলা বিভাগ",
+      "en": "ENT (ear, nose, and throat)",
+      "pos": "noun",
+      "example": {
+        "ko": "목이 아파서 이비인후과에 갑니다.",
+        "bn": "গলা ব্যথার কারণে নাক-কান-গলা বিভাগে যাচ্ছি।",
+        "en": "I am going to the ENT clinic because my throat hurts."
+      }
+    },
+    {
+      "ko": "정형외과",
+      "romanization": "jeonghyeongoegwa",
+      "bn": "অর্থোপেডিকস",
+      "en": "orthopedics",
+      "pos": "noun",
+      "example": {
+        "ko": "허리가 아파서 정형외과에서 치료를 받아요.",
+        "bn": "কোমর ব্যথার কারণে অর্থোপেডিকসে চিকিৎসা নিচ্ছি।",
+        "en": "I am getting treatment at orthopedics because my back hurts."
+      }
+    },
+    {
+      "ko": "아프다",
+      "romanization": "apeuda",
+      "bn": "অসুস্থ হওয়া / ব্যথা করা",
+      "en": "to be sick / to hurt",
+      "pos": "adjective",
+      "example": {
+        "ko": "어디가 아프세요?",
+        "bn": "কোথায় ব্যথা করছে?",
+        "en": "Where does it hurt?"
+      }
+    },
+    {
+      "ko": "열이 나다",
+      "romanization": "yeori nada",
+      "bn": "জ্বর আসা",
+      "en": "to have a fever",
+      "pos": "expression",
+      "example": {
+        "ko": "어제부터 열이 많이 나요.",
+        "bn": "গতকাল থেকে অনেক জ্বর আসছে।",
+        "en": "I have had a high fever since yesterday."
+      }
+    },
+    {
+      "ko": "기침을 하다",
+      "romanization": "gichimeul hada",
+      "bn": "কাশি হওয়া",
+      "en": "to cough",
+      "pos": "expression",
+      "example": {
+        "ko": "감기에 걸려서 기침을 해요.",
+        "bn": "ঠান্ডা লাগায় কাশি হচ্ছে।",
+        "en": "I am coughing because I caught a cold."
+      }
+    },
+    {
+      "ko": "콧물이 나다",
+      "romanization": "konmuri nada",
+      "bn": "সর্দি পড়া",
+      "en": "to have a runny nose",
+      "pos": "expression",
+      "example": {
+        "ko": "콧물이 나고 목이 아파요.",
+        "bn": "সর্দি পড়ছে এবং গলা ব্যথা করছে।",
+        "en": "I have a runny nose and a sore throat."
+      }
+    },
+    {
+      "ko": "소화가 안 되다",
+      "romanization": "sohwaga an doeda",
+      "bn": "হজম না হওয়া",
+      "en": "to have indigestion",
+      "pos": "expression",
+      "example": {
+        "ko": "소화가 안 돼서 소화제를 먹었어요.",
+        "bn": "হজম না হওয়ায় হজমের ওষুধ খেয়েছি।",
+        "en": "I took digestive medicine because I had indigestion."
+      }
+    },
+    {
+      "ko": "다치다",
+      "romanization": "dachida",
+      "bn": "আঘাত পাওয়া",
+      "en": "to get hurt",
+      "pos": "verb",
+      "example": {
+        "ko": "일하다가 손을 다쳤어요.",
+        "bn": "কাজ করার সময় হাতে আঘাত পেয়েছি।",
+        "en": "I hurt my hand while working."
+      }
+    },
+    {
+      "ko": "처방하다",
+      "romanization": "cheobanghada",
+      "bn": "প্রেসক্রিপশন দেওয়া",
+      "en": "to prescribe",
+      "pos": "verb",
+      "example": {
+        "ko": "의사가 약을 처방해 주었습니다.",
+        "bn": "ডাক্তার ওষুধ প্রেসক্রাইব করে দিয়েছেন।",
+        "en": "The doctor prescribed medicine."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + (으)니까",
+      "titleBn": "কারণ বা যুক্তি বোঝাতে (으)니까",
+      "explanationBn": "এই ব্যাকরণটি কোনো কাজের কারণ বা যুক্তি বোঝাতে ব্যবহৃত হয়। ক্রিয়াপদ বা বিশেষণের শেষে এটি যুক্ত হয়। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '으니까' এবং স্বরবর্ণ দিয়ে শেষ হলে '니까' বসে।",
+      "explanationEn": "Used to express a reason or cause. Attached to verbs or adjectives. '으니까' is used after a consonant, and '니까' is used after a vowel.",
+      "examples": [
+        {
+          "ko": "비가 오니까 우산을 쓰세요.",
+          "bn": "বৃষ্টি আসছে তাই ছাতা ব্যবহার করুন।",
+          "en": "It is raining, so please use an umbrella."
+        },
+        {
+          "ko": "오늘은 바쁘니까 내일 만납시다.",
+          "bn": "আজ ব্যস্ত আছি তাই আগামীকাল দেখা করি।",
+          "en": "I am busy today, so let's meet tomorrow."
+        },
+        {
+          "ko": "머리가 아프니까 약을 먹고 쉬세요.",
+          "bn": "মাথা ব্যথা করছে তাই ওষুধ খেয়ে বিশ্রাম নিন।",
+          "en": "Your head hurts, so take medicine and rest."
+        }
+      ]
+    },
+    {
+      "pattern": "V + 지 마세요",
+      "titleBn": "নিষেধাজ্ঞা বোঝাতে 지 마세요",
+      "explanationBn": "কাউকে কোনো কাজ করতে নিষেধ করার জন্য এই ব্যাকরণটি ব্যবহৃত হয়। এটি ক্রিয়াপদের মূল অংশের সাথে যুক্ত হয়।",
+      "explanationEn": "Used to tell someone not to do something. It is attached to the verb stem.",
+      "examples": [
+        {
+          "ko": "여기에 주차하지 마세요.",
+          "bn": "এখানে গাড়ি পার্ক করবেন না।",
+          "en": "Please do not park here."
+        },
+        {
+          "ko": "오늘은 찬물을 마시지 마세요.",
+          "bn": "আজ ঠান্ডা পানি খাবেন না।",
+          "en": "Please do not drink cold water today."
+        },
+        {
+          "ko": "약 먹을 때 술을 마시지 마세요.",
+          "bn": "ওষুধ খাওয়ার সময় মদ পান করবেন না।",
+          "en": "Please do not drink alcohol when taking medicine."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "হাসপাতালে",
+      "titleEn": "At the Hospital",
+      "lines": [
+        {
+          "speaker": "의사",
+          "ko": "어떻게 오셨습니까?",
+          "bn": "কী সমস্যা নিয়ে এসেছেন?",
+          "en": "What brings you here?"
+        },
+        {
+          "speaker": "라힘",
+          "ko": "어제부터 열이 나고 목이 많이 아파요.",
+          "bn": "গতকাল থেকে জ্বর আসছে এবং গলা অনেক ব্যথা করছে।",
+          "en": "I have had a fever and a very sore throat since yesterday."
+        },
+        {
+          "speaker": "의사",
+          "ko": "어디 봅시다. 입을 아 벌려 보세요.",
+          "bn": "দেখি। মুখ 'আ' করে খুলুন।",
+          "en": "Let's see. Open your mouth and say 'ah'."
+        },
+        {
+          "speaker": "의사",
+          "ko": "목이 많이 부었네요. 감기입니다.",
+          "bn": "গলা অনেক ফুলে গেছে। ঠান্ডা লেগেছে।",
+          "en": "Your throat is very swollen. It's a cold."
+        },
+        {
+          "speaker": "라힘",
+          "ko": "그럼 어떻게 해야 합니까?",
+          "bn": "তাহলে এখন কী করতে হবে?",
+          "en": "Then what should I do?"
+        },
+        {
+          "speaker": "의사",
+          "ko": "약을 처방해 드릴 테니까 약국에서 약을 사서 드세요. 그리고 푹 쉬세요.",
+          "bn": "আমি ওষুধ লিখে দিচ্ছি, ফার্মেসি থেকে ওষুধ কিনে খাবেন। আর ভালো করে বিশ্রাম নেবেন।",
+          "en": "I will prescribe medicine, so buy it at the pharmacy and take it. And get plenty of rest."
+        }
+      ]
+    },
+    {
+      "titleBn": "ফার্মেসিতে",
+      "titleEn": "At the Pharmacy",
+      "lines": [
+        {
+          "speaker": "약사",
+          "ko": "어서 오세요. 처방전 주시겠어요?",
+          "bn": "স্বাগতম। প্রেসক্রিপশনটা দেবেন কি?",
+          "en": "Welcome. Can I have your prescription?"
+        },
+        {
+          "speaker": "라힘",
+          "ko": "네, 여기 있습니다.",
+          "bn": "হ্যাঁ, এই নিন।",
+          "en": "Yes, here it is."
+        },
+        {
+          "speaker": "약사",
+          "ko": "이 약은 하루에 세 번, 식후 30분에 드세요.",
+          "bn": "এই ওষুধ দিনে তিনবার, খাওয়ার ৩০ মিনিট পর খাবেন।",
+          "en": "Take this medicine three times a day, 30 minutes after meals."
+        },
+        {
+          "speaker": "라힘",
+          "ko": "네, 알겠습니다. 얼마입니까?",
+          "bn": "হ্যাঁ, বুঝতে পেরেছি। কত টাকা হয়েছে?",
+          "en": "Yes, I understand. How much is it?"
+        },
+        {
+          "speaker": "약사",
+          "ko": "4,500원입니다. 그리고 찬물은 마시지 마세요.",
+          "bn": "৪,৫০০ উয়ন। আর ঠান্ডা পানি খাবেন না।",
+          "en": "It is 4,500 won. And please do not drink cold water."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "배가 아파서 ( )에 갑니다.",
+        "내과",
+        "안과",
+        "치과"
+      ],
+      "answer": 1,
+      "explanationBn": "পেট ব্যথা হলে মেডিসিন বিভাগে (내과) যেতে হয়।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "눈이 아파서 ( )에 갑니다.",
+        "외과",
+        "안과",
+        "이비인후과"
+      ],
+      "answer": 2,
+      "explanationBn": "চোখ ব্যথা হলে চক্ষু বিভাগে (안과) যেতে হয়।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "이가 아파서 ( )에 갑니다.",
+        "치과",
+        "정형외과",
+        "내과"
+      ],
+      "answer": 1,
+      "explanationBn": "দাঁত ব্যথা হলে ডেন্টাল ক্লিনিকে (치과) যেতে হয়।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "다리를 다쳐서 ( )에 갑니다.",
+        "안과",
+        "정형외과",
+        "이비인후과"
+      ],
+      "answer": 2,
+      "explanationBn": "পায়ে আঘাত পেলে অর্থোপেডিকসে (정형외과) যেতে হয়।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "সঠিক ব্যাকরণ দিয়ে শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "비가 ( ) 우산을 쓰세요.",
+        "오니까",
+        "오고",
+        "오지만"
+      ],
+      "answer": 1,
+      "explanationBn": "কারণ বোঝাতে (으)니까 ব্যবহৃত হয়। '비가 오다' এর সাথে '니까' যুক্ত হয়ে '오니까' হয়েছে।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "সঠিক ব্যাকরণ দিয়ে শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "머리가 ( ) 약을 드세요.",
+        "아프고",
+        "아프니까",
+        "아프지만"
+      ],
+      "answer": 2,
+      "explanationBn": "মাথা ব্যথা করার কারণে ওষুধ খেতে বলা হচ্ছে, তাই '아프니까' সঠিক।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "সঠিক ব্যাকরণ দিয়ে শূন্যস্থান পূরণ করুন।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "감기에 걸렸으니까 찬물을 ( ).",
+        "마시세요",
+        "마시지 마세요",
+        "마시고 싶어요"
+      ],
+      "answer": 2,
+      "explanationBn": "ঠান্ডা লাগলে ঠান্ডা পানি খেতে নিষেধ করা হয়, তাই '마시지 마세요' সঠিক।"
+    },
+    {
+      "id": "p8",
+      "type": "matching",
+      "questionBn": "সঠিক জোড়া মিলান।",
+      "pairs": [
+        {
+          "left": "내과",
+          "right": "মেডিসিন বিভাগ"
+        },
+        {
+          "left": "안과",
+          "right": "চক্ষু বিভাগ"
+        },
+        {
+          "left": "치과",
+          "right": "ডেন্টাল ক্লিনিক"
+        },
+        {
+          "left": "정형외과",
+          "right": "অর্থোপেডিকস"
+        }
+      ],
+      "explanationBn": "হাসপাতালের বিভিন্ন বিভাগের কোরিয়ান ও বাংলা নামের সঠিক জোড়া।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "সঠিক জোড়া মিলান।",
+      "pairs": [
+        {
+          "left": "열이 나다",
+          "right": "জ্বর আসা"
+        },
+        {
+          "left": "기침을 하다",
+          "right": "কাশি হওয়া"
+        },
+        {
+          "left": "콧물이 나다",
+          "right": "সর্দি পড়া"
+        },
+        {
+          "left": "소화가 안 되다",
+          "right": "হজম না হওয়া"
+        }
+      ],
+      "explanationBn": "অসুস্থতার বিভিন্ন লক্ষণের কোরিয়ান ও বাংলা নামের সঠিক জোড়া।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "সঠিক জোড়া মিলান।",
+      "pairs": [
+        {
+          "left": "의사",
+          "right": "ডাক্তার"
+        },
+        {
+          "left": "간호사",
+          "right": "নার্স"
+        },
+        {
+          "left": "약국",
+          "right": "ফার্মেসি"
+        },
+        {
+          "left": "처방하다",
+          "right": "প্রেসক্রিপশন দেওয়া"
+        }
+      ],
+      "explanationBn": "হাসপাতাল সম্পর্কিত বিভিন্ন শব্দের কোরিয়ান ও বাংলা নামের সঠিক জোড়া।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন।",
+      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "passage": "[약국 간판 그림]",
+      "options": [
+        "병원",
+        "약국",
+        "은행",
+        "우체국"
+      ],
+      "answer": 1,
+      "explanationBn": "ছবিতে ফার্মেসি (약국) দেখানো হয়েছে।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "어제부터 배가 아프고 설사를 합니다. 그래서 오늘 ( )에 가려고 합니다.",
+      "options": [
+        "안과",
+        "치과",
+        "내과",
+        "정형외과"
+      ],
+      "answer": 2,
+      "explanationBn": "পেট ব্যথা এবং ডায়রিয়া হলে মেডিসিন বিভাগে (내과) যেতে হয়।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 감기에 걸려서 열이 많이 나요.\n나: 그럼 오늘은 일하지 말고 집에서 ( ).",
+      "options": [
+        "쉬세요",
+        "쉬지 마세요",
+        "일하세요",
+        "운동하세요"
+      ],
+      "answer": 0,
+      "explanationBn": "জ্বর আসলে বাড়িতে বিশ্রাম নেওয়া (쉬세요) উচিত।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 약은 언제 먹어야 합니까?\n나: 밥을 ( ) 30분 후에 드세요.",
+      "options": [
+        "먹고",
+        "먹지만",
+        "먹으니까",
+        "먹으러"
+      ],
+      "answer": 0,
+      "explanationBn": "খাবার খাওয়ার পর ওষুধ খেতে হবে, তাই '먹고' (খেয়ে) সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "অনুচ্ছেদটি পড়ে প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음을 읽고 물음에 답하십시오.",
+      "passage": "저는 어제 계단에서 넘어져서 다리를 다쳤습니다. 그래서 오늘 아침에 정형외과에 갔습니다. 의사 선생님이 엑스레이를 찍고 약을 주셨습니다. 며칠 동안 많이 걷지 말라고 하셨습니다.",
+      "options": [
+        "이 사람은 오늘 다리를 다쳤습니다.",
+        "이 사람은 내과에 갔습니다.",
+        "이 사람은 며칠 동안 많이 걸어야 합니다.",
+        "이 사람은 정형외과에서 진료를 받았습니다."
+      ],
+      "answer": 3,
+      "explanationBn": "অনুচ্ছেদে বলা হয়েছে যে সে অর্থোপেডিকসে (정형외과) গিয়েছিল, তাই ৪ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বাছাই করুন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 어디가 아프십니까?\n남: 어제부터 소화가 안 되고 배가 아파요.",
+      "options": [
+        "머리가 아픕니다.",
+        "배가 아픕니다.",
+        "다리를 다쳤습니다.",
+        "눈이 아픕니다."
+      ],
+      "answer": 1,
+      "explanationBn": "লোকটি বলছে তার পেট ব্যথা করছে (배가 아파요)।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বাছাই করুন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남: 이 약은 어떻게 먹어야 합니까?\n여: 하루에 세 번, 식후 30분에 드세요.",
+      "options": [
+        "하루에 두 번 먹습니다.",
+        "식전에 먹습니다.",
+        "하루에 세 번 먹습니다.",
+        "식후 1시간에 먹습니다."
+      ],
+      "answer": 2,
+      "explanationBn": "মহিলাটি বলছে ওষুধ দিনে তিনবার (하루에 세 번) খেতে হবে।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বাছাই করুন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여: 리한 씨, 얼굴이 안 좋아요. 어디 아파요?\n남: 네, 감기에 걸려서 열이 나고 기침을 해요.\n여: 그럼 일찍 집에 가서 쉬세요. 그리고 약국에 가서 약을 사 드세요.",
+      "options": [
+        "남자는 지금 병원에 있습니다.",
+        "남자는 감기에 걸렸습니다.",
+        "여자는 약국에서 일합니다.",
+        "남자는 오늘 늦게 집에 갈 것입니다."
+      ],
+      "answer": 1,
+      "explanationBn": "লোকটি বলছে তার ঠান্ডা লেগেছে (감기에 걸려서)।"
+    }
+  ]
+}

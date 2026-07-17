@@ -1,0 +1,625 @@
+{
+  "chapter": 27,
+  "slug": "korean-commemorative-days",
+  "title": {
+    "ko": "한국의 기념일",
+    "bn": "কোরিয়ার স্মরণীয় দিবস",
+    "en": "Korean Commemorative Days"
+  },
+  "category": "culture",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কোরিয়ার বিভিন্ন স্মরণীয় দিবস সম্পর্কে জানা",
+      "ছুটির দিন এবং উৎসবের বর্ণনা দেওয়া",
+      "কোরিয়ান সংস্কৃতি ও ঐতিহ্য সম্পর্কে ধারণা লাভ করা"
+    ],
+    "en": [
+      "Learn about various commemorative days in Korea",
+      "Describe holidays and festivals",
+      "Gain an understanding of Korean culture and traditions"
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "기념일",
+      "romanization": "ginyeomil",
+      "bn": "স্মরণীয় দিবস",
+      "en": "commemorative day",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘은 특별한 기념일입니다.",
+        "bn": "আজ একটি বিশেষ স্মরণীয় দিবস।",
+        "en": "Today is a special commemorative day."
+      }
+    },
+    {
+      "ko": "공휴일",
+      "romanization": "gonghyuil",
+      "bn": "সরকারি ছুটির দিন",
+      "en": "public holiday",
+      "pos": "noun",
+      "example": {
+        "ko": "내일은 공휴일이라서 학교에 안 갑니다.",
+        "bn": "আগামীকাল সরকারি ছুটির দিন তাই স্কুলে যাব না।",
+        "en": "Tomorrow is a public holiday, so I don't go to school."
+      }
+    },
+    {
+      "ko": "명절",
+      "romanization": "myeongjeol",
+      "bn": "উৎসবের দিন",
+      "en": "traditional holiday",
+      "pos": "noun",
+      "example": {
+        "ko": "한국의 대표적인 명절은 설날과 추석입니다.",
+        "bn": "কোরিয়ার প্রধান উৎসবের দিনগুলো হলো সল্লাল এবং ছুসক।",
+        "en": "Korea's representative traditional holidays are Seollal and Chuseok."
+      }
+    },
+    {
+      "ko": "설날",
+      "romanization": "seollal",
+      "bn": "কোরিয়ান নববর্ষ",
+      "en": "Lunar New Year",
+      "pos": "noun",
+      "example": {
+        "ko": "설날에는 떡국을 먹습니다.",
+        "bn": "কোরিয়ান নববর্ষে তকগুক খাওয়া হয়।",
+        "en": "We eat Tteokguk on Lunar New Year."
+      }
+    },
+    {
+      "ko": "추석",
+      "romanization": "chuseok",
+      "bn": "কোরিয়ান ধন্যবাদ জ্ঞাপন দিবস",
+      "en": "Chuseok (Korean Thanksgiving)",
+      "pos": "noun",
+      "example": {
+        "ko": "추석에는 송편을 만듭니다.",
+        "bn": "ছুসকে সংপিয়ন তৈরি করা হয়।",
+        "en": "We make Songpyeon on Chuseok."
+      }
+    },
+    {
+      "ko": "삼일절",
+      "romanization": "samiljeol",
+      "bn": "স্বাধীনতা আন্দোলন দিবস",
+      "en": "Independence Movement Day",
+      "pos": "noun",
+      "example": {
+        "ko": "3월 1일은 삼일절입니다.",
+        "bn": "১লা মার্চ হলো স্বাধীনতা আন্দোলন দিবস।",
+        "en": "March 1st is Independence Movement Day."
+      }
+    },
+    {
+      "ko": "어린이날",
+      "romanization": "eorininal",
+      "bn": "শিশু দিবস",
+      "en": "Children's Day",
+      "pos": "noun",
+      "example": {
+        "ko": "5월 5일은 어린이날입니다.",
+        "bn": "৫ই মে হলো শিশু দিবস।",
+        "en": "May 5th is Children's Day."
+      }
+    },
+    {
+      "ko": "광복절",
+      "romanization": "gwangbokjeol",
+      "bn": "জাতীয় মুক্তি দিবস",
+      "en": "National Liberation Day",
+      "pos": "noun",
+      "example": {
+        "ko": "8월 15일은 광복절입니다.",
+        "bn": "১৫ই আগস্ট হলো জাতীয় মুক্তি দিবস।",
+        "en": "August 15th is National Liberation Day."
+      }
+    },
+    {
+      "ko": "개천절",
+      "romanization": "gaecheonjeol",
+      "bn": "জাতীয় প্রতিষ্ঠা দিবস",
+      "en": "National Foundation Day",
+      "pos": "noun",
+      "example": {
+        "ko": "10월 3일은 개천절입니다.",
+        "bn": "৩রা অক্টোবর হলো জাতীয় প্রতিষ্ঠা দিবস।",
+        "en": "October 3rd is National Foundation Day."
+      }
+    },
+    {
+      "ko": "한글날",
+      "romanization": "hangeullal",
+      "bn": "হাঙ্গুল দিবস",
+      "en": "Hangeul Proclamation Day",
+      "pos": "noun",
+      "example": {
+        "ko": "10월 9일은 한글날입니다.",
+        "bn": "৯ই অক্টোবর হলো হাঙ্গুল দিবস।",
+        "en": "October 9th is Hangeul Proclamation Day."
+      }
+    },
+    {
+      "ko": "크리스마스",
+      "romanization": "keuriseumaseu",
+      "bn": "বড়দিন",
+      "en": "Christmas",
+      "pos": "noun",
+      "example": {
+        "ko": "12월 25일은 크리스마스입니다.",
+        "bn": "২৫শে ডিসেম্বর হলো বড়দিন।",
+        "en": "December 25th is Christmas."
+      }
+    },
+    {
+      "ko": "쉬다",
+      "romanization": "swida",
+      "bn": "বিশ্রাম নেওয়া",
+      "en": "to rest",
+      "pos": "verb",
+      "example": {
+        "ko": "공휴일에는 집에서 쉽니다.",
+        "bn": "সরকারি ছুটির দিনে বাড়িতে বিশ্রাম নিই।",
+        "en": "I rest at home on public holidays."
+      }
+    },
+    {
+      "ko": "축하하다",
+      "romanization": "chukahada",
+      "bn": "উদযাপন করা",
+      "en": "to celebrate",
+      "pos": "verb",
+      "example": {
+        "ko": "친구의 생일을 축하합니다.",
+        "bn": "বন্ধুর জন্মদিন উদযাপন করি।",
+        "en": "I celebrate my friend's birthday."
+      }
+    },
+    {
+      "ko": "모이다",
+      "romanization": "moida",
+      "bn": "একত্রিত হওয়া",
+      "en": "to gather",
+      "pos": "verb",
+      "example": {
+        "ko": "명절에는 가족들이 모두 모입니다.",
+        "bn": "উৎসবের দিনে পরিবারের সবাই একত্রিত হয়।",
+        "en": "All family members gather on traditional holidays."
+      }
+    },
+    {
+      "ko": "선물하다",
+      "romanization": "seonmulhada",
+      "bn": "উপহার দেওয়া",
+      "en": "to give a present",
+      "pos": "verb",
+      "example": {
+        "ko": "어린이날에 아이들에게 장난감을 선물합니다.",
+        "bn": "শিশু দিবসে শিশুদের খেলনা উপহার দিই।",
+        "en": "I give toys as presents to children on Children's Day."
+      }
+    },
+    {
+      "ko": "전통",
+      "romanization": "jeontong",
+      "bn": "ঐতিহ্য",
+      "en": "tradition",
+      "pos": "noun",
+      "example": {
+        "ko": "한국의 전통 옷은 한복입니다.",
+        "bn": "কোরিয়ার ঐতিহ্যবাহী পোশাক হলো হানবোক।",
+        "en": "Korea's traditional clothes are Hanbok."
+      }
+    },
+    {
+      "ko": "놀이",
+      "romanization": "nori",
+      "bn": "খেলা",
+      "en": "game",
+      "pos": "noun",
+      "example": {
+        "ko": "설날에는 전통 놀이를 합니다.",
+        "bn": "কোরিয়ান নববর্ষে ঐতিহ্যবাহী খেলা খেলা হয়।",
+        "en": "We play traditional games on Lunar New Year."
+      }
+    },
+    {
+      "ko": "고향",
+      "romanization": "gohyang",
+      "bn": "গ্রামের বাড়ি",
+      "en": "hometown",
+      "pos": "noun",
+      "example": {
+        "ko": "명절에 고향에 내려갑니다.",
+        "bn": "উৎসবের দিনে গ্রামের বাড়িতে যাই।",
+        "en": "I go down to my hometown on traditional holidays."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "N + 에 (Time)",
+      "titleBn": "সময় নির্দেশক",
+      "explanationBn": "কোনো কাজ কখন ঘটে তা বোঝাতে সময়ের সাথে '에' যুক্ত হয়। এটি বাংলা 'এ' বা 'তে' বিভক্তির মতো কাজ করে।",
+      "explanationEn": "Attached to time nouns to indicate when an action takes place.",
+      "examples": [
+        {
+          "ko": "설날에 고향에 갑니다.",
+          "bn": "কোরিয়ান নববর্ষে গ্রামের বাড়িতে যাই।",
+          "en": "I go to my hometown on Lunar New Year."
+        },
+        {
+          "ko": "어린이날에 공원에서 놉니다.",
+          "bn": "শিশু দিবসে পার্কে খেলি।",
+          "en": "I play in the park on Children's Day."
+        }
+      ]
+    },
+    {
+      "pattern": "V + (으)ㄹ 때",
+      "titleBn": "সময় বা মুহূর্ত নির্দেশক",
+      "explanationBn": "কোনো কাজ করার সময় বা মুহূর্ত বোঝাতে ক্রিয়াপদের সাথে '(으)ㄹ 때' ব্যবহৃত হয়। এর অর্থ 'যখন' বা 'করার সময়'।",
+      "explanationEn": "Used to express the time or moment when an action occurs, meaning 'when' or 'while'.",
+      "examples": [
+        {
+          "ko": "명절 때 가족들이 모입니다.",
+          "bn": "উৎসবের সময় পরিবারের সদস্যরা একত্রিত হয়।",
+          "en": "Family members gather during traditional holidays."
+        },
+        {
+          "ko": "쉴 때 보통 텔레비전을 봅니다.",
+          "bn": "বিশ্রাম নেওয়ার সময় সাধারণত টেলিভিশন দেখি।",
+          "en": "I usually watch television when I rest."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "명절 계획 (উৎসবের পরিকল্পনা)",
+      "titleEn": "Holiday Plans",
+      "lines": [
+        {
+          "speaker": "리한",
+          "ko": "투안 씨, 한국의 명절에는 보통 무엇을 해요?",
+          "bn": "তুয়ান, কোরিয়ার উৎসবের দিনে সাধারণত কী করেন?",
+          "en": "Tuan, what do you usually do on Korean traditional holidays?"
+        },
+        {
+          "speaker": "투안",
+          "ko": "저는 보통 고향에 가서 가족들을 만나요.",
+          "bn": "আমি সাধারণত গ্রামের বাড়িতে গিয়ে পরিবারের সাথে দেখা করি।",
+          "en": "I usually go to my hometown and meet my family."
+        },
+        {
+          "speaker": "리한",
+          "ko": "그렇군요. 이번 추석에도 고향에 갈 거예요?",
+          "bn": "তাই নাকি। এবারের ছুসকেও কি গ্রামের বাড়িতে যাবেন?",
+          "en": "I see. Are you going to your hometown this Chuseok too?"
+        },
+        {
+          "speaker": "투안",
+          "ko": "네, 가족들과 같이 송편을 먹고 쉴 거예요.",
+          "bn": "হ্যাঁ, পরিবারের সাথে সংপিয়ন খাব এবং বিশ্রাম নেব।",
+          "en": "Yes, I will eat Songpyeon with my family and rest."
+        }
+      ]
+    },
+    {
+      "titleBn": "공휴일 (সরকারি ছুটির দিন)",
+      "titleEn": "Public Holiday",
+      "lines": [
+        {
+          "speaker": "수루",
+          "ko": "내일은 공휴일인데 회사에 가요?",
+          "bn": "আগামীকাল সরকারি ছুটির দিন, কোম্পানিতে যাবেন?",
+          "en": "Tomorrow is a public holiday, are you going to work?"
+        },
+        {
+          "speaker": "바투",
+          "ko": "아니요, 내일은 삼일절이라서 쉬어요.",
+          "bn": "না, আগামীকাল স্বাধীনতা আন্দোলন দিবস তাই বিশ্রাম নেব।",
+          "en": "No, tomorrow is Independence Movement Day, so I rest."
+        },
+        {
+          "speaker": "수루",
+          "ko": "삼일절이 무슨 날이에요?",
+          "bn": "স্বাধীনতা আন্দোলন দিবস কী ধরনের দিন?",
+          "en": "What kind of day is Independence Movement Day?"
+        },
+        {
+          "speaker": "바투",
+          "ko": "한국의 독립을 기념하는 날이에요.",
+          "bn": "এটি কোরিয়ার স্বাধীনতা উদযাপনের দিন।",
+          "en": "It is a day to commemorate Korea's independence."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোনটি কোরিয়ার ঐতিহ্যবাহী উৎসব নয়?",
+      "questionKo": "한국의 명절이 아닌 것은 무엇입니까?",
+      "options": [
+        "설날",
+        "추석",
+        "크리스마스",
+        "단오"
+      ],
+      "answer": 2,
+      "explanationBn": "ক্রিসমাস (크리스마스) একটি সরকারি ছুটির দিন, কিন্তু এটি কোরিয়ার ঐতিহ্যবাহী উৎসব (명절) নয়।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "৯ই অক্টোবর কী দিবস?",
+      "questionKo": "10월 9일은 무슨 날입니까?",
+      "options": [
+        "삼일절",
+        "광복절",
+        "개천절",
+        "한글날"
+      ],
+      "answer": 3,
+      "explanationBn": "১০ই অক্টোবর হলো হাঙ্গুল দিবস (한글날)।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "উৎসবের দিনে পরিবারের সদস্যরা একত্রিত হয়ে কী করে?",
+      "questionKo": "명절에 가족들이 모여서 무엇을 합니까?",
+      "options": [
+        "회사에 갑니다.",
+        "맛있는 음식을 먹습니다.",
+        "한국어를 공부합니다.",
+        "병원에 갑니다."
+      ],
+      "answer": 1,
+      "explanationBn": "উৎসবের দিনে পরিবারের সদস্যরা একত্রিত হয়ে সুস্বাদু খাবার খায় (맛있는 음식을 먹습니다)।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "কোরিয়ার স্বাধীনতা উদযাপনের দিন কবে?",
+      "questionKo": "한국의 독립을 기념하는 날은 언제입니까?",
+      "options": [
+        "삼일절",
+        "어린이날",
+        "한글날",
+        "크리스마스"
+      ],
+      "answer": 0,
+      "explanationBn": "কোরিয়ার স্বাধীনতা উদযাপনের দিন হলো স্বাধীনতা আন্দোলন দিবস (삼일절)।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "평일",
+        "공휴일",
+        "근무일",
+        "회의"
+      ],
+      "answer": 1,
+      "explanationBn": "আগামীকাল সরকারি ছুটির দিন (공휴일), তাই স্কুলে যাব না।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "어린이날",
+        "어버이날",
+        "스승의 날",
+        "근로자의 날"
+      ],
+      "answer": 0,
+      "explanationBn": "৫ই মে হলো শিশু দিবস (어린이날)।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "명절",
+        "생일",
+        "주말",
+        "휴가"
+      ],
+      "answer": 0,
+      "explanationBn": "কোরিয়ানরা উৎসবের দিনে (명절) গ্রামের বাড়িতে গিয়ে পরিবারের সাথে দেখা করে।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "광복절",
+        "삼일절",
+        "개천절",
+        "한글날"
+      ],
+      "answer": 0,
+      "explanationBn": "১৫ই আগস্ট হলো জাতীয় মুক্তি দিবস (광복절)।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "সঠিক শব্দের সাথে মিল করুন।",
+      "pairs": [
+        {
+          "left": "설날",
+          "right": "কোরিয়ান নববর্ষ"
+        },
+        {
+          "left": "추석",
+          "right": "কোরিয়ান ধন্যবাদ জ্ঞাপন দিবস"
+        },
+        {
+          "left": "어린이날",
+          "right": "শিশু দিবস"
+        },
+        {
+          "left": "한글날",
+          "right": "হাঙ্গুল দিবস"
+        }
+      ],
+      "explanationBn": "설날 - কোরিয়ান নববর্ষ, 추석 - কোরিয়ান ধন্যবাদ জ্ঞাপন দিবস, 어린이날 - শিশু দিবস, 한글날 - হাঙ্গুল দিবস।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "সঠিক শব্দের সাথে মিল করুন।",
+      "pairs": [
+        {
+          "left": "공휴일",
+          "right": "সরকারি ছুটির দিন"
+        },
+        {
+          "left": "기념일",
+          "right": "স্মরণীয় দিবস"
+        },
+        {
+          "left": "명절",
+          "right": "উৎসবের দিন"
+        },
+        {
+          "left": "고향",
+          "right": "গ্রামের বাড়ি"
+        }
+      ],
+      "explanationBn": "공휴일 - সরকারি ছুটির দিন, 기념일 - স্মরণীয় দিবস, 명절 - উৎসবের দিন, 고향 - গ্রামের বাড়ি।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন। ৫ই মে কী দিবস?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "한국에는 여러 가지 공휴일이 있습니다. 3월 1일은 삼일절이고, 5월 5일은 어린이날입니다. 그리고 10월 9일은 한글날입니다.",
+      "options": [
+        "삼일절",
+        "어린이날",
+        "한글날",
+        "광복절"
+      ],
+      "answer": 1,
+      "explanationBn": "অনুচ্ছেদে বলা হয়েছে ৫ই মে হলো শিশু দিবস (어린이날)।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "이번 ( )에는 고향에 내려가서 부모님을 뵐 것입니다.",
+      "options": [
+        "명절",
+        "평일",
+        "출장",
+        "야근"
+      ],
+      "answer": 0,
+      "explanationBn": "উৎসবের দিনে (명절) গ্রামের বাড়িতে গিয়ে বাবা-মায়ের সাথে দেখা করার কথা বলা হয়েছে।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে এটি কী সম্পর্কে তা বেছে নিন।",
+      "questionKo": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "passage": "이 날은 세종대왕이 한글을 만든 것을 기념하는 날입니다. 매년 10월 9일이며 공휴일로 지정되어 있습니다.",
+      "options": [
+        "삼일절",
+        "광복절",
+        "개천절",
+        "한글날"
+      ],
+      "answer": 3,
+      "explanationBn": "সেজং রাজা কর্তৃক হাঙ্গুল তৈরির স্মরণে পালিত দিনটি হলো হাঙ্গুল দিবস (한글날)।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "নিচের নোটিশটির সঠিক অর্থ বেছে নিন।",
+      "questionKo": "다음 표지판의 의미로 알맞은 것을 고르십시오.",
+      "passage": "이번 주 금요일은 공휴일이므로 휴진합니다. - 행복 병원",
+      "options": [
+        "금요일에 병원 문을 엽니다.",
+        "금요일은 쉬는 날입니다.",
+        "금요일에 출근해야 합니다.",
+        "금요일은 평일입니다."
+      ],
+      "answer": 1,
+      "explanationBn": "নোটিশে বলা হয়েছে শুক্রবার সরকারি ছুটির দিন হওয়ায় হাসপাতাল বন্ধ থাকবে। তাই সঠিক অর্থ হলো 'শুক্রবার ছুটির দিন' (금요일은 쉬는 날입니다)।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 내일은 삼일절인데 회사에 가요?\n나: 아니요, 공휴일이라서 ( ).",
+      "options": [
+        "일해요",
+        "쉬어요",
+        "바빠요",
+        "출발해요"
+      ],
+      "answer": 1,
+      "explanationBn": "সরকারি ছুটির দিন হওয়ায় বিশ্রাম নেওয়ার (쉬어요) কথা বলা হয়েছে।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "নিচের কথোপকথনটি শুনে সঠিক উত্তরটি বেছে নিন। সুরু 추석-এ কী করবে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "가: 수루 씨, 이번 추석 연휴에 뭐 할 거예요?\n나: 저는 친구들하고 같이 여행을 갈 거예요.",
+      "options": [
+        "고향에 갑니다.",
+        "친구와 여행을 갑니다.",
+        "집에서 쉽니다.",
+        "회사에서 일합니다."
+      ],
+      "answer": 1,
+      "explanationBn": "সুরু বলেছে সে বন্ধুদের সাথে ভ্রমণে যাবে (친구와 여행을 갑니다)।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "নিচের কথাটি শুনে প্রশ্নের সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
+      "passage": "가: 내일은 무슨 날이에요?",
+      "options": [
+        "내일은 광복절이에요.",
+        "어제는 일요일이었어요.",
+        "오늘은 회사에 안 가요.",
+        "내일 만나요."
+      ],
+      "answer": 0,
+      "explanationBn": "প্রশ্ন করা হয়েছে 'আগামীকাল কী দিন?' এর সঠিক উত্তর হলো 'আগামীকাল জাতীয় মুক্তি দিবস' (내일은 광복절이에요)।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "নিচের কথাটি শুনে এর পরের উপযুক্ত কথাটি বেছে নিন।",
+      "questionKo": "다음을 듣고 이어지는 말로 알맞은 것을 고르십시오.",
+      "passage": "가: 한국의 명절에는 보통 무엇을 먹어요?",
+      "options": [
+        "한복을 입어요.",
+        "고향에 가요.",
+        "떡국이나 송편을 먹어요.",
+        "윷놀이를 해요."
+      ],
+      "answer": 2,
+      "explanationBn": "প্রশ্ন করা হয়েছে 'কোরিয়ার উৎসবের দিনে সাধারণত কী খাওয়া হয়?' এর সঠিক উত্তর হলো 'তকগুক বা সংপিয়ন খাওয়া হয়' (떡국이나 송편을 먹어요)।"
+    }
+  ]
+}
