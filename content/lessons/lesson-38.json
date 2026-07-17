@@ -1,0 +1,669 @@
+{
+  "chapter": 38,
+  "slug": "machine-assembly",
+  "title": {
+    "ko": "기계 조립",
+    "bn": "মেশিন সংযোজন ও বিচ্ছিন্নকরণ",
+    "en": "Machine Assembly"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কারখানায় সহজ মেশিন সংযোজন ও বিচ্ছিন্নকরণ সম্পর্কিত সাধারণ শব্দ শেখা।",
+      "নিরাপত্তা নির্দেশনা মেনে সরঞ্জাম ব্যবহার করার অনুশীলন করা।",
+      "সহকর্মীর সাথে সরল নির্দেশ ও অনুরোধ করা শিখা।"
+    ],
+    "en": [
+      "Learn basic vocabulary for machine assembly and disassembly in a factory.",
+      "Practice using tools following safety instructions.",
+      "Learn to give and follow simple workplace instructions and requests."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "기계",
+      "romanization": "gigye",
+      "bn": "মেশিন",
+      "en": "machine",
+      "pos": "noun",
+      "example": {
+        "ko": "새 기계를 조립합니다.",
+        "bn": "নতুন মেশিন সংযোজন করছি।",
+        "en": "I am assembling a new machine."
+      }
+    },
+    {
+      "ko": "조립",
+      "romanization": "jorip",
+      "bn": "সংযোজন",
+      "en": "assembly",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘은 조립 작업이 많습니다.",
+        "bn": "আজ অনেক সংযোজন কাজ আছে।",
+        "en": "There are many assembly tasks today."
+      }
+    },
+    {
+      "ko": "분해",
+      "romanization": "bunhae",
+      "bn": "বিচ্ছিন্নকরণ/বিঁচ্ছিন্ন করা",
+      "en": "disassembly",
+      "pos": "noun",
+      "example": {
+        "ko": "먼저 분해하고 상태를 확인하세요.",
+        "bn": "প্রথমে বিচ্ছিন্ন করে অবস্থান পরীক্ষা করুন।",
+        "en": "First disassemble and check the condition."
+      }
+    },
+    {
+      "ko": "나사",
+      "romanization": "nasa",
+      "bn": "স্ক্রু/পাতল",
+      "en": "screw",
+      "pos": "noun",
+      "example": {
+        "ko": "나사가 풀렸어요.",
+        "bn": "স্ক্রুটি ঢিলা হয়ে গেছে।",
+        "en": "The screw is loose."
+      }
+    },
+    {
+      "ko": "볼트",
+      "romanization": "bolteu",
+      "bn": "বোল্ট",
+      "en": "bolt",
+      "pos": "noun",
+      "example": {
+        "ko": "볼트를 단단히 조이세요.",
+        "bn": "বোল্টটি শক্তভাবে টানুন।",
+        "en": "Tighten the bolt firmly."
+      }
+    },
+    {
+      "ko": "너트",
+      "romanization": "neoteu",
+      "bn": "নারট/নাট",
+      "en": "nut",
+      "pos": "noun",
+      "example": {
+        "ko": "너트를 잃어버렸어요.",
+        "bn": "নারটটি হারিয়ে গেছে।",
+        "en": "I lost the nut."
+      }
+    },
+    {
+      "ko": "와셔",
+      "romanization": "wasyeo",
+      "bn": "ওয়াশার",
+      "en": "washer",
+      "pos": "noun",
+      "example": {
+        "ko": "와셔를 함께 넣어 주세요.",
+        "bn": "ওয়াশারটি সঙ্গে 넣ুন।",
+        "en": "Please include the washer."
+      }
+    },
+    {
+      "ko": "드라이버",
+      "romanization": "deuraibeo",
+      "bn": "স্ক্রু ড্রাইভার",
+      "en": "screwdriver",
+      "pos": "noun",
+      "example": {
+        "ko": "드라이버로 나사를 돌립니다.",
+        "bn": "ড্রাইভার দিয়ে স্ক্রুটা ঘোরান।",
+        "en": "Turn the screw with the screwdriver."
+      }
+    },
+    {
+      "ko": "렌치",
+      "romanization": "renchi",
+      "bn": "রেঞ্চ/পাইপরেঞ্চ",
+      "en": "wrench",
+      "pos": "noun",
+      "example": {
+        "ko": "렌치로 너트를 조이세요.",
+        "bn": "রেঞ্চ দিয়ে নারট টানুন।",
+        "en": "Tighten the nut with the wrench."
+      }
+    },
+    {
+      "ko": "전동드릴",
+      "romanization": "jeondong deuril",
+      "bn": "পাওয়ার ড্রিল",
+      "en": "power drill",
+      "pos": "noun",
+      "example": {
+        "ko": "전동드릴을 사용할 때 조심하세요.",
+        "bn": "পাওয়ার ড্রিল ব্যবহারকালে সতর্ক থাকুন।",
+        "en": "Be careful when using the power drill."
+      }
+    },
+    {
+      "ko": "안전모",
+      "romanization": "anjeonmo",
+      "bn": "নিরাপত্তা হেলমেট",
+      "en": "safety helmet",
+      "pos": "noun",
+      "example": {
+        "ko": "작업할 때 안전모를 써 주세요.",
+        "bn": "কাজ করার সময় হেলমেট পরুন।",
+        "en": "Please wear a safety helmet while working."
+      }
+    },
+    {
+      "ko": "장갑",
+      "romanization": "janggap",
+      "bn": "হাতমোজা",
+      "en": "gloves",
+      "pos": "noun",
+      "example": {
+        "ko": "장갑을 끼고 기계를 만지세요.",
+        "bn": "হাতমোজা পরে মেশিনটি ছুুন।",
+        "en": "Wear gloves when touching the machine."
+      }
+    },
+    {
+      "ko": "설명서",
+      "romanization": "seolmyeongseo",
+      "bn": "নির্দেশিকা",
+      "en": "manual",
+      "pos": "noun",
+      "example": {
+        "ko": "설명서를 먼저 읽으세요.",
+        "bn": "প্রথমে নির্দেশিকা পড়ুন।",
+        "en": "Read the manual first."
+      }
+    },
+    {
+      "ko": "도면",
+      "romanization": "domyeon",
+      "bn": "ড্রয়িং/চিত্র",
+      "en": "blueprint",
+      "pos": "noun",
+      "example": {
+        "ko": "도면을 보고 부품을 확인하세요.",
+        "bn": "চিত্র দেখে অংশগুলো পরীক্ষা করুন।",
+        "en": "Check the parts against the blueprint."
+      }
+    },
+    {
+      "ko": "조정하다",
+      "romanization": "jojeonghada",
+      "bn": "সামঞ্জস্য করা",
+      "en": "to adjust",
+      "pos": "verb",
+      "example": {
+        "ko": "볼트 위치를 조정하세요.",
+        "bn": "বোল্টের অবস্থান সামঞ্জস্য করুন।",
+        "en": "Adjust the position of the bolt."
+      }
+    },
+    {
+      "ko": "고정하다",
+      "romanization": "gojeonghada",
+      "bn": "স্থির/বন্ধ করা",
+      "en": "to secure/fix",
+      "pos": "verb",
+      "example": {
+        "ko": "부품을 고정해야 합니다.",
+        "bn": "অংশটিকে স্থির করতে হবে।",
+        "en": "You must secure the part."
+      }
+    },
+    {
+      "ko": "풀다",
+      "romanization": "pulda",
+      "bn": "বাতিল/খোলা (ছাড়া করা)",
+      "en": "to loosen/unfasten",
+      "pos": "verb",
+      "example": {
+        "ko": "먼저 너트를 풀어 주세요.",
+        "bn": "প্রথমে নারটটি খুলে দাও।",
+        "en": "First, loosen the nut."
+      }
+    },
+    {
+      "ko": "확인하다",
+      "romanization": "hwaginhada",
+      "bn": "নিশ্চিত/পরীক্ষা করা",
+      "en": "to check/confirm",
+      "pos": "verb",
+      "example": {
+        "ko": "작업 후 상태를 확인하세요.",
+        "bn": "কাজ শেষে অবস্থান পরীক্ষা করুন।",
+        "en": "Check the condition after work."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "아/어 주세요",
+      "titleBn": "অনুরোধ - 주세요",
+      "explanationBn": "কিছু করার জন্য বিনীতভাবে অনুরোধ করতে ব্যবহার করি। উদাহরণ: '조립해 주세요' (অনুগ্রহ করে সংযোজন করুন)।\nউদাহরণ বাক্য:\n1) 안전모를 써 주세요. — অনুগ্রহ করে হেলমেট পরুন।\n2) 볼트를 조여 주세요. — বোল্টটি টানুন।",
+      "explanationEn": "Use to politely request someone to do something. Example: '조립해 주세요' (Please assemble).\nExample sentences:\n1) 안전모를 써 주세요. — Please wear a helmet.\n2) 볼트를 조여 주세요. — Please tighten the bolt.",
+      "examples": [
+        {
+          "ko": "안전모를 써 주세요.",
+          "bn": "অনুগ্রহ করে নিরাপত্তা হেলমেট পরুন।",
+          "en": "Please wear a safety helmet."
+        },
+        {
+          "ko": "이 부품을 고정해 주세요.",
+          "bn": "এই অংশটি দয়া করে স্থির করে দিন।",
+          "en": "Please secure this part."
+        }
+      ]
+    },
+    {
+      "pattern": "아/어야 하다",
+      "titleBn": "প্রয়োজনীয়তা - 해야 한다",
+      "explanationBn": "কোনো কাজ অবশ্যই করতে হবে বোঝাতে ব্যবহার হয়। উদাহরণ: '확인해야 합니다' (নিশ্চিত করতে হবে)।\nউদাহরণ বাক্য:\n1) 장갑을 끼어야 합니다. — হাতে মোজা পরতে হবে।\n2) 설명서를 읽어야 해요. — নির্দেশিকা পড়তে হবে।",
+      "explanationEn": "Used to express obligation or necessity. Example: '확인해야 합니다' (must check).\nExample sentences:\n1) 장갑을 끼어야 합니다. — You must wear gloves.\n2) 설명서를 읽어야 해요. — You have to read the manual.",
+      "examples": [
+        {
+          "ko": "작업 전에 도면을 확인해야 합니다.",
+          "bn": "কাজের আগে চিত্র পরীক্ষা করতে হবে।",
+          "en": "You must check the blueprint before work."
+        },
+        {
+          "ko": "볼트를 풀어야 해요.",
+          "bn": "বোল্ট খুলতে হবে।",
+          "en": "You have to loosen the bolt."
+        }
+      ]
+    },
+    {
+      "pattern": "고 있다",
+      "titleBn": "ক্রিয়া চলমান - 하고 있다",
+      "explanationBn": "কোনো কাজ এখনই চলছে বোঝাতে ব্যবহার করি। উদাহরণ: '조립하고 있어요' (সংযোজন করছে)।\nউদাহরণ বাক্য:\n1) 지금 기계를 분해하고 있어요. — এখন মেশিন বিচ্ছিন্ন করছে।\n2) 전동드릴을 사용하고 있어요. — পাওয়ার ড্রিল ব্যবহার করছে।",
+      "explanationEn": "Used to indicate an ongoing action (present progressive). Example: '조립하고 있어요' (is assembling).\nExample sentences:\n1) 지금 기계를 분해하고 있어요. — He/She is disassembling the machine now.\n2) 전동드릴을 사용하고 있어요. — He/She is using the power drill.",
+      "examples": [
+        {
+          "ko": "작업자가 부품을 조립하고 있어요.",
+          "bn": "কর্মীটি অংশগুলো সংযোজন করছে।",
+          "en": "The worker is assembling parts."
+        },
+        {
+          "ko": "기계가 작동하고 있어요.",
+          "bn": "মেশিনটি চলছে।",
+          "en": "The machine is running."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "새 기계 조립",
+      "titleEn": "Assembling a New Machine",
+      "lines": [
+        {
+          "speaker": "관리자",
+          "ko": "설명서를 먼저 읽었어요?",
+          "bn": "আপনি কি প্রথমে নির্দেশিকা পড়েছেন?",
+          "en": "Did you read the manual first?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 읽었습니다. 도면도 확인했어요.",
+          "bn": "হ্যাঁ, পড়েছি। চিত্রও দেখে নিয়েছি।",
+          "en": "Yes, I read it. I also checked the blueprint."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "안전모와 장갑을 착용하세요.",
+          "bn": "নিরাপত্তা হেলমেট এবং হাতমোজা পরুন।",
+          "en": "Please wear your helmet and gloves."
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 착용했습니다. 이제 조립할까요?",
+          "bn": "হ্যাঁ, পরে ফেলেছি। এখন সংযোজন করবো?",
+          "en": "Yes, I'm wearing them. Shall we start assembling now?"
+        },
+        {
+          "speaker": "관리자",
+          "ko": "먼저 볼트를 고정하세요. 조심하세요.",
+          "bn": "প্রথমে বোল্টগুলো স্থির করে দিন। সাবধানে।",
+          "en": "First secure the bolts. Be careful."
+        }
+      ]
+    },
+    {
+      "titleBn": "문제 확인과 도구 요청",
+      "titleEn": "Troubleshooting and Tool Request",
+      "lines": [
+        {
+          "speaker": "직원 A",
+          "ko": "이 부분이 느슨합니다. 너트를 풀어 볼게요.",
+          "bn": "এই অংশটি ঢিলা। আমি নারট খুলে দেখবো।",
+          "en": "This part is loose. I'll try to loosen the nut."
+        },
+        {
+          "speaker": "직원 B",
+          "ko": "렌치 좀 주세요. 전동드릴이 필요 없어요.",
+          "bn": "রেঞ্চটা দিন। পাওয়ার ড্রিল দরকার নেই।",
+          "en": "Give me the wrench. We don't need the power drill."
+        },
+        {
+          "speaker": "직원 A",
+          "ko": "여기 있습니다. 조심히 조정하세요.",
+          "bn": "এটা নাও। সাবধানে সামঞ্জস্য করো।",
+          "en": "Here it is. Adjust it carefully."
+        },
+        {
+          "speaker": "직원 B",
+          "ko": "완료했습니다. 다시 확인해 주세요.",
+          "bn": "করা শেষ। আবার পরীক্ষা করে দিন।",
+          "en": "Done. Please check again."
+        },
+        {
+          "speaker": "직원 A",
+          "ko": "확인했어요. 이제 고정했습니다.",
+          "bn": "আমি পরীক্ষা করেছি। এখন স্থির করেছি।",
+          "en": "Checked. Now it's secured."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "‘너트를 풀다’ মানে কী?",
+      "questionKo": "‘너트를 풀다’는 무슨 뜻인가요?",
+      "options": [
+        "나사를 단단히 조이다",
+        "나사를 느슨하게 하다",
+        "기계를 켜다",
+        "도면을 확인하다"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "‘풀다’ মানে খোলা বা ঢিলা করা — তাই '나사를 느슨하게 하다' সঠিক।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "‘안전모를 써 주세요’ কী ধরণের বাক্য?",
+      "questionKo": "‘안전모를 써 주세요’는 어떤 문장인가요?",
+      "options": [
+        "명령",
+        "요청",
+        "질문",
+        "설명"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "‘~아/어 주세요’ একটি বিনীত অনুরোধ প্রকাশ করে।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "어떤 도구로 나사를 돌리나요?",
+      "questionKo": "어떤 도구로 나사를 돌리나요?",
+      "options": [
+        "렌치",
+        "안전모",
+        "드라이버",
+        "와셔"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "드라이버는 나사를 돌리는 도구; তাই '드라이버' সঠিক।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "‘조립하고 있어요’ এর সময়কালের অর্থ কী?",
+      "questionKo": "‘조립하고 있어요’는 어떤 시제인가요?",
+      "options": [
+        "미래",
+        "과거",
+        "현재 진행",
+        "명령"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "‘-고 있다’ বর্তমান ক্রিয়ার চলমান অবস্থা বোঝায়।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "설명서를 먼저 읽어야 하는 이유로 적절한 것은?",
+      "questionKo": "설명서를 먼저 읽어야 하는 이유로 적절한 것은?",
+      "options": [
+        "안전하게 작업하려고",
+        "도면을 버리려고",
+        "장갑을 버리려고",
+        "기계를 끄려고"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "설명서는 안전과 올바른 작업 절차를 위해 읽어야 한다।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "‘먼저 ___을(를) 확인하세요.’ খালি স্থানে কোনটি বসবে?",
+      "questionKo": "‘먼저 ___을(를) 확인하세요.’ 빈칸에 들어갈 말은?",
+      "options": [
+        "장갑",
+        "도면",
+        "렌치",
+        "와셔"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "문맥상 도면(চিত্র) দেখেই অংশগুলো পরীক্ষা করতে বলা হয়েছে।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "‘볼트를 단단히 ___ 주세요.’ সঠিক পূরণ কী?",
+      "questionKo": "‘볼트를 단단히 ___ 주세요.’ 빈칸에 들어갈 말은?",
+      "options": [
+        "풀어",
+        "조여",
+        "버려",
+        "확인해"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'조이다' হল বোল্ট টানার অর্থ, তাই '조여' সঠিক।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "‘지금 기계를 ___ 있어요.’ খালি কোনটি?",
+      "questionKo": "‘지금 기계를 ___ 있어요.’ 빈칸에 알맞은 동사는?",
+      "options": [
+        "조립하고",
+        "설명서하고",
+        "안전모하고",
+        "도면하고"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "‘조립하고 있다’ হল 진행형; অন্যগুলো মানানসই নয়।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "ক্লোজিং: ঠিক মিলান (한국어 → বাংলা)",
+      "questionKo": "다음 단어와 의미를 연결하세요 (한국어 → Bengali).",
+      "options": [],
+      "pairs": [
+        {
+          "left": "나사",
+          "right": "স্ক্রু"
+        },
+        {
+          "left": "안전모",
+          "right": "নিরাপত্তা হেলমেট"
+        },
+        {
+          "left": "렌치",
+          "right": "রেঞ্চ/পাইপরেঞ্চ"
+        },
+        {
+          "left": "설명서",
+          "right": "নির্দেশিকা"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি জোড়া বিষয়ভিত্তিক শব্দের সঠিক বাংলা অর্থ।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "ক্লোজিং: মিলান (한국어 → বাংলা)",
+      "questionKo": "다음 단어와 의미를 연결하세요 (한국어 → Bengali).",
+      "options": [],
+      "pairs": [
+        {
+          "left": "볼트",
+          "right": "বোল্ট"
+        },
+        {
+          "left": "고정하다",
+          "right": "স্থির/বন্ধ করা"
+        },
+        {
+          "left": "풀다",
+          "right": "খোলা/ঢিলা করা"
+        },
+        {
+          "left": "확인하다",
+          "right": "পরীক্ষা করা"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি শব্দের বাংলা অনুবাদ সঠিকভাবে মিলেছে।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তর নির্বাচন করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
+      "passage": "설명서에 '작업 전 안전모 착용'이라고 적혀 있습니다.",
+      "options": [
+        "작업 후에 안전모를 써도 된다.",
+        "설명서에 안전모 착용이 필요하다고 적혀 있다.",
+        "안전모는 필요하지 않다.",
+        "작업 중에는 장갑을 벗어라."
+      ],
+      "answer": 1,
+      "explanationBn": "প্যাসেজে নির্দেশিকা বলছে যে কার্যকারি আগে নিরাপত্তা হেলমেট 착용 করা দরকার।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে জিজ্ঞাসা করা হচ্ছে: কী করতে হবে?",
+      "questionKo": "다음을 읽고 질문에 답하세요.",
+      "passage": "볼트가 느슨하면 렌치로 조여 주세요.",
+      "options": [
+        "볼트를 풀어라.",
+        "렌치로 볼트를 조여라.",
+        "전동드릴을 사용해라.",
+        "설명서를 버려라."
+      ],
+      "answer": 1,
+      "explanationBn": "문장에서 '렌치로 조여 주세요' বলা হয়েছে—বোল্ট টানতে বলছে।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "প্যাসেজ থেকে বোঝা যায় কে কি করছে?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
+      "passage": "작업자가 도면을 보고 부품을 확인하고 있다.",
+      "options": [
+        "작업자가 기계를 켜고 있다.",
+        "작업자가 부품을 분해하고 있다.",
+        "작업자가 도면을 보고 확인하고 있다.",
+        "작업자가 장갑을 벗고 있다."
+      ],
+      "answer": 2,
+      "explanationBn": "বাক্যটি সরাসরি বলে যে কর্মী চিত্র দেখে অংশ যাচাই করছে।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "দলনির্দেশ: কী করা উচিত?",
+      "questionKo": "다음을 읽고 무엇을 해야 하는지 고르세요.",
+      "passage": "먼저 설명서를 읽고, 그 다음에 조립을 시작하세요.",
+      "options": [
+        "조립부터 시작하세요.",
+        "설명서를 먼저 읽으세요.",
+        "안전모를 벗으세요.",
+        "도면은 무시하세요."
+      ],
+      "answer": 1,
+      "explanationBn": "বাক্যে স্পষ্টভাবে বলা হয়েছে প্রথমে নির্দেশিকা পড়তে হবে।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "প্যাসেজ থেকে সেরা নির্বাচন করুন।",
+      "questionKo": "다음을 읽고 가장 알맞은 것을 고르세요.",
+      "passage": "전동드릴은 빠르게 구멍을 뚫을 수 있지만, 조심해서 사용해야 한다.",
+      "options": [
+        "전동드릴을 안전하게 사용해야 한다.",
+        "전동드릴은 사용하지 않아야 한다.",
+        "전동드릴은 장갑과 관련 없다.",
+        "전동드릴은 도면이다."
+      ],
+      "answer": 0,
+      "explanationBn": "বাক্যে বলা আছে যে ড্রিল ব্যবহার করা যায় কিন্তু সতর্ক হতে হবে।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শোনার পর প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음을 듣고 질문에 답하세요.",
+      "passage": "직원: '이 부분이 느슨합니다.' 동료: '렌치 주세요.'",
+      "options": [
+        "동료가 드라이버를 달라고 했다.",
+        "동료가 렌치를 달라고 했다.",
+        "동료가 안전모를 달라고 했다.",
+        "동료가 도면을 달라고 했다."
+      ],
+      "answer": 1,
+      "explanationBn": "স্ক্রিপ্ট অনুযায়ী 동료 렌치를 অনুরোধ করেছে।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শোনা অনুযায়ী কী হয়েছে? উত্তর দিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르세요.",
+      "passage": "관리자: '먼저 도면을 확인했나요?' 직원: '네, 확인했습니다.'",
+      "options": [
+        "직원이 도면을 확인하지 않았다.",
+        "직원이 도면을 확인했다고 답했다.",
+        "관리자가 도면을 버리라고 했다.",
+        "직원이 안전모를 벗었다."
+      ],
+      "answer": 1,
+      "explanationBn": "কর্মী বলেছে যে তিনি 도면 পরীক্ষা করেছেন—তাই দ্বিতীয় অপশন সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "শোনা অনুযায়ী কোন সরঞ্জাম ব্যবহার হচ্ছে?",
+      "questionKo": "다음을 듣고 어떤 도구를 사용하는지 고르세요.",
+      "passage": "직원: '전동드릴을 사용하고 있어요.'",
+      "options": [
+        "렌치",
+        "드라이버",
+        "전동드릴",
+        "장갑"
+      ],
+      "answer": 2,
+      "explanationBn": "পর্দায় স্পষ্টভাবে বলা হয়েছে '전동드릴을 사용하고 있어요'।"
+    }
+  ]
+}

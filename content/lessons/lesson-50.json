@@ -1,0 +1,673 @@
+{
+  "chapter": 50,
+  "slug": "forest-resource-management",
+  "title": {
+    "ko": "산림 자원 관리",
+    "bn": "বনসম্পদ ব্যবস্থাপনা",
+    "en": "Forest Resource Management"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "বনসম্পদ সম্পর্কিত সাধারণ শব্দভান্ডার শিখে সুবিধাজনকভাবে কথা বলতে পারা।",
+      "কার্যালয় ও মাঠে বন পরিদর্শন এবং সরল নির্দেশাবলি বুঝতে এবং বলতে পারা।",
+      "সরল রূপরেখা ও অনুমতি সম্পর্কিত বাক্য ব্যবহার করে যোগাযোগ করা।"
+    ],
+    "en": [
+      "Learn basic vocabulary related to forest resources for simple conversation.",
+      "Understand and use simple phrases for office and field inspections.",
+      "Communicate using basic sentences about schedules and permits."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "산림",
+      "romanization": "sanrim",
+      "bn": "বন",
+      "en": "forest",
+      "pos": "noun",
+      "example": {
+        "ko": "우리는 산림 조사를 시작합니다.",
+        "bn": "আমরা বন পরিদর্শন শুরু করব।",
+        "en": "We will start the forest survey."
+      }
+    },
+    {
+      "ko": "자원",
+      "romanization": "jawon",
+      "bn": "সম্পদ",
+      "en": "resource",
+      "pos": "noun",
+      "example": {
+        "ko": "나무는 중요한 자연 자원입니다.",
+        "bn": "গাছ একটি গুরুত্বপূর্ণ প্রাকৃতিক সম্পদ।",
+        "en": "Trees are an important natural resource."
+      }
+    },
+    {
+      "ko": "관리",
+      "romanization": "gwanri",
+      "bn": "ব্যবস্থাপনা",
+      "en": "management",
+      "pos": "noun",
+      "example": {
+        "ko": "산림 관리는 안전이 우선입니다.",
+        "bn": "বন ব্যবস্থাপনায় নিরাপত্তা প্রথম।",
+        "en": "In forest management, safety comes first."
+      }
+    },
+    {
+      "ko": "벌채",
+      "romanization": "beolchae",
+      "bn": "কাঠ কাটা / চারণ",
+      "en": "logging",
+      "pos": "noun",
+      "example": {
+        "ko": "벌채는 허가가 필요합니다.",
+        "bn": "কাঠ কাটা (লগিং) করার জন্য অনুমতি দরকার।",
+        "en": "Logging requires a permit."
+      }
+    },
+    {
+      "ko": "재조림",
+      "romanization": "jaejorim",
+      "bn": "পুনরায় বনের চারা রোপণ",
+      "en": "reforestation",
+      "pos": "noun",
+      "example": {
+        "ko": "봄에 재조림을 계획합니다.",
+        "bn": "বসন্তে পুনরায় চারা রোপণ পরিকল্পনা করা হয়েছে।",
+        "en": "We plan reforestation in spring."
+      }
+    },
+    {
+      "ko": "수목",
+      "romanization": "sumok",
+      "bn": "গাছজাতি",
+      "en": "trees / tree species",
+      "pos": "noun",
+      "example": {
+        "ko": "수목 상태를 확인하세요.",
+        "bn": "গাছগুলোর অবস্থা পরীক্ষা করুন।",
+        "en": "Check the condition of the trees."
+      }
+    },
+    {
+      "ko": "산불",
+      "romanization": "sanbul",
+      "bn": "অগ্নিকাণ্ড (বন আগুন)",
+      "en": "forest fire",
+      "pos": "noun",
+      "example": {
+        "ko": "산불 예방이 중요합니다.",
+        "bn": "বন আগুন প্রতিরোধ জরুরি।",
+        "en": "Preventing forest fires is important."
+      }
+    },
+    {
+      "ko": "보호",
+      "romanization": "boho",
+      "bn": "সুরক্ষা / রক্ষণাবেক্ষণ",
+      "en": "protection",
+      "pos": "noun",
+      "example": {
+        "ko": "자연 보호 구역을 지켜야 합니다.",
+        "bn": "প্রাকৃতিক সংরক্ষিত এলাকা রক্ষা করতে হবে।",
+        "en": "We must protect the natural reserve."
+      }
+    },
+    {
+      "ko": "사유림",
+      "romanization": "sayurim",
+      "bn": "ব্যক্তিগত বন",
+      "en": "private forest",
+      "pos": "noun",
+      "example": {
+        "ko": "사유림 소유자는 보고서를 제출합니다.",
+        "bn": "ব্যক্তিগত বন মালিক রিপোর্ট জমা দেন।",
+        "en": "Private forest owners submit a report."
+      }
+    },
+    {
+      "ko": "국유림",
+      "romanization": "gugyurim",
+      "bn": "রাষ্ট্রীয় বন",
+      "en": "national forest",
+      "pos": "noun",
+      "example": {
+        "ko": "이 지역은 국유림입니다.",
+        "bn": "এই এলাকা রাষ্ট্রীয় বন।",
+        "en": "This area is a national forest."
+      }
+    },
+    {
+      "ko": "조사",
+      "romanization": "josa",
+      "bn": "নিরীক্ষা / পরিদর্শন",
+      "en": "survey / inspection",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 산림 조사가 있습니다.",
+        "bn": "আজ বন পরিদর্শন আছে।",
+        "en": "There is a forest inspection today."
+      }
+    },
+    {
+      "ko": "경작",
+      "romanization": "gyeongjak",
+      "bn": "চাষাবাদ",
+      "en": "cultivation",
+      "pos": "noun",
+      "example": {
+        "ko": "산림 인근 경작을 확인하세요.",
+        "bn": "বনের কাছাকাছি চাষাবাদ যাচাই করুন।",
+        "en": "Check cultivation near the forest."
+      }
+    },
+    {
+      "ko": "허가",
+      "romanization": "heoga",
+      "bn": "অনুমতি",
+      "en": "permit",
+      "pos": "noun",
+      "example": {
+        "ko": "벌채는 허가가 있어야 합니다.",
+        "bn": "কাঠ কাটার জন্য অনুমতি থাকা দরকার।",
+        "en": "Logging must have a permit."
+      }
+    },
+    {
+      "ko": "산림청",
+      "romanization": "sanrimcheong",
+      "bn": "কোরিয়ার বন청 (Forest Service)",
+      "en": "Korea Forest Service",
+      "pos": "noun",
+      "example": {
+        "ko": "산림청에 문의하세요.",
+        "bn": "বন청-এ যোগাযোগ করুন।",
+        "en": "Please contact the Korea Forest Service."
+      }
+    },
+    {
+      "ko": "휴식지",
+      "romanization": "hyusikji",
+      "bn": "আরামের স্থান (রেস্ট এরিয়া)",
+      "en": "rest area / recreational area",
+      "pos": "noun",
+      "example": {
+        "ko": "휴식지에서 점심을 먹어요.",
+        "bn": "আরামের স্থানে লাঞ্চ খাওয়া হবে।",
+        "en": "We will eat lunch at the rest area."
+      }
+    },
+    {
+      "ko": "등산로",
+      "romanization": "deungsallo",
+      "bn": "পথ / ট্রেইল",
+      "en": "trail",
+      "pos": "noun",
+      "example": {
+        "ko": "등산로가 폐쇄되었습니다.",
+        "bn": "ট্রেইল বন্ধ আছে।",
+        "en": "The trail is closed."
+      }
+    },
+    {
+      "ko": "환경",
+      "romanization": "hwangyeong",
+      "bn": "পরিবেশ",
+      "en": "environment",
+      "pos": "noun",
+      "example": {
+        "ko": "환경 보호는 우리의 책임입니다.",
+        "bn": "পরিবেশ রক্ষা আমাদের দায়িত্ব।",
+        "en": "Protecting the environment is our responsibility."
+      }
+    },
+    {
+      "ko": "지속가능성",
+      "romanization": "jisok ganeunseong",
+      "bn": "টেকসইতা",
+      "en": "sustainability",
+      "pos": "noun",
+      "example": {
+        "ko": "지속가능성이 중요한 목표입니다.",
+        "bn": "টেকসইতা একটি গুরুত্বপূর্ণ লক্ষ্য।",
+        "en": "Sustainability is an important goal."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "1",
+      "titleBn": "অনুরোধ বা আদেশ: ~(으)세요",
+      "explanationBn": "বর্ণনা: ~(으)세요 ব্যবহৃত হয় বিনম্রভাবে অনুরোধ বা নির্দেশ দিতে। উদাহরণ (কোরিয়ান / বাংলা / ইংরেজি):\n1) '문을 닫으세요.' / 'দয়া করে দরজা বন্ধ করুন।' / 'Please close the door.'\n2) '조사 보고서를 제출하세요.' / 'রিপোর্ট জমা দিন।' / 'Please submit the inspection report.'",
+      "explanationEn": "Usage: ~(으)세요 is used for polite requests or commands. Examples (Korean / Bengali / English):\n1) '문을 닫으세요.' / 'Please close the door.'\n2) '조사 보고서를 제출하세요.' / 'Please submit the inspection report.'",
+      "examples": [
+        {
+          "ko": "장갑을 착용하세요.",
+          "bn": "হাত ভর্তি (গ্লাভস) পরুন।",
+          "en": "Please wear gloves."
+        },
+        {
+          "ko": "사진을 찍으세요.",
+          "bn": "ছবি তুলুন।",
+          "en": "Please take a photo."
+        }
+      ]
+    },
+    {
+      "pattern": "2",
+      "titleBn": "প্রগতিশীল: ~고 있습니다",
+      "explanationBn": "বর্ণনা: ~고 있습니다 বোঝায় কাজটি এখন চলছে (present progressive)। উদাহরণ:\n1) '나무를 심고 있습니다.' / 'আমি এখন গাছ রোপণ করছি।' / 'I am planting a tree now.'\n2) '조사팀이 현장에 있습니다.' / 'পরিদর্শন দল মাঠে আছে।' / 'The survey team is at the site.'",
+      "explanationEn": "Usage: ~고 있습니다 indicates an action in progress (present continuous). Examples:\n1) '나무를 심고 있습니다.' / 'I am planting a tree now.'\n2) '조사팀이 현장에 있습니다.' / 'The survey team is at the site.'",
+      "examples": [
+        {
+          "ko": "우리는 재조림을 하고 있습니다.",
+          "bn": "আমরা পুনরায় চারা রোপণ করছি।",
+          "en": "We are doing reforestation."
+        },
+        {
+          "ko": "기록을 작성하고 있습니다.",
+          "bn": "রেকর্ড তৈরি করছি।",
+          "en": "We are filling out the records."
+        }
+      ]
+    },
+    {
+      "pattern": "3",
+      "titleBn": "কর্ম বা বস্তুকে বোঝানো: ~는 것 / ~ㄴ 것",
+      "explanationBn": "বর্ণনা: ক্রিয়াকে নামবাচক বানাতে ~는 것 (বর্তমান) বা ~ㄴ 것 (ভূত) ব্যবহার করা হয়। উদাহরণ:\n1) '조사하는 것이 중요합니다.' / 'পরিদর্শন করা গুরুত্বপূর্ণ।' / 'Inspecting is important.'\n2) '완료된 보고서(=작성된 것)를 제출하세요.' / 'সম্পন্ন রিপোর্ট জমা দিন।' / 'Submit the completed report.'",
+      "explanationEn": "Usage: Use ~는 것 (present) or ~ㄴ 것 (past) to nominalize verbs (turn into nouns). Examples:\n1) '조사하는 것이 중요합니다.' / 'Inspecting is important.'\n2) '완료된 보고서를 제출하세요.' / 'Submit the completed report.'",
+      "examples": [
+        {
+          "ko": "벌채하는 것이 허가 필요합니다.",
+          "bn": "কাঠ কাটা করার জন্য অনুমতি প্রয়োজন।",
+          "en": "Logging requires a permit."
+        },
+        {
+          "ko": "기록한 것을 확인하세요.",
+          "bn": "লিখা জিনিসটি যাচাই করুন।",
+          "en": "Check what you recorded."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "현장 점검 보고",
+      "titleEn": "Field Inspection Report",
+      "lines": [
+        {
+          "speaker": "팀장",
+          "ko": "오늘 산림 조사는 몇 시에 시작합니까?",
+          "bn": "আজ বন পরিদর্শন কয়টায় শুরু হবে?",
+          "en": "What time does the forest inspection start today?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "오전 9시에 시작합니다. 준비물은 장갑과 지도입니다.",
+          "bn": "সকাল ৯টায় শুরু হবে। প্রস্তুতির জিনিস: গ্লাভস এবং মানচিত্র।",
+          "en": "It starts at 9 AM. Bring gloves and a map."
+        },
+        {
+          "speaker": "팀장",
+          "ko": "등산로는 안전합니까?",
+          "bn": "ট্রেইল কি নিরাপদ?",
+          "en": "Is the trail safe?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 일부 구간만 주의가 필요합니다.",
+          "bn": "হ্যাঁ, কিছু অংশে কেবল সতর্কতা দরকার।",
+          "en": "Yes, only some sections need caution."
+        },
+        {
+          "speaker": "팀장",
+          "ko": "사진을 찍고 보고서를 작성하세요.",
+          "bn": "ছবি তুলো এবং রিপোর্ট বানাও।",
+          "en": "Take photos and write the report."
+        }
+      ]
+    },
+    {
+      "titleBn": "벌채 허가 확인",
+      "titleEn": "Checking Logging Permit",
+      "lines": [
+        {
+          "speaker": "관리자",
+          "ko": "이 구역에 벌채 허가가 있습니까?",
+          "bn": "এই এলাকায় কাঠ কাটার অনুমতি আছে কি?",
+          "en": "Is there a logging permit for this area?"
+        },
+        {
+          "speaker": "사무원",
+          "ko": "네, 산림청에서 발급한 허가증이 있습니다.",
+          "bn": "হ্যাঁ, বন청 থেকে ইস্যুকৃত অনুমতিপত্র আছে।",
+          "en": "Yes, there is a permit issued by the Korea Forest Service."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "작업 전에 안전 교육을 하세요.",
+          "bn": "কাজের আগে সেফটি ট্রেনিং দিন।",
+          "en": "Conduct safety training before work."
+        },
+        {
+          "speaker": "사무원",
+          "ko": "알겠습니다. 기록을 준비하겠습니다.",
+          "bn": "বুঝেছি। আমি রেকর্ড প্রস্তুত করব।",
+          "en": "Understood. I will prepare the records."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "오늘 오후에 시작합시다.",
+          "bn": "আজ বিকেলে শুরু করি।",
+          "en": "Let's start this afternoon."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "산림청은 কী? সঠিক উত্তরটি চয়ন করুন।",
+      "questionKo": "산림청은 무엇입니까? 알맞은 것을 고르세요.",
+      "options": [
+        "개인 소유의 숲",
+        "국가 기관 (Forest Service)",
+        "나무를 판매하는 시장",
+        "휴식 시설"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "산림청은 국가 기관으로서 'Korea Forest Service'—국가 기관 হওয়ায় সঠিক উত্তর 1।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 진행형 문장은 কোন 것인가? (Which is progressive form.)",
+      "questionKo": "다음 중 진행형 문장은 어느 것입니까?",
+      "options": [
+        "우리는 보고서를 제출합니다.",
+        "우리는 나무를 심고 있습니다.",
+        "우리는 내일 출근합니다.",
+        "우리는 보고서를 작성했습니다."
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "진행형은 '~고 있습니다' 형태: '나무를 심고 있습니다.' তাই 1번 인덱스(두 번째 선택)가 সঠিক।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "첫 번째 대화에서 팀장은 무엇을 지시했나요?",
+      "questionKo": "첫 번째 대화에서 팀장은 무엇을 지시했습니까?",
+      "options": [
+        "사진을 찍고 보고서를 작성하라고",
+        "허가증을 확인하라고",
+        "점심을 준비하라고",
+        "트럭을 수리하라고"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "대화 마지막에 팀장은 '사진을 찍고 보고서를 작성하세요.'라고 했으므로 첫 번째 선택(인덱스 0) সঠিক।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "허가(허가증)의 뜻은 কী?",
+      "questionKo": "허가의 뜻은 무엇입니까?",
+      "options": [
+        "보고서",
+        "안전 장비",
+        "허가 / 승인",
+        "조사"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "허가는 অনুমতি বা 승인 মানে—তাই তৃতীয় অপশন (인덱스 2) সঠিক।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "다음 문장의 올바른 번역은? '산불 예방이 중요합니다.'",
+      "questionKo": "다음 문장의 올바른 번역은 무엇입니까? '산불 예방이 중요합니다.'",
+      "options": [
+        "বন আগুন প্রতিরোধ জরুরি।",
+        "কাঠ কাটার অনুমতি আছে।",
+        "ট্রেইল বন্ধ হয়েছে।",
+        "রিপোর্ট প্রস্তুত করতে হবে।"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'산불 예방이 중요합니다.' মানে 'বন আগুন প্রতিরোধ জরুরি।' তাই অপশন 0 সঠিক।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "빈칸에 알맞은 단어를 고르세요: '_____ 허가가 필요합니다.' (কোন শব্দটি উপযুক্ত?)",
+      "questionKo": "빈칸에 알맞은 단어를 고르세요: '_____ 허가가 필요합니다.'",
+      "options": [
+        "휴식지",
+        "벌채",
+        "등산로",
+        "환경"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'벌채 허가가 필요합니다.' (কাঠ কাটার জন্য অনুমতি দরকার) — তাই '벌채' (ইনডেক্স 1) সঠিক।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "빈칸에 맞는 표현을 고르세요: '지금 우리는 현장에서 _____ 있습니다.'",
+      "questionKo": "빈칸에 맞는 표현을 고르세요: '지금 우리는 현장에서 _____ 있습니다.'",
+      "options": [
+        "있습니다",
+        "조사하고",
+        "잠깐",
+        "가겠습니다"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "문장은 '지금 우리는 현장에서 있습니다.' 형태로 자연—따라서 '있습니다' (인덱스 0) সঠিক।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "다음 중 요청 표현으로 적절한 것은? '장갑을 _____.'",
+      "questionKo": "다음 중 요청 표현으로 적절한 것은? '장갑을 _____.'",
+      "options": [
+        "있다",
+        "합니다",
+        "하세요",
+        "했다"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "요청 표현은 '~하세요' 사용: '장갑을 착용하세요.'에서 '하세요' (인덱스 2) সঠিক।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "한국어 단어와 বাংলা 뜻을 연결하세요.",
+      "questionKo": "한국어 단어와 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "산림",
+          "right": "বন"
+        },
+        {
+          "left": "허가",
+          "right": "অনুমতি"
+        },
+        {
+          "left": "산불",
+          "right": "বন আগুন"
+        },
+        {
+          "left": "등산로",
+          "right": "ট্রেইল"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি জোড়া পাঠে শেখানো ভোকাবুলারি অনুযায়ী মিলেছে (উদাহরণ: 산림=বন, 허가=অনুমতি)।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "한국어 단어와 영어 뜻을 연결하세요.",
+      "questionKo": "한국어 단어와 영어 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "재조림",
+          "right": "reforestation"
+        },
+        {
+          "left": "수목",
+          "right": "trees"
+        },
+        {
+          "left": "보호",
+          "right": "protection"
+        },
+        {
+          "left": "지속가능성",
+          "right": "sustainability"
+        },
+        {
+          "left": "산림청",
+          "right": "Korea Forest Service"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "এই জোড়াগুলো পাঠ্যভিত্তিক: 재조림=reforestation, 수목=trees ইত্যাদি।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে সঠিক বিকল্পটি চয়ন করুন।",
+      "questionKo": "다음 지문을 읽고 알맞은 것을 고르세요.",
+      "passage": "이번 주에 재조림 작업이 예정되어 있습니다. 팀은 아침 8시에 모여 장비를 점검합니다. 비가 오면 작업을 연기합니다.",
+      "options": [
+        "팀은 오후에 모입니다.",
+        "비가 오면 작업을 연기한다.",
+        "장비 점검은 하지 않는다.",
+        "재조림은 취소되었다."
+      ],
+      "answer": 1,
+      "explanationBn": "지문에 '비가 오면 작업을 연기합니다.' লেখা আছে, তাই অপশন 1 সঠিক।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে সঠিক প্রশ্নের উত্তরের নম্বর চয়ন করুন।",
+      "questionKo": "다음 지문을 읽고 질문에 알맞은 답을 고르세요.",
+      "passage": "등산로 일부가 훼손되어 출입이 제한됩니다. 표지판을 따라 다른 길로 이동하세요.",
+      "options": [
+        "등산로는 안전하다.",
+        "출입이 제한된다.",
+        "표지판이 없다.",
+        "모두 등산하라."
+      ],
+      "answer": 1,
+      "explanationBn": "지문에 '출입이 제한됩니다.' 라고 되어 있으므로 1번 সঠিক।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "প্যাসেজ থেকে তথ্য অনুসারে সঠিক উত্তরটি চয়ন করুন।",
+      "questionKo": "다음 지문을 읽고 알맞은 것을 고르세요.",
+      "passage": "산림청은 벌채 허가를 엄격히 관리합니다. 무단 벌채는 벌금이나 처벌 대상입니다.",
+      "options": [
+        "벌채는 자유롭다.",
+        "허가가 필요 없다.",
+        "무단 벌채는 처벌된다.",
+        "산림청은 허가를 남발한다."
+      ],
+      "answer": 2,
+      "explanationBn": "지문에 '무단 벌채는 벌금이나 처벌 대상입니다.' আছে—তাই অপশন 2 সঠিক।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে সঠিক সময় বা ক্রিয়া নির্ণয় করুন।",
+      "questionKo": "다음 지문을 읽고 알맞은 것을 고르세요.",
+      "passage": "조사팀은 오전에 현장에 있습니다. 점심 후에는 보고서를 작성합니다.",
+      "options": [
+        "보고서를 아침에 작성한다.",
+        "팀은 밤에 가서 작업한다.",
+        "점심 후에 보고서를 작성한다.",
+        "현장에 가지 않는다."
+      ],
+      "answer": 2,
+      "explanationBn": "지문에 '점심 후에는 보고서를 작성합니다.' লেখা আছে—অপশন 2 সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "প্যাসেজ থেকে সিদ্ধান্ত নিন: কোনটি প্রযোজ্য?",
+      "questionKo": "다음 지문을 읽고 알맞은 것을 고르세요.",
+      "passage": "작업 전에 모든 직원은 안전 교육을 받아야 합니다. 교육을 받지 않으면 작업에 참여할 수 없습니다.",
+      "options": [
+        "안전 교육은 선택 사항이다.",
+        "교육 없이도 작업에 참여 가능하다.",
+        "안전 교육은 필수이다.",
+        "교육은 나중에 하면 된다."
+      ],
+      "answer": 2,
+      "explanationBn": "지문에 '안전 교육을 받아야 합니다.' 라고 명시—অপশন 2 (세 번째) সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "음성 내용을 듣고 알맞은 답을 고르세요। (পঠিত স্ক্রিপ্ট পড়ে উত্তর দিন)",
+      "questionKo": "다음을 듣고 질문에 답하세요.",
+      "passage": "오늘 오후에 벌채 작업을 시작합니다. 허가증을 확인했고 안전 교육을 완료했습니다. 모두 준비되었습니까?",
+      "options": [
+        "허가증이 없다.",
+        "안전 교육이 완료되었다.",
+        "작업은 내일 시작한다.",
+        "누구도 준비되지 않았다."
+      ],
+      "answer": 1,
+      "explanationBn": "스크립트에 '안전 교육을 완료했습니다.' 라고 되어 있으므로 অপশন 1 সঠিক।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "듣고 맞는 것을 고르세요। (পঠিত স্ক্রিপ্ট পড়ে উত্তর দিন)",
+      "questionKo": "다음을 듣고 질문에 답하세요.",
+      "passage": "조사팀이 오전 8시에 모입니다. 장비를 확인하고 출발합니다. 비상 연락처를 확인하세요.",
+      "options": [
+        "조사팀은 오후 8시에 모인다.",
+        "장비 확인이 필요 없다.",
+        "오전 8시에 모인다.",
+        "비상 연락처는 필요 없다."
+      ],
+      "answer": 2,
+      "explanationBn": "스크립트에 '오전 8시에 모입니다.' 라고 되어 있으므로 অপশন 2 (세 번째) সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "음성을 듣고 알맞은 선택지를 고르세요।",
+      "questionKo": "다음을 듣고 질문에 답하세요.",
+      "passage": "휴식지에서 간단히 점심을 먹고 오후에 재조림을 시작합시다. 쓰레기는 가져가세요.",
+      "options": [
+        "쓰레기를 버려도 된다.",
+        "재조림은 아침에만 한다.",
+        "휴식지에서 점심을 먹는다.",
+        "점심은 제공되지 않는다."
+      ],
+      "answer": 2,
+      "explanationBn": "스크립트에 '휴식지에서 간단히 점심을 먹고...' 라고 해서 '휴식지에서 점심을 먹는다.' (옵션 2) সঠিক।"
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+  "chapter": 44,
+  "slug": "civil-engineering",
+  "title": {
+    "ko": "토목 공사",
+    "bn": "সিভিল ইঞ্জিনিয়ারিং কাজ",
+    "en": "Civil Engineering"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "নির্মাণ সাইটে সাধারণ সরঞ্জাম ও উপকরণ সম্পর্কে সহজ বাক্য বলা।",
+      "সরঞ্জাম ডেলিভারি ও কাজের নির্দেশ দিতে ও বুঝতে পারা।",
+      "সহকর্মীর সঙ্গে নিরাপত্তা ও কাজের সময় সম্পর্কে সংক্ষিপ্ত যোগাযোগ করা।"
+    ],
+    "en": [
+      "Talk simply about common site equipment and materials.",
+      "Give and understand basic delivery and work instructions.",
+      "Communicate briefly with coworkers about safety and work times."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "공사",
+      "romanization": "gongsa",
+      "bn": "নির্মাণ কাজ",
+      "en": "construction",
+      "pos": "noun",
+      "example": {
+        "ko": "이 도로 공사는 다음 달까지 끝납니다.",
+        "bn": "এই রোডের নির্মাণ কাজ আগামী মাসে শেষ হবে।",
+        "en": "This road construction finishes next month."
+      }
+    },
+    {
+      "ko": "도로",
+      "romanization": "doro",
+      "bn": "রাস্তা",
+      "en": "road",
+      "pos": "noun",
+      "example": {
+        "ko": "도로 표지판을 옮겨 주세요.",
+        "bn": "রাস্তায় সাইনবোর্ডটি সরিয়ে দিন।",
+        "en": "Please move the road sign."
+      }
+    },
+    {
+      "ko": "다리",
+      "romanization": "dari",
+      "bn": "পুল/সেতু",
+      "en": "bridge",
+      "pos": "noun",
+      "example": {
+        "ko": "다리 설계도가 필요합니다.",
+        "bn": "সেতুর ডিজাইন প্ল্যান দরকার।",
+        "en": "We need the bridge design plan."
+      }
+    },
+    {
+      "ko": "굴착",
+      "romanization": "gulchak",
+      "bn": "খনন",
+      "en": "excavation",
+      "pos": "noun",
+      "example": {
+        "ko": "굴착 작업은 아침에 시작합니다.",
+        "bn": "খনন কাজ সকালেই শুরু হবে।",
+        "en": "Excavation work starts in the morning."
+      }
+    },
+    {
+      "ko": "터널",
+      "romanization": "teoneol",
+      "bn": "টানেল",
+      "en": "tunnel",
+      "pos": "noun",
+      "example": {
+        "ko": "터널 내부는 조명이 필요합니다.",
+        "bn": "টানেলের ভিতরে আলো লাগবে।",
+        "en": "The tunnel interior needs lighting."
+      }
+    },
+    {
+      "ko": "설계",
+      "romanization": "seolgye",
+      "bn": "নকশা/ডিজাইন",
+      "en": "design/plan",
+      "pos": "noun",
+      "example": {
+        "ko": "설계도를 확인해 주세요.",
+        "bn": "ডিজাইন প্ল্যানটি পরীক্ষা করুন।",
+        "en": "Please check the design plan."
+      }
+    },
+    {
+      "ko": "측량",
+      "romanization": "cheukryang",
+      "bn": "পরিমাপ/ম্যাপিং",
+      "en": "surveying",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 오전에 측량을 합니다.",
+        "bn": "আজ সকালে পরিমাপ করা হবে।",
+        "en": "We will do surveying this morning."
+      }
+    },
+    {
+      "ko": "파일",
+      "romanization": "pail",
+      "bn": "파일/말뚝",
+      "en": "pile (foundation)",
+      "pos": "noun",
+      "example": {
+        "ko": "파일을 박기 전에 위치를 표시하세요.",
+        "bn": "পাইল বসানোর আগে অবস্থান চিহ্নিত করুন।",
+        "en": "Mark the positions before driving piles."
+      }
+    },
+    {
+      "ko": "기초",
+      "romanization": "gicho",
+      "bn": "ভিত্তি/ফাউন্ডেশন",
+      "en": "foundation",
+      "pos": "noun",
+      "example": {
+        "ko": "기초는 튼튼해야 합니다.",
+        "bn": "ভিত্তি মজবুত হওয়া উচিত।",
+        "en": "The foundation must be strong."
+      }
+    },
+    {
+      "ko": "콘크리트",
+      "romanization": "konkeuriteu",
+      "bn": "কংক্রিট",
+      "en": "concrete",
+      "pos": "noun",
+      "example": {
+        "ko": "콘크리트를 붓기 전 거푸집을 확인합니다.",
+        "bn": "কংক্রিট ঢালার আগে ফর্মওয়ার্ক পরীক্ষা করুন।",
+        "en": "Check the formwork before pouring concrete."
+      }
+    },
+    {
+      "ko": "철근",
+      "romanization": "cheolgeun",
+      "bn": "রড/রিইনফোর্সিং বার",
+      "en": "rebar",
+      "pos": "noun",
+      "example": {
+        "ko": "철근을 규격에 맞게 배치하세요.",
+        "bn": "রডগুলো মান অনুযায়ী স্থাপন করুন।",
+        "en": "Place the rebar according to specifications."
+      }
+    },
+    {
+      "ko": "덤프트럭",
+      "romanization": "deompeuteureok",
+      "bn": "ডাম্পট্রাক",
+      "en": "dump truck",
+      "pos": "noun",
+      "example": {
+        "ko": "덤프트럭이 자재를 싣고 옵니다.",
+        "bn": "ডাম্পট্রাক উপকরণ নিয়ে আসছে।",
+        "en": "The dump truck is bringing materials."
+      }
+    },
+    {
+      "ko": "크레인",
+      "romanization": "keurein",
+      "bn": "ক্রেন",
+      "en": "crane",
+      "pos": "noun",
+      "example": {
+        "ko": "크레인으로 자재를 올립니다.",
+        "bn": "ক্রেন দিয়ে মালপত্র উঠানো হচ্ছে।",
+        "en": "We lift materials with the crane."
+      }
+    },
+    {
+      "ko": "사인보드",
+      "romanization": "sainbodeu",
+      "bn": "সাইনবোর্ড",
+      "en": "signboard",
+      "pos": "noun",
+      "example": {
+        "ko": "안전 사인보드를 설치하세요.",
+        "bn": "নিরাপত্তার সাইনবোর্ড স্থাপন করুন।",
+        "en": "Install the safety signboard."
+      }
+    },
+    {
+      "ko": "안전모",
+      "romanization": "anjeonmo",
+      "bn": "সেফটি হেলমেট",
+      "en": "safety helmet",
+      "pos": "noun",
+      "example": {
+        "ko": "모든 작업자는 안전모를 착용합니다.",
+        "bn": "সব কর্মীরা হেলমেট পরবে।",
+        "en": "All workers wear safety helmets."
+      }
+    },
+    {
+      "ko": "작업자",
+      "romanization": "jageobja",
+      "bn": "কর্মচারী/শ্রমিক",
+      "en": "worker",
+      "pos": "noun",
+      "example": {
+        "ko": "작업자는 도구를 점검합니다.",
+        "bn": "কর্মী জিনিসপত্র পরীক্ষা করছে।",
+        "en": "The worker inspects the tools."
+      }
+    },
+    {
+      "ko": "배수",
+      "romanization": "baesu",
+      "bn": "জল নিষ্কাশন",
+      "en": "drainage",
+      "pos": "noun",
+      "example": {
+        "ko": "배수구를 먼저 정리하세요.",
+        "bn": "প্রথমে জলনিষ্কাশন খনির কাজ করুন।",
+        "en": "Clear the drainage first."
+      }
+    },
+    {
+      "ko": "배치도",
+      "romanization": "baechido",
+      "bn": "বিন্যাস চিত্র",
+      "en": "layout plan",
+      "pos": "noun",
+      "example": {
+        "ko": "현장 배치도를 확인하세요.",
+        "bn": "সাইট লেআউট প্ল্যান চেক করুন।",
+        "en": "Check the site layout plan."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "-고 있다",
+      "titleBn": "চলছে (ক্রিয়া অবস্থা)",
+      "explanationBn": "어떤 일이 지금 진행 중일 때 씁니다। উদাহরণ: '굴착 작업을 하고 있다' — খনন কাজ চলছে; '크레인이 자재를 옮기고 있다' — ক্রেন মালপত্র ঢুকিয়ে নিচ্ছে. (영어: expresses an ongoing action; ex: 'is excavating', 'is moving materials with the crane').",
+      "explanationEn": "Used to indicate an action in progress now. Examples: '굴착 작업을 하고 있다' (excavation is in progress); '크레인이 자재를 옮기고 있다' (the crane is moving materials).",
+      "examples": [
+        {
+          "ko": "작업자가 배수구를 청소하고 있다.",
+          "bn": "কর্মীটি জলনিষ্কাশন পরিষ্কার করছে।",
+          "en": "The worker is cleaning the drainage."
+        },
+        {
+          "ko": "덤프트럭이 모래를 싣고 있다.",
+          "bn": "ডাম্পট্রাক বালি ভর্তি করছে।",
+          "en": "The dump truck is loading sand."
+        }
+      ]
+    },
+    {
+      "pattern": "-(으)세요",
+      "titleBn": "শান্ত বিনীত অনুরোধ/আদেশ",
+      "explanationBn": "কোনো নির্দেশ বা অনুরোধ বিনীতভাবে বলার জন্য। উদাহরণ: '헬멧을 쓰세요' — হেলমেট পরুন; '계단을 조심하세요' — সিঁড়ি সাবধানে ব্যবহার করুন। (ইংরেজি: polite imperative: 'please wear', 'please be careful').",
+      "explanationEn": "Polite imperative for requests or commands. Examples: '헬멧을 쓰세요' (please wear a helmet); '조심하세요' (please be careful).",
+      "examples": [
+        {
+          "ko": "안전모를 착용하세요.",
+          "bn": "সেফটি হেলমেট পরুন।",
+          "en": "Please wear a safety helmet."
+        },
+        {
+          "ko": "표지판을 옮기세요.",
+          "bn": "সাইনবোর্ড সরান অনুগ্রহ করে।",
+          "en": "Please move the signboard."
+        }
+      ]
+    },
+    {
+      "pattern": "-아/어야 하다",
+      "titleBn": "প্রয়োজনীয়তা/কর্তব্য",
+      "explanationBn": "কিছু করতে হবে বোঝাতে। উদাহরণ: '설계를 확인해야 합니다' — ডিজাইন পরীক্ষা করা প্রয়োজন; '안전을 점검해야 해요' — নিরাপত্তা পরীক্ষা করা উচিত। (ইংরেজি: expresses necessity: 'must/need to').",
+      "explanationEn": "Expresses necessity or obligation. Examples: '설계를 확인해야 합니다' (you must check the design); '안전을 점검해야 해요' (you should check safety).",
+      "examples": [
+        {
+          "ko": "파일 위치를 확인해야 합니다.",
+          "bn": "পাইলের অবস্থান পরীক্ষা করতে হবে।",
+          "en": "You must check the pile positions."
+        },
+        {
+          "ko": "배수를 먼저 처리해야 해요.",
+          "bn": "প্রথমে জল নিষ্কাশন সমাধা করতে হবে।",
+          "en": "We need to handle drainage first."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "자재 도착 확인",
+      "titleEn": "Material Arrival Check",
+      "lines": [
+        {
+          "speaker": "현장감독",
+          "ko": "덤프트럭이 자재를 싣고 왔습니다. 확인해 주세요.",
+          "bn": "ডাম্পট্রাক উপকরণ নিয়ে এসে গেছে। পরীক্ষা করুন।",
+          "en": "The dump truck has arrived with materials. Please check."
+        },
+        {
+          "speaker": "작업자1",
+          "ko": "몇 톤인가요? 콘크리트용인지 확인할게요.",
+          "bn": "কত টন? কংক্রিটের জন্য কি না আমি দেখে নেব।",
+          "en": "How many tons? I'll check if it's for concrete."
+        },
+        {
+          "speaker": "작업자2",
+          "ko": "포장은 온전합니다. 바로 옮기겠습니다.",
+          "bn": "প্যাকেজ ঠিক আছে। এখনই সরিয়ে নেব।",
+          "en": "The packaging is intact. We'll move it now."
+        },
+        {
+          "speaker": "현장감독",
+          "ko": "크레인으로 옮길 준비하세요. 안전모 착용하세요.",
+          "bn": "ক্রেন দিয়ে উঠানোর প্রস্তুতি নাও। হেলমেট পরো।",
+          "en": "Prepare to move it with the crane. Wear safety helmets."
+        },
+        {
+          "speaker": "작업자1",
+          "ko": "네, 바로 준비하겠습니다.",
+          "bn": "হ্যাঁ, এখনই প্রস্তুত করি।",
+          "en": "Yes, we'll prepare immediately."
+        }
+      ]
+    },
+    {
+      "titleBn": "안전 점검 회의",
+      "titleEn": "Safety Check Meeting",
+      "lines": [
+        {
+          "speaker": "현장소장",
+          "ko": "오늘은 안전 점검이 있습니다. 모두 모이세요.",
+          "bn": "আজ নিরাপত্তা পরীক্ষা আছে। সবাই এক জায়গায় এসো।",
+          "en": "We have a safety inspection today. Everyone gather."
+        },
+        {
+          "speaker": "작업자2",
+          "ko": "어떤 부분을 확인합니까?",
+          "bn": "কোন অংশগুলো চেক করা হবে?",
+          "en": "Which parts will be checked?"
+        },
+        {
+          "speaker": "현장소장",
+          "ko": "안전모, 사인보드, 배수 상태와 크레인 작업을 봅니다.",
+          "bn": "হেলমেট, সাইনবোর্ড, জলনিষ্কাশন ও ক্রেন কাজ দেখবো।",
+          "en": "We'll check helmets, signboards, drainage, and crane operations."
+        },
+        {
+          "speaker": "작업자1",
+          "ko": "모두 준비됐습니다. 제가 사인보드를 설치하겠습니다.",
+          "bn": "সব কিছু প্রস্তুত। আমি সাইনবোর্ড স্থাপন করব।",
+          "en": "Everything is ready. I will install the signboard."
+        },
+        {
+          "speaker": "현장소장",
+          "ko": "좋습니다. 점검을 시작하겠습니다.",
+          "bn": "ভালো। আমরা পরীক্ষা শুরু করি।",
+          "en": "Good. Let's begin the inspection."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "덤프트럭은 보통 무엇을 운반합니까?",
+      "questionKo": "덤프트럭은 보통 무엇을 운반합니까?",
+      "options": [
+        "사인보드",
+        "모래와 자재",
+        "설계도",
+        "헬멧"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "덤프트럭은 보통 모래, 흙 등 건설 자재를 운반합니다 (교재 어휘: 덤프트럭, 자재)."
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 안전 장비가 아닌 것은?",
+      "questionKo": "다음 중 안전 장비가 아닌 것은?",
+      "options": [
+        "안전모",
+        "사인보드",
+        "작업화",
+        "보호장갑"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "사인보드는 안전 표지이지만 착용하는 개인 보호장비가 아니므로 정답은 사인보드입니다."
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "콘크리트를 붓기 전에 무엇을 확인해야 합니까?",
+      "questionKo": "콘크리트를 붓기 전에 무엇을 확인해야 합니까?",
+      "options": [
+        "거푸집(폼워크)",
+        "크레인 색깔",
+        "음식 배달",
+        "작업자 이름"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "교재 예문에 '콘크리트를 붓기 전 거푸집을 확인합니다'라고 나와 있으므로 거푸집이 정답입니다."
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "다음 문장에서 알맞은 말은? '안전모를 _____.'",
+      "questionKo": "다음 문장에서 알맞은 말은? '안전모를 _____.'",
+      "options": [
+        "닫으세요",
+        "씌우세요",
+        "먹으세요",
+        "착용하세요"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "정중한 명령 표현으로 '안전모를 착용하세요'가 자연스럽습니다 (문법: -(으)세요)."
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "배치도는 무엇을 보여 줍니까?",
+      "questionKo": "배치도는 무엇을 보여 줍니까?",
+      "options": [
+        "작업자 개인 정보",
+        "현장 구조와 위치",
+        "음식 메뉴",
+        "차량 속도"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "배치도는 현장의 구조와 위치를 나타내는 도면입니다."
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "문장을 완성하세요: '굴착 작업을 _____.'",
+      "questionKo": "문장을 완성하세요: '굴착 작업을 _____.'",
+      "options": [
+        "먹었다",
+        "팔았다",
+        "하고 있다",
+        "자랐다"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "'굴착 작업을 하고 있다'는 지금 작업이 진행 중임을 나타내므로 정답입니다 (문법: -고 있다)."
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "문장을 완성하세요: '파일 위치를 확인해야 ____.'",
+      "questionKo": "문장을 완성하세요: '파일 위치를 확인해야 ____.'",
+      "options": [
+        "합니다",
+        "먹습니다",
+        "자랍니다",
+        "쉽습니다"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "정중한 문장으로 '확인해야 합니다'가 맞습니다 (문법: -아/어야 하다)."
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "명령형 표현을 고르세요: '표지판을 _____.'",
+      "questionKo": "명령형 표현을 고르세요: '표지판을 _____.'",
+      "options": [
+        "읽고 있다",
+        "옮기세요",
+        "먹어요",
+        "크다"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "명령이나 요청으로 '옮기세요'가 자연스럽습니다 (문법: -(으)세요)."
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "다음 단어와 의미를 연결하세요.",
+      "questionKo": "다음 단어와 의미를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "안전모",
+          "right": "সেফটি হেলমেট"
+        },
+        {
+          "left": "크레인",
+          "right": "ক্রেন"
+        },
+        {
+          "left": "배수",
+          "right": "জল নিষ্কাশন"
+        },
+        {
+          "left": "공사",
+          "right": "নির্মাণ কাজ"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "각 한국어 단어와 বাংলা 뜻을 연결하는 문제입니다. 정답은 각 짝을 그대로 매칭하면 됩니다."
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "다음 도구와 용도를 연결하세요.",
+      "questionKo": "다음 도구와 용도를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "덤프트럭",
+          "right": "জমি বা 자재를 운반한다"
+        },
+        {
+          "left": "철근",
+          "right": "콘크리트 구조를 강화한다"
+        },
+        {
+          "left": "배치도",
+          "right": "현장 구조를 보여 준다"
+        },
+        {
+          "left": "측량",
+          "right": "위치를 정확히 재는 작업"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "각 도구와 그 용도를 연결하면 됩니다. 보기와 의미를 그대로 매치하세요."
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문에 답하세요: 어떤 작업이 다음 달까지 끝납니까?",
+      "questionKo": "다음 글을 읽고 질문에 답하세요: 어떤 작업이 다음 달까지 끝납니까?",
+      "passage": "이 도로 공사는 다음 달까지 끝납니다. 작업자는 배수와 포장을 준비 중입니다.",
+      "options": [
+        "다리 공사",
+        "도로 공사",
+        "터널 공사",
+        "건물 공사"
+      ],
+      "answer": 1,
+      "explanationBn": "본문에 '이 도로 공사는 다음 달까지 끝납니다'라고 되어 있으므로 정답은 '도로 공사'입니다."
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문: 콘크리트를 붓기 전에 무엇을 확인합니까?",
+      "questionKo": "다음 글을 읽고 질문: 콘크리트를 붓기 전에 무엇을 확인합니까?",
+      "passage": "콘크리트를 붓기 전 거푸집을 확인합니다. 철근 위치도 점검하세요.",
+      "options": [
+        "크레인 색깔",
+        "거푸집",
+        "음식 배달",
+        "사인보드 그림"
+      ],
+      "answer": 1,
+      "explanationBn": "본문에 '거푸집을 확인합니다'라고 명시되어 있어 거푸집이 정답입니다."
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문: 누가 사인보드를 설치하겠다고 했습니까?",
+      "questionKo": "다음 글을 읽고 질문: 누가 사인보드를 설치하겠다고 했습니까?",
+      "passage": "작업자1: 모두 준비됐습니다. 제가 사인보드를 설치하겠습니다.",
+      "options": [
+        "현장소장",
+        "작업자2",
+        "작업자1",
+        "감독"
+      ],
+      "answer": 2,
+      "explanationBn": "대화에서 '제가 사인보드를 설치하겠습니다'라고 말한 이는 작업자1입니다."
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문: 어떤 항목을 점검할 것이라고 했나요?",
+      "questionKo": "다음 글을 읽고 질문: 어떤 항목을 점검할 것이라고 했나요?",
+      "passage": "현장소장: 안전모, 사인보드, 배수 상태와 크레인 작업을 봅니다.",
+      "options": [
+        "음식 메뉴",
+        "차량 속도",
+        "컴퓨터",
+        "안전모와 배수"
+      ],
+      "answer": 3,
+      "explanationBn": "문장에 '안전모, 사인보드, 배수 상태와 크레인 작업'을 본다고 했으므로 '안전모와 배수'가 정답입니다."
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문: 누가 자재를 확인해 달라고 했습니까?",
+      "questionKo": "다음 글을 읽고 질문: 누가 자재를 확인해 달라고 했습니까?",
+      "passage": "현장감독: 덤프트럭이 자재를 싣고 왔습니다. 확인해 주세요.",
+      "options": [
+        "현장감독",
+        "작업자1",
+        "작업자2",
+        "현장소장"
+      ],
+      "answer": 0,
+      "explanationBn": "현장감독이 '확인해 주세요'라고 말했으므로 정답은 현장감독입니다."
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "다음을 듣고 질문: 화자는 어떤 장비로 자재를 옮기라고 합니까?",
+      "questionKo": "다음을 듣고 질문: 화자는 어떤 장비로 자재를 옮기라고 합니까?",
+      "passage": "현장감독: 크레인으로 옮길 준비하세요. 안전모 착용하세요.",
+      "options": [
+        "덤프트럭",
+        "크레인",
+        "포크레인",
+        "사다리"
+      ],
+      "answer": 1,
+      "explanationBn": "대본에서 '크레인으로 옮길 준비하세요'라고 말하므로 정답은 크레인입니다."
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "다음을 듣고 질문: 누가 사인보드를 설치하겠다고 합니까?",
+      "questionKo": "다음을 듣고 질문: 누가 사인보드를 설치하겠다고 합니까?",
+      "passage": "작업자1: 모두 준비됐습니다. 제가 사인보드를 설치하겠습니다.",
+      "options": [
+        "현장감독",
+        "현장소장",
+        "작업자1",
+        "작업자2"
+      ],
+      "answer": 2,
+      "explanationBn": "대본에서 작업자1이 '제가 사인보드를 설치하겠습니다'라고 말했으므로 정답은 작업자1입니다."
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "다음을 듣고 질문: 작업자는 무엇을 먼저 정리하라고 합니까?",
+      "questionKo": "다음을 듣고 질문: 작업자는 무엇을 먼저 정리하라고 합니까?",
+      "passage": "작업자: 배수구를 먼저 정리하세요.",
+      "options": [
+        "자재",
+        "거푸집",
+        "배수구",
+        "안전모"
+      ],
+      "answer": 2,
+      "explanationBn": "대본에 '배수구를 먼저 정리하세요'라고 되어 있으므로 정답은 배수구(배수)입니다."
+    }
+  ]
+}

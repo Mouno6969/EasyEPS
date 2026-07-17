@@ -1,0 +1,679 @@
+{
+  "chapter": 36,
+  "slug": "shipment-management",
+  "title": {
+    "ko": "출하 관리",
+    "bn": "প্যাকিং, লোডিং ও চালান ব্যবস্থাপনা",
+    "en": "Shipment Management"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "প্যাকিং, 라벨붙이기 এবং 출하 관련 সাধারণ কোরিয়ান শব্দাবলি শেখা।",
+      "간단한 출하 지시와 상태를 한국어로 묻고 대답할 수 있다।",
+      "포장 수량, 무게 또는 날짜 관련 기본 문장을 이해하고 말할 수 있다।"
+    ],
+    "en": [
+      "Learn common Korean vocabulary for packing, labeling, and shipment tasks.",
+      "Ask and answer simple shipment instructions and status in Korean.",
+      "Understand and use basic sentences about quantities, weight, and dates for shipments."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "출하",
+      "romanization": "chulha",
+      "bn": "চালান/পণ্য প্রেরণ",
+      "en": "shipment",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 출하는 몇 시에 출발하나요?",
+        "bn": "আজ চালান কখন রওনা হবে?",
+        "en": "What time does today's shipment depart?"
+      }
+    },
+    {
+      "ko": "포장",
+      "romanization": "pojang",
+      "bn": "প্যাকিং",
+      "en": "packing",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "상품을 안전하게 포장해 주세요.",
+        "bn": "পণ্যটি নিরাপদে প্যাক করুন।",
+        "en": "Please pack the product securely."
+      }
+    },
+    {
+      "ko": "라벨",
+      "romanization": "rabel",
+      "bn": "লেবেল",
+      "en": "label",
+      "pos": "noun",
+      "example": {
+        "ko": "라벨에 주소를 적어 주세요.",
+        "bn": "লেবেলে ঠিকানা লিখুন।",
+        "en": "Please write the address on the label."
+      }
+    },
+    {
+      "ko": "송장",
+      "romanization": "songjang",
+      "bn": "পাঠানোর কাগজ/ইনভয়েস",
+      "en": "invoice / waybill",
+      "pos": "noun",
+      "example": {
+        "ko": "송장을 확인하고 서명하세요.",
+        "bn": "ইনভয়েস দেখে স্বাক্ষর করুন।",
+        "en": "Check the waybill and sign, please."
+      }
+    },
+    {
+      "ko": "파렛트",
+      "romanization": "pareteu",
+      "bn": "প্যালেট",
+      "en": "pallet",
+      "pos": "noun",
+      "example": {
+        "ko": "파렛트에 상자를 쌓아 주세요.",
+        "bn": "প্যালেটের উপরে বাক্সগুলো রাখুন।",
+        "en": "Stack the boxes on the pallet."
+      }
+    },
+    {
+      "ko": "컨테이너",
+      "romanization": "konteineo",
+      "bn": "কন্টেইনার",
+      "en": "container",
+      "pos": "noun",
+      "example": {
+        "ko": "컨테이너가 항구에 도착했습니다.",
+        "bn": "কন্টেইনার বন্দরে পৌঁছেছে।",
+        "en": "The container has arrived at the port."
+      }
+    },
+    {
+      "ko": "하역",
+      "romanization": "hayok",
+      "bn": "লোডিং/আনলোডিং",
+      "en": "loading/unloading",
+      "pos": "noun",
+      "example": {
+        "ko": "하역 작업은 오후에 시작합니다.",
+        "bn": "লোডিং কাজ বিকেলে শুরু হবে।",
+        "en": "The loading work starts in the afternoon."
+      }
+    },
+    {
+      "ko": "검사",
+      "romanization": "geomsa",
+      "bn": "পরিদর্শন/চেক",
+      "en": "inspection/check",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "수량 검사를 먼저 하겠습니다.",
+        "bn": "প্রথমে পরিমাণ চেক করব।",
+        "en": "I'll check the quantity first."
+      }
+    },
+    {
+      "ko": "수량",
+      "romanization": "suryang",
+      "bn": "পরিমাণ/সংখ্যা",
+      "en": "quantity",
+      "pos": "noun",
+      "example": {
+        "ko": "수량이 맞는지 확인해 주세요.",
+        "bn": "দয়া করে পরিমাণ মিলছে কি না দেখুন।",
+        "en": "Please check if the quantity is correct."
+      }
+    },
+    {
+      "ko": "무게",
+      "romanization": "muge",
+      "bn": "ওজন",
+      "en": "weight",
+      "pos": "noun",
+      "example": {
+        "ko": "상자 무게가 너무 무겁습니다.",
+        "bn": "বাক্সের ওজন অনেক ভারি।",
+        "en": "The box weight is too heavy."
+      }
+    },
+    {
+      "ko": "위험물",
+      "romanization": "wiheommul",
+      "bn": "ঝুঁকিপূর্ণ বস্তু",
+      "en": "hazardous material",
+      "pos": "noun",
+      "example": {
+        "ko": "위험물은 별도 표기가 필요합니다.",
+        "bn": "ঝুঁকিপূর্ণ জিনিস আলাদা চিহ্ন প্রয়োজন।",
+        "en": "Hazardous materials need separate labeling."
+      }
+    },
+    {
+      "ko": "유통기한",
+      "romanization": "yutonggihan",
+      "bn": "মেয়াদ শেষ হওয়ার তারিখ",
+      "en": "expiration date",
+      "pos": "noun",
+      "example": {
+        "ko": "유통기한을 확인하세요.",
+        "bn": "মেয়াদ শেষ হওয়ার তারিখ চেক করুন।",
+        "en": "Check the expiration date."
+      }
+    },
+    {
+      "ko": "반송",
+      "romanization": "bansong",
+      "bn": "প্রত্যাহার/পাঠানো ফেরত",
+      "en": "return shipment",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "불량품은 반송 처리했습니다.",
+        "bn": "ত্রুটিপূর্ণ পণ্য ফেরত পাঠানো হয়েছে।",
+        "en": "Defective items were returned."
+      }
+    },
+    {
+      "ko": "운송장",
+      "romanization": "unsongjang",
+      "bn": "শিপিং নোম্বর/ওয়ে বিল",
+      "en": "tracking number / shipping bill",
+      "pos": "noun",
+      "example": {
+        "ko": "운송장을 알려 주시면 조회하겠습니다.",
+        "bn": "আপনি শিপিং নম্বর দিলে আমি ট্র্যাক করব।",
+        "en": "If you give the tracking number, I'll check it."
+      }
+    },
+    {
+      "ko": "적재",
+      "romanization": "jeokjae",
+      "bn": "লোড করা/স্থাপন",
+      "en": "loading / stowage",
+      "pos": "noun",
+      "example": {
+        "ko": "트럭에 적재를 도와 주세요.",
+        "bn": "ট্রাকে লোড করতে সাহায্য করুন।",
+        "en": "Please help load onto the truck."
+      }
+    },
+    {
+      "ko": "출발일",
+      "romanization": "chulbalil",
+      "bn": "রওনা তারিখ",
+      "en": "departure date",
+      "pos": "noun",
+      "example": {
+        "ko": "출발일을 다시 확인해 주세요.",
+        "bn": "রওনা তারিখ আবার নিশ্চিত করুন।",
+        "en": "Please reconfirm the departure date."
+      }
+    },
+    {
+      "ko": "도착일",
+      "romanization": "dochakil",
+      "bn": "আগমন তারিখ",
+      "en": "arrival date",
+      "pos": "noun",
+      "example": {
+        "ko": "예상 도착일은 언제인가요?",
+        "bn": "প্রত্যাশিত আগমন তারিখ কখন?",
+        "en": "When is the expected arrival date?"
+      }
+    },
+    {
+      "ko": "창고",
+      "romanization": "changgo",
+      "bn": "ওয়্যারহাউস/গুদাম",
+      "en": "warehouse",
+      "pos": "noun",
+      "example": {
+        "ko": "창고에 재고가 충분합니다.",
+        "bn": "গুদামে স্টক যথেষ্ট আছে।",
+        "en": "There is enough stock in the warehouse."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "~아/어 주세요",
+      "titleBn": "অনুরোধ করা (~아/어 주세요)",
+      "explanationBn": "কিছু বলার সময় বিনীতভাবে কাউকে অনুরোধ করতে ব্যবহার করা হয়। উদাহরণ: 라벨을 붙여 주세요. (লেবেলটি লাগিয়ে দিন)।\nউদাহরণ들:\n1) 포장해 주세요. — দয়া করে প্যাক করুন.\n2) 송장을 보여 주세요. — ইনভয়েস দেখান অনুগ্রহ করে.",
+      "explanationEn": "Used to make polite requests. Example: 라벨을 붙여 주세요. (Please attach the label.)\nExamples:\n1) 포장해 주세요. — Please pack it.\n2) 송장을 보여 주세요. — Please show the invoice.",
+      "examples": [
+        {
+          "ko": "라벨을 붙여 주세요.",
+          "bn": "লেবেল লাগিয়ে দিন অনুগ্রহ করে।",
+          "en": "Please attach the label."
+        },
+        {
+          "ko": "박스를 옮겨 주세요.",
+          "bn": "বাক্সটি সরিয়ে দিন।",
+          "en": "Please move the box."
+        }
+      ]
+    },
+    {
+      "pattern": "~아/어야 하다",
+      "titleBn": "প্রয়োজন/দায়িত্ব (~아/어야 해요)",
+      "explanationBn": "কোনো কাজ করা আবশ্যক বা প্রয়োজন বোঝায়। সাধারণ কথ্যবাক্যে '~아/어야 해요' বলা হয়।\nউদাহরণ들:\n1) 수량을 확인해야 해요. — পরিমাণ চেক করতে হবে।\n2) 운송장을 작성해야 해요. — শিপিং বিল লিখতে হবে।",
+      "explanationEn": "Expresses obligation or necessity. In spoken Korean often '~아/어야 해요'.\nExamples:\n1) 수량을 확인해야 해요. — You must check the quantity.\n2) 운송장을 작성해야 해요. — You need to fill out the shipping bill.",
+      "examples": [
+        {
+          "ko": "무게를 재야 해요.",
+          "bn": "ওজন নাপতে হবে।",
+          "en": "You must measure the weight."
+        },
+        {
+          "ko": "위험물은 표기해야 해요.",
+          "bn": "ঝুঁকিপূর্ণ বস্তু চিহ্নিত করতে হবে।",
+          "en": "Hazardous items must be labeled."
+        }
+      ]
+    },
+    {
+      "pattern": "~(으)면",
+      "titleBn": "শর্ত/যদি (~(으)면)",
+      "explanationBn": "শর্ত জানাতে বা 'যদি... তবে...' বলতে ব্যবহার করে।\nউদাহরণ들:\n1) 수량이 맞으면 출하합니다. — পরিমাণ ঠিক থাকলে চালান করব।\n2) 도착하면 연락 주세요. — পৌঁছালে জানান।",
+      "explanationEn": "Used to express a condition 'if... then...'.\nExamples:\n1) 수량이 맞으면 출하합니다. — If the quantity is correct, we ship.\n2) 도착하면 연락 주세요. — Please contact us when it arrives.",
+      "examples": [
+        {
+          "ko": "검사를 통과하면 포장합니다.",
+          "bn": "পরীক্ষা পাস হলে প্যাক করা হবে।",
+          "en": "If it passes inspection, we will pack it."
+        },
+        {
+          "ko": "운송장이 있으면 배송을 시작합니다.",
+          "bn": "ওয়ে বিল থাকলে ডেলিভারি শুরু হবে।",
+          "en": "If there's a waybill, delivery will start."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "기사와 창고 담당자의 출하 확인",
+      "titleEn": "Driver and Warehouse Staff: Shipment Check",
+      "lines": [
+        {
+          "speaker": "기사",
+          "ko": "안녕하세요, 기사입니다. 오늘 출하할 물건 있나요?",
+          "bn": "হ্যালো, আমি ড্রাইভার। আজ কি কোনও চালান আছে?",
+          "en": "Hello, I'm the driver. Is there anything to ship today?"
+        },
+        {
+          "speaker": "담당자",
+          "ko": "네, A-품목 10상자 출하 준비되었습니다.",
+          "bn": "হ্যাঁ, A আইটেম 10টি বাক্স রওনা করার জন্য প্রস্তুত।",
+          "en": "Yes, 10 boxes of item A are ready for shipment."
+        },
+        {
+          "speaker": "기사",
+          "ko": "운송장을 주시겠어요?",
+          "bn": "ওয়ে বিলটা দিতে পারেন?",
+          "en": "Could you give me the waybill?"
+        },
+        {
+          "speaker": "담당자",
+          "ko": "여기 운송장과 라벨입니다. 트럭에 적재해 주세요.",
+          "bn": "এখানে ওয়ে বিল ও লেবেল। ট্রাকে লোড করুন।",
+          "en": "Here are the waybill and labels. Please load them onto the truck."
+        },
+        {
+          "speaker": "기사",
+          "ko": "확인했습니다. 출발은 몇 시인가요?",
+          "bn": "বুঝেছি। রওনা কখন হবে?",
+          "en": "Got it. What time is departure?"
+        },
+        {
+          "speaker": "담당자",
+          "ko": "오후 2시에 출발합니다.",
+          "bn": "বিকাল 2টায় রওনা হবে।",
+          "en": "Departure is at 2 PM."
+        }
+      ]
+    },
+    {
+      "titleBn": "팀장과 포장원의 수량 문제",
+      "titleEn": "Supervisor and Packer: Quantity Issue",
+      "lines": [
+        {
+          "speaker": "팀장",
+          "ko": "포장 담당자님, 박스 수량이 맞나요?",
+          "bn": "সুপারভাইজার: প্যাকিং স্টাফ, কি বাক্সের পরিমাণ মিলছে?",
+          "en": "Supervisor: Packer, is the box quantity correct?"
+        },
+        {
+          "speaker": "포장원",
+          "ko": "아, 한 상자가 빠진 것 같습니다. 다시 확인하겠습니다.",
+          "bn": "প্যাকিং স্টাফ: ওহ, একটি বাক্স অনুপস্থিত মনে হচ্ছে। আমি আবার চেক করব।",
+          "en": "Packer: Oh, one box seems missing. I'll check again."
+        },
+        {
+          "speaker": "팀장",
+          "ko": "수량을 확인하면 알려 주세요. 그래야 출하할 수 있습니다.",
+          "bn": "সুপারভাইজার: পরিমাণ নিশ্চিত হলে জানান। তখনই রওনা করা যাবে।",
+          "en": "Supervisor: Let me know after checking the quantity. Then we can ship."
+        },
+        {
+          "speaker": "포장원",
+          "ko": "네, 지금 검사하겠습니다.",
+          "bn": "প্যাকিং স্টাফ: ঠিক আছে, আমি এখন পরীক্ষা করছি।",
+          "en": "Packer: Okay, I'll inspect now."
+        },
+        {
+          "speaker": "팀장",
+          "ko": "감사합니다. 문제가 있으면 보고하세요.",
+          "bn": "সুপারভাইজার: ধন্যবাদ। সমস্যা হলে রিপোর্ট করুন।",
+          "en": "Supervisor: Thank you. Report if there's any problem."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 '파렛트'의 의미는 무엇인가요?",
+      "questionKo": "다음 중 '파렛트'의 의미는 무엇인가요?",
+      "options": [
+        "트럭",
+        "포장지",
+        "나무 받침대(팔레트)",
+        "송장"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "파렛트는 상자를 쌓아 올리는 나무나 플라스틱 받침대를 의미합니다—তৈরি উত্তর: 2."
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "문장 '수량을 확인해야 해요.'의 뜻은?",
+      "questionKo": "문장 '수량을 확인해야 해요.'의 뜻은?",
+      "options": [
+        "수량을 바꿔야 한다",
+        "수량을 확인해 달라고 요청한다",
+        "수량을 확인해야 한다",
+        "수량이 충분하다"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "'-야 해요'는 해야 한다는 의미입니다—সঠিক উত্তর: 2."
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 '위험물'에 해당하는 것은?",
+      "questionKo": "다음 중 '위험물'에 해당하는 것은?",
+      "options": [
+        "폭발성 물질",
+        "종이 상자",
+        "일반 식품",
+        "포장 테이프"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "폭발성 물질은 위험물의 예입니다—উত্তর: 0."
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "문장 '라벨을 붙여 주세요.'에서 '~아/어 주세요'의 용법은?",
+      "questionKo": "문장 '라벨을 붙여 주세요.'에서 '~아/어 주세요'의 용법은?",
+      "options": [
+        "명령",
+        "과거",
+        "부정",
+        "정중한 요청"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "'~아/어 주세요'는 공손한 요청 표현입니다—সঠিক উত্তর: 3."
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "창고에 재고가 충분하면 어떤 문장을 사용하나요?",
+      "questionKo": "창고에 재고가 충분하면 어떤 문장을 사용하나요?",
+      "options": [
+        "재고가 부족합니다.",
+        "재고가 충분합니다.",
+        "재고를 검사하세요.",
+        "재고를 반송하세요."
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "충분함을 표현하려면 '재고가 충분합니다.'를 사용합니다—উত্তর: 1."
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "빈칸에 알맞은 말을 고르세요: '운송장을 _____ 주시겠어요?'",
+      "questionKo": "빈칸에 알맞은 말을 고르세요: '운송장을 _____ 주시겠어요?'",
+      "options": [
+        "붙여",
+        "보여",
+        "확인",
+        "도착"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'운송장을 보여 주시겠어요?'가 자연스러운 표현입니다—সঠিক উত্তর: 1."
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "빈칸에 알맞은 말을 고르세요: '수량이 맞으면 출하합니다.'에서 '맞으면'은 무슨 의미인가요?",
+      "questionKo": "빈칸에 알맞은 말을 고르세요: '수량이 맞으면 출하합니다.'에서 '맞으면'은 무슨 의미인가요?",
+      "options": [
+        "일치하면",
+        "도착하면",
+        "무겁다면",
+        "포장하면"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'맞다'는 여기서 일치한다는 의미입니다—উত্তর: 0."
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "빈칸에 알맞은 단어를 고르세요: '박스 무게가 너무 _____.'",
+      "questionKo": "빈칸에 알맞은 단어를 고르세요: '박스 무게가 너무 _____.'",
+      "options": [
+        "가볍습니다",
+        "무겁습니다",
+        "깨끗합니다",
+        "길습니다"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "무게에 대해 '무겁습니다'가 자연스럽습니다—সঠিক উত্তর: 1."
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "다음 한글 단어와 의미를 연결하세요.",
+      "questionKo": "다음 한글 단어와 의미를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "포장",
+          "right": "প্যাকিং"
+        },
+        {
+          "left": "도착일",
+          "right": "আগমন তারিখ"
+        },
+        {
+          "left": "라벨",
+          "right": "লেবেল"
+        },
+        {
+          "left": "수량",
+          "right": "পরিমাণ"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি জোড়া পাঠে শেখানো শব্দের বাংলা অর্থের সঙ্গে মিলছে—উত্তর তালিকা আছে তাই 0।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "다음 한글 단어와 영어 뜻을 연결하세요.",
+      "questionKo": "다음 한글 단어와 영어 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "송장",
+          "right": "invoice"
+        },
+        {
+          "left": "창고",
+          "right": "warehouse"
+        },
+        {
+          "left": "파렛트",
+          "right": "pallet"
+        },
+        {
+          "left": "운송장",
+          "right": "tracking number"
+        },
+        {
+          "left": "출발일",
+          "right": "departure date"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি জোড়া পাঠের ভোকাবুলারি অনুযায়ী মিলেছে—তাই উত্তর 0।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ে সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음 글을 읽고 질문에 답하세요.",
+      "passage": "오늘 출하할 물품은 유통기한이 있는 식품입니다. 유통기한을 다시 확인하고 라벨을 붙인 후 출고하세요.",
+      "options": [
+        "라벨을 붙이지 않아도 됩니다.",
+        "유통기한을 확인하고 출고해야 합니다.",
+        "무게만 재면 됩니다.",
+        "컨테이너를 청소하세요."
+      ],
+      "answer": 1,
+      "explanationBn": "পাঠে বলা আছে 유통기한 확인하고 라벨 붙여서 출고 করতে, তাই সঠিক উত্তর হল 1।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ে সঠিক উত্তর চিহ্নিত করুন।",
+      "questionKo": "다음 글을 읽고 질문에 답하세요.",
+      "passage": "파렛트에 상자를 모두 올렸습니다. 이제 운송장을 작성하고 트럭에 적재하세요.",
+      "options": [
+        "운송장을 작성해야 합니다.",
+        "포장을 시작해야 합니다.",
+        "창고 문을 닫아야 합니다.",
+        "검사를 나중에 합니다."
+      ],
+      "answer": 0,
+      "explanationBn": "글에 '이제 운송장을 작성하고 트럭에 적재하세요'라고 되어 있으므로 정답은 0।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "পাঠ অনুসারে সঠিক উত্তর দিন।",
+      "questionKo": "다음 글을 읽고 질문에 답하세요.",
+      "passage": "검사를 통과하지 못한 제품은 반송 처리합니다. 반송 전에 상태를 사진으로 기록하세요.",
+      "options": [
+        "검사 없이 출하합니다.",
+        "사진을 찍을 필요가 없습니다.",
+        "검사 통과 못하면 반송합니다.",
+        "유통기한을 연장합니다."
+      ],
+      "answer": 2,
+      "explanationBn": "পাঠে স্পষ্ট: 검사에 통과하지 못하면 반송한다고 আছে—উত্তর 2।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ে সঠিক উত্তর নির্বাচন করুন।",
+      "questionKo": "다음 글을 읽고 질문에 답하세요.",
+      "passage": "위험물은 별도로 라벨을 붙이고 안전 지침을 따라 적재해야 합니다.",
+      "options": [
+        "위험물은 일반 상자에 넣어도 됩니다.",
+        "위험물은 라벨을 붙여야 합니다.",
+        "위험물은 포장하지 않습니다.",
+        "위험물은 무게를 재지 않습니다."
+      ],
+      "answer": 1,
+      "explanationBn": "글에 위험물은 라벨을 붙이라고 되어 있으므로 উত্তর은 1।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ে সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음 글을 읽고 질문에 답하세요.",
+      "passage": "출발일은 내일 아침 9시입니다. 기사에게 운송장과 리스트를 전달해 주세요.",
+      "options": [
+        "출발일은 오늘입니다.",
+        "기사에게 운송장과 리스트를 전달해야 합니다.",
+        "운송장을 전달할 필요가 없습니다.",
+        "도착일을 지금 알려주세요."
+      ],
+      "answer": 1,
+      "explanationBn": "পাঠে বলা আছে 운송장과 리스트 기사에게 전달 করতে—সঠিক উত্তর 1।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "다음 대화를 듣고 질문에 답하세요। (오디오 대본을 읽음)",
+      "questionKo": "다음 음성을 듣고 질문에 답하세요.",
+      "passage": "담당자: 수량을 다시 확인해 주세요.\n포장원: 네, 지금 확인하겠습니다.\n담당자: 확인되면 저에게 알려 주세요.",
+      "options": [
+        "포장원이 수량을 확인하기로 했다.",
+        "담당자가 출발일을 물었다.",
+        "운송장을 작성한다고 말했다.",
+        "컨테이너를 청소한다고 말했다."
+      ],
+      "answer": 0,
+      "explanationBn": "대본에서 포장원이 '지금 확인하겠습니다'라고 했으므로 0번이 맞습니다।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "음성을 듣고 질문에 맞는 답을 선택하세요।",
+      "questionKo": "다음 음성을 듣고 질문에 답하세요.",
+      "passage": "기사: 오늘 출발은 몇 시인가요?\n담당자: 오후 2시에 출발합니다.\n기사: 알겠습니다.",
+      "options": [
+        "출발은 오전입니다.",
+        "출발은 오후 2시입니다.",
+        "기사님이 운송장을 작성했습니다.",
+        "포장은 끝나지 않았습니다."
+      ],
+      "answer": 1,
+      "explanationBn": "담당자가 '오후 2시에 출발합니다'라고 말했으므로 정답은 1।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "다음 음성을 듣고 맞는 선택지를 고르세요।",
+      "questionKo": "다음 음성을 듣고 질문에 답하세요.",
+      "passage": "팀장: 박스 한 개가 빠졌습니다. 다시 확인해 주세요.\n포장원: 네, 바로 찾아보겠습니다.",
+      "options": [
+        "모든 박스가 준비되었다.",
+        "박스 하나가 빠졌다.",
+        "운송장이 없다.",
+        "컨테이너가 도착했다."
+      ],
+      "answer": 1,
+      "explanationBn": "대본에 '박스 한 개가 빠졌습니다'라고 하므로 정답은 1।"
+    }
+  ]
+}

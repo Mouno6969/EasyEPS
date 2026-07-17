@@ -1,0 +1,671 @@
+{
+  "chapter": 56,
+  "slug": "industrial-accidents-and-first-aid",
+  "title": {
+    "ko": "산업 재해와 응급 처치",
+    "bn": "শিল্প দুর্ঘটনা ও প্রাথমিক চিকিৎসা",
+    "en": "Industrial Accidents and First Aid"
+  },
+  "category": "safety",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কারখানার সাধারণ দুর্ঘটনা ও সাধারণ ক্ষতসমূহ চিনতে পারা।",
+      "সহকর্মীকে দ্রুত এবং নিরাপদভাবে রিপোর্ট করা ও সুপারভাইজারকে জানানো শিখা।",
+      "সরল প্রাথমিক চিকিৎসার ফলে কী করতে হবে তা জানবে (উদাহরণ: রক্তপাত চাপানো, পুড়ে গেলে ঠান্ডা পানি ব্যবহার)।",
+      "নিরাপত্তা সাইন ও জরুরি নম্বর অনুসরণ করার গুরুত্ব বুঝা।"
+    ],
+    "en": [
+      "Recognize common workplace accidents and basic injuries.",
+      "Report incidents quickly and inform a supervisor safely.",
+      "Know simple first-aid actions (e.g., apply pressure for bleeding, cool burns with water).",
+      "Understand the importance of safety signs and contacting emergency services."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "산업 재해",
+      "romanization": "saneop jaehae",
+      "bn": "শিল্প দুর্ঘটনা",
+      "en": "industrial accident",
+      "pos": "noun",
+      "example": {
+        "ko": "공장에서 작은 산업 재해가 발생했습니다.",
+        "bn": "কারখানায় একটি ছোট শিল্প দুর্ঘটনা ঘটেছে।",
+        "en": "A small industrial accident happened at the factory."
+      }
+    },
+    {
+      "ko": "안전모",
+      "romanization": "anjeonmo",
+      "bn": "নিরাপত্তা হেলমেট",
+      "en": "safety helmet",
+      "pos": "noun",
+      "example": {
+        "ko": "작업할 때 안전모를 꼭 착용하세요.",
+        "bn": "কাজ করার সময় নিরাপত্তা হেলমেট ব্যবহার করুন।",
+        "en": "Please wear a safety helmet while working."
+      }
+    },
+    {
+      "ko": "보호장갑",
+      "romanization": "boho janggap",
+      "bn": "প্রটেকটিভ গ্লাভস",
+      "en": "protective gloves",
+      "pos": "noun",
+      "example": {
+        "ko": "화학 물질을 다룰 때 보호장갑을 씁니다.",
+        "bn": "রাসায়নিক সামগ্রী সামলানোর সময় প্রটেকটিভ গ্লাভস পরুন।",
+        "en": "Wear protective gloves when handling chemicals."
+      }
+    },
+    {
+      "ko": "안전화",
+      "romanization": "anjeonhwa",
+      "bn": "নিরাপত্তা বুট",
+      "en": "safety shoes",
+      "pos": "noun",
+      "example": {
+        "ko": "무거운 물건을 들 때 안전화를 신으세요.",
+        "bn": "ওজন বাড়ানোর সময় নিরাপত্তা বুট ব্যবহার করুন।",
+        "en": "Wear safety shoes when lifting heavy objects."
+      }
+    },
+    {
+      "ko": "비상구",
+      "romanization": "bisanggu",
+      "bn": "জরুরি পথ",
+      "en": "emergency exit",
+      "pos": "noun",
+      "example": {
+        "ko": "비상 시 비상구 위치를 확인하세요.",
+        "bn": "জরুরী পরিস্থিতিতে জরুরি পথের অবস্থান পরীক্ষা করুন।",
+        "en": "Check the location of the emergency exit in case of emergency."
+      }
+    },
+    {
+      "ko": "경고 표지",
+      "romanization": "gyeonggo pyoji",
+      "bn": "সতর্কীকরণ চিহ্ন",
+      "en": "warning sign",
+      "pos": "noun",
+      "example": {
+        "ko": "경고 표지를 보면 속도를 줄이세요.",
+        "bn": "সতর্কীকরণ চিহ্ন দেখলে গতি কমান।",
+        "en": "Slow down when you see a warning sign."
+      }
+    },
+    {
+      "ko": "응급 처치",
+      "romanization": "eunggeup cheochi",
+      "bn": "প্রাথমিক চিকিৎসা",
+      "en": "first aid",
+      "pos": "noun",
+      "example": {
+        "ko": "응급 처치는 전문가가 오기 전까지 도움이 됩니다.",
+        "bn": "পেশাদার আসার আগে প্রাথমিক চিকিৎসা সহায়ক।",
+        "en": "First aid helps until a professional arrives."
+      }
+    },
+    {
+      "ko": "출혈",
+      "romanization": "chulhyeol",
+      "bn": "রক্তপাত",
+      "en": "bleeding",
+      "pos": "noun",
+      "example": {
+        "ko": "출혈이 있으면 깨끗한 천으로 압박하세요.",
+        "bn": "রক্তপাত হলে পরিষ্কার কাপড় দিয়ে চাপ দিন।",
+        "en": "If there's bleeding, press with a clean cloth."
+      }
+    },
+    {
+      "ko": "화상",
+      "romanization": "hwasang",
+      "bn": "দগ্ধ/জ্বলন",
+      "en": "burn",
+      "pos": "noun",
+      "example": {
+        "ko": "작은 화상은 흐르는 물로 식히세요.",
+        "bn": "ছোট জ্বলন হলে বয়ে যাওয়া ঠান্ডা পানিতে ঠান্ডা করুন।",
+        "en": "Cool a small burn with running water."
+      }
+    },
+    {
+      "ko": "골절",
+      "romanization": "goljeol",
+      "bn": "হাড়ভাঙ্গা",
+      "en": "fracture",
+      "pos": "noun",
+      "example": {
+        "ko": "심한 통증과 변형이 있으면 골절을 의심하세요.",
+        "bn": "তীব্র ব্যথা ও বিকৃতির ক্ষেত্রে হাড়ভাঙ্গা সন্দেহ করুন।",
+        "en": "Suspect a fracture if there's severe pain and deformity."
+      }
+    },
+    {
+      "ko": "미끄러짐",
+      "romanization": "mikkeureojim",
+      "bn": "পিষে পড়া/পপড়ানো",
+      "en": "slip (fall)",
+      "pos": "noun",
+      "example": {
+        "ko": "바닥이 젖으면 미끄러짐 주의 표지판이 필요합니다.",
+        "bn": "মেঝে ভেজা থাকলে প滑ে যাওয়ার সতর্কতা চিহ্ন দরকার।",
+        "en": "If the floor is wet, a slip caution sign is needed."
+      }
+    },
+    {
+      "ko": "기계",
+      "romanization": "gigae",
+      "bn": "যন্ত্র/মেশিন",
+      "en": "machine",
+      "pos": "noun",
+      "example": {
+        "ko": "기계 점검 전 전원을 끄세요.",
+        "bn": "মেশিন পরীক্ষা করার আগে শক্তি বন্ধ করুন।",
+        "en": "Turn off power before inspecting the machine."
+      }
+    },
+    {
+      "ko": "신고하다",
+      "romanization": "singohada",
+      "bn": "অভিযোগ/রিপোর্ট করা",
+      "en": "to report",
+      "pos": "verb",
+      "example": {
+        "ko": "사고가 나면 즉시 관리자에게 신고하세요.",
+        "bn": "দুর্ঘটনা হলে তাৎক্ষণিকভাবে ম্যানেজারকে জানান।",
+        "en": "Report the accident to the manager immediately."
+      }
+    },
+    {
+      "ko": "관리자",
+      "romanization": "gwanrija",
+      "bn": "ম্যানেজার/প্রশাসক",
+      "en": "supervisor/manager",
+      "pos": "noun",
+      "example": {
+        "ko": "관리자에게 위험 지역을 알렸습니다.",
+        "bn": "ম্যানেজারকে ঝুঁকির অঞ্চল জানিয়েছি।",
+        "en": "I informed the supervisor about the hazard area."
+      }
+    },
+    {
+      "ko": "구조대",
+      "romanization": "gujodae",
+      "bn": "রেসকিউ টীম",
+      "en": "rescue team",
+      "pos": "noun",
+      "example": {
+        "ko": "큰 사고면 구조대를 요청해야 합니다.",
+        "bn": "বড় দুর্ঘটনার ক্ষেত্রে রেসকিউ টীমকে ডাকুন।",
+        "en": "Call the rescue team for a major accident."
+      }
+    },
+    {
+      "ko": "응급실",
+      "romanization": "eunggeupsil",
+      "bn": "ইমার্জেন্সি রুম",
+      "en": "emergency room",
+      "pos": "noun",
+      "example": {
+        "ko": "심한 부상은 응급실로 이송해야 합니다.",
+        "bn": "গুরুতর আঘাত হলে ইমার্জেন্সি রুমে নেয়া উচিত।",
+        "en": "Severe injuries should be taken to the emergency room."
+      }
+    },
+    {
+      "ko": "119",
+      "romanization": "ilbaegilsipguk",
+      "bn": "কোরা ওয়ান নাইন-নাইন (জরুরি নম্বর)",
+      "en": "119 (emergency number)",
+      "pos": "noun",
+      "example": {
+        "ko": "위급하면 119에 전화하세요.",
+        "bn": "জরুরী হলে 119-এ কল করুন।",
+        "en": "Call 119 in an emergency."
+      }
+    },
+    {
+      "ko": "흉터",
+      "romanization": "hyungteo",
+      "bn": "দাগ/স্কার",
+      "en": "scar",
+      "pos": "noun",
+      "example": {
+        "ko": "작은 상처는 잘 소독하면 흉터가 줄어요.",
+        "bn": "ছোট ক্ষত পরিষ্কার রাখলে দাগ কমে।",
+        "en": "Keeping a small wound clean reduces scarring."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "~아/어야 하다",
+      "titleBn": "~아/어야 하다 (কর্তব্য/প্রয়োজন)",
+      "explanationBn": "কোনো কাজ করা প্রয়োজন হলে এই সূত্র ব্যবহার করা হয়। উদাহরণ: 신고해야 한다।",
+      "explanationEn": "Use this to express necessity or obligation. Example: You must report.",
+      "examples": [
+        {
+          "ko": "사고가 나면 관리자에게 신고해야 합니다.",
+          "bn": "দুর্ঘটনা হলে ম্যানেজারকে জানাতে হবে।",
+          "en": "If an accident happens, you must inform the manager."
+        },
+        {
+          "ko": "출혈이 있으면 압박해야 해요.",
+          "bn": "রক্তপাত হলে চাপ দিতে হবে।",
+          "en": "If there is bleeding, you must apply pressure."
+        }
+      ]
+    },
+    {
+      "pattern": "~지 마세요",
+      "titleBn": "~지 마세요 (নির্দেশ/নিষেধ)",
+      "explanationBn": "কোনো কাজ করতে না বলার সময় ব্যবহার করুন। উদাহরণ: 기계를 만지지 마세요.",
+      "explanationEn": "Use this to tell someone not to do something. Example: Do not touch the machine.",
+      "examples": [
+        {
+          "ko": "젖은 바닥에서 뛰지 마세요.",
+          "bn": "ভেজা মেঝেতে দৌড়াবেন না।",
+          "en": "Do not run on a wet floor."
+        },
+        {
+          "ko": "심한 화상이면 스스로 약을 바르지 마세요.",
+          "bn": "গুরুতর পুড়ে গেলে নিজেরাই ওষুধ লাগাবেন না।",
+          "en": "If the burn is severe, do not apply medicine yourself."
+        }
+      ]
+    },
+    {
+      "pattern": "~(으)면 좋겠다",
+      "titleBn": "~(으)면 좋겠다 (আশা/পরামর্শ)",
+      "explanationBn": "কিছু আশা বা নম্র পরামর্শ জানাতে ব্যবহার করা হয়। উদাহরণ: 빨리 구조대가 오면 좋겠다.",
+      "explanationEn": "Use to express a hope or a polite suggestion. Example: I hope the rescue team arrives soon.",
+      "examples": [
+        {
+          "ko": "관리자가 빨리 오면 좋겠습니다.",
+          "bn": "আশা করি ম্যানেজার তাড়াতাড়ি আসবে।",
+          "en": "I hope the supervisor comes quickly."
+        },
+        {
+          "ko": "사람들이 안전모를 쓰면 좋겠어요.",
+          "bn": "আশা করি সবাই নিরাপত্তা হেলমেট পরবে।",
+          "en": "I hope people wear safety helmets."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "작은 화상 발생 보고",
+      "titleEn": "Reporting a small burn",
+      "lines": [
+        {
+          "speaker": "근로자",
+          "ko": "저, 손을 약간 데였어요.",
+          "bn": "আমি, হাতে একটু দগ্ধ হয়ে গেছে।",
+          "en": "I burned my hand a little."
+        },
+        {
+          "speaker": "동료",
+          "ko": "어디요? 물로 식히고 관리자를 불러요.",
+          "bn": "কোথায়? পানি দিয়ে ঠান্ডা করুন এবং ম্যানেজারকে বলুন।",
+          "en": "Where? Cool it with water and call the manager."
+        },
+        {
+          "speaker": "근로자",
+          "ko": "네, 흐르는 물에 식히고 있어요.",
+          "bn": "ঠিক আছে, ঝরানো পানি দিয়ে ঠান্ডা করছি।",
+          "en": "Okay, I'm cooling it under running water."
+        },
+        {
+          "speaker": "동료",
+          "ko": "응급 처치 키트에서 소독약 주세요.",
+          "bn": "প্রাথমিক চিকিৎসা কিট থেকে ডিটর্জেন্ট আনুন।",
+          "en": "Get disinfectant from the first-aid kit."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "상처 상태 알려줘요. 필요하면 병원에 가자.",
+          "bn": "ক্ষত কেমন তা বলুন। প্রয়োজন হলে হাসপাতালে যাই।",
+          "en": "Tell me the wound's condition. If needed, we'll go to the hospital."
+        }
+      ]
+    },
+    {
+      "titleBn": "기계 손상과 응급 보고",
+      "titleEn": "Machine injury and emergency report",
+      "lines": [
+        {
+          "speaker": "작업자",
+          "ko": "기계에 손가락이 끼었어요!",
+          "bn": "মেশিনে আঙুল কেটে পড়েছে!",
+          "en": "My finger got caught in the machine!"
+        },
+        {
+          "speaker": "동료",
+          "ko": "기계를 즉시 정지시키고 119에 연락해요.",
+          "bn": "মেশিন দ্রুত বন্ধ করে 119-এ কল করুন।",
+          "en": "Stop the machine immediately and call 119."
+        },
+        {
+          "speaker": "작업자",
+          "ko": "출혈이 심해요. 동료가 압박하고 있어요.",
+          "bn": "রক্তপাত বেশী। সহকর্মী চাপ দিচ্ছে।",
+          "en": "The bleeding is heavy. A coworker is applying pressure."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "현장을 안전하게 하고 구조대를 기다립시다.",
+          "bn": "জায়গা নিরাপদ করুন এবং রেসকিউ টীমের অপেক্ষা করুন।",
+          "en": "Secure the area and wait for the rescue team."
+        },
+        {
+          "speaker": "구조대",
+          "ko": "119 구조대가 곧 도착합니다. 환자를 편하게 해주세요.",
+          "bn": "119 রেসকিউ টীম শীঘ্রই আসছে। রোগীকে আরামদায়ক রাখুন।",
+          "en": "The 119 rescue team will arrive soon. Keep the patient comfortable."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "রক্তপাত হলে প্রথমে কি করবেন?",
+      "questionKo": "출혈이 있으면 먼저 무엇을 해야 합니까?",
+      "options": [
+        "깨끗한 천으로 압박한다",
+        "즉시 약을 바른다",
+        "환자를 혼자 집으로 보낸다",
+        "기계를 다시 켠다"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "রক্তপাত হলে প্রথম কাজ হলো পরিষ্কার কাপড় দিয়ে চাপ দেওয়া — এটি রক্ত বন্ধ করতে সাহায্য করে।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "작업장에서 관리자에게 사고를 알려야 하는 이유는?",
+      "questionKo": "작업장에서 사고를 관리자에게 알려야 하는 이유는 무엇입니까?",
+      "options": [
+        "안전 조치를 조정하고 보고를 하기 위해",
+        "곧장 집에 가기 위해",
+        "동료를 혼내기 위해",
+        "기계를 다시 사용하기 위해"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "ম্যানেজারকে জানালে নিরাপত্তা ব্যবস্থা নেওয়া এবং অফিসিয়াল রিপোর্ট করা যায়।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "작은 화상이 발생하면 우선 무엇을 합니까?",
+      "questionKo": "작은 화상이 생기면 우선 무엇을 해야 합니까?",
+      "options": [
+        "따뜻한 물에 담근다",
+        "상처를 문지른다",
+        "흐르는 찬물로 식힌다",
+        "즉시 기름을 바른다"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "ছোট পুড়ে গেলে প্রথমে ঠান্ডা ঝরনা বা চলমান ঠান্ডা পানি দিয়ে ঠান্ডা করা উচিত।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "비상구 표지는 무엇을 나타냅니까?",
+      "questionKo": "비상구 표지는 무엇을 나타냅니까?",
+      "options": [
+        "화장실 위치",
+        "정문 위치",
+        "긴급 탈출 경로",
+        "휴게실 위치"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "비상구 표지는 জরুরি অবস্থায় নিরাপদভাবে বের হতে হবে এমন পথ নির্দেশ করে।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "긴급 상황에서 한국의 긴급 전화번호는 무엇입니까?",
+      "questionKo": "긴급 상황에서 한국의 긴급 전화번호는 무엇입니까?",
+      "options": [
+        "119",
+        "911",
+        "110",
+        "123"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "한국에서 화재나 응급의료 등 긴급 상황의 대표 번호는 119입니다."
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "기계에 사고가 나면 먼저 ____하세요.",
+      "questionKo": "기계에 사고가 나면 먼저 ____하세요.",
+      "options": [
+        "무시",
+        "돌려",
+        "정지시키",
+        "보호"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "기계 사고 시 먼저 기계를 정지시켜 추가 위험을 막아야 합니다."
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "작업 중 바닥이 젖으면 표지를 ____ 주세요.",
+      "questionKo": "작업 중 바닥이 젖으면 표지를 ____ 주세요.",
+      "options": [
+        "숨기",
+        "제거",
+        "설치",
+        "덮어"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "젖은 바닥에는 위험 표시를 설치하여 다른 사람들에게 경고해야 합니다."
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "응급 상황에서는 관리자에게 ____ 하세요.",
+      "questionKo": "응급 상황에서는 관리자에게 ____ 하세요.",
+      "options": [
+        "보내",
+        "전화하지",
+        "보고하",
+        "경고"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "응급 상황에서는 관리자에게 사건을 보고해야 합니다."
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "다음 한국어 단어와 বাংলা 뜻을 연결하세요.",
+      "questionKo": "다음 한국어 단어와 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "안전모",
+          "right": "নিরাপত্তা হেলমেট"
+        },
+        {
+          "left": "출혈",
+          "right": "রক্তপাত"
+        },
+        {
+          "left": "비상구",
+          "right": "জরুরি পথ"
+        },
+        {
+          "left": "응급 처치",
+          "right": "প্রাথমিক চিকিৎসা"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতি জোড়া হল সরাসরি অনুবাদ: 안전모=নিরাপত্তা হেলমেট, 출혈=রক্তপাত ইত্যাদি।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "다음 행동과 권장 조치를 연결하세요.",
+      "questionKo": "다음 행동과 권장 조치를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "화상",
+          "right": "흐르는 물로 식히기"
+        },
+        {
+          "left": "기계 사고",
+          "right": "기계 정지 및 관리자 신고"
+        },
+        {
+          "left": "미끄러짐",
+          "right": "표지 설치 및 바닥 건조"
+        },
+        {
+          "left": "심한 출혈",
+          "right": "압박하고 119 연락"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি আচরণে সঠিক প্রাথমিক ব্যবস্থাই মেলে: 화상=물로 식히기, 출혈=압박 এবং 119 যোগাযোগ।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে প্রশ্নের উত্তর দিন। 안전 표지의 목적은 무엇입니까?",
+      "questionKo": "다음 글을 읽고 물음에 답하세요: 작업장에는 '비상구'와 '경고 표지'가 있습니다. 표지는 사람들에게 위험을 알리고 안전한 행동을 안내합니다. 표지 없이는 빠른 대피가 어렵습니다. 표지의 목적은 무엇입니까?",
+      "passage": "작업장에는 '비상구'와 '경고 표지'가 있습니다. 표지는 사람들에게 위험을 알리고 안전한 행동을 안내합니다. 표지 없이는 빠른 대피가 어렵습니다.",
+      "options": [
+        "사람들에게 위험을 알리고 안전 행동을 안내한다",
+        "작업 속도를 높이기 위해 설치한다",
+        "제품 광고를 위해 사용한다",
+        "청소 스케줄을 표시한다"
+      ],
+      "answer": 0,
+      "explanationBn": "প্যাসেজে বলা আছে 표지는 মানুষকে ঝুঁকি জানায় এবং নিরাপদ আচরণ নির্দেশ করে।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে প্রশ্নের উত্তর দিন। 응급 처치는 언제 সাহায্য করে?",
+      "questionKo": "다음 글을 읽고 물음에 답하세요: 응급 처치는 전문가가 올 때까지 환자에게 임시로 도움을 주는 것입니다. 심한 응급 상황에서는 119에 연락해야 합니다.",
+      "passage": "응급 처치는 전문가가 올 때까지 환자에게 임시로 도움을 주는 것입니다. 심한 응급 상황에서는 119에 연락해야 합니다.",
+      "options": [
+        "전문가가 오기 전까지",
+        "전문가가 떠난 후에",
+        "항상 병원에 가지 않고",
+        "기계 수리할 때"
+      ],
+      "answer": 0,
+      "explanationBn": "প্যাসেজে বলা আছে 응급 চিকিৎসা হলো বিশেষজ্ঞ আসা পর্যন্ত সহায়তা করা।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে প্রশ্নের উত্তর দিন। 기계 사고 시 가장 먼저 해야 할 일은 무엇인가요?",
+      "questionKo": "다음 글을 읽고 물음에 답하세요: 기계 근처에서 사고가 나면 1) 기계를 정지하고 2) 출혈이 있으면 압박하고 3) 관리자를 부르세요.",
+      "passage": "기계 근처에서 사고가 나면 1) 기계를 정지하고 2) 출혈이 있으면 압박하고 3) 관리자를 부르세요.",
+      "options": [
+        "관리자에게 먼저 보고한다",
+        "기계를 바로 수리한다",
+        "현장에서 물건을 치운다",
+        "기계를 정지한다"
+      ],
+      "answer": 3,
+      "explanationBn": "প্যাসেজে প্রথম ধাপ হিসেবে বলা আছে 기계를 정지 করতে।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে প্রশ্নের উত্তর দিন। 작은 화상 관리 방법টি কী?",
+      "questionKo": "다음 글을 읽고 물음에 답하세요: 작은 화상은 흐르는 찬물로 식히고 깨끗한 천으로 덮으세요. 심하면 병원으로 갑니다.",
+      "passage": "작은 화상은 흐르는 찬물로 식히고 깨끗한 천으로 덮으세요. 심하면 병원으로 갑니다.",
+      "options": [
+        "즉시 약을 바른다",
+        "흐르는 찬물로 식힌다",
+        "강한 압박을 한다",
+        "바로 불을 붙인다"
+      ],
+      "answer": 1,
+      "explanationBn": "প্যাসেজে বলা আছে ছোট পুড়ে গেলে ঠান্ডা পানি দিয়ে ঠান্ডা করতে।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে প্রশ্নের উত্তর দিন। 작업장에서 신고해야 할 사람은 누구?",
+      "questionKo": "다음 글을 읽고 물음에 답하세요: 사고가 나면 즉시 관리자나 안전 담당자에게 알려야 합니다. 상황이 심하면 119에 연락합니다.",
+      "passage": "사고가 나면 즉시 관리자나 안전 담당자에게 알려야 합니다. 상황이 심하면 119에 연락합니다.",
+      "options": [
+        "관리자나 안전 담당자",
+        "친구만",
+        "제품 고객",
+        "광고 담당자"
+      ],
+      "answer": 0,
+      "explanationBn": "প্যাসেজে বলা আছে 사고 হলে ম্যানেজার বা নিরাপত্তা কর্মকর্তা জানাতে হবে।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "듣고 맞는 답을 고르세요: 누가 119에 전화했나요?",
+      "questionKo": "다음 대화를 듣고 물음에 답하세요: \"동료: 기계에 손가락이 끼었어요!\\n관리자: 기계를 멈추고 119에 연락해요.\\n동료: 제가 지금 전화할게요.\"",
+      "passage": "동료: 기계에 손가락이 끼었어요!\n관리자: 기계를 멈추고 119에 연락해요.\n동료: 제가 지금 전화할게요.",
+      "options": [
+        "관리자",
+        "작업자",
+        "구조대",
+        "동료"
+      ],
+      "answer": 3,
+      "explanationBn": "대화에서 '동료: 제가 지금 전화할게요.'라고 하므로 동료가 전화했습니다."
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "듣고 맞는 답을 고르세요: 화상을 어떻게 처리하라고 했나요?",
+      "questionKo": "다음 문장을 듣고 물음에 답하세요: \"간호사: 작은 화상은 흐르는 물로 식히고 관리자를 부르세요.\"",
+      "passage": "간호사: 작은 화상은 흐르는 물로 식히고 관리자를 부르세요.",
+      "options": [
+        "소독제로 문지르라고",
+        "흐르는 물로 식히라고",
+        "약을 바르고 혼자 두라고",
+        "즉시 주사를 맞으라고"
+      ],
+      "answer": 1,
+      "explanationBn": "말에 '흐르는 물로 식히고'라고 나오므로 두 번째 보기가 맞습니다."
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "듣고 맞는 답을 고르세요: 출혈이 심하면 어떤 조치를 취하라고 했나요?",
+      "questionKo": "다음 문장을 듣고 물음에 답하세요: \"현장소장: 출혈이 심하면 깨끗한 천으로 압박하고 119에 연락하세요.\"",
+      "passage": "현장소장: 출혈이 심하면 깨끗한 천으로 압박하고 119에 연락하세요.",
+      "options": [
+        "천으로 문질러라",
+        "압박하고 119에 연락하라",
+        "기계를 다시 가동하라",
+        "환자를 혼자 두라"
+      ],
+      "answer": 1,
+      "explanationBn": "문장에 '천으로 압박하고 119에 연락하세요'라고 되어 있으므로 두 번째가 정답입니다."
+    }
+  ]
+}

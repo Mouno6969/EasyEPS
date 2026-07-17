@@ -1,0 +1,675 @@
+{
+  "chapter": 57,
+  "slug": "employment-permit-system",
+  "title": {
+    "ko": "고용허가제",
+    "bn": "কর্মসংস্থান অনুমতি ব্যবস্থা",
+    "en": "Employment Permit System"
+  },
+  "category": "laws",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "고용허가제와 관련된 기본 어휘를 이해한다।",
+      "간단한 근로계약과 허가서에 대해 말할 수 있다।",
+      "행정기관에서 간단한 신고나 문의를 할 수 있다।"
+    ],
+    "en": [
+      "Understand basic vocabulary about the Employment Permit System.",
+      "Talk simply about employment contracts and permit documents.",
+      "Make simple reports or inquiries at an agency or workplace."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "고용허가제",
+      "romanization": "goyong heogaje",
+      "bn": "কর্মসংস্থান অনুমতি ব্যবস্থা",
+      "en": "Employment Permit System",
+      "pos": "noun",
+      "example": {
+        "ko": "고용허가제로 합법적으로 일합니다.",
+        "bn": "কর্মসংস্থান অনুমতি ব্যবস্থার মাধ্যমে আইনীভাবে কাজ করি।",
+        "en": "I work legally under the Employment Permit System."
+      }
+    },
+    {
+      "ko": "외국인 근로자",
+      "romanization": "oegugin geunroja",
+      "bn": "বিদেশি কর্মী",
+      "en": "foreign worker",
+      "pos": "noun",
+      "example": {
+        "ko": "회사는 외국인 근로자를 채용했습니다.",
+        "bn": "কোম্পানি একটি বিদেশি কর্মী নিয়োগ করেছে।",
+        "en": "The company hired a foreign worker."
+      }
+    },
+    {
+      "ko": "사업장",
+      "romanization": "saeopjang",
+      "bn": "কর্মক্ষেত্র / ব্যবসা স্থান",
+      "en": "workplace",
+      "pos": "noun",
+      "example": {
+        "ko": "사업장에 출근 시간은 아침 9시입니다.",
+        "bn": "কর্মক্ষেত্রে উপস্থিতির সময় সকাল ৯টা।",
+        "en": "The workplace start time is 9 a.m."
+      }
+    },
+    {
+      "ko": "고용주",
+      "romanization": "goyongju",
+      "bn": "নিয়োগকারী / মালিক",
+      "en": "employer",
+      "pos": "noun",
+      "example": {
+        "ko": "고용주가 근로계약을 줬어요.",
+        "bn": "নিয়োগকারী আমাকে কর্মচুক্তি দিয়েছেন।",
+        "en": "The employer gave me the employment contract."
+      }
+    },
+    {
+      "ko": "근로계약서",
+      "romanization": "geunro gyeyakseo",
+      "bn": "কর্মচুক্তিপত্র",
+      "en": "employment contract (document)",
+      "pos": "noun",
+      "example": {
+        "ko": "근로계약서를 잘 읽고 서명하세요.",
+        "bn": "কর্মচুক্তিপত্র ভাল করে পড়ে স্বাক্ষর করুন।",
+        "en": "Read the employment contract carefully and sign it."
+      }
+    },
+    {
+      "ko": "비자",
+      "romanization": "bija",
+      "bn": "ভিসা",
+      "en": "visa",
+      "pos": "noun",
+      "example": {
+        "ko": "취업 비자를 준비해야 합니다.",
+        "bn": "কাজের ভিসা প্রস্তুত করতে হবে।",
+        "en": "You must prepare a work visa."
+      }
+    },
+    {
+      "ko": "체류",
+      "romanization": "cheryu",
+      "bn": "নিবাস/অবস্থান",
+      "en": "residence/stay",
+      "pos": "noun",
+      "example": {
+        "ko": "체류 기간을 확인하세요.",
+        "bn": "নিবাসের সময়কাল পরীক্ষা করুন।",
+        "en": "Check your period of stay."
+      }
+    },
+    {
+      "ko": "신고",
+      "romanization": "singo",
+      "bn": "রিপোর্ট/দায়ের করা",
+      "en": "report/notify",
+      "pos": "noun",
+      "example": {
+        "ko": "사업장은 변경을 신고해야 합니다.",
+        "bn": "ব্যবসা স্থানের পরিবর্তন রিপোর্ট করতে হবে।",
+        "en": "The workplace must report changes."
+      }
+    },
+    {
+      "ko": "취업",
+      "romanization": "chwieop",
+      "bn": "চাকরি পাওয়া / চাকরি",
+      "en": "employment / getting a job",
+      "pos": "noun",
+      "example": {
+        "ko": "한국에서 취업을 원합니다.",
+        "bn": "দক্ষিণ কোরিয়ায় কাজ করতে চাই।",
+        "en": "I want to work in Korea."
+      }
+    },
+    {
+      "ko": "노동부",
+      "romanization": "nodongbu",
+      "bn": "শ্রম মন্ত্রণালয়",
+      "en": "Ministry of Employment and Labor",
+      "pos": "noun",
+      "example": {
+        "ko": "노동부에 문의하면 안내를 받을 수 있습니다.",
+        "bn": "শ্রম মন্ত্রণালয়ে জিজ্ঞাসা করলে নির্দেশনা পাবেন।",
+        "en": "You can get guidance by asking the Ministry of Employment and Labor."
+      }
+    },
+    {
+      "ko": "허가서",
+      "romanization": "heogaseo",
+      "bn": "অনুমোদন পত্র",
+      "en": "permit document",
+      "pos": "noun",
+      "example": {
+        "ko": "허가서를 사본으로 제출하세요.",
+        "bn": "অনুমোদন পত্রের নকল জমা দিন।",
+        "en": "Submit a copy of the permit."
+      }
+    },
+    {
+      "ko": "취업비자",
+      "romanization": "chwieop bija",
+      "bn": "কাজের ভিসা",
+      "en": "work visa",
+      "pos": "noun",
+      "example": {
+        "ko": "취업비자 신청 절차를 확인합니다.",
+        "bn": "কাজের ভিসা আবেদন প্রক্রিয়া পরীক্ষা করুন।",
+        "en": "Check the work visa application process."
+      }
+    },
+    {
+      "ko": "최저임금",
+      "romanization": "choejeo imgeum",
+      "bn": "ন্যূনতম মজুরি",
+      "en": "minimum wage",
+      "pos": "noun",
+      "example": {
+        "ko": "사업주는 최저임금을 지켜야 합니다.",
+        "bn": "নিয়োগকারীকে ন্যূনতম মজুরি মেনে চলতে হবে।",
+        "en": "The employer must follow the minimum wage."
+      }
+    },
+    {
+      "ko": "주당 근로시간",
+      "romanization": "judang geunro sigan",
+      "bn": "সপ্তাহিক কাজের সময়",
+      "en": "weekly working hours",
+      "pos": "noun",
+      "example": {
+        "ko": "주당 근로시간을 계약서에 적습니다.",
+        "bn": "সপ্তাহিক কাজের সময় চুক্তিতে লেখা আছে।",
+        "en": "The weekly working hours are written in the contract."
+      }
+    },
+    {
+      "ko": "휴가",
+      "romanization": "hyuga",
+      "bn": "ছুটি",
+      "en": "leave / vacation",
+      "pos": "noun",
+      "example": {
+        "ko": "연차 휴가를 언제 사용할지 말하세요.",
+        "bn": "বার্ষিক ছুটি কখন নিবেন তা বলুন।",
+        "en": "Tell when you will use your annual leave."
+      }
+    },
+    {
+      "ko": "사회보험",
+      "romanization": "sahoeboheom",
+      "bn": "সামাজিক বীমা",
+      "en": "social insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "사회보험 가입을 확인하세요.",
+        "bn": "সামাজিক বীমায় আপনার নাম আছে কিনা পরীক্ষা করুন।",
+        "en": "Check if you are enrolled in social insurance."
+      }
+    },
+    {
+      "ko": "계약기간",
+      "romanization": "gyeyak gigan",
+      "bn": "চুক্তির সময়কাল",
+      "en": "contract period",
+      "pos": "noun",
+      "example": {
+        "ko": "계약기간은 1년입니다.",
+        "bn": "চুক্তির সময়কাল ১ বছর।",
+        "en": "The contract period is one year."
+      }
+    },
+    {
+      "ko": "연장",
+      "romanization": "yeonjang",
+      "bn": "বর্ধিতকরণ / সময় বাড়ানো",
+      "en": "extension",
+      "pos": "noun",
+      "example": {
+        "ko": "체류 연장을 신청했습니다.",
+        "bn": "নিবাস বাড়ানোর আবেদন করেছি।",
+        "en": "I applied for a stay extension."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "-아/어요 (정중한 현재)",
+      "titleBn": "현재형 -아요/어요",
+      "explanationBn": "দেশি কথ্য ভঙ্গিতে ব্যবহার করা হয়, সহজভাবে বর্তমানে কি হয় বা কি করেন তা বলার জন্য। উদাহরণসমূহ:\n1) 저는 출근해요. / আমি অফিসে যাই। / I go to work.\n2) 고용주가 서류를 줘요. / নিয়োগকারী কাগজ দেয়। / The employer gives the documents.\n(ব্যবহার: 동사 어간에 -아요 또는 -어요 লাগান।)",
+      "explanationEn": "The polite present tense -아/어요 is used in everyday polite speech to say what someone does now or regularly. Examples:\n1) 저는 출근해요. / I go to work.\n2) 고용주가 서류를 줘요. / The employer gives the documents.\n(Usage: add -아요 or -어요 to the verb stem.)",
+      "examples": [
+        {
+          "ko": "회사에 갑니다.",
+          "bn": "কোম্পানিতে যাই।",
+          "en": "I go to the company."
+        },
+        {
+          "ko": "서류를 확인해요.",
+          "bn": "কাগজ পরীক্ষা করি।",
+          "en": "I check the documents."
+        }
+      ]
+    },
+    {
+      "pattern": "-(으)ㄹ 수 있다/없다",
+      "titleBn": "ক্ষমতা/সম্ভাবনা - পারে / পারে না",
+      "explanationBn": "কোন কাজ করা সম্ভব বা অসম্ভব বোঝাতে। উদাহরণ:\n1) 허가를 받을 수 있어요. / অনুমতি পেতে পারেন। / You can get permission.\n2) 그 일은 지금 못 할 수 있어요. / সেটা এখন করতে পারে না। / It may not be possible now.\n(사용: 동사 어간 뒤에 -을/ㄹ 수 있다/없다 লাগান।)",
+      "explanationEn": "Use -(으)ㄹ 수 있다/없다 to express ability or possibility/impossibility. Examples:\n1) 허가를 받을 수 있어요. / You can get permission.\n2) 그 일은 지금 못 할 수 있어요. / It may not be possible now.\n(Usage: attach -을/ㄹ 수 있다/없다 to the verb stem.)",
+      "examples": [
+        {
+          "ko": "서류를 제출할 수 있어요.",
+          "bn": "কাগজ জমা দিতে পারি।",
+          "en": "I can submit the documents."
+        },
+        {
+          "ko": "오늘 가서 못 받을 수 있어요.",
+          "bn": "আজ গিয়ে নিতে নাও পারি।",
+          "en": "I may not be able to receive it today."
+        }
+      ]
+    },
+    {
+      "pattern": "-아야/어야 하다",
+      "titleBn": "করণ প্রয়োজন - করতে হবে",
+      "explanationBn": "দায়িত্ব বা বাধ্যবাধকতা দেখাতে ব্যবহৃত হয়। উদাহরণ:\n1) 계약서에 서명해야 합니다. / চুক্তিতে স্বাক্ষর করতে হবে। / You must sign the contract.\n2) 허가를 받아야 해요. / অনুমতি নিতে হবে। / You need to get permission.\n(사용: 동사 어간 뒤 -아야/어야 하다 ব্যবহার করুন।)",
+      "explanationEn": "Use -아야/어야 하다 to express obligation or necessity. Examples:\n1) 계약서에 서명해야 합니다. / You must sign the contract.\n2) 허가를 받아야 해요. / You need to get permission.\n(Usage: add -아야/어야 하다 to the verb stem.)",
+      "examples": [
+        {
+          "ko": "휴가 신청서를 내야 해요.",
+          "bn": "ছুটি আবেদনের কাগজ দিতে হবে।",
+          "en": "You must submit a leave request."
+        },
+        {
+          "ko": "비자를 연장해야 합니다.",
+          "bn": "ভিসা বাড়াতে হবে।",
+          "en": "You must extend your visa."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "회사 첫날 인사",
+      "titleEn": "First Day at Work",
+      "lines": [
+        {
+          "speaker": "관리자",
+          "ko": "안녕하세요. 오늘부터 같이 일합니다.",
+          "bn": "নমস্কার। আজ থেকে একসাথে কাজ করবেন।",
+          "en": "Hello. You will work with us from today."
+        },
+        {
+          "speaker": "근로자",
+          "ko": "안녕하세요. 잘 부탁드립니다.",
+          "bn": "নমস্কার। ভালোভাবে দেখবেন।",
+          "en": "Hello. I look forward to working with you."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "근로계약서에 서명하실래요?",
+          "bn": "আপনি কি কর্মচুক্তিতে স্বাক্ষর করবেন?",
+          "en": "Will you sign the employment contract?"
+        },
+        {
+          "speaker": "근로자",
+          "ko": "네, 지금 확인하고 서명하겠습니다.",
+          "bn": "হ্যাঁ, এখন পরীক্ষা করে স্বাক্ষর করব।",
+          "en": "Yes, I will check it now and sign."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "사회보험 가입 서류도 준비해 주세요.",
+          "bn": "সামাজিক বীমার কাগজও প্রস্তুত করে রাখবেন।",
+          "en": "Please also prepare the social insurance documents."
+        }
+      ]
+    },
+    {
+      "titleBn": "출입국 관리 문의",
+      "titleEn": "Inquiry at Immigration/HR",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "체류 연장 관련해서 문의 있어요.",
+          "bn": "নিবাস বর্ধন সম্পর্কে জিজ্ঞাসা আছে।",
+          "en": "I have a question about extending my stay."
+        },
+        {
+          "speaker": "담당자",
+          "ko": "어떤 서류를 준비하셨나요?",
+          "bn": "কোন কাগজপত্র প্রস্তুত করেছেন?",
+          "en": "What documents have you prepared?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "근로계약서와 허가서 사본이 있습니다.",
+          "bn": "কর্মচুক্তি ও অনুমোদনের কপিটি আছে।",
+          "en": "I have copies of the contract and the permit."
+        },
+        {
+          "speaker": "담당자",
+          "ko": "네, 접수 후 안내해 드리겠습니다.",
+          "bn": "ঠিক আছে, দাখিলের পরে নির্দেশ দেব।",
+          "en": "Okay, after submission we'll guide you."
+        },
+        {
+          "speaker": "직원",
+          "ko": "감사합니다. 언제 결과를 알 수 있나요?",
+          "bn": "ধন্যবাদ। কখন ফল জানা যাবে?",
+          "en": "Thank you. When will I know the result?"
+        },
+        {
+          "speaker": "담당자",
+          "ko": "보통 며칠 걸립니다. 전화 드리겠습니다.",
+          "bn": "সাধারণত কয়েক দিন লাগে। ফোন করব।",
+          "en": "Usually it takes a few days. We'll call you."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "‘고용허가제’ শব্দের সঠিক বাংলা অর্থ কোনটা?",
+      "questionKo": "‘고용허가제’의 정확한 의미는?",
+      "options": [
+        "কর্মসংস্থান অনুমতি ব্যবস্থা",
+        "স্বাস্থ্য বীমা",
+        "ভ্রমণ ভিসা",
+        "শিক্ষা প্রোগ্রাম"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "고용허가제는 বিদেশি 근로자가 한국에서 합법적으로 일할 수 있게 하는 'কর্মসংস্থান অনুমতি ব্যবস্থা' বোঝায়।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "‘근로계약서’ কোনটি?",
+      "questionKo": "‘근로계약서’는 무엇인가요?",
+      "options": [
+        "কর্মচুক্তিপত্র",
+        "ভিসার আবেদন ফর্ম",
+        "চিকিৎসা নথি",
+        "শিক্ষাগত সনদ"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "근로계약서는 직원 ও 고용주 간의 노동 조건을 적은 'কর্মচুক্তিপত্র'।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 '사회보험'의 예는?",
+      "questionKo": "다음 중 '사회보험'의 예는?",
+      "options": [
+        "건강보험",
+        "여권",
+        "여행 티켓",
+        "수업 시간표"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "사회보험은 건강보험 등 사회적 보호를 제공하는 제도로, 건강보험이 그 예입니다।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "‘연장’의 의미로 가장 가까운 것은?",
+      "questionKo": "‘연장’의 의미는?",
+      "options": [
+        "বর্ধিতকরণ (extension)",
+        "কাটা (cut)",
+        "বাতিল (cancel)",
+        "শুরু (start)"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "연장은 সময় বা 기간을 늘리는 'বর্ধিতকরণ' অর্থে ব্যবহৃত।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "문장: '허가를 ___ 수 있어요.'에 알맞은 말은?",
+      "questionKo": "문장: '허가를 ___ 수 있어요.'에 알맞은 것은?",
+      "options": [
+        "받을",
+        "먹을",
+        "자전거를",
+        "노래를"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "허가를 '받다'가 맞으며, 형태는 '받을 수 있어요'로 가능성을 표현합니다।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "빈칸에 들어갈 적절한 한국어를 고르세요: ‘______에 서명하세요.’",
+      "questionKo": "빈칸에 알맞은 말은? ‘______에 서명하세요.’",
+      "options": [
+        "근로계약서",
+        "여권번호",
+        "휴가",
+        "주방"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "문맥상 '근로계약서에 서명하세요.'가 자연스럽습니다।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "빈칸: '체류 기간을 ____.'에 들어갈 말은?",
+      "questionKo": "빈칸: '체류 기간을 ____.'에 알맞은 말은?",
+      "options": [
+        "확인하세요",
+        "청소하세요",
+        "춤추세요",
+        "요리하세요"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'체류 기간을 확인하세요.'는 체류 기간을 점검하라는 의미로 적절합니다۔"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "빈칸: '사회보험에 ____.'에 알맞은 말은?",
+      "questionKo": "빈칸: '사회보험에 ____.'에 알맞은 것은?",
+      "options": [
+        "가입하세요",
+        "노래하세요",
+        "멈추세요",
+        "떠나세요"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'사회보험에 가입하세요.'가 적절한 권고 문장입니다।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "한국어 단어와 বাংলা অর্থ를 연결하세요.",
+      "questionKo": "한국어 단어와 한국어 뜻(번역)을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "고용주",
+          "right": "নিয়োগকারী"
+        },
+        {
+          "left": "휴가",
+          "right": "ছুটি"
+        },
+        {
+          "left": "허가서",
+          "right": "অনুমোদন পত্র"
+        },
+        {
+          "left": "최저임금",
+          "right": "ন্যূনতম মজুরি"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "각 단어와 বাংলা 의미를 연결하면 됩니다: 고용주-নিয়োগকারী, 휴가-ছুটি 등।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "계약 관련 용어와 বাংলা 번역을 연결하세요.",
+      "questionKo": "계약 관련 용어와 번역을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "근로계약서",
+          "right": "কর্মচুক্তিপত্র"
+        },
+        {
+          "left": "연장",
+          "right": "বর্ধিতকরণ"
+        },
+        {
+          "left": "체류",
+          "right": "নিবাস"
+        },
+        {
+          "left": "사회보험",
+          "right": "সামাজিক বীমা"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "각 용어의 올바른 번역을 연결하세요।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문에 답하세요: 사업장이 변경되면 어떤 조치를 해야 합니까?",
+      "questionKo": "사업장이 변경되면 어떤 조치를 해야 합니까?",
+      "passage": "사업장이 이동하거나 주소가 바뀌면 사업주는 관련 기관에 신고해야 합니다. 신고로 인하여 허가 정보도 갱신될 수 있습니다.",
+      "options": [
+        "신고해야 한다",
+        "휴가를 간다",
+        "비자를 반납한다",
+        "계약을 취소한다"
+      ],
+      "answer": 0,
+      "explanationBn": "지문에 '사업주는 관련 기관에 신고해야 합니다'라고 되어 있어 정답은 신고입니다।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 옳은 것을 고르세요: 근로계약서에 주로 적는 내용은?",
+      "questionKo": "근로계약서에 주로 적는 내용은 무엇인가요?",
+      "passage": "근로계약서에는 근로시간, 임금, 휴가, 계약기간 등 근로 조건을 적습니다. 서면으로 명확히 기록하는 것이 중요합니다.",
+      "options": [
+        "근로조건",
+        "여행 일정",
+        "의학 기록",
+        "교육 성적"
+      ],
+      "answer": 0,
+      "explanationBn": "지문에서 근로조건(근로시간, 임금 등)을 적는다고 했으므로 정답은 근로조건입니다।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문에 답하세요: 사회보험 가입은 누구에게 도움이 됩니까?",
+      "questionKo": "사회보험 가입은 누구에게 도움이 됩니까?",
+      "passage": "사회보험은 근로자와 그 가족이 의료와 연금 등 기본적인 보호를 받을 수 있도록 돕습니다.",
+      "options": [
+        "근로자와 가족",
+        "여행자",
+        "학생",
+        "관광객"
+      ],
+      "answer": 0,
+      "explanationBn": "본문에 '근로자와 그 가족'이 혜택을 받는다고 했으므로 해당 항목이 정답입니다۔"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 옳지 않은 것을 고르세요: 고용주는 무엇을 지켜야 합니까?",
+      "questionKo": "고용주는 무엇을 지켜야 합니까?",
+      "passage": "사업주는 근로자에게 최저임금을 지급하고 안전한 작업 환경을 마련해야 합니다. 또한 근로계약서를 작성해야 합니다.",
+      "options": [
+        "최저임금을 지급해야 한다",
+        "안전한 작업 환경을 제공해야 한다",
+        "근로계약서를 작성해야 한다",
+        "근로자를 고용하지 않아도 된다"
+      ],
+      "answer": 3,
+      "explanationBn": "본문은 고용주가 지켜야 할 의무를 나열하며 '근로자를 고용하지 않아도 된다'는 내용은 틀립니다۔"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문에 답하세요: 체류 연장을 원하면 무엇을 먼저 준비해야 합니까?",
+      "questionKo": "체류 연장을 위해 먼저 준비할 것은?",
+      "passage": "체류 연장을 위해서는 근로계약서 사본, 허가서 사본 등 관련 서류를 준비하고 기관에 접수해야 합니다.",
+      "options": [
+        "관련 서류 준비",
+        "여행 티켓 구매",
+        "건강검진 예약",
+        "집 계약하기"
+      ],
+      "answer": 0,
+      "explanationBn": "지문에 '관련 서류를 준비하고 접수'라고 되어 있으므로 관련 서류 준비가 정답입니다۔"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "다음 음성을 듣고 질문에 답하세요: 직원이 담당자에게 무엇을 물었나요?",
+      "questionKo": "직원이 담당자에게 무엇을 물었나요?",
+      "passage": "직원: 체류 연장 관련해서 문의 있어요.\n담당자: 어떤 서류를 준비하셨나요?",
+      "options": [
+        "서류 준비에 대해 물었다",
+        "휴가를 신청했다",
+        "임금을 요구했다",
+        "집을 찾는다"
+      ],
+      "answer": 0,
+      "explanationBn": "대화에서 담당자는 '어떤 서류를 준비하셨나요?'라고 물었으므로 서류 준비에 대해 묻는 내용입니다۔"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "다음 음성을 듣고 질문에 답하세요: 관리자가 직원에게 무엇을 요청했나요?",
+      "questionKo": "관리자가 직원에게 무엇을 요청했나요?",
+      "passage": "관리자: 사회보험 가입 서류도 준비해 주세요.\n직원: 알겠습니다.",
+      "options": [
+        "사회보험 서류 준비",
+        "비자 반납",
+        "퇴사서 제출",
+        "휴가 사용"
+      ],
+      "answer": 0,
+      "explanationBn": "관리자가 '사회보험 가입 서류도 준비해 주세요'라고 요청했으므로 해당 선택이 정답입니다।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "다음 음성을 듣고 질문에 답하세요: 담당자가 결과를 어떻게 알려주겠다고 했나요?",
+      "questionKo": "담당자는 결과를 어떻게 알려주겠다고 했나요?",
+      "passage": "담당자: 보통 며칠 걸립니다. 전화 드리겠습니다.",
+      "options": [
+        "전화로 알려주겠다",
+        "편지로 보낸다",
+        "이메일만 보낸다",
+        "직접 방문하라고 한다"
+      ],
+      "answer": 0,
+      "explanationBn": "담당자가 '전화 드리겠습니다'라고 말했으므로 전화로 알려주겠다는 의미입니다۔"
+    }
+  ]
+}

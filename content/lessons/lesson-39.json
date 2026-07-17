@@ -1,0 +1,669 @@
+{
+  "chapter": 39,
+  "slug": "metal-processing",
+  "title": {
+    "ko": "금속 가공",
+    "bn": "ধাতু প্রক্রিয়াকরণ, কাটিং ও ওয়েল্ডিং",
+    "en": "Metal Processing"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কারখানায় সাধারণ ধাতু শব্দভাণ্ডার শেখা এবং ব্যবহার করা।",
+      "সহজ নির্দেশনা বুঝতে এবং বোঝাতে পারা (কাটুন, ওয়েল্ড করুন, নিরাপত্তা)।",
+      "সাধারণ কাজের প্রশ্ন-উত্তর করার যোগ্যতা অর্জন।"
+    ],
+    "en": [
+      "Learn basic metal-processing vocabulary used in workshops.",
+      "Understand and give simple instructions (cut, weld, safety).",
+      "Be able to ask and answer common workplace questions."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "금속",
+      "romanization": "geumsok",
+      "bn": "ধাতু",
+      "en": "metal",
+      "pos": "noun",
+      "example": {
+        "ko": "이 금속은 강도가 높아요.",
+        "bn": "এই ধাতুটির শক্তি বেশি।",
+        "en": "This metal has high strength."
+      }
+    },
+    {
+      "ko": "강철",
+      "romanization": "gangcheol",
+      "bn": "ইস্পাত",
+      "en": "steel",
+      "pos": "noun",
+      "example": {
+        "ko": "강철 판을 절단해야 합니다.",
+        "bn": "ইস্পাত প্লেট কাটা লাগবে।",
+        "en": "We need to cut the steel plate."
+      }
+    },
+    {
+      "ko": "알루미늄",
+      "romanization": "alluminyum",
+      "bn": "অ্যালুমিনিয়াম",
+      "en": "aluminum",
+      "pos": "noun",
+      "example": {
+        "ko": "알루미늄은 가볍습니다.",
+        "bn": "অ্যালুমিনিয়াম হালকা।",
+        "en": "Aluminum is light."
+      }
+    },
+    {
+      "ko": "용접",
+      "romanization": "yongjeop",
+      "bn": "ওয়েল্ডিং",
+      "en": "welding",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 용접 작업이 있습니다.",
+        "bn": "আজ ওয়েল্ডিং কাজ আছে।",
+        "en": "We have welding work today."
+      }
+    },
+    {
+      "ko": "절단",
+      "romanization": "jeoldan",
+      "bn": "কাটিং",
+      "en": "cutting",
+      "pos": "noun",
+      "example": {
+        "ko": "절단 길이를 확인하세요.",
+        "bn": "কাটার দৈর্ঘ্য দেখুন।",
+        "en": "Check the cutting length."
+      }
+    },
+    {
+      "ko": "드릴",
+      "romanization": "deuril",
+      "bn": "ড্রিল",
+      "en": "drill",
+      "pos": "noun",
+      "example": {
+        "ko": "드릴로 구멍을 뚫으세요.",
+        "bn": "ড্রিল দিয়ে ছিদ্র করুন।",
+        "en": "Drill a hole with the drill."
+      }
+    },
+    {
+      "ko": "톱",
+      "romanization": "top",
+      "bn": "আঁশি/সাও (দাঁতলার)",
+      "en": "saw",
+      "pos": "noun",
+      "example": {
+        "ko": "톱으로 판을 자르겠습니다.",
+        "bn": "সাও দিয়ে প্লেট কেটে নেব।",
+        "en": "I will cut the plate with a saw."
+      }
+    },
+    {
+      "ko": "레이저 커터",
+      "romanization": "reijeo keoteo",
+      "bn": "লেজার কাটার",
+      "en": "laser cutter",
+      "pos": "noun",
+      "example": {
+        "ko": "레이저 커터는 정밀하게 자릅니다.",
+        "bn": "লেজার কাটার নিখুঁতভাবে কেটে।",
+        "en": "The laser cutter cuts precisely."
+      }
+    },
+    {
+      "ko": "그라인더",
+      "romanization": "geuraindeo",
+      "bn": "গ্রাইন্ডার",
+      "en": "grinder",
+      "pos": "noun",
+      "example": {
+        "ko": "그라인더로 모서리를 연마하세요.",
+        "bn": "গ্রাইন্ডার দিয়ে ধার মসৃণ করুন।",
+        "en": "Polish the edge with a grinder."
+      }
+    },
+    {
+      "ko": "연마",
+      "romanization": "yeonma",
+      "bn": "পলিশ/শ্যিংকরণ",
+      "en": "polishing",
+      "pos": "noun",
+      "example": {
+        "ko": "연마 후 표면이 깨끗해졌어요.",
+        "bn": "পলিশ করার পরে পৃষ্ঠ পরিষ্কার।",
+        "en": "After polishing, the surface became clean."
+      }
+    },
+    {
+      "ko": "프레스",
+      "romanization": "peureseu",
+      "bn": "প্রেস মেশিন",
+      "en": "press",
+      "pos": "noun",
+      "example": {
+        "ko": "프레스로 판금을 성형합니다.",
+        "bn": "প্রেস দিয়ে ধাতু আকার দেওয়া হয়।",
+        "en": "We shape sheet metal with a press."
+      }
+    },
+    {
+      "ko": "금형",
+      "romanization": "geumhyeong",
+      "bn": "মোল্ড/ছাঁচ",
+      "en": "mold",
+      "pos": "noun",
+      "example": {
+        "ko": "금형을 점검해야 합니다.",
+        "bn": "মোল্ড পরীক্ষা করা দরকার।",
+        "en": "We need to inspect the mold."
+      }
+    },
+    {
+      "ko": "측정기",
+      "romanization": "cheukjeonggi",
+      "bn": "মাপার যন্ত্র",
+      "en": "measuring instrument",
+      "pos": "noun",
+      "example": {
+        "ko": "측정기로 두께를 잽니다.",
+        "bn": "মাপার যন্ত্র দিয়ে পুরুত্ব নিন।",
+        "en": "Measure the thickness with the instrument."
+      }
+    },
+    {
+      "ko": "자",
+      "romanization": "ja",
+      "bn": "রুলার/ফিতি",
+      "en": "ruler",
+      "pos": "noun",
+      "example": {
+        "ko": "자로 길이를 표시하세요.",
+        "bn": "রুল দিয়ে দৈর্ঘ্য চিহ্নিত করুন।",
+        "en": "Mark the length with a ruler."
+      }
+    },
+    {
+      "ko": "캘리퍼스",
+      "romanization": "kaellipeoseu",
+      "bn": "ক্যালিপারস",
+      "en": "calipers",
+      "pos": "noun",
+      "example": {
+        "ko": "캘리퍼스로 정확히 측정하세요.",
+        "bn": "ক্যালিপার দিয়ে সঠিক মাপ নিন।",
+        "en": "Measure accurately with calipers."
+      }
+    },
+    {
+      "ko": "안전모",
+      "romanization": "anjeonmo",
+      "bn": "নিরাপত্তা হেলমেট",
+      "en": "safety helmet",
+      "pos": "noun",
+      "example": {
+        "ko": "작업할 때 안전모를 쓰세요.",
+        "bn": "কাজ করার সময় হেলমেট পরুন।",
+        "en": "Wear a safety helmet when working."
+      }
+    },
+    {
+      "ko": "장갑",
+      "romanization": "janggap",
+      "bn": "দস্তানা",
+      "en": "gloves",
+      "pos": "noun",
+      "example": {
+        "ko": "장갑을 끼고 기계를 만지세요.",
+        "bn": "দস্তানা পরেই মেশিন ছুয়ুন।",
+        "en": "Wear gloves before touching the machine."
+      }
+    },
+    {
+      "ko": "불꽃",
+      "romanization": "bulkkot",
+      "bn": "জ্বালানী/ঝলক (স্পার্ক)",
+      "en": "spark",
+      "pos": "noun",
+      "example": {
+        "ko": "용접할 때 불꽃이 튀어요.",
+        "bn": "ওয়েল্ডিং করার সময় স্পার্ক ছিটকে যায়।",
+        "en": "Sparks fly during welding."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "으세요 (명령/권유)",
+      "titleBn": "으세요 (দয়া করে করা/আদেশ)",
+      "explanationBn": "কর্মক্ষেত্রে নম্র অনুরোধ বা নির্দেশ দিতে '으세요' ব্যবহার করি। উদাহরণগুলি:\n1) '장갑을 끼세요.' / 'দস্তানা পরুন।' / 'Please wear gloves.'\n2) '절단 선을 확인하세요.' / 'কাটার রেখা দেখুন।' / 'Check the cutting line.'",
+      "explanationEn": "Use ~(으)세요 to make polite requests or commands in the workplace. Examples:\n1) '장갑을 끼세요.' / 'Please wear gloves.'\n2) '절단 선을 확인하세요.' / 'Check the cutting line.'",
+      "examples": [
+        {
+          "ko": "안전모를 쓰세요.",
+          "bn": "হেলমেট পরুন।",
+          "en": "Please wear a safety helmet."
+        },
+        {
+          "ko": "기계를 끄세요.",
+          "bn": "মেশিন বন্ধ করুন।",
+          "en": "Turn off the machine."
+        }
+      ]
+    },
+    {
+      "pattern": "고 있어요 (진행)",
+      "titleBn": "고 있어요 (ক্রিয়া চলছে)",
+      "explanationBn": "কোন কাজ বর্তমানে চলছে বোঝাতে '고 있어요' ব্যবহার করি। উদাহরণ:\n1) '용접하고 있어요.' / 'আমি ওয়েল্ডিং করছি।' / 'I am welding.'\n2) '금속을 연마하고 있어요.' / 'ধাতু পলিশ করছি।' / 'I am polishing the metal.'",
+      "explanationEn": "Use ~고 있어요 to indicate an action is in progress. Examples:\n1) '용접하고 있어요.' / 'I am welding.'\n2) '금속을 연마하고 있어요.' / 'I am polishing the metal.'",
+      "examples": [
+        {
+          "ko": "지금 드릴로 구멍을 뚫고 있어요.",
+          "bn": "এখন ড্রিল দিয়ে ছিদ্র করছি।",
+          "en": "I'm drilling a hole now."
+        },
+        {
+          "ko": "그는 톱으로 자르고 있어요.",
+          "bn": "তিনি সাও দিয়ে কাটছেন।",
+          "en": "He is cutting with a saw."
+        }
+      ]
+    },
+    {
+      "pattern": "으면 (조건)",
+      "titleBn": "으면 (যদি/শর্ত)",
+      "explanationBn": "শর্ত বোঝাতে '으면' ব্যবহার করুন। উদাহরণ:\n1) '안전 장비를 쓰면 안전합니다.' / 'নিরাপদ হবে যদি সুরক্ষা পরেন।' / 'If you wear safety gear, it's safe.'\n2) '절단을 끝내면 알려 주세요.' / 'কাটা শেষ হলে বলবেন।' / 'Let me know when you finish cutting.'",
+      "explanationEn": "Use ~으면 to express conditions. Examples:\n1) '안전 장비를 쓰면 안전합니다.' / 'If you wear safety gear, it's safe.'\n2) '절단을 끝내면 알려 주세요.' / 'Let me know when you finish cutting.'",
+      "examples": [
+        {
+          "ko": "온도가 높으면 기계를 멈추세요.",
+          "bn": "তাপমাত্রা বেড়ে গেলে মেশিন থামান।",
+          "en": "Stop the machine if the temperature rises."
+        },
+        {
+          "ko": "문제가 있으면 바로 말하세요.",
+          "bn": "সমস্যা হলে সঙ্গে সঙ্গে বলুন।",
+          "en": "Tell me immediately if there is a problem."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "작업 지시 - 절단",
+      "titleEn": "Work Instruction - Cutting",
+      "lines": [
+        {
+          "speaker": "팀장",
+          "ko": "오늘 강철 판을 두 장 절단하세요.",
+          "bn": "আজ ইস্পাত প্লেট দুইটা কেটে নিন।",
+          "en": "Cut two steel plates today."
+        },
+        {
+          "speaker": "직원",
+          "ko": "길이와 폭을 알려 주세요.",
+          "bn": "দৈর্ঘ্য আর প্রস্থ বলবেন কী?",
+          "en": "Please tell me the length and width."
+        },
+        {
+          "speaker": "팀장",
+          "ko": "길이 100cm, 폭 50cm로 잘라 주세요.",
+          "bn": "১০০ সেমি দৈর্ঘ্য এবং ৫০ সেমি প্রস্থে কেটে নিন।",
+          "en": "Cut them to 100 cm length and 50 cm width."
+        },
+        {
+          "speaker": "직원",
+          "ko": "안전모와 장갑을 착용하고 시작하겠습니다.",
+          "bn": "আমি হেলমেট আর দস্তানা পরে শুরু করব।",
+          "en": "I'll start after wearing a helmet and gloves."
+        },
+        {
+          "speaker": "팀장",
+          "ko": "절단 후 표면을 연마하세요.",
+          "bn": "কাটার পর পৃষ্ঠ পলিশ করুন।",
+          "en": "Polish the surface after cutting."
+        }
+      ]
+    },
+    {
+      "titleBn": "안전 점검 - 용접",
+      "titleEn": "Safety Check - Welding",
+      "lines": [
+        {
+          "speaker": "감독",
+          "ko": "용접 전에 소화기를 준비했나요?",
+          "bn": "ওয়েল্ডিং আগে আগুন নির্বাপক আছে কি?",
+          "en": "Did you prepare the fire extinguisher before welding?"
+        },
+        {
+          "speaker": "작업자",
+          "ko": "네, 소화기와 방열 장갑을 준비했습니다.",
+          "bn": "হ্যাঁ, আগুন নেভানোর ডিভাইস এবং তাপ রোধী দস্তানা আছি।",
+          "en": "Yes, I prepared the extinguisher and heat-resistant gloves."
+        },
+        {
+          "speaker": "감독",
+          "ko": "불꽃이 튀니까 주변을 정리하세요.",
+          "bn": "স্পার্ক ছিটকে যেতে পারে, আশপাশ সাফ করুন।",
+          "en": "Sparks fly; clean the surroundings."
+        },
+        {
+          "speaker": "작업자",
+          "ko": "환기 장치도 켜 놓을게요.",
+          "bn": "ভেন্টিলেশন চালিয়ে দেব।",
+          "en": "I'll turn on the ventilation."
+        },
+        {
+          "speaker": "감독",
+          "ko": "문제가 있으면 바로 알려 주세요.",
+          "bn": "সমস্যা হলে সঙ্গে সঙ্গে জানান।",
+          "en": "Let me know immediately if there is a problem."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 '용접'의 뜻은 কোন 것인가?",
+      "questionKo": "'용접'의 뜻은?",
+      "options": [
+        "절단",
+        "용접",
+        "연마",
+        "측정"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'용접'은 두 금속을 연결하는 작업, 즉 ওয়েল্ডিং বোঝায়। তাই সঠিক উত্তর 1।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "작업 지시: '장갑을 ___.'에 들어갈 가장 자연스러운 말은?",
+      "questionKo": "장갑을 ___.",
+      "options": [
+        "끼세요",
+        "끊으세요",
+        "닫으세요",
+        "자르세요"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'장갑을 끼세요'는 '장갑을 착용하세요'라는 의미로 자연스럽습니다।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 '그라인더'는 무슨 도구인가요?",
+      "questionKo": "'그라인더'는?",
+      "options": [
+        "측정 도구",
+        "커터",
+        "프레스",
+        "연마 도구"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "'그라인더'는 표면을 연마하거나 갈아내는 도구, 즉 연마 도구입니다।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "문장: '지금 드릴로 구멍을 ______.' 빈칸에 들어갈 말은?",
+      "questionKo": "지금 드릴로 구멍을 ______.",
+      "options": [
+        "연마해요",
+        "멈춰요",
+        "뚫고 있어요",
+        "확인해요"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "'구멍을 뚫다'는 표현과 진행형 '뚫고 있어요'가 자연스럽습니다।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "안전 지시: '불꽃이 튀니까 주변을 ______.'에 가장 맞는 단어는?",
+      "questionKo": "불꽃이 튀니까 주변을 ______.",
+      "options": [
+        "정리하세요",
+        "자르세요",
+        "잽니다",
+        "끊으세요"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "스파크가 튀면 주변을 치우라는 의미로 '정리하세요'가 맞습니다।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "빈칸 채우기: '절단 후 표면을 ______.'",
+      "questionKo": "절단 후 표면을 ______.",
+      "options": [
+        "절단합니다",
+        "연마하세요",
+        "멈추세요",
+        "확인합니다"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "대화에서 '절단 후 표면을 연마하세요'라는 표현이 있었으므로 '연마하세요'가 정답입니다।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "빈칸 채우기: '안전모를 ___.' (명령)",
+      "questionKo": "안전모를 ___.",
+      "options": [
+        "연마해요",
+        "쓰세요",
+        "자르세요",
+        "측정해요"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "명령형으로 '안전모를 쓰세요'가 옳습니다।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "빈칸 채우기: '문제가 있으면 바로 ____.'",
+      "questionKo": "문제가 있으면 바로 ____.",
+      "options": [
+        "자르세요",
+        "말하세요",
+        "연마하세요",
+        "측정하세요"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "대화에 나온 표현 '문제가 있으면 바로 말하세요'가 적절합니다।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "다음 단어와 뜻을 연결하세요.",
+      "questionKo": "단어와 뜻 연결",
+      "options": [],
+      "pairs": [
+        {
+          "left": "드릴",
+          "right": "ড্রিল (drill)"
+        },
+        {
+          "left": "프레스",
+          "right": "প্রেস মেশিন (press)"
+        },
+        {
+          "left": "연마",
+          "right": "পলিশ (polishing)"
+        },
+        {
+          "left": "캘리퍼스",
+          "right": "ক্যালিপারস (calipers)"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "각 항목은 어휘 목록의 뜻과 일치합니다।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "다음 안전 장비와 설명을 연결하세요.",
+      "questionKo": "안전 장비와 설명 연결",
+      "options": [],
+      "pairs": [
+        {
+          "left": "안전모",
+          "right": "মাথা সুরক্ষার হেলমেট"
+        },
+        {
+          "left": "장갑",
+          "right": "হাত সুরক্ষার দস্তানা"
+        },
+        {
+          "left": "소화기",
+          "right": "আগুন নেভানোর যন্ত্র"
+        },
+        {
+          "left": "안전 고글",
+          "right": "চোখ সুরক্ষার চশমা"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "안전 장비와 그 설명이 짝지어져 있습니다।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문에 답하세요: '절단할 때는 먼저 자로 길이를 표시하고, 그라인더로 모서리를 연마하세요.' 질문: 절단 전에 무엇을 하나요?",
+      "questionKo": "절단 전에 무엇을 하나요?",
+      "passage": "절단할 때는 먼저 자로 길이를 표시하고, 그라인더로 모서리를 연마하세요.",
+      "options": [
+        "자국을 지운다",
+        "용접을 한다",
+        "길이를 표시한다",
+        "소화기를 준비한다"
+      ],
+      "answer": 2,
+      "explanationBn": "본문에 '먼저 자로 길이를 표시'라고 되어 있으므로 '길이를 표시한다'가 정답입니다।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "짧은 문장 읽기: '용접할 때 불꽃이 튄다.' 질문: 용접 시 무엇이 튀나요?",
+      "questionKo": "용접 시 무엇이 튀나요?",
+      "passage": "용접할 때 불꽃이 튄다.",
+      "options": [
+        "불꽃",
+        "물",
+        "연필",
+        "나사"
+      ],
+      "answer": 0,
+      "explanationBn": "문장에서 '불꽃이 튄다'라고 했으므로 '불꽃'이 맞습니다।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "다음 문장을 읽고 질문: '안전모를 쓰세요.' 이 문장은 어떤 표현인가요?",
+      "questionKo": "이 문장은 어떤 표현인가요?",
+      "passage": "안전모를 쓰세요.",
+      "options": [
+        "질문",
+        "진행형",
+        "과거형",
+        "명령/권유"
+      ],
+      "answer": 3,
+      "explanationBn": "'쓰세요'는 정중한 명령이나 권유 표현이므로 '명령/권유'가 정답입니다।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "문장: '문제가 있으면 바로 말하세요.' 질문: 이 문장은 어떤 의미인가요?",
+      "questionKo": "이 문장은 어떤 의미인가요?",
+      "passage": "문제가 있으면 바로 말하세요.",
+      "options": [
+        "언제 말하라는지 모른다",
+        "문제가 생기면 즉시 말하라는 뜻이다",
+        "항상 침묵하라는 뜻이다",
+        "문제 없다는 뜻이다"
+      ],
+      "answer": 1,
+      "explanationBn": "'문제가 있으면 바로 말하세요'는 문제가 생기면 즉시 알리라는 의미입니다।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "다음 중 연마와 가장 관련 있는 것은?",
+      "questionKo": "연마와 관련된 것은?",
+      "passage": "그라인더로 모서리를 연마하세요. 연마 후 표면이 깨끗해졌어요.",
+      "options": [
+        "그라인더",
+        "소화기",
+        "프레스",
+        "캘리퍼스"
+      ],
+      "answer": 0,
+      "explanationBn": "본문에서 '그라인더로 연마'라고 했으므로 '그라인더'가 연마와 관련 있습니다।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "다음을 듣고 질문에 답하세요: (스피커) '절단 작업은 오후에 시작합니다. 먼저 자로 길이를 표시하고, 안전모를 착용하세요.' 질문: 절단 작업은 언제 시작하나요?",
+      "questionKo": "절단 작업은 언제 시작하나요?",
+      "passage": "절단 작업은 오후에 시작합니다. 먼저 자로 길이를 표시하고, 안전모를 착용하세요.",
+      "options": [
+        "아침에",
+        "오후에",
+        "밤에",
+        "지금"
+      ],
+      "answer": 1,
+      "explanationBn": "대본에 '오후에 시작합니다'라고 말했으므로 '오후에'가 정답입니다।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "듣기: (스피커) '용접 중에는 소화기를 가까이 두고, 주변을 정리하세요.' 질문: 무엇을 가까이 두라고 했나요?",
+      "questionKo": "무엇을 가까이 두라고 했나요?",
+      "passage": "용접 중에는 소화기를 가까이 두고, 주변을 정리하세요.",
+      "options": [
+        "캘리퍼스",
+        "장갑",
+        "자",
+        "소화기"
+      ],
+      "answer": 3,
+      "explanationBn": "'소화기를 가까이 두고'라고 했으니 '소화기'가 정답입니다।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "듣기: (스피커) '지금 드릴로 구멍을 뚫고 있으니 방해하지 마세요.' 질문: 지금 어떤 작업을 하고 있나요?",
+      "questionKo": "지금 어떤 작업을 하고 있나요?",
+      "passage": "지금 드릴로 구멍을 뚫고 있으니 방해하지 마세요.",
+      "options": [
+        "절단",
+        "연마",
+        "드릴 작업",
+        "용접"
+      ],
+      "answer": 2,
+      "explanationBn": "문장에 '드릴로 구멍을 뚫고 있다'고 하여 '드릴 작업'이 정답입니다।"
+    }
+  ]
+}

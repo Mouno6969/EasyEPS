@@ -1,0 +1,669 @@
+{
+  "chapter": 53,
+  "slug": "industrial-safety-and-health-signs",
+  "title": {
+    "ko": "산업 안전 보건 표지",
+    "bn": "শিল্প নিরাপত্তা ও স্বাস্থ্য চিহ্ন",
+    "en": "Industrial Safety and Health Signs"
+  },
+  "category": "safety",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কারখানায় সাধারণ নিরাপত্তা চিহ্ন চিনতে পারা এবং মানে বোঝা।",
+      "চিহ্ন অনুযায়ী কাজস্থলে সঠিক আচরণ জান্বা ও করতে পারা।",
+      "ঝুঁকি দেখলে দ্রুত প্রতিবেদন করা ও সুপারভাইজারকে জানানো।"
+    ],
+    "en": [
+      "Recognize common safety and health signs in the workplace.",
+      "Follow instructions and behave correctly according to signs.",
+      "Report hazards quickly and inform a supervisor."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "주의",
+      "romanization": "juui",
+      "bn": "সতর্কতা",
+      "en": "caution",
+      "pos": "noun",
+      "example": {
+        "ko": "미끄럼주의 표지가 바닥에 붙어 있습니다.",
+        "bn": "মেঝেতে 'স্লিপ সাবধান' চিহ্ন লাগানো আছে।",
+        "en": "A 'caution: slippery' sign is on the floor."
+      }
+    },
+    {
+      "ko": "위험",
+      "romanization": "wihyeom",
+      "bn": "ঝুঁকি/বিপদ",
+      "en": "danger",
+      "pos": "noun",
+      "example": {
+        "ko": "전기 위험 표지를 보면 가까이 가지 마세요.",
+        "bn": "বিদ্যুৎ বিপদের চিহ্ন দেখলে কাছে যাবেন না।",
+        "en": "If you see a high-voltage sign, do not go near it."
+      }
+    },
+    {
+      "ko": "출입금지",
+      "romanization": "churipgeumji",
+      "bn": "প্রবেশ নিষেধ",
+      "en": "no entry",
+      "pos": "phrase",
+      "example": {
+        "ko": "작업 중인 구역은 출입금지입니다.",
+        "bn": "কাজ চলছে এমন এলাকায় প্রবেশ নিষেধ।",
+        "en": "The work area is no entry."
+      }
+    },
+    {
+      "ko": "소화기",
+      "romanization": "sohwagi",
+      "bn": "অগ্নিনির্বাপক",
+      "en": "fire extinguisher",
+      "pos": "noun",
+      "example": {
+        "ko": "소화기는 비상구 옆에 있습니다.",
+        "bn": "অগ্নিনির্বাপক জরুরি পথে পাশে আছে।",
+        "en": "The fire extinguisher is next to the emergency exit."
+      }
+    },
+    {
+      "ko": "비상구",
+      "romanization": "bisanggu",
+      "bn": "জরুরি প্রস্থান",
+      "en": "emergency exit",
+      "pos": "noun",
+      "example": {
+        "ko": "비상 시 비상구로 이동하세요.",
+        "bn": "জরুরিতে জরুরি প্রস্থানে চলে যান।",
+        "en": "In an emergency, move to the emergency exit."
+      }
+    },
+    {
+      "ko": "안전모",
+      "romanization": "anjeonmo",
+      "bn": "নিরাপত্তা হেলমেট",
+      "en": "safety helmet",
+      "pos": "noun",
+      "example": {
+        "ko": "이 구역에서는 안전모를 착용해야 합니다.",
+        "bn": "এই এলাকায় সেফটি হেলমেট পরা বাধ্যতামূলক।",
+        "en": "You must wear a safety helmet in this area."
+      }
+    },
+    {
+      "ko": "보호장구",
+      "romanization": "bohojanggu",
+      "bn": "সুরক্ষা উপকরণ",
+      "en": "protective equipment",
+      "pos": "noun",
+      "example": {
+        "ko": "보호장구를 착용한 후 작업을 시작하세요.",
+        "bn": "সুরক্ষা উপকরণ পরে কাজ শুরু করুন।",
+        "en": "Put on protective equipment before starting work."
+      }
+    },
+    {
+      "ko": "미끄럼주의",
+      "romanization": "mikkeureomjuui",
+      "bn": "ফিসলে সতর্কতা",
+      "en": "slippery caution",
+      "pos": "phrase",
+      "example": {
+        "ko": "비 오는 날에 미끄럼주의 표지에 주의하세요.",
+        "bn": "বৃষ্টিতে 'স্লিপ সাবধান' চিহ্নে খেয়াল রাখুন।",
+        "en": "Watch the slippery caution signs on rainy days."
+      }
+    },
+    {
+      "ko": "전기위험",
+      "romanization": "jeongiwiheom",
+      "bn": "বিদ্যুৎ ঝুঁকি",
+      "en": "electrical hazard",
+      "pos": "noun",
+      "example": {
+        "ko": "전기위험 표지 앞에서는 금속 물체를 사용하지 마세요.",
+        "bn": "বিদ্যুৎ ঝুঁকি চিহ্নের সামনে ধাতব জিনিস ব্যবহার করবেন না।",
+        "en": "Do not use metal objects near an electrical hazard sign."
+      }
+    },
+    {
+      "ko": "응급전화",
+      "romanization": "eunggeupjeonhwa",
+      "bn": "এমার্জেন্সি কল",
+      "en": "emergency call",
+      "pos": "noun",
+      "example": {
+        "ko": "응급전화 번호는 출입구 옆에 적혀 있습니다.",
+        "bn": "জরুরি কল নম্বর প্রবেশদ্বারের পাশে লেখা আছে।",
+        "en": "The emergency call number is posted next to the entrance."
+      }
+    },
+    {
+      "ko": "응급처치",
+      "romanization": "eunggeupcheochi",
+      "bn": "প্রাথমিক চিকিৎসা",
+      "en": "first aid",
+      "pos": "noun",
+      "example": {
+        "ko": "작업장에서 작은 상처는 응급처치함에서 처리합니다.",
+        "bn": "কাজের জায়গায় ছোট ক্ষত প্রাথমিক চিকিৎসা বাক্সে করা হয়।",
+        "en": "Small injuries are treated at the first aid kit in the workplace."
+      }
+    },
+    {
+      "ko": "표시",
+      "romanization": "pyosi",
+      "bn": "চিহ্ন/চিহ্নিত করা",
+      "en": "sign/mark",
+      "pos": "noun",
+      "example": {
+        "ko": "안전 표시를 항상 확인하세요.",
+        "bn": "নিরাপত্তার চিহ্ন সবসময় পরীক্ষা করুন।",
+        "en": "Always check safety signs."
+      }
+    },
+    {
+      "ko": "신고하다",
+      "romanization": "singohada",
+      "bn": "প্রতিবেদন করা",
+      "en": "to report",
+      "pos": "verb",
+      "example": {
+        "ko": "위험을 발견하면 관리자에게 신고하세요.",
+        "bn": "ঝুঁকি দেখা গেলে ম্যানেজারকে জানান।",
+        "en": "If you find a hazard, report it to the manager."
+      }
+    },
+    {
+      "ko": "작업중",
+      "romanization": "jageopjung",
+      "bn": "কাজ চলছে",
+      "en": "working/in operation",
+      "pos": "phrase",
+      "example": {
+        "ko": "기계는 작업중이니 접근하지 마세요.",
+        "bn": "মেশিন কাজ করছে, কাছে যাবেন না।",
+        "en": "The machine is operating; do not approach."
+      }
+    },
+    {
+      "ko": "정지",
+      "romanization": "jeongji",
+      "bn": "বন্ধ/থামা",
+      "en": "stop/halt",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "비상버튼을 누르면 기계가 정지합니다.",
+        "bn": "জরুরি বোতাম চাপলে মেশিন থেমে যায়।",
+        "en": "Pressing the emergency button stops the machine."
+      }
+    },
+    {
+      "ko": "통행금지",
+      "romanization": "tonghaenggeumji",
+      "bn": "গমন নিষেধ",
+      "en": "no passage",
+      "pos": "phrase",
+      "example": {
+        "ko": "이 문은 통행금지 표지가 붙어 있습니다.",
+        "bn": "এই দরজায় গমন নিষেধের চিহ্ন আছে।",
+        "en": "This door has a no passage sign."
+      }
+    },
+    {
+      "ko": "보행자전용",
+      "romanization": "bohaengjajeonyong",
+      "bn": "পায়চারী এর জন্য",
+      "en": "pedestrian only",
+      "pos": "phrase",
+      "example": {
+        "ko": "이 통로는 보행자전용입니다.",
+        "bn": "এই পথ পায়চারীদের জন্য।",
+        "en": "This passage is for pedestrians only."
+      }
+    },
+    {
+      "ko": "안전관리자",
+      "romanization": "anjeongwanrija",
+      "bn": "নিরাপত্তা পরিচর্যাকারী",
+      "en": "safety officer",
+      "pos": "noun",
+      "example": {
+        "ko": "문제가 생기면 안전관리자에게 연락하세요.",
+        "bn": "সমস্যা হলে নিরাপত্তা পরিচর্যাকারীর সাথে যোগাযোগ করুন।",
+        "en": "If a problem occurs, contact the safety officer."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "지 마세요",
+      "titleBn": "~지 마세요 (নিষেধ)",
+      "explanationBn": "এই বিন্যাসটি কাউকে কোনো কাজ না করতে বলার জন্য। উদাহরণ: '출입금지' দেখলে '들어가지 마세요' বলি। উদাহরণ বাক্যগুলি:\n1) 험한 구역: 불 들어가지 마세요. / বিপজ্জনক এলাকা: 들어가지 마বেন না। / Do not enter dangerous area.\n2) 소화기 사용법: 손대지 마세요. / স্পর্শ করবেন না। / Do not touch the extinguisher.",
+      "explanationEn": "Use ~지 마세요 to tell someone not to do something (prohibition). Examples given in Bengali show how to use it in safety contexts.",
+      "examples": [
+        {
+          "ko": "표시가 있으면 들어가지 마세요.",
+          "bn": "চিহ্ন থাকলে প্রবেশ করবেন না।",
+          "en": "If there is a sign, do not enter."
+        },
+        {
+          "ko": "전기선에 손대지 마세요.",
+          "bn": "তারের সঙ্গে হাত লাগাবেন না।",
+          "en": "Do not touch the electric wire."
+        }
+      ]
+    },
+    {
+      "pattern": "(으)면",
+      "titleBn": "~(으)면 (শর্ত — যদি ...)",
+      "explanationBn": "এই কাঠামোটি 'যদি' বা 'হলে' অর্থে ব্যবহার করা হয়। কাজের নিরাপত্তা নির্দেশে শর্ত বোঝাতে ভাল। উদাহরণ বাক্যগুলি:\n1) '화재가 발생하면 소화기를 사용하세요.' — জেগে থাকলে নির্দেশ।\n2) '표시를 보면 속도를 줄이세요.' — চিহ্ন দেখলে আচরণ বদলান।\nত্রিস্তর উদাহরণ: 화재가 나면 119에 신고하세요. / আগুন হলেই 119-এ কল করুন। / If fire occurs, call 119.",
+      "explanationEn": "Use ~(으)면 to express 'if/when'. Common in safety instructions: 'If X happens, do Y.'",
+      "examples": [
+        {
+          "ko": "비가 오면 바닥이 미끄럽습니다.",
+          "bn": "বৃষ্টি হলে মেঝে ফিসলতে পারে।",
+          "en": "If it rains, the floor becomes slippery."
+        },
+        {
+          "ko": "위험표시가 있으면 알람을 울리세요.",
+          "bn": "বিপদ চিহ্ন থাকলে অ্যালার্ম বাজান।",
+          "en": "If there is a danger sign, sound the alarm."
+        }
+      ]
+    },
+    {
+      "pattern": "아/어야 하다",
+      "titleBn": "~아/어야 하다 (প্রয়োজন/দায়িত্ব)",
+      "explanationBn": "এই গঠনটি বাধ্যবাধকতা দেখায় — 'করা দরকার' বা 'হবে'। নিরাপত্তায় '안전모를 착용해야 합니다' বলেন। উদাহরণ বাক্যগুলি:\n1) 이 구역에서는 안전모를 착용해야 합니다. — এই এলাকায় হেলমেট বাধ্যতামূলক।\n2) 위험을 보면 즉시 신고해야 합니다. — ঝুঁকি হলে রিপোর্ট করা বাধ্য।\nউদাহরণ (ত্রিভাষিক): '보호장구를 착용해야 합니다.' / 'সুরক্ষা উপকরণ পরতে হবে.' / 'You must wear protective equipment.'",
+      "explanationEn": "Use ~아/어야 하다 to indicate obligation or necessity: 'must/should.' Common in workplace rules.",
+      "examples": [
+        {
+          "ko": "비상구는 항상 열어 두어야 합니다.",
+          "bn": "জরুরি প্রস্থান সবসময় খোলা রাখতে হবে।",
+          "en": "Emergency exits must always be kept open."
+        },
+        {
+          "ko": "위험을 발견하면 관리자에게 알려야 합니다.",
+          "bn": "ঝুঁকি দেখলে ম্যানেজারকে জানাতে হবে।",
+          "en": "If you find a hazard, you must inform the manager."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "소화기 위치 묻기",
+      "titleEn": "Asking Where the Fire Extinguisher Is",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "저기 소화기가 어디에 있나요?",
+          "bn": "ওখানে অগ্নিনির্বাপক কোথায়?",
+          "en": "Where is the fire extinguisher over there?"
+        },
+        {
+          "speaker": "안전관리자",
+          "ko": "소화기는 비상구 옆, 빨간 표시를 따라가면 됩니다.",
+          "bn": "অগ্নিনির্বাপক জরুরি দ্বারের পাশে, লাল চিহ্ন ধরে যান।",
+          "en": "The extinguisher is beside the emergency exit; follow the red sign."
+        },
+        {
+          "speaker": "직원",
+          "ko": "표시를 못 봤어요. 앞으로 표지를 더 크게 달아 주세요.",
+          "bn": "চিহ্ন দেখতে পাইনি। দয়া করে বড় করে লাগান।",
+          "en": "I didn't see the sign. Please put a bigger sign."
+        },
+        {
+          "speaker": "안전관리자",
+          "ko": "알겠습니다. 신고해 주셔서 감사합니다.",
+          "bn": "বুঝেছি। জানানোর জন্য ধন্যবাদ।",
+          "en": "Understood. Thank you for reporting it."
+        },
+        {
+          "speaker": "직원",
+          "ko": "알려 주셔서 감사합니다.",
+          "bn": "ধন্যবাদ জানাই।",
+          "en": "Thanks for telling me."
+        }
+      ]
+    },
+    {
+      "titleBn": "통로 폐쇄 발견 보고",
+      "titleEn": "Reporting a Blocked Passage",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "저쪽 통로에 상자가 쌓여 통행금지 표지가 필요합니다.",
+          "bn": "ওই পথের ওপর বাক্স গেচে আছে, 'গমন নিষেধ' চিহ্ন দরকার।",
+          "en": "Boxes are stacked in that passage; we need a 'no passage' sign."
+        },
+        {
+          "speaker": "현장감독",
+          "ko": "지금 치우겠습니다. 안전관리자에게도 보고하세요.",
+          "bn": "আমি এখন সরিয়ে দিচ্ছি। নিরাপত্তা কর্মকর্তাকে জানান।",
+          "en": "I'll clear it now. Also report to the safety officer."
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 바로 신고하겠습니다.",
+          "bn": "ঠিক আছে, আমি এখনই জানাব।",
+          "en": "Okay, I'll report it right away."
+        },
+        {
+          "speaker": "현장감독",
+          "ko": "앞으로는 물건을 통로에 놓지 마세요.",
+          "bn": "ভবিষ্যতে জিনিসপত্র পথে ফেলবেন না।",
+          "en": "In the future, do not place items in the passage."
+        },
+        {
+          "speaker": "직원",
+          "ko": "알겠습니다. 주의하겠습니다.",
+          "bn": "বুঝেছি। সতর্ক থাকব।",
+          "en": "Understood. I'll be careful."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "এই চিহ্নের মানে কোনটি? (미끄럼주의)",
+      "questionKo": "다음 표지의 뜻은 무엇입니까? (미끄럼주의)",
+      "options": [
+        "미끄럽니니 조심하라는 뜻이다.",
+        "불이 난다는 뜻이다.",
+        "출입할 수 있다는 뜻이다.",
+        "응급처치 장소를 알리는 뜻이다."
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "미끄럼주의 মানে মেঝে পিছলে যাওয়ার সম্ভাবনা আছে — সতর্ক থাকার নির্দেশ।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "যদি '전기위험' 표িক থাকে আপনি কী করবেন?",
+      "questionKo": "‘전기위험’ 표지가 있으면 무엇을 해야 합니까?",
+      "options": [
+        "표시를 무시하고 통과한다.",
+        "근처에서 금속을 사용하지 않는다.",
+        "물건을 쌓아 둔다.",
+        "표시를 떼어 낸다."
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "전기위험 পাশে ধাতু না ব্যবহার করা নিরাপত্তার জন্য জরুরি।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "‘응급전화’ 숫자를 어디에 붙여 둡니까?",
+      "questionKo": "‘응급전화’ 번호는 어디에 붙여 둡니까?",
+      "options": [
+        "출입구 옆",
+        "작업대 밑",
+        "쓰레기통 안",
+        "현관문 뒤"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "응급전화 번호 সাধারণত প্রবেশদ্বার বা দৃশ্যমান স্থানে থাকে।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "‘출입금지’ 표지를 보면 আপনি কী বলবেন? (শিক্ষানবিশ হিসেবে)",
+      "questionKo": "‘출입금지’ 표지를 보면 무엇이라고 말합니까?",
+      "options": [
+        "들어가도 됩니다.",
+        "들어가지 마세요.",
+        "더 가까이 가세요.",
+        "사진 찍으세요."
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "출입금지는 প্রবেশ না করার নির্দেশ; '들어가지 마세요' উপযুক্ত।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "관리자에게 위험을 보고할 때 어떤 표현টি ঠিক?",
+      "questionKo": "위험을 관리자에게 신고할 때 어떤 표현이 맞습니까?",
+      "options": [
+        "위험을 발견했습니다.",
+        "좋은 하루 되세요.",
+        "문을 닫아 주세요.",
+        "음식 먹어도 되나요?"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "ঝুঁকি রিপোর্ট করার জন্য '위험을 발견했습니다' বলা যায়।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "빈칸 পূরণ করুন: '화재가 나면 ____에 신고하세요.'",
+      "questionKo": "빈칸을 채우세요: '화재가 나면 ____에 신고하세요.'",
+      "options": [
+        "119",
+        "소화기",
+        "비상구",
+        "안전모"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "화재 발생 시 119(한국의 긴급전화)로 신고해야 한다."
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "빈칸 পূরণ করুন: '이 구역은 ____ 착용해야 합니다.'",
+      "questionKo": "빈칸을 채우세요: '이 구역은 ____ 착용해야 합니다.'",
+      "options": [
+        "안전모를",
+        "문을",
+        "음식을",
+        "신발을 벗고"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "안전모는 공장이나 위험구역에서 필수 보호장비이다।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "빈칸 পূরণ করুন: '표시를 보면 속도를 ____.'",
+      "questionKo": "빈칸을 채우세요: '표시를 보면 속도를 ____.'",
+      "options": [
+        "줄이세요",
+        "늘리세요",
+        "보관하세요",
+        "떼세요"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "চিহ্ন দেখা মাত্র গতি কমানো নিরাপত্তার জন্য সঠিক।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "নীচের কোরিয়ান চিহ্নগুলোকে সঠিক বাংলা মানে সঙ্গে মেলান।",
+      "questionKo": "다음 한국어 표지와 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "소화기",
+          "right": "অগ্নিনির্বাপক"
+        },
+        {
+          "left": "비상구",
+          "right": "জরুরি প্রস্থান"
+        },
+        {
+          "left": "출입금지",
+          "right": "প্রবেশ নিষেধ"
+        },
+        {
+          "left": "전기위험",
+          "right": "বিদ্যুৎ ঝুঁকি"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি কোরিয়ান শব্দের বাংলা অনুবাদ সরাসরি মিল আছে: 소화기=অগ্নিনির্বাপক 등।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "নিচে শব্দ এবং ব্যবহারের জায়গা মেলান।",
+      "questionKo": "다음 단어와 장소를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "안전모",
+          "right": "건설 현장"
+        },
+        {
+          "left": "미끄럼주의",
+          "right": "현관/욕실"
+        },
+        {
+          "left": "응급처치",
+          "right": "응급처치함"
+        },
+        {
+          "left": "보호장구",
+          "right": "작업장"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি আইটেম সাধারণত নির্দিষ্ট স্থানে ব্যবহার হয়: 안전모=বিল্ডিং সাইট ইত্যাদি।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ে সঠিক উত্তরটি চিহ্নিত করুন।",
+      "questionKo": "다음 글을 읽고 알맞은 답을 고르세요.",
+      "passage": "공장 출입구에 '통행금지' 표지가 붙어 있습니다. 근로자들은 그 길로 가지 말고 다른 통로를 이용합니다.",
+      "options": [
+        "통행금지 표지가 있어도 지나가도 된다.",
+        "근로자들은 다른 통로를 이용한다.",
+        "표시는 출입을 허락한다.",
+        "표지는 응급전화 위치를 알린다."
+      ],
+      "answer": 1,
+      "explanationBn": "পাঠে বলা আছে কর্মীরা অন্য পথ ব্যবহার করে — তাই বিকল্প 2 সঠিক।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ে সঠিক উত্তরটি নির্বাচন করুন।",
+      "questionKo": "다음 글을 읽고 알맞은 답을 고르세요.",
+      "passage": "비상구는 항상 열려 있어야 합니다. 비상구 앞에 물건을 두면 위험합니다.",
+      "options": [
+        "비상구 앞에 물건을 두어도 된다.",
+        "비상구는 닫아 두어야 한다.",
+        "비상구는 항상 열어 두어야 한다.",
+        "비상구는 잠가 놓아야 한다."
+      ],
+      "answer": 2,
+      "explanationBn": "পাঠে স্পষ্টভাবে বলা হয়েছে 비상구 항상 열어 রাখতে হবে। তাই 3 নম্বর।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "পাঠ পড়ে কোন কাজটি করা উচিত তা চিহ্নিত করুন।",
+      "questionKo": "다음 글을 읽고 무엇을 해야 하는지 고르세요.",
+      "passage": "전기위험 표지를 보면 금속 도구를 사용하지 말고 안전관리자에게 알리세요.",
+      "options": [
+        "금속 도구를 사용한다.",
+        "안전관리자에게 알린다.",
+        "표지를 떼어 버린다.",
+        "사진만 찍고 무시한다."
+      ],
+      "answer": 1,
+      "explanationBn": "পাঠে নিরাপত্তা কর্মকর্তাকে জানাতে বলা হয়েছে — তাই উত্তর 2।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পাঠের ভিত্তিতে সঠিক কথাটি বাছুন।",
+      "questionKo": "다음 글을 읽고 옳은 내용을 고르세요.",
+      "passage": "작업 구역에는 보호장구 착용 안내 문구가 있습니다. 보호장구를 착용하면 사고 위험을 줄일 수 있습니다.",
+      "options": [
+        "보호장구는 사고를 늘린다.",
+        "보호장구를 착용하면 사고 위험이 줄어든다.",
+        "작업 구역에서는 보호장구 필요 없다.",
+        "문구는 식사 안내이다."
+      ],
+      "answer": 1,
+      "explanationBn": "পাঠে বলা আছে 보호장구 착용 করলে ঝুঁকি কমে — তাই 2 নম্বর।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পাঠ পড়ে সঠিক সিদ্ধান্ত নিন।",
+      "questionKo": "다음 글을 읽고 바른 것을 고르세요.",
+      "passage": "미끄러운 바닥에 '미끄럼주의' 표지가 보입니다. 조심해서 걸으세요.",
+      "options": [
+        "천천히 걸어 조심해야 한다.",
+        "뛰어가도 된다.",
+        "바닥에 물건을 놓아라.",
+        "표지는 음식물 안내이다."
+      ],
+      "answer": 0,
+      "explanationBn": "표지가 দেখা যায় এবং সতর্কভাবে হাঁটার পরামর্শ দেওয়া হয়েছে — তাই 1 নম্বর।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "নীচের কথোপকথন শুনে সঠিক উত্তরটি চিহ্নিত করুন। (স্ক্রিপ্ট পড়ুন)।",
+      "questionKo": "다음 대화를 듣고 알맞은 답을 고르세요. (아래 스크립트)",
+      "passage": "스태프: '저기 전기위험 표지가 있습니다.' 상사: '알겠어요. 바로 접근 금지 표시를 더 붙이세요.'",
+      "options": [
+        "전기위험 표지를 제거하라고 했다.",
+        "접근 금지 표지를 더 붙이라고 했다.",
+        "표시를 무시하라고 했다.",
+        "직원을 해고하라고 했다."
+      ],
+      "answer": 1,
+      "explanationBn": "대화에서 상사는 접근 금지 표지를 추가하라고 했다 — তাই 2 নম্বর।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "নীচের সংলাপটি শুনে প্রশ্নের উত্তর দিন। (স্ক্রিপ্ট পড়ুন)।",
+      "questionKo": "다음 대화를 듣고 알맞은 답을 고르세요. (아래 스크립트)",
+      "passage": "직원: '통로에 상자가 쌓여 있습니다.' 감독: '지금 치우고 안전관리자에게 보고하세요.'",
+      "options": [
+        "감독은 상자를 쌓으라고 했다.",
+        "감독은 상자를 치우고 신고하라고 했다.",
+        "감독은 아무 말도 하지 않았다.",
+        "감독은 상자 안에 들어가라고 했다."
+      ],
+      "answer": 1,
+      "explanationBn": "감독은 상자를 치우고 신고하라고 했다 — 2 নম্বর সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "সংলাপটি শুনে করণীয় কি বোঝা যায়? (স্ক্রিপ্ট পড়ুন)।",
+      "questionKo": "다음 대화를 듣고 무엇을 해야 하는지 고르세요. (아래 스크립트)",
+      "passage": "직원: '비상구 앞에 물건이 있어요.' 안전관리자: '빨리 치우고 비상구는 항상 비워 두도록 하세요.'",
+      "options": [
+        "비상구를 항상 막아 두어라.",
+        "비상구 앞의 물건을 치우고 비워 두어야 한다.",
+        "비상구를 다른 문으로 바꿔라.",
+        "비상구에 소화기를 넣어라."
+      ],
+      "answer": 1,
+      "explanationBn": "안전관리자는 비상구를 비워 두도록 했으므로 2 নম্বর ঠিক।"
+    }
+  ]
+}

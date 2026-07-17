@@ -1,0 +1,675 @@
+{
+  "chapter": 55,
+  "slug": "industrial-safety-and-hygiene-equipment",
+  "title": {
+    "ko": "안전 보건 장비",
+    "bn": "নিরাপত্তা ও স্বাস্থ্য সুরক্ষা সরঞ্জাম",
+    "en": "Industrial Safety and Hygiene Equipment"
+  },
+  "category": "safety",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কারখানায় সাধারণ নিরাপত্তা সরঞ্জাম চিনতে পারা এবং নাম বলতে পারা।",
+      "কাজের সময় কোন সরঞ্জাম ব্যবহার করা উচিত তা বলার ক্ষমতা অর্জন করা।",
+      "ঝুঁকি দেখা গেলে রিপোর্ট করার সঠিক বাক্যগুলো অনুশীলন করা।",
+      "নিরাপত্তা নির্দেশনা বুঝে তা মেনে চলার অনুশীলন করা।"
+    ],
+    "en": [
+      "Identify common safety equipment in the workplace and name them.",
+      "Say which equipment to use during tasks.",
+      "Practice sentences for reporting hazards to a supervisor.",
+      "Practice understanding and following safety instructions and signs."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "안전모",
+      "romanization": "anjeonmo",
+      "bn": "নিরাপত্তা হেলমেট",
+      "en": "safety helmet",
+      "pos": "noun",
+      "example": {
+        "ko": "공사장에서는 안전모를 꼭 써야 합니다.",
+        "bn": "নির্মাণস্থলে অবশ্যই নিরাপত্তা হেলমেট পরতে হবে।",
+        "en": "You must wear a safety helmet at the construction site."
+      }
+    },
+    {
+      "ko": "안전안경",
+      "romanization": "anjeon-angyeong",
+      "bn": "নিরাপত্তা চশমা",
+      "en": "safety glasses",
+      "pos": "noun",
+      "example": {
+        "ko": "용접할 때 안전안경을 써요.",
+        "bn": "ওয়েল্ডিং করার সময় নিরাপত্তা চশমা পরুন।",
+        "en": "Wear safety glasses when welding."
+      }
+    },
+    {
+      "ko": "방진마스크",
+      "romanization": "bangjin-maseukeu",
+      "bn": "ধুলা ও কণার জন্য মাস্ক",
+      "en": "dust mask",
+      "pos": "noun",
+      "example": {
+        "ko": "분진이 많은 곳에서는 방진마스크를 착용하세요.",
+        "bn": "ধুলোয় ভরা জায়গায় ধূলিকণা-প্রতিরোধী মাস্ক পরুন।",
+        "en": "Wear a dust mask in dusty areas."
+      }
+    },
+    {
+      "ko": "귀마개",
+      "romanization": "gwimagae",
+      "bn": "কানের পলাস্টার / ইয়ারপ্লাগ",
+      "en": "earplug",
+      "pos": "noun",
+      "example": {
+        "ko": "큰 기계 옆에서는 귀마개를 사용합니다.",
+        "bn": "শব্দ বেশি যন্ত্রের পাশে ইয়ারপ্লাগ ব্যবহার করুন।",
+        "en": "Use earplugs next to loud machines."
+      }
+    },
+    {
+      "ko": "장갑",
+      "romanization": "janggab",
+      "bn": "দস্তানা",
+      "en": "gloves",
+      "pos": "noun",
+      "example": {
+        "ko": "화학물질을 다룰 때는 장갑을 끼세요.",
+        "bn": "রাসায়নিক সামগ্রী ব্যবহার করার সময় দস্তানা পরুন।",
+        "en": "Wear gloves when handling chemicals."
+      }
+    },
+    {
+      "ko": "안전화",
+      "romanization": "anjeonhwa",
+      "bn": "নিরাপদ জুতা",
+      "en": "safety shoes",
+      "pos": "noun",
+      "example": {
+        "ko": "무거운 물건을 들 때는 안전화를 신으세요.",
+        "bn": "ভারি জিনিস তুলতে নিরাপদ জুতা পরুন।",
+        "en": "Wear safety shoes when lifting heavy items."
+      }
+    },
+    {
+      "ko": "안전대",
+      "romanization": "anjeondae",
+      "bn": "হান্নেস/সেইফটি হারনেস",
+      "en": "safety harness",
+      "pos": "noun",
+      "example": {
+        "ko": "높은 곳에서는 안전대를 매야 합니다.",
+        "bn": "উচ্চ স্থানে কাজ করার সময় সেফটি হারনেস বেঁধে নিন।",
+        "en": "Fasten the safety harness when working at heights."
+      }
+    },
+    {
+      "ko": "소화기",
+      "romanization": "sohwagi",
+      "bn": "আগুন নিভানোর যন্ত্র",
+      "en": "fire extinguisher",
+      "pos": "noun",
+      "example": {
+        "ko": "비상시에 소화기를 사용하세요.",
+        "bn": "জরুরি অবস্থায় অগ্নিনির্বাপক ব্যবহার করুন।",
+        "en": "Use the fire extinguisher in emergencies."
+      }
+    },
+    {
+      "ko": "응급처치함",
+      "romanization": "eunggeup-cheochiham",
+      "bn": "প্রাথমিক চিকিৎসা কিট",
+      "en": "first aid kit",
+      "pos": "noun",
+      "example": {
+        "ko": "사고가 나면 응급처치함을 먼저 확인합니다.",
+        "bn": "দুর্ঘটনায় প্রাথমিক চিকিৎসা কিট আগে দেখুন।",
+        "en": "Check the first aid kit first after an accident."
+      }
+    },
+    {
+      "ko": "경고표지",
+      "romanization": "gyeonggo-pyoji",
+      "bn": "সতর্কতা সাইন",
+      "en": "warning sign",
+      "pos": "noun",
+      "example": {
+        "ko": "경고표지를 보면 주의를 기울이세요.",
+        "bn": "সতর্কতা সাইন দেখলে সাবধান হন।",
+        "en": "Pay attention when you see a warning sign."
+      }
+    },
+    {
+      "ko": "비상구",
+      "romanization": "bisanggu",
+      "bn": "জরুরি বাহিরের দরজা",
+      "en": "emergency exit",
+      "pos": "noun",
+      "example": {
+        "ko": "비상구 위치를 미리 확인하세요.",
+        "bn": "জরুরি প্রস্থানের অবস্থান আগে থেকেই দেখে রাখুন।",
+        "en": "Locate the emergency exit in advance."
+      }
+    },
+    {
+      "ko": "가스감지기",
+      "romanization": "gaseu-gamjigi",
+      "bn": "গ্যাস সনাক্তকরণ যন্ত্র",
+      "en": "gas detector",
+      "pos": "noun",
+      "example": {
+        "ko": "가스 누출 의심 시 가스감지기를 확인하세요.",
+        "bn": "গ্যাস লিক সন্দেহ হলে গ্যাস সনাক্তকরণ যন্ত্র দেখুন।",
+        "en": "Check the gas detector if you suspect a leak."
+      }
+    },
+    {
+      "ko": "방독면",
+      "romanization": "bangdokmyeon",
+      "bn": "গ্যাস/বিষ প্রতিরোধী মাস্ক",
+      "en": "respirator",
+      "pos": "noun",
+      "example": {
+        "ko": "유해가스 작업에서는 방독면을 착용합니다.",
+        "bn": "জৈব/রাসায়নিক গ্যাস কাজের সময় রেস্পিরেটর পরা লাগে।",
+        "en": "Wear a respirator when working with hazardous gases."
+      }
+    },
+    {
+      "ko": "앞치마",
+      "romanization": "apchima",
+      "bn": "এপ্রন",
+      "en": "apron",
+      "pos": "noun",
+      "example": {
+        "ko": "화학 실험 시 앞치마를 입으세요.",
+        "bn": "রসায়ন পরীক্ষার সময় এপ্রন পরুন।",
+        "en": "Wear an apron during chemical experiments."
+      }
+    },
+    {
+      "ko": "보호복",
+      "romanization": "bohobok",
+      "bn": "প্রোটেকটিভ সুট",
+      "en": "protective suit",
+      "pos": "noun",
+      "example": {
+        "ko": "유해 물질 작업은 보호복을 입어야 합니다.",
+        "bn": "হানিকারক পদার্থের কাজ হলে প্রোটেকটিভ সুট পরান।",
+        "en": "Put on a protective suit for hazardous material work."
+      }
+    },
+    {
+      "ko": "안면보호구",
+      "romanization": "anmyeon-bohogu",
+      "bn": "ফেস শিল্ড",
+      "en": "face shield",
+      "pos": "noun",
+      "example": {
+        "ko": "스프레이 작업 시 안면보호구를 착용하세요.",
+        "bn": "স্প্রে করার সময় ফেস শিল্ড ব্যবহার করুন।",
+        "en": "Use a face shield when spraying."
+      }
+    },
+    {
+      "ko": "안전조끼",
+      "romanization": "anjeon-jokki",
+      "bn": "রিফ্লেকটিভ ভেস্ট",
+      "en": "safety vest",
+      "pos": "noun",
+      "example": {
+        "ko": "야간 작업에는 안전조끼를 입습니다.",
+        "bn": "রাতের কাজে রিফ্লেকটিভ ভেস্ট পরুন।",
+        "en": "Wear a safety vest for night work."
+      }
+    },
+    {
+      "ko": "손소독제",
+      "romanization": "son-sodokje",
+      "bn": "হ্যান্ড স্যানিটাইজার",
+      "en": "hand sanitizer",
+      "pos": "noun",
+      "example": {
+        "ko": "청결을 위해 손소독제를 사용하세요.",
+        "bn": "পরিষ্কার রাখার জন্য হ্যান্ড স্যানিটাইজার ব্যবহার করুন।",
+        "en": "Use hand sanitizer to keep hands clean."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "해야 합니다 / 해야 해요",
+      "titleBn": "করণীয়: 해야 합니다",
+      "explanationBn": "বর্ণনা: কারখানায় বা কাজের জায়গায় বাধ্যতামূলক কাজ বোঝাতে ব্যবহার করা হয়। উদাহরণ ও অনুবাদ:\n1) 한국어: 안전모를 써야 합니다.\n   বাংলা: নিরাপত্তা হেলমেট পরতে হবে।\n   English: You must wear a safety helmet.\n2) 한국어: 위험 표지를 보면 멈춰야 해요.\n   বাংলা: সতর্কতা সাইন দেখা গেলে থামতে হবে।\n   English: You must stop when you see a warning sign.",
+      "explanationEn": "Use: Expressing obligation or necessity in the workplace.\nExamples:\n1) Korean: 안전모를 써야 합니다. / Bengali: নিরাপত্তা হেলমেট পরতে হবে। / English: You must wear a safety helmet.\n2) Korean: 위험 표지를 보면 멈춰야 해요. / Bengali: সতর্কতা সাইন দেখা গেলে থামতে হবে। / English: You must stop when you see a warning sign.",
+      "examples": [
+        {
+          "ko": "안전모를 써야 합니다.",
+          "bn": "নিরাপত্তা হেলমেট পরতে হবে।",
+          "en": "You must wear a safety helmet."
+        },
+        {
+          "ko": "장갑을 끼어야 해요.",
+          "bn": "দস্তানা পরতে হবে।",
+          "en": "You have to wear gloves."
+        }
+      ]
+    },
+    {
+      "pattern": "-지 마세요 / -면 안 됩니다",
+      "titleBn": "নিষেধ: -지 마세요 / -면 안 됩니다",
+      "explanationBn": "বর্ণনা: কোন কাজ না করতে নির্দেশ দেবার জন্য। উদাহরণ:\n1) 한국어: 안전 표지를 무시하지 마세요.\n   বাংলা: সতর্কতা সাইন উপেক্ষা করবেন না।\n   English: Do not ignore the warning sign.\n2) 한국어: 비상구를 막으면 안 됩니다.\n   বাংলা: জরুরি বাহিরের পথ বন্ধ করা যাবে না।\n   English: You must not block the emergency exit.",
+      "explanationEn": "Use: Giving prohibitions or telling someone not to do something.\nExamples:\n1) Korean: 안전 표지를 무시하지 마세요. / Bengali: সতর্কতা সাইন উপেক্ষা করবেন না। / English: Do not ignore the warning sign.\n2) Korean: 비상구를 막으면 안 됩니다. / Bengali: জরুরি প্রস্থান বন্ধ করা যাবে না। / English: Do not block the emergency exit.",
+      "examples": [
+        {
+          "ko": "안전 표지를 무시하지 마세요.",
+          "bn": "সতর্কতা সাইন উপেক্ষা করবেন না।",
+          "en": "Do not ignore the warning sign."
+        },
+        {
+          "ko": "비상구를 막으면 안 됩니다.",
+          "bn": "জরুরি প্রস্থান বন্ধ করা যাবে না।",
+          "en": "Do not block the emergency exit."
+        }
+      ]
+    },
+    {
+      "pattern": "-아/어도 돼요",
+      "titleBn": "অনুমতি: -아/어도 돼요",
+      "explanationBn": "বর্ণনা: কোন কাজ করার অনুমতি জানাতে। উদাহরণ:\n1) 한국어: 여기서 손소독제를 사용해도 돼요?\n   বাংলা: কি আমি এখানে হ্যান্ড স্যানিটাইজার ব্যবহার করবো?\n   English: May I use the hand sanitizer here?\n2) 한국어: 안전조끼를 벗어도 돼요?\n   বাংলা: আমি কি নিরাপত্তা ভেস্ট খুলতে পারি?\n   English: Can I take off the safety vest?",
+      "explanationEn": "Use: Asking or giving permission.\nExamples:\n1) Korean: 여기서 손소독제를 사용해도 돼요? / Bengali: কি আমি এখানে হ্যান্ড স্যানিটাইজার ব্যবহার করবো? / English: May I use the hand sanitizer here?\n2) Korean: 안전조끼를 벗어도 돼요? / Bengali: আমি কি নিরাপত্তা ভেস্ট খুলতে পারি? / English: Can I take off the safety vest?",
+      "examples": [
+        {
+          "ko": "여기서 손소독제를 사용해도 돼요?",
+          "bn": "কি আমি এখানে হ্যান্ড স্যানিটাইজার ব্যবহার করবো?",
+          "en": "May I use the hand sanitizer here?"
+        },
+        {
+          "ko": "안전조끼를 벗어도 돼요?",
+          "bn": "আমি কি নিরাপত্তা ভেস্ট খুলতে পারি?",
+          "en": "Can I take off the safety vest?"
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "장비 착용 확인",
+      "titleEn": "Checking equipment",
+      "lines": [
+        {
+          "speaker": "현장감독",
+          "ko": "출근하면 먼저 안전모와 안전화를 착용했나요?",
+          "bn": "কাজ শুরু করে আপনি কি প্রথমে নিরাপত্তা হেলমেট ও নিরাপদ জুতা পরেছেন?",
+          "en": "Did you put on your safety helmet and shoes when you arrived?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 안전모와 안전화를 착용했습니다.",
+          "bn": "হ্যাঁ, আমি নিরাপত্তা হেলমেট এবং নিরাপদ জুতা পরেছি।",
+          "en": "Yes, I put on my helmet and safety shoes."
+        },
+        {
+          "speaker": "현장감독",
+          "ko": "안전안경과 장갑은요?",
+          "bn": "নিরাপত্তা চশমা আর দস্তানাও?",
+          "en": "What about safety glasses and gloves?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "지금 착용하고 있습니다. 확인해 주세요.",
+          "bn": "এখনই পরেছি। দয়া করে দেখবেন?",
+          "en": "I'm wearing them now. Please check."
+        },
+        {
+          "speaker": "현장감독",
+          "ko": "좋습니다. 위험 발견하면 바로 보고하세요.",
+          "bn": "ভালো। যদি কোনো ঝুঁকি দেখেন তাত্ক্ষণিক রিপোর্ট করবেন।",
+          "en": "Good. Report any hazard right away."
+        }
+      ]
+    },
+    {
+      "titleBn": "비상 상황 보고",
+      "titleEn": "Reporting an emergency",
+      "lines": [
+        {
+          "speaker": "직원 A",
+          "ko": "저기 가스 냄새가 납니다. 가스감지기가 울려요.",
+          "bn": "ওখানে গ্যাসের গন্ধ পাচ্ছি। গ্যাস ডিটেক্টর বাজছে।",
+          "en": "I smell gas there. The gas detector is sounding."
+        },
+        {
+          "speaker": "직원 B",
+          "ko": "모두 대피하세요. 비상구로 이동하세요.",
+          "bn": "সবার বাইরে চলে আসুন। জরুরি প্রস্থানের দিকে যান।",
+          "en": "Everyone evacuate. Move to the emergency exit."
+        },
+        {
+          "speaker": "직원 A",
+          "ko": "감독님께 보고하겠습니다. 소화기를 가져올게요.",
+          "bn": "আমি সুপারভাইজারকে জানাচ্ছি। অগ্নিনির্বাপক নিয়ে আসছি।",
+          "en": "I'll report to the supervisor. I'll bring the fire extinguisher."
+        },
+        {
+          "speaker": "직원 B",
+          "ko": "아니요, 먼저 대피하고 감독에게 알리세요.",
+          "bn": "না, প্রথমে সবাই বেরিয়ে সুপারভাইজারকে জানান।",
+          "en": "No, evacuate first and then inform the supervisor."
+        },
+        {
+          "speaker": "직원 A",
+          "ko": "알겠습니다. 모두 안전하게 대피하세요.",
+          "bn": "বুঝেছি। সবাই নিরাপদে বেরিয়ে যান।",
+          "en": "Understood. Everyone evacuate safely."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "প্রশ্ন: 'কোনটি নিরাপত্তা হেলমেট নির্দেশ করে?'",
+      "questionKo": "질문: 다음 중 안전모는 어느 것입니까?",
+      "options": [
+        "안전모",
+        "장갑",
+        "소화기",
+        "비상구"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "ব্যাখ্যা: '안전모' শব্দটি নিরাপত্তা হেলমেট অর্থে ব্যবহৃত হয়।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "প্রশ্ন: '가스감지기' মানে কি?",
+      "questionKo": "질문: '가스감지기'의 뜻은?",
+      "options": [
+        "응급처치함",
+        "가스감지기",
+        "안전조끼",
+        "앞치마"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "ব্যাখ্যা: সঠিক উত্তর হলো '가스감지기' যেটি গ্যাস সনাক্তকরণ যন্ত্র।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "প্রশ্ন: 'Which item do you wear for loud noise?' (কোনটি উচ্চ শব্দের জন্য ব্যবহার করা হয়?)",
+      "questionKo": "질문: 큰 소음 작업 시 어떤 장비를 사용합니까?",
+      "options": [
+        "안전모",
+        "방독면",
+        "귀마개",
+        "안전화"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "ব্যাখ্যা: বড় শব্দের জন্য '귀마개' (ইয়ারপ্লাগ) ব্যবহার করা হয়।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "প্রশ্ন: '비상구' কোথায় ব্যবহার হবে?",
+      "questionKo": "질문: '비상구'는 어디에 사용합니까?",
+      "options": [
+        "화장실 표시",
+        "식당 위치",
+        "작업 도구",
+        "비상 탈출문"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "ব্যাখ্যা: '비상구' হল জরুরি অবস্থায় বেরোনোর পথ বা দরজা।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "প্রশ্ন: '응급처치함' কী জন্য?",
+      "questionKo": "질문: '응급처치함'은 무엇을 위한 것입니까?",
+      "options": [
+        "초기 치료 용품",
+        "청소 도구",
+        "보호 장비",
+        "안전 표지"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "ব্যাখ্যা: '응급처치함' মানে প্রাথমিক চিকিৎসার কিট বা প্রথমে ব্যাবহার করার জিনিসপত্র।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "স্থান পূরণ করুন: '높은 곳에서는 _______을(를) 매야 합니다.' (সঠিক শব্দ নির্বাচন করুন)",
+      "questionKo": "빈칸 채우기: '높은 곳에서는 _______을 매야 합니다.'",
+      "options": [
+        "안전화",
+        "장갑",
+        "안전대",
+        "앞치마"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "ব্যাখ্যা: উচ্চ স্থানে কাজ করার সময় '안전대' (সেফটি হারনেস) বাঁধতে হয়।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "স্থান পূরণ করুন: '화학물질을 다룰 때는 _____을(를) 끼세요.'",
+      "questionKo": "빈칸 채우기: '화학물질을 다룰 때는 _____을 끼세요.'",
+      "options": [
+        "안전조끼",
+        "장갑",
+        "귀마개",
+        "비상구"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "ব্যাখ্যা: রাসায়নিক সামগ্রী হাতে নেওয়ার সময় '장갑' পরা উচিত।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "স্থান পূরণ করুন: '공사장에서는 _______를 꼭 써야 합니다.'",
+      "questionKo": "빈칸 채우기: '공사장에서는 _______를 꼭 써야 합니다.'",
+      "options": [
+        "손소독제",
+        "안전모",
+        "방독면",
+        "소화기"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "ব্যাখ্যা: নির্মাণ এলাকায় সাধারণত '안전모' পরা বাধ্যতামূলক।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "মেলানো: বাম দিকের কোরিয়ান শব্দগুলোর সঠিক বাংলা অর্থ খুঁজুন।",
+      "questionKo": "짝짓기: 왼쪽 한국어 단어와 올바른 베트남어(বাংলা) 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "소화기",
+          "right": "অগ্নিনির্বাপক"
+        },
+        {
+          "left": "비상구",
+          "right": "জরুরি প্রস্থান"
+        },
+        {
+          "left": "장갑",
+          "right": "দস্তানা"
+        },
+        {
+          "left": "가스감지기",
+          "right": "গ্যাস সনাক্তকরণ যন্ত্র"
+        },
+        {
+          "left": "안전조끼",
+          "right": "রিফ্লেকটিভ ভেস্ট"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "ব্যাখ্যা: প্রতিটি জোড়া হলো কোরীয় শব্দ ও এর বাংলা অর্থ। (উত্তর তালিকা প্রদর্শনের উদ্দেশ্যে উত্তর 0 রাখা হয়েছে)।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "মেলানো: নিচের কোরিয়ান সরঞ্জামগুলোর ইংরেজি অর্থ খুঁজুন।",
+      "questionKo": "짝짓기: 아래 한국어 장비와 영어 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "안전모",
+          "right": "safety helmet"
+        },
+        {
+          "left": "방진마스크",
+          "right": "dust mask"
+        },
+        {
+          "left": "응급처치함",
+          "right": "first aid kit"
+        },
+        {
+          "left": "안면보호구",
+          "right": "face shield"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "ব্যাখ্যা: প্রতিটি কোরীয় টার্মের পাশে তার ইংরেজি অর্থ দেয়া আছে। (ম্যাচিং আইটেমের জন্য উত্তর 0 নির্ধারিত)।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "পাঠ ও প্রশ্ন: নিম্নের পাঠটি পড়ে সঠিক উত্তর চিহ্নিত করুন।",
+      "questionKo": "지문을 읽고 질문에 답하세요.",
+      "passage": "공사 현장에서는 안전모와 안전화를 항상 착용해야 합니다. 또한 경고표지를 보면 즉시 행동을 멈추고 감독에게 알려야 합니다.",
+      "options": [
+        "공사 현장에서는 안전모를 벗어도 된다.",
+        "경고표지를 보면 즉시 행동을 멈춰야 한다.",
+        "안전화는 선택 사항이다.",
+        "감독에게 보고하지 않아도 된다."
+      ],
+      "answer": 1,
+      "explanationBn": "ব্যাখ্যা: পাঠে বলা হয়েছে 경고표지를 보면 즉시 멈추고 감독에게 알려야 한다, তাই অপশন 1 সঠিক।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "পাঠ ও প্রশ্ন: কোনটি ভুল বিবৃতি?",
+      "questionKo": "지문을 읽고 옳지 않은 문장을 고르세요.",
+      "passage": "화학물질 취급 시에는 장갑과 앞치마 또는 보호복을 착용해야 합니다. 방독면이 필요한 경우에는 반드시 착용합니다.",
+      "options": [
+        "장갑을 착용해야 한다.",
+        "앞치마나 보호복을 입어야 한다.",
+        "방독면이 필요하면 착용하지 않아도 된다.",
+        "화학물질 취급 시 보호구 착용이 중요하다."
+      ],
+      "answer": 2,
+      "explanationBn": "ব্যাখ্যা: পাঠে বলেছে 방독면이 필요한 경우 반드시 착용해야, তাই অপশন 2 ভুল।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "পাঠ ও প্রশ্ন: 비상구에 관한 문장টি কি বলছে?",
+      "questionKo": "지문을 읽고 비상구에 대한 내용을 고르세요.",
+      "passage": "작업장에서는 비상구를 항상 막지 않도록 주의해야 합니다. 비상시에 빠르게 대피할 수 있게 통로를 확보합니다.",
+      "options": [
+        "비상구는 항상 잠가야 한다.",
+        "비상구 통로를 확보해야 한다.",
+        "비상구는 물건을 보관하는 장소이다.",
+        "비상구는 개인 물품 보관용이다."
+      ],
+      "answer": 1,
+      "explanationBn": "ব্যাখ্যা: পাঠে 비상구 통로 확보 করতে হবে বলা আছে, তাই অপশন 1 সঠিক।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পাঠ ও প্রশ্ন: কোন সরঞ্জাম গ্যাস লিক সনাক্ত করতে ব্যবহৃত হয়?",
+      "questionKo": "지문을 읽고 가스 누출을 확인하는 장비를 고르세요.",
+      "passage": "가스 누출을 의심하면 가스감지기를 확인하고 필요하면 대피합니다. 담당자에게 즉시 연락하세요.",
+      "options": [
+        "소화기",
+        "응급처치함",
+        "가스감지기",
+        "안전조끼"
+      ],
+      "answer": 2,
+      "explanationBn": "ব্যাখ্যা: পাঠে গ্যাস 누출 সন্দেহ হলে 가스감지기 পরীক্ষা করতে বলা হয়েছে।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পাঠ ও প্রশ্ন: পাঠ থেকে কী করা উচিত তা চিহ্নিত করুন।",
+      "questionKo": "지문을 읽고 해야 할 행동을 고르세요.",
+      "passage": "작업 시작 전에는 개인 보호장구를 착용하고, 위험을 발견하면 즉시 보고합니다. 응급상황 시에는 비상구로 대피하세요.",
+      "options": [
+        "개인 보호장구를 착용하지 않는다.",
+        "위험을 발견하면 숨긴다.",
+        "위험을 발견하면 즉시 보고한다.",
+        "응급상황 때 그대로 작업한다."
+      ],
+      "answer": 2,
+      "explanationBn": "ব্যাখ্যা: পাঠে ঝুঁকি দেখলে তৎক্ষণাৎ রিপোর্ট করার কথা আছে, তাই অপশন 2 সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শুনুন এবং প্রশ্নের উত্তর দিন: নিচের কথাটি কী নির্দেশ করে?",
+      "questionKo": "듣고 질문에 답하세요: 다음 발화는 무엇을 지시합니까?",
+      "passage": "감독님: 모두 비상구로 이동하세요. 연기가 보이면 낮은 자세로 이동하세요.",
+      "options": [
+        "연기가 보이면 높은 곳으로 올라가라.",
+        "비상구로 이동하고, 연기가 보이면 낮은 자세로 이동하라.",
+        "연기가 보이면 그 자리에 머물러라.",
+        "대피하지 않아도 된다."
+      ],
+      "answer": 1,
+      "explanationBn": "ব্যাখ্যা: 발화는 비상구로 이동하고 연기 হলে 낮은 자세ে 이동 করার নির্দেশ দিচ্ছে; তাই অপশন 1 সঠিক।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শুনুন এবং প্রশ্নের উত্তর দিন: '방진마스크를 착용하세요' মানে কি?",
+      "questionKo": "듣고 질문에 답하세요: '방진마스크를 착용하세요'의 의미는?",
+      "passage": "팀장: 분진 작업 구역입니다. 방진마스크를 착용하세요.",
+      "options": [
+        "방진마스크를 벗으세요.",
+        "방진마스크를 착용하세요.",
+        "장갑을 벗으세요.",
+        "비상구를 막으세요."
+      ],
+      "answer": 1,
+      "explanationBn": "ব্যাখ্যা: বক্তা বলেছেন 방진마스크 পরতে, তাই অপশন 1 (두번째) সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "শুনুন এবং প্রশ্নের উত্তর দিন: বক্তা কি বললেন?",
+      "questionKo": "듣고 질문에 답하세요: 화자가 무슨 말을 했습니까?",
+      "passage": "직원: 가스 냄새가 납니다. 모두 대피하고 감독에게 알립시다.",
+      "options": [
+        "가스 냄새가 나지 않는다.",
+        "가스 냄새가 난다. 대피하고 감독에게 알리자.",
+        "가스를 더 사용하자.",
+        "대피하지 말고 그냥 일하자."
+      ],
+      "answer": 1,
+      "explanationBn": "ব্যাখ্যা: 발화 내용은 가스 냄새가 난다고 말하며 대피하고 감독에게 알리자고 했음। তাই অপশন 1 সঠিক।"
+    }
+  ]
+}

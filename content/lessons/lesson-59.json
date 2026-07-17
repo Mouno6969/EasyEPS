@@ -1,0 +1,669 @@
+{
+  "chapter": 59,
+  "slug": "immigration-act",
+  "title": {
+    "ko": "출입국관리법",
+    "bn": "অভিবাসন আইন",
+    "en": "Immigration Act"
+  },
+  "category": "laws",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "অভিবাসন সম্পর্কিত সহজ কথাবার্তা বুঝতে এবং বলার ক্ষমতা অর্জন করা।",
+      "ভিসা, 체류기간 এবং 재류カード সম্পর্কিত সাধারণ শব্দভাণ্ডার শিখা।",
+      "সরল নির্দেশনা (উদাহরণ: 연장해야 합니다, 신고해야 합니다) বুঝতে পারা।"
+    ],
+    "en": [
+      "Understand and use basic immigration-related phrases.",
+      "Learn common vocabulary about visas, period of stay, and residence cards.",
+      "Comprehend simple instructions (e.g., 'must extend', 'must report') in everyday and workplace situations."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "출입국관리법",
+      "romanization": "chulipguk gwanribeop",
+      "bn": "অভিবাসন আইন",
+      "en": "Immigration Act",
+      "pos": "noun",
+      "example": {
+        "ko": "출입국관리법은 체류 규정을 정합니다.",
+        "bn": "অভিবাসন আইন বাসস্থানের নিয়ম ঠিক করে।",
+        "en": "The Immigration Act sets rules for stay."
+      }
+    },
+    {
+      "ko": "비자",
+      "romanization": "bija",
+      "bn": "ভিসা",
+      "en": "visa",
+      "pos": "noun",
+      "example": {
+        "ko": "비자 만료 전에 연장 신청하세요.",
+        "bn": "ভিসা শেষ হওয়ার আগে নবায়নের জন্য আবেদন করুন।",
+        "en": "Apply to extend your visa before it expires."
+      }
+    },
+    {
+      "ko": "체류기간",
+      "romanization": "cheryugigan",
+      "bn": "থাকবার সময়",
+      "en": "period of stay",
+      "pos": "noun",
+      "example": {
+        "ko": "체류기간을 확인하세요.",
+        "bn": "থাকবার সময় যাচাই করুন।",
+        "en": "Check your period of stay."
+      }
+    },
+    {
+      "ko": "체류자격",
+      "romanization": "cheryujagyeok",
+      "bn": "থাকার যোগ্যতা/자격",
+      "en": "status of stay",
+      "pos": "noun",
+      "example": {
+        "ko": "체류자격에 따라 일할 수 있는지 달라집니다.",
+        "bn": "থাকার ধরণ অনুযায়ী কাজ করা যাবে কি না নির্ধারিত হয়।",
+        "en": "Whether you can work depends on your status of stay."
+      }
+    },
+    {
+      "ko": "입국",
+      "romanization": "ipguk",
+      "bn": "দেশে প্রবেশ",
+      "en": "entry / arrival",
+      "pos": "noun",
+      "example": {
+        "ko": "입국 심사에서 여권을 보여 주세요.",
+        "bn": "প্রবেশ পরীক্ষায় পাসপোর্ট দেখান।",
+        "en": "Show your passport at the entry inspection."
+      }
+    },
+    {
+      "ko": "출국",
+      "romanization": "chulguk",
+      "bn": "দেশ ত্যাগ/প্রস্থান",
+      "en": "departure",
+      "pos": "noun",
+      "example": {
+        "ko": "출국 전에 체류 기록을 확인하세요.",
+        "bn": "প্রস্থান করার আগে থাকা-বিশদ বিবরণ যাচাই করুন।",
+        "en": "Check your stay records before departure."
+      }
+    },
+    {
+      "ko": "연장",
+      "romanization": "yeonjang",
+      "bn": "বর্ধিত করা/নবায়ন",
+      "en": "extension",
+      "pos": "noun",
+      "example": {
+        "ko": "체류기간 연장을 신청했습니다.",
+        "bn": "থাকার সময় বাড়ানোর জন্য আবেদন করেছি।",
+        "en": "I applied for an extension of my stay."
+      }
+    },
+    {
+      "ko": "신고",
+      "romanization": "singo",
+      "bn": "প্রতিবেদন/নোটিশ করা",
+      "en": "report / notify",
+      "pos": "verb",
+      "example": {
+        "ko": "주소 변경은 14일 이내에 신고해야 합니다.",
+        "bn": "ঠিকানা বদল 14 দিনের মধ্যে জানাতে হবে।",
+        "en": "You must report an address change within 14 days."
+      }
+    },
+    {
+      "ko": "외국인등록증",
+      "romanization": "oegugin deungnokjeung",
+      "bn": "বিদেশি নিবন্ধন কার্ড",
+      "en": "foreigner registration card",
+      "pos": "noun",
+      "example": {
+        "ko": "외국인등록증을 항상 소지하세요.",
+        "bn": "বিদেশি নিবন্ধন কার্ড সবসময় সাথে রাখুন।",
+        "en": "Always carry your foreigner registration card."
+      }
+    },
+    {
+      "ko": "재류카드",
+      "romanization": "jaeryu kadeu",
+      "bn": "রেসিডেন্স কার্ড",
+      "en": "residence card",
+      "pos": "noun",
+      "example": {
+        "ko": "재류카드에 주소를 적어 두세요.",
+        "bn": "রেসিডেন্স কার্ডে ঠিকানা লিখে রাখুন।",
+        "en": "Write your address on the residence card."
+      }
+    },
+    {
+      "ko": "불법체류",
+      "romanization": "bulbeop cheryu",
+      "bn": "অবৈধ অবস্থান/ইলিগ্যাল স্টে",
+      "en": "illegal stay / overstaying",
+      "pos": "noun",
+      "example": {
+        "ko": "불법체류는 문제를 일으킬 수 있습니다.",
+        "bn": "অবৈধ থাকা সমস্যার কারণ হতে পারে।",
+        "en": "Illegal stay can cause problems."
+      }
+    },
+    {
+      "ko": "자진출국",
+      "romanization": "jajin chulguk",
+      "bn": "স্বেচ্ছায় দেশত্যাগ",
+      "en": "voluntary departure",
+      "pos": "noun",
+      "example": {
+        "ko": "자진출국을 선택할 수 있습니다.",
+        "bn": "আপনি স্বেচ্ছায় প্রস্থান বেছে নিতে পারেন।",
+        "en": "You may choose voluntary departure."
+      }
+    },
+    {
+      "ko": "체류지",
+      "romanization": "cheryuji",
+      "bn": "থাকার স্থান/ঠিকানা",
+      "en": "place of stay / address",
+      "pos": "noun",
+      "example": {
+        "ko": "체류지를 변경하면 신고하세요.",
+        "bn": "থাকার ঠিকানা বদলালে জানান।",
+        "en": "Report when you change your place of stay."
+      }
+    },
+    {
+      "ko": "취업활동",
+      "romanization": "chwieop hwaldong",
+      "bn": "চাকরির কার্যক্রম",
+      "en": "employment activity",
+      "pos": "noun",
+      "example": {
+        "ko": "어떤 체류자격은 취업활동이 제한됩니다.",
+        "bn": "কিছু স্ট্যাটাসে চাকরির কার্যক্রম সীমাবদ্ধ থাকে।",
+        "en": "Some statuses restrict employment activities."
+      }
+    },
+    {
+      "ko": "벌금",
+      "romanization": "beolgeum",
+      "bn": "জরিমানা",
+      "en": "fine",
+      "pos": "noun",
+      "example": {
+        "ko": "규정을 지키지 않으면 벌금이 부과될 수 있습니다.",
+        "bn": "নিয়ম না মানলে জরিমানা হতে পারে।",
+        "en": "Not following rules may result in a fine."
+      }
+    },
+    {
+      "ko": "단속",
+      "romanization": "dansok",
+      "bn": "পড়া নজরদারি/রিটেল",
+      "en": "crackdown / enforcement",
+      "pos": "noun",
+      "example": {
+        "ko": "단속으로 불법체류자를 찾습니다.",
+        "bn": "নজরদারি করে অবৈধদের খোঁজা হয়।",
+        "en": "Enforcement finds illegal residents."
+      }
+    },
+    {
+      "ko": "허가",
+      "romanization": "heoga",
+      "bn": "অনুমতি/পারমিট",
+      "en": "permission / permit",
+      "pos": "noun",
+      "example": {
+        "ko": "일을 하려면 허가가 필요할 수 있습니다.",
+        "bn": "কাজ করার জন্য অনুমতি লাগতে পারে।",
+        "en": "You may need a permit to work."
+      }
+    },
+    {
+      "ko": "신분증",
+      "romanization": "sinbunjung",
+      "bn": "পরিচয়পত্র",
+      "en": "identification card",
+      "pos": "noun",
+      "example": {
+        "ko": "신분증을 요청하면 보여 주세요.",
+        "bn": "পরিচয়পত্র চাইলে দেখান।",
+        "en": "Show your ID when requested."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "아/어야 하다",
+      "titleBn": "~해야 한다 (প্রয়োজনীয়তা)",
+      "explanationBn": "কোনো কাজ করা বাধ্যতামূলক বোঝাতে ব্যবহার করা হয়। সাধারণভাবে '해야 합니다' ইত্যাদি।",
+      "explanationEn": "Used to express necessity or obligation (must / have to). Forms like '해야 합니다'.",
+      "examples": [
+        {
+          "ko": "비자를 연장해야 합니다.",
+          "bn": "ভিসা নবায়ন করতে হবে।",
+          "en": "You must extend your visa."
+        },
+        {
+          "ko": "주소를 신고해야 합니다.",
+          "bn": "ঠিকানা জানাতে হবে।",
+          "en": "You must report your address."
+        }
+      ]
+    },
+    {
+      "pattern": "아/어도 되다",
+      "titleBn": "~해도 된다 (অনুমতি)",
+      "explanationBn": "কিছু করা অনুমোদিত বা করা যাবে বোঝাতে ব্যবহার হয় (অনুমতি)।",
+      "explanationEn": "Used to indicate permission (may / may do).",
+      "examples": [
+        {
+          "ko": "사진을 찍어도 돼요?",
+          "bn": "ফটো তোলাই যাবে কি?",
+          "en": "May I take a photo?"
+        },
+        {
+          "ko": "재류카드를 보여줘도 돼요.",
+          "bn": "রেসিডেন্স কার্ড দেখানো যাবে।",
+          "en": "You may show your residence card."
+        }
+      ]
+    },
+    {
+      "pattern": "(으)면 안 되다",
+      "titleBn": "~ করা চলবে না (নিষেধ)",
+      "explanationBn": "কোনো কাজ করা mana/নিষিদ্ধ বোঝাতে ব্যবহৃত হয় (উদাহরণ: 하면 안 됩니다)।",
+      "explanationEn": "Used to express prohibition (must not / cannot).",
+      "examples": [
+        {
+          "ko": "불법체류하면 안 됩니다.",
+          "bn": "অবৈধভাবে থাকতে নেই।",
+          "en": "You must not stay illegally."
+        },
+        {
+          "ko": "신분증 없이 출국하면 안 됩니다.",
+          "bn": "আইডি ছাড়া দেশ ছেড়ে যাওয়া যাবে না।",
+          "en": "You must not depart without ID."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "회사에서 비자 확인",
+      "titleEn": "At the company: visa check",
+      "lines": [
+        {
+          "speaker": "인사담당자",
+          "ko": "안녕하세요. 비자 기간을 확인할 수 있을까요?",
+          "bn": "হ্যালো। ভিসার সময় যাচাই করতে পারি কি?",
+          "en": "Hello. May I check your visa period?"
+        },
+        {
+          "speaker": "근로자",
+          "ko": "네, 여기 재류카드와 비자가 있습니다.",
+          "bn": "হ্যাঁ, এখানে রেসিডেন্স কার্ড ও ভিসা আছে।",
+          "en": "Yes, here are my residence card and visa."
+        },
+        {
+          "speaker": "인사담당자",
+          "ko": "체류기간을 연장해야 할 경우 제가 알려드릴게요.",
+          "bn": "থাকার সময় বাড়াতে হলে আমি জানাব।",
+          "en": "If you need to extend your stay, I'll inform you."
+        },
+        {
+          "speaker": "근로자",
+          "ko": "감사합니다. 언제 신고해야 하나요?",
+          "bn": "ধন্যবাদ। কখন জানাতে হবে?",
+          "en": "Thank you. When should I report?"
+        },
+        {
+          "speaker": "인사담당자",
+          "ko": "가능하면 한 달 전에 준비하세요.",
+          "bn": "সম্ভব হলে এক মাস আগে প্রস্তুত করুন।",
+          "en": "If possible, prepare one month in advance."
+        }
+      ]
+    },
+    {
+      "titleBn": "출입국사무소에서 문의",
+      "titleEn": "At immigration office",
+      "lines": [
+        {
+          "speaker": "사무소 직원",
+          "ko": "오늘 무슨 업무로 오셨나요?",
+          "bn": "আজ কোন কাজে এসেছেন?",
+          "en": "What business do you have today?"
+        },
+        {
+          "speaker": "방문자",
+          "ko": "재류카드 주소 변경 신고하러 왔습니다.",
+          "bn": "রেসিডেন্স কার্ডের ঠিকানা বদল জানাতে এসেছি।",
+          "en": "I came to report an address change on my residence card."
+        },
+        {
+          "speaker": "사무소 직원",
+          "ko": "신분증과 새 주소 증빙을 보여 주세요.",
+          "bn": "পরিচয়পত্র এবং নতুন ঠিকানার প্রমাণ দেখান।",
+          "en": "Please show your ID and proof of the new address."
+        },
+        {
+          "speaker": "방문자",
+          "ko": "여기 사진과 임대계약서가 있습니다.",
+          "bn": "এখানে ছবি ও ভাড়ার চুক্তিপত্র আছে।",
+          "en": "Here are the photo and the lease contract."
+        },
+        {
+          "speaker": "사무소 직원",
+          "ko": "확인 후 신고 처리를 해 드리겠습니다.",
+          "bn": "যাচাই করে আবেদন সম্পন্ন করে দিচ্ছি।",
+          "en": "After checking, I will process the report."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "‘비자’ শব্দের অর্থ কোনটি?",
+      "questionKo": "‘비자’라는 단어의 뜻은 무엇인가요?",
+      "options": [
+        "출국",
+        "외국에서 온 사람이 받는 허가",
+        "벌금",
+        "주소"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "비자는 বিদেশে প্রবেশ বা থাকার অনুমতি বোঝায়; তাই দ্বিতীয়টি সঠিক।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "‘체류기간’을 가장 잘 설명한 것은?",
+      "questionKo": "‘체류기간’을 가장 잘 설명한 것은?",
+      "options": [
+        "머무르는 기간",
+        "벌금의 종류",
+        "여권의 번호",
+        "입국 심사 장소"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "체류기간 মানে কত দিন থাকা যাবে—অর্থাৎ 머무ার সময়।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "주소를 변경하면 무엇을 해야 하나요?",
+      "questionKo": "주소를 변경하면 무엇을 해야 하나요?",
+      "options": [
+        "출국",
+        "벌금 납부",
+        "단속 대피",
+        "신고해야 한다"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "주소 변경은 신고 의무가 있으므로 '신고해야 한다' সঠিক।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "‘불법체류’ 상황에서 কী করা উচিত না?",
+      "questionKo": "‘불법체류’ 상황에서 무엇을 하면 안 되나요?",
+      "options": [
+        "자진출국 신청",
+        "신고하기",
+        "증명서 준비하기",
+        "무시하고 계속 머무르기"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "অবৈধভাবে স্থায়ী থাকা অবৈধ; তাই 'চলতে থাকা' ঠিক না।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "회사에서 체류기간을 묻는 이유는 কি?",
+      "questionKo": "회사에서 체류기간을 확인하는 이유는 무엇인가요?",
+      "options": [
+        "여행하기 위해",
+        "직원이 합법적으로 일할 수 있는지 확인하려고",
+        "벌금 부과하려고",
+        "비자 취소하려고"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "회사는 직원이 합법적으로 일할 수 있는지 확인하려고 체류기간을 묻습니다।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "‘_____을/를 신고해야 합니다.’ 빈칸에 알맞은 단어는?",
+      "questionKo": "‘_____을/를 신고해야 합니다.’ 빈칸에 알맞은 단어는?",
+      "options": [
+        "주소",
+        "단속",
+        "벌금",
+        "입국심사"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "주소를 변경하면 신고해야 하므로 정답은 '주소'।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "‘비자 만료 전에 ____ 신청하세요.’ 알맞은 단어는?",
+      "questionKo": "‘비자 만료 전에 ____ 신청하세요.’ 알맞은 단어는?",
+      "options": [
+        "출국",
+        "단속",
+        "연장",
+        "벌금"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "비자 만료 전에는 연장 신청을 합니다; তাই '연장'।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "‘외국인등록증을 항상 ____세요.’ 빈칸에 알맞은 표현은?",
+      "questionKo": "‘외국인등록증을 항상 ____세요.’ 빈칸에 알맞은 표현은?",
+      "options": [
+        "먹으",
+        "갖고",
+        "달려",
+        "잔디"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "신분증을 항상 소지하라는 의미로 '갖고'가 맞습니다।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "한국어 단어와 বাংলা অর্থ 잘 연결하세요।",
+      "questionKo": "한국어 단어와 의미를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "체류기간",
+          "right": "থাকবার সময়"
+        },
+        {
+          "left": "비자",
+          "right": "ভিসা"
+        },
+        {
+          "left": "재류카드",
+          "right": "রেসিডেন্স কার্ড"
+        },
+        {
+          "left": "신고",
+          "right": "প্রতিবেদন/জানানো"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি জোড়া পাঠে শেখানো শব্দগুলির সরাসরি অনুবাদ।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "한국어 단어와 English 뜻 연결하세요।",
+      "questionKo": "한국어 단어와 영어 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "불법체류",
+          "right": "illegal stay"
+        },
+        {
+          "left": "연장",
+          "right": "extension"
+        },
+        {
+          "left": "허가",
+          "right": "permission"
+        },
+        {
+          "left": "단속",
+          "right": "enforcement"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি জোড়া লেসনে শেখানো শব্দ-মর্মের মিল।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর টিক করুন।",
+      "questionKo": "다음 글을 읽고 맞는 것을 고르세요.",
+      "passage": "출입국관리법에 따라 재류카드는 항상 소지하는 것이 권장됩니다. 주소를 변경하면 신고해야 합니다.",
+      "options": [
+        "재류카드는 집에만 보관해야 한다.",
+        "주소 변경 후에는 신고할 필요가 없다.",
+        "재류카드는 항상 가지고 다니는 것이 좋다.",
+        "재류카드는 외국에서만 필요하다."
+      ],
+      "answer": 2,
+      "explanationBn": "প্যাসেজে '재류카드는 항상 소지하는 것이 권장됩니다' আছে; তাই তৃতীয়টি সঠিক।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর টিক করুন।",
+      "questionKo": "다음 글을 읽고 맞는 것을 고르세요.",
+      "passage": "비자 만료 전에 연장 신청을 하면 체류를 계속할 수 있습니다. 가능한 빨리 준비하세요.",
+      "options": [
+        "비자는 연장 신청으로 기간을 계속할 수 있다.",
+        "비자 만료 후에는 연장 신청이 항상 가능하다.",
+        "비자 연장은 서류가 필요 없다.",
+        "연장 신청은 출국할 때만 한다."
+      ],
+      "answer": 0,
+      "explanationBn": "প্যাসেজে বলা আছে 연장 신청 করলে 체류 চালানো যাবে; তাই প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর টিক করুন।",
+      "questionKo": "다음 글을 읽고 맞는 것을 고르세요.",
+      "passage": "불법체류는 문제가 되므로 자진출국 등 해결 방법을 상담하는 것이 좋습니다.",
+      "options": [
+        "불법체류는 문제가 아니다.",
+        "상담이 필요없다.",
+        "자진출국은 불법체류를 해결하는 한 방법이다.",
+        "불법체류는 항상 벌금만 있다."
+      ],
+      "answer": 2,
+      "explanationBn": "প্যাসেজে 자진출국কে একটি সমাধান হিসেবে উল্লিখিত; তাই তৃতীয়টি সঠিক।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর টিক করুন।",
+      "questionKo": "다음 글을 읽고 맞는 것을 고르세요.",
+      "passage": "회사에서 직원의 체류자격을 확인하는 것은 불법 취업을 막기 위함입니다.",
+      "options": [
+        "회사는 체류자격을 확인할 필요가 없다.",
+        "체류자격 확인은 불법 취업을 방지하려는 목적이다.",
+        "체류자격은 개인 정보가 아니어서 공개한다.",
+        "체류자격은 항상 같아서 확인할 필요가 없다."
+      ],
+      "answer": 1,
+      "explanationBn": "글에 회사가 확인하는 이유가 불법 취업 방지라고 되어 있어 দ্বিতীয়টি সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর টিক করুন।",
+      "questionKo": "다음 글을 읽고 맞는 것을 고르세요.",
+      "passage": "주소 변경은 해당 기관에 신고해야 하며 증빙 서류를 준비하세요.",
+      "options": [
+        "주소 변경 시 신고와 증빙 서류 준비가 필요하다.",
+        "증빙 서류는 필요하지 않다.",
+        "주소 변경은 구두로만 알리면 된다.",
+        "주소 변경은 외국에서만 적용된다."
+      ],
+      "answer": 0,
+      "explanationBn": "প্যাসেজে স্পষ্টভাবে 신고 ও 증빙 প্রয়োজন বলা আছে; তাই প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "다음 대화를 듣고 질문에 답하세요। (말하는 내용을 읽으세요.)",
+      "questionKo": "다음 대화를 듣고 질문에 답하세요.",
+      "passage": "사무소: 신분증과 임대계약서를 보여 주세요. 방문자: 여기 있습니다. 사무소: 확인 후 처리하겠습니다.",
+      "options": [
+        "방문자는 서류를 가져오지 않았다.",
+        "사무소는 서류 확인 후 처리한다고 했다.",
+        "사무소는 추가 벌금을 요구했다.",
+        "방문자는 출국하겠다고 말했다."
+      ],
+      "answer": 1,
+      "explanationBn": "대화에 '확인 후 처리하겠습니다'라고 있어 দ্বিতীয়টি সঠিক।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "다음 대화를 듣고 질문에 답하세요. (말하는 내용을 읽으세요.)",
+      "questionKo": "다음 대화를 듣고 질문에 답하세요.",
+      "passage": "인사담당자: 비자 기간을 확인할 수 있을까요? 근로자: 네, 재류카드가 여기 있습니다.",
+      "options": [
+        "근로자는 재류카드가 없다.",
+        "인사담당자는 비자를 연장했다.",
+        "근로자는 재류카드를 제시했다.",
+        "인사담당자는 출국을 요청했다."
+      ],
+      "answer": 2,
+      "explanationBn": "근로자가 '여기 재류카드가 있습니다'라고 했으므로 তৃতীয়টি সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "다음 대화를 듣고 질문에 답하세요. (말하는 내용을 읽으세요.)",
+      "questionKo": "다음 대화를 듣고 질문에 답하세요.",
+      "passage": "사무소 직원: 주소를 변경하면 신고해야 합니다. 방문자: 알겠습니다. 언제까지 해야 하나요?",
+      "options": [
+        "방문자는 신고를 원하지 않는다.",
+        "사무소 직원은 신고가 필요 없다고 말했다.",
+        "방문자는 신고 기한을 물었다.",
+        "사무소 직원은 벌금을 부과했다."
+      ],
+      "answer": 2,
+      "explanationBn": "방문자가 '언제까지 해야 하나요?'라고 물었으므로 '신고 기한을 물었다' সঠিক।"
+    }
+  ]
+}

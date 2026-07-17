@@ -1,0 +1,671 @@
+{
+  "chapter": 40,
+  "slug": "plastic-and-rubber-molding",
+  "title": {
+    "ko": "플라스틱과 고무 성형",
+    "bn": "প্লাস্টিক ও রাবার মোল্ডিং",
+    "en": "Plastic and Rubber Molding"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কারখানায় প্লাস্টিক ও রাবার মোল্ডিং-এর সাধারণ শব্দভাণ্ডার জানতে পারা।",
+      "মেশিন সেটিং ও সমস্যা বিস্তারিতভাবে জিজ্ঞাসা ও বুঝতে পারা।",
+      "সহকর্মীকে সহজ অনুদান ও নির্দেশ দিতে পারা।",
+      "দৈনন্দিন মান নিয়ন্ত্রণ ও ত্রুটি রিপোর্ট সম্পর্কে মৌলিক কথাবার্তা বলা।"
+    ],
+    "en": [
+      "Recognize basic vocabulary for plastic and rubber molding in the factory.",
+      "Ask and understand simple machine settings and issues.",
+      "Give and follow basic work instructions to coworkers.",
+      "Speak simple lines for routine quality checks and defect reports."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "플라스틱",
+      "romanization": "peullaseutik",
+      "bn": "প্লাস্টিক",
+      "en": "plastic",
+      "pos": "noun",
+      "example": {
+        "ko": "이 부품은 플라스틱으로 만들었습니다.",
+        "bn": "এই অংশটি প্লাস্টিক দিয়ে তৈরি করা হয়েছে।",
+        "en": "This part is made of plastic."
+      }
+    },
+    {
+      "ko": "고무",
+      "romanization": "gomu",
+      "bn": "রাবার/রাবারি",
+      "en": "rubber",
+      "pos": "noun",
+      "example": {
+        "ko": "고무 실링을 교체해야 합니다.",
+        "bn": "রাবার সিলটি বদলাতে হবে।",
+        "en": "We need to replace the rubber seal."
+      }
+    },
+    {
+      "ko": "사출성형",
+      "romanization": "sachul seonghyeong",
+      "bn": "ইঞ্জেকশন মোল্ডিং (সাচুল)",
+      "en": "injection molding",
+      "pos": "noun",
+      "example": {
+        "ko": "사출성형으로 부품을 생산합니다.",
+        "bn": "ইঞ্জেকশন মোল্ডিং দিয়ে অংশগুলো উৎপাদন করা হয়।",
+        "en": "Parts are produced by injection molding."
+      }
+    },
+    {
+      "ko": "압축성형",
+      "romanization": "apchuk seonghyeong",
+      "bn": "কমপ্রেশন মোল্ডিং (প্রেসিং)",
+      "en": "compression molding",
+      "pos": "noun",
+      "example": {
+        "ko": "고무 부품은 압축성형으로 만듭니다.",
+        "bn": "রাবারের অংশগুলো সাধারণত কমপ্রেশন মোল্ডিং-এ তৈরি হয়।",
+        "en": "Rubber parts are usually made by compression molding."
+      }
+    },
+    {
+      "ko": "금형",
+      "romanization": "geumhyeong",
+      "bn": "মোল্ড/টেমপ্লেট",
+      "en": "mold",
+      "pos": "noun",
+      "example": {
+        "ko": "금형을 청소하세요.",
+        "bn": "মোল্ডটি পরিষ্কার করুন।",
+        "en": "Please clean the mold."
+      }
+    },
+    {
+      "ko": "사출기",
+      "romanization": "sachulgi",
+      "bn": "ইঞ্জেকশন মেসিন",
+      "en": "injection machine",
+      "pos": "noun",
+      "example": {
+        "ko": "사출기를 점검합니다.",
+        "bn": "ইঞ্জেকশন মেশিনটি পরীক্ষা করছি।",
+        "en": "I'm checking the injection machine."
+      }
+    },
+    {
+      "ko": "냉각",
+      "romanization": "naenggak",
+      "bn": "কুলিং/ঠান্ডা করা",
+      "en": "cooling",
+      "pos": "noun",
+      "example": {
+        "ko": "냉각 시간이 충분합니까?",
+        "bn": "কুলিং সময়টা যথেষ্ট কি?",
+        "en": "Is the cooling time sufficient?"
+      }
+    },
+    {
+      "ko": "경화",
+      "romanization": "gyeonghwa",
+      "bn": "কিউরিং/সেট হওয়া",
+      "en": "curing/hardening",
+      "pos": "noun",
+      "example": {
+        "ko": "고무가 완전히 경화되지 않았습니다.",
+        "bn": "রাবার পুরোপুরি কিউর হয়নি।",
+        "en": "The rubber hasn't fully cured."
+      }
+    },
+    {
+      "ko": "게이트",
+      "romanization": "geiteu",
+      "bn": "গেট (রক্ত প্রবাহের পথ)",
+      "en": "gate (mold entry point)",
+      "pos": "noun",
+      "example": {
+        "ko": "게이트 자국이 보입니다.",
+        "bn": "গেটে দাগ দেখা যাচ্ছে।",
+        "en": "There is a gate mark visible."
+      }
+    },
+    {
+      "ko": "러너",
+      "romanization": "reoneo",
+      "bn": "রানার (প্লাস্টিক পথ)",
+      "en": "runner",
+      "pos": "noun",
+      "example": {
+        "ko": "러너를 제거해야 합니다.",
+        "bn": "রানারটি সরাতে হবে।",
+        "en": "We must remove the runner."
+      }
+    },
+    {
+      "ko": "탈형",
+      "romanization": "talhyeong",
+      "bn": "ডিমোল্ডিং/চেটিয়ে নেওয়া",
+      "en": "demolding",
+      "pos": "noun",
+      "example": {
+        "ko": "탈형이 잘 되지 않습니다.",
+        "bn": "ডিমোল্ডিং ভালো হচ্ছে না।",
+        "en": "The demolding is not going well."
+      }
+    },
+    {
+      "ko": "성형온도",
+      "romanization": "seonghyeong ondo",
+      "bn": "মোল্ডিং তাপমাত্রা",
+      "en": "molding temperature",
+      "pos": "noun",
+      "example": {
+        "ko": "성형온도를 올려보세요.",
+        "bn": "মোল্ডিং তাপমাত্রা বাড়িয়ে দেখুন।",
+        "en": "Try increasing the molding temperature."
+      }
+    },
+    {
+      "ko": "재료 혼합",
+      "romanization": "jaeryo honhab",
+      "bn": "উপাদান মিশ্রণ",
+      "en": "material mixing",
+      "pos": "noun",
+      "example": {
+        "ko": "재료 혼합 비율을 확인하세요.",
+        "bn": "উপাদানের মিশ্রণের অনুপাত পরীক্ষা করুন।",
+        "en": "Check the material mixing ratio."
+      }
+    },
+    {
+      "ko": "배합비",
+      "romanization": "baehabbI",
+      "bn": "ব্যালান্স/মিশ্রণ অনুপাত",
+      "en": "mixing ratio",
+      "pos": "noun",
+      "example": {
+        "ko": "배합비가 맞지 않으면 품질 나빠집니다.",
+        "bn": "মিশ্রণ অনুপাত ঠিক না হলে গুণগত মান খারাপ হবে।",
+        "en": "If the mixing ratio is wrong, quality will suffer."
+      }
+    },
+    {
+      "ko": "탈착",
+      "romanization": "talchak",
+      "bn": "অপসারণ/আলগা করা",
+      "en": "attach/detach (removal)",
+      "pos": "verb",
+      "example": {
+        "ko": "몰드를 탈착하세요.",
+        "bn": "মোল্ডটি অপসারণ করুন।",
+        "en": "Detach the mold."
+      }
+    },
+    {
+      "ko": "불량",
+      "romanization": "bullyang",
+      "bn": "খারাপ/দোষযুক্ত",
+      "en": "defective",
+      "pos": "noun/adjective",
+      "example": {
+        "ko": "오늘 불량이 많습니다.",
+        "bn": "আজ খারাপ পিসি বেশি আছে।",
+        "en": "There are many defective pieces today."
+      }
+    },
+    {
+      "ko": "압력",
+      "romanization": "apryeok",
+      "bn": "প্রেসার/চাপ",
+      "en": "pressure",
+      "pos": "noun",
+      "example": {
+        "ko": "사출 압력을 낮춰 주세요.",
+        "bn": "ইঞ্জেকশন প্রেসারটা কমিয়ে দিন।",
+        "en": "Please lower the injection pressure."
+      }
+    },
+    {
+      "ko": "수지",
+      "romanization": "suji",
+      "bn": "রেসিন/পলিমার",
+      "en": "resin",
+      "pos": "noun",
+      "example": {
+        "ko": "이 수지는 내열성이 좋습니다.",
+        "bn": "এই রেসিনের তাপ প্রতিরোধ ক্ষমতা ভালো।",
+        "en": "This resin has good heat resistance."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "~아/어야 하다",
+      "titleBn": "~아/어야 하다 (করা লাগবে)",
+      "explanationBn": "এই পরিবর্তনটি বাধ্যতামূলক বোঝায় — কিছু করার প্রয়োজন আছে। উদাহরণ: \n1) 금형을 청소해야 합니다. (금형을 청소해야 합니다.)\n2) 배합비를 맞춰야 해요. (배합비를 맞춰야 해요.)\nবাংলা: উপরে উদাহরণগুলোতে 'করতে হবে' অর্থ বোঝায়।",
+      "explanationEn": "This pattern expresses obligation or necessity. Examples:\n1) 금형을 청소해야 합니다. — You must clean the mold.\n2) 배합비를 맞춰야 해요. — You need to adjust the mixing ratio.",
+      "examples": [
+        {
+          "ko": "냉각 시간을 늘려야 합니다.",
+          "bn": "কুলিং সময় বাড়াতে হবে।",
+          "en": "You must increase the cooling time."
+        },
+        {
+          "ko": "불량품을 분리해야 해요.",
+          "bn": "খারাপ পিস আলাদা করতে হবে।",
+          "en": "You need to separate the defective items."
+        }
+      ]
+    },
+    {
+      "pattern": "~고 있다",
+      "titleBn": "~고 있다 (চলিত কাজ)",
+      "explanationBn": "এটি কোনো কাজ বা প্রক্রিয়া চলমান আছে বোঝায়। উদাহরণ: \n1) 사출기가 가열되고 있습니다. — মেশিন এখন গরম হচ্ছে।\n2) 재료를 혼합하고 있어요. — উপাদান গুলো মিশছে।",
+      "explanationEn": "This shows an ongoing action or process. Examples:\n1) 사출기가 가열되고 있습니다. — The injection machine is heating.\n2) 재료를 혼합하고 있어요. — Materials are being mixed.",
+      "examples": [
+        {
+          "ko": "작업자가 금형을 점검하고 있습니다.",
+          "bn": "কর্মী মোল্ড পরীক্ষা করতেছে।",
+          "en": "The worker is inspecting the mold."
+        },
+        {
+          "ko": "제품이 냉각되고 있어요.",
+          "bn": "পণ্যটি কুলিং হচ্ছে।",
+          "en": "The product is cooling."
+        }
+      ]
+    },
+    {
+      "pattern": "~(으)면",
+      "titleBn": "~(으)면 (যদি/হলে)",
+      "explanationBn": "শর্ত প্রকাশ করে — যদি এক ঘটনা ঘটে, অন্যটি ঘটবে। উদাহরণ:\n1) 성형온도를 낮추면 수축이 줄어요. — তাপমাত্রা কমালে সংকোচন কমে।\n2) 게이트를 넓히면 탈형이 쉬워집니다. — গেট বড় করলে ডিমোল্ডিং সহজ হয়।",
+      "explanationEn": "Used for conditional sentences — if one thing happens, another will follow. Examples:\n1) 성형온도를 낮추면 수축이 줄어요. — If you lower the molding temperature, shrinkage decreases.\n2) 게이트를 넓히면 탈형이 쉬워집니다. — If you widen the gate, demolding becomes easier.",
+      "examples": [
+        {
+          "ko": "압력을 높이면 재료가 넘칠 수 있어요.",
+          "bn": "প্রেসার বাড়ালে উপাদান ঝরতে পারে।",
+          "en": "If you increase pressure, material may overflow."
+        },
+        {
+          "ko": "배합비를 바꾸면 색상이 달라집니다.",
+          "bn": "মিশ্রণ অনুপাত বদলালে রঙ বদলায়।",
+          "en": "If you change the mixing ratio, the color changes."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "몰드 점검 요청",
+      "titleEn": "Mold Inspection Request",
+      "lines": [
+        {
+          "speaker": "작업자",
+          "ko": "금형 점검해주세요. 탈형이 잘 안 됩니다.",
+          "bn": "মোল্ড চেক করবেন। ডিমোল্ডিং ঠিক হচ্ছে না।",
+          "en": "Please check the mold. Demolding isn't working well."
+        },
+        {
+          "speaker": "팀장",
+          "ko": "어떤 부분에서 문제가 있나요?",
+          "bn": "কোথায় সমস্যা হচ্ছে?",
+          "en": "Where is the problem occurring?"
+        },
+        {
+          "speaker": "작업자",
+          "ko": "게이트에 플래시가 생깁니다.",
+          "bn": "গেটে ফ্ল্যাশ হয়েছে।",
+          "en": "There's flash at the gate."
+        },
+        {
+          "speaker": "팀장",
+          "ko": "성형온도와 압력을 확인할게요.",
+          "bn": "মোল্ডিং তাপমাত্রা ও প্রেসার চেক করি।",
+          "en": "I'll check the molding temperature and pressure."
+        },
+        {
+          "speaker": "작업자",
+          "ko": "감사합니다. 바로 작업 멈출게요.",
+          "bn": "ধন্যবাদ। আমি কাজ থামাচ্ছি।",
+          "en": "Thank you. I'll stop the work right away."
+        }
+      ]
+    },
+    {
+      "titleBn": "재료 문제 보고",
+      "titleEn": "Material Issue Report",
+      "lines": [
+        {
+          "speaker": "검사원",
+          "ko": "오늘 수지 배치에서 색상이 다릅니다.",
+          "bn": "আজ রেসিন ব্যাচে রঙ আলাদা।",
+          "en": "Today's resin batch has different color."
+        },
+        {
+          "speaker": "대리",
+          "ko": "배합비를 변경했나요?",
+          "bn": "মিশ্রণ অনুপাত বদলান নাকি?",
+          "en": "Did you change the mixing ratio?"
+        },
+        {
+          "speaker": "검사원",
+          "ko": "아니요, 같은 배합비입니다.",
+          "bn": "না, একই অনুপাত ছিল।",
+          "en": "No, it's the same ratio."
+        },
+        {
+          "speaker": "대리",
+          "ko": "수지 공급처를 확인하겠습니다.",
+          "bn": "রেসিন সরবরাহকারী চেক করব।",
+          "en": "I'll check the resin supplier."
+        },
+        {
+          "speaker": "검사원",
+          "ko": "결과 알려 주세요. 생산을 멈춰야 할 수도 있습니다.",
+          "bn": "ফলাফল জানাবেন। প্রয়োজনে উৎপাদন বন্ধ করতে হবে।",
+          "en": "Let me know the result. We may need to stop production."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "게이트에 생긴 작은 돌출 자국을 한국어로 무엇이라 하나요?",
+      "questionKo": "게이트에 생긴 작은 돌출 자국을 한국어로 무엇이라 하나요?",
+      "options": [
+        "게이트",
+        "러너",
+        "플래시",
+        "탈형"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "게이트 주변에 남는 돌출 자국은 '플래시'라고 합니다।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "고무가 완전히 굳지 않은 상태를 한국어로?",
+      "questionKo": "고무가 완전히 굳지 않은 상태를 한국어로?",
+      "options": [
+        "냉각됨",
+        "경화되지 않음",
+        "탈형됨",
+        "압축됨"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'경화되지 않음'은 고무가 아직 완전히 굳지 않았음을 뜻합니다।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "사출성형 기계는 한국어로 무엇입니까?",
+      "questionKo": "사출성형 기계는 한국어로 무엇입니까?",
+      "options": [
+        "사출기",
+        "압축기",
+        "냉각기",
+        "혼합기"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "사출성형 기계를 줄여 '사출기'라고 합니다।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "몰드 청소를 하라는 말은 어느 문법으로 표현합니까?",
+      "questionKo": "몰드 청소를 하라는 말은 어느 문법으로 표현합니까?",
+      "options": [
+        "~고 있다",
+        "~아/어야 하다",
+        "~(으)면",
+        "~ㄹ까요?"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "명령이나 필요를 말할 때 '~아/어야 하다'를 사용합니다।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "냉각 시간을 '늘리다'의 뜻에 가장 가까운 한국어 문장은?",
+      "questionKo": "냉각 시간을 '늘리다'의 뜻에 가장 가까운 한국어 문장은?",
+      "options": [
+        "냉각 시간을 줄이세요.",
+        "냉각 시간을 늘리세요.",
+        "냉각을 멈추세요.",
+        "냉각을 빠르게 하세요."
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'늘리다'는 시간을 더 길게 한다는 뜻, 정답은 2번।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "다음 문장에서 빈칸에 들어갈 알맞은 단어를 고르세요: '재료를 잘 섞지 않으면 색상이 ______.'",
+      "questionKo": "다음 문장에서 빈칸에 들어갈 알맞은 단어를 고르세요: '재료를 잘 섞지 않으면 색상이 ______.'",
+      "options": [
+        "달라집니다",
+        "냉각됩니다",
+        "탈형됩니다",
+        "경화됩니다"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "배합이 맞지 않으면 색상이 달라진다 — '달라집니다'가 맞습니다।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "빈칸 채우기: '금형을 _____ 후에 생산을 시작하세요.'",
+      "questionKo": "빈칸 채우기: '금형을 _____ 후에 생산을 시작하세요.'",
+      "options": [
+        "청소한",
+        "냉각한",
+        "탈형한",
+        "혼합한"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "생산 전에 금형을 '청소한' 후에 시작하라는 표현이 자연스럽습니다।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "다음 중 '압력'의 한국어 예문으로 옳은 것은?",
+      "questionKo": "다음 중 '압력'의 한국어 예문으로 옳은 것은?",
+      "options": [
+        "압력을 낮춰 주세요.",
+        "색상을 바꿔 주세요.",
+        "게이트를 깎아 주세요.",
+        "러너를 녹여 주세요."
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'압력'을 조절하라는 문장은 '압력을 낮춰 주세요.'가 적절합니다।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "다음 단어와 의미를 연결하세요.",
+      "questionKo": "다음 단어와 의미를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "냉각",
+          "right": "কুলিং (cooling)"
+        },
+        {
+          "left": "금형",
+          "right": "মোল্ড (mold)"
+        },
+        {
+          "left": "게이트",
+          "right": "গেট (gate)"
+        },
+        {
+          "left": "수지",
+          "right": "রেসিন (resin)"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি জোড়া পাঠে মিলেছে: 냉각=কুলিং, 금형=মোল্ড, 게이트=গেট, 수지=রেসিন।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "다음 작업 단계를 알맞게 연결하세요.",
+      "questionKo": "다음 작업 단계를 알맞게 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "재료 혼합",
+          "right": "উপাদান মিশ্রণ"
+        },
+        {
+          "left": "사출",
+          "right": "ইঞ্জেকশন করা"
+        },
+        {
+          "left": "냉각",
+          "right": "কুলিং"
+        },
+        {
+          "left": "탈형",
+          "right": "ডিমোল্ডিং"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "স্টেপগুলো সরাসরি মিলেছে: 재료 혼합=উপাদান মিশ্রণ, 사출=ইঞ্জেকশন, 냉각=কুলিং, 탈형=ডিমোল্ডিং।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তর নির্বাচন করুন: 몰드에 플래시가 생기면 보통 어떤 문제를 점검합니까?",
+      "questionKo": "다음 글을 읽고 질문에 답하세요: 몰드에 플래시가 생기면 보통 어떤 문제를 점검합니까?",
+      "passage": "몰드에 플래시가 생기면 게이트나 금형 맞춤 상태, 사출 압력, 성형온도를 점검합니다. 게이트가 작거나 금형이 닫히지 않으면 플래시가 생깁니다.",
+      "options": [
+        "재료 혼합 비율",
+        "게이트와 금형 맞춤 상태",
+        "생산 일정",
+        "완제품 포장 방법"
+      ],
+      "answer": 1,
+      "explanationBn": "본문에서 플래시는 게이트 또는 금형 맞춤, 사출 압력, 온도 문제와 관련 있다고 했습니다 — 2번।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে: 고무 제품이 완전히 경화되지 않으면 무엇이 발생할 수 있나요?",
+      "questionKo": "다음 글을 읽고 질문에 답하세요: 고무 제품이 완전히 경화되지 않으면 무엇이 발생할 수 있나요?",
+      "passage": "고무가 완전히 경화되지 않으면 표면이 끈적거리거나 강도가 약해집니다. 이는 사용 중 변형과 빠른 마모로 이어질 수 있습니다.",
+      "options": [
+        "표면이 매끄러워진다",
+        "강도가 증가한다",
+        "표면이 끈적거리거나 약해진다",
+        "색상이 밝아진다"
+      ],
+      "answer": 2,
+      "explanationBn": "문장에서 경화되지 않으면 표면이 끈적거리고 강도가 약해진다고 했으므로 3번।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে: 사출기 점검 시 먼저 확인할 사항은 무엇인가?",
+      "questionKo": "다음 글을 읽고 질문에 답하세요: 사출기 점검 시 먼저 확인할 사항은 무엇인가?",
+      "passage": "사출기 점검은 전원 상태, 유압과 압력 설정, 노즐 상태 순으로 진행합니다. 전원이 꺼져 있으면 다른 점검이 불가능합니다.",
+      "options": [
+        "포장 상태",
+        "전원 상태",
+        "작업자 점심 시간",
+        "생산 목표"
+      ],
+      "answer": 1,
+      "explanationBn": "글에 전원 상태를 먼저 확인한다고 명시되어 있어 정답은 2번।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে: 배합비가 맞지 않으면 어떤 결과가 나오나요?",
+      "questionKo": "다음 글을 읽고 질문에 답하세요: 배합비가 맞지 않으면 어떤 결과가 나오나요?",
+      "passage": "배합비가 정확하지 않으면 색상 변화, 강도 저하, 경화 문제 등 품질 불량이 발생할 수 있습니다.",
+      "options": [
+        "품질 불량",
+        "속도 향상",
+        "원가 절감",
+        "포장 강화"
+      ],
+      "answer": 0,
+      "explanationBn": "본문에 배합비 오류가 품질 불량을 일으킨다고 되어 있으므로 1번।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে: 탈형이 잘 안되면 어떤 작업을 고려하나요?",
+      "questionKo": "다음 글을 읽고 질문에 답하세요: 탈형이 잘 안되면 어떤 작업을 고려하나요?",
+      "passage": "탈형이 잘 안될 때는 게이트를 조정하거나 금형의 코팅을 점검하고 성형온도와 냉각시간을 변경해 봅니다.",
+      "options": [
+        "게이트 조정과 성형온도 변경",
+        "제품 포장 변경",
+        "작업자 교대 시간 변경",
+        "공장 청소만"
+      ],
+      "answer": 0,
+      "explanationBn": "본문은 게이트 조정과 온도/냉각시간 변경을 권장하므로 1번이 맞습니다।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শোনা স্ক্রিপ্ট শুনে প্রশ্নের উত্তর দিন: '사출압력을 낮추면 어떤 변화가 있나요?'",
+      "questionKo": "다음 음성을 듣고 질문에 답하세요: '사출압력을 낮추면 어떤 변화가 있나요?'",
+      "passage": "사출압력을 낮추면 플래시가 줄어들 수 있지만 충진이 부족해질 수 있습니다.",
+      "options": [
+        "플래시가 늘어난다",
+        "충진이 부족해질 수 있다",
+        "냉각 시간이 짧아진다",
+        "게이트가 커진다"
+      ],
+      "answer": 1,
+      "explanationBn": "음성에서 압력을 낮추면 플래시는 줄어들 수 있지만 충진 부족이 발생할 수 있다고 했습니다 — 2번।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শোনা স্ক্রিপ্ট: '재료 공급 문제가 있으면 먼저 무엇을 확인하나요?'",
+      "questionKo": "다음 음성을 듣고 질문에 답하세요: '재료 공급 문제가 있으면 먼저 무엇을 확인하나요?'",
+      "passage": "공급 라인의 막힘 여부와 수지 배치 번호를 먼저 확인하세요.",
+      "options": [
+        "포장 박스 크기",
+        "공급 라인 막힘과 배치 번호",
+        "작업자 키",
+        "냉각팬 속도"
+      ],
+      "answer": 1,
+      "explanationBn": "음성에 공급 라인 막힘과 배치 번호 확인을 먼저 하라고 했으므로 2번।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "শোনা স্ক্রিপ্ট: '불량품이 발견되면 어떻게 해야 합니까?'",
+      "questionKo": "다음 음성을 듣고 질문에 답하세요: '불량품이 발견되면 어떻게 해야 합니까?'",
+      "passage": "불량품은 즉시 분리하고 관리자에게 보고하세요. 생산을 잠시 중단할 수 있습니다.",
+      "options": [
+        "바로 포장한다",
+        "분리하고 관리자에게 보고한다",
+        "수리해서 다시 섞는다",
+        "아무 조치도 안 한다"
+      ],
+      "answer": 1,
+      "explanationBn": "스크립트는 불량품을 분리하고 관리자에게 보고하라고 했으므로 2번이 정답।"
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+  "chapter": 49,
+  "slug": "mineral-resource-development-and-production",
+  "title": {
+    "ko": "광물 자원 개발과 생산",
+    "bn": "খনিজ সম্পদ উন্নয়ন ও উৎপাদন",
+    "en": "Mineral Resource Development and Production"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "খনিজ সম্পর্কিত মূল শব্দভাণ্ডার ও তাদের ব্যবহার জানতে পারা।",
+      "কারখানা ও খনিতে সাধারণ কথোপকথনে নিজেকে প্রকাশ করতে পারা।",
+      "সাধারণ কর্মক্ষেত্র বাক্য এবং সহজ নির্দেশ বুঝতে পারা।"
+    ],
+    "en": [
+      "Learn key vocabulary related to mineral resources and their use.",
+      "Communicate in simple workplace situations at mines and plants.",
+      "Understand and follow basic workplace sentences and instructions."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "광물",
+      "romanization": "gwangmul",
+      "bn": "খনিজ",
+      "en": "mineral",
+      "pos": "noun",
+      "example": {
+        "ko": "이 지역에서 새로운 광물을 발견했습니다.",
+        "bn": "এই অঞ্চলে নতুন খনিজ আবিষ্কার করা হয়েছে।",
+        "en": "We discovered a new mineral in this area."
+      }
+    },
+    {
+      "ko": "자원",
+      "romanization": "jawon",
+      "bn": "সম্পদ",
+      "en": "resource",
+      "pos": "noun",
+      "example": {
+        "ko": "광물은 중요한 자연 자원입니다.",
+        "bn": "খনিজ একটি গুরুত্বপূর্ণ প্রাকৃতিক সম্পদ।",
+        "en": "Minerals are an important natural resource."
+      }
+    },
+    {
+      "ko": "개발",
+      "romanization": "gaebal",
+      "bn": "উন্নয়ন/উৎপত্তি করা",
+      "en": "development",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "회사는 광산 개발을 계획하고 있습니다.",
+        "bn": "কোম্পানি খনি উন্নয়ন পরিকল্পনা করছে।",
+        "en": "The company is planning mine development."
+      }
+    },
+    {
+      "ko": "채굴",
+      "romanization": "chaegul",
+      "bn": "খনন/খনন করা",
+      "en": "mining",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "오늘은 채굴 작업을 중단했습니다.",
+        "bn": "আজ খনন কাজ বন্ধ রাখা হয়েছে।",
+        "en": "Mining operations were stopped today."
+      }
+    },
+    {
+      "ko": "광산",
+      "romanization": "gwangsan",
+      "bn": "খনি/মাইন",
+      "en": "mine",
+      "pos": "noun",
+      "example": {
+        "ko": "그 광산은 깊이가 아주 깊습니다.",
+        "bn": "সেই খনিটি খুব গভীর।",
+        "en": "That mine is very deep."
+      }
+    },
+    {
+      "ko": "탐사",
+      "romanization": "tamsa",
+      "bn": "অনুসন্ধান/পরীক্ষা",
+      "en": "exploration",
+      "pos": "noun",
+      "example": {
+        "ko": "탐사팀이 지질 조사를 하고 있습니다.",
+        "bn": "অনুসন্ধান দল ভূতাত্ত্বিক পরীক্ষা করছে।",
+        "en": "The exploration team is conducting geological surveys."
+      }
+    },
+    {
+      "ko": "시추",
+      "romanization": "sichu",
+      "bn": "বোরহোল/নমুনা খোঁজা",
+      "en": "drilling",
+      "pos": "noun",
+      "example": {
+        "ko": "시추로 매장량을 확인했습니다.",
+        "bn": "বোরহোল করে সংরক্ষিত পরিমাণ নিশ্চিত করা হয়েছে।",
+        "en": "Drilling confirmed the reserves."
+      }
+    },
+    {
+      "ko": "매장량",
+      "romanization": "maejangnyang",
+      "bn": "সংরক্ষিত পরিমাণ",
+      "en": "reserves",
+      "pos": "noun",
+      "example": {
+        "ko": "매장량이 예상보다 많습니다.",
+        "bn": "সংরক্ষিত পরিমাণ প্রত্যাশার চেয়ে বেশি।",
+        "en": "The reserves are larger than expected."
+      }
+    },
+    {
+      "ko": "생산량",
+      "romanization": "saengsallyang",
+      "bn": "উৎপাদন পরিমাণ",
+      "en": "production volume",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 달 생산량이 증가했습니다.",
+        "bn": "এই মাসে উৎপাদন পরিমাণ বাড়েছে।",
+        "en": "This month's production volume increased."
+      }
+    },
+    {
+      "ko": "원광",
+      "romanization": "wongwang",
+      "bn": "কাঁচা খনিজ/অর-ওর",
+      "en": "raw ore",
+      "pos": "noun",
+      "example": {
+        "ko": "원광을 항구로 옮겨야 합니다.",
+        "bn": "কাঁচা খনিজ বন্দরে স্থানান্তর করতে হবে।",
+        "en": "We must move the raw ore to the port."
+      }
+    },
+    {
+      "ko": "선광",
+      "romanization": "seonggwang",
+      "bn": "কনসানট্রেট/সাম্পল প্রস্তুতি",
+      "en": "concentrate (ore)",
+      "pos": "noun",
+      "example": {
+        "ko": "선광 공정 후 금속 농도가 올라갑니다.",
+        "bn": "কনসানট্রেট করার পর ধাতুগুলোর ঘনত্ব বাড়ে।",
+        "en": "Metal concentration rises after the concentrating process."
+      }
+    },
+    {
+      "ko": "정련",
+      "romanization": "jeongryeon",
+      "bn": "শোধন/রিফাইনিং",
+      "en": "refining",
+      "pos": "noun",
+      "example": {
+        "ko": "정련 과정은 제품 품질을 결정합니다.",
+        "bn": "শোধন প্রক্রিয়া পণ্যের গুণমান নির্ধারণ করে।",
+        "en": "The refining process determines product quality."
+      }
+    },
+    {
+      "ko": "안전",
+      "romanization": "anjeon",
+      "bn": "নিরাপত্তা",
+      "en": "safety",
+      "pos": "noun",
+      "example": {
+        "ko": "안전 수칙을 꼭 지키세요.",
+        "bn": "নিরাপত্তা বিধি অবশ্যই মানুন।",
+        "en": "Please follow the safety rules."
+      }
+    },
+    {
+      "ko": "환경 영향",
+      "romanization": "hwangyeong yeonghyang",
+      "bn": "পরিবেশগত প্রভাব",
+      "en": "environmental impact",
+      "pos": "noun",
+      "example": {
+        "ko": "광물 개발은 환경 영향 평가가 필요합니다.",
+        "bn": "খনিজ উন্নয়নে পরিবেশগত প্রভাব মূল্যায়ন দরকার।",
+        "en": "Mineral development requires an environmental impact assessment."
+      }
+    },
+    {
+      "ko": "장비",
+      "romanization": "jangbi",
+      "bn": "সরঞ্জাম/উপকরণ",
+      "en": "equipment",
+      "pos": "noun",
+      "example": {
+        "ko": "새 장비가 어제 도착했습니다.",
+        "bn": "নতুন সরঞ্জাম গতকাল পৌঁছেছে।",
+        "en": "New equipment arrived yesterday."
+      }
+    },
+    {
+      "ko": "노동자",
+      "romanization": "nodongja",
+      "bn": "শ্রমিক",
+      "en": "worker",
+      "pos": "noun",
+      "example": {
+        "ko": "노동자는 안전 교육을 받았습니다.",
+        "bn": "শ্রমিকেরা নিরাপত্তা প্রশিক্ষণ নিয়েছে।",
+        "en": "The workers received safety training."
+      }
+    },
+    {
+      "ko": "수출",
+      "romanization": "suchul",
+      "bn": "রপ্তানি",
+      "en": "export",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "회사는 원광을 해외로 수출합니다.",
+        "bn": "কোম্পানি কাঁচা খনিজ বিদেশে রপ্তানি করে।",
+        "en": "The company exports raw ore abroad."
+      }
+    },
+    {
+      "ko": "품질 검사",
+      "romanization": "pumjil geomsa",
+      "bn": "গুণমান পরিদর্শন",
+      "en": "quality inspection",
+      "pos": "noun",
+      "example": {
+        "ko": "출하 전에 품질 검사를 해야 합니다.",
+        "bn": "পাঠানোর আগে গুণমান পরিদর্শন করতে হবে।",
+        "en": "You must do a quality inspection before shipment."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "고 싶다",
+      "titleBn": "চাইতে (ইচ্ছা প্রকাশ)",
+      "explanationBn": "কোনো কাজ করার ইচ্ছা প্রকাশ করতে '고 싶다' ব্যবহার করা হয়। উদাহরণ: \n- 한국어: 저는 광산을 보고 싶습니다. \n  বাংলা: আমি খনি দেখতে চাই। \n  English: I want to see the mine.\n- 한국어: 작업자가 새로운 장비를 사고 싶어합니다. \n  বাংলা: শ্রমিক নতুন সরঞ্জাম কিনতে চায়। \n  English: The worker wants to buy new equipment.",
+      "explanationEn": "Use '-고 싶다' to express desire. Examples: '보고 싶다' = want to see.",
+      "examples": [
+        {
+          "ko": "나는 현장에 가고 싶습니다.",
+          "bn": "আমি সাইটে যেতে চাই।",
+          "en": "I want to go to the site."
+        },
+        {
+          "ko": "작업자가 더 많은 휴식을 받고 싶어합니다.",
+          "bn": "শ্রমিক বেশি বিশ্রাম পেতে চায়।",
+          "en": "The worker wants more rest."
+        }
+      ]
+    },
+    {
+      "pattern": "아/어야 하다",
+      "titleBn": "চক করেই করতে হবে (আবশ্যকতা)",
+      "explanationBn": "'아/어야 하다' ব্যবহার করে বাধ্যবাধকতা বা অবশ্যকতা দেখানো হয়। উদাহরণ: \n- 한국어: 안전모를 써야 합니다. \n  বাংলা: নিরাপত্তা হেলমেট পরতে হবে। \n  English: You must wear a safety helmet.\n- 한국어: 서류를 제출해야 해요. \n  বাংলা: দস্তাবেজ জমা দিতে হবে। \n  English: You have to submit the documents.",
+      "explanationEn": "Use '-아/어야 하다' to indicate obligation. Example: '입어야 합니다' = must wear.",
+      "examples": [
+        {
+          "ko": "작업자는 안전 장비를 착용해야 합니다.",
+          "bn": "শ্রমিককে নিরাপত্তা সরঞ্জাম পড়তে হবে।",
+          "en": "Workers must wear safety equipment."
+        },
+        {
+          "ko": "우리는 보고서를 내일 제출해야 해요.",
+          "bn": "আমরা রিপোর্ট আগামীকাল জমা দিতে হবে।",
+          "en": "We must submit the report tomorrow."
+        }
+      ]
+    },
+    {
+      "pattern": "고 있다",
+      "titleBn": "চলছে/অবস্থান প্রকাশ (ক্রিয়া চলছে)",
+      "explanationBn": "বর্তমান ক্রিয়া বা অবস্থা দেখাতে '고 있다' ব্যবহার করুন। উদাহরণ: \n- 한국어: 기계가 작동하고 있습니다. \n  বাংলা: মেশিনটি চলছে। \n  English: The machine is operating.\n- 한국어: 팀이 매장량을 조사하고 있습니다. \n  বাংলা: দল সংরক্ষিত পরিমাণ যাচাই করছে। \n  English: The team is surveying the reserves.",
+      "explanationEn": "Use '-고 있다' to show continuous action. Example: '작동하고 있다' = is operating.",
+      "examples": [
+        {
+          "ko": "우리는 지금 선광 작업을 하고 있습니다.",
+          "bn": "আমরা এখন কনসানট্রেট কাজ করছি।",
+          "en": "We are doing the concentrating work now."
+        },
+        {
+          "ko": "노동자들이 안전 교육을 받고 있습니다.",
+          "bn": "শ্রমিকরা নিরাপত্তা প্রশিক্ষণ নিচ্ছে।",
+          "en": "The workers are receiving safety training."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "현장 안전 점검",
+      "titleEn": "Site Safety Check",
+      "lines": [
+        {
+          "speaker": "관리자",
+          "ko": "오늘 오전에 안전 교육을 했습니다. 안전모를 착용했습니까?",
+          "bn": "আজ সকালেই নিরাপত্তা প্রশিক্ষণ করেছি। হেলমেট পরেছেন কি?",
+          "en": "We had safety training this morning. Did you wear your helmet?"
+        },
+        {
+          "speaker": "작업자",
+          "ko": "네, 착용했습니다. 하지만 장비 브레이크에 문제가 있습니다.",
+          "bn": "হ্যাঁ, পরেছি। কিন্তু যন্ত্রের ব্রেখে সমস্যা আছে।",
+          "en": "Yes, I did. But there's a problem with the equipment brake."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "지금 멈추고 기술자를 부르세요. 더 이상 작업하지 마십시오.",
+          "bn": "এখনই থামান এবং টেকনিশিয়ানকে ডাকুন। আর কাজ করবেন না।",
+          "en": "Stop now and call the technician. Do not continue working."
+        },
+        {
+          "speaker": "작업자",
+          "ko": "알겠습니다. 제가 바로 연락하겠습니다.",
+          "bn": "ঠিক আছে। আমি সঙ্গে সঙ্গে যোগাযোগ করব।",
+          "en": "Understood. I'll contact them right away."
+        },
+        {
+          "speaker": "엔지니어",
+          "ko": "제가 점검하겠습니다. 안전 조치 후 재개합시다.",
+          "bn": "আমি পরীক্ষা করব। নিরাপত্তা ব্যবস্থা নেওয়ার পরে আবার চালু করি।",
+          "en": "I'll inspect it. Let's resume after safety measures."
+        }
+      ]
+    },
+    {
+      "titleBn": "출하 준비와 서류",
+      "titleEn": "Shipment Preparation and Documents",
+      "lines": [
+        {
+          "speaker": "물류 담당",
+          "ko": "원광 선적은 내일 오전 8시입니다. 서류는 준비되었나요?",
+          "bn": "কাঁচা খনিজ পাঠানো আগামীকাল সকাল ৮টায়। কাগজপত্র প্রস্তুত হয়েছে কি?",
+          "en": "The raw ore ships tomorrow at 8 AM. Are the documents ready?"
+        },
+        {
+          "speaker": "사무원",
+          "ko": "거래 증명서와 검사 결과는 모두 준비되어 있습니다.",
+          "bn": "লেনদেন সনদ ও পরীক্ষার ফলাফল সবই প্রস্তুত।",
+          "en": "The transaction certificate and inspection results are all ready."
+        },
+        {
+          "speaker": "물류 담당",
+          "ko": "수출 신고를 완료해 주세요. 통관 시간이 중요합니다.",
+          "bn": "রপ্তানি ফাইলিং সম্পন্ন করুন। কাস্টমস সময় গুরুত্বপূর্ণ।",
+          "en": "Please complete the export declaration. Customs timing is important."
+        },
+        {
+          "speaker": "사무원",
+          "ko": "알겠습니다. 오늘 중으로 신고하겠습니다.",
+          "bn": "বুঝেছি। আজই ফাইলিং করব।",
+          "en": "Understood. I'll file it today."
+        },
+        {
+          "speaker": "운송기사",
+          "ko": "트럭은 내일 새벽에 도착할 겁니다.",
+          "bn": "ট্রাকটি আগামীকাল ভোরে পৌঁছবে।",
+          "en": "The truck will arrive tomorrow early morning."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "‘채굴’ শব্দের বাংলা অর্থ কোনটি?",
+      "questionKo": "다음 중 '채굴'의 뜻은 무엇입니까?",
+      "options": [
+        "광물을 캐다",
+        "물건을 수출하다",
+        "품질을 검사하다",
+        "환경을 보호하다"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'채굴' মানে মাটির নিচ থেকে খনিজ বা পাথর উত্তোলন করা — '광물을 캐다'।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "‘매장량’ কোনটির সঙ্গে সম্পর্কিত?",
+      "questionKo": "다음 중 '매장량'과 가장 관련 있는 것은?",
+      "options": [
+        "수출 일정",
+        "지하에 있는 자원의 양",
+        "안전 교육",
+        "품질 검사 결과"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'매장량' হলো জমিতে বা ভূগর্ভে সংরক্ষিত খনিজের পরিমাণ — '지하에 있는 자원의 양'।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "‘아/어야 하다’ এর সবচেয়ে কাছাকাছি বাংলা ভাব কোনটি?",
+      "questionKo": "한국어의 '아/어야 하다'는 다음 중 어느 표현과 뜻이 가장 비슷합니까?",
+      "options": [
+        "চাইতে (want)",
+        "চলছে (be doing)",
+        "করা উচিত (must/have to)",
+        "মৌলিক অবস্থা (existence)"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "'아/어야 하다' মানে বাধ্যতা বা করণীয় — 'করা উচিত' বা 'অবশ্যই করতে হবে'।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "대화 1에서 장비 문제는 무엇이었나요?",
+      "questionKo": "대화 1에서 작업자가 보고한 문제는 무엇입니까?",
+      "options": [
+        "서류 누락",
+        "품질 불량",
+        "환경 오염",
+        "장비 브레이크 문제"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "대화에서 작업자는 '장비 브레이크에 문제가 있습니다' 라고 말했습니다 — ব্রেক 문제।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "‘선광’의 맞는 설명을 고르세요.",
+      "questionKo": "다음 중 '선광'에 대한 설명으로 옳은 것은?",
+      "options": [
+        "원광을 수출하는 절차",
+        "광물의 농도를 높이는 공정",
+        "노동자의 안전 교육",
+        "환경 영향 평가"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'선광'은 광석에서 금속 성분을 농축하여 농도를 높이는 공정।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "খালি জায়গায় সঠিক শব্দ পূরণ করুন: '땅에서 광물을 캐는 것을 ___라고 합니다.'",
+      "questionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요: '땅에서 광물을 캐는 것을 ___라고 합니다.'",
+      "options": [
+        "채굴",
+        "정련",
+        "수출",
+        "선광"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "땅에서 광물을 캐는 것은 '채굴'।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "খালি জায়গায় সঠিক শব্দ পূরণ করুন: '금속을 더 순수하게 만드는 과정은 _____입니다.'",
+      "questionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요: '금속을 더 순수하게 만드는 과정은 _____입니다.'",
+      "options": [
+        "정련",
+        "선광",
+        "매장량",
+        "탐사"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'금속을 더 순수하게 만드는 과정'은 '정련'।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "খালি জায়গায় সঠিক শব্দ পূরণ করুন: '공장에서 제품의 품질을 _____.'",
+      "questionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요: '공장에서 제품의 품질을 _____.'",
+      "options": [
+        "검사합니다",
+        "채굴합니다",
+        "수출합니다",
+        "시추합니다"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "공장에서 제품의 품질을 확인하려면 '검사합니다'।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "নীচের শব্দের সাথে সঠিক বাংলা অনুবাদ মিলান।",
+      "questionKo": "다음 한국어 단어와 알맞은 번역을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "광물",
+          "right": "খনিজ"
+        },
+        {
+          "left": "채굴",
+          "right": "খনন"
+        },
+        {
+          "left": "광산",
+          "right": "খনি"
+        },
+        {
+          "left": "수출",
+          "right": "রপ্তানি"
+        },
+        {
+          "left": "정련",
+          "right": "শোধন"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি শব্দ সরাসরি অনুদিত হয়েছে: 광물=খনিজ, 채굴=খনন, 등।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "한국어 용어와 영어 뜻 মিলান।",
+      "questionKo": "다음 한국어 단어와 영어 의미를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "장비",
+          "right": "equipment"
+        },
+        {
+          "left": "매장량",
+          "right": "reserves"
+        },
+        {
+          "left": "품질 검사",
+          "right": "quality inspection"
+        },
+        {
+          "left": "원광",
+          "right": "raw ore"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "장비=equipment, 매장량=reserves 등 পাঠ থেকে সোজা মিল।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "পঠিত অংশ থেকে সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음 글에서 무엇을 확인했습니까?",
+      "passage": "광산 기술팀은 시추로 매장량을 확인했습니다. 결과는 예상보다 많았습니다.",
+      "options": [
+        "안전 장비",
+        "매장량",
+        "수출 서류",
+        "노동자 수"
+      ],
+      "answer": 1,
+      "explanationBn": "본문에 '시추로 매장량을 확인했습니다'라고 직접 나옵니다 — 매장량।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "পঠিত অংশ থেকে সকাল에 무엇을 했는지 চিহ্নিত করুন।",
+      "questionKo": "글에서 오늘 오전에 한 일은 무엇입니까?",
+      "passage": "오늘 오전에는 안전 교육과 장비 점검을 했습니다. 모든 작업자는 보호 장비를 착용했습니다.",
+      "options": [
+        "수출 준비",
+        "안전 교육",
+        "정련 작업",
+        "매장량 조사"
+      ],
+      "answer": 1,
+      "explanationBn": "본문에 '안전 교육과 장비 점검을 했습니다'라고 적혀 있어 '안전 교육' সঠিক।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "পঠিত অংশ থেকে 생산량 কীভাবে পরিবর্তিত হলো?",
+      "questionKo": "다음 글에 따르면 이번 달 생산량은 어떻게 되었습니까?",
+      "passage": "공장의 생산량이 이번 달에 20% 증가했습니다. 더 많은 원광을 처리했습니다.",
+      "options": [
+        "증가했다",
+        "감소했다",
+        "변화 없다",
+        "중단되었다"
+      ],
+      "answer": 0,
+      "explanationBn": "'생산량이 20% 증가했습니다' বলে স্পষ্টভাবে '증가했다'।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পঠিত অংশে 품질 검사는 어떤 과정ের পরে করা হয়?",
+      "questionKo": "본문에 품질 검사는 어떤 과정 후에 이뤄진다고 했습니까?",
+      "passage": "선광 후 정련 과정에서 품질 검사를 합니다.",
+      "options": [
+        "시추 후",
+        "채굴 후",
+        "선광 후",
+        "수출 후"
+      ],
+      "answer": 2,
+      "explanationBn": "본문에 '선광 후 정련 과정에서 품질 검사를 합니다' — 선광 후।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পঠিত অংশ অনুযায়ী শিপমেন্ট দেরির কারণ কী?",
+      "questionKo": "글에서 수출 일정이 늦어진 이유는 무엇입니까?",
+      "passage": "무역 서류가 준비되지 않아 수출 일정이 한 달 늦어졌다.",
+      "options": [
+        "장비 고장",
+        "인력 부족",
+        "환경 문제",
+        "서류 미비"
+      ],
+      "answer": 3,
+      "explanationBn": "글টিতে '무역 서류가 준비되지 않아' বলা হয়েছে — 서류 미비।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উত্তর দিন।",
+      "questionKo": "운송기사가 언제 원광을 보낸다고 했습니까?",
+      "passage": "운송기사: 오늘 오후 2시에 원광을 항구로 보낼 예정입니다. 준비해 주세요.",
+      "options": [
+        "오전 9시",
+        "오후 2시",
+        "내일 아침",
+        "이번 주 금요일"
+      ],
+      "answer": 1,
+      "explanationBn": "녹음 대사에 '오늘 오후 2시에 ... 보낼 예정입니다'라고 나옵니다 — 오후 2시।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শুনে ঠিক বিকল্পটি চয়ন করুন।",
+      "questionKo": "발언자는 무엇을 했다고 말합니까?",
+      "passage": "사무원: 검사 결과와 거래 증명서는 모두 준비되어 있습니다.",
+      "options": [
+        "서류를 준비했다",
+        "장비를 수리했다",
+        "새 광맥을 발견했다",
+        "안전 교육을 했다"
+      ],
+      "answer": 0,
+      "explanationBn": "대사에 '검사 결과와 거래 증명서는 모두 준비되어 있습니다' — 서류를 준비했다।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি চয়ন করুন।",
+      "questionKo": "화자는 어떤 이유로 멈추라고 합니까?",
+      "passage": "관리자: 장비 브레이크에 문제가 있으니 지금 바로 멈추고 기술자에게 연락하세요.",
+      "options": [
+        "서류 누락 때문에",
+        "수출 일정 때문에",
+        "품질 검사 때문에",
+        "장비 문제 때문에"
+      ],
+      "answer": 3,
+      "explanationBn": "화자는 '장비 브레이크에 문제가 있으니 멈추라'고 말했습니다 — 장비 문제।"
+    }
+  ]
+}

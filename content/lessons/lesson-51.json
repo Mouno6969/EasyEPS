@@ -1,0 +1,677 @@
+{
+  "chapter": 51,
+  "slug": "accommodation-services",
+  "title": {
+    "ko": "숙박 서비스",
+    "bn": "আবাসন সেবা",
+    "en": "Accommodation Services"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "হোটেল বা 게스트하우সে চেক-ইন ও চেক-আউট করতে পারা",
+      "নিদারুণভাবে রুম পরিষেবা এবং অতিরিক্ত অনুরোধ জানাতে পারা",
+      "রিজার্ভেশন ও বিল সম্পর্কিত সাধারণ কথাবার্তা বুঝতে এবং বলত পারা",
+      "সাধারণ সমস্যায় ফ্রন্টে অভিযোগ বা সহায়তা অনুরোধ করা"
+    ],
+    "en": [
+      "Check in and check out at hotels or guesthouses",
+      "Request room service and extra items politely",
+      "Understand and discuss basic reservations and billing",
+      "Report problems or ask for help at the front desk"
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "숙박",
+      "romanization": "sukbak",
+      "bn": "থাকার ব্যবস্থা / নিঠোম",
+      "en": "accommodation; lodging",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 출장에서는 숙박을 호텔로 예약했어요.",
+        "bn": "এই ব্যবসা সফরে আমি থাকার ব্যবস্থা 호텔েই করেছি।",
+        "en": "For this business trip I booked accommodation at a hotel."
+      }
+    },
+    {
+      "ko": "예약",
+      "romanization": "yeyak",
+      "bn": "রিজার্ভেশন / বুকিং",
+      "en": "reservation; booking",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "인터넷으로 숙소를 미리 예약했어요.",
+        "bn": "আমি অনলাইনে আগে থেকেই আবাসন বুক করেছি।",
+        "en": "I booked the accommodation online in advance."
+      }
+    },
+    {
+      "ko": "체크인",
+      "romanization": "chekeu-in",
+      "bn": "চেক-ইন (প্রবেশ নথিভুক্তি)",
+      "en": "check-in",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "체크인은 오후 3시부터입니다.",
+        "bn": "চেক-ইন বিকাল ৩টার পর থেকে।",
+        "en": "Check-in is from 3 PM."
+      }
+    },
+    {
+      "ko": "체크아웃",
+      "romanization": "chekeuaut",
+      "bn": "চেক-আউট (চেকআউট)",
+      "en": "check-out",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "체크아웃은 오전 11시까지 해주세요.",
+        "bn": "অনুগ্রহ করে চেক-আউট সকাল ১১টার মধ্যে করুন।",
+        "en": "Please check out by 11 AM."
+      }
+    },
+    {
+      "ko": "프론트",
+      "romanization": "peurenteu",
+      "bn": "ফ্রন্ট ডেস্ক",
+      "en": "front desk",
+      "pos": "noun",
+      "example": {
+        "ko": "프론트에 맡기면 수하물을 보관해 줍니다.",
+        "bn": "ফ্রন্টে দিয়ে দিলে তারা ব্যাগ রাখে।",
+        "en": "If you leave it at the front desk, they will store your luggage."
+      }
+    },
+    {
+      "ko": "객실",
+      "romanization": "gaeksil",
+      "bn": "কক্ষ / রুম",
+      "en": "room",
+      "pos": "noun",
+      "example": {
+        "ko": "객실에 와이파이가 잘 됩니다.",
+        "bn": "রুমে ওয়াইফাই ভাল কাজ করে।",
+        "en": "The room has good Wi-Fi."
+      }
+    },
+    {
+      "ko": "키",
+      "romanization": "ki",
+      "bn": "চাবি / কীকার্ড",
+      "en": "key (card)",
+      "pos": "noun",
+      "example": {
+        "ko": "여기 객실 키입니다. 502호입니다.",
+        "bn": "এখানে আপনার রুমের কী। এটি ৫০২ নং।",
+        "en": "Here is your room key. It's room 502."
+      }
+    },
+    {
+      "ko": "예약 확인",
+      "romanization": "yeyak hwagin",
+      "bn": "রিজার্ভেশন নিশ্চিতকরণ",
+      "en": "reservation confirmation",
+      "pos": "noun",
+      "example": {
+        "ko": "예약 확인 이메일을 보여 주세요.",
+        "bn": "অনুগ্রহ করে রিজার্ভেশন কনফার্মেশন ইমেইল দেখান।",
+        "en": "Please show the reservation confirmation email."
+      }
+    },
+    {
+      "ko": "연장",
+      "romanization": "yeonjang",
+      "bn": "বর্ধিতকরণ / এক্সটেনশন",
+      "en": "extension; to extend (stay)",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "내일까지 숙박을 하루 연장하고 싶어요.",
+        "bn": "আমি কাল পর্যন্ত একটা দিন বাড়াতে চাই।",
+        "en": "I want to extend my stay by one day."
+      }
+    },
+    {
+      "ko": "청소",
+      "romanization": "cheongso",
+      "bn": "পরিষ্কার করা / হাউসকিপিং",
+      "en": "cleaning; housekeeping",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "청소 서비스를 오전 10시에 부탁해도 될까요?",
+        "bn": "সকাল ১০টায় হাউসকিপিং করা যাবে কি?",
+        "en": "Can I ask for cleaning service at 10 AM?"
+      }
+    },
+    {
+      "ko": "수건",
+      "romanization": "sugeon",
+      "bn": "তারোয়াল / তোয়ালে",
+      "en": "towel",
+      "pos": "noun",
+      "example": {
+        "ko": "수건을 하나 더 가져다 주세요.",
+        "bn": "আর একটা তোয়ালে দিয়ে দিন।",
+        "en": "Please bring one more towel."
+      }
+    },
+    {
+      "ko": "조식",
+      "romanization": "josik",
+      "bn": "নাস্তা / ব্রেকফাস্ট",
+      "en": "breakfast",
+      "pos": "noun",
+      "example": {
+        "ko": "조식 포함인가요?",
+        "bn": "নাস্তা অন্তর্ভুক্ত কি?",
+        "en": "Is breakfast included?"
+      }
+    },
+    {
+      "ko": "와이파이",
+      "romanization": "waipai",
+      "bn": "ওয়াইফাই",
+      "en": "Wi-Fi",
+      "pos": "noun",
+      "example": {
+        "ko": "와이파이 비밀번호가 뭐예요?",
+        "bn": "ওয়াইফাই পাসওয়ার্ড কী?",
+        "en": "What is the Wi-Fi password?"
+      }
+    },
+    {
+      "ko": "전기",
+      "romanization": "jeongi",
+      "bn": "বিদ্যুৎ / ইলেকট্রিক",
+      "en": "electricity; power",
+      "pos": "noun",
+      "example": {
+        "ko": "전기가 나갔어요. 프론트에 전화해야 해요.",
+        "bn": "বিদ্যুৎ চলে গেছে। ফ্রন্টে ফোন করতে হবে।",
+        "en": "The power went out. We need to call the front desk."
+      }
+    },
+    {
+      "ko": "보증금",
+      "romanization": "bojeunggeum",
+      "bn": "জামে টাকা / সিকিউরিটি ডিপোজিট",
+      "en": "security deposit",
+      "pos": "noun",
+      "example": {
+        "ko": "입실할 때 보증금을 카드로 결제했습니다.",
+        "bn": "চেক-ইন করার সময় সিকিউরিটি ডিপোজিট কার্ডে দিয়ে রেখেছি।",
+        "en": "I paid the security deposit by card when checking in."
+      }
+    },
+    {
+      "ko": "환불",
+      "romanization": "hwanbul",
+      "bn": "রিফান্ড / প্রত্যাশা",
+      "en": "refund",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "예약 취소 시 환불 규정을 알려 주세요.",
+        "bn": "বুকিং বাতিল করলে রিফান্ড নীতিটি বলুন।",
+        "en": "Please tell me the refund policy for cancellations."
+      }
+    },
+    {
+      "ko": "불만",
+      "romanization": "bulman",
+      "bn": "অসন্তুষ্টি / অভিযোগ",
+      "en": "complaint; dissatisfaction",
+      "pos": "noun",
+      "example": {
+        "ko": "객실 청소 상태에 불만이 있어요.",
+        "bn": "রুমের পরিষ্কারের মান নিয়ে আমার অভিযোগ আছে।",
+        "en": "I have a complaint about the cleanliness of the room."
+      }
+    },
+    {
+      "ko": "서비스",
+      "romanization": "seobiseu",
+      "bn": "সেবা / সার্ভিস",
+      "en": "service",
+      "pos": "noun",
+      "example": {
+        "ko": "프론트의 서비스가 아주 친절합니다.",
+        "bn": "ফ্রন্টের সার্ভিস খুবই সদয়।",
+        "en": "The front desk service is very kind."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "-(으)세요",
+      "titleBn": "শব্দের শেষে অনুরোধ/সম্মান (세요)",
+      "explanationBn": "বর্ণনা: Korean-এ ভদ্র অনুরোধ বা নির্দেশ দেওয়ার জন্য 동사/형용사의 어간 뒤에 '-(으)세요' ব্যবহার করা হয়। উদাহরণ (তিনটি):\n1) '예약해 주세요' -> 예약해 주세요. / অনুগ্রহ করে বুকিং করুন। / Please make the reservation.\n2) '여기 서명하세요' -> 여기 서명하세요. / এখানে সই করুন। / Please sign here.\n3) '잠깐 기다리세요' -> 잠깐 기다리세요. / একটু অপেক্ষা করুন। / Please wait a moment.",
+      "explanationEn": "Explanation: Use '-(으)세요' after verb/adjective stems for polite requests or commands. Examples (Korean / Bengali / English):\n1) 예약해 주세요. / অনুগ্রহ করে বুকিং করুন। / Please make the reservation.\n2) 여기 서명하세요. / এখানে সই করুন। / Please sign here.\n3) 잠깐 기다리세요. / একটু অপেক্ষা করুন। / Please wait a moment.",
+      "examples": [
+        {
+          "ko": "수건을 하나 더 가져다 주세요.",
+          "bn": "আর একটা তোয়ালে দিয়ে দিন।",
+          "en": "Please bring one more towel."
+        },
+        {
+          "ko": "체크아웃은 오전 11시까지 해주세요.",
+          "bn": "চেক-আউট সকাল ১১টার মধ্যে করুন।",
+          "en": "Please check out by 11 AM."
+        }
+      ]
+    },
+    {
+      "pattern": "-아/어 주세요",
+      "titleBn": "অনুরোধ করতে '-아/어 주세요'",
+      "explanationBn": "বর্ণনা: কাউকে কোনো কিছু করার জন্য বিনীতভাবে অনুরোধ করতে ক্রিয়ার মূলের পরে '-아/어 주세요' 붙ায়। উদাহরণ:\n1) '문을 닫아 주세요' -> 문을 닫아 주세요. / দরজা বন্ধ করে দিন। / Please close the door.\n2) '수건을 더 주세요' -> 수건을 더 주세요. / আরও তোয়ালে দিন। / Please give more towels.",
+      "explanationEn": "Explanation: Attach '-아/어 주세요' to verb stems to politely ask someone to do something. Examples:\n1) 문을 닫아 주세요. / Please close the door.\n2) 수건을 더 주세요. / Please give more towels.",
+      "examples": [
+        {
+          "ko": "청소를 내일 오후에 해 주세요.",
+          "bn": "পরিষ্কারটা আগামীকাল বিকালে করে দিন।",
+          "en": "Please do the cleaning tomorrow afternoon."
+        },
+        {
+          "ko": "전자레인지 사용법을 알려 주세요.",
+          "bn": "মাইক্রোওয়েভ ব্যবহার কিভাবে হয় বলুন।",
+          "en": "Please tell me how to use the microwave."
+        }
+      ]
+    },
+    {
+      "pattern": "-(으)면",
+      "titleBn": "শর্ত/যদি '-(으)면'",
+      "explanationBn": "বর্ণনা: কোনো শর্ত বা 'যদি' বোঝাতে '-(으)면' ব্যবহার করা হয়। উদাহরণগুলো:\n1) '예약하면 할인 있어요' -> 예약하면 할인 있어요. / যদি 예약 করেন, ছাড় আছে। / If you make a reservation, there is a discount.\n2) '늦으면 전화하세요' -> 늦으면 전화하세요. / দেরি হলে ফোন করুন। / If you are late, call us.\n3) '체크아웃하면 키를 주세요' -> 체크아웃하면 키를 반납하세요. / চেক-আউট করলে কী ফিরিয়ে দিন। / When you check out, return the key.",
+      "explanationEn": "Explanation: Use '-(으)면' to express condition ('if/when'). Examples:\n1) 예약하면 할인 있어요. / If you make a reservation, there is a discount.\n2) 늦으면 전화하세요. / If you are late, call us.\n3) 체크아웃하면 키를 반납하세요. / When you check out, return the key.",
+      "examples": [
+        {
+          "ko": "인터넷으로 예약하면 더 저렴해요.",
+          "bn": "অনলাইনে বুকিং করলে সস্তা হবে।",
+          "en": "If you book online, it's cheaper."
+        },
+        {
+          "ko": "객실이 마음에 들지 않으면 프론트에 말하세요.",
+          "bn": "রুম ভালো না লাগলে ফ্রন্টকে বলে দিন।",
+          "en": "If you don't like the room, tell the front desk."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "체크인 - 프론트에서",
+      "titleEn": "Check-in at the Front Desk",
+      "lines": [
+        {
+          "speaker": "손님",
+          "ko": "안녕하세요. 예약했는데요. 이름은 김민수입니다.",
+          "bn": "হ্যালো। আমি রিজার্ভ করেছি। নাম 김민수।",
+          "en": "Hello. I have a reservation. The name is Kim Minsu."
+        },
+        {
+          "speaker": "직원",
+          "ko": "예약 확인했습니다. 신분증 부탁드려요.",
+          "bn": "রিজার্ভেশন কনফার্ম হয়েছে। পরিচয়পত্র দয়া করে দেখান।",
+          "en": "I found your reservation. Please show your ID."
+        },
+        {
+          "speaker": "손님",
+          "ko": "여기 있습니다. 조식 포함인가요?",
+          "bn": "এটা নিন। নাস্তা কি অন্তর্ভুক্ত আছে?",
+          "en": "Here it is. Is breakfast included?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 조식 포함입니다. 객실 키 드리겠습니다. 방은 502호입니다.",
+          "bn": "হ্যাঁ, নাস্তা অন্তর্ভুক্ত। এখানে রুমের কী। ঘর ৫০২।",
+          "en": "Yes, breakfast is included. Here is your room key. Your room is 502."
+        },
+        {
+          "speaker": "손님",
+          "ko": "감사합니다. 와이파이 비밀번호는요?",
+          "bn": "ধন্যবাদ। ওয়াইফাই-এর পাসওয়ার্ড কি?",
+          "en": "Thank you. What's the Wi-Fi password?"
+        }
+      ]
+    },
+    {
+      "titleBn": "추가 요청 - 타월과 연장",
+      "titleEn": "Extra Request - Towels and Extension",
+      "lines": [
+        {
+          "speaker": "손님",
+          "ko": "죄송한데요, 수건을 하나 더 받을 수 있을까요?",
+          "bn": "দুঃখিত, আর একটা তোয়ালে পেতে পারি কি?",
+          "en": "Excuse me, could I get one more towel?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 바로 가져다 드리겠습니다. 또 다른 요청 있으신가요?",
+          "bn": "হ্যাঁ, এখনই নিয়ে আসছি। আর কিছু দরকার কি?",
+          "en": "Yes, I'll bring it right away. Do you have any other requests?"
+        },
+        {
+          "speaker": "손님",
+          "ko": "체크아웃을 한 시간 연장하고 싶어요. 가능할까요?",
+          "bn": "চেক-আউট এক ঘণ্টা বাড়াতে চাই। সম্ভব কি?",
+          "en": "I'd like to extend check-out by one hour. Is that possible?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "가능합니다. 추가 요금은 없습니다. 연장해 드릴게요.",
+          "bn": "হবে। অতিরিক্ত চার্জ নেই। বাড়িয়ে দিচ্ছি।",
+          "en": "That's possible. There is no extra charge. I'll extend it."
+        },
+        {
+          "speaker": "손님",
+          "ko": "정말 감사합니다.",
+          "bn": "খুব ধন্যবাদ।",
+          "en": "Thank you very much."
+        },
+        {
+          "speaker": "직원",
+          "ko": "편하게 머무세요.",
+          "bn": "আবেগ করে থাকুন।",
+          "en": "Have a comfortable stay."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 '체크아웃'의 뜻은 무엇인가?",
+      "questionKo": "다음 중 '체크아웃'의 뜻은 무엇인가?",
+      "options": [
+        "체크인",
+        "퇴실/나가기",
+        "예약",
+        "청소"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'체크아웃'은 호텔에서 퇴실하거나 계산을 마치는 것을 의미합니다."
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "프론트에 전화해서 요청하는 표현으로 알맞은 것은?",
+      "questionKo": "프론트에 전화해서 요청하는 표현으로 알맞은 것은?",
+      "options": [
+        "예약했어요.",
+        "수건을 더 주세요.",
+        "전기 나갔어요.",
+        "여기서 기다리세요."
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "서비스나 물건을 부탁할 때는 '수건을 더 주세요.'처럼 요청 표현을 사용합니다."
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "다음 문장에서 문법 '-(으)면'이 쓰인 예는 어느 것인가?",
+      "questionKo": "다음 문장에서 문법 '-(으)면'이 쓰인 예는 어느 것인가?",
+      "options": [
+        "늦으면 전화하세요.",
+        "수건을 주세요.",
+        "프론트에 가겠습니다.",
+        "보증금을 내세요."
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'늦으면 전화하세요.'는 조건을 나타내는 '-(으)면'이 사용된 예입니다."
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "객실 번호를 말할 때 알맞은 표현은?",
+      "questionKo": "객실 번호를 말할 때 알맞은 표현은?",
+      "options": [
+        "객실이 마음에 들어요.",
+        "방은 502호입니다.",
+        "수건을 주세요.",
+        "조식을 먹었어요."
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "객실 번호를 알릴 때는 '방은 502호입니다.'처럼 말합니다."
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "예약 확인을 보여 달라고 할 때 프론트 직원이 요청할 말은?",
+      "questionKo": "예약 확인을 보여 달라고 할 때 프론트 직원이 요청할 말은?",
+      "options": [
+        "체크아웃은 오전 11시입니다.",
+        "신분증 부탁드려요.",
+        "와이파이 비밀번호가 뭐예요?",
+        "수건을 하나 더 드리겠습니다."
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "예약자 확인을 위해 보통 '신분증 부탁드려요.'라고 요청합니다."
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "빈칸에 들어갈 알맞은 말은? '체크인은 오후 3시부터 ____.'",
+      "questionKo": "빈칸에 들어갈 알맞은 말은? '체크인은 오후 3시부터 ____.'",
+      "options": [
+        "하지 마세요",
+        "입니다",
+        "해 주세요",
+        "없습니다"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "표준 표현은 '체크인은 오후 3시부터입니다.'입니다."
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "빈칸에 들어갈 알맞은 말은? '수건을 하나 더 ____.'",
+      "questionKo": "빈칸에 들어갈 알맞은 말은? '수건을 하나 더 ____.'",
+      "options": [
+        "주세요",
+        "있어요",
+        "합니다",
+        "갔어요"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "누군가에게 요청할 때는 '수건을 하나 더 주세요.'가 적절합니다."
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "빈칸에 들어갈 알맞은 말은? '인터넷으로 예약하면 더 ____.'",
+      "questionKo": "빈칸에 들어갈 알맞은 말은? '인터넷으로 예약하면 더 ____.'",
+      "options": [
+        "비싸요",
+        "편합니다",
+        "저렴해요",
+        "힘들어요"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "문맥상 '인터넷으로 예약하면 더 저렴해요.'가 자연스럽습니다."
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "다음 단어와 뜻을 연결하세요.",
+      "questionKo": "다음 단어와 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "조식",
+          "right": "নাস্তা / breakfast"
+        },
+        {
+          "left": "보증금",
+          "right": "জামে টাকা / security deposit"
+        },
+        {
+          "left": "청소",
+          "right": "পরিষ্কার করা / cleaning"
+        },
+        {
+          "left": "프론트",
+          "right": "ফ্রন্ট ডেস্ক / front desk"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "각 단어와 বাংলা অর্থ를 연결하면 됩니다."
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "다음 표현과 상황을 연결하세요.",
+      "questionKo": "다음 표현과 상황을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "체크아웃",
+          "right": "হোটেল থেকে প্রস্থান / leaving the hotel"
+        },
+        {
+          "left": "수건을 더 주세요",
+          "right": "তরাবল বা তোয়ালে অনুরোধ / request towel"
+        },
+        {
+          "left": "와이파이 비밀번호",
+          "right": "ইন্টারনেট পাসওয়ার্ড / internet password"
+        },
+        {
+          "left": "예약 확인",
+          "right": "রিজার্ভেশন দেখানো / show reservation"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "표현과 해당 상황을 각각 연결하세요."
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문에 답하세요।",
+      "questionKo": "다음 글을 읽고 질문에 답하세요.",
+      "passage": "호텔 안내: 체크인은 오후 3시부터 가능합니다. 조식은 오전 7시부터 10시까지 제공됩니다. 무료 와이파이를 사용할 수 있습니다.",
+      "options": [
+        "체크인은 오전 7시입니다.",
+        "조식은 오후에 제공합니다.",
+        "와이파이는 무료입니다.",
+        "조식은 제공되지 않습니다."
+      ],
+      "answer": 2,
+      "explanationBn": "본문에 '무료 와이파이를 사용할 수 있습니다.'라고 되어 있으므로 정답은 '와이파이는 무료입니다.'입니다।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "짧은 안내문을 읽고 정답을 고르세요।",
+      "questionKo": "짧은 안내문을 읽고 정답을 고르세요.",
+      "passage": "프론트: 체크아웃 시간은 오전 11시입니다. 늦으면 추가 요금이 발생할 수 있습니다.",
+      "options": [
+        "체크아웃은 오전 11시입니다.",
+        "체크아웃은 오후 3시입니다.",
+        "추가 요금은 없습니다.",
+        "프론트는 문을 닫았습니다."
+      ],
+      "answer": 0,
+      "explanationBn": "문장에 '체크아웃 시간은 오전 11시입니다.'라고 명확히 적혀 있습니다।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "다음 문장을 읽고 질문에 답하세요।",
+      "questionKo": "다음 문장을 읽고 질문에 답하세요.",
+      "passage": "손님: 수건을 하나 더 가져다 주세요. 직원: 네, 바로 가져다 드리겠습니다.",
+      "options": [
+        "직원이 수건을 주지 않겠다고 했습니다.",
+        "손님이 수건을 반납했습니다.",
+        "손님이 방을 청소했습니다.",
+        "직원이 수건을 가져다 주겠다고 했습니다."
+      ],
+      "answer": 3,
+      "explanationBn": "대화에서 직원이 '바로 가져다 드리겠습니다.'라고 말했으므로 네 번째 문장이 맞습니다।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "다음 안내문을 읽고 올바른 것을 고르세요।",
+      "questionKo": "다음 안내문을 읽고 올바른 것을 고르세요.",
+      "passage": "예약 취소: 체크인 24시간 전까지 취소하면 전액 환불됩니다. 이후에는 환불 불가.",
+      "options": [
+        "항상 환불됩니다.",
+        "24시간 전까지 취소하면 전액 환불됩니다.",
+        "체크인 후에만 환불됩니다.",
+        "환불 규정이 없습니다."
+      ],
+      "answer": 1,
+      "explanationBn": "본문에 '체크인 24시간 전까지 취소하면 전액 환불됩니다.'라고 되어 있습니다।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "다음 문장을 읽고 맞는 것을 고르세요।",
+      "questionKo": "다음 문장을 읽고 맞는 것을 고르세요.",
+      "passage": "객실 문제: 전기가 갑자기 나갔을 때는 프론트에 연락하세요.",
+      "options": [
+        "전기가 나가면 프론트에 연락해야 합니다.",
+        "전기가 나가도 아무 조치가 필요 없습니다.",
+        "전기 문제는 손님이 고쳐야 합니다.",
+        "프론트에서는 전기 문제를 해결하지 않습니다."
+      ],
+      "answer": 0,
+      "explanationBn": "본문에서 '전기가... 프론트에 연락하세요.'라고 지시합니다।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "다음 대화를 듣고 질문에 답하세요। (스피커는 프론트 직원과 손님)",
+      "questionKo": "다음을 듣고 질문에 답하세요: 손님이 무엇을 요청했나요?",
+      "passage": "손님: 죄송한데, 수건을 하나 더 받을 수 있을까요? 직원: 네, 지금 가져다 드리겠습니다.",
+      "options": [
+        "조식을 요청했다.",
+        "수건을 더 요청했다.",
+        "체크아웃을 요청했다.",
+        "예약을 변경했다."
+      ],
+      "answer": 1,
+      "explanationBn": "대화에서 손님이 '수건을 하나 더 받을 수 있을까요?'라고 물었습니다।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "다음 대화를 듣고 옳은 것을 고르세요۔",
+      "questionKo": "다음을 듣고 옳은 것을 고르세요: 프론트 직원이 무엇을 말했나요?",
+      "passage": "직원: 체크인은 오후 3시부터입니다. 늦으면 미리 연락 주세요.",
+      "options": [
+        "체크인은 오전 9시부터다.",
+        "체크인은 오후 3시부터다.",
+        "체크인이 필요 없다.",
+        "늦어도 연락하지 말라고 했다."
+      ],
+      "answer": 1,
+      "explanationBn": "직원이 '체크인은 오후 3시부터입니다.'라고 말했습니다।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "다음을 듣고 질문에 답하세요।",
+      "questionKo": "다음을 듣고 질문에 답하세요: 손님이 무엇을 연장했나요?",
+      "passage": "손님: 체크아웃을 한 시간 연장하고 싶어요. 직원: 가능합니다. 연장해 드리겠습니다.",
+      "options": [
+        "수건을 연장했다.",
+        "조식을 연장했다.",
+        "체크아웃 시간을 연장했다.",
+        "예약을 연장했다."
+      ],
+      "answer": 2,
+      "explanationBn": "손님이 '체크아웃을 한 시간 연장하고 싶어요.'라고 했으므로 체크아웃 시간을 연장했습니다।"
+    }
+  ]
+}

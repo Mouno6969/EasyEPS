@@ -1,0 +1,669 @@
+{
+  "chapter": 43,
+  "slug": "building-construction",
+  "title": {
+    "ko": "건물 건설",
+    "bn": "ভবন নির্মাণ",
+    "en": "Building Construction"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "নির্মাণ সংক্রান্ত মৌলিক শব্দভাণ্ডার শিখতে পারবে।",
+      "সরল অফিস/ওয়ার্কসাইট কথ্য বাক্য ব্যবহার করে যোগাযোগ করতে পারবে।",
+      "সরল নিয়ম ও নির্দেশনা বুঝে কাজের নিরাপত্তা অনুশীলন করতে পারবে।"
+    ],
+    "en": [
+      "Learn basic construction-related vocabulary.",
+      "Use simple workplace/site sentences for communication.",
+      "Understand basic rules and follow safety instructions."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "건물",
+      "romanization": "geonmul",
+      "bn": "ভবন",
+      "en": "building",
+      "pos": "noun",
+      "example": {
+        "ko": "새 건물이 이번 달에 완공됩니다.",
+        "bn": "নতুন ভবনটি এই মাসে সম্পন্ন হবে।",
+        "en": "The new building will be completed this month."
+      }
+    },
+    {
+      "ko": "공사",
+      "romanization": "gongsa",
+      "bn": "নির্মাণ কাজ",
+      "en": "construction",
+      "pos": "noun",
+      "example": {
+        "ko": "도로 공사가 시작되었습니다.",
+        "bn": "সড়ক নির্মাণ কাজ শুরু হয়েছে।",
+        "en": "The road construction has started."
+      }
+    },
+    {
+      "ko": "기초",
+      "romanization": "gicho",
+      "bn": "নিহিত ভিত্তি / ফাউন্ডেশন",
+      "en": "foundation",
+      "pos": "noun",
+      "example": {
+        "ko": "기초를 잘 다져야 건물이 튼튼합니다.",
+        "bn": "ভিত্তি ভালভাবে করা হলে ভবন শক্ত হবে।",
+        "en": "If the foundation is solid, the building is strong."
+      }
+    },
+    {
+      "ko": "설계도",
+      "romanization": "seolgye-do",
+      "bn": "নকশা / ব্লূপ্রিন্ট",
+      "en": "blueprint",
+      "pos": "noun",
+      "example": {
+        "ko": "설계도를 확인하고 작업하세요.",
+        "bn": "নকশা দেখে কাজ করুন।",
+        "en": "Check the blueprint and work."
+      }
+    },
+    {
+      "ko": "자재",
+      "romanization": "jajae",
+      "bn": "উপকরণ",
+      "en": "materials",
+      "pos": "noun",
+      "example": {
+        "ko": "자재를 창고에서 꺼내 주세요.",
+        "bn": "উপকরণগুলি গুদাম থেকে নিয়ে আসুন।",
+        "en": "Please bring the materials from the warehouse."
+      }
+    },
+    {
+      "ko": "철근",
+      "romanization": "cheolgeun",
+      "bn": "রড / রিইনফোর্সিং বার",
+      "en": "rebar",
+      "pos": "noun",
+      "example": {
+        "ko": "철근을 정확한 길이로 자르세요.",
+        "bn": "রডগুলো সঠিক মাপে কেটে নিন।",
+        "en": "Cut the rebar to the exact length."
+      }
+    },
+    {
+      "ko": "시공",
+      "romanization": "sigong",
+      "bn": "গঠন/নির্মাণের কাজ",
+      "en": "construction work / execution",
+      "pos": "noun",
+      "example": {
+        "ko": "시공 일정이 바뀌었습니다.",
+        "bn": "নির্মাণের সময়সূচি বদলে গেছে।",
+        "en": "The construction schedule has changed."
+      }
+    },
+    {
+      "ko": "작업자",
+      "romanization": "jageopja",
+      "bn": "কর্মচারী / কর্মী",
+      "en": "worker",
+      "pos": "noun",
+      "example": {
+        "ko": "작업자는 안전장비를 착용해야 합니다.",
+        "bn": "কর্মীরা নিরাপত্তা সরঞ্জাম পরবে।",
+        "en": "Workers must wear safety equipment."
+      }
+    },
+    {
+      "ko": "안전모",
+      "romanization": "anjeonmo",
+      "bn": "নিরাপত্তা টুপি (হেলমেট)",
+      "en": "safety helmet",
+      "pos": "noun",
+      "example": {
+        "ko": "현장에서는 안전모를 쓰세요.",
+        "bn": "সাইটে নিরাপত্তা টুপি পরুন।",
+        "en": "Wear a safety helmet on site."
+      }
+    },
+    {
+      "ko": "현장",
+      "romanization": "hyeonjang",
+      "bn": "ওয়ার্কসাইট / স্থান",
+      "en": "site",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 현장 회의가 있습니다.",
+        "bn": "আজ ওয়ার্কসাইটে মিটিং আছে।",
+        "en": "There is a site meeting today."
+      }
+    },
+    {
+      "ko": "도급회사",
+      "romanization": "dogeup-hoesa",
+      "bn": "কনট্রাক্টর কোম্পানি",
+      "en": "contractor company",
+      "pos": "noun",
+      "example": {
+        "ko": "도급회사가 자재를 주문했습니다.",
+        "bn": "কনট্রাক্টর কোম্পানি উপকরণ অর্ডার করেছে।",
+        "en": "The contractor ordered the materials."
+      }
+    },
+    {
+      "ko": "도면",
+      "romanization": "domyeon",
+      "bn": "চিত্র / নকশা",
+      "en": "drawing / plan",
+      "pos": "noun",
+      "example": {
+        "ko": "도면과 실제 크기를 비교하세요.",
+        "bn": "চিত্র ও বাস্তব মাপ তুলনা করুন।",
+        "en": "Compare the drawing with the actual size."
+      }
+    },
+    {
+      "ko": "굴삭기",
+      "romanization": "gulsakgi",
+      "bn": "এক্সকাভেটর",
+      "en": "excavator",
+      "pos": "noun",
+      "example": {
+        "ko": "굴삭기를 안전하게 이동하세요.",
+        "bn": "এক্সকাভেটরটি নিরাপদে সরান।",
+        "en": "Move the excavator safely."
+      }
+    },
+    {
+      "ko": "철거",
+      "romanization": "cheolgeo",
+      "bn": "ধ্বংস / নষ্ট করা",
+      "en": "demolition",
+      "pos": "noun",
+      "example": {
+        "ko": "오래된 건물 철거 작업이 시작됩니다.",
+        "bn": "পুরনো ভবন ধ্বংস কাজ শুরু হবে।",
+        "en": "Demolition of the old building will start."
+      }
+    },
+    {
+      "ko": "마감",
+      "romanization": "magam",
+      "bn": "ফিনিশিং / শেষকরণ",
+      "en": "finishing",
+      "pos": "noun",
+      "example": {
+        "ko": "내부 마감은 다음 주에 합니다.",
+        "bn": "ভিতরের ফিনিশিং আগামী সপ্তাহে হবে।",
+        "en": "Interior finishing will be next week."
+      }
+    },
+    {
+      "ko": "검사",
+      "romanization": "geomsa",
+      "bn": "পরীক্ষা / ইন্সপেকশন",
+      "en": "inspection",
+      "pos": "noun",
+      "example": {
+        "ko": "검사관이 현장을 방문했습니다.",
+        "bn": "ইন্সপেক্টর সাইটে এসেছেন।",
+        "en": "The inspector visited the site."
+      }
+    },
+    {
+      "ko": "허가",
+      "romanization": "heoga",
+      "bn": "অনুমতি / পারমিট",
+      "en": "permit",
+      "pos": "noun",
+      "example": {
+        "ko": "공사 전에 허가를 받아야 합니다.",
+        "bn": "নির্মাণের আগে অনুমতি নিতে হবে।",
+        "en": "You must obtain a permit before construction."
+      }
+    },
+    {
+      "ko": "일정",
+      "romanization": "iljeong",
+      "bn": "সময়সূচি / শিডিউল",
+      "en": "schedule",
+      "pos": "noun",
+      "example": {
+        "ko": "일정을 맞추려면 더 많은 인력이 필요합니다.",
+        "bn": "সময়সূচি পূরণ করতে আরও কর্মী প্রয়োজন।",
+        "en": "We need more staff to meet the schedule."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "1",
+      "titleBn": "~고 있다 (চলমান ক্রিয়া)",
+      "explanationBn": "এই বাক্যরীতি বোঝায় যে কাজটি এই মুহূর্তে চলছে। উদাহরণসহ: \n- 저는 지금 철근을 자르고 있어요. / আমি এখন রড কাটছি। / I am cutting rebar now.\n- 작업자가 굴삭기를 운전하고 있어요. / কর্মী এক্সকাভেটর চালাচ্ছে। / The worker is operating the excavator.",
+      "explanationEn": "This pattern expresses an ongoing action (present progressive). Examples:\n- 저는 지금 철근을 자르고 있어요. / I am cutting rebar now.\n- 작업자가 굴삭기를 운전하고 있어요. / The worker is operating the excavator.",
+      "examples": [
+        {
+          "ko": "작업자가 페인트를 칠하고 있어요.",
+          "bn": "কর্মীটি এখন পেইন্ট করছে।",
+          "en": "The worker is painting now."
+        },
+        {
+          "ko": "우리는 지금 설계도를 보고 있어요.",
+          "bn": "আমরা এখন নকশা দেখছি।",
+          "en": "We are looking at the blueprint now."
+        }
+      ]
+    },
+    {
+      "pattern": "2",
+      "titleBn": "~아/어야 하다 (কর্তব্য/আবশ্যকতা)",
+      "explanationBn": "এই রীতি নির্দেশ করে যে কোনো কাজ করা জরুরি বা আবশ্যক। উদাহরণসহ: \n- 작업자는 안전모를 착용해야 합니다. / কর্মীকে নিরাপত্তা টুপি পরতে হবে। / Workers must wear safety helmets.\n- 허가를 받아야 공사를 시작할 수 있어요. / অনুমতি নিতে হবে তারপরই কাজ শুরু করা যাবে।",
+      "explanationEn": "This expresses obligation or necessity. Examples:\n- 작업자는 안전모를 착용해야 합니다. / Workers must wear safety helmets.\n- 허가를 받아야 공사를 시작할 수 있어요. / You must get a permit to start construction.",
+      "examples": [
+        {
+          "ko": "자재를 확인해야 합니다.",
+          "bn": "উপকরণগুলো পরীক্ষা করতে হবে।",
+          "en": "You must check the materials."
+        },
+        {
+          "ko": "도면을 수정해야 해요.",
+          "bn": "চিত্র সংশোধন করতে হবে।",
+          "en": "We need to revise the drawing."
+        }
+      ]
+    },
+    {
+      "pattern": "3",
+      "titleBn": "~(으)면 (শর্ত/যদি)",
+      "explanationBn": "এই রীতি শর্ত দেখায় — যদি কিছু ঘটে তবে অন্য কিছু হবে। উদাহরণ: \n- 허가가 있으면 공사를 시작합니다. / অনুমতি থাকলে কাজ শুরু হবে। / If we have a permit, we will start construction.\n- 안전 장비가 있으면 작업을 시작해도 돼요. / নিরাপত্তা সরঞ্জাম থাকলে কাজ শুরু করতে পারেন।",
+      "explanationEn": "This expresses condition — if something happens, then something else will. Examples:\n- 허가가 있으면 공사를 시작합니다. / If we have a permit, we will start construction.\n- 안전 장비가 있으면 작업을 시작해도 돼요. / If safety gear is available, you can start work.",
+      "examples": [
+        {
+          "ko": "일정이 맞으면 이번 주에 도면을 제출하겠습니다.",
+          "bn": "সময়সূচি মিললে এই সপ্তাহে চিত্র জমা দেব।",
+          "en": "If the schedule fits, I will submit the drawing this week."
+        },
+        {
+          "ko": "비가 오면 시공을 멈춰야 합니다.",
+          "bn": "বৃষ্টি হলে নির্মাণ বন্ধ করতে হবে।",
+          "en": "If it rains, construction must stop."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "নিরাপত্তা 점검",
+      "titleEn": "Safety Check",
+      "lines": [
+        {
+          "speaker": "감독",
+          "ko": "오늘 안전 장비를 모두 착용했나요?",
+          "bn": "আজ সবাই কি নিরাপত্তা সরঞ্জাম পরেছে?",
+          "en": "Did everyone wear safety equipment today?"
+        },
+        {
+          "speaker": "작업자",
+          "ko": "네, 안전모와 장갑을 착용했습니다.",
+          "bn": "হ্যাঁ, নিরাপত্তা টুপি এবং দস্তানা পরেছি।",
+          "en": "Yes, I wore a helmet and gloves."
+        },
+        {
+          "speaker": "감독",
+          "ko": "통로를 깨끗이 정리하세요. 미끄럼 주의하세요.",
+          "bn": "পথগুলো পরিষ্কার রাখুন। স্লিপিং সতর্ক থাকুন।",
+          "en": "Keep walkways clean. Watch for slips."
+        },
+        {
+          "speaker": "작업자",
+          "ko": "알겠습니다. 즉시 정리하겠습니다.",
+          "bn": "বুঝেছি। আমি এখন পরিষ্কার করছি।",
+          "en": "Understood. I'll clean it right away."
+        },
+        {
+          "speaker": "감독",
+          "ko": "안전점검표에 서명해 주세요.",
+          "bn": "নিরাপত্তা চেকলিস্টে স্বাক্ষর করুন।",
+          "en": "Please sign the safety checklist."
+        }
+      ]
+    },
+    {
+      "titleBn": "일정 확인",
+      "titleEn": "Schedule Check",
+      "lines": [
+        {
+          "speaker": "현장소장",
+          "ko": "설계도는 다 준비되었나요?",
+          "bn": "নকশা সব প্রস্তুত কি?",
+          "en": "Are the blueprints all ready?"
+        },
+        {
+          "speaker": "팀장",
+          "ko": "네, 도면을 오늘 오전에 받았습니다.",
+          "bn": "হ্যাঁ, চিত্র আজ সকালেই পেয়েছি।",
+          "en": "Yes, we received the drawings this morning."
+        },
+        {
+          "speaker": "현장소장",
+          "ko": "그러면 기초 공사를 이번 주에 시작합시다.",
+          "bn": "তাহলে এই সপ্তাহে ভিত্তি কাজ শুরু করি।",
+          "en": "Then let's start foundation work this week."
+        },
+        {
+          "speaker": "팀장",
+          "ko": "인력과 자재를 준비하겠습니다.",
+          "bn": "কর্মী ও উপকরণ প্রস্তুত করছি।",
+          "en": "I'll prepare manpower and materials."
+        },
+        {
+          "speaker": "현장소장",
+          "ko": "허가가 나오면 바로 시작하세요.",
+          "bn": "অনুমতি এলে সঙ্গে সঙ্গে শুরু করুন।",
+          "en": "Start immediately once the permit is issued."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "প্রশ্ন: '공사' শব্দের বাংলা অর্থ কোনটি?",
+      "questionKo": "'공사'의 의미는 무엇인가요?",
+      "options": [
+        "건물",
+        "공사",
+        "자재",
+        "작업자"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "সঠিক উত্তর: '공사' মানে নির্মাণ কাজ — তাই অপশন 1 (인덱스 1) সঠিক।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "প্রশ্ন: 안전모를 써야 하는 이유 কী?",
+      "questionKo": "왜 안전모를 써야 하나요?",
+      "options": [
+        "비가 올 때만",
+        "머리 보호를 위해",
+        "더 빠르게 일하기 위해",
+        "도면을 읽기 위해"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "নিরাপত্তা টুপি 머ি নিরাপদ রাখার জন্য; তাই '머리 보호를 위해' সঠিক।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "প্রশ্ন: '기초' শব্দটি কোন অংশে প্রযোজ্য?",
+      "questionKo": "'기초'는 어떤 것과 관련이 있나요?",
+      "options": [
+        "건물의 기초 (foundation)",
+        "도면의 제목",
+        "검사의 도구",
+        "일정표"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'기초' মানে ভিত্তি / ফাউন্ডেশন — অপশন 0 ঠিক।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "প্রশ্ন: 문법 — '~아/어야 합니다' এর ব্যবহারটি কোনটি?",
+      "questionKo": "'~아/어야 합니다'는 무엇을 나타내나요?",
+      "options": [
+        "অতীত কাল",
+        "অনুশাসন/দায়িত্ব",
+        "সম্ভাব্যতা",
+        "অপরাধ"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "এই রীতি বাধ্যবাধকতা বা দায়িত্ব দেখায় — 'অনুশাসন/দায়িত্ব' সঠিক।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "প্রশ্ন: 대화에서 '허가가 나오면 바로 시작하세요.' মানে কী?",
+      "questionKo": "대화의 '허가가 나오면 바로 시작하세요.' 의미는?",
+      "options": [
+        "허가가 없어도 시작하세요",
+        "허가가 나오면 즉시 시작하세요",
+        "허가를 취소하세요",
+        "허가를 기다리지 마세요"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "문장টি বলে: অনুমতি এলে সঙ্গে সঙ্গে শুরু করুন — অপশন 1 সঠিক।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "ভর্তি: '작업자는 _____를 착용해야 합니다.' কোনটি সঠিক?",
+      "questionKo": "빈칸: '작업자는 _____를 착용해야 합니다.' 어떤 단어가 들어가나요?",
+      "options": [
+        "안전모",
+        "도면",
+        "굴삭기",
+        "일정"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "কর্মীর জন্য নিরাপত্তা টুপি (안전모) পড়া উচিত — অপশন 0 ঠিক।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "ভর্তি: '공사가 시작되기 전에 _____을 받아야 합니다.' কি লাগবে?",
+      "questionKo": "빈칸: '공사가 시작되기 전에 _____을 받아야 합니다.' 무엇을 받아야 하나요?",
+      "options": [
+        "허가",
+        "철근",
+        "굴삭기",
+        "검사"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "নির্মাণ শুরু করার আগে অনুমতি (허가) নিতে হবে — অপশন 0 সঠিক।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "ভর্তি: '도면을 확인하고 작업하세요.' অর্থ কী?",
+      "questionKo": "빈칸: '도면을 확인하고 작업하세요.' 뜻은?",
+      "options": [
+        "도면을 보고 작업하세요",
+        "도면 없이 작업하세요",
+        "도면을 버리세요",
+        "도면을 복사하세요"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "문장은 '도면을 보고 작업하세요' — অপশন 0 সঠিক।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "মিলান করুন: কাজের শব্দ ও বাংলা অর্থ মিলান করুন।",
+      "questionKo": "연결하세요: 단어와 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "기초",
+          "right": "ভিত্তি"
+        },
+        {
+          "left": "안전모",
+          "right": "নিরাপত্তা টুপি"
+        },
+        {
+          "left": "굴삭기",
+          "right": "এক্সকাভেটর"
+        },
+        {
+          "left": "검사",
+          "right": "ইন্সপেকশন"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি জোড়া সরাসরি শব্দের মানে দেওয়া আছে। উত্তর মাপানোর জন্য জোড়াগুলি দেখুন।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "মিলান করুন: ব্যবসায়িক শব্দ ও বাংলা অনুবাদ মিলান করুন।",
+      "questionKo": "연결하세요: 용어와 번역을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "도급회사",
+          "right": "কনট্রাক্টর কোম্পানি"
+        },
+        {
+          "left": "자재",
+          "right": "উপকরণ"
+        },
+        {
+          "left": "일정",
+          "right": "সময়সূচি"
+        },
+        {
+          "left": "마감",
+          "right": "ফিনিশিং"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি শব্দের বাংলা অনুবাদ পাশে দেওয়া আছে; মিলান করুন।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ুন এবং প্রশ্নের উত্তর দিন: নির্মাণে '허가' কেন দরকার?",
+      "questionKo": "다음을 읽고 질문에 답하세요: 건설에서 '허가'가 왜 필요합니까?",
+      "passage": "공사 전에는 반드시 허가를 받아야 합니다. 허가는 안전과 환경 규정을 준수했는지 확인하기 위해 필요합니다.",
+      "options": [
+        "공사를 더 빠르게 하기 위해",
+        "안전과 환경 규정 준수를 확인하기 위해",
+        "자재를 무료로 받기 위해",
+        "작업자를 모집하기 위해"
+      ],
+      "answer": 1,
+      "explanationBn": "'허가'는 নিরাপত্তা ও পরিবেশ নিয়ম মেনে চলা যাচাই করতে লাগে — অপশন 1 সঠিক।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ুন: '시공 일정이 바뀌었습니다.' এর মানে কী?",
+      "questionKo": "다음을 읽고: '시공 일정이 바뀌었습니다.' 의미는 무엇인가요?",
+      "passage": "현장에서 연락이 왔습니다. 시공 일정이 바뀌었으니 확인해 달라고 합니다.",
+      "options": [
+        "시공이 취소되었다",
+        "시공 일정이 변경되었다",
+        "시공이 이미 끝났다",
+        "시공에 문제가 없다"
+      ],
+      "answer": 1,
+      "explanationBn": "문장টি বলে '시공 일정이 바뀌었다' — 즉 সময়সূচি পরিবর্তিত হয়েছে। অপশন 1 সঠিক।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ুন: 누가 현장을 방문했나요?",
+      "questionKo": "다음을 읽고: 누가 현장을 방문했나요?",
+      "passage": "검사관이 현장을 방문했습니다. 그는 안전 점검을 진행했습니다.",
+      "options": [
+        "작업자",
+        "감독",
+        "검사관",
+        "도급회사 대표"
+      ],
+      "answer": 2,
+      "explanationBn": "문장에서 '검사관이 현장을 방문했습니다' বলা আছে — অপশন 2 সঠিক।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ুন: '마감은 다음 주에 합니다.' কোন কাজের সময় নির্দেশ করে?",
+      "questionKo": "다음을 읽고: '마감은 다음 주에 합니다.' 어떤 일정을 말하나요?",
+      "passage": "내부 마감은 다음 주에 합니다. 외부 도장도 같은 기간에 예정되어 있습니다.",
+      "options": [
+        "기초 작업 시간",
+        "마감 작업의 시기",
+        "허가 신청 기간",
+        "검사 일정"
+      ],
+      "answer": 1,
+      "explanationBn": "'마감' কাজ কখন인지 বলা হচ্ছে — অপশন 1 (마감 작업의 시기) সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পাঠটি পড়ুন: '비가 오면 시공을 멈춰야 합니다.' এই বাক্যটি কি নির্দেশ করে?",
+      "questionKo": "다음을 읽고: '비가 오면 시공을 멈춰야 합니다.' 이 문장은 무엇을 나타내나요?",
+      "passage": "안전 규칙: 비가 오면 시공을 멈춰야 합니다. 작업자의 안전을 위해서입니다.",
+      "options": [
+        "비가 오면 계속 작업하세요",
+        "비가 오면 시공을 중단해야 한다",
+        "비가 오면 검사를 한다",
+        "비가 오면 도면을 변경한다"
+      ],
+      "answer": 1,
+      "explanationBn": "문장은 বৃষ্টির সময় কাজ বন্ধ করার নিয়ম বলছে — অপশন 1 সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শুনুন এবং প্রশ্নের উত্তর দিন: 발표자는 কেন 자재를 주문했나요?",
+      "questionKo": "다음을 듣고 질문에 답하세요: 발표자는 왜 자재를 주문했나요?",
+      "passage": "도급회사에서 연락이 왔습니다. 자재가 부족하니 추가로 주문해 달라고 합니다.",
+      "options": [
+        "자재가 너무 많아서",
+        "자재가 부족해서",
+        "자재를 검사하려고",
+        "자재를 판매하려고"
+      ],
+      "answer": 1,
+      "explanationBn": "스크립트에 '자재가 부족하니 추가로 주문해 달라' 라고 되어 있으므로 অপশন 1 সঠিক।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শুনুন: 감독은 누구에게 서명하라고 했나요?",
+      "questionKo": "다음을 듣고: 감독은 누구에게 서명하라고 했나요?",
+      "passage": "감독: 안전점검표에 서명해 주세요. 작업자: 네, 지금 서명하겠습니다.",
+      "options": [
+        "작업자에게",
+        "감독에게",
+        "검사관에게",
+        "도급회사에게"
+      ],
+      "answer": 0,
+      "explanationBn": "대화에서 감독이 '서명해 주세요'라고 말했고 작업자가 답했으므로 '작업자에게' (옵션 0) ঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "শুনুন: 팀장은 언제 기초 공사를 시작하자고 했나요?",
+      "questionKo": "다음을 듣고: 팀장은 언제 기초 공사를 시작하자고 했나요?",
+      "passage": "현장소장: 그러면 기초 공사를 이번 주에 시작합시다. 팀장: 알겠습니다.",
+      "options": [
+        "이번 달 말에",
+        "이번 주에",
+        "다음 달에",
+        "내년에"
+      ],
+      "answer": 1,
+      "explanationBn": "문장에 '이번 주에 시작합시다' 라고 되어 있으므로 অপশন 1 সঠিক।"
+    }
+  ]
+}

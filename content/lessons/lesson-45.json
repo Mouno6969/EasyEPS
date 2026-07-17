@@ -1,0 +1,671 @@
+{
+  "chapter": 45,
+  "slug": "crop-cultivation",
+  "title": {
+    "ko": "작물 재배",
+    "bn": "ফসল চাষ",
+    "en": "Crop Cultivation"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "প্রাথমিক ফসল সম্পর্কিত শব্দভাণ্ডার শিখা এবং বোঝা।",
+      "কৃষি পরিবেশে সাধারণ বাক্য বলতে ও বুঝতে পারা।",
+      "সহকর্মীর সাথে বীজ বপন, সেচ ও সংগ্রহ নিয়ে আলোচনা করা।",
+      "সহজ নির্দেশনা এবং অনুরোধ বিনিময় করতে পারা।"
+    ],
+    "en": [
+      "Learn and recognize basic crop-related vocabulary.",
+      "Understand and use simple sentences in an agricultural setting.",
+      "Discuss sowing, watering, and harvesting with coworkers.",
+      "Give and follow simple instructions and requests."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "작물",
+      "romanization": "jakmul",
+      "bn": "ফসল",
+      "en": "crop",
+      "pos": "noun",
+      "example": {
+        "ko": "이 밭은 감자 작물을 재배합니다.",
+        "bn": "এই খেতে আলু ফসল চাষ করা হয়।",
+        "en": "This field grows potato crops."
+      }
+    },
+    {
+      "ko": "재배",
+      "romanization": "jaebae",
+      "bn": "চাষ/উত্পাদন",
+      "en": "cultivation",
+      "pos": "noun",
+      "example": {
+        "ko": "토마토 재배 방법을 배웠습니다.",
+        "bn": "টমেটো চাষের পদ্ধতি শেখে নিয়েছি।",
+        "en": "I learned tomato cultivation methods."
+      }
+    },
+    {
+      "ko": "밭",
+      "romanization": "bat",
+      "bn": "খেত (শুকনো জমি)",
+      "en": "field (dry land)",
+      "pos": "noun",
+      "example": {
+        "ko": "밭에 비료를 주어야 합니다.",
+        "bn": "খেতে সার দিতে হবে।",
+        "en": "You must fertilize the field."
+      }
+    },
+    {
+      "ko": "논",
+      "romanization": "non",
+      "bn": "ধানক্ষেত্র",
+      "en": "rice paddy",
+      "pos": "noun",
+      "example": {
+        "ko": "논에 물을 조절하세요.",
+        "bn": "ধানক্ষেতে পানি নিয়ন্ত্রণ করুন।",
+        "en": "Manage the water in the rice paddy."
+      }
+    },
+    {
+      "ko": "씨앗",
+      "romanization": "ssiat",
+      "bn": "বীজ",
+      "en": "seed",
+      "pos": "noun",
+      "example": {
+        "ko": "좋은 씨앗을 선택하세요.",
+        "bn": "ভাল বীজ বাছুন।",
+        "en": "Choose good seeds."
+      }
+    },
+    {
+      "ko": "파종",
+      "romanization": "pajong",
+      "bn": "বিঁজ বুনা / বপন",
+      "en": "sowing",
+      "pos": "noun",
+      "example": {
+        "ko": "파종은 봄에 합니다.",
+        "bn": "বীজ বপন বসন্তে করা হয়।",
+        "en": "Sowing is done in spring."
+      }
+    },
+    {
+      "ko": "비료",
+      "romanization": "bilyo",
+      "bn": "সার",
+      "en": "fertilizer",
+      "pos": "noun",
+      "example": {
+        "ko": "비료를 너무 많이 주지 마세요.",
+        "bn": "সার খুব 많이 দেবেন না।",
+        "en": "Don't give too much fertilizer."
+      }
+    },
+    {
+      "ko": "물주기",
+      "romanization": "muljugi",
+      "bn": "পানি দেওয়া",
+      "en": "watering",
+      "pos": "noun",
+      "example": {
+        "ko": "아침에 물주기를 합니다.",
+        "bn": "সকালবেলায় পানি দেওয়া হয়।",
+        "en": "Watering is done in the morning."
+      }
+    },
+    {
+      "ko": "관개",
+      "romanization": "gwangae",
+      "bn": "জলসেচ",
+      "en": "irrigation",
+      "pos": "noun",
+      "example": {
+        "ko": "관개 시스템을 점검하세요.",
+        "bn": "সেচ ব্যবস্থা পরীক্ষা করুন।",
+        "en": "Check the irrigation system."
+      }
+    },
+    {
+      "ko": "제초제",
+      "romanization": "jechoje",
+      "bn": "গাছপালা নাশক",
+      "en": "herbicide",
+      "pos": "noun",
+      "example": {
+        "ko": "제초제를 안전하게 사용하세요.",
+        "bn": "গাছপালা নাশক নিরাপদে ব্যবহার করুন।",
+        "en": "Use the herbicide safely."
+      }
+    },
+    {
+      "ko": "수확",
+      "romanization": "suhwak",
+      "bn": "ফসল তোলা/ঝড়া",
+      "en": "harvest",
+      "pos": "noun",
+      "example": {
+        "ko": "수확은 가을에 시작됩니다.",
+        "bn": "ফসল কাটা শরতে শুরু হয়।",
+        "en": "Harvest starts in autumn."
+      }
+    },
+    {
+      "ko": "품종",
+      "romanization": "pumjong",
+      "bn": "জাত/প্রজাতি",
+      "en": "variety",
+      "pos": "noun",
+      "example": {
+        "ko": "이 품종은 병에 강합니다.",
+        "bn": "এই জাত রোগপ্রতিরোধী।",
+        "en": "This variety is disease-resistant."
+      }
+    },
+    {
+      "ko": "뿌리",
+      "romanization": "ppuri",
+      "bn": "মূল/মূলদানি",
+      "en": "root",
+      "pos": "noun",
+      "example": {
+        "ko": "뿌리가 깊게 자랐습니다.",
+        "bn": "মূলগুলো গভীরে বেড়েছে।",
+        "en": "The roots grew deep."
+      }
+    },
+    {
+      "ko": "줄기",
+      "romanization": "julgi",
+      "bn": "কাণ্ড/তনা",
+      "en": "stem",
+      "pos": "noun",
+      "example": {
+        "ko": "줄기가 튼튼해요.",
+        "bn": "তনা শক্তিশালী।",
+        "en": "The stem is strong."
+      }
+    },
+    {
+      "ko": "잎",
+      "romanization": "ip",
+      "bn": "পাতা",
+      "en": "leaf",
+      "pos": "noun",
+      "example": {
+        "ko": "잎 색깔이 변하면 알려 주세요.",
+        "bn": "পাতার রং বদলালে জানাবেন।",
+        "en": "Tell me if the leaf color changes."
+      }
+    },
+    {
+      "ko": "온도",
+      "romanization": "ondo",
+      "bn": "তাপমাত্রা",
+      "en": "temperature",
+      "pos": "noun",
+      "example": {
+        "ko": "온도를 낮추어야 합니다.",
+        "bn": "তাপমাত্রা কমাতে হবে।",
+        "en": "We need to lower the temperature."
+      }
+    },
+    {
+      "ko": "병충해",
+      "romanization": "byeongchunghae",
+      "bn": "রোগ ও কীটপতঙ্গ",
+      "en": "pests and diseases",
+      "pos": "noun",
+      "example": {
+        "ko": "병충해를 빠르게 처리하세요.",
+        "bn": "রোগ ও কীট দ্রুত মোকাবেলা করুন।",
+        "en": "Treat pests and diseases quickly."
+      }
+    },
+    {
+      "ko": "경작하다",
+      "romanization": "gyeongjakhada",
+      "bn": "চাষ করা/জমি কাজ করা",
+      "en": "to cultivate",
+      "pos": "verb",
+      "example": {
+        "ko": "이 농부는 작은 밭을 경작합니다.",
+        "bn": "এই কৃষক ছোট খেত চাষ করে।",
+        "en": "This farmer cultivates a small field."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "~아/어요 (현재 존댓말)",
+      "titleBn": "বর্তমান ক্রিয়া (존댓말)",
+      "explanationBn": "কোনও কাজ বর্তমানে ঘটে তা বলার বিন্যাস। রুট ভের্বার শেষ স্বর অনুযায়ী -아요 বা -어요 যোগ করুন। উদাহরণ:\n1) 물을 줘요. (আমি/তিনি পানি দেন।)\n2) 씨앗을 심어요. (বীজ বপন করে)\n3) 수확해요. (ফসল কাটা হয়)\n",
+      "explanationEn": "Present polite form. Add -아요 or -어요 to the verb stem depending on the vowel.\nExamples:\n1) 물을 줘요. (Water the plants.)\n2) 씨앗을 심어요. (Sow the seeds.)\n3) 수확해요. (Harvest.)",
+      "examples": [
+        {
+          "ko": "물을 줘요.",
+          "bn": "পানি দিই/দেন।",
+          "en": "I/They water (the plants)."
+        },
+        {
+          "ko": "씨앗을 심어요.",
+          "bn": "বীজ বপন করি/করেন।",
+          "en": "I/They sow seeds."
+        }
+      ]
+    },
+    {
+      "pattern": "~고 있어요 (진행형)",
+      "titleBn": "গতিশীল ক্রিয়া (চলছে)",
+      "explanationBn": "কোন কাজ এখনই চলছে তা দেখায়। ক্রিয়ার ভিত্তি অংশে -고 있어요 যোগ করুন। উদাহরণ:\n1) 물을 주고 있어요. (এখন পানি দিচ্ছি)\n2) 잡초를 뽑고 있어요. (চলমান কাজ)\n",
+      "explanationEn": "Progressive form to show an action in progress. Add -고 있어요 to the verb stem.\nExamples:\n1) 물을 주고 있어요. (I am watering.)\n2) 잡초를 뽑고 있어요. (We are pulling weeds.)",
+      "examples": [
+        {
+          "ko": "물을 주고 있어요.",
+          "bn": "এখন পানি দিচ্ছি।",
+          "en": "I am watering now."
+        },
+        {
+          "ko": "파종하고 있어요.",
+          "bn": "বীজ বপন করছি।",
+          "en": "I am sowing now."
+        }
+      ]
+    },
+    {
+      "pattern": "~(으)세요 (요청/명령)",
+      "titleBn": "নির্দেশ বা অনুরোধ (ভদ্র)",
+      "explanationBn": "কোনও কাকে অনুরোধ বা বিনীত নির্দেশ দিতে ব্যবহার করুন। বাক্য রুটের পরে -(으)세요 যোগ করুন। উদাহরণ:\n1) 물을 주세요. (অনুরোধ)\n2) 비료를 뿌리세요. (নির্দেশ)\n",
+      "explanationEn": "Use to give polite requests or commands. Add -(으)세요 to the verb stem.\nExamples:\n1) 물을 주세요. (Please give water.)\n2) 비료를 뿌리세요. (Please apply fertilizer.)",
+      "examples": [
+        {
+          "ko": "물을 주세요.",
+          "bn": "পানি দিন। (অনুরোধ)",
+          "en": "Please give water."
+        },
+        {
+          "ko": "제초제를 치우세요.",
+          "bn": "গাছপালা নাশক সরান।",
+          "en": "Please remove the herbicide."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "বীজ বপন 준비",
+      "titleEn": "Preparing to Sow",
+      "lines": [
+        {
+          "speaker": "농장주",
+          "ko": "오늘 파종을 시작합니다. 씨앗을 준비했나요?",
+          "bn": "আজ বপন শুরু করছি। বীজগুলো আছে কি?",
+          "en": "We start sowing today. Did you prepare the seeds?"
+        },
+        {
+          "speaker": "일꾼",
+          "ko": "네, 씨앗과 흙을 준비했습니다.",
+          "bn": "হ্যাঁ, বীজ এবং মাটি প্রস্তুত আছে।",
+          "en": "Yes, the seeds and soil are ready."
+        },
+        {
+          "speaker": "농장주",
+          "ko": "먼저 밭을 고르고 물을 주세요.",
+          "bn": "প্রথমে খেত সমান করে পানি দিন।",
+          "en": "First level the field and water it."
+        },
+        {
+          "speaker": "일꾼",
+          "ko": "알겠습니다. 몇 줄을 심을까요?",
+          "bn": "বুঝেছি। কত সারি বপন করব?",
+          "en": "Understood. How many rows shall we sow?"
+        },
+        {
+          "speaker": "농장주",
+          "ko": "세 줄씩 구멍을 만들고 파종하세요.",
+          "bn": "প্রতি তিন সারি করে গর্ত করে বপন করুন।",
+          "en": "Make holes in three-row groups and sow."
+        }
+      ]
+    },
+    {
+      "titleBn": "수확 후 정리",
+      "titleEn": "After Harvest Cleanup",
+      "lines": [
+        {
+          "speaker": "관리자",
+          "ko": "수확이 끝났습니다. 창고로 옮기세요.",
+          "bn": "ফসল কাটা শেষ হয়েছে। গুদামে সরান।",
+          "en": "Harvest is finished. Move them to the storage."
+        },
+        {
+          "speaker": "작업자",
+          "ko": "상태를 확인했어요. 상한 것은 따로 모았습니다.",
+          "bn": "অবস্থা পরীক্ষা করেছি। নষ্টগুলো আলাদা করে রেখেছি।",
+          "en": "I checked the condition. Rotten ones are separated."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "도구를 세척하고 제자리에 두세요.",
+          "bn": "সরঞ্জামগুলো ধুয়ে রেখে দিন।",
+          "en": "Clean the tools and put them in place."
+        },
+        {
+          "speaker": "작업자",
+          "ko": "네, 바로 하겠습니다.",
+          "bn": "ঠিক আছে, এখনই করব।",
+          "en": "Okay, I'll do it right away."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "내일은 관개 시스템을 점검합니다.",
+          "bn": "আগামীকাল সেচ ব্যবস্থা পরীক্ষা করবো।",
+          "en": "Tomorrow we will check the irrigation system."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "এই শব্দটির বাংলা অর্থ কী? '씨앗'",
+      "questionKo": "'씨앗'의 뜻은 무엇입니까?",
+      "options": [
+        "뿌리",
+        "씨앗",
+        "물주기",
+        "수확"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'씨앗' মানে বীজ। তাই সঠিক উত্তর 1 নম্বর।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "কোনটি '관개' (জলসেচ) বোঝায়?",
+      "questionKo": "'관개'는 무엇을 말합니까?",
+      "options": [
+        "잡초 제거",
+        "온도 측정",
+        "물 공급",
+        "수확"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "'관개' মানে সেচ বা পানি দেওয়া। তাই 2 নম্বর সঠিক।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "বাক্যটি শুদ্ধ করুন: '물을 ___.' (현재 진행형)",
+      "questionKo": "문장을 완성하세요: '물을 ___.' (진행형)",
+      "options": [
+        "주고 있어요",
+        "줬어요",
+        "줄게요",
+        "주다"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "প্রশ্নে বর্তমানে চলছে (진행형) চাই, তাই '주고 있어요' সঠিক।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "করণীয় অনুরোধের ভদ্র রূপ কোনটি? (দয়া করে পানি দিন)",
+      "questionKo": "정중한 요청 표현으로 옳은 것은?",
+      "options": [
+        "물을 줘",
+        "물을 줘라",
+        "물을 주세요",
+        "물을 준다"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "'물을 주세요' হচ্ছে ভদ্র অনুরোধ। তাই 2 নম্বর।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "কোন শব্দটি '병충해' সম্পর্কিত? (রোগ বা কীট)",
+      "questionKo": "'병충해'와 관련된 것은?",
+      "options": [
+        "온도",
+        "비료",
+        "해충",
+        "줄기"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "'병충해' হলো রোগ ও কীট; '해충' (পেস্ট) তাই 2 নম্বর।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: '매일 아침에 ___ 합니다.' (পানি দেওয়া)",
+      "questionKo": "빈칸을 채우세요: '매일 아침에 ___ 합니다.'",
+      "options": [
+        "물주기",
+        "수확",
+        "파종",
+        "경작"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "প্রশ্নে প্রতিদিন সকালে করা কাজ '물주기' (পানি দেওয়া)। তাই 0।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: '씨앗을 뿌리고 지금 ___ 있어요.' (বপন চলছে)",
+      "questionKo": "빈칸을 채우세요: '씨앗을 뿌리고 지금 ___ 있어요.'",
+      "options": [
+        "심고",
+        "심고 있어요",
+        "심었다",
+        "심을"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'지금 ___ 있어요' মানে চলমান কাজ; '심고 있어요' সঠিক।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: '제초제를 ___ 주세요.' (অনুরোধ)",
+      "questionKo": "빈칸을 채우세요: '제초제를 ___ 주세요.'",
+      "options": [
+        "뿌리",
+        "뿌려",
+        "뿌려요",
+        "뿌려 주세요"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "ভদ্র অনুরোধে '뿌려 주세요' ব্যবহার করুন। তাই 3 নম্বর।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "কী শব্দগুলো বাংলা অর্থের সাথে মিলান।",
+      "questionKo": "단어를 뜻과 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "수확",
+          "right": "ফসল তোলা"
+        },
+        {
+          "left": "비료",
+          "right": "সার"
+        },
+        {
+          "left": "뿌리",
+          "right": "মূল"
+        },
+        {
+          "left": "관개",
+          "right": "জলসেচ"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি জোড়া নিজেই মিলছে: 수확=ফসল তোলা, 비료=সার, ইত্যাদি।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "কী কাজগুলো সঠিক ক্রিয়ার সাথে মিলান।",
+      "questionKo": "작업을 동사와 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "씨앗",
+          "right": "파종"
+        },
+        {
+          "left": "잡초",
+          "right": "제거"
+        },
+        {
+          "left": "물",
+          "right": "물주기"
+        },
+        {
+          "left": "병충해",
+          "right": "치료"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি কাজ সস্তে মিলছে: 씨앗→파종, 잡초→제거, ইত্যাদি।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তর চিহ্নিত করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
+      "passage": "밭에 씨앗을 뿌리고 비료를 조금 주었습니다. 이제 매일 물을 주어야 합니다.",
+      "options": [
+        "비료를 주지 않았다.",
+        "씨앗을 심었다.",
+        "물을 주는 것을 멈췄다.",
+        "수확을 시작했다."
+      ],
+      "answer": 1,
+      "explanationBn": "প্যাসেজে বলা আছে 씨앗 뿌렸고 비료 দিয়েছে; তাই '씨앗을 심었다' সঠিক।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "প্যাসেজ থেকে প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
+      "passage": "관개 시스템이 고장났습니다. 내일 수리할 예정입니다.",
+      "options": [
+        "관개 시스템이 잘 작동한다.",
+        "관개 시스템을 오늘 수리했다.",
+        "내일 관개를 점검한다.",
+        "관개를 교체할 계획이다."
+      ],
+      "answer": 2,
+      "explanationBn": "প্যাসেজে বলা আছে '내일 수리할 예정' → পরদিন 점검/수리 হবে, তাই 2।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে সঠিক ব্যাখ্যা চিহ্নিত করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
+      "passage": "병충해가 생기면 빠르게 처리하세요. 방치하면 피해가 커집니다.",
+      "options": [
+        "병충해는 무시해도 된다.",
+        "방치하면 피해가 적어진다.",
+        "빠르게 처리해야 한다.",
+        "병충해는 물로 해결된다."
+      ],
+      "answer": 2,
+      "explanationBn": "লেখায় বলা আছে দ্রুত মোকাবেলা করতে হবে; তাই 2 নম্বর।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "প্যাসেজ থেকে সঠিক তথ্য চিহ্নিত করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
+      "passage": "온실의 온도는 작물에 따라 다릅니다. 온도를 조절하면 병충해를 줄일 수 있습니다.",
+      "options": [
+        "온도는 모든 작물에 동일하다.",
+        "온도 조절은 병충해를 늘린다.",
+        "온도 조절로 병충해를 줄일 수 있다.",
+        "온실에는 온도가 필요 없다."
+      ],
+      "answer": 2,
+      "explanationBn": "প্যাসেজ বলছে 온도 নিয়ন্ত্রণ করলে 병পতঙ্গ কমে; তাই 2।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে সঠিক সময় নির্ধারণ করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
+      "passage": "수확은 일반적으로 가을에 합니다. 일부 작물은 여름에 수확합니다.",
+      "options": [
+        "수확은 항상 봄에 한다.",
+        "수확은 일반적으로 가을에 한다.",
+        "수확은 겨울에만 한다.",
+        "수확은 하지 않는다."
+      ],
+      "answer": 1,
+      "explanationBn": "প্যাসেজে বলা আছে সাধারণত 가을ে করে; তাই 1 নম্বর।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শোনা বাক্য থেকে প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음 말을 듣고 알맞은 것을 고르세요.",
+      "passage": "지금 물을 주고 있어요. 나중에 비료를 주세요.",
+      "options": [
+        "지금 비료를 준다.",
+        "물을 주고 있다.",
+        "수확을 시작했다.",
+        "씨앗을 뿌리지 않았다."
+      ],
+      "answer": 1,
+      "explanationBn": "বাক্যটিতে বলা আছে '지금 물을 주고 있어요' → পানি দিচ্ছে; তাই 1 নম্বর।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শোনা কথার নির্দেশ শনাক্ত করুন।",
+      "questionKo": "다음 말을 듣고 알맞은 것을 고르세요.",
+      "passage": "제초제를 조심히 사용하세요. 보호장비를 착용하세요.",
+      "options": [
+        "제초제는 아무렇게나 써도 된다.",
+        "보호장비 없이 작업하라.",
+        "조심히 사용하고 보호장비를 착용하라.",
+        "제초제는 먹어도 안전하다."
+      ],
+      "answer": 2,
+      "explanationBn": "বক্তা বলেছে সাবধানে ব্যবহার করুন ও সুরক্ষা পরিধান করুন; তাই 2।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "শোনা বার্তা থেকে কাজটি চিহ্নিত করুন।",
+      "questionKo": "다음 말을 듣고 알맞은 것을 고르세요.",
+      "passage": "내일 아침 밭에서 파종을 할 예정입니다. 모두 준비하세요.",
+      "options": [
+        "내일 저녁에 수확한다.",
+        "오늘 파종을 끝냈다.",
+        "내일 아침에 파종한다.",
+        "파종을 취소했다."
+      ],
+      "answer": 2,
+      "explanationBn": "বক্তা বলেছে '내일 아침 파종' → কালের সকালে বপন হবে; তাই 2 নম্বর।"
+    }
+  ]
+}

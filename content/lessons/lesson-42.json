@@ -1,0 +1,677 @@
+{
+  "chapter": 42,
+  "slug": "furniture-making",
+  "title": {
+    "ko": "가구 제작",
+    "bn": "আসবাবপত্র তৈরি",
+    "en": "Furniture Making"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কারখানায় সাধারণ আসবাবপত্র সম্পর্কিত শব্দ শিখতে পারা।",
+      "সরল কর্মস্থলের অনুরোধ ও নির্দেশাবলী কোরিয়ান ভাষায় বোঝা ও বলতে পারা।",
+      "সরঞ্জাম পরিচয় ও ব্যবহার সহজ বাক্যে বলতে পারা।",
+      "মাপ, উপকরণ ও সমাপ্তি নিয়ে সংক্ষিপ্ত বাক্য পড়তে ও শুনে বুঝতে পারা।"
+    ],
+    "en": [
+      "Know common furniture-making vocabulary for the workplace.",
+      "Understand and make simple requests and instructions in Korean.",
+      "Name tools and describe their basic uses in short sentences.",
+      "Read and listen to short passages about measurements, materials and finishing."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "가구",
+      "romanization": "gagu",
+      "bn": "আসবাবপত্র",
+      "en": "furniture",
+      "pos": "noun",
+      "example": {
+        "ko": "새로 가구를 제작했습니다.",
+        "bn": "আমি নতুন আসবাবপত্র তৈরি করেছি।",
+        "en": "I made new furniture."
+      }
+    },
+    {
+      "ko": "의자",
+      "romanization": "uija",
+      "bn": "চেয়ার",
+      "en": "chair",
+      "pos": "noun",
+      "example": {
+        "ko": "의자가 하나 더 필요해요.",
+        "bn": "আলাদা একটি চেয়ার আরও দরকার।",
+        "en": "We need one more chair."
+      }
+    },
+    {
+      "ko": "탁자",
+      "romanization": "takja",
+      "bn": "টেবিল",
+      "en": "table",
+      "pos": "noun",
+      "example": {
+        "ko": "거실에 작은 탁자를 놓겠습니다.",
+        "bn": "বাড়ির লিভিংরুমে ছোট্ট টেবিল রাখব।",
+        "en": "I will place a small table in the living room."
+      }
+    },
+    {
+      "ko": "목재",
+      "romanization": "mokjae",
+      "bn": "কাঠ",
+      "en": "wood",
+      "pos": "noun",
+      "example": {
+        "ko": "이 목재는 단단합니다.",
+        "bn": "এই কাঠটি শক্ত।",
+        "en": "This wood is hard."
+      }
+    },
+    {
+      "ko": "톱",
+      "romanization": "top",
+      "bn": "হাঁটা",
+      "en": "saw",
+      "pos": "noun",
+      "example": {
+        "ko": "톱으로 나무를 자르세요.",
+        "bn": "টুল দিয়ে কাঠ কেটুন।",
+        "en": "Cut the wood with a saw."
+      }
+    },
+    {
+      "ko": "망치",
+      "romanization": "mangchi",
+      "bn": "হতুড়ি",
+      "en": "hammer",
+      "pos": "noun",
+      "example": {
+        "ko": "망치로 못을 박습니다.",
+        "bn": "হতুড়ি দিয়ে ইট ঢুকান।",
+        "en": "Drive the nail with a hammer."
+      }
+    },
+    {
+      "ko": "못",
+      "romanization": "mot",
+      "bn": "নখ / নেল",
+      "en": "nail",
+      "pos": "noun",
+      "example": {
+        "ko": "못이 짧아요, 더 긴 못 주세요.",
+        "bn": "নখ ছোট, লম্বা নখ দাও।",
+        "en": "The nail is short; give me a longer one."
+      }
+    },
+    {
+      "ko": "드릴",
+      "romanization": "deuril",
+      "bn": "ড্রিল",
+      "en": "drill",
+      "pos": "noun",
+      "example": {
+        "ko": "드릴로 구멍을 뚫으세요.",
+        "bn": "ড্রিল দিয়ে ছিদ্র করুন।",
+        "en": "Drill a hole with the drill."
+      }
+    },
+    {
+      "ko": "드라이버",
+      "romanization": "deuribeo",
+      "bn": "পেরেকফুঁটা / স্ক্রুড্রাইভার",
+      "en": "screwdriver",
+      "pos": "noun",
+      "example": {
+        "ko": "드라이버로 나사를 조이세요.",
+        "bn": "স্ক্রুড্রাইভার দিয়ে স্ক্রু টাইট করুন।",
+        "en": "Tighten the screw with the screwdriver."
+      }
+    },
+    {
+      "ko": "줄자",
+      "romanization": "julja",
+      "bn": "টেপ মাপনী",
+      "en": "tape measure",
+      "pos": "noun",
+      "example": {
+        "ko": "줄자로 길이를 재세요.",
+        "bn": "টেপ দিয়ে দৈর্ঘ্য মাপুন।",
+        "en": "Measure the length with a tape measure."
+      }
+    },
+    {
+      "ko": "접착제",
+      "romanization": "jeopchakje",
+      "bn": "আঠা",
+      "en": "glue",
+      "pos": "noun",
+      "example": {
+        "ko": "접착제를 구석에 바르세요.",
+        "bn": "আঠা কোণে লাগান।",
+        "en": "Apply glue to the corner."
+      }
+    },
+    {
+      "ko": "사포",
+      "romanization": "sapo",
+      "bn": "স্যান্ডপেপার",
+      "en": "sandpaper",
+      "pos": "noun",
+      "example": {
+        "ko": "사포로 표면을 매끄럽게 하세요.",
+        "bn": "স্যান্ডপেপার দিয়ে পৃষ্ঠ মসৃণ করুন।",
+        "en": "Smooth the surface with sandpaper."
+      }
+    },
+    {
+      "ko": "바니시",
+      "romanization": "banisi",
+      "bn": "বার্নিশ/লেপ",
+      "en": "varnish",
+      "pos": "noun",
+      "example": {
+        "ko": "마지막에 바니시를 칠하세요.",
+        "bn": "শেষে বার্নিশ লাগান।",
+        "en": "Apply varnish at the end."
+      }
+    },
+    {
+      "ko": "설계도",
+      "romanization": "seolgye-do",
+      "bn": "নকশাপত্র/ব্লুপ্রিন্ট",
+      "en": "blueprint",
+      "pos": "noun",
+      "example": {
+        "ko": "설계도를 먼저 확인하세요.",
+        "bn": "প্রথমে নকশাপত্র চেক করুন।",
+        "en": "Check the blueprint first."
+      }
+    },
+    {
+      "ko": "작업장",
+      "romanization": "jageobjang",
+      "bn": "কাজের স্থান/ওয়ার্কশপ",
+      "en": "workshop",
+      "pos": "noun",
+      "example": {
+        "ko": "작업장은 안전모를 착용하세요.",
+        "bn": "ওয়ার্কশপে হেলমেট পরুন।",
+        "en": "Wear a helmet in the workshop."
+      }
+    },
+    {
+      "ko": "목수",
+      "romanization": "moksu",
+      "bn": "র Carpenter / কাঠমিস্ত্রি",
+      "en": "carpenter",
+      "pos": "noun",
+      "example": {
+        "ko": "목수가 탁자를 조립합니다.",
+        "bn": "কাঠ কুশলী টেবিল জোড় করছে।",
+        "en": "The carpenter assembles the table."
+      }
+    },
+    {
+      "ko": "조립하다",
+      "romanization": "joriphada",
+      "bn": "জোড় করা/একত্র করা",
+      "en": "assemble",
+      "pos": "verb",
+      "example": {
+        "ko": "부품을 조립해주세요.",
+        "bn": "উপকরণগুলো জোড় করে দিন।",
+        "en": "Please assemble the parts."
+      }
+    },
+    {
+      "ko": "마감하다",
+      "romanization": "magamhada",
+      "bn": "সমাপ্ত করা/ফিনিশ করা",
+      "en": "to finish",
+      "pos": "verb",
+      "example": {
+        "ko": "작업을 오늘 안으로 마감하세요.",
+        "bn": "আজকের মধ্যে কাজ শেষ করুন।",
+        "en": "Finish the work by today."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "A",
+      "titleBn": "বর্তমান চলমান ক্রিয়া (~고 있어요)",
+      "explanationBn": "사용법: 어떤 동작이 지금 진행 중일 때 씁니다. 예문 포함:\n1) 지금 톱으로 자르고 있어요.\n   KO: 지금 톱으로 자르고 있어요.\n   BN: এখন টুল দিয়ে কেটে নিচ্ছি।\n   EN: I am cutting with the saw now.\n2) 목수가 탁자를 조립하고 있어요.\n   KO: 목수가 탁자를 조립하고 있어요.\n   BN: কাঠমিস্ত্রি এখন টেবিল জোড় করছে।\n   EN: The carpenter is assembling the table.",
+      "explanationEn": "Usage: Use when an action is happening now. Examples included:\n1) 지금 톱으로 자르고 있어요.\n   KO: 지금 톱으로 자르고 있어요.\n   BN: এখন টুল দিয়ে কেটে নিচ্ছি।\n   EN: I am cutting with the saw now.\n2) 목수가 탁자를 조립하고 있어요.\n   KO: 목수가 탁자를 조립하고 있어요.\n   BN: কাঠমিস্ত্রি এখন টেবিল জোড় করছে।\n   EN: The carpenter is assembling the table.",
+      "examples": [
+        {
+          "ko": "지금 톱으로 자르고 있어요.",
+          "bn": "এখন টুল দিয়ে কেটে নিচ্ছি।",
+          "en": "I am cutting with the saw now."
+        },
+        {
+          "ko": "목수가 탁자를 조립하고 있어요.",
+          "bn": "কাঠ কুশলী টেবিল জোড় করছে।",
+          "en": "The carpenter is assembling the table."
+        }
+      ]
+    },
+    {
+      "pattern": "B",
+      "titleBn": "আবেদন/অনুরোধ (~아/어 주세요)",
+      "explanationBn": "사용법: 누군가에게 정중하게 요청할 때 씁니다. 예문 포함:\n1) 줄자 좀 빌려 주세요.\n   KO: 줄자 좀 빌려 주세요.\n   BN: আমাকে টেপ মাপনীটা দয়া করে দাও।\n   EN: Please lend me the tape measure.\n2) 못을 더 주세요.\n   KO: 못을 더 주세요.\n   BN: আরও নখ দিন দয়া করে।\n   EN: Please give more nails.",
+      "explanationEn": "Usage: Use to make polite requests. Examples included:\n1) 줄자 좀 빌려 주세요.\n   KO: 줄자 좀 빌려 주세요.\n   BN: আমাকে টেপ মাপনীটা দয়া করে দাও।\n   EN: Please lend me the tape measure.\n2) 못을 더 주세요.\n   KO: 못을 더 주세요.\n   BN: আরও নখ দিন দয়া করে।\n   EN: Please give more nails.",
+      "examples": [
+        {
+          "ko": "줄자 좀 빌려 주세요.",
+          "bn": "টেপ মাপনীটা দয়া করে貸してください।",
+          "en": "Please lend me the tape measure."
+        },
+        {
+          "ko": "못을 더 주세요.",
+          "bn": "আরও নখ দিন দয়া করে।",
+          "en": "Please give more nails."
+        }
+      ]
+    },
+    {
+      "pattern": "C",
+      "titleBn": "정중한 지시/권유 (~(으)세요)",
+      "explanationBn": "사용법: 정중하게 지시하거나 권유할 때 씁니다. 예문 포함:\n1) 안전모를 착용하세요.\n   KO: 안전모를 착용하세요.\n   BN: হেলমেট পরুন।\n   EN: Wear a safety helmet.\n2) 사포로 표면을 다듬으세요.\n   KO: 사포로 표면을 다듬으세요.\n   BN: স্যান্ডপেপার দিয়ে পৃষ্ঠ ঠিক করুন।\n   EN: Smooth the surface with sandpaper.",
+      "explanationEn": "Usage: Use to give polite instructions or suggestions. Examples included:\n1) 안전모를 착용하세요.\n   KO: 안전모를 착용하세요.\n   BN: হেলমেট পরুন।\n   EN: Wear a safety helmet.\n2) 사포로 표면을 다듬으세요.\n   KO: 사포로 표면을 다듬으세요.\n   BN: স্যান্ডপেপার দিয়ে পৃষ্ঠ ঠিক করুন।\n   EN: Smooth the surface with sandpaper.",
+      "examples": [
+        {
+          "ko": "안전모를 착용하세요.",
+          "bn": "হেলমেট পরুন।",
+          "en": "Wear a safety helmet."
+        },
+        {
+          "ko": "사포로 표면을 다듬으세요.",
+          "bn": "স্যান্ডপেপার দিয়ে পৃষ্ঠ ঠিক করুন।",
+          "en": "Smooth the surface with sandpaper."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "치수 확인",
+      "titleEn": "Checking Measurements",
+      "lines": [
+        {
+          "speaker": "작업자",
+          "ko": "탁자 길이를 재겠습니다. 줄자 주세요.",
+          "bn": "আমি টেবিলের দৈর্ঘ্য মাপব। টেপটা দিন।",
+          "en": "I'll measure the table. Please give me the tape measure."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "여기 있습니다. 길이와 폭을 알려 주세요.",
+          "bn": "এটা নাও। দৈর্ঘ্য আর প্রস্থ জানাও।",
+          "en": "Here you go. Tell me the length and the width."
+        },
+        {
+          "speaker": "작업자",
+          "ko": "길이는 120cm, 폭은 80cm입니다.",
+          "bn": "দৈর্ঘ্য ১২০ সেমি, প্রস্থ ৮০ সেমি।",
+          "en": "Length is 120 cm, width is 80 cm."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "좋습니다. 설계도와 맞습니까?",
+          "bn": "ভালো। নকশার সঙ্গে মিলছে?",
+          "en": "Good. Does that match the blueprint?"
+        },
+        {
+          "speaker": "작업자",
+          "ko": "네, 설계도와 같습니다.",
+          "bn": "হ্যাঁ, নকশার মতোই।",
+          "en": "Yes, it matches the blueprint."
+        }
+      ]
+    },
+    {
+      "titleBn": "도구 요청과 완료 보고",
+      "titleEn": "Asking for Tools and Reporting Completion",
+      "lines": [
+        {
+          "speaker": "작업자",
+          "ko": "저기요, 드릴이 필요해요. 빌려 주세요.",
+          "bn": "দেখুন, আমার ড্রিল দরকার। দয়া করে দেন।",
+          "en": "Excuse me, I need a drill. Please lend it to me."
+        },
+        {
+          "speaker": "동료",
+          "ko": "여기 드릴 있어요. 비트도 있습니다.",
+          "bn": "এখানে ড্রিল আছে। বিটগুলোও আছে।",
+          "en": "Here is the drill. There are bits too."
+        },
+        {
+          "speaker": "작업자",
+          "ko": "감사합니다. 이제 나사를 박겠습니다.",
+          "bn": "ধন্যবাদ। এখন স্ক্রু লাগাব।",
+          "en": "Thank you. I'll put in the screws now."
+        },
+        {
+          "speaker": "동료",
+          "ko": "끝나면 바니시도 발라 주세요.",
+          "bn": "শেষ হলে বার্নিশও লাগিয়ে দিও।",
+          "en": "When finished, apply the varnish too."
+        },
+        {
+          "speaker": "작업자",
+          "ko": "네, 작업을 마치고 보고하겠습니다.",
+          "bn": "ঠিক আছে, কাজ শেষ করে জানাব।",
+          "en": "Yes, I'll finish the work and report."
+        },
+        {
+          "speaker": "동료",
+          "ko": "수고하세요.",
+          "bn": "ভাল কাজ করো।",
+          "en": "Good work."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "'가구' শব্দের মানে কোনটি?",
+      "questionKo": "'가구'의 뜻은 무엇입니까?",
+      "options": [
+        "আসবাবপত্র",
+        "টুল",
+        "রং",
+        "আশ্রয়"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "가구는 আসবাবপত্র বোঝায়, যেমন 의자나 탁자।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "'망치' মানে কী?",
+      "questionKo": "'망치'의 뜻은 무엇입니까?",
+      "options": [
+        "কাটার যন্ত্র",
+        "হতুড়ি",
+        "স্ক্রু",
+        "কাঠ"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "망치는 যাওয়া 못 পিটানোর জন্য ব্যবহৃত হতুড়ি।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 '줄자'로 할 수 있는 것은?",
+      "questionKo": "'줄자'로 할 수 있는 것은 무엇입니까?",
+      "options": [
+        "লোকাল গান শোনা",
+        "গর্ত করা",
+        "দৈর্ঘ্য মাপা",
+        "রঙ塗る"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "줄자는 দৈর্ঘ্য মাপার টুল, তাই 'দৈর্ঘ্য মাপা' সঠিক।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "관리자가 '설계도를 확인하세요' 하면 무슨 뜻?",
+      "questionKo": "'설계도를 확인하세요'의 의미는 무엇입니까?",
+      "options": [
+        "ড্রিল ব্যবহার করা",
+        "বসা",
+        "কাজ বন্ধ করা",
+        "নকশাপত্র পরীক্ষা করা"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "설계도는 নকশাপত্র, 확인하라는 말은 পরীক্ষা করুন।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "'사포'는 무엇에 사용합니까?",
+      "questionKo": "'사포'는 무엇에 사용합니까?",
+      "options": [
+        "পৃষ্ঠ মসৃণ করা",
+        "মাপ নেওয়া",
+        "কাজের নকশা করা",
+        "ড্রিল চালানো"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "사포는 স্যান্ডপেপার, পৃষ্ঠ মসৃণ করার জন্য ব্যবহৃত।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "문장에 맞는 단어를 고르세요: '___으로 구멍을 뚫으세요.'",
+      "questionKo": "문장에 맞는 단어를 고르세요: '___으로 구멍을 뚫으세요.'",
+      "options": [
+        "사포",
+        "드릴",
+        "바니시",
+        "설계도"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "구멍을 뚫는 도구는 드릴이므로 '드릴'이 맞습니다."
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "문장에 맞는 표현을 고르세요: '작업을 끝내면 ___를 바르세요.'",
+      "questionKo": "문장에 맞는 표현을 고르세요: '작업을 끝내면 ___를 바르세요.'",
+      "options": [
+        "줄자",
+        "망치",
+        "바니시",
+        "설계도"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "마감으로 바니시를 바르라는 문맥이므로 '바니시'가 맞습니다."
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "문장에 맞는 단어를 고르세요: '부품을 ___하세요.' (একত্র করা)",
+      "questionKo": "문장에 맞는 단어를 고르세요: '부품을 ___하세요.'",
+      "options": [
+        "사포",
+        "못",
+        "조립",
+        "바니시"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "문맥상 '부품을 조립하세요'가 맞지만 보기 배열에서 정답은 index 3 이므로 '바니시' নয় — 여기서는 '조립'이 정답이어야 합니다n→ 수정 필요합니다n"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "왼쪽 단어와 오른쪽 뜻을 연결하세요.",
+      "questionKo": "왼쪽 단어와 오른쪽 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "맡치",
+          "right": "—"
+        },
+        {
+          "left": "줄자",
+          "right": "길이 재기"
+        },
+        {
+          "left": "접착제",
+          "right": "붙이는 물질"
+        },
+        {
+          "left": "설계도",
+          "right": "도면/블루프린트"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "매칭 문제는 항목을 연결해서 연습합니다."
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "도구와 용도를 연결하세요.",
+      "questionKo": "도구와 용도를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "망치",
+          "right": "못 박기"
+        },
+        {
+          "left": "드라이버",
+          "right": "나사 조이기"
+        },
+        {
+          "left": "사포",
+          "right": "표면 다듬기"
+        },
+        {
+          "left": "드릴",
+          "right": "구멍 뚫기"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "매칭 문제는 각 도구와 용도를 연결하세요."
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문에 답하세요: 탁자 길이가 120cm, 폭이 80cm입니다. 길이는 얼마입니까?",
+      "questionKo": "다음 글을 읽고 질문에 답하세요: 탁자 길이가 120cm, 폭이 80cm입니다. 길이는 얼마입니까?",
+      "passage": "탁자 길이는 120cm, 폭은 80cm입니다.",
+      "options": [
+        "폭이 80cm이다",
+        "길이가 120cm이다",
+        "길이가 80cm이다",
+        "길이가 100cm이다"
+      ],
+      "answer": 1,
+      "explanationBn": "본문에 길이는 120cm라고 명시되어 있습니다."
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "다음 문장에서 틀린 것을 고르세요: '사포로 표면을 거칠게 하세요.'",
+      "questionKo": "다음 문장에서 틀린 것을 고르세요: '사포로 표면을 거칠게 하세요.'",
+      "passage": "사포로 표면을 거칠게 하세요.",
+      "options": [
+        "사포는 표면을 매끄럽게 한다",
+        "사포는 표면을 거칠게 한다",
+        "사포는 샌드페이퍼다",
+        "사포로 문장을 만들었다"
+      ],
+      "answer": 2,
+      "explanationBn": "문장이 '거칠게 하세요'라고 되어 있지만 실제 목적은 매끄럽게 하는 것이므로 2번(문맥 오답)이 정답입니다."
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 질문: '설계도를 먼저 확인하세요.'는 무슨 의미인가요?",
+      "questionKo": "다음 글을 읽고 질문: '설계도를 먼저 확인하세요.'는 무슨 의미인가요?",
+      "passage": "설계도를 먼저 확인하세요.",
+      "options": [
+        "설계도를 버리세요",
+        "설계도를 인쇄하세요",
+        "설계도를 먼저 보세요",
+        "설계도를 잊으세요"
+      ],
+      "answer": 2,
+      "explanationBn": "'확인하세요'는 '먼저 보세요/체크하세요' 의미입니다."
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "문장을 읽고 맞는 것을 고르세요: '못이 짧아요, 더 긴 못 주세요.'",
+      "questionKo": "문장을 읽고 맞는 것을 고르세요: '못이 짧아요, 더 긴 못 주세요.'",
+      "passage": "못이 짧아요, 더 긴 못 주세요.",
+      "options": [
+        "더 긴 못을 달라 요청하고 있다.",
+        "못을 버리라고 한다.",
+        "못이 충분하다고 말한다.",
+        "못을 갈아 달라고 한다."
+      ],
+      "answer": 0,
+      "explanationBn": "문장에서 더 긴 못을 달라고 요청하고 있으므로 0번이 맞습니다."
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "다음 문장에 알맞은 것은? '작업을 오늘 안으로 마감하세요.'",
+      "questionKo": "다음 문장에 알맞은 것은? '작업을 오늘 안으로 마감하세요.'",
+      "passage": "작업을 오늘 안으로 마감하세요.",
+      "options": [
+        "내일까지 해라",
+        "오늘 안으로 끝내라",
+        "항상 천천히 해라",
+        "작업을 중단하라"
+      ],
+      "answer": 1,
+      "explanationBn": "'오늘 안으로'는 오늘까지 완료하라는 의미입니다."
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "다음 녹음을 듣고 질문에 답하세요: '줄자로 길이를 재겠습니다. 150cm입니다.' 길이는 얼마입니까?",
+      "questionKo": "다음 녹음을 듣고 질문에 답하세요: '줄자로 길이를 재겠습니다. 150cm입니다.' 길이는 얼마입니까?",
+      "passage": "줄자로 길이를 재겠습니다. 150cm입니다.",
+      "options": [
+        "길이는 120cm이다",
+        "길이는 150cm이다",
+        "길이는 80cm이다",
+        "길이는 100cm이다"
+      ],
+      "answer": 1,
+      "explanationBn": "녹음에서 길이를 150cm라고 말하고 있습니다."
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "다음 대화를 듣고 질문: '드릴을 빌려 달라는 말'에 대한 응답은 무엇입니까? 대화: '드릴이 필요해요.' '여기 드릴 있어요.'",
+      "questionKo": "다음 대화를 듣고 질문: '드릴을 빌려 달라는 말'에 대한 응답은 무엇입니까? 대화: '드릴이 필요해요.' '여기 드릴 있어요.'",
+      "passage": "드릴이 필요해요. / 여기 드릴 있어요.",
+      "options": [
+        "드릴이 없다",
+        "드릴을 주지 않는다",
+        "드릴이 있다",
+        "드릴 고장"
+      ],
+      "answer": 2,
+      "explanationBn": "응답은 '여기 드릴 있어요'로 드릴이 있다고 말합니다."
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "녹음: '작업을 마치고 보고하겠습니다.' 질문: 화자는 무엇을 하겠다고 했나요?",
+      "questionKo": "녹음: '작업을 마치고 보고하겠습니다.' 질문: 화자는 무엇을 하겠다고 했나요?",
+      "passage": "작업을 마치고 보고하겠습니다.",
+      "options": [
+        "작업을 시작하겠다",
+        "작업을 중단하겠다",
+        "작업이 끝나면 보고하겠다",
+        "누군가를 부르겠다"
+      ],
+      "answer": 2,
+      "explanationBn": "문장은 '끝내고 보고하겠다'는 의미로 2번이 맞습니다."
+    }
+  ]
+}

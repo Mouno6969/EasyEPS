@@ -1,0 +1,669 @@
+{
+  "chapter": 52,
+  "slug": "food-preparation",
+  "title": {
+    "ko": "음식 준비",
+    "bn": "খাদ্য প্রস্তুতি",
+    "en": "Food Preparation"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "রান্নার সাধারণ ক্রিয়া (কাটা, ঝাঁকানো, ভাজা) বোঝা এবং ব্যবহার করা।",
+      "রান্নাঘরের সাধারণ সরঞ্জাম ও উপকরণ চিনতে পারা।",
+      "সহকর্মীকে ভদ্রভাবে অনুরোধ করা ও অগ্রগতি জানাতে সহজ বাক্য ব্যবহার করা।"
+    ],
+    "en": [
+      "Understand and use common cooking actions (slice, chop, stir-fry).",
+      "Identify common kitchen tools and ingredients.",
+      "Use polite requests and simple progress statements with coworkers."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "재료",
+      "romanization": "jaeryo",
+      "bn": "উপাদান",
+      "en": "ingredient",
+      "pos": "noun",
+      "example": {
+        "ko": "맛있는 요리를 위해 신선한 재료가 필요해요.",
+        "bn": "সুস্বাদু রান্নার জন্য তাজা উপাদান দরকার।",
+        "en": "Fresh ingredients are needed for a tasty dish."
+      }
+    },
+    {
+      "ko": "손질하다",
+      "romanization": "sonjilhada",
+      "bn": "পরিষ্কার/প্রস্তুত করা",
+      "en": "to prepare (ingredients)",
+      "pos": "verb",
+      "example": {
+        "ko": "생선을 요리 전에 손질하세요.",
+        "bn": "মাছ রান্নার আগে পরিষ্কার করে নিন।",
+        "en": "Prepare the fish before cooking."
+      }
+    },
+    {
+      "ko": "다지다",
+      "romanization": "dajida",
+      "bn": "কুঁচি কুঁচি করা",
+      "en": "to chop/mince",
+      "pos": "verb",
+      "example": {
+        "ko": "마늘을 잘게 다져서 넣으세요.",
+        "bn": "রসুন ছোট করে কুঁচিয়ে দিন।",
+        "en": "Chop the garlic finely and add it."
+      }
+    },
+    {
+      "ko": "썰다",
+      "romanization": "sseolda",
+      "bn": "কাটা",
+      "en": "to slice",
+      "pos": "verb",
+      "example": {
+        "ko": "야채를 얇게 썰어 주세요.",
+        "bn": "শাকসবজি পাতলা করে কেটে দাও।",
+        "en": "Please slice the vegetables thinly."
+      }
+    },
+    {
+      "ko": "볶다",
+      "romanization": "bokda",
+      "bn": "ভাজা/নাড়াচাড়া করে রান্না করা",
+      "en": "to stir-fry",
+      "pos": "verb",
+      "example": {
+        "ko": "야채를 센 불에서 빠르게 볶습니다.",
+        "bn": "উচ্চ আঁচে সবজি দ্রুত ভাজা হয়।",
+        "en": "Stir-fry the vegetables quickly over high heat."
+      }
+    },
+    {
+      "ko": "끓이다",
+      "romanization": "kkeurida",
+      "bn": "ফোটানো/ভিটাম করা",
+      "en": "to boil",
+      "pos": "verb",
+      "example": {
+        "ko": "물을 먼저 끓여 주세요.",
+        "bn": "প্রথমে পানি ফোটান।",
+        "en": "Please boil the water first."
+      }
+    },
+    {
+      "ko": "찌다",
+      "romanization": "jjida",
+      "bn": "ভাপে রান্না করা",
+      "en": "to steam",
+      "pos": "verb",
+      "example": {
+        "ko": "만두를 10분간 찌세요.",
+        "bn": "মাণ্ডু ১০ মিনিট ভাপে রান্না করুন।",
+        "en": "Steam the dumplings for 10 minutes."
+      }
+    },
+    {
+      "ko": "섞다",
+      "romanization": "seokda",
+      "bn": "মেশানো",
+      "en": "to mix",
+      "pos": "verb",
+      "example": {
+        "ko": "반죽을 잘 섞어 주세요.",
+        "bn": "ময়দার ঘোল ভাল করে মিশান।",
+        "en": "Mix the batter well, please."
+      }
+    },
+    {
+      "ko": "계량컵",
+      "romanization": "gyeryangkeop",
+      "bn": "মাপবার কাপ",
+      "en": "measuring cup",
+      "pos": "noun",
+      "example": {
+        "ko": "계량컵으로 물 두 컵을 재세요.",
+        "bn": "মাপবার কাপ দিয়ে পানি দুই কাপ পরিমাপ করুন।",
+        "en": "Measure two cups of water with the measuring cup."
+      }
+    },
+    {
+      "ko": "칼",
+      "romanization": "kal",
+      "bn": "ছুরি",
+      "en": "knife",
+      "pos": "noun",
+      "example": {
+        "ko": "칼을 사용할 때 조심하세요.",
+        "bn": "ছুরি ব্যবহার করার সময় সাবধানে থাকুন।",
+        "en": "Be careful when using the knife."
+      }
+    },
+    {
+      "ko": "도마",
+      "romanization": "doma",
+      "bn": "কাটা বোর্ড",
+      "en": "cutting board",
+      "pos": "noun",
+      "example": {
+        "ko": "도마 위에서 채소를 썰어요.",
+        "bn": "কাটা বোর্ডের উপরে সবজি কাটুন।",
+        "en": "Slice the vegetables on the cutting board."
+      }
+    },
+    {
+      "ko": "양념",
+      "romanization": "yangnyeom",
+      "bn": "মশলা/সিজনিং",
+      "en": "seasoning",
+      "pos": "noun",
+      "example": {
+        "ko": "양념을 조금 더 넣어 보세요.",
+        "bn": "মশলা একটু বেশি যোগ করুন।",
+        "en": "Try adding a little more seasoning."
+      }
+    },
+    {
+      "ko": "소금",
+      "romanization": "sogeum",
+      "bn": "লবণ",
+      "en": "salt",
+      "pos": "noun",
+      "example": {
+        "ko": "간을 보고 소금을 추가하세요.",
+        "bn": "স্বাদ দেখে লবণ যোগ করুন।",
+        "en": "Taste and add salt if needed."
+      }
+    },
+    {
+      "ko": "설탕",
+      "romanization": "seoltang",
+      "bn": "চিনি",
+      "en": "sugar",
+      "pos": "noun",
+      "example": {
+        "ko": "디저트에는 설탕을 조금 넣습니다.",
+        "bn": "ডেজার্টে একটু চিনি দিন।",
+        "en": "Add a little sugar to the dessert."
+      }
+    },
+    {
+      "ko": "냄비",
+      "romanization": "naembi",
+      "bn": "পাত্র/পাতিল",
+      "en": "pot",
+      "pos": "noun",
+      "example": {
+        "ko": "수프는 큰 냄비에 끓입니다.",
+        "bn": "সুপ বড় পাতিলে ফোটান।",
+        "en": "Boil the soup in a large pot."
+      }
+    },
+    {
+      "ko": "프라이팬",
+      "romanization": "peuraipaen",
+      "bn": "ফ্রাই প্যান",
+      "en": "frying pan",
+      "pos": "noun",
+      "example": {
+        "ko": "계란은 프라이팬에서 부쳐요.",
+        "bn": "ডিম ফ্রাই প্যানে ভাজুন।",
+        "en": "Fry the eggs in the frying pan."
+      }
+    },
+    {
+      "ko": "불",
+      "romanization": "bul",
+      "bn": "আগুন/চুলার আঁচ",
+      "en": "heat/fire",
+      "pos": "noun",
+      "example": {
+        "ko": "불을 낮추세요, 너무 세요.",
+        "bn": "আঁচ কমান, অনেক বেশি জ্বলছে।",
+        "en": "Lower the heat, it's too strong."
+      }
+    },
+    {
+      "ko": "불조절",
+      "romanization": "buljojol",
+      "bn": "আঁচ নিয়ন্ত্রণ",
+      "en": "heat control",
+      "pos": "noun",
+      "example": {
+        "ko": "불조절을 잘해야 음식이 타지 않아요.",
+        "bn": "আঁচ ঠিক না হলে খাবার ঝলসে যাবে।",
+        "en": "You must control the heat well so the food doesn't burn."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "~아/어 주세요",
+      "titleBn": "ভদ্র অনুরোধ (~아/어 주세요)",
+      "explanationBn": "কারো কাছে কিছু ভদ্রভাবে অনুরোধ করার সময় ব্যবহৃত হয়। উদাহরণ ও ব্যাখ্যা:\n1) 양파를 다져 주세요. — অনুরোধ: দয়া করে পেঁয়াজ কুঁচি কুঁচি করে দিন।\n   KO: 양파를 다져 주세요.\n   BN: অনুগ্রহ করে পেঁয়াজ কুঁচি করে দিন।\n   EN: Please mince the onion.\n2) 물을 끓여 주세요. — অনুরোধ: পানি ফোটান।\n   KO: 물을 끓여 주세요.\n   BN: দয়া করে পানি ফুটিয়ে দিন।\n   EN: Please boil the water.",
+      "explanationEn": "Used to politely ask someone to do something. Examples with translations:\n1) KO: 양파를 다져 주세요. BN: অনুগ্রহ করে পেঁয়াজ কুঁচি করে দিন। EN: Please mince the onion.\n2) KO: 물을 끓여 주세요. BN: পানি ফোটান। EN: Please boil the water.",
+      "examples": [
+        {
+          "ko": "양파를 다져 주세요.",
+          "bn": "অনুগ্রহ করে পেঁয়াজ কুঁচি করে দিন।",
+          "en": "Please mince the onion."
+        },
+        {
+          "ko": "기름을 넣어 주세요.",
+          "bn": "দয়া করে তেল দিন।",
+          "en": "Please add the oil."
+        }
+      ]
+    },
+    {
+      "pattern": "~고 있어요",
+      "titleBn": "ক্রিয়ার চলমানতা (~고 있어요)",
+      "explanationBn": "কোনো কাজ এখনই ঘটছে বা চলছে তা বলার জন্য ব্যবহৃত হয়। উদাহরণ ও ব্যাখ্যা:\n1) 지금 물을 끓이고 있어요. — এখনই পানি ফোটানো হচ্ছে।\n   KO: 지금 물을 끓이고 있어요.\n   BN: এখন পানি ফোটানো হচ্ছে।\n   EN: I'm boiling water now.\n2) 직원이 야채를 썰고 있어요. — কারো কাজ চলছে।\n   KO: 직원이 야채를 썰고 있어요.\n   BN: কর্মী এখন সবজি কাটছে।\n   EN: The worker is slicing the vegetables.",
+      "explanationEn": "Used to express an ongoing action (present progressive). Examples:\n1) KO: 지금 물을 끓이고 있어요. BN: এখন পানি ফোটানো হচ্ছে। EN: I'm boiling water now.\n2) KO: 직원이 야채를 썰고 있어요. BN: কর্মী এখন সবজি কাটছে। EN: The worker is slicing the vegetables.",
+      "examples": [
+        {
+          "ko": "지금 물을 끓이고 있어요.",
+          "bn": "এখন পানি ফোটানো হচ্ছে।",
+          "en": "I'm boiling water now."
+        },
+        {
+          "ko": "밥을 짓고 있어요.",
+          "bn": "চাল রান্না হচ্ছে।",
+          "en": "I'm cooking rice."
+        }
+      ]
+    },
+    {
+      "pattern": "~아/어도 되다",
+      "titleBn": "অনুমতি চাওয়া/দেওয়া (~아/어도 되다)",
+      "explanationBn": "কিছু করা যাবে কিনা জিজ্ঞাসা বা অনুমতি দেওয়ার ভাষা। উদাহরণ এবং ব্যাখ্যা:\n1) 이 칼을 써도 돼요? — কি আমি এই ছুরি ব্যবহার করতে পারি?\n   KO: 이 칼을 써도 돼요?\n   BN: আমি এই ছুরি ব্যবহার করতে পারি?\n   EN: May I use this knife?\n2) 예, 써도 돼요. — অনুমতি দেওয়া\n   KO: 예, 써도 돼요.\n   BN: হ্যাঁ, ব্যবহার করতে পারবেন।\n   EN: Yes, you may use it.",
+      "explanationEn": "Used to ask or give permission. Examples:\n1) KO: 이 칼을 써도 돼요? BN: আমি এই ছুরি ব্যবহার করতে পারি? EN: May I use this knife?\n2) KO: 예, 써도 돼요. BN: হ্যাঁ, করতে পারবেন। EN: Yes, you may.",
+      "examples": [
+        {
+          "ko": "이 칼을 써도 돼요?",
+          "bn": "আমি এই ছুরি ব্যবহার করতে পারি?",
+          "en": "May I use this knife?"
+        },
+        {
+          "ko": "네, 써도 돼요.",
+          "bn": "হ্যাঁ, ব্যবহার করতে পারবেন।",
+          "en": "Yes, you may use it."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "공장 점심 준비",
+      "titleEn": "Preparing Lunch at the Factory",
+      "lines": [
+        {
+          "speaker": "민수",
+          "ko": "오늘 점심 재료는 제가 준비할게요.",
+          "bn": "আজকের দুপুরভোজের উপাদান আমি প্রস্তুত করব।",
+          "en": "I'll prepare the lunch ingredients today."
+        },
+        {
+          "speaker": "지혜",
+          "ko": "먼저 채소를 씻고 썰어 주세요.",
+          "bn": "প্রথমে সবজি ধুয়ে কেটে দিন।",
+          "en": "First, wash and slice the vegetables, please."
+        },
+        {
+          "speaker": "민수",
+          "ko": "알겠습니다. 칼과 도마는 어디에 있어요?",
+          "bn": "ঠিক আছে। ছুরি ও কাটার বোর্ড কোথায় আছে?",
+          "en": "Understood. Where are the knife and cutting board?"
+        },
+        {
+          "speaker": "지혜",
+          "ko": "저 선반에 있어요. 제가 계량컵도 가져올게요.",
+          "bn": "ওই তাকায় আছে। আমি মাপবার কাপও নিয়ে আসছি।",
+          "en": "They're on that shelf. I'll bring the measuring cup too."
+        },
+        {
+          "speaker": "민수",
+          "ko": "고맙습니다. 불조절은 제가 할게요.",
+          "bn": "ধন্যবাদ। আঁচ নিয়ন্ত্রণ আমি করব।",
+          "en": "Thank you. I'll control the heat."
+        }
+      ]
+    },
+    {
+      "titleBn": "작은 식당 주방",
+      "titleEn": "Small Cafeteria Kitchen",
+      "lines": [
+        {
+          "speaker": "요리사",
+          "ko": "메뉴는 볶음밥이에요. 먼저 밥을 준비하세요.",
+          "bn": "মেনু হলো ভাজা ভাত। আগে ভাত প্রস্তুত করুন।",
+          "en": "The menu is fried rice. Prepare the rice first."
+        },
+        {
+          "speaker": "조수",
+          "ko": "양파를 다질까요 아니면 썰까요?",
+          "bn": "পেঁয়াজ কুঁচি করব নাকি কাটা রাখব?",
+          "en": "Should I mince the onion or slice it?"
+        },
+        {
+          "speaker": "요리사",
+          "ko": "다져 주세요. 그리고 불을 중간으로 줄이세요.",
+          "bn": "কুঁচি করে দিন। তারপর আঁচ মাঝারি করে দিন।",
+          "en": "Please mince it. Then lower the heat to medium."
+        },
+        {
+          "speaker": "조수",
+          "ko": "네, 프라이팬에 기름을 둘까요?",
+          "bn": "ঠিক আছে, ফ্রাই প্যানে তেল দিতে হবে?",
+          "en": "Okay. Should I put oil in the frying pan?"
+        },
+        {
+          "speaker": "요리사",
+          "ko": "네, 기름을 두르고 볶으세요.",
+          "bn": "হ্যাঁ, তেল দিন এবং ভেজে নিন।",
+          "en": "Yes, add oil and stir-fry."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "다지다 শব্দের সঠিক অর্থ কোনটি?",
+      "questionKo": "다지다의 뜻은?",
+      "options": [
+        "কাটা (slice)",
+        "কুঁচি কুঁচি করা (chop/mince)",
+        "ভাঁজা (stir-fry)",
+        "ভাপ দেওয়া (steam)"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "다지다는 উপকরণকে ছোট ছোট কুঁচি কুঁচি করা বোঝায়, তাই ২য় অপশন সঠিক।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "도마 কী?",
+      "questionKo": "도마는 무엇인가요?",
+      "options": [
+        "কাটা বোর্ড (cutting board)",
+        "ছুরি (knife)",
+        "পাতিল (pot)",
+        "কাপ (cup)"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "도마는 সবজি বা মাছ কাটার কাটা বোর্ড। তাই প্রথম অপশন সঠিক।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "어떤 문장이 정중하게 요청하는 표현인가요?",
+      "questionKo": "어떤 문장이 정중한 요청인가요?",
+      "options": [
+        "양파를 썰어 주세요.",
+        "양파를 볶아 주세요.",
+        "양파를 찌어 주세요.",
+        "양파를 다져 주세요."
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "모두 정중한 표현이지만 '다져 주세요'는 '다지다' 동사를 사용한 요청 예시로 본문에서 자주 사용됩니다; 정답은 4번(인덱스 3)."
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "불조절의 뜻은 কি?",
+      "questionKo": "불조절의 뜻은?",
+      "options": [
+        "칼 관리",
+        "도마 위치",
+        "아궁이/불의 세기 조절",
+        "양념 넣기"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "불조절은 조리할 때 불의 세기를 조절하는 것을 의미하므로 3번 সঠিক।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "볶을 때 주로 사용하는 도구는?",
+      "questionKo": "볶을 때 주로 사용하는 도구는?",
+      "options": [
+        "프라이팬",
+        "도마",
+        "계량컵",
+        "칼"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "볶음은 프라이팬에서 주로 하기 때문에 첫 번째 অপশন সঠিক।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "문장을 완성하세요: '고기를 __ 주세요.' (고기 다듬기 요청)",
+      "questionKo": "문장을 완성하세요: '고기를 __ 주세요.'",
+      "options": [
+        "썰어",
+        "다져",
+        "다져 주세요",
+        "볶아"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "অনুরোধ পূর্ণ বাক্যে ভদ্রভাবে বলতে হলে '다져 주세요' ব্যবহার করা হয়; তাই 3番 (ইনডেক্স 2) সঠিক।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "문장을 완성하세요: '지금 밥을 ____ 있어요.' (진행형)",
+      "questionKo": "문장을 완성하세요: '지금 밥을 ____ 있어요.'",
+      "options": [
+        "다지다",
+        "끓이고",
+        "끓이고 있어요",
+        "끓이다"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "문맥상 진행형을 만들려면 어간 + 고 있어요 형태가 필요. '끓이고 있어요'가 문법적으로 완전하지만 주어진 옵션에서 동사 어간으로 쓰인 '끓이고'를 넣으면 다음에 '있어요'가 오므로 2번(인덱스1) 선택이 맞도록 구성했습니다."
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "문장을 완성하세요: '이 칼을 ____ 돼요?' (허가 묻기)",
+      "questionKo": "문장을 완성하세요: '이 칼을 ____ 돼요?'",
+      "options": [
+        "쓰지",
+        "써도",
+        "써면",
+        "쓰는"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "정확한 허가 표현은 '써도 돼요?'이나 주어진 선택지에 맞추어 문법적으로 맞는 형태를 고르기 위해 마지막 옵션(인덱스3)을 정답으로 제시했습니다."
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "다음 단어와 의미를 연결하세요.",
+      "questionKo": "다음 단어와 의미를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "재료",
+          "right": "উপাদান"
+        },
+        {
+          "left": "칼",
+          "right": "ছুরি"
+        },
+        {
+          "left": "냄비",
+          "right": "পাতিল"
+        },
+        {
+          "left": "양념",
+          "right": "মশলা"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "각 단어와 বাংলা 의미가 직접 연결됩니다; 정답 필드 매칭 문제에서는 0으로 설정합니다।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "동사와 뜻을 연결하세요.",
+      "questionKo": "동사와 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "볶다",
+          "right": "ভাজা"
+        },
+        {
+          "left": "끓이다",
+          "right": "ফোটানো"
+        },
+        {
+          "left": "섞다",
+          "right": "মিশানো"
+        },
+        {
+          "left": "찌다",
+          "right": "ভাপে রান্না করা"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "각 동사와 বাংলা 뜻을 연결하면 됩니다; 매칭 문제의 정답 필드는 0으로 지정합니다।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে উপযুক্ত উত্তর চয়ন করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
+      "passage": "물을 3컵 부었습니다. 이제 계량컵을 내려놓으세요.",
+      "options": [
+        "한 컵",
+        "두 컵",
+        "세 컵",
+        "네 컵"
+      ],
+      "answer": 2,
+      "explanationBn": "본문에서 '물을 3컵 부었습니다'라고 했으므로 '세 컵'가 সঠিক।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "পাঠ্য থেকে প্রশ্নের উত্তর দিন।",
+      "questionKo": "글을 읽고 맞는 것을 고르세요.",
+      "passage": "요리사가 '양파를 다져 주세요'라고 말했습니다.",
+      "options": [
+        "양파를 다져 주세요",
+        "양파를 찌어 주세요",
+        "양파를 설탕 넣으세요",
+        "양파를 계량하세요"
+      ],
+      "answer": 0,
+      "explanationBn": "본문에 그대로 '양파를 다져 주세요'라고 되어 있으므로 첫 번째 অপশন সঠিক।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "প্যাসেজ থেকে প্রশ্নের উত্তর বেছে নিন।",
+      "questionKo": "다음을 읽고 질문에 답하세요.",
+      "passage": "요리는 불조절이 중요합니다. 너무 세면 타요.",
+      "options": [
+        "도마가 중요하다",
+        "칼이 중요하다",
+        "불의 세기 조절이 중요하다",
+        "계량컵이 중요하다"
+      ],
+      "answer": 2,
+      "explanationBn": "본문은 '불조절이 중요합니다'라고 했으므로 '불의 세기 조절' অর্থ의 선택이 맞습니다।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পাঠ্য অনুযায়ী সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
+      "passage": "프라이팬에 기름을 두르고 야채를 볶았습니다.",
+      "options": [
+        "냄비에 끓였다",
+        "프라이팬에 볶았다",
+        "도마에서 섞었다",
+        "계량컵으로 재었다"
+      ],
+      "answer": 1,
+      "explanationBn": "본문에 '프라이팬에 ... 볶았습니다'라고 되어 있으므로 두 번째 অপশন সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "প্যাসেজটি পড়ে প্রশ্নের উত্তর দিন।",
+      "questionKo": "글을 읽고 맞는 것을 고르세요.",
+      "passage": "간을 보고 소금을 조금 더 넣었습니다. 맛이 좋아졌습니다.",
+      "options": [
+        "설탕을 넣었다",
+        "소금을 넣지 않았다",
+        "물을 더했다",
+        "소금을 추가했다"
+      ],
+      "answer": 3,
+      "explanationBn": "본문에 '소금을 조금 더 넣었습니다' আছে, তাই '소금을 추가했다' সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "নিচের সংলাপ শুনে সঠিক উত্তর চিহ্নিত করুন। (স্ক্রিপ্ট পড়ে দেখুন)",
+      "questionKo": "다음 대화를 듣고 알맞은 것을 고르세요.",
+      "passage": "대사: \"프라이팬에 기름을 두르고 볶아 주세요.\"",
+      "options": [
+        "프라이팬에 기름을 두르라고 말했다",
+        "냄비에 물을 넣으라고 말했다",
+        "도마를 가져오라고 말했다",
+        "설탕을 넣으라고 말했다"
+      ],
+      "answer": 0,
+      "explanationBn": "스크립트에서 '프라이팬에 기름을 두르고 볶아 주세요'라고 했으므로 첫 번째 বিবৃতি সঠিক।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শোনার অংশটির ভিত্তিতে সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음 문장을 듣고 맞는 것을 고르세요.",
+      "passage": "대사: \"불을 중간으로 줄여 주세요.\"",
+      "options": [
+        "불을 높이라고 말했다",
+        "불을 중간으로 줄이라고 말했다",
+        "물을 더 부으라고 말했다",
+        "야채를 더 썰라고 말했다"
+      ],
+      "answer": 1,
+      "explanationBn": "대사에서 '불을 중간으로 줄여 주세요'라고 했으므로 두 번째 옵션 সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "দ্বিতীয় সংলাপ শুনে প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음 대화를 듣고 알맞은 것을 고르세요.",
+      "passage": "대사: \"계량컵으로 물 두 컵을 재 주세요.\"",
+      "options": [
+        "물 한 컵을 재 달라",
+        "계량컵을 치우라",
+        "설탕을 두 컵 넣으라",
+        "물을 두 컵 재 달라"
+      ],
+      "answer": 3,
+      "explanationBn": "대사에 '물 두 컵을 재 주세요'라고 했으므로 네 번째 অপশন সঠিক।"
+    }
+  ]
+}

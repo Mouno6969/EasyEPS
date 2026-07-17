@@ -1,0 +1,671 @@
+{
+  "chapter": 32,
+  "slug": "use-of-company-facilities",
+  "title": {
+    "ko": "회사 시설 이용",
+    "bn": "কোম্পানির সুবিধা ব্যবহার",
+    "en": "Use of Company Facilities"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "অফিসের সাধারণ সুবিধার নাম এবং ব্যবহার শেখা।",
+      "সম্মেলন কক্ষ বা 휴게실 ব্যবহার করার অনুমতি চাইতে এবং অনুরোধ করতে পারা।",
+      "বিভিন্ন অফিস নির্দেশিকা পড়ে সঠিক সিদ্ধান্ত নিতে পারা।",
+      "কর্মস্থলে সংক্ষিপ্ত কথোপকথনে অংশগ্রহণ করা।"
+    ],
+    "en": [
+      "Learn common company facility names and how to use them.",
+      "Ask for permission and make requests for using meeting rooms or the break room.",
+      "Read simple office instructions and follow them.",
+      "Participate in short workplace conversations."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "회의실",
+      "romanization": "hoeuisil",
+      "bn": "বৈঠক কক্ষ",
+      "en": "meeting room",
+      "pos": "noun",
+      "example": {
+        "ko": "회의실을 예약했어요.",
+        "bn": "আমি বৈঠক কক্ষ বুক করে রেখেছি।",
+        "en": "I reserved the meeting room."
+      }
+    },
+    {
+      "ko": "휴게실",
+      "romanization": "hyugesil",
+      "bn": "বিশ্রাম কক্ষ",
+      "en": "break room",
+      "pos": "noun",
+      "example": {
+        "ko": "점심 후에 휴게실에서 쉬세요.",
+        "bn": "দুপুরের পর বিশ্রাম কক্ষে বিশ্রাম করুন।",
+        "en": "Please rest in the break room after lunch."
+      }
+    },
+    {
+      "ko": "식당",
+      "romanization": "sikdang",
+      "bn": "ক্যান্টিন",
+      "en": "cafeteria",
+      "pos": "noun",
+      "example": {
+        "ko": "식당에 새 메뉴가 있어요.",
+        "bn": "ক্যান্টিনে নতুন মেনু আছে।",
+        "en": "There is a new menu in the cafeteria."
+      }
+    },
+    {
+      "ko": "사무실",
+      "romanization": "samusil",
+      "bn": "অফিস",
+      "en": "office",
+      "pos": "noun",
+      "example": {
+        "ko": "사무실은 8시에 문을 열어요.",
+        "bn": "অফিস সকাল ৮টায় খোলে।",
+        "en": "The office opens at 8 AM."
+      }
+    },
+    {
+      "ko": "주차장",
+      "romanization": "juchajang",
+      "bn": "পার্কিং লট",
+      "en": "parking lot",
+      "pos": "noun",
+      "example": {
+        "ko": "주차장은 지하에 있어요.",
+        "bn": "পার্কিং লট তলাবিল্কে আছে।",
+        "en": "The parking lot is underground."
+      }
+    },
+    {
+      "ko": "복사기",
+      "romanization": "boksagi",
+      "bn": "কপি মেশিন",
+      "en": "copier",
+      "pos": "noun",
+      "example": {
+        "ko": "복사기 사용법을 알려 주세요.",
+        "bn": "কপি মেশিন কিভাবে চালাতে হয় জানিয়ে দিন।",
+        "en": "Please tell me how to use the copier."
+      }
+    },
+    {
+      "ko": "엘리베이터",
+      "romanization": "elibeiteo",
+      "bn": "লিফট",
+      "en": "elevator",
+      "pos": "noun",
+      "example": {
+        "ko": "엘리베이터는 몇 층에 멈추나요?",
+        "bn": "লিফট কোন ফ্লোরে থামে?",
+        "en": "Which floors does the elevator stop at?"
+      }
+    },
+    {
+      "ko": "로비",
+      "romanization": "robi",
+      "bn": "লব্বি",
+      "en": "lobby",
+      "pos": "noun",
+      "example": {
+        "ko": "손님이 로비에서 기다리고 있어요.",
+        "bn": "অতিথি লব্বিতে অপেক্ষা করছেন।",
+        "en": "A guest is waiting in the lobby."
+      }
+    },
+    {
+      "ko": "출입증",
+      "romanization": "churipjeung",
+      "bn": "প্রবেশ পাস",
+      "en": "entry badge",
+      "pos": "noun",
+      "example": {
+        "ko": "출입증을 꼭 가지고 다니세요.",
+        "bn": "প্রবেশ পাস সবসময় সঙ্গে রাখবেন।",
+        "en": "Always carry your entry badge."
+      }
+    },
+    {
+      "ko": "보안",
+      "romanization": "boan",
+      "bn": "নিরাপত্তা",
+      "en": "security",
+      "pos": "noun",
+      "example": {
+        "ko": "보안 정책을 읽어 보세요.",
+        "bn": "নিরাপত্তার নিয়মাবলি পড়ে দেখুন।",
+        "en": "Please read the security policy."
+      }
+    },
+    {
+      "ko": "체육관",
+      "romanization": "cheyukgwan",
+      "bn": "জিম",
+      "en": "gym",
+      "pos": "noun",
+      "example": {
+        "ko": "저녁에 체육관에 가요.",
+        "bn": "রাতে জিমে যাব।",
+        "en": "I go to the gym in the evening."
+      }
+    },
+    {
+      "ko": "카페",
+      "romanization": "kape",
+      "bn": "ক্যাফে",
+      "en": "cafe",
+      "pos": "noun",
+      "example": {
+        "ko": "사무실 옆에 작은 카페가 있어요.",
+        "bn": "অফিসের পাশে একটি ছোট ক্যাফে আছে।",
+        "en": "There is a small cafe next to the office."
+      }
+    },
+    {
+      "ko": "냉장고",
+      "romanization": "naengjanggo",
+      "bn": "ফ্রিজ",
+      "en": "refrigerator",
+      "pos": "noun",
+      "example": {
+        "ko": "냉장고에 개인 음식은 이름을 붙이세요.",
+        "bn": "ফ্রিজে ব্যক্তিগত খাবারে নাম লিখে রাখুন।",
+        "en": "Label personal food in the refrigerator."
+      }
+    },
+    {
+      "ko": "예약",
+      "romanization": "yeayak",
+      "bn": "বুকিং/রিজার্ভেশন",
+      "en": "reservation",
+      "pos": "noun",
+      "example": {
+        "ko": "회의실 예약을 확인했어요?",
+        "bn": "বৈঠক কক্ষের বুকিং চেক করেছেন কি?",
+        "en": "Did you check the meeting room reservation?"
+      }
+    },
+    {
+      "ko": "사용하다",
+      "romanization": "sayonghada",
+      "bn": "ব্যবহার করা",
+      "en": "to use",
+      "pos": "verb",
+      "example": {
+        "ko": "프로젝트에 복사기를 사용했어요.",
+        "bn": "প্রকল্পে কপি মেশিন ব্যবহার করেছি।",
+        "en": "I used the copier for the project."
+      }
+    },
+    {
+      "ko": "예약하다",
+      "romanization": "yeayakhada",
+      "bn": "বুক করা",
+      "en": "to reserve",
+      "pos": "verb",
+      "example": {
+        "ko": "내일 회의실을 예약했어요.",
+        "bn": "আগামীকালের জন্য আমি বৈঠক কক্ষ বুক করেছি।",
+        "en": "I reserved the meeting room for tomorrow."
+      }
+    },
+    {
+      "ko": "고장나다",
+      "romanization": "gojangnada",
+      "bn": "নষ্ট হয়ে যাওয়া",
+      "en": "to break down",
+      "pos": "verb",
+      "example": {
+        "ko": "복사기가 고장났어요. 연락해 주세요.",
+        "bn": "কপি মেশিন নষ্ট হয়ে গেছে। জানিয়ে দিন।",
+        "en": "The copier is broken. Please inform someone."
+      }
+    },
+    {
+      "ko": "관리자",
+      "romanization": "gwanrija",
+      "bn": "প্রশাসক/ম্যানেজার",
+      "en": "administrator/manager",
+      "pos": "noun",
+      "example": {
+        "ko": "관리자에게 출입증을 신청하세요.",
+        "bn": "প্রবেশ পাসের জন্য প্রশাসকের কাছে আবেদন করুন।",
+        "en": "Apply to the manager for an entry badge."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "~아/어도 돼요",
+      "titleBn": "অনুমতি চাইতে",
+      "explanationBn": "কিছু করতে অনুমতি চাইতে বা অনুমতি দিতে এই বিন্যাচন ব্যবহার করা হয়। '해도 돼요' = 'করতে পারেন'।",
+      "explanationEn": "Used to ask for or give permission. '해도 돼요' = 'you may do (it)'.",
+      "examples": [
+        {
+          "ko": "회의실을 사용해도 돼요?",
+          "bn": "আমি বৈঠক কক্ষ ব্যবহার করতে পারি?",
+          "en": "May I use the meeting room?"
+        },
+        {
+          "ko": "휴게실에서 쉬어도 돼요.",
+          "bn": "আপনি বিশ্রাম কক্ষে বিশ্রাম করতে পারেন।",
+          "en": "You may rest in the break room."
+        }
+      ]
+    },
+    {
+      "pattern": "~아/어 주세요",
+      "titleBn": "আন্তরিকভাবে অনুরোধ করা",
+      "explanationBn": "আরেকজনকে বিনীতভাবে কিছু করতে বলার জন্য ব্যবহার করা হয়—'দিয়ে দিন' বা 'করতে বলুন'।",
+      "explanationEn": "Used to politely request someone to do something—'please do (for me)'.",
+      "examples": [
+        {
+          "ko": "복사기를 고쳐 주세요.",
+          "bn": "দয়া করে কপি মেশিন ঠিক করে দিন।",
+          "en": "Please fix the copier."
+        },
+        {
+          "ko": "회의실 예약을 확인해 주세요.",
+          "bn": "বৈঠক কক্ষের বুকিংটি চেক করে দিন।",
+          "en": "Please check the meeting room reservation."
+        }
+      ]
+    },
+    {
+      "pattern": "~(으)면 안 돼요",
+      "titleBn": "নিষেধ জানাতে",
+      "explanationBn": "কিছু করার অনুমতি নেই বোঝাতে ব্যবহার করা হয়—'এটা করা যাবে না'।",
+      "explanationEn": "Used to tell that something is not allowed—'you must not / may not do (it)'.",
+      "examples": [
+        {
+          "ko": "냉장고에 개인 음식을 오래 두면 안 돼요.",
+          "bn": "ফ্রিজে ব্যক্তিগত খাবার বেশি সময় রাখা যাবে না।",
+          "en": "You must not leave personal food in the fridge for long."
+        },
+        {
+          "ko": "엘리베이터에서 담배를 피우면 안 돼요.",
+          "bn": "লিফটে ধূমপান করা চলবে না।",
+          "en": "You must not smoke in the elevator."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "회의실 예약 확인",
+      "titleEn": "Checking a Meeting Room Reservation",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "내일 오전 10시에 회의실 예약되어 있나요?",
+          "bn": "আগামীকাল সকাল ১০টায় বৈঠক কক্ষ বুক আছে কি?",
+          "en": "Is the meeting room reserved for tomorrow at 10 AM?"
+        },
+        {
+          "speaker": "관리자",
+          "ko": "네, 10시부터 11시까지 예약되어 있어요.",
+          "bn": "হ্যাঁ, ১০টা থেকে ১১টা পর্যন্ত বুক করা আছে।",
+          "en": "Yes, it's reserved from 10 to 11."
+        },
+        {
+          "speaker": "직원",
+          "ko": "프로젝터도 사용할 수 있나요?",
+          "bn": "প্রজেক্টরও ব্যবহার করা যাবে?",
+          "en": "Can we use the projector too?"
+        },
+        {
+          "speaker": "관리자",
+          "ko": "네, 예약에 프로젝터 포함되어 있어요.",
+          "bn": "হ্যাঁ, বুকিং-এ প্রজেক্টর অন্তর্ভুক্ত আছে।",
+          "en": "Yes, the reservation includes a projector."
+        },
+        {
+          "speaker": "직원",
+          "ko": "감사합니다. 확인해 주셔서 고맙습니다.",
+          "bn": "ধন্যবাদ। নিশ্চিত করার জন্য ধন্যবাদ।",
+          "en": "Thank you. Thanks for checking."
+        }
+      ]
+    },
+    {
+      "titleBn": "휴게실 사용 요청",
+      "titleEn": "Request to Use the Break Room",
+      "lines": [
+        {
+          "speaker": "직원 A",
+          "ko": "잠깐 휴게실에서 쉬어도 돼요?",
+          "bn": "আমি একটু বিশ্রাম কক্ষে বিশ্রাম করবো কি?",
+          "en": "May I rest in the break room for a moment?"
+        },
+        {
+          "speaker": "직원 B",
+          "ko": "네, 지금은 사람이 많지 않아요.",
+          "bn": "হ্যাঁ, এখন বেশি লোক নেই।",
+          "en": "Yes, there aren't many people now."
+        },
+        {
+          "speaker": "직원 A",
+          "ko": "감사합니다. 커피 한 잔 가져와도 될까요?",
+          "bn": "ধন্যবাদ। আমি কি কফি নিয়ে আসতে পারি?",
+          "en": "Thanks. Can I bring a cup of coffee?"
+        },
+        {
+          "speaker": "직원 B",
+          "ko": "네, 개인 컵이면 괜찮아요.",
+          "bn": "হ্যাঁ, ব্যক্তিগত কাপ হলে ঠিক আছে।",
+          "en": "Yes, it's fine if it's a personal cup."
+        },
+        {
+          "speaker": "직원 A",
+          "ko": "그럼 금방 다녀오겠습니다.",
+          "bn": "তাহলে আমি তাড়াতাড়ি যাই।",
+          "en": "I'll be right back then."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "회의실을 예약하려면 누구에게 말해야 하나?",
+      "questionKo": "회의실을 예약하려면 누구에게 말해야 하나요?",
+      "options": [
+        "관리자에게",
+        "복사기에게",
+        "엘리베이터에게",
+        "냉장고에게"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "회의실 예약은 관리자가 담당하므로 '관리자에게' বল아야 합니다।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "휴게실에서 쉬려면 어떤 표현으로 물어봐야 합니다?",
+      "questionKo": "휴게실에서 쉬려면 어떤 표현으로 물어봐야 하나요?",
+      "options": [
+        "휴게실을 사용해도 돼요?",
+        "휴게실을 고장났어요?",
+        "휴게실을 예약했어요?",
+        "휴게실을 냉장고?"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "허락을 구할 때는 '…해도 돼요?'를 사용합니다।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "복사기가 안 되면 무엇을 말해야 하나?",
+      "questionKo": "복사기가 고장났을 때 어떤 표현을 쓰나요?",
+      "options": [
+        "복사기가 고장났어요.",
+        "복사기가 예약했어요.",
+        "복사기를 사용해도 돼요?",
+        "복사기가 출입증이에요."
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'고장났어요'는 기계가 작동하지 않을 때 쓰는 표현।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "냉장고에 오래 두면 어떻게 말합니까?",
+      "questionKo": "냉장고에 음식을 오래 두면 어떤 표현을 쓰나요?",
+      "options": [
+        "두면 안 돼요.",
+        "두면 돼요.",
+        "두면 예약해요.",
+        "두면 사용해요."
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "금지 표현은 '~(으)면 안 돼요'입니다।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "출입증이 필요하면 누구에게 말해야 하나요?",
+      "questionKo": "출입증이 필요하면 누구에게 말해야 하나요?",
+      "options": [
+        "관리자에게 말씀하세요.",
+        "식당에게 말씀하세요.",
+        "엘리베이터에게 말씀하세요.",
+        "카페에게 말씀하세요."
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "출입증 신청은 관리자가 담당합니다।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "문장을 완성하세요: '회의실을 _______ 싶습니다.' (예약)",
+      "questionKo": "문장을 완성하세요: '회의실을 _______ 싶습니다.'",
+      "options": [
+        "예약하고",
+        "고장나고",
+        "사용하고",
+        "냉장고에"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'예약하고 싶습니다'가 자연스럽게 예약 의사를 표현합니다।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "문장을 완성하세요: '복사기가 고장났어요. _______ 주세요.' (수리)",
+      "questionKo": "문장을 완성하세요: '복사기가 고장났어요. _______ 주세요.'",
+      "options": [
+        "고쳐",
+        "예약해",
+        "사용해",
+        "출입"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'고쳐 주세요'는 기계를 고쳐 달라고 부탁하는 표현।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "문장을 완성하세요: '휴게실에서 쉬어도 _______?' (허락 묻기)",
+      "questionKo": "문장을 완성하세요: '휴게실에서 쉬어도 _______?'",
+      "options": [
+        "돼요",
+        "고장나요",
+        "예약해요",
+        "사용해요"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "허락을 물을 때 '돼요?'를 붙입니다।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "নিচের কোরিয়ান শব্দগুলির বাংলা অর্থ মিলান।",
+      "questionKo": "다음 한국어 단어와 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "엘리베이터",
+          "right": "লিফট"
+        },
+        {
+          "left": "냉장고",
+          "right": "ফ্রিজ"
+        },
+        {
+          "left": "복사기",
+          "right": "কপি মেশিন"
+        },
+        {
+          "left": "체육관",
+          "right": "জিম"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি কোরিয়ান শব্দের বাংলা অর্থ সঙ্গতভাবে মিলান করা হয়েছে।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "নিচের কাজগুলোকে উপযুক্ত ক্রিয়ার সঙ্গে মিলান করুন।",
+      "questionKo": "다음 장소와 동사를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "회의실",
+          "right": "예약하다"
+        },
+        {
+          "left": "복사기",
+          "right": "사용하다"
+        },
+        {
+          "left": "냉장고",
+          "right": "보관하다"
+        },
+        {
+          "left": "출입증",
+          "right": "신청하다"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "각 장소에 자연스러운 동사 연결 করা হয়েছে (회의실-예약, 복사기-사용 등)।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "নীচের পাসেজ পড়ে সঠিক উত্তরটি চিহ্ন করুন:",
+      "questionKo": "다음을 읽고 맞는 것을 고르세요.",
+      "passage": "사무실 복도에 공지: '회의실 사용 후에는 장비를 정리해 주세요. 예약자는 장비 상태를 확인해야 합니다.'",
+      "options": [
+        "회의실 사용 후 장비를 정리해야 한다.",
+        "회의실은 예약 없이 사용할 수 있다.",
+        "복도에서 장비를 사용해도 된다.",
+        "예약자는 장비를 버려야 한다."
+      ],
+      "answer": 0,
+      "explanationBn": "공지에 '사용 후에는 장비를 정리해 주세요' বলা হয়েছে, তাই প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "নীচের পাসেজ পড়ে প্রশ্নের উত্তর দিন:",
+      "questionKo": "다음을 읽고 질문에 답하세요.",
+      "passage": "사무실 냉장고 규칙: '라벨이 없는 음식은 주말 전에 제거됩니다. 개인 음식은 이름을 붙이세요.'",
+      "options": [
+        "라벨이 없는 음식은 제거된다.",
+        "라벨이 없는 음식은 냉장 보관된다.",
+        "모든 음식은 개인 이름 없이 둔다.",
+        "냉장고는 예약이 필요하다."
+      ],
+      "answer": 0,
+      "explanationBn": "পাসেজে লেবেল 없는 খাবার সরিয়ে ফেলা হবে বলা আছে, তাই প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "পাসেজটি পড়ে সঠিকটি চিহ্ন করুন:",
+      "questionKo": "다음을 읽고 맞는 것을 고르세요.",
+      "passage": "엘리베이터 안내: '점검 중일 때는 사용 금지. 비상 시 비상벨을 누르세요.'",
+      "options": [
+        "점검 중일 때 엘리베이터를 사용하면 안 돼요.",
+        "엘리베이터는 항상 사용 가능하다.",
+        "비상 시 엘리베이터를 사용한다.",
+        "비상벨은 사용하지 말아라."
+      ],
+      "answer": 0,
+      "explanationBn": "안내문에 점검 중 사용 금지라고 되어 있어, প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "পাসেজ পড়ে সঠিক উত্তরটি বেছে নিন:",
+      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
+      "passage": "공지: '체육관 이용 시간은 평일 오후 6시까지입니다. 이용 전 관리자에게 문의하세요.'",
+      "options": [
+        "체육관은 평일 오후 6시까지만 이용할 수 있다.",
+        "체육관은 24시간 이용 가능하다.",
+        "체육관은 예약 없이 이용할 수 없다.",
+        "체육관은 관리자 출입증이 필요하지 않다."
+      ],
+      "answer": 0,
+      "explanationBn": "공지에 이용 시간이 평일 오후 6시까지라 했으므로 প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পাঠ দেখে সঠিক অপশনটি চিহ্ন করুন:",
+      "questionKo": "다음을 읽고 맞는 것을 고르세요.",
+      "passage": "사무실 규칙: '카페 컵은 개인 컵을 사용하세요. 공용 컵은 사용 금지.'",
+      "options": [
+        "개인 컵을 사용해야 한다.",
+        "공용 컵을 사용해도 된다.",
+        "컵 사용에 제한이 없다.",
+        "카페는 외부인만 사용한다."
+      ],
+      "answer": 0,
+      "explanationBn": "নিয়মে ব্যক্তিগত কাপ ব্যবহার করতে বলা হয়েছে, তাই প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "নিচের কথোপকথন শুনুন (স্ক্রিপ্ট) এবং প্রশ্নের উত্তর দিন:",
+      "questionKo": "다음 대화를 듣고 질문에 답하세요.",
+      "passage": "직원: '복사기가 고장난 것 같아요.' 관리자: '언제부터요?' 직원: '아침부터 안 돼요.' 관리자: '지금 수리 요청하겠습니다.'",
+      "options": [
+        "관리자가 수리를 요청하겠다고 말했다.",
+        "직원이 수리하겠다고 말했다.",
+        "복사기는 잘 작동한다.",
+        "수리는 내일 하겠다고 했다."
+      ],
+      "answer": 0,
+      "explanationBn": "관리자가 '지금 수리 요청하겠습니다' বলেছে, তাই প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "নিচের সংলাপ শুনে সঠিক উত্তরটি বেছে নিন:",
+      "questionKo": "다음 문장을 듣고 맞는 것을 고르세요.",
+      "passage": "직원 A: '내일 회의실 예약했어요?' 직원 B: '아직이에요. 지금 예약할게요.'",
+      "options": [
+        "직원 B가 지금 예약하겠다고 했다.",
+        "직원 A가 예약하겠다고 했다.",
+        "회의실은 이미 예약되어 있다.",
+        "회의실 사용은 금지되어 있다."
+      ],
+      "answer": 0,
+      "explanationBn": "직원 B가 '지금 예약할게요' 말했다, তাই প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "সংলাপ শুনে সঠিক অপশনটি চিহ্ন করুন:",
+      "questionKo": "다음을 듣고 알맞은 것을 고르세요.",
+      "passage": "직원: '휴게실에 사람이 많아요?' 동료: '아니요, 지금은 괜찮아요.'",
+      "options": [
+        "지금 휴게실에 사람이 많지 않다.",
+        "휴게실에 항상 사람이 많다.",
+        "휴게실은 문을 닫았다.",
+        "사람들이 휴게실을 예약했다."
+      ],
+      "answer": 0,
+      "explanationBn": "동료가 '지금은 괜찮아요'라고 하여 사람이 많지 않다고 했습니다।"
+    }
+  ]
+}

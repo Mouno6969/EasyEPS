@@ -1,0 +1,671 @@
+{
+  "chapter": 46,
+  "slug": "livestock-management",
+  "title": {
+    "ko": "가축 관리",
+    "bn": "গবাদিপশু ব্যবস্থাপনা",
+    "en": "Livestock Management"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "গবাদিপশুর সাধারণ নামাবলি ও সরঞ্জাম জানা।",
+      "খাওয়ানো, দুধ দান, এবং টিকা দেওয়ার মতো দৈনন্দিন কাজ বর্ণনা করা।",
+      "কর্মক্ষেত্রে সহজ নির্দেশাবলী বোঝা এবং দেওয়া।",
+      "গবাদিপশুর স্বাস্থ্য সম্পর্কিত সাধারণ কথোপকথন করতে পারা।"
+    ],
+    "en": [
+      "Know common livestock names and equipment.",
+      "Describe daily tasks like feeding, milking, and vaccinating.",
+      "Understand and give simple workplace instructions.",
+      "Conduct basic conversations about animal health."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "소",
+      "romanization": "so",
+      "bn": "গথি/গরু",
+      "en": "cow",
+      "pos": "noun",
+      "example": {
+        "ko": "저 소는 젖이 많습니다.",
+        "bn": "ও গরুটির দুধ বেশি।",
+        "en": "That cow gives a lot of milk."
+      }
+    },
+    {
+      "ko": "돼지",
+      "romanization": "dwaeji",
+      "bn": "শূকর/শূরু",
+      "en": "pig",
+      "pos": "noun",
+      "example": {
+        "ko": "돼지를 우리에 넣으세요.",
+        "bn": "শূকরটাকে খাঁচায় ঢুকান।",
+        "en": "Put the pig in the pen."
+      }
+    },
+    {
+      "ko": "닭",
+      "romanization": "dak",
+      "bn": "মুরগি",
+      "en": "chicken",
+      "pos": "noun",
+      "example": {
+        "ko": "닭이 알을 낳았어요.",
+        "bn": "মুরগিটি ডিম দিয়েছে।",
+        "en": "The chicken laid an egg."
+      }
+    },
+    {
+      "ko": "사료",
+      "romanization": "saryo",
+      "bn": "চারা/চোখার খাবার (ফিড)",
+      "en": "feed",
+      "pos": "noun",
+      "example": {
+        "ko": "아침에 사료를 줍니다.",
+        "bn": "সকালে ফিড দেন।",
+        "en": "Give feed in the morning."
+      }
+    },
+    {
+      "ko": "축사",
+      "romanization": "chuksa",
+      "bn": "গবাদি থাকার ঘর (স্টেবল)",
+      "en": "barn/stable",
+      "pos": "noun",
+      "example": {
+        "ko": "축사를 청소해야 합니다.",
+        "bn": "স্টেবলটা পরিষ্কার করতে হবে।",
+        "en": "We need to clean the barn."
+      }
+    },
+    {
+      "ko": "수의사",
+      "romanization": "suis a",
+      "bn": "চিকিৎসক (পশুচিকিৎসক)",
+      "en": "veterinarian",
+      "pos": "noun",
+      "example": {
+        "ko": "수의사가 소를 검사했습니다.",
+        "bn": "পশুচিকিৎসক গরুটিকে পরীক্ষা করেছেন।",
+        "en": "The vet examined the cow."
+      }
+    },
+    {
+      "ko": "백신",
+      "romanization": "baeksin",
+      "bn": "টিকা",
+      "en": "vaccine",
+      "pos": "noun",
+      "example": {
+        "ko": "모든 새끼에게 백신을 줍니다.",
+        "bn": "সব বাচ্চাকে টিকা দেওয়া হয়।",
+        "en": "Give vaccines to all the young animals."
+      }
+    },
+    {
+      "ko": "착유",
+      "romanization": "chagyu",
+      "bn": "দুধ দান/মিল্কিং",
+      "en": "milking",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "아침에 착유를 시작합니다.",
+        "bn": "সকালে দুধ দানে শুরু করি।",
+        "en": "We start milking in the morning."
+      }
+    },
+    {
+      "ko": "방목",
+      "romanization": "bangmok",
+      "bn": "চারায় ছাড়া/ঘাস খাওয়ানো (grazing)",
+      "en": "grazing",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "소를 들판에 방목하세요.",
+        "bn": "গরুগুলো মাঠে চারায় ছেড়ে দিন।",
+        "en": "Let the cows graze in the field."
+      }
+    },
+    {
+      "ko": "울타리",
+      "romanization": "ultari",
+      "bn": "বাঁধ/বেড়া (জোরে)",
+      "en": "fence",
+      "pos": "noun",
+      "example": {
+        "ko": "울타리가 부서졌습니다.",
+        "bn": "বেড়াটা ভেঙে গেছে।",
+        "en": "The fence is broken."
+      }
+    },
+    {
+      "ko": "털깎기",
+      "romanization": "teolkkakgi",
+      "bn": "কোমলভাবে কাটা (শেয়ারিং)",
+      "en": "shearing",
+      "pos": "noun",
+      "example": {
+        "ko": "양의 털깎기를 합니다.",
+        "bn": "ভেড়ার শেয়ারিং করা হচ্ছে।",
+        "en": "We are shearing the sheep."
+      }
+    },
+    {
+      "ko": "번식",
+      "romanization": "beonsik",
+      "bn": "প্রজনন (ব্রিডিং)",
+      "en": "breeding",
+      "pos": "noun",
+      "example": {
+        "ko": "번식을 위해 수컷을 따로 둡니다.",
+        "bn": "প্রজননের জন্য পুরুষকে আলাদা রাখি।",
+        "en": "Keep the male separate for breeding."
+      }
+    },
+    {
+      "ko": "분뇨",
+      "romanization": "bunnyo",
+      "bn": "Gobor/খাদ্যদ্রব্য (manure)",
+      "en": "manure",
+      "pos": "noun",
+      "example": {
+        "ko": "분뇨를 처리해야 합니다.",
+        "bn": "Gobor সংগ্রহ ও প্রক্রিয়া করতে হবে।",
+        "en": "We must handle the manure."
+      }
+    },
+    {
+      "ko": "급여기",
+      "romanization": "geubyeogi",
+      "bn": "খাবার দেওয়ার যন্ত্র (ফিডার)",
+      "en": "feeder",
+      "pos": "noun",
+      "example": {
+        "ko": "급여기를 채워 주세요.",
+        "bn": "ফিডার ভর্তি করে দিন।",
+        "en": "Please fill the feeder."
+      }
+    },
+    {
+      "ko": "물통",
+      "romanization": "multong",
+      "bn": "পানির টব (물 trough)",
+      "en": "water trough",
+      "pos": "noun",
+      "example": {
+        "ko": "물통에 물이 충분합니다.",
+        "bn": "পানির টবে পর্যাপ্ত পানি আছে।",
+        "en": "The water trough has enough water."
+      }
+    },
+    {
+      "ko": "건강 검사",
+      "romanization": "geongang geomsa",
+      "bn": "স্বাস্থ্য পরীক্ষা",
+      "en": "health check",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 소 건강 검사를 합니다.",
+        "bn": "আজ গরুর স্বাস্থ্য পরীক্ষা করা হবে।",
+        "en": "We will do a health check for the cow today."
+      }
+    },
+    {
+      "ko": "검역",
+      "romanization": "geomyeok",
+      "bn": "কোয়ারান্টিন/নিরীক্ষা",
+      "en": "quarantine",
+      "pos": "noun",
+      "example": {
+        "ko": "새로 온 동물은 검역이 필요합니다.",
+        "bn": "নতুন পশুদের কোয়ারান্টিন দরকার।",
+        "en": "New animals need quarantine."
+      }
+    },
+    {
+      "ko": "이동",
+      "romanization": "idong",
+      "bn": "স্থানান্তর/হাটানো",
+      "en": "movement/transfer",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "소 이동을 안전하게 하세요.",
+        "bn": "গরু স্থানান্তর নিরাপদভাবে করুন।",
+        "en": "Move the cows safely."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "~아/어 주세요",
+      "titleBn": "অনুরোধ করা",
+      "explanationBn": "এই আচরণ বাক্যটি কাউকে বিনীতভাবে কিছু করার অনুরোধ করতে ব্যবহার হয়। উদাহরণ এবং অনুবাদসহ: 1) 사료를 주세요. - দয়া করে ফিড দিন। - Please give the feed. 2) 물을 채워 주세요. - পানি ভর্তি করে দিন। - Please fill the water.",
+      "explanationEn": "Use ~아/어 주세요 to politely ask someone to do something. Examples with translations: 1) 사료를 주세요. - Please give the feed. 2) 물을 채워 주세요. - Please fill the water.",
+      "examples": [
+        {
+          "ko": "울타리를 고쳐 주세요.",
+          "bn": "বেড়া ঠিক করে দিন দয়া করে।",
+          "en": "Please repair the fence."
+        },
+        {
+          "ko": "병을 수의사에게 가져다 주세요.",
+          "bn": "রোগীটাকে পশুচিকিৎসকের কাছে নিয়ে যান।",
+          "en": "Please take the sick animal to the vet."
+        }
+      ]
+    },
+    {
+      "pattern": "~아/어야 하다",
+      "titleBn": "করণীয়তা/দায়িত্ব",
+      "explanationBn": "কিছু করা আবশ্যক বোঝাতে ব্যবহার হয়। উদাহরণ: 1) 착유를 해야 합니다. - আপনাকে দুধ দিতে হবে। 2) 백신을 맞혀야 해요. - টিকা দেবই।",
+      "explanationEn": "Use ~아/어야 하다 to express obligation or necessity. Examples: 1) 착유를 해야 합니다. - You must milk. 2) 백신을 맞혀야 해요. - You have to vaccinate.",
+      "examples": [
+        {
+          "ko": "축사를 청소해야 합니다.",
+          "bn": "স্টেবল পরিষ্কার করা দরকার।",
+          "en": "You must clean the barn."
+        },
+        {
+          "ko": "방역을 해야 합니다.",
+          "bn": "প্রতিষেধ ব্যবস্থা করতে হবে।",
+          "en": "We must carry out disinfection/quarantine."
+        }
+      ]
+    },
+    {
+      "pattern": "~고 있습니다",
+      "titleBn": "বর্তমান ক্রিয়া (চলমান)",
+      "explanationBn": "এই রূপটি বলে যে কাজটি বর্তমানে চলছে। উদাহরণ: 1) 소를 방목하고 있습니다. - গরু এখন চারায় আছে। 2) 수의사가 검사하고 있습니다. - পশুচিকিৎসক পরীক্ষা করছেন।",
+      "explanationEn": "Use ~고 있습니다 to indicate an action in progress. Examples: 1) 소를 방목하고 있습니다. - The cows are grazing now. 2) 수의사가 검사하고 있습니다. - The vet is examining.",
+      "examples": [
+        {
+          "ko": "사료를 주고 있습니다.",
+          "bn": "আমি এখন ফিড দিচ্ছি।",
+          "en": "I am feeding now."
+        },
+        {
+          "ko": "물을 보충하고 있습니다.",
+          "bn": "পানি এখন ভরাট করা হচ্ছে।",
+          "en": "Water is being refilled."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "아침 사료 준비",
+      "titleEn": "Morning Feed Preparation",
+      "lines": [
+        {
+          "speaker": "관리자",
+          "ko": "오늘 아침 사료는 몇 시에 줄까요?",
+          "bn": "আজ সকালে ফিড কবে দেব?",
+          "en": "What time shall we give the feed this morning?"
+        },
+        {
+          "speaker": "농장 직원",
+          "ko": "아침 7시가 좋습니다. 제가 급여기를 채우겠습니다.",
+          "bn": "সকাল ৭টা ভালো। আমি ফিডার ভর্তি করবো।",
+          "en": "7 AM is good. I'll fill the feeder."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "울타리도 점검해 주세요.",
+          "bn": "বেড়াও চেক করে দাও।",
+          "en": "Please check the fence too."
+        },
+        {
+          "speaker": "농장 직원",
+          "ko": "네, 사료를 주고 울타리 수리를 하겠습니다.",
+          "bn": "ঠিক আছে, ফিড দেব আর বেড়া ঠিক করব।",
+          "en": "Yes, I'll feed and repair the fence."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "시간 맞춰 해 주세요. 감사합니다.",
+          "bn": "সময়ে করে দিও। ধন্যবাদ।",
+          "en": "Do it on time. Thank you."
+        }
+      ]
+    },
+    {
+      "titleBn": "병든 가축 처리",
+      "titleEn": "Sick Animal Handling",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "젖소 한 마리가 열이 있어요.",
+          "bn": "একটি গরুর জ্বর আছে।",
+          "en": "One cow has a fever."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "수의사에게 연락했나요?",
+          "bn": "পশুচিকিৎসকের সাথে যোগাযোগ করেছো?",
+          "en": "Did you contact the vet?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 지금 수의사가 오고 있습니다.",
+          "bn": "হ্যাঁ, এখনই পশুচিকিৎসক আসছে।",
+          "en": "Yes, the vet is coming now."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "그 소를 검역 구역으로 옮기세요.",
+          "bn": "সেটা কোয়ারেন্টিন এলাকায় নিয়ে যাও।",
+          "en": "Move that cow to the quarantine area."
+        },
+        {
+          "speaker": "직원",
+          "ko": "알겠습니다. 이동을 도와드릴게요.",
+          "bn": "বুঝেছি। স্থানান্তরে সাহায্য করব।",
+          "en": "Understood. I'll help with the transfer."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "গরুকে কোন শব্দে বোঝায়?",
+      "questionKo": "‘소’는 무슨 뜻입니까?",
+      "options": [
+        "cow",
+        "chicken",
+        "vaccine",
+        "fence"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "‘소’ মানে গরু, তাই সঠিক উত্তর 'cow'।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "사료의 অর্থ কী?",
+      "questionKo": "‘사료’는 무슨 뜻입니까?",
+      "options": [
+        "barn",
+        "feed",
+        "movement",
+        "shearing"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "사료는 পশুদের খাবার, অর্থাৎ 'feed'।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "কোনটি পশুচিকিৎসক নির্দেশ করার ভদ্র রূপ?",
+      "questionKo": "수의사에게 부탁할 때 어떤 표현을 쓰나요?",
+      "options": [
+        "수의사에게 가세요.",
+        "수의사에게 가면",
+        "수의사에게 가고 있다",
+        "수의사에게 가시죠"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "ভদ্র অনুরোধে ~아/어 주세요 ব্যবহৃত হয়; উদাহরণ হিসেবে '수의사에게 가세요.'—এখানে 0 নম্বর সঠিক।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "검역의 বাংলা অর্থ কী?",
+      "questionKo": "‘검역’은 무슨 뜻입니까?",
+      "options": [
+        "watering",
+        "quarantine",
+        "feeding",
+        "breeding"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "검역 মানে কোয়ারান্টিন, সঠিক উত্তর 'quarantine'।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "아래 중 방목의 가장 কাছাকাছি অর্থ কোনটি?",
+      "questionKo": "‘방목’의 의미는?",
+      "options": [
+        "to fence",
+        "to shear",
+        "to let graze",
+        "to vaccinate"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "방목 মানে চারায় ছাড়া, তাই 'to let graze' সঠিক।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "বক্তব্য পূরণ করুন: '___를 채워 주세요.' (ফিডার ভর্তি করার অনুরোধ)",
+      "questionKo": "빈칸을 채우세요: '___를 채워 주세요.' (급여기를 채우는 요청)",
+      "options": [
+        "사료",
+        "울타리",
+        "수의사",
+        "검역"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "급여기를 채워 달라는 প্রসঙ্গে '사료를 채워 주세요.' সঠিক।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "‘우리는 오늘 축사를 ___ 해야 합니다.’ (পরিশোধ/পরিষ্কার)",
+      "questionKo": "빈칸을 채우세요: '우리는 오늘 축사를 ___ 해야 합니다.'",
+      "options": [
+        "청소",
+        "번식",
+        "방목",
+        "착유"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "축사를 পরিষ্কার করা হলে '청소해야 합니다' সঠিক।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "সঠিক পূরণ: '새 동물은 먼저 ___에 넣으세요.' (কোয়ারান্টিন)",
+      "questionKo": "빈칸을 채우세요: '새 동물은 먼저 ___에 넣으세요.'",
+      "options": [
+        "검역",
+        "사료",
+        "털깎기",
+        "급여기"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "নতুন পশুকে প্রথমে কোয়ারান্টিনে রাখো: '검역' সঠিক।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "নীচের শব্দগুলো মিলান (কোরিয়ান -> বাংলা)।",
+      "questionKo": "다음 단어를 연결하세요 (한국어 -> 한국어 의미 힌트).",
+      "options": [],
+      "pairs": [
+        {
+          "left": "사료",
+          "right": "ফিড"
+        },
+        {
+          "left": "수의사",
+          "right": "পশুচিকিৎসক"
+        },
+        {
+          "left": "울타리",
+          "right": "বেড়া"
+        },
+        {
+          "left": "착유",
+          "right": "দুধ দান"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি জোড়া পাঠ থেকে সরাসরি নেওয়া অনুবাদ: 사료=ফিড, 수의사=পশুচিকিৎসক, 울타리=বেড়া, 착유=দুধ দান।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "জোড়া মিলান (কোরিয়ান -> English).",
+      "questionKo": "다음 단어를 연결하세요 (한국어 -> 영어 의미).",
+      "options": [],
+      "pairs": [
+        {
+          "left": "백신",
+          "right": "vaccine"
+        },
+        {
+          "left": "분뇨",
+          "right": "manure"
+        },
+        {
+          "left": "방목",
+          "right": "grazing"
+        },
+        {
+          "left": "검역",
+          "right": "quarantine"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "শব্দগুলোর সঠিক ইংরেজি মিল: 백신=vaccine, 분뇨=manure, 방목=grazing, 검역=quarantine।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তর চিহ্নিত করুন।",
+      "questionKo": "다음을 읽고 질문에 답하세요.",
+      "passage": "오늘 아침에 농장 주인은 사료를 준비하고 울타리를 점검했습니다. 새로 온 돼지는 검역 구역에 있었습니다.",
+      "options": [
+        "사료를 준비했다.",
+        "돼지는 착유되었다.",
+        "울타리는 망가졌다.",
+        "새 동물은 방목되었다."
+      ],
+      "answer": 0,
+      "explanationBn": "প্যাসেজে বলা আছে '사료를 준비'—তাই 0 ('사료를 준비했다') সঠিক।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "পাঠ থেকে উত্তর দিন: 돼지는 어디에 있었나요?",
+      "questionKo": "본문에서 돼지는 어디에 있었나요?",
+      "passage": "오늘 아침에 농장 주인은 사료를 준비하고 울타리를 점검했습니다. 새로 온 돼지는 검역 구역에 있었습니다.",
+      "options": [
+        "축사 안에",
+        "들판에",
+        "검역 구역에",
+        "수의사 옆에"
+      ],
+      "answer": 2,
+      "explanationBn": "পাঠে বলা আছে '검역 구역에 있었습니다'—অর্থাৎ 2।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "본문 অনুযায়ী 농장 주인은 무엇을 했나요?",
+      "questionKo": "글에 따르면 농장 주인은 무엇을 했나요?",
+      "passage": "작업자는 아침 7시에 사료를 주고, 그 후 울타리를 고쳤습니다. 모든 동물은 건강 검사를 받았습니다.",
+      "options": [
+        "동물을 방목했다.",
+        "사료를 주고 울타리를 고쳤다.",
+        "분뇨를 수거했다.",
+        "양의 털깎기를 했다."
+      ],
+      "answer": 1,
+      "explanationBn": "প্যাসেজে '사료를 주고, 울타리를 고쳤습니다' বলা আছে—তাই 1।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "어떤 활동이 건강과 관련 있나요?",
+      "questionKo": "어떤 활동이 동물 건강과 직접 관련이 있나요?",
+      "passage": "수의사가 와서 백신을 주고 건강 검사를 했습니다. 또한 병든 동물은 검역했습니다.",
+      "options": [
+        "울타리 수리",
+        "백신 접종",
+        "사료 저장",
+        "급여기 청소"
+      ],
+      "answer": 1,
+      "explanationBn": "백신 접종과 건강 검사는 সরাসরি স্বাস্থ্য সম্পর্কিত—1 সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "본문에서 '방목'의 뜻 কি?",
+      "questionKo": "'방목'은 무슨 뜻인가요?",
+      "passage": "방목은 소를 들판에 내어 먹게 하는 것을 말합니다. 방목하면 소가 자연스럽게 풀을 먹습니다.",
+      "options": [
+        "울타리를 고치는 것",
+        "동물을 자르는 것",
+        "동물을 들판에 내보내는 것",
+        "동물을 병원에 데려가는 것"
+      ],
+      "answer": 2,
+      "explanationBn": "প্যাসেজেই বলা হয়েছে 들판ে ছাড়া—অর্থাৎ 2।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "নিচের কথোপকথন শুনে প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음 대화를 듣고 질문에 답하세요.",
+      "passage": "직원: 소 한 마리가 열이 있어요. 관리자: 수의사에게 전화하세요. 직원: 지금 전화하겠습니다.",
+      "options": [
+        "직원이 울타리를 고쳤다.",
+        "수의사에게 전화하라고 말했다.",
+        "물통을 비웠다.",
+        "방목을 시작했다."
+      ],
+      "answer": 1,
+      "explanationBn": "কথোপকথনে 관리자 বলেছেন '수의사에게 전화하세요'—তাই 1।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "대화에서 누가 오기로 했나요?",
+      "questionKo": "대화에서 누구가 오기로 했나요?",
+      "passage": "직원: 새로 온 염소가 아파요. 관리자: 수의사가 오고 있습니다. 직원: 감사합니다.",
+      "options": [
+        "농장 손님",
+        "수의사",
+        "다른 직원",
+        "검역관"
+      ],
+      "answer": 1,
+      "explanationBn": "관리자가 '수의사가 오고 있습니다' বলেছে—তাই সঠিক উত্তর '수의사'।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "무슨 작업을 하라고 요청했나요?",
+      "questionKo": "어떤 작업을 하라고 요청했나요?",
+      "passage": "관리자: 울타리를 점검하고 사료를 채워 주세요. 직원: 예, 알겠습니다.",
+      "options": [
+        "분뇨 처리",
+        "울타리 점검과 사료 채우기",
+        "방목 시작",
+        "털깎기"
+      ],
+      "answer": 1,
+      "explanationBn": "관리자가 '울타리를 점검하고 사료를 채워 주세요'라고 요청했으므로 1।"
+    }
+  ]
+}

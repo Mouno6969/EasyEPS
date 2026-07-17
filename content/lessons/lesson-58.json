@@ -1,0 +1,673 @@
+{
+  "chapter": 58,
+  "slug": "labor-standards-act",
+  "title": {
+    "ko": "근로기준법",
+    "bn": "শ্রমমান আইন",
+    "en": "Labor Standards Act"
+  },
+  "category": "laws",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "근로기준법과 관련된 기본 단어를 이해하고 사용할 수 있다.",
+      "간단한 근무 시간과 임금 관련 표현으로 질문하고 답할 수 있다.",
+      "직장에서 휴가와 야근 수당에 대해 기본적으로 묻고 대화할 수 있다."
+    ],
+    "en": [
+      "Understand and use basic vocabulary related to the Labor Standards Act.",
+      "Ask and answer simple questions about work hours and wages.",
+      "Have basic conversations at work about leave and overtime pay."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "근로기준법",
+      "romanization": "geunro gijunbeop",
+      "bn": "শ্রমমান আইন",
+      "en": "Labor Standards Act",
+      "pos": "noun",
+      "example": {
+        "ko": "근로기준법은 근로자의 기본 권리를 보호합니다.",
+        "bn": "শ্রমমান আইন শ্রমিকদের মৌলিক অধিকার রক্ষা করে।",
+        "en": "The Labor Standards Act protects basic rights of workers."
+      }
+    },
+    {
+      "ko": "근로자",
+      "romanization": "geunroja",
+      "bn": "কর্মচারী",
+      "en": "worker/employee",
+      "pos": "noun",
+      "example": {
+        "ko": "회사는 근로자를 존중해야 합니다.",
+        "bn": "কোম্পানিকে কর্মচারীদের সম্মান করতে হবে।",
+        "en": "The company should respect its employees."
+      }
+    },
+    {
+      "ko": "사용자",
+      "romanization": "sayongja",
+      "bn": "নিয়োগকারী/কর্মনির্বাহক",
+      "en": "employer",
+      "pos": "noun",
+      "example": {
+        "ko": "사용자는 근로계약서를 작성해야 합니다.",
+        "bn": "নিয়োগকারীকে কাজের চুক্তি লিখতে হয়।",
+        "en": "The employer must prepare the employment contract."
+      }
+    },
+    {
+      "ko": "임금",
+      "romanization": "imgeum",
+      "bn": "বেতন",
+      "en": "wages",
+      "pos": "noun",
+      "example": {
+        "ko": "월 임금은 매월 말에 지급됩니다.",
+        "bn": "মাসিক বেতন প্রতি মাসের শেষে দেওয়া হয়।",
+        "en": "Monthly wages are paid at the end of each month."
+      }
+    },
+    {
+      "ko": "최저임금",
+      "romanization": "choejeo imgeum",
+      "bn": "ন্যূনতম মজুরি",
+      "en": "minimum wage",
+      "pos": "noun",
+      "example": {
+        "ko": "회사는 최저임금 이상을 지급해야 합니다.",
+        "bn": "কোম্পানিকে ন্যূনতম মজুরির বেশি দিতে হবে।",
+        "en": "The company must pay at least the minimum wage."
+      }
+    },
+    {
+      "ko": "근무시간",
+      "romanization": "geunmu sigan",
+      "bn": "কাজের সময়",
+      "en": "working hours",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 근무시간은 오전 9시부터 오후 6시까지입니다.",
+        "bn": "আজ কাজের সময় সকাল ৯টা থেকে বিকেল ৬টা পর্যন্ত।",
+        "en": "Today's working hours are from 9 AM to 6 PM."
+      }
+    },
+    {
+      "ko": "휴게시간",
+      "romanization": "hyuge sigan",
+      "bn": "বিশ্রামের সময়",
+      "en": "break time",
+      "pos": "noun",
+      "example": {
+        "ko": "점심은 12시부터 1시까지 휴게시간입니다.",
+        "bn": "দুপুর ১২টা থেকে ১টা পর্যন্ত বিরতির সময়।",
+        "en": "Lunch break is from 12 to 1."
+      }
+    },
+    {
+      "ko": "연차휴가",
+      "romanization": "yeoncha yuga",
+      "bn": "বার্ষিক ছুটি",
+      "en": "annual leave",
+      "pos": "noun",
+      "example": {
+        "ko": "연차휴가는 미리 신청해야 합니다.",
+        "bn": "বার্ষিক ছুটি আগে থেকে আবেদন করতে হয়।",
+        "en": "You should request annual leave in advance."
+      }
+    },
+    {
+      "ko": "야근",
+      "romanization": "yageun",
+      "bn": "রাত পর্যন্ত কাজ/ওভারটাইম",
+      "en": "working late/overtime",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "오늘은 야근을 해야 합니다.",
+        "bn": "আজ রাতে ওভারটাইম করতে হবে।",
+        "en": "I have to work late today."
+      }
+    },
+    {
+      "ko": "초과근무",
+      "romanization": "chogwa geunmu",
+      "bn": "অতিরিক্ত কাজ সময়",
+      "en": "overtime work",
+      "pos": "noun",
+      "example": {
+        "ko": "초과근무를 할 때는 보고해야 합니다.",
+        "bn": "অতিরিক্ত কাজ করার সময় রিপোর্ট দিতে হয়।",
+        "en": "You should report when you work overtime."
+      }
+    },
+    {
+      "ko": "수당",
+      "romanization": "sudang",
+      "bn": "ভাতা/ভর্তুকি",
+      "en": "allowance/pay (e.g., overtime pay)",
+      "pos": "noun",
+      "example": {
+        "ko": "야근 수당은 근로계약서에 적습니다.",
+        "bn": "ওভারটাইম বেতন কাজের চুক্তিতে লেখা থাকে।",
+        "en": "Overtime pay is written in the employment contract."
+      }
+    },
+    {
+      "ko": "계약서",
+      "romanization": "gyeyakseo",
+      "bn": "চুক্তিপত্র",
+      "en": "contract",
+      "pos": "noun",
+      "example": {
+        "ko": "계약서를 잘 읽고 서명하세요.",
+        "bn": "চুক্তিপত্র ভালো করে পড়ে স্বাক্ষর করুন।",
+        "en": "Read the contract carefully and sign it."
+      }
+    },
+    {
+      "ko": "해고",
+      "romanization": "haego",
+      "bn": "চাকরি থেকে বরখাস্ত/কর্তৃপক্ষের দ্বারা ছাঁটাই",
+      "en": "dismissal/termination",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "부당 해고는 문제를 일으킬 수 있습니다.",
+        "bn": "অবিচারপূর্ণ বরখাস্ত সমস্যার কারণ হতে পারে।",
+        "en": "Unfair dismissal can cause problems."
+      }
+    },
+    {
+      "ko": "퇴직금",
+      "romanization": "toejik geum",
+      "bn": "প্রস্থানকালীন ভাতা",
+      "en": "severance pay",
+      "pos": "noun",
+      "example": {
+        "ko": "퇴직금은 퇴사 후에 처리됩니다.",
+        "bn": "প্রস্থানকালীন ভাতা চাকরি ছাড়ার পরে দেওয়া হয়।",
+        "en": "Severance pay is processed after leaving the job."
+      }
+    },
+    {
+      "ko": "산재보험",
+      "romanization": "sanjae boheom",
+      "bn": "শ্রমিক দায়বদ্ধতা/শ্রমিক দুর্ঘটনা বীমা",
+      "en": "industrial accident insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "산재보험은 작업 중 사고 시 도움을 줍니다.",
+        "bn": "শ্রমদুর্ঘটনা বীমা কাজের দুঘটনার সময় সাহায্য করে।",
+        "en": "Industrial accident insurance helps in case of workplace accidents."
+      }
+    },
+    {
+      "ko": "고용보험",
+      "romanization": "goyong boheom",
+      "bn": "বেকারত্ব/নিযুক্তি বীমা",
+      "en": "employment insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "고용보험은 실업 시 일부 지원을 합니다.",
+        "bn": "নিয়োগ বীমা বেকার হলে কিছু সহায়তা দেয়।",
+        "en": "Employment insurance provides some support when unemployed."
+      }
+    },
+    {
+      "ko": "출근",
+      "romanization": "chulgeun",
+      "bn": "কর্মস্থলে এসে হাজির হওয়া",
+      "en": "go to work/clock in",
+      "pos": "verb/noun",
+      "example": {
+        "ko": "출근 시간은 오전 9시입니다.",
+        "bn": "কাজ শুরু সময় সকাল ৯টা।",
+        "en": "Work starts at 9 AM."
+      }
+    },
+    {
+      "ko": "휴일",
+      "romanization": "hyuil",
+      "bn": "ছুটির দিন",
+      "en": "holiday/day off",
+      "pos": "noun",
+      "example": {
+        "ko": "공휴일에는 회사가 쉬는 경우가 많습니다.",
+        "bn": "সরকারি ছুটিতে কোম্পানি বন্ধ থাকে।",
+        "en": "Companies are often closed on public holidays."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "아/어야 하다",
+      "titleBn": "কোথাও বাধ্যতা (করণ কর্তব্য)",
+      "explanationBn": "এঁর অর্থ 'করা উচিত/প্রয়োজন'। ব্যক্তিগত বা নিয়মগত বাধ্যতা জানানোর জন্য ব্যবহার করা হয়।",
+      "explanationEn": "Means 'must/should'. Used to express obligation or necessity.",
+      "examples": [
+        {
+          "ko": "계약서에 서명해야 합니다.",
+          "bn": "চুক্তিতে স্বাক্ষর করতে হবে।",
+          "en": "You must sign the contract."
+        },
+        {
+          "ko": "출근 시간에 맞춰 출근해야 해요.",
+          "bn": "নির্ধারিত সময়ে এসে কাজ শুরু করতে হবে।",
+          "en": "You should arrive at work on time."
+        }
+      ]
+    },
+    {
+      "pattern": "을/를 수 있다",
+      "titleBn": "সম্ভবতা/ক্ষমতা",
+      "explanationBn": "এটি 'করা সম্ভব' বা 'পারা' বোঝায়। ক্ষমতা বা সুযোগ প্রকাশ করতে ব্যবহার করা হয়।",
+      "explanationEn": "Expresses ability or possibility: 'can/able to'. Used to talk about capability or possibility.",
+      "examples": [
+        {
+          "ko": "야근을 할 수 있습니다.",
+          "bn": "আপনি ওভারটাইম করতে পারেন।",
+          "en": "You can work overtime."
+        },
+        {
+          "ko": "연차를 신청할 수 있어요.",
+          "bn": "আপনি বার্ষিক ছুটির জন্য আবেদন করতে পারেন।",
+          "en": "You can apply for annual leave."
+        }
+      ]
+    },
+    {
+      "pattern": "기 전에",
+      "titleBn": "কোনো কাজের আগে",
+      "explanationBn": "এটি বোঝায় 'কখনো আগে'—কোনো কাজ করার পূর্বে আরেকটা কাজ করতে হবে বা দিতে হবে।",
+      "explanationEn": "Means 'before doing something'. Indicates an action that happens prior to another action.",
+      "examples": [
+        {
+          "ko": "출근하기 전에 알림을 확인하세요.",
+          "bn": "কাজে যাওয়ার আগে নোটিফিকেশন চেক করুন।",
+          "en": "Check notifications before going to work."
+        },
+        {
+          "ko": "서명하기 전에 계약서를 읽으세요.",
+          "bn": "স্বাক্ষর করার আগে চুক্তিপত্র পড়ুন।",
+          "en": "Read the contract before signing."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "출근 후 문의",
+      "titleEn": "Asking after arriving at work",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "안녕하세요. 오늘 연차를 쓰고 싶습니다. 어떻게 신청하나요?",
+          "bn": "হ্যালো। আজ আমি বার্ষিক ছুটি নিতে চাই। কীভাবে আবেদন করব?",
+          "en": "Hello. I want to take annual leave today. How do I apply?"
+        },
+        {
+          "speaker": "관리자",
+          "ko": "인사팀에 이메일로 신청하면 됩니다.",
+          "bn": "এইচআর টিমকে ইমেইল পাঠিয়ে আবেদন করুন।",
+          "en": "Please apply by email to HR."
+        },
+        {
+          "speaker": "직원",
+          "ko": "연차는 승인되면 언제 알 수 있나요?",
+          "bn": "ছুটির অনুমোদন হলে কবে জানতে পারি?",
+          "en": "When will I know if the leave is approved?"
+        },
+        {
+          "speaker": "관리자",
+          "ko": "보통 하루 이내에 답변합니다.",
+          "bn": "সাধারণত এক দিনের মধ্যে জবাব দেয়া হয়।",
+          "en": "Usually you'll get a reply within a day."
+        },
+        {
+          "speaker": "직원",
+          "ko": "감사합니다. 그럼 이메일 보낼게요.",
+          "bn": "ধন্যবাদ। আমি এখনই ইমেইল পাঠাচ্ছি।",
+          "en": "Thank you. I'll send the email now."
+        }
+      ]
+    },
+    {
+      "titleBn": "야근 관련 대화",
+      "titleEn": "Conversation about working late",
+      "lines": [
+        {
+          "speaker": "팀원",
+          "ko": "오늘 프로젝트 때문에 야근해야 하나요?",
+          "bn": "প্রকল্পের জন্য আজ কি ওভারটাইম করতে হবে?",
+          "en": "Do we have to work late today for the project?"
+        },
+        {
+          "speaker": "팀장",
+          "ko": "필요하면 부탁드릴게요. 가능하세요?",
+          "bn": "যদি দরকার হয় তবে অনুরোধ করব। পারবেন কি?",
+          "en": "If needed, I'll ask. Can you do it?"
+        },
+        {
+          "speaker": "팀원",
+          "ko": "네, 오늘은 가능합니다. 야근 수당은 어떻게 되나요?",
+          "bn": "হ্যাঁ, আজ পারি। ওভারটাইম পে কীভাবে হবে?",
+          "en": "Yes, I can today. How is overtime pay handled?"
+        },
+        {
+          "speaker": "팀장",
+          "ko": "정확한 수당은 인사팀에 확인하겠습니다.",
+          "bn": "সঠিক ভাতার ব্যাপারে আমি এইচআর-এ চেক করব।",
+          "en": "I'll check with HR about the exact allowance."
+        },
+        {
+          "speaker": "팀원",
+          "ko": "알겠습니다. 알려 주세요.",
+          "bn": "ঠিক আছে। আমাকে জানাবেন।",
+          "en": "Okay. Please let me know."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "‘근로기준법’ শব্দের সঠিক অর্থ কী?",
+      "questionKo": "‘근로기준법’의 정확한 의미는 무엇입니까?",
+      "options": [
+        "회사 내 규정 모음",
+        "노동자의 권리를 보호하는 법",
+        "근무 스케줄표",
+        "근로 계약서 양식"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "근로기준법은 노동자의 권리와 노동 조건을 보호하는 법률을 의미합니다।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "‘연차휴가’를 언제 신청해야 하나요?",
+      "questionKo": "‘연차휴가’를 언제 신청해야 합니까?",
+      "options": [
+        "미리(또는 사전에) 신청합니다.",
+        "떠난 후에 신청합니다.",
+        "연차휴가는 신청할 필요가 없습니다.",
+        "매일 신청합니다."
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "연차휴가는 보통 미리 신청해야 하므로 '미리 신청'이 맞습니다।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "‘야근 수당’은 무엇과 관련있나요?",
+      "questionKo": "‘야근 수당’은 무엇과 관련되어 있습니까?",
+      "options": [
+        "출퇴근 시간",
+        "연차 사용",
+        "계약서 형식",
+        "초과근무(오버타임) 보상"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "야근 수당은 초과근무에 대한 보상과 관련되어 있습니다।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "‘산재보험’은 주로 무엇을 돕나요?",
+      "questionKo": "‘산재보험’은 주로 무엇을 도와줍니까?",
+      "options": [
+        "휴가 신청 절차 안내",
+        "세금 신고 지원",
+        "작업 중 사고에 대한 지원",
+        "취업 비자 발급"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "산재보험은 작업 중 사고가 발생했을 때 도움을 줍니다।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "계약서에 대해 올바른 행동은?",
+      "questionKo": "계약서에 대해 올바른 행동은?",
+      "options": [
+        "계약서를 잘 읽고 서명한다.",
+        "계약서를 무시한다.",
+        "구두 약속만 믿는다.",
+        "서명 없이 바로 일을 시작한다."
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "계약서는 내용을 확인하고 서명하는 것이 안전합니다।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "다음 문장에서 알맞은 단어를 고르세요: '오늘은 ___ 때문에 야근해야 합니다.'",
+      "questionKo": "다음 문장에서 알맞은 단어를 고르세요: '오늘은 ___ 때문에 야근해야 합니다.'",
+      "options": [
+        "연차휴가",
+        "출근",
+        "프로젝트",
+        "휴일"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "프로젝트 때문에 야근한다는 문맥이 자연스럽습니다।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "다음 문장에서 알맞은 단어를 고르세요: '회사에 ___ 를 제출해야 합니다.'",
+      "questionKo": "다음 문장에서 알맞은 단어를 고르세요: '회사에 ___ 를 제출해야 합니다.'",
+      "options": [
+        "야근",
+        "계약서",
+        "휴일",
+        "출근"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "회사에 제출하는 것은 일반적으로 계약서가 맞습니다।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "다음 문장에서 알맞은 단어를 고르세요: '근무시간 후에는 ___ 를 확인하세요.'",
+      "questionKo": "다음 문장에서 알맞은 단어를 고르세요: '근무시간 후에는 ___ 를 확인하세요.'",
+      "options": [
+        "연차휴가",
+        "계약서",
+        "휴일",
+        "출근 기록"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "근무시간 후에 확인할 것은 출근 기록(출퇴근 기록)이 적절합니다।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "다음 단어와 뜻을 연결하세요.",
+      "questionKo": "다음 단어와 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "임금",
+          "right": "বেতন"
+        },
+        {
+          "left": "연차휴가",
+          "right": "বার্ষিক ছুটি"
+        },
+        {
+          "left": "출근",
+          "right": "কর্মস্থলে আসা"
+        },
+        {
+          "left": "야근",
+          "right": "রাত পর্যন্ত কাজ করা"
+        },
+        {
+          "left": "계약서",
+          "right": "চুক্তিপত্র"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "좌측 단어와 오른쪽의 বাংলা 뜻을 각각 연결하면 됩니다।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "다음 단어와 뜻을 연결하세요.",
+      "questionKo": "다음 단어와 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "산재보험",
+          "right": "শ্রমদুর্ঘটনা বীমা"
+        },
+        {
+          "left": "고용보험",
+          "right": "নিয়োগ বীমা"
+        },
+        {
+          "left": "휴게시간",
+          "right": "বিরতির সময়"
+        },
+        {
+          "left": "해고",
+          "right": "বরখাস্ত"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "각 단어와 해당하는 বাংলা 뜻을 서로 연결하세요।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
+      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
+      "passage": "김 씨는 회사에서 매일 오전 9시부터 오후 6시까지 근무합니다. 점심시간은 12시부터 1시까지입니다.",
+      "options": [
+        "김 씨의 근무시간은 오후 6시부터 자정까지다.",
+        "김 씨는 점심시간에 일한다.",
+        "김 씨는 오전 9시부터 오후 6시까지 근무한다.",
+        "김 씨는 하루에 두 번 점심을 먹는다."
+      ],
+      "answer": 2,
+      "explanationBn": "본문에 '오전 9시부터 오후 6시까지 근무합니다'라고 명시되어 있습니다।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
+      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
+      "passage": "연차휴가는 보통 미리 신청합니다. 인사팀에 이메일로 요청하세요.",
+      "options": [
+        "연차휴가는 미리 신청해야 한다.",
+        "연차휴가는 즉석에서 승인된다.",
+        "인사팀은 연차를 거절할 수 없다.",
+        "연차는 이메일로 신청하지 못한다."
+      ],
+      "answer": 0,
+      "explanationBn": "본문에 '연차휴가는 보통 미리 신청합니다'라고 되어 있으므로 첫 번째가 맞습니다।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
+      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
+      "passage": "야근 시에는 수당이 발생할 수 있습니다. 정확한 내용은 회사 규정이나 인사팀에 문의하세요.",
+      "options": [
+        "야근에는 수당이 절대 없다.",
+        "야근 수당은 규정과 관계없다.",
+        "야근은 항상 무료 근무이다.",
+        "야근 수당은 회사 규정을 확인해야 한다."
+      ],
+      "answer": 3,
+      "explanationBn": "본문에 '정확한 내용은 회사 규정이나 인사팀에 문의하세요'라고 되어 있습니다।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
+      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
+      "passage": "계약서에 서명하기 전에 내용을 잘 읽으세요. 궁금한 점은 회사에 문의하세요.",
+      "options": [
+        "서명 전에 계약서를 읽지 않아도 된다.",
+        "서명하기 전에 계약서를 읽어야 한다.",
+        "계약서는 항상 구두로만 한다.",
+        "계약서 내용은 변경할 수 없다."
+      ],
+      "answer": 1,
+      "explanationBn": "본문에 '계약서에 서명하기 전에 내용을 잘 읽으세요'라고 명시되어 있습니다।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
+      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
+      "passage": "산재보험은 작업 중 사고가 발생했을 때 도움을 주는 제도입니다.",
+      "options": [
+        "산재보험은 여행 보험이다.",
+        "산재보험은 사무실 청소용이다.",
+        "산재보험은 작업 중 사고를 지원한다.",
+        "산재보험은 휴가를 주는 제도다."
+      ],
+      "answer": 2,
+      "explanationBn": "본문에 '작업 중 사고가 발생했을 때 도움을 주는 제도'라고 되어 있습니다।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "다음을 듣고 질문에 답하세요.",
+      "questionKo": "다음을 듣고 질문에 답하세요.",
+      "passage": "A: 오늘 야근 가능하세요? B: 네, 오늘은 가능합니다. 수당은 인사팀에 확인해 주세요.",
+      "options": [
+        "B는 오늘 야근이 가능하다고 했다.",
+        "B는 오늘 야근이 불가능하다고 했다.",
+        "B는 수당을 직접 계산해 주겠다고 했다.",
+        "B는 연차를 신청하겠다고 했다."
+      ],
+      "answer": 0,
+      "explanationBn": "대화에서 B가 '네, 오늘은 가능합니다'라고 말했습니다।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "다음을 듣고 질문에 답하세요.",
+      "questionKo": "다음을 듣고 질문에 답하세요.",
+      "passage": "A: 연차를 언제 신청해야 하나요? B: 보통 미리 인사팀에 이메일로 신청합니다.",
+      "options": [
+        "연차는 당일에만 신청한다.",
+        "연차는 구두로만 신청한다.",
+        "인사팀은 연차를 승인하지 않는다.",
+        "연차는 미리 인사팀에 이메일로 신청한다."
+      ],
+      "answer": 3,
+      "explanationBn": "대화에서 B는 '보통 미리 인사팀에 이메일로 신청합니다'라고 말했습니다।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "다음을 듣고 질문에 답하세요.",
+      "questionKo": "다음을 듣고 질문에 답하세요.",
+      "passage": "A: 계약서에 서명하기 전에 무엇을 해야 하나요? B: 서명하기 전에 내용을 잘 읽으세요.",
+      "options": [
+        "서명 전에 내용을 읽지 말라고 했다.",
+        "서명 전에 내용을 잘 읽으라고 했다.",
+        "서명 후에 계약서를 읽으라고 했다.",
+        "서명은 필요 없다고 했다."
+      ],
+      "answer": 1,
+      "explanationBn": "B는 '서명하기 전에 내용을 잘 읽으세요'라고 말했습니다।"
+    }
+  ]
+}

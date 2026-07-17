@@ -1,0 +1,673 @@
+{
+  "chapter": 47,
+  "slug": "coastal-fishery-and-aquaculture",
+  "title": {
+    "ko": "연근해 어업과 양식",
+    "bn": "উপকূলীয় মৎস্য ও জলজ চাষ",
+    "en": "Coastal Fishery and Aquaculture"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "উপকূলীয় মৎস্য ও 양식 সম্পর্কিত সাধারণ শব্দভাণ্ডার জানতে পারা।",
+      "কাজের সময় সাধারণ নির্দেশাবলী বুঝতে ও বলতে পারা।",
+      "সহকর্মীর সাথে সরল কর্মসংক্রান্ত কথোপকথন করতে পারা।"
+    ],
+    "en": [
+      "Learn basic vocabulary related to coastal fishery and aquaculture.",
+      "Understand and give simple workplace instructions.",
+      "Conduct short work-related conversations with colleagues."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "연근해",
+      "romanization": "yeongeunhae",
+      "bn": "উপকূলীয় সাগর",
+      "en": "coastal waters",
+      "pos": "noun",
+      "example": {
+        "ko": "연근해에서 조업을 시작합니다.",
+        "bn": "উপকূলীয় সাগরে কাজ শুরু করি।",
+        "en": "We start fishing in the coastal waters."
+      }
+    },
+    {
+      "ko": "어업",
+      "romanization": "eoeop",
+      "bn": "মৎস্যশিল্প/মৎস্য ধরা",
+      "en": "fishery",
+      "pos": "noun",
+      "example": {
+        "ko": "어업 허가가 필요합니다.",
+        "bn": "মৎস্যচাষের অনুমোদন প্রয়োজন।",
+        "en": "A fishery permit is required."
+      }
+    },
+    {
+      "ko": "양식",
+      "romanization": "yangsik",
+      "bn": "জলজ চাষ/অ্যাকুয়ারকালচার",
+      "en": "aquaculture",
+      "pos": "noun",
+      "example": {
+        "ko": "연안 양식장에서 굴을 키웁니다.",
+        "bn": "উপকূলীয় ফার্মে কাকড়া পালন করি।",
+        "en": "They farm oysters at the coastal aquaculture site."
+      }
+    },
+    {
+      "ko": "어선",
+      "romanization": "eoseon",
+      "bn": "ডাঙ্গাবাহী মাছ ধরার নৌকা",
+      "en": "fishing boat",
+      "pos": "noun",
+      "example": {
+        "ko": "어선에 장비를 싣습니다.",
+        "bn": "মাছ ধরার নৌকায় সরঞ্জাম আঁটি।",
+        "en": "Load equipment onto the fishing boat."
+      }
+    },
+    {
+      "ko": "조업",
+      "romanization": "joeop",
+      "bn": "মাছ ধরা/কাজ করা (সমুদ্রে)",
+      "en": "fishing operation",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 오후에 조업을 합니다.",
+        "bn": "আজ বিকেলে কাজে যাব।",
+        "en": "We will operate (fish) this afternoon."
+      }
+    },
+    {
+      "ko": "어장",
+      "romanization": "eojang",
+      "bn": "মাছ ধরার স্থান",
+      "en": "fishing ground",
+      "pos": "noun",
+      "example": {
+        "ko": "어장이 변경되었습니다.",
+        "bn": "মাছ ধরার জায়গা বদলানো হয়েছে।",
+        "en": "The fishing grounds have changed."
+      }
+    },
+    {
+      "ko": "양식장",
+      "romanization": "yangsikjang",
+      "bn": "জলজ বিন্যাস ফার্ম",
+      "en": "aquaculture farm",
+      "pos": "noun",
+      "example": {
+        "ko": "양식장에 먹이를 줍니다.",
+        "bn": "ফার্মে খাবার দিই।",
+        "en": "We feed at the aquaculture farm."
+      }
+    },
+    {
+      "ko": "양식어류",
+      "romanization": "yangsikeoryu",
+      "bn": "চাষকৃত মাছ",
+      "en": "cultured fish",
+      "pos": "noun",
+      "example": {
+        "ko": "양식어류는 규칙적으로 검사합니다.",
+        "bn": "চাষ করা মাছ নিয়ম করে পরীক্ষা করি।",
+        "en": "Cultured fish are inspected regularly."
+      }
+    },
+    {
+      "ko": "그물",
+      "romanization": "geumul",
+      "bn": "জাল",
+      "en": "net",
+      "pos": "noun",
+      "example": {
+        "ko": "그물을 정리해 주세요.",
+        "bn": "জাল ঠিক করে দিন।",
+        "en": "Please organize the net."
+      }
+    },
+    {
+      "ko": "작살",
+      "romanization": "jaksal",
+      "bn": "বর্শা/হরপুন",
+      "en": "harpoon",
+      "pos": "noun",
+      "example": {
+        "ko": "작살을 안전하게 보관하세요.",
+        "bn": "হরপুন নিরাপদে রাখুন।",
+        "en": "Store the harpoon safely."
+      }
+    },
+    {
+      "ko": "어업허가",
+      "romanization": "eoyeopheoga",
+      "bn": "মৎস্যচাষের অনুমতি",
+      "en": "fishing permit",
+      "pos": "noun",
+      "example": {
+        "ko": "어업허가 서류를 확인합니다.",
+        "bn": "অনের কাগজপত্র পরীক্ষা করি।",
+        "en": "We check the fishing permit documents."
+      }
+    },
+    {
+      "ko": "연안",
+      "romanization": "yeonan",
+      "bn": "তটরেখা/উপকূল",
+      "en": "coast/shore",
+      "pos": "noun",
+      "example": {
+        "ko": "연안에서 안전을 확인하세요.",
+        "bn": "উপকূলের কাছে নিরাপত্তা দেখুন।",
+        "en": "Check safety near the shore."
+      }
+    },
+    {
+      "ko": "해류",
+      "romanization": "haeryu",
+      "bn": "সাগরের প্রবাহ",
+      "en": "ocean current",
+      "pos": "noun",
+      "example": {
+        "ko": "해류가 바뀌면 어장이 달라집니다.",
+        "bn": "সাগরের প্রবাহ বদলালে মাছ ধরার জায়গা পরিবর্তন হয়।",
+        "en": "If the currents change, fishing grounds change."
+      }
+    },
+    {
+      "ko": "조업일",
+      "romanization": "joeopil",
+      "bn": "কাজের দিন",
+      "en": "workday (fishing day)",
+      "pos": "noun",
+      "example": {
+        "ko": "조업일을 캘린더에 표시하세요.",
+        "bn": "কাজের দিন ক্যালেন্ডারে চিহ্নিত করুন।",
+        "en": "Mark the fishing day on the calendar."
+      }
+    },
+    {
+      "ko": "선장",
+      "romanization": "seonjang",
+      "bn": "নৌকা/জাহাজের প্রধান",
+      "en": "captain",
+      "pos": "noun",
+      "example": {
+        "ko": "선장이 출항을 지시합니다.",
+        "bn": "ক্যাপ্টেন যাত্রা শুরু করতে বলে।",
+        "en": "The captain orders departure."
+      }
+    },
+    {
+      "ko": "승선원",
+      "romanization": "seungseonwon",
+      "bn": "নাবিক/ক্রু",
+      "en": "crew member",
+      "pos": "noun",
+      "example": {
+        "ko": "승선원은 안전 교육을 받습니다.",
+        "bn": "ক্রুরা নিরাপত্তা প্রশিক্ষণ নেয়।",
+        "en": "Crew members receive safety training."
+      }
+    },
+    {
+      "ko": "수온",
+      "romanization": "suon",
+      "bn": "পানির তাপমাত্রা",
+      "en": "water temperature",
+      "pos": "noun",
+      "example": {
+        "ko": "수온을 매일 측정하세요.",
+        "bn": "প্রতিদিন পানির তাপমাত্রা মাপুন।",
+        "en": "Measure the water temperature daily."
+      }
+    },
+    {
+      "ko": "선박",
+      "romanization": "seonbak",
+      "bn": "জাহাজ/শিপ",
+      "en": "vessel/ship",
+      "pos": "noun",
+      "example": {
+        "ko": "선박 점검을 확인합니다.",
+        "bn": "জাহাজ পরিদর্শন নিশ্চিত করুন।",
+        "en": "Check the vessel inspection."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "~에서 (স্থান নির্দেশ)",
+      "titleBn": "~에서 (স্থান নির্দেশ করে)",
+      "explanationBn": "কোন কাজ কোথায় হচ্ছে তা বোঝাতে '~에서' ব্যবহার করা হয়।",
+      "explanationEn": "Use '~에서' to indicate where an action takes place.",
+      "examples": [
+        {
+          "ko": "항구에서 배를 정비합니다.",
+          "bn": "বন্দরেই নৌকা সারাই করি।",
+          "en": "We service the boat at the port."
+        },
+        {
+          "ko": "양식장에서 물을 검사합니다.",
+          "bn": "ফার্মে জল পরীক্ষা করি।",
+          "en": "We test the water at the farm."
+        }
+      ]
+    },
+    {
+      "pattern": "~(으)세요 (정중한 명령)",
+      "titleBn": "~(으)세요 (ভদ্র অনুরোধ/আদেশ)",
+      "explanationBn": "কর্মস্থলে বিনীতভাবে অনুরোধ বা নির্দেশ দিতে '~(으)세요' ব্যবহার করুন।",
+      "explanationEn": "Use '~(으)세요' for polite requests or commands at work.",
+      "examples": [
+        {
+          "ko": "그물을 정리하세요.",
+          "bn": "জালটি ঠিক করুন দয়া করে।",
+          "en": "Please organize the net."
+        },
+        {
+          "ko": "수온을 기록하세요.",
+          "bn": "পানির তাপমাত্রা নোট করুন।",
+          "en": "Please record the water temperature."
+        }
+      ]
+    },
+    {
+      "pattern": "~고 싶다 (희망 표현)",
+      "titleBn": "~고 싶다 (ইচ্ছা প্রকাশ)",
+      "explanationBn": "নিজের ইচ্ছা বা আকাঙ্ক্ষা বলতে '~고 싶다' ব্যবহার হয়।",
+      "explanationEn": "Use '~고 싶다' to express desire or wish.",
+      "examples": [
+        {
+          "ko": "저는 양식장을 보고 싶어요.",
+          "bn": "আমি ফার্মটি দেখতে চাই।",
+          "en": "I want to see the aquaculture farm."
+        },
+        {
+          "ko": "오늘 좋은 어획을 하고 싶습니다.",
+          "bn": "আজ ভাল মাছ ধরা চাই।",
+          "en": "I want to have a good catch today."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "항구 출항 준비",
+      "titleEn": "Preparing to Depart Port",
+      "lines": [
+        {
+          "speaker": "선장",
+          "ko": "모두 출항 준비되었나요?",
+          "bn": "সবাই কি যাত্রা করার জন্য প্রস্তুত?",
+          "en": "Is everyone ready to depart?"
+        },
+        {
+          "speaker": "승선원",
+          "ko": "네, 그물과 장비를 점검했습니다.",
+          "bn": "হ্যাঁ, জাল ও সরঞ্জাম পরিদর্শন করেছি।",
+          "en": "Yes, I checked the nets and equipment."
+        },
+        {
+          "speaker": "선장",
+          "ko": "연안 기상 상태를 확인하세요.",
+          "bn": "উপকূলীয় আবহাওয়া চেক করুন।",
+          "en": "Check the coastal weather conditions."
+        },
+        {
+          "speaker": "승선원",
+          "ko": "네, 기상청 정보를 받았습니다.",
+          "bn": "হ্যাঁ, আবহাওয়ার তথ্য পেয়েছি।",
+          "en": "Yes, I received weather information."
+        },
+        {
+          "speaker": "선장",
+          "ko": "안전 장비를 착용하세요.",
+          "bn": "নিরাপত্তা সরঞ্জাম পরিধান করুন।",
+          "en": "Wear the safety equipment."
+        }
+      ]
+    },
+    {
+      "titleBn": "양식장 일상 업무",
+      "titleEn": "Daily Tasks at the Aquaculture Farm",
+      "lines": [
+        {
+          "speaker": "관리자",
+          "ko": "수온을 측정했나요?",
+          "bn": "পানির তাপমাত্রা মাপলেন?",
+          "en": "Did you measure the water temperature?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 오늘 수온은 18도입니다.",
+          "bn": "হ্যাঁ, আজ পানির তাপমাত্রা ১৮ ডিগ্রি।",
+          "en": "Yes, today's water temperature is 18°C."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "먹이를 주고 기록하세요.",
+          "bn": "খাবার দিন এবং নথিভুক্ত করুন।",
+          "en": "Feed them and record it."
+        },
+        {
+          "speaker": "직원",
+          "ko": "알겠습니다. 바로 시작하겠습니다.",
+          "bn": "বুঝেছি। সঙ্গে সঙ্গে শুরু করব।",
+          "en": "Understood. I'll start right away."
+        },
+        {
+          "speaker": "관리자",
+          "ko": "문제가 있으면 보고하세요.",
+          "bn": "কোন সমস্যা হলে রিপোর্ট করুন।",
+          "en": "Report if there is any problem."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "‘양식장’ এর সঠিক অর্থ কোনটি?",
+      "questionKo": "‘양식장’의 의미는 무엇인가요?",
+      "options": [
+        "উপকূলীয় সাগর (coastal waters)",
+        "জলজ চাষ ফার্ম (aquaculture farm)",
+        "মাছ ধরার নৌকা (fishing boat)",
+        "জাহাজ পরিদর্শন (vessel inspection)"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "양식장은 জলজ চাষ বা মাছের ফার্ম বোঝায়, তাই দ্বিতীয়টি সঠিক।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "‘선장’ কে নির্দেশ করে?",
+      "questionKo": "‘선장’은 누구를 의미하나요?",
+      "options": [
+        "ক্রু সদস্য (crew member)",
+        "নৌকা/জাহাজের প্রধান (captain)",
+        "জাল (net)",
+        "পানির তাপমাত্রা (water temperature)"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "선장은 জাহাজ বা নৌকার প্রধান, তাই দ্বিতীয়টি সঠিক।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "‘~에서’ কিভাবে ব্যবহার হয়?",
+      "questionKo": "‘~에서’는 어떻게 사용되나요?",
+      "options": [
+        "ইচ্ছা প্রকাশ করতে (to express desire)",
+        "স্থান নির্দেশ করতে (to indicate place)",
+        "ভদ্র অনুরোধ করতে (for polite request)",
+        "সময় নির্দেশ করতে (to indicate time)"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "문장에서 장소를 나타낼 때 '~에서' 사용 হয়, তাই দ্বিতীয়টি সঠিক।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "‘수온’ শব্দের অর্থ কী?",
+      "questionKo": "‘수온’의 의미는 무엇인가요?",
+      "options": [
+        "জাল (net)",
+        "তড়িৎ শক্তি (electric power)",
+        "বৃষ্টি (rain)",
+        "পানির তাপমাত্রা (water temperature)"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "수온은 পানির তাপমাত্রা বোঝায়, তাই চতুর্থটি সঠিক।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "কোনটি '그물' এর বাংলা মানে?",
+      "questionKo": "‘그물’의 한국어 뜻은 무엇인가요?",
+      "options": [
+        "জাল (net)",
+        "নৌকা (boat)",
+        "ফিডার (feeder)",
+        "পরিদর্শন (inspection)"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "그물 মানে জাল, তাই প্রথমটি সঠিক।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "বাক্যটি পূরণ করুন: '___에서 조업을 시작합니다.' (উপকূলীয় সাগর)",
+      "questionKo": "문장을 완성하세요: '___에서 조업을 시작합니다.' (coastal waters)",
+      "options": [
+        "선장",
+        "양식장",
+        "연근해",
+        "선박"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "연근해는 উপকূলীয় সাগর, তাই '연근해에서 조업을 시작합니다.' সঠিক।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "বাক্যটি পূরণ করুন: '수온을 ___하세요.' (পরিমাপ/রেকর্ড)",
+      "questionKo": "문장을 완성하세요: '수온을 ___하세요.' (record/measure)",
+      "options": [
+        "출항",
+        "측정",
+        "승선",
+        "정지"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "수온을 측정하세요 (Measure the water temperature) তাই দ্বিতীয়টি সঠিক।"
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "বাক্যটি পূরণ করুন: '그물을 ___ 주세요.' (সাজানো/সংশোধন করা)",
+      "questionKo": "문장을 완성하세요: '그물을 ___ 주세요.' (organize/repair)",
+      "options": [
+        "운전",
+        "정리",
+        "수리",
+        "조업"
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "문맥상 '그물을 정리해 주세요.' (জাল ঠিক করে দিন) সঠিক।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "নীচের কোরিয়ান শব্দগুলোর বাংলা অর্থ মিল করুন।",
+      "questionKo": "다음 한국어 단어와 의미를 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "선장",
+          "right": "নৌকা/জাহাজের প্রধান"
+        },
+        {
+          "left": "그물",
+          "right": "জাল"
+        },
+        {
+          "left": "양식장",
+          "right": "জলজ চাষ ফার্ম"
+        },
+        {
+          "left": "수온",
+          "right": "পানির তাপমাত্রা"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি শব্দের বাংলা মানে সরাসরি তালিকায় দেওয়া হয়েছে; মিল করুন।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "কোরিয়ান ও ইংরেজি শব্দ মিল করুন।",
+      "questionKo": "한국어 단어와 영어 뜻을 연결하세요.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "어선",
+          "right": "fishing boat"
+        },
+        {
+          "left": "해류",
+          "right": "ocean current"
+        },
+        {
+          "left": "양식어류",
+          "right": "cultured fish"
+        },
+        {
+          "left": "연근해",
+          "right": "coastal waters"
+        },
+        {
+          "left": "선박",
+          "right": "vessel"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রদত্ত কোরিয়ান শব্দগুলোর ইংরেজি মানে তালিকায় আছে; মিল করুন।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "পঠিত অংশ পড়ে সঠিক উত্তর দিন: '연근해에서 조업을 시작합니다.' এই বাক্যে কী বোঝানো হচ্ছে?",
+      "questionKo": "본문을 읽고 질문에 답하세요: '연근해에서 조업을 시작합니다.' 이 문장은 무엇을 의미하나요?",
+      "passage": "연근해에서 조업을 시작합니다.",
+      "options": [
+        "বন্দর ত্যাগ করছে (departing port)",
+        "উপকূলীয় এলাকায় মাছ ধরতে শুরু করা (start fishing in coastal waters)",
+        "জাহাজ পরীক্ষা করা (vessel inspection)",
+        "খাবার দেওয়া (feeding)"
+      ],
+      "answer": 1,
+      "explanationBn": "문장은 '연근해에서 조업을 시작합니다' — উপকূলীয় সাগরে মাছ ধরার কাজ শুরু করা বোঝায়।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "পঠিত অংশ অনুযায়ী: '수온을 측정했나요?' এর সঠিক প্রতিক্রিয়া কোনটি?",
+      "questionKo": "본문에 따라: '수온을 측정했나요?'에 대한 적절한 대답은?",
+      "passage": "관리자: 수온을 측정했나요? 직원: 네, 오늘 수온은 18도입니다.",
+      "options": [
+        "아니요, 아직 안 했어요. (No, not yet.)",
+        "네, 오늘 수온은 18도입니다. (Yes, it's 18°C today.)",
+        "그물을 정리하세요. (Organize the net.)",
+        "출항 준비가 되었습니다. (Ready to depart.)"
+      ],
+      "answer": 1,
+      "explanationBn": "대화에 직원이 '오늘 수온은 18도입니다'라고 답했으므로 দ্বিতীয়টি সঠিক।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "বলো, '그물을 정리하세요.' নির্দেশটির বাংলা অর্থ কী?",
+      "questionKo": "'그물을 정리하세요.'의 의미는 무엇인가요?",
+      "passage": "선장: 안전 장비를 착용하세요. 승선원: 네, 그물과 장비를 점검했습니다.",
+      "options": [
+        "জাল ঠিক করে দিন (Organize the net)",
+        "পাল তোলা (raise the sail)",
+        "ভর্তি করা (hire)",
+        "চেক করা (check)"
+      ],
+      "answer": 0,
+      "explanationBn": "'정리하세요' মানে 'ঠিক করুন/সাজান', তাই প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "문장 থেকে নির্ণয় করুন: '어업허가' কেন গুরুত্বপূর্ণ?",
+      "questionKo": "'어업허가'가 왜 중요한가요?",
+      "passage": "어업허가 서류를 확인합니다.",
+      "options": [
+        "নিয়ম মেনে কাজ করার জন্য (to work legally/with permission)",
+        "জাহাজ সারাই করার জন্য (to repair a ship)",
+        "খাবার দেওয়ার জন্য (to feed)",
+        "বৃষ্টি সম্পর্কে জানার জন্য (to know about rain)"
+      ],
+      "answer": 0,
+      "explanationBn": "어업허가는 অনুমতি বা আইনগত কারণে প্রয়োজন, তাই প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "বর্ণিত অংশ থেকে: '승선원은 안전 교육을 받습니다.' — 승선원의 দায়িত্ব কি?",
+      "questionKo": "'승선원은 안전 교육을 받습니다.'에서 승선원의 책임은 무엇인가요?",
+      "passage": "승선원은 안전 교육을 받습니다.",
+      "options": [
+        "নিরাপত্তা প্রশিক্ষণ নেয়া (receive safety training)",
+        "জাল বিক্রি করা (sell nets)",
+        "জাহাজ চালানো (drive the ship)",
+        "মাছ বাজারে বিক্রি (sell fish in market)"
+      ],
+      "answer": 0,
+      "explanationBn": "문장 자체에서 승선원은 নিরাপত্তা 교육을 받는다고 했으므로 প্রথমটি সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শোনা এবং নির্বাচন করুন: '수온을 기록하세요.' এই নির্দেশটি কী বলছে?",
+      "questionKo": "듣고 고르세요: '수온을 기록하세요.' 이 지시는 무엇을 말하나요?",
+      "passage": "관리자: 수온을 측정했나요? 직원: 네. 관리자: 수온을 기록하세요.",
+      "options": [
+        "পানির তাপমাত্রা মাপুন না (do not measure temperature)",
+        "পানির তাপমাত্রা নোট করুন (record the water temperature)",
+        "জাহাজ ছেড়ে দিন (leave the ship)",
+        "জাল ফেলার সময় (time to throw the net)"
+      ],
+      "answer": 1,
+      "explanationBn": "'기록하세요' মানে নথিভুক্ত করার নির্দেশ, তাই দ্বিতীয়টি সঠিক।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শোনা অংশ অনুযায়ী: '안전 장비를 착용하세요.' — এটা কী নির্দেশ?",
+      "questionKo": "듣고 고르세요: '안전 장비를 착용하세요.'는 어떤 지시인가요?",
+      "passage": "선장: 모두 출항 준비되었나요? 선장: 안전 장비를 착용하세요.",
+      "options": [
+        "নিরাপত্তা সরঞ্জাম পরিধান করুন (wear safety equipment)",
+        "খাবার শুরু করুন (start feeding)",
+        "জাল ফেলে দিন (throw the net)",
+        "জাহাজ পরীক্ষা বন্ধ (stop inspecting vessel)"
+      ],
+      "answer": 0,
+      "explanationBn": "명령문에서 안전 장비 착용을 지시하므로 প্রথম번이 맞습니다।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "শোনা এবং উত্তর করুন: '그물을 정리하세요.' — সঠিক প্রতিক্রিয়া কোনটি?",
+      "questionKo": "듣고 답하세요: '그물을 정리하세요.'에 대한 적절한 반응은?",
+      "passage": "선장: 그물을 정리하세요. 승선원: 네, 지금 정리하겠습니다.",
+      "options": [
+        "네, 지금 정리하겠습니다. (Yes, I'll organize it now.)",
+        "아니요, 못해요. (No, I can't.)",
+        "수온을 잰 적이 없습니다. (I didn't measure temperature.)",
+        "출항을 취소합니다. (Cancel departure.)"
+      ],
+      "answer": 0,
+      "explanationBn": "대화에서 승선원이 '지금 정리하겠습니다'라고 응답했으므로 প্রথমটি সঠিক।"
+    }
+  ]
+}

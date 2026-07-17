@@ -1,0 +1,673 @@
+{
+  "chapter": 35,
+  "slug": "workplace-management",
+  "title": {
+    "ko": "작업장 관리",
+    "bn": "কর্মস্থল ব্যবস্থাপনা",
+    "en": "Workplace Management"
+  },
+  "category": "workplace",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "কর্মস্থলে সাধারণ নির্দেশ ও নিরাপত্তা নিয়ম বুঝতে এবং বলতে পারা।",
+      "সরল যন্ত্রপাতি সমস্যা রিপোর্ট করা এবং সহকর্মীর সাথে যোগাযোগ করা।",
+      "দৈনন্দিন পরিচ্ছন্নতা ও 점검 সম্পর্কিত কথাগুলো ব্যবহার করা।"
+    ],
+    "en": [
+      "Understand and follow basic workplace instructions and safety rules.",
+      "Report simple equipment issues and communicate with coworkers.",
+      "Use daily cleaning and inspection phrases."
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "작업장",
+      "romanization": "jag-eobjang",
+      "bn": "কর্মস্থল",
+      "en": "workplace",
+      "pos": "noun",
+      "example": {
+        "ko": "작업장은 항상 안전 규칙을 지켜야 합니다.",
+        "bn": "কর্মস্থলে সবসময় নিরাপত্তা নিয়ম মেনে চলতে হবে।",
+        "en": "You must always follow safety rules in the workplace."
+      }
+    },
+    {
+      "ko": "안전",
+      "romanization": "anjeon",
+      "bn": "নিরাপত্তা",
+      "en": "safety",
+      "pos": "noun",
+      "example": {
+        "ko": "안전 장비를 착용하세요.",
+        "bn": "নিরাপত্তা সরঞ্জাম পরুন।",
+        "en": "Please wear safety equipment."
+      }
+    },
+    {
+      "ko": "장비",
+      "romanization": "jangbi",
+      "bn": "জিনিসপত্র/যন্ত্রপাতি",
+      "en": "equipment",
+      "pos": "noun",
+      "example": {
+        "ko": "기계 장비를 점검했습니다.",
+        "bn": "যন্ত্রপাতি পরীক্ষা করেছি।",
+        "en": "I have inspected the machinery equipment."
+      }
+    },
+    {
+      "ko": "점검하다",
+      "romanization": "jeomgeomhada",
+      "bn": "পরীক্ষা করা/নিরীক্ষণ করা",
+      "en": "to inspect/check",
+      "pos": "verb",
+      "example": {
+        "ko": "매일 기계를 점검하세요.",
+        "bn": "প্রতিদিন যন্ত্র পরীক্ষা করুন।",
+        "en": "Inspect the machine every day."
+      }
+    },
+    {
+      "ko": "보고하다",
+      "romanization": "bogo-hada",
+      "bn": "রিপোর্ট করা",
+      "en": "to report",
+      "pos": "verb",
+      "example": {
+        "ko": "문제가 있으면 감독자에게 보고하세요.",
+        "bn": "সমস্যা হলে প্রভানিকে রিপোর্ট করুন।",
+        "en": "Report to the supervisor if there is a problem."
+      }
+    },
+    {
+      "ko": "감독자",
+      "romanization": "gamdokja",
+      "bn": "পরিচালক/প্রভানি",
+      "en": "supervisor",
+      "pos": "noun",
+      "example": {
+        "ko": "감독자에게 확인을 받았습니다.",
+        "bn": "প্রভানির কাছে যাচাই করিয়েছি।",
+        "en": "I got confirmation from the supervisor."
+      }
+    },
+    {
+      "ko": "청소",
+      "romanization": "cheongso",
+      "bn": "পরিষ্কার করা",
+      "en": "cleaning",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "퇴근 전에 작업장 청소를 합시다.",
+        "bn": "ফুটানোর আগে কর্মস্থল পরিষ্কার করি।",
+        "en": "Let's clean the workplace before leaving."
+      }
+    },
+    {
+      "ko": "정리정돈",
+      "romanization": "jeongrijeongdon",
+      "bn": "গুছিয়ে রাখা",
+      "en": "tidying/organization",
+      "pos": "noun",
+      "example": {
+        "ko": "도구를 정리정돈하세요.",
+        "bn": "সরঞ্জামগুলো গুছিয়ে রাখুন।",
+        "en": "Organize the tools."
+      }
+    },
+    {
+      "ko": "소화기",
+      "romanization": "sohwagi",
+      "bn": "অগ্নিনির্বাপক",
+      "en": "fire extinguisher",
+      "pos": "noun",
+      "example": {
+        "ko": "소화기는 출입구 옆에 있습니다.",
+        "bn": "অগ্নিনির্বাপক প্রবেশ পথের পাশেই আছে।",
+        "en": "The fire extinguisher is next to the entrance."
+      }
+    },
+    {
+      "ko": "응급처치",
+      "romanization": "eung-geupcheochi",
+      "bn": "প্রাথমিক চিকিৎসা",
+      "en": "first aid",
+      "pos": "noun",
+      "example": {
+        "ko": "응급처치 키트를 어디에 두었나요?",
+        "bn": "প্রাথমিক চিকিৎসার কিট কোথায় রাখেছেন?",
+        "en": "Where did you put the first aid kit?"
+      }
+    },
+    {
+      "ko": "보고서",
+      "romanization": "bogoseo",
+      "bn": "রিপোর্ট/প্রতিবেদন",
+      "en": "report/document",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 점검 보고서를 작성하세요.",
+        "bn": "আজকের পরীক্ষা রিপোর্ট লেখুন।",
+        "en": "Please write today's inspection report."
+      }
+    },
+    {
+      "ko": "유지보수",
+      "romanization": "yujibosu",
+      "bn": "রক্ষণাবেক্ষণ",
+      "en": "maintenance",
+      "pos": "noun",
+      "example": {
+        "ko": "정기 유지보수가 필요합니다.",
+        "bn": "নিয়মিত রক্ষণাবেক্ষণ দরকার।",
+        "en": "Regular maintenance is needed."
+      }
+    },
+    {
+      "ko": "출근",
+      "romanization": "chulgeun",
+      "bn": "কর্মস্থলে আসা/কার্যকাল শুরু",
+      "en": "arrival to work/start work",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "출근 시간은 오전 8시입니다.",
+        "bn": "কাজে আসার সময় সকাল ৮টা।",
+        "en": "Work starts at 8 a.m."
+      }
+    },
+    {
+      "ko": "퇴근",
+      "romanization": "toegeun",
+      "bn": "কাজ শেষ করা/ফিরে যাওয়া",
+      "en": "leave work/end shift",
+      "pos": "noun/verb",
+      "example": {
+        "ko": "퇴근 전 장비를 끄세요.",
+        "bn": "ফুটানোর আগে যন্ত্র বন্ধ করুন।",
+        "en": "Turn off the equipment before leaving."
+      }
+    },
+    {
+      "ko": "교대근무",
+      "romanization": "gyodaegeunmu",
+      "bn": "পালতি কাজ",
+      "en": "shift work",
+      "pos": "noun",
+      "example": {
+        "ko": "내일은 교대근무예요.",
+        "bn": "আগামীকাল আমার পালতি কাজ আছে।",
+        "en": "I am on shift duty tomorrow."
+      }
+    },
+    {
+      "ko": "파손",
+      "romanization": "pason",
+      "bn": "ভাঙচুর/ক্ষতি",
+      "en": "damage/breakage",
+      "pos": "noun",
+      "example": {
+        "ko": "기계에 파손이 있습니다.",
+        "bn": "যন্ত্রে ক্ষতি হয়েছে।",
+        "en": "There is damage to the machine."
+      }
+    },
+    {
+      "ko": "회의",
+      "romanization": "hoe-ui",
+      "bn": "মিটিং/সভা",
+      "en": "meeting",
+      "pos": "noun",
+      "example": {
+        "ko": "오후에 안전 회의가 있습니다.",
+        "bn": "দুপুরে নিরাপত্তা সভা আছে।",
+        "en": "There is a safety meeting in the afternoon."
+      }
+    },
+    {
+      "ko": "품질관리",
+      "romanization": "pumjil gwalli",
+      "bn": "গুণগত মান নিয়ন্ত্রণ",
+      "en": "quality control",
+      "pos": "noun",
+      "example": {
+        "ko": "품질관리는 매우 중요합니다.",
+        "bn": "গুণগত মান নিয়ন্ত্রণ খুবই গুরুত্বপূর্ণ।",
+        "en": "Quality control is very important."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "-아/어 주세요",
+      "titleBn": "অনুরোধ করা (-아/어 주세요)",
+      "explanationBn": "কোনো কাজ ভদ্রভাবে করতে বলার জন্য ব্যবহার করা হয়। উদাহরণ:\n1) 장비를 청소해 주세요. — দয়া করে যন্ত্র পরিষ্কার করুন।\n2) 보고서를 작성해 주세요. — রিপোর্ট লিখে দিন।",
+      "explanationEn": "Used to ask someone politely to do something.\nExamples:\n1) 장비를 청소해 주세요. — Please clean the equipment.\n2) 보고서를 작성해 주세요. — Please write the report.",
+      "examples": [
+        {
+          "ko": "장비를 청소해 주세요.",
+          "bn": "যন্ত্র পরিষ্কার করে দিন।",
+          "en": "Please clean the equipment."
+        },
+        {
+          "ko": "문제가 있으면 보고해 주세요.",
+          "bn": "সমস্যা থাকলে রিপোর্ট করে দিন।",
+          "en": "Please report if there is a problem."
+        }
+      ]
+    },
+    {
+      "pattern": "-아/어야 하다",
+      "titleBn": "প্রয়োজন বা বাধ্যবাধকতা (-아/어야 하다)",
+      "explanationBn": "কোনো কাজ করা আবশ্যক বোঝাতে ব্যবহৃত হয়। উদাহরণ:\n1) 안전 장비를 착용해야 합니다. — নিরাপত্তা সরঞ্জাম পরা উচিত।\n2) 매일 점검해야 해요. — প্রতিদিন পরীক্ষা করতে হবে।",
+      "explanationEn": "Expresses necessity or obligation.\nExamples:\n1) 안전 장비를 착용해야 합니다. — You must wear safety equipment.\n2) 매일 점검해야 해요. — You have to check every day.",
+      "examples": [
+        {
+          "ko": "안전 장비를 착용해야 합니다.",
+          "bn": "নিরাপত্তা সরঞ্জাম পরতে হবে।",
+          "en": "You must wear safety equipment."
+        },
+        {
+          "ko": "문제를 즉시 보고해야 해요.",
+          "bn": "সমস্যা দ্রুত রিপোর্ট করতে হবে।",
+          "en": "You must report problems immediately."
+        }
+      ]
+    },
+    {
+      "pattern": "-면 안 되다",
+      "titleBn": "নিষেধ জানানো (-면 안 되다)",
+      "explanationBn": "কোনো কাজ করা চলবে না বা অনুমতি নেই বোঝাতে ব্যবহার। উদাহরণ:\n1) 기계를 만지면 안 됩니다. — যন্ত্রটি হাতে নেবেন না।\n2) 흡연하면 안 돼요. — ধূমপান করা চলবে না।",
+      "explanationEn": "Used to express prohibition/not allowed.\nExamples:\n1) 기계를 만지면 안 됩니다. — You must not touch the machine.\n2) 흡연하면 안 돼요. — Smoking is not allowed.",
+      "examples": [
+        {
+          "ko": "기계를 만지면 안 됩니다.",
+          "bn": "যন্ত্র স্পর্শ করা যাবে না।",
+          "en": "Do not touch the machine."
+        },
+        {
+          "ko": "청소하지 않으면 안 돼요.",
+          "bn": "পরিষ্কার না করলে চলবে না।",
+          "en": "You must clean (it)."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "교대 시작 보고",
+      "titleEn": "Shift Start Report",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "안녕하세요. 오늘 교대 시작합니다.",
+          "bn": "নমস্কার। আজকে আমার পালতি শুরু হচ্ছে।",
+          "en": "Hello. I'm starting my shift today."
+        },
+        {
+          "speaker": "감독자",
+          "ko": "좋습니다. 장비 점검은 했어요?",
+          "bn": "ভালো। যন্ত্র পরীক্ষা করেছেন কি?",
+          "en": "Good. Did you check the equipment?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 점검했고 이상 없습니다.",
+          "bn": "হ্যাঁ, পরীক্ষা করেছি এবং কোনো সমস্যা নেই।",
+          "en": "Yes, I inspected it and there is no problem."
+        },
+        {
+          "speaker": "감독자",
+          "ko": "청소도 해 주세요. 보고서는 교대 후에 제출하세요.",
+          "bn": "পরিষ্কারেরও খেয়াল রাখুন। পালতি শেষ হলে রিপোর্ট জমা দিন।",
+          "en": "Also clean. Submit the report after your shift."
+        },
+        {
+          "speaker": "직원",
+          "ko": "알겠습니다. 수고하세요.",
+          "bn": "ঠিক আছে। আপনিও ভালো থাকুন।",
+          "en": "Understood. Take care."
+        }
+      ]
+    },
+    {
+      "titleBn": "장비 파손 보고",
+      "titleEn": "Reporting Equipment Damage",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "죄송합니다. 기계가 고장 났습니다.",
+          "bn": "দুঃখিত। যন্ত্রটি ভেঙে গেছে।",
+          "en": "Sorry. The machine is broken."
+        },
+        {
+          "speaker": "감독자",
+          "ko": "어디가 파손되었나요?",
+          "bn": "কোথায় ক্ষতি হয়েছে?",
+          "en": "Where is it damaged?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "벨트가 끊어졌습니다. 작동이 안 됩니다.",
+          "bn": "বেল্ট ছিঁড়ে গেছে। এটি কাজ করছে না।",
+          "en": "The belt is torn. It won't operate."
+        },
+        {
+          "speaker": "감독자",
+          "ko": "즉시 보고서를 작성하고 유지보수 팀에 연락하세요.",
+          "bn": "তৎক্ষণাৎ রিপোর্ট লিখুন এবং রক্ষণাবেক্ষণ টিমকে জানান।",
+          "en": "Write a report immediately and contact maintenance."
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 바로 하겠습니다.",
+          "bn": "ঠিক আছে, এখনই করব।",
+          "en": "Yes, I'll do it right away."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 '점검하다' এর সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "'점검하다'의 의미는 무엇인가요?",
+      "options": [
+        "পরীক্ষা করা/নিরীক্ষণ করা",
+        "পরিষ্কার করা",
+        "রিপোর্ট করা",
+        "বর্জ্য ফেলা"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "점검하다는 'পরীক্ষা করা/নিরীক্ষণ করা' মানে, যন্ত্র বা সিস্টেম পরীক্ষা করা।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "문장이 옳으면 알맞은 것을 고르세요: '소화기는 출입구 옆에 있습니다.'",
+      "questionKo": "Choose the correct meaning of the sentence.",
+      "options": [
+        "The office is next to the entrance.",
+        "The fire extinguisher is next to the entrance.",
+        "The meeting is next to the entrance.",
+        "The machine is next to the entrance."
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "소화기는 'fire extinguisher'। 문장은 '소화기는 출입구 옆에 있습니다' = 'The fire extinguisher is next to the entrance.'"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "어떤 문장은 금지 표현인가요?",
+      "questionKo": "Which sentence expresses prohibition?",
+      "options": [
+        "기계를 만지면 안 됩니다.",
+        "기계를 점검하세요.",
+        "기계를 청소해 주세요.",
+        "기계를 고치겠습니다."
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "'기계를 만지면 안 됩니다' 는 '-면 안 되다' 구조로 금지(ना করা) বোঝায়।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "보고서를 작성하세요. 이 문장에 맞는 요청 표현은?",
+      "questionKo": "Which is the polite request form?",
+      "options": [
+        "보고서를 작성한다.",
+        "보고서를 작성해 주세요.",
+        "보고서를 작성해야 한다.",
+        "보고서를 작성하면 안 된다."
+      ],
+      "pairs": [],
+      "answer": 1,
+      "explanationBn": "'작성해 주세요' 는 ভদ্র অনুরোধ, তাই সঠিক।"
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "questionBn": "다음 중 '유지보수'와 가장 가까운 의미의 단어는?",
+      "questionKo": "Choose the closest meaning to '유지보수'.",
+      "options": [
+        "청소",
+        "점검",
+        "관리",
+        "회의"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "유지보수는 'রক্ষণাবেক্ষণ' যা '관리' (management/maintenance) সঙ্গে সম্পর্কিত।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "빈칸 채우기: '문제가 있으면 _________에게 보고하세요.' 맞는 말은?",
+      "questionKo": "Fill in the blank: '문제가 있으면 _________에게 보고하세요.'",
+      "options": [
+        "감독자",
+        "청소",
+        "회의",
+        "파손"
+      ],
+      "pairs": [],
+      "answer": 0,
+      "explanationBn": "문맥상 '감독자에게 보고하세요'가 자연스럽다 (보고할 대상)."
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "빈칸 채우기: '퇴근 전 장비를 _________세요.' 어떤 동사가 맞나요?",
+      "questionKo": "Fill in the blank: '퇴근 전 장비를 _________세요.'",
+      "options": [
+        "보고",
+        "청소하",
+        "끄",
+        "파손"
+      ],
+      "pairs": [],
+      "answer": 2,
+      "explanationBn": "'장비를 끄세요.' = 'turn off the equipment'가 자연스럽다."
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "questionBn": "빈칸 채우기: '소화기는 출입구 ___에 있습니다.' 옳은 조사는?",
+      "questionKo": "Fill in the blank: '소화기는 출입구 ___에 있습니다.'",
+      "options": [
+        "을",
+        "에서",
+        "옆",
+        "옆에"
+      ],
+      "pairs": [],
+      "answer": 3,
+      "explanationBn": "정확한 표현은 '출입구 옆에' 이다 (위치)."
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "다음 단어와 বাংলা 뜻을 연결하세요.",
+      "questionKo": "Match the Korean words with Bengali meanings.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "청소",
+          "right": "পরিষ্কার করা"
+        },
+        {
+          "left": "점검하다",
+          "right": "পরীক্ষা করা/নিরীক্ষণ করা"
+        },
+        {
+          "left": "소화기",
+          "right": "অগ্নিনির্বাপক"
+        },
+        {
+          "left": "보고서",
+          "right": "রিপোর্ট/প্রতিবেদন"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি কোরিয়ান শব্দের বাংলা অর্থ মিলানো হয়েছে।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "다음 작업장 관련 단어와 বাংলা 뜻을 연결하세요.",
+      "questionKo": "Match the workplace-related words with Bengali meanings.",
+      "options": [],
+      "pairs": [
+        {
+          "left": "유지보수",
+          "right": "রক্ষণাবেক্ষণ"
+        },
+        {
+          "left": "안전",
+          "right": "নিরাপত্তা"
+        },
+        {
+          "left": "교대근무",
+          "right": "পালতি কাজ"
+        },
+        {
+          "left": "파손",
+          "right": "ক্ষতি"
+        },
+        {
+          "left": "품질관리",
+          "right": "গুণগত মান নিয়ন্ত্রণ"
+        }
+      ],
+      "answer": 0,
+      "explanationBn": "প্রতিটি শব্দের সাথে সঠিক বাংলা অনুবাদ দেওয়া আছে।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তর চয়ন করুন: '작업장은 항상 안전 규칙을 지켜야 합니다.' 이것의 의미 কী?",
+      "questionKo": "본문을 읽고 질문에 답하세요: '작업장은 항상 안전 규칙을 지켜야 합니다.' 의미는?",
+      "passage": "작업장은 항상 안전 규칙을 지켜야 합니다. 보호구를 착용하고 지정된 출입구를 사용하세요.",
+      "options": [
+        "작업장에서 규칙을 지키지 않아도 된다.",
+        "보호구를 착용해야 한다.",
+        "작업장은 집이다.",
+        "출근 시간이 없다."
+      ],
+      "answer": 1,
+      "explanationBn": "문장에 '보호구를 착용' 관련 추천이 있어 '보호구를 착용해야 한다'가 맞습니다।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "প্যাসেজ থেকে: '소화기는 출입구 옆에 있습니다.' 출입구 옆에는 무엇 আছে?",
+      "questionKo": "본문에서: '소화기는 출입구 옆에 있습니다.' 무엇이 있나요?",
+      "passage": "작업장 안내: 소화기는 출입구 옆에 있습니다. 응급처치 키트는 사무실에 보관합니다.",
+      "options": [
+        "응급처치 키트",
+        "화장실",
+        "소화기",
+        "회의실"
+      ],
+      "answer": 2,
+      "explanationBn": "문장에 직접 '소화기는 출입구 옆에 있습니다'라고 되어 있어 정답은 소화기।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "পাঠ থেকে সিদ্ধান্ত নিন: '유지보수가 필요합니다.' এর অর্থ কী?",
+      "questionKo": "본문을 보고 고르세요: '유지보수가 필요합니다.' 뜻은?",
+      "passage": "기계에 문제가 발견되었습니다. 정기 유지보수가 필요합니다. 작업을 중단하고 보고서를 작성하세요.",
+      "options": [
+        "장비를 즉시 버리세요.",
+        "장비 수리나 관리를 해야 한다.",
+        "회의를 시작하세요.",
+        "청소를 하지 마세요."
+      ],
+      "answer": 1,
+      "explanationBn": "유지보수는 'রক্ষণাবেক্ষণ' মানে, এটি মেরামত বা পরিচালনা করার প্রয়োজন।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "প্যাসেজের ভিত্তিতে: 교대근무 관련 문장 चुनুন।",
+      "questionKo": "본문을 보고 올바른 문장을 고르세요 (about shifts).",
+      "passage": "내일은 교대근무입니다. 새 직원은 오전 교대를 맡습니다. 교대 시 장비를 점검하세요.",
+      "options": [
+        "내일은 쉬는 날이다.",
+        "교대 시 장비 점검이 필요 없다.",
+        "내일은 교대근무이다.",
+        "교대근무는 밤에만 있다."
+      ],
+      "answer": 2,
+      "explanationBn": "본문에 '내일은 교대근무입니다'라고 명시되어 있어 3번이 맞습니다।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "পাঠ থেকে: '기계를 만지면 안 됩니다.' এই বাক্যটি কী বোঝায়?",
+      "questionKo": "본문을 읽고 의미를 고르세요: '기계를 만지면 안 됩니다.'",
+      "passage": "안전 규칙: 기계를 만지면 안 됩니다. 문제가 있으면 감독자에게 보고하세요.",
+      "options": [
+        "기계를 만져도 된다.",
+        "기계를 만지면 안 된다.",
+        "기계를 수리해야 한다.",
+        "기계를 옮기세요."
+      ],
+      "answer": 1,
+      "explanationBn": "'만지면 안 됩니다' মানে স্পষ্টভাবে 'ছোঁয়া যাবে না/না করা উচিত'।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শোনা স্ক্রিপ্ট অনুযায়ী: 누가 보고서를 쓰라고 말했나요?",
+      "questionKo": "다음 대화를 듣고 질문에 답하세요: '누가 보고서를 쓰라고 했나요?'",
+      "passage": "감독자: 즉시 보고서를 작성하고 유지보수에 연락하세요.\n직원: 알겠습니다.",
+      "options": [
+        "직원",
+        "감독자",
+        "유지보수팀",
+        "회의참석자"
+      ],
+      "answer": 1,
+      "explanationBn": "스크립트에서 감독자가 '보고서를 작성하라'고 명령했습니다।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শোনা স্ক্রিপ্ট অনুযায়ী: 장비가 고장난 이유는 무엇인가요?",
+      "questionKo": "대화를 듣고 고장을 일으킨 원인을 고르세요.",
+      "passage": "직원: 벨트가 끊어졌습니다. 작동이 안 됩니다.\n감독자: 유지보수에 연락하세요.",
+      "options": [
+        "전원이 꺼져서",
+        "벨트가 끊어져서",
+        "청소를 안 해서",
+        "소화기를 사용해서"
+      ],
+      "answer": 1,
+      "explanationBn": "직원이 '벨트가 끊어졌습니다'라고 말했으므로 이유는 벨트 파손।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "শোনা স্ক্রিপ্ট অনুযায়ী: 누구에게 연락하라고 했나요?",
+      "questionKo": "다음 음성을 듣고 누구에게 연락하라는지 고르세요.",
+      "passage": "감독자: 즉시 유지보수 팀에 연락하세요.\n직원: 네, 지금 연락하겠습니다.",
+      "options": [
+        "사무실",
+        "유지보수 팀",
+        "회의실",
+        "보안"
+      ],
+      "answer": 1,
+      "explanationBn": "스크립트에서 감독자가 '유지보수 팀에 연락하세요'라고 분명히 말했습니다।"
+    }
+  ]
+}
