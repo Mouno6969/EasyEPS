@@ -1,0 +1,679 @@
+{
+  "chapter": 14,
+  "slug": "getting-directions",
+  "title": {
+    "ko": "길 찾기",
+    "bn": "পথ জিজ্ঞাসা ও দিকনির্দেশ",
+    "en": "Getting Directions"
+  },
+  "category": "daily-life",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "দিক ও অবস্থান সম্পর্কে জানা",
+      "রাস্তা বা পথ জিজ্ঞাসা করতে শেখা",
+      "দিকনির্দেশনা দিতে শেখা"
+    ],
+    "en": [
+      "Learn about directions and locations",
+      "Learn how to ask for directions",
+      "Learn how to give directions"
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "길",
+      "romanization": "gil",
+      "bn": "পথ/রাস্তা",
+      "en": "path/street",
+      "pos": "noun",
+      "example": {
+        "ko": "이 길이 맞아요?",
+        "bn": "এই রাস্তাটি কি ঠিক?",
+        "en": "Is this the right street?"
+      }
+    },
+    {
+      "ko": "찾다",
+      "romanization": "chatda",
+      "bn": "খোঁজা",
+      "en": "to find/look for",
+      "pos": "verb",
+      "example": {
+        "ko": "무엇을 찾고 있어요?",
+        "bn": "আপনি কী খুঁজছেন?",
+        "en": "What are you looking for?"
+      }
+    },
+    {
+      "ko": "앞",
+      "romanization": "ap",
+      "bn": "সামনে",
+      "en": "front",
+      "pos": "noun",
+      "example": {
+        "ko": "앞으로 가세요.",
+        "bn": "সামনের দিকে যান।",
+        "en": "Go forward."
+      }
+    },
+    {
+      "ko": "뒤",
+      "romanization": "dwi",
+      "bn": "পিছনে",
+      "en": "back/behind",
+      "pos": "noun",
+      "example": {
+        "ko": "건물 뒤에 주차장이 있어요.",
+        "bn": "ভবনের পিছনে পার্কিং লট আছে।",
+        "en": "There is a parking lot behind the building."
+      }
+    },
+    {
+      "ko": "옆",
+      "romanization": "yeop",
+      "bn": "পাশে",
+      "en": "side/beside",
+      "pos": "noun",
+      "example": {
+        "ko": "제 옆에 앉으세요.",
+        "bn": "আমার পাশে বসুন।",
+        "en": "Please sit beside me."
+      }
+    },
+    {
+      "ko": "위",
+      "romanization": "wi",
+      "bn": "উপরে",
+      "en": "top/above",
+      "pos": "noun",
+      "example": {
+        "ko": "책상 위에 책이 있어요.",
+        "bn": "টেবিলের উপরে বই আছে।",
+        "en": "There is a book on the desk."
+      }
+    },
+    {
+      "ko": "아래",
+      "romanization": "arae",
+      "bn": "নিচে",
+      "en": "bottom/below",
+      "pos": "noun",
+      "example": {
+        "ko": "의자 아래에 가방이 있어요.",
+        "bn": "চেয়ারের নিচে ব্যাগ আছে।",
+        "en": "There is a bag under the chair."
+      }
+    },
+    {
+      "ko": "안",
+      "romanization": "an",
+      "bn": "ভিতরে",
+      "en": "inside",
+      "pos": "noun",
+      "example": {
+        "ko": "방 안에 사람이 있어요.",
+        "bn": "রুমের ভিতরে মানুষ আছে।",
+        "en": "There is a person inside the room."
+      }
+    },
+    {
+      "ko": "밖",
+      "romanization": "bak",
+      "bn": "বাইরে",
+      "en": "outside",
+      "pos": "noun",
+      "example": {
+        "ko": "밖에 비가 와요.",
+        "bn": "বাইরে বৃষ্টি হচ্ছে।",
+        "en": "It is raining outside."
+      }
+    },
+    {
+      "ko": "오른쪽",
+      "romanization": "oreunjjok",
+      "bn": "ডান দিক",
+      "en": "right side",
+      "pos": "noun",
+      "example": {
+        "ko": "오른쪽으로 가세요.",
+        "bn": "ডান দিকে যান।",
+        "en": "Go to the right."
+      }
+    },
+    {
+      "ko": "왼쪽",
+      "romanization": "oenjjok",
+      "bn": "বাম দিক",
+      "en": "left side",
+      "pos": "noun",
+      "example": {
+        "ko": "왼쪽으로 도세요.",
+        "bn": "বাম দিকে ঘুরুন।",
+        "en": "Turn to the left."
+      }
+    },
+    {
+      "ko": "똑바로",
+      "romanization": "ttokbaro",
+      "bn": "সোজা",
+      "en": "straight",
+      "pos": "adverb",
+      "example": {
+        "ko": "똑바로 가세요.",
+        "bn": "সোজা যান।",
+        "en": "Go straight."
+      }
+    },
+    {
+      "ko": "건너편",
+      "romanization": "geonneopyeon",
+      "bn": "বিপরীত দিকে/ওপারে",
+      "en": "opposite side/across",
+      "pos": "noun",
+      "example": {
+        "ko": "길 건너편에 은행이 있어요.",
+        "bn": "রাস্তার ওপারে ব্যাংক আছে।",
+        "en": "There is a bank across the street."
+      }
+    },
+    {
+      "ko": "근처",
+      "romanization": "geuncheo",
+      "bn": "কাছাকাছি/আশেপাশে",
+      "en": "nearby/vicinity",
+      "pos": "noun",
+      "example": {
+        "ko": "이 근처에 식당이 있어요?",
+        "bn": "এই আশেপাশে কি রেস্তোরাঁ আছে?",
+        "en": "Is there a restaurant nearby?"
+      }
+    },
+    {
+      "ko": "은행",
+      "romanization": "eunhaeng",
+      "bn": "ব্যাংক",
+      "en": "bank",
+      "pos": "noun",
+      "example": {
+        "ko": "은행에서 돈을 찾아요.",
+        "bn": "ব্যাংক থেকে টাকা তুলি।",
+        "en": "I withdraw money from the bank."
+      }
+    },
+    {
+      "ko": "병원",
+      "romanization": "byeongwon",
+      "bn": "হাসপাতাল",
+      "en": "hospital",
+      "pos": "noun",
+      "example": {
+        "ko": "아파서 병원에 가요.",
+        "bn": "অসুস্থ হওয়ায় হাসপাতালে যাই।",
+        "en": "I go to the hospital because I am sick."
+      }
+    },
+    {
+      "ko": "약국",
+      "romanization": "yakguk",
+      "bn": "ফার্মেসি",
+      "en": "pharmacy",
+      "pos": "noun",
+      "example": {
+        "ko": "약국에서 약을 사요.",
+        "bn": "ফার্মেসি থেকে ওষুধ কিনি।",
+        "en": "I buy medicine at the pharmacy."
+      }
+    },
+    {
+      "ko": "우체국",
+      "romanization": "ucheguk",
+      "bn": "ডাকঘর",
+      "en": "post office",
+      "pos": "noun",
+      "example": {
+        "ko": "우체국에서 편지를 보내요.",
+        "bn": "ডাকঘর থেকে চিঠি পাঠাই।",
+        "en": "I send a letter at the post office."
+      }
+    },
+    {
+      "ko": "편의점",
+      "romanization": "pyeonuijeom",
+      "bn": "কনভেনিয়েন্স স্টোর",
+      "en": "convenience store",
+      "pos": "noun",
+      "example": {
+        "ko": "편의점에서 물을 사요.",
+        "bn": "কনভেনিয়েন্স স্টোর থেকে পানি কিনি।",
+        "en": "I buy water at the convenience store."
+      }
+    },
+    {
+      "ko": "지하철역",
+      "romanization": "jihacheollyeok",
+      "bn": "সাবওয়ে স্টেশন",
+      "en": "subway station",
+      "pos": "noun",
+      "example": {
+        "ko": "지하철역이 어디에 있어요?",
+        "bn": "সাবওয়ে স্টেশন কোথায়?",
+        "en": "Where is the subway station?"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "N + (으)로",
+      "titleBn": "দিক বা গন্তব্য নির্দেশক",
+      "explanationBn": "কোনো নির্দিষ্ট দিক বা গন্তব্যের দিকে যাওয়া বোঝাতে বিশেষ্যের সাথে '(으)로' যুক্ত হয়। বিশেষ্যটি ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '으로' এবং স্বরবর্ণ বা 'ㄹ' দিয়ে শেষ হলে '로' বসে।",
+      "explanationEn": "Used to indicate direction or destination. '으로' is used after a consonant, and '로' is used after a vowel or 'ㄹ'.",
+      "examples": [
+        {
+          "ko": "오른쪽으로 가세요.",
+          "bn": "ডান দিকে যান।",
+          "en": "Go to the right."
+        },
+        {
+          "ko": "앞으로 가세요.",
+          "bn": "সামনের দিকে যান।",
+          "en": "Go forward."
+        },
+        {
+          "ko": "서울로 가요.",
+          "bn": "সিউলের দিকে যাই।",
+          "en": "I am going to Seoul."
+        }
+      ]
+    },
+    {
+      "pattern": "N + 에 있다/없다",
+      "titleBn": "অবস্থান নির্দেশক",
+      "explanationBn": "কোনো ব্যক্তি বা বস্তুর অবস্থান বোঝাতে জায়গার নামের সাথে '에' যুক্ত হয়ে '있다' (আছে) বা '없다' (নেই) ব্যবহৃত হয়।",
+      "explanationEn": "Used to indicate the location of a person or object. '에' is attached to a place noun followed by '있다' (to exist/be) or '없다' (not to exist/not to be).",
+      "examples": [
+        {
+          "ko": "은행이 병원 옆에 있어요.",
+          "bn": "ব্যাংকটি হাসপাতালের পাশে আছে।",
+          "en": "The bank is next to the hospital."
+        },
+        {
+          "ko": "약국이 이 근처에 없어요.",
+          "bn": "এই আশেপাশে কোনো ফার্মেসি নেই।",
+          "en": "There is no pharmacy nearby."
+        },
+        {
+          "ko": "가방이 책상 위에 있어요.",
+          "bn": "ব্যাগটি টেবিলের উপরে আছে।",
+          "en": "The bag is on the desk."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "রাস্তায় দিক জিজ্ঞাসা করা",
+      "titleEn": "Asking for directions on the street",
+      "lines": [
+        {
+          "speaker": "A",
+          "ko": "실례합니다. 이 근처에 은행이 있어요?",
+          "bn": "মাফ করবেন। এই আশেপাশে কি ব্যাংক আছে?",
+          "en": "Excuse me. Is there a bank nearby?"
+        },
+        {
+          "speaker": "B",
+          "ko": "네, 있어요.",
+          "bn": "হ্যাঁ, আছে।",
+          "en": "Yes, there is."
+        },
+        {
+          "speaker": "A",
+          "ko": "은행이 어디에 있어요?",
+          "bn": "ব্যাংকটি কোথায়?",
+          "en": "Where is the bank?"
+        },
+        {
+          "speaker": "B",
+          "ko": "저기 우체국 보이지요? 우체국 옆에 있어요.",
+          "bn": "ঐ যে ডাকঘর দেখতে পাচ্ছেন? ডাকঘরের পাশে আছে।",
+          "en": "Do you see the post office over there? It's next to the post office."
+        },
+        {
+          "speaker": "A",
+          "ko": "아, 네. 감사합니다.",
+          "bn": "আহ, হ্যাঁ। ধন্যবাদ।",
+          "en": "Ah, yes. Thank you."
+        }
+      ]
+    },
+    {
+      "titleBn": "নির্দিষ্ট স্থানে যাওয়ার পথ জিজ্ঞাসা করা",
+      "titleEn": "Asking for directions to a specific place",
+      "lines": [
+        {
+          "speaker": "A",
+          "ko": "약국이 어디에 있어요?",
+          "bn": "ফার্মেসি কোথায়?",
+          "en": "Where is the pharmacy?"
+        },
+        {
+          "speaker": "B",
+          "ko": "이 길로 똑바로 가세요.",
+          "bn": "এই রাস্তা দিয়ে সোজা যান।",
+          "en": "Go straight along this street."
+        },
+        {
+          "speaker": "A",
+          "ko": "그러면 약국이 있어요?",
+          "bn": "তাহলে কি ফার্মেসি পাওয়া যাবে?",
+          "en": "Then is there a pharmacy?"
+        },
+        {
+          "speaker": "B",
+          "ko": "네, 사거리가 나와요. 거기에서 오른쪽으로 가세요.",
+          "bn": "হ্যাঁ, একটি চৌরাস্তা আসবে। সেখান থেকে ডান দিকে যাবেন।",
+          "en": "Yes, an intersection will appear. Go to the right from there."
+        },
+        {
+          "speaker": "A",
+          "ko": "네, 알겠습니다. 고맙습니다.",
+          "bn": "হ্যাঁ, বুঝতে পেরেছি। ধন্যবাদ।",
+          "en": "Yes, I understand. Thank you."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "নিচের শব্দটির সঠিক অর্থ কোনটি? '오른쪽'",
+      "questionKo": "다음 단어의 알맞은 뜻을 고르십시오. '오른쪽'",
+      "options": [
+        "বাম দিক",
+        "ডান দিক",
+        "সোজা",
+        "পিছনে"
+      ],
+      "answer": 1,
+      "explanationBn": "'오른쪽' অর্থ ডান দিক।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "নিচের শব্দটির সঠিক অর্থ কোনটি? '똑바로'",
+      "questionKo": "다음 단어의 알맞은 뜻을 고르십시오. '똑바로'",
+      "options": [
+        "সোজা",
+        "উপরে",
+        "নিচে",
+        "বাইরে"
+      ],
+      "answer": 0,
+      "explanationBn": "'똑바로' অর্থ সোজা।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "'হাসপাতাল' এর কোরিয়ান শব্দ কোনটি?",
+      "questionKo": "다음 뜻에 알맞은 한국어 단어를 고르십시오. 'হাসপাতাল'",
+      "options": [
+        "은행",
+        "우체국",
+        "병원",
+        "약국"
+      ],
+      "answer": 2,
+      "explanationBn": "'হাসপাতাল' এর কোরিয়ান শব্দ হলো 병원।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "'সামনে' এর কোরিয়ান শব্দ কোনটি?",
+      "questionKo": "다음 뜻에 알맞은 한국어 단어를 고르십시오. 'সামনে'",
+      "options": [
+        "앞",
+        "뒤",
+        "옆",
+        "안"
+      ],
+      "answer": 0,
+      "explanationBn": "'সামনে' এর কোরিয়ান শব্দ হলো 앞।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "앞",
+        "뒤",
+        "옆",
+        "안"
+      ],
+      "answer": 2,
+      "explanationBn": "약국이 병원 옆에 있어요. (ফার্মেসিটি হাসপাতালের পাশে আছে।)"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "똑바로",
+        "오른쪽",
+        "왼쪽",
+        "건너편"
+      ],
+      "answer": 0,
+      "explanationBn": "이 길로 똑바로 가세요. (এই রাস্তা দিয়ে সোজা যান।)"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "options": [
+        "에",
+        "에서",
+        "으로",
+        "은"
+      ],
+      "answer": 2,
+      "explanationBn": "저기 사거리에서 왼쪽으로 가세요. (ঐ চৌরাস্তা থেকে বাম দিকে যান।) দিক বোঝাতে '으로/로' ব্যবহৃত হয়।"
+    },
+    {
+      "id": "p8",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "위",
+          "right": "উপরে"
+        },
+        {
+          "left": "아래",
+          "right": "নিচে"
+        },
+        {
+          "left": "앞",
+          "right": "সামনে"
+        },
+        {
+          "left": "뒤",
+          "right": "পিছনে"
+        }
+      ],
+      "explanationBn": "위 (উপরে), 아래 (নিচে), 앞 (সামনে), 뒤 (পিছনে)।"
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "은행",
+          "right": "ব্যাংক"
+        },
+        {
+          "left": "우체국",
+          "right": "ডাকঘর"
+        },
+        {
+          "left": "병원",
+          "right": "হাসপাতাল"
+        },
+        {
+          "left": "약국",
+          "right": "ফার্মেসি"
+        }
+      ],
+      "explanationBn": "은행 (ব্যাংক), 우체국 (ডাকঘর), 병원 (হাসপাতাল), 약국 (ফার্মেসি)।"
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "오른쪽",
+          "right": "ডান দিক"
+        },
+        {
+          "left": "왼쪽",
+          "right": "বাম দিক"
+        },
+        {
+          "left": "똑바로",
+          "right": "সোজা"
+        },
+        {
+          "left": "건너편",
+          "right": "বিপরীত দিকে"
+        }
+      ],
+      "explanationBn": "오른쪽 (ডান দিক), 왼쪽 (বাম দিক), 똑바로 (সোজা), 건너편 (বিপরীত দিকে)।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "ছবি দেখে সঠিক বাক্যটি বেছে নিন। (সোজা যাওয়ার নির্দেশ)",
+      "questionKo": "다음을 보고 알맞은 것을 고르십시오.",
+      "options": [
+        "앞으로 가세요.",
+        "뒤로 가세요.",
+        "오른쪽으로 가세요.",
+        "왼쪽으로 가세요."
+      ],
+      "answer": 0,
+      "explanationBn": "সোজা যাওয়ার নির্দেশ বোঝাতে '앞으로 가세요' (সামনের দিকে যান) ব্যবহৃত হয়।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "ছবি দেখে সঠিক বাক্যটি বেছে নিন। (ডান দিকে যাওয়ার নির্দেশ)",
+      "questionKo": "다음을 보고 알맞은 것을 고르십시오.",
+      "options": [
+        "앞으로 가세요.",
+        "뒤로 가세요.",
+        "오른쪽으로 가세요.",
+        "왼쪽으로 가세요."
+      ],
+      "answer": 2,
+      "explanationBn": "ডান দিকে যাওয়ার নির্দেশ বোঝাতে '오른쪽으로 가세요' (ডান দিকে যান) ব্যবহৃত হয়।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 이 근처에 우체국이 있어요?\n나: 네, 저기 은행 [    ]에 있어요.",
+      "options": [
+        "앞",
+        "뒤",
+        "옆",
+        "안"
+      ],
+      "answer": 2,
+      "explanationBn": "ব্যাংকের পাশে ডাকঘর আছে। তাই '옆' (পাশে) সঠিক উত্তর।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 약국이 어디에 있어요?\n나: 2층에 있어요. 계단으로 [    ] 올라가세요.",
+      "options": [
+        "위로",
+        "아래로",
+        "앞으로",
+        "뒤로"
+      ],
+      "answer": 0,
+      "explanationBn": "২ তলায় যাওয়ার জন্য সিঁড়ি দিয়ে উপরে উঠতে হবে। তাই '위로' (উপরের দিকে) সঠিক উত্তর।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "অনুচ্ছেদটি পড়ে প্রশ্নের উত্তর দিন।",
+      "questionKo": "다음을 읽고 물음에 답하십시오.",
+      "passage": "우리 회사는 지하철역 근처에 있습니다. 회사 건너편에는 우체국이 있습니다. 그리고 회사 옆에는 식당이 있습니다.\n\n질문: 회사 옆에 무엇이 있습니까?",
+      "options": [
+        "지하철역",
+        "우체국",
+        "식당",
+        "은행"
+      ],
+      "answer": 2,
+      "explanationBn": "অনুচ্ছেদে বলা হয়েছে '회사 옆에는 식당이 있습니다' (কোম্পানির পাশে রেস্তোরাঁ আছে)। তাই সঠিক উত্তর 식당 (রেস্তোরাঁ)।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "들은 것을 고르십시오.",
+      "passage": "앞으로 가세요.",
+      "options": [
+        "앞으로 가세요.",
+        "뒤로 가세요.",
+        "오른쪽으로 가세요.",
+        "왼쪽으로 가세요."
+      ],
+      "answer": 0,
+      "explanationBn": "অডিওতে '앞으로 가세요' (সামনের দিকে যান) বলা হয়েছে।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "কথোপকথনটি শুনে প্রশ্নের উত্তর দিন।",
+      "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "passage": "가: 은행이 어디에 있어요?\n나: 지하 1층에 있어요. 아래로 내려가세요.\n\n질문: 은행은 어디에 있습니까?",
+      "options": [
+        "1층",
+        "2층",
+        "지하 1층",
+        "지하 2층"
+      ],
+      "answer": 2,
+      "explanationBn": "কথোপকথনে বলা হয়েছে ব্যাংকটি '지하 1층' (বেসমেন্ট ১) এ আছে।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "কথোপকথনটি শুনে প্রশ্নের উত্তর দিন।",
+      "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "passage": "가: 실례합니다. 약국이 어디에 있어요?\n나: 저기 병원 보이지요? 병원 옆에 있어요.\n\n질문: 약국은 어디에 있습니까?",
+      "options": [
+        "병원 앞",
+        "병원 뒤",
+        "병원 옆",
+        "병원 안"
+      ],
+      "answer": 2,
+      "explanationBn": "কথোপকথনে বলা হয়েছে ফার্মেসিটি '병원 옆' (হাসপাতালের পাশে) আছে।"
+    }
+  ]
+}

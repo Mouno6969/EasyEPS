@@ -1,0 +1,633 @@
+{
+  "chapter": 1,
+  "slug": "self-introduction",
+  "title": {
+    "ko": "자기소개",
+    "bn": "নিজের পরিচয়",
+    "en": "Self Introduction"
+  },
+  "category": "daily-life",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "নিজের পরিচয় দিতে পারা",
+      "দেশ ও পেশা সম্পর্কে কথা বলতে পারা",
+      "প্রাথমিক অভিবাদন বিনিময় করতে পারা"
+    ],
+    "en": [
+      "Being able to introduce oneself",
+      "Being able to talk about country and occupation",
+      "Being able to exchange basic greetings"
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "이름",
+      "romanization": "ireum",
+      "bn": "নাম",
+      "en": "name",
+      "pos": "noun",
+      "example": {
+        "ko": "제 이름은 라힘입니다.",
+        "bn": "আমার নাম রহিম।",
+        "en": "My name is Rahim."
+      }
+    },
+    {
+      "ko": "나라",
+      "romanization": "nara",
+      "bn": "দেশ",
+      "en": "country",
+      "pos": "noun",
+      "example": {
+        "ko": "어느 나라 사람입니까?",
+        "bn": "আপনি কোন দেশের মানুষ?",
+        "en": "Which country are you from?"
+      }
+    },
+    {
+      "ko": "사람",
+      "romanization": "saram",
+      "bn": "মানুষ",
+      "en": "person",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 방글라데시 사람입니다.",
+        "bn": "আমি বাংলাদেশি।",
+        "en": "I am Bangladeshi."
+      }
+    },
+    {
+      "ko": "직업",
+      "romanization": "jigeop",
+      "bn": "পেশা",
+      "en": "occupation",
+      "pos": "noun",
+      "example": {
+        "ko": "직업이 무엇입니까?",
+        "bn": "আপনার পেশা কী?",
+        "en": "What is your occupation?"
+      }
+    },
+    {
+      "ko": "회사원",
+      "romanization": "hoesawon",
+      "bn": "চাকরিজীবী",
+      "en": "office worker",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 회사원입니다.",
+        "bn": "আমি চাকরিজীবী।",
+        "en": "I am an office worker."
+      }
+    },
+    {
+      "ko": "학생",
+      "romanization": "haksaeng",
+      "bn": "ছাত্র/ছাত্রী",
+      "en": "student",
+      "pos": "noun",
+      "example": {
+        "ko": "학생입니까?",
+        "bn": "আপনি কি ছাত্র?",
+        "en": "Are you a student?"
+      }
+    },
+    {
+      "ko": "의사",
+      "romanization": "uisa",
+      "bn": "ডাক্তার",
+      "en": "doctor",
+      "pos": "noun",
+      "example": {
+        "ko": "제 친구는 의사입니다.",
+        "bn": "আমার বন্ধু একজন ডাক্তার।",
+        "en": "My friend is a doctor."
+      }
+    },
+    {
+      "ko": "선생님",
+      "romanization": "seonsaengnim",
+      "bn": "শিক্ষক",
+      "en": "teacher",
+      "pos": "noun",
+      "example": {
+        "ko": "선생님, 안녕하세요?",
+        "bn": "শিক্ষক, নমস্কার?",
+        "en": "Teacher, hello?"
+      }
+    },
+    {
+      "ko": "방글라데시",
+      "romanization": "banggeulladesi",
+      "bn": "বাংলাদেশ",
+      "en": "Bangladesh",
+      "pos": "noun",
+      "example": {
+        "ko": "방글라데시 사람입니다.",
+        "bn": "আমি বাংলাদেশি।",
+        "en": "I am Bangladeshi."
+      }
+    },
+    {
+      "ko": "한국",
+      "romanization": "hanguk",
+      "bn": "কোরিয়া",
+      "en": "Korea",
+      "pos": "noun",
+      "example": {
+        "ko": "한국에 갑니다.",
+        "bn": "কোরিয়াতে যাই।",
+        "en": "I go to Korea."
+      }
+    },
+    {
+      "ko": "네팔",
+      "romanization": "nepal",
+      "bn": "নেপাল",
+      "en": "Nepal",
+      "pos": "noun",
+      "example": {
+        "ko": "네팔 사람입니다.",
+        "bn": "আমি নেপালি।",
+        "en": "I am Nepali."
+      }
+    },
+    {
+      "ko": "인사",
+      "romanization": "insa",
+      "bn": "অভিবাদন",
+      "en": "greeting",
+      "pos": "noun",
+      "example": {
+        "ko": "인사를 합니다.",
+        "bn": "অভিবাদন জানাই।",
+        "en": "I give a greeting."
+      }
+    },
+    {
+      "ko": "안녕하다",
+      "romanization": "annyeonghada",
+      "bn": "ভালো থাকা (কুশল বিনিময়)",
+      "en": "to be well (greeting)",
+      "pos": "adjective",
+      "example": {
+        "ko": "안녕하세요?",
+        "bn": "নমস্কার/আসসালামু আলাইকুম?",
+        "en": "Hello?"
+      }
+    },
+    {
+      "ko": "만나다",
+      "romanization": "mannada",
+      "bn": "দেখা করা",
+      "en": "to meet",
+      "pos": "verb",
+      "example": {
+        "ko": "친구를 만납니다.",
+        "bn": "বন্ধুর সাথে দেখা করি।",
+        "en": "I meet a friend."
+      }
+    },
+    {
+      "ko": "반갑다",
+      "romanization": "bangapda",
+      "bn": "আনন্দিত হওয়া",
+      "en": "to be glad",
+      "pos": "adjective",
+      "example": {
+        "ko": "만나서 반갑습니다.",
+        "bn": "আপনার সাথে দেখা হয়ে ভালো লাগলো।",
+        "en": "Nice to meet you."
+      }
+    },
+    {
+      "ko": "네",
+      "romanization": "ne",
+      "bn": "হ্যাঁ",
+      "en": "yes",
+      "pos": "expression",
+      "example": {
+        "ko": "네, 학생입니다.",
+        "bn": "হ্যাঁ, আমি ছাত্র।",
+        "en": "Yes, I am a student."
+      }
+    },
+    {
+      "ko": "아니요",
+      "romanization": "aniyo",
+      "bn": "না",
+      "en": "no",
+      "pos": "expression",
+      "example": {
+        "ko": "아니요, 회사원입니다.",
+        "bn": "না, আমি চাকরিজীবী।",
+        "en": "No, I am an office worker."
+      }
+    },
+    {
+      "ko": "저",
+      "romanization": "jeo",
+      "bn": "আমি (বিনীত)",
+      "en": "I (humble)",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 라힘입니다.",
+        "bn": "আমি রহিম।",
+        "en": "I am Rahim."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "N + 입니다",
+      "titleBn": "입니다 (হয়/আছি)",
+      "explanationBn": "এটি বিশেষ্যের পরে বসে বাক্য শেষ করতে ব্যবহৃত হয়। এটি একটি আনুষ্ঠানিক এবং বিনীত রূপ।",
+      "explanationEn": "Used after a noun to end a sentence. It is a formal and polite form.",
+      "examples": [
+        {
+          "ko": "저는 방글라데시 사람입니다.",
+          "bn": "আমি বাংলাদেশি।",
+          "en": "I am Bangladeshi."
+        },
+        {
+          "ko": "제 이름은 라힘입니다.",
+          "bn": "আমার নাম রহিম।",
+          "en": "My name is Rahim."
+        }
+      ]
+    },
+    {
+      "pattern": "N + 입니까?",
+      "titleBn": "입니까? (কি?)",
+      "explanationBn": "এটি '입니다'-এর প্রশ্নবোধক রূপ। বিশেষ্যের পরে বসে প্রশ্ন করতে ব্যবহৃত হয়।",
+      "explanationEn": "The interrogative form of '입니다'. Used after a noun to ask a question.",
+      "examples": [
+        {
+          "ko": "학생입니까?",
+          "bn": "আপনি কি ছাত্র?",
+          "en": "Are you a student?"
+        },
+        {
+          "ko": "회사원입니까?",
+          "bn": "আপনি কি চাকরিজীবী?",
+          "en": "Are you an office worker?"
+        }
+      ]
+    },
+    {
+      "pattern": "N + 은/는",
+      "titleBn": "은/는 (টপিক মার্কার)",
+      "explanationBn": "বাক্যের মূল বিষয়বস্তু বা টপিক নির্দেশ করতে বিশেষ্যের পরে বসে। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '은' এবং স্বরবর্ণ দিয়ে শেষ হলে '는' বসে।",
+      "explanationEn": "Topic marker attached to a noun. '은' is used after a consonant, and '는' is used after a vowel.",
+      "examples": [
+        {
+          "ko": "저는 라힘입니다.",
+          "bn": "আমি রহিম।",
+          "en": "I am Rahim."
+        },
+        {
+          "ko": "제 이름은 수잔입니다.",
+          "bn": "আমার নাম সুজন।",
+          "en": "My name is Sujan."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "প্রথম সাক্ষাৎ",
+      "titleEn": "First Meeting",
+      "lines": [
+        {
+          "speaker": "라힘",
+          "ko": "안녕하세요?",
+          "bn": "নমস্কার/আসসালামু আলাইকুম?",
+          "en": "Hello?"
+        },
+        {
+          "speaker": "민수",
+          "ko": "안녕하세요? 저는 민수입니다.",
+          "bn": "নমস্কার/আসসালামু আলাইকুম? আমি মিনসু।",
+          "en": "Hello? I am Minsu."
+        },
+        {
+          "speaker": "라힘",
+          "ko": "만나서 반갑습니다. 저는 라힘입니다.",
+          "bn": "আপনার সাথে দেখা হয়ে ভালো লাগলো। আমি রহিম।",
+          "en": "Nice to meet you. I am Rahim."
+        },
+        {
+          "speaker": "민수",
+          "ko": "네, 반갑습니다.",
+          "bn": "হ্যাঁ, আমারও ভালো লাগলো।",
+          "en": "Yes, nice to meet you too."
+        }
+      ]
+    },
+    {
+      "titleBn": "দেশ ও পেশা সম্পর্কে জিজ্ঞাসা",
+      "titleEn": "Asking about Country and Occupation",
+      "lines": [
+        {
+          "speaker": "수잔",
+          "ko": "어느 나라 사람입니까?",
+          "bn": "আপনি কোন দেশের মানুষ?",
+          "en": "Which country are you from?"
+        },
+        {
+          "speaker": "라힘",
+          "ko": "방글라데시 사람입니다.",
+          "bn": "আমি বাংলাদেশি।",
+          "en": "I am Bangladeshi."
+        },
+        {
+          "speaker": "수잔",
+          "ko": "학생입니까?",
+          "bn": "আপনি কি ছাত্র?",
+          "en": "Are you a student?"
+        },
+        {
+          "speaker": "라힘",
+          "ko": "아니요, 회사원입니다.",
+          "bn": "না, আমি চাকরিজীবী।",
+          "en": "No, I am an office worker."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 저는 방글라데시 [ ___ ].",
+      "options": [
+        "사람입니다",
+        "이름입니다",
+        "직업입니다",
+        "나라입니다"
+      ],
+      "answer": 0,
+      "explanationBn": "방글라데시 (বাংলাদেশ) এর পরে 사람 (মানুষ) বসবে। তাই সঠিক উত্তর 사람입니다 (মানুষ/অধিবাসী)।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 제 [ ___ ]은 라힘입니다.",
+      "options": [
+        "나라",
+        "이름",
+        "직업",
+        "사람"
+      ],
+      "answer": 1,
+      "explanationBn": "라힘 (রহিম) একটি নাম। তাই সঠিক উত্তর 이름 (নাম)।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোনটি পেশা বোঝায়?",
+      "options": [
+        "한국",
+        "인사",
+        "회사원",
+        "이름"
+      ],
+      "answer": 2,
+      "explanationBn": "회사원 মানে চাকরিজীবী, যা একটি পেশা। 한국 (কোরিয়া), 인사 (অভিবাদন), 이름 (নাম)।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক উত্তরটি বেছে নিন: 가: 어느 나라 사람입니까? 나: [ ___ ].",
+      "options": [
+        "네, 학생입니다",
+        "방글라데시 사람입니다",
+        "만나서 반갑습니다",
+        "제 이름은 수잔입니다"
+      ],
+      "answer": 1,
+      "explanationBn": "প্রশ্ন করা হয়েছে 'কোন দেশের মানুষ?' তাই উত্তর হবে '방글라데시 사람입니다' (আমি বাংলাদেশি)।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক ব্যাকরণ বসান: 저[ ___ ] 학생입니다.",
+      "options": [
+        "은",
+        "는",
+        "이",
+        "가"
+      ],
+      "answer": 1,
+      "explanationBn": "저 স্বরবর্ণ দিয়ে শেষ হয়েছে, তাই টপিক মার্কার হিসেবে '는' বসবে।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 가: 학생입니까? 나: [ ___ ], 회사원입니다.",
+      "options": [
+        "네",
+        "아니요",
+        "안녕",
+        "반갑습니다"
+      ],
+      "answer": 1,
+      "explanationBn": "যেহেতু সে ছাত্র নয়, চাকরিজীবী, তাই উত্তর হবে '아니요' (না)।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 만나서 [ ___ ].",
+      "options": [
+        "안녕하세요",
+        "반갑습니다",
+        "입니까",
+        "입니다"
+      ],
+      "answer": 1,
+      "explanationBn": "কারো সাথে দেখা হলে '만나서 반갑습니다' (দেখা হয়ে ভালো লাগলো) বলা হয়।"
+    },
+    {
+      "id": "p8",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "pairs": [
+        {
+          "left": "이름",
+          "right": "নাম"
+        },
+        {
+          "left": "나라",
+          "right": "দেশ"
+        },
+        {
+          "left": "직업",
+          "right": "পেশা"
+        },
+        {
+          "left": "사람",
+          "right": "মানুষ"
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "পেশার সাথে সঠিক বাংলা অর্থ মিলান।",
+      "pairs": [
+        {
+          "left": "의사",
+          "right": "ডাক্তার"
+        },
+        {
+          "left": "선생님",
+          "right": "শিক্ষক"
+        },
+        {
+          "left": "학생",
+          "right": "ছাত্র/ছাত্রী"
+        },
+        {
+          "left": "회사원",
+          "right": "চাকরিজীবী"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক উত্তরটি বেছে নিন: 가: 안녕하세요? 나: [ ___ ].",
+      "options": [
+        "네, 반갑습니다",
+        "안녕하세요",
+        "방글라데시 사람입니다",
+        "아니요, 학생입니다"
+      ],
+      "answer": 1,
+      "explanationBn": "কেউ '안녕하세요?' বললে উত্তরেও '안녕하세요?' বলতে হয়।"
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন।",
+      "questionKo": "다음 그림을 보고 맞는 단어를 고르십시오.",
+      "passage": "[의사 그림]",
+      "options": [
+        "학생",
+        "선생님",
+        "회사원",
+        "의사"
+      ],
+      "answer": 3,
+      "explanationBn": "ছবিতে একজন ডাক্তার দেখা যাচ্ছে। ডাক্তারের কোরিয়ান হলো 의사।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বাছাই করুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 어느 나라 사람입니까?\n나: _________________.",
+      "options": [
+        "방글라데시 사람입니다",
+        "학생입니다",
+        "제 이름은 라힘입니다",
+        "만나서 반갑습니다"
+      ],
+      "answer": 0,
+      "explanationBn": "প্রশ্ন করা হয়েছে '어느 나라 사람입니까?' (কোন দেশের মানুষ?)। তাই উত্তর হবে '방글라데시 사람입니다' (আমি বাংলাদেশি)।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বাছাই করুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: _________________\n나: 네, 회사원입니다.",
+      "options": [
+        "학생입니까?",
+        "회사원입니까?",
+        "어느 나라 사람입니까?",
+        "이름이 무엇입니까?"
+      ],
+      "answer": 1,
+      "explanationBn": "উত্তর দেওয়া হয়েছে '네, 회사원입니다' (হ্যাঁ, আমি চাকরিজীবী)। তাই প্রশ্নটি ছিল '회사원입니까?' (আপনি কি চাকরিজীবী?)।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বাছাই করুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "저는 방글라데시 사람입니다. 제 _________은/는 라힘입니다.",
+      "options": [
+        "이름",
+        "직업",
+        "나라",
+        "인사"
+      ],
+      "answer": 0,
+      "explanationBn": "라힘 (রহিম) একটি নাম। তাই শূন্যস্থানে 이름 (নাম) বসবে।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে প্রশ্নের উত্তর দিন। 이 사람의 직업은 무엇입니까?",
+      "questionKo": "다음을 읽고 물음에 답하십시오. 이 사람의 직업은 무엇입니까?",
+      "passage": "안녕하세요? 제 이름은 수잔입니다. 저는 네팔 사람입니다. 저는 학생입니다. 만나서 반갑습니다.",
+      "options": [
+        "의사",
+        "선생님",
+        "학생",
+        "회사원"
+      ],
+      "answer": 2,
+      "explanationBn": "প্যাসেজে বলা হয়েছে '저는 학생입니다' (আমি ছাত্র)। তাই তার পেশা 학생 (ছাত্র)।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছাই করুন।",
+      "questionKo": "들은 것을 고르십시오.",
+      "passage": "방글라데시",
+      "options": [
+        "네팔",
+        "한국",
+        "방글라데시",
+        "몽골"
+      ],
+      "answer": 2,
+      "explanationBn": "অডিওতে '방글라데시' (বাংলাদেশ) বলা হয়েছে।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছাই করুন।",
+      "questionKo": "들은 것을 고르십시오.",
+      "passage": "선생님",
+      "options": [
+        "학생",
+        "선생님",
+        "회사원",
+        "의사"
+      ],
+      "answer": 1,
+      "explanationBn": "অডিওতে '선생님' (শিক্ষক) বলা হয়েছে।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "প্রশ্ন শুনে সঠিক উত্তরটি বাছাই করুন।",
+      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
+      "passage": "어느 나라 사람입니까?",
+      "options": [
+        "네, 학생입니다.",
+        "방글라데시 사람입니다.",
+        "만나서 반갑습니다.",
+        "제 이름은 라힘입니다."
+      ],
+      "answer": 1,
+      "explanationBn": "অডিওতে প্রশ্ন করা হয়েছে '어느 나라 사람입니까?' (কোন দেশের মানুষ?)। তাই সঠিক উত্তর '방글라데시 사람입니다' (আমি বাংলাদেশি)।"
+    }
+  ]
+}

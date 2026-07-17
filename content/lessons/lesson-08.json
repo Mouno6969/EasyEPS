@@ -1,0 +1,660 @@
+{
+  "chapter": 8,
+  "slug": "family-and-friends",
+  "title": {
+    "ko": "가족과 친구",
+    "bn": "পরিবার ও বন্ধু",
+    "en": "Family and Friends"
+  },
+  "category": "daily-life",
+  "level": "beginner",
+  "objectives": {
+    "bn": [
+      "পরিবারের সদস্যদের সম্পর্কে কথা বলতে শেখা",
+      "বন্ধুদের সম্পর্কে বর্ণনা করতে শেখা",
+      "কোরিয়ান ভাষায় 'এবং' ও 'সাথে' এর ব্যবহার শেখা"
+    ],
+    "en": [
+      "Learn to talk about family members",
+      "Learn to describe friends",
+      "Learn the use of 'and' and 'with' in Korean"
+    ]
+  },
+  "vocabulary": [
+    {
+      "ko": "가족",
+      "romanization": "gajok",
+      "bn": "পরিবার",
+      "en": "family",
+      "pos": "noun",
+      "example": {
+        "ko": "우리 가족은 네 명입니다.",
+        "bn": "আমাদের পরিবারে চারজন সদস্য।",
+        "en": "There are four members in our family."
+      }
+    },
+    {
+      "ko": "아버지",
+      "romanization": "abeoji",
+      "bn": "বাবা",
+      "en": "father",
+      "pos": "noun",
+      "example": {
+        "ko": "아버지는 회사원입니다.",
+        "bn": "বাবা একজন চাকরিজীবী।",
+        "en": "My father is an office worker."
+      }
+    },
+    {
+      "ko": "어머니",
+      "romanization": "eomeoni",
+      "bn": "মা",
+      "en": "mother",
+      "pos": "noun",
+      "example": {
+        "ko": "어머니는 요리를 잘하십니다.",
+        "bn": "মা ভালো রান্না করেন।",
+        "en": "My mother cooks well."
+      }
+    },
+    {
+      "ko": "형",
+      "romanization": "hyeong",
+      "bn": "বড় ভাই (ছেলেদের জন্য)",
+      "en": "older brother (for males)",
+      "pos": "noun",
+      "example": {
+        "ko": "형은 키가 큽니다.",
+        "bn": "বড় ভাই লম্বা।",
+        "en": "My older brother is tall."
+      }
+    },
+    {
+      "ko": "오빠",
+      "romanization": "oppa",
+      "bn": "বড় ভাই (মেয়েদের জন্য)",
+      "en": "older brother (for females)",
+      "pos": "noun",
+      "example": {
+        "ko": "오빠는 대학생입니다.",
+        "bn": "বড় ভাই বিশ্ববিদ্যালয়ের ছাত্র।",
+        "en": "My older brother is a university student."
+      }
+    },
+    {
+      "ko": "누나",
+      "romanization": "nuna",
+      "bn": "বড় বোন (ছেলেদের জন্য)",
+      "en": "older sister (for males)",
+      "pos": "noun",
+      "example": {
+        "ko": "누나는 예쁩니다.",
+        "bn": "বড় বোন সুন্দর।",
+        "en": "My older sister is pretty."
+      }
+    },
+    {
+      "ko": "언니",
+      "romanization": "eonni",
+      "bn": "বড় বোন (মেয়েদের জন্য)",
+      "en": "older sister (for females)",
+      "pos": "noun",
+      "example": {
+        "ko": "언니는 선생님입니다.",
+        "bn": "বড় বোন একজন শিক্ষিকা।",
+        "en": "My older sister is a teacher."
+      }
+    },
+    {
+      "ko": "동생",
+      "romanization": "dongsaeng",
+      "bn": "ছোট ভাই/বোন",
+      "en": "younger sibling",
+      "pos": "noun",
+      "example": {
+        "ko": "동생이 두 명 있습니다.",
+        "bn": "আমার দুইজন ছোট ভাই/বোন আছে।",
+        "en": "I have two younger siblings."
+      }
+    },
+    {
+      "ko": "남동생",
+      "romanization": "namdongsaeng",
+      "bn": "ছোট ভাই",
+      "en": "younger brother",
+      "pos": "noun",
+      "example": {
+        "ko": "남동생은 학생입니다.",
+        "bn": "ছোট ভাই একজন ছাত্র।",
+        "en": "My younger brother is a student."
+      }
+    },
+    {
+      "ko": "여동생",
+      "romanization": "yeodongsaeng",
+      "bn": "ছোট বোন",
+      "en": "younger sister",
+      "pos": "noun",
+      "example": {
+        "ko": "여동생은 귀엽습니다.",
+        "bn": "ছোট বোন কিউট।",
+        "en": "My younger sister is cute."
+      }
+    },
+    {
+      "ko": "할아버지",
+      "romanization": "harabeoji",
+      "bn": "দাদা/নানা",
+      "en": "grandfather",
+      "pos": "noun",
+      "example": {
+        "ko": "할아버지는 고향에 계십니다.",
+        "bn": "দাদা গ্রামের বাড়িতে আছেন।",
+        "en": "My grandfather is in our hometown."
+      }
+    },
+    {
+      "ko": "할머니",
+      "romanization": "halmeoni",
+      "bn": "দাদি/নানি",
+      "en": "grandmother",
+      "pos": "noun",
+      "example": {
+        "ko": "할머니는 친절하십니다.",
+        "bn": "দাদি দয়ালু।",
+        "en": "My grandmother is kind."
+      }
+    },
+    {
+      "ko": "부모님",
+      "romanization": "bumonim",
+      "bn": "বাবা-মা",
+      "en": "parents",
+      "pos": "noun",
+      "example": {
+        "ko": "부모님은 방글라데시에 사십니다.",
+        "bn": "বাবা-মা বাংলাদেশে থাকেন।",
+        "en": "My parents live in Bangladesh."
+      }
+    },
+    {
+      "ko": "친구",
+      "romanization": "chingu",
+      "bn": "বন্ধু",
+      "en": "friend",
+      "pos": "noun",
+      "example": {
+        "ko": "제 친구는 한국 사람입니다.",
+        "bn": "আমার বন্ধু একজন কোরিয়ান।",
+        "en": "My friend is Korean."
+      }
+    },
+    {
+      "ko": "많다",
+      "romanization": "manta",
+      "bn": "অনেক/বেশি",
+      "en": "many/much",
+      "pos": "adjective",
+      "example": {
+        "ko": "저는 친구가 많습니다.",
+        "bn": "আমার অনেক বন্ধু আছে।",
+        "en": "I have many friends."
+      }
+    },
+    {
+      "ko": "적다",
+      "romanization": "jeokda",
+      "bn": "কম",
+      "en": "few/little",
+      "pos": "adjective",
+      "example": {
+        "ko": "우리 가족은 적습니다.",
+        "bn": "আমাদের পরিবার ছোট (সদস্য কম)।",
+        "en": "Our family is small (few members)."
+      }
+    },
+    {
+      "ko": "살다",
+      "romanization": "salda",
+      "bn": "বাস করা",
+      "en": "to live",
+      "pos": "verb",
+      "example": {
+        "ko": "저는 서울에 삽니다.",
+        "bn": "আমি সিউলে বাস করি।",
+        "en": "I live in Seoul."
+      }
+    },
+    {
+      "ko": "예쁘다",
+      "romanization": "yeppeuda",
+      "bn": "সুন্দর",
+      "en": "pretty",
+      "pos": "adjective",
+      "example": {
+        "ko": "여동생이 정말 예쁩니다.",
+        "bn": "ছোট বোন সত্যিই সুন্দর।",
+        "en": "My younger sister is really pretty."
+      }
+    },
+    {
+      "ko": "멋있다",
+      "romanization": "meositta",
+      "bn": "সুদর্শন/চমৎকার",
+      "en": "cool/handsome",
+      "pos": "adjective",
+      "example": {
+        "ko": "제 친구는 멋있습니다.",
+        "bn": "আমার বন্ধু সুদর্শন।",
+        "en": "My friend is handsome."
+      }
+    },
+    {
+      "ko": "친하다",
+      "romanization": "chinhada",
+      "bn": "ঘনিষ্ঠ",
+      "en": "close",
+      "pos": "adjective",
+      "example": {
+        "ko": "우리는 아주 친합니다.",
+        "bn": "আমরা খুব ঘনিষ্ঠ।",
+        "en": "We are very close."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "N + 하고 / (이)랑",
+      "titleBn": "এবং / সাথে",
+      "explanationBn": "বিশেষ্যের সাথে যুক্ত হয়ে 'এবং' বা 'সাথে' অর্থ প্রকাশ করে। এটি সাধারণত কথোপকথনে বেশি ব্যবহৃত হয়।",
+      "explanationEn": "Attached to a noun to mean 'and' or 'with'. It is mostly used in spoken language.",
+      "examples": [
+        {
+          "ko": "아버지하고 어머니가 계십니다.",
+          "bn": "বাবা এবং মা আছেন।",
+          "en": "I have a father and a mother."
+        },
+        {
+          "ko": "친구하고 같이 밥을 먹어요.",
+          "bn": "বন্ধুর সাথে একসাথে ভাত খাই।",
+          "en": "I eat with my friend."
+        },
+        {
+          "ko": "형이랑 동생이 있어요.",
+          "bn": "বড় ভাই এবং ছোট ভাই/বোন আছে।",
+          "en": "I have an older brother and a younger sibling."
+        }
+      ]
+    },
+    {
+      "pattern": "N + 에 살다",
+      "titleBn": "কোনো স্থানে বাস করা",
+      "explanationBn": "কোনো নির্দিষ্ট স্থানে বাস করা বোঝাতে স্থানের নামের পর '에' যুক্ত করে '살다' (বাস করা) ব্যবহৃত হয়।",
+      "explanationEn": "Used to indicate living in a specific place. '에' is attached to the place noun followed by '살다' (to live).",
+      "examples": [
+        {
+          "ko": "가족은 방글라데시에 살아요.",
+          "bn": "পরিবার বাংলাদেশে বাস করে।",
+          "en": "My family lives in Bangladesh."
+        },
+        {
+          "ko": "저는 서울에 살아요.",
+          "bn": "আমি সিউলে বাস করি।",
+          "en": "I live in Seoul."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "titleBn": "পরিবার সম্পর্কে জিজ্ঞাসা",
+      "titleEn": "Asking about family",
+      "lines": [
+        {
+          "speaker": "리한",
+          "ko": "투안 씨는 가족이 몇 명이에요?",
+          "bn": "তুয়ান সাহেব, আপনার পরিবারের সদস্য কতজন?",
+          "en": "Tuan, how many family members do you have?"
+        },
+        {
+          "speaker": "투안",
+          "ko": "세 명이에요. 아내하고 아들이 있어요.",
+          "bn": "তিনজন। স্ত্রী এবং ছেলে আছে।",
+          "en": "Three. I have a wife and a son."
+        },
+        {
+          "speaker": "투안",
+          "ko": "리한 씨는 가족이 몇 명이에요?",
+          "bn": "রিহান সাহেব, আপনার পরিবারের সদস্য কতজন?",
+          "en": "Rihan, how many family members do you have?"
+        },
+        {
+          "speaker": "리한",
+          "ko": "네 명이에요. 아버지하고 어머니하고 여동생이 있어요.",
+          "bn": "চারজন। বাবা, মা এবং ছোট বোন আছে।",
+          "en": "Four. I have a father, mother, and younger sister."
+        }
+      ]
+    },
+    {
+      "titleBn": "বন্ধু সম্পর্কে কথা বলা",
+      "titleEn": "Talking about a friend",
+      "lines": [
+        {
+          "speaker": "수루",
+          "ko": "이 사람은 누구예요?",
+          "bn": "এই ব্যক্তি কে?",
+          "en": "Who is this person?"
+        },
+        {
+          "speaker": "리한",
+          "ko": "제 친구예요.",
+          "bn": "আমার বন্ধু।",
+          "en": "It's my friend."
+        },
+        {
+          "speaker": "수루",
+          "ko": "친구가 멋있어요. 지금 어디에 살아요?",
+          "bn": "আপনার বন্ধু সুদর্শন। এখন কোথায় থাকে?",
+          "en": "Your friend is handsome. Where does he live now?"
+        },
+        {
+          "speaker": "리한",
+          "ko": "서울에 살아요.",
+          "bn": "সিউলে থাকে।",
+          "en": "He lives in Seoul."
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 저는 _____이/가 많습니다.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "가족",
+        "친구",
+        "아버지",
+        "어머니"
+      ],
+      "answer": 1,
+      "explanationBn": "বাক্যটির অর্থ 'আমার অনেক বন্ধু আছে'। তাই সঠিক উত্তর '친구' (বন্ধু)।"
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 우리 가족은 방글라데시_____ 살아요.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "가",
+        "를",
+        "에",
+        "은"
+      ],
+      "answer": 2,
+      "explanationBn": "কোনো স্থানে বাস করা বোঝাতে স্থানের নামের পর '에' বসে। তাই '방글라데시에' হবে।"
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "questionBn": "সঠিক উত্তরটি বেছে নিন: 여동생이 (  )?",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "예쁩니다",
+        "멋있습니다",
+        "많습니다",
+        "적습니다"
+      ],
+      "answer": 0,
+      "explanationBn": "ছোট বোন (여동생) এর ক্ষেত্রে '예쁩니다' (সুন্দর) শব্দটি মানানসই।"
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 아버지_____ 어머니가 계십니다.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "하고",
+        "에",
+        "가",
+        "를"
+      ],
+      "answer": 0,
+      "explanationBn": "দুটি বিশেষ্যকে যুক্ত করতে '하고' (এবং) ব্যবহৃত হয়। তাই '아버지하고 어머니' হবে।"
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 형은 키가 (  ).",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "큽니다",
+        "작습니다",
+        "많습니다",
+        "적습니다"
+      ],
+      "answer": 0,
+      "explanationBn": "বড় ভাই লম্বা বোঝাতে '키가 큽니다' ব্যবহৃত হয়।"
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 제 (  )은/는 한국 사람입니다.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "친구",
+        "가족",
+        "할아버지",
+        "할머니"
+      ],
+      "answer": 0,
+      "explanationBn": "বাক্যটির অর্থ 'আমার বন্ধু একজন কোরিয়ান'। তাই '친구' হবে।"
+    },
+    {
+      "id": "p7",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 가족이 몇 (  )이에요?",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "명",
+        "개",
+        "장",
+        "권"
+      ],
+      "answer": 0,
+      "explanationBn": "মানুষ গণনার একক হলো '명' (জন)। তাই '몇 명' হবে।"
+    },
+    {
+      "id": "p8",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "아버지",
+          "right": "বাবা"
+        },
+        {
+          "left": "어머니",
+          "right": "মা"
+        },
+        {
+          "left": "할아버지",
+          "right": "দাদা/নানা"
+        },
+        {
+          "left": "할머니",
+          "right": "দাদি/নানি"
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "형",
+          "right": "বড় ভাই (ছেলেদের জন্য)"
+        },
+        {
+          "left": "누나",
+          "right": "বড় বোন (ছেলেদের জন্য)"
+        },
+        {
+          "left": "오빠",
+          "right": "বড় ভাই (মেয়েদের জন্য)"
+        },
+        {
+          "left": "언니",
+          "right": "বড় বোন (মেয়েদের জন্য)"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "type": "matching",
+      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "pairs": [
+        {
+          "left": "많다",
+          "right": "অনেক/বেশি"
+        },
+        {
+          "left": "적다",
+          "right": "কম"
+        },
+        {
+          "left": "예쁘다",
+          "right": "সুন্দর"
+        },
+        {
+          "left": "멋있다",
+          "right": "সুদর্শন/চমৎকার"
+        }
+      ]
+    }
+  ],
+  "epsQuestions": [
+    {
+      "id": "e1",
+      "section": "reading",
+      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন। (ছবিতে একজন দাদি আছেন)",
+      "questionKo": "다음 그림을 보고 맞는 단어를 고르십시오.",
+      "options": [
+        "할아버지",
+        "할머니",
+        "아버지",
+        "어머니"
+      ],
+      "answer": 1,
+      "explanationBn": "ছবিতে একজন দাদি/নানি আছেন, যার কোরিয়ান হলো '할머니'।"
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 가족이 몇 명이에요?\n나: 세 명이에요. 아내(  ) 아들이 있어요.",
+      "options": [
+        "가",
+        "를",
+        "하고",
+        "에"
+      ],
+      "answer": 2,
+      "explanationBn": "স্ত্রী এবং ছেলে বোঝাতে '아내하고 아들' হবে। '하고' অর্থ 'এবং'।"
+    },
+    {
+      "id": "e3",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 동생이 있어요?\n나: 아니요, (  ).",
+      "options": [
+        "있어요",
+        "없어요",
+        "많아요",
+        "적어요"
+      ],
+      "answer": 1,
+      "explanationBn": "প্রশ্নে पूछा হয়েছে 'ছোট ভাই/বোন আছে কি?' উত্তরে '아니요' (না) থাকায় '없어요' (নেই) হবে।"
+    },
+    {
+      "id": "e4",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 가족이 어디에 살아요?\n나: 고향(  ) 살아요.",
+      "options": [
+        "가",
+        "를",
+        "은",
+        "에"
+      ],
+      "answer": 3,
+      "explanationBn": "কোনো স্থানে বাস করা বোঝাতে স্থানের নামের পর '에' বসে। তাই '고향에' হবে।"
+    },
+    {
+      "id": "e5",
+      "section": "reading",
+      "questionBn": "অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 질문에 답하십시오.",
+      "passage": "우리 가족은 네 명입니다. 아버지, 어머니, 저, 그리고 여동생이 있습니다. 아버지는 회사원이고 어머니는 선생님입니다. 여동생은 학생입니다.",
+      "options": [
+        "가족은 세 명입니다.",
+        "여동생은 선생님입니다.",
+        "아버지는 회사원입니다.",
+        "저는 학생입니다."
+      ],
+      "answer": 2,
+      "explanationBn": "অনুচ্ছেদে বলা হয়েছে '아버지는 회사원입니다' (বাবা একজন চাকরিজীবী)। তাই ৩ নম্বর অপশনটি সঠিক।"
+    },
+    {
+      "id": "e6",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "들은 것을 고르십시오.",
+      "passage": "할아버지",
+      "options": [
+        "아버지",
+        "어머니",
+        "할아버지",
+        "할머니"
+      ],
+      "answer": 2,
+      "explanationBn": "অডিওতে '할아버지' (দাদা/নানা) বলা হয়েছে।"
+    },
+    {
+      "id": "e7",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
+      "passage": "가족이 몇 명이에요?",
+      "options": [
+        "네 명이에요.",
+        "가족이에요.",
+        "한국에 살아요.",
+        "회사원이에요."
+      ],
+      "answer": 0,
+      "explanationBn": "প্রশ্ন করা হয়েছে 'পরিবারের সদস্য কতজন?' তাই সঠিক উত্তর '네 명이에요' (চারজন)।"
+    },
+    {
+      "id": "e8",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
+      "passage": "동생이 어디에 살아요?",
+      "options": [
+        "동생이에요.",
+        "서울에 살아요.",
+        "학생이에요.",
+        "동생이 없어요."
+      ],
+      "answer": 1,
+      "explanationBn": "প্রশ্ন করা হয়েছে 'ছোট ভাই/বোন কোথায় থাকে?' তাই সঠিক উত্তর '서울에 살아요' (সিউলে থাকে)।"
+    }
+  ]
+}

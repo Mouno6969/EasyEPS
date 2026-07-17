@@ -1,5 +1,20 @@
 {
   "version": "7",
   "dialect": "mysql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1784294497324,
+      "tag": "0000_futuristic_pandemic",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1784294749993,
+      "tag": "0001_majestic_daimon_hellstrom",
+      "breakpoints": true
+    }
+  ]
 }
