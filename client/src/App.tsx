@@ -7,16 +7,16 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import {
   AdminPage as EasyEPSAdminPage,
-  CertificatePage,
   CurriculumPage,
   DashboardPage,
   PlannerPage,
-  ProfilePage,
   TutorPage,
 } from "./pages/LearningPages";
+import CertificatePage from "./pages/CertificatePage";
 import LessonPage from "./pages/LessonPage";
 import MockTestPage from "./pages/MockTestPage";
 import NotFound from "./pages/NotFound";
+import ProfilePage from "./pages/ProfilePage";
 import { Route, Switch } from "wouter";
 
 function Router() {
@@ -29,6 +29,7 @@ function Router() {
     <Route path="/planner" component={PlannerPage} />
     <Route path="/tutor" component={TutorPage} />
     <Route path="/profile" component={ProfilePage} />
+    <Route path="/profile/setup" component={ProfilePage} />
     <Route path="/certificate/:code" component={CertificatePage} />
     <Route path="/admin" component={EasyEPSAdminPage} />
     <Route path="/404" component={NotFound} />

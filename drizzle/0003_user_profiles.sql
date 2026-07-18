@@ -1,0 +1,20 @@
+CREATE TABLE `userProfiles` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`userId` int NOT NULL,
+	`fullName` varchar(80) NOT NULL,
+	`email` varchar(320) NOT NULL,
+	`phone` varchar(20),
+	`preferredLocale` enum('bn','ko','en') NOT NULL DEFAULT 'bn',
+	`nationality` varchar(80) NOT NULL,
+	`city` varchar(80),
+	`learningLevel` enum('beginner','elementary','intermediate') NOT NULL DEFAULT 'beginner',
+	`targetIndustry` varchar(120),
+	`targetExamDate` varchar(10),
+	`bio` text,
+	`isComplete` boolean NOT NULL DEFAULT false,
+	`completedAt` timestamp,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `userProfiles_id` PRIMARY KEY(`id`),
+	CONSTRAINT `userProfiles_userId_unique` UNIQUE(`userId`)
+);

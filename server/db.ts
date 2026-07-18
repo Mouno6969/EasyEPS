@@ -1,5 +1,8 @@
 import { and, count, desc, eq, gte, lte } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
+import type { CertificateRecipient } from "../shared/certificate";
+import { buildCertificateRecipient, certificateRecipientSchema } from "../shared/certificate";
+import type { ProfileSetupData } from "../shared/profile";
 import {
   attempts,
   badges,
@@ -9,7 +12,9 @@ import {
   plannerItems,
   plannerSettings,
   studyDays,
+  userProfiles,
   users,
+  type UserProfileRow,
 } from "../drizzle/schema";
 import { ENV } from "./_core/env";
 
@@ -261,10 +266,26 @@ export async function issueCertificate(input: {
   code: string;
   kind: "course-completion" | "mock-test";
   scorePercent?: number | null;
+  recipientSnapshot: CertificateRecipient;
 }) {
   const db = await requireDb();
-  const result = await db.insert(certificates).values(input);
-  return { id: Number(result[0].insertId), issuedAt: new Date(), ...input };
+  const snapshot = certificateRecipientSchema.parse(input.recipientSnapshot);
+  const result = await db.insert(certificates).values({
+    userId: input.userId,
+    code: input.code,
+    kind: input.kind,
+    scorePercent: input.scorePercent ?? null,
+    recipientSnapshot: snapshot,
+  });
+  return {
+    id: Number(result[0].insertId),
+    issuedAt: new Date(),
+    userId: input.userId,
+    code: input.code,
+    kind: input.kind,
+    scorePercent: input.scorePercent ?? null,
+    recipientSnapshot: snapshot,
+  };
 }
 
 export async function listCertificates(userId: number) {
@@ -272,12 +293,89 @@ export async function listCertificates(userId: number) {
   return db.select().from(certificates).where(eq(certificates.userId, userId)).orderBy(desc(certificates.issuedAt));
 }
 
+function resolveRecipient(
+  snapshot: unknown,
+  fallback: { name?: string | null; email?: string | null; profile?: UserProfileRow | null },
+): CertificateRecipient {
+  if (snapshot && typeof snapshot === "object") {
+    const parsed = certificateRecipientSchema.safeParse(snapshot);
+    if (parsed.success) return parsed.data;
+  }
+  if (fallback.profile) {
+    try {
+      return buildCertificateRecipient(fallback.profile);
+    } catch {
+      // fall through
+    }
+  }
+  return {
+    fullName: fallback.name?.trim() || "EasyEPS Learner",
+    email: fallback.email?.trim().toLowerCase() || "",
+    phone: "",
+    nationality: "",
+    city: "",
+    targetIndustry: "",
+    avatarUrl: "",
+  };
+}
+
 export async function getCertificate(code: string) {
   const db = await requireDb();
   const [certificate] = await db.select().from(certificates).where(eq(certificates.code, code)).limit(1);
   if (!certificate) return undefined;
-  const [user] = await db.select({ id: users.id, name: users.name }).from(users).where(eq(users.id, certificate.userId)).limit(1);
-  return { ...certificate, learnerName: user?.name ?? "EasyEPS Learner" };
+
+  const [user] = await db
+    .select({ id: users.id, name: users.name, email: users.email })
+    .from(users)
+    .where(eq(users.id, certificate.userId))
+    .limit(1);
+
+  let profile: UserProfileRow | null = null;
+  try {
+    profile = await getUserProfile(certificate.userId);
+  } catch {
+    profile = null;
+  }
+
+  const recipient = resolveRecipient(certificate.recipientSnapshot, {
+    name: user?.name,
+    email: user?.email,
+    profile,
+  });
+
+  return {
+    id: certificate.id,
+    code: certificate.code,
+    kind: certificate.kind,
+    scorePercent: certificate.scorePercent,
+    issuedAt: certificate.issuedAt,
+    userId: certificate.userId,
+    learnerName: recipient.fullName,
+    recipient,
+  };
+}
+
+/** Load profile fields needed to mint a certificate. */
+export async function getCertificateEligibleProfile(userId: number) {
+  const profile = await getUserProfile(userId);
+  const [user] = await (await requireDb())
+    .select({ name: users.name, email: users.email })
+    .from(users)
+    .where(eq(users.id, userId))
+    .limit(1);
+
+  if (!profile || !profile.isComplete) {
+    return { ok: false as const, reason: "incomplete-profile" as const, profile, user };
+  }
+  if (!profile.avatarUrl) {
+    return { ok: false as const, reason: "missing-avatar" as const, profile, user };
+  }
+  try {
+    const recipient = buildCertificateRecipient(profile);
+    return { ok: true as const, recipient, profile, user };
+  } catch {
+    return { ok: false as const, reason: "invalid-profile" as const, profile, user };
+  }
 }
 
 export async function adminStats() {
@@ -307,4 +405,96 @@ export async function setUserRole(userId: number, role: "user" | "admin") {
   const db = await requireDb();
   await db.update(users).set({ role }).where(eq(users.id, userId));
   return { userId, role };
+}
+
+export async function getUserProfile(userId: number) {
+  const db = await requireDb();
+  const [row] = await db.select().from(userProfiles).where(eq(userProfiles.userId, userId)).limit(1);
+  return row ?? null;
+}
+
+export async function upsertUserProfile(userId: number, data: ProfileSetupData) {
+  const db = await requireDb();
+  const now = new Date();
+  const values = {
+    userId,
+    fullName: data.fullName,
+    email: data.email,
+    phone: data.phone || null,
+    preferredLocale: data.preferredLocale,
+    nationality: data.nationality,
+    city: data.city || null,
+    learningLevel: data.learningLevel,
+    targetIndustry: data.targetIndustry || null,
+    targetExamDate: data.targetExamDate || null,
+    bio: data.bio || null,
+    // Preserve existing avatar unless the client explicitly sends a new one
+    ...(data.avatarUrl !== undefined ? { avatarUrl: data.avatarUrl || null } : {}),
+    isComplete: true as const,
+    completedAt: now,
+    updatedAt: now,
+  };
+
+  const existing = await getUserProfile(userId);
+  if (existing) {
+    await db
+      .update(userProfiles)
+      .set({
+        fullName: values.fullName,
+        email: values.email,
+        phone: values.phone,
+        preferredLocale: values.preferredLocale,
+        nationality: values.nationality,
+        city: values.city,
+        learningLevel: values.learningLevel,
+        targetIndustry: values.targetIndustry,
+        targetExamDate: values.targetExamDate,
+        bio: values.bio,
+        // Only overwrite avatar when provided (empty string clears)
+        ...(data.avatarUrl !== undefined ? { avatarUrl: data.avatarUrl || null } : {}),
+        isComplete: true,
+        completedAt: existing.completedAt ?? now,
+        updatedAt: now,
+      })
+      .where(eq(userProfiles.userId, userId));
+  } else {
+    await db.insert(userProfiles).values({
+      ...values,
+      avatarUrl: data.avatarUrl || null,
+    });
+  }
+
+  // Keep core user name/email in sync for certificates & admin lists
+  await db
+    .update(users)
+    .set({ name: data.fullName, email: data.email, updatedAt: now })
+    .where(eq(users.id, userId));
+
+  return getUserProfile(userId);
+}
+
+export async function setUserAvatarUrl(userId: number, avatarUrl: string | null) {
+  const db = await requireDb();
+  const now = new Date();
+  const existing = await getUserProfile(userId);
+  if (existing) {
+    await db
+      .update(userProfiles)
+      .set({ avatarUrl, updatedAt: now })
+      .where(eq(userProfiles.userId, userId));
+  } else {
+    // Create a minimal incomplete profile row so avatar can be set before full setup
+    await db.insert(userProfiles).values({
+      userId,
+      fullName: "Learner",
+      email: `user-${userId}@easyeps.local`,
+      nationality: "Bangladesh",
+      preferredLocale: "bn",
+      learningLevel: "beginner",
+      avatarUrl,
+      isComplete: false,
+      updatedAt: now,
+    });
+  }
+  return getUserProfile(userId);
 }

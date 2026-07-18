@@ -11,14 +11,13 @@ import {
   setPlannerItemDone,
   useLocalLearning,
 } from "@/lib/localProgress";
+import { useLocalProfile } from "@/lib/localProfile";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
 import {
-  Award,
   BarChart3,
   BookCheck,
   BookOpenText,
-  Bot,
   CalendarDays,
   Check,
   ChevronRight,
@@ -27,11 +26,9 @@ import {
   GraduationCap,
   Loader2,
   LockKeyhole,
-  Medal,
   Plus,
   Search,
   ShieldCheck,
-  Sparkles,
   Target,
   Trash2,
   TrendingUp,
@@ -39,7 +36,7 @@ import {
 } from "lucide-react";
 import { useMemo, useState } from "react";
 import { toast } from "sonner";
-import { Link, useRoute } from "wouter";
+import { Link } from "wouter";
 
 const categories = {
   "daily-life": { bn: "দৈনন্দিন জীবন", ko: "일상생활", en: "Daily life", color: "var(--sage)" },
@@ -115,8 +112,11 @@ export function CurriculumPage() {
 export function DashboardPage() {
   const state = useLocalLearning();
   const overview = learningOverview(state);
+  const localProfile = useLocalProfile();
   const { isAuthenticated } = useAuth();
   const server = trpc.progress.overview.useQuery(undefined, { enabled: isAuthenticated, retry: false });
+  const remoteProfile = trpc.profile.get.useQuery(undefined, { enabled: isAuthenticated, retry: false });
+  const profileComplete = isAuthenticated ? Boolean(remoteProfile.data?.isComplete) : localProfile.isComplete;
   const metrics = server.data ? {
     completedLessons: Math.max(overview.completedLessons, server.data.completedLessons),
     averageScore: server.data.averageScore || overview.averageScore,
@@ -131,6 +131,7 @@ export function DashboardPage() {
   return <>
     <PageIntro eyebrow="আপনার শেখার যাত্রা" title="অগ্রগতি এক নজরে" description="ছোট ছোট নিয়মিত পদক্ষেপই আপনাকে EPS-TOPIK লক্ষ্যের কাছে নিয়ে যাবে।" actions={<Link href={`/lesson/${nextChapter}`}><Button className="rounded-full bg-[var(--navy)] px-6 text-white">পরবর্তী অধ্যায় <ChevronRight className="size-4" /></Button></Link>} />
     <div className="container py-10">
+      {!profileComplete && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--navy)]/15 bg-white p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>প্রোফাইল সেটআপ বাকি:</strong> সঠিক নাম, ইমেইল ও শেখার স্তর দিয়ে প্রোফাইল সম্পূর্ণ করুন—সার্টিফিকেটে আপনার নাম দেখাবে।</span><Link href="/profile/setup"><Button className="rounded-full bg-[var(--navy)] text-white">প্রোফাইল সেটআপ <UserRound className="size-4" /></Button></Link></div>}
       {!isAuthenticated && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--gold)]/35 bg-[var(--gold)]/10 p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>অতিথি মোড:</strong> অগ্রগতি এই ডিভাইসে সংরক্ষিত। সাইন ইন করলে একাধিক ডিভাইসে সিঙ্ক হবে।</span><Button onClick={() => startLogin()} variant="outline" className="rounded-full border-[var(--navy)]/20">সাইন ইন</Button></div>}
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         {[{ label: "সম্পন্ন অধ্যায়", value: `${metrics.completedLessons}/60`, icon: BookCheck, tone: "sage" }, { label: "গড় স্কোর", value: `${metrics.averageScore}%`, icon: TrendingUp, tone: "gold" }, { label: "বর্তমান স্ট্রিক", value: `${metrics.streak} দিন`, icon: Flame, tone: "clay" }, { label: "মোট অধ্যয়ন", value: `${metrics.studyMinutes} মিনিট`, icon: Clock3, tone: "navy" }].map(({ label, value, icon: Icon, tone }) => <div key={label} className="metric-card"><span className={`metric-icon metric-${tone}`}><Icon className="size-5" /></span><p className="mt-5 text-sm font-semibold text-[var(--navy)]/55">{label}</p><p className="mt-1 font-serif text-3xl font-bold text-[var(--navy)]">{value}</p></div>)}
@@ -174,27 +175,6 @@ export function TutorPage() {
   const send = (content: string) => { const next = [...messages, { role: "user" as const, content }]; setMessages(next); mutation.mutate({ chapter, messages: next.slice(-12).map(item => ({ role: item.role as "user" | "assistant", content: item.content })) }); };
   return <><PageIntro eyebrow="বাংলায় বুঝুন, কোরিয়ানে বলুন" title="আপনার ব্যক্তিগত EasyEPS শিক্ষক" description="ব্যাকরণ, শব্দের ব্যবহার, কর্মক্ষেত্রের সংলাপ বা প্রস্তুতির কৌশল—প্রশ্ন করুন বাংলায়।" />
     <div className="container py-10">{!isAuthenticated ? <AuthInvitation title="এআই শিক্ষক ব্যবহার করতে সাইন ইন করুন" description="সাইন ইন করলে নিরাপদভাবে প্রশ্ন করতে পারবেন এবং অধ্যায়ভিত্তিক ব্যাখ্যা পাবেন।" /> : <div className="grid gap-6 lg:grid-cols-[260px_1fr]"><aside className="paper-card h-fit p-5"><p className="text-sm font-bold text-[var(--navy)]">অধ্যায়ের প্রসঙ্গ</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/55">একটি অধ্যায় বেছে নিলে শিক্ষক সেই পাঠের শব্দ ও ব্যাকরণ অনুযায়ী উত্তর দেবেন।</p><select value={chapter ?? ""} onChange={event => setChapter(event.target.value ? Number(event.target.value) : undefined)} className="mt-4 h-11 w-full rounded-xl border bg-white px-3 text-sm"><option value="">সাধারণ প্রশ্ন</option>{Array.from({ length: 60 }, (_, index) => <option key={index + 1} value={index + 1}>অধ্যায় {index + 1}</option>)}</select><div className="mt-5 rounded-2xl bg-[var(--gold)]/12 p-4 text-xs leading-6 text-[var(--navy)]/60"><strong>মনে রাখুন:</strong> আইন, ভিসা, স্বাস্থ্য বা জরুরি নিরাপত্তার বিষয়ে সর্বশেষ সরকারি নির্দেশনা অনুসরণ করুন।</div></aside><AIChatBox messages={messages} onSendMessage={send} isLoading={mutation.isPending} height="650px" className="overflow-hidden rounded-3xl border-[var(--navy)]/10" emptyStateMessage="কী শিখতে চান? বাংলায় প্রশ্ন করুন।" placeholder="যেমন: -아/어서 সহজভাবে বুঝিয়ে দিন" suggestedPrompts={["আজকের জন্য ২০ মিনিটের পড়ার পরিকল্পনা বানান", "কর্মক্ষেত্রে দরকারি ১০টি ভদ্র বাক্য শেখান", "EPS-TOPIK reading কীভাবে দ্রুত সমাধান করব?", "-(으)세요 ব্যাকরণটি বাংলায় বুঝিয়ে দিন"]} /></div>}</div></>;
-}
-
-export function ProfilePage() {
-  const { user, isAuthenticated } = useAuth();
-  const state = useLocalLearning();
-  const overview = learningOverview(state);
-  const certificates = trpc.certificates.mine.useQuery(undefined, { enabled: isAuthenticated, retry: false });
-  const issue = trpc.certificates.issue.useMutation({ onSuccess: () => { certificates.refetch(); toast.success("সার্টিফিকেট তৈরি হয়েছে"); }, onError: error => toast.error(error.message) });
-  const badges = [{ id: "first-step", title: "প্রথম পদক্ষেপ", earned: overview.completedLessons >= 1, icon: Sparkles }, { id: "ten-lessons", title: "দশ অধ্যায়", earned: overview.completedLessons >= 10, icon: BookCheck }, { id: "halfway", title: "অর্ধেক পথ", earned: overview.completedLessons >= 30, icon: Medal }, { id: "perfect", title: "নিখুঁত স্কোর", earned: state.attempts.some(item => item.score === item.total), icon: Award }, { id: "ready", title: "মক টেস্ট প্রস্তুত", earned: state.attempts.some(item => item.kind === "mock-test" && item.score / item.total >= .8), icon: GraduationCap }, { id: "master", title: "পাঠ্যক্রম মাস্টার", earned: overview.completedLessons >= 60, icon: ShieldCheck }];
-  return <><PageIntro eyebrow="শিক্ষার্থী পরিচিতি" title={isAuthenticated ? (user?.name || "আমার প্রোফাইল") : "অতিথি শিক্ষার্থী"} description="আপনার অর্জন, ব্যাজ, পরীক্ষার ফলাফল এবং সার্টিফিকেট এক জায়গায়।" />
-    <div className="container py-10">{!isAuthenticated && <div className="mb-7 rounded-2xl border border-[var(--gold)]/30 bg-[var(--gold)]/10 p-5 text-sm leading-7 text-[var(--navy)]"><strong>এই ডিভাইসের প্রোফাইল দেখছেন।</strong> ক্লাউড সিঙ্ক ও সার্টিফিকেটের জন্য সাইন ইন করুন। <button onClick={() => startLogin()} className="ml-1 font-bold underline">সাইন ইন</button></div>}<div className="grid gap-7 lg:grid-cols-[.7fr_1.3fr]"><section className="paper-card p-7 text-center"><span className="mx-auto grid size-24 place-items-center rounded-full bg-[var(--navy)] text-[var(--gold)]"><UserRound className="size-10" /></span><h2 className="mt-5 font-serif text-2xl font-bold text-[var(--navy)]">{user?.name || "EasyEPS Learner"}</h2><p className="mt-1 text-sm text-[var(--navy)]/50">{user?.email || "স্থানীয় শিক্ষার্থী প্রোফাইল"}</p><div className="mt-7 grid grid-cols-2 gap-3"><div className="rounded-2xl bg-[var(--cream)] p-4"><p className="font-serif text-2xl font-bold">{overview.completedLessons}</p><p className="text-xs text-[var(--navy)]/50">অধ্যায়</p></div><div className="rounded-2xl bg-[var(--cream)] p-4"><p className="font-serif text-2xl font-bold">{overview.averageScore}%</p><p className="text-xs text-[var(--navy)]/50">গড় স্কোর</p></div></div></section><section className="paper-card p-7"><p className="eyebrow">অর্জন</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">আপনার ব্যাজ</h2><div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">{badges.map(({ id, title, earned, icon: Icon }) => <div key={id} className={`rounded-2xl border p-4 text-center ${earned ? "border-[var(--gold)]/30 bg-[var(--gold)]/10" : "border-[var(--navy)]/8 bg-[var(--cream)] opacity-45 grayscale"}`}><span className="mx-auto grid size-11 place-items-center rounded-full bg-white text-[var(--gold-dark)]"><Icon className="size-5" /></span><p className="mt-3 text-sm font-bold text-[var(--navy)]">{title}</p></div>)}</div></section></div>
-      <section className="paper-card mt-7 p-7"><div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"><div><p className="eyebrow">যোগ্যতার স্বীকৃতি</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">সার্টিফিকেট</h2></div>{isAuthenticated && <div className="flex flex-wrap gap-2"><Button onClick={() => issue.mutate({ kind: "mock-test" })} variant="outline" className="rounded-full">মক টেস্ট সার্টিফিকেট</Button><Button onClick={() => issue.mutate({ kind: "course-completion" })} className="rounded-full bg-[var(--navy)] text-white">কোর্স সার্টিফিকেট</Button></div>}</div><div className="mt-6 grid gap-4 sm:grid-cols-2">{certificates.data?.length ? certificates.data.map(certificate => <Link key={certificate.id} href={`/certificate/${certificate.code}`} className="rounded-2xl border border-[var(--gold)]/30 bg-[var(--gold)]/8 p-5"><Award className="size-6 text-[var(--gold-dark)]" /><p className="mt-3 font-bold text-[var(--navy)]">{certificate.kind === "mock-test" ? "Mock Test Excellence" : "Course Completion"}</p><p className="mt-1 text-xs text-[var(--navy)]/50">{certificate.code}</p></Link>) : <div className="col-span-full rounded-2xl bg-[var(--cream)] p-8 text-center text-[var(--navy)]/45">যোগ্যতা পূরণ করলে আপনার সার্টিফিকেট এখানে দেখা যাবে।</div>}</div></section>
-    </div>
-  </>;
-}
-
-export function CertificatePage() {
-  const [, params] = useRoute("/certificate/:code");
-  const code = params?.code ?? "";
-  const query = trpc.certificates.verify.useQuery({ code }, { enabled: code.length >= 6, retry: false });
-  return <div className="container py-14"><div className="mx-auto max-w-4xl rounded-[2rem] border-8 border-double border-[var(--gold)] bg-white p-7 text-center shadow-xl md:p-14"><div className="mx-auto grid size-20 place-items-center rounded-full bg-[var(--navy)] text-[var(--gold)]"><GraduationCap className="size-9" /></div><p className="mt-6 font-serif text-2xl font-bold text-[var(--navy)]">EasyEPS</p><p className="mt-2 text-sm font-bold uppercase tracking-[.25em] text-[var(--gold-dark)]">Certificate of Achievement</p>{query.isLoading ? <Loader2 className="mx-auto mt-10 size-6 animate-spin" /> : query.data ? <><p className="mt-10 text-sm text-[var(--navy)]/55">This certificate is proudly presented to</p><h1 className="mt-3 font-serif text-4xl font-bold text-[var(--navy)] md:text-5xl">{query.data.learnerName}</h1><p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-[var(--navy)]/65">for {query.data.kind === "mock-test" ? `demonstrating EPS-TOPIK readiness with a score of ${query.data.scorePercent}%` : "successfully completing the 60-chapter EasyEPS learning curriculum"}.</p><div className="mt-10 grid gap-4 border-t border-[var(--navy)]/10 pt-6 text-sm sm:grid-cols-2"><div><p className="text-[var(--navy)]/40">Certificate code</p><p className="mt-1 font-bold text-[var(--navy)]">{query.data.code}</p></div><div><p className="text-[var(--navy)]/40">Issue date</p><p className="mt-1 font-bold text-[var(--navy)]">{new Date(query.data.issuedAt).toLocaleDateString()}</p></div></div><Button onClick={() => window.print()} className="mt-8 rounded-full bg-[var(--navy)] px-7 text-white print:hidden">প্রিন্ট করুন</Button></> : <div className="mt-10 rounded-2xl bg-red-50 p-8 text-red-700"><ShieldCheck className="mx-auto size-7" /><p className="mt-3 font-bold">সার্টিফিকেট পাওয়া যায়নি</p><p className="mt-2 text-sm">কোডটি সঠিক কিনা যাচাই করুন।</p></div>}</div></div>;
 }
 
 export function AdminPage() {

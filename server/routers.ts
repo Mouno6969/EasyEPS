@@ -1,5 +1,13 @@
 import { COOKIE_NAME } from "@shared/const";
 import { attemptDetailSchema, lessonSchema } from "@shared/lesson";
+import {
+  avatarUploadSchema,
+  emptyProfile,
+  extensionForMime,
+  isProfileComplete,
+  looksLikeImage,
+  profileSetupSchema,
+} from "@shared/profile";
 import { scoreLessonExam, scoreMockFromLessons, shuffleCopy, type MockQuestionRef } from "@shared/scoring";
 import { TRPCError } from "@trpc/server";
 import { nanoid } from "nanoid";
@@ -10,6 +18,39 @@ import { getSessionCookieOptions } from "./_core/cookies";
 import { invokeLLM } from "./_core/llm";
 import { systemRouter } from "./_core/systemRouter";
 import { adminProcedure, protectedProcedure, publicProcedure, router } from "./_core/trpc";
+import { storagePut } from "./storage";
+
+function rowToProfile(
+  row: Awaited<ReturnType<typeof db.getUserProfile>> | null | undefined,
+  fallback?: { name?: string | null; email?: string | null },
+) {
+  if (!row) {
+    return {
+      ...emptyProfile,
+      fullName: fallback?.name?.trim() || "",
+      email: fallback?.email?.trim().toLowerCase() || "",
+      isComplete: false,
+      completedAt: null as string | null,
+      updatedAt: null as string | null,
+    };
+  }
+  return {
+    fullName: row.fullName,
+    email: row.email,
+    phone: row.phone ?? "",
+    preferredLocale: row.preferredLocale,
+    nationality: row.nationality,
+    city: row.city ?? "",
+    learningLevel: row.learningLevel,
+    targetIndustry: row.targetIndustry ?? "",
+    targetExamDate: row.targetExamDate ?? "",
+    bio: row.bio ?? "",
+    avatarUrl: row.avatarUrl ?? "",
+    isComplete: row.isComplete,
+    completedAt: row.completedAt ? row.completedAt.toISOString() : null,
+    updatedAt: row.updatedAt ? row.updatedAt.toISOString() : null,
+  };
+}
 
 const chapterInput = z.object({ chapter: z.number().int().min(1).max(60) });
 const datePattern = /^\d{4}-\d{2}-\d{2}$/;
@@ -66,6 +107,89 @@ export const appRouter = router({
       const cookieOptions = getSessionCookieOptions(ctx.req);
       ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
       return { success: true } as const;
+    }),
+  }),
+
+  profile: router({
+    get: protectedProcedure.query(async ({ ctx }) => {
+      try {
+        const row = await db.getUserProfile(ctx.user.id);
+        return rowToProfile(row, { name: ctx.user.name, email: ctx.user.email });
+      } catch {
+        // DB unavailable — return OAuth defaults so the form still works offline
+        return rowToProfile(null, { name: ctx.user.name, email: ctx.user.email });
+      }
+    }),
+    update: protectedProcedure.input(profileSetupSchema).mutation(async ({ ctx, input }) => {
+      if (!isProfileComplete(input)) {
+        badRequest("Profile data is incomplete or invalid");
+      }
+      try {
+        // Do not clobber an existing avatar when the form omits a new one
+        const existing = await db.getUserProfile(ctx.user.id).catch(() => null);
+        const payload = {
+          ...input,
+          avatarUrl: input.avatarUrl || existing?.avatarUrl || "",
+        };
+        const saved = await db.upsertUserProfile(ctx.user.id, payload);
+        return rowToProfile(saved, { name: input.fullName, email: input.email });
+      } catch (error) {
+        console.error("[profile.update] failed", error);
+        throw new TRPCError({
+          code: "INTERNAL_SERVER_ERROR",
+          message: "Could not save profile. Please try again.",
+        });
+      }
+    }),
+    setAvatar: protectedProcedure.input(avatarUploadSchema).mutation(async ({ ctx, input }) => {
+      const buffer = Buffer.from(input.dataBase64.replace(/\s/g, ""), "base64");
+      if (!buffer.length || buffer.length > 320_000) {
+        badRequest("Image is too large — use a smaller photo");
+      }
+      if (!looksLikeImage(new Uint8Array(buffer), input.contentType)) {
+        badRequest("File is not a valid image of the declared type");
+      }
+
+      let avatarUrl: string;
+      try {
+        const ext = extensionForMime(input.contentType);
+        const uploaded = await storagePut(
+          `avatars/user-${ctx.user.id}.${ext}`,
+          buffer,
+          input.contentType,
+        );
+        avatarUrl = uploaded.url;
+      } catch (error) {
+        // Storage may be unavailable in local/dev — fall back to compressed data URL
+        console.warn("[profile.setAvatar] storage unavailable, using data URL fallback", error);
+        avatarUrl = `data:${input.contentType};base64,${input.dataBase64.replace(/\s/g, "")}`;
+        if (avatarUrl.length > 480_000) {
+          badRequest("Image is too large for offline storage");
+        }
+      }
+
+      try {
+        const saved = await db.setUserAvatarUrl(ctx.user.id, avatarUrl);
+        return rowToProfile(saved, { name: ctx.user.name, email: ctx.user.email });
+      } catch (error) {
+        console.error("[profile.setAvatar] db failed", error);
+        throw new TRPCError({
+          code: "INTERNAL_SERVER_ERROR",
+          message: "Could not save profile picture. Please try again.",
+        });
+      }
+    }),
+    removeAvatar: protectedProcedure.mutation(async ({ ctx }) => {
+      try {
+        const saved = await db.setUserAvatarUrl(ctx.user.id, null);
+        return rowToProfile(saved, { name: ctx.user.name, email: ctx.user.email });
+      } catch (error) {
+        console.error("[profile.removeAvatar] failed", error);
+        throw new TRPCError({
+          code: "INTERNAL_SERVER_ERROR",
+          message: "Could not remove profile picture.",
+        });
+      }
     }),
   }),
 
@@ -347,13 +471,40 @@ export const appRouter = router({
   }),
 
   certificates: router({
-    mine: protectedProcedure.query(({ ctx }) => db.listCertificates(ctx.user.id)),
+    mine: protectedProcedure.query(async ({ ctx }) => {
+      const rows = await db.listCertificates(ctx.user.id);
+      return rows.map(row => {
+        const snap = row.recipientSnapshot as Record<string, unknown> | null;
+        return {
+          ...row,
+          learnerName:
+            (typeof snap?.fullName === "string" && snap.fullName) || ctx.user.name || "EasyEPS Learner",
+          avatarUrl: typeof snap?.avatarUrl === "string" ? snap.avatarUrl : "",
+        };
+      });
+    }),
     verify: publicProcedure
       .input(z.object({ code: z.string().min(6).max(32) }))
-      .query(({ input }) => db.getCertificate(input.code)),
+      .query(async ({ input }) => {
+        const certificate = await db.getCertificate(input.code);
+        if (!certificate) notFound("Certificate was not found");
+        return certificate;
+      }),
     issue: protectedProcedure
       .input(z.object({ kind: z.enum(["course-completion", "mock-test"]) }))
       .mutation(async ({ ctx, input }) => {
+        const eligible = await db.getCertificateEligibleProfile(ctx.user.id);
+        if (!eligible.ok) {
+          if (eligible.reason === "missing-avatar") {
+            preconditionFailed(
+              "Add a profile picture before issuing a certificate. Open Profile Setup to upload your photo.",
+            );
+          }
+          preconditionFailed(
+            "Complete your profile (name, email, nationality, learning level) before issuing a certificate.",
+          );
+        }
+
         if (input.kind === "course-completion") {
           const progress = await db.listProgress(ctx.user.id);
           if (progress.filter(row => row.completed).length < 60) {
@@ -364,6 +515,7 @@ export const appRouter = router({
             code: `EPS-${nanoid(10).toUpperCase()}`,
             kind: input.kind,
             scorePercent: 100,
+            recipientSnapshot: eligible.recipient,
           });
         }
 
@@ -389,6 +541,7 @@ export const appRouter = router({
           code: `EPS-${nanoid(10).toUpperCase()}`,
           kind: input.kind,
           scorePercent: Math.round((best.score / best.total) * 100),
+          recipientSnapshot: eligible.recipient,
         });
       }),
   }),

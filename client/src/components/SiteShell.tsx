@@ -1,8 +1,11 @@
 import { startLogin } from "@/const";
 import { useLocale } from "@/contexts/LocaleContext";
 import { useAuth } from "@/_core/hooks/useAuth";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import { BookOpenText, Bot, CalendarDays, ChevronDown, GraduationCap, LayoutDashboard, LogIn, LogOut, Menu, ShieldCheck, UserRound, X } from "lucide-react";
+import { useLocalProfile } from "@/lib/localProfile";
+import { trpc } from "@/lib/trpc";
+import { BookOpenText, Bot, CalendarDays, ChevronDown, GraduationCap, LayoutDashboard, LogIn, LogOut, Menu, Pencil, ShieldCheck, UserRound, X } from "lucide-react";
 import { useState, type ReactNode } from "react";
 import { Link, useLocation } from "wouter";
 
@@ -20,6 +23,12 @@ export function SiteShell({ children }: { children: ReactNode }) {
   const [userOpen, setUserOpen] = useState(false);
   const { locale, setLocale, t } = useLocale();
   const { user, isAuthenticated, logout } = useAuth();
+  const localProfile = useLocalProfile();
+  const remoteProfile = trpc.profile.get.useQuery(undefined, { enabled: isAuthenticated, retry: false });
+  const avatarUrl = isAuthenticated ? remoteProfile.data?.avatarUrl || "" : localProfile.avatarUrl || "";
+  const displayName = isAuthenticated
+    ? remoteProfile.data?.fullName || user?.name || t.profile
+    : localProfile.fullName || t.profile;
 
   const nav = [...navItems, ...(user?.role === "admin" ? [{ href: "/admin", key: "admin" as const, icon: ShieldCheck }] : [])];
 
@@ -60,12 +69,16 @@ export function SiteShell({ children }: { children: ReactNode }) {
             {isAuthenticated ? (
               <div className="relative hidden sm:block">
                 <button onClick={() => setUserOpen(value => !value)} className="flex h-10 items-center gap-2 rounded-full border border-[var(--navy)]/15 bg-white/65 px-3 text-sm font-semibold text-[var(--navy)]">
-                  <span className="grid size-7 place-items-center rounded-full bg-[var(--gold)]/25"><UserRound className="size-4" /></span>
-                  <span className="max-w-24 truncate">{user?.name || t.profile}</span><ChevronDown className="size-3.5" />
+                  <Avatar className="size-7 border border-[var(--gold)]/30">
+                    {avatarUrl ? <AvatarImage src={avatarUrl} alt={displayName} className="object-cover" /> : null}
+                    <AvatarFallback className="bg-[var(--gold)]/25 text-[var(--navy)]"><UserRound className="size-3.5" /></AvatarFallback>
+                  </Avatar>
+                  <span className="max-w-24 truncate">{displayName}</span><ChevronDown className="size-3.5" />
                 </button>
                 {userOpen && (
                   <div className="absolute right-0 mt-2 w-48 rounded-2xl border border-[var(--navy)]/10 bg-white p-2 shadow-xl">
                     <Link href="/profile" onClick={() => setUserOpen(false)} className="flex items-center gap-2 rounded-xl px-3 py-2 text-sm font-semibold hover:bg-[var(--cream)]"><UserRound className="size-4" />{t.profile}</Link>
+                    <Link href="/profile/setup" onClick={() => setUserOpen(false)} className="flex items-center gap-2 rounded-xl px-3 py-2 text-sm font-semibold hover:bg-[var(--cream)]"><Pencil className="size-4" />{locale === "en" ? "Edit profile" : locale === "ko" ? "프로필 설정" : "প্রোফাইল সেটআপ"}</Link>
                     <button onClick={() => logout()} className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-left text-sm font-semibold text-red-700 hover:bg-red-50"><LogOut className="size-4" />{t.signOut}</button>
                   </div>
                 )}

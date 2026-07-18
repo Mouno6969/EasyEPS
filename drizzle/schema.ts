@@ -25,6 +25,35 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
+/**
+ * Extended learner profile (1:1 with users).
+ * Populated via the profile setup form; required fields gate isComplete.
+ */
+export const userProfiles = mysqlTable("userProfiles", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull().unique(),
+  fullName: varchar("fullName", { length: 80 }).notNull(),
+  email: varchar("email", { length: 320 }).notNull(),
+  phone: varchar("phone", { length: 20 }),
+  preferredLocale: mysqlEnum("preferredLocale", ["bn", "ko", "en"]).default("bn").notNull(),
+  nationality: varchar("nationality", { length: 80 }).notNull(),
+  city: varchar("city", { length: 80 }),
+  learningLevel: mysqlEnum("learningLevel", ["beginner", "elementary", "intermediate"])
+    .default("beginner")
+    .notNull(),
+  targetIndustry: varchar("targetIndustry", { length: 120 }),
+  targetExamDate: varchar("targetExamDate", { length: 10 }),
+  bio: text("bio"),
+  /** Profile picture: /manus-storage/... path, https URL, or compressed data URL fallback. */
+  avatarUrl: text("avatarUrl"),
+  isComplete: boolean("isComplete").default(false).notNull(),
+  completedAt: timestamp("completedAt"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+export type UserProfileRow = typeof userProfiles.$inferSelect;
+export type InsertUserProfile = typeof userProfiles.$inferInsert;
+
 /** Lesson content: one row per chapter, content stored as JSON authored offline. */
 export const lessons = mysqlTable("lessons", {
   id: int("id").autoincrement().primaryKey(),
@@ -131,13 +160,19 @@ export const badges = mysqlTable(
 );
 export type Badge = typeof badges.$inferSelect;
 
-/** Issued certificates. */
+/** Issued certificates. Recipient identity is snapshotted at issue time. */
 export const certificates = mysqlTable("certificates", {
   id: int("id").autoincrement().primaryKey(),
   userId: int("userId").notNull(),
   code: varchar("code", { length: 32 }).notNull().unique(),
   kind: mysqlEnum("kind", ["course-completion", "mock-test"]).notNull(),
   scorePercent: int("scorePercent"),
+  /**
+   * Frozen learner profile used on the printed certificate:
+   * fullName, email, phone, nationality, city, learningLevel,
+   * targetIndustry, preferredLocale, avatarUrl.
+   */
+  recipientSnapshot: json("recipientSnapshot"),
   issuedAt: timestamp("issuedAt").defaultNow().notNull(),
 });
 export type Certificate = typeof certificates.$inferSelect;
