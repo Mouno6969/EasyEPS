@@ -1,5 +1,6 @@
 import { StrokePractice } from "@/components/basics/StrokePractice";
 import { SyllableBuilder } from "@/components/basics/SyllableBuilder";
+import { pushCelebration } from "@/components/CelebrationBanner";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { useLocale } from "@/contexts/LocaleContext";
@@ -35,9 +36,26 @@ import {
   Volume2,
   X,
 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { toast } from "sonner";
 import { Link, useRoute } from "wouter";
+
+const MODULE_BN: Record<BasicsModuleId, string> = {
+  welcome: "হ্যাঙ্গুল পরিচিতি",
+  consonants: "মৌলিক ব্যঞ্জনবর্ণ",
+  vowels: "মৌলিক স্বরবর্ণ",
+  syllables: "অক্ষর গঠন",
+  batchim: "ব্যাচিম পরিচিতি",
+  "speak-lab": "উচ্চারণ অনুশীলন",
+  "write-lab": "লেখা অনুশীলন",
+  checkpoint: "বেসিক পরীক্ষা",
+};
+
+function nextModuleAfter(id: BasicsModuleId): BasicsModuleId | null {
+  const idx = BASICS_MODULE_IDS.indexOf(id);
+  if (idx < 0 || idx >= BASICS_MODULE_IDS.length - 1) return null;
+  return BASICS_MODULE_IDS[idx + 1]!;
+}
 
 function isValidModuleId(id: string): id is BasicsModuleId {
   return (BASICS_MODULE_IDS as readonly string[]).includes(id);
@@ -64,17 +82,45 @@ export default function BasicsModulePage() {
   const module = moduleQuery.data;
   const [stepIndex, setStepIndex] = useState(0);
   const [listenCounts, setListenCounts] = useState<Record<string, number>>({});
+  const celebratedRef = useRef<string | null>(null);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
     setStepIndex(0);
     setListenCounts({});
+    celebratedRef.current = null;
   }, [moduleId]);
 
   const progress: BasicsModuleProgress = useMemo(() => {
     if (!moduleId) return emptyModuleProgress("welcome");
     return localBasics.modules[moduleId] ?? emptyModuleProgress(moduleId);
   }, [localBasics, moduleId]);
+
+  // Celebrate teaching-module completion once per session (non-checkpoint).
+  useEffect(() => {
+    if (!module || !moduleId || moduleId === "checkpoint") return;
+    if (!isModuleComplete(module, progress)) return;
+    const key = `easyeps-celeb-mod-${moduleId}`;
+    if (celebratedRef.current === moduleId) return;
+    try {
+      if (sessionStorage.getItem(key) === "1") {
+        celebratedRef.current = moduleId;
+        return;
+      }
+      sessionStorage.setItem(key, "1");
+    } catch {
+      // ignore
+    }
+    celebratedRef.current = moduleId;
+    const next = nextModuleAfter(moduleId);
+    if (!next) return;
+    pushCelebration({
+      title: "মডিউল সম্পন্ন!",
+      body: `${MODULE_BN[moduleId]} শেষ হয়েছে। পরের ধাপে এগোন।`,
+      href: `/basics/${next}`,
+      cta: `পরবর্তী: ${MODULE_BN[next]}`,
+    });
+  }, [module, moduleId, progress]);
 
   const persist = (
     patch: Partial<
@@ -178,7 +224,7 @@ export default function BasicsModulePage() {
         </div>
       </section>
 
-      <div className="sticky top-[72px] z-30 overflow-x-auto border-b border-[var(--navy)]/10 bg-[var(--cream)]/95 backdrop-blur-xl">
+      <div className="sticky top-[7.25rem] z-30 overflow-x-auto border-b border-[var(--navy)]/10 bg-[var(--cream)]/95 backdrop-blur-xl">
         <div className="container flex min-w-max gap-1 py-2">
           {steps.map((s, i) => {
             const done = progress.stepsDone.includes(s.id);
@@ -220,6 +266,12 @@ export default function BasicsModulePage() {
                     ? `Passed! ${result.score}/${result.total}`
                     : `পাস! ${result.score}/${result.total}`,
                 );
+                pushCelebration({
+                  title: "হ্যাঙ্গুল প্রস্তুত!",
+                  body: "চেকপয়েন্ট পাস—এখন ৬০ অধ্যায়ের পাঠ্যক্রমে শব্দ শিখুন।",
+                  href: "/curriculum",
+                  cta: "পাঠ্যক্রম খুলুন",
+                });
                 void utils.basics.gateStatus.invalidate();
                 void utils.basics.get.invalidate();
                 gate.refresh();
@@ -412,6 +464,9 @@ function StepRenderer({
         <h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">
           {locale === "en" ? "Listen & repeat" : "শুনুন ও বলুন"}
         </h2>
+        <p className="mt-3 rounded-2xl border border-[var(--gold)]/25 bg-[var(--gold)]/10 px-4 py-3 text-sm font-semibold leading-6 text-[var(--navy)]/80">
+          জোরে বলুন · অন্তত {minListens} বার শুনুন
+        </p>
         <div className="mt-7 space-y-3">
           {step.items.map(item => {
             const count = listenCounts[item.id] ?? 0;
@@ -419,23 +474,26 @@ function StepRenderer({
             return (
               <div
                 key={item.id}
-                className={`flex items-center gap-4 rounded-2xl border p-4 ${
+                className={`flex items-center gap-4 rounded-2xl border p-4 sm:p-5 ${
                   done ? "border-[var(--sage)]/30 bg-[var(--sage)]/10" : "border-[var(--navy)]/8 bg-white"
                 }`}
               >
                 <div className="min-w-0 flex-1">
-                  <p className="font-serif text-2xl font-bold text-[var(--navy)]">{item.text}</p>
-                  <p className="text-sm text-[var(--navy)]/50">
+                  <p className="font-serif text-3xl font-bold text-[var(--navy)] sm:text-4xl">{item.text}</p>
+                  <p className="mt-1 text-sm text-[var(--navy)]/50">
                     {item.romanization} · {locale === "en" ? item.en : item.bn}
                   </p>
-                  <p className="mt-1 text-xs text-[var(--navy)]/40">
-                    listens {count}/{minListens}
+                  <p className="mt-1 text-xs font-semibold text-[var(--navy)]/40">
+                    শোনা হয়েছে {count}/{minListens}
                   </p>
                 </div>
                 <button
                   type="button"
                   onClick={() => {
-                    void speakKorean(item.text, { audioText: item.audioText, rate: 0.8 });
+                    void speakKorean(item.text, {
+                      audioText: item.audioText || undefined,
+                      rate: 0.8,
+                    });
                     setListenCounts(prev => {
                       const nextCount = (prev[item.id] ?? 0) + 1;
                       const next = { ...prev, [item.id]: nextCount };
@@ -446,9 +504,10 @@ function StepRenderer({
                       return next;
                     });
                   }}
-                  className="grid size-12 place-items-center rounded-full bg-[var(--gold)]/18 text-[var(--gold-dark)]"
+                  className="grid size-16 shrink-0 place-items-center rounded-full bg-[var(--navy)] text-[var(--gold)] shadow-md transition hover:scale-105 sm:size-[4.5rem]"
+                  aria-label="Play Korean audio"
                 >
-                  <Headphones className="size-5" />
+                  <Volume2 className="size-7 sm:size-8" />
                 </button>
               </div>
             );
@@ -583,10 +642,68 @@ function BasicsQuizRunner({
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [matching, setMatching] = useState<Record<string, Record<string, string>>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [quizStarted, setQuizStarted] = useState(!isCheckpoint);
   const [result, setResult] = useState<{ score: number; total: number; correctIds: string[] } | null>(
     null,
   );
-  const [startedAt] = useState(Date.now());
+  const [startedAt, setStartedAt] = useState(Date.now());
+
+  const passRatio = module.requirements.passRatio ?? 0.7;
+  const passPercent = Math.round(passRatio * 100);
+
+  if (isCheckpoint && !quizStarted) {
+    return (
+      <section className="paper-card p-6 md:p-10">
+        <p className="eyebrow">Checkpoint</p>
+        <h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">
+          {locale === "en" ? "Basics Check" : "বেসিক পরীক্ষা"}
+        </h2>
+        <p className="mt-4 max-w-2xl text-sm leading-7 text-[var(--navy)]/70">
+          {locale === "en"
+            ? `Short placement quiz. You need about ${passPercent}% to unlock the 60-chapter path. Fail? Review modules and retry.`
+            : `ছোট প্লেসমেন্ট কুইজ। ৬০ অধ্যায় খুলতে প্রায় ${passPercent}% স্কোর লাগবে। ফেল করলে মডিউল রিভিউ করে আবার চেষ্টা করুন।`}
+        </p>
+        <ul className="mt-6 space-y-2 text-sm font-semibold text-[var(--navy)]/75">
+          <li className="flex items-center gap-2">
+            <span className="grid size-6 place-items-center rounded-full bg-[var(--gold)]/20 text-xs font-bold text-[var(--gold-dark)]">
+              1
+            </span>
+            প্রশ্ন সংখ্যা: ~{questions.length}
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="grid size-6 place-items-center rounded-full bg-[var(--gold)]/20 text-xs font-bold text-[var(--gold-dark)]">
+              2
+            </span>
+            পাস অনুপাত: {passPercent}%
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="grid size-6 place-items-center rounded-full bg-[var(--gold)]/20 text-xs font-bold text-[var(--gold-dark)]">
+              3
+            </span>
+            আনুমানিক সময়: ~{module.estimatedMinutes} মিনিট
+          </li>
+        </ul>
+        {typeof progress.quizScore === "number" && (
+          <p className="mt-4 text-sm text-[var(--sage-dark)]">
+            সর্বশেষ: {progress.quizScore}/{progress.quizTotal}
+          </p>
+        )}
+        <Button
+          type="button"
+          className="mt-8 rounded-full bg-[var(--navy)] px-8 text-white"
+          onClick={() => {
+            setQuizStarted(true);
+            setStartedAt(Date.now());
+          }}
+        >
+          শুরু করুন
+        </Button>
+        <Link href="/basics" className="mt-4 block text-sm font-bold text-[var(--navy)]/50 underline">
+          মডিউলে ফিরে যান
+        </Link>
+      </section>
+    );
+  }
 
   const submit = async () => {
     if (isCheckpoint && isAuthenticated) {

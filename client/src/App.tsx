@@ -1,3 +1,4 @@
+import { CelebrationHost } from "@/components/CelebrationBanner";
 import { OnboardingTour } from "@/components/OnboardingTour";
 import { SiteShell } from "@/components/SiteShell";
 import { Toaster } from "@/components/ui/sonner";
@@ -96,6 +97,7 @@ function App() {
             <GuestMergeBootstrap />
             <PwaRegister />
             <OnboardingTour />
+            <CelebrationHost />
             <Router />
           </TooltipProvider>
         </LocaleProvider>

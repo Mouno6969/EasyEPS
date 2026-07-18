@@ -151,6 +151,17 @@ export function DashboardPage() {
   const maxMinutes = Math.max(30, ...studyDays.map(day => day.minutes));
   const weak = listRecentWeak(5);
   const due = listDueReviews(5);
+  const reviewPack = useMemo(() => {
+    const seen = new Set<string>();
+    const pack = [];
+    for (const item of [...due, ...weak]) {
+      if (seen.has(item.id)) continue;
+      seen.add(item.id);
+      pack.push(item);
+      if (pack.length >= 5) break;
+    }
+    return pack;
+  }, [due, weak]);
   const nextHref = hangulReady ? `/lesson/${nextChapter}` : "/basics";
   const nextLabel = hangulReady ? "পরবর্তী অধ্যায়" : t.startBasics;
   const nextDetail = hangulReady
@@ -166,6 +177,50 @@ export function DashboardPage() {
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         {[{ label: "সম্পন্ন অধ্যায়", value: `${metrics.completedLessons}/60`, icon: BookCheck, tone: "sage" }, { label: "গড় স্কোর", value: `${metrics.averageScore}%`, icon: TrendingUp, tone: "gold" }, { label: "বর্তমান স্ট্রিক", value: `${metrics.streak} দিন`, icon: Flame, tone: "clay" }, { label: "মোট অধ্যয়ন", value: `${metrics.studyMinutes} মিনিট`, icon: Clock3, tone: "navy" }].map(({ label, value, icon: Icon, tone }) => <div key={label} className="metric-card"><span className={`metric-icon metric-${tone}`}><Icon className="size-5" /></span><p className="mt-5 text-sm font-semibold text-[var(--navy)]/55">{label}</p><p className="mt-1 font-serif text-3xl font-bold text-[var(--navy)]">{value}</p></div>)}
       </div>
+
+      {/* ১০ মিনিট রিভিউ pack */}
+      <section className="paper-card mt-7 p-6">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <p className="eyebrow">দ্রুত রিভিউ</p>
+            <h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">১০ মিনিট রিভিউ</h2>
+            <p className="mt-1 text-sm text-[var(--navy)]/55">দুর্বল বা নির্ধারিত আইটেম—সর্বোচ্চ ৫টি</p>
+          </div>
+          {reviewPack[0] ? (
+            <Link href={hrefForReview(reviewPack[0])}>
+              <Button className="rounded-full bg-[var(--navy)] text-white">
+                রিভিউ শুরু <ChevronRight className="size-4" />
+              </Button>
+            </Link>
+          ) : null}
+        </div>
+        {reviewPack.length ? (
+          <ul className="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {reviewPack.map(item => (
+              <li key={item.id}>
+                <Link
+                  href={hrefForReview(item)}
+                  className="flex items-center justify-between gap-2 rounded-2xl border border-[var(--navy)]/10 bg-[var(--cream)] px-4 py-3 text-sm font-semibold text-[var(--navy)] transition hover:border-[var(--gold)]/40"
+                >
+                  <span className="truncate">{item.labelBn}</span>
+                  <span className="shrink-0 text-xs text-[var(--navy)]/45">{item.misses}×</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <div className="mt-5 rounded-2xl border border-dashed border-[var(--navy)]/15 bg-[var(--cream)]/60 px-5 py-8 text-center">
+            <p className="font-semibold text-[var(--navy)]/65">এখন কোনো রিভিউ বাকি নেই</p>
+            <p className="mt-2 text-sm text-[var(--navy)]/50">
+              অনুশীলন বা পরীক্ষায় ভুল হলে এখানে রিভিউ আইটেম দেখাবে। নতুন পাঠ শুরু করুন!
+            </p>
+            <Link href={nextHref} className="mt-4 inline-flex text-sm font-bold text-[var(--gold-dark)]">
+              {nextLabel} →
+            </Link>
+          </div>
+        )}
+      </section>
+
       <div className="mt-7 grid gap-7 lg:grid-cols-[1.25fr_.75fr]">
         <section className="paper-card p-6"><div className="flex items-center justify-between"><div><p className="eyebrow">গত ৭ দিন</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">অধ্যয়নের ধারাবাহিকতা</h2></div><BarChart3 className="size-6 text-[var(--gold-dark)]" /></div><div className="mt-8 flex h-56 items-end gap-3">{studyDays.map(day => <div key={day.key} className="flex h-full flex-1 flex-col items-center justify-end gap-2"><span className="text-xs font-bold text-[var(--navy)]/45">{day.minutes || ""}</span><div className="w-full max-w-14 rounded-t-xl bg-[var(--sage)] transition-all" style={{ height: `${Math.max(5, day.minutes / maxMinutes * 100)}%` }} /><span className="text-xs font-semibold text-[var(--navy)]/55">{day.label}</span></div>)}</div></section>
         <section className="paper-card p-6"><p className="eyebrow">এখনই করুন</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">আজকের এক ধাপ</h2><div className="mt-6 rounded-2xl bg-[var(--navy)] p-5 text-white"><span className="text-xs font-bold uppercase tracking-wider text-[var(--gold)]">{hangulReady ? `অধ্যায় ${nextChapter}` : "হ্যাঙ্গুল বেসিক"}</span><p className="mt-2 text-lg font-bold">{hangulReady ? "২০ মিনিট নতুন পাঠ" : "বেসিক সম্পূর্ণ করুন"}</p><p className="mt-2 text-sm leading-6 text-white/65">{nextDetail}</p><Link href={nextHref} className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-[var(--gold)]">{nextLabel} <ChevronRight className="size-4" /></Link></div>
@@ -191,7 +246,42 @@ export function DashboardPage() {
           )}
         </section>
       </div>
-      <section className="paper-card mt-7 overflow-hidden"><div className="border-b border-[var(--navy)]/8 p-6"><h2 className="font-serif text-2xl font-bold text-[var(--navy)]">সাম্প্রতিক ফলাফল</h2></div>{recent.length ? <div className="divide-y divide-[var(--navy)]/8">{recent.map(item => <div key={item.id} className="flex items-center justify-between gap-4 p-5"><div><p className="font-bold text-[var(--navy)]">{item.kind === "mock-test" ? "পূর্ণাঙ্গ মক টেস্ট" : item.kind === "chapter-exam" ? `অধ্যায় ${item.chapter} পরীক্ষা` : `অধ্যায় ${item.chapter} অনুশীলন`}</p><p className="mt-1 text-xs text-[var(--navy)]/45">{new Date(item.createdAt).toLocaleString("bn-BD")}</p></div><span className="score-ring">{Math.round(item.score / item.total * 100)}%</span></div>)}</div> : <div className="p-8 text-center text-[var(--navy)]/50">এখনও কোনো পরীক্ষা দেওয়া হয়নি।</div>}</section>
+      <section className="paper-card mt-7 overflow-hidden">
+        <div className="border-b border-[var(--navy)]/8 p-6">
+          <h2 className="font-serif text-2xl font-bold text-[var(--navy)]">সাম্প্রতিক ফলাফল</h2>
+        </div>
+        {recent.length ? (
+          <div className="divide-y divide-[var(--navy)]/8">
+            {recent.map(item => (
+              <div key={item.id} className="flex items-center justify-between gap-4 p-5">
+                <div>
+                  <p className="font-bold text-[var(--navy)]">
+                    {item.kind === "mock-test"
+                      ? "পূর্ণাঙ্গ মক টেস্ট"
+                      : item.kind === "chapter-exam"
+                        ? `অধ্যায় ${item.chapter} পরীক্ষা`
+                        : `অধ্যায় ${item.chapter} অনুশীলন`}
+                  </p>
+                  <p className="mt-1 text-xs text-[var(--navy)]/45">
+                    {new Date(item.createdAt).toLocaleString("bn-BD")}
+                  </p>
+                </div>
+                <span className="score-ring">{Math.round((item.score / item.total) * 100)}%</span>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="p-8 text-center">
+            <p className="font-semibold text-[var(--navy)]/60">এখনও কোনো পরীক্ষা বা অনুশীলন দেওয়া হয়নি</p>
+            <p className="mt-2 text-sm text-[var(--navy)]/45">
+              প্রথম ধাপ নিন—বেসিক বা অধ্যায় অনুশীলন শুরু করলে ফলাফল এখানে দেখাবে।
+            </p>
+            <Link href={nextHref} className="mt-4 inline-flex text-sm font-bold text-[var(--gold-dark)]">
+              {nextLabel} →
+            </Link>
+          </div>
+        )}
+      </section>
     </div>
   </>;
 }

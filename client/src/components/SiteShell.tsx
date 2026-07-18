@@ -3,6 +3,7 @@ import { useLocale } from "@/contexts/LocaleContext";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
+import { ProgressRibbon } from "@/components/ProgressRibbon";
 import { useLocalProfile } from "@/lib/localProfile";
 import { trpc } from "@/lib/trpc";
 import { BookOpenText, Bot, CalendarDays, ChevronDown, GraduationCap, LayoutDashboard, LogIn, LogOut, Menu, Pencil, ShieldCheck, SpellCheck2, UserRound, X } from "lucide-react";
@@ -108,6 +109,8 @@ export function SiteShell({ children }: { children: ReactNode }) {
           </div>
         )}
       </header>
+
+      <ProgressRibbon />
 
       <main>{children}</main>
 

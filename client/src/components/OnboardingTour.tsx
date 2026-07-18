@@ -8,22 +8,23 @@ const KEY = "easyeps-onboarding-v1";
 const steps = [
   {
     icon: SpellCheck2,
-    title: "১ · হ্যাঙ্গুল বেসিক",
-    text: "অধ্যায় ১-এর আগে জামো, উচ্চারণ ও লেখার ভিত্তি শেষ করুন।",
+    title: "১ · শুনুন · বলুন · লিখুন",
+    text: "প্রথমে জামো শিখুন—শুনুন, জোরে বলুন, লিখে অনুশীলন করুন। অধ্যায় ১-এর আগে বেসিক শেষ করুন।",
     href: "/basics",
-    cta: "বেসিক খুলুন",
+    cta: "বেসিক শুরু",
+    image: "/basics/module-icon.jpg",
   },
   {
     icon: BookOpenText,
     title: "২ · প্রথম পাঠ",
-    text: "৬০টি অধ্যায়ের মধ্যে দৈনন্দিন Korean শব্দ ও সংলাপ শিখুন।",
+    text: "বেসিক শেষে ৬০ অধ্যায়ে শব্দ ও সংলাপ শিখুন।",
     href: "/curriculum",
     cta: "পাঠ্যক্রম",
   },
   {
     icon: GraduationCap,
     title: "৩ · মক টেস্ট",
-    text: "প্রস্তুতি যাচাই করতে সময়-নিয়ন্ত্রিত EPS-ধাঁচের পরীক্ষা দিন।",
+    text: "প্রস্তুতি যাচাই করতে EPS-ধাঁচের মক টেস্ট দিন।",
     href: "/mock-test",
     cta: "মক টেস্ট",
   },
@@ -32,6 +33,7 @@ const steps = [
 export function OnboardingTour() {
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState(0);
+  const [imgFailed, setImgFailed] = useState(false);
 
   useEffect(() => {
     try {
@@ -42,6 +44,10 @@ export function OnboardingTour() {
       // ignore
     }
   }, []);
+
+  useEffect(() => {
+    setImgFailed(false);
+  }, [step]);
 
   const dismiss = () => {
     try {
@@ -55,14 +61,27 @@ export function OnboardingTour() {
   if (!open) return null;
   const current = steps[step]!;
   const Icon = current.icon;
+  const image = "image" in current ? current.image : undefined;
+  const showImage = Boolean(image) && !imgFailed;
 
   return (
     <div className="fixed inset-0 z-[80] flex items-end justify-center bg-[var(--navy)]/45 p-4 sm:items-center" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
       <div className="w-full max-w-md rounded-3xl border border-[var(--navy)]/10 bg-[var(--cream)] p-6 shadow-2xl">
         <div className="flex items-start justify-between gap-3">
-          <span className="grid size-12 place-items-center rounded-2xl bg-[var(--navy)] text-[var(--gold)]">
-            <Icon className="size-6" />
-          </span>
+          {showImage ? (
+            <span className="size-14 overflow-hidden rounded-2xl border border-[var(--gold)]/25 shadow-sm">
+              <img
+                src={image}
+                alt=""
+                className="h-full w-full object-cover"
+                onError={() => setImgFailed(true)}
+              />
+            </span>
+          ) : (
+            <span className="grid size-12 place-items-center rounded-2xl bg-[var(--navy)] text-[var(--gold)]">
+              <Icon className="size-6" />
+            </span>
+          )}
           <button type="button" onClick={dismiss} className="grid size-9 place-items-center rounded-full text-[var(--navy)]/50 hover:bg-white" aria-label="Close tour">
             <X className="size-5" />
           </button>

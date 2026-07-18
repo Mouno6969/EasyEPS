@@ -1,4 +1,5 @@
 import { BasicsCtaBanner, BasicsLockCard } from "@/components/basics/BasicsLockCard";
+import { pushCelebration } from "@/components/CelebrationBanner";
 import { Button } from "@/components/ui/button";
 import { useLocale } from "@/contexts/LocaleContext";
 import { useBasicsGate } from "@/hooks/useBasicsGate";
@@ -55,13 +56,41 @@ function CompleteButton({ done, onClick, children }: { done?: boolean; onClick: 
   return <Button onClick={onClick} className={`mt-7 rounded-full px-6 ${done ? "bg-[var(--sage)] text-white" : "bg-[var(--navy)] text-white"}`}>{done ? <Check className="size-4" /> : null}{done ? "সম্পন্ন হয়েছে" : children}</Button>;
 }
 
+function SpeakRateToggle({
+  rate,
+  onChange,
+}: {
+  rate: number;
+  onChange: (rate: number) => void;
+}) {
+  return (
+    <div className="inline-flex items-center gap-1 rounded-full border border-[var(--navy)]/12 bg-white p-1 text-xs font-bold">
+      <button
+        type="button"
+        onClick={() => onChange(0.7)}
+        className={`rounded-full px-3 py-1.5 ${rate === 0.7 ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}
+      >
+        ধীর
+      </button>
+      <button
+        type="button"
+        onClick={() => onChange(1)}
+        className={`rounded-full px-3 py-1.5 ${rate === 1 ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}
+      >
+        সাধারণ
+      </button>
+    </div>
+  );
+}
+
 function VocabularyView({ lesson, done, onDone }: { lesson: Lesson; done?: boolean; onDone: () => void }) {
   const [flashcards, setFlashcards] = useState(false);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
+  const [speakRate, setSpeakRate] = useState(0.85);
   const item = lesson.vocabulary[index];
-  if (flashcards) return <section className="paper-card p-6 md:p-8"><div className="flex items-center justify-between"><div><p className="eyebrow">Flashcard {index + 1}/{lesson.vocabulary.length}</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">শব্দ মনে রাখুন</h2></div><Button variant="outline" onClick={() => setFlashcards(false)} className="rounded-full">তালিকা</Button></div><button onClick={() => setFlipped(value => !value)} className="mt-8 grid min-h-80 w-full place-items-center rounded-[2rem] border border-[var(--gold)]/25 bg-[radial-gradient(circle_at_top,rgba(204,166,92,.18),transparent_45%)] p-8 text-center shadow-inner"><div>{flipped ? <><p className="font-serif text-4xl font-bold text-[var(--navy)]">{item.bn}</p><p className="mt-3 text-lg text-[var(--navy)]/55">{item.en}</p><div className="mx-auto mt-7 max-w-2xl rounded-2xl bg-white/70 p-5"><p className="text-xl font-bold text-[var(--navy)]">{item.example.ko}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/60">{item.example.bn}</p></div></> : <><p className="text-sm font-bold uppercase tracking-[.2em] text-[var(--gold-dark)]">{item.pos}</p><p className="mt-5 font-serif text-6xl font-bold text-[var(--navy)]">{item.ko}</p><p className="mt-3 text-lg text-[var(--navy)]/45">{item.romanization}</p><p className="mt-7 text-sm font-semibold text-[var(--navy)]/45">অর্থ দেখতে কার্ডে চাপুন</p></>}</div></button><div className="mt-6 flex items-center justify-between"><Button variant="outline" onClick={() => { setIndex(value => Math.max(0, value - 1)); setFlipped(false); }} disabled={index === 0} className="rounded-full"><ChevronLeft className="size-4" />আগেরটি</Button><button onClick={() => void speakKorean(item.ko)} className="grid size-11 place-items-center rounded-full bg-[var(--gold)]/18 text-[var(--gold-dark)]"><Volume2 className="size-5" /></button><Button onClick={() => { if (index === lesson.vocabulary.length - 1) onDone(); else { setIndex(value => value + 1); setFlipped(false); } }} className="rounded-full bg-[var(--navy)] text-white">{index === lesson.vocabulary.length - 1 ? "সম্পন্ন" : "পরেরটি"}<ChevronRight className="size-4" /></Button></div></section>;
-  return <section className="paper-card p-6 md:p-8"><div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="eyebrow">{lesson.vocabulary.length}টি দরকারি শব্দ</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">শব্দভাণ্ডার</h2></div><Button variant="outline" onClick={() => setFlashcards(true)} className="rounded-full"><RotateCcw className="size-4" />Flashcard mode</Button></div><div className="mt-7 grid gap-3">{lesson.vocabulary.map((word, wordIndex) => <div key={`${word.ko}-${wordIndex}`} className="group grid gap-4 rounded-2xl border border-[var(--navy)]/8 bg-white p-4 transition hover:border-[var(--gold)]/30 md:grid-cols-[1.1fr_1fr_2fr_auto] md:items-center"><div><p className="text-xl font-bold text-[var(--navy)]">{word.ko}</p><p className="mt-1 text-xs text-[var(--navy)]/42">{word.romanization} · {word.pos}</p></div><div><p className="font-bold text-[var(--navy)]">{word.bn}</p><p className="text-xs text-[var(--navy)]/45">{word.en}</p></div><div className="rounded-xl bg-[var(--cream)] px-4 py-3"><p className="font-semibold text-[var(--navy)]">{word.example.ko}</p><p className="mt-1 text-xs leading-5 text-[var(--navy)]/52">{word.example.bn}</p></div><button onClick={() => void speakKorean(`${word.ko}. ${word.example.ko}`)} aria-label="Play Korean" className="grid size-10 place-items-center rounded-full bg-[var(--gold)]/14 text-[var(--gold-dark)]"><Volume2 className="size-4" /></button></div>)}</div><CompleteButton done={done} onClick={onDone}>শব্দভাণ্ডার সম্পন্ন করুন</CompleteButton></section>;
+  if (flashcards) return <section className="paper-card p-6 md:p-8"><div className="flex flex-wrap items-center justify-between gap-3"><div><p className="eyebrow">Flashcard {index + 1}/{lesson.vocabulary.length}</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">শব্দ মনে রাখুন</h2></div><div className="flex flex-wrap items-center gap-2"><SpeakRateToggle rate={speakRate === 0.7 ? 0.7 : 1} onChange={r => setSpeakRate(r === 0.7 ? 0.7 : 0.85)} /><Button variant="outline" onClick={() => setFlashcards(false)} className="rounded-full">তালিকা</Button></div></div><button onClick={() => setFlipped(value => !value)} className="mt-8 grid min-h-80 w-full place-items-center rounded-[2rem] border border-[var(--gold)]/25 bg-[radial-gradient(circle_at_top,rgba(204,166,92,.18),transparent_45%)] p-8 text-center shadow-inner"><div>{flipped ? <><p className="font-serif text-4xl font-bold text-[var(--navy)]">{item.bn}</p><p className="mt-3 text-lg text-[var(--navy)]/55">{item.en}</p><div className="mx-auto mt-7 max-w-2xl rounded-2xl bg-white/70 p-5"><p className="text-xl font-bold text-[var(--navy)]">{item.example.ko}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/60">{item.example.bn}</p></div></> : <><p className="text-sm font-bold uppercase tracking-[.2em] text-[var(--gold-dark)]">{item.pos}</p><p className="mt-5 font-serif text-6xl font-bold text-[var(--navy)]">{item.ko}</p><p className="mt-3 text-lg text-[var(--navy)]/45">{item.romanization}</p><p className="mt-7 text-sm font-semibold text-[var(--navy)]/45">অর্থ দেখতে কার্ডে চাপুন</p></>}</div></button><div className="mt-6 flex items-center justify-between"><Button variant="outline" onClick={() => { setIndex(value => Math.max(0, value - 1)); setFlipped(false); }} disabled={index === 0} className="rounded-full"><ChevronLeft className="size-4" />আগেরটি</Button><button onClick={() => void speakKorean(item.ko, { rate: speakRate })} className="grid size-11 place-items-center rounded-full bg-[var(--gold)]/18 text-[var(--gold-dark)]"><Volume2 className="size-5" /></button><Button onClick={() => { if (index === lesson.vocabulary.length - 1) onDone(); else { setIndex(value => value + 1); setFlipped(false); } }} className="rounded-full bg-[var(--navy)] text-white">{index === lesson.vocabulary.length - 1 ? "সম্পন্ন" : "পরেরটি"}<ChevronRight className="size-4" /></Button></div></section>;
+  return <section className="paper-card p-6 md:p-8"><div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="eyebrow">{lesson.vocabulary.length}টি দরকারি শব্দ</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">শব্দভাণ্ডার</h2></div><div className="flex flex-wrap items-center gap-2"><SpeakRateToggle rate={speakRate === 0.7 ? 0.7 : 1} onChange={r => setSpeakRate(r === 0.7 ? 0.7 : 0.85)} /><Button variant="outline" onClick={() => setFlashcards(true)} className="rounded-full"><RotateCcw className="size-4" />Flashcard mode</Button></div></div><div className="mt-7 grid gap-3">{lesson.vocabulary.map((word, wordIndex) => <div key={`${word.ko}-${wordIndex}`} className="group grid gap-4 rounded-2xl border border-[var(--navy)]/8 bg-white p-4 transition hover:border-[var(--gold)]/30 md:grid-cols-[1.1fr_1fr_2fr_auto] md:items-center"><div><p className="text-xl font-bold text-[var(--navy)]">{word.ko}</p><p className="mt-1 text-xs text-[var(--navy)]/42">{word.romanization} · {word.pos}</p></div><div><p className="font-bold text-[var(--navy)]">{word.bn}</p><p className="text-xs text-[var(--navy)]/45">{word.en}</p></div><div className="rounded-xl bg-[var(--cream)] px-4 py-3"><p className="font-semibold text-[var(--navy)]">{word.example.ko}</p><p className="mt-1 text-xs leading-5 text-[var(--navy)]/52">{word.example.bn}</p></div><button onClick={() => void speakKorean(`${word.ko}. ${word.example.ko}`, { rate: speakRate })} aria-label="Play Korean" className="grid size-10 place-items-center rounded-full bg-[var(--gold)]/14 text-[var(--gold-dark)]"><Volume2 className="size-4" /></button></div>)}</div><CompleteButton done={done} onClick={onDone}>শব্দভাণ্ডার সম্পন্ন করুন</CompleteButton></section>;
 }
 
 function PracticeRunner({
@@ -226,6 +255,16 @@ export default function LessonPage() {
       total,
     });
     toast.success(`স্কোর ${score}/${total} সংরক্ষিত হয়েছে`);
+    if (total > 0 && score / total >= 0.75) {
+      const next = Math.min(60, chapter + 1);
+      const isExam = kind === "chapter-exam";
+      pushCelebration({
+        title: kind === "practice" ? "ভালো স্কোর!" : "অধ্যায় পরীক্ষা পাস!",
+        body: `স্কোর ${score}/${total} (${Math.round((score / total) * 100)}%) — চালিয়ে যান।`,
+        href: isExam && chapter < 60 ? `/lesson/${next}` : `/lesson/${chapter}`,
+        cta: isExam && chapter < 60 ? `অধ্যায় ${next}` : "পাঠে থাকুন",
+      });
+    }
   };
 
   if (lessonQuery.isLoading) return <div className="container py-32 text-center"><Loader2 className="mx-auto size-8 animate-spin text-[var(--gold-dark)]" /><p className="mt-4 font-semibold text-[var(--navy)]/55">পাঠ প্রস্তুত হচ্ছে…</p></div>;
@@ -234,9 +273,21 @@ export default function LessonPage() {
   return <>
     <section className="bg-[var(--navy)] text-white"><div className="sacred-grid-dark"><div className="container py-10 md:py-14"><div className="flex items-center justify-between gap-4"><Link href="/curriculum" className="inline-flex items-center gap-2 text-sm font-bold text-white/60 hover:text-[var(--gold)]"><ArrowLeft className="size-4" />পাঠ্যক্রম</Link><span className="rounded-full bg-white/8 px-3 py-1 text-xs font-bold text-[var(--gold)]">{local?.completed ? "সম্পন্ন" : `CHAPTER ${String(chapter).padStart(2, "0")}`}</span></div><div className="mt-9 max-w-4xl"><p className="text-sm font-bold uppercase tracking-[.2em] text-[var(--gold)]">{lesson.category.replace("-", " ")}</p><h1 className="mt-4 font-serif text-4xl font-bold leading-tight md:text-6xl">{title}</h1>{locale !== "ko" && <p className="mt-3 text-2xl font-semibold text-white/45">{lesson.title.ko}</p>}<div className="mt-8 flex flex-wrap gap-4 text-sm text-white/55"><span>{lesson.vocabulary.length} শব্দ</span><span>·</span><span>{lesson.grammar.length} ব্যাকরণ</span><span>·</span><span>{lesson.practice.length} অনুশীলন</span><span>·</span><span>{lesson.epsQuestions.length} পরীক্ষার প্রশ্ন</span></div></div></div></div></section>
 
-    <div className="sticky top-[72px] z-30 overflow-x-auto border-b border-[var(--navy)]/10 bg-[var(--cream)]/95 backdrop-blur-xl"><div className="container flex min-w-max gap-1 py-2">{tabs.map(({ id, label, icon: Icon }) => <button key={id} onClick={() => setActive(id)} className={`lesson-tab ${active === id ? "lesson-tab-active" : ""}`}><Icon className="size-4" />{label}</button>)}</div></div>
+    <div className="sticky top-[7.25rem] z-30 overflow-x-auto border-b border-[var(--navy)]/10 bg-[var(--cream)]/95 backdrop-blur-xl"><div className="container flex min-w-max gap-1 py-2">{tabs.map(({ id, label, icon: Icon }) => <button key={id} onClick={() => setActive(id)} className={`lesson-tab ${active === id ? "lesson-tab-active" : ""}`}><Icon className="size-4" />{label}</button>)}</div></div>
 
     <div className="container py-8 md:py-12">
+      {chapter === 1 && (
+        <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--gold)]/35 bg-[var(--gold)]/12 p-4 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-sm font-semibold leading-6 text-[var(--navy)]">
+            <strong>হ্যাঙ্গুল শেষ—এখন শব্দ শিখুন।</strong> জামো ভুলে গেলে বেসিক রিভিউ করুন।
+          </p>
+          <Link href="/basics">
+            <Button variant="outline" className="rounded-full border-[var(--navy)]/20 shrink-0">
+              বেসিক রিভিউ
+            </Button>
+          </Link>
+        </div>
+      )}
       {softBanner && <BasicsCtaBanner className="mb-7" />}
       {hardBlocked && (active === "practice" || active === "exam") ? (
         <BasicsLockCard hard />

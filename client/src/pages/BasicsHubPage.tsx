@@ -103,10 +103,10 @@ export default function BasicsHubPage() {
         title={t.basics ?? (locale === "en" ? "Hangul Basics" : locale === "ko" ? "한글 기초" : "হ্যাঙ্গুল বেসিক")}
         description={
           locale === "en"
-            ? "Learn Korean letters (jamo), speaking, writing, and syllable building—then pass a short checkpoint to unlock the 60-chapter path."
+            ? "Learn Korean letters (jamo), speaking, writing, and syllable building—then pass a short checkpoint (70%) to unlock the 60-chapter path."
             : locale === "ko"
-              ? "자모, 발음, 쓰기, 음절 만들기를 익히고 기초 확인을 통과하면 60과 학습이 열립니다."
-              : "জামো, উচ্চারণ, লেখা ও অক্ষর গঠন শিখে ছোট চেকপয়েন্ট পাস করুন—তারপর ৬০ অধ্যায়ের পথ খুলবে।"
+              ? "자모, 발음, 쓰기, 음절 만들기를 익히고 기초 확인(70%)을 통과하면 60과 학습이 열립니다."
+              : "জামো, উচ্চারণ, লেখা ও অক্ষর গঠন শিখে ছোট চেকপয়েন্ট পাস করুন (৭০%)—তারপর ৬০ অধ্যায়ের পথ খুলবে।"
         }
         actions={
           hangulReady ? (
@@ -145,10 +145,10 @@ export default function BasicsHubPage() {
               </h2>
               <p className="mt-3 max-w-xl text-sm leading-7 text-white/65">
                 {locale === "en"
-                  ? "Already know Hangul? Skip to the checkpoint. Otherwise start at Welcome and work through the track."
+                  ? "Already know Hangul? Take the checkpoint. Fail? Redo modules and try again. Pass needs about 70%."
                   : locale === "ko"
-                    ? "이미 한글을 알면 체크포인트로 바로 가세요. 아니면 안내부터 순서대로 진행하세요."
-                    : "ইতিমধ্যে হ্যাঙ্গুল জানেন? চেকপয়েন্টে যান। নাহলে ওয়েলকাম থেকে শুরু করুন।"}
+                    ? "이미 한글을 알면 체크포인트로 가세요. 실패하면 모듈을 다시 보고 재도전하세요. 통과 기준 약 70%."
+                    : "ইতিমধ্যে হ্যাঙ্গুল জানেন? চেকপয়েন্ট দিন। ফেল করলে মডিউল রিভিউ করে আবার চেষ্টা করুন। পাস করতে প্রায় ৭০% লাগবে।"}
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link href="/basics/checkpoint">
@@ -177,9 +177,48 @@ export default function BasicsHubPage() {
                   (e.target as HTMLImageElement).style.display = "none";
                 }}
               />
+              <video
+                className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-700 data-[ready=true]:opacity-50"
+                src="/basics/hub-hero.mp4"
+                muted
+                playsInline
+                loop
+                autoPlay
+                poster="/basics/hub-hero.jpg"
+                onCanPlay={e => {
+                  (e.currentTarget as HTMLVideoElement).dataset.ready = "true";
+                }}
+                onError={e => {
+                  (e.currentTarget as HTMLVideoElement).style.display = "none";
+                }}
+              />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[var(--navy)]/50 to-transparent" />
             </div>
           </div>
+        </div>
+
+        {/* Placement clarity */}
+        <div className="mb-8 rounded-3xl border border-[var(--gold)]/30 bg-[var(--gold)]/10 p-5 md:p-6">
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-[var(--gold-dark)]">
+            {locale === "en" ? "Placement" : locale === "ko" ? "배치" : "প্লেসমেন্ট"}
+          </p>
+          <h3 className="mt-2 font-serif text-xl font-bold text-[var(--navy)]">
+            {locale === "en"
+              ? "“I already know Hangul” → checkpoint"
+              : locale === "ko"
+                ? "“한글을 이미 압니다” → 체크포인트"
+                : "“আমি ইতিমধ্যে হ্যাঙ্গুল জানি” → চেকপয়েন্ট"}
+          </h3>
+          <p className="mt-2 max-w-3xl text-sm leading-7 text-[var(--navy)]/70">
+            {locale === "en"
+              ? "Skip teaching modules only if you can pass the short check. Score below 70%? Review the modules, then retake. Passing unlocks the 60-chapter curriculum."
+              : locale === "ko"
+                ? "기초 확인을 통과할 수 있을 때만 모듈을 건너뛰세요. 70% 미만이면 모듈을 복습한 뒤 다시 보세요. 통과하면 60과가 열립니다."
+                : "চেকপয়েন্ট পাস করতে পারলেই মডিউল এড়িয়ে যান। ৭০%-এর নিচে হলে মডিউল রিভিউ করে আবার দিন। পাস করলে ৬০ অধ্যায়ের পাঠ্যক্রম খুলবে।"}
+          </p>
+          <p className="mt-3 text-sm font-bold text-[var(--navy)]">
+            {locale === "en" ? "Pass score: 70%" : locale === "ko" ? "통과 점수: 70%" : "পাস স্কোর: ৭০%"}
+          </p>
         </div>
 
         {!hangulReady && <BasicsCtaBanner className="mb-8" />}
@@ -212,36 +251,49 @@ export default function BasicsHubPage() {
 
               const cardInner = (
                 <div
-                  className={`paper-card group relative h-full p-5 transition ${
+                  className={`paper-card group relative h-full overflow-hidden p-0 transition ${
                     locked ? "opacity-70" : "hover:-translate-y-0.5 hover:border-[var(--gold)]/35"
                   }`}
                 >
-                  <div className="flex items-start justify-between gap-3">
-                    <span className="chapter-number">{String(mod.order + 1).padStart(2, "0")}</span>
-                    {done ? (
-                      <span className="status-done">
-                        <Check className="size-3.5" />
-                        {locale === "en" ? "Done" : "সম্পন্ন"}
-                      </span>
-                    ) : locked ? (
-                      <span className="inline-flex items-center gap-1 rounded-full bg-[var(--navy)]/8 px-2.5 py-1 text-[11px] font-bold text-[var(--navy)]/45">
-                        <LockKeyhole className="size-3" />
-                      </span>
-                    ) : (
-                      <span className="status-open">{locale === "en" ? "Open" : "খোলা"}</span>
-                    )}
+                  <div className="relative h-28 overflow-hidden bg-[var(--navy)]/5">
+                    <img
+                      src="/basics/module-icon.jpg"
+                      alt=""
+                      className="h-full w-full object-cover opacity-90 transition group-hover:scale-[1.03]"
+                      onError={e => {
+                        (e.target as HTMLImageElement).style.display = "none";
+                      }}
+                    />
+                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[var(--cream)] via-transparent to-transparent" />
                   </div>
-                  <h2 className="mt-5 font-serif text-xl font-bold leading-tight text-[var(--navy)]">
-                    {titleOf(mod.title)}
-                  </h2>
-                  {locale !== "ko" && (
-                    <p className="mt-1 text-sm font-semibold text-[var(--navy)]/45">{mod.title.ko}</p>
-                  )}
-                  <div className="mt-6 flex items-center justify-between border-t border-[var(--navy)]/8 pt-3 text-xs text-[var(--navy)]/55">
-                    <span className="inline-flex items-center gap-1">
-                      <Clock3 className="size-3.5" /> ~{mod.estimatedMinutes} min
-                    </span>
-                    <ChevronRight className="size-4 transition group-hover:translate-x-0.5" />
+                  <div className="p-5 pt-3">
+                    <div className="flex items-start justify-between gap-3">
+                      <span className="chapter-number">{String(mod.order + 1).padStart(2, "0")}</span>
+                      {done ? (
+                        <span className="status-done">
+                          <Check className="size-3.5" />
+                          {locale === "en" ? "Done" : "সম্পন্ন"}
+                        </span>
+                      ) : locked ? (
+                        <span className="inline-flex items-center gap-1 rounded-full bg-[var(--navy)]/8 px-2.5 py-1 text-[11px] font-bold text-[var(--navy)]/45">
+                          <LockKeyhole className="size-3" />
+                        </span>
+                      ) : (
+                        <span className="status-open">{locale === "en" ? "Open" : "খোলা"}</span>
+                      )}
+                    </div>
+                    <h2 className="mt-4 font-serif text-xl font-bold leading-tight text-[var(--navy)]">
+                      {titleOf(mod.title)}
+                    </h2>
+                    {locale !== "ko" && (
+                      <p className="mt-1 text-sm font-semibold text-[var(--navy)]/45">{mod.title.ko}</p>
+                    )}
+                    <div className="mt-6 flex items-center justify-between border-t border-[var(--navy)]/8 pt-3 text-xs text-[var(--navy)]/55">
+                      <span className="inline-flex items-center gap-1">
+                        <Clock3 className="size-3.5" /> ~{mod.estimatedMinutes} min
+                      </span>
+                      <ChevronRight className="size-4 transition group-hover:translate-x-0.5" />
+                    </div>
                   </div>
                 </div>
               );
