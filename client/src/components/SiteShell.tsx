@@ -5,11 +5,12 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { useLocalProfile } from "@/lib/localProfile";
 import { trpc } from "@/lib/trpc";
-import { BookOpenText, Bot, CalendarDays, ChevronDown, GraduationCap, LayoutDashboard, LogIn, LogOut, Menu, Pencil, ShieldCheck, UserRound, X } from "lucide-react";
+import { BookOpenText, Bot, CalendarDays, ChevronDown, GraduationCap, LayoutDashboard, LogIn, LogOut, Menu, Pencil, ShieldCheck, SpellCheck2, UserRound, X } from "lucide-react";
 import { useState, type ReactNode } from "react";
 import { Link, useLocation } from "wouter";
 
 const navItems = [
+  { href: "/basics", key: "basics", icon: SpellCheck2 },
   { href: "/curriculum", key: "curriculum", icon: BookOpenText },
   { href: "/mock-test", key: "mockTest", icon: GraduationCap },
   { href: "/dashboard", key: "dashboard", icon: LayoutDashboard },
@@ -48,7 +49,10 @@ export function SiteShell({ children }: { children: ReactNode }) {
 
           <nav className="ml-auto hidden items-center gap-1 xl:flex" aria-label="Main navigation">
             {nav.map(({ href, key, icon: Icon }) => {
-              const active = location === href || (href === "/curriculum" && location.startsWith("/lesson/"));
+              const active =
+                location === href ||
+                (href === "/curriculum" && location.startsWith("/lesson/")) ||
+                (href === "/basics" && location.startsWith("/basics"));
               return (
                 <Link key={href} href={href} className={`nav-link ${active ? "nav-link-active" : ""}`}>
                   <Icon className="size-4" />{t[key]}
@@ -110,7 +114,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
       <footer className="mt-20 border-t border-[var(--navy)]/10 bg-[var(--navy)] text-white">
         <div className="container grid gap-8 py-12 md:grid-cols-[1.3fr_1fr_1fr]">
           <div><div className="font-serif text-2xl font-bold text-[var(--gold)]">EasyEPS</div><p className="mt-3 max-w-md text-sm leading-7 text-white/70">বাংলাভাষী শিক্ষার্থীদের জন্য ৬০ অধ্যায়ের EPS-TOPIK প্রস্তুতি, কর্মক্ষেত্রের কোরিয়ান এবং স্মার্ট অনুশীলন।</p></div>
-          <div><p className="font-bold text-[var(--gold)]">শেখা</p><div className="mt-3 grid gap-2 text-sm text-white/70"><Link href="/curriculum">পাঠ্যক্রম</Link><Link href="/mock-test">মক টেস্ট</Link><Link href="/tutor">এআই শিক্ষক</Link></div></div>
+          <div><p className="font-bold text-[var(--gold)]">শেখা</p><div className="mt-3 grid gap-2 text-sm text-white/70"><Link href="/basics">বেসিক</Link><Link href="/curriculum">পাঠ্যক্রম</Link><Link href="/mock-test">মক টেস্ট</Link><Link href="/tutor">এআই শিক্ষক</Link></div></div>
           <div><p className="font-bold text-[var(--gold)]">নোট</p><p className="mt-3 text-sm leading-6 text-white/65">EasyEPS একটি স্বাধীন শিক্ষাসহায়ক প্ল্যাটফর্ম; এটি HRD Korea বা EPS-এর সরকারি সেবা নয়।</p></div>
         </div>
       </footer>

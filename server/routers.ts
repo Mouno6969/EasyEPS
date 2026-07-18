@@ -20,6 +20,12 @@ import { TRPCError } from "@trpc/server";
 import { nanoid } from "nanoid";
 import { z } from "zod";
 import { getAllLessons, getLesson, getLessonSummaries, replaceLesson } from "./content";
+import {
+  getBasicsManifest,
+  getBasicsModule,
+  getBasicsModuleSummaries,
+  getStrokeFile,
+} from "./basicsContent";
 import * as db from "./db";
 import { ENV } from "./_core/env";
 import { getSessionCookieOptions } from "./_core/cookies";
@@ -27,6 +33,7 @@ import { invokeLLM } from "./_core/llm";
 import { systemRouter } from "./_core/systemRouter";
 import { adminProcedure, protectedProcedure, publicProcedure, router } from "./_core/trpc";
 import { storagePut } from "./storage";
+import { basicsModuleIdSchema } from "@shared/basics";
 
 function rowToProfile(
   row: Awaited<ReturnType<typeof db.getUserProfile>> | null | undefined,
@@ -560,6 +567,42 @@ export const appRouter = router({
    * Curriculum write-gate (assertBasicsComplete on progress.save / attempts) ships later.
    */
   basics: router({
+    /** Public module summaries for the Basics hub. */
+    listModules: publicProcedure.query(() => {
+      try {
+        const manifest = getBasicsManifest();
+        return {
+          version: manifest.version,
+          passScore: manifest.passScore,
+          modules: getBasicsModuleSummaries(),
+        };
+      } catch (error) {
+        console.error("[basics.listModules] failed", error);
+        throw new TRPCError({
+          code: "INTERNAL_SERVER_ERROR",
+          message: "Could not load Basics modules",
+        });
+      }
+    }),
+
+    /** Full module content for the player. */
+    getModule: publicProcedure
+      .input(z.object({ id: basicsModuleIdSchema }))
+      .query(({ input }) => {
+        const module = getBasicsModule(input.id);
+        if (!module) notFound(`Basics module ${input.id} was not found`);
+        return module;
+      }),
+
+    /** Stroke practice file by id or character. */
+    getStroke: publicProcedure
+      .input(z.object({ id: z.string().min(1) }))
+      .query(({ input }) => {
+        const stroke = getStrokeFile(input.id);
+        if (!stroke) notFound(`Stroke file ${input.id} was not found`);
+        return stroke;
+      }),
+
     /**
      * Gate status for client useBasicsGate.
      * When gate is off, completed is true for everyone (hub still usable voluntarily).

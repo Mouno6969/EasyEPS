@@ -1,4 +1,5 @@
 import { AIChatBox, type Message } from "@/components/AIChatBox";
+import { BasicsCtaBanner } from "@/components/basics/BasicsLockCard";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { startLogin } from "@/const";
@@ -9,11 +10,13 @@ import {
   removePlannerItem,
   savePlannerSettings,
   setPlannerItemDone,
+  useLocalBasics,
   useLocalLearning,
 } from "@/lib/localProgress";
 import { useLocalProfile } from "@/lib/localProfile";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
+import { isBasicsComplete } from "@shared/basics";
 import {
   BarChart3,
   BookCheck,
@@ -72,8 +75,10 @@ function AuthInvitation({ title, description }: { title: string; description: st
 }
 
 export function CurriculumPage() {
-  const { locale } = useLocale();
+  const { locale, t } = useLocale();
   const state = useLocalLearning();
+  const basics = useLocalBasics();
+  const hangulReady = isBasicsComplete(basics);
   const { data: lessons = [], isLoading, error } = trpc.curriculum.list.useQuery();
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<"all" | CategoryKey>("all");
@@ -83,8 +88,20 @@ export function CurriculumPage() {
   }), [lessons, query, category]);
 
   return <>
-    <PageIntro eyebrow="৬০ অধ্যায় · শূন্য থেকে EPS-TOPIK" title="আপনার সম্পূর্ণ কোরিয়ান পাঠ্যক্রম" description="দৈনন্দিন জীবন থেকে শিল্প নিরাপত্তা ও কর্মসংস্থান আইন—প্রতিটি অধ্যায়ে শব্দভাণ্ডার, ব্যাকরণ, সংলাপ, অনুশীলন এবং EPS-ধাঁচের পরীক্ষা।" />
+    <PageIntro
+      eyebrow="৬০ অধ্যায় · শূন্য থেকে EPS-TOPIK"
+      title="আপনার সম্পূর্ণ কোরিয়ান পাঠ্যক্রম"
+      description="দৈনন্দিন জীবন থেকে শিল্প নিরাপত্তা ও কর্মসংস্থান আইন—প্রতিটি অধ্যায়ে শব্দভাণ্ডার, ব্যাকরণ, সংলাপ, অনুশীলন এবং EPS-ধাঁচের পরীক্ষা।"
+      actions={
+        <Link href="/basics">
+          <Button variant="outline" className="rounded-full border-[var(--navy)]/20">
+            {t.hangulBasics}
+          </Button>
+        </Link>
+      }
+    />
     <section className="container py-10">
+      {!hangulReady && <BasicsCtaBanner className="mb-7" />}
       <div className="paper-card p-4 md:p-5">
         <div className="grid gap-4 lg:grid-cols-[1fr_auto] lg:items-center">
           <label className="relative"><Search className="absolute left-4 top-3.5 size-5 text-[var(--navy)]/40" /><Input value={query} onChange={event => setQuery(event.target.value)} placeholder="অধ্যায়, বিষয় বা Korean title খুঁজুন" className="h-12 rounded-2xl border-[var(--navy)]/12 bg-[var(--cream)] pl-12" /></label>
@@ -112,6 +129,9 @@ export function CurriculumPage() {
 export function DashboardPage() {
   const state = useLocalLearning();
   const overview = learningOverview(state);
+  const basics = useLocalBasics();
+  const hangulReady = isBasicsComplete(basics);
+  const { t } = useLocale();
   const localProfile = useLocalProfile();
   const { isAuthenticated } = useAuth();
   const server = trpc.progress.overview.useQuery(undefined, { enabled: isAuthenticated, retry: false });
@@ -127,10 +147,13 @@ export function DashboardPage() {
   const recent = state.attempts.slice(0, 6);
   const studyDays = Array.from({ length: 7 }, (_, index) => { const date = new Date(); date.setDate(date.getDate() - (6 - index)); const key = date.toISOString().slice(0, 10); return { key, label: date.toLocaleDateString("bn-BD", { weekday: "short" }), minutes: state.studyDays[key]?.minutes ?? 0 }; });
   const maxMinutes = Math.max(30, ...studyDays.map(day => day.minutes));
+  const nextHref = hangulReady ? `/lesson/${nextChapter}` : "/basics";
+  const nextLabel = hangulReady ? "পরবর্তী অধ্যায়" : t.startBasics;
 
   return <>
-    <PageIntro eyebrow="আপনার শেখার যাত্রা" title="অগ্রগতি এক নজরে" description="ছোট ছোট নিয়মিত পদক্ষেপই আপনাকে EPS-TOPIK লক্ষ্যের কাছে নিয়ে যাবে।" actions={<Link href={`/lesson/${nextChapter}`}><Button className="rounded-full bg-[var(--navy)] px-6 text-white">পরবর্তী অধ্যায় <ChevronRight className="size-4" /></Button></Link>} />
+    <PageIntro eyebrow="আপনার শেখার যাত্রা" title="অগ্রগতি এক নজরে" description="ছোট ছোট নিয়মিত পদক্ষেপই আপনাকে EPS-TOPIK লক্ষ্যের কাছে নিয়ে যাবে।" actions={<Link href={nextHref}><Button className="rounded-full bg-[var(--navy)] px-6 text-white">{nextLabel} <ChevronRight className="size-4" /></Button></Link>} />
     <div className="container py-10">
+      {!hangulReady && <BasicsCtaBanner className="mb-7" />}
       {!profileComplete && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--navy)]/15 bg-white p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>প্রোফাইল সেটআপ বাকি:</strong> সঠিক নাম, ইমেইল ও শেখার স্তর দিয়ে প্রোফাইল সম্পূর্ণ করুন—সার্টিফিকেটে আপনার নাম দেখাবে।</span><Link href="/profile/setup"><Button className="rounded-full bg-[var(--navy)] text-white">প্রোফাইল সেটআপ <UserRound className="size-4" /></Button></Link></div>}
       {!isAuthenticated && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--gold)]/35 bg-[var(--gold)]/10 p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>অতিথি মোড:</strong> অগ্রগতি এই ডিভাইসে সংরক্ষিত। সাইন ইন করলে একাধিক ডিভাইসে সিঙ্ক হবে।</span><Button onClick={() => startLogin()} variant="outline" className="rounded-full border-[var(--navy)]/20">সাইন ইন</Button></div>}
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">

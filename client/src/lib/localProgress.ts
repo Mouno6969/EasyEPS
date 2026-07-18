@@ -1,4 +1,13 @@
 import { useSyncExternalStore } from "react";
+import {
+  applyBasicsModulePatch,
+  emptyBasicsProgress,
+  isBasicsComplete,
+  type BasicsModule,
+  type BasicsModuleProgress,
+  type BasicsProgress,
+  type BasicsProgressPatch,
+} from "@shared/basics";
 
 export type ChapterProgress = {
   chapter: number;
@@ -42,6 +51,8 @@ export type LocalLearningState = {
     targetExamDate: string;
     items: LocalPlannerItem[];
   };
+  /** Hangul Basics track progress (optional for parse tolerance of older saves). */
+  basics?: BasicsProgress;
 };
 
 const KEY = "easyeps-learning-v2";
@@ -50,11 +61,23 @@ const emptyState: LocalLearningState = {
   attempts: [],
   studyDays: {},
   planner: { dailyGoalMinutes: 30, dailyGoalLessons: 1, reminderTime: "20:00", targetExamDate: "", items: [] },
+  basics: emptyBasicsProgress(),
 };
 
 let cachedRaw = "";
 let cachedState = emptyState;
 const listeners = new Set<() => void>();
+
+function parseBasics(raw: unknown): BasicsProgress {
+  if (!raw || typeof raw !== "object") return emptyBasicsProgress();
+  const value = raw as Partial<BasicsProgress>;
+  return {
+    version: 1,
+    modules: (value.modules ?? {}) as Record<string, BasicsModuleProgress>,
+    checkpointPassedAt: value.checkpointPassedAt,
+    unlockSource: value.unlockSource,
+  };
+}
 
 function parseState(raw: string | null): LocalLearningState {
   if (!raw) return emptyState;
@@ -65,6 +88,7 @@ function parseState(raw: string | null): LocalLearningState {
       attempts: parsed.attempts ?? [],
       studyDays: parsed.studyDays ?? {},
       planner: { ...emptyState.planner, ...(parsed.planner ?? {}), items: parsed.planner?.items ?? [] },
+      basics: parseBasics(parsed.basics),
     };
   } catch {
     return emptyState;
@@ -104,6 +128,143 @@ function subscribe(listener: () => void) {
 
 export function useLocalLearning() {
   return useSyncExternalStore(subscribe, getSnapshot, () => emptyState);
+}
+
+export function getLocalBasicsProgress(): BasicsProgress {
+  return getSnapshot().basics ?? emptyBasicsProgress();
+}
+
+export function saveLocalBasicsProgress(basics: BasicsProgress) {
+  const current = getSnapshot();
+  save({ ...current, basics });
+  return basics;
+}
+
+export function applyLocalBasicsModulePatch(
+  patch: Omit<BasicsProgressPatch, "minutes">,
+  content?: BasicsModule,
+  minutes = 5,
+): BasicsModuleProgress {
+  const current = getSnapshot();
+  const basics = current.basics ?? emptyBasicsProgress();
+  const nextModule = applyBasicsModulePatch(basics.modules[patch.moduleId], patch, content);
+  const nextBasics: BasicsProgress = {
+    ...basics,
+    version: 1,
+    modules: { ...basics.modules, [patch.moduleId]: nextModule },
+  };
+  const day = new Date().toISOString().slice(0, 10);
+  const previousDay = current.studyDays[day] ?? { minutes: 0, activities: 0 };
+  save({
+    ...current,
+    basics: nextBasics,
+    studyDays: {
+      ...current.studyDays,
+      [day]: { minutes: previousDay.minutes + minutes, activities: previousDay.activities + 1 },
+    },
+  });
+  return nextModule;
+}
+
+/** Mark local checkpoint pass after scoreBasicsQuiz (guest unlock only). */
+export function setLocalBasicsCheckpointPass(
+  score: number,
+  total: number,
+  opts?: { unlockSource?: BasicsProgress["unlockSource"] },
+) {
+  const current = getSnapshot();
+  const basics = current.basics ?? emptyBasicsProgress();
+  const now = new Date().toISOString();
+  const checkpointModule = basics.modules.checkpoint ?? {
+    moduleId: "checkpoint",
+    stepsDone: ["cp-quiz"],
+    speakItemsDone: [],
+    writeItemsDone: [],
+    builderItemsDone: [],
+    updatedAt: now,
+  };
+  const nextBasics: BasicsProgress = {
+    ...basics,
+    version: 1,
+    modules: {
+      ...basics.modules,
+      checkpoint: {
+        ...checkpointModule,
+        moduleId: "checkpoint",
+        quizScore: score,
+        quizTotal: total,
+        stepsDone: checkpointModule.stepsDone.includes("cp-quiz")
+          ? checkpointModule.stepsDone
+          : [...checkpointModule.stepsDone, "cp-quiz"],
+        updatedAt: now,
+        completed: true,
+      },
+    },
+    checkpointPassedAt: basics.checkpointPassedAt ?? now,
+    unlockSource: opts?.unlockSource ?? basics.unlockSource ?? "checkpoint",
+  };
+  const day = now.slice(0, 10);
+  const previousDay = current.studyDays[day] ?? { minutes: 0, activities: 0 };
+  save({
+    ...current,
+    basics: nextBasics,
+    studyDays: {
+      ...current.studyDays,
+      [day]: { minutes: previousDay.minutes + 5, activities: previousDay.activities + 1 },
+    },
+  });
+  return nextBasics;
+}
+
+/** Mirror trusted remote unlock into local storage (does not invent unlock). */
+export function mirrorRemoteBasicsUnlock(remote: {
+  completed: boolean;
+  completedAt?: string | null;
+  unlockSource?: string | null;
+  progress?: BasicsProgress;
+}) {
+  const current = getSnapshot();
+  const basics = current.basics ?? emptyBasicsProgress();
+  if (!remote.completed) {
+    if (remote.progress) {
+      save({
+        ...current,
+        basics: {
+          version: 1,
+          modules: remote.progress.modules ?? basics.modules,
+          checkpointPassedAt: basics.checkpointPassedAt,
+          unlockSource: basics.unlockSource,
+        },
+      });
+    }
+    return getLocalBasicsProgress();
+  }
+  const next: BasicsProgress = {
+    version: 1,
+    modules: remote.progress?.modules ?? basics.modules,
+    checkpointPassedAt:
+      remote.progress?.checkpointPassedAt ??
+      remote.completedAt ??
+      basics.checkpointPassedAt ??
+      new Date().toISOString(),
+    unlockSource:
+      (remote.progress?.unlockSource as BasicsProgress["unlockSource"]) ??
+      (remote.unlockSource as BasicsProgress["unlockSource"]) ??
+      basics.unlockSource ??
+      "checkpoint",
+  };
+  save({ ...current, basics: next });
+  return next;
+}
+
+export function useLocalBasics(): BasicsProgress {
+  const state = useLocalLearning();
+  return state.basics ?? emptyBasicsProgress();
+}
+
+export function localBasicsCompleted(state?: LocalLearningState): boolean {
+  const basics = (state ?? getSnapshot()).basics ?? emptyBasicsProgress();
+  return isBasicsComplete(basics);
 }
 
 export function updateChapterProgress(chapter: number, patch: Omit<Partial<ChapterProgress>, "chapter" | "updatedAt">, minutes = 5) {

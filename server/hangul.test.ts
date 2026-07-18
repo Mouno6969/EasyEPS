@@ -58,8 +58,8 @@ describe("composeHangul / decomposeHangul", () => {
 
   it("throws on non-syllable decompose input", () => {
     expect(() => decomposeHangul("ㄱ")).toThrow(/Not a precomposed Hangul syllable/);
-    expect(() => decomposeHangul("가나다")).toThrow(/Expected single syllable/);
-    expect(() => decomposeHangul("")).toThrow(/Expected single syllable/);
+    expect(() => decomposeHangul("가나다")).toThrow(/Expected a single Hangul syllable|Expected single syllable/);
+    expect(() => decomposeHangul("")).toThrow(/Empty syllable|Expected single syllable/);
   });
 
   it("exposes full Unicode L/V/T index tables", () => {

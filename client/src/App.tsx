@@ -12,6 +12,8 @@ import {
   PlannerPage,
   TutorPage,
 } from "./pages/LearningPages";
+import BasicsHubPage from "./pages/BasicsHubPage";
+import BasicsModulePage from "./pages/BasicsModulePage";
 import CertificatePage from "./pages/CertificatePage";
 import LessonPage from "./pages/LessonPage";
 import MockTestPage from "./pages/MockTestPage";
@@ -22,6 +24,8 @@ import { Route, Switch } from "wouter";
 function Router() {
   return <SiteShell><Switch>
     <Route path="/" component={Home} />
+    <Route path="/basics" component={BasicsHubPage} />
+    <Route path="/basics/:moduleId" component={BasicsModulePage} />
     <Route path="/curriculum" component={CurriculumPage} />
     <Route path="/lesson/:chapter" component={LessonPage} />
     <Route path="/mock-test" component={MockTestPage} />

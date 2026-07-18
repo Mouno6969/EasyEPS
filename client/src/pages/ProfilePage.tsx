@@ -25,6 +25,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import {
   Award,
   BookCheck,
+  BookOpenText,
   Camera,
   Check,
   ChevronRight,
@@ -619,7 +620,15 @@ function ProfileDashboard({
   const level = learningLevelLabels[profile.learningLevel as LearningLevel]?.[locale] ?? profile.learningLevel;
   const lang = localeLabels[profile.preferredLocale as PreferredLocale]?.[locale] ?? profile.preferredLocale;
 
+  const hangulReady = Boolean(state.basics?.checkpointPassedAt);
+
   const badges = [
+    {
+      id: "hangul-ready",
+      title: locale === "en" ? "Hangul ready" : locale === "ko" ? "한글 준비" : "হ্যাঙ্গুল প্রস্তুত",
+      earned: hangulReady,
+      icon: BookOpenText,
+    },
     { id: "first-step", title: "প্রথম পদক্ষেপ", earned: overview.completedLessons >= 1, icon: Sparkles },
     { id: "ten-lessons", title: "দশ অধ্যায়", earned: overview.completedLessons >= 10, icon: BookCheck },
     { id: "halfway", title: "অর্ধেক পথ", earned: overview.completedLessons >= 30, icon: Medal },

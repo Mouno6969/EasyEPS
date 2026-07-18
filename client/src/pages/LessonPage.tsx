@@ -1,9 +1,12 @@
+import { BasicsCtaBanner, BasicsLockCard } from "@/components/basics/BasicsLockCard";
 import { Button } from "@/components/ui/button";
 import { useLocale } from "@/contexts/LocaleContext";
-import { addLocalAttempt, updateChapterProgress, useLocalLearning } from "@/lib/localProgress";
+import { useBasicsGate } from "@/hooks/useBasicsGate";
+import { addLocalAttempt, updateChapterProgress, useLocalBasics, useLocalLearning } from "@/lib/localProgress";
 import { speakKorean } from "@/lib/speakKorean";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
+import { isBasicsComplete } from "@shared/basics";
 import type { EpsQuestion, Lesson, PracticeQuestion } from "@shared/lesson";
 import { ArrowLeft, ArrowRight, BookOpenText, Check, ChevronLeft, ChevronRight, Clock3, GraduationCap, Headphones, Layers3, Loader2, MessagesSquare, RotateCcw, Sparkles, Volume2, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
@@ -102,17 +105,33 @@ export default function LessonPage() {
   const [, params] = useRoute("/lesson/:chapter");
   const chapter = Math.min(60, Math.max(1, Number(params?.chapter ?? 1)));
   const [active, setActive] = useState<Tab>("overview");
-  const { locale } = useLocale();
+  const { locale, t } = useLocale();
   const state = useLocalLearning();
+  const localBasics = useLocalBasics();
   const local = state.progress[chapter];
   const { isAuthenticated } = useAuth();
+  const gate = useBasicsGate();
   const lessonQuery = trpc.curriculum.get.useQuery({ chapter });
   const saveRemote = trpc.progress.save.useMutation();
   const recordRemote = trpc.attempts.record.useMutation();
   const lesson = lessonQuery.data;
 
+  /** Soft: incomplete hangul without checkpoint; hard: gateEnabled && !completed */
+  const hangulReadyLocal = isBasicsComplete(localBasics);
+  const hardBlocked = !gate.loading && gate.gateEnabled && !gate.completed;
+  const softBanner = !gate.loading && !hardBlocked && !hangulReadyLocal && !gate.completed;
+  const writesBlocked = hardBlocked;
+
   useEffect(() => { window.scrollTo({ top: 0, behavior: "smooth" }); setActive("overview"); }, [chapter]);
-  const saveProgress = (patch: Parameters<typeof updateChapterProgress>[1], minutes = 5) => { const saved = updateChapterProgress(chapter, patch, minutes); if (isAuthenticated) saveRemote.mutate({ chapter, ...patch, minutes }); return saved; };
+  const saveProgress = (patch: Parameters<typeof updateChapterProgress>[1], minutes = 5) => {
+    if (writesBlocked) {
+      toast.message(t.completeBasicsFirst);
+      return local;
+    }
+    const saved = updateChapterProgress(chapter, patch, minutes);
+    if (isAuthenticated) saveRemote.mutate({ chapter, ...patch, minutes });
+    return saved;
+  };
   const record = (
     kind: "practice" | "chapter-exam",
     score: number,
@@ -120,6 +139,10 @@ export default function LessonPage() {
     durationSec: number,
     payload?: { answers: Record<string, number>; matching?: Record<string, Record<number, string>> },
   ) => {
+    if (writesBlocked) {
+      toast.message(t.completeBasicsFirst);
+      return;
+    }
     addLocalAttempt({ kind, chapter, score, total, durationSec });
     if (isAuthenticated) {
       const matching =
@@ -154,12 +177,19 @@ export default function LessonPage() {
     <div className="sticky top-[72px] z-30 overflow-x-auto border-b border-[var(--navy)]/10 bg-[var(--cream)]/95 backdrop-blur-xl"><div className="container flex min-w-max gap-1 py-2">{tabs.map(({ id, label, icon: Icon }) => <button key={id} onClick={() => setActive(id)} className={`lesson-tab ${active === id ? "lesson-tab-active" : ""}`}><Icon className="size-4" />{label}</button>)}</div></div>
 
     <div className="container py-8 md:py-12">
+      {softBanner && <BasicsCtaBanner className="mb-7" />}
+      {hardBlocked && (active === "practice" || active === "exam") ? (
+        <BasicsLockCard hard />
+      ) : (
+        <>
       {active === "overview" && <section className="grid gap-7 lg:grid-cols-[1.15fr_.85fr]"><div className="paper-card p-7 md:p-9"><p className="eyebrow">এই অধ্যায়ে শিখবেন</p><h2 className="mt-3 font-serif text-3xl font-bold text-[var(--navy)]">শেখার লক্ষ্য</h2><div className="mt-7 grid gap-4">{lesson.objectives[locale === "en" ? "en" : "bn"].map((objective, index) => <div key={objective} className="flex gap-4"><span className="grid size-8 shrink-0 place-items-center rounded-full bg-[var(--gold)]/18 font-serif font-bold text-[var(--gold-dark)]">{index + 1}</span><p className="pt-1 leading-7 text-[var(--navy)]/70">{objective}</p></div>)}</div><Button onClick={() => setActive("vocabulary")} className="mt-9 rounded-full bg-[var(--navy)] px-6 text-white">শব্দভাণ্ডার শুরু করুন <ArrowRight className="size-4" /></Button></div><aside className="paper-card overflow-hidden"><div className="bg-[var(--gold)]/14 p-7"><p className="eyebrow">পাঠের অগ্রগতি</p><p className="mt-2 font-serif text-4xl font-bold text-[var(--navy)]">{[local?.vocabDone, local?.grammarDone, local?.dialogueDone, typeof local?.practiceScore === "number", typeof local?.examScore === "number"].filter(Boolean).length}/5</p><div className="mt-4 h-2 overflow-hidden rounded-full bg-white"><div className="h-full rounded-full bg-[var(--navy)]" style={{ width: `${[local?.vocabDone, local?.grammarDone, local?.dialogueDone, typeof local?.practiceScore === "number", typeof local?.examScore === "number"].filter(Boolean).length / 5 * 100}%` }} /></div></div><div className="divide-y divide-[var(--navy)]/8 p-3">{tabs.slice(1).map(tab => { const done = tab.id === "vocabulary" ? local?.vocabDone : tab.id === "grammar" ? local?.grammarDone : tab.id === "dialogue" ? local?.dialogueDone : tab.id === "practice" ? typeof local?.practiceScore === "number" : typeof local?.examScore === "number"; return <button key={tab.id} onClick={() => setActive(tab.id)} className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left text-sm font-semibold hover:bg-[var(--cream)]"><span className={`grid size-7 place-items-center rounded-full ${done ? "bg-[var(--sage)] text-white" : "bg-[var(--cream)] text-[var(--navy)]/35"}`}>{done ? <Check className="size-4" /> : <tab.icon className="size-4" />}</span>{tab.label}<ChevronRight className="ml-auto size-4 text-[var(--navy)]/30" /></button>; })}</div></aside></section>}
       {active === "vocabulary" && <VocabularyView lesson={lesson} done={local?.vocabDone} onDone={() => saveProgress({ vocabDone: true })} />}
       {active === "grammar" && <section className="paper-card p-6 md:p-8"><p className="eyebrow">Pattern + meaning + examples</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">ব্যাকরণ</h2><div className="mt-7 space-y-5">{lesson.grammar.map((grammar, index) => <article key={grammar.pattern} className="overflow-hidden rounded-3xl border border-[var(--navy)]/9"><div className="flex flex-col gap-3 bg-[var(--navy)] p-5 text-white sm:flex-row sm:items-center sm:justify-between"><span className="text-xs font-bold text-[var(--gold)]">GRAMMAR {index + 1}</span><p className="font-serif text-2xl font-bold">{grammar.pattern}</p></div><div className="p-6"><h3 className="text-lg font-bold text-[var(--navy)]">{grammar.titleBn}</h3><p className="mt-3 leading-7 text-[var(--navy)]/65">{grammar.explanationBn}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/45">{grammar.explanationEn}</p><div className="mt-5 grid gap-3">{grammar.examples.map((example, exampleIndex) => <div key={exampleIndex} className="rounded-2xl bg-[var(--cream)] p-4"><div className="flex items-start justify-between gap-3"><p className="font-bold leading-7 text-[var(--navy)]">{example.ko}</p><button onClick={() => void speakKorean(example.ko)} className="grid size-8 shrink-0 place-items-center rounded-full bg-white text-[var(--gold-dark)]"><Volume2 className="size-3.5" /></button></div><p className="mt-1 text-sm leading-6 text-[var(--navy)]/58">{example.bn}</p></div>)}</div></div></article>)}</div><CompleteButton done={local?.grammarDone} onClick={() => saveProgress({ grammarDone: true })}>ব্যাকরণ সম্পন্ন করুন</CompleteButton></section>}
       {active === "dialogue" && <section className="paper-card p-6 md:p-8"><p className="eyebrow">শুনুন ও অনুকরণ করুন</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">বাস্তব সংলাপ</h2><div className="mt-7 grid gap-6">{lesson.dialogues.map((dialogue, dialogueIndex) => <article key={dialogueIndex} className="rounded-3xl border border-[var(--navy)]/9 p-5 md:p-7"><div className="flex items-center justify-between gap-4"><div><p className="text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">Dialogue {dialogueIndex + 1}</p><h3 className="mt-1 font-serif text-2xl font-bold text-[var(--navy)]">{dialogue.titleBn}</h3></div><button onClick={() => void speakKorean(dialogue.lines.map(line => line.ko).join(". "), { rate: .8 })} className="grid size-11 place-items-center rounded-full bg-[var(--gold)]/18 text-[var(--gold-dark)]"><Headphones className="size-5" /></button></div><div className="mt-6 space-y-4">{dialogue.lines.map((line, lineIndex) => <div key={lineIndex} className={`flex ${lineIndex % 2 ? "justify-end" : "justify-start"}`}><div className={`max-w-[88%] rounded-2xl p-4 md:max-w-[72%] ${lineIndex % 2 ? "rounded-tr-md bg-[var(--navy)] text-white" : "rounded-tl-md bg-[var(--cream)] text-[var(--navy)]"}`}><p className={`text-xs font-bold ${lineIndex % 2 ? "text-[var(--gold)]" : "text-[var(--gold-dark)]"}`}>{line.speaker}</p><div className="mt-2 flex items-start gap-3"><p className="text-lg font-semibold leading-7">{line.ko}</p><button onClick={() => void speakKorean(line.ko)} className="mt-1 opacity-60 hover:opacity-100"><Volume2 className="size-3.5" /></button></div><p className={`mt-2 text-sm leading-6 ${lineIndex % 2 ? "text-white/60" : "text-[var(--navy)]/55"}`}>{line.bn}</p></div></div>)}</div></article>)}</div><CompleteButton done={local?.dialogueDone} onClick={() => saveProgress({ dialogueDone: true })}>সংলাপ সম্পন্ন করুন</CompleteButton></section>}
       {active === "practice" && <PracticeRunner lesson={lesson} kind="practice" savedScore={local?.practiceScore} onComplete={(score, total, duration, payload) => record("practice", score, total, duration, payload)} />}
       {active === "exam" && <PracticeRunner lesson={lesson} kind="exam" savedScore={local?.examScore} onComplete={(score, total, duration, payload) => record("chapter-exam", score, total, duration, payload)} />}
+        </>
+      )}
     </div>
     <div className="container flex items-center justify-between border-t border-[var(--navy)]/10 py-7"><Link href={`/lesson/${Math.max(1, chapter - 1)}`} className={`inline-flex items-center gap-2 text-sm font-bold text-[var(--navy)] ${chapter === 1 ? "pointer-events-none opacity-30" : ""}`}><ChevronLeft className="size-4" />আগের অধ্যায়</Link><Link href={`/lesson/${Math.min(60, chapter + 1)}`} className={`inline-flex items-center gap-2 text-sm font-bold text-[var(--navy)] ${chapter === 60 ? "pointer-events-none opacity-30" : ""}`}>পরের অধ্যায়<ChevronRight className="size-4" /></Link></div>
   </>;
