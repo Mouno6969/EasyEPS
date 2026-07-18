@@ -38,6 +38,31 @@ export function getBasicsManifest(options?: { refresh?: boolean }): BasicsManife
   return manifestCache;
 }
 
+/**
+ * Ensure every write step `strokeId` resolves to a stroke file under content/basics/strokes.
+ * Throws a clear error listing missing references.
+ */
+export function assertWriteStrokeReferences(
+  modules: BasicsModule[],
+  strokeMap?: Map<string, StrokeFile>,
+): void {
+  const strokes = strokeMap ?? loadStrokeCache();
+  const missing: string[] = [];
+  for (const mod of modules) {
+    for (const step of mod.steps) {
+      if (step.type !== "write") continue;
+      for (const item of step.items) {
+        if (!strokes.has(item.strokeId)) {
+          missing.push(`${mod.id}/${step.id}/${item.id} → strokeId "${item.strokeId}"`);
+        }
+      }
+    }
+  }
+  if (missing.length > 0) {
+    throw new Error(`Missing stroke files for write items:\n${missing.join("\n")}`);
+  }
+}
+
 export function getAllBasicsModules(options?: { refresh?: boolean }): BasicsModule[] {
   if (moduleCache && !options?.refresh) return moduleCache;
 
@@ -60,6 +85,8 @@ export function getAllBasicsModules(options?: { refresh?: boolean }): BasicsModu
       throw new Error(`Missing basics module: ${id}`);
     }
   }
+
+  assertWriteStrokeReferences(modules);
 
   moduleCache = modules;
   return modules;

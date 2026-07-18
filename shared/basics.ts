@@ -255,7 +255,7 @@ export type BasicsStep = z.infer<typeof basicsStepSchema>;
 
 const PRECOMPOSED_HANGUL = /[\uAC00-\uD7A3]/;
 
-function isSyllableRelated(q: BasicsQuizQuestion): boolean {
+export function isSyllableRelatedQuestion(q: BasicsQuizQuestion): boolean {
   if (q.topic === "syllable") return true;
   if (q.kind === "matching") {
     return q.pairs.some(p => PRECOMPOSED_HANGUL.test(p.left) || PRECOMPOSED_HANGUL.test(p.right));
@@ -264,10 +264,44 @@ function isSyllableRelated(q: BasicsQuizQuestion): boolean {
   return PRECOMPOSED_HANGUL.test(hay);
 }
 
-function isBatchimRelated(q: BasicsQuizQuestion): boolean {
+export function isBatchimRelatedQuestion(q: BasicsQuizQuestion): boolean {
   if (q.topic === "batchim") return true;
   const hay = `${q.promptBn} ${q.promptKo ?? ""} ${q.promptEn ?? ""} ${q.explanationBn}`.toLowerCase();
   return /받침|batchim|ব্যাচিম|ব্যাচ্চিম/.test(hay);
+}
+
+function trackUniqueIds(
+  ids: Iterable<string>,
+  seen: Set<string>,
+  ctx: z.RefinementCtx,
+  label: string,
+): void {
+  for (const id of ids) {
+    if (seen.has(id)) {
+      ctx.addIssue({
+        code: "custom",
+        message: `Duplicate ${label} id ${id}`,
+        path: ["steps"],
+      });
+    }
+    seen.add(id);
+  }
+}
+
+function countStepItems(module: { steps: BasicsStep[] }): {
+  speak: number;
+  write: number;
+  builder: number;
+} {
+  let speak = 0;
+  let write = 0;
+  let builder = 0;
+  for (const step of module.steps) {
+    if (step.type === "speak") speak += step.items.length;
+    else if (step.type === "write") write += step.items.length;
+    else if (step.type === "builder") builder += step.prompts.length;
+  }
+  return { speak, write, builder };
 }
 
 export const basicsModuleSchema = z
@@ -303,6 +337,67 @@ export const basicsModuleSchema = z
       }
     }
 
+    // Unique item ids per category (progress is keyed by these ids).
+    const jamoIds = new Set<string>();
+    const speakIds = new Set<string>();
+    const writeIds = new Set<string>();
+    const builderIds = new Set<string>();
+    for (const step of module.steps) {
+      if (step.type === "jamo-grid") {
+        trackUniqueIds(
+          step.items.map(i => i.id),
+          jamoIds,
+          ctx,
+          "jamo-grid item",
+        );
+      } else if (step.type === "speak") {
+        trackUniqueIds(
+          step.items.map(i => i.id),
+          speakIds,
+          ctx,
+          "speak item",
+        );
+      } else if (step.type === "write") {
+        trackUniqueIds(
+          step.items.map(i => i.id),
+          writeIds,
+          ctx,
+          "write item",
+        );
+      } else if (step.type === "builder") {
+        trackUniqueIds(
+          step.prompts.map(p => p.id),
+          builderIds,
+          ctx,
+          "builder prompt",
+        );
+      }
+    }
+
+    // Requirements must be achievable from content.
+    const available = countStepItems(module);
+    if (module.requirements.minSpeakItems > available.speak) {
+      ctx.addIssue({
+        code: "custom",
+        message: `minSpeakItems ${module.requirements.minSpeakItems} > available speak items ${available.speak}`,
+        path: ["requirements", "minSpeakItems"],
+      });
+    }
+    if (module.requirements.minWriteItems > available.write) {
+      ctx.addIssue({
+        code: "custom",
+        message: `minWriteItems ${module.requirements.minWriteItems} > available write items ${available.write}`,
+        path: ["requirements", "minWriteItems"],
+      });
+    }
+    if (module.requirements.minBuilderItems > available.builder) {
+      ctx.addIssue({
+        code: "custom",
+        message: `minBuilderItems ${module.requirements.minBuilderItems} > available builder prompts ${available.builder}`,
+        path: ["requirements", "minBuilderItems"],
+      });
+    }
+
     const quizSteps = module.steps.filter(s => s.type === "quiz");
     const allQuestions = quizSteps.flatMap(s => s.questions);
     const questionIds = new Set<string>();
@@ -327,8 +422,8 @@ export const basicsModuleSchema = z
       }
       const listen = allQuestions.filter(q => q.kind === "listen-choice").length;
       const matching = allQuestions.filter(q => q.kind === "matching").length;
-      const syllable = allQuestions.filter(isSyllableRelated).length;
-      const batchim = allQuestions.filter(isBatchimRelated).length;
+      const syllable = allQuestions.filter(isSyllableRelatedQuestion).length;
+      const batchim = allQuestions.filter(isBatchimRelatedQuestion).length;
       if (listen < 3) {
         ctx.addIssue({
           code: "custom",
@@ -451,34 +546,63 @@ export type StrokeFile = z.infer<typeof strokeFileSchema>;
 // Pure progress / scoring helpers
 // ---------------------------------------------------------------------------
 
-export function quizRatio(p: BasicsModuleProgress): number | null {
-  if (p.quizTotal == null || p.quizTotal <= 0 || p.quizScore == null) return null;
-  return p.quizScore / p.quizTotal;
+/** Distinct non-empty ids (progress arrays may accidentally double-push). */
+export function uniqueIdCount(ids: readonly string[]): number {
+  return new Set(ids).size;
 }
 
+/**
+ * Quiz score/total ratio. Clamps score to total so score > total cannot exceed 1.
+ * Returns null when total/score are missing or total ≤ 0.
+ */
+export function quizRatio(p: BasicsModuleProgress): number | null {
+  if (p.quizTotal == null || p.quizTotal <= 0 || p.quizScore == null) return null;
+  const score = Math.min(p.quizScore, p.quizTotal);
+  return score / p.quizTotal;
+}
+
+/**
+ * Teaching-module completion from client-reported progress.
+ *
+ * **Not for curriculum unlock.** Checkpoint / gate unlock uses
+ * `isBasicsComplete` (`checkpointPassedAt` only) after trusted grading.
+ * This function always returns `false` for `module.id === "checkpoint"`.
+ *
+ * Speak/write/builder minima use **unique** item ids (Set size), not raw
+ * array length, so duplicate done-ids cannot satisfy minima.
+ */
 export function isModuleComplete(
   module: BasicsModule,
   progress: BasicsModuleProgress | undefined,
 ): boolean {
   if (!progress) return false;
+  // Capstone unlock is server/local trusted only — never via teaching completion.
+  if (module.id === "checkpoint") return false;
+
   const req = module.requirements;
   const stepsOk = req.requiredStepIds.every(id => progress.stepsDone.includes(id));
-  const speakOk = progress.speakItemsDone.length >= req.minSpeakItems;
-  const writeOk = progress.writeItemsDone.length >= req.minWriteItems;
-  const builderOk = progress.builderItemsDone.length >= req.minBuilderItems;
+  const speakOk = uniqueIdCount(progress.speakItemsDone) >= req.minSpeakItems;
+  const writeOk = uniqueIdCount(progress.writeItemsDone) >= req.minWriteItems;
+  const builderOk = uniqueIdCount(progress.builderItemsDone) >= req.minBuilderItems;
   const hasQuiz = module.steps.some(s => s.type === "quiz");
   const ratio = quizRatio(progress);
   const quizOk = !hasQuiz || (ratio != null && ratio >= req.passRatio);
   return stepsOk && speakOk && writeOk && builderOk && quizOk;
 }
 
-/** Curriculum unlock — NEVER use raw score without total. */
+/**
+ * Curriculum unlock — only after trusted checkpoint pass / grandfather / admin / flag-off.
+ * NEVER use `isModuleComplete(checkpoint, …)` or raw score without total.
+ */
 export function isBasicsComplete(progress: BasicsProgress): boolean {
   return Boolean(progress.checkpointPassedAt);
 }
 
+/** Pass when total > 0 and clamped score/total ≥ passRatio (default 0.7). */
 export function isCheckpointPassing(score: number, total: number, passRatio = 0.7): boolean {
-  return total > 0 && score / total >= passRatio;
+  if (total <= 0) return false;
+  const clamped = Math.min(score, total);
+  return clamped / total >= passRatio;
 }
 
 export function getModuleQuizQuestions(module: BasicsModule): BasicsQuizQuestion[] {

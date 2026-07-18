@@ -4,18 +4,22 @@ import {
   basicsModuleSchema,
   getModuleQuizQuestions,
   isBasicsComplete,
+  isBatchimRelatedQuestion,
   isCheckpointPassing,
   isModuleComplete,
+  isSyllableRelatedQuestion,
   moduleRequirements,
   quizRatio,
   scoreBasicsQuiz,
   strokeFileSchema,
+  uniqueIdCount,
   type BasicsModule,
   type BasicsModuleProgress,
 } from "../shared/basics";
 import { composeHangul, decomposeHangul, V1_BATCHIM, V1_CONSONANTS, V1_VOWELS } from "../shared/hangul";
 import { coverageRatio, targetSamplesFromStrokeFile } from "../shared/strokeCoverage";
 import {
+  assertWriteStrokeReferences,
   getAllBasicsModules,
   getBasicsManifest,
   getBasicsModule,
@@ -50,9 +54,19 @@ describe("shared/hangul compose + decompose", () => {
     }
   });
 
-  it("throws on invalid jamo", () => {
+  it("throws on invalid initial/vowel or unknown final (not silent T=0)", () => {
     expect(() => composeHangul("x", "ㅏ")).toThrow(/Invalid jamo/);
+    expect(() => composeHangul("ㄱ", "ㅏ", "ZZ")).toThrow(/Invalid jamo/);
+    expect(() => composeHangul("ㄱ", "ㅏ", "NOTJAMO")).toThrow(/Invalid jamo/);
+    expect(() => composeHangul("ㄱ", "ㅏ", "ㄴ ")).toThrow(/Invalid jamo/);
+    // empty final is valid → CV
+    expect(composeHangul("ㄱ", "ㅏ", "")).toBe("가");
+  });
+
+  it("throws on multi-character or non-Hangul decompose input", () => {
     expect(() => decomposeHangul("A")).toThrow(/Not a precomposed/);
+    expect(() => decomposeHangul("간x")).toThrow(/single Hangul syllable/);
+    expect(() => decomposeHangul("")).toThrow(/Empty/);
   });
 });
 
@@ -111,13 +125,28 @@ describe("content loader + schema fixtures", () => {
     }
   });
 
-  it("enforces checkpoint composition constraints", () => {
+  it("enforces checkpoint composition constraints on fixture", () => {
     const checkpoint = getBasicsModule("checkpoint")!;
     const questions = getModuleQuizQuestions(checkpoint);
     expect(questions.length).toBeGreaterThanOrEqual(12);
     expect(questions.length).toBeLessThanOrEqual(16);
     expect(questions.filter(q => q.kind === "listen-choice").length).toBeGreaterThanOrEqual(3);
     expect(questions.filter(q => q.kind === "matching").length).toBeGreaterThanOrEqual(2);
+    expect(questions.filter(isSyllableRelatedQuestion).length).toBeGreaterThanOrEqual(3);
+    expect(questions.filter(isBatchimRelatedQuestion).length).toBeGreaterThanOrEqual(2);
+  });
+
+  it("rejects under-composed checkpoint fixtures", () => {
+    const checkpoint = structuredClone(getBasicsModule("checkpoint")!);
+    const quiz = checkpoint.steps.find(s => s.type === "quiz");
+    if (!quiz || quiz.type !== "quiz") throw new Error("expected quiz step");
+    // Only 2 MC questions — fails 12–16 and composition minima
+    quiz.questions = quiz.questions.slice(0, 2).map(q => ({
+      ...q,
+      kind: "multiple-choice" as const,
+      topic: "jamo" as const,
+    }));
+    expect(() => basicsModuleSchema.parse(checkpoint)).toThrow();
   });
 
   it("validates every builder prompt answer via composeHangul", () => {
@@ -131,6 +160,111 @@ describe("content loader + schema fixtures", () => {
         }
       }
     }
+  });
+
+  it("rejects builder prompts with invalid final that would have silent-mapped to CV", () => {
+    const bad = {
+      id: "syllables",
+      order: 3,
+      title: { bn: "s", ko: "s", en: "s" },
+      estimatedMinutes: 5,
+      requirements: {
+        requiredStepIds: ["b1"],
+        minSpeakItems: 0,
+        minWriteItems: 0,
+        minBuilderItems: 1,
+        passRatio: 0.7,
+      },
+      steps: [
+        {
+          id: "b1",
+          type: "builder",
+          prompts: [
+            {
+              id: "p1",
+              initial: "ㄱ",
+              vowel: "ㅏ",
+              final: "NOTJAMO",
+              answer: "가",
+            },
+          ],
+        },
+      ],
+    };
+    expect(() => basicsModuleSchema.parse(bad)).toThrow();
+  });
+
+  it("rejects unachievable minSpeakItems and duplicate speak item ids", () => {
+    const unachievable = {
+      id: "speak-lab",
+      order: 5,
+      title: { bn: "s", ko: "s", en: "s" },
+      estimatedMinutes: 5,
+      requirements: {
+        requiredStepIds: ["sp"],
+        minSpeakItems: 99,
+        minWriteItems: 0,
+        minBuilderItems: 0,
+        passRatio: 0.7,
+      },
+      steps: [
+        {
+          id: "sp",
+          type: "speak",
+          minListens: 1,
+          items: [
+            {
+              id: "a",
+              text: "가",
+              romanization: "ga",
+              audioText: "가",
+              bn: "가",
+              en: "ga",
+            },
+          ],
+        },
+      ],
+    };
+    expect(() => basicsModuleSchema.parse(unachievable)).toThrow(/minSpeakItems/);
+
+    const dup = {
+      ...unachievable,
+      requirements: { ...unachievable.requirements, minSpeakItems: 1 },
+      steps: [
+        {
+          id: "sp",
+          type: "speak",
+          minListens: 1,
+          items: [
+            {
+              id: "same",
+              text: "가",
+              romanization: "ga",
+              audioText: "가",
+              bn: "가",
+              en: "ga",
+            },
+            {
+              id: "same",
+              text: "나",
+              romanization: "na",
+              audioText: "나",
+              bn: "나",
+              en: "na",
+            },
+          ],
+        },
+      ],
+    };
+    expect(() => basicsModuleSchema.parse(dup)).toThrow(/Duplicate speak item/);
+  });
+
+  it("assertWriteStrokeReferences fails on unknown strokeId", () => {
+    const consonants = structuredClone(getBasicsModule("consonants")!);
+    const write = consonants.steps.find(s => s.type === "write");
+    if (!write || write.type !== "write") throw new Error("expected write step");
+    write.items[0]!.strokeId = "does-not-exist";
+    expect(() => assertWriteStrokeReferences([consonants])).toThrow(/does-not-exist/);
   });
 });
 
@@ -174,22 +308,24 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
     expect(isModuleComplete(welcome, complete)).toBe(true);
   });
 
-  it("enforces speak/write/builder minima (consonants fixture)", () => {
+  it("enforces speak/write minima with unique ids (duplicate done-ids do not count twice)", () => {
     const consonants = getBasicsModule("consonants")!;
     const req = consonants.requirements;
-    const almost: BasicsModuleProgress = {
+    const dupSpeak: BasicsModuleProgress = {
       moduleId: "consonants",
       stepsDone: [...req.requiredStepIds],
-      speakItemsDone: ["c-s-g"],
+      speakItemsDone: ["c-s-g", "c-s-g"], // length 2 but unique 1
       writeItemsDone: ["c-w-g", "c-w-n"],
       builderItemsDone: [],
       quizScore: 3,
       quizTotal: 3,
       updatedAt: new Date().toISOString(),
     };
-    expect(isModuleComplete(consonants, almost)).toBe(false);
-    almost.speakItemsDone = ["c-s-g", "c-s-n"];
-    expect(isModuleComplete(consonants, almost)).toBe(true);
+    expect(uniqueIdCount(dupSpeak.speakItemsDone)).toBe(1);
+    expect(isModuleComplete(consonants, dupSpeak)).toBe(false);
+
+    dupSpeak.speakItemsDone = ["c-s-g", "c-s-n"];
+    expect(isModuleComplete(consonants, dupSpeak)).toBe(true);
   });
 
   it("speak-lab completes without quiz when speak minima met", () => {
@@ -206,12 +342,71 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
     expect(isModuleComplete(speakLab, progress)).toBe(true);
   });
 
-  it("isCheckpointPassing uses score/total ratio (not raw score)", () => {
+  it("write-lab requires unique write items", () => {
+    const writeLab = getBasicsModule("write-lab")!;
+    const almost: BasicsModuleProgress = {
+      moduleId: "write-lab",
+      stepsDone: ["wr-lab"],
+      speakItemsDone: [],
+      writeItemsDone: ["wr-g", "wr-g", "wr-g"], // duplicates only
+      builderItemsDone: [],
+      updatedAt: new Date().toISOString(),
+    };
+    expect(isModuleComplete(writeLab, almost)).toBe(false);
+    almost.writeItemsDone = ["wr-g", "wr-n", "wr-a"];
+    expect(isModuleComplete(writeLab, almost)).toBe(true);
+  });
+
+  it("syllables requires builder minima + quiz ratio", () => {
+    const syllables = getBasicsModule("syllables")!;
+    const req = syllables.requirements;
+    const progress: BasicsModuleProgress = {
+      moduleId: "syllables",
+      stepsDone: [...req.requiredStepIds],
+      speakItemsDone: [],
+      writeItemsDone: [],
+      builderItemsDone: ["sy-p1"], // need minBuilderItems 2
+      quizScore: 3,
+      quizTotal: 3,
+      updatedAt: new Date().toISOString(),
+    };
+    expect(isModuleComplete(syllables, progress)).toBe(false);
+    progress.builderItemsDone = ["sy-p1", "sy-p2"];
+    expect(isModuleComplete(syllables, progress)).toBe(true);
+  });
+
+  it("never marks checkpoint complete via isModuleComplete (unlock is isBasicsComplete)", () => {
+    const checkpoint = getBasicsModule("checkpoint")!;
+    const progress: BasicsModuleProgress = {
+      moduleId: "checkpoint",
+      stepsDone: ["cp-quiz"],
+      speakItemsDone: [],
+      writeItemsDone: [],
+      builderItemsDone: [],
+      quizScore: 13,
+      quizTotal: 13,
+      updatedAt: new Date().toISOString(),
+      completed: true,
+    };
+    expect(isModuleComplete(checkpoint, progress)).toBe(false);
+    expect(
+      isBasicsComplete({
+        version: 1,
+        modules: { checkpoint: progress },
+        checkpointPassedAt: "2026-07-17T00:00:00.000Z",
+      }),
+    ).toBe(true);
+  });
+
+  it("isCheckpointPassing uses score/total ratio (not raw score) and clamps score", () => {
     expect(isCheckpointPassing(12, 16, 0.7)).toBe(true);
     expect(isCheckpointPassing(11, 16, 0.7)).toBe(false);
     expect(isCheckpointPassing(7, 10, 0.7)).toBe(true);
     expect(isCheckpointPassing(0, 0, 0.7)).toBe(false);
     expect(isCheckpointPassing(5, 0, 0.7)).toBe(false);
+    // score > total clamps to 1.0 ratio → pass
+    expect(isCheckpointPassing(20, 10, 0.7)).toBe(true);
+    expect(quizRatio({ moduleId: "x", stepsDone: [], speakItemsDone: [], writeItemsDone: [], builderItemsDone: [], quizScore: 12, quizTotal: 10, updatedAt: "" })).toBe(1);
   });
 
   it("isBasicsComplete only trusts checkpointPassedAt", () => {

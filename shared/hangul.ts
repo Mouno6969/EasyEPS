@@ -43,15 +43,20 @@ export type HangulParts = { L: string; V: string; T: string };
 export function composeHangul(initial: string, vowel: string, final: string = ""): string {
   const L = INITIAL_TO_INDEX[initial];
   const V = VOWEL_TO_INDEX[vowel];
-  const T = FINAL_TO_INDEX[final ?? ""] ?? 0;
-  if (L == null || V == null) {
-    throw new Error(`Invalid jamo ${initial}+${vowel}`);
+  // Require known final (including "" → 0); never silently map typos to empty batchim.
+  const T = FINAL_TO_INDEX[final ?? ""];
+  if (L == null || V == null || T == null) {
+    throw new Error(`Invalid jamo ${initial}+${vowel}+${final ?? ""}`);
   }
   return String.fromCharCode(0xac00 + (L * 21 + V) * 28 + T);
 }
 
 export function decomposeHangul(syllable: string): HangulParts {
   if (syllable.length === 0) throw new Error("Empty syllable");
+  // Precomposed Hangul is BMP; require a single code unit / character.
+  if ([...syllable].length !== 1) {
+    throw new Error(`Expected a single Hangul syllable, got length ${[...syllable].length}`);
+  }
   const code = syllable.charCodeAt(0);
   if (code < 0xac00 || code > 0xd7a3) {
     throw new Error(`Not a precomposed Hangul syllable: ${syllable}`);
