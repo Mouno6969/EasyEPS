@@ -13,10 +13,16 @@ import {
 describe("composeHangul / decomposeHangul", () => {
   it("composes well-known CV and CVC syllables", () => {
     expect(composeHangul("ㄱ", "ㅏ")).toBe("가");
+    expect(composeHangul("ㄱ", "ㅏ", "")).toBe("가");
     expect(composeHangul("ㅎ", "ㅏ", "ㄴ")).toBe("한");
     expect(composeHangul("ㄱ", "ㅡ", "ㄹ")).toBe("글");
     expect(composeHangul("ㅇ", "ㅣ")).toBe("이");
     expect(composeHangul("ㅅ", "ㅏ", "ㄹ")).toBe("살");
+  });
+
+  it("composes tensed/complex finals present in the Unicode table", () => {
+    expect(composeHangul("ㄱ", "ㅏ", "ㄲ")).toBe("갂");
+    expect(composeHangul("ㄱ", "ㅏ", "ㄳ")).toBe("갃");
   });
 
   it("round-trips every v1 consonant × vowel (no batchim)", () => {
@@ -39,14 +45,21 @@ describe("composeHangul / decomposeHangul", () => {
     }
   });
 
-  it("throws on invalid jamo", () => {
+  it("throws on invalid jamo including unknown finals", () => {
     expect(() => composeHangul("A", "ㅏ")).toThrow(/Invalid jamo/);
     expect(() => composeHangul("ㄱ", "x")).toThrow(/Invalid jamo/);
+    // Never silently map typos / non-jongseong to empty batchim.
+    expect(() => composeHangul("ㄱ", "ㅏ", "ZZ")).toThrow(/Invalid jamo/);
+    expect(() => composeHangul("ㄱ", "ㅏ", "NOTJAMO")).toThrow(/Invalid jamo/);
+    expect(() => composeHangul("ㄱ", "ㅏ", "ㄴ ")).toThrow(/Invalid jamo/);
+    // ㄸ is choseong-only (tensed initial), not a valid final.
+    expect(() => composeHangul("ㄱ", "ㅏ", "ㄸ")).toThrow(/Invalid jamo/);
   });
 
   it("throws on non-syllable decompose input", () => {
     expect(() => decomposeHangul("ㄱ")).toThrow(/Not a precomposed Hangul syllable/);
     expect(() => decomposeHangul("가나다")).toThrow(/Expected single syllable/);
+    expect(() => decomposeHangul("")).toThrow(/Expected single syllable/);
   });
 
   it("exposes full Unicode L/V/T index tables", () => {

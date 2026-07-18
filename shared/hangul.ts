@@ -126,14 +126,15 @@ export type HangulParts = { L: string; V: string; T: string };
 
 /**
  * Compose a Hangul syllable from jamo characters.
- * @throws if initial or vowel is not in the Unicode tables
+ * @throws if initial, vowel, or final is not in the Unicode tables
+ * (never silently maps unknown finals to empty batchim)
  */
 export function composeHangul(initial: string, vowel: string, final: string = ""): string {
   const L = INITIAL_TO_INDEX[initial];
   const V = VOWEL_TO_INDEX[vowel];
-  const T = FINAL_TO_INDEX[final ?? ""] ?? 0;
-  if (L == null || V == null) {
-    throw new Error(`Invalid jamo ${initial}+${vowel}`);
+  const T = FINAL_TO_INDEX[final ?? ""];
+  if (L == null || V == null || T == null) {
+    throw new Error(`Invalid jamo ${initial}+${vowel}+${final ?? ""}`);
   }
   return String.fromCharCode(0xac00 + (L * 21 + V) * 28 + T);
 }
