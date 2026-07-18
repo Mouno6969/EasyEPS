@@ -1,0 +1,125 @@
+{
+  "id": "vowels",
+  "order": 2,
+  "title": {
+    "bn": "মৌলিক স্বরবর্ণ",
+    "ko": "기본 모음",
+    "en": "Basic Vowels"
+  },
+  "estimatedMinutes": 15,
+  "requirements": {
+    "requiredStepIds": [
+      "v-grid",
+      "v-speak",
+      "v-quiz"
+    ],
+    "minSpeakItems": 2,
+    "minWriteItems": 0,
+    "minBuilderItems": 0,
+    "passRatio": 0.7
+  },
+  "steps": [
+    {
+      "id": "v-grid",
+      "type": "jamo-grid",
+      "items": [
+        {
+          "id": "v-a",
+          "char": "ㅏ",
+          "romanization": "a",
+          "audioText": "아",
+          "bn": "আ",
+          "en": "a sound"
+        },
+        {
+          "id": "v-eo",
+          "char": "ㅓ",
+          "romanization": "eo",
+          "audioText": "어",
+          "bn": "eo",
+          "en": "eo sound"
+        },
+        {
+          "id": "v-i",
+          "char": "ㅣ",
+          "romanization": "i",
+          "audioText": "이",
+          "bn": "ই",
+          "en": "i sound"
+        }
+      ]
+    },
+    {
+      "id": "v-speak",
+      "type": "speak",
+      "minListens": 1,
+      "items": [
+        {
+          "id": "v-s-a",
+          "text": "ㅏ",
+          "romanization": "a",
+          "audioText": "아",
+          "bn": "আ",
+          "en": "a"
+        },
+        {
+          "id": "v-s-i",
+          "text": "ㅣ",
+          "romanization": "i",
+          "audioText": "이",
+          "bn": "ই",
+          "en": "i"
+        }
+      ]
+    },
+    {
+      "id": "v-quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "v-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅏ রোমানাইজেশন?",
+          "options": [
+            "a",
+            "o",
+            "u",
+            "e"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅏ=a।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅣ কোন ধরন?",
+          "options": [
+            "ব্যঞ্জন",
+            "স্বর",
+            "ব্যাচিম",
+            "সংখ্যা"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅣ স্বর।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-q3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বর বেছে নিন",
+          "listenText": "아",
+          "options": [
+            "ㅏ",
+            "ㅓ",
+            "ㅗ",
+            "ㅜ"
+          ],
+          "answer": 0,
+          "explanationBn": "아=ㅏ।",
+          "topic": "jamo"
+        }
+      ]
+    }
+  ]
+}

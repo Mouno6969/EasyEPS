@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "passScore": 0.7,
+  "modules": [
+    {
+      "id": "welcome",
+      "order": 0,
+      "title": {
+        "bn": "হ্যাঙ্গুল পরিচিতি",
+        "ko": "한글 안내",
+        "en": "Hangul Roadmap"
+      },
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "consonants",
+      "order": 1,
+      "title": {
+        "bn": "মৌলিক ব্যঞ্জনবর্ণ",
+        "ko": "기본 자음",
+        "en": "Basic Consonants"
+      },
+      "estimatedMinutes": 20
+    },
+    {
+      "id": "vowels",
+      "order": 2,
+      "title": {
+        "bn": "মৌলিক স্বরবর্ণ",
+        "ko": "기본 모음",
+        "en": "Basic Vowels"
+      },
+      "estimatedMinutes": 15
+    },
+    {
+      "id": "syllables",
+      "order": 3,
+      "title": {
+        "bn": "অক্ষর গঠন",
+        "ko": "음절 만들기",
+        "en": "Building Syllables"
+      },
+      "estimatedMinutes": 15
+    },
+    {
+      "id": "batchim",
+      "order": 4,
+      "title": {
+        "bn": "ব্যাচিম পরিচিতি",
+        "ko": "받침 입문",
+        "en": "Final Consonants Intro"
+      },
+      "estimatedMinutes": 12
+    },
+    {
+      "id": "speak-lab",
+      "order": 5,
+      "title": {
+        "bn": "উচ্চারণ অনুশীলন",
+        "ko": "발음 연습",
+        "en": "Speak Lab"
+      },
+      "estimatedMinutes": 15
+    },
+    {
+      "id": "write-lab",
+      "order": 6,
+      "title": {
+        "bn": "লেখা অনুশীলন",
+        "ko": "쓰기 연습",
+        "en": "Write Lab"
+      },
+      "estimatedMinutes": 15
+    },
+    {
+      "id": "checkpoint",
+      "order": 7,
+      "title": {
+        "bn": "বেসিক পরীক্ষা",
+        "ko": "기초 확인",
+        "en": "Basics Check"
+      },
+      "estimatedMinutes": 10
+    }
+  ]
+}

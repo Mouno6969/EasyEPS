@@ -1,0 +1,53 @@
+{
+  "id": "speak-lab",
+  "order": 5,
+  "title": {
+    "bn": "উচ্চারণ অনুশীলন",
+    "ko": "발음 연습",
+    "en": "Speak Lab"
+  },
+  "estimatedMinutes": 15,
+  "requirements": {
+    "requiredStepIds": [
+      "sp-lab"
+    ],
+    "minSpeakItems": 3,
+    "minWriteItems": 0,
+    "minBuilderItems": 0,
+    "passRatio": 0.7
+  },
+  "steps": [
+    {
+      "id": "sp-lab",
+      "type": "speak",
+      "minListens": 1,
+      "items": [
+        {
+          "id": "sp-1",
+          "text": "가",
+          "romanization": "ga",
+          "audioText": "가",
+          "bn": "গা",
+          "en": "ga"
+        },
+        {
+          "id": "sp-2",
+          "text": "나",
+          "romanization": "na",
+          "audioText": "나",
+          "bn": "না",
+          "en": "na"
+        },
+        {
+          "id": "sp-3",
+          "text": "다",
+          "romanization": "da",
+          "audioText": "다",
+          "bn": "দা",
+          "en": "da"
+        }
+      ],
+      "fallbackQuizIds": []
+    }
+  ]
+}

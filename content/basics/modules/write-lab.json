@@ -1,0 +1,46 @@
+{
+  "id": "write-lab",
+  "order": 6,
+  "title": {
+    "bn": "লেখা অনুশীলন",
+    "ko": "쓰기 연습",
+    "en": "Write Lab"
+  },
+  "estimatedMinutes": 15,
+  "requirements": {
+    "requiredStepIds": [
+      "wr-lab"
+    ],
+    "minSpeakItems": 0,
+    "minWriteItems": 3,
+    "minBuilderItems": 0,
+    "passRatio": 0.7
+  },
+  "steps": [
+    {
+      "id": "wr-lab",
+      "type": "write",
+      "skipAfterFailures": 2,
+      "items": [
+        {
+          "id": "wr-g",
+          "char": "ㄱ",
+          "strokeId": "giyeok",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-n",
+          "char": "ㄴ",
+          "strokeId": "nieun",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-a",
+          "char": "ㅏ",
+          "strokeId": "a",
+          "minCoverage": 0.55
+        }
+      ]
+    }
+  ]
+}

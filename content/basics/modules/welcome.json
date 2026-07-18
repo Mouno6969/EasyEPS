@@ -1,0 +1,99 @@
+{
+  "id": "welcome",
+  "order": 0,
+  "title": {
+    "bn": "হ্যাঙ্গুল পরিচিতি",
+    "ko": "한글 안내",
+    "en": "Hangul Roadmap"
+  },
+  "description": {
+    "bn": "কোরিয়ান লিপি রোডম্যাপ।",
+    "ko": "한글 로드맵.",
+    "en": "Hangul roadmap."
+  },
+  "estimatedMinutes": 8,
+  "requirements": {
+    "requiredStepIds": [
+      "w-explain",
+      "w-quiz"
+    ],
+    "minSpeakItems": 0,
+    "minWriteItems": 0,
+    "minBuilderItems": 0,
+    "passRatio": 0.66
+  },
+  "steps": [
+    {
+      "id": "w-explain",
+      "type": "explain",
+      "title": {
+        "bn": "হ্যাঙ্গুল কী?",
+        "ko": "한글이란?",
+        "en": "What is Hangul?"
+      },
+      "body": {
+        "bn": [
+          "হ্যাঙ্গুল কোরিয়ান লিপি। ব্যঞ্জন+স্বর(+ব্যাচিম) দিয়ে অক্ষর গঠিত।",
+          "Basics-এ জামো, উচ্চারণ, লেখা ও চেকপয়েন্ট।"
+        ],
+        "en": [
+          "Hangul is Korean script. Syllables combine consonants and vowels (and batchim).",
+          "Basics covers jamo, speak, write, checkpoint."
+        ],
+        "ko": [
+          "한글은 자음+모음(+받침)으로 음절을 만듭니다.",
+          "Basics에서 자모, 발음, 쓰기, 체크포인트를 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "w-quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "w-q1",
+          "kind": "multiple-choice",
+          "promptBn": "হ্যাঙ্গুল কী?",
+          "promptEn": "What is Hangul?",
+          "options": [
+            "কোরিয়ান লিপি",
+            "জাপানি লিপি",
+            "শুধু রোমান",
+            "সংখ্যা"
+          ],
+          "answer": 0,
+          "explanationBn": "হ্যাঙ্গুল কোরিয়ান লিপি।",
+          "topic": "general"
+        },
+        {
+          "id": "w-q2",
+          "kind": "multiple-choice",
+          "promptBn": "অক্ষর সাধারণত কী দিয়ে গঠিত?",
+          "options": [
+            "শুধু স্বর",
+            "ব্যঞ্জন + স্বর",
+            "সংখ্যা",
+            "ল্যাটিন"
+          ],
+          "answer": 1,
+          "explanationBn": "ব্যঞ্জন+স্বর।",
+          "topic": "general"
+        },
+        {
+          "id": "w-q3",
+          "kind": "multiple-choice",
+          "promptBn": "Basics শেষ ধাপ?",
+          "options": [
+            "ভিডিও",
+            "চেকপয়েন্ট",
+            "সার্টিফিকেট",
+            "মক"
+          ],
+          "answer": 1,
+          "explanationBn": "চেকপয়েন্ট পাস = আনলক।",
+          "topic": "general"
+        }
+      ]
+    }
+  ]
+}

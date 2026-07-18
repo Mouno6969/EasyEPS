@@ -1,0 +1,104 @@
+{
+  "id": "syllables",
+  "order": 3,
+  "title": {
+    "bn": "অক্ষর গঠন",
+    "ko": "음절 만들기",
+    "en": "Building Syllables"
+  },
+  "estimatedMinutes": 15,
+  "requirements": {
+    "requiredStepIds": [
+      "sy-builder",
+      "sy-quiz"
+    ],
+    "minSpeakItems": 0,
+    "minWriteItems": 0,
+    "minBuilderItems": 2,
+    "passRatio": 0.7
+  },
+  "steps": [
+    {
+      "id": "sy-builder",
+      "type": "builder",
+      "prompts": [
+        {
+          "id": "sy-p1",
+          "initial": "ㄱ",
+          "vowel": "ㅏ",
+          "final": "",
+          "answer": "가",
+          "bn": "ㄱ+ㅏ",
+          "en": "g/k+a"
+        },
+        {
+          "id": "sy-p2",
+          "initial": "ㄴ",
+          "vowel": "ㅏ",
+          "final": "",
+          "answer": "나",
+          "bn": "ㄴ+ㅏ",
+          "en": "n+a"
+        },
+        {
+          "id": "sy-p3",
+          "initial": "ㄱ",
+          "vowel": "ㅏ",
+          "final": "ㄴ",
+          "answer": "간",
+          "bn": "ㄱ+ㅏ+ㄴ",
+          "en": "g/k+a+n"
+        }
+      ]
+    },
+    {
+      "id": "sy-quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "sy-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ + ㅏ = ?",
+          "promptEn": "Compose",
+          "options": [
+            "가",
+            "나",
+            "다",
+            "마"
+          ],
+          "answer": 0,
+          "explanationBn": "가",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-q2",
+          "kind": "multiple-choice",
+          "promptBn": "나 = ?",
+          "options": [
+            "ㄴ+ㅏ",
+            "ㄱ+ㅏ",
+            "ㅁ+ㅣ",
+            "ㅅ+ㅗ"
+          ],
+          "answer": 0,
+          "explanationBn": "나=ㄴ+ㅏ",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-q3",
+          "kind": "multiple-choice",
+          "promptBn": "간 batchim?",
+          "options": [
+            "ㄱ",
+            "ㄴ",
+            "ㅇ",
+            "없음"
+          ],
+          "answer": 1,
+          "explanationBn": "받침 ㄴ",
+          "topic": "batchim"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "checkpoint",
+  "order": 7,
+  "title": {
+    "bn": "বেসিক পরীক্ষা",
+    "ko": "기초 확인",
+    "en": "Basics Check"
+  },
+  "description": {
+    "bn": "ক্যাপস্টোন",
+    "ko": "체크포인트",
+    "en": "Capstone"
+  },
+  "estimatedMinutes": 10,
+  "requirements": {
+    "requiredStepIds": [
+      "cp-quiz"
+    ],
+    "minSpeakItems": 0,
+    "minWriteItems": 0,
+    "minBuilderItems": 0,
+    "passRatio": 0.7
+  },
+  "steps": [
+    {
+      "id": "cp-quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "cp-mc-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ ধরন?",
+          "options": [
+            "স্বর",
+            "ব্যঞ্জন",
+            "সংখ্যা",
+            "যতি"
+          ],
+          "answer": 1,
+          "explanationBn": "ব্যঞ্জন",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-mc-2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅏ?",
+          "options": [
+            "a",
+            "o",
+            "u",
+            "i"
+          ],
+          "answer": 0,
+          "explanationBn": "a",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-mc-3",
+          "kind": "multiple-choice",
+          "promptBn": "ㄴ?",
+          "options": [
+            "m",
+            "n",
+            "ng",
+            "l"
+          ],
+          "answer": 1,
+          "explanationBn": "n",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-sy-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ+ㅏ=?",
+          "promptEn": "compose",
+          "options": [
+            "가",
+            "나",
+            "다",
+            "마"
+          ],
+          "answer": 0,
+          "explanationBn": "가",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-sy-2",
+          "kind": "multiple-choice",
+          "promptBn": "나=?",
+          "options": [
+            "ㄴ+ㅏ",
+            "ㄱ+ㅏ",
+            "ㄷ+ㅣ",
+            "ㅁ+ㅗ"
+          ],
+          "answer": 0,
+          "explanationBn": "ㄴ+ㅏ",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-sy-3",
+          "kind": "multiple-choice",
+          "promptBn": "다=?",
+          "options": [
+            "ㄷ+ㅏ",
+            "ㄱ+ㅏ",
+            "ㄴ+ㅣ",
+            "ㅅ+ㅜ"
+          ],
+          "answer": 0,
+          "explanationBn": "ㄷ+ㅏ",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-ba-1",
+          "kind": "multiple-choice",
+          "promptBn": "간 batchim (받침)?",
+          "promptEn": "Batchim in 간?",
+          "options": [
+            "ㄱ",
+            "ㄴ",
+            "ㅏ",
+            "없음"
+          ],
+          "answer": 1,
+          "explanationBn": "ㄴ",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-ba-2",
+          "kind": "multiple-choice",
+          "promptBn": "가-তে 받침?",
+          "promptEn": "batchim in 가?",
+          "options": [
+            "হ্যাঁ",
+            "না",
+            "ㄱ",
+            "ㅇ"
+          ],
+          "answer": 1,
+          "explanationBn": "নাই",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-li-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনুন",
+          "listenText": "가",
+          "options": [
+            "가",
+            "나",
+            "다",
+            "마"
+          ],
+          "answer": 0,
+          "explanationBn": "가",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-li-2",
+          "kind": "listen-choice",
+          "promptBn": "স্বর",
+          "listenText": "아",
+          "options": [
+            "ㅏ",
+            "ㅓ",
+            "ㅗ",
+            "ㅜ"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅏ",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-li-3",
+          "kind": "listen-choice",
+          "promptBn": "ব্যঞ্জন",
+          "listenText": "나",
+          "options": [
+            "ㄱ",
+            "ㄴ",
+            "ㄷ",
+            "ㅁ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㄴ",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-ma-1",
+          "kind": "matching",
+          "promptBn": "জামো মিল",
+          "pairs": [
+            {
+              "left": "ㄱ",
+              "right": "g/k"
+            },
+            {
+              "left": "ㄴ",
+              "right": "n"
+            },
+            {
+              "left": "ㅏ",
+              "right": "a"
+            }
+          ],
+          "explanationBn": "মিল",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-ma-2",
+          "kind": "matching",
+          "promptBn": "অক্ষর মিল",
+          "pairs": [
+            {
+              "left": "가",
+              "right": "ga"
+            },
+            {
+              "left": "나",
+              "right": "na"
+            }
+          ],
+          "explanationBn": "মিল",
+          "topic": "syllable"
+        }
+      ]
+    }
+  ]
+}
