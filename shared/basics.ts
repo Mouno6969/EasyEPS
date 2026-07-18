@@ -647,3 +647,207 @@ export function scoreBasicsQuiz(
   }
   return { score: correctIds.length, total: questions.length, correctIds };
 }
+
+
+// ---------------------------------------------------------------------------
+// Progress merge / patch helpers (login import + module save)
+// ---------------------------------------------------------------------------
+
+export function emptyBasicsProgress(): BasicsProgress {
+  return { version: 1, modules: {} };
+}
+
+export function emptyModuleProgress(moduleId: string, updatedAt = new Date().toISOString()): BasicsModuleProgress {
+  return {
+    moduleId,
+    stepsDone: [],
+    speakItemsDone: [],
+    writeItemsDone: [],
+    builderItemsDone: [],
+    updatedAt,
+  };
+}
+
+/** Stable unique string list preserving first-seen order. */
+export function uniqStrings(ids: readonly string[]): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const id of ids) {
+    if (seen.has(id)) continue;
+    seen.add(id);
+    out.push(id);
+  }
+  return out;
+}
+
+function laterIso(a?: string, b?: string): string {
+  if (!a) return b ?? new Date().toISOString();
+  if (!b) return a;
+  return a >= b ? a : b;
+}
+
+/**
+ * Prefer the quiz attempt with higher ratio; never max score and total independently.
+ * Clamps score to total; ignores missing totals.
+ */
+export function pickBetterQuiz(
+  x?: { quizScore?: number; quizTotal?: number; updatedAt?: string },
+  y?: { quizScore?: number; quizTotal?: number; updatedAt?: string },
+): { quizScore?: number; quizTotal?: number } {
+  const pair = (p?: { quizScore?: number; quizTotal?: number; updatedAt?: string }) => {
+    if (p?.quizScore == null || p?.quizTotal == null || p.quizTotal <= 0) return null;
+    const score = Math.min(p.quizScore, p.quizTotal);
+    return {
+      score,
+      total: p.quizTotal,
+      ratio: score / p.quizTotal,
+      updatedAt: p.updatedAt ?? "",
+    };
+  };
+  const a = pair(x);
+  const b = pair(y);
+  if (!a && !b) return {};
+  if (!a) return { quizScore: b!.score, quizTotal: b!.total };
+  if (!b) return { quizScore: a.score, quizTotal: a.total };
+  const better =
+    b.ratio !== a.ratio
+      ? b.ratio > a.ratio
+        ? b
+        : a
+      : b.total !== a.total
+        ? b.total > a.total
+          ? b
+          : a
+        : b.updatedAt >= a.updatedAt
+          ? b
+          : a;
+  return { quizScore: better.score, quizTotal: better.total };
+}
+
+/**
+ * Merge two Basics progress snapshots (remote = a, incoming = b).
+ * Unions id arrays; picks better quiz by ratio; **never** imports unlock fields from b.
+ */
+export function mergeBasicsProgress(a: BasicsProgress, b: BasicsProgress): BasicsProgress {
+  const ids = new Set([...Object.keys(a.modules), ...Object.keys(b.modules)]);
+  const modules: Record<string, BasicsModuleProgress> = {};
+  for (const id of ids) {
+    const x = a.modules[id];
+    const y = b.modules[id];
+    const quiz = pickBetterQuiz(x, y);
+    modules[id] = {
+      moduleId: id,
+      stepsDone: uniqStrings([...(x?.stepsDone ?? []), ...(y?.stepsDone ?? [])]),
+      speakItemsDone: uniqStrings([...(x?.speakItemsDone ?? []), ...(y?.speakItemsDone ?? [])]),
+      writeItemsDone: uniqStrings([...(x?.writeItemsDone ?? []), ...(y?.writeItemsDone ?? [])]),
+      builderItemsDone: uniqStrings([...(x?.builderItemsDone ?? []), ...(y?.builderItemsDone ?? [])]),
+      ...(quiz.quizScore != null ? { quizScore: quiz.quizScore } : {}),
+      ...(quiz.quizTotal != null ? { quizTotal: quiz.quizTotal } : {}),
+      lastStepId: y?.lastStepId ?? x?.lastStepId,
+      updatedAt: laterIso(x?.updatedAt, y?.updatedAt),
+      // denormalized cache only — callers may recompute via isModuleComplete
+      completed: Boolean(x?.completed || y?.completed),
+    };
+  }
+  // NEVER take checkpointPassedAt / unlockSource from client import (b)
+  return {
+    version: 1,
+    modules,
+    checkpointPassedAt: a.checkpointPassedAt,
+    unlockSource: a.unlockSource,
+  };
+}
+
+/** Strip trusted unlock fields so client payloads cannot spoof curriculum unlock. */
+export function stripBasicsUnlockFields(progress: BasicsProgress): BasicsProgress {
+  const modules: Record<string, BasicsModuleProgress> = {};
+  for (const [id, mod] of Object.entries(progress.modules ?? {})) {
+    const { completed: _ignored, ...rest } = mod;
+    modules[id] = { ...rest, moduleId: rest.moduleId || id };
+  }
+  return { version: 1, modules };
+}
+
+/** Module-level patch accepted from client (no unlock / track completed). */
+export const basicsProgressPatchSchema = z
+  .object({
+    moduleId: z.string().min(1),
+    stepsDone: z.array(z.string()).optional(),
+    speakItemsDone: z.array(z.string()).optional(),
+    writeItemsDone: z.array(z.string()).optional(),
+    builderItemsDone: z.array(z.string()).optional(),
+    quizScore: z.number().int().min(0).optional(),
+    quizTotal: z.number().int().min(0).optional(),
+    lastStepId: z.string().optional(),
+    minutes: z.number().int().min(0).max(240).default(5),
+  })
+  .superRefine((value, ctx) => {
+    if (value.quizScore != null && value.quizTotal != null && value.quizScore > value.quizTotal) {
+      ctx.addIssue({
+        code: "custom",
+        message: "quizScore cannot exceed quizTotal",
+        path: ["quizScore"],
+      });
+    }
+  });
+
+export type BasicsProgressPatch = z.infer<typeof basicsProgressPatchSchema>;
+
+export const basicsSubmitCheckpointSchema = z.object({
+  answers: z.record(z.string(), z.number().int()),
+  matching: z.record(z.string(), z.record(z.string(), z.string())).optional(),
+  durationSec: z.number().int().min(0).max(7200).optional(),
+});
+
+export type BasicsSubmitCheckpointInput = z.infer<typeof basicsSubmitCheckpointSchema>;
+
+/** Import payload: full BasicsProgress shape, unlock fields ignored server-side. */
+export const basicsImportProgressSchema = z.object({
+  version: z.literal(1).default(1),
+  modules: z.record(
+    z.string(),
+    basicsModuleProgressSchema
+      .partial()
+      .extend({
+        moduleId: z.string().min(1).optional(),
+        stepsDone: z.array(z.string()).optional(),
+        speakItemsDone: z.array(z.string()).optional(),
+        writeItemsDone: z.array(z.string()).optional(),
+        builderItemsDone: z.array(z.string()).optional(),
+        updatedAt: z.string().optional(),
+      }),
+  ),
+  // Accepted for parse tolerance but always stripped before merge
+  checkpointPassedAt: z.string().optional(),
+  unlockSource: z.enum(["checkpoint", "legacy-migration", "admin", "flag-off"]).optional(),
+});
+
+/**
+ * Apply a client module patch onto existing progress.
+ * Never reads unlock fields from the patch object.
+ */
+export function applyBasicsModulePatch(
+  existing: BasicsModuleProgress | undefined,
+  patch: Omit<BasicsProgressPatch, "minutes">,
+  content?: BasicsModule,
+): BasicsModuleProgress {
+  const base = existing ?? emptyModuleProgress(patch.moduleId);
+  const next: BasicsModuleProgress = {
+    moduleId: patch.moduleId,
+    stepsDone: patch.stepsDone ?? base.stepsDone,
+    speakItemsDone: patch.speakItemsDone ?? base.speakItemsDone,
+    writeItemsDone: patch.writeItemsDone ?? base.writeItemsDone,
+    builderItemsDone: patch.builderItemsDone ?? base.builderItemsDone,
+    quizScore: patch.quizScore ?? base.quizScore,
+    quizTotal: patch.quizTotal ?? base.quizTotal,
+    lastStepId: patch.lastStepId ?? base.lastStepId,
+    updatedAt: new Date().toISOString(),
+  };
+  if (content) {
+    next.completed = isModuleComplete(content, next);
+  } else if (base.completed != null) {
+    // keep previous denormalized flag only if we cannot recompute
+    next.completed = base.completed;
+  }
+  return next;
+}

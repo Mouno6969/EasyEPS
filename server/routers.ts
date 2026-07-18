@@ -1,4 +1,11 @@
 import { COOKIE_NAME } from "@shared/const";
+import {
+  basicsImportProgressSchema,
+  basicsProgressPatchSchema,
+  basicsSubmitCheckpointSchema,
+  emptyBasicsProgress,
+  type BasicsProgress,
+} from "@shared/basics";
 import { attemptDetailSchema, lessonSchema } from "@shared/lesson";
 import {
   avatarUploadSchema,
@@ -14,6 +21,7 @@ import { nanoid } from "nanoid";
 import { z } from "zod";
 import { getAllLessons, getLesson, getLessonSummaries, replaceLesson } from "./content";
 import * as db from "./db";
+import { ENV } from "./_core/env";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { invokeLLM } from "./_core/llm";
 import { systemRouter } from "./_core/systemRouter";
@@ -543,6 +551,214 @@ export const appRouter = router({
           scorePercent: Math.round((best.score / best.total) * 100),
           recipientSnapshot: eligible.recipient,
         });
+      }),
+  }),
+
+
+  /**
+   * Hangul Basics track APIs.
+   * Curriculum write-gate (assertBasicsComplete on progress.save / attempts) ships later.
+   */
+  basics: router({
+    /**
+     * Gate status for client useBasicsGate.
+     * When gate is off, completed is true for everyone (hub still usable voluntarily).
+     * Guests get completed: null when gate is on (client uses local progress).
+     */
+    gateStatus: publicProcedure.query(async ({ ctx }) => {
+      const gateEnabled = ENV.basicsGateEnabled;
+      const authenticated = Boolean(ctx.user);
+      const bypass = ctx.user?.role === "admin";
+
+      if (!gateEnabled) {
+        return {
+          gateEnabled: false,
+          authenticated,
+          completed: true as boolean | null,
+          bypass,
+        };
+      }
+
+      if (!authenticated) {
+        return {
+          gateEnabled: true,
+          authenticated: false,
+          completed: null as boolean | null,
+          bypass: false,
+        };
+      }
+
+      if (bypass) {
+        return {
+          gateEnabled: true,
+          authenticated: true,
+          completed: true as boolean | null,
+          bypass: true,
+        };
+      }
+
+      try {
+        const row = await db.getBasicsProgress(ctx.user!.id);
+        return {
+          gateEnabled: true,
+          authenticated: true,
+          completed: Boolean(row?.completed) as boolean | null,
+          bypass: false,
+        };
+      } catch {
+        // DB unavailable — fail open for browsing (completed unknown); client should
+        // treat as not decided. Prefer null so UI does not flash false unlock.
+        return {
+          gateEnabled: true,
+          authenticated: true,
+          completed: null as boolean | null,
+          bypass: false,
+        };
+      }
+    }),
+
+    /** Full Basics progress for the signed-in user. */
+    get: protectedProcedure.query(async ({ ctx }) => {
+      try {
+        const row = await db.getBasicsProgress(ctx.user.id);
+        if (!row) {
+          return {
+            progress: emptyBasicsProgress(),
+            completed: false,
+            checkpointScore: null as number | null,
+            checkpointTotal: null as number | null,
+            completedAt: null as string | null,
+            unlockSource: null as string | null,
+          };
+        }
+        return {
+          progress: db.basicsRowToProgress(row),
+          completed: row.completed,
+          checkpointScore: row.checkpointScore,
+          checkpointTotal: row.checkpointTotal,
+          completedAt: row.completedAt ? row.completedAt.toISOString() : null,
+          unlockSource: row.unlockSource,
+        };
+      } catch (error) {
+        console.error("[basics.get] failed", error);
+        throw new TRPCError({
+          code: "INTERNAL_SERVER_ERROR",
+          message: "Could not load Basics progress",
+        });
+      }
+    }),
+
+    /**
+     * Module step progress only. Unlock fields (completed / checkpointPassedAt /
+     * unlockSource) are never accepted from the client.
+     */
+    saveProgress: protectedProcedure
+      .input(basicsProgressPatchSchema)
+      .mutation(async ({ ctx, input }) => {
+        // Defense in depth: drop any unlock-shaped keys if the schema is widened later
+        const { minutes, ...modulePatch } = input;
+        const unsafe = modulePatch as Record<string, unknown>;
+        delete unsafe.completed;
+        delete unsafe.checkpointPassedAt;
+        delete unsafe.unlockSource;
+
+        try {
+          const { progress, row } = await db.saveBasicsModuleProgress(ctx.user.id, modulePatch);
+          await db.recordStudyDay(ctx.user.id, today(), minutes);
+          return {
+            progress,
+            completed: row.completed,
+            module: progress.modules[modulePatch.moduleId] ?? null,
+          };
+        } catch (error) {
+          console.error("[basics.saveProgress] failed", error);
+          throw new TRPCError({
+            code: "INTERNAL_SERVER_ERROR",
+            message: "Could not save Basics progress",
+          });
+        }
+      }),
+
+    /**
+     * Server-grade checkpoint answers. Sets completed only when score/total ≥ passRatio.
+     */
+    submitCheckpoint: protectedProcedure
+      .input(basicsSubmitCheckpointSchema)
+      .mutation(async ({ ctx, input }) => {
+        try {
+          const result = await db.submitBasicsCheckpoint(ctx.user.id, {
+            answers: input.answers,
+            matching: input.matching,
+            durationSec: input.durationSec,
+          });
+          await db.recordStudyDay(
+            ctx.user.id,
+            today(),
+            Math.max(1, Math.round((input.durationSec ?? 300) / 60)),
+          );
+          return {
+            score: result.score,
+            total: result.total,
+            passed: result.passed,
+            passRatio: result.passRatio,
+            correctIds: result.correctIds,
+            progress: result.progress,
+            completed: result.row.completed,
+          };
+        } catch (error) {
+          console.error("[basics.submitCheckpoint] failed", error);
+          if (error instanceof Error && /checkpoint module missing/i.test(error.message)) {
+            notFound("Basics checkpoint module was not found");
+          }
+          throw new TRPCError({
+            code: "INTERNAL_SERVER_ERROR",
+            message: "Could not submit Basics checkpoint",
+          });
+        }
+      }),
+
+    /**
+     * Login merge of local module progress. Never unlocks curriculum from client
+     * checkpointPassedAt / unlockSource (those are stripped before merge).
+     */
+    importProgress: protectedProcedure
+      .input(basicsImportProgressSchema)
+      .mutation(async ({ ctx, input }) => {
+        const incoming: BasicsProgress = {
+          version: 1,
+          modules: {},
+        };
+        for (const [id, mod] of Object.entries(input.modules ?? {})) {
+          incoming.modules[id] = {
+            moduleId: mod.moduleId || id,
+            stepsDone: mod.stepsDone ?? [],
+            speakItemsDone: mod.speakItemsDone ?? [],
+            writeItemsDone: mod.writeItemsDone ?? [],
+            builderItemsDone: mod.builderItemsDone ?? [],
+            quizScore: mod.quizScore,
+            quizTotal: mod.quizTotal,
+            lastStepId: mod.lastStepId,
+            updatedAt: mod.updatedAt || new Date().toISOString(),
+            // strip denormalized completed — recompute server-side
+          };
+        }
+        // Intentionally ignore input.checkpointPassedAt / input.unlockSource
+
+        try {
+          const { progress, row } = await db.importBasicsProgress(ctx.user.id, incoming);
+          return {
+            progress,
+            completed: row.completed,
+            /** True when local claimed unlock but server is still locked — client should re-take checkpoint. */
+            needsCheckpointRetake: Boolean(input.checkpointPassedAt) && !row.completed,
+          };
+        } catch (error) {
+          console.error("[basics.importProgress] failed", error);
+          throw new TRPCError({
+            code: "INTERNAL_SERVER_ERROR",
+            message: "Could not import Basics progress",
+          });
+        }
       }),
   }),
 

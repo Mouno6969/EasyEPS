@@ -7,4 +7,10 @@ export const ENV = {
   isProduction: process.env.NODE_ENV === "production",
   forgeApiUrl: process.env.BUILT_IN_FORGE_API_URL ?? "",
   forgeApiKey: process.env.BUILT_IN_FORGE_API_KEY ?? "",
+  /**
+   * When true, signed-in users must complete Hangul Basics before curriculum
+   * progress/attempt writes (enforced in a later PR). Default false until MVP
+   * UI + backfill ship. Rollback = leave unset or set to anything other than "true".
+   */
+  basicsGateEnabled: process.env.BASICS_GATE_ENABLED === "true",
 };

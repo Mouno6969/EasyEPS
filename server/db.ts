@@ -3,9 +3,20 @@ import { drizzle } from "drizzle-orm/mysql2";
 import type { CertificateRecipient } from "../shared/certificate";
 import { buildCertificateRecipient, certificateRecipientSchema } from "../shared/certificate";
 import type { ProfileSetupData } from "../shared/profile";
+import type { BasicsModuleProgress, BasicsProgress } from "../shared/basics";
+import {
+  applyBasicsModulePatch,
+  emptyBasicsProgress,
+  isCheckpointPassing,
+  isModuleComplete,
+  mergeBasicsProgress,
+  scoreBasicsQuiz,
+  stripBasicsUnlockFields,
+} from "../shared/basics";
 import {
   attempts,
   badges,
+  basicsProgress,
   certificates,
   InsertUser,
   lessonProgress,
@@ -14,8 +25,10 @@ import {
   studyDays,
   userProfiles,
   users,
+  type BasicsProgressRow,
   type UserProfileRow,
 } from "../drizzle/schema";
+import { getBasicsManifest, getBasicsModule } from "./basicsContent";
 import { ENV } from "./_core/env";
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -497,4 +510,342 @@ export async function setUserAvatarUrl(userId: number, avatarUrl: string | null)
     });
   }
   return getUserProfile(userId);
+}
+
+
+// ---------------------------------------------------------------------------
+// Hangul Basics progress
+// ---------------------------------------------------------------------------
+
+type UnlockSource = "checkpoint" | "legacy-migration" | "admin" | "flag-off";
+
+function parseModulesJson(raw: unknown): Record<string, BasicsModuleProgress> {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return {};
+  return raw as Record<string, BasicsModuleProgress>;
+}
+
+/** Reconstruct client BasicsProgress from a DB row. */
+export function basicsRowToProgress(row: BasicsProgressRow): BasicsProgress {
+  const modules = parseModulesJson(row.modules);
+  const progress: BasicsProgress = { version: 1, modules };
+  if (row.completed) {
+    progress.checkpointPassedAt =
+      row.completedAt instanceof Date
+        ? row.completedAt.toISOString()
+        : row.completedAt
+          ? String(row.completedAt)
+          : row.updatedAt instanceof Date
+            ? row.updatedAt.toISOString()
+            : new Date().toISOString();
+  }
+  if (row.unlockSource) {
+    progress.unlockSource = row.unlockSource;
+  }
+  return progress;
+}
+
+export async function getBasicsProgress(userId: number): Promise<BasicsProgressRow | null> {
+  const db = await requireDb();
+  const [row] = await db.select().from(basicsProgress).where(eq(basicsProgress.userId, userId)).limit(1);
+  return row ?? null;
+}
+
+async function upsertBasicsModules(
+  userId: number,
+  modules: Record<string, BasicsModuleProgress>,
+  trusted?: {
+    completed?: boolean;
+    checkpointScore?: number | null;
+    checkpointTotal?: number | null;
+    completedAt?: Date | null;
+    unlockSource?: UnlockSource | null;
+  },
+): Promise<BasicsProgressRow> {
+  const db = await requireDb();
+  const existing = await getBasicsProgress(userId);
+  const now = new Date();
+
+  if (existing) {
+    const set: Record<string, unknown> = {
+      modules,
+      updatedAt: now,
+    };
+    // Only trusted paths may change unlock columns. Once completed, stay sticky
+    // unless an explicit reset (future) clears them.
+    if (trusted) {
+      if (trusted.completed === true && !existing.completed) {
+        set.completed = true;
+        set.completedAt = trusted.completedAt ?? now;
+        set.unlockSource = trusted.unlockSource ?? "checkpoint";
+      }
+      if (trusted.checkpointScore !== undefined) set.checkpointScore = trusted.checkpointScore;
+      if (trusted.checkpointTotal !== undefined) set.checkpointTotal = trusted.checkpointTotal;
+      // legacy/admin may set completed when already incomplete via markBasicsCompleteLegacy
+      if (trusted.completed === true && existing.completed && trusted.unlockSource && !existing.unlockSource) {
+        set.unlockSource = trusted.unlockSource;
+      }
+    }
+    await db.update(basicsProgress).set(set).where(eq(basicsProgress.userId, userId));
+  } else {
+    const values = {
+      userId,
+      modules,
+      completed: trusted?.completed === true,
+      checkpointScore: trusted?.checkpointScore ?? null,
+      checkpointTotal: trusted?.checkpointTotal ?? null,
+      completedAt: trusted?.completed === true ? (trusted.completedAt ?? now) : null,
+      unlockSource: trusted?.completed === true ? (trusted.unlockSource ?? null) : null,
+      updatedAt: now,
+    };
+    try {
+      await db.insert(basicsProgress).values(values);
+    } catch {
+      // race on unique userId — fall through to update modules only
+      await db
+        .update(basicsProgress)
+        .set({ modules, updatedAt: now })
+        .where(eq(basicsProgress.userId, userId));
+      if (trusted?.completed === true) {
+        const [race] = await db
+          .select()
+          .from(basicsProgress)
+          .where(eq(basicsProgress.userId, userId))
+          .limit(1);
+        if (race && !race.completed) {
+          await db
+            .update(basicsProgress)
+            .set({
+              completed: true,
+              completedAt: trusted.completedAt ?? now,
+              unlockSource: trusted.unlockSource ?? "checkpoint",
+              checkpointScore: trusted.checkpointScore ?? race.checkpointScore,
+              checkpointTotal: trusted.checkpointTotal ?? race.checkpointTotal,
+              updatedAt: now,
+            })
+            .where(eq(basicsProgress.userId, userId));
+        }
+      }
+    }
+  }
+
+  const saved = await getBasicsProgress(userId);
+  if (!saved) throw new Error("Failed to persist basics progress");
+  return saved;
+}
+
+/**
+ * Save a single module patch. Rejects / ignores unlock fields — only trusted
+ * submitCheckpoint / markBasicsCompleteLegacy may set completed.
+ */
+export async function saveBasicsModuleProgress(
+  userId: number,
+  patch: {
+    moduleId: string;
+    stepsDone?: string[];
+    speakItemsDone?: string[];
+    writeItemsDone?: string[];
+    builderItemsDone?: string[];
+    quizScore?: number;
+    quizTotal?: number;
+    lastStepId?: string;
+  },
+): Promise<{ row: BasicsProgressRow; progress: BasicsProgress }> {
+  // Explicitly drop any unlock-shaped keys if a caller spreads a loose object
+  const safePatch = {
+    moduleId: patch.moduleId,
+    stepsDone: patch.stepsDone,
+    speakItemsDone: patch.speakItemsDone,
+    writeItemsDone: patch.writeItemsDone,
+    builderItemsDone: patch.builderItemsDone,
+    quizScore: patch.quizScore,
+    quizTotal: patch.quizTotal,
+    lastStepId: patch.lastStepId,
+  };
+
+  const existing = await getBasicsProgress(userId);
+  const modules = parseModulesJson(existing?.modules);
+  const content = getBasicsModule(safePatch.moduleId);
+  const next = applyBasicsModulePatch(modules[safePatch.moduleId], safePatch, content);
+  modules[safePatch.moduleId] = next;
+
+  // Never pass trusted unlock — modules only
+  const row = await upsertBasicsModules(userId, modules);
+  return { row, progress: basicsRowToProgress(row) };
+}
+
+/**
+ * Grade checkpoint answers server-side and set completed only when passing.
+ * Sticky: a prior pass is preserved if a later attempt fails.
+ */
+export async function submitBasicsCheckpoint(
+  userId: number,
+  input: {
+    answers: Record<string, number>;
+    matching?: Record<string, Record<string, string>>;
+    durationSec?: number;
+  },
+): Promise<{
+  score: number;
+  total: number;
+  passed: boolean;
+  passRatio: number;
+  correctIds: string[];
+  progress: BasicsProgress;
+  row: BasicsProgressRow;
+}> {
+  const module = getBasicsModule("checkpoint");
+  if (!module) throw new Error("checkpoint module missing");
+
+  // Normalize matching string keys → numeric indexes for scoreBasicsQuiz
+  const matching: Record<string, Record<number, string>> = {};
+  if (input.matching) {
+    for (const [qid, pairs] of Object.entries(input.matching)) {
+      matching[qid] = {};
+      for (const [index, value] of Object.entries(pairs)) {
+        matching[qid]![Number(index)] = value;
+      }
+    }
+  }
+
+  const { score, total, correctIds } = scoreBasicsQuiz(module, input.answers, matching);
+  const passRatio = getBasicsManifest().passScore;
+  const passed = isCheckpointPassing(score, total, passRatio);
+
+  const existing = await getBasicsProgress(userId);
+  const modules = parseModulesJson(existing?.modules);
+  const prevCp = modules.checkpoint;
+  modules.checkpoint = {
+    moduleId: "checkpoint",
+    stepsDone: uniqStepDone(prevCp?.stepsDone, "cp-quiz"),
+    speakItemsDone: prevCp?.speakItemsDone ?? [],
+    writeItemsDone: prevCp?.writeItemsDone ?? [],
+    builderItemsDone: prevCp?.builderItemsDone ?? [],
+    quizScore: score,
+    quizTotal: total,
+    lastStepId: prevCp?.lastStepId ?? "cp-quiz",
+    updatedAt: new Date().toISOString(),
+    // teaching isModuleComplete always false for checkpoint; keep false
+    completed: false,
+  };
+
+  const alreadyComplete = Boolean(existing?.completed);
+
+  // Sticky unlock: once completed, stay completed even if this attempt fails.
+  // Only a fresh pass sets completed + unlockSource + completedAt.
+  const row = await upsertBasicsModules(
+    userId,
+    modules,
+    alreadyComplete
+      ? {
+          completed: true,
+          checkpointScore: score,
+          checkpointTotal: total,
+          completedAt: existing?.completedAt ?? new Date(),
+          unlockSource: (existing?.unlockSource as UnlockSource | undefined) ?? "checkpoint",
+        }
+      : passed
+        ? {
+            completed: true,
+            checkpointScore: score,
+            checkpointTotal: total,
+            completedAt: new Date(),
+            unlockSource: "checkpoint",
+          }
+        : {
+            checkpointScore: score,
+            checkpointTotal: total,
+          },
+  );
+
+  // Award hangul-ready only on a fresh pass
+  if (passed && !alreadyComplete) {
+    try {
+      await awardBadge(userId, "hangul-ready");
+    } catch (error) {
+      console.warn("[basics] award hangul-ready failed", error);
+    }
+  }
+
+  return {
+    score,
+    total,
+    passed, // this attempt only — sticky unlock reflected on progress/row.completed
+    passRatio,
+    correctIds,
+    progress: basicsRowToProgress(row),
+    row,
+  };
+}
+
+function uniqStepDone(prev: string[] | undefined, stepId: string): string[] {
+  const set = new Set(prev ?? []);
+  set.add(stepId);
+  return [...set];
+}
+
+/**
+ * Merge guest/local module progress into the server row.
+ * Never unlocks curriculum (ignores checkpointPassedAt / unlockSource from incoming).
+ */
+export async function importBasicsProgress(
+  userId: number,
+  incoming: BasicsProgress,
+): Promise<{ row: BasicsProgressRow; progress: BasicsProgress; merged: boolean }> {
+  const existing = await getBasicsProgress(userId);
+  const remote = existing ? basicsRowToProgress(existing) : emptyBasicsProgress();
+  const safeIncoming = stripBasicsUnlockFields(incoming);
+
+  // Normalize module entries so required fields exist
+  const normalized: BasicsProgress = {
+    version: 1,
+    modules: {},
+  };
+  for (const [id, mod] of Object.entries(safeIncoming.modules ?? {})) {
+    normalized.modules[id] = {
+      moduleId: mod.moduleId || id,
+      stepsDone: mod.stepsDone ?? [],
+      speakItemsDone: mod.speakItemsDone ?? [],
+      writeItemsDone: mod.writeItemsDone ?? [],
+      builderItemsDone: mod.builderItemsDone ?? [],
+      quizScore: mod.quizScore,
+      quizTotal: mod.quizTotal,
+      lastStepId: mod.lastStepId,
+      updatedAt: mod.updatedAt || new Date().toISOString(),
+    };
+  }
+
+  const merged = mergeBasicsProgress(remote, normalized);
+
+  // Recompute denormalized module.completed from content when available
+  for (const [id, mod] of Object.entries(merged.modules)) {
+    const content = getBasicsModule(id);
+    if (content) {
+      mod.completed = content.id === "checkpoint" ? false : isModuleComplete(content, mod);
+    }
+  }
+
+  // Write modules only — preserve existing unlock columns
+  const row = await upsertBasicsModules(userId, merged.modules);
+  return { row, progress: basicsRowToProgress(row), merged: true };
+}
+
+/**
+ * Trusted grandfather / admin unlock. Idempotent: does not downgrade or re-stamp
+ * completedAt when already complete.
+ */
+export async function markBasicsCompleteLegacy(
+  userId: number,
+  source: "legacy-migration" | "admin" = "legacy-migration",
+): Promise<BasicsProgressRow> {
+  const existing = await getBasicsProgress(userId);
+  if (existing?.completed) {
+    return existing;
+  }
+  const modules = parseModulesJson(existing?.modules);
+  const now = new Date();
+  return upsertBasicsModules(userId, modules, {
+    completed: true,
+    completedAt: now,
+    unlockSource: source,
+  });
 }

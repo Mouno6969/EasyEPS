@@ -43,6 +43,13 @@
       "when": 1784340000000,
       "tag": "0005_certificate_recipient_snapshot",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1784350000000,
+      "tag": "0006_basics_progress",
+      "breakpoints": true
     }
   ]
 }

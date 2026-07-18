@@ -176,3 +176,24 @@ export const certificates = mysqlTable("certificates", {
   issuedAt: timestamp("issuedAt").defaultNow().notNull(),
 });
 export type Certificate = typeof certificates.$inferSelect;
+
+/**
+ * Hangul Basics track progress (one row per user).
+ * `modules` is Record<string, BasicsModuleProgress>; curriculum unlock is
+ * denormalized on `completed` and set only by submitCheckpoint / legacy / admin.
+ */
+export const basicsProgress = mysqlTable("basicsProgress", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull().unique(),
+  /** Map of moduleId → BasicsModuleProgress (JSON). */
+  modules: json("modules").notNull(),
+  /** Trusted unlock flag — never set from client save/import patches. */
+  completed: boolean("completed").default(false).notNull(),
+  checkpointScore: int("checkpointScore"),
+  checkpointTotal: int("checkpointTotal"),
+  completedAt: timestamp("completedAt"),
+  unlockSource: mysqlEnum("unlockSource", ["checkpoint", "legacy-migration", "admin", "flag-off"]),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+export type BasicsProgressRow = typeof basicsProgress.$inferSelect;
+export type InsertBasicsProgress = typeof basicsProgress.$inferInsert;

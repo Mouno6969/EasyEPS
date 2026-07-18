@@ -1,21 +1,29 @@
 import { describe, expect, it } from "vitest";
 import {
   BASICS_MODULE_IDS,
+  applyBasicsModulePatch,
   basicsModuleSchema,
+  basicsProgressPatchSchema,
+  emptyBasicsProgress,
   getModuleQuizQuestions,
   isBasicsComplete,
   isBatchimRelatedQuestion,
   isCheckpointPassing,
   isModuleComplete,
   isSyllableRelatedQuestion,
+  mergeBasicsProgress,
   moduleRequirements,
+  pickBetterQuiz,
   quizRatio,
   scoreBasicsQuiz,
+  stripBasicsUnlockFields,
   strokeFileSchema,
   uniqueIdCount,
   type BasicsModule,
   type BasicsModuleProgress,
+  type BasicsProgress,
 } from "../shared/basics";
+import { ENV } from "./_core/env";
 import { composeHangul, decomposeHangul, V1_BATCHIM, V1_CONSONANTS, V1_VOWELS } from "../shared/hangul";
 import { coverageRatio, targetSamplesFromStrokeFile } from "../shared/strokeCoverage";
 import {
@@ -311,30 +319,43 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
   it("enforces speak/write minima with unique ids (duplicate done-ids do not count twice)", () => {
     const consonants = getBasicsModule("consonants")!;
     const req = consonants.requirements;
+    const speakIds = consonants.steps
+      .filter(s => s.type === "speak")
+      .flatMap(s => s.items.map(i => i.id));
+    const writeIds = consonants.steps
+      .filter(s => s.type === "write")
+      .flatMap(s => s.items.map(i => i.id));
+    const quizTotal = getModuleQuizQuestions(consonants).length;
+
     const dupSpeak: BasicsModuleProgress = {
       moduleId: "consonants",
       stepsDone: [...req.requiredStepIds],
-      speakItemsDone: ["c-s-g", "c-s-g"], // length 2 but unique 1
-      writeItemsDone: ["c-w-g", "c-w-n"],
+      // same id twice — unique count 1, cannot meet minSpeakItems
+      speakItemsDone: [speakIds[0]!, speakIds[0]!],
+      writeItemsDone: writeIds.slice(0, req.minWriteItems),
       builderItemsDone: [],
-      quizScore: 3,
-      quizTotal: 3,
+      quizScore: quizTotal,
+      quizTotal,
       updatedAt: new Date().toISOString(),
     };
     expect(uniqueIdCount(dupSpeak.speakItemsDone)).toBe(1);
     expect(isModuleComplete(consonants, dupSpeak)).toBe(false);
 
-    dupSpeak.speakItemsDone = ["c-s-g", "c-s-n"];
+    dupSpeak.speakItemsDone = speakIds.slice(0, req.minSpeakItems);
+    expect(uniqueIdCount(dupSpeak.speakItemsDone)).toBe(req.minSpeakItems);
     expect(isModuleComplete(consonants, dupSpeak)).toBe(true);
   });
 
   it("speak-lab completes without quiz when speak minima met", () => {
     const speakLab = getBasicsModule("speak-lab")!;
     expect(speakLab.steps.some(s => s.type === "quiz")).toBe(false);
+    const speakIds = speakLab.steps
+      .filter(s => s.type === "speak")
+      .flatMap(s => s.items.map(i => i.id));
     const progress: BasicsModuleProgress = {
       moduleId: "speak-lab",
       stepsDone: ["sp-lab"],
-      speakItemsDone: ["sp-1", "sp-2", "sp-3"],
+      speakItemsDone: speakIds.slice(0, speakLab.requirements.minSpeakItems),
       writeItemsDone: [],
       builderItemsDone: [],
       updatedAt: new Date().toISOString(),
@@ -344,34 +365,41 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
 
   it("write-lab requires unique write items", () => {
     const writeLab = getBasicsModule("write-lab")!;
+    const writeIds = writeLab.steps
+      .filter(s => s.type === "write")
+      .flatMap(s => s.items.map(i => i.id));
     const almost: BasicsModuleProgress = {
       moduleId: "write-lab",
       stepsDone: ["wr-lab"],
       speakItemsDone: [],
-      writeItemsDone: ["wr-g", "wr-g", "wr-g"], // duplicates only
+      writeItemsDone: [writeIds[0]!, writeIds[0]!, writeIds[0]!], // duplicates only
       builderItemsDone: [],
       updatedAt: new Date().toISOString(),
     };
     expect(isModuleComplete(writeLab, almost)).toBe(false);
-    almost.writeItemsDone = ["wr-g", "wr-n", "wr-a"];
+    almost.writeItemsDone = writeIds.slice(0, writeLab.requirements.minWriteItems);
     expect(isModuleComplete(writeLab, almost)).toBe(true);
   });
 
   it("syllables requires builder minima + quiz ratio", () => {
     const syllables = getBasicsModule("syllables")!;
     const req = syllables.requirements;
+    const builderIds = syllables.steps
+      .filter(s => s.type === "builder")
+      .flatMap(s => s.prompts.map(p => p.id));
+    const quizTotal = getModuleQuizQuestions(syllables).length;
     const progress: BasicsModuleProgress = {
       moduleId: "syllables",
       stepsDone: [...req.requiredStepIds],
       speakItemsDone: [],
       writeItemsDone: [],
-      builderItemsDone: ["sy-p1"], // need minBuilderItems 2
-      quizScore: 3,
-      quizTotal: 3,
+      builderItemsDone: [builderIds[0]!], // below minBuilderItems
+      quizScore: quizTotal,
+      quizTotal,
       updatedAt: new Date().toISOString(),
     };
     expect(isModuleComplete(syllables, progress)).toBe(false);
-    progress.builderItemsDone = ["sy-p1", "sy-p2"];
+    progress.builderItemsDone = builderIds.slice(0, req.minBuilderItems);
     expect(isModuleComplete(syllables, progress)).toBe(true);
   });
 
@@ -476,5 +504,182 @@ describe("moduleRequirements helper", () => {
   it("returns the module requirements object", () => {
     const mod = getBasicsModule("welcome") as BasicsModule;
     expect(moduleRequirements(mod)).toEqual(mod.requirements);
+  });
+});
+
+
+describe("mergeBasicsProgress / pickBetterQuiz / strip unlock", () => {
+  function mod(
+    id: string,
+    overrides: Partial<BasicsModuleProgress> = {},
+  ): BasicsModuleProgress {
+    return {
+      moduleId: id,
+      stepsDone: [],
+      speakItemsDone: [],
+      writeItemsDone: [],
+      builderItemsDone: [],
+      updatedAt: "2026-07-01T00:00:00.000Z",
+      ...overrides,
+    };
+  }
+
+  it("unions step arrays and never imports unlock from incoming", () => {
+    const remote: BasicsProgress = {
+      version: 1,
+      modules: {
+        welcome: mod("welcome", { stepsDone: ["a"], quizScore: 1, quizTotal: 3 }),
+      },
+    };
+    const local: BasicsProgress = {
+      version: 1,
+      modules: {
+        welcome: mod("welcome", {
+          stepsDone: ["b"],
+          quizScore: 2,
+          quizTotal: 3,
+          updatedAt: "2026-07-02T00:00:00.000Z",
+        }),
+        consonants: mod("consonants", { stepsDone: ["c1"] }),
+      },
+      checkpointPassedAt: "2026-07-02T12:00:00.000Z",
+      unlockSource: "checkpoint",
+    };
+
+    const merged = mergeBasicsProgress(remote, local);
+    expect(merged.checkpointPassedAt).toBeUndefined();
+    expect(merged.unlockSource).toBeUndefined();
+    expect(merged.modules.welcome!.stepsDone.sort()).toEqual(["a", "b"]);
+    expect(merged.modules.consonants!.stepsDone).toEqual(["c1"]);
+    expect(merged.modules.welcome!.quizScore).toBe(2);
+    expect(merged.modules.welcome!.quizTotal).toBe(3);
+  });
+
+  it("pickBetterQuiz keeps higher ratio (5/5 over 8/10) and clamps score>total", () => {
+    expect(pickBetterQuiz({ quizScore: 8, quizTotal: 10 }, { quizScore: 5, quizTotal: 5 })).toEqual({
+      quizScore: 5,
+      quizTotal: 5,
+    });
+    expect(pickBetterQuiz({ quizScore: 12, quizTotal: 10 }, { quizScore: 9, quizTotal: 10 })).toEqual({
+      quizScore: 10,
+      quizTotal: 10,
+    });
+    expect(pickBetterQuiz({ quizScore: 10 }, { quizScore: 3, quizTotal: 5 })).toEqual({
+      quizScore: 3,
+      quizTotal: 5,
+    });
+    expect(
+      pickBetterQuiz(
+        { quizScore: 4, quizTotal: 5, updatedAt: "2026-01-01" },
+        { quizScore: 8, quizTotal: 10, updatedAt: "2026-01-02" },
+      ),
+    ).toEqual({ quizScore: 8, quizTotal: 10 });
+  });
+
+  it("preserves remote unlock when remote already complete", () => {
+    const remote: BasicsProgress = {
+      version: 1,
+      modules: {},
+      checkpointPassedAt: "2026-06-01T00:00:00.000Z",
+      unlockSource: "legacy-migration",
+    };
+    const local: BasicsProgress = {
+      version: 1,
+      modules: { welcome: mod("welcome", { stepsDone: ["x"] }) },
+      checkpointPassedAt: "spoofed",
+      unlockSource: "checkpoint",
+    };
+    const merged = mergeBasicsProgress(remote, local);
+    expect(merged.checkpointPassedAt).toBe("2026-06-01T00:00:00.000Z");
+    expect(merged.unlockSource).toBe("legacy-migration");
+    expect(merged.modules.welcome!.stepsDone).toEqual(["x"]);
+  });
+
+  it("stripBasicsUnlockFields drops track unlock and module completed cache", () => {
+    const stripped = stripBasicsUnlockFields({
+      version: 1,
+      modules: {
+        welcome: mod("welcome", { completed: true, stepsDone: ["a"] }),
+      },
+      checkpointPassedAt: "x",
+      unlockSource: "checkpoint",
+    });
+    expect(stripped.checkpointPassedAt).toBeUndefined();
+    expect(stripped.unlockSource).toBeUndefined();
+    expect(stripped.modules.welcome!.completed).toBeUndefined();
+    expect(stripped.modules.welcome!.stepsDone).toEqual(["a"]);
+  });
+
+  it("applyBasicsModulePatch recomputes module completed and ignores unlock keys", () => {
+    const welcome = getBasicsModule("welcome")!;
+    const req = welcome.requirements;
+    const next = applyBasicsModulePatch(
+      undefined,
+      {
+        moduleId: "welcome",
+        stepsDone: [...req.requiredStepIds],
+        quizScore: 2,
+        quizTotal: 3,
+      },
+      welcome,
+    );
+    expect(next.completed).toBe(true);
+    expect(next.moduleId).toBe("welcome");
+  });
+
+  it("basicsProgressPatchSchema rejects quizScore > quizTotal", () => {
+    const bad = basicsProgressPatchSchema.safeParse({
+      moduleId: "welcome",
+      quizScore: 5,
+      quizTotal: 3,
+    });
+    expect(bad.success).toBe(false);
+    const good = basicsProgressPatchSchema.safeParse({
+      moduleId: "welcome",
+      stepsDone: ["a"],
+    });
+    expect(good.success).toBe(true);
+    if (good.success) expect(good.data.minutes).toBe(5);
+  });
+
+  it("emptyBasicsProgress is version 1 with empty modules", () => {
+    expect(emptyBasicsProgress()).toEqual({ version: 1, modules: {} });
+  });
+});
+
+describe("ENV.basicsGateEnabled", () => {
+  it("defaults to false when BASICS_GATE_ENABLED is unset", () => {
+    expect(typeof ENV.basicsGateEnabled).toBe("boolean");
+    expect(ENV.basicsGateEnabled).toBe(process.env.BASICS_GATE_ENABLED === "true");
+  });
+});
+
+describe("submitCheckpoint pure grading contract (no DB)", () => {
+  it("passing score unlocks via isCheckpointPassing + scoreBasicsQuiz only", () => {
+    const checkpoint = getBasicsModule("checkpoint")!;
+    const questions = getModuleQuizQuestions(checkpoint);
+    const answers: Record<string, number> = {};
+    const matching: Record<string, Record<number, string>> = {};
+    for (const q of questions) {
+      if (q.kind === "matching") {
+        matching[q.id] = Object.fromEntries(q.pairs.map((pair, i) => [i, pair.right]));
+      } else if (q.answer != null) {
+        answers[q.id] = q.answer;
+      }
+    }
+    const graded = scoreBasicsQuiz(checkpoint, answers, matching);
+    const passRatio = getBasicsManifest().passScore;
+    expect(isCheckpointPassing(graded.score, graded.total, passRatio)).toBe(true);
+
+    const failAnswers = { ...answers };
+    let dropped = 0;
+    for (const q of questions) {
+      if (q.kind !== "matching" && q.answer != null && dropped < Math.ceil(questions.length * 0.4)) {
+        failAnswers[q.id] = (q.answer + 1) % Math.max(q.options.length, 1);
+        dropped += 1;
+      }
+    }
+    const failed = scoreBasicsQuiz(checkpoint, failAnswers, matching);
+    expect(isCheckpointPassing(failed.score, failed.total, passRatio)).toBe(false);
   });
 });
