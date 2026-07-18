@@ -38,7 +38,22 @@ See [`.env.example`](.env.example). Minimum for local curriculum browsing:
 | `VITE_OAUTH_PORTAL_URL` | Login button | Manus OAuth portal |
 | `OAUTH_SERVER_URL` | OAuth callback | Manus OAuth API base |
 | `OWNER_OPEN_ID` | First admin | Manus openId promoted to `admin` on first login |
-| `BUILT_IN_FORGE_API_URL` / `BUILT_IN_FORGE_API_KEY` | AI tutor | Forge / OpenAI-compatible LLM endpoint |
+| `XAI_API_KEY` | AI tutor | **SpaceXAI** key from [console.x.ai](https://console.x.ai). Server-side only. |
+| `XAI_BASE_URL` | AI tutor (optional) | Default `https://api.x.ai/v1` |
+| `XAI_MODEL` | AI tutor (optional) | Default `grok-4.5` |
+| `BUILT_IN_FORGE_API_URL` / `BUILT_IN_FORGE_API_KEY` | Storage / legacy | Manus Forge helpers; optional LLM fallback if `XAI_API_KEY` unset |
+
+### AI tutor (SpaceXAI)
+
+EasyEPS uses **SpaceXAI** (xAI Grok) for the Bangla AI tutor:
+
+```bash
+export XAI_API_KEY=xai-...   # https://console.x.ai
+# optional: XAI_MODEL=grok-4.5
+pnpm dev
+```
+
+The key is read **only on the server** (`server/_core/llm.ts` → `https://api.x.ai/v1/chat/completions`). Never put it in `VITE_*` client env.
 
 Without OAuth env vars, the app still runs: guests can use the full curriculum and exams; signed-in features show a sign-in gate.
 

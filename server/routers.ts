@@ -957,7 +957,8 @@ export const appRouter = router({
               .join(", ")}. Grammar: ${lesson.grammar.map(item => item.pattern).join(", ")}.`
           : "The learner has not selected a chapter.";
         const response = await invokeLLM({
-          model: "gpt-5-mini",
+          // SpaceXAI default (ENV.xaiModel / grok-4.5); override via XAI_MODEL
+          model: ENV.xaiModel || "grok-4.5",
           messages: [
             {
               role: "system",
