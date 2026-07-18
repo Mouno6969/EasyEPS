@@ -375,9 +375,9 @@
       "questionBn": "‘양식장’ এর সঠিক অর্থ কোনটি?",
       "questionKo": "‘양식장’의 의미는 무엇인가요?",
       "options": [
-        "উপকূলীয় সাগর (coastal waters)",
-        "জলজ চাষ ফার্ম (aquaculture farm)",
         "মাছ ধরার নৌকা (fishing boat)",
+        "জলজ চাষ ফার্ম (aquaculture farm)",
+        "উপকূলীয় সাগর (coastal waters)",
         "জাহাজ পরিদর্শন (vessel inspection)"
       ],
       "pairs": [],
@@ -390,13 +390,13 @@
       "questionBn": "‘선장’ কে নির্দেশ করে?",
       "questionKo": "‘선장’은 누구를 의미하나요?",
       "options": [
-        "ক্রু সদস্য (crew member)",
         "নৌকা/জাহাজের প্রধান (captain)",
         "জাল (net)",
-        "পানির তাপমাত্রা (water temperature)"
+        "পানির তাপমাত্রা (water temperature)",
+        "ক্রু সদস্য (crew member)"
       ],
       "pairs": [],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "선장은 জাহাজ বা নৌকার প্রধান, তাই দ্বিতীয়টি সঠিক।"
     },
     {
@@ -405,13 +405,13 @@
       "questionBn": "‘~에서’ কিভাবে ব্যবহার হয়?",
       "questionKo": "‘~에서’는 어떻게 사용되나요?",
       "options": [
+        "সময় নির্দেশ করতে (to indicate time)",
         "ইচ্ছা প্রকাশ করতে (to express desire)",
-        "স্থান নির্দেশ করতে (to indicate place)",
         "ভদ্র অনুরোধ করতে (for polite request)",
-        "সময় নির্দেশ করতে (to indicate time)"
+        "স্থান নির্দেশ করতে (to indicate place)"
       ],
       "pairs": [],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "문장에서 장소를 나타낼 때 '~에서' 사용 হয়, তাই দ্বিতীয়টি সঠিক।"
     },
     {
@@ -420,13 +420,13 @@
       "questionBn": "‘수온’ শব্দের অর্থ কী?",
       "questionKo": "‘수온’의 의미는 무엇인가요?",
       "options": [
-        "জাল (net)",
         "তড়িৎ শক্তি (electric power)",
         "বৃষ্টি (rain)",
-        "পানির তাপমাত্রা (water temperature)"
+        "পানির তাপমাত্রা (water temperature)",
+        "জাল (net)"
       ],
       "pairs": [],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "수온은 পানির তাপমাত্রা বোঝায়, তাই চতুর্থটি সঠিক।"
     },
     {
@@ -435,13 +435,13 @@
       "questionBn": "কোনটি '그물' এর বাংলা মানে?",
       "questionKo": "‘그물’의 한국어 뜻은 무엇인가요?",
       "options": [
-        "জাল (net)",
         "নৌকা (boat)",
-        "ফিডার (feeder)",
-        "পরিদর্শন (inspection)"
+        "জাল (net)",
+        "পরিদর্শন (inspection)",
+        "ফিডার (feeder)"
       ],
       "pairs": [],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "그물 মানে জাল, তাই প্রথমটি সঠিক।"
     },
     {
@@ -450,13 +450,13 @@
       "questionBn": "বাক্যটি পূরণ করুন: '___에서 조업을 시작합니다.' (উপকূলীয় সাগর)",
       "questionKo": "문장을 완성하세요: '___에서 조업을 시작합니다.' (coastal waters)",
       "options": [
-        "선장",
-        "양식장",
         "연근해",
+        "양식장",
+        "선장",
         "선박"
       ],
       "pairs": [],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "연근해는 উপকূলীয় সাগর, তাই '연근해에서 조업을 시작합니다.' সঠিক।"
     },
     {
@@ -465,13 +465,13 @@
       "questionBn": "বাক্যটি পূরণ করুন: '수온을 ___하세요.' (পরিমাপ/রেকর্ড)",
       "questionKo": "문장을 완성하세요: '수온을 ___하세요.' (record/measure)",
       "options": [
-        "출항",
-        "측정",
         "승선",
-        "정지"
+        "출항",
+        "정지",
+        "측정"
       ],
       "pairs": [],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "수온을 측정하세요 (Measure the water temperature) তাই দ্বিতীয়টি সঠিক।"
     },
     {
@@ -481,12 +481,12 @@
       "questionKo": "문장을 완성하세요: '그물을 ___ 주세요.' (organize/repair)",
       "options": [
         "운전",
+        "조업",
         "정리",
-        "수리",
-        "조업"
+        "수리"
       ],
       "pairs": [],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "문맥상 '그물을 정리해 주세요.' (জাল ঠিক করে দিন) সঠিক।"
     },
     {
@@ -556,12 +556,12 @@
       "questionKo": "본문을 읽고 질문에 답하세요: '연근해에서 조업을 시작합니다.' 이 문장은 무엇을 의미하나요?",
       "passage": "연근해에서 조업을 시작합니다.",
       "options": [
-        "বন্দর ত্যাগ করছে (departing port)",
         "উপকূলীয় এলাকায় মাছ ধরতে শুরু করা (start fishing in coastal waters)",
+        "খাবার দেওয়া (feeding)",
         "জাহাজ পরীক্ষা করা (vessel inspection)",
-        "খাবার দেওয়া (feeding)"
+        "বন্দর ত্যাগ করছে (departing port)"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "문장은 '연근해에서 조업을 시작합니다' — উপকূলীয় সাগরে মাছ ধরার কাজ শুরু করা বোঝায়।"
     },
     {
@@ -573,8 +573,8 @@
       "options": [
         "아니요, 아직 안 했어요. (No, not yet.)",
         "네, 오늘 수온은 18도입니다. (Yes, it's 18°C today.)",
-        "그물을 정리하세요. (Organize the net.)",
-        "출항 준비가 되었습니다. (Ready to depart.)"
+        "출항 준비가 되었습니다. (Ready to depart.)",
+        "그물을 정리하세요. (Organize the net.)"
       ],
       "answer": 1,
       "explanationBn": "대화에 직원이 '오늘 수온은 18도입니다'라고 답했으므로 দ্বিতীয়টি সঠিক।"
@@ -586,12 +586,12 @@
       "questionKo": "'그물을 정리하세요.'의 의미는 무엇인가요?",
       "passage": "선장: 안전 장비를 착용하세요. 승선원: 네, 그물과 장비를 점검했습니다.",
       "options": [
-        "জাল ঠিক করে দিন (Organize the net)",
-        "পাল তোলা (raise the sail)",
+        "চেক করা (check)",
         "ভর্তি করা (hire)",
-        "চেক করা (check)"
+        "জাল ঠিক করে দিন (Organize the net)",
+        "পাল তোলা (raise the sail)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "'정리하세요' মানে 'ঠিক করুন/সাজান', তাই প্রথমটি সঠিক।"
     },
     {
@@ -601,12 +601,12 @@
       "questionKo": "'어업허가'가 왜 중요한가요?",
       "passage": "어업허가 서류를 확인합니다.",
       "options": [
-        "নিয়ম মেনে কাজ করার জন্য (to work legally/with permission)",
         "জাহাজ সারাই করার জন্য (to repair a ship)",
+        "বৃষ্টি সম্পর্কে জানার জন্য (to know about rain)",
         "খাবার দেওয়ার জন্য (to feed)",
-        "বৃষ্টি সম্পর্কে জানার জন্য (to know about rain)"
+        "নিয়ম মেনে কাজ করার জন্য (to work legally/with permission)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "어업허가는 অনুমতি বা আইনগত কারণে প্রয়োজন, তাই প্রথমটি সঠিক।"
     },
     {
@@ -617,9 +617,9 @@
       "passage": "승선원은 안전 교육을 받습니다.",
       "options": [
         "নিরাপত্তা প্রশিক্ষণ নেয়া (receive safety training)",
-        "জাল বিক্রি করা (sell nets)",
         "জাহাজ চালানো (drive the ship)",
-        "মাছ বাজারে বিক্রি (sell fish in market)"
+        "মাছ বাজারে বিক্রি (sell fish in market)",
+        "জাল বিক্রি করা (sell nets)"
       ],
       "answer": 0,
       "explanationBn": "문장 자체에서 승선원은 নিরাপত্তা 교육을 받는다고 했으므로 প্রথমটি সঠিক।"
@@ -633,8 +633,8 @@
       "options": [
         "পানির তাপমাত্রা মাপুন না (do not measure temperature)",
         "পানির তাপমাত্রা নোট করুন (record the water temperature)",
-        "জাহাজ ছেড়ে দিন (leave the ship)",
-        "জাল ফেলার সময় (time to throw the net)"
+        "জাল ফেলার সময় (time to throw the net)",
+        "জাহাজ ছেড়ে দিন (leave the ship)"
       ],
       "answer": 1,
       "explanationBn": "'기록하세요' মানে নথিভুক্ত করার নির্দেশ, তাই দ্বিতীয়টি সঠিক।"
@@ -646,12 +646,12 @@
       "questionKo": "듣고 고르세요: '안전 장비를 착용하세요.'는 어떤 지시인가요?",
       "passage": "선장: 모두 출항 준비되었나요? 선장: 안전 장비를 착용하세요.",
       "options": [
-        "নিরাপত্তা সরঞ্জাম পরিধান করুন (wear safety equipment)",
-        "খাবার শুরু করুন (start feeding)",
         "জাল ফেলে দিন (throw the net)",
+        "খাবার শুরু করুন (start feeding)",
+        "নিরাপত্তা সরঞ্জাম পরিধান করুন (wear safety equipment)",
         "জাহাজ পরীক্ষা বন্ধ (stop inspecting vessel)"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "명령문에서 안전 장비 착용을 지시하므로 প্রথম번이 맞습니다।"
     },
     {
@@ -661,12 +661,12 @@
       "questionKo": "듣고 답하세요: '그물을 정리하세요.'에 대한 적절한 반응은?",
       "passage": "선장: 그물을 정리하세요. 승선원: 네, 지금 정리하겠습니다.",
       "options": [
-        "네, 지금 정리하겠습니다. (Yes, I'll organize it now.)",
         "아니요, 못해요. (No, I can't.)",
+        "출항을 취소합니다. (Cancel departure.)",
         "수온을 잰 적이 없습니다. (I didn't measure temperature.)",
-        "출항을 취소합니다. (Cancel departure.)"
+        "네, 지금 정리하겠습니다. (Yes, I'll organize it now.)"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "대화에서 승선원이 '지금 정리하겠습니다'라고 응답했으므로 প্রথমটি সঠিক।"
     }
   ]

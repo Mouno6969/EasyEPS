@@ -14,6 +14,7 @@ import {
   useLocalLearning,
 } from "@/lib/localProgress";
 import { useLocalProfile } from "@/lib/localProfile";
+import { hrefForReview, listDueReviews, listRecentWeak, markReviewed } from "@/lib/srs";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { isBasicsComplete } from "@shared/basics";
@@ -147,8 +148,13 @@ export function DashboardPage() {
   const recent = state.attempts.slice(0, 6);
   const studyDays = Array.from({ length: 7 }, (_, index) => { const date = new Date(); date.setDate(date.getDate() - (6 - index)); const key = date.toISOString().slice(0, 10); return { key, label: date.toLocaleDateString("bn-BD", { weekday: "short" }), minutes: state.studyDays[key]?.minutes ?? 0 }; });
   const maxMinutes = Math.max(30, ...studyDays.map(day => day.minutes));
+  const weak = listRecentWeak(5);
+  const due = listDueReviews(5);
   const nextHref = hangulReady ? `/lesson/${nextChapter}` : "/basics";
   const nextLabel = hangulReady ? "পরবর্তী অধ্যায়" : t.startBasics;
+  const nextDetail = hangulReady
+    ? `অধ্যায় ${nextChapter}: শব্দভাণ্ডার, সংলাপ ও অনুশীলন—আজকের ২০ মিনিট।`
+    : "হ্যাঙ্গুল বেসিক শেষ করুন, তারপর অধ্যায় ১ শুরু হবে।";
 
   return <>
     <PageIntro eyebrow="আপনার শেখার যাত্রা" title="অগ্রগতি এক নজরে" description="ছোট ছোট নিয়মিত পদক্ষেপই আপনাকে EPS-TOPIK লক্ষ্যের কাছে নিয়ে যাবে।" actions={<Link href={nextHref}><Button className="rounded-full bg-[var(--navy)] px-6 text-white">{nextLabel} <ChevronRight className="size-4" /></Button></Link>} />
@@ -161,7 +167,28 @@ export function DashboardPage() {
       </div>
       <div className="mt-7 grid gap-7 lg:grid-cols-[1.25fr_.75fr]">
         <section className="paper-card p-6"><div className="flex items-center justify-between"><div><p className="eyebrow">গত ৭ দিন</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">অধ্যয়নের ধারাবাহিকতা</h2></div><BarChart3 className="size-6 text-[var(--gold-dark)]" /></div><div className="mt-8 flex h-56 items-end gap-3">{studyDays.map(day => <div key={day.key} className="flex h-full flex-1 flex-col items-center justify-end gap-2"><span className="text-xs font-bold text-[var(--navy)]/45">{day.minutes || ""}</span><div className="w-full max-w-14 rounded-t-xl bg-[var(--sage)] transition-all" style={{ height: `${Math.max(5, day.minutes / maxMinutes * 100)}%` }} /><span className="text-xs font-semibold text-[var(--navy)]/55">{day.label}</span></div>)}</div></section>
-        <section className="paper-card p-6"><p className="eyebrow">এখনই করুন</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">আজকের সুপারিশ</h2><div className="mt-6 rounded-2xl bg-[var(--navy)] p-5 text-white"><span className="text-xs font-bold uppercase tracking-wider text-[var(--gold)]">অধ্যায় {nextChapter}</span><p className="mt-2 text-lg font-bold">২০ মিনিট নতুন পাঠ</p><p className="mt-2 text-sm leading-6 text-white/65">শব্দভাণ্ডার পড়ুন, দুটি সংলাপ শুনুন এবং অনুশীলন সম্পন্ন করুন।</p><Link href={`/lesson/${nextChapter}`} className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-[var(--gold)]">শুরু করুন <ChevronRight className="size-4" /></Link></div></section>
+        <section className="paper-card p-6"><p className="eyebrow">এখনই করুন</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">আজকের এক ধাপ</h2><div className="mt-6 rounded-2xl bg-[var(--navy)] p-5 text-white"><span className="text-xs font-bold uppercase tracking-wider text-[var(--gold)]">{hangulReady ? `অধ্যায় ${nextChapter}` : "হ্যাঙ্গুল বেসিক"}</span><p className="mt-2 text-lg font-bold">{hangulReady ? "২০ মিনিট নতুন পাঠ" : "বেসিক সম্পূর্ণ করুন"}</p><p className="mt-2 text-sm leading-6 text-white/65">{nextDetail}</p><Link href={nextHref} className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-[var(--gold)]">{nextLabel} <ChevronRight className="size-4" /></Link></div>
+          {(due.length > 0 || weak.length > 0) && (
+            <div className="mt-5">
+              <p className="text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">দুর্বল জায়গা · রিভিউ</p>
+              <ul className="mt-3 space-y-2">
+                {(due.length ? due : weak).slice(0, 5).map(item => (
+                  <li key={item.id}>
+                    <Link href={hrefForReview(item)} className="flex items-center justify-between gap-2 rounded-xl border border-[var(--navy)]/10 bg-[var(--cream)] px-3 py-2.5 text-sm font-semibold text-[var(--navy)] hover:border-[var(--gold)]/40">
+                      <span className="truncate">{item.labelBn}</span>
+                      <span className="shrink-0 text-xs text-[var(--navy)]/45">{item.misses}× · {item.dueDate}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              {due[0] ? (
+                <button type="button" onClick={() => markReviewed(due[0]!.id)} className="mt-3 text-xs font-bold text-[var(--navy)]/50 underline">
+                  প্রথম আইটেম রিভিউ করা হয়েছে
+                </button>
+              ) : null}
+            </div>
+          )}
+        </section>
       </div>
       <section className="paper-card mt-7 overflow-hidden"><div className="border-b border-[var(--navy)]/8 p-6"><h2 className="font-serif text-2xl font-bold text-[var(--navy)]">সাম্প্রতিক ফলাফল</h2></div>{recent.length ? <div className="divide-y divide-[var(--navy)]/8">{recent.map(item => <div key={item.id} className="flex items-center justify-between gap-4 p-5"><div><p className="font-bold text-[var(--navy)]">{item.kind === "mock-test" ? "পূর্ণাঙ্গ মক টেস্ট" : item.kind === "chapter-exam" ? `অধ্যায় ${item.chapter} পরীক্ষা` : `অধ্যায় ${item.chapter} অনুশীলন`}</p><p className="mt-1 text-xs text-[var(--navy)]/45">{new Date(item.createdAt).toLocaleString("bn-BD")}</p></div><span className="score-ring">{Math.round(item.score / item.total * 100)}%</span></div>)}</div> : <div className="p-8 text-center text-[var(--navy)]/50">এখনও কোনো পরীক্ষা দেওয়া হয়নি।</div>}</section>
     </div>

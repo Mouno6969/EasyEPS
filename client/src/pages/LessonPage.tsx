@@ -4,6 +4,7 @@ import { useLocale } from "@/contexts/LocaleContext";
 import { useBasicsGate } from "@/hooks/useBasicsGate";
 import { addLocalAttempt, updateChapterProgress, useLocalBasics, useLocalLearning } from "@/lib/localProgress";
 import { speakKorean } from "@/lib/speakKorean";
+import { recordWeakAttempt } from "@/lib/srs";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { isBasicsComplete } from "@shared/basics";
@@ -22,6 +23,33 @@ const tabs = [
   { id: "exam", label: "অধ্যায় পরীক্ষা", icon: GraduationCap },
 ] as const;
 type Tab = typeof tabs[number]["id"];
+
+/** Short Bangla learning tip after a wrong answer (static pedagogy, no LLM). */
+function feedbackTipForQuestion(
+  question: PracticeQuestion | EpsQuestion,
+  kind: "practice" | "exam",
+): string {
+  const text = `${question.questionBn} ${"questionKo" in question ? question.questionKo : ""} ${question.explanationBn}`;
+  if (kind === "exam" && "section" in question && question.section === "listening") {
+    return "শুধু একবার শুনে মনে রাখার চেষ্টা করুন। অপরিচিত শব্দ থাকলে আগে vocabulary পুনরালোচনা করুন, তারপর আবার শুনুন।";
+  }
+  if (kind === "exam" && "section" in question && question.section === "reading") {
+    return "passage-এর মূল ধারণা আগে খুঁজুন (কে / কোথায় / কী)। বিকল্পগুলো passage-এর সাথে মিলিয়ে দেখুন—অতিরিক্ত অর্থ যোগ করবেন না।";
+  }
+  if ("type" in question && question.type === "matching") {
+    return "প্রতিটি Korean শব্দের বাংলা অর্থ আলাদা করে flashcard-এ পুনরায় দেখুন; একই অর্থের জোড়া মেলাতে তাড়াহুড়ো করবেন না।";
+  }
+  if (/조사|은\/는|이\/가|을\/를|에|에서|으로|부터|까지/.test(text) || /particle|조사/.test(text)) {
+    return "조사 (은/는, 이/가, 을/를, 에…) বাক্যে noun-এর ভূমিকা বোঝায়। উদাহরণ বাক্য জোরে পড়ে মিল খুঁজুন।";
+  }
+  if (/아요|어요|습니다|세요|과거|future|tense|동사/.test(text)) {
+    return "ক্রিয়ার শেষাংশ (-아요/어요, -습니다) ও কাল (অতীত/বর্তমান) আলাদা করে মুখস্থ করুন; pattern + উদাহরণ একসাথে পড়ুন।";
+  }
+  if (/숫자|번호|시간|날짜|얼마|몇/.test(text)) {
+    return "সংখ্যা ও সময়ের Korean উচ্চারণ আলাদা করে drill করুন (일, 이, 삼… / 하나, 둘…).";
+  }
+  return "সঠিক বিকল্প ও ব্যাখ্যা আবার পড়ুন, তারপর সংশ্লিষ্ট vocabulary/grammar ট্যাবে গিয়ে একই pattern-এর আরেকটি উদাহরণ বলুন।";
+}
 
 function CompleteButton({ done, onClick, children }: { done?: boolean; onClick: () => void; children: React.ReactNode }) {
   return <Button onClick={onClick} className={`mt-7 rounded-full px-6 ${done ? "bg-[var(--sage)] text-white" : "bg-[var(--navy)] text-white"}`}>{done ? <Check className="size-4" /> : null}{done ? "সম্পন্ন হয়েছে" : children}</Button>;
@@ -94,9 +122,34 @@ function PracticeRunner({
     const chosen = answers[question.id];
     const correct = isMatching ? practice.pairs.every((pair, index) => matching[practice.id]?.[index] === pair.right) : chosen === question.answer;
     const optionList = question.options ?? [];
-    return <article key={question.id} className="p-6 md:p-8"><div className="flex gap-4"><span className="grid size-9 shrink-0 place-items-center rounded-full bg-[var(--navy)] font-serif font-bold text-white">{questionIndex + 1}</span><div className="min-w-0 flex-1"><p className="font-bold leading-7 text-[var(--navy)]">{question.questionBn}</p>{question.questionKo && <p className="mt-2 text-lg font-semibold text-[var(--navy)]">{question.questionKo}</p>}{"passage" in question && question.passage && <button onClick={() => kind === "exam" && (question as EpsQuestion).section === "listening" ? void speakKorean(question.passage) : undefined} className={`mt-4 w-full rounded-2xl bg-[var(--cream)] p-4 text-left font-semibold leading-7 text-[var(--navy)] ${kind === "exam" && (question as EpsQuestion).section === "listening" ? "hover:bg-[var(--gold)]/12" : ""}`}>{kind === "exam" && (question as EpsQuestion).section === "listening" ? <span className="flex items-center gap-2"><Headphones className="size-4 text-[var(--gold-dark)]" />শুনতে চাপুন</span> : question.passage}</button>}
+    const isListening = kind === "exam" && (question as EpsQuestion).section === "listening";
+    const passageText = "passage" in question ? question.passage : "";
+    return <article key={question.id} className="p-6 md:p-8"><div className="flex gap-4"><span className="grid size-9 shrink-0 place-items-center rounded-full bg-[var(--navy)] font-serif font-bold text-white">{questionIndex + 1}</span><div className="min-w-0 flex-1"><p className="font-bold leading-7 text-[var(--navy)]">{question.questionBn}</p>{question.questionKo && <p className="mt-2 text-lg font-semibold text-[var(--navy)]">{question.questionKo}</p>}
+      {passageText ? (
+        isListening && !submitted ? (
+          <div className="mt-4 space-y-2">
+            <button type="button" onClick={() => void speakKorean(passageText, { rate: 0.82 })} className="flex w-full items-center justify-center gap-3 rounded-2xl bg-[var(--navy)] p-4 font-bold text-white hover:bg-[var(--navy)]/90">
+              <span className="grid size-9 place-items-center rounded-full bg-[var(--gold)] text-[var(--navy)]"><Headphones className="size-4" /></span>
+              শুনতে চাপুন · লিখনটি পরীক্ষার আগে দেখা যাবে না
+            </button>
+            <p className="text-center text-xs font-semibold text-[var(--navy)]/45">EPS listening মোড: জমা দেওয়ার পর script দেখা যাবে।</p>
+          </div>
+        ) : (
+          <div className="mt-4 rounded-2xl bg-[var(--cream)] p-4 text-left font-semibold leading-7 text-[var(--navy)]">
+            {isListening && submitted ? <p className="mb-2 text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">শোনার script (জমার পর)</p> : null}
+            {passageText}
+            {isListening && submitted ? (
+              <button type="button" onClick={() => void speakKorean(passageText, { rate: 0.82 })} className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-[var(--gold-dark)]">
+                <Volume2 className="size-4" />আবার শুনুন
+              </button>
+            ) : null}
+          </div>
+        )
+      ) : null}
       {isMatching ? <div className="mt-5 grid gap-3">{practice.pairs.map((pair, pairIndex) => <div key={`${pair.left}-${pairIndex}`} className="grid gap-2 sm:grid-cols-2 sm:items-center"><div className="rounded-xl bg-[var(--cream)] px-4 py-3 font-bold text-[var(--navy)]">{pair.left}</div><select disabled={submitted} value={matching[practice.id]?.[pairIndex] ?? ""} onChange={event => setMatching(previous => ({ ...previous, [practice.id]: { ...(previous[practice.id] ?? {}), [pairIndex]: event.target.value } }))} className="h-12 rounded-xl border border-[var(--navy)]/12 bg-white px-3"><option value="">সঠিক অর্থ বেছে নিন</option>{[...practice.pairs].sort((a, b) => a.right.localeCompare(b.right)).map(option => <option key={option.right} value={option.right}>{option.right}</option>)}</select></div>)}</div> : <div className="mt-5 grid gap-2 sm:grid-cols-2">{optionList.map((option, optionIndex) => { const selected = chosen === optionIndex; const revealCorrect = submitted && optionIndex === question.answer; const revealWrong = submitted && selected && optionIndex !== question.answer; return <button key={`${option}-${optionIndex}`} disabled={submitted} onClick={() => setAnswers(previous => ({ ...previous, [question.id]: optionIndex }))} className={`answer-option ${selected ? "answer-selected" : ""} ${revealCorrect ? "answer-correct" : ""} ${revealWrong ? "answer-wrong" : ""}`}><span>{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span>{revealCorrect && <Check className="ml-auto size-4" />}{revealWrong && <X className="ml-auto size-4" />}</button>; })}</div>}
-      {submitted && <div className={`mt-5 rounded-2xl p-4 text-sm leading-6 ${correct ? "bg-emerald-50 text-emerald-800" : "bg-red-50 text-red-800"}`}><strong>{correct ? "সঠিক।" : "সঠিক উত্তর দেখুন।"}</strong> {question.explanationBn}</div>}
+      {submitted && <div className={`mt-5 rounded-2xl p-4 text-sm leading-6 ${correct ? "bg-emerald-50 text-emerald-800" : "bg-red-50 text-red-800"}`}><strong>{correct ? "সঠিক।" : "সঠিক উত্তর দেখুন।"}</strong> {question.explanationBn}
+        {!correct ? <p className="mt-2 border-t border-red-200/80 pt-2 text-red-900/80"><strong>শেখার টিপ:</strong> {feedbackTipForQuestion(question, kind)}</p> : null}
+      </div>}
     </div></div></article>;
   })}</div><div className="flex flex-col gap-4 border-t border-[var(--navy)]/8 bg-[var(--cream)] p-6 sm:flex-row sm:items-center sm:justify-between">{submitted ? <><div><p className="font-serif text-3xl font-bold text-[var(--navy)]">স্কোর {score}/{questions.length}</p><p className="text-sm text-[var(--navy)]/50">{Math.round(score / questions.length * 100)}% · {score / questions.length >= .75 ? "ভালো করেছেন!" : "ব্যাখ্যা পড়ে আবার চেষ্টা করুন।"}</p></div><Button onClick={reset} variant="outline" className="rounded-full"><RotateCcw className="size-4" />আবার চেষ্টা</Button></> : <><p className="text-sm font-semibold text-[var(--navy)]/50">উত্তর দেওয়া হয়েছে {Object.keys(answers).length + Object.keys(matching).length}/{questions.length}</p><Button onClick={submit} className="rounded-full bg-[var(--navy)] px-7 text-white">উত্তর জমা দিন</Button></>}</div></section>;
 }
@@ -165,6 +218,13 @@ export default function LessonPage() {
     }
     if (kind === "practice") saveProgress({ practiceScore: score, practiceTotal: total }, Math.max(1, Math.round(durationSec / 60)));
     else saveProgress({ examScore: score, examTotal: total, completed: score / total >= .75 }, Math.max(1, Math.round(durationSec / 60)));
+    recordWeakAttempt({
+      kind: "chapter",
+      chapter,
+      labelBn: `অধ্যায় ${chapter} · ${kind === "practice" ? "অনুশীলন" : "পরীক্ষা"}`,
+      score,
+      total,
+    });
     toast.success(`স্কোর ${score}/${total} সংরক্ষিত হয়েছে`);
   };
 
