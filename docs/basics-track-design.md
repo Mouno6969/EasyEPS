@@ -1124,9 +1124,11 @@ flowchart LR
 
 ### Deploy runbook (PR 9/10)
 
+See **[BASICS_RUNBOOK.md](./BASICS_RUNBOOK.md)** for the maintained checklist. Summary:
+
 1. Apply migration `0006`.
 2. Deploy app with `BASICS_GATE_ENABLED` unset/false.
-3. Run `pnpm tsx scripts/backfill-basics-legacy.mjs` (or equivalent).
-4. Smoke: new auth user without grandfather → submitCheckpoint fail → `progress.save` still works while flag false; enable flag in staging → `progress.save` blocks → pass checkpoint → save works.
+3. Run `node scripts/backfill-basics-legacy.mjs` (`--dry-run` first; requires `DATABASE_URL`).
+4. Smoke: new auth user without grandfather → `progress.save` still works while flag false; enable flag in staging → `progress.save` blocks → pass checkpoint → save works.
 5. Production flag on.
 6. Rollback: unset flag; no DB down-migration required.

@@ -9,8 +9,9 @@ export const ENV = {
   forgeApiKey: process.env.BUILT_IN_FORGE_API_KEY ?? "",
   /**
    * When true, signed-in users must complete Hangul Basics before curriculum
-   * progress/attempt writes (enforced in a later PR). Default false until MVP
-   * UI + backfill ship. Rollback = leave unset or set to anything other than "true".
+   * progress writes and practice / chapter-exam attempts. Default false until
+   * backfill runs. Rollback = leave unset or set to anything other than "true".
+   * See docs/BASICS_RUNBOOK.md.
    */
   basicsGateEnabled: process.env.BASICS_GATE_ENABLED === "true",
 };

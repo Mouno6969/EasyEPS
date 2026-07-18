@@ -24,6 +24,10 @@ import {
   type BasicsProgress,
 } from "../shared/basics";
 import { ENV } from "./_core/env";
+import {
+  BASICS_REQUIRED_MESSAGE,
+  decideBasicsGate,
+} from "./basicsGate";
 import { composeHangul, decomposeHangul, V1_BATCHIM, V1_CONSONANTS, V1_VOWELS } from "../shared/hangul";
 import { coverageRatio, targetSamplesFromStrokeFile } from "../shared/strokeCoverage";
 import {
@@ -651,6 +655,72 @@ describe("ENV.basicsGateEnabled", () => {
   it("defaults to false when BASICS_GATE_ENABLED is unset", () => {
     expect(typeof ENV.basicsGateEnabled).toBe("boolean");
     expect(ENV.basicsGateEnabled).toBe(process.env.BASICS_GATE_ENABLED === "true");
+  });
+
+  it("flag-off means assertBasicsComplete is a no-op (decideBasicsGate allow)", () => {
+    // assertBasicsComplete returns early when !ENV.basicsGateEnabled; pure mirror:
+    expect(
+      decideBasicsGate({
+        gateEnabled: false,
+        role: "user",
+        basicsCompleted: false,
+        hasLegacyActivity: false,
+      }),
+    ).toEqual({ action: "allow" });
+  });
+});
+
+describe("decideBasicsGate (assertBasicsComplete pure logic)", () => {
+  const base = {
+    role: "user" as const,
+    basicsCompleted: false,
+    hasLegacyActivity: false,
+  };
+
+  it("allows when gate is disabled regardless of progress", () => {
+    expect(decideBasicsGate({ ...base, gateEnabled: false })).toEqual({ action: "allow" });
+  });
+
+  it("allows admins when gate is on", () => {
+    expect(
+      decideBasicsGate({
+        gateEnabled: true,
+        role: "admin",
+        basicsCompleted: false,
+        hasLegacyActivity: false,
+      }),
+    ).toEqual({ action: "allow" });
+  });
+
+  it("allows when basics already completed", () => {
+    expect(
+      decideBasicsGate({
+        gateEnabled: true,
+        role: "user",
+        basicsCompleted: true,
+        hasLegacyActivity: false,
+      }),
+    ).toEqual({ action: "allow" });
+  });
+
+  it("grandfathers users with legacy lessonProgress or attempts", () => {
+    expect(
+      decideBasicsGate({
+        gateEnabled: true,
+        role: "user",
+        basicsCompleted: false,
+        hasLegacyActivity: true,
+      }),
+    ).toEqual({ action: "grandfather" });
+  });
+
+  it("blocks incomplete users without legacy activity", () => {
+    expect(decideBasicsGate({ ...base, gateEnabled: true })).toEqual({
+      action: "block",
+      message: BASICS_REQUIRED_MESSAGE,
+    });
+    expect(BASICS_REQUIRED_MESSAGE).toMatch(/Hangul Basics/i);
+    expect(BASICS_REQUIRED_MESSAGE).toMatch(/basics-required/);
   });
 });
 

@@ -28,6 +28,7 @@ import {
 } from "./basicsContent";
 import * as db from "./db";
 import { ENV } from "./_core/env";
+import { assertBasicsComplete } from "./basicsGate";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { invokeLLM } from "./_core/llm";
 import { systemRouter } from "./_core/systemRouter";
@@ -261,6 +262,7 @@ export const appRouter = router({
         }),
       )
       .mutation(async ({ ctx, input }) => {
+        await assertBasicsComplete(ctx.user.id, ctx.user.role);
         const { chapter, minutes, ...patch } = input;
         const saved = await db.saveProgress(ctx.user.id, chapter, patch);
         await db.recordStudyDay(ctx.user.id, today(), minutes);
@@ -354,6 +356,11 @@ export const appRouter = router({
           }),
       )
       .mutation(async ({ ctx, input }) => {
+        // Write-gate practice / chapter-exam only; mock-test stays open in v1
+        if (input.kind === "practice" || input.kind === "chapter-exam") {
+          await assertBasicsComplete(ctx.user.id, ctx.user.role);
+        }
+
         let score = input.score ?? 0;
         let total = input.total ?? 0;
         let correctIds: string[] = [];
@@ -564,7 +571,8 @@ export const appRouter = router({
 
   /**
    * Hangul Basics track APIs.
-   * Curriculum write-gate (assertBasicsComplete on progress.save / attempts) ships later.
+   * Curriculum write-gate: assertBasicsComplete on progress.save and practice/chapter-exam attempts
+   * when ENV.basicsGateEnabled (see server/basicsGate.ts, docs/BASICS_RUNBOOK.md).
    */
   basics: router({
     /** Public module summaries for the Basics hub. */

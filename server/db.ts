@@ -393,16 +393,40 @@ export async function getCertificateEligibleProfile(userId: number) {
 
 export async function adminStats() {
   const db = await requireDb();
-  const [[userCount], [attemptCount], [completionCount]] = await Promise.all([
+  const [[userCount], [attemptCount], [completionCount], [basicsCompletedCount]] = await Promise.all([
     db.select({ value: count() }).from(users),
     db.select({ value: count() }).from(attempts),
     db.select({ value: count() }).from(lessonProgress).where(eq(lessonProgress.completed, true)),
+    db.select({ value: count() }).from(basicsProgress).where(eq(basicsProgress.completed, true)),
   ]);
   return {
     users: userCount?.value ?? 0,
     attempts: attemptCount?.value ?? 0,
     completedLessons: completionCount?.value ?? 0,
+    /** Users with basicsProgress.completed = true (checkpoint, legacy, or admin). */
+    basicsCompleted: basicsCompletedCount?.value ?? 0,
   };
+}
+
+/**
+ * True when the user has any chapter progress or any attempt row (including mock-test).
+ * Used for legacy grandfather eligibility.
+ */
+export async function userHasCurriculumActivity(userId: number): Promise<boolean> {
+  const db = await requireDb();
+  const [[progressHit], [attemptHit]] = await Promise.all([
+    db
+      .select({ id: lessonProgress.id })
+      .from(lessonProgress)
+      .where(eq(lessonProgress.userId, userId))
+      .limit(1),
+    db
+      .select({ id: attempts.id })
+      .from(attempts)
+      .where(eq(attempts.userId, userId))
+      .limit(1),
+  ]);
+  return Boolean(progressHit) || Boolean(attemptHit);
 }
 
 export async function adminListUsers(limit = 100) {
