@@ -44,7 +44,16 @@
 - [x] Unique DB indexes for progress / studyDays / badges
 - [x] Server-side attempt grading for badges/certificates
 - [x] Fisher–Yates mock shuffle + stricter lesson Zod schema
-- [ ] Answer-key rebalance across options A–D
-- [ ] Guest→account progress merge on login
-- [ ] Listening passage hidden until submit
-- [ ] Tutor rate limiting
+- [x] Answer-key rebalance across options A–D
+- [x] Guest→account progress merge on login
+- [x] Listening passage hidden until submit
+- [x] Tutor rate limiting
+
+## Plan implementation (learning quality + full roadmap)
+- [x] Wrong-answer Bangla tips + dashboard weak spots / light SRS
+- [x] Onboarding tour, FAQ, trust footer, SEO meta, PWA shell
+- [x] Share progress card + weekly mock challenge
+- [x] Route code-splitting + deploy docs
+- [ ] Production host + MySQL + OAuth secrets (ops)
+- [ ] Workplace scenario content packs (content authoring)
+- [ ] Full admin visual lesson editor

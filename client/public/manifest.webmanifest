@@ -1,0 +1,18 @@
+{
+  "name": "EasyEPS — EPS-TOPIK Learning",
+  "short_name": "EasyEPS",
+  "description": "Bangla-first Korean EPS-TOPIK preparation: Hangul basics, 60 chapters, mock tests.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f0e3",
+  "theme_color": "#10253a",
+  "lang": "bn",
+  "icons": [
+    {
+      "src": "/basics/module-card.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

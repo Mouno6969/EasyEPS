@@ -14,6 +14,7 @@ import {
   useLocalLearning,
 } from "@/lib/localProgress";
 import { useLocalProfile } from "@/lib/localProfile";
+import { ShareProgressCard } from "@/components/ShareProgressCard";
 import { hrefForReview, listDueReviews, listRecentWeak, markReviewed } from "@/lib/srs";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
@@ -157,7 +158,7 @@ export function DashboardPage() {
     : "হ্যাঙ্গুল বেসিক শেষ করুন, তারপর অধ্যায় ১ শুরু হবে।";
 
   return <>
-    <PageIntro eyebrow="আপনার শেখার যাত্রা" title="অগ্রগতি এক নজরে" description="ছোট ছোট নিয়মিত পদক্ষেপই আপনাকে EPS-TOPIK লক্ষ্যের কাছে নিয়ে যাবে।" actions={<Link href={nextHref}><Button className="rounded-full bg-[var(--navy)] px-6 text-white">{nextLabel} <ChevronRight className="size-4" /></Button></Link>} />
+    <PageIntro eyebrow="আপনার শেখার যাত্রা" title="অগ্রগতি এক নজরে" description="ছোট ছোট নিয়মিত পদক্ষেপই আপনাকে EPS-TOPIK লক্ষ্যের কাছে নিয়ে যাবে।" actions={<div className="flex flex-wrap gap-2"><ShareProgressCard /><Link href={nextHref}><Button className="rounded-full bg-[var(--navy)] px-6 text-white">{nextLabel} <ChevronRight className="size-4" /></Button></Link></div>} />
     <div className="container py-10">
       {!hangulReady && <BasicsCtaBanner className="mb-7" />}
       {!profileComplete && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--navy)]/15 bg-white p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>প্রোফাইল সেটআপ বাকি:</strong> সঠিক নাম, ইমেইল ও শেখার স্তর দিয়ে প্রোফাইল সম্পূর্ণ করুন—সার্টিফিকেটে আপনার নাম দেখাবে।</span><Link href="/profile/setup"><Button className="rounded-full bg-[var(--navy)] text-white">প্রোফাইল সেটআপ <UserRound className="size-4" /></Button></Link></div>}

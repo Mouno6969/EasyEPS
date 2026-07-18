@@ -299,6 +299,111 @@ export const appRouter = router({
         studyMinutes: days.reduce((sum, day) => sum + day.minutes, 0),
       };
     }),
+    /**
+     * Merge guest localStorage learning into the signed-in account.
+     * Prefer remote when already further ahead; never decrease completed chapters.
+     */
+    importGuest: protectedProcedure
+      .input(
+        z.object({
+          progress: z
+            .array(
+              z.object({
+                chapter: z.number().int().min(1).max(60),
+                vocabDone: z.boolean().optional(),
+                grammarDone: z.boolean().optional(),
+                dialogueDone: z.boolean().optional(),
+                practiceScore: z.number().int().min(0).max(10).nullable().optional(),
+                practiceTotal: z.number().int().min(0).max(10).nullable().optional(),
+                examScore: z.number().int().min(0).max(8).nullable().optional(),
+                examTotal: z.number().int().min(0).max(8).nullable().optional(),
+                completed: z.boolean().optional(),
+              }),
+            )
+            .max(60)
+            .default([]),
+          attempts: z
+            .array(
+              z.object({
+                kind: z.enum(["practice", "chapter-exam", "mock-test"]),
+                chapter: z.number().int().min(1).max(60).nullable().optional(),
+                score: z.number().int().min(0),
+                total: z.number().int().min(1).max(100),
+                durationSec: z.number().int().min(0).max(14400).optional(),
+              }),
+            )
+            .max(50)
+            .default([]),
+          studyDays: z
+            .array(
+              z.object({
+                date: z.string().regex(datePattern),
+                minutes: z.number().int().min(0).max(1440),
+                activities: z.number().int().min(0).max(500),
+              }),
+            )
+            .max(120)
+            .default([]),
+        }),
+      )
+      .mutation(async ({ ctx, input }) => {
+        const remote = await db.listProgress(ctx.user.id);
+        const remoteByChapter = new Map(remote.map(row => [row.chapter, row]));
+        let mergedChapters = 0;
+
+        for (const local of input.progress) {
+          const existing = remoteByChapter.get(local.chapter);
+          const patch = {
+            vocabDone: Boolean(local.vocabDone || existing?.vocabDone),
+            grammarDone: Boolean(local.grammarDone || existing?.grammarDone),
+            dialogueDone: Boolean(local.dialogueDone || existing?.dialogueDone),
+            practiceScore: Math.max(local.practiceScore ?? 0, existing?.practiceScore ?? 0) || null,
+            practiceTotal: Math.max(local.practiceTotal ?? 0, existing?.practiceTotal ?? 0) || null,
+            examScore: Math.max(local.examScore ?? 0, existing?.examScore ?? 0) || null,
+            examTotal: Math.max(local.examTotal ?? 0, existing?.examTotal ?? 0) || null,
+            completed: Boolean(local.completed || existing?.completed),
+          };
+          // Only write if local adds something
+          const improves =
+            !existing ||
+            patch.vocabDone !== existing.vocabDone ||
+            patch.grammarDone !== existing.grammarDone ||
+            patch.dialogueDone !== existing.dialogueDone ||
+            patch.completed !== existing.completed ||
+            (patch.practiceScore ?? 0) > (existing.practiceScore ?? 0) ||
+            (patch.examScore ?? 0) > (existing.examScore ?? 0);
+          if (!improves) continue;
+          await db.saveProgress(ctx.user.id, local.chapter, patch);
+          mergedChapters += 1;
+        }
+
+        let importedAttempts = 0;
+        for (const attempt of input.attempts.slice(0, 30)) {
+          await db.createAttempt({
+            userId: ctx.user.id,
+            kind: attempt.kind,
+            chapter: attempt.chapter ?? null,
+            score: attempt.score,
+            total: attempt.total,
+            durationSec: attempt.durationSec ?? null,
+            detail: { importedFromGuest: true, serverGraded: false },
+          });
+          importedAttempts += 1;
+        }
+
+        for (const day of input.studyDays) {
+          await db.recordStudyDay(ctx.user.id, day.date, day.minutes);
+        }
+
+        const all = await db.listProgress(ctx.user.id);
+        const completed = all.filter(row => row.completed).length;
+        if (completed >= 1) await db.awardBadge(ctx.user.id, "first-step");
+        if (completed >= 10) await db.awardBadge(ctx.user.id, "ten-lessons");
+        if (completed >= 30) await db.awardBadge(ctx.user.id, "halfway-hero");
+        if (completed >= 60) await db.awardBadge(ctx.user.id, "curriculum-master");
+
+        return { mergedChapters, importedAttempts, completedLessons: completed };
+      }),
   }),
 
   attempts: router({
@@ -824,7 +929,26 @@ export const appRouter = router({
             .max(12),
         }),
       )
-      .mutation(async ({ input }) => {
+      .mutation(async ({ ctx, input }) => {
+        // Simple in-memory rate limit: 20 messages per user per rolling hour
+        const key = `tutor:${ctx.user.id}`;
+        const now = Date.now();
+        const bucket = (globalThis as unknown as { __easyepsTutorBuckets?: Map<string, number[]> })
+          .__easyepsTutorBuckets ??
+          ((globalThis as unknown as { __easyepsTutorBuckets: Map<string, number[]> }).__easyepsTutorBuckets =
+            new Map());
+        const windowMs = 60 * 60 * 1000;
+        const limit = 20;
+        const stamps = (bucket.get(key) ?? []).filter((ts: number) => now - ts < windowMs);
+        if (stamps.length >= limit) {
+          throw new TRPCError({
+            code: "TOO_MANY_REQUESTS",
+            message: "এআই শিক্ষক সীমা: প্রতি ঘণ্টায় সর্বোচ্চ ২০টি বার্তা। একটু পরে আবার চেষ্টা করুন।",
+          });
+        }
+        stamps.push(now);
+        bucket.set(key, stamps);
+
         const lesson = input.chapter ? getLesson(input.chapter) : undefined;
         const lessonContext = lesson
           ? `Current lesson: Chapter ${lesson.chapter}, ${lesson.title.ko} / ${lesson.title.bn}. Vocabulary focus: ${lesson.vocabulary

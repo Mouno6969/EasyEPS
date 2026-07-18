@@ -95,7 +95,7 @@ function parseState(raw: string | null): LocalLearningState {
   }
 }
 
-function getSnapshot() {
+export function getSnapshot() {
   const raw = localStorage.getItem(KEY) ?? "";
   if (raw !== cachedRaw) {
     cachedRaw = raw;

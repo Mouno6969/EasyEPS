@@ -29,6 +29,12 @@ const copy = {
     bangla: "বাংলা",
     english: "ইংরেজি",
     hangulReady: "হ্যাঙ্গুল প্রস্তুত",
+    faq: "প্রশ্নোত্তর",
+    shareProgress: "অগ্রগতি শেয়ার",
+    skip: "এড়িয়ে যান",
+    next: "পরেরটি",
+    emptyState: "এখনও কিছু নেই",
+    errorGeneric: "কিছু ভুল হয়েছে। আবার চেষ্টা করুন।",
   },
   ko: {
     home: "홈",
@@ -56,6 +62,12 @@ const copy = {
     bangla: "বাংলা",
     english: "English",
     hangulReady: "한글 준비 완료",
+    faq: "FAQ",
+    shareProgress: "공유",
+    skip: "건너뛰기",
+    next: "다음",
+    emptyState: "아직 항목이 없습니다",
+    errorGeneric: "문제가 발생했습니다. 다시 시도하세요.",
   },
   en: {
     home: "Home",
@@ -83,6 +95,12 @@ const copy = {
     bangla: "Bangla",
     english: "English",
     hangulReady: "Hangul ready",
+    faq: "FAQ",
+    shareProgress: "Share progress",
+    skip: "Skip",
+    next: "Next",
+    emptyState: "Nothing here yet",
+    errorGeneric: "Something went wrong. Please try again.",
   },
 } as const;
 

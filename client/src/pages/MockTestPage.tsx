@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { addLocalAttempt } from "@/lib/localProgress";
 import { speakKorean } from "@/lib/speakKorean";
 import { recordWeakAttempt } from "@/lib/srs";
+import { getWeeklyChallenge, recordWeeklyChallengeScore } from "@/lib/weeklyChallenge";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { Check, ChevronLeft, ChevronRight, Clock3, GraduationCap, Headphones, Loader2, RotateCcw, ShieldCheck, Volume2, X } from "lucide-react";
@@ -10,7 +11,8 @@ import { Link } from "wouter";
 
 export default function MockTestPage() {
   const { isAuthenticated } = useAuth();
-  const [count, setCount] = useState<20 | 40>(40);
+  const weekly = useMemo(() => getWeeklyChallenge(), []);
+  const [count, setCount] = useState<20 | 40>(weekly.count);
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
   const [index, setIndex] = useState(0);
@@ -34,6 +36,7 @@ export default function MockTestPage() {
       score,
       total: questions.length,
     });
+    recordWeeklyChallengeScore(score, questions.length);
     if (isAuthenticated) {
       recordRemote.mutate({
         kind: "mock-test",
@@ -68,7 +71,14 @@ export default function MockTestPage() {
 
   if (!started) return <>
     <section className="bg-[var(--navy)] text-white"><div className="sacred-grid-dark"><div className="container grid min-h-[420px] items-center gap-10 py-16 lg:grid-cols-[1fr_.55fr]"><div><p className="eyebrow text-[var(--gold)]">Realistic EPS practice</p><h1 className="mt-4 font-serif text-5xl font-bold md:text-6xl">পূর্ণাঙ্গ মক টেস্ট</h1><p className="mt-5 max-w-2xl text-lg leading-8 text-white/60">সময় নিয়ন্ত্রণ, reading ও listening প্রশ্ন, তাৎক্ষণিক স্কোর এবং বিস্তারিত ব্যাখ্যার মাধ্যমে পরীক্ষার পরিবেশে নিজেকে যাচাই করুন।</p></div><GraduationCap className="mx-auto size-40 text-[var(--gold)]/25" /></div></div></section>
-    <div className="container py-12"><div className="mx-auto max-w-3xl paper-card p-7 md:p-10"><p className="eyebrow">পরীক্ষা সেটআপ</p><h2 className="mt-3 font-serif text-3xl font-bold text-[var(--navy)]">কোন পরীক্ষা দেবেন?</h2><div className="mt-7 grid gap-4 sm:grid-cols-2">{([20, 40] as const).map(value => <button key={value} onClick={() => setCount(value)} className={`rounded-3xl border p-6 text-left transition ${count === value ? "border-[var(--gold)] bg-[var(--gold)]/10 shadow-md" : "border-[var(--navy)]/10 bg-white"}`}><div className="flex items-center justify-between"><span className="font-serif text-3xl font-bold text-[var(--navy)]">{value}</span>{count === value && <span className="grid size-7 place-items-center rounded-full bg-[var(--navy)] text-white"><Check className="size-4" /></span>}</div><p className="mt-2 font-bold text-[var(--navy)]">{value === 20 ? "দ্রুত অনুশীলন" : "পূর্ণাঙ্গ পরীক্ষা"}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/50">{value === 20 ? "২৫ মিনিট · ১২ reading + ৮ listening" : "৫০ মিনিট · ২৪ reading + ১৬ listening"}</p></button>)}</div><div className="mt-7 rounded-2xl bg-[var(--cream)] p-5"><h3 className="flex items-center gap-2 font-bold text-[var(--navy)]"><ShieldCheck className="size-5 text-[var(--sage-dark)]" />শুরু করার আগে</h3><div className="mt-3 grid gap-2 text-sm leading-6 text-[var(--navy)]/58"><p>• Listening প্রশ্নে script দেখতে নয়—headphone বোতাম চাপুন এবং মনোযোগ দিয়ে শুনুন।</p><p>• উত্তর না জানা থাকলে question palette থেকে পরে ফিরে আসুন।</p><p>• জমা দেওয়ার পর সঠিক উত্তর ও বাংলা ব্যাখ্যা দেখানো হবে।</p></div></div><Button onClick={begin} className="mt-8 h-13 w-full rounded-full bg-[var(--navy)] text-base text-white">পরীক্ষা শুরু করুন <ChevronRight className="size-4" /></Button></div></div>
+    <div className="container py-12"><div className="mx-auto max-w-3xl paper-card p-7 md:p-10"><p className="eyebrow">পরীক্ষা সেটআপ</p><h2 className="mt-3 font-serif text-3xl font-bold text-[var(--navy)]">কোন পরীক্ষা দেবেন?</h2>
+      <div className="mt-4 rounded-2xl border border-[var(--gold)]/30 bg-[var(--gold)]/10 p-4 text-sm leading-6 text-[var(--navy)]">
+        <strong>এই সপ্তাহের চ্যালেঞ্জ ({weekly.week}):</strong> {weekly.count} প্রশ্ন
+        {weekly.bestScore != null && weekly.bestTotal
+          ? ` · আপনার সেরা: ${weekly.bestScore}/${weekly.bestTotal}`
+          : " · এখনও অংশ নেননি"}
+        {" · "}{weekly.attempts} বার চেষ্টা
+      </div><div className="mt-7 grid gap-4 sm:grid-cols-2">{([20, 40] as const).map(value => <button key={value} onClick={() => setCount(value)} className={`rounded-3xl border p-6 text-left transition ${count === value ? "border-[var(--gold)] bg-[var(--gold)]/10 shadow-md" : "border-[var(--navy)]/10 bg-white"}`}><div className="flex items-center justify-between"><span className="font-serif text-3xl font-bold text-[var(--navy)]">{value}</span>{count === value && <span className="grid size-7 place-items-center rounded-full bg-[var(--navy)] text-white"><Check className="size-4" /></span>}</div><p className="mt-2 font-bold text-[var(--navy)]">{value === 20 ? "দ্রুত অনুশীলন" : "পূর্ণাঙ্গ পরীক্ষা"}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/50">{value === 20 ? "২৫ মিনিট · ১২ reading + ৮ listening" : "৫০ মিনিট · ২৪ reading + ১৬ listening"}</p></button>)}</div><div className="mt-7 rounded-2xl bg-[var(--cream)] p-5"><h3 className="flex items-center gap-2 font-bold text-[var(--navy)]"><ShieldCheck className="size-5 text-[var(--sage-dark)]" />শুরু করার আগে</h3><div className="mt-3 grid gap-2 text-sm leading-6 text-[var(--navy)]/58"><p>• Listening প্রশ্নে script দেখতে নয়—headphone বোতাম চাপুন এবং মনোযোগ দিয়ে শুনুন।</p><p>• উত্তর না জানা থাকলে question palette থেকে পরে ফিরে আসুন।</p><p>• জমা দেওয়ার পর সঠিক উত্তর ও বাংলা ব্যাখ্যা দেখানো হবে।</p></div></div><Button onClick={begin} className="mt-8 h-13 w-full rounded-full bg-[var(--navy)] text-base text-white">পরীক্ষা শুরু করুন <ChevronRight className="size-4" /></Button></div></div>
   </>;
 
   if (query.isLoading || !current) return <div className="container py-32 text-center"><Loader2 className="mx-auto size-8 animate-spin text-[var(--gold-dark)]" /><p className="mt-4 font-semibold text-[var(--navy)]/55">প্রশ্নপত্র তৈরি হচ্ছে…</p></div>;

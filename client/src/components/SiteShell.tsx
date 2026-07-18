@@ -113,9 +113,25 @@ export function SiteShell({ children }: { children: ReactNode }) {
 
       <footer className="mt-20 border-t border-[var(--navy)]/10 bg-[var(--navy)] text-white">
         <div className="container grid gap-8 py-12 md:grid-cols-[1.3fr_1fr_1fr]">
-          <div><div className="font-serif text-2xl font-bold text-[var(--gold)]">EasyEPS</div><p className="mt-3 max-w-md text-sm leading-7 text-white/70">বাংলাভাষী শিক্ষার্থীদের জন্য ৬০ অধ্যায়ের EPS-TOPIK প্রস্তুতি, কর্মক্ষেত্রের কোরিয়ান এবং স্মার্ট অনুশীলন।</p></div>
-          <div><p className="font-bold text-[var(--gold)]">শেখা</p><div className="mt-3 grid gap-2 text-sm text-white/70"><Link href="/basics">বেসিক</Link><Link href="/curriculum">পাঠ্যক্রম</Link><Link href="/mock-test">মক টেস্ট</Link><Link href="/tutor">এআই শিক্ষক</Link></div></div>
-          <div><p className="font-bold text-[var(--gold)]">নোট</p><p className="mt-3 text-sm leading-6 text-white/65">EasyEPS একটি স্বাধীন শিক্ষাসহায়ক প্ল্যাটফর্ম; এটি HRD Korea বা EPS-এর সরকারি সেবা নয়।</p></div>
+          <div>
+            <div className="font-serif text-2xl font-bold text-[var(--gold)]">EasyEPS</div>
+            <p className="mt-3 max-w-md text-sm leading-7 text-white/70">বাংলাভাষী শিক্ষার্থীদের জন্য ৬০ অধ্যায়ের EPS-TOPIK প্রস্তুতি, কর্মক্ষেত্রের কোরিয়ান এবং স্মার্ট অনুশীলন।</p>
+            <p className="mt-3 text-xs text-white/45">Content update: 2026 · Independent learning aid</p>
+          </div>
+          <div>
+            <p className="font-bold text-[var(--gold)]">শেখা</p>
+            <div className="mt-3 grid gap-2 text-sm text-white/70">
+              <Link href="/basics">বেসিক</Link>
+              <Link href="/curriculum">পাঠ্যক্রম</Link>
+              <Link href="/mock-test">মক টেস্ট</Link>
+              <Link href="/tutor">এআই শিক্ষক</Link>
+              <Link href="/faq">প্রশ্নোত্তর (FAQ)</Link>
+            </div>
+          </div>
+          <div>
+            <p className="font-bold text-[var(--gold)]">বিশ্বাসযোগ্যতা</p>
+            <p className="mt-3 text-sm leading-6 text-white/65">EasyEPS একটি <strong className="text-white/85">স্বাধীন শিক্ষাসহায়ক</strong> প্ল্যাটফর্ম। এটি HRD Korea, EPS বা কোনো সরকারি সংস্থার অফিসিয়াল সেবা নয়। পরীক্ষা নিবন্ধন, ভিসা ও কর্মসংস্থানের জন্য সর্বদা সরকারি নির্দেশনা অনুসরণ করুন।</p>
+          </div>
         </div>
       </footer>
     </div>
