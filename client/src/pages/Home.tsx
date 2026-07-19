@@ -1,3 +1,8 @@
+import {
+  LearningRoadmapSection,
+  ReadinessResourcesSection,
+  StudyMethodSection,
+} from "@/components/LearnerGuideSections";
 import { Button } from "@/components/ui/button";
 import { useLocale } from "@/contexts/LocaleContext";
 import { useLocalBasics, useLocalLearning, learningOverview } from "@/lib/localProgress";
@@ -9,7 +14,7 @@ import { Link } from "wouter";
 const featureCards = [
   { icon: SpellCheck2, title: "হ্যাঙ্গুল বেসিক", text: "জামো, উচ্চারণ, লেখা ও অক্ষর গঠন—অধ্যায় ১-এর আগে।" },
   { icon: BookOpenText, title: "৬০টি পূর্ণাঙ্গ অধ্যায়", text: "দৈনন্দিন জীবন, কোরিয়ান সংস্কৃতি, কর্মক্ষেত্র, নিরাপত্তা ও আইন।" },
-  { icon: Volume2, title: "শুনুন ও উচ্চারণ করুন", text: "প্রতিটি Korean শব্দ, উদাহরণ ও সংলাপ browser voice-এ শুনুন।" },
+  { icon: Volume2, title: "শুনুন ও উচ্চারণ করুন", text: "প্রতিটি কোরিয়ান শব্দ, উদাহরণ ও সংলাপ ব্রাউজারের কণ্ঠে শুনুন।" },
   { icon: GraduationCap, title: "EPS-ধাঁচের পরীক্ষা", text: "অধ্যায় পরীক্ষা এবং সময়-নিয়ন্ত্রিত পূর্ণাঙ্গ মক টেস্টে প্রস্তুতি যাচাই করুন।" },
   { icon: Bot, title: "বাংলা AI শিক্ষক", text: "কঠিন ব্যাকরণ ও কর্মক্ষেত্রের বাক্য সহজ বাংলায় বুঝে নিন।" },
 ];
@@ -90,9 +95,9 @@ export default function Home() {
             )}
           </div>
           <div className="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold text-[var(--navy)]/55">
-            <span className="flex items-center gap-2"><CheckCircle2 className="size-4 text-[var(--sage)]" />Hangul Basics track</span>
-            <span className="flex items-center gap-2"><CheckCircle2 className="size-4 text-[var(--sage)]" />Guest progress saved</span>
-            <span className="flex items-center gap-2"><CheckCircle2 className="size-4 text-[var(--sage)]" />Mobile friendly</span>
+            <span className="flex items-center gap-2"><CheckCircle2 className="size-4 text-[var(--sage)]" />ধাপে ধাপে হ্যাঙ্গুল বেসিক</span>
+            <span className="flex items-center gap-2"><CheckCircle2 className="size-4 text-[var(--sage)]" />অ্যাকাউন্ট ছাড়াই অগ্রগতি সংরক্ষণ</span>
+            <span className="flex items-center gap-2"><CheckCircle2 className="size-4 text-[var(--sage)]" />মোবাইল-বান্ধব শেখা</span>
           </div>
         </div>
 
@@ -103,7 +108,7 @@ export default function Home() {
             <div className="relative overflow-hidden rounded-[1.8rem] bg-[var(--navy)]">
               <img
                 src="/basics/home-hero.jpg"
-                alt=""
+                alt="হ্যাঙ্গুল পাঠ এবং ব্যক্তিগত শেখার অগ্রগতির নমুনা"
                 className="absolute inset-0 h-full w-full object-cover opacity-35"
                 onError={e => {
                   (e.target as HTMLImageElement).style.display = "none";
@@ -177,6 +182,8 @@ export default function Home() {
       </div>
     </section>
 
+    <LearningRoadmapSection />
+
     <section className="container py-20 md:py-28">
       <div className="max-w-2xl">
         <p className="eyebrow">কেন EasyEPS</p>
@@ -200,6 +207,8 @@ export default function Home() {
         ))}
       </div>
     </section>
+
+    <StudyMethodSection />
 
     <section className="bg-[var(--navy)] py-20 text-white md:py-24">
       <div className="container">
@@ -234,7 +243,9 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="container py-20 md:py-28">
+    <ReadinessResourcesSection />
+
+    <section className="container pb-20 md:pb-28">
       <div className="relative overflow-hidden rounded-[2.5rem] bg-[var(--gold)] p-8 md:p-14">
         <div className="sacred-grid absolute inset-0 opacity-20" />
         <div className="relative grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
