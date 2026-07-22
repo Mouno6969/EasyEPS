@@ -26,8 +26,8 @@ describe("curriculum.list", () => {
       expect(summary.title.bn.length).toBeGreaterThan(0);
       expect(summary.title.en.length).toBeGreaterThan(0);
       expect(summary.vocabularyCount).toBeGreaterThanOrEqual(16);
-      expect(summary.practiceCount).toBe(10);
-      expect(summary.epsQuestionCount).toBe(8);
+      expect(summary.practiceCount).toBeGreaterThanOrEqual(10);
+      expect(summary.epsQuestionCount).toBeGreaterThanOrEqual(8);
     }
   });
 });
@@ -38,13 +38,13 @@ describe("curriculum.get", () => {
     expect(lesson.chapter).toBe(1);
     expect(lesson.vocabulary.length).toBeGreaterThanOrEqual(16);
     expect(lesson.grammar.length).toBeGreaterThanOrEqual(2);
-    expect(lesson.dialogues).toHaveLength(2);
-    expect(lesson.practice).toHaveLength(10);
-    expect(lesson.epsQuestions).toHaveLength(8);
+    expect(lesson.dialogues.length).toBeGreaterThanOrEqual(2);
+    expect(lesson.practice.length).toBeGreaterThanOrEqual(10);
+    expect(lesson.epsQuestions.length).toBeGreaterThanOrEqual(8);
     const reading = lesson.epsQuestions.filter(question => question.section === "reading");
     const listening = lesson.epsQuestions.filter(question => question.section === "listening");
-    expect(reading).toHaveLength(5);
-    expect(listening).toHaveLength(3);
+    expect(reading.length).toBeGreaterThanOrEqual(5);
+    expect(listening.length).toBeGreaterThanOrEqual(3);
   });
 
   it("rejects out-of-range chapters", async () => {

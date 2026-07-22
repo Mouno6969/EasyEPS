@@ -118,9 +118,9 @@ describe("lesson content still validates under strict schema", () => {
   it("loads chapter 1 with practice mix and eps split", () => {
     const lesson = getLesson(1);
     expect(lesson).toBeDefined();
-    expect(lesson!.practice).toHaveLength(10);
-    expect(lesson!.epsQuestions.filter(q => q.section === "reading")).toHaveLength(5);
-    expect(lesson!.epsQuestions.filter(q => q.section === "listening")).toHaveLength(3);
+    expect(lesson!.practice.length).toBeGreaterThanOrEqual(10);
+    expect(lesson!.epsQuestions.filter(q => q.section === "reading").length).toBeGreaterThanOrEqual(5);
+    expect(lesson!.epsQuestions.filter(q => q.section === "listening").length).toBeGreaterThanOrEqual(3);
   });
 });
 

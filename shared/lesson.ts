@@ -13,6 +13,7 @@ const vocabularyItemSchema = z.object({
   en: z.string().min(1),
   pos: z.string().min(1),
   example: localizedTextSchema,
+  pronunciationTipBn: z.string().optional().default(""),
 });
 
 const grammarItemSchema = z.object({
@@ -21,6 +22,7 @@ const grammarItemSchema = z.object({
   explanationBn: z.string().min(1),
   explanationEn: z.string().min(1),
   examples: z.array(localizedTextSchema).min(2),
+  commonMistakeBn: z.string().optional().default(""),
 });
 
 const dialogueSchema = z.object({
@@ -93,11 +95,11 @@ export const lessonSchema = z
       bn: z.array(z.string().min(1)).min(1),
       en: z.array(z.string().min(1)).min(1),
     }),
-    vocabulary: z.array(vocabularyItemSchema).min(16).max(22),
-    grammar: z.array(grammarItemSchema).min(2).max(4),
-    dialogues: z.array(dialogueSchema).length(2),
-    practice: z.array(practiceQuestionSchema).length(10),
-    epsQuestions: z.array(epsQuestionSchema).length(8),
+    vocabulary: z.array(vocabularyItemSchema).min(16).max(40),
+    grammar: z.array(grammarItemSchema).min(2).max(6),
+    dialogues: z.array(dialogueSchema).min(2).max(4),
+    practice: z.array(practiceQuestionSchema).min(10).max(24),
+    epsQuestions: z.array(epsQuestionSchema).min(8).max(20),
   })
   .superRefine((lesson, ctx) => {
     const practiceIds = new Set<string>();
@@ -125,8 +127,8 @@ export const lessonSchema = z
 
     const reading = lesson.epsQuestions.filter(item => item.section === "reading").length;
     const listening = lesson.epsQuestions.filter(item => item.section === "listening").length;
-    if (reading !== 5) ctx.addIssue({ code: "custom", message: "Need exactly 5 reading EPS questions", path: ["epsQuestions"] });
-    if (listening !== 3) ctx.addIssue({ code: "custom", message: "Need exactly 3 listening EPS questions", path: ["epsQuestions"] });
+    if (reading < 5) ctx.addIssue({ code: "custom", message: "Need at least 5 reading EPS questions", path: ["epsQuestions"] });
+    if (listening < 3) ctx.addIssue({ code: "custom", message: "Need at least 3 listening EPS questions", path: ["epsQuestions"] });
 
     const expectedCategory =
       lesson.chapter <= 24
