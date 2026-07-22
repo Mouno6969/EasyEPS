@@ -17,7 +17,7 @@ This repository is the durable cache for the EasyEPS project. **Do not regenerat
 
 1. Clone this repo and read `content/manifest.json`.
 2. Only author lessons whose chapter numbers are **missing** from the manifest — never regenerate existing ones.
-3. New lessons must validate against `content/SCHEMA.md` (10 practice questions, 8 EPS questions, 16–22 vocabulary items each).
+3. New lessons must validate against `content/SCHEMA.md` v2 (20 practice questions, 16 EPS questions, 30–35 vocabulary items each).
 4. After authoring, update `content/manifest.json` and push to GitHub immediately.
 5. Optional: when `DATABASE_URL` is set, seed the database with `node scripts/seed-lessons.mjs` (idempotent upsert by chapter). Public curriculum reads JSON files directly and does not require this step.
 

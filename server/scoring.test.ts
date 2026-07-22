@@ -140,7 +140,7 @@ describe("attempts.record prefers server grading shape", () => {
     ).rejects.toThrow();
   });
 
-  it("builds a valid graded payload for chapter 1 practice without DB (expects availability error or success)", async () => {
+  it("builds a valid graded payload for chapter 1 practice (server-graded success with DB, availability error without)", async () => {
     const lesson = getLesson(1)!;
     const answers: Record<string, number> = {};
     const matching: Record<string, Record<string, string>> = {};
@@ -155,15 +155,27 @@ describe("attempts.record prefers server grading shape", () => {
     }
 
     const caller = appRouter.createCaller(createUserContext());
+    // With DATABASE_URL configured the attempt persists and must be graded
+    // server-side with a perfect score (all submitted answers are correct).
     // Without DATABASE_URL this should fail at persistence, not at grading.
-    await expect(
-      caller.attempts.record({
+    try {
+      const recorded = await caller.attempts.record({
         kind: "practice",
         chapter: 1,
         durationSec: 60,
         answers,
         matching,
-      }),
-    ).rejects.toThrow(/Database persistence is unavailable|Unable to grade|DATABASE/i);
+      });
+      expect(recorded.kind).toBe("practice");
+      expect(recorded.chapter).toBe(1);
+      expect(recorded.total).toBe(lesson.practice.length);
+      expect(recorded.score).toBe(lesson.practice.length);
+      const detail = recorded.detail as { serverGraded?: boolean } | null;
+      expect(detail?.serverGraded).toBe(true);
+    } catch (error) {
+      expect(String(error)).toMatch(
+        /Database persistence is unavailable|Unable to grade|DATABASE/i,
+      );
+    }
   });
 });

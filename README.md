@@ -3,6 +3,7 @@
 Bangla-first **EPS-TOPIK** learning app for Bangladeshi learners preparing to live and work in Korea. Korean and English are available as supporting languages.
 
 - **60 chapters** of original curriculum (vocabulary, grammar, dialogues, practice, EPS-style exams)
+- **v2 enriched spec per chapter**: 30–35 vocabulary items, 20 practice questions, 16 EPS questions (10 reading / 6 listening)
 - **Guest mode**: browse, study, practice, and take mock tests with local progress
 - **Signed-in mode**: durable progress, planner, badges, certificates, AI tutor
 - **Stack**: React 19 · Tailwind 4 · Express · tRPC · Drizzle · MySQL · Zod · Vitest

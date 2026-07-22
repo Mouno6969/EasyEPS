@@ -1,4 +1,4 @@
-# EasyEPS Lesson JSON Schema (v1)
+# EasyEPS Lesson JSON Schema (v2)
 
 Every lesson file `content/lessons/lesson-NN.json` MUST be valid JSON matching this structure:
 
@@ -72,11 +72,11 @@ Every lesson file `content/lessons/lesson-NN.json` MUST be valid JSON matching t
 ```
 
 ## Hard requirements
-- `vocabulary`: 16–22 items, each with ko/romanization/bn/en/pos/example (example has ko/bn/en).
-- `grammar`: 2–4 patterns with Bengali explanations and 2+ examples each.
-- `dialogues`: 2 dialogues, 4–8 lines each.
-- `practice`: EXACTLY 10 items. Mix: ≥4 multiple-choice, ≥3 fill-blank, ≥2 matching.
-- `epsQuestions`: EXACTLY 8 items. Mix: 5 reading + 3 listening-style. All options in Korean where natural; instructions in Bengali.
+- `vocabulary`: 30–35 items, each with ko/romanization/bn/en/pos/example (example has ko/bn/en).
+- `grammar`: 4–5 patterns with Bengali explanations and 2+ examples each.
+- `dialogues`: 3 dialogues, 4–8 lines each.
+- `practice`: EXACTLY 20 items. Mix: ≥4 multiple-choice, ≥3 fill-blank, ≥2 matching.
+- `epsQuestions`: EXACTLY 16 items. Mix: 10 reading + 6 listening-style. All options in Korean where natural; instructions in Bengali.
 - `answer` index MUST point to the correct option. Content MUST be original (no copying textbook text verbatim).
 - All Bengali text natural and correct; Korean text uses standard hangul with correct spacing.
 

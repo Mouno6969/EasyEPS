@@ -114,7 +114,7 @@ function PracticeRunner({
   const [matching, setMatching] = useState<Record<string, Record<number, string>>>({});
   const [submitted, setSubmitted] = useState(false);
   const [startedAt] = useState(Date.now());
-  const [remaining, setRemaining] = useState(kind === "exam" ? 15 * 60 : 0);
+  const [remaining, setRemaining] = useState(kind === "exam" ? 25 * 60 : 0);
 
   const score = useMemo(() => questions.reduce((sum, question) => {
     if (kind === "practice" && (question as PracticeQuestion).type === "matching") {

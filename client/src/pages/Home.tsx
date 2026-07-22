@@ -167,11 +167,11 @@ export default function Home() {
           <p className="mt-1 text-sm font-semibold text-[var(--navy)]/50">সুনির্বাচিত অধ্যায়</p>
         </div>
         <div className="p-7 text-center">
-          <p className="font-serif text-4xl font-bold text-[var(--navy)]">1,000+</p>
-          <p className="mt-1 text-sm font-semibold text-[var(--navy)]/50">কোরিয়ান শব্দ ও বাক্য</p>
+          <p className="font-serif text-4xl font-bold text-[var(--navy)]">1,900+</p>
+          <p className="mt-1 text-sm font-semibold text-[var(--navy)]/50">কোরিয়ান শব্দ ও বাক্যাংশ</p>
         </div>
         <div className="p-7 text-center">
-          <p className="font-serif text-4xl font-bold text-[var(--navy)]">480</p>
+          <p className="font-serif text-4xl font-bold text-[var(--navy)]">960</p>
           <p className="mt-1 text-sm font-semibold text-[var(--navy)]/50">EPS-ধাঁচের প্রশ্ন</p>
         </div>
       </div>
