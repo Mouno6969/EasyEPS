@@ -1,5 +1,55 @@
 {
   "version": "7",
   "dialect": "mysql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1784294497324,
+      "tag": "0000_futuristic_pandemic",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1784294749993,
+      "tag": "0001_majestic_daimon_hellstrom",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1784310000000,
+      "tag": "0002_unique_learning_indexes",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1784320000000,
+      "tag": "0003_user_profiles",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1784330000000,
+      "tag": "0004_profile_avatar",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1784340000000,
+      "tag": "0005_certificate_recipient_snapshot",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1784350000000,
+      "tag": "0006_basics_progress",
+      "breakpoints": true
+    }
+  ]
 }

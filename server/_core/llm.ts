@@ -212,14 +212,31 @@ const normalizeToolChoice = (
   return toolChoice;
 };
 
-const resolveApiUrl = () =>
-  ENV.forgeApiUrl && ENV.forgeApiUrl.trim().length > 0
-    ? `${ENV.forgeApiUrl.replace(/\/$/, "")}/v1/chat/completions`
-    : "https://forge.manus.im/v1/chat/completions";
+/**
+ * Resolve OpenAI-compatible chat completions URL.
+ * Priority: SpaceXAI (xAI) when XAI_API_KEY is set → legacy Forge → SpaceXAI default host.
+ */
+const resolveApiUrl = () => {
+  if (ENV.xaiApiKey) {
+    return `${ENV.xaiBaseUrl}/chat/completions`;
+  }
+  if (ENV.forgeApiUrl && ENV.forgeApiKey) {
+    return `${ENV.forgeApiUrl.replace(/\/$/, "")}/v1/chat/completions`;
+  }
+  // Default to SpaceXAI so missing config still points at the right product
+  return `${ENV.xaiBaseUrl}/chat/completions`;
+};
+
+/** API key: prefer XAI_API_KEY (SpaceXAI), fall back to Forge/OpenAI legacy. */
+const resolveApiKey = () => ENV.xaiApiKey || ENV.forgeApiKey;
+
+const resolveDefaultModel = () => ENV.xaiModel || "grok-4.5";
 
 const assertApiKey = () => {
-  if (!ENV.forgeApiKey) {
-    throw new Error("OPENAI_API_KEY is not configured");
+  if (!resolveApiKey()) {
+    throw new Error(
+      "LLM API key is not configured. Set XAI_API_KEY for SpaceXAI (https://console.x.ai).",
+    );
   }
 };
 
@@ -359,12 +376,9 @@ export async function invokeLLM(params: InvokeParams): Promise<InvokeResult> {
   } = params;
 
   const payload: Record<string, unknown> = {
+    model: model || resolveDefaultModel(),
     messages: messages.map(normalizeMessage),
   };
-
-  if (model) {
-    payload.model = model;
-  }
 
   if (tools && tools.length > 0) {
     payload.tools = tools;
@@ -405,7 +419,7 @@ export async function invokeLLM(params: InvokeParams): Promise<InvokeResult> {
     method: "POST",
     headers: {
       "content-type": "application/json",
-      authorization: `Bearer ${ENV.forgeApiKey}`,
+      authorization: `Bearer ${resolveApiKey()}`,
     },
     body: JSON.stringify(payload),
   });
@@ -435,12 +449,14 @@ export type ModelsResponse = {
 export async function listLLMModels(): Promise<ModelsResponse> {
   assertApiKey();
 
-  const url = ENV.forgeApiUrl && ENV.forgeApiUrl.trim().length > 0
-    ? `${ENV.forgeApiUrl.replace(/\/$/, "")}/v1/models`
-    : "https://forge.manus.im/v1/models";
+  const url = ENV.xaiApiKey
+    ? `${ENV.xaiBaseUrl}/models`
+    : ENV.forgeApiUrl && ENV.forgeApiKey
+      ? `${ENV.forgeApiUrl.replace(/\/$/, "")}/v1/models`
+      : `${ENV.xaiBaseUrl}/models`;
 
   const response = await fetchWithBackoff(url, {
-    headers: { authorization: `Bearer ${ENV.forgeApiKey}` },
+    headers: { authorization: `Bearer ${resolveApiKey()}` },
   });
 
   if (!response.ok) {

@@ -179,7 +179,7 @@ export default function BasicsHubPage() {
               />
               <video
                 className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-700 data-[ready=true]:opacity-50"
-                src="/basics/hub-hero.mp4"
+                src="/manus-storage/hub-hero_5743ccfc.mp4"
                 muted
                 playsInline
                 loop

@@ -57,3 +57,9 @@
 - [ ] Production host + MySQL + OAuth secrets (ops)
 - [ ] Workplace scenario content packs (content authoring)
 - [ ] Full admin visual lesson editor
+
+## Zod validation error handling (raw JSON dump fix, this session)
+- [x] Add tRPC errorFormatter that flattens Zod field errors into a human-readable message (no raw JSON dumps)
+- [x] Parse tRPC Zod validation errors in ProfilePage onError and set per-field errors via react-hook-form setError
+- [x] Replace generic toast.error(error.message) on profile mutations with a concise "Please fix the highlighted fields" summary toast for validation errors
+- [x] Surface field-level errors from the client-side safeParse guard in onSubmit through the same setError path

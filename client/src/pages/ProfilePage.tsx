@@ -10,6 +10,12 @@ import { saveLocalAvatar, saveLocalProfile, useLocalProfile } from "@/lib/localP
 import { learningOverview, useLocalLearning } from "@/lib/localProgress";
 import { trpc } from "@/lib/trpc";
 import {
+  fieldErrorsFromTrpcError,
+  fieldErrorsFromZodError,
+  isProfileField,
+  type FieldErrorMap,
+} from "@/lib/validationErrors";
+import {
   emptyProfile,
   learningLevelLabels,
   learningLevels,
@@ -331,6 +337,27 @@ function ProfileSetupForm({
     setAvatarUrl(String(defaults.avatarUrl ?? ""));
   }, [defaults.avatarUrl]);
 
+  /** Concise trilingual summary shown instead of raw validation payloads. */
+  const fixFieldsMessage =
+    locale === "en"
+      ? "Please fix the highlighted fields"
+      : locale === "ko"
+        ? "표시된 항목을 수정해 주세요"
+        : "চিহ্নিত ঘরগুলো ঠিক করুন";
+
+  /** Funnel any field-error map into react-hook-form so each field highlights with its own message. */
+  const applyFieldErrors = (fieldErrors: FieldErrorMap) => {
+    let applied = false;
+    let focused = false;
+    for (const [field, message] of Object.entries(fieldErrors)) {
+      if (!isProfileField(field) || field === "avatarUrl") continue;
+      form.setError(field, { type: "server", message }, { shouldFocus: !focused });
+      focused = true;
+      applied = true;
+    }
+    return applied;
+  };
+
   const updateRemote = trpc.profile.update.useMutation({
     onSuccess: async data => {
       await utils.profile.get.invalidate();
@@ -350,7 +377,15 @@ function ProfileSetupForm({
       });
       toast.success(locale === "en" ? "Profile saved" : locale === "ko" ? "프로필이 저장되었습니다" : "প্রোফাইল সংরক্ষিত হয়েছে");
     },
-    onError: error => toast.error(error.message),
+    onError: error => {
+      // Zod validation error from the server → per-field highlights + concise toast
+      const fieldErrors = fieldErrorsFromTrpcError(error);
+      if (fieldErrors && applyFieldErrors(fieldErrors)) {
+        toast.error(fixFieldsMessage);
+        return;
+      }
+      toast.error(error.message);
+    },
   });
 
   const form = useForm<FormValues>({
@@ -374,40 +409,40 @@ function ProfileSetupForm({
   const bioValue = watch("bio") ?? "";
   const fullNameValue = watch("fullName") ?? "";
 
-  const onSubmit = handleSubmit(async values => {
-    // Server + client both enforce the same schema
-    const parsed = profileSetupSchema.safeParse({ ...values, avatarUrl });
-    if (!parsed.success) {
-      toast.error(
-        locale === "en"
-          ? "Please fix the highlighted fields"
-          : locale === "ko"
-            ? "표시된 항목을 수정해 주세요"
-            : "চিহ্নিত ঘরগুলো ঠিক করুন",
-      );
-      return;
-    }
+  const onSubmit = handleSubmit(
+    async values => {
+      // Server + client both enforce the same schema
+      const parsed = profileSetupSchema.safeParse({ ...values, avatarUrl });
+      if (!parsed.success) {
+        // Same setError funnel as the server path so invalid fields highlight consistently
+        applyFieldErrors(fieldErrorsFromZodError(parsed.error));
+        toast.error(fixFieldsMessage);
+        return;
+      }
 
-    if (isAuthenticated) {
-      await updateRemote.mutateAsync(parsed.data);
-      return;
-    }
+      if (isAuthenticated) {
+        await updateRemote.mutateAsync(parsed.data);
+        return;
+      }
 
-    try {
-      const saved = saveLocalProfile(parsed.data);
-      onSaved(parsed.data);
-      toast.success(
-        locale === "en"
-          ? "Profile saved on this device"
-          : locale === "ko"
-            ? "이 기기에 프로필이 저장되었습니다"
-            : "এই ডিভাইসে প্রোফাইল সংরক্ষিত হয়েছে",
-      );
-      void saved;
-    } catch {
-      toast.error(locale === "en" ? "Invalid profile data" : "অবৈধ প্রোফাইল তথ্য");
-    }
-  });
+      try {
+        const saved = saveLocalProfile(parsed.data);
+        onSaved(parsed.data);
+        toast.success(
+          locale === "en"
+            ? "Profile saved on this device"
+            : locale === "ko"
+              ? "이 기기에 프로필이 저장되었습니다"
+              : "এই ডিভাইসে প্রোফাইল সংরক্ষিত হয়েছে",
+        );
+        void saved;
+      } catch {
+        toast.error(locale === "en" ? "Invalid profile data" : "অবৈধ প্রোফাইল তথ্য");
+      }
+    },
+    // zodResolver already set per-field errors; surface the concise summary toast
+    () => toast.error(fixFieldsMessage),
+  );
 
   const selectClass =
     "mt-2 h-11 w-full rounded-xl border border-[var(--navy)]/15 bg-white px-3 text-sm font-semibold text-[var(--navy)] outline-none focus:border-[var(--gold)]";
