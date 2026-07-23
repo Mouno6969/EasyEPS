@@ -1,25 +1,64 @@
+import { GuidedListening } from "@/components/GuidedListening";
 import { Button } from "@/components/ui/button";
-import { addLocalAttempt } from "@/lib/localProgress";
+import { addLocalAttempt, useLocalLearning } from "@/lib/localProgress";
 import { speakKorean } from "@/lib/speakKorean";
-import { recordWeakAttempt } from "@/lib/srs";
+import { listDueReviews, listRecentWeak, recordWeakAttempt } from "@/lib/srs";
+import { deriveSmartMockFocus } from "@/lib/smartMock";
 import { getWeeklyChallenge, recordWeeklyChallengeScore } from "@/lib/weeklyChallenge";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
-import { Check, ChevronLeft, ChevronRight, Clock3, GraduationCap, Headphones, Loader2, RotateCcw, ShieldCheck, Volume2, X } from "lucide-react";
+import { BrainCircuit, Check, ChevronLeft, ChevronRight, Clock3, GraduationCap, Headphones, Loader2, RotateCcw, ShieldCheck, Volume2, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "wouter";
 
 export default function MockTestPage() {
   const { isAuthenticated } = useAuth();
+  const learning = useLocalLearning();
   const weekly = useMemo(() => getWeeklyChallenge(), []);
-  const [count, setCount] = useState<20 | 40>(weekly.count);
+  const presets = useMemo(() => {
+    const params = typeof window === "undefined" ? new URLSearchParams() : new URLSearchParams(window.location.search);
+    const requestedCount = Number(params.get("count"));
+    const initialCount: 10 | 20 | 40 =
+      requestedCount === 10 || requestedCount === 20 || requestedCount === 40
+        ? requestedCount
+        : weekly.count === 40
+          ? 40
+          : 20;
+    return {
+      count: initialCount,
+      mode: params.get("mode") === "balanced" ? "balanced" as const : "smart" as const,
+    };
+  }, [weekly.count]);
+  const [count, setCount] = useState<10 | 20 | 40>(presets.count);
+  const [mode, setMode] = useState<"balanced" | "smart">(presets.mode);
+  const [focusSection, setFocusSection] = useState<"auto" | "reading" | "listening">("auto");
+  const reviewFocus = useMemo(() => {
+    const seen = new Set<string>();
+    return [...listDueReviews(20), ...listRecentWeak(20)].filter(item => {
+      if (seen.has(item.id)) return false;
+      seen.add(item.id);
+      return true;
+    });
+  }, [learning.attempts.length]);
+  const smartFocus = useMemo(
+    () => deriveSmartMockFocus(learning, reviewFocus, focusSection),
+    [learning, reviewFocus, focusSection],
+  );
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [remaining, setRemaining] = useState(50 * 60);
   const [startedAt, setStartedAt] = useState(0);
-  const query = trpc.curriculum.mockTest.useQuery({ count }, { enabled: started, retry: false, refetchOnWindowFocus: false });
+  const query = trpc.curriculum.mockTest.useQuery(
+    {
+      count,
+      mode,
+      focusChapters: mode === "smart" ? smartFocus.chapters : [],
+      focusSection: mode === "smart" ? focusSection : "auto",
+    },
+    { enabled: started, retry: false, refetchOnWindowFocus: false },
+  );
   const recordRemote = trpc.attempts.record.useMutation();
   const questions = query.data ?? [];
   const current = questions[index];
@@ -65,7 +104,7 @@ export default function MockTestPage() {
 
   const begin = () => {
     setStarted(true); setFinished(false); setIndex(0); setAnswers({}); setStartedAt(Date.now());
-    setRemaining(count === 40 ? 50 * 60 : 25 * 60);
+    setRemaining(count === 40 ? 50 * 60 : count === 20 ? 25 * 60 : 12 * 60);
   };
   const reset = () => { setStarted(false); setFinished(false); setAnswers({}); setIndex(0); };
 
@@ -78,7 +117,28 @@ export default function MockTestPage() {
           ? ` · আপনার সেরা: ${weekly.bestScore}/${weekly.bestTotal}`
           : " · এখনও অংশ নেননি"}
         {" · "}{weekly.attempts} বার চেষ্টা
-      </div><div className="mt-7 grid gap-4 sm:grid-cols-2">{([20, 40] as const).map(value => <button key={value} onClick={() => setCount(value)} className={`rounded-3xl border p-6 text-left transition ${count === value ? "border-[var(--gold)] bg-[var(--gold)]/10 shadow-md" : "border-[var(--navy)]/10 bg-white"}`}><div className="flex items-center justify-between"><span className="font-serif text-3xl font-bold text-[var(--navy)]">{value}</span>{count === value && <span className="grid size-7 place-items-center rounded-full bg-[var(--navy)] text-white"><Check className="size-4" /></span>}</div><p className="mt-2 font-bold text-[var(--navy)]">{value === 20 ? "দ্রুত অনুশীলন" : "পূর্ণাঙ্গ পরীক্ষা"}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/50">{value === 20 ? "২৫ মিনিট · ১২ reading + ৮ listening" : "৫০ মিনিট · ২৪ reading + ১৬ listening"}</p></button>)}</div><div className="mt-7 rounded-2xl bg-[var(--cream)] p-5"><h3 className="flex items-center gap-2 font-bold text-[var(--navy)]"><ShieldCheck className="size-5 text-[var(--sage-dark)]" />শুরু করার আগে</h3><div className="mt-3 grid gap-2 text-sm leading-6 text-[var(--navy)]/58"><p>• Listening প্রশ্নে script দেখতে নয়—headphone বোতাম চাপুন এবং মনোযোগ দিয়ে শুনুন।</p><p>• উত্তর না জানা থাকলে question palette থেকে পরে ফিরে আসুন।</p><p>• জমা দেওয়ার পর সঠিক উত্তর ও বাংলা ব্যাখ্যা দেখানো হবে।</p></div></div><Button onClick={begin} className="mt-8 h-13 w-full rounded-full bg-[var(--navy)] text-base text-white">পরীক্ষা শুরু করুন <ChevronRight className="size-4" /></Button></div></div>
+      </div>
+      <div className="mt-7 grid gap-3 sm:grid-cols-2">
+        <button type="button" onClick={() => setMode("smart")} className={`rounded-2xl border p-4 text-left transition ${mode === "smart" ? "border-[var(--gold)] bg-[var(--gold)]/10" : "border-[var(--navy)]/10 bg-white"}`}>
+          <span className="flex items-center gap-2 font-bold text-[var(--navy)]"><BrainCircuit className="size-5 text-[var(--gold-dark)]" />স্মার্ট পরীক্ষা</span>
+          <span className="mt-2 block text-xs leading-5 text-[var(--navy)]/52">দুর্বল অধ্যায় ও নির্ধারিত রিভিউ থেকে বেশি প্রশ্ন</span>
+        </button>
+        <button type="button" onClick={() => setMode("balanced")} className={`rounded-2xl border p-4 text-left transition ${mode === "balanced" ? "border-[var(--gold)] bg-[var(--gold)]/10" : "border-[var(--navy)]/10 bg-white"}`}>
+          <span className="font-bold text-[var(--navy)]">ভারসাম্যপূর্ণ পরীক্ষা</span>
+          <span className="mt-2 block text-xs leading-5 text-[var(--navy)]/52">সম্পূর্ণ পাঠ্যক্রম জুড়ে standard EPS অনুপাত</span>
+        </button>
+      </div>
+      {mode === "smart" && (
+        <div className="mt-4 rounded-2xl bg-[var(--cream)] p-4">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div><p className="text-sm font-bold text-[var(--navy)]">ফোকাস: {smartFocus.chapters.length ? smartFocus.chapters.map(chapter => `অধ্যায় ${chapter}`).join(", ") : "নতুন balanced baseline"}</p><p className="mt-1 text-xs text-[var(--navy)]/48">{smartFocus.reasons.join(" · ")}</p></div>
+            <div className="inline-flex rounded-full border border-[var(--navy)]/10 bg-white p-1 text-xs font-bold">
+              {(["auto", "reading", "listening"] as const).map(section => <button key={section} type="button" onClick={() => setFocusSection(section)} className={`rounded-full px-3 py-1.5 ${focusSection === section ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/50"}`}>{section === "auto" ? "Auto" : section === "reading" ? "Reading" : "Listening"}</button>)}
+            </div>
+          </div>
+        </div>
+      )}
+      <div className="mt-7 grid gap-4 sm:grid-cols-3">{([10, 20, 40] as const).map(value => <button key={value} onClick={() => setCount(value)} className={`rounded-3xl border p-6 text-left transition ${count === value ? "border-[var(--gold)] bg-[var(--gold)]/10 shadow-md" : "border-[var(--navy)]/10 bg-white"}`}><div className="flex items-center justify-between"><span className="font-serif text-3xl font-bold text-[var(--navy)]">{value}</span>{count === value && <span className="grid size-7 place-items-center rounded-full bg-[var(--navy)] text-white"><Check className="size-4" /></span>}</div><p className="mt-2 font-bold text-[var(--navy)]">{value === 10 ? "মাইক্রো টেস্ট" : value === 20 ? "দ্রুত অনুশীলন" : "পূর্ণাঙ্গ পরীক্ষা"}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/50">{value === 10 ? "১২ মিনিট · ৬ reading + ৪ listening" : value === 20 ? "২৫ মিনিট · ১২ reading + ৮ listening" : "৫০ মিনিট · ২৪ reading + ১৬ listening"}</p></button>)}</div><div className="mt-7 rounded-2xl bg-[var(--cream)] p-5"><h3 className="flex items-center gap-2 font-bold text-[var(--navy)]"><ShieldCheck className="size-5 text-[var(--sage-dark)]" />শুরু করার আগে</h3><div className="mt-3 grid gap-2 text-sm leading-6 text-[var(--navy)]/58"><p>• Listening প্রশ্নে script দেখতে নয়—headphone বোতাম চাপুন এবং মনোযোগ দিয়ে শুনুন।</p><p>• উত্তর না জানা থাকলে question palette থেকে পরে ফিরে আসুন।</p><p>• জমা দেওয়ার পর সঠিক উত্তর ও বাংলা ব্যাখ্যা দেখানো হবে।</p></div></div><Button onClick={begin} className="mt-8 h-13 w-full rounded-full bg-[var(--navy)] text-base text-white">পরীক্ষা শুরু করুন <ChevronRight className="size-4" /></Button></div></div>
   </>;
 
   if (query.isLoading || !current) return <div className="container py-32 text-center"><Loader2 className="mx-auto size-8 animate-spin text-[var(--gold-dark)]" /><p className="mt-4 font-semibold text-[var(--navy)]/55">প্রশ্নপত্র তৈরি হচ্ছে…</p></div>;
@@ -102,10 +162,7 @@ export default function MockTestPage() {
 
   return <div className="container py-7"><div className="mb-5 flex flex-wrap items-center justify-between gap-4 rounded-2xl bg-[var(--navy)] px-5 py-4 text-white"><div><p className="text-xs font-bold uppercase tracking-wider text-[var(--gold)]">EasyEPS Mock Test</p><p className="mt-1 text-sm text-white/55">প্রশ্ন {index + 1}/{questions.length} · উত্তর {Object.keys(answers).length}</p></div><div className={`inline-flex items-center gap-2 rounded-full px-4 py-2 font-mono font-bold ${remaining < 300 ? "bg-red-600" : "bg-white/10"}`}><Clock3 className="size-4 text-[var(--gold)]" />{String(Math.floor(remaining / 60)).padStart(2, "0")}:{String(remaining % 60).padStart(2, "0")}</div></div><div className="grid gap-6 lg:grid-cols-[1fr_260px]"><section className="paper-card overflow-hidden"><div className="border-b border-[var(--navy)]/8 p-6 md:p-8"><div className="flex items-center justify-between gap-4"><span className="rounded-full bg-[var(--gold)]/14 px-3 py-1 text-xs font-bold text-[var(--gold-dark)]">{current.section === "reading" ? "읽기 · READING" : "듣기 · LISTENING"}</span><span className="text-xs font-semibold text-[var(--navy)]/40">অধ্যায় {current.chapter}</span></div><h1 className="mt-6 text-lg font-bold leading-8 text-[var(--navy)]">{current.questionBn}</h1><p className="mt-2 text-xl font-semibold leading-8 text-[var(--navy)]">{current.questionKo}</p>{current.section === "listening" ? (
                 <div className="mt-6 space-y-2">
-                  <button type="button" onClick={() => void speakKorean(current.passage, { rate: 0.82 })} className="flex w-full items-center justify-center gap-3 rounded-2xl bg-[var(--navy)] p-5 font-bold text-white hover:bg-[var(--navy)]/90">
-                    <span className="grid size-10 place-items-center rounded-full bg-[var(--gold)] text-[var(--navy)]"><Volume2 className="size-5" /></span>
-                    Audio শুনতে চাপুন
-                  </button>
+                  <GuidedListening text={current.passage} label="Audio শুনতে চাপুন" />
                   <p className="text-center text-xs font-semibold text-[var(--navy)]/45">Listening script পরীক্ষা চলাকালীন লুকানো—জমা দেওয়ার পর দেখা যাবে।</p>
                 </div>
               ) : (

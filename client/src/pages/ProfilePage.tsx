@@ -887,7 +887,7 @@ export default function ProfilePage() {
   const { user, isAuthenticated } = useAuth();
   const local = useLocalProfile();
   const search = useSearch();
-  const [location] = useLocation();
+  const [location, setLocation] = useLocation();
   const wantSetup =
     location.startsWith("/profile/setup") || search.includes("setup=1") || search.includes("edit=1");
 
@@ -941,11 +941,11 @@ export default function ProfilePage() {
   }, [isAuthenticated, remote.data, local]);
 
   const needsSetup = !profileView.isComplete;
-  const [editing, setEditing] = useState(wantSetup || needsSetup);
+  const [editing, setEditing] = useState(wantSetup);
 
   useEffect(() => {
-    if (wantSetup || needsSetup) setEditing(true);
-  }, [wantSetup, needsSetup]);
+    if (wantSetup) setEditing(true);
+  }, [wantSetup]);
 
   // Once remote loads and is complete, leave edit mode unless user asked for setup
   useEffect(() => {
@@ -990,7 +990,7 @@ export default function ProfilePage() {
           ) : needsSetup ? (
             <span className="inline-flex items-center gap-2 rounded-full bg-[var(--gold)]/15 px-4 py-2 text-sm font-bold text-[var(--gold-dark)]">
               <UserPlus className="size-4" />
-              {locale === "en" ? "Setup required" : "সেটআপ আবশ্যক"}
+              {locale === "en" ? "Setup can be completed later" : "সেটআপ পরে করা যাবে"}
             </span>
           ) : undefined
         }
@@ -1001,8 +1001,14 @@ export default function ProfilePage() {
           <ProfileSetupForm
             defaults={mergedDefaults}
             isAuthenticated={isAuthenticated}
-            onCancel={profileView.isComplete ? () => setEditing(false) : undefined}
-            onSaved={() => setEditing(false)}
+            onCancel={() => {
+              setEditing(false);
+              if (wantSetup) setLocation("/profile");
+            }}
+            onSaved={() => {
+              setEditing(false);
+              if (wantSetup) setLocation("/profile");
+            }}
           />
         </div>
       ) : (

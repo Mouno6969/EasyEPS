@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { startLogin } from "@/const";
 import { useLocale } from "@/contexts/LocaleContext";
+import { buildDailyPlan } from "@/lib/dailyPlan";
 import {
   addPlannerItem,
   learningOverview,
@@ -15,7 +16,12 @@ import {
 } from "@/lib/localProgress";
 import { useLocalProfile } from "@/lib/localProfile";
 import { ShareProgressCard } from "@/components/ShareProgressCard";
-import { hrefForReview, listDueReviews, listRecentWeak, markReviewed } from "@/lib/srs";
+import { MicroSessionPanel } from "@/components/MicroSessionPanel";
+import { OfflineLessonManager } from "@/components/OfflineLessonManager";
+import { ReadinessCard } from "@/components/ReadinessCard";
+import { DeferredProfilePrompt } from "@/components/DeferredProfilePrompt";
+import { hrefForReview, listDueReviews, listRecentWeak, listUpcomingReviews } from "@/lib/srs";
+import { buildReadinessReport } from "@/lib/readiness";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { isBasicsComplete } from "@shared/basics";
@@ -110,6 +116,12 @@ export function CurriculumPage() {
           <div className="flex flex-wrap gap-2"><button onClick={() => setCategory("all")} className={`filter-pill ${category === "all" ? "filter-pill-active" : ""}`}>সব</button>{Object.entries(categories).map(([key, value]) => <button key={key} onClick={() => setCategory(key as CategoryKey)} className={`filter-pill ${category === key ? "filter-pill-active" : ""}`}>{value.bn}</button>)}</div>
         </div>
       </div>
+      {!isLoading && !error && lessons.length > 0 && (
+        <OfflineLessonManager
+          chapters={lessons.map(lesson => lesson.chapter)}
+          suggestedStartChapter={lessons.find(lesson => !state.progress[lesson.chapter]?.completed)?.chapter ?? 1}
+        />
+      )}
       {isLoading ? <LoadingPanel /> : error ? <div className="paper-card mt-8 p-8 text-center text-red-700">পাঠ্যক্রম লোড করা যায়নি: {error.message}</div> : <>
         <div className="mb-5 mt-9 flex items-center justify-between"><p className="font-semibold text-[var(--navy)]">{filtered.length}টি অধ্যায়</p><p className="text-sm text-[var(--navy)]/55">সম্পন্ন: {Object.values(state.progress).filter(item => item.completed).length}/60</p></div>
         <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
@@ -164,15 +176,14 @@ export function DashboardPage() {
   }, [due, weak]);
   const nextHref = hangulReady ? `/lesson/${nextChapter}` : "/basics";
   const nextLabel = hangulReady ? "পরবর্তী অধ্যায়" : t.startBasics;
-  const nextDetail = hangulReady
-    ? `অধ্যায় ${nextChapter}: শব্দভাণ্ডার, সংলাপ ও অনুশীলন—আজকের ২০ মিনিট।`
-    : "হ্যাঙ্গুল বেসিক শেষ করুন, তারপর অধ্যায় ১ শুরু হবে।";
+  const dailyPlan = buildDailyPlan({ state, dueReviews: due, hangulReady, nextChapter });
+  const readiness = buildReadinessReport(state, listUpcomingReviews(120));
 
   return <>
     <PageIntro eyebrow="আপনার শেখার যাত্রা" title="অগ্রগতি এক নজরে" description="ছোট ছোট নিয়মিত পদক্ষেপই আপনাকে EPS-TOPIK লক্ষ্যের কাছে নিয়ে যাবে।" actions={<div className="flex flex-wrap gap-2"><ShareProgressCard /><Link href={nextHref}><Button className="rounded-full bg-[var(--navy)] px-6 text-white">{nextLabel} <ChevronRight className="size-4" /></Button></Link></div>} />
     <div className="container py-10">
       {!hangulReady && <BasicsCtaBanner className="mb-7" />}
-      {!profileComplete && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--navy)]/15 bg-white p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>প্রোফাইল সেটআপ বাকি:</strong> সঠিক নাম, ইমেইল ও শেখার স্তর দিয়ে প্রোফাইল সম্পূর্ণ করুন—সার্টিফিকেটে আপনার নাম দেখাবে।</span><Link href="/profile/setup"><Button className="rounded-full bg-[var(--navy)] text-white">প্রোফাইল সেটআপ <UserRound className="size-4" /></Button></Link></div>}
+      <DeferredProfilePrompt complete={profileComplete} />
       {!isAuthenticated && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--gold)]/35 bg-[var(--gold)]/10 p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>অতিথি মোড:</strong> অগ্রগতি এই ডিভাইসে সংরক্ষিত। সাইন ইন করলে একাধিক ডিভাইসে সিঙ্ক হবে।</span><Button onClick={() => startLogin()} variant="outline" className="rounded-full border-[var(--navy)]/20">সাইন ইন</Button></div>}
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         {[{ label: "সম্পন্ন অধ্যায়", value: `${metrics.completedLessons}/60`, icon: BookCheck, tone: "sage" }, { label: "গড় স্কোর", value: `${metrics.averageScore}%`, icon: TrendingUp, tone: "gold" }, { label: "বর্তমান স্ট্রিক", value: `${metrics.streak} দিন`, icon: Flame, tone: "clay" }, { label: "মোট অধ্যয়ন", value: `${metrics.studyMinutes} মিনিট`, icon: Clock3, tone: "navy" }].map(({ label, value, icon: Icon, tone }) => <div key={label} className="metric-card"><span className={`metric-icon metric-${tone}`}><Icon className="size-5" /></span><p className="mt-5 text-sm font-semibold text-[var(--navy)]/55">{label}</p><p className="mt-1 font-serif text-3xl font-bold text-[var(--navy)]">{value}</p></div>)}
@@ -221,31 +232,46 @@ export function DashboardPage() {
         )}
       </section>
 
+      <MicroSessionPanel nextChapter={nextChapter} hangulReady={hangulReady} dueReviews={due} />
+
       <div className="mt-7 grid gap-7 lg:grid-cols-[1.25fr_.75fr]">
         <section className="paper-card p-6"><div className="flex items-center justify-between"><div><p className="eyebrow">গত ৭ দিন</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">অধ্যয়নের ধারাবাহিকতা</h2></div><BarChart3 className="size-6 text-[var(--gold-dark)]" /></div><div className="mt-8 flex h-56 items-end gap-3">{studyDays.map(day => <div key={day.key} className="flex h-full flex-1 flex-col items-center justify-end gap-2"><span className="text-xs font-bold text-[var(--navy)]/45">{day.minutes || ""}</span><div className="w-full max-w-14 rounded-t-xl bg-[var(--sage)] transition-all" style={{ height: `${Math.max(5, day.minutes / maxMinutes * 100)}%` }} /><span className="text-xs font-semibold text-[var(--navy)]/55">{day.label}</span></div>)}</div></section>
-        <section className="paper-card p-6"><p className="eyebrow">এখনই করুন</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">আজকের এক ধাপ</h2><div className="mt-6 rounded-2xl bg-[var(--navy)] p-5 text-white"><span className="text-xs font-bold uppercase tracking-wider text-[var(--gold)]">{hangulReady ? `অধ্যায় ${nextChapter}` : "হ্যাঙ্গুল বেসিক"}</span><p className="mt-2 text-lg font-bold">{hangulReady ? "২০ মিনিট নতুন পাঠ" : "বেসিক সম্পূর্ণ করুন"}</p><p className="mt-2 text-sm leading-6 text-white/65">{nextDetail}</p><Link href={nextHref} className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-[var(--gold)]">{nextLabel} <ChevronRight className="size-4" /></Link></div>
-          {(due.length > 0 || weak.length > 0) && (
-            <div className="mt-5">
-              <p className="text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">দুর্বল জায়গা · রিভিউ</p>
-              <ul className="mt-3 space-y-2">
-                {(due.length ? due : weak).slice(0, 5).map(item => (
-                  <li key={item.id}>
-                    <Link href={hrefForReview(item)} className="flex items-center justify-between gap-2 rounded-xl border border-[var(--navy)]/10 bg-[var(--cream)] px-3 py-2.5 text-sm font-semibold text-[var(--navy)] hover:border-[var(--gold)]/40">
-                      <span className="truncate">{item.labelBn}</span>
-                      <span className="shrink-0 text-xs text-[var(--navy)]/45">{item.misses}× · {item.dueDate}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              {due[0] ? (
-                <button type="button" onClick={() => markReviewed(due[0]!.id)} className="mt-3 text-xs font-bold text-[var(--navy)]/50 underline">
-                  প্রথম আইটেম রিভিউ করা হয়েছে
-                </button>
-              ) : null}
-            </div>
-          )}
+        <section className="paper-card p-6">
+          <div className="flex items-start justify-between gap-4">
+            <div><p className="eyebrow">আজকের পরিকল্পনা</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">দিনের লক্ষ্য</h2></div>
+            <span className={`rounded-full px-3 py-1.5 text-xs font-bold ${dailyPlan.goalMet ? "bg-emerald-100 text-emerald-800" : "bg-[var(--gold)]/15 text-[var(--gold-dark)]"}`}>
+              {dailyPlan.studiedMinutes}/{dailyPlan.goalMinutes} মিনিট
+            </span>
+          </div>
+          <div className="mt-5 h-2 overflow-hidden rounded-full bg-[var(--navy)]/8">
+            <div className="h-full rounded-full bg-[var(--sage)] transition-all" style={{ width: `${dailyPlan.progressPercent}%` }} />
+          </div>
+          <p className="mt-3 text-xs font-semibold leading-5 text-[var(--navy)]/50">
+            {dailyPlan.goalMet
+              ? `আজকের লক্ষ্য পূর্ণ—${metrics.streak} দিনের ধারাবাহিকতা ধরে রেখেছেন।`
+              : dailyPlan.studiedMinutes > 0
+                ? `আর ${dailyPlan.remainingMinutes} মিনিট পড়লে আজকের লক্ষ্য পূর্ণ হবে।`
+                : metrics.streak > 0
+                  ? `আজ ${dailyPlan.goalMinutes} মিনিট পড়ে ${metrics.streak} দিনের স্ট্রিক চালু রাখুন।`
+                  : "আজ ছোট একটি সেশন দিয়ে নতুন স্ট্রিক শুরু করুন।"}
+          </p>
+          <div className="mt-5 space-y-2">
+            {dailyPlan.tasks.slice(0, 4).map(task => (
+              <Link key={task.id} href={task.href} className={`flex items-center gap-3 rounded-2xl border px-4 py-3 transition ${task.done ? "border-emerald-200 bg-emerald-50" : "border-[var(--navy)]/10 bg-[var(--cream)] hover:border-[var(--gold)]/40"}`}>
+                <span className={`grid size-8 shrink-0 place-items-center rounded-full ${task.done ? "bg-emerald-600 text-white" : "bg-white text-[var(--gold-dark)]"}`}>
+                  {task.done ? <Check className="size-4" /> : <Clock3 className="size-4" />}
+                </span>
+                <span className="min-w-0 flex-1"><span className="block truncate text-sm font-bold text-[var(--navy)]">{task.titleBn}</span><span className="block truncate text-xs text-[var(--navy)]/48">{task.detailBn}</span></span>
+                <span className="shrink-0 text-xs font-bold text-[var(--navy)]/45">{task.minutes} মি.</span>
+                <ChevronRight className="size-4 shrink-0 text-[var(--navy)]/30" />
+              </Link>
+            ))}
+          </div>
+          <Link href="/planner" className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-[var(--gold-dark)]">পুরো পরিকল্পনা সাজান <ChevronRight className="size-3.5" /></Link>
         </section>
       </div>
+      <ReadinessCard report={readiness} />
+
       <section className="paper-card mt-7 overflow-hidden">
         <div className="border-b border-[var(--navy)]/8 p-6">
           <h2 className="font-serif text-2xl font-bold text-[var(--navy)]">সাম্প্রতিক ফলাফল</h2>

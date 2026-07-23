@@ -15,7 +15,8 @@ import {
   looksLikeImage,
   profileSetupSchema,
 } from "@shared/profile";
-import { scoreLessonExam, scoreMockFromLessons, shuffleCopy, type MockQuestionRef } from "@shared/scoring";
+import { scoreLessonExam, scoreMockFromLessons, type MockQuestionRef } from "@shared/scoring";
+import { buildSmartMockQuestions } from "@shared/smartMock";
 import { TRPCError } from "@trpc/server";
 import { nanoid } from "nanoid";
 import { z } from "zod";
@@ -221,7 +222,16 @@ export const appRouter = router({
       return getLessonSummaries().filter(lesson => chapters.includes(lesson.chapter));
     }),
     mockTest: publicProcedure
-      .input(z.object({ count: z.number().int().min(10).max(40).default(40) }).optional())
+      .input(
+        z
+          .object({
+            count: z.number().int().min(10).max(40).default(40),
+            mode: z.enum(["balanced", "smart"]).default("balanced"),
+            focusChapters: z.array(z.number().int().min(1).max(60)).max(20).default([]),
+            focusSection: z.enum(["auto", "reading", "listening"]).default("auto"),
+          })
+          .optional(),
+      )
       .query(({ input }) => {
         const count = input?.count ?? 40;
         const all = getAllLessons().flatMap(lesson =>
@@ -231,14 +241,13 @@ export const appRouter = router({
             lessonTitle: lesson.title,
           })),
         );
-        const reading = shuffleCopy(all.filter(question => question.section === "reading"));
-        const listening = shuffleCopy(all.filter(question => question.section === "listening"));
-        const listeningCount = Math.round(count * 0.4);
-        const selected = [
-          ...reading.slice(0, count - listeningCount),
-          ...listening.slice(0, listeningCount),
-        ];
-        return shuffleCopy(selected).map((question, index) => ({
+        const selected = buildSmartMockQuestions(all, {
+          count,
+          mode: input?.mode ?? "balanced",
+          focusChapters: input?.focusChapters ?? [],
+          focusSection: input?.focusSection ?? "auto",
+        });
+        return selected.map((question, index) => ({
           ...question,
           testId: `mock-${index + 1}-${question.chapter}-${question.id}`,
         }));
