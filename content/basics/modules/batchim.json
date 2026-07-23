@@ -6,13 +6,15 @@
     "ko": "받침 입문",
     "en": "Final Consonants Intro"
   },
-  "estimatedMinutes": 12,
+  "estimatedMinutes": 25,
   "requirements": {
     "requiredStepIds": [
       "b-explain",
+      "b-tense",
+      "b-speak",
       "b-quiz"
     ],
-    "minSpeakItems": 0,
+    "minSpeakItems": 4,
     "minWriteItems": 0,
     "minBuilderItems": 0,
     "passRatio": 0.7
@@ -28,18 +30,115 @@
       },
       "body": {
         "bn": [
-          "ব্যাচিম (받침) = অক্ষরের নীচের চূড়ান্ত ব্যঞ্জন। উদাহরণ: 간।",
-          "v1: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅇ"
+          "কোনো ব্যঞ্জনবর্ণ যখন কোনো স্বরবর্ণের নিচে বসে, তখন তাকে ব্যাচিম (받침) বলে। অন্যভাবে বলা যায়, ফাইনাল পজিশনের ব্যঞ্জনবর্ণকে ব্যাচিম বলে। উদাহরণ: 간, 문, 밥।",
+          "ব্যাচিম প্রধানত দুই প্রকার। ১) একক ব্যাচিম: যেমন 먹다=(মকত্তা) খাওয়া, 닫다=(তাতত্তা) বন্ধ করা — এখানে ㄱ এবং ㄷ হচ্ছে একক ব্যাচিম।",
+          "২) জোড় ব্যাচিম: যেমন 앉다=(আনত্তা) বসা, 많다=(মানথা) বেশি — এখানে ㄵ এবং ㄶ হচ্ছে জোড় ব্যাচিম।",
+          "বিশেষ দ্রষ্টব্য: জোড় ব্যাচিমের ক্ষেত্রে বর্ণমালার ক্রমানুসারে যে বর্ণটি আগে আসে শুধু ঐ বর্ণটি উচ্চারণ করতে হয়।",
+          "লিংকিং নিয়ম: ব্যাচিমের পরে ㅇ দিয়ে শুরু অক্ষর থাকলে ব্যাচিমের ধ্বনি পরের অক্ষরে চলে যায়। যেমন: 한국어=한구거, 음악=으막, 발음=바름, 같이=가치, 월요일=워료일।"
         ],
         "en": [
-          "Batchim is the final consonant. Example: 간.",
-          "v1 subset: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅇ"
+          "A consonant written under the vowel of a syllable block is called batchim (받침) — the final-position consonant. Examples: 간, 문, 밥.",
+          "There are two main kinds. 1) Single batchim: 먹다 (to eat), 닫다 (to close) — here ㄱ and ㄷ are single batchim.",
+          "2) Double batchim: 앉다 (to sit), 많다 (many) — here ㄵ and ㄶ are double batchim.",
+          "Note: for a double batchim, only the letter that comes first in alphabetical order is pronounced.",
+          "Linking rule: when the next syllable starts with ㅇ, the batchim sound moves onto it. E.g., 한국어=한구거, 음악=으막, 발음=바름, 같이=가치."
         ],
         "ko": [
-          "받침은 종성입니다. 예: 간.",
-          "v1: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅇ"
+          "모음 아래에 쓰는 자음을 받침(종성)이라고 합니다. 예: 간, 문, 밥.",
+          "받침은 두 종류입니다. 1) 홑받침: 먹다, 닫다 — ㄱ, ㄷ.",
+          "2) 겹받침: 앉다, 많다 — ㄵ, ㄶ.",
+          "겹받침은 사전 순서에서 앞에 오는 자음만 발음합니다.",
+          "연음 법칙: 받침 뒤에 ㅇ이 오면 받침 소리가 다음 음절로 넘어갑니다. 예: 한국어=한구거, 음악=으막."
         ]
       }
+    },
+    {
+      "id": "b-tense",
+      "type": "explain",
+      "title": {
+        "bn": "ব্যাচিমের পরে কঠিন উচ্চারণ (경음화)",
+        "ko": "받침 뒤 경음화",
+        "en": "Tensification after batchim"
+      },
+      "body": {
+        "bn": [
+          "নিয়ম: ব্যাচিম ㄱ, ㄷ, ㅂ (এবং কিছু ক্ষেত্রে ㄴ, ㅁ)-এর পরে ㄱ, ㄷ, ㅂ, ㅅ, ㅈ থাকলে যথাক্রমে ㄲ, ㄸ, ㅃ, ㅆ, ㅉ পড়তে হয়।",
+          "ㄷ-ব্যাচিমের পরে: 받고=[받꼬] (নেওয়া), 듣다=[듣따] (শোনা), 돋보기=[돋뽀기] (আতশি কাচ), 걷자=[걷짜] (হাঁটি)।",
+          "ㅂ-ব্যাচিমের পরে: 입국=[입꾹] (প্রবেশ), 입다=[입따] (পরিধান করা), 십분=[십뿐] (দশ মিনিট), 입상=[입쌍] (পুরস্কার জেতা), 잡지=[잡찌] (ম্যাগাজিন)।",
+          "ㄴ-ব্যাচিমের পরে (কিছু শব্দে): 신고=[신꼬] (রিপোর্ট), 신다=[신따] (পায়ে পরা), 문법=[문뻡] (গ্রামার), 손수건=[손쑤건] (রুমাল), 한자=[한짜] (চাইনিজ অক্ষর)।",
+          "আরও উদাহরণ: 인구=[인꾸] (জনসংখ্যা), 만두=[만뚜] (মান্দু), 담배=[담빼] (সিগারেট), 감자=[감짜] (আলু)।"
+        ],
+        "en": [
+          "Rule: after batchim ㄱ, ㄷ, ㅂ (and in some words ㄴ, ㅁ), the consonants ㄱ, ㄷ, ㅂ, ㅅ, ㅈ are pronounced tense: ㄲ, ㄸ, ㅃ, ㅆ, ㅉ.",
+          "After ㄷ batchim: 받고=[받꼬] (receiving), 듣다=[듣따] (to listen), 돋보기=[돋뽀기] (magnifier), 걷자=[걷짜] (let's walk).",
+          "After ㅂ batchim: 입국=[입꾹] (entry), 입다=[입따] (to wear), 십분=[십뿐] (ten minutes), 입상=[입쌍] (winning a prize), 잡지=[잡찌] (magazine).",
+          "After ㄴ batchim in some words: 신고=[신꼬] (report), 신다=[신따] (to wear shoes), 문법=[문뻡] (grammar), 손수건=[손쑤건] (handkerchief), 한자=[한짜] (Chinese characters).",
+          "More: 인구=[인꾸], 만두=[만뚜], 담배=[담빼], 감자=[감짜]."
+        ],
+        "ko": [
+          "규칙: 받침 ㄱ, ㄷ, ㅂ 뒤의 ㄱ, ㄷ, ㅂ, ㅅ, ㅈ은 된소리 ㄲ, ㄸ, ㅃ, ㅆ, ㅉ으로 발음합니다.",
+          "ㄷ 받침 뒤: 받고=[받꼬], 듣다=[듣따], 돋보기=[돋뽀기], 걷자=[걷짜].",
+          "ㅂ 받침 뒤: 입국=[입꾹], 입다=[입따], 십분=[십뿐], 입상=[입쌍], 잡지=[잡찌].",
+          "ㄴ 받침 뒤 일부 단어: 신고=[신꼬], 신다=[신따], 문법=[문뻡], 손수건=[손쑤건], 한자=[한짜].",
+          "더 보기: 인구=[인꾸], 만두=[만뚜], 담배=[담빼], 감자=[감짜]."
+        ]
+      }
+    },
+    {
+      "id": "b-speak",
+      "type": "speak",
+      "minListens": 1,
+      "items": [
+        {
+          "id": "b-sp1",
+          "text": "듣다",
+          "romanization": "deut-tta",
+          "audioText": "듣다",
+          "bn": "তুতত্তা — শোনা",
+          "en": "to listen [듣따]"
+        },
+        {
+          "id": "b-sp2",
+          "text": "입다",
+          "romanization": "ip-tta",
+          "audioText": "입다",
+          "bn": "ইপত্তা — পরিধান করা",
+          "en": "to wear [입따]"
+        },
+        {
+          "id": "b-sp3",
+          "text": "잡지",
+          "romanization": "jap-jji",
+          "audioText": "잡지",
+          "bn": "চাপচ্চি — ম্যাগাজিন",
+          "en": "magazine [잡찌]"
+        },
+        {
+          "id": "b-sp4",
+          "text": "문법",
+          "romanization": "mun-ppeop",
+          "audioText": "문법",
+          "bn": "মুনপ্পপ — গ্রামার",
+          "en": "grammar [문뻡]"
+        },
+        {
+          "id": "b-sp5",
+          "text": "한국어",
+          "romanization": "han-gu-geo",
+          "audioText": "한국어",
+          "bn": "হানগুগ — কোরিয়ান ভাষা (লিংকিং)",
+          "en": "Korean language [한구거]"
+        },
+        {
+          "id": "b-sp6",
+          "text": "음악",
+          "romanization": "eu-mak",
+          "audioText": "음악",
+          "bn": "উমাক — মিউজিক (লিংকিং)",
+          "en": "music [으막]"
+        }
+      ],
+      "fallbackQuizIds": []
     },
     {
       "id": "b-quiz",
@@ -63,7 +162,7 @@
         {
           "id": "b-q2",
           "kind": "multiple-choice",
-          "promptBn": "가-তে ব্যাচিম?",
+          "promptBn": "가-তে ব্যাচিম আছে কি?",
           "options": [
             "হ্যাঁ",
             "না",
@@ -71,21 +170,92 @@
             "ㅇ"
           ],
           "answer": 1,
-          "explanationBn": "নাই",
+          "explanationBn": "가-তে কোনো ব্যাচিম নাই",
           "topic": "batchim"
         },
         {
           "id": "b-q3",
           "kind": "multiple-choice",
-          "promptBn": "ব্যাচিম কোথায়?",
+          "promptBn": "ব্যাচিম অক্ষরের কোথায় বসে?",
           "options": [
             "উপরে",
             "নীচে",
             "বাইরে",
-            "রোমান"
+            "বামে"
           ],
           "answer": 1,
-          "explanationBn": "নীচে",
+          "explanationBn": "ব্যাচিম স্বরবর্ণের নীচে বসে",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-q4",
+          "kind": "multiple-choice",
+          "promptBn": "입다 শব্দের সঠিক উচ্চারণ কোনটি?",
+          "promptEn": "Correct pronunciation of 입다?",
+          "options": [
+            "[입따]",
+            "[입다]",
+            "[이다]",
+            "[임다]"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅂ ব্যাচিমের পরে ㄷ → ㄸ কঠিন উচ্চারণ হয়: 입다=[입따]",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-q5",
+          "kind": "multiple-choice",
+          "promptBn": "잡지 শব্দের সঠিক উচ্চারণ কোনটি?",
+          "promptEn": "Correct pronunciation of 잡지?",
+          "options": [
+            "[잡찌]",
+            "[잡지]",
+            "[자비]",
+            "[잠지]"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅂ ব্যাচিমের পরে ㅈ → ㅉ: 잡지=[잡찌] (ম্যাগাজিন)",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-q6",
+          "kind": "multiple-choice",
+          "promptBn": "জোড় ব্যাচিম (যেমন 앉다-র ㄵ) কীভাবে উচ্চারণ হয়?",
+          "promptEn": "How is a double batchim pronounced?",
+          "options": [
+            "বর্ণমালার ক্রমে আগের বর্ণটি",
+            "দুটি বর্ণই",
+            "পরের বর্ণটি",
+            "কোনোটিই নয়"
+          ],
+          "answer": 0,
+          "explanationBn": "জোড় ব্যাচিমে ক্রমানুসারে যে বর্ণ আগে আসে শুধু সেটিই উচ্চারণ হয়: 앉다=[안따]",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-q7",
+          "kind": "matching",
+          "promptBn": "শব্দের সাথে উচ্চারণ মেলান",
+          "promptEn": "Match word with pronunciation",
+          "pairs": [
+            {
+              "left": "듣다",
+              "right": "[듣따]"
+            },
+            {
+              "left": "십분",
+              "right": "[십뿐]"
+            },
+            {
+              "left": "신고",
+              "right": "[신꼬]"
+            },
+            {
+              "left": "한국어",
+              "right": "[한구거]"
+            }
+          ],
+          "explanationBn": "ব্যাচিমের পরে কঠিন উচ্চারণ ও লিংকিং নিয়ম",
           "topic": "batchim"
         }
       ]

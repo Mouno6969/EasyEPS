@@ -6,12 +6,13 @@
     "ko": "발음 연습",
     "en": "Speak Lab"
   },
-  "estimatedMinutes": 15,
+  "estimatedMinutes": 25,
   "requirements": {
     "requiredStepIds": [
-      "sp-lab"
+      "sp-lab",
+      "sp-vocab"
     ],
-    "minSpeakItems": 3,
+    "minSpeakItems": 6,
     "minWriteItems": 0,
     "minBuilderItems": 0,
     "passRatio": 0.7
@@ -45,6 +46,150 @@
           "audioText": "다",
           "bn": "দা",
           "en": "da"
+        },
+        {
+          "id": "sp-4",
+          "text": "아까",
+          "romanization": "a-kka",
+          "audioText": "아까",
+          "bn": "আক্কা — একটু আগে",
+          "en": "a little while ago"
+        },
+        {
+          "id": "sp-5",
+          "text": "진짜",
+          "romanization": "jin-jja",
+          "audioText": "진짜",
+          "bn": "চিনচ্চা — সত্যি",
+          "en": "really"
+        },
+        {
+          "id": "sp-6",
+          "text": "날씨",
+          "romanization": "nal-ssi",
+          "audioText": "날씨",
+          "bn": "নালস্সি — আবহাওয়া",
+          "en": "weather"
+        },
+        {
+          "id": "sp-7",
+          "text": "오빠",
+          "romanization": "o-ppa",
+          "audioText": "오빠",
+          "bn": "ওপ্পা — বড় ভাই",
+          "en": "older brother"
+        },
+        {
+          "id": "sp-8",
+          "text": "예쁘다",
+          "romanization": "ye-ppeu-da",
+          "audioText": "예쁘다",
+          "bn": "ইয়েপ্পুদা — সুন্দর",
+          "en": "pretty"
+        }
+      ],
+      "fallbackQuizIds": []
+    },
+    {
+      "id": "sp-vocab",
+      "type": "speak",
+      "minListens": 1,
+      "items": [
+        {
+          "id": "sp-v1",
+          "text": "맛있다",
+          "romanization": "ma-sit-tta",
+          "audioText": "맛있다",
+          "bn": "মাসিতত্তা — মজা আছে (সুস্বাদু)",
+          "en": "tasty"
+        },
+        {
+          "id": "sp-v2",
+          "text": "맵다",
+          "romanization": "maep-tta",
+          "audioText": "맵다",
+          "bn": "মেপত্তা — ঝাল",
+          "en": "spicy"
+        },
+        {
+          "id": "sp-v3",
+          "text": "달다",
+          "romanization": "dal-da",
+          "audioText": "달다",
+          "bn": "তালদা — মিষ্টি",
+          "en": "sweet"
+        },
+        {
+          "id": "sp-v4",
+          "text": "짜다",
+          "romanization": "jja-da",
+          "audioText": "짜다",
+          "bn": "চ্চাদা — লবণাক্ত",
+          "en": "salty"
+        },
+        {
+          "id": "sp-v5",
+          "text": "여름",
+          "romanization": "yeo-reum",
+          "audioText": "여름",
+          "bn": "ইয়োরুম — গ্রীষ্ম",
+          "en": "summer"
+        },
+        {
+          "id": "sp-v6",
+          "text": "겨울",
+          "romanization": "gyeo-ul",
+          "audioText": "겨울",
+          "bn": "কিয়োউল — শীতকাল",
+          "en": "winter"
+        },
+        {
+          "id": "sp-v7",
+          "text": "춥다",
+          "romanization": "chup-tta",
+          "audioText": "춥다",
+          "bn": "ছুপত্তা — ঠান্ডা",
+          "en": "cold"
+        },
+        {
+          "id": "sp-v8",
+          "text": "덥다",
+          "romanization": "deop-tta",
+          "audioText": "덥다",
+          "bn": "তপত্তা — গরম",
+          "en": "hot"
+        },
+        {
+          "id": "sp-v9",
+          "text": "전화",
+          "romanization": "jeon-hwa",
+          "audioText": "전화",
+          "bn": "চনহোয়া — ফোন",
+          "en": "telephone"
+        },
+        {
+          "id": "sp-v10",
+          "text": "휴대전화",
+          "romanization": "hyu-dae-jeon-hwa",
+          "audioText": "휴대전화",
+          "bn": "হিউদেচনহোয়া — মোবাইল ফোন",
+          "en": "mobile phone"
+        },
+        {
+          "id": "sp-v11",
+          "text": "천원",
+          "romanization": "cheon-won",
+          "audioText": "천원",
+          "bn": "ছনওন — ১০০০ উয়ন",
+          "en": "1,000 won"
+        },
+        {
+          "id": "sp-v12",
+          "text": "만원",
+          "romanization": "man-won",
+          "audioText": "만원",
+          "bn": "মানওন — ১০০০০ উয়ন",
+          "en": "10,000 won"
         }
       ],
       "fallbackQuizIds": []

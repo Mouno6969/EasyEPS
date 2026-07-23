@@ -358,7 +358,7 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
       .flatMap(s => s.items.map(i => i.id));
     const progress: BasicsModuleProgress = {
       moduleId: "speak-lab",
-      stepsDone: ["sp-lab"],
+      stepsDone: [...speakLab.requirements.requiredStepIds],
       speakItemsDone: speakIds.slice(0, speakLab.requirements.minSpeakItems),
       writeItemsDone: [],
       builderItemsDone: [],
@@ -374,7 +374,7 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
       .flatMap(s => s.items.map(i => i.id));
     const almost: BasicsModuleProgress = {
       moduleId: "write-lab",
-      stepsDone: ["wr-lab"],
+      stepsDone: [...writeLab.requirements.requiredStepIds],
       speakItemsDone: [],
       writeItemsDone: [writeIds[0]!, writeIds[0]!, writeIds[0]!], // duplicates only
       builderItemsDone: [],

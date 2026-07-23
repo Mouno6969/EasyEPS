@@ -6,13 +6,14 @@
     "ko": "쓰기 연습",
     "en": "Write Lab"
   },
-  "estimatedMinutes": 15,
+  "estimatedMinutes": 25,
   "requirements": {
     "requiredStepIds": [
-      "wr-lab"
+      "wr-lab",
+      "wr-lab-2"
     ],
     "minSpeakItems": 0,
-    "minWriteItems": 3,
+    "minWriteItems": 6,
     "minBuilderItems": 0,
     "passRatio": 0.7
   },
@@ -38,6 +39,139 @@
           "id": "wr-a",
           "char": "ㅏ",
           "strokeId": "a",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-d",
+          "char": "ㄷ",
+          "strokeId": "digeut",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-r",
+          "char": "ㄹ",
+          "strokeId": "rieul",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-m",
+          "char": "ㅁ",
+          "strokeId": "mieum",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-b",
+          "char": "ㅂ",
+          "strokeId": "bieup",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-s",
+          "char": "ㅅ",
+          "strokeId": "siot",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-ng",
+          "char": "ㅇ",
+          "strokeId": "ieung",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-j",
+          "char": "ㅈ",
+          "strokeId": "jieut",
+          "minCoverage": 0.55
+        }
+      ]
+    },
+    {
+      "id": "wr-lab-2",
+      "type": "write",
+      "skipAfterFailures": 2,
+      "items": [
+        {
+          "id": "wr-ch",
+          "char": "ㅊ",
+          "strokeId": "chieut",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-k",
+          "char": "ㅋ",
+          "strokeId": "kieuk",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-t",
+          "char": "ㅌ",
+          "strokeId": "tieut",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-p",
+          "char": "ㅍ",
+          "strokeId": "pieup",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-h",
+          "char": "ㅎ",
+          "strokeId": "hieut",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-ya",
+          "char": "ㅑ",
+          "strokeId": "ya",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-eo",
+          "char": "ㅓ",
+          "strokeId": "eo",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-yeo",
+          "char": "ㅕ",
+          "strokeId": "yeo",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-o",
+          "char": "ㅗ",
+          "strokeId": "o",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-yo",
+          "char": "ㅛ",
+          "strokeId": "yo",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-u",
+          "char": "ㅜ",
+          "strokeId": "u",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-yu",
+          "char": "ㅠ",
+          "strokeId": "yu",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-eu",
+          "char": "ㅡ",
+          "strokeId": "eu",
+          "minCoverage": 0.55
+        },
+        {
+          "id": "wr-i",
+          "char": "ㅣ",
+          "strokeId": "i",
           "minCoverage": 0.55
         }
       ]
