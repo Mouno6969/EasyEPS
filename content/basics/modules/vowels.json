@@ -6,47 +6,72 @@
     "ko": "기본 모음",
     "en": "Basic Vowels"
   },
-  "estimatedMinutes": 15,
+  "estimatedMinutes": 25,
   "requirements": {
-    "requiredStepIds": [
-      "v-grid",
-      "v-speak",
-      "v-quiz"
-    ],
-    "minSpeakItems": 2,
-    "minWriteItems": 0,
+    "requiredStepIds": ["v-intro", "v-grid", "v-combined-grid", "v-speak", "v-write", "v-quiz"],
+    "minSpeakItems": 4,
+    "minWriteItems": 2,
     "minBuilderItems": 0,
     "passRatio": 0.7
   },
   "steps": [
     {
+      "id": "v-intro",
+      "type": "explain",
+      "title": {
+        "bn": "স্বরবর্ণ ২১ টি (모음 21 개)",
+        "ko": "모음 21개",
+        "en": "21 Vowels"
+      },
+      "body": {
+        "bn": [
+          "কোরিয়ান ভাষায় মোট ২১টি স্বরবর্ণ — মৌলিক স্বরবর্ণ ১০টি (기본 모음) এবং যুক্ত/যৌগিক স্বরবর্ণ ১১টি (복합 모음)।",
+          "স্বরবর্ণ একা লেখা যায় না; শব্দের শুরুতে নীরব ㅇ এর সাথে লেখা হয়। যেমন: ㅏ → 아 (আ)।",
+          "বিশেষ নিয়ম: ㅒ, ㅖ শব্দের প্রথমে থাকলে 'ইএ' পড়তে হয়, মাঝে থাকলে 'এ'। যেমন- 얘기(ইএগি)=গল্প, 계절(খেজল)=ঋতু।"
+        ],
+        "en": [
+          "Korean has 21 vowels — 10 basic vowels and 11 combined (compound) vowels.",
+          "A vowel cannot stand alone; at the start of a word it is written with a silent ㅇ. E.g. ㅏ → 아 (a).",
+          "Special rule: ㅒ/ㅖ are read 'ye' at the start of a word, but 'e' in the middle. E.g. 얘기 (yaegi) = story, 계절 (gyejeol) = season."
+        ],
+        "ko": [
+          "한국어에는 모음이 21개 있습니다 — 기본 모음 10개와 복합 모음 11개.",
+          "모음은 단독으로 쓸 수 없고 첫소리 ㅇ과 함께 씁니다. 예: ㅏ → 아.",
+          "특별 규칙: ㅒ, ㅖ는 단어 첫머리에서 '예', 중간에서 '에'로 읽습니다."
+        ]
+      }
+    },
+    {
       "id": "v-grid",
       "type": "jamo-grid",
       "items": [
-        {
-          "id": "v-a",
-          "char": "ㅏ",
-          "romanization": "a",
-          "audioText": "아",
-          "bn": "আ",
-          "en": "a sound"
-        },
-        {
-          "id": "v-eo",
-          "char": "ㅓ",
-          "romanization": "eo",
-          "audioText": "어",
-          "bn": "eo",
-          "en": "eo sound"
-        },
-        {
-          "id": "v-i",
-          "char": "ㅣ",
-          "romanization": "i",
-          "audioText": "이",
-          "bn": "ই",
-          "en": "i sound"
-        }
+        { "id": "v-a", "char": "ㅏ", "romanization": "a", "audioText": "아", "bn": "আ", "en": "a sound" },
+        { "id": "v-ya", "char": "ㅑ", "romanization": "ya", "audioText": "야", "bn": "ইআ", "en": "ya sound" },
+        { "id": "v-eo", "char": "ㅓ", "romanization": "eo", "audioText": "어", "bn": "অ", "en": "eo sound" },
+        { "id": "v-yeo", "char": "ㅕ", "romanization": "yeo", "audioText": "여", "bn": "ইঅ", "en": "yeo sound" },
+        { "id": "v-o", "char": "ㅗ", "romanization": "o", "audioText": "오", "bn": "ও", "en": "o sound" },
+        { "id": "v-yo", "char": "ㅛ", "romanization": "yo", "audioText": "요", "bn": "ইও", "en": "yo sound" },
+        { "id": "v-u", "char": "ㅜ", "romanization": "u", "audioText": "우", "bn": "উ", "en": "u sound" },
+        { "id": "v-yu", "char": "ㅠ", "romanization": "yu", "audioText": "유", "bn": "ইউ", "en": "yu sound" },
+        { "id": "v-eu", "char": "ㅡ", "romanization": "eu", "audioText": "으", "bn": "উ (ঠোঁট টানা)", "en": "eu sound" },
+        { "id": "v-i", "char": "ㅣ", "romanization": "i", "audioText": "이", "bn": "ই", "en": "i sound" }
+      ]
+    },
+    {
+      "id": "v-combined-grid",
+      "type": "jamo-grid",
+      "items": [
+        { "id": "v-ae", "char": "ㅐ", "romanization": "ae", "audioText": "애", "bn": "এ", "en": "ae sound" },
+        { "id": "v-yae", "char": "ㅒ", "romanization": "yae", "audioText": "얘", "bn": "এ/ইএ", "en": "yae sound" },
+        { "id": "v-e", "char": "ㅔ", "romanization": "e", "audioText": "에", "bn": "এ", "en": "e sound" },
+        { "id": "v-ye", "char": "ㅖ", "romanization": "ye", "audioText": "예", "bn": "এ/ইএ", "en": "ye sound" },
+        { "id": "v-oe", "char": "ㅚ", "romanization": "oe", "audioText": "외", "bn": "ওএ", "en": "oe sound" },
+        { "id": "v-wi", "char": "ㅟ", "romanization": "wi", "audioText": "위", "bn": "উই", "en": "wi sound" },
+        { "id": "v-ui", "char": "ㅢ", "romanization": "ui", "audioText": "의", "bn": "উই", "en": "ui sound" },
+        { "id": "v-wa", "char": "ㅘ", "romanization": "wa", "audioText": "와", "bn": "ওআ", "en": "wa sound" },
+        { "id": "v-wae", "char": "ㅙ", "romanization": "wae", "audioText": "왜", "bn": "ওএ", "en": "wae sound" },
+        { "id": "v-wo", "char": "ㅝ", "romanization": "wo", "audioText": "워", "bn": "উঅ", "en": "wo sound" },
+        { "id": "v-we", "char": "ㅞ", "romanization": "we", "audioText": "웨", "bn": "উএ", "en": "we sound" }
       ]
     },
     {
@@ -54,22 +79,25 @@
       "type": "speak",
       "minListens": 1,
       "items": [
-        {
-          "id": "v-s-a",
-          "text": "ㅏ",
-          "romanization": "a",
-          "audioText": "아",
-          "bn": "আ",
-          "en": "a"
-        },
-        {
-          "id": "v-s-i",
-          "text": "ㅣ",
-          "romanization": "i",
-          "audioText": "이",
-          "bn": "ই",
-          "en": "i"
-        }
+        { "id": "v-s-a", "text": "ㅏ", "romanization": "a", "audioText": "아", "bn": "আ", "en": "a" },
+        { "id": "v-s-eo", "text": "ㅓ", "romanization": "eo", "audioText": "어", "bn": "অ", "en": "eo" },
+        { "id": "v-s-o", "text": "ㅗ", "romanization": "o", "audioText": "오", "bn": "ও", "en": "o" },
+        { "id": "v-s-u", "text": "ㅜ", "romanization": "u", "audioText": "우", "bn": "উ", "en": "u" },
+        { "id": "v-s-eu", "text": "ㅡ", "romanization": "eu", "audioText": "으", "bn": "উ", "en": "eu" },
+        { "id": "v-s-i", "text": "ㅣ", "romanization": "i", "audioText": "이", "bn": "ই", "en": "i" }
+      ],
+      "fallbackQuizIds": []
+    },
+    {
+      "id": "v-write",
+      "type": "write",
+      "skipAfterFailures": 2,
+      "items": [
+        { "id": "v-w-a", "char": "ㅏ", "strokeId": "a" },
+        { "id": "v-w-eo", "char": "ㅓ", "strokeId": "eo" },
+        { "id": "v-w-o", "char": "ㅗ", "strokeId": "o" },
+        { "id": "v-w-u", "char": "ㅜ", "strokeId": "u" },
+        { "id": "v-w-i", "char": "ㅣ", "strokeId": "i" }
       ]
     },
     {
@@ -79,44 +107,67 @@
         {
           "id": "v-q1",
           "kind": "multiple-choice",
-          "promptBn": "ㅏ রোমানাইজেশন?",
-          "options": [
-            "a",
-            "o",
-            "u",
-            "e"
-          ],
+          "promptBn": "মৌলিক স্বরবর্ণ কয়টি?",
+          "promptEn": "How many basic vowels are there?",
+          "options": ["১০ টি", "১১ টি", "১৪ টি", "২১ টি"],
           "answer": 0,
-          "explanationBn": "ㅏ=a।",
+          "explanationBn": "মৌলিক স্বরবর্ণ ১০টি, যৌগিক ১১টি — মোট ২১টি।",
           "topic": "jamo"
         },
         {
           "id": "v-q2",
           "kind": "multiple-choice",
-          "promptBn": "ㅣ কোন ধরন?",
-          "options": [
-            "ব্যঞ্জন",
-            "স্বর",
-            "ব্যাচিম",
-            "সংখ্যা"
-          ],
-          "answer": 1,
-          "explanationBn": "ㅣ স্বর।",
+          "promptBn": "ㅏ এর বাংলা উচ্চারণ?",
+          "promptEn": "Bengali pronunciation of ㅏ?",
+          "options": ["আ", "অ", "ও", "উ"],
+          "answer": 0,
+          "explanationBn": "ㅏ (아) = আ।",
           "topic": "jamo"
         },
         {
           "id": "v-q3",
-          "kind": "listen-choice",
-          "promptBn": "শুনে স্বর বেছে নিন",
-          "listenText": "아",
-          "options": [
-            "ㅏ",
-            "ㅓ",
-            "ㅗ",
-            "ㅜ"
+          "kind": "multiple-choice",
+          "promptBn": "ㅖ শব্দের মাঝে থাকলে কীভাবে পড়তে হয়?",
+          "promptEn": "How is ㅖ read in the middle of a word?",
+          "options": ["ইএ", "এ", "ই", "ওএ"],
+          "answer": 1,
+          "explanationBn": "মাঝে থাকলে 'এ' — 계절(খেজল)=ঋতু।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-q4",
+          "kind": "matching",
+          "promptBn": "স্বরবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match vowels with sounds",
+          "pairs": [
+            { "left": "ㅗ", "right": "ও" },
+            { "left": "ㅜ", "right": "উ" },
+            { "left": "ㅣ", "right": "ই" },
+            { "left": "ㅑ", "right": "ইআ" }
           ],
+          "explanationBn": "ㅗ=ও, ㅜ=উ, ㅣ=ই, ㅑ=ইআ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-q5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "아",
+          "options": ["ㅏ", "ㅓ", "ㅗ", "ㅜ"],
           "answer": 0,
-          "explanationBn": "아=ㅏ।",
+          "explanationBn": "아 = ㅏ (আ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "오",
+          "options": ["ㅜ", "ㅗ", "ㅡ", "ㅣ"],
+          "answer": 1,
+          "explanationBn": "오 = ㅗ (ও)।",
           "topic": "jamo"
         }
       ]

@@ -6,48 +6,70 @@
     "ko": "기본 자음",
     "en": "Basic Consonants"
   },
-  "estimatedMinutes": 20,
+  "estimatedMinutes": 30,
   "requirements": {
-    "requiredStepIds": [
-      "c-grid",
-      "c-speak",
-      "c-write",
-      "c-quiz"
-    ],
-    "minSpeakItems": 2,
-    "minWriteItems": 2,
+    "requiredStepIds": ["c-intro", "c-grid", "c-double-grid", "c-speak", "c-write", "c-quiz"],
+    "minSpeakItems": 4,
+    "minWriteItems": 3,
     "minBuilderItems": 0,
     "passRatio": 0.7
   },
   "steps": [
     {
+      "id": "c-intro",
+      "type": "explain",
+      "title": {
+        "bn": "ব্যঞ্জনবর্ণ ১৯ টি (자음 19 개)",
+        "ko": "자음 19개",
+        "en": "19 Consonants"
+      },
+      "body": {
+        "bn": [
+          "কোরিয়ান ভাষায় মোট ১৯টি ব্যঞ্জনবর্ণ আছে — মৌলিক ব্যঞ্জনবর্ণ ১৪টি (기본 자음) এবং যুক্ত/যৌগিক ব্যঞ্জনবর্ণ ৫টি (된소리 자음)।",
+          "প্রতিটি ব্যঞ্জনের দুইটি উচ্চারণ মনে রাখুন: শব্দের শুরুতে এক রকম, ব্যাচিম (শেষ অবস্থান) হিসেবে আরেক রকম।",
+          "বিশেষ নিয়ম: ㅅ/ㅆ এর ডানে 'ㅣ' থাকলে = স, না থাকলে = ছ। যেমন- 시간(সিগান)=সময়, 사람(ছারাম)=মানুষ।"
+        ],
+        "en": [
+          "Korean has 19 consonants — 14 basic consonants and 5 double (tense) consonants.",
+          "Each consonant has two pronunciations: one at the start of a syllable and one as a final consonant (batchim).",
+          "Special rule: ㅅ/ㅆ followed by ㅣ sounds like 's', otherwise closer to 'ch'. E.g. 시간 (sigan) = time, 사람 (saram) = person."
+        ],
+        "ko": [
+          "한국어에는 자음이 19개 있습니다 — 기본 자음 14개와 된소리 자음 5개.",
+          "각 자음은 초성과 받침에서 발음이 다릅니다.",
+          "특별 규칙: ㅅ/ㅆ 뒤에 ㅣ가 오면 '스' 소리가 납니다. 예: 시간, 사람."
+        ]
+      }
+    },
+    {
       "id": "c-grid",
       "type": "jamo-grid",
       "items": [
-        {
-          "id": "c-g",
-          "char": "ㄱ",
-          "romanization": "g/k",
-          "audioText": "가",
-          "bn": "গ/ক",
-          "en": "g/k sound"
-        },
-        {
-          "id": "c-n",
-          "char": "ㄴ",
-          "romanization": "n",
-          "audioText": "나",
-          "bn": "ন",
-          "en": "n sound"
-        },
-        {
-          "id": "c-d",
-          "char": "ㄷ",
-          "romanization": "d/t",
-          "audioText": "다",
-          "bn": "দ/ত",
-          "en": "d/t sound"
-        }
+        { "id": "c-g", "char": "ㄱ", "romanization": "g/k", "audioText": "기역", "bn": "গিয়ক — খ, গ/ক্", "en": "giyeok — g/k", "ko": "기역" },
+        { "id": "c-n", "char": "ㄴ", "romanization": "n", "audioText": "니은", "bn": "নিয়ন — ন/ন্", "en": "nieun — n", "ko": "니은" },
+        { "id": "c-d", "char": "ㄷ", "romanization": "d/t", "audioText": "디귿", "bn": "দিগুত — থ, দ/ত্", "en": "digeut — d/t", "ko": "디귿" },
+        { "id": "c-r", "char": "ㄹ", "romanization": "r/l", "audioText": "리을", "bn": "রিউল — র/ল্", "en": "rieul — r/l", "ko": "리을" },
+        { "id": "c-m", "char": "ㅁ", "romanization": "m", "audioText": "미음", "bn": "মিউম — ম/ম্", "en": "mieum — m", "ko": "미음" },
+        { "id": "c-b", "char": "ㅂ", "romanization": "b/p", "audioText": "비읍", "bn": "বিউপ — ভ, ব/প্", "en": "bieup — b/p", "ko": "비읍" },
+        { "id": "c-s", "char": "ㅅ", "romanization": "s", "audioText": "시옷", "bn": "সিওত — স, ছ/ত্", "en": "siot — s", "ko": "시옷" },
+        { "id": "c-ng", "char": "ㅇ", "romanization": "ng", "audioText": "이응", "bn": "ইয়ুং — শুরুতে নীরব/শেষে ং", "en": "ieung — silent/ng", "ko": "이응" },
+        { "id": "c-j", "char": "ㅈ", "romanization": "j", "audioText": "지읒", "bn": "জিউত — ছ, জ/ত্", "en": "jieut — j", "ko": "지읒" },
+        { "id": "c-ch", "char": "ㅊ", "romanization": "ch", "audioText": "치읓", "bn": "ছিউত — ছ/ত্", "en": "chieut — ch", "ko": "치읓" },
+        { "id": "c-k", "char": "ㅋ", "romanization": "k", "audioText": "키읔", "bn": "খিয়ক — খ/ক্", "en": "kieuk — k", "ko": "키읔" },
+        { "id": "c-t", "char": "ㅌ", "romanization": "t", "audioText": "티읕", "bn": "থিউত — থ/ত্", "en": "tieut — t", "ko": "티읕" },
+        { "id": "c-p", "char": "ㅍ", "romanization": "p", "audioText": "피읖", "bn": "ফিউপ — ফ/প্", "en": "pieup — p", "ko": "피읖" },
+        { "id": "c-h", "char": "ㅎ", "romanization": "h", "audioText": "히읗", "bn": "হিউত — হ/ত্", "en": "hieut — h", "ko": "히읗" }
+      ]
+    },
+    {
+      "id": "c-double-grid",
+      "type": "jamo-grid",
+      "items": [
+        { "id": "c-kk", "char": "ㄲ", "romanization": "kk", "audioText": "쌍기역", "bn": "ছাং গিয়ক — ক", "en": "ssang-giyeok — kk", "ko": "쌍기역" },
+        { "id": "c-tt", "char": "ㄸ", "romanization": "tt", "audioText": "쌍디귿", "bn": "ছাং দিগুত — ত", "en": "ssang-digeut — tt", "ko": "쌍디귿" },
+        { "id": "c-pp", "char": "ㅃ", "romanization": "pp", "audioText": "쌍비읍", "bn": "ছাং বিউপ — প", "en": "ssang-bieup — pp", "ko": "쌍비읍" },
+        { "id": "c-ss", "char": "ㅆ", "romanization": "ss", "audioText": "쌍시옷", "bn": "ছাং সিওত — স", "en": "ssang-siot — ss", "ko": "쌍시옷" },
+        { "id": "c-jj", "char": "ㅉ", "romanization": "jj", "audioText": "쌍지읒", "bn": "ছাং জিউত — চ/ত", "en": "ssang-jieut — jj", "ko": "쌍지읒" }
       ]
     },
     {
@@ -55,22 +77,14 @@
       "type": "speak",
       "minListens": 1,
       "items": [
-        {
-          "id": "c-s-g",
-          "text": "ㄱ",
-          "romanization": "g/k",
-          "audioText": "가",
-          "bn": "গ/ক",
-          "en": "g/k"
-        },
-        {
-          "id": "c-s-n",
-          "text": "ㄴ",
-          "romanization": "n",
-          "audioText": "나",
-          "bn": "ন",
-          "en": "n"
-        }
+        { "id": "c-s-g", "text": "가", "romanization": "ga", "audioText": "가", "bn": "গা", "en": "ga" },
+        { "id": "c-s-n", "text": "나", "romanization": "na", "audioText": "나", "bn": "না", "en": "na" },
+        { "id": "c-s-d", "text": "다", "romanization": "da", "audioText": "다", "bn": "দা", "en": "da" },
+        { "id": "c-s-r", "text": "라", "romanization": "ra", "audioText": "라", "bn": "রা", "en": "ra" },
+        { "id": "c-s-m", "text": "마", "romanization": "ma", "audioText": "마", "bn": "মা", "en": "ma" },
+        { "id": "c-s-b", "text": "바", "romanization": "ba", "audioText": "바", "bn": "বা", "en": "ba" },
+        { "id": "c-s-s", "text": "사", "romanization": "sa", "audioText": "사", "bn": "ছা", "en": "sa" },
+        { "id": "c-s-h", "text": "하", "romanization": "ha", "audioText": "하", "bn": "হা", "en": "ha" }
       ],
       "fallbackQuizIds": []
     },
@@ -79,16 +93,12 @@
       "type": "write",
       "skipAfterFailures": 2,
       "items": [
-        {
-          "id": "c-w-g",
-          "char": "ㄱ",
-          "strokeId": "giyeok"
-        },
-        {
-          "id": "c-w-n",
-          "char": "ㄴ",
-          "strokeId": "nieun"
-        }
+        { "id": "c-w-g", "char": "ㄱ", "strokeId": "giyeok" },
+        { "id": "c-w-n", "char": "ㄴ", "strokeId": "nieun" },
+        { "id": "c-w-d", "char": "ㄷ", "strokeId": "digeut" },
+        { "id": "c-w-m", "char": "ㅁ", "strokeId": "mieum" },
+        { "id": "c-w-b", "char": "ㅂ", "strokeId": "bieup" },
+        { "id": "c-w-s", "char": "ㅅ", "strokeId": "siot" }
       ]
     },
     {
@@ -98,46 +108,66 @@
         {
           "id": "c-q1",
           "kind": "multiple-choice",
-          "promptBn": "ㄱ কোন ধরনের জামো?",
-          "options": [
-            "স্বর",
-            "ব্যঞ্জন",
-            "সংখ্যা",
-            "যতি"
-          ],
+          "promptBn": "মৌলিক ব্যঞ্জনবর্ণ কয়টি?",
+          "promptEn": "How many basic consonants are there?",
+          "options": ["১০ টি", "১৪ টি", "১৯ টি", "২১ টি"],
           "answer": 1,
-          "explanationBn": "ㄱ ব্যঞ্জন।",
+          "explanationBn": "মৌলিক ব্যঞ্জনবর্ণ ১৪টি, যুক্ত ৫টি — মোট ১৯টি।",
           "topic": "jamo"
         },
         {
           "id": "c-q2",
           "kind": "multiple-choice",
-          "promptBn": "ㄴ রোমানাইজেশন?",
-          "options": [
-            "m",
-            "n",
-            "ng",
-            "r"
-          ],
+          "promptBn": "ㄴ (니은) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㄴ?",
+          "options": ["m", "n", "ng", "r"],
           "answer": 1,
-          "explanationBn": "ㄴ=n।",
+          "explanationBn": "ㄴ (নিয়ন) = n।",
           "topic": "jamo"
         },
         {
           "id": "c-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅅ এর ডানে ㅣ থাকলে উচ্চারণ কী হয়? (যেমন 시간)",
+          "promptEn": "How is ㅅ pronounced before ㅣ? (e.g. 시간)",
+          "options": ["ছ", "স", "ত", "জ"],
+          "answer": 1,
+          "explanationBn": "ㅅ+ㅣ = স। 시간(সিগান)=সময়, কিন্তু 사람(ছারাম)=মানুষ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㄲ কোন ধরনের বর্ণ?",
+          "promptEn": "What kind of letter is ㄲ?",
+          "options": ["মৌলিক স্বরবর্ণ", "যুক্ত ব্যঞ্জনবর্ণ", "মৌলিক ব্যঞ্জনবর্ণ", "যৌগিক স্বরবর্ণ"],
+          "answer": 1,
+          "explanationBn": "ㄲ (쌍기역/ছাং গিয়ক) যুক্ত বা যৌগিক ব্যঞ্জনবর্ণ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-q5",
           "kind": "matching",
-          "promptBn": "জামো মেলান",
+          "promptBn": "ব্যঞ্জনবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match consonants with sounds",
           "pairs": [
-            {
-              "left": "ㄱ",
-              "right": "g/k"
-            },
-            {
-              "left": "ㄴ",
-              "right": "n"
-            }
+            { "left": "ㄱ", "right": "g/k" },
+            { "left": "ㅁ", "right": "m" },
+            { "left": "ㅂ", "right": "b/p" },
+            { "left": "ㅎ", "right": "h" }
           ],
-          "explanationBn": "মিল।",
+          "explanationBn": "ㄱ=গ/ক, ㅁ=ম, ㅂ=ব/প, ㅎ=হ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "나",
+          "options": ["ㄱ", "ㄴ", "ㅁ", "ㅅ"],
+          "answer": 1,
+          "explanationBn": "나 = ㄴ+ㅏ, তাই উত্তর ㄴ।",
           "topic": "jamo"
         }
       ]
