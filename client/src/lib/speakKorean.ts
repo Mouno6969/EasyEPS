@@ -16,8 +16,17 @@ import { toast } from "sonner";
  * (e.g. text "ㄱ", audioText "가") because engines often mangle bare jamo.
  */
 
+export const KOREAN_SPEECH_RATES = {
+  /** Deliberately well below 1× so browser TTS engines produce an audible difference. */
+  slow: 0.6,
+  /** Native browser speech-synthesis speed. */
+  normal: 1,
+} as const;
+
+export type KoreanSpeechRate = typeof KOREAN_SPEECH_RATES[keyof typeof KOREAN_SPEECH_RATES];
+
 export type SpeakKoreanOptions = {
-  /** Playback rate. Defaults to 0.85 (lesson vocab). Jamo drills ~0.75; syllables ~0.8. */
+  /** Playback rate. Defaults to normal 1×; focused jamo/syllable drills may pass a custom rate. */
   rate?: number;
   /**
    * Optional TTS payload override. When set, this is spoken instead of `text`
@@ -28,7 +37,7 @@ export type SpeakKoreanOptions = {
   onError?: (error: Error) => void;
 };
 
-const DEFAULT_RATE = 0.85;
+const DEFAULT_RATE = KOREAN_SPEECH_RATES.normal;
 const MIN_RATE = 0.1;
 const MAX_RATE = 10;
 const UNSUPPORTED_TOAST = "এই browser-এ voice playback নেই";

@@ -1,4 +1,4 @@
-import { speakKorean } from "@/lib/speakKorean";
+import { KOREAN_SPEECH_RATES, speakKorean, type KoreanSpeechRate } from "@/lib/speakKorean";
 import { Gauge, Headphones, RotateCcw, Volume2 } from "lucide-react";
 import { useState } from "react";
 
@@ -15,7 +15,7 @@ export function GuidedListening({
   className = "",
   label = "Audio শুনতে চাপুন",
 }: GuidedListeningProps) {
-  const [rate, setRate] = useState<0.68 | 0.86>(0.86);
+  const [rate, setRate] = useState<KoreanSpeechRate>(KOREAN_SPEECH_RATES.normal);
   const [plays, setPlays] = useState(0);
   const [playing, setPlaying] = useState(false);
 
@@ -30,7 +30,7 @@ export function GuidedListening({
       ? "প্রথমবার শুধু মূল অর্থ ধরুন।"
       : plays === 1
         ? "এবার ব্যক্তি, স্থান, সংখ্যা বা সময়ের শব্দ ধরুন।"
-        : rate === 0.86
+        : rate === KOREAN_SPEECH_RATES.normal
           ? "কঠিন হলে ধীর গতি বেছে নিয়ে আরেকবার শুনুন।"
           : "ধীরে শোনার পর সাধারণ গতিতে মিলিয়ে নিন।";
 
@@ -39,7 +39,7 @@ export function GuidedListening({
       <button
         type="button"
         onClick={play}
-        aria-label={`${label}; ${rate === 0.68 ? "slow" : "normal"} speed`}
+        aria-label={`${label}; ${rate === KOREAN_SPEECH_RATES.slow ? "slow" : "normal"} speed`}
         className={`flex w-full items-center justify-center gap-3 rounded-2xl bg-[var(--navy)] font-bold text-white transition hover:bg-[var(--navy)]/90 ${compact ? "p-4" : "p-5"}`}
       >
         <span className={`grid place-items-center rounded-full bg-[var(--gold)] text-[var(--navy)] ${compact ? "size-9" : "size-10"}`}>
@@ -55,17 +55,19 @@ export function GuidedListening({
         <span className="inline-flex overflow-hidden rounded-full border border-[var(--navy)]/12 bg-white p-0.5">
           <button
             type="button"
-            onClick={() => setRate(0.68)}
-            className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 ${rate === 0.68 ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}
+            onClick={() => setRate(KOREAN_SPEECH_RATES.slow)}
+            aria-pressed={rate === KOREAN_SPEECH_RATES.slow}
+            className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 ${rate === KOREAN_SPEECH_RATES.slow ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}
           >
-            <Gauge className="size-3.5" /> ধীর
+            <Gauge className="size-3.5" /> ধীর 0.6×
           </button>
           <button
             type="button"
-            onClick={() => setRate(0.86)}
-            className={`rounded-full px-2.5 py-1 ${rate === 0.86 ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}
+            onClick={() => setRate(KOREAN_SPEECH_RATES.normal)}
+            aria-pressed={rate === KOREAN_SPEECH_RATES.normal}
+            className={`rounded-full px-2.5 py-1 ${rate === KOREAN_SPEECH_RATES.normal ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}
           >
-            সাধারণ
+            সাধারণ 1×
           </button>
         </span>
       </div>
