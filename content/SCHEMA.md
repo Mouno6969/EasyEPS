@@ -63,6 +63,13 @@ Every lesson file `content/lessons/lesson-NN.json` MUST be valid JSON matching t
       "questionBn": "প্রশ্নের নির্দেশনা বাংলায়",
       "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "passage": "지문 (optional Korean text/dialogue)",
+      "image": {                 // OPTIONAL (v2.1+) — exam-style picture/safety sign
+        "src": "/eps-images/sign-no-entry.svg",   // absolute URL, site-relative path, or data URI
+        "altBn": "ছবির বর্ণনা বাংলায়",              // REQUIRED — screen-reader alt text
+        "altKo": "출입금지 표지",                    // optional Korean description
+        "captionBn": "ছবির নিচের ক্যাপশন",           // optional visible caption
+        "kind": "safety-sign"     // photo | illustration | safety-sign | notice | diagram
+      },
       "options": ["...", "...", "...", "..."],
       "answer": 2,
       "explanationBn": "ব্যাখ্যা..."
@@ -76,8 +83,9 @@ Every lesson file `content/lessons/lesson-NN.json` MUST be valid JSON matching t
 - `grammar`: 4–5 patterns with Bengali explanations and 2+ examples each.
 - `dialogues`: 3 dialogues, 4–8 lines each.
 - `practice`: EXACTLY 20 items. Mix: ≥4 multiple-choice, ≥3 fill-blank, ≥2 matching.
-- `epsQuestions`: EXACTLY 16 items. Mix: 10 reading + 6 listening-style. All options in Korean where natural; instructions in Bengali.
-- `answer` index MUST point to the correct option. Content MUST be original (no copying textbook text verbatim).
+- `epsQuestions`: EXACTLY 16 items. Mix: 10 reading + 6 listening-style. All options in Korean where natural; instructions in Bengali. (Chapters may exceed 16 up to the schema max of 20 when image-based questions are appended, matching the real exam's picture/safety-sign items.)
+- `image` is OPTIONAL and backward-compatible — legacy questions without it stay valid. When present, `src` and `altBn` are required; a listening question with an image must still include a `passage` so audio can be synthesized. Local assets live in `client/public/eps-images/` and are referenced as `/eps-images/<name>.svg`.
+- `answer` index MUST point to the correct option. Content MUST be original (no copying textbook text verbatim; image assets are original artwork, never copied exam images).
 - All Bengali text natural and correct; Korean text uses standard hangul with correct spacing.
 
 ## Categories

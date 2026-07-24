@@ -1,4 +1,5 @@
 import { BasicsCtaBanner, BasicsLockCard } from "@/components/basics/BasicsLockCard";
+import { EpsQuestionImage } from "@/components/EpsQuestionImage";
 import { GuidedListening } from "@/components/GuidedListening";
 import { PronunciationCoach } from "@/components/PronunciationCoach";
 import { pushCelebration } from "@/components/CelebrationBanner";
@@ -157,7 +158,9 @@ function PracticeRunner({
     const optionList = question.options ?? [];
     const isListening = kind === "exam" && (question as EpsQuestion).section === "listening";
     const passageText = "passage" in question ? question.passage : "";
+    const questionImage = kind === "exam" ? (question as EpsQuestion).image : undefined;
     return <article key={question.id} className="p-6 md:p-8"><div className="flex gap-4"><span className="grid size-9 shrink-0 place-items-center rounded-full bg-[var(--navy)] font-serif font-bold text-white">{questionIndex + 1}</span><div className="min-w-0 flex-1"><p className="font-bold leading-7 text-[var(--navy)]">{question.questionBn}</p>{question.questionKo && <p className="mt-2 text-lg font-semibold text-[var(--navy)]">{question.questionKo}</p>}
+      {questionImage ? <EpsQuestionImage image={questionImage} /> : null}
       {passageText ? (
         isListening && !submitted ? (
           <div className="mt-4 space-y-2">

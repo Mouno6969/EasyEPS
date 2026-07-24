@@ -67,6 +67,33 @@ const practiceQuestionSchema = z
     }
   });
 
+/**
+ * Optional image attached to an EPS question — the real EPS-TOPIK exam uses
+ * pictures, safety signs, notices, and workplace diagrams.
+ * Backward-compatible: legacy questions without an `image` field keep working;
+ * when `image` is present it must carry a source and accessible Bangla alt text.
+ */
+export const epsQuestionImageSchema = z.object({
+  /** Absolute URL, site-relative path (e.g. "/eps-images/sign-fire.svg"), or data URI. */
+  src: z
+    .string()
+    .min(1)
+    .refine(
+      value => /^(https?:\/\/|\/|data:image\/)/.test(value),
+      "image src must be an absolute URL, a site-relative path, or a data URI",
+    ),
+  /** Accessible description in Bangla (required — used as alt text for screen readers). */
+  altBn: z.string().min(1),
+  /** Accessible description in Korean (optional, shown alongside for exam realism). */
+  altKo: z.string().optional().default(""),
+  /** Optional caption rendered under the image. */
+  captionBn: z.string().optional().default(""),
+  /** What the image depicts — powers filtering, analytics, and styling. */
+  kind: z.enum(["photo", "illustration", "safety-sign", "notice", "diagram"]).default("illustration"),
+});
+
+export type EpsQuestionImage = z.infer<typeof epsQuestionImageSchema>;
+
 const epsQuestionSchema = z
   .object({
     id: z.string().min(1),
@@ -74,6 +101,8 @@ const epsQuestionSchema = z
     questionBn: z.string().min(1),
     questionKo: z.string().min(1),
     passage: z.string().optional().default(""),
+    /** Optional exam-style picture/safety sign. Omitted on legacy questions. */
+    image: epsQuestionImageSchema.optional(),
     options: z.array(z.string().min(1)).min(4).max(4),
     answer: z.number().int().min(0).max(3),
     explanationBn: z.string().min(1),
@@ -81,6 +110,15 @@ const epsQuestionSchema = z
   .superRefine((question, ctx) => {
     if (question.answer >= question.options.length) {
       ctx.addIssue({ code: "custom", message: "answer index out of range", path: ["answer"] });
+    }
+    // Listening questions may carry an image ("look at the picture and listen"),
+    // but they must keep a passage so audio can still be synthesized.
+    if (question.image && question.section === "listening" && !question.passage) {
+      ctx.addIssue({
+        code: "custom",
+        message: "listening questions with an image still require a passage for audio",
+        path: ["passage"],
+      });
     }
   });
 
@@ -158,6 +196,8 @@ export type LessonSummary = Pick<Lesson, "chapter" | "slug" | "title" | "categor
   vocabularyCount: number;
   practiceCount: number;
   epsQuestionCount: number;
+  /** How many EPS questions in this chapter include an exam-style image. */
+  imageQuestionCount: number;
 };
 
 export const attemptDetailSchema = z.object({
