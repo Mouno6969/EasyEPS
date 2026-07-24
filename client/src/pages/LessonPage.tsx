@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { useLocale } from "@/contexts/LocaleContext";
 import { useBasicsGate } from "@/hooks/useBasicsGate";
 import { addLocalAttempt, updateChapterProgress, useLocalBasics, useLocalLearning } from "@/lib/localProgress";
-import { speakKorean } from "@/lib/speakKorean";
+import { KOREAN_SPEECH_RATES, speakKorean, type KoreanSpeechRate } from "@/lib/speakKorean";
 import { recordWeakAttempt } from "@/lib/srs";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
@@ -62,24 +62,26 @@ function SpeakRateToggle({
   rate,
   onChange,
 }: {
-  rate: number;
-  onChange: (rate: number) => void;
+  rate: KoreanSpeechRate;
+  onChange: (rate: KoreanSpeechRate) => void;
 }) {
   return (
     <div className="inline-flex items-center gap-1 rounded-full border border-[var(--navy)]/12 bg-white p-1 text-xs font-bold">
       <button
         type="button"
-        onClick={() => onChange(0.7)}
-        className={`rounded-full px-3 py-1.5 ${rate === 0.7 ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}
+        onClick={() => onChange(KOREAN_SPEECH_RATES.slow)}
+        aria-pressed={rate === KOREAN_SPEECH_RATES.slow}
+        className={`rounded-full px-3 py-1.5 ${rate === KOREAN_SPEECH_RATES.slow ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}
       >
-        ধীর
+        ধীর 0.6×
       </button>
       <button
         type="button"
-        onClick={() => onChange(1)}
-        className={`rounded-full px-3 py-1.5 ${rate === 1 ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}
+        onClick={() => onChange(KOREAN_SPEECH_RATES.normal)}
+        aria-pressed={rate === KOREAN_SPEECH_RATES.normal}
+        className={`rounded-full px-3 py-1.5 ${rate === KOREAN_SPEECH_RATES.normal ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}
       >
-        সাধারণ
+        সাধারণ 1×
       </button>
     </div>
   );
@@ -89,10 +91,10 @@ function VocabularyView({ lesson, done, onDone }: { lesson: Lesson; done?: boole
   const [flashcards, setFlashcards] = useState(false);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
-  const [speakRate, setSpeakRate] = useState(0.85);
+  const [speakRate, setSpeakRate] = useState<KoreanSpeechRate>(KOREAN_SPEECH_RATES.normal);
   const item = lesson.vocabulary[index];
-  if (flashcards) return <section className="paper-card p-6 md:p-8"><div className="flex flex-wrap items-center justify-between gap-3"><div><p className="eyebrow">Flashcard {index + 1}/{lesson.vocabulary.length}</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">শব্দ মনে রাখুন</h2></div><div className="flex flex-wrap items-center gap-2"><SpeakRateToggle rate={speakRate === 0.7 ? 0.7 : 1} onChange={r => setSpeakRate(r === 0.7 ? 0.7 : 0.85)} /><Button variant="outline" onClick={() => setFlashcards(false)} className="rounded-full">তালিকা</Button></div></div><button onClick={() => setFlipped(value => !value)} className="mt-8 grid min-h-80 w-full place-items-center rounded-[2rem] border border-[var(--gold)]/25 bg-[radial-gradient(circle_at_top,rgba(204,166,92,.18),transparent_45%)] p-8 text-center shadow-inner"><div>{flipped ? <><p className="font-serif text-4xl font-bold text-[var(--navy)]">{item.bn}</p><p className="mt-3 text-lg text-[var(--navy)]/55">{item.en}</p><div className="mx-auto mt-7 max-w-2xl rounded-2xl bg-white/70 p-5"><p className="text-xl font-bold text-[var(--navy)]">{item.example.ko}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/60">{item.example.bn}</p></div></> : <><p className="text-sm font-bold uppercase tracking-[.2em] text-[var(--gold-dark)]">{item.pos}</p><p className="mt-5 font-serif text-6xl font-bold text-[var(--navy)]">{item.ko}</p><p className="mt-3 text-lg text-[var(--navy)]/45">{item.romanization}</p><p className="mt-7 text-sm font-semibold text-[var(--navy)]/45">অর্থ দেখতে কার্ডে চাপুন</p></>}</div></button><div className="mt-6 flex items-center justify-between"><Button variant="outline" onClick={() => { setIndex(value => Math.max(0, value - 1)); setFlipped(false); }} disabled={index === 0} className="rounded-full"><ChevronLeft className="size-4" />আগেরটি</Button><button onClick={() => void speakKorean(item.ko, { rate: speakRate })} className="grid size-11 place-items-center rounded-full bg-[var(--gold)]/18 text-[var(--gold-dark)]"><Volume2 className="size-5" /></button><Button onClick={() => { if (index === lesson.vocabulary.length - 1) onDone(); else { setIndex(value => value + 1); setFlipped(false); } }} className="rounded-full bg-[var(--navy)] text-white">{index === lesson.vocabulary.length - 1 ? "সম্পন্ন" : "পরেরটি"}<ChevronRight className="size-4" /></Button></div></section>;
-  return <section className="paper-card p-6 md:p-8"><div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="eyebrow">{lesson.vocabulary.length}টি দরকারি শব্দ</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">শব্দভাণ্ডার</h2></div><div className="flex flex-wrap items-center gap-2"><SpeakRateToggle rate={speakRate === 0.7 ? 0.7 : 1} onChange={r => setSpeakRate(r === 0.7 ? 0.7 : 0.85)} /><Button variant="outline" onClick={() => setFlashcards(true)} className="rounded-full"><RotateCcw className="size-4" />Flashcard mode</Button></div></div><div className="mt-7 grid gap-3">{lesson.vocabulary.map((word, wordIndex) => <div key={`${word.ko}-${wordIndex}`} className="group grid gap-4 rounded-2xl border border-[var(--navy)]/8 bg-white p-4 transition hover:border-[var(--gold)]/30 md:grid-cols-[1.1fr_1fr_2fr_auto] md:items-center"><div><p className="text-xl font-bold text-[var(--navy)]">{word.ko}</p><p className="mt-1 text-xs text-[var(--navy)]/42">{word.romanization} · {word.pos}</p></div><div><p className="font-bold text-[var(--navy)]">{word.bn}</p><p className="text-xs text-[var(--navy)]/45">{word.en}</p></div><div className="rounded-xl bg-[var(--cream)] px-4 py-3"><p className="font-semibold text-[var(--navy)]">{word.example.ko}</p><p className="mt-1 text-xs leading-5 text-[var(--navy)]/52">{word.example.bn}</p>{word.pronunciationTipBn ? <p className="mt-2 rounded-lg bg-[var(--gold)]/12 px-3 py-1.5 text-xs leading-5 text-[var(--gold-dark)]"><strong>উচ্চারণ:</strong> {word.pronunciationTipBn}</p> : null}</div><button onClick={() => void speakKorean(`${word.ko}. ${word.example.ko}`, { rate: speakRate })} aria-label="Play Korean" className="grid size-10 place-items-center rounded-full bg-[var(--gold)]/14 text-[var(--gold-dark)]"><Volume2 className="size-4" /></button></div>)}</div><CompleteButton done={done} onClick={onDone}>শব্দভাণ্ডার সম্পন্ন করুন</CompleteButton></section>;
+  if (flashcards) return <section className="paper-card p-6 md:p-8"><div className="flex flex-wrap items-center justify-between gap-3"><div><p className="eyebrow">Flashcard {index + 1}/{lesson.vocabulary.length}</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">শব্দ মনে রাখুন</h2></div><div className="flex flex-wrap items-center gap-2"><SpeakRateToggle rate={speakRate} onChange={setSpeakRate} /><Button variant="outline" onClick={() => setFlashcards(false)} className="rounded-full">তালিকা</Button></div></div><button onClick={() => setFlipped(value => !value)} className="mt-8 grid min-h-80 w-full place-items-center rounded-[2rem] border border-[var(--gold)]/25 bg-[radial-gradient(circle_at_top,rgba(204,166,92,.18),transparent_45%)] p-8 text-center shadow-inner"><div>{flipped ? <><p className="font-serif text-4xl font-bold text-[var(--navy)]">{item.bn}</p><p className="mt-3 text-lg text-[var(--navy)]/55">{item.en}</p><div className="mx-auto mt-7 max-w-2xl rounded-2xl bg-white/70 p-5"><p className="text-xl font-bold text-[var(--navy)]">{item.example.ko}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/60">{item.example.bn}</p></div></> : <><p className="text-sm font-bold uppercase tracking-[.2em] text-[var(--gold-dark)]">{item.pos}</p><p className="mt-5 font-serif text-6xl font-bold text-[var(--navy)]">{item.ko}</p><p className="mt-3 text-lg text-[var(--navy)]/45">{item.romanization}</p><p className="mt-7 text-sm font-semibold text-[var(--navy)]/45">অর্থ দেখতে কার্ডে চাপুন</p></>}</div></button><div className="mt-6 flex items-center justify-between"><Button variant="outline" onClick={() => { setIndex(value => Math.max(0, value - 1)); setFlipped(false); }} disabled={index === 0} className="rounded-full"><ChevronLeft className="size-4" />আগেরটি</Button><button onClick={() => void speakKorean(item.ko, { rate: speakRate })} className="grid size-11 place-items-center rounded-full bg-[var(--gold)]/18 text-[var(--gold-dark)]"><Volume2 className="size-5" /></button><Button onClick={() => { if (index === lesson.vocabulary.length - 1) onDone(); else { setIndex(value => value + 1); setFlipped(false); } }} className="rounded-full bg-[var(--navy)] text-white">{index === lesson.vocabulary.length - 1 ? "সম্পন্ন" : "পরেরটি"}<ChevronRight className="size-4" /></Button></div></section>;
+  return <section className="paper-card p-6 md:p-8"><div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="eyebrow">{lesson.vocabulary.length}টি দরকারি শব্দ</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">শব্দভাণ্ডার</h2></div><div className="flex flex-wrap items-center gap-2"><SpeakRateToggle rate={speakRate} onChange={setSpeakRate} /><Button variant="outline" onClick={() => setFlashcards(true)} className="rounded-full"><RotateCcw className="size-4" />Flashcard mode</Button></div></div><div className="mt-7 grid gap-3">{lesson.vocabulary.map((word, wordIndex) => <div key={`${word.ko}-${wordIndex}`} className="group grid gap-4 rounded-2xl border border-[var(--navy)]/8 bg-white p-4 transition hover:border-[var(--gold)]/30 md:grid-cols-[1.1fr_1fr_2fr_auto] md:items-center"><div><p className="text-xl font-bold text-[var(--navy)]">{word.ko}</p><p className="mt-1 text-xs text-[var(--navy)]/42">{word.romanization} · {word.pos}</p></div><div><p className="font-bold text-[var(--navy)]">{word.bn}</p><p className="text-xs text-[var(--navy)]/45">{word.en}</p></div><div className="rounded-xl bg-[var(--cream)] px-4 py-3"><p className="font-semibold text-[var(--navy)]">{word.example.ko}</p><p className="mt-1 text-xs leading-5 text-[var(--navy)]/52">{word.example.bn}</p>{word.pronunciationTipBn ? <p className="mt-2 rounded-lg bg-[var(--gold)]/12 px-3 py-1.5 text-xs leading-5 text-[var(--gold-dark)]"><strong>উচ্চারণ:</strong> {word.pronunciationTipBn}</p> : null}</div><button onClick={() => void speakKorean(`${word.ko}. ${word.example.ko}`, { rate: speakRate })} aria-label="Play Korean" className="grid size-10 place-items-center rounded-full bg-[var(--gold)]/14 text-[var(--gold-dark)]"><Volume2 className="size-4" /></button></div>)}</div><CompleteButton done={done} onClick={onDone}>শব্দভাণ্ডার সম্পন্ন করুন</CompleteButton></section>;
 }
 
 function PracticeRunner({
