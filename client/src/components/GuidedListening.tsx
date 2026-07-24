@@ -1,4 +1,5 @@
-import { KOREAN_SPEECH_RATES, speakKorean, type KoreanSpeechRate } from "@/lib/speakKorean";
+import { speakDialogue } from "@/lib/dialogueSpeech";
+import { KOREAN_SPEECH_RATES, type KoreanSpeechRate } from "@/lib/speakKorean";
 import { Gauge, Headphones, RotateCcw, Volume2 } from "lucide-react";
 import { useState } from "react";
 
@@ -22,7 +23,8 @@ export function GuidedListening({
   const play = () => {
     setPlays(value => value + 1);
     setPlaying(true);
-    void speakKorean(text, { rate }).finally(() => setPlaying(false));
+    // Dialogue-aware: two-speaker passages play with distinct voices per speaker.
+    void speakDialogue(text, { rate }).finally(() => setPlaying(false));
   };
 
   const guidance =

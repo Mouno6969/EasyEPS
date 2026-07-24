@@ -33,6 +33,19 @@ export type SpeakKoreanOptions = {
    * (display text can stay as jamo while audio uses a clearer CV form).
    */
   audioText?: string;
+  /**
+   * Voice pitch (0–2, engine default 1). Dialogue playback uses distinct
+   * pitches per speaker when only a single Korean voice is installed.
+   */
+  pitch?: number;
+  /** Explicit voice to use (dialogue playback picks gendered voices). */
+  voice?: SpeechSynthesisVoice;
+  /**
+   * Part of a multi-utterance sequence (e.g. a dialogue). When true, this call
+   * does not cancel the in-flight utterance chain — the caller owns
+   * cancellation and ordering. Standalone calls keep the default behavior.
+   */
+  chained?: boolean;
   /** Optional error hook (in addition to toast). Never causes rejection. */
   onError?: (error: Error) => void;
 };
@@ -71,6 +84,21 @@ function pickKoreanVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice |
   const exact = voices.find(voice => normalizeLang(voice.lang) === "ko-kr");
   if (exact) return exact;
   return voices.find(voice => normalizeLang(voice.lang).startsWith("ko"));
+}
+
+/** All installed Korean voices (ko-KR first). Empty when none are loaded yet. */
+export function getKoreanVoices(): SpeechSynthesisVoice[] {
+  if (!isSpeechSupported()) return [];
+  const voices = window.speechSynthesis.getVoices().filter(voice => normalizeLang(voice.lang).startsWith("ko"));
+  return voices.sort((a, b) => Number(normalizeLang(b.lang) === "ko-kr") - Number(normalizeLang(a.lang) === "ko-kr"));
+}
+
+const MIN_PITCH = 0;
+const MAX_PITCH = 2;
+
+function clampPitch(pitch: number): number {
+  if (!Number.isFinite(pitch)) return 1;
+  return Math.min(MAX_PITCH, Math.max(MIN_PITCH, pitch));
 }
 
 function clampRate(rate: number): number {
@@ -113,19 +141,23 @@ export async function speakKorean(text: string, opts?: SpeakKoreanOptions): Prom
   const spoken = (opts?.audioText ?? text).trim();
   if (!spoken) return false;
 
+  const chained = opts?.chained === true;
   // Bump generation + cancel so concurrent taps only keep the latest speak.
-  const generation = ++speakGeneration;
-  cancelSpeech();
+  // Chained utterances join the current generation instead of cancelling it,
+  // so a dialogue sequence is not cut off by its own next turn.
+  const generation = chained ? speakGeneration : ++speakGeneration;
+  if (!chained) cancelSpeech();
 
   // Use currently available voices only — never await before speak()
   // (preserves user-gesture activation on iOS Safari).
   const voices = window.speechSynthesis.getVoices();
-  const voice = pickKoreanVoice(voices);
+  const voice = opts?.voice ?? pickKoreanVoice(voices);
   if (voices.length === 0) {
     warmVoicesInBackground();
   }
 
   const rate = clampRate(opts?.rate ?? DEFAULT_RATE);
+  const pitch = clampPitch(opts?.pitch ?? 1);
 
   return new Promise<boolean>(resolve => {
     // Another tap may have started already.
@@ -137,6 +169,7 @@ export async function speakKorean(text: string, opts?: SpeakKoreanOptions): Prom
     const utterance = new SpeechSynthesisUtterance(spoken);
     utterance.lang = "ko-KR";
     utterance.rate = rate;
+    utterance.pitch = pitch;
     if (voice) utterance.voice = voice;
 
     utterance.onend = () => {
@@ -166,7 +199,7 @@ export async function speakKorean(text: string, opts?: SpeakKoreanOptions): Prom
       resolve(false);
       return;
     }
-    cancelSpeech();
+    if (!chained) cancelSpeech();
     window.speechSynthesis.speak(utterance);
   });
 }

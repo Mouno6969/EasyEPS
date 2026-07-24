@@ -1,8 +1,9 @@
+import { DialogueScript } from "@/components/DialogueScript";
 import { EpsQuestionImage } from "@/components/EpsQuestionImage";
 import { GuidedListening } from "@/components/GuidedListening";
 import { Button } from "@/components/ui/button";
 import { addLocalAttempt, useLocalLearning } from "@/lib/localProgress";
-import { speakKorean } from "@/lib/speakKorean";
+import { speakDialogue } from "@/lib/dialogueSpeech";
 import { listDueReviews, listRecentWeak, recordWeakAttempt } from "@/lib/srs";
 import { deriveSmartMockFocus } from "@/lib/smartMock";
 import { getWeeklyChallenge, recordWeeklyChallengeScore } from "@/lib/weeklyChallenge";
@@ -149,9 +150,9 @@ export default function MockTestPage() {
             {question.passage ? (
               <div className="mt-4 rounded-2xl bg-[var(--cream)] p-4 text-sm leading-7 text-[var(--navy)]/75">
                 {question.section === "listening" ? <p className="mb-2 text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">শোনার script</p> : null}
-                <p className="font-semibold text-[var(--navy)]">{question.passage}</p>
+                {question.section === "listening" ? <DialogueScript passage={question.passage} /> : <p className="font-semibold text-[var(--navy)]">{question.passage}</p>}
                 {question.section === "listening" ? (
-                  <button type="button" onClick={() => void speakKorean(question.passage, { rate: 0.82 })} className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-[var(--gold-dark)]">
+                  <button type="button" onClick={() => void speakDialogue(question.passage, { rate: 0.82 })} className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-[var(--gold-dark)]">
                     <Volume2 className="size-4" />আবার শুনুন
                   </button>
                 ) : null}

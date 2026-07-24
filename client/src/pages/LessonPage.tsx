@@ -1,4 +1,5 @@
 import { BasicsCtaBanner, BasicsLockCard } from "@/components/basics/BasicsLockCard";
+import { DialogueScript } from "@/components/DialogueScript";
 import { EpsQuestionImage } from "@/components/EpsQuestionImage";
 import { GuidedListening } from "@/components/GuidedListening";
 import { PronunciationCoach } from "@/components/PronunciationCoach";
@@ -7,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { useLocale } from "@/contexts/LocaleContext";
 import { useBasicsGate } from "@/hooks/useBasicsGate";
 import { addLocalAttempt, updateChapterProgress, useLocalBasics, useLocalLearning } from "@/lib/localProgress";
+import { speakDialogue } from "@/lib/dialogueSpeech";
 import { KOREAN_SPEECH_RATES, speakKorean, type KoreanSpeechRate } from "@/lib/speakKorean";
 import { recordWeakAttempt } from "@/lib/srs";
 import { trpc } from "@/lib/trpc";
@@ -170,9 +172,9 @@ function PracticeRunner({
         ) : (
           <div className="mt-4 rounded-2xl bg-[var(--cream)] p-4 text-left font-semibold leading-7 text-[var(--navy)]">
             {isListening && submitted ? <p className="mb-2 text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">শোনার script (জমার পর)</p> : null}
-            {passageText}
+            {isListening ? <DialogueScript passage={passageText} /> : passageText}
             {isListening && submitted ? (
-              <button type="button" onClick={() => void speakKorean(passageText, { rate: 0.82 })} className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-[var(--gold-dark)]">
+              <button type="button" onClick={() => void speakDialogue(passageText, { rate: 0.82 })} className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-[var(--gold-dark)]">
                 <Volume2 className="size-4" />আবার শুনুন
               </button>
             ) : null}
