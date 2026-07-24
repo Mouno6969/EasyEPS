@@ -12,7 +12,7 @@
     "test": "vitest run",
     "db:push": "drizzle-kit generate && drizzle-kit migrate",
     "db:seed": "node scripts/seed-lessons.mjs",
-    "content:audit": "python3 scripts/audit_runtime_contract.py"
+    "content:audit": "python3 scripts/audit_runtime_contract.py && python3 scripts/audit-listening-dialogues.py"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.693.0",

@@ -33,6 +33,19 @@ export type SpeakKoreanOptions = {
    * (display text can stay as jamo while audio uses a clearer CV form).
    */
   audioText?: string;
+  /**
+   * Voice pitch (0–2, engine default 1). Dialogue playback uses distinct
+   * pitches per speaker when only a single Korean voice is installed.
+   */
+  pitch?: number;
+  /** Explicit voice to use (dialogue playback picks gendered voices). */
+  voice?: SpeechSynthesisVoice;
+  /**
+   * Internal sequence token for multi-utterance playback. Calls that share a
+   * token never cancel one another, while any newer standalone playback or
+   * explicit cancellation invalidates the whole sequence.
+   */
+  sequence?: SpeechSequence;
   /** Optional error hook (in addition to toast). Never causes rejection. */
   onError?: (error: Error) => void;
 };
@@ -45,17 +58,44 @@ const UNSUPPORTED_TOAST = "এই browser-এ voice playback নেই";
 /** Monotonic token so concurrent taps only keep the latest utterance. */
 let speakGeneration = 0;
 
+/** Resolver for the one utterance that can be active at a time. */
+let settleActiveSpeech: ((result: boolean) => void) | null = null;
+
 /** One-shot voiceschanged warm-up so later taps can attach a ko voice. */
 let voicesWarmStarted = false;
+
+export type SpeechSequence = number;
 
 export function isSpeechSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
-/** Cancel any in-flight utterance. Safe when speech is unsupported. */
-export function cancelSpeech(): void {
+function cancelNativeSpeech(): void {
   if (!isSpeechSupported()) return;
   window.speechSynthesis.cancel();
+}
+
+function invalidateCurrentSpeech(): SpeechSequence {
+  speakGeneration += 1;
+  settleActiveSpeech?.(false);
+  settleActiveSpeech = null;
+  cancelNativeSpeech();
+  return speakGeneration;
+}
+
+/** Start a cancellable multi-utterance sequence and stop older playback. */
+export function beginSpeechSequence(): SpeechSequence {
+  return invalidateCurrentSpeech();
+}
+
+/** Whether a multi-utterance sequence still owns speech playback. */
+export function isSpeechSequenceCurrent(sequence: SpeechSequence): boolean {
+  return sequence === speakGeneration;
+}
+
+/** Cancel any in-flight utterance or pending multi-turn sequence. */
+export function cancelSpeech(): void {
+  invalidateCurrentSpeech();
 }
 
 /** @deprecated Prefer {@link cancelSpeech}. Alias for design-doc naming. */
@@ -71,6 +111,21 @@ function pickKoreanVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice |
   const exact = voices.find(voice => normalizeLang(voice.lang) === "ko-kr");
   if (exact) return exact;
   return voices.find(voice => normalizeLang(voice.lang).startsWith("ko"));
+}
+
+/** All installed Korean voices (ko-KR first). Empty when none are loaded yet. */
+export function getKoreanVoices(): SpeechSynthesisVoice[] {
+  if (!isSpeechSupported()) return [];
+  const voices = window.speechSynthesis.getVoices().filter(voice => normalizeLang(voice.lang).startsWith("ko"));
+  return voices.sort((a, b) => Number(normalizeLang(b.lang) === "ko-kr") - Number(normalizeLang(a.lang) === "ko-kr"));
+}
+
+const MIN_PITCH = 0;
+const MAX_PITCH = 2;
+
+function clampPitch(pitch: number): number {
+  if (!Number.isFinite(pitch)) return 1;
+  return Math.min(MAX_PITCH, Math.max(MIN_PITCH, pitch));
 }
 
 function clampRate(rate: number): number {
@@ -113,60 +168,65 @@ export async function speakKorean(text: string, opts?: SpeakKoreanOptions): Prom
   const spoken = (opts?.audioText ?? text).trim();
   if (!spoken) return false;
 
-  // Bump generation + cancel so concurrent taps only keep the latest speak.
-  const generation = ++speakGeneration;
-  cancelSpeech();
+  // Standalone speech starts a fresh sequence. Multi-turn callers pass the
+  // token returned by beginSpeechSequence() so their turns share ownership.
+  const generation = opts?.sequence ?? beginSpeechSequence();
+  if (!isSpeechSequenceCurrent(generation)) return false;
 
   // Use currently available voices only — never await before speak()
   // (preserves user-gesture activation on iOS Safari).
   const voices = window.speechSynthesis.getVoices();
-  const voice = pickKoreanVoice(voices);
+  const voice = opts?.voice ?? pickKoreanVoice(voices);
   if (voices.length === 0) {
     warmVoicesInBackground();
   }
 
   const rate = clampRate(opts?.rate ?? DEFAULT_RATE);
+  const pitch = clampPitch(opts?.pitch ?? 1);
 
   return new Promise<boolean>(resolve => {
     // Another tap may have started already.
-    if (generation !== speakGeneration) {
+    if (!isSpeechSequenceCurrent(generation)) {
       resolve(false);
       return;
     }
 
     const utterance = new SpeechSynthesisUtterance(spoken);
+    let settled = false;
+    const settle = (result: boolean) => {
+      if (settled) return;
+      settled = true;
+      if (settleActiveSpeech === settle) settleActiveSpeech = null;
+      resolve(result);
+    };
+    settleActiveSpeech = settle;
     utterance.lang = "ko-KR";
     utterance.rate = rate;
+    utterance.pitch = pitch;
     if (voice) utterance.voice = voice;
 
     utterance.onend = () => {
-      if (generation !== speakGeneration) {
-        resolve(false);
-        return;
-      }
-      resolve(true);
+      settle(isSpeechSequenceCurrent(generation));
     };
 
     utterance.onerror = event => {
       // cancel()/interrupted often surfaces as error — treat as settled, no toast.
       const err = event.error;
       if (err === "canceled" || err === "interrupted") {
-        resolve(false);
+        settle(false);
         return;
       }
-      if (generation === speakGeneration) {
+      if (isSpeechSequenceCurrent(generation)) {
         toast.error(UNSUPPORTED_TOAST);
         opts?.onError?.(new Error(err ? `speechSynthesis: ${err}` : "speechSynthesis error"));
       }
-      resolve(false);
+      settle(false);
     };
 
-    // Cancel again immediately before speak to close concurrent races.
-    if (generation !== speakGeneration) {
-      resolve(false);
+    if (!isSpeechSequenceCurrent(generation)) {
+      settle(false);
       return;
     }
-    cancelSpeech();
     window.speechSynthesis.speak(utterance);
   });
 }
