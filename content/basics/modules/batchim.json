@@ -6,15 +6,16 @@
     "ko": "받침 입문",
     "en": "Final Consonants Intro"
   },
-  "estimatedMinutes": 25,
+  "estimatedMinutes": 30,
   "requirements": {
     "requiredStepIds": [
       "b-explain",
       "b-tense",
       "b-speak",
-      "b-quiz"
+      "b-quiz",
+      "b-drill"
     ],
-    "minSpeakItems": 4,
+    "minSpeakItems": 8,
     "minWriteItems": 0,
     "minBuilderItems": 0,
     "passRatio": 0.7
@@ -87,7 +88,7 @@
     {
       "id": "b-speak",
       "type": "speak",
-      "minListens": 1,
+      "minListens": 2,
       "items": [
         {
           "id": "b-sp1",
@@ -136,6 +137,54 @@
           "audioText": "음악",
           "bn": "উমাক — মিউজিক (লিংকিং)",
           "en": "music [으막]"
+        },
+        {
+          "id": "b-sp7",
+          "text": "부엌",
+          "romanization": "bu-eok",
+          "audioText": "부엌",
+          "bn": "পুঅক — রান্নাঘর (ㅋ ব্যাচিম)",
+          "en": "kitchen (ㅋ batchim)"
+        },
+        {
+          "id": "b-sp8",
+          "text": "밭",
+          "romanization": "bat",
+          "audioText": "밭",
+          "bn": "পাত — ক্ষেত (ㅌ ব্যাচিম)",
+          "en": "field (ㅌ batchim)"
+        },
+        {
+          "id": "b-sp9",
+          "text": "앞",
+          "romanization": "ap",
+          "audioText": "앞",
+          "bn": "আপ — সামনে (ㅍ ব্যাচিম)",
+          "en": "front (ㅍ batchim)"
+        },
+        {
+          "id": "b-sp10",
+          "text": "꽃",
+          "romanization": "kkot",
+          "audioText": "꽃",
+          "bn": "ক্কোত — ফুল (ㅊ ব্যাচিম)",
+          "en": "flower (ㅊ batchim)"
+        },
+        {
+          "id": "b-sp11",
+          "text": "옷",
+          "romanization": "ot",
+          "audioText": "옷",
+          "bn": "ওত — কাপড় (ㅅ ব্যাচিম)",
+          "en": "clothes (ㅅ batchim)"
+        },
+        {
+          "id": "b-sp12",
+          "text": "밖",
+          "romanization": "bak",
+          "audioText": "밖",
+          "bn": "পাক — বাইরে (ㄲ ব্যাচিম)",
+          "en": "outside (ㄲ batchim)"
         }
       ],
       "fallbackQuizIds": []
@@ -256,6 +305,154 @@
             }
           ],
           "explanationBn": "ব্যাচিমের পরে কঠিন উচ্চারণ ও লিংকিং নিয়ম",
+          "topic": "batchim"
+        }
+      ]
+    },
+    {
+      "id": "b-drill",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "b-d-q1",
+          "kind": "multiple-choice",
+          "promptBn": "밭 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 밭?",
+          "options": ["ㅂ", "ㅏ", "ㅌ", "ㄷ"],
+          "answer": 2,
+          "explanationBn": "밭 = ㅂ+ㅏ+ㅌ; ব্যাচিম ㅌ (উচ্চারণ ত্)।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q2",
+          "kind": "multiple-choice",
+          "promptBn": "앞 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 앞?",
+          "options": ["ㅇ", "ㅏ", "ㅂ", "ㅍ"],
+          "answer": 3,
+          "explanationBn": "앞 = ㅇ+ㅏ+ㅍ; ব্যাচিম ㅍ (উচ্চারণ প্)।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q3",
+          "kind": "multiple-choice",
+          "promptBn": "부엌 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 부엌?",
+          "options": ["ㄱ", "ㅋ", "ㅂ", "ㅇ"],
+          "answer": 1,
+          "explanationBn": "부엌-এর শেষ অক্ষর 엌-এ ব্যাচিম ㅋ (উচ্চারণ ক্)।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q4",
+          "kind": "multiple-choice",
+          "promptBn": "꽃 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 꽃?",
+          "options": ["ㄲ", "ㅗ", "ㅊ", "ㅈ"],
+          "answer": 2,
+          "explanationBn": "꽃 = ㄲ+ㅗ+ㅊ; ব্যাচিম ㅊ (উচ্চারণ ত্)।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q5",
+          "kind": "multiple-choice",
+          "promptBn": "ㅊ, ㅅ, ㅈ, ㅌ ব্যাচিম হিসেবে কেমন শোনায়?",
+          "promptEn": "How do ㅊ, ㅅ, ㅈ, ㅌ sound as batchim?",
+          "options": ["ত্ (t)", "স (s)", "ছ (ch)", "প্ (p)"],
+          "answer": 0,
+          "explanationBn": "ㄷ ㅌ ㅅ ㅆ ㅈ ㅊ ㅎ — সবগুলো ব্যাচিমে ত্ (t) শোনায়।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q6",
+          "kind": "multiple-choice",
+          "promptBn": "밖 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 밖?",
+          "options": ["ㄱ", "ㄲ", "ㅂ", "ㅋ"],
+          "answer": 1,
+          "explanationBn": "밖 = ㅂ+ㅏ+ㄲ; ডাবল ব্যঞ্জন ㄲ-ও ব্যাচিম হতে পারে (উচ্চারণ ক্)।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "꽃",
+          "options": ["꼬", "꽃", "곧", "코"],
+          "answer": 1,
+          "explanationBn": "꽃 (ক্কোত) — ফুল।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "앞",
+          "options": ["아", "압", "앞", "안"],
+          "answer": 2,
+          "explanationBn": "앞 (আপ) — সামনে; ব্যাচিম ㅍ।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "문",
+          "options": ["무", "문", "물", "뭄"],
+          "answer": 1,
+          "explanationBn": "문 (মুন) — দরজা; ব্যাচিম ㄴ।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "밥",
+          "options": ["바", "반", "밤", "밥"],
+          "answer": 3,
+          "explanationBn": "밥 (পাপ) — ভাত; ব্যাচিম ㅂ।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q11",
+          "kind": "matching",
+          "promptBn": "শব্দ ও ব্যাচিম মেলান",
+          "promptEn": "Match word with its batchim",
+          "pairs": [
+            { "left": "밭", "right": "ㅌ" },
+            { "left": "앞", "right": "ㅍ" },
+            { "left": "부엌", "right": "ㅋ" },
+            { "left": "꽃", "right": "ㅊ" }
+          ],
+          "explanationBn": "শ্বাসযুক্ত বর্ণগুলোও ব্যাচিম হয়: ㅌ ㅍ ㅋ ㅊ।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q12",
+          "kind": "matching",
+          "promptBn": "ব্যাচিম উচ্চারণ মেলান",
+          "promptEn": "Match batchim with its sound",
+          "pairs": [
+            { "left": "ㄱ/ㅋ/ㄲ", "right": "ক্" },
+            { "left": "ㅂ/ㅍ", "right": "প্" },
+            { "left": "ㄷ/ㅌ/ㅅ/ㅊ", "right": "ত্" },
+            { "left": "ㅇ", "right": "ং" }
+          ],
+          "explanationBn": "ব্যাচিমে ৭টি মূল ধ্বনি: ক্ ন্ ত্ ল্ ম্ প্ ং।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-q13",
+          "kind": "multiple-choice",
+          "promptBn": "한국어 শব্দের সঠিক উচ্চারণ (লিংকিং)?",
+          "promptEn": "Correct linked pronunciation of 한국어?",
+          "options": ["[한국어]", "[한구거]", "[한구고]", "[항우거]"],
+          "answer": 1,
+          "explanationBn": "ㄱ ব্যাচিম পরের ㅇ-অক্ষরে চলে যায়: 한국어=[한구거]।",
           "topic": "batchim"
         }
       ]

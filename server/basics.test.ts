@@ -350,21 +350,28 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
     expect(isModuleComplete(consonants, dupSpeak)).toBe(true);
   });
 
-  it("speak-lab completes without quiz when speak minima met", () => {
+  it("speak-lab completes with speak minima and passing quiz ratio", () => {
     const speakLab = getBasicsModule("speak-lab")!;
-    expect(speakLab.steps.some(s => s.type === "quiz")).toBe(false);
+    expect(speakLab.steps.some(s => s.type === "quiz")).toBe(true);
     const speakIds = speakLab.steps
       .filter(s => s.type === "speak")
       .flatMap(s => s.items.map(i => i.id));
+    const quizTotal = getModuleQuizQuestions(speakLab).length;
     const progress: BasicsModuleProgress = {
       moduleId: "speak-lab",
       stepsDone: [...speakLab.requirements.requiredStepIds],
       speakItemsDone: speakIds.slice(0, speakLab.requirements.minSpeakItems),
       writeItemsDone: [],
       builderItemsDone: [],
+      quizScore: quizTotal,
+      quizTotal,
       updatedAt: new Date().toISOString(),
     };
     expect(isModuleComplete(speakLab, progress)).toBe(true);
+
+    // Fails when quiz ratio is below passRatio
+    const failing = { ...progress, quizScore: 0 };
+    expect(isModuleComplete(speakLab, failing)).toBe(false);
   });
 
   it("write-lab requires unique write items", () => {
@@ -382,6 +389,9 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
     };
     expect(isModuleComplete(writeLab, almost)).toBe(false);
     almost.writeItemsDone = writeIds.slice(0, writeLab.requirements.minWriteItems);
+    const writeQuizTotal = getModuleQuizQuestions(writeLab).length;
+    almost.quizScore = writeQuizTotal;
+    almost.quizTotal = writeQuizTotal;
     expect(isModuleComplete(writeLab, almost)).toBe(true);
   });
 
@@ -491,14 +501,15 @@ describe("scoreBasicsQuiz", () => {
   it("accepts string keys in matching selections (JSON-safe)", () => {
     const module = getBasicsModule("consonants")!;
     const questions = getModuleQuizQuestions(module);
-    const matchQ = questions.find(q => q.kind === "matching")!;
     const answers: Record<string, number> = {};
+    const matching: Record<string, Record<string, string>> = {};
     for (const q of questions) {
-      if (q.kind !== "matching" && q.answer != null) answers[q.id] = q.answer;
+      if (q.kind === "matching") {
+        matching[q.id] = Object.fromEntries(q.pairs.map((pair, i) => [String(i), pair.right]));
+      } else if (q.answer != null) {
+        answers[q.id] = q.answer;
+      }
     }
-    const matching = {
-      [matchQ.id]: Object.fromEntries(matchQ.pairs.map((pair, i) => [String(i), pair.right])),
-    };
     const result = scoreBasicsQuiz(module, answers, matching);
     expect(result.score).toBe(questions.length);
   });

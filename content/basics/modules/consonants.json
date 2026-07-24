@@ -6,11 +6,11 @@
     "ko": "기본 자음",
     "en": "Basic Consonants"
   },
-  "estimatedMinutes": 30,
+  "estimatedMinutes": 45,
   "requirements": {
-    "requiredStepIds": ["c-intro", "c-grid", "c-double-grid", "c-speak", "c-write", "c-quiz"],
-    "minSpeakItems": 4,
-    "minWriteItems": 3,
+    "requiredStepIds": ["c-intro", "c-grid", "c-double-grid", "c-speak", "c-speak-2", "c-write", "c-quiz", "c-drill-1", "c-drill-2"],
+    "minSpeakItems": 14,
+    "minWriteItems": 6,
     "minBuilderItems": 0,
     "passRatio": 0.7
   },
@@ -27,17 +27,20 @@
         "bn": [
           "কোরিয়ান ভাষায় মোট ১৯টি ব্যঞ্জনবর্ণ আছে — মৌলিক ব্যঞ্জনবর্ণ ১৪টি (기본 자음) এবং যুক্ত/যৌগিক ব্যঞ্জনবর্ণ ৫টি (된소리 자음)।",
           "প্রতিটি ব্যঞ্জনের দুইটি উচ্চারণ মনে রাখুন: শব্দের শুরুতে এক রকম, ব্যাচিম (শেষ অবস্থান) হিসেবে আরেক রকম।",
-          "বিশেষ নিয়ম: ㅅ/ㅆ এর ডানে 'ㅣ' থাকলে = স, না থাকলে = ছ। যেমন- 시간(সিগান)=সময়, 사람(ছারাম)=মানুষ।"
+          "বিশেষ নিয়ম: ㅅ/ㅆ এর ডানে 'ㅣ' থাকলে = স, না থাকলে = ছ। যেমন- 시간(সিগান)=সময়, 사람(ছারাম)=মানুষ।",
+          "মনে রাখার টিপ: ㄱ→ㅋ, ㄷ→ㅌ, ㅂ→ㅍ, ㅈ→ㅊ — একটি অতিরিক্ত রেখা যোগ হলে শ্বাসযুক্ত (aspirated) উচ্চারণ হয়। এই চারটি জোড়া মিলিয়ে শিখলে ㅋ ㅌ ㅍ ㅊ কখনো ভুলবেন না।"
         ],
         "en": [
           "Korean has 19 consonants — 14 basic consonants and 5 double (tense) consonants.",
           "Each consonant has two pronunciations: one at the start of a syllable and one as a final consonant (batchim).",
-          "Special rule: ㅅ/ㅆ followed by ㅣ sounds like 's', otherwise closer to 'ch'. E.g. 시간 (sigan) = time, 사람 (saram) = person."
+          "Special rule: ㅅ/ㅆ followed by ㅣ sounds like 's', otherwise closer to 'ch'. E.g. 시간 (sigan) = time, 사람 (saram) = person.",
+          "Memory tip: ㄱ→ㅋ, ㄷ→ㅌ, ㅂ→ㅍ, ㅈ→ㅊ — adding one extra stroke makes the aspirated sound. Learn these four pairs together and you will never confuse ㅋ ㅌ ㅍ ㅊ."
         ],
         "ko": [
           "한국어에는 자음이 19개 있습니다 — 기본 자음 14개와 된소리 자음 5개.",
           "각 자음은 초성과 받침에서 발음이 다릅니다.",
-          "특별 규칙: ㅅ/ㅆ 뒤에 ㅣ가 오면 '스' 소리가 납니다. 예: 시간, 사람."
+          "특별 규칙: ㅅ/ㅆ 뒤에 ㅣ가 오면 '스' 소리가 납니다. 예: 시간, 사람.",
+          "암기 팁: ㄱ→ㅋ, ㄷ→ㅌ, ㅂ→ㅍ, ㅈ→ㅊ — 획을 하나 더하면 거센소리가 됩니다."
         ]
       }
     },
@@ -75,16 +78,35 @@
     {
       "id": "c-speak",
       "type": "speak",
-      "minListens": 1,
+      "minListens": 2,
       "items": [
-        { "id": "c-s-g", "text": "가", "romanization": "ga", "audioText": "가", "bn": "গা", "en": "ga" },
-        { "id": "c-s-n", "text": "나", "romanization": "na", "audioText": "나", "bn": "না", "en": "na" },
-        { "id": "c-s-d", "text": "다", "romanization": "da", "audioText": "다", "bn": "দা", "en": "da" },
-        { "id": "c-s-r", "text": "라", "romanization": "ra", "audioText": "라", "bn": "রা", "en": "ra" },
-        { "id": "c-s-m", "text": "마", "romanization": "ma", "audioText": "마", "bn": "মা", "en": "ma" },
-        { "id": "c-s-b", "text": "바", "romanization": "ba", "audioText": "바", "bn": "বা", "en": "ba" },
-        { "id": "c-s-s", "text": "사", "romanization": "sa", "audioText": "사", "bn": "ছা", "en": "sa" },
-        { "id": "c-s-h", "text": "하", "romanization": "ha", "audioText": "하", "bn": "হা", "en": "ha" }
+        { "id": "c-s-g", "text": "가", "romanization": "ga", "audioText": "가", "bn": "গা (ㄱ)", "en": "ga (ㄱ)" },
+        { "id": "c-s-n", "text": "나", "romanization": "na", "audioText": "나", "bn": "না (ㄴ)", "en": "na (ㄴ)" },
+        { "id": "c-s-d", "text": "다", "romanization": "da", "audioText": "다", "bn": "দা (ㄷ)", "en": "da (ㄷ)" },
+        { "id": "c-s-r", "text": "라", "romanization": "ra", "audioText": "라", "bn": "রা (ㄹ)", "en": "ra (ㄹ)" },
+        { "id": "c-s-m", "text": "마", "romanization": "ma", "audioText": "마", "bn": "মা (ㅁ)", "en": "ma (ㅁ)" },
+        { "id": "c-s-b", "text": "바", "romanization": "ba", "audioText": "바", "bn": "বা (ㅂ)", "en": "ba (ㅂ)" },
+        { "id": "c-s-s", "text": "사", "romanization": "sa", "audioText": "사", "bn": "ছা (ㅅ)", "en": "sa (ㅅ)" },
+        { "id": "c-s-ng", "text": "아", "romanization": "a", "audioText": "아", "bn": "আ (নীরব ㅇ)", "en": "a (silent ㅇ)" },
+        { "id": "c-s-j", "text": "자", "romanization": "ja", "audioText": "자", "bn": "জা (ㅈ)", "en": "ja (ㅈ)" },
+        { "id": "c-s-h", "text": "하", "romanization": "ha", "audioText": "하", "bn": "হা (ㅎ)", "en": "ha (ㅎ)" }
+      ],
+      "fallbackQuizIds": []
+    },
+    {
+      "id": "c-speak-2",
+      "type": "speak",
+      "minListens": 2,
+      "items": [
+        { "id": "c-s-ch", "text": "차", "romanization": "cha", "audioText": "차", "bn": "ছা (ㅊ — শ্বাসযুক্ত)", "en": "cha (ㅊ aspirated)" },
+        { "id": "c-s-k", "text": "카", "romanization": "ka", "audioText": "카", "bn": "খা (ㅋ — শ্বাসযুক্ত)", "en": "ka (ㅋ aspirated)" },
+        { "id": "c-s-t", "text": "타", "romanization": "ta", "audioText": "타", "bn": "থা (ㅌ — শ্বাসযুক্ত)", "en": "ta (ㅌ aspirated)" },
+        { "id": "c-s-p", "text": "파", "romanization": "pa", "audioText": "파", "bn": "ফা (ㅍ — শ্বাসযুক্ত)", "en": "pa (ㅍ aspirated)" },
+        { "id": "c-s-kk", "text": "까", "romanization": "kka", "audioText": "까", "bn": "ক্কা (ㄲ)", "en": "kka (ㄲ)" },
+        { "id": "c-s-tt", "text": "따", "romanization": "tta", "audioText": "따", "bn": "ত্তা (ㄸ)", "en": "tta (ㄸ)" },
+        { "id": "c-s-pp", "text": "빠", "romanization": "ppa", "audioText": "빠", "bn": "প্পা (ㅃ)", "en": "ppa (ㅃ)" },
+        { "id": "c-s-ss", "text": "싸", "romanization": "ssa", "audioText": "싸", "bn": "স্সা (ㅆ)", "en": "ssa (ㅆ)" },
+        { "id": "c-s-jj", "text": "짜", "romanization": "jja", "audioText": "짜", "bn": "চ্চা (ㅉ)", "en": "jja (ㅉ)" }
       ],
       "fallbackQuizIds": []
     },
@@ -98,7 +120,10 @@
         { "id": "c-w-d", "char": "ㄷ", "strokeId": "digeut" },
         { "id": "c-w-m", "char": "ㅁ", "strokeId": "mieum" },
         { "id": "c-w-b", "char": "ㅂ", "strokeId": "bieup" },
-        { "id": "c-w-s", "char": "ㅅ", "strokeId": "siot" }
+        { "id": "c-w-s", "char": "ㅅ", "strokeId": "siot" },
+        { "id": "c-w-k", "char": "ㅋ", "strokeId": "kieuk" },
+        { "id": "c-w-t", "char": "ㅌ", "strokeId": "tieut" },
+        { "id": "c-w-p", "char": "ㅍ", "strokeId": "pieup" }
       ]
     },
     {
@@ -168,6 +193,400 @@
           "options": ["ㄱ", "ㄴ", "ㅁ", "ㅅ"],
           "answer": 1,
           "explanationBn": "나 = ㄴ+ㅏ, তাই উত্তর ㄴ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-q7",
+          "kind": "multiple-choice",
+          "promptBn": "ㄹ (리을) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㄹ?",
+          "options": ["n", "r/l", "m", "d/t"],
+          "answer": 1,
+          "explanationBn": "ㄹ (রিউল) = র/ল।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-q8",
+          "kind": "multiple-choice",
+          "promptBn": "শব্দের শুরুতে ㅇ কেমন উচ্চারণ হয়?",
+          "promptEn": "How is ㅇ pronounced at the start of a syllable?",
+          "options": ["ং", "নীরব", "গ", "হ"],
+          "answer": 1,
+          "explanationBn": "শুরুতে ㅇ নীরব; শেষে (ব্যাচিমে) ং।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-q9",
+          "kind": "matching",
+          "promptBn": "ব্যঞ্জনবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match consonants with sounds",
+          "pairs": [
+            { "left": "ㄴ", "right": "n" },
+            { "left": "ㄷ", "right": "d/t" },
+            { "left": "ㄹ", "right": "r/l" },
+            { "left": "ㅅ", "right": "s" }
+          ],
+          "explanationBn": "ㄴ=ন, ㄷ=দ/ত, ㄹ=র/ল, ㅅ=স।",
+          "topic": "jamo"
+        }
+      ]
+    },
+    {
+      "id": "c-drill-1",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "c-d1-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅊ (치읓) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅊ?",
+          "options": ["j", "ch", "s", "h"],
+          "answer": 1,
+          "explanationBn": "ㅊ (ছিউত) = ch। ㅈ+এক রেখা = ㅊ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅋ (키읔) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅋ?",
+          "options": ["g/k", "k", "kk", "h"],
+          "answer": 1,
+          "explanationBn": "ㅋ (খিয়ক) = k (শ্বাসযুক্ত)। ㄱ+এক রেখা = ㅋ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅌ (티읕) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅌ?",
+          "options": ["d/t", "t", "tt", "p"],
+          "answer": 1,
+          "explanationBn": "ㅌ (থিউত) = t (শ্বাসযুক্ত)। ㄷ+এক রেখা = ㅌ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅍ (피읖) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅍ?",
+          "options": ["b/p", "p", "pp", "m"],
+          "answer": 1,
+          "explanationBn": "ㅍ (ফিউপ) = p (শ্বাসযুক্ত)। ㅂ থেকে আলাদা করে চিনুন।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q5",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ-এ একটি রেখা যোগ করলে কোন বর্ণ হয়?",
+          "promptEn": "Adding one stroke to ㄱ gives which letter?",
+          "options": ["ㅋ", "ㄲ", "ㅌ", "ㅊ"],
+          "answer": 0,
+          "explanationBn": "ㄱ→ㅋ (শ্বাসযুক্ত জোড়া)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q6",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ-এর শ্বাসযুক্ত (aspirated) জোড়া কোনটি?",
+          "promptEn": "Which is the aspirated pair of ㄷ?",
+          "options": ["ㄸ", "ㅌ", "ㅍ", "ㅊ"],
+          "answer": 1,
+          "explanationBn": "ㄷ→ㅌ। ㄸ হলো টেনস (ডাবল) রূপ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q7",
+          "kind": "multiple-choice",
+          "promptBn": "ㅂ-এর শ্বাসযুক্ত জোড়া কোনটি?",
+          "promptEn": "Which is the aspirated pair of ㅂ?",
+          "options": ["ㅃ", "ㅁ", "ㅍ", "ㅌ"],
+          "answer": 2,
+          "explanationBn": "ㅂ→ㅍ। ㅃ হলো টেনস রূপ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q8",
+          "kind": "multiple-choice",
+          "promptBn": "ㅈ-এর শ্বাসযুক্ত জোড়া কোনটি?",
+          "promptEn": "Which is the aspirated pair of ㅈ?",
+          "options": ["ㅉ", "ㅊ", "ㅅ", "ㅆ"],
+          "answer": 1,
+          "explanationBn": "ㅈ→ㅊ। ㅉ হলো টেনস রূপ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "차",
+          "options": ["ㅈ", "ㅊ", "ㅅ", "ㅎ"],
+          "answer": 1,
+          "explanationBn": "차 = ㅊ+ㅏ (ছা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "카",
+          "options": ["ㄱ", "ㅋ", "ㄲ", "ㅎ"],
+          "answer": 1,
+          "explanationBn": "카 = ㅋ+ㅏ (খা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "타",
+          "options": ["ㄷ", "ㄸ", "ㅌ", "ㅍ"],
+          "answer": 2,
+          "explanationBn": "타 = ㅌ+ㅏ (থা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "파",
+          "options": ["ㅂ", "ㅃ", "ㅁ", "ㅍ"],
+          "answer": 3,
+          "explanationBn": "파 = ㅍ+ㅏ (ফা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q13",
+          "kind": "matching",
+          "promptBn": "শ্বাসযুক্ত বর্ণ মেলান (মূল → শ্বাসযুক্ত)",
+          "promptEn": "Match plain → aspirated letters",
+          "pairs": [
+            { "left": "ㄱ", "right": "ㅋ" },
+            { "left": "ㄷ", "right": "ㅌ" },
+            { "left": "ㅂ", "right": "ㅍ" },
+            { "left": "ㅈ", "right": "ㅊ" }
+          ],
+          "explanationBn": "একটি অতিরিক্ত রেখা = শ্বাসযুক্ত: ㄱ→ㅋ, ㄷ→ㅌ, ㅂ→ㅍ, ㅈ→ㅊ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q14",
+          "kind": "matching",
+          "promptBn": "শ্বাসযুক্ত বর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match aspirated consonants with sounds",
+          "pairs": [
+            { "left": "ㅊ", "right": "ch" },
+            { "left": "ㅋ", "right": "k" },
+            { "left": "ㅌ", "right": "t" },
+            { "left": "ㅍ", "right": "p" }
+          ],
+          "explanationBn": "ㅊ=ch, ㅋ=k, ㅌ=t, ㅍ=p।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q15",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'ㅌ' (t)?",
+          "promptEn": "Which letter is ㅌ (t)?",
+          "options": ["ㅌ", "ㄷ", "ㄹ", "ㅍ"],
+          "answer": 0,
+          "explanationBn": "ㅌ = তিনটি অনুভূমিক রেখা — ㄷ-এর ভিতরে একটি বাড়তি রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d1-q16",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'ㅍ' (p)?",
+          "promptEn": "Which letter is ㅍ (p)?",
+          "options": ["ㅁ", "ㅂ", "ㅍ", "ㅃ"],
+          "answer": 2,
+          "explanationBn": "ㅍ = উপরে-নিচে দুই রেখা, মাঝে দুই খুঁটি।",
+          "topic": "jamo"
+        }
+      ]
+    },
+    {
+      "id": "c-drill-2",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "c-d2-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄲ (쌍기역) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㄲ?",
+          "options": ["k", "kk", "g/k", "tt"],
+          "answer": 1,
+          "explanationBn": "ㄲ = kk (টেনস/কঠিন ক)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㄸ (쌍디귿) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㄸ?",
+          "options": ["t", "d/t", "tt", "pp"],
+          "answer": 2,
+          "explanationBn": "ㄸ = tt (টেনস ত)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅃ (쌍비읍) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅃ?",
+          "options": ["pp", "p", "b/p", "ss"],
+          "answer": 0,
+          "explanationBn": "ㅃ = pp (টেনস প)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅆ (쌍시옷) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅆ?",
+          "options": ["s", "ss", "jj", "ch"],
+          "answer": 1,
+          "explanationBn": "ㅆ = ss (টেনস স)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q5",
+          "kind": "multiple-choice",
+          "promptBn": "ㅉ (쌍지읒) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅉ?",
+          "options": ["j", "ch", "jj", "ss"],
+          "answer": 2,
+          "explanationBn": "ㅉ = jj (টেনস চ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "까",
+          "options": ["ㄱ", "ㅋ", "ㄲ", "ㅎ"],
+          "answer": 2,
+          "explanationBn": "까 = ㄲ+ㅏ (ক্কা — টেনস)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "싸",
+          "options": ["ㅅ", "ㅆ", "ㅈ", "ㅊ"],
+          "answer": 1,
+          "explanationBn": "싸 = ㅆ+ㅏ (স্সা — টেনস)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "마",
+          "options": ["ㅁ", "ㅂ", "ㄴ", "ㅍ"],
+          "answer": 0,
+          "explanationBn": "마 = ㅁ+ㅏ (মা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "라",
+          "options": ["ㄴ", "ㄹ", "ㄷ", "ㅁ"],
+          "answer": 1,
+          "explanationBn": "라 = ㄹ+ㅏ (রা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "하",
+          "options": ["ㅇ", "ㅎ", "ㅋ", "ㅍ"],
+          "answer": 1,
+          "explanationBn": "하 = ㅎ+ㅏ (হা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "바",
+          "options": ["ㅂ", "ㅍ", "ㅃ", "ㅁ"],
+          "answer": 0,
+          "explanationBn": "바 = ㅂ+ㅏ (বা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "자",
+          "options": ["ㅈ", "ㅊ", "ㅉ", "ㅅ"],
+          "answer": 0,
+          "explanationBn": "자 = ㅈ+ㅏ (জা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q13",
+          "kind": "matching",
+          "promptBn": "টেনস (ডাবল) বর্ণ মেলান (মূল → টেনস)",
+          "promptEn": "Match plain → tense letters",
+          "pairs": [
+            { "left": "ㄱ", "right": "ㄲ" },
+            { "left": "ㄷ", "right": "ㄸ" },
+            { "left": "ㅂ", "right": "ㅃ" },
+            { "left": "ㅅ", "right": "ㅆ" },
+            { "left": "ㅈ", "right": "ㅉ" }
+          ],
+          "explanationBn": "মূল বর্ণ দুইবার লিখলে টেনস: ㄲ ㄸ ㅃ ㅆ ㅉ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q14",
+          "kind": "matching",
+          "promptBn": "ব্যঞ্জনবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match consonants with sounds",
+          "pairs": [
+            { "left": "ㅇ", "right": "নীরব/ng" },
+            { "left": "ㅈ", "right": "j" },
+            { "left": "ㅋ", "right": "k" },
+            { "left": "ㅌ", "right": "t" }
+          ],
+          "explanationBn": "ㅇ=নীরব/ং, ㅈ=জ, ㅋ=খ, ㅌ=থ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q15",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ ও ㅌ-এর পার্থক্য কী?",
+          "promptEn": "What is the difference between ㄷ and ㅌ?",
+          "options": ["কোনো পার্থক্য নেই", "ㅌ শ্বাসযুক্ত (বেশি বাতাস)", "ㄷ স্বরবর্ণ", "ㅌ নীরব"],
+          "answer": 1,
+          "explanationBn": "ㅌ উচ্চারণে বেশি বাতাস বের হয় (aspirated) — থ; ㄷ = দ/ত।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-d2-q16",
+          "kind": "multiple-choice",
+          "promptBn": "কোনটি টেনস (ডাবল) ব্যঞ্জন নয়?",
+          "promptEn": "Which one is NOT a tense (double) consonant?",
+          "options": ["ㄲ", "ㅉ", "ㅊ", "ㅃ"],
+          "answer": 2,
+          "explanationBn": "ㅊ শ্বাসযুক্ত বর্ণ, টেনস নয়। টেনস: ㄲ ㄸ ㅃ ㅆ ㅉ।",
           "topic": "jamo"
         }
       ]

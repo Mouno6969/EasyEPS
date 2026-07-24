@@ -6,14 +6,15 @@
     "ko": "쓰기 연습",
     "en": "Write Lab"
   },
-  "estimatedMinutes": 25,
+  "estimatedMinutes": 30,
   "requirements": {
     "requiredStepIds": [
       "wr-lab",
-      "wr-lab-2"
+      "wr-lab-2",
+      "wr-quiz"
     ],
     "minSpeakItems": 0,
-    "minWriteItems": 6,
+    "minWriteItems": 16,
     "minBuilderItems": 0,
     "passRatio": 0.7
   },
@@ -173,6 +174,143 @@
           "char": "ㅣ",
           "strokeId": "i",
           "minCoverage": 0.55
+        }
+      ]
+    },
+    {
+      "id": "wr-quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "wr-q1",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'ch' (ছ)?",
+          "promptEn": "Which letter is 'ch'?",
+          "options": ["ㅈ", "ㅊ", "ㅅ", "ㅉ"],
+          "answer": 1,
+          "explanationBn": "ㅊ = ch। ㅈ-এর উপরে বাড়তি রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q2",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'k' (খ)?",
+          "promptEn": "Which letter is 'k'?",
+          "options": ["ㄱ", "ㅋ", "ㄲ", "ㅎ"],
+          "answer": 1,
+          "explanationBn": "ㅋ = k। ㄱ-এর ভিতরে বাড়তি রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q3",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 't' (থ)?",
+          "promptEn": "Which letter is 't'?",
+          "options": ["ㄷ", "ㄸ", "ㅌ", "ㄹ"],
+          "answer": 2,
+          "explanationBn": "ㅌ = t। ㄷ-এর মাঝে বাড়তি রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q4",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'p' (ফ)?",
+          "promptEn": "Which letter is 'p'?",
+          "options": ["ㅂ", "ㅃ", "ㅁ", "ㅍ"],
+          "answer": 3,
+          "explanationBn": "ㅍ = p। উপর-নিচে দুই রেখা, মাঝে দুই খুঁটি।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q5",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'h' (হ)?",
+          "promptEn": "Which letter is 'h'?",
+          "options": ["ㅇ", "ㅎ", "ㅊ", "ㅋ"],
+          "answer": 1,
+          "explanationBn": "ㅎ = h। ㅇ-এর উপরে টুপি ও রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q6",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'yeo' (ইঅ)?",
+          "promptEn": "Which letter is 'yeo'?",
+          "options": ["ㅓ", "ㅕ", "ㅑ", "ㅛ"],
+          "answer": 1,
+          "explanationBn": "ㅕ = yeo। ㅓ-তে বাড়তি রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q7",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'yu' (ইউ)?",
+          "promptEn": "Which letter is 'yu'?",
+          "options": ["ㅜ", "ㅠ", "ㅛ", "ㅡ"],
+          "answer": 1,
+          "explanationBn": "ㅠ = yu। ㅜ-তে বাড়তি খুঁটি।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q8",
+          "kind": "matching",
+          "promptBn": "বর্ণ ও নাম মেলান",
+          "promptEn": "Match letter with its name",
+          "pairs": [
+            { "left": "ㅊ", "right": "치옻 (chieut)" },
+            { "left": "ㅋ", "right": "키얍 (kieuk)" },
+            { "left": "ㅌ", "right": "티옜 (tieut)" },
+            { "left": "ㅍ", "right": "피왈 (pieup)" }
+          ],
+          "explanationBn": "শ্বাসযুক্ত বর্ণের নাম।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q9",
+          "kind": "matching",
+          "promptBn": "বর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match letter with sound",
+          "pairs": [
+            { "left": "ㄱ", "right": "g/k" },
+            { "left": "ㄴ", "right": "n" },
+            { "left": "ㄹ", "right": "r/l" },
+            { "left": "ㅅ", "right": "s" }
+          ],
+          "explanationBn": "মূল ব্যঞ্জনের উচ্চারণ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক বর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the letter",
+          "listenText": "티옜",
+          "options": ["ㄷ", "ㅌ", "ㄸ", "ㅍ"],
+          "answer": 1,
+          "explanationBn": "티옜 (থিউত) = ㅌ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক বর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the letter",
+          "listenText": "피왈",
+          "options": ["ㅂ", "ㅍ", "ㅃ", "ㅁ"],
+          "answer": 1,
+          "explanationBn": "피왈 (ফিউপ) = ㅍ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wr-q12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক বর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the letter",
+          "listenText": "키얍",
+          "options": ["ㄱ", "ㅋ", "ㄲ", "ㅎ"],
+          "answer": 1,
+          "explanationBn": "키얍 (খিয়ক) = ㅋ।",
+          "topic": "jamo"
         }
       ]
     }

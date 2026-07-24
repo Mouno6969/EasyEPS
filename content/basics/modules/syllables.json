@@ -6,16 +6,18 @@
     "ko": "음절 만들기",
     "en": "Building Syllables"
   },
-  "estimatedMinutes": 25,
+  "estimatedMinutes": 35,
   "requirements": {
     "requiredStepIds": [
       "sy-intro",
       "sy-builder",
-      "sy-quiz"
+      "sy-builder-2",
+      "sy-quiz",
+      "sy-drill"
     ],
     "minSpeakItems": 0,
     "minWriteItems": 0,
-    "minBuilderItems": 6,
+    "minBuilderItems": 14,
     "passRatio": 0.7
   },
   "steps": [
@@ -166,6 +168,120 @@
       ]
     },
     {
+      "id": "sy-builder-2",
+      "type": "builder",
+      "prompts": [
+        {
+          "id": "sy-p13",
+          "initial": "ㅊ",
+          "vowel": "ㅏ",
+          "final": "",
+          "answer": "차",
+          "bn": "ㅊ+ㅏ (ছা — চা/গাড়ি)",
+          "en": "ch+a (tea/car)"
+        },
+        {
+          "id": "sy-p14",
+          "initial": "ㅋ",
+          "vowel": "ㅗ",
+          "final": "",
+          "answer": "코",
+          "bn": "ㅋ+ㅗ (খো — নাক)",
+          "en": "k+o (nose)"
+        },
+        {
+          "id": "sy-p15",
+          "initial": "ㅌ",
+          "vowel": "ㅏ",
+          "final": "",
+          "answer": "타",
+          "bn": "ㅌ+ㅏ (থা — চড়া)",
+          "en": "t+a (to ride)"
+        },
+        {
+          "id": "sy-p16",
+          "initial": "ㅍ",
+          "vowel": "ㅏ",
+          "final": "",
+          "answer": "파",
+          "bn": "ㅍ+ㅏ (ফা — পেঁয়াজপাতা)",
+          "en": "p+a (green onion)"
+        },
+        {
+          "id": "sy-p17",
+          "initial": "ㅎ",
+          "vowel": "ㅏ",
+          "final": "ㄴ",
+          "answer": "한",
+          "bn": "ㅎ+ㅏ+ㄴ (হান — 한국-এর 한)",
+          "en": "h+a+n (as in 한국)"
+        },
+        {
+          "id": "sy-p18",
+          "initial": "ㅋ",
+          "vowel": "ㅓ",
+          "final": "ㅂ",
+          "answer": "컵",
+          "bn": "ㅋ+ㅓ+ㅂ (খপ — কাপ)",
+          "en": "k+eo+b (cup)"
+        },
+        {
+          "id": "sy-p19",
+          "initial": "ㅌ",
+          "vowel": "ㅗ",
+          "final": "",
+          "answer": "토",
+          "bn": "ㅌ+ㅗ (থো — 토요일-এর 토)",
+          "en": "t+o (as in 토요일)"
+        },
+        {
+          "id": "sy-p20",
+          "initial": "ㅍ",
+          "vowel": "ㅣ",
+          "final": "",
+          "answer": "피",
+          "bn": "ㅍ+ㅣ (ফি — রক্ত)",
+          "en": "p+i (blood)"
+        },
+        {
+          "id": "sy-p21",
+          "initial": "ㅊ",
+          "vowel": "ㅣ",
+          "final": "ㅁ",
+          "answer": "침",
+          "bn": "ㅊ+ㅣ+ㅁ (ছিম)",
+          "en": "ch+i+m"
+        },
+        {
+          "id": "sy-p22",
+          "initial": "ㄸ",
+          "vowel": "ㅏ",
+          "final": "ㅇ",
+          "answer": "땅",
+          "bn": "ㄸ+ㅏ+ㅇ (ত্তাং — মাটি)",
+          "en": "tt+a+ng (ground)"
+        },
+        {
+          "id": "sy-p23",
+          "initial": "ㅃ",
+          "vowel": "ㅏ",
+          "final": "ㅇ",
+          "answer": "빵",
+          "bn": "ㅃ+ㅏ+ㅇ (প্পাং — রুটি)",
+          "en": "pp+a+ng (bread)"
+        },
+        {
+          "id": "sy-p24",
+          "initial": "ㅉ",
+          "vowel": "ㅣ",
+          "final": "ㅁ",
+          "answer": "찜",
+          "bn": "ㅉ+ㅣ+ㅁ (চ্চিম — ভাপানো খাবার)",
+          "en": "jj+i+m (steamed dish)"
+        }
+      ]
+    },
+    {
       "id": "sy-quiz",
       "type": "quiz",
       "questions": [
@@ -281,6 +397,165 @@
             }
           ],
           "explanationBn": "যুক্ত স্বরবর্ণ ও ডাবল ব্যঞ্জনবর্ণের উচ্চারণ",
+          "topic": "syllable"
+        }
+      ]
+    },
+    {
+      "id": "sy-drill",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "sy-d-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅊ + ㅏ = ?",
+          "promptEn": "Compose ㅊ + ㅏ",
+          "options": ["자", "차", "사", "카"],
+          "answer": 1,
+          "explanationBn": "ㅊ+ㅏ=차 (ছা — চা/গাড়ি)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅋ + ㅗ = ?",
+          "promptEn": "Compose ㅋ + ㅗ",
+          "options": ["고", "코", "쿠", "커"],
+          "answer": 1,
+          "explanationBn": "ㅋ+ㅗ=코 (খো — নাক)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅌ + ㅏ = ?",
+          "promptEn": "Compose ㅌ + ㅏ",
+          "options": ["다", "따", "타", "파"],
+          "answer": 2,
+          "explanationBn": "ㅌ+ㅏ=타 (থা)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅍ + ㅣ = ?",
+          "promptEn": "Compose ㅍ + ㅣ",
+          "options": ["비", "피", "빠", "티"],
+          "answer": 1,
+          "explanationBn": "ㅍ+ㅣ=피 (ফি — রক্ত)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q5",
+          "kind": "multiple-choice",
+          "promptBn": "컵 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 컵?",
+          "options": ["ㅋ", "ㅓ", "ㅂ", "ㅍ"],
+          "answer": 2,
+          "explanationBn": "컵 = ㅋ+ㅓ+ㅂ; নিচের বর্ণ ㅂ হলো ব্যাচিম।",
+          "topic": "batchim"
+        },
+        {
+          "id": "sy-d-q6",
+          "kind": "multiple-choice",
+          "promptBn": "빵 = কোন তিনটি বর্ণ?",
+          "promptEn": "빵 is composed of which letters?",
+          "options": ["ㅂ+ㅏ+ㅇ", "ㅃ+ㅏ+ㅇ", "ㅍ+ㅏ+ㅇ", "ㅃ+ㅗ+ㅇ"],
+          "answer": 1,
+          "explanationBn": "빵 = ㅃ+ㅏ+ㅇ (প্পাং — রুটি)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q7",
+          "kind": "multiple-choice",
+          "promptBn": "한 = কোন তিনটি বর্ণ?",
+          "promptEn": "한 is composed of which letters?",
+          "options": ["ㅎ+ㅏ+ㄴ", "ㅎ+ㅏ+ㅇ", "ㅋ+ㅏ+ㄴ", "ㅎ+ㅓ+ㄴ"],
+          "answer": 0,
+          "explanationBn": "한 = ㅎ+ㅏ+ㄴ (হান)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "차",
+          "options": ["자", "차", "짜", "사"],
+          "answer": 1,
+          "explanationBn": "차 (ছা) — ㅊ শ্বাসযুক্ত।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "코",
+          "options": ["고", "꼬", "코", "노"],
+          "answer": 2,
+          "explanationBn": "코 (খো) — ㅋ শ্বাসযুক্ত।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "타",
+          "options": ["다", "따", "타", "차"],
+          "answer": 2,
+          "explanationBn": "타 (থা) — ㅌ শ্বাসযুক্ত।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "파",
+          "options": ["바", "빠", "파", "마"],
+          "answer": 2,
+          "explanationBn": "파 (ফা) — ㅍ শ্বাসযুক্ত।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "문",
+          "options": ["문", "물", "무", "만"],
+          "answer": 0,
+          "explanationBn": "문 (মুন — দরজা), ব্যাচিম ㄴ।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q13",
+          "kind": "matching",
+          "promptBn": "অক্ষরের সাথে উচ্চারণ মেলান",
+          "promptEn": "Match syllable with pronunciation",
+          "pairs": [
+            { "left": "차", "right": "ছা" },
+            { "left": "코", "right": "খো" },
+            { "left": "타", "right": "থা" },
+            { "left": "피", "right": "ফি" }
+          ],
+          "explanationBn": "শ্বাসযুক্ত ব্যঞ্জনের অক্ষর: 차=ছা, 코=খো, 타=থা, 피=ফি।",
+          "topic": "syllable"
+        },
+        {
+          "id": "sy-d-q14",
+          "kind": "matching",
+          "promptBn": "অক্ষর ভাঙুন (অক্ষর → গঠন)",
+          "promptEn": "Decompose syllables",
+          "pairs": [
+            { "left": "밥", "right": "ㅂ+ㅏ+ㅂ" },
+            { "left": "문", "right": "ㅁ+ㅜ+ㄴ" },
+            { "left": "땅", "right": "ㄸ+ㅏ+ㅇ" },
+            { "left": "침", "right": "ㅊ+ㅣ+ㅁ" }
+          ],
+          "explanationBn": "প্রতিটি অক্ষর = ব্যঞ্জন+স্বর+ব্যাচিম।",
           "topic": "syllable"
         }
       ]

@@ -43,7 +43,8 @@
         {
           "id": "cp-mc-2",
           "kind": "multiple-choice",
-          "promptBn": "ㅏ?",
+          "promptBn": "ㅏ এর উচ্চারণ?",
+          "promptEn": "Sound of ㅏ?",
           "options": [
             "a",
             "o",
@@ -51,21 +52,52 @@
             "i"
           ],
           "answer": 0,
-          "explanationBn": "a",
+          "explanationBn": "ㅏ = a (আ)",
           "topic": "jamo"
         },
         {
-          "id": "cp-mc-3",
+          "id": "cp-mc-4",
           "kind": "multiple-choice",
-          "promptBn": "ㄴ?",
+          "promptBn": "ㅌ (থ) কোনটি?",
+          "promptEn": "Which letter is ㅌ (t)?",
           "options": [
-            "m",
-            "n",
-            "ng",
-            "l"
+            "ㄷ",
+            "ㅌ",
+            "ㄹ",
+            "ㅍ"
           ],
           "answer": 1,
-          "explanationBn": "n",
+          "explanationBn": "ㅌ = t; ㄷ-এর মাঝে বাড়তি রেখা",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-mc-5",
+          "kind": "multiple-choice",
+          "promptBn": "ㅊ এর উচ্চারণ?",
+          "promptEn": "Sound of ㅊ?",
+          "options": [
+            "j",
+            "ch",
+            "s",
+            "h"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅊ = ch (ছ — শ্বাসযুক্ত)",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-mc-6",
+          "kind": "multiple-choice",
+          "promptBn": "কোনটি টেনস (ডাবল) ব্যঞ্জন?",
+          "promptEn": "Which is a tense (double) consonant?",
+          "options": [
+            "ㅋ",
+            "ㅍ",
+            "ㄲ",
+            "ㅎ"
+          ],
+          "answer": 2,
+          "explanationBn": "ㄲ টেনস; ㅋ ㅍ শ্বাসযুক্ত",
           "topic": "jamo"
         },
         {
@@ -95,20 +127,6 @@
           ],
           "answer": 0,
           "explanationBn": "ㄴ+ㅏ",
-          "topic": "syllable"
-        },
-        {
-          "id": "cp-sy-3",
-          "kind": "multiple-choice",
-          "promptBn": "다=?",
-          "options": [
-            "ㄷ+ㅏ",
-            "ㄱ+ㅏ",
-            "ㄴ+ㅣ",
-            "ㅅ+ㅜ"
-          ],
-          "answer": 0,
-          "explanationBn": "ㄷ+ㅏ",
           "topic": "syllable"
         },
         {
@@ -174,17 +192,50 @@
         {
           "id": "cp-li-3",
           "kind": "listen-choice",
-          "promptBn": "ব্যঞ্জন",
-          "listenText": "나",
+          "promptBn": "শুনে সঠিক ব্যঞ্জন বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "타",
           "options": [
-            "ㄱ",
-            "ㄴ",
             "ㄷ",
-            "ㅁ"
+            "ㄸ",
+            "ㅌ",
+            "ㅍ"
+          ],
+          "answer": 2,
+          "explanationBn": "타 = ㅌ+ㅏ (থা — শ্বাসযুক্ত)",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-li-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জন বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "파",
+          "options": [
+            "ㅂ",
+            "ㅃ",
+            "ㅁ",
+            "ㅍ"
+          ],
+          "answer": 3,
+          "explanationBn": "파 = ㅍ+ㅏ (ফা — শ্বাসযুক্ত)",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-li-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "꽃",
+          "options": [
+            "꼬",
+            "꽃",
+            "고",
+            "코"
           ],
           "answer": 1,
-          "explanationBn": "ㄴ",
-          "topic": "jamo"
+          "explanationBn": "꽃 (ক্কোত) — ㄲ টেনস, ㅊ ব্যাচিম",
+          "topic": "batchim"
         },
         {
           "id": "cp-ma-1",
@@ -219,9 +270,17 @@
             {
               "left": "나",
               "right": "na"
+            },
+            {
+              "left": "차",
+              "right": "cha"
+            },
+            {
+              "left": "코",
+              "right": "ko"
             }
           ],
-          "explanationBn": "মিল",
+          "explanationBn": "শ্বাসযুক্ত সহ অক্ষরের মিল",
           "topic": "syllable"
         }
       ]

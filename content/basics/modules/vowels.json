@@ -6,11 +6,11 @@
     "ko": "기본 모음",
     "en": "Basic Vowels"
   },
-  "estimatedMinutes": 25,
+  "estimatedMinutes": 40,
   "requirements": {
-    "requiredStepIds": ["v-intro", "v-grid", "v-combined-grid", "v-speak", "v-write", "v-quiz"],
-    "minSpeakItems": 4,
-    "minWriteItems": 2,
+    "requiredStepIds": ["v-intro", "v-grid", "v-combined-grid", "v-speak", "v-speak-2", "v-write", "v-quiz", "v-drill-1", "v-drill-2"],
+    "minSpeakItems": 12,
+    "minWriteItems": 5,
     "minBuilderItems": 0,
     "passRatio": 0.7
   },
@@ -27,17 +27,20 @@
         "bn": [
           "কোরিয়ান ভাষায় মোট ২১টি স্বরবর্ণ — মৌলিক স্বরবর্ণ ১০টি (기본 모음) এবং যুক্ত/যৌগিক স্বরবর্ণ ১১টি (복합 모음)।",
           "স্বরবর্ণ একা লেখা যায় না; শব্দের শুরুতে নীরব ㅇ এর সাথে লেখা হয়। যেমন: ㅏ → 아 (আ)।",
-          "বিশেষ নিয়ম: ㅒ, ㅖ শব্দের প্রথমে থাকলে 'ইএ' পড়তে হয়, মাঝে থাকলে 'এ'। যেমন- 얘기(ইএগি)=গল্প, 계절(খেজল)=ঋতু।"
+          "বিশেষ নিয়ম: ㅒ, ㅖ শব্দের প্রথমে থাকলে 'ইএ' পড়তে হয়, মাঝে থাকলে 'এ'। যেমন- 얘기(ইএগি)=গল্প, 계절(খেজল)=ঋতু।",
+          "মনে রাখার টিপ: ছোট রেখা যোগ = 'ই' যুক্ত হয়: ㅏ→ㅑ (আ→ইয়া), ㅓ→ㅕ (অ→ইয়অ), ㅗ→ㅛ (ও→ইয়ো), ㅜ→ㅠ (উ→ইয়ু)।"
         ],
         "en": [
           "Korean has 21 vowels — 10 basic vowels and 11 combined (compound) vowels.",
           "A vowel cannot stand alone; at the start of a word it is written with a silent ㅇ. E.g. ㅏ → 아 (a).",
-          "Special rule: ㅒ/ㅖ are read 'ye' at the start of a word, but 'e' in the middle. E.g. 얘기 (yaegi) = story, 계절 (gyejeol) = season."
+          "Special rule: ㅒ/ㅖ are read 'ye' at the start of a word, but 'e' in the middle. E.g. 얘기 (yaegi) = story, 계절 (gyejeol) = season.",
+          "Memory tip: adding a short stroke adds a 'y' sound: ㅏ→ㅑ, ㅓ→ㅕ, ㅗ→ㅛ, ㅜ→ㅠ."
         ],
         "ko": [
           "한국어에는 모음이 21개 있습니다 — 기본 모음 10개와 복합 모음 11개.",
           "모음은 단독으로 쓸 수 없고 첫소리 ㅇ과 함께 씁니다. 예: ㅏ → 아.",
-          "특별 규칙: ㅒ, ㅖ는 단어 첫머리에서 '예', 중간에서 '에'로 읽습니다."
+          "특별 규칙: ㅒ, ㅖ는 단어 첫머리에서 '예', 중간에서 '에'로 읽습니다.",
+          "암기 팁: 짧은 획을 더하면 '이' 소리가 붙습니다: ㅏ→ㅑ, ㅓ→ㅕ, ㅗ→ㅛ, ㅜ→ㅠ."
         ]
       }
     },
@@ -77,14 +80,43 @@
     {
       "id": "v-speak",
       "type": "speak",
-      "minListens": 1,
+      "minListens": 2,
       "items": [
         { "id": "v-s-a", "text": "ㅏ", "romanization": "a", "audioText": "아", "bn": "আ", "en": "a" },
+        { "id": "v-s-ya", "text": "ㅑ", "romanization": "ya", "audioText": "야", "bn": "ইআ", "en": "ya" },
         { "id": "v-s-eo", "text": "ㅓ", "romanization": "eo", "audioText": "어", "bn": "অ", "en": "eo" },
+        { "id": "v-s-yeo", "text": "ㅕ", "romanization": "yeo", "audioText": "여", "bn": "ইঅ", "en": "yeo" },
         { "id": "v-s-o", "text": "ㅗ", "romanization": "o", "audioText": "오", "bn": "ও", "en": "o" },
+        { "id": "v-s-yo", "text": "ㅛ", "romanization": "yo", "audioText": "요", "bn": "ইও", "en": "yo" },
         { "id": "v-s-u", "text": "ㅜ", "romanization": "u", "audioText": "우", "bn": "উ", "en": "u" },
+        { "id": "v-s-yu", "text": "ㅠ", "romanization": "yu", "audioText": "유", "bn": "ইউ", "en": "yu" },
         { "id": "v-s-eu", "text": "ㅡ", "romanization": "eu", "audioText": "으", "bn": "উ", "en": "eu" },
         { "id": "v-s-i", "text": "ㅣ", "romanization": "i", "audioText": "이", "bn": "ই", "en": "i" }
+      ],
+      "fallbackQuizIds": []
+    },
+    {
+      "id": "v-speak-2",
+      "type": "speak",
+      "minListens": 2,
+      "items": [
+        { "id": "v-s-ae", "text": "ㅐ", "romanization": "ae", "audioText": "애", "bn": "এ", "en": "ae" },
+        { "id": "v-s-e", "text": "ㅔ", "romanization": "e", "audioText": "에", "bn": "এ", "en": "e" },
+        { "id": "v-s-ye", "text": "ㅖ", "romanization": "ye", "audioText": "예", "bn": "ইএ", "en": "ye" },
+        { "id": "v-s-wa", "text": "ㅘ", "romanization": "wa", "audioText": "와", "bn": "ওআ", "en": "wa" },
+        { "id": "v-s-wo", "text": "ㅝ", "romanization": "wo", "audioText": "워", "bn": "উঅ", "en": "wo" },
+        { "id": "v-s-wi", "text": "ㅟ", "romanization": "wi", "audioText": "위", "bn": "উই", "en": "wi" },
+        { "id": "v-s-oe", "text": "ㅚ", "romanization": "oe", "audioText": "외", "bn": "ওএ", "en": "oe" },
+        { "id": "v-s-wae", "text": "ㅙ", "romanization": "wae", "audioText": "왜", "bn": "ওএ", "en": "wae" },
+        { "id": "v-s-we", "text": "ㅞ", "romanization": "we", "audioText": "웨", "bn": "উএ", "en": "we" },
+        { "id": "v-s-ui", "text": "ㅢ", "romanization": "ui", "audioText": "의", "bn": "উই", "en": "ui" },
+        { "id": "v-s-yae", "text": "ㅒ", "romanization": "yae", "audioText": "얘", "bn": "ইএ", "en": "yae" },
+        { "id": "v-s-yaegi", "text": "얘기", "romanization": "yae-gi", "audioText": "얘기", "bn": "ইএগি — গল্প (ㅒ)", "en": "story (ㅒ)" },
+        { "id": "v-s-oegugin", "text": "외국인", "romanization": "oe-gug-in", "audioText": "외국인", "bn": "ওএগুগিন — বিদেশি (ㅚ)", "en": "foreigner (ㅚ)" },
+        { "id": "v-s-hoesa", "text": "회사", "romanization": "hoe-sa", "audioText": "회사", "bn": "হোএসা — কোম্পানি (ㅚ)", "en": "company (ㅚ)" },
+        { "id": "v-s-wae-word", "text": "왜요", "romanization": "wae-yo", "audioText": "왜요", "bn": "ওএইয়ো — কেন? (ㅙ)", "en": "why? (ㅙ)" },
+        { "id": "v-s-we-word", "text": "웨이터", "romanization": "we-i-teo", "audioText": "웨이터", "bn": "ওয়েটার (ㅞ)", "en": "waiter (ㅞ)" },
+        { "id": "v-s-uisa", "text": "의사", "romanization": "ui-sa", "audioText": "의사", "bn": "উইসা — ডাক্তার (ㅢ)", "en": "doctor (ㅢ)" }
       ],
       "fallbackQuizIds": []
     },
@@ -94,9 +126,12 @@
       "skipAfterFailures": 2,
       "items": [
         { "id": "v-w-a", "char": "ㅏ", "strokeId": "a" },
+        { "id": "v-w-ya", "char": "ㅑ", "strokeId": "ya" },
         { "id": "v-w-eo", "char": "ㅓ", "strokeId": "eo" },
+        { "id": "v-w-yeo", "char": "ㅕ", "strokeId": "yeo" },
         { "id": "v-w-o", "char": "ㅗ", "strokeId": "o" },
         { "id": "v-w-u", "char": "ㅜ", "strokeId": "u" },
+        { "id": "v-w-eu", "char": "ㅡ", "strokeId": "eu" },
         { "id": "v-w-i", "char": "ㅣ", "strokeId": "i" }
       ]
     },
@@ -168,6 +203,434 @@
           "options": ["ㅜ", "ㅗ", "ㅡ", "ㅣ"],
           "answer": 1,
           "explanationBn": "오 = ㅗ (ও)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-q7",
+          "kind": "multiple-choice",
+          "promptBn": "ㅓ এর বাংলা উচ্চারণ?",
+          "promptEn": "Bengali pronunciation of ㅓ?",
+          "options": ["আ", "অ", "ও", "এ"],
+          "answer": 1,
+          "explanationBn": "ㅓ (어) = অ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-q8",
+          "kind": "multiple-choice",
+          "promptBn": "স্বরবর্ণ কি একা লেখা যায়?",
+          "promptEn": "Can a vowel be written alone?",
+          "options": ["হ্যাঁ, সবসময়", "না, নীরব ㅇ লাগবে", "শুধু ㅏ", "শুধু শেষে"],
+          "answer": 1,
+          "explanationBn": "শুরুতে স্বর থাকলে নীরব ㅇ বসে: ㅏ→아।",
+          "topic": "jamo"
+        }
+      ]
+    },
+    {
+      "id": "v-drill-1",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "v-d1-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅑ (ya) কোনটি?",
+          "promptEn": "Which one is ㅑ (ya)?",
+          "options": ["ㅏ", "ㅑ", "ㅕ", "ㅛ"],
+          "answer": 1,
+          "explanationBn": "ㅑ = ডান দিকে দুই রেখা — ইআ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅕ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅕ?",
+          "options": ["ইআ", "ইঅ", "ইও", "ইউ"],
+          "answer": 1,
+          "explanationBn": "ㅕ (여) = ইঅ (yeo)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅛ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅛ?",
+          "options": ["ও", "ইও", "উ", "ইউ"],
+          "answer": 1,
+          "explanationBn": "ㅛ (요) = ইও (yo)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅠ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅠ?",
+          "options": ["উ", "ইউ", "ইও", "উই"],
+          "answer": 1,
+          "explanationBn": "ㅠ (유) = ইউ (yu)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q5",
+          "kind": "multiple-choice",
+          "promptBn": "ㅡ (eu) কোনটি?",
+          "promptEn": "Which one is ㅡ (eu)?",
+          "options": ["ㅣ", "ㅡ", "ㅜ", "ㅗ"],
+          "answer": 1,
+          "explanationBn": "ㅡ = একটি অনুভূমিক রেখা — উ (ঠোঁট টেনে)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "어",
+          "options": ["ㅏ", "ㅓ", "ㅗ", "ㅡ"],
+          "answer": 1,
+          "explanationBn": "어 = ㅓ (অ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "우",
+          "options": ["ㅗ", "ㅜ", "ㅡ", "ㅠ"],
+          "answer": 1,
+          "explanationBn": "우 = ㅜ (উ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "이",
+          "options": ["ㅡ", "ㅣ", "ㅔ", "ㅐ"],
+          "answer": 1,
+          "explanationBn": "이 = ㅣ (ই)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "야",
+          "options": ["ㅏ", "ㅑ", "ㅕ", "ㅛ"],
+          "answer": 1,
+          "explanationBn": "야 = ㅑ (ইআ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "요",
+          "options": ["ㅛ", "ㅗ", "ㅠ", "ㅜ"],
+          "answer": 0,
+          "explanationBn": "요 = ㅛ (ইও)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "여",
+          "options": ["ㅓ", "ㅕ", "ㅑ", "ㅠ"],
+          "answer": 1,
+          "explanationBn": "여 = ㅕ (ইঅ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "으",
+          "options": ["ㅡ", "ㅜ", "ㅣ", "ㅗ"],
+          "answer": 0,
+          "explanationBn": "으 = ㅡ (উ — ঠোঁট টানা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q13",
+          "kind": "matching",
+          "promptBn": "'ই' যুক্ত জোড়া মেলান (মূল → ই-যুক্ত)",
+          "promptEn": "Match plain → y- vowels",
+          "pairs": [
+            { "left": "ㅏ", "right": "ㅑ" },
+            { "left": "ㅓ", "right": "ㅕ" },
+            { "left": "ㅗ", "right": "ㅛ" },
+            { "left": "ㅜ", "right": "ㅠ" }
+          ],
+          "explanationBn": "ছোট রেখা যোগ করলে 'ই' ধ্বনি: ㅏ→ㅑ, ㅓ→ㅕ, ㅗ→ㅛ, ㅜ→ㅠ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d1-q14",
+          "kind": "matching",
+          "promptBn": "স্বরবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match vowels with sounds",
+          "pairs": [
+            { "left": "ㅏ", "right": "আ" },
+            { "left": "ㅓ", "right": "অ" },
+            { "left": "ㅡ", "right": "উ (টানা)" },
+            { "left": "ㅕ", "right": "ইঅ" }
+          ],
+          "explanationBn": "ㅏ=আ, ㅓ=অ, ㅡ=টানা উ, ㅕ=ইঅ।",
+          "topic": "jamo"
+        }
+      ]
+    },
+    {
+      "id": "v-drill-2",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "v-d2-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅐ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅐ?",
+          "options": ["এ", "আ", "ই", "ওএ"],
+          "answer": 0,
+          "explanationBn": "ㅐ (애) = এ। ㅔ-ও প্রায় একই শোনায়।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅘ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅘ?",
+          "options": ["ওআ", "উঅ", "ওএ", "উই"],
+          "answer": 0,
+          "explanationBn": "ㅘ (와) = ওআ (ㅗ+ㅏ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅝ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅝ?",
+          "options": ["ওআ", "উঅ", "উএ", "ওএ"],
+          "answer": 1,
+          "explanationBn": "ㅝ (워) = উঅ (ㅜ+ㅓ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅟ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅟ?",
+          "options": ["ওএ", "উই", "ইউ", "উঅ"],
+          "answer": 1,
+          "explanationBn": "ㅟ (위) = উই (ㅜ+ㅣ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q5",
+          "kind": "multiple-choice",
+          "promptBn": "কোন তিনটি স্বরের উচ্চারণ প্রায় 'ওএ/উএ'?",
+          "promptEn": "Which three vowels all sound like 'we'?",
+          "options": ["ㅚ ㅙ ㅞ", "ㅏ ㅑ ㅓ", "ㅗ ㅛ ㅜ", "ㅐ ㅔ ㅖ"],
+          "answer": 0,
+          "explanationBn": "ㅚ, ㅙ, ㅞ — তিনটিই প্রায় একই রকম 'ওএ/উএ' শোনায়।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "애",
+          "options": ["ㅏ", "ㅐ", "ㅣ", "ㅗ"],
+          "answer": 1,
+          "explanationBn": "애 = ㅐ (এ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "와",
+          "options": ["ㅘ", "ㅝ", "ㅗ", "ㅏ"],
+          "answer": 0,
+          "explanationBn": "와 = ㅘ (ওআ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "위",
+          "options": ["ㅟ", "ㅢ", "ㅜ", "ㅣ"],
+          "answer": 0,
+          "explanationBn": "위 = ㅟ (উই)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "워",
+          "options": ["ㅘ", "ㅝ", "ㅓ", "ㅜ"],
+          "answer": 1,
+          "explanationBn": "워 = ㅝ (উঅ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "예",
+          "options": ["ㅐ", "ㅖ", "ㅔ", "ㅣ"],
+          "answer": 1,
+          "explanationBn": "예 = ㅖ (ইএ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q11",
+          "kind": "matching",
+          "promptBn": "যৌগিক স্বরবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match compound vowels with sounds",
+          "pairs": [
+            { "left": "ㅐ", "right": "এ" },
+            { "left": "ㅘ", "right": "ওআ" },
+            { "left": "ㅟ", "right": "উই" },
+            { "left": "ㅝ", "right": "উঅ" }
+          ],
+          "explanationBn": "ㅐ=এ, ㅘ=ওআ, ㅟ=উই, ㅝ=উঅ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q12",
+          "kind": "matching",
+          "promptBn": "স্বরবর্ণ গঠন মেলান (কোন দুই স্বর মিলে)",
+          "promptEn": "Match compound vowels with their parts",
+          "pairs": [
+            { "left": "ㅘ", "right": "ㅗ+ㅏ" },
+            { "left": "ㅝ", "right": "ㅜ+ㅓ" },
+            { "left": "ㅟ", "right": "ㅜ+ㅣ" },
+            { "left": "ㅢ", "right": "ㅡ+ㅣ" }
+          ],
+          "explanationBn": "যৌগিক স্বর দুটি স্বরের মিলন: ㅘ=ㅗ+ㅏ, ㅝ=ㅜ+ㅓ, ㅟ=ㅜ+ㅣ, ㅢ=ㅡ+ㅣ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q13",
+          "kind": "multiple-choice",
+          "promptBn": "ㅢ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅢ?",
+          "options": ["উই", "ইউ", "এ", "ওআ"],
+          "answer": 0,
+          "explanationBn": "ㅢ (의) = উই (ㅡ+ㅣ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q14",
+          "kind": "multiple-choice",
+          "promptBn": "ㅒ শব্দের প্রথমে কীভাবে পড়তে হয়?",
+          "promptEn": "How is ㅒ read at the start of a word?",
+          "options": ["এ", "ইএ", "ই", "আ"],
+          "answer": 1,
+          "explanationBn": "শুরুতে 'ইএ' — 얘기(ইএগি)=গল্প।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q15",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "왕",
+          "options": ["ㅗ", "ㅘ", "ㅚ", "ㅙ"],
+          "answer": 1,
+          "explanationBn": "왕 (ওআং — রাজা) এ ㅘ আছে।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q16",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "외국",
+          "options": ["ㅚ", "ㅘ", "ㅢ", "ㅟ"],
+          "answer": 0,
+          "explanationBn": "외국 (ওএগুক — বিদেশ) এ ㅚ আছে।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q17",
+          "kind": "multiple-choice",
+          "promptBn": "왜 (কেন) শব্দে কোন স্বরবর্ণ আছে?",
+          "promptEn": "Which vowel is in 왜 (why)?",
+          "options": ["ㅘ", "ㅙ", "ㅞ", "ㅚ"],
+          "answer": 1,
+          "explanationBn": "왜 = ㅇ+ㅙ (ওএ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q18",
+          "kind": "multiple-choice",
+          "promptBn": "웨이터 (ওয়েটার) শব্দের প্রথম স্বর কোনটি?",
+          "promptEn": "First vowel of 웨이터 (waiter)?",
+          "options": ["ㅙ", "ㅞ", "ㅘ", "ㅟ"],
+          "answer": 1,
+          "explanationBn": "웨 = ㅇ+ㅞ (উএ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q19",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "의사",
+          "options": ["이사", "의사", "오사", "우사"],
+          "answer": 1,
+          "explanationBn": "의사 (উইসা — ডাক্তার) এ ㅢ আছে।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q21",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "얘",
+          "options": ["애", "얘", "예", "야"],
+          "answer": 1,
+          "explanationBn": "얘 = ㅇ+ㅒ (ইএ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q22",
+          "kind": "multiple-choice",
+          "promptBn": "얘기 (গল্প) শব্দের প্রথম স্বর কোনটি?",
+          "promptEn": "First vowel of 얘기 (story)?",
+          "options": ["ㅐ", "ㅒ", "ㅖ", "ㅑ"],
+          "answer": 1,
+          "explanationBn": "얘기 = ㅒ দিয়ে শুরু; শুরুতে 'ইএ' পড়া হয়।",
+          "topic": "jamo"
+        },
+        {
+          "id": "v-d2-q20",
+          "kind": "matching",
+          "promptBn": "বিরল যৌগিক স্বর মেলান",
+          "promptEn": "Match the rare compound vowels",
+          "pairs": [
+            { "left": "ㅒ", "right": "얘기 (গল্প)" },
+            { "left": "ㅙ", "right": "왜 (কেন)" },
+            { "left": "ㅞ", "right": "웨이터 (ওয়েটার)" },
+            { "left": "ㅢ", "right": "의사 (ডাক্তার)" }
+          ],
+          "explanationBn": "বিরল স্বরগুলো শব্দের মধ্যে চিনুন।",
           "topic": "jamo"
         }
       ]
