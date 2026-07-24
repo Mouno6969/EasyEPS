@@ -41,11 +41,11 @@ export type SpeakKoreanOptions = {
   /** Explicit voice to use (dialogue playback picks gendered voices). */
   voice?: SpeechSynthesisVoice;
   /**
-   * Part of a multi-utterance sequence (e.g. a dialogue). When true, this call
-   * does not cancel the in-flight utterance chain — the caller owns
-   * cancellation and ordering. Standalone calls keep the default behavior.
+   * Internal sequence token for multi-utterance playback. Calls that share a
+   * token never cancel one another, while any newer standalone playback or
+   * explicit cancellation invalidates the whole sequence.
    */
-  chained?: boolean;
+  sequence?: SpeechSequence;
   /** Optional error hook (in addition to toast). Never causes rejection. */
   onError?: (error: Error) => void;
 };
@@ -58,17 +58,44 @@ const UNSUPPORTED_TOAST = "এই browser-এ voice playback নেই";
 /** Monotonic token so concurrent taps only keep the latest utterance. */
 let speakGeneration = 0;
 
+/** Resolver for the one utterance that can be active at a time. */
+let settleActiveSpeech: ((result: boolean) => void) | null = null;
+
 /** One-shot voiceschanged warm-up so later taps can attach a ko voice. */
 let voicesWarmStarted = false;
+
+export type SpeechSequence = number;
 
 export function isSpeechSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
-/** Cancel any in-flight utterance. Safe when speech is unsupported. */
-export function cancelSpeech(): void {
+function cancelNativeSpeech(): void {
   if (!isSpeechSupported()) return;
   window.speechSynthesis.cancel();
+}
+
+function invalidateCurrentSpeech(): SpeechSequence {
+  speakGeneration += 1;
+  settleActiveSpeech?.(false);
+  settleActiveSpeech = null;
+  cancelNativeSpeech();
+  return speakGeneration;
+}
+
+/** Start a cancellable multi-utterance sequence and stop older playback. */
+export function beginSpeechSequence(): SpeechSequence {
+  return invalidateCurrentSpeech();
+}
+
+/** Whether a multi-utterance sequence still owns speech playback. */
+export function isSpeechSequenceCurrent(sequence: SpeechSequence): boolean {
+  return sequence === speakGeneration;
+}
+
+/** Cancel any in-flight utterance or pending multi-turn sequence. */
+export function cancelSpeech(): void {
+  invalidateCurrentSpeech();
 }
 
 /** @deprecated Prefer {@link cancelSpeech}. Alias for design-doc naming. */
@@ -141,12 +168,10 @@ export async function speakKorean(text: string, opts?: SpeakKoreanOptions): Prom
   const spoken = (opts?.audioText ?? text).trim();
   if (!spoken) return false;
 
-  const chained = opts?.chained === true;
-  // Bump generation + cancel so concurrent taps only keep the latest speak.
-  // Chained utterances join the current generation instead of cancelling it,
-  // so a dialogue sequence is not cut off by its own next turn.
-  const generation = chained ? speakGeneration : ++speakGeneration;
-  if (!chained) cancelSpeech();
+  // Standalone speech starts a fresh sequence. Multi-turn callers pass the
+  // token returned by beginSpeechSequence() so their turns share ownership.
+  const generation = opts?.sequence ?? beginSpeechSequence();
+  if (!isSpeechSequenceCurrent(generation)) return false;
 
   // Use currently available voices only — never await before speak()
   // (preserves user-gesture activation on iOS Safari).
@@ -161,45 +186,47 @@ export async function speakKorean(text: string, opts?: SpeakKoreanOptions): Prom
 
   return new Promise<boolean>(resolve => {
     // Another tap may have started already.
-    if (generation !== speakGeneration) {
+    if (!isSpeechSequenceCurrent(generation)) {
       resolve(false);
       return;
     }
 
     const utterance = new SpeechSynthesisUtterance(spoken);
+    let settled = false;
+    const settle = (result: boolean) => {
+      if (settled) return;
+      settled = true;
+      if (settleActiveSpeech === settle) settleActiveSpeech = null;
+      resolve(result);
+    };
+    settleActiveSpeech = settle;
     utterance.lang = "ko-KR";
     utterance.rate = rate;
     utterance.pitch = pitch;
     if (voice) utterance.voice = voice;
 
     utterance.onend = () => {
-      if (generation !== speakGeneration) {
-        resolve(false);
-        return;
-      }
-      resolve(true);
+      settle(isSpeechSequenceCurrent(generation));
     };
 
     utterance.onerror = event => {
       // cancel()/interrupted often surfaces as error — treat as settled, no toast.
       const err = event.error;
       if (err === "canceled" || err === "interrupted") {
-        resolve(false);
+        settle(false);
         return;
       }
-      if (generation === speakGeneration) {
+      if (isSpeechSequenceCurrent(generation)) {
         toast.error(UNSUPPORTED_TOAST);
         opts?.onError?.(new Error(err ? `speechSynthesis: ${err}` : "speechSynthesis error"));
       }
-      resolve(false);
+      settle(false);
     };
 
-    // Cancel again immediately before speak to close concurrent races.
-    if (generation !== speakGeneration) {
-      resolve(false);
+    if (!isSpeechSequenceCurrent(generation)) {
+      settle(false);
       return;
     }
-    if (!chained) cancelSpeech();
     window.speechSynthesis.speak(utterance);
   });
 }

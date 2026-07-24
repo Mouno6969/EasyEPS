@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import sys
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1] / "content" / "lessons"
@@ -22,3 +23,5 @@ for path in sorted(root.glob("lesson-*.json")):
 for issue in issues:
     print("\t".join(issue))
 print(f"issues={len(issues)}")
+if issues:
+    sys.exit(1)

@@ -6,9 +6,12 @@ vi.mock("sonner", () => ({
 
 import {
   assignDialogueVoices,
+  cancelDialogue,
   DIALOGUE_PITCHES,
+  isDialoguePassage,
   parseDialogueTurns,
   speakDialogue,
+  speakNamedDialogue,
 } from "./dialogueSpeech";
 
 class MockSpeechSynthesisUtterance {
@@ -51,6 +54,18 @@ describe("parseDialogueTurns", () => {
     ]);
   });
 
+  it("separates a trailing exam prompt from the final labelled speaker", () => {
+    expect(
+      parseDialogueTurns(
+        "여자: 방이 너무 더러워요.\n남자: 제가 지금 청소할게요.\n\n남자는 지금 무엇을 할 것입니까?",
+      ),
+    ).toEqual([
+      { speaker: "female", text: "방이 너무 더러워요." },
+      { speaker: "male", text: "제가 지금 청소할게요." },
+      { speaker: "narrator", text: "남자는 지금 무엇을 할 것입니까?" },
+    ]);
+  });
+
   it("treats unlabeled passages as a single narrator turn (announcements, single words)", () => {
     expect(parseDialogueTurns("화재가 발생했습니다. 비상구로 대피하십시오.")).toEqual([
       { speaker: "narrator", text: "화재가 발생했습니다. 비상구로 대피하십시오." },
@@ -68,6 +83,12 @@ describe("parseDialogueTurns", () => {
   it("returns an empty list for empty passages", () => {
     expect(parseDialogueTurns("")).toEqual([]);
     expect(parseDialogueTurns("   ")).toEqual([]);
+  });
+
+  it("only classifies passages with two distinct labelled speakers as dialogues", () => {
+    expect(isDialoguePassage("남자: 안녕하세요.\n여자: 반갑습니다.")).toBe(true);
+    expect(isDialoguePassage("남자: 안전모를 착용하세요.")).toBe(false);
+    expect(isDialoguePassage("안전모를 착용하세요.")).toBe(false);
   });
 });
 
@@ -185,5 +206,42 @@ describe("speakDialogue playback", () => {
     for (const call of speak.mock.calls) {
       expect((call[0] as MockSpeechSynthesisUtterance).rate).toBeCloseTo(0.82);
     }
+  });
+
+  it("keeps four named speakers distinguishable and stable with only two installed voices", async () => {
+    const firstVoice = makeVoice("Korean Voice 1");
+    const secondVoice = makeVoice("Korean Voice 2");
+    voices = [firstVoice, secondVoice];
+
+    const done = await run(
+      speakNamedDialogue([
+        { speaker: "작업자", text: "첫 번째 말입니다." },
+        { speaker: "동료", text: "두 번째 말입니다." },
+        { speaker: "관리자", text: "세 번째 말입니다." },
+        { speaker: "구조대", text: "네 번째 말입니다." },
+        { speaker: "작업자", text: "첫 번째 화자가 다시 말합니다." },
+      ]),
+    );
+
+    expect(done).toBe(true);
+    const utterances = speak.mock.calls.map(call => call[0] as MockSpeechSynthesisUtterance);
+    const profiles = utterances.slice(0, 4).map(utterance => `${utterance.voice?.name}:${utterance.pitch}`);
+    expect(new Set(profiles).size).toBe(4);
+    expect(utterances[4].voice).toBe(utterances[0].voice);
+    expect(utterances[4].pitch).toBe(utterances[0].pitch);
+  });
+
+  it("does not resume with the next turn when cancelled during the inter-turn gap", async () => {
+    const playback = speakDialogue("남자: 첫 번째 말입니다.\n여자: 두 번째 말입니다.");
+
+    await Promise.resolve();
+    await Promise.resolve();
+    expect(speak).toHaveBeenCalledTimes(1);
+
+    cancelDialogue();
+    const done = await run(playback);
+
+    expect(done).toBe(false);
+    expect(speak).toHaveBeenCalledTimes(1);
   });
 });

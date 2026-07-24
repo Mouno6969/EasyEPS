@@ -4,7 +4,7 @@ vi.mock("sonner", () => ({
   toast: { error: vi.fn() },
 }));
 
-import { KOREAN_SPEECH_RATES, speakKorean } from "./speakKorean";
+import { cancelSpeech, KOREAN_SPEECH_RATES, speakKorean } from "./speakKorean";
 
 class MockSpeechSynthesisUtterance {
   text: string;
@@ -72,5 +72,21 @@ describe("Korean speech playback rates", () => {
     expect(speak).toHaveBeenCalledTimes(1);
     const utterance = speak.mock.calls[0][0] as MockSpeechSynthesisUtterance;
     expect(utterance.rate).toBe(1);
+  });
+
+  it("settles active playback as cancelled even when the browser emits no cancel event", async () => {
+    const playback = speakKorean("취소할 음성");
+    cancelSpeech();
+
+    await expect(playback).resolves.toBe(false);
+  });
+
+  it("lets a newer playback supersede an older one without leaving its promise pending", async () => {
+    const first = speakKorean("첫 번째 음성");
+    const second = speakKorean("두 번째 음성");
+
+    await expect(first).resolves.toBe(false);
+    await expect(second).resolves.toBe(true);
+    expect(speak).toHaveBeenCalledTimes(2);
   });
 });

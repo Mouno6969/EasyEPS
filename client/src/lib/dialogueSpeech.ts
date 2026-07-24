@@ -1,6 +1,8 @@
 import {
+  beginSpeechSequence,
   cancelSpeech,
   getKoreanVoices,
+  isSpeechSequenceCurrent,
   isSpeechSupported,
   speakKorean,
 } from "./speakKorean";
@@ -77,8 +79,14 @@ export function parseDialogueTurns(passage: string): DialogueTurn[] {
       : FEMALE_LABELS.includes(label)
         ? "female"
         : "narrator";
-    const spoken = segment.replace(LABEL_RE, "").trim();
+    const [spoken, ...narratorParagraphs] = segment
+      .replace(LABEL_RE, "")
+      .split(/\n\s*\n/)
+      .map(part => part.trim());
     if (spoken) turns.push({ speaker, text: spoken });
+    for (const narration of narratorParagraphs) {
+      if (narration) turns.push({ speaker: "narrator", text: narration });
+    }
   }
   return turns;
 }
@@ -90,7 +98,7 @@ export function isDialoguePassage(passage: string): boolean {
       .map(turn => turn.speaker)
       .filter(speaker => speaker !== "narrator"),
   );
-  return speakers.size >= 1;
+  return speakers.size >= 2;
 }
 
 /** Voice-name fragments that suggest a gender, across common TTS engines. */
@@ -146,6 +154,34 @@ export type SpeakDialogueOptions = {
   onError?: (error: Error) => void;
 };
 
+type PreparedSpeechTurn = {
+  text: string;
+  pitch: number;
+  voice?: SpeechSynthesisVoice;
+};
+
+async function playPreparedTurns(turns: PreparedSpeechTurn[], opts?: SpeakDialogueOptions): Promise<boolean> {
+  const sequence = beginSpeechSequence();
+  for (let index = 0; index < turns.length; index += 1) {
+    if (!isSpeechSequenceCurrent(sequence)) return false;
+    const turn = turns[index];
+    const finished = await speakKorean(turn.text, {
+      rate: opts?.rate,
+      pitch: turn.pitch,
+      voice: turn.voice,
+      sequence,
+      onError: opts?.onError,
+    });
+    if (!finished) return false;
+
+    if (index < turns.length - 1) {
+      await wait(TURN_GAP_MS);
+      if (!isSpeechSequenceCurrent(sequence)) return false;
+    }
+  }
+  return true;
+}
+
 /**
  * Speak a listening passage with one distinct voice per speaker.
  *
@@ -172,27 +208,63 @@ export async function speakDialogue(passage: string, opts?: SpeakDialogueOptions
   }
 
   const assignment = assignDialogueVoices(getKoreanVoices());
+  return playPreparedTurns(
+    turns.map(turn => ({
+      text: turn.text,
+      voice: assignment[turn.speaker],
+      pitch: assignment.usesPitchFallback ? DIALOGUE_PITCHES[turn.speaker] : 1,
+    })),
+    opts,
+  );
+}
 
-  for (let index = 0; index < turns.length; index += 1) {
-    const turn = turns[index];
-    const voice = assignment[turn.speaker];
-    const pitch = assignment.usesPitchFallback ? DIALOGUE_PITCHES[turn.speaker] : 1;
+export type NamedDialogueLine = {
+  speaker: string;
+  text: string;
+};
 
-    const finished = await speakKorean(turn.text, {
-      rate: opts?.rate,
-      pitch,
-      voice,
-      // First turn owns the gesture + cancels previous speech; the rest chain.
-      chained: index > 0,
-      onError: opts?.onError,
-    });
-    if (!finished) return false;
+const NAMED_SPEAKER_PITCHES = [0.78, 1.22, 0.92, 1.08];
 
-    if (index < turns.length - 1) {
-      await wait(TURN_GAP_MS);
-    }
+/**
+ * Speak lesson dialogue lines while keeping each named speaker on a stable,
+ * distinguishable voice-and-pitch profile. Supports the repository's
+ * two-, three-, and four-speaker lesson examples.
+ */
+export async function speakNamedDialogue(
+  lines: NamedDialogueLine[],
+  opts?: SpeakDialogueOptions,
+): Promise<boolean> {
+  const turns = lines
+    .map(line => ({ speaker: line.speaker.trim(), text: line.text.trim() }))
+    .filter(line => line.text);
+  if (turns.length === 0) return false;
+  if (turns.length === 1) {
+    return speakKorean(turns[0].text, { rate: opts?.rate, onError: opts?.onError });
   }
-  return true;
+  if (!isSpeechSupported()) {
+    return speakKorean(turns[0].text, { rate: opts?.rate, onError: opts?.onError });
+  }
+
+  const speakers = [...new Set(turns.map(turn => turn.speaker || "narrator"))];
+  const voices = getKoreanVoices();
+  const needsPitchProfiles = voices.length < speakers.length;
+  const profiles = new Map(
+    speakers.map((speaker, index) => [
+      speaker,
+      {
+        voice: voices.length > 0 ? voices[index % voices.length] : undefined,
+        pitch: needsPitchProfiles ? NAMED_SPEAKER_PITCHES[index % NAMED_SPEAKER_PITCHES.length] : 1,
+      },
+    ]),
+  );
+
+  return playPreparedTurns(
+    turns.map(turn => {
+      const profile = profiles.get(turn.speaker || "narrator");
+      return { text: turn.text, voice: profile?.voice, pitch: profile?.pitch ?? 1 };
+    }),
+    opts,
+  );
 }
 
 /** Stop dialogue playback (any in-flight and queued turns). */
