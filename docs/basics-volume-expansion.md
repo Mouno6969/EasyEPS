@@ -48,6 +48,6 @@ Exposure channels counted as "recognition events":
 
 ## Guarantees
 
-- All content validates against the existing Zod schema (`shared/basics.ts`), including the checkpoint 12–16 question composition rules (≥3 listen-choice, ≥2 matching, ≥3 syllable, ≥2 batchim).
-- Full test suite passes: 118/118 tests across 12 files (`pnpm test`); `tsc --noEmit` is clean.
+- All content validates against the existing Zod schema (`shared/basics.ts`).
+- **2026-07 follow-up:** module quiz banks expanded to ~24–28 with `drawCount: 12` random sampling; checkpoint is a **100+ bank** (`drawCount: 25`) with ≥20 listen-choice audio items; Bangla `shapeMnemonicBn` on every jamo; batchim example vocabulary corrected; five tense stroke files (`ssanggiyeok`…`ssangjieut`). Rebuild with `python3 scripts/expand_basics_volume.py`.
 - Run `python3 scripts/count_exposures.py` from the repo root at any time to re-audit per-letter exposure counts; it flags any letter that falls below the exposure floor.

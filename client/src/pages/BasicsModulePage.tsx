@@ -17,7 +17,8 @@ import {
   emptyModuleProgress,
   isCheckpointPassing,
   isModuleComplete,
-  scoreBasicsQuiz,
+  sampleBasicsQuiz,
+  scoreBasicsQuestions,
   uniqStrings,
   type BasicsModule,
   type BasicsModuleId,
@@ -429,6 +430,16 @@ function StepRenderer({
                 <p className="text-sm text-[var(--navy)]/55">
                   {locale === "en" ? item.en : item.bn}
                 </p>
+                {"shapeMnemonicBn" in item && item.shapeMnemonicBn && locale !== "en" ? (
+                  <p className="mt-1 text-xs leading-5 text-[var(--gold-dark)]">
+                    💡 {item.shapeMnemonicBn}
+                  </p>
+                ) : null}
+                {"shapeMnemonicBn" in item && item.shapeMnemonicBn && locale === "en" ? (
+                  <p className="mt-1 text-xs leading-5 text-[var(--gold-dark)]">
+                    💡 {item.shapeMnemonicBn}
+                  </p>
+                ) : null}
               </div>
               <button
                 type="button"
@@ -583,11 +594,14 @@ function StepRenderer({
   }
 
   if (step.type === "quiz") {
+    const drawCount =
+      step.drawCount ?? (module.id === "checkpoint" ? 25 : undefined);
     return (
       <BasicsQuizRunner
         module={module}
         stepId={step.id}
-        questions={step.questions}
+        bank={step.questions}
+        drawCount={drawCount}
         progress={progress}
         locale={locale}
         isCheckpoint={module.id === "checkpoint"}
@@ -615,7 +629,8 @@ function StepRenderer({
 function BasicsQuizRunner({
   module,
   stepId,
-  questions,
+  bank,
+  drawCount,
   progress,
   locale,
   isCheckpoint,
@@ -626,7 +641,8 @@ function BasicsQuizRunner({
 }: {
   module: BasicsModule;
   stepId: string;
-  questions: BasicsQuizQuestion[];
+  bank: BasicsQuizQuestion[];
+  drawCount?: number;
   progress: BasicsModuleProgress;
   locale: "bn" | "ko" | "en";
   isCheckpoint: boolean;
@@ -647,9 +663,14 @@ function BasicsQuizRunner({
     null,
   );
   const [startedAt, setStartedAt] = useState(Date.now());
+  // Stable sample for this mount / retry; re-drawn on reset.
+  const [questions, setQuestions] = useState<BasicsQuizQuestion[]>(() =>
+    drawCount != null ? sampleBasicsQuiz(bank, drawCount) : [...bank],
+  );
 
   const passRatio = module.requirements.passRatio ?? 0.7;
   const passPercent = Math.round(passRatio * 100);
+  const displayCount = drawCount ?? bank.length;
 
   if (isCheckpoint && !quizStarted) {
     return (
@@ -660,15 +681,15 @@ function BasicsQuizRunner({
         </h2>
         <p className="mt-4 max-w-2xl text-sm leading-7 text-[var(--navy)]/70">
           {locale === "en"
-            ? `Short placement quiz. You need about ${passPercent}% to unlock the 60-chapter path. Fail? Review modules and retry.`
-            : `ছোট প্লেসমেন্ট কুইজ। ৬০ অধ্যায় খুলতে প্রায় ${passPercent}% স্কোর লাগবে। ফেল করলে মডিউল রিভিউ করে আবার চেষ্টা করুন।`}
+            ? `Random placement quiz (${displayCount} of ${bank.length}+ bank). You need about ${passPercent}% to unlock the 60-chapter path. Fail? Review modules and retry.`
+            : `র‍্যান্ডম প্লেসমেন্ট কুইজ (${bank.length}+ ব্যাংক থেকে ${displayCount}টি)। ৬০ অধ্যায় খুলতে প্রায় ${passPercent}% স্কোর লাগবে। ফেল করলে মডিউল রিভিউ করে আবার চেষ্টা করুন।`}
         </p>
         <ul className="mt-6 space-y-2 text-sm font-semibold text-[var(--navy)]/75">
           <li className="flex items-center gap-2">
             <span className="grid size-6 place-items-center rounded-full bg-[var(--gold)]/20 text-xs font-bold text-[var(--gold-dark)]">
               1
             </span>
-            প্রশ্ন সংখ্যা: ~{questions.length}
+            প্রশ্ন সংখ্যা: {displayCount} (ব্যাংক {bank.length}+)
           </li>
           <li className="flex items-center gap-2">
             <span className="grid size-6 place-items-center rounded-full bg-[var(--gold)]/20 text-xs font-bold text-[var(--gold-dark)]">
@@ -692,6 +713,7 @@ function BasicsQuizRunner({
           type="button"
           className="mt-8 rounded-full bg-[var(--navy)] px-8 text-white"
           onClick={() => {
+            setQuestions(drawCount != null ? sampleBasicsQuiz(bank, drawCount) : [...bank]);
             setQuizStarted(true);
             setStartedAt(Date.now());
           }}
@@ -706,11 +728,13 @@ function BasicsQuizRunner({
   }
 
   const submit = async () => {
+    const questionIds = questions.map(q => q.id);
     if (isCheckpoint && isAuthenticated) {
       try {
         const remote = await submitCheckpoint.mutateAsync({
           answers,
           matching,
+          questionIds,
           durationSec: Math.round((Date.now() - startedAt) / 1000),
         });
         setResult({
@@ -731,7 +755,7 @@ function BasicsQuizRunner({
       return;
     }
 
-    const local = scoreBasicsQuiz(module, answers, matching);
+    const local = scoreBasicsQuestions(questions, answers, matching);
     setResult(local);
     setSubmitted(true);
     onLocalScored(local.score, local.total);
@@ -747,6 +771,8 @@ function BasicsQuizRunner({
     setMatching({});
     setSubmitted(false);
     setResult(null);
+    setQuestions(drawCount != null ? sampleBasicsQuiz(bank, drawCount) : [...bank]);
+    setStartedAt(Date.now());
   };
 
   return (

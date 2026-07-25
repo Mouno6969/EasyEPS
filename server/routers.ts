@@ -854,6 +854,7 @@ export const appRouter = router({
           const result = await db.submitBasicsCheckpoint(ctx.user.id, {
             answers: input.answers,
             matching: input.matching,
+            questionIds: input.questionIds,
             durationSec: input.durationSec,
           });
           await db.recordStudyDay(

@@ -14,7 +14,7 @@
       "wr-quiz"
     ],
     "minSpeakItems": 0,
-    "minWriteItems": 16,
+    "minWriteItems": 18,
     "minBuilderItems": 0,
     "passRatio": 0.7
   },
@@ -83,6 +83,31 @@
           "char": "ㅈ",
           "strokeId": "jieut",
           "minCoverage": 0.55
+        },
+        {
+          "id": "wr-kk",
+          "char": "ㄲ",
+          "strokeId": "ssanggiyeok"
+        },
+        {
+          "id": "wr-tt",
+          "char": "ㄸ",
+          "strokeId": "ssangdigeut"
+        },
+        {
+          "id": "wr-pp",
+          "char": "ㅃ",
+          "strokeId": "ssangbieup"
+        },
+        {
+          "id": "wr-ss",
+          "char": "ㅆ",
+          "strokeId": "ssangsiot"
+        },
+        {
+          "id": "wr-jj",
+          "char": "ㅉ",
+          "strokeId": "ssangjieut"
         }
       ]
     },
@@ -186,7 +211,12 @@
           "kind": "multiple-choice",
           "promptBn": "কোন বর্ণটি 'ch' (ছ)?",
           "promptEn": "Which letter is 'ch'?",
-          "options": ["ㅈ", "ㅊ", "ㅅ", "ㅉ"],
+          "options": [
+            "ㅈ",
+            "ㅊ",
+            "ㅅ",
+            "ㅉ"
+          ],
           "answer": 1,
           "explanationBn": "ㅊ = ch। ㅈ-এর উপরে বাড়তি রেখা।",
           "topic": "jamo"
@@ -196,7 +226,12 @@
           "kind": "multiple-choice",
           "promptBn": "কোন বর্ণটি 'k' (খ)?",
           "promptEn": "Which letter is 'k'?",
-          "options": ["ㄱ", "ㅋ", "ㄲ", "ㅎ"],
+          "options": [
+            "ㄱ",
+            "ㅋ",
+            "ㄲ",
+            "ㅎ"
+          ],
           "answer": 1,
           "explanationBn": "ㅋ = k। ㄱ-এর ভিতরে বাড়তি রেখা।",
           "topic": "jamo"
@@ -206,7 +241,12 @@
           "kind": "multiple-choice",
           "promptBn": "কোন বর্ণটি 't' (থ)?",
           "promptEn": "Which letter is 't'?",
-          "options": ["ㄷ", "ㄸ", "ㅌ", "ㄹ"],
+          "options": [
+            "ㄷ",
+            "ㄸ",
+            "ㅌ",
+            "ㄹ"
+          ],
           "answer": 2,
           "explanationBn": "ㅌ = t। ㄷ-এর মাঝে বাড়তি রেখা।",
           "topic": "jamo"
@@ -216,7 +256,12 @@
           "kind": "multiple-choice",
           "promptBn": "কোন বর্ণটি 'p' (ফ)?",
           "promptEn": "Which letter is 'p'?",
-          "options": ["ㅂ", "ㅃ", "ㅁ", "ㅍ"],
+          "options": [
+            "ㅂ",
+            "ㅃ",
+            "ㅁ",
+            "ㅍ"
+          ],
           "answer": 3,
           "explanationBn": "ㅍ = p। উপর-নিচে দুই রেখা, মাঝে দুই খুঁটি।",
           "topic": "jamo"
@@ -226,7 +271,12 @@
           "kind": "multiple-choice",
           "promptBn": "কোন বর্ণটি 'h' (হ)?",
           "promptEn": "Which letter is 'h'?",
-          "options": ["ㅇ", "ㅎ", "ㅊ", "ㅋ"],
+          "options": [
+            "ㅇ",
+            "ㅎ",
+            "ㅊ",
+            "ㅋ"
+          ],
           "answer": 1,
           "explanationBn": "ㅎ = h। ㅇ-এর উপরে টুপি ও রেখা।",
           "topic": "jamo"
@@ -236,7 +286,12 @@
           "kind": "multiple-choice",
           "promptBn": "কোন বর্ণটি 'yeo' (ইঅ)?",
           "promptEn": "Which letter is 'yeo'?",
-          "options": ["ㅓ", "ㅕ", "ㅑ", "ㅛ"],
+          "options": [
+            "ㅓ",
+            "ㅕ",
+            "ㅑ",
+            "ㅛ"
+          ],
           "answer": 1,
           "explanationBn": "ㅕ = yeo। ㅓ-তে বাড়তি রেখা।",
           "topic": "jamo"
@@ -246,7 +301,12 @@
           "kind": "multiple-choice",
           "promptBn": "কোন বর্ণটি 'yu' (ইউ)?",
           "promptEn": "Which letter is 'yu'?",
-          "options": ["ㅜ", "ㅠ", "ㅛ", "ㅡ"],
+          "options": [
+            "ㅜ",
+            "ㅠ",
+            "ㅛ",
+            "ㅡ"
+          ],
           "answer": 1,
           "explanationBn": "ㅠ = yu। ㅜ-তে বাড়তি খুঁটি।",
           "topic": "jamo"
@@ -257,10 +317,22 @@
           "promptBn": "বর্ণ ও নাম মেলান",
           "promptEn": "Match letter with its name",
           "pairs": [
-            { "left": "ㅊ", "right": "치옻 (chieut)" },
-            { "left": "ㅋ", "right": "키얍 (kieuk)" },
-            { "left": "ㅌ", "right": "티옜 (tieut)" },
-            { "left": "ㅍ", "right": "피왈 (pieup)" }
+            {
+              "left": "ㅊ",
+              "right": "치옻 (chieut)"
+            },
+            {
+              "left": "ㅋ",
+              "right": "키얍 (kieuk)"
+            },
+            {
+              "left": "ㅌ",
+              "right": "티옜 (tieut)"
+            },
+            {
+              "left": "ㅍ",
+              "right": "피왈 (pieup)"
+            }
           ],
           "explanationBn": "শ্বাসযুক্ত বর্ণের নাম।",
           "topic": "jamo"
@@ -271,10 +343,22 @@
           "promptBn": "বর্ণ ও উচ্চারণ মেলান",
           "promptEn": "Match letter with sound",
           "pairs": [
-            { "left": "ㄱ", "right": "g/k" },
-            { "left": "ㄴ", "right": "n" },
-            { "left": "ㄹ", "right": "r/l" },
-            { "left": "ㅅ", "right": "s" }
+            {
+              "left": "ㄱ",
+              "right": "g/k"
+            },
+            {
+              "left": "ㄴ",
+              "right": "n"
+            },
+            {
+              "left": "ㄹ",
+              "right": "r/l"
+            },
+            {
+              "left": "ㅅ",
+              "right": "s"
+            }
           ],
           "explanationBn": "মূল ব্যঞ্জনের উচ্চারণ।",
           "topic": "jamo"
@@ -285,7 +369,12 @@
           "promptBn": "শুনে সঠিক বর্ণ বেছে নিন",
           "promptEn": "Listen and choose the letter",
           "listenText": "티옜",
-          "options": ["ㄷ", "ㅌ", "ㄸ", "ㅍ"],
+          "options": [
+            "ㄷ",
+            "ㅌ",
+            "ㄸ",
+            "ㅍ"
+          ],
           "answer": 1,
           "explanationBn": "티옜 (থিউত) = ㅌ।",
           "topic": "jamo"
@@ -296,7 +385,12 @@
           "promptBn": "শুনে সঠিক বর্ণ বেছে নিন",
           "promptEn": "Listen and choose the letter",
           "listenText": "피왈",
-          "options": ["ㅂ", "ㅍ", "ㅃ", "ㅁ"],
+          "options": [
+            "ㅂ",
+            "ㅍ",
+            "ㅃ",
+            "ㅁ"
+          ],
           "answer": 1,
           "explanationBn": "피왈 (ফিউপ) = ㅍ।",
           "topic": "jamo"
@@ -307,12 +401,226 @@
           "promptBn": "শুনে সঠিক বর্ণ বেছে নিন",
           "promptEn": "Listen and choose the letter",
           "listenText": "키얍",
-          "options": ["ㄱ", "ㅋ", "ㄲ", "ㅎ"],
+          "options": [
+            "ㄱ",
+            "ㅋ",
+            "ㄲ",
+            "ㅎ"
+          ],
           "answer": 1,
           "explanationBn": "키얍 (খিয়ক) = ㅋ।",
           "topic": "jamo"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-rom-0",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ (기역) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "g/k",
+            "x",
+            "ng",
+            "ae"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㄱ = g/k (기역)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-char-0",
+          "kind": "multiple-choice",
+          "promptBn": "'g/k' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄹ",
+            "ㄱ",
+            "ㅎ",
+            "ㅍ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "g/k → ㄱ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "타",
+            "가",
+            "빠",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 가 (ㄱ)।",
+          "topic": "jamo",
+          "listenText": "가"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-rom-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄴ (니은) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "x",
+            "ng",
+            "ae",
+            "n"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㄴ = n (니은)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-char-1",
+          "kind": "multiple-choice",
+          "promptBn": "'n' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅌ",
+            "ㅃ",
+            "ㄷ",
+            "ㄴ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "n → ㄴ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "마",
+            "나",
+            "가",
+            "사"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 나 (ㄴ)।",
+          "topic": "jamo",
+          "listenText": "나"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-rom-2",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ (디귿) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ng",
+            "ae",
+            "d/t",
+            "x"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㄷ = d/t (디귿)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-char-2",
+          "kind": "multiple-choice",
+          "promptBn": "'d/t' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅂ",
+            "ㄲ",
+            "ㄷ",
+            "ㅇ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "d/t → ㄷ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "파",
+            "차",
+            "라",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 다 (ㄷ)।",
+          "topic": "jamo",
+          "listenText": "다"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-rom-3",
+          "kind": "multiple-choice",
+          "promptBn": "ㄹ (리을) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ae",
+            "r/l",
+            "x",
+            "ng"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㄹ = r/l (리을)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-char-3",
+          "kind": "multiple-choice",
+          "promptBn": "'r/l' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅎ",
+            "ㄹ",
+            "ㅋ",
+            "ㄴ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "r/l → ㄹ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "wri-wr-quiz-c-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "마",
+            "가",
+            "라",
+            "아"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 라 (ㄹ)।",
+          "topic": "jamo",
+          "listenText": "라"
         }
-      ]
+      ],
+      "drawCount": 12
     }
   ]
 }

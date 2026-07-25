@@ -147,6 +147,8 @@ const jamoItemSchema = z.object({
   bn: z.string().min(1),
   en: z.string().min(1),
   ko: z.string().optional(),
+  /** Bangla visual/shape mnemonic for the letter (e.g. "ㄱ looks like a gun"). */
+  shapeMnemonicBn: z.string().min(1).optional(),
 });
 
 const speakItemSchema = z.object({
@@ -232,11 +234,26 @@ const builderStepSchema = z.object({
   prompts: z.array(builderPromptSchema).min(1),
 });
 
-const quizStepSchema = z.object({
-  id: z.string().min(1),
-  type: z.literal("quiz"),
-  questions: z.array(basicsQuizQuestionSchema).min(1),
-});
+const quizStepSchema = z
+  .object({
+    id: z.string().min(1),
+    type: z.literal("quiz"),
+    /**
+     * How many questions to draw at runtime from the bank.
+     * Omit to show the full bank (legacy). Checkpoint defaults should set 25.
+     */
+    drawCount: z.number().int().min(1).max(40).optional(),
+    questions: z.array(basicsQuizQuestionSchema).min(1),
+  })
+  .superRefine((step, ctx) => {
+    if (step.drawCount != null && step.drawCount > step.questions.length) {
+      ctx.addIssue({
+        code: "custom",
+        message: `drawCount ${step.drawCount} exceeds bank size ${step.questions.length}`,
+        path: ["drawCount"],
+      });
+    }
+  });
 
 export const basicsStepSchema = z.discriminatedUnion("type", [
   explainStepSchema,
@@ -413,51 +430,71 @@ export const basicsModuleSchema = z
     }
 
     if (module.id === "checkpoint") {
-      if (allQuestions.length < 12 || allQuestions.length > 16) {
+      // Checkpoint is a large bank; runtime draws `drawCount` (default 25).
+      if (allQuestions.length < 100) {
         ctx.addIssue({
           code: "custom",
-          message: `checkpoint needs 12–16 questions, got ${allQuestions.length}`,
+          message: `checkpoint bank needs ≥100 questions, got ${allQuestions.length}`,
           path: ["steps"],
         });
+      }
+      for (const step of quizSteps) {
+        const draw = step.drawCount ?? 25;
+        if (draw < 20 || draw > 30) {
+          ctx.addIssue({
+            code: "custom",
+            message: `checkpoint drawCount should be 20–30, got ${draw}`,
+            path: ["steps"],
+          });
+        }
       }
       const listen = allQuestions.filter(q => q.kind === "listen-choice").length;
       const matching = allQuestions.filter(q => q.kind === "matching").length;
       const syllable = allQuestions.filter(isSyllableRelatedQuestion).length;
       const batchim = allQuestions.filter(isBatchimRelatedQuestion).length;
-      if (listen < 3) {
+      // Bank composition must support stratified draws of 25 with audio items.
+      if (listen < 20) {
         ctx.addIssue({
           code: "custom",
-          message: `checkpoint needs ≥3 listen-choice, got ${listen}`,
+          message: `checkpoint bank needs ≥20 listen-choice, got ${listen}`,
           path: ["steps"],
         });
       }
-      if (matching < 2) {
+      if (matching < 8) {
         ctx.addIssue({
           code: "custom",
-          message: `checkpoint needs ≥2 matching, got ${matching}`,
+          message: `checkpoint bank needs ≥8 matching, got ${matching}`,
           path: ["steps"],
         });
       }
-      if (syllable < 3) {
+      if (syllable < 15) {
         ctx.addIssue({
           code: "custom",
-          message: `checkpoint needs ≥3 syllable-related questions, got ${syllable}`,
+          message: `checkpoint bank needs ≥15 syllable-related questions, got ${syllable}`,
           path: ["steps"],
         });
       }
-      if (batchim < 2) {
+      if (batchim < 10) {
         ctx.addIssue({
           code: "custom",
-          message: `checkpoint needs ≥2 batchim questions, got ${batchim}`,
+          message: `checkpoint bank needs ≥10 batchim questions, got ${batchim}`,
           path: ["steps"],
         });
       }
     } else if (quizSteps.length > 0) {
       for (const step of quizSteps) {
+        // Expanded banks: prefer 20–30 with optional drawCount sampling.
         if (step.questions.length < 3) {
           ctx.addIssue({
             code: "custom",
             message: `non-checkpoint quiz step ${step.id} needs ≥3 questions`,
+            path: ["steps"],
+          });
+        }
+        if (step.drawCount != null && (step.drawCount < 5 || step.questions.length < 20)) {
+          ctx.addIssue({
+            code: "custom",
+            message: `quiz step ${step.id} with drawCount needs a bank of ≥20 questions`,
             path: ["steps"],
           });
         }
@@ -609,6 +646,65 @@ export function getModuleQuizQuestions(module: BasicsModule): BasicsQuizQuestion
   return module.steps.filter(s => s.type === "quiz").flatMap(s => s.questions);
 }
 
+/** Fisher–Yates shuffle copy (unbiased). */
+export function shuffleBasicsQuestions(
+  questions: readonly BasicsQuizQuestion[],
+  random: () => number = Math.random,
+): BasicsQuizQuestion[] {
+  const items = [...questions];
+  for (let i = items.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(random() * (i + 1));
+    const tmp = items[i]!;
+    items[i] = items[j]!;
+    items[j] = tmp;
+  }
+  return items;
+}
+
+/**
+ * Draw `drawCount` questions from a bank with stratified minima for checkpoint quality:
+ * listen / matching / syllable / batchim first, then fill with the rest.
+ * If the bank is ≤ drawCount, returns a shuffle of the full bank.
+ */
+export function sampleBasicsQuiz(
+  bank: readonly BasicsQuizQuestion[],
+  drawCount: number,
+  random: () => number = Math.random,
+): BasicsQuizQuestion[] {
+  if (drawCount <= 0) return [];
+  if (bank.length <= drawCount) return shuffleBasicsQuestions(bank, random);
+
+  const take = (pool: BasicsQuizQuestion[], n: number, used: Set<string>) => {
+    const available = shuffleBasicsQuestions(
+      pool.filter(q => !used.has(q.id)),
+      random,
+    );
+    const picked = available.slice(0, Math.max(0, n));
+    for (const q of picked) used.add(q.id);
+    return picked;
+  };
+
+  const used = new Set<string>();
+  const picked: BasicsQuizQuestion[] = [];
+
+  // Soft quotas scale with draw size (for 25: listen 5, matching 2, syllable 4, batchim 3).
+  const listenN = Math.max(3, Math.round(drawCount * 0.2));
+  const matchingN = Math.max(2, Math.round(drawCount * 0.08));
+  const syllableN = Math.max(3, Math.round(drawCount * 0.16));
+  const batchimN = Math.max(2, Math.round(drawCount * 0.12));
+
+  picked.push(...take(bank.filter(q => q.kind === "listen-choice"), listenN, used));
+  picked.push(...take(bank.filter(q => q.kind === "matching"), matchingN, used));
+  picked.push(...take(bank.filter(isSyllableRelatedQuestion), syllableN, used));
+  picked.push(...take(bank.filter(isBatchimRelatedQuestion), batchimN, used));
+
+  if (picked.length < drawCount) {
+    picked.push(...take([...bank], drawCount - picked.length, used));
+  }
+
+  return shuffleBasicsQuestions(picked.slice(0, drawCount), random);
+}
+
 function matchingSelection(
   selections: Record<string, string> | Record<number, string> | undefined,
   index: number,
@@ -628,15 +724,14 @@ function isBasicsMatchingCorrect(
 }
 
 /**
- * Grade all quiz questions on a module.
+ * Grade a specific question list (e.g. a sampled draw).
  * matching: all pairs correct → 1 point; MC/listen-choice: answer index match → 1 point.
  */
-export function scoreBasicsQuiz(
-  module: BasicsModule,
+export function scoreBasicsQuestions(
+  questions: readonly BasicsQuizQuestion[],
   answers: Record<string, number>,
   matching: Record<string, Record<string, string> | Record<number, string>> = {},
 ): { score: number; total: number; correctIds: string[] } {
-  const questions = getModuleQuizQuestions(module);
   const correctIds: string[] = [];
   for (const question of questions) {
     const ok =
@@ -646,6 +741,35 @@ export function scoreBasicsQuiz(
     if (ok) correctIds.push(question.id);
   }
   return { score: correctIds.length, total: questions.length, correctIds };
+}
+
+/**
+ * Grade quiz questions on a module.
+ * When `questionIds` is provided, only those bank IDs are graded (random sampling path).
+ * Unknown ids are ignored; total equals resolved bank questions (not client claim).
+ */
+export function scoreBasicsQuiz(
+  module: BasicsModule,
+  answers: Record<string, number>,
+  matching: Record<string, Record<string, string> | Record<number, string>> = {},
+  options?: { questionIds?: string[] },
+): { score: number; total: number; correctIds: string[] } {
+  const bank = getModuleQuizQuestions(module);
+  if (options?.questionIds?.length) {
+    const byId = new Map(bank.map(q => [q.id, q]));
+    const questions = options.questionIds
+      .map(id => byId.get(id))
+      .filter((q): q is BasicsQuizQuestion => q != null);
+    // De-dupe while preserving order
+    const seen = new Set<string>();
+    const unique = questions.filter(q => {
+      if (seen.has(q.id)) return false;
+      seen.add(q.id);
+      return true;
+    });
+    return scoreBasicsQuestions(unique, answers, matching);
+  }
+  return scoreBasicsQuestions(bank, answers, matching);
 }
 
 
@@ -796,6 +920,8 @@ export type BasicsProgressPatch = z.infer<typeof basicsProgressPatchSchema>;
 export const basicsSubmitCheckpointSchema = z.object({
   answers: z.record(z.string(), z.number().int()),
   matching: z.record(z.string(), z.record(z.string(), z.string())).optional(),
+  /** Sampled question ids for this attempt (subset of the checkpoint bank). */
+  questionIds: z.array(z.string().min(1)).min(1).max(40).optional(),
   durationSec: z.number().int().min(0).max(7200).optional(),
 });
 

@@ -706,6 +706,7 @@ export async function submitBasicsCheckpoint(
   input: {
     answers: Record<string, number>;
     matching?: Record<string, Record<string, string>>;
+    questionIds?: string[];
     durationSec?: number;
   },
 ): Promise<{
@@ -731,7 +732,17 @@ export async function submitBasicsCheckpoint(
     }
   }
 
-  const { score, total, correctIds } = scoreBasicsQuiz(module, input.answers, matching);
+  const quizStep = module.steps.find(s => s.type === "quiz");
+  const drawCount = quizStep && quizStep.type === "quiz" ? (quizStep.drawCount ?? 25) : 25;
+  // Prefer client sample ids; clamp to drawCount so clients cannot force a tiny set.
+  const questionIds =
+    input.questionIds && input.questionIds.length > 0
+      ? [...new Set(input.questionIds)].slice(0, drawCount)
+      : undefined;
+
+  const { score, total, correctIds } = scoreBasicsQuiz(module, input.answers, matching, {
+    questionIds,
+  });
   const passRatio = getBasicsManifest().passScore;
   const passed = isCheckpointPassing(score, total, passRatio);
 

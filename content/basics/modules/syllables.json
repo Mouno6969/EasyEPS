@@ -398,8 +398,341 @@
           ],
           "explanationBn": "যুক্ত স্বরবর্ণ ও ডাবল ব্যঞ্জনবর্ণের উচ্চারণ",
           "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-mc-0",
+          "kind": "multiple-choice",
+          "promptBn": "'ga' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "누",
+            "차",
+            "가",
+            "하"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ga = 가।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "누",
+            "차",
+            "가",
+            "하"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 가।",
+          "topic": "syllable",
+          "listenText": "가"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-mc-1",
+          "kind": "multiple-choice",
+          "promptBn": "'na' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "되",
+            "아",
+            "개",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "na = 나।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "되",
+            "아",
+            "개",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 나।",
+          "topic": "syllable",
+          "listenText": "나"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-mc-2",
+          "kind": "multiple-choice",
+          "promptBn": "'da' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "차",
+            "다",
+            "세"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "da = 다।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "차",
+            "다",
+            "세"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 다।",
+          "topic": "syllable",
+          "listenText": "다"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-mc-3",
+          "kind": "multiple-choice",
+          "promptBn": "'ra' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "파",
+            "라",
+            "타"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ra = 라।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "파",
+            "라",
+            "타"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 라।",
+          "topic": "syllable",
+          "listenText": "라"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-mc-4",
+          "kind": "multiple-choice",
+          "promptBn": "'ma' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "마",
+            "코",
+            "따",
+            "디"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ma = 마।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-listen-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "마",
+            "코",
+            "따",
+            "디"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 마।",
+          "topic": "syllable",
+          "listenText": "마"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-mc-5",
+          "kind": "multiple-choice",
+          "promptBn": "'ba' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "디",
+            "바",
+            "누",
+            "되"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ba = 바।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-listen-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "디",
+            "바",
+            "누",
+            "되"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 바।",
+          "topic": "syllable",
+          "listenText": "바"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-mc-6",
+          "kind": "multiple-choice",
+          "promptBn": "'sa' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "사",
+            "매",
+            "코",
+            "따"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "sa = 사।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-listen-6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "사",
+            "매",
+            "코",
+            "따"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 사।",
+          "topic": "syllable",
+          "listenText": "사"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-mc-7",
+          "kind": "multiple-choice",
+          "promptBn": "'a' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "후",
+            "네",
+            "아",
+            "개"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "a = 아।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-listen-7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "후",
+            "네",
+            "아",
+            "개"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 아।",
+          "topic": "syllable",
+          "listenText": "아"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-mc-8",
+          "kind": "multiple-choice",
+          "promptBn": "'ja' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "루",
+            "자",
+            "싸",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ja = 자।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-listen-8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "루",
+            "자",
+            "싸",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 자।",
+          "topic": "syllable",
+          "listenText": "자"
+        },
+        {
+          "id": "syl-sy-quiz-sy-gen-mc-9",
+          "kind": "multiple-choice",
+          "promptBn": "'cha' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "아",
+            "네",
+            "보",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "cha = 차।",
+          "topic": "syllable"
         }
-      ]
+      ],
+      "drawCount": 12
     },
     {
       "id": "sy-drill",
@@ -410,7 +743,12 @@
           "kind": "multiple-choice",
           "promptBn": "ㅊ + ㅏ = ?",
           "promptEn": "Compose ㅊ + ㅏ",
-          "options": ["자", "차", "사", "카"],
+          "options": [
+            "자",
+            "차",
+            "사",
+            "카"
+          ],
           "answer": 1,
           "explanationBn": "ㅊ+ㅏ=차 (ছা — চা/গাড়ি)।",
           "topic": "syllable"
@@ -420,7 +758,12 @@
           "kind": "multiple-choice",
           "promptBn": "ㅋ + ㅗ = ?",
           "promptEn": "Compose ㅋ + ㅗ",
-          "options": ["고", "코", "쿠", "커"],
+          "options": [
+            "고",
+            "코",
+            "쿠",
+            "커"
+          ],
           "answer": 1,
           "explanationBn": "ㅋ+ㅗ=코 (খো — নাক)।",
           "topic": "syllable"
@@ -430,7 +773,12 @@
           "kind": "multiple-choice",
           "promptBn": "ㅌ + ㅏ = ?",
           "promptEn": "Compose ㅌ + ㅏ",
-          "options": ["다", "따", "타", "파"],
+          "options": [
+            "다",
+            "따",
+            "타",
+            "파"
+          ],
           "answer": 2,
           "explanationBn": "ㅌ+ㅏ=타 (থা)।",
           "topic": "syllable"
@@ -440,7 +788,12 @@
           "kind": "multiple-choice",
           "promptBn": "ㅍ + ㅣ = ?",
           "promptEn": "Compose ㅍ + ㅣ",
-          "options": ["비", "피", "빠", "티"],
+          "options": [
+            "비",
+            "피",
+            "빠",
+            "티"
+          ],
           "answer": 1,
           "explanationBn": "ㅍ+ㅣ=피 (ফি — রক্ত)।",
           "topic": "syllable"
@@ -450,7 +803,12 @@
           "kind": "multiple-choice",
           "promptBn": "컵 শব্দে ব্যাচিম কোনটি?",
           "promptEn": "What is the batchim in 컵?",
-          "options": ["ㅋ", "ㅓ", "ㅂ", "ㅍ"],
+          "options": [
+            "ㅋ",
+            "ㅓ",
+            "ㅂ",
+            "ㅍ"
+          ],
           "answer": 2,
           "explanationBn": "컵 = ㅋ+ㅓ+ㅂ; নিচের বর্ণ ㅂ হলো ব্যাচিম।",
           "topic": "batchim"
@@ -460,7 +818,12 @@
           "kind": "multiple-choice",
           "promptBn": "빵 = কোন তিনটি বর্ণ?",
           "promptEn": "빵 is composed of which letters?",
-          "options": ["ㅂ+ㅏ+ㅇ", "ㅃ+ㅏ+ㅇ", "ㅍ+ㅏ+ㅇ", "ㅃ+ㅗ+ㅇ"],
+          "options": [
+            "ㅂ+ㅏ+ㅇ",
+            "ㅃ+ㅏ+ㅇ",
+            "ㅍ+ㅏ+ㅇ",
+            "ㅃ+ㅗ+ㅇ"
+          ],
           "answer": 1,
           "explanationBn": "빵 = ㅃ+ㅏ+ㅇ (প্পাং — রুটি)।",
           "topic": "syllable"
@@ -470,7 +833,12 @@
           "kind": "multiple-choice",
           "promptBn": "한 = কোন তিনটি বর্ণ?",
           "promptEn": "한 is composed of which letters?",
-          "options": ["ㅎ+ㅏ+ㄴ", "ㅎ+ㅏ+ㅇ", "ㅋ+ㅏ+ㄴ", "ㅎ+ㅓ+ㄴ"],
+          "options": [
+            "ㅎ+ㅏ+ㄴ",
+            "ㅎ+ㅏ+ㅇ",
+            "ㅋ+ㅏ+ㄴ",
+            "ㅎ+ㅓ+ㄴ"
+          ],
           "answer": 0,
           "explanationBn": "한 = ㅎ+ㅏ+ㄴ (হান)।",
           "topic": "syllable"
@@ -481,7 +849,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "차",
-          "options": ["자", "차", "짜", "사"],
+          "options": [
+            "자",
+            "차",
+            "짜",
+            "사"
+          ],
           "answer": 1,
           "explanationBn": "차 (ছা) — ㅊ শ্বাসযুক্ত।",
           "topic": "syllable"
@@ -492,7 +865,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "코",
-          "options": ["고", "꼬", "코", "노"],
+          "options": [
+            "고",
+            "꼬",
+            "코",
+            "노"
+          ],
           "answer": 2,
           "explanationBn": "코 (খো) — ㅋ শ্বাসযুক্ত।",
           "topic": "syllable"
@@ -503,7 +881,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "타",
-          "options": ["다", "따", "타", "차"],
+          "options": [
+            "다",
+            "따",
+            "타",
+            "차"
+          ],
           "answer": 2,
           "explanationBn": "타 (থা) — ㅌ শ্বাসযুক্ত।",
           "topic": "syllable"
@@ -514,7 +897,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "파",
-          "options": ["바", "빠", "파", "마"],
+          "options": [
+            "바",
+            "빠",
+            "파",
+            "마"
+          ],
           "answer": 2,
           "explanationBn": "파 (ফা) — ㅍ শ্বাসযুক্ত।",
           "topic": "syllable"
@@ -525,7 +913,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "문",
-          "options": ["문", "물", "무", "만"],
+          "options": [
+            "문",
+            "물",
+            "무",
+            "만"
+          ],
           "answer": 0,
           "explanationBn": "문 (মুন — দরজা), ব্যাচিম ㄴ।",
           "topic": "syllable"
@@ -536,10 +929,22 @@
           "promptBn": "অক্ষরের সাথে উচ্চারণ মেলান",
           "promptEn": "Match syllable with pronunciation",
           "pairs": [
-            { "left": "차", "right": "ছা" },
-            { "left": "코", "right": "খো" },
-            { "left": "타", "right": "থা" },
-            { "left": "피", "right": "ফি" }
+            {
+              "left": "차",
+              "right": "ছা"
+            },
+            {
+              "left": "코",
+              "right": "খো"
+            },
+            {
+              "left": "타",
+              "right": "থা"
+            },
+            {
+              "left": "피",
+              "right": "ফি"
+            }
           ],
           "explanationBn": "শ্বাসযুক্ত ব্যঞ্জনের অক্ষর: 차=ছা, 코=খো, 타=থা, 피=ফি।",
           "topic": "syllable"
@@ -550,15 +955,238 @@
           "promptBn": "অক্ষর ভাঙুন (অক্ষর → গঠন)",
           "promptEn": "Decompose syllables",
           "pairs": [
-            { "left": "밥", "right": "ㅂ+ㅏ+ㅂ" },
-            { "left": "문", "right": "ㅁ+ㅜ+ㄴ" },
-            { "left": "땅", "right": "ㄸ+ㅏ+ㅇ" },
-            { "left": "침", "right": "ㅊ+ㅣ+ㅁ" }
+            {
+              "left": "밥",
+              "right": "ㅂ+ㅏ+ㅂ"
+            },
+            {
+              "left": "문",
+              "right": "ㅁ+ㅜ+ㄴ"
+            },
+            {
+              "left": "땅",
+              "right": "ㄸ+ㅏ+ㅇ"
+            },
+            {
+              "left": "침",
+              "right": "ㅊ+ㅣ+ㅁ"
+            }
           ],
           "explanationBn": "প্রতিটি অক্ষর = ব্যঞ্জন+স্বর+ব্যাচিম।",
           "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-mc-0",
+          "kind": "multiple-choice",
+          "promptBn": "'ga' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "뢰",
+            "루",
+            "자"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ga = 가।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "뢰",
+            "루",
+            "자"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 가।",
+          "topic": "syllable",
+          "listenText": "가"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-mc-1",
+          "kind": "multiple-choice",
+          "promptBn": "'na' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "고",
+            "예",
+            "나",
+            "보"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "na = 나।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "고",
+            "예",
+            "나",
+            "보"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 나।",
+          "topic": "syllable",
+          "listenText": "나"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-mc-2",
+          "kind": "multiple-choice",
+          "promptBn": "'da' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "다",
+            "따",
+            "바",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "da = 다।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "다",
+            "따",
+            "바",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 다।",
+          "topic": "syllable",
+          "listenText": "다"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-mc-3",
+          "kind": "multiple-choice",
+          "promptBn": "'ra' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "치",
+            "사",
+            "이",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ra = 라।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "치",
+            "사",
+            "이",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 라।",
+          "topic": "syllable",
+          "listenText": "라"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-mc-4",
+          "kind": "multiple-choice",
+          "promptBn": "'ma' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "타",
+            "마",
+            "제",
+            "수"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ma = 마।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-listen-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "타",
+            "마",
+            "제",
+            "수"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 마।",
+          "topic": "syllable",
+          "listenText": "마"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-mc-5",
+          "kind": "multiple-choice",
+          "promptBn": "'ba' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "하",
+            "바",
+            "차",
+            "자"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ba = 바।",
+          "topic": "syllable"
+        },
+        {
+          "id": "syl-sy-drill-sy-gen-listen-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "하",
+            "바",
+            "차",
+            "자"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 바।",
+          "topic": "syllable",
+          "listenText": "바"
         }
-      ]
+      ],
+      "drawCount": 12
     }
   ]
 }

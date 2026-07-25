@@ -137,15 +137,16 @@ describe("content loader + schema fixtures", () => {
     }
   });
 
-  it("enforces checkpoint composition constraints on fixture", () => {
+  it("enforces checkpoint bank composition constraints on fixture", () => {
     const checkpoint = getBasicsModule("checkpoint")!;
     const questions = getModuleQuizQuestions(checkpoint);
-    expect(questions.length).toBeGreaterThanOrEqual(12);
-    expect(questions.length).toBeLessThanOrEqual(16);
-    expect(questions.filter(q => q.kind === "listen-choice").length).toBeGreaterThanOrEqual(3);
-    expect(questions.filter(q => q.kind === "matching").length).toBeGreaterThanOrEqual(2);
-    expect(questions.filter(isSyllableRelatedQuestion).length).toBeGreaterThanOrEqual(3);
-    expect(questions.filter(isBatchimRelatedQuestion).length).toBeGreaterThanOrEqual(2);
+    expect(questions.length).toBeGreaterThanOrEqual(100);
+    const quiz = checkpoint.steps.find(s => s.type === "quiz");
+    expect(quiz && quiz.type === "quiz" ? quiz.drawCount : undefined).toBe(25);
+    expect(questions.filter(q => q.kind === "listen-choice").length).toBeGreaterThanOrEqual(20);
+    expect(questions.filter(q => q.kind === "matching").length).toBeGreaterThanOrEqual(8);
+    expect(questions.filter(isSyllableRelatedQuestion).length).toBeGreaterThanOrEqual(15);
+    expect(questions.filter(isBatchimRelatedQuestion).length).toBeGreaterThanOrEqual(10);
   });
 
   it("rejects under-composed checkpoint fixtures", () => {

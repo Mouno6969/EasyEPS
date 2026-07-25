@@ -202,22 +202,134 @@
       "type": "speak",
       "minListens": 2,
       "items": [
-        { "id": "sp-j1", "text": "거", "romanization": "geo", "audioText": "거", "bn": "ক (ㄱ+ㅓ)", "en": "geo" },
-        { "id": "sp-j2", "text": "너", "romanization": "neo", "audioText": "너", "bn": "ন (ㄴ+ㅓ) — তুমি", "en": "neo (you)" },
-        { "id": "sp-j3", "text": "도", "romanization": "do", "audioText": "도", "bn": "দো (ㄷ+ㅗ)", "en": "do" },
-        { "id": "sp-j4", "text": "로", "romanization": "ro", "audioText": "로", "bn": "রো (ㄹ+ㅗ)", "en": "ro" },
-        { "id": "sp-j5", "text": "무", "romanization": "mu", "audioText": "무", "bn": "মু (ㅁ+ㅜ)", "en": "mu" },
-        { "id": "sp-j6", "text": "뷰", "romanization": "byu", "audioText": "뷰", "bn": "বিউ (ㅂ+ㅠ)", "en": "byu" },
-        { "id": "sp-j7", "text": "시", "romanization": "si", "audioText": "시", "bn": "সি (ㅅ+ㅣ = স)", "en": "si" },
-        { "id": "sp-j8", "text": "오", "romanization": "o", "audioText": "오", "bn": "ও (নীরব ㅇ+ㅗ)", "en": "o" },
-        { "id": "sp-j9", "text": "지", "romanization": "ji", "audioText": "지", "bn": "জি (ㅈ+ㅣ)", "en": "ji" },
-        { "id": "sp-j10", "text": "치", "romanization": "chi", "audioText": "치", "bn": "ছি (ㅊ+ㅣ)", "en": "chi" },
-        { "id": "sp-j11", "text": "케", "romanization": "ke", "audioText": "케", "bn": "খে (ㅋ+ㅔ)", "en": "ke" },
-        { "id": "sp-j12", "text": "토", "romanization": "to", "audioText": "토", "bn": "থো (ㅌ+ㅗ)", "en": "to" },
-        { "id": "sp-j13", "text": "포", "romanization": "po", "audioText": "포", "bn": "ফো (ㅍ+ㅗ)", "en": "po" },
-        { "id": "sp-j14", "text": "하늘", "romanization": "ha-neul", "audioText": "하늘", "bn": "হানুল — আকাশ (ㅎ)", "en": "sky (ㅎ)" },
-        { "id": "sp-j15", "text": "안녕하세요", "romanization": "an-nyeong-ha-se-yo", "audioText": "안녕하세요", "bn": "আননিয়াংহাসেইয়ো — শুভেচ্ছা", "en": "hello" },
-        { "id": "sp-j16", "text": "감사합니다", "romanization": "gam-sa-ham-ni-da", "audioText": "감사합니다", "bn": "কামসাহামনিদা — ধন্যবাদ", "en": "thank you" }
+        {
+          "id": "sp-j1",
+          "text": "거",
+          "romanization": "geo",
+          "audioText": "거",
+          "bn": "ক (ㄱ+ㅓ)",
+          "en": "geo"
+        },
+        {
+          "id": "sp-j2",
+          "text": "너",
+          "romanization": "neo",
+          "audioText": "너",
+          "bn": "ন (ㄴ+ㅓ) — তুমি",
+          "en": "neo (you)"
+        },
+        {
+          "id": "sp-j3",
+          "text": "도",
+          "romanization": "do",
+          "audioText": "도",
+          "bn": "দো (ㄷ+ㅗ)",
+          "en": "do"
+        },
+        {
+          "id": "sp-j4",
+          "text": "로",
+          "romanization": "ro",
+          "audioText": "로",
+          "bn": "রো (ㄹ+ㅗ)",
+          "en": "ro"
+        },
+        {
+          "id": "sp-j5",
+          "text": "무",
+          "romanization": "mu",
+          "audioText": "무",
+          "bn": "মু (ㅁ+ㅜ)",
+          "en": "mu"
+        },
+        {
+          "id": "sp-j6",
+          "text": "뷰",
+          "romanization": "byu",
+          "audioText": "뷰",
+          "bn": "বিউ (ㅂ+ㅠ)",
+          "en": "byu"
+        },
+        {
+          "id": "sp-j7",
+          "text": "시",
+          "romanization": "si",
+          "audioText": "시",
+          "bn": "সি (ㅅ+ㅣ = স)",
+          "en": "si"
+        },
+        {
+          "id": "sp-j8",
+          "text": "오",
+          "romanization": "o",
+          "audioText": "오",
+          "bn": "ও (নীরব ㅇ+ㅗ)",
+          "en": "o"
+        },
+        {
+          "id": "sp-j9",
+          "text": "지",
+          "romanization": "ji",
+          "audioText": "지",
+          "bn": "জি (ㅈ+ㅣ)",
+          "en": "ji"
+        },
+        {
+          "id": "sp-j10",
+          "text": "치",
+          "romanization": "chi",
+          "audioText": "치",
+          "bn": "ছি (ㅊ+ㅣ)",
+          "en": "chi"
+        },
+        {
+          "id": "sp-j11",
+          "text": "케",
+          "romanization": "ke",
+          "audioText": "케",
+          "bn": "খে (ㅋ+ㅔ)",
+          "en": "ke"
+        },
+        {
+          "id": "sp-j12",
+          "text": "토",
+          "romanization": "to",
+          "audioText": "토",
+          "bn": "থো (ㅌ+ㅗ)",
+          "en": "to"
+        },
+        {
+          "id": "sp-j13",
+          "text": "포",
+          "romanization": "po",
+          "audioText": "포",
+          "bn": "ফো (ㅍ+ㅗ)",
+          "en": "po"
+        },
+        {
+          "id": "sp-j14",
+          "text": "하늘",
+          "romanization": "ha-neul",
+          "audioText": "하늘",
+          "bn": "হানুল — আকাশ (ㅎ)",
+          "en": "sky (ㅎ)"
+        },
+        {
+          "id": "sp-j15",
+          "text": "안녕하세요",
+          "romanization": "an-nyeong-ha-se-yo",
+          "audioText": "안녕하세요",
+          "bn": "আননিয়াংহাসেইয়ো — শুভেচ্ছা",
+          "en": "hello"
+        },
+        {
+          "id": "sp-j16",
+          "text": "감사합니다",
+          "romanization": "gam-sa-ham-ni-da",
+          "audioText": "감사합니다",
+          "bn": "কামসাহামনিদা — ধন্যবাদ",
+          "en": "thank you"
+        }
       ],
       "fallbackQuizIds": []
     },
@@ -231,7 +343,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "거",
-          "options": ["가", "거", "고", "구"],
+          "options": [
+            "가",
+            "거",
+            "고",
+            "구"
+          ],
           "answer": 1,
           "explanationBn": "거 = ㄱ+ㅓ (ক)।",
           "topic": "syllable"
@@ -242,7 +359,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "치",
-          "options": ["지", "치", "시", "키"],
+          "options": [
+            "지",
+            "치",
+            "시",
+            "키"
+          ],
           "answer": 1,
           "explanationBn": "치 = ㅊ+ㅣ (ছি)।",
           "topic": "syllable"
@@ -253,7 +375,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "토",
-          "options": ["도", "토", "또", "보"],
+          "options": [
+            "도",
+            "토",
+            "또",
+            "보"
+          ],
           "answer": 1,
           "explanationBn": "토 = ㅌ+ㅗ (থো)।",
           "topic": "syllable"
@@ -264,7 +391,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "포",
-          "options": ["보", "뽀", "포", "모"],
+          "options": [
+            "보",
+            "뽀",
+            "포",
+            "모"
+          ],
           "answer": 2,
           "explanationBn": "포 = ㅍ+ㅗ (ফো)।",
           "topic": "syllable"
@@ -275,7 +407,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "케",
-          "options": ["게", "케", "네", "세"],
+          "options": [
+            "게",
+            "케",
+            "네",
+            "세"
+          ],
           "answer": 1,
           "explanationBn": "케 = ㅋ+ㅔ (খে)।",
           "topic": "syllable"
@@ -286,7 +423,12 @@
           "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
           "promptEn": "Listen and choose the word",
           "listenText": "진짜",
-          "options": ["진짜", "진자", "친자", "집자"],
+          "options": [
+            "진짜",
+            "진자",
+            "친자",
+            "집자"
+          ],
           "answer": 0,
           "explanationBn": "진짜 (চিনচ্চা) — সত্যি; ㅉ টেনস।",
           "topic": "syllable"
@@ -297,7 +439,12 @@
           "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
           "promptEn": "Listen and choose the word",
           "listenText": "오빠",
-          "options": ["오바", "오빠", "오파", "우빠"],
+          "options": [
+            "오바",
+            "오빠",
+            "오파",
+            "우빠"
+          ],
           "answer": 1,
           "explanationBn": "오빠 (ওপ্পা) — বড় ভাই; ㅃ টেনস।",
           "topic": "syllable"
@@ -308,7 +455,12 @@
           "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
           "promptEn": "Listen and choose the word",
           "listenText": "날씨",
-          "options": ["날시", "날씨", "나씨", "남씨"],
+          "options": [
+            "날시",
+            "날씨",
+            "나씨",
+            "남씨"
+          ],
           "answer": 1,
           "explanationBn": "날씨 (নালস্সি) — আবহাওয়া; ㅆ টেনস।",
           "topic": "syllable"
@@ -318,7 +470,12 @@
           "kind": "multiple-choice",
           "promptBn": "너 (তুমি) = কোন দুই বর্ণ?",
           "promptEn": "너 is composed of?",
-          "options": ["ㄴ+ㅓ", "ㄴ+ㅏ", "ㄱ+ㅓ", "ㄴ+ㅗ"],
+          "options": [
+            "ㄴ+ㅓ",
+            "ㄴ+ㅏ",
+            "ㄱ+ㅓ",
+            "ㄴ+ㅗ"
+          ],
           "answer": 0,
           "explanationBn": "너 = ㄴ+ㅓ (ন)।",
           "topic": "syllable"
@@ -328,7 +485,12 @@
           "kind": "multiple-choice",
           "promptBn": "치 = কোন দুই বর্ণ?",
           "promptEn": "치 is composed of?",
-          "options": ["ㅈ+ㅣ", "ㅊ+ㅣ", "ㅊ+ㅡ", "ㅅ+ㅣ"],
+          "options": [
+            "ㅈ+ㅣ",
+            "ㅊ+ㅣ",
+            "ㅊ+ㅡ",
+            "ㅅ+ㅣ"
+          ],
           "answer": 1,
           "explanationBn": "치 = ㅊ+ㅣ (ছি)।",
           "topic": "syllable"
@@ -339,10 +501,22 @@
           "promptBn": "অক্ষর ও উচ্চারণ মেলান",
           "promptEn": "Match syllable with sound",
           "pairs": [
-            { "left": "케", "right": "খে" },
-            { "left": "토", "right": "থো" },
-            { "left": "포", "right": "ফো" },
-            { "left": "치", "right": "ছি" }
+            {
+              "left": "케",
+              "right": "খে"
+            },
+            {
+              "left": "토",
+              "right": "থো"
+            },
+            {
+              "left": "포",
+              "right": "ফো"
+            },
+            {
+              "left": "치",
+              "right": "ছি"
+            }
           ],
           "explanationBn": "শ্বাসযুক্ত ব্যঞ্জনের অক্ষর: 케 토 포 치।",
           "topic": "syllable"
@@ -353,15 +527,238 @@
           "promptBn": "শব্দ ও অর্থ মেলান",
           "promptEn": "Match word with meaning",
           "pairs": [
-            { "left": "안녕하세요", "right": "শুভেচ্ছা" },
-            { "left": "감사합니다", "right": "ধন্যবাদ" },
-            { "left": "진짜", "right": "সত্যি" },
-            { "left": "날씨", "right": "আবহাওয়া" }
+            {
+              "left": "안녕하세요",
+              "right": "শুভেচ্ছা"
+            },
+            {
+              "left": "감사합니다",
+              "right": "ধন্যবাদ"
+            },
+            {
+              "left": "진짜",
+              "right": "সত্যি"
+            },
+            {
+              "left": "날씨",
+              "right": "আবহাওয়া"
+            }
           ],
           "explanationBn": "প্রায়শই ব্যবহৃত শব্দ।",
           "topic": "general"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-mc-0",
+          "kind": "multiple-choice",
+          "promptBn": "'ga' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "타",
+            "차",
+            "가",
+            "되"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ga = 가।",
+          "topic": "syllable"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "타",
+            "차",
+            "가",
+            "되"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 가।",
+          "topic": "syllable",
+          "listenText": "가"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-mc-1",
+          "kind": "multiple-choice",
+          "promptBn": "'na' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "라",
+            "네",
+            "바",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "na = 나।",
+          "topic": "syllable"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "라",
+            "네",
+            "바",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 나।",
+          "topic": "syllable",
+          "listenText": "나"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-mc-2",
+          "kind": "multiple-choice",
+          "promptBn": "'da' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "차",
+            "누",
+            "제",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "da = 다।",
+          "topic": "syllable"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "차",
+            "누",
+            "제",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 다।",
+          "topic": "syllable",
+          "listenText": "다"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-mc-3",
+          "kind": "multiple-choice",
+          "promptBn": "'ra' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "고",
+            "라",
+            "가",
+            "개"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ra = 라।",
+          "topic": "syllable"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "고",
+            "라",
+            "가",
+            "개"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 라।",
+          "topic": "syllable",
+          "listenText": "라"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-mc-4",
+          "kind": "multiple-choice",
+          "promptBn": "'ma' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "제",
+            "마",
+            "싸"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ma = 마।",
+          "topic": "syllable"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-listen-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "제",
+            "마",
+            "싸"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 마।",
+          "topic": "syllable",
+          "listenText": "마"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-mc-5",
+          "kind": "multiple-choice",
+          "promptBn": "'ba' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "뢰",
+            "되",
+            "후",
+            "바"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ba = 바।",
+          "topic": "syllable"
+        },
+        {
+          "id": "spe-sp-quiz-1-sy-gen-listen-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "뢰",
+            "되",
+            "후",
+            "바"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 바।",
+          "topic": "syllable",
+          "listenText": "바"
         }
-      ]
+      ],
+      "drawCount": 12
     },
     {
       "id": "sp-quiz-2",
@@ -373,7 +770,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "무",
-          "options": ["모", "무", "미", "마"],
+          "options": [
+            "모",
+            "무",
+            "미",
+            "마"
+          ],
           "answer": 1,
           "explanationBn": "무 = ㅁ+ㅜ (মু)।",
           "topic": "syllable"
@@ -384,7 +786,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "시",
-          "options": ["자", "치", "시", "기"],
+          "options": [
+            "자",
+            "치",
+            "시",
+            "기"
+          ],
           "answer": 2,
           "explanationBn": "시 = ㅅ+ㅣ — স উচ্চারণ (ㅣ-এর আগে ㅅ=স)।",
           "topic": "syllable"
@@ -395,7 +802,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "로",
-          "options": ["노", "로", "도", "고"],
+          "options": [
+            "노",
+            "로",
+            "도",
+            "고"
+          ],
           "answer": 1,
           "explanationBn": "로 = ㄹ+ㅗ (রো)।",
           "topic": "syllable"
@@ -406,7 +818,12 @@
           "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
           "promptEn": "Listen and choose the word",
           "listenText": "추워요",
-          "options": ["더워요", "추워요", "좋아요", "매워요"],
+          "options": [
+            "더워요",
+            "추워요",
+            "좋아요",
+            "매워요"
+          ],
           "answer": 1,
           "explanationBn": "추워요 (ছুওয়ো) — ঠান্ডা লাগছে; ㅊ শ্বাসযুক্ত।",
           "topic": "general"
@@ -417,7 +834,12 @@
           "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
           "promptEn": "Listen and choose the word",
           "listenText": "전화",
-          "options": ["전화", "천화", "잔하", "진화"],
+          "options": [
+            "전화",
+            "천화",
+            "잔하",
+            "진화"
+          ],
           "answer": 0,
           "explanationBn": "전화 (চনহোয়া) — ফোন; ㅎ ধ্বনি লক্ষ করুন।",
           "topic": "general"
@@ -427,7 +849,12 @@
           "kind": "multiple-choice",
           "promptBn": "하늘 (আকাশ) শব্দের প্রথম ব্যঞ্জন কোনটি?",
           "promptEn": "First consonant of 하늘?",
-          "options": ["ㅇ", "ㅎ", "ㅋ", "ㄱ"],
+          "options": [
+            "ㅇ",
+            "ㅎ",
+            "ㅋ",
+            "ㄱ"
+          ],
           "answer": 1,
           "explanationBn": "하늘 = ㅎ+ㅏ... (হানুল)।",
           "topic": "syllable"
@@ -437,7 +864,12 @@
           "kind": "multiple-choice",
           "promptBn": "또 অক্ষরের প্রথম ব্যঞ্জন কোনটি?",
           "promptEn": "First consonant of 또?",
-          "options": ["ㄷ", "ㅌ", "ㄸ", "ㅃ"],
+          "options": [
+            "ㄷ",
+            "ㅌ",
+            "ㄸ",
+            "ㅃ"
+          ],
           "answer": 2,
           "explanationBn": "또 = ㄸ+ㅗ (টেনস ㄸ)।",
           "topic": "syllable"
@@ -447,7 +879,12 @@
           "kind": "multiple-choice",
           "promptBn": "예쁘다 শব্দে কোন টেনস ব্যঞ্জন আছে?",
           "promptEn": "Which tense consonant is in 예쁘다?",
-          "options": ["ㄲ", "ㅃ", "ㅆ", "ㅉ"],
+          "options": [
+            "ㄲ",
+            "ㅃ",
+            "ㅆ",
+            "ㅉ"
+          ],
           "answer": 1,
           "explanationBn": "예쁘다 (ইয়েপ্পুদা) — 쁘-তে ㅃ।",
           "topic": "syllable"
@@ -458,10 +895,22 @@
           "promptBn": "শব্দ ও অর্থ মেলান",
           "promptEn": "Match word with meaning",
           "pairs": [
-            { "left": "맵다", "right": "ঝাল" },
-            { "left": "달다", "right": "মিষ্টি" },
-            { "left": "짜다", "right": "লবণাক্ত" },
-            { "left": "맛있다", "right": "সুস্বাদু" }
+            {
+              "left": "맵다",
+              "right": "ঝাল"
+            },
+            {
+              "left": "달다",
+              "right": "মিষ্টি"
+            },
+            {
+              "left": "짜다",
+              "right": "লবণাক্ত"
+            },
+            {
+              "left": "맛있다",
+              "right": "সুস্বাদু"
+            }
           ],
           "explanationBn": "স্বাদের শব্দ।",
           "topic": "general"
@@ -472,10 +921,22 @@
           "promptBn": "শব্দ ও অর্থ মেলান",
           "promptEn": "Match word with meaning",
           "pairs": [
-            { "left": "여름", "right": "গ্রীষ্ম" },
-            { "left": "겨울", "right": "শীতকাল" },
-            { "left": "천원", "right": "১০০০ উয়ন" },
-            { "left": "만원", "right": "১০০০০ উয়ন" }
+            {
+              "left": "여름",
+              "right": "গ্রীষ্ম"
+            },
+            {
+              "left": "겨울",
+              "right": "শীতকাল"
+            },
+            {
+              "left": "천원",
+              "right": "১০০০ উয়ন"
+            },
+            {
+              "left": "만원",
+              "right": "১০০০০ উয়ন"
+            }
           ],
           "explanationBn": "ঋতু ও টাকার শব্দ।",
           "topic": "general"
@@ -486,7 +947,12 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "뷰",
-          "options": ["부", "뷰", "무", "보"],
+          "options": [
+            "부",
+            "뷰",
+            "무",
+            "보"
+          ],
           "answer": 1,
           "explanationBn": "뷰 = ㅂ+ㅠ (বিউ)।",
           "topic": "syllable"
@@ -497,12 +963,226 @@
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
           "listenText": "지",
-          "options": ["시", "치", "지", "기"],
+          "options": [
+            "시",
+            "치",
+            "지",
+            "기"
+          ],
           "answer": 2,
           "explanationBn": "지 = ㅈ+ㅣ (জি)।",
           "topic": "syllable"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-rom-0",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ (기역) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "g/k",
+            "x",
+            "ng",
+            "ae"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㄱ = g/k (기역)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-char-0",
+          "kind": "multiple-choice",
+          "promptBn": "'g/k' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄸ",
+            "ㄱ",
+            "ㅃ",
+            "ㅎ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "g/k → ㄱ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "마",
+            "라",
+            "파"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 가 (ㄱ)।",
+          "topic": "jamo",
+          "listenText": "가"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-rom-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄴ (니은) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "x",
+            "ng",
+            "ae",
+            "n"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㄴ = n (니은)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-char-1",
+          "kind": "multiple-choice",
+          "promptBn": "'n' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅎ",
+            "ㄴ",
+            "ㅅ",
+            "ㄷ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "n → ㄴ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "차",
+            "나",
+            "마",
+            "가"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 나 (ㄴ)।",
+          "topic": "jamo",
+          "listenText": "나"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-rom-2",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ (디귿) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ng",
+            "ae",
+            "d/t",
+            "x"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㄷ = d/t (디귿)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-char-2",
+          "kind": "multiple-choice",
+          "promptBn": "'d/t' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄸ",
+            "ㄷ",
+            "ㅍ",
+            "ㅎ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "d/t → ㄷ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "빠",
+            "가",
+            "파",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 다 (ㄷ)।",
+          "topic": "jamo",
+          "listenText": "다"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-rom-3",
+          "kind": "multiple-choice",
+          "promptBn": "ㄹ (리을) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ae",
+            "r/l",
+            "x",
+            "ng"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㄹ = r/l (리을)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-char-3",
+          "kind": "multiple-choice",
+          "promptBn": "'r/l' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄹ",
+            "ㅂ",
+            "ㄷ",
+            "ㅁ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "r/l → ㄹ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "spe-sp-quiz-2-c-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "빠",
+            "라",
+            "따",
+            "아"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 라 (ㄹ)।",
+          "topic": "jamo",
+          "listenText": "라"
         }
-      ]
+      ],
+      "drawCount": 12
     }
   ]
 }

@@ -57,10 +57,12 @@ Fixture uses **`passRatio: 0.66`** so a 2-of-3 quiz passes (`2/3 ≈ 0.666…`).
 
 - `kind`: `multiple-choice` | `matching` | `listen-choice`
 - Optional `topic`: `jamo` | `syllable` | `batchim` | `general` (helps checkpoint composition checks; heuristics also apply)
-- Checkpoint: 12–16 questions; ≥3 listen-choice; ≥3 syllable-related; ≥2 batchim-related; ≥2 matching
-- Non-checkpoint quiz steps: ≥3 questions
+- Optional `drawCount`: runtime sample size from the bank (Fisher–Yates + stratified minima)
+- **Checkpoint bank:** ≥100 questions with `drawCount: 25`; bank must include ≥20 listen-choice, ≥8 matching, ≥15 syllable-related, ≥10 batchim-related
+- **Module quiz banks:** typically 20–30 questions with `drawCount` 10–12 (legacy small banks still allowed, ≥3)
+- Jamo grid items may include `shapeMnemonicBn` (Bangla visual mnemonic)
 
-Scoring (`scoreBasicsQuiz`): MC/listen index match → 1 pt; matching all pairs correct → 1 pt.
+Scoring (`scoreBasicsQuiz` / `scoreBasicsQuestions`): MC/listen index match → 1 pt; matching all pairs correct → 1 pt. Checkpoint submit accepts `questionIds` so only the drawn sample is graded.
 
 ## Unlock semantics (important)
 
@@ -95,6 +97,6 @@ Never treat client-reported checkpoint quiz fields alone as curriculum unlock.
 | `coverageRatio` | `shared/strokeCoverage.ts` |
 | `isModuleComplete`, `scoreBasicsQuiz`, `isCheckpointPassing`, `quizRatio` | `shared/basics.ts` |
 
-## Fixtures vs full pedagogy
+## Content expansion
 
-PR 1a ships **minimal valid fixtures**. Full inventory and copy land in a follow-up content PR.
+Run `python3 scripts/expand_basics_volume.py` to rebuild expanded banks (idempotent-ish; re-reads modules). Stroke files for tense consonants: `ssanggiyeok`, `ssangdigeut`, `ssangbieup`, `ssangsiot`, `ssangjieut`.

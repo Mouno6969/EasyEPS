@@ -11,7 +11,7 @@
     "ko": "체크포인트",
     "en": "Capstone"
   },
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 25,
   "requirements": {
     "requiredStepIds": [
       "cp-quiz"
@@ -27,54 +27,497 @@
       "type": "quiz",
       "questions": [
         {
-          "id": "cp-mc-1",
+          "id": "cp-h-consonants-c-q1",
           "kind": "multiple-choice",
-          "promptBn": "ㄱ ধরন?",
+          "promptBn": "মৌলিক ব্যঞ্জনবর্ণ কয়টি?",
+          "promptEn": "How many basic consonants are there?",
           "options": [
-            "স্বর",
-            "ব্যঞ্জন",
-            "সংখ্যা",
-            "যতি"
+            "১০ টি",
+            "১৪ টি",
+            "১৯ টি",
+            "২১ টি"
           ],
           "answer": 1,
-          "explanationBn": "ব্যঞ্জন",
+          "explanationBn": "মৌলিক ব্যঞ্জনবর্ণ ১৪টি, যুক্ত ৫টি — মোট ১৯টি।",
           "topic": "jamo"
         },
         {
-          "id": "cp-mc-2",
+          "id": "cp-h-consonants-c-q2",
           "kind": "multiple-choice",
-          "promptBn": "ㅏ এর উচ্চারণ?",
-          "promptEn": "Sound of ㅏ?",
+          "promptBn": "ㄴ (니은) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㄴ?",
           "options": [
-            "a",
-            "o",
-            "u",
-            "i"
+            "m",
+            "n",
+            "ng",
+            "r"
           ],
-          "answer": 0,
-          "explanationBn": "ㅏ = a (আ)",
+          "answer": 1,
+          "explanationBn": "ㄴ (নিয়ন) = n।",
           "topic": "jamo"
         },
         {
-          "id": "cp-mc-4",
+          "id": "cp-h-consonants-c-q3",
           "kind": "multiple-choice",
-          "promptBn": "ㅌ (থ) কোনটি?",
-          "promptEn": "Which letter is ㅌ (t)?",
+          "promptBn": "ㅅ এর ডানে ㅣ থাকলে উচ্চারণ কী হয়? (যেমন 시간)",
+          "promptEn": "How is ㅅ pronounced before ㅣ? (e.g. 시간)",
+          "options": [
+            "ছ",
+            "স",
+            "ত",
+            "জ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅅ+ㅣ = স। 시간(সিগান)=সময়, কিন্তু 사람(ছারাম)=মানুষ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㄲ কোন ধরনের বর্ণ?",
+          "promptEn": "What kind of letter is ㄲ?",
+          "options": [
+            "মৌলিক স্বরবর্ণ",
+            "যুক্ত ব্যঞ্জনবর্ণ",
+            "মৌলিক ব্যঞ্জনবর্ণ",
+            "যৌগিক স্বরবর্ণ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㄲ (쌍기역/ছাং গিয়ক) যুক্ত বা যৌগিক ব্যঞ্জনবর্ণ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-q5",
+          "kind": "matching",
+          "promptBn": "ব্যঞ্জনবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match consonants with sounds",
+          "pairs": [
+            {
+              "left": "ㄱ",
+              "right": "g/k"
+            },
+            {
+              "left": "ㅁ",
+              "right": "m"
+            },
+            {
+              "left": "ㅂ",
+              "right": "b/p"
+            },
+            {
+              "left": "ㅎ",
+              "right": "h"
+            }
+          ],
+          "explanationBn": "ㄱ=গ/ক, ㅁ=ম, ㅂ=ব/প, ㅎ=হ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "나",
+          "options": [
+            "ㄱ",
+            "ㄴ",
+            "ㅁ",
+            "ㅅ"
+          ],
+          "answer": 1,
+          "explanationBn": "나 = ㄴ+ㅏ, তাই উত্তর ㄴ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-q7",
+          "kind": "multiple-choice",
+          "promptBn": "ㄹ (리을) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㄹ?",
+          "options": [
+            "n",
+            "r/l",
+            "m",
+            "d/t"
+          ],
+          "answer": 1,
+          "explanationBn": "ㄹ (রিউল) = র/ল।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-q8",
+          "kind": "multiple-choice",
+          "promptBn": "শব্দের শুরুতে ㅇ কেমন উচ্চারণ হয়?",
+          "promptEn": "How is ㅇ pronounced at the start of a syllable?",
+          "options": [
+            "ং",
+            "নীরব",
+            "গ",
+            "হ"
+          ],
+          "answer": 1,
+          "explanationBn": "শুরুতে ㅇ নীরব; শেষে (ব্যাচিমে) ং।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-q9",
+          "kind": "matching",
+          "promptBn": "ব্যঞ্জনবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match consonants with sounds",
+          "pairs": [
+            {
+              "left": "ㄴ",
+              "right": "n"
+            },
+            {
+              "left": "ㄷ",
+              "right": "d/t"
+            },
+            {
+              "left": "ㄹ",
+              "right": "r/l"
+            },
+            {
+              "left": "ㅅ",
+              "right": "s"
+            }
+          ],
+          "explanationBn": "ㄴ=ন, ㄷ=দ/ত, ㄹ=র/ল, ㅅ=স।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-rom-0",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ (기역) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "g/k",
+            "x",
+            "ng",
+            "ae"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㄱ = g/k (기역)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-char-0",
+          "kind": "multiple-choice",
+          "promptBn": "'g/k' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅊ",
+            "ㄴ",
+            "ㄱ",
+            "ㅁ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "g/k → ㄱ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "마",
+            "라",
+            "까",
+            "가"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 가 (ㄱ)।",
+          "topic": "jamo",
+          "listenText": "가"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-rom-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄴ (니은) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "x",
+            "ng",
+            "ae",
+            "n"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㄴ = n (니은)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-char-1",
+          "kind": "multiple-choice",
+          "promptBn": "'n' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄴ",
+            "ㄱ",
+            "ㅈ",
+            "ㅇ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "n → ㄴ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "따",
+            "자",
+            "차",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 나 (ㄴ)।",
+          "topic": "jamo",
+          "listenText": "나"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-rom-2",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ (디귿) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ng",
+            "ae",
+            "d/t",
+            "x"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㄷ = d/t (디귿)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-char-2",
+          "kind": "multiple-choice",
+          "promptBn": "'d/t' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅊ",
+            "ㄷ",
+            "ㅂ",
+            "ㅌ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "d/t → ㄷ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "다",
+            "마",
+            "라",
+            "하"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 다 (ㄷ)।",
+          "topic": "jamo",
+          "listenText": "다"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-rom-3",
+          "kind": "multiple-choice",
+          "promptBn": "ㄹ (리을) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ae",
+            "r/l",
+            "x",
+            "ng"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㄹ = r/l (리을)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-char-3",
+          "kind": "multiple-choice",
+          "promptBn": "'r/l' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄸ",
+            "ㄴ",
+            "ㄹ",
+            "ㅁ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "r/l → ㄹ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "파",
+            "다",
+            "아",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 라 (ㄹ)।",
+          "topic": "jamo",
+          "listenText": "라"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-rom-4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅁ (미음) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "m",
+            "x",
+            "ng",
+            "ae"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㅁ = m (미음)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-char-4",
+          "kind": "multiple-choice",
+          "promptBn": "'m' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅈ",
+            "ㄷ",
+            "ㅋ",
+            "ㅁ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "m → ㅁ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-listen-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "사",
+            "마",
+            "따",
+            "파"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 마 (ㅁ)।",
+          "topic": "jamo",
+          "listenText": "마"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-rom-5",
+          "kind": "multiple-choice",
+          "promptBn": "ㅂ (비읍) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "x",
+            "ng",
+            "ae",
+            "b/p"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㅂ = b/p (비읍)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-char-5",
+          "kind": "multiple-choice",
+          "promptBn": "'b/p' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
           "options": [
             "ㄷ",
-            "ㅌ",
-            "ㄹ",
-            "ㅍ"
+            "ㅅ",
+            "ㅂ",
+            "ㅊ"
           ],
-          "answer": 1,
-          "explanationBn": "ㅌ = t; ㄷ-এর মাঝে বাড়তি রেখা",
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "b/p → ㅂ।",
           "topic": "jamo"
         },
         {
-          "id": "cp-mc-5",
+          "id": "cp-h-consonants-con-c-quiz-c-gen-listen-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "하",
+            "자",
+            "바",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 바 (ㅂ)।",
+          "topic": "jamo",
+          "listenText": "바"
+        },
+        {
+          "id": "cp-h-consonants-con-c-quiz-c-gen-rom-6",
           "kind": "multiple-choice",
-          "promptBn": "ㅊ এর উচ্চারণ?",
-          "promptEn": "Sound of ㅊ?",
+          "promptBn": "ㅅ (시옷) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ng",
+            "ae",
+            "s",
+            "x"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㅅ = s (시옷)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅊ (치읓) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅊ?",
           "options": [
             "j",
             "ch",
@@ -82,117 +525,150 @@
             "h"
           ],
           "answer": 1,
-          "explanationBn": "ㅊ = ch (ছ — শ্বাসযুক্ত)",
+          "explanationBn": "ㅊ (ছিউত) = ch। ㅈ+এক রেখা = ㅊ।",
           "topic": "jamo"
         },
         {
-          "id": "cp-mc-6",
+          "id": "cp-h-consonants-c-d1-q2",
           "kind": "multiple-choice",
-          "promptBn": "কোনটি টেনস (ডাবল) ব্যঞ্জন?",
-          "promptEn": "Which is a tense (double) consonant?",
+          "promptBn": "ㅋ (키읔) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅋ?",
+          "options": [
+            "g/k",
+            "k",
+            "kk",
+            "h"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅋ (খিয়ক) = k (শ্বাসযুক্ত)। ㄱ+এক রেখা = ㅋ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅌ (티읕) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅌ?",
+          "options": [
+            "d/t",
+            "t",
+            "tt",
+            "p"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅌ (থিউত) = t (শ্বাসযুক্ত)। ㄷ+এক রেখা = ㅌ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅍ (피읖) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅍ?",
+          "options": [
+            "b/p",
+            "p",
+            "pp",
+            "m"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅍ (ফিউপ) = p (শ্বাসযুক্ত)। ㅂ থেকে আলাদা করে চিনুন।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q5",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ-এ একটি রেখা যোগ করলে কোন বর্ণ হয়?",
+          "promptEn": "Adding one stroke to ㄱ gives which letter?",
           "options": [
             "ㅋ",
+            "ㄲ",
+            "ㅌ",
+            "ㅊ"
+          ],
+          "answer": 0,
+          "explanationBn": "ㄱ→ㅋ (শ্বাসযুক্ত জোড়া)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q6",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ-এর শ্বাসযুক্ত (aspirated) জোড়া কোনটি?",
+          "promptEn": "Which is the aspirated pair of ㄷ?",
+          "options": [
+            "ㄸ",
+            "ㅌ",
             "ㅍ",
+            "ㅊ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㄷ→ㅌ। ㄸ হলো টেনস (ডাবল) রূপ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q7",
+          "kind": "multiple-choice",
+          "promptBn": "ㅂ-এর শ্বাসযুক্ত জোড়া কোনটি?",
+          "promptEn": "Which is the aspirated pair of ㅂ?",
+          "options": [
+            "ㅃ",
+            "ㅁ",
+            "ㅍ",
+            "ㅌ"
+          ],
+          "answer": 2,
+          "explanationBn": "ㅂ→ㅍ। ㅃ হলো টেনস রূপ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q8",
+          "kind": "multiple-choice",
+          "promptBn": "ㅈ-এর শ্বাসযুক্ত জোড়া কোনটি?",
+          "promptEn": "Which is the aspirated pair of ㅈ?",
+          "options": [
+            "ㅉ",
+            "ㅊ",
+            "ㅅ",
+            "ㅆ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅈ→ㅊ। ㅉ হলো টেনস রূপ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "차",
+          "options": [
+            "ㅈ",
+            "ㅊ",
+            "ㅅ",
+            "ㅎ"
+          ],
+          "answer": 1,
+          "explanationBn": "차 = ㅊ+ㅏ (ছা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "카",
+          "options": [
+            "ㄱ",
+            "ㅋ",
             "ㄲ",
             "ㅎ"
           ],
-          "answer": 2,
-          "explanationBn": "ㄲ টেনস; ㅋ ㅍ শ্বাসযুক্ত",
+          "answer": 1,
+          "explanationBn": "카 = ㅋ+ㅏ (খা)।",
           "topic": "jamo"
         },
         {
-          "id": "cp-sy-1",
-          "kind": "multiple-choice",
-          "promptBn": "ㄱ+ㅏ=?",
-          "promptEn": "compose",
-          "options": [
-            "가",
-            "나",
-            "다",
-            "마"
-          ],
-          "answer": 0,
-          "explanationBn": "가",
-          "topic": "syllable"
-        },
-        {
-          "id": "cp-sy-2",
-          "kind": "multiple-choice",
-          "promptBn": "나=?",
-          "options": [
-            "ㄴ+ㅏ",
-            "ㄱ+ㅏ",
-            "ㄷ+ㅣ",
-            "ㅁ+ㅗ"
-          ],
-          "answer": 0,
-          "explanationBn": "ㄴ+ㅏ",
-          "topic": "syllable"
-        },
-        {
-          "id": "cp-ba-1",
-          "kind": "multiple-choice",
-          "promptBn": "간 batchim (받침)?",
-          "promptEn": "Batchim in 간?",
-          "options": [
-            "ㄱ",
-            "ㄴ",
-            "ㅏ",
-            "없음"
-          ],
-          "answer": 1,
-          "explanationBn": "ㄴ",
-          "topic": "batchim"
-        },
-        {
-          "id": "cp-ba-2",
-          "kind": "multiple-choice",
-          "promptBn": "가-তে 받침?",
-          "promptEn": "batchim in 가?",
-          "options": [
-            "হ্যাঁ",
-            "না",
-            "ㄱ",
-            "ㅇ"
-          ],
-          "answer": 1,
-          "explanationBn": "নাই",
-          "topic": "batchim"
-        },
-        {
-          "id": "cp-li-1",
+          "id": "cp-h-consonants-c-d1-q11",
           "kind": "listen-choice",
-          "promptBn": "শুনুন",
-          "listenText": "가",
-          "options": [
-            "가",
-            "나",
-            "다",
-            "마"
-          ],
-          "answer": 0,
-          "explanationBn": "가",
-          "topic": "syllable"
-        },
-        {
-          "id": "cp-li-2",
-          "kind": "listen-choice",
-          "promptBn": "স্বর",
-          "listenText": "아",
-          "options": [
-            "ㅏ",
-            "ㅓ",
-            "ㅗ",
-            "ㅜ"
-          ],
-          "answer": 0,
-          "explanationBn": "ㅏ",
-          "topic": "jamo"
-        },
-        {
-          "id": "cp-li-3",
-          "kind": "listen-choice",
-          "promptBn": "শুনে সঠিক ব্যঞ্জন বেছে নিন",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
           "promptEn": "Listen and choose the consonant",
           "listenText": "타",
           "options": [
@@ -202,13 +678,13 @@
             "ㅍ"
           ],
           "answer": 2,
-          "explanationBn": "타 = ㅌ+ㅏ (থা — শ্বাসযুক্ত)",
+          "explanationBn": "타 = ㅌ+ㅏ (থা)।",
           "topic": "jamo"
         },
         {
-          "id": "cp-li-4",
+          "id": "cp-h-consonants-c-d1-q12",
           "kind": "listen-choice",
-          "promptBn": "শুনে সঠিক ব্যঞ্জন বেছে নিন",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
           "promptEn": "Listen and choose the consonant",
           "listenText": "파",
           "options": [
@@ -218,29 +694,4977 @@
             "ㅍ"
           ],
           "answer": 3,
-          "explanationBn": "파 = ㅍ+ㅏ (ফা — শ্বাসযুক্ত)",
+          "explanationBn": "파 = ㅍ+ㅏ (ফা)।",
           "topic": "jamo"
         },
         {
-          "id": "cp-li-5",
+          "id": "cp-h-consonants-c-d1-q13",
+          "kind": "matching",
+          "promptBn": "শ্বাসযুক্ত বর্ণ মেলান (মূল → শ্বাসযুক্ত)",
+          "promptEn": "Match plain → aspirated letters",
+          "pairs": [
+            {
+              "left": "ㄱ",
+              "right": "ㅋ"
+            },
+            {
+              "left": "ㄷ",
+              "right": "ㅌ"
+            },
+            {
+              "left": "ㅂ",
+              "right": "ㅍ"
+            },
+            {
+              "left": "ㅈ",
+              "right": "ㅊ"
+            }
+          ],
+          "explanationBn": "একটি অতিরিক্ত রেখা = শ্বাসযুক্ত: ㄱ→ㅋ, ㄷ→ㅌ, ㅂ→ㅍ, ㅈ→ㅊ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q14",
+          "kind": "matching",
+          "promptBn": "শ্বাসযুক্ত বর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match aspirated consonants with sounds",
+          "pairs": [
+            {
+              "left": "ㅊ",
+              "right": "ch"
+            },
+            {
+              "left": "ㅋ",
+              "right": "k"
+            },
+            {
+              "left": "ㅌ",
+              "right": "t"
+            },
+            {
+              "left": "ㅍ",
+              "right": "p"
+            }
+          ],
+          "explanationBn": "ㅊ=ch, ㅋ=k, ㅌ=t, ㅍ=p।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q15",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'ㅌ' (t)?",
+          "promptEn": "Which letter is ㅌ (t)?",
+          "options": [
+            "ㅌ",
+            "ㄷ",
+            "ㄹ",
+            "ㅍ"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅌ = তিনটি অনুভূমিক রেখা — ㄷ-এর ভিতরে একটি বাড়তি রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d1-q16",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'ㅍ' (p)?",
+          "promptEn": "Which letter is ㅍ (p)?",
+          "options": [
+            "ㅁ",
+            "ㅂ",
+            "ㅍ",
+            "ㅃ"
+          ],
+          "answer": 2,
+          "explanationBn": "ㅍ = উপরে-নিচে দুই রেখা, মাঝে দুই খুঁটি।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-rom-0",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ (기역) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "g/k",
+            "x",
+            "ng",
+            "ae"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㄱ = g/k (기역)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-char-0",
+          "kind": "multiple-choice",
+          "promptBn": "'g/k' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄸ",
+            "ㅋ",
+            "ㄱ",
+            "ㄲ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "g/k → ㄱ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "다",
+            "카",
+            "아",
+            "가"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 가 (ㄱ)।",
+          "topic": "jamo",
+          "listenText": "가"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-rom-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄴ (니은) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "x",
+            "ng",
+            "ae",
+            "n"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㄴ = n (니은)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-char-1",
+          "kind": "multiple-choice",
+          "promptBn": "'n' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅃ",
+            "ㅉ",
+            "ㄴ",
+            "ㄷ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "n → ㄴ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "라",
+            "나",
+            "싸",
+            "사"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 나 (ㄴ)।",
+          "topic": "jamo",
+          "listenText": "나"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-rom-2",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ (디귿) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ng",
+            "ae",
+            "d/t",
+            "x"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㄷ = d/t (디귿)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-char-2",
+          "kind": "multiple-choice",
+          "promptBn": "'d/t' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄷ",
+            "ㅈ",
+            "ㄴ",
+            "ㄹ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "d/t → ㄷ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "다",
+            "아",
+            "타",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 다 (ㄷ)।",
+          "topic": "jamo",
+          "listenText": "다"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-rom-3",
+          "kind": "multiple-choice",
+          "promptBn": "ㄹ (리을) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ae",
+            "r/l",
+            "x",
+            "ng"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㄹ = r/l (리을)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-char-3",
+          "kind": "multiple-choice",
+          "promptBn": "'r/l' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅂ",
+            "ㄸ",
+            "ㄹ",
+            "ㅋ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "r/l → ㄹ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-1-c-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "라",
+            "다",
+            "마",
+            "따"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 라 (ㄹ)।",
+          "topic": "jamo",
+          "listenText": "라"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄲ (쌍기역) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㄲ?",
+          "options": [
+            "k",
+            "kk",
+            "g/k",
+            "tt"
+          ],
+          "answer": 1,
+          "explanationBn": "ㄲ = kk (টেনস/কঠিন ক)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㄸ (쌍디귿) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㄸ?",
+          "options": [
+            "t",
+            "d/t",
+            "tt",
+            "pp"
+          ],
+          "answer": 2,
+          "explanationBn": "ㄸ = tt (টেনস ত)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅃ (쌍비읍) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅃ?",
+          "options": [
+            "pp",
+            "p",
+            "b/p",
+            "ss"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅃ = pp (টেনস প)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅆ (쌍시옷) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅆ?",
+          "options": [
+            "s",
+            "ss",
+            "jj",
+            "ch"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅆ = ss (টেনস স)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q5",
+          "kind": "multiple-choice",
+          "promptBn": "ㅉ (쌍지읒) এর রোমানাইজেশন?",
+          "promptEn": "Romanization of ㅉ?",
+          "options": [
+            "j",
+            "ch",
+            "jj",
+            "ss"
+          ],
+          "answer": 2,
+          "explanationBn": "ㅉ = jj (টেনস চ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "까",
+          "options": [
+            "ㄱ",
+            "ㅋ",
+            "ㄲ",
+            "ㅎ"
+          ],
+          "answer": 2,
+          "explanationBn": "까 = ㄲ+ㅏ (ক্কা — টেনস)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "싸",
+          "options": [
+            "ㅅ",
+            "ㅆ",
+            "ㅈ",
+            "ㅊ"
+          ],
+          "answer": 1,
+          "explanationBn": "싸 = ㅆ+ㅏ (স্সা — টেনস)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "마",
+          "options": [
+            "ㅁ",
+            "ㅂ",
+            "ㄴ",
+            "ㅍ"
+          ],
+          "answer": 0,
+          "explanationBn": "마 = ㅁ+ㅏ (মা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "라",
+          "options": [
+            "ㄴ",
+            "ㄹ",
+            "ㄷ",
+            "ㅁ"
+          ],
+          "answer": 1,
+          "explanationBn": "라 = ㄹ+ㅏ (রা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "하",
+          "options": [
+            "ㅇ",
+            "ㅎ",
+            "ㅋ",
+            "ㅍ"
+          ],
+          "answer": 1,
+          "explanationBn": "하 = ㅎ+ㅏ (হা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "바",
+          "options": [
+            "ㅂ",
+            "ㅍ",
+            "ㅃ",
+            "ㅁ"
+          ],
+          "answer": 0,
+          "explanationBn": "바 = ㅂ+ㅏ (বা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক ব্যঞ্জনবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the consonant",
+          "listenText": "자",
+          "options": [
+            "ㅈ",
+            "ㅊ",
+            "ㅉ",
+            "ㅅ"
+          ],
+          "answer": 0,
+          "explanationBn": "자 = ㅈ+ㅏ (জা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q13",
+          "kind": "matching",
+          "promptBn": "টেনস (ডাবল) বর্ণ মেলান (মূল → টেনস)",
+          "promptEn": "Match plain → tense letters",
+          "pairs": [
+            {
+              "left": "ㄱ",
+              "right": "ㄲ"
+            },
+            {
+              "left": "ㄷ",
+              "right": "ㄸ"
+            },
+            {
+              "left": "ㅂ",
+              "right": "ㅃ"
+            },
+            {
+              "left": "ㅅ",
+              "right": "ㅆ"
+            },
+            {
+              "left": "ㅈ",
+              "right": "ㅉ"
+            }
+          ],
+          "explanationBn": "মূল বর্ণ দুইবার লিখলে টেনস: ㄲ ㄸ ㅃ ㅆ ㅉ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q14",
+          "kind": "matching",
+          "promptBn": "ব্যঞ্জনবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match consonants with sounds",
+          "pairs": [
+            {
+              "left": "ㅇ",
+              "right": "নীরব/ng"
+            },
+            {
+              "left": "ㅈ",
+              "right": "j"
+            },
+            {
+              "left": "ㅋ",
+              "right": "k"
+            },
+            {
+              "left": "ㅌ",
+              "right": "t"
+            }
+          ],
+          "explanationBn": "ㅇ=নীরব/ং, ㅈ=জ, ㅋ=খ, ㅌ=থ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q15",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ ও ㅌ-এর পার্থক্য কী?",
+          "promptEn": "What is the difference between ㄷ and ㅌ?",
+          "options": [
+            "কোনো পার্থক্য নেই",
+            "ㅌ শ্বাসযুক্ত (বেশি বাতাস)",
+            "ㄷ স্বরবর্ণ",
+            "ㅌ নীরব"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅌ উচ্চারণে বেশি বাতাস বের হয় (aspirated) — থ; ㄷ = দ/ত।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-c-d2-q16",
+          "kind": "multiple-choice",
+          "promptBn": "কোনটি টেনস (ডাবল) ব্যঞ্জন নয়?",
+          "promptEn": "Which one is NOT a tense (double) consonant?",
+          "options": [
+            "ㄲ",
+            "ㅉ",
+            "ㅊ",
+            "ㅃ"
+          ],
+          "answer": 2,
+          "explanationBn": "ㅊ শ্বাসযুক্ত বর্ণ, টেনস নয়। টেনস: ㄲ ㄸ ㅃ ㅆ ㅉ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-rom-0",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ (기역) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "g/k",
+            "x",
+            "ng",
+            "ae"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㄱ = g/k (기역)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-char-0",
+          "kind": "multiple-choice",
+          "promptBn": "'g/k' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄱ",
+            "ㅉ",
+            "ㄸ",
+            "ㅂ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "g/k → ㄱ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "따",
+            "짜",
+            "사"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 가 (ㄱ)।",
+          "topic": "jamo",
+          "listenText": "가"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-rom-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄴ (니은) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "x",
+            "ng",
+            "ae",
+            "n"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㄴ = n (니은)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-char-1",
+          "kind": "multiple-choice",
+          "promptBn": "'n' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄴ",
+            "ㅊ",
+            "ㅃ",
+            "ㅈ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "n → ㄴ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "나",
+            "자",
+            "라",
+            "카"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 나 (ㄴ)।",
+          "topic": "jamo",
+          "listenText": "나"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-rom-2",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ (디귿) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ng",
+            "ae",
+            "d/t",
+            "x"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㄷ = d/t (디귿)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-char-2",
+          "kind": "multiple-choice",
+          "promptBn": "'d/t' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄹ",
+            "ㅂ",
+            "ㄷ",
+            "ㅉ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "d/t → ㄷ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "다",
+            "아",
+            "바",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 다 (ㄷ)।",
+          "topic": "jamo",
+          "listenText": "다"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-rom-3",
+          "kind": "multiple-choice",
+          "promptBn": "ㄹ (리을) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ae",
+            "r/l",
+            "x",
+            "ng"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㄹ = r/l (리을)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-char-3",
+          "kind": "multiple-choice",
+          "promptBn": "'r/l' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄸ",
+            "ㅉ",
+            "ㄲ",
+            "ㄹ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "r/l → ㄹ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-consonants-con-c-drill-2-c-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "하",
+            "라",
+            "짜"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 라 (ㄹ)।",
+          "topic": "jamo",
+          "listenText": "라"
+        },
+        {
+          "id": "cp-h-vowels-v-q1",
+          "kind": "multiple-choice",
+          "promptBn": "মৌলিক স্বরবর্ণ কয়টি?",
+          "promptEn": "How many basic vowels are there?",
+          "options": [
+            "১০ টি",
+            "১১ টি",
+            "১৪ টি",
+            "২১ টি"
+          ],
+          "answer": 0,
+          "explanationBn": "মৌলিক স্বরবর্ণ ১০টি, যৌগিক ১১টি — মোট ২১টি।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅏ এর বাংলা উচ্চারণ?",
+          "promptEn": "Bengali pronunciation of ㅏ?",
+          "options": [
+            "আ",
+            "অ",
+            "ও",
+            "উ"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅏ (아) = আ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅖ শব্দের মাঝে থাকলে কীভাবে পড়তে হয়?",
+          "promptEn": "How is ㅖ read in the middle of a word?",
+          "options": [
+            "ইএ",
+            "এ",
+            "ই",
+            "ওএ"
+          ],
+          "answer": 1,
+          "explanationBn": "মাঝে থাকলে 'এ' — 계절(খেজল)=ঋতু।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-q4",
+          "kind": "matching",
+          "promptBn": "স্বরবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match vowels with sounds",
+          "pairs": [
+            {
+              "left": "ㅗ",
+              "right": "ও"
+            },
+            {
+              "left": "ㅜ",
+              "right": "উ"
+            },
+            {
+              "left": "ㅣ",
+              "right": "ই"
+            },
+            {
+              "left": "ㅑ",
+              "right": "ইআ"
+            }
+          ],
+          "explanationBn": "ㅗ=ও, ㅜ=উ, ㅣ=ই, ㅑ=ইআ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-q5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "아",
+          "options": [
+            "ㅏ",
+            "ㅓ",
+            "ㅗ",
+            "ㅜ"
+          ],
+          "answer": 0,
+          "explanationBn": "아 = ㅏ (আ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "오",
+          "options": [
+            "ㅜ",
+            "ㅗ",
+            "ㅡ",
+            "ㅣ"
+          ],
+          "answer": 1,
+          "explanationBn": "오 = ㅗ (ও)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-q7",
+          "kind": "multiple-choice",
+          "promptBn": "ㅓ এর বাংলা উচ্চারণ?",
+          "promptEn": "Bengali pronunciation of ㅓ?",
+          "options": [
+            "আ",
+            "অ",
+            "ও",
+            "এ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅓ (어) = অ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-q8",
+          "kind": "multiple-choice",
+          "promptBn": "স্বরবর্ণ কি একা লেখা যায়?",
+          "promptEn": "Can a vowel be written alone?",
+          "options": [
+            "হ্যাঁ, সবসময়",
+            "না, নীরব ㅇ লাগবে",
+            "শুধু ㅏ",
+            "শুধু শেষে"
+          ],
+          "answer": 1,
+          "explanationBn": "শুরুতে স্বর থাকলে নীরব ㅇ বসে: ㅏ→아।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-rom-0",
+          "kind": "multiple-choice",
+          "promptBn": "ㅏ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "a",
+            "u",
+            "o",
+            "v3"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㅏ = a।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-char-0",
+          "kind": "multiple-choice",
+          "promptBn": "'a' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅜ",
+            "ㅔ",
+            "ㅙ",
+            "ㅏ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "a → ㅏ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "오",
+            "여",
+            "아",
+            "예"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 아 (ㅏ)।",
+          "topic": "jamo",
+          "listenText": "아"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-rom-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅑ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "a",
+            "u",
+            "o",
+            "ya"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㅑ = ya।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-char-1",
+          "kind": "multiple-choice",
+          "promptBn": "'ya' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅛ",
+            "ㅢ",
+            "ㅐ",
+            "ㅑ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ya → ㅑ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "야",
+            "와",
+            "웨",
+            "으"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 야 (ㅑ)।",
+          "topic": "jamo",
+          "listenText": "야"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-rom-2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅓ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "u",
+            "o",
+            "eo",
+            "a"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㅓ = eo।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-char-2",
+          "kind": "multiple-choice",
+          "promptBn": "'eo' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅐ",
+            "ㅓ",
+            "ㅘ",
+            "ㅟ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "eo → ㅓ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "오",
+            "어",
+            "유",
+            "의"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 어 (ㅓ)।",
+          "topic": "jamo",
+          "listenText": "어"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-rom-3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅕ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "o",
+            "yeo",
+            "a",
+            "u"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㅕ = yeo।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-char-3",
+          "kind": "multiple-choice",
+          "promptBn": "'yeo' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅜ",
+            "ㅡ",
+            "ㅢ",
+            "ㅕ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "yeo → ㅕ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "와",
+            "외",
+            "여",
+            "왜"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 여 (ㅕ)।",
+          "topic": "jamo",
+          "listenText": "여"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-rom-4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅗ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "o",
+            "a",
+            "u",
+            "v3"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㅗ = o।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-char-4",
+          "kind": "multiple-choice",
+          "promptBn": "'o' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅐ",
+            "ㅙ",
+            "ㅢ",
+            "ㅗ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "o → ㅗ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-listen-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "이",
+            "위",
+            "오",
+            "유"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 오 (ㅗ)।",
+          "topic": "jamo",
+          "listenText": "오"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-rom-5",
+          "kind": "multiple-choice",
+          "promptBn": "ㅛ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "a",
+            "u",
+            "o",
+            "yo"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㅛ = yo।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-char-5",
+          "kind": "multiple-choice",
+          "promptBn": "'yo' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅗ",
+            "ㅣ",
+            "ㅢ",
+            "ㅛ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "yo → ㅛ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-listen-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "위",
+            "애",
+            "요",
+            "의"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 요 (ㅛ)।",
+          "topic": "jamo",
+          "listenText": "요"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-rom-6",
+          "kind": "multiple-choice",
+          "promptBn": "ㅜ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "o",
+            "v3",
+            "u",
+            "a"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㅜ = u।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-quiz-v-gen-char-6",
+          "kind": "multiple-choice",
+          "promptBn": "'u' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅖ",
+            "ㅜ",
+            "ㅐ",
+            "ㅣ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "u → ㅜ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅑ (ya) কোনটি?",
+          "promptEn": "Which one is ㅑ (ya)?",
+          "options": [
+            "ㅏ",
+            "ㅑ",
+            "ㅕ",
+            "ㅛ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅑ = ডান দিকে দুই রেখা — ইআ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅕ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅕ?",
+          "options": [
+            "ইআ",
+            "ইঅ",
+            "ইও",
+            "ইউ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅕ (여) = ইঅ (yeo)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅛ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅛ?",
+          "options": [
+            "ও",
+            "ইও",
+            "উ",
+            "ইউ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅛ (요) = ইও (yo)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅠ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅠ?",
+          "options": [
+            "উ",
+            "ইউ",
+            "ইও",
+            "উই"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅠ (유) = ইউ (yu)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q5",
+          "kind": "multiple-choice",
+          "promptBn": "ㅡ (eu) কোনটি?",
+          "promptEn": "Which one is ㅡ (eu)?",
+          "options": [
+            "ㅣ",
+            "ㅡ",
+            "ㅜ",
+            "ㅗ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅡ = একটি অনুভূমিক রেখা — উ (ঠোঁট টেনে)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "어",
+          "options": [
+            "ㅏ",
+            "ㅓ",
+            "ㅗ",
+            "ㅡ"
+          ],
+          "answer": 1,
+          "explanationBn": "어 = ㅓ (অ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "우",
+          "options": [
+            "ㅗ",
+            "ㅜ",
+            "ㅡ",
+            "ㅠ"
+          ],
+          "answer": 1,
+          "explanationBn": "우 = ㅜ (উ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "이",
+          "options": [
+            "ㅡ",
+            "ㅣ",
+            "ㅔ",
+            "ㅐ"
+          ],
+          "answer": 1,
+          "explanationBn": "이 = ㅣ (ই)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "야",
+          "options": [
+            "ㅏ",
+            "ㅑ",
+            "ㅕ",
+            "ㅛ"
+          ],
+          "answer": 1,
+          "explanationBn": "야 = ㅑ (ইআ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "요",
+          "options": [
+            "ㅛ",
+            "ㅗ",
+            "ㅠ",
+            "ㅜ"
+          ],
+          "answer": 0,
+          "explanationBn": "요 = ㅛ (ইও)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "여",
+          "options": [
+            "ㅓ",
+            "ㅕ",
+            "ㅑ",
+            "ㅠ"
+          ],
+          "answer": 1,
+          "explanationBn": "여 = ㅕ (ইঅ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "으",
+          "options": [
+            "ㅡ",
+            "ㅜ",
+            "ㅣ",
+            "ㅗ"
+          ],
+          "answer": 0,
+          "explanationBn": "으 = ㅡ (উ — ঠোঁট টানা)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q13",
+          "kind": "matching",
+          "promptBn": "'ই' যুক্ত জোড়া মেলান (মূল → ই-যুক্ত)",
+          "promptEn": "Match plain → y- vowels",
+          "pairs": [
+            {
+              "left": "ㅏ",
+              "right": "ㅑ"
+            },
+            {
+              "left": "ㅓ",
+              "right": "ㅕ"
+            },
+            {
+              "left": "ㅗ",
+              "right": "ㅛ"
+            },
+            {
+              "left": "ㅜ",
+              "right": "ㅠ"
+            }
+          ],
+          "explanationBn": "ছোট রেখা যোগ করলে 'ই' ধ্বনি: ㅏ→ㅑ, ㅓ→ㅕ, ㅗ→ㅛ, ㅜ→ㅠ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d1-q14",
+          "kind": "matching",
+          "promptBn": "স্বরবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match vowels with sounds",
+          "pairs": [
+            {
+              "left": "ㅏ",
+              "right": "আ"
+            },
+            {
+              "left": "ㅓ",
+              "right": "অ"
+            },
+            {
+              "left": "ㅡ",
+              "right": "উ (টানা)"
+            },
+            {
+              "left": "ㅕ",
+              "right": "ইঅ"
+            }
+          ],
+          "explanationBn": "ㅏ=আ, ㅓ=অ, ㅡ=টানা উ, ㅕ=ইঅ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-rom-0",
+          "kind": "multiple-choice",
+          "promptBn": "ㅏ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "a",
+            "u",
+            "o",
+            "v3"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㅏ = a।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-char-0",
+          "kind": "multiple-choice",
+          "promptBn": "'a' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅜ",
+            "ㅢ",
+            "ㅏ",
+            "ㅟ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "a → ㅏ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "으",
+            "외",
+            "아",
+            "의"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 아 (ㅏ)।",
+          "topic": "jamo",
+          "listenText": "아"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-rom-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅑ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "a",
+            "u",
+            "o",
+            "ya"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㅑ = ya।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-char-1",
+          "kind": "multiple-choice",
+          "promptBn": "'ya' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅢ",
+            "ㅙ",
+            "ㅣ",
+            "ㅑ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ya → ㅑ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "야",
+            "우",
+            "웨",
+            "여"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 야 (ㅑ)।",
+          "topic": "jamo",
+          "listenText": "야"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-rom-2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅓ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "u",
+            "o",
+            "eo",
+            "a"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㅓ = eo।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-char-2",
+          "kind": "multiple-choice",
+          "promptBn": "'eo' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅙ",
+            "ㅘ",
+            "ㅓ",
+            "ㅣ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "eo → ㅓ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "어",
+            "외",
+            "오",
+            "으"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 어 (ㅓ)।",
+          "topic": "jamo",
+          "listenText": "어"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-rom-3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅕ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "o",
+            "yeo",
+            "a",
+            "u"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㅕ = yeo।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-char-3",
+          "kind": "multiple-choice",
+          "promptBn": "'yeo' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅢ",
+            "ㅟ",
+            "ㅐ",
+            "ㅕ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "yeo → ㅕ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "아",
+            "여",
+            "이",
+            "야"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 여 (ㅕ)।",
+          "topic": "jamo",
+          "listenText": "여"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-rom-4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅗ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "o",
+            "a",
+            "u",
+            "v3"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㅗ = o।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-1-v-gen-char-4",
+          "kind": "multiple-choice",
+          "promptBn": "'o' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅗ",
+            "ㅡ",
+            "ㅒ",
+            "ㅢ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "o → ㅗ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅐ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅐ?",
+          "options": [
+            "এ",
+            "আ",
+            "ই",
+            "ওএ"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅐ (애) = এ। ㅔ-ও প্রায় একই শোনায়।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅘ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅘ?",
+          "options": [
+            "ওআ",
+            "উঅ",
+            "ওএ",
+            "উই"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅘ (와) = ওআ (ㅗ+ㅏ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅝ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅝ?",
+          "options": [
+            "ওআ",
+            "উঅ",
+            "উএ",
+            "ওএ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅝ (워) = উঅ (ㅜ+ㅓ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅟ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅟ?",
+          "options": [
+            "ওএ",
+            "উই",
+            "ইউ",
+            "উঅ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅟ (위) = উই (ㅜ+ㅣ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q5",
+          "kind": "multiple-choice",
+          "promptBn": "কোন তিনটি স্বরের উচ্চারণ প্রায় 'ওএ/উএ'?",
+          "promptEn": "Which three vowels all sound like 'we'?",
+          "options": [
+            "ㅚ ㅙ ㅞ",
+            "ㅏ ㅑ ㅓ",
+            "ㅗ ㅛ ㅜ",
+            "ㅐ ㅔ ㅖ"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅚ, ㅙ, ㅞ — তিনটিই প্রায় একই রকম 'ওএ/উএ' শোনায়।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "애",
+          "options": [
+            "ㅏ",
+            "ㅐ",
+            "ㅣ",
+            "ㅗ"
+          ],
+          "answer": 1,
+          "explanationBn": "애 = ㅐ (এ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "와",
+          "options": [
+            "ㅘ",
+            "ㅝ",
+            "ㅗ",
+            "ㅏ"
+          ],
+          "answer": 0,
+          "explanationBn": "와 = ㅘ (ওআ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "위",
+          "options": [
+            "ㅟ",
+            "ㅢ",
+            "ㅜ",
+            "ㅣ"
+          ],
+          "answer": 0,
+          "explanationBn": "위 = ㅟ (উই)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "워",
+          "options": [
+            "ㅘ",
+            "ㅝ",
+            "ㅓ",
+            "ㅜ"
+          ],
+          "answer": 1,
+          "explanationBn": "워 = ㅝ (উঅ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "예",
+          "options": [
+            "ㅐ",
+            "ㅖ",
+            "ㅔ",
+            "ㅣ"
+          ],
+          "answer": 1,
+          "explanationBn": "예 = ㅖ (ইএ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q11",
+          "kind": "matching",
+          "promptBn": "যৌগিক স্বরবর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match compound vowels with sounds",
+          "pairs": [
+            {
+              "left": "ㅐ",
+              "right": "এ"
+            },
+            {
+              "left": "ㅘ",
+              "right": "ওআ"
+            },
+            {
+              "left": "ㅟ",
+              "right": "উই"
+            },
+            {
+              "left": "ㅝ",
+              "right": "উঅ"
+            }
+          ],
+          "explanationBn": "ㅐ=এ, ㅘ=ওআ, ㅟ=উই, ㅝ=উঅ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q12",
+          "kind": "matching",
+          "promptBn": "স্বরবর্ণ গঠন মেলান (কোন দুই স্বর মিলে)",
+          "promptEn": "Match compound vowels with their parts",
+          "pairs": [
+            {
+              "left": "ㅘ",
+              "right": "ㅗ+ㅏ"
+            },
+            {
+              "left": "ㅝ",
+              "right": "ㅜ+ㅓ"
+            },
+            {
+              "left": "ㅟ",
+              "right": "ㅜ+ㅣ"
+            },
+            {
+              "left": "ㅢ",
+              "right": "ㅡ+ㅣ"
+            }
+          ],
+          "explanationBn": "যৌগিক স্বর দুটি স্বরের মিলন: ㅘ=ㅗ+ㅏ, ㅝ=ㅜ+ㅓ, ㅟ=ㅜ+ㅣ, ㅢ=ㅡ+ㅣ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q13",
+          "kind": "multiple-choice",
+          "promptBn": "ㅢ এর উচ্চারণ?",
+          "promptEn": "Pronunciation of ㅢ?",
+          "options": [
+            "উই",
+            "ইউ",
+            "এ",
+            "ওআ"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅢ (의) = উই (ㅡ+ㅣ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q14",
+          "kind": "multiple-choice",
+          "promptBn": "ㅒ শব্দের প্রথমে কীভাবে পড়তে হয়?",
+          "promptEn": "How is ㅒ read at the start of a word?",
+          "options": [
+            "এ",
+            "ইএ",
+            "ই",
+            "আ"
+          ],
+          "answer": 1,
+          "explanationBn": "শুরুতে 'ইএ' — 얘기(ইএগি)=গল্প।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q15",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "왕",
+          "options": [
+            "ㅗ",
+            "ㅘ",
+            "ㅚ",
+            "ㅙ"
+          ],
+          "answer": 1,
+          "explanationBn": "왕 (ওআং — রাজা) এ ㅘ আছে।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q16",
+          "kind": "listen-choice",
+          "promptBn": "শুনে স্বরবর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the vowel",
+          "listenText": "외국",
+          "options": [
+            "ㅚ",
+            "ㅘ",
+            "ㅢ",
+            "ㅟ"
+          ],
+          "answer": 0,
+          "explanationBn": "외국 (ওএগুক — বিদেশ) এ ㅚ আছে।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q17",
+          "kind": "multiple-choice",
+          "promptBn": "왜 (কেন) শব্দে কোন স্বরবর্ণ আছে?",
+          "promptEn": "Which vowel is in 왜 (why)?",
+          "options": [
+            "ㅘ",
+            "ㅙ",
+            "ㅞ",
+            "ㅚ"
+          ],
+          "answer": 1,
+          "explanationBn": "왜 = ㅇ+ㅙ (ওএ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q18",
+          "kind": "multiple-choice",
+          "promptBn": "웨이터 (ওয়েটার) শব্দের প্রথম স্বর কোনটি?",
+          "promptEn": "First vowel of 웨이터 (waiter)?",
+          "options": [
+            "ㅙ",
+            "ㅞ",
+            "ㅘ",
+            "ㅟ"
+          ],
+          "answer": 1,
+          "explanationBn": "웨 = ㅇ+ㅞ (উএ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q19",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "의사",
+          "options": [
+            "이사",
+            "의사",
+            "오사",
+            "우사"
+          ],
+          "answer": 1,
+          "explanationBn": "의사 (উইসা — ডাক্তার) এ ㅢ আছে।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q21",
           "kind": "listen-choice",
           "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
           "promptEn": "Listen and choose the syllable",
+          "listenText": "얘",
+          "options": [
+            "애",
+            "얘",
+            "예",
+            "야"
+          ],
+          "answer": 1,
+          "explanationBn": "얘 = ㅇ+ㅒ (ইএ)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q22",
+          "kind": "multiple-choice",
+          "promptBn": "얘기 (গল্প) শব্দের প্রথম স্বর কোনটি?",
+          "promptEn": "First vowel of 얘기 (story)?",
+          "options": [
+            "ㅐ",
+            "ㅒ",
+            "ㅖ",
+            "ㅑ"
+          ],
+          "answer": 1,
+          "explanationBn": "얘기 = ㅒ দিয়ে শুরু; শুরুতে 'ইএ' পড়া হয়।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-v-d2-q20",
+          "kind": "matching",
+          "promptBn": "বিরল যৌগিক স্বর মেলান",
+          "promptEn": "Match the rare compound vowels",
+          "pairs": [
+            {
+              "left": "ㅒ",
+              "right": "얘기 (গল্প)"
+            },
+            {
+              "left": "ㅙ",
+              "right": "왜 (কেন)"
+            },
+            {
+              "left": "ㅞ",
+              "right": "웨이터 (ওয়েটার)"
+            },
+            {
+              "left": "ㅢ",
+              "right": "의사 (ডাক্তার)"
+            }
+          ],
+          "explanationBn": "বিরল স্বরগুলো শব্দের মধ্যে চিনুন।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-2-v-gen-rom-0",
+          "kind": "multiple-choice",
+          "promptBn": "ㅏ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "a",
+            "u",
+            "o",
+            "v3"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㅏ = a।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-2-v-gen-char-0",
+          "kind": "multiple-choice",
+          "promptBn": "'a' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅕ",
+            "ㅗ",
+            "ㅏ",
+            "ㅘ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "a → ㅏ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-2-v-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "위",
+            "아",
+            "의",
+            "웨"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 아 (ㅏ)।",
+          "topic": "jamo",
+          "listenText": "아"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-2-v-gen-rom-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅑ স্বরের রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "a",
+            "u",
+            "o",
+            "ya"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㅑ = ya।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-2-v-gen-char-1",
+          "kind": "multiple-choice",
+          "promptBn": "'ya' স্বর কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅢ",
+            "ㅒ",
+            "ㅘ",
+            "ㅑ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ya → ㅑ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-vowels-vow-v-drill-2-v-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক স্বর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "오",
+            "워",
+            "야",
+            "얘"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 야 (ㅑ)।",
+          "topic": "jamo",
+          "listenText": "야"
+        },
+        {
+          "id": "cp-h-syllables-sy-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ + ㅏ = ?",
+          "promptEn": "Compose ㄱ + ㅏ",
+          "options": [
+            "가",
+            "나",
+            "다",
+            "마"
+          ],
+          "answer": 0,
+          "explanationBn": "ㄱ+ㅏ=가 (গা)",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-q2",
+          "kind": "multiple-choice",
+          "promptBn": "나 = ?",
+          "options": [
+            "ㄴ+ㅏ",
+            "ㄱ+ㅏ",
+            "ㅁ+ㅣ",
+            "ㅅ+ㅗ"
+          ],
+          "answer": 0,
+          "explanationBn": "나=ㄴ+ㅏ",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-q3",
+          "kind": "multiple-choice",
+          "promptBn": "간-এ batchim কোনটি?",
+          "options": [
+            "ㄱ",
+            "ㄴ",
+            "ㅇ",
+            "নেই"
+          ],
+          "answer": 1,
+          "explanationBn": "간-এর নিচের ব্যঞ্জন (받침) হলো ㄴ",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-syllables-sy-q4",
+          "kind": "multiple-choice",
+          "promptBn": "স্বরবর্ণ দিয়ে শুরু অক্ষরের আগে কোন বর্ণ বসাতে হয়?",
+          "promptEn": "Which letter goes before a syllable starting with a vowel?",
+          "options": [
+            "ㅇ (이응)",
+            "ㄱ",
+            "ㅎ",
+            "ㅅ"
+          ],
+          "answer": 0,
+          "explanationBn": "স্বরবর্ণ দিয়ে শুরু হলে পূর্বে ㅇ (이응) বসাতে হয়। যেমন: 위, 왜, 와우",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-q5",
+          "kind": "multiple-choice",
+          "promptBn": "'왜' শব্দের অর্থ কী?",
+          "promptEn": "What does 왜 mean?",
+          "options": [
+            "কেন",
+            "উপরে",
+            "বিনয়",
+            "কি দারুন"
+          ],
+          "answer": 0,
+          "explanationBn": "왜 = কেন (why); 위 = উপরে, 예의 = বিনয়, 와우 = কি দারুন",
+          "topic": "general"
+        },
+        {
+          "id": "cp-h-syllables-sy-q6",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ + ㅟ = ?",
+          "promptEn": "Compose ㄷ + ㅟ",
+          "options": [
+            "뒤",
+            "돼",
+            "두",
+            "디"
+          ],
+          "answer": 0,
+          "explanationBn": "ㄷ+ㅟ=뒤 (দুই)",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-q7",
+          "kind": "matching",
+          "promptBn": "অক্ষরের সাথে উচ্চারণ মেলান",
+          "promptEn": "Match syllable with pronunciation",
+          "pairs": [
+            {
+              "left": "개",
+              "right": "খে"
+            },
+            {
+              "left": "과",
+              "right": "খোআ"
+            },
+            {
+              "left": "쉬",
+              "right": "ছুই"
+            },
+            {
+              "left": "까",
+              "right": "ক্কা"
+            }
+          ],
+          "explanationBn": "যুক্ত স্বরবর্ণ ও ডাবল ব্যঞ্জনবর্ণের উচ্চারণ",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-mc-0",
+          "kind": "multiple-choice",
+          "promptBn": "'ga' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "누",
+            "차",
+            "가",
+            "하"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ga = 가।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "누",
+            "차",
+            "가",
+            "하"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 가।",
+          "topic": "syllable",
+          "listenText": "가"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-mc-1",
+          "kind": "multiple-choice",
+          "promptBn": "'na' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "되",
+            "아",
+            "개",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "na = 나।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "되",
+            "아",
+            "개",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 나।",
+          "topic": "syllable",
+          "listenText": "나"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-mc-2",
+          "kind": "multiple-choice",
+          "promptBn": "'da' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "차",
+            "다",
+            "세"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "da = 다।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "차",
+            "다",
+            "세"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 다।",
+          "topic": "syllable",
+          "listenText": "다"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-mc-3",
+          "kind": "multiple-choice",
+          "promptBn": "'ra' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "파",
+            "라",
+            "타"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ra = 라।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "파",
+            "라",
+            "타"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 라।",
+          "topic": "syllable",
+          "listenText": "라"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-mc-4",
+          "kind": "multiple-choice",
+          "promptBn": "'ma' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "마",
+            "코",
+            "따",
+            "디"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ma = 마।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-listen-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "마",
+            "코",
+            "따",
+            "디"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 마।",
+          "topic": "syllable",
+          "listenText": "마"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-mc-5",
+          "kind": "multiple-choice",
+          "promptBn": "'ba' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "디",
+            "바",
+            "누",
+            "되"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ba = 바।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-listen-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "디",
+            "바",
+            "누",
+            "되"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 바।",
+          "topic": "syllable",
+          "listenText": "바"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-mc-6",
+          "kind": "multiple-choice",
+          "promptBn": "'sa' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "사",
+            "매",
+            "코",
+            "따"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "sa = 사।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-listen-6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "사",
+            "매",
+            "코",
+            "따"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 사।",
+          "topic": "syllable",
+          "listenText": "사"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-mc-7",
+          "kind": "multiple-choice",
+          "promptBn": "'a' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "후",
+            "네",
+            "아",
+            "개"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "a = 아।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-listen-7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "후",
+            "네",
+            "아",
+            "개"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 아।",
+          "topic": "syllable",
+          "listenText": "아"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-mc-8",
+          "kind": "multiple-choice",
+          "promptBn": "'ja' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "루",
+            "자",
+            "싸",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ja = 자।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-listen-8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "루",
+            "자",
+            "싸",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 자।",
+          "topic": "syllable",
+          "listenText": "자"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-quiz-sy-gen-mc-9",
+          "kind": "multiple-choice",
+          "promptBn": "'cha' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "아",
+            "네",
+            "보",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "cha = 차।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q1",
+          "kind": "multiple-choice",
+          "promptBn": "ㅊ + ㅏ = ?",
+          "promptEn": "Compose ㅊ + ㅏ",
+          "options": [
+            "자",
+            "차",
+            "사",
+            "카"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅊ+ㅏ=차 (ছা — চা/গাড়ি)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q2",
+          "kind": "multiple-choice",
+          "promptBn": "ㅋ + ㅗ = ?",
+          "promptEn": "Compose ㅋ + ㅗ",
+          "options": [
+            "고",
+            "코",
+            "쿠",
+            "커"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅋ+ㅗ=코 (খো — নাক)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ㅌ + ㅏ = ?",
+          "promptEn": "Compose ㅌ + ㅏ",
+          "options": [
+            "다",
+            "따",
+            "타",
+            "파"
+          ],
+          "answer": 2,
+          "explanationBn": "ㅌ+ㅏ=타 (থা)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ㅍ + ㅣ = ?",
+          "promptEn": "Compose ㅍ + ㅣ",
+          "options": [
+            "비",
+            "피",
+            "빠",
+            "티"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅍ+ㅣ=피 (ফি — রক্ত)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q5",
+          "kind": "multiple-choice",
+          "promptBn": "컵 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 컵?",
+          "options": [
+            "ㅋ",
+            "ㅓ",
+            "ㅂ",
+            "ㅍ"
+          ],
+          "answer": 2,
+          "explanationBn": "컵 = ㅋ+ㅓ+ㅂ; নিচের বর্ণ ㅂ হলো ব্যাচিম।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q6",
+          "kind": "multiple-choice",
+          "promptBn": "빵 = কোন তিনটি বর্ণ?",
+          "promptEn": "빵 is composed of which letters?",
+          "options": [
+            "ㅂ+ㅏ+ㅇ",
+            "ㅃ+ㅏ+ㅇ",
+            "ㅍ+ㅏ+ㅇ",
+            "ㅃ+ㅗ+ㅇ"
+          ],
+          "answer": 1,
+          "explanationBn": "빵 = ㅃ+ㅏ+ㅇ (প্পাং — রুটি)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q7",
+          "kind": "multiple-choice",
+          "promptBn": "한 = কোন তিনটি বর্ণ?",
+          "promptEn": "한 is composed of which letters?",
+          "options": [
+            "ㅎ+ㅏ+ㄴ",
+            "ㅎ+ㅏ+ㅇ",
+            "ㅋ+ㅏ+ㄴ",
+            "ㅎ+ㅓ+ㄴ"
+          ],
+          "answer": 0,
+          "explanationBn": "한 = ㅎ+ㅏ+ㄴ (হান)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "차",
+          "options": [
+            "자",
+            "차",
+            "짜",
+            "사"
+          ],
+          "answer": 1,
+          "explanationBn": "차 (ছা) — ㅊ শ্বাসযুক্ত।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "코",
+          "options": [
+            "고",
+            "꼬",
+            "코",
+            "노"
+          ],
+          "answer": 2,
+          "explanationBn": "코 (খো) — ㅋ শ্বাসযুক্ত।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "타",
+          "options": [
+            "다",
+            "따",
+            "타",
+            "차"
+          ],
+          "answer": 2,
+          "explanationBn": "타 (থা) — ㅌ শ্বাসযুক্ত।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "파",
+          "options": [
+            "바",
+            "빠",
+            "파",
+            "마"
+          ],
+          "answer": 2,
+          "explanationBn": "파 (ফা) — ㅍ শ্বাসযুক্ত।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "문",
+          "options": [
+            "문",
+            "물",
+            "무",
+            "만"
+          ],
+          "answer": 0,
+          "explanationBn": "문 (মুন — দরজা), ব্যাচিম ㄴ।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q13",
+          "kind": "matching",
+          "promptBn": "অক্ষরের সাথে উচ্চারণ মেলান",
+          "promptEn": "Match syllable with pronunciation",
+          "pairs": [
+            {
+              "left": "차",
+              "right": "ছা"
+            },
+            {
+              "left": "코",
+              "right": "খো"
+            },
+            {
+              "left": "타",
+              "right": "থা"
+            },
+            {
+              "left": "피",
+              "right": "ফি"
+            }
+          ],
+          "explanationBn": "শ্বাসযুক্ত ব্যঞ্জনের অক্ষর: 차=ছা, 코=খো, 타=থা, 피=ফি।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-sy-d-q14",
+          "kind": "matching",
+          "promptBn": "অক্ষর ভাঙুন (অক্ষর → গঠন)",
+          "promptEn": "Decompose syllables",
+          "pairs": [
+            {
+              "left": "밥",
+              "right": "ㅂ+ㅏ+ㅂ"
+            },
+            {
+              "left": "문",
+              "right": "ㅁ+ㅜ+ㄴ"
+            },
+            {
+              "left": "땅",
+              "right": "ㄸ+ㅏ+ㅇ"
+            },
+            {
+              "left": "침",
+              "right": "ㅊ+ㅣ+ㅁ"
+            }
+          ],
+          "explanationBn": "প্রতিটি অক্ষর = ব্যঞ্জন+স্বর+ব্যাচিম।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-mc-0",
+          "kind": "multiple-choice",
+          "promptBn": "'ga' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "뢰",
+            "루",
+            "자"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ga = 가।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "뢰",
+            "루",
+            "자"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 가।",
+          "topic": "syllable",
+          "listenText": "가"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-mc-1",
+          "kind": "multiple-choice",
+          "promptBn": "'na' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "고",
+            "예",
+            "나",
+            "보"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "na = 나।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "고",
+            "예",
+            "나",
+            "보"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 나।",
+          "topic": "syllable",
+          "listenText": "나"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-mc-2",
+          "kind": "multiple-choice",
+          "promptBn": "'da' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "다",
+            "따",
+            "바",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "da = 다।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "다",
+            "따",
+            "바",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 다।",
+          "topic": "syllable",
+          "listenText": "다"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-mc-3",
+          "kind": "multiple-choice",
+          "promptBn": "'ra' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "치",
+            "사",
+            "이",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ra = 라।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "치",
+            "사",
+            "이",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 라।",
+          "topic": "syllable",
+          "listenText": "라"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-mc-4",
+          "kind": "multiple-choice",
+          "promptBn": "'ma' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "타",
+            "마",
+            "제",
+            "수"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ma = 마।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-listen-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "타",
+            "마",
+            "제",
+            "수"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 마।",
+          "topic": "syllable",
+          "listenText": "마"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-mc-5",
+          "kind": "multiple-choice",
+          "promptBn": "'ba' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "하",
+            "바",
+            "차",
+            "자"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ba = 바।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-syllables-syl-sy-drill-sy-gen-listen-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "하",
+            "바",
+            "차",
+            "자"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 바।",
+          "topic": "syllable",
+          "listenText": "바"
+        },
+        {
+          "id": "cp-h-batchim-b-q1",
+          "kind": "multiple-choice",
+          "promptBn": "간-এর batchim (받침)?",
+          "promptEn": "Batchim in 간?",
+          "options": [
+            "ㄱ",
+            "ㄴ",
+            "ㅏ",
+            "ㅇ"
+          ],
+          "answer": 1,
+          "explanationBn": "받침=ㄴ",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-q2",
+          "kind": "multiple-choice",
+          "promptBn": "가-তে ব্যাচিম আছে কি?",
+          "options": [
+            "হ্যাঁ",
+            "না",
+            "ㄱ",
+            "ㅇ"
+          ],
+          "answer": 1,
+          "explanationBn": "가-তে কোনো ব্যাচিম নাই",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-q3",
+          "kind": "multiple-choice",
+          "promptBn": "ব্যাচিম অক্ষরের কোথায় বসে?",
+          "options": [
+            "উপরে",
+            "নীচে",
+            "বাইরে",
+            "বামে"
+          ],
+          "answer": 1,
+          "explanationBn": "ব্যাচিম স্বরবর্ণের নীচে বসে",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-q4",
+          "kind": "multiple-choice",
+          "promptBn": "입다 শব্দের সঠিক উচ্চারণ কোনটি?",
+          "promptEn": "Correct pronunciation of 입다?",
+          "options": [
+            "[입따]",
+            "[입다]",
+            "[이다]",
+            "[임다]"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅂ ব্যাচিমের পরে ㄷ → ㄸ কঠিন উচ্চারণ হয়: 입다=[입따]",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-q5",
+          "kind": "multiple-choice",
+          "promptBn": "잡지 শব্দের সঠিক উচ্চারণ কোনটি?",
+          "promptEn": "Correct pronunciation of 잡지?",
+          "options": [
+            "[잡찌]",
+            "[잡지]",
+            "[자비]",
+            "[잠지]"
+          ],
+          "answer": 0,
+          "explanationBn": "ㅂ ব্যাচিমের পরে ㅈ → ㅉ: 잡지=[잡찌] (ম্যাগাজিন)",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-q6",
+          "kind": "multiple-choice",
+          "promptBn": "앉다 (ㄵ ব্যাচিম) সাধারণত কীভাবে উচ্চারিত হয়?",
+          "promptEn": "How is a double batchim pronounced?",
+          "options": [
+            "[안따] — ㄴ ধ্বনি + পরের অক্ষর কঠিন",
+            "দুটি বর্ণই সমান জোরে",
+            "শুধু ㅈ",
+            "কোনো ধ্বনিই নয়"
+          ],
+          "answer": 0,
+          "explanationBn": "앉다-এর জোড় ব্যাচিম ㄵ সাধারণত ㄴ হিসেবে শোনা যায় এবং পরের ㄷ কঠিন হয়ে [안따]। এটি সরল ‘বর্ণমালার আগের অক্ষর’ নিয়ম নয়।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-q7",
+          "kind": "matching",
+          "promptBn": "শব্দের সাথে উচ্চারণ মেলান",
+          "promptEn": "Match word with pronunciation",
+          "pairs": [
+            {
+              "left": "듣다",
+              "right": "[듣따]"
+            },
+            {
+              "left": "십분",
+              "right": "[십뿐]"
+            },
+            {
+              "left": "신고",
+              "right": "[신꼬]"
+            },
+            {
+              "left": "한국어",
+              "right": "[한구거]"
+            }
+          ],
+          "explanationBn": "ব্যাচিমের পরে কঠিন উচ্চারণ ও লিংকিং নিয়ম",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-final-0",
+          "kind": "multiple-choice",
+          "promptBn": "간 শব্দে ব্যাচিম কোনটি? (কলিজা/মধ্য)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅅ",
+            "ㄱ",
+            "ㅋ",
+            "ㅌ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "간-এর ব্যাচিম ㄱ। উচ্চারণ: gan।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "간",
+            "밥",
+            "방",
+            "읽다"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "간 (gan) — কলিজা/মধ্য।",
+          "topic": "batchim",
+          "listenText": "간"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-final-1",
+          "kind": "multiple-choice",
+          "promptBn": "문 শব্দে ব্যাচিম কোনটি? (দরজা)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄴ",
+            "ㅅ",
+            "ㅇ",
+            "ㅋ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "문-এর ব্যাচিম ㄴ। উচ্চারণ: mun।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "없다",
+            "앞",
+            "문",
+            "꽃"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "문 (mun) — দরজা।",
+          "topic": "batchim",
+          "listenText": "문"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-final-2",
+          "kind": "multiple-choice",
+          "promptBn": "받 শব্দে ব্যাচিম কোনটি? (গ্রহণ (base))",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄷ",
+            "ㅋ",
+            "ㄲ",
+            "ㅂ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받-এর ব্যাচিম ㄷ। উচ্চারণ: bat।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "받",
+            "많다",
+            "방",
+            "밭"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받 (bat) — গ্রহণ (base)।",
+          "topic": "batchim",
+          "listenText": "받"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-final-3",
+          "kind": "multiple-choice",
+          "promptBn": "달 শব্দে ব্যাচিম কোনটি? (চাঁদ)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄹ",
+            "ㄴ",
+            "ㅂ",
+            "ㅌ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "달-এর ব্যাচিম ㄹ। উচ্চারণ: dal।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "밥",
+            "달",
+            "문",
+            "부엌"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "달 (dal) — চাঁদ।",
+          "topic": "batchim",
+          "listenText": "달"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-final-4",
+          "kind": "multiple-choice",
+          "promptBn": "밤 শব্দে ব্যাচিম কোনটি? (রাত/চেস্টনাট)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅇ",
+            "ㅊ",
+            "ㅁ",
+            "ㅂ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "밤-এর ব্যাচিম ㅁ। উচ্চারণ: bam।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-listen-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "한국어",
+            "꽃",
+            "밤",
+            "없다"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "밤 (bam) — রাত/চেস্টনাট।",
+          "topic": "batchim",
+          "listenText": "밤"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-final-5",
+          "kind": "multiple-choice",
+          "promptBn": "밥 শব্দে ব্যাচিম কোনটি? (ভাত)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅋ",
+            "ㅂ",
+            "ㄱ",
+            "ㄹ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "밥-এর ব্যাচিম ㅂ। উচ্চারণ: bap।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-listen-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "밥",
+            "문",
+            "값",
+            "달"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "밥 (bap) — ভাত।",
+          "topic": "batchim",
+          "listenText": "밥"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-final-6",
+          "kind": "multiple-choice",
+          "promptBn": "옷 শব্দে ব্যাচিম কোনটি? (কাপড়)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄴ",
+            "ㄷ",
+            "ㅍ",
+            "ㅅ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "옷-এর ব্যাচিম ㅅ। উচ্চারণ: ot।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-listen-6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "옷",
+            "많다",
+            "없다",
+            "값"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "옷 (ot) — কাপড়।",
+          "topic": "batchim",
+          "listenText": "옷"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-final-7",
+          "kind": "multiple-choice",
+          "promptBn": "방 শব্দে ব্যাচিম কোনটি? (ঘর)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅁ",
+            "ㄱ",
+            "ㅍ",
+            "ㅇ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "방-এর ব্যাচিম ㅇ। উচ্চারণ: bang।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-listen-7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "없다",
+            "문",
+            "방",
+            "밥"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "방 (bang) — ঘর।",
+          "topic": "batchim",
+          "listenText": "방"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-listen-8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "밖",
+            "밥",
+            "낮",
+            "많다"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "낮 (nat) — দিন।",
+          "topic": "batchim",
+          "listenText": "낮"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-final-9",
+          "kind": "multiple-choice",
+          "promptBn": "꽃 শব্দে ব্যাচিম কোনটি? (ফুল)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅍ",
+            "ㅌ",
+            "ㅁ",
+            "ㅊ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "꽃-এর ব্যাচিম ㅊ। উচ্চারণ: kkot।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-quiz-b-gen-listen-9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "없다",
+            "앉다",
+            "꽃",
+            "읽다"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "꽃 (kkot) — ফুল।",
+          "topic": "batchim",
+          "listenText": "꽃"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q1",
+          "kind": "multiple-choice",
+          "promptBn": "밭 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 밭?",
+          "options": [
+            "ㅂ",
+            "ㅏ",
+            "ㅌ",
+            "ㄷ"
+          ],
+          "answer": 2,
+          "explanationBn": "밭 = ㅂ+ㅏ+ㅌ; ব্যাচিম ㅌ (উচ্চারণ ত্)।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q2",
+          "kind": "multiple-choice",
+          "promptBn": "앞 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 앞?",
+          "options": [
+            "ㅇ",
+            "ㅏ",
+            "ㅂ",
+            "ㅍ"
+          ],
+          "answer": 3,
+          "explanationBn": "앞 = ㅇ+ㅏ+ㅍ; ব্যাচিম ㅍ (উচ্চারণ প্)।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q3",
+          "kind": "multiple-choice",
+          "promptBn": "부엌 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 부엌?",
+          "options": [
+            "ㄱ",
+            "ㅋ",
+            "ㅂ",
+            "ㅇ"
+          ],
+          "answer": 1,
+          "explanationBn": "부엌-এর শেষ অক্ষর 엌-এ ব্যাচিম ㅋ (উচ্চারণ ক্)।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q4",
+          "kind": "multiple-choice",
+          "promptBn": "꽃 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 꽃?",
+          "options": [
+            "ㄲ",
+            "ㅗ",
+            "ㅊ",
+            "ㅈ"
+          ],
+          "answer": 2,
+          "explanationBn": "꽃 = ㄲ+ㅗ+ㅊ; ব্যাচিম ㅊ (উচ্চারণ ত্)।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q5",
+          "kind": "multiple-choice",
+          "promptBn": "ㅊ, ㅅ, ㅈ, ㅌ ব্যাচিম হিসেবে কেমন শোনায়?",
+          "promptEn": "How do ㅊ, ㅅ, ㅈ, ㅌ sound as batchim?",
+          "options": [
+            "ত্ (t)",
+            "স (s)",
+            "ছ (ch)",
+            "প্ (p)"
+          ],
+          "answer": 0,
+          "explanationBn": "ㄷ ㅌ ㅅ ㅆ ㅈ ㅊ ㅎ — সবগুলো ব্যাচিমে ত্ (t) শোনায়।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q6",
+          "kind": "multiple-choice",
+          "promptBn": "밖 শব্দে ব্যাচিম কোনটি?",
+          "promptEn": "What is the batchim in 밖?",
+          "options": [
+            "ㄱ",
+            "ㄲ",
+            "ㅂ",
+            "ㅋ"
+          ],
+          "answer": 1,
+          "explanationBn": "밖 = ㅂ+ㅏ+ㄲ; ডাবল ব্যঞ্জন ㄲ-ও ব্যাচিম হতে পারে (উচ্চারণ ক্)।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
           "listenText": "꽃",
           "options": [
             "꼬",
             "꽃",
-            "고",
+            "곧",
             "코"
           ],
           "answer": 1,
-          "explanationBn": "꽃 (ক্কোত) — ㄲ টেনস, ㅊ ব্যাচিম",
+          "explanationBn": "꽃 (ক্কোত) — ফুল।",
           "topic": "batchim"
         },
         {
-          "id": "cp-ma-1",
+          "id": "cp-h-batchim-b-d-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "앞",
+          "options": [
+            "아",
+            "압",
+            "앞",
+            "안"
+          ],
+          "answer": 2,
+          "explanationBn": "앞 (আপ) — সামনে; ব্যাচিম ㅍ।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "문",
+          "options": [
+            "무",
+            "문",
+            "물",
+            "뭄"
+          ],
+          "answer": 1,
+          "explanationBn": "문 (মুন) — দরজা; ব্যাচিম ㄴ।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "밥",
+          "options": [
+            "바",
+            "반",
+            "밤",
+            "밥"
+          ],
+          "answer": 3,
+          "explanationBn": "밥 (পাপ) — ভাত; ব্যাচিম ㅂ।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q11",
           "kind": "matching",
-          "promptBn": "জামো মিল",
+          "promptBn": "শব্দ ও ব্যাচিম মেলান",
+          "promptEn": "Match word with its batchim",
+          "pairs": [
+            {
+              "left": "밭",
+              "right": "ㅌ"
+            },
+            {
+              "left": "앞",
+              "right": "ㅍ"
+            },
+            {
+              "left": "부엌",
+              "right": "ㅋ"
+            },
+            {
+              "left": "꽃",
+              "right": "ㅊ"
+            }
+          ],
+          "explanationBn": "শ্বাসযুক্ত বর্ণগুলোও ব্যাচিম হয়: ㅌ ㅍ ㅋ ㅊ।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q12",
+          "kind": "matching",
+          "promptBn": "ব্যাচিম উচ্চারণ মেলান",
+          "promptEn": "Match batchim with its sound",
+          "pairs": [
+            {
+              "left": "ㄱ/ㅋ/ㄲ",
+              "right": "ক্"
+            },
+            {
+              "left": "ㅂ/ㅍ",
+              "right": "প্"
+            },
+            {
+              "left": "ㄷ/ㅌ/ㅅ/ㅊ",
+              "right": "ত্"
+            },
+            {
+              "left": "ㅇ",
+              "right": "ং"
+            }
+          ],
+          "explanationBn": "ব্যাচিমে ৭টি মূল ধ্বনি: ক্ ন্ ত্ ল্ ম্ প্ ং।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-b-d-q13",
+          "kind": "multiple-choice",
+          "promptBn": "한국어 শব্দের সঠিক উচ্চারণ (লিংকিং)?",
+          "promptEn": "Correct linked pronunciation of 한국어?",
+          "options": [
+            "[한국어]",
+            "[한구거]",
+            "[한구고]",
+            "[항우거]"
+          ],
+          "answer": 1,
+          "explanationBn": "ㄱ ব্যাচিম পরের ㅇ-অক্ষরে চলে যায়: 한국어=[한구거]।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-final-0",
+          "kind": "multiple-choice",
+          "promptBn": "간 শব্দে ব্যাচিম কোনটি? (কলিজা/মধ্য)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄱ",
+            "ㅊ",
+            "ㅌ",
+            "ㄴ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "간-এর ব্যাচিম ㄱ। উচ্চারণ: gan।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "문",
+            "꽃",
+            "밖",
+            "간"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "간 (gan) — কলিজা/মধ্য।",
+          "topic": "batchim",
+          "listenText": "간"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-final-1",
+          "kind": "multiple-choice",
+          "promptBn": "문 শব্দে ব্যাচিম কোনটি? (দরজা)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄷ",
+            "ㄴ",
+            "ㅌ",
+            "ㄱ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "문-এর ব্যাচিম ㄴ। উচ্চারণ: mun।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "받",
+            "없다",
+            "문",
+            "달"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "문 (mun) — দরজা।",
+          "topic": "batchim",
+          "listenText": "문"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-final-2",
+          "kind": "multiple-choice",
+          "promptBn": "받 শব্দে ব্যাচিম কোনটি? (গ্রহণ (base))",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄷ",
+            "ㄹ",
+            "ㅅ",
+            "ㅍ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받-এর ব্যাচিম ㄷ। উচ্চারণ: bat।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "앉다",
+            "없다",
+            "밖",
+            "받"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "받 (bat) — গ্রহণ (base)।",
+          "topic": "batchim",
+          "listenText": "받"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-final-3",
+          "kind": "multiple-choice",
+          "promptBn": "달 শব্দে ব্যাচিম কোনটি? (চাঁদ)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄹ",
+            "ㄴ",
+            "ㅇ",
+            "ㅍ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "달-এর ব্যাচিম ㄹ। উচ্চারণ: dal।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "밥",
+            "읽다",
+            "낮",
+            "달"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "달 (dal) — চাঁদ।",
+          "topic": "batchim",
+          "listenText": "달"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-final-4",
+          "kind": "multiple-choice",
+          "promptBn": "밤 শব্দে ব্যাচিম কোনটি? (রাত/চেস্টনাট)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅁ",
+            "ㅊ",
+            "ㅍ",
+            "ㅋ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "밤-এর ব্যাচিম ㅁ। উচ্চারণ: bam।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-listen-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "앉다",
+            "낮",
+            "밤",
+            "한국어"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "밤 (bam) — রাত/চেস্টনাট।",
+          "topic": "batchim",
+          "listenText": "밤"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-final-5",
+          "kind": "multiple-choice",
+          "promptBn": "밥 শব্দে ব্যাচিম কোনটি? (ভাত)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄹ",
+            "ㅂ",
+            "ㄴ",
+            "ㄱ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "밥-এর ব্যাচিম ㅂ। উচ্চারণ: bap।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-listen-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন (ব্যাচিম)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "낮",
+            "받",
+            "방",
+            "밥"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "밥 (bap) — ভাত।",
+          "topic": "batchim",
+          "listenText": "밥"
+        },
+        {
+          "id": "cp-h-batchim-bat-b-drill-b-gen-final-6",
+          "kind": "multiple-choice",
+          "promptBn": "옷 শব্দে ব্যাচিম কোনটি? (কাপড়)",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄱ",
+            "ㅅ",
+            "ㅌ",
+            "ㅊ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "옷-এর ব্যাচিম ㅅ। উচ্চারণ: ot।",
+          "topic": "batchim"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "거",
+          "options": [
+            "가",
+            "거",
+            "고",
+            "구"
+          ],
+          "answer": 1,
+          "explanationBn": "거 = ㄱ+ㅓ (ক)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "치",
+          "options": [
+            "지",
+            "치",
+            "시",
+            "키"
+          ],
+          "answer": 1,
+          "explanationBn": "치 = ㅊ+ㅣ (ছি)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "토",
+          "options": [
+            "도",
+            "토",
+            "또",
+            "보"
+          ],
+          "answer": 1,
+          "explanationBn": "토 = ㅌ+ㅗ (থো)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "포",
+          "options": [
+            "보",
+            "뽀",
+            "포",
+            "모"
+          ],
+          "answer": 2,
+          "explanationBn": "포 = ㅍ+ㅗ (ফো)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "케",
+          "options": [
+            "게",
+            "케",
+            "네",
+            "세"
+          ],
+          "answer": 1,
+          "explanationBn": "케 = ㅋ+ㅔ (খে)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "진짜",
+          "options": [
+            "진짜",
+            "진자",
+            "친자",
+            "집자"
+          ],
+          "answer": 0,
+          "explanationBn": "진짜 (চিনচ্চা) — সত্যি; ㅉ টেনস।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "오빠",
+          "options": [
+            "오바",
+            "오빠",
+            "오파",
+            "우빠"
+          ],
+          "answer": 1,
+          "explanationBn": "오빠 (ওপ্পা) — বড় ভাই; ㅃ টেনস।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "날씨",
+          "options": [
+            "날시",
+            "날씨",
+            "나씨",
+            "남씨"
+          ],
+          "answer": 1,
+          "explanationBn": "날씨 (নালস্সি) — আবহাওয়া; ㅆ টেনস।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q9",
+          "kind": "multiple-choice",
+          "promptBn": "너 (তুমি) = কোন দুই বর্ণ?",
+          "promptEn": "너 is composed of?",
+          "options": [
+            "ㄴ+ㅓ",
+            "ㄴ+ㅏ",
+            "ㄱ+ㅓ",
+            "ㄴ+ㅗ"
+          ],
+          "answer": 0,
+          "explanationBn": "너 = ㄴ+ㅓ (ন)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q10",
+          "kind": "multiple-choice",
+          "promptBn": "치 = কোন দুই বর্ণ?",
+          "promptEn": "치 is composed of?",
+          "options": [
+            "ㅈ+ㅣ",
+            "ㅊ+ㅣ",
+            "ㅊ+ㅡ",
+            "ㅅ+ㅣ"
+          ],
+          "answer": 1,
+          "explanationBn": "치 = ㅊ+ㅣ (ছি)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q11",
+          "kind": "matching",
+          "promptBn": "অক্ষর ও উচ্চারণ মেলান",
+          "promptEn": "Match syllable with sound",
+          "pairs": [
+            {
+              "left": "케",
+              "right": "খে"
+            },
+            {
+              "left": "토",
+              "right": "থো"
+            },
+            {
+              "left": "포",
+              "right": "ফো"
+            },
+            {
+              "left": "치",
+              "right": "ছি"
+            }
+          ],
+          "explanationBn": "শ্বাসযুক্ত ব্যঞ্জনের অক্ষর: 케 토 포 치।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp-q12",
+          "kind": "matching",
+          "promptBn": "শব্দ ও অর্থ মেলান",
+          "promptEn": "Match word with meaning",
+          "pairs": [
+            {
+              "left": "안녕하세요",
+              "right": "শুভেচ্ছা"
+            },
+            {
+              "left": "감사합니다",
+              "right": "ধন্যবাদ"
+            },
+            {
+              "left": "진짜",
+              "right": "সত্যি"
+            },
+            {
+              "left": "날씨",
+              "right": "আবহাওয়া"
+            }
+          ],
+          "explanationBn": "প্রায়শই ব্যবহৃত শব্দ।",
+          "topic": "general"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-mc-0",
+          "kind": "multiple-choice",
+          "promptBn": "'ga' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "타",
+            "차",
+            "가",
+            "되"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ga = 가।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "타",
+            "차",
+            "가",
+            "되"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 가।",
+          "topic": "syllable",
+          "listenText": "가"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-mc-1",
+          "kind": "multiple-choice",
+          "promptBn": "'na' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "라",
+            "네",
+            "바",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "na = 나।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "라",
+            "네",
+            "바",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 나।",
+          "topic": "syllable",
+          "listenText": "나"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-mc-2",
+          "kind": "multiple-choice",
+          "promptBn": "'da' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "차",
+            "누",
+            "제",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "da = 다।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "차",
+            "누",
+            "제",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 다।",
+          "topic": "syllable",
+          "listenText": "다"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-mc-3",
+          "kind": "multiple-choice",
+          "promptBn": "'ra' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "고",
+            "라",
+            "가",
+            "개"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ra = 라।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "고",
+            "라",
+            "가",
+            "개"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 라।",
+          "topic": "syllable",
+          "listenText": "라"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-mc-4",
+          "kind": "multiple-choice",
+          "promptBn": "'ma' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "제",
+            "마",
+            "싸"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ma = 마।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-listen-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "예",
+            "제",
+            "마",
+            "싸"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 마।",
+          "topic": "syllable",
+          "listenText": "마"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-mc-5",
+          "kind": "multiple-choice",
+          "promptBn": "'ba' কোন অক্ষর?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "뢰",
+            "되",
+            "후",
+            "바"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ba = 바।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-1-sy-gen-listen-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "뢰",
+            "되",
+            "후",
+            "바"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 바।",
+          "topic": "syllable",
+          "listenText": "바"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "무",
+          "options": [
+            "모",
+            "무",
+            "미",
+            "마"
+          ],
+          "answer": 1,
+          "explanationBn": "무 = ㅁ+ㅜ (মু)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "시",
+          "options": [
+            "자",
+            "치",
+            "시",
+            "기"
+          ],
+          "answer": 2,
+          "explanationBn": "시 = ㅅ+ㅣ — স উচ্চারণ (ㅣ-এর আগে ㅅ=স)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "로",
+          "options": [
+            "노",
+            "로",
+            "도",
+            "고"
+          ],
+          "answer": 1,
+          "explanationBn": "로 = ㄹ+ㅗ (রো)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "추워요",
+          "options": [
+            "더워요",
+            "추워요",
+            "좋아요",
+            "매워요"
+          ],
+          "answer": 1,
+          "explanationBn": "추워요 (ছুওয়ো) — ঠান্ডা লাগছে; ㅊ শ্বাসযুক্ত।",
+          "topic": "general"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptEn": "Listen and choose the word",
+          "listenText": "전화",
+          "options": [
+            "전화",
+            "천화",
+            "잔하",
+            "진화"
+          ],
+          "answer": 0,
+          "explanationBn": "전화 (চনহোয়া) — ফোন; ㅎ ধ্বনি লক্ষ করুন।",
+          "topic": "general"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q6",
+          "kind": "multiple-choice",
+          "promptBn": "하늘 (আকাশ) শব্দের প্রথম ব্যঞ্জন কোনটি?",
+          "promptEn": "First consonant of 하늘?",
+          "options": [
+            "ㅇ",
+            "ㅎ",
+            "ㅋ",
+            "ㄱ"
+          ],
+          "answer": 1,
+          "explanationBn": "하늘 = ㅎ+ㅏ... (হানুল)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q7",
+          "kind": "multiple-choice",
+          "promptBn": "또 অক্ষরের প্রথম ব্যঞ্জন কোনটি?",
+          "promptEn": "First consonant of 또?",
+          "options": [
+            "ㄷ",
+            "ㅌ",
+            "ㄸ",
+            "ㅃ"
+          ],
+          "answer": 2,
+          "explanationBn": "또 = ㄸ+ㅗ (টেনস ㄸ)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q8",
+          "kind": "multiple-choice",
+          "promptBn": "예쁘다 শব্দে কোন টেনস ব্যঞ্জন আছে?",
+          "promptEn": "Which tense consonant is in 예쁘다?",
+          "options": [
+            "ㄲ",
+            "ㅃ",
+            "ㅆ",
+            "ㅉ"
+          ],
+          "answer": 1,
+          "explanationBn": "예쁘다 (ইয়েপ্পুদা) — 쁘-তে ㅃ।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q9",
+          "kind": "matching",
+          "promptBn": "শব্দ ও অর্থ মেলান",
+          "promptEn": "Match word with meaning",
+          "pairs": [
+            {
+              "left": "맵다",
+              "right": "ঝাল"
+            },
+            {
+              "left": "달다",
+              "right": "মিষ্টি"
+            },
+            {
+              "left": "짜다",
+              "right": "লবণাক্ত"
+            },
+            {
+              "left": "맛있다",
+              "right": "সুস্বাদু"
+            }
+          ],
+          "explanationBn": "স্বাদের শব্দ।",
+          "topic": "general"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q10",
+          "kind": "matching",
+          "promptBn": "শব্দ ও অর্থ মেলান",
+          "promptEn": "Match word with meaning",
+          "pairs": [
+            {
+              "left": "여름",
+              "right": "গ্রীষ্ম"
+            },
+            {
+              "left": "겨울",
+              "right": "শীতকাল"
+            },
+            {
+              "left": "천원",
+              "right": "১০০০ উয়ন"
+            },
+            {
+              "left": "만원",
+              "right": "১০০০০ উয়ন"
+            }
+          ],
+          "explanationBn": "ঋতু ও টাকার শব্দ।",
+          "topic": "general"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "뷰",
+          "options": [
+            "부",
+            "뷰",
+            "무",
+            "보"
+          ],
+          "answer": 1,
+          "explanationBn": "뷰 = ㅂ+ㅠ (বিউ)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-sp2-q12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর বেছে নিন",
+          "promptEn": "Listen and choose the syllable",
+          "listenText": "지",
+          "options": [
+            "시",
+            "치",
+            "지",
+            "기"
+          ],
+          "answer": 2,
+          "explanationBn": "지 = ㅈ+ㅣ (জি)।",
+          "topic": "syllable"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-rom-0",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ (기역) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "g/k",
+            "x",
+            "ng",
+            "ae"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㄱ = g/k (기역)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-char-0",
+          "kind": "multiple-choice",
+          "promptBn": "'g/k' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄸ",
+            "ㄱ",
+            "ㅃ",
+            "ㅎ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "g/k → ㄱ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "마",
+            "라",
+            "파"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 가 (ㄱ)।",
+          "topic": "jamo",
+          "listenText": "가"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-rom-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄴ (니은) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "x",
+            "ng",
+            "ae",
+            "n"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㄴ = n (니은)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-char-1",
+          "kind": "multiple-choice",
+          "promptBn": "'n' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅎ",
+            "ㄴ",
+            "ㅅ",
+            "ㄷ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "n → ㄴ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "차",
+            "나",
+            "마",
+            "가"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 나 (ㄴ)।",
+          "topic": "jamo",
+          "listenText": "나"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-rom-2",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ (디귿) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ng",
+            "ae",
+            "d/t",
+            "x"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㄷ = d/t (디귿)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-char-2",
+          "kind": "multiple-choice",
+          "promptBn": "'d/t' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄸ",
+            "ㄷ",
+            "ㅍ",
+            "ㅎ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "d/t → ㄷ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "빠",
+            "가",
+            "파",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 다 (ㄷ)।",
+          "topic": "jamo",
+          "listenText": "다"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-rom-3",
+          "kind": "multiple-choice",
+          "promptBn": "ㄹ (리을) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ae",
+            "r/l",
+            "x",
+            "ng"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㄹ = r/l (리을)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-char-3",
+          "kind": "multiple-choice",
+          "promptBn": "'r/l' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄹ",
+            "ㅂ",
+            "ㄷ",
+            "ㅁ"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "r/l → ㄹ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-speak-lab-spe-sp-quiz-2-c-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "빠",
+            "라",
+            "따",
+            "아"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 라 (ㄹ)।",
+          "topic": "jamo",
+          "listenText": "라"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q1",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'ch' (ছ)?",
+          "promptEn": "Which letter is 'ch'?",
+          "options": [
+            "ㅈ",
+            "ㅊ",
+            "ㅅ",
+            "ㅉ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅊ = ch। ㅈ-এর উপরে বাড়তি রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q2",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'k' (খ)?",
+          "promptEn": "Which letter is 'k'?",
+          "options": [
+            "ㄱ",
+            "ㅋ",
+            "ㄲ",
+            "ㅎ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅋ = k। ㄱ-এর ভিতরে বাড়তি রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q3",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 't' (থ)?",
+          "promptEn": "Which letter is 't'?",
+          "options": [
+            "ㄷ",
+            "ㄸ",
+            "ㅌ",
+            "ㄹ"
+          ],
+          "answer": 2,
+          "explanationBn": "ㅌ = t। ㄷ-এর মাঝে বাড়তি রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q4",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'p' (ফ)?",
+          "promptEn": "Which letter is 'p'?",
+          "options": [
+            "ㅂ",
+            "ㅃ",
+            "ㅁ",
+            "ㅍ"
+          ],
+          "answer": 3,
+          "explanationBn": "ㅍ = p। উপর-নিচে দুই রেখা, মাঝে দুই খুঁটি।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q5",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'h' (হ)?",
+          "promptEn": "Which letter is 'h'?",
+          "options": [
+            "ㅇ",
+            "ㅎ",
+            "ㅊ",
+            "ㅋ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅎ = h। ㅇ-এর উপরে টুপি ও রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q6",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'yeo' (ইঅ)?",
+          "promptEn": "Which letter is 'yeo'?",
+          "options": [
+            "ㅓ",
+            "ㅕ",
+            "ㅑ",
+            "ㅛ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅕ = yeo। ㅓ-তে বাড়তি রেখা।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q7",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বর্ণটি 'yu' (ইউ)?",
+          "promptEn": "Which letter is 'yu'?",
+          "options": [
+            "ㅜ",
+            "ㅠ",
+            "ㅛ",
+            "ㅡ"
+          ],
+          "answer": 1,
+          "explanationBn": "ㅠ = yu। ㅜ-তে বাড়তি খুঁটি।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q8",
+          "kind": "matching",
+          "promptBn": "বর্ণ ও নাম মেলান",
+          "promptEn": "Match letter with its name",
+          "pairs": [
+            {
+              "left": "ㅊ",
+              "right": "치옻 (chieut)"
+            },
+            {
+              "left": "ㅋ",
+              "right": "키얍 (kieuk)"
+            },
+            {
+              "left": "ㅌ",
+              "right": "티옜 (tieut)"
+            },
+            {
+              "left": "ㅍ",
+              "right": "피왈 (pieup)"
+            }
+          ],
+          "explanationBn": "শ্বাসযুক্ত বর্ণের নাম।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q9",
+          "kind": "matching",
+          "promptBn": "বর্ণ ও উচ্চারণ মেলান",
+          "promptEn": "Match letter with sound",
           "pairs": [
             {
               "left": "ㄱ",
@@ -251,39 +5675,318 @@
               "right": "n"
             },
             {
-              "left": "ㅏ",
-              "right": "a"
+              "left": "ㄹ",
+              "right": "r/l"
+            },
+            {
+              "left": "ㅅ",
+              "right": "s"
             }
           ],
-          "explanationBn": "মিল",
+          "explanationBn": "মূল ব্যঞ্জনের উচ্চারণ।",
           "topic": "jamo"
         },
         {
-          "id": "cp-ma-2",
-          "kind": "matching",
-          "promptBn": "অক্ষর মিল",
-          "pairs": [
-            {
-              "left": "가",
-              "right": "ga"
-            },
-            {
-              "left": "나",
-              "right": "na"
-            },
-            {
-              "left": "차",
-              "right": "cha"
-            },
-            {
-              "left": "코",
-              "right": "ko"
-            }
+          "id": "cp-h-write-lab-wr-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক বর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the letter",
+          "listenText": "티옜",
+          "options": [
+            "ㄷ",
+            "ㅌ",
+            "ㄸ",
+            "ㅍ"
           ],
-          "explanationBn": "শ্বাসযুক্ত সহ অক্ষরের মিল",
-          "topic": "syllable"
+          "answer": 1,
+          "explanationBn": "티옜 (থিউত) = ㅌ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক বর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the letter",
+          "listenText": "피왈",
+          "options": [
+            "ㅂ",
+            "ㅍ",
+            "ㅃ",
+            "ㅁ"
+          ],
+          "answer": 1,
+          "explanationBn": "피왈 (ফিউপ) = ㅍ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wr-q12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক বর্ণ বেছে নিন",
+          "promptEn": "Listen and choose the letter",
+          "listenText": "키얍",
+          "options": [
+            "ㄱ",
+            "ㅋ",
+            "ㄲ",
+            "ㅎ"
+          ],
+          "answer": 1,
+          "explanationBn": "키얍 (খিয়ক) = ㅋ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-rom-0",
+          "kind": "multiple-choice",
+          "promptBn": "ㄱ (기역) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "g/k",
+            "x",
+            "ng",
+            "ae"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ㄱ = g/k (기역)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-char-0",
+          "kind": "multiple-choice",
+          "promptBn": "'g/k' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㄹ",
+            "ㄱ",
+            "ㅎ",
+            "ㅍ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "g/k → ㄱ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-listen-0",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "타",
+            "가",
+            "빠",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 가 (ㄱ)।",
+          "topic": "jamo",
+          "listenText": "가"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-rom-1",
+          "kind": "multiple-choice",
+          "promptBn": "ㄴ (니은) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "x",
+            "ng",
+            "ae",
+            "n"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ㄴ = n (니은)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-char-1",
+          "kind": "multiple-choice",
+          "promptBn": "'n' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅌ",
+            "ㅃ",
+            "ㄷ",
+            "ㄴ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "n → ㄴ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-listen-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "마",
+            "나",
+            "가",
+            "사"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 나 (ㄴ)।",
+          "topic": "jamo",
+          "listenText": "나"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-rom-2",
+          "kind": "multiple-choice",
+          "promptBn": "ㄷ (디귿) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ng",
+            "ae",
+            "d/t",
+            "x"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "ㄷ = d/t (디귿)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-char-2",
+          "kind": "multiple-choice",
+          "promptBn": "'d/t' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅂ",
+            "ㄲ",
+            "ㄷ",
+            "ㅇ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "d/t → ㄷ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-listen-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "파",
+            "차",
+            "라",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 다 (ㄷ)।",
+          "topic": "jamo",
+          "listenText": "다"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-rom-3",
+          "kind": "multiple-choice",
+          "promptBn": "ㄹ (리을) এর রোমানাইজেশন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ae",
+            "r/l",
+            "x",
+            "ng"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㄹ = r/l (리을)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-char-3",
+          "kind": "multiple-choice",
+          "promptBn": "'r/l' ধ্বনির ব্যঞ্জন কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "ㅎ",
+            "ㄹ",
+            "ㅋ",
+            "ㄴ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "r/l → ㄹ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "cp-h-write-lab-wri-wr-quiz-c-gen-listen-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অক্ষর/শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "마",
+            "가",
+            "라",
+            "아"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 라 (ㄹ)।",
+          "topic": "jamo",
+          "listenText": "라"
+        },
+        {
+          "id": "cp-h-welcome-w-q1",
+          "kind": "multiple-choice",
+          "promptBn": "হ্যাঙ্গুল কী?",
+          "promptEn": "What is Hangul?",
+          "options": [
+            "কোরিয়ান লিপি",
+            "জাপানি লিপি",
+            "শুধু রোমান",
+            "সংখ্যা"
+          ],
+          "answer": 0,
+          "explanationBn": "হ্যাঙ্গুল কোরিয়ান লিপি।",
+          "topic": "general"
+        },
+        {
+          "id": "cp-h-welcome-w-q2",
+          "kind": "multiple-choice",
+          "promptBn": "অক্ষর সাধারণত কী দিয়ে গঠিত?",
+          "options": [
+            "শুধু স্বর",
+            "ব্যঞ্জন + স্বর",
+            "সংখ্যা",
+            "ল্যাটিন"
+          ],
+          "answer": 1,
+          "explanationBn": "ব্যঞ্জন+স্বর।",
+          "topic": "general"
+        },
+        {
+          "id": "cp-h-welcome-w-q3",
+          "kind": "multiple-choice",
+          "promptBn": "Basics শেষ ধাপ?",
+          "options": [
+            "ভিডিও",
+            "চেকপয়েন্ট",
+            "সার্টিফিকেট",
+            "মক"
+          ],
+          "answer": 1,
+          "explanationBn": "চেকপয়েন্ট পাস = আনলক।",
+          "topic": "general"
         }
-      ]
+      ],
+      "drawCount": 25
     }
   ]
 }
