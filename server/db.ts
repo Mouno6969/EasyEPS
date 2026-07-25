@@ -670,6 +670,7 @@ export async function saveBasicsModuleProgress(
     speakItemsDone?: string[];
     writeItemsDone?: string[];
     builderItemsDone?: string[];
+    readItemsDone?: string[];
     quizScore?: number;
     quizTotal?: number;
     lastStepId?: string;
@@ -682,6 +683,7 @@ export async function saveBasicsModuleProgress(
     speakItemsDone: patch.speakItemsDone,
     writeItemsDone: patch.writeItemsDone,
     builderItemsDone: patch.builderItemsDone,
+    readItemsDone: patch.readItemsDone,
     quizScore: patch.quizScore,
     quizTotal: patch.quizTotal,
     lastStepId: patch.lastStepId,
@@ -766,6 +768,7 @@ export async function submitBasicsCheckpoint(
     speakItemsDone: prevCp?.speakItemsDone ?? [],
     writeItemsDone: prevCp?.writeItemsDone ?? [],
     builderItemsDone: prevCp?.builderItemsDone ?? [],
+    readItemsDone: prevCp?.readItemsDone ?? [],
     quizScore: score,
     quizTotal: total,
     lastStepId: prevCp?.lastStepId ?? "cp-quiz",
@@ -853,6 +856,7 @@ export async function importBasicsProgress(
       speakItemsDone: mod.speakItemsDone ?? [],
       writeItemsDone: mod.writeItemsDone ?? [],
       builderItemsDone: mod.builderItemsDone ?? [],
+      readItemsDone: mod.readItemsDone ?? [],
       quizScore: mod.quizScore,
       quizTotal: mod.quizTotal,
       lastStepId: mod.lastStepId,

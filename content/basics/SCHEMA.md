@@ -30,8 +30,8 @@ content/basics/
 ### Requirements integrity
 
 - `requiredStepIds` must exist on the module.
-- `minSpeakItems` / `minWriteItems` / `minBuilderItems` must be **≤ available items** of that type (schema rejects unachievable minima).
-- Item ids (speak / write / builder / jamo-grid / quiz) must be **unique** within the module category.
+- `minSpeakItems` / `minWriteItems` / `minBuilderItems` / `minReadItems` must be **≤ available items** of that type (schema rejects unachievable minima).
+- Item ids (speak / write / builder / read / jamo-grid / quiz) must be **unique** within the module category.
 - `isModuleComplete` counts **unique** done-ids (duplicate pushes do not inflate progress).
 
 ### Welcome passRatio
@@ -47,6 +47,7 @@ Fixture uses **`passRatio: 0.66`** so a 2-of-3 quiz passes (`2/3 ≈ 0.666…`).
 | `speak` | `minListens`, `items[]` with **`audioText`** |
 | `write` | `items[]` with `char`, **`strokeId`** (must exist under `strokes/`) |
 | `builder` | `prompts[]`: `initial`, `vowel`, `final?`, **`answer`** |
+| `read` | whole-word cards: `text` (Hangul), `bn`/`en` meaning, `distractorsBn[]` — learner reads the word and picks meaning |
 | `quiz` | `questions[]` |
 
 ### Builder integrity
@@ -56,12 +57,14 @@ Fixture uses **`passRatio: 0.66`** so a 2-of-3 quiz passes (`2/3 ≈ 0.666…`).
 ## Quiz
 
 - `kind`: `multiple-choice` | `matching` | `listen-choice`
-- Optional `topic`: `jamo` | `syllable` | `batchim` | `general` (helps checkpoint composition checks; heuristics also apply)
+- Optional `topic`: `jamo` | `syllable` | `batchim` | `reading` | `general` (`reading` = whole-word recognition, not letter meta-questions)
 - Optional `drawCount`: runtime sample size from the bank (Fisher–Yates + stratified minima)
-- **Checkpoint bank:** ≥100 questions with `drawCount: 25`; bank must include ≥20 listen-choice, ≥8 matching, ≥15 syllable-related, ≥10 batchim-related
+- **Checkpoint bank:** ≥100 questions with `drawCount: 25`; bank must include ≥20 listen-choice, ≥8 matching, ≥15 syllable-related, ≥10 batchim-related, **≥20 reading**
+- Checkpoint draws stratified-include **≥5 whole-word reading** items so learners cannot pass on composition trivia alone
 - **Module quiz banks:** typically 20–30 questions with `drawCount` 10–12 (legacy small banks still allowed, ≥3)
 - Jamo grid items may include `shapeMnemonicBn` (Bangla visual mnemonic)
 - **Anti-memorization:** every attempt calls `prepareBasicsQuizDraw` (new sample + per-question option shuffle). Matching left-row order is also shuffled. Retry returns to the checkpoint start screen so a new paper is drawn.
+- Rebuild reading content: `python3 scripts/add_reading_practice.py`
 
 Scoring (`scoreBasicsQuiz` / `scoreBasicsQuestions`): prefer `selectedOptions` (option **text**) for MC/listen so shuffled presentation still grades against the bank; matching prefers left→right maps. Checkpoint submit **requires** `questionIds` of length `drawCount` (25).
 

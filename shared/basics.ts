@@ -28,6 +28,8 @@ export type BasicsModuleProgress = {
   speakItemsDone: string[];
   writeItemsDone: string[];
   builderItemsDone: string[];
+  /** Whole-word reading items marked correct (read step). */
+  readItemsDone: string[];
   quizScore?: number;
   quizTotal?: number;
   lastStepId?: string;
@@ -50,6 +52,7 @@ export const basicsModuleProgressSchema = z.object({
   speakItemsDone: z.array(z.string()).default([]),
   writeItemsDone: z.array(z.string()).default([]),
   builderItemsDone: z.array(z.string()).default([]),
+  readItemsDone: z.array(z.string()).default([]),
   quizScore: z.number().int().min(0).optional(),
   quizTotal: z.number().int().min(0).optional(),
   lastStepId: z.string().optional(),
@@ -73,6 +76,7 @@ export type ModuleRequirements = {
   minSpeakItems: number;
   minWriteItems: number;
   minBuilderItems: number;
+  minReadItems: number;
   passRatio: number;
 };
 
@@ -81,6 +85,7 @@ export const moduleRequirementsSchema = z.object({
   minSpeakItems: z.number().int().min(0).default(0),
   minWriteItems: z.number().int().min(0).default(0),
   minBuilderItems: z.number().int().min(0).default(0),
+  minReadItems: z.number().int().min(0).default(0),
   passRatio: z.number().min(0).max(1).default(0.7),
 });
 
@@ -108,8 +113,11 @@ export const basicsQuizQuestionSchema = z
       .default([]),
     answer: z.number().int().optional(),
     explanationBn: z.string().min(1),
-    /** Optional authoring tag for checkpoint composition checks. */
-    topic: z.enum(["jamo", "syllable", "batchim", "general"]).optional().default("general"),
+    /**
+     * Authoring tag for composition checks.
+     * `reading` = whole-word recognition (Hangul word → meaning, or meaning → word).
+     */
+    topic: z.enum(["jamo", "syllable", "batchim", "reading", "general"]).optional().default("general"),
   })
   .superRefine((q, ctx) => {
     if (q.kind === "matching") {
@@ -234,6 +242,25 @@ const builderStepSchema = z.object({
   prompts: z.array(builderPromptSchema).min(1),
 });
 
+/** Whole-word reading flashcards: see Hangul → pick meaning (not letter meta-questions). */
+const readItemSchema = z.object({
+  id: z.string().min(1),
+  text: z.string().min(1),
+  romanization: z.string().optional().default(""),
+  audioText: z.string().optional().default(""),
+  bn: z.string().min(1),
+  en: z.string().min(1),
+  /** Wrong meaning choices (Bangla) shown with the correct `bn`. */
+  distractorsBn: z.array(z.string().min(1)).min(2).max(5),
+});
+
+const readStepSchema = z.object({
+  id: z.string().min(1),
+  type: z.literal("read"),
+  title: localizedTextSchema.optional(),
+  items: z.array(readItemSchema).min(1),
+});
+
 const quizStepSchema = z
   .object({
     id: z.string().min(1),
@@ -261,6 +288,7 @@ export const basicsStepSchema = z.discriminatedUnion("type", [
   speakStepSchema,
   writeStepSchema,
   builderStepSchema,
+  readStepSchema,
   quizStepSchema,
 ]);
 
@@ -287,6 +315,19 @@ export function isBatchimRelatedQuestion(q: BasicsQuizQuestion): boolean {
   return /받침|batchim|ব্যাচিম|ব্যাচ্চিম/.test(hay);
 }
 
+/**
+ * Whole-word reading items: learner must map a Hangul word to meaning (or reverse),
+ * not answer letter/composition meta-questions.
+ */
+export function isReadingQuestion(q: BasicsQuizQuestion): boolean {
+  if (q.topic === "reading") return true;
+  const hay = `${q.promptBn} ${q.promptEn ?? ""} ${q.promptKo ?? ""}`;
+  if (!PRECOMPOSED_HANGUL.test(hay) && !q.options.some(o => PRECOMPOSED_HANGUL.test(o))) {
+    return false;
+  }
+  return /পড়ুন|read this|এই শব্দ|অর্থ|meaning|কী বোঝায়|what does|শব্দের অর্থ/i.test(hay);
+}
+
 function trackUniqueIds(
   ids: Iterable<string>,
   seen: Set<string>,
@@ -309,16 +350,19 @@ function countStepItems(module: { steps: BasicsStep[] }): {
   speak: number;
   write: number;
   builder: number;
+  read: number;
 } {
   let speak = 0;
   let write = 0;
   let builder = 0;
+  let read = 0;
   for (const step of module.steps) {
     if (step.type === "speak") speak += step.items.length;
     else if (step.type === "write") write += step.items.length;
     else if (step.type === "builder") builder += step.prompts.length;
+    else if (step.type === "read") read += step.items.length;
   }
-  return { speak, write, builder };
+  return { speak, write, builder, read };
 }
 
 export const basicsModuleSchema = z
@@ -359,6 +403,7 @@ export const basicsModuleSchema = z
     const speakIds = new Set<string>();
     const writeIds = new Set<string>();
     const builderIds = new Set<string>();
+    const readIds = new Set<string>();
     for (const step of module.steps) {
       if (step.type === "jamo-grid") {
         trackUniqueIds(
@@ -388,6 +433,13 @@ export const basicsModuleSchema = z
           ctx,
           "builder prompt",
         );
+      } else if (step.type === "read") {
+        trackUniqueIds(
+          step.items.map(i => i.id),
+          readIds,
+          ctx,
+          "read item",
+        );
       }
     }
 
@@ -412,6 +464,13 @@ export const basicsModuleSchema = z
         code: "custom",
         message: `minBuilderItems ${module.requirements.minBuilderItems} > available builder prompts ${available.builder}`,
         path: ["requirements", "minBuilderItems"],
+      });
+    }
+    if (module.requirements.minReadItems > available.read) {
+      ctx.addIssue({
+        code: "custom",
+        message: `minReadItems ${module.requirements.minReadItems} > available read items ${available.read}`,
+        path: ["requirements", "minReadItems"],
       });
     }
 
@@ -452,7 +511,8 @@ export const basicsModuleSchema = z
       const matching = allQuestions.filter(q => q.kind === "matching").length;
       const syllable = allQuestions.filter(isSyllableRelatedQuestion).length;
       const batchim = allQuestions.filter(isBatchimRelatedQuestion).length;
-      // Bank composition must support stratified draws of 25 with audio items.
+      const reading = allQuestions.filter(isReadingQuestion).length;
+      // Bank composition must support stratified draws of 25 with audio + reading items.
       if (listen < 20) {
         ctx.addIssue({
           code: "custom",
@@ -478,6 +538,13 @@ export const basicsModuleSchema = z
         ctx.addIssue({
           code: "custom",
           message: `checkpoint bank needs ≥10 batchim questions, got ${batchim}`,
+          path: ["steps"],
+        });
+      }
+      if (reading < 20) {
+        ctx.addIssue({
+          code: "custom",
+          message: `checkpoint bank needs ≥20 whole-word reading questions, got ${reading}`,
           path: ["steps"],
         });
       }
@@ -621,10 +688,11 @@ export function isModuleComplete(
   const speakOk = uniqueIdCount(progress.speakItemsDone) >= req.minSpeakItems;
   const writeOk = uniqueIdCount(progress.writeItemsDone) >= req.minWriteItems;
   const builderOk = uniqueIdCount(progress.builderItemsDone) >= req.minBuilderItems;
+  const readOk = uniqueIdCount(progress.readItemsDone ?? []) >= (req.minReadItems ?? 0);
   const hasQuiz = module.steps.some(s => s.type === "quiz");
   const ratio = quizRatio(progress);
   const quizOk = !hasQuiz || (ratio != null && ratio >= req.passRatio);
-  return stepsOk && speakOk && writeOk && builderOk && quizOk;
+  return stepsOk && speakOk && writeOk && builderOk && readOk && quizOk;
 }
 
 /**
@@ -687,16 +755,18 @@ export function sampleBasicsQuiz(
   const used = new Set<string>();
   const picked: BasicsQuizQuestion[] = [];
 
-  // Soft quotas scale with draw size (for 25: listen 5, matching 2, syllable 4, batchim 3).
+  // Soft quotas scale with draw size (for 25: listen 5, matching 2, syllable 3, batchim 2, reading 6).
   const listenN = Math.max(3, Math.round(drawCount * 0.2));
   const matchingN = Math.max(2, Math.round(drawCount * 0.08));
-  const syllableN = Math.max(3, Math.round(drawCount * 0.16));
-  const batchimN = Math.max(2, Math.round(drawCount * 0.12));
+  const syllableN = Math.max(3, Math.round(drawCount * 0.12));
+  const batchimN = Math.max(2, Math.round(drawCount * 0.1));
+  const readingN = Math.max(5, Math.round(drawCount * 0.24));
 
   picked.push(...take(bank.filter(q => q.kind === "listen-choice"), listenN, used));
   picked.push(...take(bank.filter(q => q.kind === "matching"), matchingN, used));
   picked.push(...take(bank.filter(isSyllableRelatedQuestion), syllableN, used));
   picked.push(...take(bank.filter(isBatchimRelatedQuestion), batchimN, used));
+  picked.push(...take(bank.filter(isReadingQuestion), readingN, used));
 
   if (picked.length < drawCount) {
     picked.push(...take([...bank], drawCount - picked.length, used));
@@ -875,6 +945,7 @@ export function emptyModuleProgress(moduleId: string, updatedAt = new Date().toI
     speakItemsDone: [],
     writeItemsDone: [],
     builderItemsDone: [],
+    readItemsDone: [],
     updatedAt,
   };
 }
@@ -952,6 +1023,7 @@ export function mergeBasicsProgress(a: BasicsProgress, b: BasicsProgress): Basic
       speakItemsDone: uniqStrings([...(x?.speakItemsDone ?? []), ...(y?.speakItemsDone ?? [])]),
       writeItemsDone: uniqStrings([...(x?.writeItemsDone ?? []), ...(y?.writeItemsDone ?? [])]),
       builderItemsDone: uniqStrings([...(x?.builderItemsDone ?? []), ...(y?.builderItemsDone ?? [])]),
+      readItemsDone: uniqStrings([...(x?.readItemsDone ?? []), ...(y?.readItemsDone ?? [])]),
       ...(quiz.quizScore != null ? { quizScore: quiz.quizScore } : {}),
       ...(quiz.quizTotal != null ? { quizTotal: quiz.quizTotal } : {}),
       lastStepId: y?.lastStepId ?? x?.lastStepId,
@@ -987,6 +1059,7 @@ export const basicsProgressPatchSchema = z
     speakItemsDone: z.array(z.string()).optional(),
     writeItemsDone: z.array(z.string()).optional(),
     builderItemsDone: z.array(z.string()).optional(),
+    readItemsDone: z.array(z.string()).optional(),
     quizScore: z.number().int().min(0).optional(),
     quizTotal: z.number().int().min(0).optional(),
     lastStepId: z.string().optional(),
@@ -1039,6 +1112,7 @@ export const basicsImportProgressSchema = z.object({
         speakItemsDone: z.array(z.string()).optional(),
         writeItemsDone: z.array(z.string()).optional(),
         builderItemsDone: z.array(z.string()).optional(),
+        readItemsDone: z.array(z.string()).optional(),
         updatedAt: z.string().optional(),
       }),
   ),
@@ -1063,6 +1137,7 @@ export function applyBasicsModulePatch(
     speakItemsDone: patch.speakItemsDone ?? base.speakItemsDone,
     writeItemsDone: patch.writeItemsDone ?? base.writeItemsDone,
     builderItemsDone: patch.builderItemsDone ?? base.builderItemsDone,
+    readItemsDone: patch.readItemsDone ?? base.readItemsDone ?? [],
     quizScore: patch.quizScore ?? base.quizScore,
     quizTotal: patch.quizTotal ?? base.quizTotal,
     lastStepId: patch.lastStepId ?? base.lastStepId,

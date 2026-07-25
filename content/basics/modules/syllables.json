@@ -6,7 +6,7 @@
     "ko": "음절 만들기",
     "en": "Building Syllables"
   },
-  "estimatedMinutes": 40,
+  "estimatedMinutes": 50,
   "requirements": {
     "requiredStepIds": [
       "sy-intro",
@@ -14,12 +14,15 @@
       "sy-builder",
       "sy-builder-2",
       "sy-quiz",
-      "sy-drill"
+      "sy-drill",
+      "sy-read",
+      "sy-read-quiz"
     ],
     "minSpeakItems": 0,
     "minWriteItems": 0,
     "minBuilderItems": 14,
-    "passRatio": 0.7
+    "passRatio": 0.7,
+    "minReadItems": 8
   },
   "steps": [
     {
@@ -314,6 +317,1542 @@
           "answer": "찜",
           "bn": "ㅉ+ㅣ+ㅁ (চ্চিম — ভাপানো খাবার)",
           "en": "jj+i+m (steamed dish)"
+        }
+      ]
+    },
+    {
+      "id": "sy-read",
+      "type": "read",
+      "title": {
+        "bn": "পুরো শব্দ পড়া",
+        "ko": "단어 읽기",
+        "en": "Read whole words"
+      },
+      "items": [
+        {
+          "id": "sy-read-r01",
+          "text": "가",
+          "romanization": "ga",
+          "audioText": "가",
+          "bn": "যাওয়া (ক্রিয়া মূল)",
+          "en": "go (verb stem)",
+          "distractorsBn": [
+            "ভালো",
+            "ট্যাক্সি",
+            "চার"
+          ]
+        },
+        {
+          "id": "sy-read-r02",
+          "text": "나",
+          "romanization": "na",
+          "audioText": "나",
+          "bn": "আমি",
+          "en": "I/me",
+          "distractorsBn": [
+            "বল",
+            "সব / শেষ",
+            "রেস্তোরাঁ"
+          ]
+        },
+        {
+          "id": "sy-read-r03",
+          "text": "다",
+          "romanization": "da",
+          "audioText": "다",
+          "bn": "সব / শেষ",
+          "en": "all / finish",
+          "distractorsBn": [
+            "সময়",
+            "ছবি",
+            "মেট্রো"
+          ]
+        },
+        {
+          "id": "sy-read-r04",
+          "text": "물",
+          "romanization": "mul",
+          "audioText": "물",
+          "bn": "পানি",
+          "en": "water",
+          "distractorsBn": [
+            "আকাশ",
+            "কলম",
+            "মুখ"
+          ]
+        },
+        {
+          "id": "sy-read-r05",
+          "text": "불",
+          "romanization": "bul",
+          "audioText": "불",
+          "bn": "আগুন",
+          "en": "fire",
+          "distractorsBn": [
+            "দুপুরের খাবার",
+            "মুখ",
+            "হ্যাঁ"
+          ]
+        },
+        {
+          "id": "sy-read-r06",
+          "text": "손",
+          "romanization": "son",
+          "audioText": "손",
+          "bn": "হাত",
+          "en": "hand",
+          "distractorsBn": [
+            "দুধ",
+            "স্কুল",
+            "মাংস"
+          ]
+        },
+        {
+          "id": "sy-read-r07",
+          "text": "발",
+          "romanization": "bal",
+          "audioText": "발",
+          "bn": "পা",
+          "en": "foot",
+          "distractorsBn": [
+            "সঙ্গীত",
+            "বাজার",
+            "শিক্ষক"
+          ]
+        },
+        {
+          "id": "sy-read-r08",
+          "text": "눈",
+          "romanization": "nun",
+          "audioText": "눈",
+          "bn": "চোখ / তুষার",
+          "en": "eye / snow",
+          "distractorsBn": [
+            "নাক",
+            "কী",
+            "আজ"
+          ]
+        },
+        {
+          "id": "sy-read-r09",
+          "text": "입",
+          "romanization": "ip",
+          "audioText": "입",
+          "bn": "মুখ",
+          "en": "mouth",
+          "distractorsBn": [
+            "আপেল",
+            "নমস্কার / হ্যালো",
+            "পাঁচ"
+          ]
+        },
+        {
+          "id": "sy-read-r10",
+          "text": "코",
+          "romanization": "ko",
+          "audioText": "코",
+          "bn": "নাক",
+          "en": "nose",
+          "distractorsBn": [
+            "কোরিয়া",
+            "মেট্রো",
+            "জুতো"
+          ]
+        },
+        {
+          "id": "sy-read-r11",
+          "text": "집",
+          "romanization": "jip",
+          "audioText": "집",
+          "bn": "বাড়ি",
+          "en": "house",
+          "distractorsBn": [
+            "বন্ধু",
+            "কেন",
+            "যাওয়া (ক্রিয়া মূল)"
+          ]
+        },
+        {
+          "id": "sy-read-r12",
+          "text": "방",
+          "romanization": "bang",
+          "audioText": "방",
+          "bn": "ঘর",
+          "en": "room",
+          "distractorsBn": [
+            "কোথায়",
+            "কাপড়",
+            "কলম"
+          ]
+        },
+        {
+          "id": "sy-read-r13",
+          "text": "문",
+          "romanization": "mun",
+          "audioText": "문",
+          "bn": "দরজা",
+          "en": "door",
+          "distractorsBn": [
+            "কাল (আগামী)",
+            "যাওয়া (ক্রিয়া মূল)",
+            "কাপড়"
+          ]
+        },
+        {
+          "id": "sy-read-r14",
+          "text": "밥",
+          "romanization": "bap",
+          "audioText": "밥",
+          "bn": "ভাত / খাবার",
+          "en": "rice / meal",
+          "distractorsBn": [
+            "ধন্যবাদ",
+            "কোরিয়া",
+            "টাকা"
+          ]
+        },
+        {
+          "id": "sy-read-r15",
+          "text": "국",
+          "romanization": "guk",
+          "audioText": "국",
+          "bn": "স্যুপ",
+          "en": "soup",
+          "distractorsBn": [
+            "হ্যাঁ",
+            "নিরাপত্তা",
+            "সময়"
+          ]
+        },
+        {
+          "id": "sy-read-r16",
+          "text": "차",
+          "romanization": "cha",
+          "audioText": "차",
+          "bn": "চা / গাড়ি",
+          "en": "tea / car",
+          "distractorsBn": [
+            "কলম",
+            "বাড়ি",
+            "প্রবেশপথ"
+          ]
+        },
+        {
+          "id": "sy-read-r17",
+          "text": "책",
+          "romanization": "chaek",
+          "audioText": "책",
+          "bn": "বই",
+          "en": "book",
+          "distractorsBn": [
+            "পাহাড়",
+            "টুপি",
+            "যাওয়া (ক্রিয়া মূল)"
+          ]
+        },
+        {
+          "id": "sy-read-r18",
+          "text": "펜",
+          "romanization": "pen",
+          "audioText": "펜",
+          "bn": "কলম",
+          "en": "pen",
+          "distractorsBn": [
+            "পাহাড়",
+            "বাস",
+            "আছে"
+          ]
+        },
+        {
+          "id": "sy-read-r19",
+          "text": "공",
+          "romanization": "gong",
+          "audioText": "공",
+          "bn": "বল",
+          "en": "ball",
+          "distractorsBn": [
+            "সময়",
+            "মানুষ",
+            "তিন"
+          ]
+        },
+        {
+          "id": "sy-read-r20",
+          "text": "산",
+          "romanization": "san",
+          "audioText": "산",
+          "bn": "পাহাড়",
+          "en": "mountain",
+          "distractorsBn": [
+            "প্রবেশপথ",
+            "বই",
+            "হাত"
+          ]
+        },
+        {
+          "id": "sy-read-r21",
+          "text": "강",
+          "romanization": "gang",
+          "audioText": "강",
+          "bn": "নদী",
+          "en": "river",
+          "distractorsBn": [
+            "কাপড়",
+            "না",
+            "রেস্তোরাঁ"
+          ]
+        },
+        {
+          "id": "sy-read-r22",
+          "text": "바다",
+          "romanization": "ba-da",
+          "audioText": "바다",
+          "bn": "সমুদ্র",
+          "en": "sea",
+          "distractorsBn": [
+            "আছে",
+            "ছবি",
+            "প্রবেশপথ"
+          ]
+        },
+        {
+          "id": "sy-read-r23",
+          "text": "하늘",
+          "romanization": "ha-neul",
+          "audioText": "하늘",
+          "bn": "আকাশ",
+          "en": "sky",
+          "distractorsBn": [
+            "মুখ",
+            "ব্যাংক",
+            "পানি"
+          ]
+        },
+        {
+          "id": "sy-read-r24",
+          "text": "사람",
+          "romanization": "sa-ram",
+          "audioText": "사람",
+          "bn": "মানুষ",
+          "en": "person",
+          "distractorsBn": [
+            "পাঁচ",
+            "বেরোনোর পথ",
+            "পাহাড়"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sy-read-quiz",
+      "type": "quiz",
+      "drawCount": 10,
+      "questions": [
+        {
+          "id": "sy-read-rq-wm-01",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 가 — অর্থ কী?",
+          "promptKo": "가",
+          "promptEn": "Read this word: 가 — meaning?",
+          "options": [
+            "যাওয়া (ক্রিয়া মূল)",
+            "সঙ্গীত",
+            "আকাশ",
+            "টুপি"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "가 (ga) = যাওয়া (ক্রিয়া মূল) / go (verb stem)। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-01",
+          "kind": "multiple-choice",
+          "promptBn": "‘যাওয়া (ক্রিয়া মূল)’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘go (verb stem)’?",
+          "options": [
+            "어제",
+            "회사",
+            "가",
+            "집"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "যাওয়া (ক্রিয়া মূল) = 가। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-01",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "가",
+          "options": [
+            "안녕하세요",
+            "친구",
+            "가",
+            "이름"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 가 = যাওয়া (ক্রিয়া মূল)।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-02",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 나 — অর্থ কী?",
+          "promptKo": "나",
+          "promptEn": "Read this word: 나 — meaning?",
+          "options": [
+            "আমি",
+            "দুপুরের খাবার",
+            "ফল",
+            "মাংস"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "나 (na) = আমি / I/me। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-02",
+          "kind": "multiple-choice",
+          "promptBn": "‘আমি’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘I/me’?",
+          "options": [
+            "사진",
+            "언제",
+            "음악",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "আমি = 나। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-03",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 다 — অর্থ কী?",
+          "promptKo": "다",
+          "promptEn": "Read this word: 다 — meaning?",
+          "options": [
+            "সব / শেষ",
+            "ছবি",
+            "কখন",
+            "বন্ধু"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "다 (da) = সব / শেষ / all / finish। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-03",
+          "kind": "multiple-choice",
+          "promptBn": "‘সব / শেষ’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘all / finish’?",
+          "options": [
+            "우유",
+            "건강",
+            "음악",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "সব / শেষ = 다। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-03",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "다",
+          "options": [
+            "저녁",
+            "화장실",
+            "책",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 다 = সব / শেষ।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-04",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 물 — অর্থ কী?",
+          "promptKo": "물",
+          "promptEn": "Read this word: 물 — meaning?",
+          "options": [
+            "পানি",
+            "হাসপাতাল",
+            "নিরাপত্তা",
+            "কোরিয়া"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "물 (mul) = পানি / water। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-04",
+          "kind": "multiple-choice",
+          "promptBn": "‘পানি’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘water’?",
+          "options": [
+            "점심",
+            "어디",
+            "둘",
+            "물"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "পানি = 물। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-05",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 불 — অর্থ কী?",
+          "promptKo": "불",
+          "promptEn": "Read this word: 불 — meaning?",
+          "options": [
+            "আগুন",
+            "কাল (আগামী)",
+            "কাপড়",
+            "গতাল (গতের)"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "불 (bul) = আগুন / fire। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-05",
+          "kind": "multiple-choice",
+          "promptBn": "‘আগুন’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘fire’?",
+          "options": [
+            "이름",
+            "지하철",
+            "누구",
+            "불"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "আগুন = 불। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-05",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "불",
+          "options": [
+            "불",
+            "밥",
+            "건강",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 불 = আগুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-06",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 손 — অর্থ কী?",
+          "promptKo": "손",
+          "promptEn": "Read this word: 손 — meaning?",
+          "options": [
+            "হাত",
+            "রেস্তোরাঁ",
+            "সবজি",
+            "ব্যাংক"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "손 (son) = হাত / hand। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-06",
+          "kind": "multiple-choice",
+          "promptBn": "‘হাত’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘hand’?",
+          "options": [
+            "손",
+            "공장",
+            "식당",
+            "언제"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "হাত = 손। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-07",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 발 — অর্থ কী?",
+          "promptKo": "발",
+          "promptEn": "Read this word: 발 — meaning?",
+          "options": [
+            "কী",
+            "হাসপাতাল",
+            "দুই",
+            "পা"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "발 (bal) = পা / foot। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-07",
+          "kind": "multiple-choice",
+          "promptBn": "‘পা’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘foot’?",
+          "options": [
+            "다섯",
+            "발",
+            "네",
+            "출구"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "পা = 발। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-07",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "발",
+          "options": [
+            "발",
+            "하나",
+            "차",
+            "돈"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 발 = পা।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-08",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 눈 — অর্থ কী?",
+          "promptKo": "눈",
+          "promptEn": "Read this word: 눈 — meaning?",
+          "options": [
+            "পা",
+            "বিপদ",
+            "মেট্রো",
+            "চোখ / তুষার"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "눈 (nun) = চোখ / তুষার / eye / snow। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-08",
+          "kind": "multiple-choice",
+          "promptBn": "‘চোখ / তুষার’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘eye / snow’?",
+          "options": [
+            "하늘",
+            "펜",
+            "한국인",
+            "눈"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "চোখ / তুষার = 눈। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-09",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 입 — অর্থ কী?",
+          "promptKo": "입",
+          "promptEn": "Read this word: 입 — meaning?",
+          "options": [
+            "জুতো",
+            "বাস",
+            "হাত",
+            "মুখ"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "입 (ip) = মুখ / mouth। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-09",
+          "kind": "multiple-choice",
+          "promptBn": "‘মুখ’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘mouth’?",
+          "options": [
+            "오늘",
+            "하늘",
+            "입",
+            "공장"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "মুখ = 입। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-09",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "입",
+          "options": [
+            "옷",
+            "입",
+            "다섯",
+            "신발"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 입 = মুখ।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-10",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 코 — অর্থ কী?",
+          "promptKo": "코",
+          "promptEn": "Read this word: 코 — meaning?",
+          "options": [
+            "তিন",
+            "নাক",
+            "কী",
+            "গতাল (গতের)"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "코 (ko) = নাক / nose। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-10",
+          "kind": "multiple-choice",
+          "promptBn": "‘নাক’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘nose’?",
+          "options": [
+            "아빠",
+            "아니요",
+            "언제",
+            "코"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "নাক = 코। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-11",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 집 — অর্থ কী?",
+          "promptKo": "집",
+          "promptEn": "Read this word: 집 — meaning?",
+          "options": [
+            "বেরোনোর পথ",
+            "আগুন",
+            "বাড়ি",
+            "কাজ / দিন"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "집 (jip) = বাড়ি / house। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-11",
+          "kind": "multiple-choice",
+          "promptBn": "‘বাড়ি’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘house’?",
+          "options": [
+            "일",
+            "공장",
+            "집",
+            "화장실"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "বাড়ি = 집। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "집",
+          "options": [
+            "코",
+            "집",
+            "누구",
+            "시장"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 집 = বাড়ি।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-12",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 방 — অর্থ কী?",
+          "promptKo": "방",
+          "promptEn": "Read this word: 방 — meaning?",
+          "options": [
+            "চা / গাড়ি",
+            "ছবি",
+            "ঘর",
+            "কেন"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "방 (bang) = ঘর / room। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-12",
+          "kind": "multiple-choice",
+          "promptBn": "‘ঘর’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘room’?",
+          "options": [
+            "방",
+            "옷",
+            "가",
+            "커피"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ঘর = 방। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-13",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 문 — অর্থ কী?",
+          "promptKo": "문",
+          "promptEn": "Read this word: 문 — meaning?",
+          "options": [
+            "বল",
+            "টুপি",
+            "ট্যাক্সি",
+            "দরজা"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "문 (mun) = দরজা / door। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-13",
+          "kind": "multiple-choice",
+          "promptBn": "‘দরজা’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘door’?",
+          "options": [
+            "우유",
+            "문",
+            "옷",
+            "넷"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "দরজা = 문। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-13",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "문",
+          "options": [
+            "문",
+            "택시",
+            "가족",
+            "많아요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 문 = দরজা।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-14",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 밥 — অর্থ কী?",
+          "promptKo": "밥",
+          "promptEn": "Read this word: 밥 — meaning?",
+          "options": [
+            "ভাত / খাবার",
+            "সব / শেষ",
+            "কাজ / দিন",
+            "পা"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "밥 (bap) = ভাত / খাবার / rice / meal। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-14",
+          "kind": "multiple-choice",
+          "promptBn": "‘ভাত / খাবার’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘rice / meal’?",
+          "options": [
+            "다섯",
+            "네",
+            "국",
+            "밥"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "ভাত / খাবার = 밥। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-15",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 국 — অর্থ কী?",
+          "promptKo": "국",
+          "promptEn": "Read this word: 국 — meaning?",
+          "options": [
+            "নাক",
+            "কীভাবে",
+            "স্যুপ",
+            "দুধ"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "국 (guk) = স্যুপ / soup। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-15",
+          "kind": "multiple-choice",
+          "promptBn": "‘স্যুপ’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘soup’?",
+          "options": [
+            "바다",
+            "버스",
+            "안전",
+            "국"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "স্যুপ = 국। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-15",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "국",
+          "options": [
+            "국",
+            "하나",
+            "많아요",
+            "식당"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 국 = স্যুপ।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-16",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 차 — অর্থ কী?",
+          "promptKo": "차",
+          "promptEn": "Read this word: 차 — meaning?",
+          "options": [
+            "চা / গাড়ি",
+            "সিনেমা",
+            "স্যুপ",
+            "দুঃখিত"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "차 (cha) = চা / গাড়ি / tea / car। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-16",
+          "kind": "multiple-choice",
+          "promptBn": "‘চা / গাড়ি’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘tea / car’?",
+          "options": [
+            "죄송합니다",
+            "가방",
+            "강",
+            "차"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "চা / গাড়ি = 차। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-17",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 책 — অর্থ কী?",
+          "promptKo": "책",
+          "promptEn": "Read this word: 책 — meaning?",
+          "options": [
+            "বই",
+            "নমস্কার / হ্যালো",
+            "মা",
+            "কখন"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "책 (chaek) = বই / book। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-17",
+          "kind": "multiple-choice",
+          "promptBn": "‘বই’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘book’?",
+          "options": [
+            "다",
+            "책",
+            "한국어",
+            "눈"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "বই = 책। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-17",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "책",
+          "options": [
+            "공",
+            "가",
+            "책",
+            "방"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 책 = বই।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-18",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 펜 — অর্থ কী?",
+          "promptKo": "펜",
+          "promptEn": "Read this word: 펜 — meaning?",
+          "options": [
+            "কলম",
+            "প্রবেশপথ",
+            "আজ",
+            "কোরিয়ান ভাষা"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "펜 (pen) = কলম / pen। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-18",
+          "kind": "multiple-choice",
+          "promptBn": "‘কলম’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘pen’?",
+          "options": [
+            "펜",
+            "회사",
+            "돈",
+            "야채"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "কলম = 펜। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-19",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 공 — অর্থ কী?",
+          "promptKo": "공",
+          "promptEn": "Read this word: 공 — meaning?",
+          "options": [
+            "মাংস",
+            "বল",
+            "স্বাস্থ্য",
+            "ছবি"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "공 (gong) = বল / ball। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-19",
+          "kind": "multiple-choice",
+          "promptBn": "‘বল’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘ball’?",
+          "options": [
+            "발",
+            "공",
+            "언니",
+            "눈"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "বল = 공। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-19",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "공",
+          "options": [
+            "회사",
+            "영화",
+            "한국",
+            "공"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 공 = বল।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-20",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 산 — অর্থ কী?",
+          "promptKo": "산",
+          "promptEn": "Read this word: 산 — meaning?",
+          "options": [
+            "বেরোনোর পথ",
+            "মা",
+            "কীভাবে",
+            "পাহাড়"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "산 (san) = পাহাড় / mountain। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-20",
+          "kind": "multiple-choice",
+          "promptBn": "‘পাহাড়’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘mountain’?",
+          "options": [
+            "어디",
+            "산",
+            "어제",
+            "식당"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "পাহাড় = 산। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-21",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 강 — অর্থ কী?",
+          "promptKo": "강",
+          "promptEn": "Read this word: 강 — meaning?",
+          "options": [
+            "কী",
+            "সকাল",
+            "ফোন",
+            "নদী"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "강 (gang) = নদী / river। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-21",
+          "kind": "multiple-choice",
+          "promptBn": "‘নদী’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘river’?",
+          "options": [
+            "강",
+            "일",
+            "사람",
+            "옷"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "নদী = 강। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-21",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "강",
+          "options": [
+            "넷",
+            "강",
+            "좋아요",
+            "사진"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 강 = নদী।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-22",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 바다 — অর্থ কী?",
+          "promptKo": "바다",
+          "promptEn": "Read this word: 바다 — meaning?",
+          "options": [
+            "কখন",
+            "কোথায়",
+            "সমুদ্র",
+            "নাক"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "바다 (ba-da) = সমুদ্র / sea। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-22",
+          "kind": "multiple-choice",
+          "promptBn": "‘সমুদ্র’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘sea’?",
+          "options": [
+            "일",
+            "학교",
+            "밥",
+            "바다"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "সমুদ্র = 바다। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-23",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 하늘 — অর্থ কী?",
+          "promptKo": "하늘",
+          "promptEn": "Read this word: 하늘 — meaning?",
+          "options": [
+            "আকাশ",
+            "ঘর",
+            "অনেক",
+            "মেট্রো"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "하늘 (ha-neul) = আকাশ / sky। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-23",
+          "kind": "multiple-choice",
+          "promptBn": "‘আকাশ’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘sky’?",
+          "options": [
+            "가",
+            "하늘",
+            "옷",
+            "강"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "আকাশ = 하늘। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-li-23",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "하늘",
+          "options": [
+            "국",
+            "하늘",
+            "입구",
+            "네"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 하늘 = আকাশ।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-wm-24",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 사람 — অর্থ কী?",
+          "promptKo": "사람",
+          "promptEn": "Read this word: 사람 — meaning?",
+          "options": [
+            "মানুষ",
+            "কোরিয়ান ভাষা",
+            "ব্যাগ",
+            "টয়লেট"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "사람 (sa-ram) = মানুষ / person। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-mw-24",
+          "kind": "multiple-choice",
+          "promptBn": "‘মানুষ’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘person’?",
+          "options": [
+            "어디",
+            "이름",
+            "시장",
+            "사람"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "মানুষ = 사람। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-match-1",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "가",
+              "right": "যাওয়া (ক্রিয়া মূল)"
+            },
+            {
+              "left": "나",
+              "right": "আমি"
+            },
+            {
+              "left": "다",
+              "right": "সব / শেষ"
+            },
+            {
+              "left": "물",
+              "right": "পানি"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-match-2",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "불",
+              "right": "আগুন"
+            },
+            {
+              "left": "손",
+              "right": "হাত"
+            },
+            {
+              "left": "발",
+              "right": "পা"
+            },
+            {
+              "left": "눈",
+              "right": "চোখ / তুষার"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-match-3",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "입",
+              "right": "মুখ"
+            },
+            {
+              "left": "코",
+              "right": "নাক"
+            },
+            {
+              "left": "집",
+              "right": "বাড়ি"
+            },
+            {
+              "left": "방",
+              "right": "ঘর"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-match-4",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "문",
+              "right": "দরজা"
+            },
+            {
+              "left": "밥",
+              "right": "ভাত / খাবার"
+            },
+            {
+              "left": "국",
+              "right": "স্যুপ"
+            },
+            {
+              "left": "차",
+              "right": "চা / গাড়ি"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-match-5",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "책",
+              "right": "বই"
+            },
+            {
+              "left": "펜",
+              "right": "কলম"
+            },
+            {
+              "left": "공",
+              "right": "বল"
+            },
+            {
+              "left": "산",
+              "right": "পাহাড়"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sy-read-rq-match-6",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "강",
+              "right": "নদী"
+            },
+            {
+              "left": "바다",
+              "right": "সমুদ্র"
+            },
+            {
+              "left": "하늘",
+              "right": "আকাশ"
+            },
+            {
+              "left": "사람",
+              "right": "মানুষ"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
         }
       ]
     },

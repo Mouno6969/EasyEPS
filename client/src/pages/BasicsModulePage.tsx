@@ -131,6 +131,7 @@ export default function BasicsModulePage() {
         | "speakItemsDone"
         | "writeItemsDone"
         | "builderItemsDone"
+        | "readItemsDone"
         | "quizScore"
         | "quizTotal"
         | "lastStepId"
@@ -145,6 +146,7 @@ export default function BasicsModulePage() {
       speakItemsDone: patch.speakItemsDone ?? progress.speakItemsDone,
       writeItemsDone: patch.writeItemsDone ?? progress.writeItemsDone,
       builderItemsDone: patch.builderItemsDone ?? progress.builderItemsDone,
+      readItemsDone: patch.readItemsDone ?? progress.readItemsDone ?? [],
       quizScore: patch.quizScore ?? progress.quizScore,
       quizTotal: patch.quizTotal ?? progress.quizTotal,
       lastStepId: patch.lastStepId ?? progress.lastStepId,
@@ -324,6 +326,7 @@ function stepLabel(step: BasicsStep, locale: "bn" | "ko" | "en"): string {
     speak: { bn: "বলুন", ko: "말하기", en: "Speak" },
     write: { bn: "লিখুন", ko: "쓰기", en: "Write" },
     builder: { bn: "গঠন", ko: "조합", en: "Builder" },
+    read: { bn: "পড়ুন", ko: "읽기", en: "Read" },
     quiz: { bn: "কুইজ", ko: "퀴즈", en: "Quiz" },
   };
   return map[step.type][locale];
@@ -357,6 +360,7 @@ function StepRenderer({
         | "speakItemsDone"
         | "writeItemsDone"
         | "builderItemsDone"
+        | "readItemsDone"
         | "quizScore"
         | "quizTotal"
         | "lastStepId"
@@ -590,6 +594,22 @@ function StepRenderer({
           Mark step done
         </Button>
       </section>
+    );
+  }
+
+  if (step.type === "read") {
+    return (
+      <ReadWordPractice
+        stepId={step.id}
+        items={step.items}
+        locale={locale}
+        doneIds={progress.readItemsDone ?? []}
+        onItemCorrect={id => {
+          const readItemsDone = uniqStrings([...(progress.readItemsDone ?? []), id]);
+          persist({ readItemsDone, lastStepId: step.id });
+        }}
+        onMarkStep={() => markStepDone(step.id)}
+      />
     );
   }
 
@@ -976,6 +996,168 @@ function BasicsQuizRunner({
       </div>
       {/* silence unused */}
       <span className="hidden">{stepId}</span>
+    </section>
+  );
+}
+
+/** Whole-word reading: see Hangul → choose meaning (forces decoding words, not jamo meta-knowledge). */
+function ReadWordPractice({
+  stepId,
+  items,
+  locale,
+  doneIds,
+  onItemCorrect,
+  onMarkStep,
+}: {
+  stepId: string;
+  items: Array<{
+    id: string;
+    text: string;
+    romanization?: string;
+    audioText?: string;
+    bn: string;
+    en: string;
+    distractorsBn: string[];
+  }>;
+  locale: "bn" | "ko" | "en";
+  doneIds: string[];
+  onItemCorrect: (id: string) => void;
+  onMarkStep: () => void;
+}) {
+  const [index, setIndex] = useState(0);
+  const [picked, setPicked] = useState<string | null>(null);
+  const [feedback, setFeedback] = useState<"ok" | "bad" | null>(null);
+  const item = items[Math.min(index, items.length - 1)]!;
+
+  const choices = useMemo(() => {
+    const pool = [item.bn, ...item.distractorsBn].filter(Boolean);
+    const unique = [...new Set(pool)];
+    // stable-ish shuffle per item id
+    let seed = 0;
+    for (let i = 0; i < item.id.length; i += 1) seed = (seed + item.id.charCodeAt(i) * (i + 1)) % 997;
+    const arr = [...unique];
+    for (let i = arr.length - 1; i > 0; i -= 1) {
+      seed = (seed * 1103515245 + 12345) & 0x7fffffff;
+      const j = seed % (i + 1);
+      const t = arr[i]!;
+      arr[i] = arr[j]!;
+      arr[j] = t;
+    }
+    return arr.slice(0, 4);
+  }, [item.id, item.bn, item.distractorsBn]);
+
+  const goNext = () => {
+    setPicked(null);
+    setFeedback(null);
+    setIndex(value => Math.min(items.length - 1, value + 1));
+  };
+
+  const allDone = items.every(it => doneIds.includes(it.id));
+
+  return (
+    <section className="paper-card overflow-hidden">
+      <div className="border-b border-[var(--navy)]/8 p-6 md:p-8">
+        <p className="eyebrow">Reading lab · পুরো শব্দ পড়ুন</p>
+        <h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">
+          {locale === "en" ? "Read the whole word" : "পুরো শব্দ পড়ে অর্থ বলুন"}
+        </h2>
+        <p className="mt-3 max-w-2xl text-sm leading-7 text-[var(--navy)]/65">
+          {locale === "en"
+            ? "Do not spell letter-by-letter only — read the block as one word, then pick the meaning."
+            : "শুধু অক্ষর আলাদা করে নয় — পুরো ব্লক এক শব্দ হিসেবে পড়ুন, তারপর অর্থ বেছে নিন।"}
+        </p>
+        <p className="mt-2 text-xs font-semibold text-[var(--navy)]/45">
+          {index + 1}/{items.length} · সম্পন্ন {doneIds.filter(id => items.some(it => it.id === id)).length}
+        </p>
+      </div>
+      <div className="p-6 md:p-10">
+        <div className="mx-auto max-w-xl text-center">
+          <p className="font-serif text-6xl font-bold tracking-tight text-[var(--navy)] md:text-7xl">{item.text}</p>
+          <button
+            type="button"
+            onClick={() => void speakKorean(item.text, { audioText: item.audioText || item.text, rate: 0.75 })}
+            className="mt-5 inline-flex items-center gap-2 rounded-full bg-[var(--gold)]/15 px-4 py-2 text-sm font-bold text-[var(--gold-dark)]"
+          >
+            <Volume2 className="size-4" /> শুনুন (পরে)
+          </button>
+          <p className="mt-6 text-sm font-bold text-[var(--navy)]/55">
+            {locale === "en" ? "What does this word mean?" : "এই শব্দের অর্থ কী?"}
+          </p>
+          <div className="mt-4 grid gap-2 sm:grid-cols-2">
+            {choices.map(choice => {
+              const selected = picked === choice;
+              const isCorrect = choice === item.bn;
+              const reveal = feedback != null;
+              return (
+                <button
+                  key={choice}
+                  type="button"
+                  disabled={feedback === "ok"}
+                  onClick={() => {
+                    setPicked(choice);
+                    if (choice === item.bn) {
+                      setFeedback("ok");
+                      onItemCorrect(item.id);
+                    } else {
+                      setFeedback("bad");
+                    }
+                  }}
+                  className={`answer-option min-h-14 ${selected ? "answer-selected" : ""} ${
+                    reveal && isCorrect ? "answer-correct" : ""
+                  } ${reveal && selected && !isCorrect ? "answer-wrong" : ""}`}
+                >
+                  <span>{choice}</span>
+                </button>
+              );
+            })}
+          </div>
+          {feedback === "ok" && (
+            <p className="mt-5 rounded-2xl bg-emerald-50 px-4 py-3 text-sm font-semibold text-emerald-800">
+              সঠিক — {item.text} = {item.bn}
+              {item.en ? ` (${item.en})` : ""}
+            </p>
+          )}
+          {feedback === "bad" && (
+            <p className="mt-5 rounded-2xl bg-red-50 px-4 py-3 text-sm font-semibold text-red-800">
+              আবার চেষ্টা করুন — পুরো শব্দটি আবার পড়ুন।
+            </p>
+          )}
+          <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
+            <Button
+              type="button"
+              variant="outline"
+              disabled={index === 0}
+              onClick={() => {
+                setIndex(value => Math.max(0, value - 1));
+                setPicked(null);
+                setFeedback(null);
+              }}
+              className="rounded-full"
+            >
+              <ChevronLeft className="size-4" /> আগের
+            </Button>
+            <Button
+              type="button"
+              disabled={feedback !== "ok" && !doneIds.includes(item.id)}
+              onClick={goNext}
+              className="rounded-full bg-[var(--navy)] text-white"
+            >
+              পরের শব্দ <ChevronRight className="size-4" />
+            </Button>
+          </div>
+        </div>
+      </div>
+      <div className="border-t border-[var(--navy)]/8 bg-[var(--cream)] p-6">
+        <Button
+          type="button"
+          disabled={!allDone}
+          onClick={onMarkStep}
+          className={`rounded-full px-6 ${allDone ? "bg-[var(--navy)] text-white" : "bg-[var(--navy)]/20 text-[var(--navy)]/40"}`}
+        >
+          {allDone ? "পড়া ধাপ সম্পন্ন" : "সব শব্দ পড়ে অর্থ মিলিয়ে সম্পন্ন করুন"}
+        </Button>
+        <span className="hidden">{stepId}</span>
+      </div>
     </section>
   );
 }

@@ -181,6 +181,7 @@ export function setLocalBasicsCheckpointPass(
     speakItemsDone: [],
     writeItemsDone: [],
     builderItemsDone: [],
+    readItemsDone: [],
     updatedAt: now,
   };
   const nextBasics: BasicsProgress = {

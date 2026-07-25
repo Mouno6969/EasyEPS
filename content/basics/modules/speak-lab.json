@@ -6,7 +6,7 @@
     "ko": "발음 연습",
     "en": "Speak Lab"
   },
-  "estimatedMinutes": 40,
+  "estimatedMinutes": 50,
   "requirements": {
     "requiredStepIds": [
       "sp-lab",
@@ -15,12 +15,15 @@
       "sp-tensify",
       "sp-tensify-speak",
       "sp-quiz-1",
-      "sp-quiz-2"
+      "sp-quiz-2",
+      "sp-read",
+      "sp-read-quiz"
     ],
     "minSpeakItems": 28,
     "minWriteItems": 0,
     "minBuilderItems": 0,
-    "passRatio": 0.7
+    "passRatio": 0.7,
+    "minReadItems": 8
   },
   "steps": [
     {
@@ -418,6 +421,2048 @@
         }
       ],
       "fallbackQuizIds": []
+    },
+    {
+      "id": "sp-read",
+      "type": "read",
+      "title": {
+        "bn": "পুরো শব্দ পড়া",
+        "ko": "단어 읽기",
+        "en": "Read whole words"
+      },
+      "items": [
+        {
+          "id": "sp-read-r01",
+          "text": "이름",
+          "romanization": "i-reum",
+          "audioText": "이름",
+          "bn": "নাম",
+          "en": "name",
+          "distractorsBn": [
+            "ব্যায়াম",
+            "কাপড়",
+            "চোখ / তুষার"
+          ]
+        },
+        {
+          "id": "sp-read-r02",
+          "text": "학교",
+          "romanization": "hak-kyo",
+          "audioText": "학교",
+          "bn": "স্কুল",
+          "en": "school",
+          "distractorsBn": [
+            "ধন্যবাদ",
+            "কাজ / দিন",
+            "বেরোনোর পথ"
+          ]
+        },
+        {
+          "id": "sp-read-r03",
+          "text": "회사",
+          "romanization": "hoe-sa",
+          "audioText": "회사",
+          "bn": "কোম্পানি",
+          "en": "company",
+          "distractorsBn": [
+            "দরজা",
+            "ফল",
+            "নদী"
+          ]
+        },
+        {
+          "id": "sp-read-r04",
+          "text": "공장",
+          "romanization": "gong-jang",
+          "audioText": "공장",
+          "bn": "কারখানা",
+          "en": "factory",
+          "distractorsBn": [
+            "সিনেমা",
+            "কীভাবে",
+            "পানি"
+          ]
+        },
+        {
+          "id": "sp-read-r05",
+          "text": "병원",
+          "romanization": "byeong-won",
+          "audioText": "병원",
+          "bn": "হাসপাতাল",
+          "en": "hospital",
+          "distractorsBn": [
+            "চা / গাড়ি",
+            "কে",
+            "দুঃখিত"
+          ]
+        },
+        {
+          "id": "sp-read-r06",
+          "text": "시장",
+          "romanization": "si-jang",
+          "audioText": "시장",
+          "bn": "বাজার",
+          "en": "market",
+          "distractorsBn": [
+            "দাম",
+            "মাংস",
+            "ফল"
+          ]
+        },
+        {
+          "id": "sp-read-r07",
+          "text": "은행",
+          "romanization": "eun-haeng",
+          "audioText": "은행",
+          "bn": "ব্যাংক",
+          "en": "bank",
+          "distractorsBn": [
+            "ফোন",
+            "স্টেশন",
+            "কে"
+          ]
+        },
+        {
+          "id": "sp-read-r08",
+          "text": "역",
+          "romanization": "yeok",
+          "audioText": "역",
+          "bn": "স্টেশন",
+          "en": "station",
+          "distractorsBn": [
+            "কোথায়",
+            "মাংস",
+            "ব্যাংক"
+          ]
+        },
+        {
+          "id": "sp-read-r09",
+          "text": "버스",
+          "romanization": "beo-seu",
+          "audioText": "버스",
+          "bn": "বাস",
+          "en": "bus",
+          "distractorsBn": [
+            "বই",
+            "কীভাবে",
+            "হ্যাঁ"
+          ]
+        },
+        {
+          "id": "sp-read-r10",
+          "text": "지하철",
+          "romanization": "ji-ha-cheol",
+          "audioText": "지하철",
+          "bn": "মেট্রো",
+          "en": "subway",
+          "distractorsBn": [
+            "টয়লেট",
+            "নদী",
+            "আজ"
+          ]
+        },
+        {
+          "id": "sp-read-r11",
+          "text": "택시",
+          "romanization": "taek-si",
+          "audioText": "택시",
+          "bn": "ট্যাক্সি",
+          "en": "taxi",
+          "distractorsBn": [
+            "কাজ / দিন",
+            "কখন",
+            "ছোট ভাই/বোন"
+          ]
+        },
+        {
+          "id": "sp-read-r12",
+          "text": "오늘",
+          "romanization": "o-neul",
+          "audioText": "오늘",
+          "bn": "আজ",
+          "en": "today",
+          "distractorsBn": [
+            "স্টেশন",
+            "চার",
+            "ফোন"
+          ]
+        },
+        {
+          "id": "sp-read-r13",
+          "text": "내일",
+          "romanization": "nae-il",
+          "audioText": "내일",
+          "bn": "কাল (আগামী)",
+          "en": "tomorrow",
+          "distractorsBn": [
+            "কারখানা",
+            "বাজার",
+            "ধন্যবাদ"
+          ]
+        },
+        {
+          "id": "sp-read-r14",
+          "text": "어제",
+          "romanization": "eo-je",
+          "audioText": "어제",
+          "bn": "গতাল (গতের)",
+          "en": "yesterday",
+          "distractorsBn": [
+            "দরজা",
+            "মাংস",
+            "আগুন"
+          ]
+        },
+        {
+          "id": "sp-read-r15",
+          "text": "시간",
+          "romanization": "si-gan",
+          "audioText": "시간",
+          "bn": "সময়",
+          "en": "time",
+          "distractorsBn": [
+            "কখন",
+            "সমুদ্র",
+            "ব্যাগ"
+          ]
+        },
+        {
+          "id": "sp-read-r16",
+          "text": "아침",
+          "romanization": "a-chim",
+          "audioText": "아침",
+          "bn": "সকাল",
+          "en": "morning",
+          "distractorsBn": [
+            "হাসপাতাল",
+            "মানুষ",
+            "পানি"
+          ]
+        },
+        {
+          "id": "sp-read-r17",
+          "text": "점심",
+          "romanization": "jeom-sim",
+          "audioText": "점심",
+          "bn": "দুপুরের খাবার",
+          "en": "lunch",
+          "distractorsBn": [
+            "রেস্তোরাঁ",
+            "সকাল",
+            "ছবি"
+          ]
+        },
+        {
+          "id": "sp-read-r18",
+          "text": "저녁",
+          "romanization": "jeo-nyeok",
+          "audioText": "저녁",
+          "bn": "সন্ধ্যা / রাতের খাবার",
+          "en": "evening / dinner",
+          "distractorsBn": [
+            "কলম",
+            "ট্যাক্সি",
+            "পা"
+          ]
+        },
+        {
+          "id": "sp-read-r19",
+          "text": "친구",
+          "romanization": "chin-gu",
+          "audioText": "친구",
+          "bn": "বন্ধু",
+          "en": "friend",
+          "distractorsBn": [
+            "ছাত্র",
+            "ছবি",
+            "দুই"
+          ]
+        },
+        {
+          "id": "sp-read-r20",
+          "text": "가족",
+          "romanization": "ga-jok",
+          "audioText": "가족",
+          "bn": "পরিবার",
+          "en": "family",
+          "distractorsBn": [
+            "কে",
+            "গতাল (গতের)",
+            "সমুদ্র"
+          ]
+        },
+        {
+          "id": "sp-read-r21",
+          "text": "엄마",
+          "romanization": "eom-ma",
+          "audioText": "엄마",
+          "bn": "মা",
+          "en": "mom",
+          "distractorsBn": [
+            "হাত",
+            "সবজি",
+            "নমস্কার / হ্যালো"
+          ]
+        },
+        {
+          "id": "sp-read-r22",
+          "text": "아빠",
+          "romanization": "a-ppa",
+          "audioText": "아빠",
+          "bn": "বাবা",
+          "en": "dad",
+          "distractorsBn": [
+            "আগুন",
+            "দুধ",
+            "টাকা"
+          ]
+        },
+        {
+          "id": "sp-read-r23",
+          "text": "형",
+          "romanization": "hyeong",
+          "audioText": "형",
+          "bn": "দাদা (ছেলের)",
+          "en": "older brother (male)",
+          "distractorsBn": [
+            "কারখানা",
+            "আগুন",
+            "দাম"
+          ]
+        },
+        {
+          "id": "sp-read-r24",
+          "text": "누나",
+          "romanization": "nu-na",
+          "audioText": "누나",
+          "bn": "দিদি (ছেলের)",
+          "en": "older sister (male)",
+          "distractorsBn": [
+            "কীভাবে",
+            "কোথায়",
+            "নাক"
+          ]
+        },
+        {
+          "id": "sp-read-r25",
+          "text": "언니",
+          "romanization": "eon-ni",
+          "audioText": "언니",
+          "bn": "দিদি (মেয়ের)",
+          "en": "older sister (female)",
+          "distractorsBn": [
+            "ধন্যবাদ",
+            "কাজ / দিন",
+            "টাকা"
+          ]
+        },
+        {
+          "id": "sp-read-r26",
+          "text": "동생",
+          "romanization": "dong-saeng",
+          "audioText": "동생",
+          "bn": "ছোট ভাই/বোন",
+          "en": "younger sibling",
+          "distractorsBn": [
+            "টুপি",
+            "ব্যায়াম",
+            "ফোন"
+          ]
+        },
+        {
+          "id": "sp-read-r27",
+          "text": "선생",
+          "romanization": "seon-saeng",
+          "audioText": "선생",
+          "bn": "শিক্ষক",
+          "en": "teacher",
+          "distractorsBn": [
+            "স্যুপ",
+            "দরজা",
+            "অনেক"
+          ]
+        },
+        {
+          "id": "sp-read-r28",
+          "text": "학생",
+          "romanization": "hak-saeng",
+          "audioText": "학생",
+          "bn": "ছাত্র",
+          "en": "student",
+          "distractorsBn": [
+            "কাপড়",
+            "পা",
+            "সবজি"
+          ]
+        },
+        {
+          "id": "sp-read-r29",
+          "text": "일",
+          "romanization": "il",
+          "audioText": "일",
+          "bn": "কাজ / দিন",
+          "en": "work / day",
+          "distractorsBn": [
+            "চার",
+            "সব / শেষ",
+            "স্যুপ"
+          ]
+        },
+        {
+          "id": "sp-read-r30",
+          "text": "돈",
+          "romanization": "don",
+          "audioText": "돈",
+          "bn": "টাকা",
+          "en": "money",
+          "distractorsBn": [
+            "তিন",
+            "জুতো",
+            "নাম"
+          ]
+        },
+        {
+          "id": "sp-read-r31",
+          "text": "값",
+          "romanization": "gap",
+          "audioText": "값",
+          "bn": "দাম",
+          "en": "price",
+          "distractorsBn": [
+            "মেট্রো",
+            "হ্যাঁ",
+            "রেস্তোরাঁ"
+          ]
+        },
+        {
+          "id": "sp-read-r32",
+          "text": "옷",
+          "romanization": "ot",
+          "audioText": "옷",
+          "bn": "কাপড়",
+          "en": "clothes",
+          "distractorsBn": [
+            "ব্যাংক",
+            "ফোন",
+            "তিন"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-read-quiz",
+      "type": "quiz",
+      "drawCount": 10,
+      "questions": [
+        {
+          "id": "sp-read-rq-wm-01",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 이름 — অর্থ কী?",
+          "promptKo": "이름",
+          "promptEn": "Read this word: 이름 — meaning?",
+          "options": [
+            "নাম",
+            "স্কুল",
+            "নমস্কার / হ্যালো",
+            "সিনেমা"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "이름 (i-reum) = নাম / name। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-01",
+          "kind": "multiple-choice",
+          "promptBn": "‘নাম’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘name’?",
+          "options": [
+            "이름",
+            "공장",
+            "시간",
+            "식당"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "নাম = 이름। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-01",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "이름",
+          "options": [
+            "선생",
+            "공",
+            "이름",
+            "야채"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 이름 = নাম।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-02",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 학교 — অর্থ কী?",
+          "promptKo": "학교",
+          "promptEn": "Read this word: 학교 — meaning?",
+          "options": [
+            "দিদি (মেয়ের)",
+            "টয়লেট",
+            "কোথায়",
+            "স্কুল"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "학교 (hak-kyo) = স্কুল / school। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-02",
+          "kind": "multiple-choice",
+          "promptBn": "‘স্কুল’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘school’?",
+          "options": [
+            "친구",
+            "하나",
+            "학교",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "স্কুল = 학교। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-03",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 회사 — অর্থ কী?",
+          "promptKo": "회사",
+          "promptEn": "Read this word: 회사 — meaning?",
+          "options": [
+            "কাজ / দিন",
+            "টাকা",
+            "কোম্পানি",
+            "বাস"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "회사 (hoe-sa) = কোম্পানি / company। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-03",
+          "kind": "multiple-choice",
+          "promptBn": "‘কোম্পানি’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘company’?",
+          "options": [
+            "아침",
+            "커피",
+            "회사",
+            "언니"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "কোম্পানি = 회사। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-03",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "회사",
+          "options": [
+            "회사",
+            "학교",
+            "강",
+            "형"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শোনা গেছে: 회사 = কোম্পানি।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-04",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 공장 — অর্থ কী?",
+          "promptKo": "공장",
+          "promptEn": "Read this word: 공장 — meaning?",
+          "options": [
+            "রেস্তোরাঁ",
+            "কারখানা",
+            "সন্ধ্যা / রাতের খাবার",
+            "কেন"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "공장 (gong-jang) = কারখানা / factory। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-04",
+          "kind": "multiple-choice",
+          "promptBn": "‘কারখানা’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘factory’?",
+          "options": [
+            "공장",
+            "형",
+            "가",
+            "과일"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "কারখানা = 공장। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-05",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 병원 — অর্থ কী?",
+          "promptKo": "병원",
+          "promptEn": "Read this word: 병원 — meaning?",
+          "options": [
+            "পাহাড়",
+            "হাসপাতাল",
+            "সিনেমা",
+            "কোথায়"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "병원 (byeong-won) = হাসপাতাল / hospital। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-05",
+          "kind": "multiple-choice",
+          "promptBn": "‘হাসপাতাল’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘hospital’?",
+          "options": [
+            "병원",
+            "물",
+            "운동",
+            "신발"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "হাসপাতাল = 병원। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-05",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "병원",
+          "options": [
+            "공장",
+            "버스",
+            "일",
+            "병원"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 병원 = হাসপাতাল।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-06",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 시장 — অর্থ কী?",
+          "promptKo": "시장",
+          "promptEn": "Read this word: 시장 — meaning?",
+          "options": [
+            "বাজার",
+            "কী",
+            "চার",
+            "বল"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "시장 (si-jang) = বাজার / market। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-06",
+          "kind": "multiple-choice",
+          "promptBn": "‘বাজার’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘market’?",
+          "options": [
+            "어제",
+            "사과",
+            "시장",
+            "저녁"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "বাজার = 시장। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-07",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 은행 — অর্থ কী?",
+          "promptKo": "은행",
+          "promptEn": "Read this word: 은행 — meaning?",
+          "options": [
+            "ব্যাংক",
+            "কী",
+            "হাত",
+            "না"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "은행 (eun-haeng) = ব্যাংক / bank। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-07",
+          "kind": "multiple-choice",
+          "promptBn": "‘ব্যাংক’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘bank’?",
+          "options": [
+            "왜",
+            "은행",
+            "차",
+            "안녕하세요"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ব্যাংক = 은행। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-07",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "은행",
+          "options": [
+            "야채",
+            "코",
+            "펜",
+            "은행"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 은행 = ব্যাংক।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-08",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 역 — অর্থ কী?",
+          "promptKo": "역",
+          "promptEn": "Read this word: 역 — meaning?",
+          "options": [
+            "নাম",
+            "স্টেশন",
+            "বেরোনোর পথ",
+            "মা"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "역 (yeok) = স্টেশন / station। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-08",
+          "kind": "multiple-choice",
+          "promptBn": "‘স্টেশন’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘station’?",
+          "options": [
+            "어제",
+            "책",
+            "안전",
+            "역"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "স্টেশন = 역। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-09",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 버스 — অর্থ কী?",
+          "promptKo": "버스",
+          "promptEn": "Read this word: 버스 — meaning?",
+          "options": [
+            "বাড়ি",
+            "কলম",
+            "বাস",
+            "দুপুরের খাবার"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "버스 (beo-seu) = বাস / bus। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-09",
+          "kind": "multiple-choice",
+          "promptBn": "‘বাস’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘bus’?",
+          "options": [
+            "버스",
+            "누나",
+            "한국",
+            "국"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "বাস = 버스। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-09",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "버스",
+          "options": [
+            "회사",
+            "어떻게",
+            "사과",
+            "버스"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 버스 = বাস।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-10",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 지하철 — অর্থ কী?",
+          "promptKo": "지하철",
+          "promptEn": "Read this word: 지하철 — meaning?",
+          "options": [
+            "মাংস",
+            "মেট্রো",
+            "বিপদ",
+            "অনেক"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "지하철 (ji-ha-cheol) = মেট্রো / subway। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-10",
+          "kind": "multiple-choice",
+          "promptBn": "‘মেট্রো’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘subway’?",
+          "options": [
+            "지하철",
+            "한국인",
+            "불",
+            "동생"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "মেট্রো = 지하철। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-11",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 택시 — অর্থ কী?",
+          "promptKo": "택시",
+          "promptEn": "Read this word: 택시 — meaning?",
+          "options": [
+            "ট্যাক্সি",
+            "দুধ",
+            "পানি",
+            "নদী"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "택시 (taek-si) = ট্যাক্সি / taxi। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-11",
+          "kind": "multiple-choice",
+          "promptBn": "‘ট্যাক্সি’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘taxi’?",
+          "options": [
+            "택시",
+            "공",
+            "사람",
+            "입구"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ট্যাক্সি = 택시। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "택시",
+          "options": [
+            "회사",
+            "택시",
+            "한국어",
+            "죄송합니다"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 택시 = ট্যাক্সি।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-12",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 오늘 — অর্থ কী?",
+          "promptKo": "오늘",
+          "promptEn": "Read this word: 오늘 — meaning?",
+          "options": [
+            "কলম",
+            "আজ",
+            "বাজার",
+            "আকাশ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "오늘 (o-neul) = আজ / today। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-12",
+          "kind": "multiple-choice",
+          "promptBn": "‘আজ’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘today’?",
+          "options": [
+            "오늘",
+            "역",
+            "어제",
+            "지하철"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "আজ = 오늘। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-13",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 내일 — অর্থ কী?",
+          "promptKo": "내일",
+          "promptEn": "Read this word: 내일 — meaning?",
+          "options": [
+            "ভালো",
+            "পানি",
+            "আগুন",
+            "কাল (আগামী)"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "내일 (nae-il) = কাল (আগামী) / tomorrow। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-13",
+          "kind": "multiple-choice",
+          "promptBn": "‘কাল (আগামী)’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘tomorrow’?",
+          "options": [
+            "내일",
+            "하늘",
+            "뭐",
+            "지하철"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "কাল (আগামী) = 내일। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-13",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "내일",
+          "options": [
+            "역",
+            "택시",
+            "다",
+            "내일"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 내일 = কাল (আগামী)।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-14",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 어제 — অর্থ কী?",
+          "promptKo": "어제",
+          "promptEn": "Read this word: 어제 — meaning?",
+          "options": [
+            "স্কুল",
+            "নাক",
+            "গতাল (গতের)",
+            "সঙ্গীত"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "어제 (eo-je) = গতাল (গতের) / yesterday। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-14",
+          "kind": "multiple-choice",
+          "promptBn": "‘গতাল (গতের)’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘yesterday’?",
+          "options": [
+            "점심",
+            "이름",
+            "어제",
+            "한국어"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "গতাল (গতের) = 어제। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-15",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 시간 — অর্থ কী?",
+          "promptKo": "시간",
+          "promptEn": "Read this word: 시간 — meaning?",
+          "options": [
+            "আমি",
+            "কে",
+            "সময়",
+            "দুঃখিত"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "시간 (si-gan) = সময় / time। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-15",
+          "kind": "multiple-choice",
+          "promptBn": "‘সময়’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘time’?",
+          "options": [
+            "우유",
+            "둘",
+            "시간",
+            "건강"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "সময় = 시간। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-15",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "시간",
+          "options": [
+            "값",
+            "시간",
+            "아니요",
+            "있어요"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 시간 = সময়।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-16",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 아침 — অর্থ কী?",
+          "promptKo": "아침",
+          "promptEn": "Read this word: 아침 — meaning?",
+          "options": [
+            "স্যুপ",
+            "প্রবেশপথ",
+            "বাবা",
+            "সকাল"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "아침 (a-chim) = সকাল / morning। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-16",
+          "kind": "multiple-choice",
+          "promptBn": "‘সকাল’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘morning’?",
+          "options": [
+            "시간",
+            "넷",
+            "아침",
+            "한국인"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "সকাল = 아침। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-17",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 점심 — অর্থ কী?",
+          "promptKo": "점심",
+          "promptEn": "Read this word: 점심 — meaning?",
+          "options": [
+            "স্বাস্থ্য",
+            "বিপদ",
+            "দিদি (মেয়ের)",
+            "দুপুরের খাবার"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "점심 (jeom-sim) = দুপুরের খাবার / lunch। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-17",
+          "kind": "multiple-choice",
+          "promptBn": "‘দুপুরের খাবার’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘lunch’?",
+          "options": [
+            "점심",
+            "야채",
+            "다",
+            "안녕하세요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "দুপুরের খাবার = 점심। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-17",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "점심",
+          "options": [
+            "집",
+            "산",
+            "셋",
+            "점심"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 점심 = দুপুরের খাবার।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-18",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 저녁 — অর্থ কী?",
+          "promptKo": "저녁",
+          "promptEn": "Read this word: 저녁 — meaning?",
+          "options": [
+            "মা",
+            "সন্ধ্যা / রাতের খাবার",
+            "কখন",
+            "মুখ"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "저녁 (jeo-nyeok) = সন্ধ্যা / রাতের খাবার / evening / dinner। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-18",
+          "kind": "multiple-choice",
+          "promptBn": "‘সন্ধ্যা / রাতের খাবার’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘evening / dinner’?",
+          "options": [
+            "아빠",
+            "불",
+            "차",
+            "저녁"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "সন্ধ্যা / রাতের খাবার = 저녁। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-19",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 친구 — অর্থ কী?",
+          "promptKo": "친구",
+          "promptEn": "Read this word: 친구 — meaning?",
+          "options": [
+            "মেট্রো",
+            "সকাল",
+            "বন্ধু",
+            "ঘর"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "친구 (chin-gu) = বন্ধু / friend। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-19",
+          "kind": "multiple-choice",
+          "promptBn": "‘বন্ধু’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘friend’?",
+          "options": [
+            "친구",
+            "발",
+            "없어요",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "বন্ধু = 친구। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-19",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "친구",
+          "options": [
+            "옷",
+            "위험",
+            "친구",
+            "학생"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 친구 = বন্ধু।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-20",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 가족 — অর্থ কী?",
+          "promptKo": "가족",
+          "promptEn": "Read this word: 가족 — meaning?",
+          "options": [
+            "বাবা",
+            "চোখ / তুষার",
+            "পরিবার",
+            "ছবি"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "가족 (ga-jok) = পরিবার / family। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-20",
+          "kind": "multiple-choice",
+          "promptBn": "‘পরিবার’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘family’?",
+          "options": [
+            "뭐",
+            "운동",
+            "셋",
+            "가족"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "পরিবার = 가족। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-21",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 엄마 — অর্থ কী?",
+          "promptKo": "엄마",
+          "promptEn": "Read this word: 엄마 — meaning?",
+          "options": [
+            "সিনেমা",
+            "ধন্যবাদ",
+            "মা",
+            "পা"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "엄마 (eom-ma) = মা / mom। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-21",
+          "kind": "multiple-choice",
+          "promptBn": "‘মা’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘mom’?",
+          "options": [
+            "출구",
+            "물",
+            "엄마",
+            "공"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "মা = 엄마। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-21",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "엄마",
+          "options": [
+            "입",
+            "사진",
+            "전화",
+            "엄마"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 엄마 = মা।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-22",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 아빠 — অর্থ কী?",
+          "promptKo": "아빠",
+          "promptEn": "Read this word: 아빠 — meaning?",
+          "options": [
+            "সিনেমা",
+            "বাজার",
+            "বাবা",
+            "কখন"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "아빠 (a-ppa) = বাবা / dad। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-22",
+          "kind": "multiple-choice",
+          "promptBn": "‘বাবা’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘dad’?",
+          "options": [
+            "아빠",
+            "산",
+            "펜",
+            "가족"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "বাবা = 아빠। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-23",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 형 — অর্থ কী?",
+          "promptKo": "형",
+          "promptEn": "Read this word: 형 — meaning?",
+          "options": [
+            "মা",
+            "দাদা (ছেলের)",
+            "দিদি (ছেলের)",
+            "কী"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "형 (hyeong) = দাদা (ছেলের) / older brother (male)। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-23",
+          "kind": "multiple-choice",
+          "promptBn": "‘দাদা (ছেলের)’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘older brother (male)’?",
+          "options": [
+            "위험",
+            "학교",
+            "물",
+            "형"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "দাদা (ছেলের) = 형। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-23",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "형",
+          "options": [
+            "차",
+            "집",
+            "발",
+            "형"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 형 = দাদা (ছেলের)।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-24",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 누나 — অর্থ কী?",
+          "promptKo": "누나",
+          "promptEn": "Read this word: 누나 — meaning?",
+          "options": [
+            "সিনেমা",
+            "কখন",
+            "সবজি",
+            "দিদি (ছেলের)"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "누나 (nu-na) = দিদি (ছেলের) / older sister (male)। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-24",
+          "kind": "multiple-choice",
+          "promptBn": "‘দিদি (ছেলের)’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘older sister (male)’?",
+          "options": [
+            "국",
+            "있어요",
+            "누나",
+            "다"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "দিদি (ছেলের) = 누나। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-25",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 언니 — অর্থ কী?",
+          "promptKo": "언니",
+          "promptEn": "Read this word: 언니 — meaning?",
+          "options": [
+            "আপেল",
+            "দিদি (মেয়ের)",
+            "পাঁচ",
+            "ব্যায়াম"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "언니 (eon-ni) = দিদি (মেয়ের) / older sister (female)। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-25",
+          "kind": "multiple-choice",
+          "promptBn": "‘দিদি (মেয়ের)’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘older sister (female)’?",
+          "options": [
+            "가족",
+            "넷",
+            "사진",
+            "언니"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "দিদি (মেয়ের) = 언니। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-25",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "언니",
+          "options": [
+            "뭐",
+            "옷",
+            "언니",
+            "입"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 언니 = দিদি (মেয়ের)।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-26",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 동생 — অর্থ কী?",
+          "promptKo": "동생",
+          "promptEn": "Read this word: 동생 — meaning?",
+          "options": [
+            "ছোট ভাই/বোন",
+            "ফোন",
+            "গতাল (গতের)",
+            "পানি"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "동생 (dong-saeng) = ছোট ভাই/বোন / younger sibling। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-26",
+          "kind": "multiple-choice",
+          "promptBn": "‘ছোট ভাই/বোন’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘younger sibling’?",
+          "options": [
+            "동생",
+            "하늘",
+            "눈",
+            "어제"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ছোট ভাই/বোন = 동생। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-27",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 선생 — অর্থ কী?",
+          "promptKo": "선생",
+          "promptEn": "Read this word: 선생 — meaning?",
+          "options": [
+            "সবজি",
+            "নমস্কার / হ্যালো",
+            "শিক্ষক",
+            "কখন"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "선생 (seon-saeng) = শিক্ষক / teacher। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-27",
+          "kind": "multiple-choice",
+          "promptBn": "‘শিক্ষক’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘teacher’?",
+          "options": [
+            "선생",
+            "입",
+            "많아요",
+            "아빠"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "শিক্ষক = 선생। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-27",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "선생",
+          "options": [
+            "국",
+            "학생",
+            "선생",
+            "공장"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "শোনা গেছে: 선생 = শিক্ষক।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-28",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 학생 — অর্থ কী?",
+          "promptKo": "학생",
+          "promptEn": "Read this word: 학생 — meaning?",
+          "options": [
+            "বাজার",
+            "ছাত্র",
+            "ধন্যবাদ",
+            "বাবা"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "학생 (hak-saeng) = ছাত্র / student। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-28",
+          "kind": "multiple-choice",
+          "promptBn": "‘ছাত্র’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘student’?",
+          "options": [
+            "학생",
+            "한국",
+            "한국어",
+            "누구"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ছাত্র = 학생। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-29",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 일 — অর্থ কী?",
+          "promptKo": "일",
+          "promptEn": "Read this word: 일 — meaning?",
+          "options": [
+            "প্রবেশপথ",
+            "ফোন",
+            "কাজ / দিন",
+            "নাম"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "일 (il) = কাজ / দিন / work / day। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-29",
+          "kind": "multiple-choice",
+          "promptBn": "‘কাজ / দিন’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘work / day’?",
+          "options": [
+            "엄마",
+            "일",
+            "음악",
+            "학생"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "কাজ / দিন = 일। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-29",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "일",
+          "options": [
+            "왜",
+            "넷",
+            "가족",
+            "일"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "শোনা গেছে: 일 = কাজ / দিন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-30",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 돈 — অর্থ কী?",
+          "promptKo": "돈",
+          "promptEn": "Read this word: 돈 — meaning?",
+          "options": [
+            "ব্যাগ",
+            "টাকা",
+            "চোখ / তুষার",
+            "কারখানা"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "돈 (don) = টাকা / money। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-30",
+          "kind": "multiple-choice",
+          "promptBn": "‘টাকা’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘money’?",
+          "options": [
+            "위험",
+            "강",
+            "돈",
+            "고기"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "টাকা = 돈। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-31",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 값 — অর্থ কী?",
+          "promptKo": "값",
+          "promptEn": "Read this word: 값 — meaning?",
+          "options": [
+            "কফি",
+            "দাম",
+            "ট্যাক্সি",
+            "দুই"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "값 (gap) = দাম / price। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-31",
+          "kind": "multiple-choice",
+          "promptBn": "‘দাম’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘price’?",
+          "options": [
+            "시간",
+            "공장",
+            "값",
+            "코"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "দাম = 값। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-li-31",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দটি বেছে নিন (পড়ে মিলান)",
+          "promptKo": "",
+          "promptEn": "Listen and pick the word",
+          "listenText": "값",
+          "options": [
+            "아니요",
+            "값",
+            "어디",
+            "형"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "শোনা গেছে: 값 = দাম।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-wm-32",
+          "kind": "multiple-choice",
+          "promptBn": "এই শব্দটি পড়ুন: 옷 — অর্থ কী?",
+          "promptKo": "옷",
+          "promptEn": "Read this word: 옷 — meaning?",
+          "options": [
+            "কাপড়",
+            "বাবা",
+            "মাংস",
+            "অনেক"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "옷 (ot) = কাপড় / clothes। পুরো শব্দ হিসেবে পড়ুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-mw-32",
+          "kind": "multiple-choice",
+          "promptBn": "‘কাপড়’ অর্থের শব্দ কোনটি? (পড়ে বেছে নিন)",
+          "promptKo": "",
+          "promptEn": "Which word means ‘clothes’?",
+          "options": [
+            "셋",
+            "시장",
+            "옷",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "কাপড় = 옷। অক্ষর নয়, পুরো শব্দ দেখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-match-1",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "이름",
+              "right": "নাম"
+            },
+            {
+              "left": "학교",
+              "right": "স্কুল"
+            },
+            {
+              "left": "회사",
+              "right": "কোম্পানি"
+            },
+            {
+              "left": "공장",
+              "right": "কারখানা"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-match-2",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "병원",
+              "right": "হাসপাতাল"
+            },
+            {
+              "left": "시장",
+              "right": "বাজার"
+            },
+            {
+              "left": "은행",
+              "right": "ব্যাংক"
+            },
+            {
+              "left": "역",
+              "right": "স্টেশন"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-match-3",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "버스",
+              "right": "বাস"
+            },
+            {
+              "left": "지하철",
+              "right": "মেট্রো"
+            },
+            {
+              "left": "택시",
+              "right": "ট্যাক্সি"
+            },
+            {
+              "left": "오늘",
+              "right": "আজ"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-match-4",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "내일",
+              "right": "কাল (আগামী)"
+            },
+            {
+              "left": "어제",
+              "right": "গতাল (গতের)"
+            },
+            {
+              "left": "시간",
+              "right": "সময়"
+            },
+            {
+              "left": "아침",
+              "right": "সকাল"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-match-5",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "점심",
+              "right": "দুপুরের খাবার"
+            },
+            {
+              "left": "저녁",
+              "right": "সন্ধ্যা / রাতের খাবার"
+            },
+            {
+              "left": "친구",
+              "right": "বন্ধু"
+            },
+            {
+              "left": "가족",
+              "right": "পরিবার"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-match-6",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "엄마",
+              "right": "মা"
+            },
+            {
+              "left": "아빠",
+              "right": "বাবা"
+            },
+            {
+              "left": "형",
+              "right": "দাদা (ছেলের)"
+            },
+            {
+              "left": "누나",
+              "right": "দিদি (ছেলের)"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-match-7",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "언니",
+              "right": "দিদি (মেয়ের)"
+            },
+            {
+              "left": "동생",
+              "right": "ছোট ভাই/বোন"
+            },
+            {
+              "left": "선생",
+              "right": "শিক্ষক"
+            },
+            {
+              "left": "학생",
+              "right": "ছাত্র"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        },
+        {
+          "id": "sp-read-rq-match-8",
+          "kind": "matching",
+          "promptBn": "শব্দ পড়ে অর্থ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to meaning",
+          "options": [],
+          "pairs": [
+            {
+              "left": "일",
+              "right": "কাজ / দিন"
+            },
+            {
+              "left": "돈",
+              "right": "টাকা"
+            },
+            {
+              "left": "값",
+              "right": "দাম"
+            },
+            {
+              "left": "옷",
+              "right": "কাপড়"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
+          "topic": "reading"
+        }
+      ]
     },
     {
       "id": "sp-quiz-1",

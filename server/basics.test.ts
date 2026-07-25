@@ -10,6 +10,7 @@ import {
   isBatchimRelatedQuestion,
   isCheckpointPassing,
   isModuleComplete,
+  isReadingQuestion,
   isSyllableRelatedQuestion,
   mergeBasicsProgress,
   moduleRequirements,
@@ -150,6 +151,14 @@ describe("content loader + schema fixtures", () => {
     expect(questions.filter(q => q.kind === "matching").length).toBeGreaterThanOrEqual(8);
     expect(questions.filter(isSyllableRelatedQuestion).length).toBeGreaterThanOrEqual(15);
     expect(questions.filter(isBatchimRelatedQuestion).length).toBeGreaterThanOrEqual(10);
+    expect(questions.filter(isReadingQuestion).length).toBeGreaterThanOrEqual(20);
+  });
+
+  it("checkpoint draws include whole-word reading items", () => {
+    const checkpoint = getBasicsModule("checkpoint")!;
+    const bank = getModuleQuizQuestions(checkpoint);
+    const draw = prepareBasicsQuizDraw(bank, 25, () => 0.33);
+    expect(draw.filter(isReadingQuestion).length).toBeGreaterThanOrEqual(5);
   });
 
   it("rejects under-composed checkpoint fixtures", () => {
@@ -294,8 +303,26 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
       speakItemsDone: [],
       writeItemsDone: [],
       builderItemsDone: [],
+      readItemsDone: [],
       updatedAt: new Date().toISOString(),
       ...overrides,
+    };
+  }
+
+  function readIdsFor(module: BasicsModule): string[] {
+    return module.steps.filter(s => s.type === "read").flatMap(s => s.items.map(i => i.id));
+  }
+
+  function withReadDone(
+    module: BasicsModule,
+    progress: BasicsModuleProgress,
+  ): BasicsModuleProgress {
+    const ids = readIdsFor(module);
+    const min = module.requirements.minReadItems ?? 0;
+    const need = Math.min(ids.length, Math.max(min, 0));
+    return {
+      ...progress,
+      readItemsDone: ids.slice(0, need),
     };
   }
 
@@ -335,17 +362,18 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
       .flatMap(s => s.items.map(i => i.id));
     const quizTotal = getModuleQuizQuestions(consonants).length;
 
-    const dupSpeak: BasicsModuleProgress = {
+    const dupSpeak: BasicsModuleProgress = withReadDone(consonants, {
       moduleId: "consonants",
       stepsDone: [...req.requiredStepIds],
       // same id twice — unique count 1, cannot meet minSpeakItems
       speakItemsDone: [speakIds[0]!, speakIds[0]!],
       writeItemsDone: writeIds.slice(0, req.minWriteItems),
       builderItemsDone: [],
+      readItemsDone: [],
       quizScore: quizTotal,
       quizTotal,
       updatedAt: new Date().toISOString(),
-    };
+    });
     expect(uniqueIdCount(dupSpeak.speakItemsDone)).toBe(1);
     expect(isModuleComplete(consonants, dupSpeak)).toBe(false);
 
@@ -361,16 +389,17 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
       .filter(s => s.type === "speak")
       .flatMap(s => s.items.map(i => i.id));
     const quizTotal = getModuleQuizQuestions(speakLab).length;
-    const progress: BasicsModuleProgress = {
+    const progress: BasicsModuleProgress = withReadDone(speakLab, {
       moduleId: "speak-lab",
       stepsDone: [...speakLab.requirements.requiredStepIds],
       speakItemsDone: speakIds.slice(0, speakLab.requirements.minSpeakItems),
       writeItemsDone: [],
       builderItemsDone: [],
+      readItemsDone: [],
       quizScore: quizTotal,
       quizTotal,
       updatedAt: new Date().toISOString(),
-    };
+    });
     expect(isModuleComplete(speakLab, progress)).toBe(true);
 
     // Fails when quiz ratio is below passRatio
@@ -389,6 +418,7 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
       speakItemsDone: [],
       writeItemsDone: [writeIds[0]!, writeIds[0]!, writeIds[0]!], // duplicates only
       builderItemsDone: [],
+      readItemsDone: [],
       updatedAt: new Date().toISOString(),
     };
     expect(isModuleComplete(writeLab, almost)).toBe(false);
@@ -406,19 +436,43 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
       .filter(s => s.type === "builder")
       .flatMap(s => s.prompts.map(p => p.id));
     const quizTotal = getModuleQuizQuestions(syllables).length;
-    const progress: BasicsModuleProgress = {
+    const progress: BasicsModuleProgress = withReadDone(syllables, {
       moduleId: "syllables",
       stepsDone: [...req.requiredStepIds],
       speakItemsDone: [],
       writeItemsDone: [],
       builderItemsDone: [builderIds[0]!], // below minBuilderItems
+      readItemsDone: [],
+      quizScore: quizTotal,
+      quizTotal,
+      updatedAt: new Date().toISOString(),
+    });
+    expect(isModuleComplete(syllables, progress)).toBe(false);
+    progress.builderItemsDone = builderIds.slice(0, req.minBuilderItems);
+    expect(isModuleComplete(syllables, progress)).toBe(true);
+  });
+
+  it("reading steps require whole-word items before module completion", () => {
+    const syllables = getBasicsModule("syllables")!;
+    expect(syllables.steps.some(s => s.type === "read")).toBe(true);
+    expect(syllables.requirements.minReadItems).toBeGreaterThan(0);
+    const builderIds = syllables.steps
+      .filter(s => s.type === "builder")
+      .flatMap(s => s.prompts.map(p => p.id));
+    const quizTotal = getModuleQuizQuestions(syllables).length;
+    const almost: BasicsModuleProgress = {
+      moduleId: "syllables",
+      stepsDone: [...syllables.requirements.requiredStepIds],
+      speakItemsDone: [],
+      writeItemsDone: [],
+      builderItemsDone: builderIds.slice(0, syllables.requirements.minBuilderItems),
+      readItemsDone: [],
       quizScore: quizTotal,
       quizTotal,
       updatedAt: new Date().toISOString(),
     };
-    expect(isModuleComplete(syllables, progress)).toBe(false);
-    progress.builderItemsDone = builderIds.slice(0, req.minBuilderItems);
-    expect(isModuleComplete(syllables, progress)).toBe(true);
+    expect(isModuleComplete(syllables, almost)).toBe(false);
+    expect(isModuleComplete(syllables, withReadDone(syllables, almost))).toBe(true);
   });
 
   it("never marks checkpoint complete via isModuleComplete (unlock is isBasicsComplete)", () => {
@@ -429,6 +483,7 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
       speakItemsDone: [],
       writeItemsDone: [],
       builderItemsDone: [],
+      readItemsDone: [],
       quizScore: 13,
       quizTotal: 13,
       updatedAt: new Date().toISOString(),
@@ -452,7 +507,7 @@ describe("isModuleComplete / quizRatio / isCheckpointPassing", () => {
     expect(isCheckpointPassing(5, 0, 0.7)).toBe(false);
     // score > total clamps to 1.0 ratio → pass
     expect(isCheckpointPassing(20, 10, 0.7)).toBe(true);
-    expect(quizRatio({ moduleId: "x", stepsDone: [], speakItemsDone: [], writeItemsDone: [], builderItemsDone: [], quizScore: 12, quizTotal: 10, updatedAt: "" })).toBe(1);
+    expect(quizRatio({ moduleId: "x", stepsDone: [], speakItemsDone: [], writeItemsDone: [], builderItemsDone: [], readItemsDone: [], quizScore: 12, quizTotal: 10, updatedAt: "" })).toBe(1);
   });
 
   it("isBasicsComplete only trusts checkpointPassedAt", () => {
