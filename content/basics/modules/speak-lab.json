@@ -6,16 +6,18 @@
     "ko": "발음 연습",
     "en": "Speak Lab"
   },
-  "estimatedMinutes": 35,
+  "estimatedMinutes": 40,
   "requirements": {
     "requiredStepIds": [
       "sp-lab",
       "sp-vocab",
       "sp-jamo",
+      "sp-tensify",
+      "sp-tensify-speak",
       "sp-quiz-1",
       "sp-quiz-2"
     ],
-    "minSpeakItems": 24,
+    "minSpeakItems": 28,
     "minWriteItems": 0,
     "minBuilderItems": 0,
     "passRatio": 0.7
@@ -329,6 +331,90 @@
           "audioText": "감사합니다",
           "bn": "কামসাহামনিদা — ধন্যবাদ",
           "en": "thank you"
+        }
+      ],
+      "fallbackQuizIds": []
+    },
+    {
+      "id": "sp-tensify",
+      "type": "explain",
+      "title": {
+        "bn": "হালকা 경음화 (경음화) — সহজ শব্দ মাত্র",
+        "ko": "쉬운 경음화 입문",
+        "en": "Light tensification — easy words only"
+      },
+      "body": {
+        "bn": [
+          "এখন শুধু একটা ছোট নিয়ম: কিছু ব্যাচিমের পরে পরের ㄱ/ㄷ/ㅂ/ㅅ/ㅈ কখনো কখনো টানটান (ㄲ/ㄸ/ㅃ/ㅆ/ㅉ) শোনায়।",
+          "সহজ শব্দ দিয়ে শুরু: 학교=[학꾜], 있다=[이따], 먹다=[먹따], 없다=[업따], 같다=[같따]।",
+          "আরও সহজ: 국밥≈[국빱], 벚꽃 আপাতত বাদ। 돋보기·잡지·문법 এখন বাধ্যতামূলক নয়।",
+          "মনে রাখুন: আগে ৭ ব্যাচিম ধ্বনি ঠিকমতো; 경음화 আস্তে আস্তে কানে আসবে।"
+        ],
+        "en": [
+          "Short rule: after some batchim, the next ㄱㄷㅂㅅㅈ may sound tense (ㄲㄸㅃㅆㅉ).",
+          "Easy set only: 학교=[학꾜], 있다=[이따], 먹다=[먹따], 없다=[업따].",
+          "Skip advanced textbook piles (돋보기, 잡지, 문법) for now.",
+          "Keep the 7 batchim sounds solid first; tensification is a late polish."
+        ],
+        "ko": [
+          "받침 뒤 ㄱㄷㅂㅅㅈ이 된소리로 나기도 합니다.",
+          "쉬운 예: 학교=[학꾜], 있다=[이따], 먹다=[먹따], 없다=[업따].",
+          "어려운 단어는 나중으로 미룹니다."
+        ]
+      }
+    },
+    {
+      "id": "sp-tensify-speak",
+      "type": "speak",
+      "minListens": 2,
+      "items": [
+        {
+          "id": "sp-t1",
+          "text": "학교",
+          "romanization": "hak-kkyo",
+          "audioText": "학교",
+          "bn": "হাক্ক্যো — স্কুল [학꾜]",
+          "en": "school"
+        },
+        {
+          "id": "sp-t2",
+          "text": "있다",
+          "romanization": "it-tta",
+          "audioText": "있다",
+          "bn": "ইত্তা — আছে [이따]",
+          "en": "to exist/have"
+        },
+        {
+          "id": "sp-t3",
+          "text": "먹다",
+          "romanization": "meok-tta",
+          "audioText": "먹다",
+          "bn": "মক্‌ত্তা — খাওয়া [먹따]",
+          "en": "to eat"
+        },
+        {
+          "id": "sp-t4",
+          "text": "없다",
+          "romanization": "eop-tta",
+          "audioText": "없다",
+          "bn": "অপ্‌ত্তা — নেই [업따]",
+          "en": "to not exist"
+        },
+        {
+          "id": "sp-t5",
+          "text": "같다",
+          "romanization": "gat-tta",
+          "audioText": "같다",
+          "bn": "কাত্তা — একই [같따]",
+          "en": "to be the same"
+        },
+        {
+          "id": "sp-t6",
+          "text": "국밥",
+          "romanization": "guk-ppap",
+          "audioText": "국밥",
+          "bn": "কুক্পাপ — স্যুপ-ভাত",
+          "en": "rice soup"
         }
       ],
       "fallbackQuizIds": []

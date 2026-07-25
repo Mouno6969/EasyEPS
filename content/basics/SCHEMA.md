@@ -100,3 +100,14 @@ Never treat client-reported checkpoint quiz fields alone as curriculum unlock.
 ## Content expansion
 
 Run `python3 scripts/expand_basics_volume.py` to rebuild expanded banks (idempotent-ish; re-reads modules). Stroke files for tense consonants: `ssanggiyeok`, `ssangdigeut`, `ssangbieup`, `ssangsiot`, `ssangjieut`.
+
+### Pedagogy notes (rev 2026-07)
+
+| Module | Must teach |
+|---|---|
+| `syllables` | Block geometry (`sy-geometry`): vertical vs horizontal vowels, batchim at bottom |
+| `consonants` | Plain/aspirated/tense contrast (`c-contrast` + `c-speak-pairs`) — 다/타/따 etc. for Bangla speakers |
+| `batchim` | **7 surface sounds** first (`b-seven-sounds`); light linking only; **no early 경음화 stack** |
+| `speak-lab` | Late light tensification (`sp-tensify`) with easy words only (학교, 있다, 먹다…) |
+
+Rebuild pedagogy patches: `python3 scripts/fix_basics_pedagogy.py` (run after volume expand if needed).

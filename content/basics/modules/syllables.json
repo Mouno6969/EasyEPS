@@ -6,10 +6,11 @@
     "ko": "음절 만들기",
     "en": "Building Syllables"
   },
-  "estimatedMinutes": 35,
+  "estimatedMinutes": 40,
   "requirements": {
     "requiredStepIds": [
       "sy-intro",
+      "sy-geometry",
       "sy-builder",
       "sy-builder-2",
       "sy-quiz",
@@ -50,6 +51,41 @@
           "기본 자음 14개는 복합 모음 11개와도 결합합니다. 예: 개, 네, 뒤, 과, 왜, 쉬, 화.",
           "쌍자음 ㄲ ㄸ ㅃ ㅆ ㅉ도 같은 방식으로 결합합니다. 예: 까, 때, 빠, 쏘, 쭈, 꽈, 꿰.",
           "발음 팁: ㅐ ㅒ ㅔ ㅖ는 모두 '에'와 비슷하게 발음됩니다."
+        ]
+      }
+    },
+    {
+      "id": "sy-geometry",
+      "type": "explain",
+      "title": {
+        "bn": "অক্ষর ব্লকের জ্যামিতি (어떻게 লেখা হয়?)",
+        "ko": "음절 블록 배치",
+        "en": "Syllable-block geometry"
+      },
+      "body": {
+        "bn": [
+          "হ্যাঙ্গুল অক্ষর একটি ‘ব্লক’ — বাংলা/ইংরেজির মতো এক লাইনে আলাদা অক্ষর নয়। প্রতি ব্লকে: (১) শুরুর ব্যঞ্জন, (২) স্বর, (৩) চাইলে নিচে ব্যাচিম।",
+          "স্বরের আকৃতি অনুসারে ব্লকের ভিতরের লেআউট বদলায়। খাড়া স্বর (ㅏ ㅑ ㅓ ㅕ ㅣ): ব্যঞ্জন বামে, স্বর ডানে। উদাহরণ: 가 = ㄱ|ㅏ, 너 = ㄴ|ㅓ, 미 = ㅁ|ㅣ।",
+          "শুয়ে থাকা স্বর (ㅗ ㅛ ㅜ ㅠ ㅡ): ব্যঞ্জন উপরে, স্বর নিচে। উদাহরণ: 고 = ㄱ/ㅗ, 수 = ㅅ/ㅜ, 그 = ㄱ/ㅡ।",
+          "যৌগিক স্বর (ㅘ ㅙ ㅚ ㅝ ㅞ ㅟ ㅢ…): ব্লক আরও জটিল — সাধারণত ব্যঞ্জন + স্বর-গুচ্ছ একসাথে। যেমন: 와, 위, 의।",
+          "ব্যাচিম থাকলে সবসময় ব্লকের সবচেয়ে নিচে বসে: 간, 문, 밥। মনে রাখুন: লেখা ‘উপর→বাম→ডান→নিচ’ ক্রমে, পড়া এক ব্লক = এক অক্ষর।",
+          "অনুশীলন টিপ: 가 / 고 / 간 তুলনা করুন — একই ㄱ, কিন্তু স্বরের দিক ও ব্যাচিম থাকায় ব্লকের আকৃতি আলাদা।"
+        ],
+        "en": [
+          "Hangul is written in syllable blocks, not a linear alphabet chain. Each block has: (1) initial consonant, (2) vowel, (3) optional final batchim.",
+          "Vertical vowels (ㅏㅑㅓㅕㅣ) sit to the right of the initial: 가, 너, 미.",
+          "Horizontal vowels (ㅗㅛㅜㅠㅡ) sit under the initial: 고, 수, 그.",
+          "Compound vowels (ㅘ ㅟ ㅢ …) form denser blocks: 와, 위, 의.",
+          "Batchim always goes at the bottom of the block: 간, 문, 밥. Writing order is top/left → right → bottom; one block = one syllable.",
+          "Compare 가 / 고 / 간 — same ㄱ, different geometry from vowel direction and batchim."
+        ],
+        "ko": [
+          "한글은 음절 블록으로 씁니다. 초성+중성(+종성).",
+          "세로 모음(ㅏㅑㅓㅕㅣ)은 초성 오른쪽: 가, 너, 미.",
+          "가로 모음(ㅗㅛㅜㅠㅡ)은 초성 아래: 고, 수, 그.",
+          "복합 모음은 더 복잡한 블록: 와, 위, 의.",
+          "받침은 항상 블록 맨 아래: 간, 문, 밥.",
+          "가/고/간을 비교해 배치 차이를 익히세요."
         ]
       }
     },

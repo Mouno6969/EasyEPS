@@ -6,20 +6,22 @@
     "ko": "기본 자음",
     "en": "Basic Consonants"
   },
-  "estimatedMinutes": 45,
+  "estimatedMinutes": 50,
   "requirements": {
     "requiredStepIds": [
       "c-intro",
       "c-grid",
       "c-double-grid",
+      "c-contrast",
       "c-speak",
       "c-speak-2",
+      "c-speak-pairs",
       "c-write",
       "c-quiz",
       "c-drill-1",
       "c-drill-2"
     ],
-    "minSpeakItems": 14,
+    "minSpeakItems": 18,
     "minWriteItems": 6,
     "minBuilderItems": 0,
     "passRatio": 0.7
@@ -255,6 +257,156 @@
           "shapeMnemonicBn": "আকৃতি: দুইটি ㅈ পাশাপাশি — টানটান 'চ'।"
         }
       ]
+    },
+    {
+      "id": "c-contrast",
+      "type": "explain",
+      "title": {
+        "bn": "তিন স্তর: সাধারণ / শ্বাসযুক্ত / টানটান (বাংলায় নেই)",
+        "ko": "평음·격음·된소리",
+        "en": "Plain · aspirated · tense (new for Bangla speakers)"
+      },
+      "body": {
+        "bn": [
+          "বাংলায় সাধারণত দুই স্তরের বিপরীত (যেমন ক/খ) থাকে। কোরিয়ানে একই জায়গায় প্রায়ই তিন স্তর: 평음 (সাধারণ) · 격음 (শ্বাসযুক্ত) · 된소리 (টানটান)।",
+          "ক্লাসিক ত্রিপল: ㄱ/ㅋ/ㄲ · ㄷ/ㅌ/ㄸ · ㅂ/ㅍ/ㅃ · ㅈ/ㅊ/ㅉ · এবং ㅅ/ㅆ (দুই স্তর)।",
+          "উদাহরণ মিনিমাল পেয়ার: 다 / 타 / 따 — তিনটার অর্থ আলাদা হতে পারে; বাংলা ‘ত/থ’ দিয়ে এক করে ফেলবেন না।",
+          "আরও: 가/카/까, 바/파/빠, 자/차/짜, 사/싸। কান দিয়ে আলাদা করুন: সাধারণ (কম শ্বাস) · শ্বাসযুক্ত (বাতাস বেরোয়) · টানটান (গলা/জিভ শক্ত, কম বাতাস)।",
+          "টিপ: হাতের তালু মুখের সামনে রেখে 타/카/파 বলুন — শ্বাস বেশি লাগবে; 따/까/빠-তে শ্বাস কম কিন্তু পেশী টানটান।"
+        ],
+        "en": [
+          "Bangla usually contrasts two series; Korean often has three: plain (평음), aspirated (격음), tense (된소리).",
+          "Triples: ㄱ/ㅋ/ㄲ, ㄷ/ㅌ/ㄸ, ㅂ/ㅍ/ㅃ, ㅈ/ㅊ/ㅉ, plus ㅅ/ㅆ.",
+          "Minimal set: 다 / 타 / 따 — do not merge them into one Bangla ‘t/th’.",
+          "Also drill: 가/카/까, 바/파/빠, 자/차/짜, 사/싸.",
+          "Hand test: more air on aspirated; tense feels tight with less air."
+        ],
+        "ko": [
+          "한국어는 평음·격음·된소리 3단 대립이 있습니다.",
+          "다/타/따, 가/카/까, 바/파/빠, 자/차/짜, 사/싸를 구분해 들으세요.",
+          "격음은 숨이 많고, 된소리는 긴장되고 숨이 적습니다."
+        ]
+      }
+    },
+    {
+      "id": "c-speak-pairs",
+      "type": "speak",
+      "minListens": 2,
+      "items": [
+        {
+          "id": "c-mp-da",
+          "text": "다",
+          "romanization": "da",
+          "audioText": "다",
+          "bn": "দা — সাধারণ ㄷ",
+          "en": "plain ㄷ"
+        },
+        {
+          "id": "c-mp-ta",
+          "text": "타",
+          "romanization": "ta",
+          "audioText": "타",
+          "bn": "থা — শ্বাসযুক্ত ㅌ",
+          "en": "aspirated ㅌ"
+        },
+        {
+          "id": "c-mp-tta",
+          "text": "따",
+          "romanization": "tta",
+          "audioText": "따",
+          "bn": "ত্তা — টানটান ㄸ",
+          "en": "tense ㄸ"
+        },
+        {
+          "id": "c-mp-ga",
+          "text": "가",
+          "romanization": "ga",
+          "audioText": "가",
+          "bn": "গা — সাধারণ ㄱ",
+          "en": "plain ㄱ"
+        },
+        {
+          "id": "c-mp-ka",
+          "text": "카",
+          "romanization": "ka",
+          "audioText": "카",
+          "bn": "খা — শ্বাসযুক্ত ㅋ",
+          "en": "aspirated ㅋ"
+        },
+        {
+          "id": "c-mp-kka",
+          "text": "까",
+          "romanization": "kka",
+          "audioText": "까",
+          "bn": "ক্কা — টানটান ㄲ",
+          "en": "tense ㄲ"
+        },
+        {
+          "id": "c-mp-ba",
+          "text": "바",
+          "romanization": "ba",
+          "audioText": "바",
+          "bn": "বা — সাধারণ ㅂ",
+          "en": "plain ㅂ"
+        },
+        {
+          "id": "c-mp-pa",
+          "text": "파",
+          "romanization": "pa",
+          "audioText": "파",
+          "bn": "ফা — শ্বাসযুক্ত ㅍ",
+          "en": "aspirated ㅍ"
+        },
+        {
+          "id": "c-mp-ppa",
+          "text": "빠",
+          "romanization": "ppa",
+          "audioText": "빠",
+          "bn": "প্পা — টানটান ㅃ",
+          "en": "tense ㅃ"
+        },
+        {
+          "id": "c-mp-ja",
+          "text": "자",
+          "romanization": "ja",
+          "audioText": "자",
+          "bn": "জা — সাধারণ ㅈ",
+          "en": "plain ㅈ"
+        },
+        {
+          "id": "c-mp-cha",
+          "text": "차",
+          "romanization": "cha",
+          "audioText": "차",
+          "bn": "ছা — শ্বাসযুক্ত ㅊ",
+          "en": "aspirated ㅊ"
+        },
+        {
+          "id": "c-mp-jja",
+          "text": "짜",
+          "romanization": "jja",
+          "audioText": "짜",
+          "bn": "চ্চা — টানটান ㅉ",
+          "en": "tense ㅉ"
+        },
+        {
+          "id": "c-mp-sa",
+          "text": "사",
+          "romanization": "sa",
+          "audioText": "사",
+          "bn": "সা/ছা — সাধারণ ㅅ",
+          "en": "plain ㅅ"
+        },
+        {
+          "id": "c-mp-ssa",
+          "text": "싸",
+          "romanization": "ssa",
+          "audioText": "싸",
+          "bn": "স্সা — টানটান ㅆ",
+          "en": "tense ㅆ"
+        }
+      ],
+      "fallbackQuizIds": []
     },
     {
       "id": "c-speak",
@@ -1447,6 +1599,123 @@
           "explanationBn": "শোনা গেছে: 라 (ㄹ)।",
           "topic": "jamo",
           "listenText": "라"
+        },
+        {
+          "id": "c-pair-q1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে বেছে নিন: সাধারণ / শ্বাসযুক্ত / টানটান — কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "따",
+          "options": [
+            "다",
+            "타",
+            "따",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "따 = টানটান ㄸ। বাংলা ‘ত’ দিয়ে মিলাবেন না।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-pair-q2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিকটি বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "타",
+          "options": [
+            "다",
+            "타",
+            "따",
+            "라"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "타 = শ্বাসযুক্ত ㅌ (বেশি বাতাস)।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-pair-q3",
+          "kind": "multiple-choice",
+          "promptBn": "다 / 타 / 따 — কোনটি টানটান (된소리)?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "다",
+            "타",
+            "따",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "따 (ㄸ) টানটান; 타 শ্বাসযুক্ত; 다 সাধারণ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-pair-q4",
+          "kind": "multiple-choice",
+          "promptBn": "가 / 카 / 까 — কোনটি শ্বাসযুক্ত (격음)?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "카",
+            "까",
+            "나"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "카 (ㅋ) শ্বাসযুক্ত।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-pair-q5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিকটি",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "까",
+          "options": [
+            "가",
+            "카",
+            "까",
+            "하"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "까 = টানটান ㄲ।",
+          "topic": "jamo"
+        },
+        {
+          "id": "c-pair-q6",
+          "kind": "matching",
+          "promptBn": "অক্ষর ও স্তর মেলান",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [],
+          "pairs": [
+            {
+              "left": "다",
+              "right": "সাধারণ (평음)"
+            },
+            {
+              "left": "타",
+              "right": "শ্বাসযুক্ত (격음)"
+            },
+            {
+              "left": "따",
+              "right": "টানটান (된소리)"
+            },
+            {
+              "left": "싸",
+              "right": "টানটান ㅅ"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "তিন স্তরের বৈপরীত্য বাংলায় নেই — আলাদা করে শুনুন।",
+          "topic": "jamo"
         }
       ],
       "drawCount": 12

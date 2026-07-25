@@ -6,11 +6,12 @@
     "ko": "받침 입문",
     "en": "Final Consonants Intro"
   },
-  "estimatedMinutes": 30,
+  "estimatedMinutes": 35,
   "requirements": {
     "requiredStepIds": [
       "b-explain",
-      "b-tense",
+      "b-seven-sounds",
+      "b-linking",
       "b-speak",
       "b-quiz",
       "b-drill"
@@ -31,57 +32,86 @@
       },
       "body": {
         "bn": [
-          "কোনো ব্যঞ্জনবর্ণ যখন কোনো স্বরবর্ণের নিচে বসে, তখন তাকে ব্যাচিম (받침) বলে। উদাহরণ: 간, 문, 밥।",
-          "একক ব্যাচিম: যেমন 먹다=[먹따] (খাওয়া), 닫다=[닫따] (বন্ধ করা) — এখানে ㄱ ও ㄷ ব্যাচিম।",
-          "জোড় ব্যাচিম: যেমন 앉다=[안따] (বসা), 많다=[만타] (বেশি) — ㄵ, ㄶ ইত্যাদি।",
-          "জোড় ব্যাচিমে সাধারণত নির্দিষ্ট নিয়ম অনুসারে একটি ধ্বনিই শোনা যায় (সবসময় বর্ণমালার ‘আগের’ অক্ষর নয়)। যেমন 앉다-তে ㄴ শোনা যায়; 읽다-তে প্রায়ই ㄱ।",
-          "লিংকিং: ব্যাচিমের পরে ㅇ দিয়ে শুরু অক্ষর থাকলে ব্যাচিমের ধ্বনি পরের অক্ষরে যায়। যেমন: 한국어=[한구거], 음악=[으막], 발음=[바름], 같이=[가치]।"
+          "ব্যাচিম (받침) = অক্ষর ব্লকের নিচে বসা ব্যঞ্জন। উদাহরণ: 간, 문, 밥।",
+          "এখন লক্ষ্য: ব্যাচিম চিনতে পারা + শেষ ধ্বনি বোঝা। জোড় ব্যাচিম (앉다, 없다) পরে ধীরে শিখব।",
+          "গুরুত্বপূর্ণ: লেখার অক্ষর আর শোনার ধ্বনি এক নাও হতে পারে — পরের ধাপে ৭টি ধ্বনির নিয়ম শিখবেন।",
+          "এই মডিউলে কঠিন 경음화 (경음화) বা 돋보기/잡지 টাইপ শব্দ নেই — সেগুলো স্পিক-ল্যাবে সহজ উদাহরণে পরে আসবে।"
         ],
         "en": [
-          "A consonant under the vowel is batchim (받침). Examples: 간, 문, 밥.",
-          "Single batchim: 먹다=[먹따] (to eat), 닫다=[닫따] (to close).",
-          "Double batchim: 앉다=[안따] (to sit), 많다=[만타] (many).",
-          "Double batchim usually surfaces as one sound by rule (not simply 'alphabet order'). E.g. 앉다 keeps ㄴ; 읽다 often ㄱ.",
-          "Linking: before ㅇ, batchim moves to the next syllable: 한국어=[한구거], 음악=[으막]."
+          "Batchim is the final consonant at the bottom of a syllable block: 간, 문, 밥.",
+          "Goal now: recognize batchim and its surface sound. Double batchim comes later.",
+          "Spelling letter ≠ always the sound you hear — next step teaches the 7 surface sounds.",
+          "No heavy tensification vocabulary here (no 돋보기/잡지). A light intro comes later in Speak Lab."
         ],
         "ko": [
-          "모음 아래 자음을 받침이라고 합니다. 예: 간, 문, 밥.",
-          "홑받침: 먹다=[먹따], 닫다=[닫따].",
-          "겹받침: 앉다=[안따], 많다=[만타].",
-          "겹받침은 규칙에 따라 한 소리로 납니다(단순 사전순이 아님).",
-          "연음: 받침 뒤 ㅇ이 오면 소리가 넘어갑니다. 예: 한국어=[한구거]."
+          "받침은 음절 아래 자음입니다. 예: 간, 문, 밥.",
+          "지금은 받침 인식과 7소리 규칙이 목표입니다.",
+          "어려운 경음화 단어는 Speak Lab에서 쉬운 예로 다룹니다."
         ]
       }
     },
     {
-      "id": "b-tense",
+      "id": "b-seven-sounds",
       "type": "explain",
       "title": {
-        "bn": "ব্যাচিমের পরে কঠিন উচ্চারণ (경음화)",
-        "ko": "받침 뒤 경음화",
-        "en": "Tensification after batchim"
+        "bn": "৭টি ব্যাচিম ধ্বনি (সবচেয়ে গুরুত্বপূর্ণ নিয়ম)",
+        "ko": "받침 7개 소리",
+        "en": "The 7 batchim sounds"
       },
       "body": {
         "bn": [
-          "নিয়ম: ব্যাচিম ㄱ, ㄷ, ㅂ (এবং কিছু ক্ষেত্রে ㄴ, ㅁ)-এর পরে ㄱ, ㄷ, ㅂ, ㅅ, ㅈ থাকলে যথাক্রমে ㄲ, ㄸ, ㅃ, ㅆ, ㅉ পড়তে হয়।",
-          "ㄷ-ব্যাচিমের পরে: 받고=[받꼬], 듣다=[듣따], 돋보기=[돋뽀기], 걷자=[걷짜]।",
-          "ㅂ-ব্যাচিমের পরে: 입국=[입꾹], 입다=[입따], 십분=[십뿐], 잡지=[잡찌]।",
-          "ㄴ-ব্যাচিমের পরে (কিছু শব্দে): 신고=[신꼬], 신다=[신따], 문법=[문뻡], 손수건=[손쑤건]।",
-          "আরও: 인구=[인꾸], 만두=[만뚜], 담배=[담빼], 감자=[감짜]।"
+          "লেখার সময় অনেক ব্যঞ্জন ব্যাচিম হতে পারে, কিন্তু শেষে উচ্চারণে মাত্র ৭টি ধ্বনি থাকে। এটা বাংলাভাষীদের জন্য সবচেয়ে গুরুত্বপূর্ণ ‘রিডাকশন’ নিয়ম।",
+          "১) [ক্] ㄱ ㅋ ㄲ → উদাহরণ: 국, 부엌, 밖",
+          "২) [ন্] ㄴ → 문, 산",
+          "৩) [ত্] ㄷ ㅅ ㅆ ㅈ ㅊ ㅌ ㅎ → 곧, 옷, 있다, 낮, 꽃, 밭, 히읗-ব্যাচিম শব্দ",
+          "৪) [ল্] ㄹ → 달, 말",
+          "৫) [ম্] ㅁ → 밤, 감",
+          "৬) [প্] ㅂ ㅍ → 밥, 앞",
+          "৭) [ং] ㅇ → 방, 강",
+          "টিপ: 부엌 লেখায় ㅋ, কিন্তু শোনায় [부억]≈‘পুঅক’ — লেখার অক্ষর ≠ শেষ ধ্বনি। আগে ৭ ধ্বনি আয়ত্ত করুন; কঠিন 경음화 (경음화) পরে শিখব।"
         ],
         "en": [
-          "After batchim ㄱ/ㄷ/ㅂ (sometimes ㄴ/ㅁ), following ㄱㄷㅂㅅㅈ become tense ㄲㄸㅃㅆㅉ.",
-          "After ㄷ: 받고=[받꼬], 듣다=[듣따].",
-          "After ㅂ: 입국=[입꾹], 입다=[입따], 잡지=[잡찌].",
-          "After ㄴ (some words): 신고=[신꼬], 문법=[문뻡].",
-          "More: 인구=[인꾸], 만두=[만뚜], 담배=[담빼], 감자=[감짜]."
+          "Many letters can be written as batchim, but they surface as only seven coda sounds. This reduction is essential for beginners.",
+          "1) [k] ㄱ ㅋ ㄲ — 국, 부엌, 밖",
+          "2) [n] ㄴ — 문, 산",
+          "3) [t] ㄷ ㅅ ㅆ ㅈ ㅊ ㅌ ㅎ — 곧, 옷, 낮, 꽃, 밭",
+          "4) [l] ㄹ — 달, 말",
+          "5) [m] ㅁ — 밤, 감",
+          "6) [p] ㅂ ㅍ — 밥, 앞",
+          "7) [ng] ㅇ — 방, 강",
+          "Tip: 부엌 is written with ㅋ but ends in the [k] sound. Master these seven sounds first; tensification comes later."
         ],
         "ko": [
-          "규칙: 받침 ㄱ, ㄷ, ㅂ 뒤의 ㄱ, ㄷ, ㅂ, ㅅ, ㅈ은 된소리 ㄲ, ㄸ, ㅃ, ㅆ, ㅉ으로 발음합니다.",
-          "ㄷ 받침 뒤: 받고=[받꼬], 듣다=[듣따], 돋보기=[돋뽀기], 걷자=[걷짜].",
-          "ㅂ 받침 뒤: 입국=[입꾹], 입다=[입따], 십분=[십뿐], 입상=[입쌍], 잡지=[잡찌].",
-          "ㄴ 받침 뒤 일부 단어: 신고=[신꼬], 신다=[신따], 문법=[문뻡], 손수건=[손쑤건], 한자=[한짜].",
-          "더 보기: 인구=[인꾸], 만두=[만뚜], 담배=[담빼], 감자=[감짜]."
+          "받침 글자는 많아도 소리로는 7개입니다.",
+          "ㄱ/ㅋ/ㄲ→[ㄱ], ㄴ→[ㄴ], ㄷㅅㅆㅈㅊㅌㅎ→[ㄷ], ㄹ→[ㄹ], ㅁ→[ㅁ], ㅂㅍ→[ㅂ], ㅇ→[ㅇ].",
+          "예: 국, 문, 옷, 달, 밤, 밥, 방.",
+          "먼저 7소리를 익히고, 경음화는 나중에 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "b-linking",
+      "type": "explain",
+      "title": {
+        "bn": "সহজ লিংকিং (연음) — শুধু ㅇ থাকলে",
+        "ko": "쉬운 연음",
+        "en": "Light linking before ㅇ"
+      },
+      "body": {
+        "bn": [
+          "যখন পরের অক্ষর ㅇ দিয়ে শুরু (স্বরধ্বনি), ব্যাচিমের ধ্বনি পরের অক্ষরে চলে যায়। এটাই লিংকিং।",
+          "সহজ উদাহরণ: 한국어 → [한구거], 음악 → [으막], 옷이 → [오시]।",
+          "এখন শুধু এই সহজ কেস মনে রাখুন। কঠিন 경음화 (학교, 있다 টাইপ) স্পিক-ল্যাবে পরে আসবে — এখন 돋보기/잡지 শেখার দরকার নেই।"
+        ],
+        "en": [
+          "If the next syllable starts with ㅇ (vowel onset), the batchim sound moves over (linking).",
+          "Easy examples: 한국어→[한구거], 음악→[으막], 옷이→[오시].",
+          "Skip advanced tensification vocabulary for now; you will meet a short 경음화 intro later in Speak Lab with easy words only."
+        ],
+        "ko": [
+          "다음 음절이 ㅇ으로 시작하면 받침 소리가 넘어갑니다.",
+          "예: 한국어=[한구거], 음악=[으막], 옷이=[오시].",
+          "어려운 경음화 단어는 나중(Speak Lab)에 쉬운 예로만 다룹니다."
         ]
       }
     },
@@ -91,100 +121,84 @@
       "minListens": 2,
       "items": [
         {
-          "id": "b-sp1",
-          "text": "듣다",
-          "romanization": "deut-tta",
-          "audioText": "듣다",
-          "bn": "দূত্তা — শোনা [듣따]",
-          "en": "to listen [듣따]"
+          "id": "b-sp-k",
+          "text": "국",
+          "romanization": "guk",
+          "audioText": "국",
+          "bn": "কুক — স্যুপ [ক্]",
+          "en": "soup [k]"
         },
         {
-          "id": "b-sp2",
-          "text": "입다",
-          "romanization": "ip-tta",
-          "audioText": "입다",
-          "bn": "ইপত্তা — পরিধান করা",
-          "en": "to wear [입따]"
+          "id": "b-sp-n",
+          "text": "문",
+          "romanization": "mun",
+          "audioText": "문",
+          "bn": "মুন — দরজা [ন্]",
+          "en": "door [n]"
         },
         {
-          "id": "b-sp3",
-          "text": "잡지",
-          "romanization": "jap-jji",
-          "audioText": "잡지",
-          "bn": "চাপচ্চি — ম্যাগাজিন",
-          "en": "magazine [잡찌]"
-        },
-        {
-          "id": "b-sp4",
-          "text": "문법",
-          "romanization": "mun-ppeop",
-          "audioText": "문법",
-          "bn": "মুনপ্পাদ — গ্রামার [문뻡]",
-          "en": "grammar [문뻡]"
-        },
-        {
-          "id": "b-sp5",
-          "text": "한국어",
-          "romanization": "han-gu-geo",
-          "audioText": "한국어",
-          "bn": "হানগুগও — কোরিয়ান ভাষা (লিংকিং) [한구거]",
-          "en": "Korean language [한구거]"
-        },
-        {
-          "id": "b-sp6",
-          "text": "음악",
-          "romanization": "eu-mak",
-          "audioText": "음악",
-          "bn": "উমাক — সঙ্গীত (লিংকিং) [으막]",
-          "en": "music [으막]"
-        },
-        {
-          "id": "b-sp7",
-          "text": "부엌",
-          "romanization": "bu-eok",
-          "audioText": "부엌",
-          "bn": "পুঅক — রান্নাঘর (ㅋ ব্যাচিম)",
-          "en": "kitchen (ㅋ batchim)"
-        },
-        {
-          "id": "b-sp8",
-          "text": "밭",
-          "romanization": "bat",
-          "audioText": "밭",
-          "bn": "পাত — ক্ষেত (ㅌ ব্যাচিম)",
-          "en": "field (ㅌ batchim)"
-        },
-        {
-          "id": "b-sp9",
-          "text": "앞",
-          "romanization": "ap",
-          "audioText": "앞",
-          "bn": "আপ — সামনে (ㅍ ব্যাচিম)",
-          "en": "front (ㅍ batchim)"
-        },
-        {
-          "id": "b-sp10",
-          "text": "꽃",
-          "romanization": "kkot",
-          "audioText": "꽃",
-          "bn": "ক্কোত — ফুল (ㅊ ব্যাচিম)",
-          "en": "flower (ㅊ batchim)"
-        },
-        {
-          "id": "b-sp11",
+          "id": "b-sp-t",
           "text": "옷",
           "romanization": "ot",
           "audioText": "옷",
-          "bn": "ওত — কাপড় (ㅅ ব্যাচিম)",
-          "en": "clothes (ㅅ batchim)"
+          "bn": "ওত — কাপড় [ত্]",
+          "en": "clothes [t]"
         },
         {
-          "id": "b-sp12",
+          "id": "b-sp-l",
+          "text": "달",
+          "romanization": "dal",
+          "audioText": "달",
+          "bn": "তাল — চাঁদ [ল্]",
+          "en": "moon [l]"
+        },
+        {
+          "id": "b-sp-m",
+          "text": "밤",
+          "romanization": "bam",
+          "audioText": "밤",
+          "bn": "পাম — রাত [ম্]",
+          "en": "night [m]"
+        },
+        {
+          "id": "b-sp-p",
+          "text": "밥",
+          "romanization": "bap",
+          "audioText": "밥",
+          "bn": "পাপ — ভাত [প্]",
+          "en": "rice/meal [p]"
+        },
+        {
+          "id": "b-sp-ng",
+          "text": "방",
+          "romanization": "bang",
+          "audioText": "방",
+          "bn": "পাং — ঘর [ং]",
+          "en": "room [ng]"
+        },
+        {
+          "id": "b-sp-kk",
           "text": "밖",
           "romanization": "bak",
           "audioText": "밖",
-          "bn": "পাক — বাইরে (ㄲ ব্যাচিম)",
-          "en": "outside (ㄲ batchim)"
+          "bn": "পাক — বাইরে (ㄲ→[ক্])",
+          "en": "outside (ㄲ→[k])"
+        },
+        {
+          "id": "b-sp-ch",
+          "text": "꽃",
+          "romanization": "kkot",
+          "audioText": "꽃",
+          "bn": "ক্কোত — ফুল (ㅊ→[ত্])",
+          "en": "flower (ㅊ→[t])"
+        },
+        {
+          "id": "b-sp-link",
+          "text": "한국어",
+          "romanization": "han-gu-geo",
+          "audioText": "한국어",
+          "bn": "হানগুগও — লিংকিং [한구거]",
+          "en": "Korean language [linking]"
         }
       ],
       "fallbackQuizIds": []
@@ -197,114 +211,230 @@
           "id": "b-q1",
           "kind": "multiple-choice",
           "promptBn": "간-এর batchim (받침)?",
-          "promptEn": "Batchim in 간?",
+          "promptKo": "",
+          "promptEn": "Batchim letter in 간?",
           "options": [
             "ㄱ",
             "ㄴ",
             "ㅏ",
             "ㅇ"
           ],
+          "pairs": [],
           "answer": 1,
-          "explanationBn": "받침=ㄴ",
+          "explanationBn": "간-এর ব্যাচিম ㄴ, ধ্বনি [ন্]।",
           "topic": "batchim"
         },
         {
           "id": "b-q2",
           "kind": "multiple-choice",
           "promptBn": "가-তে ব্যাচিম আছে কি?",
+          "promptKo": "",
+          "promptEn": "",
           "options": [
             "হ্যাঁ",
             "না",
             "ㄱ",
             "ㅇ"
           ],
+          "pairs": [],
           "answer": 1,
-          "explanationBn": "가-তে কোনো ব্যাচিম নাই",
+          "explanationBn": "가-তে কোনো ব্যাচিম নেই।",
           "topic": "batchim"
         },
         {
           "id": "b-q3",
           "kind": "multiple-choice",
-          "promptBn": "ব্যাচিম অক্ষরের কোথায় বসে?",
+          "promptBn": "ব্যাচিম অক্ষর ব্লকের কোথায় বসে?",
+          "promptKo": "",
+          "promptEn": "",
           "options": [
             "উপরে",
             "নীচে",
             "বাইরে",
             "বামে"
           ],
+          "pairs": [],
           "answer": 1,
-          "explanationBn": "ব্যাচিম স্বরবর্ণের নীচে বসে",
+          "explanationBn": "ব্যাচিম ব্লকের নীচে বসে।",
           "topic": "batchim"
         },
         {
           "id": "b-q4",
           "kind": "multiple-choice",
-          "promptBn": "입다 শব্দের সঠিক উচ্চারণ কোনটি?",
-          "promptEn": "Correct pronunciation of 입다?",
+          "promptBn": "ব্যাচিম উচ্চারণে মোট কয়টি ধ্বনি?",
+          "promptKo": "",
+          "promptEn": "How many batchim surface sounds?",
           "options": [
-            "[입따]",
-            "[입다]",
-            "[이다]",
-            "[임다]"
+            "১৪",
+            "৭",
+            "১৯",
+            "৩"
           ],
-          "answer": 0,
-          "explanationBn": "ㅂ ব্যাচিমের পরে ㄷ → ㄸ কঠিন উচ্চারণ হয়: 입다=[입따]",
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "লেখার অক্ষর অনেক, কিন্তু শেষ ধ্বনি মাত্র ৭টি।",
           "topic": "batchim"
         },
         {
           "id": "b-q5",
           "kind": "multiple-choice",
-          "promptBn": "잡지 শব্দের সঠিক উচ্চারণ কোনটি?",
-          "promptEn": "Correct pronunciation of 잡지?",
+          "promptBn": "옷-এর শেষ ধ্বনি কোন গ্রুপ?",
+          "promptKo": "",
+          "promptEn": "",
           "options": [
-            "[잡찌]",
-            "[잡지]",
-            "[자비]",
-            "[잠지]"
+            "[ক্]",
+            "[ত্]",
+            "[প্]",
+            "[ং]"
           ],
-          "answer": 0,
-          "explanationBn": "ㅂ ব্যাচিমের পরে ㅈ → ㅉ: 잡지=[잡찌] (ম্যাগাজিন)",
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㅅ ব্যাচিম → [ত্] গ্রুপ (ㄷㅅㅈㅊㅌㅎ…)।",
           "topic": "batchim"
         },
         {
           "id": "b-q6",
           "kind": "multiple-choice",
-          "promptBn": "앉다 (ㄵ ব্যাচিম) সাধারণত কীভাবে উচ্চারিত হয়?",
-          "promptEn": "How is a double batchim pronounced?",
+          "promptBn": "부엌-এর শেষ ধ্বনি?",
+          "promptKo": "",
+          "promptEn": "",
           "options": [
-            "[안따] — ㄴ ধ্বনি + পরের অক্ষর কঠিন",
-            "দুটি বর্ণই সমান জোরে",
-            "শুধু ㅈ",
-            "কোনো ধ্বনিই নয়"
+            "[খ্] আলাদা",
+            "[ক্] (ㄱㅋㄲ গ্রুপ)",
+            "[ত্]",
+            "[ং]"
           ],
-          "answer": 0,
-          "explanationBn": "앉다-এর জোড় ব্যাচিম ㄵ সাধারণত ㄴ হিসেবে শোনা যায় এবং পরের ㄷ কঠিন হয়ে [안따]। এটি সরল ‘বর্ণমালার আগের অক্ষর’ নিয়ম নয়।",
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㅋ ব্যাচিমও [ক্] গ্রুপে পড়ে — লেখার ㅋ ≠ আলাদা শেষ ধ্বনি।",
           "topic": "batchim"
         },
         {
           "id": "b-q7",
           "kind": "matching",
-          "promptBn": "শব্দের সাথে উচ্চারণ মেলান",
-          "promptEn": "Match word with pronunciation",
+          "promptBn": "শব্দ ও ৭-ধ্বনি গ্রুপ মেলান",
+          "promptKo": "",
+          "promptEn": "Match word to surface sound",
+          "options": [],
           "pairs": [
             {
-              "left": "듣다",
-              "right": "[듣따]"
+              "left": "국",
+              "right": "[ক্]"
             },
             {
-              "left": "십분",
-              "right": "[십뿐]"
+              "left": "문",
+              "right": "[ন্]"
             },
             {
-              "left": "신고",
-              "right": "[신꼬]"
+              "left": "밥",
+              "right": "[প্]"
             },
             {
-              "left": "한국어",
-              "right": "[한구거]"
+              "left": "방",
+              "right": "[ং]"
             }
           ],
-          "explanationBn": "ব্যাচিমের পরে কঠিন উচ্চারণ ও লিংকিং নিয়ম",
+          "answer": 0,
+          "explanationBn": "৭টি সারফেস ধ্বনি: ক্ ন্ ত্ ল্ ম্ প্ ং।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-q8",
+          "kind": "multiple-choice",
+          "promptBn": "꽃-এর লেখা ব্যাচিম ㅊ — শোনায় কোন গ্রুপ?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "[ছ্] আলাদা",
+            "[ত্]",
+            "[ক্]",
+            "[ং]"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㅊ ব্যাচিমও [ত্] গ্রুপ।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-q9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "밥",
+          "options": [
+            "바",
+            "반",
+            "밤",
+            "밥"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "밥 = [প্] ব্যাচিম।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-q10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ বেছে নিন",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "방",
+          "options": [
+            "바",
+            "반",
+            "방",
+            "밤"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "방 = [ং] ব্যাচিম।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-q11",
+          "kind": "multiple-choice",
+          "promptBn": "한국어-এর লিংকিং উচ্চারণ?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "[한국어]",
+            "[한구거]",
+            "[한구고]",
+            "[항우거]"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㅇ-শুরু পরের অক্ষরে ব্যাচিম চলে যায় → [한구거]।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-q12",
+          "kind": "matching",
+          "promptBn": "লেখা ব্যাচিম → শোনার গ্রুপ",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [],
+          "pairs": [
+            {
+              "left": "ㅋ/ㄲ",
+              "right": "[ক্]"
+            },
+            {
+              "left": "ㅅ/ㅊ/ㅌ",
+              "right": "[ত্]"
+            },
+            {
+              "left": "ㅍ",
+              "right": "[প্]"
+            },
+            {
+              "left": "ㅇ",
+              "right": "[ং]"
+            }
+          ],
+          "answer": 0,
+          "explanationBn": "অনেক লেখা অক্ষর → মাত্র ৭ শোনার ধ্বনি।",
           "topic": "batchim"
         },
         {
@@ -1093,6 +1223,59 @@
           "pairs": [],
           "answer": 1,
           "explanationBn": "옷-এর ব্যাচিম ㅅ। উচ্চারণ: ot।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-extra-1",
+          "kind": "multiple-choice",
+          "promptBn": "밖-এর শেষ ধ্বনি গ্রুপ?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "[প্]",
+            "[ক্]",
+            "[ত্]",
+            "[ং]"
+          ],
+          "pairs": [],
+          "answer": 1,
+          "explanationBn": "ㄲ ব্যাচিম → [ক্]।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-extra-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "달",
+          "options": [
+            "다",
+            "단",
+            "달",
+            "담"
+          ],
+          "pairs": [],
+          "answer": 2,
+          "explanationBn": "달 = [ল্]।",
+          "topic": "batchim"
+        },
+        {
+          "id": "b-d-extra-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক শব্দ",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "국",
+          "options": [
+            "구",
+            "군",
+            "굴",
+            "국"
+          ],
+          "pairs": [],
+          "answer": 3,
+          "explanationBn": "국 = [ক্]।",
           "topic": "batchim"
         }
       ],
