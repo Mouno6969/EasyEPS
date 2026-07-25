@@ -7,6 +7,7 @@ import type { BasicsModuleProgress, BasicsProgress } from "../shared/basics";
 import {
   applyBasicsModulePatch,
   emptyBasicsProgress,
+  getModuleQuizQuestions,
   isCheckpointPassing,
   isModuleComplete,
   mergeBasicsProgress,
@@ -704,9 +705,10 @@ export async function saveBasicsModuleProgress(
 export async function submitBasicsCheckpoint(
   userId: number,
   input: {
-    answers: Record<string, number>;
+    answers?: Record<string, number>;
+    selectedOptions?: Record<string, string>;
     matching?: Record<string, Record<string, string>>;
-    questionIds?: string[];
+    questionIds: string[];
     durationSec?: number;
   },
 ): Promise<{
@@ -721,28 +723,37 @@ export async function submitBasicsCheckpoint(
   const module = getBasicsModule("checkpoint");
   if (!module) throw new Error("checkpoint module missing");
 
-  // Normalize matching string keys → numeric indexes for scoreBasicsQuiz
-  const matching: Record<string, Record<number, string>> = {};
+  // Keep matching maps as string keys (left→right preferred; index strings still work).
+  const matching: Record<string, Record<string, string>> = {};
   if (input.matching) {
     for (const [qid, pairs] of Object.entries(input.matching)) {
-      matching[qid] = {};
-      for (const [index, value] of Object.entries(pairs)) {
-        matching[qid]![Number(index)] = value;
-      }
+      matching[qid] = { ...pairs };
     }
   }
 
   const quizStep = module.steps.find(s => s.type === "quiz");
   const drawCount = quizStep && quizStep.type === "quiz" ? (quizStep.drawCount ?? 25) : 25;
-  // Prefer client sample ids; clamp to drawCount so clients cannot force a tiny set.
-  const questionIds =
-    input.questionIds && input.questionIds.length > 0
-      ? [...new Set(input.questionIds)].slice(0, drawCount)
-      : undefined;
+  // Require a proper sample; clamp to drawCount so clients cannot force a tiny set.
+  const bankSize = getModuleQuizQuestions(module).length;
+  const uniqueIds = [...new Set(input.questionIds ?? [])];
+  if (uniqueIds.length === 0) {
+    throw new Error("checkpoint questionIds are required");
+  }
+  const questionIds = uniqueIds.slice(0, drawCount);
+  const expected = Math.min(drawCount, bankSize);
+  if (questionIds.length < expected) {
+    throw new Error(`checkpoint requires ${expected} questionIds, got ${questionIds.length}`);
+  }
 
-  const { score, total, correctIds } = scoreBasicsQuiz(module, input.answers, matching, {
-    questionIds,
-  });
+  const { score, total, correctIds } = scoreBasicsQuiz(
+    module,
+    input.answers ?? {},
+    matching,
+    {
+      questionIds,
+      selectedOptions: input.selectedOptions ?? {},
+    },
+  );
   const passRatio = getBasicsManifest().passScore;
   const passed = isCheckpointPassing(score, total, passRatio);
 

@@ -705,6 +705,61 @@ export function sampleBasicsQuiz(
   return shuffleBasicsQuestions(picked.slice(0, drawCount), random);
 }
 
+/**
+ * Shuffle MC/listen option order (remapping answer index) and matching pair order.
+ * Prevents “always pick B” / position memorization across retries of the same bank item.
+ */
+export function shuffleQuestionPresentation(
+  question: BasicsQuizQuestion,
+  random: () => number = Math.random,
+): BasicsQuizQuestion {
+  if (question.kind === "matching") {
+    return {
+      ...question,
+      pairs: shuffleBasicsQuestions(
+        question.pairs.map(pair => ({ ...pair })),
+        random,
+      ) as BasicsQuizQuestion["pairs"],
+    };
+  }
+
+  const options = question.options ?? [];
+  if (options.length < 2 || question.answer == null) {
+    return { ...question, options: [...options] };
+  }
+
+  const indexed = options.map((opt, index) => ({ opt, index }));
+  for (let i = indexed.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(random() * (i + 1));
+    const tmp = indexed[i]!;
+    indexed[i] = indexed[j]!;
+    indexed[j] = tmp;
+  }
+  const shuffledOptions = indexed.map(item => item.opt);
+  const newAnswer = indexed.findIndex(item => item.index === question.answer);
+  return {
+    ...question,
+    options: shuffledOptions,
+    answer: newAnswer >= 0 ? newAnswer : question.answer,
+  };
+}
+
+/**
+ * Full checkpoint/module draw: sample from bank, then shuffle each item's presentation.
+ * Call again on every retry so both item set and option positions change.
+ */
+export function prepareBasicsQuizDraw(
+  bank: readonly BasicsQuizQuestion[],
+  drawCount: number | undefined,
+  random: () => number = Math.random,
+): BasicsQuizQuestion[] {
+  const sample =
+    drawCount != null && drawCount > 0 && bank.length > 0
+      ? sampleBasicsQuiz(bank, Math.min(drawCount, bank.length), random)
+      : shuffleBasicsQuestions(bank, random);
+  return sample.map(q => shuffleQuestionPresentation(q, random));
+}
+
 function matchingSelection(
   selections: Record<string, string> | Record<number, string> | undefined,
   index: number,
@@ -724,20 +779,51 @@ function isBasicsMatchingCorrect(
 }
 
 /**
+ * Grade matching when selections are either:
+ * - left-text → right-text maps (preferred; shuffle-safe)
+ * - index → right-text maps (legacy presentation order)
+ */
+function isBasicsMatchingCorrectFlexible(
+  question: BasicsQuizQuestion,
+  selections: Record<string, string> | Record<number, string> | undefined,
+): boolean {
+  if (question.kind !== "matching") return false;
+  if (!selections) return false;
+  const asRecord = selections as Record<string | number, string>;
+  return question.pairs.every((pair, index) => {
+    const byLeft = asRecord[pair.left];
+    if (byLeft != null) return byLeft === pair.right;
+    return matchingSelection(selections, index) === pair.right;
+  });
+}
+
+/**
  * Grade a specific question list (e.g. a sampled draw).
- * matching: all pairs correct → 1 point; MC/listen-choice: answer index match → 1 point.
+ * Prefer `selectedOptions` (option text) for MC/listen so option-order shuffles stay gradeable
+ * against the canonical bank. Falls back to answer index for legacy clients.
+ * matching: all pairs correct → 1 point (left→right map preferred).
  */
 export function scoreBasicsQuestions(
   questions: readonly BasicsQuizQuestion[],
-  answers: Record<string, number>,
+  answers: Record<string, number> = {},
   matching: Record<string, Record<string, string> | Record<number, string>> = {},
+  selectedOptions: Record<string, string> = {},
 ): { score: number; total: number; correctIds: string[] } {
   const correctIds: string[] = [];
   for (const question of questions) {
-    const ok =
-      question.kind === "matching"
-        ? isBasicsMatchingCorrect(question, matching[question.id])
-        : answers[question.id] === question.answer;
+    let ok = false;
+    if (question.kind === "matching") {
+      ok = isBasicsMatchingCorrectFlexible(question, matching[question.id]);
+    } else {
+      const correctText =
+        question.answer != null && question.options[question.answer] != null
+          ? question.options[question.answer]
+          : undefined;
+      const selectedText =
+        selectedOptions[question.id] ??
+        (answers[question.id] != null ? question.options[answers[question.id]!] : undefined);
+      ok = correctText != null && selectedText != null && selectedText === correctText;
+    }
     if (ok) correctIds.push(question.id);
   }
   return { score: correctIds.length, total: questions.length, correctIds };
@@ -747,12 +833,13 @@ export function scoreBasicsQuestions(
  * Grade quiz questions on a module.
  * When `questionIds` is provided, only those bank IDs are graded (random sampling path).
  * Unknown ids are ignored; total equals resolved bank questions (not client claim).
+ * Prefer `selectedOptions` so presentation shuffles cannot desync server grading.
  */
 export function scoreBasicsQuiz(
   module: BasicsModule,
-  answers: Record<string, number>,
+  answers: Record<string, number> = {},
   matching: Record<string, Record<string, string> | Record<number, string>> = {},
-  options?: { questionIds?: string[] },
+  options?: { questionIds?: string[]; selectedOptions?: Record<string, string> },
 ): { score: number; total: number; correctIds: string[] } {
   const bank = getModuleQuizQuestions(module);
   if (options?.questionIds?.length) {
@@ -767,9 +854,9 @@ export function scoreBasicsQuiz(
       seen.add(q.id);
       return true;
     });
-    return scoreBasicsQuestions(unique, answers, matching);
+    return scoreBasicsQuestions(unique, answers, matching, options.selectedOptions ?? {});
   }
-  return scoreBasicsQuestions(bank, answers, matching);
+  return scoreBasicsQuestions(bank, answers, matching, options?.selectedOptions ?? {});
 }
 
 
@@ -918,10 +1005,22 @@ export const basicsProgressPatchSchema = z
 export type BasicsProgressPatch = z.infer<typeof basicsProgressPatchSchema>;
 
 export const basicsSubmitCheckpointSchema = z.object({
-  answers: z.record(z.string(), z.number().int()),
+  /** Legacy: option index into the *presented* (possibly shuffled) options. */
+  answers: z.record(z.string(), z.number().int()).optional().default({}),
+  /**
+   * Preferred: selected option *text* for MC/listen-choice.
+   * Grades against the canonical bank so option shuffles cannot be gamed or desynced.
+   */
+  selectedOptions: z.record(z.string(), z.string()).optional().default({}),
+  /**
+   * Matching selections as left→right (preferred) or index→right (legacy).
+   */
   matching: z.record(z.string(), z.record(z.string(), z.string())).optional(),
-  /** Sampled question ids for this attempt (subset of the checkpoint bank). */
-  questionIds: z.array(z.string().min(1)).min(1).max(40).optional(),
+  /**
+   * Required sampled question ids for this attempt (subset of the checkpoint bank).
+   * Length must match the module drawCount (typically 25).
+   */
+  questionIds: z.array(z.string().min(1)).min(1).max(40),
   durationSec: z.number().int().min(0).max(7200).optional(),
 });
 

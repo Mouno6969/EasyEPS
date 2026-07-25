@@ -14,8 +14,11 @@ import {
   mergeBasicsProgress,
   moduleRequirements,
   pickBetterQuiz,
+  prepareBasicsQuizDraw,
   quizRatio,
+  scoreBasicsQuestions,
   scoreBasicsQuiz,
+  shuffleQuestionPresentation,
   stripBasicsUnlockFields,
   strokeFileSchema,
   uniqueIdCount,
@@ -763,5 +766,76 @@ describe("submitCheckpoint pure grading contract (no DB)", () => {
     }
     const failed = scoreBasicsQuiz(checkpoint, failAnswers, matching);
     expect(isCheckpointPassing(failed.score, failed.total, passRatio)).toBe(false);
+  });
+});
+
+describe("checkpoint anti-memorization draws", () => {
+  it("prepareBasicsQuizDraw returns drawCount items from a large bank", () => {
+    const checkpoint = getBasicsModule("checkpoint")!;
+    const bank = getModuleQuizQuestions(checkpoint);
+    expect(bank.length).toBeGreaterThanOrEqual(100);
+    const draw = prepareBasicsQuizDraw(bank, 25);
+    expect(draw).toHaveLength(25);
+    const ids = new Set(draw.map(q => q.id));
+    expect(ids.size).toBe(25);
+  });
+
+  it("two draws with different RNGs differ in order or membership (almost always)", () => {
+    const checkpoint = getBasicsModule("checkpoint")!;
+    const bank = getModuleQuizQuestions(checkpoint);
+    let a = 0;
+    const rngA = () => {
+      a = (a * 1664525 + 1013904223) >>> 0;
+      return a / 0x100000000;
+    };
+    let b = 1;
+    const rngB = () => {
+      b = (b * 1664525 + 1013904223) >>> 0;
+      return b / 0x100000000;
+    };
+    const d1 = prepareBasicsQuizDraw(bank, 25, rngA).map(q => q.id).join(",");
+    const d2 = prepareBasicsQuizDraw(bank, 25, rngB).map(q => q.id).join(",");
+    expect(d1).not.toBe(d2);
+  });
+
+  it("shuffleQuestionPresentation remaps answer index to the same option text", () => {
+    const checkpoint = getBasicsModule("checkpoint")!;
+    const mc = getModuleQuizQuestions(checkpoint).find(q => q.kind === "multiple-choice")!;
+    const correct = mc.options[mc.answer!];
+    let seed = 7;
+    const rng = () => {
+      seed = (seed * 1103515245 + 12345) >>> 0;
+      return seed / 0x100000000;
+    };
+    const shuffled = shuffleQuestionPresentation(mc, rng);
+    expect(shuffled.options[shuffled.answer!]).toBe(correct);
+    expect(new Set(shuffled.options)).toEqual(new Set(mc.options));
+  });
+
+  it("grades shuffled presentation via selectedOptions against the bank", () => {
+    const checkpoint = getBasicsModule("checkpoint")!;
+    const bank = getModuleQuizQuestions(checkpoint);
+    const draw = prepareBasicsQuizDraw(bank, 25, () => 0.42);
+    const selectedOptions: Record<string, string> = {};
+    const matching: Record<string, Record<string, string>> = {};
+    for (const q of draw) {
+      if (q.kind === "matching") {
+        matching[q.id] = Object.fromEntries(q.pairs.map(pair => [pair.left, pair.right]));
+      } else if (q.answer != null) {
+        // Use presented option text (what the learner clicked)
+        selectedOptions[q.id] = q.options[q.answer]!;
+      }
+    }
+    // Server grades with canonical bank + option text (not presentation indices)
+    const graded = scoreBasicsQuiz(checkpoint, {}, matching, {
+      questionIds: draw.map(q => q.id),
+      selectedOptions,
+    });
+    expect(graded.total).toBe(25);
+    expect(graded.score).toBe(25);
+
+    // Presentation-local grade also perfect
+    const local = scoreBasicsQuestions(draw, {}, matching, selectedOptions);
+    expect(local.score).toBe(25);
   });
 });

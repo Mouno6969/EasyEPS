@@ -17,7 +17,7 @@ import {
   emptyModuleProgress,
   isCheckpointPassing,
   isModuleComplete,
-  sampleBasicsQuiz,
+  prepareBasicsQuizDraw,
   scoreBasicsQuestions,
   uniqStrings,
   type BasicsModule,
@@ -663,14 +663,31 @@ function BasicsQuizRunner({
     null,
   );
   const [startedAt, setStartedAt] = useState(Date.now());
-  // Stable sample for this mount / retry; re-drawn on reset.
-  const [questions, setQuestions] = useState<BasicsQuizQuestion[]>(() =>
-    drawCount != null ? sampleBasicsQuiz(bank, drawCount) : [...bank],
-  );
+  // Empty until start/retry draws a fresh paper (new items + shuffled options).
+  const [questions, setQuestions] = useState<BasicsQuizQuestion[]>([]);
 
   const passRatio = module.requirements.passRatio ?? 0.7;
   const passPercent = Math.round(passRatio * 100);
   const displayCount = drawCount ?? bank.length;
+
+  const drawFreshPaper = () => {
+    const next = prepareBasicsQuizDraw(bank, drawCount);
+    setQuestions(next);
+    setAnswers({});
+    setMatching({});
+    setSubmitted(false);
+    setResult(null);
+    setStartedAt(Date.now());
+    return next;
+  };
+
+  // Non-checkpoint quizzes auto-start with a shuffled draw on first paint.
+  useEffect(() => {
+    if (!isCheckpoint && questions.length === 0 && bank.length > 0) {
+      drawFreshPaper();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- only seed once per bank/step
+  }, [isCheckpoint, bank, drawCount, stepId]);
 
   if (isCheckpoint && !quizStarted) {
     return (
@@ -681,27 +698,27 @@ function BasicsQuizRunner({
         </h2>
         <p className="mt-4 max-w-2xl text-sm leading-7 text-[var(--navy)]/70">
           {locale === "en"
-            ? `Random placement quiz (${displayCount} of ${bank.length}+ bank). You need about ${passPercent}% to unlock the 60-chapter path. Fail? Review modules and retry.`
-            : `র‍্যান্ডম প্লেসমেন্ট কুইজ (${bank.length}+ ব্যাংক থেকে ${displayCount}টি)। ৬০ অধ্যায় খুলতে প্রায় ${passPercent}% স্কোর লাগবে। ফেল করলে মডিউল রিভিউ করে আবার চেষ্টা করুন।`}
+            ? `Each attempt draws ${displayCount} fresh questions from a ${bank.length}+ bank and shuffles answer positions. You need about ${passPercent}% to unlock the 60-chapter path.`
+            : `প্রতিবার ${bank.length}+ ব্যাংক থেকে ${displayCount}টি নতুন প্রশ্ন ও এলোমেলো অপশন অর্ডার আসবে। ৬০ অধ্যায় খুলতে প্রায় ${passPercent}% স্কোর লাগবে।`}
         </p>
         <ul className="mt-6 space-y-2 text-sm font-semibold text-[var(--navy)]/75">
           <li className="flex items-center gap-2">
             <span className="grid size-6 place-items-center rounded-full bg-[var(--gold)]/20 text-xs font-bold text-[var(--gold-dark)]">
               1
             </span>
-            প্রশ্ন সংখ্যা: {displayCount} (ব্যাংক {bank.length}+)
+            প্রশ্ন: {displayCount} (ব্যাংক {bank.length}+ · প্রতিবার নতুন)
           </li>
           <li className="flex items-center gap-2">
             <span className="grid size-6 place-items-center rounded-full bg-[var(--gold)]/20 text-xs font-bold text-[var(--gold-dark)]">
               2
             </span>
-            পাস অনুপাত: {passPercent}%
+            অপশন অর্ডার প্রতিবার শাফল হয় (পজিশন মুখস্থ কাজ করবে না)
           </li>
           <li className="flex items-center gap-2">
             <span className="grid size-6 place-items-center rounded-full bg-[var(--gold)]/20 text-xs font-bold text-[var(--gold-dark)]">
               3
             </span>
-            আনুমানিক সময়: ~{module.estimatedMinutes} মিনিট
+            পাস: {passPercent}% · ~{module.estimatedMinutes} মিনিট
           </li>
         </ul>
         {typeof progress.quizScore === "number" && (
@@ -713,9 +730,8 @@ function BasicsQuizRunner({
           type="button"
           className="mt-8 rounded-full bg-[var(--navy)] px-8 text-white"
           onClick={() => {
-            setQuestions(drawCount != null ? sampleBasicsQuiz(bank, drawCount) : [...bank]);
+            drawFreshPaper();
             setQuizStarted(true);
-            setStartedAt(Date.now());
           }}
         >
           শুরু করুন
@@ -727,13 +743,39 @@ function BasicsQuizRunner({
     );
   }
 
-  const submit = async () => {
+  const buildSubmissionPayload = () => {
     const questionIds = questions.map(q => q.id);
+    const selectedOptions: Record<string, string> = {};
+    for (const q of questions) {
+      if (q.kind === "matching") continue;
+      const idx = answers[q.id];
+      if (idx != null && q.options[idx] != null) {
+        selectedOptions[q.id] = q.options[idx]!;
+      }
+    }
+    // Matching: left → right (shuffle-safe for server grading against bank)
+    const matchingByLeft: Record<string, Record<string, string>> = {};
+    for (const q of questions) {
+      if (q.kind !== "matching") continue;
+      const sel = matching[q.id] ?? {};
+      const map: Record<string, string> = {};
+      q.pairs.forEach((pair, index) => {
+        const value = sel[String(index)] ?? sel[pair.left];
+        if (value) map[pair.left] = value;
+      });
+      matchingByLeft[q.id] = map;
+    }
+    return { questionIds, selectedOptions, matchingByLeft };
+  };
+
+  const submit = async () => {
+    const { questionIds, selectedOptions, matchingByLeft } = buildSubmissionPayload();
     if (isCheckpoint && isAuthenticated) {
       try {
         const remote = await submitCheckpoint.mutateAsync({
           answers,
-          matching,
+          selectedOptions,
+          matching: matchingByLeft,
           questionIds,
           durationSec: Math.round((Date.now() - startedAt) / 1000),
         });
@@ -755,7 +797,8 @@ function BasicsQuizRunner({
       return;
     }
 
-    const local = scoreBasicsQuestions(questions, answers, matching);
+    // Local grade against the *presented* paper (options already remapped).
+    const local = scoreBasicsQuestions(questions, answers, matching, selectedOptions);
     setResult(local);
     setSubmitted(true);
     onLocalScored(local.score, local.total);
@@ -767,12 +810,17 @@ function BasicsQuizRunner({
   };
 
   const reset = () => {
-    setAnswers({});
-    setMatching({});
-    setSubmitted(false);
-    setResult(null);
-    setQuestions(drawCount != null ? sampleBasicsQuiz(bank, drawCount) : [...bank]);
-    setStartedAt(Date.now());
+    // Checkpoint: return to start screen so every retry is an explicit new paper.
+    if (isCheckpoint) {
+      setQuizStarted(false);
+      setQuestions([]);
+      setAnswers({});
+      setMatching({});
+      setSubmitted(false);
+      setResult(null);
+      return;
+    }
+    drawFreshPaper();
   };
 
   return (

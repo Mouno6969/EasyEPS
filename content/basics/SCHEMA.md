@@ -61,8 +61,9 @@ Fixture uses **`passRatio: 0.66`** so a 2-of-3 quiz passes (`2/3 ≈ 0.666…`).
 - **Checkpoint bank:** ≥100 questions with `drawCount: 25`; bank must include ≥20 listen-choice, ≥8 matching, ≥15 syllable-related, ≥10 batchim-related
 - **Module quiz banks:** typically 20–30 questions with `drawCount` 10–12 (legacy small banks still allowed, ≥3)
 - Jamo grid items may include `shapeMnemonicBn` (Bangla visual mnemonic)
+- **Anti-memorization:** every attempt calls `prepareBasicsQuizDraw` (new sample + per-question option shuffle). Matching left-row order is also shuffled. Retry returns to the checkpoint start screen so a new paper is drawn.
 
-Scoring (`scoreBasicsQuiz` / `scoreBasicsQuestions`): MC/listen index match → 1 pt; matching all pairs correct → 1 pt. Checkpoint submit accepts `questionIds` so only the drawn sample is graded.
+Scoring (`scoreBasicsQuiz` / `scoreBasicsQuestions`): prefer `selectedOptions` (option **text**) for MC/listen so shuffled presentation still grades against the bank; matching prefers left→right maps. Checkpoint submit **requires** `questionIds` of length `drawCount` (25).
 
 ## Unlock semantics (important)
 

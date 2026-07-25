@@ -853,6 +853,7 @@ export const appRouter = router({
         try {
           const result = await db.submitBasicsCheckpoint(ctx.user.id, {
             answers: input.answers,
+            selectedOptions: input.selectedOptions,
             matching: input.matching,
             questionIds: input.questionIds,
             durationSec: input.durationSec,
