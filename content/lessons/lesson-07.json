@@ -10,14 +10,16 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "আবহাওয়া সম্পর্কে কথা বলতে পারা",
-      "বিভিন্ন ঋতুর নাম এবং বৈশিষ্ট্য বর্ণনা করা",
-      "আবহাওয়া অনুযায়ী অনুভূতি প্রকাশ করা"
+      "পছন্দের ঋতু সম্পর্কে বলতে পারা",
+      "আবহাওয়া সম্পর্কে জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "না-বাচক (안) প্রকাশ ব্যবহার করতে পারা",
+      "কোরিয়ার চারটি ঋতুর বৈশিষ্ট্য সম্পর্কে জানা"
     ],
     "en": [
-      "Be able to talk about the weather",
-      "Describe the names and characteristics of different seasons",
-      "Express feelings according to the weather"
+      "Being able to talk about one's favorite season",
+      "Being able to ask and answer questions about the weather",
+      "Being able to use negative expressions",
+      "Knowing about Korea's four distinct seasons"
     ]
   },
   "vocabulary": [
@@ -28,11 +30,11 @@
       "en": "spring",
       "pos": "noun",
       "example": {
-        "ko": "봄에는 꽃이 핍니다.",
-        "bn": "বসন্তে ফুল ফোটে।",
-        "en": "Flowers bloom in spring."
+        "ko": "봄은 따뜻해요.",
+        "bn": "বসন্ত উষ্ণ।",
+        "en": "Spring is warm."
       },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি বাংলা 'ব' এবং 'প'-এর মাঝামাঝি উচ্চারিত হয়।"
+      "pronunciationTipBn": "'봄' [বোম]—ㅂ নরম 'ব', ㅁ বত্ছিম 'ম' দিয়ে শেষ।"
     },
     {
       "ko": "여름",
@@ -41,24 +43,24 @@
       "en": "summer",
       "pos": "noun",
       "example": {
-        "ko": "여름은 날씨가 덥습니다.",
-        "bn": "গ্রীষ্মকালে আবহাওয়া গরম থাকে।",
-        "en": "The weather is hot in summer."
+        "ko": "여름은 너무 더워요.",
+        "bn": "গ্রীষ্ম খুব গরম।",
+        "en": "Summer is very hot."
       },
-      "pronunciationTipBn": "'여' উচ্চারণ করার সময় মুখ একটু বেশি খুলতে হয়।"
+      "pronunciationTipBn": "'여름' [য়রুম]—'여' বলতে 'য়' দিয়ে শুরু করুন।"
     },
     {
       "ko": "가을",
       "romanization": "gaeul",
       "bn": "শরৎ",
-      "en": "autumn",
+      "en": "autumn; fall",
       "pos": "noun",
       "example": {
-        "ko": "가을에는 단풍이 아름답습니다.",
-        "bn": "শরৎকালে ম্যাপল পাতা সুন্দর দেখায়।",
-        "en": "Autumn leaves are beautiful in autumn."
+        "ko": "가을은 시원해요.",
+        "bn": "শরৎ শীতল।",
+        "en": "Autumn is cool."
       },
-      "pronunciationTipBn": "'을' উচ্চারণ করার সময় জিভ তালুতে স্পর্শ করবে।"
+      "pronunciationTipBn": "'가을' [কাউল]—দুই স্বর 'ㅏ'+'ㅡ' দ্রুত মিলিয়ে বলুন।"
     },
     {
       "ko": "겨울",
@@ -67,141 +69,11 @@
       "en": "winter",
       "pos": "noun",
       "example": {
-        "ko": "겨울에는 눈이 옵니다.",
-        "bn": "শীতকালে তুষারপাত হয়।",
-        "en": "It snows in winter."
+        "ko": "겨울은 너무 추워요.",
+        "bn": "শীত খুব ঠান্ডা।",
+        "en": "Winter is very cold."
       },
-      "pronunciationTipBn": "'겨' উচ্চারণ করার সময় 'গ' এবং 'ক'-এর মাঝামাঝি শব্দ হয়।"
-    },
-    {
-      "ko": "날씨",
-      "romanization": "nalssi",
-      "bn": "আবহাওয়া",
-      "en": "weather",
-      "pos": "noun",
-      "example": {
-        "ko": "오늘 날씨가 아주 좋습니다.",
-        "bn": "আজকের আবহাওয়া খুব ভালো।",
-        "en": "The weather is very good today."
-      },
-      "pronunciationTipBn": "'씨' উচ্চারণ করার সময় 'ㅆ' এর কারণে একটু জোর দিয়ে 'স' উচ্চারণ করতে হয়।"
-    },
-    {
-      "ko": "맑다",
-      "romanization": "makda",
-      "bn": "পরিষ্কার (আবহাওয়া)",
-      "en": "to be clear",
-      "pos": "adjective",
-      "example": {
-        "ko": "하늘이 맑아요.",
-        "bn": "আকাশ পরিষ্কার।",
-        "en": "The sky is clear."
-      },
-      "pronunciationTipBn": "'ㄺ' ব্যাচিমের ক্ষেত্রে শুধু 'ㄱ' (ক) উচ্চারিত হয়, '막따' এর মতো শোনায়।"
-    },
-    {
-      "ko": "흐리다",
-      "romanization": "heurida",
-      "bn": "মেঘলা",
-      "en": "to be cloudy",
-      "pos": "adjective",
-      "example": {
-        "ko": "오늘은 날씨가 흐려요.",
-        "bn": "আজ আবহাওয়া মেঘলা।",
-        "en": "The weather is cloudy today."
-      },
-      "pronunciationTipBn": "'흐' উচ্চারণ করার সময় গলা থেকে বাতাস বের করে 'হ' উচ্চারণ করতে হয়।"
-    },
-    {
-      "ko": "비가 오다",
-      "romanization": "biga oda",
-      "bn": "বৃষ্টি আসা",
-      "en": "to rain",
-      "pos": "expression",
-      "example": {
-        "ko": "지금 비가 와요.",
-        "bn": "এখন বৃষ্টি হচ্ছে।",
-        "en": "It is raining now."
-      },
-      "pronunciationTipBn": "'비' উচ্চারণ করার সময় ঠোঁট হালকা করে মেলাতে হয়।"
-    },
-    {
-      "ko": "눈이 오다",
-      "romanization": "nuni oda",
-      "bn": "তুষারপাত হওয়া",
-      "en": "to snow",
-      "pos": "expression",
-      "example": {
-        "ko": "겨울에는 눈이 와요.",
-        "bn": "শীতকালে তুষারপাত হয়।",
-        "en": "It snows in winter."
-      },
-      "pronunciationTipBn": "'눈' উচ্চারণ করার সময় 'ㄴ' (ন) ধ্বনিটি স্পষ্ট করে বলতে হয়।"
-    },
-    {
-      "ko": "덥다",
-      "romanization": "deopda",
-      "bn": "গরম",
-      "en": "to be hot",
-      "pos": "adjective",
-      "example": {
-        "ko": "여름은 너무 더워요.",
-        "bn": "গ্রীষ্মকাল খুব গরম।",
-        "en": "Summer is too hot."
-      },
-      "pronunciationTipBn": "'덥' এর 'ㅂ' ব্যাচিমটি 'প' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "춥다",
-      "romanization": "chupda",
-      "bn": "ঠান্ডা",
-      "en": "to be cold",
-      "pos": "adjective",
-      "example": {
-        "ko": "겨울은 추워요.",
-        "bn": "শীতকাল ঠান্ডা।",
-        "en": "Winter is cold."
-      },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি বাংলা 'ছ'-এর মতো একটু বাতাস বের করে উচ্চারণ করতে হয়।"
-    },
-    {
-      "ko": "따뜻하다",
-      "romanization": "ttatteuthada",
-      "bn": "উষ্ণ",
-      "en": "to be warm",
-      "pos": "adjective",
-      "example": {
-        "ko": "봄 날씨는 따뜻해요.",
-        "bn": "বসন্তের আবহাওয়া উষ্ণ।",
-        "en": "Spring weather is warm."
-      },
-      "pronunciationTipBn": "'따' এবং '뜻' উভয় ক্ষেত্রেই শক্ত 'ত' উচ্চারণ করতে হয়।"
-    },
-    {
-      "ko": "시원하다",
-      "romanization": "siwonhada",
-      "bn": "শীতল/আরামদায়ক",
-      "en": "to be cool",
-      "pos": "adjective",
-      "example": {
-        "ko": "가을은 시원해요.",
-        "bn": "শরৎকাল শীতল।",
-        "en": "Autumn is cool."
-      },
-      "pronunciationTipBn": "'시' উচ্চারণ করার সময় 'শ' এর মতো শোনায়।"
-    },
-    {
-      "ko": "바람이 불다",
-      "romanization": "barami bulda",
-      "bn": "বাতাস বওয়া",
-      "en": "wind blows",
-      "pos": "expression",
-      "example": {
-        "ko": "바람이 많이 불어요.",
-        "bn": "অনেক বাতাস বইছে।",
-        "en": "The wind is blowing a lot."
-      },
-      "pronunciationTipBn": "'바' উচ্চারণ করার সময় 'ব' এবং 'প'-এর মাঝামাঝি শব্দ হয়।"
+      "pronunciationTipBn": "'겨울' [গ্যউল]—'겨' বলতে 'গ্য' মুখ আধা খুলে।"
     },
     {
       "ko": "계절",
@@ -210,434 +82,487 @@
       "en": "season",
       "pos": "noun",
       "example": {
-        "ko": "한국에는 네 계절이 있습니다.",
-        "bn": "কোরিয়ায় চারটি ঋতু আছে।",
-        "en": "There are four seasons in Korea."
+        "ko": "무슨 계절을 좋아해요?",
+        "bn": "কোন ঋতু পছন্দ করো?",
+        "en": "Which season do you like?"
       },
-      "pronunciationTipBn": "'계' উচ্চারণ করার সময় 'ㄱ' (গ/ক) এর সাথে '예' (ইয়ে) যুক্ত হয়।"
+      "pronunciationTipBn": "'계절' [ক্যেজল]—ㅈ নরম 'জ' শোনায়।"
     },
     {
-      "ko": "우산",
-      "romanization": "usan",
-      "bn": "ছাতা",
-      "en": "umbrella",
-      "pos": "noun",
+      "ko": "따뜻하다",
+      "romanization": "ttatteuthada",
+      "bn": "উষ্ণ হওয়া",
+      "en": "to be warm",
+      "pos": "adjective",
       "example": {
-        "ko": "비가 와서 우산을 썼어요.",
-        "bn": "বৃষ্টি আসায় ছাতা ব্যবহার করেছি।",
-        "en": "I used an umbrella because it rained."
+        "ko": "봄은 따뜻해요.",
+        "bn": "বসন্ত উষ্ণ।",
+        "en": "Spring is warm."
       },
-      "pronunciationTipBn": "'우' উচ্চারণ করার সময় ঠোঁট গোল করতে হয়।"
+      "pronunciationTipBn": "'따' জোড়া ㄸ—শক্ত 'ত্তা'; '따뜻해요' [ত্তাতুথ্যায়ো]।"
     },
     {
-      "ko": "기온",
-      "romanization": "gion",
-      "bn": "তাপমাত্রা",
-      "en": "temperature",
-      "pos": "noun",
+      "ko": "덥다",
+      "romanization": "deopda",
+      "bn": "গরম হওয়া (আবহাওয়া)",
+      "en": "to be hot (weather)",
+      "pos": "adjective",
       "example": {
-        "ko": "오늘 기온이 높아요.",
-        "bn": "আজ তাপমাত্রা বেশি।",
-        "en": "The temperature is high today."
+        "ko": "날씨가 너무 더워요.",
+        "bn": "আবহাওয়া খুব গরম।",
+        "en": "The weather is very hot."
       },
-      "pronunciationTipBn": "'기' উচ্চারণ করার সময় 'ㄱ' (গ/ক) স্পষ্ট করে বলতে হয়।"
+      "pronunciationTipBn": "'ㅂ' অনিয়ম—'덥다' + 어요 = '더워요' [দওয়ায়ো]; ㅂ বাদে '우' বসে।"
     },
     {
-      "ko": "눈사람",
-      "romanization": "nunsaram",
-      "bn": "স্নোম্যান",
-      "en": "snowman",
-      "pos": "noun",
+      "ko": "춥다",
+      "romanization": "chupda",
+      "bn": "ঠান্ডা হওয়া",
+      "en": "to be cold",
+      "pos": "adjective",
       "example": {
-        "ko": "아이들이 눈사람을 만들어요.",
-        "bn": "বাচ্চারা স্নোম্যান বানাচ্ছে।",
-        "en": "Children are making a snowman."
+        "ko": "겨울은 추워요.",
+        "bn": "শীত ঠান্ডা।",
+        "en": "Winter is cold."
       },
-      "pronunciationTipBn": "'눈' এবং '사람' একসাথে বলার সময় 'ㄴ' এবং 'ㅅ' স্পষ্ট করে উচ্চারণ করতে হয়。"
+      "pronunciationTipBn": "'춥다' + 어요 = '추워요' [ছুওয়ায়ো]—'ㅂ' অনিয়ম মনে রাখুন।"
     },
     {
-      "ko": "구름",
-      "romanization": "gureum",
-      "bn": "মেঘ",
-      "en": "cloud",
-      "pos": "noun",
+      "ko": "시원하다",
+      "romanization": "siwonhada",
+      "bn": "শীতল/ঠান্ডা হওয়া",
+      "en": "to be cool; refreshing",
+      "pos": "adjective",
       "example": {
-        "ko": "하늘에 구름이 많아요.",
-        "bn": "আকাশে অনেক মেঘ আছে।",
-        "en": "There are many clouds in the sky."
+        "ko": "가을은 시원해요.",
+        "bn": "শরৎ শীতল।",
+        "en": "Autumn is cool."
       },
-      "pronunciationTipBn": "'구' উচ্চারণ করার সময় 'ㄱ' (গ/ক) এর সাথে '우' (উ) যুক্ত হয়।"
+      "pronunciationTipBn": "'시원' [শিওন]—দুই অক্ষর দ্রুত মিলিয়ে বলুন।"
     },
     {
-      "ko": "안개",
-      "romanization": "angae",
-      "bn": "কুয়াশা",
-      "en": "fog",
+      "ko": "쉽다",
+      "romanization": "swipda",
+      "bn": "সহজ হওয়া",
+      "en": "to be easy",
+      "pos": "adjective",
+      "example": {
+        "ko": "한국어 공부는 쉬워요.",
+        "bn": "কোরীয় পড়া সহজ।",
+        "en": "Studying Korean is easy."
+      },
+      "pronunciationTipBn": "'쉽다' + 어요 = '쉬워요' [শুইওয়ায়ো]—'ㅂ' অনিয়ম প্রযোজ্য।"
+    }
+    ,
+    {
+      "ko": "어렵다",
+      "romanization": "eoryeopda",
+      "bn": "কঠিন হওয়া",
+      "en": "to be difficult",
+      "pos": "adjective",
+      "example": {
+        "ko": "영어 공부는 조금 어려워요.",
+        "bn": "ইংরেজি পড়া একটু কঠিন।",
+        "en": "Studying English is a little difficult."
+      },
+      "pronunciationTipBn": "'어려워요' [অর্যোয়ায়ো]—'ㅂ' অনিয়মে ㅂ বাদে '워' বসে।"
+    },
+    {
+      "ko": "차갑다",
+      "romanization": "chagapda",
+      "bn": "ঠান্ডা হওয়া (বস্তু)",
+      "en": "to be cold (objects)",
+      "pos": "adjective",
+      "example": {
+        "ko": "물이 차가워요.",
+        "bn": "পানি ঠান্ডা।",
+        "en": "The water is cold."
+      },
+      "pronunciationTipBn": "'차가워요' [ছাগাওয়ায়ো]—ㅊ শক্ত 'ছ'; 'ㅂ' অনিয়ম প্রযোজ্য।"
+    },
+    {
+      "ko": "뜨겁다",
+      "romanization": "tteugeopda",
+      "bn": "গরম হওয়া (বস্তু)",
+      "en": "to be hot (objects)",
+      "pos": "adjective",
+      "example": {
+        "ko": "커피가 뜨거워요.",
+        "bn": "কফি গরম।",
+        "en": "The coffee is hot."
+      },
+      "pronunciationTipBn": "'뜨거워요' [ত্তুগওয়ায়ো]—জোড়া ㄸ শক্ত করে; 'ㅂ' অনিয়ম।"
+    },
+    {
+      "ko": "좋다",
+      "romanization": "jota",
+      "bn": "ভালো হওয়া",
+      "en": "to be good",
+      "pos": "adjective",
+      "example": {
+        "ko": "날씨가 좋아요.",
+        "bn": "আবহাওয়া ভালো।",
+        "en": "The weather is good."
+      },
+      "pronunciationTipBn": "'좋아요' [জোয়ায়ো]—ㅎ+ㅇ মিলে 'ㅎ' প্রায় নীরব থাকে।"
+    },
+    {
+      "ko": "나쁘다",
+      "romanization": "nappeuda",
+      "bn": "খারাপ হওয়া",
+      "en": "to be bad",
+      "pos": "adjective",
+      "example": {
+        "ko": "날씨가 나빠요.",
+        "bn": "আবহাওয়া খারাপ।",
+        "en": "The weather is bad."
+      },
+      "pronunciationTipBn": "'나빠요' [নাপ্পায়ো]—ㅂ+ㅂ মিলে জোড়া 'প্প' শোনায়।"
+    },
+    {
+      "ko": "날씨",
+      "romanization": "nalssi",
+      "bn": "আবহাওয়া",
+      "en": "weather",
       "pos": "noun",
       "example": {
-        "ko": "아침에 안개가 끼었어요.",
-        "bn": "সকালে কুয়াশা পড়েছিল।",
-        "en": "It was foggy in the morning."
+        "ko": "오늘은 날씨가 어때요?",
+        "bn": "আজ আবহাওয়া কেমন?",
+        "en": "How is the weather today?"
       },
-      "pronunciationTipBn": "'개' উচ্চারণ করার সময় মুখ একটু বেশি খুলতে হয়।"
+      "pronunciationTipBn": "'날씨' [নালশি]—ㄹ+ㅆ মিলে 'লশি' শোনায়।"
+    },
+    {
+      "ko": "맑다",
+      "romanization": "makda",
+      "bn": "পরিষ্কার/মেঘমুক্ত হওয়া",
+      "en": "to be clear (sky)",
+      "pos": "adjective",
+      "example": {
+        "ko": "오늘은 날씨가 맑아요.",
+        "bn": "আজ আকাশ পরিষ্কার।",
+        "en": "The sky is clear today."
+      },
+      "pronunciationTipBn": "'맑아요' [মালগায়ো]—ㄹㄱ দ্বিবত্ছিমের ㄱ-ই শোনায়।"
+    },
+    {
+      "ko": "흐리다",
+      "romanization": "heurida",
+      "bn": "মেঘলা হওয়া",
+      "en": "to be cloudy",
+      "pos": "adjective",
+      "example": {
+        "ko": "오늘은 흐려요.",
+        "bn": "আজ মেঘলা।",
+        "en": "It is cloudy today."
+      },
+      "pronunciationTipBn": "'흐려요' [হুরায়ো]—'ㅡ' স্বর পেছন থেকে বলুন।"
+    },
+    {
+      "ko": "바람이 불다",
+      "romanization": "barami bulda",
+      "bn": "বাতাস বহা",
+      "en": "to be windy",
+      "pos": "verb",
+      "example": {
+        "ko": "오늘은 바람이 불어요.",
+        "bn": "আজ বাতাস বইছে।",
+        "en": "It is windy today."
+      },
+      "pronunciationTipBn": "'불어요' [বুরায়ো]—ㄹ+ㅇ মিলে 'রা' শোনায়।"
+    },
+    {
+      "ko": "눈이 오다",
+      "romanization": "nuni oda",
+      "bn": "তুষারপাত হওয়া",
+      "en": "to snow",
+      "pos": "verb",
+      "example": {
+        "ko": "겨울에는 눈이 와요.",
+        "bn": "শীতে বরফ পড়ে।",
+        "en": "It snows in winter."
+      },
+      "pronunciationTipBn": "'눈이' [누니]—'눈' এখানে বরফ; চোখ বোঝাতেও '눈' ব্যবহৃত হয়।"
+    },
+    {
+      "ko": "비가 오다",
+      "romanization": "biga oda",
+      "bn": "বৃষ্টি হওয়া",
+      "en": "to rain",
+      "pos": "verb",
+      "example": {
+        "ko": "여름에는 비가 많이 와요.",
+        "bn": "গ্রীষ্মে বেশি বৃষ্টি হয়।",
+        "en": "It rains a lot in summer."
+      },
+      "pronunciationTipBn": "'비가' [বিগা]—ㄱ এখানে নরম 'গ' শোনায়।"
+    },
+    {
+      "ko": "눈이 그치다",
+      "romanization": "nuni geuchida",
+      "bn": "তুষারপাত থামা",
+      "en": "to stop snowing",
+      "pos": "verb",
+      "example": {
+        "ko": "눈이 그쳤어요.",
+        "bn": "বরফ পড়া থেমেছে।",
+        "en": "The snow has stopped."
+      },
+      "pronunciationTipBn": "'그쳤어요' [গুছ্যত্সয়ো]—ㅊ শক্ত 'ছ' দিয়ে বলুন।"
+    }
+    ,
+    {
+      "ko": "비가 그치다",
+      "romanization": "biga geuchida",
+      "bn": "বৃষ্টি থামা",
+      "en": "to stop raining",
+      "pos": "verb",
+      "example": {
+        "ko": "비가 그쳤어요.",
+        "bn": "বৃষ্টি থেমেছে।",
+        "en": "The rain has stopped."
+      },
+      "pronunciationTipBn": "'그치다' [গুছিদা]—ㅊ শক্ত 'ছি' দিয়ে বলুন।"
+    },
+    {
+      "ko": "너무",
+      "romanization": "neomu",
+      "bn": "খুব/খুব বেশি",
+      "en": "too; too much",
+      "pos": "adverb",
+      "example": {
+        "ko": "너무 더워요.",
+        "bn": "খুব গরম।",
+        "en": "It is too hot."
+      },
+      "pronunciationTipBn": "'너무' [নমু]—'너' পেছন থেকে 'ন', '무' 'মু'।"
+    },
+    {
+      "ko": "조금",
+      "romanization": "jogeum",
+      "bn": "একটু",
+      "en": "a little",
+      "pos": "adverb",
+      "example": {
+        "ko": "조금 어려워요.",
+        "bn": "একটু কঠিন।",
+        "en": "It is a little difficult."
+      },
+      "pronunciationTipBn": "'조금' [জোগুম]—ㅈ নরম 'জ' শোনায়।"
+    },
+    {
+      "ko": "많이",
+      "romanization": "mani",
+      "bn": "অনেক/বেশি",
+      "en": "a lot; much",
+      "pos": "adverb",
+      "example": {
+        "ko": "비가 많이 와요.",
+        "bn": "বেশি বৃষ্টি হচ্ছে।",
+        "en": "It is raining a lot."
+      },
+      "pronunciationTipBn": "'많이' [মানি/মানহি]—ㅎ এখানে প্রায় নীরব থাকে।"
+    },
+    {
+      "ko": "정말",
+      "romanization": "jeongmal",
+      "bn": "সত্যিই",
+      "en": "really; truly",
+      "pos": "adverb",
+      "example": {
+        "ko": "정말 좋아해요.",
+        "bn": "সত্যিই পছন্দ করি।",
+        "en": "I really like it."
+      },
+      "pronunciationTipBn": "'정말' [জঙমাল]—'정' নাকিধ্বনি 'ং' সহ।"
+    },
+    {
+      "ko": "별로",
+      "romanization": "byeollo",
+      "bn": "তেমন (না-বাচক বাক্যে)",
+      "en": "not really (with negatives)",
+      "pos": "adverb",
+      "example": {
+        "ko": "별로 안 더워요.",
+        "bn": "তেমন গরম নয়।",
+        "en": "It is not really hot."
+      },
+      "pronunciationTipBn": "'별로' [ব্যল্লো]—ㄹ+ㄹ জোড়া 'ল্ল' জোরে বলুন।"
+    },
+    {
+      "ko": "영어",
+      "romanization": "yeongeo",
+      "bn": "ইংরেজি",
+      "en": "English (language)",
+      "pos": "noun",
+      "example": {
+        "ko": "영어 공부가 어때요?",
+        "bn": "ইংরেজি পড়া কেমন?",
+        "en": "How is studying English?"
+      },
+      "pronunciationTipBn": "'영어' [য়ংঅ]—দুই অক্ষর মিলিয়ে দ্রুত বলুন।"
+    },
+    {
+      "ko": "어때요",
+      "romanization": "eottaeyo",
+      "bn": "কেমন?",
+      "en": "How is it?",
+      "pos": "expression",
+      "example": {
+        "ko": "날씨가 어때요?",
+        "bn": "আবহাওয়া কেমন?",
+        "en": "How is the weather?"
+      },
+      "pronunciationTipBn": "'어때요' [অত্যায়ো]—ㅆ জোড়া 'ত্ত' শোনায়।"
+    },
+    {
+      "ko": "꽃",
+      "romanization": "kkot",
+      "bn": "ফুল",
+      "en": "flower",
+      "pos": "noun",
+      "example": {
+        "ko": "봄에는 꽃이 많이 펴요.",
+        "bn": "বসন্তে অনেক ফুল ফোটে।",
+        "en": "Many flowers bloom in spring."
+      },
+      "pronunciationTipBn": "'꽃' [ক্কত্]—জোড়া ㄲ শক্ত 'ক্ক'; ㅊ বত্ছিম থামা 'ত্'।"
     },
     {
       "ko": "장마",
       "romanization": "jangma",
-      "bn": "বর্ষাকাল",
-      "en": "rainy season",
+      "bn": "বর্ষাকাল (মনসুন)",
+      "en": "monsoon season",
       "pos": "noun",
       "example": {
-        "ko": "여름에는 장마가 시작됩니다.",
-        "bn": "গ্রীষ্মকালে বর্ষাকাল শুরু হয়।",
-        "en": "The rainy season starts in summer."
+        "ko": "장마에는 비가 많이 와요.",
+        "bn": "বর্ষাকালে বেশি বৃষ্টি হয়।",
+        "en": "It rains a lot during the monsoon."
       },
-      "pronunciationTipBn": "'장' উচ্চারণ করার সময় 'ㅇ' (ং) ধ্বনিটি স্পষ্ট করে বলতে হয়।"
+      "pronunciationTipBn": "'장마' [জাংমা]—'장' নাকিধ্বনি 'ং' সহ বলুন।"
     },
     {
-      "ko": "태풍",
-      "romanization": "taepung",
-      "bn": "টাইফুন/ঘূর্ণিঝড়",
-      "en": "typhoon",
+      "ko": "눈",
+      "romanization": "nun",
+      "bn": "তুষার/বরফ",
+      "en": "snow",
       "pos": "noun",
       "example": {
-        "ko": "태풍이 와서 바람이 강해요.",
-        "bn": "টাইফুন আসায় বাতাস শক্তিশালী।",
-        "en": "The wind is strong because a typhoon is coming."
+        "ko": "눈이 와요.",
+        "bn": "বরফ পড়ছে।",
+        "en": "It is snowing."
       },
-      "pronunciationTipBn": "'태' এবং '풍' উভয় ক্ষেত্রেই বাতাস বের করে উচ্চারণ করতে হয়।"
+      "pronunciationTipBn": "'눈' [নুন]—একই শব্দে 'চোখ'-ও বোঝায়; প্রসঙ্গ দেখে বুঝুন।"
     },
     {
-      "ko": "번개",
-      "romanization": "beongae",
-      "bn": "বজ্রপাত",
-      "en": "lightning",
+      "ko": "비",
+      "romanization": "bi",
+      "bn": "বৃষ্টি",
+      "en": "rain",
       "pos": "noun",
       "example": {
-        "ko": "비가 오고 번개가 쳐요.",
-        "bn": "বৃষ্টি হচ্ছে এবং বজ্রপাত হচ্ছে।",
-        "en": "It is raining and lightning strikes."
+        "ko": "비가 그쳤어요.",
+        "bn": "বৃষ্টি থেমেছে।",
+        "en": "The rain has stopped."
       },
-      "pronunciationTipBn": "'번' উচ্চারণ করার সময় 'ㄴ' (ন) ধ্বনিটি স্পষ্ট করে বলতে হয়।"
-    },
-    {
-      "ko": "천둥",
-      "romanization": "cheondung",
-      "bn": "মেঘের গর্জন",
-      "en": "thunder",
-      "pos": "noun",
-      "example": {
-        "ko": "천둥 소리가 아주 커요.",
-        "bn": "মেঘের গর্জনের শব্দ খুব বড়।",
-        "en": "The sound of thunder is very loud."
-      },
-      "pronunciationTipBn": "'천' উচ্চারণ করার সময় 'ㅊ' (ছ) ধ্বনিটি বাতাস বের করে উচ্চারণ করতে হয়।"
-    },
-    {
-      "ko": "소나기",
-      "romanization": "sonagi",
-      "bn": "পশলা বৃষ্টি",
-      "en": "shower",
-      "pos": "noun",
-      "example": {
-        "ko": "갑자기 소나기가 내려요.",
-        "bn": "হঠাৎ পশলা বৃষ্টি নামছে।",
-        "en": "A sudden shower is falling."
-      },
-      "pronunciationTipBn": "'소' উচ্চারণ করার সময় 'ㅅ' (স) স্পষ্ট করে বলতে হয়।"
-    },
-    {
-      "ko": "건조하다",
-      "romanization": "geonjohada",
-      "bn": "শুষ্ক",
-      "en": "to be dry",
-      "pos": "adjective",
-      "example": {
-        "ko": "가을은 날씨가 건조해요.",
-        "bn": "শরৎকালে আবহাওয়া শুষ্ক থাকে।",
-        "en": "The weather is dry in autumn."
-      },
-      "pronunciationTipBn": "'건' উচ্চারণ করার সময় 'ㄴ' (ন) ধ্বনিটি স্পষ্ট করে বলতে হয়।"
-    },
-    {
-      "ko": "습하다",
-      "romanization": "seuphada",
-      "bn": "আর্দ্র",
-      "en": "to be humid",
-      "pos": "adjective",
-      "example": {
-        "ko": "여름은 덥고 습해요.",
-        "bn": "গ্রীষ্মকাল গরম এবং আর্দ্র।",
-        "en": "Summer is hot and humid."
-      },
-      "pronunciationTipBn": "'습' এর 'ㅂ' ব্যাচিমটি 'প' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "기분",
-      "romanization": "gibun",
-      "bn": "মেজাজ/অনুভূতি",
-      "en": "mood/feeling",
-      "pos": "noun",
-      "example": {
-        "ko": "오늘 기분이 아주 좋아요.",
-        "bn": "আজ মেজাজ খুব ভালো।",
-        "en": "I feel very good today."
-      },
-      "pronunciationTipBn": "'기' উচ্চারণ করার সময় 'ㄱ' (গ/ক) স্পষ্ট করে বলতে হয়।"
-    },
-    {
-      "ko": "상쾌하다",
-      "romanization": "sangkwaehada",
-      "bn": "সতেজ",
-      "en": "to be refreshing",
-      "pos": "adjective",
-      "example": {
-        "ko": "아침 공기가 상쾌해요.",
-        "bn": "সকালের বাতাস সতেজ।",
-        "en": "The morning air is refreshing."
-      },
-      "pronunciationTipBn": "'상' উচ্চারণ করার সময় 'ㅇ' (ং) ধ্বনিটি স্পষ্ট করে বলতে হয়।"
-    },
-    {
-      "ko": "우울하다",
-      "romanization": "uulhada",
-      "bn": "বিষণ্ণ",
-      "en": "to be depressed",
-      "pos": "adjective",
-      "example": {
-        "ko": "비가 오면 조금 우울해요.",
-        "bn": "বৃষ্টি হলে একটু বিষণ্ণ লাগে।",
-        "en": "I feel a little depressed when it rains."
-      },
-      "pronunciationTipBn": "'우' উচ্চারণ করার সময় ঠোঁট গোল করতে হয়।"
-    },
-    {
-      "ko": "피곤하다",
-      "romanization": "pigonhada",
-      "bn": "ক্লান্ত",
-      "en": "to be tired",
-      "pos": "adjective",
-      "example": {
-        "ko": "일을 많이 해서 피곤해요.",
-        "bn": "অনেক কাজ করায় ক্লান্ত।",
-        "en": "I am tired because I worked a lot."
-      },
-      "pronunciationTipBn": "'피' উচ্চারণ করার সময় 'ㅍ' (ফ/প) ধ্বনিটি বাতাস বের করে উচ্চারণ করতে হয়।"
-    },
-    {
-      "ko": "졸리다",
-      "romanization": "jollida",
-      "bn": "ঘুম ঘুম ভাব",
-      "en": "to be sleepy",
-      "pos": "adjective",
-      "example": {
-        "ko": "밤에 잠을 못 자서 졸려요.",
-        "bn": "রাতে ঘুমাতে না পারায় ঘুম পাচ্ছে।",
-        "en": "I am sleepy because I couldn't sleep at night."
-      },
-      "pronunciationTipBn": "'졸' উচ্চারণ করার সময় 'ㄹ' (ল) ধ্বনিটি স্পষ্ট করে বলতে হয়।"
-    },
-    {
-      "ko": "외출하다",
-      "romanization": "oechulhada",
-      "bn": "বাইরে যাওয়া",
-      "en": "to go out",
-      "pos": "verb",
-      "example": {
-        "ko": "날씨가 좋아서 외출했어요.",
-        "bn": "আবহাওয়া ভালো হওয়ায় বাইরে গিয়েছিলাম।",
-        "en": "I went out because the weather was good."
-      },
-      "pronunciationTipBn": "'외' উচ্চারণ করার সময় '오' এবং '이' একসাথে দ্রুত বলতে হয়।"
+      "pronunciationTipBn": "'비' [বি]—ㅂ নরম 'ব'; '비가' বলতে [বিগা] শোনায়।"
     }
   ],
   "grammar": [
     {
-      "pattern": "ㅂ 불규칙 (ㅂ Irregular)",
-      "titleBn": "ㅂ অনিয়মিত ক্রিয়া/বিশেষণ",
-      "explanationBn": "কিছু কোরিয়ান ক্রিয়া এবং বিশেষণের শেষে 'ㅂ' থাকলে, স্বরবর্ণ দিয়ে শুরু হওয়া ব্যাকরণের সাথে যুক্ত হওয়ার সময় 'ㅂ' পরিবর্তিত হয়ে '우' (বা '오') হয়ে যায়। যেমন: 덥다 (গরম) + 어요 = 더워요।",
-      "explanationEn": "When some Korean verbs and adjectives ending in 'ㅂ' meet a grammar pattern starting with a vowel, 'ㅂ' changes to '우' (or '오'). For example: 덥다 (hot) + 어요 = 더워요.",
+      "pattern": "'ㅂ' 불규칙 (ㅂ → 우)",
+      "titleBn": "'ㅂ' অনিয়মিত রূপান্তর",
+      "explanationBn": "'ㅂ'-এ শেষ হওয়া কিছু ক্রিয়া ও বিশেষণে স্বর-সূচক প্রান্তিক (-아요/어요) যোগ হলে 'ㅂ' বাদ পড়ে '우' বসে: 덥다→더워요, 춥다→추워요, 쉽다→쉬워요, 어렵다→어려워요, 차갑다→차가워요, 뜨겁다→뜨거워요। তবে 잡다, 입다, 좁다 নিয়মমতোই চলে: 입어요।",
+      "explanationEn": "For some verbs/adjectives ending in ㅂ, the ㅂ drops and 우 appears before vowel-initial endings: 덥다→더워요, 춥다→추워요, 쉽다→쉬워요, 어렵다→어려워요. But 잡다, 입다, 좁다 conjugate regularly: 입어요.",
       "examples": [
-        {
-          "ko": "여름은 날씨가 더워요.",
-          "bn": "গ্রীষ্মকালে আবহাওয়া গরম থাকে।",
-          "en": "The weather is hot in summer."
-        },
-        {
-          "ko": "겨울은 너무 추워요.",
-          "bn": "শীতকাল খুব ঠান্ডা।",
-          "en": "Winter is very cold."
-        },
-        {
-          "ko": "한국어 공부가 쉬워요.",
-          "bn": "কোরিয়ান ভাষা পড়া সহজ।",
-          "en": "Studying Korean is easy."
-        }
+        { "ko": "날씨가 너무 더워요.", "bn": "আবহাওয়া খুব গরম।", "en": "The weather is very hot." },
+        { "ko": "영어 공부가 어때요? 조금 어려워요.", "bn": "ইংরেজি পড়া কেমন? একটু কঠিন।", "en": "How is studying English? A little difficult." },
+        { "ko": "커피가 뜨거워요.", "bn": "কফি গরম।", "en": "The coffee is hot." }
       ],
-      "commonMistakeBn": "অনেকে '입다' (পরিধান করা) বা '잡다' (ধরা) এর মতো নিয়মিত ক্রিয়াপদেও 'ㅂ' পরিবর্তন করে ফেলেন; এগুলো নিয়মিত তাই '입어요', '잡아요' হবে।"
+      "commonMistakeBn": "'덥아요', '춥어요' বলা ভুল—'ㅂ' বাদ পড়ে '더워요', '추워요' হয়। তবে '입다' নিয়মমতো: 입어요 (이워요 নয়)।"
     },
     {
-      "pattern": "V/A + 네요",
-      "titleBn": "বিস্ময় বা নতুন কিছু জানার প্রকাশ (-네요)",
-      "explanationBn": "বক্তা যখন নতুন কোনো তথ্য জানতে পারে বা কোনো কিছু দেখে অবাক হয়, তখন ক্রিয়াপদ বা বিশেষণের শেষে '-네요' যুক্ত করে অনুভূতি প্রকাশ করা হয়।",
-      "explanationEn": "Used to express surprise or wonder upon learning a new fact or experiencing something directly. It is attached to the stem of verbs or adjectives.",
+      "pattern": "안 + V/A",
+      "titleBn": "'안' দিয়ে সহজ না-বাচক প্রকাশ",
+      "explanationBn": "ক্রিয়া বা বিশেষণের আগে '안' বসে না-বাচক অর্থ হয়: 비가 안 와요 (বৃষ্টি হচ্ছে না)। এটি 'করছি না' বা 'ইচ্ছা করে করছি না' বোঝায়। '별로' এর সাথে: 별로 안 더워요 (তেমন গরম নয়)।",
+      "explanationEn": "안 is placed before a verb or adjective to negate it: 비가 안 와요 (it is not raining). It expresses simple negation or intentional not-doing. With 별로: 별로 안 더워요 (not really hot).",
       "examples": [
-        {
-          "ko": "오늘 날씨가 정말 춥네요.",
-          "bn": "আজকের আবহাওয়া সত্যিই ঠান্ডা।",
-          "en": "The weather is really cold today."
-        },
-        {
-          "ko": "비가 많이 오네요.",
-          "bn": "অনেক বৃষ্টি হচ্ছে।",
-          "en": "It is raining a lot."
-        },
-        {
-          "ko": "한국말을 참 잘하시네요.",
-          "bn": "আপনি খুব ভালো কোরিয়ান বলেন।",
-          "en": "You speak Korean really well."
-        }
+        { "ko": "비가 안 와요.", "bn": "বৃষ্টি হচ্ছে না।", "en": "It is not raining." },
+        { "ko": "오늘은 안 더워요.", "bn": "আজ গরম নয়।", "en": "It is not hot today." },
+        { "ko": "저는 커피를 안 마셔요.", "bn": "আমি কফি পান করি না।", "en": "I do not drink coffee." }
       ],
-      "commonMistakeBn": "অনেকে অতীত কালের সাথে '-네요' ব্যবহার করতে ভুলে যান; অতীত কালের ক্ষেত্রে '-았/었네요' (যেমন: 비가 왔네요) ব্যবহার করতে হয়।"
+      "commonMistakeBn": "'안' ক্রিয়ার পরে বসানো ভুল—যেমন '비가 와요 안'। '안' সবসময় ক্রিয়া/বিশেষণের আগে বসবে: 안 와요।"
+    }
+    ,
+    {
+      "pattern": "N (명사+하다) 안 해요",
+      "titleBn": "'명사+하다' ক্রিয়ার না-বাচক রূপ",
+      "explanationBn": "'운동하다', '일하다' ধরনের 'বিশেষ্য+하다' ক্রিয়াকে না-বাচক করতে '안' বিশেষ্য আর '하다'-এর মাঝে বসে: 일 안 해요, 운동 안 해요।",
+      "explanationEn": "To negate noun+하다 verbs like 운동하다 or 일하다, 안 goes between the noun and 하다: 일 안 해요, 운동 안 해요.",
+      "examples": [
+        { "ko": "오늘은 일 안 해요.", "bn": "আজ কাজ করছি না।", "en": "I am not working today." },
+        { "ko": "나는 운동 안 해요.", "bn": "আমি ব্যায়াম করি না।", "en": "I do not exercise." },
+        { "ko": "주말에는 공부 안 해요.", "bn": "সপ্তাহান্তে পড়াশোনা করি না।", "en": "I do not study on weekends." }
+      ],
+      "commonMistakeBn": "'안 일해요' বলা ভুল—'안' বিশেষ্য (일) আর '하다'-এর মাঝে বসে: 일 안 해요।"
     },
     {
-      "pattern": "V-고 싶다",
-      "titleBn": "इচ্ছা প্রকাশ করা (-고 싶다)",
-      "explanationBn": "ক্রিয়াপদের শেষে '-고 싶다' যুক্ত করে কোনো কিছু করার ইচ্ছা প্রকাশ করা হয়। এটি শুধু বক্তার নিজের ইচ্ছা বোঝাতে ব্যবহৃত হয়।",
-      "explanationEn": "Used to express the speaker's desire or wish to do something. It is attached to the stem of verbs.",
+      "pattern": "-지 않다",
+      "titleBn": "'-지 않다' না-বাচক (আরেক রূপ)",
+      "explanationBn": "'안'-এর পরিবর্তে ক্রিয়া/বিশেষণের পরে '-지 않다' বসিয়েও না-বাচক করা যায়—অর্থ একই, কাঠামো আনুষ্ঠানিকতর: 비가 오지 않아요 = 비가 안 와요।",
+      "explanationEn": "Instead of 안, you can attach -지 않다 after a verb or adjective for negation—same meaning, slightly more formal structure: 비가 오지 않아요 = 비가 안 와요.",
       "examples": [
-        {
-          "ko": "비가 와서 파전을 먹고 싶어요.",
-          "bn": "বৃষ্টি হচ্ছে তাই পাজন খেতে চাই।",
-          "en": "I want to eat pajeon because it's raining."
-        },
-        {
-          "ko": "눈이 오면 눈사람을 만들고 싶어요.",
-          "bn": "তুষারপাত হলে স্নোম্যান বানাতে চাই।",
-          "en": "I want to make a snowman when it snows."
-        },
-        {
-          "ko": "날씨가 좋아서 산책하고 싶어요.",
-          "bn": "আবহাওয়া ভালো তাই হাঁটতে যেতে চাই।",
-          "en": "I want to go for a walk because the weather is good."
-        }
+        { "ko": "비가 오지 않아요.", "bn": "বৃষ্টি হচ্ছে না।", "en": "It is not raining." },
+        { "ko": "오늘은 덥지 않아요.", "bn": "আজ গরম নয়।", "en": "It is not hot today." },
+        { "ko": "저는 빵을 먹지 않아요.", "bn": "আমি পাউরুটি খাই না।", "en": "I do not eat bread." }
       ],
-      "commonMistakeBn": "অনেকে অন্য কারো ইচ্ছা বোঝাতে '-고 싶다' ব্যবহার করেন; তৃতীয় ব্যক্তির ক্ষেত্রে '-고 싶어하다' ব্যবহার করতে হয়।"
+      "commonMistakeBn": "'-지 안아요' বলা ভুল—'않' অক্ষরটি হলো 안+ㅆ+ㅓ; সঠিক রূপ '-지 않아요'।"
     },
     {
-      "pattern": "A/V-아서/어서",
-      "titleBn": "কারণ বোঝানো (-아서/어서)",
-      "explanationBn": "ক্রিয়াপদ বা বিশেষণের শেষে '-아서/어서' যুক্ত করে কোনো কাজের কারণ বা ফলাফল বোঝানো হয়। স্বরবর্ণ 'ㅏ' বা 'ㅗ' থাকলে '-아서', অন্যথায় '-어서' বসে। '하다' থাকলে '해서' হয়।",
-      "explanationEn": "Used to express the reason or cause for an action or state. '-아서' is used when the stem ends in 'ㅏ' or 'ㅗ', otherwise '-어서' is used. '하다' becomes '해서'.",
+      "pattern": "어때요?",
+      "titleBn": "'কেমন?' জিজ্ঞাসা",
+      "explanationBn": "কোনো কিছু কেমন (মতামত/অবস্থা) জানতে '어때요?' ব্যবহার করুন: 날씨가 어때요? উত্তরে বিশেষণ বলুন: 너무 더워요 / 시원해요। পরিচয় জানতে '뭐예요?' ব্যবহৃত হয়—দুটো আলাদা।",
+      "explanationEn": "Use 어때요? to ask how something is (opinion or condition): 날씨가 어때요? Answer with an adjective: 너무 더워요. (뭐예요? asks what something is—different.)",
       "examples": [
-        {
-          "ko": "날씨가 더워서 아이스크림을 먹어요.",
-          "bn": "আবহাওয়া গরম তাই আইসক্রিম খাচ্ছি।",
-          "en": "I am eating ice cream because the weather is hot."
-        },
-        {
-          "ko": "비가 와서 우산을 샀어요.",
-          "bn": "বৃষ্টি আসায় ছাতা কিনেছি।",
-          "en": "I bought an umbrella because it rained."
-        },
-        {
-          "ko": "피곤해서 일찍 잤어요.",
-          "bn": "ক্লান্ত ছিলাম তাই তাড়াতাড়ি ঘুমিয়েছি।",
-          "en": "I slept early because I was tired."
-        }
+        { "ko": "날씨가 어때요?", "bn": "আবহাওয়া কেমন?", "en": "How is the weather?" },
+        { "ko": "영어 공부가 어때요?", "bn": "ইংরেজি পড়া কেমন?", "en": "How is studying English?" },
+        { "ko": "여름은 어때요? 너무 더워요.", "bn": "গ্রীষ্ম কেমন? খুব গরম।", "en": "How is summer? It is very hot." }
       ],
-      "commonMistakeBn": "অনেকে '-아서/어서' এর পরে আদেশ বা অনুরোধমূলক বাক্য (যেমন: -(으)세요, -(으)ㅂ시다) ব্যবহার করেন, যা ভুল। কারণ বোঝাতে আদেশমূলক বাক্যে '-(으)니까' ব্যবহার করতে হয়।"
+      "commonMistakeBn": "'날씨가 뭐예요?' বলা ভুল—আবহাওয়া কেমন জানতে '뭐예요' নয়, '어때요' বলুন।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "আজকের আবহাওয়া",
-      "titleEn": "Today's Weather",
-      "lines": [
-        {
-          "speaker": "리한",
-          "ko": "투안 씨, 밖을 보세요. 비가 오네요.",
-          "bn": "তুয়ান সাহেব, বাইরে দেখুন। বৃষ্টি হচ্ছে।",
-          "en": "Tuan, look outside. It's raining."
-        },
-        {
-          "speaker": "투안",
-          "ko": "네, 비가 많이 오네요. 리한 씨는 우산이 있어요?",
-          "bn": "হ্যাঁ, অনেক বৃষ্টি হচ্ছে। রিহান সাহেবের কি ছাতা আছে?",
-          "en": "Yes, it's raining a lot. Do you have an umbrella, Rihan?"
-        },
-        {
-          "speaker": "리한",
-          "ko": "아니요, 없어요. 투안 씨는요?",
-          "bn": "না, নেই। তুয়ান সাহেবের আছে?",
-          "en": "No, I don't. How about you, Tuan?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "저는 있어요. 이따가 저하고 같이 집에 가요.",
-          "bn": "আমার আছে। একটু পরে আমার সাথে একসাথে বাড়ি চলুন।",
-          "en": "I have one. Let's go home together later."
-        }
-      ]
-    },
-    {
       "titleBn": "পছন্দের ঋতু",
       "titleEn": "Favorite Season",
       "lines": [
-        {
-          "speaker": "수루",
-          "ko": "투안 씨는 무슨 계절을 가장 좋아해요?",
-          "bn": "তুয়ান সাহেব কোন ঋতু সবচেয়ে বেশি পছন্দ করেন?",
-          "en": "Tuan, what season do you like the most?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "저는 겨울을 가장 좋아해요. 수루 씨는요?",
-          "bn": "আমি শীতকাল সবচেয়ে বেশি পছন্দ করি। সুরু সাহেব?",
-          "en": "I like winter the most. How about you, Suru?"
-        },
-        {
-          "speaker": "수루",
-          "ko": "저는 가을을 좋아해요. 가을은 날씨가 시원해서 좋아요.",
-          "bn": "আমি শরৎকাল পছন্দ করি। শরৎকালের আবহাওয়া শীতল তাই ভালো লাগে।",
-          "en": "I like autumn. I like it because the weather is cool in autumn."
-        },
-        {
-          "speaker": "투안",
-          "ko": "저는 눈을 볼 수 있어서 겨울이 좋아요.",
-          "bn": "আমি তুষার দেখতে পারি তাই শীতকাল ভালো লাগে।",
-          "en": "I like winter because I can see snow."
-        }
+        { "speaker": "A", "ko": "자야 씨는 무슨 계절을 좋아해요?", "bn": "জায়া, তুমি কোন ঋতু পছন্দ করো?", "en": "Jaya, which season do you like?" },
+        { "speaker": "B", "ko": "저는 봄을 좋아해요.", "bn": "আমি বসন্ত পছন্দ করি।", "en": "I like spring." },
+        { "speaker": "A", "ko": "방글라데시의 여름은 어때요?", "bn": "বাংলাদেশের গ্রীষ্ম কেমন?", "en": "How is summer in Bangladesh?" },
+        { "speaker": "B", "ko": "너무 더워요. 한국의 겨울은 어때요?", "bn": "খুব গরম। কোরিয়ার শীত কেমন?", "en": "It is very hot. How is winter in Korea?" },
+        { "speaker": "A", "ko": "너무 추워요. 눈도 와요.", "bn": "খুব ঠান্ডা। বরফও পড়ে।", "en": "It is very cold. It snows too." }
       ]
     },
     {
-      "titleBn": "আবহাওয়া এবং অনুভূতি",
-      "titleEn": "Weather and Feelings",
+      "titleBn": "ফোনে আবহাওয়া",
+      "titleEn": "Weather on the Phone",
       "lines": [
-        {
-          "speaker": "리한",
-          "ko": "오늘 날씨가 정말 맑고 따뜻하네요.",
-          "bn": "আজকের আবহাওয়া সত্যিই পরিষ্কার এবং উষ্ণ।",
-          "en": "The weather is really clear and warm today."
-        },
-        {
-          "speaker": "투안",
-          "ko": "네, 날씨가 좋아서 기분도 상쾌해요.",
-          "bn": "হ্যাঁ, আবহাওয়া ভালো হওয়ায় মনটাও সতেজ লাগছে।",
-          "en": "Yes, I feel refreshed because the weather is good."
-        },
-        {
-          "speaker": "리한",
-          "ko": "주말에 같이 공원에 산책하러 갈까요?",
-          "bn": "সপ্তাহান্তে একসাথে পার্কে হাঁটতে যাব কি?",
-          "en": "Shall we go for a walk in the park together this weekend?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "좋아요. 비가 안 오면 꼭 가요.",
-          "bn": "ঠিক আছে। বৃষ্টি না হলে অবশ্যই যাব।",
-          "en": "Sounds good. Let's definitely go if it doesn't rain."
-        }
+        { "speaker": "A", "ko": "여보세요? 투이 씨, 다카는 지금 날씨가 어때요?", "bn": "হ্যালো? থুই, ঢাকায় এখন আবহাওয়া কেমন?", "en": "Hello? Thuy, how is the weather in Dhaka now?" },
+        { "speaker": "B", "ko": "비가 많이 와요. 서울에도 비가 와요?", "bn": "বেশি বৃষ্টি হচ্ছে। সিউলেও কি বৃষ্টি হচ্ছে?", "en": "It is raining a lot. Is it raining in Seoul too?" },
+        { "speaker": "A", "ko": "아니요, 비가 안 와요.", "bn": "না, বৃষ্টি হচ্ছে না।", "en": "No, it is not raining." },
+        { "speaker": "B", "ko": "그럼 많이 더워요?", "bn": "তাহলে খুব গরম?", "en": "Then is it very hot?" },
+        { "speaker": "A", "ko": "오늘은 바람이 불어요. 별로 안 더워요.", "bn": "আজ বাতাস বইছে। তেমন গরম নয়।", "en": "It is windy today. It is not really hot." }
+      ]
+    },
+    {
+      "titleBn": "সাবধান, কফি গরম",
+      "titleEn": "Careful, the Coffee Is Hot",
+      "lines": [
+        { "speaker": "A", "ko": "조심하세요. 커피가 뜨거워요.", "bn": "সাবধান। কফি গরম।", "en": "Be careful. The coffee is hot." },
+        { "speaker": "B", "ko": "네, 감사합니다.", "bn": "জি, ধন্যবাদ।", "en": "Okay, thank you." },
+        { "speaker": "A", "ko": "주스도 있어요. 주스는 차가워요.", "bn": "জুসও আছে। জুস ঠান্ডা।", "en": "There is juice too. The juice is cold." },
+        { "speaker": "B", "ko": "그럼 주스를 주세요.", "bn": "তাহলে জুস দিন।", "en": "Then please give me juice." },
+        { "speaker": "A", "ko": "네, 여기 있습니다.", "bn": "জি, এ নিন।", "en": "Sure, here you go." }
       ]
     }
   ],
@@ -645,568 +570,361 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "봄",
-        "겨울",
-        "가을",
-        "여름"
-      ],
+      "questionBn": "'겨울' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["বসন্ত", "গ্রীষ্ম", "শরৎ", "শীত"],
       "answer": 3,
-      "explanationBn": "날씨가 덥습니다 (আবহাওয়া গরম) - এটি গ্রীষ্মকালের (여름) বৈশিষ্ট্য।"
+      "explanationBn": "겨울 = শীত। 봄 = বসন্ত, 여름 = গ্রীষ্ম, 가을 = শরৎ।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "비가 와요",
-        "바람이 불어요",
-        "맑아요",
-        "눈이 와요"
-      ],
+      "questionBn": "'덥다' + '-아요/어요' এর সঠিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["덥아요", "더어요", "더워요", "덥어요"],
       "answer": 2,
-      "explanationBn": "하늘에 구름이 없습니다 (আকাশে মেঘ নেই) - এর মানে আবহাওয়া পরিষ্কার (맑아요)।"
+      "explanationBn": "'ㅂ' অনিয়ম—ㅂ বাদ পড়ে '우' বসে: 덥다 → 더워요।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 중 날씨와 관련 없는 단어는 무엇입니까?",
-      "options": [
-        "따뜻하다",
-        "이름",
-        "흐리다",
-        "시원하다"
-      ],
+      "questionBn": "'오늘은 날씨가 어때요?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": ["화요일이에요.", "너무 더워요.", "시계예요.", "네, 날씨예요."],
       "answer": 1,
-      "explanationBn": "이름 (নাম) আবহাওয়ার সাথে সম্পর্কিত নয়। বাকিগুলো আবহাওয়ার অবস্থা বোঝায়।"
+      "explanationBn": "'날씨가 어때요?' (আবহাওয়া কেমন?) প্রশ্নের উত্তরে বিশেষণ বলা হয়: 너무 더워요।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "추워요",
-        "더워요",
-        "시원해요",
-        "따뜻해요"
-      ],
+      "questionBn": "না-বাচক বাক্যে শূন্যস্থানে কী বসবে: 비가 ___ 와요। (বৃষ্টি হচ্ছে না)",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": ["안", "못", "을", "이"],
       "answer": 0,
-      "explanationBn": "겨울에는 눈이 오고 날씨가... (শীতকালে তুষারপাত হয় এবং আবহাওয়া...) - সঠিক উত্তর 추워요 (ঠান্ডা)।"
+      "explanationBn": "ক্রিয়ার আগে '안' বসে না-বাচক অর্থ হয়: 비가 안 와요।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "가: 오늘 날씨가 어때요?\n나: 비가 ____.",
-      "options": [
-        "자요",
-        "먹어요",
-        "가요",
-        "와요"
-      ],
-      "answer": 3,
-      "explanationBn": "비가 오다 (বৃষ্টি আসা) - সঠিক রূপ 비가 와요।"
+      "type": "multiple-choice",
+      "questionBn": "'차갑다' কোন ক্ষেত্রে ব্যবহৃত হয়?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["আবহাওয়া ঠান্ডা বোঝাতে", "বস্তু ঠান্ডা বোঝাতে", "মানুষ ঠান্ডা বোঝাতে", "খাবারের স্বাদ বোঝাতে"],
+      "answer": 1,
+      "explanationBn": "차갑다 = বস্তু ঠান্ডা (물이 차가워요)। আবহাওয়া ঠান্ডা বোঝাতে '춥다' ব্যবহৃত হয়।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "가: 무슨 ____을 좋아해요?\n나: 저는 봄을 좋아해요.",
-      "options": [
-        "이름",
-        "날씨",
-        "계절",
-        "우산"
-      ],
-      "answer": 2,
-      "explanationBn": "봄 (বসন্ত) একটি 계절 (ঋতু)। তাই প্রশ্নটি হবে 무슨 계절을 좋아해요? (কোন ঋতু পছন্দ করেন?)"
+      "type": "multiple-choice",
+      "questionBn": "'명사+하다' ক্রিয়ার সঠিক না-বাচক রূপ কোনটি?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["오늘은 일 안 해요.", "오늘은 안 일해요.", "오늘은 일해 안요.", "오늘은 안 일 해요."],
+      "answer": 0,
+      "explanationBn": "'안' বিশেষ্য (일) আর '하다'-এর মাঝে বসে: 일 안 해요।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "가: 밖이 많이 춥지요?\n나: 네, 정말 ____.",
-      "options": [
-        "따뜻하네요",
-        "춥네요",
-        "덥네요",
-        "시원하네요"
-      ],
-      "answer": 1,
-      "explanationBn": "춥지요? (ঠান্ডা তাই না?) এর উত্তরে 춥네요 (সত্যিই ঠান্ডা) হবে।"
+      "type": "multiple-choice",
+      "questionBn": "'시원하다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["গরম", "উষ্ণ", "মেঘলা", "শীতল/ঠান্ডা"],
+      "answer": 3,
+      "explanationBn": "시원하다 = শীতল হওয়া—যেমন শরৎকালের আবহাওয়া: 가을은 시원해요।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "비가 옵니다. 그래서 ____을/를 씁니다.",
-      "options": [
-        "우산",
-        "가방",
-        "안경",
-        "모자"
-      ],
-      "answer": 0,
-      "explanationBn": "비가 옵니다 (বৃষ্টি হচ্ছে)। তাই 우산 (ছাতা) ব্যবহার করতে হবে।"
+      "type": "multiple-choice",
+      "questionBn": "কোন ক্রিয়াটি 'ㅂ' অনিয়মের পরিবর্তে নিয়মমতো চলে?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["덥다", "춥다", "입다", "쉽다"],
+      "answer": 2,
+      "explanationBn": "입다 (পরা) নিয়মমতো চলে: 입어요। বাকিগুলো 'ㅂ' অনিয়ম: 더워요, 추워요, 쉬워요।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "봄",
-          "right": "বসন্ত"
-        },
-        {
-          "left": "여름",
-          "right": "গ্রীষ্ম"
-        },
-        {
-          "left": "가을",
-          "right": "শরৎ"
-        },
-        {
-          "left": "겨울",
-          "right": "শীত"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "multiple-choice",
+      "questionBn": "'별로' সঠিকভাবে কোন বাক্যে ব্যবহৃত হয়েছে?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["별로 안 더워요.", "별로 더워요.", "별로 많이 와요.", "별로 너무 추워요."],
+      "answer": 0,
+      "explanationBn": "'별로' না-বাচক বাক্যে ব্যবহৃত হয়: 별로 안 더워요 (তেমন গরম নয়)।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "덥다",
-          "right": "গরম"
-        },
-        {
-          "left": "춥다",
-          "right": "ঠান্ডা"
-        },
-        {
-          "left": "따뜻하다",
-          "right": "উষ্ণ"
-        },
-        {
-          "left": "시원하다",
-          "right": "শীতল"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "fill-blank",
+      "questionBn": "'춥다' এর সঠিক রূপ বসান: 겨울은 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["춥아요", "추워요", "춥어요", "추어요"],
+      "answer": 1,
+      "explanationBn": "'ㅂ' অনিয়ম: 춥다 → 추워요।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "구름",
-        "안개",
-        "장마",
-        "태풍"
-      ],
+      "type": "fill-blank",
+      "questionBn": "'বৃষ্টি থেমেছে' বাক্যটি সম্পূর্ণ করুন: 비가 ___어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["그쳤", "그치", "왔", "오"],
       "answer": 0,
-      "explanationBn": "하늘에 하얀 (구름)이 많아요. (আকাশে অনেক সাদা মেঘ আছে।)"
+      "explanationBn": "그치다 এর অতীত 그쳤어요 = থেমেছে।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "건조해요",
-        "습해요",
-        "상쾌해요",
-        "우울해요"
-      ],
-      "answer": 1,
-      "explanationBn": "비가 많이 와서 날씨가 (습해요). (অনেক বৃষ্টি হওয়ায় আবহাওয়া আর্দ্র।)"
+      "type": "fill-blank",
+      "questionBn": "'আমি কফি পান করি না' বাক্যটি সম্পূর্ণ করুন: 저는 커피를 ___ 마셔요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["안", "을", "이", "도"],
+      "answer": 0,
+      "explanationBn": "ক্রিয়ার (마셔요) আগে '안' বসে না-বাচক অর্থ হয়।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 중 기분과 관련 없는 단어는 무엇입니까?",
-      "options": [
-        "우울하다",
-        "피곤하다",
-        "상쾌하다",
-        "번개"
-      ],
-      "answer": 3,
-      "explanationBn": "번개 (বজ্রপাত) আবহাওয়ার সাথে সম্পর্কিত, অনুভূতির সাথে নয়।"
+      "type": "fill-blank",
+      "questionBn": "'আবহাওয়া খুব গরম' বাক্যটি সম্পূর্ণ করুন: 날씨가 ___ 더워요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["조금", "너무", "별로", "안"],
+      "answer": 1,
+      "explanationBn": "너무 = খুব/খুব বেশি। 조금 = একটু, 별로 না-বাচক বাক্যে ব্যবহৃত হয়।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "가고 싶어요",
-        "가서",
-        "가네요",
-        "가요"
-      ],
-      "answer": 0,
-      "explanationBn": "날씨가 좋아서 바다에 (가고 싶어요). (আবহাওয়া ভালো তাই সমুদ্রে যেতে চাই।)"
+      "type": "fill-blank",
+      "questionBn": "'뜨겁다' এর সঠিক রূপ বসান: 커피가 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["뜨겁아요", "뜨겁어요", "뜨거어요", "뜨거워요"],
+      "answer": 3,
+      "explanationBn": "'ㅂ' অনিয়ম: 뜨겁다 → 뜨거워요।"
     },
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "가: 왜 우산을 샀어요?\n나: 비가 ____ 샀어요.",
-      "options": [
-        "와서",
-        "오고",
-        "오네요",
-        "와요"
-      ],
-      "answer": 0,
-      "explanationBn": "비가 오다 + 아서/어서 = 비가 와서 (বৃষ্টি আসায়)।"
+      "questionBn": "'কোন ঋতু পছন্দ করো?' প্রশ্নটি সম্পূর্ণ করুন: 무슨 ___을 좋아해요?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["날씨", "요일", "계절", "장소"],
+      "answer": 2,
+      "explanationBn": "계절 = ঋতু। 날씨 = আবহাওয়া, 요일 = বার।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "가: 오늘 기분이 어때요?\n나: 날씨가 맑아서 기분이 ____.",
-      "options": [
-        "상쾌해요",
-        "졸려요",
-        "피곤해요",
-        "우울해요"
-      ],
+      "questionBn": "'명사+하다' ক্রিয়ার না-বাচক রূপে বসান: 오늘은 운동 ___ 해요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["안", "못", "을", "이"],
       "answer": 0,
-      "explanationBn": "날씨가 맑아서 (আবহাওয়া পরিষ্কার হওয়ায়) 기분이 상쾌해요 (মন সতেজ)।"
+      "explanationBn": "'안' বিশেষ্য (운동) আর '하다'-এর মাঝে বসে।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "가: 주말에 뭐 할 거예요?\n나: 집에서 쉬고 ____.",
-      "options": [
-        "싶어요",
-        "있어요",
-        "가요",
-        "와요"
+      "type": "matching",
+      "questionBn": "ঋতুর কোরীয় নামের সাথে বাংলা মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "봄", "right": "বসন্ত" },
+        { "left": "여름", "right": "গ্রীষ্ম" },
+        { "left": "가을", "right": "শরৎ" },
+        { "left": "겨울", "right": "শীত" }
       ],
-      "answer": 0,
-      "explanationBn": "쉬다 + 고 싶다 = 쉬고 싶어요 (বিশ্রাম নিতে চাই)।"
+      "explanationBn": "কোরিয়ায় চারটি ঋতু (사계절) স্পষ্ট—প্রতিটির আলাদা আবহাওয়া আছে।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "여름에는 비가 많이 오고 날씨가 아주 ____.",
-      "options": [
-        "습해요",
-        "건조해요",
-        "추워요",
-        "시원해요"
+      "type": "matching",
+      "questionBn": "ঋতুর সাথে স্বাভাবিক আবহাওয়াটি মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "봄", "right": "따뜻해요" },
+        { "left": "여름", "right": "더워요" },
+        { "left": "가을", "right": "시원해요" },
+        { "left": "겨울", "right": "추워요" }
       ],
-      "answer": 0,
-      "explanationBn": "여름에는 비가 많이 오고 (গ্রীষ্মকালে অনেক বৃষ্টি হয় এবং) 날씨가 아주 습해요 (আবহাওয়া খুব আর্দ্র থাকে)।"
+      "explanationBn": "봄 = উষ্ণ, 여름 = গরম, 가을 = শীতল, 겨울 = ঠান্ডা।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "আবহাওয়ার ঘটনার সাথে বাংলা অর্থ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
-        {
-          "left": "구름",
-          "right": "মেঘ"
-        },
-        {
-          "left": "안개",
-          "right": "কুয়াশা"
-        },
-        {
-          "left": "번개",
-          "right": "বজ্রপাত"
-        },
-        {
-          "left": "천둥",
-          "right": "মেঘের গর্জন"
-        }
+        { "left": "맑다", "right": "পরিষ্কার আকাশ" },
+        { "left": "흐리다", "right": "মেঘলা" },
+        { "left": "비가 오다", "right": "বৃষ্টি হওয়া" },
+        { "left": "눈이 오다", "right": "তুষারপাত হওয়া" },
+        { "left": "바람이 불다", "right": "বাতাস বহা" }
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "আবহাওয়া জিজ্ঞাসা করতে বলুন: 날씨가 어때요?"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "বিশেষণের মূল রূপের সাথে -아요/어요 রূপ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
-        {
-          "left": "건조하다",
-          "right": "শুষ্ক"
-        },
-        {
-          "left": "습하다",
-          "right": "আর্দ্র"
-        },
-        {
-          "left": "상쾌하다",
-          "right": "সতেজ"
-        },
-        {
-          "left": "우울하다",
-          "right": "বিষণ্ণ"
-        }
+        { "left": "덥다", "right": "더워요" },
+        { "left": "춥다", "right": "추워요" },
+        { "left": "쉽다", "right": "쉬워요" },
+        { "left": "어렵다", "right": "어려워요" },
+        { "left": "뜨겁다", "right": "뜨거워요" }
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "সবগুলোই 'ㅂ' অনিয়ম—ㅂ বাদ পড়ে '우' বসে।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
-      "passage": "[비가 오는 그림]",
-      "options": [
-        "눈이 옵니다.",
-        "날씨가 맑습니다.",
-        "비가 옵니다.",
-        "바람이 붑니다."
-      ],
-      "answer": 2,
-      "explanationBn": "ছবিতে বৃষ্টি হচ্ছে, তাই সঠিক উত্তর 비가 옵니다 (বৃষ্টি হচ্ছে)।"
+      "questionBn": "'여름' শব্দটি কোন বিভাগের?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "여름",
+      "options": ["계절", "장소", "음식", "직업"],
+      "answer": 0,
+      "explanationBn": "'여름' (গ্রীষ্ম) একটি ঋতু (계절)।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
-      "passage": "[더워서 땀을 흘리는 그림]",
-      "options": [
-        "춥습니다.",
-        "따뜻합니다.",
-        "시원합니다.",
-        "덥습니다."
-      ],
-      "answer": 3,
-      "explanationBn": "ছবিতে গরমের কারণে ঘামছে, তাই সঠিক উত্তর 덥습니다 (গরম)।"
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "김치찌개가 너무 ___. 조심해서 드세요.",
+      "options": ["차갑습니다", "뜨겁습니다", "맑습니다", "흐립니다"],
+      "answer": 1,
+      "explanationBn": "'조심해서 드세요' (সাবধানে খান) বলতে বোঝায় খাবারটি গরম (뜨겁습니다)।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "한국의 (   )은/는 아주 춥습니다. 그리고 눈이 많이 옵니다.",
-      "options": [
-        "겨울",
-        "여름",
-        "봄",
-        "가을"
-      ],
-      "answer": 0,
-      "explanationBn": "খুব ঠান্ডা এবং তুষারপাত হয় - এটি 겨울 (শীতকাল) এর বৈশিষ্ট্য।"
+      "questionBn": "না-বাচক কোন বাক্যটি সঠিক?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["안 비가 와요.", "비가 와요 안.", "비가 안 와요가.", "비가 안 와요."],
+      "answer": 3,
+      "explanationBn": "'안' ক্রিয়ার (와요) আগে বসে: 비가 안 와요।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionBn": "শূন্যস্থানে সঠিক বাক্যটি বসান।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 오늘 날씨가 어때요?\n나: 비가 오고 바람이 많이 (   ).",
-      "options": [
-        "없습니다",
-        "붑니다",
-        "옵니다",
-        "있습니다"
-      ],
-      "answer": 1,
-      "explanationBn": "바람 (বাতাস) এর সাথে 불다 (বওয়া) ক্রিয়াপদ ব্যবহৃত হয়। তাই 바람이 붑니다 সঠিক।"
+      "passage": "제 고향은 ___. 저는 한국에서 처음 겨울을 경험했습니다.",
+      "options": ["날씨가 항상 따뜻합니다", "날씨가 너무 춥습니다", "눈이 많이 옵니다", "바람이 많이 붑니다"],
+      "answer": 0,
+      "explanationBn": "প্রথমবার শীত (처음 겨울) অনুভব করা মানে তার দেশে আবহাওয়া সবসময় উষ্ণ (따뜻합니다)।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 무슨 (   )을/를 좋아해요?\n나: 저는 가을을 좋아해요.",
-      "options": [
-        "과일",
-        "음식",
-        "계절",
-        "운동"
-      ],
-      "answer": 2,
-      "explanationBn": "가을 (শরৎ) একটি 계절 (ঋতু)। তাই প্রশ্নটি হবে 무슨 계절을 좋아해요? (কোন ঋতু পছন্দ করেন?)"
+      "questionBn": "কোরিয়ার ঋতু সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국은 사계절이 뚜렷한 나라입니다. 봄에는 꽃구경을 가고, 가을에는 날씨가 좋아서 축제가 많이 열립니다.",
+      "options": ["한국은 계절의 변화가 뚜렷하지 않습니다.", "축제는 날씨가 좋은 가을에 많이 열립니다.", "봄에는 스키를 탑니다.", "가을에는 비가 많이 옵니다."],
+      "answer": 1,
+      "explanationBn": "লেখানুযায়ী আবহাওয়া ভালো থাকায় শরতে (가을) অনেক উৎসব (축제) হয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "따뜻합니다.",
-      "options": [
-        "춥습니다.",
-        "시원합니다.",
-        "덥습니다.",
-        "따뜻합니다."
-      ],
-      "answer": 3,
-      "explanationBn": "অডিওতে 따뜻합니다 (উষ্ণ) বলা হয়েছে।"
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "오늘은 바람이 불어요. 별로 ___ 더워요.",
+      "options": ["을", "이", "안", "도"],
+      "answer": 2,
+      "explanationBn": "'별로' এর সাথে না-বাচক '안' বসে: 별로 안 더워요 (তেমন গরম নয়)।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "오늘 날씨가 어때요?",
-      "options": [
-        "비가 와요.",
-        "우산이 없어요.",
-        "저는 봄을 좋아해요.",
-        "네, 날씨가 좋아요."
-      ],
-      "answer": 0,
-      "explanationBn": "প্রশ্ন: 오늘 날씨가 어때요? (আজকের আবহাওয়া কেমন?)। উত্তর: 비가 와요 (বৃষ্টি হচ্ছে)।"
+      "section": "reading",
+      "questionBn": "কোন বাক্যটির ব্যাকরণ সঠিক?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["날씨가 춥아요.", "날씨 추워요가.", "날씨를 추워요.", "날씨가 추워요."],
+      "answer": 3,
+      "explanationBn": "'날씨가 추워요' সঠিক—춥다 এর 'ㅂ' অনিয়মে 추워요 হয়।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "무슨 계절을 좋아해요?",
-      "options": [
-        "비가 많이 와요.",
-        "여름을 좋아해요.",
-        "오늘이 겨울이에요.",
-        "날씨가 더워요."
-      ],
-      "answer": 1,
-      "explanationBn": "প্রশ্ন: 무슨 계절을 좋아해요? (কোন ঋতু পছন্দ করেন?)। উত্তর: 여름을 좋아해요 (গ্রীষ্মকাল পছন্দ করি)।"
-    },
+      "section": "reading",
+      "questionBn": "কোরিয়ার গ্রীষ্ম সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "여름(6월~8월)에는 덥고 비가 많이 옵니다. 장마가 끝나면 30도가 넘는 무더위가 시작됩니다.",
+      "options": ["여름에는 춥습니다.", "장마가 끝나면 추워집니다.", "여름에는 비가 많이 옵니다.", "무더위는 겨울에 시작됩니다."],
+      "answer": 2,
+      "explanationBn": "লেখানুযায়ী গ্রীষ্মে (여름) গরম থাকে এবং বেশি বৃষ্টি হয়।"
+    }
+    ,
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
-      "passage": "[번개가 치는 그림]",
-      "options": [
-        "눈이 옵니다.",
-        "번개가 칩니다.",
-        "안개가 낍니다.",
-        "바람이 붑니다."
-      ],
+      "questionBn": "শূন্যস্থানে সঠিক উত্তরটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 영어 공부가 어때요? 나: 조금 ___. 매일 공부해요.",
+      "options": ["쉬워요", "어려워요", "더워요", "추워요"],
       "answer": 1,
-      "explanationBn": "ছবিতে বজ্রপাত হচ্ছে, তাই সঠিক উত্তর 번개가 칩니다 (বজ্রপাত হচ্ছে)।"
+      "explanationBn": "পড়াশোনা (공부) সম্পর্কে কথা হচ্ছে এবং '조금' এর পরে স্বাভাবিক উত্তর '어려워요' (কঠিন)।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "여름에는 날씨가 덥고 비가 많이 옵니다. 그래서 아주 (   ).",
-      "options": [
-        "건조합니다",
-        "시원합니다",
-        "습합니다",
-        "춥습니다"
-      ],
-      "answer": 2,
-      "explanationBn": "গ্রীষ্মকালে গরম এবং বৃষ্টি বেশি হওয়ায় আবহাওয়া আর্দ্র (습합니다) থাকে।"
+      "questionBn": "কোরিয়ার শীত সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "겨울(12월~2월)은 매우 춥습니다. 높은 지대에는 눈이 많이 내려 스키 등 겨울 스포츠를 즐기는 사람들이 많습니다.",
+      "options": ["겨울에는 스키를 즐기는 사람들이 있습니다.", "겨울은 따뜻합니다.", "겨울에는 비가 많이 옵니다.", "사람들은 겨울 스포츠를 하지 않습니다."],
+      "answer": 0,
+      "explanationBn": "লেখানুযায়ী শীতে অনেক বরফ পড়ে এবং মানুষ স্কিসহ শীতের খেলা (겨울 스포츠) উপভোগ করে।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 왜 외출을 안 해요?\n나: 비가 (   ) 집에서 쉬고 싶어요.",
-      "options": [
-        "와서",
-        "오고",
-        "오지만",
-        "오면"
-      ],
-      "answer": 0,
-      "explanationBn": "কারণ বোঝাতে '-아서/어서' ব্যবহৃত হয়। 비가 와서 (বৃষ্টি আসায়)।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: দুজনে কী করার পরিকল্পনা করছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 날씨가 너무 덥네요. 우리 바다에 갈까요?\n여자: 좋아요. 바다에 가서 수영해요.",
+      "options": ["공원에서 산책합니다", "집에서 쉽니다", "시장에 갑니다", "수영하러 바다에 갑니다"],
+      "answer": 3,
+      "explanationBn": "গরম বলে তারা সমুদ্রে (바다) গিয়ে সাঁতার (수영) কাটার কথা বলছে।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 주말에 산에 갈까요?\n나: 아니요, 날씨가 흐려서 (   ).",
-      "options": [
-        "가고 싶어요",
-        "가기 싫어요",
-        "가고 있어요",
-        "갈 거예요"
-      ],
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: দুজনে কী নিয়ে কথা বলছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 비가 계속 오네요.\n남자: 일기예보에서 밤까지 비가 올 거라고 했어요.",
+      "options": ["요일", "날씨", "장소", "음식"],
       "answer": 1,
-      "explanationBn": "আবহাওয়া মেঘলা থাকায় পাহাড়ে যেতে অনিচ্ছা প্রকাশ করা হয়েছে। 가기 싫어요 (যেতে চাই না)।"
+      "explanationBn": "বৃষ্টি (비) আর আবহাওয়া পূর্বাভাস (일기예보) নিয়ে কথা হচ্ছে—বিষয় আবহাওয়া (날씨)।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "এই লেখাটি কী সম্পর্কে?",
-      "questionKo": "다음 글은 무엇에 대한 글입니까?",
-      "passage": "한국에는 봄, 여름, 가을, 겨울이 있습니다. 봄은 따뜻하고 여름은 덥습니다. 가을은 시원하고 겨울은 춥습니다.",
-      "options": [
-        "한국의 음식",
-        "한국의 계절",
-        "한국의 과일",
-        "한국의 직업"
-      ],
-      "answer": 1,
-      "explanationBn": "অনুচ্ছেদটিতে কোরিয়ার চারটি ঋতু (봄, 여름, 가을, 겨울) সম্পর্কে বলা হয়েছে। তাই এটি 한국의 계절 (কোরিয়ার ঋতু) সম্পর্কে।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: কফি কেমন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 커피가 많이 뜨거워요?\n남자: 아니요, 별로 뜨겁지 않아요.",
+      "options": ["많이 뜨거워요", "차가워요", "별로 뜨겁지 않아요", "너무 더워요"],
+      "answer": 2,
+      "explanationBn": "পুরুষ বলেছেন কফি তেমন গরম নয় (별로 뜨겁지 않아요)।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: মহিলা ছাতাটি কেন কিনেছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "장마철이라서 비가 많이 오네요.",
-      "options": [
-        "장마철이라서 비가 많이 오네요.",
-        "겨울이라서 눈이 많이 오네요.",
-        "가을이라서 날씨가 시원하네요.",
-        "여름이라서 날씨가 덥네요."
-      ],
+      "passage": "남자: 우산을 언제 샀어요?\n여자: 비가 와서 어제 샀어요.",
+      "options": ["비가 와서", "싸서", "예뻐서", "친구가 줘서"],
       "answer": 0,
-      "explanationBn": "অডিওতে 장마철이라서 비가 많이 오네요 (বর্ষাকাল হওয়ায় অনেক বৃষ্টি হচ্ছে) বলা হয়েছে।"
+      "explanationBn": "মহিলা বলেছেন বৃষ্টি হওয়ায় (비가 와서) ছাতাটি কিনেছেন।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: কোরিয়ার বসন্ত কেমন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 오늘 날씨가 참 좋네요.\n여자: 네, 맑고 따뜻해서 산책하기 좋아요.",
-      "options": [
-        "날씨가 흐립니다.",
-        "비가 오고 있습니다.",
-        "날씨가 맑고 따뜻합니다.",
-        "눈이 많이 옵니다."
-      ],
+      "passage": "여자: 한국의 봄은 어때요?\n남자: 따뜻하고 꽃이 많이 펴요.",
+      "options": ["너무 더워요", "너무 추워요", "따뜻하고 꽃이 많이 펴요", "비가 많이 와요"],
       "answer": 2,
-      "explanationBn": "কথোপকথনে বলা হয়েছে 날씨가 맑고 따뜻해서 (আবহাওয়া পরিষ্কার এবং উষ্ণ হওয়ায়)।"
+      "explanationBn": "পুরুষ বলেছেন বসন্ত উষ্ণ (따뜻하고) এবং অনেক ফুল ফোটে।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কোন ঋতুর কথা বলছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 투안 씨, 주말에 뭐 하고 싶어요?\n여자: 저는 피곤해서 집에서 쉬고 싶어요.",
-      "options": [
-        "투안 씨는 바다에 가고 싶어 합니다.",
-        "투안 씨는 집에서 쉬고 싶어 합니다.",
-        "투안 씨는 산책을 하고 싶어 합니다.",
-        "투안 씨는 친구를 만나고 싶어 합니다."
-      ],
-      "answer": 1,
-      "explanationBn": "তুয়ান বলেছে 피곤해서 집에서 쉬고 싶어요 (ক্লান্ত থাকায় বাড়িতে বিশ্রাম নিতে চাই)।"
+      "passage": "남자: 겨울은 어때요?\n여자: 너무 추워요. 눈도 와요.",
+      "options": ["봄", "여름", "가을", "겨울"],
+      "answer": 3,
+      "explanationBn": "প্রশ্ন ও উত্তরে 겨울 (শীত) বলা হয়েছে—ঠান্ডা আর বরফের কথা।"
     }
   ]
 }
