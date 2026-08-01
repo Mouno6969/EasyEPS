@@ -2,7 +2,7 @@
   "chapter": 10,
   "slug": "shopping",
   "title": {
-    "ko": "쇼핑",
+    "ko": "물건 구입",
     "bn": "কেনাকাটা",
     "en": "Shopping"
   },
@@ -10,42 +10,214 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কেনাকাটা করার সময় প্রয়োজনীয় শব্দ ও বাক্য শেখা",
-      "জিনিসপত্রের দাম জিজ্ঞাসা করা এবং বলা",
-      "জিনিসপত্র কেনা এবং দরদাম করা"
+      "জিনিসের অবস্থা/বর্ণনা জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "প্রয়োজনীয় জিনিস অন্যের কাছে চাইতে পারা",
+      "দাম জিজ্ঞাসা ও দরদাম করতে পারা",
+      "কোরিয়ার সেলফ-সার্ভিস দোকান (무인 판매점) সম্পর্কে জানা"
     ],
     "en": [
-      "Learn essential vocabulary and phrases for shopping",
-      "Ask and state the prices of items",
-      "Buy items and bargain"
+      "Being able to ask and answer about the descriptions of things",
+      "Being able to request items needed from others",
+      "Being able to ask prices and bargain",
+      "Knowing about Korea's unmanned stores"
     ]
   },
   "vocabulary": [
     {
-      "ko": "쇼핑",
-      "romanization": "syoping",
-      "bn": "কেনাকাটা",
-      "en": "shopping",
-      "pos": "noun",
+      "ko": "크다",
+      "romanization": "keuda",
+      "bn": "বড় হওয়া",
+      "en": "to be big",
+      "pos": "adjective",
       "example": {
-        "ko": "주말에 쇼핑을 합니다.",
-        "bn": "সপ্তাহান্তে কেনাকাটা করি।",
-        "en": "I go shopping on the weekend."
+        "ko": "수박이 정말 크네요.",
+        "bn": "তরমুজ সত্যিই বড়।",
+        "en": "The watermelon is really big."
       },
-      "pronunciationTipBn": "'ㅅ' এর পর 'ㅛ' থাকলে 'শ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'ㅡ' বাদ পড়ে—'크다' + 아요 = '커요' [কয়ো]; '크네요' [ক্যনে요]।"
     },
     {
-      "ko": "물건",
-      "romanization": "mulgeon",
-      "bn": "জিনিসপত্র",
-      "en": "goods/items",
+      "ko": "작다",
+      "romanization": "jakda",
+      "bn": "ছোট হওয়া",
+      "en": "to be small",
+      "pos": "adjective",
+      "example": {
+        "ko": "바지가 좀 작아요.",
+        "bn": "প্যান্ট একটু ছোট।",
+        "en": "The pants are a bit small."
+      },
+      "pronunciationTipBn": "'작아요' [জাগায়ো]—ㄱ+ㅇ মিলে 'গা' শোনায়।"
+    },
+    {
+      "ko": "싱싱하다",
+      "romanization": "singsinghada",
+      "bn": "তাজা হওয়া",
+      "en": "to be fresh",
+      "pos": "adjective",
+      "example": {
+        "ko": "과일이 싱싱하네요.",
+        "bn": "ফল তাজা দেখছি।",
+        "en": "The fruit looks fresh."
+      },
+      "pronunciationTipBn": "'싱싱' [শিংশিং]—দুইবার নাকিধ্বনি 'ং' সহ বলুন।"
+    },
+    {
+      "ko": "상하다",
+      "romanization": "sanghada",
+      "bn": "নষ্ট/বাসি হওয়া",
+      "en": "to be spoiled",
+      "pos": "adjective",
+      "example": {
+        "ko": "사과가 상했어요.",
+        "bn": "আপেল নষ্ট হয়েছে।",
+        "en": "The apple has spoiled."
+      },
+      "pronunciationTipBn": "'상했어요' [সাংহ্যাত্সয়ো]—'상하다' খাবার নষ্ট হওয়া বোঝায়।"
+    },
+    {
+      "ko": "많다",
+      "romanization": "manda",
+      "bn": "অনেক হওয়া",
+      "en": "to be many; much",
+      "pos": "adjective",
+      "example": {
+        "ko": "오렌지가 많아요.",
+        "bn": "কমলা অনেক আছে।",
+        "en": "There are many oranges."
+      },
+      "pronunciationTipBn": "'많아요' [মানায়ো]—ㅎ এখানে প্রায় নীরব থাকে।"
+    },
+    {
+      "ko": "적다",
+      "romanization": "jeokda",
+      "bn": "কম হওয়া",
+      "en": "to be few; little",
+      "pos": "adjective",
+      "example": {
+        "ko": "돈이 적어요.",
+        "bn": "টাকা কম।",
+        "en": "I have little money."
+      },
+      "pronunciationTipBn": "'적어요' [জগায়ো]—ㄱ+ㅇ মিলে 'গা' শোনায়।"
+    },
+    {
+      "ko": "싸다",
+      "romanization": "ssada",
+      "bn": "সস্তা হওয়া",
+      "en": "to be cheap",
+      "pos": "adjective",
+      "example": {
+        "ko": "케이크가 싸요.",
+        "bn": "কেক সস্তা।",
+        "en": "The cake is cheap."
+      },
+      "pronunciationTipBn": "'싸' জোড়া ㅆ—শক্ত 'স্সা' চাপ দিয়ে বলুন।"
+    },
+    {
+      "ko": "비싸다",
+      "romanization": "bissada",
+      "bn": "দামি হওয়া",
+      "en": "to be expensive",
+      "pos": "adjective",
+      "example": {
+        "ko": "티셔츠가 비싸네요.",
+        "bn": "টি-শার্ট দামি তো।",
+        "en": "The T-shirt is expensive."
+      },
+      "pronunciationTipBn": "'비싸' [বিস্সা]—'싸' শক্ত করে; '비싸네요' [বিস্সানে요]।"
+    },
+    {
+      "ko": "가볍다",
+      "romanization": "gabyeopda",
+      "bn": "হালকা হওয়া",
+      "en": "to be light",
+      "pos": "adjective",
+      "example": {
+        "ko": "상자가 가벼워요.",
+        "bn": "বাক্স হালকা।",
+        "en": "The box is light."
+      },
+      "pronunciationTipBn": "'가벼워요' [কাব্যোয়ায়ো]—ㅂ+ㅓ মিলে 'ব্য' শোনায়।"
+    },
+    {
+      "ko": "무겁다",
+      "romanization": "mugeopda",
+      "bn": "ভারী হওয়া",
+      "en": "to be heavy",
+      "pos": "adjective",
+      "example": {
+        "ko": "상자가 너무 무거워요.",
+        "bn": "বাক্স খুব ভারী।",
+        "en": "The box is too heavy."
+      },
+      "pronunciationTipBn": "'무거워요' [মুগওয়ায়ো]—'ㅂ' অনিয়মে ㅂ বাদে '워' বসে।"
+    }
+    ,
+    {
+      "ko": "과일",
+      "romanization": "gwail",
+      "bn": "ফল",
+      "en": "fruit",
       "pos": "noun",
       "example": {
-        "ko": "시장에서 물건을 삽니다.",
-        "bn": "বাজার থেকে জিনিসপত্র কিনি।",
-        "en": "I buy items at the market."
+        "ko": "과일이 싱싱하네요.",
+        "bn": "ফল তাজা দেখছি।",
+        "en": "The fruit looks fresh."
       },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি বাংলা 'ল' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'과일' [কোয়াইল/গোয়াল]—দুই অক্ষর মিলিয়ে বলুন।"
+    },
+    {
+      "ko": "수박",
+      "romanization": "subak",
+      "bn": "তরমুজ",
+      "en": "watermelon",
+      "pos": "noun",
+      "example": {
+        "ko": "수박이 정말 크네요.",
+        "bn": "তরমুজ সত্যিই বড়।",
+        "en": "The watermelon is really big."
+      },
+      "pronunciationTipBn": "'수박' [সুবাক্]—ㄱ বত্ছিম থামা শব্দ।"
+    },
+    {
+      "ko": "딸기",
+      "romanization": "ttalgi",
+      "bn": "স্ট্রবেরি",
+      "en": "strawberry",
+      "pos": "noun",
+      "example": {
+        "ko": "딸기 한 상자 주세요.",
+        "bn": "এক বাক্স স্ট্রবেরি দিন।",
+        "en": "One box of strawberries, please."
+      },
+      "pronunciationTipBn": "'딸기' [ত্তালগি]—জোড়া ㄸ শক্ত করে বলুন।"
+    },
+    {
+      "ko": "오렌지",
+      "romanization": "orenji",
+      "bn": "কমলা (ফল)",
+      "en": "orange",
+      "pos": "noun",
+      "example": {
+        "ko": "오렌지 다섯 개 주세요.",
+        "bn": "পাঁচটা কমলা দিন।",
+        "en": "Five oranges, please."
+      },
+      "pronunciationTipBn": "ইংরেজি 'orange'-এর কোরীয় রূপ—'오렌지' [অরেনজি]।"
+    },
+    {
+      "ko": "상자",
+      "romanization": "sangja",
+      "bn": "বাক্স",
+      "en": "box",
+      "pos": "noun",
+      "example": {
+        "ko": "딸기 한 상자.",
+        "bn": "এক বাক্স স্ট্রবেরি।",
+        "en": "One box of strawberries."
+      },
+      "pronunciationTipBn": "'상자' [সাংজা]—বাক্স গোনার একক হিসেবেও ব্যবহৃত হয়।"
     },
     {
       "ko": "돈",
@@ -54,219 +226,37 @@
       "en": "money",
       "pos": "noun",
       "example": {
-        "ko": "돈이 없습니다.",
-        "bn": "টাকা নেই।",
-        "en": "I don't have money."
+        "ko": "돈이 있어요?",
+        "bn": "টাকা আছে?",
+        "en": "Do you have money?"
       },
-      "pronunciationTipBn": "'ㄷ' ধ্বনিটি শব্দের শুরুতে 'দ' এবং 'ত' এর মাঝামাঝি উচ্চারিত হয়।"
+      "pronunciationTipBn": "'돈' [দন]—ㄷ শুরুতে 'ত/দ'-এর মাঝামাঝি শোনায়।"
     },
     {
-      "ko": "값",
-      "romanization": "gap",
-      "bn": "দাম",
-      "en": "price",
+      "ko": "지폐",
+      "romanization": "jipye",
+      "bn": "নোট (কাগজের টাকা)",
+      "en": "banknote",
       "pos": "noun",
       "example": {
-        "ko": "이 옷은 값이 쌉니다.",
-        "bn": "এই কাপড়ের দাম সস্তা।",
-        "en": "The price of these clothes is cheap."
+        "ko": "이건 지폐예요.",
+        "bn": "এটা নোট।",
+        "en": "This is a banknote."
       },
-      "pronunciationTipBn": "বাচ্চিম 'ㅄ' এর ক্ষেত্রে শুধুমাত্র 'ㅂ' (প) উচ্চারিত হয়।"
+      "pronunciationTipBn": "'폐' ঝোঁড়া 'ফ্যে'—'지폐' [জিপ্যে]।"
     },
     {
-      "ko": "가격",
-      "romanization": "gagyeok",
-      "bn": "মূল্য",
-      "en": "price",
+      "ko": "동전",
+      "romanization": "dongjeon",
+      "bn": "মুদ্রা/কয়েন",
+      "en": "coin",
       "pos": "noun",
       "example": {
-        "ko": "가격이 얼마입니까?",
-        "bn": "মূল্য কত?",
-        "en": "How much is the price?"
+        "ko": "동전으로 계산해요.",
+        "bn": "কয়েন দিয়ে পরিশোধ করি।",
+        "en": "I pay with coins."
       },
-      "pronunciationTipBn": "শব্দের মাঝখানে 'ㄱ' ধ্বনিটি 'গ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "싸다",
-      "romanization": "ssada",
-      "bn": "সস্তা",
-      "en": "cheap",
-      "pos": "adjective",
-      "example": {
-        "ko": "사과가 쌉니다.",
-        "bn": "আপেল সস্তা।",
-        "en": "Apples are cheap."
-      },
-      "pronunciationTipBn": "'ㅆ' ধ্বনিটি শক্ত 'স' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "비싸다",
-      "romanization": "bissada",
-      "bn": "দামি",
-      "en": "expensive",
-      "pos": "adjective",
-      "example": {
-        "ko": "가방이 너무 비쌉니다.",
-        "bn": "ব্যাগটি খুব দামি।",
-        "en": "The bag is too expensive."
-      },
-      "pronunciationTipBn": "'ㅆ' ধ্বনিটি শক্ত 'স' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "사다",
-      "romanization": "sada",
-      "bn": "কেনা",
-      "en": "to buy",
-      "pos": "verb",
-      "example": {
-        "ko": "우유를 삽니다.",
-        "bn": "দুধ কিনি।",
-        "en": "I buy milk."
-      },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি সাধারণ 'স' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "팔다",
-      "romanization": "palda",
-      "bn": "বিক্রি করা",
-      "en": "to sell",
-      "pos": "verb",
-      "example": {
-        "ko": "과일을 팝니다.",
-        "bn": "ফল বিক্রি করি।",
-        "en": "I sell fruits."
-      },
-      "pronunciationTipBn": "'ㅍ' ধ্বনিটি বাতাস বের করে 'ফ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "깎다",
-      "romanization": "kkakda",
-      "bn": "কমানো (দাম)",
-      "en": "to discount/bargain",
-      "pos": "verb",
-      "example": {
-        "ko": "조금만 깎아 주세요.",
-        "bn": "একটু দাম কমান।",
-        "en": "Please give me a little discount."
-      },
-      "pronunciationTipBn": "বাচ্চিম 'ㄲ' এর পর 'ㄷ' থাকলে 'ㄷ' শক্ত হয়ে 'ㄸ' (ত) উচ্চারিত হয়।"
-    },
-    {
-      "ko": "주다",
-      "romanization": "juda",
-      "bn": "দেওয়া",
-      "en": "to give",
-      "pos": "verb",
-      "example": {
-        "ko": "이것을 주세요.",
-        "bn": "এটি দিন।",
-        "en": "Please give me this."
-      },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি শব্দের শুরুতে 'জ' এবং 'চ' এর মাঝামাঝি উচ্চারিত হয়।"
-    },
-    {
-      "ko": "거스름돈",
-      "romanization": "geoseureumdon",
-      "bn": "খুচরা টাকা (ফেরত)",
-      "en": "change (money)",
-      "pos": "noun",
-      "example": {
-        "ko": "거스름돈을 받습니다.",
-        "bn": "খুচরা টাকা ফেরত নিই।",
-        "en": "I receive the change."
-      },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি স্বরবর্ণের মাঝে 'র' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "영수증",
-      "romanization": "yeongsujeung",
-      "bn": "রসিদ",
-      "en": "receipt",
-      "pos": "noun",
-      "example": {
-        "ko": "영수증을 버려 주세요.",
-        "bn": "রসিদটি ফেলে দিন।",
-        "en": "Please throw away the receipt."
-      },
-      "pronunciationTipBn": "'ㅇ' ধ্বনিটি শব্দের শুরুতে উচ্চারিত হয় না, শুধু স্বরবর্ণের উচ্চারণ হয়।"
-    },
-    {
-      "ko": "시장",
-      "romanization": "sijang",
-      "bn": "বাজার",
-      "en": "market",
-      "pos": "noun",
-      "example": {
-        "ko": "시장에 갑니다.",
-        "bn": "বাজারে যাই।",
-        "en": "I go to the market."
-      },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি শব্দের মাঝখানে 'জ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "마트",
-      "romanization": "mateu",
-      "bn": "মার্ট/সুপারশপ",
-      "en": "mart",
-      "pos": "noun",
-      "example": {
-        "ko": "마트에서 장을 봅니다.",
-        "bn": "মার্ট থেকে বাজার করি।",
-        "en": "I do grocery shopping at the mart."
-      },
-      "pronunciationTipBn": "'ㅌ' ধ্বনিটি বাতাস বের করে 'থ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "옷",
-      "romanization": "ot",
-      "bn": "কাপড়",
-      "en": "clothes",
-      "pos": "noun",
-      "example": {
-        "ko": "새 옷을 입습니다.",
-        "bn": "নতুন কাপড় পরি।",
-        "en": "I wear new clothes."
-      },
-      "pronunciationTipBn": "বাচ্চিম 'ㅅ' থাকলে তা 'ㄷ' (ত) এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "신발",
-      "romanization": "sinbal",
-      "bn": "জুতো",
-      "en": "shoes",
-      "pos": "noun",
-      "example": {
-        "ko": "신발이 작습니다.",
-        "bn": "জুতো ছোট।",
-        "en": "The shoes are small."
-      },
-      "pronunciationTipBn": "'ㄴ' ধ্বনিটি বাংলা 'ন' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "과일",
-      "romanization": "gwail",
-      "bn": "ফল",
-      "en": "fruit",
-      "pos": "noun",
-      "example": {
-        "ko": "과일이 맛있습니다.",
-        "bn": "ফল সুস্বাদু।",
-        "en": "The fruit is delicious."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি শব্দের শুরুতে 'গ' এবং 'ক' এর মাঝামাঝি উচ্চারিত হয়।"
-    },
-    {
-      "ko": "계산하다",
-      "romanization": "gyesanhada",
-      "bn": "হিসাব করা / দাম দেওয়া",
-      "en": "to calculate / to pay",
-      "pos": "verb",
-      "example": {
-        "ko": "카드로 계산합니다.",
-        "bn": "কার্ড দিয়ে দাম দিই।",
-        "en": "I pay with a card."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি শব্দের শুরুতে 'গ' এবং 'ক' এর মাঝামাঝি উচ্চারিত হয়।"
+      "pronunciationTipBn": "'동전' [দংজন]—দুটোই নাকিধ্বনি 'ং' সহ।"
     },
     {
       "ko": "현금",
@@ -275,369 +265,304 @@
       "en": "cash",
       "pos": "noun",
       "example": {
-        "ko": "현금으로 냅니다.",
-        "bn": "নগদ টাকায় দিই।",
-        "en": "I pay in cash."
+        "ko": "현금이 없어요.",
+        "bn": "নগদ টাকা নেই।",
+        "en": "I have no cash."
       },
-      "pronunciationTipBn": "'ㅎ' ধ্বনিটি বাংলা 'হ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'현금' [হিয়নগুম]—'현' বলতে 'হি+য়+ন' দ্রুত মিলিয়ে।"
     },
     {
-      "ko": "카드",
-      "romanization": "kadeu",
-      "bn": "কার্ড",
-      "en": "card",
+      "ko": "신용카드",
+      "romanization": "sinyongkadeu",
+      "bn": "ক্রেডিট কার্ড",
+      "en": "credit card",
       "pos": "noun",
       "example": {
-        "ko": "카드가 됩니까?",
-        "bn": "কার্ড কি চলবে?",
-        "en": "Do you accept cards?"
+        "ko": "신용카드로 계산합니다.",
+        "bn": "ক্রেডিট কার্ডে পরিশোধ করি।",
+        "en": "I pay by credit card."
       },
-      "pronunciationTipBn": "'ㅋ' ধ্বনিটি বাতাস বের করে 'খ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'카드' [খাদু]—ㅋ ঝোঁড়া 'খা'; ইংরেজি 'card'-এর রূপ।"
     },
     {
-      "ko": "봉투",
-      "romanization": "bongtu",
-      "bn": "ব্যাগ / খাম",
-      "en": "bag / envelope",
+      "ko": "값/가격",
+      "romanization": "gap/gagyeok",
+      "bn": "দাম",
+      "en": "price",
       "pos": "noun",
       "example": {
-        "ko": "봉투에 넣어 주세요.",
-        "bn": "ব্যাগে ভরে দিন।",
-        "en": "Please put it in a bag."
+        "ko": "값이 비싸요.",
+        "bn": "দাম বেশি।",
+        "en": "The price is high."
       },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শুরুতে 'ব' এবং 'প' এর মাঝামাঝি উচ্চারিত হয়।"
+      "pronunciationTipBn": "'값' [কাপ্]—ㅂㅅ দ্বিবত্ছিমে 'প্' শোনায়; '가격' [কাগ্যক্]।"
+    },
+    {
+      "ko": "원",
+      "romanization": "won",
+      "bn": "ওন (কোরীয় মুদ্রা)",
+      "en": "won (Korean currency)",
+      "pos": "noun",
+      "example": {
+        "ko": "이만 원이에요.",
+        "bn": "২০ হাজার ওন।",
+        "en": "It is 20,000 won."
+      },
+      "pronunciationTipBn": "'원' [ওয়ন]—ঠোঁট গোল করে 'ও' দিয়ে শুরু করুন।"
+    }
+    ,
+    {
+      "ko": "값을 깎다",
+      "romanization": "gapseul kkakda",
+      "bn": "দাম কমানো (দরদাম করা)",
+      "en": "to bargain; to discount",
+      "pos": "verb",
+      "example": {
+        "ko": "좀 깎아 주세요.",
+        "bn": "একটু কম দিন।",
+        "en": "Please give me a discount."
+      },
+      "pronunciationTipBn": "'깎아' [ক্কাক্কা]—ㄱ+ㅇ মিলে জোরে 'ক্কা' শোনায়।"
+    },
+    {
+      "ko": "계산하다",
+      "romanization": "gyesanhada",
+      "bn": "হিসাব/পরিশোধ করা",
+      "en": "to pay; to calculate",
+      "pos": "verb",
+      "example": {
+        "ko": "카드로 계산해요.",
+        "bn": "কার্ডে পরিশোধ করি।",
+        "en": "I pay by card."
+      },
+      "pronunciationTipBn": "'계산' [ক্যেশান]—'계' বলতে ঠোঁট গোল করে 'ক্যে'।"
+    },
+    {
+      "ko": "넣다",
+      "romanization": "neota",
+      "bn": "ভরা/ঢোকানো",
+      "en": "to put in",
+      "pos": "verb",
+      "example": {
+        "ko": "종이 가방에 넣어 주세요.",
+        "bn": "কাগজের ব্যাগে ভরে দিন।",
+        "en": "Please put it in a paper bag."
+      },
+      "pronunciationTipBn": "'넣어' [নহ]—ㄊ+ㅇ মিলে 'ত' শোনায়।"
+    },
+    {
+      "ko": "포장하다",
+      "romanization": "pojanghada",
+      "bn": "প্যাকেজ করা",
+      "en": "to wrap; to pack",
+      "pos": "verb",
+      "example": {
+        "ko": "포장을 해 주세요.",
+        "bn": "প্যাকেজ করে দিন।",
+        "en": "Please wrap it up."
+      },
+      "pronunciationTipBn": "'포장' [ফোজাং]—ㅍ ঝোঁড়া 'ফো'; '싸다' দিয়েও বলা যায়।"
+    },
+    {
+      "ko": "바꾸다/교환하다",
+      "romanization": "bakkuda/gyohwanhada",
+      "bn": "বদলানো",
+      "en": "to exchange; to change",
+      "pos": "verb",
+      "example": {
+        "ko": "바지가 커서 바꿔 주세요.",
+        "bn": "প্যান্ট বড় বলে বদলে দিন।",
+        "en": "The pants are big, so please exchange them."
+      },
+      "pronunciationTipBn": "'바꿔' [বাক্কোয়]—ㄱ+ㅜ মিলে জোরে 'ক্কো' শোনায়।"
+    },
+    {
+      "ko": "환불하다",
+      "romanization": "hwanbulhada",
+      "bn": "টাকা ফেরত দেওয়া",
+      "en": "to refund",
+      "pos": "verb",
+      "example": {
+        "ko": "환불해 주세요.",
+        "bn": "টাকা ফেরত দিন।",
+        "en": "Please give me a refund."
+      },
+      "pronunciationTipBn": "'환불' [হোয়ানবুল]—'환' বলতে 'ㅘ' মিলিয়ে 'হোয়া'।"
+    },
+    {
+      "ko": "들다",
+      "romanization": "deulda",
+      "bn": "ধরা/তোলা",
+      "en": "to hold; to carry",
+      "pos": "verb",
+      "example": {
+        "ko": "상자를 들어 주세요.",
+        "bn": "বাক্সটি ধরে/তুলে দিন।",
+        "en": "Please carry the box."
+      },
+      "pronunciationTipBn": "'들어' [দুর]—ㄹ+ㅇ মিলে 'র' শোনায়।"
     },
     {
       "ko": "바지",
       "romanization": "baji",
       "bn": "প্যান্ট",
-      "en": "pants",
+      "en": "pants; trousers",
       "pos": "noun",
       "example": {
-        "ko": "바지를 입습니다.",
-        "bn": "প্যান্ট পরি।",
-        "en": "I wear pants."
+        "ko": "이 바지 얼마예요?",
+        "bn": "এই প্যান্ট কত?",
+        "en": "How much are these pants?"
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি শব্দের মাঝখানে 'জ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'바지' [বাজি]—ㅈ নরম 'জি' শোনায়।"
     },
     {
-      "ko": "치마",
-      "romanization": "chima",
-      "bn": "স্কার্ট",
-      "en": "skirt",
+      "ko": "신발",
+      "romanization": "sinbal",
+      "bn": "জুতা",
+      "en": "shoes",
       "pos": "noun",
       "example": {
-        "ko": "치마가 예쁩니다.",
-        "bn": "স্কার্টটি সুন্দর।",
-        "en": "The skirt is pretty."
+        "ko": "신발이 정말 커요.",
+        "bn": "জুতা সত্যিই বড়।",
+        "en": "The shoes are really big."
       },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি বাতাস বের করে 'ছ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'신발' [শিনবাল]—ㄴ বত্ছিম 'ন' রেখে বলুন।"
     },
     {
-      "ko": "모자",
-      "romanization": "moja",
-      "bn": "টুপি",
-      "en": "hat",
+      "ko": "종이 가방",
+      "romanization": "jongi gabang",
+      "bn": "কাগজের ব্যাগ",
+      "en": "paper bag",
       "pos": "noun",
       "example": {
-        "ko": "모자를 씁니다.",
-        "bn": "টুপি পরি।",
-        "en": "I wear a hat."
+        "ko": "종이 가방에 넣어 주세요.",
+        "bn": "কাগজের ব্যাগে ভরে দিন।",
+        "en": "Please put it in a paper bag."
       },
-      "pronunciationTipBn": "'ㅁ' ধ্বনিটি বাংলা 'ম' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'종이' [জংই]—'종이' মানে কাগজ; '가방' মানে ব্যাগ।"
     },
     {
-      "ko": "안경",
-      "romanization": "angyeong",
-      "bn": "চশমা",
-      "en": "glasses",
-      "pos": "noun",
+      "ko": "닫다",
+      "romanization": "datda",
+      "bn": "বন্ধ করা",
+      "en": "to close",
+      "pos": "verb",
       "example": {
-        "ko": "안경을 씁니다.",
-        "bn": "চশমা পরি।",
-        "en": "I wear glasses."
+        "ko": "창문을 닫아 주세요.",
+        "bn": "জানালাটা বন্ধ করে দিন।",
+        "en": "Please close the window."
       },
-      "pronunciationTipBn": "'ㅇ' ধ্বনিটি শব্দের শুরুতে উচ্চারিত হয় না।"
+      "pronunciationTipBn": "'닫아' [দাদা]—ㅈ+ㅇ মিলে 'দা' শোনায়।"
     },
     {
-      "ko": "가방",
-      "romanization": "gabang",
-      "bn": "ব্যাগ",
-      "en": "bag",
-      "pos": "noun",
+      "ko": "함께",
+      "romanization": "hamkke",
+      "bn": "একসাথে",
+      "en": "together",
+      "pos": "adverb",
       "example": {
-        "ko": "가방이 무겁습니다.",
-        "bn": "ব্যাগটি ভারী।",
-        "en": "The bag is heavy."
+        "ko": "함께 계산해요.",
+        "bn": "একসাথে পরিশোধ করি।",
+        "en": "Let's pay together."
       },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের মাঝখানে 'ব' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "시계",
-      "romanization": "sigye",
-      "bn": "ঘড়ি",
-      "en": "watch / clock",
-      "pos": "noun",
-      "example": {
-        "ko": "시계를 봅니다.",
-        "bn": "ঘড়ি দেখি।",
-        "en": "I look at the watch."
-      },
-      "pronunciationTipBn": "'ㅖ' ধ্বনিটি 'ইয়ে' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "양말",
-      "romanization": "yangmal",
-      "bn": "মোজা",
-      "en": "socks",
-      "pos": "noun",
-      "example": {
-        "ko": "양말을 신습니다.",
-        "bn": "মোজা পরি।",
-        "en": "I wear socks."
-      },
-      "pronunciationTipBn": "'ㅇ' ধ্বনিটি বাচ্চিম হিসেবে থাকলে 'ং' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "운동화",
-      "romanization": "undonghwa",
-      "bn": "স্নিকার্স / কেডস",
-      "en": "sneakers",
-      "pos": "noun",
-      "example": {
-        "ko": "운동화가 편합니다.",
-        "bn": "স্নিকার্স আরামদায়ক।",
-        "en": "Sneakers are comfortable."
-      },
-      "pronunciationTipBn": "'ㅎ' ধ্বনিটি বাংলা 'হ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "구두",
-      "romanization": "gudu",
-      "bn": "জুতো (ফরমাল)",
-      "en": "dress shoes",
-      "pos": "noun",
-      "example": {
-        "ko": "구두를 닦습니다.",
-        "bn": "জুতো পরিষ্কার করি।",
-        "en": "I polish my shoes."
-      },
-      "pronunciationTipBn": "'ㄷ' ধ্বনিটি শব্দের মাঝখানে 'দ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "사이즈",
-      "romanization": "saijeu",
-      "bn": "সাইজ / মাপ",
-      "en": "size",
-      "pos": "noun",
-      "example": {
-        "ko": "사이즈가 큽니다.",
-        "bn": "সাইজ বড়।",
-        "en": "The size is big."
-      },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি শব্দের মাঝখানে 'জ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'함께' [হামক্কে]—ㅁ+ㄲ মিলে 'মক্কে' শোনায়।"
     }
   ],
   "grammar": [
     {
-      "pattern": "V/A + 아/어/여요",
-      "titleBn": "সাধারণ বর্তমান কাল (ভদ্রসূচক)",
-      "explanationBn": "এটি কোরিয়ান ভাষার সবচেয়ে সাধারণ বর্তমান কালের রূপ। ক্রিয়ামূলের শেষ স্বরবর্ণ 'ㅏ' বা 'ㅗ' হলে '아요' যুক্ত হয়। অন্য স্বরবর্ণ হলে '어요' যুক্ত হয়। '하다' থাকলে '해요' হয়।",
-      "explanationEn": "This is the most common polite present tense form. If the verb stem ends in 'ㅏ' or 'ㅗ', '아요' is added. For other vowels, '어요' is added. '하다' becomes '해요'.",
+      "pattern": "V/A + -네요",
+      "titleBn": "'-네요' (হালকা বিস্ময়/প্রশংসা)",
+      "explanationBn": "নতুন কিছু জানা, চোখে দেখা বা অনুভব করা কিছু নিয়ে হালকা বিস্ময় বা প্রশংসা বোঝাতে '-네요' বসে—বাংলার 'তো!/দেখছি!'। সরাসরি অভিজ্ঞতার ক্ষেত্রে ব্যবহৃত হয়।",
+      "explanationEn": "-네요 expresses mild surprise or admiration about something newly learned, seen, or felt—like 'oh, it is ...!'. It is used for direct, fresh impressions.",
       "examples": [
-        {
-          "ko": "사과를 사요.",
-          "bn": "আপেল কিনি।",
-          "en": "I buy apples."
-        },
-        {
-          "ko": "옷이 비싸요.",
-          "bn": "কাপড় দামি।",
-          "en": "The clothes are expensive."
-        },
-        {
-          "ko": "시장에서 쇼핑해요.",
-          "bn": "বাজার থেকে কেনাকাটা করি।",
-          "en": "I shop at the market."
-        }
+        { "ko": "수박이 정말 크네요.", "bn": "তরমুজ সত্যিই বড়।", "en": "The watermelon is really big!" },
+        { "ko": "날씨가 정말 덥네요.", "bn": "আবহাওয়া সত্যিই গরম তো।", "en": "The weather is really hot!" },
+        { "ko": "닛차난 씨는 한국 음식을 잘 만드네요.", "bn": "নিচানান কোরীয় খাবার ভালোই বানায়।", "en": "Nitchanan cooks Korean food well!" }
       ],
-      "commonMistakeBn": "অনেকে '하다' এর সাথে '아요' যুক্ত করে '하아요' বলেন; '하다' সবসময় '해요' হবে।"
+      "commonMistakeBn": "আগে থেকে জানা তথ্যে '-네요' ব্যবহার করলে অস্বাভাবিক শোনায়—এটি শুধু নতুন/সরাসরি অনুভবের ক্ষেত্রে বলুন।"
     },
     {
-      "pattern": "N + 주세요",
-      "titleBn": "অনুরোধ করা (দিন)",
-      "explanationBn": "কোনো কিছু চাওয়ার সময় বা অনুরোধ করার সময় বিশেষ্যের সাথে '주세요' ব্যবহার করা হয়। এর অর্থ 'দয়া করে দিন'।",
-      "explanationEn": "Used with a noun to request something. It means 'please give me'.",
+      "pattern": "V + -아/어 주세요",
+      "titleBn": "'-아/어 주세요' দিয়ে অনুরোধ",
+      "explanationBn": "কাউকে কোনো কাজ করতে বিনয়ে বলতে ক্রিয়ার সাথে '-아/어 주세요' বসে—বাংলার 'করে দিন'। ㅏ/ㅗ হলে '-아 주세요' (깎다→깎아 주세요), অন্য স্বরে '-어 주세요' (읽다→읽어 주세요), '하다' হলে '-해 주세요'।",
+      "explanationEn": "-아/어 주세요 asks someone to do an action—like 'please do ... for me'. Use -아 주세요 after ㅏ/ㅗ (깎다→깎아 주세요), -어 주세요 after other vowels (읽다→읽어 주세요), and -해 주세요 for 하다.",
       "examples": [
-        {
-          "ko": "물 좀 주세요.",
-          "bn": "একটু পানি দিন।",
-          "en": "Please give me some water."
-        },
-        {
-          "ko": "이 사과 다섯 개 주세요.",
-          "bn": "এই আপেল পাঁচটি দিন।",
-          "en": "Please give me five of these apples."
-        }
+        { "ko": "딸기를 좀 씻어 주세요.", "bn": "স্ট্রবেরি একটু ধুয়ে দিন।", "en": "Please wash the strawberries." },
+        { "ko": "바지가 작아요. 교환해 주세요.", "bn": "প্যান্ট ছোট। বদলে দিন।", "en": "The pants are small. Please exchange them." },
+        { "ko": "우리 집에 와 주세요.", "bn": "আমাদের বাড়িতে এসে দিন।", "en": "Please come to our house." }
       ],
-      "commonMistakeBn": "অনেকে ক্রিয়াপদের সাথে সরাসরি '주세요' ব্যবহার করেন; এটি শুধুমাত্র বিশেষ্যের (Noun) সাথে বসবে।"
+      "commonMistakeBn": "ㅏ স্বরের পরে '-어 주세요' বসানো ভুল—যেমন '깎어 주세요' নয়, '깎아 주세요' বলুন।"
+    }
+    ,
+    {
+      "pattern": "'ㅡ' 탈락 (크다→커요)",
+      "titleBn": "'ㅡ' স্বর বাদ পড়ার নিয়ম",
+      "explanationBn": "ক্রিয়া/বিশেষণের শেষ স্বর 'ㅡ' থাকলে '-아/어' শুরু প্রান্তিকের আগে তা বাদ পড়ে: 크다→커요, 나쁘다→나빠요, 쓰다→써요। শুধু শেষ অক্ষরের 'ㅡ' বাদ পড়ে।",
+      "explanationEn": "When a stem's final vowel is ㅡ, it drops before endings starting with -아/어: 크다→커요, 나쁘다→나빠요, 쓰다→써요. Only the final ㅡ of the stem drops.",
+      "examples": [
+        { "ko": "신발이 정말 커요.", "bn": "জুতা সত্যিই বড়।", "en": "The shoes are really big." },
+        { "ko": "오늘 날씨가 나빠요.", "bn": "আজ আবহাওয়া খারাপ।", "en": "The weather is bad today." },
+        { "ko": "편지를 써요.", "bn": "চিঠি লিখছি।", "en": "I am writing a letter." }
+      ],
+      "commonMistakeBn": "'크어요', '나쁘어요' বলা ভুল—'ㅡ' বাদ পড়ে '커요', '나빠요' হয়।"
     },
     {
-      "pattern": "N + 하고/과/와",
-      "titleBn": "এবং / ও (বিশেষ্য যুক্ত করা)",
-      "explanationBn": "দুটি বিশেষ্যকে (Noun) যুক্ত করতে '하고', '과' বা '와' ব্যবহৃত হয়। '하고' বলার সময় বেশি ব্যবহৃত হয়। বাচ্চিম থাকলে '과' এবং বাচ্চিম না থাকলে '와' বসে।",
-      "explanationEn": "Used to link two nouns, meaning 'and'. '하고' is more common in speech. '과' is used after a consonant, and '와' after a vowel.",
+      "pattern": "'ㄹ' 탈락 (길다→기네요)",
+      "titleBn": "'ㄹ' বত্ছিম বাদ পড়ার নিয়ম",
+      "explanationBn": "ক্রিয়া/বিশেষণের শেষে ㄹ বত্ছিম থাকলে ㄴ, ㅂ, ㅅ শুরু প্রান্তিকের আগে তা বাদ পড়ে: 길다→기네요, 길다→깁니다। তবে '-아/어'-এর আগে ㄹ থাকে: 길어요।",
+      "explanationEn": "A stem-final ㄹ drops before endings starting with ㄴ, ㅂ, ㅅ: 길다→기네요, 길다→깁니다. But ㄹ stays before -아/어: 길어요.",
       "examples": [
-        {
-          "ko": "사과하고 오렌지를 샀어요.",
-          "bn": "আপেল এবং কমলা কিনেছি।",
-          "en": "I bought apples and oranges."
-        },
-        {
-          "ko": "빵과 우유를 주세요.",
-          "bn": "রুটি ও দুধ দিন।",
-          "en": "Please give me bread and milk."
-        },
-        {
-          "ko": "바지와 치마가 있어요.",
-          "bn": "প্যান্ট এবং স্কার্ট আছে।",
-          "en": "There are pants and skirts."
-        }
+        { "ko": "바지가 좀 기네요.", "bn": "প্যান্ট একটু লম্বা তো।", "en": "The pants are a bit long!" },
+        { "ko": "머리가 깁니다.", "bn": "চুল লম্বা।", "en": "The hair is long." },
+        { "ko": "머리가 길어요.", "bn": "চুল লম্বা।", "en": "The hair is long." }
       ],
-      "commonMistakeBn": "অনেকে বাক্যের শেষে '하고' ব্যবহার করেন; এটি শুধুমাত্র দুটি বিশেষ্যের মাঝখানে বসবে।"
+      "commonMistakeBn": "'길네요' বলা ভুল—네요-এর আগে ㄹ বাদ পড়ে: 기네요। তবে '길어요' সঠিক, সেখানে ㄹ থাকে।"
     },
     {
-      "pattern": "V + 고 싶다",
-      "titleBn": "চাওয়া (ইচ্ছা প্রকাশ)",
-      "explanationBn": "কোনো কিছু করার ইচ্ছা প্রকাশ করতে ক্রিয়ামূলের সাথে '고 싶다' যুক্ত করা হয়। এর অর্থ 'করতে চাই'।",
-      "explanationEn": "Used with a verb stem to express a desire to do something. It means 'want to do'.",
+      "pattern": "얼마예요? (가격 묻기)",
+      "titleBn": "দাম জিজ্ঞাসা করা",
+      "explanationBn": "দাম জানতে '얼마예요?' (কত?) বলুন। উত্তরে দাম + 원이에요 বলুন: 이만 원이에요। দাম বেশি লাগলে বলুন: 비싸네요. 좀 깎아 주세요।",
+      "explanationEn": "Ask the price with 얼마예요? Answer with price + 원이에요: 이만 원이에요. If it feels expensive, say: 비싸네요. 좀 깎아 주세요.",
       "examples": [
-        {
-          "ko": "새 옷을 사고 싶어요.",
-          "bn": "নতুন কাপড় কিনতে চাই।",
-          "en": "I want to buy new clothes."
-        },
-        {
-          "ko": "시장에 가고 싶어요.",
-          "bn": "বাজারে যেতে চাই।",
-          "en": "I want to go to the market."
-        },
-        {
-          "ko": "이 가방을 사고 싶어요.",
-          "bn": "এই ব্যাগটি কিনতে চাই।",
-          "en": "I want to buy this bag."
-        }
+        { "ko": "이 바지 얼마예요?", "bn": "এই প্যান্ট কত?", "en": "How much are these pants?" },
+        { "ko": "사만 삼천 원이에요.", "bn": "৪৩ হাজার ওন।", "en": "It is 43,000 won." },
+        { "ko": "비싸네요. 좀 깎아 주세요.", "bn": "দামি তো। একটু কম দিন।", "en": "It is expensive. Please give me a discount." }
       ],
-      "commonMistakeBn": "অনেকে অন্য ব্যক্তির ইচ্ছা বোঝাতে '고 싶다' ব্যবহার করেন; তৃতীয় ব্যক্তির ক্ষেত্রে '고 싶어하다' ব্যবহার করতে হয়।"
+      "commonMistakeBn": "'얼마를이에요?' বলা ভুল—দাম জিজ্ঞাসায় 을/를 বসে না; সরাসরি '얼마예요?' বলুন।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "বাজারে কেনাকাটা",
-      "titleEn": "Shopping at the Market",
+      "titleBn": "ফলের দোকানে",
+      "titleEn": "At the Fruit Shop",
       "lines": [
-        {
-          "speaker": "주인",
-          "ko": "어서 오세요.",
-          "bn": "স্বাগতম।",
-          "en": "Welcome."
-        },
-        {
-          "speaker": "라힘",
-          "ko": "안녕하세요. 이 사과 얼마예요?",
-          "bn": "নমস্কার। এই আপেলের দাম কত?",
-          "en": "Hello. How much are these apples?"
-        },
-        {
-          "speaker": "주인",
-          "ko": "이천 원이에요.",
-          "bn": "দুই হাজার ওন।",
-          "en": "They are 2,000 won."
-        },
-        {
-          "speaker": "라힘",
-          "ko": "다섯 개 주세요.",
-          "bn": "পাঁচটি দিন।",
-          "en": "Please give me five."
-        },
-        {
-          "speaker": "주인",
-          "ko": "네, 여기 있습니다.",
-          "bn": "হ্যাঁ, এই নিন।",
-          "en": "Yes, here you go."
-        }
+        { "speaker": "A", "ko": "어서 오세요.", "bn": "স্বাগতম।", "en": "Welcome." },
+        { "speaker": "B", "ko": "안녕하세요? 과일이 싱싱하네요. 뭐가 맛있어요?", "bn": "নমস্কার। ফল তাজা দেখছি। কোনটি সুস্বাদু?", "en": "Hello. The fruit looks fresh! Which ones are tasty?" },
+        { "speaker": "A", "ko": "딸기하고 오렌지가 맛있어요.", "bn": "স্ট্রবেরি আর কমলা সুস্বাদু।", "en": "Strawberries and oranges are tasty." },
+        { "speaker": "B", "ko": "그럼 딸기 한 상자하고 오렌지 다섯 개 주세요. 얼마예요?", "bn": "তাহলে এক বাক্স স্ট্রবেরি আর পাঁচটা কমলা দিন। কত?", "en": "Then give me one box of strawberries and five oranges. How much is it?" },
+        { "speaker": "A", "ko": "이만 원이에요.", "bn": "২০ হাজার ওন।", "en": "It is 20,000 won." }
       ]
     },
     {
-      "titleBn": "দোকানে দরদাম",
-      "titleEn": "Bargaining at a Store",
+      "titleBn": "দরদাম",
+      "titleEn": "Bargaining",
       "lines": [
-        {
-          "speaker": "수잔",
-          "ko": "아저씨, 이 운동화 얼마예요?",
-          "bn": "চাচা, এই স্নিকার্সগুলোর দাম কত?",
-          "en": "Sir, how much are these sneakers?"
-        },
-        {
-          "speaker": "주인",
-          "ko": "오만 오천 원이에요.",
-          "bn": "পঞ্চান্ন হাজার ওন।",
-          "en": "They are 55,000 won."
-        },
-        {
-          "speaker": "수잔",
-          "ko": "너무 비싸요. 조금 깎아 주세요.",
-          "bn": "খুব দামি। একটু দাম কমান।",
-          "en": "It's too expensive. Please give me a discount."
-        },
-        {
-          "speaker": "주인",
-          "ko": "알았어요. 오만 원 주세요.",
-          "bn": "ঠিক আছে। পঞ্চাশ হাজার ওন দিন।",
-          "en": "Alright. Give me 50,000 won."
-        },
-        {
-          "speaker": "수잔",
-          "ko": "감사합니다. 여기 있어요.",
-          "bn": "ধন্যবাদ। এই নিন।",
-          "en": "Thank you. Here it is."
-        }
+        { "speaker": "A", "ko": "사장님, 이 바지 얼마예요?", "bn": "দোকানদার, এই প্যান্ট কত?", "en": "Shopkeeper, how much are these pants?" },
+        { "speaker": "B", "ko": "사만 삼천 원이에요.", "bn": "৪৩ হাজার ওন।", "en": "43,000 won." },
+        { "speaker": "A", "ko": "사만 삼천 원요? 비싸네요. 좀 깎아 주세요.", "bn": "৪৩ হাজার? দামি তো! একটু কম দিন।", "en": "43,000 won? That is expensive. Please give me a discount." },
+        { "speaker": "B", "ko": "알았어요. 사만 원 주세요.", "bn": "আচ্ছা। ৪০ হাজার ওন দিন।", "en": "Okay. Give me 40,000 won." },
+        { "speaker": "A", "ko": "감사합니다. 종이 가방에 넣어 주세요.", "bn": "ধন্যবাদ। কাগজের ব্যাগে ভরে দিন।", "en": "Thank you. Please put them in a paper bag." }
       ]
     },
     {
-      "titleBn": "কাপড়ের দোকানে",
-      "titleEn": "At a Clothing Store",
+      "titleBn": "বদলানো",
+      "titleEn": "Exchanging an Item",
       "lines": [
-        {
-          "speaker": "점원",
-          "ko": "어서 오세요. 찾으시는 거 있으세요?",
-          "bn": "স্বাগতম। আপনি কি কিছু খুঁজছেন?",
-          "en": "Welcome. Are you looking for something?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "네, 바지 좀 보여 주세요.",
-          "bn": "হ্যাঁ, আমাকে কিছু প্যান্ট দেখান।",
-          "en": "Yes, please show me some pants."
-        },
-        {
-          "speaker": "점원",
-          "ko": "이 청바지는 어떠세요? 요즘 인기가 많아요.",
-          "bn": "এই জিন্স প্যান্টটি কেমন? আজকাল এটি খুব জনপ্রিয়।",
-          "en": "How about these jeans? They are very popular these days."
-        },
-        {
-          "speaker": "투안",
-          "ko": "예쁘네요. 입어 봐도 돼요?",
-          "bn": "সুন্দর তো। আমি কি পরে দেখতে পারি?",
-          "en": "It's pretty. Can I try it on?"
-        },
-        {
-          "speaker": "점원",
-          "ko": "네, 저쪽에 탈의실이 있어요.",
-          "bn": "হ্যাঁ, ওই দিকে ড্রেসিং রুম আছে।",
-          "en": "Yes, the fitting room is over there."
-        }
+        { "speaker": "A", "ko": "무엇을 도와드릴까요?", "bn": "কী সাহায্য করতে পারি?", "en": "How may I help you?" },
+        { "speaker": "B", "ko": "옷이 좀 작네요. 바꿔 주세요.", "bn": "কাপড় একটু ছোট। বদলে দিন।", "en": "The clothes are a bit small. Please exchange them." },
+        { "speaker": "A", "ko": "다른 색깔도 있어요. 보여 드릴까요?", "bn": "অন্য রঙও আছে। দেখিয়ে দেবো?", "en": "We have other colors. Shall I show you?" },
+        { "speaker": "B", "ko": "네, 보여 주세요.", "bn": "জি, দেখান।", "en": "Yes, please show me." },
+        { "speaker": "A", "ko": "여기 있습니다. 이건 어때요?", "bn": "এ নিন। এটা কেমন?", "en": "Here you go. How about this one?" }
       ]
     }
   ],
@@ -645,568 +570,361 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "নিচের শব্দটির সঠিক অর্থ কোনটি? '쇼핑'",
-      "options": [
-        "সস্তা",
-        "কেনাকাটা",
-        "দামি",
-        "বাজার"
-      ],
-      "answer": 1,
-      "explanationBn": "'쇼핑' অর্থ কেনাকাটা (Shopping)।",
-      "questionKo": "알맞은 답을 고르세요."
+      "questionBn": "'싱싱하다' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["তাজা", "নষ্ট", "সস্তা", "দামি"],
+      "answer": 0,
+      "explanationBn": "싱싱하다 = তাজা হওয়া—ফল-সবজির জন্য ব্যবহৃত হয়।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "নিচের শব্দটির সঠিক অর্থ কোনটি? '비싸다'",
-      "options": [
-        "দামি",
-        "বিক্রি করা",
-        "সস্তা",
-        "কেনা"
-      ],
-      "answer": 0,
-      "explanationBn": "'비싸다' অর্থ দামি (Expensive)।",
-      "questionKo": "알맞은 답을 고르세요."
+      "questionBn": "'-네요' দিয়ে সঠিকভাবে গঠিত বাক্য কোনটি?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["수박이 정말 크요.", "수박를 크네요.", "수박이 정말 크네요.", "수박 크가 네요."],
+      "answer": 2,
+      "explanationBn": "বিস্ময় বোঝাতে বিশেষণের সাথে '-네요' বসে: 수박이 정말 크네요।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 사과가 너무 _____. 조금 깎아 주세요.",
-      "options": [
-        "맛있어요",
-        "작아요",
-        "싸요",
-        "비싸요"
-      ],
-      "answer": 3,
-      "explanationBn": "যেহেতু দাম কমানোর কথা বলা হয়েছে, তাই আপেলগুলো 'দামি' (비싸요) হবে।",
-      "questionKo": "알맞은 답을 고르세요."
+      "questionBn": "'깎다' + '-아/어 주세요' এর সঠিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["깎아 주세요", "깎어 주세요", "깎해 주세요", "깎 주세요"],
+      "answer": 0,
+      "explanationBn": "ㅏ স্বরের পরে '-아 주세요' বসে: 깎아 주세요 (কম দিন)।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 이 옷은 _____ 얼마예요?",
-      "options": [
-        "물건이",
-        "돈이",
-        "값이",
-        "시장이"
-      ],
-      "answer": 2,
-      "explanationBn": "কাপড়ের 'দাম' (값이) কত তা জিজ্ঞাসা করা হচ্ছে।",
-      "questionKo": "알맞은 답을 고르세요."
+      "questionBn": "'비싸다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["সস্তা", "দামি", "ভারী", "হালকা"],
+      "answer": 1,
+      "explanationBn": "비싸다 = দামি হওয়া। বিপরীতে 싸다 = সস্তা হওয়া।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 시장에서 과일을 _____.",
-      "options": [
-        "가요",
-        "사요",
-        "입어요",
-        "자요"
-      ],
+      "type": "multiple-choice",
+      "questionBn": "'크다' + '-아요/어요' এর সঠিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["크어요", "커요", "크아요", "크세요"],
       "answer": 1,
-      "explanationBn": "বাজার থেকে ফল 'কিনি' (사요)।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "explanationBn": "'ㅡ' স্বর বাদ পড়ে: 크다 → 커요।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 아저씨, 이 바지 하나 _____.",
-      "options": [
-        "주세요",
-        "하세요",
-        "오세요",
-        "가세요"
-      ],
-      "answer": 0,
-      "explanationBn": "প্যান্ট চাওয়ার জন্য '주세요' (দিন) ব্যবহার করতে হবে।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "type": "multiple-choice",
+      "questionBn": "'얼마예요?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": ["네, 싸요.", "바지예요.", "좋아요.", "이만 원이에요."],
+      "answer": 3,
+      "explanationBn": "'얼마예요?' (কত দাম?) প্রশ্নের উত্তরে দাম + 원이에요 বলা হয়।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 물건을 사고 _____을/를 받습니다.",
-      "options": [
-        "옷",
-        "돈",
-        "시장",
-        "영수증"
-      ],
-      "answer": 3,
-      "explanationBn": "জিনিসপত্র কেনার পর 'রসিদ' (영수증) নেওয়া হয়।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "type": "multiple-choice",
+      "questionBn": "'길다' + '-네요' এর সঠিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["길네요", "기네요", "길어요가", "기어요"],
+      "answer": 1,
+      "explanationBn": "ㄴ-এর আগে ㄹ বত্ছিম বাদ পড়ে: 길다 → 기네요।"
     },
     {
       "id": "p8",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "싸다",
-          "right": "সস্তা"
-        },
-        {
-          "left": "팔다",
-          "right": "বিক্রি করা"
-        },
-        {
-          "left": "거스름돈",
-          "right": "খুচরা টাকা"
-        },
-        {
-          "left": "신발",
-          "right": "জুতো"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "multiple-choice",
+      "questionBn": "'환불하다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["দাম কমানো", "প্যাকেজ করা", "টাকা ফেরত দেওয়া", "বদলানো"],
+      "answer": 2,
+      "explanationBn": "환불하다 = টাকা ফেরত দেওয়া। 바꾸다/교환하다 = বদলানো।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "마트",
-          "right": "মার্ট"
-        },
-        {
-          "left": "옷",
-          "right": "কাপড়"
-        },
-        {
-          "left": "깎다",
-          "right": "কমানো (দাম)"
-        },
-        {
-          "left": "돈",
-          "right": "টাকা"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "multiple-choice",
+      "questionBn": "কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["종이 가방에 넣어 주세요.", "종이 가방을 넣 주세요.", "종이 가방에 넣어요 주세요.", "종이 가방 넣어 주세요가."],
+      "answer": 0,
+      "explanationBn": "জায়গা + 에 + ক্রিয়া + 아/어 주세요: 종이 가방에 넣어 주세요।"
     },
     {
       "id": "p10",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক বাক্যটি বেছে নিন।",
-      "options": [
-        "우유는 주세요.",
-        "우유이 주세요.",
-        "우유가 주세요.",
-        "우유를 주세요."
-      ],
+      "type": "fill-blank",
+      "questionBn": "'আপেল নষ্ট হয়েছে' বাক্যটি সম্পূর্ণ করুন: 사과가 ___어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["싱싱했", "많았", "적었", "상했"],
       "answer": 3,
-      "explanationBn": "কোনো কিছু চাওয়ার সময় বিশেষ্যের সাথে '을/를 주세요' ব্যবহৃত হয়। '우유' এর সাথে '를' বসবে।",
-      "questionKo": "알맞은 답을 고르세요."
+      "explanationBn": "상하다 এর অতীত 상했어요 = নষ্ট/বাসি হয়েছে।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "নিচের শব্দটির সঠিক অর্থ কোনটি? '현금'",
-      "options": [
-        "কার্ড",
-        "নগদ টাকা",
-        "রসিদ",
-        "খুচরা টাকা"
-      ],
-      "answer": 1,
-      "explanationBn": "'현금' অর্থ নগদ টাকা (Cash)।",
-      "questionKo": "알맞은 답을 고르세요."
+      "type": "fill-blank",
+      "questionBn": "'하다' + '-아/어 주세요' বসান: 요리___ 주세요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["해", "하", "하여", "하아"],
+      "answer": 0,
+      "explanationBn": "'하다' এর সাথে '-해 주세요' বসে: 요리해 주세요।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "নিচের শব্দটির সঠিক অর্থ কোনটি? '안경'",
-      "options": [
-        "চশমা",
-        "টুপি",
-        "মোজা",
-        "জুতো"
-      ],
-      "answer": 0,
-      "explanationBn": "'안경' অর্থ চশমা (Glasses)।",
-      "questionKo": "알맞은 답을 고르세요."
+      "type": "fill-blank",
+      "questionBn": "'বাক্স খুব ভারী' বাক্যটি সম্পূর্ণ করুন: 상자가 너무 ___요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["가벼워", "무거워", "많", "적"],
+      "answer": 1,
+      "explanationBn": "무겁다 (ভারী) এর 'ㅂ' অনিয়মে 무거워요 হয়।"
     },
     {
       "id": "p13",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 카드로 _____.",
-      "options": [
-        "계산합니다",
-        "입습니다",
-        "신습니다",
-        "씁니다"
-      ],
-      "answer": 0,
-      "explanationBn": "কার্ড দিয়ে 'দাম দিই' বা 'হিসাব করি' (계산합니다)।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "questionBn": "বিস্ময় প্রকাশে সঠিক প্রান্তিক বসান: 오늘 날씨가 정말 덥___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["어요", "습니다가", "네요", "요가"],
+      "answer": 2,
+      "explanationBn": "সরাসরি অনুভবের বিস্ময়ে '-네요' বসে: 덥네요।"
     },
     {
       "id": "p14",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 비가 와서 우산을 _____.",
-      "options": [
-        "입어요",
-        "신어요",
-        "써요",
-        "사요"
-      ],
-      "answer": 3,
-      "explanationBn": "বৃষ্টি আসায় ছাতা 'কিনি' (사요)।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "questionBn": "'একটু দাম কমান' বাক্যটি সম্পূর্ণ করুন: 좀 ___ 주세요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["깎아", "깎어", "깎", "깎으"],
+      "answer": 0,
+      "explanationBn": "ㅏ স্বরের পরে '-아 주세요': 깎아 주세요।"
     },
     {
       "id": "p15",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "바지",
-          "right": "প্যান্ট"
-        },
-        {
-          "left": "치마",
-          "right": "স্কার্ট"
-        },
-        {
-          "left": "모자",
-          "right": "টুপি"
-        },
-        {
-          "left": "양말",
-          "right": "মোজা"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "fill-blank",
+      "questionBn": "'৪৩ হাজার ওন' বাক্যটি সম্পূর্ণ করুন: 사만 ___ 원이에요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["삼백", "삼십", "삼천", "삼만"],
+      "answer": 2,
+      "explanationBn": "43,000 = 사만 삼천 원—만 (10,000) এর পরে হাজারের সংখ্যা বসে।"
     },
     {
       "id": "p16",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক বাক্যটি বেছে নিন।",
-      "options": [
-        "사과하고 오렌지를 사요.",
-        "사과가 오렌지를 사요.",
-        "사과를 오렌지를 사요.",
-        "사과은 오렌지를 사요."
-      ],
-      "answer": 0,
-      "explanationBn": "দুটি বিশেষ্য যুক্ত করতে '하고' ব্যবহৃত হয়।",
-      "questionKo": "알맞은 답을 고르세요."
+      "type": "fill-blank",
+      "questionBn": "'জুতা সত্যিই বড়' বাক্যটি সম্পূর্ণ করুন: 신발이 정말 ___요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["크어", "커", "크", "크아"],
+      "answer": 1,
+      "explanationBn": "'ㅡ' বাদ পড়ে: 크다 → 커요।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 저는 새 구두를 사고 _____.",
-      "options": [
-        "싶어요",
-        "주세요",
-        "가요",
-        "와요"
+      "type": "matching",
+      "questionBn": "বর্ণনার শব্দের সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "크다", "right": "বড়" },
+        { "left": "작다", "right": "ছোট" },
+        { "left": "가볍다", "right": "হালকা" },
+        { "left": "무겁다", "right": "ভারী" },
+        { "left": "싸다", "right": "সস্তা" }
       ],
-      "answer": 0,
-      "explanationBn": "ইচ্ছা প্রকাশ করতে '고 싶어요' ব্যবহৃত হয়।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "explanationBn": "দামের বিপরীত জোড়া: 싸다 (সস্তা) ↔ 비싸다 (দামি)।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 물건을 _____ 봉투에 넣어 주세요.",
-      "options": [
-        "사고",
-        "입고",
-        "신고",
-        "쓰고"
+      "type": "matching",
+      "questionBn": "ফলের কোরীয় নামের সাথে বাংলা মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "수박", "right": "তরমুজ" },
+        { "left": "딸기", "right": "স্ট্রবেরি" },
+        { "left": "오렌지", "right": "কমলা" },
+        { "left": "사과", "right": "আপেল" }
       ],
-      "answer": 0,
-      "explanationBn": "জিনিসপত্র 'কিনে' (사고) ব্যাগে ভরে দিন।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "explanationBn": "ফলের দোকানে বলুন: 과일이 싱싱하네요!"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "계산하다",
-          "right": "হিসাব করা"
-        },
-        {
-          "left": "현금",
-          "right": "নগদ টাকা"
-        },
-        {
-          "left": "카드",
-          "right": "কার্ড"
-        },
-        {
-          "left": "봉투",
-          "right": "ব্যাগ / খাম"
-        }
-      ],
+      "questionBn": "টাকা-সংক্রান্ত শব্দের সাথে বাংলা অর্থ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        { "left": "지폐", "right": "নোট" },
+        { "left": "동전", "right": "কয়েন" },
+        { "left": "현금", "right": "নগদ টাকা" },
+        { "left": "신용카드", "right": "ক্রেডিট কার্ড" },
+        { "left": "상품권", "right": "গিফট কার্ড" }
+      ],
+      "explanationBn": "원 = কোরীয় মুদ্রা ওন; 1,000원 = 천 원, 10,000원 = 만 원।"
     },
     {
       "id": "p20",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 이 운동화는 _____이/가 어떻게 되나요?",
-      "options": [
-        "시간",
-        "이름",
-        "사이즈",
-        "나이"
+      "type": "matching",
+      "questionBn": "কেনাকাটার কাজের সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "값을 깎다", "right": "দাম কমানো" },
+        { "left": "계산하다", "right": "পরিশোধ করা" },
+        { "left": "포장하다", "right": "প্যাকেজ করা" },
+        { "left": "환불하다", "right": "টাকা ফেরত দেওয়া" }
       ],
-      "answer": 2,
-      "explanationBn": "স্নিকার্সের ক্ষেত্রে 'সাইজ' (사이즈) জিজ্ঞাসা করা হয়।",
-      "questionKo": "알맞은 답을 고르세요."
+      "explanationBn": "দোকানে বলুন: 좀 깎아 주세요 / 포장을 해 주세요 / 환불해 주세요।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বাছাই করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 이 사과 얼마예요?\n나: 한 개에 천 원이에요.\n가: 세 개 _____.",
-      "options": [
-        "주세요",
-        "드세요",
-        "오세요",
-        "가세요"
-      ],
+      "questionBn": "বাক্যটি পড়ে এটি কোন বিভাগের তা বাছাই করুন।",
+      "questionKo": "다음 내용과 관계있는 것을 고르십시오.",
+      "passage": "동전입니다.",
+      "options": ["화폐", "과일", "가구", "날씨"],
       "answer": 0,
-      "explanationBn": "আপেল কেনার সময় তিনটি 'দিন' (주세요) বলতে হবে।"
+      "explanationBn": "'동전' (কয়েন) হলো 화폐 (মুদ্রা)—টাকার একটি রূপ।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বাছাই করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 운동화가 오만 원이에요.\n나: 너무 _____. 조금 깎아 주세요.",
-      "options": [
-        "나빠요",
-        "비싸요",
-        "좋아요",
-        "싸요"
-      ],
+      "questionBn": "'딸기' শব্দটি কোন বিভাগের?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "딸기",
+      "options": ["교통", "과일", "음료수", "기념일"],
       "answer": 1,
-      "explanationBn": "দাম কমানোর কথা বলা হয়েছে, তাই স্নিকার্সগুলো 'দামি' (비싸요)।"
+      "explanationBn": "'딸기' (স্ট্রবেরি) একটি ফল (과일)।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বাছাই করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "저는 오늘 시장에 갑니다. 시장에서 과일과 채소를 _____.",
-      "options": [
-        "입습니다",
-        "읽습니다",
-        "삽니다",
-        "마십니다"
-      ],
-      "answer": 2,
-      "explanationBn": "বাজার থেকে ফল ও সবজি 'কিনি' (삽니다)।"
+      "questionBn": "কোন বাক্যটির রূপ সঠিক?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["한국 음식을 잘 만드네요.", "한국 음식을 잘 만들어요가.", "한국 음식를 잘 만드네요.", "한국 음식이 잘 만드 네요."],
+      "answer": 0,
+      "explanationBn": "'만들다' ㄹ বত্ছিমে ㄴ-এর আগে ㄹ বাদ পড়ে: 만드네요; কর্মের পরে 을/를।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "저는 어제 마트에 갔습니다. 마트에서 우유와 빵을 샀습니다. 우유는 이천 원이고 빵은 삼천 원이었습니다. 모두 오천 원을 냈습니다.",
-      "options": [
-        "우유는 삼천 원입니다.",
-        "빵은 이천 원입니다.",
-        "저는 오늘 마트에 갔습니다.",
-        "모두 오천 원을 냈습니다."
-      ],
-      "answer": 3,
-      "explanationBn": "প্যাসেজে বলা হয়েছে মোট পাঁচ হাজার ওন দেওয়া হয়েছে (모두 오천 원을 냈습니다)।"
+      "questionBn": "ছাড়ের বিজ্ঞাপনটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "'하나마트' 할인 행사. 9월 12일부터 15일까지! 콜라 1+1: 2,900원. 포도 한 상자: 17,900원. 휴지 12개: 12,900원 → 10,000원.",
+      "options": ["행사는 9월 16일까지입니다.", "콜라는 한 병을 사면 한 병을 더 줍니다.", "포도는 한 상자에 12,900원입니다.", "휴지는 할인을 안 합니다."],
+      "answer": 1,
+      "explanationBn": "'콜라 1+1' মানে এক বোতল কিনলে আরেক বোতল ফ্রি।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "가: 어서 오세요. 뭘 찾으세요?\n나: 바지 있어요?\n가: 네, 이 바지는 어때요? 삼만 원이에요.\n나: 좋아요. 이거 주세요.",
-      "options": [
-        "바지는 삼만 원입니다.",
-        "이 사람은 바지를 안 샀습니다.",
-        "이 사람은 치마를 샀습니다.",
-        "바지는 사만 원입니다."
-      ],
-      "answer": 0,
-      "explanationBn": "প্যান্টের দাম ত্রিশ হাজার ওন (삼만 원) বলা হয়েছে।"
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "이 티셔츠는 오만 원이에요. — 너무 ___요. 좀 깎아 주세요.",
+      "options": ["싸", "비싸", "많", "적"],
+      "answer": 1,
+      "explanationBn": "দাম কমাতে (깎아 주세요) বলছে মানে দামি (비싸) মনে হচ্ছে।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 이 오렌지 얼마예요?\n남자: 한 개에 천오백 원이에요.",
-      "options": [
-        "이천 원",
-        "천오백 원",
-        "이천오백 원",
-        "천 원"
-      ],
-      "answer": 1,
-      "explanationBn": "কমলার দাম এক হাজার পাঁচশ ওন (천오백 원) বলা হয়েছে।"
+      "section": "reading",
+      "questionBn": "সেলফ-সার্ভিস দোকান সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "무인 판매점은 직원이 없고 고객이 직접 결제하는 가게입니다. 대부분 24시간 운영됩니다. 한국어를 잘 못해도 간편하게 물건을 살 수 있습니다.",
+      "options": ["무인 판매점에는 직원이 많습니다.", "밤에는 무인 판매점에서 물건을 살 수 없습니다.", "한국어를 못해도 무인 판매점을 이용할 수 있습니다.", "무인 판매점은 외국인에게 불편합니다."],
+      "answer": 2,
+      "explanationBn": "লেখানুযায়ী কোরীয় না জানলেও সেলফ-সার্ভিস দোকান সহজে ব্যবহার করা যায়।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 뭘 드릴까요?\n여자: 우유 두 개하고 빵 하나 주세요.",
-      "options": [
-        "우유 두 개, 빵 두 개",
-        "우유 한 개, 빵 두 개",
-        "우유 두 개, 빵 한 개",
-        "우유 한 개, 빵 한 개"
-      ],
-      "answer": 2,
-      "explanationBn": "মহিলাটি দুটি দুধ এবং একটি রুটি (우유 두 개하고 빵 하나) চেয়েছেন।"
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক ক্রিয়াটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "바지가 좀 커서 ___려고요. (বদলাতে চাই)",
+      "options": ["바꾸", "환불하", "사", "팔"],
+      "answer": 0,
+      "explanationBn": "'바꾸려고요' = বদলানোর ইচ্ছা—প্যান্ট বড় হওয়ায় বদলাতে চাইছে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 가방이 얼마예요?\n남자: 칠만 원이에요.\n여자: 너무 비싸요. 조금 깎아 주세요.",
-      "options": [
-        "가방이 쌉니다.",
-        "남자는 가방을 안 팝니다.",
-        "가방은 팔만 원입니다.",
-        "여자는 가방을 깎아 달라고 합니다."
-      ],
-      "answer": 3,
-      "explanationBn": "মহিলাটি ব্যাগের দাম কমানোর জন্য অনুরোধ করছেন (조금 깎아 주세요)।"
-    },
+      "section": "reading",
+      "questionBn": "কোন বাক্যটির রূপান্তর সঠিক?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["신발이 정말 커요.", "신발이 정말 크어요.", "신발 정말 커요가.", "신발를 커요."],
+      "answer": 0,
+      "explanationBn": "'ㅡ' বাদ পড়ে: 크다 → 커요; কর্তার পরে 이/가 বসে।"
+    }
+    ,
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বাছাই করুন।",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 현금으로 계산하시겠어요?\n나: 아니요, _____으로/로 할게요.",
-      "options": [
-        "카드",
-        "영수증",
-        "봉투",
-        "거스름돈"
-      ],
-      "answer": 0,
-      "explanationBn": "নগদ টাকার বদলে 'কার্ড' (카드) দিয়ে দাম দেওয়ার কথা বলা হচ্ছে।"
+      "passage": "사과가 ___어요. 새 사과를 주세요. (নষ্ট হয়েছে)",
+      "options": ["싱싱했", "많았", "상했", "적었"],
+      "answer": 2,
+      "explanationBn": "নতুন আপেল (새 사과) চাইছে মানে আপেল নষ্ট (상했어요) হয়েছে।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বাছাই করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 이 바지 입어 봐도 돼요?\n나: 네, 저쪽에 _____이/가 있어요.",
-      "options": [
-        "화장실",
-        "탈의실",
-        "사무실",
-        "휴게실"
-      ],
-      "answer": 1,
-      "explanationBn": "কাপড় পরে দেখার জন্য 'ড্রেসিং রুম' (탈의실) ব্যবহার করা হয়।"
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "칼로 씨는 바지를 샀습니다. 사만 삼천 원이었지만 주인이 사만 원만 받았습니다.",
+      "options": ["칼로 씨는 사만 삼천 원을 냈습니다.", "칼로 씨는 바지를 팔았습니다.", "주인은 사만 원을 받았습니다.", "칼로 씨는 신발을 샀습니다."],
+      "answer": 2,
+      "explanationBn": "লেখানুযায়ী দোকানদার ছাড় দিয়ে ৪০ হাজার ওন (사만 원) নিয়েছে।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "저는 오늘 백화점에 갔습니다. 백화점에서 예쁜 모자를 샀습니다. 모자가 조금 비쌌지만 마음에 들었습니다.",
-      "options": [
-        "저는 오늘 시장에 갔습니다.",
-        "모자가 아주 쌌습니다.",
-        "저는 모자를 샀습니다.",
-        "모자가 마음에 안 들었습니다."
-      ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে তিনি একটি টুপি কিনেছেন (모자를 샀습니다)।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: জুতাটির দাম কত?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 운동화가 얼마예요?\n여자: 사만 오천 원이에요.",
+      "options": ["사만 원", "오천 원", "오만 원", "사만 오천 원"],
+      "answer": 3,
+      "explanationBn": "মহিলা বলেছেন '사만 오천 원'—৪৫ হাজার ওন।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "가: 봉투에 넣어 드릴까요?\n나: 아니요, 괜찮아요. 가방이 있어요.",
-      "options": [
-        "이 사람은 봉투가 필요합니다.",
-        "이 사람은 가방이 없습니다.",
-        "이 사람은 봉투를 안 받습니다.",
-        "이 사람은 가방을 샀습니다."
-      ],
-      "answer": 2,
-      "explanationBn": "ব্যক্তিটি বলেছেন যে তার ব্যাগ আছে, তাই তার ব্যাগের (봉투) প্রয়োজন নেই।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কী অনুরোধ করছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 이 티셔츠는 오만 원이에요.\n여자: 티셔츠가 비싸네요. 좀 깎아 주세요.",
+      "options": ["싸게 팔아 달라고", "깎아 달라고", "포장해 달라고", "넣어 달라고"],
+      "answer": 1,
+      "explanationBn": "মহিলা দাম কমাতে (깎아 주세요) অনুরোধ করছেন।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বাছাই করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "날씨가 춥습니다. 그래서 따뜻한 _____을/를 사고 싶습니다.",
-      "options": [
-        "치마",
-        "안경",
-        "시계",
-        "외투"
-      ],
-      "answer": 3,
-      "explanationBn": "আবহাওয়া ঠান্ডা হওয়ায় গরম 'ওভারকোট' (외투) কিনতে চাই।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি কী প্রস্তাব দিচ্ছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 사장님, 이 바지 다른 색깔도 있어요?\n남자: 네, 하얀색도 있는데 보여 드릴까요?",
+      "options": ["값을 깎아 주겠다고", "환불해 주겠다고", "다른 색깔을 보여 주겠다고", "포장해 주겠다고"],
+      "answer": 2,
+      "explanationBn": "পুরুষ অন্য রঙ (하얀색) দেখানোর (보여 드릴까요) প্রস্তাব দিচ্ছেন।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বাছাই করুন।",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কেন এসেছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 이 구두 사이즈가 어떻게 되나요?\n여자: 이백오십 밀리미터입니다.",
-      "options": [
-        "남자는 구두를 샀습니다.",
-        "구두 사이즈는 250mm입니다.",
-        "여자는 구두를 찾고 있습니다.",
-        "구두 사이즈는 260mm입니다."
-      ],
-      "answer": 1,
-      "explanationBn": "জুতোর সাইজ ২৫০ মি.মি. (이백오십 밀리미터) বলা হয়েছে।"
+      "passage": "남자: 어서 오세요. 뭘 찾으세요?\n여자: 바지가 좀 커서 바꾸려고요.",
+      "options": ["바지를 사려고", "바지를 환불하려고", "신발을 사려고", "바지를 바꾸려고"],
+      "answer": 3,
+      "explanationBn": "মহিলা প্যান্ট বড় হওয়ায় বদলাতে (바꾸려고) এসেছেন।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "কথাটি শুনে 올바른 것을 고르십시오.",
+      "questionBn": "শুনে বাছাই করুন: তরমুজের দাম কত?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 영수증 드릴까요?\n남자: 아니요, 버려 주세요.",
-      "options": [
-        "남자는 영수증을 받았습니다.",
-        "여자는 영수증을 버렸습니다.",
-        "남자는 영수증이 필요 없습니다.",
-        "여자는 영수증을 찾고 있습니다."
-      ],
-      "answer": 2,
-      "explanationBn": "লোকটি রসিদ ফেলে দিতে বলেছেন, অর্থাৎ তার রসিদ প্রয়োজন নেই।"
+      "passage": "남자: 수박이 얼마예요?\n여자: 이만 원이에요.",
+      "options": ["일만 원", "삼만 원", "사만 원", "이만 원"],
+      "answer": 3,
+      "explanationBn": "মহিলা বলেছেন '이만 원'—২০ হাজার ওন।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বাছাই করুন।",
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি কী বলেছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 사과 세 개하고 오렌지 두 개 주세요.\n여자: 네, 모두 오천 원입니다.",
-      "options": [
-        "사과는 두 개입니다.",
-        "오렌지는 세 개입니다.",
-        "모두 육천 원입니다.",
-        "모두 오천 원입니다."
-      ],
+      "passage": "여자: 이 가방이 너무 무거워요.\n남자: 제가 들어 드릴게요.",
+      "options": ["내려 주겠다고", "사 주겠다고", "깎아 주겠다고", "들어 주겠다고"],
       "answer": 3,
-      "explanationBn": "মোট দাম পাঁচ হাজার ওন (오천 원) বলা হয়েছে।"
+      "explanationBn": "পুরুষ ব্যাগটি ধরে দেওয়ার (들어 드릴게요) কথা বলেছেন।"
     }
   ]
 }
