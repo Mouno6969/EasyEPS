@@ -10,42 +10,96 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "বাসা খোঁজার প্রক্রিয়া সম্পর্কে জানা",
-      "বাসার ধরন এবং সুবিধা সম্পর্কে কথা বলা",
-      "ভাড়া এবং চুক্তি সম্পর্কে আলোচনা করা"
+      "খোঁজা বাসার কথা জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "বাসার পরিবেশ সম্পর্কে বলতে পারা",
+      "নিজের ইচ্ছা (-고 싶다) প্রকাশ করতে পারা",
+      "কোরিয়ার বাসার ধরন (아파트, 원룸, 빌라) জানা"
     ],
     "en": [
-      "Learn about the process of finding a house",
-      "Talk about housing types and facilities",
-      "Discuss rent and contracts"
+      "Being able to ask and answer questions about the house you are looking for",
+      "Being able to talk about a residential environment",
+      "Being able to express your hopes or desires",
+      "Knowing about Korea's housing types"
     ]
   },
   "vocabulary": [
     {
-      "ko": "집",
-      "romanization": "jip",
-      "bn": "বাসা/বাড়ি",
-      "en": "house/home",
+      "ko": "아파트",
+      "romanization": "apateu",
+      "bn": "অ্যাপার্টমেন্ট",
+      "en": "apartment",
       "pos": "noun",
       "example": {
-        "ko": "새 집을 구하고 싶어요.",
-        "bn": "আমি নতুন বাসা খুঁজতে চাই।",
-        "en": "I want to find a new house."
+        "ko": "아파트에서 살고 싶어요.",
+        "bn": "অ্যাপার্টমেন্টে থাকতে চাই।",
+        "en": "I want to live in an apartment."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি বাংলা 'জ' এর মতো; শেষে 'ㅂ' থাকলে 'প' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'아파트' [아파트]—ㅍ ঝোঁড়া '파' দিয়ে শুরু করুন।"
     },
     {
-      "ko": "방",
-      "romanization": "bang",
-      "bn": "রুম/কক্ষ",
-      "en": "room",
+      "ko": "빌라",
+      "romanization": "billa",
+      "bn": "ছোট অ্যাপার্টমেন্ট",
+      "en": "villa; small apartment",
       "pos": "noun",
       "example": {
-        "ko": "방이 넓어요.",
-        "bn": "রুমটি বড়।",
-        "en": "The room is spacious."
+        "ko": "빌라에 방이 세 개 있어요.",
+        "bn": "বিল্লায় তিনটি ঘর আছে।",
+        "en": "The villa has three rooms."
       },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি বাংলা 'ব' এর মতো; শেষে 'ㅇ' থাকলে 'ং' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'빌라' [빌라]—ㄹ দুইবার '라' স্পষ্ট বলুন।"
+    },
+    {
+      "ko": "주택",
+      "romanization": "jutaek",
+      "bn": "একক বাড়ি",
+      "en": "house",
+      "pos": "noun",
+      "example": {
+        "ko": "조용한 주택에서 살고 싶어요.",
+        "bn": "শান্ত বাড়িতে থাকতে চাই।",
+        "en": "I want to live in a quiet house."
+      },
+      "pronunciationTipBn": "'주택' [주택]—ㅊ শক্ত '택' দিয়ে শেষ করুন।"
+    },
+    {
+      "ko": "오피스텔",
+      "romanization": "opiseutel",
+      "bn": "অফিস-টেল (আবাস-অফিস মিশ্র ভবন)",
+      "en": "officetel",
+      "pos": "noun",
+      "example": {
+        "ko": "오피스텔은 편리해요.",
+        "bn": "অফিসটেল সুবিধাজনক।",
+        "en": "Officetels are convenient."
+      },
+      "pronunciationTipBn": "ইংরেজি 'office + hotel'-এর কোরীয় রূপ।"
+    },
+    {
+      "ko": "원룸",
+      "romanization": "wonrum",
+      "bn": "স্টুডিও অ্যাপার্টমেন্ট",
+      "en": "studio apartment",
+      "pos": "noun",
+      "example": {
+        "ko": "원룸에서 살고 있어요.",
+        "bn": "স্টুডিও অ্যাপার্টমেন্টে থাকছি।",
+        "en": "I live in a studio apartment."
+      },
+      "pronunciationTipBn": "'원룸' [원룸]—원(এক) + 룸(ঘর) = একঘর বাসা।"
+    },
+    {
+      "ko": "고시원",
+      "romanization": "gosiwon",
+      "bn": "গোশিওন (ছাত্রদের ছোট রুম)",
+      "en": "goshiwon (small room for students)",
+      "pos": "noun",
+      "example": {
+        "ko": "고시원이 아주 싸요.",
+        "bn": "গোশিওন খুব সস্তা।",
+        "en": "Goshiwons are very cheap."
+      },
+      "pronunciationTipBn": "'고시원' [고시원]—주로 পরীক্ষার্থীদের জন্য ছোট রুম।"
     },
     {
       "ko": "부동산",
@@ -54,11 +108,37 @@
       "en": "real estate agency",
       "pos": "noun",
       "example": {
-        "ko": "부동산에 가서 물어보세요.",
-        "bn": "রিয়েল এস্টেট এজেন্সিতে গিয়ে জিজ্ঞাসা করুন।",
-        "en": "Go to the real estate agency and ask."
+        "ko": "부동산에 가서 집을 알아봤어요.",
+        "bn": "রিয়েল এস্টেট এজেন্সিতে গিয়ে বাসা দেখেছি।",
+        "en": "I went to a real estate agency to look at houses."
       },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি 'ব' এবং 'ㄷ' ধ্বনিটি 'দ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'부동산' [부동산]—ㄷ এখানে নরম '동' শোনায়।"
+    },
+    {
+      "ko": "이사하다",
+      "romanization": "isahada",
+      "bn": "বাসা বদলানো",
+      "en": "to move (house)",
+      "pos": "verb",
+      "example": {
+        "ko": "다음 주에 이사할 거예요.",
+        "bn": "আগামী সপ্তাহে বাসা বদলাব।",
+        "en": "I will move next week."
+      },
+      "pronunciationTipBn": "'이사' [이사]—'사' স্পষ্ট '사'; '이사해요' [이사해요]।"
+    },
+    {
+      "ko": "계약하다",
+      "romanization": "gyeyakhada",
+      "bn": "চুক্তি করা",
+      "en": "to sign a contract",
+      "pos": "verb",
+      "example": {
+        "ko": "원룸 계약을 했어요.",
+        "bn": "স্টুডিওর চুক্তি করেছি।",
+        "en": "I signed a contract for a studio."
+      },
+      "pronunciationTipBn": "'계약' [계약]—'계' বলতে ঠোঁট গোল করে '계'।"
     },
     {
       "ko": "월세",
@@ -67,599 +147,547 @@
       "en": "monthly rent",
       "pos": "noun",
       "example": {
-        "ko": "월세가 얼마예요?",
-        "bn": "মাসিক ভাড়া কত?",
-        "en": "How much is the monthly rent?"
+        "ko": "월세가 비싸서 이사하고 싶어요.",
+        "bn": "ভাড়া বেশি বলে বাসা বদলাতে চাই।",
+        "en": "The rent is expensive, so I want to move."
       },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি 'ল' এর মতো এবং 'ㅅ' ধ্বনিটি 'স' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "전세",
-      "romanization": "jeonse",
-      "bn": "জামানত ভিত্তিক ভাড়া",
-      "en": "lump-sum deposit rent",
-      "pos": "noun",
-      "example": {
-        "ko": "전세로 집을 구했어요.",
-        "bn": "আমি জামানত ভিত্তিক ভাড়ায় বাসা পেয়েছি।",
-        "en": "I found a house on a lump-sum deposit lease."
-      },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'জ' এর মতো এবং 'ㅅ' ধ্বনিটি 'স' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'월세' [월세]—'월' (মাস) + '세' (ভাড়া)।"
     },
     {
       "ko": "보증금",
       "romanization": "bojeunggeum",
       "bn": "জামানত",
-      "en": "deposit",
+      "en": "security deposit",
       "pos": "noun",
       "example": {
-        "ko": "보증금이 너무 비싸요.",
-        "bn": "জামানত অনেক বেশি।",
-        "en": "The deposit is too expensive."
+        "ko": "보증금이 얼마예요?",
+        "bn": "জামানত কত?",
+        "en": "How much is the deposit?"
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'জ' এর মতো এবং 'ㄱ' ধ্বনিটি 'গ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'보증금' [보중금]—'증' নাকিধ্বনি '증' সহ।"
     },
     {
-      "ko": "계약서",
-      "romanization": "gyeyakseo",
-      "bn": "চুক্তিপত্র",
-      "en": "contract",
-      "pos": "noun",
-      "example": {
-        "ko": "계약서에 서명하세요.",
-        "bn": "চুক্তিপত্রে স্বাক্ষর করুন।",
-        "en": "Please sign the contract."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি 'গ' এর মতো এবং 'ㅅ' ধ্বনিটি 'স' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "이사하다",
-      "romanization": "isahada",
-      "bn": "বাসা বদল করা",
-      "en": "to move (house)",
+      "ko": "구하다",
+      "romanization": "guhada",
+      "bn": "খোঁজা/চাওয়া",
+      "en": "to find; to seek",
       "pos": "verb",
       "example": {
-        "ko": "다음 주에 이사해요.",
-        "bn": "আগামী সপ্তাহে বাসা বদল করব।",
-        "en": "I am moving next week."
+        "ko": "보증금이 싼 집을 구하고 싶어요.",
+        "bn": "জামানত কম বাসা খুঁজছি।",
+        "en": "I want to find a house with a low deposit."
       },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি 'স' এর মতো এবং 'ㅎ' ধ্বনিটি 'হ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'구하다' [구하다]—ㄱ নরম '구' দিয়ে শুরু।"
     },
     {
-      "ko": "원룸",
-      "romanization": "wollum",
-      "bn": "স্টুডিও অ্যাপার্টমেন্ট",
-      "en": "studio apartment",
-      "pos": "noun",
+      "ko": "집을 알아보다",
+      "romanization": "jibeul araboda",
+      "bn": "বাসা খুঁজে দেখা",
+      "en": "to look for a house",
+      "pos": "verb",
       "example": {
-        "ko": "원룸에서 혼자 살아요.",
-        "bn": "আমি স্টুডিও অ্যাপার্টমেন্টে একা থাকি।",
-        "en": "I live alone in a studio apartment."
+        "ko": "부동산에서 집을 알아봤어요.",
+        "bn": "এজেন্সিতে বাসা দেখেছি।",
+        "en": "I looked at houses at the agency."
       },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি 'ল' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'알아봤어요' [아라봏써요]—ㄹ+ㅇ মিলে '라' শোনায়।"
     },
     {
-      "ko": "기숙사",
-      "romanization": "gisuksa",
-      "bn": "ডরমিটরি/ছাত্রাবাস",
-      "en": "dormitory",
-      "pos": "noun",
+      "ko": "집을 보다",
+      "romanization": "jibeul boda",
+      "bn": "বাসা দেখা (পরিদর্শন)",
+      "en": "to view a house",
+      "pos": "verb",
       "example": {
-        "ko": "회사 기숙사에 살아요.",
-        "bn": "আমি কোম্পানির ডরমিটরিতে থাকি।",
-        "en": "I live in the company dormitory."
+        "ko": "저녁에 집을 봤어요.",
+        "bn": "সন্ধ্যায় বাসা দেখেছি।",
+        "en": "I viewed a house in the evening."
       },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি 'গ' এর মতো এবং 'ㅅ' ধ্বনিটি 'স' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'봤어요' [봏써요]—ㅂ+ㅅ মিলে '봏' শোনায়।"
     },
     {
-      "ko": "관리비",
-      "romanization": "gwallibi",
-      "bn": "রক্ষণাবেক্ষণ খরচ",
-      "en": "maintenance fee",
-      "pos": "noun",
-      "example": {
-        "ko": "관리비는 따로 내야 해요.",
-        "bn": "রক্ষণাবেক্ষণ খরচ আলাদা দিতে হবে।",
-        "en": "You have to pay the maintenance fee separately."
-      },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি 'ল' এর মতো এবং 'ㅂ' ধ্বনিটি 'ব' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "옵션",
-      "romanization": "opsyeon",
-      "bn": "সুবিধা (আসবাবপত্র)",
-      "en": "furnished options",
-      "pos": "noun",
-      "example": {
-        "ko": "이 방은 풀옵션이에요.",
-        "bn": "এই রুমটি সম্পূর্ণ আসবাবপত্র সহ।",
-        "en": "This room is fully furnished."
-      },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি 'শ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "교통",
-      "romanization": "gyotong",
-      "bn": "যাতায়াত/পরিবহন",
-      "en": "transportation",
-      "pos": "noun",
-      "example": {
-        "ko": "교통이 편리해요.",
-        "bn": "যাতায়াত ব্যবস্থা সুবিধাজনক।",
-        "en": "Transportation is convenient."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি 'গ' এর মতো এবং 'ㅌ' ধ্বনিটি 'থ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "가깝다",
-      "romanization": "gakkapda",
-      "bn": "কাছে",
-      "en": "to be close",
+      "ko": "넓다",
+      "romanization": "neolda",
+      "bn": "প্রশস্ত হওয়া",
+      "en": "to be spacious",
       "pos": "adjective",
       "example": {
-        "ko": "지하철역에서 가까워요.",
-        "bn": "সাবওয়ে স্টেশন থেকে কাছে।",
-        "en": "It is close to the subway station."
+        "ko": "방이 넓어요.",
+        "bn": "ঘর প্রশস্ত।",
+        "en": "The room is spacious."
       },
-      "pronunciationTipBn": "'ㄲ' ধ্বনিটি শক্ত 'ক' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'넓어요' [널버요]—ㄹㅂ দ্বিবত্ছিমের ㄹ-ই শোনায়।"
     },
     {
-      "ko": "멀다",
-      "romanization": "meolda",
-      "bn": "দূরে",
-      "en": "to be far",
+      "ko": "좁다",
+      "romanization": "jopda",
+      "bn": "সংকীর্ণ হওয়া",
+      "en": "to be narrow; small",
       "pos": "adjective",
       "example": {
-        "ko": "회사가 집에서 멀어요.",
-        "bn": "কোম্পানি বাসা থেকে দূরে।",
-        "en": "The company is far from home."
+        "ko": "방이 좁네요.",
+        "bn": "ঘর সংকীর্ণ তো।",
+        "en": "The room is small."
       },
-      "pronunciationTipBn": "'ㅁ' ধ্বনিটি 'ম' এর মতো এবং 'ㄹ' ধ্বনিটি 'ল' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "조용하다",
-      "romanization": "joyonghada",
-      "bn": "শান্ত",
-      "en": "to be quiet",
-      "pos": "adjective",
-      "example": {
-        "ko": "동네가 아주 조용해요.",
-        "bn": "এলাকাটি খুব শান্ত।",
-        "en": "The neighborhood is very quiet."
-      },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'জ' এর মতো এবং 'ㅎ' ধ্বনিটি 'হ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "시끄럽다",
-      "romanization": "sikkeureopda",
-      "bn": "কোলাহলপূর্ণ",
-      "en": "to be noisy",
-      "pos": "adjective",
-      "example": {
-        "ko": "길 옆이라서 시끄러워요.",
-        "bn": "রাস্তার পাশে হওয়ায় কোলাহলপূর্ণ।",
-        "en": "It is noisy because it is next to the road."
-      },
-      "pronunciationTipBn": "'ㄲ' ধ্বনিটি শক্ত 'ক' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'좁네요' [좁네요]—ㅂ বত্ছিম থামা '좁' শব্দ।"
     },
     {
       "ko": "깨끗하다",
       "romanization": "kkaekkeuthada",
-      "bn": "পরিষ্কার",
+      "bn": "পরিষ্কার হওয়া",
       "en": "to be clean",
       "pos": "adjective",
       "example": {
-        "ko": "방이 아주 깨끗해요.",
-        "bn": "রুমটি খুব পরিষ্কার।",
-        "en": "The room is very clean."
+        "ko": "원룸이 깨끗해요.",
+        "bn": "স্টুডিও পরিষ্কার।",
+        "en": "The studio is clean."
       },
-      "pronunciationTipBn": "'ㄲ' ধ্বনিটি শক্ত 'ক' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'깨끗' [깨끋]—ㅆ বত্ছিম থামা '끗' শব্দ।"
     },
     {
-      "ko": "부엌",
-      "romanization": "bueok",
-      "bn": "রান্নাঘর",
-      "en": "kitchen",
+      "ko": "더럽다",
+      "romanization": "deoreopda",
+      "bn": "নোংরা হওয়া",
+      "en": "to be dirty",
+      "pos": "adjective",
+      "example": {
+        "ko": "방이 더러워요.",
+        "bn": "ঘর নোংরা।",
+        "en": "The room is dirty."
+      },
+      "pronunciationTipBn": "'더러워요' [더러워요]—'ㅂ' অনিয়মে '워' বসে।"
+    },
+    {
+      "ko": "조용하다",
+      "romanization": "joyonghada",
+      "bn": "শান্ত হওয়া",
+      "en": "to be quiet",
+      "pos": "adjective",
+      "example": {
+        "ko": "조용한 주택에서 살고 싶어요.",
+        "bn": "শান্ত বাড়িতে থাকতে চাই।",
+        "en": "I want to live in a quiet house."
+      },
+      "pronunciationTipBn": "'조용' [조용]—'용' নাকিধ্বনি '용' সহ।"
+    },
+    {
+      "ko": "시끄럽다",
+      "romanization": "sikkeureopda",
+      "bn": "কোলাহলপূর্ণ হওয়া",
+      "en": "to be noisy",
+      "pos": "adjective",
+      "example": {
+        "ko": "사무실은 시끄러워요.",
+        "bn": "অফিস কোলাহলপূর্ণ।",
+        "en": "The office is noisy."
+      },
+      "pronunciationTipBn": "'시끄러워요' [시끄러워요]—'ㅂ' অনিয়মে '워' বসে।"
+    },
+    {
+      "ko": "편리하다",
+      "romanization": "pyeollihada",
+      "bn": "সুবিধাজনক হওয়া",
+      "en": "to be convenient",
+      "pos": "adjective",
+      "example": {
+        "ko": "편의 시설이 많아서 편리해요.",
+        "bn": "সুযোগ-সুবিধা অনেক বলে সুবিধাজনক।",
+        "en": "It is convenient because there are many facilities."
+      },
+      "pronunciationTipBn": "'편리' [편리]—ㅍ ঝোঁড়া '편' দিয়ে শুরু।"
+    },
+    {
+      "ko": "불편하다",
+      "romanization": "bulpyeonhada",
+      "bn": "অসুবিধাজনক হওয়া",
+      "en": "to be inconvenient",
+      "pos": "adjective",
+      "example": {
+        "ko": "교통이 불편해요.",
+        "bn": "যাতায়াত অসুবিধাজনক।",
+        "en": "Transportation is inconvenient."
+      },
+      "pronunciationTipBn": "'불편' [불편]—ㅍ ঝোঁড়া '편' শোনায়।"
+    },
+    {
+      "ko": "전망",
+      "romanization": "jeonmang",
+      "bn": "দৃশ্য/ভিউ",
+      "en": "view",
       "pos": "noun",
       "example": {
-        "ko": "부엌이 아주 넓어요.",
-        "bn": "রান্নাঘরটি খুব বড়।",
-        "en": "The kitchen is very spacious."
+        "ko": "전망이 좋은 빌라를 구하고 싶어요.",
+        "bn": "ভিউ ভালো বিল্লা খুঁজছি।",
+        "en": "I want to find a villa with a good view."
       },
-      "pronunciationTipBn": "শেষে 'ㅋ' থাকলে 'ক' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'전망' [전망]—'전' নাকিধ্বনি '전' সহ।"
     },
     {
-      "ko": "화장실",
-      "romanization": "hwajangsil",
-      "bn": "বাথরুম/টয়লেট",
-      "en": "bathroom/toilet",
+      "ko": "교통",
+      "romanization": "gyotong",
+      "bn": "যাতায়াত",
+      "en": "transportation",
       "pos": "noun",
       "example": {
-        "ko": "화장실은 어디에 있어요?",
-        "bn": "বাথরুম কোথায়?",
-        "en": "Where is the bathroom?"
+        "ko": "교통이 편리해요.",
+        "bn": "যাতায়াত সুবিধাজনক।",
+        "en": "Transportation is convenient."
       },
-      "pronunciationTipBn": "'ㅎ' ধ্বনিটি 'হ' এর মতো এবং 'ㅈ' ধ্বনিটি 'জ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'교통' [교통]—ㅌ ঝোঁড়া '통' দিয়ে শেষ।"
     },
     {
-      "ko": "거실",
-      "romanization": "geosil",
-      "bn": "বসার ঘর",
-      "en": "living room",
-      "pos": "noun",
-      "example": {
-        "ko": "거실에 TV가 있어요.",
-        "bn": "বসার ঘরে টিভি আছে।",
-        "en": "There is a TV in the living room."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি 'গ' এর মতো এবং 'ㅅ' ধ্বনিটি 'শ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "침실",
-      "romanization": "chimsil",
-      "bn": "শোবার ঘর",
-      "en": "bedroom",
-      "pos": "noun",
-      "example": {
-        "ko": "침실이 아주 조용해요.",
-        "bn": "শোবার ঘরটি খুব শান্ত।",
-        "en": "The bedroom is very quiet."
-      },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি 'ছ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "베란다",
-      "romanization": "beranda",
-      "bn": "বারান্দা",
-      "en": "balcony",
-      "pos": "noun",
-      "example": {
-        "ko": "베란다에서 밖을 봐요.",
-        "bn": "বারান্দা থেকে বাইরে দেখি।",
-        "en": "I look outside from the balcony."
-      },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি 'ব' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "창문",
-      "romanization": "changmun",
-      "bn": "জানালা",
-      "en": "window",
-      "pos": "noun",
-      "example": {
-        "ko": "창문을 열어 주세요.",
-        "bn": "দয়া করে জানালাটি খুলে দিন।",
-        "en": "Please open the window."
-      },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি 'ছ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "계단",
-      "romanization": "gyedan",
-      "bn": "সিঁড়ি",
-      "en": "stairs",
-      "pos": "noun",
-      "example": {
-        "ko": "계단으로 올라가세요.",
-        "bn": "সিঁড়ি দিয়ে উপরে যান।",
-        "en": "Please go up the stairs."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি 'গ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "엘리베이터",
-      "romanization": "ellibeiteo",
-      "bn": "এলিভেটর/লিফট",
-      "en": "elevator",
-      "pos": "noun",
-      "example": {
-        "ko": "엘리베이터가 고장 났어요.",
-        "bn": "লিফট নষ্ট হয়ে গেছে।",
-        "en": "The elevator is broken."
-      },
-      "pronunciationTipBn": "ইংরেজি শব্দের কোরিয়ান উচ্চারণ, 'ㄹ' ধ্বনিটি 'ল' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "주차장",
-      "romanization": "juchajang",
-      "bn": "পার্কিং লট",
-      "en": "parking lot",
-      "pos": "noun",
-      "example": {
-        "ko": "주차장에 차가 많아요.",
-        "bn": "পার্কিং লটে অনেক গাড়ি আছে।",
-        "en": "There are many cars in the parking lot."
-      },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'জ' এর মতো এবং 'ㅊ' ধ্বনিটি 'ছ' এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "편의시설",
-      "romanization": "pyeonuiseiseol",
+      "ko": "편의 시설",
+      "romanization": "pyeoni siseol",
       "bn": "সুযোগ-সুবিধা",
-      "en": "convenience facilities",
+      "en": "facilities; amenities",
       "pos": "noun",
       "example": {
-        "ko": "주변에 편의시설이 많아요.",
-        "bn": "আশেপাশে অনেক সুযোগ-সুবিধা আছে।",
-        "en": "There are many convenience facilities nearby."
+        "ko": "근처에 편의 시설이 많아요.",
+        "bn": "কাছাকাছি সুবিধা অনেক।",
+        "en": "There are many facilities nearby."
       },
-      "pronunciationTipBn": "'ㅍ' ধ্বনিটি 'ফ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'편의 시설' [편의 시설]—'편의' বলতে '의' স্বর '의'।"
     },
     {
-      "ko": "부동산 중개인",
-      "romanization": "budongsan junggaein",
-      "bn": "রিয়েল এস্টেট এজেন্ট",
-      "en": "real estate agent",
-      "pos": "noun",
+      "ko": "끝나다",
+      "romanization": "kkeutnada",
+      "bn": "শেষ হওয়া",
+      "en": "to end; to expire",
+      "pos": "verb",
       "example": {
-        "ko": "부동산 중개인과 이야기했어요.",
-        "bn": "রিয়েল এস্টেট এজেন্টের সাথে কথা বলেছি।",
-        "en": "I talked with the real estate agent."
+        "ko": "다음 달에 원룸 계약이 끝나요.",
+        "bn": "আগামী মাসে চুক্তি শেষ হবে।",
+        "en": "My studio contract ends next month."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'জ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'끝나' [끈나]—ㅅ+ㄴ মিলে 'ㄴ' শোনায়।"
     },
     {
-      "ko": "집주인",
-      "romanization": "jipjuin",
-      "bn": "বাড়ির মালিক",
-      "en": "landlord",
+      "ko": "부탁",
+      "romanization": "butak",
+      "bn": "অনুরোধ",
+      "en": "favor; request",
       "pos": "noun",
       "example": {
-        "ko": "집주인이 아주 친절해요.",
-        "bn": "বাড়ির মালিক খুব দয়ালু।",
-        "en": "The landlord is very kind."
+        "ko": "부탁이 있어요.",
+        "bn": "একটা অনুরোধ আছে।",
+        "en": "I have a favor to ask."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'জ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'부탁' [부탁]—ㅌ ঝোঁড়া '탁' দিয়ে শেষ।"
     },
     {
-      "ko": "이삿짐",
-      "romanization": "isatjim",
-      "bn": "বাসা বদলের জিনিসপত্র",
-      "en": "moving luggage",
-      "pos": "noun",
+      "ko": "편하다",
+      "romanization": "pyeonhada",
+      "bn": "আরামদায়ক হওয়া",
+      "en": "to be comfortable",
+      "pos": "adjective",
       "example": {
-        "ko": "이삿짐을 다 쌌어요.",
-        "bn": "বাসা বদলের জিনিসপত্র সব প্যাক করেছি।",
-        "en": "I packed all the moving luggage."
+        "ko": "아파트 생활이 편해요.",
+        "bn": "অ্যাপার্টমেন্ট জীবন আরামদায়ক।",
+        "en": "Apartment life is comfortable."
       },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি 'স' এর মতো এবং 'ㅉ' ধ্বনিটি শক্ত 'চ' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'편해요' [편해요]—ㅍ ঝোঁড়া '편' দিয়ে শুরু।"
     },
     {
-      "ko": "이삿짐센터",
-      "romanization": "isatjimsenteo",
-      "bn": "মুভিং কোম্পানি",
-      "en": "moving company",
+      "ko": "집",
+      "romanization": "jip",
+      "bn": "বাসা/বাড়ি",
+      "en": "house; home",
       "pos": "noun",
       "example": {
-        "ko": "이삿짐센터에 전화했어요.",
-        "bn": "মুভিং কোম্পানিতে ফোন করেছি।",
-        "en": "I called the moving company."
+        "ko": "집을 구하고 있어요.",
+        "bn": "বাসা খুঁজছি।",
+        "en": "I am looking for a house."
       },
-      "pronunciationTipBn": "ইংরেজি 'center' শব্দের কোরিয়ান উচ্চারণ যুক্ত হয়েছে।"
+      "pronunciationTipBn": "'집' [집]—ㅂ বত্ছিম থামা '집' শব্দ।"
+    },
+    {
+      "ko": "방",
+      "romanization": "bang",
+      "bn": "ঘর",
+      "en": "room",
+      "pos": "noun",
+      "example": {
+        "ko": "방이 세 개 있어요.",
+        "bn": "তিনটি ঘর আছে।",
+        "en": "There are three rooms."
+      },
+      "pronunciationTipBn": "'방' [방]—ㅂ নরম '방'; 'ㅇ' নাকিধ্বনি '방'।"
+    },
+    {
+      "ko": "좋다",
+      "romanization": "jota",
+      "bn": "ভালো হওয়া",
+      "en": "to be good",
+      "pos": "adjective",
+      "example": {
+        "ko": "전망이 좋아요.",
+        "bn": "ভিউ ভালো।",
+        "en": "The view is good."
+      },
+      "pronunciationTipBn": "'좋아요' [조아요]—ㅎ প্রায় নীরব থাকে।"
+    },
+    {
+      "ko": "나쁘다",
+      "romanization": "nappeuda",
+      "bn": "খারাপ হওয়া",
+      "en": "to be bad",
+      "pos": "adjective",
+      "example": {
+        "ko": "교통이 나빠요.",
+        "bn": "যাতায়াত খারাপ।",
+        "en": "Transportation is bad."
+      },
+      "pronunciationTipBn": "'나빠요' [나빠요]—ㅂ+ㅂ মিলে জোড়া '빠'।"
+    },
+    {
+      "ko": "많다",
+      "romanization": "manda",
+      "bn": "অনেক হওয়া",
+      "en": "to be many",
+      "pos": "adjective",
+      "example": {
+        "ko": "편의 시설이 많아요.",
+        "bn": "সুবিধা অনেক।",
+        "en": "There are many facilities."
+      },
+      "pronunciationTipBn": "'많아요' [마나요]—ㅎ প্রায় নীরব থাকে।"
+    },
+    {
+      "ko": "부족하다",
+      "romanization": "bujokhada",
+      "bn": "অপর্যাপ্ত হওয়া",
+      "en": "to be insufficient",
+      "pos": "adjective",
+      "example": {
+        "ko": "편의 시설이 부족해요.",
+        "bn": "সুবিধা অপর্যাপ্ত।",
+        "en": "Facilities are insufficient."
+      },
+      "pronunciationTipBn": "'부족' [부족]—ㅈ শক্ত '족' দিয়ে শেষ।"
     }
   ],
   "grammar": [
     {
-      "pattern": "V/A + (으)ㄹ 수 있다/없다",
-      "titleBn": "সক্ষমতা বা সম্ভাবনা প্রকাশ",
-      "explanationBn": "কোনো কাজ করার সক্ষমতা বা সম্ভাবনা বোঝাতে এটি ব্যবহৃত হয়। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '을 수 있다/없다' এবং স্বরবর্ণ দিয়ে শেষ হলে 'ㄹ 수 있다/없다' বসে।",
-      "explanationEn": "Used to express ability or possibility. Use '을 수 있다/없다' after a consonant and 'ㄹ 수 있다/없다' after a vowel.",
+      "pattern": "V + -고 싶다",
+      "titleBn": "ইচ্ছা প্রকাশ '-고 싶다' (করতে চাই)",
+      "explanationBn": "কোনো কাজ করতে ইচ্ছা বা বাসনা বোঝাতে ক্রিয়ার সাথে '-고 싶다' বসে—বাংলার 'করতে চাই'। ১ম পুরুষে বিবৃতিতে, ২য় পুরুষে প্রশ্নে ব্যবহৃত হয়। ৩য় পুরুষে '-고 싶어 하다' ব্যবহৃত হয়।",
+      "explanationEn": "-고 싶다 combines with verbs to show a wish or desire. Used with 1st person in declaratives, 2nd person in questions. For 3rd person, use -고 싶어 하다.",
       "examples": [
         {
-          "ko": "한국어를 할 수 있어요.",
-          "bn": "আমি কোরিয়ান বলতে পারি।",
-          "en": "I can speak Korean."
+          "ko": "원룸에서 살고 싶어요.",
+          "bn": "স্টুডিওতে থাকতে চাই।",
+          "en": "I want to live in a studio."
         },
         {
-          "ko": "오늘 만날 수 없어요.",
-          "bn": "আজ দেখা করতে পারব না।",
-          "en": "I cannot meet today."
+          "ko": "주말에 집에서 쉬고 싶어요.",
+          "bn": "সপ্তাহান্তে বাড়িতে বিশ্রাম নিতে চাই।",
+          "en": "I want to rest at home on the weekend."
         },
         {
-          "ko": "여기서 요리할 수 있어요?",
-          "bn": "এখানে কি রান্না করা যায়?",
-          "en": "Can I cook here?"
+          "ko": "보증금이 싼 집을 구하고 싶어요.",
+          "bn": "জামানত কম বাসা খুঁজতে চাই।",
+          "en": "I want to find a house with a low deposit."
         }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণের পরে ভুল করে 'ㄹ 수 있다' ব্যবহার করেন; ব্যঞ্জনবর্ণের পরে সবসময় '을 수 있다' বসবে।"
+      "commonMistakeBn": "৩য় পুরুষে '-고 싶어요' বলা অস্বাভাবিক—'-고 싶어 해요' বলুন: 아내는 살고 싶어 해요।"
     },
     {
-      "pattern": "V/A + (으)면 되다",
-      "titleBn": "শর্ত পূরণ হলে যথেষ্ট",
-      "explanationBn": "কোনো নির্দিষ্ট শর্ত পূরণ হলেই কাজ হবে বা যথেষ্ট হবে, তা বোঝাতে এটি ব্যবহৃত হয়। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '으면 되다' এবং স্বরবর্ণ দিয়ে শেষ হলে '면 되다' বসে।",
-      "explanationEn": "Used to indicate that fulfilling a certain condition is sufficient. Use '으면 되다' after a consonant and '면 되다' after a vowel.",
+      "pattern": "A/V + -지만",
+      "titleBn": "বৈপরীত্যসূচক '-지만' (কিন্তু)",
+      "explanationBn": "দুই বাক্যের মধ্যে বৈপরীত্য বোঝাতে '-지만' বসে—বাংলার 'কিন্তু/তবে'। ক্রিয়া বা বিশেষণের পরে বসে।",
+      "explanationEn": "-지만 shows contrast between two clauses—'but'. It attaches to verbs and adjectives.",
       "examples": [
         {
-          "ko": "여기에 서명하시면 됩니다.",
-          "bn": "এখানে স্বাক্ষর করলেই হবে।",
-          "en": "You just need to sign here."
+          "ko": "우리 집은 월세가 비싸지만 전망이 좋아요.",
+          "bn": "আমার বাসার ভাড়া বেশি কিন্তু ভিউ ভালো।",
+          "en": "Our rent is expensive but the view is good."
         },
         {
-          "ko": "보증금은 내일 주면 돼요.",
-          "bn": "জামানত আগামীকাল দিলেই হবে।",
-          "en": "You can just give the deposit tomorrow."
+          "ko": "기숙사에서 편의점은 가깝지만 시장은 멀어요.",
+          "bn": "ডরমিটরিতে কনভিনিয়েন্স স্টোর কাছে কিন্তু বাজার দূরে।",
+          "en": "From the dorm, the convenience store is close but the market is far."
         },
         {
-          "ko": "어떻게 가면 돼요?",
-          "bn": "কীভাবে গেলেই হবে?",
-          "en": "How should I go?"
+          "ko": "일요일이지만 출근해야 돼요.",
+          "bn": "রবিবার কিন্তু কাজে যেতে হবে।",
+          "en": "It is Sunday but I have to go to work."
         }
       ],
-      "commonMistakeBn": "অনেকে স্বরবর্ণ의 পরে ভুল করে '으면 되다' ব্যবহার করেন; স্বরবর্ণের পরে 항상 '면 되다' বসবে।"
+      "commonMistakeBn": "'-지만' এর আগে অতীত চিহ্ন বসানো ভুল—যেমন '비쌌지만' নয়, '비싸지만' বলুন; অতীত শেষ ক্রিয়ায় থাকে।"
     },
     {
-      "pattern": "V + 기로 하다",
-      "titleBn": "সিদ্ধান্ত বা প্রতিশ্রুতি প্রকাশ",
-      "explanationBn": "কোনো কাজ করার সিদ্ধান্ত নেওয়া বা প্রতিশ্রুতি দেওয়া বোঝাতে এটি ব্যবহৃত হয়। ক্রিয়াপদের মূল অংশের সাথে '기로 하다' যুক্ত হয়।",
-      "explanationEn": "Used to express a decision or promise to do something. Attach '기로 하다' to the verb stem.",
+      "pattern": "-고 싶어 하다 (3인칭)",
+      "titleBn": "তৃতীয় পুরুষে ইচ্ছা '-고 싶어 하다'",
+      "explanationBn": "৩য় পুরুষের (সে/তারা) ইচ্ছা বা বাসনা বোঝাতে '-고 싶다'-এর বদলে '-고 싶어 하다' ব্যবহৃত হয়: 아내는 고향에서 살고 싶어 해요।",
+      "explanationEn": "For 3rd person subjects, use -고 싶어 하다 instead of -고 싶다: 아내는 고향에서 살고 싶어 해요.",
       "examples": [
         {
-          "ko": "내일 이사하기로 했어요.",
-          "bn": "আগামীকাল বাসা বদল করার সিদ্ধান্ত নিয়েছি।",
-          "en": "I decided to move tomorrow."
+          "ko": "아내는 고향에서 살고 싶어 해요.",
+          "bn": "স্ত্রী নিজ দেশে থাকতে চান।",
+          "en": "My wife wants to live in her hometown."
         },
         {
-          "ko": "주말에 집을 보기로 했어요.",
-          "bn": "সপ্তাহান্তে বাসা দেখার সিদ্ধান্ত নিয়েছি।",
-          "en": "I decided to look at houses on the weekend."
+          "ko": "친구는 아파트에서 살고 싶어 해요.",
+          "bn": "বন্ধু অ্যাপার্টমেন্টে থাকতে চায়।",
+          "en": "My friend wants to live in an apartment."
         },
         {
-          "ko": "계약서에 서명하기로 했어요.",
-          "bn": "চুক্তিপত্রে স্বাক্ষর করার সিদ্ধান্ত নিয়েছি।",
-          "en": "I decided to sign the contract."
+          "ko": "부모님은 조용한 곳에서 쉬고 싶어 하세요.",
+          "bn": "বাবা-মা শান্ত জায়গায় বিশ্রাম নিতে চান।",
+          "en": "My parents want to rest in a quiet place."
         }
       ],
-      "commonMistakeBn": "অনেকে বিশেষণের সাথে এটি ব্যবহার করেন; এটি শুধুমাত্র ক্রিয়াপদের সাথে ব্যবহৃত হয়।"
+      "commonMistakeBn": "৩য় পুরুষে '-고 싶어요' বলা অস্বাভাবিক—'-고 싶어 해요' বলুন।"
     },
     {
-      "pattern": "V/A + (으)니까",
-      "titleBn": "কারণ বা যুক্তি প্রকাশ",
-      "explanationBn": "কোনো কাজের কারণ বা যুক্তি বোঝাতে এটি ব্যবহৃত হয়। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '으니까' এবং স্বরবর্ণ দিয়ে শেষ হলে '니까' বসে।",
-      "explanationEn": "Used to express a reason or justification. Use '으니까' after a consonant and '니까' after a vowel.",
+      "pattern": "N + 하고 같이/함께",
+      "titleBn": "'하고 같이/함께' (এর সাথে একসাথে)",
+      "explanationBn": "কারো সাথে একসাথে কিছু করা বোঝাতে 'N + 하고 같이/함께' ব্যবহৃত হয়—বাংলার 'সাথে একসাথে'। '같이/함께' বাদ দেওয়া যায়।",
+      "explanationEn": "To show doing something together with someone, use N + 하고 같이/함께—'together with'. 같이/함께 can be omitted.",
       "examples": [
         {
-          "ko": "집이 회사에서 가까우니까 좋아요.",
-          "bn": "বাসা কোম্পানি থেকে কাছে হওয়ায় ভালো।",
-          "en": "It is good because the house is close to the company."
+          "ko": "가족하고 같이 한국에 왔어요.",
+          "bn": "পরিবারের সাথে একসাথে কোরিয়ায় এসেছি।",
+          "en": "I came to Korea together with my family."
         },
         {
-          "ko": "방이 깨끗하니까 마음에 들어요.",
-          "bn": "রুমটি পরিষ্কার হওয়ায় আমার পছন্দ হয়েছে।",
-          "en": "I like it because the room is clean."
+          "ko": "친구하고 부동산에 가요.",
+          "bn": "বন্ধুর সাথে এজেন্সিতে যাই।",
+          "en": "I go to the agency with a friend."
         },
         {
-          "ko": "월세가 비싸니까 다른 집을 찾아볼게요.",
-          "bn": "মাসিক ভাড়া বেশি হওয়ায় অন্য বাসা খুঁজব।",
-          "en": "I will look for another house because the monthly rent is expensive."
+          "ko": "다라 씨하고 같이 집을 봤어요.",
+          "bn": "দারার সাথে একসাথে বাসা দেখেছি।",
+          "en": "I viewed a house together with Dara."
         }
       ],
-      "commonMistakeBn": "অনেকে '아/어서' এর পরিবর্তে এটি ব্যবহার করেন; '으니까' সাধারণত প্রস্তাব বা আদেশের সাথে বেশি ব্যবহৃত হয়।"
+      "commonMistakeBn": "'같이' আর '같다' (একই) গুলিয়ে ফেলবেন না—'하고 같이' = সাথে একসাথে, '같다' = একই।"
+    },
+    {
+      "pattern": "어디에서 살고 싶어요?",
+      "titleBn": "'কোথায় থাকতে চান?' জিজ্ঞাসা",
+      "explanationBn": "কোথায় থাকতে চান জানতে '어디에서 살고 싶어요?' বলুন। উত্তরে জায়গা + 에서 살고 싶어요 বলুন: 아파트에서 살고 싶어요।",
+      "explanationEn": "Ask where someone wants to live with 어디에서 살고 싶어요? Answer with place + 에서 살고 싶어요: 아파트에서 살고 싶어요.",
+      "examples": [
+        {
+          "ko": "어디에서 살고 싶어요?",
+          "bn": "কোথায় থাকতে চান?",
+          "en": "Where do you want to live?"
+        },
+        {
+          "ko": "아파트에서 살고 싶어요.",
+          "bn": "অ্যাপার্টমেন্টে থাকতে চাই।",
+          "en": "I want to live in an apartment."
+        },
+        {
+          "ko": "왜요? 생활이 편해서요.",
+          "bn": "কেন? জীবন আরামদায়ক বলে।",
+          "en": "Why? Because life is convenient."
+        }
+      ],
+      "commonMistakeBn": "'어디에 살고 싶어요?' বলা ভুল—থাকার জায়গায় '에서' বসে: 어디에서 살고 싶어요?।"
     }
   ],
   "dialogues": [
+    {
+      "titleBn": "বাসা বদলাতে চাই",
+      "titleEn": "I Want to Move",
+      "lines": [
+        {
+          "speaker": "A",
+          "ko": "다라 씨, 부탁이 있어요. 이번 주말에 나하고 같이 부동산에 가 주세요.",
+          "bn": "দারা, একটা অনুরোধ আছে। এই সপ্তাহান্তে আমার সাথে এজেন্সিতে যাও।",
+          "en": "Dara, I have a favor. Can you go to the real estate agency with me this weekend?"
+        },
+        {
+          "speaker": "B",
+          "ko": "알겠어요. 그런데 부동산은 왜 가요?",
+          "bn": "আচ্ছা। কিন্তু এজেন্সিতে কেন?",
+          "en": "Sure. But why the agency?"
+        },
+        {
+          "speaker": "A",
+          "ko": "다음 달에 원룸 계약이 끝나요. 월세가 비싸서 이사하고 싶어요.",
+          "bn": "আগামী মাসে চুক্তি শেষ হবে। ভাড়া বেশি বলে বাসা বদলাতে চাই।",
+          "en": "My studio contract ends next month. The rent is expensive, so I want to move."
+        },
+        {
+          "speaker": "B",
+          "ko": "그러면 우리 집 근처 부동산에 가요. 우리 집 근처가 월세가 싸요.",
+          "bn": "তাহলে আমার বাসার কাছের এজেন্সিতে যাই। কাছাকাছি ভাড়া কম।",
+          "en": "Then let us go to the agency near my house. Rentals near my house are affordable."
+        }
+      ]
+    },
     {
       "titleBn": "রিয়েল এস্টেট এজেন্সিতে",
       "titleEn": "At the Real Estate Agency",
       "lines": [
         {
-          "speaker": "라힘",
-          "ko": "안녕하세요. 방을 좀 구하려고 하는데요.",
-          "bn": "নমস্কার। আমি একটি রুম খুঁজছিলাম।",
-          "en": "Hello. I am looking for a room."
+          "speaker": "A",
+          "ko": "어서 오세요. 어떻게 오셨어요?",
+          "bn": "স্বাগতম। কী জন্য এসেছেন?",
+          "en": "Welcome. How can I help you?"
         },
         {
-          "speaker": "중개인",
-          "ko": "네, 어떤 방을 찾으세요?",
-          "bn": "হ্যাঁ, আপনি কেমন রুম খুঁজছেন?",
-          "en": "Yes, what kind of room are you looking for?"
+          "speaker": "B",
+          "ko": "원룸을 알아보고 싶어서 왔어요.",
+          "bn": "স্টুডিও খুঁজতে এসেছি।",
+          "en": "I am here to look for a studio apartment."
         },
         {
-          "speaker": "라힘",
-          "ko": "회사에서 가까운 원룸이면 좋겠어요.",
-          "bn": "কোম্পানির কাছাকাছি স্টুডিও অ্যাপার্টমেন্ট হলে ভালো হয়।",
-          "en": "I would like a studio apartment close to the company."
+          "speaker": "A",
+          "ko": "지하철역 근처에 조용한 원룸이 하나 있어요.",
+          "bn": "সাবওয়ে স্টেশনের কাছে একটি শান্ত স্টুডিও আছে।",
+          "en": "There is a quiet studio near the subway station."
         },
         {
-          "speaker": "중개인",
-          "ko": "월세는 얼마 정도 생각하세요?",
-          "bn": "মাসিক ভাড়া কত ভাবছেন?",
-          "en": "How much are you thinking for monthly rent?"
+          "speaker": "B",
+          "ko": "월세가 얼마예요?",
+          "bn": "ভাড়া কত?",
+          "en": "How much is the rent?"
         },
         {
-          "speaker": "라힘",
-          "ko": "보증금 500만 원에 월세 40만 원 정도면 좋겠어요.",
-          "bn": "জামানত ৫ মিলিয়ন ওন এবং মাসিক ভাড়া ৪০ হাজার ওনের মতো হলে ভালো হয়।",
-          "en": "A deposit of 5 million won and monthly rent around 400,000 won would be good."
-        },
-        {
-          "speaker": "중개인",
-          "ko": "마침 좋은 방이 하나 있어요. 같이 보러 갈까요?",
-          "bn": "ঠিক এমন একটি ভালো রুম আছে। একসাথে দেখতে যাব কি?",
-          "en": "I happen to have a good room. Shall we go see it together?"
+          "speaker": "A",
+          "ko": "오십만 원이에요. 조금 비싸지만 깨끗해요. 그리고 근처에 편의 시설이 많아서 좋아요.",
+          "bn": "৫ লক্ষ ওন। একটু বেশি কিন্তু পরিষ্কার। আর কাছাকাছি সুবিধা অনেক বলে ভালো।",
+          "en": "It is 500,000 won. A bit expensive but clean. And there are many facilities nearby, so it is nice."
         }
       ]
     },
     {
-      "titleBn": "রুম দেখা এবং চুক্তি করা",
-      "titleEn": "Viewing the Room and Contracting",
+      "titleBn": "বাসার পরিবেশ",
+      "titleEn": "Residential Environment",
       "lines": [
         {
-          "speaker": "라힘",
-          "ko": "방이 깨끗하고 좋네요. 옵션은 다 있나요?",
-          "bn": "রুমটি পরিষ্কার এবং ভালো। সব সুবিধা কি আছে?",
-          "en": "The room is clean and nice. Does it have all the options?"
+          "speaker": "A",
+          "ko": "이 원룸은 어때요?",
+          "bn": "এই স্টুডিওটি কেমন?",
+          "en": "How is this studio?"
         },
         {
-          "speaker": "중개인",
-          "ko": "네, 세탁기, 냉장고, 에어컨이 다 있어요.",
-          "bn": "হ্যাঁ, ওয়াশিং মেশিন, ফ্রিজ, এসি সবই আছে।",
-          "en": "Yes, it has a washing machine, refrigerator, and air conditioner."
+          "speaker": "B",
+          "ko": "방이 좁네요.",
+          "bn": "ঘর সংকীর্ণ তো।",
+          "en": "The room is small."
         },
         {
-          "speaker": "라힘",
-          "ko": "관리비는 한 달에 얼마예요?",
-          "bn": "রক্ষণাবেক্ষণ খরচ মাসে কত?",
-          "en": "How much is the maintenance fee per month?"
+          "speaker": "A",
+          "ko": "네, 방은 좁지만 월세가 싸요.",
+          "bn": "হ্যাঁ, ঘর ছোট কিন্তু ভাড়া কম।",
+          "en": "Yes, the room is small but the rent is cheap."
         },
         {
-          "speaker": "중개인",
-          "ko": "관리비는 5만 원이에요. 인터넷 요금도 포함되어 있어요.",
-          "bn": "রক্ষণাবেক্ষণ খরচ ৫০ হাজার ওন। ইন্টারনেট বিলও এর অন্তর্ভুক্ত।",
-          "en": "The maintenance fee is 50,000 won. Internet fee is also included."
+          "speaker": "B",
+          "ko": "교통은 편리해요?",
+          "bn": "যাতায়াত সুবিধাজনক?",
+          "en": "Is transportation convenient?"
         },
         {
-          "speaker": "라힘",
-          "ko": "마음에 들어요. 이 방으로 계약할게요.",
-          "bn": "আমার পছন্দ হয়েছে। আমি এই রুমের জন্য চুক্তি করব।",
-          "en": "I like it. I will sign a contract for this room."
-        },
-        {
-          "speaker": "중개인",
-          "ko": "그럼 부동산으로 가서 계약서를 쓰면 됩니다.",
-          "bn": "তাহলে রিয়েল এস্টেট এজেন্সিতে গিয়ে চুক্তিপত্র লিখলেই হবে।",
-          "en": "Then we can go to the real estate agency and write the contract."
-        }
-      ]
-    },
-    {
-      "titleBn": "বাসা বদলের প্রস্তুতি",
-      "titleEn": "Preparing to Move",
-      "lines": [
-        {
-          "speaker": "라힘",
-          "ko": "이번 주말에 이사하기로 했어요.",
-          "bn": "এই সপ্তাহান্তে বাসা বদল করার সিদ্ধান্ত নিয়েছি।",
-          "en": "I decided to move this weekend."
-        },
-        {
-          "speaker": "수루",
-          "ko": "그래요? 이삿짐은 다 쌌어요?",
-          "bn": "তাই নাকি? বাসা বদলের জিনিসপত্র সব প্যাক করেছেন?",
-          "en": "Really? Have you packed all your moving luggage?"
-        },
-        {
-          "speaker": "라힘",
-          "ko": "아직 다 못 쌌어요. 짐이 너무 많아요.",
-          "bn": "এখনো সব প্যাক করতে পারিনি। জিনিসপত্র অনেক বেশি।",
-          "en": "I haven't packed everything yet. There is too much luggage."
-        },
-        {
-          "speaker": "수루",
-          "ko": "제가 주말에 도와줄까요?",
-          "bn": "আমি কি সপ্তাহান্তে সাহায্য করব?",
-          "en": "Shall I help you on the weekend?"
-        },
-        {
-          "speaker": "라힘",
-          "ko": "정말요? 도와주면 너무 고맙죠.",
-          "bn": "সত্যি? সাহায্য করলে খুব ভালো হয়।",
-          "en": "Really? I would be very thankful if you help."
-        },
-        {
-          "speaker": "수루",
-          "ko": "그럼 토요일 아침에 갈게요.",
-          "bn": "তাহলে শনিবার সকালে যাব।",
-          "en": "Then I will go on Saturday morning."
+          "speaker": "A",
+          "ko": "네, 지하철역이 가까워서 편리해요.",
+          "bn": "হ্যাঁ, সাবওয়ে স্টেশন কাছে বলে সুবিধাজনক।",
+          "en": "Yes, the subway station is close, so it is convenient."
         }
       ]
     }
@@ -668,568 +696,569 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'아파트' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "영화를 보고 싶어요.",
-        "옷을 사고 싶어요.",
-        "밥을 먹고 싶어요.",
-        "집을 구하고 싶어요."
+        "অ্যাপার্টমেন্ট",
+        "বাড়ি",
+        "স্টুডিও",
+        "ডরমিটরি"
       ],
-      "answer": 3,
-      "explanationBn": "부동산 (রিয়েল এস্টেট এজেন্সি) এ গিয়ে সাধারণত বাসা খোঁজার কথা বলা হয়। তাই '집을 구하고 싶어요' (বাসা খুঁজতে চাই) সঠিক উত্তর।"
+      "answer": 0,
+      "explanationBn": "아파트 = অ্যাপার্টমেন্ট। 주택 = বাড়ি, 원룸 = স্টুডিও।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'-고 싶다' দিয়ে সঠিকভাবে গঠিত বাক্য কোনটি?",
+      "questionKo": "알맞은 문장을 고르세요.",
       "options": [
-        "보증금",
-        "월세",
-        "관리비",
-        "전세"
+        "원룸에서 살고 해요.",
+        "원룸에서 살고 싶어요가.",
+        "원룸에서 살고 싶어요.",
+        "원룸 살고 싶어요가."
       ],
       "answer": 2,
-      "explanationBn": "청소비, 엘리베이터 사용료 등 매달 내는 돈은 '관리비' (রক্ষণাবেক্ষণ খরচ) 입니다."
+      "explanationBn": "ক্রিয়া + '-고 싶어요': 살고 싶어요।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "다음 대화의 빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'-지만' দিয়ে সঠিকভাবে গঠিত বাক্য কোনটি?",
+      "questionKo": "알맞은 문장을 고르세요.",
       "options": [
-        "시끄러워요",
-        "가까워요",
-        "멀어요",
-        "조용해요"
+        "월세가 비싸고지만 전망이 좋아요.",
+        "월세가 비싸지만 전망이 좋아요.",
+        "월세가 비싸서지만 전망이 좋아요.",
+        "월세가 비싸지 전망이 좋아요."
       ],
       "answer": 1,
-      "explanationBn": "걸어서 5분 걸린다고 했으므로 '가까워요' (কাছে) সঠিক উত্তর।"
+      "explanationBn": "বৈপরীত্যে '-지만' বসে: 비싸지만 (বেশি কিন্তু)।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "문법에 맞게 문장을 완성하십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'넓다' শব্দের বিপরীত শব্দ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "서명하면 돼요",
-        "서명할 수 있어요",
-        "서명하세요",
-        "서명했어요"
+        "깨끗하다",
+        "조용하다",
+        "편리하다",
+        "좁다"
       ],
-      "answer": 0,
-      "explanationBn": "계약서에 이름을 쓰는 조건을 충족하면 된다는 의미이므로 '서명하면 돼요' (স্বাক্ষর করলেই হবে) 가 적절합니다."
+      "answer": 3,
+      "explanationBn": "넓다 (প্রশস্ত)-এর বিপরীত 좁다 (সংকীর্ণ)।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'조용하다' শব্দের বিপরীত শব্দ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "우체국",
-        "은행",
-        "병원",
-        "부동산"
+        "넓다",
+        "깨끗하다",
+        "시끄럽다",
+        "편리하다"
       ],
-      "answer": 3,
-      "explanationBn": "방을 구하기 위해 가는 곳은 '부동산' (রিয়েল এস্টেট এজেন্সি) 입니다."
+      "answer": 2,
+      "explanationBn": "조용하다 (শান্ত)-এর বিপরীত 시끄럽다 (কোলাহলপূর্ণ)।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'월세' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "운동해요",
-        "요리해요",
-        "이사해요",
-        "청소해요"
+        "জামানত",
+        "মাসিক ভাড়া",
+        "চুক্তি",
+        "বাসা বদল"
       ],
-      "answer": 2,
-      "explanationBn": "새 집으로 짐을 옮기는 것은 '이사해요' (বাসা বদল করা) 입니다."
+      "answer": 1,
+      "explanationBn": "월세 = মাসিক ভাড়া। 보증금 = জামানত।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "৩য় পুরুষের ইচ্ছা বোঝাতে সঠিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "영수증",
-        "계약서",
-        "신분증",
-        "처방전"
+        "친구는 살고 싶어요.",
+        "친구는 살고 싶어요가.",
+        "친구는 살고 싶어 해요.",
+        "친구는 살고 해요."
       ],
-      "answer": 1,
-      "explanationBn": "집을 빌릴 때 쓰는 문서는 '계약서' (চুক্তিপত্র) 입니다."
+      "answer": 2,
+      "explanationBn": "৩য় পুরুষে '-고 싶어 하다' বসে: 살고 싶어 해요।"
     },
     {
       "id": "p8",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
-      "questionKo": "알맞은 것을 연결하십시오.",
-      "pairs": [
-        {
-          "left": "보증금",
-          "right": "জামানত"
-        },
-        {
-          "left": "월세",
-          "right": "মাসিক ভাড়া"
-        },
-        {
-          "left": "원룸",
-          "right": "স্টুডিও অ্যাপার্টমেন্ট"
-        },
-        {
-          "left": "옵션",
-          "right": "সুবিধা (আসবাবপত্র)"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'부동산' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": [
+        "বাসা",
+        "রিয়েল এস্টেট এজেন্সি",
+        "ব্যাংক",
+        "দোকান"
       ],
-      "explanationBn": "보증금 - জামানত, 월세 - মাসিক ভাড়া, 원룸 - স্টুডিও অ্যাপার্টমেন্ট, 옵션 - সুবিধা (আসবাবপত্র)।"
+      "answer": 1,
+      "explanationBn": "부동산 = রিয়েল এস্টেট এজেন্সি—বাসা খোঁজার জায়গা।"
     },
     {
       "id": "p9",
+      "type": "multiple-choice",
+      "questionBn": "'어디에서 살고 싶어요?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": [
+        "네, 살고 싶어요.",
+        "아파트에서 살고 싶어요.",
+        "아파트이에요.",
+        "좋아요."
+      ],
+      "answer": 1,
+      "explanationBn": "'어디에서' (কোথায়) প্রশ্নের উত্তরে জায়গা + 에서 살고 싶어요।"
+    },
+    {
+      "id": "p10",
+      "type": "fill-blank",
+      "questionBn": "'이사하다' + '-고 싶다' বসান: 이사___ 싶어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "하",
+        "하고",
+        "하여",
+        "하아"
+      ],
+      "answer": 1,
+      "explanationBn": "'이사하다' + '-고 싶다': 이사하고 싶어요।"
+    },
+    {
+      "id": "p11",
+      "type": "fill-blank",
+      "questionBn": "'깨끗하다' + '-지만' বসান: 깨끗___ 방이 좁아요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "하",
+        "하고",
+        "하지만",
+        "하여"
+      ],
+      "answer": 2,
+      "explanationBn": "'하다' ক্রিয়ায় '-지만' যুক্ত হয়: 깨끗하지만 (পরিষ্কার কিন্তু)।"
+    },
+    {
+      "id": "p12",
+      "type": "fill-blank",
+      "questionBn": "'보증금이 싼 집' বাক্যটি সম্পূর্ণ করুন: 보증금이 ___ 집을 구하고 싶어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "싼",
+        "싸",
+        "싼가",
+        "싸은"
+      ],
+      "answer": 0,
+      "explanationBn": "'싸다' + '-(으)ㄴ': 싼 (সস্তা)।"
+    },
+    {
+      "id": "p13",
+      "type": "fill-blank",
+      "questionBn": "'조용한 বাড়িতে থাকতে চাই' বাক্যটি সম্পূর্ণ করুন: ___ 주택에서 살고 싶어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "조용한",
+        "조용하",
+        "조용",
+        "조용하지만"
+      ],
+      "answer": 0,
+      "explanationBn": "'조용하다' + '-(으)ㄴ': 조용한 (শান্ত)।"
+    },
+    {
+      "id": "p14",
+      "type": "fill-blank",
+      "questionBn": "'বন্ধুর সাথে একসাথে' বাক্যটি সম্পূর্ণ করুন: 친구___ 같이 부동산에 가요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "을",
+        "이",
+        "에",
+        "하고"
+      ],
+      "answer": 3,
+      "explanationBn": "'N + 하고 같이' = সাথে একসাথে: 친구하고 같이।"
+    },
+    {
+      "id": "p15",
+      "type": "fill-blank",
+      "questionBn": "'교통 সুবিধাজনক' বাক্যটি সম্পূর্ণ করুন: 교통이 ___해요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "편리",
+        "불편",
+        "시끄러",
+        "조용"
+      ],
+      "answer": 0,
+      "explanationBn": "편리하다 = সুবিধাজনক: 교통이 편리해요।"
+    },
+    {
+      "id": "p16",
+      "type": "fill-blank",
+      "questionBn": "'전망' শব্দের অর্থ কী বসান: 전망이 ___요. (ভালো)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "좋",
+        "나쁘",
+        "많",
+        "적"
+      ],
+      "answer": 0,
+      "explanationBn": "전망 = দৃশ্য/ভিউ; '좋다' = ভালো: 전망이 좋아요।"
+    },
+    {
+      "id": "p17",
       "type": "matching",
-      "questionBn": "বিপরীত শব্দের জোড়া মিল করুন।",
-      "questionKo": "반대말을 연결하십시오.",
+      "questionBn": "বাসার ধরনের সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
-          "left": "가깝다",
-          "right": "멀다"
+          "left": "아파트",
+          "right": "অ্যাপার্টমেন্ট"
         },
         {
-          "left": "조용하다",
-          "right": "시끄럽다"
+          "left": "원룸",
+          "right": "স্টুডিও"
+        },
+        {
+          "left": "주택",
+          "right": "একক বাড়ি"
+        },
+        {
+          "left": "빌라",
+          "right": "ছোট অ্যাপার্ট"
+        },
+        {
+          "left": "고시원",
+          "right": "ছোট রুম"
+        }
+      ],
+      "explanationBn": "কোরিয়ায় 아파트 সবচেয়ে জনপ্রিয়—প্রায় ৫২% মানুষ থাকে।"
+    },
+    {
+      "id": "p18",
+      "type": "matching",
+      "questionBn": "পরিবেশের বিশেষণের সাথে বিপরীত শব্দ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "넓다",
+          "right": "좁다"
         },
         {
           "left": "깨끗하다",
           "right": "더럽다"
         },
         {
-          "left": "넓다",
-          "right": "좁다"
+          "left": "조용하다",
+          "right": "시끄럽다"
+        },
+        {
+          "left": "편리하다",
+          "right": "불편하다"
         }
       ],
-      "explanationBn": "가깝다 (কাছে) - 멀다 (দূরে), 조용하다 (শান্ত) - 시끄럽다 (কোলাহলপূর্ণ), 깨끗하다 (পরিষ্কার) - 더럽다 (নোংরা), 넓다 (প্রশস্ত) - 좁다 (সংকীর্ণ)।"
-    },
-    {
-      "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
-      "questionKo": "알맞은 것을 연결하십시오.",
-      "pairs": [
-        {
-          "left": "부동산",
-          "right": "রিয়েল এস্টেট এজেন্সি"
-        },
-        {
-          "left": "계약서",
-          "right": "চুক্তিপত্র"
-        },
-        {
-          "left": "이사하다",
-          "right": "বাসা বদল করা"
-        },
-        {
-          "left": "기숙사",
-          "right": "ডরমিটরি/ছাত্রাবাস"
-        }
-      ],
-      "explanationBn": "부동산 - রিয়েল এস্টেট এজেন্সি, 계약서 - চুক্তিপত্র, 이사하다 - বাসা বদল করা, 기숙사 - ডরমিটরি/ছাত্রাবাস।"
-    },
-    {
-      "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "화장실",
-        "부엌",
-        "거실",
-        "베란다"
-      ],
-      "answer": 1,
-      "explanationBn": "요리를 하는 곳은 '부엌' (রান্নাঘর) 입니다."
-    },
-    {
-      "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "계단",
-        "엘리베이터",
-        "주차장",
-        "창문"
-      ],
-      "answer": 2,
-      "explanationBn": "차를 세워두는 곳은 '주차장' (পার্কিং লট) 입니다."
-    },
-    {
-      "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "문법에 맞게 문장을 완성하십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "이사하기로 했어요",
-        "이사하면 돼요",
-        "이사할 수 있어요",
-        "이사하니까"
-      ],
-      "answer": 0,
-      "explanationBn": "결정을 나타내는 'V + 기로 하다' 문법을 사용하여 '이사하기로 했어요' (বাসা বদল করার সিদ্ধান্ত নিয়েছি) 가 적절합니다."
-    },
-    {
-      "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "문법에 맞게 문장을 완성하십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "가까우니까",
-        "가깝기로 했어요",
-        "가까우면 돼요",
-        "가까울 수 있어요"
-      ],
-      "answer": 0,
-      "explanationBn": "이유를 나타내는 'V/A + (으)니까' 문법을 사용하여 '가까우니까' (কাছে হওয়ায়) 가 적절합니다."
-    },
-    {
-      "id": "p15",
-      "type": "multiple-choice",
-      "questionBn": "다음 대화의 빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "집주인",
-        "부동산 중개인",
-        "이삿짐센터",
-        "편의시설"
-      ],
-      "answer": 1,
-      "explanationBn": "집을 구할 때 도와주는 사람은 '부동산 중개인' (রিয়েল এস্টেট এজেন্ট) 입니다."
-    },
-    {
-      "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "창문",
-        "베란다",
-        "침실",
-        "거실"
-      ],
-      "answer": 0,
-      "explanationBn": "환기를 위해 여는 것은 '창문' (জানালা) 입니다."
-    },
-    {
-      "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "이삿짐",
-        "보증금",
-        "월세",
-        "관리비"
-      ],
-      "answer": 0,
-      "explanationBn": "이사할 때 싸는 짐은 '이삿짐' (বাসা বদলের জিনিসপত্র) 입니다."
-    },
-    {
-      "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "엘리베이터",
-        "계단",
-        "주차장",
-        "화장실"
-      ],
-      "answer": 0,
-      "explanationBn": "높은 층으로 올라갈 때 타는 것은 '엘리베이터' (লিফট) 입니다."
+      "explanationBn": "প্রতিটি জোড়া বিপরীত অর্থ বোঝায়।"
     },
     {
       "id": "p19",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "집주인",
-        "이삿짐센터",
-        "부동산",
-        "편의시설"
+      "type": "matching",
+      "questionBn": "বাসা খোঁজার ক্রিয়ার সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "집을 알아보다",
+          "right": "বাসা খুঁজে দেখা"
+        },
+        {
+          "left": "집을 보다",
+          "right": "বাসা পরিদর্শন"
+        },
+        {
+          "left": "이사하다",
+          "right": "বাসা বদলানো"
+        },
+        {
+          "left": "계약하다",
+          "right": "চুক্তি করা"
+        }
       ],
-      "answer": 0,
-      "explanationBn": "집을 소유하고 있는 사람은 '집주인' (বাড়ির মালিক) 입니다."
+      "explanationBn": "부동산에서 이 모든 단계 হয়।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "단어와 알맞은 뜻을 연결하십시오.",
-      "questionKo": "알맞은 것을 연결하십시오.",
+      "questionBn": "বৈপরীত্যের সাথে ফলাফল মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
-          "left": "부엌",
-          "right": "রান্নাঘর"
+          "left": "월세가 비싸지만",
+          "right": "전망이 좋아요"
         },
         {
-          "left": "화장실",
-          "right": "বাথরুম/টয়লেট"
+          "left": "방은 좁지만",
+          "right": "월세가 싸요"
         },
         {
-          "left": "거실",
-          "right": "বসার ঘর"
+          "left": "일요일이지만",
+          "right": "출근해야 돼요"
         },
         {
-          "left": "침실",
-          "right": "শোবার ঘর"
+          "left": "조용하지만",
+          "right": "교통이 불편해요"
         }
       ],
-      "explanationBn": "부엌 - রান্নাঘর, 화장실 - বাথরুম/টয়লেট, 거실 - বসার ঘর, 침실 - শোবার ঘর।"
+      "explanationBn": "'-지만' দুই বাক্যের মধ্যে বৈপরীত্য বোঝায়।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "가: 방을 구하려고 하는데요.\n나: 네, 어떤 방을 찾으세요?\n가: 회사에서 가깝고 ( )이/가 있는 방이면 좋겠어요. 침대와 책상이 필요해요.",
+      "questionBn": "'조용하다' শব্দের বিপরীত শব্দ কোনটি?",
+      "questionKo": "다음 단어의 반대말은 무엇입니까?",
       "options": [
-        "관리비",
-        "보증금",
-        "옵션",
-        "계약서"
+        "시끄럽다",
+        "크다",
+        "나쁘다",
+        "부족하다"
       ],
-      "answer": 2,
-      "explanationBn": "침대와 책상 같은 가구가 포함된 방을 원하므로 '옵션' (সুবিধা/আসবাবপত্র) 이 알맞습니다."
+      "answer": 0,
+      "explanationBn": "조용하다 (শান্ত)-এর বিপরীত 시끄럽다 (কোলাহলপূর্ণ)।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "가: 이 방은 한 달에 얼마예요?\n나: 보증금 300만 원에 ( ) 30만 원이에요.",
+      "questionBn": "'넓다' শব্দের বিপরীত শব্দ কোনটি?",
+      "questionKo": "다음 단어의 반대말은 무엇입니까?",
       "options": [
-        "전세",
-        "이사",
-        "관리비",
-        "월세"
+        "많다",
+        "좁다",
+        "깨끗하다",
+        "불편하다"
       ],
-      "answer": 3,
-      "explanationBn": "한 달에 내는 방세는 '월세' (মাসিক ভাড়া) 입니다."
+      "answer": 1,
+      "explanationBn": "넓다 (প্রশস্ত)-এর বিপরীত 좁다 (সংকীর্ণ)।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "가: 계약을 하고 싶은데 어떻게 해야 해요?\n나: 여기 ( )에 서명하시면 됩니다.",
+      "questionBn": "শূন্যস্থানে সঠিক ক্রিয়াটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "다음 달에 원룸 계약이 끝납니다. 그래서 부동산에 가서 집을 ___.",
       "options": [
-        "계약서",
-        "통장",
-        "영수증",
-        "신분증"
+        "알아봐야 합니다",
+        "소개해야 합니다",
+        "청소해야 합니다",
+        "정리해야 합니다"
       ],
       "answer": 0,
-      "explanationBn": "계약을 할 때 서명하는 문서는 '계약서' (চুক্তিপত্র) 입니다."
+      "explanationBn": "চুক্তি শেষ হলে নতুন বাসা খুঁজতে হবে—'알아보다' (খুঁজে দেখা)।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "이 글의 내용과 같은 것을 고르십시오.",
-      "questionKo": "이 글의 내용과 같은 것을 고르십시오.",
-      "passage": "저는 다음 주에 이사를 합니다. 지금 사는 기숙사는 회사에서 가깝지만 너무 시끄럽습니다. 그래서 회사 근처에 있는 조용한 원룸을 구했습니다. 보증금은 조금 비싸지만 방이 깨끗해서 마음에 듭니다.",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "집에서 지하철역이 가깝습니다. 그리고 편의 시설도 많아서 ___.",
       "options": [
-        "이 사람은 지금 원룸에 살고 있습니다.",
-        "새로 구한 방은 깨끗합니다.",
-        "지금 사는 곳은 조용합니다.",
-        "새로 구한 방은 회사에서 멉니다."
+        "바쁩니다",
+        "편리합니다",
+        "시원합니다",
+        "춥습니다"
       ],
       "answer": 1,
-      "explanationBn": "글에서 '방이 깨끗해서 마음에 듭니다'라고 했으므로 4번이 정답입니다."
+      "explanationBn": "কাছাকাছি স্টেশন ও সুবিধা থাকলে সুবিধাজনক (편리합니다)।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "방을 계약할 때는 먼저 방을 꼼꼼히 확인해야 합니다. 물이 잘 나오는지, 난방이 잘 되는지 봐야 합니다. 그리고 계약서를 쓸 때는 ( )을/를 잘 확인해야 합니다.",
+      "questionBn": "কোরিয়ার বাসার ধরন সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국에서는 아파트 거주 비율이 51.9%로 전체 가구의 절반이 넘습니다. 아파트는 생활이 편리하고 보안 시스템이 잘 갖추어져 있어 많은 사람들이 좋아합니다.",
       "options": [
-        "친구와 가족",
-        "교통과 식당",
-        "보증금과 월세",
-        "가구와 가전제품"
+        "한국에서 주택에 사는 사람이 가장 많습니다.",
+        "아파트는 보안 시스템이 없습니다.",
+        "한국 사람들은 아파트를 안 좋아합니다.",
+        "한국에서 아파트에 사는 사람이 절반이 넘습니다."
       ],
-      "answer": 2,
-      "explanationBn": "계약서를 쓸 때 가장 중요하게 확인해야 할 것은 돈과 관련된 '보증금과 월세' 입니다."
+      "answer": 3,
+      "explanationBn": "লেখানুযায়ী ৫১.৯% মানুষ অ্যাপার্টমেন্টে থাকে—অর্ধেকের বেশি।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 어떤 방을 찾으세요?\n남자: 보증금 500만 원에 월세 40만 원 정도인 원룸을 찾고 있어요.",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক সংযোজকটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "월세가 비싸___ 전망이 좋아요.",
       "options": [
-        "남자는 월세 500만 원을 원합니다.",
-        "남자는 보증금 40만 원을 원합니다.",
-        "남자는 전세 방을 찾고 있습니다.",
-        "남자는 원룸을 찾고 있습니다."
+        "고",
+        "지만",
+        "서",
+        "면"
       ],
-      "answer": 3,
-      "explanationBn": "남자는 '원룸을 찾고 있어요'라고 말했으므로 4번이 정답입니다."
+      "answer": 1,
+      "explanationBn": "বৈপরীত্যে '-지만' বসে: 비싸지만 (বেশি কিন্তু)।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "남자: 이 방은 관리비가 얼마예요?",
+      "section": "reading",
+      "questionBn": "'-고 싶다' সঠিক কোন বাক্যটি?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "한 달에 5만 원이에요.",
-        "방이 아주 깨끗해요.",
-        "회사에서 가까워요.",
-        "내일 이사할 거예요."
+        "원룸에서 살고 싶어요가.",
+        "원룸을 살고 싶어요.",
+        "원룸에서 살고 싶어요.",
+        "원룸에서 살 싶어요."
       ],
-      "answer": 0,
-      "explanationBn": "관리비가 얼마인지 물었으므로 금액을 대답한 '한 달에 5만 원이에요'가 알맞습니다."
+      "answer": 2,
+      "explanationBn": "'살다' + '-고 싶다': 살고 싶어요; জায়গা + 에서।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
-      "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
-      "passage": "남자: 수루 씨, 이사했어요?\n여자: 네, 어제 이사했어요.\n남자: 새 집은 어때요?\n여자: 회사에서 가깝고 조용해서 좋아요. 그런데 방이 조금 좁아요.",
+      "section": "reading",
+      "questionBn": "'원룸' শব্দটি কোন বিভাগের?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "원룸",
       "options": [
-        "회사에서 멉니다.",
-        "회사에서 가깝습니다.",
-        "조금 시끄럽습니다.",
-        "방이 넓습니다."
+        "교통",
+        "주거",
+        "음식",
+        "직업"
       ],
       "answer": 1,
-      "explanationBn": "여자가 '회사에서 가깝고 조용해서 좋아요'라고 했으므로 4번이 정답입니다."
+      "explanationBn": "'원룸' (স্টুডিও) একটি 주거 (বাসস্থান)-সংক্রান্ত শব্দ।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 물음에 답하십시오.",
-      "questionKo": "다음 글을 읽고 물음에 답하십시오.",
-      "passage": "저는 내일 이사를 합니다. 그래서 오늘 이삿짐을 다 쌌습니다. 새 집은 지금 사는 곳보다 넓고 깨끗합니다. 그리고 회사에서 가까워서 걸어서 갈 수 있습니다.",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "이 원룸은 방이 ___네요. (ছোট)",
       "options": [
-        "이 사람은 오늘 이사를 합니다.",
-        "새 집은 지금 사는 곳보다 좁습니다.",
-        "새 집은 회사에서 멉니다.",
-        "이 사람은 내일 이사를 합니다."
+        "넓",
+        "좁",
+        "깨끗",
+        "조용"
       ],
-      "answer": 3,
-      "explanationBn": "글에서 '저는 내일 이사를 합니다'라고 했으므로 4번이 정답입니다."
+      "answer": 1,
+      "explanationBn": "좁다 = সংকীর্ণ: 방이 좁네요 (ঘর ছোট তো)।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "방을 구할 때는 ( )을/를 잘 확인해야 합니다. 지하철역이나 버스 정류장이 가까운지 알아보는 것이 좋습니다.",
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "칼로 씨는 원룸을 알아보고 있습니다. 월세가 오십만 원이에요. 비싸지만 깨끗하고 편리해요.",
       "options": [
-        "교통",
-        "옵션",
-        "관리비",
-        "보증금"
+        "원룸이 깨끗하고 편리해요.",
+        "월세가 싸요.",
+        "원룸이 더러워요.",
+        "월세가 십만 원이에요."
       ],
       "answer": 0,
-      "explanationBn": "지하철역이나 버스 정류장과 관련된 것은 '교통' (যাতায়াত) 입니다."
+      "explanationBn": "লেখানুযায়ী ভাড়া ৫ লক্ষ ওন, বেশি কিন্তু পরিষ্কার ও সুবিধাজনক।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음 표지판의 의미로 알맞은 것을 고르십시오.",
-      "questionKo": "다음 표지판의 의미로 알맞은 것을 고르십시오.",
-      "passage": "[주차 금지]",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কোথায় থাকতে চান?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 어디에서 살고 싶어요?\n여자: 아파트에서 살고 싶어요.",
       "options": [
-        "여기에 차를 세우면 안 됩니다.",
-        "여기에 쓰레기를 버리면 안 됩니다.",
-        "여기에서 담배를 피우면 안 됩니다.",
-        "여기에서 사진을 찍으면 안 됩니다."
+        "원룸",
+        "아파트",
+        "주택",
+        "고시원"
       ],
-      "answer": 0,
-      "explanationBn": "'주차 금지'는 차를 세우면 안 된다는 뜻이므로 1번이 정답입니다."
+      "answer": 1,
+      "explanationBn": "মহিলা বলেছেন '아파트에서 살고 싶어요'—অ্যাপার্টমেন্টে থাকতে চান।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 방에 침대와 책상이 있어요?\n나: 네, 이 방은 ( )이라서 가구가 다 있어요.",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: কেন বাসা বদলাতে চান?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 왜 이사하고 싶어요?\n여자: 월세가 비싸서 이사하고 싶어요.",
       "options": [
-        "원룸",
-        "풀옵션",
-        "기숙사",
-        "부동산"
+        "방이 좁아서",
+        "교통이 불편해서",
+        "방이 더러워서",
+        "월세가 비싸서"
       ],
-      "answer": 1,
-      "explanationBn": "가구가 다 갖춰져 있는 방을 '풀옵션' (সম্পূর্ণ আসবাবপত্র সহ) 이라고 합니다."
+      "answer": 3,
+      "explanationBn": "মহিলা বলেছেন ভাড়া বেশি (월세가 비싸서) বলে বাসা বদলাতে চান।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "우리 집은 5층에 있습니다. 그런데 엘리베이터가 없어서 매일 계단으로 올라가야 합니다. 조금 힘들지만 운동이 돼서 좋습니다.",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: বাসাটি কেমন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 이 원룸은 어때요?\n여자: 깨끗하지만 방이 좁아요.",
       "options": [
-        "이 집에는 엘리베이터가 있습니다.",
-        "이 사람은 매일 계단으로 올라갑니다.",
-        "이 사람은 운동을 싫어합니다.",
-        "이 집은 1층에 있습니다."
+        "넓고 깨끗해요",
+        "크고 편리해요",
+        "깨끗하지만 좁아요",
+        "시끄러워요"
       ],
-      "answer": 1,
-      "explanationBn": "글에서 '매일 계단으로 올라가야 합니다'라고 했으므로 2번이 정답입니다."
+      "answer": 2,
+      "explanationBn": "মহিলা বলেছেন পরিষ্কার কিন্তু ঘর ছোট (깨끗하지만 좁아요)।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে বাছাই করুন: কোন সুবিধা কাছাকাছি?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 이삿짐센터지요? 내일 이사를 하려고 하는데요.\n남자: 네, 짐이 얼마나 되나요?",
+      "passage": "여자: 근처에 뭐가 있어요?\n남자: 지하철역이 가까워요. 그리고 편의 시설도 많아요.",
       "options": [
-        "여자는 오늘 이사를 합니다.",
-        "여자는 부동산에 전화했습니다.",
-        "여자는 내일 이사를 하려고 합니다.",
-        "남자는 이삿짐을 싸고 있습니다."
+        "시장",
+        "공항",
+        "병원",
+        "지하철역"
       ],
-      "answer": 2,
-      "explanationBn": "여자가 '내일 이사를 하려고 하는데요'라고 말했으므로 3번이 정답입니다."
+      "answer": 3,
+      "explanationBn": "পুরুষ বলেছেন সাবওয়ে স্টেশন (지하철역) কাছে এবং সুবিধা অনেক।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "남자: 방을 구할 때 무엇이 제일 중요해요?",
+      "questionBn": "শুনে বাছাই করুন: পুরুষ কী করতে চান?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 이번 주말에 뭐 할 거예요?\n남자: 부동산에 가서 집을 알아볼 거예요.",
       "options": [
-        "회사에서 가까우면 좋겠어요.",
-        "내일 이사하기로 했어요.",
-        "보증금이 너무 비싸요.",
-        "방이 아주 깨끗해요."
+        "부동산에 갈 거예요",
+        "이사할 거예요",
+        "계약할 거예요",
+        "쉴 거예요"
       ],
       "answer": 0,
-      "explanationBn": "무엇이 제일 중요한지 물었으므로 조건이나 희망 사항을 말한 '회사에서 가까우면 좋겠어요'가 알맞습니다."
+      "explanationBn": "পুরুষ বলেছেন এজেন্সিতে গিয়ে বাসা খুঁজবেন (부동산에 가서 집을 알아볼 거예요)।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
-      "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
-      "passage": "남자: 수루 씨, 새 집은 어때요?\n여자: 방도 넓고 깨끗해서 좋아요. 그런데 주변에 편의시설이 없어서 조금 불편해요.",
+      "questionBn": "শুনে বাছাই করুন: বাসার ভাড়া কত?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 월세가 얼마예요?\n여자: 오십만 원이에요.",
       "options": [
-        "방이 좁습니다.",
-        "방이 더럽습니다.",
-        "주변에 편의시설이 많습니다.",
-        "주변에 편의시설이 없습니다."
+        "오십만 원",
+        "십만 원",
+        "이십만 원",
+        "백만 원"
       ],
-      "answer": 3,
-      "explanationBn": "여자가 '주변에 편의시설이 없어서 조금 불편해요'라고 했으므로 4번이 정답입니다."
+      "answer": 0,
+      "explanationBn": "মহিলা বলেছেন '오십만 원'—৫ লক্ষ ওন।"
     }
   ]
 }
