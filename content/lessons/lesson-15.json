@@ -2,7 +2,7 @@
   "chapter": 15,
   "slug": "clothing",
   "title": {
-    "ko": "옷",
+    "ko": "옷차림",
     "bn": "পোশাক",
     "en": "Clothing"
   },
@@ -10,55 +10,57 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "পোশাক এবং আনুষাঙ্গিক সম্পর্কিত শব্দভাণ্ডার শেখা",
-      "পোশাক পরা এবং খোলার ক্রিয়াগুলি ব্যবহার করতে শেখা",
-      "দোকানে পোশাক কেনাকাটা করার সময় কথোপকথন করতে শেখা"
+      "পোশাক সম্পর্কে জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "জিনিসের রং বলতে পারা",
+      "অবস্থা বোঝাতে -고 있다 ব্যবহার করতে পারা",
+      "কোরিয়ার ঐতিহ্যবাহী পোশাক (한복) সম্পর্কে জানা"
     ],
     "en": [
-      "Learn vocabulary related to clothing and accessories",
-      "Learn verbs for putting on and taking off clothes",
-      "Learn how to converse when shopping for clothes at a store"
+      "Being able to ask and answer questions about clothing",
+      "Being able to talk about the color of objects",
+      "Being able to describe states with -고 있다",
+      "Knowing about Korea's traditional clothing (hanbok)"
     ]
   },
   "vocabulary": [
     {
-      "ko": "옷",
-      "romanization": "ot",
-      "bn": "পোশাক",
-      "en": "clothes",
-      "pos": "noun",
+      "ko": "입다",
+      "romanization": "ipda",
+      "bn": "পরা (কাপড়)",
+      "en": "to wear (clothes)",
+      "pos": "verb",
       "example": {
-        "ko": "새 옷을 샀어요.",
-        "bn": "আমি নতুন পোশাক কিনেছি।",
-        "en": "I bought new clothes."
+        "ko": "셔츠를 입어요.",
+        "bn": "শার্ট পরি।",
+        "en": "I wear a shirt."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'입어요' [ইবায়ো]—ㅂ+ㅇ মিলে 'বা' শোনায়।"
     },
     {
-      "ko": "바지",
-      "romanization": "baji",
-      "bn": "প্যান্ট",
-      "en": "pants",
-      "pos": "noun",
+      "ko": "신다",
+      "romanization": "sinda",
+      "bn": "পরা (জুতা)",
+      "en": "to wear (shoes, socks)",
+      "pos": "verb",
       "example": {
-        "ko": "이 바지는 너무 길어요.",
-        "bn": "এই প্যান্টটি খুব লম্বা।",
-        "en": "These pants are too long."
+        "ko": "운동화를 신어요.",
+        "bn": "স্নিকার্স পরি।",
+        "en": "I wear sneakers."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'신어요' [শিনায়ো]—ㄴ+ㅇ মিলে 'না' শোনায়।"
     },
     {
-      "ko": "치마",
-      "romanization": "chima",
-      "bn": "স্কার্ট",
-      "en": "skirt",
-      "pos": "noun",
+      "ko": "쓰다",
+      "romanization": "sseuda",
+      "bn": "পরা (মাথায়/চশমা)",
+      "en": "to wear (on the head; glasses)",
+      "pos": "verb",
       "example": {
-        "ko": "치마가 예뻐요.",
-        "bn": "স্কার্টটি সুন্দর।",
-        "en": "The skirt is pretty."
+        "ko": "모자를 써요.",
+        "bn": "টুপি পরি।",
+        "en": "I wear a cap."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'써요' [স্সয়ো]—ㅆ জোড়া 'স্স' শক্ত করে।"
     },
     {
       "ko": "티셔츠",
@@ -67,63 +69,128 @@
       "en": "T-shirt",
       "pos": "noun",
       "example": {
-        "ko": "여름에는 티셔츠를 입어요.",
-        "bn": "গ্রীষ্মকালে আমি টি-শার্ট পরি।",
-        "en": "I wear T-shirts in summer."
+        "ko": "노란색 티셔츠를 입고 있어요.",
+        "bn": "হলুদ টি-শার্ট পরে আছি।",
+        "en": "I am wearing a yellow T-shirt."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "ইংরেজি 'T-shirt'-এর কোরীয় রূপ—'티셔츠' [থিস্যোছু]।"
     },
     {
-      "ko": "외투",
-      "romanization": "oetu",
-      "bn": "ওভারকোট/জ্যাকেট",
-      "en": "coat/outerwear",
+      "ko": "잠바/점퍼",
+      "romanization": "jamba/jeompeo",
+      "bn": "জ্যাকেট",
+      "en": "jacket",
       "pos": "noun",
       "example": {
-        "ko": "겨울에는 외투가 필요해요.",
-        "bn": "শীতকালে ওভারকোট প্রয়োজন।",
-        "en": "You need a coat in winter."
+        "ko": "따뜻한 잠바를 입어요.",
+        "bn": "গরম জ্যাকেট পরি।",
+        "en": "I wear a warm jacket."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'잠바' [জামবা]; '점퍼' [জম্প]—ইংরেজি 'jumper'-এর রূপ।"
     },
     {
-      "ko": "신발",
-      "romanization": "sinbal",
-      "bn": "জুতো",
-      "en": "shoes",
+      "ko": "청바지",
+      "romanization": "cheongbaji",
+      "bn": "জিন্স",
+      "en": "jeans",
       "pos": "noun",
       "example": {
-        "ko": "신발이 작아요.",
-        "bn": "জুতো ছোট।",
-        "en": "The shoes are small."
+        "ko": "청바지를 입고 있어요.",
+        "bn": "জিন্স পরে আছি।",
+        "en": "I am wearing jeans."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'청바지' [ছঙবাজি]—ㅊ শক্ত 'ছ' দিয়ে শুরু করুন।"
+    },
+    {
+      "ko": "원피스",
+      "romanization": "wonpiseu",
+      "bn": "ড্রেস/ফ্রক",
+      "en": "dress; one-piece",
+      "pos": "noun",
+      "example": {
+        "ko": "파란색 원피스를 입어요.",
+        "bn": "নীল ড্রেস পরি।",
+        "en": "I wear a blue dress."
+      },
+      "pronunciationTipBn": "ইংরেজি 'one-piece'-এর কোরীয় রূপ—'원피스' [ওয়নফিসু]।"
+    },
+    {
+      "ko": "치마",
+      "romanization": "chima",
+      "bn": "স্কার্ট",
+      "en": "skirt",
+      "pos": "noun",
+      "example": {
+        "ko": "노란색 치마가 예쁘네요.",
+        "bn": "হলুদ স্কার্ট সুন্দর তো।",
+        "en": "The yellow skirt is pretty."
+      },
+      "pronunciationTipBn": "'치마' [ছিমা]—ㅊ শক্ত 'ছি' দিয়ে শুরু করুন।"
+    },
+    {
+      "ko": "반바지",
+      "romanization": "banbaji",
+      "bn": "শর্টস",
+      "en": "shorts",
+      "pos": "noun",
+      "example": {
+        "ko": "여름에는 반바지를 입어요.",
+        "bn": "গ্রীষ্মে শর্টস পরি।",
+        "en": "I wear shorts in summer."
+      },
+      "pronunciationTipBn": "'반바지' [বানবাজি]—'반' (অর্ধেক) + '바지' (প্যান্ট)।"
+    },
+    {
+      "ko": "셔츠",
+      "romanization": "syeocheu",
+      "bn": "শার্ট",
+      "en": "shirt",
+      "pos": "noun",
+      "example": {
+        "ko": "하얀색 셔츠를 입어요.",
+        "bn": "সাদা শার্ট পরি।",
+        "en": "I wear a white shirt."
+      },
+      "pronunciationTipBn": "ইংরেজি 'shirt'-এর কোরীয় রূপ—'셔츠' [স্যোছু]।"
     },
     {
       "ko": "운동화",
       "romanization": "undonghwa",
-      "bn": "স্নিকার্স/কেডস",
+      "bn": "স্নিকার্স",
       "en": "sneakers",
       "pos": "noun",
       "example": {
-        "ko": "운동화를 신고 운동해요.",
-        "bn": "স্নিকার্স পরে ব্যায়াম করি।",
-        "en": "I exercise wearing sneakers."
+        "ko": "초록색 운동화를 신어요.",
+        "bn": "সবুজ স্নিকার্স পরি।",
+        "en": "I wear green sneakers."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'운동화' [উন্দংহোয়া]—운동 (ব্যায়াম) + 화 (জুতা)।"
+    },
+    {
+      "ko": "슬리퍼",
+      "romanization": "seullipeo",
+      "bn": "চপ্পল",
+      "en": "slippers",
+      "pos": "noun",
+      "example": {
+        "ko": "집에서 슬리퍼를 신어요.",
+        "bn": "বাড়িতে চপ্পল পরি।",
+        "en": "I wear slippers at home."
+      },
+      "pronunciationTipBn": "ইংরেজি 'slipper'-এর কোরীয় রূপ—'슬리퍼' [সুল্লিফ]।"
     },
     {
       "ko": "구두",
       "romanization": "gudu",
-      "bn": "চামড়ার জুতো",
+      "bn": "ফরমাল জুতা",
       "en": "dress shoes",
       "pos": "noun",
       "example": {
-        "ko": "회사에 갈 때 구두를 신어요.",
-        "bn": "অফিসে যাওয়ার সময় চামড়ার জুতো পরি।",
-        "en": "I wear dress shoes when going to the office."
+        "ko": "결혼식에 구두를 신어요.",
+        "bn": "বিয়েতে ফরমাল জুতা পরি।",
+        "en": "I wear dress shoes to the wedding."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'구두' [গুদু]—ㄷ এখানে নরম 'দ' শোনায়।"
     },
     {
       "ko": "양말",
@@ -132,517 +199,507 @@
       "en": "socks",
       "pos": "noun",
       "example": {
-        "ko": "양말을 신어요.",
-        "bn": "আমি মোজা পরি।",
-        "en": "I put on socks."
+        "ko": "하얀색 양말을 신어요.",
+        "bn": "সাদা মোজা পরি।",
+        "en": "I wear white socks."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'양말' [য়াংমাল]—'양' নাকিধ্বনি 'ং' সহ।"
+    },
+    {
+      "ko": "장화",
+      "romanization": "janghwa",
+      "bn": "রেইন বুট",
+      "en": "rain boots",
+      "pos": "noun",
+      "example": {
+        "ko": "비가 와서 장화를 신어요.",
+        "bn": "বৃষ্টি হওয়ায় রেইন বুট পরি।",
+        "en": "I wear rain boots because it rains."
+      },
+      "pronunciationTipBn": "'장화' [জাংহোয়া]—'장' নাকিধ্বনি 'ং' সহ।"
     },
     {
       "ko": "모자",
       "romanization": "moja",
       "bn": "টুপি",
-      "en": "hat/cap",
+      "en": "cap; hat",
       "pos": "noun",
       "example": {
-        "ko": "모자를 써요.",
-        "bn": "আমি টুপি পরি।",
-        "en": "I wear a hat."
+        "ko": "모자를 쓰고 있어요.",
+        "bn": "টুপি পরে আছি।",
+        "en": "I am wearing a cap."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'모자' [মোজা]—ㅈ নরম 'জা' শোনায়।"
     },
     {
-      "ko": "안경",
-      "romanization": "angyeong",
-      "bn": "চশমা",
-      "en": "glasses",
+      "ko": "선글라스",
+      "romanization": "seongeullaseu",
+      "bn": "সানগ্লাস",
+      "en": "sunglasses",
       "pos": "noun",
       "example": {
-        "ko": "안경을 썼어요.",
-        "bn": "আমি চশমা পরেছি।",
-        "en": "I put on glasses."
+        "ko": "선글라스를 쓰고 있어요.",
+        "bn": "সানগ্লাস পরে আছি।",
+        "en": "I am wearing sunglasses."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "ইংরেজি 'sunglasses'-এর কোরীয় রূপ—'선글라스' [সনগুল্লাসু]।"
     },
     {
-      "ko": "가방",
-      "romanization": "gabang",
-      "bn": "ব্যাগ",
-      "en": "bag",
+      "ko": "빨간색",
+      "romanization": "ppalgansaek",
+      "bn": "লাল",
+      "en": "red",
       "pos": "noun",
       "example": {
-        "ko": "가방이 무거워요.",
-        "bn": "ব্যাগটি ভারী।",
-        "en": "The bag is heavy."
+        "ko": "모자가 빨간색이에요?",
+        "bn": "টুপিটা কি লাল?",
+        "en": "Is the cap red?"
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'빨간' [প্পালগান]—জোড়া ㅃ শক্ত করে; '색' রং।"
     },
     {
-      "ko": "입다",
-      "romanization": "ipta",
-      "bn": "পরা (পোশাক)",
-      "en": "to wear (clothes)",
-      "pos": "verb",
-      "example": {
-        "ko": "바지를 입어요.",
-        "bn": "আমি প্যান্ট পরি।",
-        "en": "I wear pants."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "신다",
-      "romanization": "sinda",
-      "bn": "পরা (জুতো/মোজা)",
-      "en": "to wear (shoes/socks)",
-      "pos": "verb",
-      "example": {
-        "ko": "신발을 신어요.",
-        "bn": "আমি জুতো পরি।",
-        "en": "I put on shoes."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "쓰다",
-      "romanization": "sseuda",
-      "bn": "পরা (টুপি/চশমা)",
-      "en": "to wear (hat/glasses)",
-      "pos": "verb",
-      "example": {
-        "ko": "모자를 써요.",
-        "bn": "আমি টুপি পরি।",
-        "en": "I wear a hat."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "벗다",
-      "romanization": "beotda",
-      "bn": "খোলা (পোশাক/জুতো)",
-      "en": "to take off (clothes/shoes)",
-      "pos": "verb",
-      "example": {
-        "ko": "방에 들어갈 때 신발을 벗어요.",
-        "bn": "রুমে ঢোকার সময় জুতো খুলি।",
-        "en": "I take off my shoes when entering the room."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "사이즈",
-      "romanization": "saijeu",
-      "bn": "মাপ/সাইজ",
-      "en": "size",
+      "ko": "주황색",
+      "romanization": "juhwangsaek",
+      "bn": "কমলা (রং)",
+      "en": "orange (color)",
       "pos": "noun",
       "example": {
-        "ko": "사이즈가 어떻게 되세요?",
-        "bn": "আপনার সাইজ কত?",
-        "en": "What is your size?"
+        "ko": "주황색 바지를 샀어요.",
+        "bn": "কমলা প্যান্ট কিনেছি।",
+        "en": "I bought orange pants."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'주황' [জুহোয়াং]—'황' বলতে 'ㅘ' মিলিয়ে 'হোয়া'।"
     },
     {
-      "ko": "작다",
-      "romanization": "jakda",
-      "bn": "ছোট",
-      "en": "small",
+      "ko": "노란색",
+      "romanization": "noransaek",
+      "bn": "হলুদ",
+      "en": "yellow",
+      "pos": "noun",
+      "example": {
+        "ko": "노란색 치마가 예뻐요.",
+        "bn": "হলুদ স্কার্ট সুন্দর।",
+        "en": "The yellow skirt is pretty."
+      },
+      "pronunciationTipBn": "'노란' [নোরান]—ㄹ বত্ছিমের পরে ㅇ মিলে 'রা'।"
+    },
+    {
+      "ko": "초록색",
+      "romanization": "choroksaek",
+      "bn": "সবুজ",
+      "en": "green",
+      "pos": "noun",
+      "example": {
+        "ko": "초록색 운동화는 어때요?",
+        "bn": "সবুজ স্নিকার্স কেমন?",
+        "en": "How are the green sneakers?"
+      },
+      "pronunciationTipBn": "'초록' [ছোরোক্]—ㅊ শক্ত 'ছো' দিয়ে শুরু করুন।"
+    },
+    {
+      "ko": "하늘색",
+      "romanization": "haneulsaek",
+      "bn": "আকাশি",
+      "en": "sky blue",
+      "pos": "noun",
+      "example": {
+        "ko": "하늘색 셔츠를 좋아해요.",
+        "bn": "আকাশি শার্ট পছন্দ করি।",
+        "en": "I like the sky-blue shirt."
+      },
+      "pronunciationTipBn": "'하늘' [হানুল]—'하늘' মানে আকাশ; '색' রং।"
+    },
+    {
+      "ko": "파란색",
+      "romanization": "paransaek",
+      "bn": "নীল",
+      "en": "blue",
+      "pos": "noun",
+      "example": {
+        "ko": "파란색 원피스는 어때요?",
+        "bn": "নীল ড্রেস কেমন?",
+        "en": "How about the blue dress?"
+      },
+      "pronunciationTipBn": "'파란' [ফারান]—ㅍ ঝোঁড়া 'ফা' দিয়ে শুরু করুন।"
+    },
+    {
+      "ko": "보라색",
+      "romanization": "borasaek",
+      "bn": "বেগুনি",
+      "en": "purple; violet",
+      "pos": "noun",
+      "example": {
+        "ko": "보라색 모자를 써요.",
+        "bn": "বেগুনি টুপি পরি।",
+        "en": "I wear a purple cap."
+      },
+      "pronunciationTipBn": "'보라' [বোরা]—ㅂ নরম 'বো', ㄹ নরম 'রা'।"
+    },
+    {
+      "ko": "분홍색",
+      "romanization": "bunhongsaek",
+      "bn": "গোলাপি",
+      "en": "pink",
+      "pos": "noun",
+      "example": {
+        "ko": "분홍색 옷을 입어요.",
+        "bn": "গোলাপি কাপড় পরি।",
+        "en": "I wear pink clothes."
+      },
+      "pronunciationTipBn": "'분홍' [বুনহং]—দুটোই নাকিধ্বনি 'ㅇ' সহ।"
+    },
+    {
+      "ko": "회색",
+      "romanization": "hoesaek",
+      "bn": "ধূসর",
+      "en": "gray",
+      "pos": "noun",
+      "example": {
+        "ko": "회색 잠바를 입어요.",
+        "bn": "ধূসর জ্যাকেট পরি।",
+        "en": "I wear a gray jacket."
+      },
+      "pronunciationTipBn": "'회' [হোএ/হে]—'ㅚ' এক স্বরে মিলিয়ে বলুন।"
+    },
+    {
+      "ko": "까만색",
+      "romanization": "kkamansaek",
+      "bn": "কালো",
+      "en": "black",
+      "pos": "noun",
+      "example": {
+        "ko": "까만색 옷을 입고 있어요.",
+        "bn": "কালো কাপড় পরে আছি।",
+        "en": "I am wearing black clothes."
+      },
+      "pronunciationTipBn": "'까만' [ক্কামান]—জোড়া ㄲ শক্ত করে বলুন।"
+    },
+    {
+      "ko": "하얀색",
+      "romanization": "hayansaek",
+      "bn": "সাদা",
+      "en": "white",
+      "pos": "noun",
+      "example": {
+        "ko": "하얀색 모자를 써요.",
+        "bn": "সাদা টুপি পরি।",
+        "en": "I wear a white cap."
+      },
+      "pronunciationTipBn": "'하얀' [হায়ান]—'하'+'য়' দ্রুত মিলিয়ে 'হায়া'।"
+    },
+    {
+      "ko": "갈색",
+      "romanization": "galsaek",
+      "bn": "বাদামি",
+      "en": "brown",
+      "pos": "noun",
+      "example": {
+        "ko": "갈색 구두를 신어요.",
+        "bn": "বাদামি জুতা পরি।",
+        "en": "I wear brown shoes."
+      },
+      "pronunciationTipBn": "'갈색' [কালস্যেক্]—ㄹ+ㅅ মিলে 'ল্স' শোনায়।"
+    },
+    {
+      "ko": "쇼핑몰",
+      "romanization": "syopingmol",
+      "bn": "শপিং মল",
+      "en": "shopping mall",
+      "pos": "noun",
+      "example": {
+        "ko": "인터넷 쇼핑몰에서 옷을 봐요.",
+        "bn": "অনলাইন শপিং মলে কাপড় দেখছি।",
+        "en": "I am looking at clothes on an online shopping mall."
+      },
+      "pronunciationTipBn": "'쇼핑몰' [স্যোপিংমল]—ইংরেজি 'shopping mall'-এর কোরীয় রূপ।"
+    },
+    {
+      "ko": "결혼식",
+      "romanization": "gyeorhonsik",
+      "bn": "বিয়ে",
+      "en": "wedding",
+      "pos": "noun",
+      "example": {
+        "ko": "일요일에 친구 결혼식이 있어요.",
+        "bn": "রবিবার বন্ধুর বিয়ে আছে।",
+        "en": "I have a friend's wedding on Sunday."
+      },
+      "pronunciationTipBn": "'결혼' [ক্যরন]—ㄹ+ㅎ মিলে 'র্ণ' শোনায়।"
+    },
+    {
+      "ko": "밝다",
+      "romanization": "bakda",
+      "bn": "উজ্জ্বল হওয়া",
+      "en": "to be bright",
       "pos": "adjective",
       "example": {
-        "ko": "이 옷은 저에게 작아요.",
-        "bn": "এই পোশাকটি আমার জন্য ছোট।",
-        "en": "These clothes are small for me."
+        "ko": "색깔이 너무 밝아요.",
+        "bn": "রং খুব উজ্জ্বল।",
+        "en": "The color is too bright."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'밝아요' [বালগায়ো]—ㄹㄱ দ্বিবত্ছিমের ㄱ-ই শোনায়।"
     },
     {
-      "ko": "크다",
-      "romanization": "keuda",
-      "bn": "বড়",
-      "en": "big",
+      "ko": "어둡다",
+      "romanization": "eodupda",
+      "bn": "গাঢ়/অন্ধকার হওয়া",
+      "en": "to be dark",
       "pos": "adjective",
       "example": {
-        "ko": "신발이 조금 커요.",
-        "bn": "জুতো একটু বড়।",
-        "en": "The shoes are a bit big."
+        "ko": "어두운 색깔을 좋아해요.",
+        "bn": "গাঢ় রং পছন্দ করি।",
+        "en": "I like dark colors."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "'어두워요' [অদুওয়ায়ো]—'ㅂ' অনিয়মে ㅂ বাদে '워' বসে।"
     },
     {
-      "ko": "맞다",
-      "romanization": "matda",
-      "bn": "মানানসই হওয়া/ঠিক হওয়া",
-      "en": "to fit",
-      "pos": "verb",
-      "example": {
-        "ko": "이 바지가 잘 맞아요.",
-        "bn": "এই প্যান্টটি ঠিকমতো মানিয়েছে।",
-        "en": "These pants fit well."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "장갑",
-      "romanization": "janggap",
-      "bn": "দস্তানা/গ্লাভস",
-      "en": "gloves",
+      "ko": "색깔",
+      "romanization": "saekkkal",
+      "bn": "রং",
+      "en": "color",
       "pos": "noun",
       "example": {
-        "ko": "겨울에는 장갑을 껴요.",
-        "bn": "শীতকালে গ্লাভস পরি।",
-        "en": "I wear gloves in winter."
+        "ko": "무슨 색깔을 좋아해요?",
+        "bn": "কোন রং পছন্দ করো?",
+        "en": "What color do you like?"
       },
-      "pronunciationTipBn": "'장갑' উচ্চারণ করার সময় '장' এর 'ㅇ' এবং '갑' এর 'ㅂ' ধ্বনি স্পষ্ট করুন।"
-    },
-    {
-      "ko": "목도리",
-      "romanization": "mokdori",
-      "bn": "মাফলার",
-      "en": "muffler/scarf",
-      "pos": "noun",
-      "example": {
-        "ko": "목도리를 하면 따뜻해요.",
-        "bn": "মাফলার পরলে গরম লাগে।",
-        "en": "It's warm if you wear a muffler."
-      },
-      "pronunciationTipBn": "'목' এর 'ㄱ' ধ্বনিটি হালকাভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "넥타이",
-      "romanization": "nektai",
-      "bn": "টাই",
-      "en": "necktie",
-      "pos": "noun",
-      "example": {
-        "ko": "넥타이를 매요.",
-        "bn": "আমি টাই বাঁধি।",
-        "en": "I tie a necktie."
-      },
-      "pronunciationTipBn": "এটি ইংরেজি শব্দ 'necktie' থেকে এসেছে, তাই উচ্চারণ প্রায় একই।"
-    },
-    {
-      "ko": "정장",
-      "romanization": "jeongjang",
-      "bn": "স্যুট",
-      "en": "suit",
-      "pos": "noun",
-      "example": {
-        "ko": "회사에 갈 때 정장을 입어요.",
-        "bn": "অফিসে যাওয়ার সময় স্যুট পরি।",
-        "en": "I wear a suit when going to the office."
-      },
-      "pronunciationTipBn": "'정장' এর দুটি 'ㅇ' ধ্বনি নাসিক্যভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "반바지",
-      "romanization": "banbaji",
-      "bn": "হাফ প্যান্ট",
-      "en": "shorts",
-      "pos": "noun",
-      "example": {
-        "ko": "여름에는 반바지가 시원해요.",
-        "bn": "গ্রীষ্মকালে হাফ প্যান্ট আরামদায়ক।",
-        "en": "Shorts are cool in summer."
-      },
-      "pronunciationTipBn": "'반' এর 'ㄴ' ধ্বনি স্পষ্ট করুন।"
-    },
-    {
-      "ko": "스웨터",
-      "romanization": "seuweteo",
-      "bn": "সোয়েটার",
-      "en": "sweater",
-      "pos": "noun",
-      "example": {
-        "ko": "스웨터를 입어서 따뜻해요.",
-        "bn": "সোয়েটার পরায় গরম লাগছে।",
-        "en": "I feel warm because I'm wearing a sweater."
-      },
-      "pronunciationTipBn": "এটি ইংরেজি শব্দ 'sweater' থেকে এসেছে।"
-    },
-    {
-      "ko": "블라우스",
-      "romanization": "beullauseu",
-      "bn": "ব্লাউজ",
-      "en": "blouse",
-      "pos": "noun",
-      "example": {
-        "ko": "예쁜 블라우스를 샀어요.",
-        "bn": "একটি সুন্দর ব্লাউজ কিনেছি।",
-        "en": "I bought a pretty blouse."
-      },
-      "pronunciationTipBn": "এটি ইংরেজি শব্দ 'blouse' থেকে এসেছে।"
-    },
-    {
-      "ko": "원피스",
-      "romanization": "wonpiseu",
-      "bn": "ওয়ানপিস (পোশাক)",
-      "en": "one-piece dress",
-      "pos": "noun",
-      "example": {
-        "ko": "원피스를 입고 파티에 가요.",
-        "bn": "ওয়ানপিস পরে পার্টিতে যাই।",
-        "en": "I go to the party wearing a one-piece dress."
-      },
-      "pronunciationTipBn": "এটি ইংরেজি শব্দ 'one-piece' থেকে এসেছে।"
-    },
-    {
-      "ko": "끼다",
-      "romanization": "kkida",
-      "bn": "পরা (গ্লাভস/আংটি)",
-      "en": "to wear (gloves/ring)",
-      "pos": "verb",
-      "example": {
-        "ko": "장갑을 껴요.",
-        "bn": "গ্লাভস পরি।",
-        "en": "I wear gloves."
-      },
-      "pronunciationTipBn": "'ㄲ' একটি শক্ত ধ্বনি, তাই একটু জোর দিয়ে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "매다",
-      "romanization": "maeda",
-      "bn": "বাঁধা (টাই)",
-      "en": "to tie (necktie)",
-      "pos": "verb",
-      "example": {
-        "ko": "넥타이를 매요.",
-        "bn": "টাই বাঁধি।",
-        "en": "I tie a necktie."
-      },
-      "pronunciationTipBn": "'매' উচ্চারণ করার সময় মুখ একটু বেশি খুলুন।"
-    },
-    {
-      "ko": "하다",
-      "romanization": "hada",
-      "bn": "পরা (মাফলার/নেকলেস)",
-      "en": "to wear (muffler/necklace)",
-      "pos": "verb",
-      "example": {
-        "ko": "목도리를 해요.",
-        "bn": "মাফলার পরি।",
-        "en": "I wear a muffler."
-      },
-      "pronunciationTipBn": "'하' এর 'ㅎ' ধ্বনিটি স্পষ্ট করুন।"
-    },
-    {
-      "ko": "단추",
-      "romanization": "danchu",
-      "bn": "বোতাম",
-      "en": "button",
-      "pos": "noun",
-      "example": {
-        "ko": "단추를 잠가요.",
-        "bn": "বোতাম লাগাই।",
-        "en": "I button up."
-      },
-      "pronunciationTipBn": "'단' এর 'ㄴ' ধ্বনি স্পষ্ট করুন।"
-    },
-    {
-      "ko": "지퍼",
-      "romanization": "jipeo",
-      "bn": "চেইন/জিপার",
-      "en": "zipper",
-      "pos": "noun",
-      "example": {
-        "ko": "지퍼를 올려요.",
-        "bn": "জিপার উপরে তুলি।",
-        "en": "I zip up."
-      },
-      "pronunciationTipBn": "এটি ইংরেজি শব্দ 'zipper' থেকে এসেছে।"
+      "pronunciationTipBn": "'색깔' [স্যেক্কাল]—ㄱ+ㄱ মিলে জোরে 'ক্কা' শোনায়।"
     }
   ],
   "grammar": [
     {
-      "pattern": "V + 고 있다",
-      "titleBn": "চলমান কাজ (Present Continuous)",
-      "explanationBn": "ক্রিয়ার সাথে যুক্ত হয়ে কোনো কাজ বর্তমানে চলছে তা বোঝায়। পোশাক পরার ক্ষেত্রে এটি বোঝায় যে কেউ বর্তমানে সেই পোশাকটি পরে আছে।",
-      "explanationEn": "Attached to a verb to indicate an action in progress. For clothing verbs, it indicates the state of wearing something.",
+      "pattern": "V + -고 있다 (상태)",
+      "titleBn": "'-고 있다' (কাজের ফলে অবস্থা)",
+      "explanationBn": "'입다, 신다, 쓰다, 들다' ধরনের ক্রিয়ায় '-고 있다' বসে বোঝায় কাজ শেষ হয়ে ফলটি বজায় আছে—বাংলার 'পরে আছি/ধরে আছি'। মনে রাখুন: '입어요' = পরছি (কাজ), '입고 있어요' = পরে আছি (অবস্থা)।",
+      "explanationEn": "With verbs like 입다, 신다, 쓰다, 들다, -고 있다 shows that the action is finished and its result continues—'is wearing/holding'. Compare: 입어요 = putting on (action); 입고 있어요 = wearing (state).",
       "examples": [
         {
-          "ko": "저는 지금 바지를 입고 있어요.",
-          "bn": "আমি এখন প্যান্ট পরে আছি।",
-          "en": "I am wearing pants now."
+          "ko": "바지를 입고 있어요.",
+          "bn": "প্যান্ট পরে আছি।",
+          "en": "I am wearing pants."
         },
         {
-          "ko": "친구가 모자를 쓰고 있어요.",
-          "bn": "বন্ধু টুপি পরে আছে।",
-          "en": "My friend is wearing a hat."
+          "ko": "안경을 쓰고 있어요.",
+          "bn": "চশমা পরে আছি।",
+          "en": "I am wearing glasses."
         },
         {
-          "ko": "저는 지금 한국어를 공부하고 있어요.",
-          "bn": "আমি এখন কোরিয়ান ভাষা পড়ছি।",
-          "en": "I am studying Korean now."
+          "ko": "운동화를 신고 있어요.",
+          "bn": "স্নিকার্স পরে আছি।",
+          "en": "I am wearing sneakers."
         }
       ],
-      "commonMistakeBn": "অনেকে এই ব্যাকরণটি ভুল প্রসঙ্গে ব্যবহার করেন, তাই অর্থ বুঝে ব্যবহার করুন।"
+      "commonMistakeBn": "'입고 해요' বলা ভুল—অবস্থা বোঝাতে '있어요' বসে: 입고 있어요।"
     },
     {
-      "pattern": "A/V + (으)니까",
-      "titleBn": "কারণ বোঝাতে (Because/Since)",
-      "explanationBn": "ক্রিয়া বা বিশেষণের সাথে যুক্ত হয়ে কোনো কাজের কারণ বা যুক্তি প্রকাশ করে। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '으니까' এবং স্বরবর্ণ দিয়ে শেষ হলে '니까' বসে।",
-      "explanationEn": "Expresses a reason or cause. '으니까' is used after a consonant, and '니까' is used after a vowel.",
+      "pattern": "-고 계시다 (높임)",
+      "titleBn": "'-고 계시다' (সম্মানসূচক অবস্থা)",
+      "explanationBn": "সম্মানীয় কর্তার ক্ষেত্রে '-고 있다'-এর বদলে '-고 계시다' ব্যবহৃত হয়: 할머니께서 안경을 쓰고 계세요।",
+      "explanationEn": "For an honored subject, use -고 계시다 instead of -고 있다: 할머니께서 안경을 쓰고 계세요.",
       "examples": [
         {
-          "ko": "날씨가 추우니까 외투를 입으세요.",
-          "bn": "আবহাওয়া ঠান্ডা তাই ওভারকোট পরুন।",
-          "en": "Since the weather is cold, please wear a coat."
+          "ko": "할머니께서 안경을 쓰고 계세요.",
+          "bn": "দাদি চশমা পরে আছেন।",
+          "en": "Grandmother is wearing glasses."
         },
         {
-          "ko": "이 신발이 작으니까 다른 것을 주세요.",
-          "bn": "এই জুতোটি ছোট তাই অন্যটি দিন।",
-          "en": "Because these shoes are small, please give me another one."
+          "ko": "아버지께서 잠바를 입고 계세요.",
+          "bn": "বাবা জ্যাকেট পরে আছেন।",
+          "en": "Father is wearing a jacket."
         },
         {
-          "ko": "비가 오니까 우산을 쓰세요.",
-          "bn": "বৃষ্টি আসছে তাই ছাতা ব্যবহার করুন।",
-          "en": "Since it's raining, please use an umbrella."
+          "ko": "선생님께서 모자를 쓰고 계세요.",
+          "bn": "শিক্ষক টুপি পরে আছেন।",
+          "en": "The teacher is wearing a cap."
         }
       ],
-      "commonMistakeBn": "অনেকে এই ব্যাকরণটি ভুল প্রসঙ্গে ব্যবহার করেন, তাই অর্থ বুঝে ব্যবহার করুন।"
+      "commonMistakeBn": "বড়দের জন্য '-고 있어요' বলা অসম্মানজনক—'계시다' দিয়ে বলুন: 쓰고 계세요।"
     },
     {
-      "pattern": "V + 아/어 보다",
-      "titleBn": "কোনো কিছু করে দেখা (To try doing something)",
-      "explanationBn": "ক্রিয়ার সাথে যুক্ত হয়ে কোনো কাজ করার অভিজ্ঞতা বা চেষ্টা বোঝায়। পোশাকের ক্ষেত্রে '입어 보다' মানে 'পরে দেখা'।",
-      "explanationEn": "Attached to a verb to indicate trying or experiencing an action. For clothes, '입어 보다' means 'to try on'.",
+      "pattern": "A + -(으)ㄴ",
+      "titleBn": "বিশেষণের বিশেষণসূচক রূপ '-(으)ㄴ'",
+      "explanationBn": "বিশেষণের পরে '-(으)ㄴ' বসে তা পরের বিশেষ্যটির বর্তমান অবস্থা বর্ণনা করে—বাংলার '-টি/-রা'। বত্ছিম থাকলে '-은' (작다→작은), না থাকলে '-ㄴ' (예쁘다→예쁜)। '맛있다' ধরনের বিশেষণে '-는' বসে: 맛있는 빵।",
+      "explanationEn": "-(으)ㄴ attaches to an adjective to describe the current state of the following noun. Use -은 after a consonant (작다→작은) and -ㄴ after a vowel (예쁘다→예쁜). Adjectives like 맛있다 take -는: 맛있는 빵.",
       "examples": [
         {
-          "ko": "이 바지를 입어 보세요.",
-          "bn": "এই প্যান্টটি পরে দেখুন।",
-          "en": "Please try on these pants."
+          "ko": "예쁜 바지를 샀어요.",
+          "bn": "সুন্দর প্যান্ট কিনেছি।",
+          "en": "I bought pretty pants."
         },
         {
-          "ko": "그 신발을 신어 봤어요?",
-          "bn": "ওই জুতোটি কি পরে দেখেছেন?",
-          "en": "Have you tried on those shoes?"
+          "ko": "따뜻한 잠바를 입어요.",
+          "bn": "গরম জ্যাকেট পরি।",
+          "en": "I wear a warm jacket."
         },
         {
-          "ko": "한국 음식을 먹어 보고 싶어요.",
-          "bn": "আমি কোরিয়ান খাবার খেয়ে দেখতে চাই।",
-          "en": "I want to try eating Korean food."
+          "ko": "책상 위에 작은 가방이 있어요.",
+          "bn": "ডেস্কের ওপর ছোট ব্যাগ আছে।",
+          "en": "There is a small bag on the desk."
         }
       ],
-      "commonMistakeBn": "অনেকে '보다' (দেখা) এর সাধারণ অর্থের সাথে এটি গুলিয়ে ফেলেন। এখানে এটি 'চেষ্টা করা' অর্থে ব্যবহৃত হয়।"
+      "commonMistakeBn": "'작아 가방' বলা ভুল—বিশেষ্যের আগে '-(으)ㄴ' রূপ বসে: 작은 가방; বাক্যের শেষে '작아요' হয়।"
     },
     {
-      "pattern": "A/V + 지만",
-      "titleBn": "কিন্তু (But/Although)",
-      "explanationBn": "দুটি বাক্যাংশকে যুক্ত করে, যেখানে দ্বিতীয় অংশটি প্রথম অংশের বিপরীত বা বৈপরীত্য প্রকাশ করে।",
-      "explanationEn": "Connects two clauses where the second clause contrasts with the first.",
+      "pattern": "무슨 색이에요?",
+      "titleBn": "'কোন রং?' জিজ্ঞাসা",
+      "explanationBn": "জিনিসের রং জানতে '무슨 색이에요?' বলুন। উত্তরে রং + 이에요 বলুন: 빨간색이에요। পছন্দ জানতে: 무슨 색깔을 좋아해요?",
+      "explanationEn": "Ask the color of something with 무슨 색이에요? Answer with color + 이에요: 빨간색이에요. Ask about preference with 무슨 색깔을 좋아해요?",
       "examples": [
         {
-          "ko": "이 옷은 예쁘지만 너무 비싸요.",
-          "bn": "এই পোশাকটি সুন্দর কিন্তু খুব দামি।",
-          "en": "These clothes are pretty but too expensive."
+          "ko": "연필이 무슨 색이에요?",
+          "bn": "পেন্সিলটা কোন রঙের?",
+          "en": "What color is the pencil?"
         },
         {
-          "ko": "한국어는 어렵지만 재미있어요.",
-          "bn": "কোরিয়ান ভাষা কঠিন কিন্তু মজার।",
-          "en": "Korean is difficult but interesting."
+          "ko": "빨간색이에요.",
+          "bn": "লাল।",
+          "en": "It is red."
         },
         {
-          "ko": "바지는 맞지만 치마는 작아요.",
-          "bn": "প্যান্টটি ঠিক আছে কিন্তু স্কার্টটি ছোট।",
-          "en": "The pants fit but the skirt is small."
+          "ko": "모자가 무슨 색이에요?",
+          "bn": "টুপিটা কোন রঙের?",
+          "en": "What color is the cap?"
         }
       ],
-      "commonMistakeBn": "অনেকে '지만' এর আগে কাল (tense) যুক্ত করতে ভুলে যান। যেমন '비쌌지만' (দামি ছিল কিন্তু)।"
+      "commonMistakeBn": "'무슨 색깔이에요?' বলা স্বাভাবিক, তবে '무슨 색이에요?'-ই পরীক্ষার প্রচলিত রূপ—দুটোই সঠিক মনে রাখুন।"
+    },
+    {
+      "pattern": "입다/신다/쓰다 (구분)",
+      "titleBn": "পরার তিন ক্রিয়ার পার্থক্য",
+      "explanationBn": "কাপড়ের জন্য '입다' (셔츠를 입어요), জুতা-মোজার জন্য '신다' (운동화를 신어요), মাথা-চশমার জন্য '쓰다' (모자를 써요, 안경을 써요) ব্যবহৃত হয়। জিনিস অনুযায়ী ক্রিয়া বদলায়।",
+      "explanationEn": "Use 입다 for clothes (셔츠를 입어요), 신다 for footwear (운동화를 신어요), and 쓰다 for head and glasses (모자를 써요, 안경을 써요). The verb changes with the item.",
+      "examples": [
+        {
+          "ko": "셔츠를 입어요.",
+          "bn": "শার্ট পরি।",
+          "en": "I wear a shirt."
+        },
+        {
+          "ko": "운동화를 신어요.",
+          "bn": "স্নিকার্স পরি।",
+          "en": "I wear sneakers."
+        },
+        {
+          "ko": "모자를 써요.",
+          "bn": "টুপি পরি।",
+          "en": "I wear a cap."
+        }
+      ],
+      "commonMistakeBn": "'모자를 입어요' বা '운동화를 써요' বলা ভুল—টুপি = 쓰다, জুতা = 신다, কাপড় = 입다 মনে রাখুন।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "দোকানে কেনাকাটা",
-      "titleEn": "Shopping at a Store",
+      "titleBn": "তুমি কোথায়?",
+      "titleEn": "Where Are You?",
       "lines": [
         {
-          "speaker": "점원",
-          "ko": "어서 오세요. 뭘 찾으세요?",
-          "bn": "স্বাগতম। আপনি কী খুঁজছেন?",
-          "en": "Welcome. What are you looking for?"
+          "speaker": "A",
+          "ko": "왕민 씨, 지금 어디에 있어요?",
+          "bn": "ওয়াংমিন, এখন কোথায় আছো?",
+          "en": "Wangmin, where are you now?"
         },
         {
-          "speaker": "라힘",
-          "ko": "바지를 하나 사고 싶어요.",
-          "bn": "আমি একটি প্যান্ট কিনতে চাই।",
-          "en": "I want to buy a pair of pants."
+          "speaker": "B",
+          "ko": "영화관 앞에 있어요.",
+          "bn": "সিনেমা হলের সামনে আছি।",
+          "en": "I'm in front of the movie theater."
         },
         {
-          "speaker": "점원",
-          "ko": "이 바지는 어때요? 한번 입어 보세요.",
-          "bn": "এই প্যান্টটি কেমন? একবার পরে দেখুন।",
-          "en": "How about these pants? Try them on."
+          "speaker": "A",
+          "ko": "저도 영화관 앞에 있어요. 무슨 옷을 입고 있어요?",
+          "bn": "আমিও সিনেমা হলের সামনে। কী কাপড় পরে আছো?",
+          "en": "I'm also in front of the theater. What are you wearing?"
         },
         {
-          "speaker": "라힘",
-          "ko": "네, 감사합니다. 사이즈가 잘 맞아요.",
-          "bn": "হ্যাঁ, ধন্যবাদ। সাইজ ঠিক আছে।",
-          "en": "Yes, thank you. The size fits well."
+          "speaker": "B",
+          "ko": "셔츠하고 반바지를 입고 있어요. 그리고 모자를 쓰고 있어요.",
+          "bn": "শার্ট আর শর্টস পরে আছি। আর টুপি পরে আছি।",
+          "en": "I'm wearing a shirt and shorts. And a cap."
+        },
+        {
+          "speaker": "A",
+          "ko": "아, 저기 왕민 씨가 있네요. 왕민 씨!",
+          "bn": "ওহ, ওখানে তুমি! ওয়াংমিন!",
+          "en": "Ah, there you are. Wangmin!"
         }
       ]
     },
     {
-      "titleBn": "আবহাওয়া এবং পোশাক",
-      "titleEn": "Weather and Clothes",
+      "titleBn": "বিয়ের জন্য কাপড়",
+      "titleEn": "Clothes for a Wedding",
       "lines": [
         {
-          "speaker": "수루즈",
-          "ko": "오늘 날씨가 정말 춥네요.",
-          "bn": "আজকের আবহাওয়া সত্যিই খুব ঠান্ডা।",
-          "en": "The weather is really cold today."
+          "speaker": "A",
+          "ko": "딜로바 씨, 뭐 봐요?",
+          "bn": "দিলোভা, কী দেখছো?",
+          "en": "What are you looking at, Dilova?"
         },
         {
-          "speaker": "민수",
-          "ko": "네, 그래서 저는 두꺼운 외투를 입고 왔어요.",
-          "bn": "হ্যাঁ, তাই আমি একটি মোটা ওভারকোট পরে এসেছি।",
-          "en": "Yes, so I came wearing a thick coat."
+          "speaker": "B",
+          "ko": "인터넷 쇼핑몰에서 옷을 봐요. 이번 주 일요일에 친구 결혼식이 있어서 옷을 사야 돼요.",
+          "bn": "অনলাইন শপিং মলে কাপড় দেখছি। এই রবিবার বন্ধুর বিয়ে থাকায় কাপড় কিনতে হবে।",
+          "en": "I'm looking at clothes online. I have to buy clothes because my friend's wedding is this Sunday."
         },
         {
-          "speaker": "수루즈",
-          "ko": "저도 내일은 따뜻한 옷을 입어야겠어요.",
-          "bn": "আমাকেও আগামীকাল গরম পোশাক পরতে হবে।",
-          "en": "I should wear warm clothes tomorrow too."
+          "speaker": "A",
+          "ko": "이 노란색 치마가 예쁘네요. 이 치마 어때요?",
+          "bn": "এই হলুদ স্কার্ট সুন্দর তো। এই স্কার্ট কেমন?",
+          "en": "This yellow skirt is pretty. What do you think of it?"
         },
         {
-          "speaker": "민수",
-          "ko": "감기에 걸릴 수 있으니까 조심하세요.",
-          "bn": "ঠান্ডা লাগতে পারে তাই সাবধানে থাকবেন।",
-          "en": "You might catch a cold, so be careful."
+          "speaker": "B",
+          "ko": "좀 짧아요. 저는 짧은 치마를 안 좋아해요.",
+          "bn": "একটু ছোট। আমি ছোট স্কার্ট পছন্দ করি না।",
+          "en": "It's a bit short. I don't like short skirts."
+        },
+        {
+          "speaker": "A",
+          "ko": "그럼 이 파란색 원피스는 어때요?",
+          "bn": "তাহলে এই নীল ড্রেস কেমন?",
+          "en": "Then how about this blue dress?"
         }
       ]
     },
     {
-      "titleBn": "পোশাক পরিবর্তন",
-      "titleEn": "Exchanging Clothes",
+      "titleBn": "কে সেই লোক?",
+      "titleEn": "Who Is That Person?",
       "lines": [
         {
-          "speaker": "라힘",
-          "ko": "어제 산 바지를 바꾸고 싶어요.",
-          "bn": "গতকাল কেনা প্যান্টটি পরিবর্তন করতে চাই।",
-          "en": "I want to exchange the pants I bought yesterday."
+          "speaker": "A",
+          "ko": "마두 씨가 누구예요?",
+          "bn": "মাদু কে?",
+          "en": "Who is Madhu?"
         },
         {
-          "speaker": "점원",
-          "ko": "네, 무슨 문제가 있나요?",
-          "bn": "হ্যাঁ, কী সমস্যা হয়েছে?",
-          "en": "Yes, what is the problem?"
+          "speaker": "B",
+          "ko": "머리가 짧은 사람이에요.",
+          "bn": "যার চুল ছোট।",
+          "en": "The one with short hair."
         },
         {
-          "speaker": "라힘",
-          "ko": "사이즈가 너무 작아요. 더 큰 사이즈 있어요?",
-          "bn": "সাইজ খুব ছোট। আরও বড় সাইজ আছে কি?",
-          "en": "The size is too small. Do you have a bigger size?"
+          "speaker": "A",
+          "ko": "무슨 옷을 입고 있어요?",
+          "bn": "কী কাপড় পরে আছে?",
+          "en": "What is he wearing?"
         },
         {
-          "speaker": "점원",
-          "ko": "네, 여기 있습니다. 한번 입어 보세요.",
-          "bn": "হ্যাঁ, এই নিন। একবার পরে দেখুন।",
-          "en": "Yes, here it is. Please try it on."
+          "speaker": "B",
+          "ko": "까만색 옷을 입고 있어요.",
+          "bn": "কালো কাপড় পরে আছে।",
+          "en": "He's wearing black clothes."
         },
         {
-          "speaker": "라힘",
-          "ko": "이게 잘 맞네요. 감사합니다.",
-          "bn": "এটি ঠিকমতো মানিয়েছে। ধন্যবাদ।",
-          "en": "This fits well. Thank you."
+          "speaker": "A",
+          "ko": "안경을 쓰고 있어요?",
+          "bn": "চশমা পরে আছে?",
+          "en": "Is he wearing glasses?"
+        },
+        {
+          "speaker": "B",
+          "ko": "네, 안경을 쓰고 있어요.",
+          "bn": "হ্যাঁ, চশমা পরে আছে।",
+          "en": "Yes, he's wearing glasses."
         }
       ]
     }
@@ -651,577 +708,574 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "ছবিতে দেখানো বস্তুর সঠিক কোরিয়ান নাম কী? (ধরে নিন একটি প্যান্টের ছবি)",
-      "questionKo": "다음 그림을 보고 알맞은 단어를 고르십시오.",
+      "questionBn": "'치마' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "바지",
-        "치마",
-        "안경",
-        "모자"
+        "টি-শার্ট",
+        "স্কার্ট",
+        "জিন্স",
+        "জ্যাকেট"
       ],
-      "answer": 0,
-      "explanationBn": "'바지' মানে প্যান্ট। '치마' মানে স্কার্ট, '모자' মানে টুপি, '안경' মানে চশমা।"
+      "answer": 1,
+      "explanationBn": "치마 = স্কার্ট। 청바지 = জিন্স, 잠바 = জ্যাকেট।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "জুতো পরার ক্ষেত্রে কোন ক্রিয়াটি ব্যবহৃত হয়?",
-      "questionKo": "신발을 ( ).",
+      "questionBn": "টুপি পরতে কোন ক্রিয়া ব্যবহৃত হয়?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "벗어요",
-        "신어요",
-        "입어요",
-        "써요"
+        "입다",
+        "신다",
+        "들다",
+        "쓰다"
       ],
-      "answer": 1,
-      "explanationBn": "জুতো বা মোজা পরার ক্ষেত্রে '신다' (신어요) ব্যবহৃত হয়। '입다' পোশাকের জন্য, '쓰다' টুপি/চশমার জন্য এবং '벗다' খোলার জন্য ব্যবহৃত হয়।"
+      "answer": 3,
+      "explanationBn": "টুপি = 쓰다, কাপড় = 입다, জুতা = 신다।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "টুপি পরার ক্ষেত্রে কোন ক্রিয়াটি ব্যবহৃত হয়?",
-      "questionKo": "모자를 ( ).",
+      "questionBn": "'-고 있다' দিয়ে সঠিকভাবে গঠিত বাক্য কোনটি?",
+      "questionKo": "알맞은 문장을 고르세요.",
       "options": [
-        "신어요",
-        "마셔요",
-        "써요",
-        "입어요"
+        "셔츠를 입고 해요.",
+        "셔츠를 입고 있는가.",
+        "셔츠를 입고 있어요.",
+        "셔츠 입고 있어요가."
       ],
       "answer": 2,
-      "explanationBn": "টুপি বা চশমা পরার ক্ষেত্রে '쓰다' (써요) ব্যবহৃত হয়।"
+      "explanationBn": "অবস্থা বোঝাতে ক্রিয়া + '-고 있어요': 셔츠를 입고 있어요।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "শীতকালে আমরা কী পরি?",
-      "questionKo": "겨울에 무엇을 입습니까?",
+      "questionBn": "'작다' + '-(으)ㄴ' এর সঠিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "치마",
-        "수영복",
-        "반바지",
-        "외투"
+        "작ㄴ",
+        "작은가",
+        "작은",
+        "작"
       ],
-      "answer": 3,
-      "explanationBn": "শীতকালে আমরা '외투' (ওভারকোট/জ্যাকেট) পরি।"
+      "answer": 2,
+      "explanationBn": "'작다' বত্ছিমযুক্ত, তাই '-은' বসে: 작은।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 비가 ( ) 우산을 쓰세요.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'무슨 색이에요?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
       "options": [
-        "오니까",
-        "오고",
-        "오지만",
-        "오면"
+        "네, 색이에요.",
+        "좋아해요.",
+        "빨간색이에요.",
+        "예뻐요."
       ],
-      "answer": 0,
-      "explanationBn": "কারণ বোঝাতে '(으)니까' ব্যবহৃত হয়। '비가 오니까' মানে 'বৃষ্টি আসছে তাই'।"
+      "answer": 2,
+      "explanationBn": "রং জিজ্ঞাসায় রং + 이에요 বলা হয়: 빨간색이에요।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 이 신발은 너무 ( ). 더 큰 사이즈 있어요?",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'파란색' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "싸요",
-        "작아요",
-        "커요",
-        "비싸요"
+        "লাল",
+        "নীল",
+        "হলুদ",
+        "সবুজ"
       ],
       "answer": 1,
-      "explanationBn": "যেহেতু বড় সাইজ চাওয়া হচ্ছে, তার মানে বর্তমান জুতোটি ছোট। '작아요' মানে ছোট।"
+      "explanationBn": "파란색 = নীল। 빨간색 = লাল, 노란색 = হলুদ, 초록색 = সবুজ।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 저는 지금 안경을 ( ).",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "সম্মানসূচক অবস্থা বোঝাতে সঠিক রূপ কোনটি: 할머니께서 안경을 쓰고 ___?",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
       "options": [
-        "신고 있어요",
-        "벗고 있어요",
-        "쓰고 있어요",
-        "입고 있어요"
+        "있어요",
+        "계세요",
+        "해요",
+        "하시요"
       ],
-      "answer": 2,
-      "explanationBn": "চশমা পরার ক্ষেত্রে '쓰다' ব্যবহৃত হয় এবং চলমান কাজ বোঝাতে '고 있다' যুক্ত হয়ে '쓰고 있어요' হয়েছে।"
+      "answer": 1,
+      "explanationBn": "সম্মানীয় কর্তার ক্ষেত্রে '-고 계시다' বসে: 쓰고 계세요।"
     },
     {
       "id": "p8",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "양말",
-          "right": "মোজা"
-        },
-        {
-          "left": "구두",
-          "right": "চামড়ার জুতো"
-        },
-        {
-          "left": "가방",
-          "right": "ব্যাগ"
-        },
-        {
-          "left": "티셔츠",
-          "right": "টি-শার্ট"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'밝다' শব্দের বিপরীত শব্দ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": [
+        "예쁘다",
+        "어둡다",
+        "작다",
+        "짧다"
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 1,
+      "explanationBn": "밝다 (উজ্জ্বল)-এর বিপরীত 어둡다 (গাঢ়/অন্ধকার)।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "পোশাকের সাথে সঠিক ক্রিয়াপদ মিলান।",
-      "pairs": [
-        {
-          "left": "바지를",
-          "right": "입다"
-        },
-        {
-          "left": "운동화를",
-          "right": "신다"
-        },
-        {
-          "left": "안경을",
-          "right": "쓰다"
-        },
-        {
-          "left": "외투를",
-          "right": "벗다"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'예쁘다' + '-(으)ㄴ' এর সঠিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": [
+        "예쁘은",
+        "예쁜가",
+        "예쁜",
+        "예쁜"
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 3,
+      "explanationBn": "'예쁘다' স্বরবর্ণে শেষ, তাই '-ㄴ' বসে: 예쁜।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "বিপরীত শব্দের সাথে মিলান।",
-      "pairs": [
-        {
-          "left": "크다",
-          "right": "작다"
-        },
-        {
-          "left": "입다",
-          "right": "벗다"
-        },
-        {
-          "left": "신다",
-          "right": "벗다"
-        },
-        {
-          "left": "쓰다",
-          "right": "벗다"
-        }
+      "type": "fill-blank",
+      "questionBn": "'신다' + '-고 있다' বসান: 운동화를 ___고 있어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "신",
+        "신어",
+        "신으",
+        "신아"
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 0,
+      "explanationBn": "ক্রিয়া + '-고 있어요': 신고 있어요।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "শীতকালে হাত গরম রাখতে কী পরা হয়?",
-      "questionKo": "겨울에 손을 따뜻하게 하기 위해 무엇을 낍니까?",
+      "type": "fill-blank",
+      "questionBn": "'예쁜 ড্রেস কিনেছি' বাক্যটি সম্পূর্ণ করুন: 예쁜 ___를 샀어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "장갑",
-        "목도리",
-        "안경",
-        "넥타이"
+        "원피스",
+        "치마",
+        "티셔츠",
+        "셔츠"
       ],
       "answer": 0,
-      "explanationBn": "হাত গরম রাখতে '장갑' (গ্লাভস) পরা হয়।"
+      "explanationBn": "'예쁜 원피스' কথোপকথনে প্রচলিত; তবে প্রতিটি বিকল্প ব্যাকরণগতভাবে ঠিক।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "গলায় কী পরা হয়?",
-      "questionKo": "목에 무엇을 합니까?",
+      "type": "fill-blank",
+      "questionBn": "'까만색' শব্দের অর্থ বসান: ___ 옷을 입고 있어요। (কালো)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "바지",
-        "신발",
-        "목도리",
-        "모자"
+        "하얀색",
+        "까만색",
+        "빨간색",
+        "회색"
       ],
-      "answer": 2,
-      "explanationBn": "গলায় '목도리' (মাফলার) পরা হয়।"
+      "answer": 1,
+      "explanationBn": "까만색 = কালো। 하얀색 = সাদা, 빨간색 = লাল, 회색 = ধূসর।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "অফিসে যাওয়ার সময় সাধারণত কী পরা হয়?",
-      "questionKo": "회사에 갈 때 보통 무엇을 입습니까?",
+      "type": "fill-blank",
+      "questionBn": "'쓰다' + '-고 있다' বসান: 선글라스를 ___고 있어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "수영복",
-        "정장",
-        "반바지",
-        "잠옷"
+        "쓰",
+        "써",
+        "쓰어",
+        "쓰으"
       ],
-      "answer": 1,
-      "explanationBn": "অফিসে যাওয়ার সময় সাধারণত '정장' (স্যুট) পরা হয়।"
+      "answer": 0,
+      "explanationBn": "쓰고 있어요—ক্রিয়ার মূল রূপ + '-고' বসে।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "টাই বাঁধার ক্ষেত্রে কোন ক্রিয়াটি ব্যবহৃত হয়?",
-      "questionKo": "넥타이를 ( ).",
+      "type": "fill-blank",
+      "questionBn": "'따뜻한 জ্যাকেট' বাক্যটি সম্পূর্ণ করুন: 따뜻한 ___를 입어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "입어요",
-        "신어요",
-        "매요",
-        "써요"
+        "잠바",
+        "치마",
+        "양말",
+        "모자"
       ],
-      "answer": 2,
-      "explanationBn": "টাই বাঁধার ক্ষেত্রে '매다' (매요) ব্যবহৃত হয়।"
+      "answer": 0,
+      "explanationBn": "'잠바' জ্যাকেট, আর '입다' ক্রিয়া কাপড়ের জন্য—치마ও সম্ভব, তবে '따뜻한' 잠바 সবচেয়ে স্বাভাবিক।"
     },
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 이 옷은 예쁘( ) 너무 비싸요.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'결혼식' শব্দের অর্থ কোনটি বসান: 친구 ___이 일요일에 있어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "니까",
-        "지만",
-        "고",
-        "아/어서"
+        "생일",
+        "결혼식",
+        "시장",
+        "휴일"
       ],
       "answer": 1,
-      "explanationBn": "বৈপরীত্য বোঝাতে '지만' ব্যবহৃত হয়। '예쁘지만' মানে 'সুন্দর কিন্তু'।"
+      "explanationBn": "결혼식 = বিয়ে। বিয়েতে নতুন কাপড় কেনা স্বাভাবিক।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 새 신발을 한번 ( ) 보세요.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'맛있다' + '-는' বসান: ___ 빵을 먹었어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "입어",
-        "써",
-        "신어",
-        "매어"
+        "맛있는",
+        "맛있은",
+        "맛있",
+        "맛있ㄴ"
       ],
-      "answer": 2,
-      "explanationBn": "জুতো পরার ক্ষেত্রে '신다' ব্যবহৃত হয়, তাই '신어 보세요' হবে।"
+      "answer": 0,
+      "explanationBn": "'맛있다, 재미있다' ধরনের বিশেষণে '-는' বসে: 맛있는।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 날씨가 추우니까 ( )을/를 입으세요.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "반바지",
-        "외투",
-        "치마",
-        "티셔츠"
+      "type": "matching",
+      "questionBn": "পোশাকের কোরীয় নামের সাথে বাংলা মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "티셔츠",
+          "right": "টি-শার্ট"
+        },
+        {
+          "left": "청바지",
+          "right": "জিন্স"
+        },
+        {
+          "left": "치마",
+          "right": "স্কার্ট"
+        },
+        {
+          "left": "원피스",
+          "right": "ড্রেস"
+        },
+        {
+          "left": "잠바",
+          "right": "জ্যাকেট"
+        }
       ],
-      "answer": 1,
-      "explanationBn": "আবহাওয়া ঠান্ডা হলে '외투' (ওভারকোট) পরা উচিত।"
+      "explanationBn": "প্রতিটি জিনিসের জন্য আলাদা কোরীয় শব্দ আছে।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 겨울에는 손이 시려우니까 ( )을/를 껴야 해요.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "안경",
-        "모자",
-        "장갑",
-        "양말"
+      "type": "matching",
+      "questionBn": "রং-এর কোরীয় নামের সাথে বাংলা মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "빨간색",
+          "right": "লাল"
+        },
+        {
+          "left": "파란색",
+          "right": "নীল"
+        },
+        {
+          "left": "초록색",
+          "right": "সবুজ"
+        },
+        {
+          "left": "노란색",
+          "right": "হলুদ"
+        },
+        {
+          "left": "까만색",
+          "right": "কালো"
+        }
       ],
-      "answer": 2,
-      "explanationBn": "হাত ঠান্ডা হলে '장갑' (গ্লাভস) পরা উচিত।"
+      "explanationBn": "রং + 색 (색깔) বসে: 빨간색, 파란색, 까만색।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "পরার ক্রিয়ার সাথে স্বাভাবিক জিনিস মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
-          "left": "장갑",
-          "right": "গ্লাভস"
+          "left": "입다",
+          "right": "셔츠를"
         },
         {
-          "left": "목도리",
-          "right": "মাফলার"
+          "left": "신다",
+          "right": "운동화를"
         },
         {
-          "left": "정장",
-          "right": "স্যুট"
+          "left": "쓰다",
+          "right": "모자를"
         },
         {
-          "left": "반바지",
-          "right": "হাফ প্যান্ট"
+          "left": "쓰다",
+          "right": "안경을"
         }
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "입다 (কাপড়), 신다 (জুতা), 쓰다 (টুপি/চশমা)।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "পোশাকের সাথে সঠিক ক্রিয়াপদ মিলান।",
+      "questionBn": "বিশেষণের মূল রূপের সাথে -(으)ㄴ রূপ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
-          "left": "장갑을",
-          "right": "끼다"
+          "left": "작다",
+          "right": "작은"
         },
         {
-          "left": "넥타이를",
-          "right": "매다"
+          "left": "예쁘다",
+          "right": "예쁜"
         },
         {
-          "left": "목도리를",
-          "right": "하다"
+          "left": "따뜻하다",
+          "right": "따뜻한"
         },
         {
-          "left": "정장을",
-          "right": "입다"
+          "left": "맛있다",
+          "right": "맛있는"
         }
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "বত্ছিম → -은, স্বরবর্ণ → -ㄴ, 맛있다-ধরন → -는।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পরবর্তী ছবিটি দেখে সঠিক শব্দটি বেছে নিন। (ধরে নিন একটি জুতোর ছবি)",
-      "questionKo": "다음 그림을 보고 알맞은 단어를 고르십시오.",
+      "questionBn": "বাক্যটি পড়ে এটি কোন বিভাগের তা বাছাই করুন।",
+      "questionKo": "다음 내용과 관계있는 것을 고르십시오.",
+      "passage": "티셔츠입니다.",
       "options": [
-        "모자",
-        "신발",
-        "가방",
-        "안경"
+        "교통수단",
+        "옷",
+        "장소",
+        "음식"
       ],
       "answer": 1,
-      "explanationBn": "ছবিটি জুতোর, তাই সঠিক উত্তর '신발' (জুতো)।"
+      "explanationBn": "'티셔츠' (টি-শার্ট) একটি 옷 (পোশাক)।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 이 바지가 어때요?\n나: 조금 ( ). 더 큰 사이즈로 주세요.",
+      "questionBn": "'-(으)ㄴ' সঠিক কোন বাক্যটি?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "작아요",
-        "커요",
-        "길어요",
-        "비싸요"
+        "맛있는 빵을 먹었어요.",
+        "맛있은 빵을 먹었어요.",
+        "맛있 빵을 먹었어요.",
+        "맛있ㄴ 빵을 먹었어요."
       ],
       "answer": 0,
-      "explanationBn": "যেহেতু বড় সাইজ চাওয়া হচ্ছে, তাই প্যান্টটি ছোট। '작아요' মানে ছোট।"
+      "explanationBn": "'맛있다' ধরনের বিশেষণে '-는' বসে: 맛있는 빵।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionBn": "শূন্যস্থানে সঠিক ক্রিয়াটি বসান।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "밖에 비가 ( ) 우산을 쓰세요.",
+      "passage": "어제 날씨가 아주 더웠어요. 그래서 짧은 바지를 ___.",
       "options": [
-        "오고",
-        "오면",
-        "오지만",
-        "오니까"
+        "입었어요",
+        "버렸어요",
+        "정리했어요",
+        "교환했어요"
       ],
-      "answer": 3,
-      "explanationBn": "কারণ বোঝাতে '(으)니까' ব্যবহৃত হয়। '비가 오니까' মানে 'বৃষ্টি আসছে তাই'।"
+      "answer": 0,
+      "explanationBn": "গরম বলে শর্টস পরেছিল—'입다' ক্রিয়া কাপড়ের জন্য: 짧은 바지를 입었어요।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "পরবর্তী অনুচ্ছেদটি পড়ে প্রশ্নের উত্তর দিন। এই ব্যক্তিটি এখন কী পরে আছে?",
-      "questionKo": "다음을 읽고 질문에 답하십시오. 이 사람은 지금 무엇을 입고 있습니까?",
-      "passage": "저는 오늘 친구를 만납니다. 날씨가 더워서 티셔츠를 입었습니다. 그리고 운동화를 신었습니다.",
+      "questionBn": "শূন্যস্থানে সঠিক ক্রিয়াটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "제 가족사진이에요. 동생은 키가 작고 모자를 ___.",
       "options": [
-        "외투",
-        "구두",
-        "티셔츠",
-        "안경"
+        "입고 있어요",
+        "타고 있어요",
+        "신고 있어요",
+        "쓰고 있어요"
       ],
-      "answer": 2,
-      "explanationBn": "অনুচ্ছেদে বলা হয়েছে '티셔츠를 입었습니다' (টি-শার্ট পরেছি)। তাই সঠিক উত্তর '티셔츠'।"
+      "answer": 3,
+      "explanationBn": "টুপি (모자) পরতে '쓰다' ব্যবহৃত হয়: 모자를 쓰고 있어요।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পরবর্তী অনুচ্ছেদটি পড়ে সঠিক বিবৃতিটি বেছে নিন।",
-      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "어제 백화점에 가서 옷을 샀습니다. 바지와 치마를 샀습니다. 바지는 잘 맞지만 치마는 조금 큽니다.",
+      "questionBn": "কোরীয় ঐতিহ্যবাহী পোশাক সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한복은 한국의 전통 의상입니다. 설날이나 결혼식과 같이 중요한 날에 한복을 입습니다. 최근에는 생활한복이 인기를 끌고 있습니다. 생활한복은 실용적이어서 일상생활에서도 편하게 입을 수 있습니다.",
       "options": [
-        "치마가 잘 맞습니다.",
-        "어제 옷을 샀습니다.",
-        "시장에서 옷을 샀습니다.",
-        "바지가 큽니다."
+        "생활한복은 전통 한복보다 화려합니다.",
+        "한국 사람들은 매일 한복을 입습니다.",
+        "한복은 설날에만 입습니다.",
+        "생활한복은 일상생활에서 편하게 입을 수 있습니다."
       ],
-      "answer": 1,
-      "explanationBn": "অনুচ্ছেদে বলা হয়েছে '어제 백화점에 가서 옷을 샀습니다' (গতকাল ডিপার্টমেন্টাল স্টোরে গিয়ে পোশাক কিনেছি)। তাই '어제 옷을 샀습니다' সঠিক।"
+      "answer": 3,
+      "explanationBn": "লেখানুযায়ী জীবন-হানবক (생활한복) ব্যবহারিক বলে দৈনন্দিন জীবনে সহজে পরা যায়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক ছবিটি বেছে নিন। (ধরে নিন অডিওতে '모자' বলা হয়েছে)",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "모자",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক রং-শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "이 치마는 ___이에요. (yellow)",
       "options": [
-        "모자",
-        "구두",
-        "안경",
-        "가방"
+        "빨간색",
+        "파란색",
+        "노란색",
+        "초록색"
       ],
-      "answer": 0,
-      "explanationBn": "অডিওতে '모자' (টুপি) বলা হয়েছে, তাই সঠিক উত্তর '모자'।"
+      "answer": 2,
+      "explanationBn": "노란색 = হলুদ (yellow)।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "প্রশ্নটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "이 신발이 어때요?",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক রূপটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "이 ___ 원피스를 살 거예요. (pretty)",
       "options": [
-        "신발을 샀어요.",
-        "아니요, 안경이에요.",
-        "네, 신발이에요.",
-        "조금 작아요."
+        "예쁜",
+        "예쁘은",
+        "예쁜가",
+        "예쁜"
       ],
-      "answer": 3,
-      "explanationBn": "প্রশ্ন করা হয়েছে 'এই জুতোটি কেমন?'। এর সঠিক উত্তর হতে পারে '조금 작아요' (একটু ছোট)।"
+      "answer": 0,
+      "explanationBn": "'예쁘다' স্বরবর্ণে শেষ, তাই '-ㄴ' বসে: 예쁜 원피스।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "কথোপকথনটি শুনে প্রশ্নের উত্তর দিন। পুরুষটি কী কিনতে চায়?",
-      "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오. 남자는 무엇을 사고 싶어 합니까?",
-      "passage": "여자: 어서 오세요. 뭘 찾으세요?\n남자: 따뜻한 외투를 하나 사고 싶어요.",
+      "section": "reading",
+      "questionBn": "'입다/신다/쓰다' সঠিক কোন বাক্যটি?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "바지",
-        "양말",
-        "외투",
-        "운동화"
+        "모자를 써요.",
+        "모자를 신어요.",
+        "모자를 입어요.",
+        "모자를 들어요."
       ],
-      "answer": 2,
-      "explanationBn": "পুরুষটি বলেছে '따뜻한 외투를 하나 사고 싶어요' (আমি একটি গরম ওভারকোট কিনতে চাই)। তাই সঠিক উত্তর '외투'।"
+      "answer": 0,
+      "explanationBn": "টুপি = 쓰다; জুতা = 신다, কাপড় = 입다।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "পরবর্তী ছবিটি দেখে সঠিক শব্দটি বেছে নিন। (ধরে নিন একটি গ্লাভসের ছবি)",
-      "questionKo": "다음 그림을 보고 알맞은 단어를 고르십시오.",
+      "questionBn": "শূন্যস্থানে সঠিক রূপটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "따뜻한 날씨예요. 그래서 ___ 옷을 입었어요. (thin)",
       "options": [
-        "양말",
-        "장갑",
-        "모자",
-        "안경"
+        "두꺼운",
+        "얇은",
+        "큰",
+        "작은"
       ],
       "answer": 1,
-      "explanationBn": "ছবিটি গ্লাভসের, তাই সঠিক উত্তর '장갑' (গ্লাভস)।"
+      "explanationBn": "'얇다' (পাতলা)-এর '-(으)ㄴ' রূপ '얇은'; গরমে পাতলা কাপড় পরা স্বাভাবিক।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 넥타이를 ( )?\n나: 네, 회사에 갈 때는 항상 넥타이를 해요.",
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "왕민 씨는 셔츠하고 반바지를 입고 있어요. 그리고 모자를 쓰고 있어요.",
       "options": [
-        "입어요",
-        "신어요",
-        "매요",
-        "써요"
+        "왕민 씨는 원피스를 입고 있어요.",
+        "왕민 씨는 모자를 신고 있어요.",
+        "왕민 씨는 모자를 쓰고 있어요.",
+        "왕민 씨는 청바지를 입고 있어요."
       ],
       "answer": 2,
-      "explanationBn": "টাই বাঁধার ক্ষেত্রে '매다' ব্যবহৃত হয়, তাই '매요' সঠিক।"
+      "explanationBn": "লেখানুযায়ী ওয়াংমিন শার্ট ও শর্টস পরে এবং টুপি পরে আছে (쓰고 있어요)।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "이 구두는 디자인은 예쁘( ) 발이 너무 아파요.",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: কোন রং-এর কথা হচ্ছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 이 초록색 운동화는 어때요?\n여자: 좋아요. 색깔이 예쁘네요.",
       "options": [
-        "지만",
-        "니까",
-        "고",
-        "아/어서"
+        "빨간색",
+        "초록색",
+        "파란색",
+        "노란색"
       ],
-      "answer": 0,
-      "explanationBn": "ডিজাইন সুন্দর কিন্তু পা ব্যথা করে, এই বৈপরীত্য বোঝাতে '지만' ব্যবহৃত হয়।"
+      "answer": 1,
+      "explanationBn": "পুরুষ বলেছেন '초록색 운동화'—সবুজ স্নিকার্স।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "পরবর্তী অনুচ্ছেদটি পড়ে প্রশ্নের উত্তর দিন। এই ব্যক্তিটি কেন সোয়েটার কিনেছে?",
-      "questionKo": "다음을 읽고 질문에 답하십시오. 이 사람은 왜 스웨터를 샀습니까?",
-      "passage": "날씨가 점점 추워지고 있습니다. 그래서 어제 백화점에 가서 따뜻한 스웨터를 하나 샀습니다. 내일부터 입을 겁니다.",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: টুপিটি কোন রঙের?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 모자가 빨간색이에요?\n여자: 네, 빨간색이에요.",
       "options": [
-        "날씨가 더워서",
-        "날씨가 추워져서",
-        "백화점에 가고 싶어서",
-        "스웨터가 예뻐서"
+        "파란색",
+        "빨간색",
+        "초록색",
+        "까만색"
       ],
       "answer": 1,
-      "explanationBn": "অনুচ্ছেদে বলা হয়েছে '날씨가 점점 추워지고 있습니다' (আবহাওয়া ক্রমশ ঠান্ডা হচ্ছে)। তাই সঠিক উত্তর '날씨가 추워져서'।"
+      "explanationBn": "মহিলা নিশ্চিত করেছেন '빨간색'—লাল টুপি।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "পরবর্তী অনুচ্ছেদটি পড়ে সঠিক বিবৃতিটি বেছে নিন।",
-      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "저는 보통 회사에 갈 때 정장을 입습니다. 하지만 주말에는 편한 반바지와 티셔츠를 입습니다.",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: জুতাটি কেমন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 구두가 작아요?\n남자: 아니요, 조금 커요.",
       "options": [
-        "주말에 정장을 입습니다.",
-        "회사에 갈 때 반바지를 입습니다.",
-        "주말에는 편한 옷을 입습니다.",
-        "정장보다 반바지가 불편합니다."
+        "작아요",
+        "비싸요",
+        "무거워요",
+        "조금 커요"
       ],
-      "answer": 2,
-      "explanationBn": "অনুচ্ছেদে বলা হয়েছে '주말에는 편한 반바지와 티셔츠를 입습니다' (সপ্তাহান্তে আরামদায়ক হাফ প্যান্ট এবং টি-শার্ট পরি)। তাই '주말에는 편한 옷을 입습니다' সঠিক।"
+      "answer": 3,
+      "explanationBn": "পুরুষ বলেছেন '조금 커요'—একটু বড়।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "শুনে সঠিক ছবিটি বেছে নিন। (ধরে নিন অডিওতে '장갑' বলা হয়েছে)",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "장갑",
+      "questionBn": "শুনে বাছাই করুন: দুজনে কী নিয়ে কথা বলছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 노란색을 좋아해요?\n남자: 아니요, 파란색을 좋아해요.",
       "options": [
-        "장갑",
-        "양말",
-        "목도리",
-        "모자"
+        "날씨",
+        "요일",
+        "색깔",
+        "취미"
       ],
-      "answer": 0,
-      "explanationBn": "অডিওতে '장갑' (গ্লাভস) বলা হয়েছে, তাই সঠিক উত্তর '장갑'।"
+      "answer": 2,
+      "explanationBn": "রং-এর পছন্দ (노란색/파란색) নিয়ে কথা হচ্ছে।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "প্রশ্নটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "이 바지 입어 봐도 돼요?",
+      "questionBn": "শুনে বাছাই করুন: ইউসুফ কী পরে আছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 유수프 씨는 무슨 옷을 입고 있어요?\n여자: 잠바를 입고 있어요.",
       "options": [
-        "네, 입어 보세요.",
-        "아니요, 바지예요.",
-        "네, 작아요.",
-        "아니요, 샀어요."
+        "티셔츠를 입고 있어요",
+        "잠바를 입고 있어요",
+        "치마를 입고 있어요",
+        "청바지를 입고 있어요"
       ],
-      "answer": 0,
-      "explanationBn": "প্রশ্ন করা হয়েছে 'এই প্যান্টটি কি পরে দেখতে পারি?'। এর সঠিক উত্তর '네, 입어 보세요' (হ্যাঁ, পরে দেখুন)।"
+      "answer": 1,
+      "explanationBn": "মহিলা বলেছেন ইউসুফ জ্যাকেট (잠바) পরে আছেন।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "কথোপকথনটি শুনে প্রশ্নের উত্তর দিন। মহিলাটি কী খুঁজছে?",
-      "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오. 여자는 무엇을 찾고 있습니까?",
-      "passage": "남자: 어서 오세요. 뭘 찾으세요?\n여자: 겨울에 할 따뜻한 목도리 있어요?",
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি কী পরে আছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 모자를 쓰고 있어요?\n남자: 네, 모자를 쓰고 있어요.",
       "options": [
-        "장갑",
-        "목도리",
-        "외투",
-        "모자"
+        "안경을 쓰고 있어요",
+        "모자를 쓰고 있어요",
+        "구두를 신고 있어요",
+        "양말을 신고 있어요"
       ],
       "answer": 1,
-      "explanationBn": "মহিলাটি বলেছে '겨울에 할 따뜻한 목도리 있어요?' (শীতকালে পরার মতো গরম মাফলার আছে কি?)। তাই সঠিক উত্তর '목도리'।"
+      "explanationBn": "পুরুষ স্বীকার করেছেন টুপি (모자) পরে আছেন।"
     }
   ]
 }
