@@ -10,17 +10,32 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "গণপরিবহনের নাম এবং ব্যবহার সম্পর্কে জানা",
-      "যাতায়াতের সময় এবং উপায় সম্পর্কে কথা বলা",
-      "কোরিয়ার গণপরিবহন ব্যবস্থা সম্পর্কে ধারণা লাভ করা"
+      "গণপরিবহন ব্যবহার জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "কাজের কারণ (-아서/어서) বলতে পারা",
+      "যানবাহন ও চলাচলের শব্দ ব্যবহার করতে পারা",
+      "কোরিয়ার গণপরিবহন ব্যবস্থা (KTX, মেট্রো, এক্সপ্রেস বাস) জানা"
     ],
     "en": [
-      "Learn the names and usage of public transportation",
-      "Talk about commuting time and methods",
-      "Understand the public transportation system in Korea"
+      "Being able to ask and answer questions about using public transportation",
+      "Being able to express the reason for an action",
+      "Being able to use vocabulary for transportation and movement",
+      "Knowing about Korea's public transport system"
     ]
   },
   "vocabulary": [
+    {
+      "ko": "타다",
+      "romanization": "tada",
+      "bn": "(যানবাহনে) ওঠা/চড়া",
+      "en": "to ride; to get on",
+      "pos": "verb",
+      "example": {
+        "ko": "버스를 타요.",
+        "bn": "বাসে চড়ি।",
+        "en": "I ride the bus."
+      },
+      "pronunciationTipBn": "'타다' [থাদা]—ㅌ ঝোঁড়া 'থা' দিয়ে শুরু করুন।"
+    },
     {
       "ko": "버스",
       "romanization": "beoseu",
@@ -28,24 +43,37 @@
       "en": "bus",
       "pos": "noun",
       "example": {
-        "ko": "버스를 타고 회사에 갑니다.",
-        "bn": "বাসে করে কোম্পানিতে যাই।",
-        "en": "I go to the company by bus."
+        "ko": "버스로 가요.",
+        "bn": "বাসে যাই।",
+        "en": "I go by bus."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "ইংরেজি 'bus'-এর কোরীয় রূপ—'버스' [বসু]।"
     },
     {
-      "ko": "지하철",
-      "romanization": "jihacheol",
-      "bn": "পাতাল রেল",
-      "en": "subway",
+      "ko": "시내버스",
+      "romanization": "sinaebeoseu",
+      "bn": "শহরের বাস",
+      "en": "city bus",
       "pos": "noun",
       "example": {
-        "ko": "지하철이 버스보다 빠릅니다.",
-        "bn": "পাতাল রেল বাসের চেয়ে দ্রুত।",
-        "en": "The subway is faster than the bus."
+        "ko": "시내버스를 타고 가요.",
+        "bn": "শহরের বাসে চড়ে যাই।",
+        "en": "I take the city bus."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'시내' [শিন্যে]—'시내' মানে শহরের ভেতরের এলাকা।"
+    },
+    {
+      "ko": "고속버스",
+      "romanization": "gosokbeoseu",
+      "bn": "এক্সপ্রেস বাস",
+      "en": "express bus",
+      "pos": "noun",
+      "example": {
+        "ko": "고속버스로 부산에 가요.",
+        "bn": "এক্সপ্রেস বাসে বুসান যাই।",
+        "en": "I go to Busan by express bus."
+      },
+      "pronunciationTipBn": "'고속' [কোসক্]—'고속' মানে দ্রুতগতি; ㄱ বত্ছিম থামা শব্দ।"
     },
     {
       "ko": "택시",
@@ -54,11 +82,11 @@
       "en": "taxi",
       "pos": "noun",
       "example": {
-        "ko": "비가 와서 택시를 탔어요.",
-        "bn": "বৃষ্টি আসায় ট্যাক্সিতে উঠেছি।",
-        "en": "I took a taxi because it rained."
+        "ko": "회사에 늦어서 택시로 왔어요.",
+        "bn": "অফিসে দেরি হওয়ায় ট্যাক্সিতে এসেছি।",
+        "en": "I came by taxi because I was late for work."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'택시' [থ্যেকশি]—ㅌ ঝোঁড়া 'থ্যে' দিয়ে শুরু করুন।"
     },
     {
       "ko": "기차",
@@ -67,11 +95,37 @@
       "en": "train",
       "pos": "noun",
       "example": {
-        "ko": "부산에 갈 때 기차를 탑니다.",
-        "bn": "বুসানে যাওয়ার সময় ট্রেনে উঠি।",
-        "en": "I take a train when going to Busan."
+        "ko": "기차역에서 기차를 타요.",
+        "bn": "স্টেশন থেকে ট্রেনে চড়ি।",
+        "en": "I take the train at the station."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'기차' [কিছা/গিছা]—ㅊ শক্ত 'ছা' শোনায়।"
+    },
+    {
+      "ko": "KTX(고속 열차)",
+      "romanization": "keitiexeu (gosok yeolcha)",
+      "bn": "কেটিএক্স (দ্রুতগামী ট্রেন)",
+      "en": "KTX (high-speed train)",
+      "pos": "noun",
+      "example": {
+        "ko": "서울에서 부산까지 KTX로 가요.",
+        "bn": "সিউল থেকে বুসান KTX-তে যাই।",
+        "en": "I go from Seoul to Busan by KTX."
+      },
+      "pronunciationTipBn": "ইংরেজি অক্ষর দিয়ে পড়ুন: '케이티엑스' [কে-থি-এক্সু]।"
+    },
+    {
+      "ko": "지하철",
+      "romanization": "jihacheol",
+      "bn": "সাবওয়ে/মেট্রো",
+      "en": "subway",
+      "pos": "noun",
+      "example": {
+        "ko": "지하철 2호선을 타고 가요.",
+        "bn": "২ নম্বর লাইন ধরে যাই।",
+        "en": "I take subway line 2."
+      },
+      "pronunciationTipBn": "'지하철' [জিহাছল]—ㅊ শক্ত 'ছ' শোনায়।"
     },
     {
       "ko": "비행기",
@@ -80,180 +134,38 @@
       "en": "airplane",
       "pos": "noun",
       "example": {
-        "ko": "방글라데시에 갈 때 비행기를 탑니다.",
-        "bn": "বাংলাদেশে যাওয়ার সময় বিমানে উঠি।",
-        "en": "I take an airplane when going to Bangladesh."
+        "ko": "비행기로 한국에 왔어요.",
+        "bn": "বিমানে কোরিয়ায় এসেছি।",
+        "en": "I came to Korea by airplane."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'비행기' [বিহ্যাংগি]—'비행' মানে উড়ান, '기' মানে যন্ত্র।"
     },
     {
       "ko": "배",
       "romanization": "bae",
-      "bn": "জাহাজ / নৌকা",
-      "en": "ship / boat",
+      "bn": "জাহাজ",
+      "en": "ship; boat",
       "pos": "noun",
       "example": {
-        "ko": "제주도에 갈 때 배를 탈 수 있습니다.",
-        "bn": "জেজু দ্বীপে যাওয়ার সময় জাহাজে ওঠা যায়।",
-        "en": "You can take a ship when going to Jeju Island."
+        "ko": "배로 중국에 갔어요.",
+        "bn": "জাহাজে চীন গিয়েছি।",
+        "en": "I went to China by ship."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
+      "pronunciationTipBn": "'배' [ব্যে]—একই শব্দে 'পেট' আর 'নাশপাতি'-ও বোঝায়।"
+    }
+    ,
     {
-      "ko": "정류장",
-      "romanization": "jeongnyujang",
-      "bn": "বাস স্টপেজ",
-      "en": "bus stop",
+      "ko": "자전거",
+      "romanization": "jajeongeo",
+      "bn": "সাইকেল",
+      "en": "bicycle",
       "pos": "noun",
       "example": {
-        "ko": "다음 정류장에서 내리세요.",
-        "bn": "পরের স্টপেজে নামুন।",
-        "en": "Please get off at the next stop."
+        "ko": "날씨가 좋아서 자전거를 타고 가요.",
+        "bn": "আবহাওয়া ভালো বলে সাইকেলে যাই।",
+        "en": "I ride my bicycle because the weather is nice."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "지하철역",
-      "romanization": "jihacheollyeok",
-      "bn": "পাতাল রেল স্টেশন",
-      "en": "subway station",
-      "pos": "noun",
-      "example": {
-        "ko": "지하철역이 어디에 있습니까?",
-        "bn": "পাতাল রেল স্টেশন কোথায়?",
-        "en": "Where is the subway station?"
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "공항",
-      "romanization": "gonghang",
-      "bn": "বিমানবন্দর",
-      "en": "airport",
-      "pos": "noun",
-      "example": {
-        "ko": "인천공항에서 친구를 만났어요.",
-        "bn": "ইঞ্চন বিমানবন্দরে বন্ধুর সাথে দেখা করেছি।",
-        "en": "I met my friend at Incheon Airport."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "터미널",
-      "romanization": "teomineol",
-      "bn": "টার্মিনাল",
-      "en": "terminal",
-      "pos": "noun",
-      "example": {
-        "ko": "고속버스 터미널에 가야 합니다.",
-        "bn": "এক্সপ্রেস বাস টার্মিনালে যেতে হবে।",
-        "en": "I have to go to the express bus terminal."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "타다",
-      "romanization": "tada",
-      "bn": "চড়া / ওঠা",
-      "en": "to ride / to get on",
-      "pos": "verb",
-      "example": {
-        "ko": "매일 아침 버스를 탑니다.",
-        "bn": "প্রতিদিন সকালে বাসে উঠি।",
-        "en": "I get on the bus every morning."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "내리다",
-      "romanization": "naerida",
-      "bn": "নামা",
-      "en": "to get off",
-      "pos": "verb",
-      "example": {
-        "ko": "시청역에서 내리세요.",
-        "bn": "সিটি হল স্টেশনে নামুন।",
-        "en": "Please get off at City Hall station."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "갈아타다",
-      "romanization": "garatada",
-      "bn": "পরিবর্তন করা (ট্রান্সফার)",
-      "en": "to transfer",
-      "pos": "verb",
-      "example": {
-        "ko": "서울역에서 1호선으로 갈아타세요.",
-        "bn": "সিউল স্টেশনে ১ নম্বর লাইনে পরিবর্তন করুন।",
-        "en": "Please transfer to Line 1 at Seoul Station."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "걷다",
-      "romanization": "geotda",
-      "bn": "হাঁটা",
-      "en": "to walk",
-      "pos": "verb",
-      "example": {
-        "ko": "집에서 회사까지 걸어서 갑니다.",
-        "bn": "বাড়ি থেকে কোম্পানি পর্যন্ত হেঁটে যাই।",
-        "en": "I walk from home to the company."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "시간이 걸리다",
-      "romanization": "sigani geollida",
-      "bn": "সময় লাগা",
-      "en": "to take time",
-      "pos": "expression",
-      "example": {
-        "ko": "회사까지 30분 걸립니다.",
-        "bn": "কোম্পানি পর্যন্ত ৩০ মিনিট লাগে।",
-        "en": "It takes 30 minutes to the company."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "교통카드",
-      "romanization": "gyotongkadeu",
-      "bn": "ট্রান্সপোর্টেশন কার্ড",
-      "en": "transportation card",
-      "pos": "noun",
-      "example": {
-        "ko": "교통카드를 충전해야 합니다.",
-        "bn": "ট্রান্সপোর্টেশন কার্ড রিচার্জ করতে হবে।",
-        "en": "I need to recharge my transportation card."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "막히다",
-      "romanization": "makhida",
-      "bn": "জ্যাম থাকা",
-      "en": "to be blocked / traffic jam",
-      "pos": "verb",
-      "example": {
-        "ko": "출근 시간에는 길이 많이 막힙니다.",
-        "bn": "কাজে যাওয়ার সময় রাস্তায় অনেক জ্যাম থাকে।",
-        "en": "The road is very jammed during rush hour."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "빠르다",
-      "romanization": "ppareuda",
-      "bn": "দ্রুত",
-      "en": "to be fast",
-      "pos": "adjective",
-      "example": {
-        "ko": "비행기가 제일 빠릅니다.",
-        "bn": "বিমান সবচেয়ে দ্রুত।",
-        "en": "The airplane is the fastest."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'자전거' [জাজনগ]—ㅈ নরম 'জা' দিয়ে শুরু করুন।"
     },
     {
       "ko": "오토바이",
@@ -262,406 +174,398 @@
       "en": "motorcycle",
       "pos": "noun",
       "example": {
-        "ko": "오토바이를 타고 배달합니다.",
-        "bn": "মোটরসাইকেল চালিয়ে ডেলিভারি করি।",
-        "en": "I deliver by riding a motorcycle."
+        "ko": "회사에 오토바이로 와요.",
+        "bn": "অফিসে মোটরসাইকেলে আসি।",
+        "en": "I come to work by motorcycle."
       },
-      "pronunciationTipBn": "'오' এবং '토' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'오토바이' [অথোবাই]—ㅌ ঝোঁড়া 'থো' শোনায়।"
     },
     {
-      "ko": "자전거",
-      "romanization": "jajeongeo",
-      "bn": "সাইকেল",
-      "en": "bicycle",
+      "ko": "버스 정류장",
+      "romanization": "beoseu jeongnyujang",
+      "bn": "বাস স্টপ",
+      "en": "bus stop",
       "pos": "noun",
       "example": {
-        "ko": "주말에 자전거를 탑니다.",
-        "bn": "সাপ্তাহিক ছুটিতে সাইকেল চালাই।",
-        "en": "I ride a bicycle on weekends."
+        "ko": "회사 앞 버스 정류장에서 타세요.",
+        "bn": "অফিসের সামনের বাস স্টপ থেকে চড়ুন।",
+        "en": "Take the bus at the stop in front of the office."
       },
-      "pronunciationTipBn": "'자' এবং '전' এর 'ㅈ' ধ্বনিটি 'জ' এর মতো।"
+      "pronunciationTipBn": "'정류장' [জংন্যুজাং]—'정' নাকিধ্বনি 'ং' সহ।"
     },
     {
-      "ko": "기사",
-      "romanization": "gisa",
-      "bn": "চালক / ড্রাইভার",
-      "en": "driver",
+      "ko": "버스 터미널",
+      "romanization": "beoseu teomineol",
+      "bn": "বাস টার্মিনাল",
+      "en": "bus terminal",
       "pos": "noun",
       "example": {
-        "ko": "택시 기사님이 친절합니다.",
-        "bn": "ট্যাক্সি ড্রাইভার দয়ালু।",
-        "en": "The taxi driver is kind."
+        "ko": "버스 터미널이 어디에 있어요?",
+        "bn": "বাস টার্মিনাল কোথায়?",
+        "en": "Where is the bus terminal?"
       },
-      "pronunciationTipBn": "'기' এর 'ㄱ' ধ্বনিটি 'গ' এবং 'ক' এর মাঝামাঝি।"
+      "pronunciationTipBn": "ইংরেজি 'terminal'-এর কোরীয় রূপ—'터미널' [থমিনল]।"
     },
     {
-      "ko": "요금",
-      "romanization": "yogeum",
-      "bn": "ভাড়া / ফি",
-      "en": "fare / fee",
+      "ko": "기차역",
+      "romanization": "gichayeok",
+      "bn": "ট্রেন স্টেশন",
+      "en": "train station",
       "pos": "noun",
       "example": {
-        "ko": "버스 요금이 올랐습니다.",
-        "bn": "বাস ভাড়া বেড়েছে।",
-        "en": "The bus fare has increased."
+        "ko": "기차역까지 버스로 가요.",
+        "bn": "স্টেশন পর্যন্ত বাসে যাই।",
+        "en": "I go to the train station by bus."
       },
-      "pronunciationTipBn": "'요' ধ্বনিটি একটু লম্বা করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'역' [য়ক্]—ㄱ বত্ছিম থামা শব্দ; '기차역' [কিছায়ক্]।"
     },
     {
-      "ko": "현금",
-      "romanization": "hyeongeum",
-      "bn": "নগদ টাকা",
-      "en": "cash",
+      "ko": "지하철역",
+      "romanization": "jihacheollyeok",
+      "bn": "সাবওয়ে স্টেশন",
+      "en": "subway station",
       "pos": "noun",
       "example": {
-        "ko": "현금으로 계산할게요.",
-        "bn": "নগদ টাকায় বিল দেব।",
-        "en": "I will pay in cash."
+        "ko": "근처에 지하철역이 있어요?",
+        "bn": "কাছাকাছি সাবওয়ে স্টেশন আছে?",
+        "en": "Is there a subway station nearby?"
       },
-      "pronunciationTipBn": "'현' এর 'ㅎ' ধ্বনিটি স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'지하철역' [জিহাছল্লক্]—ㄹ+ㄹ জোড়া 'ল্ল' শোনায়।"
     },
     {
-      "ko": "출근",
-      "romanization": "chulgeun",
-      "bn": "কাজে যাওয়া",
-      "en": "going to work",
+      "ko": "공항",
+      "romanization": "gonghang",
+      "bn": "বিমানবন্দর",
+      "en": "airport",
       "pos": "noun",
       "example": {
-        "ko": "아침 8시에 출근합니다.",
-        "bn": "সকাল ৮টায় কাজে যাই।",
-        "en": "I go to work at 8 AM."
+        "ko": "공항까지 버스로 얼마나 걸려요?",
+        "bn": "বিমানবন্দর বাসে কতক্ষণ লাগে?",
+        "en": "How long does it take to the airport by bus?"
       },
-      "pronunciationTipBn": "'출' এর 'ㅊ' ধ্বনিটি 'ছ' এর মতো।"
+      "pronunciationTipBn": "'공항' [কোংহাং]—দুটোই নাকিধ্বনি 'ং' সহ।"
     },
     {
-      "ko": "퇴근",
-      "romanization": "toegeun",
-      "bn": "কাজ থেকে ফেরা",
-      "en": "leaving work",
-      "pos": "noun",
+      "ko": "타고 가다",
+      "romanization": "tago gada",
+      "bn": "(যানবাহনে) চড়ে যাওয়া",
+      "en": "to go by (transport)",
+      "pos": "verb",
       "example": {
-        "ko": "오후 6시에 퇴근합니다.",
-        "bn": "বিকেল ৬টায় কাজ থেকে ফিরি।",
-        "en": "I leave work at 6 PM."
+        "ko": "버스를 타고 가요.",
+        "bn": "বাসে চড়ে যাই।",
+        "en": "I go by bus."
       },
-      "pronunciationTipBn": "'퇴' এর 'ㅌ' ধ্বনিটি 'থ' এর মতো।"
+      "pronunciationTipBn": "'타고' [থাগো]—'타다' + '-고' মিলে গঠিত।"
     },
     {
-      "ko": "출퇴근",
-      "romanization": "chultoegeun",
-      "bn": "কাজে যাওয়া-আসা",
-      "en": "commuting",
-      "pos": "noun",
+      "ko": "타고 오다",
+      "romanization": "tago oda",
+      "bn": "(যানবাহনে) চড়ে আসা",
+      "en": "to come by (transport)",
+      "pos": "verb",
       "example": {
-        "ko": "출퇴근 시간에 사람이 많습니다.",
-        "bn": "কাজে যাওয়া-আসার সময় অনেক মানুষ থাকে।",
-        "en": "There are many people during commuting hours."
+        "ko": "지하철을 타고 왔어요.",
+        "bn": "সাবওয়েতে চড়ে এসেছি।",
+        "en": "I came by subway."
       },
-      "pronunciationTipBn": "'출' এবং '퇴' উভয়ই বাতাস বের করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'왔어요' [ওয়াত্সয়ো]—'오다' এর অতীত সংকুচিত রূপ।"
     },
     {
-      "ko": "표",
-      "romanization": "pyo",
-      "bn": "টিকিট",
-      "en": "ticket",
-      "pos": "noun",
+      "ko": "걸어가다",
+      "romanization": "georeogada",
+      "bn": "হেঁটে যাওয়া",
+      "en": "to go on foot",
+      "pos": "verb",
       "example": {
-        "ko": "기차표를 샀습니다.",
-        "bn": "ট্রেনের টিকিট কিনেছি।",
-        "en": "I bought a train ticket."
+        "ko": "공원에 걸어가요.",
+        "bn": "পার্কে হেঁটে যাই।",
+        "en": "I walk to the park."
       },
-      "pronunciationTipBn": "'표' এর 'ㅍ' ধ্বনিটি 'ফ' এর মতো।"
+      "pronunciationTipBn": "'걸어' [কর]—'걷다' (হাঁটা) + '-아서' মিলে গঠিত।"
     },
     {
-      "ko": "매표소",
-      "romanization": "maepyoso",
-      "bn": "টিকিট কাউন্টার",
-      "en": "ticket office",
-      "pos": "noun",
+      "ko": "걸어오다",
+      "romanization": "georeooda",
+      "bn": "হেঁটে আসা",
+      "en": "to come on foot",
+      "pos": "verb",
       "example": {
-        "ko": "매표소에서 표를 삽니다.",
-        "bn": "টিকিট কাউন্টার থেকে টিকিট কিনি।",
-        "en": "I buy a ticket at the ticket office."
+        "ko": "집까지 걸어왔어요.",
+        "bn": "বাড়ি পর্যন্ত হেঁটে এসেছি।",
+        "en": "I walked all the way home."
       },
-      "pronunciationTipBn": "'매' ধ্বনিটি একটু লম্বা করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'걸어왔어요' [করওয়াত্সয়ো]—দুই ক্রিয়া মিলে এক শব্দ।"
     },
     {
-      "ko": "노선도",
-      "romanization": "noseondo",
-      "bn": "রুট ম্যাপ",
-      "en": "route map",
-      "pos": "noun",
+      "ko": "내리다",
+      "romanization": "naerida",
+      "bn": "নামা",
+      "en": "to get off",
+      "pos": "verb",
       "example": {
-        "ko": "지하철 노선도를 봅니다.",
-        "bn": "পাতাল রেলের রুট ম্যাপ দেখছি।",
-        "en": "I look at the subway route map."
+        "ko": "다음 정류장에서 내려요.",
+        "bn": "পরের স্টপে নামি।",
+        "en": "I get off at the next stop."
       },
-      "pronunciationTipBn": "'노' এবং '선' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'내리다' [ন্যেরিদা]—'낼' বলতে 'ন্যে' মুখ আধা খুলে।"
+    }
+    ,
+    {
+      "ko": "갈아타다/환승하다",
+      "romanization": "garatada/hwanseunghada",
+      "bn": "বদলে চড়া (ট্রান্সফার)",
+      "en": "to transfer (bus/train/subway)",
+      "pos": "verb",
+      "example": {
+        "ko": "지하철로 갈아타고 왔어요.",
+        "bn": "সাবওয়েতে বদলে চড়ে এসেছি।",
+        "en": "I transferred to the subway and came."
+      },
+      "pronunciationTipBn": "'갈아' [কারা]—ㄹ+ㅇ মিলে 'রা'; '환승' [হোয়ানস্‌승]।"
     },
     {
-      "ko": "환승",
-      "romanization": "hwanseung",
-      "bn": "ট্রান্সফার (পরিবর্তন)",
-      "en": "transfer",
-      "pos": "noun",
+      "ko": "걷다",
+      "romanization": "geotda",
+      "bn": "হাঁটা",
+      "en": "to walk",
+      "pos": "verb",
       "example": {
-        "ko": "환승역에서 갈아탑니다.",
-        "bn": "ট্রান্সফার স্টেশনে পরিবর্তন করি।",
-        "en": "I transfer at the transfer station."
+        "ko": "매일 걸어서 출근합니다.",
+        "bn": "প্রতিদিন হেঁটে অফিসে যাই।",
+        "en": "I walk to work every day."
       },
-      "pronunciationTipBn": "'환' এর 'ㅎ' ধ্বনিটি স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'걸어서' [করস]—ㄹ+ㅇ মিলে 'র' শোনায়।"
     },
     {
-      "ko": "길",
-      "romanization": "gil",
-      "bn": "রাস্তা",
-      "en": "road / street",
-      "pos": "noun",
+      "ko": "차가 막히다",
+      "romanization": "chaga makhida",
+      "bn": "যানজট হওয়া",
+      "en": "to have a traffic jam",
+      "pos": "verb",
       "example": {
-        "ko": "길이 많이 막힙니다.",
-        "bn": "রাস্তায় অনেক জ্যাম।",
-        "en": "The road is very jammed."
+        "ko": "퇴근 시간이라서 차가 막혔어요.",
+        "bn": "রাশ আওয়ার বলে যানজট হয়েছিল।",
+        "en": "There was a traffic jam because it was rush hour."
       },
-      "pronunciationTipBn": "'길' এর 'ㄹ' ধ্বনিটি বাংলা 'ল' এর মতো।"
-    },
-    {
-      "ko": "멀다",
-      "romanization": "meolda",
-      "bn": "দূরে",
-      "en": "to be far",
-      "pos": "adjective",
-      "example": {
-        "ko": "회사가 집에서 멉니다.",
-        "bn": "কোম্পানি বাড়ি থেকে দূরে।",
-        "en": "The company is far from home."
-      },
-      "pronunciationTipBn": "'멀' এর 'ㄹ' ধ্বনিটি বাংলা 'ল' এর মতো।"
+      "pronunciationTipBn": "'막혔어요' [মাখ্যত্সয়ো]—ㅎ+ㅇ মিলে 'খ্য' শোনায়।"
     },
     {
       "ko": "가깝다",
       "romanization": "gakkapda",
-      "bn": "কাছে",
+      "bn": "কাছে হওয়া",
       "en": "to be close",
       "pos": "adjective",
       "example": {
-        "ko": "지하철역이 가깝습니다.",
-        "bn": "পাতাল রেল স্টেশন কাছে।",
-        "en": "The subway station is close."
+        "ko": "회사가 집에서 가까워요.",
+        "bn": "অফিস বাড়ি থেকে কাছে।",
+        "en": "The office is close to home."
       },
-      "pronunciationTipBn": "'깝' এর 'ㄲ' ধ্বনিটি শক্ত করে 'ক' এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "'가까워요' [কাক্কাওয়ায়ো]—ㄱ+ㅂ মিলে জোরে 'ক্কা' শোনায়।"
+    },
+    {
+      "ko": "멀다",
+      "romanization": "meolda",
+      "bn": "দূর হওয়া",
+      "en": "to be far",
+      "pos": "adjective",
+      "example": {
+        "ko": "공항이 멀어요.",
+        "bn": "বিমানবন্দর দূরে।",
+        "en": "The airport is far."
+      },
+      "pronunciationTipBn": "'멀어요' [মরায়ো]—ㄹ+ㅇ মিলে 'রা' শোনায়।"
+    },
+    {
+      "ko": "늦다",
+      "romanization": "neutda",
+      "bn": "দেরি হওয়া",
+      "en": "to be late",
+      "pos": "adjective",
+      "example": {
+        "ko": "회사에 늦었어요.",
+        "bn": "অফিসে দেরি হয়ে গেছে।",
+        "en": "I was late for work."
+      },
+      "pronunciationTipBn": "'늦었어요' [নুজত্সয়ো]—ㅈ+ㅇ মিলে 'জ' শোনায়।"
+    },
+    {
+      "ko": "얼마나",
+      "romanization": "eolmana",
+      "bn": "কতটুকু/কতক্ষণ",
+      "en": "how much; how long",
+      "pos": "pronoun",
+      "example": {
+        "ko": "공항까지 얼마나 걸려요?",
+        "bn": "বিমানবন্দর কতক্ষণ লাগে?",
+        "en": "How long does it take to the airport?"
+      },
+      "pronunciationTipBn": "'얼마나' [অলমানা]—'얼마' (দাম) থেকে আলাদা মনে রাখুন।"
+    },
+    {
+      "ko": "어떻게",
+      "romanization": "eotteoke",
+      "bn": "কীভাবে",
+      "en": "how",
+      "pos": "pronoun",
+      "example": {
+        "ko": "회사에 어떻게 와요?",
+        "bn": "অফিসে কীভাবে আসেন?",
+        "en": "How do you come to work?"
+      },
+      "pronunciationTipBn": "'어떻게' [অতোক্যে/অত্তোকে]—ㅌ জোড়া শব্দ হয়ে যায়।"
+    },
+    {
+      "ko": "번",
+      "romanization": "beon",
+      "bn": "নম্বর (বাস/লাইন)",
+      "en": "number (bus/route)",
+      "pos": "noun",
+      "example": {
+        "ko": "몇 번 버스를 타야 돼요?",
+        "bn": "কত নম্বর বাস ধরতে হবে?",
+        "en": "Which bus number should I take?"
+      },
+      "pronunciationTipBn": "'번' [বন]—'몇 번' = কত নম্বর; '100번 버스' = ১০০ নম্বর বাস।"
+    },
+    {
+      "ko": "쯤",
+      "romanization": "jjeum",
+      "bn": "প্রায়/মতো",
+      "en": "about; approximately",
+      "pos": "adverb",
+      "example": {
+        "ko": "20분쯤 걸려요.",
+        "bn": "প্রায় ২০ মিনিট লাগে।",
+        "en": "It takes about 20 minutes."
+      },
+      "pronunciationTipBn": "'쯤' [জ্জুম]—জোড়া ㅉ শক্ত করে বলুন।"
+    },
+    {
+      "ko": "미안하다",
+      "romanization": "mianhada",
+      "bn": "দুঃখিত হওয়া",
+      "en": "to be sorry",
+      "pos": "adjective",
+      "example": {
+        "ko": "늦어서 미안해요.",
+        "bn": "দেরি হওয়ায় দুঃখিত।",
+        "en": "I am sorry for being late."
+      },
+      "pronunciationTipBn": "'미안해요' [মিয়ান্যায়ো]—আনুষ্ঠানিকে '죄송합니다' বলুন।"
+    },
+    {
+      "ko": "출퇴근 시간",
+      "romanization": "chultoegeun sigan",
+      "bn": "অফিস যাওয়া-আসার সময় (রাশ আওয়ার)",
+      "en": "rush hour (commute time)",
+      "pos": "noun",
+      "example": {
+        "ko": "출퇴근 시간에 차가 막혀요.",
+        "bn": "রাশ আওয়ারে যানজট হয়।",
+        "en": "There is a traffic jam during rush hour."
+      },
+      "pronunciationTipBn": "'출퇴근' [ছুলথোয়েগুন]—출근 (যাওয়া) + 퇴근 (ফেরা) মিলে গঠিত।"
     }
   ],
   "grammar": [
     {
-      "pattern": "N + (으)로",
-      "titleBn": "মাধ্যম বা দিক নির্দেশক",
-      "explanationBn": "এটি কোনো কাজ করার মাধ্যম বা উপায় বোঝাতে ব্যবহৃত হয়। যেমন, বাসে করে, ট্রেনে করে ইত্যাদি। বিশেষ্য পদের শেষে ব্যঞ্জনবর্ণ থাকলে '으로' এবং স্বরবর্ণ বা 'ㄹ' থাকলে '로' যুক্ত হয়।",
-      "explanationEn": "Used to indicate the means or method of doing something (e.g., by bus, by train). '으로' is added after a noun ending in a consonant, and '로' is added after a vowel or 'ㄹ'.",
+      "pattern": "N + (으)로 (수단)",
+      "titleBn": "মাধ্যমসূচক '(으)로' (দিয়ে/তে)",
+      "explanationBn": "কোনো কাজের মাধ্যম, উপায় বা যানবাহন বোঝাতে বিশেষ্যের পরে '(으)로' বসে—বাংলার 'দিয়ে/তে'। বত্ছিম থাকলে '으로' (트럭으로), না থাকলে বা ㄹ বত্ছিমে '로' (기차로, 지하철로)।",
+      "explanationEn": "(으)로 marks the means, method, or vehicle of an action—like 'by'. Use 으로 after a consonant (트럭으로) and 로 after a vowel or ㄹ (기차로, 지하철로).",
       "examples": [
-        {
-          "ko": "버스로 회사에 갑니다.",
-          "bn": "বাসে করে কোম্পানিতে যাই।",
-          "en": "I go to the company by bus."
-        },
-        {
-          "ko": "지하철로 명동에 가요.",
-          "bn": "পাতাল রেলে করে মিয়ংদংয়ে যাই।",
-          "en": "I go to Myeongdong by subway."
-        },
-        {
-          "ko": "자전거로 학교에 왔어요.",
-          "bn": "সাইকেলে করে স্কুলে এসেছি।",
-          "en": "I came to school by bicycle."
-        }
+        { "ko": "버스로 가요.", "bn": "বাসে যাই।", "en": "I go by bus." },
+        { "ko": "회사에 지하철로 가요.", "bn": "অফিসে সাবওয়েতে যাই।", "en": "I go to work by subway." },
+        { "ko": "한국에서 중국까지 배로 갔어요.", "bn": "কোরিয়া থেকে চীন জাহাজে গিয়েছি।", "en": "I went from Korea to China by ship." }
       ],
-      "commonMistakeBn": "সঠিকভাবে ব্যবহার করতে খেয়াল রাখুন।"
+      "commonMistakeBn": "'버스을 가요' বলা ভুল—মাধ্যম বোঝাতে কর্মবাচক 을/를 নয়, '(으)로' বসে: 버스로 가요।"
     },
     {
-      "pattern": "에서 ~ 까지",
-      "titleBn": "স্থান থেকে স্থান পর্যন্ত",
-      "explanationBn": "এটি কোনো স্থান থেকে শুরু করে অন্য কোনো স্থান পর্যন্ত বোঝাতে ব্যবহৃত হয়। '에서' মানে 'থেকে' এবং '까지' মানে 'পর্যন্ত'।",
-      "explanationEn": "Used to indicate the starting point and ending point of a location. '에서' means 'from' and '까지' means 'to/until'.",
+      "pattern": "~에서 ~까지",
+      "titleBn": "'~에서 ~까지' (থেকে পর্যন্ত)",
+      "explanationBn": "যাত্রা বা কাজের শুরু ও শেষ বিন্দু বোঝাতে জায়গার পরে '에서' আর '까지' বসে—বাংলার 'থেকে ... পর্যন্ত': 여기에서 약국까지 15분 걸려요।",
+      "explanationEn": "~에서 ~까지 shows the start and end points of a journey or activity—'from ... to ...': 여기에서 약국까지 15분 걸려요.",
       "examples": [
-        {
-          "ko": "집에서 회사까지 얼마나 걸려요?",
-          "bn": "বাড়ি থেকে কোম্পানি পর্যন্ত কতক্ষণ লাগে?",
-          "en": "How long does it take from home to the company?"
-        },
-        {
-          "ko": "서울에서 부산까지 KTX를 탑니다.",
-          "bn": "সিউল থেকে বুসান পর্যন্ত KTX-এ উঠি।",
-          "en": "I take the KTX from Seoul to Busan."
-        },
-        {
-          "ko": "기숙사에서 공장까지 걸어서 10분 걸립니다.",
-          "bn": "ডরমিটরি থেকে কারখানা পর্যন্ত হেঁটে ১০ মিনিট লাগে।",
-          "en": "It takes 10 minutes on foot from the dormitory to the factory."
-        }
+        { "ko": "서울에서 부산까지 KTX로 2시간 40분 걸려요.", "bn": "সিউল থেকে বুসান KTX-তে ২ ঘণ্টা ৪০ মিনিট লাগে।", "en": "From Seoul to Busan takes 2 hours 40 minutes by KTX." },
+        { "ko": "회사에서 공항까지 1시간쯤 걸려요.", "bn": "অফিস থেকে বিমানবন্দর প্রায় ১ ঘণ্টা লাগে।", "en": "It takes about an hour from the office to the airport." },
+        { "ko": "여기에서 약국까지 15분쯤 걸려요.", "bn": "এখান থেকে ফার্মেসি প্রায় ১৫ মিনিট লাগে।", "en": "It takes about 15 minutes from here to the pharmacy." }
       ],
-      "commonMistakeBn": "সঠিকভাবে ব্যবহার করতে খেয়াল রাখুন।"
+      "commonMistakeBn": "'서울부터 부산에서' মেশানো রূপ বলা ভুল—শুরুতে '에서', শেষে '까지' বসে: 서울에서 부산까지।"
+    }
+    ,
+    {
+      "pattern": "V/A + -아서/어서 (이유)",
+      "titleBn": "কারণসূচক '-아서/어서' (বলে/করে)",
+      "explanationBn": "সামনের অংশ কেন হলো তার কারণ বোঝাতে '-아서/어서' বসে—বাংলার 'বলে/করে/হওয়ায়'। ㅏ/ㅗ হলে '-아서' (싸다→싸서), অন্য স্বরে '-어서' (읽다→읽어서), '하다' হলে '-해서'।",
+      "explanationEn": "-아서/어서 shows that the first part is the reason for the second part—'because/so'. Use -아서 after ㅏ/ㅗ (싸다→싸서), -어서 after other vowels (읽다→읽어서), and -해서 for 하다.",
+      "examples": [
+        { "ko": "비가 와서 우산을 샀어요.", "bn": "বৃষ্টি হয়েছে বলে ছাতা কিনেছি।", "en": "I bought an umbrella because it rained." },
+        { "ko": "과일이 싱싱해서 몇 개 샀어요.", "bn": "ফল তাজা বলে কয়েকটা কিনেছি।", "en": "The fruit was fresh, so I bought some." },
+        { "ko": "날씨가 좋아서 걸어왔어요.", "bn": "আবহাওয়া ভালো বলে হেঁটে এসেছি।", "en": "I walked because the weather was nice." }
+      ],
+      "commonMistakeBn": "কারণে '-았어서' বসানো ভুল—যেমন '비가 왔어서' নয়, '비가 와서' বলুন; অতীত চিহ্ন শেষ বাক্যে থাকে।"
     },
     {
-      "pattern": "V + 아/어/여야 하다/되다",
-      "titleBn": "বাধ্যবাধকতা বা প্রয়োজনীয়তা",
-      "explanationBn": "এটি কোনো কাজ করা আবশ্যক বা প্রয়োজনীয় বোঝাতে ব্যবহৃত হয়। ক্রিয়াপদের শেষে 'ㅏ' বা 'ㅗ' থাকলে '아야 하다/되다', অন্য স্বরবর্ণ থাকলে '어야 하다/되다' এবং '하다' থাকলে '해야 하다/되다' যুক্ত হয়।",
-      "explanationEn": "Used to express obligation or necessity (must/have to). '아야 하다/되다' is used if the verb stem ends in 'ㅏ' or 'ㅗ', '어야 하다/되다' for other vowels, and '해야 하다/되다' for '하다' verbs.",
+      "pattern": "얼마나 걸려요?",
+      "titleBn": "'কতক্ষণ লাগে?' জিজ্ঞাসা",
+      "explanationBn": "কোথাও যেতে কতক্ষণ সময় লাগে জানতে '얼마나 걸려요?' বলুন। উত্তরে সময় + 쯤 + 걸려요 বলুন: 1시간쯤 걸려요। '얼마' দাম জিজ্ঞাসায়—দুটো আলাদা।",
+      "explanationEn": "Ask how long it takes with 얼마나 걸려요? Answer with time + 쯤 + 걸려요: 1시간쯤 걸려요. (얼마 is for prices—different.)",
       "examples": [
-        {
-          "ko": "내일 일찍 일어나야 합니다.",
-          "bn": "আগামীকাল সকালে তাড়াতাড়ি উঠতে হবে।",
-          "en": "I have to wake up early tomorrow."
-        },
-        {
-          "ko": "지하철을 타야 돼요.",
-          "bn": "পাতাল রেলে উঠতে হবে।",
-          "en": "I have to take the subway."
-        },
-        {
-          "ko": "교통카드를 충전해야 합니다.",
-          "bn": "ট্রান্সপোর্টেশন কার্ড রিচার্জ করতে হবে।",
-          "en": "I must recharge the transportation card."
-        }
+        { "ko": "공항까지 버스로 얼마나 걸려요?", "bn": "বিমানবন্দর বাসে কতক্ষণ লাগে?", "en": "How long does it take to the airport by bus?" },
+        { "ko": "1시간쯤 걸려요.", "bn": "প্রায় এক ঘণ্টা লাগে।", "en": "It takes about an hour." },
+        { "ko": "회사에서 얼마나 걸렸어요?", "bn": "অফিস থেকে কতক্ষণ লেগেছে?", "en": "How long did it take from work?" }
       ],
-      "commonMistakeBn": "অনেকে '하다' এবং '되다' এর মধ্যে পার্থক্য বুঝতে ভুল করেন, তবে দুটি প্রায় একই অর্থে ব্যবহৃত হয়।"
+      "commonMistakeBn": "'얼마 걸려요?' বলা ভুল—সময়/দূরত্ব জিজ্ঞাসায় '얼마나' বসে; '얼마' শুধু দামের জন্য।"
     },
     {
-      "pattern": "V + (으)ㄹ 수 있다/없다",
-      "titleBn": "সক্ষমতা বা সম্ভাবনা",
-      "explanationBn": "এটি কোনো কাজ করার সক্ষমতা বা সম্ভাবনা বোঝাতে ব্যবহৃত হয়। ক্রিয়াপদের শেষে ব্যঞ্জনবর্ণ থাকলে '을 수 있다/없다' এবং স্বরবর্ণ বা 'ㄹ' থাকলে 'ㄹ 수 있다/없다' যুক্ত হয়।",
-      "explanationEn": "Used to express ability or possibility (can/cannot). '을 수 있다/없다' is added after a consonant, and 'ㄹ 수 있다/없다' after a vowel or 'ㄹ'.",
+      "pattern": "타고 가다/오다 vs 걸어가다/오다",
+      "titleBn": "যানবাহনে বনাম হেঁটে যাওয়া/আসা",
+      "explanationBn": "যানবাহনে চলাচলে '타고 가다/오다' (চড়ে যাওয়া/আসা), আর হাঁটা চলাচলে '걸어가다/오다' (হেঁটে যাওয়া/আসা) ব্যবহৃত হয়: 버스를 타고 가요 / 공원에 걸어가요।",
+      "explanationEn": "Use 타고 가다/오다 for going/coming by transport and 걸어가다/오다 for going/coming on foot: 버스를 타고 가요 / 공원에 걸어가요.",
       "examples": [
-        {
-          "ko": "여기서 택시를 탈 수 있어요.",
-          "bn": "এখানে ট্যাক্সিতে ওঠা যাবে।",
-          "en": "You can take a taxi here."
-        },
-        {
-          "ko": "자전거를 탈 수 없습니다.",
-          "bn": "সাইকেল চালাতে পারি না।",
-          "en": "I cannot ride a bicycle."
-        },
-        {
-          "ko": "한국어로 말할 수 있어요.",
-          "bn": "কোরিয়ান ভাষায় কথা বলতে পারি।",
-          "en": "I can speak in Korean."
-        }
+        { "ko": "버스를 타고 가요.", "bn": "বাসে চড়ে যাই।", "en": "I go by bus." },
+        { "ko": "지하철을 타고 왔어요.", "bn": "সাবওয়েতে চড়ে এসেছি।", "en": "I came by subway." },
+        { "ko": "집까지 걸어왔어요.", "bn": "বাড়ি পর্যন্ত হেঁটে এসেছি।", "en": "I walked all the way home." }
       ],
-      "commonMistakeBn": "অনেকে 'ㄹ 수 있다' এর পরিবর্তে শুধু '수 있다' ব্যবহার করেন, যা ভুল।"
+      "commonMistakeBn": "'걸어서 가요' বলা ভুল—'걷다' আর '가다' মিলে '걸어가다' হয়, আলাদা '-아서' বসে না।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "কাজে যাওয়ার উপায়",
-      "titleEn": "Commuting Method",
+      "titleBn": "বিমানবন্দরে যাওয়ার পথ",
+      "titleEn": "The Way to the Airport",
       "lines": [
-        {
-          "speaker": "투안",
-          "ko": "수루 씨는 여기까지 어떻게 왔어요?",
-          "bn": "সুরু সাহেব, আপনি এখানে কীভাবে এসেছেন?",
-          "en": "Suru, how did you get here?"
-        },
-        {
-          "speaker": "수루",
-          "ko": "저는 회사가 가까워서 걸어왔어요. 투안 씨는요?",
-          "bn": "আমার কোম্পানি কাছে হওয়ায় হেঁটে এসেছি। আর আপনি তুয়ান সাহেব?",
-          "en": "My company is close, so I walked. How about you, Tuan?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "저는 버스를 타고 왔어요.",
-          "bn": "আমি বাসে করে এসেছি।",
-          "en": "I came by bus."
-        },
-        {
-          "speaker": "수루",
-          "ko": "회사에서 여기까지 시간이 얼마나 걸려요?",
-          "bn": "কোম্পানি থেকে এখান পর্যন্ত কতক্ষণ লাগে?",
-          "en": "How long does it take from the company to here?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "보통 30분 정도 걸려요. 그런데 출퇴근 시간에는 차가 막혀서 시간이 더 걸려요.",
-          "bn": "সাধারণত ৩০ মিনিটের মতো লাগে। কিন্তু কাজে যাওয়া-আসার সময় জ্যাম থাকায় সময় আরও বেশি লাগে।",
-          "en": "It usually takes about 30 minutes. But during rush hour, there is a traffic jam, so it takes more time."
-        }
+        { "speaker": "A", "ko": "내일 공항에 가야 돼요. 회사에서 공항까지 어떻게 가요?", "bn": "আগামীকাল বিমানবন্দরে যেতে হবে। অফিস থেকে কীভাবে যাই?", "en": "I need to go to the airport tomorrow. How do I get there from the office?" },
+        { "speaker": "B", "ko": "버스로 가요.", "bn": "বাসে যান।", "en": "You can go by bus." },
+        { "speaker": "A", "ko": "몇 번 버스를 타야 돼요?", "bn": "কত নম্বর বাস ধরতে হবে?", "en": "Which bus should I take?" },
+        { "speaker": "B", "ko": "회사 앞 버스 정류장에서 100번 버스를 타세요.", "bn": "অফিসের সামনের বাস স্টপ থেকে ১০০ নম্বর বাস ধরুন।", "en": "Take bus number 100 at the bus stop in front of the office." },
+        { "speaker": "A", "ko": "공항까지 버스로 얼마나 걸려요?", "bn": "বিমানবন্দর বাসে কতক্ষণ?", "en": "How long does it take to the airport by bus?" },
+        { "speaker": "B", "ko": "1시간쯤 걸려요.", "bn": "প্রায় এক ঘণ্টা।", "en": "It takes about an hour." }
       ]
     },
     {
-      "titleBn": "পাতাল রেল ব্যবহার",
-      "titleEn": "Using the Subway",
+      "titleBn": "দেরি হওয়ার কারণ",
+      "titleEn": "The Reason for Being Late",
       "lines": [
-        {
-          "speaker": "리한",
-          "ko": "시청에 어떻게 가요?",
-          "bn": "সিটি হলে কীভাবে যাব?",
-          "en": "How do I go to City Hall?"
-        },
-        {
-          "speaker": "지훈",
-          "ko": "버스나 지하철을 타고 가세요.",
-          "bn": "বাস বা পাতাল রেলে করে যান।",
-          "en": "Take a bus or the subway."
-        },
-        {
-          "speaker": "리한",
-          "ko": "뭐가 더 빨라요?",
-          "bn": "কোনটা বেশি দ্রুত?",
-          "en": "Which one is faster?"
-        },
-        {
-          "speaker": "지훈",
-          "ko": "지금은 차가 막히니까 지하철이 더 빠를 거예요.",
-          "bn": "এখন জ্যাম আছে তাই পাতাল রেল বেশি দ্রুত হবে।",
-          "en": "There is traffic now, so the subway will be faster."
-        },
-        {
-          "speaker": "리한",
-          "ko": "몇 호선을 타야 해요?",
-          "bn": "কত নম্বর লাইনে উঠতে হবে?",
-          "en": "Which line should I take?"
-        },
-        {
-          "speaker": "지훈",
-          "ko": "1호선을 타고 가다가 서울역에서 2호선으로 갈아타세요.",
-          "bn": "১ নম্বর লাইনে গিয়ে সিউল স্টেশনে ২ নম্বর লাইনে পরিবর্তন করুন।",
-          "en": "Take Line 1 and transfer to Line 2 at Seoul Station."
-        }
+        { "speaker": "A", "ko": "약속에 늦어서 미안해요. 퇴근 시간이라서 차가 조금 막혔어요.", "bn": "দেরি হওয়ায় দুঃখিত। রাশ আওয়ার বলে একটু যানজট ছিল।", "en": "Sorry for being late. The traffic was a bit heavy because it was rush hour." },
+        { "speaker": "B", "ko": "괜찮아요. 여기까지 버스를 타고 왔어요?", "bn": "ঠিক আছে। এখানে বাসে এসেছেন?", "en": "It's okay. Did you come here by bus?" },
+        { "speaker": "A", "ko": "네. 자하라 씨는 어떻게 왔어요?", "bn": "হ্যাঁ। জাহারা কীভাবে এসেছেন?", "en": "Yes. How did you come, Zahara?" },
+        { "speaker": "B", "ko": "저는 회사가 가까워서 걸어왔어요.", "bn": "আমার অফিস কাছে বলে হেঁটে এসেছি।", "en": "My workplace is close, so I walked." },
+        { "speaker": "A", "ko": "회사에서 얼마나 걸렸어요?", "bn": "অফিস থেকে কতক্ষণ লেগেছে?", "en": "How long did it take from work?" },
+        { "speaker": "B", "ko": "20분쯤 걸렸어요.", "bn": "প্রায় ২০ মিনিট লেগেছে।", "en": "It took about 20 minutes." }
       ]
     },
     {
-      "titleBn": "ট্রান্সপোর্টেশন কার্ড রিচার্জ",
-      "titleEn": "Recharging Transportation Card",
+      "titleBn": "কীভাবে আসেন?",
+      "titleEn": "How Do You Commute?",
       "lines": [
-        {
-          "speaker": "투안",
-          "ko": "아저씨, 교통카드 충전할 수 있어요?",
-          "bn": "চাচা, ট্রান্সপোর্টেশন কার্ড রিচার্জ করা যাবে?",
-          "en": "Sir, can I recharge my transportation card?"
-        },
-        {
-          "speaker": "편의점 직원",
-          "ko": "네, 얼마 충전해 드릴까요?",
-          "bn": "হ্যাঁ, কত টাকা রিচার্জ করে দেব?",
-          "en": "Yes, how much should I recharge for you?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "만 원 충전해 주세요.",
-          "bn": "দশ হাজার ওন রিচার্জ করে দিন।",
-          "en": "Please recharge 10,000 won."
-        },
-        {
-          "speaker": "편의점 직원",
-          "ko": "네, 여기 있습니다.",
-          "bn": "হ্যাঁ, এই নিন।",
-          "en": "Yes, here you go."
-        },
-        {
-          "speaker": "투안",
-          "ko": "감사합니다.",
-          "bn": "ধন্যবাদ।",
-          "en": "Thank you."
-        }
+        { "speaker": "A", "ko": "회사에 어떻게 와요?", "bn": "অফিসে কীভাবে আসেন?", "en": "How do you come to work?" },
+        { "speaker": "B", "ko": "지하철로 와요.", "bn": "সাবওয়েতে আসি।", "en": "I come by subway." },
+        { "speaker": "A", "ko": "왜 지하철을 타고 와요?", "bn": "কেন সাবওয়েতে আসেন?", "en": "Why do you take the subway?" },
+        { "speaker": "B", "ko": "출퇴근 시간에 차가 막혀서 지하철로 와요.", "bn": "রাশ আওয়ারে যানজট হয় বলে সাবওয়েতে আসি।", "en": "I take the subway because traffic jams during rush hour." },
+        { "speaker": "A", "ko": "집에서 회사까지 얼마나 걸려요?", "bn": "বাড়ি থেকে অফিস কতক্ষণ?", "en": "How long does it take from home to work?" },
+        { "speaker": "B", "ko": "30분쯤 걸려요.", "bn": "প্রায় ৩০ মিনিট।", "en": "It takes about 30 minutes." }
       ]
     }
   ],
@@ -669,590 +573,361 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 저는 매일 아침 ___을/를 타고 회사에 갑니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "기차",
-        "비행기",
-        "배",
-        "버스"
-      ],
+      "questionBn": "'지하철' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["বাস", "ট্রেন", "ট্যাক্সি", "সাবওয়ে/মেট্রো"],
       "answer": 3,
-      "explanationBn": "প্রতিদিন সকালে কাজে যাওয়ার জন্য সাধারণত 'বাস' (버스) ব্যবহার করা হয়।"
+      "explanationBn": "지하철 = সাবওয়ে/মেট্রো। '지하' মানে ভূগর্ভ, '철' মানে রেল।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 한국에서 방글라데시에 갈 때 ___을/를 탑니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "지하철",
-        "자전거",
-        "비행기",
-        "택시"
-      ],
-      "answer": 2,
-      "explanationBn": "কোরিয়া থেকে বাংলাদেশে যাওয়ার জন্য 'বিমান' (비행기) ব্যবহার করতে হয়।"
+      "questionBn": "মাধ্যম বোঝাতে সঠিক পার্টিকেল বসান: 버스___ 가요।",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": ["로", "을", "에", "이"],
+      "answer": 0,
+      "explanationBn": "যানবাহনের মাধ্যমে '(으)로' বসে; '버스' স্বরবর্ণে শেষ তাই '로'।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 집에서 공장___ 걸어서 10분 걸립니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "로",
-        "까지",
-        "에서",
-        "으로"
-      ],
-      "answer": 1,
-      "explanationBn": "বাড়ি থেকে কারখানা 'পর্যন্ত' বোঝাতে '까지' ব্যবহৃত হয়।"
+      "questionBn": "কারণ বোঝাতে সঠিক অংশ বসান: 비가 와___ 우산을 샀어요।",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": ["서", "고", "면", "네"],
+      "answer": 0,
+      "explanationBn": "ㅏ স্বরের পরে '-아서' বসে কারণ বোঝায়: 비가 와서 (বৃষ্টি হওয়ায়)।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 비가 많이 와서 ___를 탔어요.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "택시",
-        "비행기",
-        "배",
-        "기차"
-      ],
-      "answer": 0,
-      "explanationBn": "বৃষ্টির কারণে সাধারণত 'ট্যাক্সি' (택시) নেওয়া হয়।"
+      "questionBn": "'걸리다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["দেরি হওয়া", "যানজট হওয়া", "সময় লাগা", "দূর হওয়া"],
+      "answer": 2,
+      "explanationBn": "걸리다 = সময় লাগা: 1시간 걸려요 (১ ঘণ্টা লাগে)।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "সঠিক ব্যাকরণ দিয়ে শূন্যস্থান পূরণ করুন: 지하철___ 명동에 갑니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "까지",
-        "에서",
-        "으로",
-        "로"
-      ],
-      "answer": 3,
-      "explanationBn": "지하철 (পাতাল রেল) এর শেষে 'ㄹ' থাকায় মাধ্যম বোঝাতে '로' বসবে।"
+      "type": "multiple-choice",
+      "questionBn": "কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["서울에서 부산까지 KTX로 가요.", "서울부터 부산에서 KTX로 가요.", "서울에서 부산부터 KTX로 가요.", "서울까지 부산까지 KTX로 가요."],
+      "answer": 0,
+      "explanationBn": "শুরুতে '에서', শেষে '까지': 서울에서 부산까지।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "সঠিক ব্যাকরণ দিয়ে শূন্যস্থান পূরণ করুন: 서울역___ 2호선으로 갈아타세요.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "까지",
-        "으로",
-        "에서",
-        "로"
-      ],
-      "answer": 2,
-      "explanationBn": "সিউল স্টেশন 'থেকে' পরিবর্তন করার কথা বলা হয়েছে, তাই '에서' বসবে।"
+      "type": "multiple-choice",
+      "questionBn": "'쯤' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["ঠিক", "প্রায়/মতো", "খুব", "একটু"],
+      "answer": 1,
+      "explanationBn": "쯤 = প্রায়/মতো: 20분쯤 = প্রায় ২০ মিনিট।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "সঠিক শব্দ দিয়ে শূন্যস্থান পূরণ করুন: 출퇴근 시간에는 길이 많이 ___.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "빠릅니다",
-        "막힙니다",
-        "걸립니다",
-        "내립니다"
-      ],
+      "type": "multiple-choice",
+      "questionBn": "বত্ছিমযুক্ত শব্দের পরে সঠিক রূপ কোনটি: 트럭___?",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": ["로", "으로", "을로", "가로"],
       "answer": 1,
-      "explanationBn": "কাজে যাওয়া-আসার সময় রাস্তায় জ্যাম থাকে, তাই '막힙니다' (জ্যাম থাকা) বসবে।"
+      "explanationBn": "'트럭' বত্ছিমযুক্ত, তাই '으로' বসে: 트럭으로।"
     },
     {
       "id": "p8",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "지하철",
-          "right": "পাতাল রেল"
-        },
-        {
-          "left": "정류장",
-          "right": "বাস স্টপেজ"
-        },
-        {
-          "left": "갈아타다",
-          "right": "পরিবর্তন করা"
-        },
-        {
-          "left": "교통카드",
-          "right": "ট্রান্সপোর্টেশন কার্ড"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "multiple-choice",
+      "questionBn": "'갈아타다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["নামা", "ওঠা", "বদলে চড়া", "চড়া"],
+      "answer": 2,
+      "explanationBn": "갈아타다 = বদলে চড়া (ট্রান্সফার); আনুষ্ঠানিকে '환승하다'।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "비행기",
-          "right": "বিমান"
-        },
-        {
-          "left": "공항",
-          "right": "বিমানবন্দর"
-        },
-        {
-          "left": "빠르다",
-          "right": "দ্রুত"
-        },
-        {
-          "left": "막히다",
-          "right": "জ্যাম থাকা"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "multiple-choice",
+      "questionBn": "'늦어서 미안해요' — কেন দুঃখিত বলা হচ্ছে?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["দাম বেশি বলে", "দেরি হওয়ায়", "যানজটে আটকে থাকায়", "কাজ অনেক বলে"],
+      "answer": 1,
+      "explanationBn": "'늦다' = দেরি হওয়া—দেরি হওয়ায় (늦어서) দুঃখিত বলা হচ্ছে।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "타다",
-          "right": "চড়া / ওঠা"
-        },
-        {
-          "left": "내리다",
-          "right": "নামা"
-        },
-        {
-          "left": "걷다",
-          "right": "হাঁটা"
-        },
-        {
-          "left": "기차",
-          "right": "ট্রেন"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "fill-blank",
+      "questionBn": "'싸다' এর কারণসূচক রূপ বসান: 싸___ 비빔밥을 먹어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["아서", "어서", "해서", "고"],
+      "answer": 0,
+      "explanationBn": "ㅏ স্বরের পরে '-아서' বসে: 싸서 (সস্তা বলে)।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 저는 주말에 공원에서 ___을/를 탑니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "비행기",
-        "기차",
-        "자전거",
-        "지하철"
-      ],
-      "answer": 2,
-      "explanationBn": "পার্কে সাধারণত 'সাইকেল' (자전거) চালানো হয়।"
+      "type": "fill-blank",
+      "questionBn": "'অফিস কাছে বলে হেঁটে আসি' বাক্যটি সম্পূর্ণ করুন: 회사가 가까___ 걸어와요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["아서", "어서", "해서", "워서"],
+      "answer": 3,
+      "explanationBn": "'가깝다' এর 'ㅂ' অনিয়মে 가까워서 হয়।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 택시 ___이/가 너무 비쌉니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "요금",
-        "표",
-        "시간",
-        "길"
-      ],
+      "type": "fill-blank",
+      "questionBn": "'কত নম্বর বাস?' প্রশ্নটি সম্পূর্ণ করুন: ___번 버스를 타야 돼요?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["몇", "몇 시", "얼마", "어떻게"],
       "answer": 0,
-      "explanationBn": "ট্যাক্সির 'ভাড়া' (요금) বেশি হওয়ার কথা বলা হয়েছে।"
+      "explanationBn": "'몇 번' = কত নম্বর; '몇 시' = কটা (সময়)।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 버스를 탈 때 ___이/가 필요합니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "여권",
-        "교통카드",
-        "비행기표",
-        "운전면허증"
-      ],
-      "answer": 1,
-      "explanationBn": "বাসে ওঠার সময় 'ট্রান্সপোর্টেশন কার্ড' (교통카드) প্রয়োজন হয়।"
+      "type": "fill-blank",
+      "questionBn": "'প্রায় এক ঘণ্টা' বাক্যটি সম্পূর্ণ করুন: 1시간___ 걸려요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["에", "을", "쯤", "이"],
+      "answer": 2,
+      "explanationBn": "সময়ের পরে '쯤' বসে 'প্রায়' বোঝায়: 1시간쯤।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 회사가 집에서 ___ 걸어서 갑니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "멀어서",
-        "가까워서",
-        "막혀서",
-        "빠르지만"
-      ],
-      "answer": 1,
-      "explanationBn": "কোম্পানি বাড়ি থেকে 'কাছে হওয়ায়' (가까워서) হেঁটে যাওয়ার কথা বলা হয়েছে।"
+      "type": "fill-blank",
+      "questionBn": "'সাবওয়েতে বদলে চড়ে এসেছি' বাক্যটি সম্পূর্ণ করুন: 지하철로 ___타고 왔어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["갈아", "타", "내려", "걸어"],
+      "answer": 0,
+      "explanationBn": "'갈아타다' = বদলে চড়া: 지하철로 갈아타고 왔어요।"
     },
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "সঠিক ব্যাকরণ দিয়ে শূন্যস্থান পূরণ করুন: 내일 아침 일찍 ___. (일어나다)",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "일어납니다",
-        "일어났습니다",
-        "일어나야 합니다",
-        "일어날 수 있습니다"
-      ],
-      "answer": 2,
-      "explanationBn": "আগামীকাল সকালে তাড়াতাড়ি 'উঠতে হবে' বোঝাতে '일어나야 합니다' বসবে।"
+      "questionBn": "'하다' এর কারণসূচক রূপ বসান: 청소하다 → 청소___",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["해서", "아서", "어서", "하서"],
+      "answer": 0,
+      "explanationBn": "'하다' ক্রিয়ায় '-해서' বসে: 청소해서।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "সঠিক ব্যাকরণ দিয়ে শূন্যস্থান পূরণ করুন: 저는 한국어로 ___. (말하다)",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "말했습니다",
-        "말할 수 있습니다",
-        "말해야 합니다",
-        "말합니다"
-      ],
-      "answer": 1,
-      "explanationBn": "কোরিয়ান ভাষায় কথা বলতে 'পারি' বোঝাতে '말할 수 있습니다' বসবে।"
+      "questionBn": "'অফিস থেকে বাড়ি পর্যন্ত' বাক্যটি সম্পূর্ণ করুন: 회사___ 집까지 20분 걸려요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["에서", "에", "부터만", "까지"],
+      "answer": 0,
+      "explanationBn": "শুরুর জায়গায় '에서' বসে: 회사에서 집까지।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "সঠিক ব্যাকরণ দিয়ে শূন্যস্থান পূরণ করুন: 교통카드를 ___. (충전하다)",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "충전했습니다",
-        "충전할 수 있습니다",
-        "충전해야 합니다",
-        "충전합니다"
+      "type": "matching",
+      "questionBn": "যানবাহনের কোরীয় নামের সাথে বাংলা মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "버스", "right": "বাস" },
+        { "left": "기차", "right": "ট্রেন" },
+        { "left": "지하철", "right": "সাবওয়ে" },
+        { "left": "비행기", "right": "বিমান" },
+        { "left": "배", "right": "জাহাজ" }
       ],
-      "answer": 2,
-      "explanationBn": "ট্রান্সপোর্টেশন কার্ড রিচার্জ 'করতে হবে' বোঝাতে '충전해야 합니다' বসবে।"
+      "explanationBn": "দ্রুত ভ্রমণে KTX, শহরের ভেতরে 지하철 ও 시내버스 সুবিধাজনক।"
     },
     {
       "id": "p18",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "오토바이",
-          "right": "মোটরসাইকেল"
-        },
-        {
-          "left": "자전거",
-          "right": "সাইকেল"
-        },
-        {
-          "left": "기사",
-          "right": "চালক"
-        },
-        {
-          "left": "요금",
-          "right": "ভাড়া"
-        }
-      ],
+      "questionBn": "স্টেশনের কোরীয় নামের সাথে বাংলা মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        { "left": "버스 정류장", "right": "বাস স্টপ" },
+        { "left": "기차역", "right": "ট্রেন স্টেশন" },
+        { "left": "지하철역", "right": "সাবওয়ে স্টেশন" },
+        { "left": "공항", "right": "বিমানবন্দর" }
+      ],
+      "explanationBn": "'역' রেলস্টেশন বোঝায়; '정류장' বাস স্টপ।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "출근",
-          "right": "কাজে যাওয়া"
-        },
-        {
-          "left": "퇴근",
-          "right": "কাজ থেকে ফেরা"
-        },
-        {
-          "left": "표",
-          "right": "টিকিট"
-        },
-        {
-          "left": "매표소",
-          "right": "টিকিট কাউন্টার"
-        }
-      ],
+      "questionBn": "চলাচলের ক্রিয়ার সাথে বাংলা অর্থ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        { "left": "걸어가다", "right": "হেঁটে যাওয়া" },
+        { "left": "타고 가다", "right": "চড়ে যাওয়া" },
+        { "left": "내리다", "right": "নামা" },
+        { "left": "갈아타다", "right": "বদলে চড়া" }
+      ],
+      "explanationBn": "걷다 = হাঁটা, 타다 = চড়া, 내리다 = নামা, 갈아타다 = বদলে চড়া।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "노선도",
-          "right": "রুট ম্যাপ"
-        },
-        {
-          "left": "환승",
-          "right": "ট্রান্সফার"
-        },
-        {
-          "left": "멀다",
-          "right": "দূরে"
-        },
-        {
-          "left": "가깝다",
-          "right": "কাছে"
-        }
-      ],
+      "questionBn": "কারণের সাথে ফলাফলটি মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        { "left": "비가 와서", "right": "우산을 샀어요" },
+        { "left": "회사에 늦어서", "right": "택시로 왔어요" },
+        { "left": "집이 가까워서", "right": "걸어왔어요" },
+        { "left": "차가 막혀서", "right": "늦었어요" }
+      ],
+      "explanationBn": "'-아서/어서' দিয়ে কারণ আর ফল যুক্ত হয়।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন।",
-      "questionKo": "다음 그림을 보고 맞는 단어를 고르십시오.",
-      "passage": "[버스 그림]",
-      "options": [
-        "기차",
-        "자전거",
-        "버스",
-        "비행기"
-      ],
-      "answer": 2,
-      "explanationBn": "ছবিটি একটি বাসের, তাই সঠিক উত্তর '버스' (বাস)।"
+      "questionBn": "বাক্যটি পড়ে এটি কোন বিভাগের তা বাছাই করুন।",
+      "questionKo": "다음 내용과 관계있는 것을 고르십시오.",
+      "passage": "버스입니다.",
+      "options": ["교통수단", "장소", "음식", "직업"],
+      "answer": 0,
+      "explanationBn": "'버스' (বাস) একটি 교통수단 (যানবাহন)।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক বাক্যটি বাছাই করুন।",
-      "questionKo": "다음 그림을 보고 맞는 문장을 고르십시오.",
-      "passage": "[사람이 걷고 있는 그림]",
-      "options": [
-        "지하철을 탑니다.",
-        "택시에서 내립니다.",
-        "버스를 탑니다.",
-        "걸어서 갑니다."
-      ],
+      "questionBn": "কারণসূচক রূপ সঠিক কোন বাক্যটি?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["날씨가 좋었어서 걸어왔어요.", "날씨 좋아서을 걸어왔어요.", "날씨가 좋서 걸어왔어요.", "날씨가 좋아서 걸어왔어요."],
       "answer": 3,
-      "explanationBn": "ছবিতে একজন মানুষ হাঁটছে, তাই সঠিক উত্তর '걸어서 갑니다.' (হেঁটে যাচ্ছে)।"
+      "explanationBn": "'날씨가 좋아서' সঠিক—ㅏ স্বরের পরে '-아서' বসে; অতীত চিহ্ন শেষ বাক্যে থাকে।"
     },
     {
       "id": "e3",
       "section": "reading",
       "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 집에서 회사까지 어떻게 가요?\n나: 보통 버스를 타고 가요. 그런데 오늘은 늦어서 (   )을/를 탔어요.",
-      "options": [
-        "택시",
-        "배",
-        "비행기",
-        "기차"
-      ],
-      "answer": 0,
-      "explanationBn": "দেরি হলে সাধারণত দ্রুত যাওয়ার জন্য 'ট্যাক্সি' (택시) নেওয়া হয়।"
+      "passage": "회사가 집에서 아주 ___. 그래서 저는 매일 걸어서 출근합니다.",
+      "options": ["바쁩니다", "가깝습니다", "멋있습니다", "괜찮습니다"],
+      "answer": 1,
+      "explanationBn": "হেঁটে (걸어서) অফিসে যায় মানে অফিস কাছে (가깝습니다)।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 회사까지 시간이 얼마나 걸려요?\n나: 버스로 30분 정도 (   ).",
-      "options": [
-        "내려요",
-        "걸려요",
-        "타요",
-        "가요"
-      ],
-      "answer": 1,
-      "explanationBn": "সময় লাগা বোঝাতে '걸리다' (걸려요) ব্যবহৃত হয়।"
+      "questionBn": "ট্রেনের টিকিটটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "열차 승차권. 승차 일자: 2025년 7월 8일(화). 서울 11:50 → 부산 14:30. KTX 123. 5호차 7A. 승차 요금: 59,800원.",
+      "options": ["기차는 화요일에 출발합니다.", "기차는 오전에 도착합니다.", "좌석은 7호차입니다.", "요금은 육만 원이 넘습니다."],
+      "answer": 0,
+      "explanationBn": "টিকিটে তারিখের পাশে (화) আছে—মঙ্গলবার। 14:30 হলো পৌঁছানোর সময়, 5호차 কামরা।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "অনুচ্ছেদটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "저는 보통 지하철을 타고 출근합니다. 출퇴근 시간에는 길이 많이 막혀서 버스보다 지하철이 더 빠릅니다. 집에서 지하철역까지 걸어서 10분 걸립니다. 지하철을 타면 회사까지 20분 걸립니다.",
-      "options": [
-        "집에서 지하철역까지 20분 걸립니다.",
-        "이 사람은 버스를 타고 출근합니다.",
-        "이 사람은 출근할 때 지하철을 탑니다.",
-        "출퇴근 시간에는 버스가 더 빠릅니다."
-      ],
-      "answer": 2,
-      "explanationBn": "অনুচ্ছেদে বলা হয়েছে যে সে সাধারণত পাতাল রেলে করে কাজে যায়, তাই ৪ নম্বর অপশনটি সঠিক।"
+      "questionBn": "শূন্যস্থানে সঠিক পার্টিকেলটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "여기까지 마을버스___ 왔어요.",
+      "options": ["을", "로", "에", "이"],
+      "answer": 1,
+      "explanationBn": "যানবাহনের মাধ্যমে '(으)로' বসে; '마을버스' স্বরবর্ণে শেষ তাই '로'।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "비행기",
-      "options": [
-        "자전거",
-        "지하철",
-        "기차",
-        "비행기"
-      ],
-      "answer": 3,
-      "explanationBn": "অডিওতে '비행기' (বিমান) বলা হয়েছে।"
+      "section": "reading",
+      "questionBn": "কোরিয়ার ট্রেন সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국에는 KTX, SRT와 같은 고속 열차와 새마을호, 무궁화호 등과 같은 일반 열차가 있습니다. 고속 열차는 요금이 좀 비싸지만 빠르고 편리합니다.",
+      "options": ["새마을호는 고속 열차입니다.", "고속 열차는 일반 열차보다 쌉니다.", "고속 열차는 빠르고 편리합니다.", "무궁화호가 KTX보다 빠릅니다."],
+      "answer": 2,
+      "explanationBn": "লেখানুযায়ী দ্রুতগামী ট্রেন (고속 열차) দামি হলেও দ্রুত ও সুবিধাজনক।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "প্রশ্ন শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "회사에 어떻게 가요?",
-      "options": [
-        "버스를 타고 가요.",
-        "지금 8시예요.",
-        "30분 걸려요.",
-        "회사가 멀어요."
-      ],
-      "answer": 0,
-      "explanationBn": "প্রশ্ন করা হয়েছে 'কোম্পানিতে কীভাবে যান?', তাই সঠিক উত্তর '버스를 타고 가요.' (বাসে করে যাই)।"
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক রূপটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "회사에 늦___ 택시로 왔어요.",
+      "options": ["아서", "해서", "고", "어서"],
+      "answer": 3,
+      "explanationBn": "'늦다' ㅓ স্বরের পরে '-어서' বসে: 늦어서 (দেরি হওয়ায়)।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "কথোপকথন শুনে প্রশ্নের উত্তর দিন।",
-      "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
-      "passage": "남자: 수루 씨, 시청에 어떻게 가요?\n여자: 버스나 지하철을 타고 가세요.\n남자: 뭐가 더 빨라요?\n여자: 지금은 차가 막히니까 지하철이 더 빠를 거예요.",
-      "options": [
-        "남자는 지금 시청에 있습니다.",
-        "지금은 지하철이 더 빠릅니다.",
-        "여자는 버스를 타고 갈 겁니다.",
-        "지금은 길이 막히지 않습니다."
-      ],
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক ক্রিয়াটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "다음 정류장에서 ___요. (নামবো)",
+      "options": ["타", "내려", "걸어", "갈아타"],
       "answer": 1,
-      "explanationBn": "কথোপকথনে বলা হয়েছে যে এখন জ্যাম থাকায় পাতাল রেল বেশি দ্রুত হবে, তাই ৩ নম্বর অপশনটি সঠিক।"
-    },
+      "explanationBn": "'내리다' = নামা—বাস/ট্রেন থেকে নামতে ব্যবহৃত হয়।"
+    }
+    ,
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন।",
-      "questionKo": "다음 그림을 보고 맞는 단어를 고르십시오.",
-      "passage": "[자전거 그림]",
-      "options": [
-        "오토바이",
-        "자전거",
-        "기차",
-        "비행기"
-      ],
+      "questionBn": "শূন্যস্থানে সঠিক কারণটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "왜 자전거를 타고 가요? — 날씨가 ___ 자전거를 타고 가요.",
+      "options": ["좋고", "좋아서", "좋으면", "좋네요"],
       "answer": 1,
-      "explanationBn": "ছবিটি একটি সাইকেলের, তাই সঠিক উত্তর '자전거' (সাইকেল)।"
+      "explanationBn": "'왜' (কেন) প্রশ্নের উত্তরে কারণ বোঝাতে '-아서/어서' বসে: 좋아서।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 교통카드는 어디에서 사요?\n나: 편의점이나 지하철역 (   )에서 살 수 있어요.",
-      "options": [
-        "화장실",
-        "식당",
-        "매표소",
-        "병원"
-      ],
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "마두 씨는 회사 앞에서 100번 버스를 탑니다. 공항까지 1시간쯤 걸립니다.",
+      "options": ["마두 씨는 지하철을 탑니다.", "공항까지 30분 걸립니다.", "마두 씨는 100번 버스를 탑니다.", "마두 씨는 집에서 버스를 탑니다."],
       "answer": 2,
-      "explanationBn": "ট্রান্সপোর্টেশন কার্ড সাধারণত 'টিকিট কাউন্টার' (매표소) বা কনভেনিয়েন্স স্টোর থেকে কেনা যায়।"
+      "explanationBn": "লেখানুযায়ী মাদু ১০০ নম্বর বাসে চড়ে এবং বিমানবন্দর প্রায় ১ ঘণ্টা লাগে।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 서울역에 가려면 어떻게 해야 해요?\n나: 1호선을 타고 가다가 시청역에서 2호선으로 (   ).",
-      "options": [
-        "내리세요",
-        "타세요",
-        "걸으세요",
-        "갈아타세요"
-      ],
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: এই ট্রেনটি কোথা থেকে ছাড়ে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 우리 열차는 6시 57분에 서울역을 출발해 대전역까지 가는 KTX 233호 열차입니다.\n여자: 네, 알겠습니다.",
+      "options": ["대전역", "대구역", "광주역", "서울역"],
       "answer": 3,
-      "explanationBn": "এক লাইন থেকে অন্য লাইনে যাওয়ার জন্য 'পরিবর্তন করুন' (갈아타세요) ব্যবহৃত হয়।"
+      "explanationBn": "ঘোষণায় বলা হয়েছে '서울역을 출발해'—সিউল স্টেশন থেকে ছাড়ে।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "অনুচ্ছেদটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "저는 회사에 갈 때 버스를 탑니다. 버스 요금은 1,200원입니다. 교통카드로 요금을 냅니다. 교통카드가 없으면 현금으로 낼 수 있습니다.",
-      "options": [
-        "이 사람은 걸어서 회사에 갑니다.",
-        "버스 요금은 2,000원입니다.",
-        "교통카드로만 요금을 낼 수 있습니다.",
-        "현금으로도 버스 요금을 낼 수 있습니다."
-      ],
-      "answer": 3,
-      "explanationBn": "অনুচ্ছেদে বলা হয়েছে যে ট্রান্সপোর্টেশন কার্ড না থাকলে নগদ টাকা দিয়েও ভাড়া দেওয়া যায়, তাই ৪ নম্বর অপশনটি সঠিক।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: গন্তব্যে উড়তে কতক্ষণ লাগবে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 이 비행기는 하노이에서 인천까지 가는 한국항공 754편입니다. 목적지인 인천공항까지 약 4시간 20분 걸릴 것으로 예상됩니다.",
+      "options": ["3시간 20분", "4시간 10분", "4시간 20분", "3시간 10분"],
+      "answer": 2,
+      "explanationBn": "ঘোষণায় বলা হয়েছে '약 4시간 20분'—প্রায় ৪ ঘণ্টা ২০ মিনিট।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "표지판의 의미로 맞는 것을 고르십시오.",
-      "questionKo": "다음 표지판의 의미로 맞는 것을 고르십시오.",
-      "passage": "[지하철역 표지판 그림]",
-      "options": [
-        "여기는 버스 정류장입니다.",
-        "여기는 지하철역입니다.",
-        "여기는 공항입니다.",
-        "여기는 기차역입니다."
-      ],
-      "answer": 1,
-      "explanationBn": "এটি পাতাল রেল স্টেশনের সাইনবোর্ড, তাই সঠিক উত্তর '여기는 지하철역입니다.' (এটি পাতাল রেল স্টেশন)।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: স্টেশনে কীভাবে যাবেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 회사에서 기차역까지 어떻게 가요?\n여자: 지하철 2호선을 타고 가요.",
+      "options": ["지하철을 타고 갑니다", "버스를 타고 갑니다", "걸어갑니다", "택시를 타고 갑니다"],
+      "answer": 0,
+      "explanationBn": "মহিলা বলেছেন ২ নম্বর লাইনে (지하철 2호선) চড়ে যেতে।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে বাছাই করুন: কাছাকাছি কোনটি আছে?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "오토바이",
-      "options": [
-        "자전거",
-        "오토바이",
-        "택시",
-        "버스"
-      ],
-      "answer": 1,
-      "explanationBn": "অডিওতে '오토바이' (মোটরসাইকেল) বলা হয়েছে।"
+      "passage": "여자: 근처에 지하철역이 있어요?\n남자: 아니요, 지하철역은 없고 버스 정류장은 있어요.",
+      "options": ["지하철역", "버스 터미널", "기차역", "버스 정류장"],
+      "answer": 3,
+      "explanationBn": "পুরুষ বলেছেন সাবওয়ে স্টেশন নেই, কিন্তু বাস স্টপ (버스 정류장) আছে।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "교통카드를 충전하고 싶어요. 어디로 가야 해요?",
-      "options": [
-        "편의점으로 가세요.",
-        "버스를 타세요.",
-        "10분 걸려요.",
-        "요금이 비싸요."
-      ],
+      "questionBn": "শুনে বাছাই করুন: মহিলা কেন দেরি করেছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 다라 씨, 오늘 회사에 왜 늦었어요?\n여자: 비가 와서 차가 막혔어요.",
+      "options": ["차가 막혀서", "일이 많아서", "집이 멀어서", "몸이 아파서"],
       "answer": 0,
-      "explanationBn": "প্রশ্ন করা হয়েছে 'ট্রান্সপোর্টেশন কার্ড রিচার্জ করতে চাই। কোথায় যেতে হবে?', তাই সঠিক উত্তর '편의점으로 가세요.' (কনভেনিয়েন্স স্টোরে যান)।"
+      "explanationBn": "মহিলা বলেছেন বৃষ্টিতে যানজট (차가 막혔어요) হওয়ায় দেরি হয়েছে।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
-      "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
-      "passage": "남자: 수루 씨, 퇴근 시간에 지하철을 타면 사람이 많아요?\n여자: 네, 사람이 아주 많아요. 그래서 저는 조금 일찍 퇴근해요.",
-      "options": [
-        "남자는 일찍 퇴근합니다.",
-        "여자는 퇴근 시간에 버스를 탑니다.",
-        "퇴근 시간에 지하철에 사람이 많습니다.",
-        "여자는 지하철을 타지 않습니다."
-      ],
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি কেন ট্যাক্সিতে এসেছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 왜 오늘 택시를 타고 왔어요?\n남자: 회사에 늦어서 택시로 왔어요.",
+      "options": ["날씨가 추워서", "집이 멀어서", "회사에 늦어서", "차가 없어서"],
       "answer": 2,
-      "explanationBn": "কথোপকথনে বলা হয়েছে যে কাজ থেকে ফেরার সময় পাতাল রেলে অনেক মানুষ থাকে, তাই ৩ নম্বর অপশনটি সঠিক।"
+      "explanationBn": "পুরুষ বলেছেন অফিসে দেরি (회사에 늦어서) হওয়ায় ট্যাক্সিতে এসেছেন।"
     }
   ]
 }
