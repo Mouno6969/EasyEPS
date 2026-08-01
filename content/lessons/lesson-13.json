@@ -10,328 +10,96 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "সাপ্তাহিক ছুটির দিনের কার্যক্রম সম্পর্কে কথা বলা",
-      "ভবিষ্যতের পরিকল্পনা বর্ণনা করা",
-      "শখ এবং আগ্রহ নিয়ে আলোচনা করা"
+      "সাপ্তাহিক ছুটির পরিকল্পনা (-(으)ㄹ 거예요) বলতে পারা",
+      "অবস্থা ও অনুভূতি সম্পর্কে বলতে পারা",
+      "পারা/না পারা (못) প্রকাশ করতে পারা",
+      "কোরীয়দের ধর্মীয় জীবন সম্পর্কে জানা"
     ],
     "en": [
-      "Talking about weekend activities",
-      "Describing future plans",
-      "Discussing hobbies and interests"
+      "Being able to talk about weekend plans",
+      "Being able to talk about feelings and moods",
+      "Being able to express inability (못)",
+      "Knowing about religion in Korea"
     ]
   },
   "vocabulary": [
     {
-      "ko": "주말",
-      "romanization": "jumal",
-      "bn": "সাপ্তাহিক ছুটি",
-      "en": "weekend",
-      "pos": "noun",
-      "example": {
-        "ko": "주말에 무엇을 할 거예요?",
-        "bn": "সাপ্তাহিক ছুটিতে কী করবেন?",
-        "en": "What will you do on the weekend?"
-      },
-      "pronunciationTipBn": "'주' এর 'ㅈ' উচ্চারণটি বাংলা 'জ' এর মতো হবে, তবে একটু নরম।"
-    },
-    {
-      "ko": "활동",
-      "romanization": "hwaldong",
-      "bn": "কার্যক্রম",
-      "en": "activity",
-      "pos": "noun",
-      "example": {
-        "ko": "주말 활동이 많아요.",
-        "bn": "সাপ্তাহিক ছুটির কার্যক্রম অনেক।",
-        "en": "There are many weekend activities."
-      },
-      "pronunciationTipBn": "'활' এর 'ㄹ' উচ্চারণটি বাংলা 'ল' এর মতো হবে।"
-    },
-    {
-      "ko": "영화를 보다",
-      "romanization": "yeonghwareul boda",
-      "bn": "সিনেমা দেখা",
-      "en": "to watch a movie",
+      "ko": "축구하다",
+      "romanization": "chukguhada",
+      "bn": "ফুটবল খেলা",
+      "en": "to play soccer",
       "pos": "verb",
       "example": {
-        "ko": "친구와 영화를 봐요.",
-        "bn": "বন্ধুর সাথে সিনেমা দেখি।",
-        "en": "I watch a movie with a friend."
+        "ko": "운동장에서 축구를 해요.",
+        "bn": "মাঠে ফুটবল খেলি।",
+        "en": "I play soccer on the field."
       },
-      "pronunciationTipBn": "'영화' এর 'ㅇ' উচ্চারণটি বাংলা 'ং' এর মতো হবে।"
+      "pronunciationTipBn": "'축구' [ছুক্কু]—ㅊ শক্ত 'ছু'; ㄱ+ㄱ মিলে জোরে 'ক্কু'।"
     },
     {
-      "ko": "산책하다",
-      "romanization": "sanchaekhada",
-      "bn": "হাঁটা",
-      "en": "to take a walk",
+      "ko": "헬스를 하다",
+      "romanization": "helseureul hada",
+      "bn": "জিমে ব্যায়াম করা",
+      "en": "to work out (at the gym)",
       "pos": "verb",
       "example": {
-        "ko": "공원에서 산책해요.",
-        "bn": "পার্কে হাঁটি।",
-        "en": "I take a walk in the park."
+        "ko": "헬스장에서 헬스를 해요.",
+        "bn": "জিমে ব্যায়াম করি।",
+        "en": "I work out at the gym."
       },
-      "pronunciationTipBn": "'산' এর 'ㄴ' উচ্চারণটি বাংলা 'ন' এর মতো হবে।"
+      "pronunciationTipBn": "ইংরেজি 'health'-এর কোরীয় রূপ—'헬스' [হেলসু]।"
     },
     {
-      "ko": "쇼핑하다",
-      "romanization": "syopinghada",
-      "bn": "কেনাকাটা করা",
-      "en": "to go shopping",
+      "ko": "고향 사람을 만나다",
+      "romanization": "gohyang sarameul mannada",
+      "bn": "নিজ দেশের মানুষের সাথে দেখা করা",
+      "en": "to meet hometown people",
       "pos": "verb",
       "example": {
-        "ko": "시장에서 쇼핑해요.",
-        "bn": "বাজারে কেনাকাটা করি।",
-        "en": "I go shopping at the market."
+        "ko": "주말에 고향 사람들을 만날 거예요.",
+        "bn": "সপ্তাহান্তে নিজ দেশের মানুষের সাথে দেখা করবো।",
+        "en": "I will meet hometown friends on the weekend."
       },
-      "pronunciationTipBn": "'쇼' এর 'ㅅ' উচ্চারণটি বাংলা 'শ' এর মতো হবে।"
+      "pronunciationTipBn": "'고향' [কোহিয়াং]—'고향' মানে নিজ দেশ/গ্রাম।"
     },
     {
-      "ko": "책을 읽다",
-      "romanization": "chaegeul ikda",
-      "bn": "বই পড়া",
-      "en": "to read a book",
+      "ko": "고향 음식을 먹다",
+      "romanization": "gohyang eumsigeul meokda",
+      "bn": "নিজ দেশের খাবার খাওয়া",
+      "en": "to eat hometown food",
       "pos": "verb",
       "example": {
-        "ko": "집에서 책을 읽어요.",
-        "bn": "বাড়িতে বই পড়ি।",
-        "en": "I read a book at home."
+        "ko": "태국 식당에서 고향 음식을 먹을 거예요.",
+        "bn": "থাই রেস্তোরাঁয় নিজ দেশের খাবার খাবো।",
+        "en": "I will eat hometown food at a Thai restaurant."
       },
-      "pronunciationTipBn": "'읽다' এর '읽' এ 'ㄹ' এবং 'ㄱ' একসাথে আছে, এখানে 'ㄱ' উচ্চারিত হবে।"
+      "pronunciationTipBn": "'음식' [উমশিক্]—ㅅ+ㅅ মিলে 'শিক্' শোনায়।"
     },
     {
-      "ko": "친구를 만나다",
-      "romanization": "chingureul mannada",
-      "bn": "বন্ধুর সাথে দেখা করা",
-      "en": "to meet a friend",
+      "ko": "탁구를 치다",
+      "romanization": "takgureul chida",
+      "bn": "টেবিল টেনিস খেলা",
+      "en": "to play table tennis",
       "pos": "verb",
       "example": {
-        "ko": "주말에 친구를 만나요.",
-        "bn": "সাপ্তাহিক ছুটিতে বন্ধুর সাথে দেখা করি।",
-        "en": "I meet a friend on the weekend."
+        "ko": "친구하고 탁구를 칠 거예요.",
+        "bn": "বন্ধুর সাথে টেবিল টেনিস খেলবো।",
+        "en": "I will play table tennis with a friend."
       },
-      "pronunciationTipBn": "'친' এর 'ㅊ' উচ্চারণটি বাংলা 'ছ' এর মতো হবে।"
+      "pronunciationTipBn": "'탁구' [থাক্কু]—ㅌ ঝোঁড়া 'থা'; '치다' খেলার ক্ষেত্রে ব্যবহৃত হয়।"
     },
     {
-      "ko": "쉬다",
-      "romanization": "swida",
-      "bn": "বিশ্রাম নেওয়া",
-      "en": "to rest",
+      "ko": "친구 집을 방문하다",
+      "romanization": "chingu jibeul bangmunhada",
+      "bn": "বন্ধুর বাসায় বেড়াতে যাওয়া",
+      "en": "to visit a friend's house",
       "pos": "verb",
       "example": {
-        "ko": "집에서 쉬고 싶어요.",
-        "bn": "বাড়িতে বিশ্রাম নিতে চাই।",
-        "en": "I want to rest at home."
+        "ko": "일요일에 친구 집을 방문할 거예요.",
+        "bn": "রবিবার বন্ধুর বাসায় বেড়াতে যাবো।",
+        "en": "I will visit a friend's house on Sunday."
       },
-      "pronunciationTipBn": "'쉬' এর 'ㅅ' উচ্চারণটি বাংলা 'শ' এর মতো হবে।"
-    },
-    {
-      "ko": "운동하다",
-      "romanization": "undonghada",
-      "bn": "ব্যায়াম করা",
-      "en": "to exercise",
-      "pos": "verb",
-      "example": {
-        "ko": "매일 운동해요.",
-        "bn": "প্রতিদিন ব্যায়াম করি।",
-        "en": "I exercise every day."
-      },
-      "pronunciationTipBn": "'운' এর 'ㄴ' উচ্চারণটি বাংলা 'ন' এর মতো হবে।"
-    },
-    {
-      "ko": "청소하다",
-      "romanization": "cheongsohada",
-      "bn": "পরিষ্কার করা",
-      "en": "to clean",
-      "pos": "verb",
-      "example": {
-        "ko": "방을 청소해요.",
-        "bn": "রুম পরিষ্কার করি।",
-        "en": "I clean the room."
-      },
-      "pronunciationTipBn": "'청' এর 'ㅊ' উচ্চারণটি বাংলা 'ছ' এর মতো হবে।"
-    },
-    {
-      "ko": "요리하다",
-      "romanization": "yorihada",
-      "bn": "রান্না করা",
-      "en": "to cook",
-      "pos": "verb",
-      "example": {
-        "ko": "저녁을 요리해요.",
-        "bn": "রাতের খাবার রান্না করি।",
-        "en": "I cook dinner."
-      },
-      "pronunciationTipBn": "'요' এর 'ㅇ' উচ্চারণটি অনুচ্চারিত থাকবে।"
-    },
-    {
-      "ko": "등산하다",
-      "romanization": "deungsanhada",
-      "bn": "পাহাড়ে ওঠা",
-      "en": "to go hiking",
-      "pos": "verb",
-      "example": {
-        "ko": "산에 등산하러 가요.",
-        "bn": "পাহাড়ে উঠতে যাই।",
-        "en": "I go hiking in the mountains."
-      },
-      "pronunciationTipBn": "'등' এর 'ㄷ' উচ্চারণটি বাংলা 'দ' এর মতো হবে।"
-    },
-    {
-      "ko": "게임하다",
-      "romanization": "geimhada",
-      "bn": "গেম খেলা",
-      "en": "to play games",
-      "pos": "verb",
-      "example": {
-        "ko": "컴퓨터 게임을 해요.",
-        "bn": "কম্পিউটার গেম খেলি।",
-        "en": "I play computer games."
-      },
-      "pronunciationTipBn": "'게' এর 'ㄱ' উচ্চারণটি বাংলা 'গ' এর মতো হবে।"
-    },
-    {
-      "ko": "음악을 듣다",
-      "romanization": "eumageul deutda",
-      "bn": "গান শোনা",
-      "en": "to listen to music",
-      "pos": "verb",
-      "example": {
-        "ko": "음악을 들으면서 쉬어요.",
-        "bn": "গান শুনতে শুনতে বিশ্রাম নিই।",
-        "en": "I rest while listening to music."
-      },
-      "pronunciationTipBn": "'듣다' এর 'ㄷ' উচ্চারণটি বাংলা 'দ' এর মতো হবে।"
-    },
-    {
-      "ko": "자전거를 타다",
-      "romanization": "jajeongeoreul tada",
-      "bn": "সাইকেল চালানো",
-      "en": "to ride a bicycle",
-      "pos": "verb",
-      "example": {
-        "ko": "공원에서 자전거를 타요.",
-        "bn": "পার্কে সাইকেল চালাই।",
-        "en": "I ride a bicycle in the park."
-      },
-      "pronunciationTipBn": "'자' এর 'ㅈ' উচ্চারণটি বাংলা 'জ' এর মতো হবে।"
-    },
-    {
-      "ko": "여행하다",
-      "romanization": "yeohanghada",
-      "bn": "ভ্রমণ করা",
-      "en": "to travel",
-      "pos": "verb",
-      "example": {
-        "ko": "제주도로 여행해요.",
-        "bn": "জেজু দ্বীপে ভ্রমণ করি।",
-        "en": "I travel to Jeju Island."
-      },
-      "pronunciationTipBn": "'여' এর 'ㅇ' উচ্চারণটি অনুচ্চারিত থাকবে।"
-    },
-    {
-      "ko": "낚시하다",
-      "romanization": "nakshihada",
-      "bn": "মাছ ধরা",
-      "en": "to go fishing",
-      "pos": "verb",
-      "example": {
-        "ko": "강에서 낚시해요.",
-        "bn": "নদীতে মাছ ধরি।",
-        "en": "I go fishing in the river."
-      },
-      "pronunciationTipBn": "'낚' এর 'ㄲ' উচ্চারণটি বাংলা 'ক' এর মতো হবে, তবে একটু শক্ত।"
-    },
-    {
-      "ko": "사진을 찍다",
-      "romanization": "sajineul jjikda",
-      "bn": "ছবি তোলা",
-      "en": "to take pictures",
-      "pos": "verb",
-      "example": {
-        "ko": "예쁜 사진을 찍어요.",
-        "bn": "সুন্দর ছবি তুলি।",
-        "en": "I take pretty pictures."
-      },
-      "pronunciationTipBn": "'찍' এর 'ㅉ' উচ্চারণটি বাংলা 'চ' এর মতো হবে, তবে একটু শক্ত।"
-    },
-    {
-      "ko": "피아노를 치다",
-      "romanization": "pianoreul chida",
-      "bn": "পিয়ানো বাজানো",
-      "en": "to play the piano",
-      "pos": "verb",
-      "example": {
-        "ko": "주말에 피아노를 쳐요.",
-        "bn": "সাপ্তাহিক ছুটিতে পিয়ানো বাজাই।",
-        "en": "I play the piano on the weekend."
-      },
-      "pronunciationTipBn": "'피' এর 'ㅍ' উচ্চারণটি বাংলা 'ফ' এর মতো হবে।"
-    },
-    {
-      "ko": "그림을 그리다",
-      "romanization": "geurimeul geurida",
-      "bn": "ছবি আঁকা",
-      "en": "to draw a picture",
-      "pos": "verb",
-      "example": {
-        "ko": "취미로 그림을 그려요.",
-        "bn": "শখ হিসেবে ছবি আঁকি।",
-        "en": "I draw pictures as a hobby."
-      },
-      "pronunciationTipBn": "'그' এর 'ㄱ' উচ্চারণটি বাংলা 'গ' এর মতো হবে।"
-    },
-    {
-      "ko": "수영하다",
-      "romanization": "suyeonghada",
-      "bn": "সাঁতার কাটা",
-      "en": "to swim",
-      "pos": "verb",
-      "example": {
-        "ko": "수영장에서 수영해요.",
-        "bn": "সুইমিং পুলে সাঁতার কাটি।",
-        "en": "I swim in the swimming pool."
-      },
-      "pronunciationTipBn": "'수' এর 'ㅅ' উচ্চারণটি বাংলা 'স' এর মতো হবে।"
-    },
-    {
-      "ko": "노래하다",
-      "romanization": "noraehada",
-      "bn": "গান গাওয়া",
-      "en": "to sing",
-      "pos": "verb",
-      "example": {
-        "ko": "노래방에서 노래해요.",
-        "bn": "ক্যারওকেতে গান গাই।",
-        "en": "I sing at the karaoke."
-      },
-      "pronunciationTipBn": "'노' এর 'ㄴ' উচ্চারণটি বাংলা 'ন' এর মতো হবে।"
-    },
-    {
-      "ko": "춤을 추다",
-      "romanization": "chumeul chuda",
-      "bn": "নাচা",
-      "en": "to dance",
-      "pos": "verb",
-      "example": {
-        "ko": "음악에 맞춰 춤을 춰요.",
-        "bn": "গানের তালে নাচি।",
-        "en": "I dance to the music."
-      },
-      "pronunciationTipBn": "'춤' এর 'ㅊ' উচ্চারণটি বাংলা 'ছ' এর মতো হবে।"
-    },
-    {
-      "ko": "외식하다",
-      "romanization": "oesikhada",
-      "bn": "বাইরে খাওয়া",
-      "en": "to eat out",
-      "pos": "verb",
-      "example": {
-        "ko": "가족과 함께 외식해요.",
-        "bn": "পরিবারের সাথে বাইরে খাই।",
-        "en": "I eat out with my family."
-      },
-      "pronunciationTipBn": "'외' এর 'ㅇ' উচ্চারণটি অনুচ্চারিত থাকবে।"
+      "pronunciationTipBn": "'방문' [বাংমুন]—'방문' মানে সাক্ষাৎ/বেড়ানো।"
     },
     {
       "ko": "낮잠을 자다",
@@ -340,200 +108,427 @@
       "en": "to take a nap",
       "pos": "verb",
       "example": {
-        "ko": "피곤해서 낮잠을 자요.",
-        "bn": "ক্লান্ত তাই দুপুরে ঘুমাই।",
-        "en": "I take a nap because I am tired."
+        "ko": "주말에 낮잠을 자요.",
+        "bn": "সপ্তাহান্তে দুপুরে ঘুমাই।",
+        "en": "I take a nap on the weekend."
       },
-      "pronunciationTipBn": "'낮' এর 'ㅈ' উচ্চারণটি বাংলা 'ত' এর মতো হবে।"
+      "pronunciationTipBn": "'낮잠' [নাজ্জাম/নাদ্জাম]—ㅈ+ㅈ মিলে জোরে 'জ্জা' শোনায়।"
     },
     {
-      "ko": "드라마를 보다",
-      "romanization": "deuramareul boda",
-      "bn": "নাটক দেখা",
-      "en": "to watch a drama",
+      "ko": "노래방에서 노래를 부르다",
+      "romanization": "noraebangeseo noraereul bureuda",
+      "bn": "নোরেবাং-এ গান গাওয়া",
+      "en": "to sing at a karaoke room",
       "pos": "verb",
       "example": {
-        "ko": "한국 드라마를 봐요.",
-        "bn": "কোরিয়ান নাটক দেখি।",
-        "en": "I watch a Korean drama."
+        "ko": "노래방에서 노래를 불러요.",
+        "bn": "নোরেবাং-এ গান গাই।",
+        "en": "I sing at a karaoke room."
       },
-      "pronunciationTipBn": "'드' এর 'ㄷ' উচ্চারণটি বাংলা 'দ' এর মতো হবে।"
+      "pronunciationTipBn": "'노래방' [নোর্যেবাং]—'노래' (গান) + '방' (ঘর)।"
     },
     {
-      "ko": "공연을 보다",
-      "romanization": "gongyeoneul boda",
-      "bn": "পারফরম্যান্স দেখা",
-      "en": "to watch a performance",
+      "ko": "기도를 하다",
+      "romanization": "gidoreul hada",
+      "bn": "প্রার্থনা করা",
+      "en": "to pray",
       "pos": "verb",
       "example": {
-        "ko": "주말에 공연을 봐요.",
-        "bn": "সাপ্তাহিক ছুটিতে পারফরম্যান্স দেখি।",
-        "en": "I watch a performance on the weekend."
+        "ko": "교회에서 기도를 해요.",
+        "bn": "গির্জায় প্রার্থনা করি।",
+        "en": "I pray at church."
       },
-      "pronunciationTipBn": "'공' এর 'ㄱ' উচ্চারণটি বাংলা 'গ' এর মতো হবে।"
+      "pronunciationTipBn": "'기도' [কিদো]—ㄷ এখানে নরম 'দ' শোনায়।"
     },
     {
-      "ko": "전시회에 가다",
-      "romanization": "jeonsihoee gada",
-      "bn": "প্রদর্শনীতে যাওয়া",
-      "en": "to go to an exhibition",
+      "ko": "예불을 드리다",
+      "romanization": "yebureul deurida",
+      "bn": "বৌদ্ধ প্রার্থনায় অংশ নেওয়া",
+      "en": "to attend a Buddhist service",
       "pos": "verb",
       "example": {
-        "ko": "미술 전시회에 가요.",
-        "bn": "শিল্প প্রদর্শনীতে যাই।",
-        "en": "I go to an art exhibition."
+        "ko": "절에서 예불을 드려요.",
+        "bn": "মন্দিরে প্রার্থনায় অংশ নিই।",
+        "en": "I attend a Buddhist service at the temple."
       },
-      "pronunciationTipBn": "'전' এর 'ㅈ' উচ্চারণটি বাংলা 'জ' এর মতো হবে।"
+      "pronunciationTipBn": "'예불' [য়েবুল]—'예' বলতে 'য়ে' স্পষ্ট দ্বিস্বর বলুন।"
+    }
+    ,
+    {
+      "ko": "피시방에서 게임을 하다",
+      "romanization": "pisibangeseo geimeul hada",
+      "bn": "পিসি রুমে গেম খেলা",
+      "en": "to play games at a PC room",
+      "pos": "verb",
+      "example": {
+        "ko": "피시방에서 게임을 해요.",
+        "bn": "পিসি রুমে গেম খেলি।",
+        "en": "I play games at a PC room."
+      },
+      "pronunciationTipBn": "'피시방' [ফিশিবাং]—ইংরেজি 'PC' + '방' (ঘর)।"
     },
     {
-      "ko": "축구를 하다",
-      "romanization": "chukgureul hada",
-      "bn": "ফুটবল খেলা",
-      "en": "to play soccer",
+      "ko": "교회/절/사원에 가다",
+      "romanization": "gyohoe/jeol/sawone gada",
+      "bn": "গির্জা/মন্দির/মসজিদে যাওয়া",
+      "en": "to go to church/temple/mosque",
       "pos": "verb",
       "example": {
-        "ko": "친구들과 축구를 해요.",
-        "bn": "বন্ধুদের সাথে ফুটবল খেলি।",
-        "en": "I play soccer with friends."
+        "ko": "일요일에 교회에 가요.",
+        "bn": "রবিবার গির্জায় যাই।",
+        "en": "I go to church on Sunday."
       },
-      "pronunciationTipBn": "'축' এর 'ㅊ' উচ্চারণটি বাংলা 'ছ' এর মতো হবে।"
+      "pronunciationTipBn": "'교회' [ক্যোহোয়ে]—'절' বৌদ্ধ মন্দির, '사원' মসজিদ।"
     },
     {
-      "ko": "농구를 하다",
-      "romanization": "nonggureul hada",
-      "bn": "বাস্কেটবল খেলা",
-      "en": "to play basketball",
-      "pos": "verb",
+      "ko": "모임",
+      "romanization": "moim",
+      "bn": "সমাবেশ/মিটিং",
+      "en": "gathering; meeting",
+      "pos": "noun",
       "example": {
-        "ko": "공원에서 농구를 해요.",
-        "bn": "পার্কে বাস্কেটবল খেলি।",
-        "en": "I play basketball in the park."
+        "ko": "토요일에 모임이 있어요.",
+        "bn": "শনিবার সমাবেশ আছে।",
+        "en": "There is a gathering on Saturday."
       },
-      "pronunciationTipBn": "'농' এর 'ㄴ' উচ্চারণটি বাংলা 'ন' এর মতো হবে।"
+      "pronunciationTipBn": "'모임' [মোইম]—দুই স্বর মিলিয়ে দ্রুত বলুন।"
     },
     {
-      "ko": "야구를 하다",
-      "romanization": "yagureul hada",
-      "bn": "বেসবল খেলা",
-      "en": "to play baseball",
-      "pos": "verb",
+      "ko": "휴식",
+      "romanization": "hyusik",
+      "bn": "বিশ্রাম",
+      "en": "rest; relaxation",
+      "pos": "noun",
       "example": {
-        "ko": "주말에 야구를 해요.",
-        "bn": "সাপ্তাহিক ছুটিতে বেসবল খেলি।",
-        "en": "I play baseball on the weekend."
+        "ko": "주말에는 휴식이 필요해요.",
+        "bn": "সপ্তাহান্তে বিশ্রাম দরকার।",
+        "en": "I need rest on the weekend."
       },
-      "pronunciationTipBn": "'야' এর 'ㅇ' উচ্চারণটি অনুচ্চারিত থাকবে।"
+      "pronunciationTipBn": "'휴식' [হিউশিক্]—'휴' একটানা 'হিউ' বলুন।"
     },
     {
-      "ko": "테니스를 치다",
-      "romanization": "teniseureul chida",
-      "bn": "টেনিস খেলা",
-      "en": "to play tennis",
-      "pos": "verb",
+      "ko": "운동장",
+      "romanization": "undongjang",
+      "bn": "খেলার মাঠ",
+      "en": "sports field; playground",
+      "pos": "noun",
       "example": {
-        "ko": "아침에 테니스를 쳐요.",
-        "bn": "সকালে টেনিস খেলি।",
-        "en": "I play tennis in the morning."
+        "ko": "운동장에서 축구를 해요.",
+        "bn": "মাঠে ফুটবল খেলি।",
+        "en": "I play soccer on the field."
       },
-      "pronunciationTipBn": "'테' এর 'ㅌ' উচ্চারণটি বাংলা 'থ' এর মতো হবে।"
+      "pronunciationTipBn": "'운동장' [উন্দংজাং]—운동 (ব্যায়াম) + 장 (জায়গা)।"
+    },
+    {
+      "ko": "헬스장",
+      "romanization": "helseujang",
+      "bn": "জিম",
+      "en": "gym",
+      "pos": "noun",
+      "example": {
+        "ko": "헬스장에 가요.",
+        "bn": "জিমে যাই।",
+        "en": "I go to the gym."
+      },
+      "pronunciationTipBn": "'헬스장' [হেলসুজাং]—헬스 + 장 (জায়গা)।"
+    },
+    {
+      "ko": "탁구장",
+      "romanization": "takgujang",
+      "bn": "টেবিল টেনিস হল",
+      "en": "table tennis hall",
+      "pos": "noun",
+      "example": {
+        "ko": "탁구장에서 탁구를 쳐요.",
+        "bn": "টেবিল টেনিস হলে খেলি।",
+        "en": "I play table tennis at the hall."
+      },
+      "pronunciationTipBn": "'탁구장' [থাক্কুজাং]—탁구 + 장 (জায়গা)।"
+    },
+    {
+      "ko": "시간이 있다",
+      "romanization": "sigani itda",
+      "bn": "সময় থাকা",
+      "en": "to have time",
+      "pos": "expression",
+      "example": {
+        "ko": "토요일에 시간이 있어요?",
+        "bn": "শনিবার সময় আছে?",
+        "en": "Do you have time on Saturday?"
+      },
+      "pronunciationTipBn": "'시간이' [শিগানি]—ㄴ+ㅇ মিলে 'নি' শোনায়।"
+    },
+    {
+      "ko": "시간이 없다",
+      "romanization": "sigani eopda",
+      "bn": "সময় না থাকা",
+      "en": "to not have time",
+      "pos": "expression",
+      "example": {
+        "ko": "아니요, 시간이 없어요.",
+        "bn": "না, সময় নেই।",
+        "en": "No, I don't have time."
+      },
+      "pronunciationTipBn": "'없어요' [অপ্সয়ো]—ㅂ+ㅅ মিলে 'প্স' শোনায়।"
+    },
+    {
+      "ko": "일이 많다",
+      "romanization": "iri manda",
+      "bn": "কাজ অনেক থাকা",
+      "en": "to have a lot of work",
+      "pos": "expression",
+      "example": {
+        "ko": "요즘 일이 많아요.",
+        "bn": "ইদানীং কাজ অনেক।",
+        "en": "I have a lot of work these days."
+      },
+      "pronunciationTipBn": "'일이' [ইরি]—ㄹ+ㅇ মিলে 'রি' শোনায়।"
+    },
+    {
+      "ko": "약속이 있다",
+      "romanization": "yaksogi itda",
+      "bn": "অ্যাপয়েন্টমেন্ট থাকা",
+      "en": "to have an appointment",
+      "pos": "expression",
+      "example": {
+        "ko": "약속이 있어요.",
+        "bn": "অ্যাপয়েন্টমেন্ট আছে।",
+        "en": "I have an appointment."
+      },
+      "pronunciationTipBn": "'약속이' [য়াক্সোগি]—ㄱ+ㅇ মিলে 'গি' শোনায়।"
+    },
+    {
+      "ko": "바쁘다",
+      "romanization": "bappeuda",
+      "bn": "ব্যস্ত হওয়া",
+      "en": "to be busy",
+      "pos": "adjective",
+      "example": {
+        "ko": "바빠서 밥을 못 먹었어요.",
+        "bn": "ব্যস্ত থাকায় খেতে পারিনি।",
+        "en": "I was so busy I couldn't eat."
+      },
+      "pronunciationTipBn": "'바빠요' [বাপ্পায়ো]—ㅂ+ㅂ মিলে জোড়া 'প্প' শোনায়।"
+    }
+    ,
+    {
+      "ko": "한가하다",
+      "romanization": "hangahada",
+      "bn": "অবসর/ফুরসত হওয়া",
+      "en": "to be free; not busy",
+      "pos": "adjective",
+      "example": {
+        "ko": "주말에는 한가해요.",
+        "bn": "সপ্তাহান্তে ফুরসত থাকি।",
+        "en": "I am free on weekends."
+      },
+      "pronunciationTipBn": "'한가해요' [হানগাহ্যায়ো]—'바쁘다' (ব্যস্ত)-এর বিপরীত।"
+    },
+    {
+      "ko": "기분이 좋다",
+      "romanization": "gibuni jota",
+      "bn": "মন ভালো হওয়া",
+      "en": "to feel good",
+      "pos": "expression",
+      "example": {
+        "ko": "오늘은 기분이 좋아요.",
+        "bn": "আজ মন ভালো।",
+        "en": "I feel good today."
+      },
+      "pronunciationTipBn": "'기분' [কিবুন]—'기분' মানে মেজাজ/মনোভাব।"
+    },
+    {
+      "ko": "기쁘다",
+      "romanization": "gippeuda",
+      "bn": "খুশি হওয়া",
+      "en": "to be happy; glad",
+      "pos": "adjective",
+      "example": {
+        "ko": "친구를 만나서 기뻐요.",
+        "bn": "বন্ধুর সাথে দেখা করে খুশি।",
+        "en": "I am happy to meet my friend."
+      },
+      "pronunciationTipBn": "'기뻐요' [কিপ্পায়ো]—ㅂ+ㅂ মিলে জোড়া 'প্প' শোনায়।"
+    },
+    {
+      "ko": "슬프다",
+      "romanization": "seulpeuda",
+      "bn": "দুঃখিত/মন খারাপ হওয়া",
+      "en": "to be sad",
+      "pos": "adjective",
+      "example": {
+        "ko": "슬픈 영화를 봤어요.",
+        "bn": "দুঃখের সিনেমা দেখেছি।",
+        "en": "I watched a sad movie."
+      },
+      "pronunciationTipBn": "'슬퍼요' [সুল্পায়ো]—ㄹ+ㅍ মিলে 'ল্পা' শোনায়।"
+    },
+    {
+      "ko": "피곤하다",
+      "romanization": "pigonhada",
+      "bn": "ক্লান্ত হওয়া",
+      "en": "to be tired",
+      "pos": "adjective",
+      "example": {
+        "ko": "어제 일을 많이 해서 피곤해요.",
+        "bn": "গতকাল অনেক কাজ করায় ক্লান্ত।",
+        "en": "I am tired because I worked a lot yesterday."
+      },
+      "pronunciationTipBn": "'피곤' [ফিগন]—ㅍ ঝোঁড়া 'ফি' দিয়ে শুরু করুন।"
+    },
+    {
+      "ko": "재미없다",
+      "romanization": "jaemieopda",
+      "bn": "অমজার হওয়া",
+      "en": "to be uninteresting; boring",
+      "pos": "adjective",
+      "example": {
+        "ko": "이 영화는 재미없어요.",
+        "bn": "এই সিনেমাটি অমজার।",
+        "en": "This movie is boring."
+      },
+      "pronunciationTipBn": "'재미없어요' [জ্যেমিয়প্সয়ো]—'재미있다' (মজার)-এর বিপরীত।"
+    },
+    {
+      "ko": "즐겁다",
+      "romanization": "jeulgeopda",
+      "bn": "আনন্দদায়ক হওয়া",
+      "en": "to be enjoyable; pleasant",
+      "pos": "adjective",
+      "example": {
+        "ko": "주말에 즐겁게 놀았어요.",
+        "bn": "সপ্তাহান্তে আনন্দে সময় কাটিয়েছি।",
+        "en": "I had an enjoyable time on the weekend."
+      },
+      "pronunciationTipBn": "'즐거워요' [জুলগওয়ায়ো]—ㅂ অনিয়মে ㅂ বাদে '워' বসে।"
+    },
+    {
+      "ko": "심심하다",
+      "romanization": "simsimhada",
+      "bn": "একঘেয়েমি লাগা",
+      "en": "to be bored",
+      "pos": "adjective",
+      "example": {
+        "ko": "집에서 심심해요.",
+        "bn": "বাড়িতে একঘেয়েমি লাগছে।",
+        "en": "I am bored at home."
+      },
+      "pronunciationTipBn": "'심심' [শিমশিম]—দুইবার একই অক্ষর, দ্রুত বলুন।"
+    },
+    {
+      "ko": "약속",
+      "romanization": "yaksok",
+      "bn": "অ্যাপয়েন্টমেন্ট/প্রতিশ্রুতি",
+      "en": "appointment; promise",
+      "pos": "noun",
+      "example": {
+        "ko": "약속이 있어요.",
+        "bn": "অ্যাপয়েন্টমেন্ট আছে।",
+        "en": "I have an appointment."
+      },
+      "pronunciationTipBn": "'약속' [য়াক্সok্]—ㄱ+ㅅ মিলে 'ক্স' শোনায়।"
+    },
+    {
+      "ko": "술",
+      "romanization": "sul",
+      "bn": "মদ/অ্যালকোহল",
+      "en": "alcohol; liquor",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 술을 못 마셔요.",
+        "bn": "আমি মদ পান করতে পারি না।",
+        "en": "I cannot drink alcohol."
+      },
+      "pronunciationTipBn": "'술' [সুল]—'수' ঠোঁট গোল করে 'সু', ㄹ বত্ছিম 'ল্'।"
+    },
+    {
+      "ko": "돼지고기",
+      "romanization": "dwaejigogi",
+      "bn": "শূকরের মাংস",
+      "en": "pork",
+      "pos": "noun",
+      "example": {
+        "ko": "동생은 돼지고기를 못 먹어요.",
+        "bn": "ছোট ভাই শূকরের মাংস খেতে পারে না।",
+        "en": "My younger brother cannot eat pork."
+      },
+      "pronunciationTipBn": "'돼지' [দোয়েজি]—'ㅙ' মিলিয়ে 'দোয়ে'; '고기' মাংস।"
+    },
+    {
+      "ko": "고향",
+      "romanization": "gohyang",
+      "bn": "নিজ দেশ/গ্রাম",
+      "en": "hometown; home country",
+      "pos": "noun",
+      "example": {
+        "ko": "고향이 어디예요?",
+        "bn": "নিজ দেশ কোথায়?",
+        "en": "Where is your hometown?"
+      },
+      "pronunciationTipBn": "'고향' [কোহিয়াং]—'향' বলতে 'হি+য়+াং' দ্রুত মিলিয়ে।"
     }
   ],
   "grammar": [
     {
-      "pattern": "V + (으)ㄹ 거예요",
-      "titleBn": "ভবিষ্যৎ কাল",
-      "explanationBn": "এই ব্যাকরণটি ভবিষ্যতের কোনো পরিকল্পনা বা কাজ বোঝাতে ব্যবহৃত হয়। ক্রিয়াপদের শেষে স্বরবর্ণ থাকলে '-ㄹ 거예요' এবং ব্যঞ্জনবর্ণ থাকলে '-을 거예요' যুক্ত হয়।",
-      "explanationEn": "This grammar pattern is used to express future plans or actions. '-ㄹ 거예요' is added to verb stems ending in a vowel, and '-을 거예요' is added to verb stems ending in a consonant.",
+      "pattern": "V + -(으)ㄹ 거예요",
+      "titleBn": "ভবিষ্যৎ পরিকল্পনা '-(으)ㄹ 거예요' (করবো)",
+      "explanationBn": "ভবিষ্যতের পরিকল্পনা বা ইচ্ছা বোঝাতে ক্রিয়ার সাথে '-(으)ㄹ 거예요' বসে—বাংলার 'করবো'। বত্ছিম থাকলে '-을 거예요' (먹다→먹을 거예요), না থাকলে '-ㄹ 거예요' (가다→갈 거예요)। তৃতীয় পুরুষে এটি অনুমানও বোঝায়।",
+      "explanationEn": "-(으)ㄹ 거예요 expresses future plans or intentions—'will/going to'. Use -을 거예요 after a consonant (먹다→먹을 거예요) and -ㄹ 거예요 after a vowel (가다→갈 거예요). With a third-person subject it expresses a guess.",
       "examples": [
-        {
-          "ko": "내일 영화를 볼 거예요.",
-          "bn": "আগামীকাল সিনেমা দেখব।",
-          "en": "I will watch a movie tomorrow."
-        },
-        {
-          "ko": "주말에 책을 읽을 거예요.",
-          "bn": "সাপ্তাহিক ছুটিতে বই পড়ব।",
-          "en": "I will read a book on the weekend."
-        },
-        {
-          "ko": "주말에 친구를 만날 거예요.",
-          "bn": "সাপ্তাহিক ছুটিতে বন্ধুর সাথে দেখা করব।",
-          "en": "I will meet a friend on the weekend."
-        }
+        { "ko": "밥을 먹을 거예요.", "bn": "খাবার খাবো।", "en": "I am going to eat." },
+        { "ko": "기숙사에서 쉴 거예요.", "bn": "ডরমিটরিতে বিশ্রাম নেবো।", "en": "I am going to rest in the dormitory." },
+        { "ko": "고향 음식을 만들 거예요.", "bn": "নিজ দেশের খাবার বানাবো।", "en": "I am going to make hometown food." }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণের পরে ভুল করে '-ㄹ 거예요' ব্যবহার করেন; ব্যঞ্জনবর্ণের পরে সবসময় '-을 거예요' বসবে।"
+      "commonMistakeBn": "বত্ছিম থাকলে '-ㄹ 거예요' বসানো ভুল—যেমন '먹ㄹ 거예요' নয়, '먹을 거예요' বলুন।"
     },
     {
-      "pattern": "V + 고 싶다",
-      "titleBn": "ইচ্ছা প্রকাশ করা",
-      "explanationBn": "এই ব্যাকরণটি কোনো কিছু করার ইচ্ছা প্রকাশ করতে ব্যবহৃত হয়। এটি ক্রিয়াপদের মূল অংশের সাথে যুক্ত হয়।",
-      "explanationEn": "This grammar pattern is used to express a desire to do something. It is attached to the verb stem.",
+      "pattern": "못 + V (능력 부정)",
+      "titleBn": "'못' দিয়ে পারা-না-পারা বোঝানো",
+      "explanationBn": "কোনো কাজ করার সামর্থ্য না থাকা বা পরিস্থিতির কারণে পারা না যাওয়া বোঝাতে ক্রিয়ার আগে '못' বসে—বাংলার 'পারি না/পারবো না'। '안' (করি না) থেকে আলাদা: 못 = পারছি না, 안 = ইচ্ছা করে করছি না।",
+      "explanationEn": "못 is placed before a verb to show inability or impossibility—'cannot'. Compare 안: 못 means 'can't' while 안 means 'don't (by choice)'.",
       "examples": [
-        {
-          "ko": "저는 여행을 하고 싶어요.",
-          "bn": "আমি ভ্রমণ করতে চাই।",
-          "en": "I want to travel."
-        },
-        {
-          "ko": "주말에 집에서 쉬고 싶어요.",
-          "bn": "সাপ্তাহিক ছুটিতে বাড়িতে বিশ্রাম নিতে চাই।",
-          "en": "I want to rest at home on the weekend."
-        },
-        {
-          "ko": "한국어를 배우고 싶어요.",
-          "bn": "কোরিয়ান ভাষা শিখতে চাই।",
-          "en": "I want to learn Korean."
-        }
+        { "ko": "시간이 없어서 친구를 못 만나요.", "bn": "সময় নেই বলে বন্ধুর সাথে দেখা করতে পারছি না।", "en": "I can't meet my friend because I have no time." },
+        { "ko": "바빠서 밥을 못 먹었어요.", "bn": "ব্যস্ত থাকায় খেতে পারিনি।", "en": "I was so busy I couldn't eat." },
+        { "ko": "비가 와서 운동을 못 해요.", "bn": "বৃষ্টি হওয়ায় ব্যায়াম করতে পারছি না।", "en": "I can't exercise because it is raining." }
       ],
-      "commonMistakeBn": "অনেকে তৃতীয় ব্যক্তির ইচ্ছা বোঝাতে '고 싶다' ব্যবহার করেন; তৃতীয় ব্যক্তির ক্ষেত্রে '고 싶어하다' ব্যবহার করতে হবে।"
+      "commonMistakeBn": "'못' আর '안' গুলিয়ে ফেলবেন না—'밥을 안 먹었어요' মানে ইচ্ছা করে খাইনি; '밥을 못 먹었어요' মানে পারিনি।"
+    }
+    ,
+    {
+      "pattern": "명사 + (하다) 못 해요",
+      "titleBn": "'명사+하다' ক্রিয়ায় '못'-এর স্থান",
+      "explanationBn": "'공부하다', '운동하다' ধরনের 'বিশেষ্য+하다' ক্রিয়ায় '못' বিশেষ্য আর '하다'-এর মাঝে বসে: 공부를 못 해요, 운동을 못 해요। '안'-এর ক্ষেত্রেও একই নিয়ম।",
+      "explanationEn": "In noun+하다 verbs like 공부하다 or 운동하다, 못 goes between the noun and 하다: 공부를 못 해요, 운동을 못 해요. The same rule applies to 안.",
+      "examples": [
+        { "ko": "운동을 못 해요.", "bn": "ব্যায়াম করতে পারছি না।", "en": "I cannot exercise." },
+        { "ko": "공부를 못 해요.", "bn": "পড়াশোনা করতে পারছি না।", "en": "I cannot study." },
+        { "ko": "청소를 못 했어요.", "bn": "পরিষ্কার করতে পারিনি।", "en": "I could not clean." }
+      ],
+      "commonMistakeBn": "'못 공부해요' বলা ভুল—'못' বিশেষ্য (공부) আর '하다'-এর মাঝে বসে: 공부를 못 해요।"
     },
     {
-      "pattern": "V + (으)러 가다/오다",
-      "titleBn": "উদ্দেশ্য প্রকাশ করা",
-      "explanationBn": "এই ব্যাকরণটি কোনো স্থানে যাওয়ার বা আসার উদ্দেশ্য প্রকাশ করতে ব্যবহৃত হয়। ক্রিয়াপদের শেষে স্বরবর্ণ থাকলে '-러 가다/오다' এবং ব্যঞ্জনবর্ণ থাকলে '-으러 가다/오다' যুক্ত হয়।",
-      "explanationEn": "This grammar pattern is used to express the purpose of going or coming to a place. '-러 가다/오다' is added to verb stems ending in a vowel, and '-으러 가다/오다' is added to verb stems ending in a consonant.",
+      "pattern": "-지 못하다",
+      "titleBn": "'-지 못하다' (পারা না যাওয়ার আরেক রূপ)",
+      "explanationBn": "'못'-এর পরিবর্তে ক্রিয়ার পরে '-지 못하다' বসিয়েও পারা না যাওয়া বোঝানো যায়—অর্থ একই: 일찍 일어나지 못했어요 = 일찍 못 일어났어요।",
+      "explanationEn": "-지 못하다 attached after a verb also expresses inability—same meaning as 못: 일찍 일어나지 못했어요 = 일찍 못 일어났어요.",
       "examples": [
-        {
-          "ko": "밥을 먹으러 식당에 가요.",
-          "bn": "ভাত খেতে রেস্তোরাঁয় যাই।",
-          "en": "I go to the restaurant to eat."
-        },
-        {
-          "ko": "영화를 보러 극장에 가요.",
-          "bn": "সিনেমা দেখতে থিয়েটারে যাই।",
-          "en": "I go to the theater to watch a movie."
-        },
-        {
-          "ko": "친구를 만나러 왔어요.",
-          "bn": "বন্ধুর সাথে দেখা করতে এসেছি।",
-          "en": "I came to meet a friend."
-        }
+        { "ko": "늦게 자서 일찍 일어나지 못했어요.", "bn": "দেরি করে ঘুমানোয় তাড়াতাড়ি উঠতে পারিনি।", "en": "I slept late, so I couldn't get up early." },
+        { "ko": "비가 와서 운동을 하지 못했어요.", "bn": "বৃষ্টি হওয়ায় ব্যায়াম করতে পারিনি।", "en": "I couldn't exercise because it rained." },
+        { "ko": "바빠서 전화하지 못했어요.", "bn": "ব্যস্ত থাকায় ফোন করতে পারিনি।", "en": "I was so busy I couldn't call." }
       ],
-      "commonMistakeBn": "অনেকে গন্তব্যস্থানের সাথে '에' এর পরিবর্তে '에서' ব্যবহার করেন; এখানে '에' ব্যবহার করতে হবে।"
+      "commonMistakeBn": "'-지 안아요' বলা ভুল—'못' মিলে গঠিত '않' অক্ষর মনে রাখুন: '-지 못해요'।"
     },
     {
-      "pattern": "V + (으)ㄹ까요?",
-      "titleBn": "প্রস্তাব দেওয়া বা মতামত চাওয়া",
-      "explanationBn": "এই ব্যাকরণটি কাউকে কোনো কিছু করার প্রস্তাব দিতে বা কারো মতামত জানতে চাইতে ব্যবহৃত হয়। ক্রিয়াপদের শেষে স্বরবর্ণ থাকলে '-ㄹ까요?' এবং ব্যঞ্জনবর্ণ থাকলে '-을까요?' যুক্ত হয়।",
-      "explanationEn": "This grammar pattern is used to suggest doing something together or to ask for someone's opinion. '-ㄹ까요?' is added to verb stems ending in a vowel, and '-을까요?' is added to verb stems ending in a consonant.",
+      "pattern": "시간이/약속이 있다/없다",
+      "titleBn": "'সময়/অ্যাপয়েন্টমেন্ট আছে/নেই' বলা",
+      "explanationBn": "সময় বা অ্যাপয়েন্টমেন্ট আছে কি না বলতে '시간이/약속이 있다/없다' ব্যবহার করুন। জিজ্ঞাসা: 시간이 있어요? উত্তর: 네, 있어요 / 아니요, 없어요।",
+      "explanationEn": "Use 시간이/약속이 있다/없다 to say whether you have time or an appointment. Ask: 시간이 있어요? Answer: 네, 있어요 / 아니요, 없어요.",
       "examples": [
-        {
-          "ko": "우리 같이 영화를 볼까요?",
-          "bn": "আমরা কি একসাথে সিনেমা দেখব?",
-          "en": "Shall we watch a movie together?"
-        },
-        {
-          "ko": "내일 몇 시에 만날까요?",
-          "bn": "আগামীকাল কয়টায় দেখা করব?",
-          "en": "What time shall we meet tomorrow?"
-        },
-        {
-          "ko": "점심에 무엇을 먹을까요?",
-          "bn": "দুপুরে কী খাব?",
-          "en": "What shall we eat for lunch?"
-        }
+        { "ko": "토요일에 시간이 있어요?", "bn": "শনিবার সময় আছে?", "en": "Do you have time on Saturday?" },
+        { "ko": "아니요, 시간이 없어요. 약속이 있어요.", "bn": "না, সময় নেই। অ্যাপয়েন্টমেন্ট আছে।", "en": "No, I don't have time. I have an appointment." },
+        { "ko": "일이 많아요?", "bn": "কাজ অনেক?", "en": "Do you have a lot of work?" }
       ],
-      "commonMistakeBn": "অনেকে এটি নিজের ইচ্ছা প্রকাশ করতে ব্যবহার করেন; এটি মূলত অন্যের মতামত জানতে ব্যবহৃত হয়।"
+      "commonMistakeBn": "'시간을 있어요' বলা ভুল—'시간' কর্তা, তাই 이/가 বসে: 시간이 있어요।"
     }
   ],
   "dialogues": [
@@ -541,108 +536,34 @@
       "titleBn": "সাপ্তাহিক ছুটির পরিকল্পনা",
       "titleEn": "Weekend Plans",
       "lines": [
-        {
-          "speaker": "투안",
-          "ko": "수루 씨, 이번 주말에 뭐 할 거예요?",
-          "bn": "সুরু সাহেব, এই সাপ্তাহিক ছুটিতে কী করবেন?",
-          "en": "Suru, what will you do this weekend?"
-        },
-        {
-          "speaker": "수루",
-          "ko": "저는 친구하고 같이 영화를 볼 거예요.",
-          "bn": "আমি বন্ধুর সাথে সিনেমা দেখব।",
-          "en": "I will watch a movie with a friend."
-        },
-        {
-          "speaker": "투안",
-          "ko": "무슨 영화를 볼 거예요?",
-          "bn": "কী সিনেমা দেখবেন?",
-          "en": "What movie will you watch?"
-        },
-        {
-          "speaker": "수루",
-          "ko": "한국 영화를 볼 거예요. 투안 씨는 뭐 할 거예요?",
-          "bn": "কোরিয়ান সিনেমা দেখব। তুয়ান সাহেব কী করবেন?",
-          "en": "I will watch a Korean movie. What will you do, Tuan?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "저는 집에서 쉴 거예요.",
-          "bn": "আমি বাড়িতে বিশ্রাম নেব।",
-          "en": "I will rest at home."
-        }
+        { "speaker": "A", "ko": "닛차난 씨는 주말에 뭐 할 거예요?", "bn": "নিচানান, সপ্তাহান্তে কী করবে?", "en": "What are you going to do on the weekend, Nitchanan?" },
+        { "speaker": "B", "ko": "저는 태국 식당에 가서 고향 음식을 먹을 거예요. 다린두 씨는 주말에 뭐 할 거예요?", "bn": "আমি থাই রেস্তোরাঁয় গিয়ে নিজ দেশের খাবার খাবো। থারিন্দু তুমি কী করবে?", "en": "I'm going to a Thai restaurant to eat my hometown food. What about you, Tharindu?" },
+        { "speaker": "A", "ko": "저는 친구를 만날 거예요. 친구하고 탁구를 칠 거예요.", "bn": "আমি বন্ধুর সাথে দেখা করবো। একসাথে টেবিল টেনিস খেলবো।", "en": "I'm going to meet a friend. We'll play table tennis together." },
+        { "speaker": "B", "ko": "다린두 씨, 그럼 주말 잘 보내세요.", "bn": "থারিন্দু, তাহলে সপ্তাহান্ত ভালো কাটাও।", "en": "Have a good weekend then, Tharindu." },
+        { "speaker": "A", "ko": "닛차난 씨도요.", "bn": "তুমিও, নিচানান।", "en": "You too, Nitchanan." }
       ]
     },
     {
-      "titleBn": "শখ নিয়ে কথা বলা",
-      "titleEn": "Talking about Hobbies",
+      "titleBn": "আজ কী করবে?",
+      "titleEn": "What Are You Going to Do Today?",
       "lines": [
-        {
-          "speaker": "리한",
-          "ko": "지훈 씨는 취미가 뭐예요?",
-          "bn": "জিহুন সাহেব, আপনার শখ কী?",
-          "en": "Jihoon, what is your hobby?"
-        },
-        {
-          "speaker": "지훈",
-          "ko": "제 취미는 낚시예요. 리한 씨는요?",
-          "bn": "আমার শখ মাছ ধরা। রিহান সাহেবের?",
-          "en": "My hobby is fishing. How about you, Rihan?"
-        },
-        {
-          "speaker": "리한",
-          "ko": "저는 등산을 좋아해요.",
-          "bn": "আমি পাহাড়ে ওঠা পছন্দ করি।",
-          "en": "I like hiking."
-        },
-        {
-          "speaker": "지훈",
-          "ko": "그럼 이번 주말에 같이 등산 갈까요?",
-          "bn": "তাহলে এই সাপ্তাহিক ছুটিতে একসাথে পাহাড়ে উঠব?",
-          "en": "Then shall we go hiking together this weekend?"
-        },
-        {
-          "speaker": "리한",
-          "ko": "좋아요. 같이 가요.",
-          "bn": "ভালো। একসাথে যাই।",
-          "en": "Sounds good. Let's go together."
-        }
+        { "speaker": "A", "ko": "오늘 친구를 만날 거예요?", "bn": "আজ কি বন্ধুর সাথে দেখা করবে?", "en": "Are you going to meet a friend today?" },
+        { "speaker": "B", "ko": "아니요, 바빠서 못 만나요.", "bn": "না, ব্যস্ত থাকায় দেখা করতে পারবো না।", "en": "No, I can't meet them because I'm busy." },
+        { "speaker": "A", "ko": "그럼 뭐 할 거예요?", "bn": "তাহলে কী করবে?", "en": "Then what are you going to do?" },
+        { "speaker": "B", "ko": "기숙사에서 책을 읽을 거예요. 다라 씨는 뭐 할 거예요?", "bn": "ডরমিটরিতে বই পড়বো। দারা তুমি কী করবে?", "en": "I'm going to read a book in the dormitory. What about you, Dara?" },
+        { "speaker": "A", "ko": "어제 일을 많이 해서 피곤해요. 오늘은 쉴 거예요.", "bn": "গতকাল অনেক কাজ করায় ক্লান্ত। আজ বিশ্রাম নেবো।", "en": "I worked a lot yesterday, so I'm tired. I'm going to rest today." }
       ]
     },
     {
-      "titleBn": "একসাথে খেলাধুলা করা",
-      "titleEn": "Playing Sports Together",
+      "titleBn": "সময় আছে?",
+      "titleEn": "Do You Have Time?",
       "lines": [
-        {
-          "speaker": "민수",
-          "ko": "지훈 씨, 주말에 보통 뭐 해요?",
-          "bn": "জিহুন সাহেব, সাপ্তাহিক ছুটিতে সাধারণত কী করেন?",
-          "en": "Jihoon, what do you usually do on the weekend?"
-        },
-        {
-          "speaker": "지훈",
-          "ko": "저는 운동을 좋아해서 축구를 해요.",
-          "bn": "আমি ব্যায়াম পছন্দ করি তাই ফুটবল খেলি।",
-          "en": "I like exercising, so I play soccer."
-        },
-        {
-          "speaker": "민수",
-          "ko": "그래요? 저도 축구를 좋아해요.",
-          "bn": "তাই নাকি? আমিও ফুটবল পছন্দ করি।",
-          "en": "Really? I like soccer too."
-        },
-        {
-          "speaker": "지훈",
-          "ko": "그럼 이번 주말에 같이 축구하러 갈까요?",
-          "bn": "তাহলে এই সাপ্তাহিক ছুটিতে একসাথে ফুটবল খেলতে যাব?",
-          "en": "Then shall we go play soccer together this weekend?"
-        },
-        {
-          "speaker": "민수",
-          "ko": "네, 좋아요. 일요일 아침에 만나요.",
-          "bn": "হ্যাঁ, ভালো। রবিবার সকালে দেখা হবে।",
-          "en": "Yes, sounds good. Let's meet on Sunday morning."
-        }
+        { "speaker": "A", "ko": "토요일에 시간이 있어요?", "bn": "শনিবার সময় আছে?", "en": "Do you have time on Saturday?" },
+        { "speaker": "B", "ko": "아니요, 시간이 없어요. 약속이 있어요.", "bn": "না, সময় নেই। অ্যাপয়েন্টমেন্ট আছে।", "en": "No, I don't have time. I have an appointment." },
+        { "speaker": "A", "ko": "무슨 약속이에요?", "bn": "কী অ্যাপয়েন্টমেন্ট?", "en": "What appointment is it?" },
+        { "speaker": "B", "ko": "고향 사람을 만날 거예요.", "bn": "নিজ দেশের মানুষের সাথে দেখা করবো।", "en": "I'm going to meet people from my hometown." },
+        { "speaker": "A", "ko": "그럼 일요일에 만나요.", "bn": "তাহলে রবিবার দেখা করি।", "en": "Then let's meet on Sunday." },
+        { "speaker": "B", "ko": "네, 좋아요.", "bn": "জি, ভালো।", "en": "Sure, sounds good." }
       ]
     }
   ],
@@ -650,579 +571,361 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'সাপ্তাহিক ছুটি' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '주말'의 뜻은 무엇입니까?",
-      "options": [
-        "휴가",
-        "평일",
-        "주말",
-        "활동"
-      ],
-      "answer": 2,
-      "explanationBn": "'주말' মানে সাপ্তাহিক ছুটি।"
+      "questionBn": "'탁구를 치다' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["ফুটবল খেলা", "টেবিল টেনিস খেলা", "জিমে ব্যায়াম করা", "গান গাওয়া"],
+      "answer": 1,
+      "explanationBn": "탁구 = টেবিল টেনিস, 치다 = খেলা/আঘাত করা।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'বই পড়া' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '책을 읽다'의 뜻은 무엇입니까?",
-      "options": [
-        "음악을 듣다",
-        "영화를 보다",
-        "사진을 찍다",
-        "책을 읽다"
-      ],
-      "answer": 3,
-      "explanationBn": "'책을 읽다' মানে বই পড়া।"
+      "questionBn": "'먹다' + '-(으)ㄹ 거예요' এর সঠিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["먹거예요", "먹ㄹ 거예요", "먹을 거예요", "먹어 거예요"],
+      "answer": 2,
+      "explanationBn": "'먹다' বত্ছিমযুক্ত, তাই '-을 거예요' বসে: 먹을 거예요।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন: 주말에 무엇을 ___?",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "할 거예요",
-        "했어요",
-        "해요",
-        "합니다"
-      ],
+      "questionBn": "'못' সঠিকভাবে কোন বাক্যে ব্যবহৃত হয়েছে?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["비가 와서 운동을 못 해요.", "비가 와서 못 운동해요.", "비가 와서 운동 못이 해요.", "비가 와서 운동을 해요 못."],
       "answer": 0,
-      "explanationBn": "ভবিষ্যতের পরিকল্পনা বোঝাতে '할 거예요' ব্যবহৃত হয়।"
+      "explanationBn": "'운동하다' ক্রিয়ায় '못' বিশেষ্য আর '하다'-এর মাঝে বসে: 운동을 못 해요।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন: 저는 집에서 ___.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "쉬지 마세요",
-        "쉬고 싶어요",
-        "쉬세요",
-        "쉬었어요"
-      ],
+      "questionBn": "'바쁘다' (ব্যস্ত)-এর বিপরীত শব্দ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["피곤하다", "한가하다", "슬프다", "심심하다"],
       "answer": 1,
-      "explanationBn": "ইচ্ছা প্রকাশ করতে '쉬고 싶어요' (বিশ্রাম নিতে চাই) ব্যবহৃত হয়।"
+      "explanationBn": "바쁘다 (ব্যস্ত)-এর বিপরীত 한가하다 (ফুরসত)।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 내일 친구를 ___.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "만났어요",
-        "만나세요",
-        "만날 거예요",
-        "만납니다"
-      ],
+      "type": "multiple-choice",
+      "questionBn": "'주말에 뭐 할 거예요?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": ["고향 음식을 먹었어요.", "네, 먹을 거예요.", "고향 음식을 먹을 거예요.", "주말이에요."],
       "answer": 2,
-      "explanationBn": "আগামীকাল (내일) ভবিষ্যতের সময় নির্দেশ করে, তাই '만날 거예요' হবে।"
+      "explanationBn": "ভবিষ্যৎ পরিকল্পনা জিজ্ঞাসায় '-(으)ㄹ 거예요' দিয়ে উত্তর দিন।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 산에 ___ 가요.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "쇼핑하러",
-        "청소하러",
-        "요리하러",
-        "등산하러"
-      ],
+      "type": "multiple-choice",
+      "questionBn": "'피곤하다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["খুশি", "দুঃখিত", "ব্যস্ত", "ক্লান্ত"],
       "answer": 3,
-      "explanationBn": "পাহাড়ে (산에) ওঠার জন্য '등산하러' ব্যবহৃত হয়।"
+      "explanationBn": "피곤하다 = ক্লান্ত হওয়া—বেশি কাজের পরে ব্যবহৃত হয়।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 주말에 보통 ___?",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "뭐 해요",
-        "언제예요",
-        "누구예요",
-        "어디예요"
-      ],
-      "answer": 0,
-      "explanationBn": "সাপ্তাহিক ছুটিতে সাধারণত কী করেন তা জানতে '뭐 해요' ব্যবহৃত হয়।"
+      "type": "multiple-choice",
+      "questionBn": "'못' দিয়ে পারা-না-পারা সঠিক কোন বাক্যটি?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["저는 술을 마셔요 못.", "저는 술을 못 마셔요.", "저는 못 술을 마셔요.", "저는 술 못을 마셔요."],
+      "answer": 1,
+      "explanationBn": "'못' ক্রিয়ার (마셔요) আগে বসে: 술을 못 마셔요 (মদ পান করতে পারি না)।"
     },
     {
       "id": "p8",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "쇼핑하다",
-          "right": "কেনাকাটা করা"
-        },
-        {
-          "left": "요리하다",
-          "right": "রান্না করা"
-        },
-        {
-          "left": "청소하다",
-          "right": "পরিষ্কার করা"
-        },
-        {
-          "left": "운동하다",
-          "right": "ব্যায়াম করা"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "multiple-choice",
+      "questionBn": "'-지 못하다' সঠিক কোন বাক্যটি?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["일찍 일어나지 안았어요.", "일찍 못 일어나요가.", "일찍 일어나지 못했어요.", "일찍 일어나 못했어요가."],
+      "answer": 2,
+      "explanationBn": "ক্রিয়ার পরে '-지 못하다' বসে: 일어나지 못했어요 (উঠতে পারিনি)।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "여행하다",
-          "right": "ভ্রমণ করা"
-        },
-        {
-          "left": "낚시하다",
-          "right": "মাছ ধরা"
-        },
-        {
-          "left": "등산하다",
-          "right": "পাহাড়ে ওঠা"
-        },
-        {
-          "left": "산책하다",
-          "right": "হাঁটা"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "multiple-choice",
+      "questionBn": "'심심하다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["ব্যস্ত হওয়া", "একঘেয়েমি লাগা", "ক্লান্ত হওয়া", "খুশি হওয়া"],
+      "answer": 1,
+      "explanationBn": "심심하다 = একঘেয়েমি লাগা—করার কিছু না থাকলে অনুভূত হয়।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "영화를 보다",
-          "right": "সিনেমা দেখা"
-        },
-        {
-          "left": "음악을 듣다",
-          "right": "গান শোনা"
-        },
-        {
-          "left": "사진을 찍다",
-          "right": "ছবি তোলা"
-        },
-        {
-          "left": "자전거를 타다",
-          "right": "সাইকেল চালানো"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "fill-blank",
+      "questionBn": "'가다' + '-(으)ㄹ 거예요' বসান: 교회에 ___ 거예요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["갈", "가", "가을", "갈을"],
+      "answer": 0,
+      "explanationBn": "'가다' বত্ছিমবিহীন, তাই '-ㄹ 거예요' বসে: 갈 거예요।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'সাঁতার কাটা' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '수영하다'의 뜻은 무엇입니까?",
-      "options": [
-        "노래하다",
-        "수영하다",
-        "춤을 추다",
-        "외식하다"
-      ],
-      "answer": 1,
-      "explanationBn": "'수영하다' মানে সাঁতার কাটা।"
+      "type": "fill-blank",
+      "questionBn": "'ব্যস্ত থাকায় খেতে পারিনি' বাক্যটি সম্পূর্ণ করুন: 바빠서 밥을 ___ 먹었어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["안", "을", "이", "못"],
+      "answer": 3,
+      "explanationBn": "পারা না যাওয়া বোঝাতে '못' বসে: 못 먹었어요।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'ফুটবল খেলা' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '축구를 하다'의 뜻은 무엇입니까?",
-      "options": [
-        "농구를 하다",
-        "야구를 하다",
-        "축구를 하다",
-        "테니스를 치다"
-      ],
-      "answer": 2,
-      "explanationBn": "'축구를 하다' মানে ফুটবল খেলা।"
+      "type": "fill-blank",
+      "questionBn": "'আজ বিশ্রাম নেবো' বাক্যটি সম্পূর্ণ করুন: 오늘은 ___ 거예요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["쉬", "쉴", "쉬을", "쉬어"],
+      "answer": 1,
+      "explanationBn": "'쉬다' ㄹ বত্ছিমবিহীন, তাই '-ㄹ 거예요' বসে: 쉴 거예요।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন: 우리 같이 영화를 ___?",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "볼까요",
-        "봤어요",
-        "봐요",
-        "봅니다"
-      ],
-      "answer": 0,
-      "explanationBn": "প্রস্তাব দিতে '볼까요?' ব্যবহৃত হয়।"
+      "type": "fill-blank",
+      "questionBn": "'সময় নেই' বাক্যটি সম্পূর্ণ করুন: 시간이 ___어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["있", "많", "적", "없"],
+      "answer": 3,
+      "explanationBn": "없다 = না থাকা; 있다 = থাকা।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন: 밥을 ___ 식당에 가요.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "먹고",
-        "먹어서",
-        "먹지만",
-        "먹으러"
-      ],
-      "answer": 3,
-      "explanationBn": "উদ্দেশ্য বোঝাতে '먹으러' ব্যবহৃত হয়।"
+      "type": "fill-blank",
+      "questionBn": "'পড়তে পারছি না' বাক্যটি সম্পূর্ণ করুন: 공부를 ___ 해요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["안", "을", "이", "못"],
+      "answer": 0,
+      "explanationBn": "'공부하다' ক্রিয়ায় '못' বিশেষ্য আর '하다'-এর মাঝে বসে।"
     },
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 주말에 피아노를 ___.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "쳐요",
-        "해요",
-        "타요",
-        "봐요"
-      ],
+      "questionBn": "'নিজ দেশের খাবার খাবো' বাক্যটি সম্পূর্ণ করুন: 고향 음식을 ___ 거예요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["먹을", "먹", "먹어", "먹이"],
       "answer": 0,
-      "explanationBn": "পিয়ানো বাজানোর ক্ষেত্রে '치다' (쳐요) ব্যবহৃত হয়।"
+      "explanationBn": "'먹다' বত্ছিমযুক্ত, তাই '-을 거예요' বসে: 먹을 거예요।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 피곤해서 낮잠을 ___.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "먹어요",
-        "자요",
-        "입어요",
-        "마셔요"
-      ],
-      "answer": 1,
-      "explanationBn": "দুপুরে ঘুমানোর ক্ষেত্রে '자다' (자요) ব্যবহৃত হয়।"
+      "questionBn": "'বন্ধুর সাথে দেখা করতে পারবো না' বাক্যটি সম্পূর্ণ করুন: 친구를 못 ___요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["만나", "만날", "만났", "만나서"],
+      "answer": 0,
+      "explanationBn": "'못' + ক্রিয়ার মূল রূপ + 아요/어요: 못 만나요।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 내일 친구와 같이 축구를 ___.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "했어요",
-        "하세요",
-        "할 거예요",
-        "합니다"
+      "type": "matching",
+      "questionBn": "সাপ্তাহিক ছুটির কাজের সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "축구하다", "right": "ফুটবল খেলা" },
+        { "left": "탁구를 치다", "right": "টেবিল টেনিস খেলা" },
+        { "left": "헬스를 하다", "right": "জিমে ব্যায়াম করা" },
+        { "left": "낮잠을 자다", "right": "দুপুরে ঘুমানো" }
       ],
-      "answer": 2,
-      "explanationBn": "আগামীকাল (내일) ভবিষ্যতের সময় নির্দেশ করে, তাই '할 거예요' হবে।"
+      "explanationBn": "주말 활동 = সাপ্তাহিক ছুটির কার্যক্রম।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 저는 한국어를 배우고 ___.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "싶어요",
-        "있어요",
-        "가요",
-        "와요"
+      "type": "matching",
+      "questionBn": "অনুভূতির শব্দের সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "기쁘다", "right": "খুশি" },
+        { "left": "슬프다", "right": "দুঃখ/মন খারাপ" },
+        { "left": "피곤하다", "right": "ক্লান্ত" },
+        { "left": "심심하다", "right": "একঘেয়েমি" },
+        { "left": "즐겁다", "right": "আনন্দদায়ক" }
       ],
-      "answer": 0,
-      "explanationBn": "ইচ্ছা প্রকাশ করতে '고 싶어요' ব্যবহৃত হয়।"
+      "explanationBn": "기분 = মেজাজ; 기쁘다 ↔ 슬프다 পরস্পর বিপরীত।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "피아노를 치다",
-          "right": "পিয়ানো বাজানো"
-        },
-        {
-          "left": "그림을 그리다",
-          "right": "ছবি আঁকা"
-        },
-        {
-          "left": "노래하다",
-          "right": "গান গাওয়া"
-        },
-        {
-          "left": "춤을 추다",
-          "right": "নাচা"
-        }
-      ],
+      "questionBn": "ব্যস্ততা-সংক্রান্ত প্রকাশের সাথে বাংলা অর্থ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        { "left": "시간이 있다", "right": "সময় আছে" },
+        { "left": "약속이 있다", "right": "অ্যাপয়েন্টমেন্ট আছে" },
+        { "left": "일이 많다", "right": "কাজ অনেক" },
+        { "left": "바쁘다", "right": "ব্যস্ত" },
+        { "left": "한가하다", "right": "ফুরসত" }
+      ],
+      "explanationBn": "시간이 없다 বললে বোঝায় ব্যস্ত—দেখা করা কঠিন।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "외식하다",
-          "right": "বাইরে খাওয়া"
-        },
-        {
-          "left": "낮잠을 자다",
-          "right": "দুপুরে ঘুমানো"
-        },
-        {
-          "left": "드라마를 보다",
-          "right": "নাটক দেখা"
-        },
-        {
-          "left": "공연을 보다",
-          "right": "পারফরম্যান্স দেখা"
-        }
-      ],
+      "questionBn": "জায়গার সাথে স্বাভাবিক কাজটি মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        { "left": "운동장", "right": "축구해요" },
+        { "left": "헬스장", "right": "헬스를 해요" },
+        { "left": "피시방", "right": "게임을 해요" },
+        { "left": "노래방", "right": "노래를 불러요" }
+      ],
+      "explanationBn": "প্রতিটি জায়গার নিজস্ব কাজ আছে—মিলিয়ে মনে রাখুন।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 이번 주말에 뭐 할 거예요?\n나: 친구하고 같이 (   )을/를 볼 거예요.",
-      "options": [
-        "음악",
-        "등산",
-        "사진",
-        "영화"
-      ],
-      "answer": 3,
-      "explanationBn": "সিনেমা (영화) দেখা হয়, তাই সঠিক উত্তর '영화'।"
+      "questionBn": "বাক্যটি পড়ে এটি কোন ধরনের কাজ তা বাছাই করুন।",
+      "questionKo": "다음 내용과 관계있는 것을 고르십시오.",
+      "passage": "기도를 하고 있습니다.",
+      "options": ["종교 활동", "운동 활동", "취미 활동", "집안일"],
+      "answer": 0,
+      "explanationBn": "প্রার্থনা (기도) হলো 종교 활동 (ধর্মীয় কার্যক্রম)।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 취미가 뭐예요?\n나: 제 취미는 (   )이에요/예요. 강에서 물고기를 잡아요.",
-      "options": [
-        "독서",
-        "쇼핑",
-        "낚시",
-        "요리"
-      ],
-      "answer": 2,
-      "explanationBn": "নদীতে মাছ ধরা (물고기를 잡아요) মানে মাছ ধরা (낚시)।"
+      "questionBn": "'슬프다' শব্দটি কোন বিভাগের?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "슬프다",
+      "options": ["활동", "기분", "장소", "직업"],
+      "answer": 1,
+      "explanationBn": "'슬프다' (দুঃখিত হওয়া) একটি 기분 (অনুভূতি)।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "저는 산을 좋아합니다. 그래서 주말마다 (   )을/를 합니다.",
-      "options": [
-        "게임",
-        "등산",
-        "청소",
-        "수영"
-      ],
-      "answer": 1,
-      "explanationBn": "পাহাড় (산) পছন্দ করলে পাহাড়ে ওঠা (등산) হয়।"
+      "questionBn": "'-(으)ㄹ 거예요' সঠিক কোন বাক্যটি?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["기숙사에서 음악을 들을 거예요.", "기숙사에서 음악을 들어요가.", "기숙사를 음악 들을 거예요.", "기숙사에서 음악을 들을 거예요가."],
+      "answer": 0,
+      "explanationBn": "'듣다' ㄹ-অনিয়ম—어간 '들' হয়ে যায়, তাই '-을 거예요' বসে: 들을 거예요।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "저는 이번 주말에 친구를 만날 거예요. 우리는 같이 저녁을 먹고 영화를 볼 거예요. 그리고 일요일에는 집에서 쉴 거예요.",
-      "options": [
-        "이 사람은 친구와 영화를 볼 거예요.",
-        "이 사람은 일요일에 친구를 만날 거예요.",
-        "이 사람은 주말에 일할 거예요.",
-        "이 사람은 토요일에 집에서 쉴 거예요."
-      ],
-      "answer": 0,
-      "explanationBn": "লেখায় বলা হয়েছে যে সে বন্ধুর সাথে সিনেমা দেখবে (영화를 볼 거예요)।"
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "주말에 친구를 만났어요? — 아니요, 일이 많아서 ___ 만났어요.",
+      "options": ["안", "을", "이", "못"],
+      "answer": 3,
+      "explanationBn": "কাজ অনেক বলে দেখা করা যায়নি—পারা না যাওয়া বোঝাতে '못' বসে।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "제 취미는 요리입니다. 주말에 시간이 있으면 맛있는 음식을 만듭니다. 이번 주말에는 불고기를 만들고 싶습니다.",
-      "options": [
-        "이 사람은 식당에서 불고기를 먹을 거예요.",
-        "이 사람은 주말에 시간이 없습니다.",
-        "이 사람은 요리를 싫어합니다.",
-        "이 사람은 이번 주말에 불고기를 만들 거예요."
-      ],
-      "answer": 3,
-      "explanationBn": "লেখায় বলা হয়েছে যে সে এই সাপ্তাহিক ছুটিতে বুলগোগি তৈরি করতে চায় (불고기를 만들고 싶습니다)।"
+      "questionBn": "কোরিয়ার ধর্ম সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국은 개인의 종교가 존중받는 다종교 국가입니다. 개신교를 믿는 사람이 가장 많고, 다음으로 불교, 천주교 순입니다.",
+      "options": ["한국에서는 종교가 금지됩니다.", "개신교를 믿는 사람이 가장 많습니다.", "모든 한국 사람이 종교가 있습니다.", "이슬람교를 믿는 사람이 가장 많습니다."],
+      "answer": 1,
+      "explanationBn": "লেখানুযায়ী কোরিয়ায় সবচেয়ে বেশি মানুষ 개신교 (প্রটেস্ট্যান্ট) বিশ্বাস করে।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 수루 씨, 주말에 뭐 할 거예요?\n여자: 저는 집에서 책을 읽을 거예요.",
-      "options": [
-        "여자는 주말에 영화를 볼 거예요.",
-        "여자는 주말에 친구를 만날 거예요.",
-        "여자는 주말에 책을 읽을 거예요.",
-        "여자는 주말에 일할 거예요."
-      ],
-      "answer": 2,
-      "explanationBn": "মহিলাটি বলেছে যে সে বাড়িতে বই পড়বে (책을 읽을 거예요)।"
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "어제 일을 많이 해서 ___요. 오늘은 쉴 거예요.",
+      "options": ["피곤해", "기뻐", "즐거워", "한가해"],
+      "answer": 0,
+      "explanationBn": "অনেক কাজের পরে বিশ্রাম দরকার মানে ক্লান্ত (피곤해요)।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 리한 씨는 취미가 뭐예요?\n남자: 저는 사진 찍는 것을 좋아해요. 그래서 주말에 사진을 찍으러 가요.",
-      "options": [
-        "남자는 음악을 들을 거예요.",
-        "남자는 사진을 찍을 거예요.",
-        "남자는 자전거를 탈 거예요.",
-        "남자는 그림을 그릴 거예요."
-      ],
-      "answer": 1,
-      "explanationBn": "পুরুষটি বলেছে যে সে ছবি তুলতে পছন্দ করে এবং সাপ্তাহিক ছুটিতে ছবি তুলতে যায় (사진을 찍으러 가요)।"
+      "section": "reading",
+      "questionBn": "'못' সঠিক কোন বাক্যটি?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["저는 술을 마셔요 못.", "저는 못 술을 마셔요.", "저는 술을 못 마셔요.", "저는 술을 안 못 마셔요."],
+      "answer": 2,
+      "explanationBn": "'못' ক্রিয়ার (마셔요) আগে বসে: 술을 못 마셔요।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 이번 주말에 같이 등산 갈까요?\n여자: 미안해요. 이번 주말에는 집에서 쉬고 싶어요.",
-      "options": [
-        "여자는 집에서 쉴 거예요.",
-        "두 사람은 같이 등산을 갈 거예요.",
-        "남자는 집에서 쉴 거예요.",
-        "여자는 등산을 갈 거예요."
-      ],
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক রূপটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "토요일에 뭐 할 거예요? — 친구하고 탁구를 ___ 거예요.",
+      "options": ["칠", "치", "치을", "쳤"],
       "answer": 0,
-      "explanationBn": "মহিলাটি বলেছে যে সে বাড়িতে বিশ্রাম নিতে চায় (집에서 쉬고 싶어요)।"
-    },
+      "explanationBn": "'치다' ㄹ বত্ছিমবিহীন, তাই '-ㄹ 거예요' বসে: 칠 거예요।"
+    }
+    ,
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 주말에 보통 뭐 해요?\n나: 저는 공원에서 (   )을/를 타요.",
-      "options": [
-        "사진",
-        "자전거",
-        "음악",
-        "영화"
-      ],
-      "answer": 1,
-      "explanationBn": "পার্কে সাইকেল (자전거) চালানো হয়, তাই সঠিক উত্তর '자전거'।"
+      "passage": "___ 잘 보내세요! (সপ্তাহান্ত ভালো কাটান)",
+      "options": ["평일", "생일", "휴가", "주말"],
+      "answer": 3,
+      "explanationBn": "'주말 잘 보내세요' = সপ্তাহান্ত ভালো কাটান—শুক্রবারে প্রচলিত শুভকামনা।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 내일 같이 축구할까요?\n나: 미안해요. 내일은 집에서 (   ) 싶어요.",
-      "options": [
-        "쉬고",
-        "먹고",
-        "가고",
-        "보고"
-      ],
-      "answer": 0,
-      "explanationBn": "বাড়িতে বিশ্রাম নিতে চাওয়ার ক্ষেত্রে '쉬고' ব্যবহৃত হয়।"
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "프엉 씨는 토요일에 교회에 갑니다. 기도를 하고 고향 사람들을 만납니다.",
+      "options": ["프엉 씨는 일요일에 교회에 갑니다.", "프엉 씨는 절에 갑니다.", "프엉 씨는 교회에서 기도를 합니다.", "프엉 씨는 혼자 있을 겁니다."],
+      "answer": 2,
+      "explanationBn": "লেখানুযায়ী ফুং শনিবার গির্জায় গিয়ে প্রার্থনা করে ও দেশের মানুষের সাথে দেখা করে।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "저는 음악을 좋아합니다. 그래서 주말마다 노래방에 가서 (   )을/를 합니다.",
-      "options": [
-        "요리",
-        "청소",
-        "노래",
-        "수영"
-      ],
-      "answer": 2,
-      "explanationBn": "ক্যারওকেতে (노래방) গান (노래) গাওয়া হয়।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা সপ্তাহান্তে কী করবেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 주말에 뭐 할 거예요?\n여자: 고향 사람들을 만날 거예요.",
+      "options": ["책을 읽을 거예요", "고향 사람들을 만날 거예요", "운동을 할 거예요", "쉴 거예요"],
+      "answer": 1,
+      "explanationBn": "মহিলা বলেছেন নিজ দেশের মানুষের সাথে দেখা করবেন।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "저는 이번 주말에 가족과 함께 외식을 할 거예요. 맛있는 한국 음식을 먹으러 식당에 갈 거예요. 그리고 공원에서 산책을 할 거예요.",
-      "options": [
-        "이 사람은 주말에 혼자 밥을 먹을 거예요.",
-        "이 사람은 식당에서 산책을 할 거예요.",
-        "이 사람은 가족과 함께 외식을 할 거예요.",
-        "이 사람은 집에서 한국 음식을 만들 거예요."
-      ],
-      "answer": 2,
-      "explanationBn": "লেখায় বলা হয়েছে যে সে পরিবারের সাথে বাইরে খাবে (가족과 함께 외식을 할 거예요)।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কেন বন্ধুর সাথে দেখা করতে পারবেন না?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 오늘 친구를 만날 거예요?\n여자: 아니요, 바빠서 못 만나요.",
+      "options": ["날씨가 추워서", "집이 멀어서", "몸이 아파서", "일이 많아서"],
+      "answer": 3,
+      "explanationBn": "মহিলা বলেছেন ব্যস্ত (바빠서) থাকায়—অর্থাৎ কাজ অনেক বলে।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "제 취미는 그림 그리기입니다. 주말에 시간이 있으면 공원에 가서 예쁜 꽃을 그립니다. 이번 주말에도 그림을 그리러 갈 거예요.",
-      "options": [
-        "이 사람은 주말에 꽃을 살 거예요.",
-        "이 사람은 그림 그리는 것을 좋아합니다.",
-        "이 사람은 이번 주말에 집에서 쉴 거예요.",
-        "이 사람은 공원에서 운동을 할 거예요."
-      ],
-      "answer": 1,
-      "explanationBn": "লেখায় বলা হয়েছে যে তার শখ ছবি আঁকা (제 취미는 그림 그리기입니다)।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি পিসি রুমে কী করবেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 피시방에서 뭘 할 거예요?\n남자: 게임을 할 거예요.",
+      "options": ["노래를 부를 거예요", "책을 읽을 거예요", "게임을 할 거예요", "운동을 할 거예요"],
+      "answer": 2,
+      "explanationBn": "পুরুষ বলেছেন পিসি রুমে গেম (게임) খেলবেন।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: মহিলা আজ কী করবেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 수루 씨, 우리 같이 영화 보러 갈까요?\n여자: 좋아요. 무슨 영화를 볼까요?",
-      "options": [
-        "두 사람은 같이 영화를 볼 거예요.",
-        "여자는 영화를 싫어해요.",
-        "남자는 집에서 쉴 거예요.",
-        "두 사람은 같이 밥을 먹을 거예요."
-      ],
-      "answer": 0,
-      "explanationBn": "তারা একসাথে সিনেমা দেখার বিষয়ে একমত হয়েছে (두 사람은 같이 영화를 볼 거예요)।"
+      "passage": "남자: 어제 뭐 했어요?\n여자: 일을 많이 해서 피곤해요. 오늘은 쉴 거예요.",
+      "options": ["일할 거예요", "쉴 거예요", "친구를 만날 거예요", "청소를 할 거예요"],
+      "answer": 1,
+      "explanationBn": "মহিলা ক্লান্ত থাকায় আজ বিশ্রাম (쉴 거예요) নেবেন।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: মহিলা সপ্তাহান্তে কী করেছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 리한 씨, 주말에 보통 뭐 해요?\n남자: 저는 피곤해서 보통 집에서 낮잠을 자요.",
-      "options": [
-        "남자는 주말에 운동을 해요.",
-        "남자는 주말에 낮잠을 자요.",
-        "남자는 주말에 친구를 만나요.",
-        "남자는 주말에 쇼핑을 해요."
-      ],
-      "answer": 1,
-      "explanationBn": "পুরুষটি বলেছে যে সে সাধারণত দুপুরে ঘুমায় (낮잠을 자요)।"
+      "passage": "남자: 주말 잘 지내셨어요?\n여자: 네, 고향 친구들을 만나서 재미있게 놀았어요.",
+      "options": ["일했어요", "집에서 쉬었어요", "친구를 만났어요", "병원에 갔어요"],
+      "answer": 2,
+      "explanationBn": "মহিলা বলেছেন দেশের বন্ধুদের সাথে দেখা করে মজা করেছেন।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: পুরুষের শনিবার কেমন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 이번 주말에 같이 수영하러 갈까요?\n여자: 미안해요. 저는 수영을 못 해요. 대신 자전거를 타러 가요.",
-      "options": [
-        "여자는 수영을 잘 해요.",
-        "두 사람은 같이 수영을 할 거예요.",
-        "여자는 자전거를 타고 싶어 해요.",
-        "남자는 자전거를 못 타요."
-      ],
-      "answer": 2,
-      "explanationBn": "মহিলাটি সাঁতার কাটতে পারে না, তাই সে সাইকেল চালানোর প্রস্তাব দিয়েছে (자전거를 타러 가요)।"
+      "passage": "여자: 토요일에 시간이 있어요?\n남자: 아니요, 시간이 없어요. 약속이 있어요.",
+      "options": ["시간이 있어요", "한가해요", "심심해요", "약속이 있어요"],
+      "answer": 3,
+      "explanationBn": "পুরুষ বলেছেন সময় নেই—অ্যাপয়েন্টমেন্ট (약속) আছে।"
     }
   ]
 }
