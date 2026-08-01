@@ -2,7 +2,7 @@
   "chapter": 4,
   "slug": "actions-and-objects",
   "title": {
-    "ko": "행동과 사물",
+    "ko": "동작과 사물",
     "bn": "কাজ ও বস্তু",
     "en": "Actions and Objects"
   },
@@ -10,121 +10,19 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "দৈনন্দিন কাজ ও বস্তু সম্পর্কে কথা বলতে শেখা।",
-      "কাউকে কোনো কিছু করতে বলা বা নির্দেশ দেওয়া।",
-      "বস্তুর অবস্থান সম্পর্কে জিজ্ঞাসা করা এবং উত্তর দেওয়া।"
+      "এখন কী কাজ করছে তা বলতে পারা",
+      "কেউ কী করছে তা জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "দৈনন্দিন কাজের ক্রিয়া ও জিনিসের নাম ব্যবহার করতে পারা",
+      "কোরিয়ার মেঝেতে বসার সংস্কৃতি (좌식 문화) সম্পর্কে জানা"
     ],
     "en": [
-      "Learn to talk about daily actions and objects.",
-      "Give instructions or ask someone to do something.",
-      "Ask and answer about the location of objects."
+      "Being able to talk about what someone is doing",
+      "Being able to ask and answer what someone is doing",
+      "Being able to use verbs and nouns for everyday actions and objects",
+      "Knowing about Korea's floor-sitting culture"
     ]
   },
   "vocabulary": [
-    {
-      "ko": "먹다",
-      "romanization": "meokda",
-      "bn": "খাওয়া",
-      "en": "to eat",
-      "pos": "verb",
-      "example": {
-        "ko": "저는 밥을 먹습니다.",
-        "bn": "আমি ভাত খাই।",
-        "en": "I eat rice."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি গলার ভেতর থেকে আসবে, 'মক-দা' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "마시다",
-      "romanization": "masida",
-      "bn": "পান করা",
-      "en": "to drink",
-      "pos": "verb",
-      "example": {
-        "ko": "물을 마십니다.",
-        "bn": "পানি পান করি।",
-        "en": "I drink water."
-      },
-      "pronunciationTipBn": "'시' উচ্চারণ করার সময় 'শি' এর মতো শোনাবে।"
-    },
-    {
-      "ko": "자다",
-      "romanization": "jada",
-      "bn": "ঘুমানো",
-      "en": "to sleep",
-      "pos": "verb",
-      "example": {
-        "ko": "밤에 잠을 잡니다.",
-        "bn": "রাতে ঘুমাই।",
-        "en": "I sleep at night."
-      },
-      "pronunciationTipBn": "'자' উচ্চারণটি 'চা' এবং 'জা' এর মাঝামাঝি হবে।"
-    },
-    {
-      "ko": "보다",
-      "romanization": "boda",
-      "bn": "দেখা",
-      "en": "to see/watch",
-      "pos": "verb",
-      "example": {
-        "ko": "텔레비전을 봅니다.",
-        "bn": "টেলিভিশন দেখি।",
-        "en": "I watch television."
-      },
-      "pronunciationTipBn": "'보' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "읽다",
-      "romanization": "ikda",
-      "bn": "পড়া",
-      "en": "to read",
-      "pos": "verb",
-      "example": {
-        "ko": "책을 읽습니다.",
-        "bn": "বই পড়ি।",
-        "en": "I read a book."
-      },
-      "pronunciationTipBn": "নিচে 'ㄹㄱ' থাকলে শুধু 'ㄱ' উচ্চারিত হবে, 'ইক-দা' বলুন।"
-    },
-    {
-      "ko": "쓰다",
-      "romanization": "sseuda",
-      "bn": "লেখা",
-      "en": "to write",
-      "pos": "verb",
-      "example": {
-        "ko": "편지를 씁니다.",
-        "bn": "চিঠি লিখি।",
-        "en": "I write a letter."
-      },
-      "pronunciationTipBn": "'ㅆ' একটি শক্ত ধ্বনি, একটু জোর দিয়ে 'স্স্য-দা' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "사다",
-      "romanization": "sada",
-      "bn": "কেনা",
-      "en": "to buy",
-      "pos": "verb",
-      "example": {
-        "ko": "사과를 삽니다.",
-        "bn": "আপেল কিনি।",
-        "en": "I buy an apple."
-      },
-      "pronunciationTipBn": "'사' উচ্চারণটি হালকা 'সা' এর মতো হবে।"
-    },
-    {
-      "ko": "만나다",
-      "romanization": "mannada",
-      "bn": "দেখা করা",
-      "en": "to meet",
-      "pos": "verb",
-      "example": {
-        "ko": "친구를 만납니다.",
-        "bn": "বন্ধুর সাথে দেখা করি।",
-        "en": "I meet a friend."
-      },
-      "pronunciationTipBn": "'ㄴ' ধ্বনিটি স্পষ্ট করে 'মান-না-দা' উচ্চারণ করুন।"
-    },
     {
       "ko": "일하다",
       "romanization": "ilhada",
@@ -132,154 +30,24 @@
       "en": "to work",
       "pos": "verb",
       "example": {
-        "ko": "공장에서 일합니다.",
-        "bn": "কারখানায় কাজ করি।",
-        "en": "I work at a factory."
+        "ko": "왕민 씨는 지금 일해요.",
+        "bn": "ওয়াংমিন এখন কাজ করছে।",
+        "en": "Wangmin is working now."
       },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি বাংলার 'ল' এর মতো, 'ইল-হা-다' বলুন।"
+      "pronunciationTipBn": "'일하다' [ইলহাদা]—ㄹ বত্ছিমের পরে ㅎ প্রায় নীরব থাকে।"
     },
     {
-      "ko": "쉬다",
-      "romanization": "swida",
-      "bn": "বিশ্রাম নেওয়া",
-      "en": "to rest",
+      "ko": "공부하다",
+      "romanization": "gongbuhada",
+      "bn": "পড়াশোনা করা",
+      "en": "to study",
       "pos": "verb",
       "example": {
-        "ko": "집에서 쉽니다.",
-        "bn": "বাড়িতে বিশ্রাম নিই।",
-        "en": "I rest at home."
+        "ko": "유수프 씨는 공부해요.",
+        "bn": "ইউসুফ পড়াশোনা করছে।",
+        "en": "Yusuf is studying."
       },
-      "pronunciationTipBn": "'쉬' উচ্চারণটি 'শুই' এর মতো শোনাবে।"
-    },
-    {
-      "ko": "책",
-      "romanization": "chaek",
-      "bn": "বই",
-      "en": "book",
-      "pos": "noun",
-      "example": {
-        "ko": "이것은 책입니다.",
-        "bn": "এটি একটি বই।",
-        "en": "This is a book."
-      },
-      "pronunciationTipBn": "'ㅊ' একটি বাতাসযুক্ত ধ্বনি, 'ছেক' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "펜",
-      "romanization": "pen",
-      "bn": "কলম",
-      "en": "pen",
-      "pos": "noun",
-      "example": {
-        "ko": "펜이 있습니다.",
-        "bn": "একটি কলম আছে।",
-        "en": "There is a pen."
-      },
-      "pronunciationTipBn": "'ㅍ' একটি বাতাসযুক্ত ধ্বনি, 'ফেন' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "가방",
-      "romanization": "gabang",
-      "bn": "ব্যাগ",
-      "en": "bag",
-      "pos": "noun",
-      "example": {
-        "ko": "가방이 큽니다.",
-        "bn": "ব্যাগটি বড়।",
-        "en": "The bag is big."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি শব্দের শুরুতে 'খ' এর মতো শোনাতে পারে, 'খা-বাং' বলুন।"
-    },
-    {
-      "ko": "의자",
-      "romanization": "uija",
-      "bn": "চেয়ার",
-      "en": "chair",
-      "pos": "noun",
-      "example": {
-        "ko": "의자에 앉습니다.",
-        "bn": "চেয়ারে বসি।",
-        "en": "I sit on the chair."
-      },
-      "pronunciationTipBn": "'의' উচ্চারণটি 'উই' এর মতো হবে।"
-    },
-    {
-      "ko": "책상",
-      "romanization": "chaeksang",
-      "bn": "টেবিল",
-      "en": "desk",
-      "pos": "noun",
-      "example": {
-        "ko": "책상 위에 책이 있습니다.",
-        "bn": "টেবিলের উপরে বই আছে।",
-        "en": "There is a book on the desk."
-      },
-      "pronunciationTipBn": "'상' এর 'ㅇ' ধ্বনিটি বাংলার 'ং' এর মতো।"
-    },
-    {
-      "ko": "물",
-      "romanization": "mul",
-      "bn": "পানি",
-      "en": "water",
-      "pos": "noun",
-      "example": {
-        "ko": "물을 주세요.",
-        "bn": "পানি দিন।",
-        "en": "Please give me water."
-      },
-      "pronunciationTipBn": "'물' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "밥",
-      "romanization": "bap",
-      "bn": "ভাত",
-      "en": "rice/meal",
-      "pos": "noun",
-      "example": {
-        "ko": "밥을 먹습니다.",
-        "bn": "ভাত খাই।",
-        "en": "I eat rice."
-      },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শেষে 'প' এর মতো উচ্চারিত হয়, 'ভাপ' বলুন।"
-    },
-    {
-      "ko": "돈",
-      "romanization": "don",
-      "bn": "টাকা",
-      "en": "money",
-      "pos": "noun",
-      "example": {
-        "ko": "돈이 없습니다.",
-        "bn": "টাকা নেই।",
-        "en": "I don't have money."
-      },
-      "pronunciationTipBn": "'ㄷ' ধ্বনিটি শব্দের শুরুতে 'থ' এর মতো শোনাতে পারে, 'থোন' বলুন।"
-    },
-    {
-      "ko": "배우다",
-      "romanization": "baeuda",
-      "bn": "শেখা",
-      "en": "to learn",
-      "pos": "verb",
-      "example": {
-        "ko": "한국어를 배웁니다.",
-        "bn": "কোরিয়ান ভাষা শিখি।",
-        "en": "I learn Korean."
-      },
-      "pronunciationTipBn": "'배' উচ্চারণ করার সময় মুখ একটু বেশি খুলুন।"
-    },
-    {
-      "ko": "가르치다",
-      "romanization": "gareuchida",
-      "bn": "শেখানো",
-      "en": "to teach",
-      "pos": "verb",
-      "example": {
-        "ko": "선생님이 가르칩니다.",
-        "bn": "শিক্ষক শেখান।",
-        "en": "The teacher teaches."
-      },
-      "pronunciationTipBn": "'치' একটি বাতাসযুক্ত ধ্বনি, 'ছি' উচ্চারণ করুন।"
+      "pronunciationTipBn": "'공부' [গংবু]—ㅇ শেষে নাকিধ্বনি 'ং', ㅂ নরম 'ব'।"
     },
     {
       "ko": "운동하다",
@@ -288,11 +56,24 @@
       "en": "to exercise",
       "pos": "verb",
       "example": {
-        "ko": "공원에서 운동합니다.",
-        "bn": "পার্কে ব্যায়াম করি।",
-        "en": "I exercise at the park."
+        "ko": "닛차난 씨는 운동해요.",
+        "bn": "নিচানান ব্যায়াম করছে।",
+        "en": "Nitchanan is exercising."
       },
-      "pronunciationTipBn": "'운' এর 'ㄴ' ধ্বনিটি স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'운동' [উন্দং]—ㄹ বত্ছিমের পরে ㄷ জোরে 'দ/ত' শোনায়।"
+    },
+    {
+      "ko": "전화하다",
+      "romanization": "jeonhwahada",
+      "bn": "ফোন করা",
+      "en": "to make a phone call",
+      "pos": "verb",
+      "example": {
+        "ko": "저는 지금 전화해요.",
+        "bn": "আমি এখন ফোন করছি।",
+        "en": "I am on the phone now."
+      },
+      "pronunciationTipBn": "'전화' [জনোয়া]—ㅎ এখানে প্রায় নীরব; দ্রুত মিলিয়ে বলুন।"
     },
     {
       "ko": "요리하다",
@@ -301,330 +82,487 @@
       "en": "to cook",
       "pos": "verb",
       "example": {
-        "ko": "집에서 요리합니다.",
-        "bn": "বাড়িতে রান্না করি।",
-        "en": "I cook at home."
+        "ko": "다라 씨는 요리해요.",
+        "bn": "দারা রান্না করছে।",
+        "en": "Dara is cooking."
       },
-      "pronunciationTipBn": "'요' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "'요' ঠোঁট গোল করে 'য়ো'; '리' নরম 'রি'—'য়োরিহাদা'।"
     },
     {
-      "ko": "청소하다",
-      "romanization": "cheongsohada",
-      "bn": "পরিষ্কার করা",
-      "en": "to clean",
+      "ko": "쇼핑하다",
+      "romanization": "syopinghada",
+      "bn": "কেনাকাটা করা",
+      "en": "to shop",
       "pos": "verb",
       "example": {
-        "ko": "방을 청소합니다.",
-        "bn": "রুম পরিষ্কার করি।",
-        "en": "I clean the room."
+        "ko": "지금 쇼핑해요.",
+        "bn": "এখন কেনাকাটা করছি।",
+        "en": "I am shopping now."
       },
-      "pronunciationTipBn": "'청' এর 'ㅊ' একটি বাতাসযুক্ত ধ্বনি।"
+      "pronunciationTipBn": "ইংরেজি 'shopping'-এর কোরীয় রূপ—'স্যোপিং' বলুন, 'শ' নরম।"
     },
     {
-      "ko": "전화하다",
-      "romanization": "jeonhwahada",
-      "bn": "ফোন করা",
-      "en": "to call",
+      "ko": "쉬다",
+      "romanization": "swida",
+      "bn": "বিশ্রাম নেওয়া",
+      "en": "to take a break; to rest",
       "pos": "verb",
       "example": {
-        "ko": "친구에게 전화합니다.",
-        "bn": "বন্ধুকে ফোন করি।",
-        "en": "I call a friend."
+        "ko": "프엉 씨는 쉬어요.",
+        "bn": "ফুং বিশ্রাম নিচ্ছে।",
+        "en": "Phuong is taking a break."
       },
-      "pronunciationTipBn": "'화' উচ্চারণটি 'হওয়া' এর মতো শোনাবে।"
+      "pronunciationTipBn": "'쉬' বলতে 'শ'+'ু'+'ই' একটানা 'শুই'; '쉬어요' [শুইয়ো]।"
     },
     {
-      "ko": "이야기하다",
-      "romanization": "iyagihada",
-      "bn": "কথা বলা",
-      "en": "to talk",
+      "ko": "자다",
+      "romanization": "jada",
+      "bn": "ঘুমানো",
+      "en": "to sleep",
       "pos": "verb",
       "example": {
-        "ko": "친구와 이야기합니다.",
-        "bn": "বন্ধুর সাথে কথা বলি।",
-        "en": "I talk with a friend."
+        "ko": "카밀 씨는 자요.",
+        "bn": "কামিল ঘুমাচ্ছে।",
+        "en": "Kamil is sleeping."
       },
-      "pronunciationTipBn": "'기' উচ্চারণটি হালকা 'গি' এর মতো হবে।"
+      "pronunciationTipBn": "'자다' + 아요 → '자요'—ㅏ+ㅏ মিলে এক 'ㅏ' হয়; 'জায়ো'।"
     },
     {
-      "ko": "노래하다",
-      "romanization": "noraehada",
-      "bn": "গান গাওয়া",
-      "en": "to sing",
+      "ko": "가다",
+      "romanization": "gada",
+      "bn": "যাওয়া",
+      "en": "to go",
       "pos": "verb",
       "example": {
-        "ko": "노래방에서 노래합니다.",
-        "bn": "নরেবাং-এ গান গাই।",
-        "en": "I sing at a karaoke."
+        "ko": "회사에 가요.",
+        "bn": "কর্মস্থলে যাচ্ছি।",
+        "en": "I am going to work."
       },
-      "pronunciationTipBn": "'노' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "'가다' [গাদা]—ㄷ এখানে নরম 'দ'; '가요' [গায়ো]।"
     },
     {
-      "ko": "컴퓨터",
-      "romanization": "keompyuteo",
-      "bn": "কম্পিউটার",
-      "en": "computer",
-      "pos": "noun",
+      "ko": "오다",
+      "romanization": "oda",
+      "bn": "আসা",
+      "en": "to come",
+      "pos": "verb",
       "example": {
-        "ko": "컴퓨터가 있습니다.",
-        "bn": "কম্পิวটার আছে।",
-        "en": "There is a computer."
+        "ko": "기숙사에 와요.",
+        "bn": "ডরমিটরিতে আসছি।",
+        "en": "I am coming to the dormitory."
       },
-      "pronunciationTipBn": "'컴' এর 'ㅋ' একটি বাতাসযুক্ত ধ্বনি।"
+      "pronunciationTipBn": "'오다' + 아요 → '와요'—ㅗ+ㅏ মিলে 'ㅘ' হয়; 'ওয়ায়ো'।"
+    }
+    ,
+    {
+      "ko": "하다",
+      "romanization": "hada",
+      "bn": "করা",
+      "en": "to do",
+      "pos": "verb",
+      "example": {
+        "ko": "지금 뭐 해요?",
+        "bn": "এখন কী করছেন?",
+        "en": "What are you doing now?"
+      },
+      "pronunciationTipBn": "'하다' + 요 → '해요'—বিশেষ রূপ; 'হা' না বলে 'হ্যে' শোনায়।"
     },
     {
-      "ko": "텔레비전",
-      "romanization": "tellebijeon",
-      "bn": "টেলিভিশন",
-      "en": "television",
-      "pos": "noun",
+      "ko": "먹다",
+      "romanization": "meokda",
+      "bn": "খাওয়া",
+      "en": "to eat",
+      "pos": "verb",
       "example": {
-        "ko": "텔레비전을 봅니다.",
-        "bn": "টেলিভিশন দেখি।",
-        "en": "I watch television."
+        "ko": "밥을 먹어요.",
+        "bn": "খাবার খাচ্ছি।",
+        "en": "I am eating a meal."
       },
-      "pronunciationTipBn": "'텔' এর 'ㅌ' একটি বাতাসযুক্ত ধ্বনি।"
+      "pronunciationTipBn": "'먹어요' [মখায়ো] নয়, [মগায়ো]—ㄱ বত্ছিমের পরে ㅇ এলে ㄱ সরে যায়।"
     },
     {
-      "ko": "전화기",
-      "romanization": "jeonhwagi",
-      "bn": "টেলিফোন",
-      "en": "telephone",
-      "pos": "noun",
+      "ko": "마시다",
+      "romanization": "masida",
+      "bn": "পান করা",
+      "en": "to drink",
+      "pos": "verb",
       "example": {
-        "ko": "전화기가 비쌉니다.",
-        "bn": "টেলিফোনটি দামি।",
-        "en": "The telephone is expensive."
+        "ko": "커피를 마셔요.",
+        "bn": "কফি পান করছি।",
+        "en": "I am drinking coffee."
       },
-      "pronunciationTipBn": "'기' উচ্চারণটি হালকা 'গি' এর মতো হবে।"
+      "pronunciationTipBn": "'마셔요' [মাশায়ো]—ㅣ+ㅓ মিলে 'ㅕ' হয়।"
     },
     {
-      "ko": "시계",
-      "romanization": "sigye",
-      "bn": "ঘড়ি",
-      "en": "clock/watch",
-      "pos": "noun",
+      "ko": "읽다",
+      "romanization": "ikda",
+      "bn": "পড়া",
+      "en": "to read",
+      "pos": "verb",
       "example": {
-        "ko": "시계가 예쁩니다.",
-        "bn": "ঘড়িটি সুন্দর।",
-        "en": "The clock is pretty."
+        "ko": "책을 읽어요.",
+        "bn": "বই পড়ছি।",
+        "en": "I am reading a book."
       },
-      "pronunciationTipBn": "'계' উচ্চারণটি 'গ্যে' এর মতো শোনাবে।"
+      "pronunciationTipBn": "'읽어요' [ইলগায়ো]—ㄹㄱ দ্বিবত্ছিমের ㄱ-ই শোনায়।"
     },
     {
-      "ko": "안경",
-      "romanization": "angyeong",
-      "bn": "চশমা",
-      "en": "glasses",
-      "pos": "noun",
+      "ko": "보다",
+      "romanization": "boda",
+      "bn": "দেখা",
+      "en": "to watch; to see",
+      "pos": "verb",
       "example": {
-        "ko": "안경을 씁니다.",
-        "bn": "চশমা পরি।",
-        "en": "I wear glasses."
+        "ko": "영화를 봐요.",
+        "bn": "সিনেমা দেখছি।",
+        "en": "I am watching a movie."
       },
-      "pronunciationTipBn": "'경' এর 'ㅇ' ধ্বনিটি বাংলার 'ং' এর মতো।"
+      "pronunciationTipBn": "'보다' + 아요 → '봐요'—ㅗ+ㅏ মিলে 'ㅘ' হয়; 'বোয়ায়ো'।"
     },
     {
-      "ko": "우산",
-      "romanization": "usan",
-      "bn": "ছাতা",
-      "en": "umbrella",
+      "ko": "밥",
+      "romanization": "bap",
+      "bn": "ভাত/খাবার",
+      "en": "rice; meal",
       "pos": "noun",
       "example": {
-        "ko": "우산이 있습니다.",
-        "bn": "ছাতা আছে।",
-        "en": "There is an umbrella."
+        "ko": "저는 지금 밥을 먹어요.",
+        "bn": "আমি এখন খাবার খাচ্ছি।",
+        "en": "I am eating a meal now."
       },
-      "pronunciationTipBn": "'우' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "'밥' [বাপ্]—ㅂ বত্ছিমে ঠোঁট বন্ধ করে থামুন।"
+    },
+    {
+      "ko": "빵",
+      "romanization": "ppang",
+      "bn": "পাউরুটি",
+      "en": "bread",
+      "pos": "noun",
+      "example": {
+        "ko": "아침에 빵을 먹어요.",
+        "bn": "সকালে পাউরুটি খাই।",
+        "en": "I eat bread in the morning."
+      },
+      "pronunciationTipBn": "'빵' জোড়া ㅃ—'প্পাং' শক্ত করে বলুন, বাতাস নয়।"
+    },
+    {
+      "ko": "물",
+      "romanization": "mul",
+      "bn": "পানি",
+      "en": "water",
+      "pos": "noun",
+      "example": {
+        "ko": "물을 마셔요.",
+        "bn": "পানি পান করছি।",
+        "en": "I am drinking water."
+      },
+      "pronunciationTipBn": "'물' [মুল]—এক অক্ষরে 'মু'+'ল্' দ্রুত মিলিয়ে বলুন।"
+    },
+    {
+      "ko": "사과",
+      "romanization": "sagwa",
+      "bn": "আপেল",
+      "en": "apple",
+      "pos": "noun",
+      "example": {
+        "ko": "사과를 먹어요.",
+        "bn": "আপেল খাচ্ছি।",
+        "en": "I am eating an apple."
+      },
+      "pronunciationTipBn": "'사과' [সাগোয়া]—'과' বলতে ঠোঁট গোল করে 'গোয়া'।"
+    },
+    {
+      "ko": "과자",
+      "romanization": "gwaja",
+      "bn": "বিস্কুট/স্ন্যাক",
+      "en": "snack; cookies",
+      "pos": "noun",
+      "example": {
+        "ko": "과자를 먹어요?",
+        "bn": "বিস্কুট খাচ্ছেন?",
+        "en": "Are you eating snacks?"
+      },
+      "pronunciationTipBn": "'과자' [গোয়াজা]—ㅈ নরম 'জ' শোনায়।"
+    },
+    {
+      "ko": "우유",
+      "romanization": "uyu",
+      "bn": "দুধ",
+      "en": "milk",
+      "pos": "noun",
+      "example": {
+        "ko": "우유를 마셔요.",
+        "bn": "দুধ পান করছি।",
+        "en": "I am drinking milk."
+      },
+      "pronunciationTipBn": "'우유' [উয়ু]—দুই 'উ' স্বর আলাদা না বলে মিলিয়ে বলুন।"
+    },
+    {
+      "ko": "주스",
+      "romanization": "juseu",
+      "bn": "জুস",
+      "en": "juice",
+      "pos": "noun",
+      "example": {
+        "ko": "주스를 마셔요.",
+        "bn": "জুস পান করছি।",
+        "en": "I am drinking juice."
+      },
+      "pronunciationTipBn": "'주스' [জুসু]—ইংরেজি 'juice'-এর কোরীয় রূপ; শেষে হালকা 'ু' আসে।"
+    }
+    ,
+    {
+      "ko": "커피",
+      "romanization": "keopi",
+      "bn": "কফি",
+      "en": "coffee",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 커피를 마셔요.",
+        "bn": "আমি কফি পান করছি।",
+        "en": "I am drinking coffee."
+      },
+      "pronunciationTipBn": "'커피' [কফি]—ㅍ ঝোঁড়া 'ফ' বাতাসসহ বলুন।"
+    },
+    {
+      "ko": "영화",
+      "romanization": "yeonghwa",
+      "bn": "সিনেমা",
+      "en": "movie",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 영화를 봐요.",
+        "bn": "আজ সিনেমা দেখছি।",
+        "en": "I am watching a movie today."
+      },
+      "pronunciationTipBn": "'영화' [য়ংহোয়া]—'화' বলতে ঠোঁট গোল করে 'হোয়া'।"
+    },
+    {
+      "ko": "책",
+      "romanization": "chaek",
+      "bn": "বই",
+      "en": "book",
+      "pos": "noun",
+      "example": {
+        "ko": "자야 씨는 책을 읽어요.",
+        "bn": "জায়া বই পড়ছে।",
+        "en": "Zaya is reading a book."
+      },
+      "pronunciationTipBn": "'책' [ছ্যেক্]—ㅊ শক্ত 'ছ', ㄱ বত্ছিম থামা শব্দ।"
+    },
+    {
+      "ko": "신문",
+      "romanization": "sinmun",
+      "bn": "সংবাদপত্র",
+      "en": "newspaper",
+      "pos": "noun",
+      "example": {
+        "ko": "신문을 읽어요.",
+        "bn": "সংবাদপত্র পড়ছি।",
+        "en": "I am reading the newspaper."
+      },
+      "pronunciationTipBn": "'신문' [শিনমুন]—ㄴ বত্ছিম স্পষ্ট 'ন' দিয়ে বলুন।"
+    },
+    {
+      "ko": "지금",
+      "romanization": "jigeum",
+      "bn": "এখন",
+      "en": "now",
+      "pos": "noun",
+      "example": {
+        "ko": "지금 뭐 해요?",
+        "bn": "এখন কী করছেন?",
+        "en": "What are you doing now?"
+      },
+      "pronunciationTipBn": "'지금' [জিগুম]—ㄱ এখানে নরম 'গ' শোনায়।"
+    },
+    {
+      "ko": "오늘",
+      "romanization": "oneul",
+      "bn": "আজ",
+      "en": "today",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 영화를 봐요.",
+        "bn": "আজ সিনেমা দেখছি।",
+        "en": "I am watching a movie today."
+      },
+      "pronunciationTipBn": "'오늘' [অনুল]—ㄴ বত্ছিম 'ন' রেখে 'ল' বলুন।"
+    },
+    {
+      "ko": "운동",
+      "romanization": "undong",
+      "bn": "ব্যায়াম",
+      "en": "exercise",
+      "pos": "noun",
+      "example": {
+        "ko": "운동을 해요.",
+        "bn": "ব্যায়াম করছি।",
+        "en": "I am exercising."
+      },
+      "pronunciationTipBn": "'운동을' [উন্দঙুল]—ㄹ+ㄷ মিলে জোরে 'দ' শোনায়।"
+    },
+    {
+      "ko": "요리",
+      "romanization": "yori",
+      "bn": "রান্না (খাবার)",
+      "en": "cooking; dish",
+      "pos": "noun",
+      "example": {
+        "ko": "요리를 해요.",
+        "bn": "রান্না করছি।",
+        "en": "I am cooking."
+      },
+      "pronunciationTipBn": "'요리' [য়োরি]—'리' জিভ হালকা তালুতে স্পর্শ করান।"
+    },
+    {
+      "ko": "일",
+      "romanization": "il",
+      "bn": "কাজ",
+      "en": "work; job",
+      "pos": "noun",
+      "example": {
+        "ko": "일을 해요.",
+        "bn": "কাজ করছি।",
+        "en": "I am working."
+      },
+      "pronunciationTipBn": "'일' [ইল]—ㄹ বত্ছিমে জিভ তালুতে রেখে থামুন।"
+    },
+    {
+      "ko": "전화",
+      "romanization": "jeonhwa",
+      "bn": "টেলিফোন/ফোন",
+      "en": "telephone; phone call",
+      "pos": "noun",
+      "example": {
+        "ko": "전화를 해요.",
+        "bn": "ফোন করছি।",
+        "en": "I am making a phone call."
+      },
+      "pronunciationTipBn": "'전화' [জনোয়া]—'전' নাকিধ্বনি 'ন' সহ বলুন।"
+    },
+    {
+      "ko": "공부",
+      "romanization": "gongbu",
+      "bn": "পড়াশোনা",
+      "en": "study",
+      "pos": "noun",
+      "example": {
+        "ko": "공부를 해요.",
+        "bn": "পড়াশোনা করছি।",
+        "en": "I am studying."
+      },
+      "pronunciationTipBn": "'공부' [গংবু]—ㅂ নরম 'ব'; দুই অক্ষর মিলিয়ে বলুন।"
+    },
+    {
+      "ko": "쇼핑",
+      "romanization": "syoping",
+      "bn": "কেনাকাটা",
+      "en": "shopping",
+      "pos": "noun",
+      "example": {
+        "ko": "쇼핑을 해요.",
+        "bn": "কেনাকাটা করছি।",
+        "en": "I am shopping."
+      },
+      "pronunciationTipBn": "'쇼핑' [স্যোপিং]—ㅇ শেষে নাকিধ্বনি 'ং' রাখুন।"
     }
   ],
   "grammar": [
     {
+      "pattern": "V/A + -아요/어요",
+      "titleBn": "অনানুষ্ঠানিক বিনয়ী বাক্য-প্রান্তিক",
+      "explanationBn": "ক্রিয়া বা বিশেষণের সাথে যুক্ত হয়ে অনানুষ্ঠানিক কিন্তু বিনয়ী বাক্য তৈরি করে—বিবৃতি, প্রশ্ন, আদেশ, অনুরোধ সব ক্ষেত্রে ব্যবহারযোগ্য। শব্দাংশের শেষ স্বর ㅏ বা ㅗ হলে '-아요', অন্য স্বর হলে '-어요', আর '하다' হলে '해요' বসে।",
+      "explanationEn": "The informal-polite sentence ending for verbs and adjectives, used for statements, questions, commands, and requests. Use -아요 after ㅏ/ㅗ, -어요 after other vowels, and 해요 for 하다 verbs.",
+      "examples": [
+        { "ko": "카밀 씨는 자요.", "bn": "কামিল ঘুমাচ্ছে।", "en": "Kamil is sleeping." },
+        { "ko": "프엉 씨는 쉬어요.", "bn": "ফুং বিশ্রাম নিচ্ছে।", "en": "Phuong is resting." },
+        { "ko": "유수프 씨는 공부해요.", "bn": "ইউসুফ পড়াশোনা করছে।", "en": "Yusuf is studying." }
+      ],
+      "commonMistakeBn": "'쉬다' এর সাথে ভুল করে '-아요' বসিয়ে '쉬아요' বলা হয়—ㅣ স্বরের পরে '-어요' বসে এবং সংকুচিত হয়ে '쉬어요' হয়।"
+    },
+    {
       "pattern": "N + 을/를",
-      "titleBn": "অবজেক্ট মার্কার",
-      "explanationBn": "বাক্যের কর্ম বা অবজেক্ট নির্দেশ করতে '을/를' ব্যবহৃত হয়। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '을' এবং স্বরবর্ণ দিয়ে শেষ হলে '를' বসে।",
-      "explanationEn": "Object marker used to indicate the object of a sentence. '을' is used after a consonant, and '를' is used after a vowel.",
+      "titleBn": "কর্মবাচক পার্টিকেল '을/를' (-কে)",
+      "explanationBn": "বিশেষ্যের পরে 을/를 বসে তা বাক্যের কর্ম (object) চিহ্নিত করে—বাংলার '-কে'-এর মতো। বত্ছিম থাকলে '을' (밥을), স্বরবর্ণ থাকলে '를' (사과를) বসে।",
+      "explanationEn": "을/를 marks the noun as the object of the sentence. Use 을 after a consonant-final noun (밥을) and 를 after a vowel-final noun (사과를).",
       "examples": [
-        {
-          "ko": "저는 밥을 먹습니다.",
-          "bn": "আমি ভাত খাই।",
-          "en": "I eat rice."
-        },
-        {
-          "ko": "사과를 삽니다.",
-          "bn": "আপেল কিনি।",
-          "en": "I buy an apple."
-        },
-        {
-          "ko": "물을 마십니다.",
-          "bn": "পানি পান করি।",
-          "en": "I drink water."
-        }
+        { "ko": "왕민 씨는 밥을 먹어요.", "bn": "ওয়াংমিন খাবার খাচ্ছে।", "en": "Wangmin is eating a meal." },
+        { "ko": "자야 씨는 지금 책을 읽어요.", "bn": "জায়া এখন বই পড়ছে।", "en": "Zaya is reading a book now." },
+        { "ko": "민민아웅 씨는 오늘 영화를 봐요.", "bn": "মিনমিনাউং আজ সিনেমা দেখছে।", "en": "Min-min-aung is watching a movie today." }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণ ও স্বরবর্ণের পার্থক্য না বুঝে ভুল মার্কার ব্যবহার করেন; মনে রাখবেন, ব্যঞ্জনবর্ণের পর '을' এবং স্বরবর্ণের পর '를' বসে।"
+      "commonMistakeBn": "স্বরবর্ণের পরে ভুল করে '을' বসানো হয়—যেমন ভুল: '사과을 먹어요'। স্বরবর্ণের পরে '를' বসবে: 사과를 먹어요।"
+    }
+    ,
+    {
+      "pattern": "모음 축약: ㅏ+ㅏ→ㅏ, ㅣ+ㅓ→ㅕ, ㅗ+ㅏ→ㅘ, ㅜ+ㅓ→ㅝ",
+      "titleBn": "স্বর সংকোচনের নিয়ম",
+      "explanationBn": "স্বরে শেষ হওয়া ক্রিয়াংশে -아요/어요 যোগ হলে স্বর দুটি মিলে এক স্বর হয়: ㅏ+ㅏ→ㅏ (자다→자요), ㅣ+ㅓ→ㅕ (마시다→마셔요), ㅗ+ㅏ→ㅘ (오다→와요), ㅜ+ㅓ→ㅝ (주다→줘요)।",
+      "explanationEn": "When -아요/어요 attaches to a vowel-final stem, the vowels contract: ㅏ+ㅏ→ㅏ (자다→자요), ㅣ+ㅓ→ㅕ (마시다→마셔요), ㅗ+ㅏ→ㅘ (오다→와요), ㅜ+ㅓ→ㅝ (주다→줘요).",
+      "examples": [
+        { "ko": "자다 + 아요 → 자요", "bn": "자다 + 아요 → 자요 (ঘুমাচ্ছে)", "en": "jada + ayo → jayo (sleeping)" },
+        { "ko": "마시다 + 어요 → 마셔요", "bn": "마시다 + 어요 → 마셔요 (পান করছে)", "en": "masida + eoyo → masyeoyo (drinking)" },
+        { "ko": "오다 + 아요 → 와요", "bn": "오다 + 아요 → 와요 (আসছে)", "en": "oda + ayo → wayo (coming)" }
+      ],
+      "commonMistakeBn": "সংকোচন না করে '자아요', '오아요' বলা ভুল—স্বর মিলিয়ে '자요', '와요' বলতে হয়।"
     },
     {
-      "pattern": "V + (으)세요",
-      "titleBn": "অনুরোধ বা নির্দেশ",
-      "explanationBn": "কাউকে সম্মানজনকভাবে কোনো কিছু করতে অনুরোধ বা নির্দেশ দিতে এটি ব্যবহৃত হয়। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '으세요' এবং স্বরবর্ণ দিয়ে শেষ হলে '세요' বসে।",
-      "explanationEn": "Used to politely request or instruct someone to do something. '으세요' is used after a consonant, and '세요' is used after a vowel.",
+      "pattern": "동작 명사 + 을/를 하다",
+      "titleBn": "ক্রিয়া-বিশেষ্য + 을/를 하다",
+      "explanationBn": "'운동하다', '전화하다' ধরনের ক্রিয়াকে '운동을 해요', '전화를 해요' রূপেও লেখা যায়—অর্থ একই থাকে। কর্মবাচক 을/를 মাঝে বসে।",
+      "explanationEn": "Verbs like 운동하다 and 전화하다 can split into action-noun + 을/를 하다 (운동을 해요, 전화를 해요) with the same meaning, using the object particle in the middle.",
       "examples": [
-        {
-          "ko": "여기에 앉으세요.",
-          "bn": "এখানে বসুন।",
-          "en": "Please sit here."
-        },
-        {
-          "ko": "책을 읽으세요.",
-          "bn": "বইটি পড়ুন।",
-          "en": "Please read the book."
-        },
-        {
-          "ko": "여기로 오세요.",
-          "bn": "এখানে আসুন।",
-          "en": "Please come here."
-        }
+        { "ko": "운동해요. = 운동을 해요.", "bn": "운동해요 = 운동을 해요 (ব্যায়াম করছে)", "en": "undonghaeyo = undongeul haeyo (exercising)" },
+        { "ko": "전화해요. = 전화를 해요.", "bn": "전화해요 = 전화를 해요 (ফোন করছে)", "en": "jeonhwahaeyo = jeonhwareul haeyo (calling)" },
+        { "ko": "공부해요. = 공부를 해요.", "bn": "공부해요 = 공부를 해요 (পড়াশোনা করছে)", "en": "gongbuhaeyo = gongbureul haeyo (studying)" }
       ],
-      "commonMistakeBn": "অনেকে স্বরবর্ণের পরে ভুল করে '으세요' ব্যবহার করেন; স্বরবর্ণের পরে সবসময় '세요' বসবে।"
+      "commonMistakeBn": "'운동을 하다' আর '운동하다' আলাদা অর্থ ভাবা ভুল—দুটোই একই অর্থ, শুধু গঠন ভিন্ন।"
     },
     {
-      "pattern": "V + ㅂ니다/습니다",
-      "titleBn": "আনুষ্ঠানিক বর্তমান কাল",
-      "explanationBn": "ক্রিয়াপদের সাথে যুক্ত হয়ে আনুষ্ঠানিক বা সম্মানজনকভাবে বর্তমান কালের বাক্য তৈরি করতে ব্যবহৃত হয়। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '습니다' এবং স্বরবর্ণ দিয়ে শেষ হলে 'ㅂ니다' বসে।",
-      "explanationEn": "Used to form formal/polite present tense sentences. '습니다' is used after a consonant, and 'ㅂ니다' is used after a vowel.",
+      "pattern": "장소 + 에 가요/와요",
+      "titleBn": "গন্তব্যের আগে '에' (+যাওয়া/আসা)",
+      "explanationBn": "'가다' (যাওয়া) ও '오다' (আসা) ক্রিয়ার আগে গন্তব্য জায়গার পরে '에' বসে: 회사에 가요। এখানে '에' দিক/গন্তব্য নির্দেশ করে, অবস্থান নয়।",
+      "explanationEn": "With 가다 (go) and 오다 (come), the destination place takes 에: 회사에 가요. Here 에 marks direction/destination, not location of existence.",
       "examples": [
-        {
-          "ko": "저는 잡니다.",
-          "bn": "আমি ঘুমাই।",
-          "en": "I sleep."
-        },
-        {
-          "ko": "밥을 먹습니다.",
-          "bn": "ভাত খাই।",
-          "en": "I eat rice."
-        },
-        {
-          "ko": "일을 합니다.",
-          "bn": "কাজ করি।",
-          "en": "I work."
-        }
+        { "ko": "회사에 가요.", "bn": "কর্মস্থলে যাচ্ছি।", "en": "I am going to work." },
+        { "ko": "기숙사에 와요.", "bn": "ডরমিটরিতে আসছি।", "en": "I am coming to the dormitory." },
+        { "ko": "어디에 가요? 시장에 가요.", "bn": "কোথায় যাচ্ছেন? বাজারে যাচ্ছি।", "en": "Where are you going? I am going to the market." }
       ],
-      "commonMistakeBn": "অনেকে 'ㅂ니다' উচ্চারণ করার সময় 'ব-নি-দা' বলেন, কিন্তু সঠিক উচ্চারণ হলো 'ম-니-다' (음니다)।"
-    },
-    {
-      "pattern": "V + ㅂ니까/습니까?",
-      "titleBn": "আনুষ্ঠানিক প্রশ্নবোধক",
-      "explanationBn": "ক্রিয়াপদের সাথে যুক্ত হয়ে আনুষ্ঠানিক বা সম্মানজনকভাবে প্রশ্ন করতে ব্যবহৃত হয়। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '습니까?' এবং স্বরবর্ণ দিয়ে শেষ হলে 'ㅂ니까?' বসে।",
-      "explanationEn": "Used to ask questions in a formal/polite way. '습니까?' is used after a consonant, and 'ㅂ니까?' is used after a vowel.",
-      "examples": [
-        {
-          "ko": "무엇을 합니까?",
-          "bn": "কী করেন?",
-          "en": "What do you do?"
-        },
-        {
-          "ko": "밥을 먹습니까?",
-          "bn": "ভাত খান কি?",
-          "en": "Do you eat rice?"
-        },
-        {
-          "ko": "어디에 갑니까?",
-          "bn": "কোথায় যান?",
-          "en": "Where do you go?"
-        }
-      ],
-      "commonMistakeBn": "অনেকে প্রশ্ন করার সময় গলার স্বর উঁচুতে তোলেন না; কোরিয়ান ভাষায় প্রশ্ন করার সময় বাক্যের শেষে স্বর একটু উঁচুতে তুলতে হয়।"
+      "commonMistakeBn": "'회사를 가요' বলা ভুল—গন্তব্যের আগে 을/를 নয়, '에' বসে: 회사에 가요।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "খাবার খাওয়া",
-      "titleEn": "Eating a Meal",
+      "titleBn": "এখন কী করছো?",
+      "titleEn": "What Are You Doing Now?",
       "lines": [
-        {
-          "speaker": "라힘",
-          "ko": "수루 씨, 지금 무엇을 합니까?",
-          "bn": "সুরু সাহেব, এখন কী করছেন?",
-          "en": "Suru, what are you doing now?"
-        },
-        {
-          "speaker": "수루",
-          "ko": "저는 밥을 먹습니다.",
-          "bn": "আমি ভাত খাচ্ছি।",
-          "en": "I am eating rice."
-        },
-        {
-          "speaker": "라힘",
-          "ko": "무엇을 마십니까?",
-          "bn": "কী পান করছেন?",
-          "en": "What are you drinking?"
-        },
-        {
-          "speaker": "수루",
-          "ko": "물을 마십니다.",
-          "bn": "পানি পান করছি।",
-          "en": "I am drinking water."
-        }
+        { "speaker": "A", "ko": "카밀 씨, 지금 뭐 해요?", "bn": "কামিল, এখন কী করছো?", "en": "Kamil, what are you doing now?" },
+        { "speaker": "B", "ko": "저는 책을 읽어요. 다라 씨도 책을 읽어요?", "bn": "আমি বই পড়ছি। দারাও কি বই পড়ছে?", "en": "I am reading a book. Is Dara reading a book too?" },
+        { "speaker": "A", "ko": "아니요. 다라 씨는 요리해요.", "bn": "না। দারা রান্না করছে।", "en": "No. Dara is cooking." },
+        { "speaker": "B", "ko": "그럼 유수프 씨는 뭐 해요?", "bn": "তাহলে ইউসুফ কী করছে?", "en": "Then what is Yusuf doing?" },
+        { "speaker": "A", "ko": "유수프 씨는 운동해요.", "bn": "ইউসুফ ব্যায়াম করছে।", "en": "Yusuf is exercising." }
       ]
     },
     {
-      "titleBn": "কাজ করা",
-      "titleEn": "Working",
+      "titleBn": "কারখানায় বিরতি",
+      "titleEn": "Break Time at the Factory",
       "lines": [
-        {
-          "speaker": "반장님",
-          "ko": "투안 씨, 이 일을 하세요.",
-          "bn": "তুয়ান সাহেব, এই কাজটি করুন।",
-          "en": "Tuan, please do this work."
-        },
-        {
-          "speaker": "투안",
-          "ko": "네, 알겠습니다.",
-          "bn": "হ্যাঁ, বুঝতে পেরেছি।",
-          "en": "Yes, I understand."
-        },
-        {
-          "speaker": "반장님",
-          "ko": "그리고 여기를 청소하세요.",
-          "bn": "এবং এখানে পরিষ্কার করুন।",
-          "en": "And please clean here."
-        },
-        {
-          "speaker": "투안",
-          "ko": "네, 지금 청소합니다.",
-          "bn": "হ্যাঁ, এখনই পরিষ্কার করছি।",
-          "en": "Yes, I am cleaning now."
-        }
+        { "speaker": "A", "ko": "프엉 씨, 지금 쉬어요?", "bn": "ফুং, এখন বিশ্রাম নিচ্ছো?", "en": "Phuong, are you taking a break now?" },
+        { "speaker": "B", "ko": "네, 지금 쉬어요. 커피를 마셔요.", "bn": "হ্যাঁ, এখন বিশ্রাম নিচ্ছি। কফি পান করছি।", "en": "Yes, I am resting now. I am drinking coffee." },
+        { "speaker": "A", "ko": "왕민 씨도 쉬어요?", "bn": "ওয়াংমিনও কি বিশ্রাম নিচ্ছে?", "en": "Is Wangmin also resting?" },
+        { "speaker": "B", "ko": "아니요, 왕민 씨는 일해요.", "bn": "না, ওয়াংমিন কাজ করছে।", "en": "No, Wangmin is working." },
+        { "speaker": "A", "ko": "그래요? 저는 지금 전화해요.", "bn": "তাই নাকি? আমি এখন ফোন করছি।", "en": "Is that so? I am making a phone call now." }
       ]
     },
     {
-      "titleBn": "ব্যায়াম করা",
-      "titleEn": "Exercising",
+      "titleBn": "দোকানে",
+      "titleEn": "At the Store",
       "lines": [
-        {
-          "speaker": "민수",
-          "ko": "지훈 씨, 지금 무엇을 합니까?",
-          "bn": "জিহুন সাহেব, এখন কী করছেন?",
-          "en": "Jihun, what are you doing now?"
-        },
-        {
-          "speaker": "지훈",
-          "ko": "저는 공원에서 운동합니다.",
-          "bn": "আমি পার্কে ব্যায়াম করছি।",
-          "en": "I am exercising at the park."
-        },
-        {
-          "speaker": "민수",
-          "ko": "매일 운동합니까?",
-          "bn": "প্রতিদিন ব্যায়াম করেন কি?",
-          "en": "Do you exercise every day?"
-        },
-        {
-          "speaker": "지훈",
-          "ko": "네, 매일 아침에 운동합니다.",
-          "bn": "হ্যাঁ, প্রতিদিন সকালে ব্যায়াম করি।",
-          "en": "Yes, I exercise every morning."
-        }
+        { "speaker": "A", "ko": "어서 오세요. 뭐 찾으세요?", "bn": "স্বাগতম। কী খুঁজছেন?", "en": "Welcome. What are you looking for?" },
+        { "speaker": "B", "ko": "주스 있어요?", "bn": "জুস আছে?", "en": "Do you have juice?" },
+        { "speaker": "A", "ko": "네, 있어요. 여기 주스예요.", "bn": "হ্যাঁ, আছে। এখানে জুস।", "en": "Yes, we do. Here is the juice." },
+        { "speaker": "B", "ko": "그럼 주스 한 병 주세요.", "bn": "তাহলে এক বোতল জুস দিন।", "en": "Then please give me one bottle of juice." },
+        { "speaker": "A", "ko": "네, 감사합니다.", "bn": "জি, ধন্যবাদ।", "en": "Sure, thank you." }
       ]
     }
   ],
@@ -632,579 +570,362 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "먹습니다",
-        "잡니다",
-        "봅니다",
-        "읽습니다"
-      ],
+      "questionBn": "'쉬다' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["ঘুমানো", "কাজ করা", "বিশ্রাম নেওয়া", "রান্না করা"],
       "answer": 2,
-      "explanationBn": "টেলিভিশন '보는' (봅니다) জিনিস, তাই সঠিক উত্তর '봅니다' (দেখি)।"
+      "explanationBn": "'쉬다' অর্থ বিশ্রাম নেওয়া। 'ঘুমানো' কোরীয়তে '자다'।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "সঠিক অবজেক্ট মার্কারটি বেছে নিন।",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "를",
-        "을",
-        "은",
-        "는"
-      ],
+      "questionBn": "'자다' + '-아요/어요' এর সঠিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["자요", "자어요", "자해요", "자아요"],
       "answer": 0,
-      "explanationBn": "'사과' (আপেল) স্বরবর্ণ দিয়ে শেষ হয়েছে, তাই অবজেক্ট মার্কার হিসেবে '를' বসবে।"
+      "explanationBn": "ㅏ স্বরের পরে '-아요' বসে এবং ㅏ+ㅏ মিলে 'ㅏ' হয়: 자요।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "가방",
-        "밥",
-        "물",
-        "책"
-      ],
-      "answer": 2,
-      "explanationBn": "'마십니다' (পান করি) এর সাথে '물' (পানি) বসবে।"
+      "questionBn": "'지금 뭐 해요?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": ["네, 운동해요.", "운동해요.", "지금이에요.", "뭐예요?"],
+      "answer": 1,
+      "explanationBn": "'뭐 해요?' (কী করছে?) প্রশ্নের উত্তরে সরাসরি কাজটি বলা হয়: 운동해요।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "সঠিক নির্দেশবাচক বাক্যটি বেছে নিন।",
-      "questionKo": "알맞은 것을 고르십시오.",
-      "options": [
-        "여기에 앉으세요.",
-        "여기에 앉아요.",
-        "여기에 앉습니다까?",
-        "여기에 앉습니다."
-      ],
-      "answer": 0,
-      "explanationBn": "কাউকে বসতে অনুরোধ করতে '앉으세요' (বসুন) ব্যবহৃত হয়।"
+      "questionBn": "'___을/를 마셔요' বাক্যে সবচেয়ে উপযুক্ত শব্দ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["책을", "영화를", "물을", "밥을"],
+      "answer": 2,
+      "explanationBn": "'마시다' (পান করা) এর কর্ম হয় পানীয়—তাই '물을 마셔요' (পানি পান করছি)।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 저는 책___ 읽습니다.",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "를",
-        "은",
-        "을",
-        "는"
-      ],
-      "answer": 2,
-      "explanationBn": "'책' (বই) ব্যঞ্জনবর্ণ দিয়ে শেষ হয়েছে, তাই অবজেক্ট মার্কার হিসেবে '을' বসবে।"
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক পার্টিকেল বসান: 사과[___] 먹어요।",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": ["을", "를", "이", "은"],
+      "answer": 1,
+      "explanationBn": "'사과' স্বরবর্ণে শেষ, তাই কর্মবাচক '를' বসে: 사과를 먹어요।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 친구를 ___.",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "잡니다",
-        "만납니다",
-        "삽니다",
-        "마십니다"
-      ],
-      "answer": 1,
-      "explanationBn": "বন্ধুর সাথে 'দেখা করা' (만납니다) হয়।"
+      "type": "multiple-choice",
+      "questionBn": "'운동을 해요'-এর সমার্থক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["운동이 해요", "운동에 해요", "운동해요", "운동는 해요"],
+      "answer": 2,
+      "explanationBn": "'운동하다' ক্রিয়াটি '운동을 해요' রূপেও লেখা যায়—অর্থ একই।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 공장에서 ___.",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "일합니다",
-        "봅니다",
-        "쉽니다",
-        "읽습니다"
-      ],
-      "answer": 0,
-      "explanationBn": "কারখানায় 'কাজ করা' (일합니다) হয়।"
+      "type": "multiple-choice",
+      "questionBn": "'읽다' (পড়া) ক্রিয়ার সাথে কোন কর্মটি মানায়?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["물을", "밥을", "우유를", "신문을"],
+      "answer": 3,
+      "explanationBn": "পড়া হয় বই বা সংবাদপত্র—তাই '신문을 읽어요' (সংবাদপত্র পড়ছি)।"
     },
     {
       "id": "p8",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "자다",
-          "right": "ঘুমানো"
-        },
-        {
-          "left": "사다",
-          "right": "কেনা"
-        },
-        {
-          "left": "쓰다",
-          "right": "লেখা"
-        },
-        {
-          "left": "쉬다",
-          "right": "বিশ্রাম নেওয়া"
-        }
-      ],
-      "explanationBn": "সঠিক অর্থ: 자다 (ঘুমানো), 사다 (কেনা), 쓰다 (লেখা), 쉬다 (বিশ্রাম নেওয়া)।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "type": "multiple-choice",
+      "questionBn": "কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["밥을 먹어요.", "밥를 먹어요.", "밥이 먹어요.", "밥에 먹어요."],
+      "answer": 0,
+      "explanationBn": "'밥' ব্যঞ্জনবর্ণে (ㅂ) শেষ, তাই কর্মবাচক '을' বসে: 밥을 먹어요।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "책상",
-          "right": "টেবিল"
-        },
-        {
-          "left": "의자",
-          "right": "চেয়ার"
-        },
-        {
-          "left": "가방",
-          "right": "ব্যাগ"
-        },
-        {
-          "left": "펜",
-          "right": "কলম"
-        }
-      ],
-      "explanationBn": "সঠিক অর্থ: 책상 (টেবিল), 의자 (চেয়ার), 가방 (ব্যাগ), 펜 (কলম)।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "type": "multiple-choice",
+      "questionBn": "'회사에 가요' বাক্যে '에' কী নির্দেশ করছে?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["জিনিসের অবস্থান", "গন্তব্য/দিক", "সময়", "কারণ"],
+      "answer": 1,
+      "explanationBn": "가다/오다-এর সাথে '에' গন্তব্য নির্দেশ করে: 회사에 가요 (কর্মস্থলে যাচ্ছি)।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "সঠিক অবজেক্ট মার্কারের সাথে শব্দ মিলান।",
-      "pairs": [
-        {
-          "left": "밥",
-          "right": "을"
-        },
-        {
-          "left": "사과",
-          "right": "를"
-        },
-        {
-          "left": "책",
-          "right": "을"
-        },
-        {
-          "left": "우유",
-          "right": "를"
-        }
-      ],
-      "explanationBn": "ব্যঞ্জনবর্ণের পর '을' এবং স্বরবর্ণের পর '를' বসে।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "type": "fill-blank",
+      "questionBn": "'쉬다' + '-아요/어요' এর সঠিক রূপ বসান: 프엉 씨는 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["쉬아요", "쉬어요", "쉬해요", "쉬와요"],
+      "answer": 1,
+      "explanationBn": "ㅣ স্বরের পরে '-어요' বসে এবং ㅣ+ㅓ মিলে 'ㅕ' হয়: 쉬어요।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "가르칩니다",
-        "운동합니다",
-        "배웁니다",
-        "요리합니다"
-      ],
-      "answer": 1,
-      "explanationBn": "পার্কে 'ব্যায়াম করা' (운동합니다) হয়।"
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক কর্মবাচক পার্টিকেল বসান: 밥[___] 먹어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["을", "를", "이", "는"],
+      "answer": 0,
+      "explanationBn": "'밥' ব্যঞ্জনবর্ণে (ㅂ) শেষ, তাই '을' বসে: 밥을 먹어요।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক ক্রিয়াপদটি বেছে নিন।",
-      "questionKo": "알맞은 것을 고르십시오.",
-      "options": [
-        "전화합니다",
-        "노래합니다",
-        "이야기합니다",
-        "청소합니다"
-      ],
-      "answer": 3,
-      "explanationBn": "রুম 'পরিষ্কার করা' (청소합니다) হয়।"
+      "type": "fill-blank",
+      "questionBn": "'오다' + '-아요/어요' এর সঠিক রূপ বসান: 친구가 기숙사에 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["오아요", "와요", "오해요", "오어요"],
+      "answer": 1,
+      "explanationBn": "ㅗ+ㅏ মিলে 'ㅘ' হয়: 오다 → 와요।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক শব্দটি বেছে নিন।",
-      "questionKo": "알맞은 것을 고르십시오.",
-      "options": [
-        "안경",
-        "전화기",
-        "시계",
-        "우산"
-      ],
-      "answer": 1,
-      "explanationBn": "ফোন করার জন্য '전화기' (টেলিফোন) ব্যবহৃত হয়।"
+      "type": "fill-blank",
+      "questionBn": "'আমি কফি পান করছি' বাক্যটি সম্পূর্ণ করুন: 저는 커피[___] 마셔요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["이", "가", "를", "는"],
+      "answer": 2,
+      "explanationBn": "'커피' স্বরবর্ণে শেষ, তাই কর্মবাচক '를' বসে।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক প্রশ্নবোধক বাক্যটি বেছে নিন।",
-      "questionKo": "알맞은 것을 고르십시오.",
-      "options": [
-        "무엇을 합니까.",
-        "무엇을 합니다?",
-        "무엇을 하세요?",
-        "무엇을 합니까?"
-      ],
-      "answer": 3,
-      "explanationBn": "আনুষ্ঠানিক প্রশ্ন করতে '합니까?' ব্যবহৃত হয়।"
+      "type": "fill-blank",
+      "questionBn": "'하다' এর বিনয়ী রূপ বসান: 지금 뭐 ___?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["하요", "하여요", "해요", "하아요"],
+      "answer": 2,
+      "explanationBn": "'하다' এর বিশেষ রূপ '해요'—'지금 뭐 해요?' = এখন কী করছেন?"
     },
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 한국어를 ___.",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "청소합니다",
-        "배웁니다",
-        "요리합니다",
-        "운동합니다"
-      ],
-      "answer": 1,
-      "explanationBn": "কোরিয়ান ভাষা 'শেখা' (배웁니다) হয়।"
+      "questionBn": "'공부하다' এর সঠিক -아요/어요 রূপ বসান: 유수프 씨는 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["공부아요", "공부어요", "공부해요", "공부와요"],
+      "answer": 2,
+      "explanationBn": "'하다' শ্রেণির ক্রিয়ায় '해요' বসে: 공부해요।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 노래방에서 ___.",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "노래합니다",
-        "전화합니다",
-        "이야기합니다",
-        "가르칩니다"
-      ],
-      "answer": 0,
-      "explanationBn": "নরেবাং-এ 'গান গাওয়া' (노래합니다) হয়।"
+      "questionBn": "'আমি ডরমিটরিতে আসছি' বাক্যটি সম্পূর্ণ করুন: 저는 기숙사에 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["가요", "먹어요", "읽어요", "와요"],
+      "answer": 3,
+      "explanationBn": "'আসা' = 오다 → 와요; '가요' মানে যাচ্ছি (বিপরীত দিক)।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 선생님이 ___.",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "가르칩니다",
-        "요리합니다",
-        "배웁니다",
-        "운동합니다"
+      "type": "matching",
+      "questionBn": "ক্রিয়ার সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "일하다", "right": "কাজ করা" },
+        { "left": "공부하다", "right": "পড়াশোনা করা" },
+        { "left": "운동하다", "right": "ব্যায়াম করা" },
+        { "left": "요리하다", "right": "রান্না করা" },
+        { "left": "쇼핑하다", "right": "কেনাকাটা করা" }
       ],
-      "answer": 0,
-      "explanationBn": "শিক্ষক 'শেখান' (가르칩니다)।"
+      "explanationBn": "এই ক্রিয়াগুলো '하다' শ্রেণির—'해요' রূপে ব্যবহৃত হয়।"
     },
     {
       "id": "p18",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "খাবার ও পানীয়ের কোরীয় নাম মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
-        {
-          "left": "배우다",
-          "right": "শেখা"
-        },
-        {
-          "left": "가르치다",
-          "right": "শেখানো"
-        },
-        {
-          "left": "운동하다",
-          "right": "ব্যায়াম করা"
-        },
-        {
-          "left": "요리하다",
-          "right": "রান্না করা"
-        }
+        { "left": "밥", "right": "ভাত" },
+        { "left": "빵", "right": "পাউরুটি" },
+        { "left": "우유", "right": "দুধ" },
+        { "left": "사과", "right": "আপেল" },
+        { "left": "과자", "right": "বিস্কুট" }
       ],
-      "explanationBn": "সঠিক অর্থ: 배우다 (শেখা), 가르치다 (শেখানো), 운동하다 (ব্যায়াম করা), 요리하다 (রান্না করা)।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "explanationBn": "খাওয়ার জন্য 먹다, পান করার জন্য 마시다 ক্রিয়া ব্যবহৃত হয়।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "ক্রিয়ার সাথে স্বাভাবিক কর্মটি মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
-        {
-          "left": "컴퓨터",
-          "right": "কম্পিউটার"
-        },
-        {
-          "left": "텔레비전",
-          "right": "টেলিভিশন"
-        },
-        {
-          "left": "시계",
-          "right": "ঘড়ি"
-        },
-        {
-          "left": "안경",
-          "right": "চশমা"
-        }
+        { "left": "먹다", "right": "밥을" },
+        { "left": "마시다", "right": "물을" },
+        { "left": "읽다", "right": "책을" },
+        { "left": "보다", "right": "영화를" }
       ],
-      "explanationBn": "সঠিক অর্থ: 컴퓨터 (কম্পিউটার), 텔레비전 (টেলিভিশন), 시계 (ঘড়ি), 안경 (চশমা)।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "explanationBn": "먹다-밥, 마시다-물, 읽다-책, 보다-영화—এই জোড়াগুলো সবচেয়ে স্বাভাবিক।"
     },
     {
       "id": "p20",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 비가 와서 ___을/를 씁니다.",
-      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
-      "options": [
-        "가방",
-        "시계",
-        "안경",
-        "우산"
+      "type": "matching",
+      "questionBn": "ক্রিয়ার মূল রূপের সাথে -아요/어요 রূপ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "자다", "right": "자요" },
+        { "left": "쉬다", "right": "쉬어요" },
+        { "left": "공부하다", "right": "공부해요" },
+        { "left": "오다", "right": "와요" }
       ],
-      "answer": 3,
-      "explanationBn": "বৃষ্টি আসলে '우산' (ছাতা) ব্যবহার করা হয়।"
+      "explanationBn": "ㅏ+ㅏ→ㅏ (자요), ㅣ+ㅓ→ㅕ (쉬어요), 하다→해요 (공부해요), ㅗ+ㅏ→ㅘ (와요)।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 단어를 고르십시오.",
-      "passage": "[책상 그림]",
-      "options": [
-        "가방",
-        "펜",
-        "책상",
-        "의자"
-      ],
-      "answer": 2,
-      "explanationBn": "ছবিটি একটি টেবিলের, তাই সঠিক উত্তর '책상' (টেবিল)।"
+      "questionBn": "বাক্যটি পড়ে কোন জায়গার সাথে সম্পর্কিত তা বাছাই করুন।",
+      "questionKo": "다음 내용과 관계있는 것을 고르십시오.",
+      "passage": "요리를 하고 있습니다.",
+      "options": ["부엌에서 하는 일", "운동장에서 하는 일", "은행에서 하는 일", "미용실에서 하는 일"],
+      "answer": 0,
+      "explanationBn": "রান্না (요리) করা হয় রান্নাঘরে (부엌)—এটি রান্নাঘরের কাজ।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 문장을 고르십시오.",
-      "passage": "[밥을 먹는 그림]",
-      "options": [
-        "잠을 잡니다.",
-        "밥을 먹습니다.",
-        "물을 마십니다.",
-        "책을 읽습니다."
-      ],
-      "answer": 1,
-      "explanationBn": "ছবিতে একজন ভাত খাচ্ছে, তাই সঠিক উত্তর '밥을 먹습니다' (ভাত খাচ্ছে)।"
+      "questionBn": "কোন বাক্যটির পার্টিকেল সঠিক তা বাছাই করুন।",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["저는 빵을 먹어요.", "저는 빵를 먹어요.", "빵이 먹어요.", "빵에서 먹어요."],
+      "answer": 0,
+      "explanationBn": "'빵' ব্যঞ্জনবর্ণে (ㅇ) শেষ, তাই কর্মবাচক '을' বসে: 빵을 먹어요।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 무엇을 합니까?\n나: 텔레비전을 (  ).",
-      "options": [
-        "삽니다",
-        "읽습니다",
-        "씁니다",
-        "봅니다"
-      ],
-      "answer": 3,
-      "explanationBn": "টেলিভিশন 'দেখা' হয়, তাই সঠিক উত্তর '봅니다' (দেখি)।"
+      "questionBn": "শব্দটির সাথে সঠিক ক্রিয়াটি মিলান।",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "우유",
+      "options": ["먹다", "마시다", "읽다", "보다"],
+      "answer": 1,
+      "explanationBn": "দুধ (우유) পানীয়—তাই '마시다' (পান করা) ক্রিয়া ব্যবহৃত হয়।"
     },
     {
       "id": "e4",
       "section": "reading",
       "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 물을 (  )?\n나: 네, 물을 마십니다.",
-      "options": [
-        "잡니까",
-        "마십니까",
-        "봅니까",
-        "먹습니까"
-      ],
+      "passage": "다라 씨는 지금 ___을 해요. 몸이 좋아져요.",
+      "options": ["책", "운동", "밥", "물"],
       "answer": 1,
-      "explanationBn": "পানি 'পান করা' হয়, তাই সঠিক উত্তর '마십니까' (পান করছেন কি?)।"
+      "explanationBn": "'몸이 좋아져요' (শরীর ভালো হয়) বলতে বোঝায় ব্যায়াম (운동) করা হচ্ছে।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 투안 씨, 이 책을 (  ).\n나: 네, 알겠습니다.",
-      "options": [
-        "읽으세요",
-        "주세요",
-        "가세요",
-        "앉으세요"
-      ],
-      "answer": 0,
-      "explanationBn": "বই 'পড়তে' বলা হচ্ছে, তাই সঠিক উত্তর '읽으세요' (পড়ুন)।"
+      "questionBn": "কোরিয়ার 좌식 문화 সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국 사람들은 집안에서 신발을 벗습니다. 바닥에 앉아서 밥을 먹거나 쉬기도 합니다.",
+      "options": ["한국 사람들은 집에서 신발을 신습니다.", "한국 사람들은 바닥에 앉아서 쉬기도 합니다.", "한국 사람들은 집에서 식사를 하지 않습니다.", "좌식 문화는 새로운 문화입니다."],
+      "answer": 1,
+      "explanationBn": "লেখানুযায়ী কোরীয়রা বাড়িতে জুতা খোলে এবং মেঝেতে বসে খায় বা বিশ্রামও নেয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "가방",
-      "options": [
-        "가방",
-        "의자",
-        "사과",
-        "책상"
-      ],
-      "answer": 0,
-      "explanationBn": "অডিওতে '가방' (ব্যাগ) বলা হয়েছে।"
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক ক্রিয়াটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "왕민 씨는 회사에 ___.",
+      "options": ["먹어요", "가요", "읽어요", "마셔요"],
+      "answer": 1,
+      "explanationBn": "'회사에' গন্তব্যের সাথে '가요' (যাচ্ছে) ক্রিয়া মানায়: 회사에 가요।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "물을 마십니다.",
-      "options": [
-        "잠을 잡니다.",
-        "밥을 먹습니다.",
-        "책을 읽습니다.",
-        "물을 마십니다."
-      ],
-      "answer": 3,
-      "explanationBn": "অডিওতে '물을 마십니다' (পানি পান করছি) বলা হয়েছে।"
+      "section": "reading",
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "프엉 씨는 오늘 책을 읽습니다. 자야 씨는 영화를 봅니다.",
+      "options": ["프엉 씨는 영화를 봅니다.", "자야 씨는 책을 읽습니다.", "자야 씨는 영화를 봅니다.", "두 사람은 책을 읽습니다."],
+      "answer": 2,
+      "explanationBn": "লেখানুযায়ী 프엉 বই পড়ছে আর জায়া সিনেমা দেখছে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "প্রশ্ন শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "무엇을 합니까?",
-      "options": [
-        "아니요, 안 합니다.",
-        "일을 합니다.",
-        "네, 합니다.",
-        "여기에 있습니다."
-      ],
-      "answer": 1,
-      "explanationBn": "প্রশ্ন করা হয়েছে '무엇을 합니까?' (কী করছেন?), তাই সঠিক উত্তর '일을 합니다' (কাজ করছি)।"
-    },
+      "section": "reading",
+      "questionBn": "শব্দটির সাথে সঠিক ক্রিয়াটি মিলান।",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "신문",
+      "options": ["마시다", "먹다", "읽다", "자다"],
+      "answer": 2,
+      "explanationBn": "সংবাদপত্র (신문) পড়া হয়—তাই '읽다' (পড়া) ক্রিয়া মানায়।"
+    }
+    ,
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 단어를 고르십시오.",
-      "passage": "[안경 그림]",
-      "options": [
-        "우산",
-        "시계",
-        "안경",
-        "가방"
-      ],
-      "answer": 2,
-      "explanationBn": "ছবিটি একটি চশমার, তাই সঠিক উত্তর '안경' (চশমা)।"
+      "questionBn": "শূন্যস্থানে (㉠) সঠিক শব্দটি বসান।",
+      "questionKo": "㉠에 들어갈 알맞은 것을 고르십시오.",
+      "passage": "저는 ___를 마셔요. 목이 말라요.",
+      "options": ["책", "영화", "신문", "주스"],
+      "answer": 3,
+      "explanationBn": "'목이 말라요' (তেষ্টা লেগেছে) বলতে বোঝায় পানীয়—জুস (주스) পান করা যায়।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 문장을 고르십시오.",
-      "passage": "[운동하는 그림]",
-      "options": [
-        "요리합니다.",
-        "노래합니다.",
-        "청소합니다.",
-        "운동합니다."
-      ],
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "왕민 씨는 오늘 운동을 합니다. 그리고 책을 읽습니다.",
+      "options": ["왕민 씨는 오늘 일을 합니다.", "왕민 씨는 오늘 영화를 봅니다.", "왕민 씨는 오늘 쇼핑을 합니다.", "왕민 씨는 오늘 운동을 합니다."],
       "answer": 3,
-      "explanationBn": "ছবিতে একজন ব্যায়াম করছে, তাই সঠিক উত্তর '운동합니다' (ব্যায়াম করছে)।"
+      "explanationBn": "লেখানুযায়ী ওয়াংমিন আজ ব্যায়াম (운동) করছে এবং বই পড়ছে।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 지금 무엇을 합니까?\n나: 방을 (  ).",
-      "options": [
-        "청소합니다",
-        "배웁니다",
-        "가르칩니다",
-        "전화합니다"
-      ],
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি এখন কী করছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 지금 뭐 해요?\n남자: 운동해요.",
+      "options": ["운동해요", "요리해요", "일해요", "자요"],
       "answer": 0,
-      "explanationBn": "রুম 'পরিষ্কার করা' হয়, তাই সঠিক উত্তর '청소합니다' (পরিষ্কার করছি)।"
+      "explanationBn": "পুরুষ উত্তরে বলেছেন '운동해요'—তিনি ব্যায়াম করছেন।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 한국어를 (  )?\n나: 네, 한국어를 배웁니다.",
-      "options": [
-        "요리합니까",
-        "배웁니까",
-        "운동합니까",
-        "가르칩니까"
-      ],
-      "answer": 1,
-      "explanationBn": "কোরিয়ান ভাষা 'শেখা' হয়, তাই সঠিক উত্তর '배웁니까' (শিখছেন কি?)।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলাটি এখন কী করছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 지금 뭐 해요?\n여자: 텔레비전을 봐요.",
+      "options": ["밥을 먹어요", "책을 읽어요", "텔레비전을 봐요", "커피를 마셔요"],
+      "answer": 2,
+      "explanationBn": "মহিলা বলেছেন '텔레비전을 봐요'—তিনি টেলিভিশন দেখছেন।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 비가 옵니다. (  )이/가 있습니까?\n나: 네, 있습니다.",
-      "options": [
-        "가방",
-        "시계",
-        "우산",
-        "안경"
-      ],
-      "answer": 2,
-      "explanationBn": "বৃষ্টি আসলে '우산' (ছাতা) প্রয়োজন হয়, তাই সঠিক উত্তর '우산' (ছাতা)।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কী পান করছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 주스를 마셔요?\n여자: 아니요, 주스를 안 마셔요. 물을 마셔요.",
+      "options": ["주스를 마셔요", "커피를 마셔요", "우유를 마셔요", "물을 마셔요"],
+      "answer": 3,
+      "explanationBn": "মহিলা জুস নয়, পানি (물) পান করছেন বলেছেন।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: ওয়াংমিন কী করছে?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "시계",
-      "options": [
-        "가방",
-        "안경",
-        "우산",
-        "시계"
-      ],
-      "answer": 3,
-      "explanationBn": "অডিওতে '시계' (ঘড়ি) বলা হয়েছে।"
+      "passage": "여자: 왕민 씨는 뭐 해요?\n남자: 왕민 씨는 공부해요.",
+      "options": ["일해요", "운동해요", "공부해요", "쉬어요"],
+      "answer": 2,
+      "explanationBn": "উত্তরে বলা হয়েছে '왕민 씨는 공부해요'—ওয়াংমিন পড়াশোনা করছে।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: এটি কী?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "요리합니다.",
-      "options": [
-        "청소합니다.",
-        "요리합니다.",
-        "운동합니다.",
-        "노래합니다."
-      ],
-      "answer": 1,
-      "explanationBn": "অডিওতে '요리합니다' (রান্না করছি) বলা হয়েছে।"
+      "passage": "남자: 이것은 사과입니다.\n여자: 네, 사과를 먹어요.",
+      "options": ["사과입니다", "빵입니다", "과자입니다", "우유입니다"],
+      "answer": 0,
+      "explanationBn": "পুরুষ বলেছেন '이것은 사과입니다'—এটি আপেল।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "প্রশ্ন শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "무엇을 배웁니까?",
-      "options": [
-        "학교에 갑니다.",
-        "한국어를 배웁니다.",
-        "네, 배웁니다.",
-        "아니요, 안 배웁니다."
-      ],
-      "answer": 1,
-      "explanationBn": "প্রশ্ন করা হয়েছে '무엇을 배웁니까?' (কী শিখছেন?), তাই সঠিক উত্তর '한국어를 배웁니다' (কোরিয়ান ভাষা শিখছি)।"
+      "questionBn": "শুনে বাছাই করুন: নিচানান কী করছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 다라 씨는 뭐 해요?\n남자: 다라 씨는 요리해요. 닛차난 씨는 운동해요.",
+      "options": ["요리해요", "일해요", "공부해요", "운동해요"],
+      "answer": 3,
+      "explanationBn": "দারা রান্না করছে, আর নিচানান ব্যায়াম (운동) করছে।"
     }
   ]
 }
