@@ -10,147 +10,19 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কোরিয়ান ভাষায় তারিখ এবং মাস বলতে পারা।",
-      "সপ্তাহের বিভিন্ন দিনের নাম শিখতে পারা।",
-      "আজ, আগামীকাল, গতকাল ইত্যাদি সময়ের শব্দ ব্যবহার করতে পারা।"
+      "সপ্তাহের দিনগুলোর নাম বলতে পারা",
+      "তারিখ জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "অতীতের ঘটনা সম্পর্কে বলতে পারা",
+      "কোরিয়ার সৌর ও চন্দ্র পঞ্জিকা (양력과 음력) সম্পর্কে জানা"
     ],
     "en": [
-      "Be able to say dates and months in Korean.",
-      "Learn the names of the days of the week.",
-      "Be able to use time words like today, tomorrow, yesterday, etc."
+      "Being able to name the days of the week",
+      "Being able to ask and answer what date it is",
+      "Being able to talk about past events",
+      "Knowing about Korea's solar and lunar calendars"
     ]
   },
   "vocabulary": [
-    {
-      "ko": "월",
-      "romanization": "wol",
-      "bn": "মাস",
-      "en": "month",
-      "pos": "noun",
-      "example": {
-        "ko": "지금은 5월입니다.",
-        "bn": "এখন মে মাস।",
-        "en": "It is May now."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "일",
-      "romanization": "il",
-      "bn": "দিন/তারিখ",
-      "en": "day/date",
-      "pos": "noun",
-      "example": {
-        "ko": "오늘은 15일입니다.",
-        "bn": "আজ ১৫ তারিখ।",
-        "en": "Today is the 15th."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "요일",
-      "romanization": "yoil",
-      "bn": "সপ্তাহের দিন",
-      "en": "day of the week",
-      "pos": "noun",
-      "example": {
-        "ko": "오늘이 무슨 요일입니까?",
-        "bn": "আজ কী বার?",
-        "en": "What day of the week is it today?"
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "오늘",
-      "romanization": "oneul",
-      "bn": "আজ",
-      "en": "today",
-      "pos": "noun",
-      "example": {
-        "ko": "오늘은 월요일입니다.",
-        "bn": "আজ সোমবার।",
-        "en": "Today is Monday."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "내일",
-      "romanization": "naeil",
-      "bn": "আগামীকাল",
-      "en": "tomorrow",
-      "pos": "noun",
-      "example": {
-        "ko": "내일은 화요일입니다.",
-        "bn": "আগামীকাল মঙ্গলবার।",
-        "en": "Tomorrow is Tuesday."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "어제",
-      "romanization": "eoje",
-      "bn": "গতকাল",
-      "en": "yesterday",
-      "pos": "noun",
-      "example": {
-        "ko": "어제는 일요일이었습니다.",
-        "bn": "গতকাল রবিবার ছিল।",
-        "en": "Yesterday was Sunday."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "모레",
-      "romanization": "more",
-      "bn": "আগামী পরশু",
-      "en": "the day after tomorrow",
-      "pos": "noun",
-      "example": {
-        "ko": "모레는 수요일입니다.",
-        "bn": "আগামী পরশু বুধবার।",
-        "en": "The day after tomorrow is Wednesday."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "그저께",
-      "romanization": "geujeokke",
-      "bn": "গত পরশু",
-      "en": "the day before yesterday",
-      "pos": "noun",
-      "example": {
-        "ko": "그저께는 토요일이었습니다.",
-        "bn": "গত পরশু শনিবার ছিল।",
-        "en": "The day before yesterday was Saturday."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "주말",
-      "romanization": "jumal",
-      "bn": "সপ্তাহান্ত/ছুটির দিন",
-      "en": "weekend",
-      "pos": "noun",
-      "example": {
-        "ko": "주말에 쉬어요.",
-        "bn": "সপ্তাহান্তে বিশ্রাম নিই।",
-        "en": "I rest on the weekend."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "평일",
-      "romanization": "pyeongil",
-      "bn": "সপ্তাহের কাজের দিন",
-      "en": "weekday",
-      "pos": "noun",
-      "example": {
-        "ko": "평일에는 일합니다.",
-        "bn": "কাজের দিনে কাজ করি।",
-        "en": "I work on weekdays."
-      },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
-    },
     {
       "ko": "월요일",
       "romanization": "woryoil",
@@ -158,11 +30,11 @@
       "en": "Monday",
       "pos": "noun",
       "example": {
-        "ko": "월요일에 만나요.",
-        "bn": "সোমবারে দেখা হবে।",
-        "en": "See you on Monday."
+        "ko": "월요일에 일해요.",
+        "bn": "সোমবার কাজ করি।",
+        "en": "I work on Mondays."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'월요일' [ওর্যোইল]—'월' ㄹ বত্ছিমের পরে '요일' মিলিয়ে বলুন।"
     },
     {
       "ko": "화요일",
@@ -171,11 +43,11 @@
       "en": "Tuesday",
       "pos": "noun",
       "example": {
-        "ko": "화요일은 바빠요.",
-        "bn": "মঙ্গলবার ব্যস্ত থাকি।",
-        "en": "I am busy on Tuesday."
+        "ko": "화요일에 병원에 가요.",
+        "bn": "মঙ্গলবার হাসপাতালে যাই।",
+        "en": "I go to the hospital on Tuesday."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'화' ঠোঁট গোল করে 'হোয়া'; '화요일' [হোয়ায়োইল]।"
     },
     {
       "ko": "수요일",
@@ -184,11 +56,11 @@
       "en": "Wednesday",
       "pos": "noun",
       "example": {
-        "ko": "수요일에 한국어를 배워요.",
-        "bn": "বুধবারে কোরিয়ান ভাষা শিখি।",
-        "en": "I learn Korean on Wednesday."
+        "ko": "수요일에 은행에 가요.",
+        "bn": "বুধবার ব্যাংকে যাই।",
+        "en": "I go to the bank on Wednesday."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'수' ঠোঁট গোল করে 'সু'; '수요일' [সুয়োইল]।"
     },
     {
       "ko": "목요일",
@@ -197,11 +69,11 @@
       "en": "Thursday",
       "pos": "noun",
       "example": {
-        "ko": "목요일에 친구를 만나요.",
-        "bn": "বৃহস্পতিবারে বন্ধুর সাথে দেখা করি।",
-        "en": "I meet a friend on Thursday."
+        "ko": "목요일에 미용실에 가요.",
+        "bn": "বৃহস্পতিবার সেলুনে যাই।",
+        "en": "I go to the hair salon on Thursday."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'목요일' [মোগ্যোইল]—ㄱ বত্ছিমের পরে '요일' মিলে যায়।"
     },
     {
       "ko": "금요일",
@@ -210,11 +82,11 @@
       "en": "Friday",
       "pos": "noun",
       "example": {
-        "ko": "금요일 저녁에 영화를 봐요.",
-        "bn": "শুক্রবার সন্ধ্যায় সিনেমা দেখি।",
-        "en": "I watch a movie on Friday evening."
+        "ko": "금요일에 영화를 봐요.",
+        "bn": "শুক্রবার সিনেমা দেখি।",
+        "en": "I watch a movie on Friday."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'금' [গুম]—'ㅡ' স্বর পেছন থেকে; '금요일' [গুম্যোইল]।"
     },
     {
       "ko": "토요일",
@@ -223,11 +95,11 @@
       "en": "Saturday",
       "pos": "noun",
       "example": {
-        "ko": "토요일에 쇼핑을 해요.",
-        "bn": "শনিবারে কেনাকাটা করি।",
-        "en": "I go shopping on Saturday."
+        "ko": "토요일에 한국어를 공부해요.",
+        "bn": "শনিবার কোরীয় পড়াশোনা করি।",
+        "en": "I study Korean on Saturdays."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'토' [থো]—ㅌ ঝোঁড়া 'থ' বাতাসসহ বলুন।"
     },
     {
       "ko": "일요일",
@@ -236,37 +108,90 @@
       "en": "Sunday",
       "pos": "noun",
       "example": {
-        "ko": "일요일에는 집에서 쉬어요.",
-        "bn": "রবিবারে বাড়িতে বিশ্রাম নিই।",
-        "en": "I rest at home on Sunday."
+        "ko": "일요일에 쉬어요.",
+        "bn": "রবিবার বিশ্রাম নিই।",
+        "en": "I rest on Sundays."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'일요일' [ইর্যোইল]—দুই ㄹ মিলে 'র্য়ো' শোনায়।"
     },
     {
-      "ko": "생일",
-      "romanization": "saengil",
-      "bn": "জন্মদিন",
-      "en": "birthday",
+      "ko": "어제",
+      "romanization": "eoje",
+      "bn": "গতকাল",
+      "en": "yesterday",
       "pos": "noun",
       "example": {
-        "ko": "생일이 언제입니까?",
-        "bn": "জন্মদিন কবে?",
-        "en": "When is your birthday?"
+        "ko": "어제 빵을 먹었어요.",
+        "bn": "গতকাল পাউরুটি খেয়েছি।",
+        "en": "I ate bread yesterday."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'어제' [অজে]—ㅈ এখানে নরম 'জ' শোনায়।"
     },
     {
-      "ko": "언제",
-      "romanization": "eonje",
-      "bn": "কখন/কবে",
-      "en": "when",
-      "pos": "adverb",
+      "ko": "내일",
+      "romanization": "naeil",
+      "bn": "আগামীকাল",
+      "en": "tomorrow",
+      "pos": "noun",
       "example": {
-        "ko": "언제 한국에 왔어요?",
-        "bn": "কবে কোরিয়ায় এসেছেন?",
-        "en": "When did you come to Korea?"
+        "ko": "내일 시장에 가요.",
+        "bn": "আগামীকাল বাজারে যাই।",
+        "en": "I am going to the market tomorrow."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'내일' [ন্যেইল]—'내' বলতে 'ন্যে' মুখ আধা খুলে।"
+    },
+    {
+      "ko": "평일",
+      "romanization": "pyeongil",
+      "bn": "কর্মদিন",
+      "en": "weekday",
+      "pos": "noun",
+      "example": {
+        "ko": "평일에 일해요.",
+        "bn": "কর্মদিনে কাজ করি।",
+        "en": "I work on weekdays."
+      },
+      "pronunciationTipBn": "'평' [ফ্যাং]—ㅍ ঝোঁড়া 'ফ'; '일' [ইল]।"
+    }
+    ,
+    {
+      "ko": "주말",
+      "romanization": "jumal",
+      "bn": "সপ্তাহান্ত",
+      "en": "weekend",
+      "pos": "noun",
+      "example": {
+        "ko": "주말에 쉬어요.",
+        "bn": "সপ্তাহান্তে বিশ্রাম নিই।",
+        "en": "I rest on the weekend."
+      },
+      "pronunciationTipBn": "'주말' [জুমাল]—ㅈ নরম 'জ'; ㄹ বত্ছিমে থামুন।"
+    },
+    {
+      "ko": "매일",
+      "romanization": "maeil",
+      "bn": "প্রতিদিন",
+      "en": "every day",
+      "pos": "noun",
+      "example": {
+        "ko": "매일 한국어를 공부해요.",
+        "bn": "প্রতিদিন কোরীয় পড়াশোনা করি।",
+        "en": "I study Korean every day."
+      },
+      "pronunciationTipBn": "'매일' [ম্যেইল]—'매' বলতে 'ম্যে' মুখ আধা খুলে।"
+    },
+    {
+      "ko": "지난주",
+      "romanization": "jinanju",
+      "bn": "গত সপ্তাহ",
+      "en": "last week",
+      "pos": "noun",
+      "example": {
+        "ko": "지난주에 쇼핑했어요.",
+        "bn": "গত সপ্তাহে কেনাকাটা করেছি।",
+        "en": "I went shopping last week."
+      },
+      "pronunciationTipBn": "'지난' [জিনান]—ㄴ বত্ছিম 'ন' রেখে বলুন।"
     },
     {
       "ko": "이번 주",
@@ -275,11 +200,11 @@
       "en": "this week",
       "pos": "noun",
       "example": {
-        "ko": "이번 주는 바쁩니다.",
-        "bn": "এই সপ্তাহ ব্যস্ত।",
-        "en": "This week is busy."
+        "ko": "이번 주 토요일에 운동해요.",
+        "bn": "এই সপ্তাহের শনিবার ব্যায়াম করি।",
+        "en": "I exercise this Saturday."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'이번' [ইবন]—ㅂ নরম 'ব'; '주' [জু]।"
     },
     {
       "ko": "다음 주",
@@ -288,383 +213,359 @@
       "en": "next week",
       "pos": "noun",
       "example": {
-        "ko": "다음 주에 만나요.",
-        "bn": "আগামী সপ্তাহে দেখা হবে।",
-        "en": "See you next week."
+        "ko": "다음 주 월요일에 일해요.",
+        "bn": "আগামী সপ্তাহের সোমবার কাজ করি।",
+        "en": "I work next Monday."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'다음' [দাউম]—'다' নরম 'দ', '음' 'উম' মিলিয়ে।"
     },
     {
-      "ko": "지난 주",
-      "romanization": "jinan ju",
-      "bn": "গত সপ্তাহ",
-      "en": "last week",
+      "ko": "지난달",
+      "romanization": "jinandal",
+      "bn": "গত মাস",
+      "en": "last month",
       "pos": "noun",
       "example": {
-        "ko": "지난 주에 영화를 봤어요.",
-        "bn": "গত সপ্তাহে সিনেমা দেখেছি।",
-        "en": "I watched a movie last week."
+        "ko": "지난달에 한국에 왔어요.",
+        "bn": "গত মাসে কোরিয়ায় এসেছি।",
+        "en": "I came to Korea last month."
       },
-      "pronunciationTipBn": "সাধারণভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'지난달' [জিনানদাল]—ㄴ+ㄷ মিলে 'নদ' শোনায়।"
     },
     {
-      "ko": "달력",
-      "romanization": "dallyeok",
-      "bn": "ক্যালেন্ডার",
-      "en": "calendar",
+      "ko": "이번 달",
+      "romanization": "ibeon dal",
+      "bn": "এই মাস",
+      "en": "this month",
       "pos": "noun",
       "example": {
-        "ko": "달력을 보세요.",
-        "bn": "ক্যালেন্ডার দেখুন।",
-        "en": "Please look at the calendar."
+        "ko": "이번 달에 일이 많아요.",
+        "bn": "এই মাসে কাজ অনেক।",
+        "en": "I have a lot of work this month."
       },
-      "pronunciationTipBn": "'ㄹ' এবং 'ㄹ' পাশাপাশি থাকলে 'ল্ল' এর মতো উচ্চারিত হয় (দাল্লিয়ক)।"
+      "pronunciationTipBn": "'달' [দাল]—ㄷ শুরুতে 'ত/দ'-এর মাঝামাঝি শোনায়।"
     },
     {
-      "ko": "휴일",
-      "romanization": "hyuil",
-      "bn": "ছুটির দিন",
-      "en": "holiday",
+      "ko": "다음 달",
+      "romanization": "daeum dal",
+      "bn": "আগামী মাস",
+      "en": "next month",
       "pos": "noun",
       "example": {
-        "ko": "내일은 휴일입니다.",
-        "bn": "আগামীকাল ছুটির দিন।",
-        "en": "Tomorrow is a holiday."
+        "ko": "다음 달에 생일이에요.",
+        "bn": "আগামী মাসে জন্মদিন।",
+        "en": "My birthday is next month."
       },
-      "pronunciationTipBn": "'ㅎ' এর উচ্চারণ হালকা 'হ' এর মতো হবে।"
+      "pronunciationTipBn": "'다음 달' [দাউম দাল]—দুই শব্দ আলাদা করে স্পষ্ট বলুন।"
     },
     {
-      "ko": "공휴일",
-      "romanization": "gonghyuil",
-      "bn": "সরকারি ছুটির দিন",
-      "en": "public holiday",
+      "ko": "작년",
+      "romanization": "jangnyeon",
+      "bn": "গত বছর",
+      "en": "last year",
       "pos": "noun",
       "example": {
-        "ko": "일요일은 공휴일입니다.",
-        "bn": "রবিবার সরকারি ছুটির দিন।",
-        "en": "Sunday is a public holiday."
+        "ko": "작년에 한국에 왔어요.",
+        "bn": "গত বছর কোরিয়ায় এসেছি।",
+        "en": "I came to Korea last year."
       },
-      "pronunciationTipBn": "'ㅇ' বাচিম হিসেবে থাকলে 'ং' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'작년' [জাংন্যন]—ㄱ+ㄴ মিলে 'ঙন' শোনায়।"
     },
     {
-      "ko": "오전",
-      "romanization": "ojeon",
-      "bn": "সকাল (এএম)",
-      "en": "morning (AM)",
+      "ko": "올해",
+      "romanization": "olhae",
+      "bn": "এই বছর",
+      "en": "this year",
       "pos": "noun",
       "example": {
-        "ko": "오전에 일해요.",
-        "bn": "সকালে কাজ করি।",
-        "en": "I work in the morning."
+        "ko": "올해 한국에 왔어요.",
+        "bn": "এই বছর কোরিয়ায় এসেছি।",
+        "en": "I came to Korea this year."
       },
-      "pronunciationTipBn": "'ㅈ' এর উচ্চারণ 'জ' এর মতো হবে।"
+      "pronunciationTipBn": "'올해' [অল্যে]—ㄹ বত্ছিমের পরে ㅎ প্রায় নীরব থাকে।"
     },
     {
-      "ko": "오후",
-      "romanization": "ohu",
-      "bn": "বিকাল (পিএম)",
-      "en": "afternoon (PM)",
+      "ko": "내년",
+      "romanization": "naenyeon",
+      "bn": "আগামী বছর",
+      "en": "next year",
       "pos": "noun",
       "example": {
-        "ko": "오후에 만나요.",
-        "bn": "বিকালে দেখা হবে।",
-        "en": "See you in the afternoon."
+        "ko": "내년에도 일해요.",
+        "bn": "আগামী বছরও কাজ করব।",
+        "en": "I will work next year too."
       },
-      "pronunciationTipBn": "'ㅎ' এর উচ্চারণ হালকা 'হ' এর মতো হবে।"
+      "pronunciationTipBn": "'내년' [ন্যেন্ন্যন]—ㄴ+ㄷ মিলে জোরে 'ন্ন' শোনায়।"
     },
     {
-      "ko": "낮",
-      "romanization": "nat",
-      "bn": "দিন/দুপুর",
-      "en": "daytime",
-      "pos": "noun",
+      "ko": "무슨",
+      "romanization": "museun",
+      "bn": "কোন/কী (বিশেষ্যের আগে)",
+      "en": "what; which (before a noun)",
+      "pos": "determiner",
       "example": {
-        "ko": "낮에는 덥습니다.",
-        "bn": "দিনে গরম থাকে।",
-        "en": "It is hot during the day."
+        "ko": "오늘이 무슨 요일이에요?",
+        "bn": "আজ কী বার?",
+        "en": "What day is it today?"
       },
-      "pronunciationTipBn": "'ㅈ' বাচিম হিসেবে থাকলে 'ত' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'무슨' [মুসুন]—'무' পেছন থেকে 'মু', '슨' 'সুন'।"
+    }
+    ,
+    {
+      "ko": "언제",
+      "romanization": "eonje",
+      "bn": "কখন",
+      "en": "when",
+      "pos": "pronoun",
+      "example": {
+        "ko": "생일이 언제예요?",
+        "bn": "জন্মদিন কখন?",
+        "en": "When is your birthday?"
+      },
+      "pronunciationTipBn": "'언제' [অনজে]—ㄴ বত্ছিম 'ন' রেখে 'জে' বলুন।"
     },
     {
-      "ko": "밤",
-      "romanization": "bam",
-      "bn": "রাত",
-      "en": "night",
-      "pos": "noun",
+      "ko": "몇 월",
+      "romanization": "myeot wol",
+      "bn": "কোন মাস",
+      "en": "what month",
+      "pos": "pronoun",
       "example": {
-        "ko": "밤에 잠을 자요.",
-        "bn": "রাতে ঘুমাই।",
-        "en": "I sleep at night."
+        "ko": "오늘이 몇 월이에요?",
+        "bn": "আজ কোন মাস (চলছে)?",
+        "en": "What month is it today?"
       },
-      "pronunciationTipBn": "'ㅂ' এর উচ্চারণ 'ব' এর মতো হবে।"
+      "pronunciationTipBn": "'몇' [মিয়ত্]—ㅊ বত্ছিম থামা 'ত্'; '월' [ওল]।"
     },
     {
-      "ko": "새벽",
-      "romanization": "saebyeok",
-      "bn": "ভোর",
-      "en": "dawn",
-      "pos": "noun",
+      "ko": "며칠",
+      "romanization": "myeochil",
+      "bn": "কত তারিখ/কয় দিন",
+      "en": "what date; how many days",
+      "pos": "pronoun",
       "example": {
-        "ko": "새벽에 일어납니다.",
-        "bn": "ভোরে ঘুম থেকে উঠি।",
-        "en": "I wake up at dawn."
+        "ko": "오늘이 몇 월 며칠이에요?",
+        "bn": "আজ কত তারিখ?",
+        "en": "What is the date today?"
       },
-      "pronunciationTipBn": "'ㄱ' বাচিম হিসেবে থাকলে 'ক' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'며칠' [মিয়ছিল]—'몇'-এর ㅊ এখানে ㄹ-এর আগে 'ছ' শোনায়।"
     },
     {
-      "ko": "아침",
-      "romanization": "achim",
-      "bn": "সকাল",
-      "en": "morning",
+      "ko": "요일",
+      "romanization": "yoil",
+      "bn": "বার/সপ্তাহের দিন",
+      "en": "day of the week",
       "pos": "noun",
       "example": {
-        "ko": "아침을 먹어요.",
-        "bn": "সকালের নাস্তা খাই।",
-        "en": "I eat breakfast."
+        "ko": "오늘이 무슨 요일이에요?",
+        "bn": "আজ কী বার?",
+        "en": "What day is it today?"
       },
-      "pronunciationTipBn": "'ㅊ' এর উচ্চারণ 'ছ' এর মতো হবে এবং এটি একটি মহাপ্রাণ ধ্বনি।"
+      "pronunciationTipBn": "'요일' [য়োইল]—'요' ও '일' দ্রুত মিলিয়ে বলুন।"
     },
     {
-      "ko": "점심",
-      "romanization": "jeomsim",
-      "bn": "দুপুর",
-      "en": "lunchtime/noon",
+      "ko": "날짜",
+      "romanization": "naljja",
+      "bn": "তারিখ",
+      "en": "date",
       "pos": "noun",
       "example": {
-        "ko": "점심을 먹어요.",
-        "bn": "দুপুরের খাবার খাই।",
-        "en": "I eat lunch."
+        "ko": "날짜가 뭐예요?",
+        "bn": "তারিখ কী?",
+        "en": "What is the date?"
       },
-      "pronunciationTipBn": "'ㅁ' বাচিম হিসেবে থাকলে 'ম' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'날짜' [নাল্জা/নাজ্জা]—ㄹ+ㅈ মিলে জোরে 'জ্জ' শোনায়।"
     },
     {
-      "ko": "저녁",
-      "romanization": "jeonyeok",
-      "bn": "সন্ধ্যা",
-      "en": "evening",
+      "ko": "숫자",
+      "romanization": "sutja",
+      "bn": "সংখ্যা",
+      "en": "number; numeral",
       "pos": "noun",
       "example": {
-        "ko": "저녁에 운동해요.",
-        "bn": "সন্ধ্যায় ব্যায়াম করি।",
-        "en": "I exercise in the evening."
+        "ko": "한국어로 숫자를 배워요.",
+        "bn": "কোরীয়তে সংখ্যা শিখি।",
+        "en": "I learn numbers in Korean."
       },
-      "pronunciationTipBn": "'ㄱ' বাচিম হিসেবে থাকলে 'ক' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'숫자' [সুত্জা/সুজ্জা]—ㅅ বত্ছিমের পরে ㅈ জোরে হয়।"
     },
     {
-      "ko": "시간",
-      "romanization": "sigan",
-      "bn": "সময়",
-      "en": "time",
+      "ko": "월",
+      "romanization": "wol",
+      "bn": "মাস",
+      "en": "month",
       "pos": "noun",
       "example": {
-        "ko": "시간이 없어요.",
-        "bn": "সময় নেই।",
-        "en": "I don't have time."
+        "ko": "5월 20일이 생일이에요.",
+        "bn": "২০ মে জন্মদিন।",
+        "en": "My birthday is May 20th."
       },
-      "pronunciationTipBn": "'ㅅ' এর উচ্চারণ 'স' এর মতো হবে।"
+      "pronunciationTipBn": "'월' [ওল]—এক অক্ষরে 'ও'+'ল্' মিলিয়ে বলুন।"
+    },
+    {
+      "ko": "일",
+      "romanization": "il",
+      "bn": "দিন/তারিখ",
+      "en": "day; date",
+      "pos": "noun",
+      "example": {
+        "ko": "4월 16일이 무슨 요일이에요?",
+        "bn": "১৬ এপ্রিল কী বার?",
+        "en": "What day of the week is April 16th?"
+      },
+      "pronunciationTipBn": "'일' [ইল]—ㄹ বত্ছিমে জিভ তালুতে রেখে থামুন।"
+    },
+    {
+      "ko": "생일",
+      "romanization": "saengil",
+      "bn": "জন্মদিন",
+      "en": "birthday",
+      "pos": "noun",
+      "example": {
+        "ko": "생일이 언제예요?",
+        "bn": "জন্মদিন কখন?",
+        "en": "When is your birthday?"
+      },
+      "pronunciationTipBn": "'생일' [স্যাঙিল]—'생' নাকিধ্বনি 'ং' সহ।"
+    },
+    {
+      "ko": "친구",
+      "romanization": "chingu",
+      "bn": "বন্ধু",
+      "en": "friend",
+      "pos": "noun",
+      "example": {
+        "ko": "친구가 기숙사에 왔어요.",
+        "bn": "বন্ধু ডরমিটরিতে এসেছিল।",
+        "en": "My friend came to the dormitory."
+      },
+      "pronunciationTipBn": "'친구' [ছিনগু]—ㅊ শক্ত 'ছিন', ㄱ নরম 'গু'।"
+    },
+    {
+      "ko": "케이크",
+      "romanization": "keikeu",
+      "bn": "কেক",
+      "en": "cake",
+      "pos": "noun",
+      "example": {
+        "ko": "생일에 케이크를 먹었어요.",
+        "bn": "জন্মদিনে কেক খেয়েছিলাম।",
+        "en": "I ate cake on my birthday."
+      },
+      "pronunciationTipBn": "ইংরেজি 'cake'-এর কোরীয় রূপ—'케이크' [কেইকু]।"
+    },
+    {
+      "ko": "미역국",
+      "romanization": "miyeokguk",
+      "bn": "মিয়ক স্যুপ (সামুদ্রিক শাকের ঝোল)",
+      "en": "seaweed soup",
+      "pos": "noun",
+      "example": {
+        "ko": "생일에 미역국을 먹어요.",
+        "bn": "জন্মদিনে মিয়ক স্যুপ খাই।",
+        "en": "I eat seaweed soup on my birthday."
+      },
+      "pronunciationTipBn": "'미역국' [মিয়ক্কুক]—ㅇ+ㄱ মিলে জোরে 'ক্ক' শোনায়।"
     }
   ],
   "grammar": [
     {
-      "pattern": "N + 에",
-      "titleBn": "সময় নির্দেশক '에'",
-      "explanationBn": "সময়ের সাথে '에' যুক্ত হয়ে বোঝায় যে কোনো কাজ কখন ঘটছে। এটি বাংলা 'এ' বা 'তে' বিভক্তির মতো কাজ করে। তবে '오늘' (আজ), '내일' (আগামীকাল), '어제' (গতকাল) ইত্যাদির সাথে '에' বসে না।",
-      "explanationEn": "The particle '에' is attached to time nouns to indicate when an action takes place. It is not used with words like 오늘 (today), 내일 (tomorrow), or 어제 (yesterday).",
+      "pattern": "N + 에 (시간)",
+      "titleBn": "সময়সূচক পার্টিকেল '에'",
+      "explanationBn": "সময়বাচক বিশেষ্যের (যেমন 요일, 주말, 지난주) পরে '에' বসে কোনো কাজ কখন ঘটে তা বোঝায়—বাংলার '-তে/-য়'-এর মতো। তবে 어제, 오늘, 내일, 지금-এর সাথে '에' বসে না।",
+      "explanationEn": "에 attaches to time nouns (days, weekends, months) to show when something happens. Exception: it does NOT combine with 어제, 오늘, 내일, 지금.",
       "examples": [
-        {
-          "ko": "월요일에 만나요.",
-          "bn": "সোমবারে দেখা হবে।",
-          "en": "See you on Monday."
-        },
-        {
-          "ko": "주말에 쉬어요.",
-          "bn": "সপ্তাহান্তে বিশ্রাম নিই।",
-          "en": "I rest on the weekend."
-        },
-        {
-          "ko": "내일 만나요.",
-          "bn": "আগামীকাল দেখা হবে।",
-          "en": "See you tomorrow."
-        }
+        { "ko": "월요일에 일해요.", "bn": "সোমবার কাজ করি।", "en": "I work on Mondays." },
+        { "ko": "금요일에 영화를 봐요.", "bn": "শুক্রবার সিনেমা দেখি।", "en": "I watch a movie on Friday." },
+        { "ko": "주말에 쉬어요.", "bn": "সপ্তাহান্তে বিশ্রাম নিই।", "en": "I rest on the weekend." }
       ],
-      "commonMistakeBn": "অনেকে এই ব্যাকরণটি ভুল প্রসঙ্গে ব্যবহার করেন। সঠিক নিয়মটি মনে রাখবেন।"
+      "commonMistakeBn": "'오늘에 영화를 봐요' বলা ভুল—오늘, 어제, 내일, 지금-এর সাথে '에' বসে না। সঠিক: 오늘 영화를 봐요।"
     },
     {
-      "pattern": "무슨 N",
-      "titleBn": "কী ধরনের / কোন (무슨)",
-      "explanationBn": "'무슨' শব্দটি বিশেষ্যের আগে বসে 'কী ধরনের' বা 'কোন' বোঝাতে ব্যবহৃত হয়। সপ্তাহের দিন জিজ্ঞেস করতে '무슨 요일' (কী বার) ব্যবহৃত হয়।",
-      "explanationEn": "'무슨' is placed before a noun to mean 'what kind of' or 'which'. To ask the day of the week, '무슨 요일' (what day) is used.",
+      "pattern": "V/A + -았/었-",
+      "titleBn": "অতীতকাল '-았/었-'",
+      "explanationBn": "ক্রিয়া বা বিশেষণের সাথে যুক্ত হয়ে কাজটি ইতিমধ্যে ঘটেছে বোঝায়। শেষ স্বর ㅏ বা ㅗ হলে '-았어요' (자다→잤어요), অন্য স্বর হলে '-었어요' (먹다→먹었어요), আর '하다' হলে '했어요' (일하다→일했어요)।",
+      "explanationEn": "The past-tense marker: it shows something already happened. Use -았어요 after ㅏ/ㅗ (자다→잤어요), -었어요 after other vowels (먹다→먹었어요), and 했어요 for 하다 (일하다→일했어요).",
       "examples": [
-        {
-          "ko": "오늘이 무슨 요일입니까?",
-          "bn": "আজ কী বার?",
-          "en": "What day of the week is it today?"
-        },
-        {
-          "ko": "무슨 일을 하십니까?",
-          "bn": "আপনি কী কাজ করেন?",
-          "en": "What kind of work do you do?"
-        }
+        { "ko": "작년에 한국에 왔어요.", "bn": "গত বছর কোরিয়ায় এসেছি।", "en": "I came to Korea last year." },
+        { "ko": "어제 빵을 먹었어요.", "bn": "গতকাল পাউরুটি খেয়েছি।", "en": "I ate bread yesterday." },
+        { "ko": "지난주에 쇼핑했어요.", "bn": "গত সপ্তাহে কেনাকাটা করেছি।", "en": "I went shopping last week." }
       ],
-      "commonMistakeBn": "অনেকে এই ব্যাকরণটি ভুল প্রসঙ্গে ব্যবহার করেন। সঠিক নিয়মটি মনে রাখবেন।"
+      "commonMistakeBn": "'하다'-এর অতীত '하았어요' বলা ভুল—সঠিক রূপ '했어요': 일했어요, 공부했어요।"
+    }
+    ,
+    {
+      "pattern": "무슨 + N",
+      "titleBn": "'무슨' (কোন/কী) বিশেষ্যের আগে",
+      "explanationBn": "কোনো বিশেষ্যের আগে '무슨' বসে সেই বিশেষ্য সম্পর্কে অজানা তথ্য জিজ্ঞাসা করা হয়—বাংলার 'কোন/কী'-এর মতো: 무슨 요일이에요? (কী বার?), 무슨 책을 읽어요? (কী বই পড়ো?)। একা ব্যবহার করলে '뭐' বসে।",
+      "explanationEn": "무슨 is placed before a noun to ask about something unknown related to that noun, like 'what/which': 무슨 요일이에요? Use 뭐 when it stands alone.",
+      "examples": [
+        { "ko": "오늘이 무슨 요일이에요?", "bn": "আজ কী বার?", "en": "What day is it today?" },
+        { "ko": "무슨 책을 읽어요?", "bn": "কী বই পড়ছো?", "en": "What book are you reading?" },
+        { "ko": "무슨 일을 해요?", "bn": "কী কাজ করো?", "en": "What work do you do?" }
+      ],
+      "commonMistakeBn": "'뭐 요일이에요?' বলা ভুল—বিশেষ্যের আগে '뭐' নয়, '무슨' বসে। একা প্রশ্নে '뭐예요?' সঠিক।"
     },
     {
-      "pattern": "몇 월 며칠",
-      "titleBn": "কোন মাস, কত তারিখ",
-      "explanationBn": "তারিখ জিজ্ঞেস করার জন্য '몇 월 며칠' (কত মাস, কত তারিখ) ব্যবহৃত হয়। কোরিয়ান ভাষায় মাস এবং তারিখ বলার সময় সিনো-কোরিয়ান সংখ্যা (일, 이, 삼...) ব্যবহৃত হয়।",
-      "explanationEn": "'몇 월 며칠' is used to ask the date (what month and what date). Sino-Korean numbers are used when saying months and dates.",
+      "pattern": "언제/몇 월/며칠",
+      "titleBn": "সময়ের প্রশ্নবোধক শব্দ",
+      "explanationBn": "সময় জিজ্ঞাসা করতে '언제' (কখন), মাস জিজ্ঞাসা করতে '몇 월' (কোন মাস), আর তারিখ জিজ্ঞাসা করতে '며칠' (কত তারিখ) ব্যবহৃত হয়: 오늘이 몇 월 며칠이에요?",
+      "explanationEn": "Time question words: 언제 (when), 몇 월 (what month), 며칠 (what date/how many days): 오늘이 몇 월 며칠이에요?",
       "examples": [
-        {
-          "ko": "오늘이 몇 월 며칠입니까?",
-          "bn": "আজ কত তারিখ?",
-          "en": "What is the date today?"
-        },
-        {
-          "ko": "생일이 몇 월 며칠입니까?",
-          "bn": "আপনার জন্মদিন কবে?",
-          "en": "When is your birthday?"
-        }
+        { "ko": "생일이 언제예요?", "bn": "জন্মদিন কখন?", "en": "When is your birthday?" },
+        { "ko": "오늘이 몇 월 며칠이에요?", "bn": "আজ কত তারিখ?", "en": "What is the date today?" },
+        { "ko": "시월 오일이에요.", "bn": "৫ অক্টোবর।", "en": "It is October 5th." }
       ],
-      "commonMistakeBn": "অনেকে এই ব্যাকরণটি ভুল প্রসঙ্গে ব্যবহার করেন। সঠিক নিয়মটি মনে রাখবেন।"
+      "commonMistakeBn": "'몇 월' আর '며칠' গুলিয়ে ফেলবেন না—몇 월 = কোন মাস, 며칠 = কত তারিখ। পুরো তারিখ জানতে দুটোই বলুন: 몇 월 며칠?"
     },
     {
-      "pattern": "N + 부터 N + 까지",
-      "titleBn": "থেকে ... পর্যন্ত (부터 ... 까지)",
-      "explanationBn": "'부터' মানে 'থেকে' এবং '까지' মানে 'পর্যন্ত'। এগুলো সময়ের সাথে যুক্ত হয়ে কোনো কাজের শুরু এবং শেষ সময় বোঝায়।",
-      "explanationEn": "'부터' means 'from' and '까지' means 'to/until'. They are attached to time nouns to indicate the starting and ending time of an action.",
+      "pattern": "N월 N일이에요 (날짜 말하기)",
+      "titleBn": "তারিখ বলার ধরন",
+      "explanationBn": "তারিখ বলতে মাস + 월, দিন + 일 বসে এবং সংখ্যা চীনা (Sino) পদ্ধতিতে পড়া হয়: 5월 20일 = 오월 이십일। বিশেষ রূপ: 6월 = 유월, 10월 = 시월 (십월 নয়)।",
+      "explanationEn": "Dates are said as month + 월, day + 일, using Sino-Korean numbers: 5월 20일 = 오월 이십일. Irregular readings: 6월 = 유월, 10월 = 시월.",
       "examples": [
-        {
-          "ko": "월요일부터 금요일까지 일해요.",
-          "bn": "সোমবার থেকে শুক্রবার পর্যন্ত কাজ করি।",
-          "en": "I work from Monday to Friday."
-        },
-        {
-          "ko": "아침부터 저녁까지 바빠요.",
-          "bn": "সকাল থেকে সন্ধ্যা পর্যন্ত ব্যস্ত থাকি।",
-          "en": "I am busy from morning to evening."
-        },
-        {
-          "ko": "1시부터 2시까지 점심시간입니다.",
-          "bn": "১টা থেকে ২টা পর্যন্ত দুপুরের খাবারের সময়।",
-          "en": "Lunch time is from 1 o'clock to 2 o'clock."
-        }
+        { "ko": "5월 20일이에요. (오월 이십일)", "bn": "২০ মে।", "en": "It is May 20th." },
+        { "ko": "10월 17일이에요. (시월 십칠일)", "bn": "১৭ অক্টোবর।", "en": "It is October 17th." },
+        { "ko": "4월 16일이 화요일이에요.", "bn": "১৬ এপ্রিল মঙ্গলবার।", "en": "April 16th is Tuesday." }
       ],
-      "commonMistakeBn": "অনেকে '부터' এর জায়গায় '에서' ব্যবহার করেন। '에서' স্থানের ক্ষেত্রে বসে, সময়ের ক্ষেত্রে '부터' বসবে।"
-    },
-    {
-      "pattern": "V + 았/었/였습니다",
-      "titleBn": "অতীত কাল (았/었/였습니다)",
-      "explanationBn": "ক্রিয়ার সাথে যুক্ত হয়ে অতীত কাল বোঝায়। ক্রিয়ার শেষে 'ㅏ' বা 'ㅗ' থাকলে '았습니다', অন্য স্বরবর্ণ থাকলে '었습니다' এবং '하다' থাকলে '했습니다' হয়।",
-      "explanationEn": "Attached to a verb to indicate past tense. If the verb stem ends in 'ㅏ' or 'ㅗ', '았습니다' is used. For other vowels, '었습니다' is used. '하다' becomes '했습니다'.",
-      "examples": [
-        {
-          "ko": "어제 친구를 만났습니다.",
-          "bn": "গতকাল বন্ধুর সাথে দেখা করেছিলাম।",
-          "en": "I met a friend yesterday."
-        },
-        {
-          "ko": "주말에 영화를 봤습니다.",
-          "bn": "সপ্তাহান্তে সিনেমা দেখেছিলাম।",
-          "en": "I watched a movie on the weekend."
-        },
-        {
-          "ko": "지난 주에 한국어를 공부했습니다.",
-          "bn": "গত সপ্তাহে কোরিয়ান ভাষা পড়েছিলাম।",
-          "en": "I studied Korean last week."
-        }
-      ],
-      "commonMistakeBn": "অনেকে বর্তমান কালের সাথে অতীতের সময়সূচক শব্দ (যেমন 어제) ব্যবহার করেন। অতীতের সময়ের সাথে অবশ্যই অতীত কালের ক্রিয়া ব্যবহার করতে হবে।"
+      "commonMistakeBn": "6월-কে '육월' আর 10월-কে '십월' বলা ভুল—সঠিক উচ্চারণ '유월' আর '시월'।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "আজ কত তারিখ?",
-      "titleEn": "What is the date today?",
-      "lines": [
-        {
-          "speaker": "투안",
-          "ko": "수루 씨, 오늘이 몇 월 며칠이에요?",
-          "bn": "সুরু সাহেব, আজ কত তারিখ?",
-          "en": "Suru, what is the date today?"
-        },
-        {
-          "speaker": "수루",
-          "ko": "오늘은 5월 15일이에요.",
-          "bn": "আজ মে মাসের ১৫ তারিখ।",
-          "en": "Today is May 15th."
-        },
-        {
-          "speaker": "투안",
-          "ko": "무슨 요일이에요?",
-          "bn": "কী বার?",
-          "en": "What day of the week is it?"
-        },
-        {
-          "speaker": "수루",
-          "ko": "화요일이에요.",
-          "bn": "মঙ্গলবার।",
-          "en": "It is Tuesday."
-        }
-      ]
-    },
-    {
       "titleBn": "সপ্তাহান্তের পরিকল্পনা",
       "titleEn": "Weekend Plans",
       "lines": [
-        {
-          "speaker": "리한",
-          "ko": "투안 씨, 주말에 뭐 해요?",
-          "bn": "তুয়ান সাহেব, সপ্তাহান্তে কী করবেন?",
-          "en": "Tuan, what are you doing on the weekend?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "토요일에 친구를 만나요. 리한 씨는요?",
-          "bn": "শনিবারে বন্ধুর সাথে দেখা করব। আর আপনি রিহান সাহেব?",
-          "en": "I am meeting a friend on Saturday. How about you, Rihan?"
-        },
-        {
-          "speaker": "리한",
-          "ko": "저는 일요일에 집에서 쉬어요.",
-          "bn": "আমি রবিবারে বাড়িতে বিশ্রাম নেব।",
-          "en": "I will rest at home on Sunday."
-        },
-        {
-          "speaker": "투안",
-          "ko": "네, 주말 잘 보내세요.",
-          "bn": "হ্যাঁ, সপ্তাহান্ত ভালো কাটুক।",
-          "en": "Yes, have a good weekend."
-        }
+        { "speaker": "A", "ko": "카밀 씨, 주말에 뭐 해요?", "bn": "কামিল, সপ্তাহান্তে কী করো?", "en": "Kamil, what do you do on the weekend?" },
+        { "speaker": "B", "ko": "토요일에 시장에 가요. 일요일에 쉬어요.", "bn": "শনিবার বাজারে যাই। রবিবার বিশ্রাম নিই।", "en": "I go to the market on Saturday. I rest on Sunday." },
+        { "speaker": "A", "ko": "그럼 평일에는 뭐 해요?", "bn": "তাহলে কর্মদিনে কী করো?", "en": "Then what do you do on weekdays?" },
+        { "speaker": "B", "ko": "평일에는 매일 일해요.", "bn": "কর্মদিনে প্রতিদিন কাজ করি।", "en": "On weekdays I work every day." },
+        { "speaker": "A", "ko": "카밀 씨는 열심히 일해요.", "bn": "কামিল তুমি খুব পরিশ্রম করে কাজ করো।", "en": "Kamil, you work very hard." },
+        { "speaker": "B", "ko": "아니에요. 친구들도 열심히 일해요.", "bn": "না তেমন না। বন্ধুরাও পরিশ্রম করে কাজ করে।", "en": "Not really. My friends work hard too." }
       ]
     },
     {
-      "titleBn": "কাজের সময়সূচি",
-      "titleEn": "Work Schedule",
+      "titleBn": "আজ কী বার?",
+      "titleEn": "What Day Is It Today?",
       "lines": [
-        {
-          "speaker": "바투",
-          "ko": "수피아 씨, 언제부터 언제까지 일해요?",
-          "bn": "সুফিয়া সাহেব, কখন থেকে কখন পর্যন্ত কাজ করেন?",
-          "en": "Supia, from when to when do you work?"
-        },
-        {
-          "speaker": "수피아",
-          "ko": "저는 월요일부터 금요일까지 일해요.",
-          "bn": "আমি সোমবার থেকে শুক্রবার পর্যন্ত কাজ করি।",
-          "en": "I work from Monday to Friday."
-        },
-        {
-          "speaker": "바투",
-          "ko": "주말에는 안 일해요?",
-          "bn": "সপ্তাহান্তে কাজ করেন না?",
-          "en": "Don't you work on the weekend?"
-        },
-        {
-          "speaker": "수피아",
-          "ko": "네, 토요일과 일요일은 쉬어요.",
-          "bn": "হ্যাঁ, শনিবার এবং রবিবার বিশ্রাম নিই।",
-          "en": "Yes, I rest on Saturday and Sunday."
-        }
+        { "speaker": "A", "ko": "오늘이 무슨 요일이에요?", "bn": "আজ কী বার?", "en": "What day is it today?" },
+        { "speaker": "B", "ko": "화요일이에요.", "bn": "মঙ্গলবার।", "en": "It is Tuesday." },
+        { "speaker": "A", "ko": "그럼 내일이 무슨 요일이에요?", "bn": "তাহলে আগামীকাল কী বার?", "en": "Then what day is it tomorrow?" },
+        { "speaker": "B", "ko": "수요일이에요.", "bn": "বুধবার।", "en": "It is Wednesday." },
+        { "speaker": "A", "ko": "오늘이 몇 월 며칠이에요?", "bn": "আজ কত তারিখ?", "en": "And what is the date today?" },
+        { "speaker": "B", "ko": "4월 16일이에요.", "bn": "১৬ এপ্রিল।", "en": "It is April 16th." }
+      ]
+    },
+    {
+      "titleBn": "জন্মদিন",
+      "titleEn": "Birthday",
+      "lines": [
+        { "speaker": "A", "ko": "생일이 언제예요?", "bn": "জন্মদিন কখন?", "en": "When is your birthday?" },
+        { "speaker": "B", "ko": "5월 20일이에요.", "bn": "২০ মে।", "en": "It is May 20th." },
+        { "speaker": "A", "ko": "생일에 뭐 했어요?", "bn": "জন্মদিনে কী করেছিলে?", "en": "What did you do on your birthday?" },
+        { "speaker": "B", "ko": "친구가 기숙사에 왔어요. 케이크를 먹었어요.", "bn": "বন্ধু ডরমিটরিতে এসেছিল। কেক খেয়েছিলাম।", "en": "My friend came to the dormitory. We ate cake." },
+        { "speaker": "A", "ko": "미역국도 먹었어요?", "bn": "মিয়ক স্যুপও খেয়েছিলে?", "en": "Did you eat seaweed soup too?" },
+        { "speaker": "B", "ko": "네, 미역국도 먹었어요.", "bn": "হ্যাঁ, মিয়ক স্যুপও খেয়েছিলাম।", "en": "Yes, I ate seaweed soup too." }
       ]
     }
   ],
@@ -672,583 +573,361 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "목요일",
-        "수요일",
-        "화요일",
-        "월요일"
-      ],
+      "questionBn": "'화요일' মানে কোন বার?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার"],
       "answer": 1,
-      "explanationBn": "আজ মঙ্গলবার (화요일) হলে, আগামীকাল হবে বুধবার (수요일)।",
-      "passage": "오늘은 화요일입니다. 내일은 _________________."
+      "explanationBn": "화요일 = মঙ্গলবার। 월요일 = সোমবার, 수요일 = বুধবার।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "에",
-        "를",
-        "가",
-        "은"
-      ],
+      "questionBn": "কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["월요일에 일해요.", "월요일을 일해요.", "월요일이 일해요.", "월요일 가요."],
       "answer": 0,
-      "explanationBn": "সময়ের সাথে '에' যুক্ত হয়। তাই '주말에' (সপ্তাহান্তে) সঠিক।",
-      "passage": "저는 주말_____ 쉬어요."
+      "explanationBn": "সময়ের পরে '에' বসে: 월요일에 일해요 (সোমবার কাজ করি)।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "오늘",
-        "내일",
-        "모레",
-        "어제"
-      ],
-      "answer": 3,
-      "explanationBn": "বাক্যে '쉬었어요' (বিশ্রাম নিয়েছিলাম) অতীত কাল বোঝায়, তাই '어제' (গতকাল) সঠিক উত্তর।",
-      "passage": "저는 _____ 집에서 쉬었어요."
+      "questionBn": "'오늘이 무슨 요일이에요?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": ["네, 수요일이에요.", "수요일이에요.", "오늘이에요.", "5월이에요."],
+      "answer": 1,
+      "explanationBn": "'무슨 요일이에요?' প্রশ্নের উত্তরে সরাসরি বারের নাম + 이에요 বলা হয়।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "어디",
-        "언제",
-        "무슨",
-        "누구"
-      ],
-      "answer": 2,
-      "explanationBn": "সপ্তাহের দিন জিজ্ঞেস করতে '무슨 요일' (কী বার) ব্যবহৃত হয়।"
+      "questionBn": "'며칠' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["কখন", "কোন মাস", "কোন বার", "কত তারিখ"],
+      "answer": 3,
+      "explanationBn": "며칠 = কত তারিখ। 언제 = কখন, 몇 월 = কোন মাস, 요일 = বার।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "년",
-        "월",
-        "일",
-        "요일"
-      ],
+      "type": "multiple-choice",
+      "questionBn": "'자다' ক্রিয়ার অতীত রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["자았어요", "잤어요", "자었어요", "자했어요"],
       "answer": 1,
-      "explanationBn": "মাসের নাম বোঝাতে সংখ্যার পর '월' (মাস) বসে। যেমন: 5월 (মে মাস)।",
-      "passage": "지금은 5_____입니다."
+      "explanationBn": "ㅏ স্বরের পরে '-았-' বসে এবং সংকুচিত হয়: 자다 → 잤어요।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "생일",
-        "주말",
-        "휴일",
-        "평일"
-      ],
-      "answer": 0,
-      "explanationBn": "জন্মদিন জিজ্ঞেস করতে '생일이 언제입니까?' (জন্মদিন কবে?) বলা হয়।",
-      "passage": "_____이/가 언제입니까?"
+      "type": "multiple-choice",
+      "questionBn": "কোন শব্দের সাথে '에' বসে না?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["월요일", "주말", "오늘", "금요일"],
+      "answer": 2,
+      "explanationBn": "오늘, 어제, 내일, 지금-এর সাথে '에' বসে না: 오늘 영화를 봐요।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "이번 주",
-        "주말",
-        "지난 주",
-        "다음 주"
-      ],
-      "answer": 3,
-      "explanationBn": "ভবিষ্যতের কথা বলা হচ্ছে, তাই '다음 주' (আগামী সপ্তাহ) সঠিক।",
-      "passage": "_____에 한국에 갈 거예요."
+      "type": "multiple-choice",
+      "questionBn": "'어제' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["আজ", "গতকাল", "আগামীকাল", "প্রতিদিন"],
+      "answer": 1,
+      "explanationBn": "어제 = গতকাল, 오늘 = আজ, 내일 = আগামীকাল, 매일 = প্রতিদিন।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "월요일",
-        "토요일",
-        "일요일",
-        "금요일"
-      ],
-      "answer": 2,
-      "explanationBn": "শনিবারের (토요일) পরের দিন হলো রবিবার (일요일)।",
-      "passage": "토요일 다음 날은 _____입니다."
+      "type": "multiple-choice",
+      "questionBn": "অতীতের কোন বাক্যটি সঠিক?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["어제 빵을 먹었어요.", "어제 빵을 먹어요.", "오늘에 영화를 봤어요.", "지난주을 쇼핑했어요."],
+      "answer": 0,
+      "explanationBn": "어제-এর সাথে অতীত রূপ: 먹었어요। আর 오늘-এর সাথে '에' বসে না।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "오늘",
-          "right": "আজ"
-        },
-        {
-          "left": "내일",
-          "right": "আগামীকাল"
-        },
-        {
-          "left": "어제",
-          "right": "গতকাল"
-        },
-        {
-          "left": "모레",
-          "right": "আগামী পরশু"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "multiple-choice",
+      "questionBn": "'4월 16일이 무슨 요일이에요?' বাক্যে '무슨' কী অর্থে ব্যবহৃত?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["বিশেষ্যের আগে 'কোন/কী' জিজ্ঞাসায়", "কে জিজ্ঞাসায়", "কোথায় জিজ্ঞাসায়", "কত জিজ্ঞাসায়"],
+      "answer": 0,
+      "explanationBn": "'무슨' বিশেষ্যের (요일) আগে বসে 'কোন/কী' জিজ্ঞাসা করে।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "월요일",
-          "right": "সোমবার"
-        },
-        {
-          "left": "수요일",
-          "right": "বুধবার"
-        },
-        {
-          "left": "금요일",
-          "right": "শুক্রবার"
-        },
-        {
-          "left": "일요일",
-          "right": "রবিবার"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "fill-blank",
+      "questionBn": "'আগামীকাল' বোঝাতে সঠিক শব্দ বসান: ___ 시장에 가요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["어제", "오늘", "매일", "내일"],
+      "answer": 3,
+      "explanationBn": "내일 = আগামীকাল। 어제 = গতকাল, 오늘 = আজ।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "부터",
-        "까지",
-        "에",
-        "를"
-      ],
-      "answer": 0,
-      "explanationBn": "শুরুর সময় বোঝাতে '부터' (থেকে) ব্যবহৃত হয়।",
-      "passage": "월요일_____ 금요일까지 일해요."
+      "type": "fill-blank",
+      "questionBn": "অতীত রূপে শূন্যস্থান পূরণ করুন: 어제 밥을 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["먹어요", "먹었어요", "먹었요", "먹세요"],
+      "answer": 1,
+      "explanationBn": "먹다 + -었- → 먹었어요 (খেয়েছি)।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "부터",
-        "까지",
-        "에",
-        "가"
-      ],
+      "type": "fill-blank",
+      "questionBn": "6월-এর সঠিক উচ্চারণ কোনটি?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["육월", "유월", "유궐", "육궐"],
       "answer": 1,
-      "explanationBn": "শেষের সময় বোঝাতে '까지' (পর্যন্ত) ব্যবহৃত হয়।",
-      "passage": "아침부터 저녁_____ 바빠요."
+      "explanationBn": "6월 পড়া হয় '유월'—'육월' প্রচলিত ভুল।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "만나요",
-        "만났어요",
-        "만날 거예요",
-        "만나세요"
-      ],
-      "answer": 1,
-      "explanationBn": "'어제' (গতকাল) অতীত কাল নির্দেশ করে, তাই '만났어요' (দেখা করেছিলাম) সঠিক।",
-      "passage": "어제 친구를 _____."
+      "type": "fill-blank",
+      "questionBn": "'কর্মদিনে কাজ করি' বাক্যটি সম্পূর্ণ করুন: ___에 일해요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["주말", "일요일", "평일", "생일"],
+      "answer": 2,
+      "explanationBn": "평일 = কর্মদিন (সোম–শুক্র)। 주말 = সপ্তাহান্ত।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "공휴일",
-        "평일",
-        "달력",
-        "시간"
-      ],
+      "type": "fill-blank",
+      "questionBn": "'하다' ক্রিয়ার অতীত রূপ বসান: 지난주에 쇼핑___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["했어요", "하았어요", "하였어요", "하요"],
       "answer": 0,
-      "explanationBn": "রবিবার (일요일) একটি সরকারি ছুটির দিন (공휴일)।",
-      "passage": "일요일은 _____입니다."
+      "explanationBn": "'하다'-এর অতীত '했어요': 쇼핑했어요।"
     },
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "오전",
-        "오후",
-        "밤",
-        "새벽"
-      ],
+      "questionBn": "'আজ কত তারিখ?' প্রশ্নটি সম্পূর্ণ করুন: 오늘이 몇 월 ___이에요?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["무슨", "언제", "며칠", "요일"],
       "answer": 2,
-      "explanationBn": "ঘুমানোর সময় সাধারণত রাত (밤) হয়।",
-      "passage": "_____에 잠을 자요."
+      "explanationBn": "তারিখ জিজ্ঞাসায় '몇 월 며칠' বলা হয়—며칠 = কত তারিখ।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "아침",
-        "점심",
-        "저녁",
-        "낮"
-      ],
-      "answer": 1,
-      "explanationBn": "দুপুরের খাবার (점심) খাওয়ার কথা বলা হচ্ছে।",
-      "passage": "12시에 _____을 먹어요."
+      "questionBn": "'গত বছর কোরিয়ায় এসেছি' বাক্যটি সম্পূর্ণ করুন: ___에 한국에 왔어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["내년", "올해", "작년", "이번 주"],
+      "answer": 2,
+      "explanationBn": "작년 = গত বছর। অতীতের সাথে '-았/었어요' রূপ ব্যবহৃত হয়।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "시간",
-        "달력",
-        "휴일",
-        "평일"
+      "type": "matching",
+      "questionBn": "বারের কোরীয় নামের সাথে বাংলা মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "월요일", "right": "সোমবার" },
+        { "left": "화요일", "right": "মঙ্গলবার" },
+        { "left": "수요일", "right": "বুধবার" },
+        { "left": "목요일", "right": "বৃহস্পতিবার" },
+        { "left": "금요일", "right": "শুক্রবার" },
+        { "left": "토요일", "right": "শনিবার" }
       ],
-      "answer": 1,
-      "explanationBn": "তারিখ দেখার জন্য ক্যালেন্ডার (달력) ব্যবহার করা হয়।",
-      "passage": "_____을 보세요. 오늘이 며칠이에요?"
+      "explanationBn": "월(চাঁদ)-화(আগুন)-수(পানি)-목(কাঠ)-금(সোনা)-토(মাটি)-일(সূর্য) দিয়ে মনে রাখুন।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "오전",
-        "오후",
-        "새벽",
-        "밤"
+      "type": "matching",
+      "questionBn": "সময়ের শব্দের সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "어제", "right": "গতকাল" },
+        { "left": "오늘", "right": "আজ" },
+        { "left": "내일", "right": "আগামীকাল" },
+        { "left": "매일", "right": "প্রতিদিন" }
       ],
-      "answer": 0,
-      "explanationBn": "সকালের সময়কে '오전' (এএম) বলা হয়।",
-      "passage": "지금은 _____ 10시입니다."
+      "explanationBn": "এই শব্দগুলোর সাথে '에' বসে না—সরাসরি বাক্যে ব্যবহৃত হয়।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "দিনের সাথে স্বাভাবিক কাজটি মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
-        {
-          "left": "오전",
-          "right": "সকাল (এএম)"
-        },
-        {
-          "left": "오후",
-          "right": "বিকাল (পিএম)"
-        },
-        {
-          "left": "낮",
-          "right": "দিন/দুপুর"
-        },
-        {
-          "left": "밤",
-          "right": "রাত"
-        }
+        { "left": "월요일에", "right": "일해요" },
+        { "left": "화요일에", "right": "병원에 가요" },
+        { "left": "금요일에", "right": "영화를 봐요" },
+        { "left": "일요일에", "right": "쉬어요" }
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "সময় + 에 + কাজ—এই কাঠামোয় বাক্য গঠন করা যায়।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "ক্রিয়ার বর্তমান রূপের সাথে অতীত রূপ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
-        {
-          "left": "아침",
-          "right": "সকাল"
-        },
-        {
-          "left": "점심",
-          "right": "দুপুর"
-        },
-        {
-          "left": "저녁",
-          "right": "সন্ধ্যা"
-        },
-        {
-          "left": "새벽",
-          "right": "ভোর"
-        }
+        { "left": "자다", "right": "잤어요" },
+        { "left": "먹다", "right": "먹었어요" },
+        { "left": "일하다", "right": "일했어요" },
+        { "left": "가다", "right": "갔어요" }
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "ㅏ/ㅗ→-았어요 (잤어요, 갔어요), অন্য স্বর→-었어요 (먹었어요), 하다→했어요 (일했어요)।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "가: 오늘이 무슨 요일입니까?\n나: _________________.",
-      "options": [
-        "화요일입니다",
-        "15일입니다",
-        "내일입니다",
-        "5월입니다"
-      ],
-      "answer": 0,
-      "explanationBn": "প্রশ্ন করা হয়েছে '오늘이 무슨 요일입니까?' (আজ কী বার?)। তাই উত্তর হবে '화요일입니다' (মঙ্গলবার)।"
+      "questionBn": "শব্দজোড়ার সাথে সম্পর্কিত বিভাগটি বাছাই করুন।",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "토요일, 일요일",
+      "options": ["평일", "장소", "주말", "물건"],
+      "answer": 2,
+      "explanationBn": "শনিবার ও রবিবার মিলে 주말 (সপ্তাহান্ত) হয়।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "가: 생일이 언제입니까?\n나: _________________.",
-      "options": [
-        "주말입니다",
-        "10월 20일입니다",
-        "오늘입니다",
-        "월요일입니다"
-      ],
+      "questionBn": "'7월 15일' কোন বিভাগের তথ্য?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "7월 15일",
+      "options": ["이름", "날짜", "장소", "직업"],
       "answer": 1,
-      "explanationBn": "জন্মদিন কবে জানতে চাওয়া হয়েছে, তাই তারিখ বলতে হবে। '10월 20일입니다' (অক্টোবরের ২০ তারিখ) সঠিক উত্তর।"
+      "explanationBn": "'7월 15일' (১৫ জুলাই) একটি তারিখ (날짜)।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "가: 언제 한국에 왔어요?\n나: _________________ 왔어요.",
-      "options": [
-        "내일",
-        "모레",
-        "지난 주에",
-        "다음 주에"
-      ],
-      "answer": 2,
-      "explanationBn": "প্রশ্নটি অতীত কালের ('왔어요' - এসেছেন)। তাই উত্তরের সময়টিও অতীতের হতে হবে। '지난 주에' (গত সপ্তাহে) সঠিক।"
+      "questionBn": "অতীতের কোন বাক্যটি সঠিক তা বাছাই করুন।",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["어제 친구를 만나요.", "지난주에 쇼핑했어요.", "내일에 시장에 갔어요.", "오늘에 영화를 봐요."],
+      "answer": 1,
+      "explanationBn": "'지난주에 쇼핑했어요' সঠিক—지난주-এর সাথে '에' বসে এবং অতীত রূপ 했어요। 내일/오늘-এর সাথে '에' বসে না।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "오늘은 금요일입니다. 내일은 _________________.",
-      "options": [
-        "목요일입니다",
-        "일요일입니다",
-        "수요일입니다",
-        "토요일입니다"
-      ],
-      "answer": 3,
-      "explanationBn": "আজ শুক্রবার (금요일) হলে, আগামীকাল হবে শনিবার (토요일)।"
+      "questionBn": "শূন্যস্থানে সঠিক প্রশ্নবোধক শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "오늘이 ___이에요? — 화요일이에요.",
+      "options": ["무슨 요일", "몇 월", "며칠", "언제"],
+      "answer": 0,
+      "explanationBn": "উত্তরে বারের নাম (화요일) আছে, তাই প্রশ্ন হবে '무슨 요일이에요?'।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "저는 평일에는 일합니다. 그리고 _________________에는 집에서 쉽니다.",
-      "options": [
-        "주말",
-        "내일",
-        "어제",
-        "오늘"
-      ],
-      "answer": 0,
-      "explanationBn": "কাজের দিনে (평일) কাজ করে এবং ছুটির দিনে বা সপ্তাহান্তে (주말) বিশ্রাম নেয়। তাই '주말' সঠিক।"
+      "questionBn": "কোরিয়ার পঞ্জিকা সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국의 달력에는 양력과 음력이 함께 있습니다. 회사와 학교의 일정은 양력을 기준으로 합니다. 그러나 설날과 추석은 음력을 기준으로 합니다.",
+      "options": ["한국의 달력에는 양력만 있습니다.", "회사의 일정은 음력을 기준으로 합니다.", "설날과 추석은 음력을 기준으로 합니다.", "한국에는 새해 첫날이 한 번 있습니다."],
+      "answer": 2,
+      "explanationBn": "লেখানুযায়ী ঐতিহ্যবাহী উৎসব 설날 ও 추석 চন্দ্র পঞ্জিকা (음력) অনুযায়ী হয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 오늘이 몇 월 며칠이에요?\n남자: 8월 15일이에요.",
-      "options": [
-        "8월 25일",
-        "8월 15일",
-        "9월 25일",
-        "9월 15일"
-      ],
-      "answer": 1,
-      "explanationBn": "কথোপকথনে পুরুষটি বলছে '8월 15일이에요' (আগস্টের ১৫ তারিখ)। তাই সঠিক উত্তর '8월 15일'।"
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক সংখ্যাটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "생일이 언제예요? — 5월 ___일이에요. (20)",
+      "options": ["이십", "삼십", "십이", "오"],
+      "answer": 0,
+      "explanationBn": "20 চীনা পদ্ধতিতে '이십'—তাই 5월 20일 = 오월 이십일।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 내일이 무슨 요일이에요?\n여자: 수요일이에요.",
-      "options": [
-        "월요일",
-        "목요일",
-        "수요일",
-        "화요일"
-      ],
+      "section": "reading",
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "다라 씨는 생일에 미역국을 먹었습니다. 친구가 기숙사에 왔습니다.",
+      "options": ["다라 씨는 케이크를 먹었습니다.", "친구가 회사에 왔습니다.", "다라 씨는 생일에 미역국을 먹었습니다.", "다라 씨는 생일에 일했습니다."],
       "answer": 2,
-      "explanationBn": "মহিলাটি বলছে '수요일이에요' (বুধবার)। তাই সঠিক উত্তর '수요일'।"
+      "explanationBn": "লেখানুযায়ী দারা জন্মদিনে মিয়ক স্যুপ খেয়েছে এবং বন্ধু ডরমিটরিতে এসেছিল।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 주말에 뭐 해요?\n남자: 토요일에 친구를 만나요.",
-      "options": [
-        "한국어를 배워요",
-        "영화를 봐요",
-        "집에서 쉬어요",
-        "친구를 만나요"
-      ],
-      "answer": 3,
-      "explanationBn": "পুরুষটি বলছে '토요일에 친구를 만나요' (শনিবারে বন্ধুর সাথে দেখা করব)। তাই সঠিক উত্তর '친구를 만나요'।"
-    },
+      "section": "reading",
+      "questionBn": "কোন প্রশ্নবাক্যটি সঠিক?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["오늘이 무슨 요일이에요?", "오늘에 무슨 요일이에요?", "오늘을 무슨 요일이에요?", "오늘 무슨이에요?"],
+      "answer": 0,
+      "explanationBn": "'오늘이 무슨 요일이에요?' সঠিক—오늘-এর সাথে '에' বসে না এবং '무슨 + 요일' বসে।"
+    }
+    ,
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "가: 주말에 보통 뭐 해요?\n나: _________________.",
-      "options": [
-        "월요일에 만나요",
-        "집에서 쉬어요",
-        "내일이 생일이에요",
-        "오전에 일해요"
-      ],
-      "answer": 1,
-      "explanationBn": "সপ্তাহান্তে কী করে জানতে চাওয়া হয়েছে। '집에서 쉬어요' (বাড়িতে বিশ্রাম নিই) সঠিক উত্তর।"
+      "questionBn": "শূন্যস্থানে সঠিক সময়শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "___에 한국에 왔어요. 그때는 2024년이었어요.",
+      "options": ["내년", "다음 달", "작년", "이번 주"],
+      "answer": 2,
+      "explanationBn": "অতীতের (2024년) কথা বলা হয়েছে এবং ক্রিয়া অতীতে (왔어요)—তাই '작년' (গত বছর) বসবে।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "가: 언제부터 언제까지 일해요?\n나: _________________.",
-      "options": [
-        "월요일부터 금요일까지 일해요",
-        "오늘이 수요일이에요",
-        "주말에 친구를 만나요",
-        "어제 영화를 봤어요"
-      ],
-      "answer": 0,
-      "explanationBn": "কখন থেকে কখন পর্যন্ত কাজ করে জানতে চাওয়া হয়েছে। '월요일부터 금요일까지 일해요' (সোমবার থেকে শুক্রবার পর্যন্ত কাজ করি) সঠিক উত্তর।"
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "프엉 씨는 평일에 일합니다. 주말에는 집에서 쉽니다.",
+      "options": ["프엉 씨는 주말에 일합니다.", "프엉 씨는 평일에 쉽니다.", "프엉 씨는 매일 일합니다.", "프엉 씨는 주말에 쉽니다."],
+      "answer": 3,
+      "explanationBn": "লেখানুযায়ী 프엉 কর্মদিনে কাজ করে এবং সপ্তাহান্তে বিশ্রাম নেয়।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "저는 월요일부터 금요일까지 회사에 갑니다. 토요일과 일요일은 _________________.",
-      "options": [
-        "바쁩니다",
-        "일합니다",
-        "쉽니다",
-        "배웁니다"
-      ],
-      "answer": 2,
-      "explanationBn": "সোমবার থেকে শুক্রবার কাজ করলে, শনিবার ও রবিবার সাধারণত ছুটির দিন হয়। তাই '쉽니다' (বিশ্রাম নিই) সঠিক।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: আজ কী বার?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 오늘은 목요일입니다.\n남자: 네, 내일은 금요일이에요.",
+      "options": ["월요일", "수요일", "금요일", "목요일"],
+      "answer": 3,
+      "explanationBn": "মহিলা বলেছেন '오늘은 목요일입니다'—আজ বৃহস্পতিবার।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "가: 어제 뭐 했어요?\n나: _________________.",
-      "options": [
-        "내일 만나요",
-        "한국어를 공부했어요",
-        "지금 10시예요",
-        "오늘이 월요일이에요"
-      ],
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: আগামীকাল কত তারিখ?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 내일이 몇 월 며칠이에요?\n여자: 10월 17일이에요.",
+      "options": ["10월 16일", "10월 17일", "11월 17일", "9월 17일"],
       "answer": 1,
-      "explanationBn": "গতকাল কী করেছে জানতে চাওয়া হয়েছে (অতীত কাল)। '한국어를 공부했어요' (কোরিয়ান ভাষা পড়েছিলাম) সঠিক উত্তর।"
+      "explanationBn": "মহিলা উত্তরে বলেছেন '10월 17일이에요'—১৭ অক্টোবর।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "오늘은 5월 10일입니다. 내일은 _________________.",
-      "options": [
-        "5월 9일입니다",
-        "5월 11일입니다",
-        "6월 10일입니다",
-        "4월 10일입니다"
-      ],
-      "answer": 1,
-      "explanationBn": "আজ মে মাসের ১০ তারিখ হলে, আগামীকাল হবে মে মাসের ১১ তারিখ (5월 11일)।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা বুধবারে কী করেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 수요일에 일해요?\n여자: 아니요, 수요일에 쉬어요.",
+      "options": ["일해요", "운동해요", "공부해요", "쉬어요"],
+      "answer": 3,
+      "explanationBn": "মহিলা বলেছেন বুধবারে কাজ নয়, বিশ্রাম (쉬어요) নেন।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: দুজনে কী নিয়ে কথা বলছে?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 언제 한국에 왔어요?\n남자: 작년 10월에 왔어요.",
-      "options": [
-        "올해 10월",
-        "작년 10월",
-        "내년 10월",
-        "이번 달"
-      ],
-      "answer": 1,
-      "explanationBn": "পুরুষটি বলছে '작년 10월에 왔어요' (গত বছরের অক্টোবরে এসেছি)। তাই সঠিক উত্তর '작년 10월'।"
+      "passage": "남자: 오늘이 무슨 요일이에요?\n여자: 화요일이에요.",
+      "options": ["요일", "날씨", "음식", "장소"],
+      "answer": 0,
+      "explanationBn": "দুজনে বার (요일) নিয়ে কথা বলছে।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি গতকাল কী করেছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 오늘이 무슨 요일이에요?\n여자: 목요일이에요.",
-      "options": [
-        "화요일",
-        "수요일",
-        "목요일",
-        "금요일"
-      ],
-      "answer": 2,
-      "explanationBn": "মহিলাটি বলছে '목요일이에요' (বৃহস্পতিবার)। তাই সঠিক উত্তর '목요일'।"
+      "passage": "여자: 어제 뭐 했어요?\n남자: 친구하고 영화를 봤어요.",
+      "options": ["쇼핑했어요", "영화를 봤어요", "일했어요", "운동했어요"],
+      "answer": 1,
+      "explanationBn": "পুরুষ বলেছেন গতকাল বন্ধুর সাথে সিনেমা দেখেছেন (영화를 봤어요)।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: মহিলার জন্মদিন কখন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 주말에 일해요?\n남자: 아니요, 주말에는 쉬어요.",
-      "options": [
-        "주말에 일해요",
-        "주말에 쉬어요",
-        "평일에 쉬어요",
-        "오늘 일해요"
-      ],
-      "answer": 1,
-      "explanationBn": "পুরুষটি বলছে '주말에는 쉬어요' (সপ্তাহান্তে বিশ্রাম নিই)। তাই সঠিক উত্তর '주말에 쉬어요'।"
+      "passage": "남자: 생일이 언제예요?\n여자: 8월 7일이에요.",
+      "options": ["7월 8일", "8월 17일", "7월 17일", "8월 7일"],
+      "answer": 3,
+      "explanationBn": "মহিলা বলেছেন '8월 7일이에요'—৭ আগস্ট।"
     }
   ]
 }
