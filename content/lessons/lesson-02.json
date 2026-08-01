@@ -2,7 +2,7 @@
   "chapter": 2,
   "slug": "daily-necessities",
   "title": {
-    "ko": "일상생활에 필요한 물건",
+    "ko": "생활용품",
     "bn": "দৈনন্দিন প্রয়োজনীয় জিনিস",
     "en": "Daily Necessities"
   },
@@ -10,264 +10,150 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "দৈনন্দিন প্রয়োজনীয় জিনিসপত্রের নাম শিখতে পারা।",
-      "কোনো জিনিস আছে কি নেই তা বলতে পারা।",
-      "জিনিসপত্রের অবস্থান সম্পর্কে জিজ্ঞাসা করতে এবং উত্তর দিতে পারা।"
+      "জিনিসপত্রের নাম জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "নির্দেশক শব্দ (এটা/সেটা/ওটা) দিয়ে জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "অফিস সামগ্রী ও দৈনন্দিন প্রয়োজনীয় জিনিসের কোরীয় শব্দ ব্যবহার করতে পারা",
+      "কোরিয়ায় সাশ্রয়ী দামে নিত্যপ্রয়োজনীয় জিনিস কেনার উপায় জানা"
     ],
     "en": [
-      "Learn the names of daily necessities.",
-      "Be able to express whether an item exists or not.",
-      "Be able to ask and answer about the location of items."
+      "Being able to ask and answer the names of objects",
+      "Being able to ask and answer questions using demonstratives",
+      "Being able to use vocabulary for office supplies and daily necessities",
+      "Knowing how to buy daily necessities cheaply in Korea"
     ]
   },
   "vocabulary": [
     {
-      "ko": "열쇠",
-      "romanization": "yeolsoe",
-      "bn": "চাবি",
-      "en": "key",
-      "pos": "noun",
+      "ko": "이것",
+      "romanization": "igeot",
+      "bn": "এটা",
+      "en": "this (thing)",
+      "pos": "pronoun",
       "example": {
-        "ko": "열쇠가 책상 위에 있습니다.",
-        "bn": "চাবিটি টেবিলের উপর আছে।",
-        "en": "The key is on the desk."
+        "ko": "이것은 시계예요.",
+        "bn": "এটা ঘড়ি।",
+        "en": "This is a clock."
       },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি বাংলা 'র' ও 'ল'-এর মাঝামাঝি; জিভ হালকাভাবে তালুতে স্পর্শ করান।"
+      "pronunciationTipBn": "'이것' বলার সময় শেষে ㄱ বত্ছিম ফুঁ না দিয়ে থামিয়ে বলুন—'ইগত্'।"
     },
     {
-      "ko": "가족사진",
-      "romanization": "gajoksajin",
-      "bn": "পারিবারিক ছবি",
-      "en": "family photo",
-      "pos": "noun",
+      "ko": "그것",
+      "romanization": "geugeot",
+      "bn": "সেটা",
+      "en": "that (thing)",
+      "pos": "pronoun",
       "example": {
-        "ko": "이것은 제 가족사진입니다.",
-        "bn": "এটি আমার পারিবারিক ছবি।",
-        "en": "This is my family photo."
+        "ko": "그것은 안경이에요.",
+        "bn": "সেটা চশমা।",
+        "en": "That is a pair of glasses."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি শব্দের শুরুতে 'ছ'-এর মতো এবং মাঝে 'জ'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'그것' প্রায় 'গুগত্' শোনায়; '으' স্বরটা ঠোঁট সমান খুলে বলুন।"
     },
     {
-      "ko": "가방",
-      "romanization": "gabang",
-      "bn": "ব্যাগ",
-      "en": "bag",
-      "pos": "noun",
+      "ko": "저것",
+      "romanization": "jeogeot",
+      "bn": "ওটা (দূরের জিনিস)",
+      "en": "that (thing over there)",
+      "pos": "pronoun",
       "example": {
-        "ko": "가방 안에 책이 있습니다.",
-        "bn": "ব্যাগের ভিতরে বই আছে।",
-        "en": "There is a book in the bag."
+        "ko": "저것은 컴퓨터예요.",
+        "bn": "ওটা কম্পিউটার।",
+        "en": "That over there is a computer."
       },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি শব্দের শুরুতে 'খ'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'저' বলতে জিভ দাঁতের কাছে রেখে 'জ' স্পষ্ট করুন—'জগত্'।"
     },
     {
-      "ko": "지갑",
-      "romanization": "jigap",
-      "bn": "মানিব্যাগ",
-      "en": "wallet",
-      "pos": "noun",
+      "ko": "무엇",
+      "romanization": "mueot",
+      "bn": "কী",
+      "en": "what",
+      "pos": "pronoun",
       "example": {
-        "ko": "지갑에 돈이 없습니다.",
-        "bn": "মানিব্যাগে টাকা নেই।",
-        "en": "There is no money in the wallet."
+        "ko": "이것은 무엇입니까?",
+        "bn": "এটা কী?",
+        "en": "What is this?"
       },
-      "pronunciationTipBn": "'ㅂ' বাচিম হিসেবে থাকলে 'প'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'무엇' প্রায় 'মুঅত্' শোনায়; 'ㅓ' স্বরটি বাংলা 'অ'-এর মতো পেছন থেকে বলুন।"
     },
     {
-      "ko": "여권",
-      "romanization": "yeogwon",
-      "bn": "পাসপোর্ট",
-      "en": "passport",
-      "pos": "noun",
+      "ko": "뭐",
+      "romanization": "mwo",
+      "bn": "কী (কথ্যভাষায়)",
+      "en": "what (casual)",
+      "pos": "pronoun",
       "example": {
-        "ko": "여권이 어디에 있습니까?",
-        "bn": "পাসপোর্ট কোথায় আছে?",
-        "en": "Where is the passport?"
+        "ko": "저건 뭐예요?",
+        "bn": "ওটা কী?",
+        "en": "What is that over there?"
       },
-      "pronunciationTipBn": "'ㄱ' বাচিম হিসেবে থাকলে 'ক'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'뭐' হলো '무엇'-এর কথ্য সংক্ষিপ্ত রূপ; 'মো' না বলে 'ম্ও' ঘুরিয়ে বলুন।"
     },
     {
-      "ko": "우산",
-      "romanization": "usan",
-      "bn": "ছাতা",
-      "en": "umbrella",
+      "ko": "연필",
+      "romanization": "yeonpil",
+      "bn": "পেন্সিল",
+      "en": "pencil",
       "pos": "noun",
       "example": {
-        "ko": "비가 와서 우산이 필요합니다.",
-        "bn": "বৃষ্টি আসায় ছাতা দরকার।",
-        "en": "I need an umbrella because it's raining."
+        "ko": "이건 연필이에요.",
+        "bn": "এটা পেন্সিল।",
+        "en": "This is a pencil."
       },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি 'স'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'연필' আসলে [য়মফিল] শোনায়—ㄴ বত্ছিমের পরে ㅍ আসায় নাকিস্বর হয়ে যায়।"
     },
     {
-      "ko": "거울",
-      "romanization": "geoul",
-      "bn": "আয়না",
-      "en": "mirror",
+      "ko": "볼펜",
+      "romanization": "bolpen",
+      "bn": "বলপয়েন্ট কলম",
+      "en": "ballpoint pen",
       "pos": "noun",
       "example": {
-        "ko": "방에 거울이 있습니다.",
-        "bn": "রুমে আয়না আছে।",
-        "en": "There is a mirror in the room."
+        "ko": "그건 볼펜이 아니에요.",
+        "bn": "সেটা বলপয়েন্ট কলম নয়।",
+        "en": "That is not a ballpoint pen."
       },
-      "pronunciationTipBn": "'ㄹ' বাচিম হিসেবে থাকলে 'ল'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'펜'-এ ㅍ ঝোঁড়া ধ্বনি—'ফেন' বলতে হাপিয়ে বাতাস বের করুন।"
     },
     {
-      "ko": "화장품",
-      "romanization": "hwajangpum",
-      "bn": "প্রসাধন সামগ্রী",
-      "en": "cosmetics",
+      "ko": "가위",
+      "romanization": "gawi",
+      "bn": "কাঁচি",
+      "en": "scissors",
       "pos": "noun",
       "example": {
-        "ko": "화장품을 삽니다.",
-        "bn": "প্রসাধন সামগ্রী কিনি।",
-        "en": "I buy cosmetics."
+        "ko": "이건 가위예요?",
+        "bn": "এটা কি কাঁচি?",
+        "en": "Is this a pair of scissors?"
       },
-      "pronunciationTipBn": "'ㅍ' ধ্বনিটি 'ফ'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'가위' দুই অক্ষর আলাদা না বলে 'কাউই' মিলিয়ে দ্রুত বলুন।"
     },
     {
-      "ko": "빗",
-      "romanization": "bit",
-      "bn": "চিরুনি",
-      "en": "comb",
+      "ko": "칼",
+      "romanization": "kal",
+      "bn": "কাটার/ছোট ছুরি",
+      "en": "box cutter",
       "pos": "noun",
       "example": {
-        "ko": "빗으로 머리를 빗습니다.",
-        "bn": "চিরুনি দিয়ে চুল আঁচড়াই।",
-        "en": "I comb my hair with a comb."
+        "ko": "저건 칼이에요.",
+        "bn": "ওটা কাটার।",
+        "en": "That is a box cutter."
       },
-      "pronunciationTipBn": "'ㅅ' বাচিম হিসেবে থাকলে 'ত'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "헤어드라이어",
-      "romanization": "heeodeuraieo",
-      "bn": "হেয়ার ড্রায়ার",
-      "en": "hair dryer",
-      "pos": "noun",
-      "example": {
-        "ko": "헤어드라이어가 고장 났습니다.",
-        "bn": "হেয়ার ড্রায়ারটি নষ্ট হয়ে গেছে।",
-        "en": "The hair dryer is broken."
-      },
-      "pronunciationTipBn": "ইংরেজি শব্দ থেকে এসেছে, তাই উচ্চারণ প্রায় একই রকম।"
-    },
-    {
-      "ko": "수건",
-      "romanization": "sugeon",
-      "bn": "তোয়ালে",
-      "en": "towel",
-      "pos": "noun",
-      "example": {
-        "ko": "수건으로 얼굴을 닦습니다.",
-        "bn": "তোয়ালে দিয়ে মুখ মুছি।",
-        "en": "I wipe my face with a towel."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি শব্দের মাঝে 'গ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "비누",
-      "romanization": "binu",
-      "bn": "সাবান",
-      "en": "soap",
-      "pos": "noun",
-      "example": {
-        "ko": "비누로 손을 씻습니다.",
-        "bn": "সাবান দিয়ে হাত ধুই।",
-        "en": "I wash my hands with soap."
-      },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শুরুতে 'ফ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "칫솔",
-      "romanization": "chitsol",
-      "bn": "টুথব্রাশ",
-      "en": "toothbrush",
-      "pos": "noun",
-      "example": {
-        "ko": "새 칫솔이 필요합니다.",
-        "bn": "নতুন টুথব্রাশ দরকার।",
-        "en": "I need a new toothbrush."
-      },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি 'ছ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "치약",
-      "romanization": "chiyak",
-      "bn": "টুথপেস্ট",
-      "en": "toothpaste",
-      "pos": "noun",
-      "example": {
-        "ko": "치약이 다 떨어졌습니다.",
-        "bn": "টুথপেস্ট শেষ হয়ে গেছে।",
-        "en": "We ran out of toothpaste."
-      },
-      "pronunciationTipBn": "'ㄱ' বাচিম হিসেবে থাকলে 'ক'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "샴푸",
-      "romanization": "syampu",
-      "bn": "শ্যাম্পু",
-      "en": "shampoo",
-      "pos": "noun",
-      "example": {
-        "ko": "샴푸로 머리를 감습니다.",
-        "bn": "শ্যাম্পু দিয়ে চুল ধুই।",
-        "en": "I wash my hair with shampoo."
-      },
-      "pronunciationTipBn": "ইংরেজি শব্দ থেকে এসেছে, তাই উচ্চারণ প্রায় একই রকম।"
-    },
-    {
-      "ko": "휴지",
-      "romanization": "hyuji",
-      "bn": "টিস্যু পেপার",
-      "en": "toilet paper",
-      "pos": "noun",
-      "example": {
-        "ko": "휴지 좀 주세요.",
-        "bn": "দয়া করে একটু টিস্যু পেপার দিন।",
-        "en": "Please give me some toilet paper."
-      },
-      "pronunciationTipBn": "'ㅎ' ধ্বনিটি 'হ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "컵",
-      "romanization": "keop",
-      "bn": "কাপ",
-      "en": "cup",
-      "pos": "noun",
-      "example": {
-        "ko": "컵에 물이 있습니다.",
-        "bn": "কাপে পানি আছে।",
-        "en": "There is water in the cup."
-      },
-      "pronunciationTipBn": "'ㅂ' বাচিম হিসেবে থাকলে 'প'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "안경",
-      "romanization": "angyeong",
-      "bn": "চশমা",
-      "en": "glasses",
-      "pos": "noun",
-      "example": {
-        "ko": "안경을 씁니다.",
-        "bn": "চশমা পরি।",
-        "en": "I wear glasses."
-      },
-      "pronunciationTipBn": "'ㅇ' বাচিম হিসেবে থাকলে 'ং'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'칼'-এ ㅋ ঝোঁড়া—বাতাসসহ 'খাল' বলুন; বাংলা 'কাল' শব্দের মতো নরম নয়।"
     },
     {
       "ko": "시계",
       "romanization": "sigye",
       "bn": "ঘড়ি",
-      "en": "clock/watch",
+      "en": "clock; watch",
       "pos": "noun",
       "example": {
-        "ko": "벽에 시계가 있습니다.",
-        "bn": "দেয়ালে ঘড়ি আছে।",
-        "en": "There is a clock on the wall."
+        "ko": "이건 시계예요.",
+        "bn": "এটা ঘড়ি।",
+        "en": "This is a watch."
       },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি '시' এর ক্ষেত্রে 'শি'-এর মতো উচ্চারিত হয়।"
-    },
+      "pronunciationTipBn": "'시계' [শিগ্যে]—'시' নরম 'শি', '계' মিলিয়ে 'গ্যে' বলুন।"
+    }
+    ,
     {
       "ko": "달력",
       "romanization": "dallyeok",
@@ -275,128 +161,11 @@
       "en": "calendar",
       "pos": "noun",
       "example": {
-        "ko": "책상 위에 달력이 있습니다.",
-        "bn": "টেবিলের উপর ক্যালেন্ডার আছে।",
-        "en": "There is a calendar on the desk."
+        "ko": "저건 달력이에요.",
+        "bn": "ওটা ক্যালেন্ডার।",
+        "en": "That is a calendar."
       },
-      "pronunciationTipBn": "'ㄹ' এর পর 'ㄹ' থাকলে 'ল্ল'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "창문",
-      "romanization": "changmun",
-      "bn": "জানালা",
-      "en": "window",
-      "pos": "noun",
-      "example": {
-        "ko": "창문을 엽니다.",
-        "bn": "জানালা খুলি।",
-        "en": "I open the window."
-      },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি 'ছ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "문",
-      "romanization": "mun",
-      "bn": "দরজা",
-      "en": "door",
-      "pos": "noun",
-      "example": {
-        "ko": "문을 닫습니다.",
-        "bn": "দরজা বন্ধ করি।",
-        "en": "I close the door."
-      },
-      "pronunciationTipBn": "'ㅁ' ধ্বনিটি 'ম'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "책상",
-      "romanization": "chaeksang",
-      "bn": "টেবিল",
-      "en": "desk",
-      "pos": "noun",
-      "example": {
-        "ko": "책상에 책이 있습니다.",
-        "bn": "টেবিলে বই আছে।",
-        "en": "There is a book on the desk."
-      },
-      "pronunciationTipBn": "'ㄱ' বাচিম হিসেবে থাকলে 'ক'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "의자",
-      "romanization": "uija",
-      "bn": "চেয়ার",
-      "en": "chair",
-      "pos": "noun",
-      "example": {
-        "ko": "의자에 앉습니다.",
-        "bn": "চেয়ারে বসি।",
-        "en": "I sit on the chair."
-      },
-      "pronunciationTipBn": "'의' ধ্বনিটি শব্দের শুরুতে 'উই'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "옷장",
-      "romanization": "otjang",
-      "bn": "আলমারি",
-      "en": "wardrobe",
-      "pos": "noun",
-      "example": {
-        "ko": "옷장에 옷이 많습니다.",
-        "bn": "আলমারিতে অনেক কাপড় আছে।",
-        "en": "There are many clothes in the wardrobe."
-      },
-      "pronunciationTipBn": "'ㅅ' বাচিম হিসেবে থাকলে 'ত'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "침대",
-      "romanization": "chimdae",
-      "bn": "বিছানা",
-      "en": "bed",
-      "pos": "noun",
-      "example": {
-        "ko": "침대에서 잡니다.",
-        "bn": "বিছানায় ঘুমাই।",
-        "en": "I sleep in the bed."
-      },
-      "pronunciationTipBn": "'ㅁ' বাচিম হিসেবে থাকলে 'ম'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "이불",
-      "romanization": "ibul",
-      "bn": "কম্বল",
-      "en": "blanket",
-      "pos": "noun",
-      "example": {
-        "ko": "이불을 덮습니다.",
-        "bn": "কম্বল গায়ে দিই।",
-        "en": "I cover myself with a blanket."
-      },
-      "pronunciationTipBn": "'ㄹ' বাচিম হিসেবে থাকলে 'ল'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "베개",
-      "romanization": "begae",
-      "bn": "বালিশ",
-      "en": "pillow",
-      "pos": "noun",
-      "example": {
-        "ko": "베개를 벱니다.",
-        "bn": "বালিশে মাথা রাখি।",
-        "en": "I rest my head on a pillow."
-      },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শুরুতে 'ফ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "휴지통",
-      "romanization": "hyujitong",
-      "bn": "ময়লার ঝুড়ি",
-      "en": "trash can",
-      "pos": "noun",
-      "example": {
-        "ko": "휴지통에 쓰레기를 버립니다.",
-        "bn": "ময়লার ঝুড়িতে ময়লা ফেলি।",
-        "en": "I throw trash in the trash can."
-      },
-      "pronunciationTipBn": "'ㅇ' বাচিম হিসেবে থাকলে 'ং'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'달력' [দাল্লিয়ক্]—ㄹ বত্ছিমের পরে ㄹ এলে জোড়া 'ল্ল' জোরে বলুন।"
     },
     {
       "ko": "컴퓨터",
@@ -405,216 +174,400 @@
       "en": "computer",
       "pos": "noun",
       "example": {
-        "ko": "컴퓨터로 일합니다.",
-        "bn": "কম্পিউটার দিয়ে কাজ করি।",
-        "en": "I work with a computer."
+        "ko": "이건 새 컴퓨터예요.",
+        "bn": "এটা নতুন কম্পিউটার।",
+        "en": "This is a new computer."
       },
-      "pronunciationTipBn": "ইংরেজি শব্দ থেকে এসেছে, তাই উচ্চারণ প্রায় একই রকম।"
+      "pronunciationTipBn": "বিদেশি শব্দ; '터' অক্ষরে ㅌ ঝোঁড়া—'থ' বাতাস দিয়ে বলুন।"
     },
     {
-      "ko": "텔레비전",
-      "romanization": "tellebijeon",
-      "bn": "টেলিভিশন",
-      "en": "television",
+      "ko": "안경",
+      "romanization": "angyeong",
+      "bn": "চশমা",
+      "en": "glasses",
       "pos": "noun",
       "example": {
-        "ko": "텔레비전을 봅니다.",
-        "bn": "টেলিভিশন দেখি।",
-        "en": "I watch television."
+        "ko": "그건 안경이 아니에요.",
+        "bn": "সেটা চশমা নয়।",
+        "en": "That is not a pair of glasses."
       },
-      "pronunciationTipBn": "ইংরেজি শব্দ থেকে এসেছে, তাই উচ্চারণ প্রায় একই রকম।"
+      "pronunciationTipBn": "'안경' [আনগিয়ং]—'ㄴ' নাকিধ্বনি রেখে 'গিয়ং' দ্রুত মিলিয়ে বলুন।"
     },
     {
-      "ko": "에어컨",
-      "romanization": "eeokeon",
-      "bn": "এয়ার কন্ডিশনার",
-      "en": "air conditioner",
+      "ko": "휴지",
+      "romanization": "hyuji",
+      "bn": "টিস্যু",
+      "en": "tissue",
       "pos": "noun",
       "example": {
-        "ko": "에어컨을 켭니다.",
-        "bn": "এয়ার কন্ডিশনার চালু করি।",
-        "en": "I turn on the air conditioner."
+        "ko": "이건 휴지예요.",
+        "bn": "এটা টিস্যু।",
+        "en": "This is a tissue."
       },
-      "pronunciationTipBn": "ইংরেজি শব্দ থেকে এসেছে, তাই উচ্চারণ প্রায় একই রকম।"
+      "pronunciationTipBn": "'휴' বলতে 'হ'+'উ'+'ই' একটানা মিলিয়ে 'হিউ'; '지' নরম 'জি'।"
+    },
+    {
+      "ko": "휴대폰",
+      "romanization": "hyudaepon",
+      "bn": "মোবাইল ফোন",
+      "en": "cell phone",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 제 휴대폰이에요.",
+        "bn": "এটা আমার মোবাইল ফোন।",
+        "en": "This is my cell phone."
+      },
+      "pronunciationTipBn": "'휴대' একটানা 'হিউদ্যে' বলুন; শেষে ㅍ ঝোঁড়া 'ফন'।"
+    },
+    {
+      "ko": "계산기",
+      "romanization": "gyesangi",
+      "bn": "ক্যালকুলেটর",
+      "en": "calculator",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 계산기예요.",
+        "bn": "এটা ক্যালকুলেটর।",
+        "en": "This is a calculator."
+      },
+      "pronunciationTipBn": "'계산기' [ক্যেশানগি]—'계' বলতে ঠোঁট গোল করে 'ক্যে' বলুন।"
+    },
+    {
+      "ko": "컵",
+      "romanization": "keop",
+      "bn": "কাপ",
+      "en": "cup",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 컵이에요?",
+        "bn": "এটা কি কাপ?",
+        "en": "Is this a cup?"
+      },
+      "pronunciationTipBn": "'컵' শেষে ㅂ বত্ছিমে ঠোঁট বন্ধ করে থামুন—'কপ্'; ফুঁ দেবেন না।"
+    },
+    {
+      "ko": "책상",
+      "romanization": "chaeksang",
+      "bn": "ডেস্ক/পড়ার টেবিল",
+      "en": "desk",
+      "pos": "noun",
+      "example": {
+        "ko": "그건 책상이에요.",
+        "bn": "সেটা ডেস্ক।",
+        "en": "That is a desk."
+      },
+      "pronunciationTipBn": "'책' [ছেক্]—ㅊ শক্ত 'ছ'; '상' শেষে 'ᆼ' নাকিধ্বনি রাখুন।"
+    },
+    {
+      "ko": "의자",
+      "romanization": "uija",
+      "bn": "চেয়ার",
+      "en": "chair",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 의자예요.",
+        "bn": "এটা চেয়ার।",
+        "en": "This is a chair."
+      },
+      "pronunciationTipBn": "'의' বলতে 'উ' থেকে 'ই'-তে গ্লাইড করুন—'উইজা'।"
+    },
+    {
+      "ko": "가방",
+      "romanization": "gabang",
+      "bn": "ব্যাগ",
+      "en": "bag",
+      "pos": "noun",
+      "example": {
+        "ko": "그건 제 가방이에요.",
+        "bn": "সেটা আমার ব্যাগ।",
+        "en": "That is my bag."
+      },
+      "pronunciationTipBn": "'가방' শেষে '방' নাকিধ্বনি 'ং' দিয়ে শেষ করুন—'কাবাং'।"
+    },
+    {
+      "ko": "지갑",
+      "romanization": "jigap",
+      "bn": "ওয়ালেট/মানিব্যাগ",
+      "en": "wallet",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 지갑이에요.",
+        "bn": "এটা ওয়ালেট।",
+        "en": "This is a wallet."
+      },
+      "pronunciationTipBn": "'지갑' [জিগাপ্]—শেষে ㅂ বত্ছিমে ঠোঁট বন্ধ করুন।"
+    },
+    {
+      "ko": "열쇠",
+      "romanization": "yeolsoe",
+      "bn": "চাবি",
+      "en": "key",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 제 열쇠예요.",
+        "bn": "এটা আমার চাবি।",
+        "en": "This is my key."
+      },
+      "pronunciationTipBn": "'열쇠' [য়লস্বে]—'ㅅ' এখানে 'স' শোনায়, 'ছ' নয়।"
+    }
+    ,
+    {
+      "ko": "우산",
+      "romanization": "usan",
+      "bn": "ছাতা",
+      "en": "umbrella",
+      "pos": "noun",
+      "example": {
+        "ko": "그건 우산이에요.",
+        "bn": "সেটা ছাতা।",
+        "en": "That is an umbrella."
+      },
+      "pronunciationTipBn": "'우' ঠোঁট গোল করে 'উ'; '산' স্পষ্ট 'সান' বলুন।"
+    },
+    {
+      "ko": "여권",
+      "romanization": "yeogwon",
+      "bn": "পাসপোর্ট",
+      "en": "passport",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 여권이에요.",
+        "bn": "এটা পাসপোর্ট।",
+        "en": "This is a passport."
+      },
+      "pronunciationTipBn": "'여권' [য়গ্বন]—মাঝের ㄱ এখানে নরম 'গ' শোনায়।"
+    },
+    {
+      "ko": "지폐",
+      "romanization": "jipye",
+      "bn": "কাগজের টাকা/নোট",
+      "en": "banknote",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 지폐예요.",
+        "bn": "এটা কাগজের টাকা।",
+        "en": "This is a banknote."
+      },
+      "pronunciationTipBn": "'폐'-তে ㅍ ঝোঁড়া—'ফ্যে' বাতাসসহ বলুন।"
+    },
+    {
+      "ko": "비누",
+      "romanization": "binu",
+      "bn": "সাবান",
+      "en": "soap",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 비누예요.",
+        "bn": "এটা সাবান।",
+        "en": "This is soap."
+      },
+      "pronunciationTipBn": "'비' দুই ঠোঁট দিয়ে নরম 'বি'; '누' স্পষ্ট 'নু' বলুন।"
+    },
+    {
+      "ko": "칫솔",
+      "romanization": "chitsol",
+      "bn": "টুথব্রাশ",
+      "en": "toothbrush",
+      "pos": "noun",
+      "example": {
+        "ko": "그건 제 칫솔이에요.",
+        "bn": "সেটা আমার টুথব্রাশ।",
+        "en": "That is my toothbrush."
+      },
+      "pronunciationTipBn": "'칫솔' [ছিত্সল]—ㅊ শক্ত 'ছ্' দিয়ে শুরু করুন।"
+    },
+    {
+      "ko": "치약",
+      "romanization": "chiyak",
+      "bn": "টুথপেস্ট",
+      "en": "toothpaste",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 치약이에요.",
+        "bn": "এটা টুথপেস্ট।",
+        "en": "This is toothpaste."
+      },
+      "pronunciationTipBn": "'약'-এ ㄱ বত্ছিম থামিয়ে বলুন—'ছিয়াক্'।"
+    },
+    {
+      "ko": "수건",
+      "romanization": "sugeon",
+      "bn": "তোয়ালে",
+      "en": "towel",
+      "pos": "noun",
+      "example": {
+        "ko": "그건 수건이에요.",
+        "bn": "সেটা তোয়ালে।",
+        "en": "That is a towel."
+      },
+      "pronunciationTipBn": "'수' ঠোঁট গোল করে 'সু'; '건' নরম 'গন' বলুন।"
+    },
+    {
+      "ko": "거울",
+      "romanization": "geoul",
+      "bn": "আয়না",
+      "en": "mirror",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 거울이에요?",
+        "bn": "এটা কি আয়না?",
+        "en": "Is this a mirror?"
+      },
+      "pronunciationTipBn": "'거울' [গউল]—দুই অক্ষর মিলিয়ে প্রায় এক শব্দে বলুন।"
+    },
+    {
+      "ko": "빗",
+      "romanization": "bit",
+      "bn": "চিরুনি",
+      "en": "comb",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 빗이에요.",
+        "bn": "এটা চিরুনি।",
+        "en": "This is a comb."
+      },
+      "pronunciationTipBn": "'빗' [বিত্]—ㅅ বত্ছিম থামা 'ত্' শব্দ; 'শ' বলবেন না।"
+    },
+    {
+      "ko": "이불",
+      "romanization": "ibul",
+      "bn": "লেপ/কম্বল",
+      "en": "blanket",
+      "pos": "noun",
+      "example": {
+        "ko": "그건 이불이에요.",
+        "bn": "সেটা লেপ।",
+        "en": "That is a blanket."
+      },
+      "pronunciationTipBn": "'이불' [ইবুল]—ㅂ এখানে নরম 'ব' শোনায়।"
+    },
+    {
+      "ko": "침대",
+      "romanization": "chimdae",
+      "bn": "বিছানা",
+      "en": "bed",
+      "pos": "noun",
+      "example": {
+        "ko": "저건 침대예요.",
+        "bn": "ওটা বিছানা।",
+        "en": "That is a bed."
+      },
+      "pronunciationTipBn": "'침'-এ ㅊ শক্ত 'ছিম'; '대' মিলিয়ে 'দ্যে' বলুন।"
+    },
+    {
+      "ko": "물건",
+      "romanization": "mulgeon",
+      "bn": "জিনিস/সামগ্রী",
+      "en": "thing; object",
+      "pos": "noun",
+      "example": {
+        "ko": "이건 제 물건이에요.",
+        "bn": "এটা আমার জিনিস।",
+        "en": "This is my thing."
+      },
+      "pronunciationTipBn": "'물건' [মুলগন]—'ㄹ' বত্ছিমে জিভ তালুতে রেখে বলুন।"
     }
   ],
   "grammar": [
     {
-      "pattern": "N + 이/가",
-      "titleBn": "সাবজেক্ট মার্কার (Subject Marker)",
-      "explanationBn": "বাক্যের কর্তাকে (subject) নির্দেশ করতে বিশেষ্যের (noun) সাথে '이' বা '가' যুক্ত হয়। বিশেষ্যটি ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '이' এবং স্বরবর্ণ দিয়ে শেষ হলে '가' বসে।",
-      "explanationEn": "Attached to a noun to indicate the subject of the sentence. '이' is used after a consonant, and '가' is used after a vowel.",
+      "pattern": "N + 이에요/예요",
+      "titleBn": "অনানুষ্ঠানিক কপুলা 'হয়/হই'",
+      "explanationBn": "বিশেষ্যের পরে বসে অনানুষ্ঠানিক কিন্তু বিনয়ী বাক্যে 'এটি ...হয়' বোঝায়। বিশেষ্যের শেষে ব্যঞ্জনবর্ণ (বত্ছিম) থাকলে '이에요', আর স্বরবর্ণ থাকলে '예요' বসে। প্রশ্ন করতে বাক্যের শেষে সুর তুলে বলতে হয়।",
+      "explanationEn": "Attaches to a noun to mean 'is/am/are' in informal-polite speech. Use 이에요 after a final consonant (batchim) and 예요 after a vowel. Raise intonation to ask a question.",
       "examples": [
-        {
-          "ko": "가방이 있습니다.",
-          "bn": "ব্যাগ আছে।",
-          "en": "There is a bag."
-        },
-        {
-          "ko": "열쇠가 없습니다.",
-          "bn": "চাবি নেই।",
-          "en": "There is no key."
-        }
+        { "ko": "이건 시계예요.", "bn": "এটা ঘড়ি।", "en": "This is a clock." },
+        { "ko": "그건 컵이에요.", "bn": "সেটা কাপ।", "en": "That is a cup." },
+        { "ko": "저는 방글라데시 사람이에요.", "bn": "আমি বাংলাদেশি।", "en": "I am Bangladeshi." }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণ ও স্বরবর্ণের পার্থক্য না বুঝে ভুল করে '이' বা '가' ব্যবহার করেন; ব্যঞ্জনবর্ণের পরে '이' এবং স্বরবর্ণের পরে '가' বসবে।"
+      "commonMistakeBn": "অনেকে বত্ছিম থাকলেও '예요' বসান—যেমন ভুল: '컵예요'। বত্ছিম থাকলে অবশ্যই '이에요' বসবে: 컵이에요।"
     },
     {
-      "pattern": "N + 에 있습니다/없습니다",
-      "titleBn": "অবস্থান নির্দেশক (Location/Existence)",
-      "explanationBn": "কোনো জিনিস বা ব্যক্তি কোথায় আছে বা নেই তা বোঝাতে স্থানের নামের সাথে '에' যুক্ত করে '있습니다' (আছে) বা '없습니다' (নেই) ব্যবহার করা হয়।",
-      "explanationEn": "Used to express the existence or location of an object or person. '에' is attached to a place noun, followed by '있습니다' (exists/is present) or '없습니다' (does not exist/is not present).",
+      "pattern": "N + 이/가 아니에요",
+      "titleBn": "নেতিবাচক কপুলা 'নয়'",
+      "explanationBn": "'N নয়' বোঝাতে বিশেষ্যের পরে 이/가 아니에요 বসে। বত্ছিম থাকলে '이', না থাকলে '가' বসে। এটি 이에요/예요-এর নেতিবাচক রূপ।",
+      "explanationEn": "The negative of 이에요/예요, meaning 'is not'. Attach 이 after a consonant-final noun and 가 after a vowel-final noun.",
       "examples": [
-        {
-          "ko": "지갑이 가방 안에 있습니다.",
-          "bn": "মানিব্যাগটি ব্যাগের ভিতরে আছে।",
-          "en": "The wallet is in the bag."
-        },
-        {
-          "ko": "방에 시계가 없습니다.",
-          "bn": "রুমে ঘড়ি নেই।",
-          "en": "There is no clock in the room."
-        }
+        { "ko": "이건 볼펜이 아니에요. 연필이에요.", "bn": "এটা বলপয়েন্ট কলম নয়। পেন্সিল।", "en": "This is not a ballpoint pen. It is a pencil." },
+        { "ko": "그건 달력이 아니에요.", "bn": "সেটা ক্যালেন্ডার নয়।", "en": "That is not a calendar." },
+        { "ko": "저는 한국 사람이 아니에요.", "bn": "আমি কোরীয় নই।", "en": "I am not Korean." }
       ],
-      "commonMistakeBn": "অনেকে স্থানের নামের সাথে '에' এর পরিবর্তে '에서' ব্যবহার করেন; কোনো জিনিস শুধু আছে বা নেই বোঝাতে '에' বসবে।"
+      "commonMistakeBn": "বত্ছিমবিহীন বিশেষ্যের পরে ভুল করে '이' বসানো হয়—যেমন ভুল: '시계이 아니에요'। স্বরবর্ণের পরে '가' বসবে: 시계가 아니에요।"
+    }
+    ,
+    {
+      "pattern": "이것/그것/저것 → 이건/그건/저건",
+      "titleBn": "নির্দেশক সর্বনাম ও সংক্ষিপ্ত রূপ",
+      "explanationBn": "이것 = এটা (বক্তার কাছের), 그것 = সেটা (শ্রোতার কাছের), 저것 = ওটা (দূরের)। 은/는 বা 이/가-এর সাথে বসলে কথ্যভাষায় 이건/그건/저건 সংক্ষিপ্ত রূপ বেশি ব্যবহৃত হয়; লেখায় মূল রূপও সঠিক।",
+      "explanationEn": "Demonstratives: 이것 (this near me), 그것 (that near you), 저것 (that over there). Before particles like 은/는, spoken Korean usually contracts them to 이건/그건/저건.",
+      "examples": [
+        { "ko": "이건 뭐예요?", "bn": "এটা কী?", "en": "What is this?" },
+        { "ko": "그건 책상이에요.", "bn": "সেটা ডেস্ক।", "en": "That is a desk." },
+        { "ko": "저건 의자예요.", "bn": "ওটা চেয়ার।", "en": "That over there is a chair." }
+      ],
+      "commonMistakeBn": "কথায় '이것은' পুরোটা আলাদা আলাদা বললে অস্বাভাবিক শোনায়; কথ্যভাষায় '이건' বলুন। তবে লিখিত পরীক্ষায় মূল রূপ '이것은'-ও সঠিক।"
+    },
+    {
+      "pattern": "뭐예요? (무엇 + 이에요)",
+      "titleBn": "'কী?' জিজ্ঞাসার সংক্ষিপ্ত প্রশ্ন",
+      "explanationBn": "'무엇이에요?' সংকুচিত হয়ে কথ্যভাষায় '뭐예요?' হয়—'কী?' জিজ্ঞাসা করতে ব্যবহৃত হয়। আনুষ্ঠানিক পরিস্থিতিতে '무엇입니까?' ব্যবহার করুন।",
+      "explanationEn": "뭐예요? is the contracted, everyday form of 무엇이에요? ('What is it?'). Use the formal 무엇입니까? in official situations.",
+      "examples": [
+        { "ko": "이건 뭐예요?", "bn": "এটা কী?", "en": "What is this?" },
+        { "ko": "저건 뭐예요?", "bn": "ওটা কী?", "en": "What is that over there?" },
+        { "ko": "그건 한국어로 뭐예요?", "bn": "সেটাকে কোরীয় ভাষায় কী বলে?", "en": "What is that called in Korean?" }
+      ],
+      "commonMistakeBn": "'무엇예요' বা '뭐입니까' মেশানো রূপ বলা ভুল—সংক্ষিপ্ত রূপ '뭐예요' আর আনুষ্ঠানিক রূপ '무엇입니까?' আলাদা করে মনে রাখুন।"
     },
     {
       "pattern": "N + 은/는",
-      "titleBn": "টপিক মার্কার (Topic Marker)",
-      "explanationBn": "বাক্যের মূল বিষয় (topic) নির্দেশ করতে বিশেষ্যের (noun) সাথে '은' বা '는' যুক্ত হয়। বিশেষ্যটি ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '은' এবং স্বরবর্ণ দিয়ে শেষ হলে '는' বসে।",
-      "explanationEn": "Attached to a noun to indicate the topic of the sentence. '은' is used after a consonant, and '는' is used after a vowel.",
+      "titleBn": "টপিক মার্কার (পুনরালোচনা ও প্রয়োগ)",
+      "explanationBn": "বাক্যের বিষয় চিহ্নিত করতে বিশেষ্যের পরে 은/는 বসে। বত্ছিম থাকলে '은', না থাকলে '는' বসে। 이것은 কথায় 이건 হয়ে যায়—যেমন: 이건 시계예요।",
+      "explanationEn": "The topic marker marks what the sentence is about: 은 after a consonant-final noun, 는 after a vowel-final noun. 이것은 contracts to 이건 in speech.",
       "examples": [
-        {
-          "ko": "저는 방글라데시 사람입니다.",
-          "bn": "আমি বাংলাদেশী।",
-          "en": "I am Bangladeshi."
-        },
-        {
-          "ko": "이것은 가방입니다.",
-          "bn": "এটি একটি ব্যাগ।",
-          "en": "This is a bag."
-        },
-        {
-          "ko": "리한 씨는 회사원입니다.",
-          "bn": "রিহান সাহেব একজন চাকরিজীবী।",
-          "en": "Mr. Rihan is an office worker."
-        }
+        { "ko": "이것은 제 가방이에요.", "bn": "এটা আমার ব্যাগ।", "en": "This is my bag." },
+        { "ko": "저는 방글라데시 사람이에요.", "bn": "আমি বাংলাদেশি।", "en": "I am Bangladeshi." },
+        { "ko": "침대는 기숙사에 있어요.", "bn": "বিছানাটি ডরমিটরিতে আছে।", "en": "The bed is in the dormitory." }
       ],
-      "commonMistakeBn": "অনেকে স্বরবর্ণের পরে ভুল করে '은' ব্যবহার করেন; স্বরবর্ণের পরে সবসময় '는' বসবে।"
-    },
-    {
-      "pattern": "N + 도",
-      "titleBn": "অন্তর্ভুক্তি নির্দেশক (Also/Too)",
-      "explanationBn": "কোনো কিছু 'ও' বা 'আরও' বোঝাতে বিশেষ্যের সাথে '도' যুক্ত হয়। এটি '은/는' বা '이/가' এর পরিবর্তে বসে।",
-      "explanationEn": "Attached to a noun to mean 'also' or 'too'. It replaces the topic or subject markers ('은/는' or '이/가').",
-      "examples": [
-        {
-          "ko": "저도 학생입니다.",
-          "bn": "আমিও ছাত্র।",
-          "en": "I am also a student."
-        },
-        {
-          "ko": "가방도 있습니다.",
-          "bn": "ব্যাগও আছে।",
-          "en": "There is a bag too."
-        },
-        {
-          "ko": "사과도 좋아합니다.",
-          "bn": "আপেলও পছন্দ করি।",
-          "en": "I like apples too."
-        }
-      ],
-      "commonMistakeBn": "অনেকে '도' এর সাথে '이/가' বা '은/는' একসাথে ব্যবহার করেন (যেমন: 저도는); '도' একাই বসবে।"
+      "commonMistakeBn": "স্বরবর্ণের পরে ভুল করে '은' বসলে উচ্চারণ কঠিন হয়—যেমন ভুল: '의자은'। স্বরবর্ণের পরে সবসময় '는' বসবে: 의자는।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "জিনিসপত্র খোঁজা",
-      "titleEn": "Looking for Things",
+      "titleBn": "ডরমিটরিতে জিনিস চেনা",
+      "titleEn": "Identifying Things in the Dormitory",
       "lines": [
-        {
-          "speaker": "투안",
-          "ko": "리한 씨, 열쇠가 어디에 있어요?",
-          "bn": "রিহান সাহেব, চাবি কোথায় আছে?",
-          "en": "Mr. Rihan, where is the key?"
-        },
-        {
-          "speaker": "리한",
-          "ko": "열쇠가 책상 위에 있어요.",
-          "bn": "চাবি টেবিলের উপর আছে।",
-          "en": "The key is on the desk."
-        },
-        {
-          "speaker": "투안",
-          "ko": "가방도 책상 위에 있어요?",
-          "bn": "ব্যাগও কি টেবিলের উপর আছে?",
-          "en": "Is the bag on the desk too?"
-        },
-        {
-          "speaker": "리한",
-          "ko": "아니요, 가방은 의자 아래에 있어요.",
-          "bn": "না, ব্যাগ চেয়ারের নিচে আছে।",
-          "en": "No, the bag is under the chair."
-        }
+        { "speaker": "A", "ko": "소연 씨, 이건 뭐예요?", "bn": "সোয়ন, এটা কী?", "en": "So-yeon, what is this?" },
+        { "speaker": "B", "ko": "그건 달력이에요.", "bn": "সেটা ক্যালেন্ডার।", "en": "That is a calendar." },
+        { "speaker": "A", "ko": "저건 뭐예요?", "bn": "ওটা কী?", "en": "What is that over there?" },
+        { "speaker": "B", "ko": "아, 저건 제 시계예요.", "bn": "ওহ, ওটা আমার ঘড়ি।", "en": "Oh, that is my watch." },
+        { "speaker": "A", "ko": "이건 안경이에요?", "bn": "এটা কি চশমা?", "en": "Is this a pair of glasses?" },
+        { "speaker": "B", "ko": "아니요, 안경이 아니에요. 그건 제 휴대폰이에요.", "bn": "না, চশমা নয়। সেটা আমার মোবাইল ফোন।", "en": "No, it is not glasses. That is my cell phone." }
       ]
     },
     {
-      "titleBn": "প্রয়োজনীয় জিনিস",
-      "titleEn": "Necessary Items",
+      "titleBn": "অফিসে জিনিস জিজ্ঞাসা করা",
+      "titleEn": "Asking About Things at the Office",
       "lines": [
-        {
-          "speaker": "수루",
-          "ko": "방에 수건이 있어요?",
-          "bn": "রুমে কি তোয়ালে আছে?",
-          "en": "Is there a towel in the room?"
-        },
-        {
-          "speaker": "바루",
-          "ko": "네, 수건이 있어요.",
-          "bn": "হ্যাঁ, তোয়ালে আছে।",
-          "en": "Yes, there is a towel."
-        },
-        {
-          "speaker": "수루",
-          "ko": "비누하고 샴푸도 있어요?",
-          "bn": "সাবান এবং শ্যাম্পুও কি আছে?",
-          "en": "Are there soap and shampoo too?"
-        },
-        {
-          "speaker": "바루",
-          "ko": "비누는 있는데 샴푸는 없어요.",
-          "bn": "সাবান আছে কিন্তু শ্যাম্পু নেই।",
-          "en": "There is soap, but no shampoo."
-        }
+        { "speaker": "A", "ko": "실례합니다. 이건 뭐예요?", "bn": "মাফ করবেন। এটা কী?", "en": "Excuse me. What is this?" },
+        { "speaker": "B", "ko": "계산기예요.", "bn": "ক্যালকুলেটর।", "en": "It is a calculator." },
+        { "speaker": "A", "ko": "그럼 저건 뭐예요?", "bn": "তাহলে ওটা কী?", "en": "Then what is that over there?" },
+        { "speaker": "B", "ko": "저건 컴퓨터예요.", "bn": "ওটা কম্পিউটার।", "en": "That is a computer." },
+        { "speaker": "A", "ko": "이건 가위예요?", "bn": "এটা কি কাঁচি?", "en": "Is this a pair of scissors?" },
+        { "speaker": "B", "ko": "네, 맞아요. 가위예요.", "bn": "হ্যাঁ, ঠিক ধরেছেন। কাঁচি।", "en": "Yes, that is right. It is scissors." }
       ]
     },
     {
-      "titleBn": "রুমের জিনিসপত্র",
-      "titleEn": "Things in the Room",
+      "titleBn": "মার্টে নিত্যজিনিস কেনা",
+      "titleEn": "Buying Daily Necessities at the Mart",
       "lines": [
-        {
-          "speaker": "지훈",
-          "ko": "방에 침대가 있어요?",
-          "bn": "রুমে কি বিছানা আছে?",
-          "en": "Is there a bed in the room?"
-        },
-        {
-          "speaker": "민수",
-          "ko": "네, 침대가 있어요.",
-          "bn": "হ্যাঁ, বিছানা আছে।",
-          "en": "Yes, there is a bed."
-        },
-        {
-          "speaker": "지훈",
-          "ko": "책상도 있어요?",
-          "bn": "টেবিলও কি আছে?",
-          "en": "Is there a desk too?"
-        },
-        {
-          "speaker": "민수",
-          "ko": "아니요, 책상은 없어요.",
-          "bn": "না, টেবিল নেই।",
-          "en": "No, there is no desk."
-        }
+        { "speaker": "A", "ko": "어서 오세요!", "bn": "স্বাগতম!", "en": "Welcome!" },
+        { "speaker": "B", "ko": "저기요. 이건 뭐예요?", "bn": "এক্সকিউজ মি। এটা কী?", "en": "Excuse me. What is this?" },
+        { "speaker": "A", "ko": "그건 수건이에요.", "bn": "সেটা তোয়ালে।", "en": "That is a towel." },
+        { "speaker": "B", "ko": "그럼 저건 비누예요?", "bn": "তাহলে ওটা কি সাবান?", "en": "Then is that soap over there?" },
+        { "speaker": "A", "ko": "아니요, 비누가 아니에요. 치약이에요.", "bn": "না, সাবান নয়। টুথপেস্ট।", "en": "No, it is not soap. It is toothpaste." },
+        { "speaker": "B", "ko": "아, 그래요? 이건 칫솔이에요?", "bn": "ওহ, তাই নাকি? এটা কি টুথব্রাশ?", "en": "Oh, really? Is this a toothbrush?" },
+        { "speaker": "A", "ko": "네, 칫솔이에요.", "bn": "হ্যাঁ, টুথব্রাশ।", "en": "Yes, it is a toothbrush." },
+        { "speaker": "B", "ko": "감사합니다!", "bn": "ধন্যবাদ!", "en": "Thank you!" }
       ]
     }
   ],
@@ -622,564 +575,361 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'চাবি' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '열쇠'의 뜻은 무엇입니까?",
-      "options": [
-        "우산",
-        "가방",
-        "열쇠",
-        "지갑"
-      ],
+      "questionBn": "'가위' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["ঘড়ি", "ছাতা", "কাঁচি", "চাবি"],
       "answer": 2,
-      "explanationBn": "'열쇠' মানে চাবি। 가방 মানে ব্যাগ, 지갑 মানে মানিব্যাগ, 우산 মানে ছাতা।"
+      "explanationBn": "'가위' অর্থ কাঁচি। 'ঘড়ি' কোরীয়তে '시계'।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'মানিব্যাগ' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '지갑'의 뜻은 무엇입니까?",
-      "options": [
-        "여권",
-        "수건",
-        "거울",
-        "지갑"
-      ],
-      "answer": 3,
-      "explanationBn": "'지갑' মানে মানিব্যাগ। 거울 মানে আয়না, 수건 মানে তোয়ালে, 여권 মানে পাসপোর্ট।"
+      "questionBn": "কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["이건 시계예요.", "이건 시계이에요.", "시계 이건 예요.", "이건 뭐 시계?"],
+      "answer": 0,
+      "explanationBn": "'시계' শব্দের শেষে স্বরবর্ণ আছে, তাই '예요' বসে: 이건 시계예요। বত্ছিম থাকলে '이에요' বসত।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'ছাতা' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '우산'의 뜻은 무엇입니까?",
-      "options": [
-        "우산",
-        "안경",
-        "휴지",
-        "비누"
-      ],
-      "answer": 0,
-      "explanationBn": "'우산' মানে ছাতা। 비누 মানে সাবান, 휴지 মানে টিস্যু, 안경 মানে চশমা।"
+      "questionBn": "'이건 뭐예요?' — এই প্রশ্নের সবচেয়ে উপযুক্ত উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": ["네, 시계예요.", "저는 학생이에요.", "안녕하세요?", "달력이에요."],
+      "answer": 3,
+      "explanationBn": "'뭐예요?' (কী?) প্রশ্নের উত্তরে জিনিসের নাম + 예요/이에요 বলতে হয়: 달력이에요।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'পাসপোর্ট' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '여권'의 뜻은 무엇입니까?",
-      "options": [
-        "가족사진",
-        "여권",
-        "빗",
-        "치약"
-      ],
+      "questionBn": "'열쇠' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["পাসপোর্ট", "চাবি", "ওয়ালেট", "ব্যাগ"],
       "answer": 1,
-      "explanationBn": "'여권' মানে পাসপোর্ট। 가족사진 মানে পারিবারিক ছবি, 빗 মানে চিরুনি, 치약 মানে টুথপেস্ট।"
+      "explanationBn": "'열쇠' অর্থ চাবি। 'পাসপোর্ট' কোরীয়তে '여권'।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 가방___ 있습니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "은",
-        "는",
-        "이",
-        "가"
-      ],
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক অংশটি বসান: 그건 안경[___] 아니에요।",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": ["은", "는", "이", "을"],
       "answer": 2,
-      "explanationBn": "'가방' শব্দটি ব্যঞ্জনবর্ণ (ㅇ) দিয়ে শেষ হয়েছে, তাই সাবজেক্ট মার্কার হিসেবে '이' বসবে।"
+      "explanationBn": "নেতিবাচক কপুলায় '이/가 아니에요' বসে। '안경' শব্দের শেষে ব্যঞ্জনবর্ণ (ㅇ) থাকায় '이' বসবে।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 열쇠___ 없습니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "이",
-        "은",
-        "를",
-        "가"
-      ],
-      "answer": 3,
-      "explanationBn": "'열쇠' শব্দটি স্বরবর্ণ দিয়ে শেষ হয়েছে, তাই সাবজেক্ট মার্কার হিসেবে '가' বসবে।"
+      "type": "multiple-choice",
+      "questionBn": "কথ্যভাষায় '이것은'-এর সংক্ষিপ্ত রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["이것가", "이건", "이가", "이것를"],
+      "answer": 1,
+      "explanationBn": "이것은 কথায় 이건 হয়। একইভাবে 그것은 → 그건, 저것은 → 저건।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 방___ 거울이 있습니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "에",
-        "이",
-        "에서",
-        "가"
-      ],
-      "answer": 0,
-      "explanationBn": "অবস্থান বোঝাতে স্থানের নামের (방) সাথে '에' যুক্ত হয়।"
+      "type": "multiple-choice",
+      "questionBn": "'비누' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["টুথপেস্ট", "তোয়ালে", "টিস্যু", "সাবান"],
+      "answer": 3,
+      "explanationBn": "'비누' অর্থ সাবান। 'টুথপেস্ট' কোরীয়তে '치약'।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 책상 위___ 지갑이 없습니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "이",
-        "에",
-        "를",
-        "가"
-      ],
-      "answer": 1,
-      "explanationBn": "অবস্থান বোঝাতে '위' (উপরে) এর সাথে '에' যুক্ত হয়।"
+      "type": "multiple-choice",
+      "questionBn": "দূরের কোনো জিনিস বোঝাতে কোন শব্দটি ব্যবহৃত হয়?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["저것", "이것", "그것", "뭐"],
+      "answer": 0,
+      "explanationBn": "저것 = ওটা (দূরের জিনিস)। 이것 = এটা (বক্তার কাছের), 그것 = সেটা (শ্রোতার কাছের)।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "비누",
-          "right": "সাবান"
-        },
-        {
-          "left": "수건",
-          "right": "তোয়ালে"
-        },
-        {
-          "left": "치약",
-          "right": "টুথপেস্ট"
-        },
-        {
-          "left": "칫솔",
-          "right": "টুথব্রাশ"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "multiple-choice",
+      "questionBn": "সংলাপ: 가: 이건 휴대폰이에요? — সঠিক উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": ["아니요, 책상이에요.", "휴대폰 뭐예요?", "네, 휴대폰이에요.", "저는 학생이에요."],
+      "answer": 2,
+      "explanationBn": "হ্যাঁ/না জাতীয় প্রশ্নের উত্তরে '네, ...이에요/예요' বা '아니요, ...이/가 아니에요' বলা হয়।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "휴지",
-          "right": "টিস্যু পেপার"
-        },
-        {
-          "left": "컵",
-          "right": "কাপ"
-        },
-        {
-          "left": "안경",
-          "right": "চশমা"
-        },
-        {
-          "left": "빗",
-          "right": "চিরুনি"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক অংশ বসান: 이건 컵[___]에요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["가", "이", "은", "는"],
+      "answer": 1,
+      "explanationBn": "'컵' শব্দের শেষে ব্যঞ্জনবর্ণ (ㅂ বত্ছিম) থাকায় '이에요' বসে: 이건 컵이에요।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'ঘড়ি' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '시계'의 뜻은 무엇입니까?",
-      "options": [
-        "시계",
-        "달력",
-        "창문",
-        "문"
-      ],
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক প্রান্তিক বসান: 이건 시계[___]।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["예요", "이에요", "입니다", "아니에요"],
       "answer": 0,
-      "explanationBn": "'시계' মানে ঘড়ি। 달력 মানে ক্যালেন্ডার, 창문 মানে জানালা, 문 মানে দরজা।"
+      "explanationBn": "'시계' শব্দের শেষে স্বরবর্ণ (ㅖ) থাকায় '예요' বসে: 이건 시계예요।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'বিছানা' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '침대'의 뜻은 무엇입니까?",
-      "options": [
-        "옷장",
-        "이불",
-        "침대",
-        "베개"
-      ],
-      "answer": 2,
-      "explanationBn": "'침대' মানে বিছানা। 옷장 মানে আলমারি, 이불 মানে কম্বল, 베개 মানে বালিশ।"
+      "type": "fill-blank",
+      "questionBn": "'এটা কী?' — আনুষ্ঠানিক রূপে প্রশ্নটি সম্পূর্ণ করুন: 이것은 무엇[___]?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["이에요", "예요", "아니에요", "입니까"],
+      "answer": 3,
+      "explanationBn": "আনুষ্ঠানিক প্রশ্নে '무엇입니까?' বলা হয়; কথ্যভাষায় '뭐예요?'।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'কম্পিউটার' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '컴퓨터'의 뜻은 무엇입니까?",
-      "options": [
-        "휴지통",
-        "컴퓨터",
-        "텔레비전",
-        "에어컨"
-      ],
-      "answer": 1,
-      "explanationBn": "'컴퓨터' মানে কম্পিউটার। 휴지통 মানে ময়লার ঝুড়ি, 텔레비전 মানে টেলিভিশন, 에어컨 মানে এয়ার কন্ডিশনার।"
+      "type": "fill-blank",
+      "questionBn": "'ছাতা' বোঝাতে শূন্যস্থানে সঠিক শব্দ বসান: 이건 ___이에요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["연필", "가방", "우산", "달력"],
+      "answer": 2,
+      "explanationBn": "'우산' অর্থ ছাতা। '우산' শব্দের শেষে ব্যঞ্জনবর্ণ (ㄴ) থাকায় '이에요' বসেছে।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'চেয়ার' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '의자'의 뜻은 무엇입니까?",
-      "options": [
-        "책상",
-        "문",
-        "창문",
-        "의자"
-      ],
-      "answer": 3,
-      "explanationBn": "'의자' মানে চেয়ার। 책상 মানে টেবিল, 문 মানে দরজা, 창문 মানে জানালা।"
+      "type": "fill-blank",
+      "questionBn": "নেতিবাচক বাক্যটি সম্পূর্ণ করুন: 이건 안경이 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["아니에요", "예요", "이에요", "뭐예요"],
+      "answer": 0,
+      "explanationBn": "'নয়' বোঝাতে '이/가 아니에요' ব্যবহৃত হয়: 안경이 아니에요।"
     },
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 저___ 학생입니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "은",
-        "는",
-        "이",
-        "가"
-      ],
-      "answer": 1,
-      "explanationBn": "'저' শব্দটি স্বরবর্ণ দিয়ে শেষ হয়েছে, তাই টপিক মার্কার হিসেবে '는' বসবে।"
+      "questionBn": "'কী?' জিজ্ঞাসা করতে সঠিক শব্দ বসান: 저건 ___예요?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["누구", "어디", "왜", "뭐"],
+      "answer": 3,
+      "explanationBn": "জিনিস সম্পর্কে 'কী?' জিজ্ঞাসা করতে '뭐예요?' বলা হয়। '누구' = কে, '어디' = কোথায়।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 책상___ 있습니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "도",
-        "에",
-        "에서",
-        "를"
-      ],
-      "answer": 0,
-      "explanationBn": "'책상도 있습니다' মানে 'টেবিলও আছে'। এখানে '도' (ও) বসবে।"
+      "questionBn": "দূরের জিনিস বোঝাতে সঠিক নির্দেশক শব্দ বসান: ___은 침대예요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["이것", "그것", "저것", "무엇"],
+      "answer": 2,
+      "explanationBn": "দূরের জিনিসের জন্য '저것' ব্যবহৃত হয়; 은 বসলে কথায় '저건' হয়।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 방에 침대___ 없습니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "은",
-        "는",
-        "가",
-        "를"
+      "type": "matching",
+      "questionBn": "কোরীয় শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "연필", "right": "পেন্সিল" },
+        { "left": "가위", "right": "কাঁচি" },
+        { "left": "시계", "right": "ঘড়ি" },
+        { "left": "컵", "right": "কাপ" },
+        { "left": "안경", "right": "চশমা" }
       ],
-      "answer": 2,
-      "explanationBn": "'침대' শব্দটি স্বরবর্ণ দিয়ে শেষ হয়েছে, তাই সাবজেক্ট মার্কার হিসেবে '가' বসবে।"
+      "explanationBn": "এই শব্দগুলো অফিস ও দৈনন্দিন জিনিসের মৌলিক শব্দভাণ্ডার।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 이것___ 시계입니다.",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "은",
-        "는",
-        "이",
-        "가"
+      "type": "matching",
+      "questionBn": "স্নানঘরের জিনিসগুলোর কোরীয় নামের সাথে বাংলা মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "수건", "right": "তোয়ালে" },
+        { "left": "칫솔", "right": "টুথব্রাশ" },
+        { "left": "비누", "right": "সাবান" },
+        { "left": "휴지", "right": "টিস্যু" }
       ],
-      "answer": 0,
-      "explanationBn": "'이것' শব্দটি ব্যঞ্জনবর্ণ দিয়ে শেষ হয়েছে, তাই টপিক মার্কার হিসেবে '은' বসবে।"
+      "explanationBn": "수건, 칫솔, 비누, 휴지—সবগুলোই দৈনন্দিন ব্যবহৃত জিনিস (생활용품)।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "시계",
-          "right": "ঘড়ি"
-        },
-        {
-          "left": "달력",
-          "right": "ক্যালেন্ডার"
-        },
-        {
-          "left": "창문",
-          "right": "জানালা"
-        },
-        {
-          "left": "문",
-          "right": "দরজা"
-        }
-      ],
+      "questionBn": "নির্দেশক শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        { "left": "이것", "right": "এটা (বক্তার কাছের)" },
+        { "left": "그것", "right": "সেটা (শ্রোতার কাছের)" },
+        { "left": "저것", "right": "ওটা (দূরের)" },
+        { "left": "무엇", "right": "কী" }
+      ],
+      "explanationBn": "দূরত্ব অনুযায়ী নির্দেশক বদলায়: 이것 (কাছে), 그것 (শ্রোতার কাছে), 저것 (দূরে)।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "책상",
-          "right": "টেবিল"
-        },
-        {
-          "left": "의자",
-          "right": "চেয়ার"
-        },
-        {
-          "left": "옷장",
-          "right": "আলমারি"
-        },
-        {
-          "left": "침대",
-          "right": "বিছানা"
-        }
-      ],
+      "questionBn": "প্রশ্নের সাথে সঠিক উত্তর মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        { "left": "이건 뭐예요?", "right": "계산기예요." },
+        { "left": "이건 볼펜이에요?", "right": "네, 볼펜이에요." },
+        { "left": "그건 침대예요?", "right": "아니요, 침대가 아니에요." },
+        { "left": "저건 뭐예요?", "right": "저건 우산이에요." }
+      ],
+      "explanationBn": "'뭐예요?' প্রশ্নের উত্তরে জিনিসের নাম বলা হয়; হ্যাঁ/না প্রশ্নের উত্তরে 네 বা 아니요 দিয়ে শুরু হয়।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন। (ধরে নিন একটি চাবির ছবি দেওয়া আছে)",
-      "questionKo": "다음을 보고 알맞은 단어를 고르십시오.",
-      "options": [
-        "우산",
-        "가방",
-        "지갑",
-        "열쇠"
-      ],
-      "answer": 3,
-      "explanationBn": "ছবিটি একটি চাবির, যার কোরিয়ান হলো '열쇠'।"
+      "questionBn": "বাক্যটি পড়ে এটির সাথে সম্পর্কিত জিনিসটি বাছাই করুন।",
+      "questionKo": "다음 내용과 관계있는 것을 고르십시오.",
+      "passage": "우산입니다.",
+      "options": ["비가 올 때 쓰는 물건", "이를 닦을 때 쓰는 물건", "머리를 빗을 때 쓰는 물건", "손을 씻을 때 쓰는 물건"],
+      "answer": 0,
+      "explanationBn": "'우산' (ছাতা) বৃষ্টির সময় ব্যবহৃত হয়। দাঁত মাজতে '칫솔', চুল আঁচড়াতে '빗' ব্যবহৃত হয়।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন। (ধরে নিন একটি পাসপোর্টের ছবি দেওয়া আছে)",
-      "questionKo": "다음을 보고 알맞은 단어를 고르십시오.",
-      "options": [
-        "비누",
-        "수건",
-        "여권",
-        "휴지"
-      ],
-      "answer": 2,
-      "explanationBn": "ছবিটি একটি পাসপোর্টের, যার কোরিয়ান হলো '여권'।"
+      "questionBn": "শব্দটি পড়ে এটির সাথে সম্পর্কিত বিষয় বাছাই করুন।",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "가방",
+      "options": ["나라", "물건", "장소", "음식"],
+      "answer": 1,
+      "explanationBn": "'가방' (ব্যাগ) একটি জিনিস (물건)—এটি দেশ, স্থান বা খাবার নয়।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 비가 옵니다. 뭐가 필요합니까?\n나: ( )이/가 필요합니다.",
-      "options": [
-        "지갑",
-        "우산",
-        "안경",
-        "거울"
-      ],
+      "questionBn": "কোন বাক্যটির ব্যাকরণ সঠিক তা বাছাই করুন।",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["볼펜이 예요.", "가방이 아니에요.", "의자는 아니에요.", "계산기를 이에요."],
       "answer": 1,
-      "explanationBn": "বৃষ্টি আসলে ছাতা (우산) প্রয়োজন হয়।"
+      "explanationBn": "'가방이 아니에요' সঠিক—বত্ছিমযুক্ত বিশেষ্যের পরে '이 아니에요' বসে। '의자' স্বরবর্ণে শেষ, তাই '의자가 아니에요' হতো।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 머리를 감고 싶습니다. 뭐가 있습니까?\n나: ( )이/가 있습니다.",
-      "options": [
-        "샴푸",
-        "칫솔",
-        "휴지",
-        "치약"
-      ],
-      "answer": 0,
-      "explanationBn": "চুল ধোয়ার জন্য শ্যাম্পু (샴푸) প্রয়োজন।"
+      "questionBn": "নোটিসটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "대형 마트에서 금요일부터 일요일까지 생활용품 할인 행사를 합니다. 수건, 비누, 치약을 싸게 살 수 있습니다.",
+      "options": ["할인 행사는 월요일에 시작합니다.", "식료품만 싸게 살 수 있습니다.", "주말에 생활용품을 싸게 살 수 있습니다.", "이 마트에서는 물건을 살 수 없습니다."],
+      "answer": 2,
+      "explanationBn": "নোটিসে বলা হয়েছে শুক্রবার থেকে রবিবার (주말সহ) তোয়ালে, সাবান, টুথপেস্টসহ 생활용품 সস্তায় কেনা যাবে।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 이 가방은 누구의 가방입니까?\n나: 제 ( )입니다.",
-      "options": [
-        "우산",
-        "안경",
-        "열쇠",
-        "가방"
-      ],
+      "questionBn": "শব্দটি পড়ে এটির সাথে সম্পর্কিত বিষয় বাছাই করুন।",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "칫솔",
+      "options": ["음식", "직업", "교통", "생활용품"],
       "answer": 3,
-      "explanationBn": "প্রশ্ন করা হয়েছে 'এই ব্যাগটি কার?', তাই উত্তরে 'আমার ব্যাগ (가방)' হবে।"
+      "explanationBn": "'칫솔' (টুথব্রাশ) একটি দৈনন্দিন প্রয়োজনীয় জিনিস (생활용품)।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "여권",
-      "options": [
-        "안경",
-        "지갑",
-        "여권",
-        "수건"
-      ],
-      "answer": 2,
-      "explanationBn": "অডিওতে '여권' (পাসপোর্ট) বলা হয়েছে।"
+      "section": "reading",
+      "questionBn": "বর্ণনা পড়ে সঠিক জিনিসটি বাছাই করুন।",
+      "questionKo": "다음 설명에 알맞은 물건을 고르십시오.",
+      "passage": "머리를 빗을 때 사용합니다.",
+      "options": ["빗", "거울", "수건", "비누"],
+      "answer": 0,
+      "explanationBn": "চুল আঁচড়ানোর (머리를 빗을 때) জিনিস হলো '빗' (চিরুনি)।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "비누가 있습니다.",
-      "options": [
-        "비누가 없습니다.",
-        "비누가 있습니다.",
-        "수건이 없습니다.",
-        "수건이 있습니다."
-      ],
+      "section": "reading",
+      "questionBn": "ডরমিটরির নোটিসটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 안남문을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "기숙사 안내: 휴지하고 비누는 1층 사무실에서 받으세요.",
+      "options": ["사무실은 2층에 있습니다.", "휴지하고 비누는 사무실에서 받습니다.", "기숙사에서 비누를 팝니다.", "안남문은 식당에 있습니다."],
       "answer": 1,
-      "explanationBn": "অডিওতে '비누가 있습니다.' (সাবান আছে) বলা হয়েছে।"
+      "explanationBn": "নোটিসে বলা হয়েছে টিস্যু ও সাবান ১ তলার অফিস (1층 사무실) থেকে নিতে হবে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "প্রশ্ন শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "가방이 어디에 있습니까?",
-      "options": [
-        "방에 있습니다.",
-        "아니요, 가방이 없습니다.",
-        "네, 가방입니다.",
-        "제 가방입니다."
-      ],
-      "answer": 0,
-      "explanationBn": "প্রশ্ন করা হয়েছে 'ব্যাগ কোথায় আছে?', তাই সঠিক উত্তর হবে '방에 있습니다.' (রুমে আছে)।"
-    },
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে (㉠) সঠিক শব্দটি বসান।",
+      "questionKo": "㉠에 들어갈 알맞은 것을 고르십시오.",
+      "passage": "이것은 ㉠입니다. 시간을 알 수 있습니다.",
+      "options": ["달력", "지갑", "여권", "시계"],
+      "answer": 3,
+      "explanationBn": "সময় (시간) জানার জিনিস হলো '시계' (ঘড়ি)। '달력' দিয়ে তারিখ জানা যায়।"
+    }
+    ,
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন। (ধরে নিন একটি ঘড়ির ছবি দেওয়া আছে)",
-      "questionKo": "다음을 보고 알맞은 단어를 고르십시오.",
-      "options": [
-        "달력",
-        "시계",
-        "거울",
-        "안경"
-      ],
-      "answer": 1,
-      "explanationBn": "ছবিটি একটি ঘড়ির, যার কোরিয়ান হলো '시계'।"
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "당근과 같은 중고 거래 플랫폼에서 사용하지 않는 물건을 싸게 살 수 있습니다. 같은 지역 사람과 직접 만나서 거래합니다.",
+      "options": ["중고 물건은 아주 비쌉니다.", "택배로만 물건을 받습니다.", "같은 지역 사람과 직접 거래합니다.", "새 물건은 절대 살 수 없습니다."],
+      "answer": 2,
+      "explanationBn": "লেখায় বলা হয়েছে একই এলাকার (같은 지역) মানুষের সাথে সরাসরি দেখা করে (직접 만나서) লেনদেন হয়।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন। (ধরে নিন একটি বিছানার ছবি দেওয়া আছে)",
-      "questionKo": "다음을 보고 알맞은 단어를 고르십시오.",
-      "options": [
-        "책상",
-        "의자",
-        "옷장",
-        "침대"
-      ],
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "제 방에는 침대하고 책상이 있습니다. 책상 위에 컴퓨터가 있습니다.",
+      "options": ["방에 침대가 없습니다.", "컴퓨터는 침대 위에 있습니다.", "책상 위에 달력이 있습니다.", "방에 책상이 있습니다."],
       "answer": 3,
-      "explanationBn": "ছবিটি একটি বিছানার, যার কোরিয়ান হলো '침대'।"
+      "explanationBn": "লেখায় আছে: ঘরে বিছানা ও ডেস্ক আছে, ডেস্কের ওপর কম্পিউটার আছে। তাই '방에 책상이 있습니다' সঠিক।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 방에 ( )이/가 있습니까?\n나: 네, 침대가 있습니다.",
-      "options": [
-        "침대",
-        "책상",
-        "의자",
-        "옷장"
-      ],
-      "answer": 0,
-      "explanationBn": "উত্তরে বলা হয়েছে 'বিছানা আছে', তাই প্রশ্ন করা হয়েছিল 'রুমে কি বিছানা (침대) আছে?'।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: দুজনে কোন জিনিস নিয়ে কথা বলছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 이건 뭐예요?\n여자: 달력이에요.",
+      "options": ["시계", "달력", "가방", "우산"],
+      "answer": 1,
+      "explanationBn": "মহিলা (여자) উত্তরে বলেছেন '달력이에요'—অর্থাৎ কথা হচ্ছে ক্যালেন্ডার নিয়ে।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 오늘이 며칠입니까?\n나: ( )을/를 보세요.",
-      "options": [
-        "시계",
-        "거울",
-        "달력",
-        "창문"
-      ],
-      "answer": 2,
-      "explanationBn": "তারিখ দেখার জন্য ক্যালেন্ডার (달력) দেখতে হয়।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: জিনিসটি আসলে কী?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 이건 휴대폰이에요?\n남자: 아니요, 휴대폰이 아니에요. 계산기예요.",
+      "options": ["휴대폰이에요.", "휴대폰이 없어요.", "계산기가 아니에요.", "계산기예요."],
+      "answer": 3,
+      "explanationBn": "পুরুষ (남자) বলেছেন এটি মোবাইল ফোন নয়, এটি ক্যালকুলেটর (계산기예요)।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 더워요. ( )을/를 켜 주세요.\n나: 네, 알겠습니다.",
-      "options": [
-        "텔레비전",
-        "에어컨",
-        "컴퓨터",
-        "휴지통"
-      ],
-      "answer": 1,
-      "explanationBn": "গরম লাগলে এয়ার কন্ডিশনার (에어컨) চালু করতে হয়।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: ব্যাগের ভেতরে কোনটি নেই?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 가방에 뭐가 있어요?\n여자: 열쇠하고 지갑이 있어요. 그리고 여권도 있어요.",
+      "options": ["열쇠", "지갑", "우산", "여권"],
+      "answer": 2,
+      "explanationBn": "ব্যাগে চাবি (열쇠), ওয়ালেট (지갑) ও পাসপোর্ট (여권) আছে—ছাতার (우산) কথা বলা হয়নি।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "창문",
-      "options": [
-        "문",
-        "창문",
-        "책상",
-        "의자"
-      ],
-      "answer": 1,
-      "explanationBn": "অডিওতে '창문' (জানালা) বলা হয়েছে।"
+      "questionBn": "শুনে বাছাই করুন: দুজনে কী বিষয়ে কথা বলছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 저건 한국어로 뭐예요?\n남자: 저건 한국어로 '빗'이에요.",
+      "options": ["물건의 이름", "음식의 맛", "회사의 위치", "가족의 나이"],
+      "answer": 0,
+      "explanationBn": "দুজনে একটি জিনিস কোরীয় ভাষায় কী বলে (물건의 이름) সে নিয়ে কথা বলছে।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "옷장이 없습니다.",
-      "options": [
-        "옷장이 있습니다.",
-        "옷장이 없습니다.",
-        "침대가 있습니다.",
-        "침대가 없습니다."
-      ],
-      "answer": 1,
-      "explanationBn": "অডিওতে '옷장이 없습니다.' (আলমারি নেই) বলা হয়েছে।"
+      "questionBn": "শুনে বাছাই করুন: মহিলার উত্তর কোনটি?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 이건 안경이에요?\n여자: 네, 안경이에요.",
+      "options": ["네, 안경이에요.", "아니요, 안경이 아니에요.", "안경이 없어요.", "저건 안경이에요?"],
+      "answer": 0,
+      "explanationBn": "মহিলা স্বীকারোক্তি দিয়েছেন: '네, 안경이에요' (হ্যাঁ, চশমা)।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "প্রশ্ন শুনে সঠিক উত্তরটি বাছাই করুন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "방에 텔레비전이 있습니까?",
-      "options": [
-        "네, 텔레비전이 없습니다.",
-        "아니요, 텔레비전이 있습니다.",
-        "네, 텔레비전이 있습니다.",
-        "아니요, 텔레비전입니다."
-      ],
+      "questionBn": "শুনে বাছাই করুন: ডরমিটরিতে কোন জিনিসটি আছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 기숙사에 침대가 있어요?\n남자: 네, 침대하고 책상도 있어요.",
+      "options": ["컴퓨터", "달력", "책상", "시계"],
       "answer": 2,
-      "explanationBn": "প্রশ্ন করা হয়েছে 'রুমে কি টেলিভিশন আছে?', তাই সঠিক উত্তর হবে '네, 텔레비전이 있습니다.' (হ্যাঁ, টেলিভিশন আছে)।"
+      "explanationBn": "পুরুষ বলেছেন ডরমিটরিতে বিছানা (침대) এবং ডেস্ক (책상) আছে।"
     }
   ]
 }
