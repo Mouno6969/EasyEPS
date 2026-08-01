@@ -10,639 +10,560 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "রেস্তোরাঁয় খাবার অর্ডার করতে শেখা",
-      "খাবারের স্বাদ বর্ণনা করতে পারা",
-      "মেনু পড়ে বুঝতে পারা"
+      "খাবার অর্ডার করতে পারা",
+      "জিনিসের সংখ্যা বলতে পারা",
+      "দুই বা ততোধিক জিনিস একসাথে বলতে পারা",
+      "কোরীয় খাবারের রীতি (밥, 국, 반찬) সম্পর্কে জানা"
     ],
     "en": [
-      "Learn to order food at a restaurant",
-      "Be able to describe the taste of food",
-      "Understand how to read a menu"
+      "Being able to order food",
+      "Being able to say how many items there are",
+      "Being able to list two or more items",
+      "Knowing about Korean meal customs (rice, soup, side dishes)"
     ]
   },
   "vocabulary": [
     {
-      "ko": "식당",
-      "romanization": "sikdang",
-      "bn": "রেস্তোরাঁ",
-      "en": "restaurant",
-      "pos": "noun",
-      "example": {
-        "ko": "식당에 사람이 많아요.",
-        "bn": "রেস্তোরাঁয় অনেক মানুষ আছে।",
-        "en": "There are many people in the restaurant."
-      },
-      "pronunciationTipBn": "'ㄱ' এর পর 'ㄷ' আসলে 'ㄸ' এর মতো উচ্চারিত হয় (শিক-ত্তাং)।"
-    },
-    {
-      "ko": "메뉴",
-      "romanization": "menyu",
-      "bn": "মেনু",
-      "en": "menu",
-      "pos": "noun",
-      "example": {
-        "ko": "메뉴를 보여 주세요.",
-        "bn": "দয়া করে মেনুটি দেখান।",
-        "en": "Please show me the menu."
-      },
-      "pronunciationTipBn": "সাধারণভাবে 'মেন্যু' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "밥",
-      "romanization": "bap",
-      "bn": "ভাত",
-      "en": "rice/meal",
-      "pos": "noun",
-      "example": {
-        "ko": "밥을 먹어요.",
-        "bn": "ভাত খাই।",
-        "en": "I eat rice."
-      },
-      "pronunciationTipBn": "শেষের 'ㅂ' উচ্চারণ করার সময় ঠোঁট বন্ধ করে দিন (বাপ)।"
-    },
-    {
-      "ko": "반찬",
-      "romanization": "banchan",
-      "bn": "তরকারি / সাইড ডিশ",
-      "en": "side dish",
-      "pos": "noun",
-      "example": {
-        "ko": "반찬을 더 주세요.",
-        "bn": "দয়া করে আরও তরকারি দিন।",
-        "en": "Please give me more side dishes."
-      },
-      "pronunciationTipBn": "সাধারণভাবে 'বানচান' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "물",
-      "romanization": "mul",
-      "bn": "পানি",
-      "en": "water",
-      "pos": "noun",
-      "example": {
-        "ko": "물을 마셔요.",
-        "bn": "পানি পান করি।",
-        "en": "I drink water."
-      },
-      "pronunciationTipBn": "শেষের 'ㄹ' উচ্চারণ করার সময় জিভ তালুতে স্পর্শ করান (মুল)।"
-    },
-    {
-      "ko": "숟가락",
-      "romanization": "sutgarak",
-      "bn": "চামচ",
-      "en": "spoon",
-      "pos": "noun",
-      "example": {
-        "ko": "숟가락으로 밥을 먹어요.",
-        "bn": "চামচ দিয়ে ভাত খাই।",
-        "en": "I eat rice with a spoon."
-      },
-      "pronunciationTipBn": "'ㄷ' এর পর 'ㄱ' আসলে 'ㄲ' এর মতো উচ্চারিত হয় (সুত-ক্কারাক)।"
-    },
-    {
-      "ko": "젓가락",
-      "romanization": "jeotgarak",
-      "bn": "চপস্টিক",
-      "en": "chopsticks",
-      "pos": "noun",
-      "example": {
-        "ko": "젓가락을 사용해요.",
-        "bn": "চপস্টিক ব্যবহার করি।",
-        "en": "I use chopsticks."
-      },
-      "pronunciationTipBn": "'ㅅ' এর পর 'ㄱ' আসলে 'ㄲ' এর মতো উচ্চারিত হয় (জত-ক্কারাক)।"
-    },
-    {
-      "ko": "주문하다",
-      "romanization": "jumunhada",
-      "bn": "অর্ডার করা",
-      "en": "to order",
-      "pos": "verb",
-      "example": {
-        "ko": "음식을 주문해요.",
-        "bn": "খাবার অর্ডার করি।",
-        "en": "I order food."
-      },
-      "pronunciationTipBn": "সাধারণভাবে 'জুমুনহাদা' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "맛있다",
-      "romanization": "masitda",
-      "bn": "মজাদার",
-      "en": "to be delicious",
-      "pos": "adjective",
-      "example": {
-        "ko": "불고기가 맛있어요.",
-        "bn": "বুলগোগি মজাদার।",
-        "en": "Bulgogi is delicious."
-      },
-      "pronunciationTipBn": "'ㅅ' এর পর 'ㅇ' আসলে 'ㅅ' এর উচ্চারণ 'স' হয় (মাশিত্তা)।"
-    },
-    {
-      "ko": "맛없다",
-      "romanization": "madeopda",
-      "bn": "বিস্বাদ / মজা নয়",
-      "en": "to be not delicious",
-      "pos": "adjective",
-      "example": {
-        "ko": "이 음식은 맛없어요.",
-        "bn": "এই খাবারটি মজা নয়।",
-        "en": "This food is not delicious."
-      },
-      "pronunciationTipBn": "'ㅅ' এর পর 'ㅇ' আসলে 'ㅅ' এর উচ্চারণ 'স' হয় (মাদপতা)।"
-    },
-    {
-      "ko": "맵다",
-      "romanization": "maepda",
-      "bn": "ঝাল",
-      "en": "to be spicy",
-      "pos": "adjective",
-      "example": {
-        "ko": "김치가 매워요.",
-        "bn": "কিমচি ঝাল।",
-        "en": "Kimchi is spicy."
-      },
-      "pronunciationTipBn": "শেষের 'ㅂ' উচ্চারণ করার সময় ঠোঁট বন্ধ করে দিন (ম্যাপতা)।"
-    },
-    {
-      "ko": "짜다",
-      "romanization": "jjada",
-      "bn": "লোনা / নোনতা",
-      "en": "to be salty",
-      "pos": "adjective",
-      "example": {
-        "ko": "국이 짜요.",
-        "bn": "সুপটি নোনতা।",
-        "en": "The soup is salty."
-      },
-      "pronunciationTipBn": "'ㅉ' উচ্চারণ করার সময় একটু জোর দিয়ে 'চ্চা' বলুন।"
-    },
-    {
-      "ko": "달다",
-      "romanization": "dalda",
-      "bn": "মিষ্টি",
-      "en": "to be sweet",
-      "pos": "adjective",
-      "example": {
-        "ko": "사과가 달아요.",
-        "bn": "আপেল মিষ্টি।",
-        "en": "The apple is sweet."
-      },
-      "pronunciationTipBn": "শেষের 'ㄹ' উচ্চারণ করার সময় জিভ তালুতে স্পর্শ করান (দালদা)।"
-    },
-    {
-      "ko": "쓰다",
-      "romanization": "sseuda",
-      "bn": "তেতো",
-      "en": "to be bitter",
-      "pos": "adjective",
-      "example": {
-        "ko": "약이 써요.",
-        "bn": "ওষুধ তেতো।",
-        "en": "The medicine is bitter."
-      },
-      "pronunciationTipBn": "'ㅆ' উচ্চারণ করার সময় একটু জোর দিয়ে 'স্স' বলুন।"
-    },
-    {
-      "ko": "시다",
-      "romanization": "sida",
-      "bn": "টক",
-      "en": "to be sour",
-      "pos": "adjective",
-      "example": {
-        "ko": "레몬이 셔요.",
-        "bn": "লেবু টক।",
-        "en": "The lemon is sour."
-      },
-      "pronunciationTipBn": "সাধারণভাবে 'শিদা' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "싱겁다",
-      "romanization": "singgeopda",
-      "bn": "স্বাদহীন / পানসে",
-      "en": "to be bland",
-      "pos": "adjective",
-      "example": {
-        "ko": "음식이 싱거워요.",
-        "bn": "খাবারটি পানসে।",
-        "en": "The food is bland."
-      },
-      "pronunciationTipBn": "সাধারণভাবে 'শিংগপতা' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "종업원",
-      "romanization": "jongeobwon",
-      "bn": "ওয়েটার / কর্মী",
-      "en": "waiter/employee",
-      "pos": "noun",
-      "example": {
-        "ko": "종업원을 불러요.",
-        "bn": "ওয়েটারকে ডাকি।",
-        "en": "I call the waiter."
-      },
-      "pronunciationTipBn": "সাধারণভাবে 'জোংঅবওন' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "손님",
-      "romanization": "sonnim",
-      "bn": "গ্রাহক / অতিথি",
-      "en": "customer/guest",
-      "pos": "noun",
-      "example": {
-        "ko": "손님이 많아요.",
-        "bn": "অনেক গ্রাহক আছে।",
-        "en": "There are many customers."
-      },
-      "pronunciationTipBn": "সাধারণভাবে 'সোননিম' উচ্চারণ করুন।"
-    },
-    {
       "ko": "비빔밥",
       "romanization": "bibimbap",
-      "bn": "বিবিমবাপ (কোরিয়ান খাবার)",
+      "bn": "বিবিমবাপ (ভাত-শাক মেশানো কোরীয় খাবার)",
       "en": "bibimbap",
       "pos": "noun",
       "example": {
-        "ko": "비빔밥을 좋아해요.",
-        "bn": "আমি বিবিমবাপ পছন্দ করি।",
-        "en": "I like bibimbap."
+        "ko": "비빔밥 주세요.",
+        "bn": "বিবিমবাপ দিন।",
+        "en": "Bibimbap, please."
       },
-      "pronunciationTipBn": "শেষের 'ㅂ' উচ্চারণ করার সময় ঠোঁট বন্ধ করে দিন (বিবিমবাপ)।"
+      "pronunciationTipBn": "'비빔밥' [বিবিমবাপ]—ㅂ মাঝখানে নরম 'ব' শোনায়।"
+    },
+    {
+      "ko": "김밥",
+      "romanization": "gimbap",
+      "bn": "কিমবাপ (সামুদ্রিক শাকে মোড়ানো ভাতের রোল)",
+      "en": "gimbap (seaweed rice roll)",
+      "pos": "noun",
+      "example": {
+        "ko": "김밥 한 개 주세요.",
+        "bn": "একটা কিমবাপ দিন।",
+        "en": "One gimbap, please."
+      },
+      "pronunciationTipBn": "'김밥' [কিমবাপ]—ㅁ বত্ছিমের পরে ㅂ নরম 'ব' শোনায়।"
+    },
+    {
+      "ko": "우동",
+      "romanization": "udong",
+      "bn": "উদং (মোটা গমের নুডলস)",
+      "en": "udon (thick wheat noodles)",
+      "pos": "noun",
+      "example": {
+        "ko": "우동이 맛있어요.",
+        "bn": "উদং সুস্বাদু।",
+        "en": "Udon is delicious."
+      },
+      "pronunciationTipBn": "'우동' [উদং]—ㄷ এখানে নরম 'দ' শোনায়।"
+    },
+    {
+      "ko": "라면",
+      "romanization": "ramyeon",
+      "bn": "রাম্যন (ইনস্ট্যান্ট নুডলস)",
+      "en": "ramyeon (instant noodles)",
+      "pos": "noun",
+      "example": {
+        "ko": "라면을 좋아해요.",
+        "bn": "রাম্যন পছন্দ করি।",
+        "en": "I like ramyeon."
+      },
+      "pronunciationTipBn": "'라면' [রামিয়ন]—শুরুর ㄹ বাংলা 'র'-এর মতো।"
     },
     {
       "ko": "김치찌개",
       "romanization": "gimchijjigae",
-      "bn": "কিমচি চিগে (কিমচি সুপ)",
+      "bn": "কিমচি ঝিগে (কিমচির ঝোল)",
       "en": "kimchi stew",
       "pos": "noun",
       "example": {
-        "ko": "김치찌개를 주문해요.",
-        "bn": "কিমচি চিগে অর্ডার করি।",
-        "en": "I order kimchi stew."
+        "ko": "김치찌개가 뜨거워요.",
+        "bn": "কিমচি ঝিগে গরম।",
+        "en": "The kimchi stew is hot."
       },
-      "pronunciationTipBn": "'ㅉ' উচ্চারণ করার সময় একটু জোর দিয়ে 'চ্চি' বলুন (কিমচিচ্চিগে)।"
+      "pronunciationTipBn": "'찌개' [জ্জিগ্যে]—জোড়া ㅉ শক্ত করে বলুন।"
     },
     {
-      "ko": "냉면",
-      "romanization": "naengmyeon",
-      "bn": "ঠান্ডা নুডলস",
-      "en": "cold noodles",
+      "ko": "된장찌개",
+      "romanization": "doenjangjjigae",
+      "bn": "তোয়েনজাং ঝিগে (সয়াবিন পেস্টের ঝোল)",
+      "en": "soybean paste stew",
       "pos": "noun",
       "example": {
-        "ko": "여름에는 냉면이 좋아요.",
-        "bn": "গ্রীষ্মকালে ঠান্ডা নুডলস ভালো।",
-        "en": "Cold noodles are good in summer."
+        "ko": "된장찌개 주세요.",
+        "bn": "তোয়েনজাং ঝিগে দিন।",
+        "en": "Soybean paste stew, please."
       },
-      "pronunciationTipBn": "সাধারণভাবে 'ন্যাংমিয়ন' উচ্চারণ করুন।"
+      "pronunciationTipBn": "'된장' [দোয়েনজাং]—'된' বলতে 'ㅚ' মিলিয়ে 'দোয়ে'।"
     },
     {
       "ko": "불고기",
       "romanization": "bulgogi",
-      "bn": "বুলগোগি (ম্যারিনেট করা গরুর মাংস)",
-      "en": "bulgogi",
+      "bn": "পুলগোগি (মশলাদার মাংস ভাজি)",
+      "en": "bulgogi (marinated grilled meat)",
       "pos": "noun",
       "example": {
-        "ko": "불고기 2인분 주세요.",
-        "bn": "দয়া করে বুলগোগি ২ জনের জন্য দিন।",
-        "en": "Please give me 2 portions of bulgogi."
+        "ko": "불고기가 맛있어요.",
+        "bn": "পুলগোগি সুস্বাদু।",
+        "en": "Bulgogi is delicious."
       },
-      "pronunciationTipBn": "সাধারণভাবে 'বুলগোগি' উচ্চারণ করুন।"
+      "pronunciationTipBn": "'불고기' [বুলগোগি]—ㄱ দুটোই নরম 'গ' শোনায়।"
     },
     {
-      "ko": "삼겹살",
-      "romanization": "samgyeopsal",
-      "bn": "শুকরের মাংসের বারবিকিউ",
-      "en": "pork belly",
+      "ko": "돈가스",
+      "romanization": "dongaseu",
+      "bn": "পোর্ক কাটলেট",
+      "en": "pork cutlet",
       "pos": "noun",
       "example": {
-        "ko": "삼겹살을 구워요.",
-        "bn": "শুকরের মাংস ভাজি।",
-        "en": "I grill pork belly."
+        "ko": "돈가스를 먹어요.",
+        "bn": "পোর্ক কাটলেট খাই।",
+        "en": "I eat pork cutlet."
       },
-      "pronunciationTipBn": "শেষের 'ㄹ' উচ্চারণ করার সময় জিভ তালুতে স্পর্শ করান (সামগিয়পসাল)।"
+      "pronunciationTipBn": "'돈가스' [দনগাসু]—জাপানি 'tonkatsu'-এর কোরীয় রূপ।"
     },
     {
-      "ko": "음료수",
-      "romanization": "eumnyosu",
-      "bn": "পানীয়",
-      "en": "beverage",
+      "ko": "자장면",
+      "romanization": "jajangmyeon",
+      "bn": "ঝাজাংমিয়ন (কালো শিমের সসের নুডলস)",
+      "en": "black-bean-sauce noodles",
       "pos": "noun",
       "example": {
-        "ko": "음료수도 하나 주세요.",
-        "bn": "একটি পানীয়ও দিন।",
-        "en": "Please give me a beverage too."
+        "ko": "자장면을 좋아해요?",
+        "bn": "ঝাজাংমিয়ন পছন্দ করো?",
+        "en": "Do you like jajangmyeon?"
       },
-      "pronunciationTipBn": "'ㅁ' এর পর 'ㄹ' আসলে 'ㄴ' এর মতো উচ্চারিত হয় (উমনিয়োসু)।"
+      "pronunciationTipBn": "'자장면' [জাজাংমিয়ন]—ㅈ নরম 'জ' শোনায়।"
     },
     {
-      "ko": "콜라",
-      "romanization": "kolla",
-      "bn": "কোলা",
-      "en": "cola",
+      "ko": "탕수육",
+      "romanization": "tangsuyuk",
+      "bn": "মিষ্টি-টক শোয়ানিনের মাংস",
+      "en": "sweet and sour pork",
       "pos": "noun",
       "example": {
-        "ko": "콜라 한 병 주세요.",
-        "bn": "এক বোতল কোলা দিন।",
-        "en": "Please give me a bottle of cola."
+        "ko": "탕수육을 주세요.",
+        "bn": "মিষ্টি-টক মাংস দিন।",
+        "en": "Sweet and sour pork, please."
       },
-      "pronunciationTipBn": "'ㄹ' এর পর 'ㄹ' আসলে 'ল্ল' এর মতো উচ্চারিত হয় (কোল্লা)।"
+      "pronunciationTipBn": "'탕수육' [থাংসুয়ুক]—ㅌ ঝোঁড়া 'থ' দিয়ে শুরু করুন।"
+    }
+    ,
+    {
+      "ko": "피자",
+      "romanization": "pija",
+      "bn": "পিৎজা",
+      "en": "pizza",
+      "pos": "noun",
+      "example": {
+        "ko": "피자를 좋아해요.",
+        "bn": "পিৎজা পছন্দ করি।",
+        "en": "I like pizza."
+      },
+      "pronunciationTipBn": "'피자' [ফিজা]—ㅍ ঝোঁড়া 'ফি', ㅈ নরম 'জা'।"
     },
     {
-      "ko": "사이다",
-      "romanization": "saida",
-      "bn": "স্প্রাইট / সেভেন আপ",
-      "en": "cider/sprite",
+      "ko": "치킨",
+      "romanization": "chikin",
+      "bn": "ভাজা মুরগি",
+      "en": "fried chicken",
       "pos": "noun",
       "example": {
-        "ko": "사이다를 마셔요.",
-        "bn": "স্প্রাইট পান করি।",
-        "en": "I drink sprite."
+        "ko": "치킨을 먹어요.",
+        "bn": "ভাজা মুরগি খাই।",
+        "en": "I eat fried chicken."
       },
-      "pronunciationTipBn": "সাধারণভাবে 'সাইদা' উচ্চারণ করুন।"
+      "pronunciationTipBn": "'치킨' [ছিকিন]—ㅊ শক্ত 'ছি' দিয়ে শুরু করুন।"
+    },
+    {
+      "ko": "좋아하다",
+      "romanization": "joahada",
+      "bn": "পছন্দ করা",
+      "en": "to like",
+      "pos": "verb",
+      "example": {
+        "ko": "김밥을 좋아해요.",
+        "bn": "কিমবাপ পছন্দ করি।",
+        "en": "I like gimbap."
+      },
+      "pronunciationTipBn": "'좋아해요' [জোয়াহ্যায়ো]—ㅎ প্রায় নীরব থাকে।"
+    },
+    {
+      "ko": "싫어하다",
+      "romanization": "sireohada",
+      "bn": "অপছন্দ করা",
+      "en": "to dislike",
+      "pos": "verb",
+      "example": {
+        "ko": "피자를 싫어해요.",
+        "bn": "পিৎজা অপছন্দ করি।",
+        "en": "I dislike pizza."
+      },
+      "pronunciationTipBn": "'싫어해요' [শিরহ্যায়ো]—ㅀ বত্ছিমের পরে ㅇ মিলে 'রহ' শোনায়।"
+    },
+    {
+      "ko": "맛있다",
+      "romanization": "masitda",
+      "bn": "সুস্বাদু হওয়া",
+      "en": "to be delicious",
+      "pos": "adjective",
+      "example": {
+        "ko": "불고기가 맛있어요.",
+        "bn": "পুলগোগি সুস্বাদু।",
+        "en": "Bulgogi is delicious."
+      },
+      "pronunciationTipBn": "'맛있어요' [মাশিসয়ো]—ㅅ+ㅇ মিলে 'শি' শোনায়।"
+    },
+    {
+      "ko": "맛없다",
+      "romanization": "madeopda",
+      "bn": "অসুস্বাদু হওয়া",
+      "en": "to be not delicious; to taste bad",
+      "pos": "adjective",
+      "example": {
+        "ko": "이 음식은 맛없어요.",
+        "bn": "এই খাবার অসুস্বাদু।",
+        "en": "This food is not tasty."
+      },
+      "pronunciationTipBn": "'맛없어요' [মাদপ্সয়ো]—ㅅ+ㅇ মিলে 'দ' শোনায়।"
+    },
+    {
+      "ko": "좀",
+      "romanization": "jom",
+      "bn": "একটু (বিনয়ের সঙ্গে চাওয়ার ভঙ্গি)",
+      "en": "a little; please (softens requests)",
+      "pos": "adverb",
+      "example": {
+        "ko": "물도 좀 주세요.",
+        "bn": "একটু পানিও দিন।",
+        "en": "Please give me some water too."
+      },
+      "pronunciationTipBn": "'좀' [জোম]—ㅈ নরম 'জ'; অনুরোধ নরম করতে ব্যবহৃত হয়।"
+    },
+    {
+      "ko": "하나",
+      "romanization": "hana",
+      "bn": "এক",
+      "en": "one",
+      "pos": "number",
+      "example": {
+        "ko": "커피 한 잔 주세요.",
+        "bn": "এক কাপ কফি দিন।",
+        "en": "One cup of coffee, please."
+      },
+      "pronunciationTipBn": "গণনা-শব্দের (분류사) আগে '하나' → '한' হয়: 한 잔।"
+    },
+    {
+      "ko": "둘",
+      "romanization": "dul",
+      "bn": "দুই",
+      "en": "two",
+      "pos": "number",
+      "example": {
+        "ko": "빵 두 개 주세요.",
+        "bn": "দুটো পাউরুটি দিন।",
+        "en": "Two breads, please."
+      },
+      "pronunciationTipBn": "গণনা-শব্দের আগে '둘' → '두' হয়: 두 개।"
+    },
+    {
+      "ko": "셋",
+      "romanization": "set",
+      "bn": "তিন",
+      "en": "three",
+      "pos": "number",
+      "example": {
+        "ko": "우유 세 잔 주세요.",
+        "bn": "তিন গ্লাস দুধ দিন।",
+        "en": "Three glasses of milk, please."
+      },
+      "pronunciationTipBn": "গণনা-শব্দের আগে '셋' → '세' হয়: 세 잔।"
+    },
+    {
+      "ko": "넷",
+      "romanization": "net",
+      "bn": "চার",
+      "en": "four",
+      "pos": "number",
+      "example": {
+        "ko": "김밥 네 개 주세요.",
+        "bn": "চারটা কিমবাপ দিন।",
+        "en": "Four gimbap, please."
+      },
+      "pronunciationTipBn": "গণনা-শব্দের আগে '넷' → '네' হয়: 네 개।"
+    },
+    {
+      "ko": "다섯",
+      "romanization": "daseot",
+      "bn": "পাঁচ",
+      "en": "five",
+      "pos": "number",
+      "example": {
+        "ko": "학생 다섯 명.",
+        "bn": "পাঁচজন ছাত্র।",
+        "en": "Five students."
+      },
+      "pronunciationTipBn": "'다섯' [দাসত্]—ㅅ বত্ছিম থামা 'ত্'; '다섯 명' [দাসন মিয়ং]।"
+    }
+    ,
+    {
+      "ko": "개",
+      "romanization": "gae",
+      "bn": "টি (জিনিস গণনার একক)",
+      "en": "classifier for things",
+      "pos": "noun",
+      "example": {
+        "ko": "빵 두 개.",
+        "bn": "দুটো পাউরুটি।",
+        "en": "Two (pieces of) bread."
+      },
+      "pronunciationTipBn": "'개' [ক্যে/গ্যে]—জিনিস গোনার সবচেয়ে সাধারণ একক।"
+    },
+    {
+      "ko": "명",
+      "romanization": "myeong",
+      "bn": "জন (মানুষ গণনার একক)",
+      "en": "classifier for people",
+      "pos": "noun",
+      "example": {
+        "ko": "친구 한 명.",
+        "bn": "একজন বন্ধু।",
+        "en": "One friend."
+      },
+      "pronunciationTipBn": "'명' [মিয়ং]—মানুষ গোনার একক: 세 명 = তিনজন।"
+    },
+    {
+      "ko": "분",
+      "romanization": "bun",
+      "bn": "জন (সম্মানসূচক মানুষ গণনার একক)",
+      "en": "classifier for people (honorific)",
+      "pos": "noun",
+      "example": {
+        "ko": "부모님 두 분.",
+        "bn": "বাবা-মা দুজন (সম্মানসূচক)।",
+        "en": "Two parents (honorific)."
+      },
+      "pronunciationTipBn": "'분' [বুন]—'명'-এর সম্মানসূচক রূপ; মিনিটের '분' থেকে আলাদা।"
+    },
+    {
+      "ko": "마리",
+      "romanization": "mari",
+      "bn": "টি (প্রাণী গণনার একক)",
+      "en": "classifier for animals",
+      "pos": "noun",
+      "example": {
+        "ko": "고양이 한 마리.",
+        "bn": "একটা বিড়াল।",
+        "en": "One cat."
+      },
+      "pronunciationTipBn": "'마리' [মারি]—প্রাণী গোনার একক: দুই মাছ = 물고기 두 마리।"
+    },
+    {
+      "ko": "권",
+      "romanization": "gwon",
+      "bn": "খণ্ড (বই গণনার একক)",
+      "en": "classifier for books",
+      "pos": "noun",
+      "example": {
+        "ko": "책 두 권.",
+        "bn": "দুই খণ্ড বই।",
+        "en": "Two books."
+      },
+      "pronunciationTipBn": "'권' [কোয়ন/গোয়ন]—বই গোনার একক।"
+    },
+    {
+      "ko": "공기",
+      "romanization": "gonggi",
+      "bn": "বাটি (ভাতের বাটি গণনার একক)",
+      "en": "bowl (classifier for rice bowls)",
+      "pos": "noun",
+      "example": {
+        "ko": "밥 한 공기.",
+        "bn": "এক বাটি ভাত।",
+        "en": "One bowl of rice."
+      },
+      "pronunciationTipBn": "'공기' [গংগি]—ভাতের বাটি গোনায়; 'বাতাস' বোঝাতেও '공기'।"
     },
     {
       "ko": "그릇",
       "romanization": "geureut",
-      "bn": "বাটি",
-      "en": "bowl",
+      "bn": "বাটি/পাত্র (গণনার একক)",
+      "en": "bowl; dish (classifier)",
       "pos": "noun",
       "example": {
-        "ko": "빈 그릇을 치워 주세요.",
-        "bn": "খালি বাটি সরিয়ে নিন।",
-        "en": "Please clear the empty bowls."
+        "ko": "라면 두 그릇.",
+        "bn": "দুই বাটি রাম্যন।",
+        "en": "Two bowls of ramyeon."
       },
-      "pronunciationTipBn": "শেষের 'ㅅ' উচ্চারণ করার সময় 'ত' এর মতো উচ্চারণ করুন (গুরূত)।"
+      "pronunciationTipBn": "'그릇' [গুরুত্]—ㅅ বত্ছিম থামা 'ত্' শব্দ।"
     },
     {
       "ko": "접시",
       "romanization": "jeopsi",
-      "bn": "প্লেট",
-      "en": "plate",
+      "bn": "থালা",
+      "en": "plate; dish",
       "pos": "noun",
       "example": {
-        "ko": "접시가 예뻐요.",
-        "bn": "প্লেটটি সুন্দর।",
-        "en": "The plate is pretty."
+        "ko": "탕수육 한 접시.",
+        "bn": "এক থালা মিষ্টি-টক মাংস।",
+        "en": "One plate of sweet and sour pork."
       },
-      "pronunciationTipBn": "'ㅂ' এর পর 'ㅅ' আসলে 'ㅆ' এর মতো উচ্চারিত হয় (জপ-স্সি)।"
+      "pronunciationTipBn": "'접시' [জপশি]—ㅂ+ㅅ মিলে জোরে 'পশি' শোনায়।"
     },
     {
-      "ko": "컵",
-      "romanization": "keop",
-      "bn": "কাপ",
-      "en": "cup",
+      "ko": "잔",
+      "romanization": "jan",
+      "bn": "কাপ/গ্লাস (গণনার একক)",
+      "en": "cup; glass (classifier)",
       "pos": "noun",
       "example": {
-        "ko": "컵에 물을 따라요.",
-        "bn": "কাপে পানি ঢালি।",
-        "en": "I pour water into the cup."
+        "ko": "커피 한 잔.",
+        "bn": "এক কাপ কফি।",
+        "en": "One cup of coffee."
       },
-      "pronunciationTipBn": "শেষের 'ㅂ' উচ্চারণ করার সময় ঠোঁট বন্ধ করে দিন (খপ)।"
+      "pronunciationTipBn": "'잔' [জান]—পানীয় গোনার একক: 두 잔 = দুই কাপ।"
     },
     {
-      "ko": "계산하다",
-      "romanization": "gyesanhada",
-      "bn": "বিল পরিশোধ করা",
-      "en": "to pay the bill",
-      "pos": "verb",
+      "ko": "병",
+      "romanization": "byeong",
+      "bn": "বোতল (গণনার একক)",
+      "en": "bottle (classifier)",
+      "pos": "noun",
       "example": {
-        "ko": "카드로 계산할게요.",
-        "bn": "কার্ড দিয়ে বিল পরিশোধ করব।",
-        "en": "I will pay with a card."
+        "ko": "주스 한 병.",
+        "bn": "এক বোতল জুস।",
+        "en": "One bottle of juice."
       },
-      "pronunciationTipBn": "সাধারণভাবে 'গিয়েসানহাদা' উচ্চারণ করুন।"
+      "pronunciationTipBn": "'병' [ব্যাং]—নাকিধ্বনি 'ং' দিয়ে শেষ করুন।"
     },
     {
-      "ko": "포장하다",
-      "romanization": "pojanghada",
-      "bn": "প্যাকেট করা (টেক-অ্যাওয়ে)",
-      "en": "to pack/take out",
-      "pos": "verb",
+      "ko": "반찬",
+      "romanization": "banchan",
+      "bn": "তরকারি/সাইড ডিশ",
+      "en": "side dishes",
+      "pos": "noun",
       "example": {
-        "ko": "남은 음식을 포장해 주세요.",
-        "bn": "বেঁচে যাওয়া খাবার প্যাকেট করে দিন।",
-        "en": "Please pack the leftover food."
+        "ko": "반찬이 무료예요.",
+        "bn": "সাইড ডিশ ফ্রি।",
+        "en": "The side dishes are free."
       },
-      "pronunciationTipBn": "সাধারণভাবে 'পোজংহাদা' উচ্চারণ করুন।"
+      "pronunciationTipBn": "'반찬' [বানছান]—ㄴ+ㅊ মিলে 'নছ' শোনায়।"
     },
     {
-      "ko": "뜨겁다",
-      "romanization": "tteugeopda",
-      "bn": "গরম (স্পর্শে)",
-      "en": "to be hot (to touch)",
-      "pos": "adjective",
+      "ko": "국",
+      "romanization": "guk",
+      "bn": "ঝোল/স্যুপ",
+      "en": "soup",
+      "pos": "noun",
       "example": {
-        "ko": "국이 너무 뜨거워요.",
-        "bn": "সুপটি খুব গরম।",
-        "en": "The soup is too hot."
+        "ko": "국이 뜨거워요.",
+        "bn": "ঝোল গরম।",
+        "en": "The soup is hot."
       },
-      "pronunciationTipBn": "'ㄸ' উচ্চারণ করার সময় একটু জোর দিয়ে 'ত্ত' বলুন (ত্তুগপতা)।"
+      "pronunciationTipBn": "'국' [গুক্]—ㄱ বত্ছিম থামা শব্দ; '국물' = ঝোলের পানি।"
     }
   ],
   "grammar": [
     {
       "pattern": "N + 주세요",
-      "titleBn": "দয়া করে দিন (অনুরোধ)",
-      "explanationBn": "কোনো কিছু চাওয়ার বা অনুরোধ করার সময় বিশেষ্যের (Noun) সাথে '주세요' যুক্ত করা হয়। রেস্তোরাঁয় খাবার অর্ডার করার সময় এটি খুব বেশি ব্যবহৃত হয়।",
-      "explanationEn": "Used to request or ask for something by attaching '주세요' to a noun. It is very commonly used when ordering food at a restaurant.",
+      "titleBn": "'주세요' দিয়ে চাওয়া/অর্ডার করা",
+      "explanationBn": "বিশেষ্যের পরে '주세요' বসে সেই জিনিসটি চাওয়া বা অর্ডার করা বোঝায়—বাংলার '...দিন/দিবেন'। দোকান বা রেস্তোরাঁয় সবচেয়ে বেশি ব্যবহৃত বাক্য।",
+      "explanationEn": "주세요 is placed after a noun to request or order that item—like 'please give me ...'. It is the most common sentence in shops and restaurants.",
       "examples": [
-        {
-          "ko": "물 좀 주세요.",
-          "bn": "দয়া করে একটু পানি দিন।",
-          "en": "Please give me some water."
-        },
-        {
-          "ko": "비빔밥 하나 주세요.",
-          "bn": "দয়া করে একটি বিবিমবাপ দিন।",
-          "en": "Please give me one bibimbap."
-        },
-        {
-          "ko": "메뉴판 좀 주세요.",
-          "bn": "দয়া করে মেনুটি দিন।",
-          "en": "Please give me the menu."
-        }
+        { "ko": "물 주세요.", "bn": "পানি দিন।", "en": "Water, please." },
+        { "ko": "비빔밥 주세요.", "bn": "বিবিমবাপ দিন।", "en": "Bibimbap, please." },
+        { "ko": "김치찌개 주세요.", "bn": "কিমচি ঝিগে দিন।", "en": "Kimchi stew, please." }
       ],
-      "commonMistakeBn": "অনেকে '주세요' এর আগে ভুল করে '을/를' বাদ দেন, তবে কথ্য ভাষায় এটি বাদ দেওয়া যায়।"
+      "commonMistakeBn": "'주세요' ক্রিয়ার পরে বসানো ভুল—এটি বিশেষ্যের পরে বসে: 비빔밥 주세요 ('주세요 비빔밥' নয়)।"
     },
     {
-      "pattern": "안 + V/A",
-      "titleBn": "না-বোধক বাক্য (নেতিবাচক)",
-      "explanationBn": "ক্রিয়া (Verb) বা বিশেষণের (Adjective) আগে '안' বসিয়ে বাক্যকে না-বোধক করা হয়। এটি 'না' বা 'নয়' অর্থ প্রকাশ করে।",
-      "explanationEn": "Used to make a negative sentence by placing '안' before a verb or adjective. It means 'not' or 'do not'.",
+      "pattern": "N + 하고",
+      "titleBn": "'하고' দিয়ে জোড়া (এবং/সাথে)",
+      "explanationBn": "দুই বিশেষ্য একসাথে বলতে '하고' বসে—বাংলার 'এবং/আর'। এছাড়া 'সাথে কাজ করা' বোঝাতেও হয়: 친구하고 쇼핑했어요। কথ্যভাষায় বেশি ব্যবহৃত।",
+      "explanationEn": "하고 links two nouns—like 'and'. It can also show doing something together with someone: 친구하고 쇼핑했어요. Common in spoken Korean.",
       "examples": [
-        {
-          "ko": "저는 고기를 안 먹어요.",
-          "bn": "আমি মাংস খাই না।",
-          "en": "I do not eat meat."
-        },
-        {
-          "ko": "이 김치는 안 매워요.",
-          "bn": "এই কিমচি ঝাল নয়।",
-          "en": "This kimchi is not spicy."
-        },
-        {
-          "ko": "오늘 식당에 안 가요.",
-          "bn": "আজ রেস্তোরাঁয় যাব না।",
-          "en": "I am not going to the restaurant today."
-        }
+        { "ko": "우유하고 빵을 사요.", "bn": "দুধ আর পাউরুটি কিনি।", "en": "I buy milk and bread." },
+        { "ko": "연필하고 지우개가 있어요.", "bn": "পেন্সিল আর ইরেজার আছে।", "en": "I have a pencil and an eraser." },
+        { "ko": "토요일에 친구하고 쇼핑했어요.", "bn": "শনিবার বন্ধুর সাথে কেনাকাটা করেছি।", "en": "I went shopping with a friend on Saturday." }
       ],
-      "commonMistakeBn": "অনেকে '하다' যুক্ত ক্রিয়ার আগে '안' বসান (যেমন: 안 공부하다), কিন্তু সঠিক হলো বিশেষ্য এবং '하다' এর মাঝে '안' বসানো (공부 안 하다)।"
+      "commonMistakeBn": "'하고' আর '과/와' মিলিয়ে '하고과' বলা ভুল—একটাই বসবে: 우유하고 빵 또는 우유와 빵।"
+    }
+    ,
+    {
+      "pattern": "N + 과/와",
+      "titleBn": "'과/와' দিয়ে জোড়া (আনুষ্ঠানিক)",
+      "explanationBn": "আনুষ্ঠানিক বা লিখিত ভাষায় দুই বিশেষ্য জোড়াতে '과/와' বসে। বত্ছিম থাকলে '과' (빵과 우유), না থাকলে '와' (날씨와 계절)। কথ্যে '하고' বেশি চলে।",
+      "explanationEn": "과/와 links two nouns in formal or written language. Use 과 after a consonant-final noun (빵과 우유) and 와 after a vowel-final noun (날씨와 계절). Spoken Korean prefers 하고.",
+      "examples": [
+        { "ko": "빵과 우유를 사요.", "bn": "পাউরুটি আর দুধ কিনি।", "en": "I buy bread and milk." },
+        { "ko": "날씨와 계절을 공부해요.", "bn": "আবহাওয়া আর ঋতু পড়ি।", "en": "I study weather and seasons." },
+        { "ko": "김밥과 라면을 주세요.", "bn": "কিমবাপ আর রাম্যন দিন।", "en": "Gimbap and ramyeon, please." }
+      ],
+      "commonMistakeBn": "বত্ছিম থাকলে '와' বসানো ভুল—যেমন '빵와 우유'। বত্ছিম থাকলে '과' বসবে: 빵과 우유।"
     },
     {
-      "pattern": "V + 고 싶다",
-      "titleBn": "করতে চাওয়া (ইচ্ছা প্রকাশ)",
-      "explanationBn": "কোনো কিছু করার ইচ্ছা প্রকাশ করতে ক্রিয়ার (Verb) মূল অংশের সাথে '고 싶다' যুক্ত করা হয়।",
-      "explanationEn": "Used to express a desire to do something by attaching '고 싶다' to the verb stem.",
+      "pattern": "명사 + 숫자 + 분류사",
+      "titleBn": "বিশেষ্য + সংখ্যা + গণনা-শব্দ",
+      "explanationBn": "জিনিস বা মানুষ গোনার সময় ক্রম: বিশেষ্য + সংখ্যা + গণনা-শব্দ—যেমন 커피 두 잔, 학생 세 명। '하나, 둘, 셋, 넷' গণনা-শব্দের আগে '한, 두, 세, 네' হয়।",
+      "explanationEn": "To count, use the order noun + number + classifier: 커피 두 잔, 학생 세 명. The numbers 하나, 둘, 셋, 넷 become 한, 두, 세, 네 before a classifier.",
       "examples": [
-        {
-          "ko": "저는 비빔밥을 먹고 싶어요.",
-          "bn": "আমি বিবিমবাপ খেতে চাই।",
-          "en": "I want to eat bibimbap."
-        },
-        {
-          "ko": "한국에 가고 싶어요.",
-          "bn": "আমি কোরিয়ায় যেতে চাই।",
-          "en": "I want to go to Korea."
-        },
-        {
-          "ko": "물을 마시고 싶어요.",
-          "bn": "আমি পানি পান করতে চাই।",
-          "en": "I want to drink water."
-        }
+        { "ko": "커피 한 잔 주세요.", "bn": "এক কাপ কফি দিন।", "en": "One cup of coffee, please." },
+        { "ko": "빵 두 개 주세요.", "bn": "দুটো পাউরুটি দিন।", "en": "Two breads, please." },
+        { "ko": "학생 다섯 명.", "bn": "পাঁচজন ছাত্র।", "en": "Five students." }
       ],
-      "commonMistakeBn": "অন্য কারো (৩য় ব্যক্তি) ইচ্ছা বোঝাতে '고 싶다' এর বদলে '고 싶어하다' ব্যবহার করতে হয়, যা অনেকে ভুল করেন।"
+      "commonMistakeBn": "'커피 하나 잔' বলা ভুল—গণনা-শব্দের আগে '하나' → '한' হয়: 커피 한 잔।"
     },
     {
-      "pattern": "N + 하고/과/와",
-      "titleBn": "এবং / সাথে",
-      "explanationBn": "দুটি বিশেষ্যকে (Noun) যুক্ত করতে বা 'সাথে' অর্থ প্রকাশ করতে '하고', '과' বা '와' ব্যবহৃত হয়। '하고' কথ্য ভাষায় বেশি ব্যবহৃত হয়।",
-      "explanationEn": "Used to link two nouns or express 'with'. '하고' is more commonly used in spoken language.",
+      "pattern": "N + 이/가 맛있어요? / N + 을/를 좋아해요",
+      "titleBn": "স্বাদ ও পছন্দ বলা",
+      "explanationBn": "খাবার সুস্বাদু কি না জিজ্ঞাসা করতে '이/가 맛있어요?' বলুন। পছন্দ বলতে '을/를 좋아해요', অপছন্দ বলতে '을/를 싫어해요' বলুন।",
+      "explanationEn": "Ask if food is tasty with 이/가 맛있어요? Say what you like with 을/를 좋아해요 and what you dislike with 을/를 싫어해요.",
       "examples": [
-        {
-          "ko": "비빔밥하고 김치찌개 주세요.",
-          "bn": "বিবিমবাপ এবং কিমচি চিগে দিন।",
-          "en": "Please give me bibimbap and kimchi stew."
-        },
-        {
-          "ko": "친구하고 식당에 가요.",
-          "bn": "বন্ধুর সাথে রেস্তোরাঁয় যাই।",
-          "en": "I go to the restaurant with a friend."
-        },
-        {
-          "ko": "빵과 우유를 먹어요.",
-          "bn": "রুটি এবং দুধ খাই।",
-          "en": "I eat bread and milk."
-        }
+        { "ko": "불고기가 맛있어요?", "bn": "পুলগোগি সুস্বাদু?", "en": "Is bulgogi delicious?" },
+        { "ko": "김밥을 좋아해요.", "bn": "কিমবাপ পছন্দ করি।", "en": "I like gimbap." },
+        { "ko": "피자를 싫어해요.", "bn": "পিৎজা অপছন্দ করি।", "en": "I dislike pizza." }
       ],
-      "commonMistakeBn": "অনেকে বাক্যের শেষে '하고' ব্যবহার করেন, কিন্তু এটি শুধুমাত্র দুটি বিশেষ্যের মাঝে বা বিশেষ্যের পরে বসে।"
+      "commonMistakeBn": "'김밥이 좋아해요' বলা ভুল—'좋아하다' ক্রিয়ার কর্মে 을/를 বসে: 김밥을 좋아해요।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "খাবার অর্ডার করা",
-      "titleEn": "Ordering Food",
+      "titleBn": "রেস্তোরাঁয় অর্ডার",
+      "titleEn": "Ordering at the Restaurant",
       "lines": [
-        {
-          "speaker": "종업원",
-          "ko": "어서 오세요. 몇 분이세요?",
-          "bn": "স্বাগতম। আপনারা কতজন?",
-          "en": "Welcome. How many people?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "두 명이에요. 자리 있어요?",
-          "bn": "আমরা দুজন। জায়গা আছে কি?",
-          "en": "Two people. Are there any seats?"
-        },
-        {
-          "speaker": "종업원",
-          "ko": "네, 있어요. 이쪽으로 앉으세요. 뭐 드릴까요?",
-          "bn": "হ্যাঁ, আছে। এদিকে বসুন। আপনাদের কী দেব?",
-          "en": "Yes, there are. Please sit this way. What would you like?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "저는 비빔밥 먹을래요.",
-          "bn": "আমি বিবিমবাপ খাব।",
-          "en": "I will have bibimbap."
-        },
-        {
-          "speaker": "리한",
-          "ko": "저는 김치찌개 먹을래요.",
-          "bn": "আমি কিমচি চিগে খাব।",
-          "en": "I will have kimchi stew."
-        },
-        {
-          "speaker": "투안",
-          "ko": "그럼 여기 비빔밥 하나하고 김치찌개 하나 주세요.",
-          "bn": "তাহলে এখানে একটি বিবিমবাপ এবং একটি কিমচি চিগে দিন।",
-          "en": "Then please give us one bibimbap and one kimchi stew here."
-        }
+        { "speaker": "A", "ko": "어서 오세요. 뭐 드시겠어요?", "bn": "স্বাগতম। কী খাবেন?", "en": "Welcome! What would you like to eat?" },
+        { "speaker": "B", "ko": "저는 비빔밥 주세요.", "bn": "আমাকে বিবিমবাপ দিন।", "en": "Bibimbap for me, please." },
+        { "speaker": "C", "ko": "저는 김치찌개 주세요.", "bn": "আমাকে কিমচি ঝিগে দিন।", "en": "Kimchi stew for me, please." },
+        { "speaker": "A", "ko": "네, 알겠습니다.", "bn": "জি, বুঝেছি।", "en": "Okay, understood." },
+        { "speaker": "B", "ko": "물도 좀 주세요.", "bn": "একটু পানিও দিন।", "en": "Please give us some water as well." }
       ]
     },
     {
-      "titleBn": "খাবারের স্বাদ সম্পর্কে কথা বলা",
-      "titleEn": "Talking about the Taste of Food",
+      "titleBn": "ক্যাফেতে",
+      "titleEn": "At the Café",
       "lines": [
-        {
-          "speaker": "리한",
-          "ko": "투안 씨, 김치찌개가 어때요?",
-          "bn": "তুয়ান সাহেব, কিমচি চিগে কেমন?",
-          "en": "Tuan, how is the kimchi stew?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "조금 매워요. 하지만 맛있어요.",
-          "bn": "একটু ঝাল। কিন্তু মজাদার।",
-          "en": "It's a little spicy. But it's delicious."
-        },
-        {
-          "speaker": "리한",
-          "ko": "리한 씨는 김치찌개를 좋아해요?",
-          "bn": "রিহান সাহেব কি কিমচি চিগে পছন্দ করেন?",
-          "en": "Do you like kimchi stew, Rihan?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "아니요, 저는 안 좋아해요. 저는 불고기를 좋아해요.",
-          "bn": "না, আমি পছন্দ করি না। আমি বুলগোগি পছন্দ করি।",
-          "en": "No, I don't like it. I like bulgogi."
-        }
+        { "speaker": "A", "ko": "어서 오세요. 뭐 드시겠어요?", "bn": "স্বাগতম। কী নেবেন?", "en": "Welcome! What would you like?" },
+        { "speaker": "B", "ko": "커피 두 잔 주세요. 빵 있어요?", "bn": "দুই কাপ কফি দিন। পাউরুটি আছে?", "en": "Two cups of coffee, please. Do you have bread?" },
+        { "speaker": "A", "ko": "아니요, 없어요. 케이크는 있어요.", "bn": "না, নেই। কেক আছে।", "en": "No, we don't. We have cake." },
+        { "speaker": "B", "ko": "그럼 커피 두 잔하고 케이크 주세요.", "bn": "তাহলে দুই কাপ কফি আর কেক দিন।", "en": "Then, two cups of coffee and some cake, please." },
+        { "speaker": "A", "ko": "네, 알겠습니다.", "bn": "জি, বুঝেছি।", "en": "Okay, understood." }
       ]
     },
     {
-      "titleBn": "বিল পরিশোধ করা",
-      "titleEn": "Paying the Bill",
+      "titleBn": "কী পছন্দ?",
+      "titleEn": "What Do You Like?",
       "lines": [
-        {
-          "speaker": "투안",
-          "ko": "여기요, 계산해 주세요.",
-          "bn": "এক্সকিউজ মি, বিলটা দিন।",
-          "en": "Excuse me, please give me the bill."
-        },
-        {
-          "speaker": "종업원",
-          "ko": "네, 비빔밥 하나, 김치찌개 하나, 모두 만 이천 원입니다.",
-          "bn": "হ্যাঁ, একটি বিবিমবাপ, একটি কিমচি চিগে, মোট বারো হাজার ওন।",
-          "en": "Yes, one bibimbap, one kimchi stew, it's 12,000 won in total."
-        },
-        {
-          "speaker": "투안",
-          "ko": "카드로 계산할게요.",
-          "bn": "আমি কার্ড দিয়ে বিল দেব।",
-          "en": "I will pay with a card."
-        },
-        {
-          "speaker": "종업원",
-          "ko": "네, 영수증 드릴까요?",
-          "bn": "হ্যাঁ, রসিদ কি দেব?",
-          "en": "Yes, would you like a receipt?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "아니요, 괜찮아요.",
-          "bn": "না, ঠিক আছে।",
-          "en": "No, it's fine."
-        }
+        { "speaker": "A", "ko": "무엇을 좋아해요?", "bn": "কী পছন্দ করো?", "en": "What do you like?" },
+        { "speaker": "B", "ko": "저는 김밥을 좋아해요.", "bn": "আমি কিমবাপ পছন্দ করি।", "en": "I like gimbap." },
+        { "speaker": "A", "ko": "피자를 좋아해요?", "bn": "পিৎজা পছন্দ করো?", "en": "Do you like pizza?" },
+        { "speaker": "B", "ko": "아니요, 피자를 싫어해요. 라면을 좋아해요.", "bn": "না, পিৎজা অপছন্দ করি। রাম্যন পছন্দ করি।", "en": "No, I dislike pizza. I like ramyeon." },
+        { "speaker": "A", "ko": "뭐가 맛있어요?", "bn": "কোনটি সুস্বাদু?", "en": "What is delicious?" },
+        { "speaker": "B", "ko": "불고기가 맛있어요.", "bn": "পুলগোগি সুস্বাদু।", "en": "Bulgogi is delicious." }
       ]
     }
   ],
@@ -650,568 +571,362 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন। (একটি রেস্তোরাঁর ছবি)",
-      "questionKo": "다음 그림을 보고 알맞은 단어를 고르십시오.",
-      "options": [
-        "은행",
-        "식당",
-        "우체국",
-        "병원"
-      ],
-      "answer": 1,
-      "explanationBn": "ছবিটি একটি রেস্তোরাঁর, তাই সঠিক উত্তর '식당' (রেস্তোরাঁ)।"
+      "questionBn": "'김밥' কোন খাবার?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["সামুদ্রিক শাকে মোড়ানো ভাতের রোল", "কিমচির ঝোল", "ভাজা মুরগি", "মিষ্টি-টক মাংস"],
+      "answer": 0,
+      "explanationBn": "김밥 হলো সামুদ্রিক শাকে (김) ভাত মোড়ানো রোল—কোরিয়ার জনপ্রিয় জলখাবার।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন। (একটি মেনুর ছবি)",
-      "questionKo": "다음 그림을 보고 알맞은 단어를 고르십시오.",
-      "options": [
-        "메뉴",
-        "물",
-        "반찬",
-        "밥"
-      ],
+      "questionBn": "জিনিস চাওয়ার সঠিক বাক্য কোনটি?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["물 주세요.", "물을 주세요해요.", "주세요 물.", "물 주세요가 없어요."],
       "answer": 0,
-      "explanationBn": "ছবিটি একটি মেনুর, তাই সঠিক উত্তর '메뉴' (মেনু)।"
+      "explanationBn": "বিশেষ্যের পরে '주세요' বসে: 물 주세요 (পানি দিন)।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 뭐 드릴까요?\n나: 비빔밥 하나 (  ).",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "드세요",
-        "오세요",
-        "가세요",
-        "주세요"
-      ],
-      "answer": 3,
-      "explanationBn": "খাবার অর্ডার করার সময় '주세요' (দিন) ব্যবহার করা হয়। তাই '비빔밥 하나 주세요' (একটি বিবিমবাপ দিন) সঠিক।"
+      "questionBn": "'하고' দিয়ে সঠিকভাবে গঠিত বাক্য কোনটি?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["우유하고 빵을 사요.", "우유과 빵을 사요.", "우유를 빵하고 사요.", "우유하고을 빵 사요."],
+      "answer": 0,
+      "explanationBn": "দুই বিশেষ্যের মাঝে '하고' বসে: 우유하고 빵 (দুধ আর পাউরুটি)।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 김치찌개가 매워요?\n나: 아니요, (  ) 매워요.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "참",
-        "아주",
-        "안",
-        "너무"
-      ],
+      "questionBn": "কফি গোনার সঠিক গণনা-শব্দ কোনটি: 커피 한 ___?",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": ["명", "권", "잔", "개"],
       "answer": 2,
-      "explanationBn": "প্রশ্নে জিজ্ঞাসা করা হয়েছে কিমচি চিগে ঝাল কি না। উত্তরে '아니요' (না) থাকায় নেতিবাচক শব্দ '안' (না) বসবে। '안 매워요' মানে 'ঝাল নয়'।"
+      "explanationBn": "কাপ/গ্লাসের পানীয় গোনায় '잔' বসে: 커피 한 잔।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 불고기가 어때요?\n나: 아주 (  ).",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "써요",
-        "맛있어요",
-        "매워요",
-        "맛없어요"
-      ],
-      "answer": 1,
-      "explanationBn": "বুলগোগি সাধারণত মজাদার হয়। তাই '맛있어요' (মজাদার) সঠিক উত্তর।"
+      "type": "multiple-choice",
+      "questionBn": "'맛없다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["সুস্বাদু", "গরম", "ঠান্ডা", "অসুস্বাদু"],
+      "answer": 3,
+      "explanationBn": "맛없다 = অসুস্বাদু—'맛있다' (সুস্বাদু)-এর বিপরীত।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 여기요, (  ) 좀 더 주세요.\n나: 네, 알겠습니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "반찬",
-        "손님",
-        "종업원",
-        "식당"
-      ],
+      "type": "multiple-choice",
+      "questionBn": "গণনার সঠিক ক্রম কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["커피 한 잔", "커피 하나 잔", "한 커피 잔", "커피 잔 하나"],
       "answer": 0,
-      "explanationBn": "রেস্তোরাঁয় সাধারণত আরও '반찬' (সাইড ডিশ) চাওয়া হয়। তাই '반찬' সঠিক উত্তর।"
+      "explanationBn": "বিশেষ্য + সংখ্যা + গণনা-শব্দ; '하나' → '한': 커피 한 잔।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 이 국이 어때요?\n나: 소금이 많이 들어가서 너무 (  ).",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "셔요",
-        "달아요",
-        "싱거워요",
-        "짜요"
-      ],
-      "answer": 3,
-      "explanationBn": "লবণ (소금) বেশি দিলে খাবার '짜요' (নোনতা) হয়। তাই সঠিক উত্তর '짜요'।"
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সঠিক অংশ বসান: 빵___ 우유।",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": ["와", "과", "을", "이"],
+      "answer": 1,
+      "explanationBn": "'빵' ব্যঞ্জনবর্ণে (ㅇ) শেষ, তাই '과' বসে: 빵과 우유।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 레몬을 먹었어요?\n나: 네, 그런데 너무 (  ).",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "짜요",
-        "달아요",
-        "셔요",
-        "매워요"
-      ],
-      "answer": 2,
-      "explanationBn": "লেবু (레몬) সাধারণত '셔요' (টক) হয়। তাই সঠিক উত্তর '셔요'।"
+      "type": "multiple-choice",
+      "questionBn": "'싫어하다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["পছন্দ করা", "খাওয়া", "কেনা", "অপছন্দ করা"],
+      "answer": 3,
+      "explanationBn": "싫어하다 = অপছন্দ করা—'좋아하다' (পছন্দ করা)-এর বিপরীত।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "숟가락",
-          "right": "চামচ"
-        },
-        {
-          "left": "젓가락",
-          "right": "চপস্টিক"
-        },
-        {
-          "left": "물",
-          "right": "পানি"
-        },
-        {
-          "left": "밥",
-          "right": "ভাত"
-        }
-      ],
-      "explanationBn": "숟가락 মানে চামচ, 젓가락 মানে চপস্টিক, 물 মানে পানি এবং 밥 মানে ভাত।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "type": "multiple-choice",
+      "questionBn": "'뭐 드시겠어요?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": ["비빔밥 주세요.", "네, 비빔밥이에요.", "식당이에요.", "맛있어요."],
+      "answer": 0,
+      "explanationBn": "'뭐 드시겠어요?' (কী খাবেন?) প্রশ্নের উত্তরে খাবার + 주세요 বলা হয়।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "달다",
-          "right": "মিষ্টি"
-        },
-        {
-          "left": "쓰다",
-          "right": "তেতো"
-        },
-        {
-          "left": "싱겁다",
-          "right": "পানসে"
-        },
-        {
-          "left": "맵다",
-          "right": "ঝাল"
-        }
-      ],
-      "explanationBn": "달다 মানে মিষ্টি, 쓰다 মানে তেতো, 싱겁다 মানে পানসে এবং 맵다 মানে ঝাল।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "type": "fill-blank",
+      "questionBn": "বই গোনার সঠিক গণনা-শব্দ বসান: 책 두 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["잔", "권", "개", "병"],
+      "answer": 1,
+      "explanationBn": "বই গোনায় '권' বসে: 책 두 권।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন। (একটি কাপের ছবি)",
-      "questionKo": "다음 그림을 보고 알맞은 단어를 고르십시오.",
-      "options": [
-        "그릇",
-        "접시",
-        "컵",
-        "숟가락"
-      ],
-      "answer": 2,
-      "explanationBn": "ছবিটি একটি কাপের, তাই সঠিক উত্তর '컵' (কাপ)।"
+      "type": "fill-blank",
+      "questionBn": "'দুই কাপ কফি দিন' বাক্যটি সম্পূর্ণ করুন: 커피 ___ 잔 주세요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["하나", "둘", "이", "두"],
+      "answer": 3,
+      "explanationBn": "গণনা-শব্দের (잔) আগে '둘' → '두' হয়: 두 잔।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন। (ঠান্ডা নুডলসের ছবি)",
-      "questionKo": "다음 그림을 보고 알맞은 단어를 고르십시오.",
-      "options": [
-        "냉면",
-        "불고기",
-        "삼겹살",
-        "비빔밥"
-      ],
+      "type": "fill-blank",
+      "questionBn": "দুই বিশেষ্য জোড়াতে সঠিক অংশ বসান: 라면___ 김밥을 먹어요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["하고", "을", "이", "에"],
       "answer": 0,
-      "explanationBn": "ছবিটি ঠান্ডা নুডলসের, তাই সঠিক উত্তর '냉면' (ঠান্ডা নুডলস)।"
+      "explanationBn": "কথ্যে দুই বিশেষ্য জোড়াতে '하고' বসে।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 날씨가 더워요. 시원한 (  )을/를 먹고 싶어요.\n나: 그럼 냉면 어때요?",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "음식",
-        "음료수",
-        "반찬",
-        "물"
-      ],
-      "answer": 0,
-      "explanationBn": "গরম আবহাওয়ায় ঠান্ডা '음식' (খাবার) খেতে চাওয়ার কথা বলা হয়েছে এবং উত্তরে '냉면' (ঠান্ডা নুডলস) এর প্রস্তাব দেওয়া হয়েছে। তাই '음식' সঠিক।"
+      "type": "fill-blank",
+      "questionBn": "স্বরবর্ণের পরে সঠিক অংশ বসান: 날씨___ 계절।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["과", "와", "을", "를"],
+      "answer": 1,
+      "explanationBn": "'날씨' স্বরবর্ণে শেষ, তাই '와' বসে: 날씨와 계절।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 불고기 2인분 (  ) 콜라 하나 주세요.\n나: 네, 알겠습니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "에서",
-        "하고",
-        "에",
-        "도"
-      ],
-      "answer": 1,
-      "explanationBn": "দুটি জিনিস (বুলগোগি এবং কোলা) একসাথে অর্ডার করার সময় '하고' (এবং/সাথে) ব্যবহৃত হয়।"
+      "type": "fill-blank",
+      "questionBn": "'এক বোতল জুস' বাক্যটি সম্পূর্ণ করুন: 주스 한 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["잔", "개", "병", "그릇"],
+      "answer": 2,
+      "explanationBn": "বোতল গোনায় '병' বসে: 주스 한 병।"
     },
     {
       "id": "p15",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 찌개가 너무 (  ).\n나: 그럼 물을 조금 넣으세요.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "달아요",
-        "싱거워요",
-        "짜요",
-        "셔요"
-      ],
-      "answer": 2,
-      "explanationBn": "চিগে (সুপ) বেশি '짜요' (নোনতা) হলে পানি মেশানোর পরামর্শ দেওয়া হয়। তাই '짜요' সঠিক।"
+      "type": "fill-blank",
+      "questionBn": "মানুষ গোনার সম্মানসূচক শব্দ বসান: 부모님 두 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["명", "분", "개", "마리"],
+      "answer": 1,
+      "explanationBn": "'명'-এর সম্মানসূচক রূপ '분': 부모님 두 분।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 다 먹었어요. 이제 (  )해 주세요.\n나: 네, 카드로 하시겠어요?",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "주문",
-        "포장",
-        "계산",
-        "요리"
-      ],
+      "questionBn": "'আমি রাম্যন পছন্দ করি' বাক্যটি সম্পূর্ণ করুন: 저는 라면___ 좋아해요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["이", "가", "을", "에"],
       "answer": 2,
-      "explanationBn": "খাওয়া শেষ হলে '계산' (বিল পরিশোধ) করতে হয়। তাই '계산' সঠিক।"
+      "explanationBn": "'좋아하다' ক্রিয়ার কর্মে 을/를 বসে; '라면' ব্যঞ্জনবর্ণে শেষ তাই '을'।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 음식이 남았어요. (  )해 주세요.\n나: 네, 잠시만 기다리세요.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "포장",
-        "계산",
-        "주문",
-        "배달"
+      "type": "matching",
+      "questionBn": "কোরীয় খাবারের নামের সাথে বাংলা মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "비빔밥", "right": "বিবিমবাপ" },
+        { "left": "김밥", "right": "কিমবাপ" },
+        { "left": "라면", "right": "রাম্যন" },
+        { "left": "불고기", "right": "পুলগোগি" },
+        { "left": "치킨", "right": "ভাজা মুরগি" }
       ],
-      "answer": 0,
-      "explanationBn": "খাবার বেঁচে গেলে তা '포장' (প্যাকেট) করে নেওয়া হয়। তাই '포장' সঠিক।"
+      "explanationBn": "এই খাবারগুলো কোরিয়ার রেস্তোরাঁয় সবচেয়ে বেশি অর্ডার হয়।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 국이 너무 (  ). 조심하세요.\n나: 네, 고마워요.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "차가워요",
-        "뜨거워요",
-        "매워요",
-        "맛있어요"
+      "type": "matching",
+      "questionBn": "স্বাদ ও পছন্দের শব্দের সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "맛있다", "right": "সুস্বাদু" },
+        { "left": "맛없다", "right": "অসুস্বাদু" },
+        { "left": "좋아하다", "right": "পছন্দ করা" },
+        { "left": "싫어하다", "right": "অপছন্দ করা" }
       ],
-      "answer": 1,
-      "explanationBn": "সুপ খুব '뜨거워요' (গরম) হলে সাবধানে খেতে হয়। তাই '뜨거워요' সঠিক।"
+      "explanationBn": "맛있다/맛없다 = স্বাদ; 좋아하다/싫어하다 = পছন্দ।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "জিনিসের সাথে সঠিক গণনা-শব্দটি মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
-        {
-          "left": "그릇",
-          "right": "বাটি"
-        },
-        {
-          "left": "접시",
-          "right": "প্লেট"
-        },
-        {
-          "left": "컵",
-          "right": "কাপ"
-        },
-        {
-          "left": "음료수",
-          "right": "পানীয়"
-        }
+        { "left": "커피", "right": "잔" },
+        { "left": "책", "right": "권" },
+        { "left": "주스", "right": "병" },
+        { "left": "라면", "right": "그릇" },
+        { "left": "김밥", "right": "개" }
       ],
-      "explanationBn": "그릇 মানে বাটি, 접시 মানে প্লেট, 컵 মানে কাপ এবং 음료수 মানে পানীয়।"
+      "explanationBn": "পানীয় = 잔/병, বই = 권, বাটির খাবার = 그릇, সাধারণ জিনিস = 개।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "সংখ্যার মূল রূপের সাথে গণনা-রূপ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
-        {
-          "left": "계산하다",
-          "right": "বিল পরিশোধ করা"
-        },
-        {
-          "left": "포장하다",
-          "right": "প্যাকেট করা"
-        },
-        {
-          "left": "주문하다",
-          "right": "অর্ডার করা"
-        },
-        {
-          "left": "뜨겁다",
-          "right": "গরম"
-        }
+        { "left": "하나", "right": "한 (커피 한 잔)" },
+        { "left": "둘", "right": "두 (빵 두 개)" },
+        { "left": "셋", "right": "세 (우유 세 잔)" },
+        { "left": "넷", "right": "네 (김밥 네 개)" }
       ],
-      "explanationBn": "계산하다 মানে বিল পরিশোধ করা, 포장하다 মানে প্যাকেট করা, 주문하다 মানে অর্ডার করা এবং 뜨겁다 মানে গরম।"
+      "explanationBn": "গণনা-শব্দের আগে 하나→한, 둘→두, 셋→세, 넷→네 হয়।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পরবর্তী ছবিটি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
-      "passage": "(물 사진)",
-      "options": [
-        "물입니다.",
-        "반찬입니다.",
-        "밥입니다.",
-        "메뉴입니다."
-      ],
-      "answer": 0,
-      "explanationBn": "ছবিটি পানির, তাই সঠিক উত্তর '물입니다' (পানি)।"
+      "questionBn": "'김치찌개' শব্দটি কোন বিভাগের?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "김치찌개",
+      "options": ["날씨", "가구", "음식", "도시"],
+      "answer": 2,
+      "explanationBn": "'김치찌개' (কিমচি ঝিগে) একটি খাবার (음식)।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "পরবর্তী ছবিটি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
-      "passage": "(비빔밥 사진)",
-      "options": [
-        "냉면입니다.",
-        "비빔밥입니다.",
-        "김치찌개입니다.",
-        "불고기입니다."
-      ],
-      "answer": 1,
-      "explanationBn": "ছবিটি বিবিমবাপের, তাই সঠিক উত্তর '비빔밥입니다' (বিবিমবাপ)।"
+      "questionBn": "কোন বাক্যটির সংযোজক অংশ সঠিক?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["빵과 우유를 사요.", "빵와 우유를 사요.", "빵을 우유와 사요.", "빵 우유를 사요."],
+      "answer": 0,
+      "explanationBn": "'빵' ব্যঞ্জনবর্ণে (ㅇ) শেষ, তাই '과' বসে: 빵과 우유।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionBn": "শূন্যস্থানে সঠিক গণনা-শব্দটি বসান।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 식당에 자리가 있어요?\n나: 아니요, (  )이/가 없어요.",
-      "options": [
-        "물",
-        "메뉴",
-        "자리",
-        "반찬"
-      ],
+      "passage": "커피를 한 ___ 마셨어요.",
+      "options": ["명", "권", "잔", "개"],
       "answer": 2,
-      "explanationBn": "প্রশ্ন করা হয়েছে '자리' (জায়গা) আছে কি না। উত্তরে '아니요' (না) থাকায় '자리' (জায়গা) নেই বোঝাতে '자리' বসবে।"
+      "explanationBn": "কফি (কাপের পানীয়) গোনায় '잔' বসে: 한 잔।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 뭐 드릴까요?\n나: 김치찌개 (  ) 주세요.",
-      "options": [
-        "한번",
-        "한",
-        "한개",
-        "하나"
-      ],
-      "answer": 3,
-      "explanationBn": "খাবারের পরিমাণ বোঝাতে '하나' (একটি) ব্যবহৃত হয়। তাই '김치찌개 하나 주세요' (একটি কিমচি চিগে দিন) সঠিক।"
+      "questionBn": "কিওস্ক সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "최근에는 키오스크를 이용해 음식을 주문하는 가게가 많아지고 있습니다. 키오스크를 사용하면 메뉴 선택과 결제를 한 번에 할 수 있어서 매우 편리합니다.",
+      "options": ["키오스크는 현금 결제만 가능합니다.", "키오스크를 이용하면 주문이 편리합니다.", "키오스크에서는 메뉴를 선택할 수 없습니다.", "키오스크가 없는 가게가 많아지고 있습니다."],
+      "answer": 1,
+      "explanationBn": "লেখানুযায়ী কিওস্কে (키오스크) মেনু বাছাই ও পরিশোধ একসাথে হয়—অর্ডার সহজ।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "저는 오늘 친구하고 같이 식당에 갔습니다. 저는 비빔밥을 먹었습니다. 친구는 김치찌개를 먹었습니다. 비빔밥은 맛있었습니다. 김치찌개는 조금 매웠습니다.",
-      "options": [
-        "김치찌개는 매웠습니다.",
-        "비빔밥은 매웠습니다.",
-        "친구는 비빔밥을 먹었습니다.",
-        "저는 김치찌개를 먹었습니다."
-      ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে বলা হয়েছে '김치찌개는 조금 매웠습니다' (কিমচি চিগে একটু ঝাল ছিল)। তাই ৪ নম্বর অপশনটি সঠিক।"
+      "questionBn": "শূন্যস্থানে সঠিক সংখ্যাটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "이 빵 ___ 개 주세요. (2)",
+      "options": ["하나", "둘", "두", "이"],
+      "answer": 2,
+      "explanationBn": "গণনা-শব্দের (개) আগে '둘' → '두' হয়: 두 개।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "메뉴",
-      "options": [
-        "미용",
-        "메뉴",
-        "비누",
-        "마늘"
-      ],
-      "answer": 1,
-      "explanationBn": "অডিওতে '메뉴' (মেনু) বলা হয়েছে, তাই ১ নম্বর অপশনটি সঠিক।"
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক সংযোজকটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "김밥___ 라면을 주세요.",
+      "options": ["과", "와", "을", "이"],
+      "answer": 0,
+      "explanationBn": "'김밥' ব্যঞ্জনবর্ণে (ㅂ) শেষ, তাই '과' বসে: 김밥과 라면।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "뭐 드릴까요?",
-      "options": [
-        "맛있어요.",
-        "네, 있어요.",
-        "비빔밥 주세요.",
-        "조금 매워요."
-      ],
+      "section": "reading",
+      "questionBn": "কোরীয়দের খাবারের রীতি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국 사람들은 주로 밥, 국, 반찬으로 구성된 식사를 합니다. 식당에서 식사할 때는 보통 반찬이 무료로 제공됩니다.",
+      "options": ["한국 사람들은 빵을 주식으로 먹습니다.", "식당에서 반찬은 돈을 내야 합니다.", "한국 사람들은 밥, 국, 반찬으로 식사를 합니다.", "반찬은 혼자 먹는 음식입니다."],
       "answer": 2,
-      "explanationBn": "প্রশ্ন করা হয়েছে '뭐 드릴까요?' (কী দেব?)। এর সঠিক উত্তর হলো '비빔밥 주세요' (বিবিমবাপ দিন)।"
+      "explanationBn": "লেখানুযায়ী কোরীয়রা ভাত, ঝোল আর তরকারি (밥, 국, 반찬) দিয়ে খায়।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "김치찌개가 어때요?",
-      "options": [
-        "김치찌개를 먹어요.",
-        "김치찌개예요.",
-        "식당에 가요.",
-        "조금 매워요."
-      ],
-      "answer": 3,
-      "explanationBn": "প্রশ্ন করা হয়েছে '김치찌개가 어때요?' (কিমচি চিগে কেমন?)। এর সঠিক উত্তর হলো '조금 매워요' (একটু ঝাল)।"
-    },
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক গণনা-শব্দটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "학생 다섯 ___.",
+      "options": ["개", "명", "잔", "병"],
+      "answer": 1,
+      "explanationBn": "মানুষ গোনায় '명' বসে: 다섯 명 (পাঁচজন)।"
+    }
+    ,
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "পরবর্তী ছবিটি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
-      "passage": "(삼겹살 사진)",
-      "options": [
-        "삼겹살입니다.",
-        "불고기입니다.",
-        "비빔밥입니다.",
-        "냉면입니다."
-      ],
+      "questionBn": "শূন্যস্থানে সঠিক সংযোজকটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "어제 뭐 먹었어요? — 김밥___ 라면을 먹었어요.",
+      "options": ["하고", "을", "이", "에"],
       "answer": 0,
-      "explanationBn": "ছবিটি শুকরের মাংসের বারবিকিউ (삼겹살) এর, তাই সঠিক উত্তর '삼겹살입니다'।"
+      "explanationBn": "কথ্যে দুই খাবার জোড়াতে '하고' বসে: 김밥하고 라면।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "পরবর্তী ছবিটি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
-      "passage": "(컵 사진)",
-      "options": [
-        "그릇입니다.",
-        "접시입니다.",
-        "컵입니다.",
-        "숟가락입니다."
-      ],
-      "answer": 2,
-      "explanationBn": "ছবিটি একটি কাপের, তাই সঠিক উত্তর '컵입니다'।"
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "아궁 씨는 비빔밥을 먹습니다. 아미나 씨는 김치찌개를 먹습니다. 두 사람은 물도 마십니다.",
+      "options": ["아궁 씨는 김치찌개를 먹습니다.", "아미나 씨는 비빔밥을 먹습니다.", "두 사람은 물을 마시지 않습니다.", "아미나 씨는 김치찌개를 먹습니다."],
+      "answer": 3,
+      "explanationBn": "লেখানুযায়ী আগুং বিবিমবাপ আর আমিনা কিমচি ঝিগে খাচ্ছে।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 불고기 1인분하고 냉면 하나 주세요.\n나: 네, (  ) 드릴까요?\n가: 아니요, 물만 주세요.",
-      "options": [
-        "반찬",
-        "음료수",
-        "메뉴",
-        "그릇"
-      ],
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: এটি কোন খাবার?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 이것은 비빔밥입니다.\n남자: 네, 맛있어 보여요.",
+      "options": ["김밥", "비빔밥", "자장면", "불고기"],
       "answer": 1,
-      "explanationBn": "উত্তরে '물만 주세요' (শুধু পানি দিন) বলা হয়েছে, তাই প্রশ্নকারী '음료수' (পানীয়) দিতে হবে কি না তা জানতে চেয়েছেন।"
+      "explanationBn": "মহিলা বলেছেন '이것은 비빔밥입니다'—এটি বিবিমবাপ।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 맛있게 드셨어요?\n나: 네, 정말 맛있었어요. 여기 (  )해 주세요.",
-      "options": [
-        "주문",
-        "포장",
-        "요리",
-        "계산"
-      ],
-      "answer": 3,
-      "explanationBn": "খাওয়া শেষ হওয়ার পর বিল পরিশোধ করতে হয়, তাই '계산' (বিল পরিশোধ) সঠিক।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কী অর্ডার করেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 뭐 드시겠어요?\n여자: 치킨 주세요.",
+      "options": ["피자", "치킨", "김밥", "탕수육"],
+      "answer": 1,
+      "explanationBn": "মহিলা বলেছেন '치킨 주세요'—ভাজা মুরগি অর্ডার করেছেন।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "저는 오늘 친구하고 한국 식당에 갔습니다. 저는 매운 음식을 좋아해서 김치찌개를 시켰습니다. 친구는 매운 음식을 못 먹어서 불고기를 시켰습니다. 우리는 맛있게 먹었습니다.",
-      "options": [
-        "저는 불고기를 시켰습니다.",
-        "친구는 매운 음식을 좋아합니다.",
-        "저는 김치찌개를 시켰습니다.",
-        "우리는 집에서 밥을 먹었습니다."
-      ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা হয়েছে '저는 매운 음식을 좋아해서 김치찌개를 시켰습니다' (আমি ঝাল খাবার পছন্দ করি তাই কিমচি চিগে অর্ডার করেছি)। তাই ৩ নম্বর অপশনটি সঠিক।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কী পছন্দ করেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 피자를 좋아해요?\n여자: 아니요, 피자를 싫어해요. 치킨을 좋아해요.",
+      "options": ["피자", "김밥", "라면", "치킨"],
+      "answer": 3,
+      "explanationBn": "মহিলা পিৎজা অপছন্দ করেন, কিন্তু ভাজা মুরগি (치킨) পছন্দ করেন।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "삼겹살",
-      "options": [
-        "삼계탕",
-        "삼겹살",
-        "불고기",
-        "비빔밥"
-      ],
-      "answer": 1,
-      "explanationBn": "অডিওতে '삼겹살' (শুকরের মাংসের বারবিকিউ) বলা হয়েছে, তাই ২ নম্বর অপশনটি সঠিক।"
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি গতকাল কী খেয়েছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 어제 뭐 먹었어요?\n남자: 김밥하고 라면을 먹었어요.",
+      "options": ["피자하고 치킨", "비빔밥하고 불고기", "우동하고 돈가스", "김밥하고 라면"],
+      "answer": 3,
+      "explanationBn": "পুরুষ বলেছেন কিমবাপ আর রাম্যন খেয়েছেন।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "몇 분이세요?",
-      "options": [
-        "비빔밥 주세요.",
-        "두 명이에요.",
-        "조금 매워요.",
-        "맛있어요."
-      ],
-      "answer": 1,
-      "explanationBn": "প্রশ্ন করা হয়েছে '몇 분이세요?' (আপনারা কতজন?)। এর সঠিক উত্তর হলো '두 명이에요' (আমরা দুজন)।"
+      "questionBn": "শুনে বাছাই করুন: দুজনে কী নিয়ে কথা বলছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 뭐가 맛있어요?\n여자: 불고기가 맛있어요.",
+      "options": ["운동", "쇼핑", "취미", "음식"],
+      "answer": 3,
+      "explanationBn": "সুস্বাদু খাবার (불고기) নিয়ে কথা হচ্ছে—বিষয় খাবার (음식)।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "음료수 드릴까요?",
-      "options": [
-        "네, 콜라 주세요.",
-        "아니요, 안 매워요.",
-        "네, 계산해 주세요.",
-        "아니요, 맛있어요."
-      ],
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি কয় কাপ কফি পান করেছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 커피 몇 잔을 마셨어요?\n남자: 두 잔을 마셨어요.",
+      "options": ["두 잔", "세 잔", "한 잔", "네 잔"],
       "answer": 0,
-      "explanationBn": "প্রশ্ন করা হয়েছে '음료수 드릴까요?' (পানীয় কি দেব?)। এর সঠিক উত্তর হলো '네, 콜라 주세요' (হ্যাঁ, কোলা দিন)।"
+      "explanationBn": "পুরুষ বলেছেন '두 잔을 마셨어요'—দুই কাপ পান করেছেন।"
     }
   ]
 }
