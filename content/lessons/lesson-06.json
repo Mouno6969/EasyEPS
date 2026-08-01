@@ -10,276 +10,31 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "দৈনন্দিন রুটিন সম্পর্কে কথা বলতে পারা",
-      "সময় সম্পর্কে জিজ্ঞাসা করা এবং উত্তর দেওয়া",
-      "দৈনন্দিন কাজের সময়সূচী বর্ণনা করা"
+      "সময় (কটা) বলতে পারা",
+      "দৈনন্দিন রুটিন জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "কাজ কোথায় হয় তা জিজ্ঞাসা ও উত্তর দিতে পারা",
+      "কোরীয় অফিস কর্মচারীদের দৈনন্দিন জীবন সম্পর্কে জানা"
     ],
     "en": [
-      "Able to talk about daily routines",
-      "Ask and answer about time",
-      "Describe daily work schedules"
+      "Being able to tell the time",
+      "Being able to ask and answer about daily routines",
+      "Being able to ask and answer where actions take place",
+      "Knowing about the daily life of Korean office workers"
     ]
   },
   "vocabulary": [
     {
-      "ko": "일어나다",
-      "romanization": "ireonada",
-      "bn": "ঘুম থেকে ওঠা",
-      "en": "wake up",
-      "pos": "verb",
-      "example": {
-        "ko": "저는 아침 6시에 일어납니다.",
-        "bn": "আমি সকাল ৬টায় ঘুম থেকে উঠি।",
-        "en": "I wake up at 6 AM."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "씻다",
-      "romanization": "ssitda",
-      "bn": "ধোয়া",
-      "en": "wash",
-      "pos": "verb",
-      "example": {
-        "ko": "아침에 얼굴을 씻어요.",
-        "bn": "সকালে মুখ ধুই।",
-        "en": "I wash my face in the morning."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "아침을 먹다",
-      "romanization": "achimeul meokda",
-      "bn": "সকালের নাস্তা করা",
-      "en": "eat breakfast",
-      "pos": "expression",
-      "example": {
-        "ko": "7시에 아침을 먹어요.",
-        "bn": "৭টায় সকালের নাস্তা করি।",
-        "en": "I eat breakfast at 7 o'clock."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "회사에 가다",
-      "romanization": "hoesa-e gada",
-      "bn": "কোম্পানিতে যাওয়া",
-      "en": "go to work",
-      "pos": "expression",
-      "example": {
-        "ko": "8시에 회사에 가요.",
-        "bn": "৮টায় কোম্পানিতে যাই।",
-        "en": "I go to work at 8 o'clock."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "일하다",
-      "romanization": "ilhada",
-      "bn": "কাজ করা",
-      "en": "work",
-      "pos": "verb",
-      "example": {
-        "ko": "공장에서 일해요.",
-        "bn": "কারখানায় কাজ করি।",
-        "en": "I work at the factory."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "쉬다",
-      "romanization": "swida",
-      "bn": "বিশ্রাম নেওয়া",
-      "en": "rest",
-      "pos": "verb",
-      "example": {
-        "ko": "집에서 쉬어요.",
-        "bn": "বাড়িতে বিশ্রাম নিই।",
-        "en": "I rest at home."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "점심을 먹다",
-      "romanization": "jeomsimeul meokda",
-      "bn": "দুপুরের খাবার খাওয়া",
-      "en": "eat lunch",
-      "pos": "expression",
-      "example": {
-        "ko": "12시에 점심을 먹어요.",
-        "bn": "১২টায় দুপুরের খাবার খাই।",
-        "en": "I eat lunch at 12 o'clock."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "집에 오다",
-      "romanization": "jibe oda",
-      "bn": "বাড়িতে আসা",
-      "en": "come home",
-      "pos": "expression",
-      "example": {
-        "ko": "저녁 6시에 집에 와요.",
-        "bn": "সন্ধ্যা ৬টায় বাড়িতে আসি।",
-        "en": "I come home at 6 PM."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "장을 보다",
-      "romanization": "jangeul boda",
-      "bn": "বাজার করা",
-      "en": "buy groceries",
-      "pos": "expression",
-      "example": {
-        "ko": "시장에서 장을 봐요.",
-        "bn": "বাজারে বাজার করি।",
-        "en": "I buy groceries at the market."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "요리하다",
-      "romanization": "yorihada",
-      "bn": "রান্না করা",
-      "en": "cook",
-      "pos": "verb",
-      "example": {
-        "ko": "저녁을 요리해요.",
-        "bn": "রাতের খাবার রান্না করি।",
-        "en": "I cook dinner."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "저녁을 먹다",
-      "romanization": "jeonyeogeul meokda",
-      "bn": "রাতের খাবার খাওয়া",
-      "en": "eat dinner",
-      "pos": "expression",
-      "example": {
-        "ko": "가족과 저녁을 먹어요.",
-        "bn": "পরিবারের সাথে রাতের খাবার খাই।",
-        "en": "I eat dinner with my family."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "커피를 마시다",
-      "romanization": "keopireul masida",
-      "bn": "কফি পান করা",
-      "en": "drink coffee",
-      "pos": "expression",
-      "example": {
-        "ko": "식당에서 커피를 마셔요.",
-        "bn": "রেস্তোরাঁয় কফি পান করি।",
-        "en": "I drink coffee at the restaurant."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "운동하다",
-      "romanization": "undonghada",
-      "bn": "ব্যায়াম করা",
-      "en": "exercise",
-      "pos": "verb",
-      "example": {
-        "ko": "공원에서 운동해요.",
-        "bn": "পার্কে ব্যায়াম করি।",
-        "en": "I exercise at the park."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "텔레비전을 보다",
-      "romanization": "tellebijeoneul boda",
-      "bn": "টেলিভিশন দেখা",
-      "en": "watch television",
-      "pos": "expression",
-      "example": {
-        "ko": "밤에 텔레비전을 봐요.",
-        "bn": "রাতে টেলিভিশন দেখি।",
-        "en": "I watch television at night."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "전화하다",
-      "romanization": "jeonhwahada",
-      "bn": "ফোন করা",
-      "en": "make a phone call",
-      "pos": "verb",
-      "example": {
-        "ko": "친구에게 전화해요.",
-        "bn": "বন্ধুকে ফোন করি।",
-        "en": "I call my friend."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "자다",
-      "romanization": "jada",
-      "bn": "ঘুমানো",
-      "en": "sleep",
-      "pos": "verb",
-      "example": {
-        "ko": "밤 11시에 자요.",
-        "bn": "রাত ১১টায় ঘুমাই।",
-        "en": "I sleep at 11 PM."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "지금",
-      "romanization": "jigeum",
-      "bn": "এখন",
-      "en": "now",
+      "ko": "시",
+      "romanization": "si",
+      "bn": "টা/ঘণ্টা (সময়)",
+      "en": "o'clock; hour",
       "pos": "noun",
       "example": {
         "ko": "지금 몇 시예요?",
-        "bn": "এখন কয়টা বাজে?",
+        "bn": "এখন কটা বাজে?",
         "en": "What time is it now?"
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "오늘",
-      "romanization": "oneul",
-      "bn": "আজ",
-      "en": "today",
-      "pos": "noun",
-      "example": {
-        "ko": "오늘은 일해요.",
-        "bn": "আজ কাজ করি।",
-        "en": "I work today."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "시간",
-      "romanization": "sigan",
-      "bn": "সময়",
-      "en": "time",
-      "pos": "noun",
-      "example": {
-        "ko": "시간이 없어요.",
-        "bn": "সময় নেই।",
-        "en": "I don't have time."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "시",
-      "romanization": "si",
-      "bn": "টা (ঘণ্টা)",
-      "en": "o'clock",
-      "pos": "noun",
-      "example": {
-        "ko": "지금 2시예요.",
-        "bn": "এখন ২টা বাজে।",
-        "en": "It is 2 o'clock now."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'시' [শি]—নরম 'শ' দিয়ে বলুন; সংখ্যার সাথে: 한 시, 두 시।"
     },
     {
       "ko": "분",
@@ -288,154 +43,89 @@
       "en": "minute",
       "pos": "noun",
       "example": {
-        "ko": "30분입니다.",
-        "bn": "৩০ মিনিট।",
-        "en": "It is 30 minutes."
+        "ko": "몇 시 몇 분이에요?",
+        "bn": "কটা কত মিনিট?",
+        "en": "What time (hour and minute) is it?"
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'분' [বুন]—মিনিটে চীনা সংখ্যা বসে: 오 분, 십 분।"
     },
     {
       "ko": "반",
       "romanization": "ban",
-      "bn": "অর্ধেক (সাড়ে)",
-      "en": "half",
+      "bn": "সাড়ে/আধা",
+      "en": "half (half past)",
       "pos": "noun",
       "example": {
-        "ko": "1시 반이에요.",
-        "bn": "দেড়টা বাজে।",
-        "en": "It is half past one."
+        "ko": "5시 반입니다.",
+        "bn": "সাড়ে পাঁচটা।",
+        "en": "It is half past five."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "퇴근하다",
-      "romanization": "toegeunhada",
-      "bn": "কাজ শেষ করে বাড়ি ফেরা",
-      "en": "leave work",
-      "pos": "verb",
-      "example": {
-        "ko": "6시에 퇴근해요.",
-        "bn": "৬টায় কাজ শেষ করে বাড়ি ফিরি।",
-        "en": "I leave work at 6 o'clock."
-      },
-      "pronunciationTipBn": "'퇴' উচ্চারণ করার সময় ঠোঁট গোল করে 'থোয়ে' এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "샤워하다",
-      "romanization": "syawohada",
-      "bn": "গোসল করা",
-      "en": "take a shower",
-      "pos": "verb",
-      "example": {
-        "ko": "아침에 샤워해요.",
-        "bn": "সকালে গোসল করি।",
-        "en": "I take a shower in the morning."
-      },
-      "pronunciationTipBn": "'샤' উচ্চারণ করার সময় 'শ্যা' এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "청소하다",
-      "romanization": "cheongsohada",
-      "bn": "পরিষ্কার করা",
-      "en": "clean",
-      "pos": "verb",
-      "example": {
-        "ko": "주말에 집을 청소해요.",
-        "bn": "সপ্তাহান্তে বাড়ি পরিষ্কার করি।",
-        "en": "I clean the house on weekends."
-      },
-      "pronunciationTipBn": "'청' এর 'ㅊ' হলো মহাপ্রাণ ধ্বনি, তাই 'ছং' এর মতো বাতাস বের করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "빨래하다",
-      "romanization": "ppallaehada",
-      "bn": "কাপড় ধোয়া",
-      "en": "do laundry",
-      "pos": "verb",
-      "example": {
-        "ko": "일요일에 빨래해요.",
-        "bn": "রবিবারে কাপড় ধুই।",
-        "en": "I do laundry on Sunday."
-      },
-      "pronunciationTipBn": "'빨' এর 'ㅃ' হলো দ্বিত্ব ব্যঞ্জনবর্ণ, তাই শক্ত করে 'প্পাল' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "출근하다",
-      "romanization": "chulgeunhada",
-      "bn": "কাজে যাওয়া",
-      "en": "go to work",
-      "pos": "verb",
-      "example": {
-        "ko": "아침 8시에 출근해요.",
-        "bn": "সকাল ৮টায় কাজে যাই।",
-        "en": "I go to work at 8 AM."
-      },
-      "pronunciationTipBn": "'출' এর 'ㅊ' মহাপ্রাণ ধ্বনি, 'ছুল' এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "야근하다",
-      "romanization": "yageunhada",
-      "bn": "ওভারটাইম কাজ করা",
-      "en": "work overtime",
-      "pos": "verb",
-      "example": {
-        "ko": "오늘 야근해요.",
-        "bn": "আজ ওভারটাইম কাজ করি।",
-        "en": "I work overtime today."
-      },
-      "pronunciationTipBn": "'야' উচ্চারণ করার সময় 'ইয়া' এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "'반' [বান]—'시'-এর পরে বসে: 5시 반 = সাড়ে পাঁচটা।"
     },
     {
       "ko": "오전",
       "romanization": "ojeon",
-      "bn": "সকাল (এএম)",
-      "en": "morning (AM)",
+      "bn": "পূর্বাহ্ণ (দুপুর ১২টার আগে)",
+      "en": "a.m.; morning (before noon)",
       "pos": "noun",
       "example": {
-        "ko": "오전 10시에 회의가 있어요.",
-        "bn": "সকাল ১০টায় মিটিং আছে।",
-        "en": "There is a meeting at 10 AM."
+        "ko": "오전 9시에 출근합니다.",
+        "bn": "পূর্বাহ্ণ ৯টায় কর্মস্থলে যাই।",
+        "en": "I go to work at 9 a.m."
       },
-      "pronunciationTipBn": "'오' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "'오전' [অজন]—ㅈ নরম 'জ'; 오전 = AM, 오후 = PM মনে রাখুন।"
     },
     {
       "ko": "오후",
       "romanization": "ohu",
-      "bn": "বিকাল (পিএম)",
-      "en": "afternoon (PM)",
+      "bn": "অপরাহ্ণ (দুপুর ১২টার পরে)",
+      "en": "p.m.; afternoon",
       "pos": "noun",
       "example": {
-        "ko": "오후 2시에 만나요.",
-        "bn": "বিকাল ২টায় দেখা করি।",
-        "en": "Let's meet at 2 PM."
+        "ko": "오후 6시에 퇴근합니다.",
+        "bn": "অপরাহ্ণ ৬টায় কর্মস্থল থেকে ফিরি।",
+        "en": "I leave work at 6 p.m."
       },
-      "pronunciationTipBn": "'후' এর 'ㅎ' উচ্চারণ করার সময় গলা থেকে বাতাস বের করুন।"
+      "pronunciationTipBn": "'오후' [অহু]—দুই অক্ষর মিলিয়ে দ্রুত বলুন।"
     },
     {
-      "ko": "낮",
-      "romanization": "nat",
-      "bn": "দিন",
-      "en": "daytime",
+      "ko": "아침",
+      "romanization": "achim",
+      "bn": "সকাল",
+      "en": "morning",
       "pos": "noun",
       "example": {
-        "ko": "낮에는 일해요.",
-        "bn": "দিনে কাজ করি।",
-        "en": "I work during the day."
+        "ko": "아침 7시에 일어나요.",
+        "bn": "সকাল ৭টায় ঘুম থেকে উঠি।",
+        "en": "I get up at 7 in the morning."
       },
-      "pronunciationTipBn": "'낮' এর 'ㅈ' বাচিম হিসেবে 'ত' এর মতো উচ্চারিত হয়, তাই 'নাত' উচ্চারণ করুন।"
+      "pronunciationTipBn": "'아침' [আছিম]—ㅊ শক্ত 'ছ' শোনায়।"
     },
     {
-      "ko": "밤",
-      "romanization": "bam",
-      "bn": "রাত",
-      "en": "night",
+      "ko": "점심",
+      "romanization": "jeomsim",
+      "bn": "দুপুর/দুপুরের খাবার",
+      "en": "noon; lunch",
       "pos": "noun",
       "example": {
-        "ko": "밤에 잠을 자요.",
-        "bn": "রাতে ঘুমাই।",
-        "en": "I sleep at night."
+        "ko": "12시에 점심을 먹어요.",
+        "bn": "১২টায় দুপুরের খাবার খাই।",
+        "en": "I eat lunch at twelve."
       },
-      "pronunciationTipBn": "'밤' এর 'ㅁ' বাচিম হিসেবে 'ম' এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'점심' [জমশিম]—ㅅ বত্ছিমের পরে ㅅ জোরে হয়।"
+    },
+    {
+      "ko": "저녁",
+      "romanization": "jeonyeok",
+      "bn": "সন্ধ্যা/রাতের খাবার",
+      "en": "evening; dinner",
+      "pos": "noun",
+      "example": {
+        "ko": "저녁 8시에 집에 가요.",
+        "bn": "সন্ধ্যা ৮টায় বাড়ি যাই।",
+        "en": "I go home at 8 in the evening."
+      },
+      "pronunciationTipBn": "'저녁' [জন্যok্]—ㄱ বত্ছিম থামা শব্দ।"
     },
     {
       "ko": "새벽",
@@ -446,224 +136,435 @@
       "example": {
         "ko": "새벽 5시에 일어나요.",
         "bn": "ভোর ৫টায় ঘুম থেকে উঠি।",
-        "en": "I wake up at 5 AM."
+        "en": "I get up at 5 a.m. (dawn)."
       },
-      "pronunciationTipBn": "'벽' এর 'ㄱ' বাচিম হিসেবে 'ক' এর মতো উচ্চারিত হয়, তাই 'সেবিয়ক' উচ্চারণ করুন।"
+      "pronunciationTipBn": "'새벽' [স্যেব্যok্]—'새' বলতে 'স্যে' মুখ আধা খুলে।"
     },
     {
-      "ko": "아침",
-      "romanization": "achim",
-      "bn": "সকাল",
-      "en": "morning",
+      "ko": "낮",
+      "romanization": "nat",
+      "bn": "দিনের বেলা",
+      "en": "daytime",
       "pos": "noun",
       "example": {
-        "ko": "아침에 운동해요.",
-        "bn": "সকালে ব্যায়াম করি।",
-        "en": "I exercise in the morning."
+        "ko": "낮에 일해요.",
+        "bn": "দিনের বেলা কাজ করি।",
+        "en": "I work during the day."
       },
-      "pronunciationTipBn": "'침' এর 'ㅊ' মহাপ্রাণ ধ্বনি, 'ছিম' এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "'낮' [নাত্]—ㅈ বত্ছিম থামা 'ত্' শব্দ।"
+    }
+    ,
+    {
+      "ko": "밤",
+      "romanization": "bam",
+      "bn": "রাত",
+      "en": "night",
+      "pos": "noun",
+      "example": {
+        "ko": "밤 11시에 자요.",
+        "bn": "রাত ১১টায় ঘুমাই।",
+        "en": "I sleep at 11 p.m."
+      },
+      "pronunciationTipBn": "'밤' [বাম]—ㅂ নরম 'ব', ㅁ বত্ছিম 'ম' দিয়ে শেষ।"
     },
     {
-      "ko": "점심",
-      "romanization": "jeomsim",
-      "bn": "দুপুর",
-      "en": "noon",
+      "ko": "몇 시",
+      "romanization": "myeot si",
+      "bn": "কটা (কোন সময়)",
+      "en": "what time",
+      "pos": "pronoun",
+      "example": {
+        "ko": "몇 시에 출근합니까?",
+        "bn": "কটায় কর্মস্থলে যান?",
+        "en": "What time do you go to work?"
+      },
+      "pronunciationTipBn": "'몇' [মিয়ত্]—ㅊ বত্ছিম থামা 'ত্'; '몇 시에' = কটায়।"
+    },
+    {
+      "ko": "보통",
+      "romanization": "botong",
+      "bn": "সাধারণত",
+      "en": "usually",
       "pos": "noun",
       "example": {
-        "ko": "점심에 친구를 만나요.",
-        "bn": "দুপুরে বন্ধুর সাথে দেখা করি।",
-        "en": "I meet a friend at noon."
+        "ko": "보통 10시에 잡니다.",
+        "bn": "সাধারণত ১০টায় ঘুমাই।",
+        "en": "I usually sleep at ten."
       },
-      "pronunciationTipBn": "'점' এর 'ㅈ' সাধারণ ধ্বনি, 'চম' এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "'보통' [বোথং]—ㅌ ঝোঁড়া 'থ' বাতাসসহ।"
+    },
+    {
+      "ko": "요즘",
+      "romanization": "yojeum",
+      "bn": "ইদানীং",
+      "en": "these days",
+      "pos": "noun",
+      "example": {
+        "ko": "요즘 운동해요.",
+        "bn": "ইদানীং ব্যায়াম করি।",
+        "en": "I exercise these days."
+      },
+      "pronunciationTipBn": "'요즘' [য়োজুম]—ㅈ নরম 'জ' শোনায়।"
+    },
+    {
+      "ko": "일어나다",
+      "romanization": "ireonada",
+      "bn": "ঘুম থেকে ওঠা",
+      "en": "to get up; to wake up",
+      "pos": "verb",
+      "example": {
+        "ko": "아침 6시에 일어나요.",
+        "bn": "সকাল ৬টায় ঘুম থেকে উঠি।",
+        "en": "I get up at 6 a.m."
+      },
+      "pronunciationTipBn": "'일어나요' [ইরনায়ো]—ㄹ+ㅇ মিলে 'র্না' শোনায়।"
+    },
+    {
+      "ko": "씻다",
+      "romanization": "ssitda",
+      "bn": "ধোয়া/গোসল করা",
+      "en": "to wash",
+      "pos": "verb",
+      "example": {
+        "ko": "아침에 씻어요.",
+        "bn": "সকালে গোসল করি।",
+        "en": "I wash in the morning."
+      },
+      "pronunciationTipBn": "'씻' জোড়া ㅆ—শক্ত 'স্' চাপ দিয়ে; '씻어요' [শিসয়ো]।"
+    },
+    {
+      "ko": "이를 닦다",
+      "romanization": "ireul dakda",
+      "bn": "দাঁত মাজা",
+      "en": "to brush one's teeth",
+      "pos": "verb",
+      "example": {
+        "ko": "아침에 이를 닦아요.",
+        "bn": "সকালে দাঁত মাজি।",
+        "en": "I brush my teeth in the morning."
+      },
+      "pronunciationTipBn": "'닦아요' [দাক্কায়ো]—ㄱ+ㅇ মিলে জোরে 'ক্ক' শোনায়।"
+    },
+    {
+      "ko": "식사하다",
+      "romanization": "siksahada",
+      "bn": "খাবার খাওয়া (ভোজন করা)",
+      "en": "to have a meal",
+      "pos": "verb",
+      "example": {
+        "ko": "12시에 식사해요.",
+        "bn": "১২টায় খাবার খাই।",
+        "en": "I have a meal at twelve."
+      },
+      "pronunciationTipBn": "'식사' [শিক্সা]—ㄱ বত্ছিমের পরে ㅅ জোরে হয়।"
+    },
+    {
+      "ko": "출근하다",
+      "romanization": "chulgeunhada",
+      "bn": "কর্মস্থলে যাওয়া",
+      "en": "to go to work",
+      "pos": "verb",
+      "example": {
+        "ko": "9시에 출근합니다.",
+        "bn": "৯টায় কর্মস্থলে যাই।",
+        "en": "I go to work at nine."
+      },
+      "pronunciationTipBn": "'출근' [ছুলগুন]—ㅊ শক্ত 'ছ'; ㄹ বত্ছিম স্পষ্ট।"
+    },
+    {
+      "ko": "퇴근하다",
+      "romanization": "toegeunhada",
+      "bn": "কর্মস্থল থেকে ফেরা",
+      "en": "to leave work",
+      "pos": "verb",
+      "example": {
+        "ko": "6시에 퇴근합니다.",
+        "bn": "৬টায় কর্মস্থল থেকে ফিরি।",
+        "en": "I leave work at six."
+      },
+      "pronunciationTipBn": "'퇴' [থোএ/থে]—'ㅚ' এক স্বরে 'ওএ' বা 'ওই' মিলিয়ে।"
+    },
+    {
+      "ko": "게임하다",
+      "romanization": "geimhada",
+      "bn": "গেম খেলা",
+      "en": "to play a game",
+      "pos": "verb",
+      "example": {
+        "ko": "저녁에 게임해요.",
+        "bn": "সন্ধ্যায় গেম খেলি।",
+        "en": "I play games in the evening."
+      },
+      "pronunciationTipBn": "ইংরেজি 'game'-এর কোরীয় রূপ—'게임' [গেইম]।"
+    },
+    {
+      "ko": "청소하다",
+      "romanization": "cheongsohada",
+      "bn": "পরিষ্কার করা",
+      "en": "to clean",
+      "pos": "verb",
+      "example": {
+        "ko": "주말에 청소해요.",
+        "bn": "সপ্তাহান্তে পরিষ্কার করি।",
+        "en": "I clean on the weekend."
+      },
+      "pronunciationTipBn": "'청' [ছঙ]—ㅊ শক্ত 'ছ' নাকিধ্বনিসহ।"
+    }
+    ,
+    {
+      "ko": "장을 보다",
+      "romanization": "jangeul boda",
+      "bn": "মুদি কেনা",
+      "en": "to go grocery shopping",
+      "pos": "verb",
+      "example": {
+        "ko": "마트에서 장을 봐요.",
+        "bn": "মার্টে মুদি কিনি।",
+        "en": "I shop for groceries at the mart."
+      },
+      "pronunciationTipBn": "'장을' [জাঙুল]—ㅇ+ㅇ মিলে 'ঙু' শোনায়।"
+    },
+    {
+      "ko": "산책하다",
+      "romanization": "sanchaekhada",
+      "bn": "হাঁটাহাঁটি করা",
+      "en": "to take a walk",
+      "pos": "verb",
+      "example": {
+        "ko": "공원에서 산책해요.",
+        "bn": "পার্কে হাঁটাহাঁটি করি।",
+        "en": "I take a walk in the park."
+      },
+      "pronunciationTipBn": "'책' [ছ্যেক্]—ㅊ শক্ত 'ছ'; '산책' [সানছ্যেক্]।"
+    },
+    {
+      "ko": "샤워하다",
+      "romanization": "syawohada",
+      "bn": "শাওয়ার নেওয়া",
+      "en": "to take a shower",
+      "pos": "verb",
+      "example": {
+        "ko": "저녁에 샤워해요.",
+        "bn": "সন্ধ্যায় শাওয়ার নিই।",
+        "en": "I take a shower in the evening."
+      },
+      "pronunciationTipBn": "ইংরেজি 'shower'-এর কোরীয় রূপ—'샤워' [স্যাওয়ো]।"
+    },
+    {
+      "ko": "친구를 만나다",
+      "romanization": "chingureul mannada",
+      "bn": "বন্ধুর সাথে দেখা করা",
+      "en": "to meet a friend",
+      "pos": "verb",
+      "example": {
+        "ko": "커피숍에서 친구를 만나요.",
+        "bn": "কফি শপে বন্ধুর সাথে দেখা করি।",
+        "en": "I meet a friend at the coffee shop."
+      },
+      "pronunciationTipBn": "'만나요' [মান্নায়ো]—ㄴ+ㄴ জোড়া 'ন্ন' শোনায়।"
+    },
+    {
+      "ko": "사다",
+      "romanization": "sada",
+      "bn": "কেনা",
+      "en": "to buy",
+      "pos": "verb",
+      "example": {
+        "ko": "편의점에서 주스를 사요.",
+        "bn": "কনভিনিয়েন্স স্টোরে জুস কিনি।",
+        "en": "I buy juice at the convenience store."
+      },
+      "pronunciationTipBn": "'사다' [সাদা]—ㄷ নরম 'দ'; '사요' [সায়ো]।"
+    },
+    {
+      "ko": "야근하다",
+      "romanization": "yageunhada",
+      "bn": "ওভারটাইম করা",
+      "en": "to work overtime",
+      "pos": "verb",
+      "example": {
+        "ko": "오늘 야근해요.",
+        "bn": "আজ ওভারটাইম করি।",
+        "en": "I work overtime today."
+      },
+      "pronunciationTipBn": "'야근' [য়াগুন]—ㅇ+ㄱ মিলে নরম 'গ' শোনায়।"
+    },
+    {
+      "ko": "회식하다",
+      "romanization": "hoesikhada",
+      "bn": "অফিসের টিম ডিনার করা",
+      "en": "to have a company dinner",
+      "pos": "verb",
+      "example": {
+        "ko": "금요일에 회식해요.",
+        "bn": "শুক্রবার টিম ডিনার করি।",
+        "en": "We have a company dinner on Friday."
+      },
+      "pronunciationTipBn": "'회' [হোএ/হে]—'ㅚ' এক স্বরে মিলিয়ে; '회식' [হোএশিক]।"
+    },
+    {
+      "ko": "휴게실",
+      "romanization": "hyugesil",
+      "bn": "বিশ্রাম কক্ষ (লাউঞ্জ)",
+      "en": "lounge; break room",
+      "pos": "noun",
+      "example": {
+        "ko": "휴게실에서 쉬어요.",
+        "bn": "লাউঞ্জে বিশ্রাম নিই।",
+        "en": "I rest in the lounge."
+      },
+      "pronunciationTipBn": "'휴' [হিউ]—'h'+'উ'+'ই' একটানা; '실' [শিল]।"
+    },
+    {
+      "ko": "매점",
+      "romanization": "maejeom",
+      "bn": "স্ন্যাক বার/ক্যান্টিন",
+      "en": "snack bar",
+      "pos": "noun",
+      "example": {
+        "ko": "매점에서 과자를 사요.",
+        "bn": "স্ন্যাক বারে বিস্কুট কিনি।",
+        "en": "I buy snacks at the snack bar."
+      },
+      "pronunciationTipBn": "'매점' [ম্যেজম]—ㅈ নরম 'জ' শোনায়।"
+    },
+    {
+      "ko": "공원",
+      "romanization": "gongwon",
+      "bn": "পার্ক",
+      "en": "park",
+      "pos": "noun",
+      "example": {
+        "ko": "공원에서 운동해요.",
+        "bn": "পার্কে ব্যায়াম করি।",
+        "en": "I exercise in the park."
+      },
+      "pronunciationTipBn": "'공원' [গংওন]—দুই অক্ষর মিলিয়ে দ্রুত বলুন।"
+    },
+    {
+      "ko": "구내식당",
+      "romanization": "gunaesikdang",
+      "bn": "অফিসের ভেতরের ক্যাফেটেরিয়া",
+      "en": "company cafeteria",
+      "pos": "noun",
+      "example": {
+        "ko": "구내식당에서 점심을 먹어요.",
+        "bn": "ক্যাফেটেরিয়ায় দুপুরের খাবার খাই।",
+        "en": "I eat lunch at the company cafeteria."
+      },
+      "pronunciationTipBn": "'구내식당' [গুন্যেশিকদাং]—দীর্ঘ শব্দ ভাগ করে বলুন।"
+    },
+    {
+      "ko": "회식",
+      "romanization": "hoesik",
+      "bn": "অফিসের টিম ডিনার",
+      "en": "company dinner",
+      "pos": "noun",
+      "example": {
+        "ko": "금요일에 회식이 있어요.",
+        "bn": "শুক্রবার টিম ডিনার আছে।",
+        "en": "There is a company dinner on Friday."
+      },
+      "pronunciationTipBn": "'회식' [হোএশিক]—'회' এক স্বরে মিলিয়ে বলুন।"
     }
   ],
   "grammar": [
     {
-      "pattern": "V/A + 아요/어요",
-      "titleBn": "অনানুষ্ঠানিক ভদ্রসূচক সমাপ্তি",
-      "explanationBn": "এটি কোরিয়ান ভাষার একটি সাধারণ এবং অনানুষ্ঠানিক ভদ্রসূচক বাক্য সমাপ্তি। ক্রিয়াপদ বা বিশেষণের মূল অংশের শেষ স্বরবর্ণ যদি 'ㅏ' বা 'ㅗ' হয়, তবে '-아요' যুক্ত হয়। অন্য স্বরবর্ণ হলে '-어요' যুক্ত হয়। '하다' থাকলে তা '해요' হয়ে যায়।",
-      "explanationEn": "This is a common informal polite sentence ending in Korean. If the last vowel of the verb or adjective stem is 'ㅏ' or 'ㅗ', '-아요' is added. For other vowels, '-어요' is added. '하다' becomes '해요'.",
+      "pattern": "V/A + -(스)ㅂ니다 / -(스)ㅂ니까?",
+      "titleBn": "আনুষ্ঠানিক বিনয়ী প্রান্তিক",
+      "explanationBn": "আনুষ্ঠানিক পরিস্থিতিতে (অফিস, সাক্ষাৎ) বাক্য শেষ করতে '-(스)ㅂ니다' (বিবৃতি) ও '-(스)ㅂ니까?' (প্রশ্ন) ব্যবহৃত হয়। বত্ছিম থাকলে '-습니다/습니까' (먹다→먹습니다), বত্ছিম না থাকলে বা ㄹ বত্ছিমে '-ㅂ니다/ㅂ니까' (보다→봅니다)।",
+      "explanationEn": "Formal-polite endings for formal settings: -(스)ㅂ니다 for statements, -(스)ㅂ니까? for questions. After a consonant use -습니다 (먹다→먹습니다); after a vowel or ㄹ use -ㅂ니다 (보다→봅니다).",
       "examples": [
-        {
-          "ko": "저는 아침을 먹어요.",
-          "bn": "আমি সকালের নাস্তা খাই।",
-          "en": "I eat breakfast."
-        },
-        {
-          "ko": "텔레비전을 봐요.",
-          "bn": "টেলিভিশন দেখি।",
-          "en": "I watch television."
-        },
-        {
-          "ko": "매일 운동해요.",
-          "bn": "প্রতিদিন ব্যায়াম করি।",
-          "en": "I exercise every day."
-        }
+        { "ko": "푸캄 씨는 지금 기숙사에 있습니다.", "bn": "ফুকাম এখন ডরমিটরিতে আছে।", "en": "Phukham is in the dormitory now." },
+        { "ko": "프엉 씨는 몇 시에 잡니까?", "bn": "ফুং কটায় ঘুমান?", "en": "What time does Phuong sleep?" },
+        { "ko": "아미나 씨는 12시에 점심을 먹었습니다.", "bn": "আমিনা ১২টায় দুপুরের খাবার খেয়েছেন।", "en": "Amina ate lunch at twelve." }
       ],
-      "commonMistakeBn": "শিক্ষার্থীরা প্রায়ই এই ব্যাকরণটি ভুলভাবে ব্যবহার করে। সঠিক ব্যবহারের জন্য উদাহরণগুলো মনোযোগ দিয়ে পড়ুন।"
+      "commonMistakeBn": "বত্ছিমযুক্ত ক্রিয়ায় 'ㅂ니다' বসানো ভুল—যেমন '먹ㅂ니다'। বত্ছিম থাকলে '-습니다' বসবে: 먹습니다।"
     },
     {
-      "pattern": "N + 에",
-      "titleBn": "সময় নির্দেশক কণা",
-      "explanationBn": "এটি সময়ের সাথে যুক্ত হয়ে কোনো কাজ কখন ঘটে তা নির্দেশ করে। এটি বাংলা 'এ' বা 'তে' বিভক্তির মতো কাজ করে। তবে '오늘' (আজ), '내일' (আগামীকাল), '어제' (গতকাল), '지금' (এখন) ইত্যাদির সাথে এটি যুক্ত হয় না।",
-      "explanationEn": "This particle is attached to time nouns to indicate when an action takes place. It is not used with words like '오늘' (today), '내일' (tomorrow), '어제' (yesterday), or '지금' (now).",
+      "pattern": "N + 에서",
+      "titleBn": "কর্মস্থানসূচক পার্টিকেল '에서'",
+      "explanationBn": "জায়গার বিশেষ্যের পরে '에서' বসে বোঝায় কোনো কাজ কোথায় ঘটছে—বাংলার '-তে/-য় (কাজ করার জায়গা)'। মনে রাখুন: '에' = অবস্থান/গন্তব্য (chapter 3-4), '에서' = কাজের জায়গা।",
+      "explanationEn": "에서 attaches to a place noun to mark where an action takes place. Compare: 에 marks location of existence or destination; 에서 marks the location of an action.",
       "examples": [
-        {
-          "ko": "아침 7시에 일어나요.",
-          "bn": "সকাল ৭টায় ঘুম থেকে উঠি।",
-          "en": "I wake up at 7 AM."
-        },
-        {
-          "ko": "12시 30분에 점심을 먹어요.",
-          "bn": "১২টা ৩০ মিনিটে দুপুরের খাবার খাই।",
-          "en": "I eat lunch at 12:30."
-        },
-        {
-          "ko": "오늘 운동해요.",
-          "bn": "আজ ব্যায়াম করি।",
-          "en": "I exercise today."
-        }
+        { "ko": "아지자 씨는 공원에서 운동을 해요.", "bn": "আজিজা পার্কে ব্যায়াম করে।", "en": "Aziza exercises in the park." },
+        { "ko": "다라 씨는 휴게실에서 신문을 읽습니다.", "bn": "দারা লাউঞ্জে সংবাদপত্র পড়ে।", "en": "Dara reads the newspaper in the lounge." },
+        { "ko": "마두 씨는 편의점에서 주스를 삽니다.", "bn": "মাদু কনভিনিয়েন্স স্টোরে জুস কেনে।", "en": "Madu buys juice at the convenience store." }
       ],
-      "commonMistakeBn": "শিক্ষার্থীরা প্রায়ই এই ব্যাকরণটি ভুলভাবে ব্যবহার করে। সঠিক ব্যবহারের জন্য উদাহরণগুলো মনোযোগ দিয়ে পড়ুন।"
+      "commonMistakeBn": "অবস্থান বোঝাতে '에서' বসানো ভুল—যেমন '집에서 있어요'। 있어요-এর সাথে '에' বসে: 집에 있어요।"
+    }
+    ,
+    {
+      "pattern": "에 vs 에서",
+      "titleBn": "'에' আর '에서'-এর পার্থক্য",
+      "explanationBn": "'에' = কেউ/কিছু কোথায় আছে (অবস্থান) বা কোথায় যাচ্ছে (গন্তব্য); '에서' = কোনো কাজ কোথায় ঘটছে (কর্মস্থান)। দুটোই জায়গার পরে বসে, কিন্তু কাজ এক নয়।",
+      "explanationEn": "에 marks where someone/something is (location) or where they are going (destination); 에서 marks where an action happens. Both attach to place nouns but with different roles.",
+      "examples": [
+        { "ko": "유수프 씨는 공원에 있어요.", "bn": "ইউসুফ পার্কে আছে।", "en": "Yusuf is at the park." },
+        { "ko": "유수프 씨는 공원에서 운동해요.", "bn": "ইউসুফ পার্কে ব্যায়াম করে।", "en": "Yusuf exercises in the park." },
+        { "ko": "왕민 씨는 기숙사에서 청소해요.", "bn": "ওয়াংমিন ডরমিটরিতে পরিষ্কার করে।", "en": "Wangmin cleans in the dormitory." }
+      ],
+      "commonMistakeBn": "'공원에 운동해요' বলা ভুল—কাজ ঘটার জায়গায় '에서' বসে: 공원에서 운동해요।"
     },
     {
-      "pattern": "N + 부터 N + 까지",
-      "titleBn": "সময় নির্দেশক (থেকে... পর্যন্ত)",
-      "explanationBn": "এটি সময়ের শুরু এবং শেষ বোঝাতে ব্যবহৃত হয়। '부터' অর্থ 'থেকে' এবং '까지' অর্থ 'পর্যন্ত'।",
-      "explanationEn": "This is used to indicate the beginning and end of time. '부터' means 'from' and '까지' means 'to/until'.",
+      "pattern": "몇 시예요? / N시(반)에 V",
+      "titleBn": "সময় বলা ও জিজ্ঞাসা করা",
+      "explanationBn": "সময় জিজ্ঞাসা করতে '몇 시예요?' (কটা?) বলুন। ঘণ্টায় দেশি সংখ্যা (한 시, 두 시, 세 시...) বসে, আর মিনিটে চীনা সংখ্যা; 'সাড়ে' বোঝাতে '반' বসে: 5시 반 = সাড়ে পাঁচটা। সময় উল্লেখ করে কাজ বলতে '에' বসে।",
+      "explanationEn": "Ask 몇 시예요? for the time. Hours take native numbers (한 시, 두 시...), minutes take Sino numbers, and 반 means 'half past': 5시 반 = 5:30. Use 에 after the time when saying what you do.",
       "examples": [
-        {
-          "ko": "오전 9시부터 오후 6시까지 일해요.",
-          "bn": "সকাল ৯টা থেকে বিকাল ৬টা পর্যন্ত কাজ করি।",
-          "en": "I work from 9 AM to 6 PM."
-        },
-        {
-          "ko": "월요일부터 금요일까지 회사에 가요.",
-          "bn": "সোমবার থেকে শুক্রবার পর্যন্ত কোম্পানিতে যাই।",
-          "en": "I go to work from Monday to Friday."
-        },
-        {
-          "ko": "1시부터 2시까지 점심 시간이에요.",
-          "bn": "১টা থেকে ২টা পর্যন্ত দুপুরের খাবারের সময়।",
-          "en": "Lunch time is from 1 PM to 2 PM."
-        }
+        { "ko": "지금 몇 시예요? 5시 반입니다.", "bn": "এখন কটা? সাড়ে পাঁচটা।", "en": "What time is it? It is 5:30." },
+        { "ko": "몇 시에 일어나요? 6시에 일어나요.", "bn": "কটায় উঠো? ৬টায় উঠি।", "en": "What time do you get up? At six." },
+        { "ko": "열두 시 반에 점심을 먹었습니다.", "bn": "সাড়ে বারোটায় দুপুরের খাবার খেয়েছি।", "en": "I ate lunch at 12:30." }
       ],
-      "commonMistakeBn": "অনেকে স্থানের ক্ষেত্রে '부터' ব্যবহার করেন, কিন্তু স্থানের ক্ষেত্রে '에서' ব্যবহৃত হয়। '부터' শুধুমাত্র সময়ের ক্ষেত্রে ব্যবহৃত হয়।"
+      "commonMistakeBn": "ঘণ্টা বলতে চীনা সংখ্যা (삼 시, 사 시) বলা ভুল—ঘণ্টায় দেশি সংখ্যা বসে: 세 시, 네 시।"
     },
     {
-      "pattern": "V + (으)ㅂ시다",
-      "titleBn": "প্রস্তাবমূলক সমাপ্তি (চলুন... করি)",
-      "explanationBn": "এটি কাউকে একসাথে কোনো কাজ করার প্রস্তাব দিতে ব্যবহৃত হয়। ক্রিয়াপদের মূলে বাচিম না থাকলে '-ㅂ시다' এবং বাচিম থাকলে '-읍시다' যুক্ত হয়।",
-      "explanationEn": "This is used to suggest doing something together. '-ㅂ시다' is added if the verb stem ends in a vowel, and '-읍시다' is added if it ends in a consonant.",
+      "pattern": "오전/오후/아침/저녁/밤 + N시",
+      "titleBn": "দিনভাগের নামসহ সময় বলা",
+      "explanationBn": "সময়ের আগে 오전 (AM), 오후 (PM), 아침 (সকাল), 저녁 (সন্ধ্যা), 밤 (রাত) বসিয়ে আরও স্পষ্ট করা যায়: 오전 9시, 저녁 8시, 밤 11시।",
+      "explanationEn": "Make time clearer by adding 오전 (a.m.), 오후 (p.m.), 아침 (morning), 저녁 (evening), 밤 (night) before the hour: 오전 9시, 저녁 8시, 밤 11시.",
       "examples": [
-        {
-          "ko": "같이 점심을 먹읍시다.",
-          "bn": "চলুন একসাথে দুপুরের খাবার খাই।",
-          "en": "Let's eat lunch together."
-        },
-        {
-          "ko": "내일 만납시다.",
-          "bn": "চলুন আগামীকাল দেখা করি।",
-          "en": "Let's meet tomorrow."
-        },
-        {
-          "ko": "조금 쉽시다.",
-          "bn": "চলুন একটু বিশ্রাম নিই।",
-          "en": "Let's rest a little."
-        }
+        { "ko": "오전 9시에 출근합니다.", "bn": "পূর্বাহ্ণ ৯টায় কর্মস্থলে যাই।", "en": "I go to work at 9 a.m." },
+        { "ko": "저녁 8시에 집에 가요.", "bn": "সন্ধ্যা ৮টায় বাড়ি যাই।", "en": "I go home at 8 in the evening." },
+        { "ko": "밤 11시에 자요.", "bn": "রাত ১১টায় ঘুমাই।", "en": "I sleep at 11 p.m." }
       ],
-      "commonMistakeBn": "এটি শুধুমাত্র সমবয়সী বা নিজের চেয়ে ছোটদের সাথে ব্যবহার করা উচিত। নিজের চেয়ে বড় বা সম্মানীয় ব্যক্তিদের সাথে এটি ব্যবহার করা অভদ্রতা।"
+      "commonMistakeBn": "오전 আর 오후 গুলিয়ে ফেলবেন না—오전 = দুপুর ১২টার আগে (AM), 오후 = দুপুর ১২টার পরে (PM)।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "দৈনন্দিন রুটিন সম্পর্কে জিজ্ঞাসা",
-      "titleEn": "Asking about daily routine",
+      "titleBn": "এখন কটা?",
+      "titleEn": "What Time Is It Now?",
       "lines": [
-        {
-          "speaker": "투안",
-          "ko": "리한 씨는 보통 몇 시에 일어나요?",
-          "bn": "রিহান সাহেব, আপনি সাধারণত কয়টায় ঘুম থেকে ওঠেন?",
-          "en": "Mr. Rihan, what time do you usually wake up?"
-        },
-        {
-          "speaker": "리한",
-          "ko": "저는 아침 6시에 일어나요.",
-          "bn": "আমি সকাল ৬টায় ঘুম থেকে উঠি।",
-          "en": "I wake up at 6 AM."
-        },
-        {
-          "speaker": "투안",
-          "ko": "아침에 무엇을 해요?",
-          "bn": "সকালে কী করেন?",
-          "en": "What do you do in the morning?"
-        },
-        {
-          "speaker": "리한",
-          "ko": "씻고 아침을 먹어요. 그리고 8시에 회사에 가요.",
-          "bn": "মুখ ধুই এবং সকালের নাস্তা করি। আর ৮টায় কোম্পানিতে যাই।",
-          "en": "I wash up and eat breakfast. And I go to work at 8 o'clock."
-        }
+        { "speaker": "A", "ko": "카밀 씨, 지금 몇 시입니까?", "bn": "কামিল, এখন কটা বাজে?", "en": "Kamil, what time is it now?" },
+        { "speaker": "B", "ko": "5시 반입니다.", "bn": "সাড়ে পাঁচটা।", "en": "It is 5:30." },
+        { "speaker": "A", "ko": "몇 시에 퇴근합니까?", "bn": "কটায় ফিরবেন?", "en": "What time do you leave work?" },
+        { "speaker": "B", "ko": "저녁 8시에 퇴근합니다.", "bn": "সন্ধ্যা ৮টায় ফিরি।", "en": "I leave work at 8 in the evening." },
+        { "speaker": "A", "ko": "요즘 일이 많아요?", "bn": "ইদানীং কাজ অনেক?", "en": "Do you have a lot of work these days?" },
+        { "speaker": "B", "ko": "네, 어제 야근했어요.", "bn": "হ্যাঁ, গতকাল ওভারটাইম করেছি।", "en": "Yes, I worked overtime yesterday." }
       ]
     },
     {
-      "titleBn": "সময় সম্পর্কে জিজ্ঞাসা",
-      "titleEn": "Asking about time",
+      "titleBn": "সকালের রুটিন",
+      "titleEn": "Morning Routine",
       "lines": [
-        {
-          "speaker": "수루",
-          "ko": "지금 몇 시예요?",
-          "bn": "এখন কয়টা বাজে?",
-          "en": "What time is it now?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "11시예요.",
-          "bn": "১১টা বাজে।",
-          "en": "It is 11 o'clock."
-        },
-        {
-          "speaker": "수루",
-          "ko": "몇 시에 점심을 먹어요?",
-          "bn": "কয়টায় দুপুরের খাবার খান?",
-          "en": "What time do you eat lunch?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "12시 30분에 먹어요.",
-          "bn": "১২টা ৩০ মিনিটে খাই।",
-          "en": "I eat at 12:30."
-        }
+        { "speaker": "A", "ko": "푸캄 씨는 몇 시에 일어납니까?", "bn": "ফুকাম কটায় ঘুম থেকে ওঠেন?", "en": "What time do you get up, Phukham?" },
+        { "speaker": "B", "ko": "아침 6시에 일어납니다.", "bn": "সকাল ৬টায় উঠি।", "en": "I get up at 6 a.m." },
+        { "speaker": "A", "ko": "그럼 아침에 뭐 합니까?", "bn": "তাহলে সকালে কী করেন?", "en": "Then what do you do in the morning?" },
+        { "speaker": "B", "ko": "이를 닦고 밥을 먹습니다. 그리고 8시에 출근합니다.", "bn": "দাঁত মেজে খাবার খাই। তারপর ৮টায় কর্মস্থলে যাই।", "en": "I brush my teeth and eat. Then I go to work at eight." },
+        { "speaker": "A", "ko": "점심은 몇 시에 먹습니까?", "bn": "দুপুরের খাবার কটায় খান?", "en": "What time do you eat lunch?" },
+        { "speaker": "B", "ko": "12시 반에 구내식당에서 먹습니다.", "bn": "সাড়ে বারোটায় ক্যাফেটেরিয়ায় খাই।", "en": "I eat at the company cafeteria at 12:30." }
       ]
     },
     {
-      "titleBn": "কাজের সময়সূচী সম্পর্কে কথা বলা",
-      "titleEn": "Talking about work schedule",
+      "titleBn": "গতকাল কী করেছেন?",
+      "titleEn": "What Did You Do Yesterday?",
       "lines": [
-        {
-          "speaker": "바투",
-          "ko": "수피아 씨, 오늘 몇 시에 퇴근해요?",
-          "bn": "সুফিয়া সাহেব, আজ কয়টায় কাজ শেষ করবেন?",
-          "en": "Ms. Supia, what time do you leave work today?"
-        },
-        {
-          "speaker": "수피아",
-          "ko": "오늘은 야근이 있어요. 밤 9시에 퇴근해요.",
-          "bn": "আজ ওভারটাইম আছে। রাত ৯টায় কাজ শেষ করব।",
-          "en": "I have overtime today. I leave work at 9 PM."
-        },
-        {
-          "speaker": "바투",
-          "ko": "아, 그래요? 많이 피곤하겠어요.",
-          "bn": "আহ, তাই নাকি? অনেক ক্লান্ত হবেন।",
-          "en": "Oh, really? You must be very tired."
-        },
-        {
-          "speaker": "수피아",
-          "ko": "네, 조금 피곤해요. 내일은 주말이니까 푹 쉴 거예요.",
-          "bn": "হ্যাঁ, একটু ক্লান্ত। আগামীকাল সপ্তাহান্ত তাই ভালো করে বিশ্রাম নেব।",
-          "en": "Yes, a little tired. Tomorrow is the weekend so I will take a good rest."
-        }
+        { "speaker": "A", "ko": "유수프 씨, 어제 뭘 했습니까?", "bn": "ইউসুফ, গতকাল কী করেছেন?", "en": "Yusuf, what did you do yesterday?" },
+        { "speaker": "B", "ko": "마트에서 장을 봤습니다. 그리고 친구를 만났습니다.", "bn": "মার্টে মুদি কিনেছি। আর বন্ধুর সাথে দেখা করেছি।", "en": "I shopped for groceries at the mart. And I met a friend." },
+        { "speaker": "A", "ko": "저는 공원에서 산책했습니다.", "bn": "আমি পার্কে হাঁটাহাঁটি করেছি।", "en": "I took a walk in the park." },
+        { "speaker": "B", "ko": "주말에도 공원에 갑니까?", "bn": "সপ্তাহান্তেও কি পার্কে যান?", "en": "Do you go to the park on weekends too?" },
+        { "speaker": "A", "ko": "네, 보통 일요일에 갑니다.", "bn": "হ্যাঁ, সাধারণত রবিবারে যাই।", "en": "Yes, I usually go on Sundays." }
       ]
     }
   ],
@@ -671,568 +572,361 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন। (একজন লোক ঘুমাচ্ছে)",
-      "questionKo": "그림을 보고 알맞은 단어를 고르십시오.",
-      "options": [
-        "일어나다",
-        "쉬다",
-        "자다",
-        "일하다"
-      ],
-      "answer": 2,
-      "explanationBn": "'자다' অর্থ ঘুমানো। তাই সঠিক উত্তর ২।"
+      "questionBn": "'출근하다' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["কর্মস্থল থেকে ফেরা", "কর্মস্থলে যাওয়া", "কাজ করা", "ওভারটাইম করা"],
+      "answer": 1,
+      "explanationBn": "출근하다 = কর্মস্থলে যাওয়া। বিপরীত শব্দ 퇴근하다 = কর্মস্থল থেকে ফেরা।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বেছে নিন। (একজন লোক কফি পান করছে)",
-      "questionKo": "그림을 보고 알맞은 단어를 고르십시오.",
-      "options": [
-        "요리하다",
-        "저녁을 먹다",
-        "장을 보다",
-        "커피를 마시다"
-      ],
-      "answer": 3,
-      "explanationBn": "'커피를 마시다' অর্থ কফি পান করা। তাই সঠিক উত্তর ১।"
+      "questionBn": "'먹다' ক্রিয়ার আনুষ্ঠানিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["먹ㅂ니다", "먹읍니다", "먹습니다", "먹어니다"],
+      "answer": 2,
+      "explanationBn": "'먹다'-এর বত্ছিম (ㄱ) থাকায় '-습니다' বসে: 먹습니다।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "시",
-        "시간",
-        "반",
-        "분"
-      ],
-      "answer": 0,
-      "explanationBn": "ঘণ্টা বোঝাতে '시' ব্যবহৃত হয়। যেমন: 1시 (১টা)।"
+      "questionBn": "'5시 반입니다' বাক্যটির অর্থ কী?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["পাঁচটা", "সাড়ে পাঁচটা", "পাঁচটা পনেরো মিনিট", "ছয়টা"],
+      "answer": 1,
+      "explanationBn": "'반' মানে আধা ঘণ্টা—5시 반 = সাড়ে পাঁচটা (5:30)।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "가",
-        "에",
-        "를",
-        "은"
-      ],
+      "questionBn": "শূন্যস্থানে সঠিক পার্টিকেল বসান: 공원[___] 운동해요।",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": ["에", "에서", "을", "이"],
       "answer": 1,
-      "explanationBn": "সময়ের সাথে '에' যুক্ত হয়। যেমন: 7시에 (৭টায়)।"
+      "explanationBn": "কাজ (ব্যায়াম) ঘটার জায়গায় '에서' বসে: 공원에서 운동해요।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 저는 아침 7시___ 일어납니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "가",
-        "은",
-        "에",
-        "를"
-      ],
-      "answer": 2,
-      "explanationBn": "সময়ের সাথে '에' বসে। তাই '7시에' হবে।"
+      "type": "multiple-choice",
+      "questionBn": "'몇 시에 출근합니까?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": ["9시에 출근합니다.", "네, 출근합니다.", "회사에 있습니다.", "아침을 먹습니다."],
+      "answer": 0,
+      "explanationBn": "'몇 시에' (কটায়) প্রশ্নের উত্তরে সময় + 에 + কাজ বলতে হয়।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 지금 ___ 시예요?",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "무엇",
-        "어디",
-        "누구",
-        "몇"
-      ],
+      "type": "multiple-choice",
+      "questionBn": "'점심' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["সকাল", "সন্ধ্যা", "রাত", "দুপুর/দুপুরের খাবার"],
       "answer": 3,
-      "explanationBn": "সময় জানতে '몇' (কয়) ব্যবহৃত হয়। '몇 시예요?' অর্থ 'কয়টা বাজে?'।"
+      "explanationBn": "점심 = দুপুর বা দুপুরের খাবার। 아침 = সকাল, 저녁 = সন্ধ্যা/রাতের খাবার।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 12시 30분에 점심을 ___.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "먹어요",
-        "봐요",
-        "자요",
-        "가요"
-      ],
+      "type": "multiple-choice",
+      "questionBn": "কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "questionKo": "알맞은 문장을 고르세요.",
+      "options": ["휴게실에서 쉽니다.", "휴게실에 쉽니다.", "휴게실을 쉽니다.", "휴게실이 쉽니다."],
       "answer": 0,
-      "explanationBn": "점심을 먹다 (দুপুরের খাবার খাওয়া)। তাই '먹어요' হবে।"
+      "explanationBn": "বিশ্রাম নেওয়ার (কাজ) জায়গায় '에서' বসে: 휴게실에서 쉽니다।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 밤에 텔레비전을 ___.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "마셔요",
-        "봐요",
-        "해요",
-        "와요"
-      ],
-      "answer": 1,
-      "explanationBn": "텔레비전을 보다 (টেলিভিশন দেখা)। তাই '봐요' হবে।"
+      "type": "multiple-choice",
+      "questionBn": "'반' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": ["মিনিট", "ঘণ্টা", "আধা ঘণ্টা", "সেকেন্ড"],
+      "answer": 2,
+      "explanationBn": "반 = আধা—ঘণ্টার সাথে বসে 'সাড়ে' বোঝায়: 7시 반 = সাড়ে সাতটা।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "일어나다",
-          "right": "ঘুম থেকে ওঠা"
-        },
-        {
-          "left": "씻다",
-          "right": "ধোয়া"
-        },
-        {
-          "left": "일하다",
-          "right": "কাজ করা"
-        },
-        {
-          "left": "쉬다",
-          "right": "বিশ্রাম নেওয়া"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "multiple-choice",
+      "questionBn": "আনুষ্ঠানিক অতীত রূপ কোনটি: 어제 친구를 ___?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": ["만납니다", "만나습니다", "만났어", "만났습니다"],
+      "answer": 3,
+      "explanationBn": "অতীত + আনুষ্ঠানিক: 만나다 → 만났습니다।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "오늘",
-          "right": "আজ"
-        },
-        {
-          "left": "지금",
-          "right": "এখন"
-        },
-        {
-          "left": "시간",
-          "right": "সময়"
-        },
-        {
-          "left": "시",
-          "right": "টা (ঘণ্টা)"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "type": "fill-blank",
+      "questionBn": "আনুষ্ঠানিক রূপে বাক্যটি সম্পূর্ণ করুন: 텔레비전을 ___। (দেখি)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["봅니다", "보ㅂ니다", "봤어요", "봅니까"],
+      "answer": 0,
+      "explanationBn": "'보다' বত্ছিমবিহীন, তাই '-ㅂ니다' বসে: 봅니다। প্রশ্ন হলে '봅니까?' হতো।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "출근해요",
-        "퇴근해요",
-        "야근해요",
-        "샤워해요"
-      ],
+      "type": "fill-blank",
+      "questionBn": "'ভোর ৫টায় ঘুম থেকে উঠি' বাক্যটি সম্পূর্ণ করুন: ___ 5시에 일어나요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["밤", "새벽", "낮", "저녁"],
       "answer": 1,
-      "explanationBn": "কাজ শেষ করে বাড়ি ফেরাকে '퇴근하다' বলে। তাই '퇴근해요' হবে।"
+      "explanationBn": "새벽 = ভোর। 밤 = রাত, 낮 = দিনের বেলা, 저녁 = সন্ধ্যা।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "오전",
-        "오후",
-        "낮",
-        "밤"
-      ],
-      "answer": 0,
-      "explanationBn": "সকালকে '오전' বলা হয়।"
+      "type": "fill-blank",
+      "questionBn": "'আমি পার্কে ব্যায়াম করি' বাক্যটি সম্পূর্ণ করুন: 저는 공원___ 운동해요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["에", "을", "를", "에서"],
+      "answer": 3,
+      "explanationBn": "কাজ ঘটার জায়গায় '에서' বসে: 공원에서 운동해요।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "부터",
-        "까지",
-        "에",
-        "은"
-      ],
+      "type": "fill-blank",
+      "questionBn": "সময় উল্লেখ করতে সঠিক পার্টিকেল বসান: 8시___ 출근합니다।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["에", "에서", "을", "이"],
       "answer": 0,
-      "explanationBn": "সময় শুরু বোঝাতে '부터' ব্যবহৃত হয়।"
+      "explanationBn": "সময়ের পরে '에' বসে: 8시에 출근합니다।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "부터",
-        "까지",
-        "에",
-        "은"
-      ],
+      "type": "fill-blank",
+      "questionBn": "'সাড়ে সাতটায় ঘুম থেকে উঠি' বাক্যটি সম্পূর্ণ করুন: 7시 ___에 일어나요।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["분", "반", "시", "전"],
       "answer": 1,
-      "explanationBn": "সময় শেষ বোঝাতে '까지' ব্যবহৃত হয়।"
+      "explanationBn": "'সাড়ে' বোঝাতে '반' বসে: 7시 반 = সাড়ে সাতটা।"
     },
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 9시___ 6시까지 일해요.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "부터",
-        "까지",
-        "에",
-        "은"
-      ],
-      "answer": 0,
-      "explanationBn": "৯টা থেকে বোঝাতে '9시부터' হবে।"
+      "questionBn": "'গতকাল রাত ১১টায় ঘুমিয়েছি' বাক্যটি সম্পূর্ণ করুন: 어제 밤 11시에 ___।",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["자요", "잡니다", "잤어요", "자었어요"],
+      "answer": 2,
+      "explanationBn": "어제-এর সাথে অতীত রূপ: 자다 → 잤어요।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 9시부터 6시___ 일해요.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "부터",
-        "까지",
-        "에",
-        "은"
-      ],
+      "questionBn": "'দুপুরের খাবার কোথায় খান?' প্রশ্নটি সম্পূর্ণ করুন: 어디___ 점심을 먹습니까?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": ["에", "에서", "을", "이"],
       "answer": 1,
-      "explanationBn": "৬টা পর্যন্ত বোঝাতে '6시까지' হবে।"
+      "explanationBn": "খাওয়ার (কাজ) জায়গা জিজ্ঞাসায় '어디에서' বলা হয়।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 같이 점심을 ___.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "먹어요",
-        "먹읍시다",
-        "먹습니다",
-        "먹어"
+      "type": "matching",
+      "questionBn": "দিনভাগের কোরীয় নামের সাথে বাংলা মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "아침", "right": "সকাল" },
+        { "left": "점심", "right": "দুপুর" },
+        { "left": "저녁", "right": "সন্ধ্যা" },
+        { "left": "밤", "right": "রাত" },
+        { "left": "새벽", "right": "ভোর" }
       ],
-      "answer": 1,
-      "explanationBn": "একসাথে খাওয়ার প্রস্তাব দিতে '먹읍시다' ব্যবহৃত হয়।"
+      "explanationBn": "আরও মনে রাখুন: 오전 = দুপুরের আগে (AM), 오후 = দুপুরের পরে (PM), 낮 = দিনের বেলা।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 내일 ___.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "만나요",
-        "만납시다",
-        "만납니다",
-        "만나"
+      "type": "matching",
+      "questionBn": "দৈনন্দিন কাজের কোরীয় নামের সাথে বাংলা মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        { "left": "일어나다", "right": "ঘুম থেকে ওঠা" },
+        { "left": "출근하다", "right": "কর্মস্থলে যাওয়া" },
+        { "left": "퇴근하다", "right": "কর্মস্থল থেকে ফেরা" },
+        { "left": "청소하다", "right": "পরিষ্কার করা" },
+        { "left": "산책하다", "right": "হাঁটাহাঁটি করা" }
       ],
-      "answer": 1,
-      "explanationBn": "আগামীকাল দেখা করার প্রস্তাব দিতে '만납시다' ব্যবহৃত হয়।"
+      "explanationBn": "এই ক্রিয়াগুলো '하다' শ্রেণির—'해요' বা '합니다' রূপে ব্যবহৃত হয়।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "퇴근하다",
-          "right": "কাজ শেষ করে বাড়ি ফেরা"
-        },
-        {
-          "left": "출근하다",
-          "right": "কাজে যাওয়া"
-        },
-        {
-          "left": "야근하다",
-          "right": "ওভারটাইম কাজ করা"
-        },
-        {
-          "left": "샤워하다",
-          "right": "গোসল করা"
-        }
-      ],
+      "questionBn": "কাজের সাথে স্বাভাবিক জায়গাটি মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        { "left": "운동해요", "right": "공원에서" },
+        { "left": "쉬어요", "right": "휴게실에서" },
+        { "left": "점심을 먹어요", "right": "구내식당에서" },
+        { "left": "장을 봐요", "right": "마트에서" }
+      ],
+      "explanationBn": "কাজ ঘটার জায়গার পরে '에서' বসে—প্রতিটি জোড়ায় খেয়াল করুন।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "오전",
-          "right": "সকাল (এএম)"
-        },
-        {
-          "left": "오후",
-          "right": "বিকাল (পিএম)"
-        },
-        {
-          "left": "낮",
-          "right": "দিন"
-        },
-        {
-          "left": "밤",
-          "right": "রাত"
-        }
-      ],
+      "questionBn": "অনানুষ্ঠানিক রূপের সাথে আনুষ্ঠানিক রূপ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        { "left": "먹어요", "right": "먹습니다" },
+        { "left": "자요", "right": "잡니다" },
+        { "left": "가요", "right": "갑니다" },
+        { "left": "있어요", "right": "있습니다" }
+      ],
+      "explanationBn": "বত্ছিম থাকলে -습니다 (먹습니다, 있습니다), না থাকলে -ㅂ니다 (잡니다, 갑니다)।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পরবর্তী ছবিটি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 문장을 고르십시오.",
-      "passage": "[그림: 사람이 텔레비전을 보고 있음]",
-      "options": [
-        "커피를 마십니다.",
-        "운동을 합니다.",
-        "전화를 합니다.",
-        "텔레비전을 봅니다."
-      ],
-      "answer": 3,
-      "explanationBn": "ছবিতে একজন লোক টেলিভিশন দেখছে। তাই সঠিক উত্তর '텔레비전을 봅니다' (টেলিভিশন দেখি)।"
+      "questionBn": "বাক্যটি পড়ে এটি কোন ধরনের কাজ তা বাছাই করুন।",
+      "questionKo": "다음 내용과 관계있는 것을 고르십시오.",
+      "passage": "게임을 하고 있습니다.",
+      "options": ["쉬는 시간에 하는 일", "회의실에서 하는 일", "공장에서 하는 일", "운전할 때 하는 일"],
+      "answer": 0,
+      "explanationBn": "গেম (게임) সাধারণত বিরতির (쉬는 시간) সময়ে খেলা হয়।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "পরবর্তী ছবিটি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 문장을 고르십시오.",
-      "passage": "[그림: 시계가 12시 30분을 가리킴]",
-      "options": [
-        "열두 시입니다.",
-        "한 시 반입니다.",
-        "열두 시 반입니다.",
-        "한 시입니다."
-      ],
-      "answer": 2,
-      "explanationBn": "ঘড়িতে ১২টা ৩০ মিনিট বাজছে। ১২টা ৩০ মিনিটকে কোরিয়ান ভাষায় '열두 시 반' বলা হয়।"
+      "questionBn": "কোন বাক্যটির পার্টিকেল সঠিক তা বাছাই করুন।",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["휴게실에서 쉬습니다.", "휴게실에 쉬습니다.", "휴게실을 쉬습니다.", "휴게실이 쉬습니다."],
+      "answer": 0,
+      "explanationBn": "বিশ্রাম (কাজ) নেওয়ার জায়গায় '에서' বসে: 휴게실에서 쉬습니다।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionBn": "শূন্যস্থানে সঠিক সময়শব্দটি বসান।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 지금 몇 (  )예요?\n나: 2시예요.",
-      "options": [
-        "반",
-        "시",
-        "시간",
-        "분"
-      ],
+      "passage": "___ 9시에 출근합니다. 아침에 일어나서 준비합니다.",
+      "options": ["오후", "오전", "저녁", "밤"],
       "answer": 1,
-      "explanationBn": "সময় জানতে '몇 시' (কয়টা) ব্যবহৃত হয়। তাই শূন্যস্থানে '시' বসবে।"
+      "explanationBn": "সকালে (아침) ওঠার কথা বলা হয়েছে, তাই ৯টা হবে পূর্বাহ্ণে (오전)—অর্থাৎ সকাল ৯টা।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionBn": "শূন্যস্থানে সঠিক পার্টিকেলটি বসান।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 몇 시에 점심을 먹어요?\n나: 1시(  ) 먹어요.",
-      "options": [
-        "에",
-        "를",
-        "가",
-        "은"
-      ],
-      "answer": 0,
-      "explanationBn": "সময়ের সাথে '에' যুক্ত হয়। তাই '1시에' হবে।"
+      "passage": "마두 씨는 편의점___ 주스를 삽니다.",
+      "options": ["에", "이", "에서", "을"],
+      "answer": 2,
+      "explanationBn": "কেনার (কাজ) জায়গায় '에서' বসে: 편의점에서 주스를 삽니다।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "저는 아침 7시에 일어납니다. 그리고 씻고 아침을 (  ).",
-      "options": [
-        "봅니다",
-        "잡니다",
-        "옵니다",
-        "먹습니다"
-      ],
-      "answer": 3,
-      "explanationBn": "সকালের নাস্তা খাওয়ার কথা বলা হয়েছে। '아침을 먹다' অর্থ সকালের নাস্তা খাওয়া। তাই '먹습니다' হবে।"
+      "questionBn": "কোরীয় অফিস কর্মচারীদের সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국의 직장인들은 대부분 9시에 일을 시작합니다. 점심은 보통 12시에서 1시 사이에 먹습니다. 퇴근은 대부분 6시에 합니다.",
+      "options": ["직장인들은 8시에 일을 시작합니다.", "점심은 보통 1시에서 2시 사이에 먹습니다.", "직장인들은 대부분 6시에 퇴근합니다.", "직장인들은 점심을 먹지 않습니다."],
+      "answer": 2,
+      "explanationBn": "লেখানুযায়ী কাজ শুরু ৯টা, দুপুরের খাবার ১২–১টা, আর অধিকাংশ ৬টায় ফেরে (퇴근)।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "여섯 시입니다.",
-      "options": [
-        "7시",
-        "8시",
-        "6시",
-        "5시"
-      ],
-      "answer": 2,
-      "explanationBn": "অডিওতে '여섯 시' (৬টা) বলা হয়েছে। তাই সঠিক উত্তর ২।"
+      "section": "reading",
+      "questionBn": "আনুষ্ঠানিক অতীতের কোন বাক্যটি সঠিক?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "options": ["일곱 시에 퇴근했습니다.", "일곱 시에 퇴근합니다가.", "어제 친구가 만났습니다.", "아침에 빵를 먹었습니다."],
+      "answer": 0,
+      "explanationBn": "'일곱 시에 퇴근했습니다' সঠিক—অতীত + আনুষ্ঠানিক রূপ। '빵를' ভুল—빵을 হবে।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "아홉 시 반입니다.",
-      "options": [
-        "10시",
-        "9시 30분",
-        "9시",
-        "8시 30분"
-      ],
+      "section": "reading",
+      "questionBn": "'매점' শব্দের সাথে সম্পর্কিত জায়গাটি বাছাই করুন।",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "매점",
+      "options": ["운동하는 곳", "과자를 사는 곳", "자는 곳", "일하는 곳"],
       "answer": 1,
-      "explanationBn": "অডিওতে '아홉 시 반' (৯টা ৩০ মিনিট) বলা হয়েছে। তাই সঠিক উত্তর ৩।"
+      "explanationBn": "'매점' (স্ন্যাক বার) এমন জায়গা যেখানে বিস্কুট-জলখাবার (과자) কেনা যায়।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "প্রশ্ন শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "지금 몇 시예요?",
-      "options": [
-        "10시예요.",
-        "오늘이에요.",
-        "회사에 가요.",
-        "시간이 없어요."
-      ],
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক সময়টি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "지금 몇 시예요? — ___입니다. (7:30)",
+      "options": ["일곱 시 반", "일곱 시", "여덟 시 반", "여섯 시 반"],
       "answer": 0,
-      "explanationBn": "প্রশ্ন করা হয়েছে '지금 몇 시예요?' (এখন কয়টা বাজে?)। এর সঠিক উত্তর হলো '10시예요' (১০টা বাজে)।"
-    },
+      "explanationBn": "7:30 কোরীয়তে '일곱 시 반'—ঘণ্টায় দেশি সংখ্যা (일곱 시) + '반'।"
+    }
+    ,
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "পরবর্তী ছবিটি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 문장을 고르십시오.",
-      "passage": "[그림: 사람이 샤워를 하고 있음]",
-      "options": [
-        "세수를 합니다.",
-        "샤워를 합니다.",
-        "빨래를 합니다.",
-        "청소를 합니다."
-      ],
-      "answer": 1,
-      "explanationBn": "ছবিতে একজন লোক গোসল করছে। তাই সঠিক উত্তর '샤워를 합니다' (গোসল করি)।"
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "칼로 씨는 아침 7시에 일어납니다. 9시에 출근합니다. 저녁 8시에 퇴근합니다.",
+      "options": ["칼로 씨는 8시에 일어납니다.", "칼로 씨는 9시에 퇴근합니다.", "칼로 씨는 저녁 8시에 출근합니다.", "칼로 씨는 아침 7시에 일어납니다."],
+      "answer": 3,
+      "explanationBn": "লেখানুযায়ী কার্লো সকাল ৭টায় ওঠে, ৯টায় কর্মস্থলে যায়, সন্ধ্যা ৮টায় ফেরে।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "পরবর্তী ছবিটি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 문장을 고르십시오.",
-      "passage": "[그림: 사람이 퇴근하고 있음]",
-      "options": [
-        "출근을 합니다.",
-        "퇴근을 합니다.",
-        "야근을 합니다.",
-        "운동을 합니다."
-      ],
-      "answer": 1,
-      "explanationBn": "ছবিতে একজন লোক কাজ শেষ করে বাড়ি ফিরছে। তাই সঠিক উত্তর '퇴근을 합니다' (কাজ শেষ করে বাড়ি ফিরি)।"
+      "questionBn": "শূন্যস্থানে সঠিক পার্টিকেলটি বসান।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "주말에 뭐 했어요? — 공원___ 산책했어요.",
+      "options": ["에", "이", "을", "에서"],
+      "answer": 3,
+      "explanationBn": "হাঁটাহাঁটির (কাজ) জায়গায় '에서' বসে: 공원에서 산책했어요।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 언제부터 언제까지 일해요?\n나: 오전 9시(  ) 오후 6시까지 일해요.",
-      "options": [
-        "부터",
-        "까지",
-        "에",
-        "은"
-      ],
-      "answer": 0,
-      "explanationBn": "সময় শুরু বোঝাতে '부터' ব্যবহৃত হয়। তাই '9시부터' হবে।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি কটায় দুপুরের খাবার খেয়েছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 몇 시에 점심을 먹었습니까?\n남자: 열두 시 반에 먹었습니다.",
+      "options": ["열두 시에 먹었습니다", "열두 시 반에 먹었습니다", "한 시에 먹었습니다", "한 시 반에 먹었습니다"],
+      "answer": 1,
+      "explanationBn": "পুরুষ বলেছেন '열두 시 반에'—সাড়ে বারোটায় খেয়েছেন।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 오늘 저녁에 같이 밥을 먹을까요?\n나: 좋아요. 같이 (  ).",
-      "options": [
-        "먹어요",
-        "먹읍시다",
-        "먹습니다",
-        "먹어"
-      ],
-      "answer": 1,
-      "explanationBn": "একসাথে খাওয়ার প্রস্তাব গ্রহণ করতে '먹읍시다' ব্যবহৃত হয়।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা আজ সন্ধ্যায় কী করবেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 오늘 저녁에 뭐 합니까?\n여자: 커피숍에서 친구를 만납니다.",
+      "options": ["공원에서 산책합니다", "마트에서 장을 봅니다", "기숙사에서 쉽니다", "커피숍에서 친구를 만납니다"],
+      "answer": 3,
+      "explanationBn": "মহিলা বলেছেন কফি শপে বন্ধুর সাথে দেখা করবেন।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음 글을 읽고 물음에 답하십시오.",
-      "passage": "저는 아침 7시에 일어납니다. 씻고 아침을 먹습니다. 8시에 출근합니다. 오전 9시부터 오후 6시까지 일합니다. 6시에 퇴근합니다. 저녁에 집에서 쉬고 밤 11시에 잡니다.",
-      "options": [
-        "이 사람은 7시에 출근합니다.",
-        "이 사람은 6시에 퇴근합니다.",
-        "이 사람은 9시에 잡니다.",
-        "이 사람은 오후에 일어납니다."
-      ],
-      "answer": 1,
-      "explanationBn": "প্যাসেজে বলা হয়েছে '6시에 퇴근합니다' (৬টায় কাজ শেষ করে বাড়ি ফিরি)। তাই সঠিক উত্তর ২।"
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি পূর্বাহ্ণে কোথায় হাঁটাহাঁটি করেছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 오전에 뭐 했습니까?\n남자: 공원에서 산책했습니다.",
+      "options": ["휴게실에서", "운동장에서", "공원에서", "마트에서"],
+      "answer": 2,
+      "explanationBn": "পুরুষ বলেছেন '공원에서 산책했습니다'—পার্কে হাঁটাহাঁটি করেছেন।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কটায় কর্মস্থলে যান?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 몇 시에 퇴근해요?\n남자: 6시에 퇴근해요.",
-      "options": [
-        "5시",
-        "6시",
-        "7시",
-        "8시"
-      ],
-      "answer": 1,
-      "explanationBn": "অডিওতে '6시에 퇴근해요' (৬টায় কাজ শেষ করে বাড়ি ফিরি) বলা হয়েছে। তাই সঠিক উত্তর ২।"
+      "passage": "남자: 몇 시에 출근합니까?\n여자: 아침 8시에 출근합니다.",
+      "options": ["아침 7시에", "아침 9시에", "아침 8시에", "오후 8시에"],
+      "answer": 2,
+      "explanationBn": "মহিলা বলেছেন '아침 8시에 출근합니다'—সকাল ৮টায়।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কোথায় রাতের খাবার খান?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 언제부터 언제까지 일해요?\n여자: 오전 9시부터 오후 6시까지 일해요.",
-      "options": [
-        "9시 ~ 5시",
-        "9시 ~ 6시",
-        "10시 ~ 6시",
-        "10시 ~ 7시"
-      ],
+      "passage": "남자: 어디에서 저녁을 먹습니까?\n여자: 구내식당에서 먹습니다.",
+      "options": ["커피숍에서", "구내식당에서", "기숙사에서", "공원에서"],
       "answer": 1,
-      "explanationBn": "অডিওতে '오전 9시부터 오후 6시까지 일해요' (সকাল ৯টা থেকে বিকাল ৬টা পর্যন্ত কাজ করি) বলা হয়েছে। তাই সঠিক উত্তর ২।"
+      "explanationBn": "মহিলা বলেছেন ক্যাফেটেরিয়ায় (구내식당에서) খান।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: পুরুষটি গতকাল কটায় ঘুমিয়েছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 오늘 야근해요?\n남자: 네, 오늘 일이 많아서 밤 9시까지 야근해요.",
-      "options": [
-        "야근을 안 합니다.",
-        "8시까지 야근합니다.",
-        "9시까지 야근합니다.",
-        "10시까지 야근합니다."
-      ],
-      "answer": 2,
-      "explanationBn": "অডিওতে '밤 9시까지 야근해요' (রাত ৯টা পর্যন্ত ওভারটাইম কাজ করি) বলা হয়েছে। তাই সঠিক উত্তর ৩।"
+      "passage": "여자: 어제 몇 시에 잤습니까?\n남자: 밤 11시에 잤습니다.",
+      "options": ["밤 10시에", "밤 12시에", "새벽 1시에", "밤 11시에"],
+      "answer": 3,
+      "explanationBn": "পুরুষ বলেছেন '밤 11시에 잤습니다'—রাত ১১টায় ঘুমিয়েছেন।"
     }
   ]
 }
