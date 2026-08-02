@@ -10,419 +10,135 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "রান্না সম্পর্কিত শব্দভাণ্ডার শেখা",
-      "খাবারের স্বাদ বর্ণনা করতে শেখা",
-      "রান্নার পদ্ধতি সম্পর্কে কথা বলতে শেখা"
+      "খাবারের স্বাদ বলতে পারা",
+      "রান্নার উপাদান ও পদ্ধতি বলতে পারা",
+      "কাউকে কিছু করতে বলতে পারা (-아/어 보세요)",
+      "বিশেষ দিনের কোরীয় খাবার জানা"
     ],
     "en": [
-      "Learn vocabulary related to cooking",
-      "Learn to describe the taste of food",
-      "Learn to talk about cooking methods"
+      "Being able to talk about the taste of food",
+      "Being able to talk about ingredients and cooking methods",
+      "Being able to recommend someone to try something",
+      "Knowing about Korean foods for special occasions"
     ]
   },
   "vocabulary": [
     {
-      "ko": "요리하다",
-      "romanization": "yorihada",
-      "bn": "রান্না করা",
-      "en": "to cook",
-      "pos": "verb",
+      "ko": "요리",
+      "romanization": "yori",
+      "bn": "রান্না",
+      "en": "cooking; dish",
+      "pos": "noun",
       "example": {
-        "ko": "저는 주말에 요리합니다.",
-        "bn": "আমি সাপ্তাহিক ছুটির দিনে রান্না করি।",
-        "en": "I cook on weekends."
+        "ko": "요리를 해요.",
+        "bn": "রান্না করি।",
+        "en": "I cook."
       },
-      "pronunciationTipBn": "প্রথম সিলেবল '요' একটু লম্বা করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'요리' [요리]—ㄹ নরম '리'।"
     },
     {
-      "ko": "끓이다",
-      "romanization": "kkeurida",
-      "bn": "ফোটানো/সিদ্ধ করা (তরল)",
-      "en": "to boil (liquid)",
-      "pos": "verb",
+      "ko": "맛이 좋다",
+      "romanization": "masi jota",
+      "bn": "সুস্বাদু হওয়া",
+      "en": "to be tasty",
+      "pos": "expression",
       "example": {
-        "ko": "물을 끓이세요.",
-        "bn": "পানি ফোটান।",
-        "en": "Please boil the water."
+        "ko": "맛이 좋아요.",
+        "bn": "সুস্বাদু।",
+        "en": "It is tasty."
       },
-      "pronunciationTipBn": "'끓' এর 'ㅎ' উচ্চারিত হয় না, '이' এর সাথে মিলে '끄리다' এর মতো শোনায়।"
-    },
-    {
-      "ko": "삶다",
-      "romanization": "samda",
-      "bn": "সিদ্ধ করা (কঠিন খাবার)",
-      "en": "to boil (solid food)",
-      "pos": "verb",
-      "example": {
-        "ko": "계란을 삶아요.",
-        "bn": "ডিম সিদ্ধ করি।",
-        "en": "I boil eggs."
-      },
-      "pronunciationTipBn": "বাচ্চিম 'ㄻ' এর ক্ষেত্রে 'ㅁ' উচ্চারিত হয়, তাই '삼따' এর মতো শোনায়।"
-    },
-    {
-      "ko": "굽다",
-      "romanization": "gupda",
-      "bn": "ভাজা/গ্রিল করা",
-      "en": "to roast/grill/bake",
-      "pos": "verb",
-      "example": {
-        "ko": "고기를 구워요.",
-        "bn": "মাংস গ্রিল করি।",
-        "en": "I grill the meat."
-      },
-      "pronunciationTipBn": "বাচ্চিম 'ㅂ' এর পর '다' আসলে '따' এর মতো শক্ত উচ্চারণ হয়।"
-    },
-    {
-      "ko": "볶다",
-      "romanization": "bokda",
-      "bn": "ভাজা (অল্প তেলে)",
-      "en": "to stir-fry",
-      "pos": "verb",
-      "example": {
-        "ko": "밥을 볶아요.",
-        "bn": "ভাত ভাজি।",
-        "en": "I stir-fry the rice."
-      },
-      "pronunciationTipBn": "বাচ্চিম 'ㄲ' এর পর '다' আসলে '따' এর মতো শক্ত উচ্চারণ হয়।"
-    },
-    {
-      "ko": "튀기다",
-      "romanization": "twigida",
-      "bn": "ডুবো তেলে ভাজা",
-      "en": "to deep-fry",
-      "pos": "verb",
-      "example": {
-        "ko": "닭고기를 튀겨요.",
-        "bn": "মুরগির মাংস ডুবো তেলে ভাজি।",
-        "en": "I deep-fry the chicken."
-      },
-      "pronunciationTipBn": "'튀' উচ্চারণ করার সময় ঠোঁট গোল করে 'উই' এর মতো শব্দ করুন।"
-    },
-    {
-      "ko": "썰다",
-      "romanization": "sseolda",
-      "bn": "কাটা (টুকরো করা)",
-      "en": "to chop/slice",
-      "pos": "verb",
-      "example": {
-        "ko": "양파를 썰어요.",
-        "bn": "পেঁয়াজ কাটি।",
-        "en": "I slice the onion."
-      },
-      "pronunciationTipBn": "'썰' এর 'ㅆ' একটু জোর দিয়ে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "섞다",
-      "romanization": "seokda",
-      "bn": "মেশানো",
-      "en": "to mix",
-      "pos": "verb",
-      "example": {
-        "ko": "재료를 섞으세요.",
-        "bn": "উপকরণগুলো মেশান।",
-        "en": "Please mix the ingredients."
-      },
-      "pronunciationTipBn": "বাচ্চিম 'ㄲ' এর পর '다' আসলে '따' এর মতো শক্ত উচ্চারণ হয়।"
-    },
-    {
-      "ko": "맛있다",
-      "romanization": "masitda",
-      "bn": "মজাদার",
-      "en": "delicious",
-      "pos": "adjective",
-      "example": {
-        "ko": "이 음식은 정말 맛있어요.",
-        "bn": "এই খাবারটি সত্যিই মজাদার।",
-        "en": "This food is really delicious."
-      },
-      "pronunciationTipBn": "'맛' এর 'ㅅ' বাচ্চিম '이' এর সাথে মিলে '마싣따' এর মতো শোনায়।"
-    },
-    {
-      "ko": "맛없다",
-      "romanization": "madeopda",
-      "bn": "বিস্বাদ",
-      "en": "tasteless/not delicious",
-      "pos": "adjective",
-      "example": {
-        "ko": "그 식당 음식은 맛없어요.",
-        "bn": "ওই রেস্তোরাঁর খাবার বিস্বাদ।",
-        "en": "That restaurant's food is not delicious."
-      },
-      "pronunciationTipBn": "'맛' এর 'ㅅ' বাচ্চিম '없' এর সাথে মিলে '마덥따' এর মতো শোনায়।"
+      "pronunciationTipBn": "'맛이' [마시]—ㅅ+ㅇ মিলে '시'।"
     },
     {
       "ko": "맵다",
-      "romanization": "maepda",
-      "bn": "ঝাল",
-      "en": "spicy",
+      "romanization": "meopda",
+      "bn": "ঝাল হওয়া",
+      "en": "to be spicy",
       "pos": "adjective",
       "example": {
-        "ko": "김치는 조금 매워요.",
-        "bn": "কিমচি একটু ঝাল।",
-        "en": "Kimchi is a little spicy."
+        "ko": "떡볶이가 매워요.",
+        "bn": "টকবোক্কি ঝাল।",
+        "en": "Tteokbokki is spicy."
       },
-      "pronunciationTipBn": "বাচ্চিম 'ㅂ' এর পর '다' আসলে '따' এর মতো শক্ত উচ্চারণ হয়।"
+      "pronunciationTipBn": "'매워요' [매워요]—'ㅂ' অনিয়মে '워'।"
     },
     {
       "ko": "달다",
       "romanization": "dalda",
-      "bn": "মিষ্টি",
-      "en": "sweet",
+      "bn": "মিষ্টি হওয়া",
+      "en": "to be sweet",
       "pos": "adjective",
       "example": {
-        "ko": "사탕이 달아요.",
-        "bn": "ক্যান্ডি মিষ্টি।",
-        "en": "The candy is sweet."
+        "ko": "케이크가 달아요.",
+        "bn": "কেক মিষ্টি।",
+        "en": "The cake is sweet."
       },
-      "pronunciationTipBn": "'달' এর 'ㄹ' বাংলা 'ল' এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "'달아요' [다라요]—ㄹ+ㅇ মিলে '라'।"
     },
     {
       "ko": "짜다",
       "romanization": "jjada",
-      "bn": "লোনা/নোনতা",
-      "en": "salty",
+      "bn": "নোনতা হওয়া",
+      "en": "to be salty",
       "pos": "adjective",
       "example": {
-        "ko": "국이 너무 짜요.",
-        "bn": "সুপটি খুব নোনতা।",
-        "en": "The soup is too salty."
+        "ko": "된장찌개가 짜요.",
+        "bn": "তোয়েনজাং ঝিগে নোনতা।",
+        "en": "Doenjang stew is salty."
       },
-      "pronunciationTipBn": "'짜' এর 'ㅉ' একটু জোর দিয়ে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'짜요' [짜요]—ㅉ জোড়া '짜'।"
     },
     {
       "ko": "싱겁다",
       "romanization": "singgeopda",
-      "bn": "স্বাদহীন/লবণ কম",
-      "en": "bland",
+      "bn": "ফিকে হওয়া",
+      "en": "to be bland",
       "pos": "adjective",
       "example": {
-        "ko": "음식이 싱거우면 소금을 넣으세요.",
-        "bn": "খাবারে লবণ কম হলে লবণ দিন।",
-        "en": "If the food is bland, add salt."
+        "ko": "맛이 좀 싱거워요.",
+        "bn": "স্বাদ একটু ফিকে।",
+        "en": "It is a bit bland."
       },
-      "pronunciationTipBn": "বাচ্চিম 'ㅂ' এর পর '다' আসলে '따' এর মতো শক্ত উচ্চারণ হয়।"
+      "pronunciationTipBn": "'싱거워요' [싱거워요]—'ㅂ' অনিয়মে '워'।"
     },
     {
       "ko": "쓰다",
       "romanization": "sseuda",
-      "bn": "তেতো",
-      "en": "bitter",
+      "bn": "তিক্ত হওয়া",
+      "en": "to be bitter",
       "pos": "adjective",
       "example": {
-        "ko": "이 약은 너무 써요.",
-        "bn": "এই ওষুধটি খুব তেতো।",
-        "en": "This medicine is too bitter."
+        "ko": "커피가 써요.",
+        "bn": "কফি তিক্ত।",
+        "en": "The coffee is bitter."
       },
-      "pronunciationTipBn": "'쓰' এর 'ㅆ' একটু জোর দিয়ে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'써요' [써요]—ㅆ জোড়া '써'।"
     },
     {
       "ko": "시다",
       "romanization": "sida",
-      "bn": "টক",
-      "en": "sour",
+      "bn": "টক হওয়া",
+      "en": "to be sour",
       "pos": "adjective",
       "example": {
-        "ko": "레몬은 셔요.",
+        "ko": "레몬이 셔요.",
         "bn": "লেবু টক।",
-        "en": "Lemons are sour."
+        "en": "The lemon is sour."
       },
-      "pronunciationTipBn": "'시' উচ্চারণ করার সময় 'শি' এর মতো শোনায়।"
+      "pronunciationTipBn": "'셔요' [셔요]—'시' + 어요 = '셔요'।"
     },
     {
-      "ko": "재료",
-      "romanization": "jaeryo",
-      "bn": "উপকরণ",
-      "en": "ingredient",
-      "pos": "noun",
+      "ko": "고소하다",
+      "romanization": "gosohada",
+      "bn": "বাদামি স্বাদ হওয়া",
+      "en": "to be nutty; savory",
+      "pos": "adjective",
       "example": {
-        "ko": "요리 재료를 샀어요.",
-        "bn": "রান্নার উপকরণ কিনেছি।",
-        "en": "I bought cooking ingredients."
+        "ko": "김이 고소해요.",
+        "bn": "সামুদ্রিক শাক বাদামি স্বাদ।",
+        "en": "Gim is nutty."
       },
-      "pronunciationTipBn": "'재' এর 'ㅈ' বাংলা 'জ' এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "냄비",
-      "romanization": "naembi",
-      "bn": "হাঁড়ি/পাতিল",
-      "en": "pot",
-      "pos": "noun",
-      "example": {
-        "ko": "냄비에 물을 끓이세요.",
-        "bn": "হাঁড়িতে পানি ফোটান।",
-        "en": "Boil water in the pot."
-      },
-      "pronunciationTipBn": "'냄' এর 'ㅁ' বাচ্চিম স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "프라이팬",
-      "romanization": "peuraipaen",
-      "bn": "ফ্রাইপ্যান",
-      "en": "frying pan",
-      "pos": "noun",
-      "example": {
-        "ko": "프라이팬에 고기를 구워요.",
-        "bn": "ফ্রাইপ্যানে মাংস ভাজি।",
-        "en": "I grill meat in the frying pan."
-      },
-      "pronunciationTipBn": "ইংরেজি শব্দ, তাই 'ফুরাইপ্যান' এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "칼",
-      "romanization": "kal",
-      "bn": "ছুরি",
-      "en": "knife",
-      "pos": "noun",
-      "example": {
-        "ko": "칼로 채소를 썰어요.",
-        "bn": "ছুরি দিয়ে সবজি কাটি।",
-        "en": "I chop vegetables with a knife."
-      },
-      "pronunciationTipBn": "'칼' এর 'ㅋ' একটু বাতাস বের করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "식용유",
-      "romanization": "sigyongyu",
-      "bn": "ভোজ্য তেল",
-      "en": "cooking oil",
-      "pos": "noun",
-      "example": {
-        "ko": "프라이팬에 식용유를 두르세요.",
-        "bn": "ফ্রাইপ্যানে ভোজ্য তেল দিন।",
-        "en": "Put cooking oil in the frying pan."
-      },
-      "pronunciationTipBn": "'식용유' উচ্চারণ করার সময় '시굥뉴' এর মতো শোনায়।"
-    },
-    {
-      "ko": "소금",
-      "romanization": "sogeum",
-      "bn": "লবণ",
-      "en": "salt",
-      "pos": "noun",
-      "example": {
-        "ko": "국에 소금을 넣으세요.",
-        "bn": "সুপে লবণ দিন।",
-        "en": "Put salt in the soup."
-      },
-      "pronunciationTipBn": "'소' এর 'ㅅ' হালকাভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "설탕",
-      "romanization": "seoltang",
-      "bn": "চিনি",
-      "en": "sugar",
-      "pos": "noun",
-      "example": {
-        "ko": "커피에 설탕을 넣어요.",
-        "bn": "কফিতে চিনি দিই।",
-        "en": "I put sugar in the coffee."
-      },
-      "pronunciationTipBn": "'설' এর 'ㄹ' বাচ্চিম স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "간장",
-      "romanization": "ganjang",
-      "bn": "সয়া সস",
-      "en": "soy sauce",
-      "pos": "noun",
-      "example": {
-        "ko": "간장으로 간을 맞추세요.",
-        "bn": "সয়া সস দিয়ে স্বাদ ঠিক করুন।",
-        "en": "Season with soy sauce."
-      },
-      "pronunciationTipBn": "'간' এর 'ㄴ' বাচ্চিম স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "고추장",
-      "romanization": "gochujang",
-      "bn": "মরিচের পেস্ট",
-      "en": "red pepper paste",
-      "pos": "noun",
-      "example": {
-        "ko": "비빔밥에 고추장을 넣어요.",
-        "bn": "বিবিমবাপে মরিচের পেস্ট দিই।",
-        "en": "I put red pepper paste in bibimbap."
-      },
-      "pronunciationTipBn": "'고' এর 'ㄱ' হালকাভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "파",
-      "romanization": "pa",
-      "bn": "পেঁয়াজ পাতা",
-      "en": "green onion",
-      "pos": "noun",
-      "example": {
-        "ko": "파를 썰어서 넣으세요.",
-        "bn": "পেঁয়াজ পাতা কেটে দিন।",
-        "en": "Chop and add green onions."
-      },
-      "pronunciationTipBn": "'파' এর 'ㅍ' একটু বাতাস বের করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "양파",
-      "romanization": "yangpa",
-      "bn": "পেঁয়াজ",
-      "en": "onion",
-      "pos": "noun",
-      "example": {
-        "ko": "양파를 볶으세요.",
-        "bn": "পেঁয়াজ ভাজুন।",
-        "en": "Stir-fry the onion."
-      },
-      "pronunciationTipBn": "'양' এর 'ㅇ' বাচ্চিম অনুনাসিক উচ্চারণ করুন।"
-    },
-    {
-      "ko": "마늘",
-      "romanization": "maneul",
-      "bn": "রসুন",
-      "en": "garlic",
-      "pos": "noun",
-      "example": {
-        "ko": "마늘을 다져서 넣어요.",
-        "bn": "রসুন কুচি করে দিই।",
-        "en": "I mince and add garlic."
-      },
-      "pronunciationTipBn": "'마' এর 'ㅁ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "당근",
-      "romanization": "danggeun",
-      "bn": "গাজর",
-      "en": "carrot",
-      "pos": "noun",
-      "example": {
-        "ko": "당근을 썰어 주세요.",
-        "bn": "গাজর কেটে দিন।",
-        "en": "Please chop the carrot."
-      },
-      "pronunciationTipBn": "'당' এর 'ㅇ' বাচ্চিম অনুনাসিক উচ্চারণ করুন।"
-    },
-    {
-      "ko": "감자",
-      "romanization": "gamja",
-      "bn": "আলু",
-      "en": "potato",
-      "pos": "noun",
-      "example": {
-        "ko": "감자를 삶아요.",
-        "bn": "আলু সিদ্ধ করি।",
-        "en": "I boil potatoes."
-      },
-      "pronunciationTipBn": "'감' এর 'ㅁ' বাচ্চিম স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "돼지고기",
-      "romanization": "dwaejigogi",
-      "bn": "শুকরের মাংস",
-      "en": "pork",
-      "pos": "noun",
-      "example": {
-        "ko": "돼지고기를 구워 먹어요.",
-        "bn": "শুকরের মাংস গ্রিল করে খাই।",
-        "en": "I grill and eat pork."
-      },
-      "pronunciationTipBn": "'돼' উচ্চারণ করার সময় ঠোঁট গোল করে 'ওয়ে' এর মতো শব্দ করুন।"
+      "pronunciationTipBn": "'고소' [고소]—ㄱ নরম '고'।"
     },
     {
       "ko": "소고기",
@@ -431,229 +147,572 @@
       "en": "beef",
       "pos": "noun",
       "example": {
-        "ko": "소고기 국을 끓여요.",
-        "bn": "গরুর মাংসের সুপ ফোটাই।",
-        "en": "I boil beef soup."
+        "ko": "소고기를 넣어요.",
+        "bn": "গরুর মাংস দিই।",
+        "en": "I add beef."
       },
-      "pronunciationTipBn": "'소' এর 'ㅅ' হালকাভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'소고기' [소고기]—ㄱ নরম '고기'।"
+    },
+    {
+      "ko": "돼지고기",
+      "romanization": "dwaejigogi",
+      "bn": "শূকরের মাংস",
+      "en": "pork",
+      "pos": "noun",
+      "example": {
+        "ko": "돼지고기를 볶아요.",
+        "bn": "শূকরের মাংস ভাজি।",
+        "en": "I stir-fry pork."
+      },
+      "pronunciationTipBn": "'돼지' [돼지]—'ㅙ' মিলিয়ে '돼'।"
+    },
+    {
+      "ko": "닭고기",
+      "romanization": "dakgogi",
+      "bn": "মুরগির মাংস",
+      "en": "chicken",
+      "pos": "noun",
+      "example": {
+        "ko": "닭고기를 튀겨요.",
+        "bn": "মুরগি ভাজি।",
+        "en": "I deep-fry chicken."
+      },
+      "pronunciationTipBn": "'닭고기' [닭고기]—ㄹ+ㄱ মিলে '닭고기'।"
+    },
+    {
+      "ko": "생선",
+      "romanization": "saengseon",
+      "bn": "মাছ",
+      "en": "fish",
+      "pos": "noun",
+      "example": {
+        "ko": "생선을 구워요.",
+        "bn": "মাছ গ্রিল করি।",
+        "en": "I grill fish."
+      },
+      "pronunciationTipBn": "'생선' [생선]—ㅅ বত্ছিম '선'।"
+    },
+    {
+      "ko": "파",
+      "romanization": "pa",
+      "bn": "পেঁয়াজ কুচি",
+      "en": "green onion",
+      "pos": "noun",
+      "example": {
+        "ko": "파를 썰어요.",
+        "bn": "পেঁয়াজ কুচি কাটি।",
+        "en": "I slice green onions."
+      },
+      "pronunciationTipBn": "'파' [파]—ㅍ ঝোঁড়া '파'।"
+    },
+    {
+      "ko": "양파",
+      "romanization": "yangpa",
+      "bn": "পেঁয়াজ",
+      "en": "onion",
+      "pos": "noun",
+      "example": {
+        "ko": "양파를 볶아요.",
+        "bn": "পেঁয়াজ ভাজি।",
+        "en": "I stir-fry onions."
+      },
+      "pronunciationTipBn": "'양파' [양파]—ㅍ ঝোঁড়া '파'।"
+    },
+    {
+      "ko": "마늘",
+      "romanization": "maneul",
+      "bn": "রসুন",
+      "en": "garlic",
+      "pos": "noun",
+      "example": {
+        "ko": "마늘을 넣어요.",
+        "bn": "রসুন দিই।",
+        "en": "I add garlic."
+      },
+      "pronunciationTipBn": "'마늘' [마늘]—ㄹ বত্ছিম '늘'।"
+    },
+    {
+      "ko": "당근",
+      "romanization": "danggeun",
+      "bn": "গাজর",
+      "en": "carrot",
+      "pos": "noun",
+      "example": {
+        "ko": "당근을 썰어요.",
+        "bn": "গাজর কাটি।",
+        "en": "I slice carrots."
+      },
+      "pronunciationTipBn": "'당근' [당근]—ㄱ+ㄷ মিলে '당근'।"
+    },
+    {
+      "ko": "소금",
+      "romanization": "sogeum",
+      "bn": "লবণ",
+      "en": "salt",
+      "pos": "noun",
+      "example": {
+        "ko": "소금을 넣어요.",
+        "bn": "লবণ দিই।",
+        "en": "I add salt."
+      },
+      "pronunciationTipBn": "'소금' [소금]—ㄱ+ㅁ মিলে '금'।"
+    },
+    {
+      "ko": "설탕",
+      "romanization": "seoltang",
+      "bn": "চিনি",
+      "en": "sugar",
+      "pos": "noun",
+      "example": {
+        "ko": "설탕을 넣어요.",
+        "bn": "চিনি দিই।",
+        "en": "I add sugar."
+      },
+      "pronunciationTipBn": "'설탕' [설탕]—ㄹ+ㅌ মিলে '탕'।"
+    },
+    {
+      "ko": "후추",
+      "romanization": "huchu",
+      "bn": "গোলমরিচ",
+      "en": "pepper",
+      "pos": "noun",
+      "example": {
+        "ko": "후추를 넣어요.",
+        "bn": "গোলমরিচ দিই।",
+        "en": "I add pepper."
+      },
+      "pronunciationTipBn": "'후추' [후추]—ㅊ শক্ত '추'।"
+    },
+    {
+      "ko": "간장",
+      "romanization": "ganjang",
+      "bn": "সয়া সস",
+      "en": "soy sauce",
+      "pos": "noun",
+      "example": {
+        "ko": "간장을 넣어요.",
+        "bn": "সয়া সস দিই।",
+        "en": "I add soy sauce."
+      },
+      "pronunciationTipBn": "'간장' [간장]—ㄴ+ㅈ মিলে '장'।"
+    },
+    {
+      "ko": "깎다",
+      "romanization": "kkakda",
+      "bn": "খোসা ছাড়ানো",
+      "en": "to peel",
+      "pos": "verb",
+      "example": {
+        "ko": "사과를 깎아요.",
+        "bn": "আপেল খোসা ছাড়াই।",
+        "en": "I peel an apple."
+      },
+      "pronunciationTipBn": "'깎아요' [까까요]—ㄱ+ㅇ মিলে '까'।"
+    },
+    {
+      "ko": "썰다",
+      "romanization": "sseolda",
+      "bn": "কাটা (কুচি কুচি)",
+      "en": "to slice",
+      "pos": "verb",
+      "example": {
+        "ko": "당근을 썰어요.",
+        "bn": "গাজর কুচি কুচি কাটি।",
+        "en": "I slice the carrot."
+      },
+      "pronunciationTipBn": "'썰어요' [써러요]—ㄹ+ㅇ মিলে '러'।"
+    },
+    {
+      "ko": "끓이다",
+      "romanization": "kkeurida",
+      "bn": "জ্বাল দেওয়া (ঝোল)",
+      "en": "to boil (in broth)",
+      "pos": "verb",
+      "example": {
+        "ko": "찌개를 끓여요.",
+        "bn": "ঝিগে জ্বাল দিই।",
+        "en": "I boil the stew."
+      },
+      "pronunciationTipBn": "'끓여요' [끄려요]—'끓이다' + 어요।"
+    },
+    {
+      "ko": "삶다",
+      "romanization": "samda",
+      "bn": "সেদ্ধ করা",
+      "en": "to boil (in water)",
+      "pos": "verb",
+      "example": {
+        "ko": "계란을 삶아요.",
+        "bn": "ডিম সেদ্ধ করি।",
+        "en": "I boil an egg."
+      },
+      "pronunciationTipBn": "'삶아요' [삶아요]—ㅁ+ㅇ মিলে '마'।"
+    },
+    {
+      "ko": "찌다",
+      "romanization": "jjida",
+      "bn": "ভাপে রান্না করা",
+      "en": "to steam",
+      "pos": "verb",
+      "example": {
+        "ko": "만두를 쪄요.",
+        "bn": "মান্ডু ভাপে রান্না করি।",
+        "en": "I steam dumplings."
+      },
+      "pronunciationTipBn": "'쪄요' [쪄요]—ㅉ জোড়া '쪄'।"
+    },
+    {
+      "ko": "굽다",
+      "romanization": "gupda",
+      "bn": "গ্রিল করা",
+      "en": "to grill; to roast",
+      "pos": "verb",
+      "example": {
+        "ko": "생선을 구워요.",
+        "bn": "মাছ গ্রিল করি।",
+        "en": "I grill fish."
+      },
+      "pronunciationTipBn": "'구워요' [구워요]—'ㅂ' অনিয়মে '워'।"
+    },
+    {
+      "ko": "볶다",
+      "romanization": "bokda",
+      "bn": "ভাজা (করাইয়ে)",
+      "en": "to stir-fry",
+      "pos": "verb",
+      "example": {
+        "ko": "돼지고기를 볶아요.",
+        "bn": "শূকরের মাংস ভাজি।",
+        "en": "I stir-fry pork."
+      },
+      "pronunciationTipBn": "'볶아요' [볶아요]—ㄱ+ㅇ মিলে '가'।"
+    },
+    {
+      "ko": "튀기다",
+      "romanization": "twigida",
+      "bn": "তেলে ভাজা",
+      "en": "to deep-fry",
+      "pos": "verb",
+      "example": {
+        "ko": "닭고기를 튀겨요.",
+        "bn": "মুরগি তেলে ভাজি।",
+        "en": "I deep-fry chicken."
+      },
+      "pronunciationTipBn": "'튀겨요' [튀겨요]—ㅌ ঝোঁড়া '튀'।"
+    },
+    {
+      "ko": "데우다",
+      "romanization": "deuda",
+      "bn": "গরম করা (পুনরায়)",
+      "en": "to reheat",
+      "pos": "verb",
+      "example": {
+        "ko": "찌개를 데워요.",
+        "bn": "ঝিগে গরম করি।",
+        "en": "I reheat the stew."
+      },
+      "pronunciationTipBn": "'데워요' [데워요]—'ㅡ' বাদ পড়ে '워'।"
+    },
+    {
+      "ko": "만두",
+      "romanization": "mandu",
+      "bn": "মান্ডু (ডাম্পলিং)",
+      "en": "dumplings",
+      "pos": "noun",
+      "example": {
+        "ko": "만두를 쪄서 먹었어요.",
+        "bn": "মান্ডু ভাপে খেয়েছি।",
+        "en": "I steamed and ate dumplings."
+      },
+      "pronunciationTipBn": "'만두' [만두]—ㄷ নরম '두'।"
+    },
+    {
+      "ko": "계란",
+      "romanization": "gyeran",
+      "bn": "ডিম",
+      "en": "egg",
+      "pos": "noun",
+      "example": {
+        "ko": "계란을 삶아요.",
+        "bn": "ডিম সেদ্ধ করি।",
+        "en": "I boil an egg."
+      },
+      "pronunciationTipBn": "'계란' [계란]—'계' বলতে ঠোঁট গোল করে।"
+    },
+    {
+      "ko": "떡",
+      "romanization": "tteok",
+      "bn": "চালের কেক",
+      "en": "rice cake",
+      "pos": "noun",
+      "example": {
+        "ko": "떡볶이를 만들어요.",
+        "bn": "টকবোক্কি বানাই।",
+        "en": "I make tteokbokki."
+      },
+      "pronunciationTipBn": "'떡' [떡]—ㄸ জোড়া '떡' শক্ত।"
+    },
+    {
+      "ko": "요리법",
+      "romanization": "yoribeop",
+      "bn": "রান্নার পদ্ধতি",
+      "en": "cooking method",
+      "pos": "noun",
+      "example": {
+        "ko": "불고기 요리법을 배웠어요.",
+        "bn": "পুলগোগির রেসিপি শিখেছি।",
+        "en": "I learned the bulgogi recipe."
+      },
+      "pronunciationTipBn": "'요리법' [요리법]—ㅂ+ㅂ মিলে '법'।"
+    },
+    {
+      "ko": "요리 교실",
+      "romanization": "yori gyosil",
+      "bn": "রান্নার ক্লাস",
+      "en": "cooking class",
+      "pos": "noun",
+      "example": {
+        "ko": "요리 교실에 다녀요.",
+        "bn": "রান্নার ক্লাসে যাই।",
+        "en": "I attend a cooking class."
+      },
+      "pronunciationTipBn": "'교실' [교실]—ㄱ+ㅇ মিলে '교'।"
     }
   ],
   "grammar": [
     {
-      "pattern": "V + (으)세요",
-      "titleBn": "অনুরোধ বা নির্দেশ",
-      "explanationBn": "কাউকে বিনীতভাবে কিছু করতে বলার জন্য বা নির্দেশ দেওয়ার জন্য এটি ব্যবহৃত হয়। ক্রিয়াপদের শেষে ব্যঞ্জনবর্ণ থাকলে '으세요' এবং স্বরবর্ণ থাকলে '세요' যুক্ত হয়।",
-      "explanationEn": "Used to politely request or instruct someone to do something. Add '으세요' if the verb stem ends in a consonant, and '세요' if it ends in a vowel.",
+      "pattern": "V + -아/어 보다",
+      "titleBn": "চেষ্টা '-아/어 보다' (করে দেখা)",
+      "explanationBn": "কোনো কাজ পরখ করে করতে '-아/어 보다' বসে—বাংলার 'করে দেখা'। অন্যের কাছে করতে বলতে '-아/어 보세요': 한번 먹어 보세요 (একবার খেয়ে দেখুন)।",
+      "explanationEn": "-아/어 보다 means trying something. For recommending, use -아/어 보세요: 한번 먹어 보세요.",
       "examples": [
         {
-          "ko": "여기에 앉으세요.",
-          "bn": "এখানে বসুন।",
-          "en": "Please sit here."
+          "ko": "된장찌개를 만들어 보세요.",
+          "bn": "তোয়েনজাং ঝিগে বানিয়ে দেখুন।",
+          "en": "Try making doenjang stew."
         },
         {
-          "ko": "물을 끓이세요.",
-          "bn": "পানি ফোটান।",
-          "en": "Please boil the water."
+          "ko": "이 게임이 정말 재미있어요. 한번 해 보세요.",
+          "bn": "এই গেমটা সত্যিই মজার। একবার খেলে দেখুন।",
+          "en": "This game is really fun. Try it."
         },
         {
-          "ko": "양파를 썰으세요.",
-          "bn": "পেঁয়াজ কাটুন।",
-          "en": "Please chop the onion."
+          "ko": "그럼 부동산에 가 보세요.",
+          "bn": "তাহলে এজেন্সিতে গিয়ে দেখুন।",
+          "en": "Then try going to the agency."
         }
       ],
-      "commonMistakeBn": "অনেকে স্বরবর্ণের পরে ভুল করে '으세요' ব্যবহার করেন; স্বরবর্ণের পরে সবসময় '세요' বসবে।"
+      "commonMistakeBn": "ㅏ/ㅗ স্বরে '-아 보다', অন্য স্বরে '-어 보다', '하다' হলে '-해 보다' বসে।"
     },
     {
-      "pattern": "A/V + 지 않다",
-      "titleBn": "নেতিবাচক রূপ",
-      "explanationBn": "এটি বিশেষণ বা ক্রিয়াপদের নেতিবাচক রূপ তৈরি করতে ব্যবহৃত হয়। এর অর্থ 'না' বা 'নয়'।",
-      "explanationEn": "Used to make the negative form of an adjective or verb. It means 'not'.",
+      "pattern": "V + -아서/어서 (순차)",
+      "titleBn": "ক্রমসূচক '-아서/어서' (করে)",
+      "explanationBn": "দুই কাজ পরপর ঘটলে প্রথমটির পরে '-아서/어서' বসে—বাংলার 'করে'। কাজ দুটো ঘনিষ্ঠ সম্পর্কিত হলে ব্যবহৃত হয়; '고' সাধারণ তালিকায়।",
+      "explanationEn": "-아서/어서 shows the first action happens before the second. Used for closely related actions; -고 for unrelated listing.",
       "examples": [
         {
-          "ko": "이 음식은 맵지 않아요.",
-          "bn": "এই খাবারটি ঝাল নয়।",
-          "en": "This food is not spicy."
+          "ko": "집에 와서 쉬었어요.",
+          "bn": "বাড়ি এসে বিশ্রাম নিয়েছি।",
+          "en": "I came home and rested."
         },
         {
-          "ko": "저는 고기를 먹지 않아요.",
-          "bn": "আমি মাংস খাই না।",
-          "en": "I do not eat meat."
+          "ko": "김밥을 만들어서 친구들하고 먹을 거예요.",
+          "bn": "কিমবাপ বানিয়ে বন্ধুদের সাথে খাব।",
+          "en": "I will make gimbap and eat with friends."
         },
         {
-          "ko": "오늘은 바쁘지 않아요.",
-          "bn": "আজ ব্যস্ত নই।",
-          "en": "I am not busy today."
+          "ko": "옷을 벗어서 옷장에 걸었어요.",
+          "bn": "কাপড় খুলে আলমারিতে ঝুলিয়েছি।",
+          "en": "I took off my clothes and hung them in the closet."
         }
       ],
-      "commonMistakeBn": "অনেকে '안' এর মতো করে '지 않다' কে ক্রিয়াপদের আগে বসান; এটি সবসময় ক্রিয়াপদের পরে বসবে।"
+      "commonMistakeBn": "অসম্পর্কিত কাজে '-고' ব্যবহার করুন—সম্পর্কিত ক্রমে '-아서/어서'।"
     },
     {
-      "pattern": "V + 아/어/여야 하다",
-      "titleBn": "বাধ্যবাধকতা বা প্রয়োজনীয়তা",
-      "explanationBn": "কোনো কাজ করা আবশ্যক বা প্রয়োজনীয় বোঝাতে এটি ব্যবহৃত হয়। ক্রিয়াপদের শেষে 'ㅏ' বা 'ㅗ' থাকলে '아야 하다', অন্য স্বরবর্ণ থাকলে '어야 하다' এবং '하다' থাকলে '해야 하다' হয়।",
-      "explanationEn": "Used to express obligation or necessity. Add '아야 하다' if the verb stem ends in 'ㅏ' or 'ㅗ', '어야 하다' for other vowels, and '해야 하다' for '하다' verbs.",
+      "pattern": "한번 + V -아/어 보세요",
+      "titleBn": "'একবার করে দেখুন' পরামর্শ",
+      "explanationBn": "কাউকে কিছু করতে বলতে '한번 ... -아/어 보세요' বলুন—বাংলার 'একবার করে দেখুন': 한번 가 보세요, 한번 먹어 보세요।",
+      "explanationEn": "Use 한번 + -아/어 보세요 to suggest trying: 한번 가 보세요 (try going), 한번 먹어 보세요 (try eating).",
       "examples": [
         {
-          "ko": "내일 일찍 일어나야 해요.",
-          "bn": "আগামীকাল সকালে তাড়াতাড়ি উঠতে হবে।",
-          "en": "I have to wake up early tomorrow."
+          "ko": "경주에 유적지가 많아요. 한번 가 보세요.",
+          "bn": "গিয়ংজুতে ঐতিহাসিক স্থান অনেক। একবার গিয়ে দেখুন।",
+          "en": "Gyeongju has many historic sites. Try going there."
         },
         {
-          "ko": "고기를 잘 익혀야 해요.",
-          "bn": "মাংস ভালোভাবে রান্না করতে হবে।",
-          "en": "You must cook the meat well."
+          "ko": "이 책이 정말 재미있어요. 한번 읽어 보세요.",
+          "bn": "এই বইটা সত্যিই মজার। একবার পড়ে দেখুন।",
+          "en": "This book is really fun. Try reading it."
         },
         {
-          "ko": "손을 씻어야 해요.",
-          "bn": "হাত ধুতে হবে।",
-          "en": "You must wash your hands."
+          "ko": "이 울동화가 가벼워요. 한번 신어 보세요.",
+          "bn": "এই স্নিকার্স হালকা। একবার পরে দেখুন।",
+          "en": "These sneakers are light. Try them on."
         }
       ],
-      "commonMistakeBn": "অনেকে '하다' ক্রিয়াপদের ক্ষেত্রে ভুল করে '하여야 하다' ব্যবহার করেন; এটি সাধারণত '해야 하다' হিসেবে ব্যবহৃত হয়।"
+      "commonMistakeBn": "'한번' শুধু '-아/어 보세요'-এর সাথে স্বাভাবিক; '한번 먹어요' নয়।"
     },
     {
-      "pattern": "V + (으)ㄹ 줄 알다/모르다",
-      "titleBn": "সক্ষমতা বা জ্ঞান",
-      "explanationBn": "কোনো কাজ করতে জানা বা না জানা বোঝাতে এটি ব্যবহৃত হয়। ক্রিয়াপদের শেষে ব্যঞ্জনবর্ণ থাকলে '을 줄 알다/모르다' এবং স্বরবর্ণ থাকলে 'ㄹ 줄 알다/모르다' যুক্ত হয়।",
-      "explanationEn": "Used to express knowing or not knowing how to do something. Add '을 줄 알다/모르다' if the verb stem ends in a consonant, and 'ㄹ 줄 알다/모르다' if it ends in a vowel.",
+      "pattern": "맛이 어때요?",
+      "titleBn": "স্বাদ কেমন জিজ্ঞাসা",
+      "explanationBn": "খাবারের স্বাদ জানতে '맛이 어때요?' বলুন। উত্তরে স্বাদ-বিশেষণ: 매워요, 달아요, 짜요, 싱거워요।",
+      "explanationEn": "Ask about taste with 맛이 어때요? Answer with taste adjectives: 매워요, 달아요, 짜요.",
       "examples": [
         {
-          "ko": "한국 음식을 만들 줄 알아요?",
-          "bn": "কোরিয়ান খাবার বানাতে জানেন?",
-          "en": "Do you know how to make Korean food?"
+          "ko": "케이크 맛이 어때요?",
+          "bn": "কেকের স্বাদ কেমন?",
+          "en": "How does the cake taste?"
         },
         {
-          "ko": "저는 운전할 줄 몰라요.",
-          "bn": "আমি গাড়ি চালাতে জানি না।",
-          "en": "I don't know how to drive."
+          "ko": "달아요.",
+          "bn": "মিষ্টি।",
+          "en": "It is sweet."
         },
         {
-          "ko": "김치찌개를 끓일 줄 알아요.",
-          "bn": "কিমচি চিগে ফোটাতে জানি।",
-          "en": "I know how to boil Kimchi Jjigae."
+          "ko": "떡볶이 맛이 어때요? 매워요.",
+          "bn": "টকবোক্কির স্বাদ কেমন? ঝাল।",
+          "en": "How does tteokbokki taste? It is spicy."
         }
       ],
-      "commonMistakeBn": "অনেকে '알다' বা '모르다' এর আগে ভুল করে '가' বা '를' ব্যবহার করেন; এখানে '줄' এর পর সরাসরি '알다/모르다' বসবে।"
+      "commonMistakeBn": "'맛이 뭐예요?' ভুল—স্বাদ জানতে '맛이 어때요?' বলুন।"
+    },
+    {
+      "pattern": "N에 N을/를 넣고 끓여요",
+      "titleBn": "রান্নার পদ্ধতি বলা",
+      "explanationBn": "রান্নার উপায় বলতে 'N에 N을/를 넣고 끓여요' ব্যবহার করুন: 떡에 채소하고 양념을 넣고 끓여요 (চালের কেকে শাক ও মশলা দিয়ে জ্বাল দিই)।",
+      "explanationEn": "Describe cooking with N에 N을/를 넣고 끓여요: add ingredients and boil.",
+      "examples": [
+        {
+          "ko": "떡에 채소하고 양념을 넣고 끓여요.",
+          "bn": "চালের কেকে শাক ও মশলা দিয়ে জ্বাল দিই।",
+          "en": "I put vegetables and seasoning in rice cakes and boil."
+        },
+        {
+          "ko": "김치에 고기를 넣고 끓여요.",
+          "bn": "কিমচিতে মাংস দিয়ে জ্বাল দিই।",
+          "en": "I add meat to kimchi and boil."
+        },
+        {
+          "ko": "라면에 물을 넣고 끓여요.",
+          "bn": "রাম্যনে পানি দিয়ে জ্বাল দিই।",
+          "en": "I add water to ramen and boil."
+        }
+      ],
+      "commonMistakeBn": "'넣고' বা '넣어서'—দুটোই সঠিক; '-아서/어서' ক্রম বোঝায়।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "রান্না করা",
-      "titleEn": "Cooking",
+      "titleBn": "রান্না ক্লাস",
+      "titleEn": "Cooking Class",
       "lines": [
         {
-          "speaker": "수루",
-          "ko": "투안 씨, 김치찌개를 만들 줄 알아요?",
-          "bn": "তুয়ান সাহেব, আপনি কি কিমচি চিগে বানাতে জানেন?",
-          "en": "Tuan, do you know how to make Kimchi Jjigae?"
+          "speaker": "A",
+          "ko": "와, 이게 무슨 음식이에요? 다라 씨가 만들었어요?",
+          "bn": "ওয়াহ, এটা কী খাবার? দারা, তুমি বানিয়েছো?",
+          "en": "Wow, what dish is this? Did you make it, Dara?"
         },
         {
-          "speaker": "투안",
-          "ko": "네, 만들 줄 알아요. 아주 쉬워요.",
-          "bn": "হ্যাঁ, বানাতে জানি। এটা খুব সহজ।",
-          "en": "Yes, I know how to make it. It's very easy."
+          "speaker": "B",
+          "ko": "네, 불고기예요. 한번 먹어 보세요.",
+          "bn": "হ্যাঁ, পুলগোগি। একবার খেয়ে দেখুন।",
+          "en": "Yes, it's bulgogi. Try it."
         },
         {
-          "speaker": "수루",
-          "ko": "그럼 어떻게 만들어요?",
-          "bn": "তাহলে কীভাবে বানায়?",
-          "en": "Then how do you make it?"
+          "speaker": "A",
+          "ko": "불고기 요리법을 어디에서 배웠어요?",
+          "bn": "পুলগোগির রেসিপি কোথা থেকে শিখলে?",
+          "en": "Where did you learn to cook bulgogi?"
         },
         {
-          "speaker": "투안",
-          "ko": "먼저 냄비에 김치와 돼지고기를 넣고 볶으세요.",
-          "bn": "প্রথমে হাঁড়িতে কিমচি এবং শুকরের মাংস দিয়ে ভাজুন।",
-          "en": "First, put kimchi and pork in a pot and stir-fry them."
+          "speaker": "B",
+          "ko": "요리 교실에서 배웠어요. 불고기 맛이 어때요? 좀 싱거워요?",
+          "bn": "রান্নার ক্লাস থেকে। স্বাদ কেমন? একটু ফিকে?",
+          "en": "I learned at a cooking class. How is it? A bit bland?"
         },
         {
-          "speaker": "수루",
-          "ko": "그리고 물을 넣고 끓여요?",
-          "bn": "তারপর পানি দিয়ে ফোটাবো?",
-          "en": "And then add water and boil it?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "네, 맞아요. 물이 끓으면 파를 넣으세요.",
-          "bn": "হ্যাঁ, ঠিক বলেছেন। পানি ফুটলে পেঁয়াজ পাতা দিন।",
-          "en": "Yes, that's right. When the water boils, add green onions."
+          "speaker": "A",
+          "ko": "아니요, 안 싱거워요. 아주 맛있어요.",
+          "bn": "না, ফিকে না। খুব সুস্বাদু।",
+          "en": "No, it's not bland. It's very delicious."
         }
       ]
     },
     {
-      "titleBn": "খাবারের স্বাদ",
-      "titleEn": "Taste of Food",
+      "titleBn": "রান্না শখ",
+      "titleEn": "Cooking Hobby",
       "lines": [
         {
-          "speaker": "리한",
-          "ko": "이 불고기 맛이 어때요?",
-          "bn": "এই বুলগোগির স্বাদ কেমন?",
-          "en": "How does this Bulgogi taste?"
+          "speaker": "A",
+          "ko": "프엉 씨는 요리하는 것을 좋아해요?",
+          "bn": "ফুং, তুমি কি রান্না পছন্দ করো?",
+          "en": "Phuong, do you like cooking?"
         },
         {
-          "speaker": "바루",
-          "ko": "정말 맛있어요. 조금 달아요.",
-          "bn": "সত্যিই মজাদার। একটু মিষ্টি।",
-          "en": "It's really delicious. It's a little sweet."
+          "speaker": "B",
+          "ko": "네, 요리하는 게 취미예요.",
+          "bn": "হ্যাঁ, রান্নাই আমার শখ।",
+          "en": "Yes, cooking is my hobby."
         },
         {
-          "speaker": "리한",
-          "ko": "다행이네요. 맵지 않아요?",
-          "bn": "যাক বাঁচা গেল। ঝাল নয় তো?",
-          "en": "That's a relief. Isn't it spicy?"
+          "speaker": "A",
+          "ko": "무슨 음식을 잘 만들어요?",
+          "bn": "কোন খাবার ভালো বানাতে পারো?",
+          "en": "What food do you cook well?"
         },
         {
-          "speaker": "바루",
-          "ko": "네, 맵지 않아요. 제 입맛에 딱 맞아요.",
-          "bn": "না, ঝাল নয়। আমার স্বাদের সাথে একদম মানানসই।",
-          "en": "No, it's not spicy. It perfectly suits my taste."
+          "speaker": "B",
+          "ko": "저는 떡볶이를 잘 만들어요. 그래서 떡볶이를 자주 만들어서 먹어요.",
+          "bn": "আমি টকবোক্কি ভালো বানাতে পারি। তাই প্রায়ই বানিয়ে খাই।",
+          "en": "I'm good at making tteokbokki. So I often make and eat it."
         },
         {
-          "speaker": "리한",
-          "ko": "많이 드세요.",
-          "bn": "বেশি করে খান।",
-          "en": "Please eat a lot."
+          "speaker": "A",
+          "ko": "떡볶이는 어떻게 만들어요?",
+          "bn": "টকবোক্কি কীভাবে বানাও?",
+          "en": "How do you make tteokbokki?"
+        },
+        {
+          "speaker": "B",
+          "ko": "떡에 채소하고 양념을 넣고 끓여요. 저는 떡볶이에 라멘도 넣어요.",
+          "bn": "চালের কেকে শাক ও মশলা দিয়ে জ্বাল দিই। আমি রাম্যনও দিই।",
+          "en": "I boil rice cakes with vegetables and seasoning. I also add ramen."
         }
       ]
     },
     {
-      "titleBn": "খাবার প্রস্তুত করা",
-      "titleEn": "Preparing Food",
+      "titleBn": "একবার খেয়ে দেখুন",
+      "titleEn": "Try It",
       "lines": [
         {
-          "speaker": "지훈",
-          "ko": "수루 씨, 오늘 저녁에 불고기를 만들까요?",
-          "bn": "সুরু সাহেব, আজ সন্ধ্যায় কি বুলগোগি বানাবো?",
-          "en": "Suru, shall we make Bulgogi this evening?"
+          "speaker": "A",
+          "ko": "이 김치찌개를 드셔 보세요.",
+          "bn": "এই কিমচি ঝিগে একবার খেয়ে দেখুন।",
+          "en": "Try this kimchi stew."
         },
         {
-          "speaker": "수루",
-          "ko": "좋아요. 제가 채소를 썰게요.",
-          "bn": "ভালো হয়। আমি সবজি কাটবো।",
-          "en": "Sounds good. I will chop the vegetables."
+          "speaker": "B",
+          "ko": "와, 다라 씨가 만들었어요?",
+          "bn": "ওয়াহ, দারা তুমি বানিয়েছো?",
+          "en": "Wow, did you make it, Dara?"
         },
         {
-          "speaker": "지훈",
-          "ko": "그럼 저는 고기를 구울게요. 프라이팬이 어디 있어요?",
-          "bn": "তাহলে আমি মাংস গ্রিল করবো। ফ্রাইপ্যান কোথায়?",
-          "en": "Then I will grill the meat. Where is the frying pan?"
+          "speaker": "A",
+          "ko": "네, 제가 만들었어요. 김치찌개 맛이 어때요?",
+          "bn": "হ্যাঁ, আমি বানিয়েছি। স্বাদ কেমন?",
+          "en": "Yes, I made it. How does it taste?"
         },
         {
-          "speaker": "수루",
-          "ko": "저기 있어요. 고기를 굽기 전에 식용유를 조금 두르세요.",
-          "bn": "ওখানে আছে। মাংস গ্রিল করার আগে একটু ভোজ্য তেল দিন।",
-          "en": "It's over there. Put a little cooking oil before grilling the meat."
+          "speaker": "B",
+          "ko": "조금 맵지만 아주 맛있어요.",
+          "bn": "একটু ঝাল কিন্তু খুব সুস্বাদু।",
+          "en": "A bit spicy but very delicious."
         },
         {
-          "speaker": "지훈",
-          "ko": "네, 알겠어요. 간장도 필요해요?",
-          "bn": "হ্যাঁ, বুঝতে পেরেছি। সয়া সসও কি লাগবে?",
-          "en": "Yes, I understand. Do we need soy sauce too?"
-        },
-        {
-          "speaker": "수루",
-          "ko": "네, 고기에 간장을 조금 넣어야 해요.",
-          "bn": "হ্যাঁ, মাংসে একটু সয়া সস দিতে হবে।",
-          "en": "Yes, we have to put a little soy sauce in the meat."
+          "speaker": "A",
+          "ko": "그래요? 저도 자주 만들어요. 쉬워요.",
+          "bn": "তাই? আমিও প্রায়ই বানাই। সহজ।",
+          "en": "Really? I make it often too. It's easy."
         }
       ]
     }
@@ -662,137 +721,232 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'맵다' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "끓여요",
-        "튀겨요",
-        "썰어요",
-        "볶아요"
+        "মিষ্টি",
+        "ঝাল",
+        "নোনতা",
+        "টক"
       ],
-      "answer": 0,
-      "explanationBn": "냄비에 물을 (হাঁড়িতে পানি) এর সাথে 끓여요 (ফোটাই) শব্দটি মানানসই।",
-      "questionContext": "냄비에 물을 (   )."
+      "answer": 1,
+      "explanationBn": "맵다 = ঝাল। 달다 = মিষ্টি, 짜다 = নোনতা, 시다 = টক।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'-아/어 보다' দিয়ে সঠিকভাবে গঠিত বাক্য কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "달아요",
-        "매워요",
-        "짜요",
-        "싱거워요"
+        "한번 먹 보세요.",
+        "한번 먹어 보세요가.",
+        "한번 먹어 보세요.",
+        "한번 먹보세요가."
       ],
-      "answer": 1,
-      "explanationBn": "고추가 많이 들어가서 (অনেক মরিচ দেওয়ায়) এর সাথে 매워요 (ঝাল) শব্দটি মানানসই।",
-      "questionContext": "고추가 많이 들어가서 음식이 (   )."
+      "answer": 2,
+      "explanationBn": "'먹다' + '-어 보다': 먹어 보세요।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'-아서/어서' দিয়ে সঠিকভাবে গঠিত বাক্য কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "달아요",
-        "맛없어요",
-        "짜요",
-        "싱거워요"
+        "집에 와서 쉬었어요.",
+        "집에 와 쉬었어요.",
+        "집에 와서을 쉬었어요.",
+        "집에 와서 쉬었어요가."
       ],
-      "answer": 2,
-      "explanationBn": "소금을 너무 많이 넣어서 (লবণ খুব বেশি দেওয়ায়) এর সাথে 짜요 (নোনতা) শব্দটি মানানসই।",
-      "questionContext": "소금을 너무 많이 넣어서 국이 (   )."
+      "answer": 0,
+      "explanationBn": "'오다' + '-아서': 와서 (এসে)।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 질문에 알맞은 대답을 고르십시오.",
+      "questionBn": "'싱겁다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "네, 달아요.",
-        "네, 맵지 않아요.",
-        "아니요, 짜요.",
-        "아니요, 맵지 않아요."
+        "ঝাল",
+        "ফিকে",
+        "মিষ্টি",
+        "তিক্ত"
       ],
-      "answer": 3,
-      "explanationBn": "음식이 매워요? (খাবার কি ঝাল?) এর উত্তরে 아니요, 맵지 않아요 (না, ঝাল নয়) সঠিক।",
-      "questionContext": "가: 음식이 매워요?\n나: (   )"
+      "answer": 1,
+      "explanationBn": "싱겁다 = ফিকে (লবণ কম)।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'끓이다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "구우세요",
-        "굽어요",
-        "굽으세요",
-        "구워요"
+        "সেদ্ধ করা",
+        "ভাজা",
+        "গ্রিল করা",
+        "জ্বাল দেওয়া (ঝোল)"
       ],
-      "answer": 0,
-      "explanationBn": "굽다 (ভাজা/গ্রিল করা) এর সাথে (으)세요 যুক্ত হলে 구우세요 হয় (ㅂ অনিয়মিত ক্রিয়াপদ)।",
-      "questionContext": "프라이팬에 고기를 (   )."
+      "answer": 3,
+      "explanationBn": "끓이다 = ঝোল/ঝিগে জ্বাল দেওয়া; 삶다 = পানিতে সেদ্ধ।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'만두를 쪄서 먹었어요' এ '찌다' এর কাজ কী?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "만들세요",
-        "만드세요",
-        "만들으세요",
-        "만들어요"
+        "ভাজা",
+        "ভাপে রান্না",
+        "সেদ্ধ করা",
+        "গ্রিল"
       ],
       "answer": 1,
-      "explanationBn": "만들다 (তৈরি করা) এর সাথে (으)세요 যুক্ত হলে 만드세요 হয় (ㄹ অনিয়মিত ক্রিয়াপদ)।",
-      "questionContext": "맛있는 음식을 (   )."
+      "explanationBn": "찌다 = ভাপে রান্না করা।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'소고기' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "달으세요",
-        "달아요",
-        "달지 않아요",
-        "달지 않으세요"
+        "শূকরের মাংস",
+        "মুরগির মাংস",
+        "গরুর মাংস",
+        "মাছ"
       ],
       "answer": 2,
-      "explanationBn": "달다 (মিষ্টি) এর নেতিবাচক রূপ 달지 않아요 (মিষ্টি নয়)।",
-      "questionContext": "이 과일은 별로 (   )."
+      "explanationBn": "소고기 = গরুর মাংস। 돼지고기 = শূকরের, 닭고기 = মুরগির।"
     },
     {
       "id": "p8",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "끓이다",
-          "right": "ফোটানো"
-        },
-        {
-          "left": "썰다",
-          "right": "কাটা"
-        },
-        {
-          "left": "볶다",
-          "right": "ভাজা (অল্প তেলে)"
-        },
-        {
-          "left": "튀기다",
-          "right": "ডুবো তেলে ভাজা"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'한번' সঠিকভাবে কোন বাক্যে ব্যবহৃত?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": [
+        "한번 가요.",
+        "한번을 가요.",
+        "한번 가 보세요.",
+        "한번 가세요가."
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 2,
+      "explanationBn": "'한번' + '-아/어 보세요': 한번 가 보세요।"
     },
     {
       "id": "p9",
+      "type": "multiple-choice",
+      "questionBn": "'맛이 어때요?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": [
+        "네, 맛이에요.",
+        "매워요.",
+        "떡볶이예요.",
+        "먹어요."
+      ],
+      "answer": 1,
+      "explanationBn": "স্বাদ জিজ্ঞাসায় স্বাদ-বিশেষণ: 매워요 (ঝাল)।"
+    },
+    {
+      "id": "p10",
+      "type": "fill-blank",
+      "questionBn": "'가다' + '-아/어 보다' বসান: 경주에 한번 가 ___세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "봐",
+        "보",
+        "보아",
+        "봐요"
+      ],
+      "answer": 1,
+      "explanationBn": "'가다' + '-아 보다': 가 보세요।"
+    },
+    {
+      "id": "p11",
+      "type": "fill-blank",
+      "questionBn": "'오다' + '-아서/어서' বসান: 집에 ___ 쉬었어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "오서",
+        "와",
+        "와서가",
+        "와서"
+      ],
+      "answer": 3,
+      "explanationBn": "'오다' + '-아서': 와서।"
+    },
+    {
+      "id": "p12",
+      "type": "fill-blank",
+      "questionBn": "'짜다' শব্দের অর্থ বসান: 된장찌개가 ___요. (নোনতা)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "짜",
+        "달",
+        "시",
+        "쓰"
+      ],
+      "answer": 0,
+      "explanationBn": "짜다 = নোনতা।"
+    },
+    {
+      "id": "p13",
+      "type": "fill-blank",
+      "questionBn": "'하다' + '-아/어 보다' বসান: 이 게임을 한번 해 ___세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "봐",
+        "보아",
+        "보",
+        "봐요"
+      ],
+      "answer": 2,
+      "explanationBn": "'하다' + '-해 보다': 해 보세요।"
+    },
+    {
+      "id": "p14",
+      "type": "fill-blank",
+      "questionBn": "'당근' শব্দের অর্থ বসান: ___을 썰어요. (গাজর)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "양파",
+        "마늘",
+        "당근",
+        "파"
+      ],
+      "answer": 2,
+      "explanationBn": "당근 = গাজর।"
+    },
+    {
+      "id": "p15",
+      "type": "fill-blank",
+      "questionBn": "'끓이다' শব্দের অর্থ বসান: 찌개를 ___요. (জ্বাল)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "볶",
+        "굽",
+        "튀기",
+        "끓이"
+      ],
+      "answer": 3,
+      "explanationBn": "끓이다 = জ্বাল দেওয়া (ঝোল)।"
+    },
+    {
+      "id": "p16",
+      "type": "fill-blank",
+      "questionBn": "'하다' + '-아서/어서' বসান: 옷을 벗___ 옷장에 걸었어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "아서",
+        "어서",
+        "해서",
+        "고"
+      ],
+      "answer": 1,
+      "explanationBn": "'벗다' + '-어서': 벗어서।"
+    },
+    {
+      "id": "p17",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "স্বাদের সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
           "left": "맵다",
@@ -809,193 +963,23 @@
         {
           "left": "시다",
           "right": "টক"
+        },
+        {
+          "left": "쓰다",
+          "right": "তিক্ত"
         }
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
-    },
-    {
-      "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "냄비",
-          "right": "হাঁড়ি"
-        },
-        {
-          "left": "프라이팬",
-          "right": "ফ্রাইপ্যান"
-        },
-        {
-          "left": "칼",
-          "right": "ছুরি"
-        },
-        {
-          "left": "재료",
-          "right": "উপকরণ"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
-    },
-    {
-      "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "설탕",
-        "소금",
-        "간장",
-        "식용유"
-      ],
-      "answer": 0,
-      "explanationBn": "커피가 써서 (কফি তেতো হওয়ায়) এর সাথে 설탕 (চিনি) শব্দটি মানানসই।",
-      "questionContext": "커피가 써서 (   )을/를 조금 넣었어요."
-    },
-    {
-      "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "파",
-        "양파",
-        "마늘",
-        "고추장"
-      ],
-      "answer": 3,
-      "explanationBn": "비빔밥을 만들 때 (বিবিমবাপ বানানোর সময়) সাধারণত 고추장 (মরিচের পেস্ট) ব্যবহার করা হয়।",
-      "questionContext": "비빔밥을 만들 때 (   )을/를 넣고 비벼요."
-    },
-    {
-      "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 질문에 알맞은 대답을 고르십시오.",
-      "options": [
-        "네, 끓일 줄 알아요.",
-        "네, 끓여야 해요.",
-        "아니요, 끓이세요.",
-        "아니요, 끓이지 않아요."
-      ],
-      "answer": 0,
-      "explanationBn": "된장찌개를 끓일 줄 알아요? (দোয়েনজাং চিগে ফোটাতে জানেন?) এর উত্তরে 네, 끓일 줄 알아요 (হ্যাঁ, ফোটাতে জানি) সঠিক।",
-      "questionContext": "가: 된장찌개를 끓일 줄 알아요?\n나: (   )"
-    },
-    {
-      "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "구워야 해요",
-        "썰어야 해요",
-        "삶아야 해요",
-        "튀겨야 해요"
-      ],
-      "answer": 1,
-      "explanationBn": "칼로 (ছুরি দিয়ে) এর সাথে 썰어야 해요 (কাটতে হবে) শব্দটি মানানসই।",
-      "questionContext": "요리를 하기 전에 먼저 칼로 채소를 (   )."
-    },
-    {
-      "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "넣으세요",
-        "넣어요",
-        "넣어야 해요",
-        "넣을 줄 알아요"
-      ],
-      "answer": 2,
-      "explanationBn": "음식이 싱거우면 (খাবার স্বাদহীন হলে) 소금을 넣어야 해요 (লবণ দিতে হবে) মানানসই।",
-      "questionContext": "음식이 싱거우면 소금을 (   )."
-    },
-    {
-      "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "만들 줄 알아요",
-        "만들 줄 몰라요",
-        "만들어야 해요",
-        "만드세요"
-      ],
-      "answer": 1,
-      "explanationBn": "저는 요리를 못해요 (আমি রান্না পারি না) এর সাথে 한국 음식을 만들 줄 몰라요 (কোরিয়ান খাবার বানাতে জানি না) মানানসই।",
-      "questionContext": "저는 요리를 못해요. 그래서 한국 음식을 (   )."
-    },
-    {
-      "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "볶으세요",
-        "볶아요",
-        "볶아야 해요",
-        "볶지 않아요"
-      ],
-      "answer": 0,
-      "explanationBn": "먼저 프라이팬에 고기를 (প্রথমে ফ্রাইপ্যানে মাংস) এর সাথে 볶으세요 (ভাজুন) মানানসই।",
-      "questionContext": "먼저 프라이팬에 고기를 (   ). 그리고 채소를 넣으세요."
+      "explanationBn": "맛이 어때요? দিয়ে স্বাদ জিজ্ঞাসা করুন।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "씻으세요",
-        "씻어야 해요",
-        "씻을 줄 알아요",
-        "씻지 않아요"
-      ],
-      "answer": 1,
-      "explanationBn": "밥을 먹기 전에 (ভাত খাওয়ার আগে) 손을 씻어야 해요 (হাত ধুতে হবে) মানানসই।",
-      "questionContext": "밥을 먹기 전에 손을 깨끗하게 (   )."
-    },
-    {
-      "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "식용유",
-          "right": "ভোজ্য তেল"
-        },
-        {
-          "left": "소금",
-          "right": "লবণ"
-        },
-        {
-          "left": "설탕",
-          "right": "চিনি"
-        },
-        {
-          "left": "간장",
-          "right": "সয়া সস"
-        }
-      ],
+      "questionBn": "উপাদানের সাথে বাংলা অর্থ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
-    },
-    {
-      "id": "p20",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
       "pairs": [
         {
-          "left": "고추장",
-          "right": "মরিচের পেস্ট"
-        },
-        {
-          "left": "파",
-          "right": "পেঁয়াজ পাতা"
+          "left": "소고기",
+          "right": "গরুর মাংস"
         },
         {
           "left": "양파",
@@ -1004,252 +988,311 @@
         {
           "left": "마늘",
           "right": "রসুন"
+        },
+        {
+          "left": "당근",
+          "right": "গাজর"
+        },
+        {
+          "left": "소금",
+          "right": "লবণ"
         }
       ],
+      "explanationBn": "রান্নার উপাদান শিখুন।"
+    },
+    {
+      "id": "p19",
+      "type": "matching",
+      "questionBn": "রান্নার পদ্ধতির সাথে বাংলা অর্থ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "pairs": [
+        {
+          "left": "썰다",
+          "right": "কাটা"
+        },
+        {
+          "left": "끓이다",
+          "right": "জ্বাল দেওয়া"
+        },
+        {
+          "left": "볶다",
+          "right": "ভাজা"
+        },
+        {
+          "left": "튀기다",
+          "right": "তেলে ভাজা"
+        },
+        {
+          "left": "찌다",
+          "right": "ভাপে রান্না"
+        }
+      ],
+      "explanationBn": "조리법 প্রতিটি আলাদা।"
+    },
+    {
+      "id": "p20",
+      "type": "matching",
+      "questionBn": "ক্রিয়ার মূল রূপের সাথে '-아서/어서' রূপ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "가다",
+          "right": "가서"
+        },
+        {
+          "left": "오다",
+          "right": "와서"
+        },
+        {
+          "left": "먹다",
+          "right": "먹어서"
+        },
+        {
+          "left": "하다",
+          "right": "해서"
+        }
+      ],
+      "explanationBn": "ক্রমসূচক '-아서/어서': প্রথম কাজ → পরের কাজ।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছুন।",
-      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
-      "passage": "[그림: 칼로 채소를 써는 모습]",
+      "questionBn": "বাক্যটি পড়ে এটি কোন কাজ তা বাছাই করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "볶습니다.",
-        "썹니다.",
-        "끓입니다.",
-        "튀깁니다."
+        "재료를 손질하는 일",
+        "음식을 먹는 일",
+        "그릇을 닦는 일",
+        "돈을 내는 일"
       ],
-      "answer": 1,
-      "explanationBn": "ছবিতে ছুরি দিয়ে সবজি কাটার দৃশ্য দেখানো হয়েছে, তাই 썹니다 (কাটছি) সঠিক উত্তর।"
+      "answer": 0,
+      "explanationBn": "'당근을 썰고 있습니다'—উপাদান কাটা।",
+      "passage": "당근을 썰고 있습니다."
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছুন।",
-      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
-      "passage": "[그림: 냄비에 물을 끓이는 모습]",
+      "questionBn": "'레몬' শব্দটি কোন স্বাদের সাথে যায়?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "물을 끓입니다.",
-        "고기를 굽습니다.",
-        "밥을 볶습니다.",
-        "채소를 썹니다."
+        "달다",
+        "맵다",
+        "짜다",
+        "시다"
       ],
-      "answer": 0,
-      "explanationBn": "ছবিতে হাঁড়িতে পানি ফোটানোর দৃশ্য দেখানো হয়েছে, তাই 물을 끓입니다 (পানি ফোটাচ্ছি) সঠিক উত্তর।"
+      "answer": 3,
+      "explanationBn": "레몬 (লেবু) = 시다 (টক)।",
+      "passage": "레몬"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "음식이 너무 (   ). 소금을 조금 더 넣으세요.",
+      "questionBn": "'-아/어 보다' সঠিক কোন বাক্যটি?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "짜요",
-        "매워요",
-        "달아요",
-        "싱거워요"
+        "된장찌개를 만들 보세요.",
+        "된장찌개를 만들어 보세요가.",
+        "된장찌개를 만들어 보세요.",
+        "된장찌개 만들어 보세요가."
       ],
-      "answer": 3,
-      "explanationBn": "소금을 조금 더 넣으세요 (লবণ একটু বেশি দিন) বলা হয়েছে, তাই 음식이 너무 싱거워요 (খাবার খুব স্বাদহীন/লবণ কম) সঠিক উত্তর।"
+      "answer": 2,
+      "explanationBn": "'만들다' + '-어 보다': 만들어 보세요।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 불고기가 어때요?\n나: 아주 (   ).",
+      "questionBn": "শূন্যস্থানে সঠিক ক্রিয়াটি বসান।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "써요",
-        "셔요",
-        "맛있어요",
-        "맛없어요"
+        "끓였어요",
+        "구웠어요",
+        "튀겼어요",
+        "볶았어요"
       ],
-      "answer": 2,
-      "explanationBn": "বুলগোগি কেমন জানতে চাওয়া হয়েছে, সাধারণত এর উত্তরে 아주 맛있어요 (খুব মজাদার) বলা হয়।"
+      "answer": 1,
+      "explanationBn": "মাছ (생선) সাধারণত গ্রিল (굽다) করা হয়।",
+      "passage": "생선을 ___어요."
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "저는 요리하는 것을 좋아합니다. 주말에는 보통 집에서 요리를 합니다. 오늘은 김치찌개를 만들었습니다. 김치찌개는 조금 맵지만 아주 맛있습니다.",
+      "questionBn": "বিশেষ দিনের খাবার সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "이 사람은 평일에 요리를 합니다.",
-        "김치찌개는 맵지만 맛있습니다.",
-        "김치찌개는 맵지 않습니다.",
-        "이 사람은 요리를 싫어합니다."
+        "떡국은 설날 아침에 먹는 음식입니다.",
+        "미역국은 설날에 먹는 음식입니다.",
+        "삼계탕은 생일에 먹는 음식입니다.",
+        "미역국은 여름에 먹는 음식입니다."
       ],
-      "answer": 1,
-      "explanationBn": "অনুচ্ছেদে বলা হয়েছে 김치찌개는 조금 맵지만 아주 맛있습니다 (কিমচি চিগে একটু ঝাল কিন্তু খুব মজাদার), তাই 4 নম্বর অপশনটি সঠিক।"
+      "answer": 0,
+      "explanationBn": "떡국 (টকগুক) নতুন বছরের সকালে খাওয়া হয়।",
+      "passage": "떡국은 설날 아침에 온 가족이 둘러앉아 먹는 음식입니다."
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "남자: 볶습니다.",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সঠিক সংযোজকটি বসান।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "볶습니다.",
-        "튀깁니다.",
-        "썹니다.",
-        "끓입니다."
+        "고",
+        "지만",
+        "면",
+        "아서"
       ],
-      "answer": 0,
-      "explanationBn": "অডিওতে 볶습니다 (ভাজছি) বলা হয়েছে, তাই 1 নম্বর অপশনটি সঠিক।"
+      "answer": 3,
+      "explanationBn": "ক্রমসূচক '-아서/어서': প্রথম কাজ → পরের কাজ।",
+      "passage": "집에 와___ 쉬었어요."
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "여자: 음식이 짜요?",
+      "section": "reading",
+      "questionBn": "'-아서/어서' সঠিক কোন বাক্যটি?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "아니요, 짜요.",
-        "네, 짜지 않아요.",
-        "아니요, 달아요.",
-        "네, 조금 짜요."
+        "김밥을 만들서 친구들하고 먹을 거예요.",
+        "김밥을 만들어서 친구들하고 먹을 거예요.",
+        "김밥 만들어서 친구들하고 먹을 거예요가.",
+        "김밥을 만들어서 친구들하고 먹을 거예요가."
       ],
-      "answer": 3,
-      "explanationBn": "음식이 짜요? (খাবার কি নোনতা?) এর উত্তরে 네, 조금 짜요 (হ্যাঁ, একটু নোনতা) সঠিক।"
+      "answer": 1,
+      "explanationBn": "'만들다' + '-어서': 만들어서।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
-      "passage": "남자: 수루 씨, 김치찌개에 무엇을 넣어요?\n여자: 김치하고 돼지고기를 넣어요. 그리고 물을 넣고 끓여요.",
+      "section": "reading",
+      "questionBn": "'간장' শব্দটি কোন বিভাগের?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "김치하고 소고기",
-        "된장하고 돼지고기",
-        "김치하고 돼지고기",
-        "된장하고 소고기"
+        "고기",
+        "채소",
+        "양념",
+        "과일"
       ],
       "answer": 2,
-      "explanationBn": "অডিওতে 김치하고 돼지고기를 넣어요 (কিমচি এবং শুকরের মাংস দিই) বলা হয়েছে, তাই 2 নম্বর অপশনটি সঠিক।"
+      "explanationBn": "간장 (সয়া সস) = 양념 (মশলা)।",
+      "passage": "간장"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছুন।",
-      "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
-      "passage": "[그림: 프라이팬에 고기를 굽는 모습]",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "고기를 끓입니다.",
-        "고기를 굽습니다.",
-        "고기를 튀깁니다.",
-        "고기를 삶습니다."
+        "달",
+        "짜",
+        "시",
+        "맵"
       ],
-      "answer": 1,
-      "explanationBn": "ছবিতে ফ্রাইপ্যানে মাংস গ্রিল করার দৃশ্য দেখানো হয়েছে, তাই 고기를 굽습니다 (মাংস গ্রিল করছি) সঠিক উত্তর।"
+      "answer": 3,
+      "explanationBn": "떡볶이 সাধারণত ঝাল (맵다)।",
+      "passage": "떡볶이가 ___워요."
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "음식이 너무 (   ). 설탕을 조금 더 넣으세요.",
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "options": [
+        "다라 씨는 불고기를 식당에서 배웠어요.",
+        "다라 씨는 불고기를 요리 교실에서 배웠어요.",
+        "다라 씨는 불고기를 안 좋아해요.",
+        "다라 씨는 요리를 안 해요."
+      ],
+      "answer": 1,
+      "explanationBn": "다라 씨는 요리 교실에서 불고기를 배웠어요।",
+      "passage": "다라 씨는 요리 교실에서 불고기를 배웠어요. 그래서 불고기를 잘 만들어요."
+    },
+    {
+      "id": "e11",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: খাবারের স্বাদ কেমন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "options": [
         "달아요",
         "매워요",
         "짜요",
-        "써요"
+        "싱거워요"
       ],
-      "answer": 3,
-      "explanationBn": "설탕을 조금 더 넣으세요 (চিনি একটু বেশি দিন) বলা হয়েছে, তাই 음식이 너무 써요 (খাবার খুব তেতো) সঠিক উত্তর।"
-    },
-    {
-      "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 한국 음식을 만들 줄 알아요?\n나: 아니요, (   ).",
-      "options": [
-        "만들 줄 알아요",
-        "만들어야 해요",
-        "만들 줄 몰라요",
-        "만드세요"
-      ],
-      "answer": 2,
-      "explanationBn": "아니요 (না) দিয়ে উত্তর শুরু হয়েছে, তাই 만들 줄 몰라요 (বানাতে জানি না) সঠিক উত্তর।"
+      "answer": 1,
+      "explanationBn": "মহিলা বলেছেন '조금 맵지만 아주 맛있어요'।",
+      "passage": "남자: 김치찌개 맛이 어때요?\n여자: 조금 맵지만 아주 맛있어요."
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "저는 오늘 저녁에 친구와 같이 불고기를 만들 것입니다. 먼저 마트에서 소고기와 양파, 파를 샀습니다. 불고기는 달고 맛있습니다.",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কী ভালো বানাতে পারেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "options": [
-        "이 사람은 혼자 불고기를 만들 것입니다.",
-        "이 사람은 돼지고기를 샀습니다.",
-        "불고기는 맵고 맛있습니다.",
-        "이 사람은 마트에서 소고기를 샀습니다."
+        "불고기",
+        "김치찌개",
+        "떡볶이",
+        "된장찌개"
       ],
-      "answer": 3,
-      "explanationBn": "অনুচ্ছেদে বলা হয়েছে 마트에서 소고기와 양파, 파를 샀습니다 (মার্ট থেকে গরুর মাংস, পেঁয়াজ এবং পেঁয়াজ পাতা কিনেছি), তাই 4 নম্বর অপশনটি সঠিক।"
+      "answer": 2,
+      "explanationBn": "মহিলা বলেছেন '떡볶이를 잘 만들어요'।",
+      "passage": "남자: 무슨 음식을 잘 만들어요?\n여자: 떡볶이를 잘 만들어요."
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 물음에 답하십시오.",
-      "passage": "한국 사람들은 밥을 먹을 때 숟가락과 젓가락을 사용합니다. 국이나 찌개는 숟가락으로 먹고, 반찬은 젓가락으로 먹습니다.",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: পুরুষ কী করতে চান?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "options": [
-        "한국 사람들은 손으로 밥을 먹습니다.",
-        "국은 젓가락으로 먹습니다.",
-        "반찬은 숟가락으로 먹습니다.",
-        "밥을 먹을 때 숟가락과 젓가락을 사용합니다."
+        "요리 교실에 가고 싶어요",
+        "식당에 가고 싶어요",
+        "집에서 쉬고 싶어요",
+        "책을 읽고 싶어요"
       ],
-      "answer": 3,
-      "explanationBn": "অনুচ্ছেদে বলা হয়েছে 한국 사람들은 밥을 먹을 때 숟가락과 젓가락을 사용합니다 (কোরিয়ানরা ভাত খাওয়ার সময় চামচ এবং চপস্টিক ব্যবহার করে), তাই 4 নম্বর অপশনটি সঠিক।"
+      "answer": 0,
+      "explanationBn": "পুরুষ বলেছেন '요리를 잘하고 싶어요. 요리 교실에 다녀 보세요'।",
+      "passage": "여자: 나도 요리를 잘하고 싶어요.\n남자: 요리 교실에 다녀 보세요."
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "들은 것을 고르십시오.",
-      "passage": "여자: 튀깁니다.",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কোথা থেকে রেসিপি শিখেছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "options": [
-        "끓입니다.",
-        "튀깁니다.",
-        "볶습니다.",
-        "썹니다."
+        "인터넷",
+        "요리 교실",
+        "친구",
+        "책"
       ],
       "answer": 1,
-      "explanationBn": "অডিওতে 튀깁니다 (ডুবো তেলে ভাজছি) বলা হয়েছে, তাই 2 নম্বর অপশনটি সঠিক।"
+      "explanationBn": "মহিলা বলেছেন '요리 교실에서 배웠어요'।",
+      "passage": "남자: 불고기 요리법을 어디에서 배웠어요?\n여자: 요리 교실에서 배웠어요."
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
-      "passage": "남자: 불고기를 만들 줄 알아요?",
+      "questionBn": "শুনে বাছাই করুন: পুরুষ কী পরামর্শ দিচ্ছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "options": [
-        "네, 만들 줄 알아요.",
-        "아니요, 만들 줄 알아요.",
-        "네, 만들 줄 몰라요.",
-        "아니요, 만들어야 해요."
+        "한번 가 보세요",
+        "한번 읽어 보세요",
+        "한번 먹어 보세요",
+        "한번 쉬어 보세요"
       ],
-      "answer": 0,
-      "explanationBn": "불고기를 만들 줄 알아요? (বুলগোগি বানাতে জানেন?) এর উত্তরে 네, 만들 줄 알아요 (হ্যাঁ, বানাতে জানি) সঠিক।"
+      "answer": 2,
+      "explanationBn": "পুরুষ বলেছেন '한번 먹어 보세요'।",
+      "passage": "남자: 이 김치찌개를 드셔 보세요."
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
-      "passage": "여자: 투안 씨, 이 국이 좀 싱거워요.\n남자: 그래요? 그럼 소금을 조금 더 넣으세요.",
+      "questionBn": "শুনে বাছাই করুন: দুজনে কী নিয়ে কথা বলছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "options": [
-        "설탕을 넣어야 합니다.",
-        "소금을 넣어야 합니다.",
-        "간장을 넣어야 합니다.",
-        "고추장을 넣어야 합니다."
+        "요리",
+        "울동",
+        "취미",
+        "여행"
       ],
-      "answer": 1,
-      "explanationBn": "অডিওতে 소금을 조금 더 넣으세요 (লবণ একটু বেশি দিন) বলা হয়েছে, তাই 2 নম্বর অপশনটি সঠিক।"
+      "answer": 0,
+      "explanationBn": "রান্না/খাবার নিয়ে কথা হচ্ছে।",
+      "passage": "여자: 이 음식을 제가 만들었어요. 맛이 어때요?"
     }
   ]
 }
