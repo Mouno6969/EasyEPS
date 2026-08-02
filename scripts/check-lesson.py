@@ -212,7 +212,10 @@ def main() -> int:
     if args == ["--all"]:
         files = sorted(LESSONS.glob("lesson-*.json"))
     else:
-        files = [LESSONS / f"lesson-{int(a):02d}.json" for a in args]
+        files = [
+            Path(a) if not a.isdigit() else LESSONS / f"lesson-{int(a):02d}.json"
+            for a in args
+        ]
 
     total = 0
     for f in files:

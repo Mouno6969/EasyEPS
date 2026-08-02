@@ -1,6 +1,6 @@
 {
   "chapter": 20,
-  "slug": "the-internet-and-smartphones",
+  "slug": "internet-and-smartphones",
   "title": {
     "ko": "인터넷과 스마트폰",
     "bn": "ইন্টারনেট ও স্মার্টফোন",
@@ -10,14 +10,16 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "ইন্টারনেট এবং স্মার্টফোন সম্পর্কিত শব্দভাণ্ডার শেখা।",
-      "ওয়াই-ফাই এবং অ্যাপ ব্যবহার সম্পর্কে কথা বলতে পারা।",
-      "অনলাইনে তথ্য অনুসন্ধান এবং মেসেজ পাঠানোর পদ্ধতি জানা।"
+      "ইন্টারনেট জীবন সম্পর্কে বলতে পারা",
+      "স্মার্টফোন ব্যবহার সম্পর্কে বলতে পারা",
+      "নিজের ইচ্ছা প্রকাশ করতে পারা",
+      "কোরিয়ার ডেলিভারি অ্যাপ সংস্কৃতি জানা"
     ],
     "en": [
-      "Learn vocabulary related to the internet and smartphones.",
-      "Be able to talk about using Wi-Fi and apps.",
-      "Know how to search for information online and send messages."
+      "Being able to talk about life on the internet",
+      "Being able to talk about smartphone use",
+      "Being able to express intentions",
+      "Knowing about Korea's delivery app culture"
     ]
   },
   "vocabulary": [
@@ -28,63 +30,180 @@
       "en": "internet",
       "pos": "noun",
       "example": {
-        "ko": "인터넷이 아주 빠릅니다.",
-        "bn": "ইন্টারনেট খুব দ্রুত।",
-        "en": "The internet is very fast."
+        "ko": "인터넷으로 영화를 봐요.",
+        "bn": "ইন্টারনেটে সিনেমা দেখি।",
+        "en": "I watch movies on the internet."
       },
-      "pronunciationTipBn": "'ㄴ' এবং 'ㅌ' এর উচ্চারণ স্পষ্ট করুন; 'ㅌ' একটু বাতাস বের করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'인터넷' [인터넷]—ㅌ ঝোঁড়া '터'।"
     },
     {
-      "ko": "스마트폰",
-      "romanization": "seumateupon",
-      "bn": "স্মার্টফোন",
-      "en": "smartphone",
+      "ko": "웹사이트",
+      "romanization": "wepsaiteu",
+      "bn": "ওয়েবসাইট",
+      "en": "website",
       "pos": "noun",
       "example": {
-        "ko": "새 스마트폰을 샀습니다.",
-        "bn": "আমি একটি নতুন স্মার্টফোন কিনেছি।",
-        "en": "I bought a new smartphone."
+        "ko": "웹사이트에서 검색해요.",
+        "bn": "ওয়েবসাইটে খুঁজি।",
+        "en": "I search on a website."
       },
-      "pronunciationTipBn": "'스' উচ্চারণ করার সময় '으' স্বরবর্ণটি হালকাভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'웹사이트' [웹사이트]—ㅅ+ㅅ মিলে '싸이트'।"
     },
     {
-      "ko": "와이파이",
-      "romanization": "waipai",
-      "bn": "ওয়াই-ফাই",
-      "en": "Wi-Fi",
+      "ko": "홈페이지",
+      "romanization": "hompeiji",
+      "bn": "হোমপেজ",
+      "en": "homepage",
       "pos": "noun",
       "example": {
-        "ko": "여기 와이파이 비밀번호가 뭐예요?",
-        "bn": "এখানে ওয়াই-ফাই পাসওয়ার্ড কী?",
-        "en": "What is the Wi-Fi password here?"
+        "ko": "회사 홈페이지에 로그인해요.",
+        "bn": "অফিসের হোমপেজে লগইন করি।",
+        "en": "I log in to the company homepage."
       },
-      "pronunciationTipBn": "'와' এবং '이' আলাদাভাবে না বলে একসাথে 'ওয়াই' উচ্চারণ করুন।"
+      "pronunciationTipBn": "'홈페이지' [홈페이지]—ㅍ ঝোঁড়া '페이지'।"
     },
     {
-      "ko": "검색하다",
-      "romanization": "geomsaekhada",
-      "bn": "অনুসন্ধান করা",
-      "en": "to search",
+      "ko": "블로그",
+      "romanization": "beulrogeu",
+      "bn": "ব্লগ",
+      "en": "blog",
+      "pos": "noun",
+      "example": {
+        "ko": "블로그에 글을 쓰고 있어요.",
+        "bn": "ব্লগে পোস্ট লিখছি।",
+        "en": "I am writing a post on my blog."
+      },
+      "pronunciationTipBn": "'블로그' [블로그]—ㄱ নরম '그'।"
+    },
+    {
+      "ko": "이메일",
+      "romanization": "imeil",
+      "bn": "ইমেইল",
+      "en": "e-mail",
+      "pos": "noun",
+      "example": {
+        "ko": "이메일을 보내요.",
+        "bn": "ইমেইল পাঠাই।",
+        "en": "I send an email."
+      },
+      "pronunciationTipBn": "'이메일' [이메일]—ㅇ শেষে '일'।"
+    },
+    {
+      "ko": "검색",
+      "romanization": "geomsaek",
+      "bn": "খোঁজ/সার্চ",
+      "en": "search",
+      "pos": "noun",
+      "example": {
+        "ko": "호텔을 검색하고 있어요.",
+        "bn": "হোটেল খুঁজছি।",
+        "en": "I am searching for a hotel."
+      },
+      "pronunciationTipBn": "'검색' [검색]—ㄱ+ㅅ মিলে '색'।"
+    },
+    {
+      "ko": "채팅",
+      "romanization": "chaeting",
+      "bn": "চ্যাটিং",
+      "en": "chatting",
+      "pos": "noun",
+      "example": {
+        "ko": "친구하고 채팅해요.",
+        "bn": "বন্ধুর সাথে চ্যাট করি।",
+        "en": "I chat with a friend."
+      },
+      "pronunciationTipBn": "'채팅' [채팅]—ㅊ শক্ত '채'।"
+    },
+    {
+      "ko": "화상 채팅",
+      "romanization": "hwasang chaeting",
+      "bn": "ভিডিও কল",
+      "en": "video chat",
+      "pos": "noun",
+      "example": {
+        "ko": "가족하고 화상 채팅을 했어요.",
+        "bn": "পরিবারের সাথে ভিডিও কল করেছি।",
+        "en": "I video-chatted with my family."
+      },
+      "pronunciationTipBn": "'화상' [화상]—'화' বলতে 'ㅘ'।"
+    },
+    {
+      "ko": "회원 가입",
+      "romanization": "hoewon gaip",
+      "bn": "সদস্য নিবন্ধন",
+      "en": "sign up",
+      "pos": "noun",
+      "example": {
+        "ko": "인터넷 카페에 회원 가입을 했어요.",
+        "bn": "কমিউনিটিতে সদস্য হয়েছি।",
+        "en": "I signed up for a community."
+      },
+      "pronunciationTipBn": "'회원' [회원]—'회' বলতে 'ㅚ'।"
+    },
+    {
+      "ko": "아이디/비밀번호",
+      "romanization": "aidi/bimilbeonho",
+      "bn": "আইডি/পাসওয়ার্ড",
+      "en": "ID/password",
+      "pos": "noun",
+      "example": {
+        "ko": "아이디하고 비밀번호를 입력해요.",
+        "bn": "আইডি আর পাসওয়ার্ড দিই।",
+        "en": "I enter my ID and password."
+      },
+      "pronunciationTipBn": "'비밀번호' [비밀번호]—ㅂ নরম '비밀'।"
+    },
+    {
+      "ko": "로그인/로그아웃",
+      "romanization": "rogeuin/rogeuaut",
+      "bn": "লগইন/লগআউট",
+      "en": "log in/log out",
+      "pos": "noun",
+      "example": {
+        "ko": "로그인하고 글을 써요.",
+        "bn": "লগইন করে পোস্ট লিখি।",
+        "en": "I log in and write a post."
+      },
+      "pronunciationTipBn": "'로그인' [로그인]—ㄱ নরম '그인'।"
+    },
+    {
+      "ko": "인터넷 카페",
+      "romanization": "inteonet kape",
+      "bn": "ইন্টারনেট কমিউনিটি",
+      "en": "internet community",
+      "pos": "noun",
+      "example": {
+        "ko": "인터넷 카페에 글을 쓰고 있어요.",
+        "bn": "কমিউনিটিতে পোস্ট লিখছি।",
+        "en": "I am writing a post on a community."
+      },
+      "pronunciationTipBn": "'카페' [카페]—ㅋ ঝোঁড়া '카'।"
+    },
+    {
+      "ko": "글",
+      "romanization": "geul",
+      "bn": "পোস্ট/লেখা",
+      "en": "post; writing",
+      "pos": "noun",
+      "example": {
+        "ko": "블로그에 글을 써요.",
+        "bn": "ব্লগে পোস্ট লিখি।",
+        "en": "I write a post on my blog."
+      },
+      "pronunciationTipBn": "'글' [글]—ㄹ বত্ছিম থামা শব্দ।"
+    },
+    {
+      "ko": "쓰다",
+      "romanization": "sseuda",
+      "bn": "লেখা",
+      "en": "to write",
       "pos": "verb",
       "example": {
-        "ko": "인터넷으로 정보를 검색합니다.",
-        "bn": "আমি ইন্টারনেটে তথ্য অনুসন্ধান করি।",
-        "en": "I search for information on the internet."
+        "ko": "글을 써요.",
+        "bn": "লিখি।",
+        "en": "I write."
       },
-      "pronunciationTipBn": "'ㄱ' শব্দের শুরুতে 'খ'-এর মতো শোনাতে পারে, তবে এটি 'ক' এবং 'খ'-এর মাঝামাঝি।"
-    },
-    {
-      "ko": "문자",
-      "romanization": "munja",
-      "bn": "টেক্সট মেসেজ",
-      "en": "text message",
-      "pos": "noun",
-      "example": {
-        "ko": "친구에게 문자를 보냅니다.",
-        "bn": "আমি বন্ধুকে টেক্সট মেসেজ পাঠাই।",
-        "en": "I send a text message to a friend."
-      },
-      "pronunciationTipBn": "'ㅁ' এবং 'ㅈ' এর উচ্চারণ স্পষ্ট করুন; 'ㅈ' এখানে 'জ'-এর মতো উচ্চারিত হবে।"
+      "pronunciationTipBn": "'써요' [써요]—ㅆ জোড়া '써'।"
     },
     {
       "ko": "보내다",
@@ -93,533 +212,500 @@
       "en": "to send",
       "pos": "verb",
       "example": {
-        "ko": "고향에 돈을 보냅니다.",
-        "bn": "আমি দেশে টাকা পাঠাই।",
-        "en": "I send money to my hometown."
+        "ko": "이메일을 보내요.",
+        "bn": "ইমেইল পাঠাই।",
+        "en": "I send an email."
       },
-      "pronunciationTipBn": "'ㅂ' শব্দের শুরুতে 'প'-এর মতো শোনাতে পারে, তবে এটি 'ব' এবং 'প'-এর মাঝামাঝি।"
+      "pronunciationTipBn": "'보내요' [보내요]—받침 없이 '보내'+'요'।"
     },
     {
-      "ko": "전화하다",
-      "romanization": "jeonhwahada",
-      "bn": "ফোন করা",
-      "en": "to call",
+      "ko": "올리다/업로드하다",
+      "romanization": "ollida/eoprodeuhada",
+      "bn": "আপলোড করা",
+      "en": "to upload",
       "pos": "verb",
       "example": {
-        "ko": "가족에게 전화합니다.",
-        "bn": "আমি পরিবারকে ফোন করি।",
-        "en": "I call my family."
+        "ko": "SNS에 사진을 올려요.",
+        "bn": "SNS-এ ছবি আপলোড করি।",
+        "en": "I upload photos to SNS."
       },
-      "pronunciationTipBn": "'ㅎ' এর উচ্চারণ অনেক সময় দুর্বল হয়ে যায়, তাই '전와하다' এর মতো শোনাতে পারে।"
+      "pronunciationTipBn": "'올려요' [올려요]—ㄹ+ㅇ মিলে '려'।"
     },
     {
-      "ko": "앱",
-      "romanization": "aep",
+      "ko": "내려받다/다운로드하다",
+      "romanization": "naeryeobatda/daunrodeuhada",
+      "bn": "ডাউনলোড করা",
+      "en": "to download",
+      "pos": "verb",
+      "example": {
+        "ko": "음악을 내려받아요.",
+        "bn": "গান ডাউনলোড করি।",
+        "en": "I download music."
+      },
+      "pronunciationTipBn": "'내려받아요' [내려받아요]—'내려' + '받아요'।"
+    },
+    {
+      "ko": "저장하다",
+      "romanization": "jeojanghada",
+      "bn": "সংরক্ষণ করা",
+      "en": "to save",
+      "pos": "verb",
+      "example": {
+        "ko": "사진을 저장해요.",
+        "bn": "ছবি সংরক্ষণ করি।",
+        "en": "I save photos."
+      },
+      "pronunciationTipBn": "'저장' [저장]—ㅈ নরম '저'।"
+    },
+    {
+      "ko": "스마트폰",
+      "romanization": "seumateupon",
+      "bn": "স্মার্টফোন",
+      "en": "smartphone",
+      "pos": "noun",
+      "example": {
+        "ko": "스마트폰으로 채팅해요.",
+        "bn": "স্মার্টফোনে চ্যাট করি।",
+        "en": "I chat on my smartphone."
+      },
+      "pronunciationTipBn": "'스마트폰' [스마트폰]—ㅍ ঝোঁড়া '폰'।"
+    },
+    {
+      "ko": "애플리케이션(앱)",
+      "romanization": "aepeullikeisyeon(aep)",
       "bn": "অ্যাপ",
       "en": "app",
       "pos": "noun",
       "example": {
-        "ko": "이 앱은 아주 편리합니다.",
-        "bn": "এই অ্যাপটি খুব সুবিধাজনক।",
-        "en": "This app is very convenient."
+        "ko": "배달 앱으로 음식을 주문해요.",
+        "bn": "ডেলিভারি অ্যাপে খাবার অর্ডার করি।",
+        "en": "I order food on a delivery app."
       },
-      "pronunciationTipBn": "'애' এবং 'ㅂ' (বাচ্চিম) মিলে 'অ্যাপ' উচ্চারণ করুন; ঠোঁট বন্ধ করে শেষ করুন।"
+      "pronunciationTipBn": "'앱' [앱]—ㅂ বত্ছিম থামা শব্দ।"
     },
     {
-      "ko": "설치하다",
-      "romanization": "seolchihada",
-      "bn": "ইনস্টল করা",
-      "en": "to install",
+      "ko": "에스엔에스(SNS)",
+      "romanization": "esueneseu(SNS)",
+      "bn": "সোশ্যাল মিডিয়া",
+      "en": "SNS; social media",
+      "pos": "noun",
+      "example": {
+        "ko": "SNS에 사진을 올려요.",
+        "bn": "SNS-এ ছবি আপলোড করি।",
+        "en": "I post photos on SNS."
+      },
+      "pronunciationTipBn": "'에스엔에스' [에스엔에스]—ইংরেজি SNS।"
+    },
+    {
+      "ko": "모바일 메신저",
+      "romanization": "mobail mesinjeo",
+      "bn": "মোবাইল মেসেঞ্জার",
+      "en": "mobile messenger",
+      "pos": "noun",
+      "example": {
+        "ko": "모바일 메신저로 이야기해요.",
+        "bn": "মোবাইল মেসেঞ্জারে কথা বলি।",
+        "en": "I talk on mobile messenger."
+      },
+      "pronunciationTipBn": "'메신저' [메신저]—ㅈ নরম '저'।"
+    },
+    {
+      "ko": "이모티콘",
+      "romanization": "emotikon",
+      "bn": "ইমোটিকন",
+      "en": "emoticon",
+      "pos": "noun",
+      "example": {
+        "ko": "이모티콘을 보내요.",
+        "bn": "ইমোটিকন পাঠাই।",
+        "en": "I send emoticons."
+      },
+      "pronunciationTipBn": "'이모티콘' [이모티콘]—ㅌ ঝোঁড়া '티콘'।"
+    },
+    {
+      "ko": "와이파이",
+      "romanization": "waipai",
+      "bn": "ওয়াইফাই",
+      "en": "wifi",
+      "pos": "noun",
+      "example": {
+        "ko": "와이파이 비밀번호가 뭐예요?",
+        "bn": "ওয়াইফাইয়ের পাসওয়ার্ড কী?",
+        "en": "What is the wifi password?"
+      },
+      "pronunciationTipBn": "'와이파이' [와이파이]—ㅍ ঝোঁড়া '파이'।"
+    },
+    {
+      "ko": "메시지를 보내다",
+      "romanization": "mesijireul bonaeda",
+      "bn": "মেসেজ পাঠানো",
+      "en": "to send a message",
       "pos": "verb",
       "example": {
-        "ko": "스마트폰에 앱을 설치합니다.",
-        "bn": "আমি স্মার্টফোনে অ্যাপ ইনস্টল করি।",
-        "en": "I install an app on my smartphone."
+        "ko": "친구한테 메시지를 보내요.",
+        "bn": "বন্ধুকে মেসেজ পাঠাই।",
+        "en": "I send a message to a friend."
       },
-      "pronunciationTipBn": "'ㄹ' বাচ্চিমের পর 'ㅊ' আসলে 'ㄹ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'보내요' [보내요]—받침 없이 '보내'+'요'।"
     },
     {
-      "ko": "비밀번호",
-      "romanization": "bimilbeonho",
-      "bn": "পাসওয়ার্ড",
-      "en": "password",
-      "pos": "noun",
-      "example": {
-        "ko": "비밀번호를 잊어버렸습니다.",
-        "bn": "আমি পাসওয়ার্ড ভুলে গেছি।",
-        "en": "I forgot my password."
-      },
-      "pronunciationTipBn": "'ㅂ' এবং 'ㅁ' এর উচ্চারণ স্পষ্ট করুন; 'ㅎ' দুর্বল হয়ে '비밀버노' এর মতো শোনাতে পারে।"
-    },
-    {
-      "ko": "로그인",
-      "romanization": "rogeuin",
-      "bn": "লগইন",
-      "en": "login",
-      "pos": "noun",
-      "example": {
-        "ko": "아이디와 비밀번호로 로그인하세요.",
-        "bn": "আইডি এবং পাসওয়ার্ড দিয়ে লগইন করুন।",
-        "en": "Please login with your ID and password."
-      },
-      "pronunciationTipBn": "'ㄹ' শব্দের শুরুতে 'র'-এর মতো উচ্চারিত হবে।"
-    },
-    {
-      "ko": "로그아웃",
-      "romanization": "rogeuaut",
-      "bn": "লগআউট",
-      "en": "logout",
-      "pos": "noun",
-      "example": {
-        "ko": "사용 후에는 로그아웃을 하세요.",
-        "bn": "ব্যবহারের পর লগআউট করুন।",
-        "en": "Please logout after use."
-      },
-      "pronunciationTipBn": "'아' এবং '웃' আলাদাভাবে না বলে একসাথে 'আউট' উচ্চারণ করুন।"
-    },
-    {
-      "ko": "이메일",
-      "romanization": "imeil",
-      "bn": "ইমেইল",
-      "en": "email",
-      "pos": "noun",
-      "example": {
-        "ko": "회사에서 이메일을 확인합니다.",
-        "bn": "আমি কোম্পানিতে ইমেইল চেক করি।",
-        "en": "I check my email at the company."
-      },
-      "pronunciationTipBn": "'이' এবং '메' স্পষ্ট করে উচ্চারণ করুন; '일' এর 'ㄹ' বাচ্চিম জিভ তালুতে লাগিয়ে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "영상 통화",
-      "romanization": "yeongsang tonghwa",
-      "bn": "ভি디오 কল",
-      "en": "video call",
-      "pos": "noun",
-      "example": {
-        "ko": "부모님과 영상 통화를 합니다.",
-        "bn": "আমি বাবা-মায়ের সাথে ভিডিও কল করি।",
-        "en": "I make a video call with my parents."
-      },
-      "pronunciationTipBn": "'ㅇ' বাচ্চিম 'ং'-এর মতো উচ্চারণ করুন; '통' এর 'ㅌ' বাতাস বের করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "배터리",
-      "romanization": "baeteori",
-      "bn": "ব্যাটারি",
-      "en": "battery",
-      "pos": "noun",
-      "example": {
-        "ko": "배터리가 없습니다.",
-        "bn": "ব্যাটারি নেই।",
-        "en": "There is no battery."
-      },
-      "pronunciationTipBn": "'ㅂ' এবং 'ㅌ' এর উচ্চারণ স্পষ্ট করুন; 'ㅌ' বাতাস বের করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "충전하다",
-      "romanization": "chungjeonhada",
-      "bn": "চার্জ করা",
-      "en": "to charge",
+      "ko": "메시지를 확인하다",
+      "romanization": "mesijireul hwaginhada",
+      "bn": "মেসেজ দেখা",
+      "en": "to check a message",
       "pos": "verb",
       "example": {
-        "ko": "휴대폰을 충전해야 합니다.",
-        "bn": "মোবাইল ফোন চার্জ করতে হবে।",
-        "en": "I need to charge my mobile phone."
+        "ko": "메시지를 확인했어요.",
+        "bn": "মেসেজ দেখেছি।",
+        "en": "I checked the message."
       },
-      "pronunciationTipBn": "'ㅊ' এবং 'ㅈ' এর উচ্চারণ স্পষ্ট করুন; 'ㅊ' বাতাস বের করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'확인' [확인]—ㄱ+ㅇ মিলে '확'।"
     },
     {
-      "ko": "켜다",
-      "romanization": "kyeoda",
-      "bn": "চালু করা",
-      "en": "to turn on",
+      "ko": "댓글을 달다",
+      "romanization": "daetgeureul dalda",
+      "bn": "মন্তব্য দেওয়া",
+      "en": "to post a comment",
       "pos": "verb",
       "example": {
-        "ko": "컴퓨터를 켭니다.",
-        "bn": "আমি কম্পিউটার চালু করি।",
-        "en": "I turn on the computer."
+        "ko": "댓글을 달아요.",
+        "bn": "মন্তব্য দিই।",
+        "en": "I post a comment."
       },
-      "pronunciationTipBn": "'ㅋ' উচ্চারণ করার সময় মুখ থেকে বাতাস বের করুন।"
+      "pronunciationTipBn": "'댓글' [댓글]—ㄱ+ㄹ মিলে '글'।"
     },
     {
-      "ko": "끄다",
-      "romanization": "kkeuda",
-      "bn": "বন্ধ করা",
-      "en": "to turn off",
+      "ko": "맛집",
+      "romanization": "matjip",
+      "bn": "সুস্বাদু রেস্তোরাঁ",
+      "en": "famous restaurant",
+      "pos": "noun",
+      "example": {
+        "ko": "맛집 사진을 올려요.",
+        "bn": "সুস্বাদু রেস্তোরাঁর ছবি আপলোড করি।",
+        "en": "I post photos of famous restaurants."
+      },
+      "pronunciationTipBn": "'맛집' [맛집]—ㅅ+ㅈ মিলে '맛집'।"
+    },
+    {
+      "ko": "가르치다",
+      "romanization": "gareuchida",
+      "bn": "দেখানো/শেখানো",
+      "en": "to show; to teach",
       "pos": "verb",
       "example": {
-        "ko": "자기 전에 스마트폰을 끕니다.",
-        "bn": "ঘুমানোর আগে আমি স্মার্টফোন বন্ধ করি।",
-        "en": "I turn off my smartphone before sleeping."
+        "ko": "아이디 좀 가르쳐 줄래요?",
+        "bn": "আইডিটা একটু দেখাবে?",
+        "en": "Can you show me your ID?"
       },
-      "pronunciationTipBn": "'ㄲ' একটি শক্ত ব্যঞ্জনবর্ণ, তাই গলায় চাপ দিয়ে 'ক্ক' উচ্চারণ করুন।"
+      "pronunciationTipBn": "'가르쳐' [가르쳐]—ㄹ+ㅊ মিলে '쳐'।"
     },
     {
-      "ko": "다운로드",
-      "romanization": "daunrodeu",
-      "bn": "ডাউনলোড",
-      "en": "download",
-      "pos": "noun",
-      "example": {
-        "ko": "영화를 다운로드합니다.",
-        "bn": "আমি সিনেমা ডাউনলোড করি।",
-        "en": "I download a movie."
-      },
-      "pronunciationTipBn": "'ㄷ' শব্দের শুরুতে 'থ'-এর মতো শোনাতে পারে, তবে এটি 'দ' এবং 'থ'-এর মাঝামাঝি।"
-    },
-    {
-      "ko": "가입하다",
-      "romanization": "gaiphada",
-      "bn": "সাইন আপ করা",
-      "en": "to sign up",
+      "ko": "보이다",
+      "romanization": "boida",
+      "bn": "দেখানো",
+      "en": "to show",
       "pos": "verb",
       "example": {
-        "ko": "새로운 사이트에 가입했습니다.",
-        "bn": "আমি একটি নতুন সাইটে সাইন আপ করেছি।",
-        "en": "I signed up for a new site."
+        "ko": "SNS 좀 보여 주세요.",
+        "bn": "SNS-এর ছবিগুলো একটু দেখান।",
+        "en": "Please show me your SNS."
       },
-      "pronunciationTipBn": "'ㄱ' শব্দের শুরুতে 'খ'-এর মতো শোনাতে পারে; 'ㅂ' বাচ্চিমের পর 'ㅎ' আসলে '가이파다' এর মতো শোনাতে পারে।"
+      "pronunciationTipBn": "'보여' [보여]—'보다' + 어요।"
     },
     {
-      "ko": "채팅하다",
-      "romanization": "chaetinghada",
-      "bn": "চ্যাটিং করা",
-      "en": "to chat",
+      "ko": "이야기하다",
+      "romanization": "iyahada",
+      "bn": "কথা বলা",
+      "en": "to talk",
       "pos": "verb",
       "example": {
-        "ko": "친구와 채팅합니다.",
-        "bn": "আমি বন্ধুর সাথে চ্যা팅 করি।",
-        "en": "I chat with a friend."
+        "ko": "친구하고 이야기해요.",
+        "bn": "বন্ধুর সাথে কথা বলি।",
+        "en": "I talk with a friend."
       },
-      "pronunciationTipBn": "'ㅊ' উচ্চারণ করার সময় মুখ থেকে বাতাস বের করুন; 'ㅌ' ও বাতাস বের করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'이야기' [이야기]—ㄱ নরম '기'।"
     },
     {
-      "ko": "게시판",
-      "romanization": "gesipan",
-      "bn": "বুলেটিন বোর্ড",
-      "en": "bulletin board",
+      "ko": "배달",
+      "romanization": "baedal",
+      "bn": "ডেলিভারি",
+      "en": "delivery",
       "pos": "noun",
       "example": {
-        "ko": "게시판에 글을 씁니다.",
-        "bn": "আমি বুলেটিন বোর্ডে লিখি।",
-        "en": "I write on the bulletin board."
+        "ko": "배달 앱으로 주문해요.",
+        "bn": "ডেলিভারি অ্যাপে অর্ডার করি।",
+        "en": "I order on a delivery app."
       },
-      "pronunciationTipBn": "'ㄱ' শব্দের শুরুতে 'খ'-এর মতো শোনাতে পারে; 'ㅍ' বাতাস বের করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'배달' [배달]—ㄹ বত্ছিম '달'।"
     },
     {
-      "ko": "댓글",
-      "romanization": "daetgeul",
-      "bn": "কমেন্ট / মন্তব্য",
-      "en": "comment",
-      "pos": "noun",
-      "example": {
-        "ko": "사진에 댓글을 남깁니다.",
-        "bn": "আমি ছবিতে কমেন্ট রাখি।",
-        "en": "I leave a comment on the photo."
-      },
-      "pronunciationTipBn": "'ㄷ' শব্দের শুরুতে 'থ'-এর মতো শোনাতে পারে; 'ㄲ' শক্ত করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "블로그",
-      "romanization": "beullogeu",
-      "bn": "ব্লগ",
-      "en": "blog",
-      "pos": "noun",
-      "example": {
-        "ko": "블로그를 읽습니다.",
-        "bn": "আমি ব্লগ পড়ি।",
-        "en": "I read a blog."
-      },
-      "pronunciationTipBn": "'ㅂ' এবং 'ㄹ' এর উচ্চারণ স্পষ্ট করুন; 'ㄹ' এখানে 'ল'-এর মতো উচ্চারিত হবে।"
-    },
-    {
-      "ko": "공유하다",
-      "romanization": "gongyuhada",
-      "bn": "শেয়ার করা",
-      "en": "to share",
+      "ko": "게임하다",
+      "romanization": "geimhada",
+      "bn": "গেম খেলা",
+      "en": "to play a game",
       "pos": "verb",
       "example": {
-        "ko": "정보를 공유합니다.",
-        "bn": "আমি তথ্য শেয়ার করি।",
-        "en": "I share information."
+        "ko": "지금 게임하고 있어요.",
+        "bn": "এখন গেম খেলছি।",
+        "en": "I am playing a game now."
       },
-      "pronunciationTipBn": "'ㄱ' শব্দের শুরুতে 'খ'-এর মতো শোনাতে পারে; 'ㅇ' বাচ্চিম 'ং'-এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "'게임하다' [게임하다]—'게임'+'하다', সহজ উচ্চারণ।"
     },
     {
-      "ko": "삭제하다",
-      "romanization": "sakjehada",
-      "bn": "ডিলিট করা / মুছে ফেলা",
-      "en": "to delete",
+      "ko": "검색하다",
+      "romanization": "geomsaekhada",
+      "bn": "খোঁজা",
+      "en": "to search",
       "pos": "verb",
       "example": {
-        "ko": "메시지를 삭제합니다.",
-        "bn": "আমি মেসেজ ডিলিট করি।",
-        "en": "I delete the message."
+        "ko": "호텔을 검색하고 있어요.",
+        "bn": "হোটেল খুঁজছি।",
+        "en": "I am searching for a hotel."
       },
-      "pronunciationTipBn": "'ㅅ' উচ্চারণ করার সময় দাঁত দিয়ে বাতাস বের করুন; 'ㅈ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "화면",
-      "romanization": "hwamyeon",
-      "bn": "স্ক্রিন",
-      "en": "screen",
-      "pos": "noun",
-      "example": {
-        "ko": "스마트폰 화면이 큽니다.",
-        "bn": "স্মার্টফোনের স্ক্রিন বড়।",
-        "en": "The smartphone screen is big."
-      },
-      "pronunciationTipBn": "'ㅎ' এবং 'ㅁ' এর উচ্চারণ স্পষ্ট করুন; '화' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "진동",
-      "romanization": "jindong",
-      "bn": "ভাইব্রেশন",
-      "en": "vibration",
-      "pos": "noun",
-      "example": {
-        "ko": "휴대폰을 진동으로 바꿉니다.",
-        "bn": "আমি মোবাইল ফোন ভাইব্রেশনে পরিবর্তন করি।",
-        "en": "I change the mobile phone to vibration."
-      },
-      "pronunciationTipBn": "'ㅈ' শব্দের শুরুতে 'ছ'-এর মতো শোনাতে পারে; 'ㅇ' বাচ্চিম 'ং'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "벨소리",
-      "romanization": "belsori",
-      "bn": "রিংটোন",
-      "en": "ringtone",
-      "pos": "noun",
-      "example": {
-        "ko": "벨소리가 너무 큽니다.",
-        "bn": "রিংটোন খুব বেশি।",
-        "en": "The ringtone is too loud."
-      },
-      "pronunciationTipBn": "'ㅂ' শব্দের শুরুতে 'প'-এর মতো শোনাতে পারে; 'ㄹ' বাচ্চিম জিভ তালুতে লাগিয়ে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "이어폰",
-      "romanization": "ieopon",
-      "bn": "ইয়ারফোন",
-      "en": "earphone",
-      "pos": "noun",
-      "example": {
-        "ko": "이어폰으로 음악을 듣습니다.",
-        "bn": "আমি ইয়ারফোন দিয়ে গান শুনি।",
-        "en": "I listen to music with earphones."
-      },
-      "pronunciationTipBn": "'ㅇ' শব্দের শুরুতে উচ্চারিত হয় না; 'ㅍ' বাতাস বের করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "충전기",
-      "romanization": "chungjeongi",
-      "bn": "চার্জার",
-      "en": "charger",
-      "pos": "noun",
-      "example": {
-        "ko": "충전기를 빌려주세요.",
-        "bn": "দয়া করে চার্জার ধার দিন।",
-        "en": "Please lend me a charger."
-      },
-      "pronunciationTipBn": "'ㅊ' উচ্চারণ করার সময় মুখ থেকে বাতাস বের করুন; 'ㄱ' এখানে 'গ'-এর মতো উচ্চারিত হবে।"
-    },
-    {
-      "ko": "와이파이 공유기",
-      "romanization": "waipai gongyugi",
-      "bn": "ওয়াই-ফাই রাউটার",
-      "en": "Wi-Fi router",
-      "pos": "noun",
-      "example": {
-        "ko": "와이파이 공유기를 켭니다.",
-        "bn": "আমি ওয়াই-ফাই রাউটার চালু করি।",
-        "en": "I turn on the Wi-Fi router."
-      },
-      "pronunciationTipBn": "'와' এবং '이' একসাথে 'ওয়াই' উচ্চারণ করুন; 'ㄱ' এখানে 'গ'-এর মতো উচ্চারিত হবে।"
+      "pronunciationTipBn": "'검색' [검색]—ㄱ+ㅅ মিলে '색'।"
     }
   ],
   "grammar": [
     {
-      "pattern": "-고",
-      "titleBn": "এবং / আর (সংযোজক)",
-      "explanationBn": "দুটি কাজ বা অবস্থাকে যুক্ত করতে ক্রিয়াপদ বা বিশেষণের সাথে '-고' ব্যবহৃত হয়। এটি 'এবং' বা 'আর' এর মতো কাজ করে।",
-      "explanationEn": "Used with verbs or adjectives to connect two actions or states. It functions like 'and'.",
+      "pattern": "V + -고 있다 (진행)",
+      "titleBn": "চলমান কাজ '-고 있다'",
+      "explanationBn": "কাজ চলছে বোঝাতে ক্রিয়ার সাথে '-고 있다' বসে—বাংলার 'করছি/হচ্ছে'। অবস্থার (입고 있어요) থেকে আলাদা: 지금 먹고 있어요 = এখন খাচ্ছি।",
+      "explanationEn": "-고 있다 shows an action in progress. 지금 먹고 있어요 = eating now.",
       "examples": [
         {
-          "ko": "인터넷으로 뉴스를 보고 음악을 듣습니다.",
-          "bn": "আমি ইন্টারনেটে খবর দেখি এবং গান শুনি।",
-          "en": "I watch news and listen to music on the internet."
+          "ko": "마두 씨가 식당에서 점심을 먹고 있어요.",
+          "bn": "মাদু রেস্তোরাঁয় খাচ্ছে।",
+          "en": "Madhu is eating at a restaurant."
         },
         {
-          "ko": "이 스마트폰은 싸고 좋습니다.",
-          "bn": "এই স্মার্টফোনটি সস্তা এবং ভালো।",
-          "en": "This smartphone is cheap and good."
+          "ko": "유수프 씨는 지금 일하고 있어요.",
+          "bn": "ইউসুফ এখন কাজ করছে।",
+          "en": "Yusuf is working now."
+        },
+        {
+          "ko": "지금 뭐 하고 있어요? 호텔을 검색하고 있어요.",
+          "bn": "এখন কী করছেন? হোটেল খুঁজছি।",
+          "en": "What are you doing? Searching for a hotel."
         }
       ],
-      "commonMistakeBn": "অনেকে দুটি ভিন্ন কালের বাক্য যুক্ত করার সময় প্রথম বাক্যেও কালবাচক প্রত্যয় (যেমন -았/었-) ব্যবহার করেন; সাধারণত '-고' এর আগে মূল ধাতু বসে এবং শেষের বাক্যে কাল বোঝানো হয়।"
+      "commonMistakeBn": "'입고 있어요' (অবস্থা) আর '먹고 있어요' (চলমান) আলাদা।"
     },
     {
-      "pattern": "-(으)ㄹ 수 있다/없다",
-      "titleBn": "পারা / না পারা",
-      "explanationBn": "কোনো কিছু করার ক্ষমতা বা সম্ভাবনা বোঝাতে ক্রিয়াপদের সাথে '-(으)ㄹ 수 있다' (পারা) এবং '-(으)ㄹ 수 없다' (না পারা) ব্যবহৃত হয়।",
-      "explanationEn": "Used with verbs to express ability or possibility ('can') or inability/impossibility ('cannot').",
+      "pattern": "V + -(으)ㄹ래요",
+      "titleBn": "ইচ্ছা '-(으)ㄹ래요'",
+      "explanationBn": "ঘনিষ্ঠদের সাথে অনানুষ্ঠানিক কথায় ইচ্ছা বোঝাতে '-(으)ㄹ래요' বসে—'করবো/করতে চাই'। বত্ছিম→'-을래요', স্বর/ㄹ→'-ㄹ래요'।",
+      "explanationEn": "-(으)ㄹ래요 expresses intention informally. -을래요 after consonant, -ㄹ래요 after vowel/ㄹ.",
       "examples": [
         {
-          "ko": "여기서 와이파이를 쓸 수 있어요?",
-          "bn": "এখানে কি ওয়াই-ফাই ব্যবহার করতে পারি?",
-          "en": "Can I use Wi-Fi here?"
+          "ko": "저는 책을 읽을래요.",
+          "bn": "আমি বই পড়বো।",
+          "en": "I'll read a book."
         },
         {
-          "ko": "비밀번호를 몰라서 로그인할 수 없어요.",
-          "bn": "পাসওয়ার্ড না জানার কারণে লগইন করতে পারছি না।",
-          "en": "I cannot login because I don't know the password."
+          "ko": "피곤해서 집에 갈래요.",
+          "bn": "ক্লান্ত বলে বাড়ি যাব।",
+          "en": "I'm tired, so I'll go home."
+        },
+        {
+          "ko": "저녁에 같이 한국 음식을 만들래요?",
+          "bn": "সন্ধ্যায় একসাথে কোরীয় খাবার বানাবো?",
+          "en": "Shall we make Korean food together?"
         }
       ],
-      "commonMistakeBn": "অনেকে বাচ্চিম থাকা সত্ত্বেও '-ㄹ 수 있다' ব্যবহার করেন; বাচ্চিম থাকলে '-(으)ㄹ 수 있다' ব্যবহার করতে হবে (যেমন 먹을 수 있다)।"
+      "commonMistakeBn": "'-(으)ㄹ 거예요' (আনুষ্ঠানিক) আর '-(으)ㄹ래요' (অনানুষ্ঠানিক) আলাদা।"
     },
     {
-      "pattern": "-(으)면",
-      "titleBn": "যদি (শর্ত)",
-      "explanationBn": "কোনো শর্ত বা অনুমান বোঝাতে ক্রিয়াপদ বা বিশেষণের সাথে '-(으)면' ব্যবহৃত হয়। এটি 'যদি' এর মতো কাজ করে।",
-      "explanationEn": "Used with verbs or adjectives to express a condition or assumption. It functions like 'if' or 'when'.",
+      "pattern": "지금 뭐 하고 있어요?",
+      "titleBn": "এখন কী করছে",
+      "explanationBn": "এখন কী হচ্ছে: '지금 뭐 하고 있어요?'। উত্তরে '-고 있어요': 블로그에 글을 쓰고 있어요।",
+      "explanationEn": "Ask what's happening: 지금 뭐 하고 있어요? Answer with -고 있어요.",
       "examples": [
         {
-          "ko": "인터넷이 안 되면 저에게 말씀하세요.",
-          "bn": "ইন্টারনেট কাজ না করলে আমাকে বলবেন।",
-          "en": "If the internet doesn't work, please tell me."
+          "ko": "지금 뭐 하고 있어요?",
+          "bn": "এখন কী করছেন?",
+          "en": "What are you doing now?"
         },
         {
-          "ko": "시간이 있으면 같이 영화를 봐요.",
-          "bn": "সময় থাকলে একসাথে সিনেমা দেখি।",
-          "en": "If you have time, let's watch a movie together."
+          "ko": "블로그에 글을 쓰고 있어요.",
+          "bn": "ব্লগে পোস্ট লিখছি।",
+          "en": "I am writing a post on my blog."
         },
         {
-          "ko": "비밀번호를 모르면 로그인할 수 없어요.",
-          "bn": "পাসওয়ার্ড না জানলে লগইন করতে পারবেন না।",
-          "en": "If you don't know the password, you cannot login."
+          "ko": "화상 채팅을 하고 있어요.",
+          "bn": "ভিডিও কল করছি।",
+          "en": "I am video-chatting."
         }
       ],
-      "commonMistakeBn": "অনেকে 'ㄹ' বাচ্চিম থাকা সত্ত্বেও '으면' ব্যবহার করেন; 'ㄹ' বাচ্চিম থাকলে শুধু '면' বসবে (যেমন 만들면)।"
+      "commonMistakeBn": "'지금 뭐 해요?' আর '지금 뭐 하고 있어요?' প্রায় একই অর্থ।"
     },
     {
-      "pattern": "-아/어 주다",
-      "titleBn": "করে দেওয়া (অনুরোধ/সাহায্য)",
-      "explanationBn": "অন্য কারো জন্য কোনো কাজ করে দেওয়া বা সাহায্য করা বোঝাতে ক্রিয়াপদের সাথে '-아/어 주다' ব্যবহৃত হয়।",
-      "explanationEn": "Used with verbs to express doing an action for someone else or asking for a favor.",
+      "pattern": "N + 한테",
+      "titleBn": "'한테' (কে/কাছে)",
+      "explanationBn": "মানুষের পরে '한테' বসে কার ওপর কাজ প্রভাবিত তা বোঝায়। কথ্য; আনুষ্ঠানিকে '에게'।",
+      "explanationEn": "한테 attaches to people to show who is affected. Spoken form; formal: 에게.",
       "examples": [
         {
-          "ko": "이 앱 좀 설치해 주세요.",
-          "bn": "দয়া করে এই অ্যাপটি ইনস্টল করে দিন।",
-          "en": "Please install this app for me."
+          "ko": "고향 친구들한테 한국 생활을 소개해요.",
+          "bn": "দেশের বন্ধুদের কোরীয় জীবন বলি।",
+          "en": "I introduce my Korean life to friends back home."
         },
         {
-          "ko": "와이파이 비밀번호를 가르쳐 주세요.",
-          "bn": "দয়া করে ওয়াই-ফাই পাসওয়ার্ড শিখিয়ে দিন (বলে দিন)।",
-          "en": "Please tell me the Wi-Fi password."
+          "ko": "친구한테 메시지를 보내요.",
+          "bn": "বন্ধুকে মেসেজ পাঠাই।",
+          "en": "I send a message to a friend."
         },
         {
-          "ko": "제가 사진을 보내 줄게요.",
-          "bn": "আমি ছবি পাঠিয়ে দেব।",
-          "en": "I will send the photo for you."
+          "ko": "닛차난 씨한테 아이디를 가르쳐 주세요.",
+          "bn": "নিচানানকে আইডিটা দেখিয়ে দিন।",
+          "en": "Please show Nitchanan the ID."
         }
       ],
-      "commonMistakeBn": "অনেকে সম্মানসূচক বাক্যে '-아/어 주다' এর পরিবর্তে শুধু '-아/어' ব্যবহার করেন; কাউকে অনুরোধ করার সময় '-아/어 주세요' ব্যবহার করা বেশি ভদ্র।"
+      "commonMistakeBn": "'한테' কথ্য, '에게' আনুষ্ঠানিক—একই অর্থ।"
+    },
+    {
+      "pattern": "아이디 좀 가르쳐 줄래요?",
+      "titleBn": "অনুরোধ '줄래요?'",
+      "explanationBn": "বিনয়ে কিছু চাইতে '좀 ... 줄래요?' বলুন: 아이디 좀 가르쳐 줄래요? (আইডিটা একটু দেখাবে?)।",
+      "explanationEn": "Use 좀 ... 줄래요? for polite requests: 아이디 좀 가르쳐 줄래요?",
+      "examples": [
+        {
+          "ko": "아이디 좀 가르쳐 줄래요?",
+          "bn": "আইডিটা একটু দেখাবে?",
+          "en": "Can you show me your ID?"
+        },
+        {
+          "ko": "SNS 좀 보여 주세요.",
+          "bn": "SNS-এর ছবি একটু দেখান।",
+          "en": "Please show me your SNS."
+        },
+        {
+          "ko": "사진을 보고 싶어요.",
+          "bn": "ছবিগুলো দেখতে চাই।",
+          "en": "I want to see your photos."
+        }
+      ],
+      "commonMistakeBn": "'줄래요?' ঘনিষ্ঠদের মধ্যে; আনুষ্ঠানিকে '-아/어 주세요'।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "ওয়াই-ফাই পাসওয়ার্ড জিজ্ঞাসা করা",
-      "titleEn": "Asking for Wi-Fi Password",
+      "titleBn": "ব্লগ",
+      "titleEn": "Blog",
       "lines": [
         {
-          "speaker": "라힘",
-          "ko": "여기 와이파이를 쓸 수 있어요?",
-          "bn": "এখানে কি ওয়াই-ফাই ব্যবহার করতে পারি?",
-          "en": "Can I use Wi-Fi here?"
+          "speaker": "A",
+          "ko": "왕민 씨, 지금 뭐 해요?",
+          "bn": "ওয়াংমিন, এখন কী করছো?",
+          "en": "Wangmin, what are you doing?"
         },
         {
-          "speaker": "직원",
-          "ko": "네, 쓸 수 있어요.",
-          "bn": "হ্যাঁ, ব্যবহার করতে পারেন।",
-          "en": "Yes, you can use it."
+          "speaker": "B",
+          "ko": "블로그에 글을 쓰고 있어요.",
+          "bn": "ব্লগে পোস্ট লিখছি।",
+          "en": "I'm writing a post on my blog."
         },
         {
-          "speaker": "라힘",
-          "ko": "비밀번호가 뭐예요?",
-          "bn": "পাসওয়ার্ড কী?",
-          "en": "What is the password?"
+          "speaker": "A",
+          "ko": "블로그가 있어요? 어떤 블로그예요?",
+          "bn": "ব্লগ আছে? কী ধরনের?",
+          "en": "You have a blog? What kind?"
         },
         {
-          "speaker": "직원",
-          "ko": "벽에 적혀 있어요. 12345678입니다.",
-          "bn": "দেয়ালে লেখা আছে। ১২৩৪৫৬৭৮।",
-          "en": "It's written on the wall. It's 12345678."
+          "speaker": "B",
+          "ko": "한국 생활 소개 블로그예요. 고향 친구들한테 한국 생활을 소개해요.",
+          "bn": "কোরীয় জীবনের ব্লগ। দেশের বন্ধুদের কোরীয় জীবন বলি।",
+          "en": "It's a blog about my life in Korea. I share my Korean life with friends back home."
+        },
+        {
+          "speaker": "A",
+          "ko": "블로그에 글을 자주 써요?",
+          "bn": "প্রায়ই পোস্ট লেখো?",
+          "en": "Do you often write on it?"
+        },
+        {
+          "speaker": "B",
+          "ko": "네, 시간이 있을 때마다 써요.",
+          "bn": "হ্যাঁ, সময় পেলেই লিখি।",
+          "en": "Yes, I write whenever I have time."
         }
       ]
     },
     {
-      "titleBn": "অ্যাপ ইনস্টল করা",
-      "titleEn": "Installing an App",
+      "titleBn": "SNS",
+      "titleEn": "Social Media",
       "lines": [
         {
-          "speaker": "수루즈",
-          "ko": "이 앱을 어떻게 설치해요?",
-          "bn": "এই অ্যাপটি কীভাবে ইনস্টল করব?",
-          "en": "How do I install this app?"
+          "speaker": "A",
+          "ko": "닛차난 씨도 SNS를 해요?",
+          "bn": "নিচানান, তুমিও কি SNS করো?",
+          "en": "Do you use SNS too, Nitchanan?"
         },
         {
-          "speaker": "민수",
-          "ko": "스토어에 들어가서 검색하세요.",
-          "bn": "স্টোরে গিয়ে অনুসন্ধান করুন।",
-          "en": "Go to the store and search for it."
+          "speaker": "B",
+          "ko": "네, 저도 SNS를 해요. SNS에 사진을 자주 올려요.",
+          "bn": "হ্যাঁ, আমিও করি। SNS-এ প্রায়ই ছবি আপলোড করি।",
+          "en": "Yes, I do. I often post photos on SNS."
         },
         {
-          "speaker": "수루즈",
-          "ko": "찾았어요. 이제 어떻게 해요?",
-          "bn": "পেয়েছি। এখন কী করব?",
-          "en": "I found it. What do I do now?"
+          "speaker": "A",
+          "ko": "어떤 사진을 올려요?",
+          "bn": "কোন ছবি আপলোড করো?",
+          "en": "What kind of photos do you post?"
         },
         {
-          "speaker": "민수",
-          "ko": "설치 버튼을 누르세요. 그리고 로그인하세요.",
-          "bn": "ইনস্টল বোতাম চাপুন। এবং লগইন করুন।",
-          "en": "Press the install button. And login."
+          "speaker": "B",
+          "ko": "저는 주로 맛집 사진을 올려요. 이게 제 SNS예요.",
+          "bn": "আমি প্রধানত সুস্বাদু রেস্তোরাঁর ছবি আপলোড করি। এটা আমার SNS।",
+          "en": "I mostly post photos of famous restaurants. This is my SNS."
+        },
+        {
+          "speaker": "A",
+          "ko": "닛차난 씨 아이디 좀 가르쳐 줄래요? 사진을 보고 싶어요.",
+          "bn": "নিচানান, আইডিটা একটু দেখাবে? ছবিগুলো দেখতে চাই।",
+          "en": "Can you show me your ID? I want to see your photos."
+        },
+        {
+          "speaker": "B",
+          "ko": "네, 좋아요. 진수 씨 아이디도 가르쳐 주세요.",
+          "bn": "জি, ভালো। জিনসু, তুমিও আইডিটা দেখাও।",
+          "en": "Sure! Please show me your ID too, Jinsu."
         }
       ]
     },
     {
-      "titleBn": "ভিডিও কল করা",
-      "titleEn": "Making a Video Call",
+      "titleBn": "ভিডিও কল",
+      "titleEn": "Video Chat",
       "lines": [
         {
-          "speaker": "라힘",
-          "ko": "수루즈 씨, 지금 바빠요?",
-          "bn": "সুরুজ সাহেব, এখন কি ব্যস্ত?",
-          "en": "Suruj, are you busy right now?"
+          "speaker": "A",
+          "ko": "주말에 뭐 했어요?",
+          "bn": "সপ্তাহান্তে কী করেছিলে?",
+          "en": "What did you do on the weekend?"
         },
         {
-          "speaker": "수루즈",
-          "ko": "아니요, 안 바빠요. 왜요?",
-          "bn": "না, ব্যস্ত নই। কেন?",
-          "en": "No, I'm not busy. Why?"
+          "speaker": "B",
+          "ko": "고향에 있는 가족들과 화상 채팅을 했어요.",
+          "bn": "দেশে থাকা পরিবারের সাথে ভিডিও কল করেছি।",
+          "en": "I video-chatted with my family back home."
         },
         {
-          "speaker": "라힘",
-          "ko": "고향에 영상 통화를 하고 싶은데 인터넷이 안 돼요.",
-          "bn": "দেশে ভিডিও কল করতে চাই কিন্তু ইন্টারনেট কাজ করছে না।",
-          "en": "I want to make a video call to my hometown, but the internet isn't working."
+          "speaker": "A",
+          "ko": "그래요? 자주 해요?",
+          "bn": "তাই? প্রায়ই করো?",
+          "en": "Really? Do you do it often?"
         },
         {
-          "speaker": "수루즈",
-          "ko": "그럼 제 스마트폰을 쓰세요. 와이파이가 잘 돼요.",
-          "bn": "তাহলে আমার স্মার্টফোন ব্যবহার করুন। ওয়াই-ফাই ভালো কাজ করছে।",
-          "en": "Then use my smartphone. The Wi-Fi works well."
+          "speaker": "B",
+          "ko": "네, 토요일마다 해요. 디안 씨는 뭐 했어요?",
+          "bn": "হ্যাঁ, প্রতি শনিবার করি। দিয়ান, তুমি কী করেছিলে?",
+          "en": "Yes, every Saturday. What about you, Dian?"
         },
         {
-          "speaker": "라힘",
-          "ko": "정말 고마워요.",
-          "bn": "সত্যিই ধন্যবাদ।",
-          "en": "Thank you so much."
+          "speaker": "A",
+          "ko": "저는 배달 앱으로 음식을 주문했어요. 편리해요.",
+          "bn": "আমি ডেলিভারি অ্যাপে খাবার অর্ডার করেছি। সুবিধাজনক।",
+          "en": "I ordered food on a delivery app. It's convenient."
         }
       ]
     }
@@ -628,568 +714,578 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'블로그' শব্দের সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "와이파이",
-        "이메일",
-        "비밀번호",
-        "배터리"
+        "ওয়েবসাইট",
+        "ব্লগ",
+        "ইমেইল",
+        "চ্যাট"
       ],
-      "answer": 0,
-      "explanationBn": "ইন্টারনেট ব্যবহার করার জন্য ওয়াই-ফাই (와이파이) প্রয়োজন।"
+      "answer": 1,
+      "explanationBn": "블로그 = ব্লগ।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'-고 있다' দিয়ে সঠিকভাবে গঠিত বাক্য কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "가입합니다",
-        "충전합니다",
-        "설치합니다",
-        "검색합니다"
+        "블로그에 글을 쓰고 해요.",
+        "블로그에 글을 쓰고 있어요가.",
+        "블로그에 글을 쓰고 있어요.",
+        "블로그 글을 쓰고 있어요가."
       ],
-      "answer": 1,
-      "explanationBn": "ব্যাটারি না থাকলে ফোন চার্জ (충전합니다) করতে হয়।"
+      "answer": 2,
+      "explanationBn": "ক্রিয়া + '-고 있어요': 쓰고 있어요।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "알맞은 것을 고르십시오.",
+      "questionBn": "'-(으)ㄹ래요' দিয়ে সঠিকভাবে গঠিত বাক্য কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "로그아웃",
-        "다운로드",
-        "문자",
-        "전화하다"
+        "저는 책을 읽ㄹ래요.",
+        "저는 책을 읽을래요가.",
+        "저는 책 읽을래요가.",
+        "저는 책을 읽을래요."
       ],
-      "answer": 2,
-      "explanationBn": "টেক্সট মেসেজকে কোরিয়ান ভাষায় 문자 (munja) বলা হয়।"
+      "answer": 3,
+      "explanationBn": "'읽다' বত্ছিমযুক্ত, তাই '-을래요': 읽을래요।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "알맞은 것을 고르십시오.",
+      "questionBn": "'화상 채팅' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "로그인",
-        "인터넷",
-        "앱",
-        "영상 통화"
+        "চ্যাট",
+        "ভিডিও কল",
+        "ইমেইল",
+        "মেসেজ"
       ],
-      "answer": 3,
-      "explanationBn": "ভিডিও কলকে কোরিয়ান ভাষায় 영상 통화 (yeongsang tonghwa) বলা হয়।"
+      "answer": 1,
+      "explanationBn": "화상 채팅 = ভিডিও কল।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'댓글을 달다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "켜고",
-        "끄고",
-        "보내고",
-        "받고"
+        "মেসেজ পাঠানো",
+        "আপলোড করা",
+        "মন্তব্য দেওয়া",
+        "ডাউনলোড করা"
       ],
-      "answer": 0,
-      "explanationBn": "কম্পিউটার চালু করে (켜고) কাজ শুরু করতে হয়।"
+      "answer": 2,
+      "explanationBn": "댓글을 달다 = মন্তব্য দেওয়া।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'내려받다' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "하고 싶어요",
-        "할 수 있어요",
-        "하기 싫어요",
-        "할 수 없어요"
+        "আপলোড করা",
+        "সংরক্ষণ করা",
+        "মেসেজ পাঠানো",
+        "ডাউনলোড করা"
       ],
-      "answer": 1,
-      "explanationBn": "ইন্টারনেট থাকলে ভিডিও কল করতে পারা যায় (할 수 있어요)।"
+      "answer": 3,
+      "explanationBn": "내려받다 = ডাউনলোড করা।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'맛집' শব্দের অর্থ কী?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "검색하고",
-        "검색할 수 없어요",
-        "검색할 수 있어요",
-        "검색해서"
+        "সুস্বাদু রেস্তোরাঁ",
+        "ঝাল খাবার",
+        "সস্তা খাবার",
+        "রান্না"
       ],
-      "answer": 2,
-      "explanationBn": "স্মার্টফোন দিয়ে ইন্টারনেটে তথ্য অনুসন্ধান করতে পারা যায় (검색할 수 있어요)।"
+      "answer": 0,
+      "explanationBn": "맛집 = সুস্বাদু রেস্তোরাঁ (맛 + 집)।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'지금 뭐 하고 있어요?' — এই প্রশ্নের সঠিক উত্তর কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "로그아웃하고",
-        "설치하고",
-        "가입하고",
-        "로그인하고"
+        "호텔에 묵어요.",
+        "호텔을 검색하고 있어요.",
+        "네, 하고 있어요.",
+        "검색이에요."
       ],
-      "answer": 3,
-      "explanationBn": "ওয়েবসাইটে আইডি এবং পাসওয়ার্ড দিয়ে লগইন করে (로그인하고) ব্যবহার করতে হয়।"
+      "answer": 1,
+      "explanationBn": "চলমান প্রশ্নের উত্তরে '-고 있어요'।"
     },
     {
       "id": "p9",
+      "type": "multiple-choice",
+      "questionBn": "'한테' সঠিকভাবে কোন বাক্যে ব্যবহৃত?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": [
+        "친구한테을 메시지를 보내요.",
+        "친구 한테 메시지를 보내요가.",
+        "친구한테 메시지를 보내요.",
+        "친구한테 메시지를 보내요가."
+      ],
+      "answer": 2,
+      "explanationBn": "মানুষ + 한테 = কে/কাছে।"
+    },
+    {
+      "id": "p10",
+      "type": "fill-blank",
+      "questionBn": "'쓰다' + '-고 있다' বসান: 블로그에 글을 ___고 있어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "써",
+        "쓰어",
+        "쓰으",
+        "쓰"
+      ],
+      "answer": 3,
+      "explanationBn": "'쓰다' + '-고 있다': 쓰고 있어요।"
+    },
+    {
+      "id": "p11",
+      "type": "fill-blank",
+      "questionBn": "'가다' + '-(으)ㄹ래요' বসান: 피곤해서 집에 ___래요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "가",
+        "가을",
+        "갈",
+        "가ㄹ"
+      ],
+      "answer": 2,
+      "explanationBn": "'가다' বত্ছিমবিহীন, তাই '-ㄹ래요': 갈래요।"
+    },
+    {
+      "id": "p12",
+      "type": "fill-blank",
+      "questionBn": "'와이파이' শব্দের অর্থ বসান: ___ 비밀번호가 뭐예요?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "인터넷",
+        "와이파이",
+        "블로그",
+        "이메일"
+      ],
+      "answer": 1,
+      "explanationBn": "와이파이 = ওয়াইফাই।"
+    },
+    {
+      "id": "p13",
+      "type": "fill-blank",
+      "questionBn": "'먹다' + '-(으)ㄹ래요' বসান: 뭘 ___래요?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "먹ㄹ",
+        "먹을",
+        "먹",
+        "먹으"
+      ],
+      "answer": 1,
+      "explanationBn": "'먹다' বত্ছিমযুক্ত, তাই '-을래요': 먹을래요।"
+    },
+    {
+      "id": "p14",
+      "type": "fill-blank",
+      "questionBn": "'올리다' শব্দের অর্থ বসান: SNS에 사진을 ___요. (আপলোড)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "내려받",
+        "저장",
+        "보",
+        "올리"
+      ],
+      "answer": 3,
+      "explanationBn": "올리다 = আপলোড করা।"
+    },
+    {
+      "id": "p15",
+      "type": "fill-blank",
+      "questionBn": "'저장하다' শব্দের অর্থ বসান: 사진을 ___해요. (সংরক্ষণ)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "삭제",
+        "저장",
+        "올리",
+        "보내"
+      ],
+      "answer": 1,
+      "explanationBn": "저장하다 = সংরক্ষণ করা।"
+    },
+    {
+      "id": "p16",
+      "type": "fill-blank",
+      "questionBn": "'하다' + '-고 있다' বসান: 지금 뭐 하고 ___어요?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "없",
+        "하",
+        "있",
+        "보"
+      ],
+      "answer": 2,
+      "explanationBn": "'하고 있어요' = করছে/হচ্ছে।"
+    },
+    {
+      "id": "p17",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "ইন্টারনেট-শব্দের সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
-          "left": "스마트폰",
-          "right": "স্মার্টফোন"
+          "left": "인터넷",
+          "right": "ইন্টারনেট"
         },
         {
-          "left": "비밀번호",
-          "right": "পাসওয়ার্ড"
+          "left": "블로그",
+          "right": "ব্লগ"
         },
         {
           "left": "이메일",
           "right": "ইমেইল"
         },
         {
-          "left": "다운로드",
-          "right": "ডাউনলোড"
+          "left": "검색",
+          "right": "খোঁজ"
+        },
+        {
+          "left": "채팅",
+          "right": "চ্যাটিং"
         }
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
-    },
-    {
-      "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "검색하다",
-          "right": "অনুসন্ধান করা"
-        },
-        {
-          "left": "설치하다",
-          "right": "ইনস্টল করা"
-        },
-        {
-          "left": "충전하다",
-          "right": "চার্জ করা"
-        },
-        {
-          "left": "가입하다",
-          "right": "সাইন আপ করা"
-        }
-      ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
-    },
-    {
-      "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "알맞은 것을 고르십시오.",
-      "options": [
-        "댓글",
-        "게시판",
-        "블로그",
-        "화면"
-      ],
-      "answer": 0,
-      "explanationBn": "ছবি বা পোস্টে মন্তব্য করাকে কোরিয়ান ভাষায় 댓글 (daetgeul) বলা হয়।"
-    },
-    {
-      "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "알맞은 것을 고르십시오.",
-      "options": [
-        "진동",
-        "벨소리",
-        "이어폰",
-        "충전기"
-      ],
-      "answer": 2,
-      "explanationBn": "গান শোনার জন্য ইয়ারফোন (이어폰) ব্যবহার করা হয়।"
-    },
-    {
-      "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "공유합니다",
-        "삭제합니다",
-        "채팅합니다",
-        "설치합니다"
-      ],
-      "answer": 1,
-      "explanationBn": "অপ্রয়োজনীয় মেসেজ মুছে ফেলাকে 삭제합니다 (ডিলিট করা) বলা হয়।"
-    },
-    {
-      "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "충전기",
-        "공유기",
-        "화면",
-        "진동"
-      ],
-      "answer": 3,
-      "explanationBn": "মিটিংয়ের সময় ফোন ভাইব্রেশনে (진동) রাখা উচিত।"
-    },
-    {
-      "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "모르면",
-        "알면",
-        "없으면",
-        "있으면"
-      ],
-      "answer": 0,
-      "explanationBn": "পাসওয়ার্ড না জানলে (모르면) লগইন করা যায় না।"
-    },
-    {
-      "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "빌려 주세요",
-        "빌려 줄게요",
-        "빌려 주면",
-        "빌려 주고"
-      ],
-      "answer": 0,
-      "explanationBn": "চার্জার ধার চাওয়ার জন্য '빌려 주세요' (ধার দিন) ব্যবহার করা হয়।"
-    },
-    {
-      "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "가르쳐 주세요",
-        "가르쳐 줄게요",
-        "가르쳐 주면",
-        "가르쳐 주고"
-      ],
-      "answer": 0,
-      "explanationBn": "ওয়াই-ফাই পাসওয়ার্ড জানতে চাওয়ার জন্য '가르쳐 주세요' (বলে দিন/শিখিয়ে দিন) ব্যবহার করা হয়।"
+      "explanationBn": "ইন্টারনেট জীবনের মৌলিক শব্দ।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "안 되면",
-        "되면",
-        "안 되고",
-        "되고"
+      "type": "matching",
+      "questionBn": "স্মার্টফোন-শব্দের সাথে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "스마트폰",
+          "right": "স্মার্টফোন"
+        },
+        {
+          "left": "앱",
+          "right": "অ্যাপ"
+        },
+        {
+          "left": "SNS",
+          "right": "সোশ্যাল মিডিয়া"
+        },
+        {
+          "left": "이모티콘",
+          "right": "ইমোটিকন"
+        },
+        {
+          "left": "와이파이",
+          "right": "ওয়াইফাই"
+        }
       ],
-      "answer": 0,
-      "explanationBn": "ইন্টারনেট কাজ না করলে (안 되면) ওয়াই-ফাই রাউটার চেক করতে হয়।"
+      "explanationBn": "স্মার্টফোন ব্যবহারের শব্দ।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "ক্রিয়ার সাথে বাংলা অর্থ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
-          "left": "채팅하다",
-          "right": "চ্যাটিং করা"
+          "left": "올리다",
+          "right": "আপলোড"
         },
         {
-          "left": "공유하다",
-          "right": "শেয়ার করা"
+          "left": "내려받다",
+          "right": "ডাউনলোড"
         },
         {
-          "left": "삭제하다",
-          "right": "ডিলিট করা"
+          "left": "저장하다",
+          "right": "সংরক্ষণ"
         },
         {
-          "left": "게시판",
-          "right": "বুলেটিন বোর্ড"
+          "left": "보내다",
+          "right": "পাঠানো"
+        },
+        {
+          "left": "댓글을 달다",
+          "right": "মন্তব্য দেওয়া"
         }
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "প্রতিটি ক্রিয়া আলাদা কাজ।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিলান।",
+      "questionBn": "ক্রিয়ার মূল রূপের সাথে '-고 있다' রূপ মিলান।",
       "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
-          "left": "화면",
-          "right": "স্ক্রিন"
+          "left": "쓰다",
+          "right": "쓰고 있어요"
         },
         {
-          "left": "진동",
-          "right": "ভাইব্রেশন"
+          "left": "먹다",
+          "right": "먹고 있어요"
         },
         {
-          "left": "벨소리",
-          "right": "রিংটোন"
+          "left": "하다",
+          "right": "하고 있어요"
         },
         {
-          "left": "이어폰",
-          "right": "ইয়ারফোন"
+          "left": "보다",
+          "right": "보고 있어요"
         }
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "ক্রিয়া + '-고 있다' = চলমান।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 여기 와이파이 (   )이/가 뭐예요?\n나: 12345678이에요.",
+      "questionBn": "'인터넷 카페' শব্দটি কোন বিভাগের?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "문자",
-        "비밀번호",
-        "배터리",
-        "이메일"
+        "집들이",
+        "보증금",
+        "이모티콘",
+        "회원 가입"
       ],
-      "answer": 1,
-      "explanationBn": "ওয়াই-ফাই এর সাথে পাসওয়ার্ড (비밀번호) জানতে চাওয়া হচ্ছে।"
+      "answer": 3,
+      "explanationBn": "인터넷 카페-তে 회원 가입 প্রয়োজন।",
+      "passage": "인터넷 카페"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "스마트폰 (   )이/가 없습니다. 그래서 전화를 할 수 없습니다.",
+      "questionBn": "'-(으)ㄹ래요' সঠিক কোন বাক্যটি?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "배터리",
-        "로그인",
-        "앱",
-        "인터넷"
+        "같이 음악을 듣ㄹ래요?",
+        "같이 음악 듣을래요가?",
+        "같이 음악을 듣을래요가?",
+        "같이 음악을 듣을래요?"
       ],
-      "answer": 0,
-      "explanationBn": "ব্যাটারি (배터리) না থাকলে ফোন করা যায় না।"
+      "answer": 3,
+      "explanationBn": "'듣다' ㄹ বত্ছিমে '-을래요': 듣을래요।"
     },
     {
       "id": "e3",
       "section": "reading",
       "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 고향에 있는 가족의 얼굴을 보고 싶어요.\n나: 그러면 스마트폰으로 (   )을/를 해 보세요.",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "가입",
-        "다운로드",
-        "로그아웃",
-        "영상 통화"
+        "블로그",
+        "메뉴판",
+        "요리법",
+        "동호회"
       ],
-      "answer": 3,
-      "explanationBn": "পরিবারের মুখ দেখার জন্য ভিডিও কল (영상 통화) করতে হয়।"
+      "answer": 0,
+      "explanationBn": "ব্লগে নিজের জীবনের কথা লেখা হয়।",
+      "passage": "저는 글 쓰는 것을 좋아합니다. 요즘은 ___에 한국 생활이나 문화를 소개하는 글을 쓰고 있습니다."
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "인터넷 쇼핑몰에서 물건을 사려면 먼저 사이트에 (   )해야 합니다.",
+      "questionBn": "'배달 앱' সম্পর্কে পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "충전",
-        "검색",
-        "가입",
-        "설치"
+        "배달 앱은 현금 결제가 안 됩니다.",
+        "앱으로 주문하면 할인을 받지 못합니다.",
+        "배달 앱은 외국인들이 이용하기 어렵습니다.",
+        "앱을 사용하면 배달 시간을 알 수 있습니다."
       ],
-      "answer": 2,
-      "explanationBn": "ইন্টারনেট শপিং মলে জিনিস কেনার আগে সাইটে সাইন আপ (가입) করতে হয়।"
+      "answer": 3,
+      "explanationBn": "앱으로 배달 시간 জানা যায়।",
+      "passage": "배달 앱을 이용하면 음식이 언제 배달되는지 확인할 수 있습니다."
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পরবর্তী বাক্যটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 문장을 읽고 알맞은 것을 고르십시오.",
-      "passage": "저는 매일 인터넷으로 한국어 뉴스를 (   ) 한국어 공부를 합니다.",
+      "questionBn": "শূন্যস্থানে সঠিক রূপটি বসান।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "보지만",
-        "보고",
-        "보거나",
-        "볼 수 없고"
+        "먹ㄹ",
+        "먹",
+        "먹을",
+        "먹으"
       ],
-      "answer": 1,
-      "explanationBn": "ইন্টারনেটে কোরিয়ান খবর দেখে এবং (-고) কোরিয়ান ভাষা অধ্যয়ন করি।"
+      "answer": 2,
+      "explanationBn": "'먹다' + '-을래요': 먹을래요।",
+      "passage": "저는 짜장면을 ___래요."
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 이 앱은 어떻게 사용해요?\n여자: 먼저 아이디와 비밀번호를 쓰고 로그인하세요.",
+      "section": "reading",
+      "questionBn": "'SNS' শব্দটি কোন বিভাগের?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "로그인을 합니다.",
-        "배터리를 충전합니다.",
-        "앱을 삭제합니다.",
-        "와이파이를 끕니다."
+        "직업",
+        "스마트폰 활동",
+        "장소",
+        "교통"
       ],
-      "answer": 0,
-      "explanationBn": "মহিলাটি প্রথমে আইডি এবং পাসওয়ার্ড দিয়ে লগইন (로그인) করতে বলেছেন।"
+      "answer": 1,
+      "explanationBn": "SNS = সোশ্যাল মিডিয়া।",
+      "passage": "SNS"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 휴대폰 배터리가 없어요. 충전기 있어요?\n남자: 네, 여기 있어요.",
+      "section": "reading",
+      "questionBn": "'댓글을 달다' সঠিক কোন বাক্যটি?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "인터넷을 검색합니다.",
-        "휴대폰을 끕니다.",
-        "문자를 보냅니다.",
-        "휴대폰을 충전합니다."
+        "댓글을 달어요가.",
+        "댓글 달아요가.",
+        "댓글을 달아요가가.",
+        "댓글을 달아요."
       ],
       "answer": 3,
-      "explanationBn": "মহিলাটির ফোনের ব্যাটারি নেই, তাই তিনি ফোন চার্জ (충전) করবেন।"
+      "explanationBn": "'달다' + '-아요/어요': 달아요।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 고향에 있는 부모님께 어떻게 연락해요?\n여자: 저는 보통 주말에 영상 통화를 해요.",
+      "section": "reading",
+      "questionBn": "'이모티콘' শব্দটি কোন বিভাগের?",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "문자를 보냅니다.",
-        "이메일을 보냅니다.",
-        "영상 통화를 합니다.",
-        "전화를 받습니다."
+        "교통",
+        "스마트폰 활동",
+        "음식",
+        "직업"
       ],
-      "answer": 2,
-      "explanationBn": "মহিলাটি সাধারণত সপ্তাহান্তে ভিডিও কল (영상 통화) করেন।"
+      "answer": 1,
+      "explanationBn": "이모티콘 = ইমোটিকন।",
+      "passage": "이모티콘"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 스마트폰 (   )이/가 너무 작아서 글씨가 잘 안 보여요.\n나: 그럼 글씨 크기를 크게 해 보세요.",
+      "questionBn": "শূন্যস্থানে সঠিক ক্রিয়াটি বসান।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "화면",
-        "진동",
-        "벨소리",
-        "이어폰"
+        "내려받아요",
+        "보내요",
+        "올려요",
+        "달아요"
       ],
-      "answer": 0,
-      "explanationBn": "স্ক্রিন (화면) ছোট হওয়ার কারণে লেখা ভালো দেখা যাচ্ছে না।"
+      "answer": 2,
+      "explanationBn": "ছবি আপলোড (올리다) SNS-এ প্রচলিত।",
+      "passage": "SNS에 사진을 ___요."
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "도서관에서는 조용히 해야 합니다. 그러니까 휴대폰을 (   )으로/로 바꾸세요.",
+      "questionBn": "লেখাটি পড়ে সঠিক তথ্যটি বাছাই করুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
       "options": [
-        "충전기",
-        "공유기",
-        "진동",
-        "댓글"
+        "왕민 씨는 고향 친구들한테 한국 생활을 소개해요.",
+        "왕민 씨는 블로그에 글을 안 써요.",
+        "왕민 씨는 블로그가 없어요.",
+        "왕민 씨는 시간이 없어요."
       ],
-      "answer": 2,
-      "explanationBn": "লাইব্রেরিতে শান্ত থাকতে হয়, তাই ফোন ভাইব্রেশনে (진동) পরিবর্তন করতে হবে।"
+      "answer": 0,
+      "explanationBn": "왕민 씨는 블로그에 한국 생활 소개합니다।",
+      "passage": "왕민 씨는 한국 생활 소개 블로그에 글을 써요. 고향 친구들한테 한국 생활을 소개해요."
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 이 사진을 친구들에게 어떻게 보여줘요?\n나: 메신저 앱으로 사진을 (   )해 보세요.",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: পুরুষ সপ্তাহান্তে কী করেছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "options": [
-        "삭제",
-        "공유",
-        "가입",
-        "검색"
+        "게임을 했어요",
+        "화상 채팅을 했어요",
+        "여행을 했어요",
+        "청소를 했어요"
       ],
       "answer": 1,
-      "explanationBn": "বন্ধুদের ছবি দেখানোর জন্য মেসেঞ্জার অ্যাপ দিয়ে শেয়ার (공유) করতে হয়।"
+      "explanationBn": "পুরুষ বলেছেন '화상 채팅을 했어요'।",
+      "passage": "여자: 주말에 뭐 했어요?\n남자: 고향에 있는 가족들과 화상 채팅을 했어요."
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "পরবর্তী বাক্যটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 문장을 읽고 알맞은 것을 고르십시오.",
-      "passage": "인터넷 게시판에 나쁜 (   )을/를 쓰면 안 됩니다. 다른 사람의 마음을 아프게 할 수 있습니다.",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কী জানতে চাইছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "options": [
-        "댓글",
-        "화면",
-        "블로그",
-        "배터리"
+        "메시지",
+        "와이파이 비밀번호",
+        "이메일",
+        "아이디"
       ],
-      "answer": 0,
-      "explanationBn": "ইন্টারনেট বুলেটিন বোর্ডে খারাপ মন্তব্য (댓글) লেখা উচিত নয়।"
+      "answer": 1,
+      "explanationBn": "মহিলা জিজ্ঞাসা করেছেন '와이파이 비밀번호가 뭐예요?'।",
+      "passage": "남자: 저기요. 여기 와이파이 비밀번호가 뭐예요?\n여자: 잠시만요. 가르쳐 드릴게요."
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "পরবর্তী বাক্যটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 문장을 읽고 알맞은 것을 고르십시오.",
-      "passage": "가: 한국어 공부를 어떻게 해요?\n나: 저는 인터넷으로 한국어 (   )을/를 읽고 공부해요.",
+      "section": "listening",
+      "questionBn": "শুনে বাছাই করুন: পুরুষ কী করতে চান?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "options": [
-        "블로그",
-        "충전기",
-        "진동",
-        "벨소리"
+        "집에 갈래요",
+        "게임을 할래요",
+        "책을 읽을래요",
+        "쇼핑을 할래요"
       ],
-      "answer": 0,
-      "explanationBn": "ইন্টারনেটে কোরিয়ান ব্লগ (블로그) পড়ে কোরিয়ান ভাষা অধ্যয়ন করা যায়।"
+      "answer": 2,
+      "explanationBn": "পুরুষ বলেছেন '책을 읽을래요'।",
+      "passage": "여자: 뭐 할래요?\n남자: 저는 책을 읽을래요."
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: মহিলা মেসেজ পেয়েছেন কি?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 버스 안에서 음악을 듣고 싶어요.\n여자: 그럼 이 이어폰을 사용하세요.",
       "options": [
-        "이어폰을 줍니다.",
-        "충전기를 줍니다.",
-        "스마트폰을 끕니다.",
-        "와이파이를 켭니다."
+        "네, 받았어요",
+        "네, 확인했어요",
+        "아니요, 안 보냈어요",
+        "아니요, 못 받았어요"
       ],
-      "answer": 0,
-      "explanationBn": "মহিলাটি বাসে গান শোনার জন্য ইয়ারফোন (이어폰) দিচ্ছেন।"
+      "answer": 3,
+      "explanationBn": "মহিলা বলেছেন '문자 메시지를 못 받았어요?'।",
+      "passage": "여자: 어제 문자 메시지를 못 받았어요?"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: পুরুষ কোরীয় ড্রামা কীভাবে দেখেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 와이파이가 안 돼요. 어떻게 해야 해요?\n남자: 공유기를 껐다가 다시 켜 보세요.",
       "options": [
-        "공유기를 켭니다.",
-        "앱을 설치합니다.",
-        "비밀번호를 바꿉니다.",
-        "사진을 삭제합니다."
+        "OTT로",
+        "텔레비전으로",
+        "컴퓨터로",
+        "극장에서"
       ],
       "answer": 0,
-      "explanationBn": "পুরুষটি ওয়াই-ফাই রাউটার (공유기) বন্ধ করে আবার চালু করতে বলেছেন।"
+      "explanationBn": "পুরুষ বলেছেন 'OTT로 봐요'।",
+      "passage": "여자: 한국 드라마는 어떻게 봐요?\n남자: OTT로 봐요."
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে বাছাই করুন: মহিলা কখনো হোমপেজে গেছেন কি?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 이 메시지는 필요 없어요. 지워도 돼요?\n여자: 네, 삭제하세요.",
       "options": [
-        "메시지를 삭제합니다.",
-        "메시지를 보냅니다.",
-        "메시지를 공유합니다.",
-        "메시지를 읽습니다."
+        "네, 갔어요",
+        "네, 로그인을 했어요",
+        "아니요, 안 갔어요",
+        "아니요, 안 했어요"
       ],
-      "answer": 0,
-      "explanationBn": "মহিলাটি অপ্রয়োজনীয় মেসেজ ডিলিট (삭제) করতে বলেছেন।"
+      "answer": 1,
+      "explanationBn": "মহিলা বলেছেন '회사 홈페이지에 로그인을 했어요'।",
+      "passage": "남자: 언제 마지막으로 홈페이지에 접속했어요?"
     }
   ]
 }
