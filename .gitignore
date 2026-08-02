@@ -116,3 +116,6 @@ client/public/__manus__/version.json
 # Official textbook reference PDFs (KOGL Type-3, not for git)
 reference/
 .aider*
+
+# Lesson authoring fragment scratch (assembled into content/lessons/)
+.lesson-work/
