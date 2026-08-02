@@ -714,19 +714,24 @@ export function getModuleQuizQuestions(module: BasicsModule): BasicsQuizQuestion
   return module.steps.filter(s => s.type === "quiz").flatMap(s => s.questions);
 }
 
+/** Fisher–Yates shuffle copy (unbiased). Generic so it can shuffle any list. */
+function shuffleCopy<T>(items: readonly T[], random: () => number = Math.random): T[] {
+  const out = [...items];
+  for (let i = out.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(random() * (i + 1));
+    const tmp = out[i]!;
+    out[i] = out[j]!;
+    out[j] = tmp;
+  }
+  return out;
+}
+
 /** Fisher–Yates shuffle copy (unbiased). */
 export function shuffleBasicsQuestions(
   questions: readonly BasicsQuizQuestion[],
   random: () => number = Math.random,
 ): BasicsQuizQuestion[] {
-  const items = [...questions];
-  for (let i = items.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(random() * (i + 1));
-    const tmp = items[i]!;
-    items[i] = items[j]!;
-    items[j] = tmp;
-  }
-  return items;
+  return shuffleCopy(questions, random);
 }
 
 /**
@@ -786,10 +791,10 @@ export function shuffleQuestionPresentation(
   if (question.kind === "matching") {
     return {
       ...question,
-      pairs: shuffleBasicsQuestions(
+      pairs: shuffleCopy(
         question.pairs.map(pair => ({ ...pair })),
         random,
-      ) as BasicsQuizQuestion["pairs"],
+      ),
     };
   }
 
