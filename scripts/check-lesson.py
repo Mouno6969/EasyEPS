@@ -181,6 +181,11 @@ def check(path: Path) -> list[str]:
             errs.append(f"{where} has {len(opts)} options")
         if not isinstance(ans, int) or not 0 <= ans < len(opts):
             errs.append(f"{where} answer {ans!r} out of range for {len(opts)} options")
+        if "passage" in q and not isinstance(q["passage"], str):
+            # Zod types passage as an optional string: an explicit null fails the
+            # runtime schema even though it reads as "no passage" here. Omit the
+            # key instead, which is what the other lessons do.
+            errs.append(f"{where} passage is {q['passage']!r}, must be a string or absent")
         if sec == "listening":
             passage = q.get("passage") or ""
             if not passage:
