@@ -10,161 +10,174 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কোরিয়ান জনপ্রিয় সংস্কৃতি (হাল্লিউ) সম্পর্কে বোঝা এবং আলোচনা করা।",
-      "প্রিয় কোরিয়ান নাটক, সিনেমা এবং সঙ্গীত সম্পর্কে কথা বলা।",
-      "বিনোদন এবং মিডিয়া সম্পর্কিত শব্দভাণ্ডার শেখা।",
-      "সাংস্কৃতিক বিষয়বস্তু সম্পর্কে পছন্দ এবং মতামত প্রকাশ করা।"
+      "পেশাদার খেলাধুলা ও খেলা দেখা নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "'-는/(으)ㄴ 것 같다' দিয়ে বর্তমান অবস্থা বা কাজ সম্পর্কে অনুমান প্রকাশ করতে পারা",
+      "'-기 쉽다/어렵다' দিয়ে কোনো কাজ সহজ না কঠিন তা বলতে পারা",
+      "হাল্লিউ (한류) তথা কে-পপ, কে-ড্রামা, কে-বিউটি নিয়ে কথা বলতে পারা"
     ],
     "en": [
-      "Understand and discuss Korean popular culture (Hallyu).",
-      "Talk about favorite Korean dramas, movies, and music.",
-      "Learn vocabulary related to entertainment and media.",
-      "Express preferences and opinions about cultural content."
+      "Can ask and answer questions about professional sports and watching games",
+      "Can express guesses about a current action or state using -는/(으)ㄴ 것 같다",
+      "Can say whether an action is easy or difficult using -기 쉽다/어렵다",
+      "Can talk about Hallyu (the Korean Wave), K-pop, K-drama and K-beauty"
     ]
   },
   "vocabulary": [
     {
-      "ko": "대중문화",
-      "romanization": "daejungmunhwa",
-      "bn": "জনপ্রিয় সংস্কৃতি",
-      "en": "popular culture",
+      "ko": "경기장",
+      "romanization": "gyeonggijang",
+      "bn": "স্টেডিয়াম / খেলার মাঠ",
+      "en": "stadium",
       "pos": "noun",
       "example": {
-        "ko": "한국의 대중문화가 인기가 많습니다.",
-        "bn": "কোরিয়ার জনপ্রিয় সংস্কৃতি খুব জনপ্রিয়।",
-        "en": "Korean popular culture is very popular."
+        "ko": "경기장에 관중이 많아요.",
+        "bn": "স্টেডিয়ামে অনেক দর্শক আছে।",
+        "en": "There are many spectators at the stadium."
       },
-      "pronunciationTipBn": "'대' উচ্চারণ করার সময় মুখ একটু বেশি খুলুন, '중' এর 'ㅇ' উচ্চারণটি অনুনাসিক হবে।"
+      "pronunciationTipBn": "'경기장' [경기장]—তিনটি অক্ষর নরমভাবে জুড়ে বলুন, 'গিয়ং-গি-জাং'।"
     },
     {
-      "ko": "한류",
-      "romanization": "hallyu",
-      "bn": "কোরিয়ান ওয়েভ (হাল্লিউ)",
-      "en": "Korean Wave",
-      "pos": "noun",
+      "ko": "관람하다",
+      "romanization": "gwallamhada",
+      "bn": "উপভোগ করে দেখা (খেলা বা অনুষ্ঠান)",
+      "en": "to watch / to attend (a game or show)",
+      "pos": "verb",
       "example": {
-        "ko": "한류 때문에 한국어를 배우는 사람이 많습니다.",
-        "bn": "হাল্লিউ এর কারণে কোরিয়ান ভাষা শেখা মানুষের সংখ্যা অনেক।",
-        "en": "Many people learn Korean because of the Korean Wave."
+        "ko": "오늘 야구 경기를 관람했어요.",
+        "bn": "আজ বেসবল খেলা দেখলাম।",
+        "en": "I watched a baseball game today."
       },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি বাংলা 'র' ও 'ল'-এর মাঝামাঝি; জিভ হালকাভাবে তালুতে স্পর্শ করান।"
+      "pronunciationTipBn": "'관람' [괄람]—ㄹ-এর আগে ㄴ বদলে [ㄹ] হয়ে যায়, তাই 'গোয়াল-লাম'।"
     },
     {
-      "ko": "연예인",
-      "romanization": "yeonyein",
-      "bn": "তারকা/সেলিব্রিটি",
-      "en": "celebrity/entertainer",
+      "ko": "관중",
+      "romanization": "gwanjung",
+      "bn": "দর্শক (খেলার মাঠে)",
+      "en": "spectator",
       "pos": "noun",
       "example": {
-        "ko": "저는 한국 연예인을 좋아합니다.",
-        "bn": "আমি কোরিয়ান তারকাদের পছন্দ করি।",
-        "en": "I like Korean celebrities."
+        "ko": "관중이 응원가를 불렀어요.",
+        "bn": "দর্শকরা সমর্থনের গান গাইল।",
+        "en": "The spectators sang the cheering chant."
       },
-      "pronunciationTipBn": "'연' এবং '예' উচ্চারণ করার সময় স্বরবর্ণগুলো স্পষ্টভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'관중' [관중]—শেষের 'ㅇ' নাকের আওয়াজ, 'গোয়ান-জুং'।"
     },
     {
-      "ko": "가수",
-      "romanization": "gasu",
-      "bn": "গায়ক/গায়িকা",
-      "en": "singer",
+      "ko": "관중석",
+      "romanization": "gwanjungseok",
+      "bn": "দর্শক আসন / গ্যালারি",
+      "en": "spectator seat / stands",
       "pos": "noun",
       "example": {
-        "ko": "제가 제일 좋아하는 가수는 방탄소년단입니다.",
-        "bn": "আমার সবচেয়ে প্রিয় গায়ক হলো বিটিএস।",
-        "en": "My favorite singer is BTS."
+        "ko": "관중석이 꽉 찼어요.",
+        "bn": "দর্শক আসন পুরো ভরে গেছে।",
+        "en": "The spectator seats are completely full."
       },
-      "pronunciationTipBn": "'가' এর 'ㄱ' উচ্চারণটি 'ক' এবং 'গ' এর মাঝামাঝি হবে।"
+      "pronunciationTipBn": "'관중석' [관중석]—শেষ ব্যঞ্জন 'ㄱ' পুরো ছাড়া হয় না, হালকা আটকে থাকে।"
     },
     {
-      "ko": "배우",
-      "romanization": "baeu",
-      "bn": "অভিনেতা/অভিনেত্রী",
-      "en": "actor/actress",
+      "ko": "프로 팀",
+      "romanization": "peuro tim",
+      "bn": "পেশাদার দল",
+      "en": "professional team",
       "pos": "noun",
       "example": {
-        "ko": "이 영화에 유명한 배우가 나옵니다.",
-        "bn": "এই সিনেমায় একজন বিখ্যাত অভিনেতা অভিনয় করেছেন।",
-        "en": "A famous actor appears in this movie."
+        "ko": "좋아하는 프로 팀이 있어요?",
+        "bn": "আপনার পছন্দের পেশাদার দল আছে?",
+        "en": "Do you have a favorite professional team?"
       },
-      "pronunciationTipBn": "'배' এর 'ㅂ' উচ্চারণটি 'প' এবং 'ব' এর মাঝামাঝি হবে।"
+      "pronunciationTipBn": "'프로' [프로]—ইংরেজি 'pro' থেকে আসা শব্দ; 'ㅍ' জোরে বাতাস ছেড়ে বলুন।"
     },
     {
-      "ko": "영화",
-      "romanization": "yeonghwa",
-      "bn": "সিনেমা/চলচ্চিত্র",
-      "en": "movie",
+      "ko": "응원단",
+      "romanization": "eungwondan",
+      "bn": "সমর্থক দল / চিয়ারলিডার দল",
+      "en": "cheering squad",
       "pos": "noun",
       "example": {
-        "ko": "주말에 친구와 영화를 봤습니다.",
-        "bn": "সাপ্তাহিক ছুটিতে বন্ধুর সাথে সিনেমা দেখেছি।",
-        "en": "I watched a movie with a friend on the weekend."
+        "ko": "응원단이 유니폼을 입고 있어요.",
+        "bn": "সমর্থক দল ইউনিফর্ম পরে আছে।",
+        "en": "The cheering squad is wearing uniforms."
       },
-      "pronunciationTipBn": "'영' এর 'ㅇ' উচ্চারণটি অনুনাসিক হবে, '화' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "'응원단' [응원단]—'응'-এর 'ㅇ' বাতচিম নাক দিয়ে 'উং' মতো বলুন।"
     },
     {
-      "ko": "드라마",
-      "romanization": "deurama",
-      "bn": "নাটক",
-      "en": "drama",
+      "ko": "응원가",
+      "romanization": "eungwonga",
+      "bn": "সমর্থনের গান / চিয়ারিং সং",
+      "en": "cheering chant / team song",
       "pos": "noun",
       "example": {
-        "ko": "한국 드라마는 아주 재미있습니다.",
-        "bn": "কোরিয়ান নাটক খুব মজাদার।",
-        "en": "Korean dramas are very interesting."
+        "ko": "사람들이 응원가를 부르네요.",
+        "bn": "মানুষজন সমর্থনের গান গাইছে।",
+        "en": "People are singing the cheering chant."
       },
-      "pronunciationTipBn": "'드' উচ্চারণ করার সময় দাঁত বন্ধ রেখে '으' স্বরবর্ণটি উচ্চারণ করুন।"
+      "pronunciationTipBn": "'응원가' [응원가]—শেষের '가' ছোট ও হালকা, টেনে নয়।"
     },
     {
-      "ko": "음악",
-      "romanization": "eumak",
-      "bn": "সঙ্গীত/গান",
-      "en": "music",
-      "pos": "noun",
+      "ko": "응원하다",
+      "romanization": "eungwonhada",
+      "bn": "সমর্থন করা / উৎসাহ দেওয়া",
+      "en": "to cheer / to support",
+      "pos": "verb",
       "example": {
-        "ko": "저는 매일 한국 음악을 듣습니다.",
-        "bn": "আমি প্রতিদিন কোরিয়ান সঙ্গীত শুনি।",
-        "en": "I listen to Korean music every day."
+        "ko": "좋아하는 팀을 응원해요.",
+        "bn": "পছন্দের দলকে সমর্থন করি।",
+        "en": "I cheer for my favorite team."
       },
-      "pronunciationTipBn": "'음' এর 'ㅁ' উচ্চারণ করার সময় ঠোঁট বন্ধ করুন।"
+      "pronunciationTipBn": "'응원해요' [응원해요]—'하다' ক্রিয়া হিসেবে টান না দিয়ে সহজে বলুন।"
     },
     {
-      "ko": "예능 프로그램",
-      "romanization": "yeneung peurogeuraem",
-      "bn": "বিনোদনমূলক অনুষ্ঠান",
-      "en": "entertainment program",
+      "ko": "유니폼",
+      "romanization": "yunipom",
+      "bn": "ইউনিফর্ম / দলের পোশাক",
+      "en": "uniform",
       "pos": "noun",
       "example": {
-        "ko": "가족과 함께 예능 프로그램을 봅니다.",
-        "bn": "পরিবারের সাথে বিনোদনমূলক অনুষ্ঠান দেখি।",
-        "en": "I watch entertainment programs with my family."
+        "ko": "팀 유니폼을 사고 싶어요.",
+        "bn": "দলের ইউনিফর্ম কিনতে চাই।",
+        "en": "I want to buy the team uniform."
       },
-      "pronunciationTipBn": "'프' এর 'ㅍ' উচ্চারণটি বাতাস বের করে 'ফ' এর মতো করুন।"
+      "pronunciationTipBn": "'유니폼' [유니폼]—ইংরেজি uniform থেকে; শেষে 'ㅁ' ঠোঁট বন্ধ করে।"
     },
     {
-      "ko": "콘서트",
-      "romanization": "konseoteu",
-      "bn": "কনসার্ট",
-      "en": "concert",
+      "ko": "팬 클럽",
+      "romanization": "paen keulleop",
+      "bn": "ফ্যান ক্লাব / ভক্তদের সংগঠন",
+      "en": "fan club",
       "pos": "noun",
       "example": {
-        "ko": "내일 좋아하는 가수의 콘서트에 갑니다.",
-        "bn": "আগামীকাল আমার প্রিয় গায়কের কনসার্টে যাব।",
-        "en": "I am going to my favorite singer's concert tomorrow."
+        "ko": "저는 그 가수 팬 클럽에 들어갔어요.",
+        "bn": "আমি ওই গায়কের ফ্যান ক্লাবে যোগ দিয়েছি।",
+        "en": "I joined that singer's fan club."
       },
-      "pronunciationTipBn": "'콘' এর 'ㅋ' উচ্চারণটি বাতাস বের করে 'খ' এর মতো করুন।"
+      "pronunciationTipBn": "'클럽' [클럽]—শেষের 'ㅂ' বাতচিম ঠোঁট বন্ধ করে থামান, ইংরেজির মতো 'ব' ছাড়বেন না।"
     },
     {
-      "ko": "팬",
-      "romanization": "paen",
-      "bn": "ভক্ত",
-      "en": "fan",
+      "ko": "입장권",
+      "romanization": "ipjanggwon",
+      "bn": "প্রবেশ টিকিট",
+      "en": "entry ticket",
       "pos": "noun",
       "example": {
-        "ko": "저는 그 배우의 열성 팬입니다.",
-        "bn": "আমি সেই অভিনেতার একজন বড় ভক্ত।",
-        "en": "I am a huge fan of that actor."
+        "ko": "축구 경기 입장권을 못 샀어요.",
+        "bn": "ফুটবল খেলার প্রবেশ টিকিট কিনতে পারিনি।",
+        "en": "I couldn't buy a ticket for the soccer game."
       },
-      "pronunciationTipBn": "'팬' এর 'ㅍ' উচ্চারণটি বাতাস বের করে 'ফ' এর মতো করুন।"
+      "pronunciationTipBn": "'입장권' [입짱꿘]—'ㅂ' বাতচিমের পরে ㅈ ও ㄱ শক্ত হয়ে [ㅉ], [ㄲ] হয়: 'ইপ-짱-꾼'।"
+    },
+    {
+      "ko": "예매하다",
+      "romanization": "yemaehada",
+      "bn": "আগে থেকে টিকিট বুক করা",
+      "en": "to reserve (tickets) in advance",
+      "pos": "verb",
+      "example": {
+        "ko": "다음에는 일찍 예매할 거예요.",
+        "bn": "পরেরবার আগেই টিকিট বুক করব।",
+        "en": "Next time I will book the tickets early."
+      },
+      "pronunciationTipBn": "'예매' [예매]—দুটো অক্ষরের স্বর প্রায় একই; 'ইয়ে-মে' বলুন, 'ইয়ে-মাই' নয়।"
     },
     {
       "ko": "인기",
@@ -173,477 +186,584 @@
       "en": "popularity",
       "pos": "noun",
       "example": {
-        "ko": "요즘 이 노래가 인기가 많습니다.",
-        "bn": "আজকাল এই গানটির অনেক জনপ্রিয়তা রয়েছে।",
-        "en": "This song has a lot of popularity these days."
+        "ko": "한국에서는 야구가 인기가 많아요.",
+        "bn": "কোরিয়াতে বেসবলের জনপ্রিয়তা অনেক।",
+        "en": "Baseball is very popular in Korea."
       },
-      "pronunciationTipBn": "'인' এর 'ㄴ' উচ্চারণ করার সময় জিভ দাঁতের গোড়ায় স্পর্শ করান।"
+      "pronunciationTipBn": "'인기' [인끼]—ㄴ বাতচিমের পরে ㄱ শক্ত হয়ে [ㄲ] হয়, তাই 'ইন-끼'।"
     },
     {
-      "ko": "유명하다",
-      "romanization": "yumyeonghada",
-      "bn": "বিখ্যাত হওয়া",
-      "en": "to be famous",
-      "pos": "adjective",
-      "example": {
-        "ko": "그 사람은 한국에서 아주 유명합니다.",
-        "bn": "সেই ব্যক্তি কোরিয়ায় খুব বিখ্যাত।",
-        "en": "That person is very famous in Korea."
-      },
-      "pronunciationTipBn": "'유' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "멋있다",
-      "romanization": "meositta",
-      "bn": "সুন্দর/আকর্ষণীয় হওয়া",
-      "en": "to be cool/handsome",
-      "pos": "adjective",
-      "example": {
-        "ko": "무대 위의 가수가 정말 멋있습니다.",
-        "bn": "মঞ্চের গায়কটি সত্যিই খুব আকর্ষণীয়।",
-        "en": "The singer on the stage is really cool."
-      },
-      "pronunciationTipBn": "'멋' এর 'ㅅ' উচ্চারণটি 'ㄷ' এর মতো হবে, তাই 'মদ-ইত্তা' এর মতো শোনাবে।"
-    },
-    {
-      "ko": "재미있다",
-      "romanization": "jaemiitta",
-      "bn": "মজাদার/আকর্ষণীয় হওয়া",
-      "en": "to be interesting/fun",
-      "pos": "adjective",
-      "example": {
-        "ko": "이 예능 프로그램은 정말 재미있습니다.",
-        "bn": "এই বিনোদনমূলক অনুষ্ঠানটি সত্যিই খুব মজাদার।",
-        "en": "This entertainment program is really fun."
-      },
-      "pronunciationTipBn": "'재' এর 'ㅈ' উচ্চারণটি 'চ' এবং 'জ' এর মাঝামাঝি হবে।"
-    },
-    {
-      "ko": "감동적이다",
-      "romanization": "gamdongjeogida",
-      "bn": "হৃদয়স্পর্শী হওয়া",
-      "en": "to be touching/moving",
-      "pos": "adjective",
-      "example": {
-        "ko": "어제 본 영화는 아주 감동적이었습니다.",
-        "bn": "গতকাল দেখা সিনেমাটি খুব হৃদয়স্পর্শী ছিল।",
-        "en": "The movie I watched yesterday was very touching."
-      },
-      "pronunciationTipBn": "'감' এর 'ㅁ' উচ্চারণ করার সময় ঠোঁট বন্ধ করুন।"
-    },
-    {
-      "ko": "시청하다",
-      "romanization": "sicheonghada",
-      "bn": "দেখা (টিভি/সম্প্রচার)",
-      "en": "to watch (TV/broadcast)",
-      "pos": "verb",
-      "example": {
-        "ko": "저녁마다 뉴스를 시청합니다.",
-        "bn": "প্রতিদিন সন্ধ্যায় খবর দেখি।",
-        "en": "I watch the news every evening."
-      },
-      "pronunciationTipBn": "'시' এর 'ㅅ' উচ্চারণটি 'শ' এর মতো হবে।"
-    },
-    {
-      "ko": "유행하다",
-      "romanization": "yuhaenghada",
-      "bn": "জনপ্রিয় হওয়া/প্রচলিত হওয়া",
-      "en": "to be in fashion/popular",
-      "pos": "verb",
-      "example": {
-        "ko": "요즘 이 옷이 유행하고 있습니다.",
-        "bn": "আজকাল এই পোশাকটি জনপ্রিয় হচ্ছে।",
-        "en": "This clothes are in fashion these days."
-      },
-      "pronunciationTipBn": "'유' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "방송국",
-      "romanization": "bangsongguk",
-      "bn": "সম্প্রচার কেন্দ্র/টিভি স্টেশন",
-      "en": "broadcasting station",
+      "ko": "한류",
+      "romanization": "hallyu",
+      "bn": "কোরিয়ান ঢেউ (কোরিয়ার সংস্কৃতির বিশ্বব্যাপী জনপ্রিয়তা)",
+      "en": "Hallyu / the Korean Wave",
       "pos": "noun",
       "example": {
-        "ko": "방송국에서 일하고 싶습니다.",
-        "bn": "আমি টিভি স্টেশনে কাজ করতে চাই।",
-        "en": "I want to work at a broadcasting station."
+        "ko": "한류는 세계 여러 국가에서 사랑받고 있어요.",
+        "bn": "কোরিয়ান ঢেউ বিশ্বের অনেক দেশে ভালোবাসা পাচ্ছে।",
+        "en": "Hallyu is loved in many countries around the world."
       },
-      "pronunciationTipBn": "'방' এর 'ㅇ' উচ্চারণটি অনুনাসিক হবে, '국' এর 'ㄱ' উচ্চারণটি 'ক' এর মতো হবে।"
+      "pronunciationTipBn": "'한류' [할류]—ㄴ + ㄹ মিলে ㄴ বদলে [ㄹ] হয়ে যায়, তাই 'হান-ইউ' নয়, 'হাল-লিউ'।"
     },
     {
-      "ko": "주인공",
-      "romanization": "juingong",
-      "bn": "প্রধান চরিত্র/নায়ক",
-      "en": "main character",
+      "ko": "K-팝",
+      "romanization": "kei-pap",
+      "bn": "কে-পপ (কোরিয়ান পপ গান)",
+      "en": "K-pop",
       "pos": "noun",
       "example": {
-        "ko": "이 드라마의 주인공은 아주 멋있습니다.",
-        "bn": "এই নাটকের প্রধান চরিত্রটি খুব আকর্ষণীয়।",
-        "en": "The main character of this drama is very cool."
+        "ko": "저는 지금 K-팝을 듣고 있어요.",
+        "bn": "আমি এখন কে-পপ শুনছি।",
+        "en": "I am listening to K-pop right now."
       },
-      "pronunciationTipBn": "'주' এর 'ㅈ' উচ্চারণটি 'চ' এবং 'জ' এর মাঝামাঝি হবে।"
+      "pronunciationTipBn": "'K-팝을' [케이 파블]—'팝' + '을' জুড়ে গিয়ে বাতচিম 'ㅂ' পরের স্বরে চলে যায়: 'পা-বেউল'।"
+    },
+    {
+      "ko": "K-댄스",
+      "romanization": "kei-daenseu",
+      "bn": "কে-ড্যান্স (কোরিয়ান নাচ)",
+      "en": "K-dance",
+      "pos": "noun",
+      "example": {
+        "ko": "K-댄스를 배우고 싶어요.",
+        "bn": "কে-ড্যান্স শিখতে চাই।",
+        "en": "I want to learn K-dance."
+      },
+      "pronunciationTipBn": "'댄스' [댄쓰]—শেষের 'ㅅ' এখানে শক্ত 'স' মতো শোনায়; 'ডেন-স্যু' নয়, 'ডেন-স্সেউ'।"
+    },
+    {
+      "ko": "K-드라마",
+      "romanization": "kei-deurama",
+      "bn": "কে-ড্রামা (কোরিয়ান নাটক)",
+      "en": "K-drama",
+      "pos": "noun",
+      "example": {
+        "ko": "자야 씨는 K-드라마를 자주 보는 것 같아요.",
+        "bn": "মনে হয় জায়া প্রায়ই কে-ড্রামা দেখে।",
+        "en": "It seems Jaya often watches K-dramas."
+      },
+      "pronunciationTipBn": "'드라마' [드라마]—প্রথম '드'-এর স্বর খুব ছোট, প্রায় গিলে ফেলা; 'দুরামা' নয়।"
+    },
+    {
+      "ko": "K-푸드",
+      "romanization": "kei-pudeu",
+      "bn": "কে-ফুড (কোরিয়ান খাবার)",
+      "en": "K-food",
+      "pos": "noun",
+      "example": {
+        "ko": "K-푸드는 외국에서도 인기가 많아요.",
+        "bn": "কে-ফুড বিদেশেও খুব জনপ্রিয়।",
+        "en": "K-food is popular abroad as well."
+      },
+      "pronunciationTipBn": "'푸드' [푸드]—'ㅍ' জোরে বাতাস ছেড়ে বলুন, বাংলা 'ফ'-এর মতো; শেষ '드' হালকা।"
+    },
+    {
+      "ko": "K-뷰티",
+      "romanization": "kei-byuti",
+      "bn": "কে-বিউটি (কোরিয়ান প্রসাধন ও ত্বকচর্চা)",
+      "en": "K-beauty",
+      "pos": "noun",
+      "example": {
+        "ko": "요즘 K-뷰티가 인기를 끌고 있습니다.",
+        "bn": "আজকাল কে-বিউটি জনপ্রিয়তা পাচ্ছে।",
+        "en": "These days K-beauty is gaining popularity."
+      },
+      "pronunciationTipBn": "'뷰티' [뷰티]—'뷰' একটানে 'বিউ' বলুন, দুই অক্ষরে ভাঙবেন না।"
+    },
+    {
+      "ko": "K-웹툰",
+      "romanization": "kei-webtun",
+      "bn": "কে-ওয়েবটুন (অনলাইন কোরিয়ান কমিক)",
+      "en": "K-webtoon",
+      "pos": "noun",
+      "example": {
+        "ko": "휴대폰으로 K-웹툰을 보고 있어요.",
+        "bn": "মোবাইলে কে-ওয়েবটুন দেখছি।",
+        "en": "I'm reading a K-webtoon on my phone."
+      },
+      "pronunciationTipBn": "'웹툰' [웹툰]—'ㅂ' বাতচিমের পরে ㅌ আসায় ঠোঁট বন্ধ করে এক পল থেমে 'তুন' বলুন।"
+    },
+    {
+      "ko": "K-예능",
+      "romanization": "kei-yeneung",
+      "bn": "কে-বিনোদন অনুষ্ঠান (রিয়েলিটি/ভ্যারাইটি শো)",
+      "en": "K-variety show",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 K-예능을 보면서 한국어를 배워요.",
+        "bn": "আমি কে-বিনোদন অনুষ্ঠান দেখে কোরিয়ান শিখি।",
+        "en": "I learn Korean while watching K-variety shows."
+      },
+      "pronunciationTipBn": "'예능' [예능]—শেষের 'ㅇ' বাতচিম নাক দিয়ে 'নুং' মতো, মুখ দিয়ে 'নুন' নয়।"
+    },
+    {
+      "ko": "가수",
+      "romanization": "gasu",
+      "bn": "গায়ক / গায়িকা",
+      "en": "singer",
+      "pos": "noun",
+      "example": {
+        "ko": "좋아하는 가수가 있어요?",
+        "bn": "আপনার পছন্দের গায়ক আছে?",
+        "en": "Do you have a favorite singer?"
+      },
+      "pronunciationTipBn": "'가수' [가수]—'수'-এর ㅅ নরম 'স', শক্ত 'ㅆ' নয়।"
     },
     {
       "ko": "아이돌",
       "romanization": "aidol",
-      "bn": "আইডল (পপ তারকা)",
-      "en": "idol",
+      "bn": "আইডল (কে-পপ তারকা)",
+      "en": "K-pop idol",
       "pos": "noun",
       "example": {
-        "ko": "한국 아이돌 그룹이 인기가 많습니다.",
-        "bn": "কোরিয়ান আইডল গ্রুপগুলো খুব জনপ্রিয়।",
-        "en": "Korean idol groups are very popular."
+        "ko": "근처에서 아이돌 그룹의 콘서트가 있어요.",
+        "bn": "কাছেই একটি আইডল গ্রুপের কনসার্ট আছে।",
+        "en": "There is an idol group's concert nearby."
       },
-      "pronunciationTipBn": "'돌' এর 'ㄹ' উচ্চারণটি বাংলা 'র' ও 'ল'-এর মাঝামাঝি হবে।"
+      "pronunciationTipBn": "'아이돌' [아이돌]—শেষ 'ㄹ' জিভের আগা তালুতে লাগিয়ে ধরে রাখুন, 'র' নয়।"
     },
     {
-      "ko": "녹화하다",
-      "romanization": "nokhwahada",
-      "bn": "রেকর্ড করা (ভিডিও)",
-      "en": "to record (video)",
+      "ko": "배우",
+      "romanization": "baeu",
+      "bn": "অভিনেতা / অভিনেত্রী",
+      "en": "actor",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 좋아하는 배우가 있어요.",
+        "bn": "আমার একজন পছন্দের অভিনেতা আছে।",
+        "en": "I have a favorite actor."
+      },
+      "pronunciationTipBn": "'배우' [배우]—দুটি আলাদা স্বর, 'বেউ' দ্রুত জুড়ে বলুন; 'বাউ' নয়।"
+    },
+    {
+      "ko": "인기를 끌다",
+      "romanization": "ingireul kkeulda",
+      "bn": "জনপ্রিয়তা পাওয়া / সাড়া ফেলা",
+      "en": "to gain popularity",
       "pos": "verb",
       "example": {
-        "ko": "좋아하는 프로그램을 녹화했습니다.",
-        "bn": "আমি আমার প্রিয় অনুষ্ঠানটি রেকর্ড করেছি।",
-        "en": "I recorded my favorite program."
+        "ko": "김밥은 외국에서도 인기를 끌고 있어요.",
+        "bn": "কিমবাপ বিদেশেও জনপ্রিয়তা পাচ্ছে।",
+        "en": "Gimbap is gaining popularity abroad too."
       },
-      "pronunciationTipBn": "'녹' এর 'ㄱ' এবং '화' এর 'ㅎ' মিলে '노콰' এর মতো উচ্চারিত হবে।"
+      "pronunciationTipBn": "'끌다' [끌다]—'ㄲ' শক্ত করে গলা চেপে বলুন; সাধারণ 'ㄱ' দিয়ে '글다' বললে অর্থ বদলে যায়।"
     },
     {
-      "ko": "관객",
-      "romanization": "gwangaek",
-      "bn": "দর্শক",
-      "en": "audience",
-      "pos": "noun",
-      "example": {
-        "ko": "콘서트에 관객이 아주 많았습니다.",
-        "bn": "কনসার্টে অনেক দর্শক ছিল।",
-        "en": "There was a large audience at the concert."
-      },
-      "pronunciationTipBn": "'관' উচ্চারণ করার সময় ঠোঁট গোল করে শুরু করুন।"
-    },
-    {
-      "ko": "매진되다",
-      "romanization": "maejindoeda",
-      "bn": "টিকিট শেষ হয়ে যাওয়া (সোল্ড আউট)",
-      "en": "to be sold out",
+      "ko": "영향을 주다",
+      "romanization": "yeonghyangeul juda",
+      "bn": "প্রভাব ফেলা",
+      "en": "to influence",
       "pos": "verb",
       "example": {
-        "ko": "콘서트 표가 모두 매진되었습니다.",
-        "bn": "কনসার্টের সব টিকিট শেষ হয়ে গেছে।",
-        "en": "The concert tickets are all sold out."
+        "ko": "K-팝은 세계 문화에 영향을 주고 있어요.",
+        "bn": "কে-পপ বিশ্ব সংস্কৃতিতে প্রভাব ফেলছে।",
+        "en": "K-pop is influencing world culture."
       },
-      "pronunciationTipBn": "'매' এর 'ㅁ' উচ্চারণ করার সময় ঠোঁট বন্ধ করুন।"
+      "pronunciationTipBn": "'영향을' [영향을]—'향' + '을' লিংকিং হয়ে 'হিয়াং-এউল' একটানে শোনায়।"
     },
     {
-      "ko": "사인회",
-      "romanization": "sainhoe",
-      "bn": "অটোগ্রাফ সেশন",
-      "en": "autograph session",
-      "pos": "noun",
-      "example": {
-        "ko": "내일 배우의 사인회가 있습니다.",
-        "bn": "আগামীকাল অভিনেতার অটোগ্রাফ সেশন আছে।",
-        "en": "There is an actor's autograph session tomorrow."
-      },
-      "pronunciationTipBn": "'사' এর 'ㅅ' উচ্চারণটি 'স' এর মতো হবে।"
-    },
-    {
-      "ko": "응원하다",
-      "romanization": "eungwonhada",
-      "bn": "উৎসাহ দেওয়া/সমর্থন করা",
-      "en": "to cheer/support",
+      "ko": "따라 부르다",
+      "romanization": "ttara bureuda",
+      "bn": "সঙ্গে সঙ্গে গাওয়া / গানের সাথে গলা মেলানো",
+      "en": "to sing along",
       "pos": "verb",
       "example": {
-        "ko": "우리는 그 가수를 응원합니다.",
-        "bn": "আমরা সেই গায়ককে সমর্থন করি।",
-        "en": "We cheer for that singer."
+        "ko": "이 노래는 따라 부르기 쉬워요.",
+        "bn": "এই গানটার সঙ্গে গলা মেলানো সহজ।",
+        "en": "This song is easy to sing along to."
       },
-      "pronunciationTipBn": "'응' এর 'ㅇ' উচ্চারণটি অনুনাসিক হবে।"
+      "pronunciationTipBn": "'따라' [따라]—'ㄸ' শক্ত, দাঁতে জিভ চেপে বলুন; নরম '다라' বললে অন্য শব্দ হয়ে যায়।"
     },
     {
-      "ko": "인터뷰",
-      "romanization": "inteobyu",
-      "bn": "সাক্ষাৎকার",
-      "en": "interview",
-      "pos": "noun",
-      "example": {
-        "ko": "배우가 텔레비전에서 인터뷰를 합니다.",
-        "bn": "অভিনেতা টিভিতে সাক্ষাৎকার দিচ্ছেন।",
-        "en": "The actor is giving an interview on television."
-      },
-      "pronunciationTipBn": "'뷰' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "촬영하다",
-      "romanization": "chwaryeonghada",
-      "bn": "শুটিং করা/চিত্রগ্রহণ করা",
-      "en": "to film/shoot",
+      "ko": "따라 추다",
+      "romanization": "ttara chuda",
+      "bn": "দেখে দেখে সঙ্গে নাচা",
+      "en": "to dance along",
       "pos": "verb",
       "example": {
-        "ko": "지금 영화를 촬영하고 있습니다.",
-        "bn": "এখন সিনেমার শুটিং চলছে।",
-        "en": "They are filming a movie now."
+        "ko": "이 춤은 따라 추기 쉬워요.",
+        "bn": "এই নাচটা দেখে দেখে করা সহজ।",
+        "en": "This dance is easy to dance along to."
       },
-      "pronunciationTipBn": "'촬' উচ্চারণ করার সময় ঠোঁট গোল করে শুরু করুন।"
+      "pronunciationTipBn": "'추다' [추다]—'ㅊ' বাতাস ছেড়ে বলুন; বাতাস ছাড়া '주다' বললে অর্থ 'দেওয়া' হয়ে যায়।"
     },
     {
-      "ko": "대사",
-      "romanization": "daesa",
-      "bn": "সংলাপ/ডায়ালগ",
-      "en": "lines/dialogue",
+      "ko": "가사",
+      "romanization": "gasa",
+      "bn": "গানের কথা / লিরিক",
+      "en": "lyrics",
       "pos": "noun",
       "example": {
-        "ko": "이 드라마의 대사가 아주 좋습니다.",
-        "bn": "এই নাটকের সংলাপ খুব ভালো।",
-        "en": "The dialogue of this drama is very good."
+        "ko": "K-팝은 가사가 재미있어요.",
+        "bn": "কে-পপের গানের কথা মজার।",
+        "en": "K-pop lyrics are fun."
       },
-      "pronunciationTipBn": "'대' উচ্চারণ করার সময় মুখ একটু বেশি খুলুন।"
+      "pronunciationTipBn": "'가사' [가사]—দুই অক্ষরই সমান ছোট; 'গা-সা', টেনে 'গাা-সাা' নয়।"
+    },
+    {
+      "ko": "단체",
+      "romanization": "danche",
+      "bn": "দল / দলবদ্ধভাবে",
+      "en": "group / as a group",
+      "pos": "noun",
+      "example": {
+        "ko": "가수들이 단체로 춤을 춰요.",
+        "bn": "গায়করা দলবদ্ধভাবে নাচে।",
+        "en": "The singers dance as a group."
+      },
+      "pronunciationTipBn": "'단체' [단체]—ㄴ বাতচিমের পরে 'ㅊ' বাতাসসহ; 'দান-চে', 'দান-জে' নয়।"
+    },
+    {
+      "ko": "콘서트",
+      "romanization": "konseoteu",
+      "bn": "কনসার্ট / সংগীতানুষ্ঠান",
+      "en": "concert",
+      "pos": "noun",
+      "example": {
+        "ko": "그 아이돌이 콘서트를 해요.",
+        "bn": "ওই আইডল কনসার্ট করছে।",
+        "en": "That idol is having a concert."
+      },
+      "pronunciationTipBn": "'콘서트' [콘서트]—'ㅋ' জোরে বাতাস ছেড়ে; শেষ '트'-এর স্বর প্রায় শোনা যায় না।"
     },
     {
       "ko": "무대",
       "romanization": "mudae",
-      "bn": "মঞ্চ/স্টেজ",
-      "en": "stage",
+      "bn": "মঞ্চ / স্টেজ",
+      "en": "stage / performance",
       "pos": "noun",
       "example": {
-        "ko": "가수가 무대 위에서 노래를 부릅니다.",
-        "bn": "গায়ক মঞ্চের ওপর গান গাইছেন।",
-        "en": "The singer is singing on the stage."
+        "ko": "K-팝은 화려한 무대로 사랑을 받고 있어요.",
+        "bn": "জমকালো মঞ্চ পরিবেশনার জন্য কে-পপ ভালোবাসা পাচ্ছে।",
+        "en": "K-pop is loved for its dazzling stage performances."
       },
-      "pronunciationTipBn": "'무' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "'무대' [무대]—'대'-এর স্বর 'ㅐ' মুখ একটু খুলে 'দে', 'দাই' নয়।"
     },
     {
-      "ko": "제목",
-      "romanization": "jemok",
-      "bn": "শিরোনাম/নাম",
-      "en": "title",
+      "ko": "안무",
+      "romanization": "anmu",
+      "bn": "নাচের কোরিওগ্রাফি",
+      "en": "choreography",
       "pos": "noun",
       "example": {
-        "ko": "이 노래의 제목이 무엇입니까?",
-        "bn": "এই গানটির নাম কী?",
-        "en": "What is the title of this song?"
+        "ko": "이 노래는 안무가 멋있어요.",
+        "bn": "এই গানের কোরিওগ্রাফি দারুণ।",
+        "en": "The choreography of this song is cool."
       },
-      "pronunciationTipBn": "'제' এর 'ㅈ' উচ্চারণটি 'চ' এবং 'জ' এর মাঝামাঝি হবে।"
+      "pronunciationTipBn": "'안무' [안무]—ㄴ + ㅁ দুটোই নাকের আওয়াজ, তাই টানা নাকি সুরে 'আন-মু' বলুন।"
     },
     {
-      "ko": "출연하다",
-      "romanization": "churyeonhada",
-      "bn": "উপস্থিত হওয়া/অভিনয় করা",
-      "en": "to appear/star in",
-      "pos": "verb",
+      "ko": "화장품",
+      "romanization": "hwajangpum",
+      "bn": "প্রসাধনী / কসমেটিকস",
+      "en": "cosmetics",
+      "pos": "noun",
       "example": {
-        "ko": "그 배우는 많은 영화에 출연했습니다.",
-        "bn": "সেই অভিনেতা অনেক সিনেমায় অভিনয় করেছেন।",
-        "en": "That actor has appeared in many movies."
+        "ko": "한국에 여행 와서 화장품을 사는 사람들이 많아요.",
+        "bn": "কোরিয়া ভ্রমণে এসে অনেকেই প্রসাধনী কেনে।",
+        "en": "Many people buy cosmetics when they travel to Korea."
       },
-      "pronunciationTipBn": "'출' এর 'ㅊ' উচ্চারণটি বাতাস বের করে 'ছ' এর মতো করুন।"
+      "pronunciationTipBn": "'화장품' [화장품]—'화' এক অক্ষরে 'হোয়া'; শেষ 'ㅁ' ঠোঁট বন্ধ করে থামান।"
+    },
+    {
+      "ko": "그룹",
+      "romanization": "geurup",
+      "bn": "গ্রুপ / ব্যান্ড",
+      "en": "group",
+      "pos": "noun",
+      "example": {
+        "ko": "아이돌 그룹이 해외에서 인기가 많아요.",
+        "bn": "আইডল গ্রুপগুলো বিদেশে খুব জনপ্রিয়।",
+        "en": "Idol groups are very popular overseas."
+      },
+      "pronunciationTipBn": "'그룹' [그룹]—প্রথম '그'-এর স্বর খুব ছোট, শেষ 'ㅂ' ছাড়া হয় না, ঠোঁট বন্ধ।"
     }
   ],
   "grammar": [
     {
-      "pattern": "V-기 때문에",
-      "titleBn": "কারণ বা হেতু বোঝাতে (기 때문에)",
-      "explanationBn": "কোনো কাজের কারণ বা হেতু বোঝাতে ক্রিয়াপদের সাথে '-기 때문에' যুক্ত হয়। এটি '-아/어서' এর চেয়ে বেশি জোরালো কারণ বোঝায়।",
-      "explanationEn": "Attached to a verb or adjective stem to express a clear reason or cause. It is stronger than '-아/어서'.",
+      "pattern": "V/A + -는/(으)ㄴ 것 같다",
+      "titleBn": "অনুমান বা নরম মত প্রকাশ '-는/(으)ㄴ 것 같다' (মনে হয়...)",
+      "explanationBn": "বর্তমান কোনো কাজ বা অবস্থা সম্পর্কে অনুমান করতে, কিংবা নিজের মত নরমভাবে বলতে '-는/(으)ㄴ 것 같다' ব্যবহার হয়—বাংলায় 'মনে হয়...', '...বলে মনে হচ্ছে'। ক্রিয়া এবং 있다/없다-এর সঙ্গে সব সময় '-는 것 같다': 듣다 → 듣는 것 같다, 있다 → 있는 것 같다। বিশেষণের ক্ষেত্রে বাতচিম থাকলে '-은 것 같다': 작다 → 작은 것 같다; বাতচিম না থাকলে '-ㄴ 것 같다': 예쁘다 → 예쁜 것 같다; শেষ ব্যঞ্জন 'ㄹ' হলে 'ㄹ' পড়ে যায়: 멀다 → 먼 것 같다। নিশ্চিত না হলে বা ভদ্রভাবে মত দিতে কোরিয়ানরা এটি খুব ব্যবহার করে।",
+      "explanationEn": "'-는/(으)ㄴ 것 같다' attaches to verbs and adjectives to guess about a present action or state, or to soften one's opinion ('it seems / I think'). Verbs and 있다/없다 take -는 것 같다 (듣다 → 듣는 것 같다). Adjectives take -은 것 같다 after a final consonant (작다 → 작은 것 같다) and -ㄴ 것 같다 after a vowel (예쁘다 → 예쁜 것 같다); ㄹ drops (멀다 → 먼 것 같다).",
       "examples": [
         {
-          "ko": "한국 드라마가 재미있기 때문에 자주 봅니다.",
-          "bn": "কোরিয়ান নাটক মজাদার হওয়ার কারণে আমি প্রায়ই দেখি।",
-          "en": "I watch Korean dramas often because they are interesting."
+          "ko": "한국에서는 야구가 인기가 많은 것 같아요.",
+          "bn": "মনে হয় কোরিয়াতে বেসবল খুব জনপ্রিয়।",
+          "en": "It seems baseball is very popular in Korea."
         },
         {
-          "ko": "비가 오기 때문에 집에 있습니다.",
-          "bn": "বৃষ্টি আসার কারণে আমি বাড়িতে আছি।",
-          "en": "I am at home because it is raining."
+          "ko": "전화를 안 받아요. 지금 자는 것 같아요.",
+          "bn": "ফোন ধরছে না। মনে হয় এখন ঘুমাচ্ছে।",
+          "en": "He isn't answering the phone. He seems to be sleeping now."
         },
         {
-          "ko": "오늘은 바쁘기 때문에 내일 만납시다.",
-          "bn": "আজ ব্যস্ত থাকার কারণে আগামীকাল দেখা করি।",
-          "en": "Let's meet tomorrow because I am busy today."
+          "ko": "자야 씨는 K-드라마를 자주 보는 것 같아요.",
+          "bn": "মনে হয় জায়া প্রায়ই কে-ড্রামা দেখে।",
+          "en": "It seems Jaya often watches K-dramas."
+        },
+        {
+          "ko": "한국의 프로 야구는 정말 재미있는 것 같아요.",
+          "bn": "কোরিয়ার পেশাদার বেসবল সত্যিই মজার বলে মনে হয়।",
+          "en": "Korean professional baseball seems really fun."
         }
       ],
-      "commonMistakeBn": "অনেকে বিশেষ্যের পরে ভুল করে '기 때문에' ব্যবহার করেন; বিশেষ্যের পরে শুধু '때문에' বসবে।"
+      "commonMistakeBn": "সবচেয়ে বড় ভুল হলো ক্রিয়ার সঙ্গে বিশেষণের রূপ মিশিয়ে ফেলা—'보은 것 같아요' ভুল, ক্রিয়া বলে '보는 것 같아요' হবে। আবার '있다'-কে বিশেষণ ভেবে '있은 것 같아요' বলা যায় না, সঠিক '있는 것 같아요'। 'ㄹ' বাতচিমে 'ㄹ' পড়ে যায়: '멀은 것 같아요' নয়, '먼 것 같아요'।"
     },
     {
-      "pattern": "V-(으)ㄴ 적이 있다/없다",
-      "titleBn": "অভিজ্ঞতা প্রকাশ করতে ((으)ㄴ 적이 있다/없다)",
-      "explanationBn": "অতীতে কোনো কাজ করার অভিজ্ঞতা আছে বা নেই তা বোঝাতে ক্রিয়াপদের সাথে '-(으)ㄴ 적이 있다/없다' ব্যবহৃত হয়।",
-      "explanationEn": "Used to express having or not having the experience of doing something in the past.",
+      "pattern": "V + -기 쉽다 / -기 어렵다",
+      "titleBn": "'-기 쉽다, -기 어렵다' (করা সহজ / করা কঠিন)",
+      "explanationBn": "ক্রিয়ার মূলের সঙ্গে '-기' যোগ করে ক্রিয়াটিকে বিশেষ্যে পরিণত করা হয়, তারপর '쉽다' (সহজ) বা '어렵다' (কঠিন) বসিয়ে বলা হয় কাজটি করা সহজ না কঠিন—বাংলায় '...করা সহজ / ...করা কঠিন'। বাতচিম থাকুক বা না থাকুক রূপ একই: 부르다 → 부르기 쉽다, 찾다 → 찾기 어렵다। অতীত হলে শেষের 쉽다/어렵다-ই বদলায়: 예매하기 어려웠어요।",
+      "explanationEn": "'-기' turns a verb into a noun form, and 쉽다 (easy) or 어렵다 (difficult) follows to say that doing that action is easy or hard. The form does not change with batchim: 부르다 → 부르기 쉽다, 찾다 → 찾기 어렵다. Tense is marked on 쉽다/어렵다.",
       "examples": [
         {
-          "ko": "한국 영화를 본 적이 있습니다.",
-          "bn": "আমার কোরিয়ান সিনেমা দেখার অভিজ্ঞতা আছে।",
-          "en": "I have watched a Korean movie."
+          "ko": "이 노래는 따라 부르기 쉬워요.",
+          "bn": "এই গানটার সঙ্গে গলা মেলানো সহজ।",
+          "en": "This song is easy to sing along to."
         },
         {
-          "ko": "콘서트에 간 적이 없습니다.",
-          "bn": "আমার কনসার্টে যাওয়ার অভিজ্ঞতা নেই।",
-          "en": "I have never been to a concert."
+          "ko": "월세가 싼 집을 구하기 어려워요.",
+          "bn": "কম ভাড়ার বাসা খুঁজে পাওয়া কঠিন।",
+          "en": "It's difficult to find a house with cheap rent."
         },
         {
-          "ko": "제주도에 여행을 간 적이 있습니다.",
-          "bn": "আমার জেজু দ্বীপে ভ্রমণ করার অভিজ্ঞতা আছে।",
-          "en": "I have traveled to Jeju Island."
+          "ko": "그 아이돌은 인기가 너무 많아서 표를 사기 어려워요.",
+          "bn": "ওই আইডল এত জনপ্রিয় যে টিকিট কেনা কঠিন।",
+          "en": "That idol is so popular that it's hard to buy tickets."
         }
       ],
-      "commonMistakeBn": "অনেকে বর্তমান কালের সাথে এটি ব্যবহার করেন; এটি শুধুমাত্র অতীতের অভিজ্ঞতার জন্য ব্যবহৃত হয়।"
+      "commonMistakeBn": "'-기'-এর জায়গায় '-는 것' বসিয়ে 'সহজ' বলা গেলেও '-기'-কে ভেঙে '부르는 기' লেখা ভুল—সরাসরি মূলের সঙ্গে যোগ হয়: 부르 + 기। আরেকটি ভুল হলো কর্মপদের 을/를 ধরে রাখা: '표를 사기 어려워요' ঠিক, কিন্তু '표 사기를 어려워요' ভুল।"
     },
     {
-      "pattern": "V-아/어 보다",
-      "titleBn": "চেষ্টা করা বা অভিজ্ঞতা বোঝাতে (아/어 보다)",
-      "explanationBn": "কোনো কাজ করে দেখা বা চেষ্টা করা বোঝাতে ক্রিয়াপ드의 সাথে '-아/어 보다' যুক্ত হয়।",
-      "explanationEn": "Attached to a verb stem to express trying out an action or experiencing something.",
+      "pattern": "V + -기 좋다 / 편하다 / 불편하다 / 힘들다",
+      "titleBn": "'-기' + অন্যান্য বিশেষণ (করতে ভালো / আরামদায়ক / কষ্টকর)",
+      "explanationBn": "'-기' কেবল '쉽다, 어렵다'-এর সঙ্গে নয়, '좋다 (ভালো), 싫다 (অপছন্দ), 편하다 (আরামদায়ক), 불편하다 (অসুবিধাজনক), 힘들다 (কষ্টকর)' ইত্যাদি বিশেষণের সঙ্গেও বসে। গঠন একই: ক্রিয়ার মূল + 기 + বিশেষণ। যেমন 산책하다 → 산책하기 좋다, 입다 → 입기 편하다, 일어나다 → 일어나기 힘들다। এই কাঠামো দিয়ে কোনো জায়গা, জিনিস বা কাজের সুবিধা-অসুবিধা সহজে বোঝানো যায়।",
+      "explanationEn": "'-기' combines not only with 쉽다/어렵다 but also with adjectives like 좋다 (good), 싫다 (dislike), 편하다 (comfortable), 불편하다 (uncomfortable) and 힘들다 (hard): verb stem + 기 + adjective, e.g. 산책하기 좋아요, 입기 편해요, 일어나기 힘들어요.",
       "examples": [
         {
-          "ko": "이 한국 음식을 먹어 보세요.",
-          "bn": "এই কোরিয়ান খাবারটি খেয়ে দেখুন।",
-          "en": "Try eating this Korean food."
+          "ko": "이 공원은 산책하기 좋아요.",
+          "bn": "এই পার্কটা হাঁটার জন্য ভালো।",
+          "en": "This park is good for taking a walk."
         },
         {
-          "ko": "그 영화를 한번 봐 보세요.",
-          "bn": "সেই সিনেমাটি একবার দেখে দেখুন।",
-          "en": "Try watching that movie once."
+          "ko": "이 옷은 입기 편해요.",
+          "bn": "এই জামাটা পরতে আরামদায়ক।",
+          "en": "These clothes are comfortable to wear."
         },
         {
-          "ko": "제주도에 가 봤어요?",
-          "bn": "আপনি কি জেজু দ্বীপে গিয়ে দেখেছেন?",
-          "en": "Have you tried going to Jeju Island?"
+          "ko": "아침에 일어나기 힘들어요.",
+          "bn": "সকালে ঘুম থেকে ওঠা কষ্টকর।",
+          "en": "It's hard to get up in the morning."
+        },
+        {
+          "ko": "집이 가까워서 출근하기 편해요.",
+          "bn": "বাসা কাছে হওয়ায় অফিসে যাওয়া সুবিধাজনক।",
+          "en": "Since my house is close, commuting is convenient."
         }
       ],
-      "commonMistakeBn": "অনেকে '보다' (দেখা) ক্রিয়ার সাথে এটি গুলিয়ে ফেলেন; এখানে এটি মূল ক্রিয়ার সাথে যুক্ত হয়ে 'চেষ্টা করা' অর্থ প্রকাশ করে।"
+      "commonMistakeBn": "'-기' অংশে কাল (অতীত/ভবিষ্যৎ) বসানো যায় না—'일어났기 힘들어요' ভুল; কাল বসবে শেষের বিশেষণে: '일어나기 힘들었어요'। মনে রাখুন '-기'-এর জায়গায় '-는 것이' বসিয়েও বলা যায়: '예매하기 어려워요' = '예매하는 것이 어려워요'।"
     },
     {
-      "pattern": "N(이)나",
-      "titleBn": "বিকল্প বোঝাতে ((이)나)",
-      "explanationBn": "দুটি বা ততোধিক বিশেষ্যের মধ্যে যেকোনো একটি বেছে নেওয়া বোঝাতে বিশেষ্যের সাথে '-(이)나' যুক্ত হয়।",
-      "explanationEn": "Attached to a noun to indicate a choice between two or more items (or).",
+      "pattern": "A/V + -네요",
+      "titleBn": "সদ্য দেখে বিস্ময় বা অনুভূতি প্রকাশ '-네요'",
+      "explanationBn": "চোখের সামনে নতুন কিছু দেখে বা শুনে বিস্ময়, প্রশংসা বা সহজ প্রতিক্রিয়া জানাতে ক্রিয়া-বিশেষণের মূলের সঙ্গে '-네요' যোগ হয়—বাংলায় '...তো!', 'বাহ, ...!'। বাতচিম থাকুক না থাকুক রূপ একই: 많다 → 많네요, 부르다 → 부르네요। তবে শেষ ব্যঞ্জন 'ㄹ' হলে 'ㄹ' পড়ে যায়: 멀다 → 머네요, 살다 → 사네요।",
+      "explanationEn": "'-네요' attaches to verb/adjective stems to express surprise, admiration or a spontaneous reaction to something just noticed. The form is the same regardless of batchim (많다 → 많네요), but final ㄹ drops (멀다 → 머네요).",
       "examples": [
         {
-          "ko": "주말에 영화나 드라마를 봅니다.",
-          "bn": "সাপ্তাহিক ছুটিতে সিনেমা বা নাটক দেখি।",
-          "en": "I watch a movie or a drama on the weekend."
+          "ko": "경기장에 사람들이 많네요.",
+          "bn": "স্টেডিয়ামে তো অনেক মানুষ!",
+          "en": "Wow, there are a lot of people at the stadium!"
         },
         {
-          "ko": "물이나 주스를 주세요.",
-          "bn": "পানি বা জুস দিন।",
-          "en": "Please give me water or juice."
+          "ko": "사람들이 응원가를 부르네요.",
+          "bn": "মানুষজন তো সমর্থনের গান গাইছে!",
+          "en": "Oh, people are singing the cheering chant!"
         },
         {
-          "ko": "버스나 지하철을 타고 갑니다.",
-          "bn": "বাস বা সাবওয়েতে করে যাই।",
-          "en": "I go by bus or subway."
+          "ko": "김밥을 처음 먹어 봤는데 정말 맛있네요.",
+          "bn": "প্রথমবার কিমবাপ খেলাম, সত্যিই তো দারুণ মজা!",
+          "en": "I tried gimbap for the first time and it's really delicious!"
         }
       ],
-      "commonMistakeBn": "অনেকে ক্রিয়াপদের সাথে এটি ব্যবহার করেন; এটি শুধুমাত্র বিশেষ্যের সাথে ব্যবহৃত হয়। ক্রিয়াপদের জন্য '-거나' ব্যবহার করতে হয়।"
+      "commonMistakeBn": "'-네요' নিজের ভালো করে জানা তথ্যে ব্যবহার হয় না—নিজের নাম বা প্রতিদিনের অভ্যাস নিয়ে '저는 학생이네요' বলা অস্বাভাবিক। আরেকটি ভুল হলো 'ㄹ' না ফেলা: '멀네요' নয়, সঠিক '머네요'।"
+    },
+    {
+      "pattern": "V + -고 있다",
+      "titleBn": "চলমান কাজ '-고 있다' (করছি / করছে)",
+      "explanationBn": "এই মুহূর্তে চলছে এমন কাজ বোঝাতে ক্রিয়ার মূলের সঙ্গে '-고 있다' যোগ হয়—বাংলায় '...করছি / ...করছে'। বাতচিম থাকুক বা না থাকুক রূপ একই: 듣다 → 듣고 있다, 보다 → 보고 있다, 하다 → 하고 있다। ভদ্র রূপে '-고 있어요', অতীতে '-고 있었어요'। এই অধ্যায়ে ঘটমান জনপ্রিয়তা বা কাজ বোঝাতেও দেখা যায়: 인기를 끌고 있습니다 (জনপ্রিয়তা পাচ্ছে)।",
+      "explanationEn": "'-고 있다' attaches to a verb stem to express an action in progress ('be -ing'). The form is the same with or without batchim: 듣다 → 듣고 있어요, 보다 → 보고 있어요. Past progressive is -고 있었어요.",
+      "examples": [
+        {
+          "ko": "저는 지금 K-팝을 듣고 있어요.",
+          "bn": "আমি এখন কে-পপ শুনছি।",
+          "en": "I am listening to K-pop right now."
+        },
+        {
+          "ko": "휴대폰으로 K-웹툰을 보고 있어요.",
+          "bn": "মোবাইলে কে-ওয়েবটুন দেখছি।",
+          "en": "I'm reading a K-webtoon on my phone."
+        },
+        {
+          "ko": "응원단이 유니폼을 입고 있어요.",
+          "bn": "সমর্থক দল ইউনিফর্ম পরে আছে।",
+          "en": "The cheering squad is wearing uniforms."
+        },
+        {
+          "ko": "요즘 K-뷰티가 인기를 끌고 있어요.",
+          "bn": "আজকাল কে-বিউটি জনপ্রিয়তা পাচ্ছে।",
+          "en": "These days K-beauty is gaining popularity."
+        }
+      ],
+      "commonMistakeBn": "বিশেষণের সঙ্গে '-고 있다' বসে না—'바쁘고 있어요' ভুল, বলতে হবে '바빠요'। আবার '있다'-এর সঙ্গেও নয়: '있고 있어요' ভুল। মনে রাখুন 입다, 쓰다-এর মতো ক্রিয়ায় '-고 있어요' মানে কাজটি চলছে অথবা অবস্থাটি ধরে আছে—'유니폼을 입고 있어요' মানে ইউনিফর্ম পরা অবস্থায় আছে।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "কোরিয়ান নাটক সম্পর্কে কথা বলা",
-      "titleEn": "Talking about Korean Dramas",
+      "titleBn": "বেসবল স্টেডিয়ামে প্রথম দিন",
+      "titleEn": "First Day at the Baseball Stadium",
       "lines": [
         {
-          "speaker": "리한",
-          "ko": "수피아 씨, 주말에 보통 뭐 해요?",
-          "bn": "সুপিয়া, আপনি সাধারণত সাপ্তাহিক ছুটিতে কী করেন?",
-          "en": "Supia, what do you usually do on weekends?"
+          "speaker": "왕민",
+          "ko": "여기가 우리 자리예요. 자야 씨는 야구 경기장에 처음 왔지요?",
+          "bn": "এটাই আমাদের সিট। জায়া, আপনি বেসবল স্টেডিয়ামে প্রথমবার এসেছেন, তাই না?",
+          "en": "These are our seats. Jaya, this is your first time at a baseball stadium, right?"
         },
         {
-          "speaker": "수피아",
-          "ko": "저는 한국 드라마를 자주 봐요.",
-          "bn": "আমি প্রায়ই কোরিয়ান নাটক দেখি।",
-          "en": "I often watch Korean dramas."
+          "speaker": "자야",
+          "ko": "네, 처음이에요. 그런데 관중석에 사람들이 정말 많네요.",
+          "bn": "হ্যাঁ, প্রথমবার। কিন্তু দর্শকের আসনে তো সত্যিই অনেক মানুষ!",
+          "en": "Yes, it's my first time. But there are really a lot of people in the stands."
         },
         {
-          "speaker": "리한",
-          "ko": "어떤 드라마를 좋아해요?",
-          "bn": "আপনি কোন ধরনের নাটক পছন্দ করেন?",
-          "en": "What kind of dramas do you like?"
+          "speaker": "왕민",
+          "ko": "한국에서는 프로 야구가 인기가 많은 것 같아요.",
+          "bn": "কোরিয়ায় মনে হয় পেশাদার বেসবল খুব জনপ্রিয়।",
+          "en": "It seems professional baseball is very popular in Korea."
         },
         {
-          "speaker": "수피아",
-          "ko": "로맨스 드라마를 좋아해요. 아주 재미있어요.",
-          "bn": "আমি রোমান্টিক নাটক পছন্দ করি। এগুলো খুব মজাদার।",
-          "en": "I like romance dramas. They are very interesting."
+          "speaker": "자야",
+          "ko": "맞아요. 그럼 입장권도 사기 어려워요?",
+          "bn": "ঠিক বলেছেন। তাহলে টিকিটও কি কেনা কঠিন?",
+          "en": "That's right. Then is it also hard to buy tickets?"
         },
         {
-          "speaker": "리한",
-          "ko": "저도 한국 드라마를 본 적이 있어요.",
-          "bn": "আমারও কোরিয়ান নাটক দেখার অভিজ্ঞতা আছে।",
-          "en": "I have also watched Korean dramas."
+          "speaker": "왕민",
+          "ko": "네, 인기 있는 팀 경기는 표를 예매하기 어려워요. 그래서 저는 앱으로 일찍 예매했어요.",
+          "bn": "হ্যাঁ, জনপ্রিয় দলের খেলার টিকিট আগে থেকে বুক করা কঠিন। তাই আমি অ্যাপ দিয়ে আগেভাগে বুক করে রেখেছি।",
+          "en": "Yes, it's hard to reserve tickets for popular teams' games. So I booked early with the app."
+        },
+        {
+          "speaker": "자야",
+          "ko": "고마워요. 저기 응원단이 응원가를 부르네요. 우리도 같이 응원할까요?",
+          "bn": "ধন্যবাদ। ওই দেখুন, চিয়ারিং দল সমর্থনের গান গাইছে। আমরাও কি একসঙ্গে সমর্থন করব?",
+          "en": "Thank you. Look, the cheering squad is singing the team song. Shall we cheer along too?"
+        },
+        {
+          "speaker": "왕민",
+          "ko": "좋아요. 경기를 볼 때 치킨을 먹으면 더 맛있어요. 제가 사 올게요.",
+          "bn": "চলুন। খেলা দেখার সময় ফ্রায়েড চিকেন খেলে আরও মজা লাগে। আমি কিনে আনছি।",
+          "en": "Sure. Food tastes better while watching a game. I'll go buy some chicken."
         }
       ]
     },
     {
-      "titleBn": "কে-পপ কনসার্ট",
-      "titleEn": "K-pop Concert",
+      "titleBn": "কে-পপ কেন এত ভালো লাগে?",
+      "titleEn": "Why Do You Like K-pop So Much?",
       "lines": [
         {
-          "speaker": "투안",
-          "ko": "수루 씨, 한국 가수를 좋아해요?",
-          "bn": "সুরু, আপনি কি কোরিয়ান গায়ক পছন্দ করেন?",
-          "en": "Suru, do you like Korean singers?"
+          "speaker": "왕민",
+          "ko": "닛차난 씨, 뭐 해요?",
+          "bn": "নিতচানান, কী করছেন?",
+          "en": "Nitchanan, what are you doing?"
         },
         {
-          "speaker": "수루",
-          "ko": "네, 저는 방탄소년단 팬이에요.",
-          "bn": "হ্যাঁ, আমি বিটিএস-এর ভক্ত।",
-          "en": "Yes, I am a fan of BTS."
+          "speaker": "닛차난",
+          "ko": "휴대폰으로 K-팝을 듣고 있어요.",
+          "bn": "মোবাইলে কে-পপ শুনছি।",
+          "en": "I'm listening to K-pop on my phone."
         },
         {
-          "speaker": "투안",
-          "ko": "콘서트에 가 본 적이 있어요?",
-          "bn": "আপনি কি কখনো তাদের কনসার্টে গেছেন?",
-          "en": "Have you ever been to their concert?"
+          "speaker": "왕민",
+          "ko": "그래요? 닛차난 씨는 K-팝을 정말 좋아하는 것 같아요.",
+          "bn": "তাই নাকি? মনে হচ্ছে আপনি কে-পপ সত্যিই খুব পছন্দ করেন।",
+          "en": "Really? It seems you really like K-pop."
         },
         {
-          "speaker": "수루",
-          "ko": "아니요, 아직 간 적이 없어요.",
-          "bn": "না, আমি এখনো যাইনি।",
-          "en": "No, I haven't been there yet."
+          "speaker": "닛차난",
+          "ko": "네, 맞아요. 고향에 있을 때부터 좋아했어요. 가사가 재미있고 따라 부르기 쉬워요.",
+          "bn": "হ্যাঁ, ঠিক বলেছেন। দেশে থাকতেই ভালো লাগত। কথাগুলো মজার আর সঙ্গে গাওয়া সহজ।",
+          "en": "Yes, that's right. I've liked it since I was in my hometown. The lyrics are fun and easy to sing along to."
         },
         {
-          "speaker": "투안",
-          "ko": "나중에 기회가 있으면 같이 가요.",
-          "bn": "পরে সুযোগ থাকলে একসাথে যাব।",
-          "en": "Let's go together later if there is a chance."
+          "speaker": "왕민",
+          "ko": "춤도 따라 춰요?",
+          "bn": "নাচও কি সঙ্গে সঙ্গে করেন?",
+          "en": "Do you dance along too?"
+        },
+        {
+          "speaker": "닛차난",
+          "ko": "아니요, 안무가 어려워서 따라 추기 어려워요. 그런데 가수들이 단체로 춤을 추는 것이 멋있어요.",
+          "bn": "না, নাচের কোরিওগ্রাফি কঠিন বলে সঙ্গে নাচা কঠিন। তবে শিল্পীরা দলবদ্ধভাবে যেভাবে নাচেন, সেটা দারুণ।",
+          "en": "No, the choreography is hard, so it's difficult to dance along. But the way the singers dance as a group is cool."
+        },
+        {
+          "speaker": "왕민",
+          "ko": "저도 요즘 K-팝 아이돌 팬 클럽에 들어갔어요. 다음에 같이 콘서트에 갈까요?",
+          "bn": "আমিও আজকাল একটা কে-পপ আইডলের ফ্যান ক্লাবে যোগ দিয়েছি। পরেরবার কি একসঙ্গে কনসার্টে যাব?",
+          "en": "I recently joined a K-pop idol fan club too. Shall we go to a concert together next time?"
+        },
+        {
+          "speaker": "닛차난",
+          "ko": "좋아요. 그럼 입장권을 미리 예매해요.",
+          "bn": "খুব ভালো। তাহলে টিকিট আগেই বুক করে রাখি।",
+          "en": "Sounds good. Then let's reserve the tickets in advance."
         }
       ]
     },
     {
-      "titleBn": "কনসার্টের টিকিট কেনা",
-      "titleEn": "Buying Concert Tickets",
+      "titleBn": "কর্মস্থলে হাল্লিউ নিয়ে আড্ডা",
+      "titleEn": "Chatting about Hallyu at Work",
       "lines": [
         {
-          "speaker": "바투",
-          "ko": "지훈 씨, 이번 주말에 아이돌 콘서트 표를 샀어요?",
-          "bn": "জিহুন, আপনি কি এই সাপ্তাহিক ছুটিতে আইডল কনসার্টের টিকিট কিনেছেন?",
-          "en": "Jihoon, did you buy the idol concert tickets for this weekend?"
+          "speaker": "동료",
+          "ko": "라흐만 씨, 주말에 뭐 했어요?",
+          "bn": "রহমান ভাই, সপ্তাহান্তে কী করলেন?",
+          "en": "Rahman, what did you do over the weekend?"
         },
         {
-          "speaker": "지훈",
-          "ko": "아니요, 표가 벌써 다 매진되었어요.",
-          "bn": "না, টিকিট ইতিমধ্যেই সব শেষ হয়ে গেছে।",
-          "en": "No, the tickets are already all sold out."
+          "speaker": "라흐만",
+          "ko": "집에서 K-드라마를 봤어요. 이야기가 재미있어서 계속 보게 돼요.",
+          "bn": "বাসায় কে-ড্রামা দেখেছি। গল্পটা এত মজার যে দেখতেই থাকি।",
+          "en": "I watched a K-drama at home. The story is interesting, so I keep watching."
         },
         {
-          "speaker": "바투",
-          "ko": "정말요? 인기가 아주 많네요.",
-          "bn": "সত্যিই? অনেক জনপ্রিয়তা দেখছি।",
-          "en": "Really? They are very popular."
+          "speaker": "동료",
+          "ko": "저도요. 그 배우가 요즘 인기를 끄는 것 같아요.",
+          "bn": "আমিও। ওই অভিনেতা মনে হয় আজকাল খুব জনপ্রিয় হচ্ছেন।",
+          "en": "Me too. It seems that actor is gaining popularity these days."
         },
         {
-          "speaker": "지훈",
-          "ko": "네, 그래서 집에서 텔레비전으로 볼 거예요.",
-          "bn": "হ্যাঁ, তাই আমি বাড়িতে টিভিতে দেখব।",
-          "en": "Yes, so I will watch it on television at home."
+          "speaker": "라흐만",
+          "ko": "네, 그런데 자막 없이 보기 어려워요. 한국어가 아직 빨라요.",
+          "bn": "হ্যাঁ, তবে সাবটাইটেল ছাড়া দেখা কঠিন। কোরিয়ান এখনও খুব দ্রুত মনে হয়।",
+          "en": "Yes, but it's hard to watch without subtitles. The Korean is still too fast for me."
         },
         {
-          "speaker": "바투",
-          "ko": "그것도 좋은 생각이에요. 같이 봐요.",
-          "bn": "সেটাও ভালো ধারণা। চলুন একসাথে দেখি।",
-          "en": "That's a good idea too. Let's watch it together."
+          "speaker": "동료",
+          "ko": "K-웹툰도 한번 보세요. 그림이 있어서 이해하기 쉬워요.",
+          "bn": "কে-ওয়েবটুনও একবার দেখুন। ছবি থাকায় বোঝা সহজ।",
+          "en": "Try K-webtoons too. There are pictures, so they're easy to understand."
+        },
+        {
+          "speaker": "라흐만",
+          "ko": "좋은 생각이에요. 아내는 K-뷰티를 좋아해서 한국 화장품을 자주 사요.",
+          "bn": "ভালো বুদ্ধি। আমার স্ত্রী কে-বিউটি পছন্দ করেন, তাই প্রায়ই কোরিয়ান প্রসাধনী কেনেন।",
+          "en": "That's a good idea. My wife likes K-beauty, so she often buys Korean cosmetics."
+        },
+        {
+          "speaker": "동료",
+          "ko": "한류가 정말 여러 나라에 영향을 주는 것 같아요.",
+          "bn": "হাল্লিউ সত্যিই যেন অনেক দেশের উপর প্রভাব ফেলছে।",
+          "en": "It really seems like Hallyu is influencing many countries."
         }
       ]
     }
@@ -652,568 +772,568 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'সিনেমা' এর কোরিয়ান শব্দ?",
+      "questionBn": "'예매하다'-এর সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "드라마",
-        "가수",
-        "음악",
-        "영화"
+        "খেলা দেখা",
+        "সমর্থন করা",
+        "আগে থেকে টিকিট বুক করা",
+        "গান গাওয়া"
       ],
-      "answer": 3,
-      "explanationBn": "'영화' মানে সিনেমা। '드라마' মানে নাটক, '음악' মানে সঙ্গীত, '가수' মানে গায়ক।",
-      "questionKo": "알맞은 답을 고르세요."
+      "answer": 2,
+      "explanationBn": "예매하다 মানে খেলা বা কনসার্টের টিকিট আগেভাগে বুক করা—'예(আগে) + 매(কেনা)'। বাকি অপশনগুলো অন্য শব্দ: খেলা দেখা = 관람하다, সমর্থন করা = 응원하다, গান গাওয়া = 노래를 부르다।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "'유명하다' শব্দটির অর্থ কী?",
+      "questionBn": "স্টেডিয়ামে যেখানে দর্শকেরা বসেন, সেই জায়গার কোরিয়ান শব্দ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "জনপ্রিয়তা",
-        "মজাদার হওয়া",
-        "বিখ্যাত হওয়া",
-        "সুন্দর হওয়া"
+        "관중석",
+        "응원단",
+        "입장권",
+        "무대"
       ],
-      "answer": 2,
-      "explanationBn": "'유명하다' অর্থ বিখ্যাত হওয়া।",
-      "questionKo": "알맞은 답을 고르세요."
+      "answer": 0,
+      "explanationBn": "관중(দর্শক) + 석(আসন) = 관중석, অর্থাৎ দর্শকের আসন। 응원단 হলো চিয়ারিং দল (মানুষ), 입장권 হলো প্রবেশ টিকিট (কাগজ), আর 무대 হলো মঞ্চ—কোনোটিই বসার জায়গা বোঝায় না।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 한국 _____이/가 전 세계적으로 인기가 많습니다.",
+      "questionBn": "কোরিয়ান প্রসাধনী ও ত্বকচর্চার জনপ্রিয়তাকে কী বলা হয়?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "배우",
-        "한류",
-        "예능",
-        "팬"
+        "K-예능",
+        "K-푸드",
+        "K-웹툰",
+        "K-뷰티"
       ],
-      "answer": 1,
-      "explanationBn": "'한류' (কোরিয়ান ওয়েভ) সারা বিশ্বে খুব জনপ্রিয়।",
-      "questionKo": "알맞은 답을 고르세요."
+      "answer": 3,
+      "explanationBn": "화장품 ও 스킨케어 সম্পর্কিত হাল্লিউ ধারা হলো K-뷰티। K-예능 = কোরিয়ান বিনোদন/রিয়্যালিটি শো, K-푸드 = কোরিয়ান খাবার, K-웹툰 = অনলাইন কমিকস।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "'연예인' শব্দটির অর্থ কী?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 사람들이 좋아하는 프로 팀을 ______.",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
       "options": [
-        "তারকা/সেলিব্রিটি",
-        "অভিনেতা",
-        "গায়ক",
-        "ভক্ত"
+        "예매해요",
+        "응원해요",
+        "관람해요",
+        "따라 불러요"
       ],
-      "answer": 0,
-      "explanationBn": "'연예인' অর্থ তারকা বা সেলিব্রিটি।",
-      "questionKo": "알맞은 답을 고르세요."
+      "answer": 1,
+      "explanationBn": "'팀을 응원하다' = দলকে সমর্থন করা—দল (팀) শব্দের সঙ্গে 응원하다 বসে। 예매하다-র সঙ্গে 표/입장권 বসে, 관람하다-র সঙ্গে 경기, আর 따라 부르다-র সঙ্গে 노래/가사 বসে।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 저는 한국 음악을 좋아하____ 매일 듣습니다.",
+      "type": "multiple-choice",
+      "questionBn": "'인기를 끌다'-এর অর্থ কী?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "지만",
-        "고",
-        "아서",
-        "기 때문에"
+        "প্রভাব ফেলা",
+        "দলবদ্ধভাবে নাচা",
+        "জনপ্রিয়তা পাওয়া",
+        "মঞ্চে ওঠা"
       ],
-      "answer": 3,
-      "explanationBn": "কারণ বোঝাতে '기 때문에' ব্যবহৃত হয়। \"আমি কোরিয়ান সঙ্গীত পছন্দ করার কারণে প্রতিদিন শুনি।\"",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "answer": 2,
+      "explanationBn": "인기(জনপ্রিয়তা) + 끌다(টানা) = জনপ্রিয়তা পাওয়া, যেমন 'K-팝이 인기를 끌고 있습니다'। প্রভাব ফেলা = 영향을 주다, দলবদ্ধভাবে নাচা = 단체로 춤을 추다—অর্থগুলো আলাদা।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 한국에 가 ____ 적이 있습니까?",
+      "type": "multiple-choice",
+      "questionBn": "'멀다'-এর সঙ্গে '-(으)ㄴ 것 같다' যুক্ত করলে সঠিক রূপ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "볼",
-        "보",
-        "본",
-        "보는"
+        "멀은 것 같다",
+        "멀는 것 같다",
+        "머는 것 같다",
+        "먼 것 같다"
       ],
-      "answer": 2,
-      "explanationBn": "অভিজ্ঞতা বোঝাতে '-(으)ㄴ 적이 있다' ব্যবহৃত হয়। '가 본 적이 있다' মানে যাওয়ার অভিজ্ঞতা আছে।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "answer": 3,
+      "explanationBn": "멀다 একটি বিশেষণ এবং এর শেষ ব্যঞ্জন 'ㄹ'। 'ㄹ' বাতচিমের ক্ষেত্রে 'ㄹ' পড়ে গিয়ে '-ㄴ 것 같다' যোগ হয়, তাই 멀다 → 먼 것 같다। '멀은 것 같다' ভুল, কারণ 'ㄹ' বাতচিমে '-은' বসে না; '멀는 것 같다' ভুল, কারণ '-는 것 같다' শুধু ক্রিয়া ও 있다/없다-এর সঙ্গে বসে; '머는 것 같다' ভুল, কারণ মূল শব্দ থেকে এভাবে 'ㄹ' বাদ দেওয়া যায় না—'ㄹ' শুধু '-ㄴ'-এর আগে পড়ে।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 주말에 친구와 함께 _____에 가서 노래를 들었습니다.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 이 노래는 가사가 쉬워서 따라 ______ 쉬워요.",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
       "options": [
-        "드라마",
-        "콘서트",
-        "배우",
-        "영화"
+        "부르기",
+        "부르는",
+        "불러서",
+        "부를까"
       ],
-      "answer": 1,
-      "explanationBn": "গান শোনার জন্য '콘서트' (কনসার্ট)-এ যাওয়া হয়।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "answer": 0,
+      "explanationBn": "'쉽다'-এর আগে ক্রিয়াকে বিশেষ্য বানাতে হয়, তাই মূল 부르- + 기 = 부르기 쉬워요 (গলা মেলানো সহজ)। '부르는' হলো বিশেষণীয় রূপ, এর পরে বিশেষ্য দরকার (부르는 것이 쉬워요 হলে ঠিক হতো); '불러서' মানে 'ডেকে/গেয়ে' অর্থাৎ কারণ বোঝায়, 쉽다-র সঙ্গে বসে না; '부를까' হলো প্রস্তাবের রূপ ('গাইব কি?')।"
     },
     {
       "id": "p8",
-      "type": "matching",
-      "questionBn": "সঠিক জোড়া মিলান",
-      "pairs": [
-        {
-          "left": "대중문화",
-          "right": "জনপ্রিয় সংস্কৃতি"
-        },
-        {
-          "left": "인기",
-          "right": "জনপ্রিয়তা"
-        },
-        {
-          "left": "시청하다",
-          "right": "দেখা (টিভি)"
-        },
-        {
-          "left": "감동적이다",
-          "right": "হৃদয়স্পর্শী হওয়া"
-        }
+      "type": "multiple-choice",
+      "questionBn": "স্টেডিয়ামে দলকে সমর্থন করার সময় যে গান গাওয়া হয়, তাকে কোরিয়ান ভাষায় কী বলে?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": [
+        "응원단",
+        "응원가",
+        "유니폼",
+        "팬 클럽"
       ],
-      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 1,
+      "explanationBn": "응원(সমর্থন) + 가(গান) = 응원가, অর্থাৎ চিয়ারিং সং। 응원단 হলো চিয়ারিং দল, অর্থাৎ যারা গান গায় সেই মানুষগুলো (단 = দল); 유니폼 হলো দলের পোশাক; 팬 클럽 হলো ভক্তদের সংগঠন—কোনোটিই গান বোঝায় না।"
     },
     {
       "id": "p9",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 칼로 씨가 전화를 안 받아요. 지금 ______ 것 같아요.",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": [
+        "잔",
+        "자은",
+        "자는",
+        "잘"
+      ],
+      "answer": 2,
+      "explanationBn": "자다 একটি ক্রিয়া, আর ক্রিয়ার বর্তমান অনুমানে সব সময় '-는 것 같다' বসে, তাই 자는 것 같아요 = 'মনে হয় এখন ঘুমাচ্ছে'। '잔 것 같아요' অতীতের অনুমান বোঝায় ('ঘুমিয়েছিল বলে মনে হয়'), এখানে 'এখন' (지금) আছে তাই মানায় না; '자은' ভুল, কারণ '-은 것 같다' শুধু বাতচিমযুক্ত বিশেষণের সঙ্গে বসে; '잘 것 같아요' ভবিষ্যতের অনুমান ('ঘুমাবে বলে মনে হয়')।"
+    },
+    {
+      "id": "p10",
       "type": "matching",
-      "questionBn": "সঠিক জোড়া মিলান",
+      "questionBn": "হাল্লিউ (한류) সম্পর্কিত শব্দগুলোর সঙ্গে সঠিক বাংলা অর্থ মেলান।",
+      "questionKo": "알맞은 것을 연결하세요.",
       "pairs": [
         {
           "left": "가수",
           "right": "গায়ক"
         },
         {
+          "left": "아이돌",
+          "right": "কে-পপ আইডল"
+        },
+        {
           "left": "배우",
           "right": "অভিনেতা"
         },
         {
-          "left": "음악",
-          "right": "সঙ্গীত"
+          "left": "가사",
+          "right": "গানের কথা"
         },
         {
-          "left": "예능 프로그램",
-          "right": "বিনোদনমূলক অনুষ্ঠান"
+          "left": "단체",
+          "right": "দল, একসঙ্গে"
         }
       ],
-      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।",
-      "questionKo": "서로 맞는 것을 연결하세요."
-    },
-    {
-      "id": "p10",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 이 영화는 정말 _____. 눈물이 났어요.",
-      "options": [
-        "멋있어요",
-        "감동적이에요",
-        "유명해요",
-        "재미있어요"
-      ],
-      "answer": 1,
-      "explanationBn": "'감동적이에요' মানে হৃদয়স্পর্শী। \"এই সিনেমাটি সত্যিই হৃদয়স্পর্শী। আমার চোখে জল এসে গিয়েছিল।\"",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "explanationBn": "পাঁচটি শব্দই অধ্যায়ের 한류 অংশ থেকে নেওয়া। খেয়াল রাখুন 가수 হলো সাধারণভাবে গায়ক আর 아이돌 বিশেষভাবে কে-পপ আইডল, এবং 가사 মানে গানের কথা — সুর নয়।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'দর্শক' এর কোরিয়ান শব্দ?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 관중들이 좋아하는 팀의 ______을/를 입고 있어요.",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
       "options": [
-        "관객",
-        "무대",
-        "제목",
-        "대사"
+        "입장권",
+        "유니폼",
+        "응원가",
+        "경기장"
       ],
-      "answer": 0,
-      "explanationBn": "'관객' মানে দর্শক। '무대' মানে মঞ্চ, '제목' মানে শিরোনাম, '대사' মানে সংলাপ।",
-      "questionKo": "알맞은 답을 고르세요."
+      "answer": 1,
+      "explanationBn": "'입다' (পরা) ক্রিয়ার সঙ্গে পোশাক বসে, আর দলের পোশাক হলো 유니폼। 입장권 হলো প্রবেশ টিকিট, যেটি 사다/예매하다-র সঙ্গে বসে; 응원가 হলো চিয়ারিং সং, যেটি 부르다-র সঙ্গে বসে; 경기장 হলো স্টেডিয়াম অর্থাৎ জায়গা, তাই সেটি পরা যায় না।"
     },
     {
       "id": "p12",
       "type": "multiple-choice",
-      "questionBn": "'매진되다' শব্দটির অর্থ কী?",
+      "questionBn": "'있는'-এর সঠিক উচ্চারণ কোনটি?",
+      "questionKo": "알맞은 발음을 고르세요.",
       "options": [
-        "রেকর্ড করা",
-        "টিকিট শেষ হয়ে যাওয়া",
-        "উৎসাহ দেওয়া",
-        "অভিনয় করা"
+        "[이슨]",
+        "[읻는]",
+        "[이는]",
+        "[인는]"
       ],
-      "answer": 1,
-      "explanationBn": "'매진되다' অর্থ টিকিট শেষ হয়ে যাওয়া বা সোল্ড আউট হওয়া।",
-      "questionKo": "알맞은 답을 고르세요."
+      "answer": 3,
+      "explanationBn": "받침 'ㄷ, ㅌ, ㅅ, ㅆ, ㅈ, ㅊ' যখন 'ㄴ, ㅁ'-এর আগে আসে তখন [ㄴ] হয়ে যায়, তাই 있는 → [인는]। [이슨] ভুল, কারণ 'ㅆ' পরের ব্যঞ্জনের সঙ্গে সংযুক্ত হয়ে 'ㅅ' ধ্বনি রাখে না; [읻는] হলো শুধু প্রথম ধাপ (ㅆ → ㄷ), কিন্তু 'ㄴ'-এর আগে সেই [ㄷ] আরও বদলে [ㄴ] হয়; [이는] ভুল, কারণ বাতচিম একেবারে হারিয়ে যায় না।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 가수가 _____ 위에서 춤을 춥니다.",
-      "options": [
-        "방송국",
-        "인터뷰",
-        "무대",
-        "사인회"
+      "type": "matching",
+      "questionBn": "খেলা দেখা সংক্রান্ত শব্দগুলোর সঙ্গে সঠিক বাংলা অর্থ মেলান।",
+      "questionKo": "알맞은 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "경기장",
+          "right": "স্টেডিয়াম"
+        },
+        {
+          "left": "관람하다",
+          "right": "(খেলা) দেখা"
+        },
+        {
+          "left": "프로 팀",
+          "right": "পেশাদার দল"
+        },
+        {
+          "left": "입장권",
+          "right": "প্রবেশ টিকিট"
+        },
+        {
+          "left": "응원단",
+          "right": "চিয়ারিং দল"
+        }
       ],
-      "answer": 2,
-      "explanationBn": "গায়ক '무대' (মঞ্চ)-এর ওপর নাচে।",
-      "questionKo": "알맞은 답을 고르세요."
+      "explanationBn": "শব্দগুলো অধ্যায়ের 경기 관람 শব্দতালিকার। মনে রাখুন 관람하다 খেলা বা প্রদর্শনী দেখার জন্য ব্যবহৃত ভদ্র ক্রিয়া, আর 응원단 হলো দলকে উৎসাহ দেওয়ার দল — খেলোয়াড়দের দল (프로 팀) নয়।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান: 이 드라마의 _____은/는 누구입니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 한국의 프로 야구는 정말 ______ 것 같아요.",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
       "options": [
-        "주인공",
-        "관객",
-        "아이돌",
-        "팬"
+        "재미있는",
+        "재미있은",
+        "재미있을",
+        "재미있어"
       ],
       "answer": 0,
-      "explanationBn": "নাটকের প্রধান চরিত্র সম্পর্কে জানতে চাওয়া হয়েছে, তাই '주인공' (প্রধান চরিত্র) সঠিক।",
-      "questionKo": "알맞은 답을 고르세요."
+      "explanationBn": "재미있다-এর ভেতরে '있다' আছে, আর 있다/없다 সব সময় '-는 것 같다' নেয়, তাই 재미있는 것 같아요 = 'সত্যিই মজার বলে মনে হয়'। '재미있은' ভুল, কারণ 있다-কে সাধারণ বিশেষণের মতো '-은' দেওয়া যায় না; '재미있을 것 같아요' ভবিষ্যতের অনুমান ('মজা হবে বলে মনে হয়'), এখানে দেখা-শেষ অভিজ্ঞতার কথা বলা হচ্ছে; '재미있어' হলো শেষ রূপ, এর পরে '것 같다' বসে না।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 주말에 영화_____ 드라마를 볼 겁니다.",
+      "type": "multiple-choice",
+      "questionBn": "'-기 어렵다' ব্যবহারে কোন বাক্যটি সঠিক?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "나",
-        "이나",
-        "하고",
-        "과"
+        "표 사기를 어려워요.",
+        "표를 사는 기 어려워요.",
+        "표를 사기 어려워요.",
+        "표를 사기가 어렵어요."
       ],
-      "answer": 0,
-      "explanationBn": "'영화' স্বরবর্ণ দিয়ে শেষ হয়েছে, তাই বিকল্প বোঝাতে '나' বসবে।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "answer": 2,
+      "explanationBn": "কর্মপদে 을/를 ঠিক থাকে এবং ক্রিয়ার মূলের সঙ্গে সরাসরি '-기' যোগ হয়: 표를 + 사 + 기 어려워요। '표 사기를 어려워요' ভুল, কারণ 을/를 কর্মপদের (표) সঙ্গে বসে, '사기'-র সঙ্গে নয়; '표를 사는 기' ভুল, কারণ '-기'-কে '-는 기' করে ভাঙা যায় না; '어렵어요' ভুল রূপ—어렵다 হলো ㅂ-অনিয়মিত, তাই 어려워요 হবে।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 이 노래를 한 번 들어 _____.",
+      "type": "multiple-choice",
+      "questionBn": "'한류(Hallyu)'-এর সঠিক ব্যাখ্যা কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "보세요",
-        "봤어요",
-        "봅니다",
-        "볼 겁니다"
+        "한국 사람들이 외국 음악을 많이 듣는 것",
+        "한국에서만 인기가 있는 드라마",
+        "한국의 전통 스포츠 경기",
+        "한국의 음악, 드라마, 패션 등이 세계 여러 나라에서 사랑받는 것"
       ],
-      "answer": 0,
-      "explanationBn": "কোনো কিছু করে দেখার পরামর্শ দিতে '-아/어 보세요' ব্যবহৃত হয়। '들어 보세요' মানে 'শুনে দেখুন'।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "answer": 3,
+      "explanationBn": "한류 মানে কোরিয়ান ওয়েভ—কোরিয়ার সংগীত, ড্রামা, সিনেমা, ফ্যাশন, বিউটি ইত্যাদি নানা কনটেন্ট বিশ্বের বহু দেশে জনপ্রিয় হওয়া ও উপভোগ করা। প্রথম অপশনটি উল্টো অর্থ দেয় (কোরিয়ানরা বিদেশি গান শোনা); দ্বিতীয়টি ভুল, কারণ 한류-র মূল বিষয়ই হলো দেশের বাইরের জনপ্রিয়তা; তৃতীয়টি ঐতিহ্যবাহী খেলার কথা বলে, যা 한류-র সংজ্ঞার অংশ নয়।"
     },
     {
       "id": "p17",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 시간이 없기 _____ 내일 만납시다.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 이 공원은 넓고 조용해서 ______ 좋아요.",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
       "options": [
-        "때문에",
-        "위해서",
-        "전에",
-        "후에"
+        "산책하기",
+        "산책하는",
+        "산책해서",
+        "산책한"
       ],
       "answer": 0,
-      "explanationBn": "কারণ বোঝাতে '기 때문에' ব্যবহৃত হয়। \"সময় না থাকার কারণে আগামীকাল দেখা করি।\"",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "explanationBn": "'-기' শুধু 쉽다/어렵다 নয়, 좋다, 편하다, 힘들다 ইত্যাদির সঙ্গেও বসে: 산책하기 좋아요 = 'হাঁটার জন্য ভালো'। '산책하는' রূপের পরে বিশেষ্য দরকার (산책하는 것이 좋아요); '산책해서' কারণ বোঝায় ('হাঁটার কারণে'), এখানে অর্থ বদলে যায়; '산책한' হলো অতীতের বিশেষণীয় রূপ, 좋다-র সঙ্গে সরাসরি বসে না।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: 저는 한국에 가 본 _____ 없습니다.",
-      "options": [
-        "적이",
-        "일이",
-        "것이",
-        "수밖에"
+      "type": "matching",
+      "questionBn": "নিচের কোরিয়ান প্রকাশগুলোর সঙ্গে সঠিক বাংলা অর্থ মেলান।",
+      "questionKo": "알맞은 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "따라 부르다",
+          "right": "সঙ্গে গলা মিলিয়ে গাওয়া"
+        },
+        {
+          "left": "따라 추다",
+          "right": "দেখে দেখে নাচা"
+        },
+        {
+          "left": "영향을 주다",
+          "right": "প্রভাব ফেলা"
+        },
+        {
+          "left": "팬 클럽",
+          "right": "ভক্তদের ক্লাব"
+        },
+        {
+          "left": "인기",
+          "right": "জনপ্রিয়তা"
+        }
       ],
-      "answer": 0,
-      "explanationBn": "অভিজ্ঞতা না থাকা বোঝাতে '-(으)ㄴ 적이 없다' ব্যবহৃত হয়।",
-      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요."
+      "explanationBn": "এই প্রকাশগুলো অধ্যায়ের 한류 অংশের। 따라 부르다 আর 따라 추다 একই গঠন — 따라 (অনুসরণ করে) + ক্রিয়া, একটিতে গাওয়া অন্যটিতে নাচা; 영향을 주다 ব্যবহার হয় 한류가 세계에 영향을 주다 এর মতো বাক্যে।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "সঠিক জোড়া মিলান",
-      "pairs": [
-        {
-          "left": "방송국",
-          "right": "টিভি স্টেশন"
-        },
-        {
-          "left": "녹화하다",
-          "right": "রেকর্ড করা"
-        },
-        {
-          "left": "응원하다",
-          "right": "উৎসাহ দেওয়া"
-        },
-        {
-          "left": "촬영하다",
-          "right": "শুটিং করা"
-        }
+      "type": "multiple-choice",
+      "questionBn": "কথোপকথন অনুযায়ী, জনপ্রিয় দলের খেলার টিকিট নিয়ে ওয়াং মিন কী বলেছেন?",
+      "questionKo": "대화의 내용에 맞는 것을 고르세요.",
+      "options": [
+        "경기장에서 표를 무료로 줍니다.",
+        "인기 있는 팀 경기는 표를 예매하는 게 힘듭니다.",
+        "표는 언제나 쉽게 살 수 있습니다.",
+        "표를 사려면 응원단에 들어가야 합니다."
       ],
-      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 1,
+      "explanationBn": "কথোপকথনে ওয়াং মিন বলেন, '인기 있는 팀 경기는 표를 예매하는 게 힘들어요'—অর্থাৎ জনপ্রিয় দলের খেলার টিকিট বুক করা কঠিন। বিনামূল্যে টিকিট দেওয়ার কথা কোথাও নেই; 'সবসময় সহজে কেনা যায়' একেবারে উল্টো কথা; আর 응원단-এ (চিয়ারিং দলে) যোগ দেওয়ার শর্তের কথাও পাঠে বলা হয়নি।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "সঠিক জোড়া মিলান",
-      "pairs": [
-        {
-          "left": "대사",
-          "right": "সংলাপ"
-        },
-        {
-          "left": "제목",
-          "right": "শিরোনাম"
-        },
-        {
-          "left": "출연하다",
-          "right": "অভিনয় করা"
-        },
-        {
-          "left": "사인회",
-          "right": "অটোগ্রাফ সেশন"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 자야 씨가 요즘 일이 많아서 ______ 것 같아요.",
+      "questionKo": "빈칸에 알맞은 것을 고르세요.",
+      "options": [
+        "바쁘는",
+        "바쁘은",
+        "바빠서",
+        "바쁜"
       ],
-      "explanationBn": "শব্দগুলোর সঠিক অর্থ মেলানো হয়েছে।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 3,
+      "explanationBn": "바쁘다 একটি বিশেষণ এবং শেষে বাতচিম নেই (쁘), তাই '-ㄴ 것 같다' বসে: 바쁜 것 같아요 = 'মনে হয় ব্যস্ত'। '바쁘는' ভুল, কারণ '-는 것 같다' ক্রিয়া ও 있다/없다-এর জন্য; '바쁘은' ভুল, কারণ '-은' শুধু বাতচিমযুক্ত বিশেষণে (작은 것 같다) বসে; '바빠서' কারণ বোঝানোর রূপ, '것 같다'-র আগে বসতে পারে না।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "요즘 외국에서 한국의 음악과 드라마가 아주 인기가 많습니다. 이것을 (  )(이)라고 합니다.",
+      "questionBn": "নিচের শব্দটির সঙ্গে সম্পর্কিত শব্দ কোনটি?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "경기장",
       "options": [
-        "여행",
-        "쇼핑",
-        "한류",
-        "운동"
+        "화장품",
+        "관중석",
+        "월세",
+        "약국"
       ],
-      "answer": 2,
-      "explanationBn": "কোরিয়ান সঙ্গীত ও নাটকের জনপ্রিয়তাকে '한류' (হাল্লিউ বা কোরিয়ান ওয়েভ) বলা হয়।"
+      "answer": 1,
+      "explanationBn": "'경기장' মানে স্টেডিয়াম, তাই স্টেডিয়ামের ভেতরের 'দর্শক আসন' অর্থাৎ '관중석' সম্পর্কিত। 화장품 = প্রসাধনী, 월세 = মাসিক ভাড়া, 약국 = ওষুধের দোকান—কোনোটিই খেলার মাঠের সঙ্গে যায় না।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "저는 한국 (  )을/를 좋아합니다. 그래서 주말마다 텔레비전으로 한국 가요 프로그램을 봅니다.",
+      "passage": "요즘 (          )이/가 인기를 끌고 있습니다. 그래서 한국에 여행 와서 화장품을 사는 사람들이 많습니다.",
       "options": [
-        "소설",
-        "영화",
-        "신문",
-        "음악"
+        "K-뷰티",
+        "K-푸드",
+        "K-웹툰",
+        "K-예능"
       ],
-      "answer": 3,
-      "explanationBn": "টিভিতে গানের অনুষ্ঠান দেখার কথা বলা হয়েছে, তাই সঠিক উত্তর '음악' (সঙ্গীত)।"
+      "answer": 0,
+      "explanationBn": "'화장품을 사는 사람들' অর্থাৎ প্রসাধনী কেনার কথা বলা হয়েছে, তাই উত্তর 'K-뷰티' (কে-বিউটি)। K-푸드 = কোরিয়ান খাবার, K-웹툰 = অনলাইন কমিক, K-예능 = বিনোদন অনুষ্ঠান—এগুলোর সঙ্গে প্রসাধনীর সম্পর্ক নেই।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "নিচের লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "저는 한국 영화를 아주 좋아합니다. 그래서 주말에는 보통 영화관에 가서 영화를 봅니다. 어제도 친구와 함께 한국 영화를 봤습니다. 영화가 아주 감동적이어서 많이 울었습니다.",
+      "questionBn": "নিচের বাক্যগুলোর মধ্যে আন্ডারলাইন করা অংশ সঠিক আছে কোনটিতে?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "어제 본 영화는 아주 슬펐습니다.",
-        "저는 어제 집에서 영화를 봤습니다.",
-        "저는 주말에 보통 친구를 만납니다.",
-        "저는 한국 드라마를 자주 봅니다."
+        "이 노래는 따라 부르기 쉽는 것 같아요.",
+        "저 선수는 인기가 많는 것 같아요.",
+        "자야 씨는 K-드라마를 자주 보는 것 같아요.",
+        "지금 비가 온 것 같아요, 우산을 가져가세요."
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে বলা হয়েছে সিনেমাটি হৃদয়স্পর্শী ছিল এবং সে অনেক কেঁদেছে, তাই সিনেমাটি দুঃখের ছিল (슬펐습니다)।"
+      "answer": 2,
+      "explanationBn": "ক্রিয়ার (동사) বর্তমান অনুমানে '-는 것 같다' বসে: 보다 → 보는 것 같아요—তাই ৩ নম্বরটি সঠিক। বিশেষণে '-은/ㄴ 것 같다' লাগে, তাই '쉽는' ভুল ('쉬운 것 같아요'), '많는' ভুল ('많은 것 같아요')। শেষটিতে এখন বৃষ্টি পড়ছে বোঝাতে '오는 것 같아요' হওয়া উচিত।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 수루 씨는 한국 드라마를 본 (  ) 있어요?\n나: 네, 작년에 '겨울연가'를 봤어요.",
+      "questionBn": "খালি জায়গায় উপযুক্ত প্রকাশভঙ্গিটি বেছে বাক্যটি সম্পূর্ণ করুন।",
+      "questionKo": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.",
+      "passage": "저와 친구는 한국 아이돌을 좋아해서 콘서트에 가려고 했습니다. 그런데 그 아이돌이 인기가 너무 많아서 (          ). 우리는 콘서트에 못 가서 속상했습니다.",
       "options": [
-        "수밖에",
-        "적이",
-        "것이",
-        "줄이"
+        "친구에게 선물을 주었습니다",
+        "앱으로 입장권을 샀습니다",
+        "행사에 참여하기로 했습니다",
+        "표를 예매할 수 없었습니다"
       ],
-      "answer": 1,
-      "explanationBn": "অভিজ্ঞতা বোঝাতে '-(으)ㄴ 적이 있다' ব্যবহৃত হয়। তাই '적이' সঠিক।"
+      "answer": 3,
+      "explanationBn": "শেষ বাক্যে '콘서트에 못 가서 속상했습니다' (কনসার্টে যেতে না পেরে মন খারাপ) বলা হয়েছে, তাই টিকিট বুক করতে পারেনি—'표를 예매할 수 없었습니다' সঠিক। উপহার দেওয়া, অ্যাপে টিকিট কেনা বা অনুষ্ঠানে অংশ নেওয়ার কথা বললে 'যেতে পারিনি' অংশের সঙ্গে অর্থ মেলে না।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "নিচের লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "요즘 한국의 예능 프로그램이 외국인들에게 인기가 많습니다. 한국어를 잘 몰라도 재미있게 볼 수 있기 때문입니다. 저도 매일 저녁 예능 프로그램을 시청합니다.",
+      "questionBn": "খালি জায়গায় উপযুক্ত প্রকাশভঙ্গিটি বেছে বাক্যটি সম্পূর্ণ করুন।",
+      "questionKo": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.",
+      "passage": "지난 주말에 동료와 야구를 보러 갔습니다. 우리는 좋아하는 팀을 응원하고 치킨도 먹었습니다. 즐거운 주말이었습니다. 한국의 프로 야구는 정말 (          ).",
       "options": [
-        "예능 프로그램은 한국인들만 좋아합니다.",
-        "한국어를 모르면 예능 프로그램을 볼 수 없습니다.",
-        "외국인들도 한국 예능 프로그램을 좋아합니다.",
-        "저는 매일 아침에 예능 프로그램을 봅니다."
+        "가기 힘듭니다",
+        "재미있는 것 같습니다",
+        "보기 어렵습니다",
+        "피곤한 것 같습니다"
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে আজকাল বিদেশিদের কাছে কোরিয়ান বিনোদনমূলক অনুষ্ঠান জনপ্রিয়।"
+      "answer": 1,
+      "explanationBn": "'즐거운 주말이었습니다' (আনন্দের সপ্তাহান্ত ছিল) বলার পরে ইতিবাচক মন্তব্যই আসবে, তাই '재미있는 것 같습니다' (মনে হয় খুব মজার) সঠিক। 가기 힘듭니다 = যাওয়া কঠিন, 보기 어렵습니다 = দেখা কঠিন, 피곤한 것 같습니다 = ক্লান্তিকর মনে হয়—তিনটিই নেতিবাচক, লেখার সুরের বিপরীত।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 투안 씨, 주말에 뭐 했어요?\n남자: 한국 가수의 콘서트에 갔다 왔어요. 정말 멋있었어요.",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে লেখার সঙ্গে মিল আছে এমন বাক্যটি বাছুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한류는 한국 문화의 다양성과 매력을 세계에 알리는 데 큰 역할을 합니다. K-팝은 멋진 안무와 화려한 무대로 사랑을 받고 있습니다. 아이돌 그룹이 해외에서 큰 인기를 끌며 한류의 중심이 되고 있습니다. K-드라마는 흥미진진한 이야기와 배우의 연기로 인기를 얻고 있습니다.",
       "options": [
-        "영화관에 갔습니다.",
-        "드라마를 봤습니다.",
-        "노래방에 갔습니다.",
-        "콘서트에 갔습니다."
+        "K-드라마는 멋진 안무로 사랑을 받고 있습니다.",
+        "한국의 아이돌 그룹은 해외에서 인기가 없습니다.",
+        "한류는 한국 문화의 매력을 세계에 알리고 있습니다.",
+        "K-팝은 배우의 연기로 인기를 얻고 있습니다."
       ],
-      "answer": 3,
-      "explanationBn": "পুরুষ লোকটি বলেছে সে কোরিয়ান গায়কের কনসার্টে গিয়েছিল।"
+      "answer": 2,
+      "explanationBn": "প্রথম বাক্যেই বলা হয়েছে '한류는 한국 문화의 다양성과 매력을 세계에 알리는 데 큰 역할을 합니다', তাই ৩ নম্বরটি লেখার সঙ্গে মেলে। মনোমুগ্ধকর নাচ (안무) K-팝-এর বৈশিষ্ট্য, K-드라마-এর নয়; আইডল গ্রুপ বিদেশে 'বড় জনপ্রিয়তা পাচ্ছে', জনপ্রিয়তা নেই বলা ভুল; অভিনয় K-드라마-এর বৈশিষ্ট্য।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 리한 씨는 어떤 텔레비전 프로그램을 좋아해요?\n여자: 저는 한국 예능 프로그램을 좋아해요. 아주 재미있거든요.",
+      "section": "reading",
+      "questionBn": "নিচের বিজ্ঞাপনটি পড়ে সঠিক তথ্যটি বাছুন।",
+      "questionKo": "다음을 읽고 맞는 것을 고르십시오.",
+      "passage": "행복시 프로 축구 경기\n•경기 날짜: 5월 10일 (토) 오후 6시\n•장소: 행복 종합 경기장\n•입장권: 어른 10,000원 / 어린이 5,000원\n•예매: 인터넷과 휴대폰 앱으로만 가능",
       "options": [
-        "예능 프로그램을 좋아합니다.",
-        "뉴스를 좋아합니다.",
-        "드라마를 좋아합니다.",
-        "음악 프로그램을 좋아합니다."
+        "경기는 오전에 시작합니다.",
+        "입장권은 경기장에서만 살 수 있습니다.",
+        "어린이 입장권은 만 원입니다.",
+        "휴대폰 앱으로 표를 예매할 수 있습니다."
       ],
-      "answer": 0,
-      "explanationBn": "মহিলাটি বলেছে সে কোরিয়ান বিনোদনমূলক অনুষ্ঠান (예능 프로그램) পছন্দ করে।"
+      "answer": 3,
+      "explanationBn": "'예매: 인터넷과 휴대폰 앱으로만 가능'—তাই মোবাইল অ্যাপ দিয়ে টিকিট বুক করা যায়, ৪ নম্বর সঠিক। খেলা '오후 6시' অর্থাৎ বিকেলে, সকালে নয়; টিকিট শুধু স্টেডিয়ামে নয়, অনলাইনে বিক্রি হয়; শিশুদের টিকিট ৫,০০০ ওন, ১০,০০০ ওন হলো বড়দের দাম।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 이 영화 본 적이 있어요?\n남자: 아니요, 아직 못 봤어요. 재미있어요?\n여자: 네, 정말 감동적이에요. 꼭 한번 보세요.",
+      "section": "reading",
+      "questionBn": "নিচের নোটিশটি কোথায় দেখা যাবে?",
+      "questionKo": "다음 안내문은 어디에서 볼 수 있습니까?",
+      "passage": "관람 안내\n•관중석에서는 큰 소리로 응원해 주세요.\n•음식은 정해진 자리에서만 드세요.\n•경기가 끝나면 쓰레기를 가지고 나가세요.",
       "options": [
-        "남자는 영화를 별로 안 좋아합니다.",
-        "이 영화는 아주 감동적입니다.",
-        "남자는 이 영화를 봤습니다.",
-        "여자는 이 영화를 아직 안 봤습니다."
+        "야구 경기장",
+        "우체국",
+        "은행",
+        "병원"
       ],
-      "answer": 1,
-      "explanationBn": "মহিলাটি বলেছে সিনেমাটি সত্যিই হৃদয়স্পর্শী (감동적이에요)।"
+      "answer": 0,
+      "explanationBn": "'관중석', '응원', '경기가 끝나면'—এই শব্দগুলো খেলার মাঠের, তাই উত্তর '야구 경기장'। 우체국 = ডাকঘর, 은행 = ব্যাংক, 병원 = হাসপাতাল; এসব জায়গায় দর্শক আসন বা সমর্থনের কথা থাকে না।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "제가 좋아하는 가수의 콘서트 표를 사고 싶었지만, 표가 모두 (  ) 표를 살 수 없었습니다.",
+      "questionBn": "নিচের লেখাটি পড়ে লেখার সঙ্গে মিল আছে এমন বাক্যটি বাছুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "저는 고향에 있을 때부터 K-팝을 좋아했습니다. K-팝은 가사가 재미있고 따라 부르기 쉽습니다. 그리고 가수들이 단체로 춤을 추는 것이 멋있습니다. 그래서 저는 요즘 K-댄스도 배우고 있습니다.",
       "options": [
-        "매진되어서",
-        "유명해서",
-        "시작해서",
-        "출연해서"
+        "이 사람은 한국에 와서 K-팝을 처음 좋아했습니다.",
+        "K-팝은 가사가 어려워서 따라 부르기 힘듭니다.",
+        "이 사람은 요즘 K-댄스를 배우고 있습니다.",
+        "이 사람은 가수가 되고 싶어 합니다."
       ],
-      "answer": 0,
-      "explanationBn": "টিকিট শেষ হয়ে যাওয়ার কারণে কিনতে পারেনি, তাই '매진되어서' (সোল্ড আউট হওয়ার কারণে) সঠিক।"
+      "answer": 2,
+      "explanationBn": "শেষ বাক্যে '요즘 K-댄스도 배우고 있습니다' আছে, তাই ৩ নম্বর সঠিক। লেখক '고향에 있을 때부터' অর্থাৎ দেশে থাকতেই K-팝 পছন্দ করতেন; গানের কথা '재미있고 따라 부르기 쉽습니다' বলা হয়েছে, কঠিন নয়; গায়ক হওয়ার ইচ্ছার কথা লেখায় নেই।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত প্রকাশভঙ্গিটি বাছুন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "이 드라마는 (  )이/가 아주 재미있습니다. 배우들이 하는 말이 정말 멋있습니다.",
+      "passage": "이 노래는 가사가 쉽고 짧아서 (          ). 그래서 한국어를 배우는 사람들이 자주 듣습니다.",
       "options": [
-        "제목",
-        "대사",
-        "무대",
-        "관객"
+        "따라 부르기 쉽습니다",
+        "따라 부르기 어렵습니다",
+        "예매하기 힘듭니다",
+        "관람하기 불편합니다"
       ],
-      "answer": 1,
-      "explanationBn": "অভিনেতাদের বলা কথার কথা বলা হয়েছে, তাই '대사' (সংলাপ) সঠিক।"
+      "answer": 0,
+      "explanationBn": "'가사가 쉽고 짧아서'—সহজ ও ছোট কথা মানে গলা মেলানো সহজ, তাই '따라 부르기 쉽습니다'। '어렵습니다' মানে কঠিন, যা কারণের বিপরীত; 예매하다 = টিকিট বুক করা, 관람하다 = খেলা/অনুষ্ঠান দেখা—গানের সঙ্গে যায় না।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "নিচের লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "저는 주말에 보통 텔레비전으로 음악 프로그램을 봅니다. 제가 좋아하는 아이돌이 나오면 열심히 응원합니다. 나중에는 꼭 콘서트에 가 보고 싶습니다.",
+      "section": "listening",
+      "questionBn": "শুনুন: দুজন কী নিয়ে কথা বলছেন?",
+      "questionKo": "두 사람은 무엇에 대해 말하고 있습니까?",
+      "passage": "남자: 여기 사람들이 왜 이렇게 많아요?\n여자: 근처에서 아이돌 그룹의 콘서트가 있어요.",
       "options": [
-        "저는 주말에 콘서트에 갑니다.",
-        "저는 아이돌을 별로 안 좋아합니다.",
-        "저는 아직 콘서트에 가 본 적이 없습니다.",
-        "저는 음악 프로그램에 출연합니다."
+        "생일",
+        "쇼핑",
+        "공연",
+        "이사"
       ],
       "answer": 2,
-      "explanationBn": "প্যাসেজে বলা হয়েছে সে পরে অবশ্যই কনসার্টে যেতে চায়, যার মানে সে এখনো কনসার্টে যায়নি।"
+      "explanationBn": "মহিলা বলছেন '아이돌 그룹의 콘서트가 있어요'—কনসার্ট মানে অনুষ্ঠান/পরিবেশনা, তাই '공연' সঠিক। 생일 = জন্মদিন, 쇼핑 = কেনাকাটা, 이사 = বাসা বদল—কথোপকথনে এগুলোর উল্লেখ নেই।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 주말에 보통 뭐 해요?\n나: 저는 집에서 책을 읽거(  ) 영화를 봐요.",
+      "section": "listening",
+      "questionBn": "শুনুন: পরের কথাটি হিসেবে সবচেয়ে উপযুক্ত উত্তর কোনটি?",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 닛차난 씨, 좋아하는 가수가 있어요?\n여자: ",
       "options": [
-        "나",
-        "고",
-        "지만",
-        "면"
+        "저는 좋아하는 배우가 있어요.",
+        "네, 저는 K-팝 아이돌을 좋아해요.",
+        "저는 K-드라마를 자주 봐요.",
+        "표를 예매하기 어려워요."
       ],
-      "answer": 0,
-      "explanationBn": "ক্রিয়াপদের সাথে বিকল্প বোঝাতে '-거나' ব্যবহৃত হয়। তাই '나' সঠিক।"
+      "answer": 1,
+      "explanationBn": "প্রশ্নটি '좋아하는 가수가 있어요?' অর্থাৎ পছন্দের গায়ক আছে কি না, তাই গায়ক সম্পর্কে উত্তর '네, 저는 K-팝 아이돌을 좋아해요' মানানসই। ১ নম্বরে গায়ক নয় অভিনেতার কথা, ৩ নম্বরে নাটক দেখার কথা, ৪ নম্বরে টিকিট বুকিংয়ের কথা—কোনোটিই প্রশ্নের উত্তর নয়।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "নিচের লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "어제 친구와 함께 새로 나온 한국 영화를 봤습니다. 유명한 배우가 주인공으로 출연해서 인기가 아주 많았습니다. 영화관에 관객이 정말 많았습니다.",
+      "section": "listening",
+      "questionBn": "শুনুন: পরের কথাটি হিসেবে সবচেয়ে উপযুক্ত উত্তর কোনটি?",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "여자: 야구 경기를 보러 가고 싶은데 왕민 씨도 같이 갈래요?\n남자: ",
       "options": [
-        "이 영화는 인기가 없습니다.",
-        "영화관에 사람이 별로 없었습니다.",
-        "유명한 배우가 이 영화에 나옵니다.",
-        "저는 혼자서 영화를 봤습니다."
+        "좋아요. 우리 집에서 볼까요?",
+        "좋아요. 유니폼을 입었어요?",
+        "좋아요. 야구 경기를 관람했어요?",
+        "좋아요. 입장권을 예매할까요?"
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা হয়েছে বিখ্যাত অভিনেতা প্রধান চরিত্রে অভিনয় করেছেন (유명한 배우가 주인공으로 출연해서)।"
+      "answer": 3,
+      "explanationBn": "মহিলা মাঠে গিয়ে খেলা দেখার প্রস্তাব দিচ্ছেন, তাই রাজি হওয়ার পরে স্বাভাবিক পরের কথা হলো টিকিট বুক করার প্রস্তাব—'입장권을 예매할까요?'। ১ নম্বরে বাসায় দেখার কথা, যা মাঠে যাওয়ার বিপরীত; ২ নম্বর ইউনিফর্ম পরা নিয়ে অপ্রাসঙ্গিক প্রশ্ন; ৩ নম্বর অতীতে খেলা দেখেছেন কি না—ভবিষ্যতের পরিকল্পনার সঙ্গে মেলে না।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 투안 씨, 이 노래 들어 본 적이 있어요?\n남자: 아니요, 처음 들어요. 노래가 아주 좋네요. 제목이 뭐예요?",
+      "questionBn": "শুনুন: শোনা কথার সঙ্গে মিল আছে কোনটি?",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "passage": "여자: 응원단이 입고 있는 옷이 멋있어요. 저도 사고 싶어요.\n남자: 우리도 유니폼을 살 수 있어요. 인터넷으로 사면 돼요.\n여자: 유니폼 파는 사이트 좀 가르쳐 주세요.",
       "options": [
-        "남자는 이 노래를 자주 듣습니다.",
-        "여자는 노래 제목을 모릅니다.",
-        "남자는 이 노래를 처음 듣습니다.",
-        "두 사람은 지금 노래방에 있습니다."
+        "남자는 유니폼을 샀습니다.",
+        "응원단은 유니폼을 입고 있습니다.",
+        "두 사람은 콘서트를 보러 갔습니다.",
+        "여자는 유니폼 파는 사이트를 압니다."
       ],
-      "answer": 2,
-      "explanationBn": "পুরুষ লোকটি বলেছে সে এই গানটি প্রথমবার শুনছে (처음 들어요)।"
+      "answer": 1,
+      "explanationBn": "মহিলা বলছেন '응원단이 입고 있는 옷이 멋있어요' আর পুরুষ ওই পোশাককে '유니폼' বলছেন, তাই সমর্থক দল ইউনিফর্ম পরে আছে—২ নম্বর সঠিক। পুরুষ বলেছেন কেনা যায়, কিনে ফেলেছেন এমন কথা নেই; তারা খেলা দেখছেন, কনসার্ট নয়; সাইটের ঠিকানা মহিলা জানেন না, তাই জিজ্ঞেস করছেন।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 수피아 씨, 주말에 같이 영화 볼까요?\n여자: 미안해요. 이번 주말에는 좋아하는 가수의 사인회에 가야 해요.",
+      "questionBn": "শুনুন: শোনা কথার সঙ্গে মিল আছে কোনটি?",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "passage": "남자: 김밥을 처음 먹어 봤는데 정말 맛있네요.\n여자: 제가 만들었어요. 김밥은 먹기 편하고 맛있어서 요즘 외국에서도 인기가 많아요.\n남자: 저도 김밥 만드는 방법을 배우고 싶어요.",
       "options": [
-        "두 사람은 주말에 같이 영화를 볼 것입니다.",
-        "여자는 주말에 사인회에 갈 것입니다.",
-        "남자는 주말에 콘서트에 갈 것입니다.",
-        "여자는 영화를 별로 안 좋아합니다."
+        "김밥은 외국에서도 인기를 끌고 있습니다.",
+        "여자는 김밥을 가게에서 샀습니다.",
+        "남자는 예전에 김밥을 먹어 봤습니다.",
+        "남자는 김밥 파는 가게를 알고 싶습니다."
       ],
-      "answer": 1,
-      "explanationBn": "মহিলাটি বলেছে সে এই সাপ্তাহিক ছুটিতে তার প্রিয় গায়কের অটোগ্রাফ সেশনে যাবে (사인회에 가야 해요)।"
+      "answer": 0,
+      "explanationBn": "মহিলা বলেছেন '요즘 외국에서도 인기가 많아요', তাই ১ নম্বর সঠিক। কিমবাপ মহিলা নিজেই বানিয়েছেন ('제가 만들었어요'), দোকান থেকে কেনেননি; পুরুষ '처음 먹어 봤는데' অর্থাৎ প্রথমবার খেয়েছেন; তিনি দোকান নয়, বানানোর পদ্ধতি ('만드는 방법') শিখতে চান।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "কথাগুলো শুনে 질문에 সঠিক উত্তর দিন।",
-      "questionKo": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
-      "passage": "여자: 리한 씨, 어제 본 드라마 어땠어요?\n남자: 주인공이 정말 멋있었어요. 그리고 대사도 아주 감동적이었어요. 내일도 꼭 볼 거예요.",
+      "questionBn": "শুনুন: মহিলা কে-পপ কেন পছন্দ করেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 닛차난 씨는 K-팝을 정말 좋아하는 것 같아요. K-팝을 왜 좋아해요?\n여자: 가사가 재미있고 따라 부르기 쉬워요. 그리고 가수들이 단체로 춤을 추는 것이 멋있어요.",
       "options": [
-        "드라마가 재미없었습니다.",
-        "주인공이 별로였습니다.",
-        "대사가 감동적이었습니다.",
-        "내일은 드라마를 안 볼 것입니다."
+        "입장권이 싸기 때문입니다.",
+        "가수들의 유니폼이 예쁘기 때문입니다.",
+        "한국어를 배우기 어렵기 때문입니다.",
+        "가사가 재미있고 따라 부르기 쉽기 때문입니다."
       ],
-      "answer": 2,
-      "explanationBn": "পুরুষ লোকটি বলেছে সংলাপ খুব হৃদয়স্পর্শী ছিল (대사도 아주 감동적이었어요)।"
+      "answer": 3,
+      "explanationBn": "মহিলা সরাসরি বলছেন '가사가 재미있고 따라 부르기 쉬워요', তাই ৪ নম্বর সঠিক। টিকিটের দাম, গায়কদের ইউনিফর্ম বা কোরিয়ান শেখা কঠিন—এসব কথা কথোপকথনে আসেনি; তিনি নাচের কথা বলেছেন, পোশাকের নয়।"
     }
   ]
 }
