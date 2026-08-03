@@ -10,647 +10,759 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কর্মস্থলের সাধারণ পোশাক সম্পর্কিত নতুন শব্দগুলো বোঝা এবং ব্যবহার করতে পারা।",
-      "সরল কর্মস্থল নিয়ম ও অনুশাসন সম্পর্কে বর্ণনা করতে পারা।",
-      "সহকর্মীর কাছে পোশাক বা আচরণ নিয়ে বিনয়পূর্ণভাবে কথা বলতে পারা।"
+      "কাজের পোশাক নিয়ে কথা বলতে পারা—কাজের জামা, ইউনিফর্ম, স্যুট পরা, বদলানো, বোতাম লাগানো, চেন টানা ইত্যাদি",
+      "কর্মস্থলে ভালো ও খারাপ মনোভাব বর্ণনা করতে পারা—সম্মান করা, প্রশংসা করা, অবহেলা করা, ক্ষতি করা",
+      "'-아/어 보이다' দিয়ে দেখে অনুমান করা এবং '-게' দিয়ে কাজের ধরন বা মাত্রা বলতে পারা",
+      "'-아/어도 되다', '-(으)면 안 되다', '-아/어야 되다' দিয়ে কারখানার নিয়ম ও অনুমতি নিয়ে কথা বলতে পারা"
     ],
     "en": [
-      "Understand and use basic vocabulary about workplace attire.",
-      "Describe simple workplace rules and expected behavior.",
-      "Politely talk to a coworker about clothing or attitude."
+      "Can talk about work attire such as work clothes, uniforms, buttoning up and zipping up",
+      "Can describe good and bad attitudes at work, such as respecting, complimenting, ignoring and causing harm",
+      "Can guess about what is observed with -아/어 보이다 and describe manner with -게",
+      "Can discuss workplace rules and permission using -아/어도 되다, -(으)면 안 되다 and -아/어야 되다"
     ]
   },
   "vocabulary": [
     {
-      "ko": "복장",
-      "romanization": "bokjang",
-      "bn": "পোশাক/পরিচ্ছদ",
-      "en": "attire",
+      "ko": "작업복",
+      "romanization": "jaeopbok",
+      "bn": "কাজের পোশাক, কাজের জামা (কারখানায় পরার নির্দিষ্ট পোশাক)",
+      "en": "work clothes",
       "pos": "noun",
       "example": {
-        "ko": "회사 복장은 단정해야 합니다.",
-        "bn": "কোম্পানির পোশাক পরিস্কার ও মানানসই হওয়া উচিত।",
-        "en": "Company attire should be neat."
+        "ko": "새 작업복이 마음에 들어요?",
+        "bn": "নতুন কাজের পোশাকটা আপনার পছন্দ হয়েছে?",
+        "en": "Do you like the new work clothes?"
       },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শুরুতে 'প' ও 'ব'-এর মাঝামাঝি উচ্চারিত হয়।"
+      "pronunciationTipBn": "'작업복' [자겁뽁]—'ㄱ' পরের স্বরে গিয়ে '자거', আর শেষের 'ㅂ' পরে 'ㅂ' শক্ত হয়ে 'ㅃ' হয়। 'জাক-অপ-বোক' নয়, 'জাগপ্পোক'।"
     },
     {
       "ko": "유니폼",
-      "romanization": "yunipeom",
-      "bn": "ইউনিফর্ম",
+      "romanization": "yunipom",
+      "bn": "ইউনিফর্ম (প্রতিষ্ঠানের একই রকম পোশাক)",
       "en": "uniform",
       "pos": "noun",
       "example": {
-        "ko": "오늘부터 유니폼을 입으세요.",
-        "bn": "আজ থেকে ইউনিফর্ম পরুন।",
-        "en": "Please wear the uniform from today."
+        "ko": "유니폼이 파란색이라서 시원해 보여요.",
+        "bn": "ইউনিফর্মটা নীল রঙের, তাই দেখতে ঠান্ডা ঠান্ডা লাগে।",
+        "en": "The uniform is blue, so it looks cool."
       },
-      "pronunciationTipBn": "'ㅍ' ধ্বনিটি একটু জোর দিয়ে 'ফ'-এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "'유니폼'-এর 'ㅍ' জোরালো বাতাস ছাড়া 'ফ'—বাংলার 'প' নয়। শেষে 'ম' পরিষ্কারভাবে বন্ধ ঠোঁটে।"
     },
     {
       "ko": "정장",
       "romanization": "jeongjang",
-      "bn": "অফিশিয়াল পোশাক/স্যুট",
-      "en": "formal suit",
+      "bn": "ফরমাল পোশাক (আনুষ্ঠানিক ভদ্র পোশাক)",
+      "en": "formal wear",
       "pos": "noun",
       "example": {
-        "ko": "회의에는 정장을 입는 것이 좋습니다.",
-        "bn": "সভায় স্যুট পরাই উত্তম।",
-        "en": "It's good to wear a suit for meetings."
+        "ko": "면접에 갈 때는 정장을 입으세요.",
+        "bn": "ইন্টারভিউতে যাওয়ার সময় ফরমাল পোশাক পরুন।",
+        "en": "Please wear formal clothes when you go to an interview."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'চ' ও 'জ'-এর মাঝামাঝি উচ্চারিত হয়।"
+      "pronunciationTipBn": "'정장' [정장]—দুটোই 'ㅇ' দিয়ে শেষ, নাক দিয়ে 'ং' শব্দ। 'জন-জাং' নয়, 'জং-জাং'।"
     },
     {
-      "ko": "편한 옷",
-      "romanization": "pyeonhan ot",
-      "bn": "আরামদায়ক জামা-কাপড়",
-      "en": "comfortable clothes",
+      "ko": "양복",
+      "romanization": "yangbok",
+      "bn": "স্যুট (পুরুষের কোট-প্যান্টের সেট)",
+      "en": "business suit",
       "pos": "noun",
       "example": {
-        "ko": "휴가 날에는 편한 옷을 입으세요.",
-        "bn": "ছুটির দিনে আরামদায়ক জামা পরুন।",
-        "en": "On your day off, wear comfortable clothes."
+        "ko": "사장님은 항상 양복을 입고 오세요.",
+        "bn": "স্যার (মালিক) সবসময় স্যুট পরে আসেন।",
+        "en": "The boss always comes wearing a suit."
       },
-      "pronunciationTipBn": "'ㅎ' ধ্বনিটি 'হ'-এর মতো, আর '옷'-এর 'ㅅ' নিচে থাকলে 'ত'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'양복' [양복]—শেষের 'ㄱ' ছেড়ে দেওয়া হয় না, ঠোঁট-জিভ থামিয়ে ধরা হয়। 'ইয়াং-বোক'।"
+    },
+    {
+      "ko": "갈아입다",
+      "romanization": "garaipda",
+      "bn": "পোশাক বদলানো (এক পোশাক খুলে অন্যটি পরা)",
+      "en": "to change one's clothes",
+      "pos": "verb",
+      "example": {
+        "ko": "출근한 후에 바로 작업복으로 갈아입고 일을 시작합니다.",
+        "bn": "কাজে এসে সঙ্গে সঙ্গে কাজের পোশাকে বদলে নিয়ে কাজ শুরু করি।",
+        "en": "After arriving at work, I change right into my work clothes and start working."
+      },
+      "pronunciationTipBn": "'갈아입다' [가라입따]—'ㄹ' পরের স্বরে গড়িয়ে যায়, আর '입다'-র 'ㄷ' শক্ত হয়ে 'ㄸ' হয়: 'ইপ্তা'।"
+    },
+    {
+      "ko": "벗다",
+      "romanization": "beotda",
+      "bn": "খোলা, ছাড়া (জামা-জুতা খুলে ফেলা)",
+      "en": "to take off",
+      "pos": "verb",
+      "example": {
+        "ko": "일이 끝나면 작업복을 벗어서 옷장에 넣으세요.",
+        "bn": "কাজ শেষ হলে কাজের পোশাক খুলে আলমারিতে রাখুন।",
+        "en": "When work is over, take off your work clothes and put them in the locker."
+      },
+      "pronunciationTipBn": "'벗다' [벋따]—'ㅅ' এখানে 'ㄷ' এর মতো, আর পরের 'ㄷ' শক্ত 'ㄸ'। 'বেস-দা' নয়, 'বত্তা'।"
+    },
+    {
+      "ko": "단추를 잠그다",
+      "romanization": "danchureul jamgeuda",
+      "bn": "বোতাম লাগানো, বোতাম আটকানো",
+      "en": "to button up",
+      "pos": "verb",
+      "example": {
+        "ko": "단추를 잠그니까 단정해 보이네요.",
+        "bn": "বোতাম লাগানোর ফলে দেখতে বেশ পরিপাটি লাগছে।",
+        "en": "Now that you've buttoned up, you look neat."
+      },
+      "pronunciationTipBn": "'단추' [단추]—'ㅊ' হলো বাতাসসহ 'ছ'। '잠그다'-র '그' চাপা 'গু' নয়, ঠোঁট গোল না করে 'গ্য'-এর মতো।"
+    },
+    {
+      "ko": "단추를 풀다",
+      "romanization": "danchureul pulda",
+      "bn": "বোতাম খোলা",
+      "en": "to unbutton",
+      "pos": "verb",
+      "example": {
+        "ko": "날씨가 더워서 작업복 단추를 풀었어요.",
+        "bn": "গরম লাগছিল তাই কাজের পোশাকের বোতাম খুলে ফেলেছি।",
+        "en": "It was hot, so I unbuttoned my work clothes."
+      },
+      "pronunciationTipBn": "'풀다'-র 'ㅍ' বাতাসসহ 'ফ'। অতীতে '풀었어요' [푸러써요]—'ㄹ' পরের স্বরে জুড়ে যায়।"
+    },
+    {
+      "ko": "지퍼를 올리다",
+      "romanization": "jipeoreul ollida",
+      "bn": "চেন টেনে ওঠানো, জিপার বন্ধ করা",
+      "en": "to zip up",
+      "pos": "verb",
+      "example": {
+        "ko": "지퍼를 목까지 올릴 수 있어서 작업할 때 안전해요.",
+        "bn": "চেনটা গলা পর্যন্ত ওঠানো যায়, তাই কাজের সময় নিরাপদ।",
+        "en": "You can zip it up to the neck, so it's safe when working."
+      },
+      "pronunciationTipBn": "'올리다' [올리다]—দুটো 'ㄹ' একসঙ্গে, জিভ তালুতে ধরে দীর্ঘ 'ল্লি'। 'ওলিদা' নয়, 'ওল্লিদা'।"
+    },
+    {
+      "ko": "지퍼를 내리다",
+      "romanization": "jipeoreul naerida",
+      "bn": "চেন নামানো, জিপার খোলা",
+      "en": "to unzip",
+      "pos": "verb",
+      "example": {
+        "ko": "지퍼를 조금만 내리고 작업해도 돼요?",
+        "bn": "চেনটা একটু নামিয়ে কাজ করলে চলবে?",
+        "en": "Can I unzip it a little while I work?"
+      },
+      "pronunciationTipBn": "'내리다' [내리다]—'내' হলো 'নে'-এর মতো, 'নাই' নয়। রোমান বানান naerida দেখে 'নায়েরিদা' পড়বেন না।"
+    },
+    {
+      "ko": "넥타이를 매다",
+      "romanization": "nektaireul maeda",
+      "bn": "টাই বাঁধা",
+      "en": "to tie a tie",
+      "pos": "verb",
+      "example": {
+        "ko": "양복을 입고 넥타이를 맸어요.",
+        "bn": "স্যুট পরে টাই বেঁধেছি।",
+        "en": "I put on a suit and tied a tie."
+      },
+      "pronunciationTipBn": "'넥타이' [넥타이]—'ㅌ' বাতাসসহ 'থ'-এর মতো। '매다'-র '매' = 'মে', 'মাই' নয়।"
+    },
+    {
+      "ko": "넥타이를 풀다",
+      "romanization": "nektaireul pulda",
+      "bn": "টাই খোলা, টাই ঢিলা করা",
+      "en": "to untie a tie",
+      "pos": "verb",
+      "example": {
+        "ko": "일이 끝나고 넥타이를 풀었어요.",
+        "bn": "কাজ শেষ করে টাই খুলে ফেলেছি।",
+        "en": "I untied my tie after work was over."
+      },
+      "pronunciationTipBn": "'풀다' একই শব্দ বোতাম আর টাই দুটোতেই চলে। 'ㅍ'-এ জোরে বাতাস ছাড়ুন—বাংলা 'পুলদা' নয়।"
     },
     {
       "ko": "단정하다",
       "romanization": "danjeonghada",
-      "bn": "পরিস্কার/শালীন হওয়া",
+      "bn": "পরিপাটি হওয়া, ভদ্র-পরিচ্ছন্ন দেখানো",
       "en": "to be neat",
-      "pos": "adjective/verb",
-      "example": {
-        "ko": "머리를 단정하게 하세요.",
-        "bn": "চুল শালীনভাবে রাখুন।",
-        "en": "Keep your hair neat."
-      },
-      "pronunciationTipBn": "'ㄷ' ধ্বনিটি শব্দের শুরুতে 'ত' ও 'দ'-এর মাঝামাঝি উচ্চারিত হয়।"
-    },
-    {
-      "ko": "깔끔하다",
-      "romanization": "kkalkkeumhada",
-      "bn": "পরিচ্ছন্ন/জটলা নেই",
-      "en": "tidy, clean",
       "pos": "adjective",
       "example": {
-        "ko": "복장이 깔끔하면 인상이 좋습니다.",
-        "bn": "পরিচ্ছন্ন পোশাক ভাবমূর্তি ভালো করে।",
-        "en": "Tidy clothing makes a good impression."
+        "ko": "지퍼를 올리는 게 안전하고 단정해 보여요.",
+        "bn": "চেন টেনে ওঠানোটা নিরাপদ এবং দেখতেও পরিপাটি লাগে।",
+        "en": "Zipping it up is safe and looks neat."
       },
-      "pronunciationTipBn": "'ㄲ' ধ্বনিটি শক্ত 'ক'-এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "'단정하다' [단정하다]—'정'-এ নাকের 'ং' শব্দ। 'দান-জোং-হাদা'-এর মতো, 'দানজন' নয়।"
     },
     {
-      "ko": "청결",
-      "romanization": "cheonggyeol",
-      "bn": "স্বচ্ছতা/পরিষ্কার থাকা",
-      "en": "cleanliness",
+      "ko": "안전하다",
+      "romanization": "anjeonhada",
+      "bn": "নিরাপদ হওয়া",
+      "en": "to be safe",
+      "pos": "adjective",
+      "example": {
+        "ko": "작업복을 제대로 입으면 안전해요.",
+        "bn": "কাজের পোশাক ঠিকভাবে পরলে নিরাপদ থাকা যায়।",
+        "en": "If you wear your work clothes properly, it is safe."
+      },
+      "pronunciationTipBn": "'안전' [안전]—'ㄴ' পরে 'ㅈ', নাক দিয়ে 'আন' বলে তারপর 'জন'। '안'-এর 'ㄴ' লোপ পায় না।"
+    },
+    {
+      "ko": "작업하다",
+      "romanization": "jaeopada",
+      "bn": "কাজ করা (কারখানায় হাতে-কলমে কাজ)",
+      "en": "to work",
+      "pos": "verb",
+      "example": {
+        "ko": "기계 옆에서 작업할 때 조심하세요.",
+        "bn": "মেশিনের পাশে কাজ করার সময় সাবধান থাকুন।",
+        "en": "Be careful when you work next to the machine."
+      },
+      "pronunciationTipBn": "'작업하다' [자거파다]—'ㅂ' আর 'ㅎ' মিলে 'ㅍ' হয়ে যায়। 'জাকপ-হাদা' নয়, 'জাগপাদা'।"
+    },
+    {
+      "ko": "익숙해지다",
+      "romanization": "iksukhaejida",
+      "bn": "অভ্যস্ত হয়ে যাওয়া, আয়ত্ত হয়ে যাওয়া",
+      "en": "to become accustomed to",
+      "pos": "verb",
+      "example": {
+        "ko": "익숙해지면 괜찮을 거예요.",
+        "bn": "অভ্যাস হয়ে গেলে ঠিক হয়ে যাবে।",
+        "en": "Once you get used to it, it will be fine."
+      },
+      "pronunciationTipBn": "'익숙' [익쑥]—'ㄱ'-এর পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয়। তারপর 'ㅎ' মিলে '해' [캐] শোনায়।"
+    },
+    {
+      "ko": "예전",
+      "romanization": "yejeon",
+      "bn": "আগেকার, পুরোনো সময়ের",
+      "en": "old, former times",
       "pos": "noun",
       "example": {
-        "ko": "청결은 기본 근무 태도입니다.",
-        "bn": "পরিষ্কার থাকা কাজের একটি নিতান্ত মৌলিক মনোভাব।",
-        "en": "Cleanliness is a basic work attitude."
+        "ko": "새 작업복이 예전 작업복보다 가벼워요.",
+        "bn": "নতুন কাজের পোশাকটা আগেরটার চেয়ে হালকা।",
+        "en": "The new work clothes are lighter than the old ones."
       },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি একটু জোর দিয়ে 'ছ'-এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "'예전' [예전]—'예' = 'ইয়ে'। 'ইয়া' নয়, ঠোঁট চ্যাপ্টা রেখে 'ইয়ে-জন'।"
     },
     {
-      "ko": "신발",
-      "romanization": "sinbal",
-      "bn": "জুতা",
-      "en": "shoes",
+      "ko": "새",
+      "romanization": "sae",
+      "bn": "নতুন (বিশেষ্যের আগে বসে)",
+      "en": "new",
+      "pos": "determiner",
+      "example": {
+        "ko": "오늘 새 유니폼을 받았어요.",
+        "bn": "আজ নতুন ইউনিফর্ম পেয়েছি।",
+        "en": "I received a new uniform today."
+      },
+      "pronunciationTipBn": "'새' [새]—'সে'-এর মতো ছোট শব্দ, 'সাই' নয়। পরের শব্দের সঙ্গে ফাঁক রেখে বলুন: 새 작업복।"
+    },
+    {
+      "ko": "예의가 있다",
+      "romanization": "yeuiga itda",
+      "bn": "ভদ্র হওয়া, শিষ্টাচার থাকা",
+      "en": "to be polite",
+      "pos": "adjective",
+      "example": {
+        "ko": "마두 씨는 예의가 있어서 모두 좋아해요.",
+        "bn": "মাধু ভদ্র, তাই সবাই তাকে পছন্দ করে।",
+        "en": "Madhu is polite, so everyone likes him."
+      },
+      "pronunciationTipBn": "'예의' [예의] বা [예이]—দ্বিতীয় 'ㅢ' প্রায়ই সহজ 'ই' হয়ে যায়। '있다' [읻따]।"
+    },
+    {
+      "ko": "예의가 없다",
+      "romanization": "yeuiga eopda",
+      "bn": "অভদ্র হওয়া, শিষ্টাচার না থাকা",
+      "en": "to be rude",
+      "pos": "adjective",
+      "example": {
+        "ko": "인사를 안 하면 예의가 없어 보여요.",
+        "bn": "সালাম-নমস্কার না দিলে অভদ্র দেখায়।",
+        "en": "If you don't greet people, you look rude."
+      },
+      "pronunciationTipBn": "'없다' [업따]—'ㅄ'-এর 'ㅅ' পড়ে না, শুধু 'ㅂ' শোনা যায়, পরের 'ㄷ' শক্ত হয়।"
+    },
+    {
+      "ko": "반말을 하다",
+      "romanization": "banmareul hada",
+      "bn": "সম্মানসূচক ছাড়া কথা বলা, তুই-তুমি ভাষায় বলা",
+      "en": "to speak in non-honorifics",
+      "pos": "verb",
+      "example": {
+        "ko": "회사에서 동료에게 반말을 하면 안 돼요.",
+        "bn": "কর্মস্থলে সহকর্মীর সঙ্গে সম্মান ছাড়া ভাষায় কথা বলা যাবে না।",
+        "en": "You shouldn't use non-honorific speech with colleagues at the company."
+      },
+      "pronunciationTipBn": "'반말' [반말]—'ㄴ'+'ㅁ' দুটোই নাকের শব্দ, তাই টানা 'বান-মাল'। '반말을' [반마를]।"
+    },
+    {
+      "ko": "존댓말을 하다",
+      "romanization": "jondaenmareul hada",
+      "bn": "সম্মানসূচক ভাষায় কথা বলা",
+      "en": "to speak in honorifics",
+      "pos": "verb",
+      "example": {
+        "ko": "직장에서는 존댓말을 하는 것이 좋습니다.",
+        "bn": "কর্মস্থলে সম্মানসূচক ভাষায় কথা বলাই ভালো।",
+        "en": "At work it is good to speak in honorifics."
+      },
+      "pronunciationTipBn": "'존댓말' [존댄말]—লেখা 'ㅅ' কিন্তু পরের 'ㅁ'-এর প্রভাবে উচ্চারণে 'ㄴ' হয়: 'জোন-দেন-মাল'।"
+    },
+    {
+      "ko": "칭찬하다",
+      "romanization": "chingchanhada",
+      "bn": "প্রশংসা করা",
+      "en": "to compliment",
+      "pos": "verb",
+      "example": {
+        "ko": "반장님이 칭찬을 많이 하세요.",
+        "bn": "লাইন-লিডার (বানজাংনিম) খুব প্রশংসা করেন।",
+        "en": "The team leader compliments us a lot."
+      },
+      "pronunciationTipBn": "'칭찬' [칭찬]—প্রথম 'ㅊ' বাতাসসহ 'ছ', দ্বিতীয়টিও একই 'ㅊ', শক্ত 'ㅉ' নয়। 'ছিং-ছান'।"
+    },
+    {
+      "ko": "존중하다",
+      "romanization": "jonjunghada",
+      "bn": "সম্মান করা, মূল্য দেওয়া",
+      "en": "to respect",
+      "pos": "verb",
+      "example": {
+        "ko": "동료의 의견을 존중해야 돼요.",
+        "bn": "সহকর্মীর মতামতকে সম্মান করতে হবে।",
+        "en": "You must respect your colleagues' opinions."
+      },
+      "pronunciationTipBn": "'존중' [존중]—'ㄴ' পরে 'ㅈ' এলেও 'ㄴ' রাখতে হবে: 'জোন-জুং', 'জোজুং' নয়।"
+    },
+    {
+      "ko": "배려하다",
+      "romanization": "baeryeohada",
+      "bn": "খেয়াল রাখা, বিবেচনা করে ব্যবহার করা",
+      "en": "to act considerately",
+      "pos": "verb",
+      "example": {
+        "ko": "나이 많은 동료를 배려하세요.",
+        "bn": "বয়সে বড় সহকর্মীদের প্রতি খেয়াল রাখুন।",
+        "en": "Please be considerate toward older colleagues."
+      },
+      "pronunciationTipBn": "'배려' [배려]—'배' = 'বে', 'ㄹ' নরম। 'বাই-রিও' নয়, 'বে-রিও'।"
+    },
+    {
+      "ko": "성실하다",
+      "romanization": "seongsilhada",
+      "bn": "পরিশ্রমী ও দায়িত্বশীল হওয়া, মন দিয়ে কাজ করা",
+      "en": "to be diligent",
+      "pos": "adjective",
+      "example": {
+        "ko": "마두 씨는 항상 성실하게 일해요.",
+        "bn": "মাধু সবসময় মন দিয়ে পরিশ্রম করে কাজ করে।",
+        "en": "Madhu always works diligently."
+      },
+      "pronunciationTipBn": "'성실하다' [성시라다]—'ㄹ'+'ㅎ' মিলে 'ㅎ' প্রায় হারিয়ে যায়। 'সং-শিল-হাদা' নয়, 'সংশিরাদা'।"
+    },
+    {
+      "ko": "긍정적이다",
+      "romanization": "geungjeongjeogida",
+      "bn": "ইতিবাচক হওয়া, ভালো দৃষ্টিতে দেখা",
+      "en": "to be positive",
+      "pos": "adjective",
+      "example": {
+        "ko": "마두 씨의 긍정적인 태도가 참 좋아요.",
+        "bn": "মাধুর ইতিবাচক মনোভাবটা সত্যিই ভালো।",
+        "en": "I really like Madhu's positive attitude."
+      },
+      "pronunciationTipBn": "'긍정적' [긍정적]—'긍' শুরুর 'ㄱ' নরম, শেষে নাকের 'ং'। '-적이다' [저기다] হয়ে জোড়া লাগে।"
+    },
+    {
+      "ko": "부정적이다",
+      "romanization": "bujeongjeogida",
+      "bn": "নেতিবাচক হওয়া, খারাপ দৃষ্টিতে দেখা",
+      "en": "to be negative",
+      "pos": "adjective",
+      "example": {
+        "ko": "부정적인 태도로 일하면 힘들어요.",
+        "bn": "নেতিবাচক মনোভাব নিয়ে কাজ করলে কষ্ট হয়।",
+        "en": "If you work with a negative attitude, it is hard."
+      },
+      "pronunciationTipBn": "'부정적' [부정적]—'부'-এর 'ㅂ' নরম 'ব'। '긍정적'-এর ঠিক বিপরীত শব্দ, শুধু প্রথম অংশ আলাদা।"
+    },
+    {
+      "ko": "함부로 하다",
+      "romanization": "hamburo hada",
+      "bn": "যা খুশি তা করা, বেপরোয়াভাবে আচরণ করা",
+      "en": "to act carelessly",
+      "pos": "verb",
+      "example": {
+        "ko": "같이 사용하는 물건을 함부로 하면 안 돼요.",
+        "bn": "সবাই মিলে ব্যবহার করা জিনিস বেপরোয়াভাবে ব্যবহার করা যাবে না।",
+        "en": "You must not treat shared items carelessly."
+      },
+      "pronunciationTipBn": "'함부로' [함부로]—'함'-এ ঠোঁট বন্ধ করে 'ম', তারপর 'বু-রো'। একটানা 'হাম্বুরো' বলুন।"
+    },
+    {
+      "ko": "무시하다",
+      "romanization": "musihada",
+      "bn": "অবহেলা করা, গ্রাহ্য না করা",
+      "en": "to ignore",
+      "pos": "verb",
+      "example": {
+        "ko": "동료를 무시하면 예의가 없어 보여요.",
+        "bn": "সহকর্মীকে অবহেলা করলে অভদ্র দেখায়।",
+        "en": "If you ignore your colleagues, you look rude."
+      },
+      "pronunciationTipBn": "'무시' [무시]—'ㅅ'+'ㅣ' মিলে বাংলা 'শি'-এর মতো শোনায়, 'সি' নয়: 'মু-শি'।"
+    },
+    {
+      "ko": "불쾌하다",
+      "romanization": "bulkwaehada",
+      "bn": "অস্বস্তি বা খারাপ লাগা, মনে কষ্ট পাওয়া",
+      "en": "to be displeased",
+      "pos": "adjective",
+      "example": {
+        "ko": "반말을 들으면 불쾌해요.",
+        "bn": "সম্মান ছাড়া ভাষায় কথা শুনলে খারাপ লাগে।",
+        "en": "It is unpleasant to be spoken to in non-honorifics."
+      },
+      "pronunciationTipBn": "'불쾌' [불쾌]—'쾌' একটি টানা শব্দ 'খোয়ে', বাতাসসহ 'ㅋ'। 'বুল-কা-ই' নয়।"
+    },
+    {
+      "ko": "피해를 주다",
+      "romanization": "pihaereul juda",
+      "bn": "ক্ষতি করা, অন্যের অসুবিধা করা",
+      "en": "to cause harm",
+      "pos": "verb",
+      "example": {
+        "ko": "일하고 있는 동료에게 피해를 주면 안 돼요.",
+        "bn": "যে সহকর্মী কাজ করছে তার ক্ষতি বা অসুবিধা করা যাবে না।",
+        "en": "You must not cause trouble for a colleague who is working."
+      },
+      "pronunciationTipBn": "'피해' [피해]—'ㅍ' বাতাসসহ 'ফি', আর '해' = 'হে'। 'পি-হাই' নয়, 'ফি-হে'।"
+    },
+    {
+      "ko": "서로",
+      "romanization": "seoro",
+      "bn": "পরস্পর, একে অপরকে",
+      "en": "each other",
+      "pos": "adverb",
+      "example": {
+        "ko": "직장에서는 서로 존중해야 돼요.",
+        "bn": "কর্মস্থলে একে অপরকে সম্মান করতে হবে।",
+        "en": "At work, you must respect each other."
+      },
+      "pronunciationTipBn": "'서로' [서로]—'서' ঠোঁট গোল না করে 'স', 'সো' নয়। 'স-রো'।"
+    },
+    {
+      "ko": "의견",
+      "romanization": "uigyeon",
+      "bn": "মতামত, মত",
+      "en": "opinion",
       "pos": "noun",
       "example": {
-        "ko": "회사 규정에 맞는 신발을 신으세요.",
-        "bn": "কোম্পানির নিয়ম অনুসারে জুতা পরুন।",
-        "en": "Wear shoes that meet company rules."
+        "ko": "회의에서 자기 의견을 말해 보세요.",
+        "bn": "মিটিংয়ে নিজের মতামত বলে দেখুন।",
+        "en": "Try telling your own opinion at the meeting."
       },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি 'স' বা 'শ'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "'의견' [의견]—শব্দের শুরুতে 'ㅢ' পুরো 'উই' ধরনের, পরে 'গিওন'। 'ই-গিওন' বললে অন্য শব্দ হয়ে যায়।"
     },
     {
-      "ko": "안전화",
-      "romanization": "anjeonhwa",
-      "bn": "নিরাপত্তা জুতা",
-      "en": "safety shoes",
+      "ko": "공장장",
+      "romanization": "gongjangjang",
+      "bn": "কারখানার ম্যানেজার (ফ্যাক্টরির প্রধান)",
+      "en": "factory manager",
       "pos": "noun",
       "example": {
-        "ko": "공장에서는 안전화를 꼭 신어야 합니다.",
-        "bn": "কারখানায় অবশ্যই নিরাপত্তা জুতা পরতে হবে।",
-        "en": "You must wear safety shoes in the factory."
+        "ko": "공장장님이 저를 칭찬해 주셨어요.",
+        "bn": "কারখানার ম্যানেজার আমার প্রশংসা করেছেন।",
+        "en": "The factory manager complimented me."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'জ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "명찰",
-      "romanization": "myeongchal",
-      "bn": "নামের থামা/আইডি ব্যাজ",
-      "en": "name tag",
-      "pos": "noun",
-      "example": {
-        "ko": "출근할 때 명찰을 착용하세요.",
-        "bn": "দফতরে আসার সময় নামের ব্যাজ লাগান।",
-        "en": "Put on your name tag when you come to work."
-      },
-      "pronunciationTipBn": "'ㅁ' ধ্বনিটি 'ম'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "출근",
-      "romanization": "chulgeun",
-      "bn": "কাজে আসা",
-      "en": "going to work",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "출근 시간은 오전 9시입니다.",
-        "bn": "কাজে আসার সময় সকাল ৯টা।",
-        "en": "Work starts at 9 a.m."
-      },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি একটু জোর দিয়ে 'ছ'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "지각",
-      "romanization": "jigak",
-      "bn": "অবহেলিত/দেরি করে আসা",
-      "en": "tardiness",
-      "pos": "noun",
-      "example": {
-        "ko": "지각을 자주 하면 안 됩니다.",
-        "bn": "প্রায়শই দেরি করা উচিত নয়।",
-        "en": "You should not be frequently late."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি শব্দের শেষে 'ক'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "휴게실",
-      "romanization": "hyugesil",
-      "bn": "বিরতির ঘর/রেস্ট রুম",
-      "en": "break room",
-      "pos": "noun",
-      "example": {
-        "ko": "휴게실에서는 조용히 합시다.",
-        "bn": "বিরতির ঘরে শোবার মতো কথা না বলাই ভালো।",
-        "en": "Let's be quiet in the break room."
-      },
-      "pronunciationTipBn": "'ㅎ' ধ্বনিটি 'হ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "근무 태도",
-      "romanization": "geunmu taedo",
-      "bn": "কাজের মনোভাব/দায়িত্বশীলতা",
-      "en": "work attitude",
-      "pos": "noun",
-      "example": {
-        "ko": "성실한 근무 태도가 중요합니다.",
-        "bn": "নিষ্ঠাবান কাজের মনোভাব গুরুত্বপূর্ণ।",
-        "en": "A sincere work attitude is important."
-      },
-      "pronunciationTipBn": "'ㅌ' ধ্বনিটি একটু জোর দিয়ে 'থ'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "책임감",
-      "romanization": "chaegimgam",
-      "bn": "দায়িত্ববোধ",
-      "en": "sense of responsibility",
-      "pos": "noun",
-      "example": {
-        "ko": "책임감을 가지고 일하세요.",
-        "bn": "দায়িত্ব নিয়ে কাজ করুন।",
-        "en": "Work with a sense of responsibility."
-      },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি একটু জোর দিয়ে 'ছ'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "예의",
-      "romanization": "yeui",
-      "bn": "ভদ্রতা",
-      "en": "courtesy",
-      "pos": "noun",
-      "example": {
-        "ko": "동료에게 예의를 지키세요.",
-        "bn": "সহকর্মীদের প্রতি ভদ্র থাকুন।",
-        "en": "Be polite to your coworkers."
-      },
-      "pronunciationTipBn": "'의' ধ্বনিটি শব্দের শেষে 'ই'-এর মতো উচ্চারিত হতে পারে।"
-    },
-    {
-      "ko": "상사",
-      "romanization": "sangsa",
-      "bn": "উর্ধ্বতন কর্মকর্তা",
-      "en": "supervisor/boss",
-      "pos": "noun",
-      "example": {
-        "ko": "상사와 복장 규정을 확인하세요.",
-        "bn": "উর্ধ্বতন কর্মকর্তার সঙ্গে পোশাক নিয়ম যাচাই করুন।",
-        "en": "Check the dress code with your supervisor."
-      },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি 'স'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "복장 규정",
-      "romanization": "bokjang gyujeong",
-      "bn": "পোশাক নিয়মাবলি",
-      "en": "dress code",
-      "pos": "noun",
-      "example": {
-        "ko": "회사 복장 규정을 읽어 보세요.",
-        "bn": "কোম্পানির পোশাক নিয়ম পড়ে দেখুন।",
-        "en": "Read the company's dress code."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি শব্দের শুরুতে 'খ' ও 'গ'-এর মাঝামাঝি উচ্চারিত হয়।"
-    },
-    {
-      "ko": "작업복",
-      "romanization": "jageopbok",
-      "bn": "কাজের পোশাক",
-      "en": "work clothes",
-      "pos": "noun",
-      "example": {
-        "ko": "작업복을 입고 일하세요.",
-        "bn": "কাজের পোশাক পরে কাজ করুন।",
-        "en": "Work wearing work clothes."
-      },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি নিচে থাকলে 'প'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "안전모",
-      "romanization": "anjeonmo",
-      "bn": "নিরাপত্তা হেলমেট",
-      "en": "safety helmet",
-      "pos": "noun",
-      "example": {
-        "ko": "공사장에서는 안전모를 써야 합니다.",
-        "bn": "নির্মাণস্থলে নিরাপত্তা হেলমেট পরতে হবে।",
-        "en": "You must wear a safety helmet at the construction site."
-      },
-      "pronunciationTipBn": "'ㅁ' ধ্বনিটি 'ম'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "안전장갑",
-      "romanization": "anjeonjanggap",
-      "bn": "নিরাপত্তা গ্লাভস",
-      "en": "safety gloves",
-      "pos": "noun",
-      "example": {
-        "ko": "기계를 만질 때 안전장갑을 끼세요.",
-        "bn": "মেশিন ধরার সময় নিরাপত্তা গ্লাভস পরুন।",
-        "en": "Wear safety gloves when touching the machine."
-      },
-      "pronunciationTipBn": "'ㄲ' ধ্বনিটি শক্ত 'ক'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "마스크",
-      "romanization": "maseukeu",
-      "bn": "মাস্ক",
-      "en": "mask",
-      "pos": "noun",
-      "example": {
-        "ko": "먼지가 많으니 마스크를 쓰세요.",
-        "bn": "অনেক ধুলো তাই মাস্ক পরুন।",
-        "en": "There is a lot of dust, so wear a mask."
-      },
-      "pronunciationTipBn": "'ㅋ' ধ্বনিটি একটু জোর দিয়ে 'খ'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "보안경",
-      "romanization": "boangyeong",
-      "bn": "নিরাপত্তা চশমা",
-      "en": "safety goggles",
-      "pos": "noun",
-      "example": {
-        "ko": "눈을 보호하기 위해 보안경을 쓰세요.",
-        "bn": "চোখ রক্ষা করতে নিরাপত্তা চশমা পরুন।",
-        "en": "Wear safety goggles to protect your eyes."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি 'গ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "귀마개",
-      "romanization": "gwimagae",
-      "bn": "ইয়ারপ্লাগ",
-      "en": "earplugs",
-      "pos": "noun",
-      "example": {
-        "ko": "소음이 심하면 귀마개를 하세요.",
-        "bn": "শব্দ বেশি হলে ইয়ারপ্লাগ ব্যবহার করুন।",
-        "en": "If the noise is loud, use earplugs."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি 'গ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "단추",
-      "romanization": "danchu",
-      "bn": "বোতাম",
-      "en": "button",
-      "pos": "noun",
-      "example": {
-        "ko": "단추를 잠그세요.",
-        "bn": "বোতাম লাগান।",
-        "en": "Button up."
-      },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি একটু জোর দিয়ে 'ছ'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "지퍼",
-      "romanization": "jipeo",
-      "bn": "চেইন/জিপার",
-      "en": "zipper",
-      "pos": "noun",
-      "example": {
-        "ko": "지퍼를 올리세요.",
-        "bn": "চেইন উপরে তুলুন।",
-        "en": "Zip up."
-      },
-      "pronunciationTipBn": "'ㅍ' ধ্বনিটি একটু জোর দিয়ে 'ফ'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "넥타이",
-      "romanization": "nektai",
-      "bn": "টাই",
-      "en": "necktie",
-      "pos": "noun",
-      "example": {
-        "ko": "넥타이를 매세요.",
-        "bn": "টাই বাঁধুন।",
-        "en": "Tie your necktie."
-      },
-      "pronunciationTipBn": "'ㅌ' ধ্বনিটি একটু জোর দিয়ে 'থ'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "결근",
-      "romanization": "gyeolgeun",
-      "bn": "অনুপস্থিতি",
-      "en": "absence",
-      "pos": "noun",
-      "example": {
-        "ko": "무단 결근을 하면 안 됩니다.",
-        "bn": "বিনা অনুমতিতে অনুপস্থিত থাকা যাবে না।",
-        "en": "You must not be absent without permission."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি 'গ'-এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "조퇴",
-      "romanization": "jotwoe",
-      "bn": "আগে ছুটি নেওয়া",
-      "en": "leaving early",
-      "pos": "noun",
-      "example": {
-        "ko": "몸이 아파서 조퇴를 했습니다.",
-        "bn": "শরীর খারাপ থাকায় আগে ছুটি নিয়েছি।",
-        "en": "I left early because I was sick."
-      },
-      "pronunciationTipBn": "'ㅌ' ধ্বনিটি একটু জোর দিয়ে 'থ'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "외출",
-      "romanization": "oechul",
-      "bn": "বাইরে যাওয়া",
-      "en": "going out",
-      "pos": "noun",
-      "example": {
-        "ko": "근무 시간에 외출하지 마세요.",
-        "bn": "কাজের সময় বাইরে যাবেন না।",
-        "en": "Do not go out during working hours."
-      },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি একটু জোর দিয়ে 'ছ'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "퇴근",
-      "romanization": "toegeun",
-      "bn": "কাজ শেষে বাড়ি ফেরা",
-      "en": "leaving work",
-      "pos": "noun",
-      "example": {
-        "ko": "퇴근 시간은 오후 6시입니다.",
-        "bn": "কাজ শেষে বাড়ি ফেরার সময় সন্ধ্যা ৬টা।",
-        "en": "Leaving work time is 6 PM."
-      },
-      "pronunciationTipBn": "'ㅌ' ধ্বনিটি একটু জোর দিয়ে 'থ'-এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "인사",
-      "romanization": "insa",
-      "bn": "সালাম/শুভেচ্ছা",
-      "en": "greeting",
-      "pos": "noun",
-      "example": {
-        "ko": "동료에게 밝게 인사하세요.",
-        "bn": "সহকর্মীদের উজ্জ্বলভাবে সালাম দিন।",
-        "en": "Greet your coworkers brightly."
-      },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি 'স'-এর মতো উচ্চারিত হয়।"
+      "pronunciationTipBn": "তিনটি অক্ষরেই নাকের 'ং'—'공-장-장'। উপরের পদমর্যাদার লোককে ডাকতে '-님' যোগ করে '공장장님' বলুন।"
     }
   ],
   "grammar": [
     {
-      "pattern": "(으)면 안 되다",
-      "titleBn": "নিষেধ (কাজ করা যাবে না)",
-      "explanationBn": "কিছু করা নিষেধ বা অনুমোদন না থাকার কথা বলতে ব্যবহার করা হয়। '~하면 안 돼요/안 됩니다' বলে মামুলত ব্যাহত করা হয়।",
-      "explanationEn": "Used to express prohibition or that something is not allowed. It means 'must not' or 'cannot'.",
+      "pattern": "A + -아/어 보이다",
+      "titleBn": "'-아/어 보이다' — দেখে মনে হওয়া / দেখতে লাগা",
+      "explanationBn": "মূলত বিশেষণের (형용사) সঙ্গে '-아/어 보이다' যোগ করলে কোনো কিছু দেখে যে অবস্থা মনে হয় বা অনুমান করা যায়, তা বোঝায়—বাংলায় 'দেখতে ... লাগছে', '... মনে হচ্ছে'। মূলের শেষ স্বর 'ㅏ, ㅗ' হলে '-아 보이다': 좋다 → 좋아 보이다, 작다 → 작아 보이다। অন্য স্বর হলে '-어 보이다': 맛있다 → 맛있어 보이다, 넓다 → 넓어 보이다। '-하다' দিয়ে শেষ হলে '-해 보이다': 단정하다 → 단정해 보이다, 편하다 → 편해 보이다। কারখানায় সহকর্মীর পোশাক বা চেহারা দেখে মন্তব্য করতে এটি খুব কাজে লাগে।",
+      "explanationEn": "-아/어 보이다 attaches mainly to adjectives to express that something appears or seems to be in a certain state. Use -아 보이다 after ㅏ/ㅗ (작다 → 작아 보이다), -어 보이다 after other vowels (맛있다 → 맛있어 보이다), and -해 보이다 for -하다 adjectives (단정하다 → 단정해 보이다).",
       "examples": [
         {
-          "ko": "공장에서는 안전모를 쓰지 않으면 안 됩니다.",
-          "bn": "কারখানায় নিরাপত্তা হেলমেট ছাড়া চলবে না।",
-          "en": "You must wear a safety helmet in the factory."
+          "ko": "작업복이 좀 작아 보이는데 불편하지 않아요?",
+          "bn": "কাজের পোশাকটা একটু ছোট দেখাচ্ছে, অসুবিধা হচ্ছে না?",
+          "en": "Your work clothes look a bit small — isn't it uncomfortable?"
         },
         {
-          "ko": "근무 중에는 휴게실에서 큰 소리로 통화하면 안 돼요.",
-          "bn": "কাজের সময় বিরতির ঘরে জোরে ফোন করা চলবে না।",
-          "en": "You must not talk loudly on the phone in the break room during work."
+          "ko": "단추를 잠그니까 단정해 보이네요.",
+          "bn": "বোতাম লাগানোর ফলে দেখতে পরিপাটি লাগছে।",
+          "en": "Now that you've buttoned up, you look neat."
+        },
+        {
+          "ko": "유니폼이 파란색이라서 시원해 보여요.",
+          "bn": "ইউনিফর্মটা নীল রঙের, তাই দেখতে ঠান্ডা ঠান্ডা লাগে।",
+          "en": "The uniform is blue, so it looks cool."
+        },
+        {
+          "ko": "지퍼를 올리는 게 안전하고 단정해 보여요.",
+          "bn": "চেন টেনে ওঠানোটা নিরাপদ, আর দেখতেও পরিপাটি লাগে।",
+          "en": "Zipping it up is safe and looks neat."
         }
       ],
-      "commonMistakeBn": "অনেকে '안' এর জায়গায় '못' ব্যবহার করেন; এখানে '안' ব্যবহার করতে হবে।"
+      "commonMistakeBn": "'-하다' বিশেষণের সঙ্গে '하아 보이다' নয়—'단정하아 보이다' ভুল, সঠিক '단정해 보여요'। আবার 'ㅗ' থাকলেও '-어' নয়: '좋어 보여요' ভুল, '좋아 보여요' সঠিক। এটি মূলত বিশেষণের সঙ্গে বসে; ক্রিয়ার সঙ্গে সরাসরি বসিয়ে '먹어 보여요' বললে অর্থ বদলে যায়।"
     },
     {
-      "pattern": "아/어야 하다",
-      "titleBn": "অবশ্যই করতে হবে (দায়িত্ব)",
-      "explanationBn": "কিছু করা বাধ্যতামূলক বোঝাতে ব্যবহার হয়। '~아/어야 합니다/해요' বলতে 'must' বা 'have to'।",
-      "explanationEn": "Used to indicate obligation. It means 'must' or 'have to'.",
+      "pattern": "A + -게",
+      "titleBn": "'-게' — কীভাবে বা কতটা (কাজের ধরন/মাত্রা)",
+      "explanationBn": "বিশেষণের সঙ্গে '-게' যোগ করলে সেটি ক্রিয়াবিশেষণ হয়ে যায় এবং পরের কাজের ধরন বা মাত্রা বোঝায়—বাংলায় '...ভাবে', '...করে'। 성실하다 → 성실하게 (মন দিয়ে), 짧다 → 짧게 (ছোট করে), 맛있다 → 맛있게 (মজা করে), 단정하다 → 단정하게 (পরিপাটি করে)। বাতচিম থাকুক বা না থাকুক রূপ একই—শুধু মূলের সঙ্গে '-게' বসে যায়। কর্মস্থলে প্রশংসা বা নির্দেশ দিতে এটি নিয়মিত ব্যবহার হয়।",
+      "explanationEn": "-게 attaches mainly to adjectives to turn them into adverbs indicating the degree or manner of the following action: 성실하다 → 성실하게 (diligently), 짧다 → 짧게 (short), 맛있다 → 맛있게 (deliciously). The form never changes regardless of a final consonant.",
       "examples": [
         {
-          "ko": "출근 전에 명찰을 착용해야 합니다.",
-          "bn": "কাজে আসার আগে নামের ব্যাজ অবশ্যই লাগাতে হবে।",
-          "en": "You must put on your name tag before coming to work."
+          "ko": "칼로 씨는 항상 성실하게 일하네요.",
+          "bn": "কার্লো সবসময় মন দিয়ে পরিশ্রম করে কাজ করে।",
+          "en": "Carlo always works so diligently."
         },
         {
-          "ko": "작업화는 항상 신어야 해요.",
-          "bn": "কাজের জুতা সবসময় পরতে হবে।",
-          "en": "You must always wear work shoes."
+          "ko": "배가 고파서 점심을 아주 맛있게 먹었어요.",
+          "bn": "খুব খিদে পেয়েছিল, তাই দুপুরের খাবার খুব মজা করে খেয়েছি।",
+          "en": "I was hungry, so I ate lunch very happily."
+        },
+        {
+          "ko": "마두 씨는 항상 옷을 단정하게 입어요.",
+          "bn": "মাধু সবসময় পরিপাটি করে জামাকাপড় পরে।",
+          "en": "Madhu always dresses neatly."
+        },
+        {
+          "ko": "날씨가 더워서 머리를 짧게 잘랐어요.",
+          "bn": "গরম লাগছিল, তাই চুল ছোট করে কেটেছি।",
+          "en": "It was hot, so I cut my hair short."
         }
       ],
-      "commonMistakeBn": "অনেকে স্বরবর্ণের পরে ভুল করে '어야' ব্যবহার করেন; স্বরবর্ণের পরে '아야' বা '해야' বসবে।"
+      "commonMistakeBn": "'-게' আর '-이/히' গুলিয়ে ফেলা যাবে না—কর্মস্থলের এই প্যাটার্নে '성실히'-র বদলে সহজ রূপ '성실하게' শিখুন, কিন্তু '성실하게게' মতো দ্বিগুণ করা ভুল। আবার '-게' বিশেষণের মূলে বসে, শেষভঙ্গিতে নয়: '성실해게' ভুল, '성실하게' সঠিক।"
     },
     {
-      "pattern": "(으)ㄴ/는 것이 좋다",
-      "titleBn": "উপদেশ/ভালো হবে",
-      "explanationBn": "কোনো কাজ করার পরামর্শ বা সুপারিশ দিতে ব্যবহৃত হয়। '~는 것이 좋습니다' মানে 'ভালো হবে'।",
-      "explanationEn": "Used to give advice or recommendation. '~는 것이 좋다' means 'it's better to' or 'you should'.",
+      "pattern": "V + -아/어도 되다",
+      "titleBn": "'-아/어도 되다' — অনুমতি চাওয়া / '...করলে চলবে?'",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-아/어도 되다' যোগ করলে অনুমতি চাওয়া বা অনুমতি দেওয়া বোঝায়—বাংলায় '...করলে চলবে?', '...করতে পারি?', '...করলেও হবে'। মূলের শেষ স্বর 'ㅏ, ㅗ' হলে '-아도 되다': 가다 → 가도 되다, 앉다 → 앉아도 되다। অন্য স্বর হলে '-어도 되다': 내리다 → 내려도 되다, 먹다 → 먹어도 되다। '-하다' হলে '-해도 되다': 작업하다 → 작업해도 되다। কারখানায় রিদার বা ম্যানেজারের কাছে কিছু করার অনুমতি চাইতে এই রূপটাই ব্যবহার করবেন; উত্তর হ্যাঁ হলে '네, 괜찮아요' বা '네, 되세요' নয় বরং '네, 돼요' বলা হয়।",
+      "explanationEn": "-아/어도 되다 attaches to verbs to ask for or grant permission ('may I / it's okay to'). Use -아도 되다 after ㅏ/ㅗ (가다 → 가도 돼요), -어도 되다 after other vowels (내리다 → 내려도 돼요), and -해도 되다 for -하다 verbs (작업하다 → 작업해도 돼요).",
       "examples": [
         {
-          "ko": "면접에는 단정한 복장을 하는 것이 좋습니다.",
-          "bn": "সাক্ষাৎকারে শালীন পোশাক পরাই ভালো।",
-          "en": "It's better to wear neat attire to interviews."
+          "ko": "지퍼를 조금만 내리고 작업해도 돼요?",
+          "bn": "চেনটা একটু নামিয়ে কাজ করলে চলবে?",
+          "en": "Can I unzip it a little while I work?"
         },
         {
-          "ko": "근무 시간에는 휴대폰을 진동으로 하는 것이 좋다.",
-          "bn": "কাজের সময়ে মোবাইল ফোন সাইলেন্ট রাখাই ভালো।",
-          "en": "It's recommended to set your phone to vibrate during work."
+          "ko": "더워서 그러는데 단추를 하나 풀어도 돼요?",
+          "bn": "গরম লাগছে, তাই একটা বোতাম খুললে চলবে?",
+          "en": "It's hot, so may I unbutton one button?"
+        },
+        {
+          "ko": "네, 작업이 끝나면 작업복을 벗어도 돼요.",
+          "bn": "হ্যাঁ, কাজ শেষ হলে কাজের পোশাক খুলতে পারেন।",
+          "en": "Yes, you may take off your work clothes when the work is done."
         }
       ],
-      "commonMistakeBn": "অনেকে '는' এর জায়গায় '은' ব্যবহার করেন; ক্রিয়াপদের পরে সবসময় '는' বসবে।"
+      "commonMistakeBn": "'되다'-র বর্তমান রূপ '돼요', '되요' নয়—লেখার সময় এই ভুলটা খুব হয়। আবার অনুমতি চাওয়ার সময় '-아/어도 돼요?' বলুন; '-아/어야 돼요?' বললে অর্থ বদলে গিয়ে 'অবশ্যই করতে হবে কি?' হয়ে যায়।"
     },
     {
-      "pattern": "지 마세요",
-      "titleBn": "নিষেধাজ্ঞা (করবেন না)",
-      "explanationBn": "কাউকে কোনো কাজ করতে নিষেধ করার জন্য এটি ব্যবহার করা হয়। এটি 'করবেন না' বা 'don't' অর্থ প্রকাশ করে।",
-      "explanationEn": "Used to tell someone not to do something. It means 'please do not'.",
+      "pattern": "V + -(으)면 안 되다",
+      "titleBn": "'-(으)면 안 되다' — নিষেধ / '...করা যাবে না'",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-(으)면 안 되다' যোগ করলে কোনো কাজ করা নিষেধ বোঝায়—বাংলায় '...করা যাবে না', '...করলে হবে না'। মূলে বাতচিম (শেষ ব্যঞ্জন) থাকলে '-으면 안 되다': 먹다 → 먹으면 안 돼요, 풀다-এর মতো 'ㄹ' বাতচিম হলে শুধু '-면': 풀면 안 돼요। বাতচিম না থাকলে '-면 안 되다': 하다 → 하면 안 돼요, 주다 → 주면 안 돼요। নিরাপত্তা ও কর্মস্থলের নিয়ম বোঝাতে এটি সবচেয়ে বেশি শোনা যায়—'더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.'",
+      "explanationEn": "-(으)면 안 되다 attaches to verbs to express prohibition ('must not / may not'). Use -으면 안 되다 after a final consonant (먹다 → 먹으면 안 돼요) and -면 안 되다 after a vowel or final ㄹ (하다 → 하면 안 돼요, 풀다 → 풀면 안 돼요).",
       "examples": [
         {
-          "ko": "작업장에서 뛰지 마세요.",
-          "bn": "কর্মস্থলে দৌড়াবেন না।",
-          "en": "Please do not run in the workplace."
+          "ko": "더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.",
+          "bn": "গরম লাগলেও কাজের পোশাকের বোতাম খুলে কাজ করা যাবে না। বিপজ্জনক।",
+          "en": "Even if it's hot, you must not work with your work clothes unbuttoned. It's dangerous."
         },
         {
-          "ko": "안전모를 벗지 마세요.",
-          "bn": "নিরাপত্তা হেলমেট খুলবেন না।",
-          "en": "Please do not take off your safety helmet."
+          "ko": "같이 사용하는 물건을 함부로 하면 안 돼요.",
+          "bn": "সবাই মিলে ব্যবহার করা জিনিস বেপরোয়াভাবে ব্যবহার করা যাবে না।",
+          "en": "You must not treat shared items carelessly."
         },
         {
-          "ko": "근무 시간에 자지 마세요.",
-          "bn": "কাজের সময় ঘুমাবেন না।",
-          "en": "Please do not sleep during working hours."
+          "ko": "일하고 있는 동료에게 피해를 주면 안 돼요.",
+          "bn": "যে সহকর্মী কাজ করছে তার অসুবিধা করা যাবে না।",
+          "en": "You must not cause trouble for a colleague who is working."
+        },
+        {
+          "ko": "지하철에서 큰 소리로 말하면 안 돼요.",
+          "bn": "সাবওয়েতে জোরে শব্দ করে কথা বলা যাবে না।",
+          "en": "You must not talk loudly on the subway."
         }
       ],
-      "commonMistakeBn": "অনেকে '안' এর সাথে এটি গুলিয়ে ফেলেন; '지 마세요' সরাসরি নিষেধ করতে ব্যবহৃত হয়।"
+      "commonMistakeBn": "'ㄹ' বাতচিমে '으' বসে না—'풀으면 안 돼요' ভুল, সঠিক '풀면 안 돼요'। আর '안' আলাদা শব্দ, তাই '안돼요' একসঙ্গে না লিখে '안 돼요' লিখুন; '안 되요' নয়, '안 돼요'।"
     },
     {
-      "pattern": "(으)세요",
-      "titleBn": "অনুরোধ/নির্দেশ (করুন)",
-      "explanationBn": "কাউকে সম্মানজনকভাবে কোনো কাজ করতে বলার জন্য এটি ব্যবহার করা হয়। এটি 'করুন' বা 'please do' অর্থ প্রকাশ করে।",
-      "explanationEn": "Used to politely request or command someone to do something. It means 'please do'.",
+      "pattern": "V + -아/어야 되다",
+      "titleBn": "'-아/어야 되다' — অবশ্যই করতে হবে (দায়িত্ব ও নিয়ম)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-아/어야 되다' যোগ করলে কাজটি অবশ্যই করা দরকার বা বাধ্যতামূলক বোঝায়—বাংলায় '...করতে হবে', '...করা দরকার'। মূলের শেষ স্বর 'ㅏ, ㅗ' হলে '-아야 되다': 잠그다 → 잠가야 돼요, 가다 → 가야 돼요। অন্য স্বর হলে '-어야 되다': 입다 → 입어야 돼요, 벗다 → 벗어야 돼요। '-하다' হলে '-해야 되다': 존중하다 → 존중해야 돼요, 배려하다 → 배려해야 돼요। কারখানার নিয়ম, পোশাকের বাধ্যবাধকতা ও কর্মস্থলের আচরণ বোঝাতে এটি প্রতিদিন লাগে। '-아/어야 하다' প্রায় একই অর্থে ব্যবহার হয়; বলা-কথায় '-아/어야 돼요' বেশি শোনা যায়।",
+      "explanationEn": "-아/어야 되다 attaches to verbs to express obligation or necessity ('have to / must'). Use -아야 되다 after ㅏ/ㅗ (가다 → 가야 돼요), -어야 되다 after other vowels (입다 → 입어야 돼요), and -해야 되다 for -하다 verbs (존중하다 → 존중해야 돼요). -아/어야 하다 carries almost the same meaning.",
       "examples": [
         {
-          "ko": "작업복의 단추를 잠그세요.",
-          "bn": "কাজের পোশাকের বোতাম লাগান।",
-          "en": "Please button up your work clothes."
+          "ko": "작업장에서 일할 때는 항상 작업복을 입어야 돼요.",
+          "bn": "কাজের জায়গায় কাজ করার সময় সবসময় কাজের পোশাক পরতে হবে।",
+          "en": "When working in the workshop, you must always wear work clothes."
         },
         {
-          "ko": "안전화를 신으세요.",
-          "bn": "নিরাপত্তা জুতা পরুন।",
-          "en": "Please wear safety shoes."
+          "ko": "직장에서는 서로 존중해야 돼요.",
+          "bn": "কর্মস্থলে একে অপরকে সম্মান করতে হবে।",
+          "en": "At work, you must respect each other."
         },
         {
-          "ko": "일찍 출근하세요.",
-          "bn": "তাড়াতাড়ি কাজে আসুন।",
-          "en": "Please come to work early."
+          "ko": "동료의 의견을 존중해야 돼요.",
+          "bn": "সহকর্মীর মতামতকে সম্মান করতে হবে।",
+          "en": "You must respect your colleagues' opinions."
+        },
+        {
+          "ko": "출근한 후에 바로 작업복으로 갈아입어야 돼요.",
+          "bn": "কাজে ঢোকার পরেই সঙ্গে সঙ্গে কাজের পোশাকে বদলে নিতে হবে।",
+          "en": "Right after arriving at work, you have to change into your work clothes."
         }
       ],
-      "commonMistakeBn": "বাচ্চিম (받침) থাকলে '으세요' এবং না থাকলে '세요' বসবে, এটি অনেকে ভুল করেন।"
+      "commonMistakeBn": "'잠그다'-র মতো '으' দিয়ে শেষ হওয়া ক্রিয়ায় '으' পড়ে যায়—'잠그어야 돼요' ভুল, সঠিক '잠가야 돼요'। আবার '돼요'-র বানান খেয়াল রাখুন: '되야 돼요' নয়, '-아/어야 돼요'। অনুমতি বোঝাতে '-아/어도 돼요' আর বাধ্যবাধকতা বোঝাতে '-아/어야 돼요'—দুটো গুলিয়ে ফেলবেন না।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "복장 확인하기",
-      "titleEn": "Checking Attire",
+      "titleBn": "নতুন ইউনিফর্ম একটু ছোট দেখাচ্ছে",
+      "titleEn": "The New Uniform Looks a Bit Small",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "안녕하세요, 오늘 복장 규정이 어떻게 되나요?",
-          "bn": "নমস্কার, আজ পোশাক নিয়ম কীভাবে?",
-          "en": "Hello, what is the dress code today?"
+          "speaker": "반장",
+          "ko": "유수프 씨, 새 유니폼이 좀 작아 보이는데 불편하지 않아요?",
+          "bn": "ইউসুফ, নতুন ইউনিফর্মটা একটু ছোট দেখাচ্ছে, অসুবিধা হচ্ছে না?",
+          "en": "Yusuf, the new uniform looks a bit small — isn't it uncomfortable?"
         },
         {
-          "speaker": "상사",
-          "ko": "오늘은 유니폼을 착용해야 합니다. 명찰도 달아 주세요.",
-          "bn": "আজ ইউনিফর্ম পরতে হবে। নামের ব্যাজও লাগাবেন।",
-          "en": "Today you must wear the uniform. Also attach your name tag."
+          "speaker": "유수프",
+          "ko": "조금 작지만 괜찮아요, 반장님.",
+          "bn": "একটু ছোট, তবে সমস্যা নেই, বানজাংনিম।",
+          "en": "It's a little small, but it's fine, team leader."
         },
         {
-          "speaker": "직원",
-          "ko": "유니폼이 없으면 어떻게 하나요?",
-          "bn": "ইউনিফর্ম না থাকলে কি করব?",
-          "en": "What if I don't have a uniform?"
+          "speaker": "반장",
+          "ko": "단추를 잠그기 힘들면 사무실에 가서 새로 받으세요.",
+          "bn": "বোতাম লাগাতে কষ্ট হলে অফিসে গিয়ে নতুন একটা নিয়ে আসুন।",
+          "en": "If it's hard to button up, go to the office and get a new one."
         },
         {
-          "speaker": "상사",
-          "ko": "사무실에 여분이 있으니 저에게 말씀하세요.",
-          "bn": "অফিসে অতিরিক্ত আছে, আমার কাছে বলুন।",
-          "en": "There are extras in the office, tell me."
+          "speaker": "유수프",
+          "ko": "네, 그럼 점심시간에 사무실에 가 보겠습니다.",
+          "bn": "জি, তাহলে দুপুরের খাবারের সময় অফিসে গিয়ে দেখব।",
+          "en": "Yes, then I'll go to the office at lunchtime."
         },
         {
-          "speaker": "직원",
-          "ko": "알겠습니다. 감사합니다.",
-          "bn": "বুঝেছি। ধন্যবাদ।",
-          "en": "Understood. Thank you."
+          "speaker": "반장",
+          "ko": "그런데 유니폼이 파란색이라서 시원해 보이네요.",
+          "bn": "তবে ইউনিফর্মটা নীল রঙের, তাই দেখতে ঠান্ডা ঠান্ডা লাগছে।",
+          "en": "By the way, the uniform is blue, so it looks cool."
+        },
+        {
+          "speaker": "유수프",
+          "ko": "네, 예전 작업복보다 가벼워서 좋습니다.",
+          "bn": "জি, আগের কাজের পোশাকের চেয়ে হালকা, তাই ভালো লাগছে।",
+          "en": "Yes, it's lighter than the old work clothes, so I like it."
         }
       ]
     },
     {
-      "titleBn": "근무 태도 이야기",
-      "titleEn": "Talking About Work Attitude",
+      "titleBn": "কাজের পোশাকের বোতাম আর চেন",
+      "titleEn": "Buttons and Zippers on Work Clothes",
       "lines": [
         {
-          "speaker": "동료",
-          "ko": "요즘 지각이 잦은데 괜찮아요?",
-          "bn": "গতকালগুলোতে দেরি হচ্ছে, ঠিক আছে কি?",
-          "en": "You've been late recently, is everything okay?"
+          "speaker": "반장",
+          "ko": "칼로 씨, 왜 작업복 단추를 안 잠갔어요?",
+          "bn": "কার্লো, কাজের পোশাকের বোতাম কেন লাগাননি?",
+          "en": "Carlo, why haven't you buttoned up your work clothes?"
         },
         {
-          "speaker": "직원",
-          "ko": "교통 문제 때문에요. 더 일찍 출발하겠습니다.",
-          "bn": "যাতায়াত সমস্যায়। এখন থেকে আগে রওয়ানা দেব।",
-          "en": "It's due to transportation. I'll leave earlier from now on."
+          "speaker": "칼로",
+          "ko": "작업장이 너무 더워서 조금 풀었어요.",
+          "bn": "কাজের জায়গাটা খুব গরম, তাই একটু খুলে রেখেছি।",
+          "en": "The workshop is too hot, so I unbuttoned it a little."
         },
         {
-          "speaker": "동료",
-          "ko": "지각은 동료에게도 불편하니 주의하세요.",
-          "bn": "দেরি হলে সহকর্মীর জন্যও সমস্যা হয়, খেয়াল রাখুন।",
-          "en": "Being late inconveniences coworkers, so be careful."
+          "speaker": "반장",
+          "ko": "더워도 단추를 풀고 일하면 안 돼요. 위험해요.",
+          "bn": "গরম হলেও বোতাম খুলে কাজ করা যাবে না। এটা বিপজ্জনক।",
+          "en": "Even if it's hot, you must not work with it unbuttoned. It's dangerous."
         },
         {
-          "speaker": "직원",
-          "ko": "네, 책임감을 가지고 일하겠습니다.",
-          "bn": "জি, দায়িত্ব নিয়ে কাজ করব।",
-          "en": "Yes, I will work responsibly."
+          "speaker": "칼로",
+          "ko": "알겠습니다. 지금 잠글게요. 지퍼도 올려야 돼요?",
+          "bn": "বুঝেছি। এখনই লাগিয়ে নিচ্ছি। চেনও টেনে তুলতে হবে?",
+          "en": "I understand. I'll button it now. Should I zip it up too?"
         },
         {
-          "speaker": "동료",
-          "ko": "감사합니다. 도움이 필요하면 말하세요.",
-          "bn": "ধন্যবাদ। সাহায্য লাগলে বলবেন।",
-          "en": "Thank you. Let me know if you need help."
+          "speaker": "반장",
+          "ko": "네, 지퍼를 목까지 올리는 게 안전하고 단정해 보여요.",
+          "bn": "জি, গলা পর্যন্ত চেন টেনে তোলাটা নিরাপদ, আর দেখতেও পরিপাটি লাগে।",
+          "en": "Yes, zipping it up to the neck is safe and looks neat."
+        },
+        {
+          "speaker": "칼로",
+          "ko": "처음에는 좀 불편했는데 이제 익숙해졌어요.",
+          "bn": "প্রথমে একটু অস্বস্তি হচ্ছিল, কিন্তু এখন অভ্যাস হয়ে গেছে।",
+          "en": "It was a bit uncomfortable at first, but now I've gotten used to it."
+        },
+        {
+          "speaker": "반장",
+          "ko": "좋아요. 출근한 후에는 바로 작업복으로 갈아입고 일을 시작하세요.",
+          "bn": "খুব ভালো। কাজে এসে সঙ্গে সঙ্গে কাজের পোশাক পরে নিয়ে কাজ শুরু করুন।",
+          "en": "Good. After you arrive at work, change into your work clothes right away and start working."
         }
       ]
     },
     {
-      "titleBn": "안전 장비 착용",
-      "titleEn": "Wearing Safety Equipment",
+      "titleBn": "কর্মস্থলে সম্মানসূচক ভাষা আর ভালো মনোভাব",
+      "titleEn": "Honorific Language and a Good Attitude at Work",
       "lines": [
         {
-          "speaker": "반장",
-          "ko": "투안 씨, 작업장에 들어갈 때는 안전모를 써야 합니다.",
-          "bn": "তুয়ান সাহেব, কর্মস্থলে ঢোকার সময় নিরাপত্তা হেলমেট পরতে হবে।",
-          "en": "Tuan, you must wear a safety helmet when entering the workplace."
+          "speaker": "공장장",
+          "ko": "유수프 씨, 새로 온 직원은 어때요?",
+          "bn": "ইউসুফ, নতুন যে কর্মী এসেছে, সে কেমন?",
+          "en": "Yusuf, how is the new employee doing?"
         },
         {
-          "speaker": "투안",
-          "ko": "아, 죄송합니다. 깜빡했습니다.",
-          "bn": "আহ, দুঃখিত। আমি ভুলে গিয়েছিলাম।",
-          "en": "Ah, I'm sorry. I forgot."
+          "speaker": "유수프",
+          "ko": "항상 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.",
+          "bn": "সে সবসময় মন দিয়ে কাজ করে। তাই বানজাংনিম তাকে অনেক প্রশংসা করেন।",
+          "en": "He always works diligently. That's why the team leader compliments him a lot."
         },
         {
-          "speaker": "반장",
-          "ko": "그리고 안전화도 꼭 신으세요. 다칠 수 있습니다.",
-          "bn": "এবং নিরাপত্তা জুতাও অবশ্যই পরবেন। আঘাত পেতে পারেন।",
-          "en": "And make sure to wear safety shoes. You could get hurt."
+          "speaker": "공장장",
+          "ko": "다행이네요. 그런데 동료들에게 반말을 한다고 들었어요.",
+          "bn": "যাক, স্বস্তির কথা। তবে শুনেছি সে সহকর্মীদের সঙ্গে অসম্মানসূচক ভাষায় কথা বলে।",
+          "en": "That's fortunate. But I heard he speaks in non-honorifics to his coworkers."
         },
         {
-          "speaker": "투안",
-          "ko": "네, 알겠습니다. 지금 바로 신겠습니다.",
-          "bn": "জি, বুঝেছি। আমি এখনই পরছি।",
-          "en": "Yes, I understand. I will put them on right now."
+          "speaker": "유수프",
+          "ko": "네, 한국어를 배우는 중이라서요. 제가 이야기해 볼까요?",
+          "bn": "জি, সে তো এখনো কোরিয়ান শিখছে। আমি একবার তাকে বলে দেখি?",
+          "en": "Yes, he's still learning Korean. Shall I talk to him?"
         },
         {
-          "speaker": "반장",
-          "ko": "안전이 제일 중요하니까 항상 조심하세요.",
-          "bn": "নিরাপত্তাই সবচেয়ে গুরুত্বপূর্ণ, তাই সবসময় সাবধানে থাকবেন।",
-          "en": "Safety is the most important, so always be careful."
+          "speaker": "공장장",
+          "ko": "그래요. 직장에서는 서로 존중하고 존댓말을 해야 돼요.",
+          "bn": "হ্যাঁ, তাই করুন। কর্মস্থলে একে অন্যকে সম্মান করা আর সম্মানসূচক ভাষায় কথা বলা দরকার।",
+          "en": "Please do. At work, we should respect each other and use honorific language."
+        },
+        {
+          "speaker": "유수프",
+          "ko": "알겠습니다. 동료를 배려하는 게 중요하다고 말하겠습니다.",
+          "bn": "বুঝেছি। সহকর্মীর প্রতি খেয়াল রাখাটা কত জরুরি, সেটা তাকে বলব।",
+          "en": "I understand. I'll tell him it's important to be considerate to coworkers."
+        },
+        {
+          "speaker": "공장장",
+          "ko": "유수프 씨의 긍정적인 태도가 참 좋아요. 고마워요.",
+          "bn": "ইউসুফ, আপনার ইতিবাচক মনোভাব সত্যিই ভালো লাগে। ধন্যবাদ।",
+          "en": "I really like your positive attitude, Yusuf. Thank you."
+        },
+        {
+          "speaker": "유수프",
+          "ko": "감사합니다. 공장장님이 잘 가르쳐 주신 덕분이에요.",
+          "bn": "ধন্যবাদ। আপনি ভালোভাবে শিখিয়েছেন, সেই কারণেই এটা সম্ভব হয়েছে।",
+          "en": "Thank you. It's all thanks to your good guidance."
         }
       ]
     }
@@ -659,580 +771,569 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "다음 중 '안전화'의 뜻으로 맞는 것은?",
-      "questionKo": "다음 중 '안전화'의 뜻으로 맞는 것은?",
+      "questionBn": "'잠그다' শব্দের বিপরীত শব্দ কোনটি?",
+      "questionKo": "다음 단어의 반대말은 무엇입니까? — 잠그다",
       "options": [
-        "ইউনিফর্ম",
-        "অফিসের ঘর",
-        "নিরাপত্তা জুতা",
-        "নামপ্লেট"
+        "벗다",
+        "올리다",
+        "풀다",
+        "내리다"
       ],
-      "pairs": [],
       "answer": 2,
-      "explanationBn": "'안전화' মানে হচ্ছে নিরাপত্তা জুতা।"
+      "explanationBn": "'단추를 잠그다' মানে বোতাম লাগানো, আর তার ঠিক উল্টো '단추를 풀다' মানে বোতাম খোলা—তাই সঠিক উত্তর '풀다'। '벗다' মানে গোটা পোশাক খুলে ফেলা, সেটা '입다'-র বিপরীত। '올리다' (ওঠানো) আর '내리다' (নামানো) একে অন্যের বিপরীত এবং এই দুটো চেনের (지퍼) সঙ্গে বসে, '잠그다'-র জোড়া নয়।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "회사에서 '명찰을 착용해야 합니다'는 무슨 의미?",
-      "questionKo": "회사에서 '명찰을 착용해야 합니다'는 무슨 의미?",
+      "questionBn": "'단정하다'-র সঙ্গে '-아/어 보이다' যুক্ত করলে সঠিক রূপ কোনটি?",
+      "questionKo": "단정하다 + -아/어 보이다 = ?",
       "options": [
-        "명찰을 벗어야 합니다.",
-        "명찰을 보관하세요.",
-        "명찰을 착용하는 것이 좋습니다.",
-        "명찰을 반드시 달아야 합니다."
+        "단정해 보여요",
+        "단정하아 보여요",
+        "단정어 보여요",
+        "단정 보여요"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "문장에는 '해야 합니다'가 있어 '반드시 해야 한다'는 의미입니다।"
+      "answer": 0,
+      "explanationBn": "'-하다' দিয়ে শেষ হওয়া বিশেষণে '-해 보이다' বসে, তাই '단정하다 → 단정해 보여요' (দেখতে পরিপাটি লাগছে)। '단정하아 보여요' ভুল, কারণ '하 + 아' মিলে সংক্ষেপে '해' হয়ে যায়। '단정어 보여요'-তে '하' বাদ পড়ে গেছে, যা হয় না। '단정 보여요'-তে সংযোগকারী '-아/어' নেই, তাই বাক্যটি অসম্পূর্ণ।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 '단정하다'와 가장 가까운 뜻은?",
-      "questionKo": "다음 중 '단정하다'와 가장 가까운 뜻은?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সবচেয়ে মানানসই শব্দটি বসান।",
+      "questionKo": "작업할 때 안전하니까 지퍼를 목까지 ___ 돼요.",
       "options": [
-        "깔끔하다",
-        "빠르다",
-        "지저분하다",
-        "크다"
+        "내려야",
+        "올려야",
+        "벗어야",
+        "풀어야"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "'단정하다'는 '깔끔하다'와 비슷한 뜻입니다।"
+      "answer": 1,
+      "explanationBn": "নিরাপত্তার জন্য কাজের পোশাকের চেন গলা পর্যন্ত টেনে ওঠাতে হয়, তাই '올리다 + -아/어야 되다 = 올려야 돼요' সঠিক। '내려야 돼요' মানে নামাতে হবে—উল্টো অর্থ, নিরাপদও নয়। '벗어야 돼요' মানে পোশাকটাই খুলে ফেলতে হবে। '풀어야' বসে বোতাম বা নেকটাইয়ের সঙ্গে (단추를 풀다, 넥타이를 풀다); চেনের সঙ্গে '풀다' ব্যবহার হয় না।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "대화에서 상사가 직원에게 준 조언은 무엇인가요?",
-      "questionKo": "대화에서 상사가 직원에게 준 조언은 무엇인가요?",
+      "questionBn": "সংলাপ অনুযায়ী 공장장님 কেন মাধুর প্রশংসা করেছেন?",
+      "questionKo": "공장장님: 마두 씨는 항상 성실하게 일해서 참 좋아요. 너무 힘들면 말해요.",
       "options": [
-        "명찰을 버리라고 했다.",
-        "유니폼을 입으라고 했다.",
-        "휴게실을 청소하라고 했다.",
-        "일찍 퇴근하라고 했다."
+        "마두 씨가 옷을 잘 입어서",
+        "마두 씨가 한국말을 잘해서",
+        "마두 씨가 일을 아주 빨리 해서",
+        "마두 씨가 항상 성실하게 일해서"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "첫 대화에서 상사는 '유니폼을 착용해야 합니다'라고 말했습니다।"
+      "answer": 3,
+      "explanationBn": "সংলাপে সরাসরি বলা হয়েছে '항상 성실하게 일해서 참 좋아요'—অর্থাৎ মাধু সবসময় মন দিয়ে পরিশ্রম করে বলেই প্রশংসা; এখানে '성실하다 + -게' মিলে '성실하게' (আন্তরিকভাবে, মন দিয়ে) হয়েছে। পোশাক ভালো পরা, কোরিয়ান ভালো বলা বা খুব দ্রুত কাজ করা—এসব কথা সংলাপে নেই।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "문법 '(으)면 안 된다'는 어떤 뜻인가요?",
-      "questionKo": "문법 '(으)면 안 된다'는 어떤 뜻인가요?",
-      "options": [
-        "할 수 있다 (허용)",
-        "하면 좋다 (추천)",
-        "하면 안 된다 (금지)",
-        "해야 한다 (의무)"
+      "type": "matching",
+      "questionBn": "পোশাক-সম্পর্কিত শব্দগুলোর সঙ্গে সঠিক বাংলা অর্থ মেলান।",
+      "questionKo": "복장 관련 어휘와 알맞은 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "작업복",
+          "right": "কাজের পোশাক"
+        },
+        {
+          "left": "유니폼",
+          "right": "ইউনিফর্ম"
+        },
+        {
+          "left": "양복",
+          "right": "স্যুট (পুরুষের ফরমাল পোশাক)"
+        },
+        {
+          "left": "갈아입다",
+          "right": "পোশাক পাল্টানো"
+        },
+        {
+          "left": "벗다",
+          "right": "খুলে ফেলা"
+        }
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "이 표현은 '금지'의 의미로 사용됩니다।"
+      "explanationBn": "এই পাঁচটির প্রথম তিনটি পোশাকের নাম (বিশেষ্য) আর শেষ দুটি কাজ (ক্রিয়া)। খেয়াল রাখুন: '갈아입다' মানে একটা পোশাক খুলে অন্যটা পরা, যেমন '출근한 후에 작업복으로 갈아입어요'; '벗다' শুধু খুলে ফেলা, নতুন কিছু পরা নয়—তার বিপরীত '입다'। '양복' সাধারণত পুরুষের স্যুট, আর '정장' শব্দটি নারী-পুরুষ দুজনের ফরমাল পোশাকেই চলে।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "다음 문장을 완성하세요: '공장에서는 ____을(를) 꼭 신어야 합니다.'",
-      "questionKo": "다음 문장을 완성하세요: '공장에서는 ____을(를) 꼭 신어야 합니다.'",
+      "type": "multiple-choice",
+      "questionBn": "শূন্যস্থানে সবচেয়ে মানানসই শব্দ কোনটি?",
+      "questionKo": "작업장에서 일할 때는 항상 작업복을 입어야 합니다. 그래서 출근한 후에 바로 작업복으로 ___ 일을 시작합니다.",
       "options": [
-        "정장",
-        "유니폼",
-        "명찰",
-        "안전화"
+        "만들고",
+        "갈아입고",
+        "부르고",
+        "건너가고"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "문장에 '신어야 합니다'가 있으므로 '안전화'가 맞습니다।"
+      "answer": 1,
+      "explanationBn": "অফিসে এসে নিজের জামা খুলে কাজের পোশাক পরাকে বলে '갈아입다', তাই '작업복으로 갈아입고' সঠিক। মনে রাখুন, '갈아입다'-র সঙ্গে '-(으)로' বসে: '유니폼으로 갈아입어요'। '만들다' মানে বানানো, '부르다' মানে ডাকা বা গান গাওয়া, '건너가다' মানে পার হয়ে যাওয়া—কোনোটাই পোশাকের সঙ্গে যায় না।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "다음 중 금지 표현에 맞는 문장은?",
-      "questionKo": "다음 중 금지 표현에 맞는 문장은?",
+      "questionBn": "'-게' ব্যবহার করে শূন্যস্থান পূরণ করুন।",
+      "questionKo": "가: 마두 씨, 머리 잘랐어요?\n나: 네, 날씨가 너무 더워서 ___ 잘랐어요.",
       "options": [
-        "휴게실에서 큰 소리로 통화하면 안 됩니다.",
-        "명찰을 착용해야 합니다.",
-        "유니폼을 입는 것이 좋습니다.",
-        "휴게실에서 쉬어도 됩니다."
+        "짧다",
+        "짧아요",
+        "짧은",
+        "짧게"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "첫 문장은 '(으)면 안 됩니다' 형태로 금지를 나타냅니다।"
+      "answer": 3,
+      "explanationBn": "'자르다' ক্রিয়ার ধরন বোঝাতে বিশেষণ '짧다'-কে '-게' দিয়ে ক্রিয়াবিশেষণ করতে হয়: '짧게 잘랐어요' (ছোট করে কেটেছি)। '짧다' হলো অভিধানরূপ, বাক্যের মাঝে বসে না। '짧아요' বাক্য শেষ করার রূপ, তাই এর পরে আরেকটি ক্রিয়া বসতে পারে না। '짧은' বিশেষ্যের আগে বসে ('짧은 머리'), ক্রিয়ার আগে নয়।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "문장을 고르세요: '면접에는 ____ 복장을 하는 것이 좋습니다.'",
-      "questionKo": "문장을 고르세요: '면접에는 ____ 복장을 하는 것이 좋습니다.'",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "questionKo": "다음 중 맞는 문장을 고르십시오.",
       "options": [
-        "미끄러운",
-        "단정한",
-        "지저분한",
-        "편한"
+        "더워도 작업복 단추를 풀면 안 돼요.",
+        "더워도 작업복 단추를 풀으면 안 돼요.",
+        "더워도 작업복 단추를 풀면 안 되요.",
+        "더워도 작업복 단추를 푸면 안 돼요."
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "권장되는 표현은 '단정한 복장'입니다।"
+      "answer": 0,
+      "explanationBn": "'풀다'-র মূলে 'ㄹ' বাতচিম থাকায় '으' বসে না, তাই '풀면 안 돼요' সঠিক। '풀으면' ভুল—'ㄹ' বাতচিমের পরে '-으면' নয়, শুধু '-면'। '안 되요' বানান ভুল; '되어요'-র সংক্ষিপ্ত রূপ '돼요'। '푸면'-এ মূল থেকে 'ㄹ' বাদ পড়ে গেছে, কিন্তু '-면'-এর আগে 'ㄹ' থাকে।"
     },
     {
       "id": "p9",
       "type": "matching",
-      "questionBn": "다음 단어와 뜻을 연결하세요.",
-      "questionKo": "다음 단어와 뜻을 연결하세요.",
-      "options": [],
+      "questionBn": "কাজের মনোভাব-সম্পর্কিত শব্দগুলোর সঙ্গে সঠিক বাংলা অর্থ মেলান।",
+      "questionKo": "태도 관련 어휘와 알맞은 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "명찰",
-          "right": "নামপ্লেট"
+          "left": "칭찬하다",
+          "right": "প্রশংসা করা"
         },
         {
-          "left": "지각",
-          "right": "দেরি করে আসা"
+          "left": "무시하다",
+          "right": "অগ্রাহ্য করা, তুচ্ছ করা"
         },
         {
-          "left": "안전화",
-          "right": "নিরাপত্তা জুতা"
+          "left": "존중하다",
+          "right": "সম্মান করা"
         },
         {
-          "left": "휴게실",
-          "right": "বিরতির ঘর"
+          "left": "배려하다",
+          "right": "অন্যের কথা ভেবে বিবেচনা করা"
+        },
+        {
+          "left": "피해를 주다",
+          "right": "ক্ষতি বা অসুবিধা করা"
         }
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "এখানে '칭찬하다, 존중하다, 배려하다' ইতিবাচক (긍정적) মনোভাব, আর '무시하다, 피해를 주다' নেতিবাচক (부정적)। জোড়া হিসেবে মনে রাখুন: 존중하다 ↔ 무시하다। '배려하다' আর '존중하다' কাছাকাছি হলেও '배려하다'-তে অন্যের সুবিধার কথা ভেবে কাজ করা বোঝায়, আর '존중하다'-তে অন্যের মতামত ও মর্যাদাকে মূল্য দেওয়া বোঝায়। '피해를 주다' সবসময় '피해를' সহ বসে।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "다음 행동과 문장을 연결하세요.",
-      "questionKo": "다음 행동과 문장을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "유니폼 착용",
-          "right": "회사 규정을 따르는 행동"
-        },
-        {
-          "left": "지각",
-          "right": "동료에게 불편을 주는 행동"
-        },
-        {
-          "left": "명찰 착용",
-          "right": "신분을 밝히는 행동"
-        },
-        {
-          "left": "청결 유지",
-          "right": "좋은 근무 태도"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-아/어도 되다' ব্যবহার করে অনুমতি চাওয়ার সঠিক রূপটি বসান।",
+      "questionKo": "가: 반장님, 좀 불편해서요. 지퍼를 조금만 내리고 ___ 돼요?\n나: 지퍼를 올리는 게 안전해요.",
+      "options": [
+        "작업하야",
+        "작업하고",
+        "작업해도",
+        "작업하지"
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 2,
+      "explanationBn": "অনুমতি চাইতে হলে '-아/어도 되다' লাগে, আর '작업하다'-র মতো '하다' ক্রিয়ায় তা হয় '작업해도 돼요?' (কাজ করলে চলবে?)। '작업하야' রূপটাই নেই; বাধ্যবাধকতা বোঝাতে হলে হতো '작업해야 돼요' (কাজ করতেই হবে)। '작업하고' মানে শুধু 'কাজ করে', অনুমতির অর্থ নেই। '작업하지'-র পরে '돼요' বসে না; '-지 마세요' বা '-지 않다' রূপে ব্যবহৃত হয়।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "다음 중 '안전모'의 뜻으로 맞는 것은?",
-      "questionKo": "다음 중 '안전모'의 뜻으로 맞는 것은?",
+      "questionBn": "সংলাপে শোনা কথার সঙ্গে সবচেয়ে মানানসই উত্তর কোনটি?",
+      "questionKo": "남: 지퍼를 목까지 올리니까 좀 불편해요.\n여: ___",
       "options": [
-        "নিরাপত্তা জুতা",
-        "নিরাপত্তা হেলমেট",
-        "নিরাপত্তা গ্লাভস",
-        "নিরাপত্তা চশমা"
+        "유니폼이 잘 어울리네요.",
+        "작업복이 시원해 보여요.",
+        "익숙해지면 괜찮을 거예요.",
+        "사무실에 가서 새로 받았어요."
       ],
-      "answer": 1,
-      "explanationBn": "'안전모' মানে হচ্ছে নিরাপত্তা হেলমেট।"
+      "answer": 2,
+      "explanationBn": "চেন গলা পর্যন্ত তুললে অস্বস্তি হচ্ছে—এই অভিযোগের স্বাভাবিক সান্ত্বনা হলো '익숙해지면 괜찮을 거예요' (অভ্যাস হয়ে গেলে ঠিক লাগবে); '익숙해지다' মানে অভ্যস্ত হওয়া। 'উনিফর্ম মানিয়েছে' বা 'কাজের পোশাক ঠান্ডা দেখাচ্ছে' প্রশংসা, অস্বস্তির জবাব নয়। শেষ অপশনটি নতুন পোশাক কোথায় পেলেন সেই প্রশ্নের উত্তর।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 '지 마세요' 문법이 올바르게 사용된 문장은?",
-      "questionKo": "다음 중 '지 마세요' 문법이 올바르게 사용된 문장은?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)면 안 되다' ব্যবহার করে শূন্যস্থান পূরণ করুন।",
+      "questionKo": "가: 푸캄 씨, 지하철에서 ___ 안 돼요.\n나: 알았어요. 작은 소리로 말할게요.",
       "options": [
-        "작업장에서 뛰지 마세요.",
-        "작업장에서 뛰지 하세요.",
-        "작업장에서 뛰지 안 하세요.",
-        "작업장에서 뛰지 못 하세요."
+        "크게 말하면",
+        "크게 말해도",
+        "크게 말해야",
+        "크게 말하게"
       ],
       "answer": 0,
-      "explanationBn": "'지 마세요'는 동사 어간 뒤에 바로 붙어 금지를 나타냅니다."
+      "explanationBn": "উত্তরে 'ছোট শব্দে বলব' বলা হয়েছে, তাই আগে নিষেধ থাকতে হবে: '크게 말하면 안 돼요' (জোরে বলা যাবে না)। এখানে '크다 + -게' মিলে '크게' হয়েছে। '크게 말해도 돼요' মানে জোরে বলা চলবে—উল্টো অর্থ, আর '안 돼요'-র সঙ্গে '-아/어도' বসে না। '말해야 돼요' মানে বলতেই হবে। '말하게 안 돼요' রূপটি ব্যাকরণসম্মত নয়।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "대화에서 반장이 투안에게 쓰라고 한 것은 무엇인가요?",
-      "questionKo": "대화에서 반장이 투안에게 쓰라고 한 것은 무엇인가요?",
+      "questionBn": "কোরিয়ান কর্মস্থলে সম্বোধনের নিয়ম অনুযায়ী কোন কথাটি সঠিক?",
+      "questionKo": "직장 내 호칭에 대해 맞는 것을 고르십시오.",
       "options": [
-        "마스크",
-        "안전장갑",
-        "안전모",
-        "보안경"
+        "상사를 부를 때는 이름 뒤에 '씨'를 붙여 부릅니다.",
+        "동료나 후배에게는 직책에 '-님'을 붙여 부릅니다.",
+        "친한 사이일 경우 가족 호칭을 사용하지 않습니다.",
+        "같은 직책인 사람이 여러 명이면 직책 앞에 성이나 이름을 붙여 부릅니다."
       ],
-      "answer": 2,
-      "explanationBn": "반장은 투안에게 '안전모를 써야 합니다'라고 말했습니다."
+      "answer": 3,
+      "explanationBn": "পাঠ্যে বলা হয়েছে, একই পদে অনেকজন থাকলে আলাদা করার জন্য পদের আগে নাম বা বংশনাম বসে—যেমন '김 과장님', '이민주 과장님'—তাই শেষ অপশনটি সঠিক। ঊর্ধ্বতনকে '씨' দিয়ে ডাকা যায় না, তাঁদের পদের সঙ্গে '-님' বসে (반장님, 과장님)। সহকর্মী বা জুনিয়রকে নামের পরে '씨' লাগিয়ে ডাকা হয় ('진수 씨')। ঘনিষ্ঠ হলে অফিসের বাইরে '형', '누나'-র মতো পারিবারিক সম্বোধনও ব্যবহার হয়, তাই তৃতীয় অপশনও ভুল।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 '결근'의 반대말에 가까운 것은?",
-      "questionKo": "다음 중 '결근'의 반대말에 가까운 것은?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক '-아/어 보이다' রূপটি বসান।",
+      "questionKo": "가: 유수프 씨, 작업복이 좀 ___ 불편하지 않아요?\n나: 조금 작지만 괜찮아요.",
       "options": [
-        "지각",
-        "조퇴",
-        "외출",
-        "출근"
+        "넓어 보이는데",
+        "작아 보이는데",
+        "아파 보이는데",
+        "단정해 보이는데"
       ],
-      "answer": 3,
-      "explanationBn": "'결근'은 결석을 의미하고, '출근'은 출석(일하러 감)을 의미합니다."
+      "answer": 1,
+      "explanationBn": "উত্তরে '조금 작지만 괜찮아요' (একটু ছোট, তবু ঠিক আছে) বলা হয়েছে, তাই প্রশ্নে থাকবে '작아 보이는데' (দেখে ছোট মনে হচ্ছে); '작다'-র শেষ স্বর 'ㅏ' হওয়ায় '-아 보이다' বসে। '넓어 보이는데' মানে চওড়া দেখাচ্ছে—উল্টো কথা। '아파 보이는데' শরীর খারাপ দেখানো বোঝায়, পোশাকের মাপ নয়। '단정해 보이는데' প্রশংসা, তার পরে '불편하지 않아요?' মানায় না।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '먼지가 많으니 ____을(를) 쓰세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '먼지가 많으니 ____을(를) 쓰세요.'",
+      "type": "multiple-choice",
+      "questionBn": "কথোপকথনটি শুনে বোঝা যায়—দুজন কী নিয়ে কথা বলছেন?",
+      "questionKo": "가: 새로 온 직원은 어때요?\n나: 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n→ 두 사람은 무엇에 대해 말하고 있습니까?",
       "options": [
-        "안전화",
-        "마스크",
-        "귀마개",
-        "넥타이"
+        "새로 온 직원의 태도",
+        "새로 온 직원의 외모",
+        "새로 온 직원의 복장",
+        "새로 온 직원의 국적"
       ],
-      "answer": 1,
-      "explanationBn": "먼지가 많을 때는 '마스크'를 써야 합니다."
+      "answer": 0,
+      "explanationBn": "'성실하게 일해요' আর '칭찬을 많이 하세요'—দুটোই কাজ করার ধরন ও মনোভাব নিয়ে বলা, তাই আলোচনার বিষয় '태도' (মনোভাব)। '외모' মানে চেহারা, '복장' মানে পোশাক—সংলাপে এ দুটোর কোনো উল্লেখ নেই। '국적' মানে নাগরিকত্ব, সেটিও আসেনি। মূল সূত্র হলো '성실하게': এটি '성실하다 + -게', অর্থাৎ কাজের ধরন বোঝাচ্ছে।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '소음이 심하면 ____을(를) 하세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '소음이 심하면 ____을(를) 하세요.'",
+      "questionBn": "'-아/어야 되다' ব্যবহার করে শূন্যস্থান পূরণ করুন।",
+      "questionKo": "직장에서는 서로 ___ 돼요. 그래야 사이가 좋아져요.",
       "options": [
-        "귀마개",
-        "보안경",
-        "안전모",
-        "안전장갑"
+        "무시해야",
+        "존중해야",
+        "불쾌해야",
+        "피해를 줘야"
       ],
-      "answer": 0,
-      "explanationBn": "소음이 심할 때는 '귀마개'를 해야 합니다."
+      "answer": 1,
+      "explanationBn": "কর্মস্থলে একে অন্যকে সম্মান করতে হয়, তাই '존중하다 + -아/어야 되다 = 존중해야 돼요' সঠিক ('서로' মানে পরস্পর)। '무시해야 돼요' মানে অগ্রাহ্য করতে হবে—উল্টো ও অভদ্র। '불쾌하다' একটি বিশেষণ (মন খারাপ লাগা), '서로'-র সঙ্গে কর্তব্য হিসেবে বসে না। '피해를 줘야 돼요' মানে ক্ষতি করতে হবে, যা নিয়মের বিপরীত—সঠিক বাক্য হতো '피해를 주면 안 돼요'।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '작업복의 ____을(를) 잠그세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '작업복의 ____을(를) 잠그세요.'",
+      "type": "multiple-choice",
+      "questionBn": "ছবির/অবস্থার সঙ্গে মিল রেখে সঠিক বাক্যটি বেছে নিন।",
+      "questionKo": "다음 중 자연스러운 문장을 고르십시오.",
       "options": [
-        "지퍼",
-        "단추",
-        "명찰",
-        "신발"
+        "출근한 후에 유니폼으로 내렸어요.",
+        "날씨가 더워서 넥타이를 올렸어요.",
+        "날씨가 더워서 작업복 단추를 풀었어요.",
+        "회의가 있어서 정장을 벗고 갔어요."
       ],
-      "answer": 1,
-      "explanationBn": "'잠그다'와 어울리는 단어는 '단추'입니다."
+      "answer": 2,
+      "explanationBn": "গরম লাগায় কাজের পোশাকের বোতাম খোলা স্বাভাবিক, আর বোতামের সঙ্গে ঠিক ক্রিয়াটাই '풀다'—তাই '단추를 풀었어요' সঠিক। '유니폼으로 내렸어요' ভুল; পোশাক পাল্টানোর ক্রিয়া '갈아입다' ('유니폼으로 갈아입었어요')। নেকটাইয়ের সঙ্গে '올리다' বসে না, বসে '매다' (বাঁধা) বা '풀다' (খোলা)। মিটিংয়ে যেতে হলে স্যুট খুলে নয়, পরে যেতে হয়—'정장을 입고 갔어요' হওয়া উচিত।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '무단 ____을(를) 하면 안 됩니다.'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '무단 ____을(를) 하면 안 됩니다.'",
-      "options": [
-        "출근",
-        "퇴근",
-        "결근",
-        "인사"
+      "type": "matching",
+      "questionBn": "প্রতিটি ক্রিয়ার সঙ্গে তার বিপরীত ক্রিয়াটি মেলান।",
+      "questionKo": "반대되는 표현끼리 연결하세요.",
+      "pairs": [
+        {
+          "left": "단추를 잠그다",
+          "right": "단추를 풀다"
+        },
+        {
+          "left": "지퍼를 올리다",
+          "right": "지퍼를 내리다"
+        },
+        {
+          "left": "넥타이를 매다",
+          "right": "넥타이를 풀다"
+        },
+        {
+          "left": "예의가 있다",
+          "right": "예의가 없다"
+        },
+        {
+          "left": "반말을 하다",
+          "right": "존댓말을 하다"
+        }
       ],
-      "answer": 2,
-      "explanationBn": "허락 없이 회사에 가지 않는 것을 '무단 결근'이라고 합니다."
+      "explanationBn": "এগুলো সবই বিপরীতার্থক জোড়া। খেয়াল রাখুন কোন বিশেষ্যের সঙ্গে কোন ক্রিয়া বসে: বোতামে 잠그다/풀다, চেনে 올리다/내리다, নেকটাইয়ে 매다/풀다—অর্থাৎ '풀다' বোতাম ও নেকটাই দুটোতেই চলে, কিন্তু চেনে নয়। ভাষার ক্ষেত্রে '반말' মানে সম্মানসূচক নয় এমন ভাষা আর '존댓말' মানে সম্মানসূচক ভাষা; কর্মস্থলে '존댓말을 하다'-ই যথাযথ।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "다음 단어와 뜻을 연결하세요.",
-      "questionKo": "다음 단어와 뜻을 연결하세요.",
-      "pairs": [
-        {
-          "left": "안전모",
-          "right": "নিরাপত্তা হেলমেট"
-        },
-        {
-          "left": "마스크",
-          "right": "মাস্ক"
-        },
-        {
-          "left": "보안경",
-          "right": "নিরাপত্তা চশমা"
-        },
-        {
-          "left": "귀마개",
-          "right": "ইয়ারপ্লাগ"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "동료가 나를 도와줘서 고마웠습니다. 그리고 반장님이 저를 ___ 기분이 좋았습니다. 앞으로 더 열심히 하겠습니다.",
+      "options": [
+        "무시해서",
+        "불쾌해서",
+        "칭찬해서",
+        "부정적이어서"
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 2,
+      "explanationBn": "'기분이 좋았습니다' (মন ভালো লেগেছিল) আর 'আরও পরিশ্রম করব'—এই ইতিবাচক কথার কারণ হতে পারে প্রশংসা, তাই '칭찬해서' সঠিক। '무시해서' (অগ্রাহ্য করায়) বা '불쾌해서' (অসন্তুষ্ট লাগায়) হলে মন ভালো হওয়ার কথা নয়। '부정적이어서' মানে নেতিবাচক হওয়ায়—তার উল্টোটা '긍정적이다', যা প্রশংসার সঙ্গে যায়।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "다음 단어와 뜻을 연결하세요.",
-      "questionKo": "다음 단어와 뜻을 연결하세요.",
-      "pairs": [
-        {
-          "left": "결근",
-          "right": "অনুপস্থিতি"
-        },
-        {
-          "left": "조퇴",
-          "right": "আগে ছুটি নেওয়া"
-        },
-        {
-          "left": "외출",
-          "right": "বাইরে যাওয়া"
-        },
-        {
-          "left": "퇴근",
-          "right": "কাজ শেষে বাড়ি ফেরা"
-        }
+      "type": "multiple-choice",
+      "questionBn": "সংলাপ শুনে বলুন—পুরুষটি এরপর কী করবেন?",
+      "questionKo": "여: 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남: 작업장이 너무 더워서 조금 풀었어요.\n여: 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남: 알겠어요. 지금 잠글게요.",
+      "options": [
+        "작업복을 벗습니다.",
+        "단추를 잠급니다.",
+        "작업장 창문을 엽니다.",
+        "작업복을 가지러 갑니다."
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 1,
+      "explanationBn": "শেষে পুরুষটি নিজেই বলেছেন '지금 잠글게요' (এখনই লাগিয়ে নিচ্ছি), তাই পরের কাজ হলো '단추를 잠급니다' (বোতাম লাগানো)। '작업복을 벗습니다' মানে কাজের পোশাক খুলে ফেলা—সেটা আরও বিপজ্জনক এবং কেউ বলেনি। জানালা খোলার কথাও সংলাপে নেই, যদিও গরমের কথা উঠেছে। পোশাক আনতে যাওয়ার প্রশ্নই নেই, কারণ তিনি সেটি পরে আছেন।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요: 회사 공지 - '다음 주부터 복장 규정이 변경됩니다. 매주 월요일은 정장을 착용하시고, 작업 구역에서는 안전화를 신으세요.' 상사는 월요일에 무엇을 권장하나요?",
-      "questionKo": "상사는 월요일에 무엇을 권장하나요?",
-      "passage": "회사 공지: 다음 주부터 복장 규정이 변경됩니다. 매주 월요일은 정장을 착용하시고, 작업 구역에서는 안전화를 신으세요.",
+      "questionBn": "নিচের শব্দটির বিপরীত শব্দ কোনটি?",
+      "questionKo": "다음 단어의 반대말은 무엇입니까?",
+      "passage": "지퍼를 올리다",
       "options": [
-        "명찰을 벗으라고 권장했다.",
-        "유니폼을 입으라고 권장했다.",
-        "편한 옷을 입으라고 권장했다.",
-        "정장을 입으라고 권장했다."
+        "지퍼를 잠그다",
+        "지퍼를 내리다",
+        "지퍼를 매다",
+        "지퍼를 갈아입다"
       ],
-      "answer": 3,
-      "explanationBn": "공지에 '매주 월요일은 정장을 착용'이라고 명시되어 있으므로 '정장'이 정답입니다।"
+      "answer": 1,
+      "explanationBn": "'지퍼를 올리다' মানে চেন টেনে ওপরে তোলা, আর এর ঠিক উল্টো হলো '지퍼를 내리다' (চেন নামানো) — তাই সঠিক উত্তর ②। বাকি অপশনগুলো ভুল সংযোগ: '잠그다' (লাগানো/বন্ধ করা) বসে 단추 বা 문-এর সঙ্গে, চেনের সঙ্গে নয়; '매다' (বাঁধা) বসে 넥타이-এর সঙ্গে — 넥타이를 매다; আর '갈아입다' মানে পোশাক পাল্টে পরা, যেমন 작업복으로 갈아입다, চেনের সঙ্গে এটি ব্যবহার হয় না।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "다음 문장을 읽고 맞는 것을 고르세요: '출근 전에 명찰을 착용해야 합니다.' 이 문장의 뜻은?",
-      "questionKo": "이 문장의 뜻은?",
-      "passage": "출근 전에 명찰을 착용해야 합니다.",
+      "questionBn": "নিচের বাক্যগুলোর মধ্যে আন্ডারলাইন করা অংশটি সঠিকভাবে ব্যবহৃত হয়েছে কোন বাক্যে?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "passage": "",
       "options": [
-        "출근 후에 명찰을 벗으세요.",
-        "명찰 없이 출근해도 괜찮다.",
-        "출근 전에 명찰을 꼭 달아야 한다.",
-        "명찰을 집에 두어도 된다."
+        "셔츠를 입고 넥타이를 잠갔어요.",
+        "작업복이 불편해서 지퍼를 맸어요.",
+        "출근한 후에 유니폼으로 내렸어요.",
+        "날씨가 더워서 작업복 단추를 풀었어요."
       ],
-      "answer": 2,
-      "explanationBn": "'해야 합니다'는 반드시 해야 한다는 의미이므로 두 번째 문장이 맞습니다।"
+      "answer": 3,
+      "explanationBn": "গরম লাগলে বোতাম খোলা হয়, আর বোতাম খোলাকে বলে '단추를 풀다' — তাই ④ '단추를 풀었어요' সঠিক ব্যবহার। ① ভুল, কারণ নেকটাইয়ের সঙ্গে '잠그다' বসে না; সঠিক হবে '넥타이를 맸어요'। ② ভুল, কারণ চেনের সঙ্গে '매다' বসে না; সঠিক হবে '지퍼를 내렸어요'। ③ ভুল, কারণ পোশাক পাল্টানো বোঝাতে '내리다' নয় '갈아입다' লাগে; সঠিক হবে '유니폼으로 갈아입었어요'।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "다음 대화를 읽고 질문에 답하세요: '동료: 지각이 잦은데 괜찮아요? 직원: 교통 문제 때문에요. 더 일찍 출발하겠습니다.' 직원의 약속은 무엇인가요?",
-      "questionKo": "직원의 약속은 무엇인가요?",
-      "passage": "동료: 지각이 잦은데 괜찮아요? 직원: 교통 문제 때문에요. 더 일찍 출발하겠습니다.",
+      "questionBn": "খালি জায়গায় বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "작업장에서는 안전이 가장 중요합니다. 그래서 작업복을 입을 때 단추를 모두 __________ 지퍼도 목까지 올려야 됩니다.",
       "options": [
-        "휴가를 내겠다고 했다.",
-        "더 일찍 출발하겠다고 약속했다.",
-        "더 늦게 출발하겠다고 했다.",
-        "지각을 계속하겠다고 했다."
+        "잠그고",
+        "벗고",
+        "풀고",
+        "갈아입고"
       ],
-      "answer": 1,
-      "explanationBn": "직원은 '더 일찍 출발하겠습니다'라고 약속했으므로 두 번째가 맞습니다।"
+      "answer": 0,
+      "explanationBn": "অনুচ্ছেদটি নিরাপত্তার কথা বলছে এবং পরের অংশে '지퍼도 목까지 올려야 됩니다' আছে, অর্থাৎ পোশাক ভালোভাবে আটকানোর কথা — তাই বোতাম 'লাগিয়ে' মানে ① '잠그고' সঠিক। ② '벗고' মানে খুলে ফেলে, নিরাপত্তার নিয়মের বিপরীত। ③ '풀고' মানে বোতাম খুলে, সেটাও উল্টো অর্থ দেয়। ④ '갈아입고' মানে পোশাক পাল্টে, কিন্তু '단추를 갈아입다' বলা যায় না — 갈아입다 বসে 작업복, 유니폼-এর মতো পোশাকের সঙ্গে।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "다음 공지문: '공장에서는 안전화를 꼭 신어야 합니다.' 이 규정은 어떤 문법을 사용하나요?",
-      "questionKo": "이 규정은 어떤 문법을 사용하나요?",
-      "passage": "공장에서는 안전화를 꼭 신어야 합니다.",
+      "questionBn": "খালি জায়গায় বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "직장에는 나와 생각이 다른 사람도 있습니다. 그때 동료의 의견을 __________하지 말고 끝까지 잘 들어야 됩니다. 그래야 서로 기분 좋게 일할 수 있습니다.",
       "options": [
-        "'아/어야 하다' (의무)",
-        "'(으)ㄴ/는 것이 좋다' (추천)",
-        "'-고 있다' (진행)",
-        "'(으)면 안 되다' (금지)"
+        "칭찬",
+        "배려",
+        "무시",
+        "존중"
       ],
-      "answer": 0,
-      "explanationBn": "문장에 '해야 합니다'가 있어 의무를 나타내는 '아/어야 하다' 입니다।"
+      "answer": 2,
+      "explanationBn": "'...하지 말고 끝까지 잘 들어야 됩니다' অংশটি বলছে খালি জায়গায় একটি খারাপ আচরণ বসবে, যা করা নিষেধ। সহকর্মীর মতকে 'অবহেলা করা / গ্রাহ্য না করা' মানে '무시하다', তাই ③ সঠিক। ① '칭찬' (প্রশংসা), ② '배려' (খেয়াল রাখা), ④ '존중' (সম্মান করা) — এই তিনটিই ভালো আচরণ, আর ভালো আচরণের সঙ্গে '하지 말고' বসালে বাক্যের অর্থ উল্টে যায় ('প্রশংসা করবেন না', 'সম্মান করবেন না')।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "다음 중 '단정한 복장'에 가장 가까운 설명은?",
-      "questionKo": "다음 중 '단정한 복장'에 가장 가까운 설명은?",
-      "passage": "단정한 복장",
+      "questionBn": "খালি জায়গায় বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "어제 반장님께서 저에게 항상 성실하게 일한다고 __________을/를 해 주셨습니다. 그 말을 들으니까 기분이 아주 좋았습니다.",
       "options": [
-        "운동복이나 잠옷",
-        "안전 장비",
-        "지저분하고 구겨진 옷",
-        "깔끔하고 정돈된 옷"
+        "사과",
+        "칭찬",
+        "인사",
+        "축하"
       ],
-      "answer": 3,
-      "explanationBn": "'단정한'은 '깔끔하고 정돈된'의 뜻이므로 두 번째가 맞습니다।"
+      "answer": 1,
+      "explanationBn": "'성실하게 일한다고' — অর্থাৎ ভালো কাজের কথা বলে ম্যানেজার কিছু বলেছেন এবং শুনে '기분이 아주 좋았습니다'। ভালো কাজের জন্য প্রশংসা করাকে বলে '칭찬을 하다', তাই ② সঠিক। ① '사과' মানে ক্ষমা চাওয়া, ভুল করলে করা হয়। ③ '인사' মানে সালাম/শুভেচ্ছা বিনিময়, প্রশংসার অর্থ দেয় না। ④ '축하' মানে অভিনন্দন, যা বিয়ে বা জন্মদিনের মতো বিশেষ ঘটনায় বলা হয়, প্রতিদিনের কাজের মূল্যায়নে নয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "다음 음성(스크립트)을 듣고 질문에 답하세요: '안녕하세요. 오늘부터 작업 구역에서는 안전화를 착용해야 합니다. 안전화가 없으면 관리실에 문의하세요.' 질문: 작업 구역에서 무엇을 착용해야 하나요?",
-      "questionKo": "작업 구역에서 무엇을 착용해야 하나요?",
-      "passage": "안녕하세요. 오늘부터 작업 구역에서는 안전화를 착용해야 합니다. 안전화가 없으면 관리실에 문의하세요.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় বসার জন্য সবচেয়ে উপযুক্ত অংশটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "우리 회사는 사무실 직원과 작업장 직원의 옷이 다릅니다. 사무실 직원은 정장을 입고 넥타이를 맵니다. 작업장 직원은 출근한 후에 바로 작업복으로 __________ 일을 시작합니다.",
       "options": [
-        "명찰",
-        "유니폼",
-        "안전화",
-        "정장"
+        "만들고",
+        "부르고",
+        "건너가고",
+        "갈아입고"
       ],
-      "answer": 2,
-      "explanationBn": "스크립트에 '안전화를 착용해야 합니다'라고 되어 있으므로 '안전화'가 정답입니다।"
+      "answer": 3,
+      "explanationBn": "'작업복으로 ...' এই কাঠামোতে বসে '갈아입다' (পোশাক পাল্টে পরা): 작업복으로 갈아입다 — অফিসে এসে নিজের পোশাক খুলে কাজের পোশাক পরা। তাই ④ সঠিক। ① '만들다' মানে বানানো, ② '부르다' মানে ডাকা, ③ '건너가다' মানে পার হয়ে যাওয়া — কোনোটিই পোশাক পরিবর্তনের সঙ্গে যায় না।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "다음 음성(스크립트): '회의가 오후 2시에 있으니 정장을 준비하세요.' 질문: 회의 시간은 언제인가요?",
-      "questionKo": "회의 시간은 언제인가요?",
-      "passage": "회의가 오후 2시에 있으니 정장을 준비하세요.",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে এর সঙ্গে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국에서는 직장 상사에게 '반장님'처럼 직책 다음에 '-님'을 붙여 부릅니다. 만약 '과장님'이 여러 명이라면 구분을 위해 '김 과장님', '이민주 과장님'과 같이 이름이나 성을 붙여 부르면 됩니다. 동료나 후배를 부를 때는 이름 뒤에 '씨'를 붙여서 '진수 씨', '유진 씨'처럼 부릅니다. 친한 동료일 경우 직장 밖에서 '형', '누나'와 같은 가족 호칭을 써서 부르기도 합니다.",
       "options": [
-        "오전 9시",
-        "오후 2시",
-        "저녁 6시",
-        "오전 11시"
+        "같은 직책인 사람이 여러 명이면 직책 앞에 성을 붙여 부릅니다.",
+        "상사를 부를 때는 이름 뒤에 '씨'를 붙여 부릅니다.",
+        "동료나 후배에게는 직책에 '-님'을 붙여 부릅니다.",
+        "친한 사이일 경우 가족 호칭을 사용하지 않습니다."
       ],
-      "answer": 1,
-      "explanationBn": "스크립트에 '오후 2시'라고 명시되어 있습니다।"
+      "answer": 0,
+      "explanationBn": "লেখায় বলা আছে '과장님'이 여러 명이라면 '김 과장님'처럼 이름이나 성을 붙여 부르면 됩니다 — অর্থাৎ একই পদের একাধিক লোক থাকলে পদবির আগে নাম বা বংশনাম বসিয়ে ডাকা হয়, তাই ① লেখার সঙ্গে মেলে। ② ভুল: '씨' ব্যবহার হয় 동료나 후배-এর জন্য, ঊর্ধ্বতনের জন্য নয়। ③ ভুল: '-님' বসে ঊর্ধ্বতনের পদবির সঙ্গে, সহকর্মী বা জুনিয়রের ক্ষেত্রে নয়। ④ ভুল: লেখায় স্পষ্ট বলা আছে ঘনিষ্ঠ সহকর্মীকে অফিসের বাইরে '형', '누나' এর মতো পারিবারিক সম্বোধনে ডাকা হয়।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "다음 음성(스크립트): '출근 시간은 오전 9시입니다. 지각하지 마세요.' 질문: 출근 시간은?",
-      "questionKo": "출근 시간은?",
-      "passage": "출근 시간은 오전 9시입니다. 지각하지 마세요.",
+      "section": "reading",
+      "questionBn": "নিচের নোটিশটি পড়ে এর সঙ্গে মিল নেই এমন বাক্যটি বেছে নিন।",
+      "questionKo": "다음 안내문을 읽고 내용과 다른 것을 고르십시오.",
+      "passage": "[작업장 복장 안내]\n•작업장에 들어갈 때는 꼭 작업복으로 갈아입으십시오.\n•작업복 단추는 모두 잠그고 지퍼는 목까지 올려야 됩니다.\n•작업장이 더워도 단추를 풀고 일하면 안 됩니다. 아주 위험합니다.\n•작업이 모두 끝난 후에는 작업복을 벗어도 됩니다.",
       "options": [
-        "오전 9시",
-        "오후 3시",
-        "오후 1시",
-        "오전 8시"
+        "작업장에 들어가기 전에 작업복으로 갈아입어야 됩니다.",
+        "지퍼는 목까지 올리는 것이 좋습니다.",
+        "더울 때는 단추를 풀고 일해도 됩니다.",
+        "일이 끝나면 작업복을 벗을 수 있습니다."
       ],
-      "answer": 0,
-      "explanationBn": "스크립트에 '오전 9시'라고 되어 있어 두 번째가 정답입니다।"
+      "answer": 2,
+      "explanationBn": "নোটিশে লেখা আছে '작업장이 더워도 단추를 풀고 일하면 안 됩니다' — অর্থাৎ গরম হলেও বোতাম খুলে কাজ করা নিষেধ। তাই ③ '단추를 풀고 일해도 됩니다' নোটিশের বিপরীত, এটিই উত্তর। ① মিলে যায়, কারণ প্রথম লাইনে কাজের জায়গায় ঢোকার সময় পোশাক পাল্টানোর নির্দেশ আছে। ② মিলে যায়, কারণ চেন গলা পর্যন্ত তুলতে বলা হয়েছে। ④ মিলে যায়, কারণ শেষ লাইনে বলা আছে কাজ শেষ হলে কাজের পোশাক খোলা যাবে ('벗어도 됩니다')।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "다음 표지판의 의미로 맞는 것을 고르십시오.",
-      "questionKo": "다음 표지판의 의미로 맞는 것을 고르십시오.",
-      "passage": "[안전모 착용]",
+      "questionBn": "নিচের লেখাটি পড়ে লেখকের মূল বক্তব্য কোনটি তা বেছে নিন।",
+      "questionKo": "다음 글을 읽고 글쓴이가 말하고 싶은 것을 고르십시오.",
+      "passage": "저는 지난달에 새 공장으로 왔습니다. 처음에는 작업복도 무겁고 지퍼를 목까지 올리는 것도 불편했습니다. 그래서 반장님께 지퍼를 내리고 작업해도 되는지 물어봤습니다. 반장님은 지퍼를 올리는 것이 안전하고 익숙해지면 괜찮을 거라고 하셨습니다. 지금은 정말 하나도 불편하지 않습니다.",
       "options": [
-        "안전모를 써야 합니다.",
-        "안전화를 신어야 합니다.",
-        "보안경을 써야 합니다.",
-        "마스크를 써야 합니다."
+        "새 공장의 일이 예전보다 아주 많습니다.",
+        "작업복이 무거워서 다른 작업복으로 바꿨습니다.",
+        "불편해도 지퍼를 내리고 일하는 것이 편합니다.",
+        "처음에는 불편했지만 이제는 작업복에 익숙해졌습니다."
       ],
-      "answer": 0,
-      "explanationBn": "'안전모 착용'은 안전모를 써야 한다는 뜻입니다."
+      "answer": 3,
+      "explanationBn": "লেখক বলছেন '처음에는 ... 불편했습니다' কিন্তু শেষে '지금은 정말 하나도 불편하지 않습니다' — অর্থাৎ শুরুতে অস্বস্তি ছিল, এখন অভ্যস্ত হয়ে গেছেন ('익숙해지다'), তাই ④ সঠিক। ① ভুল: কাজের পরিমাণ নিয়ে লেখায় কিছুই বলা হয়নি। ② ভুল: পোশাক বদলানোর কথা নেই, বরং একই পোশাকে অভ্যস্ত হয়েছেন। ③ ভুল: ম্যানেজার বলেছেন চেন তুলে রাখাই নিরাপদ, আর লেখকও সেটাই মেনে নিয়েছেন।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하십시오. '작업장에서는 항상 작업복을 입어야 합니다. 그리고 기계를 만질 때는 안전장갑을 껴야 합니다.' 기계를 만질 때 무엇을 껴야 합니까?",
-      "questionKo": "기계를 만질 때 무엇을 껴야 합니까?",
-      "passage": "작업장에서는 항상 작업복을 입어야 합니다. 그리고 기계를 만질 때는 안전장갑을 껴야 합니다.",
+      "questionBn": "নিচের নিয়মাবলি পড়ে খালি জায়গায় বসার জন্য সবচেয়ে উপযুক্ত অংশটি বেছে নিন।",
+      "questionKo": "다음을 읽고 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "[우리 회사 직원 예절]\n•동료에게 반말을 하면 안 됩니다. 항상 __________.\n•동료의 의견을 존중하고 서로 배려해야 됩니다.\n•다른 사람에게 피해를 주는 행동은 하면 안 됩니다.",
       "options": [
-        "안전모",
-        "안전장갑",
-        "귀마개",
-        "보안경"
+        "존댓말을 해야 됩니다",
+        "반말을 해도 됩니다",
+        "큰 소리로 말해야 됩니다",
+        "이름만 불러야 됩니다"
       ],
-      "answer": 1,
-      "explanationBn": "글에서 '기계를 만질 때는 안전장갑을 껴야 합니다'라고 했습니다."
+      "answer": 0,
+      "explanationBn": "প্রথম বাক্যে '반말을 하면 안 됩니다' (তুইতোকারি করা যাবে না) বলার পরে '항상 ...' দিয়ে বিপরীত নির্দেশ আসবে, অর্থাৎ সবসময় সম্মানসূচক ভাষা ব্যবহার করতে হবে — '존댓말을 해야 됩니다', তাই ① সঠিক। ② ভুল, কারণ ঠিক আগের অংশেই 반말 নিষেধ করা হয়েছে, তাই '반말을 해도 됩니다' পরস্পরবিরোধী। ③ '큰 소리로 말해야 됩니다' (জোরে কথা বলতে হবে) ভদ্রতার নিয়ম নয়, বরং তা অন্যের অসুবিধা করে। ④ শুধু নাম ধরে ডাকা কোরিয়ান কর্মস্থলে অভদ্র বলে গণ্য হয়; 씨 বা 직책 + 님 লাগে।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오. '먼지가 많은 곳에서 일할 때는 반드시 ( )을/를 써야 합니다.'",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "먼지가 많은 곳에서 일할 때는 반드시 ( )을/를 써야 합니다.",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে প্রশ্নের সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "남자: 유니폼이 작아요?",
       "options": [
-        "안전화",
-        "귀마개",
-        "마스크",
-        "안전장갑"
+        "네, 유니폼이에요.",
+        "네, 유니폼이 예뻐요.",
+        "아니요, 유니폼이 커요.",
+        "아니요, 유니폼이 비싸요."
       ],
       "answer": 2,
-      "explanationBn": "먼지가 많은 곳에서는 마스크를 써야 합니다."
+      "explanationBn": "প্রশ্ন '유니폼이 작아요?' — ইউনিফর্মটা ছোট কি না জানতে চাওয়া হচ্ছে, তাই উত্তরে আকার নিয়েই বলতে হবে। '아니요' বললে বিপরীত আকার আসা উচিত, তাই ③ '아니요, 유니폼이 커요' (না, বড়) সঠিক। ① '네, 유니폼이에요' মানে 'হ্যাঁ, এটা ইউনিফর্ম' — এটি '유니폼이에요?' প্রশ্নের উত্তর, আকারের নয়। ② '예뻐요' (সুন্দর) আর ④ '비싸요' (দামি) আকারের সঙ্গে সম্পর্কিত নয়, তাই প্রশ্নের সঙ্গে মেলে না।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하십시오. '몸이 아파서 일찍 집에 가고 싶습니다. 반장님께 ( )을/를 부탁했습니다.' 빈칸에 알맞은 말은 무엇입니까?",
-      "questionKo": "빈칸에 알맞은 말은 무엇입니까?",
-      "passage": "몸이 아파서 일찍 집에 가고 싶습니다. 반장님께 ( )을/를 부탁했습니다.",
+      "section": "listening",
+      "questionBn": "দুজন কী নিয়ে কথা বলছে?",
+      "questionKo": "두 사람은 무엇에 대해 말하고 있습니까?",
+      "passage": "남자: 새로 온 직원은 어때요?\n여자: 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.",
       "options": [
-        "결근",
-        "지각",
-        "외출",
-        "조퇴"
+        "새로 온 직원의 외모",
+        "새로 온 직원의 복장",
+        "새로 온 직원의 국적",
+        "새로 온 직원의 태도"
       ],
       "answer": 3,
-      "explanationBn": "일찍 집에 가는 것은 '조퇴'입니다."
+      "explanationBn": "মহিলা বলছেন '성실하게 일해요' এবং '반장님이 칭찬을 많이 하세요' — অর্থাৎ নতুন কর্মীর কাজের মনোভাব বা 근무 태도 নিয়ে আলোচনা হচ্ছে, তাই ④ সঠিক। ① '외모' মানে চেহারা, কিন্তু দেখতে কেমন সে বিষয়ে কিছু বলা হয়নি। ② '복장' মানে পোশাক — 작업복 বা 유니폼-এর কথা আসেনি। ③ '국적' মানে জাতীয়তা, কোন দেশের লোক তা নিয়েও কোনো কথা নেই।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음 문장과 뜻이 같은 것을 고르십시오. '작업장 안에서 담배를 피우면 안 됩니다.'",
-      "questionKo": "다음 문장과 뜻이 같은 것을 고르십시오.",
-      "passage": "작업장 안에서 담배를 피우면 안 됩니다.",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে এর পরে বলার জন্য সবচেয়ে উপযুক্ত বাক্যটি বেছে নিন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "여자: 새 작업복이 마음에 들어요?\n남자: 지퍼를 목까지 올리니까 좀 불편해요.",
       "options": [
-        "작업장 안에서 담배를 피우지 마십시오.",
-        "작업장 안에서 담배를 피워도 됩니다.",
-        "작업장 안에서 담배를 피워야 합니다.",
-        "작업장 안에서 담배를 피우는 것이 좋습니다."
+        "작업복이 잘 어울리네요.",
+        "익숙해지면 괜찮을 거예요.",
+        "작업복이 시원해 보여요.",
+        "사무실에 가서 새로 받았어요."
       ],
-      "answer": 0,
-      "explanationBn": "'~면 안 됩니다'는 금지를 나타내므로 '~지 마십시오'와 뜻이 같습니다."
+      "answer": 1,
+      "explanationBn": "পুরুষ বলছেন চেন গলা পর্যন্ত তুললে একটু অস্বস্তি হয় ('좀 불편해요')। এমন অভিযোগের স্বাভাবিক সান্ত্বনা হলো 'অভ্যস্ত হয়ে গেলে ঠিক হয়ে যাবে' — ② '익숙해지면 괜찮을 거예요' সঠিক। ① '잘 어울리네요' মানে 'মানিয়েছে ভালো', কিন্তু এখানে সৌন্দর্যের কথা হচ্ছে না, অস্বস্তির কথা হচ্ছে। ③ '시원해 보여요' মানে 'দেখতে ঠান্ডা লাগছে' — অস্বস্তির উত্তর হিসেবে বেমানান। ④ '사무실에 가서 새로 받았어요' হলো পোশাক কোথায় পেলেন সে প্রশ্নের উত্তর, এখানে প্রসঙ্গহীন।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 투안 씨, 작업복 단추를 잠그세요. 단정하게 입어야 합니다.\n남자: 네, 알겠습니다.",
+      "questionBn": "পুরুষটি এরপরে কী করবে?",
+      "questionKo": "남자가 이어서 할 행동은 무엇입니까?",
+      "passage": "여자: 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남자: 작업장이 너무 더워서 조금 풀었어요.\n여자: 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남자: 알겠어요. 지금 잠글게요.",
       "options": [
-        "남자는 작업복을 벗을 것입니다.",
-        "남자는 작업복 단추를 잠글 것입니다.",
-        "남자는 안전화를 신을 것입니다.",
-        "남자는 안전모를 쓸 것입니다."
+        "단추를 잠급니다.",
+        "작업복을 벗습니다.",
+        "작업장 창문을 엽니다.",
+        "작업복을 가지러 갑니다."
       ],
-      "answer": 1,
-      "explanationBn": "여자가 단추를 잠그라고 했고 남자가 알겠다고 대답했습니다."
+      "answer": 0,
+      "explanationBn": "শেষে পুরুষ নিজেই বলছেন '지금 잠글게요' — অর্থাৎ এখনই বোতাম লাগাবেন, তাই ① '단추를 잠급니다' সঠিক। ② '작업복을 벗습니다' ভুল, কারণ কাজের পোশাক খোলার কথা কেউ বলেনি; বরং ঠিকভাবে পরার কথা হচ্ছে। ③ '창문을 엽니다' ভুল, গরমের কথা উঠলেও জানালা খোলার কোনো প্রস্তাব আসেনি। ④ '작업복을 가지러 갑니다' ভুল, কারণ পোশাক তিনি ইতিমধ্যে পরে আছেন, আনতে যাওয়ার দরকার নেই।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 소음이 너무 심해요. 귀가 아픕니다.\n여자: 그럼 이 귀마개를 하세요.",
+      "questionBn": "কথাবার্তা শুনে এর সঙ্গে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "questionKo": "다음 대화를 듣고 내용과 같은 것을 고르십시오.",
+      "passage": "여자: 마두 씨, 오늘 정장을 입고 넥타이도 맸네요.\n남자: 네, 오후에 사무실에서 회의가 있어서요.\n여자: 아주 단정해 보여요. 그런데 작업장에는 안 가요?\n남자: 회의가 끝나면 작업복으로 갈아입고 갈 거예요.",
       "options": [
-        "남자는 눈이 아픕니다.",
-        "여자는 마스크를 줍니다.",
-        "남자는 귀마개를 할 것입니다.",
-        "여자는 소음이 심하지 않다고 생각합니다."
+        "남자는 오늘 하루 종일 작업복을 입습니다.",
+        "여자는 오후에 회의에 갑니다.",
+        "남자는 회의 후에 작업장에 갈 겁니다.",
+        "남자는 넥타이를 풀고 회의에 갑니다."
       ],
       "answer": 2,
-      "explanationBn": "남자가 귀가 아프다고 하자 여자가 귀마개를 하라고 권했습니다."
+      "explanationBn": "পুরুষ শেষে বলছেন '회의가 끝나면 작업복으로 갈아입고 갈 거예요' — মিটিং শেষে কাজের পোশাক পরে কাজের জায়গায় যাবেন, তাই ③ সঠিক। ① ভুল: আজ তিনি 정장 পরে আছেন, সারা দিন 작업복 নয়। ② ভুল: মিটিং আছে পুরুষের, মহিলার নয়। ④ ভুল: তিনি নেকটাই বেঁধেছেন ('넥타이도 맸네요'), মিটিংয়ের জন্য খোলেননি — '풀다' মানে খুলে ফেলা, যা এখানে ঘটেনি।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 오늘 퇴근 시간은 몇 시입니까?\n남자: 오늘은 일이 많아서 저녁 8시에 퇴근할 겁니다.",
+      "questionBn": "মহিলা কেন পুরুষটির প্রশংসা করছেন?",
+      "questionKo": "여자는 왜 남자를 칭찬합니까?",
+      "passage": "여자: 아궁 씨는 항상 성실하게 일해서 참 좋아요.\n남자: 감사합니다. 앞으로도 열심히 하겠습니다.\n여자: 그리고 동료들을 배려하고 존중하는 태도도 아주 좋아요.\n남자: 서로 도와야 일이 더 즐거워지니까요.",
       "options": [
-        "남자는 오늘 일이 없습니다.",
-        "남자는 저녁 6시에 퇴근합니다.",
-        "여자는 저녁 8시에 출근합니다.",
-        "남자는 저녁 8시에 퇴근합니다."
+        "남자가 정장을 단정하게 입어서",
+        "남자가 성실하고 태도가 좋아서",
+        "남자가 회사에 오래 다녀서",
+        "남자가 한국말을 잘해서"
       ],
-      "answer": 3,
-      "explanationBn": "남자가 저녁 8시에 퇴근할 것이라고 말했습니다."
+      "answer": 1,
+      "explanationBn": "মহিলা দুটি কারণ বলছেন: '항상 성실하게 일해서' এবং '동료들을 배려하고 존중하는 태도도 아주 좋아요' — অর্থাৎ পরিশ্রমী হওয়া ও ভালো মনোভাবের জন্য প্রশংসা, তাই ② সঠিক। ① ভুল: পোশাক বা 정장 নিয়ে কোনো কথা হয়নি। ③ ভুল: কত দিন চাকরি করছেন সে বিষয়ে কিছু বলা হয়নি। ④ ভুল: কোরিয়ান ভাষার দক্ষতার প্রসঙ্গও কথাবার্তায় আসেনি।"
     }
   ]
 }
