@@ -14,6 +14,12 @@ Fragments live in  .lesson-work/<NN>/  and are:
     practice.json    array of exactly 20 practice items
     eps.json         array of 16-20 epsQuestions
 
+Any list section may instead be written as numbered parts, which are
+concatenated in numeric order. Korean and Bengali tokenize at 3-4 tokens per
+character, so a whole section often exceeds one response's output limit:
+
+    vocabulary-1.json  vocabulary-2.json  vocabulary-3.json  ...
+
 Usage:  python3 scripts/assemble-lesson.py 24
         python3 scripts/assemble-lesson.py 24 --check   # also run the gate
 """
@@ -38,9 +44,7 @@ SECTIONS = [
 ]
 
 
-def load(path: Path, expect: type):
-    if not path.exists():
-        sys.exit(f"missing fragment: {path}")
+def read_json(path: Path, expect: type):
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
@@ -48,6 +52,33 @@ def load(path: Path, expect: type):
     if not isinstance(data, expect):
         sys.exit(f"{path}: expected {expect.__name__}, got {type(data).__name__}")
     return data
+
+
+def load(path: Path, expect: type):
+    """Load a fragment, or concatenate its numbered parts.
+
+    A full section is too much Korean/Bengali to emit in one model response, so
+    authors may split any list section into parts: `vocabulary-1.json`,
+    `vocabulary-2.json`, ... They are concatenated in numeric order.
+    """
+    if path.exists():
+        return read_json(path, expect)
+
+    if expect is list:
+        stem = path.stem
+        parts = sorted(
+            path.parent.glob(f"{stem}-*.json"),
+            key=lambda p: int(p.stem.rsplit("-", 1)[1]),
+        )
+        if parts:
+            merged: list = []
+            for p in parts:
+                merged.extend(read_json(p, list))
+            names = ", ".join(p.name for p in parts)
+            print(f"  {path.name}: merged {len(parts)} parts ({names})")
+            return merged
+
+    sys.exit(f"missing fragment: {path} (and no {path.stem}-N.json parts)")
 
 
 def main() -> int:
