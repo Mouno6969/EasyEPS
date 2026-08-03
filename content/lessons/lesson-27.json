@@ -10,596 +10,714 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কোরিয়ার বিভিন্ন স্মরণীয় দিবস সম্পর্কে জানা",
-      "ছুটির দিন এবং উৎসবের বর্ণনা দেওয়া",
-      "কোরিয়ান সংস্কৃতি ও ঐতিহ্য সম্পর্কে ধারণা লাভ করা"
+      "কোরিয়ার জাতীয় দিবস ও স্মরণীয় দিবসগুলোর নাম, তারিখ এবং সেদিন কী করা হয় তা বলতে পারা",
+      "'-는' দিয়ে ক্রিয়া থেকে বিশেষণীয় রূপ বানিয়ে পরের বিশেষ্যকে বর্ণনা করতে পারা",
+      "'-아/어 봤다' দিয়ে নিজের অভিজ্ঞতা আছে কি নেই তা প্রকাশ করতে পারা",
+      "돌잔치, 결혼식, 장례식-এর মতো বিশেষ অনুষ্ঠানে যাওয়া, উপহার ও শিষ্টাচার সম্পর্কে জানা"
     ],
     "en": [
-      "Learn about various commemorative days in Korea",
-      "Describe holidays and festivals",
-      "Gain an understanding of Korean culture and traditions"
+      "Can name Korea's national and commemorative days with their dates and activities",
+      "Can describe a following noun with the verb modifier -는",
+      "Can say whether one has or has not had an experience using -아/어 봤다",
+      "Can understand etiquette and gifts for special events like 돌잔치, weddings and funerals"
     ]
   },
   "vocabulary": [
     {
+      "ko": "국경일",
+      "romanization": "gukgyeongil",
+      "bn": "জাতীয় দিবস (রাষ্ট্রীয়ভাবে নির্ধারিত দিন)",
+      "en": "national holiday",
+      "pos": "noun",
+      "example": {
+        "ko": "한글날은 한국의 국경일이에요.",
+        "bn": "হাঙ্গুল দিবস কোরিয়ার একটি জাতীয় দিবস।",
+        "en": "Hangeul Day is a national holiday in Korea."
+      },
+      "pronunciationTipBn": "'국경일' [국꼉일]—ㄱ-এর পরে ㄱ শক্ত হয়ে 'ㄲ' শোনায়।"
+    },
+    {
       "ko": "기념일",
       "romanization": "ginyeomil",
-      "bn": "স্মরণীয় দিবস",
+      "bn": "স্মরণীয় দিবস, বার্ষিকী",
       "en": "commemorative day",
       "pos": "noun",
       "example": {
-        "ko": "오늘은 특별한 기념일입니다.",
-        "bn": "আজ একটি বিশেষ স্মরণীয় দিবস।",
-        "en": "Today is a special commemorative day."
+        "ko": "5월에는 기념일이 많아요.",
+        "bn": "মে মাসে অনেক স্মরণীয় দিবস থাকে।",
+        "en": "There are many commemorative days in May."
       },
-      "pronunciationTipBn": "'ㄱ' এবং 'ㄴ' এর উচ্চারণ স্পষ্ট করুন; '기녀밀' (কিন্যমিল)।"
-    },
-    {
-      "ko": "공휴일",
-      "romanization": "gonghyuil",
-      "bn": "সরকারি ছুটির দিন",
-      "en": "public holiday",
-      "pos": "noun",
-      "example": {
-        "ko": "내일은 공휴일이라서 학교에 안 갑니다.",
-        "bn": "আগামীকাল সরকারি ছুটির দিন তাই স্কুলে যাব না।",
-        "en": "Tomorrow is a public holiday, so I don't go to school."
-      },
-      "pronunciationTipBn": "'ㅇ' এবং 'ㅎ' এর উচ্চারণ স্পষ্ট করুন; '공휴일' (কংহিউইল)।"
-    },
-    {
-      "ko": "명절",
-      "romanization": "myeongjeol",
-      "bn": "উৎসবের দিন",
-      "en": "traditional holiday",
-      "pos": "noun",
-      "example": {
-        "ko": "한국의 대표적인 명절은 설날과 추석입니다.",
-        "bn": "কোরিয়ার প্রধান উৎসবের দিনগুলো হলো সল্লাল এবং ছুসক।",
-        "en": "Korea's representative traditional holidays are Seollal and Chuseok."
-      },
-      "pronunciationTipBn": "'ㅁ' এবং 'ㅈ' এর উচ্চারণ স্বাভাবিক রাখুন; '명절' (মিয়ংজল)।"
-    },
-    {
-      "ko": "설날",
-      "romanization": "seollal",
-      "bn": "কোরিয়ান নববর্ষ",
-      "en": "Lunar New Year",
-      "pos": "noun",
-      "example": {
-        "ko": "설날에는 떡국을 먹습니다.",
-        "bn": "কোরিয়ান নববর্ষে তকগুক খাওয়া হয়।",
-        "en": "We eat Tteokguk on Lunar New Year."
-      },
-      "pronunciationTipBn": "'ㄹ' এর প্রভাবে 'ㄴ' ও 'ㄹ' উচ্চারিত হয়; '설랄' (সল্লাল)।"
-    },
-    {
-      "ko": "추석",
-      "romanization": "chuseok",
-      "bn": "কোরিয়ান ধন্যবাদ জ্ঞাপন দিবস",
-      "en": "Chuseok (Korean Thanksgiving)",
-      "pos": "noun",
-      "example": {
-        "ko": "추석에는 송편을 만듭니다.",
-        "bn": "ছুসকে সংপিয়ন তৈরি করা হয়।",
-        "en": "We make Songpyeon on Chuseok."
-      },
-      "pronunciationTipBn": "'ㅊ' একটু জোর দিয়ে উচ্চারণ করুন; '추석' (ছুসক)।"
+      "pronunciationTipBn": "'기념일' [기녀밀]—শেষের ㅁ পরের স্বরের সঙ্গে জুড়ে 'মিল' হয়ে যায়।"
     },
     {
       "ko": "삼일절",
       "romanization": "samiljeol",
-      "bn": "স্বাধীনতা আন্দোলন দিবস",
+      "bn": "সামিলজল (১ মার্চ, স্বাধীনতা আন্দোলন দিবস)",
       "en": "Independence Movement Day",
       "pos": "noun",
       "example": {
-        "ko": "3월 1일은 삼일절입니다.",
-        "bn": "১লা মার্চ হলো স্বাধীনতা আন্দোলন দিবস।",
-        "en": "March 1st is Independence Movement Day."
+        "ko": "삼일절은 3월 1일이에요.",
+        "bn": "সামিলজল হলো ১ মার্চ।",
+        "en": "Independence Movement Day is March 1st."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "어린이날",
-      "romanization": "eorininal",
-      "bn": "শিশু দিবস",
-      "en": "Children's Day",
-      "pos": "noun",
-      "example": {
-        "ko": "5월 5일은 어린이날입니다.",
-        "bn": "৫ই মে হলো শিশু দিবস।",
-        "en": "May 5th is Children's Day."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
+      "pronunciationTipBn": "'삼일절' [사밀쩔]—শেষ অংশ '절' শক্ত হয়ে [쩔] শোনায়।"
     },
     {
       "ko": "광복절",
       "romanization": "gwangbokjeol",
-      "bn": "জাতীয় মুক্তি দিবস",
+      "bn": "গোয়াংবোকজল (১৫ আগস্ট, মুক্তি দিবস)",
       "en": "National Liberation Day",
       "pos": "noun",
       "example": {
-        "ko": "8월 15일은 광복절입니다.",
-        "bn": "১৫ই আগস্ট হলো জাতীয় মুক্তি দিবস।",
-        "en": "August 15th is National Liberation Day."
+        "ko": "광복절에 한국의 독립을 기념해요.",
+        "bn": "গোয়াংবোকজল-এ কোরিয়ার স্বাধীনতাকে স্মরণ করা হয়।",
+        "en": "On Liberation Day, people commemorate Korea's independence."
       },
-      "pronunciationTipBn": "'ㄱ' এবং 'ㅂ' এর উচ্চারণ স্বাভাবিক রাখুন; '광복쩔' (কোয়াংবোকজ্জল)।"
+      "pronunciationTipBn": "'광복절' [광복쩔]—ㄱ-এর পরে ㅈ শক্ত হয়ে 'ㅉ' হয়।"
     },
     {
       "ko": "개천절",
       "romanization": "gaecheonjeol",
-      "bn": "জাতীয় প্রতিষ্ঠা দিবস",
+      "bn": "গেচনজল (৩ অক্টোবর, জাতি প্রতিষ্ঠা দিবস)",
       "en": "National Foundation Day",
       "pos": "noun",
       "example": {
-        "ko": "10월 3일은 개천절입니다.",
-        "bn": "৩রা অক্টোবর হলো জাতীয় প্রতিষ্ঠা দিবস।",
-        "en": "October 3rd is National Foundation Day."
+        "ko": "개천절은 10월 3일이에요.",
+        "bn": "গেচনজল হলো ৩ অক্টোবর।",
+        "en": "National Foundation Day is October 3rd."
       },
-      "pronunciationTipBn": "'ㄱ' এবং 'ㅊ' এর উচ্চারণ স্পষ্ট করুন; '개천절' (ক্যাছঞ্জল)।"
+      "pronunciationTipBn": "'개천절' [개천절]—'개' শব্দটি 'গে'-এর মতো, 'কে' নয়।"
     },
     {
       "ko": "한글날",
       "romanization": "hangeullal",
-      "bn": "হাঙ্গুল দিবস",
-      "en": "Hangeul Proclamation Day",
+      "bn": "হাঙ্গুল দিবস (৯ অক্টোবর)",
+      "en": "Hangeul Day",
       "pos": "noun",
       "example": {
-        "ko": "10월 9일은 한글날입니다.",
-        "bn": "৯ই অক্টোবর হলো হাঙ্গুল দিবস।",
-        "en": "October 9th is Hangeul Proclamation Day."
+        "ko": "한글날에 한글을 만든 것을 기념해요.",
+        "bn": "হাঙ্গুল দিবসে হাঙ্গুল তৈরির ঘটনাকে স্মরণ করা হয়।",
+        "en": "On Hangeul Day, people commemorate the creation of Hangeul."
       },
-      "pronunciationTipBn": "'ㄹ' এর প্রভাবে 'ㄴ' ও 'ㄹ' উচ্চারিত হয়; '한글랄' (হানগুল্লাল)।"
-    },
-    {
-      "ko": "크리스마스",
-      "romanization": "keuriseumaseu",
-      "bn": "বড়দিন",
-      "en": "Christmas",
-      "pos": "noun",
-      "example": {
-        "ko": "12월 25일은 크리스마스입니다.",
-        "bn": "২৫শে ডিসেম্বর হলো বড়দিন।",
-        "en": "December 25th is Christmas."
-      },
-      "pronunciationTipBn": "ইংরেজি শব্দ, কোরিয়ান উচ্চারণে '크리스마스' (খুরিসুমাসু)।"
-    },
-    {
-      "ko": "쉬다",
-      "romanization": "swida",
-      "bn": "বিশ্রাম নেওয়া",
-      "en": "to rest",
-      "pos": "verb",
-      "example": {
-        "ko": "공휴일에는 집에서 쉽니다.",
-        "bn": "সরকারি ছুটির দিনে বাড়িতে বিশ্রাম নিই।",
-        "en": "I rest at home on public holidays."
-      },
-      "pronunciationTipBn": "'ㅅ' এর সাথে 'ㅟ' যুক্ত হয়ে '쉬다' (শুইদা) উচ্চারিত হয়।"
-    },
-    {
-      "ko": "축하하다",
-      "romanization": "chukahada",
-      "bn": "উদযাপন করা",
-      "en": "to celebrate",
-      "pos": "verb",
-      "example": {
-        "ko": "친구의 생일을 축하합니다.",
-        "bn": "বন্ধুর জন্মদিন উদযাপন করি।",
-        "en": "I celebrate my friend's birthday."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "모이다",
-      "romanization": "moida",
-      "bn": "একত্রিত হওয়া",
-      "en": "to gather",
-      "pos": "verb",
-      "example": {
-        "ko": "명절에는 가족들이 모두 모입니다.",
-        "bn": "উৎসবের দিনে পরিবারের সবাই একত্রিত হয়।",
-        "en": "All family members gather on traditional holidays."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "선물하다",
-      "romanization": "seonmulhada",
-      "bn": "উপহার দেওয়া",
-      "en": "to give a present",
-      "pos": "verb",
-      "example": {
-        "ko": "어린이날에 아이들에게 장난감을 선물합니다.",
-        "bn": "শিশু দিবসে শিশুদের খেলনা উপহার দিই।",
-        "en": "I give toys as presents to children on Children's Day."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "전통",
-      "romanization": "jeontong",
-      "bn": "ঐতিহ্য",
-      "en": "tradition",
-      "pos": "noun",
-      "example": {
-        "ko": "한국의 전통 옷은 한복입니다.",
-        "bn": "কোরিয়ার ঐতিহ্যবাহী পোশাক হলো হানবোক।",
-        "en": "Korea's traditional clothes are Hanbok."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "놀이",
-      "romanization": "nori",
-      "bn": "খেলা",
-      "en": "game",
-      "pos": "noun",
-      "example": {
-        "ko": "설날에는 전통 놀이를 합니다.",
-        "bn": "কোরিয়ান নববর্ষে ঐতিহ্যবাহী খেলা খেলা হয়।",
-        "en": "We play traditional games on Lunar New Year."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "고향",
-      "romanization": "gohyang",
-      "bn": "গ্রামের বাড়ি",
-      "en": "hometown",
-      "pos": "noun",
-      "example": {
-        "ko": "명절에 고향에 내려갑니다.",
-        "bn": "উৎসবের দিনে গ্রামের বাড়িতে যাই।",
-        "en": "I go down to my hometown on traditional holidays."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "달맞이를 하다",
-      "romanization": "dalmajireul hada",
-      "bn": "চাঁদ দেখা",
-      "en": "to view the moon",
-      "pos": "verb",
-      "example": {
-        "ko": "추석 밤에 달맞이를 해요.",
-        "bn": "চুসকের রাতে চাঁদ দেখি।",
-        "en": "We view the moon on Chuseok night."
-      },
-      "pronunciationTipBn": "'ㄷ' এবং 'ㅁ' এর উচ্চারণ স্পষ্ট করুন; '달마지를 하다' (তালমাজি-রুল হাদা)।"
-    },
-    {
-      "ko": "소원을 빌다",
-      "romanization": "sowoneul bilda",
-      "bn": "প্রার্থনা করা",
-      "en": "to make a wish",
-      "pos": "verb",
-      "example": {
-        "ko": "보름달을 보며 소원을 빌어요.",
-        "bn": "পূর্ণিমার চাঁদ দেখে প্রার্থনা করি।",
-        "en": "I make a wish while looking at the full moon."
-      },
-      "pronunciationTipBn": "'ㅅ' এবং 'ㅂ' এর উচ্চারণ স্বাভাবিক রাখুন; '소원을 빌다' (সোওন-উল পিলদা)।"
-    },
-    {
-      "ko": "연휴",
-      "romanization": "yeonhyu",
-      "bn": "টানা ছুটি",
-      "en": "long weekend / consecutive holidays",
-      "pos": "noun",
-      "example": {
-        "ko": "이번 연휴는 아주 길어요.",
-        "bn": "এবারের টানা ছুটি অনেক লম্বা।",
-        "en": "This long weekend is very long."
-      },
-      "pronunciationTipBn": "'ㅇ' এবং 'ㅎ' এর উচ্চারণ স্পষ্ট করুন; '연휴' (ইয়োনহিউ)।"
-    },
-    {
-      "ko": "국경일",
-      "romanization": "gukgyeongil",
-      "bn": "জাতীয় দিবস",
-      "en": "national holiday",
-      "pos": "noun",
-      "example": {
-        "ko": "광복절은 한국의 국경일입니다.",
-        "bn": "জাতীয় মুক্তি দিবস কোরিয়ার একটি জাতীয় দিবস।",
-        "en": "Liberation Day is a national holiday in Korea."
-      },
-      "pronunciationTipBn": "'ㄱ' এর প্রভাবে 'ㄱ' 'ㄲ' উচ্চারিত হয়; '국꼉일' (কুক্কিয়ংইল)।"
-    },
-    {
-      "ko": "부처님 오신 날",
-      "romanization": "bucheonim osin nal",
-      "bn": "বুদ্ধ পূর্ণিমা",
-      "en": "Buddha's Birthday",
-      "pos": "noun",
-      "example": {
-        "ko": "부처님 오신 날에 절에 가요.",
-        "bn": "বুদ্ধ পূর্ণিমায় মন্দিরে যাই।",
-        "en": "We go to the temple on Buddha's Birthday."
-      },
-      "pronunciationTipBn": "'ㅂ' এবং 'ㅊ' এর উচ্চারণ স্পষ্ট করুন; '부처님 오신 날' (পুছনিম ওশিন নাল)।"
-    },
-    {
-      "ko": "현충일",
-      "romanization": "hyeonchungil",
-      "bn": "শহীদ দিবস",
-      "en": "Memorial Day",
-      "pos": "noun",
-      "example": {
-        "ko": "현충일에는 묵념을 해요.",
-        "bn": "শহীদ দিবসে নীরবতা পালন করি।",
-        "en": "We observe a moment of silence on Memorial Day."
-      },
-      "pronunciationTipBn": "'ㅎ' এবং 'ㅊ' এর উচ্চারণ স্পষ্ট করুন; '현충일' (হিয়নছুংইল)।"
-    },
-    {
-      "ko": "태극기",
-      "romanization": "taegeukgi",
-      "bn": "কোরিয়ার জাতীয় পতাকা",
-      "en": "Korean national flag",
-      "pos": "noun",
-      "example": {
-        "ko": "국경일에 태극기를 달아요.",
-        "bn": "জাতীয় দিবসে কোরিয়ার জাতীয় পতাকা ওড়াই।",
-        "en": "We hang the Korean national flag on national holidays."
-      },
-      "pronunciationTipBn": "'ㄱ' এর প্রভাবে 'ㄱ' 'ㄲ' উচ্চারিত হয়; '태극끼' (থেগুক্কি)।"
-    },
-    {
-      "ko": "달다",
-      "romanization": "dalda",
-      "bn": "ঝোলানো / ওড়ানো",
-      "en": "to hang / to hoist",
-      "pos": "verb",
-      "example": {
-        "ko": "집 앞에 태극기를 달았어요.",
-        "bn": "বাড়ির সামনে জাতীয় পতাকা উড়িয়েছি।",
-        "en": "I hung the national flag in front of the house."
-      },
-      "pronunciationTipBn": "'ㄷ' এবং 'ㄹ' এর উচ্চারণ স্পষ্ট করুন; '달다' (তালদা)।"
-    },
-    {
-      "ko": "세뱃돈",
-      "romanization": "sebaetdon",
-      "bn": "নববর্ষের সেলামি",
-      "en": "New Year's cash gift",
-      "pos": "noun",
-      "example": {
-        "ko": "할아버지께 세뱃돈을 받았어요.",
-        "bn": "দাদার কাছ থেকে নববর্ষের সেলামি পেয়েছি।",
-        "en": "I received New Year's cash gift from my grandfather."
-      },
-      "pronunciationTipBn": "'ㅅ' এর প্রভাবে 'ㄷ' 'ㄸ' উচ্চারিত হয়; '세배똔' (সেবেত্তোন)।"
-    },
-    {
-      "ko": "덕담을 하다",
-      "romanization": "deokdameul hada",
-      "bn": "আশীর্বাদ করা",
-      "en": "to give words of blessing",
-      "pos": "verb",
-      "example": {
-        "ko": "어른들이 덕담을 해 주셨어요.",
-        "bn": "বড়রা আশীর্বাদ করেছেন।",
-        "en": "The elders gave words of blessing."
-      },
-      "pronunciationTipBn": "'ㄱ' এর প্রভাবে 'ㄷ' 'ㄸ' উচ্চারিত হয়; '덕따믈 하다' (তকত্তামুল হাদা)।"
-    },
-    {
-      "ko": "친척",
-      "romanization": "chincheok",
-      "bn": "আত্মীয়",
-      "en": "relative",
-      "pos": "noun",
-      "example": {
-        "ko": "명절에 친척들을 만나요.",
-        "bn": "উৎসবের দিনে আত্মীয়দের সাথে দেখা করি।",
-        "en": "I meet relatives on holidays."
-      },
-      "pronunciationTipBn": "'ㅊ' একটু জোর দিয়ে উচ্চারণ করুন; '친척' (ছিনছক)।"
+      "pronunciationTipBn": "'한글날' [한글랄]—ㄹ-এর পরে ㄴ 'ㄹ' হয়ে যায়।"
     },
     {
       "ko": "근로자의 날",
       "romanization": "geullojaui nal",
-      "bn": "শ্রমিক দিবস",
+      "bn": "শ্রমিক দিবস (১ মে)",
       "en": "Labor Day",
       "pos": "noun",
       "example": {
-        "ko": "근로자의 날에는 회사가 쉽니다.",
-        "bn": "শ্রমিক দিবসে কোম্পানি বন্ধ থাকে।",
-        "en": "The company is closed on Labor Day."
+        "ko": "5월 1일은 근로자의 날이라서 쉬는 회사가 많아요.",
+        "bn": "১ মে শ্রমিক দিবস, তাই অনেক কোম্পানি বন্ধ থাকে।",
+        "en": "May 1st is Labor Day, so many companies are closed."
       },
-      "pronunciationTipBn": "'ㄹ' এর প্রভাবে 'ㄴ' 'ㄹ' উচ্চারিত হয়; '글로자의 날' (কুল্লোজা-উই নাল)।"
+      "pronunciationTipBn": "'근로자' [글로자]—ㄴ+ㄹ মিলে 'ㄹㄹ' হয়ে যায়।"
+    },
+    {
+      "ko": "어린이날",
+      "romanization": "eorininal",
+      "bn": "শিশু দিবস (৫ মে)",
+      "en": "Children's Day",
+      "pos": "noun",
+      "example": {
+        "ko": "어린이날에 어린 조카에게 선물을 줬어요.",
+        "bn": "শিশু দিবসে ছোট ভাগ্নেকে উপহার দিয়েছি।",
+        "en": "On Children's Day, I gave my young nephew a gift."
+      },
+      "pronunciationTipBn": "'어린이날' [어리니날]—ㄴ পরের স্বরের সঙ্গে জুড়ে যায়।"
+    },
+    {
+      "ko": "어버이날",
+      "romanization": "eobeoinal",
+      "bn": "পিতামাতা দিবস (৮ মে)",
+      "en": "Parents' Day",
+      "pos": "noun",
+      "example": {
+        "ko": "어버이날은 부모님께 감사의 마음을 전하는 날이에요.",
+        "bn": "পিতামাতা দিবস হলো বাবা-মায়ের প্রতি কৃতজ্ঞতা জানানোর দিন।",
+        "en": "Parents' Day is a day to express gratitude to your parents."
+      },
+      "pronunciationTipBn": "'어버이날' [어버이날]—তিনটি স্বর আলাদা করে স্পষ্ট বলুন।"
+    },
+    {
+      "ko": "스승의 날",
+      "romanization": "seoseungui nal",
+      "bn": "শিক্ষক দিবস (১৫ মে)",
+      "en": "Teacher's Day",
+      "pos": "noun",
+      "example": {
+        "ko": "스승의 날에 선생님께 감사의 마음을 전해요.",
+        "bn": "শিক্ষক দিবসে শিক্ষকদের প্রতি কৃতজ্ঞতা জানাই।",
+        "en": "On Teacher's Day, we express gratitude to our teachers."
+      },
+      "pronunciationTipBn": "'스승의' [스승에]—'의' প্রায়ই [에] শোনায়।"
+    },
+    {
+      "ko": "기념하다",
+      "romanization": "ginyeomhada",
+      "bn": "স্মরণ করা, উদযাপন করা",
+      "en": "to commemorate",
+      "pos": "verb",
+      "example": {
+        "ko": "한국 사람들은 광복절을 기념해요.",
+        "bn": "কোরিয়ানরা মুক্তি দিবস উদযাপন করে।",
+        "en": "Koreans commemorate Liberation Day."
+      },
+      "pronunciationTipBn": "'기념하다' [기념하다]—সব অক্ষর স্পষ্ট করে বলুন।"
+    },
+    {
+      "ko": "국기를 달다",
+      "romanization": "gukgireul dalda",
+      "bn": "জাতীয় পতাকা টাঙানো",
+      "en": "to raise the national flag",
+      "pos": "verb phrase",
+      "example": {
+        "ko": "국경일에는 집에 국기를 달아요.",
+        "bn": "জাতীয় দিবসে বাড়িতে পতাকা টাঙানো হয়।",
+        "en": "On national holidays, people raise the flag at home."
+      },
+      "pronunciationTipBn": "'국기를' [국끼를]—ㄱ-এর পরে ㄱ শক্ত হয়ে 'ㄲ'।"
+    },
+    {
+      "ko": "행사를 하다",
+      "romanization": "haengsareul hada",
+      "bn": "অনুষ্ঠান করা",
+      "en": "to hold an event",
+      "pos": "verb phrase",
+      "example": {
+        "ko": "학교에서 어린이날 행사를 했어요.",
+        "bn": "স্কুলে শিশু দিবসের অনুষ্ঠান হয়েছে।",
+        "en": "The school held a Children's Day event."
+      },
+      "pronunciationTipBn": "'행사를' [행사를]—'사'와 '를' আলাদা আলাদা স্পষ্ট বলুন।"
+    },
+    {
+      "ko": "꽃을 달아 드리다",
+      "romanization": "kkocheul dara deurida",
+      "bn": "ফুল পিন করে দেওয়া (শ্রদ্ধা জানাতে)",
+      "en": "to pin on a flower",
+      "pos": "verb phrase",
+      "example": {
+        "ko": "어버이날에 부모님께 꽃을 달아 드려요.",
+        "bn": "পিতামাতা দিবসে বাবা-মায়ের জামায় ফুল লাগিয়ে দিই।",
+        "en": "On Parents' Day, we pin flowers on our parents."
+      },
+      "pronunciationTipBn": "'달아' [다라]—ㄹ পরের স্বরে গিয়ে 'রা' হয়ে যায়।"
+    },
+    {
+      "ko": "마음을 전하다",
+      "romanization": "maeumeul jeonhada",
+      "bn": "মন প্রকাশ করা, ভালোবাসা জানানো",
+      "en": "to express one's heart",
+      "pos": "verb phrase",
+      "example": {
+        "ko": "감사의 마음을 전하고 싶어요.",
+        "bn": "কৃতজ্ঞতার অনুভূতি জানাতে চাই।",
+        "en": "I want to express my gratitude."
+      },
+      "pronunciationTipBn": "'마음을' [마으믈]—'ㅁ'এর পরে 'ㅇ' মিলে [믈] হয়।"
+    },
+    {
+      "ko": "선물을 주다",
+      "romanization": "seonmureul juda",
+      "bn": "উপহার দেওয়া",
+      "en": "to give a gift",
+      "pos": "verb phrase",
+      "example": {
+        "ko": "친구 생일에 선물을 줬어요.",
+        "bn": "বন্ধুর জন্মদিনে উপহার দিয়েছি।",
+        "en": "I gave a gift on my friend's birthday."
+      },
+      "pronunciationTipBn": "'선물을' [선무를]—ㄹ স্বরের আগে নরম।"
+    },
+    {
+      "ko": "감사",
+      "romanization": "gamsa",
+      "bn": "কৃতজ্ঞতা, ধন্যবাদ",
+      "en": "gratitude",
+      "pos": "noun",
+      "example": {
+        "ko": "부모님께 감사의 마음이 커요.",
+        "bn": "বাবা-মায়ের প্রতি কৃতজ্ঞতা বড়।",
+        "en": "My gratitude toward my parents is great."
+      },
+      "pronunciationTipBn": "'감사' [감사]—দুটি অক্ষর সমান জোরে বলুন।"
+    },
+    {
+      "ko": "독립",
+      "romanization": "dongnip",
+      "bn": "স্বাধীনতা",
+      "en": "independence",
+      "pos": "noun",
+      "example": {
+        "ko": "한국은 1945년에 독립했어요.",
+        "bn": "কোরিয়া ১৯৪৫ সালে স্বাধীন হয়েছে।",
+        "en": "Korea gained independence in 1945."
+      },
+      "pronunciationTipBn": "'독립' [동닙]—ㄱ পরে ㄴ এলে [ㅇ] হয়ে যায়।"
+    },
+    {
+      "ko": "돌",
+      "romanization": "dol",
+      "bn": "শিশুর প্রথম জন্মদিন",
+      "en": "first birthday",
+      "pos": "noun",
+      "example": {
+        "ko": "다음 주가 아기 돌이에요.",
+        "bn": "আগামী সপ্তাহে বাচ্চার প্রথম জন্মদিন।",
+        "en": "Next week is the baby's first birthday."
+      },
+      "pronunciationTipBn": "'돌' [돌]—শেষ ㄹ জিভ তালুতে ঠেকিয়ে নরমভাবে বলুন।"
+    },
+    {
+      "ko": "돌잔치",
+      "romanization": "doljanchi",
+      "bn": "প্রথম জন্মদিনের অনুষ্ঠান",
+      "en": "first birthday party",
+      "pos": "noun",
+      "example": {
+        "ko": "동료의 아기 돌잔치에 가 봤어요.",
+        "bn": "সহকর্মীর বাচ্চার প্রথম জন্মদিনের অনুষ্ঠানে গিয়েছি।",
+        "en": "I have been to a colleague's baby's first birthday party."
+      },
+      "pronunciationTipBn": "'돌잔치' [돌짠치]—ㄹ-এর পরে ㅈ শক্ত হয়ে 'ㅉ'।"
+    },
+    {
+      "ko": "환갑",
+      "romanization": "hwangap",
+      "bn": "ষাটতম জন্মদিন",
+      "en": "60th birthday",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 달에 아버지 환갑이에요.",
+        "bn": "এ মাসে বাবার ষাটতম জন্মদিন।",
+        "en": "My father's 60th birthday is this month."
+      },
+      "pronunciationTipBn": "'환갑' [환갑]—'환' নাক দিয়ে টেনে বলুন।"
+    },
+    {
+      "ko": "칠순",
+      "romanization": "chilsun",
+      "bn": "সত্তরতম জন্মদিন",
+      "en": "70th birthday",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 주 토요일이 할아버지 칠순이에요.",
+        "bn": "এই শনিবার দাদুর সত্তরতম জন্মদিন।",
+        "en": "This Saturday is my grandfather's 70th birthday."
+      },
+      "pronunciationTipBn": "'칠순' [칠쑨]—ㄹ-এর পরে ㅅ শক্ত হয়ে 'ㅆ'।"
+    },
+    {
+      "ko": "결혼식",
+      "romanization": "gyeolhonsik",
+      "bn": "বিয়ের অনুষ্ঠান",
+      "en": "wedding ceremony",
+      "pos": "noun",
+      "example": {
+        "ko": "일요일에 친구 결혼식에 가요.",
+        "bn": "রবিবার বন্ধুর বিয়ের অনুষ্ঠানে যাচ্ছি।",
+        "en": "I'm going to my friend's wedding on Sunday."
+      },
+      "pronunciationTipBn": "'결혼식' [겨론식]—ㅎ দুর্বল হয়ে ㄹ পরের স্বরে জুড়ে যায়।"
+    },
+    {
+      "ko": "축의금",
+      "romanization": "chugui-geum",
+      "bn": "অভিনন্দনের টাকা (বিয়েতে দেওয়া খাম)",
+      "en": "congratulatory money",
+      "pos": "noun",
+      "example": {
+        "ko": "결혼식에서 축의금을 냈어요.",
+        "bn": "বিয়ের অনুষ্ঠানে অভিনন্দনের টাকা দিয়েছি।",
+        "en": "I gave congratulatory money at the wedding."
+      },
+      "pronunciationTipBn": "'축의금' [추기금]—ㄱ পরের স্বরে গিয়ে [기] হয়।"
+    },
+    {
+      "ko": "장례식",
+      "romanization": "jangnyesik",
+      "bn": "শেষকৃত্য, অন্ত্যেষ্টিক্রিয়া",
+      "en": "funeral",
+      "pos": "noun",
+      "example": {
+        "ko": "장례식에는 검은색 옷을 입고 가요.",
+        "bn": "শেষকৃত্যে কালো পোশাক পরে যেতে হয়।",
+        "en": "People wear black clothes to a funeral."
+      },
+      "pronunciationTipBn": "'장례식' [장녜식]—ㅇ-এর পরে ㄹ 'ㄴ' হয়ে যায়।"
+    },
+    {
+      "ko": "조의금",
+      "romanization": "joui-geum",
+      "bn": "সমবেদনার টাকা (শেষকৃত্যে দেওয়া খাম)",
+      "en": "condolence money",
+      "pos": "noun",
+      "example": {
+        "ko": "장례식장에서 조의금을 드렸어요.",
+        "bn": "শেষকৃত্যের হলে সমবেদনার টাকা দিয়েছি।",
+        "en": "I offered condolence money at the funeral hall."
+      },
+      "pronunciationTipBn": "'조의금' [조이금]—'의' এখানে [이] শোনায়।"
+    },
+    {
+      "ko": "집들이",
+      "romanization": "jipdeuri",
+      "bn": "নতুন বাসায় ওঠার অনুষ্ঠান",
+      "en": "housewarming party",
+      "pos": "noun",
+      "example": {
+        "ko": "주말에 집들이를 하려고 해요.",
+        "bn": "সপ্তাহান্তে নতুন বাসার অনুষ্ঠান করব।",
+        "en": "I plan to have a housewarming party this weekend."
+      },
+      "pronunciationTipBn": "'집들이' [집뜨리]—ㅂ-এর পরে ㄷ শক্ত হয়ে 'ㄸ'।"
+    },
+    {
+      "ko": "초대하다",
+      "romanization": "chodaehada",
+      "bn": "নিমন্ত্রণ করা",
+      "en": "to invite",
+      "pos": "verb",
+      "example": {
+        "ko": "동료들을 집으로 초대했어요.",
+        "bn": "সহকর্মীদের বাসায় নিমন্ত্রণ করেছি।",
+        "en": "I invited my colleagues to my house."
+      },
+      "pronunciationTipBn": "'초대하다' [초대하다]—'초' ঠোঁট গোল করে বলুন।"
+    },
+    {
+      "ko": "초대를 받다",
+      "romanization": "chodaereul batda",
+      "bn": "নিমন্ত্রণ পাওয়া",
+      "en": "to be invited",
+      "pos": "verb phrase",
+      "example": {
+        "ko": "돌잔치에 초대를 받았어요.",
+        "bn": "প্রথম জন্মদিনের অনুষ্ঠানে নিমন্ত্রণ পেয়েছি।",
+        "en": "I was invited to a first birthday party."
+      },
+      "pronunciationTipBn": "'받다' [받따]—ㄷ বাতচিমের পরে ㄷ শক্ত হয়ে 'ㄸ'।"
+    },
+    {
+      "ko": "참석하다",
+      "romanization": "chamseokhada",
+      "bn": "উপস্থিত হওয়া, যোগ দেওয়া",
+      "en": "to attend",
+      "pos": "verb",
+      "example": {
+        "ko": "동료들이 많이 참석했어요.",
+        "bn": "অনেক সহকর্মী উপস্থিত হয়েছিলেন।",
+        "en": "Many colleagues attended."
+      },
+      "pronunciationTipBn": "'참석하다' [참서카다]—ㄱ+ㅎ মিলে [카] হয়ে যায়।"
+    },
+    {
+      "ko": "축하하다",
+      "romanization": "chukhahada",
+      "bn": "অভিনন্দন জানানো",
+      "en": "to congratulate",
+      "pos": "verb",
+      "example": {
+        "ko": "아기의 첫 번째 생일을 축하해요.",
+        "bn": "বাচ্চার প্রথম জন্মদিনে অভিনন্দন।",
+        "en": "We celebrate the baby's first birthday."
+      },
+      "pronunciationTipBn": "'축하하다' [추카하다]—ㄱ+ㅎ মিলে [카]; '축하' [추카]।"
+    },
+    {
+      "ko": "동료",
+      "romanization": "dongnyo",
+      "bn": "সহকর্মী",
+      "en": "colleague",
+      "pos": "noun",
+      "example": {
+        "ko": "회사 동료의 결혼식에 가 봤어요.",
+        "bn": "কোম্পানির সহকর্মীর বিয়েতে গিয়েছি।",
+        "en": "I have been to a company colleague's wedding."
+      },
+      "pronunciationTipBn": "'동료' [동뇨]—ㅇ-এর পরে ㄹ 'ㄴ' হয়ে যায়।"
+    },
+    {
+      "ko": "잔치",
+      "romanization": "janchi",
+      "bn": "ভোজ, উৎসবের অনুষ্ঠান",
+      "en": "party, feast",
+      "pos": "noun",
+      "example": {
+        "ko": "할아버지 칠순 잔치에 가요.",
+        "bn": "দাদুর সত্তরতম জন্মদিনের ভোজে যাচ্ছি।",
+        "en": "I'm going to my grandfather's 70th birthday feast."
+      },
+      "pronunciationTipBn": "'잔치' [잔치]—'치' জোরে শ্বাস ছেড়ে বলুন।"
+    },
+    {
+      "ko": "금반지",
+      "romanization": "geumbanji",
+      "bn": "সোনার আংটি",
+      "en": "gold ring",
+      "pos": "noun",
+      "example": {
+        "ko": "돌잔치에서 금반지를 주는 사람도 있어요.",
+        "bn": "প্রথম জন্মদিনে কেউ কেউ সোনার আংটিও দেয়।",
+        "en": "Some people give a gold ring at a first birthday party."
+      },
+      "pronunciationTipBn": "'금반지' [금반지]—'금'-এর ㅁ ঠোঁট বন্ধ করে শেষ করুন।"
+    },
+    {
+      "ko": "장난감",
+      "romanization": "jangnangam",
+      "bn": "খেলনা",
+      "en": "toy",
+      "pos": "noun",
+      "example": {
+        "ko": "아기 옷하고 장난감을 사 줬어요.",
+        "bn": "বাচ্চার জামা আর খেলনা কিনে দিয়েছি।",
+        "en": "I bought baby clothes and a toy."
+      },
+      "pronunciationTipBn": "'장난감' [장난깜]—ㄴ-এর পরে ㄱ শক্ত হয়ে 'ㄲ'।"
     }
   ],
   "grammar": [
     {
-      "pattern": "N + 에 (Time)",
-      "titleBn": "সময় নির্দেশক",
-      "explanationBn": "কোনো কাজ কখন ঘটে তা বোঝাতে সময়ের সাথে '에' যুক্ত হয়। এটি বাংলা 'এ' বা 'তে' বিভক্তির মতো কাজ করে।",
-      "explanationEn": "Attached to time nouns to indicate when an action takes place.",
+      "pattern": "-는",
+      "titleBn": "ক্রিয়াবিশেষণ '-는' (যে/যা...করে)",
+      "explanationBn": "'-는' ক্রিয়ার সঙ্গে যুক্ত হয়ে পরের বিশেষ্যকে বর্ণনা করে। এটি দিয়ে বর্তমানে চলমান কাজ, বারবার ঘটা কাজ বা সাধারণ সত্যকে প্রকাশ করা হয়—বাংলায় 'যে...করে' বা 'যা...করা হয়'। '-는' সরাসরি ক্রিয়ার মূলে যোগ করা হয়, বাতচিম (শেষ ব্যঞ্জন) থাকলেও: 먹다 → 먹는, 듣다 → 듣는, 만들다 → 만드는। '-는' দিয়ে তৈরি অংশটি পরের বিশেষ্যের গুণ বা পরিচয় দেয়। উদাহরণ: '선생님께 감사의 마음을 전하는 날' মানে 'যে দিন শিক্ষকের প্রতি কৃতজ্ঞতা জানানো হয়'।",
+      "explanationEn": "-는 attaches directly to verb stems to modify the following noun, showing that the action is currently happening, is a recurring event, or represents a general fact. It is used regardless of whether the stem ends with a consonant or vowel: 먹다 → 먹는, 듣다 → 듣는, 만들다 → 만드는. The -는 phrase describes the following noun.",
       "examples": [
         {
-          "ko": "설날에 고향에 갑니다.",
-          "bn": "কোরিয়ান নববর্ষে গ্রামের বাড়িতে যাই।",
-          "en": "I go to my hometown on Lunar New Year."
+          "ko": "저기에서 사진을 찍는 사람이 왕민 씨예요.",
+          "bn": "ওখানে যে মানুষটি ছবি তুলছেন, তিনি ওয়াংমিন সি।",
+          "en": "The person taking photos over there is Wang Min."
         },
         {
-          "ko": "어린이날에 공원에서 놉니다.",
-          "bn": "শিশু দিবসে পার্কে খেলি।",
-          "en": "I play in the park on Children's Day."
+          "ko": "스승의 날은 선생님께 감사의 마음을 전하는 날이에요.",
+          "bn": "শিক্ষক দিবস হলো সেই দিন যেদিন শিক্ষকদের প্রতি কৃতজ্ঞতা জানানো হয়।",
+          "en": "Teacher's Day is a day when we express gratitude to our teachers."
+        },
+        {
+          "ko": "어버이날은 부모님께 감사의 마음을 전하는 날이에요.",
+          "bn": "পিতামাতা দিবস হলো বাবা-মায়ের প্রতি কৃতজ্ঞতা জানানোর দিন।",
+          "en": "Parents' Day is a day to express gratitude to our parents."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যবহারের জন্য ব্যাকরণের নিয়ম অনুসরণ করুন।"
+      "commonMistakeBn": "বিশেষণ '-ㄴ/은'এর সঙ্গে গুলিয়ে ফেলবেন না। '-는' শুধু ক্রিয়ার সঙ্গে যুক্ত হয় এবং বর্তমান বা সাধারণ কাজ বোঝায়। '좋다', '예쁘다'-এর মতো বিশেষণে '-는' বসে না, সেখানে '-ㄴ/은' বসে: 좋은 날 (ভালো দিন), 예쁜 꽃 (সুন্দর ফুল)।"
     },
     {
-      "pattern": "V + (으)ㄹ 때",
-      "titleBn": "সময় বা মুহূর্ত নির্দেশক",
-      "explanationBn": "কোনো কাজ করার সময় বা মুহূর্ত বোঝাতে ক্রিয়াপদের সাথে '(으)ㄹ 때' ব্যবহৃত হয়। এর অর্থ 'যখন' বা 'করার সময়'।",
-      "explanationEn": "Used to express the time or moment when an action occurs, meaning 'when' or 'while'.",
+      "pattern": "-아/어 봤다",
+      "titleBn": "অভিজ্ঞতা '-아/어 봤다' (করে দেখেছি)",
+      "explanationBn": "'-아/어 봤다' ক্রিয়ার সঙ্গে যুক্ত হয়ে কোনো কাজের অভিজ্ঞতা প্রকাশ করে—বাংলায় 'করে দেখেছি', 'করেছি কখনো'। মূল ক্রিয়ার শেষ স্বর 'ㅏ' বা 'ㅗ' হলে '-아 봤다': 가다 → 가 봤다, 보다 → 봐 봤다। অন্যান্য স্বর (ㅓ, ㅜ, ㅣ ইত্যাদি) হলে '-어 봤다': 먹다 → 먹어 봤다, 만들다 → 만들어 봤다। '-하다' ক্রিয়ায় '-해 봤다': 구경하다 → 구경해 봤다। অভিজ্ঞতা না থাকলে 'নেতিবাচক + 봤다' বা '못 + 봤다': 안 가 봤어요 / 못 가 봤어요 (যাইনি কখনো)।",
+      "explanationEn": "-아/어 봤다 attaches to verbs to indicate having experienced doing an action. Use -아 봤다 after ㅏ or ㅗ vowel stems (가다 → 가 봤다), -어 봤다 after other vowels (먹다 → 먹어 봤다), and -해 봤다 with -하다 verbs (구경하다 → 구경해 봤다). For lack of experience, use negative forms: 안 가 봤어요 or 못 가 봤어요.",
       "examples": [
         {
-          "ko": "명절 때 가족들이 모입니다.",
-          "bn": "উৎসবের সময় পরিবারের সদস্যরা একত্রিত হয়।",
-          "en": "Family members gather during traditional holidays."
+          "ko": "돌잔치에 가 봤어요?",
+          "bn": "প্রথম জন্মদিনের অনুষ্ঠানে গিয়েছেন কখনো?",
+          "en": "Have you been to a first birthday party?"
         },
         {
-          "ko": "쉴 때 보통 텔레비전을 봅니다.",
-          "bn": "বিশ্রাম নেওয়ার সময় সাধারণত টেলিভিশন দেখি।",
-          "en": "I usually watch television when I rest."
+          "ko": "네, 동료의 아기 돌잔치에 가 봤어요.",
+          "bn": "হ্যাঁ, সহকর্মীর বাচ্চার প্রথম জন্মদিনে গিয়েছি।",
+          "en": "Yes, I've been to a colleague's baby's first birthday party."
+        },
+        {
+          "ko": "한국 음식을 먹어 봤는데 정말 맛있었어요.",
+          "bn": "কোরিয়ান খাবার খেয়ে দেখেছি, সত্যিই সুস্বাদু ছিল।",
+          "en": "I tried Korean food and it was really delicious."
+        },
+        {
+          "ko": "김치를 아직 못 만들어 봤어요.",
+          "bn": "কিমচি এখনো বানিয়ে দেখিনি।",
+          "en": "I haven't tried making kimchi yet."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যবহারের জন্য ব্যাকরণের নিয়ম অনুসরণ করুন।"
+      "commonMistakeBn": "'-아/어 보다' (চেষ্টা করে দেখা) এবং '-아/어 봤다' (অভিজ্ঞতা আছে) আলাদা করুন। '한번 먹어 보세요' মানে 'একবার খেয়ে দেখুন' (ভবিষ্যৎ চেষ্টা), আর '먹어 봤어요?' মানে 'খেয়েছেন কখনো?' (অতীত অভিজ্ঞতা)।"
     },
     {
-      "pattern": "-(으)면",
-      "titleBn": "-(으)면 (যদি)",
-      "explanationBn": "এই ব্যাকরণটি কোনো শর্ত বা অনুমান বোঝাতে ব্যবহৃত হয়। ক্রিয়াপদ বা বিশেষণ পদের শেষে বসে। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '-으면' এবং স্বরবর্ণ বা 'ㄹ' দিয়ে শেষ হলে '-면' বসে।",
-      "explanationEn": "This grammar is used to express a condition or assumption. It is attached to the end of a verb or adjective. '-으면' is used after a consonant, and '-면' is used after a vowel or 'ㄹ'.",
+      "pattern": "V + -(으)ㄹ래요?",
+      "titleBn": "প্রস্তাব ও অনুরোধ '-(으)ㄹ래요?' (করবেন কি?)",
+      "explanationBn": "'-(으)ㄹ래요?' ক্রিয়ার সঙ্গে যুক্ত হয়ে শ্রোতার ইচ্ছা জানতে চায় বা বন্ধুত্বপূর্ণভাবে প্রস্তাব দেয়—বাংলায় 'করবেন?', 'করবেন কি?'। মূলে বাতচিম (শেষ ব্যঞ্জন) থাকলে '-을래요': 먹다 → 먹을래요?, 앉다 → 앉을래요?। বাতচিম না থাকলে বা শেষ ব্যঞ্জন 'ㄹ' হলে শুধু '-ㄹ래요': 가다 → 갈래요?, 도와주다 → 도와줄래요?। অধ্যায়ের কথোপকথনে দুই জায়গায় এটি এসেছে—'같이 저녁 먹을래요?' (একসঙ্গে রাতের খাবার খাবেন?) এবং '좀 도와줄래요?' (একটু সাহায্য করবেন?)। প্রশ্নচিহ্ন ছাড়া ব্যবহার করলে নিজের ইচ্ছা বোঝায়: '저는 안 갈래요' (আমি যাব না)।",
+      "explanationEn": "-(으)ㄹ래요? attaches to verbs to ask about the listener's intention or to make a casual suggestion or request ('Would you like to...?', 'Will you...?'). Use -을래요 after a final consonant (먹다 → 먹을래요?) and -ㄹ래요 after a vowel or final ㄹ (가다 → 갈래요?). Without the question mark it states the speaker's own intention: 저는 안 갈래요.",
       "examples": [
         {
-          "ko": "비가 오면 집에 있을 거예요.",
-          "bn": "বৃষ্টি আসলে বাড়িতে থাকব।",
-          "en": "If it rains, I will stay at home."
+          "ko": "유진 씨, 같이 저녁 먹을래요?",
+          "bn": "ইউজিন সি, একসঙ্গে রাতের খাবার খাবেন?",
+          "en": "Yujin, would you like to have dinner together?"
         },
         {
-          "ko": "시간이 있으면 같이 영화 봐요.",
-          "bn": "সময় থাকলে একসাথে সিনেমা দেখি।",
-          "en": "If you have time, let's watch a movie together."
+          "ko": "예쁜 아기 옷을 선물하고 싶은데 좀 도와줄래요?",
+          "bn": "সুন্দর একটা বাচ্চার জামা উপহার দিতে চাই, একটু সাহায্য করবেন?",
+          "en": "I want to give some cute baby clothes as a gift — could you help me?"
         },
         {
-          "ko": "날씨가 좋으면 등산을 갈 거예요.",
-          "bn": "আবহাওয়া ভালো থাকলে পাহাড়ে উঠব।",
-          "en": "If the weather is good, I will go hiking."
+          "ko": "이번 주말에 돌잔치에 같이 갈래요?",
+          "bn": "এই সপ্তাহান্তে প্রথম জন্মদিনের অনুষ্ঠানে একসঙ্গে যাবেন?",
+          "en": "Shall we go to the first birthday party together this weekend?"
         }
       ],
-      "commonMistakeBn": "অনেকে 'ㄹ' দিয়ে শেষ হওয়া শব্দের পরে ভুল করে '-으면' ব্যবহার করেন; 'ㄹ' দিয়ে শেষ হলে '-면' বসবে (যেমন: 만들면)।"
+      "commonMistakeBn": "সম্মানিত বড় কর্তা বা অপরিচিত প্রবীণ ব্যক্তিকে এটি বলা উচিত নয়—তাঁদের ক্ষেত্রে '-(으)시겠어요?' বা '-(으)ㄹ까요?' বেশি ভদ্র। আরেকটি ভুল হলো বাতচিম ভুলে যাওয়া: '먹다' মূলে 'ㄱ' আছে, তাই '먹래요?' নয়, '먹을래요?' হবে।"
     },
     {
-      "pattern": "-기 때문에",
-      "titleBn": "-기 때문에 (কারণে)",
-      "explanationBn": "এই ব্যাকরণটি কোনো কাজের কারণ বা যুক্তি বোঝাতে ব্যবহৃত হয়। ক্রিয়াপদ বা বিশেষণ পদের শেষে বসে। বিশেষ্য পদের পরে '때문에' বসে।",
-      "explanationEn": "This grammar is used to express the reason or cause of an action. It is attached to the end of a verb or adjective. '때문에' is used after a noun.",
+      "pattern": "N + -(이)라서 / A/V + -아/어서",
+      "titleBn": "কারণ বোঝানো '-(이)라서' ও '-아/어서' (হওয়ায়, তাই)",
+      "explanationBn": "কারণ বোঝাতে বিশেষ্যের সঙ্গে '-(이)라서' এবং ক্রিয়া বা বিশেষণের সঙ্গে '-아/어서' যোগ করা হয়—বাংলায় 'হওয়ায়', 'তাই', 'কারণে'। বিশেষ্যে বাতচিম থাকলে '-이라서': 어버이날 → 어버이날이라서, 생일 → 생일이라서। বাতচিম না থাকলে '-라서': 휴가 → 휴가라서। ক্রিয়া বা বিশেষণে শেষ স্বর 'ㅏ, ㅗ' হলে '-아서': 많다 → 많아서; অন্য স্বরে '-어서': 맵다 → 매워서; আর '-하다' ক্রিয়ায় '-해서': 일하다 → 일해서। অধ্যায়ে আছে '내일이 어버이날이라서 선물 사러 가야 해요' এবং '일이 많아서 아직 못 샀어요'।",
+      "explanationEn": "To give a reason, attach -(이)라서 to nouns and -아/어서 to verbs and adjectives ('because...', 'since...'). Use -이라서 after a noun ending in a consonant (어버이날이라서) and -라서 after a vowel (휴가라서). For verbs and adjectives use -아서 after ㅏ/ㅗ stems (많다 → 많아서), -어서 otherwise (맵다 → 매워서), and -해서 with 하다 verbs.",
       "examples": [
         {
-          "ko": "비가 오기 때문에 안 나갔어요.",
-          "bn": "বৃষ্টি আসার কারণে বাইরে যাইনি।",
-          "en": "I didn't go out because it was raining."
+          "ko": "내일이 어버이날이라서 선물 사러 가야 해요.",
+          "bn": "কাল পিতামাতা দিবস হওয়ায় উপহার কিনতে যেতে হবে।",
+          "en": "Tomorrow is Parents' Day, so I have to go buy a gift."
         },
         {
-          "ko": "오늘은 공휴일이기 때문에 회사가 쉬어요.",
-          "bn": "আজ সরকারি ছুটির দিন হওয়ার কারণে কোম্পানি বন্ধ।",
-          "en": "The company is closed today because it is a public holiday."
+          "ko": "그동안 일이 많아서 선물을 아직 못 샀어요.",
+          "bn": "এই কয়দিন কাজ বেশি থাকায় উপহার এখনো কিনতে পারিনি।",
+          "en": "I had a lot of work, so I haven't bought the gift yet."
         },
         {
-          "ko": "눈 때문에 길이 막혀요.",
-          "bn": "তুষারের কারণে রাস্তা জ্যাম।",
-          "en": "The road is blocked because of the snow."
+          "ko": "5월 1일은 근로자의 날이라서 쉬는 회사가 많아요.",
+          "bn": "১ মে শ্রমিক দিবস হওয়ায় অনেক কোম্পানি বন্ধ থাকে।",
+          "en": "May 1st is Labor Day, so many companies are closed."
         }
       ],
-      "commonMistakeBn": "অনেকে বিশেষ্য পদের পরে ভুল করে '-기 때문에' ব্যবহার করেন; বিশেষ্য পদের পরে শুধু '때문에' বসবে (যেমন: 비 때문에)।"
+      "commonMistakeBn": "বিশেষ্যের পরে সরাসরি '-아/어서' বসে না—'어버이날아서' ভুল, সঠিক রূপ '어버이날이라서'। আর '-아/어서' দিয়ে গঠিত বাক্যে আদেশ বা প্রস্তাব আসে না; 'ভিড় বেশি তাই যাবেন না' বলতে '-(으)니까' লাগে: '사람이 많으니까 가지 마세요'।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "명절 계획 (উৎসবের পরিকল্পনা)",
-      "titleEn": "Holiday Plans",
+      "titleBn": "পিতামাতা দিবস কী ধরনের দিন?",
+      "titleEn": "What Kind of Day Is Parents' Day?",
       "lines": [
         {
-          "speaker": "리한",
-          "ko": "투안 씨, 한국의 명절에는 보통 무엇을 해요?",
-          "bn": "তুয়ান, কোরিয়ার উৎসবের দিনে সাধারণত কী করেন?",
-          "en": "Tuan, what do you usually do on Korean traditional holidays?"
+          "speaker": "마두",
+          "ko": "유진 씨, 같이 저녁 먹을래요?",
+          "bn": "ইউজিন সি, একসঙ্গে রাতের খাবার খাবেন?",
+          "en": "Yujin, would you like to have dinner together?"
         },
         {
-          "speaker": "투안",
-          "ko": "저는 보통 고향에 가서 가족들을 만나요.",
-          "bn": "আমি সাধারণত গ্রামের বাড়িতে গিয়ে পরিবারের সাথে দেখা করি।",
-          "en": "I usually go to my hometown and meet my family."
+          "speaker": "유진",
+          "ko": "미안해요. 내일이 어버이날이라서 선물 사러 가야 해요.",
+          "bn": "দুঃখিত। কাল পিতামাতা দিবস হওয়ায় উপহার কিনতে যেতে হবে।",
+          "en": "I'm sorry. Tomorrow is Parents' Day, so I have to go buy a gift."
         },
         {
-          "speaker": "리한",
-          "ko": "그렇군요. 이번 추석에도 고향에 갈 거예요?",
-          "bn": "তাই নাকি। এবারের ছুসকেও কি গ্রামের বাড়িতে যাবেন?",
-          "en": "I see. Are you going to your hometown this Chuseok too?"
+          "speaker": "마두",
+          "ko": "어버이날이요? 그게 무슨 날인데요?",
+          "bn": "পিতামাতা দিবস? সেটা কী ধরনের দিন?",
+          "en": "Parents' Day? What kind of day is that?"
         },
         {
-          "speaker": "투안",
-          "ko": "네, 가족들과 같이 송편을 먹고 쉴 거예요.",
-          "bn": "হ্যাঁ, পরিবারের সাথে সংপিয়ন খাব এবং বিশ্রাম নেব।",
-          "en": "Yes, I will eat Songpyeon with my family and rest."
+          "speaker": "유진",
+          "ko": "어버이날은 부모님께 감사의 마음을 전하는 날이에요. 이날 부모님께 꽃을 달아 드리고 선물도 드려요.",
+          "bn": "পিতামাতা দিবস হলো বাবা-মায়ের প্রতি কৃতজ্ঞতা জানানোর দিন। এই দিন বাবা-মাকে ফুল পিন করে দেওয়া হয় আর উপহারও দেওয়া হয়।",
+          "en": "Parents' Day is a day to express gratitude to your parents. On this day we pin flowers on our parents and give them gifts."
+        },
+        {
+          "speaker": "유진",
+          "ko": "마두 씨 나라에도 어버이날이 있어요?",
+          "bn": "মাদু সি, আপনার দেশেও পিতামাতা দিবস আছে?",
+          "en": "Is there a Parents' Day in your country, Madhu?"
+        },
+        {
+          "speaker": "마두",
+          "ko": "네, 그렇지만 네팔에는 어머니날과 아버지의 날이 따로 있어요.",
+          "bn": "হ্যাঁ, তবে নেপালে মা দিবস আর বাবা দিবস আলাদা আলাদা।",
+          "en": "Yes, but in Nepal we have separate days for Mother's Day and Father's Day."
+        },
+        {
+          "speaker": "마두",
+          "ko": "어버이날 이야기를 하니까 고향에 계시는 부모님이 보고 싶네요.",
+          "bn": "পিতামাতা দিবসের কথা বলতে গিয়ে দেশে থাকা বাবা-মায়ের কথা মনে পড়ছে।",
+          "en": "Talking about Parents' Day makes me miss my parents back home."
         }
       ]
     },
     {
-      "titleBn": "공휴일 (সরকারি ছুটির দিন)",
-      "titleEn": "Public Holiday",
+      "titleBn": "প্রথম জন্মদিনের অনুষ্ঠানে কী উপহার দেব?",
+      "titleEn": "What Gift Should I Bring to a First Birthday Party?",
       "lines": [
         {
-          "speaker": "수루",
-          "ko": "내일은 공휴일인데 회사에 가요?",
-          "bn": "আগামীকাল সরকারি ছুটির দিন, কোম্পানিতে যাবেন?",
-          "en": "Tomorrow is a public holiday, are you going to work?"
+          "speaker": "다라",
+          "ko": "자야 씨, 돌잔치에 가 봤어요?",
+          "bn": "জায়া সি, প্রথম জন্মদিনের অনুষ্ঠানে গিয়েছেন কখনো?",
+          "en": "Jaya, have you ever been to a first birthday party?"
         },
         {
-          "speaker": "바투",
-          "ko": "아니요, 내일은 삼일절이라서 쉬어요.",
-          "bn": "না, আগামীকাল স্বাধীনতা আন্দোলন দিবস তাই বিশ্রাম নেব।",
-          "en": "No, tomorrow is Independence Movement Day, so I rest."
+          "speaker": "자야",
+          "ko": "네, 동료의 아기 돌잔치에 가 봤어요.",
+          "bn": "হ্যাঁ, সহকর্মীর বাচ্চার প্রথম জন্মদিনের অনুষ্ঠানে গিয়েছি।",
+          "en": "Yes, I've been to the first birthday party of a colleague's baby."
         },
         {
-          "speaker": "수루",
-          "ko": "삼일절이 무슨 날이에요?",
-          "bn": "স্বাধীনতা আন্দোলন দিবস কী ধরনের দিন?",
-          "en": "What kind of day is Independence Movement Day?"
+          "speaker": "다라",
+          "ko": "그래요? 저도 이번 주말에 돌잔치에 초대를 받았는데요. 한국의 돌잔치는 어때요?",
+          "bn": "তাই? আমিও এই সপ্তাহান্তে একটা প্রথম জন্মদিনের অনুষ্ঠানে নিমন্ত্রণ পেয়েছি। কোরিয়ার প্রথম জন্মদিনের অনুষ্ঠান কেমন হয়?",
+          "en": "Really? I've also been invited to a first birthday party this weekend. What is a Korean first birthday party like?"
         },
         {
-          "speaker": "바투",
-          "ko": "한국의 독립을 기념하는 날이에요.",
-          "bn": "এটি কোরিয়ার স্বাধীনতা উদযাপনের দিন।",
-          "en": "It is a day to commemorate Korea's independence."
+          "speaker": "자야",
+          "ko": "가족과 친구들이 아기의 첫 번째 생일을 축하하고 같이 밥도 먹어요.",
+          "bn": "পরিবার আর বন্ধুরা মিলে বাচ্চার প্রথম জন্মদিন উদযাপন করে আর একসঙ্গে খাওয়াদাওয়াও করে।",
+          "en": "Family and friends celebrate the baby's first birthday and share a meal together."
+        },
+        {
+          "speaker": "다라",
+          "ko": "아기에게 선물을 하고 싶은데 자야 씨는 뭘 선물했어요?",
+          "bn": "বাচ্চাকে উপহার দিতে চাই, জায়া সি আপনি কী উপহার দিয়েছিলেন?",
+          "en": "I want to give the baby a gift. What present did you give, Jaya?"
+        },
+        {
+          "speaker": "자야",
+          "ko": "저는 아기 옷하고 장난감을 사 줬는데 금반지를 주는 사람들도 있었어요.",
+          "bn": "আমি বাচ্চার জামা আর খেলনা কিনে দিয়েছিলাম, তবে কেউ কেউ সোনার আংটিও দেয়।",
+          "en": "I bought baby clothes and toys, but some people gave gold rings."
+        },
+        {
+          "speaker": "다라",
+          "ko": "그래요? 저도 예쁜 아기 옷을 선물하고 싶은데 자야 씨가 좀 도와줄래요?",
+          "bn": "তাই? আমিও সুন্দর একটা বাচ্চার জামা উপহার দিতে চাই, জায়া সি একটু সাহায্য করবেন?",
+          "en": "Really? I'd also like to give some pretty baby clothes. Jaya, could you help me?"
         }
       ]
     },
     {
-      "titleBn": "কথোপকথন ৩",
-      "titleEn": "Dialogue 3",
+      "titleBn": "শিক্ষক দিবসের ফুল আর দাদুর সত্তরতম জন্মদিন",
+      "titleEn": "Teacher's Day Flowers and Grandfather's 70th Birthday",
       "lines": [
         {
-          "speaker": "리한",
-          "ko": "수루 씨, 설날 연휴에 고향에 갈 거예요?",
-          "bn": "সুরু, নববর্ষের ছুটিতে কি গ্রামের বাড়িতে যাবে?",
-          "en": "Suru, are you going to your hometown during the New Year holiday?"
+          "speaker": "진수",
+          "ko": "유진 씨, 꽃 선물 받았어요?",
+          "bn": "ইউজিন সি, ফুল উপহার পেয়েছেন?",
+          "en": "Yujin, did you get flowers as a gift?"
         },
         {
-          "speaker": "수루",
-          "ko": "아니요, 고향이 너무 멀어서 못 가요.",
-          "bn": "না, গ্রামের বাড়ি অনেক দূরে হওয়ায় যেতে পারব না।",
-          "en": "No, my hometown is too far, so I can't go."
+          "speaker": "유진",
+          "ko": "아니요. 고등학교 선생님께 드리려고 샀어요. 오늘이 스승의 날이거든요.",
+          "bn": "না। হাই স্কুলের শিক্ষককে দেওয়ার জন্য কিনেছি। আজ তো শিক্ষক দিবস।",
+          "en": "No. I bought them to give to my high school teacher. Today is Teacher's Day."
         },
         {
-          "speaker": "리한",
-          "ko": "그럼 연휴 동안 뭐 할 거예요?",
-          "bn": "তাহলে ছুটির সময় কী করবে?",
-          "en": "Then what will you do during the holiday?"
+          "speaker": "진수",
+          "ko": "선생님께 감사의 마음을 전하는 날, 맞지요? 저도 들어 봤어요.",
+          "bn": "শিক্ষকের প্রতি কৃতজ্ঞতা জানানোর দিন, তাই না? আমিও শুনেছি।",
+          "en": "It's the day for expressing gratitude to teachers, right? I've heard about it too."
         },
         {
-          "speaker": "수루",
-          "ko": "친구들하고 같이 떡국을 만들어 먹을 거예요.",
-          "bn": "বন্ধুদের সাথে তকগুক বানিয়ে খাব।",
-          "en": "I will make and eat tteokguk with my friends."
+          "speaker": "유진",
+          "ko": "네, 맞아요. 그런데 이번 주 토요일이 진수 씨 할아버지 칠순이지요?",
+          "bn": "হ্যাঁ, ঠিক। আচ্ছা, এই সপ্তাহের শনিবার তো জিনসু সি-র দাদুর সত্তরতম জন্মদিন, তাই না?",
+          "en": "Yes, that's right. By the way, this Saturday is your grandfather's 70th birthday, isn't it?"
         },
         {
-          "speaker": "리한",
-          "ko": "재미있겠네요. 새해 복 많이 받으세요!",
-          "bn": "মজা হবে মনে হচ্ছে। শুভ নববর্ষ!",
-          "en": "That sounds fun. Happy New Year!"
+          "speaker": "진수",
+          "ko": "네, 칠순 잔치를 해요. 무엇을 사 드리면 좋을까요?",
+          "bn": "হ্যাঁ, সত্তরতম জন্মদিনের অনুষ্ঠান হবে। কী কিনে দিলে ভালো হয়?",
+          "en": "Yes, we're having a 70th birthday party. What would be good to buy for him?"
         },
         {
-          "speaker": "수루",
-          "ko": "리한 씨도 새해 복 많이 받으세요.",
-          "bn": "রিহান, তোমাকেও শুভ নববর্ষ।",
-          "en": "Happy New Year to you too, Rihan."
+          "speaker": "유진",
+          "ko": "용돈을 드리는 게 어때요? 어른들께는 그게 제일 좋아요.",
+          "bn": "হাতখরচের টাকা দিলে কেমন হয়? বয়স্কদের জন্য এটাই সবচেয়ে ভালো।",
+          "en": "How about giving him some pocket money? That's best for the elders."
         }
       ]
     }
@@ -608,568 +726,565 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি কোরিয়ার ঐতিহ্যবাহী উৎসব নয়?",
-      "questionKo": "한국의 명절이 아닌 것은 무엇입니까?",
+      "questionBn": "'어버이날' কোন তারিখে পালন করা হয়?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "단오",
-        "추석",
-        "설날",
-        "크리스마스"
+        "5월 1일",
+        "5월 8일",
+        "5월 5일",
+        "5월 15일"
       ],
-      "answer": 3,
-      "explanationBn": "ক্রিসমাস (크리스마스) একটি সরকারি ছুটির দিন, কিন্তু এটি কোরিয়ার ঐতিহ্যবাহী উৎসব (명절) নয়।"
+      "answer": 1,
+      "explanationBn": "어버이날 (পিতামাতা দিবস) ৮ মে পালন করা হয়। ৫ মে ১ তারিখ 근로자의 날 (শ্রমিক দিবস), ৫ মে 어린이날 (শিশু দিবস), আর ১৫ মে 스승의 날 (শিক্ষক দিবস)।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "৯ই অক্টোবর কী দিবস?",
-      "questionKo": "10월 9일은 무슨 날입니까?",
+      "questionBn": "'국기를 달다'-এর সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
       "options": [
-        "삼일절",
-        "광복절",
-        "한글날",
-        "개천절"
+        "অনুষ্ঠান করা",
+        "ফুল পিন করে দেওয়া",
+        "জাতীয় পতাকা টাঙানো",
+        "উপহার দেওয়া"
       ],
       "answer": 2,
-      "explanationBn": "১০ই অক্টোবর হলো হাঙ্গুল দিবস (한글날)।"
+      "explanationBn": "국기를 달다 = জাতীয় পতাকা টাঙানো; জাতীয় দিবসে কোরিয়ানরা বাড়িতে পতাকা টাঙায়। বাকিগুলো হলো 행사를 하다, 꽃을 달아 드리다, 선물을 주다।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "উৎসবের দিনে পরিবারের সদস্যরা একত্রিত হয়ে কী করে?",
-      "questionKo": "명절에 가족들이 모여서 무엇을 합니까?",
+      "questionBn": "নিচের কোন বাক্যে '-는' সঠিকভাবে ব্যবহার করা হয়েছে?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르세요.",
       "options": [
-        "병원에 갑니다.",
-        "맛있는 음식을 먹습니다.",
-        "회사에 갑니다.",
-        "한국어를 공부합니다."
+        "지금 듣는 음악은 K-팝이에요.",
+        "저는 따뜻하는 봄이 좋아요.",
+        "자주 만들는 음식이 뭐예요?",
+        "제일 가깝는 약국이 어디예요?"
       ],
-      "answer": 1,
-      "explanationBn": "উৎসবের দিনে পরিবারের সদস্যরা একত্রিত হয়ে সুস্বাদু খাবার খায় (맛있는 음식을 먹습니다)।"
+      "answer": 0,
+      "explanationBn": "'듣다' ক্রিয়া, তাই '듣는 음악' সঠিক। '따뜻하다' ও '가깝다' বিশেষণ—সেখানে '따뜻한 봄', '가까운 약국' হবে। '만들다'-এর 'ㄹ' পড়ে যায়, তাই '만드는 음식' হবে।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "কোরিয়ার স্বাধীনতা উদযাপনের দিন কবে?",
-      "questionKo": "한국의 독립을 기념하는 날은 언제입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-는' বসান: 스승의 날은 선생님께 감사의 마음을 ___ 날이에요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "삼일절",
-        "어린이날",
-        "한글날",
-        "크리스마스"
+        "전한",
+        "전해서",
+        "전할",
+        "전하는"
       ],
-      "answer": 0,
-      "explanationBn": "কোরিয়ার স্বাধীনতা উদযাপনের দিন হলো স্বাধীনতা আন্দোলন দিবস (삼일절)।"
+      "answer": 3,
+      "explanationBn": "সাধারণ সত্য বোঝাতে ক্রিয়ার সঙ্গে '-는' বসে: 전하다 → 전하는 날। '전한' অতীতের কাজ, '전할' ভবিষ্যতের কাজ, আর '전해서' কারণ বোঝায়—কোনোটিই এখানে বসে না।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "근무일",
-        "회의",
-        "평일",
-        "공휴일"
+      "type": "matching",
+      "questionBn": "জাতীয় দিবসের সঙ্গে তার তারিখ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "삼일절",
+          "right": "১ মার্চ"
+        },
+        {
+          "left": "광복절",
+          "right": "১৫ আগস্ট"
+        },
+        {
+          "left": "개천절",
+          "right": "৩ অক্টোবর"
+        },
+        {
+          "left": "한글날",
+          "right": "৯ অক্টোবর"
+        }
       ],
-      "answer": 3,
-      "explanationBn": "আগামীকাল সরকারি ছুটির দিন (공휴일), তাই স্কুলে যাব না।"
+      "explanationBn": "চারটিই কোরিয়ার 국경일। 삼일절 ১ মার্চ (স্বাধীনতা আন্দোলন), 광복절 ১৫ আগস্ট (মুক্তি দিবস), 개천절 ৩ অক্টোবর (জাতি প্রতিষ্ঠা), 한글날 ৯ অক্টোবর (হাঙ্গুল সৃষ্টি)।"
     },
     {
       "id": "p6",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'-아/어 봤다' বসান: 저는 동료의 아기 돌잔치에 ___ 봤어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "스승의 날",
-        "근로자의 날",
-        "어린이날",
-        "어버이날"
+        "가",
+        "가고",
+        "가서",
+        "갈"
       ],
-      "answer": 2,
-      "explanationBn": "৫ই মে হলো শিশু দিবস (어린이날)।"
+      "answer": 0,
+      "explanationBn": "'가다'-এর শেষ স্বর 'ㅏ', তাই '-아 봤다' রূপে '가 봤어요' হয়। '가고' দুটি কাজ জোড়ে, '가서' কারণ বা ক্রম বোঝায়, '갈' ভবিষ্যতের বিশেষণীয় রূপ।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'집들이' মানে কী?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "생일",
-        "명절",
-        "주말",
-        "휴가"
+        "শেষকৃত্যের অনুষ্ঠান",
+        "শিশুর প্রথম জন্মদিনের অনুষ্ঠান",
+        "সত্তরতম জন্মদিনের অনুষ্ঠান",
+        "নতুন বাসায় ওঠার অনুষ্ঠান"
       ],
-      "answer": 1,
-      "explanationBn": "কোরিয়ানরা উৎসবের দিনে (명절) গ্রামের বাড়িতে গিয়ে পরিবারের সাথে দেখা করে।"
+      "answer": 3,
+      "explanationBn": "집들이 হলো নতুন বাসায় ওঠার পর সহকর্মী-বন্ধুদের নিমন্ত্রণ করার অনুষ্ঠান। বাকিগুলো হলো 장례식, 돌잔치, 칠순 잔치।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "결혼식-এ যে খামে টাকা দেওয়া হয়, তাকে কোরিয়ান ভাষায় কী বলে?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "광복절",
-        "개천절",
-        "삼일절",
-        "한글날"
+        "조의금",
+        "축의금",
+        "용돈",
+        "금반지"
       ],
-      "answer": 0,
-      "explanationBn": "১৫ই আগস্ট হলো জাতীয় মুক্তি দিবস (광복절)।"
+      "answer": 1,
+      "explanationBn": "বিয়েতে দেওয়া অভিনন্দনের টাকা = 축의금। 조의금 হলো শেষকৃত্যে দেওয়া সমবেদনার টাকা, 용돈 হাতখরচ, আর 금반지 সোনার আংটি।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "সঠিক শব্দের সাথে মিল করুন।",
-      "pairs": [
-        {
-          "left": "설날",
-          "right": "কোরিয়ান নববর্ষ"
-        },
-        {
-          "left": "추석",
-          "right": "কোরিয়ান ধন্যবাদ জ্ঞাপন দিবস"
-        },
-        {
-          "left": "어린이날",
-          "right": "শিশু দিবস"
-        },
-        {
-          "left": "한글날",
-          "right": "হাঙ্গুল দিবস"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-는' বসান: 저기에서 사진을 ___ 사람이 왕민 씨예요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "찍은",
+        "찍는",
+        "찍을",
+        "찍어서"
       ],
-      "explanationBn": "설날 - কোরিয়ান নববর্ষ, 추석 - কোরিয়ান ধন্যবাদ জ্ঞাপন দিবস, 어린이날 - শিশু দিবস, 한글날 - হাঙ্গুল দিবস।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 1,
+      "explanationBn": "এখন চলমান কাজ বোঝাতে '찍다 + -는' = 찍는 사람। '찍은' মানে যিনি তুলেছিলেন (অতীত), '찍을' মানে যিনি তুলবেন (ভবিষ্যৎ), '찍어서' বিশেষ্যকে বর্ণনা করতে পারে না।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "সঠিক শব্দের সাথে মিল করুন।",
-      "pairs": [
-        {
-          "left": "공휴일",
-          "right": "সরকারি ছুটির দিন"
-        },
-        {
-          "left": "기념일",
-          "right": "স্মরণীয় দিবস"
-        },
-        {
-          "left": "명절",
-          "right": "উৎসবের দিন"
-        },
-        {
-          "left": "고향",
-          "right": "গ্রামের বাড়ি"
-        }
+      "type": "multiple-choice",
+      "questionBn": "어버이날-এ কোরিয়ানরা বাবা-মায়ের জন্য সাধারণত কী করে?",
+      "questionKo": "알맞은 것을 고르세요.",
+      "options": [
+        "조의금을 드려요.",
+        "국기를 달아 드려요.",
+        "꽃을 달아 드리고 선물도 드려요.",
+        "장례식에 참석해요."
       ],
-      "explanationBn": "공휴일 - সরকারি ছুটির দিন, 기념일 - স্মরণীয় দিবস, 명절 - উৎসবের দিন, 고향 - গ্রামের বাড়ি।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 2,
+      "explanationBn": "কথোপকথন অনুযায়ী এই দিন '부모님께 꽃을 달아 드리고 선물도 드려요'। 조의금 শেষকৃত্যের টাকা, 국기 টাঙানো হয় জাতীয় দিবসে, আর 장례식 শোকের অনুষ্ঠান।"
     },
     {
       "id": "p11",
-      "type": "matching",
-      "questionBn": "উপযুক্ত শব্দ মেলান।",
-      "pairs": [
-        {
-          "left": "설날",
-          "right": "떡국"
-        },
-        {
-          "left": "추석",
-          "right": "송편"
-        },
-        {
-          "left": "어린이날",
-          "right": "놀이공원"
-        },
-        {
-          "left": "삼일절",
-          "right": "태극기"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-(이)라서' বসান: 내일이 어버이___ 선물 사러 가야 해요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "날라서",
+        "날에서",
+        "날이라서",
+        "날아서"
       ],
-      "explanationBn": "설날-এ 떡국 খাওয়া হয়, 추석-এ 송편 খাওয়া হয়, 어린이날-এ 놀이공원-এ যাওয়া হয় এবং 삼일절-এ 태극기 ওড়ানো হয়।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 2,
+      "explanationBn": "'어버이날'-এর শেষে 'ㄹ' বাতচিম আছে, তাই '-이라서': 어버이날이라서। '날라서' স্বরান্ত বিশেষ্যের রূপ, '날에서' স্থান বোঝায়, আর '날아서' বিশেষ্যে বসে না।"
     },
     {
       "id": "p12",
-      "type": "matching",
-      "questionBn": "উপযুক্ত শব্দ মেলান।",
-      "pairs": [
-        {
-          "left": "세배를",
-          "right": "하다"
-        },
-        {
-          "left": "성묘를",
-          "right": "가다"
-        },
-        {
-          "left": "소원을",
-          "right": "빌다"
-        },
-        {
-          "left": "덕담을",
-          "right": "하다"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'초대를 받다'-এর সঠিক অর্থ কোনটি?",
+      "questionKo": "옳은 것을 고르세요.",
+      "options": [
+        "নিমন্ত্রণ পাওয়া",
+        "নিমন্ত্রণ করা",
+        "উপস্থিত হওয়া",
+        "অভিনন্দন জানানো"
       ],
-      "explanationBn": "সঠিক ক্রিয়াপদগুলো হলো: 세배를 하다 (নববর্ষের প্রণাম করা), 성묘를 가다 (কবর জিয়ারত করা), 소원을 빌다 (প্রার্থনা করা), 덕담을 하다 (আশীর্বাদ করা)।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 0,
+      "explanationBn": "초대를 받다 = নিমন্ত্রণ পাওয়া। 초대하다 নিমন্ত্রণ করা, 참석하다 উপস্থিত হওয়া, 축하하다 অভিনন্দন জানানো।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি কোরিয়ার জাতীয় দিবস নয়?",
-      "questionKo": "다음 중 한국의 국경일이 아닌 것은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄹ래요?' বসান: 유진 씨, 같이 저녁 ___?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "삼일절",
-        "광복절",
-        "개천절",
-        "추석"
+        "먹래요",
+        "먹으래요",
+        "먹래요?",
+        "먹을래요"
       ],
       "answer": 3,
-      "explanationBn": "추석 হলো একটি ঐতিহ্যবাহী উৎসব, এটি জাতীয় দিবস (국경일) নয়।"
+      "explanationBn": "'먹다' মূলে 'ㄱ' বাতচিম আছে, তাই '-을래요': 먹을래요? '먹래요' বা '먹으래요' ভুল রূপ; বাতচিম থাকলে '을' বসে, শুধু '으' নয়।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "설날-এ সাধারণত কী করা হয় না?",
-      "questionKo": "설날에 보통 하지 않는 것은 무엇입니까?",
-      "options": [
-        "세배를 합니다.",
-        "떡국을 먹습니다.",
-        "송편을 만듭니다.",
-        "윷놀이를 합니다."
+      "type": "matching",
+      "questionBn": "বিশেষ অনুষ্ঠানের নামের সঙ্গে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "돌잔치",
+          "right": "শিশুর প্রথম জন্মদিনের অনুষ্ঠান"
+        },
+        {
+          "left": "환갑",
+          "right": "ষাটতম জন্মদিন"
+        },
+        {
+          "left": "칠순",
+          "right": "সত্তরতম জন্মদিন"
+        },
+        {
+          "left": "결혼식",
+          "right": "বিয়ের অনুষ্ঠান"
+        },
+        {
+          "left": "장례식",
+          "right": "শেষকৃত্য"
+        }
       ],
-      "answer": 2,
-      "explanationBn": "송편 (সংপিয়ন) 추석-এ বানানো হয়, 설날-এ নয়।"
+      "explanationBn": "সবগুলোই অধ্যায়ের '특별한 날' শব্দতালিকা থেকে নেওয়া। মনে রাখুন: 돌 = প্রথম জন্মদিন, 환갑 ৬০, 칠순 ৭০।"
     },
     {
       "id": "p15",
       "type": "multiple-choice",
-      "questionBn": "추석-এ রাতে কী দেখা হয়?",
-      "questionKo": "추석 밤에 무엇을 봅니까?",
+      "questionBn": "'한글날'-এর সঙ্গে সম্পর্কিত শব্দ কোনটি?",
+      "questionKo": "다음 단어와 관계있는 것을 고르세요.",
       "options": [
-        "태양",
-        "보름달",
-        "별",
-        "구름"
+        "집안일",
+        "조리법",
+        "국경일",
+        "여행지"
       ],
-      "answer": 1,
-      "explanationBn": "추석-এর রাতে পূর্ণিমার চাঁদ (보름달) দেখা হয়।"
+      "answer": 2,
+      "explanationBn": "한글날 রাষ্ট্রীয়ভাবে নির্ধারিত দিন, তাই 국경일 (জাতীয় দিবস) সম্পর্কিত। 집안일 ঘরের কাজ, 조리법 রান্নার পদ্ধতি, 여행지 ভ্রমণের জায়গা।"
     },
     {
       "id": "p16",
-      "type": "multiple-choice",
-      "questionBn": "어린이날 কবে?",
-      "questionKo": "어린이날은 언제입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-아/어 봤다' বসান: 저는 아직 김치를 못 ___ 봤어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "3월 1일",
-        "5월 5일",
-        "8월 15일",
-        "10월 9일"
+        "만들아",
+        "만들어",
+        "만드는",
+        "만들고"
       ],
       "answer": 1,
-      "explanationBn": "어린이날 (শিশু দিবস) হলো ৫ই মে (5월 5일)।"
+      "explanationBn": "'만들다'-এর শেষ স্বর 'ㅡ', অর্থাৎ ㅏ/ㅗ নয়, তাই '-어 봤다' বসে: 만들어 봤어요। '만들아' ভুল সন্ধি (ㅏ শুধু ㅏ/ㅗ মূলে বসে), '만드는' হলো '-는' রূপ যা বিশেষ্যকে বর্ণনা করে, আর '만들고' মানে 'বানিয়ে এবং'—অভিজ্ঞতা বোঝায় না।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "내일은 비가 ( ) 등산을 안 갈 거예요.",
+      "type": "multiple-choice",
+      "questionBn": "'광복절'-এ কোরিয়ানরা কী স্মরণ করে?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "오면",
-        "와서",
-        "오고",
-        "오지만"
+        "세종대왕이 한글을 만든 일",
+        "아기의 첫 번째 생일",
+        "부모님께 감사하는 마음",
+        "한국의 독립(해방)"
       ],
-      "answer": 0,
-      "explanationBn": "শর্ত বোঝাতে '-(으)면' ব্যবহৃত হয়। তাই '비가 오면' (বৃষ্টি আসলে) সঠিক।"
+      "answer": 3,
+      "explanationBn": "광복절 (১৫ আগস্ট) জাপানি শাসন থেকে মুক্তি, অর্থাৎ 한국의 독립 স্মরণ করার দিন। হাঙ্গুল তৈরির কথা 한글날-এর সঙ্গে যায়, বাচ্চার প্রথম জন্মদিন হলো 돌잔치, আর বাবা-মাকে কৃতজ্ঞতা জানানো হয় 어버이날-এ।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "오늘은 ( ) 때문에 길이 많이 막혀요.",
+      "type": "multiple-choice",
+      "questionBn": "'-아/어 봤다' ব্যবহার করে 'আপনি কি কখনো গৃহপ্রবেশ অনুষ্ঠানে গিয়েছেন?' বলতে কোন বাক্যটি সঠিক?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "눈",
-        "눈이",
-        "눈을",
-        "눈은"
+        "집들이에 가 봤어요?",
+        "집들이에 가 보세요?",
+        "집들이에 가는 거예요?",
+        "집들이에 갈래요?"
       ],
       "answer": 0,
-      "explanationBn": "বিশেষ্য পদের পরে সরাসরি '때문에' বসে। তাই '눈 때문에' (তুষারের কারণে) সঠিক।"
+      "explanationBn": "অতীত অভিজ্ঞতা জিজ্ঞাসা করতে '-아/어 봤어요?' লাগে, তাই 가 봤어요? সঠিক। '가 보세요' হলো অনুরোধ/পরামর্শ (যান তো একবার), '가는 거예요?' মানে 'যাচ্ছেন?' (বর্তমান), আর '갈래요?' হলো প্রস্তাব 'যাবেন?'—কোনোটিই অভিজ্ঞতা বোঝায় না।"
     },
     {
       "id": "p19",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "가: 이번 연휴에 뭐 할 거예요?\n나: 고향에 ( ) 해요.",
+      "questionBn": "'-는' বসান: 저는 가구 ___ 일을 해요. (만들다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "가려고",
-        "가면",
-        "가서",
-        "가고"
+        "만들는",
+        "만든",
+        "만드는",
+        "만들은"
       ],
-      "answer": 0,
-      "explanationBn": "পরিকল্পনা বোঝাতে '-(으)려고 하다' ব্যবহৃত হয়। তাই '가려고 해요' (যেতে চাই) সঠিক।"
+      "answer": 2,
+      "explanationBn": "'만들다'-এর মতো ㄹ-মূল ক্রিয়ায় '-는' যোগ করলে ㄹ পড়ে যায়: 만들 + 는 → 만드는। '만들는' ও '만들은' নিয়মবিরুদ্ধ রূপ, আর '만든' হলো অতীত বর্ণনার রূপ (যা বানানো হয়েছিল), এখানে সাধারণ/চলমান কাজ বোঝাতে 만드는 লাগে।"
     },
     {
       "id": "p20",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "가: 왜 어제 학교에 안 왔어요?\n나: 감기에 ( ) 못 왔어요.",
-      "options": [
-        "걸리면",
-        "걸려서",
-        "걸리고",
-        "걸리지만"
+      "type": "matching",
+      "questionBn": "কোরিয়ান ক্রিয়াপদের সঙ্গে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "기념하다",
+          "right": "স্মরণ/উদযাপন করা"
+        },
+        {
+          "left": "국기를 달다",
+          "right": "জাতীয় পতাকা টাঙানো"
+        },
+        {
+          "left": "마음을 전하다",
+          "right": "মনের কথা/কৃতজ্ঞতা জানানো"
+        },
+        {
+          "left": "꽃을 달아 드리다",
+          "right": "(বড়দের) ফুল পিন করে দেওয়া"
+        },
+        {
+          "left": "참석하다",
+          "right": "অনুষ্ঠানে উপস্থিত হওয়া"
+        }
       ],
-      "answer": 1,
-      "explanationBn": "কারণ বোঝাতে '-아서/어서' ব্যবহৃত হয়। তাই '걸려서' (আক্রান্ত হওয়ায়) সঠিক।"
+      "explanationBn": "এগুলো অধ্যায়ের 국경일·기념일 অংশের ক্রিয়াপদ। খেয়াল রাখুন 달다-এর দুই ব্যবহার আলাদা: 국기를 달다 মানে পতাকা টাঙানো, আর 꽃을 달아 드리다 মানে বড় কারও জামায় ফুল লাগিয়ে দেওয়া (드리다 সম্মানসূচক)।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন। ৫ই মে কী দিবস?",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "한국에는 여러 가지 공휴일이 있습니다. 3월 1일은 삼일절이고, 5월 5일은 어린이날입니다. 그리고 10월 9일은 한글날입니다.",
+      "questionBn": "নিচের শব্দটির সঙ্গে সম্পর্কিত শব্দ কোনটি?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "삼일절   광복절   개천절",
       "options": [
-        "한글날",
-        "광복절",
-        "어린이날",
-        "삼일절"
+        "여행지",
+        "조리법",
+        "국경일",
+        "집안일"
       ],
       "answer": 2,
-      "explanationBn": "অনুচ্ছেদে বলা হয়েছে ৫ই মে হলো শিশু দিবস (어린이날)।"
+      "explanationBn": "삼일절, 광복절, 개천절 তিনটিই রাষ্ট্র কর্তৃক নির্ধারিত ঐতিহাসিক দিন, অর্থাৎ 국경일 (জাতীয় দিবস)। 여행지 মানে ভ্রমণের জায়গা, 조리법 রান্নার পদ্ধতি, 집안일 ঘরের কাজ—কোনোটির সঙ্গেই এই দিনগুলোর সম্পর্ক নেই।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "이번 ( )에는 고향에 내려가서 부모님을 뵐 것입니다.",
+      "questionBn": "নিচের লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "5월 8일은 어버이날입니다. 이날 사람들은 부모님께 꽃을 달아 드리고 선물도 드립니다. 그리고 감사의 마음을 전합니다.",
       "options": [
-        "출장",
-        "야근",
-        "평일",
-        "명절"
+        "어버이날에 부모님께 감사의 마음을 전합니다.",
+        "어버이날은 5월 15일입니다.",
+        "어버이날에는 국기를 답니다.",
+        "어버이날은 선생님을 위한 날입니다."
       ],
-      "answer": 3,
-      "explanationBn": "উৎসবের দিনে (명절) গ্রামের বাড়িতে গিয়ে বাবা-মায়ের সাথে দেখা করার কথা বলা হয়েছে।"
+      "answer": 0,
+      "explanationBn": "লেখায় স্পষ্ট বলা আছে '부모님께 ... 감사의 마음을 전합니다', তাই ১ নম্বর ঠিক। 5월 15일 হলো 스승의 날; 국기를 달다 করা হয় 국경일-এ; আর শিক্ষকের জন্য দিনটি 스승의 날, 어버이날 নয়।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "নিচের লেখাটি পড়ে এটি কী সম্পর্কে তা বেছে নিন।",
-      "questionKo": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
-      "passage": "이 날은 세종대왕이 한글을 만든 것을 기념하는 날입니다. 매년 10월 9일이며 공휴일로 지정되어 있습니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত বাক্যটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "저는 얼마 전에 이사를 했습니다. 이제 집 정리가 끝나서 주말에 (          ). 동료들을 집으로 초대해서 즐거운 시간을 보내고 싶습니다.",
       "options": [
-        "한글날",
-        "광복절",
-        "삼일절",
-        "개천절"
+        "이사할 집을 보러 갔습니다",
+        "집들이를 하려고 합니다",
+        "청소해야 할 곳이 많습니다",
+        "집에서 쉴 수 없습니다"
       ],
-      "answer": 0,
-      "explanationBn": "সেজং রাজা কর্তৃক হাঙ্গুল তৈরির স্মরণে পালিত দিনটি হলো হাঙ্গুল দিবস (한글날)।"
+      "answer": 1,
+      "explanationBn": "পরের বাক্যে সহকর্মীদের বাসায় নিমন্ত্রণ করার কথা আছে, তাই নতুন বাসায় ওঠার অনুষ্ঠান 집들이를 하려고 합니다 মানানসই। বাসা খোঁজা আগেই শেষ, পরিষ্কারও শেষ ('집 정리가 끝나서'), আর বিশ্রাম নিতে না পারার কথা নিমন্ত্রণের সঙ্গে মেলে না।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "নিচের নোটিশটির সঠিক অর্থ বেছে নিন।",
-      "questionKo": "다음 표지판의 의미로 알맞은 것을 고르십시오.",
-      "passage": "이번 주 금요일은 공휴일이므로 휴진합니다. - 행복 병원",
+      "questionBn": "নিচের বাক্যগুলোর মধ্যে দাগ দেওয়া অংশ কোন বাক্যে সঠিক?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "passage": "① 저는 따뜻하는 봄이 좋아요.\n② 자주 만들는 음식이 뭐예요?\n③ 제일 가깝는 약국이 어디예요?\n④ 지금 듣는 음악은 K-팝이에요.",
       "options": [
-        "금요일은 평일입니다.",
-        "금요일은 쉬는 날입니다.",
-        "금요일에 출근해야 합니다.",
-        "금요일에 병원 문을 엽니다."
+        "저는 따뜻하는 봄이 좋아요.",
+        "자주 만들는 음식이 뭐예요?",
+        "제일 가깝는 약국이 어디예요?",
+        "지금 듣는 음악은 K-팝이에요."
       ],
-      "answer": 1,
-      "explanationBn": "নোটিশে বলা হয়েছে শুক্রবার সরকারি ছুটির দিন হওয়ায় হাসপাতাল বন্ধ থাকবে। তাই সঠিক অর্থ হলো 'শুক্রবার ছুটির দিন' (금요일은 쉬는 날입니다)।"
+      "answer": 3,
+      "explanationBn": "'-는' কেবল ক্রিয়ার সঙ্গে বসে, তাই 듣다 → 듣는 음악 সঠিক। 따뜻하다 ও 가깝다 বিশেষণ, সেখানে '-ㄴ/은' লাগে (따뜻한 봄, 가까운 약국); আর ㄹ-মূল 만들다-এ ㄹ পড়ে যায়, তাই 만들는 নয়, 만드는 হবে।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত বাক্যটি বেছে নিন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 내일은 삼일절인데 회사에 가요?\n나: 아니요, 공휴일이라서 ( ).",
+      "passage": "오늘은 어버이날입니다. 한국에서는 오늘 부모님께 꽃을 달아 드리고 선물도 드립니다. 부모님을 뵈러 가는 동료들을 보니 (          ).",
       "options": [
-        "일해요",
-        "출발해요",
-        "쉬어요",
-        "바빠요"
+        "열심히 일할 것 같습니다",
+        "부모님이 오시기로 했습니다",
+        "부모님 생각이 많이 났습니다",
+        "선물을 사고 싶습니다"
       ],
       "answer": 2,
-      "explanationBn": "সরকারি ছুটির দিন হওয়ায় বিশ্রাম নেওয়ার (쉬어요) কথা বলা হয়েছে।"
+      "explanationBn": "লেখক নিজে বিদেশে আছেন আর সহকর্মীরা বাবা-মায়ের কাছে যাচ্ছেন—তাই স্বাভাবিক অনুভূতি হলো 부모님 생각이 많이 났습니다 (বাবা-মায়ের কথা খুব মনে পড়ল)। কাজের কথা প্রসঙ্গে নেই, বাবা-মা আসার কোনো তথ্য লেখায় নেই, আর উপহার কেনার কথা এখানে সহকর্মীদের দেখে জাগা অনুভূতি নয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "নিচের কথোপকথনটি শুনে সঠিক উত্তরটি বেছে নিন। সুরু 추석-এ কী করবে?",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 수루 씨, 이번 추석 연휴에 뭐 할 거예요?\n여자: 저는 친구들하고 같이 여행을 갈 거예요.",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে লেখার সঙ্গে মিলে যায় এমন বাক্যটি বেছে নিন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "국경일은 역사적으로 뜻깊은 날을 기념하거나 경축하기 위해 나라에서 정한 날입니다. 한국의 국경일에는 삼일절, 제헌절, 광복절, 개천절, 한글날이 있습니다. 제헌절을 제외한 다른 국경일은 법정공휴일로 지정되어 있으며, 각종 기념식과 경축 행사가 열립니다. 가정에서는 기쁨을 함께하기 위하여 국기를 게양합니다.",
       "options": [
-        "집에서 쉽니다.",
-        "회사에서 일합니다.",
-        "고향에 갑니다.",
-        "친구와 여행을 갑니다."
+        "국경일은 모두 공휴일입니다.",
+        "한국에는 매달 국경일이 있습니다.",
+        "국경일은 개인이 정한 특별한 날입니다.",
+        "국경일을 기념하기 위해 경축 행사를 합니다."
       ],
       "answer": 3,
-      "explanationBn": "সুরু বলেছে সে বন্ধুদের সাথে ভ্রমণে যাবে (친구와 여행을 갑니다)।"
+      "explanationBn": "লেখায় '각종 기념식과 경축 행사가 열립니다' বলা আছে, তাই ৪ নম্বর ঠিক। ১ ভুল কারণ 제헌절 ছুটির দিন নয়; ২ ভুল কারণ প্রতি মাসে জাতীয় দিবস থাকার কথা লেখায় নেই; ৩ ভুল কারণ 국경일 নির্ধারণ করে রাষ্ট্র ('나라에서 정한 날'), ব্যক্তি নয়।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "নিচের কথাটি শুনে প্রশ্নের সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
-      "passage": "내일은 무슨 날이에요?",
+      "section": "reading",
+      "questionBn": "নিচের নোটিশটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "[사내 공지]\n어린이날 행사 안내\n- 날짜: 5월 5일(금)\n- 장소: 회사 운동장\n- 내용: 직원 가족과 함께하는 놀이 행사, 어린이 선물 증정\n- 신청: 5월 2일까지 사무실에 신청해 주세요.",
       "options": [
-        "내일은 광복절이에요.",
-        "내일 만나요.",
-        "어제는 일요일이었어요.",
-        "오늘은 회사에 안 가요."
+        "행사는 회사 운동장에서 합니다.",
+        "행사는 5월 2일에 합니다.",
+        "어린이에게 선물을 주지 않습니다.",
+        "신청은 하지 않아도 됩니다."
       ],
       "answer": 0,
-      "explanationBn": "প্রশ্ন করা হয়েছে 'আগামীকাল কী দিন?' এর সঠিক উত্তর হলো 'আগামীকাল জাতীয় মুক্তি দিবস' (내일은 광복절이에요)।"
+      "explanationBn": "'장소: 회사 운동장' লেখা আছে, তাই ১ নম্বর ঠিক। ৫ মে অনুষ্ঠান, ২ মে হলো আবেদনের শেষ দিন; নোটিশে '어린이 선물 증정' আছে অর্থাৎ উপহার দেওয়া হবে; আর '5월 2일까지 신청' মানে আবেদন করতেই হবে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "নিচের কথাটি শুনে এর পরের উপযুক্ত কথাটি বেছে নিন।",
-      "questionKo": "다음을 듣고 이어지는 말로 알맞은 것을 고르십시오.",
-      "passage": "한국의 명절에는 보통 무엇을 먹어요?",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "지난 주말에 회사 동료의 아기 (          )에 초대를 받아서 갔습니다. 가족과 친구들이 아기의 첫 번째 생일을 축하했습니다. 저는 아기 옷과 장난감을 선물했습니다.",
       "options": [
-        "한복을 입어요.",
-        "떡국이나 송편을 먹어요.",
-        "윷놀이를 해요.",
-        "고향에 가요."
+        "장례식",
+        "돌잔치",
+        "집들이",
+        "결혼식"
       ],
       "answer": 1,
-      "explanationBn": "প্রশ্ন করা হয়েছে 'কোরিয়ার উৎসবের দিনে সাধারণত কী খাওয়া হয়?' এর সঠিক উত্তর হলো 'তকগুক বা সংপিয়ন খাওয়া হয়' (떡국이나 송편을 먹어요)।"
+      "explanationBn": "'아기의 첫 번째 생일을 축하' মানে শিশুর প্রথম জন্মদিনের অনুষ্ঠান, অর্থাৎ 돌잔치। 장례식 হলো শেষকৃত্য, 집들이 নতুন বাসায় ওঠার অনুষ্ঠান, আর 결혼식 বিয়ের অনুষ্ঠান—কোনোটিই শিশুর প্রথম জন্মদিন নয়।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "নিচের ছবিটি দেখে সঠিক বাক্যটি বেছে নিন।",
-      "questionKo": "다음 그림을 보고 맞는 문장을 고르십시오.",
-      "passage": "[그림: 사람들이 한복을 입고 어른에게 절을 하는 모습]",
+      "questionBn": "নিচের লেখাটি পড়ে লেখার সঙ্গে মিলে যায় এমন বাক্যটি বেছে নিন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "5월에는 기념일이 많습니다. 5월 1일 근로자의 날에는 쉬는 회사가 많습니다. 5월 5일 어린이날에는 어린 조카에게 선물을 줍니다. 5월 8일 어버이날에는 부모님께 꽃을 달아 드립니다. 5월 15일 스승의 날에는 선생님께 감사의 마음을 전합니다.",
       "options": [
-        "사람들이 윷놀이를 하고 있습니다.",
-        "사람들이 세배를 하고 있습니다.",
-        "사람들이 송편을 만들고 있습니다.",
-        "사람들이 성묘를 가고 있습니다."
+        "어린이날에는 부모님께 꽃을 달아 드립니다.",
+        "근로자의 날에는 모든 회사가 일을 합니다.",
+        "스승의 날은 5월 8일입니다.",
+        "어린이날에는 아이에게 선물을 줍니다."
       ],
-      "answer": 1,
-      "explanationBn": "ছবিতে মানুষ হানবোক পরে বড়দের প্রণাম করছে, যাকে 세배 (সেবে) বলা হয়।"
+      "answer": 3,
+      "explanationBn": "লেখায় '어린이날에는 어린 조카에게 선물을 줍니다' আছে, তাই ৪ নম্বর ঠিক। ফুল পিন করা হয় 어버이날-এ, 어린이날-এ নয়; 근로자의 날-এ বরং অনেক কোম্পানি বন্ধ থাকে; আর 스승의 날 হলো ১৫ মে, ৮ মে নয় (৮ মে 어버이날)।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "한국의 대표적인 명절에는 설날과 추석이 있습니다. 설날에는 ( )을/를 먹고, 추석에는 송편을 먹습니다.",
+      "questionBn": "নিচের পোস্টারটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "[한글날 기념 행사]\n- 날짜: 10월 9일\n- 내용: 외국인 근로자 한국어 말하기 대회\n- 장소: 시청 앞 광장\n- 참가한 사람에게는 작은 선물을 드립니다.",
       "options": [
-        "비빔밥",
-        "불고기",
-        "떡국",
-        "김치찌개"
+        "이 행사는 한글날에 합니다.",
+        "이 행사는 개천절에 합니다.",
+        "이 행사는 회사에서 합니다.",
+        "이 행사는 참가비를 내야 합니다."
       ],
-      "answer": 2,
-      "explanationBn": "설날-এ সাধারণত 떡국 (তকগুক) খাওয়া হয়।"
+      "answer": 0,
+      "explanationBn": "১০ অক্টোবর ৯ তারিখ হলো 한글날, আর পোস্টারের শিরোনামেও '한글날 기념 행사' আছে, তাই ১ নম্বর ঠিক। 개천절 হলো ১০ অক্টোবর ৩ তারিখ; স্থান 시청 앞 광장, কোম্পানি নয়; আর টাকার কথা নেই, বরং অংশগ্রহণকারীরা উপহার পাবেন।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "নিচের লেখাটি পড়ে এটি কী সম্পর্কে তা বেছে নিন।",
-      "questionKo": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
-      "passage": "이 날은 1945년 8월 15일 한국이 일본으로부터 독립한 것을 기념하는 날입니다. 사람들은 집 앞에 태극기를 답니다.",
+      "section": "listening",
+      "questionBn": "দুজন কী নিয়ে কথা বলছেন?",
+      "questionKo": "두 사람은 무엇에 대해 말하고 있습니까?",
+      "passage": "남자: 이번 주 토요일이 할아버지 칠순인데 무엇을 사 드리면 좋을까요?\n여자: 용돈을 드리는 게 어때요?",
       "options": [
-        "삼일절",
-        "광복절",
-        "개천절",
-        "한글날"
+        "날짜",
+        "선물",
+        "성별",
+        "쇼핑"
       ],
       "answer": 1,
-      "explanationBn": "১৯৪৫ সালের ১৫ই আগস্ট জাপানের কাছ থেকে স্বাধীনতা লাভের স্মরণে পালিত দিনটি হলো 광복절 (জাতীয় মুক্তি দিবস)।"
+      "explanationBn": "পুরুষটি '무엇을 사 드리면 좋을까요?' জিজ্ঞাসা করছেন এবং নারী 용돈 (হাতখরচের টাকা) দেওয়ার পরামর্শ দিচ্ছেন—অর্থাৎ আলোচনার বিষয় 선물। 날짜 (তারিখ) শুধু প্রসঙ্গে এসেছে, বিষয় নয়; 성별 (লিঙ্গ) নিয়ে কোনো কথাই নেই; 쇼핑 নিয়ে সরাসরি কথা হচ্ছে না, উপহারের ধরন নিয়ে হচ্ছে।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "নিচের নোটিশটির সঠিক অর্থ বেছে নিন।",
-      "questionKo": "다음 안내문의 의미로 알맞은 것을 고르십시오.",
-      "passage": "추석 연휴 휴무 안내\n9월 28일 ~ 9월 30일\n10월 1일부터 정상 영업합니다.",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে পরের বাক্য হিসেবে সবচেয়ে উপযুক্ত উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 한국에서 장례식에 가 봤어요?",
       "options": [
-        "9월 30일에 문을 엽니다.",
-        "10월 1일에 쉽니다.",
-        "3일 동안 영업을 하지 않습니다.",
-        "추석 연휴에는 계속 일합니다."
+        "네, 저도 초대해 주세요.",
+        "네, 저도 만나고 싶어요.",
+        "아니요, 이번이 처음이에요.",
+        "아니요, 장례식장을 이용해요."
       ],
       "answer": 2,
-      "explanationBn": "নোটিশে বলা হয়েছে ২৮শে সেপ্টেম্বর থেকে ৩০শে সেপ্টেম্বর পর্যন্ত (৩ দিন) বন্ধ থাকবে। তাই সঠিক অর্থ হলো '৩ দিন ব্যবসা বন্ধ থাকবে' (3일 동안 영업을 하지 않습니다)।"
+      "explanationBn": "'-아/어 봤어요?' অভিজ্ঞতা জিজ্ঞাসা করে, তাই উত্তরে অভিজ্ঞতা আছে কি নেই তা বলতে হয়: 아니요, 이번이 처음이에요 (না, এবারই প্রথম)। ১ ও ২ নিমন্ত্রণ বা দেখা করার কথা—শেষকৃত্যে নিমন্ত্রণ চাওয়া যায় না; ৪ প্রশ্নের উত্তর নয়, স্থান ব্যবহারের কথা।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 내일은 근로자의 날인데 출근해요?\n나: 아니요, 우리 회사는 근로자의 날에 ( ).",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে পরের বাক্য হিসেবে সবচেয়ে উপযুক্ত উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "여자: 아궁 씨, 이번 주 일요일이 제 결혼식인데 올 수 있어요?",
       "options": [
-        "쉬어요",
-        "일해요",
-        "바빠요",
-        "출발해요"
+        "제가 먼저 갔다 올게요.",
+        "동료들이 많이 참석했어요.",
+        "저하고 같이 가요.",
+        "당연히 가서 축하해야지요."
       ],
-      "answer": 0,
-      "explanationBn": "শ্রমিক দিবসে (근로자의 날) সাধারণত কোম্পানি বন্ধ থাকে, তাই 쉬어요 (বিশ্রাম নিই/বন্ধ থাকে) সঠিক।"
+      "answer": 3,
+      "explanationBn": "নিজের বিয়েতে আসার নিমন্ত্রণ পেলে স্বাভাবিক উত্তর হলো 당연히 가서 축하해야지요 (অবশ্যই গিয়ে অভিনন্দন জানাব)। ১ একা আগে যাওয়ার কথা, নিমন্ত্রণের জবাব নয়; ২ অতীত কালে অন্যদের উপস্থিতির কথা, অথচ অনুষ্ঠান এখনো হয়নি; ৩ বক্তাকেই সঙ্গে যেতে বলা হচ্ছে, কিন্তু তিনি নিজেই বিয়ের প্রধান ব্যক্তি।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "নিচের কথোপকথনটি শুনে সঠিক উত্তরটি বেছে নিন। 남자는 이번 주말에 무엇을 할 것입니까?",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 투안 씨, 이번 주말에 뭐 할 거예요?\n남자: 이번 주말은 3일 연휴라서 친구들하고 부산에 놀러 갈 거예요.",
+      "questionBn": "শোনা কথার সঙ্গে মিলে যায় এমন বাক্যটি কোনটি?",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "passage": "여자: 이번 주 토요일에 진수 씨 아기 돌잔치에 가지요? 선물은 샀어요?\n남자: 네, 아기 옷을 샀어요. 프엉 씨는요?\n여자: 그동안 일이 많아서 아직 못 샀어요. 퇴근 후에 사러 가야겠어요.",
       "options": [
-        "집에서 쉴 것입니다.",
-        "회사에서 일할 것입니다.",
-        "고향에 갈 것입니다.",
-        "친구들과 여행을 갈 것입니다."
+        "남자는 돌잔치 선물을 준비했습니다.",
+        "여자는 아기 선물로 옷을 샀습니다.",
+        "남자는 토요일에 돌잔치에 못 갑니다.",
+        "여자는 남자와 같이 선물을 사러 갈 겁니다."
       ],
-      "answer": 3,
-      "explanationBn": "পুরুষটি বলেছে সে বন্ধুদের সাথে বুসানে বেড়াতে যাবে (친구들과 여행을 갈 것입니다)।"
+      "answer": 0,
+      "explanationBn": "পুরুষ বলেছেন '네, 아기 옷을 샀어요', অর্থাৎ তিনি উপহার প্রস্তুত করে ফেলেছেন—তাই ১ নম্বর ঠিক। জামা কিনেছেন পুরুষ, নারী নয় (নারী এখনো কেনেননি); পুরুষের না যাওয়ার কথা কোথাও নেই; আর নারী 퇴근 후에 একাই কিনতে যাবেন, একসঙ্গে যাওয়ার কথা বলেননি।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "নিচের কথাটি শুনে প্রশ্নের সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
-      "passage": "여자: 한국 사람들은 추석에 보통 무엇을 해요?",
+      "questionBn": "শোনা কথার সঙ্গে মিলে যায় এমন বাক্যটি কোনটি?",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "passage": "남자: 유진 씨, 꽃 선물 받았어요?\n여자: 아니요. 고등학교 선생님께 드리려고 샀어요. 오늘이 스승의 날이거든요.\n남자: 선생님께 감사의 마음을 전하는 날, 맞지요? 진수 씨가 말해 줬어요.",
       "options": [
-        "고향에 가서 성묘를 해요.",
-        "떡국을 먹고 세배를 해요.",
-        "태극기를 달아요.",
-        "크리스마스 파티를 해요."
+        "여자는 남자에게서 꽃을 받았습니다.",
+        "남자는 선생님께 꽃을 드리려고 합니다.",
+        "남자는 스승의 날에 대해 들어 봤습니다.",
+        "여자는 진수 씨에게 마음을 전하고 싶어 합니다."
       ],
-      "answer": 0,
-      "explanationBn": "প্রশ্ন করা হয়েছে 'কোরিয়ানরা 추석-এ সাধারণত কী করে?' এর সঠিক উত্তর হলো 'গ্রামের বাড়িতে গিয়ে কবর জিয়ারত করে' (고향에 가서 성묘를 해요)।"
+      "answer": 2,
+      "explanationBn": "পুরুষ শেষে বলেন '진수 씨가 말해 줬어요', অর্থাৎ তিনি আগেই 스승의 날 সম্পর্কে শুনেছেন—তাই ৩ নম্বর ঠিক। নারী ফুল পাননি, নিজেই কিনেছেন; ফুল দেবেন নারী, পুরুষ নয়; আর নারী কৃতজ্ঞতা জানাতে চান তাঁর হাইস্কুলের শিক্ষককে, 진수 씨-কে নয়।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "নিচের কথাটি শুনে এর পরের উপযুক্ত কথাটি বেছে নিন।",
-      "questionKo": "다음을 듣고 이어지는 말로 알맞은 것을 고르십시오.",
-      "passage": "남자: 내일은 한글날이라서 쉬는데, 같이 영화 볼까요?",
+      "questionBn": "শোনা কথার সঙ্গে মিলে যায় এমন বাক্যটি কোনটি?",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "passage": "여자: 내일이 어버이날이라서 부모님 선물을 사러 가야 해요.\n남자: 어버이날이요? 그게 무슨 날인데요?\n여자: 부모님께 감사의 마음을 전하는 날이에요. 이날 꽃을 달아 드리고 선물도 드려요.\n남자: 그렇군요. 저는 한국에서 어버이날이 이번이 처음이에요.",
       "options": [
-        "네, 내일은 한글날이에요.",
-        "아니요, 어제 영화를 봤어요.",
-        "좋아요. 내일 같이 영화 봐요.",
-        "네, 한글을 배웠어요."
+        "여자는 어버이날에 국기를 답니다.",
+        "여자는 부모님 선물을 사러 갈 겁니다.",
+        "남자는 한국에서 어버이날을 여러 번 지내 봤습니다.",
+        "내일은 스승의 날입니다."
       ],
-      "answer": 2,
-      "explanationBn": "প্রস্তাব দেওয়া হয়েছে 'আগামীকাল হাঙ্গুল দিবস হওয়ায় ছুটি, একসাথে সিনেমা দেখব কি?' এর সঠিক উত্তর হলো 'ঠিক আছে। আগামীকাল একসাথে সিনেমা দেখি' (좋아요. 내일 같이 영화 봐요)।"
+      "answer": 1,
+      "explanationBn": "নারী বলেছেন '선물을 사러 가야 해요', তাই ২ নম্বর ঠিক। 국기를 달다 করা হয় 국경일-এ (যেমন 광복절), 어버이날-এ নয়; পুরুষ বলেছেন '이번이 처음이에요', অর্থাৎ এবারই প্রথম; আর আগামীকাল 어버이날 (৮ মে), 스승의 날 নয় (সেটি ১৫ মে)।"
     }
   ]
 }
