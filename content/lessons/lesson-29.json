@@ -10,669 +10,782 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কোরিয়ার সাধারণ শিষ্টাচার সম্পর্কে জানা।",
-      "বয়স্কদের প্রতি সম্মান প্রদর্শনের নিয়ম শেখা।",
-      "কোরিয়ান সম্মানসূচক ভাষা (존댓말) ব্যবহার করতে শেখা।"
+      "গণপরিসরে (도서관, 박물관, 금연 구역) মেনে চলার শিষ্টাচার নিয়ে কথা বলতে পারা",
+      "'-(으)ㄹ 수 있다/없다' দিয়ে সামর্থ্য ও সম্ভাবনা প্রকাশ করতে পারা",
+      "'-(으)면 안 되다' দিয়ে নিষেধ বোঝানো এবং অনুমতি চাইতে পারা",
+      "কোরিয়ার খাওয়ার সময় ও বড়দের সামনে অনুচিত আচরণগুলো চিনতে পারা"
     ],
     "en": [
-      "Understand general Korean etiquette.",
-      "Learn the rules of showing respect to elders.",
-      "Learn to use Korean honorific language (존댓말)."
+      "Can talk about etiquette that should be observed in public places",
+      "Can express ability and possibility with -(으)ㄹ 수 있다/없다",
+      "Can express prohibition and ask permission with -(으)면 안 되다",
+      "Can recognize disrespectful actions at meals and towards elders in Korea"
     ]
   },
   "vocabulary": [
     {
-      "ko": "예절",
-      "romanization": "yejeol",
-      "bn": "শিষ্টাচার",
-      "en": "etiquette / manners",
+      "ko": "떠들다",
+      "romanization": "tteodeulda",
+      "bn": "হইচই করা / জোরে কথা বলা",
+      "en": "to make noise, to talk loudly",
+      "pos": "verb",
+      "example": {
+        "ko": "도서관에서 떠들면 안 돼요.",
+        "bn": "লাইব্রেরিতে হইচই করা যাবে না।",
+        "en": "You must not make noise in the library."
+      },
+      "pronunciationTipBn": "'떠들다' [떠들다]—'ㄷ' নরম উচ্চারণ, 'ㄹ' তরল।"
+    },
+    {
+      "ko": "뛰어다니다",
+      "romanization": "ttwieodanida",
+      "bn": "ছোটাছুটি করা / দৌড়াদৌড়ি করা",
+      "en": "to run around",
+      "pos": "verb",
+      "example": {
+        "ko": "박물관에서 뛰어다니면 안 됩니다.",
+        "bn": "জাদুঘরে ছোটাছুটি করা যাবে না।",
+        "en": "You must not run around in the museum."
+      },
+      "pronunciationTipBn": "'뛰어다니다'—'뛰' [뛰], 'ㅇ' সংযোগে 'ㅇ' নীরব।"
+    },
+    {
+      "ko": "새치기하다",
+      "romanization": "saechigihada",
+      "bn": "লাইন ভেঙে আগে ঢোকা / সিরিয়াল কাটা",
+      "en": "to cut in line",
+      "pos": "verb",
+      "example": {
+        "ko": "줄을 서야 해요. 새치기하면 안 돼요.",
+        "bn": "লাইনে দাঁড়াতে হবে। সিরিয়াল কাটা যাবে না।",
+        "en": "You must stand in line. You must not cut in line."
+      },
+      "pronunciationTipBn": "'새치기' [새치기]—세 অক্ষর সমান জোরে।"
+    },
+    {
+      "ko": "침을 뱉다",
+      "romanization": "chimeul baetda",
+      "bn": "থুতু ফেলা",
+      "en": "to spit",
+      "pos": "verb",
+      "example": {
+        "ko": "길에서 침을 뱉으면 안 돼요.",
+        "bn": "রাস্তায় থুতু ফেলা যাবে না।",
+        "en": "You must not spit on the street."
+      },
+      "pronunciationTipBn": "'뱉다' [밷따]—받침 'ㅌ' + 'ㄷ' → 경음화로 [따]।"
+    },
+    {
+      "ko": "담배를 피우다",
+      "romanization": "dambaereul piuda",
+      "bn": "সিগারেট খাওয়া / ধূমপান করা",
+      "en": "to smoke (a cigarette)",
+      "pos": "verb",
+      "example": {
+        "ko": "금연 구역에서 담배를 피우면 안 돼요.",
+        "bn": "ধূমপান নিষিদ্ধ এলাকায় সিগারেট খাওয়া যাবে না।",
+        "en": "You must not smoke in a non-smoking area."
+      },
+      "pronunciationTipBn": "'피우다' [피우다]—'ㅍ' উচ্চারণে ঠোঁট থেকে বাতাস বের হয়।"
+    },
+    {
+      "ko": "담배꽁초를 버리다",
+      "romanization": "dambaekkonchoreul beorida",
+      "bn": "সিগারেটের টুকরো ফেলা",
+      "en": "to toss away cigarette butts",
+      "pos": "verb",
+      "example": {
+        "ko": "담배꽁초를 길에 버리면 안 돼요.",
+        "bn": "রাস্তায় সিগারেটের টুকরো ফেলা যাবে না।",
+        "en": "You must not toss cigarette butts on the street."
+      },
+      "pronunciationTipBn": "'꽁초' [꽁초]—'ㄲ' দ্বিগুণ ব্যঞ্জন, শক্ত উচ্চারণ।"
+    },
+    {
+      "ko": "무단 횡단을 하다",
+      "romanization": "mudan hoengdaneul hada",
+      "bn": "অবৈধভাবে রাস্তা পার হওয়া / জেব্রা ক্রসিং ছাড়া রাস্তা পার হওয়া",
+      "en": "to jaywalk",
+      "pos": "verb",
+      "example": {
+        "ko": "무단 횡단을 하면 안 돼요. 횡단보도를 이용하세요.",
+        "bn": "অবৈধভাবে রাস্তা পার হওয়া যাবে না। জেব্রা ক্রসিং ব্যবহার করুন।",
+        "en": "You must not jaywalk. Please use the crosswalk."
+      },
+      "pronunciationTipBn": "'횡단' [횡단]—'ㅎ' + 'ㅚ' মিলে [훵] নয়, [횡]।"
+    },
+    {
+      "ko": "신호를 위반하다",
+      "romanization": "sinhoreul wiranhada",
+      "bn": "ট্রাফিক সিগন্যাল ভাঙা",
+      "en": "to violate traffic signals",
+      "pos": "verb",
+      "example": {
+        "ko": "빨간 불일 때 신호를 위반하면 안 돼요.",
+        "bn": "লাল বাতি থাকলে ট্রাফিক সিগন্যাল ভাঙা যাবে না।",
+        "en": "You must not violate traffic signals when the light is red."
+      },
+      "pronunciationTipBn": "'위반' [위반]—'위' দুই স্বর একসাথে, দ্রুত উচ্চারণ।"
+    },
+    {
+      "ko": "주차하다",
+      "romanization": "juchahada",
+      "bn": "গাড়ি পার্ক করা",
+      "en": "to park (a vehicle)",
+      "pos": "verb",
+      "example": {
+        "ko": "주차 금지 구역에 주차하면 안 돼요.",
+        "bn": "পার্কিং নিষিদ্ধ এলাকায় গাড়ি পার্ক করা যাবে না।",
+        "en": "You must not park in a no-parking zone."
+      },
+      "pronunciationTipBn": "'주차' [주차]—'ㅈ' + 'ㅜ', 'ㅊ' + 'ㅏ' স্পষ্ট উচ্চারণ।"
+    },
+    {
+      "ko": "음식물을 반입하다",
+      "romanization": "eumsingmureul baniphada",
+      "bn": "খাবার-পানীয় ভিতরে নিয়ে ঢোকা",
+      "en": "to bring in food or drinks",
+      "pos": "verb",
+      "example": {
+        "ko": "도서관에 음식물을 반입할 수 없습니다.",
+        "bn": "লাইব্রেরিতে খাবার-পানীয় নিয়ে ঢোকা যায় না।",
+        "en": "You cannot bring food or drinks into the library."
+      },
+      "pronunciationTipBn": "'음식물' [음싱물]—'식' + 'ㅁ' মিলে 'ㄱ' [ㅇ] হয়ে যায়।"
+    },
+    {
+      "ko": "전시품을 만지다",
+      "romanization": "jeonsipumeul manjida",
+      "bn": "প্রদর্শিত জিনিসে হাত দেওয়া",
+      "en": "to touch exhibits",
+      "pos": "verb",
+      "example": {
+        "ko": "박물관에서 전시품을 만지면 안 돼요.",
+        "bn": "জাদুঘরে প্রদর্শিত জিনিসে হাত দেওয়া যাবে না।",
+        "en": "You must not touch the exhibits in the museum."
+      },
+      "pronunciationTipBn": "'전시품' [전시품]—'품'-এর 'ㅁ' ঠোঁট বন্ধ করে শেষ করুন।"
+    },
+    {
+      "ko": "금연 구역",
+      "romanization": "geumyeon guyeok",
+      "bn": "ধূমপান নিষিদ্ধ এলাকা",
+      "en": "non-smoking area",
       "pos": "noun",
       "example": {
-        "ko": "한국의 예절을 배우고 싶어요.",
-        "bn": "আমি কোরিয়ার শিষ্টাচার শিখতে চাই।",
-        "en": "I want to learn Korean etiquette."
+        "ko": "여기는 금연 구역이에요.",
+        "bn": "এই জায়গাটা ধূমপান নিষিদ্ধ এলাকা।",
+        "en": "This is a non-smoking area."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
+      "pronunciationTipBn": "'금연' [그면]—받침 'ㅁ' পরের স্বরে গিয়ে [그면] শোনায়।"
+    },
+    {
+      "ko": "흡연 구역",
+      "romanization": "heubyeon guyeok",
+      "bn": "ধূমপানের নির্দিষ্ট এলাকা",
+      "en": "smoking area",
+      "pos": "noun",
+      "example": {
+        "ko": "담배는 흡연 구역에서 피우세요.",
+        "bn": "সিগারেট ধূমপানের নির্দিষ্ট এলাকায় খান।",
+        "en": "Please smoke in the smoking area."
+      },
+      "pronunciationTipBn": "'흡연' [흐변]—받침 'ㅂ' পরের স্বরের সঙ্গে জুড়ে যায়।"
+    },
+    {
+      "ko": "도서관",
+      "romanization": "doseogwan",
+      "bn": "লাইব্রেরি / গ্রন্থাগার",
+      "en": "library",
+      "pos": "noun",
+      "example": {
+        "ko": "주말에 친구와 도서관에 갔어요.",
+        "bn": "সপ্তাহান্তে বন্ধুর সঙ্গে লাইব্রেরিতে গিয়েছিলাম।",
+        "en": "I went to the library with a friend on the weekend."
+      },
+      "pronunciationTipBn": "'도서관' [도서관]—'관' [গোয়ান] নয়, [গ্বান] মতো এক শ্বাসে।"
+    },
+    {
+      "ko": "박물관",
+      "romanization": "bangmulgwan",
+      "bn": "জাদুঘর",
+      "en": "museum",
+      "pos": "noun",
+      "example": {
+        "ko": "내일 박물관에 갈 거예요.",
+        "bn": "কালকে জাদুঘরে যাব।",
+        "en": "I will go to the museum tomorrow."
+      },
+      "pronunciationTipBn": "'박물관' [방물관]—'박'-এর 'ㄱ' পরের 'ㅁ'-এর প্রভাবে [ㅇ] হয়।"
+    },
+    {
+      "ko": "횡단보도",
+      "romanization": "hoengdanbodo",
+      "bn": "জেব্রা ক্রসিং",
+      "en": "crosswalk",
+      "pos": "noun",
+      "example": {
+        "ko": "횡단보도에서 길을 건너세요.",
+        "bn": "জেব্রা ক্রসিং দিয়ে রাস্তা পার হন।",
+        "en": "Please cross the street at the crosswalk."
+      },
+      "pronunciationTipBn": "'횡단보도' [횡단보도]—চার অক্ষর সমান ছন্দে।"
+    },
+    {
+      "ko": "잠깐",
+      "romanization": "jamkkan",
+      "bn": "একটু সময়ের জন্য / এক মুহূর্ত",
+      "en": "for a moment",
+      "pos": "adverb",
+      "example": {
+        "ko": "여기에서 잠깐 기다려 주세요.",
+        "bn": "এখানে একটু অপেক্ষা করুন।",
+        "en": "Please wait here for a moment."
+      },
+      "pronunciationTipBn": "'잠깐' [잠깐]—'ㄲ' শক্ত করে, 'ㄴ' নাক দিয়ে।"
+    },
+    {
+      "ko": "먼저",
+      "romanization": "meonjeo",
+      "bn": "আগে / প্রথমে",
+      "en": "first, in advance",
+      "pos": "adverb",
+      "example": {
+        "ko": "마두 씨, 먼저 들어가세요.",
+        "bn": "মাধু, আপনি আগে ভিতরে যান।",
+        "en": "Madhu, please go in first."
+      },
+      "pronunciationTipBn": "'먼저' [먼저]—'ㅓ' ঠোঁট গোল না করে উচ্চারণ করুন।"
+    },
+    {
+      "ko": "손을 흔들다",
+      "romanization": "soneul heundeulda",
+      "bn": "হাত নাড়ানো (বিদায় বা ডাকার ভঙ্গিতে)",
+      "en": "to wave one's hand",
+      "pos": "verb",
+      "example": {
+        "ko": "어른들께 손을 흔들면 안 돼요.",
+        "bn": "বড়দের উদ্দেশে হাত নাড়ানো উচিত নয়।",
+        "en": "You must not wave your hand at elders."
+      },
+      "pronunciationTipBn": "'손을' [소늘]—받침 'ㄴ' পরের স্বরে জুড়ে যায়; 'ㅎ' নরম শ্বাসে।"
+    },
+    {
+      "ko": "반말을 하다",
+      "romanization": "banmareul hada",
+      "bn": "সম্মানসূচক নয় এমন ঘনিষ্ঠ ভাষায় কথা বলা",
+      "en": "to speak using non-honorific language",
+      "pos": "verb",
+      "example": {
+        "ko": "어른들께 반말을 하면 안 돼요.",
+        "bn": "বড়দের সঙ্গে ঘনিষ্ঠ (সম্মানহীন) ভাষায় কথা বলা যাবে না।",
+        "en": "You must not speak informally to elders."
+      },
+      "pronunciationTipBn": "'반말을' [반마를]—받침 'ㄹ' পরের স্বরে গড়িয়ে [마를] হয়।"
+    },
+    {
+      "ko": "소리를 내다",
+      "romanization": "sorireul naeda",
+      "bn": "শব্দ করা / আওয়াজ করা",
+      "en": "to make a noise",
+      "pos": "verb",
+      "example": {
+        "ko": "식사할 때 큰 소리를 내면 안 돼요.",
+        "bn": "খাওয়ার সময় জোরে শব্দ করা যাবে না।",
+        "en": "You must not make loud noises while eating."
+      },
+      "pronunciationTipBn": "'내다' [내다]—'ㅐ' মুখ একটু খুলে, 'ㅔ'-এর মতো নয় বেশি চাপা।"
+    },
+    {
+      "ko": "밥그릇을 들고 먹다",
+      "romanization": "bapgeureuseul deulgo meokda",
+      "bn": "ভাতের বাটি হাতে তুলে খাওয়া",
+      "en": "to eat while holding the rice bowl",
+      "pos": "verb",
+      "example": {
+        "ko": "한국에서는 밥그릇을 들고 먹으면 안 돼요.",
+        "bn": "কোরিয়ায় ভাতের বাটি হাতে তুলে খাওয়া যায় না।",
+        "en": "In Korea, you must not eat while holding the rice bowl."
+      },
+      "pronunciationTipBn": "'밥그릇' [밥끄륻]—'ㅂ'-এর পরে 'ㄱ' শক্ত [ㄲ] হয়, শেষ 'ㅅ' [ㄷ] শোনায়।"
+    },
+    {
+      "ko": "다리를 꼬고 앉다",
+      "romanization": "darireul kkogo anda",
+      "bn": "পায়ের উপর পা তুলে বসা",
+      "en": "to sit cross-legged (with legs crossed)",
+      "pos": "verb",
+      "example": {
+        "ko": "어른 앞에서 다리를 꼬고 앉으면 안 돼요.",
+        "bn": "বড়দের সামনে পায়ের উপর পা তুলে বসা যাবে না।",
+        "en": "You must not sit with your legs crossed in front of elders."
+      },
+      "pronunciationTipBn": "'앉다' [안따]—'ㄴㅈ' গুচ্ছের 'ㅈ' পড়ে যায় আর 'ㄷ' শক্ত [ㄸ] হয়।"
+    },
+    {
+      "ko": "이름을 부르다",
+      "romanization": "ireumeul bureuda",
+      "bn": "নাম ধরে ডাকা",
+      "en": "to call someone by name",
+      "pos": "verb",
+      "example": {
+        "ko": "어른의 이름을 부르면 안 돼요.",
+        "bn": "বড়দের নাম ধরে ডাকা যাবে না।",
+        "en": "You must not call an elder by name."
+      },
+      "pronunciationTipBn": "'이름을' [이르믈]—받침 'ㅁ' পরের স্বরে চলে গিয়ে [르믈] হয়।"
+    },
+    {
+      "ko": "코를 풀다",
+      "romanization": "koreul pulda",
+      "bn": "নাক ঝাড়া / নাক পরিষ্কার করা",
+      "en": "to blow one's nose",
+      "pos": "verb",
+      "example": {
+        "ko": "식사할 때 코를 풀면 안 돼요.",
+        "bn": "খাওয়ার সময় নাক ঝাড়া যাবে না।",
+        "en": "You must not blow your nose while eating."
+      },
+      "pronunciationTipBn": "'풀다' [풀다]—'ㅍ' জোরালো শ্বাস ছেড়ে, বাংলা 'ফ'-এর মতো।"
+    },
+    {
+      "ko": "수저를 같이 들다",
+      "romanization": "sujeoreul gachi deulda",
+      "bn": "চামচ ও কাঠি একসঙ্গে হাতে ধরা",
+      "en": "to hold the spoon and chopsticks together",
+      "pos": "verb",
+      "example": {
+        "ko": "식사할 때 수저를 같이 들면 안 돼요.",
+        "bn": "খাওয়ার সময় চামচ ও কাঠি একসঙ্গে ধরা যাবে না।",
+        "en": "You must not hold the spoon and chopsticks together while eating."
+      },
+      "pronunciationTipBn": "'같이' [가치]—받침 'ㅌ' + '이' মিলে [치] হয় (구개음화)।"
+    },
+    {
+      "ko": "한 손으로 물건을 주다",
+      "romanization": "han soneuro mulgeoneul juda",
+      "bn": "এক হাতে জিনিস দেওয়া",
+      "en": "to give something with one hand",
+      "pos": "verb",
+      "example": {
+        "ko": "어른들께 한 손으로 물건을 주면 안 돼요.",
+        "bn": "বড়দের এক হাতে জিনিস দেওয়া যাবে না।",
+        "en": "You must not hand things to elders with one hand."
+      },
+      "pronunciationTipBn": "'물건을' [물거늘]—받침 'ㄴ' পরের স্বরে জুড়ে [거늘] শোনায়।"
+    },
+    {
+      "ko": "어른보다 먼저 식사하다",
+      "romanization": "eoreunboda meonjeo siksahada",
+      "bn": "বড়দের আগে খাওয়া শুরু করা",
+      "en": "to start eating before the elders",
+      "pos": "verb",
+      "example": {
+        "ko": "어른보다 먼저 식사하면 안 돼요.",
+        "bn": "বড়দের আগে খাওয়া শুরু করা যাবে না।",
+        "en": "You must not start eating before the elders."
+      },
+      "pronunciationTipBn": "'식사하다' [식싸하다]—받침 'ㄱ'-এর পরে 'ㅅ' শক্ত [ㅆ] হয়ে যায়।"
     },
     {
       "ko": "인사하다",
       "romanization": "insahada",
-      "bn": "অভিবাদন করা",
+      "bn": "সম্ভাষণ করা / সালাম-নমস্কার দেওয়া",
       "en": "to greet",
       "pos": "verb",
       "example": {
-        "ko": "어른을 만나면 인사해야 합니다.",
-        "bn": "বয়স্কদের সাথে দেখা হলে অভিবাদন করতে হবে।",
-        "en": "You must greet when you meet an elder."
+        "ko": "어른들께 먼저 인사하세요.",
+        "bn": "বড়দের আগে সম্ভাষণ করুন।",
+        "en": "Greet the elders first."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "고개를 숙이다",
-      "romanization": "gogaereul sugida",
-      "bn": "মাথা নোয়ানো",
-      "en": "to bow one's head",
-      "pos": "expression",
-      "example": {
-        "ko": "인사할 때 고개를 숙이세요.",
-        "bn": "অভিবাদন করার সময় মাথা নোয়াবেন।",
-        "en": "Please bow your head when greeting."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "악수하다",
-      "romanization": "aksuhada",
-      "bn": "করমর্দন করা",
-      "en": "to shake hands",
-      "pos": "verb",
-      "example": {
-        "ko": "처음 만난 사람과 악수했습니다.",
-        "bn": "প্রথম দেখা হওয়া ব্যক্তির সাথে করমর্দন করেছি।",
-        "en": "I shook hands with the person I met for the first time."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "존댓말",
-      "romanization": "jondaenmal",
-      "bn": "সম্মানসূচক ভাষা",
-      "en": "honorific language",
-      "pos": "noun",
-      "example": {
-        "ko": "어른에게는 존댓말을 사용해야 합니다.",
-        "bn": "বয়স্কদের সাথে সম্মানসূচক ভাষা ব্যবহার করতে হবে।",
-        "en": "You must use honorific language to elders."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "반말",
-      "romanization": "banmal",
-      "bn": "অনানুষ্ঠানিক ভাষা",
-      "en": "informal language",
-      "pos": "noun",
-      "example": {
-        "ko": "처음 만난 사람에게 반말을 하면 안 됩니다.",
-        "bn": "প্রথম দেখা হওয়া ব্যক্তির সাথে অনানুষ্ঠানিক ভাষা ব্যবহার করা উচিত নয়।",
-        "en": "You should not use informal language to someone you meet for the first time."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "어른",
-      "romanization": "eoreun",
-      "bn": "বয়স্ক / প্রাপ্তবয়স্ক",
-      "en": "adult / elder",
-      "pos": "noun",
-      "example": {
-        "ko": "어른 앞에서는 예의를 지켜야 합니다.",
-        "bn": "বয়স্কদের সামনে শিষ্টাচার মেনে চলতে হবে।",
-        "en": "You must keep your manners in front of elders."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "두 손",
-      "romanization": "du son",
-      "bn": "দুই হাত",
-      "en": "both hands",
-      "pos": "noun",
-      "example": {
-        "ko": "물건을 드릴 때는 두 손으로 드리세요.",
-        "bn": "জিনিস দেওয়ার সময় দুই হাতে দেবেন।",
-        "en": "Please give things with both hands."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "한 손",
-      "romanization": "han son",
-      "bn": "এক হাত",
-      "en": "one hand",
-      "pos": "noun",
-      "example": {
-        "ko": "어른에게 한 손으로 물건을 주면 안 됩니다.",
-        "bn": "বয়স্কদের এক হাতে জিনিস দেওয়া উচিত নয়।",
-        "en": "You should not give things to elders with one hand."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "예의가 바르다",
-      "romanization": "yeuiga bareuda",
-      "bn": "ভদ্র হওয়া",
-      "en": "to be polite",
-      "pos": "adjective",
-      "example": {
-        "ko": "그 사람은 참 예의가 바릅니다.",
-        "bn": "সেই লোকটি সত্যিই খুব ভদ্র।",
-        "en": "That person is really polite."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "예의가 없다",
-      "romanization": "yeuiga eopda",
-      "bn": "অভদ্র হওয়া",
-      "en": "to be impolite",
-      "pos": "adjective",
-      "example": {
-        "ko": "예의가 없는 행동을 하지 마세요.",
-        "bn": "অভদ্র আচরণ করবেন না।",
-        "en": "Please do not act impolitely."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "신발을 벗다",
-      "romanization": "sinbareul beotda",
-      "bn": "জুতো খোলা",
-      "en": "to take off shoes",
-      "pos": "expression",
-      "example": {
-        "ko": "한국에서는 집에 들어갈 때 신발을 벗어야 합니다.",
-        "bn": "কোরিয়ায় ঘরে ঢোকার সময় জুতো খুলতে হয়।",
-        "en": "In Korea, you must take off your shoes when entering a house."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "다리를 꼬다",
-      "romanization": "darireul kkoda",
-      "bn": "পা ক্রস করে বসা",
-      "en": "to cross one's legs",
-      "pos": "expression",
-      "example": {
-        "ko": "어른 앞에서 다리를 꼬고 앉으면 안 됩니다.",
-        "bn": "বয়স্কদের সামনে পা ক্রস করে বসা উচিত নয়।",
-        "en": "You should not sit with your legs crossed in front of elders."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "양보하다",
-      "romanization": "yangbohada",
-      "bn": "ছেড়ে দেওয়া / ছাড় দেওয়া",
-      "en": "to yield / give way",
-      "pos": "verb",
-      "example": {
-        "ko": "할머니께 자리를 양보했습니다.",
-        "bn": "দাদিকে বসার জায়গা ছেড়ে দিয়েছি।",
-        "en": "I yielded my seat to the grandmother."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "노약자석",
-      "romanization": "noyakjaseok",
-      "bn": "বয়স্ক ও দুর্বলদের জন্য সংরক্ষিত আসন",
-      "en": "priority seating",
-      "pos": "noun",
-      "example": {
-        "ko": "지하철의 노약자석은 비워 두는 것이 좋습니다.",
-        "bn": "পাতাল রেলের সংরক্ষিত আসন খালি রাখা ভালো।",
-        "en": "It is good to leave the priority seating empty on the subway."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "식사 예절",
-      "romanization": "siksa yejeol",
-      "bn": "খাওয়ার শিষ্টাচার",
-      "en": "dining etiquette",
-      "pos": "noun",
-      "example": {
-        "ko": "한국의 식사 예절을 알아봅시다.",
-        "bn": "কোরিয়ার খাওয়ার শিষ্টাচার সম্পর্কে জেনে নিই।",
-        "en": "Let's learn about Korean dining etiquette."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "조용히 하다",
-      "romanization": "joyonghi hada",
-      "bn": "চুপ থাকা",
-      "en": "to be quiet",
-      "pos": "verb",
-      "example": {
-        "ko": "공공장소에서는 조용히 해야 합니다.",
-        "bn": "পাবলিক প্লেসে চুপ থাকতে হবে।",
-        "en": "You must be quiet in public places."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "떠들다",
-      "romanization": "tteodeulda",
-      "bn": "শব্দ করা / গোলমাল করা",
-      "en": "to make noise",
-      "pos": "verb",
-      "example": {
-        "ko": "도서관에서 떠들면 안 됩니다.",
-        "bn": "লাইব্রেরিতে গোলমাল করা উচিত নয়।",
-        "en": "You should not make noise in the library."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
+      "pronunciationTipBn": "'인사' [인사]—এখানে 'ㅅ' শক্ত হয় না; 'ㄴ' নাক দিয়ে স্পষ্ট।"
     },
     {
       "ko": "지키다",
       "romanization": "jikida",
-      "bn": "মেনে চলা",
-      "en": "to keep / observe (rules)",
+      "bn": "মেনে চলা (নিয়ম) / রক্ষা করা",
+      "en": "to follow (rules), to keep",
       "pos": "verb",
       "example": {
-        "ko": "규칙을 잘 지켜야 합니다.",
-        "bn": "নিয়ম ভালোভাবে মেনে চলতে হবে।",
-        "en": "You must observe the rules well."
+        "ko": "공공장소에서 예절을 지켜야 해요.",
+        "bn": "প্রকাশ্য স্থানে শিষ্টাচার মেনে চলতে হবে।",
+        "en": "You have to observe etiquette in public places."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
+      "pronunciationTipBn": "'지키다' [지키다]—'ㅋ' জোরালো শ্বাসে, 'ㄱ'-এর মতো নরম নয়।"
     },
     {
-      "ko": "예의",
-      "romanization": "yeui",
-      "bn": "ভদ্রতা",
-      "en": "courtesy / manners",
+      "ko": "실수",
+      "romanization": "silsu",
+      "bn": "ভুল / অনিচ্ছাকৃত ত্রুটি",
+      "en": "mistake",
       "pos": "noun",
       "example": {
-        "ko": "예의를 지키는 것이 중요합니다.",
-        "bn": "ভদ্রতা বজায় রাখা গুরুত্বপূর্ণ।",
-        "en": "It is important to keep courtesy."
+        "ko": "저도 처음에는 몰라서 실수를 많이 했어요.",
+        "bn": "আমিও প্রথমে না জেনে অনেক ভুল করেছি।",
+        "en": "I also didn't know at first, so I made many mistakes."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
+      "pronunciationTipBn": "'실수' [실쑤]—받침 'ㄹ'-এর পরে 'ㅅ' শক্ত [ㅆ] হয়ে যায়।"
     },
     {
-      "ko": "규칙",
-      "romanization": "gyuchik",
-      "bn": "নিয়ম",
-      "en": "rule",
+      "ko": "예절",
+      "romanization": "yejeol",
+      "bn": "শিষ্টাচার / আদবকায়দা",
+      "en": "etiquette, manners",
       "pos": "noun",
       "example": {
-        "ko": "회사의 규칙을 따라야 합니다.",
-        "bn": "কোম্পানির নিয়ম মেনে চলতে হবে।",
-        "en": "You must follow the company's rules."
+        "ko": "한국의 식사 예절을 배우고 있어요.",
+        "bn": "কোরিয়ার খাওয়ার শিষ্টাচার শিখছি।",
+        "en": "I am learning Korean dining etiquette."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "존경하다",
-      "romanization": "jongyeonghada",
-      "bn": "সম্মান করা",
-      "en": "to respect",
-      "pos": "verb",
-      "example": {
-        "ko": "우리는 어른을 존경해야 합니다.",
-        "bn": "আমাদের বয়স্কদের সম্মান করা উচিত।",
-        "en": "We should respect elders."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "칭찬하다",
-      "romanization": "chingchanhada",
-      "bn": "প্রশংসা করা",
-      "en": "to praise",
-      "pos": "verb",
-      "example": {
-        "ko": "사장님이 저를 칭찬하셨습니다.",
-        "bn": "বস আমার প্রশংসা করেছেন।",
-        "en": "The boss praised me."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "실수하다",
-      "romanization": "silsuhada",
-      "bn": "ভুল করা",
-      "en": "to make a mistake",
-      "pos": "verb",
-      "example": {
-        "ko": "처음에는 누구나 실수할 수 있습니다.",
-        "bn": "প্রথমে যে কেউ ভুল করতে পারে।",
-        "en": "Anyone can make a mistake at first."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "사과하다",
-      "romanization": "sagwahada",
-      "bn": "ক্ষমা চাওয়া",
-      "en": "to apologize",
-      "pos": "verb",
-      "example": {
-        "ko": "실수를 하면 바로 사과해야 합니다.",
-        "bn": "ভুল করলে সাথে সাথে ক্ষমা চাওয়া উচিত।",
-        "en": "If you make a mistake, you should apologize immediately."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "허락을 받다",
-      "romanization": "heorageul batda",
-      "bn": "অনুমতি নেওয়া",
-      "en": "to get permission",
-      "pos": "expression",
-      "example": {
-        "ko": "먼저 반장님의 허락을 받으세요.",
-        "bn": "প্রথমে ম্যানেজারের অনুমতি নিন।",
-        "en": "Please get the manager's permission first."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "배려하다",
-      "romanization": "baeryeohada",
-      "bn": "বিবেচনা করা / যত্ন নেওয়া",
-      "en": "to be considerate",
-      "pos": "verb",
-      "example": {
-        "ko": "다른 사람을 배려하는 마음이 필요합니다.",
-        "bn": "অন্যদের প্রতি বিবেচনাবোধ থাকা প্রয়োজন।",
-        "en": "A considerate mind for others is needed."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "불편하다",
-      "romanization": "bulpyeonhada",
-      "bn": "অস্বস্তিকর হওয়া",
-      "en": "to be uncomfortable",
-      "pos": "adjective",
-      "example": {
-        "ko": "이 의자는 조금 불편합니다.",
-        "bn": "এই চেয়ারটি একটু অস্বস্তিকর।",
-        "en": "This chair is a bit uncomfortable."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
+      "pronunciationTipBn": "'예절' [예절]—'예' দুই স্বর এক সঙ্গে; শেষ 'ㄹ' জিভ তালুতে লাগিয়ে।"
     },
     {
       "ko": "자리",
       "romanization": "jari",
       "bn": "আসন / জায়গা",
-      "en": "seat / place",
+      "en": "seat, place",
       "pos": "noun",
       "example": {
-        "ko": "여기에 빈 자리가 있습니다.",
-        "bn": "এখানে একটি খালি আসন আছে।",
-        "en": "There is an empty seat here."
+        "ko": "지하철에서 이 자리에 앉지 마세요.",
+        "bn": "সাবওয়েতে এই আসনে বসবেন না।",
+        "en": "Please don't sit in this seat on the subway."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
+      "pronunciationTipBn": "'자리' [자리]—'ㄹ' এখানে নরম 'র'-এর মতো, 'ল' নয়।"
     },
     {
-      "ko": "어린이",
-      "romanization": "eorini",
-      "bn": "শিশু",
-      "en": "child",
-      "pos": "noun",
+      "ko": "또",
+      "romanization": "tto",
+      "bn": "আবার / আরও",
+      "en": "again, also",
+      "pos": "adverb",
       "example": {
-        "ko": "어린이들은 공원에서 놀고 있습니다.",
-        "bn": "শিশুরা পার্কে খেলছে।",
-        "en": "Children are playing in the park."
+        "ko": "또 코를 풀면 안 돼요.",
+        "bn": "আরও একটা কথা—নাক ঝাড়া যাবে না।",
+        "en": "Also, you must not blow your nose."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "임산부",
-      "romanization": "imsanbu",
-      "bn": "গর্ভবতী মহিলা",
-      "en": "pregnant woman",
-      "pos": "noun",
-      "example": {
-        "ko": "임산부에게 자리를 양보하세요.",
-        "bn": "গর্ভবতী মহিলাকে আসন ছেড়ে দিন।",
-        "en": "Please yield your seat to a pregnant woman."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "장애인",
-      "romanization": "jangaein",
-      "bn": "প্রতিবন্ধী",
-      "en": "disabled person",
-      "pos": "noun",
-      "example": {
-        "ko": "장애인을 위한 시설이 필요합니다.",
-        "bn": "প্রতিবন্ধীদের জন্য সুবিধা প্রয়োজন।",
-        "en": "Facilities for disabled people are needed."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
+      "pronunciationTipBn": "'또' [또]—'ㄸ' শক্ত করে, শ্বাস না ছেড়ে; '도'-এর সঙ্গে গুলিয়ে যাবেন না।"
     },
     {
       "ko": "대중교통",
       "romanization": "daejunggyotong",
-      "bn": "গণপরিবহন",
+      "bn": "গণপরিবহন (বাস, সাবওয়ে ইত্যাদি)",
       "en": "public transportation",
       "pos": "noun",
       "example": {
-        "ko": "대중교통을 이용하면 편리합니다.",
-        "bn": "গণপরিবহন ব্যবহার করা সুবিধাজনক।",
-        "en": "It is convenient to use public transportation."
+        "ko": "대중교통을 이용할 때 큰 소리로 이야기하면 안 됩니다.",
+        "bn": "গণপরিবহন ব্যবহারের সময় জোরে কথা বলা যাবে না।",
+        "en": "You must not talk loudly when using public transportation."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
+      "pronunciationTipBn": "'대중교통' [대중교통]—'교' [গিও] নয়, এক শ্বাসে [গ্যো]-এর মতো।"
     }
   ],
   "grammar": [
     {
-      "pattern": "-(으)시-",
-      "titleBn": "সম্মানসূচক প্রত্যয়",
-      "explanationBn": "এটি একটি সম্মানসূচক প্রত্যয় যা ক্রিয়াপদ বা বিশেষণের সাথে যুক্ত হয়ে বাক্যের কর্তাকে সম্মান প্রদর্শন করে। কর্তা যদি বয়স্ক বা সম্মানীয় ব্যক্তি হন, তবে এটি ব্যবহৃত হয়। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '-으시-' এবং স্বরবর্ণ দিয়ে শেষ হলে '-시-' যুক্ত হয়।",
-      "explanationEn": "This is an honorific suffix attached to verbs or adjectives to show respect to the subject of the sentence. It is used when the subject is an elder or a respected person. '-으시-' is used after a consonant, and '-시-' is used after a vowel.",
+      "pattern": "V + -(으)ㄹ 수 있다 / -(으)ㄹ 수 없다",
+      "titleBn": "সামর্থ্য ও সম্ভাবনা: '-(으)ㄹ 수 있다 / 없다' (পারা / না পারা)",
+      "explanationBn": "ক্রিয়ার মূলে '-(으)ㄹ 수 있다' যোগ করলে বোঝায় সেই কাজ করার সামর্থ্য আছে বা সেটা সম্ভব; '-(으)ㄹ 수 없다' বোঝায় সামর্থ্য নেই বা সম্ভব নয়। শেষে বাতচিম (ব্যঞ্জন) থাকলে '-을 수 있다/없다': 찍다 → 찍을 수 있다/없다। বাতচিম না থাকলে বা শেষ ব্যঞ্জন 'ㄹ' হলে '-ㄹ 수 있다/없다': 전화하다 → 전화할 수 있다, 만들다 → 만들 수 있다 ('ㄹ' দুবার বসে না)। নিয়মকানুনের ক্ষেত্রেও এটি ব্যবহার হয়—যেমন জাদুঘরে ছবি তোলা 'যায় না'।",
+      "explanationEn": "Attach -(으)ㄹ 수 있다 to a verb stem to express ability or possibility, and -(으)ㄹ 수 없다 for inability or impossibility. Use -을 수 있다/없다 after a final consonant (찍다 → 찍을 수 있다), and -ㄹ 수 있다/없다 after a vowel or final ㄹ (전화하다 → 전화할 수 있다, 만들다 → 만들 수 있다).",
       "examples": [
         {
-          "ko": "사장님이 지금 회의를 하십니다.",
-          "bn": "বস এখন মিটিং করছেন।",
-          "en": "The boss is having a meeting now."
+          "ko": "박물관에서 사진을 찍을 수 없어요.",
+          "bn": "জাদুঘরে ছবি তোলা যায় না।",
+          "en": "You cannot take pictures in the museum."
         },
         {
-          "ko": "아버지는 책을 읽으십니다.",
-          "bn": "বাবা বই পড়ছেন।",
-          "en": "Father is reading a book."
+          "ko": "기숙사에서 음식을 만들 수 있어요.",
+          "bn": "ডরমিটরিতে রান্না করা যায়।",
+          "en": "You can cook food in the dormitory."
         },
         {
-          "ko": "이것은 추가 예문입니다.",
-          "bn": "এটি একটি অতিরিক্ত উদাহরণ।",
-          "en": "This is an additional example."
+          "ko": "여기에서 담배를 피울 수 없어요.",
+          "bn": "এখানে সিগারেট খাওয়া যায় না।",
+          "en": "You cannot smoke here."
+        },
+        {
+          "ko": "목이 부어서 말을 할 수 없어요.",
+          "bn": "গলা ফুলে গেছে, তাই কথা বলতে পারছি না।",
+          "en": "My throat is swollen, so I cannot speak."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় সঠিক কাল এবং সম্মানসূচক রূপের দিকে খেয়াল রাখুন।"
+      "commonMistakeBn": "'ㄹ' বাতচিমে '으' বসে না—'만들을 수 있다' ভুল, সঠিক '만들 수 있다'। আর অস্বীকারে '수 안 있다' বলা যায় না; '수 없다' হবে।"
     },
     {
-      "pattern": "-아/어야 하다",
-      "titleBn": "বাধ্যবাধকতা (করতে হবে)",
-      "explanationBn": "এই ব্যাকরণটি কোনো কাজ করার বাধ্যবাধকতা বা প্রয়োজনীয়তা বোঝাতে ব্যবহৃত হয়। এর অর্থ 'করতে হবে' বা 'অবশ্যই করতে হবে'। ক্রিয়াপদের শেষ স্বরবর্ণ 'ㅏ' বা 'ㅗ' হলে '-아야 하다', অন্যথায় '-어야 하다' এবং '하다' থাকলে '해야 하다' হয়।",
-      "explanationEn": "This grammar pattern is used to express obligation or necessity to do an action. It means 'must' or 'have to'. If the last vowel of the verb stem is 'ㅏ' or 'ㅗ', '-아야 하다' is used, otherwise '-어야 하다' is used. '하다' becomes '해야 하다'.",
+      "pattern": "A/V + -(으)면 안 되다",
+      "titleBn": "নিষেধ: '-(으)면 안 되다' (করা যাবে না / উচিত নয়)",
+      "explanationBn": "ক্রিয়া ও বিশেষণের সঙ্গে '-(으)면 안 되다' যোগ করলে সেই কাজ বা অবস্থা নিষিদ্ধ বোঝায়। বাতচিম থাকলে '-으면 안 되다': 먹다 → 먹으면 안 되다। বাতচিম না থাকলে বা 'ㄹ' হলে '-면 안 되다': 주다 → 주면 안 되다, 만들다 → 만들면 안 되다। প্রশ্নবাক্যে ব্যবহার করলে অনুমতি চাওয়া বোঝায়—'휴대폰을 좀 쓰면 안 돼요?' মানে 'একটু ফোনটা ব্যবহার করলে অসুবিধা হবে?'।",
+      "explanationEn": "-(으)면 안 되다 attaches to verbs and adjectives to show that an action or state is prohibited. Use -으면 after a final consonant (먹다 → 먹으면 안 되다) and -면 after a vowel or final ㄹ (주다 → 주면 안 되다). In questions it is used to ask for permission.",
       "examples": [
         {
-          "ko": "한국에서는 어른에게 존댓말을 해야 합니다.",
-          "bn": "কোরিয়ায় বয়স্কদের সাথে সম্মানসূচক ভাষা ব্যবহার করতে হবে।",
-          "en": "In Korea, you must use honorific language to elders."
+          "ko": "여기에서 사진을 찍으면 안 돼요.",
+          "bn": "এখানে ছবি তোলা যাবে না।",
+          "en": "You must not take pictures here."
         },
         {
-          "ko": "내일 일찍 일어나야 해요.",
-          "bn": "আগামীকাল সকালে তাড়াতাড়ি উঠতে হবে।",
-          "en": "I have to wake up early tomorrow."
+          "ko": "집 안에 신발을 신고 들어가면 안 돼요.",
+          "bn": "ঘরের ভিতরে জুতা পরে ঢোকা যাবে না।",
+          "en": "You must not enter the house wearing shoes."
         },
         {
-          "ko": "이것은 추가 예문입니다.",
-          "bn": "এটি একটি অতিরিক্ত উদাহরণ।",
-          "en": "This is an additional example."
+          "ko": "작업 시간에 휴대폰을 사용하면 안 됩니다.",
+          "bn": "কাজের সময় মোবাইল ফোন ব্যবহার করা যাবে না।",
+          "en": "You must not use your mobile phone during work hours."
+        },
+        {
+          "ko": "마두 씨 휴대폰을 좀 쓰면 안 돼요?",
+          "bn": "মাধুর মোবাইলটা একটু ব্যবহার করলে অসুবিধা হবে?",
+          "en": "Would it be all right if I used your phone, Madhu?"
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় সঠিক কাল এবং সম্মানসূচক রূপের দিকে খেয়াল রাখুন।"
+      "commonMistakeBn": "'안' এখানে ক্রিয়ার আগে বসে না—'먹으면 안 돼요' সঠিক, '안 먹으면 돼요' মানে সম্পূর্ণ উল্টো ('না খেলে চলবে')। বাতচিমহীন মূলে '으' যোগ করবেন না: '주으면' ভুল, '주면' সঠিক।"
     },
     {
-      "pattern": "-(으)면 안 되다",
-      "titleBn": "নিষেধাজ্ঞা (করা উচিত নয়)",
-      "explanationBn": "এই ব্যাকরণটি কোনো কাজ করার উপর নিষেধাজ্ঞা বোঝাতে ব্যবহৃত হয়। এর অর্থ 'করা উচিত নয়' বা 'করা যাবে না'। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '-으면 안 되다' এবং স্বরবর্ণ দিয়ে শেষ হলে '-면 안 되다' যুক্ত হয়।",
-      "explanationEn": "This grammar pattern is used to express prohibition of an action. It means 'should not' or 'must not'. '-으면 안 되다' is used after a consonant, and '-면 안 되다' is used after a vowel.",
+      "pattern": "V + -아도/어도 되다",
+      "titleBn": "অনুমতি: '-아도/어도 되다' (করলেও চলবে / করা যায়)",
+      "explanationBn": "'-(으)면 안 되다'-এর উল্টো রূপ হলো '-아도/어도 되다', যা অনুমতি বা 'করলেও অসুবিধা নেই' বোঝায়। মূলের শেষ স্বর 'ㅏ' বা 'ㅗ' হলে '-아도 되다': 앉다 → 앉아도 되다। অন্য স্বর হলে '-어도 되다': 먹다 → 먹어도 되다, 찍다 → 찍어도 되다। '하다' ক্রিয়া হয় '해도 되다'। প্রশ্ন করলে অনুমতি চাওয়া হয়, আর উত্তরে 'না' হলে সাধারণত '-(으)면 안 돼요' দিয়ে জবাব দেওয়া হয়।",
+      "explanationEn": "-아도/어도 되다 expresses permission ('it is okay to...') and is the opposite of -(으)면 안 되다. Use -아도 되다 after stems with ㅏ/ㅗ (앉다 → 앉아도 되다), -어도 되다 elsewhere (먹다 → 먹어도 되다), and 해도 되다 for 하다 verbs. In questions it asks for permission; a negative answer usually uses -(으)면 안 돼요.",
       "examples": [
         {
-          "ko": "어른 앞에서 담배를 피우면 안 됩니다.",
-          "bn": "বয়স্কদের সামনে ধূমপান করা উচিত নয়।",
-          "en": "You should not smoke in front of elders."
+          "ko": "가: 사진을 찍어도 돼요? 나: 아니요, 사진을 찍을 수 없어요.",
+          "bn": "ক: ছবি তুললে চলবে? খ: না, ছবি তোলা যায় না।",
+          "en": "A: May I take pictures? B: No, you can't take pictures."
         },
         {
-          "ko": "여기에 주차하면 안 돼요.",
-          "bn": "এখানে গাড়ি পার্ক করা যাবে না।",
-          "en": "You must not park here."
+          "ko": "어른 앞에서 다리를 꼬고 앉아도 돼요?",
+          "bn": "বড়দের সামনে পায়ের উপর পা তুলে বসলে চলবে?",
+          "en": "Is it okay to sit with my legs crossed in front of elders?"
         },
         {
-          "ko": "이것은 추가 예문입니다.",
-          "bn": "এটি একটি অতিরিক্ত উদাহরণ।",
-          "en": "This is an additional example."
+          "ko": "친구에게 반말을 해도 돼요.",
+          "bn": "বন্ধুর সঙ্গে ঘনিষ্ঠ ভাষায় কথা বললে অসুবিধা নেই।",
+          "en": "It's okay to speak informally to a friend."
+        },
+        {
+          "ko": "도서관에 커피를 들고 들어가도 돼요?",
+          "bn": "লাইব্রেরিতে কফি নিয়ে ঢুকলে চলবে?",
+          "en": "May I go into the library holding a coffee?"
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় সঠিক কাল এবং সম্মানসূচক রূপের দিকে খেয়াল রাখুন।"
+      "commonMistakeBn": "'-아도/어도 돼요?'-এর উত্তরে 'না' বলতে '아니요, 해도 안 돼요' বলা ভুল; সঠিক হলো '아니요, 하면 안 돼요'। আর '되다' এখানে '돼요/됩니다' হয়, '되요' বানান ভুল।"
     },
     {
-      "pattern": "-지 않다",
-      "titleBn": "নেতিবাচক রূপ (না করা)",
-      "explanationBn": "এই ব্যাকরণটি ক্রিয়াপদ বা বিশেষণের পরে যুক্ত হয়ে নেতিবাচক অর্থ প্রকাশ করে। এর অর্থ 'না' বা 'না করা'।",
-      "explanationEn": "This grammar pattern is attached after a verb or adjective to express a negative meaning. It means 'not' or 'do not'.",
+      "pattern": "V + -고 (동작 지속)",
+      "titleBn": "একসঙ্গে চলা কাজ: '-고' (…করে / …ধরে রেখে)",
+      "explanationBn": "'-고' যখন দুটি ক্রিয়াকে যোগ করে, তখন প্রথম কাজের অবস্থা বজায় রেখে পরের কাজটি ঘটে—বাংলায় '…করে', '…নিয়ে', '…ধরে রেখে'। যেমন 모자를 쓰고 일해요 = টুপি পরে (পরা অবস্থায়) কাজ করি। এই অধ্যায়ের শিষ্টাচার-বাক্যে এটি খুব দেখা যায়: 밥그릇을 들고 먹다 (বাটি হাতে ধরে খাওয়া), 다리를 꼬고 앉다 (পা তুলে বসা), 신발을 신고 들어가다 (জুতা পরে ঢোকা)। বাতচিম থাকুক বা না থাকুক রূপ একই—শুধু মূলে '-고' যোগ করুন।",
+      "explanationEn": "When -고 links two verbs, the state created by the first action continues while the second action happens ('while wearing/holding...'). The form never changes: just add -고 to the stem, regardless of a final consonant. 모자를 쓰고 일해요 = I work while wearing a hat.",
       "examples": [
         {
-          "ko": "저는 매운 음식을 먹지 않습니다.",
-          "bn": "আমি ঝাল খাবার খাই না।",
-          "en": "I do not eat spicy food."
+          "ko": "모자를 쓰고 일해요.",
+          "bn": "টুপি পরে কাজ করি।",
+          "en": "I work while wearing a hat."
         },
         {
-          "ko": "오늘은 날씨가 춥지 않아요.",
-          "bn": "আজ আবহাওয়া ঠান্ডা নয়।",
-          "en": "The weather is not cold today."
+          "ko": "밥그릇을 들고 먹지 마세요.",
+          "bn": "ভাতের বাটি হাতে তুলে খাবেন না।",
+          "en": "Don't eat while holding the rice bowl."
         },
         {
-          "ko": "한국어는 어렵지 않습니다.",
-          "bn": "কোরিয়ান ভাষা কঠিন নয়।",
-          "en": "Korean language is not difficult."
+          "ko": "어른 앞에서 다리를 꼬고 앉으면 안 돼요.",
+          "bn": "বড়দের সামনে পায়ের উপর পা তুলে বসা যাবে না।",
+          "en": "You must not sit with your legs crossed in front of elders."
+        },
+        {
+          "ko": "집 안에 신발을 신고 들어가면 안 돼요.",
+          "bn": "ঘরের ভিতরে জুতা পরে ঢোকা যাবে না।",
+          "en": "You must not go inside the house wearing shoes."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় সঠিক কাল এবং সম্মানসূচক রূপের দিকে খেয়াল রাখুন।"
+      "commonMistakeBn": "এখানে '-고'-এর সঙ্গে অতীত রূপ বসে না—'들었고 먹다' ভুল, '들고 먹다' সঠিক; কাল বোঝা যায় শেষ ক্রিয়া থেকে। '-고' আর '-아서/어서' এক নয়: '-고' মানে অবস্থা বজায় রেখে করা।"
+    },
+    {
+      "pattern": "V + -지 마세요 / -지 말아야 하다",
+      "titleBn": "মানা করা: '-지 마세요' (করবেন না) ও '-지 말아야 하다' (করা উচিত নয়)",
+      "explanationBn": "কাউকে সরাসরি কিছু করতে মানা করতে ক্রিয়ার মূলে '-지 마세요' যোগ করুন—বাতচিম থাকলেও রূপ একই: 떠들다 → 떠들지 마세요, 앉다 → 앉지 마세요। আরও নরম/সাধারণ নিয়ম বোঝাতে '-지 말아야 하다' ব্যবহার হয়: 뛰지 말아야 하다 (দৌড়ানো উচিত নয়)। '-(으)면 안 되다' নিয়ম বা নিষেধ জানায়, আর '-지 마세요' সরাসরি অনুরোধ বা আদেশ—তাই সাইনবোর্ড ও মুখের কথায় দুটোই দেখা যায়।",
+      "explanationEn": "Add -지 마세요 to a verb stem to tell someone not to do something; the form is the same with or without a final consonant (떠들다 → 떠들지 마세요). Use -지 말아야 하다 for a softer, general rule ('one should not...'). -(으)면 안 되다 states a prohibition, while -지 마세요 is a direct request or command.",
+      "examples": [
+        {
+          "ko": "도서관에서 떠들지 마세요.",
+          "bn": "লাইব্রেরিতে চেঁচামেচি করবেন না।",
+          "en": "Don't make noise in the library."
+        },
+        {
+          "ko": "박물관에서 전시품을 만지지 마세요.",
+          "bn": "জাদুঘরে প্রদর্শিত জিনিসে হাত দেবেন না।",
+          "en": "Don't touch the exhibits in the museum."
+        },
+        {
+          "ko": "교통 약자를 위한 자리에는 되도록 앉지 말아야 합니다.",
+          "bn": "প্রতিবন্ধী ও প্রবীণদের জন্য নির্ধারিত আসনে যত দূর সম্ভব বসা উচিত নয়।",
+          "en": "You should try not to sit in the seats reserved for the elderly or disabled."
+        },
+        {
+          "ko": "집안에서는 되도록 뛰지 말아야 하고, 늦은 밤에 세탁기를 사용하지 마세요.",
+          "bn": "ঘরের ভিতরে যত দূর সম্ভব দৌড়ানো উচিত নয়, আর গভীর রাতে ওয়াশিং মেশিন ব্যবহার করবেন না।",
+          "en": "You should try not to run inside the house, and don't use the washing machine late at night."
+        }
+      ],
+      "commonMistakeBn": "'-지 마세요'-এর আগে '안' বসে না—'안 떠들지 마세요' ভুল, '떠들지 마세요' সঠিক। বিশেষণের সঙ্গেও এটি ব্যবহার হয় না; কেবল ক্রিয়ার সঙ্গে।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "কাজের জায়গায় শিষ্টাচার",
-      "titleEn": "Etiquette at the Workplace",
+      "titleBn": "এখানে সিগারেট খাওয়া যায় না",
+      "titleEn": "You Can't Smoke Here",
       "lines": [
         {
-          "speaker": "투안",
-          "ko": "반장님, 안녕하세요?",
-          "bn": "ম্যানেজার সাহেব, কেমন আছেন?",
-          "en": "Manager, how are you?"
+          "speaker": "아궁",
+          "ko": "마두 씨, 저는 여기에서 잠깐 담배를 피우고 식당에 들어갈게요.",
+          "bn": "মাধু, আমি এখানে একটু সিগারেট খেয়ে তারপর রেস্টুরেন্টে ঢুকব।",
+          "en": "Madhu, I'm going to smoke here for a moment and then go into the restaurant."
         },
         {
-          "speaker": "반장",
-          "ko": "네, 투안 씨. 어서 와요.",
-          "bn": "হ্যাঁ, তুয়ান। আসুন।",
-          "en": "Yes, Tuan. Welcome."
+          "speaker": "마두",
+          "ko": "아궁 씨, 여기에서 담배를 피울 수 없어요. 여기는 금연 구역이에요.",
+          "bn": "আগুং, এখানে সিগারেট খাওয়া যায় না। এটা ধূমপান নিষিদ্ধ এলাকা।",
+          "en": "Agung, you can't smoke here. This is a non-smoking area."
         },
         {
-          "speaker": "투안",
-          "ko": "반장님, 이 서류 좀 확인해 주시겠어요?",
-          "bn": "ম্যানেজার সাহেব, এই কাগজপত্রগুলো একটু চেক করে দেবেন কি?",
-          "en": "Manager, could you please check these documents?"
+          "speaker": "아궁",
+          "ko": "네? 밖에서도 담배를 피우면 안 돼요? 몰랐어요.",
+          "bn": "কী? বাইরেও সিগারেট খাওয়া যাবে না? আমি জানতাম না।",
+          "en": "Really? I can't smoke outside either? I didn't know."
         },
         {
-          "speaker": "반장",
-          "ko": "네, 이리 주세요. 아, 물건을 줄 때는 두 손으로 주는 것이 좋아요.",
-          "bn": "হ্যাঁ, এদিকে দিন। আ, জিনিস দেওয়ার সময় দুই হাতে দেওয়া ভালো।",
-          "en": "Yes, give them here. Ah, it is better to give things with both hands."
+          "speaker": "마두",
+          "ko": "네, 담배를 피우고 싶으면 흡연 구역에 가야 돼요.",
+          "bn": "হ্যাঁ, সিগারেট খেতে চাইলে ধূমপান এলাকায় যেতে হবে।",
+          "en": "Yes, if you want to smoke, you have to go to the smoking area."
         },
         {
-          "speaker": "투안",
-          "ko": "아, 죄송합니다. 제가 한국 예절을 잘 몰랐어요.",
-          "bn": "আহ, দুঃখিত। আমি কোরিয়ার শিষ্টাচার ভালো জানতাম না।",
-          "en": "Ah, I'm sorry. I didn't know Korean etiquette well."
+          "speaker": "아궁",
+          "ko": "그럼 흡연 구역은 어디에 있어요?",
+          "bn": "তাহলে ধূমপান এলাকাটা কোথায়?",
+          "en": "So, where is the smoking area?"
         },
         {
-          "speaker": "반장",
-          "ko": "괜찮아요. 앞으로는 조심하세요.",
-          "bn": "ঠিক আছে। ভবিষ্যতে সাবধানে থাকবেন।",
-          "en": "It's okay. Please be careful in the future."
+          "speaker": "마두",
+          "ko": "여기에서 멀어요. 회사 근처에 있어요. 우리 밥부터 먹어요.",
+          "bn": "এখান থেকে দূরে, কোম্পানির কাছে। চলুন আগে খেয়ে নিই।",
+          "en": "It's far from here. It's near the company. Let's eat first."
+        },
+        {
+          "speaker": "아궁",
+          "ko": "알겠어요. 그리고 담배꽁초도 길에 버리면 안 되지요?",
+          "bn": "বুঝেছি। আর সিগারেটের টুকরাও রাস্তায় ফেলা যাবে না, তাই না?",
+          "en": "Got it. And I shouldn't toss cigarette butts on the street either, right?"
+        },
+        {
+          "speaker": "마두",
+          "ko": "맞아요. 쓰레기통에 버려야 돼요.",
+          "bn": "ঠিক বলেছেন। ডাস্টবিনে ফেলতে হবে।",
+          "en": "That's right. You have to throw them in the trash can."
         }
       ]
     },
     {
-      "titleBn": "পাবলিক ট্রান্সপোর্টে শিষ্টাচার",
-      "titleEn": "Etiquette on Public Transport",
+      "titleBn": "খাবারের সময়ের আদবকায়দা",
+      "titleEn": "Table Manners at Mealtime",
       "lines": [
         {
-          "speaker": "리한",
-          "ko": "지하철에 사람이 정말 많네요.",
-          "bn": "পাতাল রেলে সত্যিই অনেক মানুষ।",
-          "en": "There are really a lot of people on the subway."
+          "speaker": "프엉",
+          "ko": "왕민 씨, 한국에서는 식사할 때 밥그릇을 들고 먹으면 안 돼요.",
+          "bn": "ওয়াংমিন, কোরিয়ায় খাওয়ার সময় ভাতের বাটি হাতে তুলে খাওয়া যাবে না।",
+          "en": "Wangmin, in Korea you shouldn't hold the rice bowl while eating."
         },
         {
-          "speaker": "수루",
-          "ko": "네, 출퇴근 시간이라서 그래요. 저기 자리가 났어요. 앉으세요.",
-          "bn": "হ্যাঁ, অফিস যাতায়াতের সময় তাই। ওই যে জায়গা খালি হয়েছে। বসুন।",
-          "en": "Yes, it's because it's rush hour. There's a seat over there. Please sit."
+          "speaker": "왕민",
+          "ko": "정말이에요? 저는 몰랐어요. 우리 나라에서는 괜찮아요.",
+          "bn": "সত্যি? আমি জানতাম না। আমাদের দেশে এটা ঠিক আছে।",
+          "en": "Really? I didn't know that. In my country it's fine."
         },
         {
-          "speaker": "리한",
-          "ko": "저 자리는 노약자석 아니에요?",
-          "bn": "ওই জায়গাটা কি বয়স্কদের জন্য সংরক্ষিত আসন নয়?",
-          "en": "Isn't that priority seating?"
+          "speaker": "프엉",
+          "ko": "저도 처음에는 몰라서 실수를 많이 했어요.",
+          "bn": "আমিও প্রথমে জানতাম না, তাই অনেক ভুল করেছি।",
+          "en": "I also didn't know at first, so I made many mistakes."
         },
         {
-          "speaker": "수루",
-          "ko": "맞아요. 노약자석은 비워 두는 것이 좋아요.",
-          "bn": "ঠিক। সংরক্ষিত আসন খালি রাখা ভালো।",
-          "en": "That's right. It's good to leave priority seating empty."
+          "speaker": "왕민",
+          "ko": "한국에서 식사할 때 지켜야 하는 예절이 또 있어요?",
+          "bn": "কোরিয়ায় খাওয়ার সময় আর কোন কোন নিয়ম মানতে হয়?",
+          "en": "Are there any other etiquette rules to follow during meals in Korea?"
         },
         {
-          "speaker": "리한",
-          "ko": "그렇군요. 그럼 서서 가야겠어요.",
-          "bn": "তাই নাকি। তাহলে দাঁড়িয়েই যেতে হবে।",
-          "en": "I see. Then I should go standing."
+          "speaker": "프엉",
+          "ko": "식사할 때 큰 소리를 내면 안 돼요. 또 코를 풀면 안 돼요.",
+          "bn": "খাওয়ার সময় জোরে শব্দ করা যাবে না। আর নাক ঝাড়াও যাবে না।",
+          "en": "You shouldn't make loud noises while eating. Also, you shouldn't blow your nose."
         },
         {
-          "speaker": "수루",
-          "ko": "네, 그리고 지하철 안에서는 크게 떠들면 안 돼요.",
-          "bn": "হ্যাঁ, আর পাতাল রেলের ভেতরে জোরে শব্দ করা উচিত নয়।",
-          "en": "Yes, and you shouldn't make loud noises inside the subway."
+          "speaker": "왕민",
+          "ko": "그럼 어른보다 먼저 식사할 수 있어요?",
+          "bn": "তাহলে বড়দের আগে খাওয়া শুরু করা যায়?",
+          "en": "Then can I start eating before the elders?"
+        },
+        {
+          "speaker": "프엉",
+          "ko": "아니요, 어른보다 먼저 먹을 수 없어요. 수저도 같이 들면 안 돼요.",
+          "bn": "না, বড়দের আগে খাওয়া যায় না। চামচ আর কাঠি একসাথে ধরাও যাবে না।",
+          "en": "No, you can't eat before the elders. You also shouldn't hold the spoon and chopsticks together."
+        },
+        {
+          "speaker": "왕민",
+          "ko": "알겠어요. 잘 가르쳐 줘서 고마워요.",
+          "bn": "বুঝেছি। ভালোভাবে শেখানোর জন্য ধন্যবাদ।",
+          "en": "Got it. Thanks for teaching me."
         }
       ]
     },
     {
-      "titleBn": "গণপরিবহনে শিষ্টাচার",
-      "titleEn": "Etiquette on Public Transportation",
+      "titleBn": "বড়দের সঙ্গে ভদ্রভাবে কথা বলা",
+      "titleEn": "Speaking Politely to Elders",
       "lines": [
         {
-          "speaker": "리한",
-          "ko": "지하철에 사람이 정말 많네요.",
-          "bn": "পাতাল রেলে সত্যিই অনেক মানুষ।",
-          "en": "There are really a lot of people on the subway."
+          "speaker": "투안",
+          "ko": "과장님, 어디 가? 아, 잠깐만요……",
+          "bn": "ম্যানেজার স্যার, কোথায় যাচ্ছ? আহ, একটু দাঁড়ান……",
+          "en": "Manager, where you going? Ah, just a moment..."
+        },
+        {
+          "speaker": "동료",
+          "ko": "투안 씨, 어른들께 반말을 하면 안 돼요.",
+          "bn": "তুয়ান, বড়দের সঙ্গে অভদ্র (বন্ধুসুলভ) ভাষায় কথা বলা যাবে না।",
+          "en": "Tuan, you must not use non-honorific language with elders."
         },
         {
           "speaker": "투안",
-          "ko": "네, 출퇴근 시간에는 항상 복잡해요.",
-          "bn": "হ্যাঁ, যাতায়াতের সময় সবসময় ভিড় থাকে।",
-          "en": "Yes, it's always crowded during rush hour."
+          "ko": "그래요? 몰랐어요. 그럼 어떻게 말해요?",
+          "bn": "তাই নাকি? আমি জানতাম না। তাহলে কীভাবে বলব?",
+          "en": "Is that so? I didn't know. Then how should I say it?"
         },
         {
-          "speaker": "리한",
-          "ko": "저기 빈자리가 있어요. 빨리 앉아요.",
-          "bn": "ওখানে খালি জায়গা আছে। তাড়াতাড়ি বসুন।",
-          "en": "There's an empty seat over there. Let's sit quickly."
-        },
-        {
-          "speaker": "투안",
-          "ko": "안 돼요. 저기는 노약자석이에요.",
-          "bn": "না। ওটা বয়স্ক ও দুর্বলদের জন্য সংরক্ষিত আসন।",
-          "en": "No. That is priority seating."
-        },
-        {
-          "speaker": "리한",
-          "ko": "아, 그렇군요. 몰랐어요.",
-          "bn": "আহ, তাই নাকি। আমি জানতাম না।",
-          "en": "Ah, I see. I didn't know."
+          "speaker": "동료",
+          "ko": "'과장님, 어디 가세요?'라고 말할 수 있어요. 이름도 그냥 부르면 안 돼요.",
+          "bn": "'গোয়াজাংনিম, কোথায় যাচ্ছেন?' বলতে পারেন। নাম ধরে ডাকাও যাবে না।",
+          "en": "You can say, 'Sir, where are you going?' You also shouldn't just call elders by their name."
         },
         {
           "speaker": "투안",
-          "ko": "노인이나 임산부를 위해 비워 두는 것이 좋아요.",
-          "bn": "বয়স্ক বা গর্ভবতী মহিলাদের জন্য এটি খালি রাখা ভালো।",
-          "en": "It's good to leave it empty for the elderly or pregnant women."
+          "ko": "인사할 때 손을 흔들 수 있어요?",
+          "bn": "সালাম দেওয়ার সময় হাত নাড়া যায়?",
+          "en": "Can I wave my hand when I greet them?"
+        },
+        {
+          "speaker": "동료",
+          "ko": "아니요, 손을 흔들면 안 돼요. 인사를 하고 물건은 두 손으로 드려야 돼요.",
+          "bn": "না, হাত নাড়া যাবে না। সালাম দিতে হবে আর জিনিস দুই হাতে দিতে হবে।",
+          "en": "No, you shouldn't wave. You should bow in greeting and hand things over with both hands."
+        },
+        {
+          "speaker": "투안",
+          "ko": "알겠습니다. 과장님, 그동안 잘 지내셨어요?",
+          "bn": "বুঝেছি। গোয়াজাংনিম, এতদিন ভালো ছিলেন?",
+          "en": "I understand. Sir, how have you been?"
+        },
+        {
+          "speaker": "과장님",
+          "ko": "네, 잘 지냈어요. 투안 씨, 한국말이 많이 늘었네요.",
+          "bn": "হ্যাঁ, ভালো ছিলাম। তুয়ান, আপনার কোরিয়ান অনেক ভালো হয়েছে।",
+          "en": "Yes, I've been well. Tuan, your Korean has improved a lot."
         }
       ]
     }
@@ -681,579 +794,569 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "কোরিয়ায় বয়স্কদের সাথে দেখা হলে কীভাবে অভিবাদন করতে হয়?",
-      "questionKo": "한국에서 어른을 만나면 어떻게 인사해야 합니까?",
+      "questionBn": "'담배를 피우다' মানে কী?",
+      "questionKo": "담배를 피우다",
       "options": [
-        "반말을 합니다.",
-        "고개를 숙여서 인사합니다.",
-        "손을 흔듭니다.",
-        "안아 줍니다."
+        "থুতু ফেলা",
+        "লাইনে আগে ঢুকে পড়া",
+        "সিগারেট খাওয়া",
+        "ছোটাছুটি করা"
       ],
-      "answer": 1,
-      "explanationBn": "কোরিয়ায় বয়স্কদের সাথে দেখা হলে মাথা নোয়ায়ে অভিবাদন করতে হয়।"
+      "answer": 2,
+      "explanationBn": "'담배' মানে সিগারেট আর '피우다' মানে (ধোঁয়া) টানা, তাই '담배를 피우다' = সিগারেট খাওয়া—সঠিক উত্তর ২ নম্বর। 'থুতু ফেলা' হলো '침을 뱉다', 'লাইনে আগে ঢুকে পড়া' হলো '새치기하다', আর 'ছোটাছুটি করা' হলো '뛰어다니다'।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "বয়স্কদের জিনিস দেওয়ার সময় কীভাবে দিতে হয়?",
-      "questionKo": "어른에게 물건을 드릴 때 어떻게 해야 합니까?",
+      "questionBn": "নিচের কোনটির অর্থ 'রাস্তা নিয়ম না মেনে পার হওয়া (জেওয়াকিং)'?",
+      "questionKo": "길을 아무 데서나 건너는 행동은 무엇입니까?",
       "options": [
-        "두 손으로 줍니다.",
-        "한 손으로 줍니다.",
-        "보지 않고 줍니다.",
-        "던져서 줍니다."
+        "무단 횡단을 하다",
+        "신호를 위반하다",
+        "담배꽁초를 버리다",
+        "전시품을 만지다"
       ],
       "answer": 0,
-      "explanationBn": "বয়স্কদের জিনিস দেওয়ার সময় দুই হাতে দিতে হয়।"
+      "explanationBn": "'무단 횡단' মানে অনুমতি ছাড়া (ক্রসিং ছাড়া) রাস্তা পার হওয়া, তাই ০ নম্বরই সঠিক। '신호를 위반하다' মানে ট্রাফিক সিগন্যাল অমান্য করা, '담배꽁초를 버리다' মানে সিগারেটের টুকরা ফেলে দেওয়া, আর '전시품을 만지다' মানে প্রদর্শিত জিনিসে হাত দেওয়া।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "পাবলিক প্লেসে কোনটি করা উচিত নয়?",
-      "questionKo": "공공장소에서 하면 안 되는 행동은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: লাইব্রেরিতে খাবার নিয়ে ঢোকা যায় না।",
+      "questionKo": "도서관에 음식물을 ___ 수 없습니다.",
       "options": [
-        "줄을 섭니다.",
-        "쓰레기를 휴지통에 버립니다.",
-        "조용히 합니다.",
-        "크게 떠듭니다."
+        "반입한",
+        "반입할",
+        "반입하는",
+        "반입해서"
       ],
-      "answer": 3,
-      "explanationBn": "পাবলিক প্লেসে জোরে শব্দ করা বা গোলমাল করা উচিত নয়।"
+      "answer": 1,
+      "explanationBn": "'-(으)ㄹ 수 없다' গঠনে ক্রিয়ামূলের সঙ্গে '-(으)ㄹ' লাগে; '반입하다'-এ বাতচিম নেই, তাই '반입할 수 없습니다' সঠিক (উত্তর ১)। '반입한' অতীত-বিশেষণ রূপ, '반입하는' বর্তমান-বিশেষণ রূপ, আর '반입해서' কারণ/ক্রম বোঝায়—কোনোটিই '수 없다'-এর আগে বসে না।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "বয়স্কদের সামনে কোনটি করা উচিত নয়?",
-      "questionKo": "어른 앞에서 하면 안 되는 행동은 무엇입니까?",
+      "questionBn": "মাধু বলল: 여기는 금연 구역이에요. তাহলে আগুং সাহেবকে সিগারেট খেতে হলে কোথায় যেতে হবে?",
+      "questionKo": "담배를 피우고 싶으면 어디에 가야 됩니까?",
       "options": [
-        "존댓말을 합니다.",
-        "두 손으로 물건을 받습니다.",
-        "다리를 꼬고 앉습니다.",
-        "고개를 숙여 인사합니다."
+        "도서관",
+        "박물관",
+        "금연 구역",
+        "흡연 구역"
       ],
-      "answer": 2,
-      "explanationBn": "বয়স্কদের সামনে পা ক্রস করে বসা উচিত নয়।"
+      "answer": 3,
+      "explanationBn": "'금연 구역' মানে ধূমপান নিষিদ্ধ এলাকা, তাই ধূমপান করতে হলে '흡연 구역' (ধূমপান এলাকা)-এ যেতে হবে—উত্তর ৩। '도서관' (লাইব্রেরি) ও '박물관' (জাদুঘর) দুটোতেই ধূমপান নিষেধ, আর '금연 구역' তো ঠিক উল্টো জায়গা।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
-      "options": [
-        "인사를",
-        "존댓말을",
-        "반말을",
-        "악수를"
+      "type": "matching",
+      "questionBn": "পাবলিক জায়গার আচরণ-সংক্রান্ত শব্দগুলোর সঙ্গে অর্থ মেলান।",
+      "questionKo": "공공장소 예절 어휘와 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "떠들다",
+          "right": "হইচই করা, চেঁচামেচি করা"
+        },
+        {
+          "left": "새치기하다",
+          "right": "লাইনে আগে ঢুকে পড়া"
+        },
+        {
+          "left": "침을 뱉다",
+          "right": "থুতু ফেলা"
+        },
+        {
+          "left": "신호를 위반하다",
+          "right": "ট্রাফিক সিগন্যাল অমান্য করা"
+        },
+        {
+          "left": "전시품을 만지다",
+          "right": "প্রদর্শিত জিনিসে হাত দেওয়া"
+        }
       ],
-      "answer": 1,
-      "explanationBn": "বয়স্কদের সাথে কথা বলার সময় সম্মানসূচক ভাষা (존댓말) ব্যবহার করতে হয়।"
+      "explanationBn": "পাঁচটিই এই অধ্যায়ের 공공장소 예절 শব্দতালিকার ক্রিয়া। খেয়াল রাখুন 떠들다 মানে জোরে কথা বলা বা হইচই করা (নীরব থাকার উল্টো), আর 새치기하다 মানে লাইনে অপেক্ষা না করে সামনে ঢুকে পড়া — দুটোই 도서관·박물관 এর মতো জায়গায় নিষিদ্ধ।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'박물관에서 사진을 찍을 수 없어요.' বাক্যটির অর্থ কী?",
+      "questionKo": "박물관에서 사진을 찍을 수 없어요.",
       "options": [
-        "양보해야",
-        "앉아야",
-        "차지해야",
-        "비워야"
+        "জাদুঘরে ছবি তুলতে হবে।",
+        "জাদুঘরে ছবি তোলা যায় না।",
+        "জাদুঘরে ছবি তোলা যায়।",
+        "জাদুঘরে ছবি তুলতে চাই।"
       ],
-      "answer": 0,
-      "explanationBn": "পাতাল রেলে বয়স্কদের দেখলে বসার জায়গা ছেড়ে দেওয়া (양보하다) উচিত।"
+      "answer": 1,
+      "explanationBn": "'-(으)ㄹ 수 없다' অসামর্থ্য বা অনুমতি না থাকা বোঝায়, তাই অর্থ 'ছবি তোলা যায় না'—উত্তর ১। 'তুলতে হবে' হলো '찍어야 돼요', 'তোলা যায়' হলো '찍을 수 있어요', আর 'তুলতে চাই' হলো '찍고 싶어요'।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: এখানে ছবি তোলা যাবে না।",
+      "questionKo": "여기에서 사진을 ___ 안 돼요.",
       "options": [
-        "안경을 벗고",
-        "모자를 쓰고",
-        "신발을 신고",
-        "신발을 벗고"
+        "찍면",
+        "찍어서",
+        "찍으면",
+        "찍고"
       ],
-      "answer": 3,
-      "explanationBn": "কোরিয়ায় ঘরে ঢোকার সময় জুতো খুলে (신발을 벗고) ঢুকতে হয়।"
+      "answer": 2,
+      "explanationBn": "'찍다'-এর মূলে বাতচিম 'ㄱ' আছে, তাই '-으면 안 되다' লাগে: '찍으면 안 돼요' (উত্তর ২)। '찍면' ভুল কারণ বাতচিমের পরে '으' লাগবেই; '찍어서' কারণ বোঝায়; '찍고' মানে 'ছবি তুলে' — কোনোটাই '안 돼요'-এর সঙ্গে নিষেধ বোঝায় না।"
     },
     {
       "id": "p8",
-      "type": "matching",
-      "questionBn": "সঠিক কোরিয়ান শব্দের সাথে বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "예절",
-          "right": "শিষ্টাচার"
-        },
-        {
-          "left": "존댓말",
-          "right": "সম্মানসূচক ভাষা"
-        },
-        {
-          "left": "노약자석",
-          "right": "সংরক্ষিত আসন"
-        },
-        {
-          "left": "양보하다",
-          "right": "ছেড়ে দেওয়া"
-        }
+      "type": "multiple-choice",
+      "questionBn": "কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "questionKo": "다음 중 맞는 문장을 고르십시오.",
+      "options": [
+        "기숙사에서 음식을 만들 수 있어요.",
+        "기숙사에서 음식을 만들을 수 있어요.",
+        "기숙사에서 음식을 만들 수 안 있어요.",
+        "기숙사에서 음식을 만드면 안 있어요."
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 0,
+      "explanationBn": "'만들다'-এর শেষ ব্যঞ্জন 'ㄹ' হওয়ায় সরাসরি '만들 수 있다' হয়—উত্তর ০। '만들을 수' ভুল, কারণ 'ㄹ' বাতচিমে '으' যোগ হয় না; '수 안 있어요' বলে কিছু নেই, অস্বীকারে '수 없어요' হয়; শেষ অপশনটিও গঠনগতভাবে ভুল।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "সঠিক কোরিয়ান শব্দের সাথে বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "고개를 숙이다",
-          "right": "মাথা নোয়ানো"
-        },
-        {
-          "left": "악수하다",
-          "right": "করমর্দন করা"
-        },
-        {
-          "left": "다리를 꼬다",
-          "right": "পা ক্রস করে বসা"
-        },
-        {
-          "left": "신발을 벗다",
-          "right": "জুতো খোলা"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: বড়দের সঙ্গে অসম্মানজনক ভাষায় (반말) কথা বলা যাবে না।",
+      "questionKo": "어른들께 ___ 안 됩니다.",
+      "options": [
+        "인사하면",
+        "존댓말을 쓰면",
+        "절을 하면",
+        "반말을 하면"
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 3,
+      "explanationBn": "'반말' মানে সম্মানসূচক নয় এমন ভাষা; বড়দের সঙ্গে তা ব্যবহার করা যাবে না, তাই '반말을 하면 안 됩니다' সঠিক (উত্তর ৩)। '인사하면' মানে সালাম/অভিবাদন করা, '존댓말을 쓰면' মানে সম্মানসূচক ভাষা ব্যবহার করা, '절을 하면' মানে প্রণাম করা—এগুলো বরং ভদ্র আচরণ, নিষেধ নয়।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "সঠিক কোরিয়ান শব্দের সাথে বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "조용히 하다",
-          "right": "চুপ থাকা"
-        },
-        {
-          "left": "떠들다",
-          "right": "শব্দ করা"
-        },
-        {
-          "left": "두 손",
-          "right": "দুই হাত"
-        },
-        {
-          "left": "어른",
-          "right": "বয়স্ক"
-        }
+      "type": "multiple-choice",
+      "questionBn": "কথোপকথনে ফুয়ং বলল কোরিয়ায় খাওয়ার সময় কোন কাজটি করা যাবে না?",
+      "questionKo": "한국에서 식사할 때 하면 안 되는 행동은 무엇입니까?",
+      "options": [
+        "수저를 사용하다",
+        "밥그릇을 들고 먹다",
+        "어른보다 늦게 먹다",
+        "천천히 먹다"
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 1,
+      "explanationBn": "কথোপকথনে ফুয়ং বলেছে '식사할 때 밥그릇을 들고 먹으면 안 돼요'—ভাতের বাটি হাতে তুলে খাওয়া যাবে না, তাই উত্তর ১। '수저를 사용하다' (চামচ-কাঠি ব্যবহার) স্বাভাবিক; '어른보다 늦게 먹다' ঠিক আছে, নিষেধ হলো '어른보다 먼저 식사하다'; '천천히 먹다' (ধীরে খাওয়া) কোনো নিষেধ নয়।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "নিচের কোনটি 'শিষ্টাচার' এর কোরিয়ান শব্দ?",
-      "questionKo": "다음 중 '예절'의 뜻은 무엇입니까?",
-      "options": [
-        "규칙",
-        "예절",
-        "인사",
-        "존댓말"
+      "type": "matching",
+      "questionBn": "বড়দের সামনে বা খাওয়ার সময় যে কাজগুলো করা উচিত নয়—শব্দগুলোর অর্থ মেলান।",
+      "questionKo": "예의에 어긋난 행동과 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "다리를 꼬고 앉다",
+          "right": "পা ক্রস করে বসা"
+        },
+        {
+          "left": "이름을 부르다",
+          "right": "নাম ধরে ডাকা"
+        },
+        {
+          "left": "코를 풀다",
+          "right": "নাক ঝাড়া"
+        },
+        {
+          "left": "한 손으로 물건을 주다",
+          "right": "এক হাতে জিনিস দেওয়া"
+        },
+        {
+          "left": "어른보다 먼저 식사하다",
+          "right": "বড়দের আগে খাওয়া শুরু করা"
+        }
       ],
-      "answer": 1,
-      "explanationBn": "'예절' মানে শিষ্টাচার।"
+      "explanationBn": "এগুলো অধ্যায়ের 문화와 정보 অংশে বর্ণিত 어른 앞에서 하면 안 되는 행동। মনে রাখুন কোরিয়ায় বড়দের সামনে 다리를 꼬고 앉다 এবং খাওয়ার টেবিলে 코를 풀다 বেয়াদবি ধরা হয়, আর জিনিস দেওয়া-নেওয়া সবসময় দুই হাতে করতে হয়।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "বয়স্কদের সাথে কথা বলার সময় কোন ভাষা ব্যবহার করা উচিত?",
-      "questionKo": "어른과 이야기할 때 어떤 말을 사용해야 합니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: গলা ফুলে গেছে, তাই কথা বলতে পারছি না।",
+      "questionKo": "목이 부어서 말을 ___ 수 없어요.",
       "options": [
-        "반말",
-        "영어",
-        "존댓말",
-        "중국어"
+        "할",
+        "하는",
+        "해서",
+        "하고"
       ],
-      "answer": 2,
-      "explanationBn": "বয়স্কদের সাথে সম্মানসূচক ভাষা (존댓말) ব্যবহার করতে হয়।"
+      "answer": 0,
+      "explanationBn": "'하다'-এ বাতচিম নেই, তাই '-ㄹ 수 없다' যোগ হয়ে '할 수 없어요' হয়—উত্তর ০। '하는' বর্তমান-বিশেষণ রূপ, '해서' কারণ বোঝায়, '하고' মানে 'করে/এবং'—'수 없다'-এর আগে এদের কোনোটিই বসতে পারে না।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "কোরিয়ায় ঘরে ঢোকার সময় কী করতে হয়?",
-      "questionKo": "한국에서 집에 들어갈 때 어떻게 해야 합니까?",
+      "questionBn": "'-(으)면 안 되다'-এর বিপরীত, অর্থাৎ অনুমতি বোঝানোর প্রকাশভঙ্গি কোনটি?",
+      "questionKo": "'-(으)면 안 되다'의 반대 표현은 무엇입니까?",
       "options": [
-        "신발을 신고 들어갑니다.",
-        "신발을 벗고 들어갑니다.",
-        "모자를 쓰고 들어갑니다.",
-        "안경을 벗고 들어갑니다."
+        "-고 싶다",
+        "-아야/어야 되다",
+        "-아도/어도 되다",
+        "-지 마세요"
       ],
-      "answer": 1,
-      "explanationBn": "কোরিয়ায় ঘরে ঢোকার সময় জুতো খুলতে হয় (신발을 벗고 들어갑니다)।"
+      "answer": 2,
+      "explanationBn": "'-(으)면 안 되다' নিষেধ বোঝায়, আর তার বিপরীতে অনুমতি বোঝায় '-아도/어도 되다' (যেমন 사진을 찍어도 돼요)—উত্তর ২। '-고 싶다' ইচ্ছা, '-아야/어야 되다' বাধ্যবাধকতা, আর '-지 마세요' উল্টো নিষেধেরই আরেক রূপ।"
     },
     {
       "id": "p14",
       "type": "multiple-choice",
-      "questionBn": "지하철의 노약자석은 누구를 위한 자리입니까?",
-      "questionKo": "지하철의 노약자석은 누구를 위한 자리입니까?",
+      "questionBn": "'가 : 도서관에 커피를 들고 들어가도 돼요?' — এর সবচেয়ে উপযুক্ত উত্তর কোনটি?",
+      "questionKo": "가 : 도서관에 커피를 들고 들어가도 돼요? 나 : ___",
       "options": [
-        "학생",
-        "어린이",
-        "노인과 몸이 불편한 사람",
-        "외국인"
+        "네, 커피를 마시고 싶어요.",
+        "아니요, 음식물을 반입할 수 없어요.",
+        "네, 도서관은 저기에 있어요.",
+        "아니요, 책을 빌릴 수 있어요."
       ],
-      "answer": 2,
-      "explanationBn": "노약자석 (সংরক্ষিত আসন) বয়স্ক এবং শারীরিক প্রতিবন্ধীদের জন্য।"
+      "answer": 1,
+      "explanationBn": "প্রশ্নটি অনুমতি চাইছে, আর লাইব্রেরিতে খাবার-পানীয় নেওয়া নিষেধ, তাই '음식물을 반입할 수 없어요' সঠিক উত্তর (১)। ০ নম্বর নিজের ইচ্ছার কথা বলছে, ২ নম্বর জায়গার কথা বলছে, আর ৩ নম্বরে '아니요' বলে বই ধার নেওয়ার কথা বলায় অর্থ মেলে না।"
     },
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "어른에게 물건을 드릴 때는 (  ) 손으로 드려야 합니다.",
-      "questionKo": "어른에게 물건을 드릴 때는 (  ) 손으로 드려야 합니다.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: এটা ক্রসিং নয়, তাই এখানে রাস্তা পার হওয়া যাবে না।",
+      "questionKo": "여기는 횡단보도가 아니에요. 무단 횡단을 ___ 안 돼요.",
       "options": [
-        "한",
-        "두",
-        "세",
-        "네"
+        "해서",
+        "하려고",
+        "하면",
+        "하고"
       ],
-      "answer": 1,
-      "explanationBn": "বয়স্কদের জিনিস দেওয়ার সময় দুই হাতে (두 손) দিতে হয়।"
+      "answer": 2,
+      "explanationBn": "নিষেধ বোঝাতে '-(으)면 안 되다' লাগে; '하다'-এ বাতচিম নেই বলে '하면 안 돼요' সঠিক (উত্তর ২)। '해서' কারণ, '하려고' উদ্দেশ্য, '하고' সংযোগ বোঝায়—কোনোটিই '안 돼요'-এর সঙ্গে নিষেধের গঠন তৈরি করে না।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "한국에서는 어른 앞에서 다리를 (  ) 앉으면 안 됩니다.",
-      "questionKo": "한국에서는 어른 앞에서 다리를 (  ) 앉으면 안 됩니다.",
+      "type": "multiple-choice",
+      "questionBn": "গণপরিবহন ব্যবহারের সময় কোন আচরণটি করা যাবে না?",
+      "questionKo": "대중교통을 이용할 때 하면 안 되는 행동은 무엇입니까?",
       "options": [
-        "펴고",
-        "꼬고",
-        "들고",
-        "굽히고"
+        "시끄럽게 전화 통화를 하다",
+        "조용히 앉아 있다",
+        "차례를 지켜 줄을 서다",
+        "어르신에게 자리를 주다"
       ],
-      "answer": 1,
-      "explanationBn": "বয়স্কদের সামনে পা ক্রস করে (꼬고) বসা উচিত নয়।"
+      "answer": 0,
+      "explanationBn": "পাঠে বলা আছে '큰 소리로 이야기하거나 시끄럽게 전화 통화를 해서는 안 됩니다'—তাই জোরে ফোনে কথা বলা নিষেধ (উত্তর ০)। '조용히 앉아 있다' (চুপচাপ বসে থাকা), '차례를 지켜 줄을 서다' (সিরিয়াল মেনে লাইনে দাঁড়ানো) ও '어르신에게 자리를 주다' (বয়স্ককে আসন ছেড়ে দেওয়া)—এগুলো বরং ভালো আচরণ।"
     },
     {
       "id": "p17",
       "type": "fill-blank",
-      "questionBn": "공공장소에서는 큰 소리로 (  ) 안 됩니다.",
-      "questionKo": "공공장소에서는 큰 소리로 (  ) 안 됩니다.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: সহকর্মী সিগারেট খাওয়ার পর সিগারেটের টুকরা ডাস্টবিনে ফেলল।",
+      "questionKo": "담배를 피운 후에 담배꽁초를 쓰레기통에 ___.",
       "options": [
-        "떠들면",
-        "조용히 하면",
-        "인사하면",
-        "양보하면"
+        "내렸습니다",
+        "걸렸습니다",
+        "빌렸습니다",
+        "버렸습니다"
       ],
-      "answer": 0,
-      "explanationBn": "পাবলিক প্লেসে উচ্চস্বরে গোলমাল করা (떠들면) উচিত নয়।"
+      "answer": 3,
+      "explanationBn": "'버리다' মানে ফেলে দেওয়া, তাই '쓰레기통에 버렸습니다' সঠিক (উত্তর ৩)। '내렸습니다' মানে নামানো, '걸렸습니다' মানে ঝুলে থাকা/ধরা পড়া, '빌렸습니다' মানে ধার নেওয়া—ডাস্টবিনের সঙ্গে এগুলোর অর্থ মেলে না।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "할머니께 자리를 (  ).",
-      "questionKo": "할머니께 자리를 (  ).",
+      "type": "multiple-choice",
+      "questionBn": "'지난 주말에 도서관에 갔습니다. 그런데 학생 두 명이 큰소리로 ___ 책을 읽을 수 없었습니다.' — শূন্যস্থানে কোনটি বসবে?",
+      "questionKo": "학생 두 명이 큰소리로 ___ 책을 읽을 수 없었습니다.",
       "options": [
-        "양보했습니다",
-        "인사했습니다",
-        "사과했습니다",
-        "칭찬했습니다"
+        "들어서",
+        "풀어서",
+        "흔들어서",
+        "떠들어서"
       ],
-      "answer": 0,
-      "explanationBn": "দাদিকে বসার জায়গা ছেড়ে দিয়েছি (양보했습니다)।"
+      "answer": 3,
+      "explanationBn": "'떠들다' মানে হইচই করা; ছাত্ররা জোরে হইচই করায় বই পড়া যায়নি, তাই '떠들어서' সঠিক (উত্তর ৩)। '들어서' মানে তুলে/ধরে, '풀어서' মানে খুলে (코를 풀다 = নাক ঝাড়া), '흔들어서' মানে নাড়িয়ে—কোনোটাই '큰소리로'-এর সঙ্গে মানানসই নয়।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "সঠিক কোরিয়ান শব্দের সাথে বাংলা অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "예절",
-          "right": "শিষ্টাচার"
-        },
-        {
-          "left": "인사하다",
-          "right": "অভিবাদন করা"
-        },
-        {
-          "left": "존댓말",
-          "right": "সম্মানসূচক ভাষা"
-        },
-        {
-          "left": "반말",
-          "right": "অনানুষ্ঠানিক ভাষা"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: বড়দের সামনে পা ক্রস করে বসা যাবে না।",
+      "questionKo": "어른 앞에서 다리를 꼬고 ___ 안 돼요.",
+      "options": [
+        "앉으면",
+        "앉면",
+        "앉아서",
+        "앉고"
       ],
-      "explanationBn": "예절 = শিষ্টাচার, 인사하다 = অভিবাদন করা, 존댓말 = সম্মানসূচক ভাষা, 반말 = অনানুষ্ঠানিক ভাষা।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 0,
+      "explanationBn": "'앉다'-এর মূলে বাতচিম আছে, তাই '-으면 안 되다' যোগ হয়ে '앉으면 안 돼요' হয় (উত্তর ০)। '앉면' ভুল, কারণ বাতচিমের পরে '으' বাদ দেওয়া যায় না; '앉아서' কারণ/ক্রম বোঝায় আর '앉고' সংযোগ বোঝায়—দুটোই এখানে নিষেধ প্রকাশ করে না।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "সঠিক কোরিয়ান শব্দের সাথে বাংলা অর্থ মিলান।",
+      "questionBn": "পাঠের শব্দ ও জায়গার নামের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "단어와 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "어른",
-          "right": "বয়স্ক"
+          "left": "금연 구역",
+          "right": "ধূমপান নিষিদ্ধ এলাকা"
         },
         {
-          "left": "두 손",
-          "right": "দুই হাত"
+          "left": "흡연 구역",
+          "right": "ধূমপানের জন্য নির্ধারিত এলাকা"
         },
         {
-          "left": "양보하다",
-          "right": "ছেড়ে দেওয়া"
+          "left": "도서관",
+          "right": "লাইব্রেরি"
         },
         {
-          "left": "노약자석",
-          "right": "সংরক্ষিত আসন"
+          "left": "박물관",
+          "right": "জাদুঘর"
+        },
+        {
+          "left": "지키다",
+          "right": "নিয়ম মেনে চলা"
         }
       ],
-      "explanationBn": "어른 = বয়স্ক, 두 손 = দুই হাত, 양보하다 = ছেড়ে দেওয়া, 노약자석 = সংরক্ষিত আসন।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "explanationBn": "শব্দগুলো অধ্যায়ের স্থান ও নিয়মবিষয়ক শব্দতালিকার। 금연 구역 আর 흡연 구역 বিপরীত — প্রথমটিতে ধূমপান নিষেধ, দ্বিতীয়টিই ধূমপানের নির্ধারিত জায়গা; 지키다 ব্যবহার হয় 규칙을 지키다 বা 예절을 지키다 আকারে।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "한국에서는 어른에게 물건을 드릴 때 (  ) 주어야 합니다.",
+      "questionBn": "নিচের চিহ্নটি কোথায় দেখতে পাওয়া যায়?",
+      "questionKo": "다음 표지판은 어디에서 볼 수 있습니까?",
+      "passage": "금연 구역\n담배를 피우시면 안 됩니다.",
       "options": [
-        "입으로",
-        "두 손으로",
-        "한 손으로",
-        "발로"
+        "식당 입구",
+        "버스 정류장",
+        "회사 건물 앞",
+        "흡연 구역 안"
       ],
-      "answer": 1,
-      "explanationBn": "কোরিয়ায় বয়স্কদের জিনিস দেওয়ার সময় দুই হাতে (두 손으로) দিতে হয়।"
+      "answer": 2,
+      "explanationBn": "금연 구역 (ধূমপান নিষেধ এলাকা) চিহ্ন সাধারণত কোম্পানির ভবনের সামনে, অফিস এলাকায়, বা পাবলিক স্থানে থাকে। 흡연 구역 (ধূমপান এলাকা) তে এই চিহ্ন থাকবে না, সেখানে তো ধূমপান করা যায়।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "지하철이나 버스에는 노약자석이 있습니다. 이 자리는 노인이나 장애인, 임산부를 위한 자리이므로 (  ) 것이 좋습니다.",
+      "questionBn": "এই নিয়মটি কোথায় মানতে হবে?",
+      "questionKo": "다음 규칙은 어디에서 지켜야 합니까?",
+      "passage": "• 큰 소리로 이야기하지 마세요.\n• 음식물을 반입하지 마세요.\n• 조용히 책을 읽으세요.",
       "options": [
-        "차지하는",
-        "비워 두는",
-        "앉는",
-        "버리는"
+        "도서관",
+        "식당",
+        "회사 사무실",
+        "병원 대기실"
       ],
-      "answer": 1,
-      "explanationBn": "সংরক্ষিত আসন বয়স্ক, প্রতিবন্ধী এবং গর্ভবতী মহিলাদের জন্য, তাই এটি খালি রাখা (비워 두는) ভালো।"
+      "answer": 0,
+      "explanationBn": "শব্দ না করা, খাবার না আনা, এবং নীরবে বই পড়ার নিয়ম 도서관 (লাইব্রেরি) এর জন্য। 식당 (রেস্তোরাঁ) এ তো খাবার আনা স্বাভাবিক, 사무실 (অফিস) ও 병원 (হাসপাতাল) এ কথা বলা নিষেধ নয়।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 맞는 것을 고르십시오.",
-      "passage": "한국에서는 처음 만난 사람이나 어른에게 존댓말을 사용합니다. 친한 친구나 나이가 어린 사람에게는 반말을 사용합니다. 하지만 처음 만난 사람이라도 나이가 어리면 반말을 하는 사람도 있는데, 이것은 예의에 어긋나는 행동입니다.",
+      "questionBn": "এই জায়গায় কী করা নিষেধ?",
+      "questionKo": "이곳에서 무엇을 하면 안 됩니까?",
+      "passage": "박물관 관람 안내\n• 전시품을 만지지 마십시오.\n• 사진을 찍을 수 없습니다.\n• 음료수를 마실 수 없습니다.",
       "options": [
-        "친한 친구에게는 존댓말을 사용해야 합니다.",
-        "어른에게는 반말을 사용해도 됩니다.",
-        "처음 만난 사람에게는 항상 반말을 합니다.",
-        "처음 만난 사람에게는 나이가 어려도 존댓말을 하는 것이 좋습니다."
+        "조용히 말하기",
+        "천천히 걷기",
+        "전시품 보기",
+        "전시품 만지기"
       ],
       "answer": 3,
-      "explanationBn": "প্রথম দেখা হওয়া ব্যক্তির বয়স কম হলেও সম্মানসূচক ভাষা ব্যবহার করা ভালো, কারণ এটি শিষ্টাচারের অংশ।"
+      "explanationBn": "박물관 (জাদুঘর) এ 전시품을 만지다 (প্রদর্শনী স্পর্শ করা) নিষেধ। 조용히 말하기 (নীরবে কথা বলা), 천천히 걷기 (ধীরে হাঁটা), 전시품 보기 (প্রদর্শনী দেখা) সব করা যায়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "한국 사람들은 집에 들어갈 때 (  ) 들어갑니다. 집 안에서는 맨발이나 양말을 신고 생활합니다.",
+      "questionBn": "এই বিজ্ঞপ্তি কী সম্পর্কে?",
+      "questionKo": "다음 안내문은 무엇에 관한 것입니까?",
+      "passage": "주차 금지 구역\n이곳에 차를 주차하시면 과태료가 부과됩니다.",
       "options": [
-        "안경을 벗고",
-        "신발을 신고",
-        "신발을 벗고",
-        "모자를 쓰고"
+        "교통 신호",
+        "주차 규칙",
+        "운전 방법",
+        "차량 정비"
       ],
-      "answer": 2,
-      "explanationBn": "কোরিয়ানরা ঘরে ঢোকার সময় জুতো খুলে (신발을 벗고) ঢোকে।"
+      "answer": 1,
+      "explanationBn": "주차 금지 (পার্কিং নিষেধ) এবং 과태료 (জরিমানা) শব্দ থেকে বোঝা যায় এটি 주차 규칙 (পার্কিং নিয়ম) সম্পর্কে। 교통 신호 = ট্রাফিক সিগন্যাল, 운전 방법 = গাড়ি চালানোর পদ্ধতি, 차량 정비 = গাড়ির রক্ষণাবেক্ষণ।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 맞는 것을 고르십시오.",
-      "passage": "어른과 함께 식사를 할 때는 어른이 먼저 숟가락을 든 후에 식사를 시작해야 합니다. 그리고 식사를 할 때는 소리를 크게 내지 않고 조용히 먹어야 합니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "쉬는 시간에 동료와 담배를 피웠습니다. 담배를 피운 후에 담배꽁초를 쓰레기통에 ( ).",
       "options": [
-        "어른이 먼저 식사를 시작한 후에 먹어야 합니다.",
-        "식사 중에는 계속 말을 해야 합니다.",
-        "어른보다 먼저 식사를 시작해야 합니다.",
-        "식사할 때는 큰 소리를 내며 먹는 것이 좋습니다."
+        "내렸습니다",
+        "빌렸습니다",
+        "버렸습니다",
+        "걸렸습니다"
       ],
-      "answer": 0,
-      "explanationBn": "বয়স্কদের সাথে খাওয়ার সময় বয়স্করা আগে খাওয়া শুরু করার পর খাওয়া শুরু করতে হয়।"
+      "answer": 2,
+      "explanationBn": "'담배꽁초를 버리다' মানে সিগারেটের টুকরো ফেলা—ডাস্টবিনে ফেলার কথা বলা হচ্ছে, তাই 버렸습니다 সঠিক। 내리다 = নামা/নামানো, 빌리다 = ধার নেওয়া, 걸리다 = ঝোলানো বা ধরা পড়া।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 투안 씨, 한국에서는 어른 앞에서 다리를 꼬고 앉으면 안 돼요.\n남자: 아, 그래요? 몰랐어요. 죄송합니다.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "지난 주말에 친구와 도서관에 갔습니다. 그런데 학생 두 명이 큰 소리로 ( ) 책을 읽을 수 없었습니다.",
       "options": [
-        "남자는 어른 앞에서 다리를 꼬고 앉았습니다.",
-        "여자는 남자에게 화를 내고 있습니다.",
-        "남자는 한국 예절을 잘 알고 있습니다.",
-        "남자는 여자에게 선물을 주었습니다."
+        "들어서",
+        "떠들어서",
+        "풀어서",
+        "흔들어서"
       ],
-      "answer": 0,
-      "explanationBn": "পুরুষটি বয়স্কদের সামনে পা ক্রস করে বসেছিল, তাই মহিলাটি তাকে কোরিয়ান শিষ্টাচার সম্পর্কে বলছে।"
+      "answer": 1,
+      "explanationBn": "'떠들다' মানে চিৎকার করে গোলমাল করা; শব্দ করার কারণেই বই পড়া যায়নি, তাই 떠들어서 সঠিক। 들다 = ধরা/তোলা, 풀다 = খোলা (코를 풀다 = নাক পরিষ্কার করা), 흔들다 = নাড়ানো।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 지하철에 사람이 많네요. 우리 저기 빈자리에 앉을까요?\n여자: 저기는 노약자석이에요. 노인이나 몸이 불편한 분들을 위해 비워 두는 것이 좋아요.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত অভিব্যক্তিটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 알맞은 표현을 고르십시오.",
+      "passage": "제 동료는 한국어를 잘 못합니다. 그래서 어른들께 ( ) 실수를 자주 합니다. 저는 동료에게 어른들께 사용하는 말을 가르치고 있습니다.",
       "options": [
-        "여자는 노약자석에 앉았습니다.",
-        "남자는 노약자석에 앉고 싶어 합니다.",
-        "두 사람은 지금 버스에 있습니다.",
-        "두 사람은 노약자석에 앉을 것입니다."
+        "인사를 하는",
+        "손을 흔드는",
+        "절을 하는",
+        "반말을 하는"
       ],
-      "answer": 1,
-      "explanationBn": "পুরুষটি খালি জায়গায় (যা সংরক্ষিত আসন) বসতে চাইছে, কিন্তু মহিলাটি তাকে সেটি খালি রাখতে বলছে।"
+      "answer": 3,
+      "explanationBn": "বড়দের সঙ্গে ব্যবহার করার ভাষা শেখানো হচ্ছে, তাই ভুলটি হলো 반말을 하다 (সম্মানসূচক ভাষা ছাড়া কথা বলা)। 인사를 하다 = অভিবাদন করা, 손을 흔들다 = হাত নাড়ানো, 절을 하다 = প্রণাম করা—এগুলো ভাষার ভুল নয়।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 반장님, 이 서류 좀 확인해 주세요.\n남자: 네, 이리 주세요. 아, 수루 씨. 한국에서는 어른이나 직장 상사에게 물건을 드릴 때 두 손으로 드려야 해요.",
+      "section": "reading",
+      "questionBn": "নিচের বাক্যগুলোর মধ্যে আন্ডারলাইন করা অংশ সঠিক কোনটি?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "passage": "예절과 규칙에 대한 문장입니다.",
       "options": [
-        "여자는 남자에게 두 손으로 서류를 주었습니다.",
-        "여자는 남자에게 한 손으로 서류를 주었습니다.",
-        "남자는 여자에게 화를 냈습니다.",
-        "남자는 여자에게 서류를 주었습니다."
+        "박물관에 음식물을 반입할 수 없어요.",
+        "버스를 타서 회사에 출근해요.",
+        "술을 마셔서 운전할 줄 몰라요.",
+        "한국어를 배우려고 센터에 가세요."
       ],
-      "answer": 1,
-      "explanationBn": "মহিলাটি এক হাতে কাগজপত্র দিয়েছিল, তাই পুরুষটি তাকে দুই হাতে দেওয়ার নিয়মটি মনে করিয়ে দিচ্ছে।"
+      "answer": 0,
+      "explanationBn": "'-(으)ㄹ 수 없다' দিয়ে অসম্ভব বা নিষেধ বোঝায়, তাই '음식물을 반입할 수 없어요' সঠিক। '버스를 타서' নয়, '버스를 타고' হবে; '마셔서 운전할 줄 몰라요' নয়, '마시면 운전하면 안 돼요' হবে; '-(으)려고' নিজের ইচ্ছা বোঝায়, তাই আদেশবাচক '가세요'-এর সঙ্গে বসে না।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "한국에서는 처음 만나는 사람에게 (  )을/를 합니다. 그리고 나이가 많은 사람에게는 존댓말을 씁니다.",
+      "questionBn": "নিচের লেখাটি পড়ে বিষয়বস্তুর সঙ্গে মিলে যাওয়া বাক্যটি বাছুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국에서 대중교통을 이용할 때는 큰 소리로 이야기하거나 시끄럽게 전화 통화를 하면 안 됩니다. 아파트나 원룸에 사는 경우에는 늦은 밤이나 이른 아침에 청소기나 세탁기를 사용하면 안 됩니다. 공공시설을 이용할 때는 항상 차례를 지켜 줄을 서야 합니다.",
       "options": [
-        "선물",
-        "인사",
-        "약속",
-        "전화"
+        "대중교통에서는 이야기를 조금도 하면 안 됩니다.",
+        "지하철에서 시끄럽게 전화 통화를 해도 됩니다.",
+        "공동 주택에서는 새벽에 세탁기를 사용해도 됩니다.",
+        "공동 주택에서는 늦은 밤을 피해서 청소기를 사용해야 됩니다."
       ],
-      "answer": 1,
-      "explanationBn": "কোরিয়ায় প্রথম দেখা হওয়া ব্যক্তিকে অভিবাদন (인사) করতে হয়।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা হয়েছে গভীর রাতে বা খুব ভোরে ভ্যাকুয়াম বা ওয়াশিং মেশিন চালানো যাবে না, অর্থাৎ ওই সময় এড়িয়ে ব্যবহার করতে হবে—তাই ৪ নম্বর সঠিক। ১ ভুল, কারণ কথা বলা একেবারে নিষেধ নয়, শুধু জোরে বলা নিষেধ; ২ ও ৩ লেখার নিষেধাজ্ঞার উল্টো কথা বলছে।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "지하철이나 버스에는 노약자석이 있습니다. 이 자리는 노인이나 몸이 불편한 사람들을 위한 자리이므로 (  ) 두는 것이 좋습니다.",
+      "questionBn": "নিচের লেখাটিতে লেখক কী বলতে চাইছেন?",
+      "questionKo": "다음 글의 중심 내용을 고르십시오.",
+      "passage": "저는 한국에 온 지 두 달이 되었습니다. 처음에는 한국의 식사 예절을 몰라서 실수를 많이 했습니다. 밥그릇을 들고 먹기도 했고, 어른보다 먼저 식사를 시작하기도 했습니다. 지금은 선배에게 배워서 조심하고 있습니다.",
       "options": [
-        "비워",
-        "놓아",
-        "치워",
-        "앉아"
+        "한국 음식은 아주 맛있습니다.",
+        "식사 예절을 몰라서 실수했지만 지금은 배워서 지킵니다.",
+        "한국에서는 밥그릇을 들고 먹어야 합니다.",
+        "선배와 함께 식사하는 것이 불편합니다."
       ],
-      "answer": 0,
-      "explanationBn": "সংরক্ষিত আসন খালি রাখা (비워 두는 것) ভালো।"
+      "answer": 1,
+      "explanationBn": "লেখক বলছেন প্রথমে খাবারের আদবকেতা না জেনে ভুল করেছেন, এখন শিখে সাবধান থাকেন—তাই ২ নম্বর মূল কথা। ৩ উল্টো, কারণ কোরিয়ায় ভাতের বাটি হাতে তুলে খাওয়া নিষেধ; ১ ও ৪ লেখায় নেই।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음 질문에 답하십시오.",
-      "questionKo": "다음 질문에 답하십시오.",
-      "passage": "한국 사람들은 식사할 때 밥그릇을 들고 먹지 않습니다. 식탁에 놓고 먹어야 합니다. 그리고 어른이 먼저 식사를 시작할 때까지 기다려야 합니다.",
+      "section": "listening",
+      "questionBn": "শুনুন: দুজন কী নিয়ে কথা বলছেন?",
+      "questionKo": "다음을 듣고 두 사람이 무엇에 대해 말하고 있는지 고르십시오.",
+      "passage": "여자: 어제 마트에 갔는데 아이가 혼자 뛰어다니는 것을 봤어요.\n남자: 사람들이 많은 장소에서 그러면 안 되는데요. 아이의 부모님은 없었어요?",
       "options": [
-        "식탁에 밥그릇을 놓고 먹어야 합니다.",
-        "밥그릇을 들고 먹어야 합니다.",
-        "식사할 때 말을 많이 해야 합니다.",
-        "어른보다 먼저 식사를 시작해야 합니다."
+        "행사",
+        "상담",
+        "예절",
+        "진료"
       ],
-      "answer": 0,
-      "explanationBn": "কোরিয়ানরা খাওয়ার সময় ভাতের বাটি টেবিলে রেখে খায়।"
+      "answer": 2,
+      "explanationBn": "লোকভরা জায়গায় বাচ্চার দৌড়াদৌড়ি (뛰어다니다) করা উচিত নয়—এটি 예절 (আদবকেতা) নিয়ে আলোচনা। 행사 = অনুষ্ঠান, 상담 = পরামর্শ, 진료 = চিকিৎসা।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "다음 표지판의 의미는 무엇입니까?",
-      "questionKo": "다음 표지판의 의미는 무엇입니까?",
-      "passage": "[노약자석 표지판 그림]",
+      "section": "listening",
+      "questionBn": "শুনুন: পরের কথা হিসেবে সবচেয়ে উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "여자: 도서관에 커피를 들고 들어가도 돼요?",
       "options": [
-        "노인이나 임산부를 위한 자리입니다.",
-        "담배를 피우면 안 됩니다.",
-        "휴대폰을 사용하면 안 됩니다.",
-        "음식을 먹으면 안 됩니다."
+        "책을 빌리고 나서 커피를 사러 가요.",
+        "도서관에는 음식물을 반입할 수 없어요.",
+        "도서관에 사람이 많아서 들어갈 수 없어요.",
+        "책을 빌려야 되니까 커피를 좀 들어 주세요."
       ],
-      "answer": 0,
-      "explanationBn": "এটি বয়স্ক বা গর্ভবতী মহিলাদের জন্য সংরক্ষিত আসন।"
+      "answer": 1,
+      "explanationBn": "মহিলা কফি নিয়ে লাইব্রেরিতে ঢোকা যাবে কি না জিজ্ঞেস করছেন, তাই সরাসরি উত্তর হলো '음식물을 반입할 수 없어요' (খাবার-পানীয় আনা যায় না)। ১ ও ৪ প্রশ্নের উত্তর নয়, ৩ ভিড়ের কথা বলছে যা জিজ্ঞাসার বিষয় নয়।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "어른에게 물건을 드릴 때는 (  ) 손으로 드려야 합니다. 한 손으로 드리는 것은 예의가 아닙니다.",
+      "section": "listening",
+      "questionBn": "শুনুন: পরের কথা হিসেবে সবচেয়ে উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 손님, 여기에서 담배를 피우시면 안 됩니다. 여기는 금연 구역입니다.",
       "options": [
-        "네",
-        "세",
-        "두",
-        "한"
+        "그럼 흡연 구역은 어디에 있습니까?",
+        "여기에서 담배를 피워도 됩니까?",
+        "저쪽에 금연 구역이 있습니다.",
+        "흡연 구역에서 담배를 피울 수 있습니다."
       ],
-      "answer": 2,
-      "explanationBn": "বয়স্কদের জিনিস দেওয়ার সময় দুই হাতে (두 손) দিতে হয়।"
+      "answer": 0,
+      "explanationBn": "এখানে ধূমপান নিষেধ শোনার পর স্বাভাবিক প্রতিক্রিয়া হলো ধূমপান এলাকা কোথায় জিজ্ঞেস করা, তাই ১ নম্বর সঠিক। ২ প্রশ্নটি ইতিমধ্যে উত্তর পেয়ে গেছে; ৩ ও ৪ কর্মচারীর কথা, ধূমপায়ীর উত্তর নয়।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 수루 씨, 한국에서는 집에 들어갈 때 신발을 벗어야 해요.\n여자: 아, 그래요? 몰랐어요. 죄송합니다.",
+      "questionBn": "শুনুন: শোনা কথার সঙ্গে মিলে যাওয়া বাক্যটি বাছুন।",
+      "questionKo": "다음을 듣고 들은 내용과 같은 것을 고르십시오.",
+      "passage": "여자: 차가 안 와요. 지금 길을 건너요.\n남자: 여기는 횡단보도가 아니에요. 무단 횡단을 하면 안 돼요.\n여자: 횡단보도까지 너무 멀어서 무단 횡단을 하려고 했어요. 미안해요.",
       "options": [
-        "한국에서는 집에 들어갈 때 신발을 신어야 합니다.",
-        "남자는 여자에게 화를 내고 있습니다.",
-        "여자는 한국의 예절을 잘 몰랐습니다.",
-        "여자는 신발을 벗고 집에 들어갔습니다."
+        "두 사람은 횡단보도를 건넜습니다.",
+        "여자는 택시를 기다리고 있습니다.",
+        "남자는 무단 횡단을 하자고 했습니다.",
+        "여자는 횡단보도가 멀어서 무단 횡단을 하려고 했습니다."
       ],
-      "answer": 2,
-      "explanationBn": "মহিলাটি কোরিয়ার শিষ্টাচার (জুতো খোলার নিয়ম) জানত না।"
+      "answer": 3,
+      "explanationBn": "মহিলা নিজেই বলেছেন ক্রসিং অনেক দূরে বলে তিনি 무단 횡단 (বেআইনিভাবে রাস্তা পার) করতে চেয়েছিলেন, তাই ৪ সঠিক। তারা ক্রসিং পার করেননি (১), মহিলা ট্যাক্সির জন্য অপেক্ষা করছেন না (২), আর পুরুষটি উল্টো নিষেধ করেছেন (৩)।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 리한 씨, 어른 앞에서는 다리를 꼬고 앉으면 안 돼요.\n남자: 네, 알겠습니다. 앞으로 조심할게요.",
+      "questionBn": "শুনুন: শোনা কথার সঙ্গে মিলে যাওয়া বাক্যটি বাছুন।",
+      "questionKo": "다음을 듣고 들은 내용과 같은 것을 고르십시오.",
+      "passage": "남자: 콧물이 나서 밥 먹기 불편해요. 코를 풀고 싶어요. 휴지 좀 줄래요?\n여자: 한국에서는 식사할 때 코를 풀면 안 돼요.\n남자: 그래요? 몰랐어요. 우리 나라에서는 괜찮은데요.",
       "options": [
-        "남자는 어른입니다.",
-        "여자는 다리를 꼬고 앉았습니다.",
-        "여자는 어른입니다.",
-        "남자는 다리를 꼬고 앉았습니다."
+        "남자의 고향에서는 식사할 때 코를 풀어도 됩니다.",
+        "두 사람은 커피숍에 있습니다.",
+        "여자는 남자에게 휴지를 줬습니다.",
+        "남자는 한국의 식사 예절을 잘 알고 있습니다."
       ],
-      "answer": 3,
-      "explanationBn": "পুরুষটি পা ক্রস করে বসেছিল, তাই মহিলাটি তাকে সতর্ক করেছে।"
+      "answer": 0,
+      "explanationBn": "পুরুষটি বলেছেন '우리 나라에서는 괜찮은데요'—তার দেশে খাওয়ার সময় নাক ঝাড়া চলে, তাই ১ সঠিক। তারা খাচ্ছেন, কফি শপে নয় (২); টিস্যু দেওয়ার কথা বলা হয়নি (৩); তিনি নিয়মটি জানতেন না, তাই ৪ ভুল।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 할머니, 여기 앉으세요.\n여자: 아이고, 고마워요. 학생.",
+      "questionBn": "শুনুন: মহিলা পুরুষটিকে কী করতে বলছেন?",
+      "questionKo": "다음을 듣고 여자가 남자에게 무엇을 하라고 했는지 고르십시오.",
+      "passage": "남자: 사람이 많네요. 저는 앞으로 가서 표를 살게요.\n여자: 새치기하면 안 돼요. 차례를 지켜서 줄을 서세요.",
       "options": [
-        "여자는 학생입니다.",
-        "남자는 할머니에게 자리를 양보했습니다.",
-        "남자는 할머니에게 화를 냈습니다.",
-        "여자는 남자에게 자리를 양보했습니다."
+        "표를 사지 말라고 했습니다.",
+        "앞으로 빨리 가라고 했습니다.",
+        "차례를 지켜 줄을 서라고 했습니다.",
+        "다른 곳으로 가라고 했습니다."
       ],
-      "answer": 1,
-      "explanationBn": "পুরুষটি দাদিকে বসার জায়গা ছেড়ে দিয়েছে।"
+      "answer": 2,
+      "explanationBn": "মহিলা বলেছেন '새치기하면 안 돼요' (লাইন ভেঙে সামনে যাওয়া যাবে না) এবং '차례를 지켜서 줄을 서세요' (সিরিয়াল মেনে লাইনে দাঁড়ান), তাই ৩ সঠিক। টিকিট না কেনার কথা (১), তাড়াতাড়ি সামনে যাওয়ার কথা (২) বা অন্য জায়গায় যাওয়ার কথা (৪) বলা হয়নি।"
     }
   ]
 }
