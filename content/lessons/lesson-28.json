@@ -10,395 +10,226 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কোরিয়ার প্রধান ঐতিহ্যবাহী উৎসব সম্পর্কে জানা",
-      "উৎসবের সময়কার রীতিনীতি ও খাবার সম্পর্কে আলোচনা করা",
-      "ছুটির দিনের পরিকল্পনা সম্পর্কে কথা বলা"
+      "설날 ও 추석-এ কোরিয়ানরা কী কী করে তা কোরিয়ান ভাষায় বলতে পারা",
+      "'-고 나서' দিয়ে এক কাজ শেষ করার পর পরের কাজ প্রকাশ করতে পারা",
+      "'-(으)ㄹ 줄 알다/모르다' দিয়ে কোনো কাজ করতে জানা বা না জানা প্রকাশ করতে পারা",
+      "설날, 정월대보름 ও 추석-এর রীতি, খাবার ও খেলা সম্পর্কে জানা"
     ],
     "en": [
-      "Learn about major Korean traditional holidays",
-      "Discuss customs and foods during holidays",
-      "Talk about holiday plans"
+      "Can talk about what Koreans do on Lunar New Year and Chuseok",
+      "Can express doing one action after finishing another using -고 나서",
+      "Can say whether one knows how to do something using -(으)ㄹ 줄 알다/모르다",
+      "Can understand the customs, foods and games of Seollal, Daeboreum and Chuseok"
     ]
   },
   "vocabulary": [
     {
       "ko": "명절",
       "romanization": "myeongjeol",
-      "bn": "উৎসব / ছুটির দিন",
+      "bn": "ঐতিহ্যবাহী উৎসব / পার্বণ",
       "en": "traditional holiday",
       "pos": "noun",
       "example": {
-        "ko": "한국의 대표적인 명절은 설날과 추석입니다.",
-        "bn": "কোরিয়ার প্রধান উৎসব হলো সল্লাল এবং ছুসক।",
-        "en": "The representative traditional holidays of Korea are Seollal and Chuseok."
+        "ko": "한국의 대표적인 명절은 설날과 추석이에요.",
+        "bn": "কোরিয়ার প্রধান ঐতিহ্যবাহী উৎসব হলো 설날 আর 추석।",
+        "en": "Korea's major traditional holidays are Seollal and Chuseok."
       },
-      "pronunciationTipBn": "명절-এ '정' এর 'ㅕ' স্বরবর্ণটি বাংলা 'এ' থেকে ভিন্ন; মুখ অল্প খোলা রেখে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'명절' [명절]—'명' নাক দিয়ে টানা, 'ㅕ' স্বরটি 'ইঅ' মিশিয়ে বলুন।"
     },
     {
       "ko": "설날",
       "romanization": "seollal",
-      "bn": "সল্লাল (চান্দ্র নববর্ষ)",
+      "bn": "চান্দ্র নববর্ষ (চান্দ্র পঞ্জিকার ১ জানুয়ারি)",
       "en": "Lunar New Year",
       "pos": "noun",
       "example": {
-        "ko": "설날에는 가족들이 모여서 떡국을 먹습니다.",
-        "bn": "সল্লালে পরিবারের সদস্যরা একত্রিত হয়ে তকগুক খায়।",
-        "en": "On Seollal, family members gather and eat tteokguk."
+        "ko": "설날은 음력 1월 1일이에요.",
+        "bn": "설날 হলো চান্দ্র পঞ্জিকার ১ জানুয়ারি।",
+        "en": "Seollal is the first day of the first lunar month."
       },
-      "pronunciationTipBn": "'설' এ 'ㅓ' অল্প খোলা স্বরবর্ণ; 'ㄹ' নরমভাবে করুন, '날' এ 'ㄴ' স্পষ্ট রাখুন।"
-    },
-    {
-      "ko": "추석",
-      "romanization": "chuseok",
-      "bn": "ছুসক (কোরিয়ান থ্যাঙ্কসগিভিং)",
-      "en": "Chuseok (Korean Thanksgiving)",
-      "pos": "noun",
-      "example": {
-        "ko": "추석에는 보름달을 보며 소원을 빕니다.",
-        "bn": "ছুসকে পূর্ণিমার চাঁদ দেখে ইচ্ছা পূরণ করার প্রার্থনা করা হয়।",
-        "en": "On Chuseok, people make a wish while looking at the full moon."
-      },
-      "pronunciationTipBn": "'추' তে 'ㅊ' হালকা স্পর্শোচ্চারিত, '석' এ 받침 'ㄱ' একটু শক্ত করে কন্ঠে দিন।"
-    },
-    {
-      "ko": "한복",
-      "romanization": "hanbok",
-      "bn": "হানবোক (কোরিয়ান ঐতিহ্যবাহী পোশাক)",
-      "en": "Hanbok (traditional Korean clothes)",
-      "pos": "noun",
-      "example": {
-        "ko": "명절에는 보통 한복을 입습니다.",
-        "bn": "উৎসবের সময় সাধারণত হানবোক পরা হয়।",
-        "en": "People usually wear Hanbok on traditional holidays."
-      },
-      "pronunciationTipBn": "'한' এ 'ㅎ' হালকা, '복' এ 받침 'ㄱ' নরম করে বলুন।"
-    },
-    {
-      "ko": "세배",
-      "romanization": "sebae",
-      "bn": "নববর্ষের প্রণাম",
-      "en": "New Year's bow",
-      "pos": "noun",
-      "example": {
-        "ko": "어른들께 세배를 드립니다.",
-        "bn": "বড়দেরকে নববর্ষের প্রণাম জানাই।",
-        "en": "We give a New Year's bow to the elders."
-      },
-      "pronunciationTipBn": "'세' তে স্বরবর্ণ 'ㅔ' স্পষ্ট, '배' তে 'ㅐ' বাংলা 'এ' এর মতো বলুন।"
-    },
-    {
-      "ko": "세뱃돈",
-      "romanization": "sebaetdon",
-      "bn": "নববর্ষের সেলামি (টাকা)",
-      "en": "New Year's money",
-      "pos": "noun",
-      "example": {
-        "ko": "세배를 하고 세뱃돈을 받았습니다.",
-        "bn": "প্রণাম করে নববর্ষের সেলামি পেয়েছি।",
-        "en": "I bowed and received New Year's money."
-      },
-      "pronunciationTipBn": "'뱃' এ 'ㅐ' এবং 받침 'ㅅ' নেই; '돈' এ 'ㄷ' সামনে জোর দিন না, নরম বলুন।"
-    },
-    {
-      "ko": "떡국",
-      "romanization": "tteokguk",
-      "bn": "তকগুক (রাইস কেক স্যুপ)",
-      "en": "rice cake soup",
-      "pos": "noun",
-      "example": {
-        "ko": "설날 아침에 떡국을 먹어야 한 살을 더 먹습니다.",
-        "bn": "সল্লালের সকালে তকগুক খেলে বয়স এক বছর বাড়ে বলে মনে করা হয়।",
-        "en": "It is said that you become one year older only after eating tteokguk on Seollal morning."
-      },
-      "pronunciationTipBn": "'떡' এ 'ㄸ' টানটান, দুধের মতো কণ্ঠে বলুন; '국' এ 'ㄱ' নরম রাখুন।"
-    },
-    {
-      "ko": "송편",
-      "romanization": "songpyeon",
-      "bn": "সংপিয়ন (অর্ধচন্দ্রাকার রাইস কেক)",
-      "en": "half-moon shaped rice cake",
-      "pos": "noun",
-      "example": {
-        "ko": "추석에는 가족들과 함께 송편을 만듭니다.",
-        "bn": "ছুসকে পরিবারের সাথে সংপিয়ন তৈরি করি।",
-        "en": "On Chuseok, we make songpyeon with family."
-      },
-      "pronunciationTipBn": "'송' এ 'ㅗ' স্পষ্ট; '편' এ 'ㅕ' বাংলা 'ই' থেকে আলাদা, জিভ তালুতে নীচে রাখেন।"
-    },
-    {
-      "ko": "윷놀이",
-      "romanization": "yunnori",
-      "bn": "ইয়ুন্নোরি (ঐতিহ্যবাহী বোর্ড গেম)",
-      "en": "traditional board game",
-      "pos": "noun",
-      "example": {
-        "ko": "명절에 친척들과 윷놀이를 하면 재미있습니다.",
-        "bn": "উৎসবে আত্মীয়দের সাথে ইয়ুন্নোরি খেললে মজা হয়।",
-        "en": "It is fun to play yutnori with relatives on holidays."
-      },
-      "pronunciationTipBn": "'윷' এ '유' স্বরবর্ণ দীর্ঘ, 받침 'ㅅ' অদৃশ্য; '놀이' তে '노' আর '리' আলাদা উচ্চারণ।"
-    },
-    {
-      "ko": "차례",
-      "romanization": "charye",
-      "bn": "পূর্বপুরুষদের উদ্দেশ্যে প্রার্থনা",
-      "en": "ancestral rites",
-      "pos": "noun",
-      "example": {
-        "ko": "명절 아침에는 조상님께 차례를 지냅니다.",
-        "bn": "উৎসবের সকালে পূর্বপুরুষদের উদ্দেশ্যে প্রার্থনা করা হয়।",
-        "en": "On the morning of holidays, we hold ancestral rites for our ancestors."
-      },
-      "pronunciationTipBn": "'차' তে 'ㅊ' হালকা স্পর্শ দিয়ে বলুন; '례' তে 'ㅖ' একটু জোরে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "성묘",
-      "romanization": "seongmyo",
-      "bn": "কবর জিয়ারত",
-      "en": "visiting ancestral graves",
-      "pos": "noun",
-      "example": {
-        "ko": "추석에 고향에 가서 성묘를 했습니다.",
-        "bn": "ছুসকে গ্রামের বাড়িতে গিয়ে কবর জিয়ারত করেছি।",
-        "en": "I went to my hometown and visited ancestral graves on Chuseok."
-      },
-      "pronunciationTipBn": "'성' এ 'ㅓ' অল্প খোলা, '묘' তে 'ㅛ' জোরে উচ্চারণ করবেন না।"
-    },
-    {
-      "ko": "고향",
-      "romanization": "gohyang",
-      "bn": "গ্রামের বাড়ি / জন্মস্থান",
-      "en": "hometown",
-      "pos": "noun",
-      "example": {
-        "ko": "명절 연휴에는 고향에 가는 사람들이 많습니다.",
-        "bn": "উৎসবের ছুটিতে গ্রামের বাড়িতে যাওয়া মানুষের সংখ্যা অনেক।",
-        "en": "Many people go to their hometowns during the holiday weekend."
-      },
-      "pronunciationTipBn": "'고' তে 'ㅗ' গোল করে বলুন; '향' এ 'ㅎ' হালকা, 'ㅇ' শুরুতে নরম রাখুন।"
-    },
-    {
-      "ko": "친척",
-      "romanization": "chincheok",
-      "bn": "আত্মীয়",
-      "en": "relatives",
-      "pos": "noun",
-      "example": {
-        "ko": "오랜만에 친척들을 만나서 반가웠습니다.",
-        "bn": "অনেক দিন পর আত্মীয়দের সাথে দেখা হয়ে ভালো লেগেছে।",
-        "en": "I was glad to meet my relatives after a long time."
-      },
-      "pronunciationTipBn": "'친' এ 'ㅊ' স্পর্শ, '척' এ 받침 'ㄱ' নরম করে বলুন।"
-    },
-    {
-      "ko": "보름달",
-      "romanization": "boreumdal",
-      "bn": "পূর্ণিমার চাঁদ",
-      "en": "full moon",
-      "pos": "noun",
-      "example": {
-        "ko": "밤하늘에 크고 밝은 보름달이 떴습니다.",
-        "bn": "রাতের আকাশে বড় এবং উজ্জ্বল পূর্ণিমার চাঁদ উঠেছে।",
-        "en": "A large and bright full moon rose in the night sky."
-      },
-      "pronunciationTipBn": "'보름' এ '름' এর 'ㄹ' তালু ছোঁয়ে বললে শুদ্ধ হয়; '달' এ 'ㄷ' নরম রাখুন।"
-    },
-    {
-      "ko": "소원",
-      "romanization": "sowon",
-      "bn": "ইচ্ছা / প্রার্থনা",
-      "en": "wish",
-      "pos": "noun",
-      "example": {
-        "ko": "올해는 건강하게 해 달라고 소원을 빌었습니다.",
-        "bn": "এই বছর সুস্থ থাকার জন্য প্রার্থনা করেছি।",
-        "en": "I made a wish to be healthy this year."
-      },
-      "pronunciationTipBn": "'소' তে 'ㅗ' সংক্ষিপ্ত; '원' এ 'ㅝ' বাংলা মিশ্র স্বরবর্ণের মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "덕담",
-      "romanization": "deokdam",
-      "bn": "আশীর্বাদমূলক কথা",
-      "en": "words of blessing",
-      "pos": "noun",
-      "example": {
-        "ko": "어른들께서 좋은 덕담을 많이 해 주셨습니다.",
-        "bn": "বড়রা অনেক ভালো আশীর্বাদমূলক কথা বলেছেন।",
-        "en": "The elders gave many good words of blessing."
-      },
-      "pronunciationTipBn": "'덕' এ 'ㅓ' অল্প খোলা, '담' এ 'ㄷ' নরম করে বলুন।"
-    },
-    {
-      "ko": "연휴",
-      "romanization": "yeonhyu",
-      "bn": "টানা ছুটি",
-      "en": "long weekend / consecutive holidays",
-      "pos": "noun",
-      "example": {
-        "ko": "이번 추석 연휴는 5일이나 됩니다.",
-        "bn": "এবারের ছুসকের টানা ছুটি ৫ দিন।",
-        "en": "This Chuseok holiday is 5 days long."
-      },
-      "pronunciationTipBn": "'연' এ 'ㅕ' অল্পটা বাংলা 'এ' থেকে আলাদা; '휴' তে 'ㅣউ' মিশে বলা যায়।"
-    },
-    {
-      "ko": "귀성",
-      "romanization": "gwiseong",
-      "bn": "গ্রামের বাড়িতে ফেরা",
-      "en": "going to one's hometown",
-      "pos": "noun",
-      "example": {
-        "ko": "명절에는 귀성길이 많이 막힙니다.",
-        "bn": "উৎসবে গ্রামের বাড়িতে ফেরার রাস্তায় অনেক জ্যাম থাকে।",
-        "en": "The roads to hometowns are very congested during holidays."
-      },
-      "pronunciationTipBn": "'귀' তে 'ㅟ' বাংলা 'উই' এর মতো; '성' এ 'ㅓ' অল্প খোলা বলুন।"
-    },
-    {
-      "ko": "제사",
-      "romanization": "jesa",
-      "bn": "পূর্বপুরুষদের স্মরণে অনুষ্ঠান (제사)",
-      "en": "memorial service for ancestors",
-      "pos": "noun",
-      "example": {
-        "ko": "어떤 집에서는 차례 대신 제사를 지내기도 합니다.",
-        "bn": "কিছু জায়গায় 차례-এর বদলে 제사 করা হয়।",
-        "en": "In some households, they perform jesa instead of charye."
-      },
-      "pronunciationTipBn": "'제' তে 'ㅔ' স্পষ্ট; '사' তে 'ㅏ' বাংলা 'আ' মত বলুন।"
-    },
-    {
-      "ko": "기차표",
-      "romanization": "gichapyo",
-      "bn": "ট্রেনের টিকিট",
-      "en": "train ticket",
-      "pos": "noun",
-      "example": {
-        "ko": "설날에는 기차표를 빨리 예매해야 합니다.",
-        "bn": "সল্লালে ট্রেনের টিকিট আগে থেকে বুক করতে হয়।",
-        "en": "You must book train tickets early for Seollal."
-      },
-      "pronunciationTipBn": "'기' তে '기' স্বর স্বচ্ছ; '표' তে 'ㅛ' হালকা উচ্চারণ করুন।"
-    },
-    {
-      "ko": "버스표",
-      "romanization": "beoseupyo",
-      "bn": "বাসের টিকিট",
-      "en": "bus ticket",
-      "pos": "noun",
-      "example": {
-        "ko": "추석에는 버스표도 매진이 되기 쉽습니다.",
-        "bn": "ছুসকের সময় বাসের টিকিটও দ্রুত শেষ হয়ে যায়।",
-        "en": "Bus tickets often sell out during Chuseok."
-      },
-      "pronunciationTipBn": "'버' তে 'ㅓ' অল্প খোলা; '스' তে 'ㅡ' ঘন করে বলবেন না।"
-    },
-    {
-      "ko": "예약",
-      "romanization": "yeyak",
-      "bn": "আগাম বুকিং / রিজার্ভেশন",
-      "en": "reservation",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "고궁에 가려면 한복 대여를 예약하세요.",
-        "bn": "প্রাসাদে যেতে হলে হানবোক আগে থেকে বুক করুন।",
-        "en": "If you want to go to the palace, reserve Hanbok rental."
-      },
-      "pronunciationTipBn": "'예' তে 'ㅖ' ছোটখাটো; '약' এ 받침 'ㄱ' তালুতে হালকা স্পর্শ দিন।"
-    },
-    {
-      "ko": "교통",
-      "romanization": "gyotong",
-      "bn": "পরিবহন / ট্রাফিক",
-      "en": "traffic/transportation",
-      "pos": "noun",
-      "example": {
-        "ko": "명절에는 교통이 매우 혼잡합니다.",
-        "bn": "উৎসবে পরিবহন খুবই জ্যাম থাকে।",
-        "en": "Traffic is very congested during holidays."
-      },
-      "pronunciationTipBn": "'교' তে 'ㅛ' নরম; '통' এ 받침 'ㅇ' পিছনে মৃদু রাখুন।"
-    },
-    {
-      "ko": "혼잡",
-      "romanization": "honjap",
-      "bn": "জ্যাম / ভিড়",
-      "en": "congestion",
-      "pos": "noun/adjective",
-      "example": {
-        "ko": "귀성길은 항상 혼잡합니다.",
-        "bn": "গ্রামের বাড়িতে ফেরার পথে সবসময় ভিড় হয়।",
-        "en": "The road to hometowns is always congested.",
-        "pronunciationTipBn": "'혼' এ 'ㅎ' হালকা, '잡' এ 'ㅂ' মুখের শেষ অংশে চাপিয়া বলুন।"
-      },
-      "pr": "",
-      "pronunciationTipBn": " "
-    },
-    {
-      "ko": "명절음식",
-      "romanization": "myeongjeol eumsik",
-      "bn": "উৎসবের খাবার",
-      "en": "holiday food",
-      "pos": "noun",
-      "example": {
-        "ko": "각 지역마다 명절음식이 조금씩 다릅니다.",
-        "bn": "প্রতিটি অঞ্চলে উৎসবের খাবার ভিন্ন হতে পারে।",
-        "en": "Holiday foods vary slightly by region."
-      },
-      "pronunciationTipBn": "'명절음식' এ '명절' ও '음식' আলাদাভাবে স্পষ্ট বলুন, '음' এ 'ㅡ' গলায় নরম রাখুন।"
-    },
-    {
-      "ko": "선물",
-      "romanization": "seonmul",
-      "bn": "উপহার",
-      "en": "gift",
-      "pos": "noun",
-      "example": {
-        "ko": "명절에 친척들에게 선물을 준비합니다.",
-        "bn": "উৎসবে আত্মীয়দের জন্য উপহার নিয়ে যাই।",
-        "en": "We prepare gifts for relatives during holidays."
-      },
-      "pronunciationTipBn": "'선' এ 'ㅓ' অল্প খোলা; '물' এ 'ㅜ' টান দিয়ে বলবেন না, নম্রভাবে বলুন।"
+      "pronunciationTipBn": "'설날' [설랄]—ㄹ+ㄴ মিলে দুটোই 'ল' হয়ে যায়।"
     },
     {
       "ko": "음력",
       "romanization": "eumnyeok",
-      "bn": "চাঁদ ভিত্তিক ক্যালেন্ডার (লুনার ক্যালেন্ডার)",
+      "bn": "চান্দ্র পঞ্জিকা",
       "en": "lunar calendar",
       "pos": "noun",
       "example": {
-        "ko": "설날은 음력 1월 1일입니다.",
-        "bn": "সল্লাল চাঁদ ভিত্তিক ক্যালেন্ডারের ১লা বৈশাখে পড়ে।",
-        "en": "Seollal is on the 1st day of the lunar calendar."
+        "ko": "추석은 음력 8월 15일이에요.",
+        "bn": "추석 হলো চান্দ্র পঞ্জিকার ৮ম মাসের ১৫ তারিখ।",
+        "en": "Chuseok is the 15th day of the eighth lunar month."
       },
-      "pronunciationTipBn": "'음' এ 'ㅡ' জোর না দিয়ে, '력' এ 'ㄹ' তালুতে লেগে বলুন।"
+      "pronunciationTipBn": "'음력' [음녁]—ㅁ-এর পরে ㄹ 'ন' হয়ে যায়।"
     },
     {
-      "ko": "양력",
-      "romanization": "yangnyeok",
-      "bn": "সূর্য ভিত্তিক ক্যালেন্ডার (গ্রেগরিয়ান)",
-      "en": "solar calendar",
-      "pos": "noun",
+      "ko": "한복을 입다",
+      "romanization": "hanbogeul ipda",
+      "bn": "হানবক (কোরিয়ার ঐতিহ্যবাহী পোশাক) পরা",
+      "en": "to wear hanbok",
+      "pos": "verb",
       "example": {
-        "ko": "우리나라는 양력 1월 1일도 공휴일입니다.",
-        "bn": "দেশে গ্রেগরিয়ান ক্যালেন্ডারের ১লা জানুয়ারিও ছুটি।",
-        "en": "January 1 (solar calendar) is also a public holiday in Korea."
+        "ko": "설날에 한복을 입고 세배를 해요.",
+        "bn": "설날-এ হানবক পরে সেবে (নববর্ষের প্রণাম) করা হয়।",
+        "en": "On Seollal people wear hanbok and do the New Year's bow."
       },
-      "pronunciationTipBn": "'양' এ 'ㅑ' নরম, '력' এ 'ㄹ' তালু স্পর্শ করে বলুন।"
+      "pronunciationTipBn": "'한복을' [한보글]—받침 ㄱ পরের স্বরে জুড়ে যায়।"
     },
     {
-      "ko": "고궁",
-      "romanization": "gogung",
-      "bn": "প্রাচীন রাজপ্রাসাদ (প্যালেস)",
-      "en": "historic palace",
+      "ko": "세배하다",
+      "romanization": "sebaehada",
+      "bn": "নববর্ষে বড়দের প্রণাম করা",
+      "en": "to do the New Year's bow",
+      "pos": "verb",
+      "example": {
+        "ko": "아침에 부모님께 세배했어요.",
+        "bn": "সকালে বাবা-মাকে নববর্ষের প্রণাম করেছি।",
+        "en": "In the morning I bowed to my parents for the New Year."
+      },
+      "pronunciationTipBn": "'세배' [세배]—'বে' নয়, 'বে্যা' নয়; সহজভাবে 'সে-বে'।"
+    },
+    {
+      "ko": "절하다",
+      "romanization": "jeolhada",
+      "bn": "প্রণাম করা / মাথা নত করা",
+      "en": "to bow",
+      "pos": "verb",
+      "example": {
+        "ko": "할아버지께 두 번 절했어요.",
+        "bn": "দাদুকে দুবার প্রণাম করেছি।",
+        "en": "I bowed twice to my grandfather."
+      },
+      "pronunciationTipBn": "'절하다' [저라다]—ㄹ+ㅎ মিলে 'রা' মতো শোনায়।"
+    },
+    {
+      "ko": "차례를 지내다",
+      "romanization": "charyereul jinaeda",
+      "bn": "পূর্বপুরুষদের স্মরণে পারিবারিক অনুষ্ঠান করা",
+      "en": "to hold a memorial service for ancestors",
+      "pos": "verb",
+      "example": {
+        "ko": "가족들하고 같이 차례를 지냈어요.",
+        "bn": "পরিবারের সবাই মিলে পূর্বপুরুষদের স্মরণানুষ্ঠান করেছি।",
+        "en": "We held the ancestral memorial service together with family."
+      },
+      "pronunciationTipBn": "'차례를' [차례를]—'례' উচ্চারণে ㄹ স্পষ্ট রাখুন।"
+    },
+    {
+      "ko": "떡국을 먹다",
+      "romanization": "tteokgugeul meokda",
+      "bn": "ততকুক (চালের পিঠার স্যুপ) খাওয়া",
+      "en": "to eat tteokguk (rice cake soup)",
+      "pos": "verb",
+      "example": {
+        "ko": "설날에는 떡국을 먹어요.",
+        "bn": "설날-এ ততকুক খাওয়া হয়।",
+        "en": "On Seollal we eat tteokguk."
+      },
+      "pronunciationTipBn": "'떡국' [떡꾹]—받침 ㄱ-এর পরে ㄱ শক্ত হয়ে 'ㄲ' হয়।"
+    },
+    {
+      "ko": "떡국을 끓이다",
+      "romanization": "tteokgugeul kkeurida",
+      "bn": "ততকুক রান্না করা (ফুটিয়ে বানানো)",
+      "en": "to cook/boil tteokguk",
+      "pos": "verb",
+      "example": {
+        "ko": "대리님이 직접 떡국을 끓였습니다.",
+        "bn": "সহকারী ম্যানেজার নিজেই ততকুক রান্না করেছেন।",
+        "en": "The assistant manager cooked the tteokguk himself."
+      },
+      "pronunciationTipBn": "'끓이다' [끄리다]—받침 ㅀ-এর ㅎ পড়ে যায়, শুধু ㄹ শোনা যায়।"
+    },
+    {
+      "ko": "덕담을 하다",
+      "romanization": "deokdameul hada",
+      "bn": "শুভকামনার কথা বলা / আশীর্বাদবাণী দেওয়া",
+      "en": "to give well-wishing remarks",
+      "pos": "verb",
+      "example": {
+        "ko": "할머니께서 덕담을 해 주셨어요.",
+        "bn": "দাদি আমাকে শুভকামনার কথা বলেছেন।",
+        "en": "My grandmother gave me well-wishing remarks."
+      },
+      "pronunciationTipBn": "'덕담' [덕땀]—받침 ㄱ-এর পরে ㄷ শক্ত হয়ে 'ㄸ' হয়।"
+    },
+    {
+      "ko": "덕담을 듣다",
+      "romanization": "deokdameul deutda",
+      "bn": "শুভকামনার কথা শোনা",
+      "en": "to receive well-wishing remarks",
+      "pos": "verb",
+      "example": {
+        "ko": "세배를 하고 나서 덕담을 들었어요.",
+        "bn": "প্রণাম করার পর শুভকামনার কথা শুনেছি।",
+        "en": "After bowing, I received well-wishing remarks."
+      },
+      "pronunciationTipBn": "'듣다' [듣따]—받침 ㄷ-এর পরে ㄷ শক্ত হয়।"
+    },
+    {
+      "ko": "세뱃돈을 주다",
+      "romanization": "sebaetdoneul juda",
+      "bn": "নববর্ষের সালামি (টাকা) দেওয়া",
+      "en": "to give New Year's cash gift",
+      "pos": "verb",
+      "example": {
+        "ko": "어른들이 아이들에게 세뱃돈을 줘요.",
+        "bn": "বড়রা বাচ্চাদের নববর্ষের সালামি দেন।",
+        "en": "Adults give children New Year's money."
+      },
+      "pronunciationTipBn": "'세뱃돈' [세밷똔]—사이시옷-এর কারণে 'ㄸ' শব্দ হয়।"
+    },
+    {
+      "ko": "세뱃돈을 받다",
+      "romanization": "sebaetdoneul batda",
+      "bn": "নববর্ষের সালামি পাওয়া",
+      "en": "to receive New Year's cash gift",
+      "pos": "verb",
+      "example": {
+        "ko": "동생이 세뱃돈을 많이 받았어요.",
+        "bn": "ছোট ভাই অনেক সালামি পেয়েছে।",
+        "en": "My younger sibling received a lot of New Year's money."
+      },
+      "pronunciationTipBn": "'받다' [받따]—받침 ㄷ-এর পরে ㄷ শক্ত হয়।"
+    },
+    {
+      "ko": "윷놀이",
+      "romanization": "yunnori",
+      "bn": "ইউননোরি (কোরিয়ার ঐতিহ্যবাহী কাঠি ছুঁড়ে খেলা)",
+      "en": "Yunnori (traditional board game)",
       "pos": "noun",
       "example": {
-        "ko": "명절에 많은 사람이 고궁을 방문합니다.",
-        "bn": "উৎসবে অনেক মানুষ প্রাসাদ অবলোকন করে।",
-        "en": "Many people visit the palaces during holidays."
+        "ko": "가족들하고 윷놀이를 했어요.",
+        "bn": "পরিবারের সঙ্গে ইউননোরি খেলেছি।",
+        "en": "I played Yunnori with my family."
       },
-      "pronunciationTipBn": "'고' তে 'ㅗ' গোল করে, '궁' এ 'ㅇ' নরম রেখে বলুন।"
+      "pronunciationTipBn": "'윷놀이' [윤노리]—받침 ㅊ পরে ㄴ-এর আগে 'ন' হয়ে যায়।"
+    },
+    {
+      "ko": "제기차기",
+      "romanization": "jegichagi",
+      "bn": "চেগিচাগি (পালকযুক্ত ছোট বল পায়ে লাথি দেওয়ার খেলা)",
+      "en": "Jegichagi (Korean shuttlecock kicking)",
+      "pos": "noun",
+      "example": {
+        "ko": "친구들하고 제기차기를 하고 놀았어요.",
+        "bn": "বন্ধুদের সঙ্গে চেগিচাগি খেলেছি।",
+        "en": "I played Jegichagi with my friends."
+      },
+      "pronunciationTipBn": "'제기차기' [제기차기]—'차'-তে হালকা হাওয়া ছেড়ে বলুন।"
+    },
+    {
+      "ko": "연날리기",
+      "romanization": "yeonnalligi",
+      "bn": "ঘুড়ি ওড়ানো",
+      "en": "kite flying",
+      "pos": "noun",
+      "example": {
+        "ko": "설날에 연날리기를 해 봤어요?",
+        "bn": "설날-এ কখনও ঘুড়ি উড়িয়েছেন?",
+        "en": "Have you ever flown a kite on Seollal?"
+      },
+      "pronunciationTipBn": "'연날리기' [연날리기]—'날리'-তে দুটি ㄹ পরপর, জিভ তালুতে রাখুন।"
     },
     {
       "ko": "전통",
@@ -407,211 +238,517 @@
       "en": "tradition",
       "pos": "noun",
       "example": {
-        "ko": "한국의 전통 문화를 배우고 싶습니다.",
-        "bn": "কোরিয়ার ঐতিহ্যবাহী সংস্কৃতি শিখতে চাই।",
-        "en": "I want to learn about Korean traditional culture."
+        "ko": "한복은 한국의 전통 옷이에요.",
+        "bn": "হানবক হলো কোরিয়ার ঐতিহ্যবাহী পোশাক।",
+        "en": "Hanbok is Korea's traditional clothing."
       },
-      "pronunciationTipBn": "'전' এ 'ㅓ' অল্প খোলা, '통' এ 'ㅗ' গোল করে বলুন।"
+      "pronunciationTipBn": "'전통' [전통]—দ্বিতীয় অক্ষরে হাওয়া ছেড়ে 'থ' এর মতো বলুন।"
+    },
+    {
+      "ko": "연휴",
+      "romanization": "yeonhyu",
+      "bn": "লম্বা ছুটি (পরপর কয়েক দিনের ছুটি)",
+      "en": "long holiday",
+      "pos": "noun",
+      "example": {
+        "ko": "연휴 때 뭐 했어요?",
+        "bn": "লম্বা ছুটিতে কী করেছেন?",
+        "en": "What did you do during the long holiday?"
+      },
+      "pronunciationTipBn": "'연휴' [여뉴]—받침 ㄴ পরের ㅎ-এর সঙ্গে মিশে হালকা হয়ে যায়।"
+    },
+    {
+      "ko": "추석",
+      "romanization": "chuseok",
+      "bn": "চুসক (কোরিয়ার শরৎকালীন ফসল উৎসব)",
+      "en": "Chuseok (Korean autumn harvest festival)",
+      "pos": "noun",
+      "example": {
+        "ko": "추석은 '한가위'라고도 해요.",
+        "bn": "추석-কে '한가위'ও বলা হয়।",
+        "en": "Chuseok is also called Hangawi."
+      },
+      "pronunciationTipBn": "'추석' [추석]—'추'-তে হাওয়া ছেড়ে বলুন, শেষে ㄱ চাপা থাকে।"
+    },
+    {
+      "ko": "고향에 내려가다",
+      "romanization": "gohyange naeryeogada",
+      "bn": "নিজের গ্রামে/জন্মস্থানে যাওয়া",
+      "en": "to go down to one's hometown",
+      "pos": "verb",
+      "example": {
+        "ko": "추석에 고향에 내려갈 거예요.",
+        "bn": "추석-এ নিজের গ্রামে যাব।",
+        "en": "I will go down to my hometown for Chuseok."
+      },
+      "pronunciationTipBn": "'고향에' [고향에]—'향' নাক দিয়ে টেনে বলুন।"
+    },
+    {
+      "ko": "부모님을 찾아뵙다",
+      "romanization": "bumonimeul chajaboepda",
+      "bn": "বাবা-মাকে (সম্মানের সঙ্গে) দেখতে যাওয়া",
+      "en": "to visit one's parents (honorific)",
+      "pos": "verb",
+      "example": {
+        "ko": "명절에 부모님을 찾아뵈어요.",
+        "bn": "উৎসবের সময় বাবা-মাকে দেখতে যাই।",
+        "en": "I visit my parents during the holidays."
+      },
+      "pronunciationTipBn": "'뵙다' [뵙따]—받침 ㅂ-এর পরে ㄷ শক্ত হয়ে 'ㄸ' হয়।"
+    },
+    {
+      "ko": "친척집에 가다",
+      "romanization": "chincheokjibe gada",
+      "bn": "আত্মীয়ের বাড়িতে যাওয়া",
+      "en": "to visit relatives' homes",
+      "pos": "verb",
+      "example": {
+        "ko": "차례를 지내고 나서 친척집에 갔어요.",
+        "bn": "স্মরণানুষ্ঠান শেষ করে আত্মীয়ের বাড়ি গিয়েছি।",
+        "en": "After the memorial service, I went to my relatives' house."
+      },
+      "pronunciationTipBn": "'친척집' [친척찝]—받침 ㄱ-এর পরে ㅈ শক্ত হয়।"
+    },
+    {
+      "ko": "성묘하다",
+      "romanization": "seongmyohada",
+      "bn": "পূর্বপুরুষের সমাধি জিয়ারত করা / কবর দেখতে যাওয়া",
+      "en": "to visit ancestral graves",
+      "pos": "verb",
+      "example": {
+        "ko": "가족들과 같이 성묘를 하러 갔어요.",
+        "bn": "পরিবারের সঙ্গে পূর্বপুরুষের সমাধিতে গিয়েছি।",
+        "en": "I went with my family to visit the ancestral graves."
+      },
+      "pronunciationTipBn": "'성묘' [성묘]—'성' নাকের ভেতর দিয়ে টেনে বলুন।"
+    },
+    {
+      "ko": "추석 음식을 장만하다",
+      "romanization": "chuseok eumsigeul jangmanhada",
+      "bn": "চুসকের খাবার তৈরি ও জোগাড় করা",
+      "en": "to prepare Chuseok food",
+      "pos": "verb",
+      "example": {
+        "ko": "어머니께서 추석 음식을 장만하셨어요.",
+        "bn": "মা চুসকের খাবার তৈরি করেছেন।",
+        "en": "My mother prepared the Chuseok food."
+      },
+      "pronunciationTipBn": "'음식을' [음시글]—받침 ㄱ পরের স্বরে জুড়ে যায়।"
+    },
+    {
+      "ko": "송편을 만들다",
+      "romanization": "songpyeoneul mandeulda",
+      "bn": "সংপিয়ন (অর্ধচন্দ্রাকৃতি চালের পিঠা) বানানো",
+      "en": "to make songpyeon",
+      "pos": "verb",
+      "example": {
+        "ko": "추석 전날에 가족들이 모여서 송편을 만들어요.",
+        "bn": "চুসকের আগের দিন পরিবারের সবাই মিলে সংপিয়ন বানায়।",
+        "en": "The day before Chuseok, families gather and make songpyeon."
+      },
+      "pronunciationTipBn": "'송편을' [송펴늘]—받침 ㄴ পরের স্বরে জুড়ে যায়।"
+    },
+    {
+      "ko": "차례상을 차리다",
+      "romanization": "charyesangeul charida",
+      "bn": "স্মরণানুষ্ঠানের খাবারের টেবিল সাজানো",
+      "en": "to set up the memorial table",
+      "pos": "verb",
+      "example": {
+        "ko": "아침 일찍 차례상을 차렸어요.",
+        "bn": "খুব সকালে স্মরণানুষ্ঠানের টেবিল সাজিয়েছি।",
+        "en": "We set up the memorial table early in the morning."
+      },
+      "pronunciationTipBn": "'차례상을' [차례상을]—'상'-এ 받침 ㅇ নাকে টেনে বলুন।"
+    },
+    {
+      "ko": "줄다리기",
+      "romanization": "juldarigi",
+      "bn": "দড়ি টানাটানি খেলা",
+      "en": "tug-of-war",
+      "pos": "noun",
+      "example": {
+        "ko": "추석에 마을 사람들이 줄다리기를 해요.",
+        "bn": "চুসকে গ্রামের লোকেরা দড়ি টানাটানি খেলে।",
+        "en": "At Chuseok the villagers play tug-of-war."
+      },
+      "pronunciationTipBn": "'줄다리기' [줄따리기]—받침 ㄹ-এর পরে ㄷ শক্ত হয়।"
+    },
+    {
+      "ko": "강강술래",
+      "romanization": "ganggangsullae",
+      "bn": "কাংকাংসুলে (নারীদের হাত ধরে গোল হয়ে ঘুরে গান গাওয়ার খেলা)",
+      "en": "Ganggangsullae (traditional circle dance)",
+      "pos": "noun",
+      "example": {
+        "ko": "예전에는 추석날 밤에 강강술래를 했어요.",
+        "bn": "আগে চুসকের রাতে কাংকাংসুলে খেলা হতো।",
+        "en": "In the past, people played Ganggangsullae on Chuseok night."
+      },
+      "pronunciationTipBn": "'강강술래' [강강술래]—দুটি 'ㅇ' 받침 নাকে টেনে বলুন।"
+    },
+    {
+      "ko": "보름달을 보다",
+      "romanization": "boreumdareul boda",
+      "bn": "পূর্ণিমার চাঁদ দেখা",
+      "en": "to look at the full moon",
+      "pos": "verb",
+      "example": {
+        "ko": "추석날 밤에 보름달을 봤어요.",
+        "bn": "চুসকের রাতে পূর্ণিমার চাঁদ দেখেছি।",
+        "en": "I looked at the full moon on Chuseok night."
+      },
+      "pronunciationTipBn": "'보름달' [보름딸]—받침 ㅁ-এর পরে ㄷ শক্ত হয়ে 'ㄸ' হয়।"
+    },
+    {
+      "ko": "소원을 빌다",
+      "romanization": "sowoneul bilda",
+      "bn": "মনের ইচ্ছা প্রার্থনা করা / মানত করা",
+      "en": "to make a wish",
+      "pos": "verb",
+      "example": {
+        "ko": "보름달을 보고 소원을 빌었어요.",
+        "bn": "পূর্ণিমার চাঁদ দেখে মনের ইচ্ছা প্রার্থনা করেছি।",
+        "en": "I looked at the full moon and made a wish."
+      },
+      "pronunciationTipBn": "'빌다' [빌다]—'ㅃ' শক্ত করে ঠোঁট চেপে বলুন।"
+    },
+    {
+      "ko": "전날",
+      "romanization": "jeonnal",
+      "bn": "আগের দিন",
+      "en": "the day before",
+      "pos": "noun",
+      "example": {
+        "ko": "추석 전날에 송편을 만들어요.",
+        "bn": "চুসকের আগের দিন সংপিয়ন বানানো হয়।",
+        "en": "We make songpyeon the day before Chuseok."
+      },
+      "pronunciationTipBn": "'전날' [전날]—받침 ㄴ ও পরের ㄴ দুটোই স্পষ্ট।"
+    },
+    {
+      "ko": "모이다",
+      "romanization": "moida",
+      "bn": "একত্র হওয়া / জড়ো হওয়া",
+      "en": "to gather",
+      "pos": "verb",
+      "example": {
+        "ko": "명절에는 가족들이 모여요.",
+        "bn": "উৎসবের সময় পরিবারের সবাই একত্র হয়।",
+        "en": "Families gather during the holidays."
+      },
+      "pronunciationTipBn": "'모여요' [모여요]—'여'-তে ঠোঁট গোল না করে বলুন।"
+    },
+    {
+      "ko": "정월대보름",
+      "romanization": "jeongwoldaeboreum",
+      "bn": "চংওল দেবোরম (চান্দ্র বছরের প্রথম পূর্ণিমার দিন)",
+      "en": "Daeboreum (first full moon day of the year)",
+      "pos": "noun",
+      "example": {
+        "ko": "정월대보름은 음력 1월 15일이에요.",
+        "bn": "চংওল দেবোরম হলো চান্দ্র পঞ্জিকার ১৫ জানুয়ারি।",
+        "en": "Daeboreum is the 15th day of the first lunar month."
+      },
+      "pronunciationTipBn": "'대보름' [대보름]—তিন অংশে ভেঙে ধীরে বলুন।"
+    },
+    {
+      "ko": "새해 복 많이 받으세요",
+      "romanization": "saehae bok mani badeuseyo",
+      "bn": "শুভ নববর্ষ (নতুন বছরে অনেক সৌভাগ্য হোক)",
+      "en": "Happy New Year",
+      "pos": "expression",
+      "example": {
+        "ko": "사장님, 새해 복 많이 받으세요.",
+        "bn": "স্যার, শুভ নববর্ষ।",
+        "en": "Boss, Happy New Year."
+      },
+      "pronunciationTipBn": "'많이' [마니]—받침 ㅎ পড়ে যায়, 'মানি' শোনায়।"
+    },
+    {
+      "ko": "별일 없지요?",
+      "romanization": "byeollil eopjiyo?",
+      "bn": "সব ঠিকঠাক তো? / বিশেষ কোনো সমস্যা নেই তো?",
+      "en": "Everything alright?",
+      "pos": "expression",
+      "example": {
+        "ko": "생산 팀에 별일 없지요?",
+        "bn": "প্রোডাকশন টিমে সব ঠিকঠাক তো?",
+        "en": "Everything alright in the production team?"
+      },
+      "pronunciationTipBn": "'별일' [별릴]—ㄹ-এর পরে 'ㄴ' যোগ হয়ে 'ㄹ' হয়ে যায়।"
     }
   ],
   "grammar": [
     {
-      "pattern": "V-(으)ㄹ 때",
-      "titleBn": "সময় নির্দেশক (যখন)",
-      "explanationBn": "কোনো কাজ করার সময় বা কোনো অবস্থা চলার সময় বোঝাতে ক্রিয়াপদের সাথে '-(으)ㄹ 때' যুক্ত হয়। ক্রিয়াপদের শেষে ব্যঞ্জনবর্ণ থাকলে '-을 때' এবং স্বরবর্ণ বা 'ㄹ' থাকলে '-ㄹ 때' বসে।",
-      "explanationEn": "Used to express the time when an action occurs or a state exists. '-을 때' is used after a consonant, and '-ㄹ 때' is used after a vowel or 'ㄹ'.",
+      "pattern": "V + -고 나서",
+      "titleBn": "'-고 나서' (…করার পর, …শেষ করে)",
+      "explanationBn": "ক্রিয়ার মূলের সঙ্গে '-고 나서' যোগ করলে বোঝায়—আগের কাজটি সম্পূর্ণ শেষ করার পর পরের কাজটি করা হয়। বাংলায় '…করার পর' বা '…শেষ করে'। বাতচিম থাকুক বা না থাকুক রূপ একই: 먹다 → 먹고 나서, 보다 → 보고 나서, 만들다 → 만들고 나서। শুধু '-고' ব্যবহার করলেও পরপর কাজ বোঝায়, কিন্তু '-고 나서' আগের কাজটি পুরোপুরি শেষ হওয়ার ব্যাপারটি জোর দিয়ে বলে। কাল (অতীত/ভবিষ্যৎ) বাক্যের শেষ ক্রিয়ায় দেখাতে হয়, '나서'-এর আগে নয়।",
+      "explanationEn": "'-고 나서' attaches to a verb stem to show that the second action happens only after the first one is completely finished ('after doing…'). The form does not change with a final consonant: 먹다 → 먹고 나서, 보다 → 보고 나서. It is stronger than plain '-고' because it stresses the completion of the first action. Tense is marked on the final verb only.",
       "examples": [
         {
-          "ko": "어른들께 세배를 할 때 '새해 복 많이 받으세요'라고 말합니다.",
-          "bn": "বড়দেরকে প্রণাম করার সময় 'শুভ নববর্ষ' বলতে হয়।",
-          "en": "When bowing to elders, we say 'Happy New Year'."
+          "ko": "차례를 지내고 나서 떡국을 먹었어요.",
+          "bn": "স্মরণানুষ্ঠান শেষ করে ততকুক খেয়েছি।",
+          "en": "After holding the memorial service, we ate tteokguk."
         },
         {
-          "ko": "고향에 갈 때 기차를 탔습니다.",
-          "bn": "গ্রামের বাড়িতে যাওয়ার সময় ট্রেনে উঠেছিলাম।",
-          "en": "I took a train when I went to my hometown."
+          "ko": "세배를 하고 나서 덕담을 들었어요.",
+          "bn": "নববর্ষের প্রণাম করার পর শুভকামনার কথা শুনেছি।",
+          "en": "After doing the New Year's bow, I received well-wishing remarks."
         },
         {
-          "ko": "밥을 먹을 때 텔레비전을 보지 마세요.",
-          "bn": "ভাত খাওয়ার সময় টেলিভিশন দেখবেন না।",
-          "en": "Don't watch television when you eat."
+          "ko": "퇴근하고 나서 같이 산책하러 가요.",
+          "bn": "অফিস শেষ করে চলুন একসঙ্গে হাঁটতে যাই।",
+          "en": "After work, let's go for a walk together."
         }
       ],
-      "commonMistakeBn": "অনেকে '-때' ব্যবহারের আগে সঠিক বানান মনে করতে ভুল করেন; ক্রিয়ার শেষ ধ্বনী দেখে '-을 때' না হলে '-ㄹ 때' ব্যবহার করুন।"
+      "commonMistakeBn": "অতীতকাল '나서'-এর আগে বসানো ভুল—'먹었고 나서' নয়, '먹고 나서 …먹었어요' হবে। আর '-고 나서' শুধু ক্রিয়ার সঙ্গে বসে; বিশেষণের সঙ্গে (예: 예쁘고 나서) ব্যবহার করা যায় না।"
     },
     {
-      "pattern": "V-아/어 보다",
-      "titleBn": "অভিজ্ঞতা বা চেষ্টা বোঝাতে",
-      "explanationBn": "কোনো কাজ করার চেষ্টা করা বা কোনো অভিজ্ঞতা বোঝাতে ক্রিয়াপদের সাথে '-아/어 보다' যুক্ত হয়। ক্রিয়াপদের শেষে 'ㅏ' বা 'ㅗ' থাকলে '-아 보다', অন্য স্বরবর্ণ থাকলে '-어 보다' এবং '하다' থাকলে '해 보다' হয়।",
-      "explanationEn": "Used to express trying something or having an experience. '-아 보다' is used after 'ㅏ' or 'ㅗ', '-어 보다' after other vowels, and '하다' becomes '해 보다'.",
+      "pattern": "V + -(으)ㄹ 줄 알다 / 모르다",
+      "titleBn": "'-(으)ㄹ 줄 알다/모르다' (করতে জানা / না জানা)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-(으)ㄹ 줄 알다' যোগ করলে বোঝায় সেই কাজটি করার পদ্ধতি জানা বা করার সামর্থ্য আছে; '-(으)ㄹ 줄 모르다' মানে জানা নেই বা পারা যায় না। বাতচিম থাকলে '-을 줄': 먹다 → 먹을 줄 알다। বাতচিম না থাকলে বা শেষ ব্যঞ্জন 'ㄹ' হলে '-ㄹ 줄': 타다 → 탈 줄 알다, 만들다 → 만들 줄 알다 (এখানে ㄹ বাদ যায় না, শুধু একটি ㄹ থাকে)।",
+      "explanationEn": "'-(으)ㄹ 줄 알다' means one knows how to (or is able to) do something, while '-(으)ㄹ 줄 모르다' means one does not know how to do it. Use -을 줄 after a final consonant (먹다 → 먹을 줄 알다) and -ㄹ 줄 after a vowel or final ㄹ (타다 → 탈 줄 알다, 만들다 → 만들 줄 알다).",
       "examples": [
         {
-          "ko": "한국의 전통 옷인 한복을 입어 봤어요.",
-          "bn": "কোরিয়ার ঐতিহ্যবাহী পোশাক হানবোক পরে দেখেছি।",
-          "en": "I tried wearing Hanbok, the traditional Korean clothes."
+          "ko": "저는 윷놀이를 할 줄 알아요.",
+          "bn": "আমি ইউননোরি খেলতে জানি।",
+          "en": "I know how to play Yunnori."
         },
         {
-          "ko": "이번 추석에는 송편을 만들어 보세요.",
-          "bn": "এই ছুসকে সংপিয়ন তৈরি করে দেখুন।",
-          "en": "Try making songpyeon this Chuseok."
+          "ko": "저는 송편을 만들 줄 몰라요.",
+          "bn": "আমি সংপিয়ন বানাতে জানি না।",
+          "en": "I don't know how to make songpyeon."
         },
         {
-          "ko": "명절에 윷놀이를 해 봤는데 아주 재미있었어요.",
-          "bn": "উৎসবে ইয়ুন্নোরি খেলে দেখেছি, খুব মজা লেগেছিল।",
-          "en": "I tried playing yutnori on the holiday, and it was very fun."
+          "ko": "가: 떡국을 끓일 줄 알아요? 나: 아니요, 끓일 줄 몰라요.",
+          "bn": "ক: ততকুক রান্না করতে জানেন? খ: না, রান্না করতে জানি না।",
+          "en": "A: Do you know how to cook tteokguk? B: No, I don't."
         }
       ],
-      "commonMistakeBn": "অনেকেই ভুলভাবে '-아/어 보다' আগে কলকে সরাসরি অতীতের রূপ দেন; '해 봤어요' ইত্যাদি সঠিক।"
+      "commonMistakeBn": "'하다'-তে বাতচিম নেই, তাই '하을 줄' নয়—'할 줄' হবে। 'ㄹ' বাতচিমেও '으' বসে না: '만들을 줄' ভুল, সঠিক '만들 줄'। 'না জানা' বোঝাতে '안 알아요' নয়, '몰라요' ব্যবহার করুন।"
     },
     {
-      "pattern": "N(이)나",
-      "titleBn": "বিকল্প বা প্রত্যাশার চেয়ে বেশি বোঝাতে",
-      "explanationBn": "দুটি বিশেষ্যের মধ্যে যেকোনো একটি বোঝাতে বা কোনো কিছুর পরিমাণ প্রত্যাশার চেয়ে বেশি হলে '-(이)나' ব্যবহৃত হয়। বিশেষ্যের শেষে ব্যঞ্জনবর্ণ থাকলে '-이나' এবং স্বরবর্ণ থাকলে '-나' বসে।",
-      "explanationEn": "Used to indicate a choice between two nouns, or to express that a quantity is more than expected. '-이나' is used after a consonant, and '-나' after a vowel.",
+      "pattern": "A/V + -지요?",
+      "titleBn": "'-지요?' (…তাই না? / …তো?) — নিশ্চিত হওয়ার প্রশ্ন",
+      "explanationBn": "যা আপনি প্রায় জানেন কিন্তু শ্রোতার কাছ থেকে নিশ্চিত করে নিতে চান, তা জিজ্ঞেস করতে '-지요?' ব্যবহার হয়। বাংলায় '…তাই না?', '…তো?'। বর্তমান: 먹다 → 먹지요?, 알다 → 알지요?; অতীত: 먹었지요?; বিশেষণ: 맛있지요?। মুখের ভাষায় সংক্ষেপে '-죠?' বলা হয়। অধ্যায়ের দরকারি বাক্য '별일 없지요?' এবং কথোপকথনের '떡국을 안 먹어 봤지요?' এই রূপেই তৈরি।",
+      "explanationEn": "'-지요?' (spoken '-죠?') is used to ask for confirmation of something the speaker already assumes to be true, like English 'right?' or 'isn't it?'. It attaches to verb and adjective stems: 먹지요?, 알지요?, 맛있지요?, past 먹었지요?.",
       "examples": [
         {
-          "ko": "명절에는 기차나 버스를 타고 고향에 갑니다.",
-          "bn": "উৎসবে ট্রেন বা বাসে করে গ্রামের বাড়িতে যাই।",
-          "en": "During holidays, people go to their hometowns by train or bus."
+          "ko": "닛차난 씨는 떡국을 안 먹어 봤지요?",
+          "bn": "নিচানান, আপনি তো ততকুক খেয়ে দেখেননি, তাই না?",
+          "en": "Nitchanan, you haven't tried tteokguk before, have you?"
         },
         {
-          "ko": "이번 연휴는 5일이나 돼서 아주 깁니다.",
-          "bn": "এবারের টানা ছুটি ৫ দিন হওয়ায় অনেক লম্বা।",
-          "en": "This holiday weekend is as long as 5 days, so it's very long."
+          "ko": "생산 팀에 별일 없지요?",
+          "bn": "প্রোডাকশন টিমে সব ঠিকঠাক তো?",
+          "en": "Everything alright in the production team?"
         },
         {
-          "ko": "고향에 가는 데 10시간이나 걸렸어요.",
-          "bn": "গ্রামের বাড়িতে যেতে ১০ ঘণ্টা লেগেছে।",
-          "en": "It took as many as 10 hours to go to my hometown."
+          "ko": "설날에 고향에 내려갔지요?",
+          "bn": "설날-এ তো গ্রামে গিয়েছিলেন, তাই না?",
+          "en": "You went down to your hometown for Seollal, right?"
         }
       ],
-      "commonMistakeBn": "অনেকে সংখ্যার পরে সবসময় '-나' ব্যবহার করেন; যদি শব্দটি ব্যঞ্জনবর্ণে শেষ হয় তাহলে '-이나' ব্যবহার করতে ভুলবেন না।"
+      "commonMistakeBn": "'-지요?' দিয়ে একেবারে নতুন তথ্য জানতে চাওয়া যায় না; একদম অজানা কিছু জিজ্ঞেস করতে '-아/어요?' বা '뭐예요?' ব্যবহার করুন। আর অতীত বোঝাতে '지요' নয়, ক্রিয়ায় '-었-' যোগ করে '먹었지요?' বলতে হয়।"
     },
     {
-      "pattern": "V-(으)려고 하다",
-      "titleBn": "উদ্দেশ্য বা পরিকল্পনা (ইচ্ছা বোঝাতে)",
-      "explanationBn": "কোনো কাজ করার পরিকল্পনা বা ইচ্ছা ব্যক্ত করতে '-(으)려고 하다' ব্যবহার করা হয়। ক্রিয়ার মূলধাতুর শেষে ব্যঞ্জনবর্ণ থাকলে '-으려고 하다', স্বরবর্ণে শেষ হলে '-려고 하다' যোগ হয়।",
-      "explanationEn": "Used to express intention or plan to do something. Use '-으려고 하다' after verbs ending in a consonant and '-려고 하다' after verbs ending in a vowel.",
+      "pattern": "V + -(으)ㄹ래요?",
+      "titleBn": "'-(으)ㄹ래요?' (…করবেন? / চলুন…) — প্রস্তাব ও ইচ্ছা",
+      "explanationBn": "শ্রোতার ইচ্ছা জানতে বা বন্ধুভাবাপন্নভাবে প্রস্তাব দিতে '-(으)ㄹ래요?' ব্যবহার হয়; উত্তরে নিজের ইচ্ছা বলতে '-(으)ㄹ래요' বলা যায়। বাতচিম থাকলে '-을래요': 먹다 → 먹을래요?; বাতচিম না থাকলে বা 'ㄹ' বাতচিমে '-ㄹ래요': 가다 → 갈래요?, 만들다 → 만들래요?। এটি ঘনিষ্ঠ বা সমান পদমর্যাদার মানুষের সঙ্গে ব্যবহার করা ভালো; বড় বা ঊর্ধ্বতনকে '-(으)시겠어요?' বলা বেশি ভদ্র।",
+      "explanationEn": "'-(으)ㄹ래요?' asks about the listener's will or makes a casual suggestion ('Would you like to…?'); in statements it expresses the speaker's own intention. Use -을래요 after a final consonant (먹을래요?) and -ㄹ래요 after a vowel or ㄹ (갈래요?, 만들래요?). With superiors, '-(으)시겠어요?' is more polite.",
       "examples": [
         {
-          "ko": "이번 설날에 고향에 가려고 해요.",
-          "bn": "এই সল্লালে গ্রামে যাওয়ার পরিকল্পনা আছে।",
-          "en": "I plan to go to my hometown this Seollal."
+          "ko": "이번 추석에 우리 할머니 댁에 같이 갈래요?",
+          "bn": "এবারের চুসকে আমার দাদির বাড়িতে একসঙ্গে যাবেন?",
+          "en": "Would you like to come to my grandmother's house this Chuseok?"
         },
         {
-          "ko": "친구와 같이 송편을 만들려고 합니다.",
-          "bn": "বন্ধুর সাথে একসাথে সংপিয়ন বানানোর ইচ্ছা আছে।",
-          "en": "I intend to make songpyeon with my friend."
+          "ko": "저는 집에서 송편을 만들래요.",
+          "bn": "আমি বাসায় সংপিয়ন বানাব।",
+          "en": "I'd like to make songpyeon at home."
         },
         {
-          "ko": "명절에 한복을 입어 보려고 했는데 예약이 이미 끝났어요.",
-          "bn": "উৎসবে হানবোক পরে দেখার পরিকল্পনা ছিল, কিন্তু বুকিং শেষ হয়ে গিয়েছিল।",
-          "en": "I was going to try wearing Hanbok during the holiday, but reservations were already full."
+          "ko": "떡국 좀 더 먹을래요?",
+          "bn": "আরেকটু ততকুক খাবেন?",
+          "en": "Would you like some more tteokguk?"
         }
       ],
-      "commonMistakeBn": "অনেকে '-려고 하다' ব্যবহারের সময় ধাতুর শেষগুলো ভুল করে; ধাতুর শেষ স্বরবর্ণ হলে '-려고', ব্যঞ্জন হলে '-으려고' ব্যবহার করুন।"
+      "commonMistakeBn": "'가다'-তে বাতচিম নেই, তাই '가을래요?' নয়—'갈래요?' হবে। সম্মানিত ব্যক্তিকে '사장님, 갈래요?' বলা অভদ্র শোনায়; তখন '사장님, 가시겠어요?' বলুন।"
+    },
+    {
+      "pattern": "V + -아/어서 (순서)",
+      "titleBn": "'-아/어서' (…করে তারপর) — একই কাজের ধারাবাহিকতা",
+      "explanationBn": "'-아/어서' দিয়ে বোঝানো যায়, আগের কাজটি করে তার ফল বা ধারাবাহিকতা নিয়ে পরের কাজটি করা হয়—দুটি কাজ একসঙ্গে জড়িত। মূলের শেষ স্বর 'ㅏ, ㅗ' হলে '-아서': 가다 → 가서, 모이다 → 모여서 (ㅣ+어 → 여); অন্য স্বরে '-어서': 만들다 → 만들어서; '하다' → '해서'। '-고 나서' শুধু সময়ের ক্রম বোঝায়, কিন্তু '-아/어서'-তে আগের কাজটি পরের কাজের সঙ্গে সরাসরি সম্পর্কযুক্ত থাকে: '할머니 댁에 가서 송편을 만들어요' (দাদির বাড়ি গিয়ে সেখানেই সংপিয়ন বানানো)।",
+      "explanationEn": "'-아/어서' links two actions where the first leads directly into the second, usually in the same place or with the same object ('go and then do it there'). Use -아서 after ㅏ/ㅗ (가다 → 가서), -어서 elsewhere (만들다 → 만들어서), 하다 → 해서. Unlike '-고 나서', the two actions are closely connected, not merely sequential.",
+      "examples": [
+        {
+          "ko": "추석 전날에 가족들이 같이 모여서 송편을 만들어요.",
+          "bn": "চুসকের আগের দিন পরিবারের সবাই একত্র হয়ে সংপিয়ন বানায়।",
+          "en": "The day before Chuseok, the family gathers and makes songpyeon."
+        },
+        {
+          "ko": "할머니 댁에 가서 할머니를 뵈었어요.",
+          "bn": "দাদির বাড়ি গিয়ে দাদিকে দেখে এসেছি।",
+          "en": "I went to my grandmother's house and saw her."
+        },
+        {
+          "ko": "고향 음식을 만들어서 친구들하고 먹었어요.",
+          "bn": "দেশি খাবার বানিয়ে বন্ধুদের সঙ্গে খেয়েছি।",
+          "en": "I made hometown food and ate it with my friends."
+        }
+      ],
+      "commonMistakeBn": "'-아/어서'-এর আগে অতীতকাল বসে না—'갔어서' ভুল, '가서 …갔어요' সঠিক। আর জায়গা বদলে সম্পূর্ণ আলাদা কাজ বোঝাতে '-아/어서' নয়, '-고' বা '-고 나서' ভালো: '집에 가고 나서 잤어요'।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "সল্লালের পরিকল্পনা",
-      "titleEn": "Seollal Plans",
+      "titleBn": "설날 때 뭐 했어요? (설날-এ কী করেছেন?)",
+      "titleEn": "What did you do during Seollal?",
       "lines": [
         {
-          "speaker": "리한",
-          "ko": "수루 씨, 이번 설날 연휴에 뭐 할 거예요?",
-          "bn": "সুরু সাহেব, এবারের সল্লালের ছুটিতে কী করবেন?",
-          "en": "Suru, what are you going to do during this Seollal holiday?"
+          "speaker": "진수",
+          "ko": "닛차난 씨, 연휴 때 뭐 했어요?",
+          "bn": "নিচানান, লম্বা ছুটিতে কী করেছেন?",
+          "en": "Nitchanan, what did you do during the long holiday?"
         },
         {
-          "speaker": "수루",
-          "ko": "저는 친구들하고 같이 떡국을 만들어 먹을 거예요. 리한 씨는요?",
-          "bn": "আমি বন্ধুদের সাথে তকগুক তৈরি করে খাব। রিহান সাহেব, আপনি?",
-          "en": "I'm going to make and eat tteokguk with my friends. How about you, Rihan?"
+          "speaker": "닛차난",
+          "ko": "고향 친구들하고 같이 집에서 고향 음식을 만들어 먹었어요. 진수 씨는 설날에 뭐 했어요?",
+          "bn": "দেশের বন্ধুদের সঙ্গে বাসায় দেশি খাবার বানিয়ে খেয়েছি। জিনসু, আপনি 설날-এ কী করেছেন?",
+          "en": "I made hometown food at home with my hometown friends. What did you do on Seollal, Jinsu?"
         },
         {
-          "speaker": "리한",
-          "ko": "저는 한국 친구 집에 초대받았어요. 가서 세배도 하고 윷놀이도 해 볼 거예요.",
-          "bn": "আমি এক কোরিয়ান বন্ধুর বাড়িতে দাওয়াত পেয়েছি। সেখানে গিয়ে প্রণাম করব এবং ইয়ুন্নোরিও খেলে দেখব।",
-          "en": "I was invited to a Korean friend's house. I'll go there, bow, and try playing yutnori."
+          "speaker": "진수",
+          "ko": "저는 할아버지 댁에 갔어요. 차례를 지내고 나서 떡국을 먹었어요.",
+          "bn": "আমি দাদার বাড়ি গিয়েছিলাম। স্মরণানুষ্ঠান শেষ করে ততকুক খেয়েছি।",
+          "en": "I went to my grandfather's house. After holding the memorial service, we ate tteokguk."
         },
         {
-          "speaker": "수루",
-          "ko": "우와, 정말 재미있겠네요. 한복도 입어 볼 거예요?",
-          "bn": "ওয়াও, সত্যিই অনেক মজা হবে। হানবোকও পরে দেখবেন?",
-          "en": "Wow, that sounds really fun. Are you going to try wearing Hanbok too?"
+          "speaker": "닛차난",
+          "ko": "떡국이 뭐예요?",
+          "bn": "ততকুক কী?",
+          "en": "What is tteokguk?"
         },
         {
-          "speaker": "리한",
-          "ko": "네, 친구가 한복을 빌려주기로 했어요.",
-          "bn": "হ্যাঁ, বন্ধু আমাকে হানবোক ধার দেবে বলেছে।",
-          "en": "Yes, my friend agreed to lend me a Hanbok."
+          "speaker": "진수",
+          "ko": "떡국은 한국 사람들이 설날에 먹는 음식이에요. 닛차난 씨는 떡국을 안 먹어 봤지요?",
+          "bn": "ততকুক হলো কোরিয়ানরা 설날-এ যে খাবার খায়। নিচানান, আপনি তো ততকুক খেয়ে দেখেননি, তাই না?",
+          "en": "Tteokguk is a dish that Koreans eat on Seollal. You haven't tried tteokguk before, have you?"
+        },
+        {
+          "speaker": "닛차난",
+          "ko": "네, 안 먹어 봤어요.",
+          "bn": "হ্যাঁ, খেয়ে দেখিনি।",
+          "en": "No, I haven't."
+        },
+        {
+          "speaker": "진수",
+          "ko": "다음에 우리 집에서 같이 떡국을 만들어 먹어요.",
+          "bn": "পরের বার আমার বাসায় একসঙ্গে ততকুক বানিয়ে খাই।",
+          "en": "Next time let's make tteokguk together at my house."
         }
       ]
     },
     {
-      "titleBn": "ছুসকের অভিজ্ঞতা",
-      "titleEn": "Chuseok Experience",
+      "titleBn": "추석에 송편을 만들 줄 알아요? (চুসকে সংপিয়ন বানাতে জানেন?)",
+      "titleEn": "Do You Know How to Make Songpyeon for Chuseok?",
       "lines": [
         {
-          "speaker": "바루",
-          "ko": "지훈 씨, 추석 연휴 잘 보냈어요?",
-          "bn": "জিহুন সাহেব, ছুসকের ছুটি কেমন কাটালেন?",
-          "en": "Jihoon, did you have a good Chuseok holiday?"
+          "speaker": "진수",
+          "ko": "마두 씨, 이번 추석에 우리 할머니 댁에 같이 갈래요?",
+          "bn": "মাধু, এবারের চুসকে আমার দাদির বাড়িতে একসঙ্গে যাবেন?",
+          "en": "Madhu, would you like to come to my grandmother's house this Chuseok?"
         },
         {
-          "speaker": "지훈",
-          "ko": "네, 고향에 가서 가족들을 만나고 왔어요. 바루 씨는 뭐 했어요?",
-          "bn": "হ্যাঁ, গ্রামের বাড়িতে গিয়ে পরিবারের সাথে দেখা করে এসেছি। বারু সাহেব, আপনি কী করেছেন?",
-          "en": "Yes, I went to my hometown and met my family. What did you do, Baru?"
+          "speaker": "마두",
+          "ko": "네, 좋아요. 그런데 할머니 댁에서 뭐 해요?",
+          "bn": "হ্যাঁ, বেশ তো। কিন্তু দাদির বাড়িতে কী করা হয়?",
+          "en": "Yes, that sounds great. But what do you do at your grandmother's house?"
         },
         {
-          "speaker": "바루",
-          "ko": "저는 외국인 센터에서 하는 추석 행사에 다녀왔어요. 거기서 송편을 만들어 봤어요.",
-          "bn": "আমি বিদেশি সেন্টারে আয়োজিত ছুসকের অনুষ্ঠানে গিয়েছিলাম। সেখানে সংপিয়ন তৈরি করে দেখেছি।",
-          "en": "I went to a Chuseok event held at the foreigner center. I tried making songpyeon there."
+          "speaker": "진수",
+          "ko": "할머니도 뵙고 송편도 만들어 먹어요. 추석 전날에 가족들이 같이 모여서 송편을 만들어요.",
+          "bn": "দাদিকেও দেখা হয়, আর সংপিয়ন বানিয়ে খাওয়াও হয়। চুসকের আগের দিন পরিবারের সবাই একত্র হয়ে সংপিয়ন বানায়।",
+          "en": "We visit my grandmother and also make songpyeon. The day before Chuseok, the family gathers and makes songpyeon."
         },
         {
-          "speaker": "지훈",
-          "ko": "그래요? 송편이 맛있었어요?",
-          "bn": "তাই নাকি? সংপিয়ন কি মজাদার ছিল?",
-          "en": "Really? Was the songpyeon delicious?"
+          "speaker": "마두",
+          "ko": "송편이 뭐예요?",
+          "bn": "সংপিয়ন কী?",
+          "en": "What is songpyeon?"
         },
         {
-          "speaker": "바루",
-          "ko": "네, 아주 맛있었어요. 그리고 밤에는 보름달을 보면서 소원도 빌었어요.",
-          "bn": "হ্যাঁ, খুব মজাদার ছিল। আর রাতে পূর্ণিমার চাঁদ দেখে ইচ্ছাও প্রার্থনা করেছি।",
-          "en": "Yes, it was very delicious. And at night, I made a wish while looking at the full moon."
+          "speaker": "진수",
+          "ko": "한국 사람들이 추석에 먹는 떡이에요.",
+          "bn": "কোরিয়ানরা চুসকে যে চালের পিঠা খায়, সেটাই সংপিয়ন।",
+          "en": "It's a rice cake that Koreans eat during Chuseok."
+        },
+        {
+          "speaker": "마두",
+          "ko": "좋아요. 그런데 대리님은 송편을 만들 줄 알아요?",
+          "bn": "ভালো তো। কিন্তু আপনি কি সংপিয়ন বানাতে জানেন?",
+          "en": "Sounds good. But do you know how to make songpyeon?"
+        },
+        {
+          "speaker": "진수",
+          "ko": "저는 만들 줄 몰라요. 할머니하고 어머니께서 만드실 거예요.",
+          "bn": "আমি বানাতে জানি না। দাদি আর মা বানাবেন।",
+          "en": "I don't know how to make it. My grandmother and mother will make it."
+        },
+        {
+          "speaker": "마두",
+          "ko": "그럼 저도 옆에서 배울게요. 송편을 만들고 나서 보름달도 보고 소원도 빌어요.",
+          "bn": "তাহলে আমিও পাশে থেকে শিখব। সংপিয়ন বানানোর পর পূর্ণিমার চাঁদ দেখে মনের ইচ্ছাও প্রার্থনা করব।",
+          "en": "Then I'll learn beside them. After making songpyeon, let's look at the full moon and make a wish too."
         }
       ]
     },
     {
-      "titleBn": "귀성길 계획",
-      "titleEn": "Hometown Trip Plan",
+      "titleBn": "새해 복 많이 받으세요! (শুভ নববর্ষ! — অফিসে নববর্ষের শুভেচ্ছা)",
+      "titleEn": "Happy New Year! Greetings at the Company",
       "lines": [
         {
-          "speaker": "민수",
-          "ko": "형, 이번 명절에는 기차표를 구했어요?",
-          "bn": "ভাই, এই উৎসবে তুমি কি ট্রেনের টিকিট পেয়েছ?",
-          "en": "Brother, did you get train tickets for this holiday?"
+          "speaker": "다린두",
+          "ko": "사장님, 안녕하세요? 새해 복 많이 받으세요.",
+          "bn": "স্যার, নমস্কার। শুভ নববর্ষ, নতুন বছরে অনেক সৌভাগ্য হোক।",
+          "en": "Hello, sir. Happy New Year."
         },
         {
-          "speaker": "형",
-          "ko": "아직이에요. 기차표가 매진이라서 버스표를 예약하려고 해요.",
-          "bn": "এখনও না। ট্রেনের টিকিট শেষ হয়ে গেছে, তাই বাস টিকিট বুক করতে যাচ্ছি।",
-          "en": "Not yet. Train tickets are sold out, so I'm going to reserve bus tickets."
+          "speaker": "사장님",
+          "ko": "고마워요. 다린두 씨도 새해 복 많이 받으세요. 별일 없지요?",
+          "bn": "ধন্যবাদ। দারিন্দু, আপনারও নতুন বছর শুভ হোক। সব ঠিকঠাক তো?",
+          "en": "Thank you. Happy New Year to you too, Darindu. Everything alright?"
         },
         {
-          "speaker": "민수",
-          "ko": "버스도 빨리 매진돼요. 빨리 예약하세요.",
-          "bn": "বাসও দ্রুত শেষ হয়ে যায়। তাড়াতাড়ি বুক করো।",
-          "en": "Buses fill up quickly too. Reserve soon."
+          "speaker": "다린두",
+          "ko": "네, 다 잘되고 있습니다. 사장님은 설날에 뭐 하셨어요?",
+          "bn": "জি, সবকিছু ভালোই চলছে। স্যার, আপনি 설날-এ কী করেছেন?",
+          "en": "Yes, everything is going well. What did you do on Seollal, sir?"
         },
         {
-          "speaker": "형",
-          "ko": "응, 지금 바로 핸드폰으로 예약할게요.",
-          "bn": "হ্যাঁ, এখনই ফোনে বুক করছি।",
-          "en": "Okay, I'll reserve now with my phone."
+          "speaker": "사장님",
+          "ko": "가족들이 모여서 차례를 지냈어요. 그리고 아이들이 세배를 하고 나서 세뱃돈을 받았어요.",
+          "bn": "পরিবারের সবাই একত্র হয়ে স্মরণানুষ্ঠান করেছি। আর বাচ্চারা প্রণাম করার পর নববর্ষের সালামি পেয়েছে।",
+          "en": "The family gathered and held the memorial service. And after the children did the New Year's bow, they received their New Year's money."
+        },
+        {
+          "speaker": "다린두",
+          "ko": "저는 기숙사에서 친구들하고 윷놀이도 하고 떡국도 만들어 먹었어요.",
+          "bn": "আমি ডরমিটরিতে বন্ধুদের সঙ্গে ইউননোরিও খেলেছি আর ততকুকও বানিয়ে খেয়েছি।",
+          "en": "I played Yunnori with my friends at the dormitory and we also made and ate tteokguk."
+        },
+        {
+          "speaker": "사장님",
+          "ko": "떡국을 끓일 줄 알아요? 정말 잘했어요.",
+          "bn": "আপনি ততকুক রান্না করতে জানেন? বাহ, খুব ভালো করেছেন।",
+          "en": "You know how to cook tteokguk? That's really great."
+        },
+        {
+          "speaker": "다린두",
+          "ko": "친구가 끓일 줄 알아서 같이 만들었어요. 다음에는 제가 끓여 볼게요.",
+          "bn": "আমার এক বন্ধু রান্না করতে জানে, তাই একসঙ্গে বানিয়েছি। পরের বার আমি নিজেই রান্না করে দেখব।",
+          "en": "My friend knows how to cook it, so we made it together. Next time I'll try cooking it myself."
         }
       ]
     }
@@ -620,568 +757,563 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "설날에는 가족들이 모여서 (  )을/를 먹습니다.",
+      "questionBn": "'차례를 지내다'-এর সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "떡국",
-        "김치찌개",
-        "비빔밥",
-        "송편"
+        "নববর্ষে বড়দের প্রণাম করা",
+        "পূর্বপুরুষদের স্মরণে পারিবারিক অনুষ্ঠান করা",
+        "পূর্বপুরুষের সমাধি জিয়ারত করা",
+        "ঘুড়ি ওড়ানো"
       ],
-      "answer": 0,
-      "explanationBn": "설날 (সল্লাল) এ তকগুক খাওয়া হয়। তাই সঠিক উত্তর '떡국'।"
+      "answer": 1,
+      "explanationBn": "차례를 지내다 = পূর্বপুরুষদের স্মরণে পারিবারিক অনুষ্ঠান করা। বাকিগুলো হলো যথাক্রমে 세배하다, 성묘하다 এবং 연날리기।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "명절에 친척들과 (  )을/를 하면 재미있습니다.",
+      "questionBn": "설날-এ কোরিয়ানরা সাধারণত কোন খাবারটি খায়?",
+      "questionKo": "한국 사람들은 설날에 무엇을 먹어요?",
       "options": [
-        "세배",
-        "윷놀이",
-        "성묘",
-        "차례"
+        "송편",
+        "오곡밥",
+        "떡국",
+        "부럼"
       ],
-      "answer": 1,
-      "explanationBn": "명절 (উৎসব) এ আত্মীয়দের সাথে ইয়ুন্নোরি (윷놀이) খেলা হয়। তাই সঠিক উত্তর '윷놀이'।"
+      "answer": 2,
+      "explanationBn": "설날-এ খাওয়া হয় 떡국 (চালের পিঠার স্যুপ)। 송편 খাওয়া হয় 추석-এ, আর 오곡밥 ও 부럼 খাওয়া হয় 정월대보름-এ।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 중 추석에 하는 일이 아닌 것은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-고 나서' বসান: 차례를 지내___ 떡국을 먹었어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "성묘하기",
-        "송편 만들기",
-        "세배하기",
-        "보름달 보기"
+        "고 나서",
+        "었고 나서",
+        "아서 나서",
+        "을 줄"
       ],
-      "answer": 2,
-      "explanationBn": "세배 (নববর্ষের প্রণাম) সল্লালে করা হয়, ছুসকে নয়। তাই সঠিক উত্তর '세배하기'।"
+      "answer": 0,
+      "explanationBn": "'-고 나서' ক্রিয়ার মূলের সঙ্গে সরাসরি বসে: 지내다 → 지내고 나서। অতীতকাল '나서'-এর আগে বসে না, তাই '었고 나서' ভুল; '아서 나서' বলে কোনো রূপ নেই আর '-을 줄' আলাদা ব্যাকরণ।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক ব্যাকরণটি বসান।",
-      "questionKo": "한국의 전통 옷인 한복을 (  ).",
+      "questionBn": "'저는 송편을 만들 줄 몰라요.' বাক্যটির অর্থ কী?",
+      "questionKo": "다음 문장의 뜻으로 알맞은 것을 고르세요.",
       "options": [
-        "입을 거예요",
-        "입어 볼 때",
-        "입을 때",
-        "입어 봤어요"
+        "আমি সংপিয়ন খেতে পছন্দ করি না।",
+        "আমি সংপিয়ন বানাতে চাই না।",
+        "আমি সংপিয়ন বানিয়ে ফেলেছি।",
+        "আমি সংপিয়ন বানাতে জানি না।"
       ],
       "answer": 3,
-      "explanationBn": "অতীতে কোনো কিছু করার অভিজ্ঞতা বোঝাতে '-아/어 보다' এর অতীত রূপ '-아/어 봤어요' ব্যবহৃত হয়। তাই সঠিক উত্তর '입어 봤어요'।"
+      "explanationBn": "'-(으)ㄹ 줄 모르다' মানে কাজটি করার পদ্ধতি জানা নেই। পছন্দ না করা হলে '안 좋아해요', ইচ্ছা না থাকলে '만들고 싶지 않아요', আর করা শেষ হলে '만들었어요' হতো।"
     },
     {
       "id": "p5",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "명절 연휴에는 (  )에 가는 사람들이 많습니다.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 추석날 밤에는 보름달을 보고 소원을 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "고향",
-        "회사",
-        "식당",
-        "병원"
+        "차려요",
+        "빌어요",
+        "장만해요",
+        "지내요"
       ],
-      "answer": 0,
-      "explanationBn": "명절 (উৎসব) এর ছুটিতে মানুষ গ্রামের বাড়িতে (고향) যায়। তাই সঠিক উত্তর '고향'।"
+      "answer": 1,
+      "explanationBn": "소원을 빌다 = মনের ইচ্ছা প্রার্থনা করা, তাই '빌어요' সঠিক। 차리다 বসে 차례상과 (차례상을 차려요), 장만하다 বসে খাবারের সঙ্গে, আর 지내다 বসে 차례-এর সঙ্গে।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "어른들께 세배를 하고 (  )을/를 받았습니다.",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "월급",
-        "세뱃돈",
-        "보너스",
-        "용돈"
+        "떡국을 끓이을 줄 알아요.",
+        "윷놀이를 하을 줄 알아요.",
+        "한복을 입을 줄 알아요.",
+        "불고기를 만들을 줄 알아요."
       ],
-      "answer": 1,
-      "explanationBn": "세배 (প্রণাম) করার পর বড়রা যে টাকা দেয় তাকে 세뱃돈 (নববর্ষের সেলামি) বলে। তাই সঠিক উত্তর '세뱃돈'।"
+      "answer": 2,
+      "explanationBn": "'입다'-তে বাতচিম আছে, তাই '입을 줄 알아요' সঠিক। 끓이다, 하다-তে বাতচিম নেই (끓일 줄, 할 줄) আর 만들다-এর 'ㄹ' বাতচিমে '으' বসে না (만들 줄)।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক ব্যাকরণটি বসান।",
-      "questionKo": "고향에 가는 데 10시간(  ) 걸렸어요.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 아이들이 어른들께 세배를 하고 나서 ___을 받았어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "나",
-        "하고",
-        "이나",
-        "과"
+        "세뱃돈",
+        "차례상",
+        "보름달",
+        "연휴"
       ],
-      "answer": 2,
-      "explanationBn": "10시간 (১০ ঘণ্টা) এর শেষে ব্যঞ্জনবর্ণ থাকায় এবং প্রত্যাশার চেয়ে বেশি 시간 বোঝাতে '이나' বসবে। তাই সঠিক উত্তর '이나'।"
+      "answer": 0,
+      "explanationBn": "প্রণামের পর বড়রা বাচ্চাদের 세뱃돈 (নববর্ষের সালামি) দেন। 차례상 = স্মরণানুষ্ঠানের টেবিল, 보름달 = পূর্ণিমার চাঁদ, 연휴 = লম্বা ছুটি — কোনোটিই 'পাওয়া' যায় না এভাবে।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক ব্যাকরণটি বসান।",
-      "questionKo": "밥을 (  ) 텔레비전을 보지 마세요.",
+      "type": "multiple-choice",
+      "questionBn": "추석-এর সঙ্গে সম্পর্কিত খেলা কোনটি?",
+      "questionKo": "추석에 하는 놀이는 무엇입니까?",
       "options": [
-        "먹어 볼 때",
-        "먹고",
-        "먹어서",
-        "먹을 때"
+        "제기차기",
+        "연날리기",
+        "윷놀이",
+        "강강술래"
       ],
       "answer": 3,
-      "explanationBn": "밥을 먹다 (ভাত খাওয়া) এর সাথে সময় বোঝাতে '-(으)ㄹ 때' যুক্ত হয়ে '먹을 때' হবে। তাই সঠিক 답 '먹을 때'।"
+      "explanationBn": "강강술래 হলো 추석-এর রাতে নারীদের হাত ধরে গোল হয়ে ঘোরার খেলা। 제기차기, 연날리기 ও 윷놀이 মূলত 설날-এর খেলা।"
     },
     {
       "id": "p9",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "questionBn": "কোরিয়ান শব্দের সঙ্গে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
-          "left": "설날",
-          "right": "সল্লাল (চান্দ্র নববর্ষ)"
+          "left": "한복을 입다",
+          "right": "হানবক পরা"
         },
         {
-          "left": "추석",
-          "right": "ছুসক (কোরিয়ান থ্যাঙ্কসগিভিং)"
+          "left": "성묘하다",
+          "right": "পূর্বপুরুষের সমাধি জিয়ারত করা"
         },
         {
-          "left": "한복",
-          "right": "হানবোক (কোরিয়ান ঐতিহ্যবাহী পোশাক)"
+          "left": "송편을 만들다",
+          "right": "সংপিয়ন বানানো"
         },
         {
-          "left": "보름달",
-          "right": "পূর্ণিমার চাঁদ"
+          "left": "덕담을 하다",
+          "right": "শুভকামনার কথা বলা"
+        },
+        {
+          "left": "고향에 내려가다",
+          "right": "নিজের গ্রামে যাওয়া"
         }
       ],
-      "explanationBn": "설날 মানে সল্লাল, 추석 মানে ছুসক, 한복 মানে হানবোক এবং 보름달 মানে পূর্ণিমার চাঁদ।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "explanationBn": "প্রতিটি শব্দ এই অধ্যায়ের 설날 ও 추석-এর শব্দতালিকা থেকে নেওয়া হয়েছে।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "세배",
-          "right": "নববর্ষের প্রণাম"
-        },
-        {
-          "left": "차례",
-          "right": "পূর্বপুরুষদের উদ্দেশ্যে প্রার্থনা"
-        },
-        {
-          "left": "성묘",
-          "right": "কবর জিয়ারত"
-        },
-        {
-          "left": "덕담",
-          "right": "আশীর্বাদমূলক কথা"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'가: 떡볶이를 만들 줄 알아요?' — এর স্বাভাবিক না-বাচক উত্তর কোনটি?",
+      "questionKo": "대화를 완성하세요.",
+      "options": [
+        "아니요, 만들 줄 몰라요.",
+        "아니요, 만들 줄 안 알아요.",
+        "아니요, 만들을 줄 몰라요.",
+        "아니요, 만들고 나서 몰라요."
       ],
-      "explanationBn": "세배 মানে নববর্ষের প্রণাম, 차례 মানে পূর্বপুরুষদের উদ্দেশ্যে প্রার্থনা, 성묘 মানে কবর জিয়ারত এবং 덕담 মানে আশীর্বাদমূলক কথা।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 0,
+      "explanationBn": "'না জানা' বোঝাতে '알다'-এর নেতিবাচক রূপ '모르다' ব্যবহার হয়: 만들 줄 몰라요। '안 알아요' বলা হয় না, 'ㄹ' বাতচিমে '으' বসে না, আর '-고 나서' এখানে অর্থহীন।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "명절 관련 শব্দ পরীক্ষা (সহজ)।",
-      "questionKo": "명절에 사람들이 많이 가는 곳은 어디입니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 저는 스케이트를 ___ 줄 몰라요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "도서관",
-        "고향",
-        "병원",
-        "은행"
+        "타을",
+        "탈",
+        "타고",
+        "탔을"
       ],
       "answer": 1,
-      "explanationBn": "명절에는 많은 사람이 고향에 갑니다। তাই উত্তর '고향'।"
+      "explanationBn": "'타다'-তে বাতচিম নেই, তাই '-ㄹ 줄': 탈 줄 몰라요। '타을' ভুল রূপ, '타고' এখানে বসে না, আর '-줄' গঠনে অতীতকাল ('탔을') ব্যবহার হয় না।"
     },
     {
       "id": "p12",
       "type": "multiple-choice",
-      "questionBn": "ব্যাকরণ অনুশীলন: সঠিক রূপটি চয়ন করুন।",
-      "questionKo": "나는 이번 설날에 가족들을 만나려고 (  ).",
+      "questionBn": "'설날'-এর তারিখ কোনটি?",
+      "questionKo": "설날은 언제입니까?",
       "options": [
-        "해요",
-        "한다",
-        "할 거예요",
-        "했어요"
+        "음력 1월 1일",
+        "음력 1월 15일",
+        "음력 8월 15일",
+        "양력 1월 1일"
       ],
-      "answer": 2,
-      "explanationBn": "'~려고 하다' ভবিষ্যৎ পরিকল্পনা বোঝায়, তাই '할 거예요' সঠিক।"
+      "answer": 0,
+      "explanationBn": "설날 হলো চান্দ্র পঞ্জিকার ১ জানুয়ারি (음력 1월 1일)। 음력 1월 15일 = 정월대보름, আর 음력 8월 15일 = 추석।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "명절 음식 관련 প্রশ্ন।",
-      "questionKo": "추석에 보통 무엇을 만듭니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 아침을 먹___ 한국어를 공부했어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "김밥",
-        "송편",
-        "라면",
-        "피자"
+        "을 줄",
+        "지요",
+        "고 나서",
+        "을래요"
       ],
-      "answer": 1,
-      "explanationBn": "추석에는 전통적으로 송편을 만듭니다। তাই উত্তর '송편'।"
+      "answer": 2,
+      "explanationBn": "প্রথমে সকালের খাবার শেষ, তারপর পড়াশোনা — এই ক্রম বোঝাতে '-고 나서': 먹고 나서। '-을 줄' মানে করতে জানা, '-지요' নিশ্চিতকরণ, '-을래요' প্রস্তাব বা ইচ্ছা।"
     },
     {
       "id": "p14",
       "type": "multiple-choice",
-      "questionBn": "상황 판단 문제: 가장 적절한 답을 고르세요.",
-      "questionKo": "기차표가 다 매진됐을 때 보통 무엇을 하나요?",
+      "questionBn": "নিচের কোন বাক্যটি অর্থগতভাবে সঠিক?",
+      "questionKo": "다음 중 알맞은 문장을 고르십시오.",
       "options": [
-        "집에 가만히 있다",
-        "다른 사람한테 빌리다",
-        "버스표를 예약하다",
-        "공항으로 가다"
+        "할아버지께 덕담을 빌었어요.",
+        "가족들하고 같이 차례를 지냈어요.",
+        "설날 아침에 떡국을 입었어요.",
+        "보름달을 보고 소원을 들었어요."
       ],
-      "answer": 2,
-      "explanationBn": "기차표가 없으면 많은 사람이 대신 버스표를 예약합니다। তাই '버스표를 예약하다' সঠিক।"
+      "answer": 1,
+      "explanationBn": "차례는 '지내다' ক্রিয়ার সঙ্গেই বসে। সঠিক সংযোগ হবে 덕담을 듣다/하다, 떡국을 먹다 আর 소원을 빌다 — তাই বাকি তিনটি বাক্যে ক্রিয়া ভুল।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান (ব্যাকরণ)।",
-      "questionKo": "명절에 친척들을 만나서 서로 (  )을/를 합니다.",
-      "options": [
-        "인사",
-        "운동",
-        "공부",
-        "청소"
+      "type": "matching",
+      "questionBn": "উৎসবের সঙ্গে সেই উৎসবের প্রধান খাবার বা কাজ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "설날",
+          "right": "떡국"
+        },
+        {
+          "left": "추석",
+          "right": "송편"
+        },
+        {
+          "left": "정월대보름",
+          "right": "오곡밥"
+        },
+        {
+          "left": "추석날 밤",
+          "right": "보름달을 보고 소원을 빌다"
+        },
+        {
+          "left": "설날 아침",
+          "right": "어른들께 세배를 하다"
+        }
       ],
-      "answer": 0,
-      "explanationBn": "친척들을 만나면 흔히 인사 (আদাব) করা হয়। তাই '인사' সঠিক।"
+      "explanationBn": "অধ্যায়ের 문화와 정보 অংশ অনুযায়ী: 설날-এ 떡국 ও 세배, 추석-এ 송편 ও রাতে চাঁদ দেখে প্রার্থনা, 정월대보름-এ 오곡밥।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "설날에는 보통 (  )를/을 먹고 세배를 합니다.",
+      "type": "multiple-choice",
+      "questionBn": "'연휴'-এর অর্থ কী?",
+      "questionKo": "'연휴'의 뜻으로 알맞은 것을 고르세요.",
       "options": [
-        "김치",
-        "떡국",
-        "국수",
-        "밥"
+        "ঐতিহ্য",
+        "আগের দিন",
+        "চান্দ্র পঞ্জিকা",
+        "পরপর কয়েক দিনের লম্বা ছুটি"
       ],
-      "answer": 1,
-      "explanationBn": "설날에 전통적으로 떡국을 먹고 세배를 합니다। তাই '떡국'।"
+      "answer": 3,
+      "explanationBn": "연휴 = লম্বা ছুটি, যেমন 추석 연휴। 전통 = ঐতিহ্য, 전날 = আগের দিন, 음력 = চান্দ্র পঞ্জিকা।"
     },
     {
       "id": "p17",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক ব্যাকরণটি বসান।",
-      "questionKo": "고궁에 가면 보통 (  )를/을 입고 사진을 찍습니다.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 추석 전날에 가족들이 같이 ___ 송편을 만들어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "한복",
-        "작업복",
-        "운동화",
-        "양복"
+        "모이을",
+        "모였어서",
+        "모여서",
+        "모이고 줄"
       ],
-      "answer": 0,
-      "explanationBn": "고궁 방문 시 전통 의상인 한복을 입고 사진을 많이 찍습니다। তাই '한복'।"
+      "answer": 2,
+      "explanationBn": "'모이다' + '-아/어서' = 모여서 (একত্র হয়ে তারপর সেখানেই বানানো)। '-아/어서'-এর আগে অতীতকাল বসে না, তাই '모였어서' ভুল; বাকি দুটি রূপ কোরিয়ানে নেই।"
     },
     {
       "id": "p18",
-      "type": "matching",
-      "questionBn": "명절 관련 단어와 설명을 연결하세요।",
-      "pairs": [
-        {
-          "left": "세뱃돈",
-          "right": "어른들께 세배하고 받는 돈"
-        },
-        {
-          "left": "성묘",
-          "right": "조상의 묘를 방문하는 일"
-        },
-        {
-          "left": "연휴",
-          "right": "며칠 동안 이어지는 휴일"
-        },
-        {
-          "left": "윷놀이",
-          "right": "전통 보드 게임"
-        }
+      "type": "multiple-choice",
+      "questionBn": "সহকর্মীকে নববর্ষের শুভেচ্ছা জানাতে কোন বাক্যটি বলবেন?",
+      "questionKo": "설날에 하는 인사로 알맞은 것을 고르세요.",
+      "options": [
+        "안녕히 가세요.",
+        "잘 먹겠습니다.",
+        "새해 복 많이 받으세요.",
+        "축하합니다, 생일이에요."
       ],
-      "explanationBn": "각 단어의 뜻을 잘 보고 연결하세요।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 2,
+      "explanationBn": "설날-এ পরিচিতদের সঙ্গে '새해 복 많이 받으세요' বলা হয়। 안녕히 가세요 = বিদায়, 잘 먹겠습니다 = খাওয়ার আগের কথা, আর শেষটি জন্মদিনের শুভেচ্ছা।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "다음 단어와 예시를 연결하세요।",
-      "pairs": [
-        {
-          "left": "보름달",
-          "right": "밤에 크게 뜨는 달"
-        },
-        {
-          "left": "고향",
-          "right": "태어난 곳이나 부모님의 집"
-        },
-        {
-          "left": "선물",
-          "right": "명절에 주고받는 것"
-        },
-        {
-          "left": "예약",
-          "right": "미리 자리를 확보하는 일"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 가: 생산 팀에 별일 ___? 나: 네, 다 잘되고 있습니다.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "없지요",
+        "없을 줄",
+        "없고 나서",
+        "없을래요"
       ],
-      "explanationBn": "단어의 설명을 보고 알맞게 연결하세요।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 0,
+      "explanationBn": "'별일 없지요?' = সব ঠিকঠাক তো? — '-지요?' দিয়ে জানা বিষয়ে নিশ্চিত হওয়া হয়। '-을 줄' মানে করতে জানা, '-고 나서' ক্রম, '-을래요' ইচ্ছা — কোনোটিই এখানে খাটে না।"
     },
     {
       "id": "p20",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান (পর্যায়ক্রমিক অনুশীলন)।",
-      "questionKo": "추석 연휴에는 도로가 (  )해서 시간이 더 걸릴 수 있습니다.",
-      "options": [
-        "비어 있다",
-        "혼잡하다",
-        "조용하다",
-        "깨끗하다"
+      "type": "matching",
+      "questionBn": "কোরিয়ান বাক্যাংশের সঙ্গে সঠিক বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "차례상을 차리다",
+          "right": "স্মরণানুষ্ঠানের খাবারের টেবিল সাজানো"
+        },
+        {
+          "left": "부모님을 찾아뵙다",
+          "right": "বাবা-মাকে সম্মানের সঙ্গে দেখতে যাওয়া"
+        },
+        {
+          "left": "세뱃돈을 주다",
+          "right": "নববর্ষের সালামি দেওয়া"
+        },
+        {
+          "left": "줄다리기",
+          "right": "দড়ি টানাটানি খেলা"
+        }
       ],
-      "answer": 1,
-      "explanationBn": "추석에는 귀성 차량이 많아 도로가 혼잡해집니다। তাই '혼잡하다' সঠিক।"
+      "explanationBn": "চারটি শব্দই অধ্যায়ের শব্দতালিকার; 차리다 বসে টেবিলের সঙ্গে, 찾아뵙다 হলো 보다-এর সম্মানজনক রূপ, আর 줄다리기 হলো 추석-এর একটি খেলা।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "한국의 대표적인 명절에는 설날과 추석이 있습니다. 설날에는 가족들이 모여서 떡국을 먹고 어른들께 세배를 합니다. 추석에는 송편을 만들어 먹고 밤에 보름달을 보며 소원을 빕니다.",
+      "questionBn": "নিচের শব্দটির সঙ্গে সম্পর্কিত শব্দ কোনটি?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "설날",
       "options": [
-        "추석에는 떡국을 먹습니다.",
-        "설날에는 어른들께 세배를 합니다.",
-        "설날에는 보름달을 봅니다.",
-        "추석에는 세뱃돈을 받습니다."
+        "떡국",
+        "지하철",
+        "월급",
+        "병원"
       ],
-      "answer": 1,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে সল্লালে বড়দেরকে প্রণাম (세배) করা হয়। তাই সঠিক উত্তর '설날에는 어른들께 세배를 합니다.'।"
+      "answer": 0,
+      "explanationBn": "설날-এ কোরিয়ানরা 떡국 খায়, তাই এটিই সম্পর্কিত। 지하철 = পাতাল রেল, 월급 = বেতন, 병원 = হাসপাতাল — উৎসবের সঙ্গে সম্পর্ক নেই।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 이번 명절 연휴에 고향에 갈 거예요?\n나: 아니요, 기차표가 없어서 못 가요. 대신 친구들하고 (  )을/를 입고 고궁에 가 보려고 해요.",
+      "questionBn": "নিচের কোন বাক্যে অধোরেখ অংশটি সঠিক?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "한복",
-        "운동복",
-        "양복",
-        "작업복"
+        "떡국을 끓이을 줄 알아요.",
+        "윷놀이를 하을 줄 알아요.",
+        "불고기를 만들을 줄 알아요.",
+        "한복을 입을 줄 알아요."
       ],
-      "answer": 0,
-      "explanationBn": "명절 (উৎসব) 에 고궁 (প্রাচীন রাজপ্রাসাদ) 에 যাওয়ার সময় সাধারণত 한복 (হানবোক) পরা হয়। তাই সঠিক উত্তর '한복'।"
+      "answer": 3,
+      "explanationBn": "'입다'-তে বাতচিম আছে বলে '입을 줄' সঠিক। বাতচিমহীন 끓이다/하다-তে '끓일 줄', '할 줄' এবং 'ㄹ' বাতচিমের 만들다-তে '만들 줄' হবে।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "이 글의 내용과 같은 것을 고르십시오.",
-      "passage": "저는 이번 추석에 한국 친구의 집에 초대를 받았습니다. 친구의 가족들과 함께 송편도 만들고 윷놀이도 했습니다. 그리고 아침에는 차례를 지내는 것도 봤습니다. 한국의 명절 문화를 경험해 볼 수 있어서 아주 좋았습니다.",
+      "questionBn": "নিচের কোন বাক্যটি সঠিক?",
+      "questionKo": "다음 중 맞는 문장을 고르십시오.",
       "options": [
-        "이 사람은 고향에 가서 가족들을 만났습니다.",
-        "이 사람은 차례를 지내는 방법을 모릅니다.",
-        "이 사람은 추석에 떡국을 만들어 먹었습니다.",
-        "이 사람은 한국 친구 집에서 윷놀이를 했습니다."
+        "할아버지께 덕담을 빌었어요.",
+        "가족들하고 같이 차례를 지냈어요.",
+        "설날 아침에 떡국을 입었어요.",
+        "보름달을 보고 소원을 들었어요."
       ],
-      "answer": 3,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে সে কোরিয়ান বন্ধুর বাড়িতে গিয়ে ইয়ুন্নোরি (윷놀이) খেলেছে। তাই সঠিক উত্তর '이 사람은 한국 친구 집에서 윷놀이를 했습니다.'।"
+      "answer": 1,
+      "explanationBn": "차례는 '지내다'-র সঙ্গে বসে। বাকি বাক্যগুলোর সঠিক রূপ হবে 덕담을 들었어요, 떡국을 먹었어요, 소원을 빌었어요।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "설날 아침에는 가족들이 모여서 (  )을/를 먹습니다. 이것을 먹어야 나이를 한 살 더 먹는다고 생각하기 때문입니다.",
+      "passage": "설날에 대리님이 회사 사람들을 집에 초대했습니다. 대리님이 직접 떡국을 (          ).",
       "options": [
-        "비빔밥",
-        "불고기",
-        "떡국",
-        "송편"
+        "팔았습니다",
+        "읽었습니다",
+        "끓였습니다",
+        "끝냈습니다"
       ],
       "answer": 2,
-      "explanationBn": "সল্লালের সকালে তকগুক (떡국) খাওয়া হয় এবং এটি খেলে বয়স এক বছর বাড়ে বলে মনে করা হয়। তাই সঠিক 답 '떡국'।"
+      "explanationBn": "떡국은 রান্না করে ফুটিয়ে বানাতে হয়, তাই '끓였습니다' সঠিক। 팔다 = বিক্রি করা, 읽다 = পড়া, 끝내다 = শেষ করা — খাবারের সঙ্গে যায় না।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음 글의 제목으로 가장 알맞은 것을 고르십시오.",
-      "passage": "명절 연휴가 되면 많은 사람들이 고향에 갑니다. 그래서 기차표나 버스표를 사기가 아주 어렵습니다. 그리고 고속도로에 차가 많아서 고향에 가는 데 시간이 평소보다 두 배나 더 걸립니다.",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "이번 추석 연휴에는 고향 친구들하고 같이 집에서 고향 음식을 만들어 먹었습니다. 그리고 저녁에는 보름달을 보고 소원을 (          ).",
       "options": [
-        "명절의 날씨",
-        "명절의 귀성길",
-        "명절의 음식",
-        "명절의 놀이"
+        "빌었습니다",
+        "차렸습니다",
+        "장만했습니다",
+        "만들었습니다"
       ],
-      "answer": 1,
-      "explanationBn": "প্যাসেজটিতে উৎসবের সময় গ্রামের বাড়িতে ফেরার রাস্তা (귀성길) এর যানজট এবং টিকিট পাওয়ার সমস্যার কথা বলা হয়েছে। তাই সঠিক উত্তর '명절의 귀성길'।"
+      "answer": 0,
+      "explanationBn": "소원은 '빌다' ক্রিয়ার সঙ্গে বসে: 소원을 빌었습니다। 차리다 বসে 차례상과, 장만하다 বসে 음식-এর সঙ্গে, আর 만들다 এখানে অর্থ দেয় না।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "대화를 듣고 질문에 알맞은 것을 고르십시오.",
-      "passage": "남자: 수루 씨, 이번 설날에 뭐 할 거예요?\n여자: 저는 고향에 못 가서 친구들하고 떡국을 만들어 먹으려고 해요.\n남자: 그래요? 그럼 우리 집에 와서 같이 떡국도 먹고 윷놀이도 해요.\n여자: 와, 정말요? 초대해 주셔서 감사합니다.",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে যেটি লেখার সঙ্গে মিলে যায় সেটি বাছুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "음력 8월 15일은 추석입니다. 추석 전날에는 가족들이 모여 송편을 만들고, 아침이 되면 조상들께 차례를 지내고 성묘를 합니다. 추석에는 그해 새로 수확한 쌀로 밥을 지어 먹습니다. 밤에는 달을 보며 소원을 빕니다.",
       "options": [
-        "여자는 남자의 집에 갈 것입니다.",
-        "여자는 고향에 갈 것입니다.",
-        "남자는 설날에 혼자 있을 것입니다.",
-        "두 사람은 추석에 만날 것입니다."
+        "추석 전날에 가족들이 성묘를 하러 갑니다.",
+        "추석에는 새로 수확한 쌀로 밥을 짓습니다.",
+        "추석날 밤에 송편을 만들면서 소원을 빕니다.",
+        "추석날 아침에 여성들이 강강술래를 합니다."
       ],
-      "answer": 0,
-      "explanationBn": "মহিলাটি সল্লালে গ্রামের বাড়িতে যেতে পারবে না বলে পুরুষটি তাকে নিজের বাড়িতে দাওয়াত দিয়েছে এবং মহিলাটি তা গ্রহণ করেছে। তাই সঠিক উত্তর '여자는 남자의 집에 갈 것입니다.'।"
+      "answer": 1,
+      "explanationBn": "লেখায় আছে '그해 새로 수확한 쌀로 밥을 지어 먹습니다'। 성묘 হয় সকালে (আগের দিন নয়), রাতে চাঁদ দেখে প্রার্থনা করা হয় (সংপিয়ন বানানো নয়), আর 강강술래 হয় রাতে।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 이어지는 말로 알맞은 것을 고르십시오.",
-      "passage": "여자: 지훈 씨, 새해 복 많이 받으세요.",
+      "section": "reading",
+      "questionBn": "নিচের শব্দটির সঙ্গে সম্পর্কিত শব্দ কোনটি?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "추석",
       "options": [
-        "네, 송편을 많이 드세요.",
-        "네, 보름달을 보면서 소원을 비세요.",
-        "네, 고향에 잘 다녀오세요.",
-        "네, 새해 복 많이 받으세요."
+        "제기차기",
+        "세뱃돈",
+        "송편",
+        "떡국"
       ],
-      "answer": 3,
-      "explanationBn": "'새해 복 많이 받으세요' (শুভ নববর্ষ) এর উত্তরে '네, 새해 복 많이 받으세요' বলা হয়। তাই সঠিক উত্তর '네, 새해 복 많이 받으세요.'।"
+      "answer": 2,
+      "explanationBn": "추석-এর প্রধান খাবার 송편। 제기차기, 세뱃돈 আর 떡국 সবই 설날-এর সঙ্গে সম্পর্কিত।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "কথাগুলো শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "대화를 듣고 여자가 할 일로 알맞은 것을 고르십시오.",
-      "passage": "남자: 내일이 추석인데 송편은 다 만들었어요?\n여자: 아니요, 아직 못 만들었어요. 지금부터 만들어야 해요.\n남자: 그럼 제가 좀 도와줄까요?\n여자: 네, 고마워요. 그럼 저는 쌀가루를 준비할 테니까 리한 씨는 안에 넣을 깨를 좀 준비해 주세요.",
+      "section": "reading",
+      "questionBn": "নোটিশটি পড়ে ঠিক তথ্যটি বাছুন।",
+      "questionKo": "다음을 읽고 맞는 것을 고르십시오.",
+      "passage": "〈사원 안내〉\n- 추석 연휴: 9월 16일 ~ 9월 18일 (3일)\n- 연휴 전날 오후 3시에 회사에서 송편을 나눠 드립니다.\n- 9월 19일부터 정상 근무합니다.",
       "options": [
-        "깨 준비하기",
-        "차례 지내기",
-        "쌀가루 준비하기",
-        "송편 사기"
+        "추석 연휴는 이틀입니다.",
+        "회사에서 떡국을 나눠 줍니다.",
+        "9월 18일부터 회사에 나옵니다.",
+        "연휴 전날 오후에 송편을 받습니다."
       ],
-      "answer": 2,
-      "explanationBn": "মহিলাটি বলেছে যে সে চালের গুঁড়া (쌀가루) প্রস্তুত করবে। তাই সঠিক উত্তর '쌀가루 준비하기'।"
+      "answer": 3,
+      "explanationBn": "নোটিশে লেখা '연휴 전날 오후 3시에 송편을 나눠 드립니다'। ছুটি ৩ দিন (২ দিন নয়), দেওয়া হয় 송편 (떡국 নয়), আর কাজ শুরু ১৯ সেপ্টেম্বর থেকে।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তরটি নিনুন করুন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "추석에는 가족들이 모여서 성묘를 하거나 조상님께 차례를 지내는 집이 많습니다. 또한 송편을 만들어 나누어 먹고 보름달을 보며 소원을 빕니다.",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত অংশটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "저는 작년에 한국에 왔습니다. 그래서 아직 윷놀이를 (          ). 이번 설날에 친구들이 가르쳐 줄 겁니다.",
       "options": [
-        "추석에 가족들이 모여 차례를 지내는 일이 있습니다.",
-        "추석에는 바다에 가는 사람이 많습니다.",
-        "추석에는 주로 라면을 먹습니다.",
-        "추석에는 학교에 가야 합니다."
+        "할 줄 몰랐습니다",
+        "할 줄 모릅니다",
+        "하고 나서 압니다",
+        "할래요"
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে 추석-এ 가족들이 모여 차례 বা 성묘 করে এবং 송편 বানায়। তাই প্রথম অপশন সঠিক।"
+      "answer": 1,
+      "explanationBn": "এখনো জানা নেই — বর্তমান অবস্থা, তাই '할 줄 모릅니다'। অতীত রূপ '몰랐습니다' এখানে '아직'-এর সঙ্গে মেলে না, '-고 나서' ক্রম বোঝায় আর '할래요' ইচ্ছা প্রকাশ করে।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 맞는 것을 고르십시오.",
-      "passage": "명절 연휴에는 기차표와 버스표가 빨리 매진됩니다. 그래서 여행을 계획할 때 미리 예약하는 것이 중요합니다.",
+      "questionBn": "নিচের লেখাটি পড়ে সঠিক তথ্যটি বাছুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "정월대보름은 음력 1월 15일로, 새해가 되고 처음으로 보름달이 뜨는 날입니다. 사람들은 다섯 가지 곡식으로 지은 오곡밥과 말린 나물을 먹습니다. 그리고 땅콩이나 호두 같은 부럼을 깨물어 먹습니다.",
       "options": [
-        "명절에는 표를 미리 예약하는 것이 좋습니다.",
-        "명절에는 표를 현장에서 쉽게 살 수 있습니다.",
-        "명절에는 예약이 필요 없습니다.",
-        "명절에는 표가 항상 남아 있습니다."
+        "정월대보름은 음력 8월 15일입니다.",
+        "정월대보름에는 송편을 만들어 먹습니다.",
+        "정월대보름은 새해 첫 보름달이 뜨는 날입니다.",
+        "부럼은 말린 나물의 이름입니다."
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে টিকিট দ্রুত শেষ হয়ে যায়, তাই আগে থেকে 예약 করা উচিত।"
+      "answer": 2,
+      "explanationBn": "লেখায় আছে '새해가 되고 처음으로 보름달이 뜨는 날'। 음력 8월 15일 হলো 추석, 송편 খাওয়া হয় 추석-এ, আর 부럼 হলো শক্ত খোসার বাদাম, শুকনো শাক নয়।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক তথ্যটি চয়ন করুন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "어떤 사람들은 명절에 고궁을 찾아 한복을 입고 사진을 찍습니다. 한복 대여점은 명절에 매우 바쁩니다.",
+      "section": "listening",
+      "questionBn": "শুনে বাছুন: মহিলা চুসকে কী করেছেন?",
+      "questionKo": "다음을 듣고 들은 내용과 관계있는 것을 고르십시오.",
+      "passage": "남자: 추석에 뭐 했어요?\n여자: 가족들과 같이 성묘를 하러 갔어요.",
       "options": [
-        "고궁에서는 한복을 입으면 안 됩니다.",
-        "한복 대여점은 명절에 쉬는 경우가 많습니다.",
-        "명절에 한복을 빌려 사진을 찍는 사람이 많습니다.",
-        "명절에는 고궁이 문을 닫습니다."
+        "가족들과 성묘를 하러 갔습니다.",
+        "친구들과 윷놀이를 했습니다.",
+        "혼자 한복을 만들었습니다.",
+        "회사에서 일했습니다."
       ],
-      "answer": 1,
-      "explanationBn": "প্যাসেজে বলা আছে যে 한복 대여점은 명절에 매우 바쁘; 즉 তারা বন্ধ থাকে না। তাই বিকল্প 1 ভুল; বিকল্প 2 ভুল; সঠিক উত্তর হল '명절에 한복을 빌려 사진을 찍는 사람이 많습니다.' (옵션 2가 아닌 옵션 2 번호িত ভুল হয়েছে)।"
+      "answer": 0,
+      "explanationBn": "মহিলা বলেছেন '가족들과 같이 성묘를 하러 갔어요' — পরিবারের সঙ্গে সমাধি জিয়ারতে গিয়েছেন। বাকি তিনটি কথা কথোপকথনে নেই।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সবচেয়ে উপযুক্ত শিরোনামটি বেছে নিন।",
-      "questionKo": "다음을 읽고 제목으로 가장 알맞은 것을 고르십시오.",
-      "passage": "추석에는 가족들이 모여 음식을 만들고 조상님께 감사하는 마음을 전합니다. 또한 많은 사람이 고향을 방문합니다.",
+      "section": "listening",
+      "questionBn": "শুনে বাছুন: দুজন কোন বিষয়ে কথা বলছেন?",
+      "questionKo": "두 사람은 무엇에 대해 말하고 있습니까?",
+      "passage": "여자: 한국 사람들은 설날에 뭐 해요?\n남자: 차례를 지내고 떡국을 먹어요.",
       "options": [
-        "명절의 준비",
-        "명절의 전통놀이",
-        "명절의 상점 영업시간",
-        "명절의 교통사고"
+        "고향",
+        "명절",
+        "주말",
+        "여행"
       ],
       "answer": 1,
-      "explanationBn": "প্যাসেজটি মূলত 가족 ও অনুশীলন সম্পর্কে; '명절의 준비' (옵শন 0) ও '명절의 전통놀이' (옵শন 1) মাঝে আরও উপযুক্ত হলো '명절의 준비'।"
+      "explanationBn": "설날, 차례, 떡국 — সব উৎসবের বিষয়, তাই আলোচনার বিষয় '명절'। 고향 = জন্মস্থান, 주말 = সপ্তাহান্ত, 여행 = ভ্রমণ নিয়ে কোনো কথা হয়নি।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক তথ্যটি শনাক্ত করুন।",
-      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "설날에는 많은 가정에서 떡국을 먹고 세배를 합니다. 어린이들은 세뱃돈을 받는 것을 기대합니다.",
+      "section": "listening",
+      "questionBn": "শুনুন এবং এর পরে বলার জন্য সবচেয়ে উপযুক্ত কথাটি বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 떡국을 끓일 줄 알아요?",
       "options": [
-        "어린이들은 설날에 세뱃돈을 주지 않습니다.",
-        "설날에는 보통 송편을 먹습니다.",
-        "설날에 어린이들은 세뱃돈을 받는 것을 기대합니다.",
-        "설날에는 사람들이 일하러 갑니다."
+        "떡국 맛있게 드세요.",
+        "떡국을 너무 많이 먹었어요.",
+        "떡국을 끓일 줄 몰라요.",
+        "떡국을 정말 좋아해요."
       ],
       "answer": 2,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে শিশুরা 세뱃돈 পাওয়ার আশা করে। তাই তৃতীয় অপশন সঠিক।"
+      "explanationBn": "প্রশ্নটি '-(으)ㄹ 줄 알아요?' দিয়ে জানতে চাইছে রান্না করতে জানেন কি না, তাই উত্তরও একই কাঠামোতে '끓일 줄 몰라요' (রান্না করতে জানি না) হবে। বাকিগুলোর অর্থ যথাক্রমে 'মজা করে খান', 'খুব বেশি খেয়ে ফেলেছি' আর 'খুব পছন্দ করি' — কোনোটিই দক্ষতার প্রশ্নের উত্তর নয়।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 이번 추석에 뭐 하실 거예요?\n여자: 아직 계획이 없어요. 아마 고향에 가거나 친구들과 고궁에 갈 것 같아요.\n남자: 기차표는 있나요?\n여자: 기차표는 매진이라서 버스로 가려고 해요.",
+      "questionBn": "শুনুন এবং কথোপকথনের সঙ্গে মিলে যায় এমন তথ্যটি বাছুন।",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "passage": "여자: 다라 씨, 이거 한번 먹어 보세요. 제가 어머니하고 같이 만든 송편이에요.\n남자: 고마워요. 맛있겠어요. 그런데 추석이 아닌데 왜 송편을 만들었어요?\n여자: 제가 송편을 좋아해서 가끔 만들어 먹어요.",
       "options": [
-        "여자는 기차표가 있어서 기차를 탈 것이다.",
-        "여자는 고궁에 혼자 갈 것이다.",
-        "여자는 버스를 타고 갈 계획이다.",
-        "여자는 집에만 있을 것이다."
+        "여자는 혼자 송편을 만들었습니다.",
+        "여자는 송편을 좋아합니다.",
+        "여자는 추석에만 송편을 먹습니다.",
+        "여자가 만든 송편은 맛이 없습니다."
       ],
-      "answer": 2,
-      "explanationBn": "여자는 기차표가 매진이라서 버스로 갈 계획이라고 했습니다। তাই '버스를 타고 갈 계획이다' সঠিক।"
+      "answer": 1,
+      "explanationBn": "মহিলা নিজেই বলেছেন '제가 송편을 좋아해서 가끔 만들어 먹어요' — সংপিয়ন পছন্দ করেন বলেই মাঝেমধ্যে বানান। তিনি মায়ের সঙ্গে মিলে বানিয়েছেন, তাই 'একা বানিয়েছেন' ভুল; চুসক ছাড়াও বানান, তাই 'শুধু চুসকে খান' ভুল; আর পুরুষটি বলেছেন '맛있겠어요' — সুস্বাদু মনে হচ্ছে, তাই স্বাদ খারাপ বলার কথাও ভুল।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 질문에 답하세요.",
-      "passage": "여자: 명절에 한복을 입어 본 적 있어요?\n남자: 네, 작년에 친구 결혼식에서 입어 봤어요. 사진도 많이 찍었어요.",
+      "questionBn": "শুনুন: পুরুষটি মহিলার কাছে কেন গিয়েছিলেন?",
+      "questionKo": "남자는 왜 여자를 찾아갔습니까?",
+      "passage": "남자: 사장님, 안녕하세요? 새해 복 많이 받으세요.\n여자: 고마워요. 다린두 씨는 설날에 뭐 했어요?\n남자: 기숙사에서 친구들하고 윷놀이도 하고 떡국도 만들어 먹었어요.",
       "options": [
-        "남자는 한복을 입어 본 적이 없다.",
-        "남자는 사진을 찍지 않았다.",
-        "남자는 작년에 한복을 입어 봤다.",
-        "남자는 올해 한복을 사려고 한다."
+        "친구를 소개하려고",
+        "윷놀이를 같이 하려고",
+        "떡국 만드는 법을 물어보려고",
+        "새해 인사를 드리려고"
       ],
       "answer": 3,
-      "explanationBn": "대화에서 남자는 작년에 한복을 입어 봤다고 했습니다; 따라서 '작년에 한복을 입어 봤다'가 맞습니다।"
+      "explanationBn": "পুরুষটি প্রথমেই বলেছেন '새해 복 많이 받으세요' — অর্থাৎ মালিককে নববর্ষের শুভেচ্ছা জানাতে গিয়েছেন। ইয়ুননোরি আর ততকুকের কথা তিনি শুধু নিজের ছুটির গল্প হিসেবে বলেছেন, একসঙ্গে খেলার বা রান্না শেখার প্রস্তাব দেননি, আর বন্ধু পরিচয় করানোর কথাও আসেনি।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "শুনুন এবং পুরুষটি সল্লালে যে ক্রমে কাজ করেছেন সেটি বাছুন।",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 명절 연휴 잘 다녀오세요.\n여자: 감사합니다. 조심히 다녀오세요. 다음 주에 얘기해요.",
+      "passage": "여자: 진수 씨는 설날에 뭐 했어요?\n남자: 저는 할아버지 댁에 갔어요. 차례를 지내고 나서 떡국을 먹었어요.",
       "options": [
-        "여자는 여행을 가지 않는다.",
-        "남자는 다음 주에 만나자고 했다.",
-        "둘은 이번 주에 다시 만날 것이다.",
-        "여자는 남자에게 인사했다."
+        "남자는 차례를 지내고 나서 떡국을 먹었습니다.",
+        "남자는 떡국을 먹고 나서 차례를 지냈습니다.",
+        "남자는 친구들하고 고향 음식을 만들어 먹었습니다.",
+        "남자는 할아버지 댁에서 송편을 만들었습니다."
       ],
-      "answer": 3,
-      "explanationBn": "여자는 '감사합니다' 라며 남자에게 인사했으므로 네 번째 선택이 맞습니다।"
+      "answer": 0,
+      "explanationBn": "'-고 나서' আগের কাজ শেষ হওয়ার পর পরের কাজ বোঝায়, তাই আগে স্মরণানুষ্ঠান (차례) এবং তারপর ততকুক খাওয়া — এই ক্রমই সঠিক। দ্বিতীয় বিকল্পে ক্রম উল্টে গেছে; জন্মস্থানের খাবার বানানোর কথা বলেছিলেন অন্য একজন, আর সংপিয়ন বানানোর কোনো কথা এখানে নেই।"
     }
   ]
 }
