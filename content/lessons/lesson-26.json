@@ -10,29 +10,135 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কোরিয়ার বিভিন্ন ধরনের বাসস্থান সম্পর্কে জানা",
-      "কোরিয়ান খাদ্যসংস্কৃতি ও খাবার খাওয়ার নিয়ম বোঝা",
-      "বাসস্থান ও খাবার সম্পর্কিত শব্দভাণ্ডার শেখা"
+      "হানোক ও অ্যাপার্টমেন্টের অংশগুলোর নাম বলে কোরিয়ার বাসস্থান সংস্কৃতি নিয়ে কথা বলতে পারা",
+      "'-아도/어도 되다' দিয়ে অনুমতি চাওয়া ও অনুমতি দিতে পারা",
+      "'-는데/(으)ㄴ데' দিয়ে দুটি বিষয়ের তুলনা বা বৈসাদৃশ্য প্রকাশ করতে পারা",
+      "কোরিয়ার বিশেষ দিনের খাবার ও খাওয়ার শিষ্টাচার সম্পর্কে জানা"
     ],
     "en": [
-      "Understand different types of Korean housing",
-      "Understand Korean food culture and dining etiquette",
-      "Learn vocabulary related to housing and food"
+      "Can talk about Korean housing culture using hanok and apartment vocabulary",
+      "Can ask for and give permission using -아도/어도 되다",
+      "Can express contrast between two things using -는데/(으)ㄴ데",
+      "Can understand Korean special-day foods and dining etiquette"
     ]
   },
   "vocabulary": [
     {
-      "ko": "주택",
-      "romanization": "jutaek",
-      "bn": "বাড়ি",
-      "en": "house",
+      "ko": "한옥",
+      "romanization": "hanok",
+      "bn": "হানোক (কোরিয়ার ঐতিহ্যবাহী বাড়ি)",
+      "en": "hanok, traditional Korean house",
       "pos": "noun",
       "example": {
-        "ko": "저는 단독 주택에 살고 싶어요.",
-        "bn": "আমি একটি একক বাড়িতে বাস করতে চাই।",
-        "en": "I want to live in a detached house."
+        "ko": "우리 과장님은 한옥에서 살아요.",
+        "bn": "আমাদের ম্যানেজার হানোকে থাকেন।",
+        "en": "Our manager lives in a hanok."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি হালকাভাবে উচ্চারণ করুন এবং 'ㅌ' তে জোর দিন।"
+      "pronunciationTipBn": "'한옥' [하녹]—ㄴ পরের স্বরের সঙ্গে জুড়ে যায়।"
+    },
+    {
+      "ko": "지붕",
+      "romanization": "jibung",
+      "bn": "ছাদ, চাল",
+      "en": "roof",
+      "pos": "noun",
+      "example": {
+        "ko": "한옥 지붕이 아주 예뻐요.",
+        "bn": "হানোকের ছাদটা খুব সুন্দর।",
+        "en": "The hanok's roof is very pretty."
+      },
+      "pronunciationTipBn": "'지붕' [지붕]—শেষে ㅇ নাকি ধ্বনি, 'জিবুং'।"
+    },
+    {
+      "ko": "마루",
+      "romanization": "maru",
+      "bn": "মারু (হানোকের কাঠের বসার মেঝে)",
+      "en": "maru, wooden floor space",
+      "pos": "noun",
+      "example": {
+        "ko": "가족들이 마루에 앉아 얘기해요.",
+        "bn": "পরিবারের সবাই মারুতে বসে গল্প করে।",
+        "en": "The family sits on the maru and talks."
+      },
+      "pronunciationTipBn": "'마루' [마루]—ㄹ নরম 'র'-এর মতো।"
+    },
+    {
+      "ko": "마당",
+      "romanization": "madang",
+      "bn": "উঠান",
+      "en": "yard",
+      "pos": "noun",
+      "example": {
+        "ko": "마당이 넓어서 마음에 들어요.",
+        "bn": "উঠানটা বড় বলে আমার পছন্দ হয়েছে।",
+        "en": "I like it because the yard is spacious."
+      },
+      "pronunciationTipBn": "'마당' [마당]—শেষের ㅇ নাকি ধ্বনি।"
+    },
+    {
+      "ko": "대문",
+      "romanization": "daemun",
+      "bn": "সদর দরজা, বড় ফটক",
+      "en": "main gate",
+      "pos": "noun",
+      "example": {
+        "ko": "택배를 대문 앞에 두지 마세요.",
+        "bn": "পার্সেলটা ফটকের সামনে রাখবেন না।",
+        "en": "Please don't leave the parcel in front of the gate."
+      },
+      "pronunciationTipBn": "'대문' [대문]—'দেমুন'-এর মতো শোনায়।"
+    },
+    {
+      "ko": "담",
+      "romanization": "dam",
+      "bn": "সীমানা প্রাচীর",
+      "en": "perimeter wall",
+      "pos": "noun",
+      "example": {
+        "ko": "집 주위에 담이 있어요.",
+        "bn": "বাড়ির চারপাশে প্রাচীর আছে।",
+        "en": "There is a wall around the house."
+      },
+      "pronunciationTipBn": "'담' [담]—ㅁ ঠোঁট বন্ধ করে শেষ করুন।"
+    },
+    {
+      "ko": "온돌",
+      "romanization": "ondol",
+      "bn": "ওনদল (মেঝের নিচের গরম করার ব্যবস্থা)",
+      "en": "ondol, Korean floor heating",
+      "pos": "noun",
+      "example": {
+        "ko": "겨울에는 온돌 때문에 방이 따뜻해요.",
+        "bn": "শীতকালে ওনদলের কারণে ঘর গরম থাকে।",
+        "en": "In winter the room is warm thanks to the ondol."
+      },
+      "pronunciationTipBn": "'온돌' [온돌]—দুই অক্ষরই সমান জোরে।"
+    },
+    {
+      "ko": "방바닥",
+      "romanization": "bangbadak",
+      "bn": "ঘরের মেঝে",
+      "en": "floor of a room",
+      "pos": "noun",
+      "example": {
+        "ko": "한옥에서는 방바닥에 앉아요.",
+        "bn": "হানোকে মানুষ ঘরের মেঝেতে বসে।",
+        "en": "In a hanok, people sit on the floor."
+      },
+      "pronunciationTipBn": "'방바닥' [방바닥]—শেষ ㄱ ছেড়ে না দিয়ে থামান।"
+    },
+    {
+      "ko": "방문",
+      "romanization": "bangmun",
+      "bn": "ঘরের দরজা",
+      "en": "room door",
+      "pos": "noun",
+      "example": {
+        "ko": "방문을 열어도 돼요?",
+        "bn": "ঘরের দরজাটা খুললে কি হবে?",
+        "en": "May I open the room door?"
+      },
+      "pronunciationTipBn": "'방문' [방문]—ㅇ নাকি ধ্বনির পরে ㅁ।"
     },
     {
       "ko": "아파트",
@@ -41,63 +147,11 @@
       "en": "apartment",
       "pos": "noun",
       "example": {
-        "ko": "한국에는 아파트가 많습니다.",
-        "bn": "কোরিয়াতে অনেক অ্যাপার্টমেন্ট আছে।",
-        "en": "There are many apartments in Korea."
+        "ko": "저는 회사 근처 아파트에서 살아요.",
+        "bn": "আমি অফিসের কাছের একটা অ্যাপার্টমেন্টে থাকি।",
+        "en": "I live in an apartment near the company."
       },
-      "pronunciationTipBn": "'ㅍ' এবং 'ㅌ' ধ্বনিগুলোতে বাতাস বের করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "원룸",
-      "romanization": "wollum",
-      "bn": "ওয়ানরুম (এক কামরার বাসা)",
-      "en": "one-room (studio)",
-      "pos": "noun",
-      "example": {
-        "ko": "혼자 살기에는 원룸이 좋습니다.",
-        "bn": "একা থাকার জন্য ওয়ানরুম ভালো।",
-        "en": "A one-room is good for living alone."
-      },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি বাংলা 'র' ও 'ল'-এর মাঝামাঝি; জিভ হালকাভাবে তালুতে স্পর্শ করান।"
-    },
-    {
-      "ko": "고시원",
-      "romanization": "gosiwon",
-      "bn": "গোশিওন (ছোট সস্তা ঘর)",
-      "en": "gosiwon (cheap small room)",
-      "pos": "noun",
-      "example": {
-        "ko": "고시원은 방이 작지만 쌉니다.",
-        "bn": "গোশিওনের রুম ছোট কিন্তু সস্তা।",
-        "en": "Gosiwon rooms are small but cheap."
-      },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি হালকাভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "기숙사",
-      "romanization": "gisuksa",
-      "bn": "ছাত্রাবাস/ডরমিটরি",
-      "en": "dormitory",
-      "pos": "noun",
-      "example": {
-        "ko": "회사 기숙사에서 생활합니다.",
-        "bn": "আমি কোম্পানির ডরমিটরিতে থাকি।",
-        "en": "I live in the company dormitory."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি শব্দের শুরুতে 'খ'-এর মতো শোনাতে পারে।"
-    },
-    {
-      "ko": "방",
-      "romanization": "bang",
-      "bn": "রুম/কক্ষ",
-      "en": "room",
-      "pos": "noun",
-      "example": {
-        "ko": "제 방은 아주 깨끗합니다.",
-        "bn": "আমার রুম খুব পরিষ্কার।",
-        "en": "My room is very clean."
-      },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শুরুতে 'ফ'-এর মতো শোনাতে পারে।"
+      "pronunciationTipBn": "'아파트' [아파트]—ㅍ জোরালো নিঃশ্বাসসহ 'ফ'।"
     },
     {
       "ko": "거실",
@@ -106,63 +160,154 @@
       "en": "living room",
       "pos": "noun",
       "example": {
-        "ko": "가족들이 거실에 모여 있습니다.",
-        "bn": "পরিবারের সদস্যরা বসার ঘরে জড়ো হয়েছে।",
-        "en": "The family is gathered in the living room."
+        "ko": "가족들이 거실에 앉아 얘기해요.",
+        "bn": "পরিবারের সবাই বসার ঘরে বসে গল্প করে।",
+        "en": "The family sits in the living room and talks."
       },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি শব্দের শুরুতে 'খ'-এর মতো শোনাতে পারে।"
+      "pronunciationTipBn": "'거실' [거실]—শেষ ㄹ জিভ তালুতে ছুঁইয়ে।"
     },
     {
-      "ko": "부엌",
-      "romanization": "bueok",
-      "bn": "রান্নাঘর",
-      "en": "kitchen",
+      "ko": "현관",
+      "romanization": "hyeongwan",
+      "bn": "প্রবেশপথ, জুতা খোলার জায়গা",
+      "en": "entrance, foyer",
       "pos": "noun",
       "example": {
-        "ko": "어머니가 부엌에서 요리를 하십니다.",
-        "bn": "মা রান্নাঘরে রান্না করছেন।",
-        "en": "Mother is cooking in the kitchen."
+        "ko": "신발은 현관에서 벗으세요.",
+        "bn": "জুতা প্রবেশপথে খুলে রাখুন।",
+        "en": "Please take off your shoes at the entrance."
       },
-      "pronunciationTipBn": "শেষের 'ㅋ' ধ্বনিটি 'ক'-এর মতো উচ্চারিত হবে (বাচ্চিম)।"
+      "pronunciationTipBn": "'현관' [현관]—'হিয়নগোয়ান' দ্রুত এক শ্বাসে।"
     },
     {
-      "ko": "화장실",
-      "romanization": "hwajangsil",
-      "bn": "বাথরুম",
-      "en": "bathroom",
+      "ko": "현관문",
+      "romanization": "hyeongwanmun",
+      "bn": "প্রবেশদ্বার, ফ্ল্যাটের দরজা",
+      "en": "entrance door",
       "pos": "noun",
       "example": {
-        "ko": "화장실은 저쪽에 있습니다.",
-        "bn": "বাথরুম ওই দিকে।",
-        "en": "The bathroom is over there."
+        "ko": "아파트에는 현관문이 있어요.",
+        "bn": "অ্যাপার্টমেন্টে প্রবেশদ্বার থাকে।",
+        "en": "Apartments have an entrance door."
       },
-      "pronunciationTipBn": "'ㅎ' ধ্বনিটি পরিষ্কারভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'현관문' [현관문]—তিন অক্ষর একটানা বলুন।"
     },
     {
-      "ko": "월세",
-      "romanization": "wolse",
-      "bn": "মাসিক ভাড়া",
-      "en": "monthly rent",
+      "ko": "베란다",
+      "romanization": "beranda",
+      "bn": "বারান্দা",
+      "en": "veranda",
       "pos": "noun",
       "example": {
-        "ko": "매달 월세를 내야 합니다.",
-        "bn": "প্রতি মাসে মাসিক ভাড়া দিতে হবে।",
-        "en": "I have to pay monthly rent every month."
+        "ko": "베란다에 빨래를 널어요.",
+        "bn": "বারান্দায় কাপড় শুকাতে দিই।",
+        "en": "I hang the laundry on the veranda."
       },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি বাংলা 'ল'-এর মতো উচ্চারিত হবে (বাচ্চিম)।"
+      "pronunciationTipBn": "'베란다' [베란다]—বাংলা 'বারান্দা'-র মতোই।"
     },
     {
-      "ko": "전세",
-      "romanization": "jeonse",
-      "bn": "ডিপোজিট ভাড়া (জন্সে)",
-      "en": "jeonse (lump-sum deposit rent)",
+      "ko": "난방",
+      "romanization": "nanbang",
+      "bn": "ঘর গরম করার ব্যবস্থা",
+      "en": "heating",
       "pos": "noun",
       "example": {
-        "ko": "전세로 집을 구했습니다.",
-        "bn": "আমি জন্সে (ডিপোজিট) দিয়ে একটি বাড়ি নিয়েছি।",
-        "en": "I got a house on jeonse."
+        "ko": "날씨가 쌀쌀해지면 난방을 해야 돼요.",
+        "bn": "আবহাওয়া ঠান্ডা হলে হিটিং চালাতে হয়।",
+        "en": "When the weather gets chilly, you have to turn on the heating."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি হালকাভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'난방' [난방]—ㄴ আর ㅇ দুটোই নাকি ধ্বনি।"
+    },
+    {
+      "ko": "답답하다",
+      "romanization": "dapdaphada",
+      "bn": "দমবন্ধ লাগা, হাঁপিয়ে ওঠা",
+      "en": "to feel stifled",
+      "pos": "adjective",
+      "example": {
+        "ko": "아파트가 너무 답답해서 이사했어요.",
+        "bn": "অ্যাপার্টমেন্টে খুব দমবন্ধ লাগত, তাই বাসা বদল করেছি।",
+        "en": "The apartment felt too stifling, so I moved."
+      },
+      "pronunciationTipBn": "'답답하다' [답따파다]—ㅂ পরে ㄷ শক্ত হয়ে 'ㄸ' হয়।"
+    },
+    {
+      "ko": "마음에 들다",
+      "romanization": "maeume deulda",
+      "bn": "পছন্দ হওয়া, মনে ধরা",
+      "en": "to like something",
+      "pos": "verb",
+      "example": {
+        "ko": "나무가 많아서 이 집이 마음에 들어요.",
+        "bn": "অনেক গাছ আছে বলে এই বাড়িটা আমার পছন্দ হয়েছে।",
+        "en": "I like this house because it has many trees."
+      },
+      "pronunciationTipBn": "'마음에' [마으메]—শেষ ㅁ পরের স্বরে জুড়ে যায়।"
+    },
+    {
+      "ko": "둘러보다",
+      "romanization": "dulleoboda",
+      "bn": "ঘুরে ঘুরে দেখা",
+      "en": "to look around",
+      "pos": "verb",
+      "example": {
+        "ko": "집을 천천히 둘러보세요.",
+        "bn": "বাড়িটা ধীরে ধীরে ঘুরে দেখুন।",
+        "en": "Please look around the house slowly."
+      },
+      "pronunciationTipBn": "'둘러보다' [둘러보다]—ㄹㄹ দ্বিগুণ, একটু টেনে বলুন।"
+    },
+    {
+      "ko": "한식",
+      "romanization": "hansik",
+      "bn": "কোরিয়ান খাবার",
+      "en": "Korean food",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 한식을 아주 좋아해요.",
+        "bn": "আমি কোরিয়ান খাবার খুব পছন্দ করি।",
+        "en": "I really like Korean food."
+      },
+      "pronunciationTipBn": "'한식' [한식]—শেষ ㄱ ছাড়া না দিয়ে থামান।"
+    },
+    {
+      "ko": "반찬",
+      "romanization": "banchan",
+      "bn": "সাইড ডিশ, তরকারি",
+      "en": "side dish",
+      "pos": "noun",
+      "example": {
+        "ko": "한국에서는 반찬을 같이 나눠 먹어요.",
+        "bn": "কোরিয়ায় সাইড ডিশ সবাই ভাগ করে খায়।",
+        "en": "In Korea, side dishes are shared."
+      },
+      "pronunciationTipBn": "'반찬' [반찬]—ㅊ নিঃশ্বাসসহ 'ছ'।"
+    },
+    {
+      "ko": "깍두기",
+      "romanization": "kkakdugi",
+      "bn": "মুলার কিমচি (চৌকো করে কাটা)",
+      "en": "cubed radish kimchi",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 깍두기를 싫어해요.",
+        "bn": "আমি মুলার কিমচি পছন্দ করি না।",
+        "en": "I don't like cubed radish kimchi."
+      },
+      "pronunciationTipBn": "'깍두기' [깍뚜기]—ㄱ পরে ㄷ শক্ত হয়ে 'ㄸ' হয়।"
+    },
+    {
+      "ko": "김",
+      "romanization": "gim",
+      "bn": "শুকনো সামুদ্রিক শৈবাল (নরি)",
+      "en": "dried seaweed",
+      "pos": "noun",
+      "example": {
+        "ko": "한국에서는 김이 싼데 고향에서는 비싸요.",
+        "bn": "কোরিয়ায় শৈবাল সস্তা, কিন্তু দেশে দাম বেশি।",
+        "en": "Seaweed is cheap in Korea, but expensive in my hometown."
+      },
+      "pronunciationTipBn": "'김' [김]—ঠোঁট বন্ধ করে ㅁ শেষ করুন।"
     },
     {
       "ko": "밥",
@@ -171,37 +316,24 @@
       "en": "cooked rice",
       "pos": "noun",
       "example": {
-        "ko": "한국 사람은 매일 밥을 먹습니다.",
-        "bn": "কোরিয়ানরা প্রতিদিন ভাত খায়।",
-        "en": "Koreans eat rice every day."
+        "ko": "밥은 숟가락으로 먹어요.",
+        "bn": "ভাত চামচ দিয়ে খায়।",
+        "en": "Rice is eaten with a spoon."
       },
-      "pronunciationTipBn": "শেষের 'ㅂ' ধ্বনিটি 'প'-এর মতো উচ্চারিত হবে (বাচ্চিম)।"
+      "pronunciationTipBn": "'밥' [밥]—শেষ ㅂ ঠোঁট বন্ধ, বাতাস ছাড়বেন না।"
     },
     {
       "ko": "국",
       "romanization": "guk",
-      "bn": "স্যুপ/ঝোল",
+      "bn": "স্যুপ, ঝোল",
       "en": "soup",
       "pos": "noun",
       "example": {
-        "ko": "밥과 국을 같이 먹습니다.",
-        "bn": "ভাত এবং স্যুপ একসাথে খাওয়া হয়।",
-        "en": "We eat rice and soup together."
+        "ko": "밥하고 국, 반찬을 같이 먹어요.",
+        "bn": "ভাত, স্যুপ আর সাইড ডিশ একসঙ্গে খাওয়া হয়।",
+        "en": "People eat rice, soup, and side dishes together."
       },
-      "pronunciationTipBn": "শেষের 'ㄱ' ধ্বনিটি 'ক'-এর মতো উচ্চারিত হবে (বাচ্চিম)।"
-    },
-    {
-      "ko": "반찬",
-      "romanization": "banchan",
-      "bn": "তরকারি/পার্শ্বপদ",
-      "en": "side dishes",
-      "pos": "noun",
-      "example": {
-        "ko": "식탁에 반찬이 많습니다.",
-        "bn": "খাবারের টেবিলে অনেক তরকারি আছে।",
-        "en": "There are many side dishes on the table."
-      },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শুরুতে 'ফ'-এর মতো শোনাতে পারে।"
+      "pronunciationTipBn": "'국' [국]—শেষ ㄱ থেমে যায়, 'গুক'।"
     },
     {
       "ko": "숟가락",
@@ -210,11 +342,11 @@
       "en": "spoon",
       "pos": "noun",
       "example": {
-        "ko": "국은 숟가락으로 먹습니다.",
-        "bn": "স্যুপ চামচ দিয়ে খাওয়া হয়।",
-        "en": "Soup is eaten with a spoon."
+        "ko": "어른이 먼저 숟가락을 드세요.",
+        "bn": "বড়রা আগে চামচ তোলেন।",
+        "en": "The elders pick up their spoons first."
       },
-      "pronunciationTipBn": "মাঝের 'ㄷ' ধ্বনিটি 'ত'-এর মতো উচ্চারিত হবে (বাচ্চিম)।"
+      "pronunciationTipBn": "'숟가락' [숟까락]—ㄷ পরে ㄱ শক্ত হয়ে 'ㄲ' হয়।"
     },
     {
       "ko": "젓가락",
@@ -223,440 +355,352 @@
       "en": "chopsticks",
       "pos": "noun",
       "example": {
-        "ko": "반찬은 젓가락으로 집어 먹습니다.",
-        "bn": "তরকারি চপস্টিক দিয়ে তুলে খাওয়া হয়।",
-        "en": "Side dishes are picked up and eaten with chopsticks."
+        "ko": "반찬은 젓가락으로 먹어요.",
+        "bn": "সাইড ডিশ চপস্টিক দিয়ে খাওয়া হয়।",
+        "en": "Side dishes are eaten with chopsticks."
       },
-      "pronunciationTipBn": "মাঝের 'ㅅ' ধ্বনিটি 'ত'-এর মতো উচ্চারিত হবে (বাচ্চিম)।"
+      "pronunciationTipBn": "'젓가락' [젇까락]—ㅅ বাতচিম [ㄷ] হয়, পরের ㄱ শক্ত।"
     },
     {
-      "ko": "식사하다",
-      "romanization": "siksahada",
-      "bn": "খাওয়া/আহার করা",
-      "en": "to have a meal",
+      "ko": "포크",
+      "romanization": "pokeu",
+      "bn": "কাঁটাচামচ",
+      "en": "fork",
+      "pos": "noun",
+      "example": {
+        "ko": "우리 나라 사람들은 포크를 사용해요.",
+        "bn": "আমাদের দেশের মানুষ কাঁটাচামচ ব্যবহার করে।",
+        "en": "People in my country use forks."
+      },
+      "pronunciationTipBn": "'포크' [포크]—ㅍ, ㅋ দুটোই নিঃশ্বাসসহ।"
+    },
+    {
+      "ko": "미역국",
+      "romanization": "miyeokguk",
+      "bn": "সামুদ্রিক শৈবালের স্যুপ",
+      "en": "seaweed soup",
+      "pos": "noun",
+      "example": {
+        "ko": "한국에서는 생일에 미역국을 먹어요.",
+        "bn": "কোরিয়ায় জন্মদিনে শৈবালের স্যুপ খাওয়া হয়।",
+        "en": "In Korea, people eat seaweed soup on their birthday."
+      },
+      "pronunciationTipBn": "'미역국' [미역꾹]—ㄱ পরের ㄱ শক্ত হয়ে 'ㄲ' হয়।"
+    },
+    {
+      "ko": "삼계탕",
+      "romanization": "samgyetang",
+      "bn": "সামগেতাং (মুরগি-জিনসেং স্যুপ)",
+      "en": "samgyetang, ginseng chicken soup",
+      "pos": "noun",
+      "example": {
+        "ko": "복날에는 삼계탕을 많이 먹어요.",
+        "bn": "গরমের সবচেয়ে গরম দিনে সামগেতাং বেশি খাওয়া হয়।",
+        "en": "People eat a lot of samgyetang on the hottest days."
+      },
+      "pronunciationTipBn": "'삼계탕' [삼게탕]—'계' সাধারণত [게]-এর মতো শোনায়।"
+    },
+    {
+      "ko": "팥죽",
+      "romanization": "patjuk",
+      "bn": "লাল শিমের জাউ",
+      "en": "red bean porridge",
+      "pos": "noun",
+      "example": {
+        "ko": "동지에는 팥죽을 먹어요.",
+        "bn": "শীতের সবচেয়ে ছোট দিনে লাল শিমের জাউ খাওয়া হয়।",
+        "en": "People eat red bean porridge on the winter solstice."
+      },
+      "pronunciationTipBn": "'팥죽' [팓쭉]—ㅌ বাতচিম [ㄷ] হয়, পরের ㅈ শক্ত হয়।"
+    },
+    {
+      "ko": "오곡밥",
+      "romanization": "ogokbap",
+      "bn": "পাঁচ রকম শস্যের ভাত",
+      "en": "five-grain rice",
+      "pos": "noun",
+      "example": {
+        "ko": "정월대보름에는 오곡밥을 먹어요.",
+        "bn": "চান্দ্র বছরের প্রথম পূর্ণিমায় পাঁচ শস্যের ভাত খাওয়া হয়।",
+        "en": "People eat five-grain rice on Daeboreum."
+      },
+      "pronunciationTipBn": "'오곡밥' [오곡빱]—ㄱ পরে ㅂ শক্ত হয়ে 'ㅃ' হয়।"
+    },
+    {
+      "ko": "생선구이",
+      "romanization": "saengseongui",
+      "bn": "গ্রিল করা মাছ",
+      "en": "grilled fish",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 생선구이는 먹는데 생선회는 안 먹어요.",
+        "bn": "আমি গ্রিল করা মাছ খাই, কিন্তু কাঁচা মাছ খাই না।",
+        "en": "I eat grilled fish, but I don't eat raw fish."
+      },
+      "pronunciationTipBn": "'생선구이' [생선구이]—'생'-এর শেষ ধ্বনি নাকি ধ্বনি।"
+    },
+    {
+      "ko": "복날",
+      "romanization": "bongnal",
+      "bn": "বকনাল (গ্রীষ্মের সবচেয়ে গরম দিন)",
+      "en": "the hottest days of summer",
+      "pos": "noun",
+      "example": {
+        "ko": "복날에 사람들은 삼계탕을 먹어요.",
+        "bn": "বকনালের দিনে মানুষ সামগেতাং খায়।",
+        "en": "On boknal, people eat samgyetang."
+      },
+      "pronunciationTipBn": "'복날' [봉날]—ㄱ পরের ㄴ-এর প্রভাবে নাকি ধ্বনি হয়ে যায়।"
+    },
+    {
+      "ko": "대접하다",
+      "romanization": "daejeophada",
+      "bn": "আপ্যায়ন করা, খাওয়ানো",
+      "en": "to serve, to treat",
       "pos": "verb",
       "example": {
-        "ko": "가족과 함께 식사합니다.",
-        "bn": "পরিবারের সাথে খাবার খাই।",
-        "en": "I have a meal with my family."
+        "ko": "결혼식에서 손님들에게 국수를 대접했어요.",
+        "bn": "বিয়ের অনুষ্ঠানে অতিথিদের নুডলস দিয়ে আপ্যায়ন করা হতো।",
+        "en": "They served noodles to the guests at the wedding."
       },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি হালকাভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'대접' [대접]—শেষ ㅂ ঠোঁট বন্ধ করে থামান।"
     },
     {
-      "ko": "맵다",
-      "romanization": "maepda",
-      "bn": "ঝাল",
-      "en": "spicy",
-      "pos": "adjective",
-      "example": {
-        "ko": "김치는 조금 맵습니다.",
-        "bn": "কিমচি একটু ঝাল।",
-        "en": "Kimchi is a little spicy."
-      },
-      "pronunciationTipBn": "শেষের 'ㅂ' ধ্বনিটি 'প'-এর মতো উচ্চারিত হবে (বাচ্চিম)।"
-    },
-    {
-      "ko": "짜다",
-      "romanization": "jjada",
-      "bn": "নোনতা",
-      "en": "salty",
-      "pos": "adjective",
-      "example": {
-        "ko": "이 음식은 너무 짭니다.",
-        "bn": "এই খাবারটি খুব নোনতা।",
-        "en": "This food is too salty."
-      },
-      "pronunciationTipBn": "'ㅉ' ধ্বনিটি জোর দিয়ে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "달다",
-      "romanization": "dalda",
-      "bn": "মিষ্টি",
-      "en": "sweet",
-      "pos": "adjective",
-      "example": {
-        "ko": "아이스크림이 달고 맛있습니다.",
-        "bn": "আইসক্রিম মিষ্টি এবং সুস্বাদু।",
-        "en": "The ice cream is sweet and delicious."
-      },
-      "pronunciationTipBn": "'ㄷ' ধ্বনিটি শব্দের শুরুতে 'থ'-এর মতো শোনাতে পারে।"
-    },
-    {
-      "ko": "보증금",
-      "romanization": "bojeunggeum",
-      "bn": "জামানত/ডিপোজিট",
-      "en": "security deposit",
+      "ko": "예전",
+      "romanization": "yejeon",
+      "bn": "আগেকার দিনে, অতীতে",
+      "en": "in the past",
       "pos": "noun",
       "example": {
-        "ko": "보증금이 비싸서 걱정이에요.",
-        "bn": "জামানত বেশি হওয়ায় চিন্তিত।",
-        "en": "I'm worried because the security deposit is expensive."
+        "ko": "예전에는 결혼식 날 국수를 먹었어요.",
+        "bn": "আগে বিয়ের দিনে নুডলস খাওয়া হতো।",
+        "en": "In the past, people ate noodles on the wedding day."
       },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শুরুতে 'ফ'-এর মতো শোনাতে পারে।"
-    },
-    {
-      "ko": "관리비",
-      "romanization": "gwallibi",
-      "bn": "রক্ষণাবেক্ষণ খরচ",
-      "en": "maintenance fee",
-      "pos": "noun",
-      "example": {
-        "ko": "매달 관리비를 내야 합니다.",
-        "bn": "প্রতি মাসে রক্ষণাবেক্ষণ খরচ দিতে হবে।",
-        "en": "You have to pay the maintenance fee every month."
-      },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি বাংলা 'ল'-এর মতো উচ্চারিত হবে।"
-    },
-    {
-      "ko": "이사하다",
-      "romanization": "isahada",
-      "bn": "বাসা বদল করা",
-      "en": "to move (house)",
-      "pos": "verb",
-      "example": {
-        "ko": "다음 주에 새 집으로 이사해요.",
-        "bn": "আগামী সপ্তাহে নতুন বাড়িতে বাসা বদল করব।",
-        "en": "I'm moving to a new house next week."
-      },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি হালকাভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "부동산",
-      "romanization": "budongsan",
-      "bn": "রিয়েল এস্টেট এজেন্সি",
-      "en": "real estate agency",
-      "pos": "noun",
-      "example": {
-        "ko": "부동산에 가서 방을 알아봤어요.",
-        "bn": "রিয়েল এস্টেট এজেন্সিতে গিয়ে রুম খুঁজলাম।",
-        "en": "I went to the real estate agency and looked for a room."
-      },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শুরুতে 'ফ'-এর মতো শোনাতে পারে।"
-    },
-    {
-      "ko": "계약하다",
-      "romanization": "gyeyakhada",
-      "bn": "চুক্তি করা",
-      "en": "to make a contract",
-      "pos": "verb",
-      "example": {
-        "ko": "오늘 집을 계약했습니다.",
-        "bn": "আজ বাড়ির চুক্তি করেছি।",
-        "en": "I made a contract for the house today."
-      },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি শব্দের শুরুতে 'খ'-এর মতো শোনাতে পারে।"
-    },
-    {
-      "ko": "식탁",
-      "romanization": "siktak",
-      "bn": "খাবারের টেবিল",
-      "en": "dining table",
-      "pos": "noun",
-      "example": {
-        "ko": "식탁 위에 음식이 있습니다.",
-        "bn": "খাবারের টেবিলের উপর খাবার আছে।",
-        "en": "There is food on the dining table."
-      },
-      "pronunciationTipBn": "শেষের 'ㄱ' ধ্বনিটি 'ক'-এর মতো উচ্চারিত হবে (বাচ্চিম)।"
-    },
-    {
-      "ko": "그릇",
-      "romanization": "geureut",
-      "bn": "বাটি",
-      "en": "bowl",
-      "pos": "noun",
-      "example": {
-        "ko": "그릇에 밥을 담으세요.",
-        "bn": "বাটিতে ভাত রাখুন।",
-        "en": "Please put rice in the bowl."
-      },
-      "pronunciationTipBn": "শেষের 'ㅅ' ধ্বনিটি 'ত'-এর মতো উচ্চারিত হবে (বাচ্চিম)।"
-    },
-    {
-      "ko": "싱겁다",
-      "romanization": "singgeopda",
-      "bn": "স্বাদহীন/লবণ কম",
-      "en": "bland",
-      "pos": "adjective",
-      "example": {
-        "ko": "국이 조금 싱겁습니다.",
-        "bn": "স্যুপে একটু লবণ কম।",
-        "en": "The soup is a little bland."
-      },
-      "pronunciationTipBn": "শেষের 'ㅂ' ধ্বনিটি 'প'-এর মতো উচ্চারিত হবে (বাচ্চিম)।"
-    },
-    {
-      "ko": "쓰다",
-      "romanization": "sseuda",
-      "bn": "তেতো",
-      "en": "bitter",
-      "pos": "adjective",
-      "example": {
-        "ko": "이 약은 너무 씁니다.",
-        "bn": "এই ওষুধটি খুব তেতো।",
-        "en": "This medicine is too bitter."
-      },
-      "pronunciationTipBn": "'ㅆ' ধ্বনিটি জোর দিয়ে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "시다",
-      "romanization": "sida",
-      "bn": "টক",
-      "en": "sour",
-      "pos": "adjective",
-      "example": {
-        "ko": "레몬은 아주 십니다.",
-        "bn": "লেবু খুব টক।",
-        "en": "Lemons are very sour."
-      },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি হালকাভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "맛있다",
-      "romanization": "masitda",
-      "bn": "সুস্বাদু",
-      "en": "delicious",
-      "pos": "adjective",
-      "example": {
-        "ko": "불고기가 정말 맛있어요.",
-        "bn": "বুলগোগি সত্যিই সুস্বাদু।",
-        "en": "Bulgogi is really delicious."
-      },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি পরের স্বরবর্ণের সাথে যুক্ত হয়ে উচ্চারিত হবে।"
-    },
-    {
-      "ko": "맛없다",
-      "romanization": "madeopda",
-      "bn": "বিস্বাদ",
-      "en": "tasteless",
-      "pos": "adjective",
-      "example": {
-        "ko": "이 음식은 맛없어요.",
-        "bn": "এই খাবারটি বিস্বাদ।",
-        "en": "This food is tasteless."
-      },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি 'ㄷ' (ত) এর মতো উচ্চারিত হবে।"
+      "pronunciationTipBn": "'예전' [예전]—দ্রুত এক শ্বাসে 'ইয়েজন' বলুন।"
     }
   ],
   "grammar": [
     {
-      "pattern": "V-기 전에",
-      "titleBn": "কোনো কিছু করার আগে",
-      "explanationBn": "ক্রিয়ার সাথে যুক্ত হয়ে কোনো কাজ করার পূর্বের সময় নির্দেশ করে। এর অর্থ 'কোনো কিছু করার আগে' বা 'Before doing something'।",
-      "explanationEn": "Attached to a verb stem to indicate the time before an action occurs. It means 'before doing something'.",
+      "pattern": "V/A + -아도/어도 되다",
+      "titleBn": "অনুমতি প্রকাশ '-아도/어도 되다' (করলে হবে / করতে পারি)",
+      "explanationBn": "'-아도/어도 되다' ক্রিয়া বা বিশেষণের সঙ্গে বসে কোনো কাজ বা অবস্থার অনুমতি বোঝায়—বাংলায় '...করলে চলবে', '...করতে পারি কি?'। মূলের শেষ স্বর 'ㅏ' বা 'ㅗ' হলে '-아도 되다': 가다 → 가도 되다, 앉다 → 앉아도 되다। অন্য স্বর ('ㅓ, ㅜ, ㅣ' ইত্যাদি) হলে '-어도 되다': 먹다 → 먹어도 되다, 열다 → 열어도 되다। '하다'-ক্রিয়া হলে '해도 되다': 운동하다 → 운동해도 되다। প্রশ্নে '-아도/어도 돼요?' দিয়ে অনুমতি চাওয়া হয় এবং উত্তরে '네, ...(으)세요' বা '아니요, ...(으)면 안 돼요' বলা হয়।",
+      "explanationEn": "-아도/어도 되다 attaches to verbs and adjectives to express permission for an action or state ('may/it's okay to'). Use -아도 되다 after stems ending in ㅏ or ㅗ (가다 → 가도 되다), -어도 되다 after other vowels (먹다 → 먹어도 되다), and -해도 되다 for 하다 verbs (운동하다 → 운동해도 되다). The question form -아도/어도 돼요? asks for permission.",
       "examples": [
         {
-          "ko": "밥을 먹기 전에 손을 씻으세요.",
-          "bn": "ভাত খাওয়ার আগে হাত ধুয়ে নিন।",
-          "en": "Please wash your hands before eating."
+          "ko": "집 구경 좀 해도 돼요?",
+          "bn": "বাড়িটা একটু ঘুরে দেখলে হবে?",
+          "en": "May I take a look around your house?"
         },
         {
-          "ko": "한국에 오기 전에 한국어를 공부했어요.",
-          "bn": "কোরিয়ায় আসার আগে কোরিয়ান ভাষা পড়েছিলাম।",
-          "en": "I studied Korean before coming to Korea."
+          "ko": "가: 방바닥에 앉아야 돼요? 나: 아니요, 소파에 앉아도 돼요.",
+          "bn": "ক: মেঝেতে বসতে হবে? খ: না, সোফায় বসলেও চলবে।",
+          "en": "A: Do I have to sit on the floor? B: No, you may sit on the sofa."
+        },
+        {
+          "ko": "좀 더운데 창문을 열어도 돼요?",
+          "bn": "একটু গরম লাগছে, জানালাটা খুললে হবে?",
+          "en": "It's a bit hot; may I open the window?"
         }
       ],
-      "commonMistakeBn": "অনেকে বিশেষ্যের পরে '기 전에' ব্যবহার করেন; বিশেষ্যের পরে শুধু '전에' বসবে (যেমন: 식사 전에)।"
+      "commonMistakeBn": "মূলের স্বর দেখে '아도' না '어도' ঠিক করতে হয়। '앉다'-র স্বর 'ㅏ', তাই '앉어도 돼요' ভুল—সঠিক '앉아도 돼요'। আবার '주차하다'-র মতো 하다-ক্রিয়ায় '주차하도 돼요' নয়, '주차해도 돼요' হবে।"
     },
     {
-      "pattern": "V-(으)ㄴ 후에",
-      "titleBn": "কোনো কিছু করার পরে",
-      "explanationBn": "ক্রিয়ার সাথে যুক্ত হয়ে কোনো কাজ করার পরের সময় নির্দেশ করে। এর অর্থ 'কোনো কিছু করার পরে' বা 'After doing something'। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '-은 후에' এবং স্বরবর্ণ দিয়ে শেষ হলে '-ㄴ 후에' বসে।",
-      "explanationEn": "Attached to a verb stem to indicate the time after an action occurs. It means 'after doing something'. Use '-은 후에' after a consonant and '-ㄴ 후에' after a vowel.",
+      "pattern": "V/A + -는데/(으)ㄴ데 (대조)",
+      "titleBn": "বৈসাদৃশ্যের '-는데/(으)ㄴ데' (এদিকে / কিন্তু)",
+      "explanationBn": "'-는데/(으)ㄴ데' আগের কথার সঙ্গে পরের কথার তুলনা বা বৈসাদৃশ্য দেখায়—বাংলায় 'এটা এমন, কিন্তু ওটা ওমন'। ক্রিয়া এবং 있다/없다-র সঙ্গে সব সময় '-는데': 먹다 → 먹는데, 사용하다 → 사용하는데, 있다 → 있는데। বিশেষণে বাতচিম থাকলে '-은데': 작다 → 작은데, 넓다 → 넓은데। বাতচিম না থাকলে বা শেষ ব্যঞ্জন 'ㄹ' হলে '-ㄴ데': 예쁘다 → 예쁜데, 멀다 → 먼데। দুই দেশের বা দুই জিনিসের সংস্কৃতি তুলনা করতে এটি খুব দরকারি।",
+      "explanationEn": "-는데/(으)ㄴ데 links two clauses that contrast with each other. Verbs and 있다/없다 always take -는데 (먹다 → 먹는데). Adjectives take -은데 after a final consonant (작다 → 작은데) and -ㄴ데 after a vowel or final ㄹ (예쁘다 → 예쁜데, 멀다 → 먼데). It is very useful for comparing two cultures or two things.",
       "examples": [
         {
-          "ko": "퇴근한 후에 친구를 만날 거예요.",
-          "bn": "কাজ শেষ করার পরে বন্ধুর সাথে দেখা করব।",
-          "en": "I will meet a friend after getting off work."
+          "ko": "한국에서는 생일에 미역국을 먹는데 중국에서는 국수를 먹어요.",
+          "bn": "কোরিয়ায় জন্মদিনে শৈবালের স্যুপ খায়, কিন্তু চীনে নুডলস খায়।",
+          "en": "In Korea people eat seaweed soup on birthdays, but in China they eat noodles."
         },
         {
-          "ko": "밥을 먹은 후에 약을 드세요.",
-          "bn": "ভাত খাওয়ার পরে ওষুধ খাবেন।",
-          "en": "Please take the medicine after eating."
+          "ko": "마루는 넓은데 방은 좁아요.",
+          "bn": "মারুটা বড়, কিন্তু ঘরটা ছোট।",
+          "en": "The maru is spacious, but the room is small."
+        },
+        {
+          "ko": "한국 사람들은 젓가락을 사용하는데 우리 나라 사람들은 포크를 사용해요.",
+          "bn": "কোরিয়ানরা চপস্টিক ব্যবহার করে, কিন্তু আমাদের দেশের মানুষ কাঁটাচামচ ব্যবহার করে।",
+          "en": "Koreans use chopsticks, but people in my country use forks."
         }
       ],
-      "commonMistakeBn": "অনেকে বর্তমান কালের সাথে এটি ব্যবহার করেন; এটি শুধুমাত্র অতীত বা সম্পন্ন কাজের পরে বোঝাতে ব্যবহৃত হয়।"
+      "commonMistakeBn": "ক্রিয়া আর বিশেষণের রূপ মিলিয়ে ফেলা সবচেয়ে সাধারণ ভুল। '먹다' ক্রিয়া, তাই '먹은데' নয়—'먹는데'। '넓다' বিশেষণ, তাই '넓는데' নয়—'넓은데'। '있다/없다' বিশেষণের মতো দেখতে হলেও '있는데/없는데' হয়।"
     },
     {
-      "pattern": "N(이)나",
-      "titleBn": "অথবা / বা",
-      "explanationBn": "বিশেষ্যের সাথে যুক্ত হয়ে দুটি বা ততোধিক বিকল্পের মধ্যে একটি বেছে নেওয়া বোঝায়। এর অর্থ 'অথবা' বা 'বা'। ব্যঞ্জনবর্ণ দিয়ে শেষ হলে '이나' এবং স্বরবর্ণ দিয়ে শেষ হলে '나' বসে।",
-      "explanationEn": "Attached to a noun to indicate a choice between two or more options. It means 'or'. Use '이나' after a consonant and '나' after a vowel.",
+      "pattern": "V + -(으)면 안 되다",
+      "titleBn": "নিষেধ '-(으)면 안 되다' (করলে চলবে না)",
+      "explanationBn": "অনুমতি চাওয়ার উত্তরে যখন 'না' বলতে হয়, তখন '-(으)면 안 되다' ব্যবহার হয়—বাংলায় '...করলে হবে না / করা যাবে না'। মূলে বাতচিম থাকলে '-으면 안 되다': 놓다 → 놓으면 안 돼요। বাতচিম না থাকলে বা 'ㄹ' হলে '-면 안 되다': 두다 → 두면 안 돼요, 들다 → 들면 안 돼요। খাবারের শিষ্টাচার বোঝাতে এই কাঠামো দরকার হয়: 밥그릇을 손으로 들고 먹으면 안 됩니다.",
+      "explanationEn": "-(으)면 안 되다 expresses prohibition ('must not / may not'), and is the usual negative answer to a -아도/어도 돼요? question. Use -으면 after a final consonant and -면 after a vowel or final ㄹ.",
       "examples": [
         {
-          "ko": "아침에 빵이나 밥을 먹어요.",
-          "bn": "সকালে রুটি বা ভাত খাই।",
-          "en": "I eat bread or rice in the morning."
+          "ko": "택배를 대문 앞에 두고 가면 안 돼요.",
+          "bn": "পার্সেলটা ফটকের সামনে রেখে গেলে চলবে না।",
+          "en": "You must not leave the parcel in front of the gate."
         },
         {
-          "ko": "주말에 영화를 보거나 운동을 해요.",
-          "bn": "সপ্তাহান্তে সিনেমা দেখি বা ব্যায়াম করি।",
-          "en": "I watch a movie or exercise on the weekend."
+          "ko": "밥그릇을 손으로 들고 먹으면 안 됩니다.",
+          "bn": "ভাতের বাটি হাতে তুলে খাওয়া যাবে না।",
+          "en": "You must not eat while holding the rice bowl in your hand."
+        },
+        {
+          "ko": "숟가락과 젓가락을 동시에 들면 안 돼요.",
+          "bn": "চামচ আর চপস্টিক একসঙ্গে ধরা যাবে না।",
+          "en": "You must not hold the spoon and chopsticks at the same time."
         }
       ],
-      "commonMistakeBn": "অনেকে ক্রিয়ার সাথে '이나' ব্যবহার করেন; ক্রিয়ার সাথে '거나' বসবে।"
+      "commonMistakeBn": "'안 돼요'-তে 'ㅐ' থাকে—'안 되요' লেখা ভুল, সঠিক '안 돼요'। আবার 'ㄹ' বাতচিমে '으' বসে না: '들으면 안 돼요' নয়, '들면 안 돼요'।"
     },
     {
-      "pattern": "V-고",
-      "titleBn": "এবং / আর (ক্রিয়া যুক্ত করতে)",
-      "explanationBn": "দুটি বা ততোধিক ক্রিয়া বা বাক্যকে যুক্ত করতে ব্যবহৃত হয়। এর অর্থ 'এবং' বা 'আর'।",
-      "explanationEn": "Used to connect two or more verbs or sentences. It means 'and'.",
+      "pattern": "N + 에 (특별한 날)",
+      "titleBn": "বিশেষ দিনের '에' (…-এর দিনে)",
+      "explanationBn": "সময় বা দিন বোঝানো বিশেষ্যের পরে '에' বসিয়ে বলা হয় কখন কিছু ঘটে—'생일에' (জন্মদিনে), '복날에' (বকনালের দিনে), '동지에' (শীতের সংক্রান্তিতে), '정월대보름에' (প্রথম পূর্ণিমায়)। প্রশ্ন করার সময় '한국 사람들은 생일에 뭘 먹어요?' এভাবে বলা হয়। মনে রাখবেন 오늘, 어제, 내일, 지금-এর সঙ্গে '에' বসে না।",
+      "explanationEn": "The particle 에 marks the time or day when something happens: 생일에 (on a birthday), 복날에 (on the hottest summer days), 동지에 (on the winter solstice). Note that 오늘, 어제, 내일, 지금 do not take 에.",
       "examples": [
         {
-          "ko": "밥을 먹고 차를 마셔요.",
-          "bn": "ভাত খাই এবং চা পান করি।",
-          "en": "I eat rice and drink tea."
+          "ko": "한국 사람들은 동지에 팥죽을 먹어요.",
+          "bn": "কোরিয়ানরা শীতের সংক্রান্তির দিনে লাল শিমের জাউ খায়।",
+          "en": "Koreans eat red bean porridge on the winter solstice."
         },
         {
-          "ko": "어제 텔레비전을 보고 잤어요.",
-          "bn": "গতকাল টেলিভিশন দেখেছি এবং ঘুমিয়েছি।",
-          "en": "I watched television and slept yesterday."
+          "ko": "정월대보름에는 오곡밥을 먹습니다.",
+          "bn": "প্রথম পূর্ণিমার দিনে পাঁচ শস্যের ভাত খাওয়া হয়।",
+          "en": "On Daeboreum, people eat five-grain rice."
         },
         {
-          "ko": "방을 청소하고 빨래를 했어요.",
-          "bn": "রুম পরিষ্কার করেছি এবং কাপড় ধুয়েছি।",
-          "en": "I cleaned the room and did the laundry."
+          "ko": "국수는 생일에도 먹고 결혼식 날에도 먹어요.",
+          "bn": "নুডলস জন্মদিনেও খায়, বিয়ের দিনেও খায়।",
+          "en": "Noodles are eaten on birthdays and also on wedding days."
         }
       ],
-      "commonMistakeBn": "অনেকে কাল (Tense) নির্দেশক প্রত্যয় '-고' এর আগে বসান; কাল নির্দেশক প্রত্যয় সাধারণত বাক্যের শেষের ক্রিয়ার সাথে বসে।"
-    },
-    {
-      "pattern": "V-거나",
-      "titleBn": "অথবা / বা (ক্রিয়ার ক্ষেত্রে)",
-      "explanationBn": "দুটি ক্রিয়ার মধ্যে একটি বেছে নেওয়া বোঝাতে ব্যবহৃত হয়। এর অর্থ 'অথবা' বা 'বা'।",
-      "explanationEn": "Used to indicate a choice between two verbs. It means 'or'.",
-      "examples": [
-        {
-          "ko": "주말에 쉬거나 친구를 만나요.",
-          "bn": "সপ্তাহান্তে বিশ্রাম নিই বা বন্ধুর সাথে দেখা করি।",
-          "en": "I rest or meet a friend on the weekend."
-        },
-        {
-          "ko": "아침에 빵을 먹거나 우유를 마셔요.",
-          "bn": "সকালে রুটি খাই বা দুধ পান করি।",
-          "en": "I eat bread or drink milk in the morning."
-        },
-        {
-          "ko": "지하철을 타거나 버스를 타세요.",
-          "bn": "পাতাল রেল বা বাসে উঠুন।",
-          "en": "Take the subway or take the bus."
-        }
-      ],
-      "commonMistakeBn": "অনেকে বিশেষ্যের সাথে '거나' ব্যবহার করেন; বিশেষ্যের সাথে '이나/나' বসবে।"
+      "commonMistakeBn": "'오늘에 미역국을 먹어요' ভুল—সময়ের এই শব্দগুলোর সঙ্গে '에' বসে না, বলুন '오늘 미역국을 먹어요'।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "বাসস্থান সম্পর্কে কথা বলা",
-      "titleEn": "Talking about Housing",
+      "titleBn": "হানোক ঘুরে দেখা",
+      "titleEn": "Looking Around a Hanok",
       "lines": [
         {
-          "speaker": "투안",
-          "ko": "리한 씨, 지금 어디에 살아요?",
-          "bn": "রিহান সাহেব, আপনি এখন কোথায় থাকেন?",
-          "en": "Rihan, where do you live now?"
+          "speaker": "디안",
+          "ko": "집이 정말 예쁘네요. 집 구경 좀 해도 돼요?",
+          "bn": "বাড়িটা সত্যিই খুব সুন্দর। একটু ঘুরে দেখলে হবে?",
+          "en": "Your house is really beautiful. May I take a look around?"
         },
         {
-          "speaker": "리한",
-          "ko": "저는 회사 기숙사에 살아요. 투안 씨는요?",
-          "bn": "আমি কোম্পানির ডরমিটরিতে থাকি। আর আপনি, তুয়ান সাহেব?",
-          "en": "I live in the company dormitory. How about you, Tuan?"
+          "speaker": "과장",
+          "ko": "그럼요. 천천히 구경하세요.",
+          "bn": "অবশ্যই। ধীরে ধীরে দেখুন।",
+          "en": "Of course. Take your time looking around."
         },
         {
-          "speaker": "투안",
-          "ko": "저는 원룸에 살아요. 기숙사는 어때요?",
-          "bn": "আমি ওয়ানরুমে থাকি। ডরমিটরি কেমন?",
-          "en": "I live in a one-room. How is the dormitory?"
+          "speaker": "디안",
+          "ko": "과장님은 왜 한옥에서 살아요?",
+          "bn": "ম্যানেজার সাহেব, আপনি হানোকে কেন থাকেন?",
+          "en": "Why do you live in a hanok?"
         },
         {
-          "speaker": "리한",
-          "ko": "방은 좀 작지만 회사에서 가까워서 좋아요.",
-          "bn": "রুম একটু ছোট কিন্তু কোম্পানির কাছাকাছি হওয়ায় ভালো।",
-          "en": "The room is a bit small, but it's good because it's close to the company."
+          "speaker": "과장",
+          "ko": "작년 여름까지는 아파트에서 살았어요. 그런데 너무 답답해서 이 집으로 이사했어요.",
+          "bn": "গত গ্রীষ্ম পর্যন্ত অ্যাপার্টমেন্টে ছিলাম। কিন্তু খুব দমবন্ধ লাগত, তাই এই বাড়িতে চলে এসেছি।",
+          "en": "I lived in an apartment until last summer. But it felt too stifling, so I moved to this house."
         },
         {
-          "speaker": "투안",
-          "ko": "그렇군요. 제 원룸은 넓지만 월세가 좀 비싸요.",
-          "bn": "তাই নাকি। আমার ওয়ানরুম বড় কিন্তু মাসিক ভাড়া একটু বেশি।",
-          "en": "I see. My one-room is spacious, but the monthly rent is a bit expensive."
+          "speaker": "디안",
+          "ko": "마당이 넓고 나무가 많네요. 마당에 나가 봐도 돼요?",
+          "bn": "উঠানটা বড় আর অনেক গাছ আছে। উঠানে একটু গেলে হবে?",
+          "en": "The yard is wide and there are many trees. May I go out into the yard?"
+        },
+        {
+          "speaker": "과장",
+          "ko": "그럼요. 날씨가 좋으니까 우리 마당에서 차를 마셔요.",
+          "bn": "অবশ্যই। আবহাওয়া ভালো, চলুন উঠানে বসে চা খাই।",
+          "en": "Sure. The weather is nice, so let's have tea in the yard."
         }
       ]
     },
     {
-      "titleBn": "খাবার খাওয়ার নিয়ম",
-      "titleEn": "Dining Etiquette",
+      "titleBn": "জন্মদিনের খাবার নিয়ে কথা",
+      "titleEn": "Talking about Birthday Food",
       "lines": [
         {
-          "speaker": "바루",
-          "ko": "지훈 씨, 한국에서는 밥을 먹을 때 그릇을 들고 먹으면 안 돼요?",
-          "bn": "জিহুন সাহেব, কোরিয়াতে ভাত খাওয়ার সময় বাটি তুলে খাওয়া কি নিষেধ?",
-          "en": "Jihoon, is it not allowed to hold the bowl while eating rice in Korea?"
+          "speaker": "진수",
+          "ko": "왕민 씨, 중국에서도 생일에 미역국을 먹어요?",
+          "bn": "ওয়াংমিন, চীনেও কি জন্মদিনে শৈবালের স্যুপ খায়?",
+          "en": "Wangmin, do you also eat seaweed soup on birthdays in China?"
         },
         {
-          "speaker": "지훈",
-          "ko": "네, 한국에서는 밥그릇을 식탁에 놓고 먹어야 해요.",
-          "bn": "হ্যাঁ, কোরিয়াতে ভাতের বাটি টেবিলে রেখে খেতে হয়।",
-          "en": "Yes, in Korea, you should leave the rice bowl on the table while eating."
+          "speaker": "왕민",
+          "ko": "아니요, 한국에서는 생일에 미역국을 먹는데 중국에서는 국수를 먹어요.",
+          "bn": "না, কোরিয়ায় জন্মদিনে শৈবালের স্যুপ খায়, কিন্তু চীনে নুডলস খায়।",
+          "en": "No. In Korea people eat seaweed soup on birthdays, but in China we eat noodles."
         },
         {
-          "speaker": "바루",
-          "ko": "아, 그렇군요. 몰랐어요.",
-          "bn": "আহ, তাই নাকি। আমি জানতাম না।",
-          "en": "Ah, I see. I didn't know."
+          "speaker": "진수",
+          "ko": "국수는 언제 먹어요?",
+          "bn": "নুডলস কখন খাওয়া হয়?",
+          "en": "When do you eat noodles?"
         },
         {
-          "speaker": "지훈",
-          "ko": "그리고 국은 숟가락으로 먹고, 반찬은 젓가락으로 먹어요.",
-          "bn": "আর স্যুপ চামচ দিয়ে খেতে হয়, এবং তরকারি চপস্টিক দিয়ে খেতে হয়।",
-          "en": "And you eat soup with a spoon, and side dishes with chopsticks."
+          "speaker": "왕민",
+          "ko": "국수는 생일에도 먹고 결혼식 날에도 먹어요.",
+          "bn": "নুডলস জন্মদিনেও খাই, বিয়ের দিনেও খাই।",
+          "en": "We eat noodles on birthdays and also on wedding days."
         },
         {
-          "speaker": "바루",
-          "ko": "네, 알겠습니다. 가르쳐 주셔서 감사합니다.",
-          "bn": "হ্যাঁ, বুঝতে পেরেছি। শিখিয়ে দেওয়ার জন্য ধন্যবাদ।",
-          "en": "Yes, I understand. Thank you for teaching me."
+          "speaker": "진수",
+          "ko": "예전에는 한국에서도 결혼식 날 국수를 먹었어요. 손님들에게 국수를 대접했어요.",
+          "bn": "আগে কোরিয়াতেও বিয়ের দিনে নুডলস খাওয়া হতো। অতিথিদের নুডলস দিয়ে আপ্যায়ন করা হতো।",
+          "en": "In the past, people in Korea also ate noodles on wedding days. They served noodles to the guests."
+        },
+        {
+          "speaker": "왕민",
+          "ko": "그래요? 한국에서도 국수는 좋은 날 먹는 음식이네요.",
+          "bn": "তাই নাকি? তাহলে কোরিয়াতেও নুডলস শুভ দিনের খাবার।",
+          "en": "Really? So in Korea, too, noodles are a food for happy occasions."
         }
       ]
     },
     {
-      "titleBn": "বাড়ি খোঁজা",
-      "titleEn": "Looking for a House",
+      "titleBn": "খাওয়ার টেবিলে কোরিয়ান শিষ্টাচার",
+      "titleEn": "Table Manners at a Korean Meal",
       "lines": [
         {
-          "speaker": "투안",
-          "ko": "아주머니, 이 근처에 원룸 있어요?",
-          "bn": "আন্টি, এই আশেপাশে কি ওয়ানরুম আছে?",
-          "en": "Ma'am, is there a one-room around here?"
+          "speaker": "프엉",
+          "ko": "선배님, 저 먼저 숟가락을 들어도 돼요?",
+          "bn": "সিনিয়র ভাই, আমি কি আগে চামচ তুলতে পারি?",
+          "en": "May I pick up my spoon first?"
         },
         {
-          "speaker": "부동산 아주머니",
-          "ko": "네, 좋은 방이 하나 있어요. 보증금 500만 원에 월세 40만 원이에요.",
-          "bn": "হ্যাঁ, একটি ভালো রুম আছে। জামানত ৫ মিলিয়ন ওন এবং মাসিক ভাড়া ৪ লক্ষ ওন।",
-          "en": "Yes, there is a good room. The deposit is 5 million won and the monthly rent is 400,000 won."
+          "speaker": "선배",
+          "ko": "한국에서는 어른이 먼저 수저를 든 다음에 먹어요. 조금만 기다리세요.",
+          "bn": "কোরিয়ায় বড়রা আগে চামচ-কাঠি তোলার পর খাওয়া শুরু হয়। একটু অপেক্ষা করুন।",
+          "en": "In Korea the elder picks up the spoon and chopsticks first, then we eat. Please wait a moment."
         },
         {
-          "speaker": "투안",
-          "ko": "관리비는 따로 내야 해요?",
-          "bn": "রক্ষণাবেক্ষণ খরচ কি আলাদা দিতে হবে?",
-          "en": "Do I have to pay the maintenance fee separately?"
+          "speaker": "프엉",
+          "ko": "네, 알겠습니다. 반찬은 젓가락으로 먹어도 돼요?",
+          "bn": "আচ্ছা, বুঝেছি। সাইড ডিশ কি কাঠি দিয়ে খাওয়া যায়?",
+          "en": "All right, I understand. May I eat the side dishes with chopsticks?"
         },
         {
-          "speaker": "부동산 아주머니",
-          "ko": "네, 관리비는 한 달에 5만 원이에요.",
-          "bn": "হ্যাঁ, রক্ষণাবেক্ষণ খরচ মাসে ৫০ হাজার ওন।",
-          "en": "Yes, the maintenance fee is 50,000 won a month."
+          "speaker": "선배",
+          "ko": "네, 반찬은 젓가락으로 먹는데 밥과 국은 숟가락으로 먹어요.",
+          "bn": "হ্যাঁ, সাইড ডিশ কাঠি দিয়ে খাওয়া হয়, কিন্তু ভাত আর স্যুপ চামচ দিয়ে খাওয়া হয়।",
+          "en": "Yes, side dishes are eaten with chopsticks, but rice and soup are eaten with a spoon."
         },
         {
-          "speaker": "투안",
-          "ko": "방을 먼저 볼 수 있을까요?",
-          "bn": "আমি কি আগে রুমটি দেখতে পারি?",
-          "en": "Can I see the room first?"
+          "speaker": "프엉",
+          "ko": "국그릇을 손으로 들고 먹어도 돼요?",
+          "bn": "স্যুপের বাটি হাতে তুলে খাওয়া যায়?",
+          "en": "May I hold the soup bowl in my hand while eating?"
         },
         {
-          "speaker": "부동산 아주머니",
-          "ko": "그럼요. 같이 가 봅시다.",
-          "bn": "অবশ্যই। চলুন একসাথে গিয়ে দেখি।",
-          "en": "Of course. Let's go see it together."
+          "speaker": "선배",
+          "ko": "아니요, 그릇을 들고 먹으면 안 돼요. 그리고 먹기 전에 \"잘 먹겠습니다.\"라고 인사하세요.",
+          "bn": "না, বাটি তুলে খাওয়া চলবে না। আর খাওয়ার আগে \"জাল মগেৎসুমনিদা\" বলে সৌজন্য প্রকাশ করুন।",
+          "en": "No, you must not eat holding the bowl. And before eating, say \"jal meokgesseumnida.\""
         }
       ]
     }
@@ -665,568 +709,564 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন। (একটি ছোট এক কামরার বাসার ছবি)",
-      "questionKo": "다음 그림을 보고 알맞은 단어를 고르십시오.",
+      "questionBn": "'한옥'-এর সঠিক বাংলা অর্থ কোনটি?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "기숙사",
-        "아파트",
-        "원룸",
-        "주택"
+        "অ্যাপার্টমেন্ট",
+        "কোরিয়ার ঐতিহ্যবাহী বাড়ি",
+        "অফিস ভবন",
+        "দোকান"
       ],
-      "answer": 2,
-      "explanationBn": "ছবিতে একটি এক কামরার বাসা বা '원룸' (ওয়ানরুম) দেখানো হয়েছে।"
+      "answer": 1,
+      "explanationBn": "한옥 মানে কোরিয়ার ঐতিহ্যবাহী কাঠের বাড়ি, যেখানে 마당 (উঠান) ও 마루 থাকে। অ্যাপার্টমেন্ট = 아파트, অফিস = 사무실, দোকান = 가게।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 한국 사람은 밥을 먹을 때 무엇을 사용해요?\n나: 밥과 국은 ( )으로 먹어요.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "অ্যাপার্টমেন্টে ঢোকার দরজাকে কোরিয়ান ভাষায় কী বলে?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "포크",
-        "젓가락",
-        "칼",
-        "숟가락"
+        "대문",
+        "지붕",
+        "현관문",
+        "베란다"
       ],
-      "answer": 3,
-      "explanationBn": "কোরিয়ানরা ভাত এবং স্যুপ '숟가락' (চামচ) দিয়ে খায়।"
+      "answer": 2,
+      "explanationBn": "পাঠে বলা আছে 한옥에는 대문이 있지만 아파트에는 현관문이 있어요—হানোকে 대문 (বড় ফটক), অ্যাপার্টমেন্টে 현관문 (প্রবেশদ্বার)। 지붕 = ছাদ, 베란다 = বারান্দা।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 집이 어때요?\n나: 방이 두 개 있고 ( )이/가 넓어서 좋아요.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "'답답하다' শব্দটির অর্থ কী?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "거실",
-        "월세",
-        "전세",
-        "고시원"
+        "দমবন্ধ লাগা",
+        "পছন্দ হওয়া",
+        "ঘুরে দেখা",
+        "আপ্যায়ন করা"
       ],
       "answer": 0,
-      "explanationBn": "বাড়িতে দুটি রুম আছে এবং '거실' (বসার ঘর) বড় হওয়ায় ভালো।"
+      "explanationBn": "답답하다 = দমবন্ধ/বদ্ধ লাগা; কথোপকথনে 과장님 বলেছেন অ্যাপার্টমেন্ট 너무 답답해서 হানোকে চলে এসেছেন। 마음에 들다 = পছন্দ হওয়া, 둘러보다 = ঘুরে দেখা, 대접하다 = আপ্যায়ন করা।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক ব্যাকরণ বেছে নিন।\n손을 ( ) 밥을 먹습니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 날씨가 쌀쌀해지면 ___을/를 해야 됩니다. (ঠান্ডা পড়লে কী করতে হয়?)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "씻고",
-        "씻은 후에",
-        "씻기 전에",
-        "씻어서"
+        "냉방",
+        "난방",
+        "수리",
+        "교환"
       ],
       "answer": 1,
-      "explanationBn": "হাত ধোয়ার পরে ভাত খাই। তাই '씻은 후에' সঠিক।"
+      "explanationBn": "ঠান্ডা হলে 난방 (হিটিং) দিতে হয়। 냉방 = শীতাতপ/ঠান্ডা করা, 수리 = মেরামত, 교환 = বদল করা।"
     },
     {
       "id": "p5",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n한국에서는 식사할 때 밥그릇을 들고 먹으면 안 됩니다. 식탁에 ( ) 먹어야 합니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "কোরিয়ার ঐতিহ্যবাহী মেঝে গরম করার ব্যবস্থার নাম কী?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "들고",
-        "잡고",
-        "놓고",
-        "버리고"
+        "마루",
+        "담",
+        "거실",
+        "온돌"
       ],
-      "answer": 2,
-      "explanationBn": "কোরিয়াতে ভাতের বাটি টেবিলে '놓고' (রেখে) খেতে হয়।"
+      "answer": 3,
+      "explanationBn": "온돌 হলো মেঝের নিচ দিয়ে তাপ চালিয়ে ঘর গরম রাখার কোরিয়ান পদ্ধতি। 마루 = কাঠের বসার মেঝে, 담 = সীমানা দেয়াল, 거실 = বসার ঘর।"
     },
     {
       "id": "p6",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n저는 매달 집주인에게 ( )을/를 냅니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "'-아도/어도 되다' বসান: 이 빵을 먹___ 돼요?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "보증금",
-        "관리비",
-        "전세",
-        "월세"
+        "아도",
+        "어도",
+        "해도",
+        "으도"
       ],
-      "answer": 3,
-      "explanationBn": "প্রতি মাসে বাড়ির মালিককে '월세' (মাসিক ভাড়া) দিতে হয়।"
+      "answer": 1,
+      "explanationBn": "먹다-এর মূল স্বর 'ㅓ', তাই '-어도 되다' → 먹어도 돼요? '-아도' বসে ㅏ/ㅗ স্বরে (가다 → 가도), '-해도' বসে 하다-ক্রিয়ায়; '으도' বলে কিছু নেই।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "সঠিক ব্যাকরণ বেছে নিন।\n주말에 친구를 만나거나 집에서 ( ).",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 좀 더운데 창문을 ___ 돼요? (জানালা খোলার অনুমতি চাওয়া)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "쉽니다",
-        "쉬고",
-        "쉰 후에",
-        "쉬기 전에"
+        "열어도",
+        "열도",
+        "여어도",
+        "열으도"
       ],
       "answer": 0,
-      "explanationBn": "সপ্তাহান্তে বন্ধুর সাথে দেখা করি বা বাড়িতে '쉽니다' (বিশ্রাম নিই)।"
+      "explanationBn": "열다 + -어도 되다 = 열어도 돼요? বাকি রূপগুলো ব্যাকরণসম্মত নয়—'-도 되다' সরাসরি মূলে বসে না, আগে '-아도/어도' লাগে।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "সঠিক ব্যাকরণ বেছে নিন।\n아침에 빵( ) 우유를 먹습니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোন বাক্যের নিম্নরেখাঙ্কিত অংশটি সঠিক?",
+      "questionKo": "밑줄 친 부분이 맞는 문장을 고르세요.",
       "options": [
-        "나",
-        "이나",
-        "은",
-        "는"
+        "이 의자에 좀 앉어도 돼요?",
+        "사무실 앞에 주차하도 돼요?",
+        "극장에서 사진을 찍어도 돼요?",
+        "여기에서 담배를 피우도 돼요?"
       ],
-      "answer": 1,
-      "explanationBn": "빵 (রুটি) ব্যঞ্জনবর্ণ দিয়ে শেষ হয়েছে, তাই '이나' বসবে।"
+      "answer": 2,
+      "explanationBn": "찍다 + -어도 되다 = 찍어도 돼요 (সঠিক)। 앉다-এর স্বর 'ㅏ', তাই 앉아도 হবে; 주차하다 → 주차해도; 피우다 → 피워도। তাই বাকি তিনটি ভুল।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "부엌",
-          "right": "রান্নাঘর"
-        },
-        {
-          "left": "화장실",
-          "right": "বাথরুম"
-        },
-        {
-          "left": "반찬",
-          "right": "তরকারি"
-        },
-        {
-          "left": "기숙사",
-          "right": "ছাত্রাবাস"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'방바닥에 앉아야 돼요?' প্রশ্নের সবচেয়ে মানানসই উত্তর কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
+      "options": [
+        "아니요, 소파에 앉아도 돼요.",
+        "네, 소파가 넓어요.",
+        "아니요, 마당이 좁아요.",
+        "네, 난방을 해요."
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 0,
+      "explanationBn": "প্রশ্নটি 'মেঝেতেই বসতে হবে?'—উত্তর: না, সোফাতেও বসা যায় (소파에 앉아도 돼요), অর্থাৎ অনুমতি দেওয়া হচ্ছে। বাকি উত্তরগুলো প্রশ্নের সঙ্গে সম্পর্কহীন তথ্য দেয়।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "questionBn": "বাড়ির অংশের নামের সঙ্গে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
-          "left": "맵다",
-          "right": "ঝাল"
+          "left": "마당",
+          "right": "উঠান"
         },
         {
-          "left": "짜다",
-          "right": "নোনতা"
+          "left": "지붕",
+          "right": "ছাদ"
         },
         {
-          "left": "달다",
-          "right": "মিষ্টি"
+          "left": "거실",
+          "right": "বসার ঘর"
         },
         {
-          "left": "식사하다",
-          "right": "খাওয়া"
+          "left": "베란다",
+          "right": "বারান্দা"
+        },
+        {
+          "left": "방바닥",
+          "right": "ঘরের মেঝে"
         }
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "সব শব্দই এই অধ্যায়ের '주거 문화' শব্দতালিকা থেকে নেওয়া—한옥-এর অংশ (마당, 지붕, 방바닥) ও 아파트-এর অংশ (거실, 베란다)।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "ছবি দেখে সঠিক শব্দটি বাছাই করুন। (একটি খাবারের টেবিলের ছবি)",
-      "questionKo": "다음 그림을 보고 알맞은 단어를 고르십시오.",
+      "questionBn": "কোরিয়ানরা জন্মদিনে কোন খাবারটি খায়?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "식탁",
-        "그릇",
-        "부엌",
-        "거실"
+        "팥죽",
+        "오곡밥",
+        "미역국",
+        "삼계탕"
       ],
-      "answer": 0,
-      "explanationBn": "ছবিতে একটি '식탁' (খাবারের টেবিল) দেখানো হয়েছে।"
+      "answer": 2,
+      "explanationBn": "জন্মদিনে 미역국 (শৈবালের স্যুপ) খাওয়া হয়। 팥죽 খাওয়া হয় 동지-তে, 오곡밥 정월대보름-এ, আর 삼계탕 복날-এ।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 레몬 맛이 어때요?\n나: 아주 ( ).",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 한국 사람들은 복날에 ___을 먹어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "달아요",
-        "셔요",
-        "써요",
-        "매워요"
+        "삼계탕",
+        "팥죽",
+        "깍두기",
+        "생선회"
       ],
-      "answer": 1,
-      "explanationBn": "লেবুর স্বাদ টক, তাই '셔요' (টক) সঠিক।"
+      "answer": 0,
+      "explanationBn": "복날 হলো গ্রীষ্মের সবচেয়ে গরম দিন; তখন শক্তি ফেরাতে 삼계탕 খাওয়া হয়। 팥죽 = শীতের 동지-র খাবার, 깍두기 = মুলার কিমচি, 생선회 = কাঁচা মাছ।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n가: 이사할 집을 찾았어요?\n나: 네, ( )에 가서 계약했어요.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 밥을 먹을 때에는 숟가락을 쓰고 반찬을 먹을 때는 젓가락을 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "부동산",
-        "식당",
-        "병원",
-        "은행"
+        "비교합니다",
+        "정리합니다",
+        "사용합니다",
+        "포장합니다"
       ],
-      "answer": 0,
-      "explanationBn": "বাড়ি খোঁজার জন্য '부동산' (রিয়েল এস্টেট এজেন্সি) এ যেতে হয়।"
+      "answer": 2,
+      "explanationBn": "কাঠি 'ব্যবহার করা' = 사용합니다। 비교하다 = তুলনা করা, 정리하다 = গুছিয়ে রাখা, 포장하다 = প্যাক করা—কোনোটিই কাঠির সঙ্গে যায় না।"
     },
     {
       "id": "p14",
       "type": "multiple-choice",
-      "questionBn": "সঠিক ব্যাকরণ বেছে নিন।\n밥을 ( ) 텔레비전을 봅니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "'대접하다' শব্দটির অর্থ কী?",
+      "questionKo": "알맞은 것을 고르세요.",
       "options": [
-        "먹고",
-        "먹거나",
-        "먹은 후에",
-        "먹기 전에"
+        "রান্না করা",
+        "আপ্যায়ন করা / খাবার পরিবেশন করা",
+        "অর্ডার দেওয়া",
+        "ভাগ করে নেওয়া"
       ],
-      "answer": 0,
-      "explanationBn": "ভাত খাই এবং টেলিভিশন দেখি। তাই '먹고' সঠিক।"
+      "answer": 1,
+      "explanationBn": "대접하다 মানে অতিথিকে খাবার দিয়ে আপ্যায়ন করা—পাঠে: 결혼식에서 손님들에게 국수를 대접했어요। রান্না করা = 요리하다, অর্ডার দেওয়া = 주문하다, ভাগ করা = 나누다।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n한국에서는 어른이 먼저 식사를 시작한 ( ) 밥을 먹어야 합니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "options": [
-        "전에",
-        "후에",
-        "때",
-        "동안"
+      "type": "matching",
+      "questionBn": "বিশেষ দিনের সঙ্গে সেই দিনের খাবার মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
+      "pairs": [
+        {
+          "left": "생일",
+          "right": "미역국"
+        },
+        {
+          "left": "동지",
+          "right": "팥죽"
+        },
+        {
+          "left": "정월대보름",
+          "right": "오곡밥"
+        },
+        {
+          "left": "복날",
+          "right": "삼계탕"
+        }
       ],
-      "answer": 1,
-      "explanationBn": "বয়স্করা খাওয়া শুরু করার '후에' (পরে) খেতে হয়।"
+      "explanationBn": "অধ্যায়ের '음식 문화' অংশ অনুযায়ী প্রতিটি বিশেষ দিনের নির্দিষ্ট খাবার আছে; '에' যোগে বলা হয়—동지에 팥죽을 먹어요।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n월세 외에 매달 ( )도 내야 합니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "'-는데/(으)ㄴ데' বসান: 떡볶이는 매___ 김밥은 안 매워요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "보증금",
-        "관리비",
-        "전세",
-        "식비"
+        "는데",
+        "었는데",
+        "ㅁ데",
+        "운데"
       ],
-      "answer": 1,
-      "explanationBn": "মাসিক ভাড়ার পাশাপাশি '관리비' (রক্ষণাবেক্ষণ খরচ) ও দিতে হয়।"
+      "answer": 3,
+      "explanationBn": "맵다 বিশেষণ, ㅂ-অনিয়মিত: 맵다 → 매운데। বিশেষণে '-는데' বসে না ('-(으)ㄴ데' বসে); '었는데' অতীত রূপ, 'ㅁ데' বলে কোনো রূপ নেই।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "সঠিক ব্যাকরণ বেছে নিন।\n주말에 책을 ( ) 영화를 봅니다.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'토요일은 출근___ 일요일은 출근을 안 해요.' — শূন্যস্থানে কোনটি বসবে?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "읽고",
-        "읽거나",
-        "읽은 후에",
-        "읽기 전에"
+        "한데",
+        "해는데",
+        "하은데",
+        "하는데"
       ],
-      "answer": 1,
-      "explanationBn": "সপ্তাহান্তে বই পড়ি বা সিনেমা দেখি। তাই '읽거나' সঠিক।"
+      "answer": 3,
+      "explanationBn": "출근하다 ক্রিয়া, তাই '-는데': 출근하는데। ক্রিয়ায় '-(으)ㄴ데' বসে না—'한데', '하은데', '해는데' সবই ভুল রূপ।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।\n국이 너무 ( ) 소금을 조금 넣었어요.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'가: 택배를 대문 앞에 두고 가도 돼요?' — নিষেধ করে দেওয়া উত্তরটি কোনটি?",
+      "questionKo": "알맞은 대답을 고르세요.",
       "options": [
-        "짜서",
-        "매워서",
-        "싱거워서",
-        "달아서"
+        "아니요, 대문 앞에 두고 가면 안 돼요.",
+        "네, 대문이 넓어요.",
+        "아니요, 대문을 열어도 돼요.",
+        "네, 현관문에 두고 가면 안 돼요."
       ],
-      "answer": 2,
-      "explanationBn": "স্যুপ '싱거워서' (লবণ কম হওয়ায়) একটু লবণ দিয়েছি।"
+      "answer": 0,
+      "explanationBn": "নিষেধ প্রকাশে '-(으)면 안 되다' ব্যবহার হয়: 두고 가면 안 돼요 (রেখে গেলে চলবে না)। বিকল্প ২ ও ৪ 'নে' দিয়ে শুরু হয়েও অর্থে অসংগত, ৩ নম্বরটি উল্টো অনুমতি দিচ্ছে।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
+      "questionBn": "খাওয়ার সঙ্গে সম্পর্কিত শব্দের সঙ্গে বাংলা অর্থ মিলান।",
+      "questionKo": "서로 맞는 것을 연결하세요.",
       "pairs": [
         {
-          "left": "보증금",
-          "right": "জামানত"
+          "left": "반찬",
+          "right": "সাইড ডিশ"
         },
         {
-          "left": "관리비",
-          "right": "রক্ষণাবেক্ষণ খরচ"
+          "left": "숟가락",
+          "right": "চামচ"
         },
         {
-          "left": "부동산",
-          "right": "রিয়েল এস্টেট"
+          "left": "젓가락",
+          "right": "কাঠি"
         },
         {
-          "left": "계약하다",
-          "right": "চুক্তি করা"
+          "left": "깍두기",
+          "right": "মুলার কিমচি"
+        },
+        {
+          "left": "생선구이",
+          "right": "গ্রিল করা মাছ"
         }
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "explanationBn": "সব শব্দই অধ্যায়ের '음식 문화' তালিকা থেকে; কোরিয়ার খাবারে 숟가락 দিয়ে ভাত-স্যুপ আর 젓가락 দিয়ে 반찬 খাওয়া হয়।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "কোরিয়ান শব্দের সাথে সঠিক বাংলা অর্থ মিল করুন।",
-      "pairs": [
-        {
-          "left": "싱겁다",
-          "right": "স্বাদহীন"
-        },
-        {
-          "left": "쓰다",
-          "right": "তেতো"
-        },
-        {
-          "left": "시다",
-          "right": "টক"
-        },
-        {
-          "left": "맛있다",
-          "right": "সুস্বাদু"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 한국 사람들은 젓가락을 사용___ 우리 나라 사람들은 포크를 사용해요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "한데",
+        "하는데",
+        "해서",
+        "하면"
       ],
-      "questionKo": "서로 맞는 것을 연결하세요.",
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দ বা বাক্যের সঙ্গে তার সঠিক বাংলা অর্থ মিলিয়ে দেখুন।"
+      "answer": 1,
+      "explanationBn": "দুই দেশের বৈপরীত্য বোঝাতে ক্রিয়ায় '-는데': 사용하는데। '해서' কারণ বোঝায়, '하면' শর্ত বোঝায়, '한데' ভুল রূপ।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "저는 회사 기숙사에 삽니다. 기숙사에는 방이 많습니다. 제 방에는 침대와 책상이 있습니다. 화장실은 방 밖에 있습니다. 여러 사람이 같이 화장실을 사용합니다.",
+      "questionBn": "নিচের শব্দটির সঙ্গে সম্পর্কিত শব্দ কোনটি?",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "한옥",
       "options": [
-        "방 안에 화장실이 있습니다.",
-        "기숙사에는 방이 하나만 있습니다.",
-        "이 사람은 아파트에 삽니다.",
-        "화장실을 다른 사람들과 같이 씁니다."
+        "마당",
+        "지하철",
+        "은행",
+        "휴가"
       ],
-      "answer": 3,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে বাথরুম রুমের বাইরে এবং অনেক মানুষ একসাথে বাথরুম ব্যবহার করে। তাই সঠিক উত্তর '화장실을 다른 사람들과 같이 씁니다' (অন্যদের সাথে বাথরুম ব্যবহার করি)।"
+      "answer": 0,
+      "explanationBn": "한옥-এর সঙ্গে 마당 (উঠান) সম্পর্কিত—হানোকে 마당, 마루, 대문 থাকে। 지하철 = পাতাল রেল, 은행 = ব্যাংক, 휴가 = ছুটি; এগুলো বাড়ির অংশ নয়।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionBn": "শূন্যস্থানে সবচেয়ে মানানসই শব্দটি বাছুন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "한국에서는 밥을 먹을 때 숟가락과 젓가락을 사용합니다. 국은 ( )으로 먹고, 반찬은 젓가락으로 먹습니다.",
+      "passage": "밥을 먹을 때에는 숟가락을 쓰고 반찬을 먹을 때는 젓가락을 (      ).",
       "options": [
-        "포크",
-        "손",
-        "숟가락",
-        "칼"
+        "비교합니다",
+        "정리합니다",
+        "포장합니다",
+        "사용합니다"
       ],
-      "answer": 2,
-      "explanationBn": "কোরিয়াতে স্যুপ '숟가락' (চামচ) দিয়ে খাওয়া হয়।"
+      "answer": 3,
+      "explanationBn": "'젓가락을 사용합니다' = কাঠি ব্যবহার করা হয়—এটাই স্বাভাবিক সংযোগ। 비교하다 = তুলনা করা, 정리하다 = গোছানো, 포장하다 = মুড়ে দেওয়া।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionBn": "শূন্যস্থানে সবচেয়ে মানানসই শব্দটি বাছুন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 집을 구했어요?\n나: 네, 회사 근처에 ( )을/를 구했어요. 방은 작지만 혼자 살기 좋아요.",
+      "passage": "한국은 제 고향보다 춥습니다. 날씨가 쌀쌀해지면 (      )을/를 해야 됩니다.",
       "options": [
-        "거실",
-        "원룸",
-        "부엌",
-        "아파트"
+        "냉방",
+        "난방",
+        "수리",
+        "교환"
       ],
       "answer": 1,
-      "explanationBn": "একা থাকার জন্য ছোট রুম হলো '원룸' (ওয়ানরুম)।"
+      "explanationBn": "ঠান্ডা পড়লে 난방 (ঘর গরম করা) দরকার। 냉방 উল্টোটা মানে ঠান্ডা করা, 수리 = মেরামত, 교환 = বিনিময়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "한국 사람들은 식사할 때 밥그릇을 들고 먹지 않습니다. 식탁에 놓고 먹습니다. 그리고 어른이 먼저 식사를 시작한 후에 밥을 먹습니다.",
+      "questionBn": "নিম্নরেখাঙ্কিত অংশ সঠিক আছে এমন বাক্যটি বাছুন।",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "밥그릇을 식탁에 놓고 먹어야 합니다.",
-        "식사할 때 말을 많이 해야 합니다.",
-        "어른보다 먼저 밥을 먹어야 합니다.",
-        "밥그릇을 들고 먹어야 합니다."
+        "이 의자에 좀 앉어도 돼요?",
+        "사무실 앞에 주차하도 돼요?",
+        "여기에서 담배를 피우도 돼요?",
+        "극장에서 사진을 찍어도 돼요?"
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে কোরিয়ানরা ভাতের বাটি টেবিলে রেখে খায়। তাই '밥그릇을 식탁에 놓고 먹어야 합니다' সঠিক।"
+      "answer": 3,
+      "explanationBn": "찍다 → 찍어도 돼요 (সঠিক)। 앉다-এর স্বর ㅏ হওয়ায় 앉아도, 주차하다 → 주차해도, 피우다 → 피워도 হওয়া উচিত—তাই বাকি তিনটি রূপ ভুল।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 김치찌개가 어때요?\n나: 조금 ( ) 맛있어요.",
+      "questionBn": "শূন্যস্থানে সবচেয়ে মানানসই প্রকাশটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 알맞은 표현을 고르십시오.",
+      "passage": "나는 지난 주말에 이사를 했습니다. 새집 근처에는 공원이 있어서 산책을 할 수 있고 마트도 가깝습니다. 새집이 정말 (      ).",
       "options": [
-        "짜지만",
-        "달지만",
-        "싱겁지만",
-        "맵지만"
+        "마음에 듭니다",
+        "답답합니다",
+        "좁고 어둡습니다",
+        "보증금이 비쌉니다"
       ],
-      "answer": 3,
-      "explanationBn": "কিমচি চিগে সাধারণত ঝাল হয়। তাই '맵지만' (ঝাল হলেও) সঠিক।"
+      "answer": 0,
+      "explanationBn": "পার্ক ও মার্ট কাছে—সব ভালো দিক বলার পর স্বাভাবিক উপসংহার '마음에 듭니다' (পছন্দ হয়েছে)। 답답합니다 = দমবন্ধ লাগে, বাকি দুটি নেতিবাচক বর্ণনা যা আগের বাক্যের সঙ্গে মেলে না।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 투안 씨, 지금 어디에 살아요?\n남자: 저는 회사 기숙사에 살아요.",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে লেখার সঙ্গে মিলে যায় এমন বাক্যটি বাছুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국에서는 식사를 시작할 때 어른이 먼저 음식을 드신 다음에 아랫사람이 먹습니다. 숟가락으로는 밥과 국을 먹고, 젓가락으로는 반찬을 먹습니다. 숟가락과 젓가락을 동시에 들지 말아야 하며, 밥그릇이나 국그릇을 손으로 들고 먹으면 안 됩니다. 보통 밥과 국은 개인별로 먹지만 반찬은 함께 나눠 먹습니다.",
       "options": [
-        "남자는 아파트에 삽니다.",
-        "남자는 고시원에 삽니다.",
-        "남자는 기숙사에 삽니다.",
-        "남자는 원룸에 삽니다."
+        "밥을 먹을 때 어린 사람이 먼저 먹습니다.",
+        "그릇을 들고 먹는 것은 예절에 어긋납니다.",
+        "보통 밥과 국을 사람들이 함께 나눠 먹습니다.",
+        "숟가락과 젓가락을 같이 들어도 됩니다."
       ],
-      "answer": 2,
-      "explanationBn": "পুরুষটি বলেছে যে সে কোম্পানির ডরমিটরিতে (기숙사) থাকে।"
+      "answer": 1,
+      "explanationBn": "লেখায় স্পষ্ট: 밥그릇이나 국그릇을 손으로 들고 먹으면 안 됩니다—তাই বাটি হাতে তুলে খাওয়া শিষ্টাচারবিরুদ্ধ। বড়রা আগে খান (১ ভুল), ভাত-স্যুপ আলাদা করে খাওয়া হয় (৩ ভুল), চামচ-কাঠি একসঙ্গে তোলা নিষেধ (৪ ভুল)।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 한국에서는 밥을 먹을 때 어떻게 해야 해요?\n여자: 밥그릇을 식탁에 놓고 먹어야 해요. 그리고 어른이 먼저 드신 후에 먹어야 해요.",
+      "section": "reading",
+      "questionBn": "নিচের শব্দের সঙ্গে সম্পর্কিত শব্দটি বাছুন।",
+      "questionKo": "다음 단어와 관계있는 것은 무엇입니까?",
+      "passage": "생일",
       "options": [
-        "숟가락만 사용합니다.",
-        "어른이 먼저 식사를 시작합니다.",
-        "밥그릇을 들고 먹습니다.",
-        "식탁에 앉지 않습니다."
+        "팥죽",
+        "오곡밥",
+        "미역국",
+        "삼계탕"
       ],
-      "answer": 1,
-      "explanationBn": "মহিলাটি বলেছে যে বয়স্করা আগে খাওয়া শুরু করার পর খেতে হয়। তাই '어른이 먼저 식사를 시작합니다' সঠিক।"
+      "answer": 2,
+      "explanationBn": "কোরিয়ায় জন্মদিনে 미역국 খাওয়া হয়। 팥죽 = 동지-র খাবার, 오곡밥 = 정월대보름-এর খাবার, 삼계탕 = 복날-এর খাবার।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 반찬이 참 많네요. 이 국은 무슨 국이에요?\n남자: 된장찌개예요. 숟가락으로 드세요.",
+      "section": "reading",
+      "questionBn": "নিচের বিজ্ঞপ্তিটি পড়ে যা করা যাবে না তা বাছুন।",
+      "questionKo": "다음을 읽고 맞지 않는 것을 고르십시오.",
+      "passage": "한옥 체험관 안내\n- 관람 시간: 오전 10시 ~ 오후 5시\n- 마당과 마루는 자유롭게 구경해도 됩니다.\n- 안방에 들어갈 때는 신발을 벗으세요.\n- 마당에서 사진을 찍어도 됩니다.\n- 방바닥에서 음식을 드시면 안 됩니다.",
       "options": [
-        "식탁에 반찬이 많습니다.",
-        "남자는 젓가락으로 국을 먹으라고 합니다.",
-        "여자는 지금 요리를 하고 있습니다.",
-        "된장찌개는 맵습니다."
+        "마루를 구경할 수 있습니다.",
+        "마당에서 사진을 찍을 수 있습니다.",
+        "방바닥에서 음식을 먹을 수 있습니다.",
+        "안방에 들어갈 때 신발을 벗어야 합니다."
       ],
-      "answer": 0,
-      "explanationBn": "মহিলাটি বলেছে '반찬이 참 많네요' (অনেক তরকারি আছে)। তাই '식탁에 반찬이 많습니다' সঠিক।"
+      "answer": 2,
+      "explanationBn": "বিজ্ঞপ্তিতে বলা আছে 방바닥에서 음식을 드시면 안 됩니다—মেঝেতে খাওয়া নিষেধ, তাই ৩ নম্বরটি ভুল। বাকি তিনটি বিজ্ঞপ্তির সঙ্গে মিলে যায়।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "저는 다음 달에 이사를 합니다. 지금 사는 원룸은 방이 작아서 불편합니다. 그래서 어제 부동산에 가서 조금 더 큰 방을 계약했습니다.",
+      "questionBn": "নিচের লেখাটি পড়ে লেখার সঙ্গে মিলে যায় এমন বাক্যটি বাছুন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "저는 작년까지 아파트에서 살았습니다. 아파트는 난방이 잘되고 편리했는데 너무 답답했습니다. 그래서 올해 마당이 넓은 한옥으로 이사했습니다. 아침에는 마루에 앉아서 차를 마십니다. 겨울에는 조금 춥지만 저는 이 집이 아주 마음에 듭니다.",
       "options": [
-        "이 사람은 어제 방을 계약했습니다.",
-        "지금 사는 방은 아주 큽니다.",
-        "이 사람은 아파트로 이사합니다.",
-        "이 사람은 내년에 이사합니다."
+        "이 사람은 지금 아파트에서 삽니다.",
+        "이 사람은 한옥의 마루에서 차를 마십니다.",
+        "이 사람은 한옥이 마음에 들지 않습니다.",
+        "이 사람은 아파트가 추워서 이사했습니다."
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে সে গতকাল রিয়েল এস্টেট এজেন্সিতে গিয়ে রুম চুক্তি করেছে। তাই '이 사람은 어제 방을 계약했습니다' সঠিক।"
+      "answer": 1,
+      "explanationBn": "লেখায় আছে 아침에는 마루에 앉아서 차를 마십니다। এখন তিনি হানোকে থাকেন (১ ভুল), বাড়িটি খুব পছন্দ (৩ ভুল), আর অ্যাপার্টমেন্ট ছাড়ার কারণ ছিল 답답해서, ঠান্ডা নয় (৪ ভুল)।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionBn": "শূন্যস্থানে সবচেয়ে মানানসই অংশটি বাছুন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 방을 구했어요?\n나: 네, 보증금 300만 원에 ( ) 30만 원인 방을 구했어요.",
+      "passage": "한국에서는 생일에 미역국을 (      ) 중국에서는 국수를 먹습니다.",
       "options": [
-        "전세",
-        "월세",
-        "관리비",
-        "식비"
+        "먹어서",
+        "먹으면",
+        "먹는데",
+        "먹어도"
       ],
-      "answer": 1,
-      "explanationBn": "জামানতের সাথে সাধারণত '월세' (মাসিক ভাড়া) থাকে। তাই '월세' সঠিক।"
+      "answer": 2,
+      "explanationBn": "দুই দেশের বৈপরীত্য বোঝাতে ক্রিয়ায় '-는데': 먹는데। '먹어서' কারণ, '먹으면' শর্ত, '먹어도' ছাড় বা অনুমতি বোঝায়—কোনোটিই এখানে বৈপরীত্য দেখায় না।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "한국에서는 밥그릇을 들고 먹으면 안 됩니다. 밥그릇을 ( )에 놓고 먹어야 합니다.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "여자: 마당이 넓어요?",
       "options": [
-        "의자",
-        "침대",
-        "식탁",
-        "바닥"
+        "네, 마당이 있어요.",
+        "네, 마당이 깨끗해요.",
+        "아니요, 마당이 시원해요.",
+        "아니요, 마당이 좁아요."
       ],
-      "answer": 2,
-      "explanationBn": "ভাতের বাটি '식탁' (খাবারের টেবিল) এ রেখে খেতে হয়।"
+      "answer": 3,
+      "explanationBn": "'넓어요?' (চওড়া?) প্রশ্নের 'না' উত্তর হবে বিপরীত অর্থে 좁아요 (সরু)। বাকিগুলো প্রশ্নের বিষয় (আকার) নিয়ে উত্তর দেয় না—থাকা, পরিষ্কার বা ঠান্ডা হওয়ার কথা বলে।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "পরবর্তী লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
-      "passage": "한국 음식은 보통 맵습니다. 하지만 맵지 않은 음식도 많습니다. 불고기나 비빔밥은 외국인들도 좋아합니다.",
+      "section": "listening",
+      "questionBn": "শুনে বলুন দুজন কী নিয়ে কথা বলছেন?",
+      "questionKo": "두 사람은 무엇에 대해 말하고 있습니까?",
+      "passage": "남자: 한국 사람들은 더운 여름에 뭘 먹어요?\n여자: 시원한 냉면이나 삼계탕을 많이 먹어요.",
       "options": [
-        "한국 음식은 모두 맵습니다.",
-        "외국인들은 한국 음식을 싫어합니다.",
-        "불고기는 아주 맵습니다.",
-        "맵지 않은 한국 음식도 있습니다."
+        "음식",
+        "계절",
+        "여행",
+        "휴가"
       ],
-      "answer": 3,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে ঝাল নয় এমন খাবারও অনেক আছে। তাই '맵지 않은 한국 음식도 있습니다' সঠিক।"
+      "answer": 0,
+      "explanationBn": "냉면, 삼계탕—দুজনেই খাবারের কথা বলছেন, তাই বিষয় 음식। গ্রীষ্মের উল্লেখ থাকলেও মূল আলোচনা ঋতু (계절) নয়; ভ্রমণ (여행) বা ছুটি (휴가)-র কথা আসেনি।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가: 이 국이 어때요?\n나: 소금이 안 들어가서 조금 ( ).",
+      "section": "listening",
+      "questionBn": "শুনে পরের কথা হিসেবে সবচেয়ে মানানসই বাক্যটি বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 어제가 생일이었지요? 맛있는 거 먹었어요?",
       "options": [
-        "싱거워요",
-        "매워요",
-        "짜요",
-        "달아요"
+        "초대해 주셔서 감사해요.",
+        "친구들과 축하 파티를 하려고요.",
+        "나도 한번 먹어 보고 싶어요.",
+        "어머니가 미역국을 끓여 주셨어요."
       ],
-      "answer": 0,
-      "explanationBn": "লবণ না দেওয়ায় স্যুপ '싱거워요' (স্বাদহীন/লবণ কম)।"
+      "answer": 3,
+      "explanationBn": "প্রশ্নটি অতীত নিয়ে—'কিছু ভালো খেয়েছেন?' তাই উত্তরে খাওয়া খাবারের কথা: 어머니가 미역국을 끓여 주셨어요। বিকল্প ২ ভবিষ্যতের পরিকল্পনা, ১ ও ৩ প্রশ্নের সঙ্গে অসংগত।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 이 방은 보증금 500만 원에 월세 40만 원이에요.\n남자: 관리비는 따로 내야 해요?\n여자: 네, 한 달에 5만 원이에요.",
+      "questionBn": "শুনে শোনা কথার সঙ্গে মিলে যায় এমন বাক্যটি বাছুন।",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "passage": "여자: 이사 축하해요. 드디어 한옥에서 살게 되었네요. 아파트보다 불편한 게 많을 텐데 괜찮겠어요?\n남자: 물론 불편하겠지요. 그래도 마당이 넓은 집에서 꼭 살아 보고 싶었어요.\n여자: 마당에 꽃이 피면 더 좋을 것 같네요. 참 예쁜 집이에요.",
       "options": [
-        "월세는 50만 원입니다.",
-        "관리비는 한 달에 5만 원입니다.",
-        "보증금은 없습니다.",
-        "관리비는 월세에 포함되어 있습니다."
+        "남자는 얼마 전에 한옥으로 이사를 했습니다.",
+        "여자는 아파트 생활이 불편하다고 생각합니다.",
+        "여자는 마당이 넓은 집에서 살아 보고 싶었습니다.",
+        "남자는 한옥이 아파트보다 편리하다고 생각합니다."
       ],
-      "answer": 1,
-      "explanationBn": "মহিলাটি বলেছে যে রক্ষণাবেক্ষণ খরচ মাসে ৫০ হাজার ওন। তাই '관리비는 한 달에 5만 원입니다' সঠিক।"
+      "answer": 0,
+      "explanationBn": "মহিলা '이사 축하해요' বলে অভিনন্দন জানাচ্ছেন, অর্থাৎ পুরুষটি সদ্য হানোকে উঠেছেন। মহিলা বরং হানোককেই অসুবিধাজনক ভাবছেন (২ ভুল), বড় উঠানের বাড়িতে থাকতে চেয়েছিলেন পুরুষটি (৩ ভুল), আর পুরুষটি নিজেই বলেছেন 불편하겠지요 (৪ ভুল)।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 수루 씨, 한국 음식 어때요?\n여자: 김치는 조금 맵지만 맛있어요. 불고기는 달고 맛있어요.",
+      "questionBn": "শুনে শোনা কথার সঙ্গে মিলে যায় এমন বাক্যটি বাছুন।",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "passage": "남자: 신랑, 신부가 정말 예쁘네요. 프엉 씨, 결혼식도 끝났으니 빨리 밥 먹으러 갑시다.\n여자: 밥이 아니라 국수를 먹어야죠. 신랑, 신부가 행복하게 오래 살기를 바라면서요.\n남자: 그래도 저는 국수보다는 밥이 더 좋아요.",
       "options": [
-        "여자는 한국 음식을 싫어합니다.",
-        "불고기는 맵습니다.",
-        "김치는 맵지만 맛있습니다.",
-        "여자는 김치를 못 먹습니다."
+        "여자는 건강을 위해서 국수를 먹습니다.",
+        "두 사람은 곧 식사하러 갈 것입니다.",
+        "남자는 고기보다 국수를 더 좋아합니다.",
+        "두 사람은 오늘 결혼식을 했습니다."
       ],
-      "answer": 2,
-      "explanationBn": "মহিলাটি বলেছে যে কিমচি একটু ঝাল হলেও সুস্বাদু। তাই '김치는 맵지만 맛있습니다' সঠিক।"
+      "answer": 1,
+      "explanationBn": "পুরুষটি বলছেন 빨리 밥 먹으러 갑시다—তাই তারা এখনই খেতে যাবে। মহিলা নুডলস খেতে চান বর-কনের দীর্ঘ সুখী জীবন কামনায়, স্বাস্থ্যের জন্য নয় (১ ভুল); পুরুষটি নুডলসের চেয়ে ভাত পছন্দ করেন (৩ ভুল); বিয়েটি তাদের নিজের নয় (৪ ভুল)।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "কথাটি শুনে 올바른 행동을 고르십시오.",
+      "questionBn": "শুনে বলুন মহিলা পুরুষটিকে কী করার অনুমতি দিচ্ছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 한국에서는 식사할 때 코를 풀면 안 돼요.\n남자: 아, 그래요? 몰랐어요. 조심할게요.",
+      "passage": "남자: 좀 더운데 창문을 열어도 돼요?\n여자: 네, 창문을 여세요. 그런데 베란다 문은 열면 안 돼요.",
       "options": [
-        "식사할 때 코를 풀어도 됩니다.",
-        "남자는 한국 식사 예절을 잘 압니다.",
-        "여자는 남자에게 화를 냈습니다.",
-        "식사할 때 코를 풀면 안 됩니다."
+        "베란다 문을 열어도 됩니다.",
+        "난방을 켜도 됩니다.",
+        "창문을 열어도 됩니다.",
+        "마당에 나가도 됩니다."
       ],
-      "answer": 3,
-      "explanationBn": "মহিলাটি বলেছে যে কোরিয়াতে খাওয়ার সময় নাক ঝাড়া নিষেধ। তাই '식사할 때 코를 풀면 안 됩니다' সঠিক।"
+      "answer": 2,
+      "explanationBn": "মহিলা বলেছেন 네, 창문을 여세요—জানালা খোলার অনুমতি দিচ্ছেন, কিন্তু 베란다 문은 열면 안 돼요 বলে বারান্দার দরজা নিষেধ করছেন। হিটিং বা উঠানে যাওয়ার কথা আলোচনায় আসেনি।"
     }
   ]
 }
