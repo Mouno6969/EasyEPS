@@ -10,317 +10,57 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "অফিসের সাধারণ সুবিধার নাম এবং ব্যবহার শেখা।",
-      "সম্মেলন কক্ষ বা 휴게실 ব্যবহার করার অনুমতি চাইতে এবং অনুরোধ করতে পারা।",
-      "বিভিন্ন অফিস নির্দেশিকা পড়ে সঠিক সিদ্ধান্ত নিতে পারা।",
-      "কর্মস্থলে সংক্ষিপ্ত কথোপকথনে অংশগ্রহণ করা।"
+      "ছাত্রাবাসের ঘর, করিডোর, লন্ড্রি রুম, শাওয়ার রুম ও রান্নাঘরের মতো সুবিধাগুলোর নাম বলতে পারা এবং সেগুলো সম্পর্কে কথা বলতে পারা",
+      "ছাত্রাবাসের নিয়ম মানা বা ভাঙা নিয়ে কথা বলতে পারা এবং সহকর্মীদের নিয়ম মনে করিয়ে দিতে পারা",
+      "কোম্পানির ক্যান্টিনে খাবারের টিকিট কেনা, ট্রে নেওয়া, মেনু বোর্ড দেখা ও ট্রে ফেরত দেওয়ার কথা বলতে পারা",
+      "কোনো কাজ শেষ করে তার ফল ধরে রাখা বোঝাতে এবং শ্রোতা জানে এমন তথ্য নিশ্চিত করতে সঠিক প্রকাশভঙ্গি ব্যবহার করতে পারা"
     ],
     "en": [
-      "Learn common company facility names and how to use them.",
-      "Ask for permission and make requests for using meeting rooms or the break room.",
-      "Read simple office instructions and follow them.",
-      "Participate in short workplace conversations."
+      "Name and describe dormitory facilities such as the room, hallway, laundry room, shower room and shared kitchen",
+      "Talk about following or breaking dormitory rules and remind coworkers about shared-facility rules",
+      "Talk about using the company cafeteria: buying a meal ticket, taking a tray, checking the menu board and returning the tray",
+      "Use expressions that confirm what the listener already knows and that show a completed action whose result is kept"
     ]
   },
   "vocabulary": [
     {
-      "ko": "회의실",
-      "romanization": "hoeuisil",
-      "bn": "বৈঠক কক্ষ",
-      "en": "meeting room",
+      "ko": "기숙사",
+      "romanization": "gisuksa",
+      "bn": "ছাত্রাবাস, ডরমিটরি",
+      "en": "dormitory",
       "pos": "noun",
       "example": {
-        "ko": "회의실을 예약했어요.",
-        "bn": "আমি বৈঠক কক্ষ বুক করে রেখেছি।",
-        "en": "I reserved the meeting room."
+        "ko": "저는 회사 기숙사에서 살아요.",
+        "bn": "আমি কোম্পানির ডরমিটরিতে থাকি।",
+        "en": "I live in the company dormitory."
       },
-      "pronunciationTipBn": "'의' উচ্চারণটি শব্দের শুরুতে না থাকলে 'ই' এর মতো উচ্চারিত হয়, তাই এটি 'হোয়ে-ই-শিল' হবে।"
+      "pronunciationTipBn": "উচ্চারণ ‘গিসুকসা’, তবে মাঝের অংশের পরে ‘স’ শক্ত হয়ে ‘গিসুকসসা’-এর মতো শোনায়।"
     },
     {
-      "ko": "휴게실",
-      "romanization": "hyugesil",
-      "bn": "বিশ্রাম কক্ষ",
-      "en": "break room",
+      "ko": "방",
+      "romanization": "bang",
+      "bn": "ঘর, রুম",
+      "en": "room",
       "pos": "noun",
       "example": {
-        "ko": "점심 후에 휴게실에서 쉬세요.",
-        "bn": "দুপুরের পর বিশ্রাম কক্ষে বিশ্রাম করুন।",
-        "en": "Please rest in the break room after lunch."
+        "ko": "우리 기숙사는 방을 혼자 써요.",
+        "bn": "আমাদের ডরমিটরিতে ঘর একজনই ব্যবহার করে।",
+        "en": "In our dormitory, we use a room alone."
       },
-      "pronunciationTipBn": "'휴' উচ্চারণ করার সময় ঠোঁট গোল করে 'হিউ' বলুন।"
+      "pronunciationTipBn": "শেষ ব্যঞ্জন নাসিক্য, তাই নাক দিয়ে টেনে ‘বাং’ বলুন, ‘বান’ নয়।"
     },
     {
-      "ko": "식당",
-      "romanization": "sikdang",
-      "bn": "ক্যান্টিন",
-      "en": "cafeteria",
+      "ko": "복도",
+      "romanization": "bokdo",
+      "bn": "করিডোর, প্যাসেজ",
+      "en": "hallway, corridor",
       "pos": "noun",
       "example": {
-        "ko": "식당에 새 메뉴가 있어요.",
-        "bn": "ক্যান্টিনে নতুন মেনু আছে।",
-        "en": "There is a new menu in the cafeteria."
+        "ko": "기숙사 복도에서 시끄럽게 떠들지 마세요.",
+        "bn": "ডরমিটরির করিডোরে জোরে চিৎকার করবেন না।",
+        "en": "Please do not make noise in the dormitory hallway."
       },
-      "pronunciationTipBn": "বাচ্চিম 'ㄱ' এর পর 'ㄷ' আসলে 'ㄷ' শক্ত হয়ে 'ㄸ' (ত) এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "사무실",
-      "romanization": "samusil",
-      "bn": "অফিস",
-      "en": "office",
-      "pos": "noun",
-      "example": {
-        "ko": "사무실은 8시에 문을 열어요.",
-        "bn": "অফিস সকাল ৮টায় খোলে।",
-        "en": "The office opens at 8 AM."
-      },
-      "pronunciationTipBn": "সবগুলো বর্ণ স্বাভাবিকভাবে উচ্চারণ করুন, '실' এর 'ㄹ' বাচ্চিমটি হালকা 'ল' এর মতো হবে।"
-    },
-    {
-      "ko": "주차장",
-      "romanization": "juchajang",
-      "bn": "পার্কিং লট",
-      "en": "parking lot",
-      "pos": "noun",
-      "example": {
-        "ko": "주차장은 지하에 있어요.",
-        "bn": "পার্কিং লট তলাবিল্কে আছে।",
-        "en": "The parking lot is underground."
-      },
-      "pronunciationTipBn": "'주' এবং '차' এর মধ্যে পার্থক্য করুন, '차' তে বাতাস বের হবে (ছ)।"
-    },
-    {
-      "ko": "복사기",
-      "romanization": "boksagi",
-      "bn": "কপি মেশিন",
-      "en": "copier",
-      "pos": "noun",
-      "example": {
-        "ko": "복사기 사용법을 알려 주세요.",
-        "bn": "কপি মেশিন কিভাবে চালাতে হয় জানিয়ে দিন।",
-        "en": "Please tell me how to use the copier."
-      },
-      "pronunciationTipBn": "বাচ্চিম 'ㄱ' এর পর 'ㅅ' আসলে 'ㅅ' শক্ত হয়ে 'ㅆ' (স্স) এর মতো উচ্চারিত হয়।"
-    },
-    {
-      "ko": "엘리베이터",
-      "romanization": "elibeiteo",
-      "bn": "লিফট",
-      "en": "elevator",
-      "pos": "noun",
-      "example": {
-        "ko": "엘리베이터는 몇 층에 멈추나요?",
-        "bn": "লিফট কোন ফ্লোরে থামে?",
-        "en": "Which floors does the elevator stop at?"
-      },
-      "pronunciationTipBn": "'엘' এর 'ㄹ' বাচ্চিম এবং পরের '리' মিলে 'ল্লি' উচ্চারিত হবে।"
-    },
-    {
-      "ko": "로비",
-      "romanization": "robi",
-      "bn": "লব্বি",
-      "en": "lobby",
-      "pos": "noun",
-      "example": {
-        "ko": "손님이 로비에서 기다리고 있어요.",
-        "bn": "অতিথি লব্বিতে অপেক্ষা করছেন।",
-        "en": "A guest is waiting in the lobby."
-      },
-      "pronunciationTipBn": "'로' উচ্চারণ করার সময় 'র' এবং 'ল' এর মাঝামাঝি শব্দ করুন।"
-    },
-    {
-      "ko": "출입증",
-      "romanization": "churipjeung",
-      "bn": "প্রবেশ পাস",
-      "en": "entry badge",
-      "pos": "noun",
-      "example": {
-        "ko": "출입증을 꼭 가지고 다니세요.",
-        "bn": "প্রবেশ পাস সবসময় সঙ্গে রাখবেন।",
-        "en": "Always carry your entry badge."
-      },
-      "pronunciationTipBn": "'출' এর 'ㄹ' বাচ্চিম এবং '입' এর 'ㅂ' বাচ্চিম স্পষ্টভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "보안",
-      "romanization": "boan",
-      "bn": "নিরাপত্তা",
-      "en": "security",
-      "pos": "noun",
-      "example": {
-        "ko": "보안 정책을 읽어 보세요.",
-        "bn": "নিরাপত্তার নিয়মাবলি পড়ে দেখুন।",
-        "en": "Please read the security policy."
-      },
-      "pronunciationTipBn": "'보' এবং '안' আলাদাভাবে স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "체육관",
-      "romanization": "cheyukgwan",
-      "bn": "জিম",
-      "en": "gym",
-      "pos": "noun",
-      "example": {
-        "ko": "저녁에 체육관에 가요.",
-        "bn": "রাতে জিমে যাব।",
-        "en": "I go to the gym in the evening."
-      },
-      "pronunciationTipBn": "'육' এর 'ㄱ' বাচ্চিম এবং '관' এর 'ㄱ' মিলে শক্ত 'ㄲ' (ক্ক) এর মতো উচ্চারিত হতে পারে।"
-    },
-    {
-      "ko": "카페",
-      "romanization": "kape",
-      "bn": "ক্যাফে",
-      "en": "cafe",
-      "pos": "noun",
-      "example": {
-        "ko": "사무실 옆에 작은 카페가 있어요.",
-        "bn": "অফিসের পাশে একটি ছোট ক্যাফে আছে।",
-        "en": "There is a small cafe next to the office."
-      },
-      "pronunciationTipBn": "'카' এবং '페' দুটোতেই বাতাস বের করে উচ্চারণ করুন (খ এবং ফ এর মতো)।"
-    },
-    {
-      "ko": "냉장고",
-      "romanization": "naengjanggo",
-      "bn": "ফ্রিজ",
-      "en": "refrigerator",
-      "pos": "noun",
-      "example": {
-        "ko": "냉장고에 개인 음식은 이름을 붙이세요.",
-        "bn": "ফ্রিজে ব্যক্তিগত খাবারে নাম লিখে রাখুন।",
-        "en": "Label personal food in the refrigerator."
-      },
-      "pronunciationTipBn": "'냉' এর 'ㅇ' বাচ্চিমটি অনুনাসিক 'ং' এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "예약",
-      "romanization": "yeayak",
-      "bn": "বুকিং/রিজার্ভেশন",
-      "en": "reservation",
-      "pos": "noun",
-      "example": {
-        "ko": "회의실 예약을 확인했어요?",
-        "bn": "বৈঠক কক্ষের বুকিং চেক করেছেন কি?",
-        "en": "Did you check the meeting room reservation?"
-      },
-      "pronunciationTipBn": "'예' উচ্চারণটি 'ইয়ে' এর মতো হবে।"
-    },
-    {
-      "ko": "사용하다",
-      "romanization": "sayonghada",
-      "bn": "ব্যবহার করা",
-      "en": "to use",
-      "pos": "verb",
-      "example": {
-        "ko": "프로젝트에 복사기를 사용했어요.",
-        "bn": "প্রকল্পে কপি মেশিন ব্যবহার করেছি।",
-        "en": "I used the copier for the project."
-      },
-      "pronunciationTipBn": "'사' এবং '용' স্বাভাবিকভাবে উচ্চারণ করুন, '용' এর 'ㅇ' বাচ্চিমটি 'ং' হবে।"
-    },
-    {
-      "ko": "예약하다",
-      "romanization": "yeayakhada",
-      "bn": "বুক করা",
-      "en": "to reserve",
-      "pos": "verb",
-      "example": {
-        "ko": "내일 회의실을 예약했어요.",
-        "bn": "আগামীকালের জন্য আমি বৈঠক কক্ষ বুক করেছি।",
-        "en": "I reserved the meeting room for tomorrow."
-      },
-      "pronunciationTipBn": "'예약' এর 'ㄱ' বাচ্চিম এবং '하' এর 'ㅎ' মিলে 'ㅋ' (খ) এর মতো উচ্চারিত হবে।"
-    },
-    {
-      "ko": "고장나다",
-      "romanization": "gojangnada",
-      "bn": "নষ্ট হয়ে যাওয়া",
-      "en": "to break down",
-      "pos": "verb",
-      "example": {
-        "ko": "복사기가 고장났어요. 연락해 주세요.",
-        "bn": "কপি মেশিন নষ্ট হয়ে গেছে। জানিয়ে দিন।",
-        "en": "The copier is broken. Please inform someone."
-      },
-      "pronunciationTipBn": "'장' এর 'ㅇ' বাচ্চিম এবং '나' এর 'ㄴ' স্পষ্টভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "관리자",
-      "romanization": "gwanrija",
-      "bn": "প্রশাসক/ম্যানেজার",
-      "en": "administrator/manager",
-      "pos": "noun",
-      "example": {
-        "ko": "관리자에게 출입증을 신청하세요.",
-        "bn": "প্রবেশ পাসের জন্য প্রশাসকের কাছে আবেদন করুন।",
-        "en": "Apply to the manager for an entry badge."
-      },
-      "pronunciationTipBn": "'관' এর 'ㄴ' বাচ্চিম এবং '리' এর 'ㄹ' মিলে 'ল্লি' উচ্চারিত হবে (গোয়াল্লি-জা)।"
-    },
-    {
-      "ko": "정수기",
-      "romanization": "jeongsugi",
-      "bn": "পানির ফিল্টার",
-      "en": "water purifier",
-      "pos": "noun",
-      "example": {
-        "ko": "정수기에서 물을 마셔요.",
-        "bn": "পানির ফিল্টার থেকে পানি পান করি।",
-        "en": "I drink water from the water purifier."
-      },
-      "pronunciationTipBn": "'정' এর 'ㅇ' বাচ্চিমটি 'ং' এর মতো উচ্চারণ করুন।"
-    },
-    {
-      "ko": "자판기",
-      "romanization": "japangi",
-      "bn": "ভেন্ডিং মেশিন",
-      "en": "vending machine",
-      "pos": "noun",
-      "example": {
-        "ko": "자판기에서 커피를 뽑아요.",
-        "bn": "ভেন্ডিং মেশিন থেকে কফি নিই।",
-        "en": "I get coffee from the vending machine."
-      },
-      "pronunciationTipBn": "'판' এর 'ㅍ' উচ্চারণ করার সময় বাতাস বের করুন (ফ)।"
-    },
-    {
-      "ko": "흡연실",
-      "romanization": "heubyeonsil",
-      "bn": "ধূমপান কক্ষ",
-      "en": "smoking room",
-      "pos": "noun",
-      "example": {
-        "ko": "담배는 흡연실에서 피우세요.",
-        "bn": "সিগারেট ধূমপান কক্ষে পান করুন।",
-        "en": "Please smoke in the smoking room."
-      },
-      "pronunciationTipBn": "'흡' এর 'ㅂ' বাচ্চিম এবং '연' মিলে 'হুব-ইয়ন' এর মতো উচ্চারিত হবে।"
-    },
-    {
-      "ko": "화장실",
-      "romanization": "hwajangsil",
-      "bn": "টয়লেট/বাথরুম",
-      "en": "restroom",
-      "pos": "noun",
-      "example": {
-        "ko": "화장실은 저쪽에 있어요.",
-        "bn": "টয়লেট ওই দিকে আছে।",
-        "en": "The restroom is over there."
-      },
-      "pronunciationTipBn": "'화' উচ্চারণ করার সময় ঠোঁট গোল করে 'হওয়া' বলুন।"
-    },
-    {
-      "ko": "비상구",
-      "romanization": "bisanggu",
-      "bn": "জরুরী প্রস্থান",
-      "en": "emergency exit",
-      "pos": "noun",
-      "example": {
-        "ko": "비상구 위치를 확인하세요.",
-        "bn": "জরুরী প্রস্থানের অবস্থান চেক করুন।",
-        "en": "Please check the location of the emergency exit."
-      },
-      "pronunciationTipBn": "'상' এর 'ㅇ' বাচ্চিমটি 'ং' এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "দ্বিতীয় অক্ষর শক্ত হয়ে যায়, তাই ‘বোকদো’ নয় বরং ‘বোকতো’ শোনায়।"
     },
     {
       "ko": "계단",
@@ -329,345 +69,699 @@
       "en": "stairs",
       "pos": "noun",
       "example": {
-        "ko": "계단으로 올라가세요.",
-        "bn": "সিঁড়ি দিয়ে উপরে যান।",
-        "en": "Please go up the stairs."
+        "ko": "계단에서 담배를 피우지 마세요.",
+        "bn": "সিঁড়িতে সিগারেট খাবেন না।",
+        "en": "Please do not smoke on the stairs."
       },
-      "pronunciationTipBn": "'계' উচ্চারণটি 'গ্যে' এর মতো হবে।"
+      "pronunciationTipBn": "প্রথম অক্ষরের দ্বিস্বর কথ্য ভাষায় সরল হয়ে যায়, তাই ‘গেদান’ বললেই চলে।"
     },
     {
-      "ko": "게시판",
-      "romanization": "gesipan",
-      "bn": "নোটিশ বোর্ড",
-      "en": "notice board",
+      "ko": "출입문",
+      "romanization": "churimmun",
+      "bn": "প্রবেশদ্বার, গেট",
+      "en": "entrance door",
       "pos": "noun",
       "example": {
-        "ko": "게시판에 공지가 있어요.",
-        "bn": "নোটিশ বোর্ডে বিজ্ঞপ্তি আছে।",
-        "en": "There is a notice on the notice board."
+        "ko": "밤 열한 시에 기숙사 출입문을 닫아요.",
+        "bn": "রাত এগারোটায় ডরমিটরির প্রবেশদ্বার বন্ধ করা হয়।",
+        "en": "The dormitory entrance door closes at eleven at night."
       },
-      "pronunciationTipBn": "'판' এর 'ㅍ' উচ্চারণ করার সময় বাতাস বের করুন (ফ)।"
+      "pronunciationTipBn": "প্রথম অক্ষরের শেষ ব্যঞ্জন পরের স্বরে জুড়ে যায়, তাই ‘চুরিম-মুন’ বলুন।"
     },
     {
-      "ko": "쓰레기통",
-      "romanization": "sseuregitong",
-      "bn": "ময়লার ঝুড়ি",
-      "en": "trash can",
+      "ko": "세탁실",
+      "romanization": "setaksil",
+      "bn": "কাপড় ধোয়ার ঘর, লন্ড্রি রুম",
+      "en": "laundry room",
       "pos": "noun",
       "example": {
-        "ko": "쓰레기는 쓰레기통에 버리세요.",
-        "bn": "ময়লা ময়লার ঝুড়িতে ফেলুন।",
-        "en": "Please throw the trash in the trash can."
+        "ko": "늦은 시간에는 세탁실을 사용하지 마세요.",
+        "bn": "রাতে দেরি করে লন্ড্রি রুম ব্যবহার করবেন না।",
+        "en": "Please do not use the laundry room late at night."
       },
-      "pronunciationTipBn": "'쓰' উচ্চারণ করার সময় দাঁত চেপে 'স্স' বলুন।"
+      "pronunciationTipBn": "শেষ অক্ষরটি শক্ত হয়ে যায়, তাই ‘সেতাকসিল’ উচ্চারণে ‘সি’ অংশে জোর দিন।"
     },
     {
-      "ko": "에어컨",
-      "romanization": "eeokeon",
-      "bn": "এয়ার কন্ডিশনার",
-      "en": "air conditioner",
+      "ko": "샤워실",
+      "romanization": "syawosil",
+      "bn": "গোসলখানা, শাওয়ার রুম",
+      "en": "shower room",
       "pos": "noun",
       "example": {
-        "ko": "에어컨을 켜 주세요.",
-        "bn": "দয়া করে এসি চালু করুন।",
-        "en": "Please turn on the air conditioner."
+        "ko": "공용 샤워실은 깨끗하게 사용해야 돼요.",
+        "bn": "সবার ব্যবহারের শাওয়ার রুম পরিষ্কারভাবে ব্যবহার করতে হয়।",
+        "en": "You have to use the communal shower room cleanly."
       },
-      "pronunciationTipBn": "'컨' এর 'ㅋ' উচ্চারণ করার সময় বাতাস বের করুন (খ)।"
+      "pronunciationTipBn": "শুরুতে ঠোঁট গোল করে ‘শা’ বলুন, পুরোটা ‘শাওয়োসিল’ শোনাবে।"
     },
     {
-      "ko": "난방기",
-      "romanization": "nanbanggi",
-      "bn": "হিটার",
-      "en": "heater",
+      "ko": "조리실",
+      "romanization": "jorisil",
+      "bn": "রান্নাঘর, কুকিং রুম",
+      "en": "kitchen, cooking room",
       "pos": "noun",
       "example": {
-        "ko": "겨울에는 난방기를 켜요.",
-        "bn": "শীতকালে হিটার চালু করি।",
-        "en": "We turn on the heater in winter."
+        "ko": "조리실에서 요리한 후에 깨끗하게 정리하세요.",
+        "bn": "রান্নাঘরে রান্না করার পর পরিষ্কার করে গুছিয়ে রাখুন।",
+        "en": "After cooking in the kitchen, please tidy up cleanly."
       },
-      "pronunciationTipBn": "'난' এবং '방' এর বাচ্চিমগুলো স্পষ্টভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "মাঝের ‘রি’ ধ্বনিতে জিভের ডগা হালকা ছোঁয়ান, শব্দটি ‘জোরিসিল’।"
     },
     {
-      "ko": "켜다",
-      "romanization": "kyeoda",
-      "bn": "চালু করা",
-      "en": "to turn on",
-      "pos": "verb",
+      "ko": "휴게실",
+      "romanization": "hyugesil",
+      "bn": "বিশ্রামকক্ষ, রেস্ট রুম",
+      "en": "lounge, break room",
+      "pos": "noun",
       "example": {
-        "ko": "불을 켜 주세요.",
-        "bn": "দয়া করে আলো জ্বালান।",
-        "en": "Please turn on the light."
+        "ko": "휴게실에서 새벽에는 텔레비전을 보면 안 돼요.",
+        "bn": "শেষ রাতে বিশ্রামকক্ষে টেলিভিশন দেখা যাবে না।",
+        "en": "You must not watch television in the lounge at dawn."
       },
-      "pronunciationTipBn": "'켜' উচ্চারণ করার সময় বাতাস বের করুন (খ্য)।"
+      "pronunciationTipBn": "‘হিউগেসিল’ বলুন; মাঝের অক্ষরটি ছোট ‘গে’, লম্বা টান নয়।"
     },
     {
-      "ko": "끄다",
-      "romanization": "kkeuda",
-      "bn": "বন্ধ করা",
-      "en": "to turn off",
-      "pos": "verb",
+      "ko": "공용",
+      "romanization": "gongyong",
+      "bn": "সর্বজনীন, সবার ব্যবহারের জন্য",
+      "en": "communal, shared",
+      "pos": "noun",
       "example": {
-        "ko": "컴퓨터를 끄세요.",
-        "bn": "কম্পিউটার বন্ধ করুন।",
-        "en": "Please turn off the computer."
+        "ko": "조리실과 세탁실은 공용이에요.",
+        "bn": "রান্নাঘর আর লন্ড্রি রুম সবার ব্যবহারের জন্য।",
+        "en": "The kitchen and the laundry room are communal."
       },
-      "pronunciationTipBn": "'끄' উচ্চারণ করার সময় গলা শক্ত করে 'ক্ক' বলুন।"
+      "pronunciationTipBn": "দুই অক্ষরেই নাসিক্য শেষ ধ্বনি, তাই ‘গোং-ইয়োং’ ভেবে টেনে বলুন।"
     },
     {
-      "ko": "정리하다",
-      "romanization": "jeongrihada",
-      "bn": "গুছিয়ে রাখা",
-      "en": "to organize/tidy up",
-      "pos": "verb",
+      "ko": "관리인",
+      "romanization": "gwanriin",
+      "bn": "তত্ত্বাবধায়ক, কেয়ারটেকার",
+      "en": "caretaker, manager",
+      "pos": "noun",
       "example": {
-        "ko": "책상을 정리하세요.",
-        "bn": "টেবিল গুছিয়ে রাখুন।",
-        "en": "Please tidy up the desk."
+        "ko": "문제가 있으면 관리인한테 이야기하세요.",
+        "bn": "সমস্যা হলে কেয়ারটেকারকে বলুন।",
+        "en": "If there is a problem, please talk to the caretaker."
       },
-      "pronunciationTipBn": "'정' এর 'ㅇ' বাচ্চিম এবং '리' এর 'ㄹ' মিলে 'ং-নি' এর মতো উচ্চারিত হতে পারে (জং-নি-হা-দা)।"
+      "pronunciationTipBn": "মাঝের ধ্বনি বদলে গিয়ে ‘গোয়াল্লিইন’-এর মতো শোনায়, ‘গোয়ানরিইন’ নয়।"
     },
     {
-      "ko": "버리다",
-      "romanization": "beorida",
-      "bn": "ফেলে দেওয়া",
-      "en": "to throw away",
+      "ko": "규칙",
+      "romanization": "gyuchik",
+      "bn": "নিয়ম, বিধি",
+      "en": "rule, regulation",
+      "pos": "noun",
+      "example": {
+        "ko": "기숙사에는 지켜야 되는 규칙이 있어요.",
+        "bn": "ডরমিটরিতে মানতে হয় এমন নিয়ম আছে।",
+        "en": "There are rules you have to follow in the dormitory."
+      },
+      "pronunciationTipBn": "‘গিউচিক’ বলুন; শেষ ব্যঞ্জন হাওয়া ছাড়াই থেমে যায়।"
+    },
+    {
+      "ko": "규칙을 지키다",
+      "romanization": "gyuchigeul jikida",
+      "bn": "নিয়ম মেনে চলা",
+      "en": "to follow the rules",
       "pos": "verb",
       "example": {
-        "ko": "쓰레기를 버리세요.",
-        "bn": "ময়লা ফেলে দিন।",
-        "en": "Please throw away the trash."
+        "ko": "여러 사람이 함께 살면 규칙을 잘 지켜야 돼요.",
+        "bn": "অনেকে একসঙ্গে থাকলে নিয়ম ভালোভাবে মেনে চলতে হয়।",
+        "en": "When many people live together, you have to follow the rules well."
       },
-      "pronunciationTipBn": "'버' এবং '리' স্বাভাবিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "‘গিউচিগেউল জিকিদা’; প্রথম শব্দের শেষ ব্যঞ্জন পরের স্বরে জুড়ে যায়।"
+    },
+    {
+      "ko": "규칙을 어기다",
+      "romanization": "gyuchigeul eogida",
+      "bn": "নিয়ম ভাঙা",
+      "en": "to break the rules",
+      "pos": "verb",
+      "example": {
+        "ko": "규칙을 어기면 다른 사람들이 불편해해요.",
+        "bn": "নিয়ম ভাঙলে অন্যদের অসুবিধা হয়।",
+        "en": "If you break the rules, other people are inconvenienced."
+      },
+      "pronunciationTipBn": "‘অগিদা’ অংশে মুখ একটু খুলে বলুন, ‘ওগিদা’ নয়।"
+    },
+    {
+      "ko": "다른",
+      "romanization": "dareun",
+      "bn": "অন্য, ভিন্ন",
+      "en": "other, different",
+      "pos": "determiner",
+      "example": {
+        "ko": "방을 다른 사람과 함께 사용해요?",
+        "bn": "ঘর কি অন্য কারও সঙ্গে ব্যবহার করেন?",
+        "en": "Do you share the room with another person?"
+      },
+      "pronunciationTipBn": "‘দারেউন’ বলুন; দ্বিতীয় স্বর ঠোঁট না গোল করে গলার ভেতর থেকে আসে।"
+    },
+    {
+      "ko": "데려오다",
+      "romanization": "deryeooda",
+      "bn": "সঙ্গে নিয়ে আসা",
+      "en": "to bring (someone) along",
+      "pos": "verb",
+      "example": {
+        "ko": "기숙사에 친구를 데려오면 안 돼요.",
+        "bn": "ডরমিটরিতে বন্ধুকে নিয়ে আসা যাবে না।",
+        "en": "You must not bring a friend to the dormitory."
+      },
+      "pronunciationTipBn": "‘দেরিয়ো-ওদা’ চার অক্ষরে সমান তালে বলুন, শেষে টান দেবেন না।"
+    },
+    {
+      "ko": "혼자",
+      "romanization": "honja",
+      "bn": "একা, একলা",
+      "en": "alone, by oneself",
+      "pos": "adverb",
+      "example": {
+        "ko": "저는 기숙사 방을 혼자 써요.",
+        "bn": "আমি ডরমিটরির ঘর একা ব্যবহার করি।",
+        "en": "I use the dormitory room by myself."
+      },
+      "pronunciationTipBn": "‘হোনজা’; প্রথম অক্ষরের শেষে জিভ উপরের দাঁতের পিছনে রাখুন।"
+    },
+    {
+      "ko": "생활하다",
+      "romanization": "saenghwalhada",
+      "bn": "জীবনযাপন করা, বাস করা",
+      "en": "to live, to lead one's daily life",
+      "pos": "verb",
+      "example": {
+        "ko": "기숙사에서는 여러 사람이 함께 생활해요.",
+        "bn": "ডরমিটরিতে অনেকে একসঙ্গে জীবনযাপন করে।",
+        "en": "Many people live together in the dormitory."
+      },
+      "pronunciationTipBn": "‘সেংহোয়ালহাদা’; মাঝের অংশে ঠোঁট গোল করে ‘হোয়া’ আনুন।"
+    },
+    {
+      "ko": "구내식당",
+      "romanization": "gunaesikdang",
+      "bn": "প্রতিষ্ঠানের ক্যান্টিন, কোম্পানির খাবার ঘর",
+      "en": "cafeteria, staff canteen",
+      "pos": "noun",
+      "example": {
+        "ko": "우리 공장 구내식당은 음식이 맛있어요.",
+        "bn": "আমাদের কারখানার ক্যান্টিনের খাবার সুস্বাদু।",
+        "en": "The food at our factory cafeteria is delicious."
+      },
+      "pronunciationTipBn": "শেষ অংশ শক্ত হয়ে যায়, তাই ‘গুনেসিকতাং’-এর মতো শোনায়।"
+    },
+    {
+      "ko": "배식대",
+      "romanization": "baesikdae",
+      "bn": "খাবার পরিবেশনের কাউন্টার",
+      "en": "serving station",
+      "pos": "noun",
+      "example": {
+        "ko": "배식대에서 밥과 국을 받으세요.",
+        "bn": "পরিবেশন কাউন্টার থেকে ভাত আর সুপ নিন।",
+        "en": "Please get rice and soup at the serving station."
+      },
+      "pronunciationTipBn": "‘বেসিকতে’ বলুন; শেষ অক্ষরের স্বর ছোট ‘এ’।"
+    },
+    {
+      "ko": "식수대",
+      "romanization": "siksudae",
+      "bn": "খাবার পানির কল, ওয়াটার স্টেশন",
+      "en": "water station, drinking fountain",
+      "pos": "noun",
+      "example": {
+        "ko": "식수대에서 물을 받아 마셔요.",
+        "bn": "ওয়াটার স্টেশন থেকে পানি নিয়ে খাই।",
+        "en": "I get water from the water station and drink it."
+      },
+      "pronunciationTipBn": "‘সিকসুদে’; প্রথম অক্ষরের শেষ ব্যঞ্জন থেমে যায়, হাওয়া ছাড়বেন না।"
+    },
+    {
+      "ko": "퇴식구",
+      "romanization": "toesikgu",
+      "bn": "ব্যবহৃত ট্রে ফেরত দেওয়ার জায়গা",
+      "en": "tray return area",
+      "pos": "noun",
+      "example": {
+        "ko": "밥을 다 먹은 후에 식판을 퇴식구에 놓으세요.",
+        "bn": "খাওয়া শেষ হলে ট্রে ফেরত দেওয়ার জায়গায় রাখুন।",
+        "en": "After you finish eating, put the tray in the tray return area."
+      },
+      "pronunciationTipBn": "‘তোয়েসিককু’-এর মতো শোনায়; শেষ অক্ষর শক্ত হয়ে যায়।"
+    },
+    {
+      "ko": "식단표",
+      "romanization": "sikdanpyo",
+      "bn": "খাবারের তালিকা, মেনু বোর্ড",
+      "en": "menu board",
+      "pos": "noun",
+      "example": {
+        "ko": "식단표에서 오늘의 메뉴를 확인했어요.",
+        "bn": "মেনু বোর্ডে আজকের খাবার দেখে নিয়েছি।",
+        "en": "I checked today's menu on the menu board."
+      },
+      "pronunciationTipBn": "‘সিকতানপিয়ো’; শেষ অক্ষরে হাওয়া ছেড়ে ‘পিয়ো’ বলুন।"
+    },
+    {
+      "ko": "식권",
+      "romanization": "sikgwon",
+      "bn": "খাবারের টিকিট, মিল কুপন",
+      "en": "meal ticket",
+      "pos": "noun",
+      "example": {
+        "ko": "식권을 미리 사면 할인이 돼요.",
+        "bn": "আগে থেকে খাবারের টিকিট কিনলে ছাড় পাওয়া যায়।",
+        "en": "If you buy meal tickets in advance, you get a discount."
+      },
+      "pronunciationTipBn": "‘সিককোয়ন’-এর মতো শোনায়; দ্বিতীয় অক্ষরে ঠোঁট গোল করুন।"
+    },
+    {
+      "ko": "식판",
+      "romanization": "sikpan",
+      "bn": "খাবারের ট্রে, ভাগ করা থালা",
+      "en": "food tray",
+      "pos": "noun",
+      "example": {
+        "ko": "식판에는 밥과 국, 반찬을 모두 담을 수 있어요.",
+        "bn": "ট্রেতে ভাত, সুপ আর সব পদ একসঙ্গে নেওয়া যায়।",
+        "en": "You can put rice, soup and side dishes all on the food tray."
+      },
+      "pronunciationTipBn": "‘সিকপান’ বলার সময় দ্বিতীয় অক্ষরে জোরে হাওয়া ছাড়ুন।"
+    },
+    {
+      "ko": "담다",
+      "romanization": "damda",
+      "bn": "পাত্রে তুলে নেওয়া, বেড়ে নেওয়া",
+      "en": "to put (food) on a plate",
+      "pos": "verb",
+      "example": {
+        "ko": "그릇에 반찬을 담아요.",
+        "bn": "বাটিতে তরকারি তুলে নিই।",
+        "en": "I put the side dish in the bowl."
+      },
+      "pronunciationTipBn": "‘দামদা’; প্রথম অক্ষরে ঠোঁট বন্ধ করে ‘ম’ ধ্বনি স্পষ্ট করুন।"
+    },
+    {
+      "ko": "반찬",
+      "romanization": "banchan",
+      "bn": "ভাতের সঙ্গে খাওয়ার পদ, তরকারি",
+      "en": "side dish",
+      "pos": "noun",
+      "example": {
+        "ko": "우리 구내식당은 매일 반찬을 여러 가지 준비해요.",
+        "bn": "আমাদের ক্যান্টিন প্রতিদিন কয়েক পদ তরকারি তৈরি করে।",
+        "en": "Our cafeteria prepares several side dishes every day."
+      },
+      "pronunciationTipBn": "‘বানচান’; দ্বিতীয় অক্ষরে জিভ তালুতে ছুঁইয়ে ‘চ’ আনুন।"
+    },
+    {
+      "ko": "놓다",
+      "romanization": "nota",
+      "bn": "রাখা, বসিয়ে দেওয়া",
+      "en": "to place, to put down",
+      "pos": "verb",
+      "example": {
+        "ko": "쓰레기를 복도에 놓지 마세요.",
+        "bn": "আবর্জনা করিডোরে রাখবেন না।",
+        "en": "Please do not put the trash in the hallway."
+      },
+      "pronunciationTipBn": "মাঝের ধ্বনি মিলে গিয়ে ‘নোতা’ শোনায়, ‘নোহদা’ নয়।"
+    },
+    {
+      "ko": "도시락",
+      "romanization": "dosirak",
+      "bn": "টিফিন বাক্স, বাসা থেকে আনা খাবার",
+      "en": "lunchbox",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘은 도시락을 싸 왔어요.",
+        "bn": "আজ আমি টিফিন বেঁধে এনেছি।",
+        "en": "Today I brought a lunchbox."
+      },
+      "pronunciationTipBn": "‘দোসিরাক’; শেষ ব্যঞ্জন হাওয়া ছাড়াই থেমে যায়।"
+    },
+    {
+      "ko": "미리",
+      "romanization": "miri",
+      "bn": "আগে থেকে, অগ্রিম",
+      "en": "in advance, beforehand",
+      "pos": "adverb",
+      "example": {
+        "ko": "식권은 미리 사 놓으세요.",
+        "bn": "খাবারের টিকিট আগে থেকেই কিনে রাখুন।",
+        "en": "Please buy the meal ticket in advance."
+      },
+      "pronunciationTipBn": "‘মিরি’; দুই অক্ষর সমান দৈর্ঘ্যে, জিভের ডগা হালকা ছোঁয়ান।"
+    },
+    {
+      "ko": "할인되다",
+      "romanization": "harindoeda",
+      "bn": "ছাড় পাওয়া, দাম কমা",
+      "en": "to be discounted",
+      "pos": "verb",
+      "example": {
+        "ko": "식권을 여러 장 사면 할인돼요.",
+        "bn": "একসঙ্গে অনেক খাবারের টিকিট কিনলে ছাড় হয়।",
+        "en": "If you buy several meal tickets, you get a discount."
+      },
+      "pronunciationTipBn": "‘হারিনদোয়েদা’; প্রথম অক্ষরের শেষ ব্যঞ্জন পরের স্বরে জুড়ে যায়।"
+    },
+    {
+      "ko": "나오다",
+      "romanization": "naoda",
+      "bn": "বের হওয়া, পরিবেশন করা হওয়া",
+      "en": "to come out, to be served",
+      "pos": "verb",
+      "example": {
+        "ko": "내일은 구내식당에 삼계탕이 나와요.",
+        "bn": "কাল ক্যান্টিনে মুরগির সুপ দেওয়া হবে।",
+        "en": "Tomorrow chicken soup will be served at the cafeteria."
+      },
+      "pronunciationTipBn": "‘নাওদা’ তিন অক্ষরে সমান তালে বলুন, মাঝে থামবেন না।"
+    },
+    {
+      "ko": "끼리",
+      "romanization": "kkiri",
+      "bn": "নিজেদের মধ্যে, একই দলের মধ্যে",
+      "en": "among ourselves, between group members",
+      "pos": "particle",
+      "example": {
+        "ko": "오늘은 우리끼리 먹고 올게요.",
+        "bn": "আজ আমরা নিজেরাই খেয়ে আসব।",
+        "en": "Today we will just eat among ourselves and come back."
+      },
+      "pronunciationTipBn": "শুরুর ব্যঞ্জন টান টান করে বলুন, হাওয়া ছাড়া ‘ক্কিরি’।"
+    },
+    {
+      "ko": "치우다",
+      "romanization": "chiuda",
+      "bn": "পরিষ্কার করা, সরিয়ে ফেলা",
+      "en": "to clear away, to tidy up",
+      "pos": "verb",
+      "example": {
+        "ko": "시설을 사용한 후에는 깨끗이 치워요.",
+        "bn": "সুবিধাটি ব্যবহারের পর পরিষ্কার করে সরিয়ে রাখি।",
+        "en": "After using the facility, I clear it away cleanly."
+      },
+      "pronunciationTipBn": "‘চিউদা’; প্রথম অক্ষরে হাওয়া ছেড়ে ‘চ’ বলুন।"
+    },
+    {
+      "ko": "체력단련실",
+      "romanization": "cheryeokdallyeonsil",
+      "bn": "ব্যায়ামাগার, ফিটনেস রুম",
+      "en": "fitness room, gym",
+      "pos": "noun",
+      "example": {
+        "ko": "회사에 체력단련실도 있어요.",
+        "bn": "কোম্পানিতে একটি ব্যায়ামাগারও আছে।",
+        "en": "There is also a fitness room at the company."
+      },
+      "pronunciationTipBn": "মাঝের অংশ মিলে গিয়ে ‘চেরিয়োক-তাল্লিয়োনসিল’ শোনায়।"
     }
   ],
   "grammar": [
     {
-      "pattern": "~아/어도 돼요",
-      "titleBn": "অনুমতি চাইতে",
-      "explanationBn": "কিছু করতে অনুমতি চাইতে বা অনুমতি দিতে এই বিন্যাচন ব্যবহার করা হয়। '해도 돼요' = 'করতে পারেন'।",
-      "explanationEn": "Used to ask for or give permission. '해도 돼요' = 'you may do (it)'.",
+      "pattern": "A/V + -잖아요",
+      "titleBn": "‘আপনি তো জানেনই’ — শ্রোতার জানা তথ্য মনে করিয়ে দেওয়া",
+      "explanationBn": "ক্রিয়া ও বিশেষণের মূলের সঙ্গে ‘-janayo’ (-janhayo) যোগ করে বক্তা এমন কথা বলেন যা শ্রোতা নিশ্চয়ই জানেন বলে তিনি ধরে নেন — বাংলায় ‘…তো, জানেনই তো’ বা ‘…তাই না?’ ভঙ্গির মতো। কারণ বোঝাতে এটি খুব ব্যবহৃত হয়: প্রথমে নিষেধ বা পরামর্শ বলা হয়, তারপর এই রূপ দিয়ে সবার জানা কারণটি স্মরণ করিয়ে দেওয়া হয়। মূলে ব্যঞ্জন থাকুক বা স্বর, সরাসরি বসে: sikkeureopda থেকে sikkeureopjanayo, manta থেকে manjanayo। অতীত বোঝাতে অতীতের রূপ ভেতরে বসে, যেমন gasyeotjanayo। প্রশ্নের সুরে বললে বক্তা চান শ্রোতা তাঁর কথায় সায় দিন।",
+      "explanationEn": "Attach -잖아요 to a verb or adjective stem to remind the listener of something the speaker assumes they already know: 'you know', 'after all', '..., right?'. It very often supplies the shared reason behind a request or a prohibition. It goes directly onto the stem regardless of a final consonant (시끄럽다 → 시끄럽잖아요, 많다 → 많잖아요), and the past tense is formed inside the ending (가셨잖아요). Used as a question, it invites the listener to agree with the speaker.",
       "examples": [
         {
-          "ko": "회의실을 사용해도 돼요?",
-          "bn": "আমি বৈঠক কক্ষ ব্যবহার করতে পারি?",
-          "en": "May I use the meeting room?"
+          "ko": "밤에는 세탁기를 돌리지 마세요. 시끄럽잖아요.",
+          "bn": "রাতে ওয়াশিং মেশিন চালাবেন না। শব্দ হয় তো।",
+          "en": "Don't run the washing machine at night. It's noisy, you know."
         },
         {
-          "ko": "휴게실에서 쉬어도 돼요.",
-          "bn": "আপনি বিশ্রাম কক্ষে বিশ্রাম করতে পারেন।",
-          "en": "You may rest in the break room."
+          "ko": "방에서 요리하면 안 돼요. 공용 조리실이 있잖아요.",
+          "bn": "ঘরে রান্না করা যাবে না। সবার ব্যবহারের রান্নাঘর তো আছেই।",
+          "en": "You can't cook in your room. There's a communal kitchen, you know."
         },
         {
-          "ko": "여기에 앉아도 돼요?",
-          "bn": "আমি কি এখানে বসতে পারি?",
-          "en": "May I sit here?"
+          "ko": "공용 샤워실은 깨끗하게 사용해야 돼요. 여러 사람이 함께 사용하잖아요.",
+          "bn": "সবার শাওয়ার রুম পরিষ্কারভাবে ব্যবহার করতে হয়। অনেকে তো একসঙ্গে ব্যবহার করে।",
+          "en": "You have to use the shared shower room cleanly — many people use it together, you know."
+        },
+        {
+          "ko": "가: 늦으면 전화해야 되잖아요? 나: 네, 맞아요.",
+          "bn": "ক: দেরি হলে ফোন করতে হয়, তাই না? খ: হ্যাঁ, ঠিক বলেছেন।",
+          "en": "A: You have to call if you're going to be late, right? B: Yes, that's right."
         }
       ],
-      "commonMistakeBn": "অনেকে প্রশ্ন করার সময় গলার স্বর উঁচুতে না তুলে সাধারণ বাক্যের মতো বলেন, ফলে এটি অনুমতি চাওয়ার বদলে অনুমতি দেওয়ার মতো শোনায়।"
+      "commonMistakeBn": "নতুন খবর জানাতে এই রূপ ব্যবহার করা যায় না; শ্রোতা যা জানেন না তা বলতে সাধারণ ‘-ayo/-eoyo’ রূপ বলুন। আর এটি সরাসরি মূলের সঙ্গে বসে, তাই ‘sikkeureowojanayo’ বা ‘isseojanayo’ ভুল — সঠিক রূপ ‘sikkeureopjanayo’ ও ‘itjanayo’।"
     },
     {
-      "pattern": "~아/어 주세요",
-      "titleBn": "আন্তরিকভাবে অনুরোধ করা",
-      "explanationBn": "আরেকজনকে বিনীতভাবে কিছু করতে বলার জন্য ব্যবহার করা হয়—'দিয়ে দিন' বা 'করতে বলুন'।",
-      "explanationEn": "Used to politely request someone to do something—'please do (for me)'.",
+      "pattern": "V + -아/어 놓다",
+      "titleBn": "‘করে রাখা’ — কাজ শেষ করে ফলটি বজায় রাখা",
+      "explanationBn": "ক্রিয়ার সঙ্গে ‘-a/eo nota’ যোগ করলে বোঝায় যে কাজটি আগেই সম্পন্ন করা হয়েছে এবং তার ফল এখনো সেই অবস্থাতেই আছে — বাংলায় ‘করে রেখেছি’, ‘খুলে রেখেছি’, ‘কিনে রেখেছি’ ভঙ্গি। মূলের শেষ স্বর a বা o হলে ‘-a nota’, অন্য স্বর হলে ‘-eo nota’, আর hada শেষ হলে ‘hae nota’: sada থেকে sa nota, yeolda থেকে yeoreo nota, hada থেকে hae nota। ভবিষ্যতের প্রস্তুতি বোঝাতে এটি খুব কাজে লাগে, যেমন আগে থেকে খাবারের টিকিট কিনে রাখা বা জানালা খুলে রাখা। অতীতে ‘-a/eo nwatseoyo’ রূপ বেশি শোনা যায়।",
+      "explanationEn": "Attach -아/어 놓다 to a verb to say the action was completed and its result is being kept that way ('to have something done/left in place'). Choose 아 놓다 after ㅏ/ㅗ stems, 어 놓다 elsewhere, and 해 놓다 for 하다 verbs (사다 → 사 놓다, 열다 → 열어 놓다, 하다 → 해 놓다). It is very common for preparations made in advance, such as buying meal tickets early or leaving a window open. The past form is usually -아/어 놓았어요 (놨어요).",
       "examples": [
         {
-          "ko": "복사기를 고쳐 주세요.",
-          "bn": "দয়া করে কপি মেশিন ঠিক করে দিন।",
-          "en": "Please fix the copier."
+          "ko": "밥을 먹은 후에 식탁을 닦아 놓았어요.",
+          "bn": "খাওয়ার পরে খাবার টেবিল মুছে রেখেছি।",
+          "en": "I wiped the table clean after eating."
         },
         {
-          "ko": "회의실 예약을 확인해 주세요.",
-          "bn": "বৈঠক কক্ষের বুকিংটি চেক করে দিন।",
-          "en": "Please check the meeting room reservation."
+          "ko": "식사 후에는 창문을 좀 열어 놓으세요.",
+          "bn": "খাওয়ার পরে জানালাটা একটু খুলে রাখুন।",
+          "en": "Please leave the window open for a while after meals."
         },
         {
-          "ko": "문을 열어 주세요.",
-          "bn": "দয়া করে দরজাটি খুলে দিন।",
-          "en": "Please open the door."
+          "ko": "고향에 가려고 비행기 표를 예약해 놓았어요.",
+          "bn": "দেশে যাওয়ার জন্য বিমানের টিকিট আগেই বুক করে রেখেছি।",
+          "en": "I've booked a plane ticket to go to my hometown."
+        },
+        {
+          "ko": "식권을 미리 사 놓으면 할인이 돼요.",
+          "bn": "খাবারের টিকিট আগে কিনে রাখলে ছাড় পাওয়া যায়।",
+          "en": "If you buy meal tickets in advance, you get a discount."
         }
       ],
-      "commonMistakeBn": "অনেকে নিজের জন্য কিছু করার ক্ষেত্রে '주세요' এর বদলে শুধু সাধারণ ক্রিয়া ব্যবহার করেন, যা অভদ্র শোনাতে পারে।"
+      "commonMistakeBn": "এটি কেবল কর্মবাচক (সকর্মক) ক্রিয়ার সঙ্গে বসে, তাই ‘gada’ বা ‘oda’-এর মতো ক্রিয়ায় ব্যবহার করা যায় না। মূলের সঙ্গে সংযোজক স্বর ভুল করা সাধারণ ভুল: ‘yeol nota’ নয়, সঠিক ‘yeoreo nota’; আর hada ক্রিয়ায় ‘hago nota’ নয়, সঠিক ‘hae nota’।"
     },
     {
-      "pattern": "~(으)면 안 돼요",
-      "titleBn": "নিষেধ জানাতে",
-      "explanationBn": "কিছু করার অনুমতি নেই বোঝাতে ব্যবহার করা হয়—'এটা করা যাবে না'।",
-      "explanationEn": "Used to tell that something is not allowed—'you must not / may not do (it)'.",
+      "pattern": "V + -지 마세요",
+      "titleBn": "‘করবেন না’ — ভদ্রভাবে নিষেধ করা",
+      "explanationBn": "ক্রিয়ার মূলের সঙ্গে ‘-ji maseyo’ যোগ করে ভদ্রভাবে কোনো কাজ করতে নিষেধ করা হয়। ছাত্রাবাস বা কারখানার নিয়ম-কানুন বোঝাতে এই রূপ সবচেয়ে বেশি ব্যবহৃত হয়, যেমন করিডোরে চিৎকার না করা বা সিঁড়িতে ধূমপান না করা। মূলে ব্যঞ্জন বা স্বর যা-ই থাকুক, রূপ একই থাকে: tteoltda থেকে tteoldeulji maseyo, piuda থেকে piuji maseyo। আরও নরম করতে সামনে ‘jom’ বা শেষে কারণ যোগ করা যায়; কঠোর লিখিত নিয়মে ‘-ji masipsio’ রূপ দেখা যায়।",
+      "explanationEn": "Add -지 마세요 to a verb stem to tell someone politely not to do something. It is the standard way dormitory and factory rules are worded (don't make noise in the hallway, don't smoke on the stairs). The form does not change for a final consonant (떠들다 → 떠들지 마세요, 피우다 → 피우지 마세요). Written notices often use the more formal -지 마십시오.",
       "examples": [
         {
-          "ko": "냉장고에 개인 음식을 오래 두면 안 돼요.",
-          "bn": "ফ্রিজে ব্যক্তিগত খাবার বেশি সময় রাখা যাবে না।",
-          "en": "You must not leave personal food in the fridge for long."
+          "ko": "기숙사 복도에서 시끄럽게 떠들지 마세요.",
+          "bn": "ছাত্রাবাসের করিডোরে জোরে শব্দ করে হইচই করবেন না।",
+          "en": "Please don't make noise in the dormitory hallway."
         },
         {
-          "ko": "엘리베이터에서 담배를 피우면 안 돼요.",
-          "bn": "লিফটে ধূমপান করা চলবে না।",
-          "en": "You must not smoke in the elevator."
+          "ko": "계단에서 담배를 피우지 마세요.",
+          "bn": "সিঁড়িতে সিগারেট খাবেন না।",
+          "en": "Please don't smoke on the stairs."
         },
         {
-          "ko": "여기에 주차하면 안 돼요.",
-          "bn": "এখানে পার্কিং করা যাবে না।",
-          "en": "You must not park here."
+          "ko": "밤에는 세탁기를 돌리지 마세요.",
+          "bn": "রাতে ওয়াশিং মেশিন চালাবেন না।",
+          "en": "Please don't run the washing machine at night."
+        },
+        {
+          "ko": "기숙사에 다른 사람을 데려오지 마세요.",
+          "bn": "ছাত্রাবাসে অন্য কোনো মানুষকে নিয়ে আসবেন না।",
+          "en": "Please don't bring other people into the dormitory."
         }
       ],
-      "commonMistakeBn": "অনেকে বাচ্চিম থাকলে বা না থাকলে '면' এবং '으면' এর ব্যবহারে ভুল করেন। বাচ্চিম থাকলে '으면', না থাকলে '면' বসবে।"
+      "commonMistakeBn": "বিশেষণের সঙ্গে এই রূপ বসে না — কেবল ক্রিয়ার সঙ্গে বসে। আর ‘-ji anaseyo’ বলে নিষেধ করা যায় না; নিষেধ করতে অবশ্যই ‘-ji maseyo’ বলুন। অতীত রূপ ভেতরে বসে না, তাই ‘haetji maseyo’ ভুল।"
     },
     {
-      "pattern": "~(으)니까",
-      "titleBn": "কারণ বোঝাতে",
-      "explanationBn": "কোনো কাজের কারণ বা যুক্তি বোঝাতে এই ব্যাকরণ ব্যবহার করা হয়। 'যেহেতু' বা 'কারণ' অর্থে ব্যবহৃত হয়।",
-      "explanationEn": "Used to express a reason or cause. Means 'because' or 'since'.",
+      "pattern": "V + -아/어야 되다",
+      "titleBn": "‘করতে হয়’ — বাধ্যতা ও অবশ্যপালনীয় নিয়ম",
+      "explanationBn": "ক্রিয়া বা বিশেষণের সঙ্গে ‘-a/eoya doeda’ যোগ করলে বোঝায় কাজটি অবশ্যই করতে হবে — বাংলায় ‘করতে হয়’, ‘করতে হবে’। মূলের শেষ স্বর a বা o হলে ‘-aya doeda’, অন্য স্বর হলে ‘-eoya doeda’, hada শেষ হলে ‘haeya doeda’: jikida থেকে jikyeoya doeda, ssada থেকে ssaya doeda, cheongsohada থেকে cheongsohaeya doeda। কথ্য ভাষায় ‘doeda’ বেশি, লেখায় ও আনুষ্ঠানিক ভাষায় ‘hada’ বেশি ব্যবহৃত হয়। ছাত্রাবাস ও কোম্পানির সুবিধা ব্যবহারের নিয়ম বোঝাতে এটি খুব দরকারি।",
+      "explanationEn": "Attach -아/어야 되다 to a stem to express obligation: 'have to', 'must'. Use 아야 되다 after ㅏ/ㅗ stems, 어야 되다 elsewhere, and 해야 되다 for 하다 verbs (지키다 → 지켜야 되다, 청소하다 → 청소해야 되다). 되다 is more colloquial while 하다 sounds more formal or written, which is why rule notices often read -아/어야 합니다.",
       "examples": [
         {
-          "ko": "비가 오니까 우산을 쓰세요.",
-          "bn": "যেহেতু বৃষ্টি হচ্ছে, তাই ছাতা ব্যবহার করুন।",
-          "en": "Since it's raining, please use an umbrella."
+          "ko": "기숙사에서는 규칙을 잘 지켜야 돼요.",
+          "bn": "ছাত্রাবাসে নিয়মগুলো ভালোভাবে মেনে চলতে হয়।",
+          "en": "You have to follow the rules properly in the dormitory."
         },
         {
-          "ko": "회의실이 좁으니까 다른 곳으로 가요.",
-          "bn": "যেহেতু বৈঠক কক্ষটি ছোট, তাই অন্য জায়গায় যাই।",
-          "en": "Because the meeting room is small, let's go somewhere else."
+          "ko": "공용 샤워실은 깨끗하게 사용해야 돼요.",
+          "bn": "সবার ব্যবহারের শাওয়ার রুম পরিষ্কারভাবে ব্যবহার করতে হয়।",
+          "en": "You have to use the shared shower room cleanly."
         },
         {
-          "ko": "날씨가 더우니까 에어컨을 켜 주세요.",
-          "bn": "যেহেতু আবহাওয়া গরম, তাই এসি চালু করে দিন।",
-          "en": "Since the weather is hot, please turn on the air conditioner."
+          "ko": "조리실에서 요리한 후에는 깨끗하게 정리해야 돼요.",
+          "bn": "রান্নাঘরে রান্না করার পরে পরিষ্কারভাবে গুছিয়ে রাখতে হয়।",
+          "en": "After cooking in the kitchen, you have to tidy up cleanly."
+        },
+        {
+          "ko": "늦으면 관리인한테 전화해야 돼요.",
+          "bn": "দেরি হলে তত্ত্বাবধায়ককে ফোন করতে হয়।",
+          "en": "If you're going to be late, you have to call the caretaker."
         }
       ],
-      "commonMistakeBn": "অনেকে '아/어서' এর সাথে এটিকে গুলিয়ে ফেলেন। আদেশের বা অনুরোধের বাক্যে (세요, 읍시다) '아/어서' ব্যবহার করা যায় না, সেখানে '-(으)니까' ব্যবহার করতে হয়।"
+      "commonMistakeBn": "সংযোজক স্বরটি বাদ দিয়ে সরাসরি মূলের সঙ্গে জোড়া লাগানো সাধারণ ভুল: ‘jikya doeyo’ নয়, সঠিক ‘jikyeoya doeyo’। আবার hada ক্রিয়ায় ‘hayaya doeyo’ নয়, সঠিক ‘haeya doeyo’। নিষেধ বোঝাতে এই রূপ নয়, ‘-eumyeon an doeda’ বলুন।"
     },
     {
-      "pattern": "~기 전에",
-      "titleBn": "কোনো কিছুর আগে",
-      "explanationBn": "কোনো কাজ করার আগে অন্য একটি কাজ করা বোঝাতে এটি ব্যবহৃত হয়। 'করার আগে' অর্থে।",
-      "explanationEn": "Used to express doing something before another action. Means 'before doing'.",
+      "pattern": "V + -(으)면 안 되다",
+      "titleBn": "‘করলে হবে না’ — অনুমতি না থাকা বোঝানো",
+      "explanationBn": "ক্রিয়ার সঙ্গে ‘-(eu)myeon an doeda’ যোগ করলে বোঝায় কাজটি করার অনুমতি নেই — বাংলায় ‘করলে হবে না’, ‘করা যাবে না’। মূল ব্যঞ্জনে শেষ হলে ‘-eumyeon an doeda’, স্বরে শেষ হলে বা রিয়েউল থাকলে ‘-myeon an doeda’: meokda থেকে meogeumyeon an doeda, yorihada থেকে yorihamyeon an doeda। ছাত্রাবাস ও কোম্পানির সুবিধা ব্যবহারের নিষেধাজ্ঞা বোঝাতে এটি ব্যবহৃত হয়, আর অনুমতি চাইতে ‘-ado doeyo?’ প্রশ্নের উত্তর হিসেবেও আসে।",
+      "explanationEn": "Attach -(으)면 안 되다 to a verb to say something is not allowed: 'must not', 'you can't'. Use -으면 after consonant-final stems and -면 after vowel-final or ㄹ stems (먹다 → 먹으면 안 되다, 요리하다 → 요리하면 안 되다). It is the natural negative answer to a permission question formed with -아/어도 돼요?",
       "examples": [
         {
-          "ko": "퇴근하기 전에 컴퓨터를 끄세요.",
-          "bn": "কাজ শেষে বাড়ি যাওয়ার আগে কম্পিউটার বন্ধ করুন।",
-          "en": "Please turn off the computer before leaving work."
+          "ko": "가: 방에서 요리해도 돼요? 나: 안 돼요. 방에서 요리하면 안 돼요.",
+          "bn": "ক: ঘরে রান্না করা যাবে? খ: না, যাবে না। ঘরে রান্না করলে হবে না।",
+          "en": "A: May I cook in my room? B: No. You must not cook in your room."
         },
         {
-          "ko": "회의를 시작하기 전에 자료를 준비하세요.",
-          "bn": "মিটিং শুরু করার আগে কাগজপত্র প্রস্তুত করুন।",
-          "en": "Please prepare the materials before starting the meeting."
+          "ko": "새벽에는 휴게실에서 TV를 보면 안 돼요.",
+          "bn": "ভোরের দিকে বিশ্রামকক্ষে টিভি দেখা যাবে না।",
+          "en": "You must not watch TV in the lounge in the early morning."
         },
         {
-          "ko": "밥을 먹기 전에 손을 씻으세요.",
-          "bn": "খাবার খাওয়ার আগে হাত ধুয়ে নিন।",
-          "en": "Please wash your hands before eating."
+          "ko": "퇴식구에 식판을 그냥 놓고 가면 안 돼요.",
+          "bn": "প্লেট রাখার জায়গায় খাবারের ট্রে এমনি রেখে চলে গেলে হবে না।",
+          "en": "You must not just leave your tray at the tray return and walk off."
+        },
+        {
+          "ko": "식권 없이 구내식당을 이용하면 안 돼요.",
+          "bn": "খাবারের টিকিট ছাড়া প্রতিষ্ঠানের খাবারঘর ব্যবহার করা যাবে না।",
+          "en": "You must not use the company cafeteria without a meal ticket."
         }
       ],
-      "commonMistakeBn": "অনেকে বিশেষ্যের (Noun) সাথে '기 전에' ব্যবহার করেন, কিন্তু বিশেষ্যের সাথে শুধু '전에' (যেমন: 식사 전에) এবং ক্রিয়ার (Verb) সাথে '기 전에' (যেমন: 먹기 전에) বসবে।"
+      "commonMistakeBn": "‘an’ শব্দটি ‘doeda’-এর আগে বসে, তাই ‘-myeon doeji anayo’ ভুল; সঠিক ‘-myeon an doeyo’। আর শর্তের রূপে সংযোজক স্বর ভুলে যাওয়া সাধারণ ভুল: ‘meokmyeon an doeyo’ নয়, সঠিক ‘meogeumyeon an doeyo’।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "회의실 예약 확인",
-      "titleEn": "Checking a Meeting Room Reservation",
+      "titleBn": "ছাত্রাবাসে কী কী সুবিধা আছে?",
+      "titleEn": "What Facilities Are in the Dormitory?",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "내일 오전 10시에 회의실 예약되어 있나요?",
-          "bn": "আগামীকাল সকাল ১০টায় বৈঠক কক্ষ বুক আছে কি?",
-          "en": "Is the meeting room reserved for tomorrow at 10 AM?"
+          "speaker": "아궁",
+          "ko": "아미나 씨, 기숙사에 어떤 시설이 있어요?",
+          "bn": "আমিনা, ছাত্রাবাসে কী কী সুযোগ-সুবিধা আছে?",
+          "en": "Amina, what facilities are there in the dormitory?"
         },
         {
-          "speaker": "관리자",
-          "ko": "네, 10시부터 11시까지 예약되어 있어요.",
-          "bn": "হ্যাঁ, ১০টা থেকে ১১টা পর্যন্ত বুক করা আছে।",
-          "en": "Yes, it's reserved from 10 to 11."
+          "speaker": "아미나",
+          "ko": "세탁실하고 샤워실, 조리실이 있어요. 모두 공용이에요.",
+          "bn": "লন্ড্রি রুম, শাওয়ার রুম আর রান্নাঘর আছে। সবগুলোই সবার জন্য সাধারণ।",
+          "en": "There's a laundry room, a shower room, and a kitchen. They're all communal."
         },
         {
-          "speaker": "직원",
-          "ko": "프로젝터도 사용할 수 있나요?",
-          "bn": "প্রজেক্টরও ব্যবহার করা যাবে?",
-          "en": "Can we use the projector too?"
+          "speaker": "아궁",
+          "ko": "그럼 방도 다른 사람과 함께 사용해야 되지요?",
+          "bn": "তাহলে ঘরও কি অন্য কারো সঙ্গে ভাগ করে ব্যবহার করতে হয়, তাই না?",
+          "en": "Then you have to share the room with someone else too, right?"
         },
         {
-          "speaker": "관리자",
-          "ko": "네, 예약에 프로젝터 포함되어 있어요.",
-          "bn": "হ্যাঁ, বুকিং-এ প্রজেক্টর অন্তর্ভুক্ত আছে।",
-          "en": "Yes, the reservation includes a projector."
+          "speaker": "아미나",
+          "ko": "아니요, 방은 혼자 써요. 조리실과 세탁실만 같이 써요.",
+          "bn": "না, ঘর একা ব্যবহার করি। শুধু রান্নাঘর আর লন্ড্রি রুম একসঙ্গে ব্যবহার করি।",
+          "en": "No, I use the room alone. We only share the kitchen and the laundry room."
         },
         {
-          "speaker": "직원",
-          "ko": "감사합니다. 확인해 주셔서 고맙습니다.",
-          "bn": "ধন্যবাদ। নিশ্চিত করার জন্য ধন্যবাদ।",
-          "en": "Thank you. Thanks for checking."
+          "speaker": "아궁",
+          "ko": "공용 샤워실도 사용 규칙이 있어요?",
+          "bn": "সাধারণ শাওয়ার রুমেরও ব্যবহারের নিয়ম আছে?",
+          "en": "Are there rules for using the communal shower room too?"
+        },
+        {
+          "speaker": "아미나",
+          "ko": "네, 깨끗하게 사용해야 돼요. 여러 사람이 함께 사용하잖아요.",
+          "bn": "হ্যাঁ, পরিষ্কারভাবে ব্যবহার করতে হয়। অনেক মানুষ তো একসঙ্গে ব্যবহার করে, আপনি জানেনই তো।",
+          "en": "Yes, we have to keep it clean. Many people use it together, you know."
         }
       ]
     },
     {
-      "titleBn": "휴게실 사용 요청",
-      "titleEn": "Request to Use the Break Room",
+      "titleBn": "ছাত্রাবাসের নিয়মকানুন",
+      "titleEn": "Dormitory Rules",
       "lines": [
         {
-          "speaker": "직원 A",
-          "ko": "잠깐 휴게실에서 쉬어도 돼요?",
-          "bn": "আমি একটু বিশ্রাম কক্ষে বিশ্রাম করবো কি?",
-          "en": "May I rest in the break room for a moment?"
+          "speaker": "아궁",
+          "ko": "아미나 씨, 밤에 세탁기를 돌려도 돼요?",
+          "bn": "আমিনা, রাতে কি ওয়াশিং মেশিন চালানো যায়?",
+          "en": "Amina, is it okay to run the washing machine at night?"
         },
         {
-          "speaker": "직원 B",
-          "ko": "네, 지금은 사람이 많지 않아요.",
-          "bn": "হ্যাঁ, এখন বেশি লোক নেই।",
-          "en": "Yes, there aren't many people now."
+          "speaker": "아미나",
+          "ko": "안 돼요. 늦은 시간에는 세탁실을 사용하면 안 돼요. 시끄럽잖아요.",
+          "bn": "না, চলবে না। রাত গভীর হলে লন্ড্রি রুম ব্যবহার করা যাবে না। শব্দ হয় তো, আপনি জানেনই।",
+          "en": "No. You shouldn't use the laundry room late at night. It's noisy, you know."
         },
         {
-          "speaker": "직원 A",
-          "ko": "감사합니다. 커피 한 잔 가져와도 될까요?",
-          "bn": "ধন্যবাদ। আমি কি কফি নিয়ে আসতে পারি?",
-          "en": "Thanks. Can I bring a cup of coffee?"
+          "speaker": "아궁",
+          "ko": "그럼 방에서 요리해도 돼요?",
+          "bn": "তাহলে ঘরে রান্না করা যাবে?",
+          "en": "Then can I cook in my room?"
         },
         {
-          "speaker": "직원 B",
-          "ko": "네, 개인 컵이면 괜찮아요.",
-          "bn": "হ্যাঁ, ব্যক্তিগত কাপ হলে ঠিক আছে।",
-          "en": "Yes, it's fine if it's a personal cup."
+          "speaker": "아미나",
+          "ko": "안 돼요. 공용 조리실이 있잖아요. 요리는 거기에서 해야 돼요.",
+          "bn": "না। সাধারণ রান্নাঘর তো আছে। রান্না ওখানেই করতে হবে।",
+          "en": "No. There's a communal kitchen, you know. You have to cook there."
         },
         {
-          "speaker": "직원 A",
-          "ko": "그럼 금방 다녀오겠습니다.",
-          "bn": "তাহলে আমি তাড়াতাড়ি যাই।",
-          "en": "I'll be right back then."
+          "speaker": "아궁",
+          "ko": "조리실은 몇 시까지 이용할 수 있어요?",
+          "bn": "রান্নাঘর কয়টা পর্যন্ত ব্যবহার করা যায়?",
+          "en": "Until what time can I use the kitchen?"
+        },
+        {
+          "speaker": "아미나",
+          "ko": "아홉 시까지요. 요리한 후에는 깨끗하게 치워 놓으세요.",
+          "bn": "নয়টা পর্যন্ত। রান্নার পরে পরিষ্কার করে গুছিয়ে রেখে দেবেন।",
+          "en": "Until nine o'clock. After cooking, please clean up and leave it tidy."
+        },
+        {
+          "speaker": "아궁",
+          "ko": "네, 알겠습니다. 규칙을 잘 지킬게요.",
+          "bn": "জি, বুঝেছি। নিয়ম ভালোভাবে মেনে চলব।",
+          "en": "Okay, I understand. I'll follow the rules well."
         }
       ]
     },
     {
-      "titleBn": "에어컨 고장 신고",
-      "titleEn": "Reporting a Broken Air Conditioner",
+      "titleBn": "কোম্পানির ক্যান্টিন ব্যবহার",
+      "titleEn": "Using the Company Cafeteria",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "관리자님, 사무실 에어컨이 고장난 것 같아요.",
-          "bn": "ম্যানেজার সাহেব, মনে হচ্ছে অফিসের এসি নষ্ট হয়ে গেছে।",
-          "en": "Manager, I think the office air conditioner is broken."
+          "speaker": "반장",
+          "ko": "점심시간인데 밥 먹으러 갈까요?",
+          "bn": "দুপুরের খাবারের সময় হয়েছে, খেতে যাব?",
+          "en": "It's lunchtime, shall we go eat?"
         },
         {
-          "speaker": "관리자",
-          "ko": "그래요? 전원이 안 켜지나요?",
-          "bn": "তাই নাকি? পাওয়ার কি অন হচ্ছে না?",
-          "en": "Really? Is it not turning on?"
+          "speaker": "아궁",
+          "ko": "네, 좋아요. 그런데 식권은 어디에서 사요?",
+          "bn": "জি, ভালো। কিন্তু মিল টিকিট কোথায় কিনতে হয়?",
+          "en": "Yes, sounds good. But where do I buy a meal ticket?"
         },
         {
-          "speaker": "직원",
-          "ko": "네, 리모컨을 눌러도 작동하지 않아요.",
-          "bn": "হ্যাঁ, রিমোট চাপলেও কাজ করছে না।",
-          "en": "Yes, it doesn't work even when I press the remote."
+          "speaker": "반장",
+          "ko": "구내식당에서 파는데, 미리 사 놓으면 할인이 돼요.",
+          "bn": "ক্যান্টিনেই বিক্রি হয়, আগেই কিনে রাখলে ছাড় পাওয়া যায়।",
+          "en": "They sell them at the cafeteria, and if you buy them in advance you get a discount."
         },
         {
-          "speaker": "관리자",
-          "ko": "알겠습니다. 수리 기사님을 부를게요.",
-          "bn": "বুঝতে পেরেছি। আমি মেরামতকারীকে ডাকছি।",
-          "en": "I understand. I will call the repairman."
+          "speaker": "아궁",
+          "ko": "그럼 여러 장 사 놓을게요. 오늘은 무슨 음식이 나와요?",
+          "bn": "তাহলে কয়েকটা কিনে রাখব। আজ কী খাবার দেওয়া হবে?",
+          "en": "Then I'll buy several in advance. What food is being served today?"
         },
         {
-          "speaker": "직원",
-          "ko": "날씨가 더우니까 빨리 고쳐 주시면 좋겠습니다.",
-          "bn": "যেহেতু আবহাওয়া গরম, তাই তাড়াতাড়ি ঠিক করে দিলে ভালো হয়।",
-          "en": "Since the weather is hot, it would be good if it's fixed quickly."
+          "speaker": "반장",
+          "ko": "식단표를 보세요. 게시판에 붙여 놓았잖아요.",
+          "bn": "মেনু বোর্ড দেখুন। নোটিশ বোর্ডে তো লাগিয়ে রাখা হয়েছে।",
+          "en": "Look at the menu board. It's posted on the notice board, you know."
+        },
+        {
+          "speaker": "아궁",
+          "ko": "삼계탕이네요! 반찬을 더 담아도 돼요?",
+          "bn": "সামগেতাং তো! আরও তরকারি নিতে পারি?",
+          "en": "It's samgyetang! Is it okay to take more side dishes?"
+        },
+        {
+          "speaker": "반장",
+          "ko": "네, 괜찮아요. 다 먹은 후에는 식판을 퇴식구에 놓으세요.",
+          "bn": "হ্যাঁ, সমস্যা নেই। খাওয়া শেষ হলে ট্রে ফেরত দেওয়ার জায়গায় রাখবেন।",
+          "en": "Yes, that's fine. After you finish eating, put your tray in the tray return area."
         }
       ]
     }
@@ -676,582 +770,565 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "회의실을 예약하려면 누구에게 말해야 하나?",
-      "questionKo": "회의실을 예약하려면 누구에게 말해야 하나요?",
+      "questionBn": "ছাত্রাবাসে কাপড় ধোয়ার জায়গাটির নাম কী?",
+      "questionKo": "기숙사에서 빨래를 하는 곳은 어디예요?",
       "options": [
-        "복사기에게",
-        "관리자에게",
-        "냉장고에게",
-        "엘리베이터에게"
+        "조리실",
+        "휴게실",
+        "세탁실",
+        "샤워실"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "회의실 예약은 관리자가 담당하므로 '관리자에게' বল아야 합니다।"
+      "answer": 2,
+      "explanationBn": "'세탁실' মানে লন্ড্রি রুম, যেখানে ওয়াশিং মেশিন থাকে আর কাপড় ধোয়া হয়, তাই এটিই সঠিক। '조리실' হলো রান্নাঘর, '휴게실' হলো বিশ্রাম কক্ষ, আর '샤워실' হলো গোসল বা শাওয়ার রুম।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "휴게실에서 쉬려면 어떤 표현으로 물어봐야 합니다?",
-      "questionKo": "휴게실에서 쉬려면 어떤 표현으로 물어봐야 하나요?",
+      "questionBn": "ছাত্রাবাসে কোনো সমস্যা হলে কার সঙ্গে কথা বলতে হবে?",
+      "questionKo": "기숙사에 문제가 있으면 누구한테 이야기해요?",
       "options": [
-        "휴게실을 사용해도 돼요?",
-        "휴게실을 고장났어요?",
-        "휴게실을 예약했어요?",
-        "휴게실을 냉장고?"
+        "관리인",
+        "식단표",
+        "배식대",
+        "식권"
       ],
-      "pairs": [],
       "answer": 0,
-      "explanationBn": "허락을 구할 때는 '…해도 돼요?'를 사용합니다।"
+      "explanationBn": "'관리인' হলো ছাত্রাবাসের তত্ত্বাবধায়ক বা কেয়ারটেকার, তাই সমস্যা হলে তাকেই জানাতে হয়। বাকি তিনটি মানুষ নয়: '식단표' হলো মেনু বোর্ড, '배식대' হলো খাবার পরিবেশন কাউন্টার, '식권' হলো মিল টিকিট।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "복사기가 안 되면 무엇을 말해야 하나?",
-      "questionKo": "복사기가 고장났을 때 어떤 표현을 쓰나요?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "___에서 요리한 후에 깨끗하게 정리하세요.",
       "options": [
-        "복사기가 예약했어요.",
-        "복사기가 출입증이에요.",
-        "복사기를 사용해도 돼요?",
-        "복사기가 고장났어요."
+        "세탁실",
+        "조리실",
+        "복도",
+        "계단"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "'고장났어요'는 기계가 작동하지 않을 때 쓰는 표현।"
+      "answer": 1,
+      "explanationBn": "রান্না করা হয় '조리실' (রান্নাঘর)-এ, তাই রান্নার পরে ওই জায়গাটাই পরিষ্কার করে গুছিয়ে রাখতে হয়। '세탁실' কাপড় ধোয়ার ঘর, '복도' হলো করিডোর, '계단' হলো সিঁড়ি — এখানে রান্না করা হয় না।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "냉장고에 오래 두면 어떻게 말합니까?",
-      "questionKo": "냉장고에 음식을 오래 두면 어떤 표현을 쓰나요?",
+      "questionBn": "ছাত্রাবাসে ঘরগুলোর সামনে দিয়ে যাওয়া লম্বা পথটিকে কী বলে?",
+      "questionKo": "기숙사에서 방과 방 사이를 이어 주는 긴 길을 뭐라고 해요?",
       "options": [
-        "두면 예약해요.",
-        "두면 돼요.",
-        "두면 안 돼요.",
-        "두면 사용해요."
+        "계단",
+        "출입문",
+        "방",
+        "복도"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "금지 표현은 '~(으)면 안 돼요'입니다।"
+      "answer": 3,
+      "explanationBn": "'복도' মানে করিডোর, অর্থাৎ ঘরগুলোর সামনে দিয়ে যাওয়া লম্বা পথ, তাই এটিই সঠিক। '계단' হলো সিঁড়ি (উপর-নিচে যাওয়ার), '출입문' হলো প্রবেশদ্বার, '방' হলো নিজের থাকার ঘর।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "출입증이 필요하면 누구에게 말해야 하나요?",
-      "questionKo": "출입증이 필요하면 누구에게 말해야 하나요?",
-      "options": [
-        "카페에게 말씀하세요.",
-        "관리자에게 말씀하세요.",
-        "식당에게 말씀하세요.",
-        "엘리베이터에게 말씀하세요."
+      "type": "matching",
+      "questionBn": "ছাত্রাবাসের সুবিধাগুলোর কোরিয়ান নামের সঙ্গে বাংলা অর্থ মিলান।",
+      "questionKo": "기숙사 시설 어휘와 알맞은 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "세탁실",
+          "right": "লন্ড্রি রুম"
+        },
+        {
+          "left": "샤워실",
+          "right": "শাওয়ার রুম"
+        },
+        {
+          "left": "조리실",
+          "right": "রান্নাঘর"
+        },
+        {
+          "left": "복도",
+          "right": "করিডোর"
+        },
+        {
+          "left": "관리인",
+          "right": "তত্ত্বাবধায়ক"
+        }
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "출입증 신청은 관리자가 담당합니다।"
+      "explanationBn": "এগুলো ছাত্রাবাসের জায়গা ও দায়িত্বপ্রাপ্ত ব্যক্তি সংক্রান্ত শব্দ। শেষে '-실' থাকলে সেটি একটি কক্ষ বোঝায় (세탁실, 샤워실, 조리실), আর '관리인' একজন মানুষ যিনি ছাত্রাবাস দেখাশোনা করেন।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: '회의실을 _______ 싶습니다.' (예약)",
-      "questionKo": "문장을 완성하세요: '회의실을 _______ 싶습니다.'",
+      "type": "multiple-choice",
+      "questionBn": "'-잖아요' ব্যাকরণ ব্যবহার করে কথোপকথনটি সম্পূর্ণ করুন।",
+      "questionKo": "가: 방에서 요리해도 돼요?\n나: 안 돼요. 공용 조리실이 ___.",
       "options": [
-        "예약하고",
-        "냉장고에",
-        "고장나고",
-        "사용하고"
+        "있잖아요",
+        "있을게요",
+        "있으세요",
+        "있습니까"
       ],
-      "pairs": [],
       "answer": 0,
-      "explanationBn": "'예약하고 싶습니다'가 자연스럽게 예약 의사를 표현합니다।"
+      "explanationBn": "'-잖아요' দিয়ে শ্রোতা আগে থেকেই জানে এমন কথা মনে করিয়ে দেওয়া হয়, তাই '공용 조리실이 있잖아요' (আপনি তো জানেনই, সবার জন্য রান্নাঘর আছে) সঠিক। '있을게요' নিজের ভবিষ্যৎ ইচ্ছা বোঝায়, '있으세요' সম্মানসূচক আদেশ, '있습니까' একটি আনুষ্ঠানিক প্রশ্ন — কোনোটিই এখানে মানানসই নয়।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: '복사기가 고장났어요. _______ 주세요.' (수리)",
-      "questionKo": "문장을 완성하세요: '복사기가 고장났어요. _______ 주세요.'",
+      "questionBn": "'-아/어 놓다' ব্যবহার করে শূন্যস্থান পূরণ করুন।",
+      "questionKo": "고향에 가려고 비행기 표를 미리 ___.",
       "options": [
-        "예약해",
-        "출입",
-        "사용해",
-        "고쳐"
+        "예약하지 마세요",
+        "예약할까요",
+        "예약해 놓았어요",
+        "예약하고 싶어요"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "'고쳐 주세요'는 기계를 고쳐 달라고 부탁하는 표현।"
+      "answer": 2,
+      "explanationBn": "'미리' (আগেভাগে) শব্দটির সঙ্গে '-아/어 놓다' মেলে, কারণ এটি আগে কাজ সেরে সেই অবস্থায় রেখে দেওয়া বোঝায় — তাই '예약해 놓았어요' (আগেই বুকিং করে রেখেছি) সঠিক। '예약하지 마세요' নিষেধ, '예약할까요' প্রস্তাব, '예약하고 싶어요' কেবল ইচ্ছা প্রকাশ করে, সম্পন্ন প্রস্তুতি নয়।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: '휴게실에서 쉬어도 _______?' (허락 묻기)",
-      "questionKo": "문장을 완성하세요: '휴게실에서 쉬어도 _______?'",
+      "type": "multiple-choice",
+      "questionBn": "কোম্পানির ক্যান্টিনে খেতে হলে প্রথমে কী কিনতে হয়?",
+      "questionKo": "구내식당에서 밥을 먹으려면 먼저 무엇을 사야 돼요?",
       "options": [
-        "고장나요",
-        "예약해요",
-        "돼요",
-        "사용해요"
+        "식판",
+        "식단표",
+        "도시락",
+        "식권"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "허락을 물을 때 '돼요?'를 붙입니다।"
+      "answer": 3,
+      "explanationBn": "ক্যান্টিনে নগদ টাকা নেওয়া হয় না; আগে '식권' (মিল টিকিট) কিনে সেটি কর্মীকে দিতে হয়, তাই এটিই সঠিক। '식판' হলো খাবারের ট্রে, '식단표' হলো মেনু বোর্ড, '도시락' হলো বাসা থেকে আনা টিফিন — এগুলো কেনার জিনিস নয়।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "নিচের কোরিয়ান শব্দগুলির বাংলা অর্থ মিলান।",
-      "questionKo": "다음 한국어 단어와 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "엘리베이터",
-          "right": "লিফট"
-        },
-        {
-          "left": "냉장고",
-          "right": "ফ্রিজ"
-        },
-        {
-          "left": "복사기",
-          "right": "কপি মেশিন"
-        },
-        {
-          "left": "체육관",
-          "right": "জিম"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "다 먹은 식판은 ___에 갖다 놓으세요.",
+      "options": [
+        "배식대",
+        "퇴식구",
+        "식수대",
+        "식단표"
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দের বাংলা অর্থ সঙ্গতভাবে মিলান করা হয়েছে।"
+      "answer": 1,
+      "explanationBn": "খাওয়া শেষে ট্রে ফেরত দেওয়ার জায়গা হলো '퇴식구', তাই এটিই সঠিক। '배식대' হলো যেখানে খাবার পরিবেশন করা হয়, '식수대' হলো পানি খাওয়ার জায়গা, '식단표' হলো দেয়ালে টানানো মেনু তালিকা।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "নিচের কাজগুলোকে উপযুক্ত ক্রিয়ার সঙ্গে মিলান করুন।",
-      "questionKo": "다음 장소와 동사를 연결하세요.",
-      "options": [],
+      "questionBn": "ক্যান্টিন সংক্রান্ত কোরিয়ান শব্দের সঙ্গে বাংলা অর্থ মিলান।",
+      "questionKo": "구내식당 어휘와 알맞은 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "회의실",
-          "right": "예약하다"
+          "left": "구내식당",
+          "right": "কোম্পানির ক্যান্টিন"
         },
         {
-          "left": "복사기",
-          "right": "사용하다"
+          "left": "식권",
+          "right": "মিল টিকিট"
         },
         {
-          "left": "냉장고",
-          "right": "보관하다"
+          "left": "식판",
+          "right": "খাবারের ট্রে"
         },
         {
-          "left": "출입증",
-          "right": "신청하다"
+          "left": "배식대",
+          "right": "খাবার পরিবেশন কাউন্টার"
+        },
+        {
+          "left": "도시락",
+          "right": "টিফিন বাক্স"
         }
       ],
-      "answer": 0,
-      "explanationBn": "각 장소에 자연스러운 동사 연결 করা হয়েছে (회의실-예약, 복사기-사용 등)।"
+      "explanationBn": "এই শব্দগুলো ক্যান্টিনে খাওয়ার ধাপ অনুযায়ী সাজানো: আগে '식권' কিনে '배식대' থেকে '식판'-এ খাবার নিয়ে '구내식당'-এ খাওয়া হয়; আর '도시락' হলো বাসা থেকে আনা খাবার।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "다음 중 물을 마실 수 있는 기계는 무엇입니까?",
-      "questionKo": "다음 중 물을 마실 수 있는 기계는 무엇입니까?",
+      "questionBn": "'-아/어도 되다' ব্যবহার করে অনুমতি দেওয়ার সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "가: 휴게실에서 음식을 먹어도 돼요?\n나: 네, ___.",
       "options": [
-        "복사기",
-        "정수기",
-        "자판기",
-        "난방기"
+        "먹어 놓아요",
+        "먹잖아요",
+        "먹어도 돼요",
+        "먹으면 안 돼요"
       ],
-      "answer": 1,
-      "explanationBn": "물을 마실 수 있는 기계는 '정수기'(পানির ফিল্টার)입니다."
+      "answer": 2,
+      "explanationBn": "'-아/어도 되다' অনুমতি বোঝায়, তাই '먹어도 돼요' (খেতে পারেন) হলো '네' উত্তরের সঙ্গে মানানসই। '먹으면 안 돼요' ঠিক উল্টো অর্থ (নিষেধ), '먹어 놓아요' আগে থেকে করে রাখা বোঝায়, আর '먹잖아요' জানা কথা মনে করিয়ে দেয় — কোনোটিই অনুমতি নয়।"
     },
     {
       "id": "p12",
       "type": "multiple-choice",
-      "questionBn": "담배를 피우고 싶을 때 가야 하는 곳은 어디입니까?",
-      "questionKo": "담배를 피우고 싶을 때 가야 하는 곳은 어디입니까?",
+      "questionBn": "কথোপকথন অনুযায়ী রান্নাঘর কয়টা পর্যন্ত ব্যবহার করা যায়?",
+      "questionKo": "조리실은 몇 시까지 이용할 수 있어요?",
       "options": [
-        "흡연실",
-        "회의실",
-        "사무실",
-        "체육관"
+        "여덟 시까지",
+        "아홉 시까지",
+        "열 시까지",
+        "열한 시까지"
       ],
-      "answer": 0,
-      "explanationBn": "담배를 피우는 곳은 '흡연실'(धূমপান কক্ষ)입니다."
+      "answer": 1,
+      "explanationBn": "পাঠ অনুযায়ী রান্নাঘর '아홉 시까지' অর্থাৎ রাত নয়টা পর্যন্ত ব্যবহার করা যায়, তাই এটিই সঠিক। '여덟 시' আটটা, '열 시' দশটা এবং '열한 시' এগারোটা — এই সময়গুলো নিয়মে বলা হয়নি।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "날씨가 추울 때 켜는 것은 무엇입니까?",
-      "questionKo": "날씨가 추울 때 켜는 것은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক ক্রিয়াটি বসান।",
+      "questionKo": "기숙사에서는 여러 사람이 함께 생활하니까 규칙을 잘 ___ 합니다.",
       "options": [
-        "에어컨",
-        "냉장고",
-        "선풍기",
-        "난방기"
+        "지켜야",
+        "어겨야",
+        "놓아야",
+        "담아야"
       ],
-      "answer": 3,
-      "explanationBn": "추울 때 방을 따뜻하게 하는 기계는 '난방기'(হিটার)입니다."
+      "answer": 0,
+      "explanationBn": "'규칙을 지키다' মানে নিয়ম মেনে চলা, তাই '지켜야 합니다' সঠিক। '어겨야' মানে নিয়ম ভাঙতে হবে (উল্টো অর্থ), '놓아야' মানে রাখতে হবে, '담아야' মানে পাত্রে তুলতে হবে — এগুলো '규칙'-এর সঙ্গে ব্যবহার হয় না।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "불이 났을 때 빨리 밖으로 나가야 하는 문은 무엇입니까?",
-      "questionKo": "불이 났을 때 빨리 밖으로 나가야 하는 문은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-아/어 놓다' ব্যবহার করে বাক্যটি সম্পূর্ণ করুন।",
+      "questionKo": "직원이 오늘의 식단표를 게시판에 ___.",
       "options": [
-        "창문",
-        "화장실",
-        "비상구",
-        "엘리베이터"
+        "붙이지 마세요",
+        "붙일까요",
+        "붙이고 싶어요",
+        "붙여 놓았어요"
       ],
-      "answer": 2,
-      "explanationBn": "위급한 상황에서 대피하는 문은 '비상구'(জরুরী প্রস্থান)입니다."
+      "answer": 3,
+      "explanationBn": "মেনু আগেই লাগিয়ে রাখা হয়েছে এবং সেই অবস্থায় আছে — এই অর্থ '-아/어 놓다' দিয়ে বোঝায়, তাই '붙여 놓았어요' সঠিক। '붙이지 마세요' নিষেধ, '붙일까요' প্রস্তাব, '붙이고 싶어요' কেবল ইচ্ছা প্রকাশ করে।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오: '날씨가 _______ 에어컨을 켜 주세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오: '날씨가 _______ 에어컨을 켜 주세요.'",
+      "type": "multiple-choice",
+      "questionBn": "'정리' শব্দটির সঠিক উচ্চারণ কোনটি?",
+      "questionKo": "'정리'의 발음으로 알맞은 것은 무엇이에요?",
       "options": [
-        "추우니까",
-        "좋으니까",
-        "비가 오니까",
-        "더우니까"
+        "[정니]",
+        "[정리]",
+        "[전니]",
+        "[정디]"
       ],
-      "answer": 3,
-      "explanationBn": "에어컨은 날씨가 더울 때 켜므로 '더우니까'(যেহেতু গরম)가 맞습니다."
+      "answer": 0,
+      "explanationBn": "받침 'ㅁ, ㅇ'-এর পরে 'ㄹ' এলে সেটি [ㄴ] হয়ে যায়, তাই '정리'-এর উচ্চারণ [정니]। '[정리]' হলো বানান অনুযায়ী পড়া যা নিয়মের বিপরীত, '[전니]' এবং '[정디]'-তে ভুলভাবে প্রথম অক্ষর বা ব্যঞ্জন বদলে গেছে।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오: '퇴근하기 _______ 컴퓨터를 끄세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오: '퇴근하기 _______ 컴퓨터를 끄세요.'",
+      "type": "multiple-choice",
+      "questionBn": "কথোপকথন অনুযায়ী আগুং কেন ফোরম্যানের সঙ্গে দুপুরের খাবার খেতে গেল না?",
+      "questionKo": "아궁 씨는 왜 반장님과 같이 점심을 먹으러 안 갔어요?",
       "options": [
-        "후에",
-        "때문에",
-        "전에",
-        "위해서"
+        "몸이 아파서",
+        "도시락을 싸 와서",
+        "돈이 없어서",
+        "일이 많아서"
       ],
-      "answer": 2,
-      "explanationBn": "퇴근하기 '전에'(আগে) 컴퓨터를 꺼야 합니다."
+      "answer": 1,
+      "explanationBn": "আগুং বলেছে সে দেশের খাবার খেতে চায় বলে আজ '도시락을 싸 왔어요' (টিফিন এনেছে), তাই এটিই সঠিক কারণ। অসুস্থতা, টাকা না থাকা বা কাজের চাপ — এসব কথা কথোপকথনে বলা হয়নি।"
     },
     {
       "id": "p17",
       "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오: '커피를 마시고 싶으면 _______에서 뽑으세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오: '커피를 마시고 싶으면 _______에서 뽑으세요.'",
+      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
+      "questionKo": "우리 기숙사는 방을 혼자 쓰고 조리실과 세탁실은 ___이에요.",
       "options": [
-        "자판기",
-        "정수기",
-        "복사기",
-        "세탁기"
+        "개인",
+        "도시락",
+        "공용",
+        "식권"
       ],
-      "answer": 0,
-      "explanationBn": "커피를 뽑을 수 있는 기계는 '자판기'(ভেন্ডিং মেশিন)입니다."
+      "answer": 2,
+      "explanationBn": "রান্নাঘর ও লন্ড্রি রুম সবাই একসঙ্গে ব্যবহার করে, আর এই অর্থে '공용' (সাধারণ/যৌথ ব্যবহারের) ব্যবহৃত হয়, তাই এটিই সঠিক। '개인' মানে ব্যক্তিগত (উল্টো অর্থ), '도시락' টিফিন বাক্স, '식권' মিল টিকিট — কোনোটিই সুবিধার ধরন বোঝায় না।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오: '쓰레기는 반드시 _______에 버려야 합니다.'",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오: '쓰레기는 반드시 _______에 버려야 합니다.'",
-      "options": [
-        "냉장고",
-        "게시판",
-        "휴게실",
-        "쓰레기통"
+      "type": "matching",
+      "questionBn": "ছাত্রাবাসের নিয়ম সংক্রান্ত কোরিয়ান বাক্যাংশের সঙ্গে বাংলা অর্থ মিলান।",
+      "questionKo": "기숙사 규칙 표현과 알맞은 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "규칙을 지키다",
+          "right": "নিয়ম মেনে চলা"
+        },
+        {
+          "left": "규칙을 어기다",
+          "right": "নিয়ম ভাঙা"
+        },
+        {
+          "left": "깨끗하게 사용하다",
+          "right": "পরিষ্কারভাবে ব্যবহার করা"
+        },
+        {
+          "left": "다른 사람을 데려오다",
+          "right": "অন্য কাউকে সঙ্গে নিয়ে আসা"
+        }
       ],
-      "answer": 3,
-      "explanationBn": "쓰레기를 버리는 곳은 '쓰레기통'(ময়লার ঝুড়ি)입니다."
+      "explanationBn": "এগুলো ছাত্রাবাসে একসঙ্গে থাকার নিয়ম সংক্রান্ত প্রকাশভঙ্গি। '지키다' ও '어기다' একে অপরের বিপরীত, আর বাকি দুটি প্রতিদিনের ব্যবহারিক নিয়ম বোঝায়।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "다음 단어와 반대되는 뜻을 가진 단어를 연결하세요.",
-      "questionKo": "다음 단어와 반대되는 뜻을 가진 단어를 연결하세요.",
-      "pairs": [
-        {
-          "left": "켜다",
-          "right": "끄다"
-        },
-        {
-          "left": "덥다",
-          "right": "춥다"
-        },
-        {
-          "left": "고장나다",
-          "right": "고치다"
-        },
-        {
-          "left": "들어가다",
-          "right": "나가다"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'속이 시원해요' কথাটি কখন ব্যবহার করা হয়?",
+      "questionKo": "'속이 시원해요'는 언제 쓰는 말이에요?",
+      "options": [
+        "배가 아플 때",
+        "날씨가 추울 때",
+        "음식이 매울 때",
+        "걱정하던 일이 다 끝났을 때"
       ],
-      "answer": 0,
-      "explanationBn": "각 단어의 반대말을 올바르게 연결했습니다."
+      "answer": 3,
+      "explanationBn": "'속이 시원해요' মানে দুশ্চিন্তার কাজ শেষ হয়ে মনে স্বস্তি লাগা, তাই '걱정하던 일이 다 끝났을 때' সঠিক। পেট ব্যথা, ঠান্ডা আবহাওয়া বা ঝাল খাবার — এগুলো শব্দগুলোর আক্ষরিক অর্থ থেকে আসা ভুল ধারণা।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "다음 장소와 그곳에서 하는 행동을 연결하세요.",
-      "questionKo": "다음 장소와 그곳에서 하는 행동을 연결하세요.",
-      "pairs": [
-        {
-          "left": "식당",
-          "right": "밥을 먹다"
-        },
-        {
-          "left": "휴게실",
-          "right": "쉬다"
-        },
-        {
-          "left": "흡연실",
-          "right": "담배를 피우다"
-        },
-        {
-          "left": "화장실",
-          "right": "손을 씻다"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থানে সঠিক প্রকাশভঙ্গি বসান।",
+      "questionKo": "이렇게 늦은 시간에는 세탁실을 이용하면 ___. 다른 사람들이 자잖아요.",
+      "options": [
+        "돼요",
+        "좋아요",
+        "안 돼요",
+        "괜찮아요"
       ],
-      "answer": 0,
-      "explanationBn": "각 장소에 알맞은 행동을 연결했습니다."
+      "answer": 2,
+      "explanationBn": "রাতে অন্যরা ঘুমায় বলে লন্ড্রি রুম ব্যবহার নিষেধ, আর নিষেধ বোঝাতে '-(으)면 안 되다' ব্যবহার হয়, তাই '안 돼요' সঠিক। '돼요', '좋아요' ও '괜찮아요' সবই অনুমতি বা সম্মতি বোঝায়, যা পরের বাক্যের কারণের সঙ্গে মেলে না।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "নীচের পাসেজ পড়ে সঠিক উত্তরটি চিহ্ন করুন:",
-      "questionKo": "다음을 읽고 맞는 것을 고르세요.",
-      "passage": "사무실 복도에 공지: '회의실 사용 후에는 장비를 정리해 주세요. 예약자는 장비 상태를 확인해야 합니다.'",
+      "questionBn": "খালি জায়গায় বসানোর জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "기숙사에서 빨래를 하고 싶으면 2층 ______에 가면 됩니다. 세탁기는 무료로 쓸 수 있습니다.",
       "options": [
-        "회의실 사용 후 장비를 정리해야 한다.",
-        "회의실은 예약 없이 사용할 수 있다.",
-        "복도에서 장비를 사용해도 된다.",
-        "예약자는 장비를 버려야 한다."
+        "세탁실",
+        "샤워실",
+        "조리실",
+        "휴게실"
       ],
       "answer": 0,
-      "explanationBn": "공지에 '사용 후에는 장비를 정리해 주세요' বলা হয়েছে, তাই প্রথমটি সঠিক।"
+      "explanationBn": "সঠিক উত্তর 세탁실 (লন্ড্রি রুম)। বাক্যে 빨래를 하다 (কাপড় ধোয়া) এবং 세탁기 (ওয়াশিং মেশিন) আছে, আর ওয়াশিং মেশিন থাকে লন্ড্রি রুমেই। বাকি অপশনগুলোর অর্থ: 샤워실 = গোসলের ঘর/শাওয়ার রুম, 조리실 = কমন রান্নাঘর, 휴게실 = বিশ্রামকক্ষ — এগুলোর কোনোটিতেই কাপড় ধোয়া হয় না, তাই ভুল।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "নীচের পাসেজ পড়ে প্রশ্নের উত্তর দিন:",
-      "questionKo": "다음을 읽고 질문에 답하세요.",
-      "passage": "사무실 냉장고 규칙: '라벨이 없는 음식은 주말 전에 제거됩니다. 개인 음식은 이름을 붙이세요.'",
+      "questionBn": "নিচের বাক্যগুলোর মধ্যে ব্যাকরণগতভাবে সঠিক বাক্যটি বেছে নিন।",
+      "questionKo": "다음 중 맞는 문장을 고르십시오.",
+      "passage": "•-아/어 놓다",
       "options": [
-        "라벨이 없는 음식은 냉장 보관된다.",
-        "라벨이 없는 음식은 제거된다.",
-        "모든 음식은 개인 이름 없이 둔다.",
-        "냉장고는 예약이 필요하다."
+        "식사 후에 창문을 열아 놓았어요.",
+        "밥을 먹기 전에 식탁을 닦어 놓았어요.",
+        "구내식당 식권을 미리 사 놓았어요.",
+        "고향에 가려고 비행기 표를 예약하 놓았어요."
       ],
-      "answer": 1,
-      "explanationBn": "পাসেজে লেবেল 없는 খাবার সরিয়ে ফেলা হবে বলা আছে, তাই প্রথমটি সঠিক।"
+      "answer": 2,
+      "explanationBn": "সঠিক উত্তর 식권을 미리 사 놓았어요 — 사다-এর মূলে 'ㅏ' স্বর, তাই -아 놓다 যোগ হয়ে 사 놓다 হয় (আগেই টিকিট কিনে রেখেছি)। বাকিগুলো রূপগত ভুল: 열다-এর মূলে 'ㅕ' তাই 열아 নয়, 열어 놓았어요 হবে; 닦다-এর মূলে 'ㅏ' তাই 닦어 নয়, 닦아 놓았어요 হবে; 예약하다-এর মতো 하다 ক্রিয়া -해 놓다 নেয়, তাই 예약하 놓았어요 নয়, 예약해 놓았어요 হবে।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "পাসেজটি পড়ে সঠিকটি চিহ্ন করুন:",
-      "questionKo": "다음을 읽고 맞는 것을 고르세요.",
-      "passage": "엘리베이터 안내: '점검 중일 때는 사용 금지. 비상 시 비상벨을 누르세요.'",
+      "questionBn": "খালি জায়গায় বসানোর জন্য সবচেয়ে উপযুক্ত উত্তরটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "기숙사의 공용 시설은 여러 사람이 함께 사용합니다. 그러니까 사용 규칙을 잘 ______. 다른 사람들에게 피해를 주면 안 됩니다.",
       "options": [
-        "비상벨은 사용하지 말아라.",
-        "비상 시 엘리베이터를 사용한다.",
-        "점검 중일 때 엘리베이터를 사용하면 안 돼요.",
-        "엘리베이터는 항상 사용 가능하다."
+        "보내야 합니다",
+        "어겨야 합니다",
+        "빌려야 합니다",
+        "지켜야 합니다"
       ],
-      "answer": 2,
-      "explanationBn": "안내문에 점검 중 사용 금지라고 되어 있어, প্রথমটি সঠিক।"
+      "answer": 3,
+      "explanationBn": "সঠিক উত্তর 지켜야 합니다 — 규칙을 지키다 মানে নিয়ম মেনে চলা, আর পরের বাক্য '다른 사람들에게 피해를 주면 안 됩니다' (অন্যদের অসুবিধা করা যাবে না) এই অর্থকেই সমর্থন করে। 보내다 = পাঠানো, 어기다 = নিয়ম ভাঙা (একেবারে উল্টো অর্থ), 빌리다 = ধার নেওয়া — 규칙-এর সঙ্গে এদের কোনোটিই মানানসই নয়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "পাসেজ পড়ে সঠিক উত্তরটি বেছে নিন:",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "공지: '체육관 이용 시간은 평일 오후 6시까지입니다. 이용 전 관리자에게 문의하세요.'",
+      "questionBn": "উপরের নোটিশের সঙ্গে মিলে যায় এমন বাক্যটি বেছে নিন।",
+      "questionKo": "위 안내문의 내용과 같은 것을 고르십시오.",
+      "passage": "〈기숙사 세탁실 이용 안내〉\n•이용 시간: 아침 7시 ~ 밤 10시\n•이용 방법: 빨래가 끝나면 바로 빨래를 꺼내 주세요.\n•주의: 밤 10시 이후에는 세탁기를 쓸 수 없습니다. 소리가 시끄러워서 다른 사람들이 잠을 잘 수 없습니다.",
       "options": [
-        "체육관은 예약 없이 이용할 수 없다.",
-        "체육관은 24시간 이용 가능하다.",
-        "체육관은 관리자 출입증이 필요하지 않다.",
-        "체육관은 평일 오후 6시까지만 이용할 수 있다."
+        "세탁실은 하루 종일 이용할 수 있습니다.",
+        "밤 10시가 지나면 세탁기를 쓸 수 없습니다.",
+        "빨래가 끝나도 세탁기 안에 그냥 두면 됩니다.",
+        "세탁실은 아침 10시부터 이용할 수 있습니다."
       ],
-      "answer": 3,
-      "explanationBn": "공지에 이용 시간이 평일 오후 6시까지라 했으므로 প্রথমটি সঠিক।"
+      "answer": 1,
+      "explanationBn": "নোটিশে সরাসরি লেখা আছে '밤 10시 이후에는 세탁기를 쓸 수 없습니다', তাই 밤 10시가 지나면 세탁기를 쓸 수 없습니다 সঠিক। 하루 종일 (সারা দিন) ভুল, কারণ সময় নির্দিষ্ট: সকাল ৭টা থেকে রাত ১০টা। 빨래가 끝나도 그냥 두면 된다 ভুল, কারণ নোটিশে বলা হয়েছে ধোয়া শেষ হলে সঙ্গে সঙ্গে কাপড় বের করে নিতে হবে। 아침 10시부터 ভুল — শুরু সকাল ৭টা, ১০টা হলো রাতের শেষ সময়।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পাঠ দেখে সঠিক অপশনটি চিহ্ন করুন:",
-      "questionKo": "다음을 읽고 맞는 것을 고르세요.",
-      "passage": "사무실 규칙: '카페 컵은 개인 컵을 사용하세요. 공용 컵은 사용 금지.'",
+      "questionBn": "মেনু বোর্ড দেখে প্রশ্নের সঠিক উত্তরটি বেছে নিন: বুধবারে কোন খাবার দেওয়া হয়?",
+      "questionKo": "수요일에는 무슨 음식이 나옵니까?",
+      "passage": "〈이번 주 식단표〉\n•월요일: 김치찌개\n•화요일: 불고기\n•수요일: 삼계탕\n•목요일: 비빔밥\n•금요일: 된장찌개",
       "options": [
-        "개인 컵을 사용해야 한다.",
-        "컵 사용에 제한이 없다.",
-        "카페는 외부인만 사용한다.",
-        "공용 컵을 사용해도 된다."
+        "김치찌개",
+        "불고기",
+        "삼계탕",
+        "비빔밥"
       ],
-      "answer": 0,
-      "explanationBn": "নিয়মে ব্যক্তিগত কাপ ব্যবহার করতে বলা হয়েছে, তাই প্রথমটি সঠিক।"
+      "answer": 2,
+      "explanationBn": "식단표-এ 수요일 (বুধবার)-এর পাশে লেখা আছে 삼계탕, তাই এটিই সঠিক। বাকিগুলো অন্য দিনের খাবার: 김치찌개 সোমবার, 불고기 মঙ্গলবার, 비빔밥 বৃহস্পতিবার। খাবারের নাম মিলিয়ে দেখার সময় বার (요일) ঠিকভাবে দেখতে হবে।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "নিচের কথোপকথন শুনুন (স্ক্রিপ্ট) এবং প্রশ্নের উত্তর দিন:",
-      "questionKo": "다음 대화를 듣고 질문에 답하세요.",
-      "passage": "남자: 복사기가 고장난 것 같아요.\n여자: 언제부터요?\n남자: 아침부터 안 돼요.\n여자: 지금 수리 요청하겠습니다.",
+      "section": "reading",
+      "questionBn": "উপরের নোটিশের সঙ্গে মিলে যায় এমন বাক্যটি বেছে নিন।",
+      "questionKo": "위 안내문의 내용과 같은 것을 고르십시오.",
+      "passage": "〈구내식당 이용 안내〉\n•점심시간: 열두 시 ~ 한 시\n•식권: 식당 앞에서 미리 사 놓으세요. 여러 장을 한 번에 사면 할인이 됩니다.\n•식사 후에는 식판을 퇴식구에 놓아 주세요.",
       "options": [
-        "복사기는 잘 작동한다.",
-        "관리자가 수리를 요청하겠다고 말했다.",
-        "수리는 내일 하겠다고 했다.",
-        "직원이 수리하겠다고 말했다."
+        "식권을 여러 장 사면 값이 싸집니다.",
+        "식권은 식사가 끝난 후에 삽니다.",
+        "점심시간은 한 시에 시작합니다.",
+        "식사 후에 식판은 식탁 위에 놓습니다."
       ],
-      "answer": 1,
-      "explanationBn": "관리자가 '지금 수리 요청하겠습니다' বলেছে, তাই প্রথমটি সঠিক।"
+      "answer": 0,
+      "explanationBn": "নোটিশে লেখা আছে '여러 장을 한 번에 사면 할인이 됩니다' — একসঙ্গে অনেকগুলো 식권 (মিল টিকিট) কিনলে ছাড় পাওয়া যায়, অর্থাৎ দাম কম পড়ে; তাই প্রথম অপশনটি সঠিক। টিকিট আগেই (미리) কিনে রাখতে বলা হয়েছে, খাওয়ার পরে নয়। দুপুরের খাবারের সময় ১২টা থেকে শুরু, ১টায় শেষ। আর খাওয়ার পরে 식판 (ট্রে) টেবিলে নয়, 퇴식구 (ট্রে জমা দেওয়ার জায়গা)-তে রাখতে হবে।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "নিচের সংলাপ শুনে সঠিক উত্তরটি বেছে নিন:",
-      "questionKo": "다음 문장을 듣고 맞는 것을 고르세요.",
-      "passage": "남자: 내일 회의실 예약했어요?\n여자: 아직이에요. 지금 예약할게요.",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে এর সঙ্গে মিলে যায় এমন বাক্যটি বেছে নিন।",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "휴게실은 여러 사람이 함께 이용하는 공간입니다. 그래서 이어폰을 끼지 않고 스마트폰으로 방송을 보면 안 됩니다. 혼자서 긴 소파를 차지하고 누워 있는 것도 예의에 어긋납니다. 그리고 휴게실에 사람이 없을 때는 전등과 냉난방기를 꺼야 합니다.",
       "options": [
-        "회의실은 이미 예약되어 있다.",
-        "회의실 사용은 금지되어 있다.",
-        "직원 B가 지금 예약하겠다고 했다.",
-        "직원 A가 예약하겠다고 했다."
+        "휴게실에서는 긴 소파에 혼자 누워 있어도 됩니다.",
+        "휴게실의 전등은 항상 켜 두어야 합니다.",
+        "휴게실은 한 사람만 쓰는 공간입니다.",
+        "휴게실에서 스마트폰을 볼 때는 이어폰을 껴야 합니다."
       ],
-      "answer": 2,
-      "explanationBn": "직원 B가 '지금 예약할게요' 말했다, তাই প্রথমটি সঠিক।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা হয়েছে '이어폰을 끼지 않고 스마트폰으로 방송을 보면 안 됩니다' — ইয়ারফোন ছাড়া স্মার্টফোনে ভিডিও দেখা চলবে না, অর্থাৎ দেখতে হলে ইয়ারফোন পরতে হবে; তাই শেষ অপশনটি সঠিক। লম্বা সোফা একা দখল করে শুয়ে থাকা 예의에 어긋납니다 (অভদ্রতা), তাই প্রথমটি ভুল। কেউ না থাকলে বাতি ও এসি/হিটার বন্ধ করতে হবে, সবসময় জ্বালিয়ে রাখা নয়। আর 휴게실 হলো 여러 사람이 함께 이용하는 공간 (অনেকের ব্যবহারের জায়গা), একজনের নয়।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "সংলাপ শুনে সঠিক অপশনটি চিহ্ন করুন:",
-      "questionKo": "다음을 듣고 알맞은 것을 고르세요.",
-      "passage": "남자: 휴게실에 사람이 많아요?\n여자: 아니요, 지금은 괜찮아요.",
+      "section": "reading",
+      "questionBn": "উপরের নোটিশের সঙ্গে মিলে যায় এমন বাক্যটি বেছে নিন।",
+      "questionKo": "위 안내문의 내용과 같은 것을 고르십시오.",
+      "passage": "〈기숙사 안내〉\n•내일(15일) 오전 아홉 시부터 열두 시까지 샤워실을 수리합니다.\n•그 시간에는 샤워실을 이용할 수 없습니다. 그러니까 아침 일찍 미리 샤워해 놓으세요.\n•불편한 점이 있으면 1층 관리인에게 이야기해 주세요.",
       "options": [
-        "휴게실에 항상 사람이 많다.",
-        "휴게실은 문을 닫았다.",
-        "사람들이 휴게실을 예약했다.",
-        "지금 휴게실에 사람이 많지 않다."
+        "15일에는 하루 종일 샤워실을 쓸 수 없습니다.",
+        "수리 시간 전에 미리 샤워를 하는 것이 좋습니다.",
+        "샤워실 수리는 오후에 시작합니다.",
+        "불편한 점은 2층 관리인에게 이야기합니다."
       ],
-      "answer": 3,
-      "explanationBn": "동료가 '지금은 괜찮아요'라고 하여 사람이 많지 않다고 했습니다।"
+      "answer": 1,
+      "explanationBn": "নোটিশে লেখা আছে '아침 일찍 미리 샤워해 놓으세요' — মেরামতের সময়ের আগেই সকালে গোসল সেরে রাখা ভালো, তাই দ্বিতীয় অপশনটি সঠিক (এখানে -아/어 놓다 আগেভাগে কাজ সেরে রাখার অর্থ দিচ্ছে)। সারা দিন নয়, শাওয়ার রুম বন্ধ থাকবে শুধু সকাল ৯টা থেকে ১২টা পর্যন্ত। মেরামত শুরু হবে 오전 (সকালে), বিকেলে নয়। আর সমস্যা হলে বলতে হবে ১ম তলার 관리인 (কেয়ারটেকার)-কে, ২য় তলার নয়।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "다음 표지판의 의미로 알맞은 것을 고르십시오.",
-      "questionKo": "다음 표지판의 의미로 알맞은 것을 고르십시오.",
-      "passage": "[비상구 / Emergency Exit]",
+      "questionBn": "খালি জায়গায় বসানোর জন্য সবচেয়ে উপযুক্ত উত্তরটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 기숙사에 친구들을 데리고 와도 돼요?\n나: 안 돼요. ______",
       "options": [
-        "불이 나면 이 문으로 나가야 합니다.",
-        "이곳에서 담배를 피울 수 있습니다.",
-        "이곳에 차를 주차하면 안 됩니다.",
-        "이곳에서 물을 마실 수 있습니다."
+        "제 친구가 아주 많잖아요.",
+        "다른 사람들이 불편해하잖아요.",
+        "기숙사가 아주 깨끗하잖아요.",
+        "관리인이 지금 안 계시잖아요."
       ],
-      "answer": 0,
-      "explanationBn": "'비상구'는 위급한 상황에서 대피하는 문이므로 2번이 정답입니다."
+      "answer": 1,
+      "explanationBn": "প্রশ্নকর্তা জানতে চাইছেন ডরমিটরিতে বন্ধুদের নিয়ে আসা যাবে কি না, আর উত্তরে 안 돼요 (যাবে না) বলার পর কারণ দরকার। 다른 사람들이 불편해하잖아요 মানে 'অন্যরা তো অস্বস্তি বোধ করে' — -잖아요 দিয়ে শ্রোতা আগে থেকেই জানে এমন কারণ মনে করিয়ে দেওয়া হচ্ছে, তাই এটিই সঠিক। বন্ধু অনেক থাকা বা ডরমিটরি পরিষ্কার হওয়া নিষেধের কারণ হতে পারে না; কেয়ারটেকার এখন নেই — এটি নিয়মের কারণ নয়, বরং তখন উল্টো সুযোগ বোঝাত।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "다음 안내문을 읽고 맞는 것을 고르십시오.",
-      "questionKo": "다음 안내문을 읽고 맞는 것을 고르십시오.",
-      "passage": "안내: '에어컨을 켠 상태로 창문을 열지 마세요. 퇴근할 때는 반드시 에어컨을 끄고 가시기 바랍니다.'",
+      "questionBn": "উপরের নিয়মের সঙ্গে মিলে যায় এমন বাক্যটি বেছে নিন।",
+      "questionKo": "위 안내문의 내용과 같은 것을 고르십시오.",
+      "passage": "〈기숙사 조리실 이용 규칙〉\n•이용 시간: 밤 아홉 시까지\n•요리한 후에는 깨끗하게 정리해 놓으세요.\n•휴게실에서는 요리하면 안 됩니다. 그러나 요리한 음식을 휴게실에서 먹는 것은 괜찮습니다.",
       "options": [
-        "에어컨을 켜고 창문을 열어도 됩니다.",
-        "퇴근할 때 에어컨을 켜 두어야 합니다.",
-        "창문을 열 때는 에어컨을 꺼야 합니다.",
-        "에어컨은 관리자만 끌 수 있습니다."
+        "요리는 조리실에서 해야 합니다.",
+        "밤 열 시에도 조리실을 이용할 수 있습니다.",
+        "휴게실에서는 음식을 먹을 수 없습니다.",
+        "요리한 후에 정리하지 않아도 됩니다."
       ],
-      "answer": 2,
-      "explanationBn": "에어컨을 켠 상태로 창문을 열지 말라고 했으므로, 창문을 열 때는 에어컨을 꺼야 합니다."
+      "answer": 0,
+      "explanationBn": "নিয়মে বলা আছে 휴게실에서는 요리하면 안 됩니다 (বিশ্রামকক্ষে রান্না নিষেধ), অর্থাৎ রান্না করতে হবে 조리실 (কমন রান্নাঘর)-এ; তাই প্রথম অপশনটি সঠিক। ব্যবহারের সময় রাত ৯টা পর্যন্ত, তাই ১০টায় ব্যবহার করা যাবে না। বিশ্রামকক্ষে রান্না নিষেধ হলেও রান্না করা খাবার খাওয়া চলে, তাই '음식을 먹을 수 없습니다' ভুল। আর রান্নার পরে 깨끗하게 정리해 놓으세요 বলা হয়েছে, তাই গোছানো না করলেও চলবে — এটিও ভুল।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 말을 고르십시오.",
-      "passage": "가: 복사기가 작동하지 않아요.\n나: 그럼 관리자에게 _______.",
+      "section": "listening",
+      "questionBn": "কথাটি শুনে প্রশ্নের সঠিক উত্তরটি বেছে নিন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "남자: 세탁실이 몇 층에 있어요?",
       "options": [
-        "고쳐 주세요",
-        "예약해 달라고 하세요",
-        "버려 달라고 하세요",
-        "수리해 달라고 하세요"
+        "밤 열 시까지 해요.",
+        "세탁기가 두 대 있어요.",
+        "무료로 쓸 수 있어요.",
+        "이 층에 있어요."
       ],
       "answer": 3,
-      "explanationBn": "복사기가 고장났으므로 관리자에게 수리를 요청해야 합니다."
+      "explanationBn": "প্রশ্নটি 몇 층에 있어요? অর্থাৎ 'কত তলায় আছে?' — তাই উত্তরে তলা বলা দরকার, আর 이 층에 있어요 (দুই তলায় আছে) সেটাই বলছে। 밤 열 시까지 해요 সময়ের উত্তর (몇 시까지 প্রশ্নের জন্য), 세탁기가 두 대 있어요 সংখ্যার উত্তর (몇 대 প্রশ্নের জন্য), আর 무료로 쓸 수 있어요 দামের কথা বলছে — কোনোটিই স্থান/তলার উত্তর নয়।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하십시오. 이 사람은 왜 휴게실에 갔습니까?",
-      "questionKo": "다음 글을 읽고 질문에 답하십시오. 이 사람은 왜 휴게실에 갔습니까?",
-      "passage": "저는 오늘 아침부터 계속 서서 일했습니다. 다리가 너무 아파서 점심을 먹은 후에 잠깐 쉬려고 휴게실에 갔습니다.",
+      "section": "listening",
+      "questionBn": "দুজন কী নিয়ে কথা বলছেন?",
+      "questionKo": "두 사람은 무엇에 대해 말하고 있습니까?",
+      "passage": "남자: 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여자: 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.",
       "options": [
-        "다리가 아파서 쉬기 위해서",
-        "점심을 먹기 위해서",
-        "동료를 만나기 위해서",
-        "회의를 하기 위해서"
+        "구내식당의 위치",
+        "구내식당의 가격",
+        "구내식당의 이용 방법",
+        "구내식당의 메뉴 종류"
       ],
-      "answer": 0,
-      "explanationBn": "다리가 아파서 쉬려고 휴게실에 갔다고 했습니다."
+      "answer": 2,
+      "explanationBn": "কথোপকথনে নগদ টাকায় দাম দেওয়া যাবে কি না, নাকি আগে 식권 (মিল টিকিট) কিনে কর্মীকে দিতে হবে — অর্থাৎ ক্যান্টিন কীভাবে ব্যবহার করতে হয় তা নিয়ে আলোচনা হচ্ছে, তাই 이용 방법 (ব্যবহারের পদ্ধতি) সঠিক। 위치 (কোথায় আছে) নিয়ে কেউ কিছু বলেনি; 가격 (দাম) কত টাকা তা বলা হয়নি, শুধু পরিশোধের নিয়ম বলা হয়েছে; 메뉴 종류 (কী কী খাবার আছে) নিয়েও কোনো কথা নেই।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음 메모를 읽고 맞는 것을 고르십시오.",
-      "questionKo": "다음 메모를 읽고 맞는 것을 고르십시오.",
-      "passage": "수루 씨, 제가 회의실을 예약하려고 했는데 벌써 예약이 다 찼어요. 오늘 회의는 사무실에서 해야 할 것 같아요. - 바루",
+      "section": "listening",
+      "questionBn": "দুজনের কথোপকথন শুনে সঠিক বাক্যটি বেছে নিন।",
+      "questionKo": "들은 내용과 같은 것은 무엇입니까?",
+      "passage": "남자: 복도에서 담배를 피워도 돼요?\n여자: 안 돼요. 기숙사 안에서는 어디에서도 담배를 피우면 안 돼요. 기숙사 내에서는 금연이잖아요.",
       "options": [
-        "바루 씨는 회의실을 예약했습니다.",
-        "오늘 회의는 회의실에서 합니다.",
-        "회의실 예약이 모두 끝났습니다.",
-        "수루 씨가 회의실을 예약했습니다."
+        "복도에서만 담배를 피울 수 있습니다.",
+        "샤워실에서는 담배를 피워도 됩니다.",
+        "기숙사 밖에서도 담배를 피우면 안 됩니다.",
+        "기숙사 안에서는 담배를 피우면 안 됩니다."
       ],
-      "answer": 2,
-      "explanationBn": "예약이 다 찼다고 했으므로 3번이 정답입니다."
+      "answer": 3,
+      "explanationBn": "মেয়েটি বলেছে '기숙사 안에서는 어디에서도 담배를 피우면 안 돼요' — ডরমিটরির ভেতরে কোথাওই ধূমপান করা যাবে না, তাই চার নম্বর অপশনটি সঠিক। সে -잖아요 ব্যবহার করে মনে করিয়ে দিচ্ছে যে ডরমিটরি ধূমপানমুক্ত, এটা শ্রোতার আগেই জানা থাকার কথা। এক নম্বর (শুধু করিডরে ধূমপান করা যায়) ও দুই নম্বর (শাওয়ার রুমে ধূমপান করা যায়) কথোপকথনের সরাসরি বিপরীত। তিন নম্বরে বলা হয়েছে ডরমিটরির বাইরেও নিষেধ, কিন্তু বাইরের বিষয়ে কিছুই বলা হয়নি।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 반장님, 자판기에 커피가 안 나와요.\n남자: 그래요? 고장난 것 같네요. 제가 수리 센터에 전화할게요.",
+      "questionBn": "দুজনের কথোপকথন শুনে সঠিক বাক্যটি বেছে নিন।",
+      "questionKo": "들은 내용과 같은 것은 무엇입니까?",
+      "passage": "남자: 구내식당 식권을 한 번에 많이 사면 어떻게 돼요?\n여자: 식권을 여러 장 사면 할인이 돼요. 그러니까 미리 많이 사 놓는 게 좋아요.",
       "options": [
-        "여자는 커피를 마셨습니다.",
-        "남자는 자판기를 고칠 수 있습니다.",
-        "자판기가 고장나서 커피가 안 나옵니다.",
-        "남자는 수리 센터에서 일합니다."
+        "식권을 많이 사면 할인이 됩니다.",
+        "식권은 식사 후에 사야 합니다.",
+        "현금으로 계산하면 할인이 됩니다.",
+        "식권은 한 장씩 사야 합니다."
       ],
-      "answer": 2,
-      "explanationBn": "자판기에 커피가 안 나온다고 했으므로 고장난 것입니다."
+      "answer": 0,
+      "explanationBn": "মেয়েটি বলেছে '식권을 여러 장 사면 할인이 돼요' — একসঙ্গে অনেকগুলো মিল টিকিট কিনলে ছাড় পাওয়া যায়, তাই এক নম্বর অপশনটি সঠিক। '사 놓는 게 좋아요' অংশে -아/어 놓다 দিয়ে বোঝানো হচ্ছে আগেভাগে কিনে রাখা ভালো। দুই নম্বরে বলা হয়েছে খাওয়ার পরে টিকিট কিনতে হয়, কিন্তু কথোপকথনে বলা হয়েছে আগেই (미리) কিনতে। তিন নম্বরে নগদ টাকায় ছাড়ের কথা আছে, যা কোথাও বলা হয়নি। চার নম্বর (এক-এক করে কিনতে হয়) মেয়েটির পরামর্শের উল্টো।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 여자가 할 일로 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 여자가 할 일로 알맞은 것을 고르십시오.",
-      "passage": "남자: 리한 씨, 퇴근하기 전에 창문을 닫고 에어컨을 꺼 주세요.\n여자: 네, 알겠습니다. 쓰레기통도 비울까요?\n남자: 아니요, 쓰레기통은 제가 비울게요.",
+      "questionBn": "কথাটি শুনে এর পরে আসার মতো সবচেয়ে উপযুক্ত বাক্যটি বেছে নিন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n여자: 아, 정말요? 몰랐어요.",
       "options": [
-        "창문을 열기",
-        "쓰레기통 비우기",
-        "청소하기",
-        "에어컨 끄기"
+        "세탁기가 많이 있네요.",
+        "앞으로는 조심할게요.",
+        "빨래가 정말 깨끗하게 됐어요.",
+        "무료로 할 수 있어서 좋아요."
       ],
-      "answer": 3,
-      "explanationBn": "남자가 여자에게 창문을 닫고 에어컨을 꺼 달라고 부탁했습니다."
+      "answer": 1,
+      "explanationBn": "পুরুষটি নিয়ম মনে করিয়ে দিয়েছে যে এত রাতে লন্ড্রি রুম ব্যবহার করা যায় না, আর মেয়েটি '몰랐어요' বলে জানত না বলে স্বীকার করেছে। এর পরে স্বাভাবিক উত্তর '앞으로는 조심할게요' অর্থাৎ 'এরপর থেকে সাবধান থাকব', তাই দুই নম্বর অপশনটি সঠিক। এক নম্বর ('অনেক ওয়াশিং মেশিন আছে') মেশিনের সংখ্যা নিয়ে, যা এখানে অপ্রাসঙ্গিক। তিন নম্বর ('কাপড় খুব পরিষ্কার হয়েছে') ধোয়ার ফল নিয়ে, নিয়ম নিয়ে নয়। চার নম্বর ('বিনামূল্যে করা যায় বলে ভালো') খরচের কথা বলছে, যা সতর্কবার্তার সঙ্গে মেলে না।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
-      "questionKo": "다음을 듣고 질문에 알맞은 대답을 고르십시오.",
-      "passage": "남자: 여기에서 담배를 피워도 돼요?\n여자: 아니요, 여기는 금연 구역이에요. 담배는 흡연실에서 피우셔야 해요.",
+      "questionBn": "দুজনের কথোপকথন শুনে সঠিক বাক্যটি বেছে নিন।",
+      "questionKo": "들은 내용과 같은 것은 무엇입니까?",
+      "passage": "남자: 유수프 씨, 여기서 요리하면 안 돼요.\n여자: 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n남자: 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 요리한 음식을 휴게실에서 먹는 건 괜찮아요.",
       "options": [
-        "네, 피워도 돼요.",
-        "아니요, 흡연실에서 피우세요.",
-        "네, 흡연실이 없어요.",
-        "아니요, 담배가 없어요."
+        "휴게실에서 요리해도 됩니다.",
+        "여자는 조리실에서 요리하고 있었습니다.",
+        "조리실은 아홉 시까지 이용할 수 있습니다.",
+        "휴게실에서는 음식을 먹을 수 없습니다."
       ],
-      "answer": 1,
-      "explanationBn": "여자가 금연 구역이라고 하며 흡연실에서 피우라고 대답했습니다."
+      "answer": 2,
+      "explanationBn": "পুরুষটি বলেছে '요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요' — রান্নাঘর নয়টা পর্যন্ত ব্যবহার করা যায়, তাই তিন নম্বর অপশনটি সঠিক। এক নম্বরে বলা হয়েছে বিশ্রামকক্ষে রান্না করা যায়, কিন্তু পুরুষটি প্রথমেই বলেছে সেখানে রান্না করা যাবে না। দুই নম্বরে বলা হয়েছে মেয়েটি রান্নাঘরে রান্না করছিল, অথচ সে বিশ্রামকক্ষে রান্না করছিল বলেই তাকে থামানো হয়েছে। চার নম্বরে বলা হয়েছে বিশ্রামকক্ষে খাওয়া যায় না, কিন্তু পুরুষটি স্পষ্টভাবে বলেছে রান্না করা খাবার বিশ্রামকক্ষে খাওয়া ঠিক আছে।"
     }
   ]
 }
