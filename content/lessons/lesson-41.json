@@ -10,664 +10,743 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কারখানায় সাধারণ বস্ত্র শব্দপত্র জানা",
-      "সরল উৎপাদন নির্দেশনা বুঝা এবং মান অনুসারে কাজ করা",
-      "সহকর্মীর সাথে কাজের সাধারণ কথোপকথন করা",
-      "সরল গرامার কাঠামো ব্যবহার করে অনুরোধ ও নির্দেশ দেওয়া"
+      "সুতা সংরক্ষণে কী কী খেয়াল রাখতে হয় তা জিজ্ঞেস করতে ও জানাতে পারা",
+      "রং করার (ডাইং) কাজের ধাপ ও শব্দাবলি ব্যবহার করতে পারা",
+      "'-거나' দিয়ে দুই বা ততোধিক বিকল্পের মধ্যে একটি বোঝাতে পারা",
+      "'-아야/어야' দিয়ে বোঝানো — এটা করলে তবেই ওটা সম্ভব"
     ],
     "en": [
-      "Know basic textile-related vocabulary used in factories",
-      "Understand simple production instructions and follow quality standards",
-      "Have basic workplace conversations with coworkers",
-      "Use simple grammar forms to make requests and give instructions"
+      "Can ask and answer about precautions for storing and managing yarn",
+      "Can use vocabulary related to the dyeing process",
+      "Can use -거나 to list alternatives",
+      "Can use -아야/어야 to state a necessary condition for a result"
     ]
   },
   "vocabulary": [
     {
-      "ko": "섬유",
-      "romanization": "seomyu",
-      "bn": "তন্তু, ফাইবার",
-      "en": "fiber; textile",
+      "ko": "원사",
+      "romanization": "wonsa",
+      "bn": "সুতা (কাপড় বোনার আগের কাঁচা সুতা)",
+      "en": "yarn",
       "pos": "noun",
       "example": {
-        "ko": "이 공장은 합성섬유를 생산합니다.",
-        "bn": "এই কারখানাটি সিংথেটিক তন্তু উৎপাদন করে।",
-        "en": "This factory produces synthetic fibers."
+        "ko": "원사는 온도와 습도에 민감해요.",
+        "bn": "সুতা তাপমাত্রা আর আর্দ্রতার প্রতি খুব সংবেদনশীল।",
+        "en": "Yarn is sensitive to temperature and humidity."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "원사 → [원사]। '원' মানে মূল বা কাঁচা, '사' মানে সুতা — 'ওন-সা'। খেয়াল রাখুন, '원사' হলো সুতা, আর '원단' হলো বোনা কাপড়।"
+    },
+    {
+      "ko": "습도",
+      "romanization": "seupdo",
+      "bn": "আর্দ্রতা (বাতাসে জলীয় বাষ্পের পরিমাণ)",
+      "en": "humidity",
+      "pos": "noun",
+      "example": {
+        "ko": "창고의 온도와 습도를 일정하게 유지하세요.",
+        "bn": "গুদামের তাপমাত্রা আর আর্দ্রতা একরকম রাখুন।",
+        "en": "Keep the temperature and humidity in the warehouse consistent."
+      },
+      "pronunciationTipBn": "습도 → [습또]। 'ㅂ' বাতচিমের পরে 'ㄷ' টান-টান শক্ত হয়ে 'ㄸ' হয় — 'সৃপ-দো' নয়, 'সৃপ-ত্তো'।"
+    },
+    {
+      "ko": "습하다",
+      "romanization": "seupada",
+      "bn": "স্যাঁতসেঁতে হওয়া, ভেজা ভেজা থাকা",
+      "en": "to be humid, damp",
+      "pos": "adjective",
+      "example": {
+        "ko": "장마철이라서 정말 습하고 더워요.",
+        "bn": "বর্ষাকাল বলে সত্যিই স্যাঁতসেঁতে আর গরম।",
+        "en": "It's really humid and hot because of the rainy season."
+      },
+      "pronunciationTipBn": "습하다 → [스파다]। 'ㅂ' আর 'ㅎ' মিশে নিঃশ্বাসযুক্ত 'ㅍ' হয় — 'সৃপ-হা-দা' নয়, 'সৃ-ফা-দা'।"
+    },
+    {
+      "ko": "건조하다",
+      "romanization": "geonjohada",
+      "bn": "শুকনো হওয়া; শুকিয়ে নেওয়া",
+      "en": "to be dry; to dry",
+      "pos": "verb",
+      "example": {
+        "ko": "탈수가 끝난 원단을 건조해요.",
+        "bn": "পানি ঝরানো শেষ হলে কাপড়টা শুকানো হয়।",
+        "en": "We dry the fabric after the water has been removed."
+      },
+      "pronunciationTipBn": "건조 → [건조]। 'ㄴ' বাতচিম নাক দিয়ে — 'গোন-জো'। এই শব্দটি বিশেষণ (শুকনো) ও ক্রিয়া (শুকানো) — দুই অর্থেই চলে।"
+    },
+    {
+      "ko": "유지하다",
+      "romanization": "yujihada",
+      "bn": "ধরে রাখা, একই অবস্থায় বজায় রাখা",
+      "en": "to maintain, to keep",
+      "pos": "verb",
+      "example": {
+        "ko": "적정 습도를 유지하는 게 중요해요.",
+        "bn": "উপযুক্ত আর্দ্রতা ধরে রাখাটাই গুরুত্বপূর্ণ।",
+        "en": "It's important to maintain the proper humidity."
+      },
+      "pronunciationTipBn": "유지하다 → [유지하다]। 'ㅠ' হলো 'ইউ' — 'উ-জি-হা-দা' নয়, 'ইউ-জি-হা-দা'।"
+    },
+    {
+      "ko": "일정하다",
+      "romanization": "iljeonghada",
+      "bn": "একরকম থাকা, ওঠানামা না করা",
+      "en": "to be consistent, steady",
+      "pos": "adjective",
+      "example": {
+        "ko": "온도를 일정하게 유지해야 합니다.",
+        "bn": "তাপমাত্রা একরকম রাখতে হবে।",
+        "en": "You must keep the temperature consistent."
+      },
+      "pronunciationTipBn": "일정 → [일쩡]। 'ㄹ' বাতচিমের পরে 'ㅈ' শক্ত হয়ে 'ㅉ' হয় — 'ইল-জোং' নয়, 'ইল-ছোং'।"
+    },
+    {
+      "ko": "직사광선을 피하다",
+      "romanization": "jiksagwangseoneul pihada",
+      "bn": "সরাসরি রোদ এড়িয়ে চলা",
+      "en": "to avoid direct sunlight",
+      "pos": "phrase",
+      "example": {
+        "ko": "원사는 직사광선을 피해서 보관하세요.",
+        "bn": "সুতা সরাসরি রোদ এড়িয়ে রাখুন।",
+        "en": "Store the yarn away from direct sunlight."
+      },
+      "pronunciationTipBn": "직사 → [직싸]। 'ㄱ' বাতচিমের পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয় — 'জিক-সা' নয়, 'জিক-স্সা'। '피하다' মানে এড়ানো।"
+    },
+    {
+      "ko": "통풍이 잘되다",
+      "romanization": "tongpungi jaldoeda",
+      "bn": "বাতাস ভালোভাবে চলাচল করা",
+      "en": "to be well-ventilated",
+      "pos": "phrase",
+      "example": {
+        "ko": "통풍이 잘되는 곳에 보관해야 돼요.",
+        "bn": "বাতাস চলাচল করে এমন জায়গায় রাখতে হবে।",
+        "en": "You have to store it where it's well-ventilated."
+      },
+      "pronunciationTipBn": "통풍 → [통풍]। দুটোই 'ㅇ' বাতচিম, নাক দিয়ে টেনে, আর 'ㅍ' নিঃশ্বাসযুক্ত — 'তোং-পুং' নয়, 'থোং-ফুং'।"
+    },
+    {
+      "ko": "민감하다",
+      "romanization": "mingamhada",
+      "bn": "সংবেদনশীল হওয়া, সহজেই প্রভাবিত হওয়া",
+      "en": "to be sensitive",
+      "pos": "adjective",
+      "example": {
+        "ko": "원사는 습도에 민감해서 관리가 중요해요.",
+        "bn": "সুতা আর্দ্রতার প্রতি সংবেদনশীল, তাই যত্ন নেওয়াটা জরুরি।",
+        "en": "Yarn is sensitive to humidity, so management matters."
+      },
+      "pronunciationTipBn": "민감하다 → [민가마다]। 'ㅁ' আর 'ㅎ' মিলে 'ㅁ' শোনা যায় — 'মিন-গাম-হা-দা' নয়, 'মিন-গা-মা-দা'।"
+    },
+    {
+      "ko": "변색되다",
+      "romanization": "byeonsaekdoeda",
+      "bn": "রং বদলে যাওয়া, রং জ্বলে যাওয়া",
+      "en": "to discolor, to fade",
+      "pos": "verb",
+      "example": {
+        "ko": "온도가 높으면 원사가 변색될 수 있어요.",
+        "bn": "তাপমাত্রা বেশি হলে সুতার রং বদলে যেতে পারে।",
+        "en": "If the temperature is high, the yarn can discolor."
+      },
+      "pronunciationTipBn": "변색 → [변색]। 'ㅕ' হলো 'ইয়ো' — 'বেন-সেক' নয়, 'বিয়ন-স্যাক্'। '변' মানে বদল, '색' মানে রং।"
+    },
+    {
+      "ko": "오염되다",
+      "romanization": "oyeomdoeda",
+      "bn": "নোংরা হয়ে যাওয়া, দূষিত হওয়া",
+      "en": "to be contaminated, soiled",
+      "pos": "verb",
+      "example": {
+        "ko": "원사가 변색되거나 오염되기 쉬워요.",
+        "bn": "সুতার রং বদলে যাওয়া বা নোংরা হয়ে যাওয়া সহজেই ঘটে।",
+        "en": "Yarn easily discolors or gets contaminated."
+      },
+      "pronunciationTipBn": "오염 → [오염]। 'ㅕ' হলো 'ইয়ো', শেষে 'ㅁ' ঠোঁট বন্ধ করে — 'ও-ইয়োম'।"
+    },
+    {
+      "ko": "약해지다",
+      "romanization": "yakaejida",
+      "bn": "দুর্বল হয়ে পড়া, শক্তি কমে যাওয়া",
+      "en": "to weaken",
+      "pos": "verb",
+      "example": {
+        "ko": "습도가 높으면 원사가 약해져요.",
+        "bn": "আর্দ্রতা বেশি হলে সুতা দুর্বল হয়ে পড়ে।",
+        "en": "If the humidity is high, the yarn weakens."
+      },
+      "pronunciationTipBn": "약해지다 → [야캐지다]। 'ㄱ' আর 'ㅎ' মিশে নিঃশ্বাসযুক্ত 'ㅋ' হয় — 'ইয়াক-হে-জি-দা' নয়, 'ইয়া-খ্যা-জি-দা'।"
+    },
+    {
+      "ko": "장마철",
+      "romanization": "jangmacheol",
+      "bn": "বর্ষাকাল (কোরিয়ার টানা বৃষ্টির মৌসুম)",
+      "en": "rainy season",
+      "pos": "noun",
+      "example": {
+        "ko": "장마철에는 습도 관리에 더 신경 써야 해요.",
+        "bn": "বর্ষাকালে আর্দ্রতা সামলানোয় আরও বেশি খেয়াল রাখতে হয়।",
+        "en": "During the rainy season you must pay extra attention to humidity."
+      },
+      "pronunciationTipBn": "장마철 → [장마철]। 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'জাং-মা-চল' নয়, 'জাং-মা-ছল্'। কোরিয়ায় এটি সাধারণত জুন-জুলাই মাসে।"
+    },
+    {
+      "ko": "주기적으로",
+      "romanization": "jugijeogeuro",
+      "bn": "নিয়ম করে, নির্দিষ্ট সময় পরপর",
+      "en": "periodically, regularly",
+      "pos": "adverb",
+      "example": {
+        "ko": "온도와 습도를 주기적으로 확인하고 있지요?",
+        "bn": "তাপমাত্রা আর আর্দ্রতা নিয়ম করে দেখছেন তো?",
+        "en": "You're checking the temperature and humidity periodically, right?"
+      },
+      "pronunciationTipBn": "주기적으로 → [주기저그로]। 'ㄱ' পরের স্বরে জুড়ে যায় — 'জু-গি-জোক-উ-로' নয়, 'জু-গি-জো-গৃ-রো'।"
+    },
+    {
+      "ko": "관리 대장",
+      "romanization": "gwalli daejang",
+      "bn": "রেজিস্টার খাতা (যেখানে হিসাব লিখে রাখা হয়)",
+      "en": "control log, record book",
+      "pos": "noun",
+      "example": {
+        "ko": "측정해서 관리 대장에 써 놓고 있어요.",
+        "bn": "মেপে রেজিস্টার খাতায় লিখে রাখছি।",
+        "en": "I measure it and record it in the control log."
+      },
+      "pronunciationTipBn": "관리 → [괄리]। 'ㄴ' বদলে 'ㄹ' হয়ে যায় — 'গোয়ান-রি' নয়, 'গোয়াল-লি'। এটি কোরিয়ানের একটি সাধারণ নিয়ম।"
+    },
+    {
+      "ko": "적정",
+      "romanization": "jeokjeong",
+      "bn": "উপযুক্ত মাত্রা (যতটা হওয়া উচিত)",
+      "en": "appropriate level",
+      "pos": "noun",
+      "example": {
+        "ko": "적정 습도를 유지해야 원사가 상하지 않아요.",
+        "bn": "উপযুক্ত আর্দ্রতা ধরে রাখলেই সুতা নষ্ট হয় না।",
+        "en": "The yarn won't spoil only if you maintain the appropriate humidity."
+      },
+      "pronunciationTipBn": "적정 → [적쩡]। 'ㄱ' বাতচিমের পরে 'ㅈ' শক্ত হয়ে 'ㅉ' হয় — 'জোক-জোং' নয়, 'জোক-ছোং'।"
+    },
+    {
+      "ko": "종류별로",
+      "romanization": "jongnyubyeollo",
+      "bn": "ধরন অনুযায়ী (আলাদা আলাদা ভাগ করে)",
+      "en": "by type",
+      "pos": "adverb",
+      "example": {
+        "ko": "원사를 종류별로 분류해서 관리해 주세요.",
+        "bn": "সুতাগুলো ধরন অনুযায়ী ভাগ করে সামলান।",
+        "en": "Please sort and manage the yarn by type."
+      },
+      "pronunciationTipBn": "종류 → [종뉴]। 'ㅇ' বাতচিমের পরে 'ㄹ' বদলে 'ㄴ' হয় — 'জোং-রিউ' নয়, 'জোং-নিউ'। '별로' মানে অনুযায়ী।"
     },
     {
       "ko": "원단",
       "romanization": "wondan",
-      "bn": "কাপড়ের গচ্চা (ফ্যাব্রিক)",
-      "en": "fabric; cloth",
+      "bn": "কাপড় (বোনা থান কাপড়)",
+      "en": "fabric, cloth",
       "pos": "noun",
       "example": {
-        "ko": "원단의 색상을 확인하세요.",
-        "bn": "ফ্যাব্রিকের রঙ পরীক্ষা করুন।",
-        "en": "Check the color of the fabric."
+        "ko": "원단이 자꾸 엉키는데 어떡하지요?",
+        "bn": "কাপড়টা বারবার জট পাকিয়ে যাচ্ছে, কী করব?",
+        "en": "The fabric keeps getting tangled. What should I do?"
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "원단 → [원단]। 'ㄴ' বাতচিম নাক দিয়ে — 'ওন-দান'। মনে রাখুন — '원사' সুতা, আর '원단' হলো সেই সুতা দিয়ে বোনা কাপড়।"
     },
     {
-      "ko": "실",
-      "romanization": "sil",
-      "bn": "সূতী, থ্রেড",
-      "en": "thread",
+      "ko": "합성 섬유",
+      "romanization": "hapseong seomyu",
+      "bn": "কৃত্রিম তন্তু (নাইলন, পলিয়েস্টার ইত্যাদি)",
+      "en": "synthetic fiber",
       "pos": "noun",
       "example": {
-        "ko": "이 실은 튼튼합니다.",
-        "bn": "এই থ্রেডটি শক্ত।",
-        "en": "This thread is strong."
+        "ko": "원단이 합성 섬유라서 시간이 더 걸려요.",
+        "bn": "কাপড়টা কৃত্রিম তন্তুর, তাই সময় বেশি লাগে।",
+        "en": "The fabric is synthetic fiber, so it takes longer."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "합성 → [합썽]। 'ㅂ' বাতচিমের পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয় — 'হাপ-সোং' নয়, 'হাপ-স্সোং'।"
     },
     {
-      "ko": "직조",
-      "romanization": "jikjo",
-      "bn": "বোনা (ওভেন/ত্বরা প্রক্রিয়া)",
-      "en": "weaving",
+      "ko": "면",
+      "romanization": "myeon",
+      "bn": "সুতি (তুলা থেকে তৈরি তন্তু)",
+      "en": "cotton",
       "pos": "noun",
       "example": {
-        "ko": "직조 기계가 고장났습니다.",
-        "bn": "বোনা মেশিনটি খারাপ হয়ে গেছে।",
-        "en": "The weaving machine is broken."
+        "ko": "면은 땀을 잘 흡수해요.",
+        "bn": "সুতি ঘাম ভালো শুষে নেয়।",
+        "en": "Cotton absorbs sweat well."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "면 → [면]। 'ㅁ'+'ㅕ' মিলে 'মিয়ো', শেষে 'ㄴ' — 'মেন' নয়, 'মিয়ন'।"
     },
     {
-      "ko": "재봉",
-      "romanization": "jaebong",
-      "bn": "সেলাই",
-      "en": "sewing",
+      "ko": "모",
+      "romanization": "mo",
+      "bn": "পশম (ভেড়ার লোম থেকে তৈরি তন্তু)",
+      "en": "wool",
       "pos": "noun",
       "example": {
-        "ko": "재봉실이 모자랐습니다.",
-        "bn": "সেলাই থ্রেড কম পড়েছে।",
-        "en": "We ran out of sewing thread."
+        "ko": "모는 물에 약하니까 조심해서 세탁해야 돼요.",
+        "bn": "পশম পানিতে দুর্বল, তাই সাবধানে ধুতে হয়।",
+        "en": "Wool is weak against water, so you must wash it carefully."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "모 → [모]। এক অক্ষরের ছোট শব্দ, ঠোঁট গোল করে 'মো'। কাপড়ের লেবেলে এই এক অক্ষরেই পশম বোঝানো হয়।"
     },
     {
-      "ko": "염색",
-      "romanization": "yeomsaek",
-      "bn": "কালারিং, রঞ্জন",
-      "en": "dyeing",
+      "ko": "견",
+      "romanization": "gyeon",
+      "bn": "রেশম (রেশম পোকার গুটি থেকে তৈরি তন্তু)",
+      "en": "silk",
       "pos": "noun",
       "example": {
-        "ko": "염색 과정에서 색이 변할 수 있습니다.",
-        "bn": "রঞ্জন প্রক্রিয়ায় রঙ বদলে যেতে পারে।",
-        "en": "The color may change during the dyeing process."
+        "ko": "견은 부드럽지만 물에 약해요.",
+        "bn": "রেশম নরম, কিন্তু পানিতে দুর্বল।",
+        "en": "Silk is soft but weak against water."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "견 → [견]। 'ㄱ'+'ㅕ' মিলে 'গিয়ো', শেষে 'ㄴ' — 'গেন' নয়, 'গিয়ন'। কাপড়ের লেবেলে '견 100%' মানে খাঁটি রেশম।"
     },
     {
-      "ko": "인쇄",
-      "romanization": "inswae",
-      "bn": "প্রিন্টিং",
-      "en": "printing",
+      "ko": "나일론",
+      "romanization": "naillon",
+      "bn": "নাইলন (মজবুত কৃত্রিম তন্তু)",
+      "en": "nylon",
       "pos": "noun",
       "example": {
-        "ko": "티셔츠에 로고를 인쇄합니다.",
-        "bn": "টি-শার্টে লোগো প্রিন্ট করা হবে।",
-        "en": "We print the logo on the t-shirts."
+        "ko": "나일론은 질기고 잘 마릅니다.",
+        "bn": "নাইলন শক্ত আর তাড়াতাড়ি শুকিয়ে যায়।",
+        "en": "Nylon is tough and dries quickly."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "나일론 → [나일론]। 'ㄹㄹ' টেনে — 'না-ই-লোন' নয়, 'না-ইল-লোন'।"
     },
     {
-      "ko": "기계",
-      "romanization": "gigae",
-      "bn": "মেশিন",
-      "en": "machine",
+      "ko": "폴리에스터",
+      "romanization": "pollieseuteo",
+      "bn": "পলিয়েস্টার (সবচেয়ে বেশি ব্যবহৃত কৃত্রিম তন্তু)",
+      "en": "polyester",
       "pos": "noun",
       "example": {
-        "ko": "기계를 점검해야 합니다.",
-        "bn": "মেশিনটি পরীক্ষা করতে হবে।",
-        "en": "We need to inspect the machine."
+        "ko": "폴리에스터는 염색하는 데 시간이 더 걸려요.",
+        "bn": "পলিয়েস্টার রং করতে বেশি সময় লাগে।",
+        "en": "Polyester takes longer to dye."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "폴리에스터 → [폴리에스터]। শুরুর 'ㅍ' নিঃশ্বাসযুক্ত 'ফ', 'ㄹㄹ' টেনে — 'পোল-লি-এ-সু-টা' নয়, 'ফোল-লি-এ-সৃ-থো'।"
     },
     {
-      "ko": "공장",
-      "romanization": "gongjang",
-      "bn": "কারখানা",
-      "en": "factory",
+      "ko": "염료",
+      "romanization": "yeomnyo",
+      "bn": "রং, ডাই (কাপড় রাঙানোর উপকরণ)",
+      "en": "dye",
       "pos": "noun",
       "example": {
-        "ko": "공장은 아침 8시에 문을 엽니다.",
-        "bn": "কারখানা সকাল ৮টায় খোলে।",
-        "en": "The factory opens at 8 AM."
+        "ko": "누가 염료를 넣었어요?",
+        "bn": "কে রংটা দিয়েছে?",
+        "en": "Who put in the dye?"
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "염료 → [염뇨]। 'ㅁ' বাতচিমের পরে 'ㄹ' বদলে 'ㄴ' হয় — 'ইয়োম-রিও' নয়, 'ইয়োম-নিও'।"
     },
     {
-      "ko": "생산",
-      "romanization": "saengsan",
-      "bn": "উৎপাদন",
-      "en": "production",
-      "pos": "noun",
+      "ko": "염색하다",
+      "romanization": "yeomsaekada",
+      "bn": "রং করা, রাঙানো",
+      "en": "to dye",
+      "pos": "verb",
       "example": {
-        "ko": "생산 목표를 달성해야 합니다.",
-        "bn": "উৎপাদন লক্ষ্যমাত্রা পূরণ করতে হবে।",
-        "en": "We must meet the production target."
+        "ko": "원사를 파란색으로 염색해야 돼요.",
+        "bn": "সুতাটা নীল রঙে রাঙাতে হবে।",
+        "en": "We have to dye the yarn blue."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "염색하다 → [염새카다]। 'ㄱ' আর 'ㅎ' মিশে 'ㅋ' হয় — 'ইয়োম-স্যাক-হা-দা' নয়, 'ইয়োম-স্যা-খা-দা'।"
     },
     {
-      "ko": "품질",
-      "romanization": "pumjil",
-      "bn": "গুণমান",
-      "en": "quality",
-      "pos": "noun",
+      "ko": "표백하다",
+      "romanization": "pyobaekada",
+      "bn": "সাদা করা, ব্লিচ করা",
+      "en": "to bleach",
+      "pos": "verb",
       "example": {
-        "ko": "품질 검사가 필요합니다.",
-        "bn": "গুণমান পরীক্ষা করা প্রয়োজন।",
-        "en": "A quality inspection is needed."
+        "ko": "원단을 표백해서 하얗게 만들어요.",
+        "bn": "কাপড়টা ব্লিচ করে সাদা করা হয়।",
+        "en": "We bleach the fabric to make it white."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "표백하다 → [표배카다]। 'ㅍ' নিঃশ্বাসযুক্ত 'ফ', আর 'ㄱ'+'ㅎ' মিশে 'ㅋ' — 'ফিও-ব্যা-খা-দা'।"
     },
     {
-      "ko": "검사",
-      "romanization": "geomsa",
-      "bn": "পরীক্ষা, ইনস্পেকশন",
-      "en": "inspection; check",
-      "pos": "noun",
+      "ko": "세척하다",
+      "romanization": "secheokada",
+      "bn": "ধুয়ে পরিষ্কার করা (রং করার পর অতিরিক্ত রং ধুয়ে ফেলা)",
+      "en": "to wash, to rinse",
+      "pos": "verb",
       "example": {
-        "ko": "검사 결과가 좋지 않습니다.",
-        "bn": "পরীক্ষার ফল ভাল নয়।",
-        "en": "The inspection result is not good."
+        "ko": "염색이 끝나면 세척 작업을 해야 되지요?",
+        "bn": "রং করা শেষ হলে ধোয়ার কাজটা করতে হবে, তাই না?",
+        "en": "After dyeing, we need to do the washing, right?"
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "세척 → [세척]। 'ㅔ' মাঝারি 'এ', 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'সে-ছক্'। '세탁' জামা ধোয়া, '세척' যন্ত্র বা কাপড় ধোয়া।"
     },
     {
-      "ko": "패턴",
-      "romanization": "paeteon",
-      "bn": "প্যাটার্ন, ছাঁচ",
-      "en": "pattern",
-      "pos": "noun",
+      "ko": "말리다",
+      "romanization": "mallida",
+      "bn": "শুকানো, রোদে বা হাওয়ায় শুকিয়ে নেওয়া",
+      "en": "to dry (something)",
+      "pos": "verb",
       "example": {
-        "ko": "이 패턴은 겨울용입니다.",
-        "bn": "এই প্যাটার্নটি শীতকালীন।",
-        "en": "This pattern is for winter."
+        "ko": "탈수가 끝난 원단을 말려요.",
+        "bn": "পানি ঝরানো শেষ হলে কাপড়টা শুকানো হয়।",
+        "en": "We dry the fabric after the water is removed."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "말리다 → [말리다]। 'ㄹㄹ' টেনে 'মাল-লি-দা'। খেয়াল রাখুন — '마르다' মানে নিজে শুকিয়ে যাওয়া, '말리다' মানে অন্য কিছু শুকানো।"
     },
     {
-      "ko": "디자인",
-      "romanization": "dijain",
-      "bn": "নকশা",
-      "en": "design",
+      "ko": "탈수",
+      "romanization": "talsu",
+      "bn": "পানি ঝরানো (ঘুরিয়ে পানি বের করা)",
+      "en": "water removal, spin-drying",
       "pos": "noun",
       "example": {
-        "ko": "새 디자인을 검토하세요.",
-        "bn": "নয়া ডিজাইনটি পরীক্ষা করুন।",
-        "en": "Please review the new design."
+        "ko": "탈수가 끝나면 바로 건조해 주세요.",
+        "bn": "পানি ঝরানো শেষ হলে সঙ্গে সঙ্গে শুকিয়ে দিন।",
+        "en": "As soon as the spin-drying is done, dry it right away."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "탈수 → [탈쑤]। 'ㄹ' বাতচিমের পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয় — 'তাল-সু' নয়, 'থাল-স্সু'।"
     },
     {
-      "ko": "재료",
-      "romanization": "jaeryo",
-      "bn": "উপকরণ",
-      "en": "material",
+      "ko": "불순물",
+      "romanization": "bulsunmul",
+      "bn": "অশুদ্ধ পদার্থ, মিশে থাকা আবর্জনা",
+      "en": "impurities",
       "pos": "noun",
       "example": {
-        "ko": "재료 목록을 확인했습니다.",
-        "bn": "উপকরণের তালিকা আমি দেখেছি।",
-        "en": "I checked the list of materials."
+        "ko": "불순물을 제거해야 염색이 잘돼요.",
+        "bn": "অশুদ্ধ পদার্থ সরালেই রং ভালো ধরে।",
+        "en": "The dyeing works well only if you remove the impurities."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "불순물 → [불순물]। তিনটি অক্ষরই 'ㄹ/ㄴ/ㄹ' দিয়ে শেষ — 'বুল-সুন-মুল'। '불' এখানে 'না' বোঝায়, '순' মানে শুদ্ধ।"
     },
     {
-      "ko": "자동화",
-      "romanization": "jadonghwa",
-      "bn": "স্বয়ংক্রিয়করণ",
-      "en": "automation",
-      "pos": "noun",
+      "ko": "엉키다",
+      "romanization": "eongkida",
+      "bn": "জট পাকিয়ে যাওয়া, পেঁচিয়ে যাওয়া",
+      "en": "to get tangled",
+      "pos": "verb",
       "example": {
-        "ko": "자동화로 생산이 빨라졌습니다.",
-        "bn": "স্বয়ংক্রিয়করণে উৎপাদন দ্রুত হয়েছে।",
-        "en": "Production became faster with automation."
+        "ko": "원단이 엉키면 염색이 잘되지 않습니다.",
+        "bn": "কাপড় জট পাকিয়ে গেলে রং ভালো ধরে না।",
+        "en": "If the fabric gets tangled, it doesn't dye well."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "엉키다 → [엉키다]। 'ㅇ' বাতচিম নাক দিয়ে, 'ㅋ' নিঃশ্বাসযুক্ত 'খ' — 'ওং-কি-দা' নয়, 'ওং-খি-দা'।"
     },
     {
-      "ko": "노동자",
-      "romanization": "nodongja",
-      "bn": "শ্রমিক",
-      "en": "worker",
-      "pos": "noun",
+      "ko": "원단을 펴다",
+      "romanization": "wondaneul pyeoda",
+      "bn": "কাপড় টেনে সমান করা, ভাঁজ খুলে বিছিয়ে দেওয়া",
+      "en": "to spread out the fabric",
+      "pos": "phrase",
       "example": {
-        "ko": "노동자가 안전복을 입었습니다.",
-        "bn": "শ্রমিকটি নিরাপত্তা পোশাক পরেছে।",
-        "en": "The worker wore safety gear."
+        "ko": "원단을 펴 줘야 고르게 염색돼요.",
+        "bn": "কাপড়টা টেনে সমান করে দিলেই সমানভাবে রং ধরে।",
+        "en": "The fabric has to be spread out to be dyed evenly."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "펴다 → [펴다]। 'ㅍ'+'ㅕ' মিলে 'ফিয়ো' — 'পে-দা' নয়, 'ফিয়ো-দা'। '엉키다'-এর ঠিক উল্টো কাজ।"
     },
     {
-      "ko": "안전",
-      "romanization": "anjeon",
-      "bn": "নিরাপত্তা",
-      "en": "safety",
-      "pos": "noun",
+      "ko": "고르다",
+      "romanization": "goreuda",
+      "bn": "সমান হওয়া, একরকম হওয়া",
+      "en": "to be even, uniform",
+      "pos": "adjective",
       "example": {
-        "ko": "안전 수칙을 지키세요.",
-        "bn": "নিরাপত্তা নিয়ম মেনে চলুন।",
-        "en": "Follow the safety rules."
+        "ko": "색깔이 고르게 나왔어요.",
+        "bn": "রংটা সমানভাবে এসেছে।",
+        "en": "The color came out evenly."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন।"
+      "pronunciationTipBn": "고르다 → 고르게 [고르게]। খেয়াল রাখুন — একই বানানের '고르다' মানে 'বেছে নেওয়া'ও হয়; প্রসঙ্গ দেখে বুঝতে হবে।"
     },
     {
-      "ko": "재단",
-      "romanization": "jaedan",
-      "bn": "কাটা (ফ্যাব্রিক)",
-      "en": "cutting (fabric)",
-      "pos": "noun",
+      "ko": "젓다",
+      "romanization": "jeotda",
+      "bn": "নাড়া দেওয়া, ঘুঁটে দেওয়া",
+      "en": "to stir",
+      "pos": "verb",
       "example": {
-        "ko": "원단을 재단합니다.",
-        "bn": "ফ্যাব্রিক কাটা হচ্ছে।",
-        "en": "Cutting the fabric."
+        "ko": "막대기로 한 번씩 저어서 원단을 펴 주세요.",
+        "bn": "লাঠি দিয়ে মাঝে মাঝে নেড়ে কাপড়টা সমান করে দিন।",
+        "en": "Stir it now and then with a stick to spread the fabric out."
       },
-      "pronunciationTipBn": "জ্যা-দান উচ্চারণ করুন।"
-    },
-    {
-      "ko": "포장",
-      "romanization": "pojang",
-      "bn": "প্যাকেজিং",
-      "en": "packaging",
-      "pos": "noun",
-      "example": {
-        "ko": "제품을 포장하세요.",
-        "bn": "পণ্য প্যাক করুন।",
-        "en": "Pack the product."
-      },
-      "pronunciationTipBn": "পো-জাং উচ্চারণ করুন।"
-    },
-    {
-      "ko": "불량",
-      "romanization": "bullyang",
-      "bn": "ত্রুটিপূর্ণ",
-      "en": "defective",
-      "pos": "noun",
-      "example": {
-        "ko": "불량품을 분리하세요.",
-        "bn": "ত্রুটিপূর্ণ পণ্য আলাদা করুন।",
-        "en": "Separate the defective products."
-      },
-      "pronunciationTipBn": "বুল-লিয়াং উচ্চারণ করুন।"
-    },
-    {
-      "ko": "수선",
-      "romanization": "suseon",
-      "bn": "মেরামত",
-      "en": "repair",
-      "pos": "noun",
-      "example": {
-        "ko": "옷을 수선합니다.",
-        "bn": "পোশাক মেরামত করা হচ্ছে।",
-        "en": "Repairing the clothes."
-      },
-      "pronunciationTipBn": "সু-সন উচ্চারণ করুন।"
-    },
-    {
-      "ko": "치수",
-      "romanization": "chisu",
-      "bn": "মাপ",
-      "en": "size/measurement",
-      "pos": "noun",
-      "example": {
-        "ko": "치수를 재세요.",
-        "bn": "মাপ নিন।",
-        "en": "Take the measurement."
-      },
-      "pronunciationTipBn": "ছি-সু উচ্চারণ করুন।"
-    },
-    {
-      "ko": "바늘",
-      "romanization": "baneul",
-      "bn": "সুই",
-      "en": "needle",
-      "pos": "noun",
-      "example": {
-        "ko": "바늘이 부러졌어요.",
-        "bn": "সুই ভেঙে গেছে।",
-        "en": "The needle broke."
-      },
-      "pronunciationTipBn": "বা-নুল উচ্চারণ করুন।"
-    },
-    {
-      "ko": "가위",
-      "romanization": "gawi",
-      "bn": "কাঁচি",
-      "en": "scissors",
-      "pos": "noun",
-      "example": {
-        "ko": "가위를 주세요.",
-        "bn": "কাঁচি দিন।",
-        "en": "Give me the scissors."
-      },
-      "pronunciationTipBn": "গা-উই উচ্চারণ করুন।"
-    },
-    {
-      "ko": "단추",
-      "romanization": "danchu",
-      "bn": "বোতাম",
-      "en": "button",
-      "pos": "noun",
-      "example": {
-        "ko": "단추를 다세요.",
-        "bn": "বোতাম লাগান।",
-        "en": "Attach the button."
-      },
-      "pronunciationTipBn": "দান-ছু উচ্চারণ করুন।"
-    },
-    {
-      "ko": "지퍼",
-      "romanization": "jipeo",
-      "bn": "জিপার",
-      "en": "zipper",
-      "pos": "noun",
-      "example": {
-        "ko": "지퍼가 고장났어요.",
-        "bn": "জিপার নষ্ট হয়ে গেছে।",
-        "en": "The zipper is broken."
-      },
-      "pronunciationTipBn": "জি-ফ উচ্চারণ করুন।"
-    },
-    {
-      "ko": "다리미",
-      "romanization": "darimi",
-      "bn": "ইস্ত্রি",
-      "en": "iron",
-      "pos": "noun",
-      "example": {
-        "ko": "다리미로 옷을 다려요.",
-        "bn": "ইস্ত্রি দিয়ে কাপড় ইস্ত্রি করুন।",
-        "en": "Iron the clothes with an iron."
-      },
-      "pronunciationTipBn": "দা-রি-মি উচ্চারণ করুন।"
-    },
-    {
-      "ko": "옷걸이",
-      "romanization": "otgeori",
-      "bn": "হ্যাঙ্গার",
-      "en": "hanger",
-      "pos": "noun",
-      "example": {
-        "ko": "옷걸이에 걸어주세요.",
-        "bn": "হ্যাঙ্গারে ঝুলিয়ে দিন।",
-        "en": "Please hang it on a hanger."
-      },
-      "pronunciationTipBn": "ওত-গ-রি উচ্চারণ করুন।"
-    },
-    {
-      "ko": "먼지",
-      "romanization": "meonji",
-      "bn": "ধুলো",
-      "en": "dust",
-      "pos": "noun",
-      "example": {
-        "ko": "먼지를 털어내세요.",
-        "bn": "ধুলো ঝেড়ে ফেলুন।",
-        "en": "Brush off the dust."
-      },
-      "pronunciationTipBn": "মন-জি উচ্চারণ করুন।"
-    },
-    {
-      "ko": "얼룩",
-      "romanization": "eolluk",
-      "bn": "দাগ",
-      "en": "stain",
-      "pos": "noun",
-      "example": {
-        "ko": "얼룩을 지우세요.",
-        "bn": "দাগ মুছে ফেলুন।",
-        "en": "Remove the stain."
-      },
-      "pronunciationTipBn": "অল-লুক উচ্চারণ করুন।"
-    },
-    {
-      "ko": "세탁",
-      "romanization": "setak",
-      "bn": "ধোয়া",
-      "en": "washing/laundry",
-      "pos": "noun",
-      "example": {
-        "ko": "세탁을 해야 합니다.",
-        "bn": "ধুতে হবে।",
-        "en": "Need to wash."
-      },
-      "pronunciationTipBn": "সে-তাক উচ্চারণ করুন।"
+      "pronunciationTipBn": "젓다 → 저어요 [저어요]। এটি 'ㅅ' অনিয়মিত ক্রিয়া: স্বরের আগে 'ㅅ' পড়ে যায় — '젓어요' ভুল, সঠিক '저어요'।"
     }
   ],
   "grammar": [
     {
-      "pattern": "—고 있다",
-      "titleBn": "—고 있다 (চলমান ক্রিয়া)",
-      "explanationBn": "현재 কোনো কাজ ঘটছে তা বোঝায়। উদাহরণ এবং অনুবাদ: 1) 기계가 작동하고 있다. — মেশিন কাজ করছে। 2) 우리는 원단을 검사하고 있다. — আমরা ফ্যাব্রিক পরীক্ষা করছি।",
-      "explanationEn": "Used to express an action in progress. Examples: 1) 기계가 작동하고 있다. — The machine is operating. 2) 우리는 원단을 검사하고 있다. — We are inspecting the fabric.",
+      "pattern": "V/A + -거나",
+      "titleBn": "'-거나' — 'অথবা / কিংবা' (দুটির মধ্যে যেকোনো একটি)",
+      "explanationBn": "'-거나' ক্রিয়া বা বিশেষণের সঙ্গে বসে দুই বা ততোধিক কাজ বা অবস্থার মধ্যে যেকোনো একটি বোঝায় — বাংলার 'অথবা', 'কিংবা' বা 'বা' এর মতো। বাতচিম থাকুক বা না থাকুক রূপ এক: 덥다 → 덥거나, 변색되다 → 변색되거나। কারখানার নিরাপত্তা-নিয়মে এটি বারবার আসে, কারণ একাধিক নিষিদ্ধ কাজ একসঙ্গে বলতে হয়: '작업장에서 소리를 지르거나 짜증을 내면 안 돼요'। বিশেষ্যের ক্ষেত্রে '-거나' নয়, '(이)나' বসে: বাতচিম থাকলে '이나' (손이나 발), না থাকলে '나' (탁구나 배구)।",
+      "explanationEn": "-거나 joins two or more verbs or adjectives to mean 'or'. The form never changes (덥거나, 변색되거나). For nouns use (이)나 instead — 이나 after a consonant (손이나 발), 나 after a vowel (탁구나 배구).",
       "examples": [
         {
-          "ko": "기계가 작동하고 있다.",
-          "bn": "মেশিন কাজ করছে।",
-          "en": "The machine is operating."
+          "ko": "원사는 변색되거나 오염되기 쉬워요.",
+          "bn": "সুতার রং বদলে যাওয়া বা নোংরা হয়ে যাওয়া সহজেই ঘটে।",
+          "en": "Yarn easily discolors or gets contaminated."
         },
         {
-          "ko": "직원들이 원단을 검사하고 있다.",
-          "bn": "কর্মীরা ফ্যাব্রিক পরীক্ষা করছে।",
-          "en": "Workers are inspecting the fabric."
+          "ko": "너무 습하거나 건조한 곳에 보관하면 안 돼요.",
+          "bn": "খুব স্যাঁতসেঁতে কিংবা খুব শুকনো জায়গায় রাখা যাবে না।",
+          "en": "You must not store it somewhere too humid or too dry."
         },
         {
-          "ko": "잘 하고 있어요.",
-          "bn": "ভালো করছেন।",
-          "en": "Doing well."
+          "ko": "작업장에서 소리를 지르거나 짜증을 내면 안 돼요.",
+          "bn": "কর্মস্থলে চিৎকার করা বা বিরক্তি দেখানো যাবে না।",
+          "en": "You must not shout or get irritated in the workplace."
+        },
+        {
+          "ko": "작업대가 정리되어 있지 않으면 공구에 손이나 발을 다칠 수 있어요.",
+          "bn": "কাজের টেবিল গোছানো না থাকলে যন্ত্রে হাত বা পা কেটে যেতে পারে।",
+          "en": "If the workbench isn't tidy, you can injure your hand or foot on a tool."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যবহারের জন্য নিয়মটি মনে রাখুন।"
+      "commonMistakeBn": "বিশেষ্যের সঙ্গে '-거나' বসানো সবচেয়ে সাধারণ ভুল: '손거나 발' ভুল, সঠিক '손이나 발'। মনে রাখুন — ক্রিয়া/বিশেষণে '-거나', বিশেষ্যে '(이)나'। আরেকটি বিভ্রান্তি হলো '-거나' আর '-든지': দুটোই 'অথবা' বোঝায়, তবে '-든지' জোর দেয় 'যেটাই হোক কিছু যায় আসে না' — '언제 오든지 괜찮아요'।"
     },
     {
-      "pattern": "—(으)세요",
-      "titleBn": "—(으)세요 (শিষ্ট অনুরোধ বা নির্দেশ)",
-      "explanationBn": "প্রশ্ন বা বিনয়ের সঙ্গে অনুরোধ করতে ব্যবহার হয়। উদাহরণ: 1) 창구에서 체크하세요. — কাউন্টারে চেক করুন। 2) 문제 있으면 알려주세요. — সমস্যা থাকলে জানান।",
-      "explanationEn": "Polite request or command. Examples: 1) 창구에서 체크하세요. — Check at the counter. 2) 문제 있으면 알려주세요. — Please inform if there is a problem.",
+      "pattern": "V/A + -아야/어야",
+      "titleBn": "'-아야/어야' — 'এটা করলে তবেই ওটা হবে' (আবশ্যিক শর্ত)",
+      "explanationBn": "'-아야/어야' বোঝায় — পরের অংশটি ঘটার জন্য আগের অংশটি অপরিহার্য। বাংলায় 'তবেই' বা 'না হলে হবে না' দিয়ে বোঝানো যায়। মূলের শেষ স্বর 'ㅏ' বা 'ㅗ' হলে '-아야': 담다 → 담아야, 좋다 → 좋아야। অন্য স্বর হলে '-어야': 만들다 → 만들어야, 펴다 → 펴야। '하다' হলে '해야': 검사하다 → 검사해야। খেয়াল রাখুন, '-(으)면' শুধু শর্ত বোঝায় ('করলে'), কিন্তু '-아야/어야' জোর দেয় যে এটি ছাড়া ফলটা পাওয়াই যাবে না — কারখানার নিয়ম বোঝাতে এই পার্থক্যটা গুরুত্বপূর্ণ।",
+      "explanationEn": "-아야/어야 marks the preceding clause as a necessary condition for the following one — 'only if'. Use -아야 after ㅏ/ㅗ stems (담아야), -어야 elsewhere (만들어야), -해야 for 하다 verbs. Unlike -(으)면 ('if'), it stresses that without this the result is impossible.",
       "examples": [
         {
-          "ko": "원단을 확인하세요.",
-          "bn": "ফ্যাব্রিকটি পরীক্ষা করুন।",
-          "en": "Check the fabric."
+          "ko": "원단을 펴 줘야 고르게 염색돼요.",
+          "bn": "কাপড়টা টেনে সমান করে দিলেই তবে সমানভাবে রং ধরে।",
+          "en": "The fabric has to be spread out for it to dye evenly."
         },
         {
-          "ko": "안전 장비를 착용하세요.",
-          "bn": "নিরাপত্তা সরঞ্জাম পরুন।",
-          "en": "Wear safety equipment."
+          "ko": "불순물을 제거해야 염색이 잘돼요.",
+          "bn": "অশুদ্ধ পদার্থ সরালেই তবে রং ভালো ধরে।",
+          "en": "The dyeing works well only if you remove the impurities."
         },
         {
-          "ko": "잘 하고 있어요.",
-          "bn": "ভালো করছেন।",
-          "en": "Doing well."
+          "ko": "작업을 서둘러야 출하 시간 전까지 끝낼 수 있어요.",
+          "bn": "কাজে তাড়াতাড়ি করলেই তবে চালানের সময়ের আগে শেষ করা যাবে।",
+          "en": "Only if you hurry can you finish before the shipping time."
+        },
+        {
+          "ko": "전자 저울로 재야 정확하게 측정할 수 있어요.",
+          "bn": "ইলেকট্রনিক দাঁড়িপাল্লা দিয়ে মাপলেই তবে নিখুঁতভাবে মাপা যায়।",
+          "en": "Only by weighing with the electronic scale can you measure accurately."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যবহারের জন্য নিয়মটি মনে রাখুন।"
+      "commonMistakeBn": "'-아야/어야' আর '-아야/어야 되다' গুলিয়ে ফেলা সাধারণ ভুল। '-아야 되다' মানে 'করতেই হবে' (বাধ্যবাধকতা), কিন্তু শুধু '-아야' মানে 'করলে তবেই' (শর্ত): '서둘러야 돼요' মানে তাড়াতাড়ি করতেই হবে, আর '서둘러야 끝낼 수 있어요' মানে তাড়াতাড়ি করলেই শেষ করা যাবে। আরেকটি ভুল হলো স্বর না মিলিয়ে রূপ বাছা: '펴어야' ভুল, সঠিক '펴야'।"
     },
     {
-      "pattern": "—(으)ㄹ까요?",
-      "titleBn": "—(으)ㄹ까요? (পরামর্শ বা প্রস্তাব)",
-      "explanationBn": "কাজ করার পরামর্শ বা অনুমান জানতে ব্যবহার হয়। উদাহরণ: 1) 바꿀까요? — আমরা এটা বদলাব? 2) 같이 검사할까요? — একসাথে পরীক্ষা করব?",
-      "explanationEn": "Used to make suggestions or ask for opinion. Examples: 1) 바꿀까요? — Shall we change it? 2) 같이 검사할까요? — Shall we inspect together?",
+      "pattern": "N + 마다",
+      "titleBn": "'마다' — 'প্রতি ... পরপর' (নিয়মিত পুনরাবৃত্তি)",
+      "explanationBn": "'마다' বিশেষ্যের সঙ্গে সরাসরি বসে বোঝায় — প্রতিবার, বা নির্দিষ্ট সময় পরপর বারবার। বাতচিম থাকুক বা না থাকুক রূপ বদলায় না: 한 시간 → 한 시간마다, 날 → 날마다, 사람 → 사람마다। সময়ের সঙ্গে বসলে 'প্রতি ... পরপর' বোঝায় ('한 시간마다' — প্রতি ঘণ্টায়), আর জিনিস বা মানুষের সঙ্গে বসলে 'প্রত্যেকটির ক্ষেত্রেই আলাদা' বোঝায় ('원사의 종류마다 보관 방법이 달라요' — প্রতিটি ধরনের সুতার সংরক্ষণ পদ্ধতি আলাদা)। গুদাম ব্যবস্থাপনায় নিয়মিত পরীক্ষার কথা বলতে এটি অপরিহার্য।",
+      "explanationEn": "마다 attaches directly to a noun to mean 'every' or 'each'. The form never changes. With time expressions it means 'every X' (한 시간마다 — every hour); with people or things it means 'each one differs' (사람마다 — each person).",
       "examples": [
         {
-          "ko": "이 원단을 바꿀까요?",
-          "bn": "এই ফ্যাব্রিক বদলাব?",
-          "en": "Shall we change this fabric?"
+          "ko": "한 시간마다 온도와 습도를 측정해서 관리 대장에 써 놓고 있어요.",
+          "bn": "প্রতি ঘণ্টায় তাপমাত্রা আর আর্দ্রতা মেপে রেজিস্টার খাতায় লিখে রাখছি।",
+          "en": "I measure the temperature and humidity every hour and record it in the log."
         },
         {
-          "ko": "내일 더 검사할까요?",
-          "bn": "কাল আরও পরীক্ষা করব?",
-          "en": "Shall we inspect more tomorrow?"
+          "ko": "원사의 종류마다 보관 방법이 다릅니다.",
+          "bn": "সুতার প্রতিটি ধরনের সংরক্ষণ পদ্ধতি আলাদা।",
+          "en": "Each type of yarn has a different storage method."
         },
         {
-          "ko": "잘 하고 있어요.",
-          "bn": "ভালো করছেন।",
-          "en": "Doing well."
+          "ko": "날마다 창고를 점검해야 벌레가 생기지 않아요.",
+          "bn": "প্রতিদিন গুদাম পরীক্ষা করলেই তবে পোকা হয় না।",
+          "en": "Only if you inspect the warehouse every day will bugs not appear."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যবহারের জন্য নিয়মটি মনে রাখুন।"
+      "commonMistakeBn": "'마다'-এর আগে '에' বা '을/를' বসানো ভুল: '한 시간에마다' নয়, সঠিক '한 시간마다'। আরেকটি বিভ্রান্তি হলো '마다' আর '매': দুটোরই অর্থ 'প্রতি', কিন্তু '매' বিশেষ্যের আগে বসে ('매일', '매주'), আর '마다' পরে বসে ('날마다', '주마다')। দুটো একসঙ্গে ব্যবহার করবেন না — '매일마다' বাহুল্য।"
     },
     {
-      "pattern": "—(으)면 안 되다",
-      "titleBn": "—(으)면 안 되다 (নিষেধাজ্ঞা)",
-      "explanationBn": "কোনো কাজ করা নিষেধ বা উচিত নয় তা বোঝাতে ব্যবহৃত হয়।",
-      "explanationEn": "Used to express prohibition or that an action is not allowed.",
+      "pattern": "V + -는 데 + 시간이/돈이 걸리다",
+      "titleBn": "'-는 데' — 'এই কাজটা করতে (কত সময়/খরচ) লাগে'",
+      "explanationBn": "'-는 데' ক্রিয়ামূলের সঙ্গে বসে বোঝায় কোনো কাজ সম্পন্ন করতে কতটা সময়, টাকা বা শ্রম লাগে। এর পরে সাধারণত '걸리다' (লাগা), '들다' (খরচ হওয়া) বা '필요하다' (দরকার হওয়া) বসে। বাতচিম থাকুক বা না থাকুক রূপ এক: 염색하다 → 염색하는 데, 만들다 → 만드는 데 ('ㄹ' পড়ে যায়)। খুব গুরুত্বপূর্ণ — এখানে '데' আলাদা শব্দ, তাই আগে একটি ফাঁকা জায়গা থাকে: '염색하는 데'। একসঙ্গে লিখলে ('염색하는데') অর্থ বদলে গিয়ে 'রং করছি, কিন্তু...' হয়ে যায়।",
+      "explanationEn": "-는 데 attaches to a verb stem to introduce what the time, money, or effort is spent on, usually followed by 걸리다, 들다, or 필요하다. Note the space before 데 — writing 하는데 without it changes the meaning to a contrastive 'but'.",
       "examples": [
         {
-          "ko": "여기서 담배를 피우면 안 됩니다.",
-          "bn": "এখানে ধূমপান করা নিষেধ।",
-          "en": "You must not smoke here."
+          "ko": "진한 색깔로 염색하는 데 시간이 더 걸려요.",
+          "bn": "গাঢ় রঙে রাঙাতে বেশি সময় লাগে।",
+          "en": "It takes longer to dye in a dark color."
         },
         {
-          "ko": "기계를 만지면 안 돼요.",
-          "bn": "মেশিন স্পর্শ করা নিষেধ।",
-          "en": "You must not touch the machine."
+          "ko": "원단을 말리는 데 두 시간쯤 걸립니다.",
+          "bn": "কাপড় শুকাতে ঘণ্টা দুয়েক লাগে।",
+          "en": "It takes about two hours to dry the fabric."
         },
         {
-          "ko": "안전모를 벗으면 안 됩니다.",
-          "bn": "নিরাপত্তা হেলমেট খোলা নিষেধ।",
-          "en": "You must not take off the safety helmet."
+          "ko": "불순물을 제거하는 데 시간이 필요해요.",
+          "bn": "অশুদ্ধ পদার্থ সরাতে সময় দরকার।",
+          "en": "It takes time to remove the impurities."
         }
       ],
-      "commonMistakeBn": "অনেকে '안' এর অবস্থান ভুল করেন, এটি ক্রিয়ার আগে বা এই প্যাটার্নে শেষে বসে।"
+      "commonMistakeBn": "সবচেয়ে বড় ভুল হলো ফাঁকা জায়গা না রাখা: '염색하는데 시간이 걸려요' লিখলে '데' আর আলাদা শব্দ থাকে না, অর্থ বদলে যায়। মনে রাখুন — '데' মানে 'জায়গা' বা 'কাজ', তাই আলাদা লিখতে হয়। আরেকটি ভুল হলো অতীতের রূপ বসানো: '염색했는 데' নয়, সঠিক '염색하는 데'।"
     },
     {
-      "pattern": "—아/어야 하다",
-      "titleBn": "—아/어야 하다 (বাধ্যবাধকতা)",
-      "explanationBn": "কোনো কাজ করা আবশ্যক বা করতে হবে তা বোঝাতে ব্যবহৃত হয়।",
-      "explanationEn": "Used to express obligation or necessity (must/have to).",
+      "pattern": "A/V + -군요 / -는군요",
+      "titleBn": "'-군요' — 'ও আচ্ছা, তাই নাকি!' (নতুন কিছু জেনে সাড়া দেওয়া)",
+      "explanationBn": "'-군요' ব্যবহার হয় যখন বক্তা এইমাত্র নতুন কিছু জানলেন বা বুঝলেন, আর সেই বিস্ময় বা উপলব্ধি প্রকাশ করছেন — বাংলায় 'ও আচ্ছা', 'তাই নাকি' বা 'তাহলে তো' দিয়ে বোঝানো যায়। বিশেষণের সঙ্গে সরাসরি '-군요' বসে: 습하다 → 습하군요, 좋다 → 좋군요। ক্রিয়ার সঙ্গে '-는군요' বসে: 걸리다 → 걸리는군요, 엉키다 → 엉키는군요। অতীতে দুটোতেই '-았/었군요' বসে: 왔군요। কথ্য ভাষায় প্রায়ই '그렇군요' (ও আচ্ছা, তাই) একা বাক্য হিসেবে ব্যবহার হয় — সহকর্মী কিছু বুঝিয়ে দিলে এভাবে সাড়া দেওয়া ভদ্র ও স্বাভাবিক।",
+      "explanationEn": "-군요 expresses that the speaker has just realised or learned something. Attach -군요 to adjectives (좋군요) and -는군요 to verbs (걸리는군요); the past is -았/었군요 for both. 그렇군요 ('I see') is very common on its own as a response.",
       "examples": [
         {
-          "ko": "일찍 와야 합니다.",
-          "bn": "তাড়াতাড়ি আসতে হবে।",
-          "en": "You must come early."
+          "ko": "그렇군요. 염색이 끝나면 세척 작업을 해야 되지요?",
+          "bn": "ও আচ্ছা। রং করা শেষ হলে ধোয়ার কাজটা করতে হবে, তাই না?",
+          "en": "I see. After dyeing, we need to do the washing, right?"
         },
         {
-          "ko": "안전화를 신어야 해요.",
-          "bn": "নিরাপত্তা জুতো পরতে হবে।",
-          "en": "You must wear safety shoes."
+          "ko": "합성 섬유라서 시간이 더 걸리는군요.",
+          "bn": "কৃত্রিম তন্তু বলেই তাহলে বেশি সময় লাগছে।",
+          "en": "Ah, it takes longer because it's synthetic fiber."
         },
         {
-          "ko": "오늘까지 끝내야 합니다.",
-          "bn": "আজকের মধ্যে শেষ করতে হবে।",
-          "en": "It must be finished by today."
+          "ko": "장마철이라서 정말 습하군요.",
+          "bn": "বর্ষাকাল বলেই তাহলে এত স্যাঁতসেঁতে।",
+          "en": "It really is humid because of the rainy season."
         }
       ],
-      "commonMistakeBn": "স্বরবর্ণের উপর ভিত্তি করে 아/어 নির্বাচন করতে ভুল হতে পারে।"
+      "commonMistakeBn": "ক্রিয়া ও বিশেষণের রূপ গুলিয়ে ফেলা সাধারণ ভুল: '걸리군요' ভুল (걸리다 ক্রিয়া), সঠিক '걸리는군요'; আবার '습하는군요' ভুল (습하다 বিশেষণ), সঠিক '습하군요'। আরেকটি বিষয় — '-군요' কেবল সদ্য জানা তথ্যেই বসে; আগে থেকেই জানা কথায় ব্যবহার করলে অস্বাভাবিক শোনায়। বন্ধুর সঙ্গে অনানুষ্ঠানিকভাবে বলতে '요' বাদ দিয়ে '-구나' বলা হয়।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "원단 불량 보고",
-      "titleEn": "Reporting a Fabric Defect",
+      "titleBn": "বর্ষাকালে সুতা সংরক্ষণের যত্ন",
+      "titleEn": "Managing Yarn During the Rainy Season",
       "lines": [
         {
-          "speaker": "팀장",
-          "ko": "원단에 작은 구멍이 있어요. 확인해 주세요.",
-          "bn": "ফ্যাব্রিকেতে ছোট একটি ছিদ্র আছে। যাচাই করুন দয়া করে।",
-          "en": "There is a small hole in the fabric. Please check it."
+          "speaker": "닛차난",
+          "ko": "오늘도 비가 오네요. 장마철이라서 정말 습하고 더워요.",
+          "bn": "আজও বৃষ্টি হচ্ছে। বর্ষাকাল বলে সত্যিই স্যাঁতসেঁতে আর গরম।",
+          "en": "It's raining again today. It's so humid and hot because of the rainy season."
         },
         {
-          "speaker": "직원",
-          "ko": "네, 바로 검사하겠습니다.",
-          "bn": "জি, আমি এখনই পরীক্ষা করব।",
-          "en": "Yes, I'll inspect it right away."
+          "speaker": "반장님",
+          "ko": "이런 날씨에는 원사 관리에 더 신경 써 주세요. 잘하고 있지요?",
+          "bn": "এমন আবহাওয়ায় সুতার যত্নে আরও বেশি খেয়াল রাখবেন। ঠিকমতো করছেন তো?",
+          "en": "In this weather, please pay extra attention to managing the yarn. You're doing well, right?"
         },
         {
-          "speaker": "팀장",
-          "ko": "몇 미터나 불량인가요?",
-          "bn": "কত মিটার খারাপ হয়েছে?",
-          "en": "How many meters are defective?"
+          "speaker": "닛차난",
+          "ko": "네, 그럼요. 원사는 온도와 습도에 민감해서 변색되거나 오염되기 쉽잖아요.",
+          "bn": "জি, অবশ্যই। সুতা তাপমাত্রা আর আর্দ্রতার প্রতি সংবেদনশীল, তাই রং বদলে যাওয়া বা নোংরা হওয়া সহজেই ঘটে।",
+          "en": "Yes, of course. Yarn is sensitive to temperature and humidity, so it easily discolors or gets contaminated."
         },
         {
-          "speaker": "직원",
-          "ko": "지금까지 5미터 발견했습니다.",
-          "bn": "এখন পর্যন্ত ৫ মিটার পেয়েছি।",
-          "en": "So far I found 5 meters."
+          "speaker": "반장님",
+          "ko": "맞아요. 창고의 온도와 습도를 일정하게 유지하는 게 중요한데 주기적으로 확인하고 있지요?",
+          "bn": "ঠিক তাই। গুদামের তাপমাত্রা আর আর্দ্রতা একরকম রাখাটা জরুরি — নিয়ম করে দেখছেন তো?",
+          "en": "That's right. It's important to keep the storage temperature and humidity consistent. You're checking periodically?"
         },
         {
-          "speaker": "팀장",
-          "ko": "그 부분은 제외하고 포장하세요.",
-          "bn": "ও অংশটা বাদ দিয়েই প্যাক করুন।",
-          "en": "Exclude that part and pack it."
+          "speaker": "닛차난",
+          "ko": "네, 한 시간마다 온도와 습도를 측정해서 관리 대장에 써 놓고 있어요.",
+          "bn": "জি, প্রতি ঘণ্টায় তাপমাত্রা আর আর্দ্রতা মেপে রেজিস্টার খাতায় লিখে রাখছি।",
+          "en": "Yes, I measure the temperature and humidity every hour and record it in the control log."
+        },
+        {
+          "speaker": "반장님",
+          "ko": "좋아요. 원사의 종류마다 보관 방법이 다르니까 종류별로 분류해서 관리해 주세요.",
+          "bn": "ভালো। সুতার প্রতিটি ধরনের সংরক্ষণ পদ্ধতি আলাদা, তাই ধরন অনুযায়ী ভাগ করে সামলাবেন।",
+          "en": "Good. Each type of yarn has a different storage method, so please sort and manage them by type."
         }
       ]
     },
     {
-      "titleBn": "기계 작동 요청",
-      "titleEn": "Request to Operate Machine",
+      "titleBn": "কাপড় জট পাকিয়ে যাচ্ছে — রং সমান করার উপায়",
+      "titleEn": "The Fabric Keeps Getting Tangled",
       "lines": [
         {
-          "speaker": "신입",
-          "ko": "기계 사용 방법을 알려주세요.",
-          "bn": "মেশিন চালানোর উপায় বলুন।",
-          "en": "Please tell me how to use the machine."
+          "speaker": "마두",
+          "ko": "민수 씨, 여기 좀 봐 주세요. 원단이 자꾸 엉키는데 어떡하지요?",
+          "bn": "মিনসু, এখানটা একটু দেখুন তো। কাপড়টা বারবার জট পাকিয়ে যাচ্ছে, কী করব?",
+          "en": "Minsu, please take a look here. The fabric keeps getting tangled. What should I do?"
         },
         {
-          "speaker": "교육자",
-          "ko": "먼저 안전 장비를 착용하세요.",
-          "bn": "প্রথমে নিরাপত্তা সরঞ্জাম পরে নিন।",
-          "en": "First, put on the safety gear."
+          "speaker": "민수",
+          "ko": "기계 속도를 좀 줄여 보세요. 원단을 펴 줘야 고르게 염색돼요.",
+          "bn": "মেশিনের গতিটা একটু কমিয়ে দেখুন। কাপড়টা টেনে সমান করে দিলেই তবে সমানভাবে রং ধরে।",
+          "en": "Try reducing the machine's speed. The fabric has to be spread out to dye evenly."
         },
         {
-          "speaker": "신입",
-          "ko": "작동 버튼은 어디에 있나요?",
-          "bn": "চালু করার বোতাম কোথায়?",
-          "en": "Where is the start button?"
+          "speaker": "민수",
+          "ko": "막대기로 이렇게 한 번씩 저어서 원단을 펴 주세요.",
+          "bn": "লাঠি দিয়ে এভাবে মাঝে মাঝে নেড়ে কাপড়টা সমান করে দিন।",
+          "en": "Stir it once in a while with a stick like this to spread the fabric out."
         },
         {
-          "speaker": "교육자",
-          "ko": "오른쪽 패널에 초록색 버튼이 있습니다.",
-          "bn": "ডান প্যানেলে সবুজ বোতাম আছে।",
-          "en": "There is a green button on the right panel."
+          "speaker": "마두",
+          "ko": "그렇게 할게요. 그런데 오늘 염색 작업이 지난번보다 더 오래 걸리는 것 같아요.",
+          "bn": "তাই করব। কিন্তু আজ রং করার কাজটা গতবারের চেয়ে বেশি সময় নিচ্ছে বলে মনে হচ্ছে।",
+          "en": "I'll do that. By the way, today's dyeing seems to be taking longer than last time."
         },
         {
-          "speaker": "신입",
-          "ko": "감사합니다. 시작하겠습니다.",
-          "bn": "ধন্যবাদ। শুরু করি।",
-          "en": "Thank you. I'll start."
+          "speaker": "민수",
+          "ko": "원단이 합성 섬유라서 그래요. 그리고 진한 색깔로 염색하는 데 시간이 더 걸려요.",
+          "bn": "কাপড়টা কৃত্রিম তন্তুর, তাই। আর গাঢ় রঙে রাঙাতে বেশি সময় লাগে।",
+          "en": "It's because the fabric is synthetic fiber. And dyeing in a dark color takes longer."
+        },
+        {
+          "speaker": "마두",
+          "ko": "그렇군요. 염색이 끝나면 세척 작업을 해야 되지요?",
+          "bn": "ও আচ্ছা। রং করা শেষ হলে ধোয়ার কাজটা করতে হবে, তাই না?",
+          "en": "I see. After dyeing, we need to do the washing, right?"
+        },
+        {
+          "speaker": "민수",
+          "ko": "네. 그럼 저는 가서 세척 작업을 준비하고 있을게요.",
+          "bn": "হ্যাঁ। তাহলে আমি গিয়ে ধোয়ার কাজের প্রস্তুতি নিচ্ছি।",
+          "en": "Yes. Then I'll go and get the washing ready."
         }
       ]
     },
     {
-      "titleBn": "작업 지시 확인",
-      "titleEn": "Confirming Work Instructions",
+      "titleBn": "রং করার আগের প্রস্তুতি — অশুদ্ধ পদার্থ সরানো",
+      "titleEn": "Preparing the Fabric Before Dyeing",
       "lines": [
         {
-          "speaker": "반장",
-          "ko": "오늘 재단 작업은 다 끝났어요?",
-          "bn": "আজকের কাটার কাজ কি সব শেষ হয়েছে?",
-          "en": "Is all the cutting work finished for today?"
+          "speaker": "자하라",
+          "ko": "염색 작업 전에 원단에 있는 불순물을 제거해야 돼요.",
+          "bn": "রং করার কাজের আগে কাপড়ে থাকা অশুদ্ধ পদার্থ সরিয়ে ফেলতে হবে।",
+          "en": "Before the dyeing work, you have to remove the impurities in the fabric."
         },
         {
-          "speaker": "직원",
-          "ko": "아니요, 아직 조금 남았습니다.",
-          "bn": "না, এখনও একটু বাকি আছে।",
-          "en": "No, there is still a little left."
+          "speaker": "아궁",
+          "ko": "왜 그렇게 해야 돼요?",
+          "bn": "কেন এমন করতে হবে?",
+          "en": "Why do we have to do that?"
         },
         {
-          "speaker": "반장",
-          "ko": "언제쯤 끝날 것 같아요?",
-          "bn": "কখন শেষ হবে বলে মনে হয়?",
-          "en": "When do you think it will be finished?"
+          "speaker": "자하라",
+          "ko": "불순물을 제거해야 염색이 잘되거든요. 원단을 표백해서 하얗게 만든 다음에 염료를 섞어요.",
+          "bn": "অশুদ্ধ পদার্থ সরালেই তবে রং ভালো ধরে। কাপড়টা ব্লিচ করে সাদা করার পর রং মেশানো হয়।",
+          "en": "Because the dyeing only works well if you remove the impurities. After bleaching the fabric white, we mix the dye."
         },
         {
-          "speaker": "직원",
-          "ko": "오후 3시까지는 끝낼 수 있습니다.",
-          "bn": "বিকাল ৩টার মধ্যে শেষ করতে পারব।",
-          "en": "I can finish it by 3 PM."
+          "speaker": "아궁",
+          "ko": "그렇군요. 그럼 염색이 끝난 다음에는 뭘 해요?",
+          "bn": "ও আচ্ছা। তাহলে রং করা শেষ হওয়ার পর কী করা হয়?",
+          "en": "I see. Then what do we do after the dyeing is finished?"
         },
         {
-          "speaker": "반장",
-          "ko": "알겠습니다. 끝나면 포장팀으로 넘겨주세요.",
-          "bn": "ঠিক আছে। শেষ হলে প্যাকেজিং টিমের কাছে দিয়ে দিন।",
-          "en": "Alright. When finished, hand it over to the packaging team."
+          "speaker": "자하라",
+          "ko": "물로 헹궈서 남아 있는 염료를 제거해요. 그게 세척 작업이에요. 그 다음에 탈수하고 말려요.",
+          "bn": "পানি দিয়ে ধুয়ে বাকি রংটা সরানো হয় — সেটাই ধোয়ার কাজ। তারপর পানি ঝরিয়ে শুকানো হয়।",
+          "en": "We rinse it with water to remove the leftover dye — that's the washing. After that we spin-dry it and dry it."
+        },
+        {
+          "speaker": "아궁",
+          "ko": "표백하거나 세척할 때도 주의할 게 있어요?",
+          "bn": "ব্লিচ করা বা ধোয়ার সময়ও কি কিছু খেয়াল রাখতে হয়?",
+          "en": "Is there anything to watch out for when bleaching or washing too?"
+        },
+        {
+          "speaker": "자하라",
+          "ko": "네, 서두르면 안 돼요. 세척을 잘해야 색이 잘 나와요.",
+          "bn": "হ্যাঁ, তাড়াহুড়ো করা যাবে না। ভালোভাবে ধুলেই তবে রংটা সুন্দর আসে।",
+          "en": "Yes, you mustn't rush. The color only comes out well if you wash it properly."
         }
       ]
     }
@@ -676,586 +755,569 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "‘원단’ শব্দের বাংলা অর্থ কি?",
-      "questionKo": "‘원단’의 뜻은 무엇입니까?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 원사는 통풍이 잘되고 ___ 곳에 보관해야 돼요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "기계",
-        "실",
-        "패턴",
-        "원단 (천, 패브릭)"
+        "습한",
+        "더러운",
+        "건조한",
+        "어두운"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "원단은 কাপড় বা ফ্যাব্রিক অর্থে ব্যবহৃত হয়, তাই তৃতীয় উত্তর সঠিক।"
+      "answer": 2,
+      "explanationBn": "সুতা স্যাঁতসেঁতে জায়গায় রাখলে দুর্বল হয়ে যায় ও পোকা ধরে, তাই '건조한' (শুকনো) জায়গাই সঠিক। '습한' মানে স্যাঁতসেঁতে — ঠিক উল্টো; '더러운' নোংরা; আর অন্ধকার হওয়াই মূল শর্ত নয়, সরাসরি রোদ এড়ানোটাই আসল কথা।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "‘검사’ কী বোঝায়?",
-      "questionKo": "‘검사’는 무슨 뜻입니까?",
+      "questionBn": "'원사' আর '원단'-এর মধ্যে পার্থক্য কী?",
+      "questionKo": "다음 중 알맞은 것을 고르세요.",
       "options": [
-        "ডিজাইন",
-        "স্বয়ংক্রিয়করণ",
-        "পরীক্ষা/ইনস্পেকশন",
-        "উৎপাদন"
+        "원사는 সুতা, 원단은 বোনা কাপড়",
+        "원사는 কাপড়, 원단은 সুতা",
+        "দুটোই একই জিনিস",
+        "원사는 রং, 원단은 যন্ত্র"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "검사는 পরীক্ষা বা ইনস্পেকশন বোঝায়। তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 0,
+      "explanationBn": "'원사'-এর '사' মানে সুতা, আর '원단'-এর '단' মানে থান কাপড়। অর্থাৎ সুতা দিয়েই কাপড় বোনা হয় — তাই এই দুটি শব্দ কখনো একই অর্থে ব্যবহার করা যায় না।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 안전 관련 표현은 কোন 것?",
-      "questionKo": "다음 중 안전 관련 표현은 어느 것입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-거나' বসান: 원사가 ___ 오염되기 쉬워요. (변색되다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "패턴을 확인하세요.",
-        "안전 장비를 착용하세요.",
-        "디자인을 변경하세요.",
-        "염색 공정이 끝났습니다."
+        "변색되고",
+        "변색되거나",
+        "변색되면",
+        "변색되어서"
       ],
-      "pairs": [],
       "answer": 1,
-      "explanationBn": "‘안전 장비를 착용하세요.’는 সরাসরি নিরাপত্তার নির্দেশ, তাই সঠিক।"
+      "explanationBn": "দুটি সম্ভাবনার মধ্যে যেকোনো একটি বোঝাতে '-거나' বসে: 변색되거나 오염되기 쉬워요। '-고' দুটোই একসঙ্গে ঘটা বোঝাত, '-면' শর্ত, আর '-어서' কারণ বোঝায়।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "‘—고 있다’ ব্যবহারটি কখন করবেন?",
-      "questionKo": "‘—고 있다’는 언제 사용합니까?",
+      "type": "fill-blank",
+      "questionBn": "'-아야/어야' বসান: 원단을 ___ 고르게 염색돼요. (펴 주다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "চলমান কাজ বোঝাতে",
-        "ভবিষ্যৎ পরিকল্পনা বুঝাতে",
-        "অନুরোধ করতে",
-        "কম্পাউন্ড নাম করতে"
+        "펴 주면",
+        "펴 주고",
+        "펴 줘도",
+        "펴 줘야"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "—고 있다 চলমান কাজ বোঝাতে ব্যবহৃত হয়, তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 3,
+      "explanationBn": "সমানভাবে রং ধরার জন্য কাপড় সমান করাটা অপরিহার্য শর্ত, তাই '-아야/어야' বসে: 펴 줘야। '-면' শুধু শর্ত বোঝাত, '-아도' উল্টো ফল বোঝায় ('সমান করলেও'), আর '-고' কেবল জোড়া লাগায়।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "팀장이 직원에게 ‘포장하세요’라고 하면 어떤 문법?",
-      "questionKo": "팀장이 직원에게 ‘포장하세요’라고 하면 어떤 문법입니까?",
-      "options": [
-        "제안 (—(으)ㄹ까요?)",
-        "진행형 (—고 있다)",
-        "과거형",
-        "명령형 (—(으)세요)"
+      "type": "matching",
+      "questionBn": "সুতা সংরক্ষণের শর্তের সঙ্গে কারণ মেলান।",
+      "questionKo": "원사 보관 조건과 이유를 연결하세요.",
+      "pairs": [
+        {
+          "left": "직사광선을 피하다",
+          "right": "রোদে রং জ্বলে যায়"
+        },
+        {
+          "left": "통풍이 잘되게 하다",
+          "right": "বাতাস না চললে স্যাঁতসেঁতে হয়"
+        },
+        {
+          "left": "적정 습도를 유지하다",
+          "right": "আর্দ্রতা বেশি হলে সুতা দুর্বল হয়"
+        },
+        {
+          "left": "보관 장소를 깨끗하게 하다",
+          "right": "নোংরা থাকলে পোকা হয়"
+        },
+        {
+          "left": "종류별로 분류하다",
+          "right": "প্রতিটি ধরনের পদ্ধতি আলাদা"
+        }
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "‘포장하세요’는 정중한 명령/요청 형태로 —(으)세요 문법에 해당।"
+      "explanationBn": "সুতা সংরক্ষণের প্রতিটি নিয়মের পেছনে একটি নির্দিষ্ট কারণ আছে — কারণটা জানলে নিয়ম মুখস্থ করতে হয় না। মূল বিষয় দুটি: তাপ-আর্দ্রতা একরকম রাখা, আর জায়গাটা পরিষ্কার রাখা।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: ‘기계를 _____ 전에 안전 장비를 착용하세요.’",
-      "questionKo": "문장을 완성하세요: '기계를 _____ 전에 안전 장비를 착용하세요.'",
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 염색 작업을 할 때 원단이 엉키면 염색이 잘되지 않습니다. 그래서 막대기로 저어서 원단을 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르십시오.",
       "options": [
-        "작동한",
-        "작동하면",
-        "작동하기",
-        "작동했습니다"
+        "펴 줘야 합니다",
+        "켜 줘야 합니다",
+        "잘라 줘야 합니다",
+        "갈아 줘야 합니다"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "‘작동하기 전에’는 আগে করার 의미로 맞는 표현। তাই 첫 번째 অপশন সঠিক।"
+      "answer": 0,
+      "explanationBn": "জট পাকানো কাপড় সমান করতে হয়, তাই '펴 주다' সঠিক। '켜다' মানে চালু করা, '자르다' মানে কাটা, '갈다' মানে ঘষা বা বদলানো — কোনোটিই জট ছাড়ায় না।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: ‘원단을 _____ 검사하고 문제가 있으면 알려주세요.’",
-      "questionKo": "문장을 완성하세요: '원단을 _____ 검사하고 문제가 있으면 알려주세요.'",
+      "type": "multiple-choice",
+      "questionBn": "'마다' বসান: 한 시간___ 온도와 습도를 측정해요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "바꿀까요",
-        "바로",
-        "바깥",
-        "바꾸다"
+        "에마다",
+        "마다",
+        "를 마다",
+        "이나"
       ],
-      "pairs": [],
       "answer": 1,
-      "explanationBn": "‘바로 검사하고’ 즉시 পরীক্ষা하라는 문맥으로 ‘바로’가 맞습니다।"
+      "explanationBn": "'마다' বিশেষ্যের সঙ্গে সরাসরি জোড়া লাগে, মাঝে '에' বা '을/를' বসে না — তাই '한 시간마다'। '이나' বিকল্প বোঝায়, পুনরাবৃত্তি নয়।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: ‘이 패턴을 내일 _____?’ (제안)",
-      "questionKo": "문장을 완성하세요: '이 패턴을 내일 _____?' (제안)",
+      "type": "multiple-choice",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের? — '염색이 끝난 후에 원단을 물로 헹궈서 남아 있는 염료를 제거하는 작업입니다.'",
+      "questionKo": "다음은 무엇에 대한 설명입니까? '염색이 끝난 후에 원단을 물로 헹궈서 남아 있는 염료를 제거하는 작업입니다.'",
       "options": [
-        "바꿀까요",
-        "바꿨어요",
-        "바꾸세요",
-        "바꾸고"
+        "표백 작업",
+        "도장 작업",
+        "세척 작업",
+        "건조 작업"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "제안형 표현으로 ‘바꿀까요?’가 적절합니다।"
+      "answer": 2,
+      "explanationBn": "রং করা শেষে পানি দিয়ে ধুয়ে বাকি রং সরানোর কাজটাই '세척 작업'। '표백' মানে সাদা করা (রং করার আগে), '도장' মানে রং-পালিশ করা, '건조' মানে শুকানো (ধোয়ার পরে)।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "নীচের কোরীয় শব্দগুলোর বাংলা অর্থ মিলান।",
-      "questionKo": "다음 한국어 단어와 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "염색",
-          "right": "রঞ্জন (রঙ দেওয়া)"
-        },
-        {
-          "left": "직조",
-          "right": "বোনা"
-        },
-        {
-          "left": "재료",
-          "right": "উপকরণ"
-        },
-        {
-          "left": "품질",
-          "right": "গুণমান"
-        },
-        {
-          "left": "공장",
-          "right": "কারখানা"
-        }
+      "type": "fill-blank",
+      "questionBn": "'(이)나' বসান: 작업대가 정리되어 있지 않으면 공구에 손___ 발을 다칠 수 있어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "거나",
+        "고",
+        "에나",
+        "이나"
       ],
-      "answer": 0,
-      "explanationBn": "ম্যাচিং আইটেম; প্রত্যেক কোরীয় শব্দের সাথে সঠিক বাংলা মিল দেওয়া আছে।"
+      "answer": 3,
+      "explanationBn": "'손' একটি বিশেষ্য আর এতে বাতচিম আছে, তাই '이나' বসে: 손이나 발। '-거나' কেবল ক্রিয়া ও বিশেষণের সঙ্গে বসে — বিশেষ্যের সঙ্গে নয়।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "কোরীয় ক্রিয়া ও বাংলা অর্থ মিলান।",
-      "questionKo": "한국어 동사와 뜻을 연결하세요.",
-      "options": [],
+      "questionBn": "রং করার কাজের ধাপগুলোর সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "염색 가공 공정과 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "검사하다",
-          "right": "পরীক্ষা করা"
+          "left": "표백하다",
+          "right": "ব্লিচ করে সাদা করা"
         },
         {
-          "left": "생산하다",
-          "right": "উৎপাদন করা"
+          "left": "염료를 섞다",
+          "right": "রং গুলে মেশানো"
         },
         {
-          "left": "인쇄하다",
-          "right": "প্রিন্ট করা"
+          "left": "염색하다",
+          "right": "কাপড় রাঙানো"
         },
         {
-          "left": "재봉하다",
-          "right": "সেলাই করা"
+          "left": "세척하다",
+          "right": "ধুয়ে বাড়তি রং সরানো"
+        },
+        {
+          "left": "말리다",
+          "right": "শুকিয়ে নেওয়া"
         }
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি ক্রিয়ার সঙ্গে বাংলা অর্থ মিল রয়েছে।"
+      "explanationBn": "রং করার কাজ এই ক্রমেই হয় — আগে সাদা করা, তারপর রং গুলে রাঙানো, শেষে ধুয়ে শুকানো। ক্রম উল্টে গেলে রং সমানভাবে ধরে না, তাই ধাপগুলো মনে রাখা জরুরি।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "‘재단’ শব্দের অর্থ কী?",
-      "questionKo": "‘재단’의 뜻은 무엇입니까?",
+      "questionBn": "'원사는 온도와 습도에 민감해요.' — এর মানে কী?",
+      "questionKo": "다음 문장의 뜻으로 알맞은 것을 고르세요.",
       "options": [
-        "প্যাকেজিং",
-        "কাটা (ফ্যাব্রিক)",
-        "মেরামত",
-        "ইস্ত্রি"
+        "তাপমাত্রা ও আর্দ্রতা বদলালে সুতা সহজেই নষ্ট হয়",
+        "সুতা তাপমাত্রা মাপতে পারে",
+        "সুতা গরমে শক্ত হয়ে যায়",
+        "সুতার সঙ্গে আর্দ্রতার সম্পর্ক নেই"
       ],
-      "answer": 1,
-      "explanationBn": "재단 মানে ফ্যাব্রিক কাটা।"
+      "answer": 0,
+      "explanationBn": "'민감하다' মানে সংবেদনশীল — সামান্য বদলেই প্রভাব পড়ে। তাই তাপমাত্রা বা আর্দ্রতা ঠিক না থাকলে সুতার রং বদলায়, দুর্বল হয় বা নোংরা হয়ে যায়।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "‘불량’ শব্দের অর্থ কী?",
-      "questionKo": "‘불량’의 뜻은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-는 데' বসান: 진한 색깔로 ___ 시간이 더 걸려요. (염색하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "ত্রুটিপূর্ণ",
-        "নিরাপদ",
-        "দ্রুত",
-        "নতুন"
+        "염색했는 데",
+        "염색하는 데",
+        "염색하는데",
+        "염색하려고"
       ],
-      "answer": 0,
-      "explanationBn": "불량 মানে ত্রুটিপূর্ণ।"
+      "answer": 1,
+      "explanationBn": "কত সময় লাগে তা বোঝাতে '-는 데 + 걸리다' বসে, আর এর আগে কালের রূপ বসে না। খেয়াল রাখুন — '데'-এর আগে ফাঁকা জায়গা থাকে; একসঙ্গে '염색하는데' লিখলে অর্থ বদলে 'রং করছি, কিন্তু...' হয়ে যায়।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "‘—(으)면 안 되다’ কখন ব্যবহৃত হয়?",
-      "questionKo": "‘—(으)면 안 되다’는 언제 사용합니까?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 원단을 표백해서 ___ 만들어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "অনুমতি দিতে",
-        "নিষেধাজ্ঞা বোঝাতে",
-        "পরামর্শ দিতে",
-        "অতীত বোঝাতে"
+        "까맣게",
+        "두껍게",
+        "하얗게",
+        "무겁게"
       ],
-      "answer": 1,
-      "explanationBn": "এটি নিষেধাজ্ঞা বোঝাতে ব্যবহৃত হয়।"
+      "answer": 2,
+      "explanationBn": "'표백하다' মানে ব্লিচ করে সাদা করা, তাই '하얗게' সঠিক। '까맣게' মানে কালো করে — ঠিক উল্টো; আর ব্লিচ করলে কাপড় মোটা বা ভারী হয় না।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "‘안전화를 신어야 해요’ এর অর্থ কী?",
-      "questionKo": "‘안전화를 신어야 해요’의 뜻은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-군요' বসান: 합성 섬유라서 시간이 더 ___. (걸리다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "নিরাপত্তা জুতো পরতে হবে।",
-        "নিরাপত্তা জুতো পরবেন না।",
-        "নিরাপত্তা জুতো পরতে পারেন।",
-        "নিরাপত্তা জুতো পরেছিলাম।"
+        "걸리군요",
+        "걸린군요",
+        "걸리었군요",
+        "걸리는군요"
       ],
-      "answer": 0,
-      "explanationBn": "—아/어야 하다 বাধ্যবাধকতা বোঝায়।"
+      "answer": 3,
+      "explanationBn": "'걸리다' একটি ক্রিয়া, আর ক্রিয়ার সঙ্গে '-는군요' বসে: 걸리는군요। বিশেষণের সঙ্গে সরাসরি '-군요' বসত (습하군요), তাই '걸리군요' ভুল।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: ‘여기서 담배를 _____ 안 됩니다.’",
-      "questionKo": "문장을 완성하세요: '여기서 담배를 _____ 안 됩니다.'",
-      "options": [
-        "피우면",
-        "피우고",
-        "피워서",
-        "피우지만"
+      "type": "matching",
+      "questionBn": "তন্তুর নামের সঙ্গে তার ধরন মেলান।",
+      "questionKo": "섬유의 이름과 종류를 연결하세요.",
+      "pairs": [
+        {
+          "left": "면",
+          "right": "তুলা থেকে, প্রাকৃতিক"
+        },
+        {
+          "left": "모",
+          "right": "ভেড়ার লোম থেকে, প্রাকৃতিক"
+        },
+        {
+          "left": "견",
+          "right": "রেশম, প্রাকৃতিক"
+        },
+        {
+          "left": "나일론",
+          "right": "কৃত্রিম, খুব মজবুত"
+        },
+        {
+          "left": "폴리에스터",
+          "right": "কৃত্রিম, রং ধরতে সময় লাগে"
+        }
       ],
-      "answer": 0,
-      "explanationBn": "নিষেধাজ্ঞা বোঝাতে 피우면 안 됩니다 সঠিক।"
+      "explanationBn": "প্রথম তিনটি প্রাকৃতিক তন্তু (면·모·견), আর শেষ দুটি '합성 섬유' — কৃত্রিম। এই পার্থক্যটা কাজে লাগে, কারণ কৃত্রিম তন্তু রাঙাতে বেশি সময় ও বেশি তাপ লাগে।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: ‘오늘까지 일을 _____ 합니다.’",
-      "questionKo": "문장을 완성하세요: '오늘까지 일을 _____ 합니다.'",
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 원사의 종류___ 보관 방법이 다릅니다.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "끝내면",
-        "끝내야",
-        "끝내고",
-        "끝내서"
+        "마다",
+        "거나",
+        "에서",
+        "보다"
       ],
-      "answer": 1,
-      "explanationBn": "바ধ্যবাধকতা বোঝাতে 끝내야 합니다 সঠিক।"
+      "answer": 0,
+      "explanationBn": "প্রতিটি ধরনের ক্ষেত্রেই আলাদা — এই অর্থে '마다' বসে: 종류마다। '거나' বিকল্প বোঝায়, '에서' জায়গা, আর '보다' তুলনা।"
     },
     {
       "id": "p17",
       "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: ‘옷에 _____이 묻었어요.’",
-      "questionKo": "문장을 완성하세요: '옷에 _____이 묻었어요.'",
+      "questionBn": "'-아야/어야' বসান: 불순물을 ___ 염색이 잘돼요. (제거하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "얼룩",
-        "가위",
-        "바늘",
-        "다리미"
+        "제거하고",
+        "제거해야",
+        "제거해도",
+        "제거하거나"
       ],
-      "answer": 0,
-      "explanationBn": "얼룩 (দাগ) কাপড়ে লাগে।"
+      "answer": 1,
+      "explanationBn": "রং ভালো ধরার অপরিহার্য শর্ত হলো অশুদ্ধ পদার্থ সরানো, তাই '-아야/어야' বসে। '하다' ক্রিয়া বলে '해야' হয়। '-아도' উল্টো ফল বোঝাত ('সরালেও'), আর '-거나' বিকল্প বোঝায়।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: ‘_____로 옷을 다려요.’",
-      "questionKo": "문장을 완성하세요: '_____로 옷을 다려요.'",
+      "type": "multiple-choice",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন: '한국의 섬유 산업과 방직 산업은 한국전쟁 이후 경제 재건을 위한 산업화 시기에 시작되었습니다. 2022년 한국의 섬유 산업은 화학 섬유와 편직물을 중심으로 세계 시장 점유율 6위를 차지하게 되었습니다.'",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
       "options": [
-        "가위",
-        "바늘",
-        "다리미",
-        "지퍼"
+        "한국의 섬유 산업은 2000년대 이전까지 어려움을 겪었습니다.",
+        "한국의 화학 섬유는 아직 세계 시장에 진출하지 않았습니다.",
+        "한국의 섬유 산업은 한국의 산업화 시기에 시작됐습니다.",
+        "한국은 합성 섬유 생산 기술을 도입할 예정입니다."
       ],
       "answer": 2,
-      "explanationBn": "다리미 (ইস্ত্রি) দিয়ে কাপড় ইস্ত্রি করা হয়।"
+      "explanationBn": "লেখায় বলা আছে '산업화 시기에 시작되었습니다', তাই এটিই সঠিক। ২০২২ সালেই বিশ্ববাজারে ষষ্ঠ স্থান — অর্থাৎ বাজারে ঢোকা হয়ে গেছে, আর প্রযুক্তি ২০০০-এর দশকেই আনা হয়েছে, ভবিষ্যতে নয়।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "শব্দ ও অর্থ মিলান।",
-      "questionKo": "단어와 뜻을 연결하세요.",
-      "pairs": [
-        {
-          "left": "포장",
-          "right": "প্যাকেজিং"
-        },
-        {
-          "left": "수선",
-          "right": "মেরামত"
-        },
-        {
-          "left": "치수",
-          "right": "মাপ"
-        },
-        {
-          "left": "먼지",
-          "right": "ধুলো"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-군요' বসান: 장마철이라서 정말 ___. (습하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "습하는군요",
+        "습한군요",
+        "습하었군요",
+        "습하군요"
       ],
-      "answer": 0,
-      "explanationBn": "সঠিক অর্থ মেলানো হয়েছে।"
+      "answer": 3,
+      "explanationBn": "'습하다' একটি বিশেষণ, আর বিশেষণের সঙ্গে সরাসরি '-군요' বসে: 습하군요। '-는군요' কেবল ক্রিয়ার সঙ্গে বসে, তাই '습하는군요' ভুল।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "শব্দ ও অর্থ মিলান।",
-      "questionKo": "단어와 뜻을 연결하세요.",
-      "pairs": [
-        {
-          "left": "바늘",
-          "right": "সুই"
-        },
-        {
-          "left": "가위",
-          "right": "কাঁচি"
-        },
-        {
-          "left": "단추",
-          "right": "বোতাম"
-        },
-        {
-          "left": "지퍼",
-          "right": "জিপার"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'원단을 펴 줘야 고르게 염색돼요.' — এই বাক্যটির অর্থ কী?",
+      "questionKo": "다음 문장의 뜻으로 알맞은 것을 고르세요.",
+      "options": [
+        "কাপড় সমান করলে রং ধরে না",
+        "কাপড় সমান না করলেও রং সমান হয়",
+        "কাপড় সমান করা ঐচ্ছিক",
+        "কাপড় সমান করলেই তবে রং সমানভাবে ধরে"
       ],
-      "answer": 0,
-      "explanationBn": "সঠিক অর্থ মেলানো হয়েছে।"
+      "answer": 3,
+      "explanationBn": "'-아야/어야' বোঝায় এটি ছাড়া ফলটা পাওয়াই যাবে না — অর্থাৎ কাপড় সমান করাটা বাধ্যতামূলক শর্ত। তাই এটি ঐচ্ছিকও নয়, আর সমান না করলে রং অসমান হবেই।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "নিচের অনুচ্ছেদ পড়ে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 질문에 답하세요: 기사가 쓴 내용은 무엇입니까?",
-      "passage": "공장에서 원단 생산이 시작되었습니다. 직원들은 먼저 기계를 점검하고 안전 장비를 착용했습니다. 오늘 목표는 500미터 생산입니다.",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের?",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "passage": "염색이 끝난 후에 원단을 물로 헹궈서 남아 있는 염료를 제거하는 작업입니다.",
       "options": [
-        "원단이 모두 불량이었다.",
-        "생산 목표는 100미터였다.",
-        "기계를 점검하고 안전 장비를 착용했다.",
-        "직원들이 점심을 먹었다."
+        "표백 작업",
+        "세척 작업",
+        "도장 작업",
+        "건조 작업"
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা আছে কর্মীরা মেশিন পরীক্ষা করেছে এবং নিরাপত্তা পরেছে; তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 1,
+      "explanationBn": "রং করা শেষে পানি দিয়ে ধুয়ে বাকি রং সরানোর কাজটাই '세척 작업'। '표백' মানে সাদা করা (রং করার আগে), '도장' মানে রং-পালিশ, আর '건조' মানে শুকানো (ধোয়ার পরে)।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তরটি চিহ্নিত করুন।",
-      "questionKo": "다음을 읽고 옳은 것을 고르세요: 불량이 발견되면 어떻게 해야 합니까?",
-      "passage": "원단에 구멍이나 얼룩 같은 불량이 있으면 그 부분을 제외하고 포장합니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "염색 작업을 할 때 원단이 엉키면 염색이 잘되지 않습니다. 그래서 막대기로 저어서 원단을 (        ).",
       "options": [
-        "모두 폐기한다.",
-        "불량은 무시한다.",
-        "불량 부분을 그대로 포장한다.",
-        "불량 부분을 제외하고 포장한다."
+        "켜 줘야 합니다",
+        "잘라 줘야 합니다",
+        "펴 줘야 합니다",
+        "갈아 줘야 합니다"
       ],
-      "answer": 3,
-      "explanationBn": "প্যাসেজ অনুযায়ী খারাপ অংশ বাদ দিয়ে প্যাক করতে বলা হয়েছে; তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 2,
+      "explanationBn": "জট পাকানো কাপড় সমান করে দিতে হয়, তাই '펴 주다' সঠিক। '켜다' মানে চালু করা, '자르다' মানে কাটা, '갈다' মানে ঘষা বা বদলানো।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "প্যাসেজ অনুযায়ী প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 질문에 답하세요: 기계가 고장나면 누가 확인합니까?",
-      "passage": "기계에 문제가 있으면 기술자가 와서 점검합니다. 문제가 심하면 수리를 요청합니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "원사는 온도와 습도에 민감합니다. 그래서 (        )이/가 잘되는 건조한 곳에 보관해야 합니다.",
       "options": [
-        "기술자가 점검한다.",
-        "관리자가 버린다.",
-        "직원이 그냥 사용한다.",
-        "청소원이 점검한다."
+        "염색",
+        "탈수",
+        "표백",
+        "통풍"
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে বলা আছে প্রযুক্তিবিদ (기술자) মেশিন পরীক্ষা করে; তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 3,
+      "explanationBn": "শুকনো জায়গার সঙ্গে জোড়া বাঁধে '통풍' (বাতাস চলাচল) — বাতাস না চললে ভেতরে আর্দ্রতা জমে। বাকি তিনটি রং করার প্রক্রিয়ার ধাপ, সংরক্ষণের শর্ত নয়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "প্যাসেজ থেকে সঠিক তথ্য বাছুন।",
-      "questionKo": "다음을 읽고 맞는 것을 고르세요: 자동화의 효과는 무엇입니까?",
-      "passage": "자동화로 생산 속도가 빨라지고 인건비가 줄어들 수 있습니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "원사는 온도와 습도에 민감해서 (        ) 오염되기 쉽습니다.",
       "options": [
-        "품질이 항상 나빠진다.",
-        "생산 속도가 빨라진다.",
-        "생산 속도가 느려진다.",
-        "인건비가 증가한다."
+        "변색되고",
+        "변색되면",
+        "변색되어서",
+        "변색되거나"
       ],
-      "answer": 1,
-      "explanationBn": "প্যাসেজে স্বয়ংক্রিয়করণে উৎপাদন দ্রুত হয়; তাই তৃতীয় অপশন সঠিক।"
+      "answer": 3,
+      "explanationBn": "দুটি সম্ভাবনার মধ্যে যেকোনো একটি বোঝাতে '-거나' বসে। '-고' দুটোই একসঙ্গে ঘটা বোঝাত, '-면' শর্ত, আর '-어서' কারণ বোঝায়।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "প্যাসেজে কি নির্দেশ আছে পড়ে উত্তর দিন।",
-      "questionKo": "다음을 읽고 질문에 답하세요: 작업 전에 무엇을 해야 합니까?",
-      "passage": "작업 전에 안전 장비를 착용하고 기계를 점검하세요.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "원사 보관 창고는 온도와 습도를 일정하게 유지해야 합니다. 습도가 높으면 원사가 약해지고, 온도가 높으면 변색될 수 있습니다. 그래서 한 시간마다 측정해서 관리 대장에 기록합니다.",
       "options": [
-        "안전 장비는 필요 없다.",
-        "작업 후에 장비를 착용한다.",
-        "작업 전에 안전 장비를 착용하고 기계를 점검한다.",
-        "기계를 고장 낸다."
+        "온도가 높으면 원사가 변색될 수 있습니다.",
+        "습도가 높으면 원사가 변색됩니다.",
+        "관리 대장은 하루에 한 번 씁니다.",
+        "원사는 온도와 관계가 없습니다."
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে স্পষ্ট বলা আছে কাজের আগে নিরাপত্তা পরতে এবং মেশিন চেক করতে; তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 0,
+      "explanationBn": "লেখায় বলা আছে '온도가 높으면 변색될 수 있습니다'। আর্দ্রতা বেশি হলে সুতা '약해지고' (দুর্বল হয়), রং বদলায় না; আর মাপা হয় '한 시간마다' — দিনে একবার নয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "নিচের সংলাপ শুনে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 듣고 질문에 답하세요: 직원이 무엇을 보고했습니까?",
-      "passage": "남자: 원단에 얼룩이 발견됐습니다.\n여자: 몇 미터나요?\n남자: 약 3미터입니다.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 원재료의 중량을 접시 저울로 재면 되지요?\n나: 전자 저울로 재세요. 전자 저울로 (        ) 정확하게 측정할 수 있어요.",
       "options": [
-        "생산 목표를 달성했다.",
-        "직원이 휴식을 원했다.",
-        "기계 고장이 보고되었다.",
-        "원단에 얼룩 3미터를 발견했다."
+        "재고",
+        "재면",
+        "재야",
+        "재도"
       ],
-      "answer": 3,
-      "explanationBn": "সংলাপে কর্মী বলেছে প্রায় 3 মিটার 얼룩 পাওয়া গেছে; তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 2,
+      "explanationBn": "নিখুঁতভাবে মাপার অপরিহার্য শর্ত হলো ইলেকট্রনিক দাঁড়িপাল্লা ব্যবহার করা, তাই '-아야/어야' রূপ '재야' সঠিক। '재도' উল্টো ফল বোঝাত, '재면' শুধু শর্ত, আর '재고' কেবল জোড়া লাগায়।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শোনা অংশ ভিত্তিতে উত্তর দিন।",
-      "questionKo": "다음을 듣고 질문에 답하세요: 교육자가 먼저 무엇을 하라고 했습니까?",
-      "passage": "남자: 기계 사용 방법을 알려주세요.\n여자: 먼저 안전 장비를 착용하세요. 그다음에 시작 버튼을 누르세요.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "[염색 가공 순서]\n① 불순물 제거\n② 표백\n③ 염색\n④ 세척\n⑤ 탈수 및 건조",
       "options": [
-        "먼저 안전 장비를 착용하라고 했다.",
-        "먼저 기계 분해하라고 했다.",
-        "먼저 문을 닫으라고 했다.",
-        "먼저 점심 먹으라고 했다."
+        "표백은 염색한 다음에 합니다.",
+        "세척은 염색하기 전에 합니다.",
+        "불순물은 마지막에 제거합니다.",
+        "표백은 염색하기 전에 합니다."
       ],
-      "answer": 0,
-      "explanationBn": "শোনা অংশে শিক্ষার্থীকে প্রথমে নিরাপত্তা সরঞ্জাম পরতে বলেছে; তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 3,
+      "explanationBn": "ক্রম অনুযায়ী ② ব্লিচ, তারপর ③ রং করা — তাই ব্লিচ আগে হয়। ধোয়া হয় রং করার পরে, আর অশুদ্ধ পদার্থ সরানো হয় সবার প্রথমে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "শোনা অংশ থেকে সঠিক উত্তর চিহ্নিত করুন।",
-      "questionKo": "다음을 듣고 질문에 답하세요: 포장 지시에 따라 무엇을 하라고 했나요?",
-      "passage": "남자: 불량 부분은 제외하고 포장하세요.\n여자: 알겠습니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국의 섬유 산업과 방직 산업은 한국전쟁 이후 경제 재건을 위한 산업화 시기에 시작되었습니다. 2000년대에 이르러 첨단 기술이 도입되면서 기능성 섬유와 같은 고품질의 소재를 생산할 수 있게 되었습니다. 그 결과, 2022년 한국의 섬유 산업은 화학 섬유와 편직물을 중심으로 세계 시장 점유율 6위를 차지하게 되었습니다.",
       "options": [
-        "포장하지 말라고 했다.",
-        "불량 부분을 제외하고 포장하라고 했다.",
-        "전부 폐기하라고 했다.",
-        "불량 부분을 포함해서 포장하라고 했다."
+        "한국의 섬유 산업은 한국의 산업화 시기에 시작됐습니다.",
+        "한국의 섬유 산업은 2000년대 이전까지 어려움을 겪었습니다.",
+        "한국의 화학 섬유는 세계 시장 진출을 앞두고 있습니다.",
+        "한국은 합성 섬유 생산 기술을 도입할 예정입니다."
       ],
-      "answer": 1,
-      "explanationBn": "টিম লিড নির্দেশ দিয়েছেন খারাপ অংশ বাদ দিয়ে প্যাক করতে; তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 0,
+      "explanationBn": "লেখায় বলা আছে '산업화 시기에 시작되었습니다', তাই এটিই সঠিক। ২০২২ সালেই বিশ্ববাজারে ষষ্ঠ স্থান — বাজারে ঢোকা হয়ে গেছে, আর প্রযুক্তি ২০০০-এর দশকেই আনা হয়েছে।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "옷을 만들 때 먼저 원단의 (  )를 정확하게 재야 합니다.",
+      "passage": "원단을 (        )해서 하얗게 만든 다음에 염료를 섞습니다.",
       "options": [
-        "치수",
-        "먼지",
-        "얼룩",
-        "단추"
+        "탈수",
+        "세척",
+        "표백",
+        "건조"
       ],
-      "answer": 0,
-      "explanationBn": "치수 (মাপ) নেওয়া প্রয়োজন।"
+      "answer": 2,
+      "explanationBn": "সাদা করার কাজটাই '표백' (ব্লিচ)। '탈수' পানি ঝরানো, '세척' ধোয়া, '건조' শুকানো — কোনোটিই কাপড় সাদা করে না।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "작업장에서는 항상 안전화를 (  ) 합니다.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "원사의 종류마다 보관 방법이 다릅니다. 그래서 종류가 다른 원사를 함께 보관하면 안 됩니다. 종류별로 분류해서 관리해야 합니다.",
       "options": [
-        "신으면 안",
-        "신어야",
-        "신고",
-        "신어서"
+        "모든 원사는 같은 방법으로 보관합니다.",
+        "종류가 다른 원사는 함께 보관하면 안 됩니다.",
+        "원사는 분류하지 않아도 됩니다.",
+        "원사의 종류는 한 가지뿐입니다."
       ],
       "answer": 1,
-      "explanationBn": "안전화를 신어야 합니다 (নিরাপত্তা জুতো পরতে হবে)।"
+      "explanationBn": "লেখায় স্পষ্ট বলা আছে '함께 보관하면 안 됩니다'। প্রতিটি ধরনের পদ্ধতি আলাদা বলেই আলাদা করে রাখতে হয় — তাই একই পদ্ধতিতে রাখা বা ভাগ না করা, দুটোই ভুল।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
-      "questionKo": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
-      "passage": "이 기계는 매우 위험합니다. 작동 중에는 절대 손을 넣으면 안 됩니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: আজ কী কাজ করতে হবে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 오늘은 무슨 작업을 해요?\n여자: 원사를 파란색으로 염색해야 돼요.",
       "options": [
-        "휴식 시간",
-        "안전 수칙",
-        "월급",
-        "출퇴근"
+        "원사를 파란색으로 염색하는 일",
+        "원단을 표백하는 일",
+        "원사를 창고로 옮기는 일",
+        "관리 대장을 정리하는 일"
       ],
-      "answer": 1,
-      "explanationBn": "안전 수칙 (নিরাপত্তা নিয়ম) সম্পর্কে বলা হয়েছে।"
+      "answer": 0,
+      "explanationBn": "মহিলা বলছেন '원사를 파란색으로 염색해야 돼요' — সুতা নীল রঙে রাঙাতে হবে। ব্লিচ, সরানো বা খাতা গোছানোর কোনো কথা আসেনি।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 맞는 것을 고르십시오.",
-      "questionKo": "다음 글을 읽고 맞는 것을 고르십시오.",
-      "passage": "오늘 오후에는 포장 작업이 있습니다. 재단이 끝난 원단을 상자에 넣으세요.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "남자: 염색 과정이 간단해요?",
       "options": [
-        "오전에 포장을 합니다.",
-        "재단 작업은 내일 합니다.",
-        "원단을 상자에 넣어야 합니다.",
-        "포장 작업은 끝났습니다."
+        "아니요, 염색 과정은 복잡해요.",
+        "네, 염색 과정이 재미있어요.",
+        "네, 염색 과정이 필요해요.",
+        "아니요, 염색 과정은 쉬워요."
       ],
-      "answer": 2,
-      "explanationBn": "원단을 상자에 넣으세요 (ফ্যাব্রিক বাক্সে রাখুন)।"
+      "answer": 0,
+      "explanationBn": "'간단해요?' (সহজ কি?) প্রশ্নের সঙ্গে মিলিয়ে '아니요' বললে পরে 'জটিল' বলতে হয়, তাই '복잡해요' সঠিক। '아니요, 쉬워요' নিজের সঙ্গেই বিরোধী, আর 'মজার' বা 'দরকারি' প্রশ্নের উত্তর নয়।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "옷에 (  )이 묻었을 때는 빨리 세탁해야 합니다.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "여자: 누가 염료를 넣었어요?",
       "options": [
-        "얼룩",
-        "가위",
-        "바늘",
-        "단추"
+        "조금 전에 넣었어요.",
+        "닛차난 씨가 넣었어요.",
+        "보관 창고에서 넣었어요.",
+        "작업 지시서대로 넣었어요."
       ],
-      "answer": 0,
-      "explanationBn": "얼룩 (দাগ) লাগলে ধুতে হবে।"
+      "answer": 1,
+      "explanationBn": "প্রশ্নটি '누가' (কে) দিয়ে করা, তাই ব্যক্তির নাম দিয়ে উত্তর দিতে হবে। '조금 전에' কখন, '보관 창고에서' কোথায়, আর '지시서대로' কীভাবে — তিনটিই ভিন্ন প্রশ্নের উত্তর।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 반장님, 이 원단은 어떻게 할까요?\n남자: 그 원단은 불량이니까 따로 빼놓으세요.",
+      "questionBn": "শুনে এরপর কী বলা সবচেয়ে উপযুক্ত হবে তা বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 종류가 다른 원사를 함께 보관하면 안 돼요.",
       "options": [
-        "원단을 포장합니다.",
-        "원단을 버립니다.",
-        "불량 원단을 따로 둡니다.",
-        "원단을 재단합니다."
+        "새 원사가 입고됐어요.",
+        "어제 창고 정리를 했어요.",
+        "종류별로 분류해서 관리할게요.",
+        "온도가 높아서 그럴 거예요."
       ],
       "answer": 2,
-      "explanationBn": "불량 원단을 따로 빼놓으세요 (ত্রুটিপূর্ণ ফ্যাব্রিক আলাদা রাখুন)।"
+      "explanationBn": "আলাদা ধরনের সুতা একসঙ্গে রাখা যাবে না — এই নির্দেশের স্বাভাবিক জবাব হলো ধরন অনুযায়ী ভাগ করার প্রতিশ্রুতি। বাকি তিনটি নির্দেশটির সঙ্গে সম্পর্কহীন।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 수루 씨, 재봉틀 바늘 좀 바꿔주세요.\n여자: 네, 알겠습니다. 바로 바꿀게요.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: দুজন কী নিয়ে কথা বলছেন?",
+      "questionKo": "다음을 듣고 두 사람이 무엇에 대해 말하고 있는지 고르십시오.",
+      "passage": "남자: 원사 온도와 습도를 확인했어요?\n여자: 네, 확인했어요. 한 시간마다 측정하고 있어요.\n남자: 확인 후 관리 대장에도 꼭 기록해 놓으세요.",
       "options": [
-        "바늘을 바꿉니다.",
-        "가위를 가져옵니다.",
-        "다리미를 켭니다.",
-        "지퍼를 고칩니다."
+        "원사 염색",
+        "원사 구입",
+        "원사 포장",
+        "원사 관리"
       ],
-      "answer": 0,
-      "explanationBn": "바늘을 바꿉니다 (সুই পরিবর্তন করবে)।"
+      "answer": 3,
+      "explanationBn": "তাপমাত্রা-আর্দ্রতা মাপা আর খাতায় লিখে রাখা — এগুলো সুতা দেখাশোনার কাজ, তাই '원사 관리' সঠিক। রং করা, কেনা বা মোড়ানোর কোনো কথা আসেনি।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: আজ রং করার কাজে বেশি সময় লাগছে কেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 작업이 다 끝났나요?\n남자: 아니요, 아직 포장 작업이 남았습니다.",
+      "passage": "남자: 오늘 염색 작업이 지난번보다 더 오래 걸리는 것 같아요.\n여자: 원단이 합성 섬유라서 그래요. 그리고 진한 색깔로 염색하는 데 시간이 더 걸려요.",
       "options": [
-        "작업이 모두 끝났습니다.",
-        "포장 작업이 남았습니다.",
-        "재단 작업이 남았습니다.",
-        "휴식 시간입니다."
+        "기계가 고장 나서",
+        "원단이 합성 섬유라서",
+        "염료가 부족해서",
+        "작업자가 적어서"
       ],
       "answer": 1,
-      "explanationBn": "포장 작업이 남았습니다 (প্যাকেজিং কাজ বাকি আছে)।"
+      "explanationBn": "মহিলা নিজেই কারণ বলছেন '원단이 합성 섬유라서 그래요' — কৃত্রিম তন্তু বলে, আর গাঢ় রং হলে আরও সময় লাগে। যন্ত্র নষ্ট, রঙের অভাব বা লোক কম — কোনো কারণই বলা হয়নি।"
     }
   ]
 }
