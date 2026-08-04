@@ -10,133 +10,395 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "প্যাকিং, 라벨붙이기 এবং 출하 관련 সাধারণ কোরিয়ান শব্দাবলি শেখা।",
-      "간단한 출하 지시와 상태를 한국어로 묻고 대답할 수 있다।",
-      "포장 수량, 무게 또는 날짜 관련 기본 문장을 이해하고 말할 수 있다।"
+      "প্যাকিং কাজের ধাপগুলো শুনে বুঝতে পারা — মোড়ানো, বাক্সে ভরা, লেবেল লাগানো ও স্তরে সাজানো",
+      "চালান (출하) কাজের অগ্রগতি নিয়ে সহকর্মী ও রিডারের সঙ্গে কথা বলতে পারা",
+      "'-(으)ㄴ' দিয়ে অতীতে সম্পন্ন কাজ বুঝিয়ে বিশেষ্যকে বিশেষায়িত করতে পারা",
+      "'-겠-' দিয়ে নিজের ইচ্ছা জানানো এবং পরিস্থিতি সম্পর্কে অনুমান প্রকাশ করতে পারা"
     ],
     "en": [
-      "Learn common Korean vocabulary for packing, labeling, and shipment tasks.",
-      "Ask and answer simple shipment instructions and status in Korean.",
-      "Understand and use basic sentences about quantities, weight, and dates for shipments."
+      "Can listen to and understand the steps of the packaging process",
+      "Can talk about the progress of the shipping process",
+      "Can modify a noun with -(으)ㄴ to show a completed action",
+      "Can express intention and make predictions using -겠-"
     ]
   },
   "vocabulary": [
     {
-      "ko": "출하",
-      "romanization": "chulha",
-      "bn": "চালান/পণ্য প্রেরণ",
-      "en": "shipment",
-      "pos": "noun",
+      "ko": "포장하다",
+      "romanization": "pojanghada",
+      "bn": "মোড়ানো, প্যাকিং করা",
+      "en": "to package, to wrap",
+      "pos": "verb",
       "example": {
-        "ko": "오늘 출하는 몇 시에 출발하나요?",
-        "bn": "আজ চালান কখন রওনা হবে?",
-        "en": "What time does today's shipment depart?"
+        "ko": "제품을 완충재로 포장했어요.",
+        "bn": "পণ্যটি কুশনিং উপকরণ দিয়ে মুড়িয়েছি।",
+        "en": "I packaged the product with cushioning material."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "포장 → [포장]। 'ㅍ' নিঃশ্বাসযুক্ত 'ফ/প' — মুখ থেকে বাতাস ছেড়ে 'পো-জাং', শেষে 'ㅇ' নাক দিয়ে 'ং'।"
     },
     {
-      "ko": "포장",
-      "romanization": "pojang",
-      "bn": "প্যাকিং",
-      "en": "packing",
-      "pos": "noun/verb",
+      "ko": "싸다",
+      "romanization": "ssada",
+      "bn": "মুড়ে ফেলা, জড়িয়ে নেওয়া",
+      "en": "to wrap",
+      "pos": "verb",
       "example": {
-        "ko": "상품을 안전하게 포장해 주세요.",
-        "bn": "পণ্যটি নিরাপদে প্যাক করুন।",
-        "en": "Please pack the product securely."
+        "ko": "방청지로 제품을 싸 주세요.",
+        "bn": "মরচে-প্রতিরোধী কাগজ দিয়ে পণ্যটি মুড়ে দিন।",
+        "en": "Please wrap the product in rust-proof paper."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "싸다-এর 'ㅆ' টান-টান শক্ত 'স' — 사다 (কেনা) নয়। জিভ শক্ত করে 'সা-দা' বললে অর্থ বদলে যায়, তাই জোর দিন।"
     },
     {
-      "ko": "라벨",
-      "romanization": "rabel",
-      "bn": "লেবেল",
-      "en": "label",
-      "pos": "noun",
+      "ko": "담다",
+      "romanization": "damda",
+      "bn": "ভরা, ভেতরে রাখা",
+      "en": "to put in, to fill",
+      "pos": "verb",
       "example": {
-        "ko": "라벨에 주소를 적어 주세요.",
-        "bn": "লেবেলে ঠিকানা লিখুন।",
-        "en": "Please write the address on the label."
+        "ko": "재고 상품을 상자에 담았어요.",
+        "bn": "মজুদ পণ্যগুলো বাক্সে ভরেছি।",
+        "en": "I put the inventory goods into boxes."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "담다 → [담따]। 'ㅁ'-এর পরে 'ㄷ' শক্ত হয়ে 'ㄸ' হয় — 'দাম-다' নয়, 'দাম-따'।"
     },
     {
-      "ko": "송장",
-      "romanization": "songjang",
-      "bn": "পাঠানোর কাগজ/ইনভয়েস",
-      "en": "invoice / waybill",
+      "ko": "묶다",
+      "romanization": "mukda",
+      "bn": "বাঁধা, দড়ি দিয়ে বাঁধা",
+      "en": "to tie, to bind",
+      "pos": "verb",
+      "example": {
+        "ko": "상자를 끈으로 단단히 묶으세요.",
+        "bn": "বাক্সটা দড়ি দিয়ে শক্ত করে বাঁধুন।",
+        "en": "Please tie the box tightly with a rope."
+      },
+      "pronunciationTipBn": "묶다 → [묵따]। 'ㄲ' বাতচিম থেমে 'ㄱ' শব্দ হয়, পরের 'ㄷ' শক্ত হয়ে 'ㄸ' — 'মুক-따'।"
+    },
+    {
+      "ko": "쌓다",
+      "romanization": "ssatda",
+      "bn": "স্তরে স্তরে সাজানো, উপরে উপরে রাখা",
+      "en": "to stack, to pile up",
+      "pos": "verb",
+      "example": {
+        "ko": "파렛트에 상자를 쌓아 놓았어요.",
+        "bn": "প্যালেটের উপর বাক্সগুলো সাজিয়ে রেখেছি।",
+        "en": "I stacked the boxes on the pallet."
+      },
+      "pronunciationTipBn": "쌓다 → [싸타]। 'ㅎ' বাতচিম পরের 'ㄷ'-এর সঙ্গে মিশে 'ㅌ' (থ) হয়ে যায় — 'সা-থা'।"
+    },
+    {
+      "ko": "라벨을 붙이다",
+      "romanization": "rabereul buchida",
+      "bn": "লেবেল লাগানো",
+      "en": "to attach a label",
+      "pos": "phrase",
+      "example": {
+        "ko": "라벨을 붙인 상자는 여기에 쌓아 주세요.",
+        "bn": "যেসব বাক্সে লেবেল লাগানো হয়েছে, সেগুলো এখানে সাজিয়ে রাখুন।",
+        "en": "Please stack the boxes that have labels attached here."
+      },
+      "pronunciationTipBn": "붙이다 → [부치다]। 'ㅌ' আর 'ㅣ' মিলে 'ㅊ' (ছ) হয়ে যায় — 'বুত-이-다' নয়, 'বু-চি-다'।"
+    },
+    {
+      "ko": "나르다",
+      "romanization": "nareuda",
+      "bn": "বহন করা, বয়ে নেওয়া",
+      "en": "to carry",
+      "pos": "verb",
+      "example": {
+        "ko": "깨지기 쉬우니까 하나씩 조심해서 나르세요.",
+        "bn": "সহজে ভেঙে যায়, তাই একটা একটা করে সাবধানে বয়ে নিন।",
+        "en": "They break easily, so please carry them one by one carefully."
+      },
+      "pronunciationTipBn": "나르다-তে 'ㄹ' অনিয়মিত: 나르 + 어요 → 날라요 (নাল-লা-ইও)। তাই '나러요' নয়, '날라요' বলুন।"
+    },
+    {
+      "ko": "완충재",
+      "romanization": "wanchungjae",
+      "bn": "কুশনিং উপকরণ (ধাক্কা শোষণ করার মোড়ক)",
+      "en": "cushioning material",
       "pos": "noun",
       "example": {
-        "ko": "송장을 확인하고 서명하세요.",
-        "bn": "ইনভয়েস দেখে স্বাক্ষর করুন।",
-        "en": "Check the waybill and sign, please."
+        "ko": "완충재로 꼼꼼하게 싸는 게 중요해요.",
+        "bn": "কুশনিং উপকরণ দিয়ে যত্ন করে মোড়ানোটাই গুরুত্বপূর্ণ।",
+        "en": "It is important to wrap it meticulously with cushioning material."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "완충재 → [완충재]। 'ㅘ' এক টানে 'ওয়া', আর মাঝের 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'ওয়ান-চুং-জে'।"
+    },
+    {
+      "ko": "방청지",
+      "romanization": "bangcheongji",
+      "bn": "মরচে-প্রতিরোধী কাগজ",
+      "en": "rust-proof paper",
+      "pos": "noun",
+      "example": {
+        "ko": "녹슬 수 있으니까 방청지로 싸세요.",
+        "bn": "মরচে পড়তে পারে, তাই মরচে-প্রতিরোধী কাগজ দিয়ে মুড়ে নিন।",
+        "en": "It may rust, so please wrap it in rust-proof paper."
+      },
+      "pronunciationTipBn": "방청지 → [방청지]। প্রথম দুই অক্ষরেই শেষে 'ㅇ' নাক দিয়ে 'ং' — 'বাং-চেওং-জি'।"
     },
     {
       "ko": "파렛트",
-      "romanization": "pareteu",
-      "bn": "প্যালেট",
+      "romanization": "parettteu",
+      "bn": "প্যালেট (মালামাল রাখার কাঠের বা প্লাস্টিকের পাটাতন)",
       "en": "pallet",
       "pos": "noun",
       "example": {
-        "ko": "파렛트에 상자를 쌓아 주세요.",
-        "bn": "প্যালেটের উপরে বাক্সগুলো রাখুন।",
-        "en": "Stack the boxes on the pallet."
+        "ko": "포장이 끝난 상자를 파렛트에 쌓으세요.",
+        "bn": "যেসব বাক্সের প্যাকিং শেষ হয়েছে, সেগুলো প্যালেটে সাজান।",
+        "en": "Please stack the finished boxes on the pallet."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "파렛트 → [파렛트]। ইংরেজি 'pallet'-এর চেয়ে অক্ষর বেশি — 'প্যালেট' নয়, তিন অক্ষরে 'পা-রেত-তেউ'।"
     },
     {
-      "ko": "컨테이너",
-      "romanization": "konteineo",
-      "bn": "কন্টেইনার",
-      "en": "container",
+      "ko": "포장 기준서",
+      "romanization": "pojang gijunseo",
+      "bn": "প্যাকিং নির্দেশিকা (কীভাবে মুড়তে হবে তার লিখিত নিয়ম)",
+      "en": "packaging instructions",
       "pos": "noun",
       "example": {
-        "ko": "컨테이너가 항구에 도착했습니다.",
-        "bn": "কন্টেইনার বন্দরে পৌঁছেছে।",
-        "en": "The container has arrived at the port."
+        "ko": "제가 여기에 둔 포장 기준서 못 봤어요?",
+        "bn": "আমি যে প্যাকিং নির্দেশিকাটা এখানে রেখেছিলাম, দেখেননি?",
+        "en": "Have you seen the packaging instructions I left here?"
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "기준서 → [기준서]। 'ㅈ' নরম 'জ', আর শেষের 'ㅅ' এখানে স্বরের আগে তাই স্পষ্ট 'স' — 'গি-জুন-সেও'।"
     },
     {
-      "ko": "하역",
-      "romanization": "hayok",
-      "bn": "লোডিং/আনলোডিং",
-      "en": "loading/unloading",
+      "ko": "깨지다",
+      "romanization": "kkaejida",
+      "bn": "ভেঙে যাওয়া (কাচ বা ভঙ্গুর জিনিস)",
+      "en": "to break",
+      "pos": "verb",
+      "example": {
+        "ko": "유리 제품은 깨지기 쉬워요.",
+        "bn": "কাচের পণ্য সহজে ভেঙে যায়।",
+        "en": "Glass products break easily."
+      },
+      "pronunciationTipBn": "깨지다-এর 'ㄲ' টান-টান শক্ত 'ক' — 개지다 নয়। গলা শক্ত করে 'কে-জি-দা' বলুন।"
+    },
+    {
+      "ko": "녹슬다",
+      "romanization": "nokseulda",
+      "bn": "মরচে পড়া",
+      "en": "to rust",
+      "pos": "verb",
+      "example": {
+        "ko": "비를 맞으면 철제 자재가 녹슬어요.",
+        "bn": "বৃষ্টি লাগলে লোহার মালামালে মরচে পড়ে।",
+        "en": "Steel materials rust if they get rained on."
+      },
+      "pronunciationTipBn": "녹슬다 → [녹쓸다]। 'ㄱ'-এর পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয় — 'নোক-쓸-다'।"
+    },
+    {
+      "ko": "손상되다",
+      "romanization": "sonsangdoeda",
+      "bn": "ক্ষতিগ্রস্ত হওয়া, নষ্ট হয়ে যাওয়া",
+      "en": "to get damaged",
+      "pos": "verb",
+      "example": {
+        "ko": "운송할 때 제품이 손상될 수 있어요.",
+        "bn": "পরিবহনের সময় পণ্য ক্ষতিগ্রস্ত হতে পারে।",
+        "en": "The product might get damaged during transport."
+      },
+      "pronunciationTipBn": "손상 → [손상]। প্রথমে 'ㄴ' (জিভ দাঁতে), পরে 'ㅇ' (নাক দিয়ে ং) — 'সোন-সাং', দুটি আলাদা রাখুন।"
+    },
+    {
+      "ko": "꼼꼼하다",
+      "romanization": "kkomkkomhada",
+      "bn": "যত্নশীল ও খুঁটিনাটিতে মনোযোগী হওয়া",
+      "en": "to be meticulous",
+      "pos": "adjective",
+      "example": {
+        "ko": "포장은 꼼꼼하게 해야 합니다.",
+        "bn": "প্যাকিং যত্ন করে খুঁটিয়ে করতে হয়।",
+        "en": "Packaging must be done meticulously."
+      },
+      "pronunciationTipBn": "꼼꼼하다-এর দুটো 'ㄲ' টান-টান শক্ত 'ক' — 'কম-কম-হা-দা' নয়, গলা চেপে 'কোম-কোম-하-다'।"
+    },
+    {
+      "ko": "운송하다",
+      "romanization": "unsonghada",
+      "bn": "পরিবহন করা (দূরে পাঠানো)",
+      "en": "to transport, to ship",
+      "pos": "verb",
+      "example": {
+        "ko": "제품을 트럭으로 운송합니다.",
+        "bn": "পণ্য ট্রাকে করে পরিবহন করা হয়।",
+        "en": "The products are transported by truck."
+      },
+      "pronunciationTipBn": "운송 → [운송]। প্রথম অক্ষরে 'ㄴ', দ্বিতীয়তে 'ㅇ' — 'উন-সোং', দুটো নাসিক্য ধ্বনি আলাদা।"
+    },
+    {
+      "ko": "신경 쓰다",
+      "romanization": "singyeong sseuda",
+      "bn": "মনোযোগ দেওয়া, খেয়াল রাখা",
+      "en": "to pay attention, to be careful about",
+      "pos": "phrase",
+      "example": {
+        "ko": "네, 신경 써서 할게요.",
+        "bn": "জি, খেয়াল রেখে করব।",
+        "en": "Yes, I'll do it carefully."
+      },
+      "pronunciationTipBn": "신경 → [신경]। 'ㅅ' পরের 'ㅣ'-এর প্রভাবে হালকা 'শ' শোনায় — 'সিন-গিওং' নয়, 'শিন-গিওং'।"
+    },
+    {
+      "ko": "분류하다",
+      "romanization": "bullyuhada",
+      "bn": "শ্রেণিভাগ করা, আলাদা করে ভাগ করা",
+      "en": "to sort, to classify",
+      "pos": "verb",
+      "example": {
+        "ko": "상자를 크기별로 분류해 주세요.",
+        "bn": "বাক্সগুলো আকার অনুযায়ী ভাগ করে দিন।",
+        "en": "Please sort the boxes by size."
+      },
+      "pronunciationTipBn": "분류 → [불류]। 'ㄴ'-এর পরে 'ㄹ' এলে 'ㄴ' বদলে 'ㄹ' হয় — 'বুন-리우' নয়, 'বুল-리우'।"
+    },
+    {
+      "ko": "출하하다",
+      "romanization": "chulhahada",
+      "bn": "চালান করা, কারখানা থেকে পণ্য বের করে পাঠানো",
+      "en": "to ship out",
+      "pos": "verb",
+      "example": {
+        "ko": "오늘 출하할 물건이 많습니다.",
+        "bn": "আজ চালান করার জিনিস অনেক।",
+        "en": "There are many goods to ship out today."
+      },
+      "pronunciationTipBn": "출하 → [추라]। 'ㄹ'-এর পরে 'ㅎ' প্রায় মিলিয়ে যায় — 'চুল-হা' নয়, 'চু-রা' শোনায়।"
+    },
+    {
+      "ko": "입고하다",
+      "romanization": "ipgohada",
+      "bn": "গুদামে পণ্য গ্রহণ করা (ভেতরে আনা)",
+      "en": "to receive goods into storage",
+      "pos": "verb",
+      "example": {
+        "ko": "자재를 오전에 입고했습니다.",
+        "bn": "মালামাল সকালে গুদামে নেওয়া হয়েছে।",
+        "en": "The materials were received into storage in the morning."
+      },
+      "pronunciationTipBn": "입고 → [입꼬]। 'ㅂ'-এর পরে 'ㄱ' শক্ত হয়ে 'ㄲ' হয় — 'ইপ-고' নয়, 'ইপ-꼬'।"
+    },
+    {
+      "ko": "출고하다",
+      "romanization": "chulgohada",
+      "bn": "গুদাম থেকে পণ্য বের করা",
+      "en": "to take goods out of storage",
+      "pos": "verb",
+      "example": {
+        "ko": "주문한 제품을 출고했어요.",
+        "bn": "অর্ডার করা পণ্যটি গুদাম থেকে বের করা হয়েছে।",
+        "en": "We took the ordered product out of storage."
+      },
+      "pronunciationTipBn": "출고 → [출꼬]। 'ㄹ'-এর পরে 'ㄱ' শক্ত হয়ে 'ㄲ' হয় — 'চুল-꼬'।"
+    },
+    {
+      "ko": "검수하다",
+      "romanization": "geomsuhada",
+      "bn": "পরীক্ষা করে যাচাই করা (সংখ্যা ও গুণ ঠিক আছে কি না)",
+      "en": "to inspect",
+      "pos": "verb",
+      "example": {
+        "ko": "물건을 받으면 먼저 검수해야 합니다.",
+        "bn": "জিনিস পেলে আগে যাচাই করে নিতে হয়।",
+        "en": "When you receive goods, you must inspect them first."
+      },
+      "pronunciationTipBn": "검수 → [검쑤]। 'ㅁ'-এর পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয় — 'গেওম-쑤'।"
+    },
+    {
+      "ko": "운반하다",
+      "romanization": "unbanhada",
+      "bn": "মালামাল এক জায়গা থেকে আরেক জায়গায় নেওয়া",
+      "en": "to transport, to convey",
+      "pos": "verb",
+      "example": {
+        "ko": "무거운 상자는 핸드 카트로 운반하세요.",
+        "bn": "ভারী বাক্স হ্যান্ড কার্ট দিয়ে নিয়ে যান।",
+        "en": "Please transport heavy boxes with a hand trolley."
+      },
+      "pronunciationTipBn": "운반 → [운반]। দুটো 'ㄴ' আর 'ㅂ' স্পষ্ট রাখুন — 'উম-반' নয়, 'উন-반'।"
+    },
+    {
+      "ko": "납품하다",
+      "romanization": "nappumhada",
+      "bn": "সরবরাহ করা, ক্রেতার কাছে পণ্য পৌঁছে দেওয়া",
+      "en": "to deliver, to supply",
+      "pos": "verb",
+      "example": {
+        "ko": "주문 업체에 제품을 납품했어요.",
+        "bn": "অর্ডার দেওয়া প্রতিষ্ঠানে পণ্য সরবরাহ করেছি।",
+        "en": "We delivered the products to the ordering company."
+      },
+      "pronunciationTipBn": "납품 → [납품]। 'ㅂ'-এর পরে 'ㅍ' — দুটোই ঠোঁটের ধ্বনি, তাই ঠোঁট বন্ধ করে থেমে 'নাপ-품' বলুন।"
+    },
+    {
+      "ko": "지게차",
+      "romanization": "jigecha",
+      "bn": "ফর্কলিফট (মালামাল তোলার যন্ত্র)",
+      "en": "forklift",
       "pos": "noun",
       "example": {
-        "ko": "하역 작업은 오후에 시작합니다.",
-        "bn": "লোডিং কাজ বিকেলে শুরু হবে।",
-        "en": "The loading work starts in the afternoon."
+        "ko": "제가 지게차로 옮기겠습니다.",
+        "bn": "আমি ফর্কলিফট দিয়ে সরিয়ে নেব।",
+        "en": "I will move it with the forklift."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "지게차 → [지게차]। শেষের 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'জি-গে-জা' নয়, বাতাস ছেড়ে 'জি-গে-ছা'।"
     },
     {
-      "ko": "검사",
-      "romanization": "geomsa",
-      "bn": "পরিদর্শন/চেক",
-      "en": "inspection/check",
-      "pos": "noun/verb",
+      "ko": "핸드 카트",
+      "romanization": "haendeu kateu",
+      "bn": "হ্যান্ড কার্ট (হাতে ঠেলার ট্রলি)",
+      "en": "hand trolley",
+      "pos": "noun",
       "example": {
-        "ko": "수량 검사를 먼저 하겠습니다.",
-        "bn": "প্রথমে পরিমাণ চেক করব।",
-        "en": "I'll check the quantity first."
+        "ko": "핸드 카트로 나르면 괜찮을 거예요.",
+        "bn": "হ্যান্ড কার্ট দিয়ে বয়ে নিলে ঠিক হয়ে যাবে।",
+        "en": "It will be fine if you carry it with a hand trolley."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "핸드 카트 → 'ㅐ' হলো খোলা 'এ' ধ্বনি, আর 'ㅋ'/'ㅌ' নিঃশ্বাসযুক্ত — 'হেন-দেউ কা-তেউ'।"
+    },
+    {
+      "ko": "내리다",
+      "romanization": "naerida",
+      "bn": "নামানো, গাড়ি থেকে খালাস করা",
+      "en": "to unload, to take down",
+      "pos": "verb",
+      "example": {
+        "ko": "트럭에서 상자를 내렸습니다.",
+        "bn": "ট্রাক থেকে বাক্সগুলো নামানো হয়েছে।",
+        "en": "We unloaded the boxes from the truck."
+      },
+      "pronunciationTipBn": "내리다 → [내리다]। 'ㅐ' খোলা 'এ' — 'না-리-দা' নয়, 'নে-রি-দা'।"
+    },
+    {
+      "ko": "출하량",
+      "romanization": "chulharyang",
+      "bn": "চালানের পরিমাণ (কত পণ্য পাঠানো হবে)",
+      "en": "shipment volume",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘은 출하량이 좀 많네요.",
+        "bn": "আজ চালানের পরিমাণটা একটু বেশি।",
+        "en": "The shipment volume is a bit large today."
+      },
+      "pronunciationTipBn": "출하량 → [추라량]। 'ㄹ'-এর পরে 'ㅎ' মিলিয়ে যায়, শেষে 'ㅇ' নাক দিয়ে — 'চু-রা-리াং'।"
     },
     {
       "ko": "수량",
       "romanization": "suryang",
-      "bn": "পরিমাণ/সংখ্যা",
+      "bn": "সংখ্যা, পরিমাণ",
       "en": "quantity",
       "pos": "noun",
       "example": {
-        "ko": "수량이 맞는지 확인해 주세요.",
-        "bn": "দয়া করে পরিমাণ মিলছে কি না দেখুন।",
-        "en": "Please check if the quantity is correct."
+        "ko": "상자의 수량을 확인해 주세요.",
+        "bn": "বাক্সের সংখ্যাটা মিলিয়ে দেখুন।",
+        "en": "Please check the quantity of boxes."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "수량 → [수량]। 'ㄹ' আর 'ㅑ' মিলে 'রিয়াং' — 'সু-রাং' নয়, 'সু-রিয়াং'।"
     },
     {
       "ko": "무게",
@@ -145,512 +407,297 @@
       "en": "weight",
       "pos": "noun",
       "example": {
-        "ko": "상자 무게가 너무 무겁습니다.",
-        "bn": "বাক্সের ওজন অনেক ভারি।",
-        "en": "The box weight is too heavy."
+        "ko": "이 상자는 무게가 많이 나가요.",
+        "bn": "এই বাক্সটার ওজন অনেক বেশি।",
+        "en": "This box weighs a lot."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
+      "pronunciationTipBn": "무게 → [무게]। 'ㅔ' হলো মাঝারি 'এ' — 'মু-গা' নয়, 'মু-গে'।"
     },
     {
-      "ko": "위험물",
-      "romanization": "wiheommul",
-      "bn": "ঝুঁকিপূর্ণ বস্তু",
-      "en": "hazardous material",
-      "pos": "noun",
-      "example": {
-        "ko": "위험물은 별도 표기가 필요합니다.",
-        "bn": "ঝুঁকিপূর্ণ জিনিস আলাদা চিহ্ন প্রয়োজন।",
-        "en": "Hazardous materials need separate labeling."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "유통기한",
-      "romanization": "yutonggihan",
-      "bn": "মেয়াদ শেষ হওয়ার তারিখ",
-      "en": "expiration date",
-      "pos": "noun",
-      "example": {
-        "ko": "유통기한을 확인하세요.",
-        "bn": "মেয়াদ শেষ হওয়ার তারিখ চেক করুন।",
-        "en": "Check the expiration date."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "반송",
-      "romanization": "bansong",
-      "bn": "প্রত্যাহার/পাঠানো ফেরত",
-      "en": "return shipment",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "불량품은 반송 처리했습니다.",
-        "bn": "ত্রুটিপূর্ণ পণ্য ফেরত পাঠানো হয়েছে।",
-        "en": "Defective items were returned."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "운송장",
-      "romanization": "unsongjang",
-      "bn": "শিপিং নোম্বর/ওয়ে বিল",
-      "en": "tracking number / shipping bill",
-      "pos": "noun",
-      "example": {
-        "ko": "운송장을 알려 주시면 조회하겠습니다.",
-        "bn": "আপনি শিপিং নম্বর দিলে আমি ট্র্যাক করব।",
-        "en": "If you give the tracking number, I'll check it."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "적재",
-      "romanization": "jeokjae",
-      "bn": "লোড করা/স্থাপন",
-      "en": "loading / stowage",
-      "pos": "noun",
-      "example": {
-        "ko": "트럭에 적재를 도와 주세요.",
-        "bn": "ট্রাকে লোড করতে সাহায্য করুন।",
-        "en": "Please help load onto the truck."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "출발일",
-      "romanization": "chulbalil",
-      "bn": "রওনা তারিখ",
-      "en": "departure date",
-      "pos": "noun",
-      "example": {
-        "ko": "출발일을 다시 확인해 주세요.",
-        "bn": "রওনা তারিখ আবার নিশ্চিত করুন।",
-        "en": "Please reconfirm the departure date."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "도착일",
-      "romanization": "dochakil",
-      "bn": "আগমন তারিখ",
-      "en": "arrival date",
-      "pos": "noun",
-      "example": {
-        "ko": "예상 도착일은 언제인가요?",
-        "bn": "প্রত্যাশিত আগমন তারিখ কখন?",
-        "en": "When is the expected arrival date?"
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "창고",
-      "romanization": "changgo",
-      "bn": "ওয়্যারহাউস/গুদাম",
-      "en": "warehouse",
-      "pos": "noun",
-      "example": {
-        "ko": "창고에 재고가 충분합니다.",
-        "bn": "গুদামে স্টক যথেষ্ট আছে।",
-        "en": "There is enough stock in the warehouse."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুসরণ করুন।"
-    },
-    {
-      "ko": "지게차",
-      "romanization": "jigecha",
-      "bn": "ফর্কলিফ্ট",
-      "en": "forklift",
-      "pos": "noun",
-      "example": {
-        "ko": "지게차로 짐을 옮기세요.",
-        "bn": "ফর্কলিফ্ট দিয়ে মাল সরান।",
-        "en": "Move the load with a forklift."
-      },
-      "pronunciationTipBn": "'지' উচ্চারণ করার সময় জিহ্বা তালুতে লাগান।"
-    },
-    {
-      "ko": "상자",
-      "romanization": "sangja",
-      "bn": "বাক্স",
-      "en": "box",
-      "pos": "noun",
-      "example": {
-        "ko": "상자를 조심해서 다루세요.",
-        "bn": "বাক্সটি সাবধানে নাড়াচাড়া করুন।",
-        "en": "Handle the box carefully."
-      },
-      "pronunciationTipBn": "'상' এর 'ㅇ' উচ্চারণটি অনুনাসিক হবে।"
-    },
-    {
-      "ko": "테이프",
-      "romanization": "teipeu",
-      "bn": "টেপ",
-      "en": "tape",
-      "pos": "noun",
-      "example": {
-        "ko": "테이프로 상자를 밀봉하세요.",
-        "bn": "টেপ দিয়ে বাক্সটি সিল করুন।",
-        "en": "Seal the box with tape."
-      },
-      "pronunciationTipBn": "'테' উচ্চারণ করার সময় বাতাস বের হবে।"
-    },
-    {
-      "ko": "밀봉하다",
-      "romanization": "milbonghada",
-      "bn": "সিল করা",
-      "en": "to seal",
+      "ko": "떨어지다",
+      "romanization": "tteoreojida",
+      "bn": "পড়ে যাওয়া, খসে পড়া",
+      "en": "to fall, to drop",
       "pos": "verb",
       "example": {
-        "ko": "상자를 단단히 밀봉하세요.",
-        "bn": "বাক্সটি শক্তভাবে সিল করুন।",
-        "en": "Seal the box tightly."
+        "ko": "상자가 떨어지지 않게 조심하세요.",
+        "bn": "বাক্স যেন পড়ে না যায়, সাবধান থাকুন।",
+        "en": "Please be careful so the boxes don't fall."
       },
-      "pronunciationTipBn": "'밀' এর 'ㄹ' উচ্চারণটি 'ল' এর মতো হবে।"
-    },
-    {
-      "ko": "분류하다",
-      "romanization": "bullyuhada",
-      "bn": "বাছাই করা",
-      "en": "to sort",
-      "pos": "verb",
-      "example": {
-        "ko": "크기별로 분류하세요.",
-        "bn": "আকার অনুযায়ী বাছাই করুন।",
-        "en": "Sort them by size."
-      },
-      "pronunciationTipBn": "'분류' উচ্চারণটি '불류' এর মতো শোনাবে।"
-    },
-    {
-      "ko": "파손",
-      "romanization": "pason",
-      "bn": "ক্ষতি/ভাঙ্গা",
-      "en": "damage",
-      "pos": "noun",
-      "example": {
-        "ko": "파손된 물건이 있는지 확인하세요.",
-        "bn": "কোনো ভাঙা জিনিস আছে কিনা চেক করুন।",
-        "en": "Check if there are any damaged items."
-      },
-      "pronunciationTipBn": "'파' উচ্চারণ করার সময় বাতাস বের হবে।"
+      "pronunciationTipBn": "떨어지다 → [떠러지다]। 'ㄸ' টান-টান শক্ত 'ত', আর 'ㄹ' পরের স্বরে জুড়ে যায় — 'তেও-রেও-জি-다'।"
     },
     {
       "ko": "주의하다",
       "romanization": "juuihada",
-      "bn": "সাবধান হওয়া",
-      "en": "to be careful",
+      "bn": "সতর্ক থাকা, সাবধান হওয়া",
+      "en": "to take caution",
       "pos": "verb",
       "example": {
-        "ko": "유리 제품은 주의해서 다루세요.",
-        "bn": "কাঁচের জিনিস সাবধানে নাড়াচাড়া করুন।",
-        "en": "Handle glass products carefully."
+        "ko": "지게차가 지나갈 때 주의하세요.",
+        "bn": "ফর্কলিফট যাওয়ার সময় সতর্ক থাকুন।",
+        "en": "Please be careful when the forklift passes."
       },
-      "pronunciationTipBn": "'의' উচ্চারণটি '이' এর মতো হতে পারে।"
+      "pronunciationTipBn": "주의 → [주이]। 'ㅢ' এখানে সহজ করে 'ই' বলা হয় — 'জু-উই' নয়, 'জু-ই'।"
     },
     {
-      "ko": "서명하다",
-      "romanization": "seomyeonghada",
-      "bn": "স্বাক্ষর করা",
-      "en": "to sign",
+      "ko": "노력하다",
+      "romanization": "noryeokada",
+      "bn": "চেষ্টা করা, পরিশ্রম করা",
+      "en": "to make an effort",
       "pos": "verb",
       "example": {
-        "ko": "여기에 서명해 주세요.",
-        "bn": "এখানে স্বাক্ষর করুন।",
-        "en": "Please sign here."
+        "ko": "실수를 줄이려고 노력하겠습니다.",
+        "bn": "ভুল কমানোর জন্য চেষ্টা করব।",
+        "en": "I will make an effort to reduce mistakes."
       },
-      "pronunciationTipBn": "'서' উচ্চারণ করার সময় মুখ গোল করবেন না।"
+      "pronunciationTipBn": "노력하다 → [노려카다]। 'ㄱ' আর 'ㅎ' মিশে 'ㅋ' (খ) হয় — 'নো-리েও-খা-다'।"
     },
     {
-      "ko": "영수증",
-      "romanization": "yeongsujeung",
-      "bn": "রসিদ",
-      "en": "receipt",
+      "ko": "업체",
+      "romanization": "eopche",
+      "bn": "প্রতিষ্ঠান, কোম্পানি (ব্যবসায়িক পক্ষ)",
+      "en": "company, business",
       "pos": "noun",
       "example": {
-        "ko": "영수증을 챙겨 주세요.",
-        "bn": "রসিদটি নিয়ে নিন।",
-        "en": "Please take the receipt."
+        "ko": "주문 업체에 오늘 납품합니다.",
+        "bn": "অর্ডার দেওয়া প্রতিষ্ঠানে আজ সরবরাহ করা হবে।",
+        "en": "We will deliver to the ordering company today."
       },
-      "pronunciationTipBn": "'영' এর 'ㅇ' উচ্চারণটি অনুনাসিক হবে।"
+      "pronunciationTipBn": "업체 → [업체]। 'ㅂ' বাতচিমে ঠোঁট বন্ধ করে থামুন, তারপর নিঃশ্বাসযুক্ত 'ㅊ' — 'ওপ-ছে'।"
     },
     {
-      "ko": "배송",
-      "romanization": "baesong",
-      "bn": "ডেলিভারি",
-      "en": "delivery",
-      "pos": "noun",
+      "ko": "크기별로",
+      "romanization": "keugibyeollo",
+      "bn": "আকার অনুযায়ী (ছোট-বড় আলাদা করে)",
+      "en": "by size",
+      "pos": "adverb",
       "example": {
-        "ko": "배송이 지연되었습니다.",
-        "bn": "ডেলিভারি দেরি হয়েছে।",
-        "en": "The delivery is delayed."
+        "ko": "상자를 크기별로 분류해서 쌓으세요.",
+        "bn": "বাক্সগুলো আকার অনুযায়ী ভাগ করে সাজান।",
+        "en": "Sort the boxes by size and stack them."
       },
-      "pronunciationTipBn": "'배' উচ্চারণ করার সময় মুখ একটু বেশি খুলুন।"
-    },
-    {
-      "ko": "취소하다",
-      "romanization": "chwisohada",
-      "bn": "বাতিল করা",
-      "en": "to cancel",
-      "pos": "verb",
-      "example": {
-        "ko": "주문을 취소하고 싶습니다.",
-        "bn": "আমি অর্ডার বাতিল করতে চাই।",
-        "en": "I want to cancel the order."
-      },
-      "pronunciationTipBn": "'취' উচ্চারণ করার সময় ঠোঁ트 গোল করুন।"
-    },
-    {
-      "ko": "보관하다",
-      "romanization": "bogwanhada",
-      "bn": "সংরক্ষণ করা",
-      "en": "to store",
-      "pos": "verb",
-      "example": {
-        "ko": "서늘한 곳에 보관하세요.",
-        "bn": "ঠান্ডা জায়গায় সংরক্ষণ করুন।",
-        "en": "Store in a cool place."
-      },
-      "pronunciationTipBn": "'보' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "안전모",
-      "romanization": "anjeonmo",
-      "bn": "নিরাপত্তা হেলমেট",
-      "en": "safety helmet",
-      "pos": "noun",
-      "example": {
-        "ko": "작업 시 안전모를 쓰세요.",
-        "bn": "কাজের সময় নিরাপত্তা হেলমেট পরুন।",
-        "en": "Wear a safety helmet when working."
-      },
-      "pronunciationTipBn": "'안' এর 'ㄴ' উচ্চারণটি স্পষ্ট করুন।"
-    },
-    {
-      "ko": "작업복",
-      "romanization": "jageopbok",
-      "bn": "কাজের পোশাক",
-      "en": "work clothes",
-      "pos": "noun",
-      "example": {
-        "ko": "작업복으로 갈아입으세요.",
-        "bn": "কাজের পোশাক পরিবর্তন করুন।",
-        "en": "Change into work clothes."
-      },
-      "pronunciationTipBn": "'복' এর 'ㄱ' উচ্চারণটি গলার ভেতর থেকে আসবে।"
+      "pronunciationTipBn": "별로 → [별로]। এখানে '별' মানে 'অনুযায়ী' — 'ㄹㄹ' জিভ তালুতে রেখে টেনে 'বিওল-লো'।"
     }
   ],
   "grammar": [
     {
-      "pattern": "~아/어 주세요",
-      "titleBn": "অনুরোধ করা (~아/어 주세요)",
-      "explanationBn": "কিছু বলার সময় বিনীতভাবে কাউকে অনুরোধ করতে ব্যবহার করা হয়। উদাহরণ: 라벨을 붙여 주세요. (লেবেলটি লাগিয়ে দিন)।\nউদাহরণ들:\n1) 포장해 주세요. — দয়া করে প্যাক করুন.\n2) 송장을 보여 주세요. — ইনভয়েস দেখান অনুগ্রহ করে.",
-      "explanationEn": "Used to make polite requests. Example: 라벨을 붙여 주세요. (Please attach the label.)\nExamples:\n1) 포장해 주세요. — Please pack it.\n2) 송장을 보여 주세요. — Please show the invoice.",
+      "pattern": "V + -(으)ㄴ + N",
+      "titleBn": "অতীতের বিশেষায়ক '-(으)ㄴ' (যে কাজ করা হয়েছে)",
+      "explanationBn": "'-(으)ㄴ' ক্রিয়ার সঙ্গে যুক্ত হয়ে পরের বিশেষ্যকে বিশেষায়িত করে এবং বোঝায় কাজটি অতীতে ঘটেছে, কিংবা সম্পন্ন কাজের ফল এখনও টিকে আছে। মূলে বাতচিম থাকলে '-은': 닫다 → 닫은, 받다 → 받은। বাতচিম না থাকলে '-ㄴ': 배우다 → 배운। শেষ ব্যঞ্জন 'ㄹ' হলে 'ㄹ' পড়ে গিয়ে '-ㄴ' বসে: 만들다 → 만든। বাংলায় 'যে ... করা হয়েছে' দিয়ে বোঝানো যায়: '라벨을 붙인 상자' মানে 'যে বাক্সে লেবেল লাগানো হয়েছে'। খেয়াল রাখুন — বিশেষণের ক্ষেত্রে অতীত বোঝাতে '-던' বা '-았던/었던' ব্যবহার হয়: '저와 친했던 동료'।",
+      "explanationEn": "-(으)ㄴ attaches to a verb to modify the following noun, showing the action happened in the past or that its result still holds. Use -은 after a final consonant (닫다 → 닫은) and -ㄴ after a vowel (배우다 → 배운); with final ㄹ the ㄹ drops (만들다 → 만든). For adjectives, past modification uses -던 or -았던/었던 instead.",
       "examples": [
         {
-          "ko": "라벨을 붙여 주세요.",
-          "bn": "লেবেল লাগিয়ে দিন অনুগ্রহ করে।",
-          "en": "Please attach the label."
+          "ko": "제가 여기에 둔 포장 기준서 못 봤어요?",
+          "bn": "আমি যে প্যাকিং নির্দেশিকাটা এখানে রেখেছিলাম, দেখেননি?",
+          "en": "Have you seen the packaging instructions I left here?"
         },
         {
-          "ko": "박스를 옮겨 주세요.",
-          "bn": "বাক্সটি সরিয়ে দিন।",
-          "en": "Please move the box."
+          "ko": "파렛트에 쌓아 놓은 물건을 창고로 옮기세요.",
+          "bn": "প্যালেটে যেসব জিনিস সাজিয়ে রাখা হয়েছে, সেগুলো গুদামে সরিয়ে নিন।",
+          "en": "Please move the goods stacked on the pallet to the warehouse."
+        },
+        {
+          "ko": "어제 작업장을 정리한 사람은 닛차난 씨예요.",
+          "bn": "গতকাল যিনি কর্মস্থল গুছিয়েছেন, তিনি নিচ্ছানান।",
+          "en": "The person who tidied the workplace yesterday is Nitchanan."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় সঠিক কাল (Tense) ব্যবহার করতে ভুলবেন না।"
+      "commonMistakeBn": "কাজটি শেষ হয়ে গেলেও '-는' বসিয়ে ফেলা সাধারণ ভুল — '붙이는 상자' মানে 'যে বাক্সে এখন লেবেল লাগানো হচ্ছে', কিন্তু 'যে বাক্সে লেবেল লাগানো হয়েছে' বোঝাতে '붙인 상자' বলতে হবে। আর 'ㄹ' বাতচিমে '으' বসে না: '만들은' ভুল, সঠিক '만든'।"
     },
     {
-      "pattern": "~아/어야 하다",
-      "titleBn": "প্রয়োজন/দায়িত্ব (~아/어야 해요)",
-      "explanationBn": "কোনো কাজ করা আবশ্যক বা প্রয়োজন বোঝায়। সাধারণ কথ্যবাক্যে '~아/어야 해요' বলা হয়।\nউদাহরণ들:\n1) 수량을 확인해야 해요. — পরিমাণ চেক করতে হবে।\n2) 운송장을 작성해야 해요. — শিপিং বিল লিখতে হবে।",
-      "explanationEn": "Expresses obligation or necessity. In spoken Korean often '~아/어야 해요'.\nExamples:\n1) 수량을 확인해야 해요. — You must check the quantity.\n2) 운송장을 작성해야 해요. — You need to fill out the shipping bill.",
+      "pattern": "V + -겠-",
+      "titleBn": "'-겠-' (আমি ... করব / নিশ্চয়ই ... হবে)",
+      "explanationBn": "'-겠-'-এর দুটি প্রধান ব্যবহার আছে। এক, ক্রিয়ার সঙ্গে বসে বক্তার নিজের ইচ্ছা বা সংকল্প বোঝায় — তখন কর্তা অবশ্যই প্রথম পুরুষ ('আমি'): '상자를 크기별로 분류하겠습니다' (আমি বাক্সগুলো আকার অনুযায়ী ভাগ করব)। দুই, ক্রিয়া বা বিশেষণের সঙ্গে বসে অন্যের কাজ বা কোনো পরিস্থিতি সম্পর্কে অনুমান বোঝায় — তখন কর্তা তৃতীয় পুরুষ: '재고 정리를 잘해서 재고 파악이 쉽겠어요' (মজুদ ভালো গোছানো, তাই যাচাই করা সহজ হবে বলে মনে হচ্ছে)। এ ছাড়া ভদ্র ও কোমলভাবে কিছু বলতেও '-겠-' ব্যবহার হয়: '잘 모르겠습니다' (ভালো জানি না)।",
+      "explanationEn": "-겠- has two main uses. With a first-person subject it expresses the speaker's own intention ('I will ...'): 분류하겠습니다. With a third-person subject it expresses a prediction or inference about someone else's situation ('it must / probably will'): 쉽겠어요. It is also used to soften statements politely, as in 잘 모르겠습니다.",
       "examples": [
         {
-          "ko": "무게를 재야 해요.",
-          "bn": "ওজন নাপতে হবে।",
-          "en": "You must measure the weight."
+          "ko": "다음부터 회사에 일찍 오겠습니다.",
+          "bn": "এরপর থেকে অফিসে তাড়াতাড়ি আসব।",
+          "en": "I will come to work early from now on."
         },
         {
-          "ko": "위험물은 표기해야 해요.",
-          "bn": "ঝুঁকিপূর্ণ বস্তু চিহ্নিত করতে হবে।",
-          "en": "Hazardous items must be labeled."
+          "ko": "바로 나가서 덮개로 덮어 놓겠습니다.",
+          "bn": "এখনই বেরিয়ে গিয়ে ঢাকনা দিয়ে ঢেকে রাখব।",
+          "en": "I will go out right away and cover it with a cover."
+        },
+        {
+          "ko": "출하량이 많아서 오늘은 바쁘겠어요.",
+          "bn": "চালানের পরিমাণ বেশি, তাই আজ ব্যস্ত থাকবে বলে মনে হচ্ছে।",
+          "en": "The shipment volume is large, so today will probably be busy."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় সঠিক কাল (Tense) ব্যবহার করতে ভুলবেন না।"
+      "commonMistakeBn": "নিজের ইচ্ছা বোঝাতে '-겠-' ব্যবহার করলে কর্তা 'আমি' হতে হবে — অন্যকে দিয়ে কাজ করানোর অর্থে '반장님이 하겠습니다' বলা যায় না। আবার অনুমানের অর্থে নিজের সম্পর্কে '저는 바쁘겠어요' বলাও অস্বাভাবিক, কারণ নিজের অবস্থা নিয়ে অনুমান করার দরকার হয় না।"
     },
     {
-      "pattern": "~(으)면",
-      "titleBn": "শর্ত/যদি (~(으)면)",
-      "explanationBn": "শর্ত জানাতে বা 'যদি... তবে...' বলতে ব্যবহার করে।\nউদাহরণ들:\n1) 수량이 맞으면 출하합니다. — পরিমাণ ঠিক থাকলে চালান করব।\n2) 도착하면 연락 주세요. — পৌঁছালে জানান।",
-      "explanationEn": "Used to express a condition 'if... then...'.\nExamples:\n1) 수량이 맞으면 출하합니다. — If the quantity is correct, we ship.\n2) 도착하면 연락 주세요. — Please contact us when it arrives.",
+      "pattern": "V + -아/어 놓다",
+      "titleBn": "'-아/어 놓다' (করে রাখা)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-아/어 놓다' যোগ করলে বোঝায় কাজটি শেষ করে সেই অবস্থায় রেখে দেওয়া হয়েছে — ফলাফলটি এখনও টিকে আছে। মূল স্বর 'ㅏ' বা 'ㅗ' হলে '-아 놓다': 쌓다 → 쌓아 놓다। অন্য স্বরে '-어 놓다': 준비하다 → 준비해 놓다। গুদাম ও প্যাকিং কাজে এটি খুব দরকারি, কারণ এখানে প্রায়ই আগে থেকে কিছু গুছিয়ে রাখতে হয়: '작업장에 준비해 놓았어요' (কর্মস্থলে গুছিয়ে রেখেছি)। '-아/어 두다'-ও প্রায় একই অর্থ দেয়।",
+      "explanationEn": "-아/어 놓다 indicates that an action has been completed and left in that state, with the result still holding. Use -아 놓다 after stems with ㅏ or ㅗ (쌓다 → 쌓아 놓다) and -어 놓다 elsewhere (준비하다 → 준비해 놓다). -아/어 두다 carries a very similar meaning.",
       "examples": [
         {
-          "ko": "검사를 통과하면 포장합니다.",
-          "bn": "পরীক্ষা পাস হলে প্যাক করা হবে।",
-          "en": "If it passes inspection, we will pack it."
+          "ko": "상자하고 완충재를 작업장에 준비해 놓았어요.",
+          "bn": "বাক্স আর কুশনিং উপকরণ কর্মস্থলে গুছিয়ে রেখেছি।",
+          "en": "I have prepared the boxes and cushioning materials in the work space."
         },
         {
-          "ko": "운송장이 있으면 배송을 시작합니다.",
-          "bn": "ওয়ে বিল থাকলে ডেলিভারি শুরু হবে।",
-          "en": "If there's a waybill, delivery will start."
+          "ko": "포장이 끝난 상자는 파렛트에 쌓아 놓으세요.",
+          "bn": "যেসব বাক্সের প্যাকিং শেষ, সেগুলো প্যালেটে সাজিয়ে রাখুন।",
+          "en": "Please stack the finished boxes on the pallet."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় সঠিক কাল (Tense) ব্যবহার করতে ভুলবেন না।"
+      "commonMistakeBn": "'-고 있다' (চলমান) আর '-아/어 놓다' (করে রাখা) গুলিয়ে ফেলা হয়। '쌓고 있어요' মানে 'এখন সাজাচ্ছি', কিন্তু '쌓아 놓았어요' মানে 'সাজিয়ে রেখে দিয়েছি, এখনও সেভাবেই আছে' — কাজটি শেষ।"
     },
     {
-      "pattern": "~지 마세요",
-      "titleBn": "নিষেধ করা (~지 마세요)",
-      "explanationBn": "কাউকে কোনো কাজ করতে নিষেধ করার সময় এটি ব্যবহার করা হয়।",
-      "explanationEn": "Used to tell someone not to do something.",
+      "pattern": "V + -(으)면 되다",
+      "titleBn": "'-(으)면 되다' (… করলেই হবে)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-(으)면 되다' যোগ করলে বোঝায় ওইটুকু করলেই যথেষ্ট, তার বেশি কিছু দরকার নেই। বাতচিম থাকলে '-으면 되다': 끝내다 → 끝내면 되다 (স্বরান্ত, তাই '-면'), 받다 → 받으면 되다। কর্মস্থলে নির্দেশ বুঝে নেওয়ার সময় প্রশ্ন আকারে খুব ব্যবহৃত হয়: '5시 전까지 끝내면 되지요?' (৫টার আগে শেষ করলেই হবে তো?)। উত্তর দিতে '네, 그러면 됩니다' বলা যায়।",
+      "explanationEn": "-(으)면 되다 means that doing just that much is sufficient ('it is enough if you ...'). Use -으면 되다 after a final consonant (받다 → 받으면 되다) and -면 되다 after a vowel (끝내다 → 끝내면 되다). It is very common as a confirming question at work.",
       "examples": [
         {
-          "ko": "상자를 던지지 마세요.",
-          "bn": "বাক্সটি ছুঁড়বেন না।",
-          "en": "Do not throw the box."
+          "ko": "포장 작업은 5시 전까지 끝내면 되지요?",
+          "bn": "প্যাকিংয়ের কাজ ৫টার আগে শেষ করলেই হবে, তাই না?",
+          "en": "We should finish the packaging before 5 o'clock, right?"
         },
         {
-          "ko": "여기에 주차하지 마세요.",
-          "bn": "এখানে পার্ক করবেন না।",
-          "en": "Do not park here."
-        },
-        {
-          "ko": "늦지 마세요.",
-          "bn": "দেরি করবেন না।",
-          "en": "Do not be late."
+          "ko": "이제 포장 작업을 시작하면 될까요?",
+          "bn": "এখন কি প্যাকিংয়ের কাজ শুরু করলেই হবে?",
+          "en": "Can we start the packaging process now?"
         }
       ],
-      "commonMistakeBn": "অনেকে '안' এর সাথে এটি গুলিয়ে ফেলেন। '안' হলো সাধারণ না-বোধক, আর '~지 마세요' হলো নিষেধ।"
+      "commonMistakeBn": "'-(으)면 되다' আর '-아/어야 되다' এক নয়। '끝내면 돼요' মানে 'শেষ করলেই যথেষ্ট', কিন্তু '끝내야 돼요' মানে 'শেষ করতেই হবে' — দ্বিতীয়টিতে বাধ্যবাধকতা অনেক জোরালো।"
     },
     {
-      "pattern": "~(으)ㄹ 수 있다/없다",
-      "titleBn": "সক্ষমতা/সম্ভাবনা (~(으)ㄹ 수 있다/없다)",
-      "explanationBn": "কোনো কাজ করার ক্ষমতা বা সম্ভাবনা বোঝাতে এটি ব্যবহার করা হয়।",
-      "explanationEn": "Used to express ability or possibility.",
+      "pattern": "A/V + -(으)니까",
+      "titleBn": "কারণ বোঝানো '-(으)니까' (যেহেতু / তাই)",
+      "explanationBn": "'-(으)니까' ক্রিয়া বা বিশেষণের সঙ্গে বসে আগের অংশটিকে পরের অংশের কারণ হিসেবে দেখায়। বাতচিম থাকলে '-으니까': 쉽다 → 쉬우니까 (ㅂ-অনিয়মিত), 많다 → 많으니까। বাতচিম না থাকলে '-니까': 오다 → 오니까। নিরাপত্তা-নির্দেশ দেওয়ার সময় এটি খুব কাজে লাগে, কারণ আগে কারণ বলে তারপর নির্দেশ দেওয়া যায়: '깨지기 쉬우니까 조심해서 나르세요' (সহজে ভাঙে, তাই সাবধানে বহন করুন)। '-아/어서'-ও কারণ বোঝায়, তবে তার পরে আদেশ বা প্রস্তাব বসতে পারে না — এখানেই মূল পার্থক্য।",
+      "explanationEn": "-(으)니까 marks the preceding clause as the reason for what follows. Use -으니까 after a final consonant (많다 → 많으니까) and -니까 after a vowel (오다 → 오니까). Unlike -아/어서, it can be followed by a command or suggestion, which makes it the natural choice for safety instructions.",
       "examples": [
         {
-          "ko": "지게차를 운전할 수 있어요?",
-          "bn": "আপনি কি ফর্কলিফ্ট চালাতে পারেন?",
-          "en": "Can you drive a forklift?"
+          "ko": "깨지기 쉬우니까 하나씩 조심해서 나르세요.",
+          "bn": "সহজে ভেঙে যায়, তাই একটা একটা করে সাবধানে বয়ে নিন।",
+          "en": "They break easily, so carry them one by one carefully."
         },
         {
-          "ko": "오늘은 출하할 수 없습니다.",
-          "bn": "আজ চালান করা যাবে না।",
-          "en": "We cannot ship today."
-        },
-        {
-          "ko": "혼자서 들 수 있어요.",
-          "bn": "আমি একা তুলতে পারব।",
-          "en": "I can lift it by myself."
+          "ko": "녹슬 수 있으니까 방청지로 싸 주세요.",
+          "bn": "মরচে পড়তে পারে, তাই মরচে-প্রতিরোধী কাগজ দিয়ে মুড়ে দিন।",
+          "en": "It may rust, so please wrap it in rust-proof paper."
         }
       ],
-      "commonMistakeBn": "বাচ্চিম (받침) থাকলে '을 수 있다' এবং না থাকলে 'ㄹ 수 있다' বসবে, এটি খেয়াল রাখবেন।"
+      "commonMistakeBn": "'-아/어서'-এর পরে আদেশ বসানো যায় না — '깨지기 쉬워서 조심하세요' অস্বাভাবিক, সেখানে '쉬우니까 조심하세요' বলতে হবে। আবার '쉽다' বিশেষণে 'ㅂ' অনিয়মিত, তাই '쉽으니까' ভুল, সঠিক '쉬우니까'।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "기사와 창고 담당자의 출하 확인",
-      "titleEn": "Driver and Warehouse Staff: Shipment Check",
+      "titleBn": "প্যাকিংয়ের কাজ শুরু করার আগে নির্দেশ নেওয়া",
+      "titleEn": "Getting Instructions Before Starting the Packaging",
       "lines": [
         {
-          "speaker": "기사",
-          "ko": "안녕하세요, 기사입니다. 오늘 출하할 물건 있나요?",
-          "bn": "হ্যালো, আমি ড্রাইভার। আজ কি কোনও চালান আছে?",
-          "en": "Hello, I'm the driver. Is there anything to ship today?"
+          "speaker": "아궁",
+          "ko": "반장님, 이제 포장 작업을 시작하면 될까요?",
+          "bn": "রিডার সাহেব, এখন কি প্যাকিংয়ের কাজ শুরু করলেই হবে?",
+          "en": "Sir, can we start the packaging process now?"
         },
         {
-          "speaker": "담당자",
-          "ko": "네, A-품목 10상자 출하 준비되었습니다.",
-          "bn": "হ্যাঁ, A আইটেম 10টি বাক্স রওনা করার জন্য প্রস্তুত।",
-          "en": "Yes, 10 boxes of item A are ready for shipment."
+          "speaker": "반장님",
+          "ko": "상자하고 포장지, 완충재 모두 갖다 놓았지요?",
+          "bn": "বাক্স, মোড়ানোর কাগজ আর কুশনিং উপকরণ — সব এনে রেখেছেন তো?",
+          "en": "You have brought the boxes, wrapping paper, and cushioning materials, right?"
         },
         {
-          "speaker": "기사",
-          "ko": "운송장을 주시겠어요?",
-          "bn": "ওয়ে বিলটা দিতে পারেন?",
-          "en": "Could you give me the waybill?"
+          "speaker": "아궁",
+          "ko": "네, 작업장에 준비해 놓았어요.",
+          "bn": "জি, কর্মস্থলে গুছিয়ে রেখেছি।",
+          "en": "Yes, I have prepared them in the work space."
         },
         {
-          "speaker": "담당자",
-          "ko": "여기 운송장과 라벨입니다. 트럭에 적재해 주세요.",
-          "bn": "এখানে ওয়ে বিল ও লেবেল। ট্রাকে লোড করুন।",
-          "en": "Here are the waybill and labels. Please load them onto the truck."
+          "speaker": "반장님",
+          "ko": "포장할 때 완충재로 제품을 꼼꼼하게 싸는 게 중요해요. 그렇게 하지 않으면 운송할 때 제품이 손상될 수 있어요.",
+          "bn": "মোড়ানোর সময় কুশনিং উপকরণ দিয়ে পণ্যটা যত্ন করে মোড়ানোটাই গুরুত্বপূর্ণ। তা না করলে পরিবহনের সময় পণ্য ক্ষতিগ্রস্ত হতে পারে।",
+          "en": "It's important to wrap the product meticulously with cushioning material. If you don't, the product may get damaged during transport."
         },
         {
-          "speaker": "기사",
-          "ko": "확인했습니다. 출발은 몇 시인가요?",
-          "bn": "বুঝেছি। রওনা কখন হবে?",
-          "en": "Got it. What time is departure?"
+          "speaker": "아궁",
+          "ko": "네, 신경 써서 하겠습니다. 포장 작업은 5시 전까지 끝내면 되지요?",
+          "bn": "জি, খেয়াল রেখে করব। প্যাকিংয়ের কাজ ৫টার আগে শেষ করলেই হবে তো?",
+          "en": "Yes, I'll pay attention to that. We should finish the packaging before 5 o'clock, right?"
         },
         {
-          "speaker": "담당자",
-          "ko": "오후 2시에 출발합니다.",
-          "bn": "বিকাল 2টায় রওনা হবে।",
-          "en": "Departure is at 2 PM."
+          "speaker": "반장님",
+          "ko": "맞아요. 포장이 끝난 상자는 크기별로 분류해서 파렛트에 쌓아 놓으세요.",
+          "bn": "ঠিক তাই। যেসব বাক্সের প্যাকিং শেষ, সেগুলো আকার অনুযায়ী ভাগ করে প্যালেটে সাজিয়ে রাখুন।",
+          "en": "That's right. Sort the finished boxes by size and stack them on the pallet."
         }
       ]
     },
     {
-      "titleBn": "팀장과 포장원의 수량 문제",
-      "titleEn": "Supervisor and Packer: Quantity Issue",
+      "titleBn": "ভারী মালামাল বহনের ব্যবস্থা করা",
+      "titleEn": "Arranging How to Carry Heavy Goods",
       "lines": [
         {
-          "speaker": "팀장",
-          "ko": "포장 담당자님, 박스 수량이 맞나요?",
-          "bn": "সুপারভাইজার: প্যাকিং স্টাফ, কি বাক্সের পরিমাণ মিলছে?",
-          "en": "Supervisor: Packer, is the box quantity correct?"
+          "speaker": "마두",
+          "ko": "포장이 끝났습니다. 이 상자들을 어떻게 옮길까요?",
+          "bn": "প্যাকিং শেষ হয়েছে। এই বাক্সগুলো কীভাবে সরাব?",
+          "en": "The packaging is finished. How should we move these boxes?"
         },
         {
-          "speaker": "포장원",
-          "ko": "아, 한 상자가 빠진 것 같습니다. 다시 확인하겠습니다.",
-          "bn": "প্যাকিং স্টাফ: ওহ, একটি বাক্স অনুপস্থিত মনে হচ্ছে। আমি আবার চেক করব।",
-          "en": "Packer: Oh, one box seems missing. I'll check again."
+          "speaker": "닛차난",
+          "ko": "물건이 많지 않으니까 핸드 카트로 나르면 괜찮을 거예요.",
+          "bn": "জিনিস তো বেশি নয়, তাই হ্যান্ড কার্ট দিয়ে বয়ে নিলে ঠিক হয়ে যাবে।",
+          "en": "There aren't many goods, so carrying them with a hand trolley should be fine."
         },
         {
-          "speaker": "팀장",
-          "ko": "수량을 확인하면 알려 주세요. 그래야 출하할 수 있습니다.",
-          "bn": "সুপারভাইজার: পরিমাণ নিশ্চিত হলে জানান। তখনই রওনা করা যাবে।",
-          "en": "Supervisor: Let me know after checking the quantity. Then we can ship."
+          "speaker": "마두",
+          "ko": "그런데 이 상자가 좀 무겁네요. 무게가 많이 나가요.",
+          "bn": "কিন্তু এই বাক্সটা তো একটু ভারী। ওজন অনেক বেশি।",
+          "en": "But this box is a bit heavy. It weighs a lot."
         },
         {
-          "speaker": "포장원",
-          "ko": "네, 지금 검사하겠습니다.",
-          "bn": "প্যাকিং স্টাফ: ঠিক আছে, আমি এখন পরীক্ষা করছি।",
-          "en": "Packer: Okay, I'll inspect now."
+          "speaker": "닛차난",
+          "ko": "무거운 것은 지게차로 옮기라고 하셨어요. 제가 지게차로 옮기겠습니다.",
+          "bn": "ভারী জিনিস ফর্কলিফট দিয়ে সরানোর কথা বলা হয়েছে। আমি ফর্কলিফট দিয়ে সরিয়ে নেব।",
+          "en": "We were told to move heavy things with the forklift. I will move it with the forklift."
         },
         {
-          "speaker": "팀장",
-          "ko": "감사합니다. 문제가 있으면 보고하세요.",
-          "bn": "সুপারভাইজার: ধন্যবাদ। সমস্যা হলে রিপোর্ট করুন।",
-          "en": "Supervisor: Thank you. Report if there's any problem."
+          "speaker": "마두",
+          "ko": "네, 상자가 떨어지지 않게 주의해 주세요.",
+          "bn": "জি, বাক্স যেন পড়ে না যায়, সেদিকে খেয়াল রাখুন।",
+          "en": "Okay, please be careful so the box doesn't fall."
         }
       ]
     },
     {
-      "titleBn": "지게차 작업 지시",
-      "titleEn": "Forklift Work Instructions",
+      "titleBn": "চালানের আগে সংখ্যা যাচাই করা",
+      "titleEn": "Checking the Quantity Before Shipping",
       "lines": [
         {
-          "speaker": "반장",
-          "ko": "리한 씨, 지게차 운전할 수 있어요?",
-          "bn": "রিহান সাহেব, আপনি কি ফর্কলিফ্ট চালাতে পারেন?",
-          "en": "Rihan, can you drive a forklift?"
+          "speaker": "부장님",
+          "ko": "오늘은 출하량이 좀 많네요. 수량을 다 맞췄어요?",
+          "bn": "আজ চালানের পরিমাণটা একটু বেশি। সংখ্যা সব মিলিয়েছেন?",
+          "en": "The shipment volume is a bit large today. Have you matched all the quantities?"
         },
         {
-          "speaker": "리한",
-          "ko": "네, 할 수 있습니다.",
-          "bn": "হ্যাঁ, আমি পারি।",
-          "en": "Yes, I can."
+          "speaker": "자하라",
+          "ko": "네, 검수한 상자는 모두 이백 개입니다.",
+          "bn": "জি, যাচাই করা বাক্স মোট দুইশটি।",
+          "en": "Yes, the inspected boxes total two hundred."
         },
         {
-          "speaker": "반장",
-          "ko": "그럼 저기 있는 상자들을 파렛트 위로 옮겨 주세요.",
-          "bn": "তাহলে ওই বাক্সগুলো প্যালেটের উপর সরিয়ে দিন।",
-          "en": "Then please move those boxes onto the pallet."
+          "speaker": "부장님",
+          "ko": "라벨을 붙인 상자만 출고하세요. 라벨이 없으면 업체에서 확인이 안 돼요.",
+          "bn": "যেসব বাক্সে লেবেল লাগানো আছে, কেবল সেগুলোই গুদাম থেকে বের করুন। লেবেল না থাকলে প্রতিষ্ঠান মিলিয়ে দেখতে পারে না।",
+          "en": "Only ship out the boxes with labels attached. Without a label, the company cannot verify them."
         },
         {
-          "speaker": "리한",
-          "ko": "알겠습니다. 조심해서 옮기겠습니다.",
-          "bn": "বুঝতে পেরেছি। সাবধানে সরাব।",
-          "en": "Understood. I will move them carefully."
+          "speaker": "자하라",
+          "ko": "알겠습니다. 라벨을 다시 확인하고 트럭에 싣겠습니다.",
+          "bn": "বুঝেছি। লেবেলগুলো আবার দেখে নিয়ে ট্রাকে তুলব।",
+          "en": "Understood. I will check the labels again and load them onto the truck."
+        },
+        {
+          "speaker": "부장님",
+          "ko": "고마워요. 오후 세 시까지 납품해야 하니까 조금 서둘러 주세요.",
+          "bn": "ধন্যবাদ। বিকেল তিনটার মধ্যে সরবরাহ করতে হবে, তাই একটু তাড়াতাড়ি করুন।",
+          "en": "Thank you. We have to deliver by three in the afternoon, so please hurry a little."
         }
       ]
     }
@@ -659,586 +706,565 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "다음 중 '파렛트'의 의미는 무엇인가요?",
-      "questionKo": "다음 중 '파렛트'의 의미는 무엇인가요?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 이물질이 들어갈 수 있으니까 테이프로 상자를 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "나무 받침대(팔레트)",
-        "트럭",
-        "포장지",
-        "송장"
+        "묶으세요",
+        "쌓으세요",
+        "나르세요",
+        "내리세요"
       ],
-      "pairs": [],
       "answer": 0,
-      "explanationBn": "파렛트는 상자를 쌓아 올리는 나무나 플라스틱 받침대를 의미합니다—তৈরি উত্তর: 2."
+      "explanationBn": "টেপ দিয়ে বাক্স আটকে বাইরের ময়লা ঢোকা ঠেকানো হয়, তাই '묶으세요' (বেঁধে দিন) সঠিক। '쌓다' মানে স্তরে সাজানো, '나르다' মানে বয়ে নেওয়া, '내리다' মানে নামানো — কোনোটিই ময়লা ঢোকা আটকায় না।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "문장 '수량을 확인해야 해요.'의 뜻은?",
-      "questionKo": "문장 '수량을 확인해야 해요.'의 뜻은?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 녹슬 수 있으니까 ___로 싸세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "수량을 확인해 달라고 요청한다",
-        "수량을 바꿔야 한다",
-        "수량을 확인해야 한다",
-        "수량이 충분하다"
+        "완충재",
+        "방청지",
+        "파렛트",
+        "라벨"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "'-야 해요'는 해야 한다는 의미입니다—সঠিক উত্তর: 2."
+      "answer": 1,
+      "explanationBn": "মরচে ঠেকানোর জন্য ব্যবহার করা হয় '방청지' (মরচে-প্রতিরোধী কাগজ), তাই সেটিই সঠিক। '완충재' ধাক্কা শোষণ করে, ভাঙা ঠেকায় — মরচে নয়। '파렛트' হলো রাখার পাটাতন, আর '라벨' হলো পরিচয়ের সিল।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "다음 중 '위험물'에 해당하는 것은?",
-      "questionKo": "다음 중 '위험물'에 해당하는 것은?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 무거운 상자는 아래에, 가벼운 상자는 위에 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "포장 테이프",
-        "폭발성 물질",
-        "일반 식품",
-        "종이 상자"
+        "싸세요",
+        "담으세요",
+        "쌓으세요",
+        "붙이세요"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "폭발성 물질은 위험물의 예입니다—উত্তর: 0."
+      "answer": 2,
+      "explanationBn": "নিচে ভারী, উপরে হালকা — এটি স্তরে সাজানোর নিয়ম, তাই '쌓으세요' সঠিক। '싸다' মানে মোড়ানো, '담다' মানে ভেতরে ভরা, '붙이다' মানে লাগানো — কোনোটিই উপর-নিচে সাজানো বোঝায় না।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "문장 '라벨을 붙여 주세요.'에서 '~아/어 주세요'의 용법은?",
-      "questionKo": "문장 '라벨을 붙여 주세요.'에서 '~아/어 주세요'의 용법은?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄴ' বসান: 라벨을 붙___ 상자는 여기에 쌓아 주세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "부정",
-        "과거",
-        "명령",
-        "정중한 요청"
+        "이는",
+        "일",
+        "인",
+        "이던"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "'~아/어 주세요'는 공손한 요청 표현입니다—সঠিক উত্তর: 3."
+      "answer": 2,
+      "explanationBn": "লেবেল লাগানোর কাজ শেষ হয়ে গেছে, তাই অতীতের বিশেষায়ক দরকার: 붙인 상자। '붙이다' স্বরান্ত, তাই '-ㄴ' বসে। '붙이는' মানে 'এখন যা লাগানো হচ্ছে', '붙일' ভবিষ্যতের, '붙이던' অতীতের অভ্যাস বোঝায়।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "창고에 재고가 충분하면 어떤 문장을 사용하나요?",
-      "questionKo": "창고에 재고가 충분하면 어떤 문장을 사용하나요?",
-      "options": [
-        "재고가 부족합니다.",
-        "재고가 충분합니다.",
-        "재고를 검사하세요.",
-        "재고를 반송하세요."
+      "type": "matching",
+      "questionBn": "প্যাকিং কাজের কোরিয়ান শব্দের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "포장 작업 관련 어휘와 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "포장하다",
+          "right": "মোড়ানো, প্যাকিং করা"
+        },
+        {
+          "left": "담다",
+          "right": "বাক্সে ভরা"
+        },
+        {
+          "left": "묶다",
+          "right": "দড়ি দিয়ে বাঁধা"
+        },
+        {
+          "left": "쌓다",
+          "right": "স্তরে স্তরে সাজানো"
+        },
+        {
+          "left": "나르다",
+          "right": "বয়ে নেওয়া"
+        }
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "충분함을 표현하려면 '재고가 충분합니다.'를 사용합니다—উত্তর: 1."
+      "explanationBn": "পাঁচটিই প্যাকিং প্রক্রিয়ার ধাপ, কিন্তু ক্রম আলাদা। প্রথমে '포장하다' বা '싸다' দিয়ে পণ্য মোড়ানো হয়, তারপর '담다' দিয়ে বাক্সে ভরা হয়, '묶다' দিয়ে আটকানো হয়, '쌓다' দিয়ে প্যালেটে সাজানো হয়, আর সবশেষে '나르다' দিয়ে বয়ে নেওয়া হয়।"
     },
     {
       "id": "p6",
       "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '운송장을 _____ 주시겠어요?'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '운송장을 _____ 주시겠어요?'",
+      "questionBn": "'-(으)ㄴ' বসান: 오전에 반장님이 지시___ 작업을 아직 못 했어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "도착",
-        "보여",
-        "붙여",
-        "확인"
+        "하는",
+        "할",
+        "하신",
+        "하겠는"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "'운송장을 보여 주시겠어요?'가 자연스러운 표현입니다—সঠিক উত্তর: 1."
+      "answer": 2,
+      "explanationBn": "সকালে নির্দেশ দেওয়া হয়ে গেছে — কাজটি অতীতের, তাই '-(으)ㄴ' বসে। রিডার সম্মানিত ব্যক্তি হওয়ায় সম্মানসূচক '-시-' যোগ হয়ে '지시하신' হয়। '지시하는' বর্তমান, '지시할' ভবিষ্যৎ, আর '지시하겠는' ব্যাকরণসিদ্ধ রূপ নয়।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '수량이 맞으면 출하합니다.'에서 '맞으면'은 무슨 의미인가요?",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '수량이 맞으면 출하합니다.'에서 '맞으면'은 무슨 의미인가요?",
+      "questionBn": "'-(으)ㄴ' বসান: 파렛트에 쌓아 놓___ 상자를 창고로 옮기세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "도착하면",
-        "무겁다면",
-        "포장하면",
-        "일치하면"
+        "는",
+        "은",
+        "을",
+        "던"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "'맞다'는 여기서 일치한다는 의미입니다—উত্তর: 0."
+      "answer": 1,
+      "explanationBn": "সাজিয়ে রাখার কাজ শেষ, ফলাফল এখনও টিকে আছে — তাই অতীতের '-은' বসে: 쌓아 놓은 상자। '놓다'-এর মূলে 'ㅎ' বাতচিম আছে, তাই '으' লাগে। '놓는' বর্তমান, '놓을' ভবিষ্যৎ, '놓던' অতীতের অভ্যাস।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 단어를 고르세요: '박스 무게가 너무 _____.'",
-      "questionKo": "빈칸에 알맞은 단어를 고르세요: '박스 무게가 너무 _____.'",
+      "type": "multiple-choice",
+      "questionBn": "'-겠-' ব্যবহারে নিচের কোন বাক্যটি স্বাভাবিক নয়?",
+      "questionKo": "알맞지 않은 문장을 고르세요.",
       "options": [
-        "가볍습니다",
-        "깨끗합니다",
-        "무겁습니다",
-        "길습니다"
+        "제가 상자를 크기별로 분류하겠습니다.",
+        "다음부터 회사에 일찍 오겠습니다.",
+        "출하량이 많아서 오늘은 바쁘겠어요.",
+        "반장님이 제 일을 하겠습니다."
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "무게에 대해 '무겁습니다'가 자연스럽습니다—সঠিক উত্তর: 1."
+      "answer": 3,
+      "explanationBn": "'-겠-' দিয়ে নিজের ইচ্ছা বোঝাতে কর্তা অবশ্যই 'আমি' হতে হবে, তাই অন্যের হয়ে '반장님이 ... 하겠습니다' বলা যায় না — সেখানে '반장님이 하실 거예요' বলা উচিত। প্রথম দুটিতে কর্তা 'আমি', আর তৃতীয়টিতে '-겠-' অনুমান বোঝাচ্ছে, তাই তিনটিই ঠিক।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "다음 한글 단어와 의미를 연결하세요.",
-      "questionKo": "다음 한글 단어와 의미를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "포장",
-          "right": "প্যাকিং"
-        },
-        {
-          "left": "도착일",
-          "right": "আগমন তারিখ"
-        },
-        {
-          "left": "라벨",
-          "right": "লেবেল"
-        },
-        {
-          "left": "수량",
-          "right": "পরিমাণ"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'포장이 끝난 상자는 크기별로 분류하세요.' — এখানে '끝난' কী বোঝাচ্ছে?",
+      "questionKo": "밑줄 친 부분의 의미로 알맞은 것을 고르세요.",
+      "options": [
+        "যে বাক্সের প্যাকিং শেষ হয়েছে",
+        "যে বাক্সের প্যাকিং এখন চলছে",
+        "যে বাক্সের প্যাকিং শুরু হবে",
+        "যে বাক্স ভেঙে গেছে"
       ],
       "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া পাঠে শেখানো শব্দের বাংলা অর্থের সঙ্গে মিলছে—উত্তর তালিকা আছে তাই 0।"
+      "explanationBn": "'-(으)ㄴ' অতীতে সম্পন্ন কাজ বোঝায়, তাই '끝난 상자' মানে 'যে বাক্সের প্যাকিং শেষ হয়ে গেছে'। চলমান হলে '끝나는', ভবিষ্যতের হলে '끝날' হতো। ভেঙে যাওয়া বোঝাতে '깨진' ব্যবহার করা হয়।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "다음 한글 단어와 영어 뜻을 연결하세요.",
-      "questionKo": "다음 한글 단어와 영어 뜻을 연결하세요.",
-      "options": [],
+      "questionBn": "চালান ও গুদামের কোরিয়ান শব্দের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "출하 관리 관련 어휘와 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "송장",
-          "right": "invoice"
+          "left": "입고하다",
+          "right": "গুদামে পণ্য গ্রহণ করা"
         },
         {
-          "left": "창고",
-          "right": "warehouse"
+          "left": "출고하다",
+          "right": "গুদাম থেকে পণ্য বের করা"
         },
         {
-          "left": "파렛트",
-          "right": "pallet"
+          "left": "검수하다",
+          "right": "পরীক্ষা করে যাচাই করা"
         },
         {
-          "left": "운송장",
-          "right": "tracking number"
+          "left": "납품하다",
+          "right": "ক্রেতার কাছে সরবরাহ করা"
         },
         {
-          "left": "출발일",
-          "right": "departure date"
+          "left": "출하량",
+          "right": "চালানের পরিমাণ"
         }
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া পাঠের ভোকাবুলারি অনুযায়ী মিলেছে—তাই উত্তর 0।"
+      "explanationBn": "'입고' আর '출고' একেবারে বিপরীত — একটি ভেতরে আনা, অন্যটি বাইরে বের করা। '검수하다' হলো সংখ্যা ও গুণ মিলিয়ে দেখা, যা সাধারণত '입고'-র পরপর করা হয়। '납품하다' মানে শেষ ধাপে ক্রেতার কাছে পৌঁছে দেওয়া, আর '출하량' হলো পরিমাণের হিসাব।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 '지게차'의 의미는 무엇인가요?",
-      "questionKo": "다음 중 '지게차'의 의미는 무엇인가요?",
+      "type": "fill-blank",
+      "questionBn": "'-겠-' বসান: 밖에 비가 온다고 해요. 바로 나가서 덮개로 덮어 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "지게차(포크리프트)",
-        "트럭",
-        "승용차",
-        "오토바이"
+        "놓았습니다",
+        "놓습니까",
+        "놓겠습니다",
+        "놓지 마세요"
       ],
-      "answer": 0,
-      "explanationBn": "지게차는 무거운 짐을 옮기는 포크리프트를 의미합니다."
+      "answer": 2,
+      "explanationBn": "বক্তা এখনই গিয়ে ঢেকে রাখার ইচ্ছা জানাচ্ছেন, তাই সংকল্প বোঝাতে '-겠-' বসে: 덮어 놓겠습니다। '놓았습니다' অতীত — কাজটি এখনও হয়নি। '놓습니까' প্রশ্ন, আর '놓지 마세요' নিষেধ, যা প্রসঙ্গের উল্টো।"
     },
     {
       "id": "p12",
       "type": "multiple-choice",
-      "questionBn": "문장 '상자를 던지지 마세요.'의 뜻은?",
-      "questionKo": "문장 '상자를 던지지 마세요.'의 뜻은?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 무거운 상자는 ___로 옮기는 게 안전합니다.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "상자를 던지지 마세요.",
-        "상자를 던지세요.",
-        "상자를 여세요.",
-        "상자를 닫으세요."
+        "완충재",
+        "라벨",
+        "방청지",
+        "지게차"
       ],
-      "answer": 0,
-      "explanationBn": "'~지 마세요'는 금지를 나타냅니다."
+      "answer": 3,
+      "explanationBn": "ভারী মালামাল তোলার যন্ত্র হলো '지게차' (ফর্কলিফট), তাই সেটিই সঠিক। '완충재' ও '방청지' মোড়ানোর উপকরণ, আর '라벨' হলো পরিচয়ের সিল — কোনোটিই ভারী জিনিস বহনের যন্ত্র নয়।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 '밀봉하다'와 관련 있는 단어는?",
-      "questionKo": "다음 중 '밀봉하다'와 관련 있는 단어는?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)니까' বসান: 깨지기 쉬___ 하나씩 조심해서 나르세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "테이프",
-        "망치",
-        "가위",
-        "칼"
+        "웁니까",
+        "우니까",
+        "워서",
+        "웠으니까"
       ],
-      "answer": 0,
-      "explanationBn": "테이프를 사용하여 상자를 밀봉합니다."
+      "answer": 1,
+      "explanationBn": "'쉽다' বিশেষণে 'ㅂ' অনিয়মিত, তাই '쉽 + 으니까' নয়, 'ㅂ' বদলে 'ㅜ' হয়ে '쉬우니까' হয়। পরে আদেশ ('나르세요') থাকায় '-아/어서' ব্যবহার করা যায় না, তাই '쉬워서' ভুল। '쉽습니까' প্রশ্ন, আর '쉬웠으니까' অতীতের কারণ বোঝায়।"
     },
     {
       "id": "p14",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '유리 제품은 _____ 다루세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '유리 제품은 _____ 다루세요.'",
+      "type": "multiple-choice",
+      "questionBn": "'포장 작업은 5시 전까지 끝내면 되지요?' — এই প্রশ্নে বক্তা কী জানতে চাইছেন?",
+      "questionKo": "이 질문의 의미로 알맞은 것을 고르세요.",
       "options": [
-        "강하게",
-        "대충",
-        "주의해서",
-        "빨리"
+        "৫টার আগে শেষ করলেই যথেষ্ট কি না",
+        "৫টার আগে শেষ করা নিষেধ কি না",
+        "৫টার পরে শুরু করতে হবে কি না",
+        "প্যাকিং কে করবে"
       ],
-      "answer": 2,
-      "explanationBn": "유리 제품은 깨지기 쉬우므로 주의해서 다뤄야 합니다."
+      "answer": 0,
+      "explanationBn": "'-(으)면 되다' মানে 'ওইটুকু করলেই যথেষ্ট', আর '-지요?' দিয়ে নিশ্চিত হয়ে নেওয়া হচ্ছে — তাই বক্তা জানতে চাইছেন ৫টার আগে শেষ করলেই চলবে কি না। নিষেধ বোঝাতে '-(으)면 안 되다' লাগত। শুরুর সময় বা কে করবে, তা এই বাক্যে নেই।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '여기에 _____ 마세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '여기에 _____ 마세요.'",
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 물건을 받으면 수량이 맞는지 먼저 ___ 합니다.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "주차해서",
-        "주차하지",
-        "주차하고",
-        "주차하면"
+        "포장해야",
+        "검수해야",
+        "출하해야",
+        "운송해야"
       ],
       "answer": 1,
-      "explanationBn": "금지를 나타내는 '~지 마세요' 앞에는 동사의 어간 + '지'가 옵니다."
+      "explanationBn": "সংখ্যা ঠিক আছে কি না মিলিয়ে দেখাকে বলে '검수하다' (যাচাই করা), তাই সেটিই সঠিক। '포장하다' মানে মোড়ানো, '출하하다' মানে চালান করা, '운송하다' মানে পরিবহন — তিনটিই যাচাইয়ের পরের ধাপ।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '지게차를 운전할 _____ 있어요?'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '지게차를 운전할 _____ 있어요?'",
+      "questionBn": "'-아/어 놓다' বসান: 상자하고 완충재를 작업장에 준비___ 놓았어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "적",
-        "줄",
-        "수",
-        "것"
+        "하고",
+        "해서",
+        "하러",
+        "해"
       ],
-      "answer": 2,
-      "explanationBn": "능력을 묻는 표현은 '-(으)ㄹ 수 있다'입니다."
+      "answer": 3,
+      "explanationBn": "'-아/어 놓다' গঠনে '하다' ক্রিয়া '해' রূপ নেয়: 준비해 놓았어요। '준비하고 놓다' মানে দুটি আলাদা কাজ, '준비해서' কারণ বা ক্রম বোঝায়, আর '준비하러' উদ্দেশ্য বোঝায় — কোনোটিই 'করে রাখা' অর্থ দেয় না।"
     },
     {
       "id": "p17",
-      "type": "matching",
-      "questionBn": "다음 한글 단어와 의미를 연결하세요.",
-      "questionKo": "다음 한글 단어와 의미를 연결하세요.",
-      "pairs": [
-        {
-          "left": "지게차",
-          "right": "ফর্কলিফ্ট"
-        },
-        {
-          "left": "상자",
-          "right": "বাক্স"
-        },
-        {
-          "left": "테이프",
-          "right": "টেপ"
-        },
-        {
-          "left": "영수증",
-          "right": "রসিদ"
-        }
+      "type": "multiple-choice",
+      "questionBn": "সংলাপ অনুযায়ী প্যাকিংয়ের সময় কোনটি সবচেয়ে গুরুত্বপূর্ণ বলা হয়েছে?",
+      "questionKo": "대화의 내용과 같은 것을 고르세요.",
+      "options": [
+        "상자를 빨리 나르는 것",
+        "라벨을 크게 붙이는 것",
+        "완충재로 꼼꼼하게 싸는 것",
+        "지게차를 사용하는 것"
       ],
-      "answer": 0,
-      "explanationBn": "단어의 정확한 뜻을 연결하는 문제입니다."
+      "answer": 2,
+      "explanationBn": "반장님 বলেছেন '완충재로 제품을 꼼꼼하게 싸는 게 중요해요', কারণ তা না হলে পরিবহনের সময় পণ্য নষ্ট হতে পারে। তাড়াতাড়ি বহন করা বা ফর্কলিফট ব্যবহার সংলাপে গুরুত্ব হিসেবে বলা হয়নি, আর লেবেলের আকারের কথাও আসেনি।"
     },
     {
       "id": "p18",
-      "type": "matching",
-      "questionBn": "다음 한글 단어와 영어 뜻을 연결하세요.",
-      "questionKo": "다음 한글 단어와 영어 뜻을 연결하세요.",
-      "pairs": [
-        {
-          "left": "배송",
-          "right": "delivery"
-        },
-        {
-          "left": "파손",
-          "right": "damage"
-        },
-        {
-          "left": "안전모",
-          "right": "safety helmet"
-        },
-        {
-          "left": "작업복",
-          "right": "work clothes"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄴ' বসান: 오후까지 주문을 받___ 물건을 포장해야 돼요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "은",
+        "는",
+        "을",
+        "던"
       ],
       "answer": 0,
-      "explanationBn": "단어의 정확한 영어 뜻을 연결하는 문제입니다."
+      "explanationBn": "অর্ডার নেওয়া হয়ে গেছে, সেই পণ্যই মোড়াতে হবে — তাই অতীতের '-은' বসে: 받은 물건। '받다'-এর মূলে 'ㄷ' বাতচিম আছে, তাই '으' লাগে। '받는' বর্তমান, '받을' ভবিষ্যৎ, '받던' অতীতের অভ্যাস বোঝায়।"
     },
     {
       "id": "p19",
-      "type": "multiple-choice",
-      "questionBn": "문장 '배송이 지연되었습니다.'의 뜻은?",
-      "questionKo": "문장 '배송이 지연되었습니다.'의 뜻은?",
-      "options": [
-        "배송이 빨리 왔습니다.",
-        "배송이 시작되었습니다.",
-        "배송이 취소되었습니다.",
-        "배송이 늦어졌습니다."
+      "type": "matching",
+      "questionBn": "মালামাল বহনের যন্ত্র ও উপকরণের সঙ্গে তার ব্যবহার মেলান।",
+      "questionKo": "운반 도구와 쓰임을 연결하세요.",
+      "pairs": [
+        {
+          "left": "지게차",
+          "right": "ভারী মালামাল তুলে সরানোর যন্ত্র"
+        },
+        {
+          "left": "핸드 카트",
+          "right": "হাতে ঠেলে ছোট মাল বহন"
+        },
+        {
+          "left": "파렛트",
+          "right": "যার উপর বাক্স স্তরে সাজানো হয়"
+        },
+        {
+          "left": "완충재",
+          "right": "ধাক্কা থেকে পণ্য রক্ষা করে"
+        }
       ],
-      "answer": 3,
-      "explanationBn": "'지연되다'는 늦어지다는 뜻입니다."
+      "explanationBn": "'지게차' ও '핸드 카트' দুটোই বহনের যন্ত্র, তবে প্রথমটি ভারী মালের জন্য আর দ্বিতীয়টি হালকা মালের জন্য — ওজন দেখে বেছে নিতে হয়। '파렛트' বহনের যন্ত্র নয়, এটি রাখার পাটাতন, আর '완충재' মোড়ানোর উপকরণ যা ভাঙা ঠেকায়।"
     },
     {
       "id": "p20",
       "type": "multiple-choice",
-      "questionBn": "다음 중 '취소하다'의 반대말에 가까운 것은?",
-      "questionKo": "다음 중 '취소하다'의 반대말에 가까운 것은?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 포장이 끝나면 큰 것은 큰 것끼리, 작은 것은 작은 것끼리 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "주문하다",
-        "잃어버리다",
-        "버리다",
-        "찾다"
+        "깨뜨리세요",
+        "녹슬게 하세요",
+        "손상시키세요",
+        "분류하세요"
       ],
-      "answer": 0,
-      "explanationBn": "주문하다(order)와 취소하다(cancel)는 반대되는 개념입니다."
+      "answer": 3,
+      "explanationBn": "বড় জিনিস বড়র সঙ্গে, ছোট ছোটর সঙ্গে — এটিই '분류하다' (ভাগ করা), তাই সেটিই সঠিক। '깨뜨리다' মানে ভেঙে ফেলা, '녹슬다' মানে মরচে পড়া, '손상시키다' মানে ক্ষতি করা — তিনটিই কর্মস্থলে এড়িয়ে চলার বিষয়।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পাঠটি পড়ে সঠিক উত্তর বেছে নিন।",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "오늘 출하할 물품은 유통기한이 있는 식품입니다. 유통기한을 다시 확인하고 라벨을 붙인 후 출고하세요.",
+      "questionBn": "নিচের শব্দটির সঙ্গে সম্পর্কিত শব্দ কোনটি?",
+      "questionKo": "다음 단어와 관계있는 것을 고르십시오.",
+      "passage": "지게차",
       "options": [
-        "컨테이너를 청소하세요.",
-        "무게만 재면 됩니다.",
-        "라벨을 붙이지 않아도 됩니다.",
-        "유통기한을 확인하고 출고해야 합니다."
+        "운반하다",
+        "요리하다",
+        "노래하다",
+        "공부하다"
       ],
-      "answer": 3,
-      "explanationBn": "পাঠে বলা আছে 유통기한 확인하고 라벨 붙여서 출고 করতে, তাই সঠিক উত্তর হল 1।"
+      "answer": 0,
+      "explanationBn": "'지게차' (ফর্কলিফট) দিয়ে ভারী মালামাল বহন করা হয়, তাই '운반하다' (বহন করা) সম্পর্কিত। '요리하다' মানে রান্না করা, '노래하다' মানে গান গাওয়া, '공부하다' মানে পড়াশোনা করা — কোনোটিরই কারখানার যন্ত্রের সঙ্গে সম্পর্ক নেই।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "পাঠটি পড়ে সঠিক উত্তর চিহ্নিত করুন।",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "파렛트에 상자를 모두 올렸습니다. 이제 운송장을 작성하고 트럭에 적재하세요.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "제품이 녹슬 수 있습니다. (        )로 싸 주십시오.",
       "options": [
-        "운송장을 작성해야 합니다.",
-        "포장을 시작해야 합니다.",
-        "검사를 나중에 합니다.",
-        "창고 문을 닫아야 합니다."
+        "라벨",
+        "파렛트",
+        "방청지",
+        "핸드 카트"
       ],
-      "answer": 0,
-      "explanationBn": "글에 '이제 운송장을 작성하고 트럭에 적재하세요'라고 되어 있으므로 정답은 0।"
+      "answer": 2,
+      "explanationBn": "মরচে ঠেকাতে '방청지' (মরচে-প্রতিরোধী কাগজ) দিয়ে মোড়ানো হয়। '라벨' পরিচয়ের সিল, '파렛트' রাখার পাটাতন, '핸드 카트' বহনের ট্রলি — কোনোটিই মোড়ানোর কাগজ নয়।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "পাঠ অনুসারে সঠিক উত্তর দিন।",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "검사를 통과하지 못한 제품은 반송 처리합니다. 반송 전에 상태를 사진으로 기록하세요.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "파렛트에 쌓아 (        ) 상자를 창고로 옮기십시오.",
       "options": [
-        "검사 통과 못하면 반송합니다.",
-        "검사 없이 출하합니다.",
-        "사진을 찍을 필요가 없습니다.",
-        "유통기한을 연장합니다."
+        "놓는",
+        "놓을",
+        "놓던",
+        "놓은"
       ],
-      "answer": 0,
-      "explanationBn": "পাঠে স্পষ্ট: 검사에 통과하지 못하면 반송한다고 আছে—উত্তর 2।"
+      "answer": 3,
+      "explanationBn": "সাজিয়ে রাখার কাজ শেষ হয়ে গেছে এবং ফল টিকে আছে, তাই অতীতের '-은' বসে: 쌓아 놓은 상자। '놓는' এখন চলছে বোঝায়, '놓을' ভবিষ্যতের, '놓던' অতীতের অভ্যাস বোঝায়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "পাঠটি পড়ে সঠিক উত্তর নির্বাচন করুন।",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "위험물은 별도로 라벨을 붙이고 안전 지침을 따라 적재해야 합니다.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "포장할 때는 완충재로 제품을 꼼꼼하게 싸야 합니다. 그렇게 하지 않으면 운송할 때 제품이 손상될 수 있습니다.",
       "options": [
-        "위험물은 무게를 재지 않습니다.",
-        "위험물은 포장하지 않습니다.",
-        "위험물은 일반 상자에 넣어도 됩니다.",
-        "위험물은 라벨을 붙여야 합니다."
+        "완충재는 사용하지 않아도 됩니다.",
+        "꼼꼼하게 싸지 않으면 제품이 손상될 수 있습니다.",
+        "운송할 때는 포장을 풀어야 합니다.",
+        "제품은 손상되지 않습니다."
       ],
-      "answer": 3,
-      "explanationBn": "글에 위험물은 라벨을 붙이라고 되어 있으므로 উত্তর은 1।"
+      "answer": 1,
+      "explanationBn": "লেখায় স্পষ্ট বলা আছে '그렇게 하지 않으면 운송할 때 제품이 손상될 수 있습니다', তাই বিকল্প ২ সঠিক। বিকল্প ১ ও ৪ লেখার বিপরীত, আর মোড়ক খোলার কথা কোথাও বলা হয়নি।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পাঠটি পড়ে সঠিক উত্তর বেছে নিন।",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "출발일은 내일 아침 9시입니다. 기사에게 운송장과 리스트를 전달해 주세요.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "상자가 무겁습니다. 떨어지지 않게 (        )해서 나르십시오.",
       "options": [
-        "출발일은 오늘입니다.",
-        "도착일을 지금 알려주세요.",
-        "운송장을 전달할 필요가 없습니다.",
-        "기사에게 운송장과 리스트를 전달해야 합니다."
+        "주의",
+        "포장",
+        "출하",
+        "분류"
       ],
-      "answer": 3,
-      "explanationBn": "পাঠে বলা আছে 운송장과 리스트 기사에게 전달 করতে—সঠিক উত্তর 1।"
+      "answer": 0,
+      "explanationBn": "বাক্স যেন পড়ে না যায় — এখানে সতর্কতার কথা বলা হচ্ছে, তাই '주의해서' (সতর্ক হয়ে) সঠিক। '포장해서' মানে মুড়িয়ে, '출하해서' মানে চালান করে, '분류해서' মানে ভাগ করে — কোনোটিই 'পড়ে না যাওয়ার' সঙ্গে যুক্ত নয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "다음 대화를 듣고 질문에 답하세요। (오디오 대본을 읽음)",
-      "questionKo": "다음 음성을 듣고 질문에 답하세요.",
-      "passage": "남자: 수량을 다시 확인해 주세요.\n여자: 네, 지금 확인하겠습니다.\n남자: 확인되면 저에게 알려 주세요.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "[출하 작업 안내]\n· 검수: 오전 9시\n· 포장: 오전 10시 ~ 오후 5시\n· 파렛트에 쌓기: 오후 5시 이후\n· 납품: 다음 날 오전",
       "options": [
-        "포장원이 수량을 확인하기로 했다.",
-        "담당자가 출발일을 물었다.",
-        "운송장을 작성한다고 말했다.",
-        "컨테이너를 청소한다고 말했다."
+        "포장은 오전 9시에 시작합니다.",
+        "납품은 오늘 오후에 합니다.",
+        "검수는 포장보다 먼저 합니다.",
+        "파렛트에 쌓기는 오전에 합니다."
       ],
-      "answer": 0,
-      "explanationBn": "대본에서 포장원이 '지금 확인하겠습니다'라고 했으므로 0번이 맞습니다।"
+      "answer": 2,
+      "explanationBn": "নোটিশ অনুযায়ী যাচাই সকাল ৯টায় আর প্যাকিং সকাল ১০টা থেকে, তাই যাচাই আগে হয় — বিকল্প ৩ সঠিক। প্যাকিং শুরু ১০টায়, সরবরাহ পরদিন সকালে, আর প্যালেটে সাজানো বিকেল ৫টার পরে — বাকি তিনটি নোটিশের সঙ্গে মেলে না।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "음성을 듣고 질문에 맞는 답을 선택하세요।",
-      "questionKo": "다음 음성을 듣고 질문에 답하세요.",
-      "passage": "남자: 오늘 출발은 몇 시인가요?\n여자: 오후 2시에 출발합니다.\n남자: 알겠습니다.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 밖에 비가 온다고 합니다.\n나: 그럼 제가 바로 덮개로 덮어 (        ).",
       "options": [
-        "출발은 오전입니다.",
-        "출발은 오후 2시입니다.",
-        "기사님이 운송장을 작성했습니다.",
-        "포장은 끝나지 않았습니다."
+        "놓았습니다",
+        "놓습니까",
+        "놓지 마십시오",
+        "놓겠습니다"
       ],
-      "answer": 1,
-      "explanationBn": "담당자가 '오후 2시에 출발합니다'라고 말했으므로 정답은 1।"
+      "answer": 3,
+      "explanationBn": "বক্তা নিজের ইচ্ছা জানাচ্ছেন যে এখনই ঢেকে রাখবেন, তাই সংকল্পের '-겠-' বসে: 덮어 놓겠습니다। '놓았습니다' অতীত, কাজটি এখনও হয়নি। '놓습니까' প্রশ্ন, আর '놓지 마십시오' নিষেধ।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "다음 음성을 듣고 맞는 선택지를 고르세요।",
-      "questionKo": "다음 음성을 듣고 질문에 답하세요.",
-      "passage": "남자: 박스 한 개가 빠졌습니다. 다시 확인해 주세요.\n여자: 네, 바로 찾아보겠습니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "물건을 입고할 때는 먼저 수량을 검수합니다. 수량이 맞지 않으면 바로 담당자에게 알려야 합니다.",
       "options": [
-        "운송장이 없다.",
-        "박스 하나가 빠졌다.",
-        "모든 박스가 준비되었다.",
-        "컨테이너가 도착했다."
+        "수량이 맞지 않으면 그냥 두면 됩니다.",
+        "입고할 때는 검수를 하지 않습니다.",
+        "검수는 출고한 다음에 합니다.",
+        "수량이 맞지 않으면 담당자에게 알립니다."
       ],
-      "answer": 1,
-      "explanationBn": "대본에 '박스 한 개가 빠졌습니다'라고 하므로 정답은 1।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '수량이 맞지 않으면 바로 담당자에게 알려야 합니다', তাই বিকল্প ৪ সঠিক। বিকল্প ১ ও ২ লেখার বিপরীত, আর যাচাই করা হয় '입고할 때' — বের করার পরে নয়।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "다음 표지판의 의미는 무엇입니까?",
-      "questionKo": "다음 표지판의 의미는 무엇입니까?",
-      "passage": "[안전모 착용]",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "이 상자는 유리 제품입니다. 깨지기 쉬우니까 하나씩 (        ) 나르십시오.",
       "options": [
-        "안전모를 써야 합니다.",
-        "안전모를 쓰지 마십시오.",
-        "작업복을 입으십시오.",
-        "안전화를 신으십시오."
+        "빨리",
+        "많이",
+        "조심해서",
+        "크게"
       ],
-      "answer": 0,
-      "explanationBn": "'안전모 착용'은 안전모를 써야 한다는 뜻입니다."
+      "answer": 2,
+      "explanationBn": "সহজে ভাঙে এমন জিনিস সাবধানে বহন করতে হয়, তাই '조심해서' সঠিক। '빨리' (দ্রুত) বা '많이' (অনেক) করলে বরং ভাঙার আশঙ্কা বাড়ে, আর '크게' (বড় করে) এখানে অর্থ তৈরি করে না।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요.",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "유리 제품이 들어 있습니다. 파손되지 않게 주의해서 다루십시오.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "무거운 상자는 아래에 놓고 가벼운 상자는 위에 쌓습니다. 반대로 쌓으면 상자가 떨어질 수 있습니다.",
       "options": [
-        "빨리 옮기십시오.",
-        "무겁지 않습니다.",
-        "던져도 됩니다.",
-        "조심해서 다루십시오."
+        "가벼운 상자를 아래에 놓습니다.",
+        "무거운 상자를 아래에 놓습니다.",
+        "상자는 쌓지 않습니다.",
+        "무거운 상자를 위에 놓습니다."
       ],
-      "answer": 3,
-      "explanationBn": "'주의해서 다루십시오'는 조심하라는 뜻입니다."
+      "answer": 1,
+      "explanationBn": "লেখায় স্পষ্ট বলা আছে '무거운 상자는 아래에 놓고', তাই বিকল্প ২ সঠিক। বিকল্প ১ ও ৪ উল্টো নিয়ম, যা করলে বাক্স পড়ে যেতে পারে বলে সতর্ক করা হয়েছে। বিকল্প ৩ ভুল, কারণ সাজানোর কথাই বলা হচ্ছে।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요.",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "물건을 크기별로 분류한 후 상자에 넣고 테이프로 밀봉하세요.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: পুরুষটি কী দিয়ে বাক্স সরাবেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 이 상자가 좀 무겁네요. 어떻게 옮길까요?\n남자: 제가 지게차로 옮기겠습니다.",
       "options": [
-        "상자를 열어 두세요.",
-        "테이프를 사용하지 마세요.",
-        "물건을 섞어서 넣으세요.",
-        "크기별로 나누고 밀봉하세요."
+        "핸드 카트",
+        "지게차",
+        "파렛트",
+        "손"
       ],
-      "answer": 3,
-      "explanationBn": "크기별로 분류하고 밀봉하라고 했습니다."
+      "answer": 1,
+      "explanationBn": "পুরুষটি বলছেন '제가 지게차로 옮기겠습니다' — ফর্কলিফট দিয়ে সরাবেন, তাই বিকল্প ২ সঠিক। '핸드 카트' হালকা মালের জন্য, '파렛트' রাখার পাটাতন, আর হাতে সরানোর কথা বলা হয়নি।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요.",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "배송이 지연되어 죄송합니다. 내일 오전 중에 도착할 예정입니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: প্যাকিং শেষ হলে এরপর কী করতে হবে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 포장이 끝났습니다. 이제 뭘 하면 될까요?\n여자: 크기별로 분류해서 파렛트에 쌓아 놓으세요.",
       "options": [
-        "물건이 내일 오전에 도착합니다.",
-        "배송이 취소되었습니다.",
-        "물건이 오늘 도착합니다.",
-        "물건이 이미 도착했습니다."
+        "제품을 다시 포장합니다",
+        "상자를 버립니다",
+        "트럭을 세웁니다",
+        "크기별로 분류해서 파렛트에 쌓습니다"
       ],
-      "answer": 0,
-      "explanationBn": "내일 오전 중에 도착할 예정이라고 했습니다."
+      "answer": 3,
+      "explanationBn": "মহিলা বলছেন '크기별로 분류해서 파렛트에 쌓아 놓으세요', তাই বিকল্প ৪ সঠিক। আবার মোড়ানো, বাক্স ফেলে দেওয়া বা ট্রাক থামানোর কোনো কথা কথোপকথনে নেই।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요.",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "지게차를 운전할 때는 반드시 안전 수칙을 지켜야 합니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: প্যাকিংয়ের সময় কী গুরুত্বপূর্ণ বলা হয়েছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 포장할 때 뭐가 제일 중요합니까?\n여자: 완충재로 제품을 꼼꼼하게 싸는 게 중요합니다.",
       "options": [
-        "지게차 운전 시 안전 수칙을 지켜야 합니다.",
-        "지게차는 아무나 운전할 수 있습니다.",
-        "안전 수칙을 지킬 필요가 없습니다.",
-        "지게차는 위험하지 않습니다."
+        "완충재로 꼼꼼하게 싸는 것",
+        "상자를 빨리 나르는 것",
+        "라벨을 크게 만드는 것",
+        "파렛트를 씻는 것"
       ],
       "answer": 0,
-      "explanationBn": "안전 수칙을 지켜야 한다고 명시되어 있습니다."
+      "explanationBn": "মহিলা বলছেন '완충재로 제품을 꼼꼼하게 싸는 게 중요합니다', তাই বিকল্প ১ সঠিক। দ্রুত বহন করা, লেবেল বড় করা বা প্যালেট ধোয়ার কথা কথোপকথনে আসেনি।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: মহিলা কেন তাড়াতাড়ি করতে বলছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 이 상자들은 어디로 옮길까요?\n여자: 저기 있는 파렛트 위로 옮겨 주세요.",
+      "passage": "여자: 오후 세 시까지 납품해야 하니까 조금 서둘러 주세요.\n남자: 네, 알겠습니다. 바로 트럭에 싣겠습니다.",
       "options": [
-        "상자를 열어보세요.",
-        "상자를 버리세요.",
-        "상자를 파렛트 위로 옮기세요.",
-        "상자를 트럭에 실으세요."
+        "비가 오기 때문에",
+        "오후 세 시까지 납품해야 하기 때문에",
+        "기계가 고장 났기 때문에",
+        "사람이 부족하기 때문에"
       ],
-      "answer": 2,
-      "explanationBn": "여자가 파렛트 위로 옮겨 달라고 했습니다."
+      "answer": 1,
+      "explanationBn": "মহিলা বলছেন '오후 세 시까지 납품해야 하니까' — বিকেল ৩টার মধ্যে সরবরাহ করতে হবে, তাই বিকল্প ২ সঠিক। বৃষ্টি, মেশিন নষ্ট বা লোকবলের অভাব — কোনো কারণই বলা হয়নি।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: কোন বাক্স গুদাম থেকে বের করা যাবে?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 영수증을 챙겨 드릴까요?\n남자: 네, 영수증 주세요.",
+      "passage": "여자: 어떤 상자를 출고하면 됩니까?\n남자: 라벨을 붙인 상자만 출고하세요.",
       "options": [
-        "남자는 영수증을 원합니다.",
-        "여자는 영수증이 없습니다.",
-        "여자는 영수증을 버렸습니다.",
-        "남자는 영수증이 필요 없습니다."
+        "무거운 상자",
+        "큰 상자",
+        "라벨을 붙인 상자",
+        "모든 상자"
       ],
-      "answer": 0,
-      "explanationBn": "남자가 영수증을 달라고 했습니다."
+      "answer": 2,
+      "explanationBn": "পুরুষটি বলছেন '라벨을 붙인 상자만 출고하세요' — কেবল লেবেল লাগানো বাক্স, তাই বিকল্প ৩ সঠিক। এখানে '-(으)ㄴ' দিয়ে বোঝানো হচ্ছে লেবেল লাগানোর কাজ শেষ। ওজন বা আকারের শর্ত দেওয়া হয়নি, আর '만' মানে 'কেবল', তাই সব বাক্স নয়।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: আজকের চালান সম্পর্কে মহিলা কী বলছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 지게차 운전할 수 있어요?\n여자: 아니요, 저는 운전할 수 없어요.",
+      "passage": "여자: 오늘은 출하량이 좀 많네요.\n남자: 네, 그래서 오늘은 좀 바쁘겠습니다.",
       "options": [
-        "여자는 지게차를 운전할 수 있습니다.",
-        "남자는 지게차를 운전할 수 없습니다.",
-        "남자는 지게차를 가르쳐 줍니다.",
-        "여자는 지게차를 운전할 수 없습니다."
+        "출하량이 적습니다",
+        "출하가 없습니다",
+        "출하가 끝났습니다",
+        "출하량이 많습니다"
       ],
       "answer": 3,
-      "explanationBn": "여자가 운전할 수 없다고 대답했습니다."
+      "explanationBn": "মহিলা বলছেন '출하량이 좀 많네요' — আজ চালানের পরিমাণ বেশি, তাই '출하량이 많습니다' সঠিক। সে কারণেই পুরুষটি '바쁘겠습니다' বলে অনুমান করছেন যে দিনটা ব্যস্ত যাবে। পরিমাণ কম, চালান নেই বা শেষ হয়ে গেছে — কোনোটিই বলা হয়নি।"
     }
   ]
 }
