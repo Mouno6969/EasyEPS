@@ -10,662 +10,731 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "নির্মাণ সাইটে সাধারণ সরঞ্জাম ও উপকরণ সম্পর্কে সহজ বাক্য বলা।",
-      "সরঞ্জাম ডেলিভারি ও কাজের নির্দেশ দিতে ও বুঝতে পারা।",
-      "সহকর্মীর সঙ্গে নিরাপত্তা ও কাজের সময় সম্পর্কে সংক্ষিপ্ত যোগাযোগ করা।"
+      "খাল-নদী পরিষ্কারের (준설) কাজ নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "পানি সরবরাহ ও পয়ঃনিষ্কাশনের পাইপ বসানোর ধাপগুলো বলতে পারা",
+      "'-아야겠/어야겠-' দিয়ে পরিস্থিতি দেখে কী করা উচিত তা অনুমান করতে পারা",
+      "'-도록' দিয়ে কাজের উদ্দেশ্য এবং কতটা পর্যন্ত তা বোঝাতে পারা"
     ],
     "en": [
-      "Talk simply about common site equipment and materials.",
-      "Give and understand basic delivery and work instructions.",
-      "Communicate briefly with coworkers about safety and work times."
+      "Can ask and answer questions about dredging work",
+      "Can describe the stages of water-supply and sewage pipe installation",
+      "Can use -아야겠/어야겠- to infer what a situation calls for",
+      "Can use -도록 for both purpose and extent"
     ]
   },
   "vocabulary": [
     {
-      "ko": "공사",
-      "romanization": "gongsa",
-      "bn": "নির্মাণ কাজ",
-      "en": "construction",
+      "ko": "토사",
+      "romanization": "tosa",
+      "bn": "মাটি-বালির পলি (পানির তলায় জমে থাকা মাটি)",
+      "en": "soil and sediment",
       "pos": "noun",
       "example": {
-        "ko": "이 도로 공사는 다음 달까지 끝납니다.",
-        "bn": "এই রোডের নির্মাণ কাজ আগামী মাসে শেষ হবে।",
-        "en": "This road construction finishes next month."
+        "ko": "하천에 토사가 많이 쌓여서 물이 잘 흐르지 못하네요.",
+        "bn": "খালে অনেক পলি জমেছে, তাই পানি ভালোভাবে বইতে পারছে না।",
+        "en": "A lot of sediment has piled up in the stream, so the water isn't flowing well."
       },
-      "pronunciationTipBn": "'ㅇ' ধ্বনিটি অনুনাসিক 'ং'-এর মতো; '공' উচ্চারণ করার সময় মুখ গোল করুন।"
+      "pronunciationTipBn": "토사 → [토사]। 'ㅌ' নিঃশ্বাসযুক্ত 'থ' — 'তো-সা' নয়, 'থো-সা'। '토' মানে মাটি, '사' মানে বালি।"
     },
     {
-      "ko": "도로",
-      "romanization": "doro",
-      "bn": "রাস্তা",
-      "en": "road",
+      "ko": "침전물",
+      "romanization": "chimjeonmul",
+      "bn": "তলানি (পানির তলায় থিতিয়ে পড়া পদার্থ)",
+      "en": "sediment, deposit",
       "pos": "noun",
       "example": {
-        "ko": "도로 표지판을 옮겨 주세요.",
-        "bn": "রাস্তায় সাইনবোর্ডটি সরিয়ে দিন।",
-        "en": "Please move the road sign."
+        "ko": "호수 바닥에 침전물이 많이 쌓였네요.",
+        "bn": "হ্রদের তলায় অনেক তলানি জমেছে তো।",
+        "en": "A lot of sediment has built up on the lake bed."
       },
-      "pronunciationTipBn": "'ㄷ' ধ্বনিটি 'দ' এবং 'ত'-এর মাঝামাঝি; '도' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "침전물 → [침전물]। 'ㅊ' নিঃশ্বাসযুক্ত 'ছ', তিনটি অক্ষরই নাক বা জিভে শেষ — 'ছিম-জন-মুল'।"
     },
     {
-      "ko": "다리",
-      "romanization": "dari",
-      "bn": "পুল/সেতু",
-      "en": "bridge",
-      "pos": "noun",
+      "ko": "준설하다",
+      "romanization": "junseolhada",
+      "bn": "ড্রেজিং করা (তলার পলি তুলে খাল গভীর করা)",
+      "en": "to dredge",
+      "pos": "verb",
       "example": {
-        "ko": "다리 설계도가 필요합니다.",
-        "bn": "সেতুর ডিজাইন প্ল্যান দরকার।",
-        "en": "We need the bridge design plan."
+        "ko": "물이 잘 흐르도록 하천을 준설해야겠어요.",
+        "bn": "পানি যাতে ভালোভাবে বয়, সেজন্য খালটা ড্রেজিং করতে হবে।",
+        "en": "We'll have to dredge the stream so the water flows well."
       },
-      "pronunciationTipBn": "'ㄷ' ধ্বনিটি 'দ' এবং 'ত'-এর মাঝামাঝি; '리' উচ্চারণ করার সময় জিভ তালুতে হালকা স্পর্শ করবে।"
+      "pronunciationTipBn": "준설 → [준설]। 'ㄴ' বাতচিম নাক দিয়ে — 'জুন-সোল'। এটি পানির তলা থেকে মাটি তুলে ফেলার কারিগরি শব্দ।"
     },
     {
-      "ko": "굴착",
-      "romanization": "gulchak",
-      "bn": "খনন",
-      "en": "excavation",
+      "ko": "하천",
+      "romanization": "hacheon",
+      "bn": "খাল, ছোট নদী",
+      "en": "stream, river",
       "pos": "noun",
       "example": {
-        "ko": "굴착 작업은 아침에 시작합니다.",
-        "bn": "খনন কাজ সকালেই শুরু হবে।",
-        "en": "Excavation work starts in the morning."
+        "ko": "하천 바닥에 토사가 많이 쌓였어요.",
+        "bn": "খালের তলায় অনেক পলি জমেছে।",
+        "en": "A lot of sediment has piled up on the streambed."
       },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি 'র' এবং 'ল'-এর মাঝামাঝি; '착' উচ্চারণ করার সময় 'ㅊ' একটু জোর দিয়ে বলুন।"
+      "pronunciationTipBn": "하천 → [하천]। 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'হা-চন' নয়, 'হা-ছন'।"
     },
     {
-      "ko": "터널",
-      "romanization": "teoneol",
-      "bn": "টানেল",
-      "en": "tunnel",
+      "ko": "수로",
+      "romanization": "suro",
+      "bn": "পানি যাওয়ার নালা, জলপথ",
+      "en": "waterway, channel",
       "pos": "noun",
       "example": {
-        "ko": "터널 내부는 조명이 필요합니다.",
-        "bn": "টানেলের ভিতরে আলো লাগবে।",
-        "en": "The tunnel interior needs lighting."
+        "ko": "수로가 좁아서 핸드 램머로 다져야겠는데요.",
+        "bn": "নালাটা সরু, তাই হ্যান্ড র‍্যামার দিয়ে দাবাতে হবে।",
+        "en": "The waterway is narrow, so we'll have to compact it with a hand rammer."
       },
-      "pronunciationTipBn": "'ㅌ' ধ্বনিটি 'থ'-এর মতো; '널' উচ্চারণ করার সময় 'ㄹ' ধ্বনিটি 'ল'-এর মতো হবে।"
+      "pronunciationTipBn": "수로 → [수로]। '수' মানে পানি, '로' মানে পথ — 'সু-রো'।"
     },
     {
-      "ko": "설계",
-      "romanization": "seolgye",
-      "bn": "নকশা/ডিজাইন",
-      "en": "design/plan",
+      "ko": "수풀",
+      "romanization": "supul",
+      "bn": "ঝোপঝাড়, আগাছার জঙ্গল",
+      "en": "bushes, thicket",
       "pos": "noun",
       "example": {
-        "ko": "설계도를 확인해 주세요.",
-        "bn": "ডিজাইন প্ল্যানটি পরীক্ষা করুন।",
-        "en": "Please check the design plan."
+        "ko": "수풀 때문에 작업하기 힘들 것 같아요.",
+        "bn": "ঝোপঝাড়ের জন্য কাজ করা কঠিন হবে বলে মনে হচ্ছে।",
+        "en": "It'll probably be hard to work because of the bushes."
       },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি 'ল'-এর মতো; '계' উচ্চারণ করার সময় 'ㄱ' একটু নরম করে বলুন।"
+      "pronunciationTipBn": "수풀 → [수풀]। 'ㅍ' নিঃশ্বাসযুক্ত 'ফ' — 'সু-পুল' নয়, 'সু-ফুল'।"
     },
     {
-      "ko": "측량",
-      "romanization": "cheukryang",
-      "bn": "পরিমাপ/ম্যাপিং",
-      "en": "surveying",
-      "pos": "noun",
+      "ko": "퍼내다",
+      "romanization": "peonaeda",
+      "bn": "তুলে ফেলা, ছেঁচে বের করা (মাটি বা পানি)",
+      "en": "to scoop out, to bail out",
+      "pos": "verb",
       "example": {
-        "ko": "오늘 오전에 측량을 합니다.",
-        "bn": "আজ সকালে পরিমাপ করা হবে।",
-        "en": "We will do surveying this morning."
+        "ko": "굴착기로 침전물을 퍼내야겠어요.",
+        "bn": "এক্সকাভেটর দিয়ে তলানিটা তুলে ফেলতে হবে।",
+        "en": "We'll have to scoop out the sediment with the excavator."
       },
-      "pronunciationTipBn": "'ㄹ' ধ্ব니টি 'ㄴ'-এর মতো উচ্চারিত হয় (측냥); '측' উচ্চারণ করার সময় 'ㅊ' একটু জোর দিয়ে বলুন।"
+      "pronunciationTipBn": "퍼내다 → [퍼내다]। 'ㅍ' নিঃশ্বাসযুক্ত 'ফ', 'ㅐ' খোলা 'অ্যা' — 'ফো-ন্যা-দা'।"
     },
     {
-      "ko": "파일",
-      "romanization": "pail",
-      "bn": "পাইল (ভিত্তির খুঁটি)",
-      "en": "pile (foundation)",
-      "pos": "noun",
+      "ko": "빨아들이다",
+      "romanization": "pparadeurida",
+      "bn": "টেনে ভেতরে নেওয়া, শুষে নেওয়া",
+      "en": "to suck up, to draw in",
+      "pos": "verb",
       "example": {
-        "ko": "파일을 박기 전에 위치를 표시하세요.",
-        "bn": "পাইল বসানোর আগে অবস্থান চিহ্নিত করুন।",
-        "en": "Mark the positions before driving piles."
+        "ko": "흡입 호스로 토사를 빨아들이는 게 좋겠어요.",
+        "bn": "সাকশন হোস দিয়ে পলিটা টেনে নেওয়াই ভালো হবে।",
+        "en": "It would be better to suck up the sediment with a suction hose."
       },
-      "pronunciationTipBn": "'ㅍ' ধ্বনিটি 'ফ'-এর মতো; '일' উচ্চারণ করার সময় 'ㄹ' ধ্বনিটি 'ল'-এর মতো হবে।"
+      "pronunciationTipBn": "빨아들이다 → [빠라드리다]। 'ㅃ' টান-টান শক্ত 'প', আর 'ㄹ' পরের স্বরে জুড়ে যায় — 'প্পা-রা-দৃ-রি-দা'।"
     },
     {
-      "ko": "기초",
-      "romanization": "gicho",
-      "bn": "ভিত্তি/ফাউন্ডেশন",
-      "en": "foundation",
+      "ko": "흡입 호스",
+      "romanization": "heubip hoseu",
+      "bn": "সাকশন হোস (টেনে নেওয়ার নল)",
+      "en": "suction hose",
       "pos": "noun",
       "example": {
-        "ko": "기초는 튼튼해야 합니다.",
-        "bn": "ভিত্তি মজবুত হওয়া উচিত।",
-        "en": "The foundation must be strong."
+        "ko": "침전물이 많은데 흡입 호스로 빨아들입시다.",
+        "bn": "তলানি অনেক জমেছে, সাকশন হোস দিয়ে টেনে নিই।",
+        "en": "There's a lot of sediment — let's suck it up with the suction hose."
       },
-      "pronunciationTipBn": "'ㄱ' ধ্বনিটি 'গ' এবং 'ক'-এর মাঝামাঝি; '초' উচ্চারণ করার সময় 'ㅊ' একটু জোর দিয়ে বলুন।"
+      "pronunciationTipBn": "흡입 → [흐빕]। 'ㅂ' পরের স্বরে জুড়ে যায় — 'হৃপ-ইপ' নয়, 'হৃ-বিপ্'।"
     },
     {
-      "ko": "콘크리트",
-      "romanization": "konkeuriteu",
-      "bn": "কংক্রিট",
-      "en": "concrete",
+      "ko": "고압 호스",
+      "romanization": "goap hoseu",
+      "bn": "উচ্চচাপের হোস (জোরে পানি ছোড়ার নল)",
+      "en": "high-pressure hose",
       "pos": "noun",
       "example": {
-        "ko": "콘크리트를 붓기 전 거푸집을 확인합니다.",
-        "bn": "কংক্রিট ঢালার আগে ফর্মওয়ার্ক পরীক্ষা করুন।",
-        "en": "Check the formwork before pouring concrete."
+        "ko": "고압 호스로 물을 뿌려서 흙을 부드럽게 만듭시다.",
+        "bn": "উচ্চচাপের হোস দিয়ে পানি ছিটিয়ে মাটিটা নরম করে নিই।",
+        "en": "Let's spray water with a high-pressure hose to soften the soil."
       },
-      "pronunciationTipBn": "'ㅋ' ধ্বনিটি 'খ'-এর মতো; '트' উচ্চারণ করার সময় 'ㅌ' একটু জোর দিয়ে বলুন।"
+      "pronunciationTipBn": "고압 → [고압]। '고' মানে উঁচু, '압' মানে চাপ — শেষে 'ㅂ' ঠোঁট বন্ধ করে 'গো-আপ্'।"
     },
     {
-      "ko": "철근",
-      "romanization": "cheolgeun",
-      "bn": "রড/রিইনফোর্সিং বার",
-      "en": "rebar",
-      "pos": "noun",
+      "ko": "물을 빼다",
+      "romanization": "mureul ppaeda",
+      "bn": "পানি বের করে দেওয়া, পানি সরানো",
+      "en": "to drain water",
+      "pos": "phrase",
       "example": {
-        "ko": "철근을 규격에 맞게 배치하세요.",
-        "bn": "রডগুলো মান অনুযায়ী স্থাপন করুন।",
-        "en": "Place the rebar according to specifications."
+        "ko": "어서 물부터 뺍시다.",
+        "bn": "আগে তাড়াতাড়ি পানিটা বের করে দিই।",
+        "en": "Let's drain the water first."
       },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি 'ছ'-এর মতো; '근' উচ্চারণ করার সময় 'ㄱ' একটু নরম করে বলুন।"
+      "pronunciationTipBn": "빼다 → [빼다]। 'ㅃ' টান-টান শক্ত 'প' আর 'ㅐ' খোলা 'অ্যা' — 'প্প্যা-দা'। খেয়াল রাখুন, '물을 뿌리다' মানে পানি ছিটানো — ঠিক উল্টো কাজ।"
     },
     {
-      "ko": "덤프트럭",
-      "romanization": "deompeuteureok",
-      "bn": "ডাম্পট্রাক",
-      "en": "dump truck",
-      "pos": "noun",
+      "ko": "딱딱하다",
+      "romanization": "ttakttakada",
+      "bn": "শক্ত হয়ে থাকা, কঠিন হয়ে যাওয়া",
+      "en": "to be hard, stiff",
+      "pos": "adjective",
       "example": {
-        "ko": "덤프트럭이 자재를 싣고 옵니다.",
-        "bn": "ডাম্পট্রাক উপকরণ নিয়ে আসছে।",
-        "en": "The dump truck is bringing materials."
+        "ko": "비가 안 와서 저쪽은 흙이 딱딱하게 굳어 있어요.",
+        "bn": "বৃষ্টি হয়নি বলে ওদিকটার মাটি শক্ত হয়ে জমে আছে।",
+        "en": "It hasn't rained, so the soil over there has hardened."
       },
-      "pronunciationTipBn": "'ㄷ' ধ্ব니টি 'দ' এবং 'ত'-এর মাঝামাঝি; '트' উচ্চারণ করার সময় 'ㅌ' একটু জোর দিয়ে বলুন।"
+      "pronunciationTipBn": "딱딱하다 → [딱따카다]। দুটো 'ㄸ' টান-টান শক্ত 'ত', আর 'ㄱ'+'ㅎ' মিশে 'ㅋ' — 'ত্তাক-ত্তা-খা-দা'।"
     },
     {
-      "ko": "크레인",
-      "romanization": "keurein",
-      "bn": "ক্রেন",
-      "en": "crane",
-      "pos": "noun",
+      "ko": "부드럽다",
+      "romanization": "budeureopda",
+      "bn": "নরম হওয়া, মোলায়েম হওয়া",
+      "en": "to be soft",
+      "pos": "adjective",
       "example": {
-        "ko": "크레인으로 자재를 올립니다.",
-        "bn": "ক্রেন দিয়ে মালপত্র উঠানো হচ্ছে।",
-        "en": "We lift materials with the crane."
+        "ko": "물을 뿌리면 흙이 부드러워져요.",
+        "bn": "পানি ছিটালে মাটি নরম হয়ে যায়।",
+        "en": "If you spray water, the soil becomes soft."
       },
-      "pronunciationTipBn": "'ㅋ' ধ্ব니টি 'খ'-এর মতো; '레' উচ্চারণ করার সময় 'ㄹ' ধ্বনিটি 'র'-এর মতো হবে।"
+      "pronunciationTipBn": "부드럽다 → [부드럽따]। 'ㅂ' অনিয়মিত: 부드러워요, 부드러운 — 'ㅂ' পড়ে গিয়ে '우' হয়।"
     },
     {
-      "ko": "사인보드",
-      "romanization": "sainbodeu",
-      "bn": "সাইনবোর্ড",
-      "en": "signboard",
-      "pos": "noun",
+      "ko": "흐르다",
+      "romanization": "heureuda",
+      "bn": "বওয়া, প্রবাহিত হওয়া",
+      "en": "to flow",
+      "pos": "verb",
       "example": {
-        "ko": "안전 사인보드를 설치하세요.",
-        "bn": "নিরাপত্তার সাইনবোর্ড স্থাপন করুন।",
-        "en": "Install the safety signboard."
+        "ko": "물이 잘 흐르도록 수로를 청소하세요.",
+        "bn": "পানি যাতে ভালোভাবে বয়, সেজন্য নালাটা পরিষ্কার করুন।",
+        "en": "Clean the waterway so the water flows well."
       },
-      "pronunciationTipBn": "'ㅅ' ধ্ব니টি 'স'-এর মতো; '보' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "흐르다 → 흘러요 [흘러요]। এটি '르' অনিয়মিত ক্রিয়া: 'ㄹ' দুবার এসে '흘러' হয় — '흐러요' ভুল।"
     },
     {
-      "ko": "안전모",
-      "romanization": "anjeonmo",
-      "bn": "সেফটি হেলমেট",
-      "en": "safety helmet",
-      "pos": "noun",
+      "ko": "쌓이다",
+      "romanization": "ssaida",
+      "bn": "জমে যাওয়া, স্তরে স্তরে জমা হওয়া",
+      "en": "to pile up, to accumulate",
+      "pos": "verb",
       "example": {
-        "ko": "모든 작업자는 안전모를 착용합니다.",
-        "bn": "সব কর্মীরা হেলমেট পরবে।",
-        "en": "All workers wear safety helmets."
+        "ko": "하천 바닥에 토사가 많이 쌓였어요.",
+        "bn": "খালের তলায় অনেক পলি জমেছে।",
+        "en": "A lot of sediment has piled up on the streambed."
       },
-      "pronunciationTipBn": "'ㅇ' ধ্ব니টি শব্দের শুরুতে উচ্চারিত হয় না; '모' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "쌓이다 → [싸이다]। 'ㅎ' স্বরের আগে একেবারে উচ্চারিত হয় না — 'সা-হি-দা' নয়, 'স্সা-ই-দা'। এই নিয়মটি এই পাঠের উচ্চারণ-বিষয়।"
     },
     {
-      "ko": "작업자",
-      "romanization": "jageobja",
-      "bn": "কর্মচারী/শ্রমিক",
-      "en": "worker",
+      "ko": "펌프",
+      "romanization": "peompeu",
+      "bn": "পাম্প (পানি টেনে সরানোর যন্ত্র)",
+      "en": "pump",
       "pos": "noun",
       "example": {
-        "ko": "작업자는 도구를 점검합니다.",
-        "bn": "কর্মী জিনিসপত্র পরীক্ষা করছে।",
-        "en": "The worker inspects the tools."
+        "ko": "펌프를 작동시켜서 물을 빼세요.",
+        "bn": "পাম্প চালিয়ে পানিটা বের করে দিন।",
+        "en": "Run the pump to drain the water."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্ব니টি 'জ' এবং 'চ'-এর মাঝামাঝি; '업' উচ্চারণ করার সময় 'ㅂ' ধ্বনিটি 'প'-এর মতো হবে।"
+      "pronunciationTipBn": "펌프 → [펌프]। দুটোই নিঃশ্বাসযুক্ত 'ㅍ' = 'ফ', আর 'ㅡ' ঠোঁট চ্যাপ্টা — 'পম-পু' নয়, 'ফম-ফৃ'।"
     },
     {
-      "ko": "배수",
-      "romanization": "baesu",
-      "bn": "জল নিষ্কাশন",
-      "en": "drainage",
+      "ko": "구역",
+      "romanization": "guyeok",
+      "bn": "এলাকা, ভাগ করা অংশ",
+      "en": "zone, section",
       "pos": "noun",
       "example": {
-        "ko": "배수구를 먼저 정리하세요.",
-        "bn": "প্রথমে জলনিষ্কাশন খনির কাজ করুন।",
-        "en": "Clear the drainage first."
+        "ko": "구역을 나눠서 작업해야겠어요.",
+        "bn": "এলাকা ভাগ করে কাজ করতে হবে।",
+        "en": "We'll have to divide it into zones and work."
       },
-      "pronunciationTipBn": "'ㅂ' ধ্ব니টি 'ব' এবং 'প'-এর মাঝামাঝি; '수' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "구역 → [구역]। 'ㅕ' হলো 'ইয়ো' — 'গু-এক' নয়, 'গু-ইয়ক্'।"
     },
     {
-      "ko": "배치도",
-      "romanization": "baechido",
-      "bn": "বিন্যাস চিত্র",
-      "en": "layout plan",
-      "pos": "noun",
+      "ko": "미루다",
+      "romanization": "miruda",
+      "bn": "পিছিয়ে দেওয়া, পরে করার জন্য রেখে দেওয়া",
+      "en": "to postpone, to put off",
+      "pos": "verb",
       "example": {
-        "ko": "현장 배치도를 확인하세요.",
-        "bn": "সাইট লেআউট প্ল্যান চেক করুন।",
-        "en": "Check the site layout plan."
+        "ko": "비가 온다고 해서 타설을 내일로 미뤄야겠어요.",
+        "bn": "বৃষ্টি হবে বলছে, তাই ঢালাইটা কাল পর্যন্ত পিছিয়ে দিতে হবে।",
+        "en": "They say it'll rain, so we'll have to postpone the pouring to tomorrow."
       },
-      "pronunciationTipBn": "'ㅂ' ধ্ব니টি 'ব' এবং 'প'-এর মাঝামাঝি; '도' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "미루다 → 미뤄요 [미뤄요]। 'ㅜ'+'ㅓ' মিলে 'ㅝ' হয় — 'মি-রু-ও-요' নয়, একটানে 'মি-রুও-য়ো'।"
     },
     {
-      "ko": "포크레인",
-      "romanization": "pokeurein",
-      "bn": "এক্সকাভেটর",
-      "en": "excavator",
-      "pos": "noun",
+      "ko": "땅을 파다",
+      "romanization": "ttangeul pada",
+      "bn": "মাটি খোঁড়া (পাইপ বসানোর গর্ত করা)",
+      "en": "to excavate the ground",
+      "pos": "phrase",
       "example": {
-        "ko": "포크레인으로 땅을 팝니다.",
-        "bn": "এক্সকাভেটর দিয়ে মাটি খোঁড়া হয়।",
-        "en": "Dig the ground with an excavator."
+        "ko": "작업 준비가 끝났으면 먼저 땅을 파세요.",
+        "bn": "কাজের প্রস্তুতি শেষ হলে আগে মাটি খুঁড়ুন।",
+        "en": "If the preparation is done, first dig the ground."
       },
-      "pronunciationTipBn": "'ㅍ' ধ্বনিটি 'ফ'-এর মতো; '레' উচ্চারণ করার সময় 'ㄹ' ধ্বনিটি 'র'-এর মতো হবে।"
+      "pronunciationTipBn": "땅을 → [땅을]। 'ㄸ' টান-টান শক্ত 'ত', 'ㅇ' নাক দিয়ে — 'ত্তাং-উল'। এই ধাপটিকে '터파기'ও বলা হয়।"
     },
     {
-      "ko": "지게차",
-      "romanization": "jigecha",
-      "bn": "ফর্কলিফ্ট",
-      "en": "forklift",
+      "ko": "터파기",
+      "romanization": "teopagi",
+      "bn": "ভিত খোঁড়ার কাজ (নির্মাণের প্রথম ধাপ)",
+      "en": "excavation work",
       "pos": "noun",
       "example": {
-        "ko": "지게차로 짐을 옮기세요.",
-        "bn": "ফর্কলিফ্ট দিয়ে মালপত্র সরান।",
-        "en": "Move the load with a forklift."
+        "ko": "터파기가 끝났는데 이제 관을 배치할까요?",
+        "bn": "ভিত খোঁড়া শেষ, এখন কি পাইপ বসাব?",
+        "en": "The excavation is done — shall we place the pipes now?"
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'জ' এবং 'চ'-এর মাঝামাঝি; '차' উচ্চারণ করার সময় 'ㅊ' একটু জোর দিয়ে বলুন।"
+      "pronunciationTipBn": "터파기 → [터파기]। 'ㅌ' আর 'ㅍ' দুটোই নিঃশ্বাসযুক্ত — 'তা-পা-গি' নয়, 'থো-ফা-গি'।"
     },
     {
-      "ko": "안전화",
-      "romanization": "anjeonhwa",
-      "bn": "সেফটি জুতো",
-      "en": "safety shoes",
+      "ko": "관",
+      "romanization": "gwan",
+      "bn": "পাইপ, নল",
+      "en": "pipe",
       "pos": "noun",
       "example": {
-        "ko": "안전화를 꼭 신어야 합니다.",
-        "bn": "সেফটি জুতো অবশ্যই পরতে হবে।",
-        "en": "You must wear safety shoes."
+        "ko": "누수가 발생하지 않도록 관을 잘 연결해야 돼요.",
+        "bn": "যাতে লিক না হয়, সেজন্য পাইপগুলো ভালোভাবে জোড়া লাগাতে হবে।",
+        "en": "You must connect the pipes well so leaks don't occur."
       },
-      "pronunciationTipBn": "'ㅇ' ধ্বনিটি শব্দের শুরুতে উচ্চারিত হয় না; '화' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "관 → [관]। 'ㄱ'+'ㅘ' মিলে 'গোয়া', শেষে 'ㄴ' — 'গান' নয়, 'গোয়ান'।"
     },
     {
-      "ko": "안전대",
-      "romanization": "anjeondae",
-      "bn": "সেফটি বেল্ট",
-      "en": "safety harness",
+      "ko": "상수도관",
+      "romanization": "sangsudogwan",
+      "bn": "সরবরাহ লাইনের পাইপ (পরিষ্কার পানির নল)",
+      "en": "water supply pipe",
       "pos": "noun",
       "example": {
-        "ko": "높은 곳에서는 안전대를 매세요.",
-        "bn": "উঁচু জায়গায় সেফটি বেল্ট বাঁধুন।",
-        "en": "Wear a safety harness in high places."
+        "ko": "상수도관에 균열이 생겨서 물이 새는 것 같습니다.",
+        "bn": "সরবরাহ লাইনের পাইপে ফাটল ধরায় পানি চুইয়ে পড়ছে বলে মনে হচ্ছে।",
+        "en": "It seems a crack has formed in the water supply pipe and water is leaking."
       },
-      "pronunciationTipBn": "'ㄷ' ধ্বনিটি 'দ' এবং 'ত'-এর মাঝামাঝি; '대' উচ্চারণ করার সময় মুখ একটু বেশি খুলুন।"
+      "pronunciationTipBn": "상수도 → [상수도]। '상수도' মানে পরিষ্কার পানির লাইন, আর '하수도' মানে ময়লা পানির লাইন — '상' (উপর) আর '하' (নিচ) দিয়ে পার্থক্য।"
     },
     {
-      "ko": "장갑",
-      "romanization": "janggap",
-      "bn": "দস্তানা/গ্লাভস",
-      "en": "gloves",
-      "pos": "noun",
+      "ko": "배치하다",
+      "romanization": "baechihada",
+      "bn": "সাজিয়ে বসানো, জায়গামতো রাখা",
+      "en": "to place, to lay out",
+      "pos": "verb",
       "example": {
-        "ko": "작업할 때 장갑을 끼세요.",
-        "bn": "কাজ করার সময় গ্লাভস পরুন।",
-        "en": "Wear gloves when working."
+        "ko": "땅을 판 다음에 관을 배치합니다.",
+        "bn": "মাটি খোঁড়ার পর পাইপগুলো সাজিয়ে বসানো হয়।",
+        "en": "After digging, we lay out the pipes."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'জ' এবং 'চ'-এর মাঝামাঝি; '갑' উচ্চারণ করার সময় 'ㅂ' ধ্বনিটি 'প'-এর মতো হবে।"
+      "pronunciationTipBn": "배치 → [배치]। 'ㅐ' খোলা 'অ্যা', 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'ব্যা-ছি'।"
     },
     {
-      "ko": "마스크",
-      "romanization": "maseukeu",
-      "bn": "মাস্ক",
-      "en": "mask",
-      "pos": "noun",
+      "ko": "채우다",
+      "romanization": "chaeuda",
+      "bn": "ভরে দেওয়া (পাইপের চারপাশ বালি-খোয়া দিয়ে ভরা)",
+      "en": "to fill in",
+      "pos": "verb",
       "example": {
-        "ko": "먼지가 많으니 마스크를 쓰세요.",
-        "bn": "ধুলো বেশি তাই মাস্ক পরুন।",
-        "en": "There is a lot of dust, so wear a mask."
+        "ko": "관 주위를 모래와 자갈로 채우세요.",
+        "bn": "পাইপের চারপাশটা বালি আর খোয়া দিয়ে ভরে দিন।",
+        "en": "Fill around the pipe with sand and gravel."
       },
-      "pronunciationTipBn": "'ㅁ' ধ্বনিটি 'ম'-এর মতো; '크' উচ্চারণ করার সময় 'ㅋ' একটু জোর দিয়ে বলুন।"
+      "pronunciationTipBn": "채우다 → [채우다]। 'ㅐ' খোলা 'অ্যা' — 'ছে-উ-দা' নয়, 'ছ্যা-উ-দা'।"
     },
     {
-      "ko": "벽돌",
-      "romanization": "byeokdol",
-      "bn": "ইট",
-      "en": "brick",
+      "ko": "되메우기",
+      "romanization": "doemeugi",
+      "bn": "ব্যাকফিলিং (খোঁড়া গর্ত আবার মাটি দিয়ে ভরা)",
+      "en": "backfilling",
       "pos": "noun",
       "example": {
-        "ko": "벽돌을 조심해서 나르세요.",
-        "bn": "ইট সাবধানে বহন করুন।",
-        "en": "Carry the bricks carefully."
+        "ko": "배관 연결이 끝났으니까 이제 되메우기를 하면 돼요.",
+        "bn": "পাইপ জোড়া লাগানো শেষ, এখন ব্যাকফিলিং করলেই হবে।",
+        "en": "The pipe connection is done, so now we can backfill."
       },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি 'ব' এবং 'প'-এর মাঝামাঝি; '돌' উচ্চারণ করার সময় 'ㄷ' একটু জোর দিয়ে বলুন।"
+      "pronunciationTipBn": "되메우기 → [뒈메우기]। 'ㅚ' হলো 'ওয়ে'-এর কাছাকাছি — 'দো-এ' নয়, 'দোয়ে-মে-উ-গি'। '되-' মানে আবার।"
     },
     {
-      "ko": "시멘트",
-      "romanization": "simente",
-      "bn": "সিমেন্ট",
-      "en": "cement",
-      "pos": "noun",
+      "ko": "다지다",
+      "romanization": "dajida",
+      "bn": "দাবিয়ে শক্ত করা, চেপে বসিয়ে দেওয়া",
+      "en": "to compact, to tamp down",
+      "pos": "verb",
       "example": {
-        "ko": "시멘트가 굳기 전에 작업하세요.",
-        "bn": "সিমেন্ট শক্ত হওয়ার আগে কাজ করুন।",
-        "en": "Work before the cement hardens."
+        "ko": "되메우기가 진행되면 다지기 작업을 시작해 주세요.",
+        "bn": "ব্যাকফিলিং কিছুটা এগোলে দাবানোর কাজ শুরু করুন।",
+        "en": "Once the backfilling has progressed, please start compacting."
       },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি 'স'-এর মতো; '트' উচ্চারণ করার সময় 'ㅌ' একটু জোর দিয়ে বলুন।"
+      "pronunciationTipBn": "다지다 → [다지다]। খেয়াল রাখুন — '채우다' মানে ভরা, আর '다지다' মানে ভরার পর চেপে শক্ত করা; দুটি আলাদা ধাপ।"
     },
     {
-      "ko": "모래",
-      "romanization": "morae",
-      "bn": "বালি",
-      "en": "sand",
+      "ko": "핸드 램머",
+      "romanization": "haendeu raemmeo",
+      "bn": "হ্যান্ড র‍্যামার (হাতে চালানো মাটি দাবানোর যন্ত্র)",
+      "en": "hand rammer",
       "pos": "noun",
       "example": {
-        "ko": "모래를 덤프트럭에 실으세요.",
-        "bn": "বালি ডাম্পট্রাকে বোঝাই করুন।",
-        "en": "Load the sand onto the dump truck."
+        "ko": "수로가 좁아서 핸드 램머로 다져야겠어요.",
+        "bn": "নালাটা সরু, তাই হ্যান্ড র‍্যামার দিয়ে দাবাতে হবে।",
+        "en": "The waterway is narrow, so we'll have to compact it with a hand rammer."
       },
-      "pronunciationTipBn": "'ㅁ' ধ্বনিটি 'ম'-এর মতো; '래' উচ্চারণ করার সময় মুখ একটু বেশি খুলুন।"
+      "pronunciationTipBn": "램머 → [램머]। 'ㅁㅁ' দুটো 'ম' একসঙ্গে, ঠোঁট বন্ধ করে টেনে — 'র‍্যাম-মো'।"
     },
     {
-      "ko": "자갈",
-      "romanization": "jagal",
-      "bn": "নুড়ি পাথর",
-      "en": "gravel",
-      "pos": "noun",
+      "ko": "균열이 생기다",
+      "romanization": "gyunyeori saenggida",
+      "bn": "ফাটল ধরা, চিড় ধরা",
+      "en": "for cracks to form",
+      "pos": "phrase",
       "example": {
-        "ko": "자갈을 바닥에 깔아 주세요.",
-        "bn": "নুড়ি পাথর মেঝেতে বিছিয়ে দিন।",
-        "en": "Please spread gravel on the floor."
+        "ko": "상수도관에 균열이 생겨서 물이 새는 것 같습니다.",
+        "bn": "সরবরাহ লাইনের পাইপে ফাটল ধরায় পানি চুইয়ে পড়ছে বলে মনে হচ্ছে।",
+        "en": "It seems a crack formed in the water pipe and water is leaking."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি 'জ' এবং 'চ'-এর মাঝামাঝি; '갈' উচ্চারণ করার সময় 'ㄹ' ধ্বনিটি 'ল'-এর মতো হবে।"
+      "pronunciationTipBn": "균열 → [규녈]। 'ㄴ' পরের স্বরে জুড়ে যায় — 'গিউন-ইয়ল' নয়, 'গিউ-নিয়ল'।"
     },
     {
-      "ko": "삽",
-      "romanization": "sap",
-      "bn": "বেলচা",
-      "en": "shovel",
-      "pos": "noun",
+      "ko": "누수가 발생하다",
+      "romanization": "nusuga balsaenghada",
+      "bn": "লিক হওয়া, পানি চুইয়ে পড়া",
+      "en": "for a leak to occur",
+      "pos": "phrase",
       "example": {
-        "ko": "삽으로 흙을 파세요.",
-        "bn": "বেলচা দিয়ে মাটি খুঁড়ুন।",
-        "en": "Dig the soil with a shovel."
+        "ko": "누수가 발생하지 않도록 관을 잘 연결했지요?",
+        "bn": "যাতে লিক না হয়, সেভাবে পাইপগুলো ভালোভাবে জোড়া লাগিয়েছেন তো?",
+        "en": "You connected the pipes well so that no leak occurs, right?"
       },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি 'স'-এর মতো; '삽' উচ্চারণ করার সময় 'ㅂ' ধ্বনিটি 'প'-এর মতো হবে।"
+      "pronunciationTipBn": "누수 → [누수]। '누' মানে চুইয়ে পড়া, '수' মানে পানি — 'নু-সু'। '발생하다' মানে ঘটা।"
     },
     {
-      "ko": "흙",
-      "romanization": "heuk",
-      "bn": "মাটি",
-      "en": "soil/dirt",
+      "ko": "절토",
+      "romanization": "jeolto",
+      "bn": "মাটি কেটে ফেলা (উঁচু জায়গা কেটে সমান করা)",
+      "en": "cutting (soil)",
       "pos": "noun",
       "example": {
-        "ko": "흙을 한 곳에 모으세요.",
-        "bn": "মাটি এক জায়গায় জড়ো করুন।",
-        "en": "Gather the soil in one place."
+        "ko": "언덕이 높아서 절토 작업이 필요합니다.",
+        "bn": "টিলাটা উঁচু, তাই মাটি কাটার কাজ দরকার।",
+        "en": "The hill is high, so cutting work is needed."
       },
-      "pronunciationTipBn": "'ㅎ' ধ্বনিটি 'হ'-এর মতো; '흙' উচ্চারণ করার সময় 'ㄱ' ধ্বনিটি 'ক'-এর মতো হবে।"
+      "pronunciationTipBn": "절토 → [절토]। 'ㅌ' নিঃশ্বাসযুক্ত 'থ' — 'জল-তো' নয়, 'জল-থো'। '절' মানে কাটা।"
     },
     {
-      "ko": "용접",
-      "romanization": "yongjeop",
-      "bn": "ওয়েল্ডিং",
-      "en": "welding",
+      "ko": "성토",
+      "romanization": "seongto",
+      "bn": "মাটি ফেলে উঁচু করা",
+      "en": "embankment, filling (soil)",
       "pos": "noun",
       "example": {
-        "ko": "용접할 때 불꽃을 조심하세요.",
-        "bn": "ওয়েল্ডিং করার সময় স্ফুলিঙ্গ থেকে সাবধান।",
-        "en": "Be careful of sparks when welding."
+        "ko": "낮은 곳은 성토를 해서 높이를 맞춥니다.",
+        "bn": "নিচু জায়গায় মাটি ফেলে উচ্চতা মিলিয়ে নেওয়া হয়।",
+        "en": "For low areas we build up soil to match the height."
       },
-      "pronunciationTipBn": "'ㅇ' ধ্বনিটি শব্দের শুরুতে উচ্চারিত হয় না; '접' উচ্চারণ করার সময় 'ㅂ' ধ্বনিটি 'প'-এর মতো হবে।"
+      "pronunciationTipBn": "성토 → [성토]। 'ㅇ' নাক দিয়ে, 'ㅌ' নিঃশ্বাসযুক্ত — 'সোং-থো'। '절토'-এর ঠিক উল্টো কাজ।"
     },
     {
-      "ko": "페인트",
-      "romanization": "peinteu",
-      "bn": "রং",
-      "en": "paint",
+      "ko": "너비",
+      "romanization": "neobi",
+      "bn": "চওড়া, প্রস্থ",
+      "en": "width",
       "pos": "noun",
       "example": {
-        "ko": "벽에 페인트를 칠합니다.",
-        "bn": "দেয়ালে রং করা হচ্ছে।",
-        "en": "Painting the wall."
+        "ko": "관 너비보다 땅을 넓게 파야 돼요.",
+        "bn": "পাইপের প্রস্থের চেয়ে মাটি বেশি চওড়া করে খুঁড়তে হবে।",
+        "en": "You must dig wider than the width of the pipe."
       },
-      "pronunciationTipBn": "'ㅍ' ধ্বনিটি 'ফ'-এর মতো; '트' উচ্চারণ করার সময় 'ㅌ' একটু জোর দিয়ে বলুন।"
+      "pronunciationTipBn": "너비 → [너비]। 'ㅓ' মুখ আলগা রেখে 'অ' — 'না-বি' নয়, 'নো-বি'।"
+    },
+    {
+      "ko": "주위",
+      "romanization": "juwi",
+      "bn": "চারপাশ, আশপাশ",
+      "en": "surroundings, around",
+      "pos": "noun",
+      "example": {
+        "ko": "관 주위를 모래와 자갈로 채웁니다.",
+        "bn": "পাইপের চারপাশ বালি আর খোয়া দিয়ে ভরা হয়।",
+        "en": "We fill around the pipe with sand and gravel."
+      },
+      "pronunciationTipBn": "주위 → [주위]। 'ㅟ' ঠোঁট গোল করে একটানে 'উই' — 'জু-উ-ই' নয়, 'জু-উই'।"
+    },
+    {
+      "ko": "제자리",
+      "romanization": "jejari",
+      "bn": "নিজের জায়গা, যেখানে থাকার কথা",
+      "en": "its proper place",
+      "pos": "noun",
+      "example": {
+        "ko": "다 쓴 공구를 제자리에 두세요.",
+        "bn": "ব্যবহার শেষ হওয়া যন্ত্রপাতি যার যার জায়গায় রাখুন।",
+        "en": "Put the tools you've finished using back in their place."
+      },
+      "pronunciationTipBn": "제자리 → [제자리]। '제' মানে নিজের, '자리' মানে জায়গা — 'জে-জা-রি'।"
+    },
+    {
+      "ko": "간척하다",
+      "romanization": "gancheokada",
+      "bn": "সমুদ্র ভরাট করে জমি বানানো",
+      "en": "to reclaim land",
+      "pos": "verb",
+      "example": {
+        "ko": "인천국제공항은 섬을 간척하여 건설했습니다.",
+        "bn": "ইনচন আন্তর্জাতিক বিমানবন্দর দ্বীপ ভরাট করে বানানো হয়েছে।",
+        "en": "Incheon International Airport was built by reclaiming islands."
+      },
+      "pronunciationTipBn": "간척하다 → [간처카다]। 'ㄱ'+'ㅎ' মিশে নিঃশ্বাসযুক্ত 'ㅋ' — 'গান-ছক-হা-দা' নয়, 'গান-ছো-খা-দা'।"
     }
   ],
   "grammar": [
     {
-      "pattern": "-고 있다",
-      "titleBn": "চলছে (ক্রিয়া অবস্থা)",
-      "explanationBn": "어떤 일이 지금 진행 중일 때 씁니다। উদাহরণ: '굴착 작업을 하고 있다' — খনন কাজ চলছে; '크레인이 자재를 옮기고 있다' — ক্রেন মালপত্র ঢুকিয়ে নিচ্ছে. (영어: expresses an ongoing action; ex: 'is excavating', 'is moving materials with the crane').",
-      "explanationEn": "Used to indicate an action in progress now. Examples: '굴착 작업을 하고 있다' (excavation is in progress); '크레인이 자재를 옮기고 있다' (the crane is moving materials).",
+      "pattern": "V/A + -아야겠/어야겠- (추측)",
+      "titleBn": "'-아야겠/어야겠-' — 'পরিস্থিতি দেখে মনে হচ্ছে এমনটা করতে হবে'",
+      "explanationBn": "৩৫ নম্বর পাঠে আমরা '-아/어야겠다' শিখেছিলাম নিজের সিদ্ধান্ত বোঝাতে ('আমি এটা করব বলে ঠিক করলাম')। এই পাঠে একই রূপের দ্বিতীয় ব্যবহারটি শিখব — চোখের সামনে যে অবস্থা দেখা যাচ্ছে, তার ভিত্তিতে অনুমান করা যে কী করা দরকার। মূলের শেষ স্বর 'ㅏ' বা 'ㅗ' হলে '-아야겠-': 파다 → 파야겠어요। অন্য স্বর হলে '-어야겠-': 섞다 → 섞어야겠어요। '하다' হলে '해야겠-': 처리하다 → 처리해야겠어요। অন্যের অবস্থা দেখে মন্তব্য করতে প্রায়ই '-겠네요' রূপে আসে: '내일 새벽에 출근해야 돼요' → '그래요? 오늘 일찍 자야겠네요' — তাহলে তো আজ তাড়াতাড়ি ঘুমাতে হবে। নির্মাণস্থলে অবস্থা দেখে করণীয় ঠিক করতে এটি প্রতিদিন লাগে।",
+      "explanationEn": "Lesson 35 introduced -아/어야겠다 for the speaker's own resolve. This unit adds its second use: inferring what a situation calls for, based on what you can observe. Use -아야겠- after ㅏ/ㅗ stems (파야겠어요), -어야겠- elsewhere (섞어야겠어요), -해야겠- for 하다. Commenting on someone else's situation often takes -겠네요.",
       "examples": [
         {
-          "ko": "작업자가 배수구를 청소하고 있다.",
-          "bn": "কর্মীটি জলনিষ্কাশন পরিষ্কার করছে।",
-          "en": "The worker is cleaning the drainage."
+          "ko": "물을 빼기 전에 굴착기로 수풀을 먼저 제거해야겠어요.",
+          "bn": "পানি বের করার আগে এক্সকাভেটর দিয়ে ঝোপঝাড়টা আগে সরাতে হবে।",
+          "en": "We should remove the bushes with an excavator before draining the water."
         },
         {
-          "ko": "덤프트럭이 모래를 싣고 있다.",
-          "bn": "ডাম্পট্রাক বালি ভর্তি করছে।",
-          "en": "The dump truck is loading sand."
+          "ko": "준설해야 될 곳이 좀 넓어요. 그럼 구역을 나눠서 작업해야겠어요.",
+          "bn": "ড্রেজিং করার জায়গাটা একটু বড়। তাহলে এলাকা ভাগ করে কাজ করতে হবে।",
+          "en": "The area to dredge is rather large. Then we'd better divide it into zones."
         },
         {
-          "ko": "포크레인이 땅을 파고 있다.",
-          "bn": "এক্সকাভেটর মাটি খুঁড়ছে।",
-          "en": "The excavator is digging the ground."
+          "ko": "가: 내일 새벽에 출근해야 돼요. 나: 그래요? 오늘 일찍 자야겠네요.",
+          "bn": "ক: কাল ভোরে কাজে আসতে হবে। খ: তাই? তাহলে আজ তাড়াতাড়ি ঘুমাতে হবে।",
+          "en": "A: I have to come in at dawn tomorrow. B: Really? Then you'd better sleep early today."
+        },
+        {
+          "ko": "하천에 비가 온다고 해요. 그럼 타설을 내일로 미뤄야겠어요.",
+          "bn": "বৃষ্টি হবে বলছে। তাহলে ঢালাইটা কাল পর্যন্ত পিছিয়ে দিতে হবে।",
+          "en": "They say it'll rain. Then we'd better postpone the pouring to tomorrow."
         }
       ],
-      "commonMistakeBn": "অনেকে অতীত কালের সাথে '-고 있다' ব্যবহার করে ভুল করেন; এটি শুধুমাত্র বর্তমান চলমান কাজের জন্য ব্যবহৃত হয়।"
+      "commonMistakeBn": "'-아야겠-' আর '-아야 되다' গুলিয়ে ফেলা সাধারণ ভুল: '-아야 되다' বাইরের নিয়ম বা বাধ্যবাধকতা বোঝায় ('규칙이니까 해야 돼요'), কিন্তু '-아야겠-' বক্তার নিজের বিচার বোঝায় ('상황을 보니까 해야겠어요')। আরেকটি বিষয় — অন্যের কাজ নিয়ে '-아야겠어요' বললে আদেশের মতো শোনাতে পারে; সেক্ষেত্রে '-아야겠네요' বা '-(으)시는 게 좋겠어요' বলাই ভদ্র।"
     },
     {
-      "pattern": "-(으)세요",
-      "titleBn": "শান্ত বিনীত অনুরোধ/আদেশ",
-      "explanationBn": "কোনো নির্দেশ বা অনুরোধ বিনীতভাবে বলার জন্য। উদাহরণ: '헬멧을 쓰세요' — হেলমেট পরুন; '계단을 조심하세요' — সিঁড়ি সাবধানে ব্যবহার করুন। (ইংরেজি: polite imperative: 'please wear', 'please be careful').",
-      "explanationEn": "Polite imperative for requests or commands. Examples: '헬멧을 쓰세요' (please wear a helmet); '조심하세요' (please be careful).",
+      "pattern": "V + -도록 (목적·정도)",
+      "titleBn": "'-도록' — 'যাতে এমন হয়' এবং 'এতটা পর্যন্ত'",
+      "explanationBn": "৩৯ নম্বর পাঠে '-도록' শিখেছিলাম উদ্দেশ্য বোঝাতে ('যাতে চোট না লাগে')। এই পাঠে এর দ্বিতীয় ব্যবহারটিও দেখব — কতটা পর্যন্ত বা কোন সীমা পর্যন্ত। উদ্দেশ্যের ব্যবহারে পরের অংশে করণীয় বসে: '누수가 생기지 않도록 관을 잘 연결해야 돼요'। আর সীমার ব্যবহারে সময় বা মাত্রা বোঝায়: '밤새도록 일했어요' (সারা রাত ধরে কাজ করেছি), '목이 아프도록 소리쳤어요' (গলা ব্যথা হওয়া পর্যন্ত চিৎকার করেছি)। বাতচিম থাকুক বা না থাকুক রূপ এক। কারিগরি নির্দেশে '-도록' খুব কাজে লাগে, কারণ কেন কাজটা করতে হবে তা একই বাক্যে বলা যায়।",
+      "explanationEn": "Lesson 39 covered -도록 for purpose ('so that'). This unit adds its second sense: extent or limit — 밤새도록 ('all night long'), 목이 아프도록 ('until my throat hurt'). The form is invariant in both uses.",
       "examples": [
         {
-          "ko": "안전모를 착용하세요.",
-          "bn": "সেফটি হেলমেট পরুন।",
-          "en": "Please wear a safety helmet."
+          "ko": "누수가 발생하지 않도록 관을 잘 연결해야 돼요.",
+          "bn": "যাতে লিক না হয়, সেজন্য পাইপগুলো ভালোভাবে জোড়া লাগাতে হবে।",
+          "en": "You must connect the pipes well so that leaks don't occur."
         },
         {
-          "ko": "표지판을 옮기세요.",
-          "bn": "সাইনবোর্ড সরান অনুগ্রহ করে।",
-          "en": "Please move the signboard."
+          "ko": "작업자들이 일하기 쉽도록 땅을 관 너비보다 넓게 파야 돼요.",
+          "bn": "কর্মীদের কাজ করতে সুবিধা হয় বলে মাটি পাইপের প্রস্থের চেয়ে চওড়া করে খুঁড়তে হবে।",
+          "en": "Dig wider than the pipe's width so the workers can work easily."
         },
         {
-          "ko": "안전화를 꼭 신으세요.",
-          "bn": "সেফটি জুতো অবশ্যই পরুন।",
-          "en": "Please make sure to wear safety shoes."
+          "ko": "사람들이 안전하게 다니도록 작업장 주위를 정리하겠습니다.",
+          "bn": "লোকজন যাতে নিরাপদে চলাফেরা করতে পারে, সেজন্য কর্মস্থলের চারপাশ গুছিয়ে দেব।",
+          "en": "I'll tidy around the site so people can move about safely."
+        },
+        {
+          "ko": "어제는 밤새도록 준설 작업을 했어요.",
+          "bn": "গতকাল সারা রাত ধরে ড্রেজিংয়ের কাজ করেছি।",
+          "en": "Yesterday we did dredging work all night long."
         }
       ],
-      "commonMistakeBn": "অনেকে বন্ধু বা ছোটদের সাথে '-(으)세요' ব্যবহার করেন; এটি শুধুমাত্র সম্মানজনক অনুরোধের জন্য ব্যবহৃত হয়।"
+      "commonMistakeBn": "'-도록'-এর আগে কালের রূপ বসানো ভুল: '발생했지 않도록' নয়, সঠিক '발생하지 않도록'। আরেকটি বিভ্রান্তি — '-도록' আর '-게': দুটোই উদ্দেশ্য বোঝায়, তবে '-도록' বেশি আনুষ্ঠানিক আর লিখিত নির্দেশে বেশি চলে, আর '-게' কথ্য ভাষায়। সীমা বোঝানোর ব্যবহারে অবশ্য '-게' বসে না — '밤새게' বলা যায় না, কেবল '밤새도록'।"
     },
     {
-      "pattern": "-아/어야 하다",
-      "titleBn": "প্রয়োজনীয়তা/কর্তব্য",
-      "explanationBn": "কিছু করতে হবে বোঝাতে। উদাহরণ: '설계를 확인해야 합니다' — ডিজাইন পরীক্ষা করা প্রয়োজন; '안전을 점검해야 해요' — নিরাপত্তা পরীক্ষা করা উচিত। (ইংরেজি: expresses necessity: 'must/need to').",
-      "explanationEn": "Expresses necessity or obligation. Examples: '설계를 확인해야 합니다' (you must check the design); '안전을 점검해야 해요' (you should check safety).",
+      "pattern": "V + -아/어 있다",
+      "titleBn": "'-아/어 있다' — 'কাজটা হয়ে যাওয়ার পর সেই অবস্থাতেই আছে'",
+      "explanationBn": "'-아/어 있다' বোঝায় — কোনো কাজ শেষ হয়ে গেছে এবং তার ফল এখনো টিকে আছে। মূলের শেষ স্বর 'ㅏ' বা 'ㅗ' হলে '-아 있다': 쌓다 → 쌓여 있다 (কর্মবাচ্যে), 앉다 → 앉아 있다। অন্য স্বর হলে '-어 있다': 굳다 → 굳어 있다, 열리다 → 열려 있다। খুব গুরুত্বপূর্ণ পার্থক্য — '-고 있다' মানে কাজটা এখন চলছে ('문을 열고 있어요' — দরজা খুলছি), কিন্তু '-아/어 있다' মানে কাজ শেষ, অবস্থাটা রয়ে গেছে ('문이 열려 있어요' — দরজা খোলা আছে)। নির্মাণস্থলে কোন জিনিস কী অবস্থায় আছে তা জানাতে এটি অপরিহার্য।",
+      "explanationEn": "-아/어 있다 describes a state that continues after an action is completed. Use -아 있다 after ㅏ/ㅗ stems and -어 있다 elsewhere. Contrast with -고 있다, which marks an action in progress: 문을 열고 있어요 ('I'm opening the door') versus 문이 열려 있어요 ('the door is open').",
       "examples": [
         {
-          "ko": "파일 위치를 확인해야 합니다.",
-          "bn": "পাইলের অবস্থান পরীক্ষা করতে হবে।",
-          "en": "You must check the pile positions."
+          "ko": "그동안 비가 많이 안 와서 저쪽은 흙이 딱딱하게 굳어 있어요.",
+          "bn": "এতদিন বৃষ্টি হয়নি বলে ওদিকটার মাটি শক্ত হয়ে জমে আছে।",
+          "en": "It hasn't rained much lately, so the soil over there has hardened."
         },
         {
-          "ko": "배수를 먼저 처리해야 해요.",
-          "bn": "প্রথমে জল নিষ্কাশন সমাধা করতে হবে।",
-          "en": "We need to handle drainage first."
+          "ko": "하천 바닥에 토사가 많이 쌓여 있네요.",
+          "bn": "খালের তলায় অনেক পলি জমে আছে তো।",
+          "en": "A lot of sediment has piled up on the streambed."
         },
         {
-          "ko": "작업 전에 도구를 점검해야 합니다.",
-          "bn": "কাজের আগে সরঞ্জাম পরীক্ষা করতে হবে।",
-          "en": "You must inspect the tools before working."
+          "ko": "관이 제자리에 놓여 있는지 확인하세요.",
+          "bn": "পাইপটা ঠিক জায়গায় বসানো আছে কিনা দেখে নিন।",
+          "en": "Check whether the pipe is in place."
         }
       ],
-      "commonMistakeBn": "অনেকে '하다' এর পরিবর্তে '되다' ব্যবহার করে বিভ্রান্ত হন; '-아/어야 하다' এবং '-아/어야 되다' উভয়ই সঠিক, তবে '하다' বেশি ব্যবহৃত হয়।"
+      "commonMistakeBn": "কর্মবাচক ক্রিয়ার সঙ্গে '-고 있다' বসিয়ে ফেলা সাধারণ ভুল: '토사가 쌓고 있어요' ভুল — পলি তো নিজে কিছু জমাচ্ছে না, তাই '쌓여 있어요' বলতে হবে। আরেকটি বিষয় — '-아/어 있다' সাধারণত অকর্মক ক্রিয়ার সঙ্গেই বসে (앉다, 서다, 열리다, 굳다); '먹어 있다' বা '읽어 있다' বলা যায় না।"
     },
     {
-      "pattern": "-(으)ㄹ 수 있다/없다",
-      "titleBn": "সক্ষমতা/সম্ভাবনা",
-      "explanationBn": "কোনো কাজ করতে পারা বা না পারা বোঝাতে ব্যবহৃত হয়। উদাহরণ: '운전할 수 있다' — গাড়ি চালাতে পারি; '할 수 없다' — করতে পারি না। (ইংরেজি: expresses ability or possibility: 'can/cannot').",
-      "explanationEn": "Used to express ability or possibility. Examples: '운전할 수 있다' (can drive); '할 수 없다' (cannot do).",
+      "pattern": "V + -는 게 어떨까요?",
+      "titleBn": "'-는 게 어떨까요?' — 'এভাবে করলে কেমন হয়?' (নরম প্রস্তাব)",
+      "explanationBn": "'-는 게 어떨까요?' ক্রিয়ামূলের সঙ্গে বসে খুব ভদ্রভাবে প্রস্তাব দেয় — সরাসরি না বলে শ্রোতার মত জানতে চাওয়া হয়। বাতচিম থাকুক বা না থাকুক রূপ এক: 제거하다 → 제거하는 게 어떨까요?, 먹다 → 먹는 게 어떨까요?। 'ㄹ' বাতচিম হলে 'ㄹ' পড়ে যায়: 만들다 → 만드는 게 어떨까요?। কারখানা বা নির্মাণস্থলে সিনিয়রকে বা সমবয়সীকে পরামর্শ দেওয়ার সবচেয়ে নিরাপদ রূপ এটি, কারণ এতে নির্দেশের ভাব নেই: '수풀부터 제거하는 게 어떨까요?' — আগে ঝোপঝাড়টা সরালে কেমন হয়?",
+      "explanationEn": "-는 게 어떨까요? offers a suggestion very politely — literally 'how would it be to...?' The form is invariant, and ㄹ drops (만들다 → 만드는 게). It is the safest way to propose something to a senior, since it carries no sense of instruction.",
       "examples": [
         {
-          "ko": "저는 지게차를 운전할 수 있습니다.",
-          "bn": "আমি ফর্কলিফ্ট চালাতে পারি।",
-          "en": "I can drive a forklift."
+          "ko": "흙을 퍼내기 전에 수풀부터 제거하는 게 어떨까요?",
+          "bn": "মাটি তোলার আগে আগে ঝোপঝাড়টা সরালে কেমন হয়?",
+          "en": "How about removing the bushes before scooping out the soil?"
         },
         {
-          "ko": "비가 와서 공사를 할 수 없어요.",
-          "bn": "বৃষ্টির কারণে নির্মাণ কাজ করতে পারছি না।",
-          "en": "We cannot do construction because it's raining."
+          "ko": "구역을 나눠서 작업하는 게 어떨까요?",
+          "bn": "এলাকা ভাগ করে কাজ করলে কেমন হয়?",
+          "en": "How about dividing it into zones and working?"
         },
         {
-          "ko": "무거운 짐을 혼자 들 수 없습니다.",
-          "bn": "ভারী মাল একা তুলতে পারি না।",
-          "en": "I cannot lift heavy loads alone."
+          "ko": "비가 오니까 타설을 내일로 미루는 게 어떨까요?",
+          "bn": "বৃষ্টি হচ্ছে, তাই ঢালাইটা কাল পর্যন্ত পিছিয়ে দিলে কেমন হয়?",
+          "en": "Since it's raining, how about postponing the pouring to tomorrow?"
         }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণের পরে '-ㄹ 수 있다' ব্যবহার করেন; ব্যঞ্জনবর্ণের পরে সবসময় '-을 수 있다' বসবে।"
+      "commonMistakeBn": "বিশেষণের সঙ্গে এই রূপ বসানো যায় না: '좋는 게 어떨까요?' ভুল — কেবল ক্রিয়ার সঙ্গেই বসে। আরেকটি ভুল হলো অতীতের রূপ বসানো: '제거했는 게 어떨까요?' নয়, সঠিক '제거하는 게 어떨까요?'। খেয়াল রাখুন, উত্তরে '네/아니요' নয়, বরং '좋아요' বা '그렇게 합시다' বলাই স্বাভাবিক।"
     },
     {
-      "pattern": "-지 마세요",
-      "titleBn": "নিষেধাজ্ঞা",
-      "explanationBn": "কাউকে কোনো কাজ করতে নিষেধ করার জন্য ব্যবহৃত হয়। উদাহরণ: '들어가지 마세요' — প্রবেশ করবেন না; '만지지 마세요' — স্পর্শ করবেন না। (ইংরেজি: polite negative imperative: 'please do not').",
-      "explanationEn": "Polite negative imperative used to tell someone not to do something. Examples: '들어가지 마세요' (please do not enter); '만지지 마세요' (please do not touch).",
+      "pattern": "V + -아/어 오다",
+      "titleBn": "'-아/어 오다' — 'এতদিন ধরে করে আসছে' (অতীত থেকে এখন পর্যন্ত)",
+      "explanationBn": "'-아/어 오다' বোঝায় — কোনো কাজ অতীতে শুরু হয়ে এখন পর্যন্ত চলে আসছে। মূলের শেষ স্বর 'ㅏ' বা 'ㅗ' হলে '-아 오다': 살다 → 살아 오다। অন্য স্বর হলে '-어 오다': 수행하다 → 수행해 오다 ('하다' হলে '해 오다')। এর উল্টো রূপ '-아/어 가다', যা এখন থেকে ভবিষ্যতের দিকে চলা বোঝায়: '거의 다 되어 가요' — প্রায় হয়ে এসেছে। প্রতিষ্ঠান বা দেশের অর্জন বর্ণনায় '-아/어 오다' খুব চলে: '한국은 다양한 대규모 토목 공사를 수행해 오고 있습니다' — কোরিয়া নানা বড় প্রকল্প করে আসছে।",
+      "explanationEn": "-아/어 오다 marks an action that began in the past and continues up to now. Use -아 오다 after ㅏ/ㅗ stems, -어 오다 elsewhere, -해 오다 for 하다. Its counterpart -아/어 가다 points from now into the future: 다 되어 가요 ('it's almost done').",
       "examples": [
         {
-          "ko": "위험하니까 들어가지 마세요.",
-          "bn": "বিপজ্জনক তাই প্রবেশ করবেন না।",
-          "en": "It's dangerous, so please do not enter."
+          "ko": "한국은 우수한 기술력을 바탕으로 다양한 대규모 토목 공사를 수행해 오고 있습니다.",
+          "bn": "কোরিয়া উন্নত কারিগরি দক্ষতার ভিত্তিতে নানা বড় পূর্তকাজ করে আসছে।",
+          "en": "Korea has been carrying out various large-scale civil engineering projects with its strong technical capability."
         },
         {
-          "ko": "안전모를 벗지 마세요.",
-          "bn": "সেফটি হেলমেট খুলবেন না।",
-          "en": "Please do not take off your safety helmet."
+          "ko": "이 회사는 십 년 동안 상하수도 공사를 해 왔습니다.",
+          "bn": "এই কোম্পানি দশ বছর ধরে পানি ও পয়ঃনিষ্কাশনের কাজ করে আসছে।",
+          "en": "This company has been doing water and sewage work for ten years."
         },
         {
-          "ko": "기계를 함부로 만지지 마세요.",
-          "bn": "মেশিনটি অযথা স্পর্শ করবেন না।",
-          "en": "Please do not touch the machine carelessly."
+          "ko": "다지기 작업이 거의 다 되어 가요.",
+          "bn": "দাবানোর কাজ প্রায় শেষ হয়ে এসেছে।",
+          "en": "The compacting work is almost done."
         }
       ],
-      "commonMistakeBn": "অনেকে '안' ব্যবহার করে নিষেধ করার চেষ্টা করেন (যেমন: 안 하세요); নিষেধ করার জন্য সবসময় '-지 마세요' ব্যবহার করতে হবে।"
+      "commonMistakeBn": "'-아/어 오다' আর '-아/어 가다' উল্টো করে ফেলা সাধারণ ভুল: অতীত থেকে এখন পর্যন্ত হলে '오다' ('해 왔어요'), আর এখন থেকে সামনের দিকে হলে '가다' ('되어 가요')। আরেকটি বিষয় — '오다' এখানে 'আসা' অর্থে নয়, বরং সময়ের ধারাবাহিকতা বোঝাতে বসে; তাই '집에 와요'-এর সঙ্গে গুলিয়ে ফেলবেন না।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "자재 도착 확인",
-      "titleEn": "Material Arrival Check",
+      "titleBn": "খাল ড্রেজিংয়ের কাজ — কোন ধাপ আগে",
+      "titleEn": "Planning the Dredging Work",
       "lines": [
         {
-          "speaker": "현장감독",
-          "ko": "덤프트럭이 자재를 싣고 왔습니다. 확인해 주세요.",
-          "bn": "ডাম্পট্রাক উপকরণ নিয়ে এসে গেছে। পরীক্ষা করুন।",
-          "en": "The dump truck has arrived with materials. Please check."
+          "speaker": "유수프",
+          "ko": "여기가 오늘 준설 작업을 할 곳이에요?",
+          "bn": "আজ এখানেই কি ড্রেজিংয়ের কাজ হবে?",
+          "en": "Is this the place where we'll do the dredging today?"
         },
         {
-          "speaker": "작업자1",
-          "ko": "몇 톤인가요? 콘크리트용인지 확인할게요.",
-          "bn": "কত টন? কংক্রিটের জন্য কি না আমি দেখে নেব।",
-          "en": "How many tons? I'll check if it's for concrete."
+          "speaker": "반장님",
+          "ko": "네. 하천에 토사가 많이 쌓여서 물이 잘 흐르지 못하네요. 시간이 많이 걸리겠어요. 어서 물부터 뺍시다.",
+          "bn": "হ্যাঁ। খালে অনেক পলি জমেছে, তাই পানি ভালোভাবে বইতে পারছে না। অনেক সময় লাগবে। আগে তাড়াতাড়ি পানিটা বের করে দিই।",
+          "en": "Yes. A lot of sediment has piled up so the water isn't flowing well. This will take a while. Let's drain the water first."
         },
         {
-          "speaker": "작업자2",
-          "ko": "포장은 온전합니다. 바로 옮기겠습니다.",
-          "bn": "প্যাকেজ ঠিক আছে। এখনই সরিয়ে নেব।",
-          "en": "The packaging is intact. We'll move it now."
+          "speaker": "유수프",
+          "ko": "반장님, 수풀 때문에 작업하기 힘들 것 같아요. 물을 빼기 전에 굴착기로 수풀을 먼저 제거해야겠어요.",
+          "bn": "রিডার সাহেব, ঝোপঝাড়ের জন্য কাজ করা কঠিন হবে বলে মনে হচ্ছে। পানি বের করার আগে এক্সকাভেটর দিয়ে ঝোপঝাড়টা আগে সরাতে হবে।",
+          "en": "Sir, it looks hard to work because of the bushes. We should clear them with an excavator before draining."
         },
         {
-          "speaker": "현장감독",
-          "ko": "크레인으로 옮길 준비하세요. 안전모 착용하세요.",
-          "bn": "ক্রেন দিয়ে উঠানোর প্রস্তুতি নাও। হেলমেট পরো।",
-          "en": "Prepare to move it with the crane. Wear safety helmets."
+          "speaker": "반장님",
+          "ko": "그렇게 하죠. 그다음에 흡입 호스로 토사를 빨아들이는 게 좋겠어요.",
+          "bn": "তাই করি। এরপর সাকশন হোস দিয়ে পলিটা টেনে নেওয়াই ভালো হবে।",
+          "en": "Let's do that. Then it'd be better to suck up the sediment with the suction hose."
         },
         {
-          "speaker": "작업자1",
-          "ko": "네, 바로 준비하겠습니다.",
-          "bn": "হ্যাঁ, এখনই প্রস্তুত করি।",
-          "en": "Yes, we'll prepare immediately."
+          "speaker": "유수프",
+          "ko": "그리고 반장님, 그동안 비가 많이 안 와서 저쪽은 흙이 딱딱하게 굳어 있어요.",
+          "bn": "আর রিডার সাহেব, এতদিন বৃষ্টি হয়নি বলে ওদিকটার মাটি শক্ত হয়ে জমে আছে।",
+          "en": "Also sir, it hasn't rained much lately, so the soil over there has hardened."
+        },
+        {
+          "speaker": "반장님",
+          "ko": "그럼 그곳은 고압 호스로 물을 뿌려서 흙을 부드럽게 만듭시다.",
+          "bn": "তাহলে ওখানে উচ্চচাপের হোস দিয়ে পানি ছিটিয়ে মাটিটা নরম করে নিই।",
+          "en": "Then let's spray water there with a high-pressure hose to soften the soil."
         }
       ]
     },
     {
-      "titleBn": "안전 점검 회의",
-      "titleEn": "Safety Check Meeting",
+      "titleBn": "পাইপ জোড়া লাগানোর পর ব্যাকফিলিং ও দাবানো",
+      "titleEn": "Backfilling and Compacting After Pipe Work",
       "lines": [
         {
-          "speaker": "현장소장",
-          "ko": "오늘은 안전 점검이 있습니다. 모두 모이세요.",
-          "bn": "আজ নিরাপত্তা পরীক্ষা আছে। সবাই এক জায়গায় এসো।",
-          "en": "We have a safety inspection today. Everyone gather."
+          "speaker": "유수프",
+          "ko": "배관 연결 작업이 끝났어요. 이제 되메우기를 하면 될 것 같아요.",
+          "bn": "পাইপ জোড়া লাগানোর কাজ শেষ। এখন ব্যাকফিলিং করলেই হবে বলে মনে হচ্ছে।",
+          "en": "The pipe connection work is done. I think we can start backfilling now."
         },
         {
-          "speaker": "작업자2",
-          "ko": "어떤 부분을 확인합니까?",
-          "bn": "কোন অংশগুলো চেক করা হবে?",
-          "en": "Which parts will be checked?"
+          "speaker": "반장님",
+          "ko": "누수가 발생하지 않도록 잘 연결했지요?",
+          "bn": "যাতে লিক না হয়, সেভাবে ভালোভাবে জোড়া লাগিয়েছেন তো?",
+          "en": "You connected them well so that no leaks occur, right?"
         },
         {
-          "speaker": "현장소장",
-          "ko": "안전모, 사인보드, 배수 상태와 크레인 작업을 봅니다.",
-          "bn": "হেলমেট, সাইনবোর্ড, জলনিষ্কাশন ও ক্রেন কাজ দেখবো।",
-          "en": "We'll check helmets, signboards, drainage, and crane operations."
+          "speaker": "유수프",
+          "ko": "네, 다시 확인했어요.",
+          "bn": "জি, আরেকবার মিলিয়ে দেখেছি।",
+          "en": "Yes, I checked again."
         },
         {
-          "speaker": "작업자1",
-          "ko": "모두 준비됐습니다. 제가 사인보드를 설치하겠습니다.",
-          "bn": "সব কিছু প্রস্তুত। আমি সাইনবোর্ড স্থাপন করব।",
-          "en": "Everything is ready. I will install the signboard."
+          "speaker": "반장님",
+          "ko": "좋아요. 그럼 굴착기로 되메우기가 어느 정도 진행되면 다지기 작업을 시작해 주세요.",
+          "bn": "ভালো। তাহলে এক্সকাভেটর দিয়ে ব্যাকফিলিং কিছুটা এগোলে দাবানোর কাজ শুরু করবেন।",
+          "en": "Good. Then once the backfilling with the excavator has progressed a bit, please start compacting."
         },
         {
-          "speaker": "현장소장",
-          "ko": "좋습니다. 점검을 시작하겠습니다.",
-          "bn": "ভালো। আমরা পরীক্ষা শুরু করি।",
-          "en": "Good. Let's begin the inspection."
+          "speaker": "유수프",
+          "ko": "반장님, 수로가 좁아서 핸드 램머로 다져야겠는데요?",
+          "bn": "রিডার সাহেব, নালাটা সরু, তাই হ্যান্ড র‍্যামার দিয়ে দাবাতে হবে বোধহয়?",
+          "en": "Sir, the waterway is narrow, so we'll need to compact it with a hand rammer, right?"
+        },
+        {
+          "speaker": "반장님",
+          "ko": "네, 그렇게 하지요. 다지기 작업 전에 돌부터 먼저 제거하고요. 안 그러면 다칠 수 있어요.",
+          "bn": "হ্যাঁ, তাই করুন। দাবানোর আগে পাথরগুলো আগে সরিয়ে নেবেন। নাহলে চোট লাগতে পারে।",
+          "en": "Yes, let's do that. And remove the stones first before compacting — otherwise someone could get hurt."
         }
       ]
     },
     {
-      "titleBn": "작업 지시 및 확인",
-      "titleEn": "Work Instructions and Confirmation",
+      "titleBn": "পাইপ বসানোর ধাপ — খোঁড়া থেকে দাবানো পর্যন্ত",
+      "titleEn": "The Order of Pipe Installation",
       "lines": [
         {
-          "speaker": "반장",
-          "ko": "오늘 오전에는 굴착 작업을 해야 합니다.",
-          "bn": "আজ সকালে খনন কাজ করতে হবে।",
-          "en": "We need to do excavation work this morning."
+          "speaker": "아미나",
+          "ko": "관을 모두 설치했는데 이제 땅을 메우면 되지요?",
+          "bn": "সব পাইপ বসানো হয়ে গেছে, এখন মাটি ভরে দিলেই হবে তো?",
+          "en": "I've installed all the pipes — now we just fill the ground back in, right?"
         },
         {
-          "speaker": "작업자",
-          "ko": "네, 포크레인은 준비되어 있습니까?",
-          "bn": "হ্যাঁ, এক্সকাভেটর কি প্রস্তুত আছে?",
-          "en": "Yes, is the excavator ready?"
+          "speaker": "진수",
+          "ko": "아니요, 먼저 모래와 자갈로 관 주변을 채우세요. 그래야 관에 균열이 생기지 않아요.",
+          "bn": "না, আগে বালি আর খোয়া দিয়ে পাইপের চারপাশটা ভরে দিন। তাহলেই পাইপে ফাটল ধরবে না।",
+          "en": "No, first fill around the pipe with sand and gravel. Only then will cracks not form in the pipe."
         },
         {
-          "speaker": "반장",
-          "ko": "네, 준비됐습니다. 작업 전에 안전모와 안전화를 꼭 착용하세요.",
-          "bn": "হ্যাঁ, প্রস্তুত। কাজের আগে অবশ্যই সেফটি হেলমেট এবং সেফটি জুতো পরবেন।",
-          "en": "Yes, it's ready. Make sure to wear a safety helmet and safety shoes before working."
+          "speaker": "아미나",
+          "ko": "아, 그렇군요. 채우는 작업이 끝나면 되메우기를 하고요?",
+          "bn": "ও আচ্ছা। ভরার কাজ শেষ হলে ব্যাকফিলিং করব তো?",
+          "en": "Ah, I see. And once the filling is done, we backfill?"
         },
         {
-          "speaker": "작업자",
-          "ko": "알겠습니다. 파낸 흙은 어디에 모을까요?",
-          "bn": "বুঝতে পেরেছি। খোঁড়া মাটি কোথায় জড়ো করব?",
-          "en": "Understood. Where should we gather the dug soil?"
+          "speaker": "진수",
+          "ko": "네. 되메우기가 끝나고 나면 땅을 다지세요. 땅이 단단해지도록 꼼꼼하게 다져야 돼요.",
+          "bn": "হ্যাঁ। ব্যাকফিলিং শেষ হয়ে গেলে মাটিটা দাবিয়ে দিন। মাটি যাতে শক্ত হয়, সেভাবে যত্ন করে দাবাতে হবে।",
+          "en": "Yes. Once backfilling is finished, compact the ground. Compact it carefully so the ground becomes firm."
         },
         {
-          "speaker": "반장",
-          "ko": "저기 공사장 구석에 모아 두세요. 나중에 덤프트럭으로 옮길 겁니다.",
-          "bn": "ওই নির্মাণ সাইটের কোণায় জড়ো করে রাখুন। পরে ডাম্পট্রাক দিয়ে সরানো হবে।",
-          "en": "Gather it in the corner of the construction site over there. We will move it with a dump truck later."
+          "speaker": "아미나",
+          "ko": "다지기 전에 돌을 제거하는 게 어떨까요? 돌이 있으면 위험할 것 같아요.",
+          "bn": "দাবানোর আগে পাথরগুলো সরালে কেমন হয়? পাথর থাকলে বিপজ্জনক হবে বলে মনে হচ্ছে।",
+          "en": "How about removing the stones before compacting? It seems dangerous if stones are there."
+        },
+        {
+          "speaker": "진수",
+          "ko": "좋은 생각이에요. 그럼 제가 굴착기 기사님한테 말을 전하러 갔다 올게요.",
+          "bn": "ভালো কথা বলেছেন। তাহলে আমি এক্সকাভেটর চালককে কথাটা জানিয়ে আসছি।",
+          "en": "Good idea. Then I'll go and pass the word to the excavator operator."
         }
       ]
     }
@@ -674,592 +743,564 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "덤프트럭은 보통 무엇을 운반합니까?",
-      "questionKo": "덤프트럭은 보통 무엇을 운반합니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের? — '물속에 쌓인 모래나 진흙을 파내서 수로를 깨끗하고 깊게 만드는 작업입니다.'",
+      "questionKo": "다음은 무엇에 대한 설명입니까? '물속에 쌓인 모래나 진흙을 파내서 수로를 깨끗하고 깊게 만드는 작업입니다.'",
       "options": [
-        "사인보드",
-        "설계도",
-        "모래와 자재",
-        "헬멧"
+        "준설 작업",
+        "도색 작업",
+        "선반 작업",
+        "발파 작업"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "덤프트럭은 보통 모래, 흙 등 건설 자재를 운반합니다 (교재 어휘: 덤프트럭, 자재)."
+      "answer": 0,
+      "explanationBn": "পানির তলার বালি-কাদা তুলে নালা গভীর করার কাজটাই '준설 작업' (ড্রেজিং)। '도색' রং করা, '선반' লেদ মেশিনের কাজ, '발파' বিস্ফোরণ ঘটানো।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "다음 중 안전 장비가 아닌 것은?",
-      "questionKo": "다음 중 안전 장비가 아닌 것은?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 상수도관에 ___이/가 발생했다고 합니다. 균열이 생겨서 물이 새는 것 같습니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
-        "작업화",
-        "안전모",
-        "보호장갑",
-        "사인보드"
+        "소음",
+        "누수",
+        "연기",
+        "먼지"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "사인보드는 안전 표지이지만 착용하는 개인 보호장비가 아니므로 정답은 사인보드입니다."
+      "answer": 1,
+      "explanationBn": "'물이 새다' (পানি চুইয়ে পড়া) মানেই '누수' (লিক)। '소음' মানে শব্দ, '연기' মানে ধোঁয়া, '먼지' মানে ধুলো — কোনোটিই পানির সঙ্গে যুক্ত নয়।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "콘크리트를 붓기 전에 무엇을 확인해야 합니까?",
-      "questionKo": "콘크리트를 붓기 전에 무엇을 확인해야 합니까?",
+      "type": "fill-blank",
+      "questionBn": "'-도록' বসান: 누수가 ___ 관을 잘 연결해야 돼요. (발생하지 않다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "거푸집(폼워크)",
-        "크레인 색깔",
-        "작업자 이름",
-        "음식 배달"
+        "발생했지 않도록",
+        "발생하지 않아서",
+        "발생하지 않도록",
+        "발생하지 않으면"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "교재 예문에 '콘크리트를 붓기 전 거푸집을 확인합니다'라고 나와 있으므로 거푸집이 정답입니다."
+      "answer": 2,
+      "explanationBn": "'যাতে লিক না হয়' — এই উদ্দেশ্য বোঝাতে '-도록' বসে, আর এর আগে কালের রূপ বসে না। '-아서' কারণ বোঝাত, '-(으)면' শর্ত।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "다음 문장에서 알맞은 말은? '안전모를 _____.'",
-      "questionKo": "다음 문장에서 알맞은 말은? '안전모를 _____.'",
+      "type": "fill-blank",
+      "questionBn": "'-아야겠/어야겠-' বসান: 준설할 곳이 넓으니까 구역을 나눠서 ___. (작업하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "씌우세요",
-        "착용하세요",
-        "먹으세요",
-        "닫으세요"
+        "작업하야겠어요",
+        "작업했어야겠어요",
+        "작업하겠어요",
+        "작업해야겠어요"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "정중한 명령 표현으로 '안전모를 착용하세요'가 자연스럽습니다 (문법: -(으)세요)."
+      "answer": 3,
+      "explanationBn": "'작업하다' একটি '하다' ক্রিয়া, তাই '해야겠-' বসে: 작업해야겠어요। '작업하야겠어요' ভুল রূপ, আর শুধু '작업하겠어요' পরিস্থিতি দেখে নেওয়া সিদ্ধান্তের ভাবটা দেয় না।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "배치도는 무엇을 보여 줍니까?",
-      "questionKo": "배치도는 무엇을 보여 줍니까?",
-      "options": [
-        "음식 메뉴",
-        "작업자 개인 정보",
-        "현장 구조와 위치",
-        "차량 속도"
+      "type": "matching",
+      "questionBn": "ড্রেজিংয়ের কাজের সঙ্গে ব্যবহৃত যন্ত্র মেলান।",
+      "questionKo": "준설 작업과 사용 도구를 연결하세요.",
+      "pairs": [
+        {
+          "left": "토사를 빨아들이다",
+          "right": "흡입 호스"
+        },
+        {
+          "left": "딱딱한 흙에 물을 뿌리다",
+          "right": "고압 호스"
+        },
+        {
+          "left": "수풀을 제거하다",
+          "right": "굴착기"
+        },
+        {
+          "left": "물을 빼다",
+          "right": "펌프"
+        },
+        {
+          "left": "좁은 곳을 다지다",
+          "right": "핸드 램머"
+        }
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "배치도는 현장의 구조와 위치를 나타내는 도면입니다."
+      "explanationBn": "প্রতিটি ধাপের জন্য আলাদা যন্ত্র লাগে — টেনে নিতে সাকশন হোস, শক্ত মাটি নরম করতে উচ্চচাপের হোস, আর সরু জায়গায় বড় যন্ত্র ঢোকে না বলে হাতে চালানো র‍্যামার।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: '굴착 작업을 _____.'",
-      "questionKo": "문장을 완성하세요: '굴착 작업을 _____.'",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোন বাক্যে নিচে দাগ দেওয়া অংশটি সঠিক?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "자랐다",
-        "팔았다",
-        "먹었다",
-        "하고 있다"
+        "물이 새서 창문을 닫았어요.",
+        "원사 창고의 온도를 준비했어요.",
+        "비가 와서 덮개로 자재를 뚫었어요.",
+        "고압 호스로 물을 뿌렸어요."
       ],
-      "pairs": [],
       "answer": 3,
-      "explanationBn": "'굴착 작업을 하고 있다'는 지금 작업이 진행 중임을 나타내므로 정답입니다 (문법: -고 있다)."
+      "explanationBn": "উচ্চচাপের হোস দিয়ে পানি '뿌리다' (ছিটানো) হয় — এটিই সঠিক জোড়া। তাপমাত্রা '준비하다' নয় '조절하다' হয়, আর ঢাকনা দিয়ে মালামাল '뚫다' (ছিদ্র করা) নয় '덮다' (ঢাকা) হয়।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "문장을 완성하세요: '파일 위치를 확인해야 ____.'",
-      "questionKo": "문장을 완성하세요: '파일 위치를 확인해야 ____.'",
+      "questionBn": "'-아/어 있다' বসান: 비가 안 와서 저쪽은 흙이 딱딱하게 ___. (굳다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "합니다",
-        "먹습니다",
-        "자랍니다",
-        "쉽습니다"
+        "굳고 있어요",
+        "굳어 있어요",
+        "굳었고 있어요",
+        "굳어 가요"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "정중한 문장으로 '확인해야 합니다'가 맞습니다 (문법: -아/어야 하다)."
+      "answer": 1,
+      "explanationBn": "মাটি জমে যাওয়ার কাজ শেষ, আর সেই অবস্থাটাই এখন টিকে আছে — তাই '-어 있다' বসে। '-고 있다' মানে এখন জমছে (প্রক্রিয়া চলছে), যা এখানে বোঝানো হচ্ছে না।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "명령형 표현을 고르세요: '표지판을 _____.'",
-      "questionKo": "명령형 표현을 고르세요: '표지판을 _____.'",
+      "type": "multiple-choice",
+      "questionBn": "পাইপ বসানোর কাজে সঠিক ক্রম কোনটি?",
+      "questionKo": "다음 중 상하수도 시공 순서로 알맞은 것을 고르세요.",
       "options": [
-        "읽고 있다",
-        "옮기세요",
-        "먹어요",
-        "크다"
+        "되메우기 → 땅을 파다 → 관을 배치하다 → 다지다",
+        "관을 배치하다 → 땅을 파다 → 다지다 → 되메우기",
+        "땅을 파다 → 관을 배치하다 → 되메우기 → 다지다",
+        "다지다 → 되메우기 → 관을 배치하다 → 땅을 파다"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "명령이나 요청으로 '옮기세요'가 자연스럽습니다 (문법: -(으)세요)."
+      "answer": 2,
+      "explanationBn": "আগে মাটি খোঁড়া, তারপর পাইপ বসিয়ে জোড়া লাগানো, এরপর মাটি ভরে ব্যাকফিলিং, আর সবশেষে দাবিয়ে শক্ত করা। ক্রম উল্টে গেলে পাইপ বসানোই যাবে না।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
-      "questionKo": "다음 단어와 의미를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "안전모",
-          "right": "সেফটি হেলমেট"
-        },
-        {
-          "left": "크레인",
-          "right": "ক্রেন"
-        },
-        {
-          "left": "배수",
-          "right": "জল নিষ্কাশন"
-        },
-        {
-          "left": "공사",
-          "right": "নির্মাণ কাজ"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-는 게 어떨까요?' বসান: 흙을 퍼내기 전에 수풀부터 ___? (제거하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "제거했는 게 어떨까요",
+        "제거하는 게 어떨까요",
+        "제거한 게 어떨까요",
+        "제거할 게 어떨까요"
       ],
-      "answer": 0,
-      "explanationBn": "각 한국어 단어와 বাংলা 뜻을 연결하는 문제입니다. 정답은 각 짝을 그대로 매칭하면 됩니다."
+      "answer": 1,
+      "explanationBn": "'-는 게 어떨까요?' গঠনে ক্রিয়ামূলের সঙ্গে সবসময় '-는' বসে, আর এর আগে কালের রূপ বসে না — তাই '제거하는 게 어떨까요?'।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "다음 도구와 용도를 연결하세요.",
-      "questionKo": "다음 도구와 용도를 연결하세요.",
-      "options": [],
+      "questionBn": "পাইপ বসানোর ধাপগুলোর সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "상하수도 시공 과정과 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "덤프트럭",
-          "right": "জমি বা 자재를 운반한다"
+          "left": "터파기",
+          "right": "ভিত খোঁড়া"
         },
         {
-          "left": "철근",
-          "right": "콘크리트 구조를 강화한다"
+          "left": "관을 배치하다",
+          "right": "পাইপ সাজিয়ে বসানো"
         },
         {
-          "left": "배치도",
-          "right": "현장 구조를 보여 준다"
+          "left": "채우다",
+          "right": "পাইপের চারপাশ বালি-খোয়ায় ভরা"
         },
         {
-          "left": "측량",
-          "right": "위치를 정확히 재는 작업"
+          "left": "되메우기",
+          "right": "গর্ত আবার মাটি দিয়ে ভরা"
+        },
+        {
+          "left": "다지다",
+          "right": "মাটি দাবিয়ে শক্ত করা"
         }
       ],
-      "answer": 0,
-      "explanationBn": "각 도구와 그 용도를 연결하면 됩니다. 보기와 의미를 그대로 매치하세요."
+      "explanationBn": "'채우다' আর '되메우기' আলাদা ধাপ — প্রথমটায় কেবল পাইপের চারপাশ বালি-খোয়া দিয়ে ভরা হয় যাতে ফাটল না ধরে, আর পরেরটায় পুরো গর্ত মাটি দিয়ে ভরা হয়।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "다음 중 흙을 파는 데 사용하는 장비는 무엇입니까?",
-      "questionKo": "다음 중 흙을 파는 데 사용하는 장비는 무엇입니까?",
+      "questionBn": "'물이 잘 흐르지 못하네요.' — এর কারণ কী?",
+      "questionKo": "다음 문장의 이유로 알맞은 것을 고르세요.",
       "options": [
-        "지게차",
-        "포크레인",
-        "크레인",
-        "덤프트럭"
+        "খালে অনেক পলি জমেছে",
+        "খালে পানি নেই",
+        "নালাটা খুব চওড়া",
+        "বৃষ্টি অনেক হয়েছে"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "흙을 파는 데 사용하는 장비는 포크레인(굴착기)입니다."
+      "answer": 0,
+      "explanationBn": "মূল পাঠে বলা আছে '하천에 토사가 많이 쌓여서 물이 잘 흐르지 못하네요' — পলি জমে পথ আটকে গেছে। সে কারণেই ড্রেজিং করে তলা পরিষ্কার করতে হয়।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "높은 곳에서 일할 때 떨어지지 않도록 착용하는 안전 장비는 무엇입니까?",
-      "questionKo": "높은 곳에서 일할 때 떨어지지 않도록 착용하는 안전 장비는 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-도록' বসান: 작업자들이 일하기 ___ 땅을 관 너비보다 넓게 파야 돼요. (쉽다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "안전모",
-        "안전화",
-        "안전대",
-        "마스크"
+        "쉽게 하도록",
+        "쉽도록",
+        "쉬웠도록",
+        "쉬우면"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "높은 곳에서 추락을 방지하기 위해 착용하는 장비는 안전대(안전벨트)입니다."
+      "answer": 1,
+      "explanationBn": "'쉽다' বিশেষণের সঙ্গে সরাসরি '-도록' বসে: 쉽도록। এর আগে কালের রূপ বসে না, আর '-(으)면' শর্ত বোঝাত — উদ্দেশ্য নয়।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "다음 문장에서 알맞은 말은? '무거운 짐을 _____.'",
-      "questionKo": "다음 문장에서 알맞은 말은? '무거운 짐을 _____.'",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 관을 연결했으면 관 주위를 모래와 자갈로 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "들 수 없습니다",
-        "먹을 수 없습니다",
-        "마실 수 없습니다",
-        "입을 수 없습니다"
+        "빼세요",
+        "뿌리세요",
+        "채우세요",
+        "퍼내세요"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "짐(load)과 어울리는 동사는 들다(lift)이므로 '들 수 없습니다'가 맞습니다."
+      "answer": 2,
+      "explanationBn": "পাইপের চারপাশ বালি-খোয়া দিয়ে ভরে দিতে হয়, তাই '채우다' সঠিক। '빼다' বের করা, '뿌리다' ছিটানো, '퍼내다' তুলে ফেলা — তিনটিই উল্টো দিকের কাজ।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "위험한 장소에 들어가지 말라고 할 때 알맞은 표현은?",
-      "questionKo": "위험한 장소에 들어가지 말라고 할 때 알맞은 표현은?",
+      "type": "fill-blank",
+      "questionBn": "'-아/어 오다' বসান: 한국은 다양한 대규모 토목 공사를 ___ 있습니다. (수행하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "들어가세요",
-        "들어가지 마세요",
-        "들어가고 있어요",
-        "들어가야 합니다"
+        "수행해 가고",
+        "수행하고",
+        "수행해 오고",
+        "수행했고"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "금지를 나타내는 표현은 '-지 마세요'이므로 '들어가지 마세요'가 정답입니다."
+      "answer": 2,
+      "explanationBn": "অতীত থেকে এখন পর্যন্ত চলে আসা বোঝাতে '-아/어 오다' বসে: 수행해 오고 있습니다। '-아/어 가다' এখন থেকে সামনের দিকে বোঝাত — সময়ের দিক উল্টে যেত।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '먼지가 많으니까 _____을/를 쓰세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '먼지가 많으니까 _____을/를 쓰세요.'",
-      "options": [
-        "안전화",
-        "안전대",
-        "마스크",
-        "장갑"
+      "type": "matching",
+      "questionBn": "বিপরীত অর্থের শব্দজোড়া মেলান।",
+      "questionKo": "반대되는 뜻의 어휘를 연결하세요.",
+      "pairs": [
+        {
+          "left": "물을 빼다",
+          "right": "물을 뿌리다"
+        },
+        {
+          "left": "딱딱하다",
+          "right": "부드럽다"
+        },
+        {
+          "left": "절토",
+          "right": "성토"
+        },
+        {
+          "left": "퍼내다",
+          "right": "채우다"
+        }
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "먼지(dust)를 막기 위해 쓰는 것은 마스크입니다."
+      "explanationBn": "পূর্তকাজে এই জোড়াগুলো একসঙ্গে শেখা সুবিধাজনক। খেয়াল রাখুন — '절토' মানে উঁচু জায়গা কেটে নামানো, আর '성토' মানে নিচু জায়গায় মাটি ফেলে ওঠানো; জমি সমান করতে দুটোই লাগে।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '벽돌을 _____ 조심해서 나르세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '벽돌을 _____ 조심해서 나르세요.'",
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 수로가 좁아서 ___(으)로 다져야겠어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "먹고",
-        "마시고",
-        "들고",
-        "자고"
+        "굴착기",
+        "펌프",
+        "흡입 호스",
+        "핸드 램머"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "벽돌(brick)을 나를 때는 들어야 하므로 '들고'가 맞습니다."
+      "answer": 3,
+      "explanationBn": "সরু জায়গায় বড় যন্ত্র ঢোকে না, তাই হাতে চালানো '핸드 램머' লাগে। '굴착기' বড় যন্ত্র, '펌프' পানি সরায়, আর '흡입 호스' পলি টানে — কোনোটিই মাটি দাবায় না।"
     },
     {
       "id": "p17",
       "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '비가 와서 작업을 _____.'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '비가 와서 작업을 _____.'",
+      "questionBn": "'-아야겠/어야겠-' বসান: 비가 온다고 해서 타설을 내일로 ___. (미루다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "할 수 있습니다",
-        "할 수 없습니다",
-        "하고 있습니다",
-        "해야 합니다"
+        "미뤄야겠어요",
+        "미루야겠어요",
+        "미뤘어야겠어요",
+        "미루면 돼요"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "비가 오면 야외 작업을 하기 어려우므로 '할 수 없습니다'가 자연스럽습니다."
+      "answer": 0,
+      "explanationBn": "'미루다'-এর '-아/어' রূপ '미뤄', তাই '미뤄야겠어요'। বৃষ্টির খবর শুনে পরিস্থিতি বুঝে নেওয়া সিদ্ধান্ত — এখানেই '-아야겠-' মানানসই।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르세요: '기계를 함부로 _____.'",
-      "questionKo": "빈칸에 알맞은 말을 고르세요: '기계를 함부로 _____.'",
+      "type": "multiple-choice",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন: '인천국제공항은 인천 앞바다에 있던 몇 개의 섬을 간척하여 건설한 동북아시아의 허브 공항입니다.'",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
       "options": [
-        "만지세요",
-        "만지고 있어요",
-        "만져야 합니다",
-        "만지지 마세요"
+        "인천국제공항은 사막 위에 세워졌습니다.",
+        "인천국제공항은 산을 깎아서 만들었습니다.",
+        "인천국제공항은 아직 건설 중입니다.",
+        "인천국제공항은 섬을 간척해서 만들었습니다."
       ],
-      "pairs": [],
       "answer": 3,
-      "explanationBn": "함부로(carelessly) 기계를 다루면 안 되므로 금지 표현인 '만지지 마세요'가 맞습니다."
+      "explanationBn": "লেখায় বলা আছে '몇 개의 섬을 간척하여 건설한' — কয়েকটি দ্বীপ ভরাট করে বানানো। মরুভূমির কথা লিবিয়ার প্রকল্পে, আর পাহাড় কাটা বা এখনো নির্মাণাধীন — কোনোটিই বলা হয়নি।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
-      "questionKo": "다음 단어와 의미를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "포크레인",
-          "right": "땅을 파는 기계"
-        },
-        {
-          "left": "지게차",
-          "right": "짐을 옮기는 기계"
-        },
-        {
-          "left": "용접",
-          "right": "금속을 붙이는 작업"
-        },
-        {
-          "left": "페인트",
-          "right": "색을 칠하는 재료"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'다지기 작업 전에 돌부터 먼저 제거하세요. 안 그러면 다칠 수 있어요.' — কেন পাথর সরাতে হবে?",
+      "questionKo": "다음 문장의 이유로 알맞은 것을 고르세요.",
+      "options": [
+        "পাথর থাকলে চোট লাগতে পারে",
+        "পাথর দামি জিনিস",
+        "পাথর দিয়ে পাইপ বানানো হয়",
+        "পাথর থাকলে মাটি নরম হয়"
       ],
       "answer": 0,
-      "explanationBn": "각 단어의 의미를 바르게 연결하는 문제입니다."
+      "explanationBn": "'안 그러면 다칠 수 있어요' মানে তা না করলে চোট লাগতে পারে — দাবানোর সময় পাথর ছিটকে আসতে পারে। এটি নিরাপত্তার নির্দেশ, দামের কথা নয়।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "다음 안전 장비와 착용 부위를 연결하세요.",
-      "questionKo": "다음 안전 장비와 착용 부위를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "안전모",
-          "right": "머리"
-        },
-        {
-          "left": "안전화",
-          "right": "발"
-        },
-        {
-          "left": "장갑",
-          "right": "손"
-        },
-        {
-          "left": "마스크",
-          "right": "얼굴(입과 코)"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'균열이 생기다' আর '누수가 발생하다' — এই দুটির সম্পর্ক কী?",
+      "questionKo": "다음 두 표현의 관계로 알맞은 것을 고르세요.",
+      "options": [
+        "দুটোই একই অর্থ বোঝায়",
+        "লিক হলে তারপর ফাটল ধরে",
+        "দুটোর মধ্যে কোনো সম্পর্ক নেই",
+        "ফাটল ধরলে সেই ফাটল দিয়ে লিক হয়"
       ],
-      "answer": 0,
-      "explanationBn": "각 안전 장비가 신체의 어느 부위를 보호하는지 연결하는 문제입니다."
+      "answer": 3,
+      "explanationBn": "মূল পাঠে বলা আছে '균열이 생겨서 물이 새는 것 같습니다' — আগে ফাটল ধরে, তারপর সেই ফাটল দিয়েই পানি চুইয়ে পড়ে। ক্রমটা উল্টো নয়, আর দুটো এক জিনিসও নয়: '균열' কারণ, '누수' ফল। তাই পাইপের চারপাশ ভালোভাবে ভরাট করাই মূল প্রতিরোধ।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요: 어떤 작업이 다음 달까지 끝납니까?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 어떤 작업이 다음 달까지 끝납니까?",
-      "passage": "이 도로 공사는 다음 달까지 끝납니다. 작업자는 배수와 포장을 준비 중입니다.",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের?",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "passage": "물속에 쌓인 모래나 진흙을 파내서 수로를 깨끗하고 깊게 만드는 작업입니다.",
       "options": [
-        "터널 공사",
-        "건물 공사",
-        "다리 공사",
-        "도로 공사"
+        "도색 작업",
+        "준설 작업",
+        "선반 작업",
+        "발파 작업"
       ],
-      "answer": 3,
-      "explanationBn": "본문에 '이 도로 공사는 다음 달까지 끝납니다'라고 되어 있으므로 정답은 '도로 공사'입니다."
+      "answer": 1,
+      "explanationBn": "পানির তলার বালি-কাদা তুলে নালা গভীর করার কাজটাই '준설 작업'। '도색' রং করা, '선반' লেদ মেশিনের কাজ, '발파' বিস্ফোরণ ঘটানো।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문: 콘크리트를 붓기 전에 무엇을 확인합니까?",
-      "questionKo": "다음 글을 읽고 질문: 콘크리트를 붓기 전에 무엇을 확인합니까?",
-      "passage": "콘크리트를 붓기 전 거푸집을 확인합니다. 철근 위치도 점검하세요.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "상수도관에 (        )이/가 발생했다고 합니다. 상수도관에 균열이 생겨서 물이 새는 것 같습니다.",
       "options": [
-        "크레인 색깔",
-        "음식 배달",
-        "거푸집",
-        "사인보드 그림"
+        "소음",
+        "먼지",
+        "누수",
+        "연기"
       ],
       "answer": 2,
-      "explanationBn": "본문에 '거푸집을 확인합니다'라고 명시되어 있어 거푸집이 정답입니다."
+      "explanationBn": "'물이 새다' (পানি চুইয়ে পড়া) মানেই '누수'। '소음' শব্দ, '먼지' ধুলো, '연기' ধোঁয়া — কোনোটিই পানির সঙ্গে যুক্ত নয়।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문: 누가 사인보드를 설치하겠다고 했습니까?",
-      "questionKo": "다음 글을 읽고 질문: 누가 사인보드를 설치하겠다고 했습니까?",
-      "passage": "작업자1: 모두 준비됐습니다. 제가 사인보드를 설치하겠습니다.",
+      "questionBn": "নিচের কোন বাক্যে নিচে দাগ দেওয়া অংশটি সঠিক?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "현장소장",
-        "작업자1",
-        "감독",
-        "작업자2"
+        "물이 새서 창문을 닫았어요.",
+        "원사 창고의 온도를 준비했어요.",
+        "고압 호스로 물을 뿌렸어요.",
+        "비가 와서 덮개로 자재를 뚫었어요."
       ],
-      "answer": 1,
-      "explanationBn": "대화에서 '제가 사인보드를 설치하겠습니다'라고 말한 이는 작업자1입니다."
+      "answer": 2,
+      "explanationBn": "উচ্চচাপের হোস দিয়ে পানি '뿌리다' (ছিটানো) হয়। তাপমাত্রা '조절하다' হয়, '준비하다' নয়; আর ঢাকনা দিয়ে মালামাল '덮다' (ঢাকা) হয়, '뚫다' (ছিদ্র করা) নয়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문: 어떤 항목을 점검할 것이라고 했나요?",
-      "questionKo": "다음 글을 읽고 질문: 어떤 항목을 점검할 것이라고 했나요?",
-      "passage": "현장소장: 안전모, 사인보드, 배수 상태와 크레인 작업을 봅니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "누수가 (        ) 관을 잘 연결해야 합니다.",
       "options": [
-        "안전모와 배수",
-        "컴퓨터",
-        "음식 메뉴",
-        "차량 속도"
+        "발생하지 않도록",
+        "발생하지 않아서",
+        "발생하지 않으면",
+        "발생했지 않도록"
       ],
       "answer": 0,
-      "explanationBn": "문장에 '안전모, 사인보드, 배수 상태와 크레인 작업'을 본다고 했으므로 '안전모와 배수'가 정답입니다."
+      "explanationBn": "'যাতে লিক না হয়' — এই উদ্দেশ্য বোঝাতে '-도록' বসে, আর এর আগে কালের রূপ বসে না। '-아서' কারণ, '-(으)면' শর্ত বোঝাত।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문: 누가 자재를 확인해 달라고 했습니까?",
-      "questionKo": "다음 글을 읽고 질문: 누가 자재를 확인해 달라고 했습니까?",
-      "passage": "현장감독: 덤프트럭이 자재를 싣고 왔습니다. 확인해 주세요.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "하천에 토사가 많이 쌓이면 물이 잘 흐르지 못합니다. 그래서 주기적으로 준설 작업을 해야 합니다. 준설 작업을 하기 전에는 먼저 물을 빼고 수풀을 제거합니다.",
       "options": [
-        "작업자2",
-        "작업자1",
-        "현장소장",
-        "현장감독"
+        "준설 작업은 물을 빼지 않고 합니다.",
+        "토사가 쌓이면 물이 잘 흐르지 못합니다.",
+        "수풀은 준설 작업 후에 제거합니다.",
+        "준설 작업은 한 번만 하면 됩니다."
       ],
-      "answer": 3,
-      "explanationBn": "현장감독이 '확인해 주세요'라고 말했으므로 정답은 현장감독입니다."
+      "answer": 1,
+      "explanationBn": "লেখায় স্পষ্ট বলা আছে '토사가 많이 쌓이면 물이 잘 흐르지 못합니다'। পানি বের করা ও ঝোপঝাড় সরানো হয় কাজের আগে, আর '주기적으로' মানে নিয়ম করে বারবার।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "다음을 듣고 질문: 화자는 어떤 장비로 자재를 옮기라고 합니까?",
-      "questionKo": "다음을 듣고 질문: 화자는 어떤 장비로 자재를 옮기라고 합니까?",
-      "passage": "크레인으로 옮길 준비하세요. 안전모 착용하세요.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 준설해야 될 곳이 좀 넓어요.\n나: 그럼 구역을 나눠서 (        ).",
       "options": [
-        "덤프트럭",
-        "포크레인",
-        "크레인",
-        "사다리"
+        "작업하야겠어요",
+        "작업했어야겠어요",
+        "작업해야겠어요",
+        "작업하면 됐어요"
       ],
       "answer": 2,
-      "explanationBn": "대본에서 '크레인으로 옮길 준비하세요'라고 말하므로 정답은 크레인입니다."
+      "explanationBn": "'작업하다' একটি '하다' ক্রিয়া, তাই '해야겠-' বসে: 작업해야겠어요। জায়গা বড় দেখে পরিস্থিতি বুঝে নেওয়া সিদ্ধান্ত — এখানেই এই রূপটি মানানসই।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "다음을 듣고 질문: 누가 사인보드를 설치하겠다고 합니까?",
-      "questionKo": "다음을 듣고 질문: 누가 사인보드를 설치하겠다고 합니까?",
-      "passage": "남자: 저는 작업자1입니다. 모두 준비됐습니다. 제가 사인보드를 설치하겠습니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "[상하수도 시공 순서]\n① 터파기\n② 관 배치\n③ 관 연결\n④ 모래와 자갈로 채우기\n⑤ 되메우기\n⑥ 다지기",
       "options": [
-        "현장소장",
-        "작업자1",
-        "현장감독",
-        "작업자2"
+        "다지기는 되메우기 전에 합니다.",
+        "관 연결은 터파기 전에 합니다.",
+        "모래와 자갈은 되메우기 후에 채웁니다.",
+        "되메우기는 관을 연결한 다음에 합니다."
       ],
-      "answer": 1,
-      "explanationBn": "대본에서 작업자1이 '제가 사인보드를 설치하겠습니다'라고 말했으므로 정답은 작업자1입니다."
+      "answer": 3,
+      "explanationBn": "ক্রম অনুযায়ী ③ পাইপ জোড়া, তারপর ④ ভরাট, এরপর ⑤ ব্যাকফিলিং — তাই ব্যাকফিলিং পাইপ জোড়ার পরেই হয়। দাবানো সবার শেষে, আর খোঁড়া সবার প্রথমে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "다음을 듣고 질문: 작업자는 무엇을 먼저 정리하라고 합니까?",
-      "questionKo": "다음을 듣고 질문: 작업자는 무엇을 먼저 정리하라고 합니까?",
-      "passage": "배수구를 먼저 정리하세요.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국은 우수한 기술력을 바탕으로 국내외의 다양한 대규모 토목 공사를 수행해 오고 있습니다. 그 예로 인천 앞바다에 있던 몇 개의 섬을 간척하여 건설한 '인천국제공항'을 들 수 있습니다. 또한 한국에서 가장 거대한 사장교인 왕복 6차로의 '인천대교'가 있습니다. '사막의 녹색혁명'이라 불리는 리비아의 대수로 공사도 한국의 기술력을 잘 보여 주는 예입니다.",
       "options": [
-        "배수구",
-        "안전모",
-        "거푸집",
-        "자재"
+        "인천국제공항은 사막 위에 세워졌습니다.",
+        "인천대교는 세계에서 가장 긴 해상 다리입니다.",
+        "리비아의 대수로 건설은 한국의 기술로 이루어졌습니다.",
+        "거가대교는 왕복 6차로의 사장교입니다."
       ],
-      "answer": 0,
-      "explanationBn": "대본에 '배수구를 먼저 정리하세요'라고 되어 있으므로 정답은 배수구(배수)입니다."
+      "answer": 2,
+      "explanationBn": "লেখায় বলা আছে লিবিয়ার প্রকল্পটি '한국의 기술력을 잘 보여 주는 예' — কোরিয়ার প্রযুক্তিতেই হয়েছে। বিমানবন্দর দ্বীপ ভরাট করে বানানো (মরুভূমিতে নয়), আর ৬ লেনের সেতুটি ইনচন সেতু।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "다음 표지판의 의미는 무엇입니까?",
-      "questionKo": "다음 표지판의 의미는 무엇입니까?",
-      "passage": "[안전모 착용] 이곳은 물건이 떨어질 위험이 있습니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "관을 연결한 다음에 관 주위를 모래와 자갈로 (        ). 그래야 관에 균열이 생기지 않습니다.",
       "options": [
-        "안전화를 신으십시오.",
-        "안전모를 쓰십시오.",
-        "마스크를 쓰십시오.",
-        "장갑을 끼십시오."
+        "뺍니다",
+        "퍼냅니다",
+        "뿌립니다",
+        "채웁니다"
       ],
-      "answer": 1,
-      "explanationBn": "표지판에 '안전모 착용'이라고 적혀 있으므로 안전모를 써야 합니다."
+      "answer": 3,
+      "explanationBn": "পাইপের চারপাশ বালি-খোয়া দিয়ে ভরে দিতে হয়, তাই '채우다' সঠিক। '빼다' বের করা, '퍼내다' তুলে ফেলা, '뿌리다' ছিটানো — তিনটিই উল্টো দিকের কাজ।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요: 이 사람은 무엇을 할 수 없습니까?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 이 사람은 무엇을 할 수 없습니까?",
-      "passage": "저는 지게차를 운전할 수 있습니다. 하지만 포크레인은 운전할 수 없습니다.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "그동안 비가 많이 안 와서 하천의 흙이 딱딱하게 굳어 있습니다. 이런 곳은 고압 호스로 물을 뿌려서 흙을 부드럽게 만든 다음에 작업합니다.",
       "options": [
-        "지게차 운전",
-        "덤프트럭 운전",
-        "포크레인 운전",
-        "크레인 운전"
+        "비가 많이 와서 흙이 부드러워졌습니다.",
+        "딱딱한 흙에는 물을 뿌려서 부드럽게 만듭니다.",
+        "딱딱한 흙은 그대로 작업합니다.",
+        "고압 호스로 흙을 빨아들입니다."
       ],
-      "answer": 2,
-      "explanationBn": "글에서 '포크레인은 운전할 수 없습니다'라고 했으므로 정답은 포크레인 운전입니다."
+      "answer": 1,
+      "explanationBn": "লেখায় বলা আছে '물을 뿌려서 흙을 부드럽게 만든 다음에 작업합니다'। বৃষ্টি হয়নি বলেই মাটি শক্ত, আর টেনে নেওয়ার কাজ করে '흡입 호스' — '고압 호스' নয়।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요: 작업자는 무엇을 해야 합니까?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 작업자는 무엇을 해야 합니까?",
-      "passage": "먼지가 아주 많습니다. 작업자는 마스크를 꼭 써야 합니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: সবার আগে কী করতে হবে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 반장님, 뭐부터 해야 돼요?\n남자: 굴착기로 수풀을 먼저 제거하세요.",
       "options": [
-        "물을 마셔야 합니다.",
-        "마스크를 써야 합니다.",
-        "안전대를 매야 합니다.",
-        "휴식을 취해야 합니다."
+        "굴착기로 수풀을 제거하는 일",
+        "펌프로 물을 빼는 일",
+        "흡입 호스로 토사를 빨아들이는 일",
+        "핸드 램머로 다지는 일"
       ],
-      "answer": 1,
-      "explanationBn": "글에서 '마스크를 꼭 써야 합니다'라고 했으므로 정답은 마스크를 써야 합니다."
+      "answer": 0,
+      "explanationBn": "পুরুষটি বলছেন '굴착기로 수풀을 먼저 제거하세요' — আগে ঝোপঝাড় সরাতে হবে। পানি সরানো, পলি টানা বা দাবানো — সবই এর পরের ধাপ।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요: 흙을 어디에 모아야 합니까?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 흙을 어디에 모아야 합니까?",
-      "passage": "포크레인으로 파낸 흙은 공사장 구석에 모아 두세요.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "남자: 무엇으로 땅을 다질까요?",
       "options": [
-        "도로 한가운데",
-        "공사장 구석",
-        "덤프트럭 안",
-        "건물 옥상"
+        "여기부터 다지세요.",
+        "핸드 램머로 다지세요.",
+        "꼼꼼하게 다지세요.",
+        "돌을 제거한 후에 다지세요."
       ],
       "answer": 1,
-      "explanationBn": "글에서 '공사장 구석에 모아 두세요'라고 했으므로 정답은 공사장 구석입니다."
+      "explanationBn": "'무엇으로' (কী দিয়ে) দিয়ে যন্ত্রের কথা জিজ্ঞেস করা হয়েছে, তাই '핸드 램머로' সঠিক। '여기부터' কোথা থেকে, '꼼꼼하게' কীভাবে, আর '돌을 제거한 후에' কখন — তিনটিই ভিন্ন প্রশ্নের উত্তর।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요: 높은 곳에서 일할 때 필요한 것은 무엇입니까?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 높은 곳에서 일할 때 필요한 것은 무엇입니까?",
-      "passage": "높은 곳에서 작업할 때는 떨어질 위험이 있습니다. 반드시 안전대를 매야 합니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: দুজন কী নিয়ে কথা বলছেন?",
+      "questionKo": "다음을 듣고 두 사람이 무엇에 대해 말하고 있는지 고르십시오.",
+      "passage": "여자: 관을 모두 설치했는데 이제 땅을 메우면 되지요?\n남자: 아니요, 먼저 모래와 자갈로 관 주변을 채우세요.",
       "options": [
-        "안전대",
-        "장갑",
-        "마스크",
-        "안전화"
+        "작업 절차",
+        "작업 도구",
+        "작업 기간",
+        "작업 현장"
       ],
       "answer": 0,
-      "explanationBn": "글에서 '반드시 안전대를 매야 합니다'라고 했으므로 정답은 안전대입니다."
+      "explanationBn": "কোন কাজটা আগে আর কোনটা পরে — অর্থাৎ কাজের ক্রম নিয়ে কথা হচ্ছে, তাই '작업 절차' সঠিক। যন্ত্র, সময় বা জায়গার কথা আসেনি।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오: 남자는 무엇을 찾고 있습니까?",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 반장님, 제 안전화가 안 보입니다. 혹시 보셨어요?\n여자: 저기 휴게실 앞에 있어요.",
+      "questionBn": "শুনে এরপর কী বলা সবচেয়ে উপযুক্ত হবে তা বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "여자: 이따가 저하고 관 연결 작업을 좀 같이 해요.",
       "options": [
-        "안전모",
-        "안전화",
-        "장갑",
-        "마스크"
+        "정신 바짝 차려야 돼요.",
+        "아직 일이 어렵다고 해요.",
+        "나머지는 내일 하려고 해요.",
+        "하던 일을 얼른 끝내고 갈게요."
       ],
-      "answer": 1,
-      "explanationBn": "남자가 '제 안전화가 안 보입니다'라고 말했으므로 안전화를 찾고 있습니다."
+      "answer": 3,
+      "explanationBn": "একসঙ্গে কাজ করার প্রস্তাব দেওয়া হয়েছে, তাই স্বাভাবিক জবাব হলো নিজের চলতি কাজ শেষ করে যাওয়ার কথা বলা। বাকি তিনটি প্রস্তাবটির সঙ্গে মেলে না।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오: 여자는 남자에게 무엇을 하지 말라고 합니까?",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 그 기계는 고장 났어요. 만지지 마세요.\n남자: 아, 네. 알겠습니다.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: মহিলা এরপর কী করবেন?",
+      "questionKo": "다음을 듣고 여자가 이어서 할 행동을 고르십시오.",
+      "passage": "남자: 하천에 토사가 많이 쌓였네요. 얼른 작업을 시작합시다.\n여자: 수풀이 많은데 흙을 퍼내기 전에 수풀부터 제거하는 게 어떨까요?\n남자: 좋아요. 굴착기 기사님한테 작업을 시작하시라고 전해 주세요.\n여자: 네, 바로 갔다 오겠습니다.",
       "options": [
-        "기계를 만지는 것",
-        "기계를 고치는 것",
-        "기계를 사는 것",
-        "기계를 버리는 것"
+        "토사를 쌓아 놓습니다.",
+        "굴착기로 흙을 퍼냅니다.",
+        "수풀을 제거하러 갑니다.",
+        "기사에게 말을 전하러 갑니다."
       ],
-      "answer": 0,
-      "explanationBn": "여자가 '만지지 마세요'라고 했으므로 기계를 만지는 것을 하지 말라고 합니다."
+      "answer": 3,
+      "explanationBn": "পুরুষটি বলছেন '기사님한테 ... 전해 주세요', আর মহিলা বলছেন '바로 갔다 오겠습니다' — অর্থাৎ চালককে খবর দিতে যাচ্ছেন। ঝোপঝাড় সরাবেন এক্সকাভেটর চালক, তিনি নিজে নন।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오: 두 사람은 무엇에 대해 이야기하고 있습니까?",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: দাবানোর আগে কী করতে হবে?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 오늘 오후에 시멘트 작업이 있습니까?\n여자: 네, 시멘트가 굳기 전에 빨리 끝내야 합니다.",
+      "passage": "남자: 수로가 좁아서 핸드 램머로 다져야겠는데요?\n여자: 네, 그렇게 하세요. 다지기 작업 전에 돌부터 먼저 제거하고요. 안 그러면 다칠 수 있어요.",
       "options": [
-        "용접 작업",
-        "페인트 작업",
-        "시멘트 작업",
-        "측량 작업"
+        "돌을 먼저 제거해야 합니다.",
+        "물을 먼저 빼야 합니다.",
+        "관을 먼저 연결해야 합니다.",
+        "수풀을 먼저 제거해야 합니다."
       ],
-      "answer": 2,
-      "explanationBn": "대화에서 '시멘트 작업'에 대해 이야기하고 있으므로 정답은 시멘트 작업입니다."
+      "answer": 0,
+      "explanationBn": "মহিলা বলছেন '다지기 작업 전에 돌부터 먼저 제거하고요' — দাবানোর আগে পাথর সরাতে হবে, নাহলে চোট লাগতে পারে। বাকি তিনটি এই কথোপকথনে আসেনি।"
     }
   ]
 }
