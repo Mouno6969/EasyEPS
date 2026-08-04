@@ -1,8 +1,8 @@
 {
   "chapter": 34,
-  "slug": "sexual-harassment-and-assault-prevention",
+  "slug": "sexual-harassment-prevention",
   "title": {
-    "ko": "성희롱과 성폭력 예방",
+    "ko": "성희롱 및 성추행 예방",
     "bn": "যৌন হয়রানি ও সহিংসতা প্রতিরোধ",
     "en": "Sexual Harassment and Assault Prevention"
   },
@@ -10,629 +10,758 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "যৌন হয়রানি ও সহিংসতার সাধারণ শব্দভান্ডার শেখা।",
-      "সীমা, সম্মতি এবং রিপোর্টিং চ্যানেল সম্পর্কে জানানো।",
-      "সাহায্য চাইতে ও সাক্ষী হিসেবে তথ্য জানানোর সহজ বাক্য ব্যবহার করা।",
-      "কর্মজীবনে নিরাপত্তা ও গোপনতা সম্পর্কিত নীতিগুলো বোঝা।"
+      "কর্মক্ষেত্রে যৌন হয়রানি (성희롱) কী, কোন কথা ও আচরণ হয়রানির মধ্যে পড়ে এবং কীভাবে তা প্রতিরোধ করা যায় তা কোরিয়ান ভাষায় ব্যাখ্যা করতে পারা।",
+      "যৌন হয়রানি বা যৌন সহিংসতার শিকার হলে অস্বস্তি স্পষ্টভাবে প্রকাশ করা, প্রমাণ সংরক্ষণ করা ও রিপোর্ট করার পদ্ধতি সম্পর্কে প্রশ্ন করা ও উত্তর দেওয়া।",
+      "'-던데요' ব্যবহার করে নিজের চোখে দেখা নতুন তথ্য (যেমন সহকর্মীর মুখের ভাব খারাপ দেখাচ্ছিল) সহকর্মীকে জানাতে পারা।",
+      "'-(느)ㄴ다고/다고 하다' ব্যবহার করে অন্যের কাছ থেকে শোনা কথা বা প্রশিক্ষণে শেখা নিয়ম অন্যকে জানাতে পারা।"
     ],
     "en": [
-      "Learn basic vocabulary related to sexual harassment and assault.",
-      "Understand boundaries, consent, and reporting channels.",
-      "Use simple sentences to ask for help and report as a witness.",
-      "Know workplace safety, confidentiality, and no-retaliation principles."
+      "Explain in Korean what workplace sexual harassment (성희롱) is, which words and behaviours count as harassment, and how to prevent it.",
+      "Ask and answer questions about how to handle sexual harassment or assault: clearly expressing discomfort, securing evidence (증거) and reporting it.",
+      "Use '-던데요' to report a newly noticed fact you experienced firsthand, such as a coworker looking upset.",
+      "Use '-(느)ㄴ다고/다고 하다' to relay information heard from someone else, such as rules learned in prevention training."
     ]
   },
   "vocabulary": [
     {
       "ko": "성희롱",
       "romanization": "seong-huirong",
-      "bn": "যৌন হয়রানি",
+      "bn": "যৌন হয়রানি (যৌনতাবিষয়ক কথা বা আচরণে অন্যকে অস্বস্তি দেওয়া)",
       "en": "sexual harassment",
       "pos": "noun",
       "example": {
-        "ko": "직장에서 성희롱은 절대로 용납되지 않습니다.",
-        "bn": "কর্মস্থলে যৌন হয়রানি কখনোই মেনে নেওয়া হবে না।",
-        "en": "Sexual harassment is never tolerated at the workplace."
+        "ko": "농담이지만 상대방이 불쾌감을 느끼면 성희롱이 될 수 있어요.",
+        "bn": "যদিও এটা মজা, তবু অন্য পক্ষ অস্বস্তি বোধ করলে তা যৌন হয়রানি হয়ে যেতে পারে।",
+        "en": "Even if it's a joke, it can become sexual harassment if the other person feels discomfort."
       },
-      "pronunciationTipBn": "'성' এর 'ㅇ' এবং '희' এর 'ㅎ' উচ্চারণে খেয়াল রাখুন।"
+      "pronunciationTipBn": "성희롱 → [성히롱]-এর মতো শোনায়; 'ㅎ' হালকা হয়ে যায়। 'সং-হি-রোং' — শেষে 'ㅇ' নাক দিয়ে 'ং' টান দিন।"
     },
     {
-      "ko": "성폭력",
-      "romanization": "seong-pokryeok",
-      "bn": "যৌন সহিংসতা",
-      "en": "sexual assault",
+      "ko": "성추행",
+      "romanization": "seong-chuhaeng",
+      "bn": "যৌন সহিংসতা, শরীরে জোরপূর্বক অশালীন স্পর্শ করা অপরাধ",
+      "en": "sexual assault; indecent assault",
       "pos": "noun",
       "example": {
-        "ko": "성폭력 피해자는 지원을 받을 수 있어요.",
-        "bn": "যৌন সহিংসতার 피해 ব্যক্তি সহায়তা পেতে পারেন।",
-        "en": "Survivors of sexual assault can receive support."
+        "ko": "성희롱이나 성추행을 당했을 때는 증거를 확보하고 신고해야 됩니다.",
+        "bn": "যৌন হয়রানি বা যৌন সহিংসতার শিকার হলে প্রমাণ সংরক্ষণ করে রিপোর্ট করতে হবে।",
+        "en": "When you suffer sexual harassment or sexual assault, you must secure evidence and report it."
       },
-      "pronunciationTipBn": "'폭' এর 'ㅍ' একটু জোর দিয়ে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'সং-চু-হেং'। 추-এর 'ㅊ' বাংলা 'ছ'-এর মতো হাওয়া ছেড়ে বলুন, 'চ' নয়।"
     },
     {
-      "ko": "동의",
-      "romanization": "dong-ui",
-      "bn": "সম্মতি",
-      "en": "consent",
+      "ko": "성범죄",
+      "romanization": "seong-beomjoe",
+      "bn": "যৌন অপরাধ (আইনত শাস্তিযোগ্য যৌন অপরাধ)",
+      "en": "sex crime",
       "pos": "noun",
       "example": {
-        "ko": "모든 행동 전에 명확한 동의가 필요합니다.",
-        "bn": "প্রত্যেক কাজে স্পষ্ট সম্মতি প্রয়োজন।",
-        "en": "Clear consent is needed before any action."
+        "ko": "성범죄가 발생하면 신고하세요.",
+        "bn": "যৌন অপরাধ ঘটলে রিপোর্ট করুন।",
+        "en": "If a sex crime occurs, report it."
       },
-      "pronunciationTipBn": "'의' উচ্চারণটি শব্দের শেষে '이' এর মতো শোনাতে পারে।"
-    },
-    {
-      "ko": "경계",
-      "romanization": "gyeong-gye",
-      "bn": "সীমা",
-      "en": "boundary",
-      "pos": "noun",
-      "example": {
-        "ko": "개인의 경계를 존중하세요.",
-        "bn": "ব্যক্তিগত সীমা সম্মান করুন।",
-        "en": "Respect personal boundaries."
-      },
-      "pronunciationTipBn": "'경' এর 'ㅇ' এবং '계' এর 'ㄱ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "신고",
-      "romanization": "sin-go",
-      "bn": "রিপোর্ট/অভিযোগ",
-      "en": "report",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "피해 사실을 즉시 신고하세요.",
-        "bn": "পীড়নের তথ্যটি অবিলম্বে রিপোর্ট করুন।",
-        "en": "Report the incident immediately."
-      },
-      "pronunciationTipBn": "'신' এর 'ㄴ' এবং '고' এর 'ㄱ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "채널",
-      "romanization": "chae-neol",
-      "bn": "চ্যানেল/পন্থা",
-      "en": "channel (reporting channel)",
-      "pos": "noun",
-      "example": {
-        "ko": "회사에 신고 채널이 있습니다.",
-        "bn": "কোম্পানিতে রিপোর্ট করার চ্যানেল আছে।",
-        "en": "The company has reporting channels."
-      },
-      "pronunciationTipBn": "'채' এর 'ㅊ' একটু জোর দিয়ে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "상담",
-      "romanization": "sang-dam",
-      "bn": "পরামর্শ/কাউন্সেলিং",
-      "en": "counseling",
-      "pos": "noun",
-      "example": {
-        "ko": "상담을 통해 도움을 받을 수 있어요.",
-        "bn": "কাউন্সেলিংয়ের মাধ্যমে সাহায্য পাওয়া যাবে।",
-        "en": "You can get help through counseling."
-      },
-      "pronunciationTipBn": "'상' এর 'ㅇ' এবং '담' এর 'ㅁ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "피해자",
-      "romanization": "pi-hae-ja",
-      "bn": "পীড়িত ব্যক্তি",
-      "en": "victim / survivor",
-      "pos": "noun",
-      "example": {
-        "ko": "피해자는 보호와 지원을 받을 권리가 있습니다.",
-        "bn": "পীড়িত ব্যক্তিরা সুরক্ষা ও সহায়তা পাওয়ার অধিকার রাখেন।",
-        "en": "Survivors have the right to protection and support."
-      },
-      "pronunciationTipBn": "'피' এর 'ㅍ' একটু জোর দিয়ে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "가해자",
-      "romanization": "ga-hae-ja",
-      "bn": "অন্যান্যকারী/যে ব্যক্তি আক্রমণ করেছে",
-      "en": "perpetrator",
-      "pos": "noun",
-      "example": {
-        "ko": "가해자는 조사 대상이 됩니다.",
-        "bn": "পর্যবেক্ষণে অভিযুক্ত ব্যক্তি থাকবেন।",
-        "en": "The perpetrator will be investigated."
-      },
-      "pronunciationTipBn": "'가' এর 'ㄱ' এবং '해' এর 'ㅎ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "목격자",
-      "romanization": "mok-gyeok-ja",
-      "bn": "সাক্ষী",
-      "en": "witness",
-      "pos": "noun",
-      "example": {
-        "ko": "목격자는 사건을 신고할 수 있어요.",
-        "bn": "সাক্ষী ঘটনার রিপোর্ট করতে পারেন।",
-        "en": "A witness can report the incident."
-      },
-      "pronunciationTipBn": "'목' এর 'ㄱ' এবং '격' এর 'ㄱ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "증거",
-      "romanization": "jeung-geo",
-      "bn": "প্রমাণ",
-      "en": "evidence",
-      "pos": "noun",
-      "example": {
-        "ko": "증거를 안전하게 보관하세요.",
-        "bn": "প্রমাণ নিরাপদে রাখুন।",
-        "en": "Keep evidence safe."
-      },
-      "pronunciationTipBn": "'증' এর 'ㅇ' এবং '거' এর 'ㄱ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "비밀 보장",
-      "romanization": "bi-mil bo-jang",
-      "bn": "গোপনতা নিশ্চয়তা",
-      "en": "confidentiality",
-      "pos": "phrase",
-      "example": {
-        "ko": "상담은 비밀 보장이 됩니다.",
-        "bn": "কাউন্সেলিং ব্যক্তিগতভাবে গোপন রাখা হবে।",
-        "en": "Counseling is kept confidential."
-      },
-      "pronunciationTipBn": "'비' এর 'ㅂ' এবং '밀' এর 'ㄹ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "보복 금지",
-      "romanization": "bo-bok geum-ji",
-      "bn": "প্রতিশোধ নিষেধ",
-      "en": "no retaliation",
-      "pos": "phrase",
-      "example": {
-        "ko": "신고 후 보복 금지가 적용됩니다.",
-        "bn": "রিপোর্ট করার পরে প্রতিশোধ নিষিদ্ধ।",
-        "en": "No retaliation applies after reporting."
-      },
-      "pronunciationTipBn": "'보' এর 'ㅂ' এবং '복' এর 'ㄱ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "제지하다",
-      "romanization": "je-ji-ha-da",
-      "bn": "প্রতিরোধ করা/বিরত রাখা",
-      "en": "to stop / to intervene",
-      "pos": "verb",
-      "example": {
-        "ko": "동료가 위험하면 제지하세요.",
-        "bn": "সহকর্মী বিপদের মুখে থাকলে তাকে থামান।",
-        "en": "Intervene if a colleague is in danger."
-      },
-      "pronunciationTipBn": "'제' এর 'ㅈ' এবং '지' এর 'ㅈ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "안전 계획",
-      "romanization": "an-jeon gye-hoeg",
-      "bn": "নিরাপত্তা পরিকল্পনা",
-      "en": "safety plan",
-      "pos": "noun",
-      "example": {
-        "ko": "안전 계획을 미리 세우세요.",
-        "bn": "পূর্বেই নিরাপত্তা পরিকল্পনা তৈরি করুন।",
-        "en": "Make a safety plan in advance."
-      },
-      "pronunciationTipBn": "'안' এর 'ㄴ' এবং '전' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "즉시",
-      "romanization": "jeuk-si",
-      "bn": "তৎক্ষণাত",
-      "en": "immediately",
-      "pos": "adverb",
-      "example": {
-        "ko": "위험하면 즉시 신고하세요.",
-        "bn": "বিপদ হলে তৎক্ষণাৎ রিপোর্ট করুন।",
-        "en": "Report immediately if there is danger."
-      },
-      "pronunciationTipBn": "'즉' এর 'ㄱ' এবং '시' এর 'ㅅ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "응급 연락처",
-      "romanization": "eung-geup yeon-rak-cheo",
-      "bn": "জরুরি যোগাযোগ নম্বর",
-      "en": "emergency contact",
-      "pos": "noun",
-      "example": {
-        "ko": "응급 연락처를 휴대폰에 저장하세요.",
-        "bn": "জরুরি নম্বর ফোনে রাখুন।",
-        "en": "Save emergency contacts on your phone."
-      },
-      "pronunciationTipBn": "'응' এর 'ㅇ' এবং '급' এর 'ㅂ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "지원",
-      "romanization": "ji-won",
-      "bn": "সহায়তা",
-      "en": "support",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "회사에서 지원을 받을 수 있습니다.",
-        "bn": "কোম্পানি থেকে সহায়তা পাওয়া যাবে।",
-        "en": "You can get support from the company."
-      },
-      "pronunciationTipBn": "'지' এর 'ㅈ' এবং '원' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন。"
+      "pronunciationTipBn": "'সং-বম-জোয়ে'। 죄-এর উচ্চারণ 'জোয়ে', বাস্তবে অনেকে 'জে'-র মতোও বলে।"
     },
     {
       "ko": "불쾌감",
-      "romanization": "bul-kwae-gam",
-      "bn": "অস্বস্তি/বিরক্তি",
-      "en": "discomfort / unpleasant feeling",
+      "romanization": "bulkwaegam",
+      "bn": "অস্বস্তি, বিরক্তি, খারাপ লাগার অনুভূতি",
+      "en": "discomfort; displeasure",
       "pos": "noun",
       "example": {
-        "ko": "불쾌감을 느끼면 바로 말하세요.",
-        "bn": "অস্বস্তি বোধ করলে সাথে সাথে বলুন।",
-        "en": "If you feel discomfort, say it immediately."
+        "ko": "상대방의 말이나 행동 때문에 불쾌감을 느끼면 분명하게 표현하세요.",
+        "bn": "অন্য পক্ষের কথা বা আচরণের কারণে অস্বস্তি বোধ করলে স্পষ্টভাবে তা প্রকাশ করুন।",
+        "en": "If you feel discomfort because of someone's words or actions, express it clearly."
       },
-      "pronunciationTipBn": "'불' এর 'ㄹ' এবং '쾌' এর 'ㅋ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'বুল-খোয়ে-গাম'। 쾌-এর 'ㅋ' জোরে হাওয়া ছেড়ে 'খ' বলুন।"
     },
     {
-      "ko": "농담",
-      "romanization": "nong-dam",
-      "bn": "মজা/ঠাট্টা",
-      "en": "joke",
+      "ko": "수치심",
+      "romanization": "suchisim",
+      "bn": "লজ্জা, অপমানিত বোধ করার অনুভূতি",
+      "en": "shame; feeling of humiliation",
       "pos": "noun",
       "example": {
-        "ko": "농담이라도 상처가 될 수 있습니다.",
-        "bn": "মজা হলেও তা আঘাতের কারণ হতে পারে।",
-        "en": "Even a joke can be hurtful."
+        "ko": "상대방이 수치심을 느낄 수 있는 농담을 하면 안 돼요.",
+        "bn": "অন্য পক্ষ লজ্জা বোধ করতে পারে এমন মজা করা যাবে না।",
+        "en": "You must not make jokes that could make the other person feel shame."
       },
-      "pronunciationTipBn": "'농' এর 'ㅇ' এবং '담' এর 'ㅁ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'সু-চি-সিম'। শেষের 'ㅁ' ঠোঁট বন্ধ করে 'ম' — 'ন' নয়।"
     },
     {
-      "ko": "거부",
-      "romanization": "geo-bu",
-      "bn": "প্রত্যাখ্যান/অস্বীকৃতি",
-      "en": "refusal / rejection",
+      "ko": "거부감",
+      "romanization": "geobugam",
+      "bn": "অনীহা, ঘৃণা বা প্রত্যাখ্যানের অনুভূতি",
+      "en": "a sense of repulsion; aversion",
       "pos": "noun",
       "example": {
-        "ko": "명확하게 거부 의사를 표현하세요.",
-        "bn": "স্পষ্টভাবে প্রত্যাখ্যানের ইচ্ছা প্রকাশ করুন।",
-        "en": "Express your refusal clearly."
+        "ko": "불필요한 신체 접촉은 거부감을 줄 수 있습니다.",
+        "bn": "অপ্রয়োজনীয় শারীরিক স্পর্শ অনীহা বা ঘৃণার অনুভূতি তৈরি করতে পারে।",
+        "en": "Unnecessary physical contact can cause a feeling of repulsion."
       },
-      "pronunciationTipBn": "'거' এর 'ㄱ' এবং '부' এর 'ㅂ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'কো-বু-গাম'। শুরুর 'ㄱ' নরম 'ক', মাঝের 부 স্বরসন্ধিতে 'বু' হয়।"
     },
     {
-      "ko": "존중하다",
-      "romanization": "jon-jung-ha-da",
-      "bn": "সম্মান করা",
-      "en": "to respect",
-      "pos": "verb",
+      "ko": "성적 농담",
+      "romanization": "seongjeok nongdam",
+      "bn": "যৌনতাবিষয়ক ঠাট্টা বা অশালীন রসিকতা",
+      "en": "sexual joke",
+      "pos": "noun phrase",
       "example": {
-        "ko": "서로의 의견을 존중해야 합니다.",
-        "bn": "একে অপরের মতামতকে সম্মান করতে হবে।",
-        "en": "We must respect each other's opinions."
+        "ko": "성적 농담은 아주 예민한 문제거든요.",
+        "bn": "যৌনতাবিষয়ক ঠাট্টা খুবই সংবেদনশীল একটি বিষয়।",
+        "en": "Sexual jokes are a very sensitive issue."
       },
-      "pronunciationTipBn": "'존' এর 'ㄴ' এবং '중' এর 'ㅇ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'সং-জক নং-দাম'। 농담 শব্দের 담 এখানে নরম 'দাম' হয়ে যায়।"
     },
     {
       "ko": "신체 접촉",
-      "romanization": "sin-che jeop-chok",
-      "bn": "শারীরিক স্পর্শ",
+      "romanization": "sinche jeopchok",
+      "bn": "শারীরিক স্পর্শ, গায়ে হাত দেওয়া",
       "en": "physical contact",
-      "pos": "noun",
+      "pos": "noun phrase",
       "example": {
-        "ko": "원하지 않는 신체 접촉은 피하세요.",
-        "bn": "অবাঞ্ছিত শারীরিক স্পর্শ এড়িয়ে চলুন।",
-        "en": "Avoid unwanted physical contact."
+        "ko": "수치심을 느낄 수 있는 신체 접촉은 하면 안 돼요.",
+        "bn": "লজ্জা বোধ করাতে পারে এমন শারীরিক স্পর্শ করা যাবে না।",
+        "en": "You must not make physical contact that could cause shame."
       },
-      "pronunciationTipBn": "'신' এর 'ㄴ' এবং '체' এর 'ㅊ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "접촉 → [접촉]; 'জপ-চোক', প-এর পরে থেমে চ-কে জোর দিয়ে বলুন।"
     },
     {
-      "ko": "불이익",
-      "romanization": "bul-i-ik",
-      "bn": "অসুবিধা/ক্ষতি",
-      "en": "disadvantage / penalty",
-      "pos": "noun",
+      "ko": "성차별적 언어",
+      "romanization": "seongchabyeoljeok eoneo",
+      "bn": "লিঙ্গবৈষম্যমূলক ভাষা, নারী-পুরুষ ভেদ করে বলা কথা",
+      "en": "sexist language",
+      "pos": "noun phrase",
       "example": {
-        "ko": "신고로 인한 불이익은 없습니다.",
-        "bn": "রিপোর্ট করার কারণে কোনো ক্ষতি হবে না।",
-        "en": "There is no penalty for reporting."
+        "ko": "일상생활에서 성차별적 언어나 행동을 알아차려야 합니다.",
+        "bn": "দৈনন্দিন জীবনে লিঙ্গবৈষম্যমূলক ভাষা বা আচরণ চিনতে শিখতে হবে।",
+        "en": "You must notice sexist language or behaviour in daily life."
       },
-      "pronunciationTipBn": "'불' এর 'ㄹ' এবং '이' এর 'ㅇ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'সং-চা-বিওল-জক অ-নো'। 언어 → [어너] 'অ-নো'-র মতো জোড়া লাগে।"
     },
     {
-      "ko": "보호하다",
-      "romanization": "bo-ho-ha-da",
-      "bn": "সুরক্ষা দেওয়া",
-      "en": "to protect",
+      "ko": "음담패설",
+      "romanization": "eumdampaeseol",
+      "bn": "অশ্লীল কথাবার্তা, নোংরা আলাপ",
+      "en": "lewd comments; obscene talk",
+      "pos": "noun",
+      "example": {
+        "ko": "동료가 심한 음담패설을 했거든요.",
+        "bn": "সহকর্মী খুব বাজে অশ্লীল কথা বলেছিল।",
+        "en": "A coworker made severe lewd comments."
+      },
+      "pronunciationTipBn": "'উম-দাম-প্যে-সল'। 패 = 'প্যে', মুখ চওড়া করে বলুন।"
+    },
+    {
+      "ko": "음란물",
+      "romanization": "eumnanmul",
+      "bn": "অশ্লীল ছবি বা ভিডিও সামগ্রী",
+      "en": "pornography; obscene material",
+      "pos": "noun",
+      "example": {
+        "ko": "직장에서 음란물을 보면 안 돼요.",
+        "bn": "কর্মক্ষেত্রে অশ্লীল সামগ্রী দেখা যাবে না।",
+        "en": "You must not view pornography at work."
+      },
+      "pronunciationTipBn": "음란물 → [음난물] 'উম-নান-মুল'; 'ㄹ' এখানে 'ন' হয়ে যায়।"
+    },
+    {
+      "ko": "성 인지 감수성",
+      "romanization": "seong inji gamsuseong",
+      "bn": "লিঙ্গ সংবেদনশীলতা (নারী-পুরুষের সমতা ও পার্থক্য বোঝার সচেতনতা)",
+      "en": "gender sensitivity",
+      "pos": "noun phrase",
+      "example": {
+        "ko": "직장에서 성 인지 감수성을 가지고 행동해야 됩니다.",
+        "bn": "কর্মক্ষেত্রে লিঙ্গ সংবেদনশীলতা নিয়ে আচরণ করতে হবে।",
+        "en": "In the workplace we must act with gender sensitivity."
+      },
+      "pronunciationTipBn": "'সং ইন-জি কাম-সু-সং'। 인지 → [인지] 'ইন-জি', তিন শব্দ আলাদা করে বলুন।"
+    },
+    {
+      "ko": "양성평등",
+      "romanization": "yangseong pyeongdeung",
+      "bn": "নারী-পুরুষের সমতা, লিঙ্গ সমতা",
+      "en": "gender equality",
+      "pos": "noun",
+      "example": {
+        "ko": "우리는 양성평등과 성별 차이를 이해해야 합니다.",
+        "bn": "আমাদের লিঙ্গ সমতা ও লিঙ্গ পার্থক্য বুঝতে হবে।",
+        "en": "We must understand gender equality and gender differences."
+      },
+      "pronunciationTipBn": "'ইয়াং-সং পিওং-দুং'। 평 = 'পিওং', ঠোঁট গোল করে বলুন।"
+    },
+    {
+      "ko": "성별 차이",
+      "romanization": "seongbyeol chai",
+      "bn": "নারী-পুরুষের মধ্যে পার্থক্য, লিঙ্গগত ভিন্নতা",
+      "en": "gender difference",
+      "pos": "noun phrase",
+      "example": {
+        "ko": "남자와 여자 사이에는 성별 차이가 있어요.",
+        "bn": "পুরুষ ও নারীর মধ্যে লিঙ্গগত পার্থক্য আছে।",
+        "en": "There are gender differences between men and women."
+      },
+      "pronunciationTipBn": "'সং-বিওল চা-ই'। 차이 দুই স্বরে 'চা-ই', এক শব্দে 'চাই' নয়।"
+    },
+    {
+      "ko": "가해자",
+      "romanization": "gahaeja",
+      "bn": "অপরাধকারী, যে ক্ষতি বা হয়রানি করে",
+      "en": "perpetrator; offender",
+      "pos": "noun",
+      "example": {
+        "ko": "우리 모두가 피해자도, 가해자도 될 수 있습니다.",
+        "bn": "আমরা সবাই ভুক্তভোগীও হতে পারি, অপরাধকারীও হতে পারি।",
+        "en": "Any of us can become either a victim or a perpetrator."
+      },
+      "pronunciationTipBn": "'কা-হে-জা'। শুরুর 'ㄱ' নরম 'ক', 해 = 'হে'।"
+    },
+    {
+      "ko": "피해자",
+      "romanization": "pihaeja",
+      "bn": "ভুক্তভোগী, ক্ষতিগ্রস্ত ব্যক্তি",
+      "en": "victim",
+      "pos": "noun",
+      "example": {
+        "ko": "성희롱이 발생하면 피해자는 보호하고 가해자는 조치해야 합니다.",
+        "bn": "যৌন হয়রানি ঘটলে ভুক্তভোগীকে রক্ষা করতে হবে এবং অপরাধকারীর বিরুদ্ধে ব্যবস্থা নিতে হবে।",
+        "en": "When sexual harassment occurs, the victim must be protected and the perpetrator dealt with."
+      },
+      "pronunciationTipBn": "'পি-হে-জা'। 피-এর 'ㅍ' হাওয়া ছেড়ে 'ফ/প', বাংলা 'পি'-র চেয়ে জোরালো।"
+    },
+    {
+      "ko": "증거",
+      "romanization": "jeunggeo",
+      "bn": "প্রমাণ, সাক্ষ্যপ্রমাণ",
+      "en": "evidence",
+      "pos": "noun",
+      "example": {
+        "ko": "성희롱을 당했을 때는 증거를 확보하고 신고해야 합니다.",
+        "bn": "যৌন হয়রানির শিকার হলে প্রমাণ সংরক্ষণ করে রিপোর্ট করতে হবে।",
+        "en": "When you suffer sexual harassment, you must secure evidence and report it."
+      },
+      "pronunciationTipBn": "'জুং-গো'। 증-এর 'ㅡ' বাংলায় নেই — ঠোঁট টান করে 'উ/অ'-র মাঝামাঝি বলুন।"
+    },
+    {
+      "ko": "증인",
+      "romanization": "jeungin",
+      "bn": "সাক্ষী, যে ঘটনা দেখেছে ও সাক্ষ্য দেয়",
+      "en": "witness",
+      "pos": "noun",
+      "example": {
+        "ko": "증인이 있으면 성희롱을 신고할 때 도움이 됩니다.",
+        "bn": "সাক্ষী থাকলে যৌন হয়রানির রিপোর্ট করার সময় সাহায্য হয়।",
+        "en": "Having a witness helps when reporting sexual harassment."
+      },
+      "pronunciationTipBn": "증인 → [증인] 'জুং-ইন'; 증거 আর 증인 গুলিয়ে ফেলবেন না।"
+    },
+    {
+      "ko": "의사를 표현하다",
+      "romanization": "uisareul pyohyeonhada",
+      "bn": "নিজের ইচ্ছা বা মতামত স্পষ্টভাবে জানানো",
+      "en": "to express one's intention",
+      "pos": "verb phrase",
+      "example": {
+        "ko": "불쾌감을 느끼면 분명하게 의사를 표현하세요.",
+        "bn": "অস্বস্তি বোধ করলে স্পষ্টভাবে নিজের ইচ্ছা জানান।",
+        "en": "If you feel discomfort, clearly express your intention."
+      },
+      "pronunciationTipBn": "의사 → [의사] 'উই-সা'; 'ㅢ' ধ্বনি 'উ' থেকে 'ই'-তে দ্রুত গড়িয়ে যায়।"
+    },
+    {
+      "ko": "신고하다",
+      "romanization": "singohada",
+      "bn": "রিপোর্ট করা, কর্তৃপক্ষ বা পুলিশকে জানানো",
+      "en": "to report (to the authorities)",
       "pos": "verb",
       "example": {
-        "ko": "회사는 피해자를 보호해야 합니다.",
-        "bn": "কোম্পানিকে অবশ্যই ভুক্তভোগীকে সুরক্ষা দিতে হবে।",
-        "en": "The company must protect the victim."
+        "ko": "다음에 그런 농담을 또 하면 회사에 바로 신고하세요.",
+        "bn": "পরবর্তীতে আবার এমন ঠাট্টা করলে সঙ্গে সঙ্গে কোম্পানিতে জানান।",
+        "en": "If they make that kind of joke again, report it to the company right away."
       },
-      "pronunciationTipBn": "'보' এর 'ㅂ' এবং '호' এর 'ㅎ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'সিন-গো-হা-দা'। 신고 → [신고], 'ㄱ' নরম 'গ' হয়ে যায়।"
     },
     {
-      "ko": "예방 교육",
-      "romanization": "ye-bang gyo-yuk",
-      "bn": "প্রতিরোধমূলক শিক্ষা",
-      "en": "prevention training",
-      "pos": "noun",
-      "example": {
-        "ko": "모든 직원은 예방 교육을 받아야 합니다.",
-        "bn": "সব কর্মীকে প্রতিরোধমূলক শিক্ষা নিতে হবে।",
-        "en": "All employees must receive prevention training."
-      },
-      "pronunciationTipBn": "'예' এর 'ㅇ' এবং '방' এর 'ㅇ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "녹음하다",
-      "romanization": "nok-eum-ha-da",
-      "bn": "রেকর্ড করা",
-      "en": "to record (audio)",
+      "ko": "요구하다",
+      "romanization": "yoguhada",
+      "bn": "দাবি করা, চাওয়া",
+      "en": "to demand; to request",
       "pos": "verb",
       "example": {
-        "ko": "필요하면 대화를 녹음하세요.",
-        "bn": "প্রয়োজন হলে কথোপকথন রেকর্ড করুন।",
-        "en": "Record the conversation if necessary."
+        "ko": "성희롱을 당했을 때는 사과도 요구하는 것이 좋아요.",
+        "bn": "যৌন হয়রানির শিকার হলে ক্ষমা প্রার্থনাও দাবি করা ভালো।",
+        "en": "When you have been sexually harassed, it is good to also demand an apology."
       },
-      "pronunciationTipBn": "'녹' এর 'ㄱ' এবং '음' এর 'ㅁ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'ইও-গু-হা-দা'। 요 = 'ইও', ঠোঁট গোল করে বলুন।"
     },
     {
-      "ko": "사건",
-      "romanization": "sa-geon",
-      "bn": "ঘটনা",
-      "en": "incident / case",
-      "pos": "noun",
-      "example": {
-        "ko": "사건 발생 시 즉시 보고하세요.",
-        "bn": "ঘটনা ঘটলে সাথে সাথে রিপোর্ট করুন।",
-        "en": "Report immediately when an incident occurs."
-      },
-      "pronunciationTipBn": "'사' এর 'ㅅ' এবং '건' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "해결하다",
-      "romanization": "hae-gyeol-ha-da",
-      "bn": "সমাধান করা",
-      "en": "to solve / resolve",
+      "ko": "확보하다",
+      "romanization": "hakbohada",
+      "bn": "সংরক্ষণ করা, নিশ্চিতভাবে হাতে রাখা (প্রমাণ ইত্যাদি)",
+      "en": "to secure (e.g. evidence)",
       "pos": "verb",
       "example": {
-        "ko": "문제를 평화롭게 해결합시다.",
-        "bn": "সমস্যাটি শান্তিপূর্ণভাবে সমাধান করি।",
-        "en": "Let's resolve the problem peacefully."
+        "ko": "증거를 확보하고 신고해야 됩니다.",
+        "bn": "প্রমাণ সংরক্ষণ করে রিপোর্ট করতে হবে।",
+        "en": "You must secure the evidence and report it."
       },
-      "pronunciationTipBn": "'해' এর 'ㅎ' এবং '결' এর 'ㄹ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "확보 → [확뽀] 'হোয়াক-ব্বো'; ㄱ-এর পরে 'ㅂ' শক্ত 'ব্ব' হয়ে যায়।"
     },
     {
-      "ko": "징계",
-      "romanization": "jing-gye",
-      "bn": "শাস্তিমূলক ব্যবস্থা",
-      "en": "disciplinary action",
+      "ko": "당하다",
+      "romanization": "danghada",
+      "bn": "(খারাপ কিছুর) শিকার হওয়া, ভোগ করা",
+      "en": "to suffer; to be subjected to",
+      "pos": "verb",
+      "example": {
+        "ko": "성희롱이나 성추행을 당했을 때는 어떻게 해야 돼요?",
+        "bn": "যৌন হয়রানি বা যৌন সহিংসতার শিকার হলে কী করতে হবে?",
+        "en": "What should you do when you suffer sexual harassment or assault?"
+      },
+      "pronunciationTipBn": "'দাং-হা-দা'। 당했을 → [당해쓸] 'দাং-হে-স্সুল'।"
+    },
+    {
+      "ko": "발생하다",
+      "romanization": "balsaenghada",
+      "bn": "ঘটা, সংঘটিত হওয়া",
+      "en": "to occur; to happen",
+      "pos": "verb",
+      "example": {
+        "ko": "직장 내 성희롱이 발생하면 절차에 따라 신고해야 합니다.",
+        "bn": "কর্মক্ষেত্রে যৌন হয়রানি ঘটলে নিয়ম অনুযায়ী রিপোর্ট করতে হবে।",
+        "en": "If workplace sexual harassment occurs, it must be reported according to procedure."
+      },
+      "pronunciationTipBn": "발생 → [발쌩] 'বাল-স্সেং'; 'ㅅ' শক্ত 'স্স' হয়ে যায়।"
+    },
+    {
+      "ko": "알아차리다",
+      "romanization": "alachalida",
+      "bn": "টের পাওয়া, বুঝে ফেলা, চিনতে পারা",
+      "en": "to notice; to realize",
+      "pos": "verb",
+      "example": {
+        "ko": "성차별적 언어나 행동을 알아차리는 것이 중요합니다.",
+        "bn": "লিঙ্গবৈষম্যমূলক ভাষা বা আচরণ টের পাওয়া গুরুত্বপূর্ণ।",
+        "en": "It is important to notice sexist language or behaviour."
+      },
+      "pronunciationTipBn": "알아 → [아라] 'আ-রা-চা-রি-দা'; 'ㄹ' পরের স্বরে জুড়ে যায়।"
+    },
+    {
+      "ko": "분명하다",
+      "romanization": "bunmyeonghada",
+      "bn": "স্পষ্ট হওয়া, পরিষ্কার হওয়া",
+      "en": "to be clear",
+      "pos": "adjective",
+      "example": {
+        "ko": "불쾌한 감정을 분명하게 표현하는 것이 중요합니다.",
+        "bn": "অস্বস্তিকর অনুভূতি স্পষ্টভাবে প্রকাশ করা গুরুত্বপূর্ণ।",
+        "en": "It is important to express unpleasant feelings clearly."
+      },
+      "pronunciationTipBn": "'বুন-মিওং-হা-দা'। 명 = 'মিওং', নাক দিয়ে টানুন।"
+    },
+    {
+      "ko": "예민하다",
+      "romanization": "yeminhada",
+      "bn": "সংবেদনশীল হওয়া, স্পর্শকাতর হওয়া",
+      "en": "to be sensitive",
+      "pos": "adjective",
+      "example": {
+        "ko": "성적 농담은 아주 예민한 문제예요.",
+        "bn": "যৌনতাবিষয়ক ঠাট্টা খুবই স্পর্শকাতর বিষয়।",
+        "en": "Sexual jokes are a very sensitive matter."
+      },
+      "pronunciationTipBn": "'ইয়ে-মিন-হা-দা'। 예 = 'ইয়ে', 애/에-এর চেয়ে সামনে 'ই' যোগ হয়।"
+    },
+    {
+      "ko": "예방",
+      "romanization": "yebang",
+      "bn": "প্রতিরোধ, আগেই ঠেকানো",
+      "en": "prevention",
       "pos": "noun",
       "example": {
-        "ko": "가해자는 징계를 받을 수 있습니다.",
-        "bn": "অপরাধী শাস্তিমূলক ব্যবস্থার সম্মুখীন হতে পারে।",
-        "en": "The perpetrator may face disciplinary action."
+        "ko": "내일 모두 성희롱 예방 교육을 받아야 한다고 해요.",
+        "bn": "শোনা যাচ্ছে কাল সবাইকে যৌন হয়রানি প্রতিরোধ প্রশিক্ষণ নিতে হবে।",
+        "en": "They say everyone has to take sexual harassment prevention training tomorrow."
       },
-      "pronunciationTipBn": "'징' এর 'ㅇ' এবং '계' এর 'ㄱ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'ইয়ে-বাং'। 방-এর শেষে 'ㅇ' নাক দিয়ে 'ং' — 'বান' নয়।"
+    },
+    {
+      "ko": "상대방",
+      "romanization": "sangdaebang",
+      "bn": "অন্য পক্ষ, সামনের ব্যক্তি (যার সঙ্গে কথা বলা হচ্ছে)",
+      "en": "the other person; counterpart",
+      "pos": "noun",
+      "example": {
+        "ko": "상대방의 동의 없이 성적인 언어나 행동을 해서는 안 됩니다.",
+        "bn": "অন্য পক্ষের সম্মতি ছাড়া যৌনতাবিষয়ক কথা বা আচরণ করা যাবে না।",
+        "en": "You must not use sexual language or behaviour without the other person's consent."
+      },
+      "pronunciationTipBn": "'সাং-দে-বাং'। 대 = 'দে', দুটো 'ㅇ' দুবার নাকে 'ং'।"
+    },
+    {
+      "ko": "표정",
+      "romanization": "pyojeong",
+      "bn": "মুখের ভাব, চেহারার অভিব্যক্তি",
+      "en": "facial expression",
+      "pos": "noun",
+      "example": {
+        "ko": "아까 유진 씨 표정이 많이 안 좋던데요.",
+        "bn": "একটু আগে দেখলাম ইউজিনের মুখের ভাব খুব খারাপ ছিল।",
+        "en": "Earlier Yujin's expression didn't look good at all."
+      },
+      "pronunciationTipBn": "'পিও-জং'। 표-এর 'ㅍ' হাওয়া ছেড়ে 'প', 정 = নাকে 'জং'।"
+    },
+    {
+      "ko": "의도",
+      "romanization": "uido",
+      "bn": "উদ্দেশ্য, মনের ইচ্ছা",
+      "en": "intention",
+      "pos": "noun",
+      "example": {
+        "ko": "그런 의도는 아니었는데요.",
+        "bn": "আমার তো সে রকম উদ্দেশ্য ছিল না।",
+        "en": "That wasn't my intention, though."
+      },
+      "pronunciationTipBn": "'উই-দো'। 'ㅢ' দ্রুত 'উ'+'ই'; অনেকে সহজভাবে 'ই-দো'-র মতোও বলে।"
+    },
+    {
+      "ko": "조심하다",
+      "romanization": "josimhada",
+      "bn": "সাবধান হওয়া, সতর্ক থাকা",
+      "en": "to be careful",
+      "pos": "verb",
+      "example": {
+        "ko": "네, 앞으로는 조심할게요.",
+        "bn": "হ্যাঁ, এখন থেকে সাবধান থাকব।",
+        "en": "Yes, I'll be careful from now on."
+      },
+      "pronunciationTipBn": "'জো-সিম-হা-দা'। 조심할게요 → [조시할께요] 'জো-সি-হাল-ক্কে-ইও'।"
+    },
+    {
+      "ko": "심하다",
+      "romanization": "simhada",
+      "bn": "মাত্রা ছাড়ানো, বাড়াবাড়ি বা কঠোর হওয়া",
+      "en": "to be severe; to go too far",
+      "pos": "adjective",
+      "example": {
+        "ko": "심한 농담은 안 하는 게 좋아요.",
+        "bn": "বাড়াবাড়ি ধরনের ঠাট্টা না করাই ভালো।",
+        "en": "It's better not to make jokes that go too far."
+      },
+      "pronunciationTipBn": "'সিম-হা-দা'। 심한 → [시만] 'সি-মান'-এর মতো জুড়ে যায়।"
+    },
+    {
+      "ko": "놀라다",
+      "romanization": "nollada",
+      "bn": "চমকে যাওয়া, অবাক হওয়া",
+      "en": "to be surprised; to be shocked",
+      "pos": "verb",
+      "example": {
+        "ko": "유진 씨가 화를 내서 깜짝 놀랐어요.",
+        "bn": "ইউজিন রাগ করাতে আমি একেবারে চমকে গিয়েছিলাম।",
+        "en": "Yujin got angry, so I was really startled."
+      },
+      "pronunciationTipBn": "놀라다 → [놀라다] 'নোল-লা-দা'; 'ㄹㄹ' জিভ ঠেকিয়ে দ্বিগুণ 'ল'।"
+    },
+    {
+      "ko": "사과",
+      "romanization": "sagwa",
+      "bn": "ক্ষমা প্রার্থনা, দুঃখ প্রকাশ",
+      "en": "apology",
+      "pos": "noun",
+      "example": {
+        "ko": "내 농담이 불쾌하다고 해서 빨리 사과했습니다.",
+        "bn": "আমার ঠাট্টা অস্বস্তিকর ছিল বলায় আমি দ্রুত ক্ষমা চেয়েছি।",
+        "en": "They said my joke was unpleasant, so I apologized quickly."
+      },
+      "pronunciationTipBn": "'সা-গোয়া'। 과 = 'গোয়া' এক শ্বাসে; 'সাগুয়া' নয়।"
     }
   ],
   "grammar": [
     {
-      "pattern": "-아/어도 돼요",
-      "titleBn": "অনুমতি জানানো (-아/어도 돼요)",
-      "explanationBn": "এই বাক্য রুপে অনুমতি বা অনুমোদন বোঝানো হয়। উদাহরণ: '가도 돼요' = যেতে পারেন।\nউদাহরণ 문장들:\n1) '여기에 앉아도 돼요.' — 'এখানে বসা যাবে।' — 'You may sit here.'\n2) '제가 도와드려도 돼요?' — 'আমি সাহায্য করব কি?' — 'May I help you?'",
-      "explanationEn": "This form expresses permission or allowance. Example: '가도 돼요' = 'You may go.'\nExamples:\n1) '여기에 앉아도 돼요.' — You may sit here.\n2) '제가 도와드려도 돼요?' — May I help you?",
+      "pattern": "V/A + -던데요",
+      "titleBn": "-던데요 : নিজে দেখা নতুন তথ্য জানিয়ে সঙ্গীর প্রতিক্রিয়া চাওয়া",
+      "explanationBn": "'-던데요' ক্রিয়া ও বিশেষণের মূলের সঙ্গে যুক্ত হয়। বক্তা নিজে যা দেখেছেন, শুনেছেন বা অনুভব করেছেন — এমন নতুন তথ্য অন্যকে জানানোর সময় এটি ব্যবহৃত হয়, আর সঙ্গে সঙ্গে শ্রোতার প্রতিক্রিয়া বা মতামত আশা করা হয়। যেমন 표정이 안 좋던데요 (দেখলাম মুখের ভাব ভালো ছিল না) — এতে 'তুমি কি জানো কেন?' এমন সুর থাকে। বাংলায় 'দেখলাম তো...', '...ছিল যে' এই অর্থ। অতীতে দেখা অভিজ্ঞতা হলেও 았/었 না লাগিয়ে সরাসরি মূল + 던데요 হয়: 좋다 → 좋던데요, 가다 → 가던데요, 먹다 → 먹던데요। বিশেষ্যের সঙ্গে 이다 হলে 이던데요/였던데요 হয়। কর্মক্ষেত্রে সহকর্মীর অবস্থা বা কারখানার পরিস্থিতি সম্পর্কে সতর্কভাবে কথা তোলার জন্য এটি খুব দরকারি।",
+      "explanationEn": "'-던데요' attaches to verb and adjective stems to convey a new fact the speaker personally experienced (saw, heard, felt), while inviting the listener's reaction or comment. Even though the experience is in the past, no 았/었 is added: 좋다 → 좋던데요. With nouns it becomes 이던데요/였던데요. It often carries the nuance 'I noticed that... what do you think?'",
       "examples": [
         {
-          "ko": "여기에 앉아도 돼요.",
-          "bn": "এখানে বসা যাবে।",
-          "en": "You may sit here."
+          "ko": "아까 유진 씨 표정이 많이 안 좋던데요.",
+          "bn": "একটু আগে দেখলাম ইউজিনের মুখের ভাব খুব খারাপ ছিল।",
+          "en": "Earlier Yujin's expression didn't look good at all."
         },
         {
-          "ko": "관련 내용을 상담자에게 말해도 돼요.",
-          "bn": "আপনি পরামর্শদাতাকে বিষয়টি বলতে পারবেন।",
-          "en": "You may tell the counselor the details."
+          "ko": "닛차난 씨 표정이 어둡던데요.",
+          "bn": "দেখলাম নিচানানের মুখটা মনমরা ছিল।",
+          "en": "Nitchanan looked gloomy, I noticed."
+        },
+        {
+          "ko": "아궁 씨가 기분이 나빠 보이던데요.",
+          "bn": "আগুংকে দেখে মনে হলো তার মন খারাপ।",
+          "en": "Agung looked like he was in a bad mood."
+        },
+        {
+          "ko": "지난 주말에 해수욕장에 갔어요. 사람이 많던데요.",
+          "bn": "গত সপ্তাহান্তে সমুদ্রসৈকতে গিয়েছিলাম। দেখলাম অনেক লোক।",
+          "en": "I went to the beach last weekend. There were a lot of people, I saw."
         }
       ],
-      "commonMistakeBn": "অনেকে প্রশ্ন করার সময় ভুল করে '-아/어도 돼요?' এর বদলে শুধু '-아/어요?' ব্যবহার করেন, যা অনুমতির অর্থ পরিষ্কার করে না।"
+      "commonMistakeBn": "শিক্ষার্থীরা প্রায়ই অতীত বোঝাতে 았/었 জুড়ে '좋았던데요', '봤던데요' বলে ফেলেন — এটি ভুল, সরাসরি 좋던데요, 보던데요 হবে। আরেকটি ভুল হলো নিজের কথা বলতে এটি ব্যবহার করা: '저는 기분이 나쁘던데요' বলা যায় না, কারণ '-던데요' অন্যের বা বাইরের কিছু নিজে দেখে জানানোর জন্য।"
     },
     {
-      "pattern": "-(으)면 안 돼요",
-      "titleBn": "নিষেধ/না করা উচিত (-(으)면 안 돼요)",
-      "explanationBn": "এই রূপটি নিষেধ বা করা উচিত নয় বোঝায়। উদাহরণ: '만지면 안 돼요' = ছোঁয়াও না।\nউদাহরণ 문장들:\n1) '성희롱을 해도 안 돼요.' — 'যৌন হয়রানি করা যাবে না।' — 'You must not sexually harass.'\n2) '증거를 버리면 안 돼요.' — 'প্রমাণ ফেলা যাবে না।' — 'Do not destroy evidence.'",
-      "explanationEn": "This pattern expresses prohibition or something that must not be done. Example: '만지면 안 돼요' = 'Do not touch.'\nExamples:\n1) '성희롱을 해도 안 돼요.' — You must not sexually harass.\n2) '증거를 버리면 안 돼요.' — Do not destroy evidence.",
+      "pattern": "V/A + -(느)ㄴ다고/다고 하다",
+      "titleBn": "-(느)ㄴ다고/다고 하다 : অন্যের কাছে শোনা কথা জানানো (পরোক্ষ উক্তি)",
+      "explanationBn": "অন্য কারও কাছ থেকে শোনা তথ্য তৃতীয় ব্যক্তিকে জানাতে '-(느)ㄴ다고/다고 하다' ব্যবহার করা হয়। রূপ: ক্রিয়ার শেষে ব্যঞ্জন থাকলে -는다고 하다 (먹다 → 먹는다고 하다), স্বর বা 'ㄹ' থাকলে -ㄴ다고 하다 (오다 → 온다고 하다, 살다 → 산다고 하다); বিশেষণে সবসময় -다고 하다 (맛있다 → 맛있다고 하다, 바쁘다 → 바쁘다고 하다); বিশেষ্যের সঙ্গে (이)라고 하다 (생일이다 → 생일이라고 해요)। কর্মক্ষেত্রে যৌন হয়রানি প্রতিরোধ প্রশিক্ষণের নিয়ম বা সহকর্মীর বলা কথা রিপোর্ট করার জন্য এটি মূল বাক্যরূপ।",
+      "explanationEn": "'-(느)ㄴ다고/다고 하다' reports a fact heard from someone else. Verbs take -는다고 하다 after a consonant and -ㄴ다고 하다 after a vowel or ㄹ; adjectives always take -다고 하다; nouns take (이)라고 하다. Used constantly to relay workplace rules and what coworkers said.",
       "examples": [
         {
-          "ko": "성희롱을 해도 안 돼요.",
-          "bn": "যৌন হয়রানি করা যাবে না।",
-          "en": "You must not sexually harass."
+          "ko": "내일 모두 성희롱 예방 교육을 받아야 한다고 해요.",
+          "bn": "শোনা যাচ্ছে কাল সবাইকে যৌন হয়রানি প্রতিরোধ প্রশিক্ষণ নিতে হবে।",
+          "en": "They say everyone has to take sexual harassment prevention training tomorrow."
         },
         {
-          "ko": "증거를 버리면 안 돼요.",
-          "bn": "প্রমাণ ফেলা যাবে না।",
-          "en": "Do not destroy evidence."
+          "ko": "아미나 씨가 내일 성희롱 예방 교육을 듣는다고 해요.",
+          "bn": "আমিনা বলেছে সে কাল যৌন হয়রানি প্রতিরোধ প্রশিক্ষণ শুনবে।",
+          "en": "Amina says she will attend the sexual harassment prevention training tomorrow."
+        },
+        {
+          "ko": "프엉 씨가 심한 농담은 안 하는 게 좋다고 해요.",
+          "bn": "ফুওং বলেছে বাড়াবাড়ি ধরনের ঠাট্টা না করাই ভালো।",
+          "en": "Phuong says it's better not to make jokes that go too far."
+        },
+        {
+          "ko": "진수 씨가 내일이 마두 씨 생일이라고 해요.",
+          "bn": "জিনসু বলেছে কাল মাদুর জন্মদিন।",
+          "en": "Jinsu says tomorrow is Madhu's birthday."
         }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণ দিয়ে শেষ হওয়া শব্দের সাথে ভুল করে '-면 안 돼요' ব্যবহার করেন; ব্যঞ্জনবর্ণ থাকলে '-(으)면' বসবে।"
+      "commonMistakeBn": "সবচেয়ে সাধারণ ভুল হলো বিশেষণ ও ক্রিয়ার রূপ মিশিয়ে ফেলা: '필요한다고 합니다' ভুল, ঠিক হবে '필요하다고 합니다' (필요하다 বিশেষণ)। আবার বিশেষ্যের পরে -다고 বসিয়ে '생일이다고 해요' বলা যায় না, হবে '생일이라고 해요'। মনে রাখুন: 하다-যুক্ত বিশেষণে -다고, ক্রিয়ায় -ㄴ다고/는다고।"
     },
     {
-      "pattern": "-아/어 주세요",
-      "titleBn": "সহায়তা চাওয়া (-아/어 주세요)",
-      "explanationBn": "এই রূপটি বিনীতভাবে সাহায্য বা অনুরোধ জানাতে ব্যবহার করা হয়। উদাহরণ: '도와 주세요' = অনুগ্রহ করে সাহায্য করুন।\nউদাহরণ 문장들:\n1) '경비를 불러 주세요.' — 'দয়া করে নিরাপত্তাকে ডেকে আনুন।' — 'Please call security.'\n2) '상담을 소개해 주세요.' — 'দয়া করে কাউন্সেলিংয়ের তথ্য দিন।' — 'Please refer me to counseling.'",
-      "explanationEn": "This form is used to politely request help. Example: '도와 주세요' = 'Please help.'\nExamples:\n1) '경비를 불러 주세요.' — Please call security.\n2) '상담을 소개해 주세요.' — Please refer me to counseling.",
+      "pattern": "V/A + -거든요",
+      "titleBn": "-거든요 : কারণ বা পটভূমি ব্যাখ্যা করা ('আসলে ... তাই')",
+      "explanationBn": "'-거든요' বাক্যের শেষে বসে শ্রোতা যা জানে না এমন কারণ বা কারণসংক্রান্ত পটভূমি ব্যাখ্যা করে। কেউ প্রশ্ন করলে বা অবাক হলে উত্তরে 'আসলে ব্যাপারটা এই যে...' বলার জন্য এটি ব্যবহৃত হয়। রূপ সহজ: ক্রিয়া/বিশেষণের মূল + 거든요 (하다 → 하거든요), অতীতে 았/었거든요 (했거든요), বিশেষ্যে (이)거든요। এই অধ্যায়ে কেন সহকর্মীর মুখ খারাপ ছিল তার কারণ বোঝাতে বারবার আসে: 성적 농담을 하셨거든요, 음담패설을 했거든요। কেবল ঘরোয়া/সাধারণ ভদ্র (해요체) পরিবেশে বলবেন; খুব ফরমাল রিপোর্টে -기 때문입니다 ভালো।",
+      "explanationEn": "'-거든요' ends a sentence to give a reason or background the listener does not yet know, like 'the thing is...'. Stem + 거든요; past 았/었거든요; nouns take (이)거든요. In this unit it explains why someone looked upset or why a topic is sensitive.",
       "examples": [
         {
-          "ko": "경비를 불러 주세요.",
-          "bn": "নিরাপত্তাকে ডেকে আনুন।",
-          "en": "Please call security."
+          "ko": "성적 농담은 아주 예민한 문제거든요.",
+          "bn": "আসলে যৌনতাবিষয়ক ঠাট্টা খুবই স্পর্শকাতর একটা বিষয়।",
+          "en": "The thing is, sexual jokes are a very sensitive issue."
         },
         {
-          "ko": "상담을 소개해 주세요.",
-          "bn": "কাউন্সেলিংয়ের যোগসূত্র দিন।",
-          "en": "Please refer me to counseling."
+          "ko": "부장님이 성적 농담을 하셨거든요.",
+          "bn": "আসলে বিভাগীয় প্রধান যৌনতাবিষয়ক ঠাট্টা করেছিলেন।",
+          "en": "It's because the manager made a sexual joke."
+        },
+        {
+          "ko": "동료가 심한 음담패설을 했거든요.",
+          "bn": "আসলে সহকর্মী খুব বাজে অশ্লীল কথা বলেছিল।",
+          "en": "It's because a coworker made severe lewd comments."
+        },
+        {
+          "ko": "어떤 직원이 회사에서 음란물을 보고 있었거든요.",
+          "bn": "আসলে এক কর্মী কোম্পানিতে অশ্লীল ভিডিও দেখছিল।",
+          "en": "It's because an employee was watching pornography at the company."
         }
       ],
-      "commonMistakeBn": "অনেকে অনুরোধ করার সময় ভুল করে '-아/어요' ব্যবহার করেন; বিনীত অনুরোধের জন্য '-아/어 주세요' ব্যবহার করা উচিত।"
+      "commonMistakeBn": "শিক্ষার্থীরা প্রায়ই '-거든요'-কে বাক্যের মাঝখানে যোজক হিসেবে ব্যবহার করেন: '음담패설을 했거든요 기분이 나빠요' — ভুল। এটি বাক্যের একেবারে শেষে বসে; কারণ+ফল একসাথে বলতে -아/어서 বা -기 때문에 ব্যবহার করুন। আরেকটি ভুল: ঊর্ধ্বতনকে সরাসরি অনুরোধ বা অজুহাত হিসেবে বারবার 거든요 বলা — এতে কথাটা গা-ছাড়া শোনাতে পারে।"
     },
     {
-      "pattern": "-기 전에",
-      "titleBn": "আগে (-기 전에)",
-      "explanationBn": "এই রূপটি কোনো কাজ করার আগে অন্য একটি কাজ করার কথা বোঝাতে ব্যবহৃত হয়। উদাহরণ: '가기 전에' = যাওয়ার আগে।",
-      "explanationEn": "This pattern is used to express doing something before another action. Example: '가기 전에' = 'Before going.'",
+      "pattern": "V + -(으)면 안 되다",
+      "titleBn": "-(으)면 안 되다 : নিষেধ করা ('... করা যাবে না')",
+      "explanationBn": "নিয়মবিরুদ্ধ বা নিষিদ্ধ কাজ বোঝাতে '-(으)면 안 되다' ব্যবহার করা হয়। ক্রিয়ার মূলের শেষে স্বর থাকলে -면 안 되다 (하다 → 하면 안 돼요), ব্যঞ্জন থাকলে -으면 안 되다 (먹다 → 먹으면 안 돼요)। বাংলায় '... করা যাবে না / ঠিক হবে না'। কর্মক্ষেত্রের আচরণবিধি ও যৌন হয়রানি প্রতিরোধের নিয়ম বলার সময় এটিই প্রধান রূপ। আরও কঠোরভাবে বলতে বইয়ে '-해서는 안 됩니다' রূপও এসেছে: 상대방의 동의 없이 성적인 언어나 행동을 해서는 안 됩니다।",
+      "explanationEn": "'-(으)면 안 되다' expresses prohibition: 'must not / may not do'. Use -면 안 되다 after a vowel stem and -으면 안 되다 after a consonant stem. It is the main pattern for stating workplace conduct rules; the stronger written form -해서는 안 됩니다 also appears in this unit.",
       "examples": [
         {
-          "ko": "행동하기 전에 동의를 구하세요.",
-          "bn": "কাজ করার আগে সম্মতি নিন।",
-          "en": "Ask for consent before acting."
+          "ko": "직장에서 음란물을 보면 안 돼요.",
+          "bn": "কর্মক্ষেত্রে অশ্লীল সামগ্রী দেখা যাবে না।",
+          "en": "You must not view pornography at work."
         },
         {
-          "ko": "신고하기 전에 증거를 모으세요.",
-          "bn": "রিপোর্ট করার আগে প্রমাণ সংগ্রহ করুন।",
-          "en": "Gather evidence before reporting."
+          "ko": "상대방이 수치심을 느낄 수 있는 농담을 하면 안 돼요.",
+          "bn": "অন্য পক্ষ লজ্জা বোধ করতে পারে এমন ঠাট্টা করা যাবে না।",
+          "en": "You must not make jokes that could make the other person feel ashamed."
         },
         {
-          "ko": "퇴근하기 전에 문을 닫아 주세요.",
-          "bn": "কাজ শেষে যাওয়ার আগে দরজা বন্ধ করে দিন।",
-          "en": "Please close the door before leaving work."
+          "ko": "불필요한 신체 접촉을 하면 안 됩니다.",
+          "bn": "অপ্রয়োজনীয় শারীরিক স্পর্শ করা যাবে না।",
+          "en": "You must not make unnecessary physical contact."
+        },
+        {
+          "ko": "상대방의 동의 없이 성적인 언어나 행동을 해서는 안 됩니다.",
+          "bn": "অন্য পক্ষের সম্মতি ছাড়া যৌনতাবিষয়ক কথা বা আচরণ করা যাবে না।",
+          "en": "Sexual language or behaviour must not be used without the other person's consent."
         }
       ],
-      "commonMistakeBn": "অনেকে বিশেষ্যের সাথে ভুল করে '-기 전에' ব্যবহার করেন; বিশেষ্যের সাথে শুধু '전에' বসবে (যেমন: 식사 전에)।"
+      "commonMistakeBn": "সবচেয়ে বড় ভুল হলো 돼요 আর 되요 গুলিয়ে ফেলা — লিখিত রূপ সবসময় '안 돼요' (되+어요), '안 되요' ভুল। আর ব্যঞ্জনান্ত মূলে 으 বাদ দিয়ে '먹면 안 돼요' বলা যায় না, হবে '먹으면 안 돼요'।"
     },
     {
-      "pattern": "-(으)ㄹ 수 있다/없다",
-      "titleBn": "পারা/না পারা (-(으)ㄹ 수 있다/없다)",
-      "explanationBn": "এই রূপটি কোনো কিছু করার ক্ষমতা বা সম্ভাবনা বোঝাতে ব্যবহৃত হয়।",
-      "explanationEn": "This pattern is used to express ability or possibility to do something.",
+      "pattern": "V + -았/었을 때는",
+      "titleBn": "-았/었을 때는 : 'যখন ... হয়েছে/ঘটেছে, তখন' — ঘটনার পরের করণীয় বলা",
+      "explanationBn": "'-을 때' মানে 'যখন'; সঙ্গে অতীতের 았/었 যোগ করে '-았/었을 때는' হলে অর্থ দাঁড়ায় 'যখন কোনো ঘটনা ইতিমধ্যে ঘটে গেছে, সেই ক্ষেত্রে'। সাধারণত পরের অংশে করণীয় বা পরামর্শ থাকে: -아/어야 됩니다, -(으)세요, -는 것이 좋아요। রূপ: 당하다 → 당했을 때는, 듣다 → 들었을 때는, 보다 → 봤을 때는। শেষের 는 বিষয়টিকে আলাদা করে জোর দেয় ('এই ক্ষেত্রে তো')। যৌন হয়রানির শিকার হওয়ার পরে কী করতে হবে — এই অধ্যায়ের মূল প্রশ্নগুলো এই রূপেই করা হয়েছে।",
+      "explanationEn": "'-을 때' means 'when'; adding past 았/었 gives '-았/었을 때는', meaning 'in the case where something has already happened'. The following clause states what one should do: -아/어야 됩니다, -(으)세요, -는 것이 좋아요. This unit uses it for what to do after suffering harassment.",
       "examples": [
         {
-          "ko": "피해자는 지원을 받을 수 있습니다.",
-          "bn": "ভুক্তভোগী সহায়তা পেতে পারেন।",
-          "en": "The victim can receive support."
+          "ko": "성희롱이나 성추행을 당했을 때는 어떻게 해야 돼요?",
+          "bn": "যৌন হয়রানি বা যৌন সহিংসতার শিকার হলে কী করতে হবে?",
+          "en": "What should you do when you have suffered sexual harassment or assault?"
         },
         {
-          "ko": "혼자서 해결할 수 없어요.",
-          "bn": "একা সমাধান করতে পারব না।",
-          "en": "I cannot resolve it alone."
+          "ko": "성희롱을 당했을 때는 증거를 확보하고 신고해야 됩니다.",
+          "bn": "যৌন হয়রানির শিকার হলে প্রমাণ সংরক্ষণ করে রিপোর্ট করতে হবে।",
+          "en": "When you have been sexually harassed, you must secure evidence and report it."
         },
         {
-          "ko": "누구나 신고할 수 있습니다.",
-          "bn": "যে কেউ রিপোর্ট করতে পারে।",
-          "en": "Anyone can report."
+          "ko": "성희롱을 당했을 때는 불쾌감을 표현해야 돼요.",
+          "bn": "যৌন হয়রানির শিকার হলে অস্বস্তির কথা প্রকাশ করতে হবে।",
+          "en": "When you have been sexually harassed, you must express your discomfort."
+        },
+        {
+          "ko": "심한 농담을 들었을 때는 사과도 요구하는 것이 좋아요.",
+          "bn": "বাড়াবাড়ি ধরনের ঠাট্টা শুনলে ক্ষমা প্রার্থনাও দাবি করা ভালো।",
+          "en": "When you hear a joke that goes too far, it is good to also demand an apology."
         }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণ দিয়ে শেষ হওয়া শব্দের সাথে ভুল করে '-ㄹ 수 있다' ব্যবহার করেন; ব্যঞ্জনবর্ণ থাকলে '-(으)ㄹ 수 있다' বসবে।"
+      "commonMistakeBn": "শিক্ষার্থীরা প্রায়ই 았/었 বাদ দিয়ে '당할 때는 신고하세요' বলেন — এতে অর্থ হয় 'শিকার হওয়ার সময়', কিন্তু ঘটনা ঘটে যাওয়ার পরের করণীয় বোঝাতে '당했을 때는' লাগে। আরেকটি ভুল হলো 때 বাদ দিয়ে শুধু '당했을는' লেখা — 을 때 একসঙ্গে থাকতেই হবে।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "রিপোর্ট করা",
-      "titleEn": "Reporting",
+      "titleBn": "ঠাট্টাও যৌন হয়রানি হয়ে যেতে পারে",
+      "titleEn": "A Joke Can Become Sexual Harassment Too",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "저는 어제 상사에게 불편한 말을 들었어요.",
-          "bn": "গতকাল আমার সুপিরিয়র আমাকে অস্বস্তিকর কথা বলেছিল।",
-          "en": "I heard uncomfortable comments from my boss yesterday."
+          "speaker": "진수",
+          "ko": "마두 씨, 조금 전에 유진 씨가 많이 속상해 보이던데요.",
+          "bn": "মাদু ভাই, একটু আগে ইউজিনকে খুব মন খারাপ দেখাচ্ছিল যে।",
+          "en": "Madhu, Yujin looked quite upset a little while ago."
         },
         {
-          "speaker": "상담원",
-          "ko": "정말 불편하셨겠어요. 먼저 안전은 괜찮으세요?",
-          "bn": "এটা শুনে দুঃখ লাগল। প্রথমে নিরাপত্তা ঠিক আছে কি?",
-          "en": "That sounds upsetting. Are you safe first?"
+          "speaker": "마두",
+          "ko": "네? 저는 친한 사이라서 가볍게 농담을 한 것뿐이거든요.",
+          "bn": "কী? আসলে আমরা ঘনিষ্ঠ বলে আমি হালকা একটা ঠাট্টা করেছিলাম, এই যা।",
+          "en": "What? I only made a light joke because we're close, you see."
         },
         {
-          "speaker": "직원",
-          "ko": "네, 지금은 괜찮아요. 어떻게 신고하나요?",
-          "bn": "হ্যাঁ, এখন ঠিক আছি। কিভাবে রিপোর্ট করব?",
-          "en": "Yes, I'm okay now. How do I report it?"
+          "speaker": "진수",
+          "ko": "그 농담이 외모에 대한 이야기였지요? 그런 말은 상대방이 수치심을 느낄 수 있어요.",
+          "bn": "ঠাট্টাটা তো চেহারা নিয়ে ছিল, তাই না? এমন কথায় সামনের মানুষটি লজ্জা বোধ করতে পারেন।",
+          "en": "That joke was about her appearance, wasn't it? Such words can make the other person feel humiliated."
         },
         {
-          "speaker": "상담원",
-          "ko": "회사 신고 채널과 외부 상담 번호 모두 안내해 드릴게요. 비밀 보장이 됩니다.",
-          "bn": "কোম্পানির রিপোর্ট চ্যানেল এবং বাইরের কাউন্সেলিং নম্বর আমি দেব। গোপনতা বজায় থাকবে।",
-          "en": "I'll give you the company reporting channels and external counseling numbers. Confidentiality is ensured."
+          "speaker": "마두",
+          "ko": "그런 의도는 정말 없었어요. 유진 씨가 그렇게 불쾌할 줄 몰랐어요.",
+          "bn": "সত্যিই আমার এমন কোনো উদ্দেশ্য ছিল না। ইউজিন যে এতটা অস্বস্তি বোধ করবে বুঝিনি।",
+          "en": "I really had no such intention. I didn't know Yujin would be that offended."
         },
         {
-          "speaker": "직원",
-          "ko": "보복이 걱정돼요.",
-          "bn": "আমি প্রতিশোধ নিয়ে চিন্তিত।",
-          "en": "I'm worried about retaliation."
+          "speaker": "진수",
+          "ko": "의도보다 상대방의 기분이 더 중요해요. 성적 농담은 아주 예민한 문제거든요.",
+          "bn": "উদ্দেশ্যের চেয়ে সামনের মানুষটির অনুভূতি বেশি গুরুত্বপূর্ণ। কারণ যৌনতাবিষয়ক ঠাট্টা খুবই স্পর্শকাতর বিষয়।",
+          "en": "The other person's feelings matter more than your intention. Sexual jokes are a very sensitive issue, you see."
         },
         {
-          "speaker": "상담원",
-          "ko": "보복 금지 정책이 있습니다. 안전한 지원을 도와드릴게요.",
-          "bn": "প্রতিশোধ নিষেধ নীতি আছে। নিরাপদ সহায়তা দেব।",
-          "en": "There is a no-retaliation policy. We'll help you with safe support."
+          "speaker": "마두",
+          "ko": "알겠어요. 앞으로는 그런 농담을 하면 안 되겠네요.",
+          "bn": "বুঝেছি। এরপর থেকে এমন ঠাট্টা করা যাবে না।",
+          "en": "I understand. From now on I mustn't make jokes like that."
+        },
+        {
+          "speaker": "진수",
+          "ko": "네, 먼저 사과하고 다음부터 조심하는 게 좋겠어요.",
+          "bn": "হ্যাঁ, আগে ক্ষমা চেয়ে নিন আর এরপর থেকে সাবধান থাকাই ভালো।",
+          "en": "Yes, it would be good to apologize first and be careful from now on."
         }
       ]
     },
     {
-      "titleBn": "বাইস্ট্যান্ডার সহায়তা",
-      "titleEn": "Bystander Support",
+      "titleBn": "লিঙ্গ সংবেদনশীলতা নিয়ে প্রশিক্ষণে যা শুনলাম",
+      "titleEn": "What I Heard at the Gender Sensitivity Training",
       "lines": [
         {
-          "speaker": "동료",
-          "ko": "저기, 지금 그 말은 적절하지 않아요. 그만해 주세요.",
-          "bn": "ওহ, ওই কথাগুলো ঠিক নয়। দয়া করে বন্ধ করুন।",
-          "en": "Hey, that comment isn't appropriate. Please stop."
+          "speaker": "아궁",
+          "ko": "프엉 씨, 어제 성희롱 예방 교육에 갔지요? 강연이 어땠어요?",
+          "bn": "ফুওং ভাই, গতকাল যৌন হয়রানি প্রতিরোধ প্রশিক্ষণে গিয়েছিলেন তো? বক্তৃতা কেমন ছিল?",
+          "en": "Phuong, you went to the harassment prevention training yesterday, right? How was the lecture?"
         },
         {
-          "speaker": "가해자",
-          "ko": "아, 농담이었어.",
-          "bn": "ওহ, এটা মজা ছিল।",
-          "en": "Oh, I was joking."
+          "speaker": "프엉",
+          "ko": "아주 유익했어요. 강연자가 우리 모두 피해자도 가해자도 될 수 있다고 했어요.",
+          "bn": "খুব উপকারী ছিল। বক্তা বলেছেন, আমরা সবাই ভুক্তভোগীও হতে পারি, অপরাধকারীও হতে পারি।",
+          "en": "It was very useful. The speaker said that all of us can become either a victim or a perpetrator."
         },
         {
-          "speaker": "동료",
-          "ko": "농담이라도 불편하면 멈춰야 합니다.",
-          "bn": "মজা হলেও যদি অস্বস্তি হয় তাহলে থামতে হবে।",
-          "en": "Even as a joke, if it makes someone uncomfortable, it must stop."
+          "speaker": "아궁",
+          "ko": "성 인지 감수성이라는 말도 나왔어요?",
+          "bn": "লিঙ্গ সংবেদনশীলতা কথাটাও এসেছিল?",
+          "en": "Did the term 'gender sensitivity' come up as well?"
         },
         {
-          "speaker": "목격자",
-          "ko": "괜찮으세요? 도와줄까요?",
-          "bn": "আপনি ঠিক আছেন? আমি কি সাহায্য করব?",
-          "en": "Are you okay? Shall I help?"
+          "speaker": "프엉",
+          "ko": "네, 양성평등과 성별 차이를 이해하는 것이 성 인지 감수성이라고 해요.",
+          "bn": "হ্যাঁ, নারী-পুরুষের সমতা ও লিঙ্গগত পার্থক্য বোঝাকেই লিঙ্গ সংবেদনশীলতা বলে বলছিলেন।",
+          "en": "Yes, they say understanding gender equality and gender differences is what gender sensitivity means."
         },
         {
-          "speaker": "피해자",
-          "ko": "네, 같이 신고해 주시면 감사하겠습니다.",
-          "bn": "হ্যাঁ, দয়া করে আমার সঙ্গে রিপোর্ট করুন।",
-          "en": "Yes, please file the report with me."
+          "speaker": "아궁",
+          "ko": "저도 듣고 싶었는데 그날 야근을 했거든요.",
+          "bn": "আমারও শুনতে ইচ্ছে করছিল, কিন্তু সেদিন রাতের শিফটে কাজ করছিলাম।",
+          "en": "I wanted to attend too, but I was working the night shift that day, you see."
+        },
+        {
+          "speaker": "프엉",
+          "ko": "다음 달에 또 교육이 있다고 하니까 그때 같이 가요.",
+          "bn": "পরের মাসে আবার প্রশিক্ষণ আছে বলছিলেন, তখন একসঙ্গে যাব।",
+          "en": "They say there's another training next month, so let's go together then."
         }
       ]
     },
     {
-      "titleBn": "প্রতিরোধমূলক শিক্ষা",
-      "titleEn": "Prevention Training",
+      "titleBn": "যৌন হয়রানির শিকার হলে যা করতে হয়",
+      "titleEn": "What to Do If You Experience Sexual Harassment",
       "lines": [
         {
-          "speaker": "강사",
-          "ko": "오늘 성희롱 예방 교육을 시작하겠습니다.",
-          "bn": "আজ আমরা যৌন হয়রানি প্রতিরোধমূলক শিক্ষা শুরু করব।",
-          "en": "We will start the sexual harassment prevention training today."
+          "speaker": "칼로",
+          "ko": "마두 씨, 어제 수치심을 느꼈을 때는 어떻게 해야 하는지 알았어요?",
+          "bn": "মাদু ভাই, গতকাল লজ্জা বোধ করলে কী করতে হয় সেটা জানলেন?",
+          "en": "Madhu, did you learn yesterday what to do when you feel humiliated?"
         },
         {
-          "speaker": "직원",
-          "ko": "성희롱의 기준이 무엇인가요?",
-          "bn": "যৌন হয়রানির মানদণ্ড কী?",
-          "en": "What is the standard for sexual harassment?"
+          "speaker": "마두",
+          "ko": "네, 불쾌한 감정을 분명하게 표현하는 것이 중요하다고 했어요.",
+          "bn": "হ্যাঁ, অস্বস্তির অনুভূতি স্পষ্টভাবে প্রকাশ করা গুরুত্বপূর্ণ বলছিলেন।",
+          "en": "Yes, they said it's important to express your uncomfortable feelings clearly."
         },
         {
-          "speaker": "강사",
-          "ko": "상대방이 불쾌감을 느끼면 성희롱이 될 수 있습니다.",
-          "bn": "যদি অন্য ব্যক্তি অস্বস্তি বোধ করে, তবে তা যৌন হয়রানি হতে পারে।",
-          "en": "If the other person feels discomfort, it can be sexual harassment."
+          "speaker": "칼로",
+          "ko": "맞아요. 그리고 증거를 확보하고 신고해야 한다고 했지요?",
+          "bn": "ঠিক। আর প্রমাণ সংরক্ষণ করে রিপোর্ট করতে হয় বলেছিল তো?",
+          "en": "Right. And they said you have to secure evidence and report it, didn't they?"
         },
         {
-          "speaker": "직원",
-          "ko": "농담으로 한 말도 문제가 되나요?",
-          "bn": "মজা করে বলা কথাও কি সমস্যা হতে পারে?",
-          "en": "Can something said as a joke also be a problem?"
+          "speaker": "마두",
+          "ko": "네, 메시지를 저장하거나 증인을 찾아야 된대요.",
+          "bn": "হ্যাঁ, বার্তা সংরক্ষণ করতে হবে বা সাক্ষী খুঁজতে হবে বলছিল।",
+          "en": "Yes, they said you should save messages or find a witness."
         },
         {
-          "speaker": "강사",
-          "ko": "네, 농담이라도 상대방이 원하지 않으면 멈춰야 합니다.",
-          "bn": "হ্যাঁ, মজা হলেও অন্য ব্যক্তি না চাইলে তা থামাতে হবে।",
-          "en": "Yes, even if it's a joke, you must stop if the other person doesn't want it."
+          "speaker": "칼로",
+          "ko": "피해자는 보호받고 가해자는 처벌을 받는다고 했어요. 경고나 해고도 있을 수 있대요.",
+          "bn": "ভুক্তভোগী সুরক্ষা পাবেন আর অপরাধকারী শাস্তি পাবেন বলছিল। সতর্কতা বা চাকরিচ্যুতিও হতে পারে বলেছিল।",
+          "en": "They said victims are protected and perpetrators are punished. There can even be warnings or dismissal."
+        },
+        {
+          "speaker": "마두",
+          "ko": "그래서 우리 모두 조심해야 돼요. 상대방의 동의 없이 신체 접촉을 하면 안 돼요.",
+          "bn": "তাই আমাদের সবার সাবধান থাকা উচিত। সামনের মানুষের সম্মতি ছাড়া শরীরে স্পর্শ করা যাবে না।",
+          "en": "That's why we all need to be careful. You mustn't make physical contact without the other person's consent."
+        },
+        {
+          "speaker": "칼로",
+          "ko": "맞아요. 서로 존중하고 예의를 지키는 게 제일 중요해요.",
+          "bn": "ঠিক। পরস্পরকে সম্মান করা আর ভদ্রতা বজায় রাখাই সবচেয়ে গুরুত্বপূর্ণ।",
+          "en": "Exactly. Respecting each other and maintaining courtesy is most important."
         }
       ]
     }
@@ -641,584 +770,569 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "কোনটি '동의' এর সঠিক বাংলা অর্থ?",
-      "questionKo": "다음 중 '동의'의 뜻은 무엇인가요?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: সামনের মানুষটি অস্বস্তি বোধ করতে পারেন এমন ___ করা যাবে না।",
+      "questionKo": "상대방이 불쾌감을 느낄 수 있는 ___을/를 하면 안 됩니다.",
       "options": [
-        "신고 채널",
-        "목격자",
-        "증거",
-        "합의/허락"
+        "규칙",
+        "초대",
+        "농담",
+        "이사"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "동의는 সম্মতি বা অনুমতি বোঝায়, তাই '합의/허락' সঠিক।"
+      "answer": 2,
+      "explanationBn": "যৌনতাবিষয়ক ঠাট্টা (성적 농담) শুনে সামনের মানুষটি অস্বস্তি বোধ করতে পারেন, তাই '농담' (ঠাট্টা) সঠিক। '규칙' মানে নিয়ম — নিয়ম করা কাউকে অস্বস্তি দেয় না। '초대' মানে নিমন্ত্রণ, যা সাধারণত ইতিবাচক। '이사' মানে বাসা বদল, এই প্রসঙ্গের সঙ্গে সম্পর্কহীন।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "কানুনে '보복 금지' নীতি কেন গুরুত্বপূর্ণ?",
-      "questionKo": "법에서 '보복 금지' 정책이 중요한 이유는?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: যৌন হয়রানির শিকার হলে ___ সংরক্ষণ করে রিপোর্ট করতে হবে।",
+      "questionKo": "성희롱을 당했을 때는 ___을/를 확보하고 신고해야 합니다.",
       "options": [
-        "증거를 숨기기 위해",
-        "목격자를 처벌하기 위해",
-        "피해자가 더 안전하게 신고할 수 있도록",
-        "가해자를 보호하기 위해"
+        "장비",
+        "시간",
+        "재료",
+        "증거"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "보복 금지는 피해자가 보복 걱정 없이 안전하게 신고하도록 돕는다।"
+      "answer": 3,
+      "explanationBn": "রিপোর্ট করার সময় ঘটনার প্রমাণ দরকার হয়, তাই '증거' (প্রমাণ) সঠিক। '장비' মানে যন্ত্রপাতি, যা কারখানার সরঞ্জাম বোঝায়। '시간' মানে সময় — সময় 확보 করা যায়, কিন্তু রিপোর্টের ভিত্তি নয়। '재료' মানে কাঁচামাল, এই প্রসঙ্গে বেমানান।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "누군가 위험하면 আপনি প্রথমে কী করবেন?",
-      "questionKo": "누군가 위험하면 먼저 무엇을 해야 하나요?",
+      "type": "fill-blank",
+      "questionBn": "'-던데요' গঠন দিয়ে বাক্যটি পূর্ণ করুন: একটু আগে ইউজিনের মুখের ভাব ভালো দেখাচ্ছিল না যে।",
+      "questionKo": "아까 유진 씨 표정이 안 ___.",
       "options": [
-        "가해자에게 보복한다",
-        "즉시 안전을 확인하고 신고한다",
-        "증거를 버린다",
-        "그 자리를 떠난다"
+        "좋던데요",
+        "좋는데요",
+        "좋겠는데요",
+        "좋았겠어요"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "প্রথমে নিরাপত্তা নিশ্চিত করে অবিলম্বে রিপোর্ট করা উচিত; তাই '즉시 안전을 확인하고 신고한다' সঠিক।"
+      "answer": 0,
+      "explanationBn": "নিজে চোখে দেখা নতুন তথ্য জানাতে '-던데요' ব্যবহার হয়, আর 좋다 বিশেষণ বলে '좋던데요' সঠিক। '좋는데요' ভুল, কারণ '-는데요' বিশেষণের সঙ্গে বসে না ('좋은데요' হতো)। '좋겠는데요' অনুমান বোঝায়, নিজে দেখা ঘটনা নয়। '좋았겠어요' হলো অতীতের অনুমান, প্রত্যক্ষ অভিজ্ঞতা নয়।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "다음 중 회사에서 제공할 수 있는 지원이 아닌 것은?",
-      "questionKo": "다음 중 회사가 제공할 수 있는 지원이 아닌 것은?",
+      "questionBn": "'-(느)ㄴ다고/다고 하다' দিয়ে পরোক্ষ উক্তি বানান। আমিনা বলেছেন: \"আগামীকাল যৌন হয়রানি প্রতিরোধ প্রশিক্ষণে যাব।\"",
+      "questionKo": "아미나 씨가 내일 성희롱 예방 교육을 ___.",
       "options": [
-        "피해자에게 불이익 주기",
-        "안전 계획 수립 도움",
-        "보복 금지 정책",
-        "비밀 보장 상담"
+        "듣는다고 해요",
+        "듣다고 해요",
+        "들는다고 해요",
+        "듣은다고 해요"
       ],
-      "pairs": [],
       "answer": 0,
-      "explanationBn": "피해자에게 불이익을 주는 것은 정책에 위배되므로 회사 지원이 아니다।"
+      "explanationBn": "듣다 একটি ক্রিয়া এবং এর মূলে 받침 'ㄷ' আছে, তাই '-는다고 하다' যুক্ত হয়ে '듣는다고 해요' হয়। '듣다고 해요' ভুল, কারণ '-다고 하다' কেবল বিশেষণের সঙ্গে বসে। '들는다고' ভুল বানান — 듣다 এখানে ㄷ-অনিয়ম মানে না। '듣은다고' গঠনটি কোরিয়ানে নেই।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "목격자로서 당신이 할 수 있는 행동은?",
-      "questionKo": "목격자로서 할 수 있는 행동은 무엇인가요?",
-      "options": [
-        "아무 말도 하지 않는다",
-        "가해자를 숨긴다",
-        "증거를 없앤다",
-        "목격 사실을 신고한다"
+      "type": "matching",
+      "questionBn": "যৌন হয়রানি-সংক্রান্ত কোরিয়ান শব্দের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "성희롱 관련 어휘와 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "성희롱",
+          "right": "যৌন হয়রানি"
+        },
+        {
+          "left": "성적 농담",
+          "right": "যৌনতাবিষয়ক ঠাট্টা"
+        },
+        {
+          "left": "신체 접촉",
+          "right": "শারীরিক স্পর্শ"
+        },
+        {
+          "left": "불쾌감",
+          "right": "অস্বস্তির অনুভূতি"
+        },
+        {
+          "left": "수치심",
+          "right": "লজ্জা বা অপমানিত বোধ"
+        }
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "목격자는 사건을 신고하고 도움을 줄 수 있으므로 '목격 사실을 신고한다' সঠিক।"
+      "explanationBn": "এই শব্দগুলো ইউনিট ৩৪-এর মূল শব্দভান্ডার। '성희롱' হলো যৌনতাবিষয়ক কথা বা আচরণে অন্যকে কষ্ট দেওয়া, আর '성적 농담' ও '신체 접촉' তার দুটি সাধারণ রূপ — একটি ভাষাগত, অন্যটি শারীরিক। '불쾌감' ও '수치심' হলো ভুক্তভোগীর অনুভূতি; পার্থক্য হলো '불쾌감' মানে বিরক্তি বা খারাপ লাগা, আর '수치심' মানে লজ্জা ও অপমানের গভীর অনুভূতি।"
     },
     {
       "id": "p6",
       "type": "fill-blank",
-      "questionBn": "বিকল্পগুলোর মধ্যে সঠিক শব্দটি বাছুন: '상담은 _____ 보장이 됩니다.'",
-      "questionKo": "다음 빈칸에 들어갈 말은? '상담은 _____ 보장이 됩니다.'",
+      "questionBn": "'-거든요' দিয়ে কারণ জানান: যৌনতাবিষয়ক ঠাট্টা করা যাবে না। কারণ এটি খুবই স্পর্শকাতর বিষয়।",
+      "questionKo": "성적 농담은 하면 안 돼요. 아주 예민한 ___.",
       "options": [
-        "채널",
-        "가해자",
-        "비밀",
-        "증거"
+        "문제거든요",
+        "문제군요",
+        "문제잖아요",
+        "문제던데요"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "문장에서 '비밀 보장'이 맞으므로 '비밀' সঠিক।"
+      "answer": 0,
+      "explanationBn": "শ্রোতা জানেন না এমন কারণ বা পটভূমি জানাতে '-거든요' ব্যবহার হয়, আর 문제 একটি বিশেষ্য বলে '문제거든요' সঠিক। '문제군요' নতুন কিছু বুঝতে পারার বিস্ময় বোঝায়, কারণ নয়। '문제잖아요' শ্রোতা আগেই জানেন এমন কথা মনে করিয়ে দেয়, এখানে উল্টো অর্থ হয়। '문제던데요' নিজে দেখা অভিজ্ঞতা বোঝায়, সাধারণ কারণ নয়।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "বিকল্পগুলোর মধ্যে সঠিক শব্দটি বাছুন: '불편하면 바로 _____ 하세요.'",
-      "questionKo": "다음 빈칸에 들어갈 말은? '불편하면 바로 _____ 하세요.'",
+      "type": "multiple-choice",
+      "questionBn": "কোন বাক্যটি '-(으)면 안 되다' গঠনের সঠিক ব্যবহার?",
+      "questionKo": "다음 중 맞는 문장을 고르십시오.",
       "options": [
-        "증거를 버린다",
-        "신고하세요",
-        "제지한다",
-        "가해자를 옹호한다"
+        "직장에서 음란물을 보면 안 돼요.",
+        "직장에서 음란물을 보면 안 돼야 해요.",
+        "직장에서 음란물을 볼면 안 돼요.",
+        "직장에서 음란물을 보면 안 해요."
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "অস্বস্তি হলে দ্রুত রিপোর্ট করা উচিত; তাই '신고하세요' সঠিক।"
+      "answer": 0,
+      "explanationBn": "보다 ক্রিয়ার মূলে 받침 নেই, তাই '-면 안 되다' যুক্ত হয়ে '보면 안 돼요' হয় — এটিই নিষেধ বোঝানোর সঠিক রূপ। '안 돼야 해요' গঠনটি অতিরিক্ত, কোরিয়ানে ব্যবহৃত হয় না। '볼면' ভুল বানান — ভবিষ্যৎ রূপ '볼'-এর সঙ্গে '-면' বসে না। '안 해요' মানে 'করি না', যা নিষেধ নয় বরং সাধারণ নেতিবাচক বাক্য।"
     },
     {
       "id": "p8",
       "type": "fill-blank",
-      "questionBn": "বিকল্পগুলোর মধ্যে সঠিক শব্দটি বাছুন: '응급 상황이면 _____ 연락하세요.'",
-      "questionKo": "다음 빈칸에 들어갈 말은? '응급 상황이면 _____ 연락하세요.'",
+      "questionBn": "'-았/었을 때는' দিয়ে বাক্যটি পূর্ণ করুন: যৌন হয়রানির শিকার হলে প্রমাণ সংরক্ষণ করতে হবে।",
+      "questionKo": "성희롱을 ___ 증거를 확보해야 합니다.",
       "options": [
-        "응급 연락처",
-        "경계",
-        "보복 금지",
-        "증거"
+        "당할 때는",
+        "당했을 때는",
+        "당하는 때는",
+        "당하면서"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "'응급 상황'에 연락해야 하는 것은 '응급 연락처'।"
+      "answer": 1,
+      "explanationBn": "ঘটনা ঘটে যাওয়ার পরের করণীয় বোঝাতে '-았/었을 때는' ব্যবহার হয়, তাই '당했을 때는' সঠিক। '당할 때는' ভবিষ্যৎ বা সাধারণ সময় বোঝায়, ঘটে যাওয়া ঘটনা নয়। '당하는 때는' কোরিয়ানে অস্বাভাবিক গঠন। '당하면서' মানে 'শিকার হতে হতে', অর্থাৎ একসঙ্গে দুটি কাজ — এখানে অর্থ বদলে যায়।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "নীচের বাংলা অনুবাদগুলো সঠিক কোরিয়ান টার্মগুলোর সাথে মিলান।",
-      "questionKo": "다음 한국어 단어와 올바른 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "동의",
-          "right": "সম্মতি"
-        },
-        {
-          "left": "비밀 보장",
-          "right": "গোপনতা নিশ্চয়তা"
-        },
-        {
-          "left": "목격자",
-          "right": "সাক্ষী"
-        },
-        {
-          "left": "증거",
-          "right": "প্রমাণ"
-        }
+      "type": "multiple-choice",
+      "questionBn": "অর্থ অনুযায়ী সঠিক শব্দ বাছুন: যে ব্যক্তি হয়রানি করেছেন, তাঁকে কোরিয়ান ভাষায় কী বলা হয়?",
+      "questionKo": "성희롱을 한 사람을 무엇이라고 합니까?",
+      "options": [
+        "피해자",
+        "증인",
+        "가해자",
+        "상대방"
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দের সঠিক বাংলা অর্থ মিল করা হয়েছে।"
+      "answer": 2,
+      "explanationBn": "যিনি ক্ষতি বা হয়রানি করেন তাঁকে '가해자' (অপরাধকারী) বলে, তাই এটিই সঠিক। '피해자' মানে ভুক্তভোগী, অর্থাৎ যিনি ক্ষতিগ্রস্ত হয়েছেন — ঠিক বিপরীত। '증인' মানে সাক্ষী, যিনি ঘটনা দেখেছেন কিন্তু জড়িত নন। '상대방' মানে সামনের ব্যক্তি, যা নিরপেক্ষ শব্দ এবং দায় বোঝায় না।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "নিচের কর্মগুলোর কোরিয়ান অনুবাদ মেলান।",
-      "questionKo": "다음 행동과 한국어 표현을 연결하세요.",
-      "options": [],
+      "questionBn": "প্রতিরোধ ও প্রতিকার-সংক্রান্ত কোরিয়ান শব্দের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "예방과 대처 관련 어휘와 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "প্রতিবেদন করা",
-          "right": "신고"
+          "left": "가해자",
+          "right": "অপরাধকারী"
         },
         {
-          "left": "সাহায্য চাওয়া",
-          "right": "지원 요청"
+          "left": "피해자",
+          "right": "ভুক্তভোগী"
         },
         {
-          "left": "বাধা দেওয়া/রোধ করা",
-          "right": "제지하다"
+          "left": "증거",
+          "right": "প্রমাণ"
         },
         {
-          "left": "নিরাপত্তা পরিকল্পনা",
-          "right": "안전 계획"
+          "left": "증인",
+          "right": "সাক্ষী"
         },
         {
-          "left": "তৎক্ষণাত প্রতিবেদন",
-          "right": "즉시 신고"
+          "left": "신고하다",
+          "right": "রিপোর্ট করা"
         }
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি বাংলা কর্মের সাথে কোরিয়ান অনুবাদ যোগ করা হয়েছে।"
+      "explanationBn": "এগুলো যৌন হয়রানির প্রতিকার-প্রক্রিয়ার মূল শব্দ। '가해자' ও '피해자' পরস্পর বিপরীত — একজন ক্ষতি করেন, অন্যজন ক্ষতিগ্রস্ত হন। '증거' হলো বস্তুগত প্রমাণ (যেমন সংরক্ষিত বার্তা), আর '증인' হলো মানুষ, যিনি ঘটনার সাক্ষ্য দেন। '신고하다' মানে কর্তৃপক্ষকে আনুষ্ঠানিকভাবে জানানো, যা প্রমাণ সংরক্ষণের পরের ধাপ।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "কোনটি '불쾌감' এর সঠিক বাংলা অর্থ?",
-      "questionKo": "다음 중 '불쾌감'의 뜻은 무엇인가요?",
+      "questionBn": "কথোপকথনটি সম্পূর্ণ করুন। '-던데요' দিয়ে নিজে দেখা তথ্য জানানো হচ্ছে।",
+      "questionKo": "가: 마두 씨가 왜 사과했어요? 나: 유진 씨가 많이 속상해 ___.",
       "options": [
-        "সম্মতি",
-        "অস্বস্তি/বিরক্তি",
-        "প্রমাণ",
-        "নিরাপত্তা"
+        "보이겠어요",
+        "보이던데요",
+        "보일 거예요",
+        "보이잖아요"
       ],
       "answer": 1,
-      "explanationBn": "'불쾌감' মানে অস্বস্তি বা বিরক্তি।"
+      "explanationBn": "বক্তা নিজে দেখেছেন যে ইউজিন মন খারাপ করে আছেন, আর সেই নতুন তথ্য জানাচ্ছেন — তাই '-던데요' যুক্ত '보이던데요' সঠিক। '보이겠어요' অনুমান বোঝায়, প্রত্যক্ষ দেখা নয়। '보일 거예요' ভবিষ্যতের অনুমান। '보이잖아요' বোঝায় শ্রোতা আগেই জানেন, কিন্তু এখানে তিনি জানেন না বলেই প্রশ্ন করছেন।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 성희롱 예방을 위해 올바른 행동은?",
-      "questionKo": "다음 중 성희롱 예방을 위해 올바른 행동은?",
+      "type": "fill-blank",
+      "questionBn": "পরোক্ষ উক্তিতে বদলান। ফুওং বলেছেন: \"মাত্রা ছাড়ানো ঠাট্টা না করাই ভালো।\"",
+      "questionKo": "프엉 씨가 심한 농담은 안 하는 게 ___.",
       "options": [
-        "상대방의 경계를 무시한다",
-        "원하지 않는 신체 접촉을 한다",
-        "서로의 의견을 존중한다",
-        "불쾌감을 주는 농담을 계속한다"
+        "좋는다고 해요",
+        "좋다고 해요",
+        "좋은다고 해요",
+        "좋라고 해요"
       ],
-      "answer": 2,
-      "explanationBn": "যৌন হয়রানি প্রতিরোধের জন্য একে অপরের মতামতকে সম্মান করা (서로의 의견을 존중한다) সঠিক কাজ।"
+      "answer": 1,
+      "explanationBn": "좋다 একটি বিশেষণ, আর বিশেষণের সঙ্গে '-다고 하다' যুক্ত হয়, তাই '좋다고 해요' সঠিক। '좋는다고' ভুল, কারণ '-는다고 하다' কেবল ক্রিয়ার সঙ্গে বসে। '좋은다고' গঠনটি কোরিয়ানে নেই। '좋라고' হলো আদেশের পরোক্ষ রূপ, যা বিশেষণের সঙ্গে ব্যবহার করা যায় না।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "사건이 발생했을 때 가장 먼저 해야 할 일은?",
-      "questionKo": "사건이 발생했을 때 가장 먼저 해야 할 일은?",
+      "questionBn": "লিঙ্গ সংবেদনশীলতা (성 인지 감수성) মানে কী?",
+      "questionKo": "성 인지 감수성은 무슨 뜻입니까?",
       "options": [
-        "증거를 없앤다",
-        "가해자를 보호한다",
-        "즉시 신고한다",
-        "아무에게도 말하지 않는다"
+        "일을 빨리 끝내는 능력",
+        "양성평등과 성별 차이를 이해하는 것",
+        "회사의 규칙을 잘 지키는 것",
+        "외국어를 잘하는 것"
       ],
-      "answer": 2,
-      "explanationBn": "ঘটনা ঘটলে সবচেয়ে প্রথমে অবিলম্বে রিপোর্ট করা (즉시 신고한다) উচিত।"
+      "answer": 1,
+      "explanationBn": "পাঠ্যবই অনুযায়ী '성 인지 감수성' মানে নারী-পুরুষের সমতা (양성평등) ও লিঙ্গগত পার্থক্য (성별 차이) বোঝা এবং দৈনন্দিন জীবনে বৈষম্যমূলক ভাষা বা আচরণ টের পাওয়া। বাকি তিনটি বিকল্প কর্মক্ষেত্রের অন্য গুণ — কাজের গতি, নিয়মানুবর্তিতা ও ভাষাদক্ষতা — যেগুলোর সঙ্গে লিঙ্গ সংবেদনশীলতার সম্পর্ক নেই।"
     },
     {
       "id": "p14",
       "type": "fill-blank",
-      "questionBn": "বিকল্পগুলোর মধ্যে সঠিক শব্দটি বাছুন: '상대방이 _____을/를 느끼면 멈춰야 합니다.'",
-      "questionKo": "다음 빈칸에 들어갈 말은? '상대방이 _____을/를 느끼면 멈춰야 합니다.'",
+      "questionBn": "সঠিক শব্দ বসান: সামনের মানুষের কথা বা আচরণে অস্বস্তি বোধ করলে অনুভূতিটি ___ প্রকাশ করা গুরুত্বপূর্ণ।",
+      "questionKo": "불쾌한 감정을 ___ 표현하는 것이 중요합니다.",
       "options": [
-        "동의",
-        "불쾌감",
-        "안전",
-        "지원"
+        "분명하게",
+        "조용하게",
+        "천천히",
+        "재미있게"
       ],
-      "answer": 1,
-      "explanationBn": "অন্য ব্যক্তি অস্বস্তি (불쾌감) বোধ করলে থামতে হবে।"
+      "answer": 0,
+      "explanationBn": "পাঠ্যবই বলছে অস্বস্তির অনুভূতি স্পষ্টভাবে জানাতে হবে, যাতে সামনের মানুষ বুঝতে পারেন — তাই '분명하게' (স্পষ্টভাবে) সঠিক। '조용하게' মানে চুপচাপ, যা উল্টো ফল দেয়। '천천히' মানে ধীরে, এখানে অপ্রাসঙ্গিক। '재미있게' মানে মজা করে, যা গুরুতর পরিস্থিতিতে সম্পূর্ণ বেমানান।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "বিকল্পগুলোর মধ্যে সঠিক শব্দটি বাছুন: '모든 직원은 예방 _____을/를 받아야 합니다.'",
-      "questionKo": "다음 빈칸에 들어갈 말은? '모든 직원은 예방 _____을/를 받아야 합니다.'",
+      "type": "multiple-choice",
+      "questionBn": "কোন আচরণটি কর্মক্ষেত্রে যৌন হয়রানির মধ্যে পড়ে না?",
+      "questionKo": "다음 중 직장 내 성희롱이 아닌 것을 고르십시오.",
       "options": [
-        "교육",
-        "보복",
-        "징계",
-        "사건"
+        "음란한 사진을 동료에게 보여 주는 것",
+        "회식에서 술을 따르도록 강요하는 것",
+        "업무에 대해 정중하게 질문하는 것",
+        "외모에 대해 성적인 평가를 하는 것"
       ],
-      "answer": 0,
-      "explanationBn": "সব কর্মীকে প্রতিরোধমূলক শিক্ষা (교육) নিতে হবে।"
+      "answer": 2,
+      "explanationBn": "কাজ নিয়ে ভদ্রভাবে প্রশ্ন করা স্বাভাবিক পেশাদার আচরণ, তাই এটি হয়রানি নয়। বাকি তিনটি পাঠ্যবইয়ে সরাসরি যৌন হয়রানির উদাহরণ হিসেবে দেওয়া আছে: অশ্লীল ছবি দেখানো (시각적 행위), হোয়েশিকে মদ ঢালতে বাধ্য করা, এবং চেহারা নিয়ে যৌনতাবিষয়ক মন্তব্য করা (언어적 행위)।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "বিকল্পগুলোর মধ্যে সঠিক শব্দটি বাছুন: '필요하면 대화를 _____하세요.'",
-      "questionKo": "다음 빈칸에 들어갈 말은? '필요하면 대화를 _____하세요.'",
+      "type": "multiple-choice",
+      "questionBn": "যৌন হয়রানি ঘটলে অপরাধকারী কী ধরনের শাস্তি পেতে পারেন?",
+      "questionKo": "직장 내 성희롱이 발생하면 가해자는 어떤 처벌을 받을 수 있습니까?",
       "options": [
-        "녹음",
-        "삭제",
-        "무시",
-        "거부"
+        "휴가를 더 받습니다",
+        "월급이 올라갑니다",
+        "다른 부서로 승진합니다",
+        "경고나 감봉, 해고를 받을 수 있습니다"
       ],
-      "answer": 0,
-      "explanationBn": "প্রয়োজন হলে কথোপকথন রেকর্ড (녹음) করুন।"
+      "answer": 3,
+      "explanationBn": "পাঠ্যবই অনুযায়ী কর্মক্ষেত্রে অপরাধকারী সতর্কতা (경고), বেতন কাটা (감봉), পদ থেকে অপসারণ (직위 해제) বা চাকরিচ্যুতি (해고) পেতে পারেন — এর বাইরে আইনি ও সামাজিক শাস্তিও হয়। বাকি তিনটি বিকল্প পুরস্কার বা সুবিধা বোঝায়, যা শাস্তির বিপরীত এবং সম্পূর্ণ ভুল।"
     },
     {
       "id": "p17",
-      "type": "matching",
-      "questionBn": "নীচের বাংলা অনুবাদগুলো সঠিক কোরিয়ান টার্মগুলোর সাথে মিলান।",
-      "questionKo": "다음 한국어 단어와 올바른 뜻을 연결하세요.",
-      "pairs": [
-        {
-          "left": "농담",
-          "right": "মজা/ঠাট্টা"
-        },
-        {
-          "left": "거부",
-          "right": "প্রত্যাখ্যান"
-        },
-        {
-          "left": "사건",
-          "right": "ঘটনা"
-        },
-        {
-          "left": "징계",
-          "right": "শাস্তিমূলক ব্যবস্থা"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-(느)ㄴ다고/다고 하다' দিয়ে পূর্ণ করুন। বক্তা বলেছেন: \"আমরা সবাই ভুক্তভোগীও হতে পারি।\"",
+      "questionKo": "강연자가 우리 모두 피해자가 될 수 ___.",
+      "options": [
+        "있는다고 했어요",
+        "있다고 했어요",
+        "있으다고 했어요",
+        "있고 했어요"
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দের সঠিক বাংলা অর্থ মিল করা হয়েছে।"
+      "answer": 1,
+      "explanationBn": "있다 ক্রিয়াপদ হলেও পরোক্ষ উক্তিতে বিশেষণের মতো '-다고 하다' নেয়, তাই '있다고 했어요' সঠিক — এটি 있다/없다-এর বিশেষ নিয়ম। '있는다고' ভুল, যদিও সাধারণ ক্রিয়ায় '-는다고' বসে, 있다 এই নিয়মের বাইরে। '있으다고' গঠনটি কোরিয়ানে নেই। '있고 했어요' দুটি বাক্য জোড়া লাগায়, পরোক্ষ উক্তি বানায় না।"
     },
     {
       "id": "p18",
       "type": "matching",
-      "questionBn": "নিচের কর্মগুলোর কোরিয়ান অনুবাদ মেলান।",
-      "questionKo": "다음 행동과 한국어 표현을 연결하세요.",
+      "questionBn": "ইউনিট ৩৪-এর ব্যাকরণ গঠনের সঙ্গে তার ব্যবহার মেলান।",
+      "questionKo": "문법과 쓰임을 연결하세요.",
       "pairs": [
         {
-          "left": "সম্মান করা",
-          "right": "존중하다"
+          "left": "-던데요",
+          "right": "নিজে দেখা নতুন তথ্য জানানো"
         },
         {
-          "left": "সুরক্ষা দেওয়া",
-          "right": "보호하다"
+          "left": "-(느)ㄴ다고/다고 하다",
+          "right": "অন্যের কাছে শোনা কথা জানানো"
         },
         {
-          "left": "রেকর্ড করা",
-          "right": "녹음하다"
+          "left": "-거든요",
+          "right": "কারণ বা পটভূমি ব্যাখ্যা করা"
         },
         {
-          "left": "সমাধান করা",
-          "right": "해결하다"
+          "left": "-(으)면 안 되다",
+          "right": "নিষেধ করা, 'করা যাবে না'"
+        },
+        {
+          "left": "-았/었을 때는",
+          "right": "ঘটনা ঘটে যাওয়ার পরের করণীয় বলা"
         }
       ],
-      "explanationBn": "প্রতিটি বাংলা কর্মের সাথে কোরিয়ান অনুবাদ যোগ করা হয়েছে।"
+      "explanationBn": "এই পাঁচটি গঠন ইউনিট ৩৪-এর ব্যাকরণ। '-던데요' ও '-(느)ㄴ다고 하다'-এর পার্থক্য গুরুত্বপূর্ণ: প্রথমটি নিজের চোখে দেখা, দ্বিতীয়টি অন্যের কাছে শোনা তথ্য। '-거든요' কারণ জানায়, '-(으)면 안 되다' নিষেধ করে, আর '-았/었을 때는' ঘটনা ঘটে যাওয়ার পরের করণীয় বলে — যেমন হয়রানির শিকার হলে প্রমাণ সংরক্ষণ করা।"
     },
     {
       "id": "p19",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 가해자가 받을 수 있는 것은?",
-      "questionKo": "다음 중 가해자가 받을 수 있는 것은?",
+      "type": "fill-blank",
+      "questionBn": "সঠিক শব্দ বসান: সামনের মানুষের সম্মতি ছাড়া শরীরে ___ করা যাবে না।",
+      "questionKo": "상대방의 동의 없이 ___을 하면 안 됩니다.",
       "options": [
-        "보호",
-        "지원",
-        "징계",
-        "비밀 보장"
+        "인사",
+        "신체 접촉",
+        "청소",
+        "식사"
       ],
-      "answer": 2,
-      "explanationBn": "অপরাধী শাস্তিমূলক ব্যবস্থা (징계) পেতে পারে।"
+      "answer": 1,
+      "explanationBn": "সম্মতি ছাড়া গায়ে হাত দেওয়া যৌন হয়রানির শারীরিক রূপ, তাই '신체 접촉' (শারীরিক স্পর্শ) সঠিক। '인사' মানে অভিবাদন, যা স্বাভাবিক ভদ্রতা। '청소' মানে পরিষ্কার করা এবং '식사' মানে খাওয়া — দুটিই সাধারণ কাজ, সম্মতির প্রশ্নে এখানে অপ্রাসঙ্গিক।"
     },
     {
       "id": "p20",
-      "type": "fill-blank",
-      "questionBn": "বিকল্পগুলোর মধ্যে সঠিক শব্দটি বাছুন: '원하지 않는 신체 _____은/는 피하세요.'",
-      "questionKo": "다음 빈칸에 들어갈 말은? '원하지 않는 신체 _____은/는 피하세요.'",
+      "type": "multiple-choice",
+      "questionBn": "কর্মক্ষেত্রে যৌন হয়রানি প্রতিরোধের সবচেয়ে সঠিক উপায় কোনটি?",
+      "questionKo": "직장 내 성희롱을 예방하는 가장 알맞은 방법을 고르십시오.",
       "options": [
-        "접촉",
-        "계획",
-        "연락",
-        "상담"
+        "동료와 이야기를 전혀 하지 않습니다",
+        "농담을 들으면 항상 웃어 줍니다",
+        "서로 존중하고 예의를 지키며 성적인 언어를 삼갑니다",
+        "문제가 생기면 혼자 참습니다"
       ],
-      "answer": 0,
-      "explanationBn": "অবাঞ্ছিত শারীরিক স্পর্শ (접촉) এড়িয়ে চলুন।"
+      "answer": 2,
+      "explanationBn": "পাঠ্যবই বলছে প্রতিরোধের উপায় হলো পরস্পরকে সম্মান করা, ভদ্রতা বজায় রাখা এবং যৌনতাবিষয়ক ভাষা ও আচরণ পরিহার করা — তাই তৃতীয় বিকল্পটি সঠিক। সহকর্মীর সঙ্গে একেবারে কথা না বলা অতিরিক্ত ও অবাস্তব। অস্বস্তিকর ঠাট্টায় হেসে দেওয়া ভুল সংকেত দেয়। একা সহ্য করা ক্ষতিকর — পাঠ্যবই বলছে অনুভূতি স্পষ্টভাবে প্রকাশ করে রিপোর্ট করতে হবে।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর চয়ন করুন।",
-      "questionKo": "다음 글을 읽고 알맞은 답을 고르세요.",
-      "passage": "회사 안내문: '모든 직원은 서로의 경계를 존중해야 합니다. 성희롱이 의심되면 즉시 신고 채널에 알리세요. 신고자는 보복으로부터 보호됩니다.'",
+      "questionBn": "নিচের বাক্যে উপযুক্ত শব্দটি কী হবে?",
+      "questionKo": "다음 문장에 알맞은 것을 고르십시오.",
+      "passage": "직장에서 상대방이 불쾌감을 느낄 수 있는 ________을/를 하면 안 됩니다.",
       "options": [
-        "회사는 보복을 허용한다.",
-        "신고 채널이 없다.",
-        "직원은 서로의 경계를 존중해야 한다.",
-        "신고자는 처벌된다."
+        "성적 농담",
+        "안전 교육",
+        "업무 보고",
+        "회의 참석"
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে '서로의 경계를 존중해야 합니다' বলা আছে, তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 0,
+      "explanationBn": "সঠিক উত্তর হলো '성적 농담' (যৌন কৌতুক)। কর্মক্ষেত্রে যৌন কৌতুক করলে অন্যরা অস্বস্তি বোধ করতে পারে, তাই এটি এড়ানো উচিত। অন্য বিকল্পগুলো হলো 'নিরাপত্তা শিক্ষা', 'কাজের রিপোর্ট' এবং 'সভায় উপস্থিতি' - এগুলো স্বাভাবিক কর্মক্ষেত্রের কার্যক্রম।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর চয়ন করুন।",
-      "questionKo": "다음 글을 읽고 알맞은 답을 고르세요.",
-      "passage": "안내: '상담은 비밀 보장이 됩니다. 피해자는 상담을 통해 지원을 받을 수 있습니다.'",
+      "questionBn": "নিচের বাক্যে উপযুক্ত শব্দটি কী হবে?",
+      "questionKo": "다음 문장에 알맞은 것을 고르십시오.",
+      "passage": "성희롱을 당했을 때는 ________을/를 확보하고 신고해야 합니다.",
       "options": [
-        "비밀 보장이 없다.",
-        "상담 내용은 모두 공개된다.",
-        "상담은 보복을 유도한다.",
-        "피해자는 지원을 받을 수 있다."
+        "시간",
+        "증거",
+        "휴식",
+        "허가"
       ],
-      "answer": 3,
-      "explanationBn": "글에서 '피해자는 ... 지원을 받을 수 있습니다' বলা হয়েছে, তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 1,
+      "explanationBn": "সঠিক উত্তর হলো '증거' (প্রমাণ)। যৌন হয়রানির শিকার হলে প্রমাণ সংগ্রহ করে রিপোর্ট করতে হবে। অন্য বিকল্পগুলোর অর্থ হলো: '시간' = সময়, '휴식' = বিরতি, '허가' = অনুমতি।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর চয়ন করুন।",
-      "questionKo": "다음 글을 읽고 알맞은 답을 고르세요.",
-      "passage": "안전 공지: '응급 상황이면 즉시 응급 연락처로 전화하세요.'",
+      "questionBn": "এই বিজ্ঞপ্তিটি কী সম্পর্কে?",
+      "questionKo": "다음 안내문의 내용과 같은 것을 고르십시오.",
+      "passage": "직장 내 성희롱 예방 교육 안내\n\n• 일시: 6월 15일 오후 2시\n• 장소: 제1회의실\n• 내용: 성 인지 감수성, 성희롱 예방법, 신고 절차\n• 전 직원 필수 참석",
       "options": [
-        "응급 상황이면 즉시 연락처로 전화해야 한다.",
-        "전화하지 말아야 한다.",
-        "응급 연락처는 필요 없다.",
-        "응급 상황에는 기다리는 것이 좋다."
+        "모든 직원이 교육에 참석해야 합니다.",
+        "교육은 개인적으로 선택할 수 있습니다.",
+        "교육 시간은 1시간입니다.",
+        "교육 장소는 제2회의실입니다."
       ],
       "answer": 0,
-      "explanationBn": "প্যাসেজে অবিলম্বে 응급 연락처로 전화 করতে বলা হয়েছে, তাই প্রথম অপশন সঠিক।"
+      "explanationBn": "সঠিক উত্তর ① '모든 직원이 교육에 참석해야 합니다' (সকল কর্মচারীকে প্রশিক্ষণে অবশ্যই উপস্থিত থাকতে হবে)। বিজ্ঞপ্তিতে '전 직원 필수 참석' (সকল কর্মচারীর উপস্থিতি বাধ্যতামূলক) লেখা আছে। ② ভুল কারণ এটি বাধ্যতামূলক, ঐচ্ছিক নয়। ③ সময়কাল উল্লেখ নেই। ④ স্থান হলো '제1회의실' (১ম সভাকক্ষ), ২য় নয়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর চয়ন করুন।",
-      "questionKo": "다음 글을 읽고 알맞은 답을 고르세요.",
-      "passage": "공지: '목격자는 가능한 경우 증거를 보존하고 회사에 신고해 주세요.'",
+      "questionBn": "밑줄 친 부분에 들어갈 알맞은 말을 고르십시오.",
+      "questionKo": "밑줄 친 부분에 들어갈 알맞은 말을 고르십시오.",
+      "passage": "동료가 성적 농담을 자주 했어요. 그래서 기분이 나빴어요. 저는 ________ 분명하게 표현했어요.",
       "options": [
-        "목격자는 아무것도 할 필요 없다.",
-        "목격자는 증거를 보존하고 신고해야 한다.",
-        "목격자는 증거를 버려야 한다.",
-        "목격자는 항상 가해자를 옹호한다."
+        "재미있다고",
+        "괜찮다고",
+        "불쾌하다고",
+        "좋아한다고"
       ],
-      "answer": 1,
-      "explanationBn": "글에서 목격자는 증거를 보존하고 신고하라고 했으므로 তৃতীয় অপশন সঠিক।"
+      "answer": 2,
+      "explanationBn": "সঠিক উত্তর ③ '불쾌하다고' (অস্বস্তিকর বলে)। সহকর্মী যৌন কৌতুক করলে এবং মন খারাপ হলে, স্পষ্টভাবে অস্বস্তির কথা জানাতে হবে। ① '재미있다고' = মজার বলে, ② '괜찮다고' = ঠিক আছে বলে, ④ '좋아한다고' = পছন্দ করি বলে - এগুলো প্রসঙ্গের বিপরীত।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর চয়ন করুন।",
-      "questionKo": "다음 글을 읽고 알맞은 답을 고르세요.",
-      "passage": "회사 방침: '보복 금지. 신고자와 피해자는 보호됩니다.'",
+      "questionBn": "밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "passage": "다른 사람에게서 들은 사실을 전달할 때는 '-(느)ㄴ다고/다고 하다'를 사용합니다.",
       "options": [
-        "신고자와 피해자는 보호되지 않는다.",
-        "보복은 장려된다.",
-        "보복 금지는 회사 방침이다.",
-        "신고는 금지되어 있다."
+        "내일 성희롱 예방 교육을 받아야 한다고 합니다.",
+        "내일 성희롱 예방 교육을 받아야 하는다고 합니다.",
+        "내일 성희롱 예방 교육을 받아야 한다다고 합니다.",
+        "내일 성희롱 예방 교육을 받아야 할다고 합니다."
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে '보복 금지' একটি 회사 নীতি বলা হয়েছে, তাই দ্বিতীয় অপশন সঠিক।"
+      "answer": 0,
+      "explanationBn": "সঠিক উত্তর ① '받아야 한다고 합니다'। ক্রিয়ার সাথে '-ㄴ다고 하다' যুক্ত হয়; '하다' এর সাথে যুক্ত হয়ে '한다고' হয়। ②, ③, ④ ভুল ব্যাকরণিক রূপ - '하는다고', '한다다고', '할다고' কোনোটিই সঠিক নয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "নিচের সংলাপ শুনে সঠিক উত্তর চয়ন করুন। (পাঠটি পড়ুন এবং উত্তর দিন)",
-      "questionKo": "다음 대화를 듣고 알맞은 답을 고르세요.",
-      "passage": "남자: 이 사람의 행동이 불편해요.\n여자: 그럼 신고 채널을 알려 드릴게요.",
+      "section": "reading",
+      "questionBn": "다음 글을 읽고 알 수 있는 내용을 고르십시오.",
+      "questionKo": "다음 글의 내용과 같은 것을 고르십시오.",
+      "passage": "직장 내 성희롱은 성에 관련된 말과 행동으로 상대방에게 불쾌감이나 수치심을 주거나 고용상 불이익을 주는 행위입니다. 음담패설을 하거나 외모에 대해 평가하는 언어적 행위뿐만 아니라, 음란한 사진이나 그림을 보여 주는 시각적 행위도 포함됩니다.",
       "options": [
-        "A는 안전하다고 말했다.",
-        "A는 신고를 원하지 않는다.",
-        "B는 보복을 권장했다.",
-        "B는 신고 채널을 알려 주겠다고 말했다."
+        "성희롱은 말로 하는 행위만 해당됩니다.",
+        "외모에 대한 평가는 성희롱이 아닙니다.",
+        "음란한 사진을 보여 주는 것도 성희롱입니다.",
+        "성희롱은 고용과 관계가 없습니다."
       ],
-      "answer": 3,
-      "explanationBn": "대화에서 B가 신고 채널을 알려 주겠다고 했으므로 দ্বিতীয় অপশন সঠিক।"
+      "answer": 2,
+      "explanationBn": "সঠিক উত্তর ③। লেখায় বলা হয়েছে অশ্লীল ছবি বা চিত্র দেখানোর মতো দৃশ্যগত আচরণও যৌন হয়রানির অন্তর্ভুক্ত। ① ভুল - শুধু কথা নয়, দৃশ্যগত আচরণও অন্তর্ভুক্ত। ② ভুল - চেহারা নিয়ে মন্তব্য করাও এর অন্তর্ভুক্ত। ④ ভুল - কর্মসংস্থানে ক্ষতি করাও এর মধ্যে পড়ে।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "নিচের সংলাপ শুনে সঠিক উত্তর চয়ন করুন। (পাঠটি পড়ুন এবং উত্তর দিন)",
-      "questionKo": "다음 대화를 듣고 알맞은 답을 고르세요.",
-      "passage": "남자: 괜찮으세요?\n여자: 네, 같이 신고해 주세요.",
+      "section": "reading",
+      "questionBn": "이 상황에서 어떻게 하는 것이 좋습니까?",
+      "questionKo": "다음 상황에서 알맞은 행동을 고르십시오.",
+      "passage": "직장 동료에게 농담을 했습니다. 그런데 내 농담을 듣고 직장 동료의 표정이 안 좋았습니다. 내 농담이 불쾌하다고 해서 ________.",
       "options": [
-        "D는 함께 신고해 달라고 요청했다.",
-        "D는 아무 도움이 필요 없다고 말했다.",
-        "C는 보복을 약속했다.",
-        "C는 신고를 반대했다."
+        "자주 화를 냈습니다",
+        "빨리 사과했습니다",
+        "먼저 준비했습니다",
+        "미리 예방했습니다"
       ],
-      "answer": 0,
-      "explanationBn": "D가 '같이 신고해 주세요'라고 했으므로 প্রথম অপশন সঠিক।"
+      "answer": 1,
+      "explanationBn": "সঠিক উত্তর ② '빨리 사과했습니다' (দ্রুত ক্ষমা চেয়েছি)। আমার কৌতুকে সহকর্মী অস্বস্তি বোধ করলে দ্রুত ক্ষমা চাওয়া উচিত। ① '자주 화를 냈습니다' = প্রায়ই রাগ করেছি, ③ '먼저 준비했습니다' = আগে প্রস্তুতি নিয়েছি, ④ '미리 예방했습니다' = আগেই প্রতিরোধ করেছি - এগুলো প্রসঙ্গের সাথে মেলে না।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "নিচের সংলাপ শুনে সঠিক উত্তর চয়ন করুন। (পাঠটি পড়ুন এবং উত্তর দিন)",
-      "questionKo": "다음 대화를 듣고 알맞은 답을 고르세요.",
-      "passage": "남자: 증거를 안전하게 보관하세요.\n여자: 네, 바로 사진을 저장하겠습니다.",
+      "section": "reading",
+      "questionBn": "'성 인지 감수성'은 무엇입니까?",
+      "questionKo": "다음 글에서 '성 인지 감수성'의 뜻으로 알맞은 것을 고르십시오.",
+      "passage": "우리는 직장에서 성 인지 감수성을 가지고 행동해야 됩니다. 성 인지 감수성이란 양성평등과 성별 차이를 이해하고, 일상생활에서 성차별적 언어나 행동을 알아차리는 것을 말합니다. 성 인지 감수성은 직장 내 성희롱을 예방할 수 있습니다.",
       "options": [
-        "E는 신고하지 말라고 했다.",
-        "F는 사진을 저장하겠다고 했다.",
-        "E는 증거를 버리라고 말했다.",
-        "F는 증거를 지우겠다."
+        "남자와 여자의 일을 나누는 것",
+        "회사의 규칙을 잘 지키는 것",
+        "동료와 친하게 지내는 것",
+        "성차별적 언어나 행동을 알아차리는 것"
       ],
-      "answer": 1,
-      "explanationBn": "F가 '바로 사진을 저장하겠습니다'라고 했으므로 তৃতীয় অপশন সঠিক।"
+      "answer": 3,
+      "explanationBn": "সঠিক উত্তর ④। লেখায় স্পষ্ট বলা আছে যে '성 인지 감수성' (লিঙ্গ সংবেদনশীলতা) মানে হলো লিঙ্গ সমতা ও পার্থক্য বোঝা এবং দৈনন্দিন জীবনে লিঙ্গবৈষম্যমূলক ভাষা বা আচরণ চিনতে পারা। ① পুরুষ-নারীর কাজ ভাগ করা, ② কোম্পানির নিয়ম মানা, ③ সহকর্মীর সাথে ঘনিষ্ঠ থাকা - এগুলো সংজ্ঞায় নেই।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর চয়ন করুন।",
-      "questionKo": "다음 글을 읽고 알맞은 답을 고르세요.",
-      "passage": "안내문: '직장 내 성희롱 예방 교육은 매년 1회 이상 실시해야 합니다. 모든 직원은 반드시 참석해야 합니다.'",
+      "questionBn": "밑줄 친 부분에 들어갈 알맞은 말을 고르십시오.",
+      "questionKo": "밑줄 친 부분에 들어갈 알맞은 말을 고르십시오.",
+      "passage": "직장에서 성희롱이 발생하면 피해자는 절차에 따라 ________해야 합니다. 가해자는 형사 처벌이나 손해배상과 같은 법적 처벌을 받을 수 있습니다.",
       "options": [
-        "예방 교육은 선택 사항이다.",
-        "예방 교육은 매년 1회 이상 실시해야 한다.",
-        "예방 교육은 한 번만 받으면 된다.",
-        "직원들은 참석하지 않아도 된다."
+        "준비",
+        "신고",
+        "참석",
+        "출발"
       ],
       "answer": 1,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে প্রতিরোধমূলক শিক্ষা প্রতি বছর অন্তত একবার (매년 1회 이상) পরিচালনা করতে হবে।"
+      "explanationBn": "সঠিক উত্তর ② '신고' (রিপোর্ট করা)। যৌন হয়রানি ঘটলে ভুক্তভোগীকে নির্ধারিত পদ্ধতি অনুসরণ করে রিপোর্ট করতে হবে। ① '준비' = প্রস্তুতি, ③ '참석' = উপস্থিতি, ④ '출발' = রওনা - এগুলো এই প্রসঙ্গে মানানসই নয়।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর চয়ন করুন।",
-      "questionKo": "다음 글을 읽고 알맞은 답을 고르세요.",
-      "passage": "게시판: '성희롱 피해를 입었을 때는 명확하게 거부 의사를 표현하고, 증거를 모아 신고 채널에 접수하세요.'",
+      "questionBn": "다음 글의 내용과 같은 것을 고르십시오.",
+      "questionKo": "다음 글의 내용과 같은 것을 고르십시오.",
+      "passage": "직장 내 성희롱을 예방하기 위해서는 서로 존중하고 예의를 지키며, 성적인 언어나 행동을 삼가야 합니다. 상대방의 동의 없이 성적인 언어나 행동으로 상대방을 모욕하거나 불편하게 만드는 행위를 해서는 안 됩니다. 성희롱은 상대방의 인격과 존엄성을 침해하는 행위로, 이를 예방하는 것은 안전한 근무 환경을 조성하는 데 도움이 됩니다.",
       "options": [
-        "거부 의사를 표현하면 안 된다.",
-        "증거 없이 신고해야 한다.",
-        "피해를 입으면 명확하게 거부 의사를 표현해야 한다.",
-        "신고 채널은 사용하지 않는다."
+        "직장에서는 서로 존중할 필요가 없습니다.",
+        "성희롱은 인격과 관계가 없습니다.",
+        "성희롱 예방은 안전한 근무 환경 조성에 도움이 됩니다.",
+        "성적인 언어는 예의를 지키면 사용해도 됩니다."
       ],
       "answer": 2,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে ক্ষতি হলে স্পষ্টভাবে প্রত্যাখ্যানের ইচ্ছা প্রকাশ করতে হবে (명확하게 거부 의사를 표현하고)।"
+      "explanationBn": "সঠিক উত্তর ③। লেখায় স্পষ্ট বলা আছে যে যৌন হয়রানি প্রতিরোধ করা নিরাপদ কর্মপরিবেশ তৈরিতে সাহায্য করে। ① ভুল - পরস্পরকে সম্মান করতে হবে বলা হয়েছে। ② ভুল - যৌন হয়রানি ব্যক্তিত্ব ও মর্যাদা ক্ষুণ্ণ করে। ④ ভুল - যৌন ভাষা বা আচরণ পরিহার করতে হবে বলা হয়েছে।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "직장 동료가 원하지 않는 농담을 계속해서 불쾌감을 느꼈습니다. 그래서 동료에게 그만하라고 명확하게 _________.",
+      "section": "listening",
+      "questionBn": "남자는 무엇에 대해 이야기하고 있습니까?",
+      "questionKo": "남자는 무엇에 대해 이야기하고 있습니까?",
+      "passage": "남자: 아까 표정이 안 좋아 보이던데요.\n여자: 네, 동료가 성적 농담을 자주 해서 불쾌했어요.",
       "options": [
-        "동의했습니다",
-        "거부했습니다",
-        "칭찬했습니다",
-        "보호했습니다"
+        "회사 규칙",
+        "업무 시간",
+        "회의 날짜",
+        "여자의 표정"
       ],
-      "answer": 1,
-      "explanationBn": "অবাঞ্ছিত মজার কারণে অস্বস্তি বোধ করলে তা স্পষ্টভাবে প্রত্যাখ্যান (거부) করতে হবে।"
+      "answer": 3,
+      "explanationBn": "সঠিক উত্তর ④ '여자의 표정' (মহিলার মুখভাব)। পুরুষ বলছে '아까 표정이 안 좋아 보이던데요' (আগে আপনার মুখভাব ভালো দেখাচ্ছিল না), অর্থাৎ সে মহিলার মুখভাব নিয়ে কথা বলছে। '-던데요' দিয়ে সে নিজে দেখা বিষয় জানিয়ে প্রতিক্রিয়া আশা করছে। ① কোম্পানির নিয়ম, ② কাজের সময়, ③ সভার তারিখ - কথোপকথনে এগুলো নেই।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "성희롱 사건을 목격하면 모른 척하지 말고 피해자를 도와야 합니다. 그리고 회사에 즉시 _________.",
+      "section": "listening",
+      "questionBn": "들은 내용과 같은 것을 고르십시오.",
+      "questionKo": "들은 내용과 같은 것을 고르십시오.",
+      "passage": "여자: 성희롱 때문에 너무 기분 나쁜데 어떻게 해야 될지 모르겠어요.\n남자: 우선 윗사람하고 상의해 보세요.",
       "options": [
-        "숨겨야 합니다",
-        "도망가야 합니다",
-        "신고해야 합니다",
-        "웃어야 합니다"
+        "여자는 성희롱 때문에 고민하고 있습니다.",
+        "남자는 성희롱을 당했습니다.",
+        "여자는 윗사람과 이미 상의했습니다.",
+        "남자는 해결 방법을 모릅니다."
       ],
-      "answer": 2,
-      "explanationBn": "যৌন হয়রানির ঘটনা দেখলে তা অবিলম্বে কোম্পানিতে রিপোর্ট (신고) করতে হবে।"
+      "answer": 0,
+      "explanationBn": "সঠিক উত্তর ①। মহিলা বলছে যৌন হয়রানির কারণে তার মন খুব খারাপ এবং কী করবে বুঝতে পারছে না, অর্থাৎ সে এ নিয়ে দুশ্চিন্তায় আছে। ② ভুল - মহিলা ভুক্তভোগী, পুরুষ নয়। ③ ভুল - পুরুষ ঊর্ধ্বতনের সাথে পরামর্শ করার পরামর্শ দিচ্ছে, মহিলা এখনো করেনি। ④ ভুল - পুরুষ একটি উপায় বলে দিচ্ছে।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음 질문에 답하십시오.",
-      "questionKo": "다음 질문에 답하십시오.",
-      "passage": "이 사람은 왜 상담 센터에 갔습니까?\n'저는 어제 상사에게 불쾌한 말을 들었습니다. 혼자서 해결할 수 없어서 도움을 받으려고 상담 센터에 방문했습니다.'",
+      "section": "listening",
+      "questionBn": "여자는 오후에 무엇을 할 겁니까?",
+      "questionKo": "여자는 오후에 무엇을 할 겁니까?",
+      "passage": "남자: 오후에 성희롱 예방 교육이 있으니까 꼭 참석하세요.\n여자: 네, 잊지 않고 가도록 하겠습니다.",
       "options": [
-        "상사에게 칭찬을 받아서",
-        "혼자서 문제를 해결하려고",
-        "상사에게 불쾌한 말을 듣고 도움을 받으려고",
-        "상담 센터에서 일하려고"
+        "회사에 성희롱을 신고합니다.",
+        "성희롱 예방 교육에 참석합니다.",
+        "동료에게 사과를 요구합니다.",
+        "윗사람하고 상의합니다."
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে সে বসের কাছ থেকে অস্বস্তিকর কথা শুনে সাহায্য নেওয়ার জন্য (도움을 받으려고) কাউন্সেলিং সেন্টারে গেছে।"
+      "answer": 1,
+      "explanationBn": "সঠিক উত্তর ②। পুরুষ বিকেলে যৌন হয়রানি প্রতিরোধ প্রশিক্ষণে উপস্থিত থাকতে বলছে এবং মহিলা '잊지 않고 가도록 하겠습니다' (ভুলে না গিয়ে যাব) বলে সম্মতি দিচ্ছে। ① রিপোর্ট করা, ③ ক্ষমা দাবি করা, ④ ঊর্ধ্বতনের সাথে পরামর্শ - এগুলোর কথা কথোপকথনে নেই।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 수미 씨, 어제 회식 자리에서 김 대리님이 한 농담 때문에 기분이 안 좋았죠?\n여자: 네, 정말 불쾌했어요. 어떻게 해야 할지 모르겠어요.\n남자: 혼자 고민하지 말고 고충 처리 위원회에 상담을 받아보세요.",
+      "questionBn": "여자는 앞으로 어떻게 하겠다고 했습니까?",
+      "questionKo": "여자는 앞으로 어떻게 하겠다고 했습니까?",
+      "passage": "남자: 푸캄 씨, 그런 말은 상대방에게 불쾌감을 줄 수 있어요.\n여자: 그런 의도는 아니었어요. 앞으로는 조심하겠습니다.",
       "options": [
-        "여자는 어제 회식에서 기분이 좋았다.",
-        "남자는 여자에게 상담을 받아보라고 조언했다.",
-        "여자는 김 대리님과 상담을 했다.",
-        "남자는 고충 처리 위원회에서 일한다."
+        "증거를 확보하겠다고 했습니다.",
+        "교육을 준비하겠다고 했습니다.",
+        "말을 조심하겠다고 했습니다.",
+        "회사에 신고하겠다고 했습니다."
       ],
-      "answer": 1,
-      "explanationBn": "পুরুষটি মহিলাটিকে কাউন্সেলিং নেওয়ার পরামর্শ দিয়েছে (상담을 받아보세요)।"
+      "answer": 2,
+      "explanationBn": "সঠিক উত্তর ③। মহিলা বলছে '앞으로는 조심하겠습니다' (ভবিষ্যতে সতর্ক থাকব), অর্থাৎ কথাবার্তায় সাবধান হবে। পুরুষ জানিয়েছে এমন কথা অন্যকে অস্বস্তি দিতে পারে। ① প্রমাণ সংগ্রহ, ② প্রশিক্ষণের প্রস্তুতি, ④ রিপোর্ট করা - এগুলো মহিলা বলেনি।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 반장님, 작업장에서 자꾸 이상한 말을 하는 동료가 있어서 힘듭니다.\n남자: 그래요? 그런 일은 참으면 안 됩니다. 제가 그 동료에게 주의를 주겠습니다. 그래도 계속되면 정식으로 신고하세요.",
+      "questionBn": "여자는 왜 기분이 안 좋았습니까?",
+      "questionKo": "여자는 왜 기분이 안 좋았습니까?",
+      "passage": "여자: 어제 회의 중에 김 대리님이 제 옷차림에 대해 농담을 했어요.\n남자: 그랬어요? 불쾌하다고 말했어요?\n여자: 네, 김 대리님은 농담이라고 말했지만 기분이 안 좋았어요.\n남자: 다음에 그런 농담을 또 하면 회사에 바로 이야기하세요.",
       "options": [
-        "여자는 동료의 말 때문에 힘들다.",
-        "남자는 여자에게 참으라고 했다.",
-        "여자는 이미 정식으로 신고했다.",
-        "남자는 동료를 칭찬할 것이다."
+        "옷차림이 불편해서",
+        "어제 회의를 많이 해서",
+        "김 대리님이 기분이 안 좋아서",
+        "옷차림에 대한 농담을 들어서"
       ],
-      "answer": 0,
-      "explanationBn": "মহিলাটি সহকর্মীর কথার কারণে কষ্ট পাচ্ছে (동료가 있어서 힘듭니다)।"
+      "answer": 3,
+      "explanationBn": "সঠিক উত্তর ④। মহিলা বলছে সভার সময় 김 대리 তার পোশাক নিয়ে কৌতুক করেছিল, আর সেই কারণেই তার মন খারাপ হয়েছে। ① পোশাক অস্বস্তিকর ছিল - বলা হয়নি, ② অনেক সভা করা - কারণ নয়, ③ 김 대리 এর মন খারাপ - উল্টো, মহিলার মন খারাপ হয়েছে।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 직장 내 성희롱 예방 교육을 시작하겠습니다. 성희롱은 가해자의 의도보다 피해자가 어떻게 느꼈는지가 중요합니다. 농담이라도 상대방이 불쾌감을 느꼈다면 성희롱이 될 수 있습니다.",
+      "questionBn": "들은 내용과 같은 것을 고르십시오.",
+      "questionKo": "들은 내용과 같은 것을 고르십시오.",
+      "passage": "남자: 마두 씨가 무슨 농담을 했어요?\n여자: 성적인 농담을 해서 유진 씨가 불쾌했다고 해요.",
       "options": [
-        "성희롱은 가해자의 의도가 가장 중요하다.",
-        "농담은 절대 성희롱이 될 수 없다.",
-        "피해자가 불쾌감을 느꼈는지가 중요하다.",
-        "이 교육은 안전 교육이다."
+        "유진 씨가 농담을 했습니다.",
+        "마두 씨가 불쾌감을 느꼈습니다.",
+        "여자가 직접 농담을 들었습니다.",
+        "마두 씨의 농담 때문에 유진 씨가 불쾌했습니다."
       ],
-      "answer": 2,
-      "explanationBn": "যৌন হয়রানির ক্ষেত্রে ভুক্তভোগী কেমন অনুভব করেছে তা গুরুত্বপূর্ণ (피해자가 어떻게 느꼈는지가 중요합니다)।"
+      "answer": 3,
+      "explanationBn": "সঠিক উত্তর ④। মহিলা বলছে 마두 যৌন কৌতুক করার কারণে 유진 অস্বস্তি বোধ করেছে। ① ভুল - কৌতুক করেছে 마두, 유진 নয়। ② ভুল - অস্বস্তি বোধ করেছে 유진। ③ ভুল - মহিলা '-다고 해요' ব্যবহার করছে, অর্থাৎ সে অন্যের কাছ থেকে শোনা কথা জানাচ্ছে, নিজে শোনেনি।"
     }
   ]
 }
