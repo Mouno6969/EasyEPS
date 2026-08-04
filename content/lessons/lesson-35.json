@@ -10,641 +10,700 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কর্মস্থলে সাধারণ নির্দেশ ও নিরাপত্তা নিয়ম বুঝতে এবং বলতে পারা।",
-      "সরল যন্ত্রপাতি সমস্যা রিপোর্ট করা এবং সহকর্মীর সাথে যোগাযোগ করা।",
-      "দৈনন্দিন পরিচ্ছন্নতা ও 점검 সম্পর্কিত কথাগুলো ব্যবহার করা।"
+      "কর্মস্থলের পরিবেশ ব্যবস্থাপনা নিয়ে কথা বলতে পারা — পরিষ্কার, নোংরা, দুর্গন্ধ ও শব্দদূষণ বোঝানো",
+      "'-(으)ㅂ시다' দিয়ে সহকর্মীদের একসঙ্গে কোনো কাজ করার প্রস্তাব দিতে পারা",
+      "'-(으)ㄹ' দিয়ে ভবিষ্যতে করণীয় কাজ বুঝিয়ে বিশেষ্যকে বিশেষায়িত করতে পারা",
+      "মালামাল গুদাম (자재 창고) ব্যবস্থাপনার সতর্কতা নিয়ে প্রশ্ন করা ও উত্তর দিতে পারা"
     ],
     "en": [
-      "Understand and follow basic workplace instructions and safety rules.",
-      "Report simple equipment issues and communicate with coworkers.",
-      "Use daily cleaning and inspection phrases."
+      "Can talk about managing the workplace environment",
+      "Can suggest doing something together using -(으)ㅂ시다",
+      "Can modify a noun with -(으)ㄹ to show an action yet to be done",
+      "Can ask and answer questions about materials-warehouse management"
     ]
   },
   "vocabulary": [
     {
       "ko": "작업장",
-      "romanization": "jag-eobjang",
-      "bn": "কর্মস্থল",
+      "romanization": "jageopjang",
+      "bn": "কর্মস্থল (কারখানার যেখানে কাজ হয়)",
       "en": "workplace",
       "pos": "noun",
       "example": {
-        "ko": "작업장은 항상 안전 규칙을 지켜야 합니다.",
-        "bn": "কর্মস্থলে সবসময় নিরাপত্তা নিয়ম মেনে চলতে হবে।",
-        "en": "You must always follow safety rules in the workplace."
+        "ko": "우리 작업장은 항상 깨끗합니다.",
+        "bn": "আমাদের কর্মস্থল সবসময় পরিষ্কার থাকে।",
+        "en": "Our workplace is always clean."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
+      "pronunciationTipBn": "작업장 → [자겁짱]। 'ㄱ' পরের স্বরে গিয়ে 'জা-গেওপ' হয়, আর 'ㅂ'-এর পরে 'ㅈ' শক্ত হয়ে 'ㅉ' (짱) হয়ে যায়।"
     },
     {
-      "ko": "안전",
-      "romanization": "anjeon",
-      "bn": "নিরাপত্তা",
-      "en": "safety",
-      "pos": "noun",
-      "example": {
-        "ko": "안전 장비를 착용하세요.",
-        "bn": "নিরাপত্তা সরঞ্জাম পরুন।",
-        "en": "Please wear safety equipment."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "장비",
-      "romanization": "jangbi",
-      "bn": "জিনিসপত্র/যন্ত্রপাতি",
-      "en": "equipment",
-      "pos": "noun",
-      "example": {
-        "ko": "기계 장비를 점검했습니다.",
-        "bn": "যন্ত্রপাতি পরীক্ষা করেছি।",
-        "en": "I have inspected the machinery equipment."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "점검하다",
-      "romanization": "jeomgeomhada",
-      "bn": "পরীক্ষা করা/নিরীক্ষণ করা",
-      "en": "to inspect/check",
-      "pos": "verb",
-      "example": {
-        "ko": "매일 기계를 점검하세요.",
-        "bn": "প্রতিদিন যন্ত্র পরীক্ষা করুন।",
-        "en": "Inspect the machine every day."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "보고하다",
-      "romanization": "bogo-hada",
-      "bn": "রিপোর্ট করা",
-      "en": "to report",
-      "pos": "verb",
-      "example": {
-        "ko": "문제가 있으면 감독자에게 보고하세요.",
-        "bn": "সমস্যা হলে প্রভানিকে রিপোর্ট করুন।",
-        "en": "Report to the supervisor if there is a problem."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "감독자",
-      "romanization": "gamdokja",
-      "bn": "পরিচালক/প্রভানি",
-      "en": "supervisor",
-      "pos": "noun",
-      "example": {
-        "ko": "감독자에게 확인을 받았습니다.",
-        "bn": "প্রভানির কাছে যাচাই করিয়েছি।",
-        "en": "I got confirmation from the supervisor."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "청소",
-      "romanization": "cheongso",
-      "bn": "পরিষ্কার করা",
-      "en": "cleaning",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "퇴근 전에 작업장 청소를 합시다.",
-        "bn": "ফুটানোর আগে কর্মস্থল পরিষ্কার করি।",
-        "en": "Let's clean the workplace before leaving."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "정리정돈",
-      "romanization": "jeongrijeongdon",
-      "bn": "গুছিয়ে রাখা",
-      "en": "tidying/organization",
-      "pos": "noun",
-      "example": {
-        "ko": "도구를 정리정돈하세요.",
-        "bn": "সরঞ্জামগুলো গুছিয়ে রাখুন।",
-        "en": "Organize the tools."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "소화기",
-      "romanization": "sohwagi",
-      "bn": "অগ্নিনির্বাপক",
-      "en": "fire extinguisher",
-      "pos": "noun",
-      "example": {
-        "ko": "소화기는 출입구 옆에 있습니다.",
-        "bn": "অগ্নিনির্বাপক প্রবেশ পথের পাশেই আছে।",
-        "en": "The fire extinguisher is next to the entrance."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "응급처치",
-      "romanization": "eung-geupcheochi",
-      "bn": "প্রাথমিক চিকিৎসা",
-      "en": "first aid",
-      "pos": "noun",
-      "example": {
-        "ko": "응급처치 키트를 어디에 두었나요?",
-        "bn": "প্রাথমিক চিকিৎসার কিট কোথায় রাখেছেন?",
-        "en": "Where did you put the first aid kit?"
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "보고서",
-      "romanization": "bogoseo",
-      "bn": "রিপোর্ট/প্রতিবেদন",
-      "en": "report/document",
-      "pos": "noun",
-      "example": {
-        "ko": "오늘 점검 보고서를 작성하세요.",
-        "bn": "আজকের পরীক্ষা রিপোর্ট লেখুন।",
-        "en": "Please write today's inspection report."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "유지보수",
-      "romanization": "yujibosu",
-      "bn": "রক্ষণাবেক্ষণ",
-      "en": "maintenance",
-      "pos": "noun",
-      "example": {
-        "ko": "정기 유지보수가 필요합니다.",
-        "bn": "নিয়মিত রক্ষণাবেক্ষণ দরকার।",
-        "en": "Regular maintenance is needed."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "출근",
-      "romanization": "chulgeun",
-      "bn": "কর্মস্থলে আসা/কার্যকাল শুরু",
-      "en": "arrival to work/start work",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "출근 시간은 오전 8시입니다.",
-        "bn": "কাজে আসার সময় সকাল ৮টা।",
-        "en": "Work starts at 8 a.m."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "퇴근",
-      "romanization": "toegeun",
-      "bn": "কাজ শেষ করা/ফিরে যাওয়া",
-      "en": "leave work/end shift",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "퇴근 전 장비를 끄세요.",
-        "bn": "ফুটানোর আগে যন্ত্র বন্ধ করুন।",
-        "en": "Turn off the equipment before leaving."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "교대근무",
-      "romanization": "gyodaegeunmu",
-      "bn": "পালতি কাজ",
-      "en": "shift work",
-      "pos": "noun",
-      "example": {
-        "ko": "내일은 교대근무예요.",
-        "bn": "আগামীকাল আমার পালতি কাজ আছে।",
-        "en": "I am on shift duty tomorrow."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "파손",
-      "romanization": "pason",
-      "bn": "ভাঙচুর/ক্ষতি",
-      "en": "damage/breakage",
-      "pos": "noun",
-      "example": {
-        "ko": "기계에 파손이 있습니다.",
-        "bn": "যন্ত্রে ক্ষতি হয়েছে।",
-        "en": "There is damage to the machine."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "회의",
-      "romanization": "hoe-ui",
-      "bn": "মিটিং/সভা",
-      "en": "meeting",
-      "pos": "noun",
-      "example": {
-        "ko": "오후에 안전 회의가 있습니다.",
-        "bn": "দুপুরে নিরাপত্তা সভা আছে।",
-        "en": "There is a safety meeting in the afternoon."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "품질관리",
-      "romanization": "pumjil gwalli",
-      "bn": "গুণগত মান নিয়ন্ত্রণ",
-      "en": "quality control",
-      "pos": "noun",
-      "example": {
-        "ko": "품질관리는 매우 중요합니다.",
-        "bn": "গুণগত মান নিয়ন্ত্রণ খুবই গুরুত্বপূর্ণ।",
-        "en": "Quality control is very important."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান বর্ণমালার নিয়ম অনুসরণ করুন।"
-    },
-    {
-      "ko": "보호구",
-      "romanization": "bohogu",
-      "bn": "নিরাপত্তা সরঞ্জাম",
-      "en": "protective gear",
-      "pos": "noun",
-      "example": {
-        "ko": "보호구를 반드시 착용하세요.",
-        "bn": "অবশ্যই নিরাপত্তা সরঞ্জাম পরুন।",
-        "en": "Be sure to wear protective gear."
-      },
-      "pronunciationTipBn": "'보호구' উচ্চারণ করার সময় 'হ' ধ্বনিটি স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "안전모",
-      "romanization": "anjeonmo",
-      "bn": "নিরাপত্তা হেলমেট",
-      "en": "safety helmet",
-      "pos": "noun",
-      "example": {
-        "ko": "공사장에서는 안전모를 써야 합니다.",
-        "bn": "নির্মাণস্থলে নিরাপত্তা হেলমেট পরতে হবে।",
-        "en": "You must wear a safety helmet at the construction site."
-      },
-      "pronunciationTipBn": "'안전모' এর '모' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "안전화",
-      "romanization": "anjeonhwa",
-      "bn": "নিরাপত্তা জুতো",
-      "en": "safety shoes",
-      "pos": "noun",
-      "example": {
-        "ko": "작업할 때 안전화를 신으세요.",
-        "bn": "কাজ করার সময় নিরাপত্তা জুতো পরুন।",
-        "en": "Wear safety shoes when working."
-      },
-      "pronunciationTipBn": "'화' উচ্চারণ করার সময় 'হ' এবং 'ওয়া' একসাথে দ্রুত উচ্চারণ করুন।"
-    },
-    {
-      "ko": "보안경",
-      "romanization": "boangyeong",
-      "bn": "নিরাপত্তা চশমা",
-      "en": "safety goggles",
-      "pos": "noun",
-      "example": {
-        "ko": "눈을 보호하기 위해 보안경을 쓰세요.",
-        "bn": "চোখ রক্ষা করতে নিরাপত্তা চশমা পরুন।",
-        "en": "Wear safety goggles to protect your eyes."
-      },
-      "pronunciationTipBn": "'경' উচ্চারণ করার সময় 'গ' ধ্বনিটি একটু শক্ত করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "마스크",
-      "romanization": "maseukeu",
-      "bn": "মাস্ক",
-      "en": "mask",
-      "pos": "noun",
-      "example": {
-        "ko": "먼지가 많으니 마스크를 쓰세요.",
-        "bn": "ধুলো বেশি থাকায় মাস্ক পরুন।",
-        "en": "Wear a mask because it's dusty."
-      },
-      "pronunciationTipBn": "'마스크' এর '크' উচ্চারণ করার সময় বাতাস বের করে দিন।"
-    },
-    {
-      "ko": "귀마개",
-      "romanization": "gwimagae",
-      "bn": "কানের প্লাগ",
-      "en": "earplugs",
-      "pos": "noun",
-      "example": {
-        "ko": "소음이 심하면 귀마개를 하세요.",
-        "bn": "শব্দ বেশি হলে কানের প্লাগ ব্যবহার করুন।",
-        "en": "Use earplugs if it's noisy."
-      },
-      "pronunciationTipBn": "'귀' উচ্চারণ করার সময় 'গ' এবং 'উই' একসাথে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "안전대",
-      "romanization": "anjeondae",
-      "bn": "নিরাপত্তা বেল্ট",
-      "en": "safety harness",
-      "pos": "noun",
-      "example": {
-        "ko": "높은 곳에서는 안전대를 매야 합니다.",
-        "bn": "উঁচু স্থানে নিরাপত্তা বেল্ট বাঁধতে হবে।",
-        "en": "You must wear a safety harness in high places."
-      },
-      "pronunciationTipBn": "'대' উচ্চারণ করার সময় 'দ' ধ্বনিটি স্পষ্ট করুন।"
-    },
-    {
-      "ko": "작업복",
-      "romanization": "jageopbok",
-      "bn": "কাজের পোশাক",
-      "en": "work clothes",
-      "pos": "noun",
-      "example": {
-        "ko": "작업복으로 갈아입으세요.",
-        "bn": "কাজের পোশাক পরিবর্তন করুন।",
-        "en": "Change into your work clothes."
-      },
-      "pronunciationTipBn": "'복' এর 'ㅂ' উচ্চারণ করার সময় ঠোঁট বন্ধ করে খুলুন।"
-    },
-    {
-      "ko": "위험하다",
-      "romanization": "wiheomhada",
-      "bn": "বিপজ্জনক",
-      "en": "dangerous",
+      "ko": "더럽다",
+      "romanization": "deoreopda",
+      "bn": "নোংরা হওয়া",
+      "en": "to be dirty",
       "pos": "adjective",
       "example": {
-        "ko": "이 기계는 위험합니다.",
-        "bn": "এই যন্ত্রটি বিপজ্জনক।",
-        "en": "This machine is dangerous."
+        "ko": "바닥이 너무 더러워요.",
+        "bn": "মেঝেটা খুব নোংরা।",
+        "en": "The floor is very dirty."
       },
-      "pronunciationTipBn": "'위험' এর '험' উচ্চারণ করার সময় 'হ' ধ্বনিটি স্পষ্ট করুন।"
+      "pronunciationTipBn": "더럽다 → [더럽따]। শেষে 'ㅂ'-এর পরে 'ㄷ' শক্ত হয়ে 'ㄸ' হয়। কিন্তু 더러워요 রূপে 'ㅂ' বদলে 'ㅜ' হয় (ㅂ-অনিয়মিত ক্রিয়া)।"
     },
     {
-      "ko": "주의하다",
-      "romanization": "juuihada",
-      "bn": "সতর্ক হওয়া",
-      "en": "to be careful",
+      "ko": "깨끗하다",
+      "romanization": "kkaekkeutada",
+      "bn": "পরিষ্কার হওয়া",
+      "en": "to be clean",
+      "pos": "adjective",
+      "example": {
+        "ko": "청소를 해서 작업장이 깨끗해졌어요.",
+        "bn": "পরিষ্কার করার ফলে কর্মস্থলটা ঝকঝকে হয়ে গেছে।",
+        "en": "The workplace became clean after we cleaned it."
+      },
+      "pronunciationTipBn": "깨끗하다 → [깨끄타다]। 'ㅅ' এখানে 'ㄷ' শব্দ হয়ে পরের 'ㅎ'-এর সঙ্গে মিশে 'ㅌ' (থ) হয়ে যায় — 'কে-কেউ-থা-দা'।"
+    },
+    {
+      "ko": "청소하다",
+      "romanization": "cheongsohada",
+      "bn": "পরিষ্কার করা",
+      "en": "to clean",
       "pos": "verb",
       "example": {
-        "ko": "작업할 때 주의하세요.",
-        "bn": "কাজ করার সময় সতর্ক থাকুন।",
-        "en": "Be careful when working."
+        "ko": "일을 시작하기 전에 청소합시다.",
+        "bn": "কাজ শুরু করার আগে পরিষ্কার করে নিই চলুন।",
+        "en": "Let's clean up before we start working."
       },
-      "pronunciationTipBn": "'주의' এর '의' উচ্চারণ করার সময় 'উই' এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "청소 → [청소]। প্রথম অক্ষরের শেষে 'ㅇ' নাক দিয়ে 'ং' টানুন, 'চন-সো' নয় — 'চেওং-সো'।"
     },
     {
-      "ko": "금지",
-      "romanization": "geumji",
-      "bn": "নিষেধ",
-      "en": "prohibition",
-      "pos": "noun",
+      "ko": "정리하다",
+      "romanization": "jeongnihada",
+      "bn": "গুছিয়ে রাখা, সাজিয়ে রাখা",
+      "en": "to arrange, to tidy up",
+      "pos": "verb",
       "example": {
-        "ko": "이곳은 출입 금지 구역입니다.",
-        "bn": "এটি প্রবেশ নিষেধ এলাকা।",
-        "en": "This is a restricted area."
+        "ko": "작업이 끝나면 공구를 정리하세요.",
+        "bn": "কাজ শেষ হলে যন্ত্রপাতি গুছিয়ে রাখুন।",
+        "en": "Please tidy up the tools when the work is finished."
       },
-      "pronunciationTipBn": "'금지' এর '지' উচ্চারণ করার সময় 'জ' ধ্বনিটি স্পষ্ট করুন।"
+      "pronunciationTipBn": "정리 → [정니]। 'ㅇ'-এর পরে 'ㄹ' বদলে 'ㄴ' হয়ে যায়, তাই 'জেওং-রি' নয়, 'জেওং-নি' বলুন।"
     },
     {
-      "ko": "경고",
-      "romanization": "gyeonggo",
-      "bn": "সতর্কবার্তা",
-      "en": "warning",
-      "pos": "noun",
+      "ko": "냄새가 심하다",
+      "romanization": "naemsaega simhada",
+      "bn": "দুর্গন্ধ তীব্র হওয়া",
+      "en": "to smell bad",
+      "pos": "phrase",
       "example": {
-        "ko": "경고 표지를 잘 보세요.",
-        "bn": "সতর্কবার্তা চিহ্ন ভালো করে দেখুন।",
-        "en": "Look carefully at the warning sign."
+        "ko": "쓰레기 때문에 냄새가 심해요.",
+        "bn": "আবর্জনার কারণে দুর্গন্ধ খুব তীব্র।",
+        "en": "It smells bad because of the trash."
       },
-      "pronunciationTipBn": "'경고' এর '고' উচ্চারণ করার সময় 'গ' ধ্বনিটি স্পষ্ট করুন।"
+      "pronunciationTipBn": "심하다 → [시마다]। 'ㅁ'-এর পরে 'ㅎ' প্রায় মিলিয়ে যায়, তাই 'সিম-হা-দা' নয়, 'সি-মা-দা' শোনায়।"
     },
     {
-      "ko": "비상구",
-      "romanization": "bisanggu",
-      "bn": "জরুরী প্রস্থান",
-      "en": "emergency exit",
+      "ko": "소음이 심하다",
+      "romanization": "soeumi simhada",
+      "bn": "শব্দদূষণ বেশি হওয়া, খুব আওয়াজ হওয়া",
+      "en": "to be very noisy",
+      "pos": "phrase",
+      "example": {
+        "ko": "기계가 많아서 소음이 심합니다.",
+        "bn": "মেশিন বেশি থাকায় আওয়াজ খুব বেশি।",
+        "en": "It is very noisy because there are many machines."
+      },
+      "pronunciationTipBn": "소음이 → [소으미]। শেষের 'ㅁ' পরের স্বরের সঙ্গে জুড়ে যায় — 'সো-এউম-ই' নয়, 'সো-এউ-মি'।"
+    },
+    {
+      "ko": "쾌적하다",
+      "romanization": "kwaejeokada",
+      "bn": "আরামদায়ক ও স্বস্তিকর হওয়া (পরিবেশ)",
+      "en": "to be pleasant, comfortable",
+      "pos": "adjective",
+      "example": {
+        "ko": "환기를 하면 작업장이 쾌적해져요.",
+        "bn": "বাতাস চলাচল করালে কর্মস্থল আরামদায়ক হয়ে ওঠে।",
+        "en": "The workplace becomes pleasant when you ventilate it."
+      },
+      "pronunciationTipBn": "쾌적하다 → [쾌저카다]। 'ㄱ' আর 'ㅎ' মিশে 'ㅋ' (খ) হয়ে যায় — 'কোয়ে-জেও-খা-দা'।"
+    },
+    {
+      "ko": "치우다",
+      "romanization": "chiuda",
+      "bn": "সরিয়ে ফেলা, পরিষ্কার করে ফেলা",
+      "en": "to clear away, to tidy",
+      "pos": "verb",
+      "example": {
+        "ko": "물건이 너무 많으니까 좀 치웁시다.",
+        "bn": "জিনিস অনেক বেশি হয়ে গেছে, চলুন কিছু সরিয়ে ফেলি।",
+        "en": "There are too many things, so let's clear some away."
+      },
+      "pronunciationTipBn": "치우다-এর 'ㅊ' হলো নিঃশ্বাসযুক্ত 'ছ'। বাংলা 'চ'-এর মতো নয়, মুখ থেকে বাতাস বেরিয়ে 'ছি-উ-দা' হবে।"
+    },
+    {
+      "ko": "버리다",
+      "romanization": "beorida",
+      "bn": "ফেলে দেওয়া",
+      "en": "to throw away",
+      "pos": "verb",
+      "example": {
+        "ko": "쓰레기는 여기에 버리세요.",
+        "bn": "আবর্জনা এখানে ফেলুন।",
+        "en": "Please throw the trash away here."
+      },
+      "pronunciationTipBn": "버리다 → [버리다]। 'ㅓ' হলো ঠোঁট গোল না করে বলা 'অ' — 'বো-রি-দা' নয়, 'বেও-রি-দা'।"
+    },
+    {
+      "ko": "쓸다",
+      "romanization": "sseulda",
+      "bn": "ঝাড়ু দেওয়া",
+      "en": "to sweep",
+      "pos": "verb",
+      "example": {
+        "ko": "제가 바닥을 쓸게요.",
+        "bn": "আমি মেঝেটা ঝাড়ু দিয়ে দিচ্ছি।",
+        "en": "I will sweep the floor."
+      },
+      "pronunciationTipBn": "쓸다-এর 'ㅆ' হলো টান-টান শক্ত 'স' — জিভ শক্ত করে 'সেউল-দা' বলুন। 'ㄹ' বাতচিম বলে সম্মানসূচক রূপে 'ㄹ' পড়ে যায়: 쓸다 → 쓰세요 (쓸세요 নয়)।"
+    },
+    {
+      "ko": "닦다",
+      "romanization": "dakda",
+      "bn": "মুছে পরিষ্কার করা",
+      "en": "to wipe",
+      "pos": "verb",
+      "example": {
+        "ko": "걸레로 작업대를 닦았어요.",
+        "bn": "ন্যাকড়া দিয়ে কাজের টেবিলটা মুছেছি।",
+        "en": "I wiped the workbench with a rag."
+      },
+      "pronunciationTipBn": "닦다 → [닥따]। 'ㄲ'-এর পরে 'ㄷ' শক্ত হয়ে 'ㄸ' হয় — 'দাক-থা' নয়, 'দাক-তা' (শক্ত ত)।"
+    },
+    {
+      "ko": "환기하다",
+      "romanization": "hwangihada",
+      "bn": "বাতাস চলাচল করানো (জানালা খুলে)",
+      "en": "to ventilate",
+      "pos": "verb",
+      "example": {
+        "ko": "창문을 열고 환기합시다.",
+        "bn": "জানালা খুলে বাতাস চলাচল করাই চলুন।",
+        "en": "Let's open the window and ventilate."
+      },
+      "pronunciationTipBn": "환기 → [환기]। 'ㅘ' হলো এক টানে 'ওয়া' — 'হা-ন-গি' নয়, 'হোয়ান-গি'।"
+    },
+    {
+      "ko": "걸레",
+      "romanization": "geolle",
+      "bn": "ন্যাকড়া, মোছার কাপড়",
+      "en": "rag, mop cloth",
       "pos": "noun",
       "example": {
-        "ko": "비상구 위치를 확인하세요.",
-        "bn": "জরুরী প্রস্থানের অবস্থান যাচাই করুন।",
-        "en": "Check the location of the emergency exit."
+        "ko": "걸레를 빨아서 가져올게요.",
+        "bn": "ন্যাকড়াটা ধুয়ে নিয়ে আসছি।",
+        "en": "I'll wash the rag and bring it."
       },
-      "pronunciationTipBn": "'비상구' এর '구' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "걸레 → [걸레]। 'ㄹㄹ' দুটো একসঙ্গে জিভ তালুতে ঠেকিয়ে টেনে বলুন — 'গেওল-লে'।"
+    },
+    {
+      "ko": "빗자루",
+      "romanization": "bitjaru",
+      "bn": "ঝাড়ু",
+      "en": "broom",
+      "pos": "noun",
+      "example": {
+        "ko": "빗자루로 바닥을 쓸어야겠습니다.",
+        "bn": "ঝাড়ু দিয়ে মেঝেটা ঝাঁট দিতে হবে।",
+        "en": "I should sweep the floor with a broom."
+      },
+      "pronunciationTipBn": "빗자루 → [빋짜루]। 'ㅅ' এখানে থেমে 'ㄷ' হয়, আর পরের 'ㅈ' শক্ত হয়ে 'ㅉ' — 'বিত-짜-রু'।"
+    },
+    {
+      "ko": "쓰레기",
+      "romanization": "sseuregi",
+      "bn": "আবর্জনা, ময়লা",
+      "en": "trash, garbage",
+      "pos": "noun",
+      "example": {
+        "ko": "쓰레기가 많아서 냄새가 나요.",
+        "bn": "আবর্জনা বেশি থাকায় গন্ধ বেরোচ্ছে।",
+        "en": "It smells because there is a lot of trash."
+      },
+      "pronunciationTipBn": "쓰레기-র 'ㅆ' টান-টান শক্ত 'স', আর 'ㅡ' ঠোঁট চ্যাপ্টা করে বলা স্বর — 'সু-রে-গি' নয়, 'সেউ-রে-গি'।"
+    },
+    {
+      "ko": "작업대",
+      "romanization": "jageopdae",
+      "bn": "কাজের টেবিল (যেখানে কাজ করা হয়)",
+      "en": "workbench",
+      "pos": "noun",
+      "example": {
+        "ko": "작업대가 너무 지저분하네요.",
+        "bn": "কাজের টেবিলটা তো খুব অগোছালো।",
+        "en": "The workbench is really messy."
+      },
+      "pronunciationTipBn": "작업대 → [자겁때]। 'ㅂ'-এর পরে 'ㄷ' শক্ত হয়ে 'ㄸ' হয় — 'জা-গেওপ-때'।"
+    },
+    {
+      "ko": "도구",
+      "romanization": "dogu",
+      "bn": "যন্ত্রপাতি, হাতিয়ার",
+      "en": "tool",
+      "pos": "noun",
+      "example": {
+        "ko": "작업에 사용할 도구를 가져오세요.",
+        "bn": "কাজে ব্যবহার করার যন্ত্রপাতিগুলো নিয়ে আসুন।",
+        "en": "Please bring the tools you will use for the work."
+      },
+      "pronunciationTipBn": "도구 → [도구]। শব্দের শুরুর 'ㄷ' নিঃশ্বাসহীন নরম 'দ', কিন্তু দুই স্বরের মাঝে থাকলে আরও নরম শোনায়।"
+    },
+    {
+      "ko": "창고",
+      "romanization": "changgo",
+      "bn": "গুদাম",
+      "en": "warehouse",
+      "pos": "noun",
+      "example": {
+        "ko": "내일부터 창고 관리를 담당합니다.",
+        "bn": "আগামীকাল থেকে আমি গুদাম ব্যবস্থাপনার দায়িত্বে থাকব।",
+        "en": "I will be in charge of warehouse management starting tomorrow."
+      },
+      "pronunciationTipBn": "창고 → [창고]। প্রথম অক্ষরের 'ㅇ' নাক দিয়ে 'ং' — 'চান-গো' নয়, 'চাং-গো'।"
+    },
+    {
+      "ko": "물류 창고",
+      "romanization": "mullyu changgo",
+      "bn": "পণ্য পরিবহন গুদাম (লজিস্টিকস গুদাম)",
+      "en": "logistics warehouse",
+      "pos": "noun",
+      "example": {
+        "ko": "제품은 물류 창고에 보관합니다.",
+        "bn": "পণ্যগুলো লজিস্টিকস গুদামে রাখা হয়।",
+        "en": "The products are stored in the logistics warehouse."
+      },
+      "pronunciationTipBn": "물류 → [물류]। 'ㄹ' দুবার পাশাপাশি আসে, তাই 'মুল-রিউ' নয়, জিভ তালুতে রেখে টেনে 'মুল-লিউ'।"
+    },
+    {
+      "ko": "냉동 창고",
+      "romanization": "naengdong changgo",
+      "bn": "হিমায়িত গুদাম (ফ্রিজার গুদাম)",
+      "en": "freezer warehouse",
+      "pos": "noun",
+      "example": {
+        "ko": "냉동 창고는 온도가 아주 중요해요.",
+        "bn": "হিমায়িত গুদামে তাপমাত্রা খুব গুরুত্বপূর্ণ।",
+        "en": "Temperature is very important in a freezer warehouse."
+      },
+      "pronunciationTipBn": "냉동 → [냉동]। দুটো অক্ষরেই শেষে 'ㅇ' নাক দিয়ে 'ং' — 'নেং-দোং'।"
+    },
+    {
+      "ko": "컨테이너",
+      "romanization": "keonteineo",
+      "bn": "কনটেইনার (মালামাল রাখার বড় বাক্স)",
+      "en": "container",
+      "pos": "noun",
+      "example": {
+        "ko": "컨테이너에 자재를 실었습니다.",
+        "bn": "কনটেইনারে মালামাল তোলা হয়েছে।",
+        "en": "The materials were loaded into the container."
+      },
+      "pronunciationTipBn": "কোরিয়ান রূপে ইংরেজির চেয়ে অক্ষর বেশি: 'কন-টে-না' নয়, চারটি অক্ষরে 'কেওন-থে-ই-নেও'।"
+    },
+    {
+      "ko": "자재",
+      "romanization": "jajae",
+      "bn": "কাঁচামাল, নির্মাণসামগ্রী",
+      "en": "materials",
+      "pos": "noun",
+      "example": {
+        "ko": "자재를 창고로 옮겨 주세요.",
+        "bn": "মালামালগুলো গুদামে সরিয়ে নিন।",
+        "en": "Please move the materials to the warehouse."
+      },
+      "pronunciationTipBn": "자재 → [자재]। 'ㅐ' হলো 'এ'-এর মতো খোলা স্বর — 'জা-জা' নয়, 'জা-জে'।"
+    },
+    {
+      "ko": "관리하다",
+      "romanization": "gwallihada",
+      "bn": "ব্যবস্থাপনা করা, দেখাশোনা করা",
+      "en": "to manage",
+      "pos": "verb",
+      "example": {
+        "ko": "창고를 관리할 담당자는 마두 씨예요.",
+        "bn": "গুদাম দেখাশোনা করবেন যিনি, তিনি মাদু।",
+        "en": "The person who will manage the warehouse is Madhu."
+      },
+      "pronunciationTipBn": "관리 → [괄리]। 'ㄴ'-এর পরে 'ㄹ' এলে 'ㄴ' বদলে 'ㄹ' হয়ে যায় — 'গোয়ান-রি' নয়, 'গোয়াল-লি'।"
+    },
+    {
+      "ko": "재고를 파악하다",
+      "romanization": "jaegoreul paakada",
+      "bn": "মজুদ কত আছে তা যাচাই করা",
+      "en": "to check inventory",
+      "pos": "phrase",
+      "example": {
+        "ko": "창고 관리에서는 재고를 파악하는 게 중요합니다.",
+        "bn": "গুদাম ব্যবস্থাপনায় মজুদ যাচাই করাটাই গুরুত্বপূর্ণ।",
+        "en": "Checking inventory is important in warehouse management."
+      },
+      "pronunciationTipBn": "파악하다 → [파아카다]। 'ㄱ' আর 'ㅎ' মিশে 'ㅋ' (খ) হয় — 'পা-আক-হা-দা' নয়, 'পা-আ-খা-দা'।"
+    },
+    {
+      "ko": "보관하다",
+      "romanization": "bogwanhada",
+      "bn": "সংরক্ষণ করা, জমা রাখা",
+      "en": "to store, to keep",
+      "pos": "verb",
+      "example": {
+        "ko": "이 자재들을 창고에 보관해야 돼요.",
+        "bn": "এই মালামালগুলো গুদামে রাখতে হবে।",
+        "en": "We need to store these materials in the warehouse."
+      },
+      "pronunciationTipBn": "보관 → [보관]। 'ㅘ' এক টানে 'ওয়া' — 'বো-গা-ন' নয়, 'বো-গোয়ান'।"
+    },
+    {
+      "ko": "온도를 유지하다",
+      "romanization": "ondoreul yujihada",
+      "bn": "তাপমাত্রা ধরে রাখা",
+      "en": "to maintain the temperature",
+      "pos": "phrase",
+      "example": {
+        "ko": "냉동 창고는 적정 온도를 유지해야 합니다.",
+        "bn": "হিমায়িত গুদামে সঠিক তাপমাত্রা ধরে রাখতে হয়।",
+        "en": "A freezer warehouse must maintain the proper temperature."
+      },
+      "pronunciationTipBn": "유지하다 → [유지하다]। 'ㅑ' নয়, 'ㅠ' — ঠোঁট গোল করে 'ইউ-জি-হা-দা'।"
+    },
+    {
+      "ko": "적정 온도",
+      "romanization": "jeokjeong ondo",
+      "bn": "উপযুক্ত তাপমাত্রা",
+      "en": "proper temperature",
+      "pos": "noun",
+      "example": {
+        "ko": "적정 온도는 영하 십팔 도입니다.",
+        "bn": "উপযুক্ত তাপমাত্রা হলো মাইনাস আঠারো ডিগ্রি।",
+        "en": "The proper temperature is minus eighteen degrees."
+      },
+      "pronunciationTipBn": "적정 → [적쩡]। 'ㄱ'-এর পরে 'ㅈ' শক্ত হয়ে 'ㅉ' হয় — 'জেওক-쩡'।"
+    },
+    {
+      "ko": "덮개를 덮다",
+      "romanization": "deopgaereul deopda",
+      "bn": "ঢাকনা দিয়ে ঢেকে দেওয়া",
+      "en": "to cover with a cover",
+      "pos": "phrase",
+      "example": {
+        "ko": "비가 오니까 자재에 덮개를 덮읍시다.",
+        "bn": "বৃষ্টি হচ্ছে, তাই মালামালে ঢাকনা দিয়ে ঢেকে দিই চলুন।",
+        "en": "It's raining, so let's cover the materials with a cover."
+      },
+      "pronunciationTipBn": "덮다 → [덥따]। 'ㅍ' বাতচিম থেমে 'ㅂ' শব্দ হয়, আর পরের 'ㄷ' শক্ত হয়ে 'ㄸ' — 'দেওপ-따'।"
+    },
+    {
+      "ko": "옮기다",
+      "romanization": "omgida",
+      "bn": "সরানো, স্থানান্তর করা",
+      "en": "to move, to transfer",
+      "pos": "verb",
+      "example": {
+        "ko": "자재를 창고로 옮길 사람이 필요해요.",
+        "bn": "মালামাল গুদামে সরিয়ে নেবে এমন লোক দরকার।",
+        "en": "We need someone to move the materials to the warehouse."
+      },
+      "pronunciationTipBn": "옮기다 → [옴기다]। বাতচিমে 'ㄹㅁ' দুটো ব্যঞ্জন থাকলেও কেবল 'ㅁ' উচ্চারিত হয় — 'ওল-গি-দা' নয়, 'ওম-গি-দা'।"
+    },
+    {
+      "ko": "담당자",
+      "romanization": "damdangja",
+      "bn": "দায়িত্বপ্রাপ্ত ব্যক্তি",
+      "en": "person in charge",
+      "pos": "noun",
+      "example": {
+        "ko": "창고 담당자에게 물어보세요.",
+        "bn": "গুদামের দায়িত্বপ্রাপ্ত ব্যক্তিকে জিজ্ঞেস করুন।",
+        "en": "Please ask the person in charge of the warehouse."
+      },
+      "pronunciationTipBn": "담당자 → [담당자]। প্রথমটি 'ㅁ' (ঠোঁট বন্ধ), দ্বিতীয়টি 'ㅇ' (নাক দিয়ে ং) — 'দাম-দাং-জা'।"
+    },
+    {
+      "ko": "중요하다",
+      "romanization": "jung-yohada",
+      "bn": "গুরুত্বপূর্ণ হওয়া",
+      "en": "to be important",
+      "pos": "adjective",
+      "example": {
+        "ko": "규칙을 지키는 게 중요해요.",
+        "bn": "নিয়ম মেনে চলাটাই গুরুত্বপূর্ণ।",
+        "en": "Keeping the rules is important."
+      },
+      "pronunciationTipBn": "중요 → [중요]। 'ㅇ' বাতচিমের পরে স্বর এলে জোড়া লাগে না — 'জু-뇨' নয়, 'জুং-ইও'।"
+    },
+    {
+      "ko": "엉망이다",
+      "romanization": "eongmang-ida",
+      "bn": "এলোমেলো বা তালগোল পাকানো অবস্থা হওয়া",
+      "en": "to be a mess",
+      "pos": "adjective",
+      "example": {
+        "ko": "작업장이 너무 엉망이네요.",
+        "bn": "কর্মস্থলটা তো একেবারে এলোমেলো।",
+        "en": "The workplace is such a mess."
+      },
+      "pronunciationTipBn": "엉망 → [엉망]। দুই অক্ষরের বাতচিম আলাদা: প্রথমে 'ㅇ' (ং), পরে 'ㅇ' — 'অং-মাং' টেনে বলুন।"
+    },
+    {
+      "ko": "지저분하다",
+      "romanization": "jijeobunhada",
+      "bn": "অগোছালো ও নোংরা হওয়া",
+      "en": "to be messy, untidy",
+      "pos": "adjective",
+      "example": {
+        "ko": "책상 위가 지저분해서 정리했어요.",
+        "bn": "টেবিলের উপরটা অগোছালো ছিল, তাই গুছিয়ে ফেলেছি।",
+        "en": "The desk was messy, so I tidied it."
+      },
+      "pronunciationTipBn": "지저분하다 → [지저부나다]। 'ㄴ'-এর পরে 'ㅎ' প্রায় মিলিয়ে যায় — 'জি-জেও-부-나-다'।"
     },
     {
       "ko": "환풍기",
       "romanization": "hwanpunggi",
-      "bn": "ভেন্টিলেটর/এক্সজস্ট ফ্যান",
-      "en": "ventilator",
+      "bn": "এগজস্ট ফ্যান (বাতাস বের করার পাখা)",
+      "en": "ventilation fan",
       "pos": "noun",
       "example": {
-        "ko": "환풍기를 켜 주세요.",
-        "bn": "ভেন্টিলেটর চালু করে দিন।",
-        "en": "Please turn on the ventilator."
+        "ko": "환풍기가 고장 나서 환기가 안 돼요.",
+        "bn": "এগজস্ট ফ্যান নষ্ট হওয়ায় বাতাস চলাচল হচ্ছে না।",
+        "en": "The ventilation fan is broken, so we cannot ventilate."
       },
-      "pronunciationTipBn": "'환풍기' এর '풍' উচ্চারণ করার সময় বাতাস বের করে দিন।"
+      "pronunciationTipBn": "환풍기 → [환풍기]। 'ㅍ' হলো নিঃশ্বাসযুক্ত 'ফ/প' — 'হোয়ান-풍-গি', মাঝের অক্ষরে বাতাস ছাড়ুন।"
     }
   ],
   "grammar": [
     {
-      "pattern": "-아/어 주세요",
-      "titleBn": "অনুরোধ করা (-아/어 주세요)",
-      "explanationBn": "কোনো কাজ ভদ্রভাবে করতে বলার জন্য ব্যবহার করা হয়। উদাহরণ:\n1) 장비를 청소해 주세요. — দয়া করে যন্ত্র পরিষ্কার করুন।\n2) 보고서를 작성해 주세요. — রিপোর্ট লিখে দিন।",
-      "explanationEn": "Used to ask someone politely to do something.\nExamples:\n1) 장비를 청소해 주세요. — Please clean the equipment.\n2) 보고서를 작성해 주세요. — Please write the report.",
+      "pattern": "V + -(으)ㅂ시다",
+      "titleBn": "প্রস্তাব দেওয়া '-(으)ㅂ시다' (চলুন ... করি)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-(으)ㅂ시다' যোগ করলে আনুষ্ঠানিক পরিবেশে 'চলুন একসঙ্গে ... করি' অর্থে প্রস্তাব দেওয়া হয়। মূলে বাতচিম (শেষ ব্যঞ্জন) থাকলে '-읍시다': 먹다 → 먹읍시다, 덮다 → 덮읍시다। বাতচিম না থাকলে বা শেষ ব্যঞ্জন 'ㄹ' হলে শুধু '-ㅂ시다': 보다 → 봅시다, 만들다 → 만듭시다 ('ㄹ' পড়ে যায়)। কর্মস্থলে সহকর্মীদের সঙ্গে কাজ ভাগ করে নেওয়ার সময় এটি খুব কাজে লাগে: '청소부터 합시다' (আগে পরিষ্কার করে নিই চলুন)। মনে রাখবেন — '-(으)ㄹ까요?' দিয়ে করা প্রশ্নের উত্তরেও '-(으)ㅂ시다' ব্যবহার করা যায়।",
+      "explanationEn": "-(으)ㅂ시다 attaches to verbs to suggest doing something together in a formal setting ('let's ...'). Use -읍시다 after a final consonant (먹다 → 먹읍시다) and -ㅂ시다 after a vowel or final ㄹ (보다 → 봅시다, 만들다 → 만듭시다, where ㄹ drops). It also serves as a reply to questions formed with -(으)ㄹ까요?",
       "examples": [
         {
-          "ko": "장비를 청소해 주세요.",
-          "bn": "যন্ত্র পরিষ্কার করে দিন।",
-          "en": "Please clean the equipment."
+          "ko": "일하기 전에 먼저 청소부터 합시다.",
+          "bn": "কাজ শুরুর আগে চলুন প্রথমে পরিষ্কার করে নিই।",
+          "en": "Let's clean up first before we start working."
         },
         {
-          "ko": "문제가 있으면 보고해 주세요.",
-          "bn": "সমস্যা থাকলে রিপোর্ট করে দিন।",
-          "en": "Please report if there is a problem."
+          "ko": "작업이 끝나면 작업장을 정리합시다.",
+          "bn": "কাজ শেষ হলে চলুন কর্মস্থলটা গুছিয়ে ফেলি।",
+          "en": "When the work is done, let's tidy up the workplace."
+        },
+        {
+          "ko": "물건이 너무 많으니까 창고로 옮깁시다.",
+          "bn": "জিনিস অনেক বেশি, তাই চলুন গুদামে সরিয়ে নিই।",
+          "en": "There are too many things, so let's move them to the warehouse."
         }
       ],
-      "commonMistakeBn": "অনেকে সঠিক বিভক্তি বা প্রত্যয় ব্যবহার করতে ভুল করেন, তাই বাক্যের অর্থের দিকে খেয়াল রাখুন।"
+      "commonMistakeBn": "নিজের চেয়ে বড় বা পদমর্যাদায় উঁচু কারও সঙ্গে '-(으)ㅂ시다' ব্যবহার করা যায় না। '반장님, 일하러 갑시다' বললে অভদ্র শোনায় — এ ক্ষেত্রে '반장님, 일하러 가시겠어요?' বা '가실까요?' বলুন। আরেকটি ভুল: 'ㄹ' বাতচিমে '으' বসানো — '만들읍시다' ভুল, সঠিক '만듭시다'।"
     },
     {
-      "pattern": "-아/어야 하다",
-      "titleBn": "প্রয়োজন বা বাধ্যবাধকতা (-아/어야 하다)",
-      "explanationBn": "কোনো কাজ করা আবশ্যক বোঝাতে ব্যবহৃত হয়। উদাহরণ:\n1) 안전 장비를 착용해야 합니다. — নিরাপত্তা সরঞ্জাম পরা উচিত।\n2) 매일 점검해야 해요. — প্রতিদিন পরীক্ষা করতে হবে।",
-      "explanationEn": "Expresses necessity or obligation.\nExamples:\n1) 안전 장비를 착용해야 합니다. — You must wear safety equipment.\n2) 매일 점검해야 해요. — You have to check every day.",
+      "pattern": "V/A + -(으)ㄹ + N",
+      "titleBn": "ভবিষ্যতের বিশেষায়ক '-(으)ㄹ' (যে কাজ করা হবে)",
+      "explanationBn": "'-(으)ㄹ' ক্রিয়া বা বিশেষণের সঙ্গে যুক্ত হয়ে পরের বিশেষ্যকে বিশেষায়িত করে, এবং বোঝায় কাজটি এখনও হয়নি — ভবিষ্যতে হবে, কিংবা তা নিয়ে অনুমান বা ইচ্ছা আছে। বাতচিম থাকলে '-을': 담다 → 담을, 먹다 → 먹을। বাতচিম না থাকলে '-ㄹ': 사다 → 살, 쓰다 → 쓸। বাংলায় এটি 'যে ... করা হবে' বা '...করার জন্য' দিয়ে বোঝানো যায়: '제품을 담을 상자' মানে 'পণ্য রাখার জন্য যে বাক্স'। অতীতে ঘটে যাওয়া কাজে '-(으)ㄴ' আর এখন চলছে এমন কাজে '-는' ব্যবহার হয় — তাই কালভেদ বুঝে বাছতে হবে।",
+      "explanationEn": "-(으)ㄹ attaches to verbs and adjectives to modify a following noun, marking the action as one that will happen, or as speculation or intention about something not yet done. Use -을 after a final consonant (담다 → 담을) and -ㄹ after a vowel (사다 → 살). Compare -(으)ㄴ for completed actions and -는 for ongoing ones.",
       "examples": [
         {
-          "ko": "안전 장비를 착용해야 합니다.",
-          "bn": "নিরাপত্তা সরঞ্জাম পরতে হবে।",
-          "en": "You must wear safety equipment."
+          "ko": "제품을 담을 상자가 필요해요.",
+          "bn": "পণ্য রাখার জন্য একটা বাক্স দরকার।",
+          "en": "I need a box to put the products in."
         },
         {
-          "ko": "문제를 즉시 보고해야 해요.",
-          "bn": "সমস্যা দ্রুত রিপোর্ট করতে হবে।",
-          "en": "You must report problems immediately."
+          "ko": "작업에 사용할 공구를 가져오세요.",
+          "bn": "কাজে ব্যবহার করবেন এমন যন্ত্রপাতি নিয়ে আসুন।",
+          "en": "Please bring the tools you will use for the work."
+        },
+        {
+          "ko": "내일 창고로 들어올 물건이 많습니다.",
+          "bn": "আগামীকাল গুদামে যেসব জিনিস আসবে, তার পরিমাণ অনেক।",
+          "en": "There are many goods that will come into the warehouse tomorrow."
         }
       ],
-      "commonMistakeBn": "অনেকে সঠিক বিভক্তি বা প্রত্যয় ব্যবহার করতে ভুল করেন, তাই বাক্যের অর্থের দিকে খেয়াল রাখুন।"
+      "commonMistakeBn": "কাজটি ভবিষ্যতের হলেও '-는' বসিয়ে ফেলা সাধারণ ভুল — '사용하는 공구' মানে 'যে যন্ত্রপাতি এখন ব্যবহার হচ্ছে', কিন্তু 'যে যন্ত্রপাতি ব্যবহার করা হবে' বোঝাতে '사용할 공구' বলতে হবে। আর বাতচিম থাকলে '으' বাদ দেওয়া যায় না: '먹ㄹ 것' ভুল, সঠিক '먹을 것'।"
     },
     {
-      "pattern": "-면 안 되다",
-      "titleBn": "নিষেধ জানানো (-면 안 되다)",
-      "explanationBn": "কোনো কাজ করা চলবে না বা অনুমতি নেই বোঝাতে ব্যবহার। উদাহরণ:\n1) 기계를 만지면 안 됩니다. — যন্ত্রটি হাতে নেবেন না।\n2) 흡연하면 안 돼요. — ধূমপান করা চলবে না।",
-      "explanationEn": "Used to express prohibition/not allowed.\nExamples:\n1) 기계를 만지면 안 됩니다. — You must not touch the machine.\n2) 흡연하면 안 돼요. — Smoking is not allowed.",
+      "pattern": "V + -는 게 중요하다",
+      "titleBn": "'-는 게 중요하다' (… করাটা গুরুত্বপূর্ণ)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-는 것'(সংক্ষেপে '-는 게') যোগ করলে সেই কাজটি একটি বিশেষ্যে পরিণত হয়, আর তার সঙ্গে '중요하다' বসিয়ে বলা হয় কোন কাজটি গুরুত্বপূর্ণ। বাংলায় '...করাটা গুরুত্বপূর্ণ'। বাতচিম থাকুক বা না থাকুক, ক্রিয়ায় সবসময় '-는 게' বসে: 지키다 → 지키는 게, 파악하다 → 파악하는 게, 먹다 → 먹는 게। কর্মস্থলের নিয়ম বা সতর্কতা বোঝাতে এই গঠনটি ইউনিট ৩৫-এ বারবার এসেছে: '재고를 파악하는 게 중요해요'।",
+      "explanationEn": "Adding -는 것 (contracted to -는 게) to a verb turns the action into a noun phrase, and combining it with 중요하다 states which action is important. The form is -는 게 for all verbs regardless of a final consonant (지키다 → 지키는 게, 먹다 → 먹는 게).",
       "examples": [
         {
-          "ko": "기계를 만지면 안 됩니다.",
-          "bn": "যন্ত্র স্পর্শ করা যাবে না।",
-          "en": "Do not touch the machine."
+          "ko": "창고를 관리할 때는 재고를 파악하는 게 중요해요.",
+          "bn": "গুদাম দেখাশোনার সময় মজুদ যাচাই করাটা গুরুত্বপূর্ণ।",
+          "en": "When managing a warehouse, checking inventory is important."
         },
         {
-          "ko": "청소하지 않으면 안 돼요.",
-          "bn": "পরিষ্কার না করলে চলবে না।",
-          "en": "You must clean (it)."
+          "ko": "냉동 창고는 적정 온도를 유지하는 게 아주 중요합니다.",
+          "bn": "হিমায়িত গুদামে সঠিক তাপমাত্রা ধরে রাখাটা খুবই গুরুত্বপূর্ণ।",
+          "en": "Maintaining the proper temperature is very important in a freezer warehouse."
         }
       ],
-      "commonMistakeBn": "অনেকে সঠিক বিভক্তি বা প্রত্যয় ব্যবহার করতে ভুল করেন, তাই বাক্যের অর্থের দিকে খেয়াল রাখুন।"
+      "commonMistakeBn": "বিশেষণের সঙ্গে '-는 게' বসে না — '깨끗하는 게' ভুল, বিশেষণে '-(으)ㄴ 게' হয়: '깨끗한 게'। তবে '깨끗하게 청소하는 게 중요해요' বললে ঠিক আছে, কারণ সেখানে মূল ক্রিয়া '청소하다'।"
     },
     {
-      "pattern": "-지 마세요",
-      "titleBn": "নিষেধ করা (-지 마세요)",
-      "explanationBn": "কোনো কাজ করতে নিষেধ করার জন্য ব্যবহার করা হয়। এটি '-면 안 되다' এর চেয়ে সরাসরি নির্দেশ বোঝায়।",
-      "explanationEn": "Used to tell someone not to do something. It is a more direct command than '-면 안 되다'.",
+      "pattern": "N + 부터",
+      "titleBn": "'부터' (… থেকে শুরু করে, আগে)",
+      "explanationBn": "বিশেষ্যের সঙ্গে '부터' যোগ করলে বোঝায় কোথা থেকে বা কোন কাজ থেকে শুরু হচ্ছে। সময়ের ক্ষেত্রে '내일부터' মানে 'আগামীকাল থেকে'। আবার একাধিক কাজের মধ্যে কোনটি আগে করতে হবে তা বোঝাতেও '부터' বসে: '청소부터 합시다' মানে 'আগে পরিষ্কার করাটা দিয়ে শুরু করি'। এখানে '먼저' (প্রথমে) শব্দটিও প্রায়ই সঙ্গে আসে, যা অর্থটিকে আরও স্পষ্ট করে।",
+      "explanationEn": "부터 attaches to a noun to mark a starting point — of time ('내일부터', from tomorrow) or of sequence, indicating which task comes first ('청소부터 합시다', let's start with cleaning). It often appears alongside 먼저 (first).",
       "examples": [
         {
-          "ko": "기계를 만지지 마세요.",
-          "bn": "যন্ত্রটি স্পর্শ করবেন না।",
-          "en": "Do not touch the machine."
+          "ko": "내일부터 창고 관리를 담당할 아궁입니다.",
+          "bn": "আমি আগুং, আগামীকাল থেকে গুদাম ব্যবস্থাপনার দায়িত্বে থাকব।",
+          "en": "I'm Agung, and I will be in charge of the warehouse from tomorrow."
         },
         {
-          "ko": "여기서 담배를 피우지 마세요.",
-          "bn": "এখানে ধূমপান করবেন না।",
-          "en": "Do not smoke here."
-        },
-        {
-          "ko": "안전모를 벗지 마세요.",
-          "bn": "নিরাপত্তা হেলমেট খুলবেন না।",
-          "en": "Do not take off your safety helmet."
+          "ko": "일을 시작하기 전에 청소부터 해야겠어요.",
+          "bn": "কাজ শুরুর আগে পরিষ্কার করাটা দিয়েই শুরু করতে হবে।",
+          "en": "I should start with cleaning before beginning the work."
         }
       ],
-      "commonMistakeBn": "অনেকে '-지 않다' (না করা) এর সাথে '-지 마세요' (করবেন না) গুলিয়ে ফেলেন। '-지 마세요' শুধুমাত্র আদেশের ক্ষেত্রে ব্যবহৃত হয়।"
+      "commonMistakeBn": "'부터' আর '에서' গুলিয়ে ফেলা হয়। জায়গা থেকে শুরু বোঝাতে '집에서 회사까지' বলা হয়, কিন্তু সময় বা ক্রম বোঝাতে '아침부터 저녁까지' — জায়গার ক্ষেত্রে '집부터' সাধারণত বলা হয় না।"
     },
     {
-      "pattern": "-(으)면",
-      "titleBn": "শর্ত বোঝানো (-(으)면)",
-      "explanationBn": "যদি কোনো শর্ত পূরণ হয়, তবে কী হবে তা বোঝাতে ব্যবহৃত হয়।",
-      "explanationEn": "Used to express a condition (if/when).",
+      "pattern": "V + -아/어야겠다",
+      "titleBn": "'-아/어야겠다' (… করতে হবে বলে মনে হচ্ছে)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-아/어야겠다' যোগ করলে বক্তা নিজের ইচ্ছা বা সিদ্ধান্ত জানান — 'এটা আমাকে করতে হবে' বা 'করব ভাবছি'। মূল স্বর 'ㅏ' বা 'ㅗ' হলে '-아야겠다': 닦다 → 닦아야겠다। অন্য স্বরে '-어야겠다': 쓸다 → 쓸어야겠다, 옮기다 → 옮겨야겠다। '하다' ক্রিয়ায় '해야겠다'। '-아/어야 하다' (করতেই হবে, নিয়ম) থেকে এর পার্থক্য হলো — '-아/어야겠다' বক্তার নিজের উপলব্ধি ও সিদ্ধান্ত বোঝায়, বাইরের কড়া নিয়ম নয়।",
+      "explanationEn": "-아/어야겠다 attaches to verbs to express the speaker's own realization or resolve ('I should / I'd better ...'). Use -아야겠다 after stems with ㅏ or ㅗ (닦다 → 닦아야겠다), and -어야겠다 elsewhere (옮기다 → 옮겨야겠다); 하다 becomes 해야겠다. Unlike -아/어야 하다, which states an external obligation, this conveys a personal decision.",
       "examples": [
         {
-          "ko": "문제가 있으면 보고하세요.",
-          "bn": "সমস্যা থাকলে রিপোর্ট করুন।",
-          "en": "If there is a problem, report it."
+          "ko": "작업장이 엉망이니까 빗자루로 바닥을 쓸어야겠습니다.",
+          "bn": "কর্মস্থল এলোমেলো, তাই ঝাড়ু দিয়ে মেঝেটা ঝাঁট দিতে হবে।",
+          "en": "The workplace is a mess, so I should sweep the floor with a broom."
         },
         {
-          "ko": "기계가 고장 나면 저에게 알려주세요.",
-          "bn": "যন্ত্র নষ্ট হলে আমাকে জানাবেন।",
-          "en": "If the machine breaks down, let me know."
-        },
-        {
-          "ko": "일이 끝나면 청소해 주세요.",
-          "bn": "কাজ শেষ হলে পরিষ্কার করে দিন।",
-          "en": "When the work is done, please clean up."
+          "ko": "작업대가 지저분해서 걸레로 닦아야겠어요.",
+          "bn": "কাজের টেবিলটা অগোছালো, তাই ন্যাকড়া দিয়ে মুছে ফেলতে হবে।",
+          "en": "The workbench is messy, so I should wipe it with a rag."
         }
       ],
-      "commonMistakeBn": "বাচ্চিম (받침) থাকলে '-으면' এবং না থাকলে '-면' বসে, এটি অনেকেই ভুল করেন।"
+      "commonMistakeBn": "'-겠-' থাকায় অনেকে একে ভবিষ্যৎ কাল ভাবেন, কিন্তু এটি মূলত বক্তার সিদ্ধান্ত বোঝায় — তাই অন্য কাউকে আদেশ দিতে '청소해야겠어요' বলা যায় না; সেখানে '청소하세요' বা '청소합시다' বলুন।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "교대 시작 보고",
-      "titleEn": "Shift Start Report",
+      "titleBn": "কাজ শুরুর আগে কর্মস্থল পরিষ্কার করা",
+      "titleEn": "Cleaning the Workplace Before Starting Work",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "안녕하세요. 오늘 교대 시작합니다.",
-          "bn": "নমস্কার। আজকে আমার পালতি শুরু হচ্ছে।",
-          "en": "Hello. I'm starting my shift today."
+          "speaker": "자하라",
+          "ko": "작업장이 너무 엉망이네요. 냄새도 심하고요.",
+          "bn": "কর্মস্থলটা তো একেবারে এলোমেলো। দুর্গন্ধও খুব তীব্র।",
+          "en": "The workplace is such a mess. And it smells bad too."
         },
         {
-          "speaker": "감독자",
-          "ko": "좋습니다. 장비 점검은 했어요?",
-          "bn": "ভালো। যন্ত্র পরীক্ষা করেছেন কি?",
-          "en": "Good. Did you check the equipment?"
+          "speaker": "마두",
+          "ko": "어제 늦게까지 작업을 했어요. 너무 피곤해서 정리를 하나도 못 하고 퇴근했어요.",
+          "bn": "গতকাল দেরি পর্যন্ত কাজ করেছি। খুব ক্লান্ত ছিলাম বলে কিছুই না গুছিয়ে বাসায় চলে গিয়েছিলাম।",
+          "en": "We worked late yesterday. I was so tired that I left without tidying up at all."
         },
         {
-          "speaker": "직원",
-          "ko": "네, 점검했고 이상 없습니다.",
-          "bn": "হ্যাঁ, পরীক্ষা করেছি এবং কোনো সমস্যা নেই।",
-          "en": "Yes, I inspected it and there is no problem."
+          "speaker": "자하라",
+          "ko": "그럼 일하기 전에 먼저 청소부터 합시다.",
+          "bn": "তাহলে চলুন কাজ শুরুর আগে প্রথমে পরিষ্কার করে নিই।",
+          "en": "Then let's clean up first before we start working."
         },
         {
-          "speaker": "감독자",
-          "ko": "청소도 해 주세요. 보고서는 교대 후에 제출하세요.",
-          "bn": "পরিষ্কারেরও খেয়াল রাখুন। পালতি শেষ হলে রিপোর্ট জমা দিন।",
-          "en": "Also clean. Submit the report after your shift."
+          "speaker": "마두",
+          "ko": "네, 제가 얼른 가서 걸레를 가져올게요.",
+          "bn": "হ্যাঁ, আমি চট করে গিয়ে ন্যাকড়াটা নিয়ে আসছি।",
+          "en": "Okay, I'll go get a rag right away."
         },
         {
-          "speaker": "직원",
-          "ko": "알겠습니다. 수고하세요.",
-          "bn": "ঠিক আছে। আপনিও ভালো থাকুন।",
-          "en": "Understood. Take care."
+          "speaker": "자하라",
+          "ko": "그럼 저는 빗자루로 작업장을 쓸고 있을게요.",
+          "bn": "তাহলে আমি ঝাড়ু দিয়ে কর্মস্থলটা ঝাঁট দিতে থাকি।",
+          "en": "Then I'll be sweeping the workplace with a broom."
+        },
+        {
+          "speaker": "마두",
+          "ko": "창문도 열어서 환기를 합시다. 그러면 훨씬 쾌적해질 거예요.",
+          "bn": "জানালাও খুলে বাতাস চলাচল করাই চলুন। তাহলে অনেক বেশি আরামদায়ক হয়ে যাবে।",
+          "en": "Let's open the windows and ventilate too. Then it will become much more pleasant."
         }
       ]
     },
     {
-      "titleBn": "장비 파손 보고",
-      "titleEn": "Reporting Equipment Damage",
+      "titleBn": "গুদাম ব্যবস্থাপনার দায়িত্ব বুঝে নেওয়া",
+      "titleEn": "Taking Over Warehouse Management",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "죄송합니다. 기계가 고장 났습니다.",
-          "bn": "দুঃখিত। যন্ত্রটি ভেঙে গেছে।",
-          "en": "Sorry. The machine is broken."
+          "speaker": "아궁",
+          "ko": "안녕하세요? 내일부터 창고 관리를 담당할 아궁이라고 합니다.",
+          "bn": "নমস্কার। আমি আগুং, আগামীকাল থেকে গুদাম ব্যবস্থাপনার দায়িত্বে থাকব।",
+          "en": "Hello. I'm Agung, and I will be in charge of managing the warehouse starting tomorrow."
         },
         {
-          "speaker": "감독자",
-          "ko": "어디가 파손되었나요?",
-          "bn": "কোথায় ক্ষতি হয়েছে?",
-          "en": "Where is it damaged?"
+          "speaker": "부장님",
+          "ko": "반갑습니다. 창고 관리를 해 봤어요?",
+          "bn": "আপনার সঙ্গে পরিচিত হয়ে ভালো লাগল। গুদাম ব্যবস্থাপনার কাজ কি আগে করেছেন?",
+          "en": "Nice to meet you. Have you ever managed a warehouse before?"
         },
         {
-          "speaker": "직원",
-          "ko": "벨트가 끊어졌습니다. 작동이 안 됩니다.",
-          "bn": "বেল্ট ছিঁড়ে গেছে। এটি কাজ করছে না।",
-          "en": "The belt is torn. It won't operate."
+          "speaker": "아궁",
+          "ko": "아니요, 안 해 봤지만 열심히 하겠습니다.",
+          "bn": "না, করিনি, তবে মন দিয়ে কাজ করব।",
+          "en": "No, I haven't, but I will work hard."
         },
         {
-          "speaker": "감독자",
-          "ko": "즉시 보고서를 작성하고 유지보수 팀에 연락하세요.",
-          "bn": "তৎক্ষণাৎ রিপোর্ট লিখুন এবং রক্ষণাবেক্ষণ টিমকে জানান।",
-          "en": "Write a report immediately and contact maintenance."
+          "speaker": "부장님",
+          "ko": "창고 관리에서는 재고를 파악하는 게 중요해요. 그리고 냉동 창고는 적정 온도를 유지하는 게 아주 중요하고요.",
+          "bn": "গুদাম ব্যবস্থাপনায় মজুদ যাচাই করাটা গুরুত্বপূর্ণ। আর হিমায়িত গুদামে সঠিক তাপমাত্রা ধরে রাখাটা খুবই গুরুত্বপূর্ণ।",
+          "en": "Checking inventory is important in warehouse management. And maintaining the proper temperature in the freezer warehouse is also very important."
         },
         {
-          "speaker": "직원",
-          "ko": "네, 바로 하겠습니다.",
-          "bn": "ঠিক আছে, এখনই করব।",
-          "en": "Yes, I'll do it right away."
+          "speaker": "아궁",
+          "ko": "네, 알겠습니다. 온도는 하루에 몇 번 확인할까요?",
+          "bn": "জি, বুঝেছি। তাপমাত্রা দিনে কতবার দেখব?",
+          "en": "Yes, understood. How many times a day should I check the temperature?"
+        },
+        {
+          "speaker": "부장님",
+          "ko": "아침저녁으로 두 번 확인하세요. 내일 창고로 들어올 물건이 많으니까 잘 정리해 주세요.",
+          "bn": "সকাল-সন্ধ্যা দুবার দেখবেন। আগামীকাল গুদামে অনেক জিনিস আসবে, তাই ভালো করে গুছিয়ে রাখবেন।",
+          "en": "Please check twice, morning and evening. A lot of goods will come into the warehouse tomorrow, so please organize them well."
         }
       ]
     },
     {
-      "titleBn": "안전 장비 착용 지시",
-      "titleEn": "Instruction to Wear Safety Equipment",
+      "titleBn": "বৃষ্টির আগে মালামাল ঢেকে রাখা",
+      "titleEn": "Covering the Materials Before the Rain",
       "lines": [
         {
-          "speaker": "반장",
-          "ko": "투안 씨, 작업장에 들어갈 때는 안전모를 써야 합니다.",
-          "bn": "তুয়ান সাহেব, কর্মস্থলে প্রবেশ করার সময় নিরাপত্তা হেলমেট পরতে হবে।",
-          "en": "Tuan, you must wear a safety helmet when entering the workplace."
-        },
-        {
-          "speaker": "투안",
-          "ko": "아, 깜빡했습니다. 죄송합니다.",
-          "bn": "আহ, ভুলে গিয়েছিলাম। দুঃখিত।",
-          "en": "Ah, I forgot. I'm sorry."
+          "speaker": "닛차난",
+          "ko": "곧 비가 올 것 같아요. 밖에 있는 자재는 어떻게 할까요?",
+          "bn": "মনে হচ্ছে এখুনি বৃষ্টি আসবে। বাইরে থাকা মালামালগুলো কী করব?",
+          "en": "It looks like it will rain soon. What should we do with the materials outside?"
         },
         {
           "speaker": "반장",
-          "ko": "그리고 안전화도 신으세요. 여기는 위험하니까 조심해야 해요.",
-          "bn": "এবং নিরাপত্তা জুতোও পরুন। এখানে বিপজ্জনক তাই সতর্ক থাকতে হবে।",
-          "en": "And wear safety shoes too. It's dangerous here, so you have to be careful."
+          "ko": "빨리 자재를 덮을 덮개를 가져옵시다.",
+          "bn": "তাড়াতাড়ি মালামাল ঢাকার ঢাকনাটা নিয়ে আসি চলুন।",
+          "en": "Let's quickly bring a cover to cover the materials."
         },
         {
-          "speaker": "투안",
-          "ko": "네, 알겠습니다. 바로 착용하겠습니다.",
-          "bn": "হ্যাঁ, বুঝতে পেরেছি। এখনই পরছি।",
-          "en": "Yes, I understand. I will put them on right away."
+          "speaker": "닛차난",
+          "ko": "네, 그런데 자재를 창고로 옮기는 게 더 좋지 않을까요?",
+          "bn": "জি, তবে মালামাল গুদামে সরিয়ে নেওয়াটা কি আরও ভালো হবে না?",
+          "en": "Okay, but wouldn't it be better to move the materials into the warehouse?"
+        },
+        {
+          "speaker": "반장",
+          "ko": "좋은 생각이에요. 그럼 자재를 옮길 사람들을 데려올게요.",
+          "bn": "ভালো কথা বলেছেন। তাহলে মালামাল সরাবে এমন লোকদের নিয়ে আসছি।",
+          "en": "That's a good idea. Then I'll bring some people to move the materials."
+        },
+        {
+          "speaker": "닛차난",
+          "ko": "무거운 자재부터 먼저 옮깁시다. 비가 오기 전에 끝내야겠어요.",
+          "bn": "ভারী মালামাল দিয়ে আগে শুরু করি চলুন। বৃষ্টি আসার আগেই শেষ করতে হবে।",
+          "en": "Let's move the heavy materials first. We should finish before it rains."
         }
       ]
     }
@@ -653,584 +712,565 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "다음 중 '점검하다' এর সঠিক বাংলা অর্থ কোনটি?",
-      "questionKo": "'점검하다'의 의미는 무엇인가요?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 작업장을 청소하고 도구를 정리했어요. 그래서 지금은 아주 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "পরিষ্কার করা",
-        "রিপোর্ট করা",
-        "পরীক্ষা করা/নিরীক্ষণ করা",
-        "বর্জ্য ফেলা"
+        "깨끗해요",
+        "더러워요",
+        "시끄러워요",
+        "복잡해요"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "점검하다는 'পরীক্ষা করা/নিরীক্ষণ করা' মানে, যন্ত্র বা সিস্টেম পরীক্ষা করা।"
+      "answer": 0,
+      "explanationBn": "পরিষ্কার করে যন্ত্রপাতি গুছিয়ে রাখার ফলাফল হলো '깨끗하다' (পরিষ্কার হওয়া), তাই '깨끗해요' সঠিক। '더러워요' মানে নোংরা — এটি ঠিক উল্টো অর্থ। '시끄러워요' মানে শব্দে ভরা, যা পরিষ্কার করার সঙ্গে সম্পর্কহীন। '복잡해요' মানে জটিল বা ভিড়ে ঠাসা, এখানে প্রযোজ্য নয়।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "문장이 옳으면 알맞은 것을 고르세요: '소화기는 출입구 옆에 있습니다.'",
-      "questionKo": "Choose the correct meaning of the sentence.",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 환풍기가 고장 나서 환기가 안 돼요. 그래서 작업장에 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "The machine is next to the entrance.",
-        "The meeting is next to the entrance.",
-        "The office is next to the entrance.",
-        "The fire extinguisher is next to the entrance."
+        "사람이 많아요",
+        "물건이 없어요",
+        "불이 켜졌어요",
+        "냄새가 심해요"
       ],
-      "pairs": [],
       "answer": 3,
-      "explanationBn": "소화기는 'fire extinguisher'। 문장은 '소화기는 출입구 옆에 있습니다' = 'The fire extinguisher is next to the entrance.'"
+      "explanationBn": "এগজস্ট ফ্যান নষ্ট হলে বাতাস বেরোতে পারে না, ফলে দুর্গন্ধ জমে — তাই '냄새가 심해요' সঠিক। '사람이 많아요' (লোক বেশি) ফ্যানের সঙ্গে সম্পর্কহীন। '물건이 없어요' মানে জিনিস নেই। '불이 켜졌어요' মানে বাতি জ্বলেছে — কোনোটিই বাতাস চলাচলের ফল নয়।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "어떤 문장은 금지 표현인가요?",
-      "questionKo": "Which sentence expresses prohibition?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 작업장에 기계가 많아요. 그래서 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "기계를 만지면 안 됩니다.",
-        "기계를 점검하세요.",
-        "기계를 고치겠습니다.",
-        "기계를 청소해 주세요."
+        "냄새가 심해요",
+        "소음이 심해요",
+        "바닥이 더러워요",
+        "창문이 작아요"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "'기계를 만지면 안 됩니다' 는 '-면 안 되다' 구조로 금지(ना করা) বোঝায়।"
+      "answer": 1,
+      "explanationBn": "মেশিন বেশি থাকলে আওয়াজ বাড়ে, তাই '소음이 심해요' (শব্দদূষণ বেশি) সঠিক। '냄새가 심해요' দুর্গন্ধ বোঝায়, যা মেশিনের সংখ্যার সরাসরি ফল নয়। '바닥이 더러워요' মেঝে নোংরা বোঝায়। '창문이 작아요' মানে জানালা ছোট — মেশিনের সঙ্গে সম্পর্ক নেই।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "보고서를 작성하세요. 이 문장에 맞는 요청 표현은?",
-      "questionKo": "Which is the polite request form?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㅂ시다' বসান: 일하기 전에 먼저 청소부터 하___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "보고서를 작성해야 한다.",
-        "보고서를 작성해 주세요.",
-        "보고서를 작성한다.",
-        "보고서를 작성하면 안 된다."
+        "읍시다",
+        "ㅂ시다",
+        "습시다",
+        "십시다"
       ],
-      "pairs": [],
       "answer": 1,
-      "explanationBn": "'작성해 주세요' 는 ভদ্র অনুরোধ, তাই সঠিক।"
+      "explanationBn": "'하다'-এর মূলে বাতচিম নেই, তাই সরাসরি '-ㅂ시다' বসে: 합시다। '읍시다' কেবল বাতচিমযুক্ত মূলে বসে (먹다 → 먹읍시다)। '습시다' ও '십시다' কোরিয়ান ব্যাকরণে এই অর্থে বৈধ রূপ নয়।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 '유지보수'와 가장 가까운 의미의 단어는?",
-      "questionKo": "Choose the closest meaning to '유지보수'.",
-      "options": [
-        "회의",
-        "청소",
-        "관리",
-        "점검"
+      "type": "matching",
+      "questionBn": "কর্মস্থল পরিচ্ছন্নতার কোরিয়ান শব্দের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "작업장 관리 관련 어휘와 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "청소하다",
+          "right": "পরিষ্কার করা"
+        },
+        {
+          "left": "정리하다",
+          "right": "গুছিয়ে রাখা"
+        },
+        {
+          "left": "쓸다",
+          "right": "ঝাড়ু দেওয়া"
+        },
+        {
+          "left": "닦다",
+          "right": "মুছে পরিষ্কার করা"
+        },
+        {
+          "left": "환기하다",
+          "right": "বাতাস চলাচল করানো"
+        }
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "유지보수는 'রক্ষণাবেক্ষণ' যা '관리' (management/maintenance) সঙ্গে সম্পর্কিত।"
+      "explanationBn": "পাঁচটিই ইউনিট ৩৫-এর মূল শব্দ, কিন্তু কাজগুলো আলাদা। '청소하다' হলো সামগ্রিকভাবে পরিষ্কার করা, আর '정리하다' মানে জিনিস জায়গামতো সাজানো — নোংরা না হলেও গোছানোর দরকার হতে পারে। '쓸다' হয় ঝাড়ু দিয়ে (শুকনো), '닦다' হয় ন্যাকড়া দিয়ে (ভেজা)। '환기하다' পরিষ্কার নয়, বরং জানালা খুলে বাতাস বদলানো।"
     },
     {
       "id": "p6",
       "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '문제가 있으면 _________에게 보고하세요.' 맞는 말은?",
-      "questionKo": "Fill in the blank: '문제가 있으면 _________에게 보고하세요.'",
+      "questionBn": "'-(으)ㅂ시다' বসান: 물건이 너무 많아요. 작업장을 치___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "회의",
-        "청소",
-        "파손",
-        "감독자"
+        "우읍시다",
+        "웁니다",
+        "울시다",
+        "웁시다"
       ],
-      "pairs": [],
       "answer": 3,
-      "explanationBn": "문맥상 '감독자에게 보고하세요'가 자연스럽다 (보고할 대상)."
+      "explanationBn": "'치우다'-এর মূল '치우-' স্বরে শেষ, বাতচিম নেই, তাই '-ㅂ시다' যোগ হয়ে '치웁시다' হয়। '우읍시다'-তে অপ্রয়োজনীয় '으' বসানো হয়েছে। '치웁니다' প্রস্তাব নয়, সাধারণ বিবৃতি ('পরিষ্কার করছি')। '울시다' বৈধ রূপ নয়।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '퇴근 전 장비를 _________세요.' 어떤 동사가 맞나요?",
-      "questionKo": "Fill in the blank: '퇴근 전 장비를 _________세요.'",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোন বাক্যটি ব্যাকরণগতভাবে অভদ্র বা ভুল?",
+      "questionKo": "알맞지 않은 문장을 고르세요.",
       "options": [
-        "끄",
-        "파손",
-        "청소하",
-        "보고"
+        "동료들과 같이 작업장을 청소합시다.",
+        "우리 먼저 창문을 열고 환기합시다.",
+        "반장님, 일하러 갑시다.",
+        "작업이 끝나면 도구를 정리합시다."
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "'장비를 끄세요.' = 'turn off the equipment'가 자연스럽다."
+      "answer": 2,
+      "explanationBn": "'-(으)ㅂ시다' নিজের চেয়ে উঁচু পদের বা বয়সে বড় কারও প্রতি ব্যবহার করা যায় না, তাই '반장님' (ফোরম্যান)-কে '갑시다' বলা অভদ্র — সেখানে '가시겠어요?' বা '가실까요?' বলা উচিত। বাকি তিনটিতে সহকর্মী বা 'আমরা' বোঝানো হয়েছে, যেখানে এই রূপ পুরোপুরি ঠিক আছে।"
     },
     {
       "id": "p8",
       "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '소화기는 출입구 ___에 있습니다.' 옳은 조사는?",
-      "questionKo": "Fill in the blank: '소화기는 출입구 ___에 있습니다.'",
+      "questionBn": "'-(으)ㄹ' বসান: 제품을 담___ 상자가 필요해요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
+        "는",
+        "은",
         "을",
-        "옆에",
-        "에서",
-        "옆"
+        "던"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "정확한 표현은 '출입구 옆에' 이다 (위치)."
+      "answer": 2,
+      "explanationBn": "বাক্সটি এখনও ব্যবহার করা হয়নি — ভবিষ্যতে পণ্য রাখা হবে, তাই ভবিষ্যতের বিশেষায়ক দরকার। '담다'-এর মূলে 'ㅁ' বাতচিম আছে, তাই '-을' বসে: 담을 상자। '담는' মানে 'এখন যে রাখা হচ্ছে', '담은' মানে 'যা রাখা হয়েছে' (অতীত), '담던' মানে 'আগে যা রাখা হতো'।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "다음 단어와 বাংলা 뜻을 연결하세요.",
-      "questionKo": "Match the Korean words with Bengali meanings.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "청소",
-          "right": "পরিষ্কার করা"
-        },
-        {
-          "left": "점검하다",
-          "right": "পরীক্ষা করা/নিরীক্ষণ করা"
-        },
-        {
-          "left": "소화기",
-          "right": "অগ্নিনির্বাপক"
-        },
-        {
-          "left": "보고서",
-          "right": "রিপোর্ট/প্রতিবেদন"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'작업에 사용할 공구를 가져오세요.' — এই বাক্যে '사용할' কী বোঝাচ্ছে?",
+      "questionKo": "밑줄 친 부분의 의미로 알맞은 것을 고르세요.",
+      "options": [
+        "কাজে যে যন্ত্রপাতি ব্যবহার করা হবে",
+        "এখন যে যন্ত্রপাতি ব্যবহার হচ্ছে",
+        "আগে যে যন্ত্রপাতি ব্যবহার করা হয়েছিল",
+        "যে যন্ত্রপাতি নষ্ট হয়ে গেছে"
       ],
       "answer": 0,
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দের বাংলা অর্থ মিলানো হয়েছে।"
+      "explanationBn": "'-(으)ㄹ' ভবিষ্যতের কাজ বোঝায়, তাই '사용할 공구' মানে 'যে যন্ত্রপাতি কাজে ব্যবহার করা হবে'। এখন চলমান হলে '사용하는 공구', অতীতে সম্পন্ন হলে '사용한 공구' হতো। নষ্ট হওয়া বোঝাতে '고장 난' ব্যবহার করা হয়।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "다음 작업장 관련 단어와 বাংলা 뜻을 연결하세요.",
-      "questionKo": "Match the workplace-related words with Bengali meanings.",
-      "options": [],
+      "questionBn": "গুদাম ব্যবস্থাপনার কোরিয়ান শব্দের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "창고 관리 관련 어휘와 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "유지보수",
-          "right": "রক্ষণাবেক্ষণ"
+          "left": "자재",
+          "right": "কাঁচামাল"
         },
         {
-          "left": "안전",
-          "right": "নিরাপত্তা"
+          "left": "재고를 파악하다",
+          "right": "মজুদ যাচাই করা"
         },
         {
-          "left": "교대근무",
-          "right": "পালতি কাজ"
+          "left": "온도를 유지하다",
+          "right": "তাপমাত্রা ধরে রাখা"
         },
         {
-          "left": "파손",
-          "right": "ক্ষতি"
+          "left": "덮개를 덮다",
+          "right": "ঢাকনা দিয়ে ঢেকে দেওয়া"
         },
         {
-          "left": "품질관리",
-          "right": "গুণগত মান নিয়ন্ত্রণ"
+          "left": "담당자",
+          "right": "দায়িত্বপ্রাপ্ত ব্যক্তি"
         }
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি শব্দের সাথে সঠিক বাংলা অনুবাদ দেওয়া আছে।"
+      "explanationBn": "এগুলো গুদাম ব্যবস্থাপনার মূল শব্দভান্ডার। '자재' হলো যে জিনিস সংরক্ষণ করা হয়, আর '재고' হলো তার মজুদ পরিমাণ — দুটি এক নয়। '온도를 유지하다' বিশেষভাবে হিমায়িত গুদামের জন্য জরুরি, আর '덮개를 덮다' বাইরে রাখা মালামালকে বৃষ্টি থেকে বাঁচাতে ব্যবহৃত হয়।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 '안전모'의 올바른 뜻은 무엇입니까?",
-      "questionKo": "'안전모'의 올바른 뜻은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄹ' বসান: 내일부터 창고를 관리___ 담당자는 마두 씨예요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "নিরাপত্তা জুতো",
-        "নিরাপত্তা হেলমেট",
-        "নিরাপত্তা চশমা",
-        "মাস্ক"
+        "하는",
+        "한",
+        "할",
+        "하던"
       ],
-      "answer": 1,
-      "explanationBn": "'안전모' অর্থ নিরাপত্তা হেলমেট।"
+      "answer": 2,
+      "explanationBn": "কাজটি শুরু হবে আগামীকাল থেকে — এখনও হয়নি, তাই ভবিষ্যতের '-ㄹ' বসে: 관리할 담당자। '관리하는' মানে 'যিনি এখন দেখাশোনা করছেন', '관리한' মানে 'যিনি দেখাশোনা করেছেন', '관리하던' মানে 'যিনি আগে করতেন' — তিনটিই সময়ের দিক থেকে বেমানান।"
     },
     {
       "id": "p12",
       "type": "multiple-choice",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오. '공사장에서는 반드시 _________을/를 써야 합니다.'",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 작업장이 엉망입니다. ___로 바닥을 쓸어야겠습니다.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "안전화",
-        "귀마개",
-        "안전모",
-        "작업복"
+        "빗자루",
+        "걸레",
+        "쓰레기",
+        "덮개"
       ],
-      "answer": 2,
-      "explanationBn": "머리에 쓰는 것은 '안전모' (নিরাপত্তা হেলমেট) 입니다."
+      "answer": 0,
+      "explanationBn": "'쓸다' (ঝাড়ু দেওয়া) কাজটি করা হয় '빗자루' (ঝাড়ু) দিয়ে, তাই সেটিই সঠিক। '걸레' হলো ন্যাকড়া, যা দিয়ে '닦다' (মোছা) হয়। '쓰레기' মানে আবর্জনা — এটি হাতিয়ার নয়, বরং যা ফেলা হয়। '덮개' হলো ঢাকনা, মালামাল ঢাকার জন্য।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "다음 문장의 뜻으로 알맞은 것을 고르십시오. '기계를 만지지 마세요.'",
-      "questionKo": "다음 문장의 뜻으로 알맞은 것을 고르십시오.",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 작업장에 냄새가 심합니다. 창문을 ___ 환기를 합시다.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "যন্ত্রটি পরিষ্কার করুন।",
-        "যন্ত্রটি স্পর্শ করবেন না।",
-        "যন্ত্রটি চালু করুন।",
-        "যন্ত্রটি মেরামত করুন।"
+        "닫고",
+        "열고",
+        "닦고",
+        "버리고"
       ],
       "answer": 1,
-      "explanationBn": "'-지 마세요'는 금지를 나타내며, '만지지 마세요'는 'স্পর্শ করবেন না' 뜻입니다."
+      "explanationBn": "বাতাস চলাচল করাতে হলে জানালা খুলতে হয়, তাই '열고' (খুলে) সঠিক। '닫고' মানে বন্ধ করে — তাতে দুর্গন্ধ আরও জমবে। '닦고' মানে মুছে, আর '버리고' মানে ফেলে দিয়ে — জানালার সঙ্গে এই দুটি ক্রিয়া এখানে অর্থ তৈরি করে না।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 '위험하다'의 반대말은 무엇입니까?",
-      "questionKo": "'위험하다'의 반대말은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-는 게 중요하다' বসান: 냉동 창고는 적정 온도를 유지___ 중요해요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "안전하다",
-        "주의하다",
-        "보고하다",
-        "점검하다"
+        "하는 게",
+        "한 게",
+        "할 게",
+        "하고가"
       ],
       "answer": 0,
-      "explanationBn": "'위험하다' (비পজ्জনক) 의 반대말은 '안전하다' (নিরাপদ) 입니다."
+      "explanationBn": "'-는 게 중요하다' গঠনে ক্রিয়ায় সবসময় '-는 게' বসে, তাই '유지하는 게 중요해요' সঠিক। '한 게' অতীতের কাজ বোঝায়, '할 게' ভবিষ্যতের নির্দিষ্ট কাজ, আর '하고가' ব্যাকরণসিদ্ধ রূপই নয়।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오. '소음이 심할 때는 _________을/를 하세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'가: 이제 퇴근해도 될까요?' — এই প্রশ্নের সবচেয়ে স্বাভাবিক উত্তর কোনটি?",
+      "questionKo": "대화를 완성하세요.",
       "options": [
-        "보안경",
-        "안전대",
-        "귀마개",
-        "마스크"
+        "네, 퇴근할 거예요?",
+        "아니요, 퇴근했습니다.",
+        "네, 퇴근하지 마세요.",
+        "네, 이제 그만 퇴근합시다."
       ],
-      "answer": 2,
-      "explanationBn": "소음(শব্দ) 막기 위해 '귀마개' (কানের প্লাগ) 사용합니다."
+      "answer": 3,
+      "explanationBn": "'-(으)ㄹ까요?' দিয়ে করা প্রশ্নের উত্তরে '-(으)ㅂ시다' ব্যবহার করা যায়, তাই '퇴근합시다' (চলুন কাজ শেষ করে যাই) স্বাভাবিক। '퇴근할 거예요?' উত্তর না দিয়ে পাল্টা প্রশ্ন করছে। '퇴근했습니다' অতীত কাল, প্রশ্নের সঙ্গে মেলে না। '네, 퇴근하지 마세요'-তে '네' বলে আবার নিষেধ করা হচ্ছে — অর্থে স্ববিরোধী।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오. '먼지가 많으니까 _________을/를 쓰세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'-(으)ㄹ' বসান: 곧 비가 올 것 같아요. 빨리 자재를 덮___ 덮개를 가져옵시다.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "마스크",
-        "안전화",
-        "작업복",
-        "소화기"
+        "는",
+        "은",
+        "을",
+        "었던"
       ],
-      "answer": 0,
-      "explanationBn": "먼지(ধুলো) 막기 위해 '마스크' (মাস্ক) 사용합니다."
+      "answer": 2,
+      "explanationBn": "ঢাকনাটি এখনও ব্যবহার করা হয়নি — মালামাল ঢাকা হবে, তাই ভবিষ্যতের রূপ দরকার। '덮다'-এর মূলে 'ㅍ' বাতচিম আছে, তাই '-을' বসে: 덮을 덮개। '덮는' মানে 'যা এখন ঢাকছে', '덮은' মানে 'যা ঢেকেছে', '덮었던' অতীতের অভ্যাস বোঝায়।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오. '높은 곳에서 일할 때는 _________을/를 매야 합니다.'",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "type": "multiple-choice",
+      "questionBn": "'창고 관리에서 가장 중요한 일은 무엇입니까?' — সংলাপ অনুযায়ী সঠিক উত্তর কোনটি?",
+      "questionKo": "대화의 내용과 같은 것을 고르세요.",
       "options": [
-        "안전모",
-        "안전대",
-        "보안경",
-        "귀마개"
+        "작업복을 입는 것",
+        "회식에 가는 것",
+        "기계를 고치는 것",
+        "재고를 파악하는 것"
       ],
-      "answer": 1,
-      "explanationBn": "높은 곳에서 떨어지는 것을 막기 위해 '안전대' (নিরাপত্তা বেল্ট) 사용합니다."
+      "answer": 3,
+      "explanationBn": "부장님 স্পষ্টভাবে বলেছেন '창고 관리에서는 재고를 파악하는 게 중요해요', তাই মজুদ যাচাই করাই সঠিক উত্তর। '작업복을 입다' (কাজের পোশাক পরা) নিরাপত্তাবিষয়ক, গুদামের মূল কাজ নয়। '회식' মানে অফিসের ভোজসভা, আর '기계를 고치다' মানে মেশিন মেরামত — কোনোটিই গুদাম ব্যবস্থাপনার প্রসঙ্গে বলা হয়নি।"
     },
     {
       "id": "p18",
       "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 말을 고르십시오. '문제가 _________ 반장님께 보고하세요.'",
-      "questionKo": "빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "'-아/어야겠다' বসান: 작업대가 너무 지저분해서 걸레로 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "있으면",
-        "없으면",
-        "있지 마세요",
-        "없지 마세요"
+        "닦어야겠어요",
+        "닦아겠어요",
+        "닦으야겠어요",
+        "닦아야겠어요"
       ],
-      "answer": 0,
-      "explanationBn": "조건을 나타내는 '-(으)면'을 사용하여 '있으면' (থাকলে) 이 맞습니다."
+      "answer": 3,
+      "explanationBn": "'닦다'-এর মূল স্বর 'ㅏ', তাই '-아야겠다' বসে: 닦아야겠어요। '닦어야겠어요'-তে ভুল স্বর ('ㅓ') ব্যবহার হয়েছে। '닦아겠어요'-তে অপরিহার্য '야' বাদ পড়েছে, আর '닦으야겠어요' রূপটি ব্যাকরণসিদ্ধ নয়।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "다음 단어와 알맞은 뜻을 연결하십시오.",
-      "questionKo": "다음 단어와 알맞은 뜻을 연결하십시오.",
+      "questionBn": "গুদামের ধরনের সঙ্গে তার বৈশিষ্ট্য মেলান।",
+      "questionKo": "창고의 종류와 특징을 연결하세요.",
       "pairs": [
         {
-          "left": "보호구",
-          "right": "নিরাপত্তা সরঞ্জাম"
+          "left": "냉동 창고",
+          "right": "হিমায়িত, তাপমাত্রা ধরে রাখা জরুরি"
         },
         {
-          "left": "안전화",
-          "right": "নিরাপত্তা জুতো"
+          "left": "물류 창고",
+          "right": "পণ্য পরিবহন ও বিতরণের জন্য"
         },
         {
-          "left": "보안경",
-          "right": "নিরাপত্তা চশমা"
+          "left": "컨테이너",
+          "right": "মালামাল বহনের বড় ধাতব বাক্স"
         },
         {
-          "left": "작업복",
-          "right": "কাজের পোশাক"
+          "left": "작업대",
+          "right": "যে টেবিলে হাতের কাজ করা হয়"
         }
       ],
-      "explanationBn": "সঠিক উত্তরটি শব্দের অর্থের সাথে মিলিয়ে দেওয়া হয়েছে।"
+      "explanationBn": "'냉동 창고' ও '물류 창고' দুটোই গুদাম, কিন্তু কাজ আলাদা — প্রথমটিতে ঠান্ডা রাখা মুখ্য, দ্বিতীয়টিতে পণ্য আসা-যাওয়া। '컨테이너' গুদাম নয়, বরং পরিবহনের পাত্র। '작업대' গুদামের অংশ নয়, এটি কর্মস্থলের কাজের টেবিল — তাই এটিকে আলাদা করে চেনা জরুরি।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "다음 단어와 알맞은 뜻을 연결하십시오.",
-      "questionKo": "다음 단어와 알맞은 뜻을 연결하십시오.",
-      "pairs": [
-        {
-          "left": "위험하다",
-          "right": "বিপজ্জনক"
-        },
-        {
-          "left": "주의하다",
-          "right": "সতর্ক হওয়া"
-        },
-        {
-          "left": "금지",
-          "right": "নিষেধ"
-        },
-        {
-          "left": "경고",
-          "right": "সতর্কবার্তা"
-        }
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 이 자재들을 창고에 보관해야 돼요. 그럼 자재를 창고로 ___ 사람들을 데려올게요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "옮기는",
+        "옮긴",
+        "옮길",
+        "옮겼던"
       ],
-      "explanationBn": "সঠিক উত্তরটি শব্দের অর্থের সাথে মিলিয়ে দেওয়া হয়েছে।"
+      "answer": 2,
+      "explanationBn": "যাদের আনা হবে, তারা এখনও কাজটি করেনি — ভবিষ্যতে সরাবে, তাই '-ㄹ' বসে: 옮길 사람들। '옮기다'-এর মূল স্বরে শেষ হওয়ায় '으' লাগে না। '옮기는' বর্তমান, '옮긴' অতীত, '옮겼던' অতীতের স্মৃতি বোঝায় — কোনোটিই এখানে খাটে না।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তর চয়ন করুন: '작업장은 항상 안전 규칙을 지켜야 합니다.' 이것의 의미 কী?",
-      "questionKo": "본문을 읽고 질문에 답하세요: '작업장은 항상 안전 규칙을 지켜야 합니다.' 의미는?",
-      "passage": "작업장은 항상 안전 규칙을 지켜야 합니다. 보호구를 착용하고 지정된 출입구를 사용하세요.",
+      "questionBn": "নিচের শব্দটির সঙ্গে সম্পর্কিত শব্দ কোনটি?",
+      "questionKo": "다음 단어와 관계있는 것을 고르십시오.",
+      "passage": "빗자루",
       "options": [
-        "출근 시간이 없다.",
-        "작업장은 집이다.",
-        "작업장에서 규칙을 지키지 않아도 된다.",
-        "보호구를 착용해야 한다."
+        "쓸다",
+        "먹다",
+        "입다",
+        "자다"
       ],
-      "answer": 3,
-      "explanationBn": "문장에 '보호구를 착용' 관련 추천이 있어 '보호구를 착용해야 한다'가 맞습니다।"
+      "answer": 0,
+      "explanationBn": "'빗자루' (ঝাড়ু) দিয়ে করা কাজ হলো '쓸다' (ঝাড়ু দেওয়া), তাই এটিই সম্পর্কিত। '먹다' মানে খাওয়া, '입다' মানে পরা, '자다' মানে ঘুমানো — কোনোটিরই ঝাড়ুর সঙ্গে সম্পর্ক নেই।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "প্যাসেজ থেকে: '소화기는 출입구 옆에 있습니다.' 출입구 옆에는 무엇 আছে?",
-      "questionKo": "본문에서: '소화기는 출입구 옆에 있습니다.' 무엇이 있나요?",
-      "passage": "작업장 안내: 소화기는 출입구 옆에 있습니다. 응급처치 키트는 사무실에 보관합니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "작업장이 엉망입니다. (        )로 바닥을 쓸어야겠습니다.",
       "options": [
-        "화장실",
-        "회의실",
-        "소화기",
-        "응급처치 키트"
+        "걸레",
+        "쓰레기",
+        "빗자루",
+        "쓰레받기"
       ],
       "answer": 2,
-      "explanationBn": "문장에 직접 '소화기는 출입구 옆에 있습니다'라고 되어 있어 정답은 소화기।"
+      "explanationBn": "মেঝে ঝাঁট দেওয়ার হাতিয়ার হলো '빗자루' (ঝাড়ু)। '걸레' দিয়ে মোছা হয়, ঝাঁট দেওয়া হয় না। '쓰레기' মানে আবর্জনা নিজেই। '쓰레받기' (ডাস্টপ্যান) দিয়ে ঝাঁট দেওয়া ময়লা তোলা হয়, কিন্তু '쓸다' কাজটি করা যায় না।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "পাঠ থেকে সিদ্ধান্ত নিন: '유지보수가 필요합니다.' এর অর্থ কী?",
-      "questionKo": "본문을 보고 고르세요: '유지보수가 필요합니다.' 뜻은?",
-      "passage": "기계에 문제가 발견되었습니다. 정기 유지보수가 필요합니다. 작업을 중단하고 보고서를 작성하세요.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "작업장에 냄새가 심합니다. 창문을 (        ) 환기를 합시다.",
       "options": [
-        "청소를 하지 마세요.",
-        "장비 수리나 관리를 해야 한다.",
-        "회의를 시작하세요.",
-        "장비를 즉시 버리세요."
+        "닫고",
+        "닦고",
+        "덮고",
+        "열고"
       ],
-      "answer": 1,
-      "explanationBn": "유지보수는 'রক্ষণাবেক্ষণ' মানে, এটি মেরামত বা পরিচালনা করার প্রয়োজন।"
+      "answer": 3,
+      "explanationBn": "বাতাস বদলাতে হলে জানালা খুলতে হয়, তাই '열고' সঠিক। '닫고' (বন্ধ করে) করলে দুর্গন্ধ আরও জমবে। '닦고' মানে মুছে, '덮고' মানে ঢেকে — দুটোই জানালা খোলার বিকল্প নয়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "প্যাসেজের ভিত্তিতে: 교대근무 관련 문장 चुनুন।",
-      "questionKo": "본문을 보고 올바른 문장을 고르세요 (about shifts).",
-      "passage": "내일은 교대근무입니다. 새 직원은 오전 교대를 맡습니다. 교대 시 장비를 점검하세요.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "냉동 창고에서는 적정 온도를 유지하는 것이 가장 중요합니다. 온도가 올라가면 물건이 상할 수 있습니다.",
       "options": [
-        "내일은 교대근무이다.",
-        "교대 시 장비 점검이 필요 없다.",
-        "내일은 쉬는 날이다.",
-        "교대근무는 밤에만 있다."
+        "냉동 창고는 온도가 중요하지 않습니다.",
+        "냉동 창고에는 물건이 없습니다.",
+        "온도를 매일 올려야 합니다.",
+        "온도가 올라가면 물건이 상할 수 있습니다."
       ],
-      "answer": 0,
-      "explanationBn": "본문에 '내일은 교대근무입니다'라고 명시되어 있어 3번이 맞습니다।"
+      "answer": 3,
+      "explanationBn": "লেখাটিতে স্পষ্ট বলা আছে '온도가 올라가면 물건이 상할 수 있습니다', তাই শেষ বিকল্পটি সঠিক। '냉동 창고는 온도가 중요하지 않습니다' লেখার একেবারে বিপরীত। '물건이 없습니다' ভুল, কারণ গুদামে জিনিস আছে বলেই তাপমাত্রা জরুরি। '온도를 매일 올려야 합니다' ভুল — তাপমাত্রা বাড়ানো নয়, ধরে রাখা দরকার।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পাঠ থেকে: '기계를 만지면 안 됩니다.' এই বাক্যটি কী বোঝায়?",
-      "questionKo": "본문을 읽고 의미를 고르세요: '기계를 만지면 안 됩니다.'",
-      "passage": "안전 규칙: 기계를 만지면 안 됩니다. 문제가 있으면 감독자에게 보고하세요.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "제품을 (        ) 상자가 필요합니다. 큰 것으로 가져오세요.",
       "options": [
-        "기계를 만져도 된다.",
-        "기계를 수리해야 한다.",
-        "기계를 옮기세요.",
-        "기계를 만지면 안 된다."
+        "담는",
+        "담은",
+        "담을",
+        "담던"
       ],
-      "answer": 3,
-      "explanationBn": "'만지면 안 됩니다' মানে স্পষ্টভাবে 'ছোঁয়া যাবে না/না করা উচিত'।"
+      "answer": 2,
+      "explanationBn": "বাক্সটি এখনও আনা হয়নি, ভবিষ্যতে পণ্য রাখা হবে — তাই ভবিষ্যতের বিশেষায়ক '-을' বসে: 담을 상자। '담는' মানে এখন যা রাখা হচ্ছে, '담은' মানে যা রাখা হয়ে গেছে, '담던' মানে আগে যা রাখা হতো।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শোনা স্ক্রিপ্ট অনুযায়ী: 누가 보고서를 쓰라고 말했나요?",
-      "questionKo": "다음 대화를 듣고 질문에 답하세요: '누가 보고서를 쓰라고 했나요?'",
-      "passage": "남자: 즉시 보고서를 작성하고 유지보수에 연락하세요.\n여자: 알겠습니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "[작업장 청소 안내]\n· 날짜: 금요일 오후 4시\n· 작업 도구 정리: 닛차난\n· 유리창 닦기: 아궁\n· 바닥 쓸기: 마두",
       "options": [
-        "유지보수팀",
-        "직원",
-        "감독자",
-        "회의참석자"
+        "청소는 금요일 오전에 합니다.",
+        "마두 씨는 바닥을 씁니다.",
+        "아궁 씨는 도구를 정리합니다.",
+        "닛차난 씨는 유리창을 닦습니다."
       ],
-      "answer": 2,
-      "explanationBn": "스크립트에서 감독자가 '보고서를 작성하라'고 명령했습니다।"
+      "answer": 1,
+      "explanationBn": "নোটিশ অনুযায়ী '바닥 쓸기: 마두', তাই মাদু মেঝে ঝাঁট দেবেন — বিকল্প ২ সঠিক। বিকল্প ১ ভুল, কারণ সময় লেখা আছে '오후 4시' (বিকেল ৪টা)। বিকল্প ৩ ও ৪-এ নাম ও কাজ উল্টে গেছে: যন্ত্রপাতি গোছাবেন নিচ্ছানান, আর কাচ মুছবেন আগুং।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শোনা স্ক্রিপ্ট অনুযায়ী: 장비가 고장난 이유는 무엇인가요?",
-      "questionKo": "대화를 듣고 고장을 일으킨 원인을 고르세요.",
-      "passage": "남자: 벨트가 끊어졌습니다. 작동이 안 됩니다.\n여자: 유지보수에 연락하세요.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "비가 옵니다. 밖에 있는 자재에 (        )를 덮읍시다.",
       "options": [
-        "전원이 꺼져서",
-        "벨트가 끊어져서",
-        "청소를 안 해서",
-        "소화기를 사용해서"
+        "덮개",
+        "걸레",
+        "빗자루",
+        "컨테이너"
       ],
-      "answer": 1,
-      "explanationBn": "직원이 '벨트가 끊어졌습니다'라고 말했으므로 이유는 벨트 파손।"
+      "answer": 0,
+      "explanationBn": "বৃষ্টি থেকে মালামাল বাঁচাতে '덮개' (ঢাকনা) দিয়ে ঢাকা হয়, আর '덮다' ক্রিয়ার সঙ্গে এটিই যায়। '걸레' মোছার ন্যাকড়া, '빗자루' ঝাড়ু। '컨테이너' মালামাল রাখার বড় বাক্স — সেটি ঢাকনার মতো উপরে চাপানো যায় না।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "শোনা স্ক্রিপ্ট অনুযায়ী: 누구에게 연락하라고 했나요?",
-      "questionKo": "다음 음성을 듣고 누구에게 연락하라는지 고르세요.",
-      "passage": "남자: 즉시 유지보수 팀에 연락하세요.\n여자: 네, 지금 연락하겠습니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "어제는 늦게까지 작업을 했습니다. 너무 피곤해서 정리를 하나도 못 하고 퇴근했습니다. 그래서 오늘 아침에는 청소부터 했습니다.",
       "options": [
-        "유지보수 팀",
-        "사무실",
-        "회의실",
-        "보안"
+        "어제 정리를 다 하고 퇴근했습니다.",
+        "오늘 아침에 청소를 먼저 했습니다.",
+        "어제는 일찍 퇴근했습니다.",
+        "오늘은 청소를 하지 않았습니다."
       ],
-      "answer": 0,
-      "explanationBn": "스크립트에서 감독자가 '유지보수 팀에 연락하세요'라고 분명히 말했습니다।"
+      "answer": 1,
+      "explanationBn": "শেষ বাক্যে বলা আছে '오늘 아침에는 청소부터 했습니다', তাই বিকল্প ২ সঠিক। বিকল্প ১ ভুল — '정리를 하나도 못 하고' মানে কিছুই গোছানো হয়নি। বিকল্প ৩ ভুল, কারণ '늦게까지 작업을 했습니다'। বিকল্প ৪ সরাসরি লেখার বিপরীত।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "다음 표지를 보고 알맞은 것을 고르십시오.",
-      "questionKo": "다음 표지를 보고 알맞은 것을 고르십시오.",
-      "passage": "[안전모 착용 표지판 그림]",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 창고가 너무 지저분합니다.\n나: 그럼 같이 (        ).",
       "options": [
-        "안전화를 신으십시오.",
-        "안전모를 쓰십시오.",
-        "보안경을 쓰십시오.",
-        "마스크를 쓰십시오."
+        "치웁니까",
+        "치웠습니다",
+        "치우지 마세요",
+        "치웁시다"
       ],
-      "answer": 1,
-      "explanationBn": "안전모 착용을 지시하는 표지판입니다."
+      "answer": 3,
+      "explanationBn": "'같이' (একসঙ্গে) থাকায় প্রস্তাবের রূপ দরকার, তাই '-(으)ㅂ시다' বসে: 치웁시다। '치웁니까' প্রশ্ন, '치웠습니다' অতীতের বিবৃতি, আর '치우지 마세요' মানে পরিষ্কার করবেন না — যা প্রসঙ্গের উল্টো।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "작업장에는 먼지가 많습니다. 그래서 일할 때는 항상 (    )을/를 써야 합니다.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "[창고 관리 규칙]\n· 매일 아침 재고를 파악한다.\n· 냉동 창고 온도는 하루에 두 번 확인한다.\n· 자재를 밖에 둘 때는 덮개를 덮는다.",
       "options": [
-        "마스크",
-        "귀마개",
-        "안전대",
-        "안전화"
+        "재고는 일주일에 한 번 파악합니다.",
+        "자재는 항상 밖에 둡니다.",
+        "덮개는 사용하지 않습니다.",
+        "냉동 창고 온도는 하루에 두 번 확인합니다."
       ],
-      "answer": 0,
-      "explanationBn": "먼지가 많을 때는 마스크를 써야 합니다."
+      "answer": 3,
+      "explanationBn": "নিয়মে স্পষ্ট লেখা আছে '냉동 창고 온도는 하루에 두 번 확인한다', তাই শেষ বিকল্পটি সঠিক। '일주일에 한 번' ভুল — মজুদ যাচাই হয় প্রতিদিন সকালে ('매일 아침')। বাকি দুটি নিয়মের বিপরীত: বাইরে রাখলে ঢাকনা দিতে বলা হয়েছে, অর্থাৎ ঢাকনা ব্যবহার করা হয়।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
-      "questionKo": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
-      "passage": "기계를 사용할 때는 조심해야 합니다. 기계가 작동 중일 때는 손을 넣으면 안 됩니다. 그리고 작업이 끝나면 반드시 전원을 꺼야 합니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: দুজন এখন প্রথমে কী করবেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 작업장이 너무 엉망이네요. 냄새도 심하고요.\n남자: 그럼 일하기 전에 먼저 청소부터 합시다.",
       "options": [
-        "기계 청소 방법",
-        "기계 수리 방법",
-        "기계 사용 시 주의사항",
-        "기계 구입 방법"
+        "퇴근합니다",
+        "청소를 합니다",
+        "밥을 먹습니다",
+        "기계를 고칩니다"
       ],
-      "answer": 2,
-      "explanationBn": "기계를 사용할 때 지켜야 할 안전 수칙(주의사항)에 대한 글입니다."
+      "answer": 1,
+      "explanationBn": "পুরুষটি বলছেন '일하기 전에 먼저 청소부터 합시다' — কাজ শুরুর আগে পরিষ্কার করার প্রস্তাব দিচ্ছেন, তাই বিকল্প ২ সঠিক। '퇴근하다' মানে কাজ শেষে বাড়ি যাওয়া, যা এখানে বলা হয়নি। খাওয়া বা মেশিন মেরামতের কথাও কথোপকথনে নেই।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "우리 공장에서는 안전을 위해 작업복과 안전화를 반드시 착용해야 합니다. 높은 곳에서 일할 때는 안전대도 매야 합니다. 안전 수칙을 지키지 않으면 사고가 날 수 있습니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: মহিলা কী আনতে যাচ্ছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 작업대가 너무 지저분하네요.\n여자: 제가 작업대를 닦을 걸레를 가져올게요.",
       "options": [
-        "작업복은 입지 않아도 됩니다.",
-        "높은 곳에서는 안전대를 매야 합니다.",
-        "안전화는 가끔 신어야 합니다.",
-        "안전 수칙을 안 지켜도 안전합니다."
+        "빗자루",
+        "덮개",
+        "걸레",
+        "쓰레기통"
       ],
-      "answer": 1,
-      "explanationBn": "글에서 '높은 곳에서 일할 때는 안전대도 매야 합니다'라고 했습니다."
+      "answer": 2,
+      "explanationBn": "মহিলা বলছেন '걸레를 가져올게요' — কাজের টেবিল মোছার জন্য ন্যাকড়া আনবেন, তাই বিকল্প ৩ সঠিক। '빗자루' ঝাড়ু, যা দিয়ে মেঝে ঝাঁট দেওয়া হয়। '덮개' ঢাকনা, '쓰레기통' ময়লার ঝুড়ি — কোনোটির কথাই বলা হয়নি।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "여기는 출입 (    ) 구역입니다. 관계자 외에는 들어갈 수 없습니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: গুদাম ব্যবস্থাপনায় কোনটি গুরুত্বপূর্ণ বলা হয়েছে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 창고 관리에서는 무엇이 제일 중요합니까?\n여자: 재고를 파악하는 게 가장 중요합니다.",
       "options": [
-        "환영",
-        "금지",
-        "주의",
-        "확인"
+        "재고를 파악하는 것",
+        "창문을 닦는 것",
+        "작업복을 입는 것",
+        "일찍 출근하는 것"
       ],
-      "answer": 1,
-      "explanationBn": "들어갈 수 없는 곳은 '출입 금지' 구역입니다."
+      "answer": 0,
+      "explanationBn": "মহিলা বলছেন '재고를 파악하는 게 가장 중요합니다', তাই বিকল্প ১ সঠিক। '창문을 닦다' (জানালা মোছা) পরিচ্ছন্নতার কাজ, গুদামের মূল দায়িত্ব নয়। কাজের পোশাক পরা বা তাড়াতাড়ি আসার কথা কথোপকথনে আসেনি।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: এখন আবহাওয়া কেমন হবে বলে দুজন ভাবছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 투안 씨, 안전모를 안 썼네요. 공사장에서는 안전모를 꼭 써야 해요.\n여자: 아, 깜빡했어요. 지금 바로 쓸게요.",
+      "passage": "여자: 곧 비가 올 것 같아요.\n남자: 그럼 빨리 자재를 덮을 덮개를 가져옵시다.",
       "options": [
-        "남자는 안전모를 썼습니다.",
-        "여자는 지금 안전모를 쓰고 있습니다.",
-        "여자는 안전모를 쓰지 않았습니다.",
-        "남자는 안전화를 신지 않았습니다."
+        "눈이 올 것 같습니다",
+        "비가 올 것 같습니다",
+        "날씨가 맑을 것 같습니다",
+        "바람이 불 것 같습니다"
       ],
-      "answer": 2,
-      "explanationBn": "남자가 여자(투안)에게 안전모를 안 썼다고 말하고 있습니다."
+      "answer": 1,
+      "explanationBn": "মহিলা বলছেন '곧 비가 올 것 같아요' (শিগগিরই বৃষ্টি আসবে মনে হচ্ছে), তাই বিকল্প ২ সঠিক। সে কারণেই পুরুষটি ঢাকনা আনার প্রস্তাব দিচ্ছেন। '눈' মানে তুষার, '맑다' মানে পরিষ্কার আকাশ, '바람이 불다' মানে বাতাস বওয়া — কোনোটিই বলা হয়নি।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 질문에 알맞은 대답을 고르십시오. 남자는 무엇을 해야 합니까?",
-      "questionKo": "다음을 듣고 질문에 알맞은 대답을 고르십시오. 남자는 무엇을 해야 합니까?",
-      "passage": "여자: 기계 소리가 너무 커요. 귀가 아파요.\n남자: 그럼 귀마개를 하세요. 저기 캐비닛 안에 있어요.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: পুরুষটি কেন বাতাস চলাচল করাতে পারছেন না?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 작업장에 냄새가 심하네요. 환기를 좀 할까요?\n남자: 환풍기가 고장 나서 환기가 안 돼요.",
       "options": [
-        "귀마개를 해야 합니다.",
-        "기계를 꺼야 합니다.",
-        "캐비닛을 청소해야 합니다.",
-        "보안경을 써야 합니다."
+        "창문이 없어서",
+        "환풍기가 고장 나서",
+        "날씨가 추워서",
+        "시간이 없어서"
       ],
-      "answer": 0,
-      "explanationBn": "기계 소리가 커서 귀가 아프다고 하니 귀마개를 해야 합니다."
+      "answer": 1,
+      "explanationBn": "পুরুষটি বলছেন '환풍기가 고장 나서 환기가 안 돼요' — এগজস্ট ফ্যান নষ্ট, তাই বিকল্প ২ সঠিক। জানালা না থাকা, ঠান্ডা আবহাওয়া বা সময়ের অভাব — এসব কারণের কোনোটিই কথোপকথনে উল্লেখ করা হয়নি।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 내용과 같은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 내용과 같은 것을 고르십시오.",
-      "passage": "남자: 반장님, 프레스 기계가 이상해요. 버튼을 눌러도 작동을 안 해요.\n여자: 그래요? 그럼 먼저 전원을 끄고 점검해 봅시다. 기계를 만지지 마세요.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: আগামীকাল থেকে আগুং কী কাজ করবেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 안녕하세요? 내일부터 창고 관리를 담당할 아궁이라고 합니다.\n여자: 반갑습니다. 창고 관리를 해 봤어요?",
       "options": [
-        "기계가 잘 작동하고 있습니다.",
-        "남자는 기계를 고쳤습니다.",
-        "여자는 기계를 만지라고 했습니다.",
-        "기계의 전원을 끄고 점검해야 합니다."
+        "기계를 고칩니다",
+        "음식을 만듭니다",
+        "창고를 관리합니다",
+        "자재를 만듭니다"
       ],
-      "answer": 3,
-      "explanationBn": "여자가 전원을 끄고 점검해 보자고 했습니다."
+      "answer": 2,
+      "explanationBn": "আগুং নিজের পরিচয়ে বলছেন '내일부터 창고 관리를 담당할 아궁이라고 합니다', তাই বিকল্প ৩ সঠিক। এখানে '-(으)ㄹ' দিয়ে বোঝানো হচ্ছে কাজটি আগামীকাল থেকে শুরু হবে। মেশিন মেরামত, রান্না বা মালামাল তৈরির কথা বলা হয়নি।"
     }
   ]
 }
