@@ -10,664 +10,731 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "প্রাথমিক ফসল সম্পর্কিত শব্দভাণ্ডার শিখা এবং বোঝা।",
-      "কৃষি পরিবেশে সাধারণ বাক্য বলতে ও বুঝতে পারা।",
-      "সহকর্মীর সাথে বীজ বপন, সেচ ও সংগ্রহ নিয়ে আলোচনা করা।",
-      "সহজ নির্দেশনা এবং অনুরোধ বিনিময় করতে পারা।"
+      "ফসল চাষের কাজে দরকারি শব্দ ও প্রকাশভঙ্গি ব্যবহার করতে পারা",
+      "মাঠ ও ফলবাগানের কাজ নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "'-(으)ㄹ까 하다' দিয়ে এখনো পাকা না-হওয়া পরিকল্পনা জানাতে পারা",
+      "'-지 말고' দিয়ে কাজের সময় কী করা যাবে না তা বোঝাতে পারা"
     ],
     "en": [
-      "Learn and recognize basic crop-related vocabulary.",
-      "Understand and use simple sentences in an agricultural setting.",
-      "Discuss sowing, watering, and harvesting with coworkers.",
-      "Give and follow simple instructions and requests."
+      "Can use vocabulary and expressions needed for farm work",
+      "Can ask and answer about field crop and orchard cultivation",
+      "Can use -(으)ㄹ까 하다 for a tentative plan",
+      "Can use -지 말고 to say what to do instead of something prohibited"
     ]
   },
   "vocabulary": [
     {
-      "ko": "작물",
-      "romanization": "jakmul",
-      "bn": "ফসল",
-      "en": "crop",
+      "ko": "농작물",
+      "romanization": "nongjangmul",
+      "bn": "ফসল, খেতের উৎপন্ন",
+      "en": "crops, farm produce",
       "pos": "noun",
       "example": {
-        "ko": "이 밭은 감자 작물을 재배합니다.",
-        "bn": "এই খেতে আলু ফসল চাষ করা হয়।",
-        "en": "This field grows potato crops."
+        "ko": "농작물 재배에 필요한 어휘를 배웁니다.",
+        "bn": "ফসল চাষে দরকারি শব্দগুলো শিখছি।",
+        "en": "We learn the vocabulary needed for growing crops."
       },
-      "pronunciationTipBn": "'ㄱ' এর পর 'ㅁ' থাকলে 'ㄱ' এর উচ্চারণ 'ㅇ' এর মতো হয় (জাংমুল)।"
-    },
-    {
-      "ko": "재배",
-      "romanization": "jaebae",
-      "bn": "চাষ/উত্পাদন",
-      "en": "cultivation",
-      "pos": "noun",
-      "example": {
-        "ko": "토마토 재배 방법을 배웠습니다.",
-        "bn": "টমেটো চাষের পদ্ধতি শেখে নিয়েছি।",
-        "en": "I learned tomato cultivation methods."
-      },
-      "pronunciationTipBn": "'ㅈ' এবং 'ㅂ' এর উচ্চারণ স্বাভাবিক রাখুন।"
+      "pronunciationTipBn": "농작물 → [농장물]। 'ㄱ' বাতচিমের পরে 'ㅁ' আসায় 'ㄱ' বদলে 'ㅇ' হয়ে যায় — 'নোং-জাক-মুল' নয়, 'নোং-জাং-মুল'।"
     },
     {
       "ko": "밭",
       "romanization": "bat",
-      "bn": "খেত (শুকনো জমি)",
-      "en": "field (dry land)",
+      "bn": "শুকনো খেত (যেখানে ধান হয় না)",
+      "en": "field, dry farmland",
       "pos": "noun",
       "example": {
-        "ko": "밭에 비료를 주어야 합니다.",
-        "bn": "খেতে সার দিতে হবে।",
-        "en": "You must fertilize the field."
+        "ko": "내일은 밭에 씨앗을 뿌릴까 해요.",
+        "bn": "কাল খেতে বীজ ছিটাব ভাবছি।",
+        "en": "I'm thinking of sowing seeds in the field tomorrow."
       },
-      "pronunciationTipBn": "নিচে 'ㅌ' থাকলে তার উচ্চারণ 'ত' এর মতো হয় (বাত)।"
+      "pronunciationTipBn": "밭 → [받]। শেষের 'ㅌ' বাতচিম হিসেবে 'ㄷ' শব্দে থামে — 'বাথ' নয়, 'বাত্'। কিন্তু '밭에' → [바테], তখন 'ㅌ' ফিরে আসে।"
     },
     {
       "ko": "논",
       "romanization": "non",
-      "bn": "ধানক্ষেত্র",
+      "bn": "ধানখেত (পানি দাঁড়ায় এমন খেত)",
       "en": "rice paddy",
       "pos": "noun",
       "example": {
-        "ko": "논에 물을 조절하세요.",
-        "bn": "ধানক্ষেতে পানি নিয়ন্ত্রণ করুন।",
-        "en": "Manage the water in the rice paddy."
+        "ko": "논에 물을 댈까 해요. 곧 모내기를 한다고 해서요.",
+        "bn": "ধানখেতে পানি দেব ভাবছি। শিগগিরই চারা রোপণ হবে বলে।",
+        "en": "I'm thinking of watering the paddy, since they say rice planting is soon."
       },
-      "pronunciationTipBn": "'ㄴ' এর উচ্চারণ স্পষ্ট করুন (নোন)।"
+      "pronunciationTipBn": "논 → [논]। খেয়াল রাখুন — '논' মানে ভেজা ধানখেত, আর '밭' মানে শুকনো খেত; কোরিয়ান চাষে এই দুটি একেবারে আলাদা।"
     },
     {
-      "ko": "씨앗",
-      "romanization": "ssiat",
-      "bn": "বীজ",
-      "en": "seed",
+      "ko": "비닐하우스",
+      "romanization": "binilhauseu",
+      "bn": "পলিহাউস, গ্রিনহাউস",
+      "en": "greenhouse",
       "pos": "noun",
       "example": {
-        "ko": "좋은 씨앗을 선택하세요.",
-        "bn": "ভাল বীজ বাছুন।",
-        "en": "Choose good seeds."
+        "ko": "주말에 비닐하우스를 설치할까 해요.",
+        "bn": "সপ্তাহান্তে পলিহাউসটা বসাব ভাবছি।",
+        "en": "I'm thinking of setting up the greenhouse at the weekend."
       },
-      "pronunciationTipBn": "'ㅆ' এর উচ্চারণ একটু জোর দিয়ে 'স' এর মতো করুন এবং নিচের 'ㅅ' 'ত' এর মতো উচ্চারিত হবে (সিয়াত)।"
+      "pronunciationTipBn": "비닐하우스 → [비닐하우스]। 'ㄹ' জিভ তালুতে ঠেকিয়ে, শেষে 'ㅡ' ঠোঁট চ্যাপ্টা — 'বি-নিল-হা-উ-সৃ'।"
     },
     {
-      "ko": "파종",
-      "romanization": "pajong",
-      "bn": "বিঁজ বুনা / বপন",
-      "en": "sowing",
-      "pos": "noun",
+      "ko": "씨앗을 뿌리다",
+      "romanization": "ssiaseul ppurida",
+      "bn": "বীজ ছিটানো, বীজ বোনা",
+      "en": "to sow seeds",
+      "pos": "phrase",
       "example": {
-        "ko": "파종은 봄에 합니다.",
-        "bn": "বীজ বপন বসন্তে করা হয়।",
-        "en": "Sowing is done in spring."
+        "ko": "밭에 씨앗을 뿌린 다음에 물을 주세요.",
+        "bn": "খেতে বীজ ছিটানোর পর পানি দিন।",
+        "en": "After sowing the seeds in the field, water them."
       },
-      "pronunciationTipBn": "'ㅍ' এর উচ্চারণ 'ফ' এর মতো করুন (ফাজোং)।"
+      "pronunciationTipBn": "씨앗을 → [씨아슬]। 'ㅅ' বাতচিম পরের স্বরে জুড়ে যায় — 'স্সি-আত-উল' নয়, 'স্সি-আ-সৃল'।"
+    },
+    {
+      "ko": "모종을 심다",
+      "romanization": "mojongeul simda",
+      "bn": "চারা রোপণ করা",
+      "en": "to plant seedlings",
+      "pos": "phrase",
+      "example": {
+        "ko": "내일은 밭에 모종을 심을까 해요.",
+        "bn": "কাল খেতে চারা লাগাব ভাবছি।",
+        "en": "I'm thinking of planting seedlings in the field tomorrow."
+      },
+      "pronunciationTipBn": "심다 → [심따]। 'ㅁ' বাতচিমের পরে 'ㄷ' শক্ত হয়ে 'ㄸ' হয় — 'শিম-দা' নয়, 'শিম-ত্তা'।"
+    },
+    {
+      "ko": "모내기를 하다",
+      "romanization": "monaegireul hada",
+      "bn": "ধানের চারা রোপণ করা",
+      "en": "to plant rice seedlings",
+      "pos": "phrase",
+      "example": {
+        "ko": "곧 모내기를 한다고 해서 논에 물을 댔어요.",
+        "bn": "শিগগিরই ধানের চারা রোপণ হবে বলে ধানখেতে পানি দিয়েছি।",
+        "en": "They say rice planting is soon, so I watered the paddy."
+      },
+      "pronunciationTipBn": "모내기 → [모내기]। 'ㅐ' মুখ খুলে 'অ্যা' — 'মো-নে-গি' নয়, 'মো-ন্যা-গি'। এটি কেবল ধানের জন্যই ব্যবহার হয়।"
     },
     {
       "ko": "비료",
-      "romanization": "bilyo",
-      "bn": "সার",
+      "romanization": "biryo",
+      "bn": "সার (কারখানায় তৈরি)",
       "en": "fertilizer",
       "pos": "noun",
       "example": {
-        "ko": "비료를 너무 많이 주지 마세요.",
-        "bn": "সার খুব 많이 দেবেন না।",
-        "en": "Don't give too much fertilizer."
+        "ko": "아직 비료를 뿌리지 말고 기다리세요.",
+        "bn": "এখনই সার ছিটাবেন না, অপেক্ষা করুন।",
+        "en": "Don't spread the fertilizer yet — wait."
       },
-      "pronunciationTipBn": "'ㄹ' এর উচ্চারণ 'র' এর মতো করুন (পির‍্যো)।"
+      "pronunciationTipBn": "비료 → [비료]। 'ㄹ'+'ㅛ' মিলে 'রিও' — 'বি-রো' নয়, 'বি-রিও'।"
     },
     {
-      "ko": "물주기",
-      "romanization": "muljugi",
-      "bn": "পানি দেওয়া",
-      "en": "watering",
+      "ko": "거름을 주다",
+      "romanization": "georeumeul juda",
+      "bn": "জৈব সার দেওয়া",
+      "en": "to apply manure",
+      "pos": "phrase",
+      "example": {
+        "ko": "거름을 주면 땅에 영양분이 많아져요.",
+        "bn": "জৈব সার দিলে মাটিতে পুষ্টি বাড়ে।",
+        "en": "If you apply manure, the soil gains more nutrients."
+      },
+      "pronunciationTipBn": "거름을 → [거르믈]। 'ㅁ' পরের স্বরে জুড়ে যায় — 'গো-রুম-উল' নয়, 'গো-রৃ-মৃল'। '비료' কারখানার সার, '거름' পচানো জৈব সার।"
+    },
+    {
+      "ko": "호미",
+      "romanization": "homi",
+      "bn": "নিড়ানি (হাতে ধরার ছোট কোদাল)",
+      "en": "hand hoe",
       "pos": "noun",
       "example": {
-        "ko": "아침에 물주기를 합니다.",
-        "bn": "সকালবেলায় পানি দেওয়া হয়।",
-        "en": "Watering is done in the morning."
+        "ko": "뿌리가 깊으니까 손으로 뽑지 말고 호미를 사용하세요.",
+        "bn": "শিকড় গভীরে, তাই হাত দিয়ে টানবেন না — নিড়ানি ব্যবহার করুন।",
+        "en": "The roots are deep, so use a hoe instead of pulling by hand."
       },
-      "pronunciationTipBn": "'ㄹ' এর উচ্চারণ 'ল' এর মতো করুন (মুলজুগি)।"
+      "pronunciationTipBn": "호미 → [호미]। দুই অক্ষরের সহজ শব্দ — 'হো-মি'। মাটি খুঁড়ে আলু তোলা বা আগাছার শিকড় ওঠানোর প্রধান হাতিয়ার।"
     },
     {
-      "ko": "관개",
-      "romanization": "gwangae",
-      "bn": "জলসেচ",
-      "en": "irrigation",
+      "ko": "삽",
+      "romanization": "sap",
+      "bn": "কোদাল, শাবল",
+      "en": "shovel",
       "pos": "noun",
       "example": {
-        "ko": "관개 시스템을 점검하세요.",
-        "bn": "সেচ ব্যবস্থা পরীক্ষা করুন।",
-        "en": "Check the irrigation system."
+        "ko": "창고에서 삽도 꺼내 놓았어요.",
+        "bn": "গুদাম থেকে কোদালটাও বের করে রেখেছি।",
+        "en": "I also took the shovel out of the warehouse."
       },
-      "pronunciationTipBn": "'ㄱ' এর উচ্চারণ 'গ' এর মতো করুন (গোয়ানগে)।"
+      "pronunciationTipBn": "삽 → [삽]। শেষে 'ㅂ' ঠোঁট বন্ধ করে থামুন — 'সা-প' নয়, একটানে 'সাপ্'।"
     },
     {
-      "ko": "제초제",
-      "romanization": "jechoje",
-      "bn": "গাছপালা নাশক",
-      "en": "herbicide",
+      "ko": "수레",
+      "romanization": "sure",
+      "bn": "ঠেলাগাড়ি (হাতে ঠেলে চালানো গাড়ি)",
+      "en": "cart, wheelbarrow",
       "pos": "noun",
       "example": {
-        "ko": "제초제를 안전하게 사용하세요.",
-        "bn": "গাছপালা নাশক নিরাপদে ব্যবহার করুন।",
-        "en": "Use the herbicide safely."
+        "ko": "무거우니까 손으로 옮기지 말고 수레로 옮기세요.",
+        "bn": "ভারী, তাই হাতে বইবেন না — ঠেলাগাড়িতে নিন।",
+        "en": "It's heavy, so move it with the cart rather than by hand."
       },
-      "pronunciationTipBn": "'ㅈ' এবং 'ㅊ' এর উচ্চারণ আলাদাভাবে স্পষ্ট করুন (জেচোজে)।"
+      "pronunciationTipBn": "수레 → [수레]। 'ㅔ' মাঝারি 'এ' — 'সু-র‍্যা' নয়, 'সু-রে'।"
     },
     {
-      "ko": "수확",
-      "romanization": "suhwak",
-      "bn": "ফসল তোলা/ঝড়া",
-      "en": "harvest",
+      "ko": "경운기",
+      "romanization": "gyeongungi",
+      "bn": "পাওয়ার টিলার (ছোট চাষযন্ত্র)",
+      "en": "rotary tiller",
       "pos": "noun",
       "example": {
-        "ko": "수확은 가을에 시작됩니다.",
-        "bn": "ফসল কাটা শরতে শুরু হয়।",
-        "en": "Harvest starts in autumn."
+        "ko": "경운기로 밭을 갈면 훨씬 빨라요.",
+        "bn": "পাওয়ার টিলার দিয়ে খেত চষলে অনেক দ্রুত হয়।",
+        "en": "Ploughing the field with a tiller is much faster."
       },
-      "pronunciationTipBn": "'ㅎ' এর উচ্চারণ স্পষ্ট করুন এবং 'ㄱ' 'ক' এর মতো উচ্চারিত হবে (সুহোয়াক)।"
+      "pronunciationTipBn": "경운기 → [경운기]। 'ㅇ' নাক দিয়ে, 'ㅕ' হলো 'ইয়ো' — 'গেং-উন-গি' নয়, 'গিয়ং-উন-গি'।"
     },
     {
-      "ko": "품종",
-      "romanization": "pumjong",
-      "bn": "জাত/প্রজাতি",
-      "en": "variety",
+      "ko": "지주대",
+      "romanization": "jijudae",
+      "bn": "খুঁটি (গাছ ঠেকা দেওয়ার দাঁড়া)",
+      "en": "support post, stake",
       "pos": "noun",
       "example": {
-        "ko": "이 품종은 병에 강합니다.",
-        "bn": "এই জাত রোগপ্রতিরোধী।",
-        "en": "This variety is disease-resistant."
+        "ko": "여기 지주대도 넘어져서 다시 박아야겠어요.",
+        "bn": "এখানকার খুঁটিটাও পড়ে গেছে, আবার গেঁথে দিতে হবে।",
+        "en": "The support post here has fallen too, so we'll have to drive it back in."
       },
-      "pronunciationTipBn": "'ㅍ' এর উচ্চারণ 'ফ' এর মতো করুন (ফুমজোং)।"
+      "pronunciationTipBn": "지주대 → [지주대]। 'ㅐ' মুখ খুলে 'অ্যা' — 'জি-জু-দে' নয়, 'জি-জু-দ্যা'।"
     },
     {
-      "ko": "뿌리",
-      "romanization": "ppuri",
-      "bn": "মূল/মূলদানি",
-      "en": "root",
+      "ko": "울타리망",
+      "romanization": "ultarimang",
+      "bn": "জালের বেড়া (পশু ঢোকা আটকানোর জাল)",
+      "en": "net fence",
       "pos": "noun",
       "example": {
-        "ko": "뿌리가 깊게 자랐습니다.",
-        "bn": "মূলগুলো গভীরে বেড়েছে।",
-        "en": "The roots grew deep."
+        "ko": "울타리망을 튼튼한 것으로 다시 쳐야겠어요.",
+        "bn": "জালের বেড়াটা মজবুত দিয়ে আবার লাগাতে হবে।",
+        "en": "We'll have to put up a sturdier net fence."
       },
-      "pronunciationTipBn": "'ㅃ' এর উচ্চারণ একটু জোর দিয়ে 'প' এর মতো করুন (প্পুরি)।"
+      "pronunciationTipBn": "울타리망 → [울타리망]। 'ㅌ' নিঃশ্বাসযুক্ত 'থ', শেষে 'ㅇ' নাক দিয়ে — 'উল-থা-রি-মাং'। '치다' মানে টেনে লাগানো।"
     },
     {
-      "ko": "줄기",
-      "romanization": "julgi",
-      "bn": "কাণ্ড/তনা",
-      "en": "stem",
+      "ko": "고라니",
+      "romanization": "gorani",
+      "bn": "হরিণজাতীয় বন্যপ্রাণী (কোরিয়ার খেতের বড় শত্রু)",
+      "en": "water deer",
       "pos": "noun",
       "example": {
-        "ko": "줄기가 튼튼해요.",
-        "bn": "তনা শক্তিশালী।",
-        "en": "The stem is strong."
+        "ko": "밤에 고라니가 내려와서 열매를 따 먹은 것 같네요.",
+        "bn": "রাতে হরিণ নেমে এসে ফল খেয়ে গেছে বলে মনে হচ্ছে।",
+        "en": "It seems water deer came down at night and ate the fruit."
       },
-      "pronunciationTipBn": "'ㄹ' এর উচ্চারণ 'ল' এর মতো করুন (জুলগি)।"
+      "pronunciationTipBn": "고라니 → [고라니]। কোরিয়ার গ্রামে এই প্রাণীটি ফসলের সবচেয়ে বড় ক্ষতি করে, তাই '울타리망' লাগানো হয়।"
     },
     {
-      "ko": "잎",
-      "romanization": "ip",
+      "ko": "잎사귀",
+      "romanization": "ipsagwi",
       "bn": "পাতা",
       "en": "leaf",
       "pos": "noun",
       "example": {
-        "ko": "잎 색깔이 변하면 알려 주세요.",
-        "bn": "পাতার রং বদলালে জানাবেন।",
-        "en": "Tell me if the leaf color changes."
+        "ko": "고라니가 열매와 잎사귀를 다 따 먹었어요.",
+        "bn": "হরিণ ফল আর পাতা সব খেয়ে ফেলেছে।",
+        "en": "The water deer ate all the fruit and leaves."
       },
-      "pronunciationTipBn": "নিচে 'ㅍ' থাকলে তার উচ্চারণ 'প' এর মতো হয় (ইপ)।"
+      "pronunciationTipBn": "잎사귀 → [입싸귀]। 'ㅍ' বাতচিম 'ㅂ' শব্দে থামে আর পরের 'ㅅ' শক্ত হয়ে 'ㅆ' হয় — 'ইপ-স্সা-গুই'।"
     },
     {
-      "ko": "온도",
-      "romanization": "ondo",
-      "bn": "তাপমাত্রা",
-      "en": "temperature",
+      "ko": "나뭇가지",
+      "romanization": "namutgaji",
+      "bn": "গাছের ডাল",
+      "en": "tree branch",
       "pos": "noun",
       "example": {
-        "ko": "온도를 낮추어야 합니다.",
-        "bn": "তাপমাত্রা কমাতে হবে।",
-        "en": "We need to lower the temperature."
+        "ko": "먼저 복숭아 나뭇가지를 위로 올리세요.",
+        "bn": "আগে পিচগাছের ডালটা উপরে তুলুন।",
+        "en": "First lift the peach branch upward."
       },
-      "pronunciationTipBn": "'ㄴ' এবং 'ㄷ' এর উচ্চারণ স্পষ্ট করুন (ওন্দো)।"
+      "pronunciationTipBn": "나뭇가지 → [나묻까지]। মাঝের 'ㅅ' বাতচিম 'ㄷ' শব্দে থামে আর পরের 'ㄱ' শক্ত হয়ে 'ㄲ' হয় — 'না-মুত-ক্কা-জি'।"
     },
     {
-      "ko": "병충해",
-      "romanization": "byeongchunghae",
-      "bn": "রোগ ও কীটপতঙ্গ",
-      "en": "pests and diseases",
-      "pos": "noun",
-      "example": {
-        "ko": "병충해를 빠르게 처리하세요.",
-        "bn": "রোগ ও কীট দ্রুত মোকাবেলা করুন।",
-        "en": "Treat pests and diseases quickly."
-      },
-      "pronunciationTipBn": "'ㅊ' এবং 'ㅎ' এর উচ্চারণ স্পষ্ট করুন (পিয়ংচুংহে)।"
-    },
-    {
-      "ko": "경작하다",
-      "romanization": "gyeongjakhada",
-      "bn": "চাষ করা/জমি কাজ করা",
-      "en": "to cultivate",
+      "ko": "뽑다",
+      "romanization": "ppopda",
+      "bn": "টেনে তোলা, উপড়ে ফেলা",
+      "en": "to pull out, to uproot",
       "pos": "verb",
       "example": {
-        "ko": "이 농부는 작은 밭을 경작합니다.",
-        "bn": "এই কৃষক ছোট খেত চাষ করে।",
-        "en": "This farmer cultivates a small field."
+        "ko": "배추를 뽑아 주세요.",
+        "bn": "বাঁধাকপিগুলো টেনে তুলে দিন।",
+        "en": "Please pull out the cabbages."
       },
-      "pronunciationTipBn": "'ㄱ' এর পর 'ㅈ' থাকলে 'ㅈ' এর উচ্চারণ 'ㅉ' এর মতো হয় (গিয়ংজাক্কাদা)।"
+      "pronunciationTipBn": "뽑다 → [뽑따]। 'ㅃ' টান-টান শক্ত 'প', আর 'ㅂ'-এর পরে 'ㄷ' শক্ত হয়ে 'ㄸ' — 'প্পোপ-ত্তা'।"
     },
     {
-      "ko": "농약",
-      "romanization": "nongyak",
-      "bn": "কীটনাশক",
-      "en": "pesticide",
-      "pos": "noun",
+      "ko": "캐다",
+      "romanization": "kaeda",
+      "bn": "মাটি খুঁড়ে তোলা (আলু, মিষ্টি আলু ইত্যাদি)",
+      "en": "to dig up, to harvest (root crops)",
+      "pos": "verb",
       "example": {
-        "ko": "농약을 칠 때 조심하세요.",
-        "bn": "কীটনাশক ছিটানোর সময় সাবধান থাকবেন।",
-        "en": "Be careful when spraying pesticide."
+        "ko": "밭에서 고구마를 캘 때 호미를 사용해요.",
+        "bn": "খেতে মিষ্টি আলু তোলার সময় নিড়ানি ব্যবহার হয়।",
+        "en": "We use a hoe when digging up sweet potatoes in the field."
       },
-      "pronunciationTipBn": "'ㅇ' এর পর 'ㅇ' থাকলে উচ্চারণ স্বাভাবিক থাকে (নোংইয়াক)।"
+      "pronunciationTipBn": "캐다 → [캐다]। 'ㅋ' নিঃশ্বাসযুক্ত 'খ' আর 'ㅐ' খোলা 'অ্যা' — 'কে-দা' নয়, 'খ্যা-দা'। মনে রাখুন: '뽑다' টেনে তোলা, '캐다' খুঁড়ে তোলা।"
     },
     {
       "ko": "잡초",
       "romanization": "japcho",
       "bn": "আগাছা",
-      "en": "weed",
+      "en": "weeds",
       "pos": "noun",
       "example": {
-        "ko": "밭에서 잡초를 뽑아요.",
-        "bn": "খেত থেকে আগাছা তুলি।",
-        "en": "I pull weeds from the field."
+        "ko": "예초기로 잡초를 제거해야 돼요.",
+        "bn": "আগাছা-কাটার যন্ত্র দিয়ে আগাছা সরাতে হবে।",
+        "en": "You have to clear the weeds with a weed cutter."
       },
-      "pronunciationTipBn": "নিচে 'ㅂ' থাকলে তার উচ্চারণ 'প' এর মতো হয় (জাপচো)।"
+      "pronunciationTipBn": "잡초 → [잡초]। 'ㅂ' বাতচিমে ঠোঁট বন্ধ, 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'জাপ-ছো'।"
     },
     {
-      "ko": "비닐하우스",
-      "romanization": "binil-hauseu",
-      "bn": "গ্রিনহাউস / পলিথিন ঘর",
-      "en": "greenhouse",
+      "ko": "예초기",
+      "romanization": "yechogi",
+      "bn": "আগাছা-কাটার যন্ত্র (ঘাস কাটার মেশিন)",
+      "en": "weed cutter, brush cutter",
       "pos": "noun",
       "example": {
-        "ko": "비닐하우스 안은 따뜻해요.",
-        "bn": "গ্রিনহাউসের ভেতরটা গরম।",
-        "en": "It is warm inside the greenhouse."
+        "ko": "예초기를 쓸 때는 꼭 보안경을 쓰세요.",
+        "bn": "আগাছা-কাটার যন্ত্র চালানোর সময় অবশ্যই নিরাপত্তা চশমা পরুন।",
+        "en": "Always wear safety goggles when using the weed cutter."
       },
-      "pronunciationTipBn": "ইংরেজি শব্দ, কোরিয়ান উচ্চারণে 'বিনিল হাউসু' বলুন।"
+      "pronunciationTipBn": "예초기 → [예초기]। 'ㅕ' হলো 'ইয়ে', 'ㅊ' নিঃশ্বাসযুক্ত — 'ইয়ে-ছো-গি'।"
     },
     {
-      "ko": "거름",
-      "romanization": "georeum",
-      "bn": "জৈব সার",
-      "en": "manure / compost",
+      "ko": "농약을 뿌리다",
+      "romanization": "nongyageul ppurida",
+      "bn": "কীটনাশক ছিটানো",
+      "en": "to spray pesticide",
+      "pos": "phrase",
+      "example": {
+        "ko": "지금 농약을 뿌리지 말고 오후에 하세요.",
+        "bn": "এখন কীটনাশক ছিটাবেন না, বিকেলে করুন।",
+        "en": "Don't spray the pesticide now — do it in the afternoon."
+      },
+      "pronunciationTipBn": "농약을 → [농야글]। 'ㄱ' পরের স্বরে জুড়ে যায় — 'নোং-ইয়াক-উল' নয়, 'নোং-ইয়া-গৃল'। কথ্য ভাষায় '농약을 치다'ও বলা হয়।"
+    },
+    {
+      "ko": "봉지를 씌우다",
+      "romanization": "bongjireul ssuiuda",
+      "bn": "ফলের উপর ঠোঙা পরানো (রক্ষার জন্য)",
+      "en": "to cover with a bag",
+      "pos": "phrase",
+      "example": {
+        "ko": "복숭아에 봉지를 씌우고 있어요.",
+        "bn": "পিচফলে ঠোঙা পরাচ্ছি।",
+        "en": "I'm covering the peaches with bags."
+      },
+      "pronunciationTipBn": "씌우다 → [씨우다]। 'ㅢ' এখানে সহজ করে 'ㅣ' বলা হয় — 'স্সুই-উ-দা' নয়, 'স্সি-উ-দা'। এতে কীটনাশক, বৃষ্টি ও পাখি — তিনটিই আটকানো যায়।"
+    },
+    {
+      "ko": "사다리",
+      "romanization": "sadari",
+      "bn": "মাচা, সিঁড়ি (ফল তুলতে ওঠার মালা)",
+      "en": "ladder",
       "pos": "noun",
       "example": {
-        "ko": "밭에 거름을 줍니다.",
-        "bn": "খেতে জৈব সার দিই।",
-        "en": "I give manure to the field."
+        "ko": "사다리에 올라가지 말고 아래에서 따세요.",
+        "bn": "মাচায় উঠবেন না, নিচ থেকেই তুলুন।",
+        "en": "Don't climb the ladder — pick them from below."
       },
-      "pronunciationTipBn": "'ㄹ' এর উচ্চারণ 'র' এর মতো করুন (গোরুম)।"
+      "pronunciationTipBn": "사다리 → [사다리]। তিন অক্ষরের সহজ শব্দ — 'সা-দা-রি'। ফলবাগানে পড়ে যাওয়ার দুর্ঘটনা এখানেই সবচেয়ে বেশি ঘটে।"
     },
     {
-      "ko": "농기구",
-      "romanization": "nonggigu",
-      "bn": "কৃষি সরঞ্জাম",
-      "en": "farming tools",
+      "ko": "상자에 담다",
+      "romanization": "sangjae damda",
+      "bn": "বাক্সে ভরা",
+      "en": "to put into a box",
+      "pos": "phrase",
+      "example": {
+        "ko": "작은 사과는 상자에 담지 말고 큰 사과만 담으세요.",
+        "bn": "ছোট আপেল বাক্সে ভরবেন না, শুধু বড়গুলো ভরুন।",
+        "en": "Don't put the small apples in the box — only the big ones."
+      },
+      "pronunciationTipBn": "담다 → [담따]। 'ㅁ' বাতচিমের পরে 'ㄷ' শক্ত হয়ে 'ㄸ' হয় — 'দাম-দা' নয়, 'দাম-ত্তা'।"
+    },
+    {
+      "ko": "트럭에 싣다",
+      "romanization": "teureoge sitda",
+      "bn": "ট্রাকে তোলা",
+      "en": "to load onto a truck",
+      "pos": "phrase",
+      "example": {
+        "ko": "사과를 상자에 담아서 트럭에 실어 주세요.",
+        "bn": "আপেলগুলো বাক্সে ভরে ট্রাকে তুলে দিন।",
+        "en": "Please put the apples in boxes and load them onto the truck."
+      },
+      "pronunciationTipBn": "싣다 → 실어요 [시러요]। এটি 'ㄷ' অনিয়মিত ক্রিয়া: স্বরের আগে 'ㄷ' বদলে 'ㄹ' হয় — '싣어요' ভুল, সঠিক '실어요'।"
+    },
+    {
+      "ko": "복숭아",
+      "romanization": "boksunga",
+      "bn": "পিচফল",
+      "en": "peach",
       "pos": "noun",
       "example": {
-        "ko": "농기구를 깨끗하게 씻으세요.",
-        "bn": "কৃষি সরঞ্জাম পরিষ্কার করে ধোবেন।",
-        "en": "Wash the farming tools cleanly."
+        "ko": "오늘은 복숭아부터 땁시다.",
+        "bn": "আজ আগে পিচফলগুলো তুলি।",
+        "en": "Let's pick the peaches first today."
       },
-      "pronunciationTipBn": "'ㅇ' এর পর 'ㄱ' থাকলে 'ㄱ' এর উচ্চারণ 'গ' এর মতো হয় (নোংগিগু)।"
+      "pronunciationTipBn": "복숭아 → [복쑹아]। 'ㄱ' বাতচিমের পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয় — 'বোক-সুং-আ' নয়, 'বোক-স্সুং-আ'।"
     },
     {
-      "ko": "호미",
-      "romanization": "homi",
-      "bn": "নিড়ানি",
-      "en": "hoe",
+      "ko": "포도",
+      "romanization": "podo",
+      "bn": "আঙুর",
+      "en": "grape",
       "pos": "noun",
       "example": {
-        "ko": "호미로 잡초를 뽑아요.",
-        "bn": "নিড়ানি দিয়ে আগাছা তুলি।",
-        "en": "I pull weeds with a hoe."
+        "ko": "포도에 봉지를 씌우면 새가 먹는 것도 방지할 수 있어요.",
+        "bn": "আঙুরে ঠোঙা পরালে পাখির খাওয়াও ঠেকানো যায়।",
+        "en": "If you bag the grapes, you can also prevent birds from eating them."
       },
-      "pronunciationTipBn": "'ㅎ' এবং 'ㅁ' এর উচ্চারণ স্পষ্ট করুন (হোমি)।"
+      "pronunciationTipBn": "포도 → [포도]। শুরুর 'ㅍ' নিঃশ্বাসযুক্ত 'ফ' — 'পো-দো' নয়, 'ফো-দো'।"
     },
     {
-      "ko": "삽",
-      "romanization": "sap",
-      "bn": "বেলচা",
-      "en": "shovel",
+      "ko": "감",
+      "romanization": "gam",
+      "bn": "পার্সিমন (কোরিয়ার শীতকালীন ফল)",
+      "en": "persimmon",
       "pos": "noun",
       "example": {
-        "ko": "삽으로 흙을 파요.",
-        "bn": "বেলচা দিয়ে মাটি খুঁড়ি।",
-        "en": "I dig soil with a shovel."
+        "ko": "가을에는 감을 따는 일이 많아요.",
+        "bn": "শরৎকালে পার্সিমন তোলার কাজ বেশি থাকে।",
+        "en": "In autumn there's a lot of persimmon picking."
       },
-      "pronunciationTipBn": "নিচে 'ㅂ' থাকলে তার উচ্চারণ 'প' এর মতো হয় (সাপ)।"
+      "pronunciationTipBn": "감 → [감]। শেষে 'ㅁ' ঠোঁট বন্ধ করে — 'গা-ম' নয়, একটানে 'গাম্'।"
     },
     {
-      "ko": "물뿌리개",
-      "romanization": "mulppurigae",
-      "bn": "ঝাঁঝরি (পানি দেওয়ার পাত্র)",
-      "en": "watering can",
+      "ko": "참외",
+      "romanization": "chamoe",
+      "bn": "কোরিয়ান হলুদ খরমুজ",
+      "en": "oriental melon",
       "pos": "noun",
       "example": {
-        "ko": "물뿌리개로 물을 줘요.",
-        "bn": "ঝাঁঝরি দিয়ে পানি দিই।",
-        "en": "I water with a watering can."
+        "ko": "참외를 거기에 두지 말고 저쪽으로 옮기세요.",
+        "bn": "খরমুজগুলো ওখানে রাখবেন না, ওদিকে সরিয়ে নিন।",
+        "en": "Don't leave the melons there — move them over that way."
       },
-      "pronunciationTipBn": "'ㅃ' এর উচ্চারণ একটু জোর দিয়ে 'প' এর মতো করুন (মুলপ্পুরিগে)।"
+      "pronunciationTipBn": "참외 → [차뫼]। 'ㅁ' পরের স্বরে জুড়ে যায়, আর 'ㅚ' হলো 'ওয়ে' — 'ছাম-ওই' নয়, 'ছা-মোয়ে'।"
     },
     {
-      "ko": "수확량",
-      "romanization": "suhwangnyang",
-      "bn": "ফসলের পরিমাণ",
-      "en": "yield / harvest amount",
-      "pos": "noun",
-      "example": {
-        "ko": "올해는 수확량이 많아요.",
-        "bn": "এ বছর ফসলের পরিমাণ বেশি।",
-        "en": "The yield is high this year."
-      },
-      "pronunciationTipBn": "'ㄱ' এর পর 'ㄹ' থাকলে 'ㄱ' 'ㅇ' এবং 'ㄹ' 'ㄴ' এর মতো উচ্চারিত হয় (সুহোয়াংনিয়াং)।"
-    },
-    {
-      "ko": "농부",
-      "romanization": "nongbu",
-      "bn": "কৃষক",
-      "en": "farmer",
-      "pos": "noun",
-      "example": {
-        "ko": "농부가 밭에서 일해요.",
-        "bn": "কৃষক খেতে কাজ করে।",
-        "en": "The farmer works in the field."
-      },
-      "pronunciationTipBn": "'ㅇ' এর পর 'ㅂ' থাকলে 'ㅂ' এর উচ্চারণ 'ব' এর মতো হয় (নোংবু)।"
-    },
-    {
-      "ko": "과수원",
-      "romanization": "gwasuwon",
-      "bn": "ফলের বাগান",
-      "en": "orchard",
-      "pos": "noun",
-      "example": {
-        "ko": "과수원에서 사과를 따요.",
-        "bn": "ফলের বাগান থেকে আপেল পাড়ি।",
-        "en": "I pick apples in the orchard."
-      },
-      "pronunciationTipBn": "'ㄱ' এর উচ্চারণ 'গ' এর মতো করুন (গোয়াসুওন)।"
-    },
-    {
-      "ko": "심다",
-      "romanization": "simda",
-      "bn": "রোপণ করা",
-      "en": "to plant",
+      "ko": "익다",
+      "romanization": "ikda",
+      "bn": "পাকা, পেকে যাওয়া",
+      "en": "to ripen",
       "pos": "verb",
       "example": {
-        "ko": "나무를 심어요.",
-        "bn": "গাছ রোপণ করি।",
-        "en": "I plant a tree."
+        "ko": "익은 복숭아는 옆으로 살짝 돌리면 쉽게 딸 수 있어요.",
+        "bn": "পাকা পিচফল পাশে হালকা ঘোরালে সহজেই তোলা যায়।",
+        "en": "You can easily pick a ripe peach by turning it gently to the side."
       },
-      "pronunciationTipBn": "'ㅁ' এর পর 'ㄷ' থাকলে 'ㄷ' এর উচ্চারণ 'ㄸ' এর মতো হয় (সিমতা)।"
+      "pronunciationTipBn": "익다 → [익따]। 'ㄱ' বাতচিমের পরে 'ㄷ' শক্ত হয়ে 'ㄸ' হয় — 'ইক-দা' নয়, 'ইক-ত্তা'।"
     },
     {
-      "ko": "따다",
-      "romanization": "ttada",
-      "bn": "পাড়া (ফল/ফুল)",
-      "en": "to pick",
-      "pos": "verb",
+      "ko": "붉다",
+      "romanization": "bukda",
+      "bn": "লালচে হওয়া (পেকে লাল ধরা)",
+      "en": "to be red",
+      "pos": "adjective",
       "example": {
-        "ko": "딸기를 따요.",
-        "bn": "স্ট্রবেরি পাড়ি।",
-        "en": "I pick strawberries."
+        "ko": "초록색 복숭아는 따지 말고 붉은 복숭아만 따세요.",
+        "bn": "সবুজ পিচফল তুলবেন না, শুধু লালচে হওয়াগুলো তুলুন।",
+        "en": "Don't pick the green peaches — only the red ones."
       },
-      "pronunciationTipBn": "'ㄸ' এর উচ্চারণ একটু জোর দিয়ে 'ত' এর মতো করুন (ত্তাদা)।"
+      "pronunciationTipBn": "붉다 → [북따]। জোড়া 'ㄺ' বাতচিমে কেবল 'ㄱ' শোনা যায় — 'বুল-দা' নয়, 'বুক-ত্তা'। কিন্তু '붉은' → [불근]।"
     },
     {
-      "ko": "캐다",
-      "romanization": "kaeda",
-      "bn": "মাটি খুঁড়ে তোলা",
-      "en": "to dig up",
-      "pos": "verb",
+      "ko": "살짝",
+      "romanization": "saljjak",
+      "bn": "হালকাভাবে, আলতো করে",
+      "en": "gently, lightly",
+      "pos": "adverb",
       "example": {
-        "ko": "감자를 캐요.",
-        "bn": "আলু খুঁড়ে তুলি।",
-        "en": "I dig up potatoes."
+        "ko": "옆으로 살짝 돌리면 쉽게 딸 수 있어요.",
+        "bn": "পাশে আলতো করে ঘোরালে সহজেই তোলা যায়।",
+        "en": "If you turn it gently to the side, it comes off easily."
       },
-      "pronunciationTipBn": "'ㅋ' এর উচ্চারণ 'খ' এর মতো করুন (খেদা)।"
+      "pronunciationTipBn": "살짝 → [살짝]। 'ㅉ' টান-টান শক্ত 'জ' — 'সাল-জাক' নয়, 'সাল-ছাক্'। ফল তোলার সময় জোর নয়, আলতো নাড়াই নিয়ম।"
+    },
+    {
+      "ko": "손자국이 남다",
+      "romanization": "sonjagugi namda",
+      "bn": "হাতের ছাপ পড়ে থাকা",
+      "en": "to leave handprints",
+      "pos": "phrase",
+      "example": {
+        "ko": "세게 누르면 손자국이 남고 검은색으로 변해요.",
+        "bn": "জোরে চাপ দিলে হাতের ছাপ পড়ে আর কালচে হয়ে যায়।",
+        "en": "If you press hard, handprints remain and it turns black."
+      },
+      "pronunciationTipBn": "손자국이 → [손자구기]। 'ㄱ' পরের স্বরে জুড়ে যায় — 'সোন-জা-গুক-ই' নয়, 'সোন-জা-গু-গি'।"
     }
   ],
   "grammar": [
     {
-      "pattern": "~아/어요 (현재 존댓말)",
-      "titleBn": "বর্তমান ক্রিয়া (존댓말)",
-      "explanationBn": "কোনও কাজ বর্তমানে ঘটে তা বলার বিন্যাস। রুট ভের্বার শেষ স্বর অনুযায়ী -아요 বা -어요 যোগ করুন। উদাহরণ:\n1) 물을 줘요. (আমি/তিনি পানি দেন।)\n2) 씨앗을 심어요. (বীজ বপন করে)\n3) 수확해요. (ফসল কাটা হয়)\n",
-      "explanationEn": "Present polite form. Add -아요 or -어요 to the verb stem depending on the vowel.\nExamples:\n1) 물을 줘요. (Water the plants.)\n2) 씨앗을 심어요. (Sow the seeds.)\n3) 수확해요. (Harvest.)",
+      "pattern": "V + -(으)ㄹ까 하다",
+      "titleBn": "'-(으)ㄹ까 하다' — 'করব বলে ভাবছি, কিন্তু এখনো পাকা হয়নি'",
+      "explanationBn": "'-(으)ㄹ까 하다' বোঝায় — বক্তার একটি পরিকল্পনা আছে, কিন্তু সেটি নিশ্চিত বা চূড়ান্ত নয়। বাংলায় 'ভাবছি' বা 'করি বলে ভাবছি' দিয়ে বোঝানো যায়। মূলে বাতচিম থাকলে '-을까 하다': 읽다 → 읽을까 하다। বাতচিম না থাকলে বা 'ㄹ' হলে '-ㄹ까 하다': 가다 → 갈까 하다, 뿌리다 → 뿌릴까 하다। কর্তা সর্বদা প্রথম পক্ষ (나, 저, 우리) — নিজের অনিশ্চিত পরিকল্পনাই জানানো যায়। '-(으)려고 하다' বা '-(으)ㄹ 것이다' নিশ্চিত পরিকল্পনা বোঝায়, কিন্তু '-(으)ㄹ까 하다' তে ইচ্ছাশক্তি নরম: '내일은 밭에 씨앗을 뿌릴까 해요' — শুনতে লাগে 'ভালো বলেই মনে করছি, তবে দেখা যাবে'।",
+      "explanationEn": "-(으)ㄹ까 하다 expresses a tentative intention — the speaker is thinking of doing something but hasn't decided for certain. Use -을까 하다 after a consonant (읽을까 하다) and -ㄹ까 하다 after a vowel or ㄹ (갈까 하다). The subject is always first person. Contrast with -(으)려고 하다 (firm plan) and -(으)ㄹ 것이다 (certain).",
       "examples": [
         {
-          "ko": "물을 줘요.",
-          "bn": "পানি দিই/দেন।",
-          "en": "I/They water (the plants)."
+          "ko": "내일은 밭에 씨앗을 뿌릴까 해요.",
+          "bn": "কাল খেতে বীজ ছিটাব ভাবছি।",
+          "en": "I'm thinking of sowing seeds in the field tomorrow."
         },
         {
-          "ko": "씨앗을 심어요.",
-          "bn": "বীজ বপন করি/করেন।",
-          "en": "I/They sow seeds."
+          "ko": "오늘은 복숭아부터 딸까 해요. 주말에 비가 온다고 하니까요.",
+          "bn": "আজ আগে পিচফলগুলোই তুলি বলে ভাবছি। সপ্তাহান্তে বৃষ্টি হবে বলে।",
+          "en": "I'm thinking of picking the peaches first today, since they say it'll rain on the weekend."
         },
         {
-          "ko": "잡초를 뽑아요.",
-          "bn": "আগাছা তুলি।",
-          "en": "I pull weeds."
+          "ko": "논에 물을 댈까 해요. 곧 모내기를 한다고 해서요.",
+          "bn": "ধানখেতে পানি দেব ভাবছি। শিগগিরই চারা রোপণ হবে বলে।",
+          "en": "I'm thinking of watering the paddy, since they say rice planting is soon."
+        },
+        {
+          "ko": "주말에 비닐하우스를 설치할까 해요.",
+          "bn": "সপ্তাহান্তে পলিহাউসটা বসাব ভাবছি।",
+          "en": "I'm thinking of setting up the greenhouse at the weekend."
         }
       ],
-      "commonMistakeBn": "অনেকে স্বরবর্ণের শেষে ভুল করে -어요 ব্যবহার করেন; ㅏ বা ㅗ থাকলে -아요 বসবে।"
+      "commonMistakeBn": "অন্যের পরিকল্পনা বোঝাতে ব্যবহার করা ভুল: '유수프 씨가 밭에 물을 댈까 해요' অস্বাভাবিক — আপনি কী করে অন্যজনের অনিশ্চিত ইচ্ছা জানবেন? অন্যজনের ক্ষেত্রে '-(으)려고 하다' বা '-(으)ㄹ 것이다' ব্যবহার করুন। আরেকটি ভুল হলো এটিকে পরামর্শের সঙ্গে গুলিয়ে ফেলা: '-(으)ㄹ까요?' প্রশ্নের রূপ, পরামর্শ বুঝি ('가볼까요?'), কিন্তু '-(으)ㄹ까 하다' নিজের ইচ্ছা বোঝায়।"
     },
     {
-      "pattern": "~고 있어요 (진행형)",
-      "titleBn": "গতিশীল ক্রিয়া (চলছে)",
-      "explanationBn": "কোন কাজ এখনই চলছে তা দেখায়। ক্রিয়ার ভিত্তি অংশে -고 있어요 যোগ করুন। উদাহরণ:\n1) 물을 주고 있어요. (এখন পানি দিচ্ছি)\n2) 잡초를 뽑고 있어요. (চলমান কাজ)\n",
-      "explanationEn": "Progressive form to show an action in progress. Add -고 있어요 to the verb stem.\nExamples:\n1) 물을 주고 있어요. (I am watering.)\n2) 잡초를 뽑고 있어요. (We are pulling weeds.)",
+      "pattern": "V + -지 말고",
+      "titleBn": "'-지 말고' — 'এটা না করে ওটা করুন' (নিষেধ + বিকল্প)",
+      "explanationBn": "'-지 말고' ক্রিয়ামূলের সঙ্গে বসে বোঝায় — আগের কাজটি করবেন না, তার বদলে পরের কাজটি করুন। এটি আসলে '-지 말다' (না-করা) রূপের সংযোজক রূপ, যেখানে একটি কাজ নিষেধ করে পাশাপাশি সঠিক বিকল্পটিও বলে দেওয়া হয়। বাতচিম থাকুক বা না থাকুক রূপ এক: 담다 → 담지 말고, 따다 → 따지 말고। কারখানা ও খামারে নির্দেশ দিতে এটি খুব কার্যকর, কারণ শুধু 'করবেন না' বললে কী করতে হবে তা বোঝা যায় না: '손으로 옮기지 말고 수레로 옮기세요' — হাতে নয়, গাড়িতে সরান। বিকল্প দিয়ে দেওয়াই এই রূপের মূল কথা।",
+      "explanationEn": "-지 말고 attaches to a verb to mean 'don't do X, do Y instead'. It combines a prohibition with the correct alternative. The form never changes. Unlike bare -지 마세요, it provides the replacement action, which makes it clearer and more useful for workplace instructions.",
       "examples": [
         {
-          "ko": "물을 주고 있어요.",
-          "bn": "এখন পানি দিচ্ছি।",
-          "en": "I am watering now."
+          "ko": "초록색 복숭아는 따지 말고 붉은 복숭아만 따면 돼요.",
+          "bn": "সবুজ পিচফল তুলবেন না, শুধু লালচে হওয়াগুলো তুললেই হবে।",
+          "en": "Don't pick the green peaches — only the red ones."
         },
         {
-          "ko": "파종하고 있어요.",
-          "bn": "বীজ বপন করছি।",
-          "en": "I am sowing now."
+          "ko": "사과를 상자에 담지 말고 분류 작업부터 하세요.",
+          "bn": "আপেল বাক্সে ভরবেন না, আগে ভাগ করার কাজটা করে নিন।",
+          "en": "Don't put the apples in boxes — sort them first."
         },
         {
-          "ko": "수확하고 있어요.",
-          "bn": "ফসল কাটছি।",
-          "en": "I am harvesting."
+          "ko": "손으로 옮기지 말고 수레로 옮기세요.",
+          "bn": "হাতে সরাবেন না, ঠেলাগাড়ি দিয়ে সরান।",
+          "en": "Don't move it by hand — use the cart."
+        },
+        {
+          "ko": "더우니까 에어컨을 끄지 말고 켜 두세요.",
+          "bn": "গরম, তাই এসি বন্ধ না করে চালু রাখুন।",
+          "en": "It's hot, so don't turn the air conditioner off — keep it on."
         }
       ],
-      "commonMistakeBn": "অনেকে অতীত কালের সাথে এটি গুলিয়ে ফেলেন; এটি শুধু বর্তমানে চলমান কাজের জন্য ব্যবহৃত হয়।"
+      "commonMistakeBn": "'-지 말고' এর পরে নির্দেশ বা আবশ্যিক রূপই বসে — বিবৃতি বসানো ভুল। আরেকটি বিষয় — '-지 말고' আর '대신에': দুটোই বিকল্প বোঝায়, তবে '-지 말고' বেশি সরাসরি ও নির্দেশমূলক, আর '대신에' বদলের কথাটাই জোর দেয়। খেয়াল রাখুন, পেছনের কাজটা কখনোই করবেন না: '먹지 말고 가세요' মানে খাবেন না, যান — কেবল দ্বিতীয় কাজটিই করুন।"
     },
     {
-      "pattern": "~(으)세요 (요청/명령)",
-      "titleBn": "নির্দেশ বা অনুরোধ (ভদ্র)",
-      "explanationBn": "কোনও কাকে অনুরোধ বা বিনীত নির্দেশ দিতে ব্যবহার করুন। বাক্য রুটের পরে -(으)세요 যোগ করুন। উদাহরণ:\n1) 물을 주세요. (অনুরোধ)\n2) 비료를 뿌리세요. (নির্দেশ)\n",
-      "explanationEn": "Use to give polite requests or commands. Add -(으)세요 to the verb stem.\nExamples:\n1) 물을 주세요. (Please give water.)\n2) 비료를 뿌리세요. (Please apply fertilizer.)",
+      "pattern": "V + -아/어 두다",
+      "titleBn": "'-아/어 두다' — 'করে রেখে দেওয়া' (পরে কাজে লাগবে বলে)",
+      "explanationBn": "'-아/어 두다' বোঝায় — কোনো কাজ করে সেই অবস্থায় রেখে দেওয়া, যাতে পরে কাজে লাগে। মূলের শেষ স্বর 'ㅏ' বা 'ㅗ' হলে '-아 두다': 놓다 → 놓아 두다। অন্য স্বর হলে '-어 두다': 켜다 → 켜 두다, 꺼내다 → 꺼내 두다। '-아/어 놓다'-এর সঙ্গে অর্থ প্রায় এক, তবে '-아/어 두다' একটু বেশি সময় ধরে রেখে দেওয়ার ভাব দেয় — যেন ভবিষ্যতের জন্য সংরক্ষণ। খামারে আগাম প্রস্তুতির কথা বলতে এটি খুব কাজে লাগে: '창고에서 삽도 꺼내 놓고요' বা '제가 미리 가져다 두었어요' — আগেই এনে রেখে দিয়েছি।",
+      "explanationEn": "-아/어 두다 means to do something and leave it in that state for later use. Use -아 두다 after ㅏ/ㅗ stems and -어 두다 elsewhere. It overlaps with -아/어 놓다 but suggests keeping something ready for a longer stretch of time.",
       "examples": [
         {
-          "ko": "물을 주세요.",
-          "bn": "পানি দিন। (অনুরোধ)",
-          "en": "Please give water."
+          "ko": "제가 미리 가져다 두었어요.",
+          "bn": "আমি আগেই এনে রেখে দিয়েছি।",
+          "en": "I brought it and put it there in advance."
         },
         {
-          "ko": "제초제를 치우세요.",
-          "bn": "গাছপালা নাশক সরান।",
-          "en": "Please remove the herbicide."
+          "ko": "더우니까 에어컨을 켜 두세요.",
+          "bn": "গরম, তাই এসিটা চালু রেখে দিন।",
+          "en": "It's hot, so leave the air conditioner on."
         },
         {
-          "ko": "씨앗을 심으세요.",
-          "bn": "বীজ বপন করুন।",
-          "en": "Please sow the seeds."
+          "ko": "내일 쓸 비료를 창고에 준비해 두었습니다.",
+          "bn": "কাল যে সার লাগবে, সেটা গুদামে তৈরি করে রেখেছি।",
+          "en": "I've got the fertilizer for tomorrow ready in the warehouse."
         }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণ দিয়ে শেষ হওয়া শব্দের পরে শুধু -세요 ব্যবহার করেন; ব্যঞ্জনবর্ণ থাকলে -으세요 বসবে।"
+      "commonMistakeBn": "'-아/어 두다' আর '-고 있다' গুলিয়ে ফেলা ভুল: '켜고 있어요' মানে এখন চালু করছি (কাজটা চলছে), কিন্তু '켜 두었어요' মানে চালু করে রেখে দিয়েছি (অবস্থাটা রয়ে গেছে)। আরেকটি বিষয় — '두다' নিজেই 'রাখা' অর্থে আলাদা ক্রিয়া হিসেবেও চলে: '여기에 두세요' — এখানে রাখুন।"
     },
     {
-      "pattern": "~기 전에 (시간)",
-      "titleBn": "সময়ের আগে",
-      "explanationBn": "কোনো কাজ করার আগে অন্য একটি কাজ করা বোঝাতে ক্রিয়ার মূল অংশের সাথে -기 전에 যোগ করা হয়। উদাহরণ:\n1) 밥을 먹기 전에 손을 씻어요. (ভাত খাওয়ার আগে হাত ধুই।)\n2) 퇴근하기 전에 청소하세요. (কাজ শেষ করার আগে পরিষ্কার করুন।)",
-      "explanationEn": "Used to express doing something before another action. Add -기 전에 to the verb stem.\nExamples:\n1) 밥을 먹기 전에 손을 씻어요. (Wash hands before eating.)\n2) 퇴근하기 전에 청소하세요. (Clean up before leaving work.)",
+      "pattern": "V + -(으)ㄹ 뻔했다",
+      "titleBn": "'-(으)ㄹ 뻔했다' — 'প্রায় হয়ে যাচ্ছিল, কিন্তু হয়নি'",
+      "explanationBn": "'-(으)ㄹ 뻔했다' বোঝায় — কোনো কিছু প্রায় ঘটে যাচ্ছিল, কিন্তু শেষ পর্যন্ত ঘটেনি। বাংলায় 'প্রায় ... যাচ্ছিলাম' দিয়ে বোঝানো যায়। মূলে বাতচিম থাকলে '-을 뻔했다': 죽다 → 죽을 뻔했다। বাতচিম না থাকলে বা 'ㄹ' হলে '-ㄹ 뻔했다': 넘어지다 → 넘어질 뻔했다, 다치다 → 다칠 뻔했다। সবসময় অতীত রূপেই বসে ('뻔하다' নয়, '뻔했다'), কারণ ঘটনাটা ইতিমধ্যেই এড়ানো গেছে। খামার ও কারখানার প্রায়-দুর্ঘটনা বর্ণনায় এটি অপরিহার্য: '사다리에서 떨어질 뻔했어요' — মাচা থেকে প্রায় পড়েই যাচ্ছিলাম।",
+      "explanationEn": "-(으)ㄹ 뻔했다 says something nearly happened but did not. Use -을 뻔했다 after a consonant and -ㄹ 뻔했다 after a vowel or ㄹ. It always appears in the past tense, since the event was already avoided. Essential for describing near-misses at work.",
       "examples": [
         {
-          "ko": "씨앗을 심기 전에 밭을 고르세요.",
-          "bn": "বীজ বপন করার আগে খেত সমান করুন।",
-          "en": "Level the field before sowing seeds."
+          "ko": "사다리에서 떨어질 뻔했어요.",
+          "bn": "মাচা থেকে প্রায় পড়েই যাচ্ছিলাম।",
+          "en": "I almost fell off the ladder."
         },
         {
-          "ko": "비료를 주기 전에 물을 주세요.",
-          "bn": "সার দেওয়ার আগে পানি দিন।",
-          "en": "Give water before applying fertilizer."
+          "ko": "지주대가 넘어져서 다칠 뻔했습니다.",
+          "bn": "খুঁটিটা পড়ে গিয়ে প্রায় চোট পেয়ে যাচ্ছিলাম।",
+          "en": "The support post fell over and I almost got hurt."
         },
         {
-          "ko": "퇴근하기 전에 농기구를 씻으세요.",
-          "bn": "কাজ শেষ করার আগে কৃষি সরঞ্জাম ধোবেন।",
-          "en": "Wash the farming tools before leaving work."
+          "ko": "이 많은 상자를 혼자 옮겨서 힘들어서 죽을 뻔했어요.",
+          "bn": "এত বাক্স একা সরাতে গিয়ে কষ্টে প্রাণ যাওয়ার জোগাড়।",
+          "en": "I moved all these boxes alone — it nearly killed me."
         }
       ],
-      "commonMistakeBn": "অনেকে বিশেষ্যের পরে -기 전에 ব্যবহার করেন; বিশেষ্যের পরে শুধু -전에 বসবে (যেমন: 식사 전에)।"
+      "commonMistakeBn": "বর্তমান রূপে '-(으)ㄹ 뻔하다' বলা ভুল — সবসময় '뻔했다' হয়, কারণ ঘটনাটা এড়ানো হয়ে গেছে। আরেকটি ভুল হলো সত্যিই ঘটে যাওয়া ঘটনায় এটি ব্যবহার করা: সত্যিই পড়ে গেলে '떨어졌어요' বলুন, '떨어질 뻔했어요' নয় — শেষেরটি মানে পড়েননি।"
     },
     {
-      "pattern": "~(으)면 안 되다 (금지)",
-      "titleBn": "নিষেধাজ্ঞা",
-      "explanationBn": "কোনো কাজ করা নিষেধ বা উচিত নয় বোঝাতে ব্যবহৃত হয়। ক্রিয়ার মূল অংশ ব্যঞ্জনবর্ণ দিয়ে শেষ হলে -으면 안 되다 এবং স্বরবর্ণ দিয়ে শেষ হলে -면 안 되다 যোগ করা হয়।",
-      "explanationEn": "Used to express prohibition or that something should not be done. Add -(으)면 안 되다 to the verb stem.",
+      "pattern": "V/A + -(으)ㄴ/는 것 같다",
+      "titleBn": "'-(으)ㄴ/는 것 같다' — 'মনে হচ্ছে এমনটাই হয়েছে' (চিহ্ন দেখে সিদ্ধান্ত)",
+      "explanationBn": "'-것 같다' বোঝায় — চোখের সামনে যা দেখা যাচ্ছে, তার ভিত্তিতে বক্তা একটা সিদ্ধান্তে আসছেন, তবে পুরোপুরি নিশ্চিত নন। ক্রিয়ার অতীত রূপে '-(으)ㄴ 것 같다': 먹다 → 먹은 것 같다, 들어오다 → 들어온 것 같다। ক্রিয়ার চলমান রূপে '-는 것 같다': 오다 → 오는 것 같다। বিশেষণে '-(으)ㄴ 것 같다': 깊다 → 깊은 것 같다। খামারে ক্ষতির চিহ্ন দেখে কারণ অনুমান করতে এটি অপরিহার্য: '고라니가 열매를 따 먹은 것 같네요' — হরিণ ফল খেয়ে গেছে বলে মনে হচ্ছে (নিজে দেখিনি, কিন্তু চিহ্ন বলছে)।",
+      "explanationEn": "-것 같다 draws a tentative conclusion from visible evidence. Use -(으)ㄴ 것 같다 for a completed action (먹은 것 같다), -는 것 같다 for an ongoing one (오는 것 같다), and -(으)ㄴ 것 같다 for adjectives (깊은 것 같다). Essential for inferring a cause from the traces it left.",
       "examples": [
         {
-          "ko": "농약을 너무 많이 치면 안 돼요.",
-          "bn": "কীটনাশক খুব বেশি ছিটানো উচিত নয়।",
-          "en": "You shouldn't spray too much pesticide."
+          "ko": "밤에 고라니가 내려와서 열매와 잎사귀를 따 먹은 것 같네요.",
+          "bn": "রাতে হরিণ নেমে এসে ফল আর পাতা খেয়ে গেছে বলে মনে হচ্ছে।",
+          "en": "It seems water deer came down at night and ate the fruit and leaves."
         },
         {
-          "ko": "비닐하우스 문을 열어두면 안 돼요.",
-          "bn": "গ্রিনহাউসের দরজা খোলা রাখা উচিত নয়।",
-          "en": "You shouldn't leave the greenhouse door open."
+          "ko": "여기 보니까 울타리망 밑으로 들어온 것 같아요.",
+          "bn": "এদিকটা দেখে মনে হচ্ছে জালের বেড়ার নিচ দিয়ে ঢুকেছে।",
+          "en": "Looking here, it seems they got in under the net fence."
         },
         {
-          "ko": "작물을 밟으면 안 돼요.",
-          "bn": "ফসলের উপর পা দেওয়া নিষেধ।",
-          "en": "You must not step on the crops."
+          "ko": "뿌리가 깊은 것 같으니까 호미를 쓰세요.",
+          "bn": "শিকড় গভীর বলে মনে হচ্ছে, তাই নিড়ানি ব্যবহার করুন।",
+          "en": "The roots seem deep, so use a hoe."
         }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণ দিয়ে শেষ হওয়া শব্দের পরে শুধু -면 안 되다 ব্যবহার করেন; ব্যঞ্জনবর্ণ থাকলে -으면 안 되다 বসবে।"
+      "commonMistakeBn": "ক্রিয়ার অতীত ও বর্তমান রূপ গুলিয়ে ফেলা সাধারণ ভুল: '먹는 것 같다' মানে 'এখন খাচ্ছে বলে মনে হচ্ছে', কিন্তু '먹은 것 같다' মানে 'খেয়ে ফেলেছে বলে মনে হচ্ছে'। ক্ষতির চিহ্ন দেখে বলতে হলে অতীত রূপই লাগবে। আরেকটি বিষয় — নিজের কাজ নিয়ে এটি বলা অস্বাভাবিক: '제가 먹은 것 같아요' শুনতে অদ্ভুত, কারণ নিজে খেয়েছেন কিনা তা তো জানেনই।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "বীজ বপন 준비",
-      "titleEn": "Preparing to Sow",
+      "titleBn": "খেতের ক্ষতি — বন্যপ্রাণী ঢোকা আটকানো",
+      "titleEn": "Damage in the Field",
       "lines": [
         {
-          "speaker": "농장주",
-          "ko": "오늘 파종을 시작합니다. 씨앗을 준비했나요?",
-          "bn": "আজ বপন শুরু করছি। বীজগুলো আছে কি?",
-          "en": "We start sowing today. Did you prepare the seeds?"
+          "speaker": "다린두",
+          "ko": "사장님, 밭이 엉망이에요. 땅도 파이고 나뭇가지들도 다 부러졌어요.",
+          "bn": "স্যার, খেতটা একেবারে লন্ডভন্ড। মাটিও খোঁড়া হয়ে গেছে, গাছের ডালগুলোও সব ভেঙে গেছে।",
+          "en": "Boss, the field is a mess. The ground is dug up and the branches are all broken."
         },
         {
-          "speaker": "일꾼",
-          "ko": "네, 씨앗과 흙을 준비했습니다.",
-          "bn": "হ্যাঁ, বীজ এবং মাটি প্রস্তুত আছে।",
-          "en": "Yes, the seeds and soil are ready."
+          "speaker": "사장님",
+          "ko": "이런, 밤에 고라니가 내려와서 열매와 잎사귀를 따 먹은 것 같네요.",
+          "bn": "আরে, রাতে হরিণ নেমে এসে ফল আর পাতা খেয়ে গেছে বলে মনে হচ্ছে।",
+          "en": "Oh no, it seems water deer came down at night and ate the fruit and leaves."
         },
         {
-          "speaker": "농장주",
-          "ko": "먼저 밭을 고르고 물을 주세요.",
-          "bn": "প্রথমে খেত সমান করে পানি দিন।",
-          "en": "First level the field and water it."
+          "speaker": "다린두",
+          "ko": "여기 보니까 울타리망 밑으로 들어온 것 같아요.",
+          "bn": "এদিকটা দেখে মনে হচ্ছে জালের বেড়ার নিচ দিয়ে ঢুকেছে।",
+          "en": "Looking here, it seems they got in under the net fence."
         },
         {
-          "speaker": "일꾼",
-          "ko": "알겠습니다. 몇 줄을 심을까요?",
-          "bn": "বুঝেছি। কত সারি বপন করব?",
-          "en": "Understood. How many rows shall we sow?"
+          "speaker": "사장님",
+          "ko": "그러네요. 울타리망을 튼튼한 것으로 다시 쳐야겠어요. 창고에 울타리망이 있는데 좀 갖다주세요.",
+          "bn": "তাই তো। জালের বেড়াটা মজবুত দিয়ে আবার লাগাতে হবে। গুদামে জাল আছে, একটু এনে দিন।",
+          "en": "You're right. We should put up a sturdier net fence. There's one in the warehouse — please bring it."
         },
         {
-          "speaker": "농장주",
-          "ko": "세 줄씩 구멍을 만들고 파종하세요.",
-          "bn": "প্রতি তিন সারি করে গর্ত করে বপন করুন।",
-          "en": "Make holes in three-row groups and sow."
+          "speaker": "다린두",
+          "ko": "네. 여기 지주대도 넘어져서 다시 박아야겠어요.",
+          "bn": "জি। এখানকার খুঁটিটাও পড়ে গেছে, আবার গেঁথে দিতে হবে।",
+          "en": "Sure. The support post here has fallen too, so we'll need to drive it back in."
+        },
+        {
+          "speaker": "사장님",
+          "ko": "그럼 망치하고 케이블타이도 같이 가져오세요.",
+          "bn": "তাহলে হাতুড়ি আর কেবল-টাইও একসঙ্গে নিয়ে আসুন।",
+          "en": "Then bring the hammer and cable ties as well."
         }
       ]
     },
     {
-      "titleBn": "수확 후 정리",
-      "titleEn": "After Harvest Cleanup",
+      "titleBn": "পিচফল তোলার নিয়ম — কোনটা তুলবেন, কীভাবে",
+      "titleEn": "How to Pick Peaches",
       "lines": [
         {
-          "speaker": "관리자",
-          "ko": "수확이 끝났습니다. 창고로 옮기세요.",
-          "bn": "ফসল কাটা শেষ হয়েছে। গুদামে সরান।",
-          "en": "Harvest is finished. Move them to the storage."
+          "speaker": "반장님",
+          "ko": "주말에 비가 온다고 하니까 오늘은 복숭아부터 땁시다.",
+          "bn": "সপ্তাহান্তে বৃষ্টি হবে বলছে, তাই আজ আগে পিচফলগুলো তুলি।",
+          "en": "They say it'll rain at the weekend, so let's pick the peaches first today."
         },
         {
-          "speaker": "작업자",
-          "ko": "상태를 확인했어요. 상한 것은 따로 모았습니다.",
-          "bn": "অবস্থা পরীক্ষা করেছি। নষ্টগুলো আলাদা করে রেখেছি।",
-          "en": "I checked the condition. Rotten ones are separated."
+          "speaker": "아지자",
+          "ko": "복숭아를 처음 따 보는데 어떻게 하면 돼요?",
+          "bn": "প্রথমবার পিচফল তুলছি — কীভাবে করলে হবে?",
+          "en": "This is my first time picking peaches — how should I do it?"
         },
         {
-          "speaker": "관리자",
-          "ko": "도구를 세척하고 제자리에 두세요.",
-          "bn": "সরঞ্জামগুলো ধুয়ে রেখে দিন।",
-          "en": "Clean the tools and put them in place."
+          "speaker": "반장님",
+          "ko": "먼저 복숭아 나뭇가지를 위로 올리세요. 그리고 초록색 복숭아는 따지 말고 붉은 복숭아만 따면 돼요.",
+          "bn": "আগে পিচগাছের ডালটা উপরে তুলুন। আর সবুজ পিচফল তুলবেন না, শুধু লালচে হওয়াগুলো তুললেই হবে।",
+          "en": "First lift the peach branch upward. And don't pick the green ones — just the red ones."
         },
         {
-          "speaker": "작업자",
-          "ko": "네, 바로 하겠습니다.",
-          "bn": "ঠিক আছে, এখনই করব।",
-          "en": "Okay, I'll do it right away."
+          "speaker": "아지자",
+          "ko": "그런데 복숭아를 손으로 따요?",
+          "bn": "কিন্তু পিচফল কি হাত দিয়েই তোলা হয়?",
+          "en": "But are peaches picked by hand?"
         },
         {
-          "speaker": "관리자",
-          "ko": "내일은 관개 시스템을 점검합니다.",
-          "bn": "আগামীকাল সেচ ব্যবস্থা পরীক্ষা করবো।",
-          "en": "Tomorrow we will check the irrigation system."
+          "speaker": "반장님",
+          "ko": "네. 익은 복숭아는 옆으로 살짝 돌리면 쉽게 딸 수 있어요. 복숭아에 털이 있으니까 장갑을 벗지 말고 꼭 끼고 따세요.",
+          "bn": "হ্যাঁ। পাকা পিচফল পাশে আলতো করে ঘোরালে সহজেই খুলে আসে। পিচফলে লোম থাকে, তাই দস্তানা খুলবেন না — পরেই তুলুন।",
+          "en": "Yes. Ripe peaches come off easily if you turn them gently sideways. Peaches have fuzz, so don't take your gloves off — keep them on."
+        },
+        {
+          "speaker": "반장님",
+          "ko": "그런데 복숭아를 손으로 세게 누르면 손자국이 남고 검은색으로 변하니까 조심해야 돼요.",
+          "bn": "আর হাত দিয়ে জোরে চাপ দিলে হাতের ছাপ পড়ে যায় আর কালচে হয়ে যায়, তাই সাবধান থাকতে হবে।",
+          "en": "But if you press hard with your hand, handprints remain and it turns black, so be careful."
         }
       ]
     },
     {
-      "titleBn": "কীটনাশক ছিটানো",
-      "titleEn": "Spraying Pesticide",
+      "titleBn": "আপেল ভাগ করে বাক্সে ভরা ও ট্রাকে তোলা",
+      "titleEn": "Sorting Apples and Loading the Truck",
       "lines": [
         {
-          "speaker": "반장",
-          "ko": "오늘 오후에 배추밭에 농약을 쳐야 해요.",
-          "bn": "আজ বিকেলে বাঁধাকপি খেতে কীটনাশক ছিটাতে হবে।",
-          "en": "We need to spray pesticide on the cabbage field this afternoon."
+          "speaker": "사장님",
+          "ko": "사과를 상자에 담아서 트럭에 실어 주세요.",
+          "bn": "আপেলগুলো বাক্সে ভরে ট্রাকে তুলে দিন।",
+          "en": "Please put the apples in boxes and load them onto the truck."
         },
         {
-          "speaker": "직원",
-          "ko": "네, 알겠습니다. 농약은 어디에 있어요?",
-          "bn": "হ্যাঁ, বুঝেছি। কীটনাশক কোথায় আছে?",
-          "en": "Yes, understood. Where is the pesticide?"
+          "speaker": "다린두",
+          "ko": "이 사과를 다 상자에 담으면 돼요?",
+          "bn": "এই আপেলগুলো সব বাক্সে ভরলেই হবে?",
+          "en": "Should I put all of these apples in boxes?"
         },
         {
-          "speaker": "반장",
-          "ko": "창고에 있어요. 농약을 칠 때 꼭 마스크를 쓰세요.",
-          "bn": "গুদামে আছে। কীটনাশক ছিটানোর সময় অবশ্যই মাস্ক পরবেন।",
-          "en": "It's in the warehouse. Make sure to wear a mask when spraying pesticide."
+          "speaker": "사장님",
+          "ko": "아니요. 작은 사과는 상자에 담지 말고 큰 사과만 담으세요. 작은 것은 따로 모아 두세요.",
+          "bn": "না। ছোট আপেল বাক্সে ভরবেন না, শুধু বড়গুলো ভরুন। ছোটগুলো আলাদা করে জমিয়ে রাখুন।",
+          "en": "No. Don't box the small apples — only the big ones. Set the small ones aside separately."
         },
         {
-          "speaker": "직원",
-          "ko": "네, 마스크와 장갑을 끼고 할게요.",
-          "bn": "হ্যাঁ, মাস্ক এবং গ্লাভস পরে করব।",
-          "en": "Yes, I will do it wearing a mask and gloves."
+          "speaker": "다린두",
+          "ko": "알겠습니다. 그런데 상자가 무거운데 혼자 옮겨도 될까요?",
+          "bn": "বুঝেছি। কিন্তু বাক্সটা ভারী, একা সরালে চলবে?",
+          "en": "Understood. But the boxes are heavy — should I move them alone?"
         },
         {
-          "speaker": "반장",
-          "ko": "바람이 불면 조심하세요.",
-          "bn": "বাতাস বইলে সাবধানে থাকবেন।",
-          "en": "Be careful if the wind blows."
+          "speaker": "사장님",
+          "ko": "아니요, 손으로 옮기지 말고 수레로 옮기세요. 지난번에 혼자 들다가 넘어질 뻔했잖아요.",
+          "bn": "না, হাতে বইবেন না — ঠেলাগাড়ি দিয়ে নিন। গতবার একা তুলতে গিয়ে প্রায় পড়েই যাচ্ছিলেন তো।",
+          "en": "No, don't carry them by hand — use the cart. Last time you almost fell trying to lift them alone."
+        },
+        {
+          "speaker": "다린두",
+          "ko": "네, 조심하겠습니다. 수레는 제가 미리 밭 앞에 가져다 두었어요.",
+          "bn": "জি, সাবধান থাকব। ঠেলাগাড়িটা আমি আগেই খেতের সামনে এনে রেখেছি।",
+          "en": "Yes, I'll be careful. I already brought the cart to the front of the field."
         }
       ]
     }
@@ -676,582 +743,569 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "এই শব্দটির বাংলা অর্থ কী? '씨앗'",
-      "questionKo": "'씨앗'의 뜻은 무엇입니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন যন্ত্রের? — '밭에서 고구마를 캐거나 잡초의 뿌리를 제거할 때 손에 들고 사용하는 작업 도구입니다.'",
+      "questionKo": "다음은 무엇에 대한 설명입니까? '밭에서 고구마를 캐거나 잡초의 뿌리를 제거할 때 손에 들고 사용하는 작업 도구입니다.'",
       "options": [
-        "수확",
-        "뿌리",
-        "물주기",
-        "씨앗"
+        "호미",
+        "낫",
+        "경운기",
+        "울타리망"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "'씨앗' মানে বীজ। তাই সঠিক উত্তর 1 নম্বর।"
+      "answer": 0,
+      "explanationBn": "হাতে ধরে মাটি খুঁড়ে আলু তোলা বা আগাছার শিকড় ওঠানোর যন্ত্র হলো '호미' (নিড়ানি)। '낫' ঘাস বা ধান কাটে, '경운기' বড় চাষযন্ত্র, আর '울타리망' বেড়া।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "কোনটি '관개' (জলসেচ) বোঝায়?",
-      "questionKo": "'관개'는 무엇을 말합니까?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 밭에 ___을/를 뿌리면 땅에 영양분이 많아져서 작물이 튼튼하게 자랍니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
-        "수확",
-        "온도 측정",
-        "물 공급",
-        "잡초 제거"
+        "씨앗",
+        "농약",
+        "거름",
+        "낙엽"
       ],
-      "pairs": [],
       "answer": 2,
-      "explanationBn": "'관개' মানে সেচ বা পানি দেওয়া। তাই 2 নম্বর সঠিক।"
+      "explanationBn": "মাটিতে পুষ্টি বাড়ায় '거름' (জৈব সার)। '씨앗' বীজ — সেটা ছিটালে গাছ হয়, পুষ্টি বাড়ে না; '농약' কীটনাশক; '낙엽' ঝরা পাতা।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "বাক্যটি শুদ্ধ করুন: '물을 ___.' (현재 진행형)",
-      "questionKo": "문장을 완성하세요: '물을 ___.' (진행형)",
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄹ까 하다' বসান: 내일은 밭에 씨앗을 ___. (뿌리다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "줬어요",
-        "주고 있어요",
-        "줄게요",
-        "주다"
+        "뿌리을까 해요",
+        "뿌릴까요",
+        "뿌릴까 해요",
+        "뿌렸을까 해요"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "প্রশ্নে বর্তমানে চলছে (진행형) চাই, তাই '주고 있어요' সঠিক।"
+      "answer": 2,
+      "explanationBn": "'뿌리다' স্বরান্ত মূল, তাই '-ㄹ까 하다' বসে: 뿌릴까 해요। '뿌릴까요?' প্রশ্ন বা প্রস্তাব বোঝাত, আর অতীত রূপ এখানে মানায় না — পরিকল্পনা তো ভবিষ্যতের।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "করণীয় অনুরোধের ভদ্র রূপ কোনটি? (দয়া করে পানি দিন)",
-      "questionKo": "정중한 요청 표현으로 옳은 것은?",
+      "type": "fill-blank",
+      "questionBn": "'-지 말고' বসান: 초록색 복숭아는 ___ 붉은 복숭아만 따세요. (따다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "물을 주세요",
-        "물을 줘라",
-        "물을 줘",
-        "물을 준다"
+        "따고",
+        "따지 말고",
+        "따서",
+        "따면"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "'물을 주세요' হচ্ছে ভদ্র অনুরোধ। তাই 2 নম্বর।"
+      "answer": 1,
+      "explanationBn": "সবুজ ফল তোলা নিষেধ আর তার বদলে লালচেগুলো তুলতে বলা হচ্ছে — এই 'নিষেধ + বিকল্প' বোঝাতে '-지 말고' বসে। '따고' দুটোই করতে বলত, যা উল্টো অর্থ।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "কোন শব্দটি '병충해' সম্পর্কিত? (রোগ বা কীট)",
-      "questionKo": "'병충해'와 관련된 것은?",
-      "options": [
-        "비료",
-        "줄기",
-        "온도",
-        "해충"
+      "type": "matching",
+      "questionBn": "চাষের যন্ত্রপাতির সঙ্গে তার কাজ মেলান।",
+      "questionKo": "농기구와 용도를 연결하세요.",
+      "pairs": [
+        {
+          "left": "호미",
+          "right": "মাটি খুঁড়ে শিকড় বা আলু তোলা"
+        },
+        {
+          "left": "예초기",
+          "right": "আগাছা কেটে ফেলা"
+        },
+        {
+          "left": "수레",
+          "right": "ভারী জিনিস ঠেলে সরানো"
+        },
+        {
+          "left": "사다리",
+          "right": "উঁচু ডালের ফল তোলা"
+        },
+        {
+          "left": "울타리망",
+          "right": "বন্যপ্রাণী ঢোকা আটকানো"
+        }
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "'병충해' হলো রোগ ও কীট; '해충' (পেস্ট) তাই 2 নম্বর।"
+      "explanationBn": "খামারের প্রতিটি যন্ত্রের একটি নির্দিষ্ট কাজ আছে। খেয়াল রাখুন — '호미' ছোট, হাতে ধরার যন্ত্র; আর '예초기' মোটরচালিত, তাই এটি চালানোর সময় নিরাপত্তা চশমা ও দস্তানা বাধ্যতামূলক।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: '매일 아침에 ___ 합니다.' (পানি দেওয়া)",
-      "questionKo": "빈칸을 채우세요: '매일 아침에 ___ 합니다.'",
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 포도에 봉지를 ___ 농약이 포도에 닿지 않습니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
-        "파종",
-        "경작",
-        "물주기",
-        "수확"
+        "옮기면",
+        "뽑으면",
+        "박으면",
+        "씌우면"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "প্রশ্নে প্রতিদিন সকালে করা কাজ '물주기' (পানি দেওয়া)। তাই 0।"
+      "answer": 3,
+      "explanationBn": "ফলের উপর ঠোঙা পরানো বোঝাতে '씌우다' বসে। '옮기다' সরানো, '뽑다' টেনে তোলা, '박다' গেঁথে দেওয়া — কোনোটিই ঠোঙা পরানো বোঝায় না।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: '씨앗을 뿌리고 지금 ___ 있어요.' (বপন চলছে)",
-      "questionKo": "빈칸을 채우세요: '씨앗을 뿌리고 지금 ___ 있어요.'",
+      "questionBn": "'-(으)ㄴ 것 같다' বসান: 고라니가 열매를 다 따 ___. (먹다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "심을",
-        "심고 있어요",
-        "심었다",
-        "심고"
+        "먹는 것 같아요",
+        "먹은 것 같아요",
+        "먹을 것 같아요",
+        "먹던 것 같아요"
       ],
-      "pairs": [],
       "answer": 1,
-      "explanationBn": "'지금 ___ 있어요' মানে চলমান কাজ; '심고 있어요' সঠিক।"
+      "explanationBn": "ক্ষতির চিহ্ন দেখে বোঝা যাচ্ছে কাজটা ইতিমধ্যেই ঘটে গেছে, তাই অতীতের '-(으)ㄴ 것 같다' বসে। '먹는 것 같아요' মানে এখন খাচ্ছে, '먹을 것 같아요' মানে খাবে — দুটোই এখানে ভুল।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: '제초제를 ___ 주세요.' (অনুরোধ)",
-      "questionKo": "빈칸을 채우세요: '제초제를 ___ 주세요.'",
+      "type": "multiple-choice",
+      "questionBn": "'뽑다' আর '캐다' — পার্থক্য কী?",
+      "questionKo": "다음 두 단어의 차이로 알맞은 것을 고르세요.",
       "options": [
-        "뿌려 주세요",
-        "뿌려",
-        "뿌리",
-        "뿌려요"
+        "뽑다 খুঁড়ে তোলা, 캐다 টেনে তোলা",
+        "দুটোই একই অর্থ",
+        "뽑다 লাগানো, 캐다 কাটা",
+        "뽑다 টেনে তোলা, 캐다 খুঁড়ে তোলা"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "ভদ্র অনুরোধে '뿌려 주세요' ব্যবহার করুন। তাই 3 নম্বর।"
+      "answer": 3,
+      "explanationBn": "'뽑다' মানে ধরে টেনে তোলা (배추를 뽑다), আর '캐다' মানে মাটি খুঁড়ে বের করা (고구마를 캐다)। শিকড়-জাতীয় ফসল মাটির নিচে থাকে বলে সেখানে '캐다' লাগে, নিড়ানি দিয়ে।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কী শব্দগুলো বাংলা অর্থের সাথে মিলান।",
-      "questionKo": "단어를 뜻과 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "수확",
-          "right": "ফসল তোলা"
-        },
-        {
-          "left": "비료",
-          "right": "সার"
-        },
-        {
-          "left": "뿌리",
-          "right": "মূল"
-        },
-        {
-          "left": "관개",
-          "right": "জলসেচ"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-아/어 두다' বসান: 제가 수레를 미리 밭 앞에 ___. (가져다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "가져다 있어요",
+        "가져다 가요",
+        "가져다 두었어요",
+        "가져다 봐요"
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া নিজেই মিলছে: 수확=ফসল তোলা, 비료=সার, ইত্যাদি।"
+      "answer": 2,
+      "explanationBn": "পরে কাজে লাগবে বলে আগেই এনে রেখে দেওয়া — এই অর্থে '-아/어 두다' বসে: 가져다 두었어요। '-고 있다' মানে এখন আনছি, যা এখানে বোঝানো হচ্ছে না।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "কী কাজগুলো সঠিক ক্রিয়ার সাথে মিলান।",
-      "questionKo": "작업을 동사와 연결하세요.",
-      "options": [],
+      "questionBn": "ফসলের নামের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "농작물의 이름과 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "씨앗",
-          "right": "파종"
+          "left": "고구마",
+          "right": "মিষ্টি আলু"
         },
         {
-          "left": "잡초",
-          "right": "제거"
+          "left": "배추",
+          "right": "বাঁধাকপি (কিমচির)"
         },
         {
-          "left": "물",
-          "right": "물주기"
+          "left": "복숭아",
+          "right": "পিচফল"
         },
         {
-          "left": "병충해",
-          "right": "치료"
+          "left": "참외",
+          "right": "কোরিয়ান হলুদ খরমুজ"
+        },
+        {
+          "left": "감",
+          "right": "পার্সিমন"
         }
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি কাজ সস্তে মিলছে: 씨앗→파종, 잡초→제거, ইত্যাদি।"
+      "explanationBn": "প্রথম দুটি মাঠের ফসল (전작), আর শেষ তিনটি ফলবাগানের (과수)। মনে রাখুন — '고구마' মাটির নিচে হয় বলে '캐다' লাগে, কিন্তু '배추' টেনে তোলা হয় বলে '뽑다'।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "এই শব্দটির বাংলা অর্থ কী? '농약'",
-      "questionKo": "'농약'의 뜻은 무엇입니까?",
+      "questionBn": "'익은 복숭아는 옆으로 살짝 돌리면 쉽게 딸 수 있어요.' — এখান থেকে কী বোঝা যায়?",
+      "questionKo": "다음 문장에서 알 수 있는 것을 고르세요.",
       "options": [
-        "সার",
-        "কীটনাশক",
-        "আগাছা",
-        "বীজ"
+        "পাকা ফল জোরে টেনে তুলতে হয়",
+        "পাকা ফল আলতো ঘোরালেই খুলে আসে",
+        "পাকা ফল কাঁচি দিয়ে কাটতে হয়",
+        "পাকা ফল তোলা যায় না"
       ],
       "answer": 1,
-      "explanationBn": "'농약' মানে কীটনাশক। তাই সঠিক উত্তর 2 নম্বর।"
+      "explanationBn": "'살짝 돌리면' মানে আলতো করে ঘোরালেই — জোর লাগে না। বরং জোরে চাপ দিলে '손자국이 남고' হাতের ছাপ পড়ে ফলটাই নষ্ট হয়।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "কোনটি '비닐하우스' (গ্রিনহাউস) বোঝায়?",
-      "questionKo": "'비닐하우스'는 무엇을 말합니까?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄹ 뻔했다' বসান: 사다리에서 ___. (떨어지다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "ফলের বাগান",
-        "ধানক্ষেত্র",
-        "গ্রিনহাউস",
-        "গুদাম"
+        "떨어질 뻔해요",
+        "떨어졌을 뻔했어요",
+        "떨어질 뻔했어요",
+        "떨어지 뻔했어요"
       ],
       "answer": 2,
-      "explanationBn": "'비닐하우스' মানে গ্রিনহাউস বা পলিথিন ঘর। তাই 3 নম্বর সঠিক।"
+      "explanationBn": "'떨어지다' স্বরান্ত মূল, তাই '-ㄹ 뻔했다' বসে, আর এটি সবসময় অতীত রূপেই থাকে — কারণ ঘটনাটা এড়ানো হয়ে গেছে। '떨어질 뻔해요' বর্তমান রূপে ভুল।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "বাক্যটি শুদ্ধ করুন: '씨앗을 심기 ___ 밭을 고르세요.'",
-      "questionKo": "문장을 완성하세요: '씨앗을 심기 ___ 밭을 고르세요.'",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 뿌리가 깊으니까 손으로 뽑지 말고 ___을/를 사용하세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "후에",
-        "전에",
-        "때문에",
-        "위해서"
+        "호미",
+        "사다리",
+        "봉지",
+        "수레"
       ],
-      "answer": 1,
-      "explanationBn": "বীজ বপন করার 'আগে' খেত সমান করতে হবে, তাই '전에' সঠিক।"
+      "answer": 0,
+      "explanationBn": "গভীর শিকড় হাতে টেনে ওঠে না, মাটি খুঁড়তে হয় — তাই '호미' (নিড়ানি)। '사다리' উঁচুতে ওঠার জন্য, '봉지' ফল ঢাকার ঠোঙা, '수레' জিনিস বওয়ার গাড়ি।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "নিষেধাজ্ঞা বোঝাতে কোনটি সঠিক? (কীটনাশক বেশি ছিটানো উচিত নয়)",
-      "questionKo": "금지 표현으로 옳은 것은?",
+      "type": "fill-blank",
+      "questionBn": "'-지 말고' বসান: 무거우니까 손으로 ___ 수레로 옮기세요. (옮기다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "농약을 많이 치면 안 돼요",
-        "농약을 많이 쳐도 돼요",
-        "농약을 많이 쳐야 해요",
-        "농약을 많이 치고 싶어요"
+        "옮기지 말고",
+        "옮기고",
+        "옮겨서",
+        "옮기면"
       ],
       "answer": 0,
-      "explanationBn": "নিষেধাজ্ঞা বোঝাতে '-(으)면 안 되다' ব্যবহৃত হয়। তাই 1 নম্বর।"
+      "explanationBn": "হাতে সরানো নিষেধ করে তার বদলে ঠেলাগাড়ির কথা বলা হচ্ছে, তাই '-지 말고' বসে। এটি নিরাপত্তার নির্দেশ — ভারী জিনিস হাতে তুললে কোমরে চোট লাগতে পারে।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: '밭에서 ___을/를 뽑아요.' (আগাছা)",
-      "questionKo": "빈칸을 채우세요: '밭에서 ___을/를 뽑아요.'",
-      "options": [
-        "잡초",
-        "거름",
-        "농기구",
-        "씨앗"
+      "type": "matching",
+      "questionBn": "খামারের কাজের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "농사 작업과 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "씨앗을 뿌리다",
+          "right": "বীজ ছিটানো"
+        },
+        {
+          "left": "모종을 심다",
+          "right": "চারা রোপণ করা"
+        },
+        {
+          "left": "모내기를 하다",
+          "right": "ধানের চারা রোপণ করা"
+        },
+        {
+          "left": "농약을 뿌리다",
+          "right": "কীটনাশক ছিটানো"
+        },
+        {
+          "left": "봉지를 씌우다",
+          "right": "ফলে ঠোঙা পরানো"
+        }
       ],
-      "answer": 0,
-      "explanationBn": "খেত থেকে 'আগাছা' (잡초) তোলা হয়। তাই 1 নম্বর।"
+      "explanationBn": "খেয়াল রাখুন — '모종을 심다' যেকোনো চারার জন্য, কিন্তু '모내기' কেবল ধানের চারার জন্যই ব্যবহার হয়। আর '뿌리다' ক্রিয়াটি বীজ ও কীটনাশক — দুটোর সঙ্গেই বসে।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: '___로 흙을 파요.' (বেলচা)",
-      "questionKo": "빈칸을 채우세요: '___로 흙을 파요.'",
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 밤마다 야생 동물이 ___ 내려와서 울타리망을 설치할까 해요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "호미",
-        "삽",
-        "물뿌리개",
-        "비료"
+        "자꾸",
+        "천천히",
+        "가끔",
+        "조금"
       ],
-      "answer": 1,
-      "explanationBn": "মাটি খোঁড়ার জন্য '벨চা' (삽) ব্যবহার করা হয়। তাই 2 নম্বর।"
+      "answer": 0,
+      "explanationBn": "'자꾸' মানে বারবার, থামছেই না — সমস্যার কথা বোঝাতে এটিই মানানসই। '가끔' মানে মাঝেমধ্যে, যা বেড়া লাগানোর মতো ব্যবস্থার কারণ হিসেবে দুর্বল।"
     },
     {
       "id": "p17",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: '과수원에서 사과를 ___.' (পাড়ি)",
-      "questionKo": "빈칸을 채우세요: '과수원에서 사과를 ___.'",
+      "questionBn": "'-(으)ㄹ까 하다' বসান: 주말에 비닐하우스를 ___. (설치하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "캐요",
-        "심어요",
-        "따요",
-        "줘요"
+        "설치하까 해요",
+        "설치할까 해요",
+        "설치했을까 해요",
+        "설치할까요"
       ],
-      "answer": 2,
-      "explanationBn": "ফল পাড়ার জন্য '따다' (따요) ব্যবহৃত হয়। তাই 3 নম্বর।"
+      "answer": 1,
+      "explanationBn": "'설치하다' স্বরান্ত মূল, তাই '-ㄹ까 하다' বসে: 설치할까 해요। '설치할까요?' প্রশ্ন বা প্রস্তাব, আর '설치하까' গঠনগতভাবেই ভুল।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন: '작물을 ___ 안 돼요.' (পা দেওয়া)",
-      "questionKo": "빈칸을 채우세요: '작물을 ___ 안 돼요.'",
+      "type": "multiple-choice",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন: '스마트팜은 센서와 네트워크 기술로 작물의 생육 환경을 관리하고, 빅데이터와 인공지능을 활용하여 재배 조건을 최적화합니다.'",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
       "options": [
-        "밟으면",
-        "만지면",
-        "보면",
-        "먹으면"
+        "스마트팜은 정부의 지원 없이 운영되고 있습니다.",
+        "스마트팜 방식을 이용하면 사람이 해야 할 일이 많아집니다.",
+        "한국에서는 스마트팜 방식으로 쌈채소를 재배하지 않습니다.",
+        "스마트팜은 농작물의 성장을 위해 인공지능 기술을 활용합니다."
       ],
-      "answer": 0,
-      "explanationBn": "ফসলের উপর 'পা দেওয়া' (밟다) নিষেধ। তাই 1 নম্বর।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '인공지능을 활용하여 재배 조건을 최적화합니다' — কৃত্রিম বুদ্ধিমত্তা কাজে লাগানো হয়। স্মার্ট ফার্ম বরং শ্রম কমায়, আর সরকারি সহায়তাও পায়।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "কী শব্দগুলো বাংলা অর্থের সাথে মিলান।",
-      "questionKo": "단어를 뜻과 연결하세요.",
-      "pairs": [
-        {
-          "left": "농약",
-          "right": "কীটনাশক"
-        },
-        {
-          "left": "거름",
-          "right": "জৈব সার"
-        },
-        {
-          "left": "호미",
-          "right": "নিড়ানি"
-        },
-        {
-          "left": "삽",
-          "right": "বেলচা"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'복숭아를 손으로 세게 누르면 손자국이 남아요.' — এখান থেকে কী শেখা যায়?",
+      "questionKo": "다음 문장에서 배울 수 있는 것을 고르세요.",
+      "options": [
+        "পিচফল আলতোভাবে ধরতে হয়",
+        "পিচফল জোরে চাপলে ভালো পাকে",
+        "পিচফল হাত দিয়ে ধরা নিষেধ",
+        "পিচফলে দস্তানা লাগে না"
       ],
-      "explanationBn": "প্রতিটি জোড়া নিজেই মিলছে: 농약=কীটনাশক, 거름=জৈব সার, ইত্যাদি।",
-      "answer": 0
+      "answer": 0,
+      "explanationBn": "জোরে চাপলে হাতের ছাপ পড়ে আর ফল কালচে হয়ে যায় — তাই আলতোভাবে ধরাই নিয়ম। হাতে তোলাই হয়, তবে দস্তানা পরে, কারণ পিচফলে লোম থাকে।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "কী কাজগুলো সঠিক ক্রিয়ার সাথে মিলান।",
-      "questionKo": "작업을 동사와 연결하세요.",
-      "pairs": [
-        {
-          "left": "사과",
-          "right": "따다"
-        },
-        {
-          "left": "감자",
-          "right": "캐다"
-        },
-        {
-          "left": "나무",
-          "right": "심다"
-        },
-        {
-          "left": "흙",
-          "right": "파다"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'-지 말고' বসান: 사다리에 ___ 아래에서 따세요. (올라가다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "올라가고",
+        "올라가서",
+        "올라가면",
+        "올라가지 말고"
       ],
-      "explanationBn": "প্রতিটি কাজ সস্তে মিলছে: 사과→따다, 감자→캐다, ইত্যাদি।",
-      "answer": 0
+      "answer": 3,
+      "explanationBn": "মাচায় ওঠা নিষেধ করে তার বদলে নিচ থেকে তুলতে বলা হচ্ছে, তাই '-지 말고' বসে। ফলবাগানে মাচা থেকে পড়ে যাওয়াই সবচেয়ে সাধারণ দুর্ঘটনা।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তর চিহ্নিত করুন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "밭에 씨앗을 뿌리고 비료를 조금 주었습니다. 이제 매일 물을 주어야 합니다.",
+      "questionBn": "নিচের বর্ণনাটি কোন যন্ত্রের?",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "passage": "밭에서 고구마를 캐거나 잡초의 뿌리를 제거할 때 손에 들고 사용하는 작업 도구입니다.",
       "options": [
-        "비료를 주지 않았다.",
-        "수확을 시작했다.",
-        "씨앗을 심었다.",
-        "물을 주는 것을 멈췄다."
+        "낫",
+        "호미",
+        "경운기",
+        "예초기"
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা আছে 씨앗 뿌렸고 비료 দিয়েছে; তাই '씨앗을 심었다' সঠিক।"
+      "answer": 1,
+      "explanationBn": "হাতে ধরে মাটি খুঁড়ে আলু তোলা বা শিকড় ওঠানোর যন্ত্র হলো '호미'। '낫' কেটে ফেলে, '경운기' বড় চাষযন্ত্র, আর '예초기' মোটরচালিত আগাছা-কাটার যন্ত্র।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "প্যাসেজ থেকে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "관개 시스템이 고장났습니다. 내일 수리할 예정입니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "밭에 (        )을/를 뿌립니다. 그러면 땅에 영양분이 많아져서 작물이 튼튼하게 자랍니다.",
       "options": [
-        "관개 시스템을 오늘 수리했다.",
-        "관개 시스템이 잘 작동한다.",
-        "관개를 교체할 계획이다.",
-        "내일 관개를 점검한다."
+        "씨앗",
+        "농약",
+        "거름",
+        "낙엽"
       ],
-      "answer": 3,
-      "explanationBn": "প্যাসেজে বলা আছে '내일 수리할 예정' → পরদিন 점검/수리 হবে, তাই 2।"
+      "answer": 2,
+      "explanationBn": "মাটিতে পুষ্টি বাড়ায় '거름' (জৈব সার)। '씨앗' ছিটালে গাছ গজায় কিন্তু পুষ্টি বাড়ে না, '농약' পোকা মারে, '낙엽' ঝরা পাতা।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক ব্যাখ্যা চিহ্নিত করুন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "병충해가 생기면 빠르게 처리하세요. 방치하면 피해가 커집니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "포도에 봉지를 (        ) 농약이 포도에 닿지 않습니다. 그리고 비에 맞지 않고 새가 먹는 것도 방지할 수 있어서 좋습니다.",
       "options": [
-        "빠르게 처리해야 한다.",
-        "병충해는 물로 해결된다.",
-        "병충해는 무시해도 된다.",
-        "방치하면 피해가 적어진다."
+        "옮기면",
+        "뽑으면",
+        "박으면",
+        "씌우면"
       ],
-      "answer": 0,
-      "explanationBn": "লেখায় বলা আছে দ্রুত মোকাবেলা করতে হবে; তাই 2 নম্বর।"
+      "answer": 3,
+      "explanationBn": "ফলের উপর ঠোঙা পরানো বোঝাতে '씌우다' বসে। '옮기다' সরানো, '뽑다' টেনে তোলা, '박다' গেঁথে দেওয়া — কোনোটিই ঠোঙা পরানো নয়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "প্যাসেজ থেকে সঠিক তথ্য চিহ্নিত করুন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "온실의 온도는 작물에 따라 다릅니다. 온도를 조절하면 병충해를 줄일 수 있습니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "초록색 복숭아는 (        ) 붉은 복숭아만 따세요.",
       "options": [
-        "온실에는 온도가 필요 없다.",
-        "온도 조절로 병충해를 줄일 수 있다.",
-        "온도는 모든 작물에 동일하다.",
-        "온도 조절은 병충해를 늘린다."
+        "따지 말고",
+        "따고",
+        "따서",
+        "따면"
       ],
-      "answer": 1,
-      "explanationBn": "প্যাসেজ বলছে 온도 নিয়ন্ত্রণ করলে 병পতঙ্গ কমে; তাই 2।"
+      "answer": 0,
+      "explanationBn": "সবুজ ফল তোলা নিষেধ করে তার বদলে লালচেগুলো তুলতে বলা হচ্ছে — এই 'নিষেধ + বিকল্প' বোঝাতে '-지 말고' বসে।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক সময় নির্ধারণ করুন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "수확은 일반적으로 가을에 합니다. 일부 작물은 여름에 수확합니다.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "복숭아를 딸 때는 익은 것만 따야 합니다. 초록색 복숭아는 아직 익지 않았습니다. 그리고 복숭아를 세게 누르면 손자국이 남고 검은색으로 변하니까 조심해야 합니다.",
       "options": [
-        "수확은 겨울에만 한다.",
-        "수확은 항상 봄에 한다.",
-        "수확은 일반적으로 가을에 한다.",
-        "수확은 하지 않는다."
+        "초록색 복숭아를 먼저 땁니다.",
+        "복숭아는 세게 눌러야 합니다.",
+        "복숭아는 손자국이 남지 않습니다.",
+        "복숭아를 세게 누르면 손자국이 남습니다."
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা আছে সাধারণত 가을ে করে; তাই 1 নম্বর।"
+      "answer": 3,
+      "explanationBn": "লেখায় স্পষ্ট বলা আছে '세게 누르면 손자국이 남고' — জোরে চাপলে হাতের ছাপ পড়ে। সবুজ ফল এখনো পাকেনি বলে তোলা হয় না।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শোনা বাক্য থেকে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음 말을 듣고 알맞은 것을 고르세요.",
-      "passage": "지금 물을 주고 있어요. 나중에 비료를 주세요.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 오후에 뭘 할 거예요?\n나: 밭에 모종을 (        ).",
       "options": [
-        "수확을 시작했다.",
-        "씨앗을 뿌리지 않았다.",
-        "지금 비료를 준다.",
-        "물을 주고 있다."
+        "심을까 해요",
+        "심으까 해요",
+        "심을까요",
+        "심었을까 해요"
       ],
-      "answer": 3,
-      "explanationBn": "বাক্যটিতে বলা আছে '지금 물을 주고 있어요' → পানি দিচ্ছে; তাই 1 নম্বর।"
+      "answer": 0,
+      "explanationBn": "'심다' মূলে 'ㅁ' বাতচিম আছে, তাই '-을까 하다' বসে: 심을까 해요। '심을까요?' প্রশ্ন বা প্রস্তাব বোঝাত, আর অতীত রূপ পরিকল্পনার সঙ্গে মানায় না।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শোনা কথার নির্দেশ শনাক্ত করুন।",
-      "questionKo": "다음 말을 듣고 알맞은 것을 고르세요.",
-      "passage": "제초제를 조심히 사용하세요. 보호장비를 착용하세요.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "밭이 엉망입니다. 땅도 파이고 나뭇가지들도 다 부러졌습니다. 울타리망 밑에 구멍이 있습니다.",
       "options": [
-        "조심히 사용하고 보호장비를 착용하라.",
-        "제초제는 아무렇게나 써도 된다.",
-        "제초제는 먹어도 안전하다.",
-        "보호장비 없이 작업하라."
+        "밭에 아무 문제가 없습니다.",
+        "야생 동물이 울타리망 밑으로 들어온 것 같습니다.",
+        "나뭇가지를 일부러 잘랐습니다.",
+        "울타리망이 필요 없습니다."
       ],
-      "answer": 0,
-      "explanationBn": "বক্তা বলেছে সাবধানে ব্যবহার করুন ও সুরক্ষা পরিধান করুন; তাই 2।"
+      "answer": 1,
+      "explanationBn": "মাটি খোঁড়া, ডাল ভাঙা আর বেড়ার নিচে গর্ত — এই চিহ্নগুলো মিলিয়ে বোঝা যায় বন্যপ্রাণী নিচ দিয়ে ঢুকেছে। এখানেই '-(으)ㄴ 것 같다' রূপটি কাজে লাগে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "শোনা বার্তা থেকে কাজটি চিহ্নিত করুন।",
-      "questionKo": "다음 말을 듣고 알맞은 것을 고르세요.",
-      "passage": "내일 아침 밭에서 파종을 할 예정입니다. 모두 준비하세요.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "스마트팜은 정보통신기술을 활용하여 농작물을 효율적으로 관리하는 농업 시스템입니다. 생산성을 향상시키고 노동력을 절감해 주며 친환경 농업을 가능하게 합니다. 한국 정부는 스마트팜을 미래 농업의 핵심 분야로 인식하고 다양한 정책으로 지원하고 있습니다.",
       "options": [
-        "오늘 파종을 끝냈다.",
-        "내일 아침에 파종한다.",
-        "내일 저녁에 수확한다.",
-        "파종을 취소했다."
+        "스마트팜은 정부의 지원 없이 운영되고 있습니다.",
+        "스마트팜 방식을 이용하면 사람이 해야 할 일이 많아집니다.",
+        "스마트팜은 친환경 농업과 관계가 없습니다.",
+        "스마트팜은 농작물을 효율적으로 관리하는 시스템입니다."
       ],
-      "answer": 1,
-      "explanationBn": "বক্তা বলেছে '내일 아침 파종' → কালের সকালে বপন হবে; তাই 2 নম্বর।"
+      "answer": 3,
+      "explanationBn": "প্রথম বাক্যেই বলা আছে '농작물을 효율적으로 관리하는 농업 시스템입니다'। শ্রম বরং কমে ('노동력을 절감'), সরকার সহায়তা দেয়, আর পরিবেশবান্ধব চাষও সম্ভব করে।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তর চিহ্নিত করুন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "오늘은 밭에서 잡초를 뽑아야 합니다. 호미를 준비해 주세요.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত অংশটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "상자가 무거우니까 손으로 (        ) 수레로 옮기세요.",
       "options": [
-        "오늘 잡초를 뽑아야 한다.",
-        "오늘 씨앗을 심어야 한다.",
-        "오늘 물을 주어야 한다.",
-        "오늘 수확을 해야 한다."
+        "옮기고",
+        "옮기지 말고",
+        "옮겨서",
+        "옮기면"
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে বলা আছে আজ আগাছা তুলতে হবে (잡초를 뽑아야 합니다)। তাই 1 নম্বর সঠিক।"
+      "answer": 1,
+      "explanationBn": "হাতে সরানো নিষেধ করে তার বদলে ঠেলাগাড়ির কথা বলা হচ্ছে, তাই '-지 말고' বসে। ভারী জিনিস হাতে তুললে কোমরে চোট লাগতে পারে — এটি নিরাপত্তার নির্দেশ।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "প্যাসেজ থেকে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "비닐하우스 안이 너무 덥습니다. 문을 열어서 온도를 낮추세요.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "밤마다 야생 동물이 자꾸 내려와서 농작물을 먹습니다. 그래서 울타리망을 설치하려고 합니다. 울타리망은 튼튼한 것으로 골라야 합니다.",
       "options": [
-        "비닐하우스 안이 춥다.",
-        "문을 닫아야 한다.",
-        "온도를 낮춰야 한다.",
-        "온도를 높여야 한다."
+        "야생 동물은 낮에만 내려옵니다.",
+        "울타리망은 아무거나 써도 됩니다.",
+        "농작물은 피해가 없습니다.",
+        "야생 동물 때문에 울타리망을 설치하려고 합니다."
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা আছে দরজা খুলে তাপমাত্রা কমাতে হবে (온도를 낮추세요)। তাই 3 নম্বর সঠিক।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '야생 동물이 자꾸 내려와서 ... 그래서 울타리망을 설치하려고 합니다'। প্রাণী আসে রাতে ('밤마다'), আর বেড়া '튼튼한 것으로' বাছতে হয়।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক ব্যাখ্যা চিহ্নিত করুন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "농약을 칠 때는 반드시 마스크와 장갑을 착용해야 합니다. 건강을 위해서입니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: এখন কী করতে হবে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 사장님, 이제 뭘 할까요?\n남자: 저쪽에 있는 사과를 따 주세요.",
       "options": [
-        "농약을 칠 때 마스크가 필요 없다.",
-        "마스크와 장갑을 착용해야 한다.",
-        "농약은 건강에 좋다.",
-        "장갑만 착용하면 된다."
+        "저쪽에 있는 사과를 따는 일",
+        "상자를 트럭에 싣는 일",
+        "밭에 물을 주는 일",
+        "울타리망을 치는 일"
       ],
-      "answer": 1,
-      "explanationBn": "কীটনাশক ছিটানোর সময় মাস্ক ও গ্লাভস পরতে হবে বলা হয়েছে। তাই 2 নম্বর সঠিক।"
+      "answer": 0,
+      "explanationBn": "পুরুষটি বলছেন '저쪽에 있는 사과를 따 주세요' — ওদিকের আপেল তুলতে। বাক্স তোলা, পানি দেওয়া বা বেড়া লাগানোর কথা আসেনি।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "প্যাসেজ থেকে সঠিক তথ্য চিহ্নিত করুন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "감자를 캘 때는 삽을 조심해서 사용하세요. 감자가 상할 수 있습니다.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "남자: 밭에 배추가 없어요?",
       "options": [
-        "감자를 캘 때 호미를 사용한다.",
-        "감자가 상하지 않게 조심해야 한다.",
-        "삽을 빨리 사용해야 한다.",
-        "감자는 상하지 않는다."
+        "네, 배추를 담을게요.",
+        "아니요, 배추가 있어요.",
+        "네, 배추를 뽑아 주세요.",
+        "아니요, 배추를 좋아해요."
       ],
       "answer": 1,
-      "explanationBn": "আলু তোলার সময় সাবধানে বেলচা ব্যবহার করতে বলা হয়েছে যাতে আলু নষ্ট না হয়। তাই 2 নম্বর সঠিক।"
+      "explanationBn": "'배추가 없어요?' (বাঁধাকপি নেই?) প্রশ্নের সঙ্গে মিলিয়ে '아니요' বললে পরে 'আছে' বলতে হয়। বাকি তিনটি প্রশ্নের সঙ্গে মেলে না — একটি পছন্দের কথা, দুটি কাজের কথা।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক সময় নির্ধারণ করুন।",
-      "questionKo": "다음을 읽고 알맞은 것을 고르세요.",
-      "passage": "퇴근하기 전에 농기구를 깨끗하게 씻어서 창고에 넣으세요.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "여자: 농약을 언제 칠 거예요?",
       "options": [
-        "출근하기 전에 농기구를 씻는다.",
-        "점심시간에 농기구를 씻는다.",
-        "퇴근하기 전에 농기구를 씻는다.",
-        "농기구를 씻지 않는다."
+        "다린두 씨가 칠 거예요.",
+        "과수원에서 칠 거예요.",
+        "점심 먹고 칠 거예요.",
+        "세 시간 동안 칠 거예요."
       ],
       "answer": 2,
-      "explanationBn": "কাজ শেষ করার আগে (퇴근하기 전에) কৃষি সরঞ্জাম ধুতে বলা হয়েছে। তাই 3 নম্বর সঠিক।"
+      "explanationBn": "'언제' (কখন) দিয়ে সময় জিজ্ঞেস করা হয়েছে, তাই '점심 먹고' সঠিক। '다린두 씨가' কে, '과수원에서' কোথায়, আর '세 시간 동안' কতক্ষণ — তিনটিই ভিন্ন প্রশ্নের উত্তর।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "শোনা বাক্য থেকে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "과수원에서 사과를 따고 있어요. 상자에 조심해서 담으세요.",
+      "questionBn": "শুনে এরপর কী বলা সবচেয়ে উপযুক্ত হবে তা বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 밤마다 야생 동물이 자꾸 내려와서 울타리망을 설치할까 해요.",
       "options": [
-        "사과를 심고 있다.",
-        "사과를 버리고 있다.",
-        "사과를 씻고 있다.",
-        "사과를 따고 있다."
+        "빨리 해서 다행이에요.",
+        "야생 동물이 많이 와요.",
+        "힘드니까 저도 같이 해요.",
+        "울타리망이 무거워서 힘들었어요."
       ],
-      "answer": 3,
-      "explanationBn": "বক্তা বলেছেন ফলের বাগানে আপেল পাড়ছেন (사과를 따고 있어요)। তাই 4 নম্বর সঠিক।"
+      "answer": 2,
+      "explanationBn": "বেড়া লাগানোর পরিকল্পনা শুনে স্বাভাবিক জবাব হলো সাহায্যের প্রস্তাব দেওয়া। '야생 동물이 많이 와요' কেবল কথাটার পুনরাবৃত্তি, আর বাকি দুটো অতীতের কথা বলে — কাজ তো এখনো হয়নি।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "শোনা কথার নির্দেশ শনাক্ত করুন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "밭에 거름을 주기 전에 먼저 잡초를 다 뽑으세요.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: শোনা কথার সঙ্গে কোনটি মেলে?",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "passage": "여자: 수레 위에 있던 비닐 못 봤어요? 밭에 가져가야 하는데 없네요.\n남자: 제가 미리 가져다 두었어요. 창고에서 삽도 꺼내 놓고요.\n여자: 고마워요. 그럼 삽 챙겨서 밭에 먼저 가 있을게요.",
       "options": [
-        "잡초를 먼저 뽑아야 한다.",
-        "거름을 먼저 주어야 한다.",
-        "잡초를 뽑지 않아도 된다.",
-        "거름을 주지 않아도 된다."
+        "남자는 비닐을 밭에 가져다 두었습니다.",
+        "남자는 밭이 어디인지 모릅니다.",
+        "여자는 창고에 가서 삽을 찾아왔습니다.",
+        "여자는 비닐을 잃어버렸습니다."
       ],
       "answer": 0,
-      "explanationBn": "সার দেওয়ার আগে আগাছা তুলতে বলা হয়েছে (먼저 잡초를 다 뽑으세요)। তাই 1 নম্বর সঠিক।"
+      "explanationBn": "পুরুষটি বলছেন '제가 미리 가져다 두었어요' — আগেই খেতে এনে রেখেছেন। কোদাল বের করেছেন পুরুষটিই, মহিলা নন; আর প্লাস্টিক হারায়নি, কেবল সরানো হয়েছে।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "শোনা বার্তা থেকে কাজটি চিহ্নিত করুন।",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: পিচফল তোলার সময় দস্তানা কেন পরতে হবে?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "물뿌리개로 물을 너무 많이 주면 안 돼요. 작물이 죽을 수 있어요.",
+      "passage": "여자: 복숭아를 손으로 따요?\n남자: 네. 복숭아에 털이 있으니까 장갑을 벗지 말고 꼭 끼고 따세요.",
       "options": [
-        "물을 많이 주어야 한다.",
-        "물을 많이 주면 안 된다.",
-        "물을 주지 말아야 한다.",
-        "물뿌리개를 버려야 한다."
+        "날씨가 추워서",
+        "복숭아가 무거워서",
+        "복숭아에 털이 있어서",
+        "농약을 뿌려서"
       ],
-      "answer": 1,
-      "explanationBn": "পানি বেশি দেওয়া উচিত নয় বলা হয়েছে (물을 너무 많이 주면 안 돼요)। তাই 2 নম্বর সঠিক।"
+      "answer": 2,
+      "explanationBn": "পুরুষটি নিজেই কারণ বলছেন '복숭아에 털이 있으니까' — পিচফলে লোম থাকে, যা হাতে লাগলে চুলকায়। ঠান্ডা, ওজন বা কীটনাশকের কথা আসেনি।"
     }
   ]
 }
