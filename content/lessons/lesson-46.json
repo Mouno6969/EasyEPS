@@ -10,670 +10,731 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "গবাদিপশুর সাধারণ নামাবলি ও সরঞ্জাম জানা।",
-      "খাওয়ানো, দুধ দান, এবং টিকা দেওয়ার মতো দৈনন্দিন কাজ বর্ণনা করা।",
-      "কর্মক্ষেত্রে সহজ নির্দেশাবলী বোঝা এবং দেওয়া।",
-      "গবাদিপশুর স্বাস্থ্য সম্পর্কিত সাধারণ কথোপকথন করতে পারা।"
+      "পশুকে খাবার দেওয়ার পদ্ধতি নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "গোয়ালঘর পরিষ্কারের ধাপ ও পদ্ধতি বলতে পারা",
+      "'-(으)ㄴ 적이 있다/없다' দিয়ে কোনো কাজের অভিজ্ঞতা আছে কি নেই তা জানাতে পারা",
+      "'-게 하다' দিয়ে অন্যকে কোনো কাজ করানোর কথা বোঝাতে পারা"
     ],
     "en": [
-      "Know common livestock names and equipment.",
-      "Describe daily tasks like feeding, milking, and vaccinating.",
-      "Understand and give simple workplace instructions.",
-      "Conduct basic conversations about animal health."
+      "Can ask and answer about how to feed livestock",
+      "Can describe the methods and order of cleaning a barn",
+      "Can use -(으)ㄴ 적이 있다/없다 to state whether one has done something before",
+      "Can use -게 하다 to say that someone was made to do something"
     ]
   },
   "vocabulary": [
     {
-      "ko": "소",
-      "romanization": "so",
-      "bn": "গথি/গরু",
-      "en": "cow",
+      "ko": "가축",
+      "romanization": "gachuk",
+      "bn": "গবাদিপশু (খামারে পালা পশু)",
+      "en": "livestock",
       "pos": "noun",
       "example": {
-        "ko": "저 소는 젖이 많습니다.",
-        "bn": "ও গরুটির দুধ বেশি।",
-        "en": "That cow gives a lot of milk."
+        "ko": "소독하지 않으면 가축들이 병이 날 수 있습니다.",
+        "bn": "জীবাণুনাশক না দিলে পশুগুলো অসুস্থ হয়ে পড়তে পারে।",
+        "en": "If you don't disinfect, the livestock can get sick."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "돼지",
-      "romanization": "dwaeji",
-      "bn": "শূকর/শূরু",
-      "en": "pig",
-      "pos": "noun",
-      "example": {
-        "ko": "돼지를 우리에 넣으세요.",
-        "bn": "শূকরটাকে খাঁচায় ঢুকান।",
-        "en": "Put the pig in the pen."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "닭",
-      "romanization": "dak",
-      "bn": "মুরগি",
-      "en": "chicken",
-      "pos": "noun",
-      "example": {
-        "ko": "닭이 알을 낳았어요.",
-        "bn": "মুরগিটি ডিম দিয়েছে।",
-        "en": "The chicken laid an egg."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "사료",
-      "romanization": "saryo",
-      "bn": "চারা/চোখার খাবার (ফিড)",
-      "en": "feed",
-      "pos": "noun",
-      "example": {
-        "ko": "아침에 사료를 줍니다.",
-        "bn": "সকালে ফিড দেন।",
-        "en": "Give feed in the morning."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "가축 → [가축]। 'ㅊ' নিঃশ্বাসযুক্ত 'ছ', শেষে 'ㄱ' গলা বন্ধ করে — 'গা-ছুক্'।"
     },
     {
       "ko": "축사",
       "romanization": "chuksa",
-      "bn": "গবাদি থাকার ঘর (স্টেবল)",
-      "en": "barn/stable",
+      "bn": "গোয়ালঘর, পশুশালা",
+      "en": "barn, livestock shed",
       "pos": "noun",
       "example": {
-        "ko": "축사를 청소해야 합니다.",
-        "bn": "স্টেবলটা পরিষ্কার করতে হবে।",
-        "en": "We need to clean the barn."
+        "ko": "오후에는 축사 청소를 해야 돼요.",
+        "bn": "বিকেলে গোয়ালঘর পরিষ্কার করতে হবে।",
+        "en": "We have to clean the barn this afternoon."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "축사 → [축싸]। 'ㄱ' বাতচিমের পরে 'ㅅ' টান-টান শক্ত হয়ে 'ㅆ' হয় — 'ছুক-সা' নয়, 'ছুক-স্সা'।"
     },
     {
-      "ko": "수의사",
-      "romanization": "suis a",
-      "bn": "চিকিৎসক (পশুচিকিৎসক)",
-      "en": "veterinarian",
+      "ko": "사료",
+      "romanization": "saryo",
+      "bn": "পশুখাদ্য (তৈরি খাবার)",
+      "en": "feed",
       "pos": "noun",
       "example": {
-        "ko": "수의사가 소를 검사했습니다.",
-        "bn": "পশুচিকিৎসক গরুটিকে পরীক্ষা করেছেন।",
-        "en": "The vet examined the cow."
+        "ko": "다라 씨, 사료를 줘 본 적이 있어요?",
+        "bn": "দারা, কখনো পশুখাদ্য দিয়েছেন?",
+        "en": "Dara, have you ever fed the animals before?"
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "사료 → [사료]। 'ㄹ'+'ㅛ' মিলে 'রিও' — 'সা-রো' নয়, 'সা-রিও'।"
     },
     {
-      "ko": "백신",
-      "romanization": "baeksin",
-      "bn": "টিকা",
-      "en": "vaccine",
+      "ko": "배합 사료",
+      "romanization": "baehap saryo",
+      "bn": "মিশ্র দানাদার খাদ্য (কারখানায় মেশানো পুষ্টিকর খাবার)",
+      "en": "compound feed",
       "pos": "noun",
       "example": {
-        "ko": "모든 새끼에게 백신을 줍니다.",
-        "bn": "সব বাচ্চাকে টিকা দেওয়া হয়।",
-        "en": "Give vaccines to all the young animals."
+        "ko": "조사료를 먼저 주고 배합 사료는 나중에 주세요.",
+        "bn": "আগে খড়-জাতীয় খাবার দিন, মিশ্র দানাদার খাবার পরে দেবেন।",
+        "en": "Give the coarse forage first and the compound feed later."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "배합 → [배합]। 'ㅐ' মুখ খুলে 'অ্যা' — 'বে-হাপ' নয়, 'ব্যা-হাপ্'। '배합' মানে মিশিয়ে বানানো।"
     },
     {
-      "ko": "착유",
-      "romanization": "chagyu",
-      "bn": "দুধ দান/মিল্কিং",
-      "en": "milking",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "아침에 착유를 시작합니다.",
-        "bn": "সকালে দুধ দানে শুরু করি।",
-        "en": "We start milking in the morning."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "방목",
-      "romanization": "bangmok",
-      "bn": "চারায় ছাড়া/ঘাস খাওয়ানো (grazing)",
-      "en": "grazing",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "소를 들판에 방목하세요.",
-        "bn": "গরুগুলো মাঠে চারায় ছেড়ে দিন।",
-        "en": "Let the cows graze in the field."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "울타리",
-      "romanization": "ultari",
-      "bn": "বাঁধ/বেড়া (জোরে)",
-      "en": "fence",
+      "ko": "조사료",
+      "romanization": "josaryo",
+      "bn": "খড়-জাতীয় রুক্ষ খাবার (আঁশযুক্ত পশুখাদ্য)",
+      "en": "coarse forage",
       "pos": "noun",
       "example": {
-        "ko": "울타리가 부서졌습니다.",
-        "bn": "বেড়াটা ভেঙে গেছে।",
-        "en": "The fence is broken."
+        "ko": "짚 같은 조사료를 먼저 주세요.",
+        "bn": "খড়ের মতো রুক্ষ খাবারটা আগে দিন।",
+        "en": "Give the coarse forage like straw first."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "조사료 → [조사료]। খেয়াল রাখুন — '조사료' আঁশযুক্ত রুক্ষ খাবার, আর '배합 사료' দানাদার পুষ্টিকর খাবার; গরুকে আগে রুক্ষটা দিতে হয়।"
     },
     {
-      "ko": "털깎기",
-      "romanization": "teolkkakgi",
-      "bn": "কোমলভাবে কাটা (শেয়ারিং)",
-      "en": "shearing",
+      "ko": "먹이",
+      "romanization": "meogi",
+      "bn": "খাবার (পশুর জন্য, কথ্য শব্দ)",
+      "en": "food, feed",
       "pos": "noun",
       "example": {
-        "ko": "양의 털깎기를 합니다.",
-        "bn": "ভেড়ার শেয়ারিং করা হচ্ছে।",
-        "en": "We are shearing the sheep."
+        "ko": "급이기로 소에게 먹이를 주세요.",
+        "bn": "ফিডার দিয়ে গরুকে খাবার দিন।",
+        "en": "Give the cows their feed with the feeder."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "먹이 → [머기]। 'ㄱ' পরের স্বরে জুড়ে যায় — 'মোক-ই' নয়, 'মো-গি'। '사료' লিখিত শব্দ, '먹이' মুখের কথায় বেশি চলে।"
     },
     {
-      "ko": "번식",
-      "romanization": "beonsik",
-      "bn": "প্রজনন (ব্রিডিং)",
-      "en": "breeding",
+      "ko": "급이기",
+      "romanization": "geubigi",
+      "bn": "ফিডার (খাবার দেওয়ার যন্ত্র)",
+      "en": "feeder",
       "pos": "noun",
       "example": {
-        "ko": "번식을 위해 수컷을 따로 둡니다.",
-        "bn": "প্রজননের জন্য পুরুষকে আলাদা রাখি।",
-        "en": "Keep the male separate for breeding."
+        "ko": "급이기 작동 방법을 배운 적이 있어요?",
+        "bn": "ফিডার চালানোর পদ্ধতি কখনো শিখেছেন?",
+        "en": "Have you ever learned how to operate the feeder?"
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "급이기 → [그비기]। 'ㅂ' পরের স্বরে জুড়ে যায় — 'গুপ-ই-গি' নয়, 'গৃ-বি-গি'।"
+    },
+    {
+      "ko": "급수기",
+      "romanization": "geupsugi",
+      "bn": "পানি দেওয়ার যন্ত্র (পশুর পানির পাত্র)",
+      "en": "waterer",
+      "pos": "noun",
+      "example": {
+        "ko": "급수기를 매일 씻어야 합니다.",
+        "bn": "পানির যন্ত্রটা প্রতিদিন ধুতে হবে।",
+        "en": "The waterer must be washed every day."
+      },
+      "pronunciationTipBn": "급수기 → [급쑤기]। 'ㅂ' বাতচিমের পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয় — 'গৃপ-স্সু-গি'। '급이기' খাবারের, '급수기' পানির।"
+    },
+    {
+      "ko": "바가지",
+      "romanization": "bagaji",
+      "bn": "হাতলওয়ালা গামলা (খাবার তুলে দেওয়ার পাত্র)",
+      "en": "bowl with handle, scoop",
+      "pos": "noun",
+      "example": {
+        "ko": "바가지로 퍼서 주세요.",
+        "bn": "গামলা দিয়ে তুলে দিন।",
+        "en": "Scoop it with the bowl and give it to them."
+      },
+      "pronunciationTipBn": "바가지 → [바가지]। তিন অক্ষরের সহজ শব্দ — 'বা-গা-জি'। খামারে খাবার তোলার সবচেয়ে সাধারণ পাত্র।"
+    },
+    {
+      "ko": "계량컵",
+      "romanization": "gyeryangkeop",
+      "bn": "মাপার কাপ (খাবারের পরিমাণ মাপার পাত্র)",
+      "en": "measuring cup",
+      "pos": "noun",
+      "example": {
+        "ko": "계량컵으로 사료의 양을 맞추세요.",
+        "bn": "মাপার কাপ দিয়ে খাবারের পরিমাণ মিলিয়ে নিন।",
+        "en": "Use the measuring cup to get the right amount of feed."
+      },
+      "pronunciationTipBn": "계량컵 → [게량컵]। 'ㅖ' এখানে সহজ করে 'এ' বলা হয়, আর 'ㅋ' নিঃশ্বাসযুক্ত 'খ' — 'গে-রিয়াং-খপ্'।"
+    },
+    {
+      "ko": "짚",
+      "romanization": "jip",
+      "bn": "খড়",
+      "en": "straw",
+      "pos": "noun",
+      "example": {
+        "ko": "배합 사료보다는 짚 같은 조사료를 주세요.",
+        "bn": "দানাদার খাবারের বদলে খড়ের মতো রুক্ষ খাবার দিন।",
+        "en": "Give coarse forage like straw rather than compound feed."
+      },
+      "pronunciationTipBn": "짚 → [집]। শেষের 'ㅍ' বাতচিম হিসেবে 'ㅂ' শব্দে থামে — 'জিপ্'। কিন্তু '짚이' → [지피], তখন 'ㅍ' ফিরে আসে।"
+    },
+    {
+      "ko": "키우다",
+      "romanization": "kiuda",
+      "bn": "পালন করা, বড় করে তোলা",
+      "en": "to raise, to rear",
+      "pos": "verb",
+      "example": {
+        "ko": "고향에서 닭을 키운 적이 있어요.",
+        "bn": "দেশে মুরগি পালন করেছি একসময়।",
+        "en": "I have raised chickens back home."
+      },
+      "pronunciationTipBn": "키우다 → [키우다]। 'ㅋ' নিঃশ্বাসযুক্ত 'খ' — 'কি-উ-দা' নয়, 'খি-উ-দা'।"
+    },
+    {
+      "ko": "농장",
+      "romanization": "nongjang",
+      "bn": "খামার",
+      "en": "farm",
+      "pos": "noun",
+      "example": {
+        "ko": "양돈 농장에서 일해요?",
+        "bn": "শুকরের খামারে কাজ করেন?",
+        "en": "Do you work at a pig farm?"
+      },
+      "pronunciationTipBn": "농장 → [농장]। দুটোই 'ㅇ' বাতচিম, নাক দিয়ে টেনে — 'নোং-জাং'।"
+    },
+    {
+      "ko": "양돈",
+      "romanization": "yangdon",
+      "bn": "শুকর পালন",
+      "en": "pig farming",
+      "pos": "noun",
+      "example": {
+        "ko": "양돈 농장에서는 돼지를 키웁니다.",
+        "bn": "শুকরের খামারে শুকর পালা হয়।",
+        "en": "At a pig farm they raise pigs."
+      },
+      "pronunciationTipBn": "양돈 → [양돈]। '양' মানে পালন, '돈' মানে শুকর — 'ইয়াং-দোন'। মনে রাখুন: 양돈 শুকর, 양계 মুরগি, 양우 গরু।"
+    },
+    {
+      "ko": "양계",
+      "romanization": "yanggye",
+      "bn": "মুরগি পালন",
+      "en": "poultry farming",
+      "pos": "noun",
+      "example": {
+        "ko": "양계장에서 일한 적이 있어요.",
+        "bn": "মুরগির খামারে কাজ করেছি একসময়।",
+        "en": "I have worked at a poultry house."
+      },
+      "pronunciationTipBn": "양계 → [양게]। 'ㅖ' সহজ করে 'এ' — 'ইয়াং-গিয়ে' নয়, 'ইয়াং-গে'। '양계장' মানে মুরগির খামার।"
+    },
+    {
+      "ko": "우방",
+      "romanization": "ubang",
+      "bn": "গরুর খোপ (গোয়ালঘরের ভাগ করা কক্ষ)",
+      "en": "cow stall",
+      "pos": "noun",
+      "example": {
+        "ko": "소를 다른 우방으로 이동시켰어요.",
+        "bn": "গরুগুলো অন্য খোপে সরিয়ে দিয়েছি।",
+        "en": "I moved the cows to another stall."
+      },
+      "pronunciationTipBn": "우방 → [우방]। শেষে 'ㅇ' নাক দিয়ে — 'উ-বাং'। পরিষ্কার করার সময় গরুকে পাশের খোপে সরাতে হয়।"
+    },
+    {
+      "ko": "톱밥",
+      "romanization": "topbap",
+      "bn": "কাঠের গুঁড়ো (মেঝেতে বিছানোর জন্য)",
+      "en": "sawdust",
+      "pos": "noun",
+      "example": {
+        "ko": "바닥이 마른 후에 새로운 톱밥을 깔았어요.",
+        "bn": "মেঝে শুকানোর পর নতুন কাঠের গুঁড়ো বিছিয়ে দিয়েছি।",
+        "en": "After the floor dried, I spread new sawdust."
+      },
+      "pronunciationTipBn": "톱밥 → [톱빱]। 'ㅂ' বাতচিমের পরে 'ㅂ' টান-টান শক্ত হয়ে 'ㅃ' হয় — 'থোপ-বাপ' নয়, 'থোপ-প্পাপ্'।"
     },
     {
       "ko": "분뇨",
       "romanization": "bunnyo",
-      "bn": "Gobor/খাদ্যদ্রব্য (manure)",
-      "en": "manure",
+      "bn": "গোবর ও মলমূত্র",
+      "en": "manure, animal waste",
       "pos": "noun",
       "example": {
-        "ko": "분뇨를 처리해야 합니다.",
-        "bn": "Gobor সংগ্রহ ও প্রক্রিয়া করতে হবে।",
-        "en": "We must handle the manure."
+        "ko": "축사에 가서 분뇨 좀 치워 주세요.",
+        "bn": "গোয়ালঘরে গিয়ে গোবরটা একটু সরিয়ে দিন।",
+        "en": "Please go to the barn and clear the manure."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "급여기",
-      "romanization": "geubyeogi",
-      "bn": "খাবার দেওয়ার যন্ত্র (ফিডার)",
-      "en": "feeder",
-      "pos": "noun",
-      "example": {
-        "ko": "급여기를 채워 주세요.",
-        "bn": "ফিডার ভর্তি করে দিন।",
-        "en": "Please fill the feeder."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "물통",
-      "romanization": "multong",
-      "bn": "পানির টব (물 trough)",
-      "en": "water trough",
-      "pos": "noun",
-      "example": {
-        "ko": "물통에 물이 충분합니다.",
-        "bn": "পানির টবে পর্যাপ্ত পানি আছে।",
-        "en": "The water trough has enough water."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "건강 검사",
-      "romanization": "geongang geomsa",
-      "bn": "স্বাস্থ্য পরীক্ষা",
-      "en": "health check",
-      "pos": "noun",
-      "example": {
-        "ko": "오늘 소 건강 검사를 합니다.",
-        "bn": "আজ গরুর স্বাস্থ্য পরীক্ষা করা হবে।",
-        "en": "We will do a health check for the cow today."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "검역",
-      "romanization": "geomyeok",
-      "bn": "কোয়ারান্টিন/নিরীক্ষা",
-      "en": "quarantine",
-      "pos": "noun",
-      "example": {
-        "ko": "새로 온 동물은 검역이 필요합니다.",
-        "bn": "নতুন পশুদের কোয়ারান্টিন দরকার।",
-        "en": "New animals need quarantine."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "이동",
-      "romanization": "idong",
-      "bn": "স্থানান্তর/হাটানো",
-      "en": "movement/transfer",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "소 이동을 안전하게 하세요.",
-        "bn": "গরু স্থানান্তর নিরাপদভাবে করুন।",
-        "en": "Move the cows safely."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "양",
-      "romanization": "yang",
-      "bn": "ভেড়া",
-      "en": "sheep",
-      "pos": "noun",
-      "example": {
-        "ko": "양이 풀을 먹습니다.",
-        "bn": "ভেড়া ঘাস খাচ্ছে।",
-        "en": "The sheep is eating grass."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "오리",
-      "romanization": "ori",
-      "bn": "হাঁস",
-      "en": "duck",
-      "pos": "noun",
-      "example": {
-        "ko": "오리가 물에서 놉니다.",
-        "bn": "হাঁস পানিতে খেলছে।",
-        "en": "The duck is playing in the water."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "말",
-      "romanization": "mal",
-      "bn": "ঘোড়া",
-      "en": "horse",
-      "pos": "noun",
-      "example": {
-        "ko": "말을 탑니다.",
-        "bn": "ঘোড়ায় চড়ছি।",
-        "en": "I am riding a horse."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "건초",
-      "romanization": "geoncho",
-      "bn": "শুকনো ঘাস/খড়",
-      "en": "hay",
-      "pos": "noun",
-      "example": {
-        "ko": "소에게 건초를 줍니다.",
-        "bn": "গরুকে শুকনো ঘাস দিচ্ছি।",
-        "en": "I am giving hay to the cow."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "환풍기",
-      "romanization": "hwanpunggi",
-      "bn": "ভেন্টিলেটর/ফ্যান",
-      "en": "ventilator/fan",
-      "pos": "noun",
-      "example": {
-        "ko": "축사의 환풍기를 켜세요.",
-        "bn": "স্টেবলের ফ্যান চালু করুন।",
-        "en": "Turn on the fan in the barn."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "온도",
-      "romanization": "ondo",
-      "bn": "তাপমাত্রা",
-      "en": "temperature",
-      "pos": "noun",
-      "example": {
-        "ko": "축사 온도를 확인하세요.",
-        "bn": "স্টেবলের তাপমাত্রা চেক করুন।",
-        "en": "Check the temperature of the barn."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "습도",
-      "romanization": "seupdo",
-      "bn": "আর্দ্রতা",
-      "en": "humidity",
-      "pos": "noun",
-      "example": {
-        "ko": "습도가 너무 높습니다.",
-        "bn": "আর্দ্রতা অনেক বেশি।",
-        "en": "The humidity is too high."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "분뇨 → [분뇨]। 'ㄴ' বাতচিম আর 'ㄴ' একসঙ্গে নাক দিয়ে — 'বুন-নিও'। এটি সরিয়ে '분뇨 탱크'-এ জমা করা হয়।"
     },
     {
       "ko": "소독하다",
-      "romanization": "sodokhada",
-      "bn": "জীবাণুমুক্ত করা",
+      "romanization": "sodokada",
+      "bn": "জীবাণুমুক্ত করা, ওষুধ ছিটিয়ে শোধন করা",
       "en": "to disinfect",
       "pos": "verb",
       "example": {
-        "ko": "매일 축사를 소독합니다.",
-        "bn": "প্রতিদিন স্টেবল জীবাণুমুক্ত করি।",
-        "en": "I disinfect the barn every day."
+        "ko": "일주일에 한 번 소독해야 소들이 병에 걸리지 않아요.",
+        "bn": "সপ্তাহে একবার জীবাণুমুক্ত করলেই গরু অসুস্থ হয় না।",
+        "en": "You must disinfect once a week so the cows don't get sick."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "소독하다 → [소도카다]। 'ㄱ' আর 'ㅎ' মিশে নিঃশ্বাসযুক্ত 'ㅋ' হয় — 'সো-দোক-হা-দা' নয়, 'সো-দো-খা-দা'।"
     },
     {
-      "ko": "청소하다",
-      "romanization": "cheongsohada",
-      "bn": "পরিষ্কার করা",
-      "en": "to clean",
-      "pos": "verb",
-      "example": {
-        "ko": "우리를 깨끗하게 청소하세요.",
-        "bn": "খাঁচা পরিষ্কার করে রাখুন।",
-        "en": "Clean the pen neatly."
-      },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "배설물",
-      "romanization": "baeseolmul",
-      "bn": "মলমূত্র",
-      "en": "excrement/feces",
+      "ko": "물청소",
+      "romanization": "mulcheongso",
+      "bn": "পানি দিয়ে ধোয়ার কাজ",
+      "en": "washing down with water",
       "pos": "noun",
       "example": {
-        "ko": "배설물을 치워야 합니다.",
-        "bn": "মলমূত্র সরাতে হবে।",
-        "en": "We need to clear the excrement."
+        "ko": "물청소를 했으니까 축사 소독을 시작합시다.",
+        "bn": "পানি দিয়ে ধোয়া হয়ে গেছে, এখন গোয়ালঘর জীবাণুমুক্ত করা শুরু করি।",
+        "en": "We've washed it down, so let's start disinfecting the barn."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "물청소 → [물청소]। 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'মুল-ছোং-সো'। জীবাণুনাশক দেওয়ার আগে এই ধাপটি করতে হয়।"
     },
     {
-      "ko": "새끼",
-      "romanization": "saekki",
-      "bn": "বাচ্চা (পশুর)",
-      "en": "young (animal)",
+      "ko": "송풍기",
+      "romanization": "songpunggi",
+      "bn": "ব্লোয়ার, হাওয়া চালানোর যন্ত্র",
+      "en": "blower, ventilation fan",
       "pos": "noun",
       "example": {
-        "ko": "돼지가 새끼를 낳았습니다.",
-        "bn": "শূকর বাচ্চা দিয়েছে।",
-        "en": "The pig gave birth to young."
+        "ko": "축사 송풍기를 켜 주세요.",
+        "bn": "গোয়ালঘরের ব্লোয়ারটা চালু করে দিন।",
+        "en": "Please turn on the barn's blower."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "송풍기 → [송풍기]। 'ㅍ' নিঃশ্বাসযুক্ত 'ফ', দুটো 'ㅇ' নাক দিয়ে — 'সোং-ফুং-গি'।"
     },
     {
-      "ko": "주사",
-      "romanization": "jusa",
-      "bn": "ইনজেকশন",
-      "en": "injection",
+      "ko": "깔다",
+      "romanization": "kkalda",
+      "bn": "বিছিয়ে দেওয়া, পাতা",
+      "en": "to spread, to lay down",
+      "pos": "verb",
+      "example": {
+        "ko": "톱밥을 바닥에 깔아 주세요.",
+        "bn": "কাঠের গুঁড়োটা মেঝেতে বিছিয়ে দিন।",
+        "en": "Please spread the sawdust on the floor."
+      },
+      "pronunciationTipBn": "깔다 → [깔다]। 'ㄲ' টান-টান শক্ত 'ক' — 'কাল-দা' নয়, 'ক্কাল-দা'। 'ㄹ' অনিয়মিত: 깔아요, 까세요।"
+    },
+    {
+      "ko": "이동시키다",
+      "romanization": "idongsikida",
+      "bn": "সরিয়ে নেওয়া, অন্য জায়গায় নিয়ে যাওয়া",
+      "en": "to move, to relocate",
+      "pos": "verb",
+      "example": {
+        "ko": "지금 소들을 다른 우방으로 이동시킬까요?",
+        "bn": "এখন গরুগুলো অন্য খোপে সরিয়ে নেব?",
+        "en": "Shall we move the cows to another stall now?"
+      },
+      "pronunciationTipBn": "이동시키다 → [이동시키다]। '-시키다' প্রত্যয়টি 'করানো' বোঝায় — নিজে না সরে, পশুকে সরানো; তাই '이동하다' নয়, '이동시키다'।"
+    },
+    {
+      "ko": "병에 걸리다",
+      "romanization": "byeonge geollida",
+      "bn": "রোগে পড়া, অসুস্থ হওয়া",
+      "en": "to fall ill, to catch a disease",
+      "pos": "phrase",
+      "example": {
+        "ko": "소독해야 소들이 병에 걸리지 않아요.",
+        "bn": "জীবাণুমুক্ত করলেই গরুগুলো রোগে পড়ে না।",
+        "en": "You must disinfect so the cows don't fall ill."
+      },
+      "pronunciationTipBn": "병에 → [병에]। 'ㅕ' হলো 'ইয়ো' — 'বেং-এ' নয়, 'বিয়ং-এ'। '걸리다' এখানে 'ধরা পড়া' অর্থে।"
+    },
+    {
+      "ko": "청소 도구",
+      "romanization": "cheongso dogu",
+      "bn": "পরিষ্কারের সরঞ্জাম",
+      "en": "cleaning tools",
       "pos": "noun",
       "example": {
-        "ko": "소에게 주사를 놓습니다.",
-        "bn": "গরুকে ইনজেকশন দিচ্ছি।",
-        "en": "I am giving an injection to the cow."
+        "ko": "다라 씨한테 청소 도구를 가져오게 하세요.",
+        "bn": "দারাকে বলুন পরিষ্কারের সরঞ্জামগুলো নিয়ে আসতে।",
+        "en": "Have Dara bring the cleaning tools."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "도구 → [도구]। '도' মানে যন্ত্র, '구' মানে সরঞ্জাম — 'দো-গু'। কাজ শেষে এগুলো গুছিয়ে রাখাই নিয়ম।"
     },
     {
-      "ko": "치료하다",
-      "romanization": "chiryeohada",
-      "bn": "চিকিৎসা করা",
-      "en": "to treat (medically)",
-      "pos": "verb",
+      "ko": "분뇨 탱크",
+      "romanization": "bunnyo taengkeu",
+      "bn": "গোবর জমানোর ট্যাংক",
+      "en": "manure tank",
+      "pos": "noun",
       "example": {
-        "ko": "아픈 동물을 치료합니다.",
-        "bn": "অসুস্থ পশুর চিকিৎসা করছি।",
-        "en": "I am treating the sick animal."
+        "ko": "치운 분뇨는 분뇨 탱크에 넣습니다.",
+        "bn": "সরানো গোবর ট্যাংকে ঢেলে দেওয়া হয়।",
+        "en": "The manure that's cleared goes into the manure tank."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "탱크 → [탱크]। 'ㅌ' আর 'ㅋ' দুটোই নিঃশ্বাসযুক্ত, 'ㅐ' খোলা 'অ্যা' — 'থ্যাং-খৃ'।"
     },
     {
-      "ko": "임신하다",
-      "romanization": "imsinhada",
-      "bn": "গর্ভবতী হওয়া",
-      "en": "to be pregnant",
+      "ko": "골라 먹다",
+      "romanization": "golla meokda",
+      "bn": "বেছে বেছে খাওয়া",
+      "en": "to pick out and eat selectively",
+      "pos": "phrase",
+      "example": {
+        "ko": "두 가지를 같이 주면 배합 사료만 골라 먹어요.",
+        "bn": "দুটো একসঙ্গে দিলে শুধু দানাদার খাবারটাই বেছে বেছে খায়।",
+        "en": "If you give both together, they only pick out the compound feed."
+      },
+      "pronunciationTipBn": "골라 → [골라]। 'ㄹㄹ' টেনে 'গোল-লা'। '고르다' ('বেছে নেওয়া') থেকে 'ㄹ' অনিয়মিত রূপে '골라' হয়।"
+    },
+    {
+      "ko": "퍼다",
+      "romanization": "peoda",
+      "bn": "তুলে দেওয়া, ছেঁচে নেওয়া",
+      "en": "to scoop",
       "pos": "verb",
       "example": {
-        "ko": "소가 임신을 했습니다.",
-        "bn": "গরুটি গর্ভবতী হয়েছে।",
-        "en": "The cow is pregnant."
+        "ko": "바가지로 퍼서 주세요.",
+        "bn": "গামলা দিয়ে তুলে দিন।",
+        "en": "Scoop it with the bowl and give it to them."
       },
-      "pronunciationTipBn": "কোরিয়ান উচ্চারণের নিয়ম অনুযায়ী সঠিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "퍼다 → [퍼다]। 'ㅍ' নিঃশ্বাসযুক্ত 'ফ', 'ㅓ' মুখ আলগা রেখে 'অ' — 'ফো-দা'। '퍼내다' মানে তুলে বাইরে ফেলা।"
+    },
+    {
+      "ko": "양을 맞추다",
+      "romanization": "yangeul matchuda",
+      "bn": "পরিমাণ মিলিয়ে নেওয়া",
+      "en": "to get the amount right",
+      "pos": "phrase",
+      "example": {
+        "ko": "저울로 재서 양을 맞추세요.",
+        "bn": "দাঁড়িপাল্লায় মেপে পরিমাণটা মিলিয়ে নিন।",
+        "en": "Weigh it on the scale and get the amount right."
+      },
+      "pronunciationTipBn": "맞추다 → [맏추다]। 'ㅈ' বাতচিম 'ㄷ' শব্দে থামে, তারপর নিঃশ্বাসযুক্ত 'ㅊ' — 'মাত-ছু-দা'।"
+    },
+    {
+      "ko": "한우",
+      "romanization": "hanu",
+      "bn": "হানু (কোরিয়ায় জন্মানো দেশি গরু)",
+      "en": "Hanwoo, Korean native cattle",
+      "pos": "noun",
+      "example": {
+        "ko": "한우는 고급 식재료로 인식됩니다.",
+        "bn": "হানু গরুর মাংস উঁচু মানের খাদ্য হিসেবে গণ্য হয়।",
+        "en": "Hanwoo is regarded as a premium ingredient."
+      },
+      "pronunciationTipBn": "한우 → [하누]। 'ㄴ' পরের স্বরে জুড়ে যায় — 'হান-উ' নয়, 'হা-নু'। '한' মানে কোরিয়া, '우' মানে গরু।"
+    },
+    {
+      "ko": "육류",
+      "romanization": "yungnyu",
+      "bn": "মাংস (সব ধরনের মাংস একসঙ্গে)",
+      "en": "meat",
+      "pos": "noun",
+      "example": {
+        "ko": "한국인의 육류 소비량이 크게 증가했습니다.",
+        "bn": "কোরিয়ানদের মাংস খাওয়ার পরিমাণ অনেক বেড়েছে।",
+        "en": "Meat consumption among Koreans has increased greatly."
+      },
+      "pronunciationTipBn": "육류 → [융뉴]। এটি কঠিন: 'ㄱ' বদলে 'ㅇ' আর 'ㄹ' বদলে 'ㄴ' হয় — 'ইউক-রিউ' নয়, 'ইউং-নিউ'।"
+    },
+    {
+      "ko": "돼지고기",
+      "romanization": "dwaejigogi",
+      "bn": "শুকরের মাংস",
+      "en": "pork",
+      "pos": "noun",
+      "example": {
+        "ko": "한국인은 돼지고기를 많이 먹습니다.",
+        "bn": "কোরিয়ানরা শুকরের মাংস অনেক খায়।",
+        "en": "Koreans eat a lot of pork."
+      },
+      "pronunciationTipBn": "돼지고기 → [돼지고기]। 'ㅙ' হলো 'ওয়্যা' — 'দে-জি-গো-গি' নয়, 'দোয়্যা-জি-গো-গি'।"
+    },
+    {
+      "ko": "소고기",
+      "romanization": "sogogi",
+      "bn": "গরুর মাংস",
+      "en": "beef",
+      "pos": "noun",
+      "example": {
+        "ko": "소고기는 가장 고급의 식재료로 인식됩니다.",
+        "bn": "গরুর মাংস সবচেয়ে উঁচু মানের খাদ্য হিসেবে গণ্য হয়।",
+        "en": "Beef is regarded as the most premium ingredient."
+      },
+      "pronunciationTipBn": "소고기 → [소고기]। '쇠고기' রূপটিও ঠিক, তবে '소고기' বেশি চলে — 'সো-গো-গি'।"
+    },
+    {
+      "ko": "닭고기",
+      "romanization": "dakgogi",
+      "bn": "মুরগির মাংস",
+      "en": "chicken (meat)",
+      "pos": "noun",
+      "example": {
+        "ko": "닭고기는 다양한 요리의 재료로 사용됩니다.",
+        "bn": "মুরগির মাংস নানা রান্নার উপকরণ হিসেবে ব্যবহার হয়।",
+        "en": "Chicken is used as an ingredient in many dishes."
+      },
+      "pronunciationTipBn": "닭고기 → [닥꼬기]। জোড়া 'ㄺ' বাতচিমে কেবল 'ㄱ' শোনা যায়, আর পরের 'ㄱ' শক্ত হয়ে 'ㄲ' হয় — 'দাক-ক্কো-গি'।"
+    },
+    {
+      "ko": "별일 없다",
+      "romanization": "byeoril eopda",
+      "bn": "বিশেষ কিছু ঘটেনি, সব ঠিকঠাক",
+      "en": "nothing unusual happened",
+      "pos": "phrase",
+      "example": {
+        "ko": "어제 별일 없었어요?",
+        "bn": "গতকাল বিশেষ কিছু হয়নি তো?",
+        "en": "Was everything okay yesterday?"
+      },
+      "pronunciationTipBn": "별일 → [별닐]। 'ㄹ' বাতচিমের পরে 'ㅇ' বদলে 'ㄴ' হয়ে যায় — 'বিয়ো-রিল' নয়, 'বিয়ল-নিল'। কাজের শুরুতে সহকর্মীকে এভাবে জিজ্ঞেস করা খুব স্বাভাবিক।"
     }
   ],
   "grammar": [
     {
-      "pattern": "~아/어 주세요",
-      "titleBn": "অনুরোধ করা",
-      "explanationBn": "এই আচরণ বাক্যটি কাউকে বিনীতভাবে কিছু করার অনুরোধ করতে ব্যবহার হয়। উদাহরণ এবং অনুবাদসহ: 1) 사료를 주세요. - দয়া করে ফিড দিন। - Please give the feed. 2) 물을 채워 주세요. - পানি ভর্তি করে দিন। - Please fill the water.",
-      "explanationEn": "Use ~아/어 주세요 to politely ask someone to do something. Examples with translations: 1) 사료를 주세요. - Please give the feed. 2) 물을 채워 주세요. - Please fill the water.",
+      "pattern": "V + -(으)ㄴ 적이 있다 / 없다",
+      "titleBn": "'-(으)ㄴ 적이 있다/없다' — 'কখনো করেছি / কখনো করিনি' (অভিজ্ঞতা)",
+      "explanationBn": "'-(으)ㄴ 적이 있다' বোঝায় অতীতে কোনো কাজ অন্তত একবার করার অভিজ্ঞতা আছে, আর '없다' বসলে সেই অভিজ্ঞতা নেই। মূলে বাতচিম থাকলে '-은 적이': 먹다 → 먹은 적이 있다। বাতচিম না থাকলে বা 'ㄹ' হলে '-ㄴ 적이': 키우다 → 키운 적이 있다, 만들다 → 만든 적이 있다। প্রায়ই '-아/어 보다'-এর সঙ্গে মিলে '-아/어 본 적이 있다' রূপে আসে, যা 'চেষ্টা করে দেখেছি' ভাব দেয়: '사료를 줘 본 적이 있어요?'। নতুন কর্মীকে কাজ বোঝানোর সময় প্রথম প্রশ্নটাই সাধারণত এই রূপে হয়, তাই খামার ও কারখানায় এটি প্রতিদিন কানে আসে।",
+      "explanationEn": "-(으)ㄴ 적이 있다 states that you have done something at least once; -없다 states that you have not. Use -은 적이 after a consonant (먹은 적이) and -ㄴ 적이 after a vowel or ㄹ (키운 적이). It often combines with -아/어 보다 as -아/어 본 적이 있다 ('have tried doing').",
       "examples": [
         {
-          "ko": "울타리를 고쳐 주세요.",
-          "bn": "বেড়া ঠিক করে দিন দয়া করে।",
-          "en": "Please repair the fence."
+          "ko": "다라 씨, 사료를 줘 본 적이 있어요?",
+          "bn": "দারা, কখনো পশুখাদ্য দিয়েছেন?",
+          "en": "Dara, have you ever fed the animals before?"
         },
         {
-          "ko": "병을 수의사에게 가져다 주세요.",
-          "bn": "রোগীটাকে পশুচিকিৎসকের কাছে নিয়ে যান।",
-          "en": "Please take the sick animal to the vet."
+          "ko": "아니요, 사료를 줘 본 적이 없습니다.",
+          "bn": "না, কখনো পশুখাদ্য দিইনি।",
+          "en": "No, I have never fed them."
         },
         {
-          "ko": "이것을 해 주세요.",
-          "bn": "দয়া করে এটি করুন।",
-          "en": "Please do this."
+          "ko": "고향에서 닭을 키운 적이 있어요.",
+          "bn": "দেশে মুরগি পালন করেছি একসময়।",
+          "en": "I have raised chickens back home."
+        },
+        {
+          "ko": "다라 씨는 소독을 해 본 적이 없거든요.",
+          "bn": "দারা তো কখনো জীবাণুমুক্ত করার কাজ করেননি।",
+          "en": "Dara has never done the disinfecting before."
         }
       ],
-      "commonMistakeBn": "অনেকে ভুল করে অন্য বিভক্তি ব্যবহার করেন, সঠিক বিভক্তি ব্যবহার করতে হবে।"
+      "commonMistakeBn": "সাধারণ অতীতের সঙ্গে গুলিয়ে ফেলা বড় ভুল: '어제 사료를 준 적이 있어요' অস্বাভাবিক — নির্দিষ্ট সময়ের কথা বলতে সোজা '어제 사료를 줬어요' বলুন। '-(으)ㄴ 적이 있다' জীবনে কখনো ঘটেছে কিনা, সেই অভিজ্ঞতার কথা বোঝায়। আরেকটি ভুল হলো ভবিষ্যতের রূপ বসানো: '줄 적이 있다' নয়, সঠিক '준 적이 있다' — অভিজ্ঞতা সবসময় অতীতের।"
     },
     {
-      "pattern": "~아/어야 하다",
-      "titleBn": "করণীয়তা/দায়িত্ব",
-      "explanationBn": "কিছু করা আবশ্যক বোঝাতে ব্যবহার হয়। উদাহরণ: 1) 착유를 해야 합니다. - আপনাকে দুধ দিতে হবে। 2) 백신을 맞혀야 해요. - টিকা দেবই।",
-      "explanationEn": "Use ~아/어야 하다 to express obligation or necessity. Examples: 1) 착유를 해야 합니다. - You must milk. 2) 백신을 맞혀야 해요. - You have to vaccinate.",
+      "pattern": "V + -게 하다",
+      "titleBn": "'-게 하다' — 'অন্যকে দিয়ে করানো' (নির্দেশ বা অনুমতি)",
+      "explanationBn": "'-게 하다' ক্রিয়ামূলের সঙ্গে বসে বোঝায় — কেউ অন্য কাউকে দিয়ে কাজটি করাচ্ছেন, বা করার অনুমতি দিচ্ছেন। বাতচিম থাকুক বা না থাকুক রূপ এক: 가져오다 → 가져오게 하다, 옮기다 → 옮기게 하다। যাকে দিয়ে করানো হচ্ছে তার সঙ্গে '에게' বা '한테' বসে: '다라 씨한테 청소 도구를 가져오게 하세요' — দারাকে দিয়ে সরঞ্জাম আনান। বিশেষণের সঙ্গে বসলে অর্থ বদলে যায় — কোনো অবস্থা তৈরি করা: '시끄럽게 하면 안 돼요' (হইচই করা যাবে না), '소가 물을 자주 마시게 하세요' (গরু যেন ঘন ঘন পানি খায় সেই ব্যবস্থা করুন)।",
+      "explanationEn": "-게 하다 means to make or let someone do something. The form is invariant, and the person made to act takes 에게/한테. With adjectives it means bringing about a state instead: 시끄럽게 하다 ('to make noise'), 깨끗하게 하다 ('to make clean').",
       "examples": [
         {
-          "ko": "축사를 청소해야 합니다.",
-          "bn": "স্টেবল পরিষ্কার করা দরকার।",
-          "en": "You must clean the barn."
+          "ko": "다라 씨한테 청소 도구 좀 가져오게 하세요.",
+          "bn": "দারাকে দিয়ে পরিষ্কারের সরঞ্জামগুলো আনান।",
+          "en": "Have Dara bring the cleaning tools."
         },
         {
-          "ko": "방역을 해야 합니다.",
-          "bn": "প্রতিষেধ ব্যবস্থা করতে হবে।",
-          "en": "We must carry out disinfection/quarantine."
+          "ko": "아지자 씨가 다린두 씨에게 상자를 옮기게 했어요.",
+          "bn": "আজিজা দারিন্দুকে দিয়ে বাক্সগুলো সরিয়েছেন।",
+          "en": "Aziza had Darindu move the boxes."
         },
         {
-          "ko": "이것을 해 주세요.",
-          "bn": "দয়া করে এটি করুন।",
-          "en": "Please do this."
+          "ko": "소가 시원한 물을 자주 마시게 하세요.",
+          "bn": "গরু যেন ঠান্ডা পানি ঘন ঘন খায়, সেই ব্যবস্থা করুন।",
+          "en": "Make sure the cows drink cool water often."
+        },
+        {
+          "ko": "다라 씨에게 분뇨를 치우게 하세요.",
+          "bn": "দারাকে দিয়ে গোবরটা সরান।",
+          "en": "Have Dara clear the manure."
         }
       ],
-      "commonMistakeBn": "অনেকে ভুল করে অন্য বিভক্তি ব্যবহার করেন, সঠিক বিভক্তি ব্যবহার করতে হবে।"
+      "commonMistakeBn": "'-게 하다' আর '-아/어 주다' গুলিয়ে ফেলা ভুল: '-게 하다' মানে অন্যকে দিয়ে করানো ('가져오게 했어요' — তাকে দিয়ে আনিয়েছি), আর '-아/어 주다' মানে নিজে করে দেওয়া ('가져다 줬어요' — আমি এনে দিয়েছি)। আরেকটি বিষয় — কর্তা ও যাকে দিয়ে করানো হচ্ছে, দুজনকে আলাদা করে বলতে হয়; '에게' বাদ দিলে কে কাজটা করছে তা বোঝা যায় না।"
     },
     {
-      "pattern": "~고 있습니다",
-      "titleBn": "বর্তমান ক্রিয়া (চলমান)",
-      "explanationBn": "এই রূপটি বলে যে কাজটি বর্তমানে চলছে। উদাহরণ: 1) 소를 방목하고 있습니다. - গরু এখন চারায় আছে। 2) 수의사가 검사하고 있습니다. - পশুচিকিৎসক পরীক্ষা করছেন।",
-      "explanationEn": "Use ~고 있습니다 to indicate an action in progress. Examples: 1) 소를 방목하고 있습니다. - The cows are grazing now. 2) 수의사가 검사하고 있습니다. - The vet is examining.",
+      "pattern": "V + -느라고",
+      "titleBn": "'-느라고' — 'ওই কাজটা করতে গিয়ে' (কারণ + একই সময়)",
+      "explanationBn": "'-느라고' ক্রিয়ামূলের সঙ্গে বসে বোঝায় — একটি কাজ করতে গিয়ে সময় বা শক্তি চলে গেছে, আর সেটাই পরের ফলের কারণ। বাতচিম থাকুক বা না থাকুক রূপ এক: 정리하다 → 정리하느라고, 먹다 → 먹느라고। পরের অংশে সাধারণত নেতিবাচক বা কষ্টের ফল বসে: '사료 정리하느라고 고생했어요' — খাবার গোছাতে গিয়ে কষ্ট হয়েছে। গুরুত্বপূর্ণ শর্ত — দুটি অংশের কর্তা একই ব্যক্তি হতে হবে, আর দুটি কাজ একই সময়ে ঘটতে হবে। কাজ দেরি হওয়ার কারণ ব্যাখ্যা করতে এটি খুব স্বাভাবিক রূপ।",
+      "explanationEn": "-느라고 gives the cause of a negative or effortful result — the time and energy went into that action. The form is invariant. Both clauses must share the same subject and overlap in time. Common with 고생했다, 늦었다, 못 했다.",
       "examples": [
         {
-          "ko": "사료를 주고 있습니다.",
-          "bn": "আমি এখন ফিড দিচ্ছি।",
-          "en": "I am feeding now."
+          "ko": "사료 정리하느라고 고생했어요.",
+          "bn": "পশুখাদ্য গোছাতে গিয়ে বেশ কষ্ট হয়েছে।",
+          "en": "You had a hard time sorting out the feed."
         },
         {
-          "ko": "물을 보충하고 있습니다.",
-          "bn": "পানি এখন ভরাট করা হচ্ছে।",
-          "en": "Water is being refilled."
+          "ko": "분뇨를 치우느라고 점심을 못 먹었어요.",
+          "bn": "গোবর সরাতে গিয়ে দুপুরের খাওয়াই হয়নি।",
+          "en": "I couldn't eat lunch because I was clearing the manure."
         },
         {
-          "ko": "이것을 해 주세요.",
-          "bn": "দয়া করে এটি করুন।",
-          "en": "Please do this."
+          "ko": "소를 이동시키느라고 시간이 많이 걸렸습니다.",
+          "bn": "গরুগুলো সরাতে গিয়ে অনেক সময় লেগে গেছে।",
+          "en": "It took a long time because I was moving the cows."
         }
       ],
-      "commonMistakeBn": "অনেকে ভুল করে অন্য বিভক্তি ব্যবহার করেন, সঠিক বিভক্তি ব্যবহার করতে হবে।"
+      "commonMistakeBn": "কর্তা আলাদা হলে '-느라고' বসানো ভুল: '제가 일하느라고 반장님이 화났어요' অস্বাভাবিক — দুই কর্তা আলাদা হলে '-아서' ব্যবহার করুন। আরেকটি ভুল হলো ভালো ফলের সঙ্গে ব্যবহার করা: '공부하느라고 시험을 잘 봤어요' অস্বাভাবিক, কারণ '-느라고' সাধারণত কষ্ট বা ক্ষতির কারণ বোঝায়। আর এর আগে কালের রূপ বসে না — '했느라고' ভুল।"
     },
     {
-      "pattern": "~(으)면 안 되다",
-      "titleBn": "নিষেধাজ্ঞা",
-      "explanationBn": "কোনো কিছু করা নিষেধ বা উচিত নয় বোঝাতে ব্যবহার হয়।",
-      "explanationEn": "Used to express prohibition or that something should not be done.",
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণের পরে '면' ব্যবহার করেন, কিন্তু ব্যঞ্জনবর্ণের পরে '으면' বসবে।",
+      "pattern": "V/A + -지 않으면",
+      "titleBn": "'-지 않으면' — 'যদি না করেন তাহলে' (নেতিবাচক শর্ত)",
+      "explanationBn": "'-지 않으면' বোঝায় — কাজটি না করলে কী অসুবিধা হবে। এটি '-지 않다' (না করা) আর '-(으)면' (যদি) মিলে তৈরি। বাতচিম থাকুক বা না থাকুক রূপ এক: 소독하다 → 소독하지 않으면, 먹다 → 먹지 않으면। পশুপালনে নিয়ম না মানার ফল বোঝাতে এটি অপরিহার্য: '소독하지 않으면 가축들이 병이 날 수 있습니다' — জীবাণুমুক্ত না করলে পশু অসুস্থ হতে পারে। কথ্য ভাষায় সংক্ষেপে '안 -(으)면'ও বলা হয় ('소독 안 하면'), তবে লিখিত বা আনুষ্ঠানিক নির্দেশে '-지 않으면' বেশি চলে।",
+      "explanationEn": "-지 않으면 means 'if you don't do X', and the main clause states the consequence. It is built from -지 않다 plus -(으)면. In speech the shorter 안 -(으)면 is also common, but -지 않으면 is preferred in written instructions.",
       "examples": [
         {
-          "ko": "여기에 들어오면 안 됩니다.",
-          "bn": "এখানে প্রবেশ করা নিষেধ।",
-          "en": "You must not enter here."
+          "ko": "소독하지 않으면 가축들이 병이 날 수 있습니다.",
+          "bn": "জীবাণুমুক্ত না করলে পশুগুলো অসুস্থ হয়ে পড়তে পারে।",
+          "en": "If you don't disinfect, the livestock can get sick."
         },
         {
-          "ko": "사료를 많이 주면 안 돼요.",
-          "bn": "বেশি ফিড দেওয়া উচিত নয়।",
-          "en": "You shouldn't give too much feed."
+          "ko": "분뇨를 치우지 않으면 냄새가 심해져요.",
+          "bn": "গোবর না সরালে গন্ধ আরও বেড়ে যায়।",
+          "en": "If you don't clear the manure, the smell gets worse."
         },
         {
-          "ko": "문을 열어 두면 안 됩니다.",
-          "bn": "দরজা খোলা রাখা যাবে না।",
-          "en": "You must not leave the door open."
+          "ko": "조사료를 먼저 주지 않으면 배합 사료만 골라 먹어요.",
+          "bn": "রুক্ষ খাবার আগে না দিলে শুধু দানাদার খাবারটাই বেছে খায়।",
+          "en": "If you don't give the coarse forage first, they only pick out the compound feed."
         }
-      ]
+      ],
+      "commonMistakeBn": "'-지 않으면' আর '-(으)면 안 되다' গুলিয়ে ফেলা বিপজ্জনক, কারণ অর্থ প্রায় উল্টে যায়: '소독하지 않으면 안 돼요' মানে 'জীবাণুমুক্ত না করলে চলবে না' (অর্থাৎ করতেই হবে), কিন্তু '소독하면 안 돼요' মানে 'জীবাণুমুক্ত করা যাবে না'। নিরাপত্তার নির্দেশে এই পার্থক্যটা খেয়াল রাখা জরুরি।"
     },
     {
-      "pattern": "~기 전에",
-      "titleBn": "আগে (Before)",
-      "explanationBn": "কোনো কাজ করার আগে অন্য একটি কাজ করতে হবে বোঝাতে ব্যবহার হয়।",
-      "explanationEn": "Used to indicate doing something before another action.",
-      "commonMistakeBn": "অনেকে বিশেষ্যের সাথে '기 전에' ব্যবহার করেন, বিশেষ্যের সাথে শুধু '전에' বসবে।",
+      "pattern": "N + 에 한 번씩",
+      "titleBn": "'일주일에 한 번씩' — 'কত সময়ে কতবার' (নিয়মিত হিসাব)",
+      "explanationBn": "কোনো কাজ কত সময় পরপর কতবার করতে হবে তা বলতে '시간 단위 + 에 + 횟수' গঠন ব্যবহার হয়: '일주일에 한 번' (সপ্তাহে একবার), '하루에 두 번' (দিনে দুবার), '한 달에 세 번' (মাসে তিনবার)। এখানে '에' অর্থ 'প্রতি', আর শেষে '씩' যোগ করলে নিয়মিততার ভাব আরও জোরালো হয়: '일주일에 한 번씩 소독해야 돼요'। খামারে খাবার দেওয়া, জীবাণুমুক্ত করা বা পরিষ্কারের সময়সূচি জানাতে এই গঠনটি প্রতিদিন লাগে। খেয়াল রাখুন — সময় আগে, সংখ্যা পরে; উল্টো করলে অর্থ ঘুলিয়ে যায়।",
+      "explanationEn": "To state frequency, Korean puts the time unit first with 에 ('per'), then the count: 일주일에 한 번 ('once a week'), 하루에 두 번 ('twice a day'). Adding 씩 stresses that it happens regularly. The order is fixed — time period, then number of times.",
       "examples": [
         {
-          "ko": "밥을 먹기 전에 손을 씻으세요.",
-          "bn": "খাওয়ার আগে হাত ধোবেন।",
-          "en": "Wash your hands before eating."
+          "ko": "일주일에 한 번씩 소독해야 소들이 병에 걸리지 않아요.",
+          "bn": "সপ্তাহে একবার করে জীবাণুমুক্ত করলেই গরুগুলো রোগে পড়ে না।",
+          "en": "You need to disinfect once a week so the cows don't get sick."
         },
         {
-          "ko": "퇴근하기 전에 축사를 확인하세요.",
-          "bn": "কাজ শেষ করার আগে স্টেবল চেক করুন।",
-          "en": "Check the barn before leaving work."
+          "ko": "하루에 두 번씩 사료를 줍니다.",
+          "bn": "দিনে দুবার করে পশুখাদ্য দেওয়া হয়।",
+          "en": "We give the feed twice a day."
         },
         {
-          "ko": "사료를 주기 전에 물통을 청소하세요.",
-          "bn": "ফিড দেওয়ার আগে পানির টব পরিষ্কার করুন।",
-          "en": "Clean the water trough before giving feed."
+          "ko": "급수기는 하루에 한 번씩 씻어 주세요.",
+          "bn": "পানির যন্ত্রটা দিনে একবার করে ধুয়ে দিন।",
+          "en": "Please wash the waterer once a day."
         }
-      ]
+      ],
+      "commonMistakeBn": "সময় ও সংখ্যার ক্রম উল্টে ফেলা সাধারণ ভুল: '한 번에 일주일' বললে অর্থ দাঁড়ায় 'একবারে এক সপ্তাহ', যা সম্পূর্ণ আলাদা। সঠিক ক্রম হলো '일주일에 한 번'। আরেকটি ভুল হলো '에' বাদ দেওয়া: '일주일 한 번' অসম্পূর্ণ শোনায় — '에' ছাড়া 'প্রতি' অর্থটাই আসে না।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "아침 사료 준비",
-      "titleEn": "Morning Feed Preparation",
+      "titleBn": "প্রথমবার পশুকে খাবার দেওয়া — কোন খাবার আগে",
+      "titleEn": "Feeding the Cows for the First Time",
       "lines": [
         {
-          "speaker": "관리자",
-          "ko": "오늘 아침 사료는 몇 시에 줄까요?",
-          "bn": "আজ সকালে ফিড কবে দেব?",
-          "en": "What time shall we give the feed this morning?"
+          "speaker": "사장님",
+          "ko": "다라 씨, 사료를 줘 본 적이 있어요?",
+          "bn": "দারা, কখনো পশুখাদ্য দিয়েছেন?",
+          "en": "Dara, have you ever fed the animals before?"
         },
         {
-          "speaker": "농장 직원",
-          "ko": "아침 7시가 좋습니다. 제가 급여기를 채우겠습니다.",
-          "bn": "সকাল ৭টা ভালো। আমি ফিডার ভর্তি করবো।",
-          "en": "7 AM is good. I'll fill the feeder."
+          "speaker": "다라",
+          "ko": "아니요, 사료를 줘 본 적이 없습니다.",
+          "bn": "না, কখনো পশুখাদ্য দিইনি।",
+          "en": "No, I have never fed them."
         },
         {
-          "speaker": "관리자",
-          "ko": "울타리도 점검해 주세요.",
-          "bn": "বেড়াও চেক করে দাও।",
-          "en": "Please check the fence too."
+          "speaker": "사장님",
+          "ko": "그럼 오늘 한번 해 보세요. 소에게 사료를 줄 때는 저울로 재서 양을 맞추세요. 그리고 바가지로 퍼서 주세요.",
+          "bn": "তাহলে আজ একবার করে দেখুন। গরুকে খাবার দেওয়ার সময় দাঁড়িপাল্লায় মেপে পরিমাণটা মিলিয়ে নেবেন। আর গামলা দিয়ে তুলে দেবেন।",
+          "en": "Then give it a try today. When feeding the cows, weigh it on the scale to get the amount right. And scoop it with the bowl."
         },
         {
-          "speaker": "농장 직원",
-          "ko": "네, 사료를 주고 울타리 수리를 하겠습니다.",
-          "bn": "ঠিক আছে, ফিড দেব আর বেড়া ঠিক করব।",
-          "en": "Yes, I'll feed and repair the fence."
+          "speaker": "다라",
+          "ko": "네, 해 보겠습니다. 그런데 배합 사료랑 조사료를 같이 주면 될까요?",
+          "bn": "জি, করে দেখব। কিন্তু দানাদার খাবার আর রুক্ষ খাবার একসঙ্গে দিলে হবে?",
+          "en": "Alright, I'll try. But should I give the compound feed and coarse forage together?"
         },
         {
-          "speaker": "관리자",
-          "ko": "시간 맞춰 해 주세요. 감사합니다.",
-          "bn": "সময়ে করে দিও। ধন্যবাদ।",
-          "en": "Do it on time. Thank you."
+          "speaker": "사장님",
+          "ko": "조사료를 먼저 주고 배합 사료는 나중에 주세요. 두 가지를 같이 주면 배합 사료만 골라 먹거든요.",
+          "bn": "আগে রুক্ষ খাবার দিন, দানাদার খাবার পরে দেবেন। দুটো একসঙ্গে দিলে শুধু দানাদারটাই বেছে বেছে খায়।",
+          "en": "Give the coarse forage first and the compound feed later. If you give both together, they only pick out the compound feed."
+        },
+        {
+          "speaker": "다라",
+          "ko": "네. 그럼 조사료를 먼저 준 후에 소가 다 먹으면 배합 사료를 주겠습니다.",
+          "bn": "জি। তাহলে আগে রুক্ষ খাবার দিয়ে, গরু সব খেয়ে ফেললে দানাদার খাবার দেব।",
+          "en": "Okay. Then I'll give the coarse forage first, and once the cows finish it, give the compound feed."
         }
       ]
     },
     {
-      "titleBn": "병든 가축 처리",
-      "titleEn": "Sick Animal Handling",
+      "titleBn": "গোয়ালঘর পরিষ্কার ও জীবাণুমুক্ত করার কাজ ভাগ করা",
+      "titleEn": "Dividing Up the Barn Cleaning",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "젖소 한 마리가 열이 있어요.",
-          "bn": "একটি গরুর জ্বর আছে।",
-          "en": "One cow has a fever."
+          "speaker": "사장님",
+          "ko": "프엉 씨, 오후에는 축사 청소를 해야 돼요.",
+          "bn": "ফুওং, বিকেলে গোয়ালঘর পরিষ্কার করতে হবে।",
+          "en": "Phuong, we need to clean the barn this afternoon."
         },
         {
-          "speaker": "관리자",
-          "ko": "수의사에게 연락했나요?",
-          "bn": "পশুচিকিৎসকের সাথে যোগাযোগ করেছো?",
-          "en": "Did you contact the vet?"
+          "speaker": "프엉",
+          "ko": "그럼 지금 소들을 다른 우방으로 이동시킬까요?",
+          "bn": "তাহলে এখন গরুগুলো অন্য খোপে সরিয়ে নেব?",
+          "en": "Then shall I move the cows to another stall now?"
         },
         {
-          "speaker": "직원",
-          "ko": "네, 지금 수의사가 오고 있습니다.",
-          "bn": "হ্যাঁ, এখনই পশুচিকিৎসক আসছে।",
-          "en": "Yes, the vet is coming now."
+          "speaker": "사장님",
+          "ko": "혼자 하기 힘드니까 다라 씨랑 같이 하세요. 나는 트랙터로 톱밥 좀 가져올게요. 참, 소독도 해야 되는데…",
+          "bn": "একা করা কঠিন, তাই দারার সঙ্গে মিলে করুন। আমি ট্র্যাক্টর দিয়ে কাঠের গুঁড়ো এনে দিচ্ছি। আর হ্যাঁ, জীবাণুমুক্তও করতে হবে…",
+          "en": "It's hard alone, so do it with Dara. I'll bring some sawdust with the tractor. Oh, and we need to disinfect too…"
         },
         {
-          "speaker": "관리자",
-          "ko": "그 소를 검역 구역으로 옮기세요.",
-          "bn": "সেটা কোয়ারেন্টিন এলাকায় নিয়ে যাও।",
-          "en": "Move that cow to the quarantine area."
+          "speaker": "프엉",
+          "ko": "소독이요? 지난주에 소독을 했는데요.",
+          "bn": "জীবাণুমুক্ত করা? গত সপ্তাহে তো করেছিলাম।",
+          "en": "Disinfect? But we disinfected last week."
         },
         {
-          "speaker": "직원",
-          "ko": "알겠습니다. 이동을 도와드릴게요.",
-          "bn": "বুঝেছি। স্থানান্তরে সাহায্য করব।",
-          "en": "Understood. I'll help with the transfer."
+          "speaker": "사장님",
+          "ko": "일주일에 한 번씩 소독해야 소들이 병에 걸리지 않아요. 소 이동시키고 다라 씨한테 청소 도구 좀 가져오게 하고, 프엉 씨는 소독할 준비를 좀 해 주세요.",
+          "bn": "সপ্তাহে একবার করে জীবাণুমুক্ত করলেই গরুগুলো রোগে পড়ে না। গরু সরিয়ে দারাকে দিয়ে পরিষ্কারের সরঞ্জাম আনান, আর আপনি জীবাণুমুক্ত করার প্রস্তুতিটা নিন।",
+          "en": "We need to disinfect once a week so the cows don't get sick. Move the cows, have Dara bring the cleaning tools, and Phuong, please prepare for the disinfecting."
+        },
+        {
+          "speaker": "프엉",
+          "ko": "네, 사장님. 다라 씨는 소독을 해 본 적이 없으니까 제가 알려 주겠습니다.",
+          "bn": "জি, স্যার। দারা তো কখনো জীবাণুমুক্ত করার কাজ করেননি, তাই আমি দেখিয়ে দেব।",
+          "en": "Yes, sir. Dara has never done the disinfecting, so I'll show her how."
         }
       ]
     },
     {
-      "titleBn": "축사 청소 및 소독",
-      "titleEn": "Barn Cleaning and Disinfection",
+      "titleBn": "গোয়ালঘর পরিষ্কারের ধাপগুলো ক্রমে",
+      "titleEn": "The Order of Barn Cleaning",
       "lines": [
         {
-          "speaker": "반장",
-          "ko": "오늘 오후에는 축사를 청소해야 합니다.",
-          "bn": "আজ বিকেলে স্টেবল পরিষ্কার করতে হবে।",
-          "en": "We need to clean the barn this afternoon."
+          "speaker": "다라",
+          "ko": "프엉 씨, 축사 청소는 어떤 순서로 해요?",
+          "bn": "ফুওং, গোয়ালঘর পরিষ্কার কোন ক্রমে করা হয়?",
+          "en": "Phuong, in what order do we clean the barn?"
         },
         {
-          "speaker": "직원",
-          "ko": "네, 알겠습니다. 배설물부터 치울까요?",
-          "bn": "হ্যাঁ, বুঝেছি। মলমূত্র আগে সরাব কি?",
-          "en": "Yes, understood. Should I clear the excrement first?"
+          "speaker": "프엉",
+          "ko": "먼저 소를 다른 우방으로 이동시켜요. 그리고 더러운 톱밥과 분뇨를 치우고 물청소를 해요.",
+          "bn": "আগে গরুগুলো অন্য খোপে সরানো হয়। তারপর নোংরা কাঠের গুঁড়ো আর গোবর সরিয়ে পানি দিয়ে ধোয়া হয়।",
+          "en": "First we move the cows to another stall. Then we clear the dirty sawdust and manure and wash it down."
         },
         {
-          "speaker": "반장",
-          "ko": "네, 배설물을 치우고 물청소를 하세요.",
-          "bn": "হ্যাঁ, মলমূত্র সরিয়ে পানি দিয়ে পরিষ্কার করুন।",
-          "en": "Yes, clear the excrement and wash with water."
+          "speaker": "다라",
+          "ko": "물청소를 한 후에 바로 톱밥을 깔면 돼요?",
+          "bn": "পানি দিয়ে ধোয়ার পর সঙ্গে সঙ্গে কাঠের গুঁড়ো বিছিয়ে দিলেই হবে?",
+          "en": "After washing it down, can I spread the sawdust right away?"
         },
         {
-          "speaker": "직원",
-          "ko": "물청소 후에 소독도 해야 합니까?",
-          "bn": "পানি দিয়ে ধোয়ার পর জীবাণুমুক্তও করতে হবে কি?",
-          "en": "Do I need to disinfect after washing with water?"
+          "speaker": "프엉",
+          "ko": "아니요. 분무기로 소독약을 뿌리고 바닥을 말려야 해요. 바닥이 마르지 않으면 새 톱밥도 금방 젖어요.",
+          "bn": "না। স্প্রেয়ার দিয়ে জীবাণুনাশক ছিটিয়ে মেঝেটা শুকাতে হবে। মেঝে না শুকালে নতুন গুঁড়োও তাড়াতাড়ি ভিজে যায়।",
+          "en": "No. You have to spray disinfectant with the sprayer and dry the floor. If the floor isn't dry, the new sawdust gets wet quickly."
         },
         {
-          "speaker": "반장",
-          "ko": "맞아요. 전염병을 예방하기 위해 소독약을 꼭 뿌리세요.",
-          "bn": "ঠিক। সংক্রামক রোগ প্রতিরোধ করতে অবশ্যই জীবাণুনাশক ছিটাবেন।",
-          "en": "That's right. Be sure to spray disinfectant to prevent infectious diseases."
+          "speaker": "다라",
+          "ko": "그렇군요. 바닥이 마른 후에 새 톱밥을 깔고 소를 다시 데려오면 되지요?",
+          "bn": "ও আচ্ছা। মেঝে শুকানোর পর নতুন গুঁড়ো বিছিয়ে গরুগুলো আবার নিয়ে এলেই হবে তো?",
+          "en": "I see. After the floor dries, I spread new sawdust and bring the cows back, right?"
         },
         {
-          "speaker": "직원",
-          "ko": "네, 꼼꼼하게 소독하겠습니다.",
-          "bn": "হ্যাঁ, ভালোভাবে জীবাণুমুক্ত করব।",
-          "en": "Yes, I will disinfect thoroughly."
+          "speaker": "프엉",
+          "ko": "맞아요. 그리고 청소가 끝나면 청소 도구를 꼭 정리하세요. 어제는 도구를 정리하느라고 퇴근이 늦었어요.",
+          "bn": "ঠিক তাই। আর পরিষ্কার শেষ হলে সরঞ্জামগুলো অবশ্যই গুছিয়ে রাখবেন। গতকাল সরঞ্জাম গোছাতে গিয়ে ছুটি দেরি হয়ে গিয়েছিল।",
+          "en": "That's right. And once cleaning is done, be sure to tidy the tools. Yesterday I left late because I was tidying them."
         }
       ]
     }
@@ -682,580 +743,565 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "গরুকে কোন শব্দে বোঝায়?",
-      "questionKo": "‘소’는 무슨 뜻입니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের? — '축산업의 한 종류로 닭고기 또는 계란을 얻기 위해 닭을 키우는 것입니다.'",
+      "questionKo": "다음은 무엇에 대한 설명입니까? '축산업의 한 종류로 닭고기 또는 계란을 얻기 위해 닭을 키우는 것입니다.'",
       "options": [
-        "cow",
-        "fence",
-        "chicken",
-        "vaccine"
+        "양우",
+        "양돈",
+        "양어",
+        "양계"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "‘소’ মানে গরু, তাই সঠিক উত্তর 'cow'।"
+      "answer": 3,
+      "explanationBn": "মুরগি পালনকে '양계' বলা হয় — '계' মানে মুরগি। '양우' গরু পালন, '양돈' শুকর পালন, '양어' মাছ চাষ।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "사료의 অর্থ কী?",
-      "questionKo": "‘사료’는 무슨 뜻입니까?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 일주일에 한 번씩 ___을/를 해야 합니다. 그렇지 않으면 가축들이 병이 날 수 있기 때문입니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
-        "barn",
-        "feed",
-        "movement",
-        "shearing"
+        "소독",
+        "교체",
+        "조립",
+        "이동"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "사료는 পশুদের খাবার, অর্থাৎ 'feed'।"
+      "answer": 0,
+      "explanationBn": "পশু অসুস্থ হওয়া ঠেকাতে '소독' (জীবাণুমুক্ত করা) দরকার। '교체' বদলানো, '조립' জোড়া লাগানো, '이동' সরানো — কোনোটিই রোগ ঠেকায় না।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "কোনটি পশুচিকিৎসক নির্দেশ করার ভদ্র রূপ?",
-      "questionKo": "수의사에게 부탁할 때 어떤 표현을 쓰나요?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄴ 적이 있다' বসান: 고향에서 닭을 ___ 있어요. (키우다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "수의사에게 가고 있다",
-        "수의사에게 가면",
-        "수의사에게 가세요.",
-        "수의사에게 가시죠"
+        "키울 적이",
+        "키우는 적이",
+        "키운 적이",
+        "키우은 적이"
       ],
-      "pairs": [],
       "answer": 2,
-      "explanationBn": "ভদ্র অনুরোধে ~아/어 주세요 ব্যবহৃত হয়; উদাহরণ হিসেবে '수의사에게 가세요.'—এখানে 0 নম্বর সঠিক।"
+      "explanationBn": "'키우다' স্বরান্ত মূল, তাই '-ㄴ 적이' বসে: 키운 적이 있어요। অভিজ্ঞতা সবসময় অতীতের, তাই '키울 적이' (ভবিষ্যৎ) বা '키우는 적이' (চলমান) ভুল।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "검역의 বাংলা অর্থ কী?",
-      "questionKo": "‘검역’은 무슨 뜻입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-게 하다' বসান: 다라 씨한테 청소 도구를 ___ 하세요. (가져오다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "feeding",
-        "watering",
-        "breeding",
-        "quarantine"
+        "가져오게",
+        "가져와서",
+        "가져오고",
+        "가져오면"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "검역 মানে কোয়ারান্টিন, সঠিক উত্তর 'quarantine'।"
+      "answer": 0,
+      "explanationBn": "অন্যকে দিয়ে কাজটি করানো বোঝাতে '-게 하다' বসে: 가져오게 하세요। '가져와서' নিজে এনে তারপর কিছু করা বোঝাত, যা এখানে অর্থ বদলে দেয়।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "아래 중 방목의 가장 কাছাকাছি অর্থ কোনটি?",
-      "questionKo": "‘방목’의 의미는?",
-      "options": [
-        "to let graze",
-        "to vaccinate",
-        "to shear",
-        "to fence"
+      "type": "matching",
+      "questionBn": "খামারের যন্ত্রপাতির সঙ্গে তার কাজ মেলান।",
+      "questionKo": "축산 도구와 용도를 연결하세요.",
+      "pairs": [
+        {
+          "left": "급이기",
+          "right": "পশুকে খাবার দেওয়া"
+        },
+        {
+          "left": "급수기",
+          "right": "পশুকে পানি দেওয়া"
+        },
+        {
+          "left": "바가지",
+          "right": "খাবার তুলে দেওয়া"
+        },
+        {
+          "left": "계량컵",
+          "right": "খাবারের পরিমাণ মাপা"
+        },
+        {
+          "left": "송풍기",
+          "right": "গোয়ালঘরে হাওয়া চালানো"
+        }
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "방목 মানে চারায় ছাড়া, তাই 'to let graze' সঠিক।"
+      "explanationBn": "'급이기' আর '급수기' নাম প্রায় এক, কিন্তু কাজ আলাদা — '이' মানে খাবার, '수' মানে পানি। এই এক অক্ষরের পার্থক্যেই বোঝা যায় কোন যন্ত্রের কথা বলা হচ্ছে।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "বক্তব্য পূরণ করুন: '___를 채워 주세요.' (ফিডার ভর্তি করার অনুরোধ)",
-      "questionKo": "빈칸을 채우세요: '___를 채워 주세요.' (급여기를 채우는 요청)",
+      "type": "multiple-choice",
+      "questionBn": "'배합 사료'와 '조사료' — কোনটা আগে দিতে হয় এবং কেন?",
+      "questionKo": "다음 중 알맞은 것을 고르세요.",
       "options": [
-        "검역",
-        "사료",
-        "울타리",
-        "수의사"
+        "배합 사료를 먼저 — বেশি পুষ্টিকর বলে",
+        "조사료를 먼저 — নাহলে দানাদারটাই বেছে খায়",
+        "দুটো একসঙ্গে — সময় বাঁচে",
+        "যেকোনোটা আগে — কোনো নিয়ম নেই"
       ],
-      "pairs": [],
       "answer": 1,
-      "explanationBn": "급여기를 채워 달라는 প্রসঙ্গে '사료를 채워 주세요.' সঠিক।"
+      "explanationBn": "মূল পাঠে বলা আছে '두 가지를 같이 주면 배합 사료만 골라 먹거든요' — একসঙ্গে দিলে গরু শুধু দানাদারটাই বেছে খায় আর আঁশযুক্ত খাবার পড়ে থাকে। তাই '조사료' আগে দিতে হয়।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "‘우리는 오늘 축사를 ___ 해야 합니다.’ (পরিশোধ/পরিষ্কার)",
-      "questionKo": "빈칸을 채우세요: '우리는 오늘 축사를 ___ 해야 합니다.'",
+      "questionBn": "'-지 않으면' বসান: 소독___ 가축들이 병이 날 수 있습니다. (하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "번식",
-        "착유",
-        "청소",
-        "방목"
+        "하면",
+        "하지 않으면",
+        "하면 안 되면",
+        "해서"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "축사를 পরিষ্কার করা হলে '청소해야 합니다' সঠিক।"
+      "answer": 1,
+      "explanationBn": "না করলে কী হবে — এই নেতিবাচক শর্ত বোঝাতে '-지 않으면' বসে। '하면' বললে অর্থ উল্টে যেত (করলে অসুস্থ হবে), যা ভুল।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "সঠিক পূরণ: '새 동물은 먼저 ___에 넣으세요.' (কোয়ারান্টিন)",
-      "questionKo": "빈칸을 채우세요: '새 동물은 먼저 ___에 넣으세요.'",
+      "type": "multiple-choice",
+      "questionBn": "গোয়ালঘর পরিষ্কারের সঠিক ক্রম কোনটি?",
+      "questionKo": "축사 청소의 순서로 알맞은 것을 고르세요.",
       "options": [
-        "사료",
-        "급여기",
-        "털깎기",
-        "검역"
+        "톱밥 깔기 → 소 이동 → 분뇨 치우기 → 소독",
+        "소독 → 물청소 → 소 이동 → 톱밥 깔기",
+        "소 이동 → 분뇨 치우기 → 물청소 → 소독 → 톱밥 깔기",
+        "분뇨 치우기 → 톱밥 깔기 → 소독 → 소 이동"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "নতুন পশুকে প্রথমে কোয়ারান্টিনে রাখো: '검역' সঠিক।"
+      "answer": 2,
+      "explanationBn": "আগে গরু সরানো (নাহলে কাজ করা যায় না), তারপর নোংরা সরানো, পানি দিয়ে ধোয়া, জীবাণুনাশক ছিটানো, আর সবশেষে নতুন কাঠের গুঁড়ো বিছানো। মেঝে না শুকিয়ে গুঁড়ো বিছালে তা সঙ্গে সঙ্গে ভিজে যায়।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "নীচের শব্দগুলো মিলান (কোরিয়ান -> বাংলা)।",
-      "questionKo": "다음 단어를 연결하세요 (한국어 -> 한국어 의미 힌트).",
-      "options": [],
-      "pairs": [
-        {
-          "left": "사료",
-          "right": "ফিড"
-        },
-        {
-          "left": "수의사",
-          "right": "পশুচিকিৎসক"
-        },
-        {
-          "left": "울타리",
-          "right": "বেড়া"
-        },
-        {
-          "left": "착유",
-          "right": "দুধ দান"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-느라고' বসান: 사료 ___ 고생했어요. (정리하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "정리했느라고",
+        "정리하려고",
+        "정리하느라고",
+        "정리하면"
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া পাঠ থেকে সরাসরি নেওয়া অনুবাদ: 사료=ফিড, 수의사=পশুচিকিৎসক, 울타리=বেড়া, 착유=দুধ দান।"
+      "answer": 2,
+      "explanationBn": "খাবার গোছাতে গিয়ে কষ্ট হয়েছে — এই কারণ বোঝাতে '-느라고' বসে, আর এর আগে কালের রূপ বসে না। '정리하려고' উদ্দেশ্য বোঝাত, কষ্টের কারণ নয়।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "জোড়া মিলান (কোরিয়ান -> English).",
-      "questionKo": "다음 단어를 연결하세요 (한국어 -> 영어 의미).",
-      "options": [],
+      "questionBn": "গোয়ালঘর পরিষ্কারের ধাপগুলোর সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "축사 청소 과정과 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "백신",
-          "right": "vaccine"
+          "left": "소를 이동시키다",
+          "right": "গরু অন্য খোপে সরানো"
         },
         {
-          "left": "분뇨",
-          "right": "manure"
+          "left": "분뇨를 치우다",
+          "right": "গোবর সরিয়ে ফেলা"
         },
         {
-          "left": "방목",
-          "right": "grazing"
+          "left": "물청소를 하다",
+          "right": "পানি দিয়ে ধোয়া"
         },
         {
-          "left": "검역",
-          "right": "quarantine"
+          "left": "소독약을 뿌리다",
+          "right": "জীবাণুনাশক ছিটানো"
+        },
+        {
+          "left": "톱밥을 깔다",
+          "right": "কাঠের গুঁড়ো বিছানো"
         }
       ],
-      "answer": 0,
-      "explanationBn": "শব্দগুলোর সঠিক ইংরেজি মিল: 백신=vaccine, 분뇨=manure, 방목=grazing, 검역=quarantine।"
+      "explanationBn": "এই পাঁচটি ধাপ ঠিক এই ক্রমেই হয়। মনে রাখার সহজ সূত্র — আগে সরানো (গরু ও নোংরা), তারপর ধোয়া ও শোধন, আর সবশেষে নতুন বিছানা।"
     },
     {
       "id": "p11",
-      "type": "matching",
-      "questionBn": "সঠিক জোড়া মিলান।",
-      "pairs": [
-        {
-          "left": "소",
-          "right": "গরু"
-        },
-        {
-          "left": "돼지",
-          "right": "শূকর"
-        },
-        {
-          "left": "닭",
-          "right": "মুরগি"
-        },
-        {
-          "left": "양",
-          "right": "ভেড়া"
-        }
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 사료를 줄 때는 저울로 재서 ___을/를 맞추세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "양",
+        "값",
+        "시간",
+        "길이"
       ],
-      "explanationBn": "소 = গরু, 돼지 = শূকর, 닭 = মুরগি, 양 = ভেড়া।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 0,
+      "explanationBn": "দাঁড়িপাল্লায় মেপে ঠিক করা হয় '양' (পরিমাণ)। '값' দাম, '시간' সময়, '길이' দৈর্ঘ্য — কোনোটিই খাবারের ওজনের সঙ্গে যুক্ত নয়।"
     },
     {
       "id": "p12",
-      "type": "matching",
-      "questionBn": "সঠিক জোড়া মিলান।",
-      "pairs": [
-        {
-          "left": "소",
-          "right": "গরু"
-        },
-        {
-          "left": "돼지",
-          "right": "শূকর"
-        },
-        {
-          "left": "닭",
-          "right": "মুরগি"
-        },
-        {
-          "left": "양",
-          "right": "ভেড়া"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄴ 적이 없다' বসান: 다라 씨는 소독을 해 ___ 없어요. (보다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "볼 적이",
+        "본 적이",
+        "보는 적이",
+        "보은 적이"
       ],
-      "explanationBn": "소 = গরু, 돼지 = শূকর, 닭 = মুরগি, 양 = ভেড়া।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 1,
+      "explanationBn": "'보다' স্বরান্ত মূল, তাই '-ㄴ 적이' বসে: 해 본 적이 없어요। '-아/어 보다'-এর সঙ্গে মিলে 'চেষ্টা করে দেখার অভিজ্ঞতা' বোঝায়।"
     },
     {
       "id": "p13",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "축사를 깨끗하게 _____.",
+      "type": "multiple-choice",
+      "questionBn": "'다라 씨한테 분뇨를 치우게 하세요.' — এর মানে কী?",
+      "questionKo": "다음 문장의 뜻으로 알맞은 것을 고르세요.",
       "options": [
-        "청소하세요",
-        "사료를 주세요",
-        "착유하세요",
-        "방목하세요"
+        "আপনি নিজে গোবর সরান",
+        "দারার হয়ে গোবর সরিয়ে দিন",
+        "দারাকে দিয়ে গোবর সরান",
+        "দারার সঙ্গে মিলে গোবর সরান"
       ],
-      "answer": 0,
-      "explanationBn": "축사를 청소하다 মানে স্টেবল পরিষ্কার করা।"
+      "answer": 2,
+      "explanationBn": "'-게 하다' মানে অন্যকে দিয়ে কাজটি করানো। নিজে করে দিলে '치워 주세요' হতো, আর একসঙ্গে করলে '같이 치우세요' — তিনটি আলাদা কথা।"
     },
     {
       "id": "p14",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "축사를 깨끗하게 _____.",
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক গঠনটি বসান: ___ 한 번씩 소독해야 소들이 병에 걸리지 않아요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "청소하세요",
-        "사료를 주세요",
-        "착유하세요",
-        "방목하세요"
+        "한 번에 일주일",
+        "일주일에",
+        "일주일",
+        "일주일로"
       ],
       "answer": 1,
-      "explanationBn": "축사를 청소하다 মানে স্টেবল পরিষ্কার করা।"
+      "explanationBn": "কত সময়ে কতবার বোঝাতে সময় আগে '에' নিয়ে বসে: '일주일에 한 번씩'। '한 번에 일주일' মানে 'একবারে এক সপ্তাহ' — সম্পূর্ণ আলাদা অর্থ।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থান পূরণ করুন।",
-      "questionKo": "축사를 깨끗하게 _____.",
-      "options": [
-        "청소하세요",
-        "사료를 주세요",
-        "착유하세요",
-        "방목하세요"
+      "type": "matching",
+      "questionBn": "পশুপালনের ধরনের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "축산업의 종류와 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "양돈",
+          "right": "শুকর পালন"
+        },
+        {
+          "left": "양계",
+          "right": "মুরগি পালন"
+        },
+        {
+          "left": "한우",
+          "right": "কোরিয়ার দেশি গরু"
+        },
+        {
+          "left": "축사",
+          "right": "গোয়ালঘর"
+        }
       ],
-      "answer": 2,
-      "explanationBn": "축사를 청소하다 মানে স্টেবল পরিষ্কার করা।"
+      "explanationBn": "'양-' দিয়ে শুরু হওয়া শব্দগুলোতে '양' মানে পালন, আর পরের অক্ষরটাই বলে দেয় কোন পশু: '돈' শুকর, '계' মুরগি, '우' গরু। এই সূত্রটা মনে রাখলে নতুন শব্দও বোঝা যায়।"
     },
     {
       "id": "p16",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 중 가축이 아닌 것은 무엇입니까?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 바닥이 마른 후에 새로운 ___을/를 깔았어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "소",
-        "돼지",
-        "닭",
-        "사과"
+        "분뇨",
+        "소독약",
+        "톱밥",
+        "사료"
       ],
-      "answer": 3,
-      "explanationBn": "사과 (আপেল) গবাদিপশু নয়, এটি একটি ফল।"
+      "answer": 2,
+      "explanationBn": "মেঝেতে বিছানো হয় '톱밥' (কাঠের গুঁড়ো)। '분뇨' তো সরানো হয়, '소독약' ছিটানো হয়, আর '사료' পশুর খাবার — বিছানার জিনিস নয়।"
     },
     {
       "id": "p17",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 중 가축이 아닌 것은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-게 하다' বসান: 소가 시원한 물을 자주 ___ 하세요. (마시다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "소",
-        "돼지",
-        "닭",
-        "사과"
+        "마시게",
+        "마셔서",
+        "마시려고",
+        "마시면"
       ],
       "answer": 0,
-      "explanationBn": "사과 (আপেল) গবাদিপশু নয়, এটি একটি ফল।"
+      "explanationBn": "গরু যেন ঘন ঘন পানি খায় সেই ব্যবস্থা করা — এই অর্থে '-게 하다' বসে। এখানে কর্তা মানুষ, কিন্তু কাজটা করছে গরু, তাই '마시게 하다'।"
     },
     {
       "id": "p18",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 중 가축이 아닌 것은 무엇입니까?",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন: '한국인의 육류 소비량은 크게 증가하여 2023년에 처음으로 1인당 60kg을 넘어섰습니다. 이는 1인당 쌀 소비량인 56.4kg보다 많습니다.'",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
       "options": [
-        "소",
-        "돼지",
-        "닭",
-        "사과"
+        "채식을 하는 한국인이 줄고 있습니다.",
+        "한국인은 소고기를 가장 많이 먹습니다.",
+        "한국인의 1인당 쌀 소비량은 육류 소비량보다 많습니다.",
+        "한국인은 예전보다 고기를 많이 먹습니다."
       ],
-      "answer": 1,
-      "explanationBn": "사과 (আপেল) গবাদিপশু নয়, এটি একটি ফল।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '육류 소비량은 크게 증가하여' — মাংস খাওয়া অনেক বেড়েছে। ভাতের চেয়ে মাংসই এখন বেশি (৬০ বনাম ৫৬.৪ কেজি), আর সবচেয়ে বেশি খাওয়া হয় শুকরের মাংস।"
     },
     {
       "id": "p19",
       "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 중 가축이 아닌 것은 무엇입니까?",
+      "questionBn": "'급이기'와 '급수기' — পার্থক্য কী?",
+      "questionKo": "다음 두 단어의 차이로 알맞은 것을 고르세요.",
       "options": [
-        "소",
-        "돼지",
-        "닭",
-        "사과"
+        "급이기 পানির যন্ত্র, 급수기 খাবারের যন্ত্র",
+        "দুটোই একই যন্ত্র",
+        "급이기 পরিষ্কারের যন্ত্র, 급수기 হাওয়ার যন্ত্র",
+        "급이기 খাবারের যন্ত্র, 급수기 পানির যন্ত্র"
       ],
-      "answer": 2,
-      "explanationBn": "사과 (আপেল) গবাদিপশু নয়, এটি একটি ফল।"
+      "answer": 3,
+      "explanationBn": "'급' মানে জোগান দেওয়া, আর পরের অক্ষরটাই ঠিক করে দেয় কী জোগান — '이' (먹이) মানে খাবার, '수' (물) মানে পানি। তাই '급이기' ফিডার, '급수기' পানির পাত্র।"
     },
     {
       "id": "p20",
-      "type": "multiple-choice",
-      "questionBn": "সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 중 가축이 아닌 것은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-느라고' বসান: 분뇨를 ___ 점심을 못 먹었어요. (치우다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "소",
-        "돼지",
-        "닭",
-        "사과"
+        "치웠느라고",
+        "치우려고",
+        "치우면",
+        "치우느라고"
       ],
       "answer": 3,
-      "explanationBn": "사과 (আপেল) গবাদিপশু নয়, এটি একটি ফল।"
+      "explanationBn": "গোবর সরাতে গিয়ে সময় চলে যাওয়ায় খাওয়া হয়নি — এই কারণ বোঝাতে '-느라고' বসে, আর এর আগে কালের রূপ বসে না। দুটি কাজের কর্তাও একই ব্যক্তি হতে হবে।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তর চিহ্নিত করুন।",
-      "questionKo": "다음을 읽고 질문에 답하세요.",
-      "passage": "오늘 아침에 농장 주인은 사료를 준비하고 울타리를 점검했습니다. 새로 온 돼지는 검역 구역에 있었습니다.",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের?",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "passage": "축산업의 한 종류로 닭고기 또는 계란을 얻기 위해 닭을 키우는 것입니다.",
       "options": [
-        "돼지는 착유되었다.",
-        "사료를 준비했다.",
-        "울타리는 망가졌다.",
-        "새 동물은 방목되었다."
+        "양우",
+        "양계",
+        "양돈",
+        "양어"
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে বলা আছে '사료를 준비'—তাই 0 ('사료를 준비했다') সঠিক।"
+      "answer": 1,
+      "explanationBn": "মুরগি পালনকে '양계' বলা হয় — '계' মানে মুরগি। '양우' গরু পালন, '양돈' শুকর পালন, '양어' মাছ চাষ।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "পাঠ থেকে উত্তর দিন: 돼지는 어디에 있었나요?",
-      "questionKo": "본문에서 돼지는 어디에 있었나요?",
-      "passage": "오늘 아침에 농장 주인은 사료를 준비하고 울타리를 점검했습니다. 새로 온 돼지는 검역 구역에 있었습니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "일주일에 한 번씩 (        )을 해야 합니다. 그렇지 않으면 가축들이 병이 날 수 있기 때문입니다.",
       "options": [
-        "검역 구역에",
-        "들판에",
-        "수의사 옆에",
-        "축사 안에"
+        "교체",
+        "조립",
+        "소독",
+        "이동"
       ],
-      "answer": 1,
-      "explanationBn": "পাঠে বলা আছে '검역 구역에 있었습니다'—অর্থাৎ 2।"
+      "answer": 2,
+      "explanationBn": "পশু অসুস্থ হওয়া ঠেকাতে '소독' (জীবাণুমুক্ত করা) দরকার। '교체' বদলানো, '조립' জোড়া লাগানো, '이동' সরানো — কোনোটিই রোগ ঠেকায় না।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "본문 অনুযায়ী 농장 주인은 무엇을 했나요?",
-      "questionKo": "글에 따르면 농장 주인은 무엇을 했나요?",
-      "passage": "작업자는 아침 7시에 사료를 주고, 그 후 울타리를 고쳤습니다. 모든 동물은 건강 검사를 받았습니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 사료를 줘 본 적이 있어요?\n나: 아니요, 한 번도 (        ).",
       "options": [
-        "분뇨를 수거했다.",
-        "양의 털깎기를 했다.",
-        "동물을 방목했다.",
-        "사료를 주고 울타리를 고쳤다."
+        "줘 본 적이 없어요",
+        "줄 적이 없어요",
+        "주는 적이 없어요",
+        "줘 볼 적이 없어요"
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে '사료를 주고, 울타리를 고쳤습니다' বলা আছে—তাই 1।"
+      "answer": 0,
+      "explanationBn": "'주다' স্বরান্ত মূল, তাই '-ㄴ 적이' বসে: 줘 본 적이 없어요। অভিজ্ঞতা সবসময় অতীতের রূপে বসে, তাই ভবিষ্যৎ বা চলমান রূপ ভুল।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "어떤 활동이 건강과 관련 있나요?",
-      "questionKo": "어떤 활동이 동물 건강과 직접 관련이 있나요?",
-      "passage": "수의사가 와서 백신을 주고 건강 검사를 했습니다. 또한 병든 동물은 검역했습니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "다라 씨한테 청소 도구를 (        ) 하세요.",
       "options": [
-        "울타리 수리",
-        "급여기 청소",
-        "백신 접종",
-        "사료 저장"
+        "가져와서",
+        "가져오고",
+        "가져오면",
+        "가져오게"
       ],
       "answer": 3,
-      "explanationBn": "백신 접종과 건강 검사는 সরাসরি স্বাস্থ্য সম্পর্কিত—1 সঠিক।"
+      "explanationBn": "অন্যকে দিয়ে কাজটি করানো বোঝাতে '-게 하다' বসে: 가져오게 하세요। '가져와서' নিজে এনে তারপর কিছু করা বোঝাত।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "본문에서 '방목'의 뜻 কি?",
-      "questionKo": "'방목'은 무슨 뜻인가요?",
-      "passage": "방목은 소를 들판에 내어 먹게 하는 것을 말합니다. 방목하면 소가 자연스럽게 풀을 먹습니다.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "소에게 사료를 줄 때는 조사료를 먼저 주고 배합 사료를 나중에 줍니다. 두 가지를 같이 주면 배합 사료만 골라 먹기 때문입니다.",
       "options": [
-        "동물을 병원에 데려가는 것",
-        "동물을 들판에 내보내는 것",
-        "동물을 자르는 것",
-        "울타리를 고치는 것"
+        "배합 사료를 먼저 줍니다.",
+        "두 가지를 같이 주면 좋습니다.",
+        "조사료는 주지 않습니다.",
+        "조사료를 먼저 주고 배합 사료는 나중에 줍니다."
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজেই বলা হয়েছে 들판ে ছাড়া—অর্থাৎ 2।"
+      "answer": 3,
+      "explanationBn": "লেখায় স্পষ্ট বলা আছে '조사료를 먼저 주고 배합 사료를 나중에 줍니다'। একসঙ্গে দিলে গরু শুধু দানাদার খাবারটাই বেছে খায়, তাই ক্রম মেনে চলতে হয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "নিচের কথোপকথন শুনে প্রশ্নের উত্তর দিন।",
-      "questionKo": "다음 대화를 듣고 질문에 답하세요.",
-      "passage": "남자: 소 한 마리가 열이 있어요.\n여자: 수의사에게 전화하세요.\n남자: 지금 전화하겠습니다.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "축사 바닥이 마른 후에 새로운 (        )을 깔았습니다.",
       "options": [
-        "수의사에게 전화하라고 말했다.",
-        "직원이 울타리를 고쳤다.",
-        "방목을 시작했다.",
-        "물통을 비웠다."
+        "분뇨",
+        "톱밥",
+        "소독약",
+        "사료"
       ],
       "answer": 1,
-      "explanationBn": "কথোপকথনে 관리자 বলেছেন '수의사에게 전화하세요'—তাই 1।"
+      "explanationBn": "মেঝেতে বিছানো হয় '톱밥' (কাঠের গুঁড়ো)। '분뇨' সরানো হয়, '소독약' ছিটানো হয়, আর '사료' পশুর খাবার।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "대화에서 누가 오기로 했나요?",
-      "questionKo": "대화에서 누구가 오기로 했나요?",
-      "passage": "남자: 새로 온 염소가 아파요.\n여자: 수의사가 오고 있습니다.\n남자: 감사합니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "[축사 청소 순서]\n① 소를 다른 우방으로 이동시키기\n② 톱밥과 분뇨 치우기\n③ 물청소하기\n④ 소독약 뿌리기\n⑤ 바닥 말리기\n⑥ 새 톱밥 깔기",
       "options": [
-        "다른 직원",
-        "검역관",
-        "농장 손님",
-        "수의사"
+        "소독약은 물청소 전에 뿌립니다.",
+        "새 톱밥은 바닥을 말린 후에 깝니다.",
+        "소는 청소가 끝난 후에 이동시킵니다.",
+        "분뇨는 마지막에 치웁니다."
       ],
-      "answer": 2,
-      "explanationBn": "관리자가 '수의사가 오고 있습니다' বলেছে—তাই সঠিক উত্তর '수의사'।"
+      "answer": 1,
+      "explanationBn": "ক্রম অনুযায়ী ⑤ মেঝে শুকানো, তারপর ⑥ নতুন গুঁড়ো বিছানো। জীবাণুনাশক দেওয়া হয় ধোয়ার পরে, গরু সরানো হয় সবার প্রথমে, আর গোবর সরানো হয় দ্বিতীয় ধাপে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "무슨 작업을 하라고 요청했나요?",
-      "questionKo": "어떤 작업을 하라고 요청했나요?",
-      "passage": "남자: 울타리를 점검하고 사료를 채워 주세요.\n여자: 예, 알겠습니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "한국인의 육류 소비량은 지난 몇십 년 동안 크게 증가했습니다. 2023년에 처음으로 1인당 육류 소비량이 60kg을 넘어섰는데, 이는 1인당 쌀 소비량인 56.4kg보다 많은 것입니다. 한국인은 돼지고기, 닭고기, 소고기 순으로 육류를 많이 먹습니다.",
       "options": [
-        "방목 시작",
-        "분뇨 처리",
-        "울타리 점검과 사료 채우기",
-        "털깎기"
+        "한국인은 소고기를 가장 많이 먹습니다.",
+        "한국인의 1인당 쌀 소비량은 육류 소비량보다 많습니다.",
+        "한국인은 예전보다 고기를 많이 먹습니다.",
+        "육류 소비량은 계속 줄고 있습니다."
       ],
-      "answer": 3,
-      "explanationBn": "관리자가 '울타리를 점검하고 사료를 채워 주세요'라고 요청했으므로 1।"
+      "answer": 2,
+      "explanationBn": "লেখায় বলা আছে '지난 몇십 년 동안 크게 증가했습니다' — আগের চেয়ে অনেক বেড়েছে। সবচেয়ে বেশি খাওয়া হয় শুকরের মাংস, আর মাংসই এখন ভাতের চেয়ে বেশি (৬০ বনাম ৫৬.৪ কেজি)।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "소가 배가 고픈 것 같습니다. 빨리 _____을/를 주어야겠습니다.",
+      "passage": "소독을 (        ) 가축들이 병에 걸릴 수 있습니다.",
       "options": [
-        "물",
-        "사료",
-        "백신",
-        "주사"
+        "하지 않으면",
+        "하면",
+        "해서",
+        "하려면"
       ],
       "answer": 0,
-      "explanationBn": "গরু ক্ষুধার্ত, তাই তাকে 사료 (ফিড) দিতে হবে।"
+      "explanationBn": "না করলে কী হবে — এই নেতিবাচক শর্ত বোঝাতে '-지 않으면' বসে। '하면' বললে অর্থ উল্টে যেত, অর্থাৎ জীবাণুমুক্ত করলেই অসুস্থ হবে — যা ভুল।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "소가 배가 고픈 것 같습니다. 빨리 _____을/를 주어야겠습니다.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "축사 청소를 할 때는 먼저 소를 다른 우방으로 이동시켜야 합니다. 소가 있으면 청소를 하기 어렵고 소가 다칠 수도 있기 때문입니다.",
       "options": [
-        "물",
-        "사료",
-        "백신",
-        "주사"
+        "소가 있어도 청소하기 쉽습니다.",
+        "소를 이동시키지 않고 청소합니다.",
+        "청소가 끝난 후에 소를 이동시킵니다.",
+        "소를 먼저 이동시켜야 안전하게 청소할 수 있습니다."
       ],
-      "answer": 1,
-      "explanationBn": "গরু ক্ষুধার্ত, তাই তাকে 사료 (ফিড) দিতে হবে।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '소가 있으면 청소를 하기 어렵고 소가 다칠 수도 있기 때문입니다' — তাই আগে সরানোই নিরাপদ। বাকি তিনটি লেখার বিপরীত।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "소가 배가 고픈 것 같습니다. 빨리 _____을/를 주어야겠습니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: এখন কী করতে হবে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 사장님, 이제 뭘 할까요?\n여자: 축사에 가서 분뇨 좀 치워 주세요.",
       "options": [
-        "물",
-        "사료",
-        "백신",
-        "주사"
+        "축사에서 분뇨를 치우는 일",
+        "사료를 주는 일",
+        "톱밥을 깔는 일",
+        "소독약을 뿌리는 일"
       ],
-      "answer": 2,
-      "explanationBn": "গরু ক্ষুধার্ত, তাই তাকে 사료 (ফিড) দিতে হবে।"
+      "answer": 0,
+      "explanationBn": "মহিলা বলছেন '분뇨 좀 치워 주세요' — গোবর সরাতে। খাবার দেওয়া, গুঁড়ো বিছানো বা জীবাণুনাশক ছিটানোর কথা আসেনি।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "소가 배가 고픈 것 같습니다. 빨리 _____을/를 주어야겠습니다.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "남자: 누가 축사 청소를 했어요?",
       "options": [
-        "물",
-        "사료",
-        "백신",
-        "주사"
+        "다라 씨가 청소했어요.",
+        "오전에 청소했어요.",
+        "더러워서 청소했어요.",
+        "두 시간 동안 청소했어요."
       ],
-      "answer": 3,
-      "explanationBn": "গরু ক্ষুধার্ত, তাই তাকে 사료 (ফিড) দিতে হবে।"
+      "answer": 0,
+      "explanationBn": "'누가' (কে) দিয়ে প্রশ্ন করা হয়েছে, তাই ব্যক্তির নাম দিয়ে উত্তর দিতে হবে। '오전에' কখন, '더러워서' কেন, '두 시간 동안' কতক্ষণ — তিনটিই ভিন্ন প্রশ্নের উত্তর।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "소가 배가 고픈 것 같습니다. 빨리 _____을/를 주어야겠습니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: দুজন কী নিয়ে কথা বলছেন?",
+      "questionKo": "다음을 듣고 두 사람이 무엇에 대해 말하고 있는지 고르십시오.",
+      "passage": "남자: 축사 청소는 다 했어요?\n여자: 아니요, 아직 분뇨를 치우고 있어요.",
       "options": [
-        "물",
-        "사료",
-        "백신",
-        "주사"
+        "작업 지시",
+        "작업 순서",
+        "작업 도구",
+        "작업 현황"
       ],
-      "answer": 0,
-      "explanationBn": "গরু ক্ষুধার্ত, তাই তাকে 사료 (ফিড) দিতে হবে।"
+      "answer": 3,
+      "explanationBn": "কাজ কতটা এগিয়েছে তা নিয়ে কথা হচ্ছে, তাই '작업 현황' (কাজের অবস্থা) সঠিক। নির্দেশ, ক্রম বা যন্ত্রের কথা এখানে আসেনি।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "পরবর্তী কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 오늘 축사 청소는 다 했어요?\n여자: 네, 배설물을 다 치우고 물청소도 끝냈습니다.",
+      "questionBn": "শুনে এরপর কী বলা সবচেয়ে উপযুক্ত হবে তা বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 물청소를 했으니까 축사 소독을 시작합시다.",
       "options": [
-        "축사를 청소하고 있습니다.",
-        "축사 청소를 끝냈습니다.",
-        "아직 청소를 시작하지 않았습니다.",
-        "내일 청소할 것입니다."
+        "물을 많이 뿌려야겠어요.",
+        "그럼 소독약을 가져오겠습니다.",
+        "축사가 너무 더러운 것 같아요.",
+        "소독약을 뿌린 후에 청소를 할게요."
       ],
       "answer": 1,
-      "explanationBn": "মহিলা বলেছেন যে তিনি পরিষ্কার করা শেষ করেছেন (끝냈습니다)।"
+      "explanationBn": "জীবাণুমুক্ত করা শুরুর কথা বলা হয়েছে, তাই স্বাভাবিক জবাব হলো জীবাণুনাশক আনার প্রস্তাব। '소독약을 뿌린 후에 청소를 할게요' ক্রম উল্টে দেয় — ধোয়া তো হয়েই গেছে।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "পরবর্তী কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 오늘 축사 청소는 다 했어요?\n여자: 네, 배설물을 다 치우고 물청소도 끝냈습니다.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: মহিলা এরপর কী করবেন?",
+      "questionKo": "다음을 듣고 여자가 이어서 할 행동을 고르십시오.",
+      "passage": "남자: 사료 정리하느라고 고생했어요. 내일은 축사 청소한 후에 소독도 할 거니까 준비해 주세요.\n여자: 소독이요? 지난주에 했는데 또 소독을 해야 돼요?\n남자: 일주일에 한 번씩 해야 소들이 병에 걸리지 않거든요.\n여자: 네, 알겠어요. 이따가 창고에 가서 소독약을 준비해 놓을게요.",
       "options": [
-        "축사를 청소하고 있습니다.",
-        "축사 청소를 끝냈습니다.",
-        "아직 청소를 시작하지 않았습니다.",
-        "내일 청소할 것입니다."
+        "사료를 정리합니다.",
+        "축사를 청소합니다.",
+        "창고에서 소독약을 준비합니다.",
+        "소를 이동시킵니다."
       ],
       "answer": 2,
-      "explanationBn": "মহিলা বলেছেন যে তিনি পরিষ্কার করা শেষ করেছেন (끝냈습니다)।"
+      "explanationBn": "মহিলা নিজেই বলছেন '창고에 가서 소독약을 준비해 놓을게요' — গুদামে গিয়ে জীবাণুনাশক তৈরি রাখবেন। খাবার গোছানোর কাজ তো শেষ হয়ে গেছে।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "পরবর্তী কথাটি শুনে সঠিক উত্তরটি বেছে নিন।",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: কত সময় পরপর জীবাণুমুক্ত করতে হয়?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 오늘 축사 청소는 다 했어요?\n여자: 네, 배설물을 다 치우고 물청소도 끝냈습니다.",
+      "passage": "여자: 지난주에 했는데 또 소독을 해야 돼요?\n남자: 네, 일주일에 한 번씩 해야 소들이 병에 걸리지 않아요.",
       "options": [
-        "축사를 청소하고 있습니다.",
-        "축사 청소를 끝냈습니다.",
-        "아직 청소를 시작하지 않았습니다.",
-        "내일 청소할 것입니다."
+        "하루에 한 번",
+        "한 달에 한 번",
+        "일주일에 한 번",
+        "일 년에 한 번"
       ],
-      "answer": 3,
-      "explanationBn": "মহিলা বলেছেন যে তিনি পরিষ্কার করা শেষ করেছেন (끝냈습니다)।"
+      "answer": 2,
+      "explanationBn": "পুরুষটি বলছেন '일주일에 한 번씩' — সপ্তাহে একবার করে। এখানে সময় আগে ('일주일에') আর সংখ্যা পরে ('한 번') বসেছে, যা কোরিয়ানের নিয়ম।"
     }
   ]
 }
