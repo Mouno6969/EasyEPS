@@ -10,670 +10,731 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কারখানায় সাধারণ আসবাবপত্র সম্পর্কিত শব্দ শিখতে পারা।",
-      "সরল কর্মস্থলের অনুরোধ ও নির্দেশাবলী কোরিয়ান ভাষায় বোঝা ও বলতে পারা।",
-      "সরঞ্জাম পরিচয় ও ব্যবহার সহজ বাক্যে বলতে পারা।",
-      "মাপ, উপকরণ ও সমাপ্তি নিয়ে সংক্ষিপ্ত বাক্য পড়তে ও শুনে বুঝতে পারা।"
+      "আসবাব বানানোর প্রস্তুতি — কাঠ, মাপ ও যন্ত্রপাতি নিয়ে কথা বলতে পারা",
+      "ঘষামাজা ও রং করার কাজ নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "'-(으)ㄹ까 봐' দিয়ে আশঙ্কা ও তার আগাম প্রস্তুতি বোঝাতে পারা",
+      "'-느냐고/(으)냐고 하다' দিয়ে অন্যের করা প্রশ্ন তৃতীয় ব্যক্তিকে পৌঁছে দিতে পারা"
     ],
     "en": [
-      "Know common furniture-making vocabulary for the workplace.",
-      "Understand and make simple requests and instructions in Korean.",
-      "Name tools and describe their basic uses in short sentences.",
-      "Read and listen to short passages about measurements, materials and finishing."
+      "Can talk about preparing for furniture-making work",
+      "Can ask and answer questions about sanding and painting furniture",
+      "Can use -(으)ㄹ까 봐 to express worry and the precaution taken against it",
+      "Can relay someone else's question using -느냐고/(으)냐고 하다"
     ]
   },
   "vocabulary": [
     {
-      "ko": "가구",
-      "romanization": "gagu",
-      "bn": "আসবাবপত্র",
-      "en": "furniture",
+      "ko": "원목",
+      "romanization": "wonmok",
+      "bn": "আসল কাঠ (গাছ থেকে কাটা নিরেট কাঠ)",
+      "en": "hardwood, solid wood",
       "pos": "noun",
       "example": {
-        "ko": "새로 가구를 제작했습니다.",
-        "bn": "আমি নতুন আসবাবপত্র তৈরি করেছি।",
-        "en": "I made new furniture."
+        "ko": "반장님, 원목 준비해 놓았습니다.",
+        "bn": "রিডার সাহেব, কাঠটা তৈরি করে রেখেছি।",
+        "en": "Sir, I've got the wood ready."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "의자",
-      "romanization": "uija",
-      "bn": "চেয়ার",
-      "en": "chair",
-      "pos": "noun",
-      "example": {
-        "ko": "의자가 하나 더 필요해요.",
-        "bn": "আলাদা একটি চেয়ার আরও দরকার।",
-        "en": "We need one more chair."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "탁자",
-      "romanization": "takja",
-      "bn": "টেবিল",
-      "en": "table",
-      "pos": "noun",
-      "example": {
-        "ko": "거실에 작은 탁자를 놓겠습니다.",
-        "bn": "বাড়ির লিভিংরুমে ছোট্ট টেবিল রাখব।",
-        "en": "I will place a small table in the living room."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "원목 → [원목]। 'ㄴ' বাতচিম নাক দিয়ে, শেষে 'ㄱ' গলা বন্ধ করে — 'ওন-মোক্'। '원' মানে আসল, '목' মানে কাঠ।"
     },
     {
       "ko": "목재",
       "romanization": "mokjae",
-      "bn": "কাঠ",
-      "en": "wood",
+      "bn": "কাঠের উপকরণ (কাজে লাগানোর জন্য কাটা কাঠ)",
+      "en": "timber, lumber",
       "pos": "noun",
       "example": {
-        "ko": "이 목재는 단단합니다.",
-        "bn": "এই কাঠটি শক্ত।",
-        "en": "This wood is hard."
+        "ko": "목재에 파인 곳이 있어서 홈을 메우고 있어요.",
+        "bn": "কাঠে গর্ত আছে, তাই খাঁজগুলো ভরাট করছি।",
+        "en": "There's a dent in the timber, so I'm filling the groove."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "목재 → [목째]। 'ㄱ' বাতচিমের পরে 'ㅈ' টান-টান শক্ত হয়ে 'ㅉ' হয় — 'মোক-জে' নয়, 'মোক-ছ্যা'।"
     },
     {
-      "ko": "톱",
-      "romanization": "top",
-      "bn": "হাঁটা",
-      "en": "saw",
+      "ko": "센티미터",
+      "romanization": "sentimiteo",
+      "bn": "সেন্টিমিটার",
+      "en": "centimeter",
       "pos": "noun",
       "example": {
-        "ko": "톱으로 나무를 자르세요.",
-        "bn": "টুল দিয়ে কাঠ কেটুন।",
-        "en": "Cut the wood with a saw."
+        "ko": "길이는 30센티미터로 자르세요.",
+        "bn": "দৈর্ঘ্যটা ৩০ সেন্টিমিটার করে কাটুন।",
+        "en": "Cut it to a length of 30 centimeters."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "센티미터 → [센티미터]। 'ㅌ' নিঃশ্বাসযুক্ত 'থ' — 'সেন-তি-মি-তা' নয়, 'সেন-থি-মি-থো'। কথ্য ভাষায় সংক্ষেপে '센치'ও বলা হয়।"
     },
     {
-      "ko": "망치",
-      "romanization": "mangchi",
-      "bn": "হতুড়ি",
-      "en": "hammer",
+      "ko": "밀리미터",
+      "romanization": "millimiteo",
+      "bn": "মিলিমিটার",
+      "en": "millimeter",
       "pos": "noun",
       "example": {
-        "ko": "망치로 못을 박습니다.",
-        "bn": "হতুড়ি দিয়ে ইট ঢুকান।",
-        "en": "Drive the nail with a hammer."
+        "ko": "25밀리미터 두께가 필요한데 이건 35밀리미터짜리인데요.",
+        "bn": "২৫ মিলিমিটার পুরুত্ব দরকার, কিন্তু এটা তো ৩৫ মিলিমিটারের।",
+        "en": "We need 25 millimeters thick, but this one is 35 millimeters."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "밀리미터 → [밀리미터]। 'ㄹㄹ' টেনে 'মিল-লি-মি-থো'। সংখ্যার পরে '짜리' যোগ করলে 'ওই মাপের জিনিস' বোঝায়: '25밀리미터짜리'।"
     },
     {
-      "ko": "못",
-      "romanization": "mot",
-      "bn": "নখ / নেল",
-      "en": "nail",
+      "ko": "테이블톱",
+      "romanization": "teibeultop",
+      "bn": "টেবিল-স (টেবিলে বসানো বড় করাত)",
+      "en": "table saw",
       "pos": "noun",
       "example": {
-        "ko": "못이 짧아요, 더 긴 못 주세요.",
-        "bn": "নখ ছোট, লম্বা নখ দাও।",
-        "en": "The nail is short; give me a longer one."
+        "ko": "테이블톱으로 원목을 자르면 쉽게 자를 수 있어요.",
+        "bn": "টেবিল-স দিয়ে কাঠ কাটলে সহজেই কাটা যায়।",
+        "en": "If you cut the wood with a table saw, it's easy to cut."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "드릴",
-      "romanization": "deuril",
-      "bn": "ড্রিল",
-      "en": "drill",
-      "pos": "noun",
-      "example": {
-        "ko": "드릴로 구멍을 뚫으세요.",
-        "bn": "ড্রিল দিয়ে ছিদ্র করুন।",
-        "en": "Drill a hole with the drill."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "드라이버",
-      "romanization": "deuribeo",
-      "bn": "পেরেকফুঁটা / স্ক্রুড্রাইভার",
-      "en": "screwdriver",
-      "pos": "noun",
-      "example": {
-        "ko": "드라이버로 나사를 조이세요.",
-        "bn": "স্ক্রুড্রাইভার দিয়ে স্ক্রু টাইট করুন।",
-        "en": "Tighten the screw with the screwdriver."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "줄자",
-      "romanization": "julja",
-      "bn": "টেপ মাপনী",
-      "en": "tape measure",
-      "pos": "noun",
-      "example": {
-        "ko": "줄자로 길이를 재세요.",
-        "bn": "টেপ দিয়ে দৈর্ঘ্য মাপুন।",
-        "en": "Measure the length with a tape measure."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "접착제",
-      "romanization": "jeopchakje",
-      "bn": "আঠা",
-      "en": "glue",
-      "pos": "noun",
-      "example": {
-        "ko": "접착제를 구석에 바르세요.",
-        "bn": "আঠা কোণে লাগান।",
-        "en": "Apply glue to the corner."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "사포",
-      "romanization": "sapo",
-      "bn": "স্যান্ডপেপার",
-      "en": "sandpaper",
-      "pos": "noun",
-      "example": {
-        "ko": "사포로 표면을 매끄럽게 하세요.",
-        "bn": "স্যান্ডপেপার দিয়ে পৃষ্ঠ মসৃণ করুন।",
-        "en": "Smooth the surface with sandpaper."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "바니시",
-      "romanization": "banisi",
-      "bn": "বার্নিশ/লেপ",
-      "en": "varnish",
-      "pos": "noun",
-      "example": {
-        "ko": "마지막에 바니시를 칠하세요.",
-        "bn": "শেষে বার্নিশ লাগান।",
-        "en": "Apply varnish at the end."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "설계도",
-      "romanization": "seolgye-do",
-      "bn": "নকশাপত্র/ব্লুপ্রিন্ট",
-      "en": "blueprint",
-      "pos": "noun",
-      "example": {
-        "ko": "설계도를 먼저 확인하세요.",
-        "bn": "প্রথমে নকশাপত্র চেক করুন।",
-        "en": "Check the blueprint first."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "작업장",
-      "romanization": "jageobjang",
-      "bn": "কাজের স্থান/ওয়ার্কশপ",
-      "en": "workshop",
-      "pos": "noun",
-      "example": {
-        "ko": "작업장은 안전모를 착용하세요.",
-        "bn": "ওয়ার্কশপে হেলমেট পরুন।",
-        "en": "Wear a helmet in the workshop."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "목수",
-      "romanization": "moksu",
-      "bn": "র Carpenter / কাঠমিস্ত্রি",
-      "en": "carpenter",
-      "pos": "noun",
-      "example": {
-        "ko": "목수가 탁자를 조립합니다.",
-        "bn": "কাঠ কুশলী টেবিল জোড় করছে।",
-        "en": "The carpenter assembles the table."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "조립하다",
-      "romanization": "joriphada",
-      "bn": "জোড় করা/একত্র করা",
-      "en": "assemble",
-      "pos": "verb",
-      "example": {
-        "ko": "부품을 조립해주세요.",
-        "bn": "উপকরণগুলো জোড় করে দিন।",
-        "en": "Please assemble the parts."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "마감하다",
-      "romanization": "magamhada",
-      "bn": "সমাপ্ত করা/ফিনিশ করা",
-      "en": "to finish",
-      "pos": "verb",
-      "example": {
-        "ko": "작업을 오늘 안으로 마감하세요.",
-        "bn": "আজকের মধ্যে কাজ শেষ করুন।",
-        "en": "Finish the work by today."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "페인트",
-      "romanization": "peinteu",
-      "bn": "রং",
-      "en": "paint",
-      "pos": "noun",
-      "example": {
-        "ko": "가구에 페인트를 칠하세요.",
-        "bn": "আসবাবপত্রে রং লাগান।",
-        "en": "Paint the furniture."
-      },
-      "pronunciationTipBn": "'ㅍ' ধ্বনিটি বাংলা 'ফ'-এর মতো, একটু বাতাস বের করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "붓",
-      "romanization": "but",
-      "bn": "তুলি",
-      "en": "brush",
-      "pos": "noun",
-      "example": {
-        "ko": "붓으로 페인트를 칠합니다.",
-        "bn": "তুলি দিয়ে রং লাগাচ্ছি।",
-        "en": "I am painting with a brush."
-      },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শুরুতে 'প' এবং 'ব'-এর মাঝামাঝি উচ্চারিত হয়।"
+      "pronunciationTipBn": "테이블톱 → [테이블톱]। শুরু ও শেষ দুটোই নিঃশ্বাসযুক্ত 'ㅌ' — 'থে-ই-বৃল-থোপ্'। '톱' মানে করাত।"
     },
     {
       "ko": "대패",
       "romanization": "daepae",
-      "bn": "রঁদা",
+      "bn": "র‍্যাঁদা (কাঠের উপরিভাগ চেঁছে মসৃণ করার যন্ত্র)",
       "en": "plane (tool)",
       "pos": "noun",
       "example": {
-        "ko": "대패로 나무를 깎으세요.",
-        "bn": "রঁদা দিয়ে কাঠ চাঁছুন।",
-        "en": "Plane the wood with a plane."
+        "ko": "대패로 목재 표면을 깎아 주세요.",
+        "bn": "র‍্যাঁদা দিয়ে কাঠের উপরিভাগটা চেঁছে দিন।",
+        "en": "Please plane the surface of the timber."
       },
-      "pronunciationTipBn": "'ㄷ' ধ্বনিটি শব্দের শুরুতে 'ত' এবং 'দ'-এর মাঝামাঝি উচ্চারিত হয়।"
+      "pronunciationTipBn": "대패 → [대패]। দুটো 'ㅐ'-ই মুখ খুলে 'অ্যা', আর 'ㅍ' নিঃশ্বাসযুক্ত 'ফ' — 'দে-পে' নয়, 'দ্যা-ফ্যা'।"
     },
     {
       "ko": "끌",
       "romanization": "kkeul",
-      "bn": "বাটালি",
+      "bn": "বাটালি (কাঠে খাঁজ কাটার যন্ত্র)",
       "en": "chisel",
       "pos": "noun",
       "example": {
-        "ko": "끌로 나무에 구멍을 냅니다.",
-        "bn": "বাটালি দিয়ে কাঠে গর্ত করছি।",
-        "en": "I am making a hole in the wood with a chisel."
+        "ko": "홈을 파야 되니까 끌 좀 가져오세요.",
+        "bn": "খাঁজ কাটতে হবে, তাই বাটালিটা একটু আনুন।",
+        "en": "I have to carve a groove, so please bring the chisel."
       },
-      "pronunciationTipBn": "'ㄲ' ধ্বনিটি বাংলা 'ক'-এর মতো শক্ত করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "끌 → [끌]। 'ㄲ' টান-টান শক্ত 'ক', আর 'ㅡ' ঠোঁট চ্যাপ্টা রেখে — 'কুল' নয়, 'ক্কৃল'।"
     },
     {
-      "ko": "펜치",
-      "romanization": "penchi",
-      "bn": "প্লায়ার্স",
-      "en": "pliers",
+      "ko": "클램프",
+      "romanization": "keullaempeu",
+      "bn": "ক্ল্যাম্প (চেপে ধরে রাখার আঁটনি)",
+      "en": "clamp",
       "pos": "noun",
       "example": {
-        "ko": "펜치로 철사를 자르세요.",
-        "bn": "প্লায়ার্স দিয়ে তার কাটুন।",
-        "en": "Cut the wire with pliers."
+        "ko": "클램프로 고정하고 작업하면 편해요.",
+        "bn": "ক্ল্যাম্প দিয়ে আটকে নিয়ে কাজ করলে সুবিধা হয়।",
+        "en": "It's easier to work if you fix it with a clamp."
       },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি বাংলা 'ছ'-এর মতো, একটু বাতাস বের করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "클램프 → [클램프]। 'ㅋ' নিঃশ্বাসযুক্ত 'খ', 'ㅍ' নিঃশ্বাসযুক্ত 'ফ' — 'কুল-램-পু' নয়, 'খৃল-ল্যাম-ফৃ'।"
     },
     {
-      "ko": "니퍼",
-      "romanization": "nipeo",
-      "bn": "নিপার",
-      "en": "nippers",
+      "ko": "홈을 파다",
+      "romanization": "homeul pada",
+      "bn": "খাঁজ কাটা, খাঁজ খোদাই করা",
+      "en": "to carve a groove",
+      "pos": "phrase",
+      "example": {
+        "ko": "끌로 홈을 파는 작업은 시간이 걸려요.",
+        "bn": "বাটালি দিয়ে খাঁজ কাটার কাজে সময় লাগে।",
+        "en": "Carving grooves with a chisel takes time."
+      },
+      "pronunciationTipBn": "홈을 → [호믈]। 'ㅁ' বাতচিম পরের স্বরে জুড়ে যায় — 'হোম-উল' নয়, 'হো-মৃল'। '파다' মানে খোঁড়া বা কাটা।"
+    },
+    {
+      "ko": "사포",
+      "romanization": "sapo",
+      "bn": "শিরিষ কাগজ (ঘষে মসৃণ করার কাগজ)",
+      "en": "sandpaper",
       "pos": "noun",
       "example": {
-        "ko": "니퍼로 전선을 자릅니다.",
-        "bn": "নিপার দিয়ে বৈদ্যুতিক তার কাটছি।",
-        "en": "I am cutting the electric wire with nippers."
+        "ko": "손을 다칠까 봐 장갑을 끼고 사포질을 했어요.",
+        "bn": "হাত কেটে যাওয়ার ভয়ে দস্তানা পরে শিরিষ কাগজ ঘষেছি।",
+        "en": "I sanded it wearing gloves in case I hurt my hand."
       },
-      "pronunciationTipBn": "'ㅍ' ধ্বনিটি বাংলা 'ফ'-এর মতো, একটু বাতাস বের করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "사포 → [사포]। 'ㅍ' নিঃশ্বাসযুক্ত 'ফ' — 'সা-পো' নয়, 'সা-ফো'।"
     },
     {
-      "ko": "스패너",
-      "romanization": "seupaeneo",
-      "bn": "রেঞ্চ",
-      "en": "spanner / wrench",
+      "ko": "사포질을 하다",
+      "romanization": "sapojireul hada",
+      "bn": "শিরিষ কাগজ দিয়ে ঘষা",
+      "en": "to sand",
+      "pos": "phrase",
+      "example": {
+        "ko": "사포질을 해서 표면을 매끄럽게 만들어야 돼요.",
+        "bn": "শিরিষ কাগজ ঘষে উপরিভাগটা মসৃণ করতে হবে।",
+        "en": "You have to sand it to make the surface smooth."
+      },
+      "pronunciationTipBn": "사포질 → [사포질]। '질' একটি প্রত্যয় যা 'অমুক দিয়ে কাজ করা' বোঝায় — যেমন '가위질' (কাঁচি চালানো), '망치질' (হাতুড়ি চালানো)।"
+    },
+    {
+      "ko": "퍼티",
+      "romanization": "peoti",
+      "bn": "পুটি (কাঠের ফাঁক ভরাটের মশলা)",
+      "en": "putty",
       "pos": "noun",
       "example": {
-        "ko": "스패너로 볼트를 조이세요.",
-        "bn": "রেঞ্চ দিয়ে বোল্ট টাইট করুন।",
-        "en": "Tighten the bolt with a spanner."
+        "ko": "목재에 홈이 있어서 퍼티로 홈을 메웠어요.",
+        "bn": "কাঠে খাঁজ ছিল, তাই পুটি দিয়ে ভরাট করেছি।",
+        "en": "There was a groove in the timber, so I filled it with putty."
       },
-      "pronunciationTipBn": "'ㅅ' ধ্বনিটি বাংলা 'স'-এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "퍼티 → [퍼티]। দুটোই নিঃশ্বাসযুক্ত — 'ㅍ' হলো 'ফ', 'ㅌ' হলো 'থ' — 'পা-তি' নয়, 'ফো-থি'।"
     },
     {
-      "ko": "볼트",
-      "romanization": "bolteu",
-      "bn": "বোল্ট",
-      "en": "bolt",
+      "ko": "홈을 메우다",
+      "romanization": "homeul meuda",
+      "bn": "খাঁজ ভরাট করা, ফাঁক বুজিয়ে দেওয়া",
+      "en": "to fill a groove",
+      "pos": "phrase",
+      "example": {
+        "ko": "파인 곳은 퍼티로 메우면 됩니다.",
+        "bn": "যেখানে গর্ত হয়েছে সেখানে পুটি দিয়ে ভরাট করলেই হবে।",
+        "en": "You can fill the dented parts with putty."
+      },
+      "pronunciationTipBn": "메우다 → [메우다]। খেয়াল রাখুন — '메우다' মানে ভরাট করা, আর '파다' মানে কেটে খাঁজ বানানো; দুটি ঠিক উল্টো কাজ।"
+    },
+    {
+      "ko": "매끄럽다",
+      "romanization": "maekkeureopda",
+      "bn": "মসৃণ হওয়া, হাত বুলালে খসখসে না লাগা",
+      "en": "to be smooth",
+      "pos": "adjective",
+      "example": {
+        "ko": "사포질을 하면 표면이 매끄러워져요.",
+        "bn": "শিরিষ কাগজ ঘষলে উপরিভাগ মসৃণ হয়ে যায়।",
+        "en": "If you sand it, the surface becomes smooth."
+      },
+      "pronunciationTipBn": "매끄럽다 → [매끄럽따]। 'ㅂ' অনিয়মিত: 매끄러워요, 매끄러운 — 'ㅂ' পড়ে গিয়ে '우' হয়।"
+    },
+    {
+      "ko": "분무기",
+      "romanization": "bunmugi",
+      "bn": "স্প্রেয়ার (পানি ছিটানোর যন্ত্র)",
+      "en": "sprayer",
       "pos": "noun",
       "example": {
-        "ko": "볼트와 너트가 필요해요.",
-        "bn": "বোল্ট এবং নাট দরকার।",
-        "en": "I need a bolt and a nut."
+        "ko": "분무기로 물을 뿌리고 사포질을 하세요.",
+        "bn": "স্প্রেয়ার দিয়ে পানি ছিটিয়ে তারপর শিরিষ কাগজ ঘষুন।",
+        "en": "Sprinkle water with the sprayer and then sand it."
       },
-      "pronunciationTipBn": "'ㅂ' ধ্বনিটি শব্দের শুরুতে 'প' এবং 'ব'-এর মাঝামাঝি উচ্চারিত হয়।"
+      "pronunciationTipBn": "분무기 → [분무기]। 'ㄴ' আর 'ㅁ' দুটোই নাক দিয়ে — 'বুন-মু-গি'।"
     },
     {
-      "ko": "너트",
-      "romanization": "neoteu",
-      "bn": "নাট",
-      "en": "nut",
+      "ko": "붓",
+      "romanization": "but",
+      "bn": "তুলি (রং করার ব্রাশ)",
+      "en": "brush",
       "pos": "noun",
       "example": {
-        "ko": "너트를 꽉 조이세요.",
-        "bn": "নাট শক্ত করে টাইট করুন।",
-        "en": "Tighten the nut tightly."
+        "ko": "붓으로 마감재를 칠하면 돼요.",
+        "bn": "তুলি দিয়ে ফিনিশিং কোট লাগালেই হবে।",
+        "en": "You can apply the finish with a brush."
       },
-      "pronunciationTipBn": "'ㄴ' ধ্বনিটি বাংলা 'ন'-এর মতো উচ্চারণ করুন।"
+      "pronunciationTipBn": "붓 → [붇]। শেষের 'ㅅ' বাতচিম হিসেবে 'ㄷ' শব্দে থামে — 'বুস' নয়, 'বুত্'। কিন্তু '붓이' → [부시], তখন 'ㅅ' ফিরে আসে।"
     },
     {
-      "ko": "철사",
-      "romanization": "cheolsa",
-      "bn": "তার",
-      "en": "wire",
+      "ko": "롤러",
+      "romanization": "rolleo",
+      "bn": "রোলার (বড় জায়গায় রং লাগানোর গড়ানো ব্রাশ)",
+      "en": "roller",
       "pos": "noun",
       "example": {
-        "ko": "철사로 묶으세요.",
-        "bn": "তার দিয়ে বাঁধুন।",
-        "en": "Tie it with a wire."
+        "ko": "제가 붓하고 롤러를 가져올게요.",
+        "bn": "আমি তুলি আর রোলারটা নিয়ে আসছি।",
+        "en": "I'll bring the brush and the roller."
       },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি বাংলা 'ছ'-এর মতো, একটু বাতাস বের করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "롤러 → [롤러]। 'ㄹㄹ' টেনে 'রোল-লো'। বড় সমতল জায়গায় রোলার, আর সরু কোণে তুলি ব্যবহার হয়।"
     },
     {
-      "ko": "자르다",
-      "romanization": "jareuda",
-      "bn": "কাটা",
-      "en": "to cut",
-      "pos": "verb",
+      "ko": "젯소",
+      "romanization": "jetso",
+      "bn": "জেসো, প্রাইমার (রং করার আগের আস্তরণ)",
+      "en": "gesso, primer",
+      "pos": "noun",
       "example": {
-        "ko": "나무를 알맞은 크기로 자르세요.",
-        "bn": "কাঠ সঠিক মাপে কাটুন।",
-        "en": "Cut the wood to the right size."
+        "ko": "젯소를 발라야 페인트 색깔이 선명해요.",
+        "bn": "প্রাইমার লাগালেই তবে রঙের রংটা উজ্জ্বল দেখায়।",
+        "en": "The paint color is vivid only if you apply primer."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি শব্দের শুরুতে 'চ' এবং 'জ'-এর মাঝামাঝি উচ্চারিত হয়।"
+      "pronunciationTipBn": "젯소 → [젣쏘]। 'ㅅ' বাতচিমের পরে 'ㅅ' টান-টান শক্ত হয়ে 'ㅆ' হয় — 'জে-সো' নয়, 'জেত-স্সো'।"
     },
     {
-      "ko": "깎다",
-      "romanization": "kkakda",
-      "bn": "চাঁছা / কাটা",
-      "en": "to shave / to peel",
-      "pos": "verb",
+      "ko": "도색",
+      "romanization": "dosaek",
+      "bn": "রং করার কাজ (আসবাবে রং চড়ানো)",
+      "en": "painting, coating",
+      "pos": "noun",
       "example": {
-        "ko": "나무 표면을 깎으세요.",
-        "bn": "কাঠের পৃষ্ঠ চাঁছুন।",
-        "en": "Shave the surface of the wood."
+        "ko": "오늘까지 도색 작업을 끝낼 수 있느냐고 물으셨어요.",
+        "bn": "আজকের মধ্যে রং করার কাজ শেষ করা যাবে কিনা জিজ্ঞেস করেছেন।",
+        "en": "He asked whether we can finish the painting work by today."
       },
-      "pronunciationTipBn": "'ㄲ' ধ্বনিটি বাংলা 'ক'-এর মতো শক্ত করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "도색 → [도색]। শেষে 'ㄱ' গলা বন্ধ করে থামুন — 'দো-স্যাক্'। '도장' শব্দটিও একই কাজ বোঝায়।"
     },
     {
-      "ko": "칠하다",
-      "romanization": "chilhada",
-      "bn": "রং করা",
+      "ko": "페인트를 칠하다",
+      "romanization": "peinteureul chilhada",
+      "bn": "রং লাগানো, রং চড়ানো",
       "en": "to paint",
-      "pos": "verb",
+      "pos": "phrase",
       "example": {
-        "ko": "가구에 예쁜 색을 칠하세요.",
-        "bn": "আসবাবপত্রে সুন্দর রং করুন।",
-        "en": "Paint the furniture with a pretty color."
+        "ko": "언제 페인트를 칠하면 돼요?",
+        "bn": "কখন রং লাগালে হবে?",
+        "en": "When should I paint it?"
       },
-      "pronunciationTipBn": "'ㅊ' ধ্বনিটি বাংলা 'ছ'-এর মতো, একটু বাতাস বের করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "칠하다 → [치라다]। 'ㄹ' আর 'ㅎ' মিলে 'ㄹ' শোনা যায় — 'ছিল-হা-দা' নয়, 'ছি-রা-দা'।"
     },
     {
-      "ko": "재다",
-      "romanization": "jaeda",
-      "bn": "মাপা",
-      "en": "to measure",
+      "ko": "페인트를 섞다",
+      "romanization": "peinteureul seokda",
+      "bn": "রং গুলে মেশানো (দুই রং মিশিয়ে নতুন রং বানানো)",
+      "en": "to mix paint",
+      "pos": "phrase",
+      "example": {
+        "ko": "무슨 색 페인트를 섞어야 되느냐고 했어요.",
+        "bn": "কোন রঙের রং মেশাতে হবে জিজ্ঞেস করেছেন।",
+        "en": "He asked which color of paint we should mix."
+      },
+      "pronunciationTipBn": "섞다 → [석따]। জোড়া 'ㄲ' বাতচিমে একটাই 'ㄱ' শোনা যায়, পরের 'ㄷ' শক্ত হয়ে 'ㄸ' — 'সোক-ত্তা'।"
+    },
+    {
+      "ko": "마감재",
+      "romanization": "magamjae",
+      "bn": "ফিনিশিং কোট (সবশেষে দেওয়া রক্ষা-আস্তরণ)",
+      "en": "finishing coat",
+      "pos": "noun",
+      "example": {
+        "ko": "바니시로 마감재만 바르면 되는 거예요.",
+        "bn": "বার্নিশ দিয়ে শুধু ফিনিশিং কোটটা লাগালেই হবে।",
+        "en": "For that, you just need to apply varnish as the finish."
+      },
+      "pronunciationTipBn": "마감재 → [마감재]। 'ㅁ' বাতচিমে ঠোঁট বন্ধ করে — 'মা-গাম-জ্যা'। '마감' মানে শেষ করা, '재' মানে উপকরণ।"
+    },
+    {
+      "ko": "바니시",
+      "romanization": "banisi",
+      "bn": "বার্নিশ (কাঠে চকচকে রক্ষা-প্রলেপ)",
+      "en": "varnish",
+      "pos": "noun",
+      "example": {
+        "ko": "의자는 바니시를 발라서 마감해요.",
+        "bn": "চেয়ারগুলোতে বার্নিশ লাগিয়ে শেষ করা হয়।",
+        "en": "We finish the chairs by applying varnish."
+      },
+      "pronunciationTipBn": "바니시 → [바니시]। 'ㅅ'+'ㅣ' মিলে 'শি' হয় — 'বা-নি-সি' নয়, 'বা-নি-শি'।"
+    },
+    {
+      "ko": "스프레이건",
+      "romanization": "seupeureigeon",
+      "bn": "স্প্রে গান (চাপ দিয়ে রং ছেটানোর যন্ত্র)",
+      "en": "spray gun",
+      "pos": "noun",
+      "example": {
+        "ko": "책상은 스프레이건으로 도색할 거예요.",
+        "bn": "টেবিলটা স্প্রে গান দিয়ে রং করা হবে।",
+        "en": "We'll paint the desk with a spray gun."
+      },
+      "pronunciationTipBn": "스프레이건 → [스프레이건]। দুটো 'ㅡ' ঠোঁট চ্যাপ্টা রেখে — 'সু-পু-레-이-গন' নয়, 'সৃ-পৃ-রে-ই-গন'।"
+    },
+    {
+      "ko": "스프레이를 뿌리다",
+      "romanization": "seupeureireul ppurida",
+      "bn": "স্প্রে ছেটানো",
+      "en": "to spray",
+      "pos": "phrase",
+      "example": {
+        "ko": "마스크 꼭 쓰고 스프레이를 뿌리세요.",
+        "bn": "অবশ্যই মাস্ক পরে স্প্রে ছেটাবেন।",
+        "en": "Be sure to wear a mask when you spray."
+      },
+      "pronunciationTipBn": "뿌리다 → [뿌리다]। 'ㅃ' টান-টান শক্ত 'প', নিঃশ্বাস ছাড়া হয় না — 'বু-রি-দা' নয়, 'প্পু-রি-দা'।"
+    },
+    {
+      "ko": "열풍기",
+      "romanization": "yeolpunggi",
+      "bn": "হিট গান, গরম হাওয়ার যন্ত্র (দ্রুত শুকানোর জন্য)",
+      "en": "hot air fan, heat gun",
+      "pos": "noun",
+      "example": {
+        "ko": "도장한 가구를 열풍기로 말려 주세요.",
+        "bn": "রং করা আসবাবটা হিট গান দিয়ে শুকিয়ে দিন।",
+        "en": "Please dry the painted furniture with the hot air fan."
+      },
+      "pronunciationTipBn": "열풍기 → [열풍기]। 'ㅍ' নিঃশ্বাসযুক্ত 'ফ', 'ㅇ' নাক দিয়ে — 'ইয়ল-ফুং-গি'। '열' মানে তাপ, '풍' মানে হাওয়া।"
+    },
+    {
+      "ko": "건조시키다",
+      "romanization": "geonjosikida",
+      "bn": "শুকিয়ে নেওয়া (যন্ত্র বা তাপ দিয়ে শুকানো)",
+      "en": "to dry (something)",
       "pos": "verb",
       "example": {
-        "ko": "정확하게 길이를 재세요.",
-        "bn": "সঠিকভাবে দৈর্ঘ্য মাপুন।",
-        "en": "Measure the length accurately."
+        "ko": "젯소를 건조시킨 다음에 페인트를 칠하세요.",
+        "bn": "প্রাইমার শুকিয়ে নেওয়ার পর রং লাগান।",
+        "en": "Apply the paint after drying the primer."
       },
-      "pronunciationTipBn": "'ㅈ' ধ্বনিটি শব্দের শুরুতে 'চ' এবং 'জ'-এর মাঝামাঝি উচ্চারিত হয়。"
+      "pronunciationTipBn": "건조시키다 → [건조시키다]। '-시키다' প্রত্যয়টি 'করানো' বোঝায় — নিজে না করে যন্ত্র বা তাপ দিয়ে করানো, তাই '말리다'-এর চেয়ে বেশি কারিগরি শোনায়।"
+    },
+    {
+      "ko": "초벌재",
+      "romanization": "chobeoljae",
+      "bn": "বেস কোট (প্রথম দফায় লাগানো প্রলেপ)",
+      "en": "base coat",
+      "pos": "noun",
+      "example": {
+        "ko": "초벌재를 바르고 나서 페인트를 칠합니다.",
+        "bn": "বেস কোট লাগানোর পর রং চড়ানো হয়।",
+        "en": "We apply the base coat and then paint."
+      },
+      "pronunciationTipBn": "초벌 → [초벌]। 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'ছো-বল-জ্যা'। '초벌' মানে প্রথম দফা; দ্বিতীয় দফাকে '재벌' বলা হয়।"
+    },
+    {
+      "ko": "물을 뿌리다",
+      "romanization": "mureul ppurida",
+      "bn": "পানি ছিটানো",
+      "en": "to sprinkle water",
+      "pos": "phrase",
+      "example": {
+        "ko": "먼지가 날까 봐 물을 뿌렸어요.",
+        "bn": "ধুলো ওড়ার ভয়ে পানি ছিটিয়ে দিয়েছি।",
+        "en": "I sprinkled water in case dust flew up."
+      },
+      "pronunciationTipBn": "물을 → [무를]। 'ㄹ' বাতচিম পরের স্বরে জুড়ে যায় — 'মুল-উল' নয়, 'মু-রৃল'।"
+    },
+    {
+      "ko": "굳다",
+      "romanization": "gutda",
+      "bn": "জমে শক্ত হয়ে যাওয়া (রং শুকিয়ে দলা পাকানো)",
+      "en": "to harden, to set",
+      "pos": "verb",
+      "example": {
+        "ko": "너무 굳어서 새 페인트를 가져와야겠네요.",
+        "bn": "একদম জমে গেছে, নতুন রং আনতে হবে।",
+        "en": "It's hardened too much, so I'll have to bring new paint."
+      },
+      "pronunciationTipBn": "굳다 → [굳따]। 'ㄷ' বাতচিমের পরে 'ㄷ' শক্ত হয়ে 'ㄸ' হয় — 'গুদ-দা' নয়, 'গুত-ত্তা'। কিন্তু '굳어요' → [구더요]।"
+    },
+    {
+      "ko": "통",
+      "romanization": "tong",
+      "bn": "কৌটা, ক্যান (রং গোনার একক)",
+      "en": "can, tub",
+      "pos": "noun",
+      "example": {
+        "ko": "빨간색 한 통이랑 흰색 한 통 가져오면 되죠?",
+        "bn": "লাল এক কৌটা আর সাদা এক কৌটা আনলেই হবে তো?",
+        "en": "I should bring one can of red and one of white, right?"
+      },
+      "pronunciationTipBn": "통 → [통]। 'ㅌ' নিঃশ্বাসযুক্ত 'থ', শেষে 'ㅇ' নাক দিয়ে — 'তোং' নয়, 'থোং'। রং গোনার সময় '한 통', '두 통' বলা হয়।"
+    },
+    {
+      "ko": "재단",
+      "romanization": "jaedan",
+      "bn": "মাপমতো কাটা (কাঠ বা কাপড় নকশা অনুযায়ী কাটা)",
+      "en": "cutting to size",
+      "pos": "noun",
+      "example": {
+        "ko": "재단을 마친 목재에 젯소를 바릅니다.",
+        "bn": "কাটা শেষ হওয়া কাঠে প্রাইমার লাগানো হয়।",
+        "en": "We apply primer to the timber that has been cut to size."
+      },
+      "pronunciationTipBn": "재단 → [재단]। 'ㅐ' মুখ খুলে 'অ্যা' — 'জে-দান' নয়, 'জ্যা-দান'।"
+    },
+    {
+      "ko": "메모하다",
+      "romanization": "memohada",
+      "bn": "টুকে রাখা, নোট নেওয়া",
+      "en": "to take a note",
+      "pos": "verb",
+      "example": {
+        "ko": "실수할까 봐 메모해 놓았는데 제가 잘못 쓴 것 같습니다.",
+        "bn": "ভুল হয়ে যাওয়ার ভয়ে টুকে রেখেছিলাম, কিন্তু মনে হয় ভুল লিখেছি।",
+        "en": "I took a note in case I made a mistake, but it seems I wrote it wrong."
+      },
+      "pronunciationTipBn": "메모하다 → [메모하다]। 'ㅔ' মাঝারি 'এ' — 'ম্যা-মো' নয়, 'মে-মো'।"
+    },
+    {
+      "ko": "선명하다",
+      "romanization": "seonmyeonghada",
+      "bn": "স্পষ্ট ও উজ্জ্বল হওয়া (রং ঝলমলে দেখানো)",
+      "en": "to be vivid, clear",
+      "pos": "adjective",
+      "example": {
+        "ko": "젯소를 발라야 페인트 색깔이 더 선명하게 보여요.",
+        "bn": "প্রাইমার লাগালেই তবে রঙের রং আরও উজ্জ্বল দেখায়।",
+        "en": "The paint color looks more vivid only if you apply primer."
+      },
+      "pronunciationTipBn": "선명 → [선명]। 'ㄴ' আর 'ㅁ' দুটোই নাক দিয়ে — 'সোন-মিয়ং'।"
+    },
+    {
+      "ko": "빌트인 가구",
+      "romanization": "bilteuin gagu",
+      "bn": "বিল্ট-ইন আসবাব (দেয়ালে গেঁথে বসানো আসবাব)",
+      "en": "built-in furniture",
+      "pos": "noun",
+      "example": {
+        "ko": "빌트인 가구는 공간을 효율적으로 활용할 수 있어요.",
+        "bn": "বিল্ট-ইন আসবাব দিয়ে জায়গাটা দক্ষভাবে কাজে লাগানো যায়।",
+        "en": "Built-in furniture lets you use space efficiently."
+      },
+      "pronunciationTipBn": "빌트인 → [빌트인]। 'ㅃ' টান-টান শক্ত 'প', 'ㅌ' নিঃশ্বাসযুক্ত 'থ' — 'প্পিল-থৃ-ইন'। কোরিয়ান নাম '붙박이 가구'।"
     }
   ],
   "grammar": [
     {
-      "pattern": "A",
-      "titleBn": "বর্তমান চলমান ক্রিয়া (~고 있어요)",
-      "explanationBn": "사용법: 어떤 동작이 지금 진행 중일 때 씁니다. 예문 포함:\n1) 지금 톱으로 자르고 있어요.\n   KO: 지금 톱으로 자르고 있어요.\n   BN: এখন টুল দিয়ে কেটে নিচ্ছি।\n   EN: I am cutting with the saw now.\n2) 목수가 탁자를 조립하고 있어요.\n   KO: 목수가 탁자를 조립하고 있어요.\n   BN: কাঠমিস্ত্রি এখন টেবিল জোড় করছে।\n   EN: The carpenter is assembling the table.",
-      "explanationEn": "Usage: Use when an action is happening now. Examples included:\n1) 지금 톱으로 자르고 있어요.\n   KO: 지금 톱으로 자르고 있어요.\n   BN: এখন টুল দিয়ে কেটে নিচ্ছি।\n   EN: I am cutting with the saw now.\n2) 목수가 탁자를 조립하고 있어요.\n   KO: 목수가 탁자를 조립하고 있어요.\n   BN: কাঠমিস্ত্রি এখন টেবিল জোড় করছে।\n   EN: The carpenter is assembling the table.",
+      "pattern": "V/A + -(으)ㄹ까 봐",
+      "titleBn": "'-(으)ㄹ까 봐' — 'পাছে এমন হয়ে যায়' (আশঙ্কা ও আগাম সাবধানতা)",
+      "explanationBn": "'-(으)ㄹ까 봐' বোঝায় — এমন কিছু ঘটে যেতে পারে বলে দুশ্চিন্তা হচ্ছে, আর সেই আশঙ্কা থেকেই আগেভাগে কিছু একটা করা হচ্ছে। বাংলায় 'পাছে ... হয়ে যায়' বা 'ভয়ে' দিয়ে বোঝানো যায়। মূলে বাতচিম থাকলে '-을까 봐': 먹다 → 먹을까 봐, 젖다 → 젖을까 봐। বাতচিম না থাকলে বা 'ㄹ' হলে '-ㄹ까 봐': 다치다 → 다칠까 봐, 만들다 → 만들까 봐। গুরুত্বপূর্ণ — পরের অংশে সাধারণত আশঙ্কা এড়াতে নেওয়া ব্যবস্থাটি বসে: '손을 다칠까 봐 장갑을 끼었어요' — হাত কাটার ভয়ে দস্তানা পরেছি। কারখানার নিরাপত্তা-ভাবনা প্রকাশে এটি অত্যন্ত স্বাভাবিক রূপ।",
+      "explanationEn": "-(으)ㄹ까 봐 expresses worry that something might happen, with the main clause giving the precaution taken against it. Use -을까 봐 after a consonant (먹을까 봐) and -ㄹ까 봐 after a vowel or ㄹ (다칠까 봐).",
       "examples": [
         {
-          "ko": "지금 톱으로 자르고 있어요.",
-          "bn": "এখন টুল দিয়ে কেটে নিচ্ছি।",
-          "en": "I am cutting with the saw now."
+          "ko": "손을 다칠까 봐 장갑을 끼고 사포질을 했어요.",
+          "bn": "হাত কেটে যাওয়ার ভয়ে দস্তানা পরে শিরিষ কাগজ ঘষেছি।",
+          "en": "I sanded it wearing gloves in case I hurt my hand."
         },
         {
-          "ko": "목수가 탁자를 조립하고 있어요.",
-          "bn": "কাঠ কুশলী টেবিল জোড় করছে।",
-          "en": "The carpenter is assembling the table."
+          "ko": "원목이 비에 젖을까 봐 덮개를 덮었어요.",
+          "bn": "কাঠ বৃষ্টিতে ভিজে যাওয়ার ভয়ে ঢাকনা দিয়ে দিয়েছি।",
+          "en": "I put a cover on in case the wood got wet in the rain."
         },
         {
-          "ko": "안전 수칙을 지키세요.",
-          "bn": "নিরাপত্তা নিয়ম মেনে চলুন।",
-          "en": "Follow the safety rules."
+          "ko": "실수할까 봐 메모해 놓았습니다.",
+          "bn": "ভুল হয়ে যাওয়ার ভয়ে টুকে রেখেছিলাম।",
+          "en": "I took a note in case I made a mistake."
+        },
+        {
+          "ko": "작업장에서 사람들이 미끄러질까 봐 바닥을 깨끗하게 닦았어요.",
+          "bn": "কর্মস্থলে লোকজন পিছলে পড়ার ভয়ে মেঝেটা পরিষ্কার করে মুছেছি।",
+          "en": "I cleaned the floor in case people slipped in the workplace."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যাকরণ ব্যবহারের জন্য নিয়মিত অনুশীলন করুন।"
+      "commonMistakeBn": "সবচেয়ে বড় ভুল হলো এর পরে আদেশ বা প্রস্তাব বসানো: '다칠까 봐 장갑을 끼세요' অস্বাভাবিক — আশঙ্কার কথা বলে নির্দেশ দিতে হলে '-(으)니까' বা '-(으)ㄹ 수 있으니까' ব্যবহার করুন: '다칠 수 있으니까 장갑을 끼세요'। '-(으)ㄹ까 봐' এর পরে সাধারণত অতীতে নেওয়া ব্যবস্থাই আসে। আরেকটি বিষয় — '-(으)ㄹ까 봐 걱정이다' গঠনে দুশ্চিন্তা সরাসরিও বলা যায়: '실수를 할까 봐 걱정돼요'।"
     },
     {
-      "pattern": "B",
-      "titleBn": "আবেদন/অনুরোধ (~아/어 주세요)",
-      "explanationBn": "사용법: 누군가에게 정중하게 요청할 때 씁니다. 예문 포함:\n1) 줄자 좀 빌려 주세요.\n   KO: 줄자 좀 빌려 주세요.\n   BN: আমাকে টেপ মাপনীটা দয়া করে দাও।\n   EN: Please lend me the tape measure.\n2) 못을 더 주세요.\n   KO: 못을 더 주세요.\n   BN: আরও নখ দিন দয়া করে।\n   EN: Please give more nails.",
-      "explanationEn": "Usage: Use to make polite requests. Examples included:\n1) 줄자 좀 빌려 주세요.\n   KO: 줄자 좀 빌려 주세요.\n   BN: আমাকে টেপ মাপনীটা দয়া করে দাও।\n   EN: Please lend me the tape measure.\n2) 못을 더 주세요.\n   KO: 못을 더 주세요.\n   BN: আরও নখ দিন দয়া করে।\n   EN: Please give more nails.",
+      "pattern": "V/A + -느냐고/(으)냐고 하다",
+      "titleBn": "'-느냐고/(으)냐고 하다' — অন্যের করা প্রশ্ন পৌঁছে দেওয়া",
+      "explanationBn": "কেউ কোনো প্রশ্ন করলে সেই প্রশ্নটি তৃতীয় কাউকে জানাতে '-느냐고/(으)냐고 하다' ব্যবহার হয়। ক্রিয়া এবং '있다/없다'-এর সঙ্গে '-느냐고': 먹다 → 먹느냐고, 끝내다 → 끝내느냐고। বিশেষণে বাতচিম থাকলে '-으냐고': 작다 → 작으냐고। বাতচিম না থাকলে বা 'ㄹ' হলে '-냐고': 예쁘다 → 예쁘냐고, 멀다 → 머냐고। কথ্য ভাষায় সবগুলোর বদলে শুধু '-냐고' বললেও চলে — '언제 가냐고 물었어요'। শেষে '하다' বা '묻다' দুটোই বসতে পারে, আর গুরুজনের প্রশ্ন হলে '-냐고 하셨어요'।",
+      "explanationEn": "-느냐고/(으)냐고 하다 relays a question someone asked. Use -느냐고 with verbs and 있다/없다, -으냐고 with consonant-final adjectives, and -냐고 after a vowel or ㄹ. In casual speech plain -냐고 covers all cases. End with 하다 or 묻다.",
       "examples": [
         {
-          "ko": "줄자 좀 빌려 주세요.",
-          "bn": "টেপ মাপনীটা দয়া করে貸してください।",
-          "en": "Please lend me the tape measure."
+          "ko": "반장님께서 오늘까지 도색 작업을 끝낼 수 있느냐고 물으셨어요.",
+          "bn": "রিডার সাহেব জিজ্ঞেস করেছেন, আজকের মধ্যে রং করার কাজ শেষ করা যাবে কিনা।",
+          "en": "The team leader asked whether we can finish the painting by today."
         },
         {
-          "ko": "못을 더 주세요.",
-          "bn": "আরও নখ দিন দয়া করে।",
-          "en": "Please give more nails."
+          "ko": "아궁 씨가 바니시를 언제 주문하느냐고 물었어요.",
+          "bn": "আগুং জিজ্ঞেস করেছেন, বার্নিশ কখন অর্ডার করা হবে।",
+          "en": "Agung asked when we would order the varnish."
         },
         {
-          "ko": "안전 수칙을 지키세요.",
-          "bn": "নিরাপত্তা নিয়ম মেনে চলুন।",
-          "en": "Follow the safety rules."
+          "ko": "무슨 색 페인트를 섞어야 되느냐고 했어요.",
+          "bn": "কোন রঙের রং মেশাতে হবে জিজ্ঞেস করেছেন।",
+          "en": "He asked which color of paint we should mix."
+        },
+        {
+          "ko": "반장님께서 목재의 먼지를 다 털었느냐고 하셨어요.",
+          "bn": "রিডার সাহেব জিজ্ঞেস করেছেন, কাঠের ধুলো সব ঝাড়া হয়েছে কিনা।",
+          "en": "The team leader asked whether we had dusted off all the timber."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যাকরণ ব্যবহারের জন্য নিয়মিত অনুশীলন করুন।"
+      "commonMistakeBn": "কথা পৌঁছে দেওয়ার চারটি রূপ গুলিয়ে ফেলা সবচেয়ে সাধারণ ভুল: প্রশ্ন → '-냐고 하다'; আদেশ → '-(으)라고 하다'; প্রস্তাব → '-자고 하다'; বিবৃতি → '-(느)ㄴ다고 하다'। তাই '어디 있느냐고 했어요' মানে 'কোথায় আছে জিজ্ঞেস করেছেন', কিন্তু '어디 있으라고 했어요' মানে 'কোথায় থাকতে বলেছেন'। আরেকটি ভুল — ক্রিয়ায় '-으냐고' বসানো: '먹으냐고' নয়, সঠিক '먹느냐고'।"
     },
     {
-      "pattern": "C",
-      "titleBn": "정중한 지시/권유 (~(으)세요)",
-      "explanationBn": "사용법: 정중하게 지시하거나 권유할 때 씁니다. 예문 포함:\n1) 안전모를 착용하세요.\n   KO: 안전모를 착용하세요.\n   BN: হেলমেট পরুন।\n   EN: Wear a safety helmet.\n2) 사포로 표면을 다듬으세요.\n   KO: 사포로 표면을 다듬으세요.\n   BN: স্যান্ডপেপার দিয়ে পৃষ্ঠ ঠিক করুন।\n   EN: Smooth the surface with sandpaper.",
-      "explanationEn": "Usage: Use to give polite instructions or suggestions. Examples included:\n1) 안전모를 착용하세요.\n   KO: 안전모를 착용하세요.\n   BN: হেলমেট পরুন।\n   EN: Wear a safety helmet.\n2) 사포로 표면을 다듬으세요.\n   KO: 사포로 표면을 다듬으세요.\n   BN: স্যান্ডপেপার দিয়ে পৃষ্ঠ ঠিক করুন।\n   EN: Smooth the surface with sandpaper.",
+      "pattern": "N + 짜리",
+      "titleBn": "'짜리' — 'ওই মাপের / ওই দামের জিনিস'",
+      "explanationBn": "'짜리' সংখ্যা বা পরিমাণ বোঝানো বিশেষ্যের সঙ্গে সরাসরি বসে বোঝায় — 'ওই মাপের জিনিসটি' বা 'ওই দামের জিনিসটি'। রূপ কখনো বদলায় না: 25밀리미터 → 25밀리미터짜리, 만 원 → 만 원짜리, 한 통 → 한 통짜리। কারখানায় কাঠ, পাত বা যন্ত্রাংশের মাপ বলতে এটি প্রতিদিন লাগে, কারণ শুধু সংখ্যা বললে বোঝা যায় না যে জিনিসটির কথা বলা হচ্ছে: '25밀리미터짜리로 준비하면 되지요?' — ২৫ মিলিমিটারেরটা তৈরি করলেই হবে তো? খেয়াল রাখুন, '짜리' জিনিসটিকে বোঝায়, আর মাপটিকে নয়।",
+      "explanationEn": "짜리 attaches directly to a noun of quantity, size, or price to mean 'the one that is X' — 25밀리미터짜리 ('the 25-millimeter one'), 만 원짜리 ('the 10,000-won one'). The form never changes. It refers to the item, not the measurement itself.",
       "examples": [
         {
-          "ko": "안전모를 착용하세요.",
-          "bn": "হেলমেট পরুন।",
-          "en": "Wear a safety helmet."
+          "ko": "25밀리미터 두께가 필요한데 이건 35밀리미터짜리인데요.",
+          "bn": "২৫ মিলিমিটার পুরুত্ব দরকার, কিন্তু এটা তো ৩৫ মিলিমিটারের।",
+          "en": "We need 25 millimeters thick, but this is a 35-millimeter one."
         },
         {
-          "ko": "사포로 표면을 다듬으세요.",
-          "bn": "স্যান্ডপেপার দিয়ে পৃষ্ঠ ঠিক করুন।",
-          "en": "Smooth the surface with sandpaper."
+          "ko": "원목은 25밀리미터짜리로 준비하면 되지요?",
+          "bn": "কাঠটা ২৫ মিলিমিটারেরটা তৈরি করলেই হবে তো?",
+          "en": "I should prepare the 25-millimeter wood, right?"
         },
         {
-          "ko": "안전 수칙을 지키세요.",
-          "bn": "নিরাপত্তা নিয়ম মেনে চলুন।",
-          "en": "Follow the safety rules."
+          "ko": "빨간색 한 통짜리 페인트를 가져오세요.",
+          "bn": "লাল রঙের এক কৌটার প্যাকটা নিয়ে আসুন।",
+          "en": "Please bring the one-can size of red paint."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যাকরণ ব্যবহারের জন্য নিয়মিত অনুশীলন করুন।"
+      "commonMistakeBn": "'짜리'-এর আগে '의' বা '을/를' বসানো ভুল: '25밀리미터의짜리' নয়, সঠিক '25밀리미터짜리' — বিশেষ্যের সঙ্গে সরাসরি জোড়া লাগে। আরেকটি বিভ্রান্তি — '짜리' আর '정도': '짜리' নির্দিষ্ট মাপ বোঝায় ('만 원짜리' — ঠিক দশ হাজার ওনের), আর '정도' আনুমানিক ('만 원 정도' — দশ হাজার ওনের মতো)।"
     },
     {
-      "pattern": "D",
-      "titleBn": "উদ্দেশ্য বা কারণ (~(으)려고)",
-      "explanationBn": "사용법: 어떤 행동을 하는 목적이나 의도를 나타낼 때 씁니다. 예문 포함:\n1) 가구를 만들려고 목재를 샀어요.\n   KO: 가구를 만들려고 목재를 샀어요.\n   BN: আসবাবপত্র তৈরি করার জন্য কাঠ কিনেছি।\n   EN: I bought wood to make furniture.\n2) 길이를 재려고 줄자를 가져왔어요.\n   KO: 길이를 재려고 줄자를 가져왔어요.\n   BN: দৈর্ঘ্য মাপার জন্য টেপ মাপনী এনেছি।\n   EN: I brought a tape measure to measure the length.",
-      "explanationEn": "Usage: Used to express the purpose or intention of an action. Examples included:\n1) 가구를 만들려고 목재를 샀어요.\n   KO: 가구를 만들려고 목재를 샀어요.\n   BN: আসবাবপত্র তৈরি করার জন্য কাঠ কিনেছি।\n   EN: I bought wood to make furniture.\n2) 길이를 재려고 줄자를 가져왔어요.\n   KO: 길이를 재려고 줄자를 가져왔어요.\n   BN: দৈর্ঘ্য মাপার জন্য টেপ মাপনী এনেছি।\n   EN: I brought a tape measure to measure the length.",
+      "pattern": "V + -(으)ㄹ 필요가 없다",
+      "titleBn": "'-(으)ㄹ 필요가 없다' — 'এটা করার দরকার নেই'",
+      "explanationBn": "'-(으)ㄹ 필요가 없다' বোঝায় কোনো কাজ করার প্রয়োজন নেই — নিষেধ নয়, বরং অপ্রয়োজনীয়তা। মূলে বাতচিম থাকলে '-을 필요가 없다': 먹다 → 먹을 필요가 없다। বাতচিম না থাকলে বা 'ㄹ' হলে '-ㄹ 필요가 없다': 하다 → 할 필요가 없다, 만들다 → 만들 필요가 없다। উল্টো অর্থে '-(으)ㄹ 필요가 있다' বসে ('দরকার আছে')। খুব গুরুত্বপূর্ণ পার্থক্য — '-(으)면 안 되다' মানে 'করা যাবে না' (নিষেধ), কিন্তু '-(으)ㄹ 필요가 없다' মানে 'করলেও ক্ষতি নেই, তবে দরকার নেই'।",
+      "explanationEn": "-(으)ㄹ 필요가 없다 means there is no need to do something — it marks an action as unnecessary, not forbidden. Use -을 필요가 없다 after a consonant and -ㄹ 필요가 없다 after a vowel or ㄹ. Contrast with -(으)면 안 되다, which forbids.",
       "examples": [
         {
-          "ko": "가구를 만들려고 목재를 샀어요.",
-          "bn": "আসবাবপত্র তৈরি করার জন্য কাঠ কিনেছি।",
-          "en": "I bought wood to make furniture."
+          "ko": "바니시로 마감재만 바르면 되는 거라서 젯소나 페인트 작업을 할 필요가 없어요.",
+          "bn": "বার্নিশ দিয়ে শুধু ফিনিশিং লাগালেই হবে, তাই প্রাইমার বা রঙের কাজ করার দরকার নেই।",
+          "en": "We just apply varnish as the finish, so there's no need for primer or paint work."
         },
         {
-          "ko": "길이를 재려고 줄자를 가져왔어요.",
-          "bn": "দৈর্ঘ্য মাপার জন্য টেপ মাপনী এনেছি।",
-          "en": "I brought a tape measure to measure the length."
+          "ko": "이미 사포질을 했으니까 다시 할 필요가 없습니다.",
+          "bn": "শিরিষ কাগজ তো ঘষা হয়েই গেছে, তাই আবার করার দরকার নেই।",
+          "en": "We've already sanded it, so there's no need to do it again."
         },
         {
-          "ko": "못을 박으려고 망치를 찾고 있어요.",
-          "bn": "পেরেক ঠোকার জন্য হাতুড়ি খুঁজছি।",
-          "en": "I am looking for a hammer to drive a nail."
+          "ko": "스프레이로 하면 오래 걸릴 필요가 없어요.",
+          "bn": "স্প্রে দিয়ে করলে বেশি সময় লাগার দরকার নেই।",
+          "en": "If you use the spray, it doesn't need to take long."
         }
       ],
-      "commonMistakeBn": "অনেকে '~(으)려고' এর পরে '하다' ছাড়া অন্য ক্রিয়া ব্যবহার করতে ভুলে যান। এটি যেকোনো ক্রিয়ার সাথেই বসতে পারে।"
+      "commonMistakeBn": "'-(으)ㄹ 필요가 없다' আর '-(으)면 안 되다' গুলিয়ে ফেলা বিপজ্জনক ভুল, কারণ নিরাপত্তার নির্দেশে অর্থ উল্টে যায়: '마스크를 쓸 필요가 없어요' মানে 'মাস্ক পরার দরকার নেই', কিন্তু '마스크를 쓰면 안 돼요' মানে 'মাস্ক পরা যাবে না'। আরেকটি ভুল হলো '필요' এর সঙ্গে '가' বাদ দেওয়া — '필요 없다' কথ্যে চলে, তবে লিখিত রূপে '필요가 없다' বলাই ঠিক।"
     },
     {
-      "pattern": "E",
-      "titleBn": "পরামর্শ বা উপদেশ (~는 게 좋겠어요)",
-      "explanationBn": "사용법: 상대방에게 어떤 행동을 하는 것이 좋겠다고 조언할 때 씁니다. 예문 포함:\n1) 안전모를 쓰는 게 좋겠어요.\n   KO: 안전모를 쓰는 게 좋겠어요.\n   BN: হেলমেট পরা ভালো হবে।\n   EN: It would be better to wear a safety helmet.\n2) 먼저 설계도를 확인하는 게 좋겠어요.\n   KO: 먼저 설계도를 확인하는 게 좋겠어요.\n   BN: প্রথমে নকশাপত্র চেক করা ভালো হবে।\n   EN: It would be better to check the blueprint first.",
-      "explanationEn": "Usage: Used to advise or suggest that it would be good for the listener to do something. Examples included:\n1) 안전모를 쓰는 게 좋겠어요.\n   KO: 안전모를 쓰는 게 좋겠어요.\n   BN: হেলমেট পরা ভালো হবে।\n   EN: It would be better to wear a safety helmet.\n2) 먼저 설계도를 확인하는 게 좋겠어요.\n   KO: 먼저 설계도를 확인하는 게 좋겠어요.\n   BN: প্রথমে নকশাপত্র চেক করা ভালো হবে।\n   EN: It would be better to check the blueprint first.",
+      "pattern": "V + -(으)려면",
+      "titleBn": "'-(으)려면' — 'করতে চাইলে / করতে হলে' (উদ্দেশ্য + শর্ত)",
+      "explanationBn": "'-(으)려면' ক্রিয়ামূলের সঙ্গে বসে বোঝায় — কোনো কিছু করতে চাইলে বা করতে হলে কী দরকার। এটি আসলে '-(으)려고 하면'-এর সংক্ষিপ্ত রূপ, তাই এতে উদ্দেশ্য ও শর্ত দুটোই মিশে আছে। মূলে বাতচিম থাকলে '-으려면': 먹다 → 먹으려면। বাতচিম না থাকলে বা 'ㄹ' হলে '-려면': 하다 → 하려면, 만들다 → 만들려면। পরের অংশে সাধারণত দরকারি শর্ত, সময় বা পরামর্শ বসে: '도색까지 하려면 시간이 꽤 걸릴 것 같은데요' — রং পর্যন্ত করতে হলে বেশ সময় লাগবে বলে মনে হচ্ছে।",
+      "explanationEn": "-(으)려면 attaches to a verb stem to mean 'if you intend to' or 'in order to' — a contraction of -(으)려고 하면, so it carries both intention and condition. Use -으려면 after a consonant and -려면 after a vowel or ㄹ. The main clause states what is required.",
       "examples": [
         {
-          "ko": "안전모를 쓰는 게 좋겠어요.",
-          "bn": "হেলমেট পরা ভালো হবে।",
-          "en": "It would be better to wear a safety helmet."
+          "ko": "그것도 도색까지 하려면 시간이 꽤 걸릴 것 같은데요.",
+          "bn": "সেটাও রং পর্যন্ত করতে হলে বেশ সময় লাগবে বলে মনে হচ্ছে।",
+          "en": "If we're to paint those as well, it'll probably take quite a while."
         },
         {
-          "ko": "먼저 설계도를 확인하는 게 좋겠어요.",
-          "bn": "প্রথমে নকশাপত্র চেক করা ভালো হবে।",
-          "en": "It would be better to check the blueprint first."
+          "ko": "표면을 매끄럽게 만들려면 사포질을 해야 돼요.",
+          "bn": "উপরিভাগ মসৃণ করতে হলে শিরিষ কাগজ ঘষতে হবে।",
+          "en": "To make the surface smooth, you have to sand it."
         },
         {
-          "ko": "작업 후에는 도구를 정리하는 게 좋겠어요.",
-          "bn": "কাজের পরে সরঞ্জাম গুছিয়ে রাখা ভালো হবে।",
-          "en": "It would be better to organize the tools after work."
+          "ko": "오늘까지 끝내려면 야근을 해야 될 것 같아요.",
+          "bn": "আজকের মধ্যে শেষ করতে হলে ওভারটাইম করতে হবে বলে মনে হচ্ছে।",
+          "en": "If we're to finish by today, I think we'll need to work overtime."
         }
       ],
-      "commonMistakeBn": "অনেকে '는 게' এর পরিবর্তে '은/ㄴ 게' ব্যবহার করেন। বর্তমান কালের ক্রিয়ার সাথে সবসময় '는 게' বসবে।"
+      "commonMistakeBn": "'-(으)려면' আর '-(으)면' গুলিয়ে ফেলা সাধারণ ভুল: '-(으)면' শুধু শর্ত বোঝায় ('하면' — করলে), কিন্তু '-(으)려면' এর সঙ্গে ইচ্ছা বা উদ্দেশ্যও যুক্ত ('하려면' — করতে চাইলে)। আরেকটি ভুল হলো কর্তা বদলে ফেলা: '-(으)려면'-এর কর্তা সাধারণত মানুষ হতে হয়, কারণ এতে ইচ্ছার ভাব আছে — '비가 오려면' অস্বাভাবিক শোনায়।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "치수 확인",
-      "titleEn": "Checking Measurements",
+      "titleBn": "ভুল পুরুত্বের কাঠ — কাজ শুরুর আগে যাচাই",
+      "titleEn": "The Wrong Thickness of Wood",
       "lines": [
         {
-          "speaker": "작업자",
-          "ko": "탁자 길이를 재겠습니다. 줄자 주세요.",
-          "bn": "আমি টেবিলের দৈর্ঘ্য মাপব। টেপটা দিন।",
-          "en": "I'll measure the table. Please give me the tape measure."
+          "speaker": "아궁",
+          "ko": "반장님, 원목 준비해 놓았습니다. 이제 재단해도 될까요?",
+          "bn": "রিডার সাহেব, কাঠটা তৈরি করে রেখেছি। এখন কি কাটা শুরু করব?",
+          "en": "Sir, the wood is ready. Shall we start cutting now?"
         },
         {
-          "speaker": "관리자",
-          "ko": "여기 있습니다. 길이와 폭을 알려 주세요.",
-          "bn": "এটা নাও। দৈর্ঘ্য আর প্রস্থ জানাও।",
-          "en": "Here you go. Tell me the length and the width."
+          "speaker": "반장님",
+          "ko": "잠깐만요. 이건 우리가 작업할 원목이 아닌 것 같아요. 25밀리미터 두께가 필요한데 이건 35밀리미터짜리인데요.",
+          "bn": "একটু দাঁড়ান। এটা তো আমাদের কাজের কাঠ বলে মনে হচ্ছে না। ২৫ মিলিমিটার পুরুত্ব দরকার, কিন্তু এটা ৩৫ মিলিমিটারের।",
+          "en": "Hold on. This doesn't look like the wood we're supposed to use. We need 25 millimeters thick, but this is a 35-millimeter one."
         },
         {
-          "speaker": "작업자",
-          "ko": "길이는 120cm, 폭은 80cm입니다.",
-          "bn": "দৈর্ঘ্য ১২০ সেমি, প্রস্থ ৮০ সেমি।",
-          "en": "Length is 120 cm, width is 80 cm."
+          "speaker": "아궁",
+          "ko": "그래요? 실수할까 봐 메모해 놓았는데 제가 잘못 쓴 것 같습니다. 죄송합니다.",
+          "bn": "তাই? ভুল হয়ে যাওয়ার ভয়ে টুকে রেখেছিলাম, কিন্তু মনে হয় ভুল লিখেছি। দুঃখিত।",
+          "en": "Really? I took a note in case I made a mistake, but it seems I wrote it down wrong. I'm sorry."
         },
         {
-          "speaker": "관리자",
-          "ko": "좋습니다. 설계도와 맞습니까?",
-          "bn": "ভালো। নকশার সঙ্গে মিলছে?",
-          "en": "Good. Does that match the blueprint?"
+          "speaker": "반장님",
+          "ko": "괜찮아요. 이거 갖다 놓고 다시 가져오세요. 그사이에 내가 작업 준비를 하고 있을게요.",
+          "bn": "সমস্যা নেই। এটা রেখে এসে ঠিকটা নিয়ে আসুন। এর মধ্যে আমি কাজের প্রস্তুতি নিচ্ছি।",
+          "en": "It's okay. Put this back and bring the right one. Meanwhile I'll get the work ready."
         },
         {
-          "speaker": "작업자",
-          "ko": "네, 설계도와 같습니다.",
-          "bn": "হ্যাঁ, নকশার মতোই।",
-          "en": "Yes, it matches the blueprint."
+          "speaker": "아궁",
+          "ko": "알겠습니다. 얼른 다시 가져올게요.",
+          "bn": "বুঝেছি। তাড়াতাড়ি নিয়ে আসছি।",
+          "en": "Understood. I'll bring it right away."
+        },
+        {
+          "speaker": "반장님",
+          "ko": "그래도 작업 전에 확인했으니까 다행이에요. 원목 두께가 다른 걸 쓰면 큰일 나거든요.",
+          "bn": "তবু কাজ শুরুর আগে দেখে নিয়েছি, এটাই ভালো হয়েছে। কাঠের পুরুত্ব আলাদা হলে বড় গণ্ডগোল হয়ে যায়।",
+          "en": "Still, it's lucky we checked before starting. Using the wrong thickness would be a serious problem."
         }
       ]
     },
     {
-      "titleBn": "도구 요청과 완료 보고",
-      "titleEn": "Asking for Tools and Reporting Completion",
+      "titleBn": "রং করার কাজ আজকের মধ্যে শেষ হবে কিনা",
+      "titleEn": "Can the Painting Be Finished Today?",
       "lines": [
         {
-          "speaker": "작업자",
-          "ko": "저기요, 드릴이 필요해요. 빌려 주세요.",
-          "bn": "দেখুন, আমার ড্রিল দরকার। দয়া করে দেন।",
-          "en": "Excuse me, I need a drill. Please lend it to me."
+          "speaker": "진수",
+          "ko": "마두 씨, 반장님께서 뭐라고 하셨어요?",
+          "bn": "মাদু, রিডার সাহেব কী বলেছেন?",
+          "en": "Madu, what did the team leader say?"
         },
         {
-          "speaker": "동료",
-          "ko": "여기 드릴 있어요. 비트도 있습니다.",
-          "bn": "এখানে ড্রিল আছে। বিটগুলোও আছে।",
-          "en": "Here is the drill. There are bits too."
+          "speaker": "마두",
+          "ko": "오늘까지 도색 작업을 끝낼 수 있느냐고 물으셨어요. 야근을 해야 될 것 같아요.",
+          "bn": "জিজ্ঞেস করেছেন, আজকের মধ্যে রং করার কাজ শেষ করা যাবে কিনা। মনে হয় ওভারটাইম করতে হবে।",
+          "en": "He asked whether we can finish the painting by today. I think we'll have to work overtime."
         },
         {
-          "speaker": "작업자",
-          "ko": "감사합니다. 이제 나사를 박겠습니다.",
-          "bn": "ধন্যবাদ। এখন স্ক্রু লাগাব।",
-          "en": "Thank you. I'll put in the screws now."
+          "speaker": "진수",
+          "ko": "이건 스프레이건으로 도색할 거라서 오래 안 걸릴 거예요.",
+          "bn": "এটা তো স্প্রে গান দিয়ে রং করা হবে, তাই বেশি সময় লাগবে না।",
+          "en": "This one will be sprayed with a spray gun, so it won't take long."
         },
         {
-          "speaker": "동료",
-          "ko": "끝나면 바니시도 발라 주세요.",
-          "bn": "শেষ হলে বার্নিশও লাগিয়ে দিও।",
-          "en": "When finished, apply the varnish too."
+          "speaker": "마두",
+          "ko": "그거 말고 의자도 있잖아요. 그것도 도색까지 하려면 시간이 꽤 걸릴 것 같은데요.",
+          "bn": "ওটা ছাড়াও তো চেয়ারগুলো আছে। সেগুলোও রং পর্যন্ত করতে হলে বেশ সময় লাগবে বলে মনে হচ্ছে।",
+          "en": "Besides that, there are the chairs too. If we're to paint those as well, it'll take quite a while."
         },
         {
-          "speaker": "작업자",
-          "ko": "네, 작업을 마치고 보고하겠습니다.",
-          "bn": "ঠিক আছে, কাজ শেষ করে জানাব।",
-          "en": "Yes, I'll finish the work and report."
+          "speaker": "진수",
+          "ko": "그건 바니시로 마감재만 바르면 되는 거라서 젯소나 페인트 작업을 할 필요가 없어요.",
+          "bn": "ওগুলোতে তো বার্নিশ দিয়ে শুধু ফিনিশিং লাগালেই হবে, তাই প্রাইমার বা রঙের কাজ করার দরকার নেই।",
+          "en": "For those we just apply varnish as the finish, so there's no need for primer or paint work."
         },
         {
-          "speaker": "동료",
-          "ko": "수고하세요.",
-          "bn": "ভাল কাজ করো।",
-          "en": "Good work."
+          "speaker": "마두",
+          "ko": "그럼 퇴근 시간 전에 다 끝낼 수 있겠네요. 어서 시작합시다.",
+          "bn": "তাহলে তো ছুটির আগেই সব শেষ করা যাবে। চলুন তাড়াতাড়ি শুরু করি।",
+          "en": "Then we can finish everything before the end of the day. Let's get started quickly."
         }
       ]
     },
     {
-      "titleBn": "রং করা এবং ফিনিশিং",
-      "titleEn": "Painting and Finishing",
+      "titleBn": "রং জমে গেছে — নতুন রং আনার ব্যবস্থা",
+      "titleEn": "The Paint Has Hardened",
       "lines": [
         {
-          "speaker": "반장",
-          "ko": "조립이 다 끝났습니까?",
-          "bn": "জোড় করার কাজ কি শেষ হয়েছে?",
-          "en": "Is the assembly all finished?"
+          "speaker": "자하라",
+          "ko": "어제 쓰다 남은 페인트가 아직 쓸 만한지 한번 봐 주세요.",
+          "bn": "গতকালের বেঁচে যাওয়া রংটা এখনো কাজে লাগবে কিনা একটু দেখুন তো।",
+          "en": "Please check whether the paint left over from yesterday is still usable."
         },
         {
-          "speaker": "작업자",
-          "ko": "네, 방금 다 끝냈습니다. 이제 무엇을 할까요?",
-          "bn": "হ্যাঁ, এইমাত্র শেষ করেছি। এখন কী করব?",
-          "en": "Yes, I just finished it. What should I do now?"
+          "speaker": "아궁",
+          "ko": "한번 봐요. 아, 너무 굳어서 새 페인트를 가져와야겠네요.",
+          "bn": "দেখি একটু। আরে, একদম জমে গেছে — নতুন রং আনতে হবে।",
+          "en": "Let me see. Ah, it's hardened too much, so we'll need new paint."
         },
         {
-          "speaker": "반장",
-          "ko": "사포로 표면을 부드럽게 다듬으세요.",
-          "bn": "স্যান্ডপেপার দিয়ে পৃষ্ঠ মসৃণ করুন।",
-          "en": "Smooth the surface with sandpaper."
+          "speaker": "자하라",
+          "ko": "제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠?",
+          "bn": "আমি গুদামে গিয়ে নিয়ে আসছি। লাল এক কৌটা আর সাদা এক কৌটা আনলেই হবে তো?",
+          "en": "I'll go to the warehouse and get it. One can of red and one of white, right?"
         },
         {
-          "speaker": "작업자",
-          "ko": "알겠습니다. 그 다음에는 페인트를 칠할까요?",
-          "bn": "বুঝতে পেরেছি। এরপর কি রং করব?",
-          "en": "Understood. Should I paint it after that?"
+          "speaker": "아궁",
+          "ko": "네, 그러면 될 것 같아요. 전 작업 도구를 준비해 놓을게요.",
+          "bn": "হ্যাঁ, তাহলেই হবে বলে মনে হয়। আমি কাজের যন্ত্রপাতি গুছিয়ে রাখছি।",
+          "en": "Yes, that should do. I'll get the tools ready."
         },
         {
-          "speaker": "반장",
-          "ko": "네, 페인트를 칠하고 마지막에 바니시를 바르세요.",
-          "bn": "হ্যাঁ, রং করুন এবং শেষে বার্নিশ লাগান।",
-          "en": "Yes, paint it and apply varnish at the end."
+          "speaker": "자하라",
+          "ko": "참, 스프레이를 뿌릴 때는 마스크 꼭 쓰세요. 냄새를 마실까 봐 걱정돼요.",
+          "bn": "আর হ্যাঁ, স্প্রে ছেটানোর সময় অবশ্যই মাস্ক পরবেন। গন্ধটা শ্বাসে ঢুকে যাওয়ার ভয় হচ্ছে।",
+          "en": "Oh, and be sure to wear a mask when spraying. I'm worried you might breathe in the fumes."
+        },
+        {
+          "speaker": "아궁",
+          "ko": "알겠어요. 그렇게 할게요. 도색이 끝나면 열풍기로 건조시키면 되지요?",
+          "bn": "বুঝেছি, তাই করব। রং করা শেষ হলে হিট গান দিয়ে শুকিয়ে নিলেই হবে তো?",
+          "en": "Understood, I'll do that. After painting, I dry it with the hot air fan, right?"
         }
       ]
     }
@@ -682,592 +743,568 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "'가구' শব্দের মানে কোনটি?",
-      "questionKo": "'가구'의 뜻은 무엇입니까?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 홈을 파야 되니까 ___ 좀 가져오세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "রং",
-        "টুল",
-        "আশ্রয়",
-        "আসবাবপত্র"
+        "끌",
+        "붓",
+        "롤러",
+        "분무기"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "가구는 আসবাবপত্র বোঝায়, যেমন 의자나 탁자।"
+      "answer": 0,
+      "explanationBn": "কাঠে খাঁজ কাটার যন্ত্র হলো '끌' (বাটালি)। '붓' আর '롤러' রং লাগায়, '분무기' পানি ছিটায় — কোনোটিই কাঠ কাটে না।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "'망치' মানে কী?",
-      "questionKo": "'망치'의 뜻은 무엇입니까?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 목재에 홈이 있어서 퍼티로 홈을 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "স্ক্রু",
-        "হতুড়ি",
-        "কাঠ",
-        "কাটার যন্ত্র"
+        "잘랐어요",
+        "메웠어요",
+        "들었어요",
+        "만들었어요"
       ],
-      "pairs": [],
       "answer": 1,
-      "explanationBn": "망치는 যাওয়া 못 পিটানোর জন্য ব্যবহৃত হতুড়ি।"
+      "explanationBn": "পুটি দিয়ে ফাঁক বা খাঁজ ভরাট করা হয়, তাই '메우다' সঠিক। '자르다' মানে কাটা, '들다' মানে তোলা, '만들다' মানে বানানো — কোনোটিই ফাঁক বোজায় না।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 '줄자'로 할 수 있는 것은?",
-      "questionKo": "'줄자'로 할 수 있는 것은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄹ까 봐' বসান: 손을 ___ 장갑을 끼고 사포질을 했어요. (다치다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "রঙ塗る",
-        "গর্ত করা",
-        "লোকাল গান শোনা",
-        "দৈর্ঘ্য মাপা"
+        "다칠까 봐",
+        "다치을까 봐",
+        "다쳤을까 봐",
+        "다치까 봐"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "줄자는 দৈর্ঘ্য মাপার টুল, তাই 'দৈর্ঘ্য মাপা' সঠিক।"
+      "answer": 0,
+      "explanationBn": "'다치다' স্বরান্ত মূল, তাই '-ㄹ까 봐' বসে: 다칠까 봐। বাতচিম থাকলে '-을까 봐' লাগত (먹을까 봐)। এখানে আশঙ্কা ভবিষ্যতের, তাই অতীত রূপ '다쳤을까 봐' মানায় না।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "관리자가 '설계도를 확인하세요' 하면 무슨 뜻?",
-      "questionKo": "'설계도를 확인하세요'의 의미는 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-느냐고 하다' বসান: 반장님께서 오늘까지 도색 작업을 끝낼 수 ___ 물으셨어요. (있다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "বসা",
-        "নকশাপত্র পরীক্ষা করা",
-        "ড্রিল ব্যবহার করা",
-        "কাজ বন্ধ করা"
+        "있으냐고",
+        "있자고",
+        "있으라고",
+        "있느냐고"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "설계도는 নকশাপত্র, 확인하라는 말은 পরীক্ষা করুন।"
+      "answer": 3,
+      "explanationBn": "'있다'-এর সঙ্গে '-느냐고' বসে: 있느냐고 물으셨어요। '있으냐고' ভুল রূপ, '있자고' প্রস্তাব বোঝাত, আর '있으라고' আদেশ পৌঁছে দিত।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "'사포'는 무엇에 사용합니까?",
-      "questionKo": "'사포'는 무엇에 사용합니까?",
-      "options": [
-        "পৃষ্ঠ মসৃণ করা",
-        "কাজের নকশা করা",
-        "ড্রিল চালানো",
-        "মাপ নেওয়া"
+      "type": "matching",
+      "questionBn": "যন্ত্রপাতির সঙ্গে তার কাজ মেলান।",
+      "questionKo": "공구와 용도를 연결하세요.",
+      "pairs": [
+        {
+          "left": "테이블톱",
+          "right": "কাঠ মাপমতো কাটা"
+        },
+        {
+          "left": "대패",
+          "right": "উপরিভাগ চেঁছে সমান করা"
+        },
+        {
+          "left": "끌",
+          "right": "খাঁজ কেটে বসানো"
+        },
+        {
+          "left": "클램프",
+          "right": "কাঠ নড়তে না দেওয়া"
+        },
+        {
+          "left": "사포",
+          "right": "ঘষে মসৃণ করা"
+        }
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "사포는 স্যান্ডপেপার, পৃষ্ঠ মসৃণ করার জন্য ব্যবহৃত।"
+      "explanationBn": "আসবাব তৈরির কাজ এই ক্রমেই এগোয় — আগে কাটা, তারপর চেঁছে ও ঘষে মসৃণ করা। '클램프' নিজে কিছু কাটে না, কেবল কাঠটা ধরে রাখে যাতে অন্য যন্ত্র নিরাপদে চালানো যায়।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "문장에 맞는 단어를 고르세요: '___으로 구멍을 뚫으세요.'",
-      "questionKo": "문장에 맞는 단어를 고르세요: '___으로 구멍을 뚫으세요.'",
+      "type": "multiple-choice",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের? — '재단을 마친 목재에 젯소를 발라 페인트 색깔이 더 선명하게 보이도록 하는 작업입니다.'",
+      "questionKo": "다음은 무엇에 대한 설명입니까? '재단을 마친 목재에 젯소를 발라 페인트 색깔이 더 선명하게 보이도록 하는 작업입니다.'",
       "options": [
-        "설계도",
-        "사포",
-        "드릴",
-        "바니시"
+        "연마 작업",
+        "선반 작업",
+        "도장 작업",
+        "포장 작업"
       ],
-      "pairs": [],
       "answer": 2,
-      "explanationBn": "구멍을 뚫는 도구는 드릴이므로 '드릴'이 맞습니다."
+      "explanationBn": "প্রাইমার লাগিয়ে রং উজ্জ্বল দেখানোর কাজটাই '도장 작업' (রং করার কাজ)। '연마' মানে ঘষামাজা, '선반' মানে লেদ মেশিনের কাজ, '포장' মানে মোড়ানো।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "문장에 맞는 표현을 고르세요: '작업을 끝내면 ___를 바르세요.'",
-      "questionKo": "문장에 맞는 표현을 고르세요: '작업을 끝내면 ___를 바르세요.'",
+      "questionBn": "'짜리' বসান: 25밀리미터___ 원목을 가져오세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "망치",
-        "설계도",
-        "바니시",
-        "줄자"
+        "의짜리",
+        "짜리",
+        "를 짜리",
+        "에 짜리"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "마감으로 바니시를 바르라는 문맥이므로 '바니시'가 맞습니다."
+      "answer": 1,
+      "explanationBn": "'짜리' বিশেষ্যের সঙ্গে সরাসরি জোড়া লাগে, মাঝে '의', '을/를' বা '에' বসে না — তাই '25밀리미터짜리'।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "문장에 맞는 단어를 고르세요: '부품을 ___하세요.' (একত্র করা)",
-      "questionKo": "문장에 맞는 단어를 고르세요: '부품을 ___하세요.'",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোন বাক্যে নিচে দাগ দেওয়া অংশটি সঠিক?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "사포",
-        "바니시",
-        "조립",
-        "못"
+        "작업장이 어디 있자고 했어요.",
+        "뭘로 먼지를 털었다고 했어요.",
+        "언제 퇴근을 했느냐고 했어요.",
+        "몇 시에 점심을 먹으라고 했어요."
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "문맥상 '부품을 조립하세요'가 맞지만 보기 배열에서 정답은 index 3 이므로 '바니시' নয় — 여기서는 '조립'이 정답이어야 합니다n→ 수정 필요합니다n"
+      "answer": 2,
+      "explanationBn": "'언제 퇴근했어요?' একটি প্রশ্ন, তাই পৌঁছে দিতে '-느냐고' বসে — এটিই সঠিক। '어디 있어요?' প্রশ্ন, তাই '있자고' নয় '있느냐고' হতো; আর '뭘로', '몇 시에' দিয়ে শুরু হওয়া বাক্যও প্রশ্ন, তাই '-다고' বা '-으라고' মানায় না।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "왼쪽 단어와 오른쪽 뜻을 연결하세요.",
-      "questionKo": "왼쪽 단어와 오른쪽 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "맡치",
-          "right": "—"
-        },
-        {
-          "left": "줄자",
-          "right": "길이 재기"
-        },
-        {
-          "left": "접착제",
-          "right": "붙이는 물질"
-        },
-        {
-          "left": "설계도",
-          "right": "도면/블루프린트"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'-(으)ㄹ 필요가 없다' বসান: 이미 사포질을 했으니까 다시 ___. (하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "하면 안 돼요",
+        "해야 돼요",
+        "할 수 없어요",
+        "할 필요가 없어요"
       ],
-      "answer": 0,
-      "explanationBn": "매칭 문제는 항목을 연결해서 연습합니다."
+      "answer": 3,
+      "explanationBn": "আগেই করা হয়ে গেছে, তাই আবার করার 'দরকার নেই' — অপ্রয়োজনীয়তা বোঝাতে '-(으)ㄹ 필요가 없다' বসে। '하면 안 돼요' মানে করা নিষেধ, আর '할 수 없어요' মানে করা সম্ভব নয় — দুটোই আলাদা অর্থ।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "도구와 용도를 연결하세요.",
-      "questionKo": "도구와 용도를 연결하세요.",
-      "options": [],
+      "questionBn": "রং করার কাজের ধাপগুলোর সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "도장 작업 순서와 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "망치",
-          "right": "못 박기"
+          "left": "홈을 메우다",
+          "right": "খাঁজ ও ফাঁক ভরাট করা"
         },
         {
-          "left": "드라이버",
-          "right": "나사 조이기"
+          "left": "사포질을 하다",
+          "right": "ঘষে মসৃণ করা"
         },
         {
-          "left": "사포",
-          "right": "표면 다듬기"
+          "left": "젯소를 바르다",
+          "right": "প্রাইমার লাগানো"
         },
         {
-          "left": "드릴",
-          "right": "구멍 뚫기"
+          "left": "페인트를 칠하다",
+          "right": "রং চড়ানো"
+        },
+        {
+          "left": "마감재를 바르다",
+          "right": "শেষে রক্ষা-আস্তরণ দেওয়া"
         }
       ],
-      "answer": 0,
-      "explanationBn": "매칭 문제는 각 도구와 용도를 연결하세요."
+      "explanationBn": "রং করার কাজ ঠিক এই ক্রমেই হয় — আগে ফাঁক বুজিয়ে ঘষে মসৃণ করা, তারপর প্রাইমার, রং, আর সবশেষে ফিনিশিং। ধাপ বাদ দিলে রং সমানভাবে বসে না বা তাড়াতাড়ি উঠে যায়।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "'페인트' শব্দের মানে কোনটি?",
-      "questionKo": "'페인트'의 뜻은 무엇입니까?",
+      "questionBn": "'실수할까 봐 메모해 놓았습니다.' — এই বাক্যটির অর্থ কী?",
+      "questionKo": "다음 문장의 뜻으로 알맞은 것을 고르세요.",
       "options": [
-        "কাঠ",
-        "তুলি",
-        "রং",
-        "আঠা"
+        "ভুল করেছি বলে টুকে রেখেছি",
+        "ভুল হয়ে যাওয়ার ভয়ে আগেই টুকে রেখেছি",
+        "টুকে রাখলে ভুল হয়",
+        "ভুল না হলে টুকে রাখব"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "페인트는 색을 칠할 때 사용하는 'রং'입니다."
+      "answer": 1,
+      "explanationBn": "'-(으)ㄹ까 봐' বোঝায় এমন কিছু ঘটার আশঙ্কা, আর সেই ভয় থেকেই আগাম ব্যবস্থা নেওয়া — অর্থাৎ ভুল এখনো হয়নি, ভুল ঠেকাতেই টুকে রাখা হয়েছে।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 '붓'으로 할 수 있는 것은?",
-      "questionKo": "'붓'으로 할 수 있는 것은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)려면' বসান: 표면을 매끄럽게 ___ 사포질을 해야 돼요. (만들다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "구멍 뚫기",
-        "페인트 칠하기",
-        "길이 재기",
-        "못 박기"
+        "만들으려면",
+        "만들면",
+        "만들려면",
+        "만들어서"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "붓은 페인트를 칠할 때 사용하는 도구입니다."
+      "answer": 2,
+      "explanationBn": "'만들다' মূলে 'ㄹ' বাতচিম, তাই '-려면' বসে: 만들려면। 'ㄹ' থাকলে '으' যোগ হয় না, তাই '만들으려면' ভুল। '만들면' শুধু শর্ত বোঝাত, উদ্দেশ্য নয়।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "'대패'는 무엇에 사용합니까?",
-      "questionKo": "'대패'는 무엇에 사용합니까?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 도장한 가구를 ___(으)로 말려 주세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "나무 깎기",
-        "철사 자르기",
-        "나사 조이기",
-        "길이 재기"
+        "분무기",
+        "클램프",
+        "열풍기",
+        "테이블톱"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "대패는 나무 표면을 깎고 다듬는 데 사용합니다."
+      "answer": 2,
+      "explanationBn": "গরম হাওয়া দিয়ে দ্রুত শুকানোর যন্ত্র হলো '열풍기'। '분무기' পানি ছিটায় (উল্টো কাজ), '클램프' চেপে ধরে, আর '테이블톱' কাটে।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "관리자가 '안전모를 쓰는 게 좋겠어요' 하면 무슨 뜻?",
-      "questionKo": "'안전모를 쓰는 게 좋겠어요'의 의미는 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄹ까 봐' বসান: 원목이 비에 ___ 덮개를 덮었어요. (젖다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "헬멧을 벗으세요",
-        "헬멧을 쓰지 마세요",
-        "헬멧을 쓰는 것이 좋습니다",
-        "헬멧을 버리세요"
+        "젖을까 봐",
+        "젖었을까 봐",
+        "젖어서",
+        "젖으면"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "'~는 게 좋겠어요'는 조언을 나타내므로 헬멧을 쓰는 것이 좋다는 뜻입니다."
+      "answer": 0,
+      "explanationBn": "'젖다' মূলে 'ㅈ' বাতচিম আছে, তাই '-을까 봐' বসে: 젖을까 봐। '젖어서' কারণ বোঝাত (ভিজে গেছে বলে), কিন্তু এখানে এখনো ভেজেনি — ভেজার আশঙ্কায় ঢাকা দেওয়া হয়েছে।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "문장에 맞는 단어를 고르세요: '___로 철사를 자르세요.'",
-      "questionKo": "문장에 맞는 단어를 고르세요: '___로 철사를 자르세요.'",
-      "options": [
-        "붓",
-        "줄자",
-        "대패",
-        "펜치"
+      "type": "matching",
+      "questionBn": "রং লাগানোর উপকরণের সঙ্গে তার ব্যবহার মেলান।",
+      "questionKo": "도색 도구와 쓰임을 연결하세요.",
+      "pairs": [
+        {
+          "left": "붓",
+          "right": "সরু জায়গা ও কোণে রং লাগানো"
+        },
+        {
+          "left": "롤러",
+          "right": "বড় সমতল জায়গায় রং লাগানো"
+        },
+        {
+          "left": "스프레이건",
+          "right": "চাপ দিয়ে সমানভাবে রং ছেটানো"
+        },
+        {
+          "left": "퍼티",
+          "right": "কাঠের ফাঁক ভরাট করা"
+        },
+        {
+          "left": "바니시",
+          "right": "শেষে চকচকে রক্ষা-প্রলেপ"
+        }
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "철사를 자르는 도구는 펜치입니다."
+      "explanationBn": "একই কাজে সব যন্ত্র সমান উপযুক্ত নয় — বড় সমতল জায়গায় রোলার দ্রুত, কোণে তুলি নিখুঁত, আর স্প্রে গান সমান আস্তরণ দেয় কিন্তু মাস্ক পরা বাধ্যতামূলক।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "문장에 맞는 단어를 고르세요: '스패너로 ___를 조이세요.'",
-      "questionKo": "문장에 맞는 단어를 고르세요: '스패너로 ___를 조이세요.'",
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 페인트가 너무 ___ 새 페인트를 가져와야겠어요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "볼트",
-        "목재",
-        "페인트",
-        "사포"
+        "굳어서",
+        "매끄러워서",
+        "선명해서",
+        "얇아서"
       ],
-      "pairs": [],
       "answer": 0,
-      "explanationBn": "스패너는 볼트나 너트를 조일 때 사용합니다."
+      "explanationBn": "রং জমে শক্ত হয়ে গেলে আর ব্যবহার করা যায় না, তাই নতুন রং আনতে হয় — '굳어서' সঠিক। '매끄럽다' মানে মসৃণ, '선명하다' মানে উজ্জ্বল, '얇다' মানে পাতলা — কোনোটিই রং বদলানোর কারণ নয়।"
     },
     {
       "id": "p17",
       "type": "fill-blank",
-      "questionBn": "문장에 맞는 표현을 고르세요: '가구를 ___ 목재를 샀어요.'",
-      "questionKo": "문장에 맞는 표현을 고르세요: '가구를 ___ 목재를 샀어요.'",
+      "questionBn": "'-느냐고 하다' বসান: 아궁 씨가 바니시를 언제 ___ 물었어요. (주문하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "만들면",
-        "만들고",
-        "만들어서",
-        "만들려고"
+        "주문하자고",
+        "주문하느냐고",
+        "주문하라고",
+        "주문한다고"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "목적을 나타내는 '~(으)려고'가 적절합니다."
+      "answer": 1,
+      "explanationBn": "'언제 주문해요?' একটি প্রশ্ন, তাই পৌঁছে দিতে '-느냐고' বসে। '주문하자고' প্রস্তাব, '주문하라고' আদেশ, আর '주문한다고' সাধারণ বিবৃতি পৌঁছে দিত।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "문장에 맞는 표현을 고르세요: '먼저 설계도를 ___ 게 좋겠어요.'",
-      "questionKo": "문장에 맞는 표현을 고르세요: '먼저 설계도를 ___ 게 좋겠어요.'",
+      "type": "multiple-choice",
+      "questionBn": "'젯소나 페인트 작업을 할 필요가 없어요.' — এর মানে কী?",
+      "questionKo": "다음 문장의 뜻으로 알맞은 것을 고르세요.",
       "options": [
-        "확인하는",
-        "확인한",
-        "확인할",
-        "확인하고"
+        "প্রাইমার বা রঙের কাজ করা নিষেধ",
+        "প্রাইমার বা রঙের কাজ করা অসম্ভব",
+        "প্রাইমার বা রঙের কাজ আগে করতে হবে",
+        "প্রাইমার বা রঙের কাজ করার দরকার নেই"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "조언을 나타내는 '~는 게 좋겠어요' 앞에는 동사 원형 어간 + '는'이 옵니다."
+      "answer": 3,
+      "explanationBn": "'-(으)ㄹ 필요가 없다' মানে দরকার নেই — নিষেধ নয়। নিষেধ বোঝাতে '-(으)면 안 되다' বসত, আর অসম্ভব বোঝাতে '-(으)ㄹ 수 없다'। এই পার্থক্যটা নিরাপত্তার নির্দেশে খুব গুরুত্বপূর্ণ।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "도구와 용도를 연결하세요.",
-      "questionKo": "도구와 용도를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "붓",
-          "right": "페인트 칠하기"
-        },
-        {
-          "left": "대패",
-          "right": "나무 깎기"
-        },
-        {
-          "left": "펜치",
-          "right": "철사 자르기"
-        },
-        {
-          "left": "스패너",
-          "right": "볼트 조이기"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄹ까 봐' বসান: 주문량을 못 ___ 야근해요. (맞추다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "맞출까 봐서",
+        "맞추면",
+        "맞춰서",
+        "맞출까 봐"
       ],
-      "answer": 0,
-      "explanationBn": "각 도구의 올바른 용도를 연결하는 문제입니다."
+      "answer": 3,
+      "explanationBn": "অর্ডারের পরিমাণ মেলাতে না পারার আশঙ্কায় ওভারটাইম করা হচ্ছে, তাই '맞출까 봐' সঠিক। '맞추다' স্বরান্ত মূল, তাই '-ㄹ까 봐' বসে। '맞춰서' কারণ বোঝাত, কিন্তু এখানে ঘটনাটা এখনো ঘটেনি।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "한국어 단어와 벵골어 뜻을 연결하세요.",
-      "questionKo": "한국어 단어와 벵골어 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "페인트",
-          "right": "রং"
-        },
-        {
-          "left": "끌",
-          "right": "বাটালি"
-        },
-        {
-          "left": "너트",
-          "right": "নাট"
-        },
-        {
-          "left": "철사",
-          "right": "তার"
-        }
+      "type": "multiple-choice",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন: '빌트인 가구는 공간을 효율적으로 활용할 수는 있지만 설치와 철거 비용이 많이 들고 교체가 어렵다는 단점이 있습니다.'",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "options": [
+        "빌트인 가구는 설치하기가 쉽습니다.",
+        "빌트인 가구는 쉽게 교체할 수 있습니다.",
+        "빌트인 가구는 요즘 별로 인기가 없습니다.",
+        "빌트인 가구는 공간을 효율적으로 사용하게 해 줍니다."
       ],
-      "answer": 0,
-      "explanationBn": "한국어 단어의 정확한 벵골어 뜻을 연결하는 문제입니다."
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '공간을 효율적으로 활용할 수는 있지만' — জায়গা দক্ষভাবে কাজে লাগানো যায়, তাই এটিই সঠিক। বসানো ও খোলার খরচ বেশি, আর বদলানোও কঠিন বলে বাকি বিকল্পগুলো লেখার বিপরীত।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하세요: 탁자 길이가 120cm, 폭이 80cm입니다. 길이는 얼마입니까?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 탁자 길이가 120cm, 폭이 80cm입니다. 길이는 얼마입니까?",
-      "passage": "탁자 길이는 120cm, 폭은 80cm입니다.",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের?",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "passage": "재단을 마친 목재에 젯소를 발라 페인트 색깔이 더 선명하게 보이도록 하는 작업입니다.",
       "options": [
-        "길이가 100cm이다",
-        "폭이 80cm이다",
-        "길이가 80cm이다",
-        "길이가 120cm이다"
+        "연마 작업",
+        "도장 작업",
+        "선반 작업",
+        "포장 작업"
       ],
-      "answer": 3,
-      "explanationBn": "본문에 길이는 120cm라고 명시되어 있습니다."
+      "answer": 1,
+      "explanationBn": "প্রাইমার লাগিয়ে রং উজ্জ্বল দেখানোর কাজটাই '도장 작업'। '연마' মানে ঘষামাজা, '선반' মানে লেদ মেশিনের কাজ, '포장' মানে মোড়ানো।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "다음 문장에서 틀린 것을 고르세요: '사포로 표면을 거칠게 하세요.'",
-      "questionKo": "다음 문장에서 틀린 것을 고르세요: '사포로 표면을 거칠게 하세요.'",
-      "passage": "사포로 표면을 거칠게 하세요.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "목재에 홈이 있어서 퍼티로 홈을 (        ).",
       "options": [
-        "사포는 표면을 매끄럽게 한다",
-        "사포는 표면을 거칠게 한다",
-        "사포는 샌드페이퍼다",
-        "사포로 문장을 만들었다"
+        "잘랐어요",
+        "들었어요",
+        "메웠어요",
+        "만들었어요"
       ],
       "answer": 2,
-      "explanationBn": "문장이 '거칠게 하세요'라고 되어 있지만 실제 목적은 매끄럽게 하는 것이므로 2번(문맥 오답)이 정답입니다."
+      "explanationBn": "পুটি দিয়ে ফাঁক বা খাঁজ ভরাট করা হয়, তাই '메우다' সঠিক। '자르다' কাটা, '들다' তোলা, '만들다' বানানো — কোনোটিই ফাঁক বোজায় না।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 질문: '설계도를 먼저 확인하세요.'는 무슨 의미인가요?",
-      "questionKo": "다음 글을 읽고 질문: '설계도를 먼저 확인하세요.'는 무슨 의미인가요?",
-      "passage": "설계도를 먼저 확인하세요.",
+      "questionBn": "নিচের কোন বাক্যে নিচে দাগ দেওয়া অংশটি সঠিক?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "설계도를 버리세요",
-        "설계도를 먼저 보세요",
-        "설계도를 잊으세요",
-        "설계도를 인쇄하세요"
+        "작업장이 어디 있자고 했어요.",
+        "뭘로 먼지를 털었다고 했어요.",
+        "몇 시에 점심을 먹으라고 했어요.",
+        "언제 퇴근을 했느냐고 했어요."
       ],
-      "answer": 1,
-      "explanationBn": "'확인하세요'는 '먼저 보세요/체크하세요' 의미입니다."
+      "answer": 3,
+      "explanationBn": "'언제 퇴근했어요?' একটি প্রশ্ন, তাই পৌঁছে দিতে '-느냐고' বসে। বাকি তিনটিও মূলে প্রশ্ন ছিল, তাই '-자고' (প্রস্তাব), '-다고' (বিবৃতি) বা '-으라고' (আদেশ) কোনোটিই মানায় না।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "문장을 읽고 맞는 것을 고르세요: '못이 짧아요, 더 긴 못 주세요.'",
-      "questionKo": "문장을 읽고 맞는 것을 고르세요: '못이 짧아요, 더 긴 못 주세요.'",
-      "passage": "못이 짧아요, 더 긴 못 주세요.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "작업장에서 사람들이 (        ) 바닥을 깨끗하게 닦았어요.",
       "options": [
-        "못을 버리라고 한다.",
-        "못이 충분하다고 말한다.",
-        "더 긴 못을 달라 요청하고 있다.",
-        "못을 갈아 달라고 한다."
+        "미끄러질까 봐",
+        "미끄러져서",
+        "미끄러지면",
+        "미끄러졌을까 봐"
       ],
-      "answer": 2,
-      "explanationBn": "문장에서 더 긴 못을 달라고 요청하고 있으므로 0번이 맞습니다."
+      "answer": 0,
+      "explanationBn": "লোকজন পিছলে পড়ার আশঙ্কায় আগেভাগে মেঝে মোছা হয়েছে, তাই '-(으)ㄹ까 봐' রূপ '미끄러질까 봐' সঠিক। '미끄러져서' মানে পিছলে গেছে বলে — কিন্তু এখনো কেউ পড়েনি।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "다음 문장에 알맞은 것은? '작업을 오늘 안으로 마감하세요.'",
-      "questionKo": "다음 문장에 알맞은 것은? '작업을 오늘 안으로 마감하세요.'",
-      "passage": "작업을 오늘 안으로 마감하세요.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "가구를 만들 때는 먼저 목재를 재단합니다. 그 다음에 홈을 메우고 사포질을 해서 표면을 매끄럽게 만듭니다. 표면이 매끄러워야 페인트가 고르게 발립니다.",
       "options": [
-        "오늘 안으로 끝내라",
-        "항상 천천히 해라",
-        "작업을 중단하라",
-        "내일까지 해라"
+        "사포질은 재단하기 전에 합니다.",
+        "표면이 매끄러워야 페인트가 고르게 발립니다.",
+        "홈은 메우지 않아도 됩니다.",
+        "재단은 마지막에 합니다."
       ],
-      "answer": 0,
-      "explanationBn": "'오늘 안으로'는 오늘까지 완료하라는 의미입니다."
+      "answer": 1,
+      "explanationBn": "লেখায় স্পষ্ট বলা আছে '표면이 매끄러워야 페인트가 고르게 발립니다'। ক্রম অনুযায়ী আগে কাটা, তারপর ফাঁক ভরাট ও ঘষা — তাই বাকি তিনটি ক্রম উল্টে দেয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "다음 녹음을 듣고 질문에 답하세요: '줄자로 길이를 재겠습니다. 150cm입니다.' 길이는 얼마입니까?",
-      "questionKo": "다음 녹음을 듣고 질문에 답하세요: '줄자로 길이를 재겠습니다. 150cm입니다.' 길이는 얼마입니까?",
-      "passage": "줄자로 길이를 재겠습니다. 150cm입니다.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "25밀리미터 두께가 필요한데 이건 35밀리미터(        )인데요.",
       "options": [
-        "길이는 120cm이다",
-        "길이는 150cm이다",
-        "길이는 80cm이다",
-        "길이는 100cm이다"
+        "짜리",
+        "의짜리",
+        "를 짜리",
+        "에 짜리"
       ],
-      "answer": 1,
-      "explanationBn": "녹음에서 길이를 150cm라고 말하고 있습니다."
+      "answer": 0,
+      "explanationBn": "'짜리' বিশেষ্যের সঙ্গে সরাসরি জোড়া লাগে, মাঝে কোনো বিভক্তি বসে না — তাই '35밀리미터짜리'। এটি 'ওই মাপের জিনিসটি' বোঝায়।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "다음 대화를 듣고 질문: '드릴을 빌려 달라는 말'에 대한 응답은 무엇입니까? 대화: '드릴이 필요해요.' '여기 드릴 있어요.'",
-      "questionKo": "다음 대화를 듣고 질문: '드릴을 빌려 달라는 말'에 대한 응답은 무엇입니까? 대화: '드릴이 필요해요.' '여기 드릴 있어요.'",
-      "passage": "남자: 드릴이 필요해요.\n여자: 여기 드릴 있어요.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 반장님이 뭐라고 하셨어요?\n나: 도색 준비를 (        ) 하셨어요.",
       "options": [
-        "드릴이 있다",
-        "드릴을 주지 않는다",
-        "드릴이 없다",
-        "드릴 고장"
+        "마치자고",
+        "마치라고",
+        "마쳤느냐고",
+        "마친다고"
       ],
-      "answer": 0,
-      "explanationBn": "응답은 '여기 드릴 있어요'로 드릴이 있다고 말합니다."
+      "answer": 2,
+      "explanationBn": "রিডার সাহেব প্রশ্ন করেছেন — প্রস্তুতি শেষ হয়েছে কিনা, তাই '-느냐고' বসে। '마치자고' প্রস্তাব, '마치라고' আদেশ, '마친다고' বিবৃতি পৌঁছে দিত।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "녹음: '작업을 마치고 보고하겠습니다.' 질문: 화자는 무엇을 하겠다고 했나요?",
-      "questionKo": "녹음: '작업을 마치고 보고하겠습니다.' 질문: 화자는 무엇을 하겠다고 했나요?",
-      "passage": "작업을 마치고 보고하겠습니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "빌트인 가구는 특정 공간에 맞추어 제작된 가구로 옷장과 수납장, 책장 등이 있습니다. 공간을 효율적으로 활용할 수는 있지만 설치와 철거 비용이 많이 들고 교체가 어렵다는 단점이 있습니다. 이러한 단점에도 불구하고 최근에는 인기가 많아져서 가전제품도 빌트인으로 제작되고 있습니다.",
       "options": [
-        "작업을 시작하겠다",
-        "작업이 끝나면 보고하겠다",
-        "작업을 중단하겠다",
-        "누군가를 부르겠다"
+        "빌트인 가구는 설치하기가 쉽습니다.",
+        "빌트인 가구는 쉽게 교체할 수 있습니다.",
+        "빌트인 가구는 요즘 별로 인기가 없습니다.",
+        "빌트인 가구는 공간을 효율적으로 사용하게 해 줍니다."
       ],
-      "answer": 1,
-      "explanationBn": "문장은 '끝내고 보고하겠다'는 의미로 2번이 맞습니다."
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '공간을 효율적으로 활용할 수는 있지만' — জায়গা দক্ষভাবে কাজে লাগানো যায়। বসানো ও খোলার খরচ বেশি, বদলানো কঠিন, আর ইদানীং জনপ্রিয়তা বেড়েছে — তাই বাকি তিনটি লেখার বিপরীত।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "다음 표지판의 의미는 무엇입니까?",
-      "questionKo": "다음 표지판의 의미는 무엇입니까?",
-      "passage": "[안전모 착용]",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "홈을 파야 되니까 (        ) 좀 가져오세요.",
       "options": [
-        "안전모를 착용하십시오.",
-        "안전모를 벗으십시오.",
-        "안전화를 신으십시오.",
-        "안전장갑을 끼십시오."
+        "붓",
+        "롤러",
+        "분무기",
+        "끌"
       ],
-      "answer": 0,
-      "explanationBn": "'안전모 착용'은 안전모를 쓰라는 의미입니다."
+      "answer": 3,
+      "explanationBn": "কাঠে খাঁজ কাটার যন্ত্র হলো '끌' (বাটালি)। '붓' আর '롤러' রং লাগায়, '분무기' পানি ছিটায় — কোনোটিই কাঠ কাটে না।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "가구를 만들 때 나무를 자르려면 (   )이/가 필요합니다.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "의자는 바니시로 마감재만 바르면 됩니다. 그래서 젯소나 페인트 작업을 할 필요가 없습니다.",
       "options": [
-        "망치",
-        "드라이버",
-        "톱",
-        "붓"
+        "의자에는 젯소를 발라야 합니다.",
+        "의자는 마감재만 바르면 됩니다.",
+        "의자는 페인트를 두 번 칠합니다.",
+        "의자는 도색할 수 없습니다."
       ],
-      "answer": 2,
-      "explanationBn": "나무를 자르는 도구는 톱입니다."
+      "answer": 1,
+      "explanationBn": "লেখায় বলা আছে '마감재만 바르면 됩니다' — শুধু ফিনিশিং লাগালেই হবে। '할 필요가 없다' মানে দরকার নেই, তাই প্রাইমার বা রং লাগানো হয় না; কিন্তু 'করা যাবে না' — এমনও নয়।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "저는 가구 공장에서 일합니다. 오늘은 의자를 만들었습니다. 먼저 나무를 자르고 조립했습니다. 내일은 페인트를 칠할 것입니다.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: বিকেলে কী কাজ করতে হবে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 오후에는 무슨 작업을 해야 돼요?\n여자: 도색 작업을 해야 돼요.",
       "options": [
-        "이 사람은 오늘 페인트를 칠했습니다.",
-        "이 사람은 가구 공장에서 일합니다.",
-        "이 사람은 내일 의자를 조립할 것입니다.",
-        "이 사람은 오늘 탁자를 만들었습니다."
+        "재단 작업",
+        "연마 작업",
+        "도색 작업",
+        "포장 작업"
       ],
-      "answer": 1,
-      "explanationBn": "글의 첫 문장에서 가구 공장에서 일한다고 했습니다."
+      "answer": 2,
+      "explanationBn": "মহিলা বলছেন '도색 작업을 해야 돼요' — রং করার কাজ। কাটা, ঘষামাজা বা মোড়ানোর কোনো কথা আসেনি।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "나사를 조일 때는 (   )을/를 사용해야 합니다.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "남자: 그라인더를 사용해 봤어요?",
       "options": [
-        "드라이버",
-        "대패",
-        "줄자",
-        "사포"
+        "네, 그라인더가 있어요.",
+        "네, 그라인더를 써 봤어요.",
+        "아니요, 그라인더가 잘 돼요.",
+        "아니요, 그라인더가 가벼워요."
       ],
-      "answer": 0,
-      "explanationBn": "나사를 조이는 도구는 드라이버입니다."
+      "answer": 1,
+      "explanationBn": "'사용해 봤어요?' মানে ব্যবহার করার অভিজ্ঞতা আছে কিনা, তাই '써 봤어요' দিয়ে উত্তর দিতে হবে। '있어요' মানে যন্ত্রটা আছে — অভিজ্ঞতার কথা নয়; আর বাকি দুটো '아니요' বলে শুরু করেও অভিজ্ঞতার কথা বলে না।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 질문에 답하십시오. 이 사람이 지금 찾고 있는 것은 무엇입니까?",
-      "questionKo": "다음 글을 읽고 질문에 답하십시오. 이 사람이 지금 찾고 있는 것은 무엇입니까?",
-      "passage": "볼트를 꽉 조여야 하는데 도구가 안 보입니다. 혹시 스패너 못 보셨어요?",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "여자: 페인트가 얼마나 있어요?",
       "options": [
-        "볼트",
-        "너트",
-        "망치",
-        "스패너"
+        "두 통 있어요.",
+        "창고에 있어요.",
+        "지금 바르고 있어요.",
+        "아궁 씨한테 있어요."
       ],
-      "answer": 3,
-      "explanationBn": "글에서 스패너를 찾고 있습니다."
+      "answer": 0,
+      "explanationBn": "'얼마나' (কতটা) দিয়ে পরিমাণ জিজ্ঞেস করা হয়েছে, তাই সংখ্যা দিয়ে উত্তর দিতে হবে — '두 통'। '창고에' কোথায়, '아궁 씨한테' কার কাছে, আর '바르고 있어요' কী করছে — তিনটিই ভিন্ন প্রশ্নের উত্তর।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 반장님, 페인트칠을 다 했습니다. 이제 무엇을 할까요?\n여자: 수고했어요. 이제 바니시를 바르세요.",
+      "questionBn": "শুনে এরপর কী বলা সবচেয়ে উপযুক্ত হবে তা বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 마스크 꼭 쓰고 스프레이를 뿌리세요.",
       "options": [
-        "남자는 지금 바니시를 바르고 있습니다.",
-        "여자는 페인트를 칠할 것입니다.",
-        "남자는 페인트칠을 끝냈습니다.",
-        "여자는 남자에게 집에 가라고 했습니다."
+        "좋아요. 지금 작업 중이에요.",
+        "알겠어요. 거의 다 되어 가요.",
+        "알겠어요. 그렇게 할게요.",
+        "좋아요. 작업을 빨리 끝낼게요."
       ],
       "answer": 2,
-      "explanationBn": "남자가 페인트칠을 다 했다고 말했습니다."
+      "explanationBn": "মাস্ক পরার নির্দেশ দেওয়া হয়েছে, তাই মেনে নেওয়ার জবাব '알겠어요. 그렇게 할게요' সঠিক। বাকি তিনটি কাজের অগ্রগতি নিয়ে কথা বলে, নির্দেশটির জবাব দেয় না।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 철사를 잘라야 하는데 펜치 있어요?\n남자: 네, 여기 있습니다. 조심해서 사용하세요.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: মহিলা কেন গুদামে যাচ্ছেন?",
+      "questionKo": "다음을 듣고 여자가 창고에 가는 이유를 고르십시오.",
+      "passage": "남자: 아, 너무 굳어서 새 페인트를 가져와야겠네요.\n여자: 제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠?",
       "options": [
-        "남자는 철사를 잘랐습니다.",
-        "남자는 펜치를 찾고 있습니다.",
-        "여자는 남자에게 펜치를 주었습니다.",
-        "여자는 철사를 자르려고 합니다."
+        "페인트를 갖다 놓으려고",
+        "작업 도구를 가져오려고",
+        "작업 도구를 갖다 놓으려고",
+        "페인트를 가져오려고"
       ],
       "answer": 3,
-      "explanationBn": "여자가 철사를 잘라야 한다고 말했습니다."
+      "explanationBn": "মহিলা বলছেন '창고에 가서 가져올게요' এবং লাল ও সাদা এক কৌটা করে আনার কথা বলছেন — তাই রং আনতে যাচ্ছেন। '갖다 놓다' মানে রেখে আসা, যা ঠিক উল্টো কাজ; আর যন্ত্রপাতি গোছানোর কথা বলেছেন পুরুষটি।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: রিডার সাহেব কী জিজ্ঞেস করেছেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 나무 표면이 너무 거칠어요.\n여자: 그럼 사포로 좀 다듬는 게 좋겠어요.",
+      "passage": "여자: 마두 씨, 반장님께서 뭐라고 하셨어요?\n남자: 오늘까지 도색 작업을 끝낼 수 있느냐고 물으셨어요.",
       "options": [
-        "남자는 사포를 찾고 있습니다.",
-        "여자는 나무를 자르고 있습니다.",
-        "남자는 나무 표면이 부드럽다고 생각합니다.",
-        "여자는 남자에게 사포 사용을 조언했습니다."
+        "오늘까지 도색을 끝낼 수 있는지 물었습니다.",
+        "내일부터 도색을 시작하라고 했습니다.",
+        "같이 도색을 하자고 했습니다.",
+        "도색 작업이 끝났다고 했습니다."
       ],
-      "answer": 3,
-      "explanationBn": "여자가 사포로 다듬는 게 좋겠다고 조언했습니다."
+      "answer": 0,
+      "explanationBn": "পুরুষটি বলছেন '끝낼 수 있느냐고 물으셨어요' — অর্থাৎ প্রশ্ন করেছেন। '-느냐고' প্রশ্ন পৌঁছে দেয়; আদেশ হলে '-으라고', প্রস্তাব হলে '-자고', আর বিবৃতি হলে '-다고' বসত।"
     }
   ]
 }
