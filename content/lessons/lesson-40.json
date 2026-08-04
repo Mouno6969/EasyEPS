@@ -10,706 +10,731 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কারখানায় প্লাস্টিক ও রাবার মোল্ডিং-এর সাধারণ শব্দভাণ্ডার জানতে পারা।",
-      "মেশিন সেটিং ও সমস্যা বিস্তারিতভাবে জিজ্ঞাসা ও বুঝতে পারা।",
-      "সহকর্মীকে সহজ অনুদান ও নির্দেশ দিতে পারা।",
-      "দৈনন্দিন মান নিয়ন্ত্রণ ও ত্রুটি রিপোর্ট সম্পর্কে মৌলিক কথাবার্তা বলা।"
+      "কাঁচামাল মেশানো ও ওজন-দৈর্ঘ্য মাপার কাজে দরকারি শব্দ ব্যবহার করতে পারা",
+      "ত্রুটিপূর্ণ পণ্য বেরোলে কী সমস্যা হয়েছে তা জিজ্ঞেস করতে ও জানাতে পারা",
+      "'-는 대신에' দিয়ে বোঝানো — একটার বদলে অন্যটা করা",
+      "'-나/(으)ㄴ가 보다' দিয়ে দেখা অবস্থা থেকে অনুমান প্রকাশ করতে পারা"
     ],
     "en": [
-      "Recognize basic vocabulary for plastic and rubber molding in the factory.",
-      "Ask and understand simple machine settings and issues.",
-      "Give and follow basic work instructions to coworkers.",
-      "Speak simple lines for routine quality checks and defect reports."
+      "Can use expressions needed for mixing and measuring",
+      "Can ask and answer questions about defects that occur",
+      "Can use -는 대신에 to say one thing is done in place of another",
+      "Can use -나/(으)ㄴ가 보다 to express a guess based on what is observed"
     ]
   },
   "vocabulary": [
     {
-      "ko": "플라스틱",
-      "romanization": "peullaseutik",
-      "bn": "প্লাস্টিক",
-      "en": "plastic",
-      "pos": "noun",
-      "example": {
-        "ko": "이 부품은 플라스틱으로 만들었습니다.",
-        "bn": "এই অংশটি প্লাস্টিক দিয়ে তৈরি করা হয়েছে।",
-        "en": "This part is made of plastic."
-      },
-      "pronunciationTipBn": "'플' উচ্চারণে 'প' এর পরে 'ল' দ্রুত বলুন; 'ㅍ' ধ্বনিটি বাংলা 'ফ'-এর মতো শ্বাসযুক্ত।"
-    },
-    {
-      "ko": "고무",
-      "romanization": "gomu",
-      "bn": "রাবার/রাবারি",
-      "en": "rubber",
-      "pos": "noun",
-      "example": {
-        "ko": "고무 실링을 교체해야 합니다.",
-        "bn": "রাবার সিলটি বদলাতে হবে।",
-        "en": "We need to replace the rubber seal."
-      },
-      "pronunciationTipBn": "'고무'তে 'ㄱ' ধ্বনিটি বাংলা 'গ'-এর মতো; দুটি সিলেবল সমান জোরে বলুন।"
-    },
-    {
-      "ko": "사출성형",
-      "romanization": "sachul seonghyeong",
-      "bn": "ইঞ্জেকশন মোল্ডিং (সাচুল)",
-      "en": "injection molding",
-      "pos": "noun",
-      "example": {
-        "ko": "사출성형으로 부품을 생산합니다.",
-        "bn": "ইঞ্জেকশন মোল্ডিং দিয়ে অংশগুলো উৎপাদন করা হয়।",
-        "en": "Parts are produced by injection molding."
-      },
-      "pronunciationTipBn": "'사출'의 'ㅊ' ধ্বনিটি বাংলা 'চ'-এর চেয়ে বেশি শ্বাসযুক্ত; '성형'এর 'ㅕ' স্বরটি 'ইয়ো'-এর মতো।"
-    },
-    {
-      "ko": "압축성형",
-      "romanization": "apchuk seonghyeong",
-      "bn": "কমপ্রেশন মোল্ডিং (প্রেসিং)",
-      "en": "compression molding",
-      "pos": "noun",
-      "example": {
-        "ko": "고무 부품은 압축성형으로 만듭니다.",
-        "bn": "রাবারের অংশগুলো সাধারণত কমপ্রেশন মোল্ডিং-এ তৈরি হয়।",
-        "en": "Rubber parts are usually made by compression molding."
-      },
-      "pronunciationTipBn": "'압축'에서 받침 'ㅂ'은 뒤의 'ㅊ'과 연결되어 '압축'처럼 들린다; বাংলায় 'আপ-চুক' বলার মতো।"
-    },
-    {
-      "ko": "금형",
-      "romanization": "geumhyeong",
-      "bn": "মোল্ড/টেমপ্লেট",
-      "en": "mold",
-      "pos": "noun",
-      "example": {
-        "ko": "금형을 청소하세요.",
-        "bn": "মোল্ডটি পরিষ্কার করুন।",
-        "en": "Please clean the mold."
-      },
-      "pronunciationTipBn": "'금형'의 'ㅎ'은 앞의 받침 'ㅁ'과 연결되어 '그명'처럼 들린다; 'গ্যুম-হিয়ং' বলার চেষ্টা করুন।"
-    },
-    {
-      "ko": "사출기",
-      "romanization": "sachulgi",
-      "bn": "ইঞ্জেকশন মেসিন",
-      "en": "injection machine",
-      "pos": "noun",
-      "example": {
-        "ko": "사출기를 점검합니다.",
-        "bn": "ইঞ্জেকশন মেশিনটি পরীক্ষা করছি।",
-        "en": "I'm checking the injection machine."
-      },
-      "pronunciationTipBn": "'사출기'의 마지막 'ㄱ'은 받침이 없으므로 '기'를 부드럽게 발음한다; 'সা-চুল-গি' বলুন।"
-    },
-    {
-      "ko": "냉각",
-      "romanization": "naenggak",
-      "bn": "কুলিং/ঠান্ডা করা",
-      "en": "cooling",
-      "pos": "noun",
-      "example": {
-        "ko": "냉각 시간이 충분합니까?",
-        "bn": "কুলিং সময়টা যথেষ্ট কি?",
-        "en": "Is the cooling time sufficient?"
-      },
-      "pronunciationTipBn": "'냉각'의 'ㅐ' 모음은 입을 넓게 벌려 '애'처럼 발음한다; 'নেং-গাক' বলুন।"
-    },
-    {
-      "ko": "경화",
-      "romanization": "gyeonghwa",
-      "bn": "কিউরিং/সেট হওয়া",
-      "en": "curing/hardening",
-      "pos": "noun",
-      "example": {
-        "ko": "고무가 완전히 경화되지 않았습니다.",
-        "bn": "রাবার পুরোপুরি কিউর হয়নি।",
-        "en": "The rubber hasn't fully cured."
-      },
-      "pronunciationTipBn": "'경화'의 'ㅕ' 모음은 '여'처럼 발음하고 'ㅎ'은 약하게 발음한다; 'গিয়ং-হোয়া' বলুন।"
-    },
-    {
-      "ko": "게이트",
-      "romanization": "geiteu",
-      "bn": "গেট (রক্ত প্রবাহের পথ)",
-      "en": "gate (mold entry point)",
-      "pos": "noun",
-      "example": {
-        "ko": "게이트 자국이 보입니다.",
-        "bn": "গেটে দাগ দেখা যাচ্ছে।",
-        "en": "There is a gate mark visible."
-      },
-      "pronunciationTipBn": "'게이트'는 영어 외래어로 '게-이-트'처럼 세 음절로 발음한다; 마지막 'ㅡ'는 짧게 붙인다।"
-    },
-    {
-      "ko": "러너",
-      "romanization": "reoneo",
-      "bn": "রানার (প্লাস্টিক পথ)",
-      "en": "runner",
-      "pos": "noun",
-      "example": {
-        "ko": "러너를 제거해야 합니다.",
-        "bn": "রানারটি সরাতে হবে।",
-        "en": "We must remove the runner."
-      },
-      "pronunciationTipBn": "'ㄹ' ধ্বনিটি বাংলা 'র' ও 'ল'-এর মাঝামাঝি; জিভ হালকাভাবে তালুতে স্পর্শ করিয়ে 'রঅ-নঅ' বলুন।"
-    },
-    {
-      "ko": "탈형",
-      "romanization": "talhyeong",
-      "bn": "ডিমোল্ডিং/চেটিয়ে নেওয়া",
-      "en": "demolding",
-      "pos": "noun",
-      "example": {
-        "ko": "탈형이 잘 되지 않습니다.",
-        "bn": "ডিমোল্ডিং ভালো হচ্ছে না।",
-        "en": "The demolding is not going well."
-      },
-      "pronunciationTipBn": "'탈형'의 'ㅌ'은 강하게 숨을 내쉬며 발음한다; 'তাল-হিয়ং' বলুন।"
-    },
-    {
-      "ko": "성형온도",
-      "romanization": "seonghyeong ondo",
-      "bn": "মোল্ডিং তাপমাত্রা",
-      "en": "molding temperature",
-      "pos": "noun",
-      "example": {
-        "ko": "성형온도를 올려보세요.",
-        "bn": "মোল্ডিং তাপমাত্রা বাড়িয়ে দেখুন।",
-        "en": "Try increasing the molding temperature."
-      },
-      "pronunciationTipBn": "'성형온도'는 네 음절로 나눠 '성-형-온-도'처럼 발음한다; 'ㅇ'으로 시작하는 '온'은 부드럽게 연결된다।"
-    },
-    {
-      "ko": "재료 혼합",
-      "romanization": "jaeryo honhab",
-      "bn": "উপাদান মিশ্রণ",
-      "en": "material mixing",
-      "pos": "noun",
-      "example": {
-        "ko": "재료 혼합 비율을 확인하세요.",
-        "bn": "উপাদানের মিশ্রণের অনুপাত পরীক্ষা করুন।",
-        "en": "Check the material mixing ratio."
-      },
-      "pronunciationTipBn": "'재료'의 'ㅐ'는 입을 넓게 벌려 '재'처럼 발음하고, '혼합'의 'ㅎ'은 부드럽게 발음한다।"
-    },
-    {
-      "ko": "배합비",
-      "romanization": "baehabbI",
-      "bn": "ব্যালান্স/মিশ্রণ অনুপাত",
-      "en": "mixing ratio",
-      "pos": "noun",
-      "example": {
-        "ko": "배합비가 맞지 않으면 품질 나빠집니다.",
-        "bn": "মিশ্রণ অনুপাত ঠিক না হলে গুণগত মান খারাপ হবে।",
-        "en": "If the mixing ratio is wrong, quality will suffer."
-      },
-      "pronunciationTipBn": "'배합비'는 '배-합-비' 세 음절로 발음하며, '합'의 받침 'ㅂ'은 뒤의 '비'와 연결되어 '배함비'처럼 들린다।"
-    },
-    {
-      "ko": "탈착",
-      "romanization": "talchak",
-      "bn": "অপসারণ/আলগা করা",
-      "en": "attach/detach (removal)",
+      "ko": "혼합하다",
+      "romanization": "honhapada",
+      "bn": "মেশানো, মিশ্রণ তৈরি করা",
+      "en": "to mix, to blend",
       "pos": "verb",
       "example": {
-        "ko": "몰드를 탈착하세요.",
-        "bn": "মোল্ডটি অপসারণ করুন।",
-        "en": "Detach the mold."
+        "ko": "원재료와 첨가제를 혼합합니다.",
+        "bn": "কাঁচামাল আর অ্যাডিটিভ মেশানো হয়।",
+        "en": "We mix the raw materials and the additive."
       },
-      "pronunciationTipBn": "'탈착'의 'ㅊ'은 강하게 숨을 내쉬며 발음한다; 'তাল-চাক' বলুন।"
+      "pronunciationTipBn": "혼합하다 → [혼하파다]। 'ㅂ' আর 'ㅎ' মিশে নিঃশ্বাসযুক্ত 'ㅍ' হয় — 'হোন-হাপ-হা-দা' নয়, 'হোন-হা-ফা-দা'।"
     },
     {
-      "ko": "불량",
-      "romanization": "bullyang",
-      "bn": "খারাপ/দোষযুক্ত",
-      "en": "defective",
-      "pos": "noun/adjective",
+      "ko": "섞다",
+      "romanization": "seokda",
+      "bn": "মেশানো (কথ্য রূপ)",
+      "en": "to mix",
+      "pos": "verb",
       "example": {
-        "ko": "오늘 불량이 많습니다.",
-        "bn": "আজ খারাপ পিসি বেশি আছে।",
-        "en": "There are many defective pieces today."
+        "ko": "두 가지 재료를 잘 섞으세요.",
+        "bn": "দুই রকম উপকরণ ভালো করে মিশিয়ে নিন।",
+        "en": "Mix the two materials well."
       },
-      "pronunciationTipBn": "'불량'의 'ㅂ'은 부드럽게 발음하고 'ㄹ'은 '량'에서 'ㄹ'과 'ㅇ'이 연결되어 '불량'처럼 들린다; 'বুল-লিয়াং' বলুন।"
+      "pronunciationTipBn": "섞다 → [석따]। জোড়া 'ㄲ' বাতচিমে একটাই 'ㄱ' শোনা যায়, পরের 'ㄷ' শক্ত হয়ে 'ㄸ' — 'সোক-ত্তা'। '혼합하다' লেখায়, '섞다' মুখে বেশি চলে।"
     },
     {
-      "ko": "압력",
-      "romanization": "apryeok",
-      "bn": "প্রেসার/চাপ",
-      "en": "pressure",
-      "pos": "noun",
-      "example": {
-        "ko": "사출 압력을 낮춰 주세요.",
-        "bn": "ইঞ্জেকশন প্রেসারটা কমিয়ে দিন।",
-        "en": "Please lower the injection pressure."
-      },
-      "pronunciationTipBn": "'압력'의 받침 'ㅂ'은 뒤의 'ㄹ'과 연결되어 '암녁'처럼 들린다; 'আম-নিয়ক' বলুন।"
-    },
-    {
-      "ko": "수지",
-      "romanization": "suji",
-      "bn": "রেসিন/পলিমার",
-      "en": "resin",
-      "pos": "noun",
-      "example": {
-        "ko": "이 수지는 내열성이 좋습니다.",
-        "bn": "এই রেসিনের তাপ প্রতিরোধ ক্ষমতা ভালো।",
-        "en": "This resin has good heat resistance."
-      },
-      "pronunciationTipBn": "'수지'는 '수-지' 두 음절로 발음하며, 'ㅈ'은 부드러운 'ㅈ' 소리로 발음한다; 'সু-জি' বলুন।"
-    },
-    {
-      "ko": "원료",
-      "romanization": "wollyo",
-      "bn": "কাঁচামাল",
+      "ko": "원재료",
+      "romanization": "wonjaeryo",
+      "bn": "কাঁচামাল (যা দিয়ে পণ্য বানানো হয়)",
       "en": "raw material",
       "pos": "noun",
       "example": {
-        "ko": "원료를 창고에서 가져오세요.",
-        "bn": "গুদাম থেকে কাঁচামাল নিয়ে আসুন।",
-        "en": "Please bring the raw material from the warehouse."
+        "ko": "혼합기에 넣을 원재료 중량을 쟀어요?",
+        "bn": "মিক্সারে দেওয়ার কাঁচামালের ওজন মেপেছেন?",
+        "en": "Have you weighed the raw materials for the mixer?"
       },
-      "pronunciationTipBn": "'원료'의 'ㅝ'는 입술을 둥글게 하여 '워'처럼 발음한다; 'ওল-লিও' বলুন।"
+      "pronunciationTipBn": "원재료 → [원재료]। 'ㅐ' মুখ খুলে 'অ্যা', আর 'ㄹ'+'ㅛ' মিলে 'রিও' — 'ওন-জ্যা-রিও'।"
     },
     {
       "ko": "첨가제",
       "romanization": "cheomgaje",
-      "bn": "সংযোজক/অ্যাডিটিভ",
+      "bn": "অ্যাডিটিভ (রং বা গুণ বাড়াতে যা মেশানো হয়)",
       "en": "additive",
       "pos": "noun",
       "example": {
-        "ko": "첨가제를 적당량 넣으세요.",
-        "bn": "পরিমাণমতো অ্যাডিটিভ যোগ করুন।",
-        "en": "Add the appropriate amount of additive."
+        "ko": "첨가제 비율을 확인하면 되지요?",
+        "bn": "অ্যাডিটিভের অনুপাতটা মিলিয়ে নিলেই হবে তো?",
+        "en": "I should check the additive ratio, right?"
       },
-      "pronunciationTipBn": "'첨가제'의 'ㅊ'은 강하게 숨을 내쉬며 발음한다; 'চঅম-গা-জে' বলুন।"
+      "pronunciationTipBn": "첨가제 → [첨가제]। 'ㅊ' নিঃশ্বাসযুক্ত 'ছ', 'ㅁ' বাতচিমে ঠোঁট বন্ধ — 'ছম-গা-জে'।"
     },
     {
-      "ko": "색상",
-      "romanization": "saeksang",
-      "bn": "রঙ/রঙের ধরন",
-      "en": "color",
+      "ko": "혼합기",
+      "romanization": "honhapgi",
+      "bn": "মিক্সার (মেশানোর যন্ত্র)",
+      "en": "mixer",
       "pos": "noun",
       "example": {
-        "ko": "이 제품의 색상이 다릅니다.",
-        "bn": "এই পণ্যের রঙ আলাদা।",
-        "en": "The color of this product is different."
+        "ko": "혼합기가 깨끗하지 않으면 원하는 색이 나오지 않아요.",
+        "bn": "মিক্সার পরিষ্কার না থাকলে যে রংটা চাই, সেটা আসে না।",
+        "en": "If the mixer isn't clean, the desired color won't come out."
       },
-      "pronunciationTipBn": "'색상'의 'ㅐ'는 입을 넓게 벌려 '새'처럼 발음하고, 받침 'ㄱ'은 뒤의 'ㅅ'과 연결되어 '색쌍'처럼 들린다।"
+      "pronunciationTipBn": "혼합기 → [혼합끼]। 'ㅂ' বাতচিমের পরে 'ㄱ' টান-টান শক্ত হয়ে 'ㄲ' হয় — 'হোন-হাপ-গি' নয়, 'হোন-হাপ-ক্কি'।"
     },
     {
-      "ko": "두께",
-      "romanization": "dukke",
-      "bn": "পুরুত্ব/মোটা",
-      "en": "thickness",
+      "ko": "비율",
+      "romanization": "biyul",
+      "bn": "অনুপাত (কতটার সঙ্গে কতটা)",
+      "en": "ratio, proportion",
       "pos": "noun",
       "example": {
-        "ko": "제품 두께를 측정하세요.",
-        "bn": "পণ্যের পুরুত্ব মাপুন।",
-        "en": "Measure the product thickness."
+        "ko": "지금 비율을 계산하는 중이에요.",
+        "bn": "এখন অনুপাতটা হিসাব করছি।",
+        "en": "I'm calculating the ratio right now."
       },
-      "pronunciationTipBn": "'두께'의 'ㄲ'은 된소리로 강하게 발음한다; 'দু-께' বলুন, 'ㄲ'은 바짝 긴장시켜 발음한다।"
+      "pronunciationTipBn": "비율 → [비율]। 'ㅇ' এখানে নীরব, 'ㅠ' হলো 'ইউ' — 'বি-ইউল'। খেয়াল রাখুন, ভুল অনুপাতেই বেশিরভাগ ত্রুটি ঘটে।"
     },
     {
-      "ko": "무게",
-      "romanization": "muge",
-      "bn": "ওজন",
+      "ko": "투입하다",
+      "romanization": "tuipada",
+      "bn": "ঢেলে দেওয়া, ভেতরে দেওয়া",
+      "en": "to put in, to feed in",
+      "pos": "verb",
+      "example": {
+        "ko": "원재료를 혼합기에 투입하세요.",
+        "bn": "কাঁচামালটা মিক্সারে ঢেলে দিন।",
+        "en": "Put the raw materials into the mixer."
+      },
+      "pronunciationTipBn": "투입하다 → [투이파다]। 'ㅂ' আর 'ㅎ' মিশে 'ㅍ' — 'তু-ইপ-হা-দা' নয়, 'থু-ই-ফা-দা'। শুরুর 'ㅌ' নিঃশ্বাসযুক্ত।"
+    },
+    {
+      "ko": "계산하다",
+      "romanization": "gyesanhada",
+      "bn": "হিসাব করা, গণনা করা",
+      "en": "to calculate",
+      "pos": "verb",
+      "example": {
+        "ko": "첨가제 비율을 계산하고 나서 넣으세요.",
+        "bn": "অ্যাডিটিভের অনুপাত হিসাব করে তারপর দিন।",
+        "en": "Calculate the additive ratio and then add it."
+      },
+      "pronunciationTipBn": "계산 → [게산]। 'ㅖ' এখানে সহজ করে 'এ' বলা হয় — 'গিয়ে-সান' নয়, 'গে-সান'।"
+    },
+    {
+      "ko": "제품",
+      "romanization": "jepum",
+      "bn": "পণ্য, তৈরি জিনিস",
+      "en": "product",
+      "pos": "noun",
+      "example": {
+        "ko": "제품에 이상이 있어서 생산을 중지했어요.",
+        "bn": "পণ্যে সমস্যা থাকায় উৎপাদন বন্ধ করা হয়েছে।",
+        "en": "There was an issue with the product, so we stopped production."
+      },
+      "pronunciationTipBn": "제품 → [제품]। 'ㅔ' মাঝারি 'এ', শেষে 'ㅁ' ঠোঁট বন্ধ করে — 'জে-পুম' নয়, 'জে-ফুম' (নিঃশ্বাসযুক্ত 'ㅍ')।"
+    },
+    {
+      "ko": "측정하다",
+      "romanization": "cheukjeonghada",
+      "bn": "মাপা, পরিমাপ করা",
+      "en": "to measure",
+      "pos": "verb",
+      "example": {
+        "ko": "전자 저울로 중량을 측정하세요.",
+        "bn": "ইলেকট্রনিক দাঁড়িপাল্লা দিয়ে ওজনটা মাপুন।",
+        "en": "Measure the weight with the electronic scale."
+      },
+      "pronunciationTipBn": "측정하다 → [측쩡하다]। 'ㄱ' বাতচিমের পরে 'ㅈ' শক্ত হয়ে 'ㅉ' হয় — 'ছুক-জোং' নয়, 'ছুক-ছোং-হা-দা'।"
+    },
+    {
+      "ko": "중량",
+      "romanization": "jungnyang",
+      "bn": "ওজন (আনুষ্ঠানিক শব্দ)",
       "en": "weight",
       "pos": "noun",
       "example": {
-        "ko": "제품 무게를 재어 보세요.",
-        "bn": "পণ্যের ওজন মেপে দেখুন।",
-        "en": "Please weigh the product."
+        "ko": "중량이 정확해야 되니까 전자 저울을 쓰세요.",
+        "bn": "ওজনটা নিখুঁত হতে হবে, তাই ইলেকট্রনিক দাঁড়িপাল্লা ব্যবহার করুন।",
+        "en": "The weight must be accurate, so use the electronic scale."
       },
-      "pronunciationTipBn": "'무게'는 '무-게' 두 음절로 발음하며, 'ㄱ'은 부드럽게 발음한다; 'মু-গে' বলুন।"
+      "pronunciationTipBn": "중량 → [중냥]। 'ㅇ' বাতচিমের পরে 'ㄹ' বদলে 'ㄴ' হয়ে যায় — 'জুং-রিয়াং' নয়, 'জুং-নিয়াং'। কথ্য ভাষায় '무게' বলা হয়।"
     },
     {
-      "ko": "수축",
-      "romanization": "suchuk",
-      "bn": "সংকোচন/সিকুড়ানো",
-      "en": "shrinkage",
+      "ko": "접시 저울",
+      "romanization": "jeopsi jeoul",
+      "bn": "পাল্লা-দাঁড়িপাল্লা (থালাওয়ালা সাধারণ পাল্লা)",
+      "en": "pan scale",
       "pos": "noun",
       "example": {
-        "ko": "냉각 후 수축이 발생합니다.",
-        "bn": "ঠান্ডা হওয়ার পরে সংকোচন হয়।",
-        "en": "Shrinkage occurs after cooling."
+        "ko": "접시 저울 대신에 전자 저울로 재세요.",
+        "bn": "পাল্লা-দাঁড়িপাল্লার বদলে ইলেকট্রনিক দাঁড়িপাল্লা দিয়ে মাপুন।",
+        "en": "Use the electronic scale instead of the pan scale."
       },
-      "pronunciationTipBn": "'수축'의 'ㅊ'은 강하게 숨을 내쉬며 발음하고, 받침 'ㄱ'은 짧게 끊어 발음한다; 'সু-চুক' বলুন।"
+      "pronunciationTipBn": "접시 → [접씨]। 'ㅂ' বাতচিমের পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয় — 'জপ-সি' নয়, 'জপ-স্সি'।"
     },
     {
-      "ko": "버(burr)",
-      "romanization": "beo",
-      "bn": "বার/অতিরিক্ত প্লাস্টিক",
-      "en": "burr (flash)",
+      "ko": "전자 저울",
+      "romanization": "jeonja jeoul",
+      "bn": "ইলেকট্রনিক দাঁড়িপাল্লা (ডিজিটাল ওজন যন্ত্র)",
+      "en": "electronic scale",
       "pos": "noun",
       "example": {
-        "ko": "버를 제거해야 합니다.",
-        "bn": "অতিরিক্ত প্লাস্টিক (বার) সরাতে হবে।",
-        "en": "We need to remove the burr."
+        "ko": "전자 저울이 접시 저울보다 더 정확해요.",
+        "bn": "ইলেকট্রনিক দাঁড়িপাল্লা পাল্লা-দাঁড়িপাল্লার চেয়ে বেশি নিখুঁত।",
+        "en": "The electronic scale is more accurate than the pan scale."
       },
-      "pronunciationTipBn": "'버'는 'ㅂ'을 부드럽게 발음하고 'ㅓ'는 입을 약간 벌려 '어'처럼 발음한다; 'বঅ' বলুন।"
+      "pronunciationTipBn": "저울 → [저울]। 'ㅓ' মুখ আলগা রেখে 'অ' — 'জো-উল' নয়, একটানে 'জো-উল'। '전자' মানে ইলেকট্রনিক।"
     },
     {
-      "ko": "품질검사",
-      "romanization": "pumjil geomsa",
-      "bn": "মান নিয়ন্ত্রণ পরীক্ষা",
-      "en": "quality inspection",
+      "ko": "자",
+      "romanization": "ja",
+      "bn": "স্কেল, মাপকাঠি (সোজা মাপার পাত)",
+      "en": "ruler",
       "pos": "noun",
       "example": {
-        "ko": "품질검사를 통과해야 출하됩니다.",
-        "bn": "মান পরীক্ষায় উত্তীর্ণ হলেই পণ্য পাঠানো হবে।",
-        "en": "Products must pass quality inspection before shipment."
+        "ko": "자로 길이를 재요.",
+        "bn": "স্কেল দিয়ে দৈর্ঘ্য মাপা হয়।",
+        "en": "You measure length with a ruler."
       },
-      "pronunciationTipBn": "'품질검사'는 네 음절로 '품-질-검-사'처럼 발음한다; '품'의 받침 'ㅁ'은 입술을 다물어 발음한다।"
+      "pronunciationTipBn": "자 → [자]। এক অক্ষরের ছোট শব্দ, কিন্তু খেয়াল রাখুন — '자다' মানে ঘুমানো, আর '자' মানে স্কেল; প্রসঙ্গেই পার্থক্য বোঝা যায়।"
     },
     {
-      "ko": "생산량",
-      "romanization": "saengsannyang",
-      "bn": "উৎপাদন পরিমাণ",
-      "en": "production volume",
+      "ko": "줄자",
+      "romanization": "julja",
+      "bn": "ফিতা-স্কেল (গুটিয়ে রাখা যায় এমন মাপার ফিতা)",
+      "en": "tape measure",
       "pos": "noun",
       "example": {
-        "ko": "오늘 생산량이 목표에 미치지 못했습니다.",
-        "bn": "আজকের উৎপাদন পরিমাণ লক্ষ্যমাত্রায় পৌঁছায়নি।",
-        "en": "Today's production volume did not reach the target."
+        "ko": "긴 파이프는 줄자로 재세요.",
+        "bn": "লম্বা পাইপটা ফিতা-স্কেল দিয়ে মাপুন।",
+        "en": "Measure the long pipe with a tape measure."
       },
-      "pronunciationTipBn": "'생산량'의 'ㅐ'는 입을 넓게 벌려 '새'처럼 발음하고, '량'의 'ㄹ'은 부드럽게 발음한다; 'সেং-সান-নিয়াং' বলুন।"
+      "pronunciationTipBn": "줄자 → [줄짜]। 'ㄹ' বাতচিমের পরে 'ㅈ' শক্ত হয়ে 'ㅉ' হয় — 'জুল-জা' নয়, 'জুল-ছা'। '줄' মানে ফিতা, '자' মানে স্কেল।"
     },
     {
-      "ko": "작업지시서",
-      "romanization": "jageop jisiseo",
-      "bn": "কাজের নির্দেশনা পত্র",
-      "en": "work order / job instruction sheet",
+      "ko": "버니어 캘리퍼스",
+      "romanization": "beonieo kaelipeoseu",
+      "bn": "ভার্নিয়ার ক্যালিপার্স (খুব সূক্ষ্ম মাপ নেওয়ার যন্ত্র)",
+      "en": "vernier calipers",
       "pos": "noun",
       "example": {
-        "ko": "작업지시서를 확인하고 시작하세요.",
-        "bn": "কাজের নির্দেশনা পত্র দেখে শুরু করুন।",
-        "en": "Check the work order before starting."
+        "ko": "길이를 정확히 재야 하니까 버니어 캘리퍼스로 측정하세요.",
+        "bn": "দৈর্ঘ্যটা নিখুঁতভাবে মাপতে হবে, তাই ভার্নিয়ার ক্যালিপার্স দিয়ে মাপুন।",
+        "en": "The length must be measured exactly, so use vernier calipers."
       },
-      "pronunciationTipBn": "'작업지시서'는 다섯 음절로 나눠 '작-업-지-시-서'처럼 발음한다; '작'의 받침 'ㄱ'은 짧게 끊어 발음한다।"
+      "pronunciationTipBn": "캘리퍼스 → [캘리퍼스]। 'ㅋ' আর 'ㅍ' দুটোই নিঃশ্বাসযুক্ত — 'ক্যাল-লি-পা-সু' নয়, 'খ্যাল-লি-ফো-সৃ'।"
     },
     {
-      "ko": "이물질",
-      "romanization": "imulljil",
-      "bn": "বিদেশী পদার্থ/ময়লা",
-      "en": "foreign substance / contamination",
+      "ko": "가로",
+      "romanization": "garo",
+      "bn": "প্রস্থ, আড়াআড়ি মাপ",
+      "en": "width, horizontal",
       "pos": "noun",
       "example": {
-        "ko": "원료에 이물질이 섞이면 안 됩니다.",
-        "bn": "কাঁচামালে বিদেশী পদার্থ মিশলে চলবে না।",
-        "en": "Foreign substances must not be mixed into the raw material."
+        "ko": "이 상자의 가로 길이를 재 주세요.",
+        "bn": "এই বাক্সটার প্রস্থটা মেপে দিন।",
+        "en": "Please measure the width of this box."
       },
-      "pronunciationTipBn": "'이물질'의 'ㄹ'은 뒤의 'ㅈ'과 연결되어 '이물찔'처럼 들린다; 'ই-মুল-জিল' বলুন।"
+      "pronunciationTipBn": "가로 → [가로]। মনে রাখার সহজ উপায় — '가로' শুয়ে থাকা (আড়াআড়ি), '세로' দাঁড়িয়ে থাকা (লম্বালম্বি)।"
     },
     {
-      "ko": "온도계",
-      "romanization": "ondogye",
-      "bn": "থার্মোমিটার/তাপমাপক",
-      "en": "thermometer",
+      "ko": "세로",
+      "romanization": "sero",
+      "bn": "দৈর্ঘ্য, লম্বালম্বি মাপ",
+      "en": "length, vertical",
       "pos": "noun",
       "example": {
-        "ko": "온도계로 온도를 확인하세요.",
-        "bn": "থার্মোমিটার দিয়ে তাপমাত্রা পরীক্ষা করুন।",
-        "en": "Check the temperature with a thermometer."
+        "ko": "가로와 세로를 모두 측정해야 합니다.",
+        "bn": "প্রস্থ আর দৈর্ঘ্য — দুটোই মাপতে হবে।",
+        "en": "You have to measure both the width and the length."
       },
-      "pronunciationTipBn": "'온도계'는 '온-도-계' 세 음절로 발음하며, '계'의 'ㅖ'는 '예'처럼 발음한다; 'অন-দো-গিয়ে' বলুন।"
+      "pronunciationTipBn": "세로 → [세로]। 'ㅔ' মাঝারি 'এ' — 'স্যা-রো' নয়, 'সে-রো'। '가로'-এর সঙ্গে জোড়ায় মনে রাখুন।"
     },
     {
-      "ko": "교체",
-      "romanization": "gyoche",
-      "bn": "প্রতিস্থাপন/বদলানো",
-      "en": "replacement",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "금형을 교체할 시간입니다.",
-        "bn": "মোল্ড বদলানোর সময় হয়েছে।",
-        "en": "It is time to replace the mold."
-      },
-      "pronunciationTipBn": "'교체'의 'ㅛ'는 입술을 둥글게 하여 '요'처럼 발음하고, 'ㅊ'은 강하게 숨을 내쉬며 발음한다; 'গিও-চে' বলুন।"
-    },
-    {
-      "ko": "점도",
-      "romanization": "jeomdo",
-      "bn": "সান্দ্রতা/ভিসকোসিটি",
-      "en": "viscosity",
+      "ko": "불량품",
+      "romanization": "bullyangpum",
+      "bn": "ত্রুটিপূর্ণ পণ্য (যা মানে টেকে না)",
+      "en": "defective product",
       "pos": "noun",
       "example": {
-        "ko": "수지의 점도가 너무 높습니다.",
-        "bn": "রেসিনের সান্দ্রতা অনেক বেশি।",
-        "en": "The viscosity of the resin is too high."
+        "ko": "반장님, 불량품이 나왔어요. 어떻게 할까요?",
+        "bn": "রিডার সাহেব, ত্রুটিপূর্ণ পণ্য বেরিয়েছে। কী করব?",
+        "en": "Sir, a defective product came out. What should we do?"
       },
-      "pronunciationTipBn": "'점도'의 'ㅈ'은 부드럽게 발음하고 '도'의 'ㄷ'도 부드럽게 발음한다; 'জঅম-দো' বলুন।"
+      "pronunciationTipBn": "불량품 → [불량품]। 'ㄹㄹ' টেনে, শেষে 'ㅁ' ঠোঁট বন্ধ — 'বুল-নিয়াং-পুম' নয়, 'বুল-লিয়াং-ফুম'।"
     },
     {
-      "ko": "건조",
-      "romanization": "geonjo",
-      "bn": "শুকানো/ড্রাইং",
-      "en": "drying",
-      "pos": "noun/verb",
+      "ko": "검사하다",
+      "romanization": "geomsahada",
+      "bn": "পরীক্ষা করা, যাচাই করে দেখা",
+      "en": "to inspect, to examine",
+      "pos": "verb",
       "example": {
-        "ko": "원료를 사용 전에 건조해야 합니다.",
-        "bn": "ব্যবহারের আগে কাঁচামাল শুকাতে হবে।",
-        "en": "Raw material must be dried before use."
+        "ko": "제품을 하나씩 검사해야 합니다.",
+        "bn": "পণ্যগুলো একটা একটা করে পরীক্ষা করতে হবে।",
+        "en": "You have to inspect the products one by one."
       },
-      "pronunciationTipBn": "'건조'의 'ㄱ'은 부드럽게 발음하고 '조'의 'ㅈ'도 부드럽게 발음한다; 'গঅন-জো' বলুন।"
+      "pronunciationTipBn": "검사 → [검사]। 'ㅁ' বাতচিমে ঠোঁট বন্ধ করে, তারপর 'সা' — 'গোম-সা'। '점검하다' যন্ত্রের জন্য, '검사하다' পণ্যের জন্য বেশি চলে।"
     },
     {
-      "ko": "스크랩",
-      "romanization": "seukeulaep",
-      "bn": "স্ক্র্যাপ/বর্জ্য উপাদান",
-      "en": "scrap",
+      "ko": "휘다",
+      "romanization": "hwida",
+      "bn": "বেঁকে যাওয়া, বাঁকা হয়ে যাওয়া",
+      "en": "to bend, to be warped",
+      "pos": "verb",
+      "example": {
+        "ko": "제품이 휘었어요. 온도가 낮은가 봐요.",
+        "bn": "পণ্যটা বেঁকে গেছে। তাপমাত্রা কম বলে মনে হচ্ছে।",
+        "en": "The product is warped. It seems the temperature is low."
+      },
+      "pronunciationTipBn": "휘다 → [휘다]। 'ㅟ' ঠোঁট গোল করে একটানে 'উই' — 'হু-ই-দা' নয়, 'হুই-দা'।"
+    },
+    {
+      "ko": "깨지다",
+      "romanization": "kkaejida",
+      "bn": "ভেঙে যাওয়া, ফেটে যাওয়া",
+      "en": "to break, to crack",
+      "pos": "verb",
+      "example": {
+        "ko": "압력이 너무 높으면 이렇게 깨져요.",
+        "bn": "চাপ খুব বেশি হলে এভাবেই ভেঙে যায়।",
+        "en": "If the pressure is too high, it breaks like this."
+      },
+      "pronunciationTipBn": "깨지다 → [깨지다]। 'ㄲ' টান-টান শক্ত 'ক' আর 'ㅐ' খোলা 'অ্যা' — 'ক্ক্যা-জি-দা'।"
+    },
+    {
+      "ko": "성형이 덜 되다",
+      "romanization": "seonghyeongi deol doeda",
+      "bn": "ছাঁচে পুরোপুরি আকার না নেওয়া (মোল্ডিং অসম্পূর্ণ থাকা)",
+      "en": "to have incomplete molding",
+      "pos": "phrase",
+      "example": {
+        "ko": "제품이 성형이 덜 됐어요.",
+        "bn": "পণ্যটার আকার পুরোপুরি হয়নি।",
+        "en": "The product's molding is incomplete."
+      },
+      "pronunciationTipBn": "성형 → [성형]। দুটোই 'ㅇ' বাতচিম, নাক দিয়ে টেনে — 'সোং-হিয়ং'। '덜' মানে কম, অসম্পূর্ণ — এর উল্টো '더'।"
+    },
+    {
+      "ko": "검은 점이 생기다",
+      "romanization": "geomeun jeomi saenggida",
+      "bn": "কালো ছোপ পড়া (পণ্যের গায়ে কালো দাগ দেখা দেওয়া)",
+      "en": "to have black spots appear",
+      "pos": "phrase",
+      "example": {
+        "ko": "제품에 검은 점이 생겼어요.",
+        "bn": "পণ্যটায় কালো ছোপ পড়েছে।",
+        "en": "Black spots have appeared on the product."
+      },
+      "pronunciationTipBn": "검은 → [거믄], 점이 → [저미]। বাতচিম পরের স্বরে জুড়ে যায় — 'গোম-উন' নয়, 'গো-মৃন'। '생기다' মানে দেখা দেওয়া, নিজে থেকে তৈরি হওয়া।"
+    },
+    {
+      "ko": "검은 줄이 생기다",
+      "romanization": "geomeun juri saenggida",
+      "bn": "কালো রেখা পড়া (পণ্যের গায়ে কালো দাগরেখা দেখা দেওয়া)",
+      "en": "to have black lines appear",
+      "pos": "phrase",
+      "example": {
+        "ko": "제품에 검은 줄이 생겼어요. 어떡하죠?",
+        "bn": "পণ্যটায় কালো রেখা পড়েছে। কী করব?",
+        "en": "Black lines have appeared on the product. What should I do?"
+      },
+      "pronunciationTipBn": "줄이 → [주리]। 'ㄹ' পরের স্বরে জুড়ে যায় — 'জুল-ই' নয়, 'জু-রি'। এখানে '줄' মানে রেখা, দড়ি নয়।"
+    },
+    {
+      "ko": "표면",
+      "romanization": "pyomyeon",
+      "bn": "উপরিভাগ, গায়ের তল",
+      "en": "surface",
       "pos": "noun",
       "example": {
-        "ko": "스크랩은 별도로 분리해서 보관하세요.",
-        "bn": "স্ক্র্যাপ আলাদা করে রাখুন।",
-        "en": "Please separate and store the scrap separately."
+        "ko": "제품 표면이 거칠어요.",
+        "bn": "পণ্যের উপরিভাগটা খসখসে।",
+        "en": "The product's surface is rough."
       },
-      "pronunciationTipBn": "'스크랩'은 영어 외래어로 '스-크-랩' 세 음절로 발음하며, 마지막 'ㅂ'은 짧게 끊어 발음한다; 'স্ক্যু-ক্যু-রেপ' বলুন।"
+      "pronunciationTipBn": "표면 → [표면]। 'ㅍ' নিঃশ্বাসযুক্ত 'ফ', 'ㅁ'+'ㅕ' মিলে 'মিয়ো' — 'পিও-মেন' নয়, 'ফিও-মিয়ন'।"
+    },
+    {
+      "ko": "이상이 있다",
+      "romanization": "isangi itda",
+      "bn": "সমস্যা থাকা, স্বাভাবিক না থাকা",
+      "en": "to have an issue, to be abnormal",
+      "pos": "phrase",
+      "example": {
+        "ko": "기계에 이상이 있는가 봐요. 작동을 중지해야겠어요.",
+        "bn": "মেশিনে সমস্যা আছে বলে মনে হচ্ছে। চালানো বন্ধ করতে হবে।",
+        "en": "It seems there's an issue with the machine. We should stop it."
+      },
+      "pronunciationTipBn": "이상이 → [이상이]। '이상' মানে অস্বাভাবিকতা — আর এই একই শব্দ '이상' মানে 'এর বেশি'ও হয় (십 개 이상)। প্রসঙ্গ দেখে বুঝতে হবে।"
+    },
+    {
+      "ko": "작동을 중지하다",
+      "romanization": "jakdongeul jungjihada",
+      "bn": "যন্ত্র চালানো বন্ধ করা",
+      "en": "to stop the operation",
+      "pos": "phrase",
+      "example": {
+        "ko": "일단 기계 작동을 중지하세요.",
+        "bn": "আগে মেশিনটা চালানো বন্ধ করুন।",
+        "en": "First, stop the machine's operation."
+      },
+      "pronunciationTipBn": "중지 → [중지]। 'ㅇ' বাতচিম নাক দিয়ে — 'জুন-জি' নয়, 'জুং-জি'। ত্রুটি দেখলেই সবার আগে এই কাজটি করতে হয়।"
+    },
+    {
+      "ko": "살펴보다",
+      "romanization": "salpyeoboda",
+      "bn": "খুঁটিয়ে দেখা, ভালো করে পরখ করা",
+      "en": "to take a careful look",
+      "pos": "verb",
+      "example": {
+        "ko": "다른 원인이 있을 수도 있으니까 기계를 잘 살펴봅시다.",
+        "bn": "অন্য কারণও থাকতে পারে, তাই মেশিনটা ভালো করে দেখে নিই।",
+        "en": "There may be another cause, so let's take a careful look at the machine."
+      },
+      "pronunciationTipBn": "살펴보다 → [살펴보다]। 'ㅍ'+'ㅕ' মিলে 'ফিয়ো' — 'সাল-পে-বো-দা' নয়, 'সাল-ফিয়ো-বো-দা'। '보다' মানে দেখা, '살펴보다' মানে খুঁটিয়ে দেখা।"
+    },
+    {
+      "ko": "압력",
+      "romanization": "amnyeok",
+      "bn": "চাপ (যন্ত্র যে জোরে চেপে ধরে)",
+      "en": "pressure",
+      "pos": "noun",
+      "example": {
+        "ko": "압력이 높은가 봐요.",
+        "bn": "চাপটা বেশি বলে মনে হচ্ছে।",
+        "en": "It seems the pressure is high."
+      },
+      "pronunciationTipBn": "압력 → [암녁]। এটি কঠিন: 'ㅂ' বদলে 'ㅁ' হয় আর 'ㄹ' বদলে 'ㄴ' হয় — 'আপ-রিয়ক' নয়, 'আম-নিয়ক্'।"
+    },
+    {
+      "ko": "압력을 낮추다",
+      "romanization": "amnyeogeul natchuda",
+      "bn": "চাপ কমানো",
+      "en": "to lower the pressure",
+      "pos": "phrase",
+      "example": {
+        "ko": "그럼 압력을 낮출까요?",
+        "bn": "তাহলে চাপটা কমিয়ে দেব?",
+        "en": "Shall we lower the pressure then?"
+      },
+      "pronunciationTipBn": "낮추다 → [낟추다]। 'ㅈ' বাতচিম হিসেবে 'ㄷ' শব্দে থামে, তারপর নিঃশ্বাসযুক্ত 'ㅊ' — 'নাজ-চু-দা' নয়, 'নাত-ছু-দা'।"
+    },
+    {
+      "ko": "압력을 높이다",
+      "romanization": "amnyeogeul nopida",
+      "bn": "চাপ বাড়ানো",
+      "en": "to raise the pressure",
+      "pos": "phrase",
+      "example": {
+        "ko": "성형이 덜 됐으니까 압력을 높여야겠어요.",
+        "bn": "আকারটা পুরোপুরি হয়নি, তাই চাপ বাড়াতে হবে।",
+        "en": "The molding is incomplete, so I'll have to raise the pressure."
+      },
+      "pronunciationTipBn": "높이다 → [노피다]। 'ㅍ' বাতচিম পরের স্বরে জুড়ে যায় — 'নোপ-ই-দা' নয়, 'নো-ফি-দা'।"
+    },
+    {
+      "ko": "온도를 조절하다",
+      "romanization": "ondoreul jojeolhada",
+      "bn": "তাপমাত্রা ঠিক করে নেওয়া",
+      "en": "to adjust the temperature",
+      "pos": "phrase",
+      "example": {
+        "ko": "제품이 휘면 온도를 조절해야 합니다.",
+        "bn": "পণ্য বেঁকে গেলে তাপমাত্রা ঠিক করে নিতে হয়।",
+        "en": "If the product warps, you must adjust the temperature."
+      },
+      "pronunciationTipBn": "온도 → [온도]। 'ㄴ' বাতচিম নাক দিয়ে — 'ওন-দো'। চাপ আর তাপমাত্রা — মোল্ডিংয়ের ত্রুটির প্রধান দুই কারণ।"
+    },
+    {
+      "ko": "원인",
+      "romanization": "wonin",
+      "bn": "কারণ (কেন সমস্যাটা ঘটল)",
+      "en": "cause",
+      "pos": "noun",
+      "example": {
+        "ko": "제품의 생산을 중지하고 원인을 찾아야 합니다.",
+        "bn": "পণ্যের উৎপাদন বন্ধ করে কারণটা খুঁজে বের করতে হবে।",
+        "en": "You must stop production and find the cause."
+      },
+      "pronunciationTipBn": "원인 → [워닌]। 'ㄴ' বাতচিম পরের স্বরে জুড়ে যায় — 'ওন-ইন' নয়, 'ওয়ো-নিন'।"
+    },
+    {
+      "ko": "조치를 취하다",
+      "romanization": "jochireul chwihada",
+      "bn": "ব্যবস্থা নেওয়া, পদক্ষেপ নেওয়া",
+      "en": "to take action, to take measures",
+      "pos": "phrase",
+      "example": {
+        "ko": "불량이 나오면 바로 조치를 취해야 합니다.",
+        "bn": "ত্রুটি দেখা দিলে সঙ্গে সঙ্গে ব্যবস্থা নিতে হবে।",
+        "en": "If a defect appears, you must take action immediately."
+      },
+      "pronunciationTipBn": "취하다 → [취하다]। 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' আর 'ㅟ' একটানে 'উই' — 'ছু-ই-হা-দা' নয়, 'ছুই-হা-দা'।"
     }
   ],
   "grammar": [
     {
-      "pattern": "~아/어야 하다",
-      "titleBn": "~아/어야 하다 (করা লাগবে)",
-      "explanationBn": "এই পরিবর্তনটি বাধ্যতামূলক বোঝায় — কিছু করার প্রয়োজন আছে। উদাহরণ: \n1) 금형을 청소해야 합니다. (금형을 청소해야 합니다.)\n2) 배합비를 맞춰야 해요. (배합비를 맞춰야 해요.)\nবাংলা: উপরে উদাহরণগুলোতে 'করতে হবে' অর্থ বোঝায়।",
-      "explanationEn": "This pattern expresses obligation or necessity. Examples:\n1) 금형을 청소해야 합니다. — You must clean the mold.\n2) 배합비를 맞춰야 해요. — You need to adjust the mixing ratio.",
+      "pattern": "V + -는 대신에 / N + 대신에",
+      "titleBn": "'-는 대신에' — 'এটার বদলে ওটা' (একটার জায়গায় অন্যটা)",
+      "explanationBn": "'-는 대신에' ক্রিয়ামূলের সঙ্গে বসে বোঝায় — আগের কাজটি না করে তার জায়গায় পরের কাজটি করা হচ্ছে। বাতচিম থাকুক বা না থাকুক রূপ এক: 재다 → 재는 대신에, 먹다 → 먹는 대신에। 'ㄹ' বাতচিম হলে 'ㄹ' পড়ে যায়: 만들다 → 만드는 대신에। বিশেষ্যের সঙ্গে ব্যবহার করলে '-는' লাগে না, সরাসরি '명사 + 대신에' হয়: '접시 저울 대신에 전자 저울로 재세요'। কারখানায় কোন যন্ত্রের বদলে কোনটা ব্যবহার করতে হবে — এই নির্দেশ দিতে গঠনটি প্রতিদিন লাগে। কথ্য ভাষায় '에' বাদ দিয়ে শুধু '대신' বললেও চলে।",
+      "explanationEn": "-는 대신에 attaches to a verb stem to mean 'instead of doing X'. The form is invariant (재는 대신에, 먹는 대신에), and ㄹ drops (만들다 → 만드는 대신에). With nouns, drop -는 and use 명사 대신에: 접시 저울 대신에 ('instead of the pan scale'). In speech 대신 alone also works.",
       "examples": [
         {
-          "ko": "냉각 시간을 늘려야 합니다.",
-          "bn": "কুলিং সময় বাড়াতে হবে।",
-          "en": "You must increase the cooling time."
+          "ko": "접시 저울로 재는 대신에 전자 저울로 측정하세요.",
+          "bn": "পাল্লা-দাঁড়িপাল্লা দিয়ে মাপার বদলে ইলেকট্রনিক দাঁড়িপাল্লা দিয়ে মাপুন।",
+          "en": "Instead of weighing with the pan scale, measure with the electronic scale."
         },
         {
-          "ko": "불량품을 분리해야 해요.",
-          "bn": "খারাপ পিস আলাদা করতে হবে।",
-          "en": "You need to separate the defective items."
+          "ko": "망치로 두드리는 대신에 드라이버로 조여 보세요.",
+          "bn": "হাতুড়ি দিয়ে ঠোকার বদলে স্ক্রু-ড্রাইভার দিয়ে আঁটার চেষ্টা করুন।",
+          "en": "Instead of hammering it, try tightening it with a screwdriver."
         },
         {
-          "ko": "작업 전에 안전 장갑을 착용해야 합니다.",
-          "bn": "কাজ শুরুর আগে নিরাপত্তা গ্লাভস পরতে হবে।",
-          "en": "You must wear safety gloves before starting work."
+          "ko": "이건 너무 무거우니까 핸드 카트로 옮기는 대신에 지게차로 운반하세요.",
+          "bn": "এটা খুব ভারী, তাই হ্যান্ড কার্টে সরানোর বদলে ফর্কলিফট দিয়ে বয়ে নিন।",
+          "en": "This is too heavy, so use a forklift instead of moving it with a hand cart."
+        },
+        {
+          "ko": "내일은 닛차난 씨 대신에 자하라 씨가 혼합 작업을 할 거예요.",
+          "bn": "কাল নিচ্ছানানের বদলে জাহারা মেশানোর কাজটা করবেন।",
+          "en": "Tomorrow Zahara will do the mixing work instead of Nitchanan."
         }
       ],
-      "commonMistakeBn": "অনেকে '해야 하다' এর বদলে শুধু '해야' বলে বাক্য শেষ করেন, কিন্তু আনুষ্ঠানিক বাক্যে '해야 합니다' বা '해야 해요' পুরোটা বলতে হবে। এছাড়া ক্রিয়ার শেষ স্বর অনুযায়ী 'আ/어' সঠিকভাবে বেছে নিতে হবে।"
+      "commonMistakeBn": "বিশেষ্যের সঙ্গে '-는' জুড়ে দেওয়া সাধারণ ভুল: '저울는 대신에' নয়, সঠিক '저울 대신에'। আরেকটি ভুল — '-는 대신에'-এর আগে কালের রূপ বসানো: '쟀는 대신에' ভুল, সঠিক '재는 대신에'। খেয়াল রাখুন, '대신에' কখনো 'বিনিময়ে' অর্থও দেয়: '일찍 퇴근하는 대신에 주말에 일해요' — তাড়াতাড়ি ছুটির বিনিময়ে সপ্তাহান্তে কাজ করি।"
     },
     {
-      "pattern": "~고 있다",
-      "titleBn": "~고 있다 (চলিত কাজ)",
-      "explanationBn": "এটি কোনো কাজ বা প্রক্রিয়া চলমান আছে বোঝায়। উদাহরণ: \n1) 사출기가 가열되고 있습니다. — মেশিন এখন গরম হচ্ছে।\n2) 재료를 혼합하고 있어요. — উপাদান গুলো মিশছে।",
-      "explanationEn": "This shows an ongoing action or process. Examples:\n1) 사출기가 가열되고 있습니다. — The injection machine is heating.\n2) 재료를 혼합하고 있어요. — Materials are being mixed.",
+      "pattern": "V/A + -나/(으)ㄴ가 보다",
+      "titleBn": "'-나/(으)ㄴ가 보다' — 'মনে হচ্ছে ...' (দেখে অনুমান করা)",
+      "explanationBn": "চোখে দেখা কোনো অবস্থা বা তথ্যের ভিত্তিতে অনুমান করতে '-나/(으)ㄴ가 보다' ব্যবহার হয় — বাংলায় 'বলে মনে হচ্ছে' দিয়ে বোঝানো যায়। ক্রিয়া এবং '있다/없다'-এর সঙ্গে '-나 보다' বসে: 일하다 → 일하나 봐요, 있다 → 있나 봐요। বিশেষণের ক্ষেত্রে বাতচিম থাকলে '-은가 보다': 많다 → 많은가 봐요, 높다 → 높은가 봐요। বাতচিম না থাকলে বা 'ㄹ' হলে '-ㄴ가 보다': 아프다 → 아픈가 봐요। গুরুত্বপূর্ণ — এটি কেবল অন্যের বা বাইরের অবস্থা নিয়ে অনুমানে ব্যবহার হয়, নিজের অনুভূতির কথা এভাবে বলা যায় না।",
+      "explanationEn": "-나/(으)ㄴ가 보다 expresses a guess based on observed evidence — 'it seems that...'. Use -나 보다 with verbs and 있다/없다 (일하나 봐요), -은가 보다 with adjectives ending in a consonant (많은가 봐요), and -ㄴ가 보다 after a vowel or ㄹ (아픈가 봐요). It is used about others or external situations, never about your own feelings.",
       "examples": [
         {
-          "ko": "작업자가 금형을 점검하고 있습니다.",
-          "bn": "কর্মী মোল্ড পরীক্ষা করছে।",
-          "en": "The worker is inspecting the mold."
+          "ko": "압력이 높은가 봐요. 물건을 만들 때 압력이 너무 높으면 이렇게 깨져요.",
+          "bn": "চাপটা বেশি বলে মনে হচ্ছে। জিনিস বানানোর সময় চাপ খুব বেশি হলে এভাবেই ভেঙে যায়।",
+          "en": "It seems the pressure is high. When the pressure is too high during production, it breaks like this."
         },
         {
-          "ko": "제품이 냉각되고 있어요.",
-          "bn": "পণ্যটি কুলিং হচ্ছে।",
-          "en": "The product is cooling."
+          "ko": "밤 9시인데 아직도 사람들이 일하나 봐요.",
+          "bn": "রাত ৯টা বাজে, তবু মনে হচ্ছে লোকজন এখনো কাজ করছে।",
+          "en": "It's 9 p.m. and it seems people are still working."
         },
         {
-          "ko": "반장님이 불량 원인을 조사하고 있습니다.",
-          "bn": "ফোরম্যান ত্রুটির কারণ তদন্ত করছেন।",
-          "en": "The foreman is investigating the cause of the defect."
+          "ko": "칼로 씨가 오늘도 출근을 안 했어요. 많이 아픈가 봐요.",
+          "bn": "কার্লো আজও কাজে আসেননি। মনে হচ্ছে খুব অসুস্থ।",
+          "en": "Carlo didn't come to work today either. It seems he's quite ill."
+        },
+        {
+          "ko": "기계에 이상이 있나 봐요. 작동을 중지해야겠어요.",
+          "bn": "মেশিনে সমস্যা আছে বলে মনে হচ্ছে। চালানো বন্ধ করতে হবে।",
+          "en": "It seems there's an issue with the machine. I should stop it."
         }
       ],
-      "commonMistakeBn": "বাংলাভাষীরা প্রায়ই '~고 있다' এর বদলে শুধু '~고 있어' বলেন এবং ফর্মাল পরিস্থিতিতে '~고 있습니다' ব্যবহার করতে ভুলে যান। কর্মক্ষেত্রে সবসময় '~고 있습니다' ব্যবহার করুন।"
+      "commonMistakeBn": "নিজের অনুভূতি নিয়ে এই রূপ ব্যবহার করা ভুল: '저는 배고픈가 봐요' অস্বাভাবিক — নিজের ক্ষুধা তো নিজেই জানেন, তাই '배고파요' বলুন। আরেকটি ভুল হলো ক্রিয়া ও বিশেষণের রূপ গুলিয়ে ফেলা: '높나 봐요' ভুল (높다 বিশেষণ), সঠিক '높은가 봐요'; আবার '일한가 봐요' ভুল (일하다 ক্রিয়া), সঠিক '일하나 봐요'। অতীতের অনুমানে দুটোতেই '-았/었나 보다' বসে: '깨졌나 봐요'।"
     },
     {
-      "pattern": "~(으)면",
-      "titleBn": "~(으)면 (যদি/হলে)",
-      "explanationBn": "শর্ত প্রকাশ করে — যদি এক ঘটনা ঘটে, অন্যটি ঘটবে। উদাহরণ:\n1) 성형온도를 낮추면 수축이 줄어요. — তাপমাত্রা কমালে সংকোচন কমে।\n2) 게이트를 넓히면 탈형이 쉬워집니다. — গেট বড় করলে ডিমোল্ডিং সহজ হয়।",
-      "explanationEn": "Used for conditional sentences — if one thing happens, another will follow. Examples:\n1) 성형온도를 낮추면 수축이 줄어요. — If you lower the molding temperature, shrinkage decreases.\n2) 게이트를 넓히면 탈형이 쉬워집니다. — If you widen the gate, demolding becomes easier.",
+      "pattern": "V + -고 나서",
+      "titleBn": "'-고 나서' — 'এটা শেষ করে তারপর' (কাজের ক্রম)",
+      "explanationBn": "'-고 나서' ক্রিয়ামূলের সঙ্গে বসে বোঝায় আগের কাজটি পুরোপুরি শেষ হওয়ার পর পরের কাজটি শুরু হয়। বাতচিম থাকুক বা না থাকুক রূপ এক: 재다 → 재고 나서, 먹다 → 먹고 나서। শুধু '-고' দিয়েও ক্রম বোঝানো যায়, কিন্তু '-고 나서' জোর দেয় যে প্রথম কাজটি সম্পূর্ণ শেষ। কারখানায় ধাপে ধাপে কাজের নির্দেশ দিতে এটি খুব দরকারি: '원재료 중량을 재고 나서 첨가제 비율을 확인하면 되지요?' — কাঁচামালের ওজন মেপে তারপর অ্যাডিটিভের অনুপাত দেখা।",
+      "explanationEn": "-고 나서 attaches to a verb stem to show the first action is fully completed before the next begins. The form never changes (재고 나서, 먹고 나서). Plain -고 also sequences actions, but -고 나서 stresses that the first one is finished.",
       "examples": [
         {
-          "ko": "압력을 높이면 재료가 넘칠 수 있어요.",
-          "bn": "প্রেসার বাড়ালে উপাদান ঝরতে পারে।",
-          "en": "If you increase pressure, material may overflow."
+          "ko": "원재료 중량을 재고 나서 첨가제 비율을 확인하세요.",
+          "bn": "কাঁচামালের ওজন মেপে তারপর অ্যাডিটিভের অনুপাত মিলিয়ে নিন।",
+          "en": "Weigh the raw materials, and then check the additive ratio."
         },
         {
-          "ko": "배합비를 바꾸면 색상이 달라집니다.",
-          "bn": "মিশ্রণ অনুপাত বদলালে রঙ বদলায়।",
-          "en": "If you change the mixing ratio, the color changes."
+          "ko": "첨가제 무게를 재고 나서 혼합기를 청소할게요.",
+          "bn": "অ্যাডিটিভের ওজন মেপে তারপর মিক্সারটা পরিষ্কার করব।",
+          "en": "I'll weigh the additive and then clean the mixer."
         },
         {
-          "ko": "기계가 멈추면 반장님께 바로 알려야 해요.",
-          "bn": "মেশিন বন্ধ হলে সাথে সাথে ফোরম্যানকে জানাতে হবে।",
-          "en": "If the machine stops, you must immediately inform the foreman."
+          "ko": "작업이 끝나고 나서 불량품을 검사합니다.",
+          "bn": "কাজ শেষ হওয়ার পর ত্রুটিপূর্ণ পণ্য পরীক্ষা করা হয়।",
+          "en": "After the work is finished, we inspect for defective products."
         }
       ],
-      "commonMistakeBn": "ক্রিয়ার শেষে বাচিম থাকলে '으면', না থাকলে '면' ব্যবহার করতে হয়। যেমন: 먹다 → 먹으면, 가다 → 가면। অনেকে সবসময় '으면' ব্যবহার করেন, যা ভুল।"
+      "commonMistakeBn": "'-고 나서'-এর আগে কালের রূপ বসানো ভুল: '쟀고 나서' নয়, সঠিক '재고 나서' — সময়ের সম্পর্কটা '나서' নিজেই বলে দেয়। আরেকটি বিষয় — '-고 나서' আর '-기 전에' ঠিক উল্টো: '청소하고 나서 작업하세요' মানে পরিষ্কার করে তারপর কাজ, আর '청소하기 전에 작업하세요' মানে পরিষ্কারের আগেই কাজ। ক্রম উল্টে গেলে নির্দেশটাই বদলে যায়।"
     },
     {
-      "pattern": "~지 마세요",
-      "titleBn": "~지 마세요 (করবেন না)",
-      "explanationBn": "এই প্যাটার্নটি কাউকে কিছু না করতে বলার জন্য ব্যবহার হয় — নিষেধ বা সতর্কতা প্রকাশ করে। ক্রিয়ার মূল রূপের সাথে '지 마세요' যোগ করলেই হয়। কর্মক্ষেত্রে নিরাপত্তা নির্দেশনায় এটি খুব বেশি ব্যবহৃত হয়।",
-      "explanationEn": "This pattern is used to tell someone not to do something — expressing prohibition or warning. It is very common in workplace safety instructions.",
+      "pattern": "A/V + -(으)ㄹ 수도 있다",
+      "titleBn": "'-(으)ㄹ 수도 있다' — 'এমনটাও হতে পারে' (সম্ভাবনা)",
+      "explanationBn": "'-(으)ㄹ 수도 있다' বোঝায় কোনো কিছু ঘটার সম্ভাবনা আছে — নিশ্চিত নয়, তবে উড়িয়ে দেওয়া যায় না। মূলে বাতচিম থাকলে '-을 수도 있다': 있다 → 있을 수도 있다, 깨지다 → 깨질 수도 있다 (স্বরান্ত বলে '-ㄹ')। 'ㄹ' বাতচিম হলে 'ㄹ' একটাই থাকে: 만들다 → 만들 수도 있다। '-(으)ㄹ 수 있다' মানে 'পারা' বা 'সম্ভব', কিন্তু মাঝে '도' বসলে অর্থ দাঁড়ায় 'এমনটাও ঘটতে পারে'। কারখানায় একাধিক সম্ভাব্য কারণ খতিয়ে দেখতে গঠনটি খুব দরকারি: '다른 원인이 있을 수도 있으니까 기계를 잘 살펴봅시다'।",
+      "explanationEn": "-(으)ㄹ 수도 있다 expresses possibility — 'it might also be that...'. Use -을 수도 있다 after a consonant and -ㄹ 수도 있다 after a vowel or ㄹ. Adding 도 to -(으)ㄹ 수 있다 ('can') shifts the meaning from ability to likelihood.",
       "examples": [
         {
-          "ko": "기계가 작동 중일 때 손을 넣지 마세요.",
-          "bn": "মেশিন চলার সময় হাত ঢোকাবেন না।",
-          "en": "Do not put your hand in while the machine is operating."
+          "ko": "다른 원인이 있을 수도 있으니까 기계를 잘 살펴봅시다.",
+          "bn": "অন্য কারণও থাকতে পারে, তাই মেশিনটা ভালো করে দেখে নিই।",
+          "en": "There might be another cause too, so let's take a careful look at the machine."
         },
         {
-          "ko": "불량품을 합격품과 섞지 마세요.",
-          "bn": "ত্রুটিপূর্ণ পণ্য পাস করা পণ্যের সাথে মেশাবেন না।",
-          "en": "Do not mix defective products with passed products."
+          "ko": "압력이 너무 높으면 제품이 깨질 수도 있어요.",
+          "bn": "চাপ খুব বেশি হলে পণ্য ভেঙেও যেতে পারে।",
+          "en": "If the pressure is too high, the product might break."
         },
         {
-          "ko": "허락 없이 설정을 바꾸지 마세요.",
-          "bn": "অনুমতি ছাড়া সেটিং পরিবর্তন করবেন না।",
-          "en": "Do not change the settings without permission."
-        },
-        {
-          "ko": "작업 중에 휴대폰을 사용하지 마세요.",
-          "bn": "কাজের সময় মোবাইল ফোন ব্যবহার করবেন না।",
-          "en": "Do not use your mobile phone during work."
+          "ko": "혼합기가 더러우면 검은 점이 생길 수도 있습니다.",
+          "bn": "মিক্সার নোংরা থাকলে কালো ছোপও পড়তে পারে।",
+          "en": "If the mixer is dirty, black spots may appear."
         }
       ],
-      "commonMistakeBn": "অনেকে '~지 마세요' এর বদলে '~하지 않으세요' বলেন, কিন্তু নিষেধ বোঝাতে '~지 마세요' ব্যবহার করতে হবে। '~하지 않으세요' মানে 'করেন না' (বর্ণনা), '~지 마세요' মানে 'করবেন না' (নির্দেশ)।"
+      "commonMistakeBn": "'-(으)ㄹ 수도 있다' আর '-(으)ㄹ 수 있다' গুলিয়ে ফেলা সাধারণ ভুল: '저는 한국어를 할 수도 있어요' অস্বাভাবিক — নিজের দক্ষতার কথা বোঝাতে '할 수 있어요' বলুন। '도' বসলে সেটি সম্ভাবনার কথা হয়ে যায়। আরেকটি ভুল হলো বাতচিম না দেখে রূপ বাছা: '있르 수도' নয়, সঠিক '있을 수도'।"
     },
     {
-      "pattern": "~(으)ㄹ 때",
-      "titleBn": "~(으)ㄹ 때 (যখন / সময়ে)",
-      "explanationBn": "এই প্যাটার্নটি কোনো কাজ বা পরিস্থিতির সময় বোঝাতে ব্যবহার হয়। বাংলায় 'যখন' বা '...এর সময়' অর্থ দেয়। ক্রিয়ার শেষে বাচিম না থাকলে 'ㄹ 때', বাচিম থাকলে '을 때' যোগ করতে হয়।",
-      "explanationEn": "This pattern expresses 'when' or 'at the time of' a certain action or situation. It is used to describe the timing of an event.",
+      "pattern": "V + -기로 하다",
+      "titleBn": "'-기로 하다' — 'এমনটাই ঠিক করেছি' (সিদ্ধান্ত বা কথা দেওয়া)",
+      "explanationBn": "'-기로 하다' ক্রিয়ামূলের সঙ্গে বসে বোঝায় — কিছু একটা করার সিদ্ধান্ত নেওয়া হয়েছে, বা কারও সঙ্গে কথা পাকা হয়েছে। বাতচিম থাকুক বা না থাকুক রূপ এক: 만나다 → 만나기로 하다, 먹다 → 먹기로 하다। সিদ্ধান্ত আগেই নেওয়া হয়েছে বোঝাতে সাধারণত অতীত রূপে বসে: '-기로 했어요'। কারখানায় কাজের পরিকল্পনা বা সহকর্মীর সঙ্গে ঠিক করা বিষয় জানাতে এটি কাজে লাগে: '오늘 자하라 씨를 못 만나는 대신에 주말에 만나기로 했어요'।",
+      "explanationEn": "-기로 하다 attaches to a verb stem to express a decision made or an arrangement agreed on. The form is invariant (만나기로, 먹기로), and it usually appears in the past — -기로 했어요 — since the decision was already taken.",
       "examples": [
         {
-          "ko": "사출기를 청소할 때 전원을 꺼야 합니다.",
-          "bn": "ইনজেকশন মেশিন পরিষ্কার করার সময় বিদ্যুৎ বন্ধ করতে হবে।",
-          "en": "When cleaning the injection machine, you must turn off the power."
+          "ko": "오늘 자하라 씨를 못 만나는 대신에 주말에 만나기로 했어요.",
+          "bn": "আজ জাহারার সঙ্গে দেখা করতে পারছি না, তার বদলে সপ্তাহান্তে দেখা করব বলে ঠিক করেছি।",
+          "en": "Instead of meeting Zahara today, we decided to meet at the weekend."
         },
         {
-          "ko": "불량이 생길 때 즉시 보고하세요.",
-          "bn": "ত্রুটি দেখা দিলে সাথে সাথে রিপোর্ট করুন।",
-          "en": "When a defect occurs, report it immediately."
+          "ko": "내일부터 전자 저울로 중량을 재기로 했습니다.",
+          "bn": "কাল থেকে ইলেকট্রনিক দাঁড়িপাল্লা দিয়ে ওজন মাপা হবে বলে ঠিক হয়েছে।",
+          "en": "We've decided to weigh with the electronic scale starting tomorrow."
         },
         {
-          "ko": "재료를 교체할 때 배합비를 확인하세요.",
-          "bn": "উপাদান পরিবর্তন করার সময় মিশ্রণ অনুপাত যাচাই করুন।",
-          "en": "When replacing materials, check the mixing ratio."
-        },
-        {
-          "ko": "퇴근할 때 기계를 끄고 가세요.",
-          "bn": "কাজ শেষে বাড়ি যাওয়ার সময় মেশিন বন্ধ করে যান।",
-          "en": "When leaving work, please turn off the machine."
+          "ko": "불량이 나오면 바로 작동을 중지하기로 했어요.",
+          "bn": "ত্রুটি দেখা দিলে সঙ্গে সঙ্গে চালানো বন্ধ করা হবে বলে ঠিক করা হয়েছে।",
+          "en": "We agreed to stop the operation immediately if a defect appears."
         }
       ],
-      "commonMistakeBn": "অনেকে '~(으)ㄹ 때' এবং '~(으)면' গুলিয়ে ফেলেন। '~(으)ㄹ 때' নির্দিষ্ট সময় বোঝায় (যখন), আর '~(으)면' শর্ত বোঝায় (যদি)। যেমন: '청소할 때' মানে 'পরিষ্কার করার সময়', কিন্তু '청소하면' মানে 'পরিষ্কার করলে'।"
+      "commonMistakeBn": "'-기로 하다'-এর আগে কালের রূপ বসানো ভুল: '만났기로 했어요' নয়, সঠিক '만나기로 했어요' — অতীত বোঝাতে শেষের '하다' বদলায়। আরেকটি বিভ্রান্তি হলো '-기로 하다' আর '-려고 하다': প্রথমটি পাকা সিদ্ধান্ত বোঝায় ('가기로 했어요' — যাব বলে ঠিক করেছি), আর দ্বিতীয়টি কেবল ইচ্ছা বা পরিকল্পনা ('가려고 해요' — যাওয়ার ইচ্ছা আছে)।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "몰드 점검 요청",
-      "titleEn": "Mold Inspection Request",
+      "titleBn": "কাঁচামালের ওজন মাপা — কোন দাঁড়িপাল্লা দিয়ে",
+      "titleEn": "Weighing Raw Materials with the Right Scale",
       "lines": [
         {
-          "speaker": "작업자",
-          "ko": "금형 점검해주세요. 탈형이 잘 안 됩니다.",
-          "bn": "মোল্ড চেক করবেন। ডিমোল্ডিং ঠিক হচ্ছে না।",
-          "en": "Please check the mold. Demolding isn't working well."
+          "speaker": "자하라",
+          "ko": "마두 씨, 혼합기에 넣을 원재료 중량을 쟀어요?",
+          "bn": "মাদু, মিক্সারে দেওয়ার কাঁচামালের ওজন মেপেছেন?",
+          "en": "Madu, have you weighed the raw materials for the mixer?"
         },
         {
-          "speaker": "팀장",
-          "ko": "어떤 부분에서 문제가 있나요?",
-          "bn": "কোথায় সমস্যা হচ্ছে?",
-          "en": "Where is the problem occurring?"
+          "speaker": "마두",
+          "ko": "지금 측정하려고 해요.",
+          "bn": "এখনই মাপতে যাচ্ছি।",
+          "en": "I'm about to measure it now."
         },
         {
-          "speaker": "작업자",
-          "ko": "게이트에 플래시가 생깁니다.",
-          "bn": "গেটে ফ্ল্যাশ হয়েছে।",
-          "en": "There's flash at the gate."
+          "speaker": "자하라",
+          "ko": "중량이 정확해야 되니까 접시 저울로 재는 대신에 전자 저울로 측정하세요.",
+          "bn": "ওজনটা নিখুঁত হতেই হবে, তাই পাল্লা-দাঁড়িপাল্লার বদলে ইলেকট্রনিক দাঁড়িপাল্লা দিয়ে মাপুন।",
+          "en": "The weight has to be accurate, so measure with the electronic scale instead of the pan scale."
         },
         {
-          "speaker": "팀장",
-          "ko": "성형온도와 압력을 확인할게요.",
-          "bn": "মোল্ডিং তাপমাত্রা ও প্রেসার চেক করি।",
-          "en": "I'll check the molding temperature and pressure."
+          "speaker": "마두",
+          "ko": "네, 원재료 중량을 재고 나서 첨가제 비율을 확인하면 되지요?",
+          "bn": "জি, কাঁচামালের ওজন মেপে তারপর অ্যাডিটিভের অনুপাত মিলিয়ে নিলেই হবে তো?",
+          "en": "Yes. After I weigh the raw materials, should I check the additive ratio?"
         },
         {
-          "speaker": "작업자",
-          "ko": "감사합니다. 바로 작업 멈출게요.",
-          "bn": "ধন্যবাদ। আমি কাজ থামাচ্ছি।",
-          "en": "Thank you. I'll stop the work right away."
+          "speaker": "자하라",
+          "ko": "맞아요. 그런데 혼합기 청소도 중요해요. 혼합기가 깨끗하지 않으면 원하는 색이 나오지 않아요.",
+          "bn": "ঠিক তাই। তবে মিক্সার পরিষ্কার করাটাও জরুরি। মিক্সার পরিষ্কার না থাকলে যে রংটা চাই, সেটা আসে না।",
+          "en": "That's right. But cleaning the mixer matters too. If it isn't clean, the color you want won't come out."
+        },
+        {
+          "speaker": "마두",
+          "ko": "그럼 혼합기 청소 먼저 할게요.",
+          "bn": "তাহলে আগে মিক্সারটা পরিষ্কার করে নিই।",
+          "en": "Then I'll clean the mixer first."
         }
       ]
     },
     {
-      "titleBn": "재료 문제 보고",
-      "titleEn": "Material Issue Report",
+      "titleBn": "ত্রুটিপূর্ণ পণ্য বেরিয়েছে — কারণ খোঁজা",
+      "titleEn": "A Defective Product Comes Out",
       "lines": [
         {
-          "speaker": "검사원",
-          "ko": "오늘 수지 배치에서 색상이 다릅니다.",
-          "bn": "আজ রেসিন ব্যাচে রঙ আলাদা।",
-          "en": "Today's resin batch has different color."
+          "speaker": "자하라",
+          "ko": "반장님, 불량품이 나왔어요. 어떻게 할까요?",
+          "bn": "রিডার সাহেব, ত্রুটিপূর্ণ পণ্য বেরিয়েছে। কী করব?",
+          "en": "Sir, a defective product came out. What should we do?"
         },
         {
-          "speaker": "대리",
-          "ko": "배합비를 변경했나요?",
-          "bn": "মিশ্রণ অনুপাত বদলান নাকি?",
-          "en": "Did you change the mixing ratio?"
+          "speaker": "반장님",
+          "ko": "일단 기계 작동을 중지하세요.",
+          "bn": "আগে মেশিনটা চালানো বন্ধ করুন।",
+          "en": "First, stop the machine."
         },
         {
-          "speaker": "검사원",
-          "ko": "아니요, 같은 배합비입니다.",
-          "bn": "না, একই অনুপাত ছিল।",
-          "en": "No, it's the same ratio."
+          "speaker": "자하라",
+          "ko": "네, 알겠습니다. 왜 이런 불량이 발생하지요?",
+          "bn": "জি, বুঝেছি। এমন ত্রুটি কেন হয়?",
+          "en": "Yes, understood. Why does this kind of defect occur?"
         },
         {
-          "speaker": "대리",
-          "ko": "수지 공급처를 확인하겠습니다.",
-          "bn": "রেসিন সরবরাহকারী চেক করব।",
-          "en": "I'll check the resin supplier."
+          "speaker": "반장님",
+          "ko": "압력이 높은가 봐요. 물건을 만들 때 압력이 너무 높으면 이렇게 깨져요.",
+          "bn": "চাপটা বেশি বলে মনে হচ্ছে। জিনিস বানানোর সময় চাপ খুব বেশি হলে এভাবেই ভেঙে যায়।",
+          "en": "It seems the pressure is high. When the pressure is too high during production, it breaks like this."
         },
         {
-          "speaker": "검사원",
-          "ko": "결과 알려 주세요. 생산을 멈춰야 할 수도 있습니다.",
-          "bn": "ফলাফল জানাবেন। প্রয়োজনে উৎপাদন বন্ধ করতে হবে।",
-          "en": "Let me know the result. We may need to stop production."
+          "speaker": "자하라",
+          "ko": "그럼 압력을 낮출까요?",
+          "bn": "তাহলে চাপটা কমিয়ে দেব?",
+          "en": "Shall we lower the pressure then?"
+        },
+        {
+          "speaker": "반장님",
+          "ko": "네. 그리고 다른 원인이 있을 수도 있으니까 기계를 잘 살펴봅시다.",
+          "bn": "হ্যাঁ। আর অন্য কারণও থাকতে পারে, তাই মেশিনটা ভালো করে দেখে নিই।",
+          "en": "Yes. And since there might be another cause too, let's take a careful look at the machine."
         }
       ]
     },
     {
-      "titleBn": "불량품 처리 방법 문의",
-      "titleEn": "Inquiry About Defective Product Handling",
+      "titleBn": "পণ্যে কালো রেখা — অ্যাডিটিভের অনুপাত ও মিক্সার পরিষ্কার",
+      "titleEn": "Black Lines on the Product",
       "lines": [
         {
-          "speaker": "작업자",
-          "ko": "이 제품에 기포가 있습니다. 어떻게 처리할까요?",
-          "bn": "এই পণ্যে বুদবুদ আছে। কীভাবে প্রক্রিয়া করব?",
-          "en": "This product has bubbles. How should I handle it?"
+          "speaker": "아궁",
+          "ko": "제품에 검은 줄이 생겼어요. 어떡하죠?",
+          "bn": "পণ্যটায় কালো রেখা পড়েছে। কী করব?",
+          "en": "Black lines have appeared on the product. What should I do?"
         },
         {
-          "speaker": "반장",
-          "ko": "불량품 박스에 따로 넣어 주세요.",
-          "bn": "ত্রুটিপূর্ণ পণ্যের বাক্সে আলাদা রাখুন।",
-          "en": "Please put it separately in the defective product box."
+          "speaker": "유진",
+          "ko": "혼합기에 첨가제를 넣었어요?",
+          "bn": "মিক্সারে অ্যাডিটিভ দিয়েছেন?",
+          "en": "Did you put the additive into the mixer?"
         },
         {
-          "speaker": "작업자",
-          "ko": "기포가 왜 생기는 건가요?",
-          "bn": "বুদবুদ কেন হয়?",
-          "en": "Why do bubbles occur?"
+          "speaker": "아궁",
+          "ko": "아직 안 넣었어요. 지금 비율을 계산하는 중이에요.",
+          "bn": "এখনো দিইনি। এখন অনুপাতটা হিসাব করছি।",
+          "en": "Not yet. I'm calculating the ratio right now."
         },
         {
-          "speaker": "반장",
-          "ko": "건조가 부족하면 기포가 생길 수 있어요. 수지를 충분히 건조했나요?",
-          "bn": "শুকানো কম হলে বুদবুদ হতে পারে। রেসিন যথেষ্ট শুকিয়েছেন?",
-          "en": "Bubbles can occur if drying is insufficient. Did you dry the resin enough?"
+          "speaker": "유진",
+          "ko": "비율도 중요하지만 혼합기가 깨끗해야 정확한 색깔이 나올 수 있어요. 표면에 원재료가 남아 있으면 이런 줄이 생겨요.",
+          "bn": "অনুপাতও জরুরি, কিন্তু মিক্সার পরিষ্কার থাকলেই নিখুঁত রং আসে। গায়ে কাঁচামাল লেগে থাকলে এমন রেখা পড়ে।",
+          "en": "The ratio matters, but the color only comes out right if the mixer is clean. If raw material is left on the surface, lines like this appear."
         },
         {
-          "speaker": "작업자",
-          "ko": "건조 시간이 짧았을 수도 있습니다.",
-          "bn": "শুকানোর সময় কম হয়েছিল হয়তো।",
-          "en": "The drying time might have been too short."
+          "speaker": "아궁",
+          "ko": "그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요.",
+          "bn": "তাহলে অ্যাডিটিভের ওজন মেপে তারপর মিক্সারটা পরিষ্কার করব।",
+          "en": "Then I'll weigh the additive and then clean the mixer."
         },
         {
-          "speaker": "반장",
-          "ko": "다음부터는 건조 시간을 꼭 확인하세요. 기록도 남겨 주세요.",
-          "bn": "পরের বার থেকে শুকানোর সময় অবশ্যই চেক করুন। রেকর্ডও রাখুন।",
-          "en": "From next time, always check the drying time. Please keep a record too."
+          "speaker": "유진",
+          "ko": "좋아요. 그리고 불량품은 따로 모아 두기로 했으니까 여기에 놓으세요.",
+          "bn": "ভালো। আর ত্রুটিপূর্ণ পণ্য আলাদা করে জমা রাখা হবে বলে ঠিক হয়েছে, তাই এখানে রাখুন।",
+          "en": "Good. And we've agreed to collect defective products separately, so put them here."
         }
       ]
     }
@@ -718,592 +743,563 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "게이트에 생긴 작은 돌출 자국을 한국어로 무엇이라 하나요?",
-      "questionKo": "게이트에 생긴 작은 돌출 자국을 한국어로 무엇이라 하나요?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 원재료를 혼합기에 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "러너",
-        "게이트",
-        "플래시",
-        "탈형"
+        "투입하세요",
+        "측정하세요",
+        "검사하세요",
+        "중지하세요"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "게이트 주변에 남는 돌출 자국은 '플래시'라고 합니다।"
+      "answer": 0,
+      "explanationBn": "মিক্সারের ভেতরে কাঁচামাল ঢেলে দেওয়া বোঝাতে '투입하다' বসে। '측정하다' মানে মাপা, '검사하다' মানে পরীক্ষা করা, '중지하다' মানে থামানো — কোনোটিই 'ভেতরে দেওয়া' বোঝায় না।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "고무가 완전히 굳지 않은 상태를 한국어로?",
-      "questionKo": "고무가 완전히 굳지 않은 상태를 한국어로?",
+      "questionBn": "নিচের কোন জোড়াটি সঠিক?",
+      "questionKo": "다음 중 맞는 것을 고르십시오.",
       "options": [
-        "압축됨",
-        "냉각됨",
-        "탈형됨",
-        "경화되지 않음"
+        "저울 - 철사를 펴요.",
+        "저울 - 무게를 재요.",
+        "줄자 - 무게를 재요.",
+        "줄자 - 철사를 펴요."
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "'경화되지 않음'은 고무가 아직 완전히 굳지 않았음을 뜻합니다।"
+      "answer": 1,
+      "explanationBn": "'저울' দিয়ে ওজন মাপা হয়, তাই '무게를 재요' সঠিক। '줄자' দিয়ে দৈর্ঘ্য মাপা হয়, ওজন নয়; আর তার সোজা করার কাজ কোনো মাপার যন্ত্রেরই নয়।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "사출성형 기계는 한국어로 무엇입니까?",
-      "questionKo": "사출성형 기계는 한국어로 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-는 대신에' বসান: 접시 저울로 ___ 전자 저울로 측정하세요. (재다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "사출기",
-        "압축기",
-        "혼합기",
-        "냉각기"
+        "쟀는 대신에",
+        "잴 대신에",
+        "재는 대신에",
+        "재고 대신에"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "사출성형 기계를 줄여 '사출기'라고 합니다।"
+      "answer": 2,
+      "explanationBn": "'-는 대신에' ক্রিয়ামূলের সঙ্গে সরাসরি বসে, আর এর আগে কালের রূপ বসে না — তাই '재는 대신에'। '쟀는', '잴' বা '재고' — কোনোটিই '대신에'-এর সঙ্গে বসে না।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "몰드 청소를 하라는 말은 어느 문법으로 표현합니까?",
-      "questionKo": "몰드 청소를 하라는 말은 어느 문법으로 표현합니까?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: ___이 나왔습니다. 제품의 생산을 중지하고 원인을 찾아야 합니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
-        "~고 있다",
-        "~아/어야 하다",
-        "~ㄹ까요?",
-        "~(으)면"
+        "소모품",
+        "신제품",
+        "생산품",
+        "불량품"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "명령이나 필요를 말할 때 '~아/어야 하다'를 사용합니다।"
+      "answer": 3,
+      "explanationBn": "উৎপাদন বন্ধ করে কারণ খুঁজতে হয় কেবল ত্রুটি বেরোলেই, তাই '불량품' সঠিক। '소모품' মানে ক্ষয়ে যাওয়া জিনিস, '신제품' নতুন পণ্য, '생산품' উৎপাদিত পণ্য — কোনোটিতেই উৎপাদন থামাতে হয় না।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "냉각 시간을 '늘리다'의 뜻에 가장 가까운 한국어 문장은?",
-      "questionKo": "냉각 시간을 '늘리다'의 뜻에 가장 가까운 한국어 문장은?",
-      "options": [
-        "냉각을 멈추세요.",
-        "냉각을 빠르게 하세요.",
-        "냉각 시간을 늘리세요.",
-        "냉각 시간을 줄이세요."
+      "type": "matching",
+      "questionBn": "মাপার যন্ত্রের সঙ্গে কী মাপা হয় তা মেলান।",
+      "questionKo": "측정 도구와 측정 대상을 연결하세요.",
+      "pairs": [
+        {
+          "left": "전자 저울",
+          "right": "ওজন নিখুঁতভাবে মাপা"
+        },
+        {
+          "left": "줄자",
+          "right": "লম্বা জিনিসের দৈর্ঘ্য মাপা"
+        },
+        {
+          "left": "버니어 캘리퍼스",
+          "right": "খুব সূক্ষ্ম মাপ নেওয়া"
+        },
+        {
+          "left": "자",
+          "right": "সোজা ছোট দৈর্ঘ্য মাপা"
+        },
+        {
+          "left": "접시 저울",
+          "right": "থালায় রেখে সাধারণ ওজন মাপা"
+        }
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "'늘리다'는 시간을 더 길게 한다는 뜻, 정답은 2번।"
+      "explanationBn": "পাঁচটিই মাপার যন্ত্র, কিন্তু নিখুঁততা আলাদা। ওজনে '전자 저울' সবচেয়ে নিখুঁত, দৈর্ঘ্যে '버니어 캘리퍼스' — তাই যেখানে মাপ একেবারে ঠিক হতে হবে, সেখানে সাধারণ '자' বা '접시 저울' ব্যবহার করা হয় না।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "다음 문장에서 빈칸에 들어갈 알맞은 단어를 고르세요: '재료를 잘 섞지 않으면 색상이 ______.'",
-      "questionKo": "다음 문장에서 빈칸에 들어갈 알맞은 단어를 고르세요: '재료를 잘 섞지 않으면 색상이 ______.'",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোন বাক্যে নিচে দাগ দেওয়া অংশটি সঠিক?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "탈형됩니다",
-        "경화됩니다",
-        "냉각됩니다",
-        "달라집니다"
+        "기계의 압력을 조절해요.",
+        "불꽃의 크기를 절단해요.",
+        "창고의 온도를 보관해요.",
+        "작업장의 창문을 지시해요."
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "배합이 맞지 않으면 색상이 달라진다 — '달라집니다'가 맞습니다।"
+      "answer": 0,
+      "explanationBn": "চাপ '조절하다' (ঠিক করে নেওয়া) যায়, তাই প্রথমটি সঠিক। শিখা '조절하다' হয়, '절단하다' (কাটা) নয়; তাপমাত্রা '조절하다' হয়, '보관하다' (রাখা) নয়; আর জানালা '지시하다' (নির্দেশ দেওয়া) যায় না।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '금형을 _____ 후에 생산을 시작하세요.'",
-      "questionKo": "빈칸 채우기: '금형을 _____ 후에 생산을 시작하세요.'",
+      "questionBn": "'-나/(으)ㄴ가 보다' বসান: 제품이 깨졌어요. 압력이 ___ 봐요. (높다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "청소한",
-        "탈형한",
-        "혼합한",
-        "냉각한"
+        "높나",
+        "높은가",
+        "높는가",
+        "높이나"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "생산 전에 금형을 '청소한' 후에 시작하라는 표현이 자연스럽습니다।"
+      "answer": 1,
+      "explanationBn": "'높다' একটি বিশেষণ আর মূলে বাতচিম আছে, তাই '-은가 보다' বসে: 높은가 봐요। '-나 보다' কেবল ক্রিয়া ও '있다/없다'-এর সঙ্গে বসে, তাই '높나' ভুল।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "다음 중 '압력'의 한국어 예문으로 옳은 것은?",
-      "questionKo": "다음 중 '압력'의 한국어 예문으로 옳은 것은?",
+      "type": "multiple-choice",
+      "questionBn": "'혼합기가 깨끗하지 않으면 원하는 색이 나오지 않아요.' — এখান থেকে কী বোঝা যায়?",
+      "questionKo": "다음 문장에서 알 수 있는 것을 고르세요.",
       "options": [
-        "러너를 녹여 주세요.",
-        "압력을 낮춰 주세요.",
-        "색상을 바꿔 주세요.",
-        "게이트를 깎아 주세요."
+        "মিক্সার পরিষ্কার করার দরকার নেই",
+        "রং শুধু অ্যাডিটিভের উপর নির্ভর করে",
+        "মিক্সার নোংরা থাকলে রং ঠিকমতো আসে না",
+        "মিক্সার পরিষ্কার করলে রং লাগে না"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "'압력'을 조절하라는 문장은 '압력을 낮춰 주세요.'가 적절합니다।"
+      "answer": 2,
+      "explanationBn": "'깨끗하지 않으면 ... 나오지 않아요' মানে পরিষ্কার না থাকলে চাওয়া রং আসে না — তাই তৃতীয়টি সঠিক। অর্থাৎ রং শুধু অনুপাতের নয়, পরিচ্ছন্নতারও ব্যাপার।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
-      "questionKo": "다음 단어와 의미를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "냉각",
-          "right": "কুলিং (cooling)"
-        },
-        {
-          "left": "금형",
-          "right": "মোল্ড (mold)"
-        },
-        {
-          "left": "게이트",
-          "right": "গেট (gate)"
-        },
-        {
-          "left": "수지",
-          "right": "রেসিন (resin)"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-고 나서' বসান: 원재료 중량을 ___ 첨가제 비율을 확인하세요. (재다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "쟀고 나서",
+        "재기 전에",
+        "재는 대신에",
+        "재고 나서"
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া পাঠে মিলেছে: 냉각=কুলিং, 금형=মোল্ড, 게이트=গেট, 수지=রেসিন।"
+      "answer": 3,
+      "explanationBn": "আগে ওজন মেপে তারপর অনুপাত দেখা — এই ক্রম বোঝাতে '재고 나서' সঠিক। '-고 나서'-এর আগে কালের রূপ বসে না; '재기 전에' ক্রম উল্টে দিত, আর '재는 대신에' মানে মাপার বদলে।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "다음 작업 단계를 알맞게 연결하세요.",
-      "questionKo": "다음 작업 단계를 알맞게 연결하세요.",
-      "options": [],
+      "questionBn": "ত্রুটির ধরনের সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "불량의 종류와 뜻을 연결하세요.",
       "pairs": [
         {
-          "left": "재료 혼합",
-          "right": "উপাদান মিশ্রণ"
+          "left": "휘다",
+          "right": "বেঁকে যাওয়া"
         },
         {
-          "left": "사출",
-          "right": "ইঞ্জেকশন করা"
+          "left": "깨지다",
+          "right": "ভেঙে যাওয়া"
         },
         {
-          "left": "냉각",
-          "right": "কুলিং"
+          "left": "성형이 덜 되다",
+          "right": "আকার পুরোপুরি না হওয়া"
         },
         {
-          "left": "탈형",
-          "right": "ডিমোল্ডিং"
+          "left": "검은 점이 생기다",
+          "right": "কালো ছোপ পড়া"
+        },
+        {
+          "left": "검은 줄이 생기다",
+          "right": "কালো রেখা পড়া"
         }
       ],
-      "answer": 0,
-      "explanationBn": "স্টেপগুলো সরাসরি মিলেছে: 재료 혼합=উপাদান মিশ্রণ, 사출=ইঞ্জেকশন, 냉각=কুলিং, 탈형=ডিমোল্ডিং।"
+      "explanationBn": "মোল্ডিংয়ের কাজে এই পাঁচ ধরনের ত্রুটিই সবচেয়ে বেশি দেখা যায়, আর প্রতিটির কারণ আলাদা — বেঁকে যাওয়া সাধারণত তাপমাত্রা কম হলে, ভেঙে যাওয়া চাপ বেশি হলে, আর কালো দাগ মিক্সার নোংরা থাকলে।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "'러너'란 무엇입니까?",
-      "questionKo": "'러너'란 무엇입니까?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 제품이 휘었어요. 온도가 ___ 봐요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "금형 안에서 수지가 흐르는 통로",
-        "제품을 꺼내는 도구",
-        "압력을 측정하는 장치",
-        "냉각수를 공급하는 관"
+        "낮은가",
+        "낮나",
+        "낮는가",
+        "낮이나"
       ],
-      "pairs": [],
       "answer": 0,
-      "explanationBn": "'러너(runner)'는 금형 안에서 녹은 수지가 흐르는 통로를 말합니다। এটি গেটের আগে থাকে।"
+      "explanationBn": "'낮다' একটি বিশেষণ আর মূলে 'ㅈ' বাতচিম আছে, তাই '-은가 보다' বসে: 낮은가 봐요। মনে রাখুন — পণ্য বেঁকে যাওয়ার সাধারণ কারণ তাপমাত্রা কম হওয়া, আর ভেঙে যাওয়ার কারণ চাপ বেশি হওয়া।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "작업 중 불량품이 발생했을 때 가장 먼저 해야 할 일은 무엇입니까?",
-      "questionKo": "작업 중 불량품이 발생했을 때 가장 먼저 해야 할 일은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄹ 수도 있다' বসান: 다른 원인이 ___ 기계를 잘 살펴봅시다. (있다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "불량품을 버린다",
-        "작업을 계속한다",
-        "관리자에게 보고한다",
-        "기계를 끈다"
+        "있르 수도 있으니까",
+        "있는 수도 있으니까",
+        "있을 수도 있으니까",
+        "있었을 수도 있어서"
       ],
-      "pairs": [],
       "answer": 2,
-      "explanationBn": "불량품이 생기면 즉시 관리자에게 보고해야 합니다। এটি কারখানার নিয়ম।"
+      "explanationBn": "'있다' মূলে বাতচিম আছে, তাই '-을 수도 있다' বসে: 있을 수도 있으니까। '있르' বা '있는 수도' — দুটিই ভুল গঠন, আর অতীত রূপ এখানে অর্থ বদলে দেয়।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "다음 중 '경화'의 뜻으로 올바른 것은?",
-      "questionKo": "다음 중 '경화'의 뜻으로 올바른 것은?",
+      "questionBn": "ত্রুটিপূর্ণ পণ্য বেরোলে সবার আগে কী করতে হবে?",
+      "questionKo": "불량품이 나오면 가장 먼저 무엇을 해야 합니까?",
       "options": [
-        "재료를 녹이는 것",
-        "재료가 굳는 것",
-        "재료를 섞는 것",
-        "재료를 자르는 것"
+        "첨가제를 더 넣습니다",
+        "기계 작동을 중지합니다",
+        "제품을 포장합니다",
+        "온도를 높입니다"
       ],
-      "pairs": [],
       "answer": 1,
-      "explanationBn": "'경화(硬化)'는 재료가 굳어지는 과정을 말합니다। বাংলায় এর অর্থ 'শক্ত হওয়া' বা 'কিউরিং'।"
+      "explanationBn": "মূল পাঠে রিডার সাহেব বলছেন '일단 기계 작동을 중지하세요' — আগে চালানো বন্ধ, তারপর কারণ খোঁজা। যন্ত্র চালু রেখে কিছু বদলালে আরও ত্রুটিপূর্ণ পণ্য বেরোতেই থাকবে।"
     },
     {
       "id": "p14",
       "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '사출기의 온도가 너무 높으면 제품이 _____ 수 있습니다.'",
-      "questionKo": "빈칸 채우기: '사출기의 온도가 너무 높으면 제품이 _____ 수 있습니다.'",
+      "questionBn": "'대신에' বসান: 내일은 닛차난 씨 ___ 자하라 씨가 혼합 작업을 할 거예요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "경화될",
-        "탈형될",
-        "변형될",
-        "혼합될"
+        "는 대신에",
+        "를 대신에",
+        "에 대신에",
+        "대신에"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "온도가 너무 높으면 제품이 '변형될' 수 있습니다। অর্থাৎ পণ্যের আকার নষ্ট হয়ে যেতে পারে।"
+      "answer": 3,
+      "explanationBn": "বিশেষ্যের সঙ্গে '대신에' সরাসরি জোড়া লাগে, মাঝে কোনো বিভক্তি বসে না — তাই '닛차난 씨 대신에'। '-는 대신에' কেবল ক্রিয়ার সঙ্গে বসে।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '작업을 시작하기 전에 안전 장갑을 _____ 하세요.'",
-      "questionKo": "빈칸 채우기: '작업을 시작하기 전에 안전 장갑을 _____ 하세요.'",
-      "options": [
-        "탈형",
-        "착용",
-        "냉각",
-        "사출"
+      "type": "matching",
+      "questionBn": "ত্রুটির কারণের সঙ্গে করণীয় ব্যবস্থা মেলান।",
+      "questionKo": "불량의 원인과 조치를 연결하세요.",
+      "pairs": [
+        {
+          "left": "압력이 높아서 깨지다",
+          "right": "압력을 낮추다"
+        },
+        {
+          "left": "성형이 덜 되다",
+          "right": "압력을 높이다"
+        },
+        {
+          "left": "온도가 낮아서 휘다",
+          "right": "온도를 조절하다"
+        },
+        {
+          "left": "혼합기가 더러워서 검은 점이 생기다",
+          "right": "혼합기를 청소하다"
+        }
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "작업 전에 안전 장갑을 '착용'해야 합니다। '착용하다'는 পরা বা পরিধান করার অর্থ।"
+      "explanationBn": "প্রতিটি ত্রুটির জন্য আলাদা ব্যবস্থা — এটাই এই পাঠের মূল কথা। চাপ বেশি হলে কমাতে হয়, আকার অসম্পূর্ণ হলে উল্টো বাড়াতে হয়; তাই কারণ না জেনে চাপ বদলালে সমস্যা আরও বাড়ে।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '금형에 이상이 있으면 즉시 기계를 _____ 하세요.'",
-      "questionKo": "빈칸 채우기: '금형에 이상이 있으면 즉시 기계를 _____ 하세요.'",
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 이 상자의 ___와/과 세로를 모두 재 주세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "가동",
-        "청소",
-        "정지",
-        "혼합"
+        "가로",
+        "중량",
+        "압력",
+        "원인"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "금형에 이상이 있으면 즉시 기계를 '정지'해야 합니다। '정지하다'는বন্ধ করা বা থামানোর অর্থ।"
+      "answer": 0,
+      "explanationBn": "'세로' (দৈর্ঘ্য) শব্দটির জোড়া হলো '가로' (প্রস্থ), তাই সেটিই সঠিক। '중량' ওজন, '압력' চাপ, '원인' কারণ — কোনোটিই '세로'-এর সঙ্গে জোড়ায় বসে না।"
     },
     {
       "id": "p17",
-      "type": "matching",
-      "questionBn": "한국어 단어와 뜻을 연결하세요.",
-      "questionKo": "한국어 단어와 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "불량품",
-          "right": "ত্রুটিপূর্ণ পণ্য (defective product)"
-        },
-        {
-          "left": "압력",
-          "right": "চাপ (pressure)"
-        },
-        {
-          "left": "온도",
-          "right": "তাপমাত্রা (temperature)"
-        },
-        {
-          "left": "플래시",
-          "right": "গেটের কাছে উদ্ভূত অতিরিক্ত অংশ (flash)"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-기로 하다' বসান: 불량이 나오면 바로 작동을 ___ 했어요. (중지하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "중지했기로",
+        "중지하기로",
+        "중지하는 대신에",
+        "중지하려고"
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া সঠিকভাবে মিলেছে: 불량품=ত্রুটিপূর্ণ পণ্য, 압력=চাপ, 온도=তাপমাত্রা, 플래시=ফ্ল্যাশ।"
+      "answer": 1,
+      "explanationBn": "পাকা সিদ্ধান্ত বোঝাতে '-기로 하다' বসে, আর এর আগে কালের রূপ বসে না: 중지하기로 했어요। '중지하려고' কেবল ইচ্ছা বোঝাত, আর '중지하는 대신에' মানে বন্ধ করার বদলে।"
     },
     {
       "id": "p18",
-      "type": "matching",
-      "questionBn": "작업 관련 표현과 의미를 연결하세요.",
-      "questionKo": "작업 관련 표현과 의미를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "기계를 가동하다",
-          "right": "মেশিন চালু করা"
-        },
-        {
-          "left": "불량품을 분리하다",
-          "right": "ত্রুটিপূর্ণ পণ্য আলাদা করা"
-        },
-        {
-          "left": "압력을 조절하다",
-          "right": "চাপ নিয়ন্ত্রণ করা"
-        },
-        {
-          "left": "작업을 중단하다",
-          "right": "কাজ বন্ধ করা"
-        }
+      "type": "multiple-choice",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন: '친환경 에너지는 초기 설치 비용이 높아 경제적으로 부담이 될 수 있지만, 운영 비용이 낮고 무제한으로 사용할 수 있다는 장점이 있습니다.'",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "options": [
+        "친환경 에너지는 설치에 대한 경제적 부담이 적습니다.",
+        "친환경 에너지는 운영 비용이 높습니다.",
+        "친환경 에너지는 사용에 제한이 있습니다.",
+        "친환경 에너지는 운영 비용이 낮다는 장점이 있습니다."
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি কাজের অভিব্যক্তি সঠিকভাবে বাংলায় মিলেছে।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '운영 비용이 낮고 무제한으로 사용할 수 있다는 장점이 있습니다', তাই শেষেরটি সঠিক। বসানোর খরচ বরং বেশি ('초기 설치 비용이 높아'), আর ব্যবহারে কোনো সীমা নেই।"
     },
     {
       "id": "p19",
-      "type": "multiple-choice",
-      "questionBn": "다음 대화에서 빈칸에 알맞은 말은 무엇입니까?\n관리자: '오늘 불량품이 몇 개 나왔어요?'\n작업자: '______.'",
-      "questionKo": "다음 대화에서 빈칸에 알맞은 말은 무엇입니까?\n관리자: '오늘 불량품이 몇 개 나왔어요?'\n작업자: '______.'",
+      "type": "fill-blank",
+      "questionBn": "'-나 보다' বসান: 밤 9시인데 아직도 사람들이 ___ 봐요. (일하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "세 개 나왔습니다.",
-        "냉각했습니다.",
-        "금형을 청소했습니다.",
-        "압력을 높였습니다."
+        "일한가",
+        "일하는가",
+        "일하나",
+        "일할까"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "관리자가 불량품 수를 물었으므로 '세 개 나왔습니다.'가 자연스러운 대답입니다। সংখ্যা দিয়ে উত্তর দেওয়াই সঠিক।"
+      "answer": 2,
+      "explanationBn": "'일하다' একটি ক্রিয়া, আর ক্রিয়ার সঙ্গে '-나 보다' বসে: 일하나 봐요। '-(으)ㄴ가 보다' কেবল বিশেষণের সঙ্গে বসে, তাই '일한가' ভুল।"
     },
     {
       "id": "p20",
       "type": "multiple-choice",
-      "questionBn": "다음 중 사출 성형 공정의 올바른 순서는 무엇입니까?",
-      "questionKo": "다음 중 사출 성형 공정의 올바른 순서는 무엇입니까?",
+      "questionBn": "'제품에 이상이 있어요.' — এই বাক্যটির অর্থ কী?",
+      "questionKo": "다음 문장의 뜻으로 알맞은 것을 고르세요.",
       "options": [
-        "탈형 → 냉각 → 사출 → 재료 혼합",
-        "재료 혼합 → 사출 → 냉각 → 탈형",
-        "냉각 → 사출 → 탈형 → 재료 혼합",
-        "사출 → 재료 혼합 → 탈형 → 냉각"
+        "পণ্যে কোনো সমস্যা আছে",
+        "পণ্যটা স্বাভাবিকের চেয়ে বেশি আছে",
+        "পণ্যটা খুব ভালো হয়েছে",
+        "পণ্যটা এখনো তৈরি হয়নি"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "사출 성형의 올바른 순서는 '재료 혼합 → 사출 → 냉각 → 탈형'입니다। এটি ইনজেকশন মোল্ডিং প্রক্রিয়ার সঠিক ধাপ।"
+      "answer": 0,
+      "explanationBn": "'이상이 있다' মানে স্বাভাবিক নয়, কোথাও গণ্ডগোল আছে — তাই 'পণ্যে কোনো সমস্যা আছে' সঠিক। খেয়াল রাখুন, একই শব্দ '이상' সংখ্যার পরে বসলে 'এর বেশি' বোঝায় (십 개 이상), কিন্তু এখানে সেটি নয়।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক উত্তর নির্বাচন করুন: 몰드에 플래시가 생기면 보통 어떤 문제를 점검합니까?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 몰드에 플래시가 생기면 보통 어떤 문제를 점검합니까?",
-      "passage": "몰드에 플래시가 생기면 게이트나 금형 맞춤 상태, 사출 압력, 성형온도를 점검합니다. 게이트가 작거나 금형이 닫히지 않으면 플래시가 생깁니다.",
+      "questionBn": "নিচের শব্দটির সঙ্গে অর্থে সবচেয়ে কাছাকাছি শব্দ কোনটি?",
+      "questionKo": "다음 단어와 의미가 비슷한 말은 무엇입니까?",
+      "passage": "혼합하다",
       "options": [
-        "생산 일정",
-        "재료 혼합 비율",
-        "완제품 포장 방법",
-        "게이트와 금형 맞춤 상태"
+        "담다",
+        "섞다",
+        "묶다",
+        "쌓다"
       ],
-      "answer": 3,
-      "explanationBn": "본문에서 플래시는 게이트 또는 금형 맞춤, 사출 압력, 온도 문제와 관련 있다고 했습니다 — 4번।"
+      "answer": 1,
+      "explanationBn": "'섞다' হলো '혼합하다'-এর কথ্য রূপ — দুটোরই অর্থ মেশানো। '담다' মানে পাত্রে ভরা, '묶다' মানে বাঁধা, '쌓다' মানে স্তরে সাজানো।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে: 고무 제품이 완전히 경화되지 않으면 무엇이 발생할 수 있나요?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 고무 제품이 완전히 경화되지 않으면 무엇이 발생할 수 있나요?",
-      "passage": "고무가 완전히 경화되지 않으면 표면이 끈적거리거나 강도가 약해집니다. 이는 사용 중 변형과 빠른 마모로 이어질 수 있습니다.",
+      "questionBn": "নিচের কোন জোড়াটি সঠিক?",
+      "questionKo": "다음 중 맞는 것을 고르십시오.",
       "options": [
-        "표면이 매끄러워진다",
-        "색상이 밝아진다",
-        "표면이 끈적거리거나 약해진다",
-        "강도가 증가한다"
+        "저울 - 무게를 재요.",
+        "저울 - 철사를 펴요.",
+        "줄자 - 무게를 재요.",
+        "줄자 - 철사를 펴요."
       ],
-      "answer": 2,
-      "explanationBn": "문장에서 경화되지 않으면 표면이 끈적거리고 강도가 약해진다고 했으므로 3번।"
+      "answer": 0,
+      "explanationBn": "'저울' দিয়ে ওজন মাপা হয়, তাই '무게를 재요' সঠিক। '줄자' দৈর্ঘ্য মাপে, ওজন নয়; আর তার সোজা করার কাজ কোনো মাপার যন্ত্রেরই নয়।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে: 사출기 점검 시 먼저 확인할 사항은 무엇인가?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 사출기 점검 시 먼저 확인할 사항은 무엇인가?",
-      "passage": "사출기 점검은 전원 상태, 유압과 압력 설정, 노즐 상태 순으로 진행합니다. 전원이 꺼져 있으면 다른 점검이 불가능합니다.",
+      "questionBn": "নিচের কোন বাক্যে নিচে দাগ দেওয়া অংশটি সঠিক?",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "options": [
-        "작업자 점심 시간",
-        "전원 상태",
-        "포장 상태",
-        "생산 목표"
+        "불꽃의 크기를 절단해요.",
+        "창고의 온도를 보관해요.",
+        "기계의 압력을 조절해요.",
+        "작업장의 창문을 지시해요."
       ],
-      "answer": 1,
-      "explanationBn": "글에 전원 상태를 먼저 확인한다고 명시되어 있어 정답은 2번।"
+      "answer": 2,
+      "explanationBn": "চাপ '조절하다' (মাপমতো ঠিক করা) যায়, তাই এটিই সঠিক। শিখার আকার '조절하다' হয়, '절단하다' নয়; তাপমাত্রাও '조절하다' হয়, '보관하다' নয়; আর জানালা '지시하다' করা যায় না।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে: 배합비가 맞지 않으면 어떤 결과가 나오나요?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 배합비가 맞지 않으면 어떤 결과가 나오나요?",
-      "passage": "배합비가 정확하지 않으면 색상 변화, 강도 저하, 경화 문제 등 품질 불량이 발생할 수 있습니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "(        )이 나왔습니다. 제품의 생산을 중지하고 원인을 찾아야 합니다.",
       "options": [
-        "품질 불량",
-        "포장 강화",
-        "원가 절감",
-        "속도 향상"
+        "소모품",
+        "신제품",
+        "생산품",
+        "불량품"
       ],
-      "answer": 0,
-      "explanationBn": "본문에 배합비 오류가 품질 불량을 일으킨다고 되어 있으므로 1번।"
+      "answer": 3,
+      "explanationBn": "উৎপাদন থামিয়ে কারণ খুঁজতে হয় কেবল ত্রুটি বেরোলেই, তাই '불량품' সঠিক। '소모품' ক্ষয়ে যাওয়া জিনিস, '신제품' নতুন পণ্য, '생산품' উৎপাদিত পণ্য।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে: 탈형이 잘 안되면 어떤 작업을 고려하나요?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 탈형이 잘 안되면 어떤 작업을 고려하나요?",
-      "passage": "탈형이 잘 안될 때는 게이트를 조정하거나 금형의 코팅을 점검하고 성형온도와 냉각시간을 변경해 봅니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "중량이 정확해야 되니까 접시 저울로 (        ) 전자 저울로 측정하세요.",
       "options": [
-        "제품 포장 변경",
-        "작업자 교대 시간 변경",
-        "공장 청소만",
-        "게이트 조정과 성형온도 변경"
+        "재는 대신에",
+        "쟀는 대신에",
+        "재기 전에",
+        "재고 나서"
       ],
-      "answer": 3,
-      "explanationBn": "본문은 게이트 조정과 온도/냉각시간 변경을 권장하므로 4번이 맞습니다।"
+      "answer": 0,
+      "explanationBn": "পাল্লা-দাঁড়িপাল্লার বদলে ইলেকট্রনিক দাঁড়িপাল্লা — অর্থাৎ একটার জায়গায় অন্যটা, তাই '재는 대신에' সঠিক। '-는 대신에'-এর আগে কালের রূপ বসে না; '재기 전에' ও '재고 나서' ক্রম বোঝায়, বদল নয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শোনা স্ক্রিপ্ট শুনে প্রশ্নের উত্তর দিন: '사출압력을 낮추면 어떤 변화가 있나요?'",
-      "questionKo": "다음 음성을 듣고 질문에 답하세요: '사출압력을 낮추면 어떤 변화가 있나요?'",
-      "passage": "사출압력을 낮추면 플래시가 줄어들 수 있지만 충진이 부족해질 수 있습니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "제품을 만들 때 압력이 너무 높으면 제품이 깨집니다. 반대로 압력이 낮으면 성형이 덜 됩니다. 그래서 불량이 나오면 원인을 찾고 조치를 취해야 합니다.",
       "options": [
-        "게이트가 커진다",
-        "냉각 시간이 짧아진다",
-        "충진이 부족해질 수 있다",
-        "플래시가 늘어난다"
+        "압력이 낮으면 제품이 깨집니다.",
+        "압력은 불량과 관계가 없습니다.",
+        "성형이 덜 되면 압력을 낮춥니다.",
+        "압력이 높으면 제품이 깨집니다."
       ],
-      "answer": 2,
-      "explanationBn": "음성에서 압력을 낮추면 플래시는 줄어들 수 있지만 충진 부족이 발생할 수 있다고 했습니다 — 3번।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '압력이 너무 높으면 제품이 깨집니다'। চাপ কম হলে উল্টো '성형이 덜 됩니다', তাই তখন চাপ বাড়াতে হয় — কমাতে নয়।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শোনা স্ক্রিপ্ট: '재료 공급 문제가 있으면 먼저 무엇을 확인하나요?'",
-      "questionKo": "다음 음성을 듣고 질문에 답하세요: '재료 공급 문제가 있으면 먼저 무엇을 확인하나요?'",
-      "passage": "공급 라인의 막힘 여부와 수지 배치 번호를 먼저 확인하세요.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가: 제품이 깨졌어요. 왜 이렇죠?\n나: 압력이 (        ) 봐요.",
       "options": [
-        "냉각팬 속도",
-        "공급 라인 막힘과 배치 번호",
-        "포장 박스 크기",
-        "작업자 키"
+        "높나",
+        "높는가",
+        "높은가",
+        "높이나"
       ],
-      "answer": 1,
-      "explanationBn": "음성에 공급 라인 막힘과 배치 번호 확인을 먼저 하라고 했으므로 2번।"
+      "answer": 2,
+      "explanationBn": "'높다' একটি বিশেষণ আর মূলে বাতচিম আছে, তাই '-은가 보다' বসে: 높은가 봐요। '-나 보다' কেবল ক্রিয়া ও '있다/없다'-এর সঙ্গে বসে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "শোনা স্ক্রিপ্ট: '불량품이 발견되면 어떻게 해야 합니까?'",
-      "questionKo": "다음 음성을 듣고 질문에 답하세요: '불량품이 발견되면 어떻게 해야 합니까?'",
-      "passage": "불량품은 즉시 분리하고 관리자에게 보고하세요. 생산을 잠시 중단할 수 있습니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "세계 각국은 화석 연료의 사용으로 인한 환경 파괴와 기후 변화에 대응하기 위하여 친환경 에너지 개발에 힘쓰고 있습니다. 친환경 에너지는 초기 설치 비용이 높아 경제적으로 부담이 될 수 있지만, 운영 비용이 낮고 무제한으로 사용할 수 있다는 장점이 있습니다. 또한 화석 연료의 고갈을 막고 온실가스를 줄여 급격한 기후 변화에 따른 재난에 대비할 수 있게 해 줍니다.",
       "options": [
-        "분리하고 관리자에게 보고한다",
-        "수리해서 다시 섞는다",
-        "바로 포장한다",
-        "아무 조치도 안 한다"
+        "세계 각국은 화석 연료 개발에 힘쓰고 있습니다.",
+        "화석 연료 사용으로 기후 변화에 대비할 수 있습니다.",
+        "친환경 에너지는 설치에 대한 경제적 부담이 적습니다.",
+        "친환경 에너지 사용으로 온실가스를 줄일 수 있습니다."
       ],
-      "answer": 0,
-      "explanationBn": "스크립트는 불량품을 분리하고 관리자에게 보고하라고 했으므로 1번이 정답।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '온실가스를 줄여' — পরিবেশবান্ধব শক্তি গ্রিনহাউস গ্যাস কমায়, তাই এটিই সঠিক। দেশগুলো জীবাশ্ম জ্বালানি নয়, পরিবেশবান্ধব শক্তির উন্নয়নে জোর দিচ্ছে, আর বসানোর খরচ বেশি বলেই বোঝা বেশি।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "নিচের নোটিশ পড়ে প্রশ্নের উত্তর দিন: 이 공지의 주요 내용은 무엇입니까?",
-      "questionKo": "다음 공지를 읽고 질문에 답하세요: 이 공지의 주요 내용은 무엇입니까?",
-      "passage": "【작업 안전 공지】 사출기 작동 중에는 반드시 안전 장갑과 보호 안경을 착용하십시오. 보호 장비를 착용하지 않으면 작업이 금지됩니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "길이를 정확히 재야 하니까 자로 재는 대신에 (        )(으)로 측정하세요.",
       "options": [
-        "사출기 수리 방법 안내",
-        "작업 중 보호 장비 착용 의무",
-        "생산 목표 달성 방법",
-        "신입 직원 교육 일정"
+        "접시 저울",
+        "버니어 캘리퍼스",
+        "혼합기",
+        "소화기"
       ],
       "answer": 1,
-      "explanationBn": "공지문은 사출기 작동 중 안전 장갑과 보호 안경 착용을 의무화하는 내용이므로 2번이 정답입니다।"
+      "explanationBn": "খুব সূক্ষ্ম দৈর্ঘ্য মাপার যন্ত্র হলো '버니어 캘리퍼스'। '접시 저울' ওজন মাপে, '혼합기' মেশায়, '소화기' আগুন নেভায় — কোনোটিই দৈর্ঘ্য মাপে না।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "নিচের 작업 일정표를 읽고 답하세요: 오후 작업은 몇 시에 시작합니까?",
-      "questionKo": "다음 작업 일정표를 읽고 질문에 답하세요: 오후 작업은 몇 시에 시작합니까?",
-      "passage": "【작업 일정】\n오전 작업: 08:00 ~ 12:00\n점심 휴식: 12:00 ~ 13:00\n오후 작업: 13:00 ~ 17:00\n청소 및 정리: 17:00 ~ 17:30",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "혼합기가 깨끗하지 않으면 원하는 색이 나오지 않습니다. 표면에 원재료가 남아 있으면 제품에 검은 줄이 생길 수도 있습니다.",
       "options": [
-        "12시",
-        "13시",
-        "17시",
-        "8시"
+        "혼합기는 청소하지 않아도 됩니다.",
+        "혼합기가 더러우면 검은 줄이 생길 수 있습니다.",
+        "색깔은 첨가제 비율만으로 결정됩니다.",
+        "검은 줄은 압력 때문에 생깁니다."
       ],
       "answer": 1,
-      "explanationBn": "일정표에 오후 작업은 13:00에 시작한다고 명시되어 있으므로 2번이 정답입니다।"
+      "explanationBn": "লেখায় বলা আছে '표면에 원재료가 남아 있으면 ... 검은 줄이 생길 수도 있습니다', তাই '혼합기가 더러우면 검은 줄이 생길 수 있습니다' সঠিক। রং কেবল অনুপাতের ব্যাপার নয়, পরিচ্ছন্নতারও — আর কালো রেখার কারণ এখানে চাপ নয়।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "নিচের 안내문을 읽고 답하세요: 금형 교체 시 가장 먼저 해야 할 일은 무엇입니까?",
-      "questionKo": "다음 안내문을 읽고 질문에 답하세요: 금형 교체 시 가장 먼저 해야 할 일은 무엇입니까?",
-      "passage": "금형을 교체할 때는 먼저 기계 전원을 끄고 완전히 냉각될 때까지 기다려야 합니다. 그 후 안전 장갑을 착용하고 금형을 분리하십시오.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: মহিলা পুরুষটিকে কী করতে বলছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 반장님, 이제 뭘 할까요?\n여자: 여기 있는 부품의 길이를 재 주세요.",
       "options": [
-        "안전 장갑을 착용한다",
-        "금형을 바로 분리한다",
-        "기계 전원을 끈다",
-        "관리자를 부른다"
+        "부품의 길이를 재는 일",
+        "부품의 무게를 재는 일",
+        "혼합기를 청소하는 일",
+        "제품을 포장하는 일"
       ],
-      "answer": 2,
-      "explanationBn": "안내문에서 금형 교체 시 가장 먼저 기계 전원을 끄라고 했으므로 3번이 정답입니다।"
+      "answer": 0,
+      "explanationBn": "মহিলা বলছেন '부품의 길이를 재 주세요' — যন্ত্রাংশের দৈর্ঘ্য মাপতে, তাই প্রথমটি সঠিক। ওজন, পরিষ্কার করা বা মোড়ানোর কোনো কথা আসেনি।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "নিচের 표지판 내용을 읽고 답하세요: 이 표지판이 금지하는 것은 무엇입니까?",
-      "questionKo": "다음 표지판을 읽고 질문에 답하세요: 이 표지판이 금지하는 것은 무엇입니까?",
-      "passage": "【경고】 이 구역에서는 음식물 섭취와 흡연을 금지합니다. 위반 시 벌금이 부과될 수 있습니다.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "여자: 누가 혼합기를 청소했어요?",
       "options": [
-        "작업복 착용",
-        "기계 조작",
-        "음식물 섭취와 흡연",
-        "안전 장비 사용"
+        "한 시간 동안 했어요.",
+        "출근하고 나서 했어요.",
+        "자하라 씨가 했어요.",
+        "혼합기가 더러워서 했어요."
       ],
       "answer": 2,
-      "explanationBn": "표지판에 음식물 섭취와 흡연을 금지한다고 명시되어 있으므로 3번이 정답입니다।"
+      "explanationBn": "প্রশ্নটি '누가' (কে) দিয়ে করা, তাই ব্যক্তির নাম দিয়ে উত্তর দিতে হবে — '자하라 씨가 했어요'। '한 시간 동안' কতক্ষণ, '출근하고 나서' কখন, আর '더러워서' কেন — তিনটিই ভিন্ন প্রশ্নের উত্তর।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "নিচের 글을 읽고 답하세요: 성형온도가 너무 높으면 어떤 문제가 생깁니까?",
-      "questionKo": "다음 글을 읽고 질문에 답하세요: 성형온도가 너무 높으면 어떤 문제가 생깁니까?",
-      "passage": "성형온도가 너무 높으면 재료가 타거나 변색될 수 있습니다. 또한 제품 표면에 기포가 생기거나 강도가 낮아질 수 있습니다. 적정 온도를 유지하는 것이 중요합니다.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "여자: 기계 작동을 중지했어요?",
       "options": [
-        "제품 색상이 더 선명해진다",
-        "재료가 타거나 변색될 수 있다",
-        "냉각 시간이 짧아진다",
-        "생산 속도가 빨라진다"
+        "네, 전원을 공급해요.",
+        "아니요, 작동하지 않아요.",
+        "네, 지금 중지했어요.",
+        "아니요, 작동을 중지했어요."
       ],
-      "answer": 1,
-      "explanationBn": "본문에서 성형온도가 너무 높으면 재료가 타거나 변색될 수 있다고 했으므로 2번이 정답입니다।"
+      "answer": 2,
+      "explanationBn": "'중지했어요?' প্রশ্নের সঙ্গে মিলিয়ে '네' বললে পরে 'বন্ধ করেছি' বলতে হয়, তাই '네, 지금 중지했어요' সঠিক। '아니요, 작동을 중지했어요' নিজের সঙ্গেই বিরোধী, আর বিদ্যুৎ দেওয়ার কথা প্রশ্নের বিপরীত।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오: 두 사람은 지금 무엇에 대해 이야기하고 있습니까?",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오: 두 사람은 지금 무엇에 대해 이야기하고 있습니까?",
-      "passage": "남자: 오늘 사출기에서 이상한 소리가 나요.\n여자: 언제부터요?\n남자: 오전부터요. 진동도 심해요.\n여자: 지금 바로 기계를 멈추고 관리자에게 알려야 해요.",
+      "questionBn": "শুনে এরপর কী বলা সবচেয়ে উপযুক্ত হবে তা বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 제품에 검은 줄이 생겼어요. 어떡하죠?",
       "options": [
-        "점심 메뉴 선택",
-        "사출기 이상 소리와 진동 문제",
-        "새 직원 교육 방법",
-        "제품 포장 순서"
+        "휴일에는 좀 쉬세요.",
+        "제가 한번 살펴볼게요.",
+        "이제 출발하시면 돼요.",
+        "단단히 고정되어 있어요."
       ],
       "answer": 1,
-      "explanationBn": "대화에서 두 사람은 사출기에서 나는 이상한 소리와 진동 문제에 대해 이야기하고 있으므로 2번이 정답입니다।"
+      "explanationBn": "ত্রুটির কথা জানানো হয়েছে, তাই স্বাভাবিক সাড়া হলো নিজে গিয়ে দেখে আসার প্রস্তাব — '제가 한번 살펴볼게요'। ছুটি, রওনা হওয়া বা শক্ত করে আটকানো — কোনোটিই এই সমস্যার জবাব নয়।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오: 여자는 작업자에게 무엇을 하라고 했습니까?",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오: 여자는 작업자에게 무엇을 하라고 했습니까?",
-      "passage": "여자: 지금 냉각수 온도가 너무 높아요. 냉각 시간을 5분 더 늘려 주세요.\n남자: 알겠습니다. 바로 조정할게요.\n여자: 그리고 조정 후에 제품 상태를 꼭 확인해 주세요.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: পুরুষটি এরপর কী করবেন?",
+      "questionKo": "다음을 듣고 남자가 이어서 할 행동을 고르십시오.",
+      "passage": "여자: 혼합기에 첨가제를 넣었어요?\n남자: 아직 안 넣었어요. 지금 비율을 계산하는 중이에요.\n여자: 비율도 중요하지만 혼합기가 깨끗해야 정확한 색깔이 나올 수 있어요.\n남자: 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요.",
       "options": [
-        "냉각수를 교체하라고 했다",
-        "냉각 시간을 5분 더 늘리라고 했다",
-        "기계 전원을 끄라고 했다",
-        "새 재료를 추가하라고 했다"
+        "첨가제를 가지러 갑니다.",
+        "혼합기에 첨가제를 넣습니다.",
+        "혼합기를 깨끗하게 청소합니다.",
+        "첨가제의 무게를 측정합니다."
       ],
-      "answer": 1,
-      "explanationBn": "여자는 냉각수 온도가 높으니 냉각 시간을 5분 더 늘리라고 했으므로 2번이 정답입니다।"
+      "answer": 3,
+      "explanationBn": "পুরুষটি বলছেন '첨가제 무게를 재고 나서 혼합기를 청소할게요' — অর্থাৎ আগে ওজন মাপা, তারপর পরিষ্কার করা। '-고 나서' ক্রম বুঝিয়ে দিচ্ছে, তাই এরপরের কাজ হলো ওজন মাপা।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오: 남자는 왜 작업을 멈췄습니까?",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오: 남자는 왜 작업을 멈췄습니까?",
-      "passage": "남자: 잠깐, 작업을 멈춰야 할 것 같아요.\n여자: 왜요? 무슨 문제가 있어요?\n남자: 제품에 기포가 계속 생겨요. 배합비를 다시 확인해야 할 것 같아요.\n여자: 맞아요. 먼저 배합비 기록지를 가져오세요.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: মহিলা কেন ইলেকট্রনিক দাঁড়িপাল্লা ব্যবহার করতে বলছেন?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 중량이 정확해야 되니까 접시 저울로 재는 대신에 전자 저울로 측정하세요.\n남자: 네, 알겠습니다.",
       "options": [
-        "점심시간이 되어서",
-        "기계가 완전히 고장 나서",
-        "제품에 기포가 계속 생겨서",
-        "관리자가 퇴근해서"
+        "중량이 정확해야 되어서",
+        "접시 저울이 고장 나서",
+        "전자 저울이 더 싸서",
+        "시간이 없어서"
       ],
-      "answer": 2,
-      "explanationBn": "남자는 제품에 기포가 계속 생겨서 배합비를 확인하기 위해 작업을 멈췄으므로 3번이 정답입니다।"
+      "answer": 0,
+      "explanationBn": "মহিলা নিজেই কারণ বলছেন '중량이 정확해야 되니까' — ওজন নিখুঁত হতে হবে বলে। পাল্লা নষ্ট, দাম কম বা সময়ের অভাব — কোনো কারণই বলা হয়নি।"
     }
   ]
 }
