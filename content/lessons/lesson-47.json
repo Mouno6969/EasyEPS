@@ -10,289 +10,200 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "উপকূলীয় মৎস্য ও 양식 সম্পর্কিত সাধারণ শব্দভাণ্ডার জানতে পারা।",
-      "কাজের সময় সাধারণ নির্দেশাবলী বুঝতে ও বলতে পারা।",
-      "সহকর্মীর সাথে সরল কর্মসংক্রান্ত কথোপকথন করতে পারা।"
+      "মাছ ধরার সরঞ্জাম ও কাজ নিয়ে কথা বলতে পারা",
+      "মাছের খামারে ব্যবহৃত যন্ত্রপাতি নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "'-는 동안에' দিয়ে একটি কাজ চলাকালীন সময় বোঝাতে পারা",
+      "'-기로 하다' দিয়ে কাজের সিদ্ধান্ত ও পারস্পরিক প্রস্তাব জানাতে পারা"
     ],
     "en": [
-      "Learn basic vocabulary related to coastal fishery and aquaculture.",
-      "Understand and give simple workplace instructions.",
-      "Conduct short work-related conversations with colleagues."
+      "Can talk about fishery tools and activities",
+      "Can ask and answer about equipment used in aquaculture",
+      "Can use -는 동안에 for the span during which an action continues",
+      "Can use -기로 하다 for work decisions and joint proposals"
     ]
   },
   "vocabulary": [
     {
-      "ko": "연근해",
-      "romanization": "yeongeunhae",
-      "bn": "উপকূলীয় সাগর",
-      "en": "coastal waters",
-      "pos": "noun",
-      "example": {
-        "ko": "연근해에서 조업을 시작합니다.",
-        "bn": "উপকূলীয় সাগরে কাজ শুরু করি।",
-        "en": "We start fishing in the coastal waters."
-      },
-      "pronunciationTipBn": "'연' এবং '근' স্পষ্ট করে উচ্চারণ করুন, '해' তে 'হ' ধ্বনি থাকবে।"
-    },
-    {
-      "ko": "어업",
-      "romanization": "eoeop",
-      "bn": "মৎস্যশিল্প/মৎস্য ধরা",
-      "en": "fishery",
-      "pos": "noun",
-      "example": {
-        "ko": "어업 허가가 필요합니다.",
-        "bn": "মৎস্যচাষের অনুমোদন প্রয়োজন।",
-        "en": "A fishery permit is required."
-      },
-      "pronunciationTipBn": "'어' এর পর '업' উচ্চারণ করার সময় ঠোঁট বন্ধ করুন।"
-    },
-    {
-      "ko": "양식",
-      "romanization": "yangsik",
-      "bn": "জলজ চাষ/অ্যাকুয়ারকালচার",
-      "en": "aquaculture",
-      "pos": "noun",
-      "example": {
-        "ko": "연안 양식장에서 굴을 키웁니다.",
-        "bn": "উপকূলীয় ফার্মে কাকড়া পালন করি।",
-        "en": "They farm oysters at the coastal aquaculture site."
-      },
-      "pronunciationTipBn": "'양' এর 'ㅇ' অনুনাসিক হবে, '식' এ 'ㄱ' হালকা করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "어선",
-      "romanization": "eoseon",
-      "bn": "ডাঙ্গাবাহী মাছ ধরার নৌকা",
-      "en": "fishing boat",
-      "pos": "noun",
-      "example": {
-        "ko": "어선에 장비를 싣습니다.",
-        "bn": "মাছ ধরার নৌকায় সরঞ্জাম আঁটি।",
-        "en": "Load equipment onto the fishing boat."
-      },
-      "pronunciationTipBn": "'어' এবং '선' স্বাভাবিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "조업",
-      "romanization": "joeop",
-      "bn": "মাছ ধরা/কাজ করা (সমুদ্রে)",
-      "en": "fishing operation",
-      "pos": "noun",
-      "example": {
-        "ko": "오늘 오후에 조업을 합니다.",
-        "bn": "আজ বিকেলে কাজে যাব।",
-        "en": "We will operate (fish) this afternoon."
-      },
-      "pronunciationTipBn": "'조' এর পর '업' উচ্চারণ করার সময় ঠোঁট বন্ধ করুন।"
-    },
-    {
-      "ko": "어장",
-      "romanization": "eojang",
-      "bn": "মাছ ধরার স্থান",
-      "en": "fishing ground",
-      "pos": "noun",
-      "example": {
-        "ko": "어장이 변경되었습니다.",
-        "bn": "মাছ ধরার জায়গা বদলানো হয়েছে।",
-        "en": "The fishing grounds have changed."
-      },
-      "pronunciationTipBn": "'어' এবং '장' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "양식장",
-      "romanization": "yangsikjang",
-      "bn": "জলজ বিন্যাস ফার্ম",
-      "en": "aquaculture farm",
-      "pos": "noun",
-      "example": {
-        "ko": "양식장에 먹이를 줍니다.",
-        "bn": "ফার্মে খাবার দিই।",
-        "en": "We feed at the aquaculture farm."
-      },
-      "pronunciationTipBn": "'양식' এর পর '장' উচ্চারণ করার সময় 'ㅈ' একটু শক্ত হতে পারে।"
-    },
-    {
-      "ko": "양식어류",
-      "romanization": "yangsikeoryu",
-      "bn": "চাষকৃত মাছ",
-      "en": "cultured fish",
-      "pos": "noun",
-      "example": {
-        "ko": "양식어류는 규칙적으로 검사합니다.",
-        "bn": "চাষ করা মাছ নিয়ম করে পরীক্ষা করি।",
-        "en": "Cultured fish are inspected regularly."
-      },
-      "pronunciationTipBn": "'어류' উচ্চারণ করার সময় 'ㄹ' ধ্বনিটি বাংলা 'র' এর মতো হবে।"
-    },
-    {
       "ko": "그물",
       "romanization": "geumul",
-      "bn": "জাল",
-      "en": "net",
+      "bn": "জাল (মাছ ধরার)",
+      "en": "fishing net",
       "pos": "noun",
       "example": {
-        "ko": "그물을 정리해 주세요.",
-        "bn": "জাল ঠিক করে দিন।",
-        "en": "Please organize the net."
+        "ko": "그물을 끌어올렸으니까 이제 세척을 시작합시다.",
+        "bn": "জাল তো তুলে ফেলা হয়েছে, এবার ধোয়া শুরু করি।",
+        "en": "We've pulled up the net, so let's start cleaning it."
       },
-      "pronunciationTipBn": "'그' এবং '물' স্বাভাবিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "그물 → [그물]। 'ㅡ' ঠোঁট চ্যাপ্টা রেখে গলার ভেতর থেকে — 'গু-মুল' নয়, 'গৃ-মুল'।"
     },
     {
-      "ko": "작살",
-      "romanization": "jaksal",
-      "bn": "বর্শা/হরপুন",
-      "en": "harpoon",
+      "ko": "통발",
+      "romanization": "tongbal",
+      "bn": "মাছের ফাঁদ (পানিতে ডুবিয়ে রাখা খাঁচা)",
+      "en": "fish trap",
       "pos": "noun",
       "example": {
-        "ko": "작살을 안전하게 보관하세요.",
-        "bn": "হরপুন নিরাপদে রাখুন।",
-        "en": "Store the harpoon safely."
+        "ko": "통발은 물속에 넣어 물고기를 잡을 때 사용하는 도구예요.",
+        "bn": "ফাঁদ হলো পানিতে ডুবিয়ে মাছ ধরার সরঞ্জাম।",
+        "en": "A fish trap is a tool put in the water to catch fish."
       },
-      "pronunciationTipBn": "'작' এর 'ㄱ' এর কারণে '살' এর 'ㅅ' একটু শক্ত (ㅆ) উচ্চারিত হতে পারে।"
-    },
-    {
-      "ko": "어업허가",
-      "romanization": "eoyeopheoga",
-      "bn": "মৎস্যচাষের অনুমতি",
-      "en": "fishing permit",
-      "pos": "noun",
-      "example": {
-        "ko": "어업허가 서류를 확인합니다.",
-        "bn": "অনের কাগজপত্র পরীক্ষা করি।",
-        "en": "We check the fishing permit documents."
-      },
-      "pronunciationTipBn": "'어업' এর পর '허가' উচ্চারণ করার সময় 'ㅎ' ধ্বনি স্পষ্ট করুন।"
-    },
-    {
-      "ko": "연안",
-      "romanization": "yeonan",
-      "bn": "তটরেখা/উপকূল",
-      "en": "coast/shore",
-      "pos": "noun",
-      "example": {
-        "ko": "연안에서 안전을 확인하세요.",
-        "bn": "উপকূলের কাছে নিরাপত্তা দেখুন।",
-        "en": "Check safety near the shore."
-      },
-      "pronunciationTipBn": "'연' এবং '안' একসাথে উচ্চারণ করার সময় 'ㄴ' ধ্বনি যুক্ত হবে (여난)।"
-    },
-    {
-      "ko": "해류",
-      "romanization": "haeryu",
-      "bn": "সাগরের প্রবাহ",
-      "en": "ocean current",
-      "pos": "noun",
-      "example": {
-        "ko": "해류가 바뀌면 어장이 달라집니다.",
-        "bn": "সাগরের প্রবাহ বদলালে মাছ ধরার জায়গা পরিবর্তন হয়।",
-        "en": "If the currents change, fishing grounds change."
-      },
-      "pronunciationTipBn": "'해' এর পর '류' উচ্চারণ করার 때 'ㄹ' ধ্বনিটি বাংলা 'র' এর মতো হবে।"
-    },
-    {
-      "ko": "조업일",
-      "romanization": "joeopil",
-      "bn": "কাজের দিন",
-      "en": "workday (fishing day)",
-      "pos": "noun",
-      "example": {
-        "ko": "조업일을 캘린더에 표시하세요.",
-        "bn": "কাজের দিন ক্যালেন্ডারে চিহ্নিত করুন।",
-        "en": "Mark the fishing day on the calendar."
-      },
-      "pronunciationTipBn": "'조업' এর পর '일' উচ্চারণ করার সময় 'ㅂ' ধ্বনি 'ㅁ' এর মতো হতে পারে বা '일' এর সাথে যুক্ত হতে পারে (조어빌)।"
-    },
-    {
-      "ko": "선장",
-      "romanization": "seonjang",
-      "bn": "নৌকা/জাহাজের প্রধান",
-      "en": "captain",
-      "pos": "noun",
-      "example": {
-        "ko": "선장이 출항을 지시합니다.",
-        "bn": "ক্যাপ্টেন যাত্রা শুরু করতে বলে।",
-        "en": "The captain orders departure."
-      },
-      "pronunciationTipBn": "'선' এবং '장' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "승선원",
-      "romanization": "seungseonwon",
-      "bn": "নাবিক/ক্রু",
-      "en": "crew member",
-      "pos": "noun",
-      "example": {
-        "ko": "승선원은 안전 교육을 받습니다.",
-        "bn": "ক্রুরা নিরাপত্তা প্রশিক্ষণ নেয়।",
-        "en": "Crew members receive safety training."
-      },
-      "pronunciationTipBn": "'승' এর 'ㅇ' অনুনাসিক হবে, '선원' স্বাভাবিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "수온",
-      "romanization": "suon",
-      "bn": "পানির তাপমাত্রা",
-      "en": "water temperature",
-      "pos": "noun",
-      "example": {
-        "ko": "수온을 매일 측정하세요.",
-        "bn": "প্রতিদিন পানির তাপমাত্রা মাপুন।",
-        "en": "Measure the water temperature daily."
-      },
-      "pronunciationTipBn": "'수' এবং '온' একসাথে উচ্চারণ করার 때 '수온' স্পষ্ট করুন।"
-    },
-    {
-      "ko": "선박",
-      "romanization": "seonbak",
-      "bn": "জাহাজ/শিপ",
-      "en": "vessel/ship",
-      "pos": "noun",
-      "example": {
-        "ko": "선박 점검을 확인합니다.",
-        "bn": "জাহাজ পরিদর্শন নিশ্চিত করুন।",
-        "en": "Check the vessel inspection."
-      },
-      "pronunciationTipBn": "'선' এর পর '박' উচ্চারণ করার 때 'ㅂ' একটু শক্ত হতে পারে।"
-    },
-    {
-      "ko": "미끼",
-      "romanization": "mikki",
-      "bn": "টোপ",
-      "en": "bait",
-      "pos": "noun",
-      "example": {
-        "ko": "미끼를 준비하세요.",
-        "bn": "টোপ প্রস্তুত করুন।",
-        "en": "Please prepare the bait."
-      },
-      "pronunciationTipBn": "'미' এর পর '끼' উচ্চারণ করার 때 'ㄲ' শক্ত করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "닻",
-      "romanization": "dat",
-      "bn": "নোঙর",
-      "en": "anchor",
-      "pos": "noun",
-      "example": {
-        "ko": "닻을 내리세요.",
-        "bn": "নোঙর ফেলুন।",
-        "en": "Drop the anchor."
-      },
-      "pronunciationTipBn": "'닻' এর 'ㅊ' বাচিম হিসেবে 'ㄷ' এর মতো উচ্চারিত হবে (닫)।"
+      "pronunciationTipBn": "통발 → [통발]। 'ㅌ' নিঃশ্বাসযুক্ত 'থ', 'ㅇ' নাক দিয়ে — 'তোং-বাল' নয়, 'থোং-বাল'।"
     },
     {
       "ko": "부표",
       "romanization": "bupyo",
-      "bn": "বয়া",
+      "bn": "ভাসমান চিহ্ন, বয়া (জাল কোথায় আছে তা বোঝায়)",
       "en": "buoy",
       "pos": "noun",
       "example": {
-        "ko": "부표를 확인하세요.",
-        "bn": "বয়া চেক করুন।",
-        "en": "Check the buoy."
+        "ko": "부표는 그물의 위치를 알려 주는 표지예요.",
+        "bn": "বয়া হলো জালের অবস্থান জানানোর চিহ্ন।",
+        "en": "A buoy is a marker that shows where the net is."
       },
-      "pronunciationTipBn": "'부' এবং '표' স্বাভাবিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "부표 → [부표]। 'ㅍ' নিঃশ্বাসযুক্ত 'ফ' — 'বু-পিও' নয়, 'বু-ফিও'।"
+    },
+    {
+      "ko": "양망기",
+      "romanization": "yangmanggi",
+      "bn": "জাল তোলার যন্ত্র (নেট হলার)",
+      "en": "net hauler",
+      "pos": "noun",
+      "example": {
+        "ko": "양망기를 준비하고 로프를 연결해 주세요.",
+        "bn": "জাল তোলার যন্ত্রটা তৈরি করে দড়িটা জুড়ে দিন।",
+        "en": "Prepare the net hauler and connect the rope."
+      },
+      "pronunciationTipBn": "양망기 → [양망기]। দুটো 'ㅇ' নাক দিয়ে — 'ইয়াং-মাং-গি'। '망' মানে জাল, তাই নামেই কাজ বোঝা যায়।"
+    },
+    {
+      "ko": "뜰채",
+      "romanization": "tteulchae",
+      "bn": "হাতজাল (হাতে ধরার ছোট জাল)",
+      "en": "hand net",
+      "pos": "noun",
+      "example": {
+        "ko": "뜰채도 준비하는 게 좋겠어요.",
+        "bn": "হাতজালটাও তৈরি রাখা ভালো হবে।",
+        "en": "It'd be good to prepare the hand net too."
+      },
+      "pronunciationTipBn": "뜰채 → [뜰채]। 'ㄸ' টান-টান শক্ত 'ত', 'ㅐ' খোলা 'অ্যা' — 'ত্তৃল-ছ্যা'।"
+    },
+    {
+      "ko": "로프",
+      "romanization": "ropeu",
+      "bn": "দড়ি, রশি",
+      "en": "rope",
+      "pos": "noun",
+      "example": {
+        "ko": "끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.",
+        "bn": "তোলার সময় দড়িতে পা আটকে না যায়, সাবধান থাকুন।",
+        "en": "Be careful not to catch your foot in the rope when hauling."
+      },
+      "pronunciationTipBn": "로프 → [로프]। শেষের 'ㅍ' নিঃশ্বাসযুক্ত 'ফ', 'ㅡ' ঠোঁট চ্যাপ্টা — 'রো-পু' নয়, 'রো-ফৃ'।"
+    },
+    {
+      "ko": "갑판",
+      "romanization": "gappan",
+      "bn": "জাহাজের পাটাতন, ডেক",
+      "en": "deck",
+      "pos": "noun",
+      "example": {
+        "ko": "부표를 설치하는 동안에 갑판을 청소하세요.",
+        "bn": "বয়া বসানোর ফাঁকে ডেকটা পরিষ্কার করুন।",
+        "en": "Clean the deck while the buoys are being set."
+      },
+      "pronunciationTipBn": "갑판 → [갑판]। 'ㅂ' বাতচিমে ঠোঁট বন্ধ, 'ㅍ' নিঃশ্বাসযুক্ত 'ফ' — 'গাপ-ফান'।"
+    },
+    {
+      "ko": "끌어올리다",
+      "romanization": "kkeureoollida",
+      "bn": "টেনে তোলা (জাল বা ফাঁদ পানি থেকে তোলা)",
+      "en": "to haul up, to pull up",
+      "pos": "verb",
+      "example": {
+        "ko": "양망기로 그물을 끌어올릴 거예요.",
+        "bn": "জাল তোলার যন্ত্র দিয়ে জালটা টেনে তোলা হবে।",
+        "en": "We'll haul up the net with the net hauler."
+      },
+      "pronunciationTipBn": "끌어올리다 → [끄러올리다]। 'ㄹ' পরের স্বরে জুড়ে যায় — 'ক্কৃল-ও-ওল-লি-দা' নয়, 'ক্কৃ-রো-ওল-লি-দা'।"
+    },
+    {
+      "ko": "고압 분사기",
+      "romanization": "goap bunsagi",
+      "bn": "উচ্চচাপের স্প্রেয়ার (জোরে পানি ছুড়ে ধোয়ার যন্ত্র)",
+      "en": "pressure washer",
+      "pos": "noun",
+      "example": {
+        "ko": "세척은 고압 분사기로 하면 되지요?",
+        "bn": "ধোয়ার কাজটা উচ্চচাপের স্প্রেয়ার দিয়ে করলেই হবে তো?",
+        "en": "We can do the cleaning with the pressure washer, right?"
+      },
+      "pronunciationTipBn": "분사기 → [분사기]। '분사' মানে ছিটিয়ে দেওয়া — 'বুন-সা-গি'। '고압' মানে উঁচু চাপ।"
+    },
+    {
+      "ko": "세척하다",
+      "romanization": "secheokada",
+      "bn": "ধুয়ে পরিষ্কার করা",
+      "en": "to wash, to clean",
+      "pos": "verb",
+      "example": {
+        "ko": "세척하는 동안 그물이 찢어진 곳이 있는지 잘 살펴보세요.",
+        "bn": "ধোয়ার সময় জালে কোথাও ছেঁড়া আছে কিনা ভালো করে দেখুন।",
+        "en": "While cleaning, check carefully whether the net is torn anywhere."
+      },
+      "pronunciationTipBn": "세척 → [세척]। 'ㅔ' মাঝারি 'এ', 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'সে-ছক্'।"
+    },
+    {
+      "ko": "수선하다",
+      "romanization": "suseonhada",
+      "bn": "মেরামত করা, সেলাই করে জোড়া দেওয়া",
+      "en": "to mend, to repair",
+      "pos": "verb",
+      "example": {
+        "ko": "그물을 말린 후에 수선해야 돼요.",
+        "bn": "জাল শুকানোর পর মেরামত করতে হবে।",
+        "en": "You have to mend the net after drying it."
+      },
+      "pronunciationTipBn": "수선 → [수선]। 'ㅓ' মুখ আলগা রেখে 'অ' — 'সু-সান' নয়, 'সু-সোন'। জামাকাপড় ও জাল — দুটোরই মেরামতে এই শব্দ চলে।"
+    },
+    {
+      "ko": "찢어지다",
+      "romanization": "jjijeojida",
+      "bn": "ছিঁড়ে যাওয়া, ফেটে যাওয়া",
+      "en": "to be torn",
+      "pos": "verb",
+      "example": {
+        "ko": "찢어진 곳이 있으면 그 부분을 묶어 주세요.",
+        "bn": "ছেঁড়া জায়গা থাকলে সেই অংশটা বেঁধে দিন।",
+        "en": "If there's a torn spot, tie that part up."
+      },
+      "pronunciationTipBn": "찢어지다 → [찌저지다]। 'ㅉ' টান-টান শক্ত 'জ', আর 'ㅊ' বাতচিম পরের স্বরে জুড়ে যায় — 'ছ্‌ছি-জো-জি-দা'।"
+    },
+    {
+      "ko": "펼치다",
+      "romanization": "pyeolchida",
+      "bn": "মেলে দেওয়া, বিছিয়ে ছড়িয়ে দেওয়া",
+      "en": "to spread out",
+      "pos": "verb",
+      "example": {
+        "ko": "그물을 넓게 펼쳐서 말려야 돼요.",
+        "bn": "জালটা চওড়া করে মেলে দিয়ে শুকাতে হবে।",
+        "en": "You have to spread the net out wide and dry it."
+      },
+      "pronunciationTipBn": "펼치다 → [펼치다]। 'ㅍ'+'ㅕ' মিলে 'ফিয়ো', 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'ফিয়ল-ছি-দা'।"
+    },
+    {
+      "ko": "흔들리다",
+      "romanization": "heundeullida",
+      "bn": "দুলতে থাকা, নড়বড় করা",
+      "en": "to be shaken, to sway",
+      "pos": "verb",
+      "example": {
+        "ko": "배가 흔들리지 않도록 해 주세요.",
+        "bn": "নৌকা যাতে না দোলে, সেভাবে করুন।",
+        "en": "Please keep the boat from rocking."
+      },
+      "pronunciationTipBn": "흔들리다 → [흔들리다]। 'ㄹㄹ' টেনে — 'হৃন-দৃল-লি-দা'। সমুদ্রে কাজের সময় এই শব্দটা বারবার লাগে।"
     },
     {
       "ko": "구명조끼",
@@ -301,371 +212,529 @@
       "en": "life jacket",
       "pos": "noun",
       "example": {
-        "ko": "구명조끼를 입으세요.",
-        "bn": "লাইফ জ্যাকেট পরুন।",
-        "en": "Put on the life jacket."
+        "ko": "배에 오르기 전에 구명조끼를 입으세요.",
+        "bn": "নৌকায় ওঠার আগে লাইফ জ্যাকেট পরে নিন।",
+        "en": "Put on a life jacket before boarding the boat."
       },
-      "pronunciationTipBn": "'조끼' এর 'ㄲ' শক্ত করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "구명조끼 → [구명조끼]। 'ㄲ' টান-টান শক্ত 'ক' — 'গু-মিয়ং-জো-ক্কি'। মাছ ধরার কাজে এটিই সবচেয়ে জরুরি নিরাপত্তা-সরঞ্জাম।"
     },
     {
-      "ko": "어획량",
-      "romanization": "eoehoengnyang",
-      "bn": "মাছ ধরার পরিমাণ",
-      "en": "catch amount",
+      "ko": "선장",
+      "romanization": "seonjang",
+      "bn": "নৌকার মাঝি-প্রধান, ক্যাপ্টেন",
+      "en": "boat captain",
       "pos": "noun",
       "example": {
-        "ko": "오늘 어획량이 많습니다.",
-        "bn": "আজ মাছ ধরার পরিমাণ বেশি।",
-        "en": "The catch amount is large today."
+        "ko": "선장님, 지금 무슨 작업을 해야 돼요?",
+        "bn": "ক্যাপ্টেন সাহেব, এখন কোন কাজটা করতে হবে?",
+        "en": "Captain, what work should we do now?"
       },
-      "pronunciationTipBn": "'어획' এর 'ㄱ' এবং '량' এর 'ㄹ' মিলে 'ㅇ' এবং 'ㄴ' এর মতো উচ্চারিত হবে (어횡냥)।"
+      "pronunciationTipBn": "선장 → [선장]। 'ㄴ' আর 'ㅇ' নাক দিয়ে — 'সোন-জাং'। নৌকায় সব নির্দেশ ইনিই দেন, তাই '-님' যোগ করে ডাকা হয়।"
     },
     {
-      "ko": "출항하다",
-      "romanization": "chulhanghada",
-      "bn": "বন্দর ত্যাগ করা",
-      "en": "to depart port",
-      "pos": "verb",
-      "example": {
-        "ko": "내일 아침에 출항합니다.",
-        "bn": "আগামীকাল সকালে বন্দর ত্যাগ করব।",
-        "en": "We depart port tomorrow morning."
-      },
-      "pronunciationTipBn": "'출' এর 'ㄹ' এবং '항' এর 'ㅎ' মিলে '출항' স্পষ্ট করুন।"
-    },
-    {
-      "ko": "입항하다",
-      "romanization": "iphanghada",
-      "bn": "বন্দরে প্রবেশ করা",
-      "en": "to enter port",
-      "pos": "verb",
-      "example": {
-        "ko": "오후에 입항할 예정입니다.",
-        "bn": "বিকেলে বন্দরে প্রবেশ করার কথা আছে।",
-        "en": "We are scheduled to enter port in the afternoon."
-      },
-      "pronunciationTipBn": "'입' এর 'ㅂ' এবং '항' এর 'ㅎ' মিলে 'ㅍ' এর মতো উচ্চারিত হতে পারে (이팡하다)।"
-    },
-    {
-      "ko": "그물을 던지다",
-      "romanization": "geumureul deonjida",
-      "bn": "জাল ফেলা",
-      "en": "to cast a net",
-      "pos": "verb",
-      "example": {
-        "ko": "바다에 그물을 던집니다.",
-        "bn": "সাগরে জাল ফেলি।",
-        "en": "We cast the net into the sea."
-      },
-      "pronunciationTipBn": "'던지다' এর 'ㅈ' স্বাভাবিকভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "그물을 걷다",
-      "romanization": "geumureul geotda",
-      "bn": "জাল তোলা",
-      "en": "to pull up a net",
-      "pos": "verb",
-      "example": {
-        "ko": "이제 그물을 걷으세요.",
-        "bn": "এখন জাল তুলুন।",
-        "en": "Pull up the net now."
-      },
-      "pronunciationTipBn": "'걷다' এর 'ㄷ' বাচিম এবং 'ㄷ' মিলে 'ㄸ' এর মতো উচ্চারিত হবে (걷따)।"
-    },
-    {
-      "ko": "분류하다",
-      "romanization": "bullyuhada",
-      "bn": "বাছাই করা",
-      "en": "to sort",
-      "pos": "verb",
-      "example": {
-        "ko": "물고기를 크기별로 분류하세요.",
-        "bn": "মাছগুলো আকার অনুযায়ী বাছাই করুন।",
-        "en": "Sort the fish by size."
-      },
-      "pronunciationTipBn": "'분' এর 'ㄴ' এবং '류' এর 'ㄹ' মিলে 'ㄹ' এবং 'ㄹ' এর মতো উচ্চারিত হবে (불류하다)।"
-    },
-    {
-      "ko": "냉동 창고",
-      "romanization": "naengdong changgo",
-      "bn": "কোল্ড স্টোরেজ",
-      "en": "cold storage",
+      "ko": "물고기",
+      "romanization": "mulgogi",
+      "bn": "মাছ (জীবিত অবস্থায়)",
+      "en": "fish",
       "pos": "noun",
       "example": {
-        "ko": "생선을 냉동 창고에 넣으세요.",
-        "bn": "মাছগুলো কোল্ড স্টোরেজে রাখুন।",
-        "en": "Put the fish in the cold storage."
+        "ko": "물고기가 많이 잡혔네요.",
+        "bn": "অনেক মাছ ধরা পড়েছে তো।",
+        "en": "A lot of fish were caught."
       },
-      "pronunciationTipBn": "'냉동' এর 'ㅇ' অনুনাসিক হবে, '창고' স্বাভাবিকভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "물고기 → [물꼬기]। 'ㄹ' বাতচিমের পরে 'ㄱ' টান-টান শক্ত হয়ে 'ㄲ' হয় — 'মুল-গো-গি' নয়, 'মুল-ক্কো-গি'। খাবার হিসেবে বললে '생선'।"
     },
     {
-      "ko": "밧줄",
-      "romanization": "batjul",
-      "bn": "দড়ি",
-      "en": "rope",
+      "ko": "차광막",
+      "romanization": "chagwangmak",
+      "bn": "রোদ আটকানোর পর্দা",
+      "en": "shade cloth",
       "pos": "noun",
       "example": {
-        "ko": "밧줄을 단단히 묶으세요.",
-        "bn": "দড়ি শক্ত করে বাঁধুন।",
-        "en": "Tie the rope tightly."
+        "ko": "수온이 높아지지 않게 차광막을 쳤어요.",
+        "bn": "পানির তাপমাত্রা যাতে না বাড়ে, সেজন্য রোদ আটকানোর পর্দা টেনে দিয়েছি।",
+        "en": "I put up the shade cloth to keep the water temperature from rising."
       },
-      "pronunciationTipBn": "'밧' এর 'ㅅ' বাচিম হিসেবে 'ㄷ' এর মতো উচ্চারিত হবে, এবং '줄' এর 'ㅈ' শক্ত (ㅉ) হবে (받쭐)।"
+      "pronunciationTipBn": "차광막 → [차광막]। 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'ছা-গোয়াং-মাক্'। '차' মানে আটকানো, '광' মানে আলো।"
     },
     {
-      "ko": "파도",
-      "romanization": "pado",
-      "bn": "ঢেউ",
-      "en": "wave",
+      "ko": "양식장",
+      "romanization": "yangsikjang",
+      "bn": "মাছের খামার, জলজ চাষের ঘের",
+      "en": "aquaculture farm",
       "pos": "noun",
       "example": {
-        "ko": "파도가 높습니다.",
-        "bn": "ঢেউ উঁচু।",
-        "en": "The waves are high."
+        "ko": "오늘 새 양식장에 펌프를 설치하기로 했지요?",
+        "bn": "আজ নতুন খামারে পাম্প বসানোর কথা ছিল তো?",
+        "en": "We agreed to install the pump at the new farm today, right?"
       },
-      "pronunciationTipBn": "'파' এর 'ㅍ' বাতাস বের করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "양식장 → [양식짱]। 'ㄱ' বাতচিমের পরে 'ㅈ' শক্ত হয়ে 'ㅉ' হয় — 'ইয়াং-সিক-জাং' নয়, 'ইয়াং-সিক-ছাং'।"
     },
     {
-      "ko": "멀미약",
-      "romanization": "meolmiyak",
-      "bn": "মোশন সিকনেসের ওষুধ",
-      "en": "seasickness pill",
+      "ko": "수조",
+      "romanization": "sujo",
+      "bn": "চৌবাচ্চা, মাছ রাখার ট্যাংক",
+      "en": "water tank",
       "pos": "noun",
       "example": {
-        "ko": "멀미약을 먹었어요.",
-        "bn": "মোশন সিকনেসের ওষুধ খেয়েছি।",
-        "en": "I took a seasickness pill."
+        "ko": "수조의 물이 더러운 것 같으니까 수질을 측정해 주세요.",
+        "bn": "চৌবাচ্চার পানি নোংরা বলে মনে হচ্ছে, পানির গুণ মেপে দেখুন।",
+        "en": "The tank water looks dirty, so please check the water quality."
       },
-      "pronunciationTipBn": "'멀미' এর পর '약' উচ্চারণ করার 때 '약' স্পষ্ট করুন।"
+      "pronunciationTipBn": "수조 → [수조]। '수' মানে পানি, '조' মানে পাত্র — 'সু-জো'।"
+    },
+    {
+      "ko": "산소 공급기",
+      "romanization": "sanso gonggeupgi",
+      "bn": "অক্সিজেন সরবরাহের যন্ত্র (এয়ারেটর)",
+      "en": "oxygen supply system",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 산소 공급기를 점검하기로 했습니다.",
+        "bn": "আজ অক্সিজেনের যন্ত্রটা পরীক্ষা করার কথা ঠিক হয়েছে।",
+        "en": "We decided to inspect the oxygen supply system today."
+      },
+      "pronunciationTipBn": "공급기 → [공급끼]। 'ㅂ' বাতচিমের পরে 'ㄱ' শক্ত হয়ে 'ㄲ' হয় — 'গোং-গৃপ-ক্কি'। মাছ বাঁচাতে এই যন্ত্রই সবচেয়ে জরুরি।"
+    },
+    {
+      "ko": "산소 농도",
+      "romanization": "sanso nongdo",
+      "bn": "অক্সিজেনের মাত্রা",
+      "en": "oxygen concentration",
+      "pos": "noun",
+      "example": {
+        "ko": "산소 농도가 낮아서 산소 공급기를 한 대 더 설치했어요.",
+        "bn": "অক্সিজেনের মাত্রা কম ছিল, তাই আরেকটা যন্ত্র বসিয়েছি।",
+        "en": "The oxygen level was low, so we installed one more oxygen supplier."
+      },
+      "pronunciationTipBn": "농도 → [농도]। 'ㅇ' নাক দিয়ে — 'নোং-দো'। মাত্রা কমে গেলে মাছ মরে যেতে পারে, তাই প্রতিদিন মাপা হয়।"
+    },
+    {
+      "ko": "온도계",
+      "romanization": "ondogye",
+      "bn": "থার্মোমিটার, তাপমাপক যন্ত্র",
+      "en": "thermometer",
+      "pos": "noun",
+      "example": {
+        "ko": "수온이 높은 것 같아서 온도계를 보고 있었어요.",
+        "bn": "পানির তাপমাত্রা বেশি বলে মনে হওয়ায় থার্মোমিটারটা দেখছিলাম।",
+        "en": "The water seemed warm, so I was checking the thermometer."
+      },
+      "pronunciationTipBn": "온도계 → [온도게]। 'ㅖ' সহজ করে 'এ' — 'ওন-দো-গিয়ে' নয়, 'ওন-দো-গে'।"
+    },
+    {
+      "ko": "수온",
+      "romanization": "suon",
+      "bn": "পানির তাপমাত্রা",
+      "en": "water temperature",
+      "pos": "noun",
+      "example": {
+        "ko": "수조의 수온이 높아서 온도를 조절했어요.",
+        "bn": "চৌবাচ্চার পানির তাপমাত্রা বেশি ছিল, তাই ঠিক করে নিয়েছি।",
+        "en": "The tank's water temperature was high, so I adjusted it."
+      },
+      "pronunciationTipBn": "수온 → [수온]। দুটো স্বর আলাদা করে — 'সোন' নয়, 'সু-ওন'। '수' পানি, '온' তাপ।"
+    },
+    {
+      "ko": "수질",
+      "romanization": "sujil",
+      "bn": "পানির গুণ (পানি কতটা পরিষ্কার)",
+      "en": "water quality",
+      "pos": "noun",
+      "example": {
+        "ko": "수질을 측정해서 결과를 사장님께 보고하세요.",
+        "bn": "পানির গুণ মেপে ফলাফলটা মালিককে জানিয়ে দিন।",
+        "en": "Measure the water quality and report the result to the boss."
+      },
+      "pronunciationTipBn": "수질 → [수질]। শেষে 'ㄹ' জিভ তালুতে ঠেকিয়ে — 'সু-জিল'। '질' মানে গুণ বা মান।"
+    },
+    {
+      "ko": "어류를 선별하다",
+      "romanization": "eoryureul seonbyeolhada",
+      "bn": "মাছ বেছে ভাগ করা (আকার ও অবস্থা অনুযায়ী)",
+      "en": "to sort fish",
+      "pos": "phrase",
+      "example": {
+        "ko": "물고기들이 많이 자란 것 같아서 오후에 선별 작업을 하기로 했어요.",
+        "bn": "মাছগুলো বেশ বড় হয়েছে বলে মনে হচ্ছে, তাই বিকেলে ভাগ করার কাজ ঠিক করেছি।",
+        "en": "The fish seem to have grown a lot, so we decided to sort them this afternoon."
+      },
+      "pronunciationTipBn": "선별 → [선별]। 'ㅂ'+'ㅕ' মিলে 'বিয়ো' — 'সোন-বেল' নয়, 'সোন-বিয়ল'। আকার ও স্বাস্থ্য দেখে ভাগ করা হয়।"
+    },
+    {
+      "ko": "어류 상태를 확인하다",
+      "romanization": "eoryu sangtaereul hwaginhada",
+      "bn": "মাছের অবস্থা দেখে নেওয়া",
+      "en": "to check the condition of the fish",
+      "pos": "phrase",
+      "example": {
+        "ko": "아침마다 어류 상태를 확인해야 합니다.",
+        "bn": "প্রতিদিন সকালে মাছের অবস্থা দেখে নিতে হবে।",
+        "en": "You must check the condition of the fish every morning."
+      },
+      "pronunciationTipBn": "어류 → [어류]। 'ㄹ'+'ㅠ' মিলে 'রিউ' — 'ও-রু' নয়, 'ও-রিউ'। '어류' মানে মাছজাতীয় প্রাণী।"
+    },
+    {
+      "ko": "추가하다",
+      "romanization": "chugahada",
+      "bn": "আরও যোগ করা, বাড়িয়ে দেওয়া",
+      "en": "to add",
+      "pos": "verb",
+      "example": {
+        "ko": "산소 농도가 낮으니까 공급기를 한 대 추가해야 돼요.",
+        "bn": "অক্সিজেনের মাত্রা কম, তাই আরেকটা যন্ত্র যোগ করতে হবে।",
+        "en": "The oxygen level is low, so we need to add one more supplier."
+      },
+      "pronunciationTipBn": "추가하다 → [추가하다]। 'ㅊ' নিঃশ্বাসযুক্ত 'ছ' — 'চু-গা-হা-দা' নয়, 'ছু-গা-হা-দা'।"
+    },
+    {
+      "ko": "꼬이다",
+      "romanization": "kkoida",
+      "bn": "পেঁচিয়ে যাওয়া, জড়িয়ে যাওয়া",
+      "en": "to get tangled, twisted",
+      "pos": "verb",
+      "example": {
+        "ko": "호스가 꼬이지 않도록 특별히 주의해야 돼요.",
+        "bn": "পাইপটা যাতে পেঁচিয়ে না যায়, বিশেষভাবে খেয়াল রাখতে হবে।",
+        "en": "You must be especially careful not to let the hose get tangled."
+      },
+      "pronunciationTipBn": "꼬이다 → [꼬이다]। 'ㄲ' টান-টান শক্ত 'ক' — 'গো-ই-দা' নয়, 'ক্কো-ই-দা'।"
+    },
+    {
+      "ko": "접히다",
+      "romanization": "jeopida",
+      "bn": "ভাঁজ পড়ে যাওয়া, মুড়ে যাওয়া",
+      "en": "to be folded, bent",
+      "pos": "verb",
+      "example": {
+        "ko": "호스가 접히면 물이 잘 흐르지 않아요.",
+        "bn": "পাইপে ভাঁজ পড়লে পানি ভালোভাবে বয় না।",
+        "en": "If the hose is bent, the water doesn't flow well."
+      },
+      "pronunciationTipBn": "접히다 → [저피다]। 'ㅂ' আর 'ㅎ' মিশে নিঃশ্বাসযুক্ত 'ㅍ' হয় — 'জপ-হি-দা' নয়, 'জো-ফি-দা'।"
+    },
+    {
+      "ko": "유통 기한",
+      "romanization": "yutong gihan",
+      "bn": "মেয়াদ, ব্যবহারের শেষ তারিখ",
+      "en": "expiration date",
+      "pos": "noun",
+      "example": {
+        "ko": "사료의 유통 기한이 지나서 새로 사 온 사료로 바꿨어요.",
+        "bn": "খাবারের মেয়াদ পেরিয়ে যাওয়ায় নতুন কেনা খাবার দিয়ে বদলে দিয়েছি।",
+        "en": "The feed was past its expiration date, so I replaced it with newly bought feed."
+      },
+      "pronunciationTipBn": "유통 기한 → [유통 기한]। 'ㅌ' নিঃশ্বাসযুক্ত 'থ' — 'ইউ-থোং গি-হান'। মেয়াদ পেরোনো খাবার দিলে মাছ অসুস্থ হয়।"
+    },
+    {
+      "ko": "여분",
+      "romanization": "yeobun",
+      "bn": "অতিরিক্ত, বাড়তি (দরকারে ব্যবহারের জন্য রাখা)",
+      "en": "spare, extra",
+      "pos": "noun",
+      "example": {
+        "ko": "그물이 찢어질 수 있으니까 여분을 준비해 두세요.",
+        "bn": "জাল ছিঁড়ে যেতে পারে, তাই বাড়তি একটা তৈরি রাখুন।",
+        "en": "The net could tear, so keep a spare ready."
+      },
+      "pronunciationTipBn": "여분 → [여분]। 'ㅕ' হলো 'ইয়ো' — 'ইয়ো-বুন'। '여분을 준비하다' মানে বাড়তি রেখে দেওয়া।"
+    },
+    {
+      "ko": "대비하다",
+      "romanization": "daebihada",
+      "bn": "আগাম প্রস্তুতি নেওয়া (খারাপ কিছুর জন্য)",
+      "en": "to prepare for, to guard against",
+      "pos": "verb",
+      "example": {
+        "ko": "태풍에 대비해서 부표를 단단히 묶었어요.",
+        "bn": "ঘূর্ণিঝড়ের জন্য আগাম প্রস্তুতি নিয়ে বয়াগুলো শক্ত করে বেঁধেছি।",
+        "en": "We tied the buoys firmly in preparation for the typhoon."
+      },
+      "pronunciationTipBn": "대비하다 → [대비하다]। 'ㅐ' মুখ খুলে 'অ্যা' — 'দে-বি-হা-দা' নয়, 'দ্যা-বি-হা-দা'। '준비하다' সাধারণ প্রস্তুতি, '대비하다' বিপদের জন্য প্রস্তুতি।"
+    },
+    {
+      "ko": "보고하다",
+      "romanization": "bogohada",
+      "bn": "রিপোর্ট করা, ঊর্ধ্বতনকে জানানো",
+      "en": "to report",
+      "pos": "verb",
+      "example": {
+        "ko": "결과를 사장님께 보고하기로 했어요.",
+        "bn": "ফলাফলটা মালিককে জানানোর কথা ঠিক হয়েছে।",
+        "en": "We decided to report the result to the boss."
+      },
+      "pronunciationTipBn": "보고하다 → [보고하다]। 'বো-গো-হা-দা'। খেয়াল রাখুন — সমান পদের কাউকে '말하다', আর ঊর্ধ্বতনকে '보고하다' বলা হয়।"
+    },
+    {
+      "ko": "양식업",
+      "romanization": "yangsigeop",
+      "bn": "জলজ চাষশিল্প (মাছ-শামুক-শৈবাল চাষ)",
+      "en": "aquaculture industry",
+      "pos": "noun",
+      "example": {
+        "ko": "양식업은 어업의 생산량을 이미 넘어섰습니다.",
+        "bn": "জলজ চাষের উৎপাদন মাছ ধরার উৎপাদনকে ইতিমধ্যেই ছাড়িয়ে গেছে।",
+        "en": "Aquaculture has already surpassed fishery in production."
+      },
+      "pronunciationTipBn": "양식업 → [양시겁]। 'ㄱ' পরের স্বরে জুড়ে যায় — 'ইয়াং-সিক-ওপ' নয়, 'ইয়াং-সি-গপ্'। '어업' ধরা, '양식업' চাষ করা।"
     }
   ],
   "grammar": [
     {
-      "pattern": "~에서 (স্থান নির্দেশ)",
-      "titleBn": "~에서 (স্থান নির্দেশ করে)",
-      "explanationBn": "কোন কাজ কোথায় হচ্ছে তা বোঝাতে '~에서' ব্যবহার করা হয়।",
-      "explanationEn": "Use '~에서' to indicate where an action takes place.",
+      "pattern": "V + -는 동안(에)",
+      "titleBn": "'-는 동안(에)' — 'যতক্ষণ ওই কাজ চলছে, ততক্ষণে'",
+      "explanationBn": "'-는 동안(에)' ক্রিয়ামূলের সঙ্গে বসে বোঝায় — একটি কাজ যতক্ষণ ধরে চলছে, সেই সময়ের মধ্যে অন্য কাজটি ঘটছে। বাতচিম থাকুক বা না থাকুক রূপ এক: 설치하다 → 설치하는 동안에, 먹다 → 먹는 동안에। 'ㄹ' বাতচিম হলে 'ㄹ' পড়ে যায়: 만들다 → 만드는 동안에। কথ্য ভাষায় '에' বাদ দিয়ে শুধু '동안'ও বলা হয়। বিশেষ্যের সঙ্গে ব্যবহার করলে '-는' লাগে না: '일주일 동안 작업 교육을 받았어요' — এক সপ্তাহ ধরে প্রশিক্ষণ নিয়েছি। গুরুত্বপূর্ণ পার্থক্য — '-(으)면서' একই ব্যক্তির দুটি কাজ বোঝায়, কিন্তু '-는 동안에' তে দুই কর্তা আলাদা হতে পারে, তাই কাজ ভাগ করে দিতে এটিই বেশি চলে।",
+      "explanationEn": "-는 동안(에) marks the span of time during which one action continues while another happens. The form is invariant, and ㄹ drops (만드는 동안에). With nouns, drop -는: 일주일 동안 ('for a week'). Unlike -(으)면서, the two clauses may have different subjects, which makes it the natural choice for dividing up work.",
       "examples": [
         {
-          "ko": "항구에서 배를 정비합니다.",
-          "bn": "বন্দরেই নৌকা সারাই করি।",
-          "en": "We service the boat at the port."
+          "ko": "통발을 설치하는 동안에 푸캄 씨는 그물을 가져오세요.",
+          "bn": "ফাঁদ বসানোর ফাঁকে পুকাম আপনি জালটা নিয়ে আসুন।",
+          "en": "While the traps are being set, Pukam, please bring the net."
         },
         {
-          "ko": "양식장에서 물을 검사합니다.",
-          "bn": "ফার্মে জল পরীক্ষা করি।",
-          "en": "We test the water at the farm."
+          "ko": "세척하는 동안 그물이 찢어진 곳이 있는지 잘 살펴보세요.",
+          "bn": "ধোয়ার সময় জালে কোথাও ছেঁড়া আছে কিনা ভালো করে দেখুন।",
+          "en": "While cleaning, check carefully whether the net is torn anywhere."
         },
         {
-          "ko": "바다에서 물고기를 잡습니다.",
-          "bn": "সাগরে মাছ ধরি।",
-          "en": "We catch fish in the sea."
+          "ko": "페인트를 칠하는 동안에 냄새가 많이 날 거예요.",
+          "bn": "রং করার সময় অনেক গন্ধ বেরোবে।",
+          "en": "There will be a strong smell while the paint is being applied."
+        },
+        {
+          "ko": "일주일 동안 작업 교육을 받았어요.",
+          "bn": "এক সপ্তাহ ধরে কাজের প্রশিক্ষণ নিয়েছি।",
+          "en": "I received work training for a week."
         }
       ],
-      "commonMistakeBn": "অনেকে '에' এবং '에서' এর মধ্যে গুলিয়ে ফেলেন; কোনো স্থানে কাজ বা ক্রিয়া ঘটলে '에서' বসে, আর গন্তব্য বা অবস্থান বোঝাতে '에' বসে।"
+      "commonMistakeBn": "বিশেষ্যের সঙ্গে '-는' জুড়ে দেওয়া সাধারণ ভুল: '일주일는 동안' নয়, সঠিক '일주일 동안'। আরেকটি ভুল হলো এর আগে কালের রূপ বসানো: '설치했는 동안에' নয়, সঠিক '설치하는 동안에' — সময়ের সম্পর্কটা '동안' নিজেই বলে দেয়। খেয়াল রাখুন, '-는 동안에' কেবল ক্রিয়ার সঙ্গেই বসে; বিশেষণে বসে না।"
     },
     {
-      "pattern": "~(으)세요 (정중한 명령)",
-      "titleBn": "~(으)세요 (ভদ্র অনুরোধ/আদেশ)",
-      "explanationBn": "কর্মস্থলে বিনীতভাবে অনুরোধ বা নির্দেশ দিতে '~(으)세요' ব্যবহার করুন।",
-      "explanationEn": "Use '~(으)세요' for polite requests or commands at work.",
+      "pattern": "V + -기로 하다 (결정·제안)",
+      "titleBn": "'-기로 하다' — কাজের সিদ্ধান্ত এবং 'চলুন এভাবেই করি' প্রস্তাব",
+      "explanationBn": "৪০ নম্বর পাঠে '-기로 하다' শিখেছিলাম পাকা সিদ্ধান্ত বা কথা দেওয়া বোঝাতে। এই পাঠে আরও দুটি ব্যবহার যোগ হচ্ছে। প্রথমত, কর্মস্থলে সিদ্ধান্তের কারণসহ জানানো: '펌프에서 소음이 나서 오늘 펌프를 수리하기로 했어요' — শব্দ হচ্ছে বলে আজ মেরামত করার সিদ্ধান্ত নিয়েছি। দ্বিতীয়ত, বর্তমান রূপে '-기로 해요' বললে এটি পারস্পরিক প্রস্তাব হয়ে যায়: '펌프가 잘 작동하는지 같이 확인하기로 해요' — চলুন একসঙ্গে দেখে নিই। বাতচিম থাকুক বা না থাকুক রূপ এক: 청소하다 → 청소하기로, 먹다 → 먹기로।",
+      "explanationEn": "Lesson 40 introduced -기로 하다 for a settled decision or arrangement. This unit adds two workplace uses: stating a decision together with its cause, and — in the present tense -기로 해요 — proposing that both parties agree to do something.",
       "examples": [
         {
-          "ko": "그물을 정리하세요.",
-          "bn": "জালটি ঠিক করুন দয়া করে।",
-          "en": "Please organize the net."
+          "ko": "오늘 새 양식장에 펌프를 설치하기로 했지요?",
+          "bn": "আজ নতুন খামারে পাম্প বসানোর কথা ঠিক হয়েছিল তো?",
+          "en": "We agreed to install the pump at the new farm today, right?"
         },
         {
-          "ko": "수온을 기록하세요.",
-          "bn": "পানির তাপমাত্রা নোট করুন।",
-          "en": "Please record the water temperature."
+          "ko": "물고기 사료가 얼마 남지 않아서 오늘 주문하기로 했어요.",
+          "bn": "মাছের খাবার বেশি নেই, তাই আজ অর্ডার করার সিদ্ধান্ত নিয়েছি।",
+          "en": "There's little fish feed left, so we decided to order today."
         },
         {
-          "ko": "구명조끼를 입으세요.",
-          "bn": "লাইফ জ্যাকেট পরুন।",
-          "en": "Please wear a life jacket."
+          "ko": "펌프가 잘 작동하는지 같이 확인하기로 해요.",
+          "bn": "পাম্পটা ঠিকমতো চলছে কিনা চলুন একসঙ্গে দেখে নিই।",
+          "en": "Let's check together whether the pump is working properly."
+        },
+        {
+          "ko": "산소 농도가 낮아서 공급기를 한 대 더 설치하기로 했습니다.",
+          "bn": "অক্সিজেনের মাত্রা কম, তাই আরেকটা যন্ত্র বসানোর সিদ্ধান্ত হয়েছে।",
+          "en": "The oxygen level was low, so we decided to install one more supplier."
         }
       ],
-      "commonMistakeBn": "বাচিম (받침) থাকলে '으세요' এবং না থাকলে '세요' বসে, এটি খেয়াল না রাখলে ভুল হতে পারে।"
+      "commonMistakeBn": "'-기로 하다'-এর আগে কালের রূপ বসানো ভুল: '설치했기로 했어요' নয়, সঠিক '설치하기로 했어요' — অতীত বোঝাতে শেষের '하다' বদলায়। আরেকটি বিষয় — '-기로 했어요' (অতীত) মানে সিদ্ধান্ত হয়ে গেছে, আর '-기로 해요' (বর্তমান) মানে চলুন এমনটাই ঠিক করি; দুটোর ভূমিকা আলাদা, তাই কাল বদলালে বাক্যের কাজও বদলে যায়।"
     },
     {
-      "pattern": "~고 싶다 (희망 표현)",
-      "titleBn": "~고 싶다 (ইচ্ছা প্রকাশ)",
-      "explanationBn": "নিজের ইচ্ছা বা আকাঙ্ক্ষা বলতে '~고 싶다' ব্যবহার হয়।",
-      "explanationEn": "Use '~고 싶다' to express desire or wish.",
+      "pattern": "V + -지 않도록 / -지 않게",
+      "titleBn": "'-지 않도록' — 'যাতে এমনটা না ঘটে' (আগাম সতর্কতা)",
+      "explanationBn": "'-지 않도록' বোঝায় — কোনো অবাঞ্ছিত ঘটনা যাতে না ঘটে, সেজন্য আগেভাগে সতর্ক থাকা। বাতচিম থাকুক বা না থাকুক রূপ এক: 꼬이다 → 꼬이지 않도록, 걸리다 → 걸리지 않도록। কথ্য ভাষায় '-지 않게'ও একই অর্থে চলে, আর আরও সংক্ষেপে '안 -게'ও বলা যায়। নৌকা ও খামারের নিরাপত্তা-নির্দেশে এটি অপরিহার্য, কারণ কেন সাবধান হতে হবে তা একই বাক্যে বলে দেওয়া যায়: '로프에 발이 걸리지 않게 조심하세요' — দড়িতে পা যাতে না আটকায়, সাবধান থাকুন।",
+      "explanationEn": "-지 않도록 expresses a precaution taken so that something undesirable does not happen. The form is invariant. -지 않게 is the more colloquial equivalent. It is essential for safety instructions because it states the risk being guarded against in the same sentence.",
       "examples": [
         {
-          "ko": "저는 양식장을 보고 싶어요.",
-          "bn": "আমি ফার্মটি দেখতে চাই।",
-          "en": "I want to see the aquaculture farm."
+          "ko": "호스가 꼬이거나 접히지 않도록 특별히 주의해야 돼요.",
+          "bn": "পাইপ যাতে পেঁচিয়ে বা ভাঁজ হয়ে না যায়, বিশেষভাবে খেয়াল রাখতে হবে।",
+          "en": "You must be especially careful that the hose doesn't get tangled or bent."
         },
         {
-          "ko": "오늘 좋은 어획을 하고 싶습니다.",
-          "bn": "আজ ভাল মাছ ধরা চাই।",
-          "en": "I want to have a good catch today."
+          "ko": "끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.",
+          "bn": "তোলার সময় দড়িতে পা যাতে না আটকায়, সাবধান থাকুন।",
+          "en": "Be careful your foot doesn't catch in the rope when hauling."
         },
         {
-          "ko": "빨리 입항하고 싶어요.",
-          "bn": "তাড়াতাড়ি বন্দরে প্রবেশ করতে চাই।",
-          "en": "I want to enter the port quickly."
+          "ko": "배가 흔들리지 않도록 해 주세요.",
+          "bn": "নৌকা যাতে না দোলে, সেই ব্যবস্থা করুন।",
+          "en": "Please keep the boat from rocking."
         }
       ],
-      "commonMistakeBn": "তৃতীয় ব্যক্তির ইচ্ছা বোঝাতে '~고 싶다' এর বদলে '~고 싶어하다' ব্যবহার করতে হয়, যা অনেকেই ভুল করেন।"
+      "commonMistakeBn": "এর আগে কালের রূপ বসানো ভুল: '꼬였지 않도록' নয়, সঠিক '꼬이지 않도록'। আরেকটি বিষয় — '-지 않도록' নেতিবাচক সতর্কতা বোঝায়, আর শুধু '-도록' ইতিবাচক উদ্দেশ্য বোঝায়: '물이 잘 흐르도록' (যাতে পানি ভালো বয়) বনাম '물이 새지 않도록' (যাতে পানি না চুইয়ে পড়ে)। কোন দিকটা চাইছেন, তার উপরেই রূপ নির্ভর করে।"
     },
     {
-      "pattern": "~(으)ㄹ까요? (제안/의견 묻기)",
-      "titleBn": "~(으)ㄹ까요? (প্রস্তাব/মতামত চাওয়া)",
-      "explanationBn": "অন্যের মতামত জানতে বা একসাথে কিছু করার প্রস্তাব দিতে '~(으)ㄹ까요?' ব্যবহার করা হয়।",
-      "explanationEn": "Use '~(으)ㄹ까요?' to ask for someone's opinion or suggest doing something together.",
+      "pattern": "V + -(으)ㄴ/는지 알려 주다",
+      "titleBn": "'어떻게 -는지 알려 주다' — 'কীভাবে করতে হয় তা জানিয়ে দেওয়া'",
+      "explanationBn": "নতুন কাজ শেখার সময় সবচেয়ে দরকারি বাক্যগঠনটি হলো '어떻게 + -는지 + 알려 주다' — কীভাবে করতে হয় তা জানিয়ে দেওয়া। ক্রিয়ার সঙ্গে '-는지' বসে: 설치하다 → 설치하는지, 연결하다 → 연결하는지। প্রায়ই '-(으)면 되는지' রূপে আসে, যা 'কীভাবে করলে হবে' বোঝায়: '어떻게 설치하면 되는지 알려 주시면 제가 하겠습니다' — কীভাবে বসালে হবে জানিয়ে দিলে আমি করে ফেলব। এই একটি বাক্য দিয়ে নতুন কর্মী ভদ্রভাবে শেখার অনুরোধ করতে পারেন, তাই কর্মজীবনে এটি খুব কাজে লাগে।",
+      "explanationEn": "The frame 어떻게 + -는지 + 알려 주다 asks someone to explain how to do something. Attach -는지 to the verb (설치하는지), often as -(으)면 되는지 ('how it should be done'). It is the standard polite way for a new worker to ask to be shown a task.",
       "examples": [
         {
-          "ko": "그물을 지금 걷을까요?",
-          "bn": "আমরা কি এখন জাল তুলব?",
-          "en": "Shall we pull up the net now?"
+          "ko": "어떻게 설치하면 되는지 알려 주시면 제가 하겠습니다.",
+          "bn": "কীভাবে বসালে হবে জানিয়ে দিলে আমি করে ফেলব।",
+          "en": "If you show me how to install it, I'll do it."
         },
         {
-          "ko": "어디에 닻을 내릴까요?",
-          "bn": "কোথায় নোঙর ফেলব?",
-          "en": "Where shall we drop the anchor?"
+          "ko": "그물을 어떻게 수선하는지 가르쳐 주세요.",
+          "bn": "জাল কীভাবে মেরামত করতে হয় শিখিয়ে দিন।",
+          "en": "Please teach me how to mend the net."
         },
         {
-          "ko": "내일 몇 시에 출항할까요?",
-          "bn": "আগামীকাল কয়টায় বন্দর ত্যাগ করব?",
-          "en": "What time shall we depart tomorrow?"
+          "ko": "수질을 어떻게 측정하는지 잘 모르겠어요.",
+          "bn": "পানির গুণ কীভাবে মাপতে হয় ঠিক বুঝতে পারছি না।",
+          "en": "I'm not sure how to measure the water quality."
         }
       ],
-      "commonMistakeBn": "বাচিম 'ㄹ' থাকলে শুধু '까요?' যুক্ত হয়, '을까요?' নয়।"
+      "commonMistakeBn": "বিশেষণের সঙ্গে '-는지' বসানো ভুল — ক্রিয়ায় '-는지', বিশেষণে '-(으)ㄴ지': '깨끗하는지' নয়, সঠিক '깨끗한지'। আরেকটি ভুল হলো '어떻게' বাদ দেওয়া: '설치하는지 알려 주세요' বললে অর্থ দাঁড়ায় 'বসানো হচ্ছে কিনা জানান', কিন্তু পদ্ধতি জানতে চাইলে '어떻게' লাগবেই।"
     },
     {
-      "pattern": "~지 마세요 (금지)",
-      "titleBn": "~지 마세요 (নিষেধাজ্ঞা)",
-      "explanationBn": "কাউকে কিছু করতে নিষেধ করার সময় '~지 마세요' ব্যবহার করা হয়।",
-      "explanationEn": "Use '~지 마세요' to tell someone not to do something.",
+      "pattern": "V + -(으)ㄹ 점 / 주의할 점",
+      "titleBn": "'주의할 점' — 'যে বিষয়টা খেয়াল রাখতে হবে'",
+      "explanationBn": "'점' মানে বিন্দু বা বিষয়, আর এর আগে '-(으)ㄹ' রূপ বসিয়ে বোঝানো হয় 'যে বিষয়টা এমন করতে হবে'। মূলে বাতচিম থাকলে '-을 점': 좋다 → 좋을 점। বাতচিম না থাকলে বা 'ㄹ' হলে '-ㄹ 점': 주의하다 → 주의할 점, 배우다 → 배울 점। কর্মস্থলে সবচেয়ে বেশি চলে '주의할 점' (সাবধান হওয়ার বিষয়) আর '배울 점' (শেখার বিষয়)। নতুন কাজ শুরুর আগে এই প্রশ্নটি করা খুব স্বাভাবিক: '호스를 연결할 때 주의할 점이 있어요?' — পাইপ জোড়ার সময় খেয়াল রাখার কিছু আছে?",
+      "explanationEn": "점 means 'point' or 'aspect'; adding -(으)ㄹ before it forms 'the point that should be...'. Use -을 점 after a consonant and -ㄹ 점 after a vowel or ㄹ. The most common workplace forms are 주의할 점 ('point to watch out for') and 배울 점 ('something to learn').",
       "examples": [
         {
-          "ko": "위험하니까 거기에 가지 마세요.",
-          "bn": "বিপজ্জনক তাই সেখানে যাবেন না।",
-          "en": "It's dangerous, so please don't go there."
+          "ko": "호스를 연결할 때 주의할 점이 있어요?",
+          "bn": "পাইপ জোড়ার সময় খেয়াল রাখার কিছু আছে?",
+          "en": "Is there anything to watch out for when connecting the hose?"
         },
         {
-          "ko": "구명조끼를 벗지 마세요.",
-          "bn": "লাইফ জ্যাকেট খুলবেন না।",
-          "en": "Please don't take off the life jacket."
+          "ko": "그물을 말릴 때 주의할 점을 알려 주세요.",
+          "bn": "জাল শুকানোর সময় কী খেয়াল রাখতে হবে জানিয়ে দিন।",
+          "en": "Please tell me what to watch out for when drying the net."
         },
         {
-          "ko": "쓰레기를 바다에 버리지 마세요.",
-          "bn": "সাগরে আবর্জনা ফেলবেন না।",
-          "en": "Please don't throw trash into the sea."
+          "ko": "선장님한테 배울 점이 많습니다.",
+          "bn": "ক্যাপ্টেন সাহেবের কাছ থেকে শেখার অনেক কিছু আছে।",
+          "en": "There's a lot to learn from the captain."
         }
       ],
-      "commonMistakeBn": "অনেকে '안' বা '못' এর সাথে এটি গুলিয়ে ফেলেন; আদেশ বা অনুরোধে নিষেধ করতে শুধুমাত্র '~지 마세요' ব্যবহৃত হয়।"
+      "commonMistakeBn": "'-는 점' আর '-(으)ㄹ 점' গুলিয়ে ফেলা সাধারণ ভুল: '-는 점' এখনকার বাস্তব বৈশিষ্ট্য বোঝায় ('좋은 점' — ভালো দিক), কিন্তু '-(으)ㄹ 점' এখনো করা হয়নি এমন করণীয় বোঝায় ('주의할 점' — যা খেয়াল রাখতে হবে)। আরেকটি বিষয় — '점' এর আগে ফাঁকা জায়গা থাকে, কারণ এটি আলাদা শব্দ: '주의할점' নয়, '주의할 점'।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "항구 출항 준비",
-      "titleEn": "Preparing to Depart Port",
+      "titleBn": "জাল তোলার পর ধোয়া ও ছেঁড়া খোঁজা",
+      "titleEn": "Cleaning the Net and Checking for Tears",
       "lines": [
         {
-          "speaker": "선장",
-          "ko": "모두 출항 준비되었나요?",
-          "bn": "সবাই কি যাত্রা করার জন্য প্রস্তুত?",
-          "en": "Is everyone ready to depart?"
+          "speaker": "반장님",
+          "ko": "자, 그물을 끌어올렸으니까 이제 세척을 시작합시다.",
+          "bn": "আচ্ছা, জাল তো তুলে ফেলা হয়েছে, এবার ধোয়া শুরু করি।",
+          "en": "Okay, we've hauled up the net, so let's start cleaning it."
         },
         {
-          "speaker": "승선원",
-          "ko": "네, 그물과 장비를 점검했습니다.",
-          "bn": "হ্যাঁ, জাল ও সরঞ্জাম পরিদর্শন করেছি।",
-          "en": "Yes, I checked the nets and equipment."
+          "speaker": "푸캄",
+          "ko": "반장님, 세척은 고압 분사기로 하면 되지요?",
+          "bn": "রিডার সাহেব, ধোয়ার কাজটা উচ্চচাপের স্প্রেয়ার দিয়ে করলেই হবে তো?",
+          "en": "Sir, we can do the cleaning with the pressure washer, right?"
         },
         {
-          "speaker": "선장",
-          "ko": "연안 기상 상태를 확인하세요.",
-          "bn": "উপকূলীয় আবহাওয়া চেক করুন।",
-          "en": "Check the coastal weather conditions."
+          "speaker": "반장님",
+          "ko": "네, 맞아요. 세척하는 동안 그물이 찢어진 곳이 있는지 잘 살펴보세요. 그리고 찢어진 곳이 있으면 그 부분을 묶어 주세요.",
+          "bn": "হ্যাঁ, ঠিক। ধোয়ার সময় জালে কোথাও ছেঁড়া আছে কিনা ভালো করে দেখুন। ছেঁড়া থাকলে সেই অংশটা বেঁধে দিন।",
+          "en": "Yes, that's right. While cleaning, check carefully for torn spots. If there are any, tie that part up."
         },
         {
-          "speaker": "승선원",
-          "ko": "네, 기상청 정보를 받았습니다.",
-          "bn": "হ্যাঁ, আবহাওয়ার তথ্য পেয়েছি।",
-          "en": "Yes, I received weather information."
+          "speaker": "푸캄",
+          "ko": "네, 알겠습니다. 그런데 묶은 부분은 언제 수선해요?",
+          "bn": "জি, বুঝেছি। কিন্তু বাঁধা অংশটা কখন মেরামত করা হয়?",
+          "en": "Yes, understood. But when do we mend the tied parts?"
         },
         {
-          "speaker": "선장",
-          "ko": "안전 장비를 착용하세요.",
-          "bn": "নিরাপত্তা সরঞ্জাম পরিধান করুন।",
-          "en": "Wear the safety equipment."
+          "speaker": "반장님",
+          "ko": "그물을 말린 후에 수선해야 돼요. 그물을 다 세척한 후에는 넓게 펼쳐서 말려야 돼요. 알고 있지요?",
+          "bn": "জাল শুকানোর পর মেরামত করতে হবে। ধোয়া শেষ হলে চওড়া করে মেলে দিয়ে শুকাতে হবে। জানেন তো?",
+          "en": "You mend it after drying. Once the net is fully cleaned, spread it out wide to dry. You know that, right?"
+        },
+        {
+          "speaker": "푸캄",
+          "ko": "네. 그물이 또 찢어질 수 있으니까 여분도 준비해 두겠습니다.",
+          "bn": "জি। জাল আবার ছিঁড়ে যেতে পারে, তাই বাড়তি একটাও তৈরি রেখে দেব।",
+          "en": "Yes. The net could tear again, so I'll also keep a spare ready."
         }
       ]
     },
     {
-      "titleBn": "양식장 일상 업무",
-      "titleEn": "Daily Tasks at the Aquaculture Farm",
+      "titleBn": "নতুন খামারে পাম্প বসানো — পদ্ধতি ও সতর্কতা",
+      "titleEn": "Installing a Pump at the New Farm",
       "lines": [
         {
-          "speaker": "관리자",
-          "ko": "수온을 측정했나요?",
-          "bn": "পানির তাপমাত্রা মাপলেন?",
-          "en": "Did you measure the water temperature?"
+          "speaker": "사장님",
+          "ko": "오늘 새 양식장에 펌프를 설치하기로 했지요?",
+          "bn": "আজ নতুন খামারে পাম্প বসানোর কথা ঠিক হয়েছিল তো?",
+          "en": "We agreed to install the pump at the new farm today, right?"
         },
         {
-          "speaker": "직원",
-          "ko": "네, 오늘 수온은 18도입니다.",
-          "bn": "হ্যাঁ, আজ পানির তাপমাত্রা ১৮ ডিগ্রি।",
-          "en": "Yes, today's water temperature is 18°C."
+          "speaker": "푸캄",
+          "ko": "네, 사장님. 어떻게 설치하면 되는지 알려 주시면 제가 하겠습니다.",
+          "bn": "জি, স্যার। কীভাবে বসালে হবে জানিয়ে দিলে আমি করে ফেলব।",
+          "en": "Yes, sir. If you show me how to install it, I'll do it."
         },
         {
-          "speaker": "관리자",
-          "ko": "먹이를 주고 기록하세요.",
-          "bn": "খাবার দিন এবং নথিভুক্ত করুন।",
-          "en": "Feed them and record it."
+          "speaker": "사장님",
+          "ko": "먼저 펌프의 위치를 정하고 바닥에 고정해야 돼요. 그다음 펌프와 수조를 호스로 연결해야 돼요.",
+          "bn": "আগে পাম্পের জায়গা ঠিক করে মেঝেতে আটকাতে হবে। তারপর পাম্প আর চৌবাচ্চা পাইপ দিয়ে জুড়তে হবে।",
+          "en": "First decide where the pump goes and fix it to the floor. Then connect the pump and the tank with a hose."
         },
         {
-          "speaker": "직원",
-          "ko": "알겠습니다. 바로 시작하겠습니다.",
-          "bn": "বুঝেছি। সঙ্গে সঙ্গে শুরু করব।",
-          "en": "Understood. I'll start right away."
+          "speaker": "푸캄",
+          "ko": "알겠습니다. 호스를 연결할 때 주의할 점이 있어요?",
+          "bn": "বুঝেছি। পাইপ জোড়ার সময় খেয়াল রাখার কিছু আছে?",
+          "en": "Understood. Is there anything to watch out for when connecting the hose?"
         },
         {
-          "speaker": "관리자",
-          "ko": "문제가 있으면 보고하세요.",
-          "bn": "কোন সমস্যা হলে রিপোর্ট করুন।",
-          "en": "Report if there is any problem."
+          "speaker": "사장님",
+          "ko": "네, 호스가 꼬이거나 접히지 않도록 특별히 주의해야 돼요. 물이 잘 흐르게 해야 하니까요.",
+          "bn": "হ্যাঁ, পাইপ যাতে পেঁচিয়ে বা ভাঁজ হয়ে না যায়, বিশেষভাবে খেয়াল রাখতে হবে। পানি যাতে ভালোভাবে বয়, সেটাই দেখতে হবে।",
+          "en": "Yes, be especially careful that the hose doesn't get tangled or bent. The water has to flow well."
+        },
+        {
+          "speaker": "사장님",
+          "ko": "설치 작업이 끝나면 나한테 알려 주세요. 펌프가 잘 작동하는지 같이 확인하기로 해요.",
+          "bn": "বসানোর কাজ শেষ হলে আমাকে জানাবেন। পাম্পটা ঠিকমতো চলছে কিনা চলুন একসঙ্গে দেখে নিই।",
+          "en": "Let me know when the installation is done. Let's check together whether the pump works properly."
         }
       ]
     },
     {
-      "titleBn": "그물 작업 지시",
-      "titleEn": "Net Work Instructions",
+      "titleBn": "চৌবাচ্চার পানি ও অক্সিজেন পরীক্ষা",
+      "titleEn": "Checking the Tank Water and Oxygen",
       "lines": [
         {
-          "speaker": "선장",
-          "ko": "이제 그물을 던질 준비를 하세요.",
-          "bn": "এখন জাল ফেলার প্রস্তুতি নিন।",
-          "en": "Get ready to cast the net now."
+          "speaker": "사장님",
+          "ko": "다린두 씨, 뭐 하고 있어요?",
+          "bn": "দারিন্দু, কী করছেন?",
+          "en": "Darindu, what are you doing?"
         },
         {
-          "speaker": "승선원",
-          "ko": "네, 밧줄과 그물을 모두 확인했습니다.",
-          "bn": "হ্যাঁ, দড়ি এবং জাল সব চেক করেছি।",
-          "en": "Yes, I have checked all the ropes and nets."
+          "speaker": "다린두",
+          "ko": "수온이 높은 것 같아서 온도계를 보고 있었어요. 물고기들이 힘이 없어 보여서요.",
+          "bn": "পানির তাপমাত্রা বেশি বলে মনে হওয়ায় থার্মোমিটারটা দেখছিলাম। মাছগুলো দুর্বল দেখাচ্ছিল বলে।",
+          "en": "The water seemed warm so I was checking the thermometer. The fish looked weak."
         },
         {
-          "speaker": "선장",
-          "ko": "파도가 높으니까 조심하세요.",
-          "bn": "ঢেউ উঁচু তাই সাবধানে থাকবেন।",
-          "en": "The waves are high, so be careful."
+          "speaker": "사장님",
+          "ko": "잘했어요. 수온이 높으면 산소 농도가 낮아져요. 산소 공급기도 같이 확인해 보세요.",
+          "bn": "ভালো করেছেন। পানির তাপমাত্রা বেশি হলে অক্সিজেনের মাত্রা কমে যায়। অক্সিজেনের যন্ত্রটাও একসঙ্গে দেখে নিন।",
+          "en": "Well done. When the water is warm, the oxygen level drops. Check the oxygen supplier too."
         },
         {
-          "speaker": "승선원",
-          "ko": "알겠습니다. 구명조끼도 잘 입었습니다.",
-          "bn": "বুঝেছি। লাইফ জ্যাকেটও ভালোভাবে পরেছি।",
-          "en": "Understood. I also wore my life jacket properly."
+          "speaker": "다린두",
+          "ko": "네. 그런데 수조의 물도 좀 더러운 것 같아요.",
+          "bn": "জি। কিন্তু চৌবাচ্চার পানিটাও একটু নোংরা বলে মনে হচ্ছে।",
+          "en": "Yes. But the tank water also looks a bit dirty."
         },
         {
-          "speaker": "선장",
-          "ko": "좋아요. 그럼 그물을 던지세요!",
-          "bn": "ঠিক আছে। তাহলে জাল ফেলুন!",
-          "en": "Good. Then cast the net!"
+          "speaker": "사장님",
+          "ko": "그러면 수질을 측정해 주세요. 제가 차광막을 치는 동안에 측정하고 결과를 알려 주세요.",
+          "bn": "তাহলে পানির গুণটা মেপে দেখুন। আমি রোদ আটকানোর পর্দা টানার ফাঁকে আপনি মেপে ফলাফলটা জানান।",
+          "en": "Then please measure the water quality. Measure it while I put up the shade cloth and tell me the result."
+        },
+        {
+          "speaker": "다린두",
+          "ko": "알겠습니다. 측정한 후에 바로 보고하기로 하겠습니다.",
+          "bn": "বুঝেছি। মাপার পর সঙ্গে সঙ্গে জানিয়ে দেব।",
+          "en": "Understood. I'll report it right after measuring."
         }
       ]
     }
@@ -674,586 +743,569 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "‘양식장’ এর সঠিক অর্থ কোনটি?",
-      "questionKo": "‘양식장’의 의미는 무엇인가요?",
+      "questionBn": "নিচের বর্ণনাটি কোন সরঞ্জামের? — '물속에 넣어 물고기를 잡을 때 사용하는 도구입니다.'",
+      "questionKo": "다음은 무엇에 대한 설명입니까? '물속에 넣어 물고기를 잡을 때 사용하는 도구입니다.'",
       "options": [
-        "মাছ ধরার নৌকা (fishing boat)",
-        "জলজ চাষ ফার্ম (aquaculture farm)",
-        "উপকূলীয় সাগর (coastal waters)",
-        "জাহাজ পরিদর্শন (vessel inspection)"
+        "부표",
+        "양망기",
+        "온도계",
+        "통발"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "양식장은 জলজ চাষ বা মাছের ফার্ম বোঝায়, তাই দ্বিতীয়টি সঠিক।"
+      "answer": 3,
+      "explanationBn": "পানিতে ডুবিয়ে মাছ ধরার সরঞ্জাম হলো '통발' (ফাঁদ)। '부표' জালের অবস্থান জানায়, '양망기' জাল তোলে, আর '온도계' তাপমাত্রা মাপে।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "‘선장’ কে নির্দেশ করে?",
-      "questionKo": "‘선장’은 누구를 의미하나요?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 젖은 그물은 햇빛에 ___ 후에 보관해야 합니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
-        "নৌকা/জাহাজের প্রধান (captain)",
-        "জাল (net)",
-        "পানির তাপমাত্রা (water temperature)",
-        "ক্রু সদস্য (crew member)"
+        "데운",
+        "말린",
+        "태운",
+        "녹인"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "선장은 জাহাজ বা নৌকার প্রধান, তাই দ্বিতীয়টি সঠিক।"
+      "answer": 1,
+      "explanationBn": "ভেজা জাল রোদে '말리다' (শুকানো) হয়। '데우다' গরম করা, '태우다' পুড়িয়ে ফেলা, '녹이다' গলানো — তিনটিই জালের ক্ষতি করত।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "‘~에서’ কিভাবে ব্যবহার হয়?",
-      "questionKo": "‘~에서’는 어떻게 사용되나요?",
+      "type": "fill-blank",
+      "questionBn": "'-는 동안에' বসান: 통발을 ___ 푸캄 씨는 그물을 가져오세요. (설치하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "সময় নির্দেশ করতে (to indicate time)",
-        "ইচ্ছা প্রকাশ করতে (to express desire)",
-        "ভদ্র অনুরোধ করতে (for polite request)",
-        "স্থান নির্দেশ করতে (to indicate place)"
+        "설치했는 동안에",
+        "설치할 동안에",
+        "설치하는 동안에",
+        "설치한 동안에"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "문장에서 장소를 나타낼 때 '~에서' 사용 হয়, তাই দ্বিতীয়টি সঠিক।"
+      "answer": 2,
+      "explanationBn": "'-는 동안에' ক্রিয়ামূলের সঙ্গে সবসময় '-는' নিয়ে বসে, আর এর আগে কালের রূপ বসে না — তাই '설치하는 동안에'।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "‘수온’ শব্দের অর্থ কী?",
-      "questionKo": "‘수온’의 의미는 무엇인가요?",
+      "type": "fill-blank",
+      "questionBn": "'-지 않도록' বসান: 호스가 ___ 특별히 주의해야 돼요. (꼬이다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "তড়িৎ শক্তি (electric power)",
-        "বৃষ্টি (rain)",
-        "পানির তাপমাত্রা (water temperature)",
-        "জাল (net)"
+        "꼬이지 않도록",
+        "꼬였지 않도록",
+        "꼬이도록",
+        "꼬이면"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "수온은 পানির তাপমাত্রা বোঝায়, তাই চতুর্থটি সঠিক।"
+      "answer": 0,
+      "explanationBn": "পেঁচিয়ে যাওয়া ঠেকাতে সতর্কতা — তাই নেতিবাচক '-지 않도록' বসে, আর এর আগে কালের রূপ বসে না। শুধু '꼬이도록' বললে অর্থ উল্টে যেত।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "কোনটি '그물' এর বাংলা মানে?",
-      "questionKo": "‘그물’의 한국어 뜻은 무엇인가요?",
-      "options": [
-        "নৌকা (boat)",
-        "জাল (net)",
-        "পরিদর্শন (inspection)",
-        "ফিডার (feeder)"
+      "type": "matching",
+      "questionBn": "মাছ ধরার সরঞ্জামের সঙ্গে তার কাজ মেলান।",
+      "questionKo": "어업 도구와 용도를 연결하세요.",
+      "pairs": [
+        {
+          "left": "통발",
+          "right": "পানিতে ডুবিয়ে মাছ ধরা"
+        },
+        {
+          "left": "부표",
+          "right": "জালের অবস্থান জানানো"
+        },
+        {
+          "left": "양망기",
+          "right": "জাল টেনে তোলা"
+        },
+        {
+          "left": "뜰채",
+          "right": "হাতে ধরে মাছ তোলা"
+        },
+        {
+          "left": "고압 분사기",
+          "right": "জোরে পানি ছুড়ে ধোয়া"
+        }
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "그물 মানে জাল, তাই প্রথমটি সঠিক।"
+      "explanationBn": "নামেই কাজ লুকিয়ে আছে — '양망기'-এর '망' মানে জাল, '고압 분사기'-এর '고압' মানে উঁচু চাপ। এই সূত্রটা মনে রাখলে নতুন যন্ত্রের নামও আন্দাজ করা যায়।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "বাক্যটি পূরণ করুন: '___에서 조업을 시작합니다.' (উপকূলীয় সাগর)",
-      "questionKo": "문장을 완성하세요: '___에서 조업을 시작합니다.' (coastal waters)",
+      "type": "multiple-choice",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের? — '양식장에서 물고기를 크기와 건강 상태에 따라 분류하는 작업입니다.'",
+      "questionKo": "다음은 무엇에 대한 설명입니까? '양식장에서 물고기를 크기와 건강 상태에 따라 분류하는 작업입니다.'",
       "options": [
-        "연근해",
-        "양식장",
-        "선장",
-        "선박"
+        "제거 작업",
+        "출하 작업",
+        "선별 작업",
+        "교체 작업"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "연근해는 উপকূলীয় সাগর, তাই '연근해에서 조업을 시작합니다.' সঠিক।"
+      "answer": 2,
+      "explanationBn": "আকার ও স্বাস্থ্য অনুযায়ী মাছ ভাগ করার কাজটাই '선별 작업'। '제거' সরিয়ে ফেলা, '출하' চালান দেওয়া, '교체' বদলানো।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "বাক্যটি পূরণ করুন: '수온을 ___하세요.' (পরিমাপ/রেকর্ড)",
-      "questionKo": "문장을 완성하세요: '수온을 ___하세요.' (record/measure)",
+      "questionBn": "'-기로 하다' বসান: 물고기 사료가 얼마 남지 않아서 오늘 ___. (주문하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "승선",
-        "출항",
-        "정지",
-        "측정"
+        "주문했기로 했어요",
+        "주문하려고 했어요",
+        "주문하면 했어요",
+        "주문하기로 했어요"
       ],
-      "pairs": [],
       "answer": 3,
-      "explanationBn": "수온을 측정하세요 (Measure the water temperature) তাই দ্বিতীয়টি সঠিক।"
+      "explanationBn": "সিদ্ধান্ত বোঝাতে '-기로 하다' বসে, আর এর আগে কালের রূপ বসে না — অতীত বোঝাতে শেষের '하다' বদলায়: 주문하기로 했어요।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "বাক্যটি পূরণ করুন: '그물을 ___ 주세요.' (সাজানো/সংশোধন করা)",
-      "questionKo": "문장을 완성하세요: '그물을 ___ 주세요.' (organize/repair)",
+      "type": "multiple-choice",
+      "questionBn": "জাল ধোয়ার পর সঠিক ক্রম কোনটি?",
+      "questionKo": "그물 세척 후의 순서로 알맞은 것을 고르세요.",
       "options": [
-        "운전",
-        "조업",
-        "정리",
-        "수리"
+        "수선하기 → 말리기 → 펼치기",
+        "말리기 → 펼치기 → 수선하기",
+        "펼쳐서 말리기 → 수선하기",
+        "수선하기 → 펼쳐서 말리기"
       ],
-      "pairs": [],
       "answer": 2,
-      "explanationBn": "문맥상 '그물을 정리해 주세요.' (জাল ঠিক করে দিন) সঠিক।"
+      "explanationBn": "মূল পাঠে বলা আছে '그물을 말린 후에 수선해야 돼요' আর '넓게 펼쳐서 말려야 돼요' — অর্থাৎ আগে মেলে দিয়ে শুকানো, তারপর মেরামত। ভেজা জাল সেলাই করা যায় না।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "নীচের কোরিয়ান শব্দগুলোর বাংলা অর্থ মিল করুন।",
-      "questionKo": "다음 한국어 단어와 의미를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "선장",
-          "right": "নৌকা/জাহাজের প্রধান"
-        },
-        {
-          "left": "그물",
-          "right": "জাল"
-        },
-        {
-          "left": "양식장",
-          "right": "জলজ চাষ ফার্ম"
-        },
-        {
-          "left": "수온",
-          "right": "পানির তাপমাত্রা"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-는지 알려 주다' বসান: 어떻게 ___ 알려 주시면 제가 하겠습니다. (설치하면 되다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "설치하면 되는지",
+        "설치하면 된지",
+        "설치했는지",
+        "설치할지"
       ],
       "answer": 0,
-      "explanationBn": "প্রতিটি শব্দের বাংলা মানে সরাসরি তালিকায় দেওয়া হয়েছে; মিল করুন।"
+      "explanationBn": "কীভাবে করলে হবে জানতে চাইলে '-(으)면 되는지' বসে: 설치하면 되는지। '설치했는지' মানে বসানো হয়েছে কিনা — পদ্ধতির কথা নয়।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "কোরিয়ান ও ইংরেজি শব্দ মিল করুন।",
-      "questionKo": "한국어 단어와 영어 뜻을 연결하세요.",
-      "options": [],
+      "questionBn": "মাছের খামারের যন্ত্রপাতির সঙ্গে তার কাজ মেলান।",
+      "questionKo": "양식장 장비와 용도를 연결하세요.",
       "pairs": [
         {
-          "left": "어선",
-          "right": "fishing boat"
+          "left": "산소 공급기",
+          "right": "পানিতে অক্সিজেন দেওয়া"
         },
         {
-          "left": "해류",
-          "right": "ocean current"
+          "left": "온도계",
+          "right": "পানির তাপমাত্রা মাপা"
         },
         {
-          "left": "양식어류",
-          "right": "cultured fish"
+          "left": "펌프",
+          "right": "পানি টেনে সরবরাহ করা"
         },
         {
-          "left": "연근해",
-          "right": "coastal waters"
+          "left": "차광막",
+          "right": "রোদ আটকে তাপ কমানো"
         },
         {
-          "left": "선박",
-          "right": "vessel"
+          "left": "수조",
+          "right": "মাছ রাখার চৌবাচ্চা"
         }
       ],
-      "answer": 0,
-      "explanationBn": "প্রদত্ত কোরিয়ান শব্দগুলোর ইংরেজি মানে তালিকায় আছে; মিল করুন।"
+      "explanationBn": "এই যন্ত্রগুলো একসঙ্গে কাজ করে — রোদ বেশি হলে পানির তাপ বাড়ে, তাপ বাড়লে অক্সিজেন কমে। তাই '차광막' আর '산소 공급기' দুটোই একই সমস্যার দুই দিক সামলায়।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "‘구명조끼’ এর সঠিক অর্থ কোনটি?",
-      "questionKo": "‘구명조끼’의 의미는 무엇인가요?",
+      "questionBn": "খালি জায়গায় সঠিক শব্দটি বসান: 배에 오르기 전에 ___을/를 입으세요.",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "লাইফ জ্যাকেট (life jacket)",
-        "দড়ি (rope)",
-        "বয়া (buoy)",
-        "টোপ (bait)"
+        "구명조끼",
+        "차광막",
+        "뜰채",
+        "부표"
       ],
       "answer": 0,
-      "explanationBn": "구명조끼 মানে লাইফ জ্যাকেট, তাই প্রথমটি সঠিক।"
+      "explanationBn": "নৌকায় ওঠার আগে পরতে হয় '구명조끼' (লাইফ জ্যাকেট)। '차광막' রোদ আটকায়, '뜰채' মাছ তোলে, '부표' ভেসে থাকে — কোনোটিই পরার জিনিস নয়।"
     },
     {
       "id": "p12",
       "type": "multiple-choice",
-      "questionBn": "‘출항하다’ এর বিপরীত শব্দ কোনটি হতে পারে?",
-      "questionKo": "‘출항하다’의 반대말은 무엇일까요?",
+      "questionBn": "'주의할 점' বসান: 호스를 연결할 때 ___이 있어요?",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "조업하다 (to fish)",
-        "입항하다 (to enter port)",
-        "분류하다 (to sort)",
-        "던지다 (to cast)"
+        "주의하는 점",
+        "주의한 점",
+        "주의할 점",
+        "주의했던 점"
       ],
-      "answer": 1,
-      "explanationBn": "출항하다 মানে বন্দর ত্যাগ করা, এর বিপরীত 입항하다 (বন্দরে প্রবেশ করা)।"
+      "answer": 2,
+      "explanationBn": "এখনো করা হয়নি এমন করণীয় বোঝাতে '-(으)ㄹ 점' বসে: 주의할 점। '주의하는 점' এখনকার বাস্তব বৈশিষ্ট্য বোঝাত, করণীয় নয়।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "‘~지 마세요’ কখন ব্যবহার করা হয়?",
-      "questionKo": "‘~지 마세요’는 언제 사용하나요?",
+      "questionBn": "'수온이 높으면 산소 농도가 낮아져요.' — এখান থেকে কী বোঝা যায়?",
+      "questionKo": "다음 문장에서 알 수 있는 것을 고르세요.",
       "options": [
-        "অনুরোধ করতে (to request)",
-        "ইচ্ছা প্রকাশ করতে (to express desire)",
-        "নিষেধ করতে (to prohibit)",
-        "স্থান বোঝাতে (to indicate place)"
+        "পানি গরম হলে অক্সিজেন বাড়ে",
+        "পানি গরম হলে অক্সিজেন কমে",
+        "অক্সিজেন কমলে পানি ঠান্ডা হয়",
+        "তাপমাত্রার সঙ্গে অক্সিজেনের সম্পর্ক নেই"
       ],
-      "answer": 2,
-      "explanationBn": "কাউকে কিছু করতে নিষেধ করার সময় '~지 마세요' ব্যবহার করা হয়।"
+      "answer": 1,
+      "explanationBn": "'수온이 높으면' (তাপ বেশি হলে) → '산소 농도가 낮아져요' (অক্সিজেন কমে)। এই কারণেই গরমের দিনে '차광막' টেনে পানির তাপ কমানো হয়।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "‘어획량’ শব্দের অর্থ কী?",
-      "questionKo": "‘어획량’의 의미는 무엇인가요?",
+      "type": "fill-blank",
+      "questionBn": "'-는 동안에' বসান: 세척___ 그물이 찢어진 곳이 있는지 살펴보세요. (하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "মাছ ধরার নৌকা (fishing boat)",
-        "মাছ ধরার পরিমাণ (catch amount)",
-        "কোল্ড স্টোরেজ (cold storage)",
-        "ঢেউ (wave)"
+        "한 동안에",
+        "하는 동안에",
+        "할 동안에",
+        "했는 동안에"
       ],
       "answer": 1,
-      "explanationBn": "어획량 মানে মাছ ধরার পরিমাণ, তাই দ্বিতীয়টি সঠিক।"
+      "explanationBn": "ধোয়ার কাজ যতক্ষণ চলছে, সেই সময়ের কথা বোঝাতে '-는 동안에' বসে: 세척하는 동안에। অন্য কোনো রূপ এখানে বসে না।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "বাক্যটি পূরণ করুন: '바다에 그물을 ___.' (ফেলি)",
-      "questionKo": "문장을 완성하세요: '바다에 그물을 ___.' (cast)",
-      "options": [
-        "던집니다",
-        "걷습니다",
-        "입습니다",
-        "먹습니다"
+      "type": "matching",
+      "questionBn": "জালের কাজের ধাপগুলোর সঙ্গে বাংলা অর্থ মেলান।",
+      "questionKo": "그물 작업 과정과 뜻을 연결하세요.",
+      "pairs": [
+        {
+          "left": "끌어올리다",
+          "right": "পানি থেকে টেনে তোলা"
+        },
+        {
+          "left": "세척하다",
+          "right": "ধুয়ে পরিষ্কার করা"
+        },
+        {
+          "left": "펼치다",
+          "right": "চওড়া করে মেলে দেওয়া"
+        },
+        {
+          "left": "말리다",
+          "right": "শুকিয়ে নেওয়া"
+        },
+        {
+          "left": "수선하다",
+          "right": "ছেঁড়া জায়গা মেরামত করা"
+        }
       ],
-      "answer": 0,
-      "explanationBn": "그물을 던지다 মানে জাল ফেলা, তাই '던집니다' সঠিক।"
+      "explanationBn": "জালের কাজ ঠিক এই ক্রমেই হয় — তোলা, ধোয়া, মেলে শুকানো, তারপর মেরামত। ভেজা অবস্থায় সেলাই করা যায় না বলেই শুকানোর ধাপটা আগে।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "বাক্যটি পূরণ করুন: '위험하니까 거기에 ___ 마세요.' (যাবেন না)",
-      "questionKo": "문장을 완성하세요: '위험하니까 거기에 ___ 마세요.' (don't go)",
+      "type": "multiple-choice",
+      "questionBn": "খালি জায়গায় সঠিক অংশটি বসান: 지금 사용하는 펌프의 소음이 심합니다. 그래서 새로운 펌프를 ___.",
+      "questionKo": "빈칸에 들어갈 알맞은 표현을 고르십시오.",
       "options": [
-        "오지",
-        "먹지",
-        "가지",
-        "보지"
+        "청소하려고 합니다",
+        "측정하려고 합니다",
+        "선별하려고 합니다",
+        "설치하려고 합니다"
       ],
-      "answer": 2,
-      "explanationBn": "가지 마세요 মানে যাবেন না, তাই '가지' সঠিক।"
+      "answer": 3,
+      "explanationBn": "পুরনো পাম্পে শব্দ বেশি হচ্ছে, তাই নতুনটা '설치하다' (বসানো) হবে। '청소하다' পরিষ্কার করা, '측정하다' মাপা, '선별하다' ভাগ করা — কোনোটিই সমস্যার সমাধান নয়।"
     },
     {
       "id": "p17",
       "type": "fill-blank",
-      "questionBn": "বাক্যটি পূরণ করুন: '물고기를 크기별로 ___하세요.' (বাছাই করুন)",
-      "questionKo": "문장을 완성하세요: '물고기를 크기별로 ___하세요.' (sort)",
+      "questionBn": "'-기로 해요' বসান: 펌프가 잘 작동하는지 같이 ___. (확인하다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
       "options": [
-        "분류",
-        "출항",
-        "입항",
-        "조업"
+        "확인하기로 해요",
+        "확인했기로 해요",
+        "확인하기로 했어요",
+        "확인할까 해요"
       ],
       "answer": 0,
-      "explanationBn": "분류하다 মানে বাছাই করা, তাই '분류' সঠিক।"
+      "explanationBn": "'চলুন একসঙ্গে দেখে নিই' — এই পারস্পরিক প্রস্তাব বোঝাতে বর্তমান রূপ '-기로 해요' বসে। '-기로 했어요' (অতীত) মানে সিদ্ধান্ত আগেই হয়ে গেছে।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "বাক্যটি পূরণ করুন: '내일 몇 시에 ___?' (বন্দর ত্যাগ করব?)",
-      "questionKo": "문장을 완성하세요: '내일 몇 시에 ___?' (shall we depart?)",
+      "type": "multiple-choice",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন: '한국의 양식업은 생산량을 기준으로 이미 어업의 생산량을 넘어섰으며, 다양한 기술을 도입하여 양식의 효율성을 높이고 있습니다.'",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
       "options": [
-        "출항할까요",
-        "입항할까요",
-        "던질까요",
-        "걷을까요"
+        "한국에서는 조개를 양식하지 않습니다.",
+        "한국은 양식업보다 어업의 생산량이 많습니다.",
+        "한국에서 양식되는 수산물은 해조류에 한정됩니다.",
+        "한국은 효율적인 양식을 위해 다양한 기술을 도입하고 있습니다."
       ],
-      "answer": 0,
-      "explanationBn": "출항하다 মানে বন্দর ত্যাগ করা, প্রস্তাব বা মতামত জানতে '출항할까요?' সঠিক।"
+      "answer": 3,
+      "explanationBn": "লেখায় বলা আছে '다양한 기술을 도입하여 양식의 효율성을 높이고 있습니다'। জলজ চাষ ইতিমধ্যেই মাছ ধরাকে ছাড়িয়ে গেছে, আর ঝিনুক-চিংড়িসহ নানা কিছুই চাষ হয়।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "নীচের কোরিয়ান শব্দগুলোর বাংলা অর্থ মিল করুন।",
-      "questionKo": "다음 한국어 단어와 의미를 연결하세요.",
-      "pairs": [
-        {
-          "left": "미끼",
-          "right": "টোপ"
-        },
-        {
-          "left": "닻",
-          "right": "নোঙর"
-        },
-        {
-          "left": "부표",
-          "right": "বয়া"
-        },
-        {
-          "left": "밧줄",
-          "right": "দড়ি"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'여분을 준비해 두세요.' — এর মানে কী?",
+      "questionKo": "다음 문장의 뜻으로 알맞은 것을 고르세요.",
+      "options": [
+        "বাড়তি একটা তৈরি রেখে দিন",
+        "পুরোনোটা ফেলে দিন",
+        "একটাই যথেষ্ট",
+        "পরে কিনে আনবেন"
       ],
       "answer": 0,
-      "explanationBn": "প্রতিটি শব্দের বাংলা মানে সরাসরি তালিকায় দেওয়া হয়েছে; মিল করুন।"
+      "explanationBn": "'여분' মানে বাড়তি, আর '-아/어 두다' মানে পরে কাজে লাগবে বলে রেখে দেওয়া। জাল ছিঁড়ে গেলে কাজ থেমে যায়, তাই আগেই বাড়তি রাখা হয়।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "কোরিয়ান ও ইংরেজি শব্দ মিল করুন।",
-      "questionKo": "한국어 단어와 영어 뜻을 연결하세요.",
-      "pairs": [
-        {
-          "left": "파도",
-          "right": "wave"
-        },
-        {
-          "left": "냉동 창고",
-          "right": "cold storage"
-        },
-        {
-          "left": "멀미약",
-          "right": "seasickness pill"
-        },
-        {
-          "left": "구명조끼",
-          "right": "life jacket"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-지 않게' বসান: 끌어올릴 때 로프에 발이 ___ 조심하세요. (걸리다)",
+      "questionKo": "빈칸에 들어갈 알맞은 것을 고르세요.",
+      "options": [
+        "걸리게",
+        "걸리지 않게",
+        "걸렸지 않게",
+        "걸리면"
       ],
-      "answer": 0,
-      "explanationBn": "প্রদত্ত কোরিয়ান শব্দগুলোর ইংরেজি মানে তালিকায় আছে; মিল করুন।"
+      "answer": 1,
+      "explanationBn": "পা যাতে না আটকায় — এই সতর্কতা বোঝাতে নেতিবাচক '-지 않게' বসে। শুধু '걸리게' বললে অর্থ উল্টে গিয়ে 'যাতে আটকায়' হয়ে যেত, যা বিপজ্জনক নির্দেশ।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পঠিত অংশ পড়ে সঠিক উত্তর দিন: '연근해에서 조업을 시작합니다.' এই বাক্যে কী বোঝানো হচ্ছে?",
-      "questionKo": "본문을 읽고 질문에 답하세요: '연근해에서 조업을 시작합니다.' 이 문장은 무엇을 의미하나요?",
-      "passage": "연근해에서 조업을 시작합니다.",
+      "questionBn": "নিচের বর্ণনাটি কোন সরঞ্জামের?",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "passage": "물속에 넣어 물고기를 잡을 때 사용하는 도구입니다.",
       "options": [
-        "উপকূলীয় এলাকায় মাছ ধরতে শুরু করা (start fishing in coastal waters)",
-        "খাবার দেওয়া (feeding)",
-        "জাহাজ পরীক্ষা করা (vessel inspection)",
-        "বন্দর ত্যাগ করছে (departing port)"
+        "부표",
+        "통발",
+        "양망기",
+        "온도계"
       ],
-      "answer": 0,
-      "explanationBn": "문장은 '연근해에서 조업을 시작합니다' — উপকূলীয় সাগরে মাছ ধরার কাজ শুরু করা বোঝায়।"
+      "answer": 1,
+      "explanationBn": "পানিতে ডুবিয়ে মাছ ধরার সরঞ্জাম হলো '통발'। '부표' জালের অবস্থান জানায়, '양망기' জাল তোলে, '온도계' তাপমাত্রা মাপে।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "পঠিত অংশ অনুযায়ী: '수온을 측정했나요?' এর সঠিক প্রতিক্রিয়া কোনটি?",
-      "questionKo": "본문에 따라: '수온을 측정했나요?'에 대한 적절한 대답은?",
-      "passage": "관리자: 수온을 측정했나요? 직원: 네, 오늘 수온은 18도입니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত শব্দটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "젖은 그물은 햇빛에 (        ) 후에 보관해야 합니다.",
       "options": [
-        "아니요, 아직 안 했어요. (No, not yet.)",
-        "네, 오늘 수온은 18도입니다. (Yes, it's 18°C today.)",
-        "출항 준비가 되었습니다. (Ready to depart.)",
-        "그물을 정리하세요. (Organize the net.)"
+        "말린",
+        "데운",
+        "태운",
+        "녹인"
       ],
-      "answer": 1,
-      "explanationBn": "대화에 직원이 '오늘 수온은 18도입니다'라고 답했으므로 দ্বিতীয়টি সঠিক।"
+      "answer": 0,
+      "explanationBn": "ভেজা জাল রোদে '말리다' (শুকানো) হয়। '데우다' গরম করা, '태우다' পোড়ানো, '녹이다' গলানো — তিনটিই জালের ক্ষতি করত।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "বলো, '그물을 정리하세요.' নির্দেশটির বাংলা অর্থ কী?",
-      "questionKo": "'그물을 정리하세요.'의 의미는 무엇인가요?",
-      "passage": "선장: 안전 장비를 착용하세요. 승선원: 네, 그물과 장비를 점검했습니다.",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের?",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "passage": "양식장에서 물고기를 크기와 건강 상태에 따라 분류하는 작업입니다.",
       "options": [
-        "চেক করা (check)",
-        "ভর্তি করা (hire)",
-        "জাল ঠিক করে দিন (Organize the net)",
-        "পাল তোলা (raise the sail)"
+        "제거 작업",
+        "출하 작업",
+        "교체 작업",
+        "선별 작업"
       ],
-      "answer": 2,
-      "explanationBn": "'정리하세요' মানে 'ঠিক করুন/সাজান', তাই প্রথমটি সঠিক।"
+      "answer": 3,
+      "explanationBn": "আকার ও স্বাস্থ্য অনুযায়ী মাছ ভাগ করার কাজটাই '선별 작업'। '제거' সরিয়ে ফেলা, '출하' চালান দেওয়া, '교체' বদলানো।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "문장 থেকে নির্ণয় করুন: '어업허가' কেন গুরুত্বপূর্ণ?",
-      "questionKo": "'어업허가'가 왜 중요한가요?",
-      "passage": "어업허가 서류를 확인합니다.",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত অংশটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 알맞은 표현을 고르십시오.",
+      "passage": "지금 사용하는 펌프의 소음이 심합니다. 그래서 새로운 펌프를 (        ).",
       "options": [
-        "জাহাজ সারাই করার জন্য (to repair a ship)",
-        "বৃষ্টি সম্পর্কে জানার জন্য (to know about rain)",
-        "খাবার দেওয়ার জন্য (to feed)",
-        "নিয়ম মেনে কাজ করার জন্য (to work legally/with permission)"
+        "설치하려고 합니다",
+        "청소하려고 합니다",
+        "측정하려고 합니다",
+        "선별하려고 합니다"
       ],
-      "answer": 3,
-      "explanationBn": "어업허가는 অনুমতি বা আইনগত কারণে প্রয়োজন, তাই প্রথমটি সঠিক।"
+      "answer": 0,
+      "explanationBn": "পুরনো পাম্পে শব্দ বেশি, তাই নতুনটা '설치하다' (বসানো) হবে। পরিষ্কার করা, মাপা বা ভাগ করা — কোনোটিই শব্দের সমাধান নয়।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "বর্ণিত অংশ থেকে: '승선원은 안전 교육을 받습니다.' — 승선원의 দায়িত্ব কি?",
-      "questionKo": "'승선원은 안전 교육을 받습니다.'에서 승선원의 책임은 무엇인가요?",
-      "passage": "승선원은 안전 교육을 받습니다.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "그물을 세척한 후에는 넓게 펼쳐서 말려야 합니다. 그물을 말린 후에 찢어진 부분을 수선합니다.",
       "options": [
-        "নিরাপত্তা প্রশিক্ষণ নেয়া (receive safety training)",
-        "জাহাজ চালানো (drive the ship)",
-        "মাছ বাজারে বিক্রি (sell fish in market)",
-        "জাল বিক্রি করা (sell nets)"
+        "젖은 그물을 바로 수선합니다.",
+        "그물은 접어서 말립니다.",
+        "그물은 세척하지 않습니다.",
+        "그물을 말린 후에 수선합니다."
       ],
-      "answer": 0,
-      "explanationBn": "문장 자체에서 승선원은 নিরাপত্তা 교육을 받는다고 했으므로 প্রথমটি সঠিক।"
+      "answer": 3,
+      "explanationBn": "লেখায় স্পষ্ট বলা আছে '그물을 말린 후에 ... 수선합니다'। শুকাতে হয় '넓게 펼쳐서' — ভাঁজ করে নয়, আর ধোয়ার ধাপটাও বাদ যায় না।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শোনা এবং নির্বাচন করুন: '수온을 기록하세요.' এই নির্দেশটি কী বলছে?",
-      "questionKo": "듣고 고르세요: '수온을 기록하세요.' 이 지시는 무엇을 말하나요?",
-      "passage": "남자: 수온을 측정했나요?\n여자: 네.\n남자: 수온을 기록하세요.",
+      "section": "reading",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "통발을 (        ) 푸캄 씨는 그물을 가져오세요.",
       "options": [
-        "পানির তাপমাত্রা মাপুন না (do not measure temperature)",
-        "পানির তাপমাত্রা নোট করুন (record the water temperature)",
-        "জাল ফেলার সময় (time to throw the net)",
-        "জাহাজ ছেড়ে দিন (leave the ship)"
+        "설치한 동안에",
+        "설치하는 동안에",
+        "설치할 동안에",
+        "설치했는 동안에"
       ],
       "answer": 1,
-      "explanationBn": "'기록하세요' মানে নথিভুক্ত করার নির্দেশ, তাই দ্বিতীয়টি সঠিক।"
+      "explanationBn": "'-는 동안에' ক্রিয়ামূলের সঙ্গে সবসময় '-는' নিয়ে বসে, আর এর আগে কালের রূপ বসে না — তাই '설치하는 동안에'।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শোনা অংশ অনুযায়ী: '안전 장비를 착용하세요.' — এটা কী নির্দেশ?",
-      "questionKo": "듣고 고르세요: '안전 장비를 착용하세요.'는 어떤 지시인가요?",
-      "passage": "모두 출항 준비되었나요? 안전 장비를 착용하세요.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "수온이 높아지면 수조의 산소 농도가 낮아집니다. 산소 농도가 낮으면 물고기가 힘이 없어집니다. 그래서 여름에는 차광막을 치고 산소 공급기를 추가로 설치합니다.",
       "options": [
-        "জাল ফেলে দিন (throw the net)",
-        "খাবার শুরু করুন (start feeding)",
-        "নিরাপত্তা সরঞ্জাম পরিধান করুন (wear safety equipment)",
-        "জাহাজ পরীক্ষা বন্ধ (stop inspecting vessel)"
+        "수온이 높아지면 산소 농도도 높아집니다.",
+        "산소 농도는 물고기와 관계가 없습니다.",
+        "수온이 높아지면 산소 농도가 낮아집니다.",
+        "여름에는 차광막을 걷습니다."
       ],
       "answer": 2,
-      "explanationBn": "명령문에서 안전 장비 착용을 지시하므로 প্রথম번이 맞습니다।"
+      "explanationBn": "লেখায় বলা আছে '수온이 높아지면 ... 산소 농도가 낮아집니다'। সে কারণেই গরমে রোদ আটকানোর পর্দা টানা হয় আর অক্সিজেনের যন্ত্র বাড়ানো হয়।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "শোনা এবং উত্তর করুন: '그물을 정리하세요.' — সঠিক প্রতিক্রিয়া কোনটি?",
-      "questionKo": "듣고 답하세요: '그물을 정리하세요.'에 대한 적절한 반응은?",
-      "passage": "남자: 그물을 정리하세요.\n여자: 네, 지금 정리하겠습니다.",
+      "section": "reading",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "양식업은 조개, 해조류, 어류 등을 기르는 산업을 말합니다. 한국에서는 굴, 새우, 조개 등 다양한 수산물이 양식되고 있는데, 고부가가치의 수산물로 범위가 확대되고 있습니다. 한국의 양식업은 생산량을 기준으로 이미 어업의 생산량을 넘어섰으며, 다양한 기술을 도입하여 양식의 효율성을 높이고 있습니다.",
       "options": [
-        "아니요, 못해요. (No, I can't.)",
-        "출항을 취소합니다. (Cancel departure.)",
-        "수온을 잰 적이 없습니다. (I didn't measure temperature.)",
-        "네, 지금 정리하겠습니다. (Yes, I'll organize it now.)"
+        "한국에서는 조개를 양식하지 않습니다.",
+        "한국은 양식업보다 어업의 생산량이 많습니다.",
+        "한국에서 양식되는 수산물은 해조류에 한정됩니다.",
+        "한국은 효율적인 양식을 위해 다양한 기술을 도입하고 있습니다."
       ],
       "answer": 3,
-      "explanationBn": "대화에서 승선원이 '지금 정리하겠습니다'라고 응답했으므로 প্রথমটি সঠিক।"
+      "explanationBn": "লেখায় বলা আছে '다양한 기술을 도입하여 양식의 효율성을 높이고 있습니다'। জলজ চাষ ইতিমধ্যেই মাছ ধরাকে ছাড়িয়ে গেছে, আর ঝিনুক-চিংড়িসহ নানা কিছুই চাষ হয়।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오. (শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।)",
+      "questionBn": "খালি জায়গায় সবচেয়ে উপযুক্ত রূপটি বাছুন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "바다에 나갈 때는 안전을 위해 반드시 (  )을/를 입어야 합니다.",
+      "passage": "호스가 (        ) 특별히 주의해야 됩니다. 물이 잘 흘러야 하니까요.",
       "options": [
-        "구명조끼",
-        "멀미약",
-        "그물",
-        "미끼"
+        "꼬이도록",
+        "꼬이면",
+        "꼬이지 않도록",
+        "꼬였지 않도록"
       ],
-      "answer": 0,
-      "explanationBn": "সাগরে যাওয়ার সময় নিরাপত্তার জন্য অবশ্যই '구명조끼' (লাইফ জ্যাকেট) পরতে হবে।"
+      "answer": 2,
+      "explanationBn": "পেঁচিয়ে যাওয়া ঠেকাতে সতর্কতা — তাই নেতিবাচক '-지 않도록' বসে। শুধু '꼬이도록' বললে অর্থ উল্টে গিয়ে 'যাতে পেঁচায়' হয়ে যেত।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "다음 질문에 답하십시오. (নিচের প্রশ্নের উত্তর দিন।)",
-      "questionKo": "다음 질문에 답하십시오.",
-      "passage": "가: 물고기를 많이 잡았어요?\n나: 네, 오늘은 (  )이/가 아주 많습니다.",
+      "questionBn": "নিচের অংশটি পড়ে সঠিক উত্তরটি বাছুন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "사료의 유통 기한이 지나면 물고기가 병에 걸릴 수 있습니다. 그래서 사료를 주기 전에 유통 기한을 꼭 확인해야 합니다.",
       "options": [
-        "파도",
-        "어획량",
-        "부표",
-        "닻"
+        "유통 기한은 확인하지 않아도 됩니다.",
+        "유통 기한이 지난 사료를 주면 물고기가 병에 걸릴 수 있습니다.",
+        "유통 기한이 지난 사료가 더 좋습니다.",
+        "사료를 준 후에 유통 기한을 확인합니다."
       ],
       "answer": 1,
-      "explanationBn": "মাছ বেশি ধরেছে, তাই '어획량' (মাছ ধরার পরিমাণ) বেশি হবে।"
+      "explanationBn": "লেখায় বলা আছে '유통 기한이 지나면 물고기가 병에 걸릴 수 있습니다'। মেয়াদ দেখতে হয় খাবার দেওয়ার আগে ('주기 전에'), পরে নয়।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음 표지판의 의미로 알맞은 것을 고르십시오. (নিচের সাইনবোর্ডটির সঠিক অর্থ বেছে নিন।)",
-      "questionKo": "다음 표지판의 의미로 알맞은 것을 고르십시오.",
-      "passage": "[쓰레기 투기 금지]\n바다에 쓰레기를 버리지 마십시오.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: এখন কী কাজ করতে হবে?",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 선장님, 지금 무슨 작업을 해야 돼요?\n남자: 그물을 끌어올려야 돼요.",
       "options": [
-        "바다에서 수영하지 마십시오.",
-        "바다에서 낚시하지 마십시오.",
-        "바다에 쓰레기를 버리지 마십시오.",
-        "바다에 그물을 던지지 마십시오."
+        "그물을 끌어올리는 일",
+        "그물을 수선하는 일",
+        "수질을 측정하는 일",
+        "사료를 주는 일"
       ],
-      "answer": 2,
-      "explanationBn": "쓰레기를 버리지 마십시오 মানে সাগরে আবর্জনা ফেলবেন না।"
+      "answer": 0,
+      "explanationBn": "পুরুষটি বলছেন '그물을 끌어올려야 돼요' — জাল টেনে তুলতে হবে। মেরামত, পানি মাপা বা খাবার দেওয়ার কথা আসেনি।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오. (শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।)",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "배가 항구로 들어오는 것을 (  )(이)라고 합니다.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "남자: 수조가 깨끗해요?",
       "options": [
-        "출항",
-        "조업",
-        "분류",
-        "입항"
+        "네, 수조가 커요.",
+        "네, 수조가 많아요.",
+        "아니요, 수조가 더러워요.",
+        "아니요, 수조가 너무 깊어요."
       ],
-      "answer": 3,
-      "explanationBn": "জাহাজ বন্দরে প্রবেশ করাকে '입항' বলে।"
+      "answer": 2,
+      "explanationBn": "'깨끗해요?' (পরিষ্কার কি?) প্রশ্নের সঙ্গে মিলিয়ে '아니요' বললে পরে 'নোংরা' বলতে হয়। বড়, বেশি বা গভীর — তিনটিই ভিন্ন প্রশ্নের উত্তর।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 내용과 같은 것을 고르십시오. (নিচের অনুচ্ছেদটি পড়ে একই অর্থের বাক্যটি বেছে নিন।)",
-      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-      "passage": "우리 배는 내일 아침 일찍 출항합니다. 파도가 높을 수 있으니 멀미약을 미리 먹는 것이 좋습니다. 그리고 구명조끼를 꼭 확인하십시오.",
+      "section": "listening",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: দুজন কী নিয়ে কথা বলছেন?",
+      "questionKo": "다음을 듣고 두 사람이 무엇에 대해 말하고 있는지 고르십시오.",
+      "passage": "여자: 배에 오르기 전에 구명조끼를 입으세요.\n남자: 네, 빨리 입고 오겠습니다.",
       "options": [
-        "내일 아침에 배가 출발합니다.",
-        "파도가 낮아서 안전합니다.",
-        "멀미약은 배에서 내린 후에 먹습니다.",
-        "구명조끼는 필요 없습니다."
+        "작업 시간",
+        "작업 장소",
+        "작업 순서",
+        "작업 복장"
       ],
-      "answer": 0,
-      "explanationBn": "내일 아침 일찍 출항합니다 মানে আগামীকাল সকালে জাহাজ ছাড়বে।"
+      "answer": 3,
+      "explanationBn": "লাইফ জ্যাকেট পরার কথা হচ্ছে — অর্থাৎ কাজের পোশাক নিয়ে, তাই '작업 복장' সঠিক। সময়, জায়গা বা ক্রমের কথা আসেনি।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오. (পরবর্তী অংশ শুনে সঠিক উত্তরটি বেছে নিন।)",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 반장님, 그물을 언제 걷을까요?\n남자: 지금 걷으세요. 그리고 물고기를 크기별로 분류하세요.",
+      "questionBn": "শুনে এরপর কী বলা সবচেয়ে উপযুক্ত হবে তা বাছুন।",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 이제 그물 세척을 시작합시다.",
       "options": [
-        "그물을 던지려고 합니다.",
-        "물고기를 크기별로 분류해야 합니다.",
-        "지금 항구로 돌아갑니다.",
-        "미끼를 준비하고 있습니다."
+        "고압 분사기를 가져올게요.",
+        "넓게 펼쳐서 말렸어요.",
+        "물고기가 많이 잡혔네요.",
+        "뜰채도 준비하는 게 좋겠어요."
       ],
-      "answer": 1,
-      "explanationBn": "남자가 '물고기를 크기별로 분류하세요' (মাছগুলো আকার অনুযায়ী বাছাই করুন) বলেছে।"
+      "answer": 0,
+      "explanationBn": "ধোয়ার কাজ শুরুর কথা বলা হয়েছে, তাই স্বাভাবিক জবাব হলো ধোয়ার যন্ত্র আনার প্রস্তাব। শুকানো তো পরের ধাপ, আর হাতজাল মাছ তোলার কাজে লাগে।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오. (পরবর্তী অংশ শুনে সঠিক উত্তরটি বেছে নিন।)",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 파도가 너무 높아요. 위험하니까 갑판에 나가지 마세요.\n여자: 네, 알겠습니다. 선실에 있겠습니다.",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: শোনা কথার সঙ্গে কোনটি মেলে?",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "passage": "여자: 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남자: 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여자: 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.",
       "options": [
-        "파도가 잔잔합니다.",
-        "여자는 갑판으로 나갈 것입니다.",
-        "위험해서 갑판에 나가면 안 됩니다.",
-        "남자는 그물을 걷고 있습니다."
+        "부표는 끌어올리면 안 됩니다.",
+        "로프를 발로 잡고 작업해야 합니다.",
+        "양망기로 그물을 끌어올릴 겁니다.",
+        "로프는 연결하지 않아도 됩니다."
       ],
       "answer": 2,
-      "explanationBn": "남자가 '위험하니까 갑판에 나가지 마세요' (বিপজ্জনক তাই ডেকে যাবেন না) বলেছে।"
+      "explanationBn": "মহিলা বলছেন '양망기를 준비하고 로프를 연결해 주세요' — যন্ত্র দিয়েই জাল তোলা হবে। বয়াও একসঙ্গে তুলতে বলা হয়েছে, আর দড়িতে পা যাতে না আটকায় সেই সতর্কতা দেওয়া হয়েছে — পা দিয়ে ধরতে নয়।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오. (পরবর্তী অংশ শুনে সঠিক উত্তরটি বেছে নিন।)",
+      "questionBn": "শুনে সঠিক উত্তরটি বাছুন: মহিলা কেন থার্মোমিটার দেখছিলেন?",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 잡은 생선은 어떻게 할까요?\n남자: 상하지 않게 빨리 냉동 창고에 넣으세요.",
+      "passage": "남자: 뭐 하고 있어요?\n여자: 수온이 높은 것 같아서 온도계를 보고 있었어요.",
       "options": [
-        "생선을 바다에 다시 버립니다.",
-        "생선을 시장에 팔러 갑니다.",
-        "생선을 요리해서 먹습니다.",
-        "생선을 냉동 창고에 보관해야 합니다."
+        "물이 부족해서",
+        "수온이 높은 것 같아서",
+        "사료가 없어서",
+        "펌프가 고장 나서"
       ],
-      "answer": 3,
-      "explanationBn": "남자가 '냉동 창고에 넣으세요' (কোল্ড স্টোরেজে রাখুন) বলেছে।"
+      "answer": 1,
+      "explanationBn": "মহিলা নিজেই কারণ বলছেন '수온이 높은 것 같아서' — পানির তাপমাত্রা বেশি বলে মনে হওয়ায়। পানির অভাব, খাবার বা পাম্পের কথা আসেনি।"
     }
   ]
 }
