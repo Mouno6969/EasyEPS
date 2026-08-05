@@ -2,284 +2,221 @@
   "chapter": 50,
   "slug": "forest-resource-management",
   "title": {
-    "ko": "산림 자원 관리",
-    "bn": "বনসম্পদ ব্যবস্থাপনা",
+    "ko": "산림 자원 조성",
+    "bn": "বন সম্পদ ব্যবস্থাপনা",
     "en": "Forest Resource Management"
   },
   "category": "workplace",
   "level": "beginner",
   "objectives": {
     "bn": [
-      "বনসম্পদ সম্পর্কিত সাধারণ শব্দভান্ডার শিখে সুবিধাজনকভাবে কথা বলতে পারা।",
-      "কার্যালয় ও মাঠে বন পরিদর্শন এবং সরল নির্দেশাবলি বুঝতে এবং বলতে পারা।",
-      "সরল রূপরেখা ও অনুমতি সম্পর্কিত বাক্য ব্যবহার করে যোগাযোগ করা।"
+      "গাছ তোলা (굴취) ও শিকড়-বান্ডিল বাঁধার (분 감기) কাজের ধাপগুলো বলতে পারা",
+      "গাছ কাটা ও কাঠ টুকরা করার (조재) কাজ নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "'-다가' দিয়ে একটি কাজ থেমে অন্য কাজে বদলে যাওয়া প্রকাশ করতে পারা",
+      "পরোক্ষ উক্তির সংক্ষিপ্ত রূপ (-대요, -냬요, -래요, -재요) ব্যবহার করতে পারা"
     ],
     "en": [
-      "Learn basic vocabulary related to forest resources for simple conversation.",
-      "Understand and use simple phrases for office and field inspections.",
-      "Communicate using basic sentences about schedules and permits."
+      "Can talk about the procedures for trenching and root-ball wrapping",
+      "Can ask and answer questions about logging and bucking tasks",
+      "Can express that one action is interrupted and changes into another with -다가",
+      "Can use the contracted forms of indirect quotation (-대요, -냬요, -래요, -재요)"
     ]
   },
   "vocabulary": [
     {
-      "ko": "산림",
-      "romanization": "sanrim",
-      "bn": "বন",
-      "en": "forest",
+      "ko": "굴취",
+      "romanization": "gulchwi",
+      "bn": "গাছ তোলা, খনন (শিকড়সহ গাছ তুলে নেওয়া)",
+      "en": "trenching, digging up (a tree with roots)",
       "pos": "noun",
       "example": {
-        "ko": "우리는 산림 조사를 시작합니다.",
-        "bn": "আমরা বন পরিদর্শন শুরু করব।",
-        "en": "We will start the forest survey."
+        "ko": "오늘은 굴취 작업을 합니다.",
+        "bn": "আজ গাছ তোলার কাজ করব।",
+        "en": "Today we're doing trenching work."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'굴취' [굴취]—'ㄹ' পরে 'ㅊ' স্পষ্ট থাকে, 'গুল-চুই' উচ্চারণ করুন।"
     },
     {
-      "ko": "자원",
-      "romanization": "jawon",
-      "bn": "সম্পদ",
-      "en": "resource",
+      "ko": "분",
+      "romanization": "bun",
+      "bn": "শিকড়-বান্ডিল (মাটিসহ গাছের শিকড়ের গোলাকার পিণ্ড)",
+      "en": "root ball (round clump of roots with soil)",
       "pos": "noun",
       "example": {
-        "ko": "나무는 중요한 자연 자원입니다.",
-        "bn": "গাছ একটি গুরুত্বপূর্ণ প্রাকৃতিক সম্পদ।",
-        "en": "Trees are an important natural resource."
+        "ko": "분을 둥글게 만들어야 해요.",
+        "bn": "শিকড়-বান্ডিল গোল করে বানাতে হবে।",
+        "en": "We need to shape the root ball into a round form."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'분' [분]—'ㄴ' শব্দের শেষে 'ন' ধ্বনি স্পষ্ট রেখে উচ্চারণ করুন।"
     },
     {
-      "ko": "관리",
-      "romanization": "gwanri",
-      "bn": "ব্যবস্থাপনা",
-      "en": "management",
+      "ko": "분 감기",
+      "romanization": "bun gamgi",
+      "bn": "শিকড়-বান্ডিল বাঁধা (বস্তা ও ফিতা দিয়ে শিকড় মোড়ানো)",
+      "en": "root-ball wrapping",
       "pos": "noun",
       "example": {
-        "ko": "산림 관리는 안전이 우선입니다.",
-        "bn": "বন ব্যবস্থাপনায় নিরাপত্তা প্রথম।",
-        "en": "In forest management, safety comes first."
+        "ko": "분 감기 작업을 해 본 적 있어요?",
+        "bn": "শিকড়-বান্ডিল বাঁধার কাজ করেছেন কখনো?",
+        "en": "Have you done root-ball wrapping before?"
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'분 감기' [분감기]—'ㄴ' পরে 'ㄱ' স্পষ্ট থাকে, 'বুন-গাম-গি' উচ্চারণ করুন।"
     },
     {
-      "ko": "벌채",
-      "romanization": "beolchae",
-      "bn": "কাঠ কাটা / চারণ",
-      "en": "logging",
+      "ko": "삽",
+      "romanization": "sap",
+      "bn": "বেলচা",
+      "en": "shovel",
       "pos": "noun",
       "example": {
-        "ko": "벌채는 허가가 필요합니다.",
-        "bn": "কাঠ কাটা (লগিং) করার জন্য অনুমতি দরকার।",
-        "en": "Logging requires a permit."
+        "ko": "삽으로 땅을 파요.",
+        "bn": "বেলচা দিয়ে মাটি খুঁড়ি।",
+        "en": "We dig the ground with a shovel."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'삽' [삽]—'ㅂ' শব্দের শেষে 'প্' হিসেবে উচ্চারণ করুন।"
     },
     {
-      "ko": "재조림",
-      "romanization": "jaejorim",
-      "bn": "পুনরায় বনের চারা রোপণ",
-      "en": "reforestation",
+      "ko": "뿌리 가위",
+      "romanization": "ppuri gawi",
+      "bn": "শিকড়-কাঁচি (শিকড় কাটার কাঁচি)",
+      "en": "root shears",
       "pos": "noun",
       "example": {
-        "ko": "봄에 재조림을 계획합니다.",
-        "bn": "বসন্তে পুনরায় চারা রোপণ পরিকল্পনা করা হয়েছে।",
-        "en": "We plan reforestation in spring."
+        "ko": "뿌리 가위로 잔뿌리를 잘라요.",
+        "bn": "শিকড়-কাঁচি দিয়ে চিকন শিকড় কাটি।",
+        "en": "We cut the fine roots with root shears."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'뿌리 가위' [뿌리가위]—'ㅣ' পরে 'ㄱ' স্পষ্ট থাকে, 'পু-রি গা-উই' উচ্চারণ করুন।"
     },
     {
-      "ko": "수목",
-      "romanization": "sumok",
-      "bn": "গাছজাতি",
-      "en": "trees / tree species",
+      "ko": "잔뿌리",
+      "romanization": "janppuri",
+      "bn": "চিকন শিকড়, সূক্ষ্ম শিকড়",
+      "en": "fine roots",
       "pos": "noun",
       "example": {
-        "ko": "수목 상태를 확인하세요.",
-        "bn": "গাছগুলোর অবস্থা পরীক্ষা করুন।",
-        "en": "Check the condition of the trees."
+        "ko": "잔뿌리를 정리하고 있어요.",
+        "bn": "চিকন শিকড় ছাঁটাই করছি।",
+        "en": "I'm trimming the fine roots."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'잔뿌리' [잔뿌리]—'ㄴ' পরে 'ㅃ' জোরালো হয়, 'জান-পু-রি' উচ্চারণ করুন।"
     },
     {
-      "ko": "산불",
-      "romanization": "sanbul",
-      "bn": "অগ্নিকাণ্ড (বন আগুন)",
-      "en": "forest fire",
+      "ko": "마대",
+      "romanization": "madae",
+      "bn": "চটের বস্তা",
+      "en": "burlap bag",
       "pos": "noun",
       "example": {
-        "ko": "산불 예방이 중요합니다.",
-        "bn": "বন আগুন প্রতিরোধ জরুরি।",
-        "en": "Preventing forest fires is important."
+        "ko": "마대로 분을 한 번 감아요.",
+        "bn": "চটের বস্তা দিয়ে শিকড়-বান্ডিল একবার পেঁচাই।",
+        "en": "We wrap the root ball once with a burlap bag."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'마대' [마대]—'ㅐ' স্বর স্পষ্ট রেখে 'মা-দে' উচ্চারণ করুন।"
     },
     {
-      "ko": "보호",
-      "romanization": "boho",
-      "bn": "সুরক্ষা / রক্ষণাবেক্ষণ",
-      "en": "protection",
+      "ko": "밴드",
+      "romanization": "baendeu",
+      "bn": "ফিতা, বেল্ট (বাঁধার জন্য)",
+      "en": "band, strap",
       "pos": "noun",
       "example": {
-        "ko": "자연 보호 구역을 지켜야 합니다.",
-        "bn": "প্রাকৃতিক সংরক্ষিত এলাকা রক্ষা করতে হবে।",
-        "en": "We must protect the natural reserve."
+        "ko": "밴드로 분을 여러 번 감아요.",
+        "bn": "ফিতা দিয়ে শিকড়-বান্ডিল কয়েকবার পেঁচাই।",
+        "en": "We wrap the root ball several times with a band."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'밴드' [밴드]—'ㅐ' স্বর স্পষ্ট রেখে 'বেন-দ্যু' উচ্চারণ করুন।"
     },
     {
-      "ko": "사유림",
-      "romanization": "sayurim",
-      "bn": "ব্যক্তিগত বন",
-      "en": "private forest",
+      "ko": "소형 굴착기",
+      "romanization": "sohyeong gulchakgi",
+      "bn": "ছোট খননকারী যন্ত্র (মিনি এক্সকাভেটর)",
+      "en": "small excavator",
       "pos": "noun",
       "example": {
-        "ko": "사유림 소유자는 보고서를 제출합니다.",
-        "bn": "ব্যক্তিগত বন মালিক রিপোর্ট জমা দেন।",
-        "en": "Private forest owners submit a report."
+        "ko": "소형 굴착기로 땅을 파면 빨라요.",
+        "bn": "ছোট খননকারী যন্ত্র দিয়ে মাটি খুঁড়লে দ্রুত হয়।",
+        "en": "It's faster if we dig with a small excavator."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'소형 굴착기' [소형굴착끼]—'ㅇ' পরে 'ㄱ' স্পষ্ট থাকে এবং 'ㄱ' পরে 'ㄱ' এলে দ্বিতীয় 'ㄱ' জোরালো হয়।"
     },
     {
-      "ko": "국유림",
-      "romanization": "gugyurim",
-      "bn": "রাষ্ট্রীয় বন",
-      "en": "national forest",
+      "ko": "벌목",
+      "romanization": "beolmok",
+      "bn": "গাছ কাটা (বন থেকে গাছ ফেলা)",
+      "en": "logging, tree felling",
       "pos": "noun",
       "example": {
-        "ko": "이 지역은 국유림입니다.",
-        "bn": "এই এলাকা রাষ্ট্রীয় বন।",
-        "en": "This area is a national forest."
+        "ko": "벌목이 끝났어요.",
+        "bn": "গাছ কাটা শেষ হয়েছে।",
+        "en": "The logging is finished."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'벌목' [벌목]—'ㄹ' পরে 'ㅁ' স্পষ্ট থাকে, 'বোল-মোক্' উচ্চারণ করুন।"
     },
     {
-      "ko": "조사",
-      "romanization": "josa",
-      "bn": "নিরীক্ষা / পরিদর্শন",
-      "en": "survey / inspection",
+      "ko": "벌채지",
+      "romanization": "beolchaеji",
+      "bn": "গাছ কাটার জায়গা, কাটাই-স্থান",
+      "en": "logging site",
       "pos": "noun",
       "example": {
-        "ko": "오늘 산림 조사가 있습니다.",
-        "bn": "আজ বন পরিদর্শন আছে।",
-        "en": "There is a forest inspection today."
+        "ko": "벌채지에서 연락이 왔어요.",
+        "bn": "গাছ কাটার জায়গা থেকে যোগাযোগ এসেছে।",
+        "en": "We got a call from the logging site."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'벌채지' [벌채지]—'ㄹ' পরে 'ㅊ' স্পষ্ট থাকে, 'বোল-চে-জি' উচ্চারণ করুন।"
     },
     {
-      "ko": "경작",
-      "romanization": "gyeongjak",
-      "bn": "চাষাবাদ",
-      "en": "cultivation",
+      "ko": "조재",
+      "romanization": "jojae",
+      "bn": "কাঠ টুকরা করা (কাটা গাছ উপযুক্ত মাপে কাটা)",
+      "en": "bucking (cutting logs to size)",
       "pos": "noun",
       "example": {
-        "ko": "산림 인근 경작을 확인하세요.",
-        "bn": "বনের কাছাকাছি চাষাবাদ যাচাই করুন।",
-        "en": "Check cultivation near the forest."
+        "ko": "조재 작업을 하러 가야겠어요.",
+        "bn": "কাঠ টুকরা করার কাজ করতে যেতে হবে।",
+        "en": "We should go to do the bucking work."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'조재' [조재]—'ㅈ' পরে 'ㅈ' স্পষ্ট থাকে, 'জো-জে' উচ্চারণ করুন।"
     },
     {
-      "ko": "허가",
-      "romanization": "heoga",
-      "bn": "অনুমতি",
-      "en": "permit",
+      "ko": "집재장",
+      "romanization": "jipjaejang",
+      "bn": "কাঠ জমানোর জায়গা (কাটা গাছ একত্রিত করার স্থান)",
+      "en": "log yard",
       "pos": "noun",
       "example": {
-        "ko": "벌채는 허가가 있어야 합니다.",
-        "bn": "কাঠ কাটার জন্য অনুমতি থাকা দরকার।",
-        "en": "Logging must have a permit."
+        "ko": "집재장에서 작업해요.",
+        "bn": "কাঠ জমানোর জায়গায় কাজ করি।",
+        "en": "We work at the log yard."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'집재장' [집재장]—'ㅂ' পরে 'ㅈ' স্পষ্ট থাকে, 'জিপ্-জে-জাং' উচ্চারণ করুন।"
     },
     {
-      "ko": "산림청",
-      "romanization": "sanrimcheong",
-      "bn": "কোরিয়ার বন청 (Forest Service)",
-      "en": "Korea Forest Service",
+      "ko": "체인톱",
+      "romanization": "cheintop",
+      "bn": "চেনস",
+      "en": "chainsaw",
       "pos": "noun",
       "example": {
-        "ko": "산림청에 문의하세요.",
-        "bn": "বন청-এ যোগাযোগ করুন।",
-        "en": "Please contact the Korea Forest Service."
+        "ko": "체인톱으로 가지를 쳐요.",
+        "bn": "চেনস দিয়ে ডাল কাটি।",
+        "en": "We trim branches with a chainsaw."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'체인톱' [체인톱]—'ㅍ' শব্দের শেষে 'প্' হিসেবে উচ্চারণ করুন।"
     },
     {
-      "ko": "휴식지",
-      "romanization": "hyusikji",
-      "bn": "আরামের স্থান (রেস্ট এরিয়া)",
-      "en": "rest area / recreational area",
+      "ko": "하베스터",
+      "romanization": "habeseuteo",
+      "bn": "হার্ভেস্টার (গাছ কাটা ও পরিষ্কারের যন্ত্র)",
+      "en": "harvester",
       "pos": "noun",
       "example": {
-        "ko": "휴식지에서 점심을 먹어요.",
-        "bn": "আরামের স্থানে লাঞ্চ খাওয়া হবে।",
-        "en": "We will eat lunch at the rest area."
+        "ko": "하베스터로 작업하면 빨라요.",
+        "bn": "হার্ভেস্টার দিয়ে কাজ করলে দ্রুত হয়।",
+        "en": "It's fast if we work with a harvester."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "등산로",
-      "romanization": "deungsallo",
-      "bn": "পথ / ট্রেইল",
-      "en": "trail",
-      "pos": "noun",
-      "example": {
-        "ko": "등산로가 폐쇄되었습니다.",
-        "bn": "ট্রেইল বন্ধ আছে।",
-        "en": "The trail is closed."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "환경",
-      "romanization": "hwangyeong",
-      "bn": "পরিবেশ",
-      "en": "environment",
-      "pos": "noun",
-      "example": {
-        "ko": "환경 보호는 우리의 책임입니다.",
-        "bn": "পরিবেশ রক্ষা আমাদের দায়িত্ব।",
-        "en": "Protecting the environment is our responsibility."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "지속가능성",
-      "romanization": "jisok ganeunseong",
-      "bn": "টেকসইতা",
-      "en": "sustainability",
-      "pos": "noun",
-      "example": {
-        "ko": "지속가능성이 중요한 목표입니다.",
-        "bn": "টেকসইতা একটি গুরুত্বপূর্ণ লক্ষ্য।",
-        "en": "Sustainability is an important goal."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য কোরিয়ান অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "묘목",
-      "romanization": "myomok",
-      "bn": "চারাগাছ",
-      "en": "seedling",
-      "pos": "noun",
-      "example": {
-        "ko": "묘목을 심습니다.",
-        "bn": "চারাগাছ রোপণ করছি।",
-        "en": "I am planting a seedling."
-      },
-      "pronunciationTipBn": "'묘' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "벌목공",
-      "romanization": "beolmokgong",
-      "bn": "কাঠুরে",
-      "en": "logger",
-      "pos": "noun",
-      "example": {
-        "ko": "벌목공이 나무를 자릅니다.",
-        "bn": "কাঠুরে গাছ কাটছে।",
-        "en": "The logger is cutting the tree."
-      },
-      "pronunciationTipBn": "'벌' এর 'ㄹ' উচ্চারণ স্পষ্ট করুন।"
+      "pronunciationTipBn": "'하베스터' [하베스터]—'ㅓ' স্বর স্পষ্ট রেখে উচ্চারণ করুন।"
     },
     {
       "ko": "톱",
@@ -288,369 +225,511 @@
       "en": "saw",
       "pos": "noun",
       "example": {
-        "ko": "톱으로 나무를 자르세요.",
-        "bn": "করাত দিয়ে গাছ কাটুন।",
-        "en": "Cut the tree with a saw."
+        "ko": "톱으로 나무를 잘라요.",
+        "bn": "করাত দিয়ে গাছ কাটি।",
+        "en": "We cut the tree with a saw."
       },
-      "pronunciationTipBn": "'톱' এর 'ㅂ' উচ্চারণ শেষে ঠোঁট বন্ধ করুন।"
+      "pronunciationTipBn": "'톱' [톱]—'ㅂ' শব্দের শেষে 'প্' হিসেবে উচ্চারণ করুন।"
     },
     {
-      "ko": "도끼",
-      "romanization": "dokki",
-      "bn": "কুঠার",
-      "en": "axe",
+      "ko": "말뚝",
+      "romanization": "malttuk",
+      "bn": "খুঁটি, গোঁজ (মাটিতে গাঁথার)",
+      "en": "stake",
       "pos": "noun",
       "example": {
-        "ko": "도끼가 무겁습니다.",
-        "bn": "কুঠারটি ভারী।",
-        "en": "The axe is heavy."
+        "ko": "말뚝도 가져가야 돼요.",
+        "bn": "খুঁটিও নিয়ে যেতে হবে।",
+        "en": "You need to bring stakes too."
       },
-      "pronunciationTipBn": "'끼' উচ্চারণ করার সময় গলায় চাপ দিন।"
+      "pronunciationTipBn": "'말뚝' [말뚝]—'ㄹ' পরে 'ㄸ' জোরালো হয়, 'মাল-তুক্' উচ্চারণ করুন।"
     },
     {
-      "ko": "안전모",
-      "romanization": "anjeonmo",
-      "bn": "নিরাপত্তা হেলমেট",
-      "en": "safety helmet",
+      "ko": "원목",
+      "romanization": "wonmok",
+      "bn": "গোটা কাঠ, কাটা গাছের গুঁড়ি",
+      "en": "log, timber",
       "pos": "noun",
       "example": {
-        "ko": "안전모를 쓰세요.",
-        "bn": "নিরাপত্তা হেলমেট পরুন।",
-        "en": "Wear a safety helmet."
+        "ko": "원목을 한곳에 모아요.",
+        "bn": "গাছের গুঁড়ি এক জায়গায় জড়ো করি।",
+        "en": "We gather the logs in one place."
       },
-      "pronunciationTipBn": "'모' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "'원목' [원목]—'ㄴ' পরে 'ㅁ' স্পষ্ট থাকে, 'ওন-মোক্' উচ্চারণ করুন।"
     },
     {
-      "ko": "안전화",
-      "romanization": "anjeonhwa",
-      "bn": "নিরাপত্তা জুতো",
-      "en": "safety shoes",
+      "ko": "밑동",
+      "romanization": "mitdong",
+      "bn": "গাছের গোড়া (মাটির কাছের অংশ)",
+      "en": "tree base, stump",
       "pos": "noun",
       "example": {
-        "ko": "안전화를 신으세요.",
-        "bn": "নিরাপত্তা জুতো পরুন।",
-        "en": "Wear safety shoes."
+        "ko": "나무 밑동 지름의 2~3배 거리에 원을 그려요.",
+        "bn": "গাছের গোড়ার ব্যাসের ২-৩ গুণ দূরত্বে বৃত্ত আঁকি।",
+        "en": "Draw a circle about 2–3 times the diameter of the tree base."
       },
-      "pronunciationTipBn": "'화' উচ্চারণ করার সময় 'হ' এবং 'ওয়া' একসাথে বলুন।"
+      "pronunciationTipBn": "'밑동' [믿똥]—'ㅌ' শব্দের শেষে 'ㄷ' হয় এবং পরের 'ㄷ' জোরালো হয়, 'মিত্-তোং' উচ্চারণ করুন।"
     },
     {
-      "ko": "작업복",
-      "romanization": "jageopbok",
-      "bn": "কাজের পোশাক",
-      "en": "work clothes",
+      "ko": "지름",
+      "romanization": "jireum",
+      "bn": "ব্যাস (বৃত্তের প্রস্থ)",
+      "en": "diameter",
       "pos": "noun",
       "example": {
-        "ko": "작업복을 입으세요.",
-        "bn": "কাজের পোশাক পরুন।",
-        "en": "Put on your work clothes."
+        "ko": "밑동 지름을 먼저 재세요.",
+        "bn": "আগে গোড়ার ব্যাস মাপুন।",
+        "en": "Measure the diameter of the tree base first."
       },
-      "pronunciationTipBn": "'복' এর 'ㄱ' উচ্চারণ শেষে গলা বন্ধ করুন।"
+      "pronunciationTipBn": "'지름' [지름]—'ㅡ' স্বর হালকা রেখে 'জি-রুম্' উচ্চারণ করুন।"
     },
     {
-      "ko": "산사태",
-      "romanization": "sansatae",
-      "bn": "ভূমিধস",
-      "en": "landslide",
+      "ko": "아랫부분",
+      "romanization": "araetbubun",
+      "bn": "নিচের অংশ",
+      "en": "lower part",
       "pos": "noun",
       "example": {
-        "ko": "산사태를 조심하세요.",
-        "bn": "ভূমিধস থেকে সাবধান।",
-        "en": "Be careful of landslides."
+        "ko": "나무의 아랫부분에 있는 가지를 묶어요.",
+        "bn": "গাছের নিচের অংশের ডাল বাঁধি।",
+        "en": "We tie up the branches at the lower part of the tree."
       },
-      "pronunciationTipBn": "'태' উচ্চারণ করার সময় মুখ একটু বেশি খুলুন।"
+      "pronunciationTipBn": "'아랫부분' [아랟뿌분]—'ㅅ' শব্দের শেষে 'ㄷ' হয় এবং পরের 'ㅂ' জোরালো হয়।"
     },
     {
-      "ko": "예방",
-      "romanization": "yebang",
-      "bn": "প্রতিরোধ",
-      "en": "prevention",
+      "ko": "가지",
+      "romanization": "gaji",
+      "bn": "ডাল, শাখা",
+      "en": "branch",
       "pos": "noun",
       "example": {
-        "ko": "사고 예방이 중요합니다.",
-        "bn": "দুর্ঘটনা প্রতিরোধ গুরুত্বপূর্ণ।",
-        "en": "Accident prevention is important."
+        "ko": "체인톱으로 가지를 칩시다.",
+        "bn": "চেনস দিয়ে ডাল কাটি চলুন।",
+        "en": "Let's trim the branches with a chainsaw."
       },
-      "pronunciationTipBn": "'예' উচ্চারণ করার সময় 'ই' এবং 'এ' একসাথে বলুন।"
+      "pronunciationTipBn": "'가지' [가지]—'ㄱ' পরে 'ㅈ' স্পষ্ট থাকে, 'গা-জি' উচ্চারণ করুন।"
     },
     {
-      "ko": "위험",
-      "romanization": "wiheom",
-      "bn": "বিপদ",
-      "en": "danger",
+      "ko": "숲",
+      "romanization": "sup",
+      "bn": "বন, জঙ্গল",
+      "en": "forest, woods",
       "pos": "noun",
       "example": {
-        "ko": "이곳은 위험합니다.",
-        "bn": "এই জায়গাটি বিপজ্জনক।",
-        "en": "This place is dangerous."
+        "ko": "숲의 나무를 베요.",
+        "bn": "বনের গাছ কাটি।",
+        "en": "We fell the trees in the forest."
       },
-      "pronunciationTipBn": "'위' উচ্চারণ করার সময় ঠোঁট গোল করে শুরু করুন।"
+      "pronunciationTipBn": "'숲' [숩]—'ㅍ' শব্দের শেষে 'প্' হিসেবে উচ্চারণ করুন।"
     },
     {
-      "ko": "안전",
-      "romanization": "anjeon",
-      "bn": "নিরাপত্তা",
-      "en": "safety",
+      "ko": "산불",
+      "romanization": "sanbul",
+      "bn": "দাবানল, বনের আগুন",
+      "en": "forest fire",
       "pos": "noun",
       "example": {
-        "ko": "안전을 확인하세요.",
-        "bn": "নিরাপত্তা নিশ্চিত করুন।",
-        "en": "Check the safety."
+        "ko": "산불을 예방하는 것이 중요합니다.",
+        "bn": "দাবানল প্রতিরোধ করা গুরুত্বপূর্ণ।",
+        "en": "It is important to prevent forest fires."
       },
-      "pronunciationTipBn": "'안' এর 'ㄴ' উচ্চারণ স্পষ্ট করুন।"
+      "pronunciationTipBn": "'산불' [산불]—'ㄴ' পরে 'ㅂ' স্পষ্ট থাকে, 'সান-বুল' উচ্চারণ করুন।"
     },
     {
-      "ko": "규칙",
-      "romanization": "gyuchik",
-      "bn": "নিয়ম",
-      "en": "rule",
-      "pos": "noun",
+      "ko": "파다",
+      "romanization": "pada",
+      "bn": "খোঁড়া (মাটি)",
+      "en": "to dig",
+      "pos": "verb",
       "example": {
-        "ko": "규칙을 지키세요.",
-        "bn": "নিয়ম মেনে চলুন।",
-        "en": "Follow the rules."
+        "ko": "삽으로 원을 따라 땅을 파요.",
+        "bn": "বেলচা দিয়ে বৃত্ত ধরে মাটি খুঁড়ি।",
+        "en": "We dig around the circle with a shovel."
       },
-      "pronunciationTipBn": "'칙' এর 'ㄱ' উচ্চারণ শেষে গলা বন্ধ করুন।"
+      "pronunciationTipBn": "'파다' [파다]—'ㅍ' জোরালো নিঃশ্বাসসহ 'পা-দা' উচ্চারণ করুন।"
     },
     {
-      "ko": "자연",
-      "romanization": "jayeon",
-      "bn": "প্রকৃতি",
-      "en": "nature",
-      "pos": "noun",
+      "ko": "뽑다",
+      "romanization": "ppopda",
+      "bn": "তুলে ফেলা, উপড়ানো",
+      "en": "to pull out, to uproot",
+      "pos": "verb",
       "example": {
-        "ko": "자연을 사랑합시다.",
-        "bn": "প্রকৃতিকে ভালোবাসুন।",
-        "en": "Let's love nature."
+        "ko": "땅을 파고 나무를 뽑았습니다.",
+        "bn": "মাটি খুঁড়ে গাছ তুলেছি।",
+        "en": "We dug the ground and pulled out the tree."
       },
-      "pronunciationTipBn": "'연' উচ্চারণ করার সময় 'ই' এবং 'অ' একসাথে বলুন।"
+      "pronunciationTipBn": "'뽑다' [뽑따]—'ㅂ' পরে 'ㄷ' জোরালো হয়ে 'ㄸ' এর মতো শোনায়।"
     },
     {
-      "ko": "식물",
-      "romanization": "singmul",
-      "bn": "উদ্ভিদ",
-      "en": "plant",
-      "pos": "noun",
+      "ko": "감다",
+      "romanization": "gamda",
+      "bn": "পেঁচানো, জড়ানো",
+      "en": "to wrap, to wind",
+      "pos": "verb",
       "example": {
-        "ko": "식물을 키웁니다.",
-        "bn": "উদ্ভিদ বড় করছি।",
-        "en": "I am growing plants."
+        "ko": "마대로 분을 한 번 감아요.",
+        "bn": "চটের বস্তা দিয়ে শিকড়-বান্ডিল একবার পেঁচাই।",
+        "en": "We wrap the root ball once with burlap."
       },
-      "pronunciationTipBn": "'식' এর 'ㄱ' উচ্চারণ শেষে গলা বন্ধ করুন।"
+      "pronunciationTipBn": "'감다' [감따]—'ㅁ' পরে 'ㄷ' জোরালো হয়ে 'ㄸ' এর মতো শোনায়।"
+    },
+    {
+      "ko": "묶다",
+      "romanization": "mukda",
+      "bn": "বাঁধা, গিঁট দেওয়া",
+      "en": "to tie, to bind",
+      "pos": "verb",
+      "example": {
+        "ko": "가지를 위로 올려서 밴드로 묶어야 돼요.",
+        "bn": "ডাল উপরে তুলে ফিতা দিয়ে বাঁধতে হবে।",
+        "en": "You need to raise the branches and tie them with a band."
+      },
+      "pronunciationTipBn": "'묶다' [묵따]—'ㄲ' শব্দের শেষে 'ㄱ' হয় এবং পরের 'ㄷ' জোরালো হয়।"
+    },
+    {
+      "ko": "베다",
+      "romanization": "beda",
+      "bn": "কাটা (গাছ ফেলা)",
+      "en": "to cut down, to fell",
+      "pos": "verb",
+      "example": {
+        "ko": "숲의 나무를 베요.",
+        "bn": "বনের গাছ কাটি।",
+        "en": "We fell the trees in the forest."
+      },
+      "pronunciationTipBn": "'베다' [베다]—'ㅔ' স্বর স্পষ্ট রেখে 'বে-দা' উচ্চারণ করুন।"
+    },
+    {
+      "ko": "가지를 치다",
+      "romanization": "gajireul chida",
+      "bn": "ডাল ছাঁটাই করা",
+      "en": "to trim branches",
+      "pos": "verb phrase",
+      "example": {
+        "ko": "벌채지에서는 가지치기만 해요.",
+        "bn": "গাছ কাটার জায়গায় শুধু ডাল ছাঁটাই করি।",
+        "en": "At the logging site we only trim the branches."
+      },
+      "pronunciationTipBn": "'가지를 치다' [가지를치다]—'ㄹ' পরে 'ㅊ' স্পষ্ট থাকে উচ্চারণ করুন।"
+    },
+    {
+      "ko": "토막을 내다",
+      "romanization": "tomageul naeda",
+      "bn": "টুকরা করা (কাঠ ছোট মাপে কাটা)",
+      "en": "to cut into pieces",
+      "pos": "verb phrase",
+      "example": {
+        "ko": "집재장에서 토막을 내요.",
+        "bn": "কাঠ জমানোর জায়গায় টুকরা করি।",
+        "en": "We cut them into pieces at the log yard."
+      },
+      "pronunciationTipBn": "'토막을' [토마글]—'ㄱ' পরে স্বরধ্বনি এলে 'ㄱ' পরের অক্ষরে যুক্ত হয়।"
+    },
+    {
+      "ko": "챙기다",
+      "romanization": "chaenggida",
+      "bn": "গুছিয়ে নেওয়া, সঙ্গে নেওয়া",
+      "en": "to pack, to take along",
+      "pos": "verb",
+      "example": {
+        "ko": "체인톱을 챙겼지요?",
+        "bn": "চেনস গুছিয়ে নিয়েছেন তো?",
+        "en": "Did you pack the chainsaw?"
+      },
+      "pronunciationTipBn": "'챙기다' [챙기다]—'ㅇ' পরে 'ㄱ' স্পষ্ট থাকে, 'চেং-গি-দা' উচ্চারণ করুন।"
+    },
+    {
+      "ko": "풀리다",
+      "romanization": "pullida",
+      "bn": "খুলে যাওয়া, আলগা হওয়া",
+      "en": "to come loose, to come undone",
+      "pos": "verb",
+      "example": {
+        "ko": "분을 감다가 밴드가 풀렸어요.",
+        "bn": "শিকড়-বান্ডিল পেঁচাতে গিয়ে ফিতা খুলে গেল।",
+        "en": "The band came loose while I was wrapping the root ball."
+      },
+      "pronunciationTipBn": "'풀리다' [풀리다]—'ㄹ' পরে 'ㄹ' দ্বিগুণ হয়, 'পুল-লি-দা' উচ্চারণ করুন।"
+    },
+    {
+      "ko": "부러뜨리다",
+      "romanization": "bureotteurida",
+      "bn": "ভেঙে ফেলা (লম্বা জিনিস)",
+      "en": "to break (something long)",
+      "pos": "verb",
+      "example": {
+        "ko": "잔뿌리를 정리하다가 뿌리 가위를 부러뜨렸어요.",
+        "bn": "চিকন শিকড় ছাঁটতে গিয়ে শিকড়-কাঁচি ভেঙে ফেলেছি।",
+        "en": "I broke the root shears while trimming the fine roots."
+      },
+      "pronunciationTipBn": "'부러뜨리다' [부러뜨리다]—'ㄸ' জোরালো ধ্বনি স্পষ্ট রেখে উচ্চারণ করুন।"
+    },
+    {
+      "ko": "쏟다",
+      "romanization": "ssotda",
+      "bn": "ঢেলে ফেলা, ছড়িয়ে ফেলা",
+      "en": "to spill, to pour out",
+      "pos": "verb",
+      "example": {
+        "ko": "페인트를 칠하다가 바닥에 쏟았어요.",
+        "bn": "রং করতে গিয়ে মেঝেতে ঢেলে ফেলেছি।",
+        "en": "I spilled the paint on the floor while painting."
+      },
+      "pronunciationTipBn": "'쏟다' [쏟따]—'ㄷ' শব্দের শেষে থেমে পরের 'ㄷ' জোরালো হয়।"
     }
   ],
   "grammar": [
     {
-      "pattern": "1",
-      "titleBn": "অনুরোধ বা আদেশ: ~(으)세요",
-      "explanationBn": "বর্ণনা: ~(으)세요 ব্যবহৃত হয় বিনম্রভাবে অনুরোধ বা নির্দেশ দিতে। উদাহরণ (কোরিয়ান / বাংলা / ইংরেজি):\n1) '문을 닫으세요.' / 'দয়া করে দরজা বন্ধ করুন।' / 'Please close the door.'\n2) '조사 보고서를 제출하세요.' / 'রিপোর্ট জমা দিন।' / 'Please submit the inspection report.'",
-      "explanationEn": "Usage: ~(으)세요 is used for polite requests or commands. Examples (Korean / Bengali / English):\n1) '문을 닫으세요.' / 'Please close the door.'\n2) '조사 보고서를 제출하세요.' / 'Please submit the inspection report.'",
+      "pattern": "V/A + -다가",
+      "titleBn": "কাজ বদলে যাওয়া '-다가'",
+      "explanationBn": "'-다가' ক্রিয়াপদ বা বিশেষণের সঙ্গে যুক্ত হয়ে বোঝায় যে একটি কাজ বা অবস্থা চলার মাঝখানে থেমে গিয়ে অন্য কাজ বা অবস্থায় বদলে গেছে, অথবা একটি পরিস্থিতি চলাকালীন অন্য পরিস্থিতি ঘটেছে। বন-কর্মীদের কাজে খুব প্রয়োজনীয়: 'মাটি খুঁড়তে গিয়ে বিরতি নিলাম', 'গাছ বাঁধতে গিয়ে ফিতা খুলে গেল'। গঠন: ক্রিয়া/বিশেষণ মূল + 다가 (하다 → 하다가, 먹다 → 먹다가, 크다 → 크다가)। প্রথম কাজটি অসম্পূর্ণ থাকতেই দ্বিতীয় কাজ ঘটে।",
+      "explanationEn": "-다가 attaches to verbs and adjectives to indicate that one action or state is interrupted and changed to another action or state, or that one situation occurs during another. The first action is incomplete when the second one happens. Formation: verb/adjective stem + 다가 (하다 → 하다가, 먹다 → 먹다가, 크다 → 크다가).",
       "examples": [
         {
-          "ko": "장갑을 착용하세요.",
-          "bn": "হাত ভর্তি (গ্লাভস) পরুন।",
-          "en": "Please wear gloves."
+          "ko": "삽으로 땅을 파다가 잠시 쉬었어요.",
+          "bn": "বেলচা দিয়ে মাটি খুঁড়তে গিয়ে একটু বিরতি নিয়েছি।",
+          "en": "I was digging the ground with a shovel and then took a short break."
         },
         {
-          "ko": "사진을 찍으세요.",
-          "bn": "ছবি তুলুন।",
-          "en": "Please take a photo."
+          "ko": "분을 감다가 밴드가 풀렸어요.",
+          "bn": "শিকড়-বান্ডিল পেঁচাতে গিয়ে ফিতা খুলে গেল।",
+          "en": "The band came loose while I was wrapping the root ball."
+        },
+        {
+          "ko": "잔뿌리를 정리하다가 뿌리 가위를 부러뜨렸어요.",
+          "bn": "চিকন শিকড় ছাঁটতে গিয়ে শিকড়-কাঁচি ভেঙে ফেলেছি।",
+          "en": "I broke the root shears while trimming the fine roots."
+        },
+        {
+          "ko": "벌채지에서 일을 하다가 영호 씨를 만났어요.",
+          "bn": "গাছ কাটার জায়গায় কাজ করতে গিয়ে ইয়ংহো'র সাথে দেখা হলো।",
+          "en": "I met Yeongho while working at the logging site."
         }
       ],
-      "commonMistakeBn": "অনেকে এই ব্যাকরণটি ভুল প্রসঙ্গে ব্যবহার করেন, তাই অর্থ বুঝে ব্যবহার করুন।"
+      "commonMistakeBn": "'-다가' আর '-고 나서' গুলিয়ে ফেলা সবচেয়ে সাধারণ ভুল। '-다가' মানে প্রথম কাজ শেষ না হতেই থেমে গেছে, কিন্তু '-고 나서' মানে প্রথম কাজ পুরোপুরি শেষ হয়েছে। '밥을 먹다가 나갔어요' (খাওয়া শেষ না করেই বেরিয়েছি) আর '밥을 먹고 나서 나갔어요' (খাওয়া শেষ করে বেরিয়েছি) — অর্থ আলাদা। এছাড়া দুই বাক্যাংশের কর্তা একই হতে হবে।"
     },
     {
-      "pattern": "2",
-      "titleBn": "প্রগতিশীল: ~고 있습니다",
-      "explanationBn": "বর্ণনা: ~고 있습니다 বোঝায় কাজটি এখন চলছে (present progressive)। উদাহরণ:\n1) '나무를 심고 있습니다.' / 'আমি এখন গাছ রোপণ করছি।' / 'I am planting a tree now.'\n2) '조사팀이 현장에 있습니다.' / 'পরিদর্শন দল মাঠে আছে।' / 'The survey team is at the site.'",
-      "explanationEn": "Usage: ~고 있습니다 indicates an action in progress (present continuous). Examples:\n1) '나무를 심고 있습니다.' / 'I am planting a tree now.'\n2) '조사팀이 현장에 있습니다.' / 'The survey team is at the site.'",
+      "pattern": "-(으)ㄴ대요/대요",
+      "titleBn": "পরোক্ষ উক্তির সংক্ষিপ্ত রূপ (বিবৃতি) '-(으)ㄴ대요/대요'",
+      "explanationBn": "'-(느)ㄴ다고 해요'/'다고 해요' এর সংক্ষিপ্ত রূপ। কেউ যা বলেছে তা অন্যের কাছে জানানোর সহজ উপায়। ক্রিয়াপদ: বর্তমান '-(으)ㄴ대요', অতীত '-었대요/-았대요', ভবিষ্যৎ '-(으)ㄹ 거래요'; বিশেষণ: '-(으)ㄴ대요'; '이다': '(이)래요'। ভদ্র কথাবার্তায় ব্যবহার হয় (해요체)।",
+      "explanationEn": "Contracted form of -(느)ㄴ다고 해요 / 다고 해요. Used in spoken language to report what someone said. Verbs: present -(으)ㄴ대요, past -었대요/-았대요, future -(으)ㄹ 거래요; adjectives: -(으)ㄴ대요; 이다: (이)래요. Used in polite speech (해요 style).",
       "examples": [
         {
-          "ko": "우리는 재조림을 하고 있습니다.",
-          "bn": "আমরা পুনরায় চারা রোপণ করছি।",
-          "en": "We are doing reforestation."
+          "ko": "영호 씨는 집재장에 있대요.",
+          "bn": "ইয়ংহো কাঠ জমানোর জায়গায় আছেন বলেছেন।",
+          "en": "Yeongho says he's at the log yard."
         },
         {
-          "ko": "기록을 작성하고 있습니다.",
-          "bn": "রেকর্ড তৈরি করছি।",
-          "en": "We are filling out the records."
+          "ko": "벌목이 끝났대요.",
+          "bn": "গাছ কাটা শেষ হয়েছে বলে জানিয়েছে।",
+          "en": "They said the logging is finished."
+        },
+        {
+          "ko": "내일 굴취 작업을 할 거래요.",
+          "bn": "আগামীকাল গাছ তোলার কাজ করবেন বলেছেন।",
+          "en": "He says he'll do the trenching work tomorrow."
         }
       ],
-      "commonMistakeBn": "অনেকে এই ব্যাকরণটি ভুল প্রসঙ্গে ব্যবহার করেন, তাই অর্থ বুঝে ব্যবহার করুন।"
+      "commonMistakeBn": "নিজের কথা বলার সময় ভুল করে '-대요' ব্যবহার করা হয়। '-대요' শুধু অন্য কেউ যা বলেছে তা জানাতে ব্যবহৃত হয়; নিজের কথা বলতে সাধারণ '-아요/어요' লাগে। আরেকটি ভুল হলো অতীত রূপে '-다고 했어요' বসিয়ে '끝나대요' বলা — সঠিক হলো '끝났대요' (কাজটি অতীতে শেষ হয়েছে)।"
     },
     {
-      "pattern": "3",
-      "titleBn": "কর্ম বা বস্তুকে বোঝানো: ~는 것 / ~ㄴ 것",
-      "explanationBn": "বর্ণনা: ক্রিয়াকে নামবাচক বানাতে ~는 것 (বর্তমান) বা ~ㄴ 것 (ভূত) ব্যবহার করা হয়। উদাহরণ:\n1) '조사하는 것이 중요합니다.' / 'পরিদর্শন করা গুরুত্বপূর্ণ।' / 'Inspecting is important.'\n2) '완료된 보고서(=작성된 것)를 제출하세요.' / 'সম্পন্ন রিপোর্ট জমা দিন।' / 'Submit the completed report.'",
-      "explanationEn": "Usage: Use ~는 것 (present) or ~ㄴ 것 (past) to nominalize verbs (turn into nouns). Examples:\n1) '조사하는 것이 중요합니다.' / 'Inspecting is important.'\n2) '완료된 보고서를 제출하세요.' / 'Submit the completed report.'",
+      "pattern": "-(으)느냬요 / -(으)냬요",
+      "titleBn": "পরোক্ষ উক্তির সংক্ষিপ্ত রূপ (প্রশ্ন)",
+      "explanationBn": "'-느냐고 해요'/'-(으)냐고 해요' এর কথ্য সংক্ষিপ্ত রূপ। কেউ যে প্রশ্ন করেছে তা পরোক্ষভাবে জানাতে ব্যবহার করা হয়। ক্রিয়াপদের বর্তমান রূপের সঙ্গে '-느냬요', বিশেষণ ও অতীত ক্রিয়ার সঙ্গে '-(으)냬요'। উদাহরণ: '다라 씨가 주말에 바쁘냬요' (দারা জিজ্ঞেস করছে সে কি সপ্তাহান্তে ব্যস্ত)।",
+      "explanationEn": "The contracted spoken form of '-느냐고 해요' / '-(으)냐고 해요'. Used to indirectly report a question someone asked. Verbs in present take '-느냬요', adjectives and past-tense verbs take '-(으)냬요'. Example: '다라 씨가 주말에 바쁘냬요' (Dara is asking if they're busy on the weekend).",
       "examples": [
         {
-          "ko": "벌채하는 것이 허가 필요합니다.",
-          "bn": "কাঠ কাটা করার জন্য অনুমতি প্রয়োজন।",
-          "en": "Logging requires a permit."
+          "ko": "다라 씨가 주말에 바쁘냬요.",
+          "bn": "দারা জিজ্ঞেস করছে সপ্তাহান্তে ব্যস্ত কিনা।",
+          "en": "Dara is asking if you're busy on the weekend."
         },
         {
-          "ko": "기록한 것을 확인하세요.",
-          "bn": "লিখা জিনিসটি যাচাই করুন।",
-          "en": "Check what you recorded."
+          "ko": "반장님이 지금 어디 있냬요?",
+          "bn": "বাঞ্জাং জিজ্ঞেস করছেন এখন কোথায় আছেন।",
+          "en": "The supervisor is asking where you are now."
+        },
+        {
+          "ko": "영호 씨가 체인톱을 챙겼냬요.",
+          "bn": "ইয়ংহো জিজ্ঞেস করছে চেইনস চেক করা হয়েছে কিনা।",
+          "en": "Yeongho is asking if the chainsaw was packed."
         }
       ],
-      "commonMistakeBn": "অনেকে এই ব্যাকরণটি ভুল প্রসঙ্গে ব্যবহার করেন, তাই অর্থ বুঝে ব্যবহার করুন।"
+      "commonMistakeBn": "অনেকে পূর্ণ রূপ '-느냐고 해요' আর সংক্ষিপ্ত রূপ '-느냬요' মিশিয়ে ফেলেন। কথ্য পরিস্থিতিতে সংক্ষিপ্ত রূপ ব্যবহার করুন।"
     },
     {
-      "pattern": "4",
-      "titleBn": "বাধ্যবাধকতা: ~아/어야 하다",
-      "explanationBn": "বর্ণনা: ~아/어야 하다 বোঝায় যে কোনো কাজ করা বাধ্যতামূলক বা প্রয়োজনীয়। উদাহরণ:\n1) '안전모를 써야 합니다.' / 'নিরাপত্তা হেলমেট পরতে হবে।' / 'You must wear a safety helmet.'\n2) '규칙을 지켜야 합니다.' / 'নিয়ম মেনে চলতে হবে।' / 'You must follow the rules.'",
-      "explanationEn": "Usage: ~아/어야 하다 indicates obligation or necessity. Examples:\n1) '안전모를 써야 합니다.' / 'You must wear a safety helmet.'\n2) '규칙을 지켜야 합니다.' / 'You must follow the rules.'",
+      "pattern": "-(으)래요",
+      "titleBn": "পরোক্ষ উক্তির সংক্ষিপ্ত রূপ (আদেশ/পরামর্শ)",
+      "explanationBn": "'-(으)라고 해요' এর কথ্য সংক্ষিপ্ত রূপ। কেউ যে আদেশ বা পরামর্শ দিয়েছে তা পরোক্ষভাবে জানাতে ব্যবহার করা হয়। শেষ স্বর থাকলে '-래요', স্বর না থাকলে '-으래요'। উদাহরণ: '아궁 씨가 작업장을 청소하래요' (আগুং বলছে কাজের জায়গা পরিষ্কার কর)।",
+      "explanationEn": "The contracted spoken form of '-(으)라고 해요'. Used to indirectly report a command or suggestion someone gave. Takes '-래요' after a vowel-final stem, '-으래요' after a consonant. Example: '아궁 씨가 작업장을 청소하래요' (Agung says to clean the workplace).",
       "examples": [
         {
-          "ko": "안전모를 써야 합니다.",
-          "bn": "নিরাপত্তা হেলমেট পরতে হবে।",
-          "en": "You must wear a safety helmet."
+          "ko": "아궁 씨가 작업장을 청소하래요.",
+          "bn": "আগুং বলছে কাজের জায়গা পরিষ্কার করতে।",
+          "en": "Agung says to clean the workplace."
         },
         {
-          "ko": "규칙을 지켜야 합니다.",
-          "bn": "নিয়ম মেনে চলতে হবে।",
-          "en": "You must follow the rules."
+          "ko": "반장님이 벌채지에서는 가지치기만 하고 집재장에서 나머지 작업을 하래요.",
+          "bn": "বাঞ্জাং বলছেন লগিং সাইটে শুধু ডাল ছাঁটুন আর বাকি কাজ লগ ইয়ার্ডে করুন।",
+          "en": "The supervisor says to only trim branches at the logging site and do the rest at the log yard."
         },
         {
-          "ko": "허가를 받아야 합니다.",
-          "bn": "অনুমতি নিতে হবে।",
-          "en": "You must get a permit."
+          "ko": "민민아웅 씨가 조재 작업을 하러 가래요.",
+          "bn": "মিনমিন আউং বলছে বাকিং কাজে যেতে।",
+          "en": "Min Min Aung says to go do the bucking work."
         }
       ],
-      "commonMistakeBn": "অনেকে '하다' এর পরিবর্তে '되다' ব্যবহার করতে ভুলে যান, যদিও দুটিই প্রায় একই অর্থ প্রকাশ করে (~아/어야 되다)।"
+      "commonMistakeBn": "পূর্ণ রূপ '-(으)라고 해요' কথ্য পরিস্থিতিতে খুব আনুষ্ঠানিক শোনায়। সহকর্মীদের সঙ্গে সংক্ষিপ্ত রূপ ব্যবহার করুন।"
     },
     {
-      "pattern": "5",
-      "titleBn": "নিষেধাজ্ঞা: ~(으)면 안 되다",
-      "explanationBn": "বর্ণনা: ~(으)면 안 되다 বোঝায় যে কোনো কাজ করা নিষেধ বা উচিত নয়। উদাহরণ:\n1) '여기서 담배를 피우면 안 됩니다.' / 'এখানে ধূমপান করা নিষেধ।' / 'You must not smoke here.'\n2) '위험한 곳에 가면 안 됩니다.' / 'বিপজ্জনক জায়গায় যাওয়া উচিত নয়।' / 'You must not go to dangerous places.'",
-      "explanationEn": "Usage: ~(으)면 안 되다 indicates prohibition. Examples:\n1) '여기서 담배를 피우면 안 됩니다.' / 'You must not smoke here.'\n2) '위험한 곳에 가면 안 됩니다.' / 'You must not go to dangerous places.'",
+      "pattern": "-재요",
+      "titleBn": "পরোক্ষ উক্তির সংক্ষিপ্ত রূপ (প্রস্তাব)",
+      "explanationBn": "'-자고 해요' এর কথ্য সংক্ষিপ্ত রূপ। কেউ যে প্রস্তাব দিয়েছে তা পরোক্ষভাবে জানাতে ব্যবহার করা হয়। ক্রিয়ামূলে সরাসরি '-재요' যোগ হয়। উদাহরণ: '프엉 씨가 창고에 같이 가재요' (ফুয়ং প্রস্তাব করছে একসঙ্গে গুদামে যেতে)।",
+      "explanationEn": "The contracted spoken form of '-자고 해요'. Used to indirectly report a suggestion someone made. Attaches '-재요' directly to the verb stem. Example: '프엉 씨가 창고에 같이 가재요' (Phuong suggests going to the warehouse together).",
       "examples": [
         {
-          "ko": "여기서 담배를 피우면 안 됩니다.",
-          "bn": "এখানে ধূমপান করা নিষেধ।",
-          "en": "You must not smoke here."
+          "ko": "프엉 씨가 창고에 같이 가재요.",
+          "bn": "ফুয়ং প্রস্তাব করছে একসঙ্গে গুদামে যেতে।",
+          "en": "Phuong suggests going to the warehouse together."
         },
         {
-          "ko": "위험한 곳에 가면 안 됩니다.",
-          "bn": "বিপজ্জনক জায়গায় যাওয়া উচিত নয়।",
-          "en": "You must not go to dangerous places."
+          "ko": "민민아웅 씨가 체인톱으로 가지를 치재요.",
+          "bn": "মিনমিন আউং প্রস্তাব করছে চেইনস দিয়ে ডাল ছাঁটতে।",
+          "en": "Min Min Aung suggests trimming branches with the chainsaw."
         },
         {
-          "ko": "안전모를 벗으면 안 됩니다.",
-          "bn": "নিরাপত্তা হেলমেট খোলা নিষেধ।",
-          "en": "You must not take off your safety helmet."
+          "ko": "샤흐조드 씨가 오후에 벌채지에 가재요.",
+          "bn": "শাহজোদ প্রস্তাব করছে বিকেলে লগিং সাইটে যেতে।",
+          "en": "Shahzod suggests going to the logging site in the afternoon."
         }
       ],
-      "commonMistakeBn": "অনেকে স্বরবর্ণ এবং ব্যঞ্জনবর্ণের শেষে '(으)' এর সঠিক ব্যবহার করতে ভুল করেন। ব্যঞ্জনবর্ণ থাকলে '으면' এবং স্বরবর্ণ থাকলে '면' বসবে।"
+      "commonMistakeBn": "'-재요' আর '-제요' উচ্চারণে মিল আছে, কিন্তু প্রস্তাবের জন্য সঠিক বানান '-재요' (ㅈ+ㅐ)।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "현장 점검 보고",
-      "titleEn": "Field Inspection Report",
+      "titleBn": "প্রথমবার শিকড়-বান্ডিল বাঁধা",
+      "titleEn": "Root Ball Wrapping for the First Time",
       "lines": [
         {
-          "speaker": "팀장",
-          "ko": "오늘 산림 조사는 몇 시에 시작합니까?",
-          "bn": "আজ বন পরিদর্শন কয়টায় শুরু হবে?",
-          "en": "What time does the forest inspection start today?"
+          "speaker": "반장님",
+          "ko": "오늘은 분 감기 작업을 합시다. 해 본 적 있어요?",
+          "bn": "আজ শিকড়-বান্ডিল বাঁধার কাজ করি। আগে করেছেন কখনো?",
+          "en": "Let's do the root ball wrapping work today. Have you done it before?"
         },
         {
-          "speaker": "직원",
-          "ko": "오전 9시에 시작합니다. 준비물은 장갑과 지도입니다.",
-          "bn": "সকাল ৯টায় শুরু হবে। প্রস্তুতির জিনিস: গ্লাভস এবং মানচিত্র।",
-          "en": "It starts at 9 AM. Bring gloves and a map."
+          "speaker": "민민아웅",
+          "ko": "아니요, 분 감기는 해 본 적이 없습니다.",
+          "bn": "না, শিকড়-বান্ডিল বাঁধা কখনো করিনি।",
+          "en": "No, I've never done root ball wrapping before."
         },
         {
-          "speaker": "팀장",
-          "ko": "등산로는 안전합니까?",
-          "bn": "ট্রেইল কি নিরাপদ?",
-          "en": "Is the trail safe?"
+          "speaker": "반장님",
+          "ko": "그럼 내가 보여 줄 테니까 잘 보세요. 먼저 나무 아랫부분에 있는 가지를 위로 올려서 밴드로 묶어야 돼요.",
+          "bn": "তাহলে আমি দেখাচ্ছি, ভালো করে দেখুন। প্রথমে গাছের নিচের অংশের ডালগুলো উপরে তুলে ব্যান্ড দিয়ে বাঁধতে হবে।",
+          "en": "Then I'll show you, so watch closely. First, raise the branches at the lower part of the tree and tie them with a band."
         },
         {
-          "speaker": "직원",
-          "ko": "네, 일부 구간만 주의가 필요합니다.",
-          "bn": "হ্যাঁ, কিছু অংশে কেবল সতর্কতা দরকার।",
-          "en": "Yes, only some sections need caution."
+          "speaker": "민민아웅",
+          "ko": "아, 네. 그다음에는 뭘 해야 돼요?",
+          "bn": "আচ্ছা, বুঝেছি। তারপর কী করতে হবে?",
+          "en": "Oh, okay. What should I do next?"
         },
         {
-          "speaker": "팀장",
-          "ko": "사진을 찍고 보고서를 작성하세요.",
-          "bn": "ছবি তুলো এবং রিপোর্ট বানাও।",
-          "en": "Take photos and write the report."
+          "speaker": "반장님",
+          "ko": "삽으로 나무 주변을 둥글게 파다가 잔뿌리가 나오면 뿌리 가위로 잘라요.",
+          "bn": "কোদাল দিয়ে গাছের চারপাশে গোল করে খুঁড়তে খুঁড়তে সরু শিকড় বেরোলে শিকড়-কাঁচি দিয়ে কাটুন।",
+          "en": "Dig around the tree in a circle with a shovel, and when fine roots appear, cut them with root shears."
+        },
+        {
+          "speaker": "민민아웅",
+          "ko": "네, 반장님. 알겠습니다.",
+          "bn": "জি, বাঞ্জাংনিম। বুঝেছি।",
+          "en": "Yes, Banjangnim. Understood."
         }
       ]
     },
     {
-      "titleBn": "벌채 허가 확인",
-      "titleEn": "Checking Logging Permit",
+      "titleBn": "বাকিং কাজের প্রস্তুতি",
+      "titleEn": "Preparing for Bucking Work",
       "lines": [
         {
-          "speaker": "관리자",
-          "ko": "이 구역에 벌채 허가가 있습니까?",
-          "bn": "এই এলাকায় কাঠ কাটার অনুমতি আছে কি?",
-          "en": "Is there a logging permit for this area?"
+          "speaker": "영호",
+          "ko": "벌채지에서 연락이 왔어요. 벌목이 끝났대요.",
+          "bn": "লগিং সাইট থেকে খবর এসেছে। গাছ কাটা শেষ হয়েছে বলছে।",
+          "en": "We got a call from the logging site. They said the felling is finished."
         },
         {
-          "speaker": "사무원",
-          "ko": "네, 산림청에서 발급한 허가증이 있습니다.",
-          "bn": "হ্যাঁ, বন청 থেকে ইস্যুকৃত অনুমতিপত্র আছে।",
-          "en": "Yes, there is a permit issued by the Korea Forest Service."
+          "speaker": "민민아웅",
+          "ko": "그럼 조재 작업을 하러 가야겠네요.",
+          "bn": "তাহলে বাকিং কাজ করতে যেতে হবে।",
+          "en": "Then we should go do the bucking work."
         },
         {
-          "speaker": "관리자",
-          "ko": "작업 전에 안전 교육을 하세요.",
-          "bn": "কাজের আগে সেফটি ট্রেনিং দিন।",
-          "en": "Conduct safety training before work."
+          "speaker": "영호",
+          "ko": "네. 체인톱을 챙겼지요? 참, 말뚝도 가져가야 돼요. 톱질을 하다 보면 나무가 움직일 수 있으니까요.",
+          "bn": "হ্যাঁ। চেইনস নিয়েছেন তো? আর হ্যাঁ, খুঁটিও নিতে হবে। করাত চালাতে চালাতে গাছ নড়ে যেতে পারে।",
+          "en": "Yes. Did you pack the chainsaw? Oh, and bring stakes too. The trees could shift while sawing."
         },
         {
-          "speaker": "사무원",
-          "ko": "알겠습니다. 기록을 준비하겠습니다.",
-          "bn": "বুঝেছি। আমি রেকর্ড প্রস্তুত করব।",
-          "en": "Understood. I will prepare the records."
+          "speaker": "민민아웅",
+          "ko": "네, 체인톱이랑 말뚝을 챙기겠습니다. 토막 내기도 벌채지에서 해요?",
+          "bn": "জি, চেইনস আর খুঁটি নেব। টুকরো করার কাজও কি লগিং সাইটে হয়?",
+          "en": "Yes, I'll pack the chainsaw and stakes. Do we also cut them into pieces at the logging site?"
         },
         {
-          "speaker": "관리자",
-          "ko": "오늘 오후에 시작합시다.",
-          "bn": "আজ বিকেলে শুরু করি।",
-          "en": "Let's start this afternoon."
+          "speaker": "영호",
+          "ko": "아니요, 반장님이 벌채지에서는 가지치기만 하고 집재장에서 나머지 작업을 하래요.",
+          "bn": "না, বাঞ্জাং বলেছেন লগিং সাইটে শুধু ডাল ছাঁটতে, বাকি কাজ লগ ইয়ার্ডে করতে।",
+          "en": "No, the supervisor said to only trim branches at the logging site and do the rest at the log yard."
+        },
+        {
+          "speaker": "민민아웅",
+          "ko": "아, 네. 알겠습니다. 얼른 가서 챙겨 오겠습니다.",
+          "bn": "আচ্ছা, বুঝেছি। তাড়াতাড়ি গিয়ে নিয়ে আসছি।",
+          "en": "Oh, okay. Understood. I'll go grab them right away."
         }
       ]
     },
     {
-      "titleBn": "안전 장비 확인 (নিরাপত্তা সরঞ্জাম যাচাই)",
-      "titleEn": "Checking Safety Equipment",
+      "titleBn": "লগিং সাইটে যন্ত্র নষ্ট",
+      "titleEn": "Broken Equipment at the Logging Site",
       "lines": [
         {
-          "speaker": "반장",
-          "ko": "여러분, 작업 전에 안전 장비를 확인합시다.",
-          "bn": "সবাই, কাজের আগে নিরাপত্তা সরঞ্জাম যাচাই করি।",
-          "en": "Everyone, let's check the safety equipment before work."
+          "speaker": "프엉",
+          "ko": "지금 어디로 가면 돼요?",
+          "bn": "এখন কোথায় যেতে হবে?",
+          "en": "Where should I go now?"
         },
         {
-          "speaker": "직원",
-          "ko": "네, 안전모와 안전화를 모두 착용했습니다.",
-          "bn": "হ্যাঁ, নিরাপত্তা হেলমেট এবং জুতো দুটোই পরেছি।",
-          "en": "Yes, I have put on both the safety helmet and safety shoes."
+          "speaker": "영호",
+          "ko": "벌채지로 가면 돼요. 지금 벌목 작업을 하고 있는데 체인톱이 고장났대요.",
+          "bn": "লগিং সাইটে যান। এখন গাছ কাটার কাজ চলছে, কিন্তু চেইনস নষ্ট হয়ে গেছে বলছে।",
+          "en": "Go to the logging site. They're felling now, but they said the chainsaw broke down."
         },
         {
-          "speaker": "반장",
-          "ko": "좋습니다. 톱과 도끼도 준비되었습니까?",
-          "bn": "ভালো। করাত এবং কুঠারও কি প্রস্তুত?",
-          "en": "Good. Are the saw and axe ready too?"
+          "speaker": "프엉",
+          "ko": "그래요? 그럼 새 체인톱을 가져갈까요?",
+          "bn": "তাই নাকি? তাহলে নতুন চেইনস নিয়ে যাব?",
+          "en": "Really? Then should I bring a new chainsaw?"
         },
         {
-          "speaker": "직원",
-          "ko": "네, 모두 준비되었습니다.",
-          "bn": "হ্যাঁ, সবকিছু প্রস্তুত।",
-          "en": "Yes, everything is ready."
+          "speaker": "영호",
+          "ko": "네. 그리고 반장님이 마대하고 밴드도 가져오래요.",
+          "bn": "হ্যাঁ। আর বাঞ্জাং বলেছেন চটের বস্তা আর ব্যান্ডও আনতে।",
+          "en": "Yes. And the supervisor says to bring burlap bags and bands too."
         },
         {
-          "speaker": "반장",
-          "ko": "그럼 안전하게 작업을 시작합시다.",
-          "bn": "তাহলে নিরাপদে কাজ শুরু করি।",
-          "en": "Then let's start the work safely."
+          "speaker": "프엉",
+          "ko": "알겠습니다. 작업이 언제 끝나냬요?",
+          "bn": "বুঝেছি। কাজ কখন শেষ হবে জিজ্ঞেস করছেন?",
+          "en": "Understood. Are they asking when the work will finish?"
+        },
+        {
+          "speaker": "영호",
+          "ko": "네, 오후 다섯 시까지는 끝내재요.",
+          "bn": "হ্যাঁ, বিকেল পাঁচটার মধ্যে শেষ করার প্রস্তাব দিচ্ছেন।",
+          "en": "Yes, they suggest finishing by five in the afternoon."
         }
       ]
     }
@@ -659,584 +738,560 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "산림청은 কী? সঠিক উত্তরটি চয়ন করুন।",
-      "questionKo": "산림청은 무엇입니까? 알맞은 것을 고르세요.",
+      "questionBn": "'굴취' শব্দের অর্থ কী?",
+      "questionKo": "'굴취'의 뜻은 무엇입니까?",
       "options": [
-        "개인 소유의 숲",
-        "국가 기관 (Forest Service)",
-        "휴식 시설",
-        "나무를 판매하는 시장"
+        "গাছ কেটে ফেলা",
+        "গাছ শিকড়সহ তুলে নেওয়া",
+        "কাঠ টুকরো করা",
+        "ডাল ছেঁটে দেওয়া"
       ],
-      "pairs": [],
       "answer": 1,
-      "explanationBn": "산림청은 국가 기관으로서 'Korea Forest Service'—국가 기관 হওয়ায় সঠিক উত্তর 1।"
+      "explanationBn": "'굴취' মানে গাছ শিকড়সহ মাটি থেকে তুলে নেওয়া, যাতে অন্য জায়গায় রোপণ করা যায়। 'গাছ কেটে ফেলা' হলো '벌목', 'কাঠ টুকরো করা' হলো '조재', আর 'ডাল ছাঁটা' হলো '가지치기'।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "다음 중 진행형 문장은 কোন 것인가? (Which is progressive form.)",
-      "questionKo": "다음 중 진행형 문장은 어느 것입니까?",
+      "questionBn": "সরু শিকড় (잔뿌리) কাটার জন্য কোন যন্ত্র ব্যবহার করা হয়?",
+      "questionKo": "잔뿌리를 자를 때 무엇을 사용합니까?",
       "options": [
-        "우리는 나무를 심고 있습니다.",
-        "우리는 보고서를 작성했습니다.",
-        "우리는 보고서를 제출합니다.",
-        "우리는 내일 출근합니다."
+        "체인톱",
+        "뿌리 가위",
+        "하베스터",
+        "마대"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "진행형은 '~고 있습니다' 형태: '나무를 심고 있습니다.' তাই 1번 인덱스(두 번째 선택)가 সঠিক।"
+      "answer": 1,
+      "explanationBn": "'뿌리 가위' (শিকড়-কাঁচি) সরু শিকড় পরিষ্কার করার নির্দিষ্ট যন্ত্র। '체인톱' বড় গাছ কাটার করাত, '하베스터' ভারী মেশিন, আর '마대' হলো চটের বস্তা।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "첫 번째 대화에서 팀장은 무엇을 지시했나요?",
-      "questionKo": "첫 번째 대화에서 팀장은 무엇을 지시했습니까?",
+      "questionBn": "শিকড়-বান্ডিল বাঁধার সময় প্রথমে কোন কাজটি করা হয়?",
+      "questionKo": "분 감기 작업에서 가장 먼저 하는 것은 무엇입니까?",
       "options": [
-        "점심을 준비하라고",
-        "허가증을 확인하라고",
-        "트럭을 수리하라고",
-        "사진을 찍고 보고서를 작성하라고"
+        "밴드로 분을 감아요.",
+        "나무 밑동 지름의 2~3배 거리에 원을 그려요.",
+        "뿌리 가위로 잔뿌리를 정리해요.",
+        "마대로 분을 감아요."
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "대화 마지막에 팀장은 '사진을 찍고 보고서를 작성하세요.'라고 했으므로 첫 번째 선택(인덱스 0) সঠিক।"
+      "answer": 1,
+      "explanationBn": "কাজের ধাপ অনুযায়ী প্রথমে গাছের গোড়ার ব্যাসের ২~৩ গুণ দূরত্বে বৃত্ত আঁকা হয়। এরপর খোঁড়া, শিকড় পরিষ্কার, চটের বস্তা ও শেষে ব্যান্ড দিয়ে বাঁধা হয়।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "허가(허가증)의 뜻은 কী?",
-      "questionKo": "허가의 뜻은 무엇입니까?",
+      "questionBn": "'벌채지' মানে কী?",
+      "questionKo": "'벌채지'는 무슨 뜻입니까?",
       "options": [
-        "조사",
-        "보고서",
-        "허가 / 승인",
-        "안전 장비"
+        "গাছ কাটার স্থান",
+        "কাঠ জমা করার স্থান",
+        "গাছের চারা তৈরির স্থান",
+        "কাঠ বিক্রির বাজার"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "허가는 অনুমতি বা 승인 মানে—তাই তৃতীয় অপশন (인덱스 2) সঠিক।"
+      "answer": 0,
+      "explanationBn": "'벌채지' হলো যেখানে গাছ কাটা (벌목) হয়। কাঠ জমা করার স্থান হলো '집재장'। দুটি শব্দ কাজের ধাপে আলাদা, তাই গুলিয়ে ফেলা যাবে না।"
     },
     {
       "id": "p5",
       "type": "multiple-choice",
-      "questionBn": "다음 문장의 올바른 번역은? '산불 예방이 중요합니다.'",
-      "questionKo": "다음 문장의 올바른 번역은 무엇입니까? '산불 예방이 중요합니다.'",
+      "questionBn": "'톱질을 하다가 잠시 쉬었어요' বাক্যে '-다가' কী বোঝাচ্ছে?",
+      "questionKo": "'톱질을 하다가 잠시 쉬었어요'에서 '-다가'는 무엇을 나타냅니까?",
       "options": [
-        "কাঠ কাটার অনুমতি আছে।",
-        "বন আগুন প্রতিরোধ জরুরি।",
-        "ট্রেইল বন্ধ হয়েছে।",
-        "রিপোর্ট প্রস্তুত করতে হবে।"
+        "কাজটি সম্পূর্ণ শেষ হয়েছে",
+        "একটি কাজ থেমে অন্য কাজে বদলে গেছে",
+        "দুটি কাজ একসঙ্গে চলছে",
+        "কাজটি এখনো শুরু হয়নি"
       ],
-      "pairs": [],
       "answer": 1,
-      "explanationBn": "'산불 예방이 중요합니다.' মানে 'বন আগুন প্রতিরোধ জরুরি।' তাই অপশন 0 সঠিক।"
+      "explanationBn": "'-다가' বোঝায় একটি কাজ চলতে চলতে থেমে গিয়ে অন্য কাজ শুরু হয়েছে। করাত চালানো থেমে বিশ্রাম শুরু হয়েছে। কাজ সম্পূর্ণ শেষ বোঝাতে '-고 나서' ব্যবহার হয়।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 단어를 고르세요: '_____ 허가가 필요합니다.' (কোন শব্দটি উপযুক্ত?)",
-      "questionKo": "빈칸에 알맞은 단어를 고르세요: '_____ 허가가 필요합니다.'",
+      "type": "multiple-choice",
+      "questionBn": "'반장님이 체인톱을 가져오래요' বাক্যটি কী বোঝায়?",
+      "questionKo": "'반장님이 체인톱을 가져오래요'는 무슨 뜻입니까?",
       "options": [
-        "벌채",
-        "휴식지",
-        "등산로",
-        "환경"
+        "বাঞ্জাং জিজ্ঞেস করছেন চেইনস আছে কিনা",
+        "বাঞ্জাং বলছেন চেইনস আনতে",
+        "বাঞ্জাং প্রস্তাব দিচ্ছেন একসঙ্গে চেইনস আনতে",
+        "বাঞ্জাং নিজে চেইনস আনবেন"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "'벌채 허가가 필요합니다.' (কাঠ কাটার জন্য অনুমতি দরকার) — তাই '벌채' (ইনডেক্স 1) সঠিক।"
+      "answer": 1,
+      "explanationBn": "'-(으)래요' হলো '-(으)라고 해요' এর সংক্ষিপ্ত রূপ, অর্থাৎ আদেশ বা নির্দেশ পরোক্ষভাবে জানানো। প্রশ্নের জন্য '-냬요', প্রস্তাবের জন্য '-재요' ব্যবহার হয়।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 맞는 표현을 고르세요: '지금 우리는 현장에서 _____ 있습니다.'",
-      "questionKo": "빈칸에 맞는 표현을 고르세요: '지금 우리는 현장에서 _____ 있습니다.'",
+      "type": "multiple-choice",
+      "questionBn": "'프엉 씨가 창고에 같이 가재요' বাক্যে কী প্রকাশ পাচ্ছে?",
+      "questionKo": "'프엉 씨가 창고에 같이 가재요'는 무엇을 나타냅니까?",
       "options": [
-        "조사하고",
-        "잠깐",
-        "가겠습니다",
-        "있습니다"
+        "একটি প্রশ্ন",
+        "একটি আদেশ",
+        "একটি প্রস্তাব",
+        "একটি বর্ণনা"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "문장은 '지금 우리는 현장에서 있습니다.' 형태로 자연—따라서 '있습니다' (인덱스 0) সঠিক।"
+      "answer": 2,
+      "explanationBn": "'-재요' হলো '-자고 해요' এর সংক্ষিপ্ত রূপ, যা প্রস্তাব (একসঙ্গে কিছু করার আহ্বান) পরোক্ষভাবে জানায়। আদেশের জন্য '-(으)래요' আর প্রশ্নের জন্য '-냬요' ব্যবহার হয়।"
     },
     {
       "id": "p8",
       "type": "fill-blank",
-      "questionBn": "다음 중 요청 표현으로 적절한 것은? '장갑을 _____.'",
-      "questionKo": "다음 중 요청 표현으로 적절한 것은? '장갑을 _____.'",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 삽으로 땅을 ______ 잠시 쉬고 있어요.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
       "options": [
-        "합니다",
-        "했다",
-        "하세요",
-        "있다"
+        "파다가",
+        "파고",
+        "파면",
+        "파서"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "요청 표현은 '~하세요' 사용: '장갑을 착용하세요.'에서 '하세요' (인덱스 2) সঠিক।"
+      "answer": 0,
+      "explanationBn": "খোঁড়ার কাজ চলতে চলতে থেমে বিশ্রাম শুরু হয়েছে, তাই '-다가' সঠিক। '파고' পরপর দুই কাজ, '파면' শর্ত, '파서' কারণ বোঝায়।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "한국어 단어와 বাংলা 뜻을 연결하세요.",
-      "questionKo": "한국어 단어와 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "산림",
-          "right": "বন"
-        },
-        {
-          "left": "허가",
-          "right": "অনুমতি"
-        },
-        {
-          "left": "산불",
-          "right": "বন আগুন"
-        },
-        {
-          "left": "등산로",
-          "right": "ট্রেইল"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 벌채지에서 연락이 왔어요. 벌목이 ______.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "끝났대요",
+        "끝났냬요",
+        "끝나래요",
+        "끝나재요"
       ],
       "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া পাঠে শেখানো ভোকাবুলারি অনুযায়ী মিলেছে (উদাহরণ: 산림=বন, 허가=অনুমতি)।"
+      "explanationBn": "অন্যের বলা তথ্য (বিবৃতি) পরোক্ষভাবে জানাতে '-대요' ব্যবহার হয়। '-냬요' প্রশ্ন, '-(으)래요' আদেশ, '-재요' প্রস্তাবের জন্য।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "한국어 단어와 영어 뜻을 연결하세요.",
-      "questionKo": "한국어 단어와 영어 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "재조림",
-          "right": "reforestation"
-        },
-        {
-          "left": "수목",
-          "right": "trees"
-        },
-        {
-          "left": "보호",
-          "right": "protection"
-        },
-        {
-          "left": "지속가능성",
-          "right": "sustainability"
-        },
-        {
-          "left": "산림청",
-          "right": "Korea Forest Service"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 나무를 옮기기 전에 뿌리를 마대로 ______ 돼요.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "감아야",
+        "베어야",
+        "쏟아야",
+        "뽑아야"
       ],
       "answer": 0,
-      "explanationBn": "এই জোড়াগুলো পাঠ্যভিত্তিক: 재조림=reforestation, 수목=trees ইত্যাদি।"
+      "explanationBn": "শিকড়ের বান্ডিল চটের বস্তা দিয়ে জড়ানো হয়, তাই '감다' (জড়ানো) সঠিক। '베다' কাটা, '쏟다' ঢেলে ফেলা, '뽑다' টেনে তোলা।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 나무를 자를 때 사용하는 도구는 무엇입니까? (গাছ কাটার সময় ব্যবহৃত সরঞ্জাম কোনটি?)",
-      "questionKo": "다음 중 나무를 자를 때 사용하는 도구는 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 다라 씨가 주말에 ______.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
       "options": [
-        "안전모",
-        "톱",
-        "지도",
-        "장갑"
+        "바쁘냬요",
+        "바쁘대요",
+        "바쁘래요",
+        "바쁘재요"
       ],
-      "answer": 1,
-      "explanationBn": "나무를 자를 때 사용하는 도구는 '톱'(করাত)입니다. 따라서 2번이 정답입니다."
+      "answer": 0,
+      "explanationBn": "কেউ প্রশ্ন করেছে তা পরোক্ষভাবে জানাতে বিশেষণের সঙ্গে '-(으)냬요' ব্যবহার হয়। '-대요' বিবৃতি জানায়, প্রশ্ন নয়।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "작업장에서 머리를 보호하기 위해 쓰는 것은 무엇입니까? (কাজের জায়গায় মাথা রক্ষা করার জন্য কী পরা হয়?)",
-      "questionKo": "작업장에서 머리를 보호하기 위해 쓰는 것은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 체인톱으로 나무의 ______ 치고 나서 토막을 내요.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
       "options": [
-        "안전화",
-        "작업복",
-        "안전모",
-        "장갑"
+        "가지를",
+        "밑동을",
+        "지름을",
+        "숲을"
       ],
-      "answer": 2,
-      "explanationBn": "머리를 보호하기 위해 쓰는 것은 '안전모'(নিরাপত্তা হেলমেট)입니다. 따라서 3번이 정답입니다."
+      "answer": 0,
+      "explanationBn": "'가지를 치다' মানে ডাল ছাঁটা, যা টুকরো করার (토막을 내다) আগের ধাপ। '밑동' গোড়া, '지름' ব্যাস, '숲' বন — কোনোটিই '치다' এর সঙ্গে বসে না।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "다음 문장의 빈칸에 알맞은 말은 무엇입니까? '위험한 곳에 가면 안 _____.'",
-      "questionKo": "다음 문장의 빈칸에 알맞은 말은 무엇입니까? '위험한 곳에 가면 안 _____.'",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 페인트를 칠하다가 바닥에 ______.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
       "options": [
-        "됩니다",
-        "합니다",
-        "있습니다",
-        "없습니다"
+        "쏟았어요",
+        "감았어요",
+        "묶었어요",
+        "챙겼어요"
       ],
       "answer": 0,
-      "explanationBn": "금지를 나타내는 표현은 '~(으)면 안 되다'입니다. 따라서 '됩니다'가 정답입니다."
+      "explanationBn": "রং করতে করতে মেঝেতে পড়ে যাওয়া বোঝাতে '쏟다' (ঢেলে ফেলা) সঠিক। '감다' জড়ানো, '묶다' বাঁধা, '챙기다' গুছিয়ে নেওয়া।"
     },
     {
       "id": "p14",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 의무를 나타내는 표현은 무엇입니까? (নিচের কোনটি বাধ্যবাধকতা বোঝায়?)",
-      "questionKo": "다음 중 의무를 나타내는 표현은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 원목을 한곳에 모으는 장소를 ______(이)라고 해요.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
       "options": [
-        "~고 있습니다",
-        "~(으)세요",
-        "~아/어야 합니다",
-        "~는 것"
+        "집재장",
+        "벌채지",
+        "작업장",
+        "창고"
       ],
-      "answer": 2,
-      "explanationBn": "의무를 나타내는 표현은 '~아/어야 합니다'입니다. 따라서 3번이 정답입니다."
+      "answer": 0,
+      "explanationBn": "'집재장' হলো কাটা কাঠ এক জায়গায় জমা করার স্থান। '벌채지' গাছ কাটার স্থান, '작업장' সাধারণ কর্মস্থল, '창고' গুদাম।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 단어를 고르세요: '작업 전에 _____ 장비를 확인합시다.'",
-      "questionKo": "빈칸에 알맞은 단어를 고르세요: '작업 전에 _____ 장비를 확인합시다.'",
-      "options": [
-        "안전",
-        "위험",
-        "자연",
-        "식물"
+      "type": "matching",
+      "questionBn": "প্রতিটি কাজের সঙ্গে তার উপযুক্ত স্থান মিলান।",
+      "questionKo": "작업과 장소를 알맞게 연결하십시오.",
+      "pairs": [
+        {
+          "left": "나무를 베는 작업",
+          "right": "벌채지"
+        },
+        {
+          "left": "원목을 모으는 장소",
+          "right": "집재장"
+        },
+        {
+          "left": "나무를 뿌리째 뽑는 작업",
+          "right": "굴취"
+        },
+        {
+          "left": "원목을 토막 내는 작업",
+          "right": "조재"
+        }
       ],
       "answer": 0,
-      "explanationBn": "작업 전에는 '안전'(নিরাপত্তা) 장비를 확인해야 합니다. 따라서 1번이 정답입니다."
+      "explanationBn": "'벌채지'에서 '벌목' (গাছ কাটা) হয়, '집재장'এ কাটা কাঠ জমা করা হয়, '굴취' শিকড়সহ তোলা, '조재' টুকরো করা। প্রতিটি শব্দ বনসম্পদ কাজের নির্দিষ্ট ধাপ বোঝায়।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 단어를 고르세요: '_____이 나무를 자릅니다.'",
-      "questionKo": "빈칸에 알맞은 단어를 고르세요: '_____이 나무를 자릅니다.'",
-      "options": [
-        "팀장",
-        "벌목공",
-        "사무원",
-        "관리자"
+      "type": "matching",
+      "questionBn": "প্রতিটি ক্রিয়াপদের সঙ্গে তার '-다가' রূপ মিলান।",
+      "questionKo": "동사와 '-다가' 형태를 알맞게 연결하십시오.",
+      "pairs": [
+        {
+          "left": "파다",
+          "right": "파다가"
+        },
+        {
+          "left": "톱질하다",
+          "right": "톱질하다가"
+        },
+        {
+          "left": "염색하다",
+          "right": "염색하다가"
+        },
+        {
+          "left": "작동하다",
+          "right": "작동하다가"
+        }
       ],
-      "answer": 1,
-      "explanationBn": "나무를 자르는 사람은 '벌목공'(কাঠুরে)입니다. 따라서 2번이 정답입니다."
+      "answer": 0,
+      "explanationBn": "'-다가' ক্রিয়ামূলের সঙ্গে সরাসরি যুক্ত হয়। স্বর শেষ হলেও ব্যঞ্জন শেষ হলেও একই রূপ। শব্দে 'ㅎ' থাকলে (작동하다 → 작동하다가) কোনো পরিবর্তন হয় না।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 단어를 고르세요: '비가 많이 오면 _____를 조심해야 합니다.'",
-      "questionKo": "빈칸에 알맞은 단어를 고르세요: '비가 많이 오면 _____를 조심해야 합니다.'",
+      "type": "multiple-choice",
+      "questionBn": "'하베스터' কী?",
+      "questionKo": "'하베스터'는 무엇입니까?",
       "options": [
-        "산불",
-        "산사태",
-        "재조림",
-        "휴식지"
+        "গাছ কাটার ভারী যন্ত্র",
+        "শিকড় কাটার কাঁচি",
+        "চটের বস্তা",
+        "কাঠ বহনের গাড়ি"
       ],
-      "answer": 1,
-      "explanationBn": "비가 많이 오면 '산사태'(ভূমিধস)를 조심해야 합니다. 따라서 2번이 정답입니다."
+      "answer": 0,
+      "explanationBn": "'하베스터' (harvester) একটি আধুনিক ভারী যন্ত্র যা গাছ কাটা, ডাল ছাঁটা ও পরিমাপ একসঙ্গে করতে পারে। '뿌리 가위' শিকড়-কাঁচি, '마대' চটের বস্তা।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 단어를 고르세요: '봄에 _____을 심습니다.'",
-      "questionKo": "빈칸에 알맞은 단어를 고르세요: '봄에 _____을 심습니다.'",
+      "type": "multiple-choice",
+      "questionBn": "টুকরো করার (조재) কাজের সময় কেন খুঁটি (말뚝) লাগে?",
+      "questionKo": "조재 작업을 할 때 말뚝이 왜 필요합니까?",
       "options": [
-        "묘목",
-        "도끼",
-        "톱",
-        "안전화"
+        "কাঠ চিহ্নিত করার জন্য",
+        "করাত চালানোর সময় গাছ নড়ে যেতে পারে বলে",
+        "কাঠ পরিমাপ করার জন্য",
+        "কাঠ বহন করার জন্য"
       ],
-      "answer": 0,
-      "explanationBn": "봄에는 '묘목'(চারাগাছ)을 심습니다. 따라서 1번이 정답입니다."
+      "answer": 1,
+      "explanationBn": "সংলাপে বলা হয়েছে 'টুকরো করতে করতে গাছ নড়ে যেতে পারে' তাই খুঁটি দিয়ে ঠেকিয়ে রাখতে হয়। খুঁটি নিরাপত্তার জন্য ব্যবহৃত হয়।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "한국어 단어와 বাংলা 뜻을 연결하세요.",
-      "questionKo": "한국어 단어와 뜻을 연결하세요.",
-      "pairs": [
-        {
-          "left": "안전모",
-          "right": "নিরাপত্তা হেলমেট"
-        },
-        {
-          "left": "톱",
-          "right": "করাত"
-        },
-        {
-          "left": "도끼",
-          "right": "কুঠার"
-        },
-        {
-          "left": "위험",
-          "right": "বিপদ"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 분을 둥글게 만든 후에 마대로 한 번 ______.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "감아요",
+        "베어요",
+        "파요",
+        "뽑아요"
       ],
-      "explanationBn": "সঠিক উত্তরটি পাঠ্যভিত্তিক।"
+      "answer": 0,
+      "explanationBn": "শিকড়-বান্ডিল বাঁধার ধাপে বান্ডিল গোল করার পরে চটের বস্তা দিয়ে জড়ানো হয়। '감다' মানে জড়ানো/বাঁধা। '베다' কাটা, '파다' খোঁড়া, '뽑다' টেনে তোলা।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "한국어 단어와 영어 뜻을 연결하세요.",
-      "questionKo": "한국어 단어와 영어 뜻을 연결하세요.",
+      "questionBn": "প্রতিটি পরোক্ষ উক্তির সঙ্গে তার অর্থ মিলান।",
+      "questionKo": "간접 인용 표현과 뜻을 알맞게 연결하십시오.",
       "pairs": [
         {
-          "left": "벌목공",
-          "right": "logger"
+          "left": "벌목이 끝났대요",
+          "right": "다른 사람이 그렇게 말했어요"
         },
         {
-          "left": "산사태",
-          "right": "landslide"
+          "left": "주말에 바쁘냬요",
+          "right": "다른 사람이 그렇게 물어봤어요"
         },
         {
-          "left": "예방",
-          "right": "prevention"
+          "left": "청소하래요",
+          "right": "다른 사람이 그렇게 하라고 했어요"
         },
         {
-          "left": "규칙",
-          "right": "rule"
+          "left": "같이 가재요",
+          "right": "다른 사람이 같이 가자고 했어요"
         }
       ],
-      "explanationBn": "সঠিক উত্তরটি পাঠ্যভিত্তিক।"
+      "answer": 0,
+      "explanationBn": "'-대요' বিবৃতি, '-냬요' প্রশ্ন, '-(으)래요' আদেশ, '-재요' প্রস্তাব — প্রতিটি পরোক্ষ উক্তির সংক্ষিপ্ত রূপ। কথ্য পরিস্থিতিতে এগুলো খুব সাধারণ।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক বিকল্পটি চয়ন করুন।",
-      "questionKo": "다음 지문을 읽고 알맞은 것을 고르세요.",
-      "passage": "이번 주에 재조림 작업이 예정되어 있습니다. 팀은 아침 8시에 모여 장비를 점검합니다. 비가 오면 작업을 연기합니다.",
+      "questionBn": "নিচেরটি পড়ে সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "나무를 다른 곳으로 옮기려면 먼저 뿌리를 흙과 함께 둥글게 만들어야 합니다. 이것을 '분'이라고 합니다.",
       "options": [
-        "비가 오면 작업을 연기한다.",
-        "팀은 오후에 모입니다.",
-        "재조림은 취소되었다.",
-        "장비 점검은 하지 않는다."
+        "분",
+        "벌목",
+        "조재",
+        "집재"
       ],
       "answer": 0,
-      "explanationBn": "지문에 '비가 오면 작업을 연기합니다.' লেখা আছে, তাই অপশন 1 সঠিক।"
+      "explanationBn": "অনুচ্ছেদে স্পষ্ট বলা আছে শিকড় ও মাটি একসঙ্গে গোল করে বানানো অংশকে '분' বলে। '벌목' গাছ কাটা, '조재' টুকরো করা, '집재' কাঠ জমা করা।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক প্রশ্নের উত্তরের নম্বর চয়ন করুন।",
-      "questionKo": "다음 지문을 읽고 질문에 알맞은 답을 고르세요.",
-      "passage": "등산로 일부가 훼손되어 출입이 제한됩니다. 표지판을 따라 다른 길로 이동하세요.",
+      "questionBn": "নিচেরটি পড়ে সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "가: 삽으로 땅을 파면 돼요?\n나: 아니요, 먼저 나무 밑동 지름의 2~3배 거리에 원을 그려야 해요.",
       "options": [
-        "모두 등산하라.",
-        "출입이 제한된다.",
-        "표지판이 없다.",
-        "등산로는 안전하다."
+        "삽으로 바로 땅을 팝니다.",
+        "먼저 원을 그린 후에 땅을 팝니다.",
+        "뿌리 가위로 먼저 자릅니다.",
+        "마대로 먼저 감습니다."
       ],
       "answer": 1,
-      "explanationBn": "지문에 '출입이 제한됩니다.' 라고 되어 있으므로 1번 সঠিক।"
+      "explanationBn": "সংলাপে '나' বলছে সরাসরি খোঁড়া নয়, আগে বৃত্ত আঁকতে হবে। তাই সঠিক উত্তর হলো বৃত্ত আঁকার পরে খোঁড়া।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "প্যাসেজ থেকে তথ্য অনুসারে সঠিক উত্তরটি চয়ন করুন।",
-      "questionKo": "다음 지문을 읽고 알맞은 것을 고르세요.",
-      "passage": "산림청은 벌채 허가를 엄격히 관리합니다. 무단 벌채는 벌금이나 처벌 대상입니다.",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "체인톱으로 나무를 자를 때 나무가 움직일 수 있으니까 ______을/를 사용해서 고정해야 합니다.",
       "options": [
-        "벌채는 자유롭다.",
-        "산림청은 허가를 남발한다.",
-        "무단 벌채는 처벌된다.",
-        "허가가 필요 없다."
+        "마대",
+        "밴드",
+        "삽",
+        "말뚝"
       ],
-      "answer": 2,
-      "explanationBn": "지문에 '무단 벌채는 벌금이나 처벌 대상입니다.' আছে—তাই অপশন 2 সঠিক।"
+      "answer": 3,
+      "explanationBn": "গাছ নড়ে যাওয়া ঠেকাতে '말뚝' (খুঁটি) দিয়ে স্থির করা হয়। '마대' চটের বস্তা, '밴드' ফিতা, '삽' কোদাল — কোনোটিই গাছ স্থির করার জন্য নয়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে সঠিক সময় বা ক্রিয়া নির্ণয় করুন।",
-      "questionKo": "다음 지문을 읽고 알맞은 것을 고르세요.",
-      "passage": "조사팀은 오전에 현장에 있습니다. 점심 후에는 보고서를 작성합니다.",
+      "questionBn": "নিচেরটি পড়ে সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "반장님이 벌채지에서는 가지치기만 하고 나머지 작업은 집재장에서 하라고 했습니다.",
       "options": [
-        "팀은 밤에 가서 작업한다.",
-        "현장에 가지 않는다.",
-        "보고서를 아침에 작성한다.",
-        "점심 후에 보고서를 작성한다."
+        "벌채지에서 모든 작업을 합니다.",
+        "집재장에서 가지치기를 합니다.",
+        "벌채지에서는 가지치기만 합니다.",
+        "집재장에서는 아무 작업도 안 합니다."
       ],
-      "answer": 3,
-      "explanationBn": "지문에 '점심 후에는 보고서를 작성합니다.' লেখা আছে—অপশন 2 সঠিক।"
+      "answer": 2,
+      "explanationBn": "অনুচ্ছেদ অনুযায়ী লগিং সাইটে শুধু ডাল ছাঁটা হয়, বাকি কাজ লগ ইয়ার্ডে। তাই তৃতীয় বিকল্পটি সঠিক।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "প্যাসেজ থেকে সিদ্ধান্ত নিন: কোনটি প্রযোজ্য?",
-      "questionKo": "다음 지문을 읽고 알맞은 것을 고르세요.",
-      "passage": "작업 전에 모든 직원은 안전 교육을 받아야 합니다. 교육을 받지 않으면 작업에 참여할 수 없습니다.",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "잔뿌리가 나오면 ______(으)로 깨끗하게 정리합니다.",
       "options": [
-        "안전 교육은 필수이다.",
-        "교육은 나중에 하면 된다.",
-        "교육 없이도 작업에 참여 가능하다.",
-        "안전 교육은 선택 사항이다."
+        "뿌리 가위",
+        "체인톱",
+        "하베스터",
+        "소형 굴착기"
       ],
       "answer": 0,
-      "explanationBn": "지문에 '안전 교육을 받아야 합니다.' 라고 명시—অপশন 2 (세 번째) সঠিক।"
+      "explanationBn": "সরু শিকড় পরিষ্কার করার নির্দিষ্ট যন্ত্র হলো '뿌리 가위'। বাকিগুলো বড় গাছ কাটা বা মাটি খোঁড়ার ভারী যন্ত্র, সূক্ষ্ম কাজের জন্য নয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "음성 내용을 듣고 알맞은 답을 고르세요। (পঠিত স্ক্রিপ্ট পড়ে উত্তর দিন)",
-      "questionKo": "다음을 듣고 질문에 답하세요.",
-      "passage": "오늘 오후에 벌채 작업을 시작합니다. 허가증을 확인했고 안전 교육을 완료했습니다. 모두 준비되었습니까?",
+      "section": "reading",
+      "questionBn": "নিচেরটি পড়ে সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "영호 씨가 민민아웅 씨한테 전화해서 조재 작업을 하러 가라고 했습니다.",
       "options": [
-        "허가증이 없다.",
-        "안전 교육이 완료되었다.",
-        "작업은 내일 시작한다.",
-        "누구도 준비되지 않았다."
+        "영호 씨가 조재 작업을 하러 가래요.",
+        "영호 씨가 조재 작업을 하러 가재요.",
+        "영호 씨가 조재 작업을 하러 가냬요.",
+        "영호 씨가 조재 작업을 하러 간대요."
       ],
-      "answer": 1,
-      "explanationBn": "스크립트에 '안전 교육을 완료했습니다.' 라고 되어 있으므로 অপশন 1 সঠিক।"
+      "answer": 0,
+      "explanationBn": "'가라고 했다' (আদেশ) এর সংক্ষিপ্ত রূপ হলো '가래요'। '가재요' প্রস্তাব, '가냬요' প্রশ্ন, '간대요' বিবৃতি বোঝায়।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "듣고 맞는 것을 고르세요। (পঠিত স্ক্রিপ্ট পড়ে উত্তর দিন)",
-      "questionKo": "다음을 듣고 질문에 답하세요.",
-      "passage": "조사팀이 오전 8시에 모입니다. 장비를 확인하고 출발합니다. 비상 연락처를 확인하세요.",
+      "section": "reading",
+      "questionBn": "কাজের সঠিক ক্রম কোনটি?",
+      "questionKo": "작업 순서가 알맞은 것을 고르십시오.",
+      "passage": "분 감기 작업의 순서를 생각해 보십시오.",
       "options": [
-        "장비 확인이 필요 없다.",
-        "비상 연락처는 필요 없다.",
-        "오전 8시에 모인다.",
-        "조사팀은 오후 8시에 모인다."
+        "원 그리기 → 땅 파기 → 잔뿌리 정리 → 마대 감기",
+        "마대 감기 → 원 그리기 → 땅 파기 → 잔뿌리 정리",
+        "잔뿌리 정리 → 마대 감기 → 원 그리기 → 땅 파기",
+        "땅 파기 → 마대 감기 → 원 그리기 → 잔뿌리 정리"
       ],
-      "answer": 2,
-      "explanationBn": "스크립트에 '오전 8시에 모입니다.' 라고 되어 있으므로 অপশন 2 (세 번째) সঠিক।"
+      "answer": 0,
+      "explanationBn": "পাঠ্যবই অনুযায়ী ধাপ হলো: বৃত্ত আঁকা → কোদাল দিয়ে খোঁড়া → শিকড়-কাঁচি দিয়ে সরু শিকড় পরিষ্কার → চটের বস্তা ও ব্যান্ড দিয়ে বাঁধা।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "음성을 듣고 알맞은 선택지를 고르세요।",
-      "questionKo": "다음을 듣고 질문에 답하세요.",
-      "passage": "휴식지에서 간단히 점심을 먹고 오후에 재조림을 시작합시다. 쓰레기는 가져가세요.",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "숲에서 나무를 베는 작업을 ______(이)라고 합니다.",
       "options": [
-        "쓰레기를 버려도 된다.",
-        "점심은 제공되지 않는다.",
-        "재조림은 아침에만 한다.",
-        "휴식지에서 점심을 먹는다."
+        "굴취",
+        "조재",
+        "벌목",
+        "집재"
       ],
-      "answer": 3,
-      "explanationBn": "스크립트에 '휴식지에서 간단히 점심을 먹고...' 라고 해서 '휴식지에서 점심을 먹는다.' (옵션 2) সঠিক।"
+      "answer": 2,
+      "explanationBn": "'벌목' মানে বনের গাছ কেটে ফেলা। '굴취' শিকড়সহ তোলা, '조재' কাটা কাঠ টুকরো করা, '집재' কাঠ এক জায়গায় জমা করা।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "다음 표지판의 의미는 무엇입니까? (নিচের সাইনবোর্ডটির অর্থ কী?)",
-      "questionKo": "다음 표지판의 의미는 무엇입니까?",
-      "passage": "[안전모 착용]",
+      "questionBn": "নিচেরটি পড়ে সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "한국은 산림 자원의 보호와 육성을 위해 산림보호구역을 지정하고 있습니다.",
       "options": [
-        "안전화를 신으십시오.",
-        "안전모를 쓰십시오.",
-        "장갑을 끼십시오.",
-        "작업복을 입으십시오."
+        "한국은 산림을 보호하지 않습니다.",
+        "한국에는 숲이 없습니다.",
+        "한국은 나무를 심지 않습니다.",
+        "한국은 산림보호구역을 지정합니다."
       ],
-      "answer": 1,
-      "explanationBn": "'안전모 착용'은 안전모를 쓰라는 의미입니다. 따라서 2번이 정답입니다."
+      "answer": 3,
+      "explanationBn": "অনুচ্ছেদে বলা হয়েছে কোরিয়া বনসম্পদ রক্ষা ও বৃদ্ধির জন্য সংরক্ষিত এলাকা নির্ধারণ করে। বাকি বিকল্পগুলো অনুচ্ছেদের বিপরীত।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오. (শূন্যস্থানে বসার জন্য সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।)",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত প্রকাশভঙ্গি বেছে নিন।",
       "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "나무를 자를 때는 (   )을/를 사용합니다.",
+      "passage": "가: 영호 씨가 뭐라고 했어요?\n나: 체인톱하고 말뚝을 ______.",
       "options": [
-        "톱",
-        "망치",
-        "삽",
-        "가위"
+        "가져가야 된대요",
+        "가져가야 되냬요",
+        "가져가야 되재요",
+        "가져가야 되세요"
       ],
       "answer": 0,
-      "explanationBn": "나무를 자를 때 사용하는 도구는 '톱'입니다. 따라서 1번이 정답입니다."
+      "explanationBn": "ইয়ংহো যা বলেছেন সেই তথ্য পরোক্ষভাবে জানাতে '-대요' ব্যবহার হয়। প্রশ্নের জন্য '-냬요', প্রস্তাবের জন্য '-재요' লাগত।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르십시오. (নিচের অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন।)",
-      "questionKo": "다음 글을 읽고 알맞은 것을 고르십시오.",
-      "passage": "산에서는 담배를 피우면 안 됩니다. 산불이 날 수 있기 때문입니다.",
+      "section": "listening",
+      "questionBn": "শুনুন এবং সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 오늘은 분 감기 작업을 합시다. 해 본 적 있어요?\n여자: 아니요, 분 감기는 해 본 적이 없습니다.",
       "options": [
-        "산에서 담배를 피워도 됩니다.",
-        "산불을 예방하기 위해 담배를 피우면 안 됩니다.",
-        "산에서는 불을 피워야 합니다.",
-        "담배를 피우면 산불이 나지 않습니다."
+        "여자는 분 감기를 자주 했습니다.",
+        "여자는 분 감기를 해 본 적이 없습니다.",
+        "남자는 분 감기를 모릅니다.",
+        "두 사람은 벌목을 합니다."
       ],
       "answer": 1,
-      "explanationBn": "산불 예방을 위해 산에서 담배를 피우면 안 된다는 내용입니다. 따라서 2번이 정답입니다."
+      "explanationBn": "নারী স্পষ্ট বলছেন '해 본 적이 없습니다' অর্থাৎ তিনি আগে কখনো এই কাজ করেননি। পুরুষই বরং কাজটি জানেন ও শেখাবেন।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르십시오. (নিচের অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন।)",
-      "questionKo": "다음 글을 읽고 알맞은 것을 고르십시오.",
-      "passage": "벌목 작업을 할 때는 안전이 가장 중요합니다. 반드시 안전모와 안전화를 착용해야 합니다.",
+      "section": "listening",
+      "questionBn": "শুনুন এবং সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "여자: 벌채지에서 연락이 왔어요. 벌목이 끝났대요.\n남자: 그럼 조재 작업을 하러 가야겠네요.",
       "options": [
-        "안전모만 쓰면 됩니다.",
-        "안전화는 신지 않아도 됩니다.",
-        "안전 장비는 필요 없습니다.",
-        "안전모와 안전화를 모두 착용해야 합니다."
+        "벌목이 아직 안 끝났습니다.",
+        "두 사람은 굴취 작업을 합니다.",
+        "벌목이 끝나서 조재 작업을 하러 갑니다.",
+        "연락이 오지 않았습니다."
       ],
-      "answer": 3,
-      "explanationBn": "안전모와 안전화를 모두 착용해야 한다고 했으므로 3번이 정답입니다."
+      "answer": 2,
+      "explanationBn": "নারী জানাচ্ছেন গাছ কাটা শেষ, তাই পুরুষ বলছেন এখন বাকিং কাজে যেতে হবে। কাজের ধাপ অনুযায়ী 벌목 এর পরে 조재 হয়।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르십시오. (নিচের অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নিন।)",
-      "questionKo": "다음 글을 읽고 알맞은 것을 고르십시오.",
-      "passage": "비가 많이 오는 날에는 산사태의 위험이 있습니다. 그래서 산에 가면 안 됩니다.",
+      "section": "listening",
+      "questionBn": "শুনুন এবং সঠিক উত্তর বেছে নিন।",
+      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
+      "passage": "남자: 체인톱을 챙겼지요? 참, 말뚝도 가져가야 돼요.\n여자: 왜 말뚝이 필요해요?\n남자: 톱질을 하다 보면 나무가 움직일 수 있으니까요.",
       "options": [
-        "비가 많이 오면 산에 가면 안 됩니다.",
-        "비가 오면 산사태 위험이 없습니다.",
-        "비가 오면 산에 가야 합니다.",
-        "산사태는 비와 관계가 없습니다."
+        "말뚝은 나무를 자를 때 씁니다.",
+        "말뚝은 뿌리를 자를 때 씁니다.",
+        "말뚝은 필요 없습니다.",
+        "말뚝은 나무가 움직이지 않게 합니다."
       ],
-      "answer": 0,
-      "explanationBn": "비가 많이 오면 산사태 위험이 있어 산에 가면 안 된다는 내용입니다. 따라서 3번이 정답입니다."
+      "answer": 3,
+      "explanationBn": "পুরুষ ব্যাখ্যা করছেন করাত চালানোর সময় গাছ নড়তে পারে, তাই খুঁটি লাগে। খুঁটি গাছকে স্থির রাখার নিরাপত্তা-সরঞ্জাম।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오. (অডিও শুনে সঠিক উত্তরটি বেছে নিন।)",
+      "questionBn": "শুনুন এবং সঠিক উত্তর বেছে নিন।",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 반장님, 톱과 도끼를 모두 준비했습니다.\n여자: 네, 수고했어요. 이제 안전모를 쓰고 작업을 시작합시다.",
+      "passage": "여자: 지금 어디로 가면 돼요?\n남자: 벌채지로 가면 돼요. 지금 벌목 작업을 하고 있는데 체인톱이 고장났대요.",
       "options": [
-        "남자는 톱만 준비했습니다.",
-        "여자는 안전모를 쓰지 말라고 했습니다.",
-        "남자는 도끼를 준비하지 않았습니다.",
-        "두 사람은 이제 작업을 시작할 것입니다."
+        "체인톱이 잘 작동합니다.",
+        "여자는 집재장으로 갑니다.",
+        "벌채지에서 체인톱이 고장났습니다.",
+        "벌목 작업이 끝났습니다."
       ],
-      "answer": 3,
-      "explanationBn": "대화에서 두 사람은 장비를 준비하고 작업을 시작하려고 합니다. 따라서 3번이 정답입니다."
+      "answer": 2,
+      "explanationBn": "পুরুষ বলছেন লগিং সাইটে এখন কাজ চলছে কিন্তু চেইনস নষ্ট হয়ে গেছে ('고장났대요')। তাই তৃতীয় বিকল্পটি সঠিক।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오. (অডিও শুনে সঠিক উত্তরটি বেছে নিন।)",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 오늘 오후에는 묘목을 심을 겁니다. 모두 작업복으로 갈아입으세요.\n남자: 네, 알겠습니다.",
+      "questionBn": "শুনুন: পরের কথাটি হিসেবে সবচেয়ে উপযুক্ত উত্তর কোনটি?",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "남자: 반장님이 뭐라고 하셨어요?",
       "options": [
-        "오전에 묘목을 심을 것입니다.",
-        "오후에 묘목을 심을 것입니다.",
-        "작업복을 입지 않아도 됩니다.",
-        "나무를 자를 것입니다."
+        "네, 반장님이십니다.",
+        "마대하고 밴드를 가져오래요.",
+        "반장님은 안 계세요.",
+        "저도 잘 모르겠는데요."
       ],
       "answer": 1,
-      "explanationBn": "여자가 오늘 오후에 묘목을 심을 것이라고 했으므로 2번이 정답입니다."
+      "explanationBn": "'뭐라고 하셨어요?' প্রশ্নের উত্তরে বাঞ্জাং যা বলেছেন তা পরোক্ষ উক্তিতে জানাতে হবে। '가져오래요' হলো আদেশের সংক্ষিপ্ত রূপ, তাই এটিই সবচেয়ে স্বাভাবিক উত্তর।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오. (অডিও শুনে সঠিক উত্তরটি বেছে নিন।)",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 산불이 나지 않게 조심해야 합니다. 여기서 담배를 피우면 안 됩니다.\n여자: 네, 명심하겠습니다.",
+      "questionBn": "শুনুন: পরের কথাটি হিসেবে সবচেয়ে উপযুক্ত উত্তর কোনটি?",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "passage": "여자: 작업이 언제 끝나냬요?",
       "options": [
-        "여기서 담배를 피워도 됩니다.",
-        "산불 조심은 필요 없습니다.",
-        "여기서 담배를 피우면 안 됩니다.",
-        "여자는 담배를 피울 것입니다."
+        "네, 작업이 끝났어요.",
+        "작업을 시작할까요?",
+        "저는 작업을 안 해요.",
+        "오후 다섯 시까지는 끝내재요."
       ],
-      "answer": 2,
-      "explanationBn": "남자가 여기서 담배를 피우면 안 된다고 했으므로 3번이 정답입니다."
+      "answer": 3,
+      "explanationBn": "'언제 끝나냬요?' প্রশ্নে কেউ জানতে চাইছে কখন শেষ হবে। উত্তরে সময় ও প্রস্তাবের সংক্ষিপ্ত রূপ '-재요' দিয়ে '오후 다섯 시까지는 끝내재요' বলা সবচেয়ে উপযুক্ত।"
     }
   ]
 }
