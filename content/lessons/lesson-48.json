@@ -10,662 +10,718 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "জাহাজের মৌলিক শব্দভাণ্ডার চিনতে ও ব্যবহার করতে পারা।",
-      "কাজে প্রয়োজনীয় সহজ নির্দেশ এবং প্রশ্ন বোঝা ও বলা শিখা।",
-      "শিপইয়ার্ডে নিরাপত্তা এবং কাজের ধাপ সম্পর্কে মৌলিক বাক্য গঠন করতে পারা।"
+      "জাহাজের রং করার (도장) কাজ ও যন্ত্রপাতি নিয়ে কথা বলতে পারা",
+      "강관 비계 (স্টিল পাইপ স্ক্যাফোল্ড)-এর কাঠামো নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "'-아지다/어지다' দিয়ে অবস্থার ধীরে ধীরে পরিবর্তন প্রকাশ করতে পারা",
+      "'-는/(으)ㄴ 덕분에' দিয়ে ভালো ফলাফলের কারণ জানাতে পারা"
     ],
     "en": [
-      "Recognize and use basic shipbuilding vocabulary.",
-      "Understand and use simple workplace instructions and questions.",
-      "Form basic sentences about shipyard safety and construction steps."
+      "Can talk about ship painting tasks and the equipment used",
+      "Can ask and answer questions about the structure of steel pipe scaffolding",
+      "Can express a gradual change of state with -아지다/어지다",
+      "Can give the reason for a positive outcome with -는/(으)ㄴ 덕분에"
     ]
   },
   "vocabulary": [
     {
       "ko": "선체",
       "romanization": "seonche",
-      "bn": "জাহাজের ধরণ/শরীর (হাল)",
+      "bn": "জাহাজের খোল, হাল (জাহাজের মূল দেহ)",
       "en": "hull",
       "pos": "noun",
       "example": {
-        "ko": "선체를 점검하세요.",
-        "bn": "হালটি পরীক্ষা করুন।",
-        "en": "Check the hull."
+        "ko": "오늘은 선체 도장 작업을 합니다.",
+        "bn": "আজ জাহাজের হাল রং করার কাজ করব।",
+        "en": "Today we are doing the hull painting work."
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'선체' [선체]—'ㄴ' এর পরে 'ㅊ' আসে, তাই 'ন' স্পষ্ট রেখে 'চে' উচ্চারণ করুন।"
     },
     {
-      "ko": "건조",
-      "romanization": "geonjo",
-      "bn": "নির্মাণ/গঠন",
-      "en": "construction",
+      "ko": "갑판",
+      "romanization": "gappan",
+      "bn": "ডেক (জাহাজের খোলা উপরের তলা)",
+      "en": "deck",
       "pos": "noun",
       "example": {
-        "ko": "선체 건조가 시작됩니다.",
-        "bn": "হাল নির্মাণ শুরু হবে।",
-        "en": "Hull construction will begin."
+        "ko": "갑판에서 작업할 때는 조심하세요.",
+        "bn": "ডেকে কাজ করার সময় সাবধান থাকুন।",
+        "en": "Be careful when you work on the deck."
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'갑판' [갑판]—'ㅂ' এর পরে 'ㅍ' শক্ত হয়, 'গাপ্‌পান' এর মতো শোনায়।"
     },
     {
-      "ko": "용접",
-      "romanization": "yongjeop",
-      "bn": "ওয়েল্ডিং/জোড় দেওয়া",
-      "en": "welding",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "용접을 조심히 하세요.",
-        "bn": "ওয়েল্ডিং সাবধানে করুন।",
-        "en": "Weld carefully."
-      },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
-    },
-    {
-      "ko": "철판",
-      "romanization": "cheolpan",
-      "bn": "স্টীল প্লেট",
-      "en": "steel plate",
+      "ko": "조타실",
+      "romanization": "jotasil",
+      "bn": "হুইলহাউস (জাহাজ চালানোর কক্ষ)",
+      "en": "wheelhouse",
       "pos": "noun",
       "example": {
-        "ko": "철판을 자릅니다.",
-        "bn": "স্টীল প্লেট কাটা হচ্ছে।",
-        "en": "Cut the steel plate."
+        "ko": "조타실 쪽부터 도장을 시작합시다.",
+        "bn": "হুইলহাউসের দিক থেকে রং করা শুরু করি।",
+        "en": "Let's start painting from the wheelhouse side."
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'조타실' [조타실]—'타' তে বাতাস ছেড়ে উচ্চারণ করুন, 'ㄷ' এর মতো নরম নয়।"
     },
     {
-      "ko": "도면",
-      "romanization": "domyeon",
-      "bn": "আলাপত্র/ব্লুপ্রিন্ট",
-      "en": "drawing/blueprint",
+      "ko": "선수부",
+      "romanization": "seonsubu",
+      "bn": "জাহাজের সামনের অংশ (বো)",
+      "en": "bow section",
       "pos": "noun",
       "example": {
-        "ko": "도면을 확인하세요.",
-        "bn": "ব্লুপ্রিন্টটি দেখুন।",
-        "en": "Check the blueprint."
+        "ko": "선수부 도장은 오전에 끝났어요.",
+        "bn": "সামনের অংশের রং করা সকালেই শেষ হয়েছে।",
+        "en": "The bow section painting was finished in the morning."
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'선수부' [선수부]—তিনটি ভাগ সমান জোরে, কোনোটিতে বেশি চাপ নয়।"
     },
     {
-      "ko": "용접봉",
-      "romanization": "yongjeopbong",
-      "bn": "ওয়েল্ডিং রড",
-      "en": "welding rod",
+      "ko": "선미부",
+      "romanization": "seonmibu",
+      "bn": "জাহাজের পিছনের অংশ (স্টার্ন)",
+      "en": "stern section",
       "pos": "noun",
       "example": {
-        "ko": "용접봉을 교체하세요.",
-        "bn": "ওয়েল্ডিং রড বদলান।",
-        "en": "Replace the welding rod."
+        "ko": "오후에는 선미부를 도장합시다.",
+        "bn": "বিকেলে জাহাজের পিছনের অংশ রং করি।",
+        "en": "Let's paint the stern section in the afternoon."
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'선미부' [선미부]—'ㄴ' এর পরে 'ㅁ' আসায় দুটো নাসিক্য ধ্বনি পরপর আসে।"
     },
     {
-      "ko": "부두",
-      "romanization": "budu",
-      "bn": "পিয়ার/ঘাট",
-      "en": "pier/wharf",
+      "ko": "프로펠러",
+      "romanization": "peuropelleo",
+      "bn": "প্রপেলার (জাহাজের ঘোরানো পাখা)",
+      "en": "propeller",
       "pos": "noun",
       "example": {
-        "ko": "부두에 큰 크레인이 있습니다.",
-        "bn": "ঘাটে একটি বড় ক্রেন আছে।",
-        "en": "There is a big crane at the pier."
+        "ko": "프로펠러가 있는 쪽은 조심해서 도장하세요.",
+        "bn": "প্রপেলার যেদিকে আছে, সেদিকে সাবধানে রং করুন।",
+        "en": "Please paint carefully on the side where the propeller is."
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
-    },
-    {
-      "ko": "용접기",
-      "romanization": "yongjeopgi",
-      "bn": "ওয়েল্ডিং মেশিন",
-      "en": "welder/welding machine",
-      "pos": "noun",
-      "example": {
-        "ko": "용접기를 준비하세요.",
-        "bn": "ওয়েল্ডিং মেশিন প্রস্তুত করুন।",
-        "en": "Prepare the welder."
-      },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
-    },
-    {
-      "ko": "크레인",
-      "romanization": "keurein",
-      "bn": "উত্তোলন ক্রেন",
-      "en": "crane",
-      "pos": "noun",
-      "example": {
-        "ko": "크레인이 철판을 옮깁니다.",
-        "bn": "ক্রেন স্টীল প্লেট সরাচ্ছে।",
-        "en": "The crane moves the steel plate."
-      },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
-    },
-    {
-      "ko": "접합",
-      "romanization": "jeophab",
-      "bn": "জোড়/জোড়ানোর কাজ",
-      "en": "joining/assembly",
-      "pos": "noun",
-      "example": {
-        "ko": "접합 상태를 확인해 주세요.",
-        "bn": "জোড়ের অবস্থান চেক করুন।",
-        "en": "Please check the joining status."
-      },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
-    },
-    {
-      "ko": "부식",
-      "romanization": "busik",
-      "bn": "জং/অবক্ষয়",
-      "en": "corrosion",
-      "pos": "noun",
-      "example": {
-        "ko": "부식을 방지해야 합니다.",
-        "bn": "জং থেকে রক্ষা করতে হবে।",
-        "en": "You must prevent corrosion."
-      },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
-    },
-    {
-      "ko": "코팅",
-      "romanization": "koting",
-      "bn": "কোটিং/প্রলেপ",
-      "en": "coating",
-      "pos": "noun",
-      "example": {
-        "ko": "코팅을 고르게 바르세요.",
-        "bn": "কোটিং সমানভাবে লাগান।",
-        "en": "Apply the coating evenly."
-      },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'프로펠러' [프로펠러]—'ㄹㄹ' দুবার আসে, বাংলার 'ল্ল' এর মতো টানুন।"
     },
     {
       "ko": "도장",
       "romanization": "dojang",
-      "bn": "পেইন্টিং/রঙ করা",
-      "en": "painting/coating",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "도장은 내일부터 시작합니다.",
-        "bn": "পেইন্টিং আগামীকাল শুরু হবে।",
-        "en": "Painting starts tomorrow."
-      },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
-    },
-    {
-      "ko": "조선소",
-      "romanization": "joseonso",
-      "bn": "শিপইয়ার্ড/জাহাজ নির্মাণাগার",
-      "en": "shipyard",
+      "bn": "রং করার কাজ, পেইন্টিং",
+      "en": "painting (coating)",
       "pos": "noun",
       "example": {
-        "ko": "조선소에서 일합니다.",
-        "bn": "আমি শিপইয়ার্ডে কাজ করি।",
-        "en": "I work at the shipyard."
+        "ko": "도장 준비를 마쳤습니다.",
+        "bn": "রং করার প্রস্তুতি শেষ করেছি।",
+        "en": "I have finished the preparations for painting."
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'도장' [도장]—শেষে 'ㅇ' থাকায় নাক দিয়ে 'অং' শব্দ বেরোয়।"
     },
     {
-      "ko": "형강",
-      "romanization": "hyeonggang",
-      "bn": "ফরম স্টিল/আকৃতির ইস্পাত",
-      "en": "structural steel/section steel",
+      "ko": "에어 스프레이 건",
+      "romanization": "eeo seupeurei geon",
+      "bn": "এয়ার স্প্রে গান (বাতাসের চাপে রং ছেটানোর যন্ত্র)",
+      "en": "air spray gun",
       "pos": "noun",
       "example": {
-        "ko": "형강을 설치하세요.",
-        "bn": "ফরম স্টিল বসান।",
-        "en": "Install the structural steel."
+        "ko": "에어 스프레이 건으로 작업하면 되지요?",
+        "bn": "এয়ার স্প্রে গান দিয়ে কাজ করলেই হবে, তাই না?",
+        "en": "I can work with the air spray gun, right?"
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'건' [건]—ইংরেজি 'gun' এর মতো নয়, কোরিয়ান 'গন' এর কাছাকাছি।"
     },
     {
-      "ko": "골격",
-      "romanization": "golgyeok",
-      "bn": "কাঠামো/ফ্রেম",
-      "en": "skeleton/frame",
+      "ko": "에어리스 스프레이 건",
+      "romanization": "eeoriseu seupeurei geon",
+      "bn": "এয়ারলেস স্প্রে গান (বাতাস ছাড়া উচ্চচাপে রং ছেটায়)",
+      "en": "airless spray gun",
       "pos": "noun",
       "example": {
-        "ko": "골격을 먼저 조립합니다.",
-        "bn": "প্রথমে ফ্রেম জোড়া হবে।",
-        "en": "Assemble the frame first."
+        "ko": "에어리스 스프레이 건으로 작업하세요.",
+        "bn": "এয়ারলেস স্প্রে গান দিয়ে কাজ করুন।",
+        "en": "Please work with the airless spray gun."
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'에어리스' [에어리스]—'리스' এ 'ㅅ' শেষে থেমে যায়, 'স' টেনে বলবেন না।"
+    },
+    {
+      "ko": "도료 호스",
+      "romanization": "doryo hoseu",
+      "bn": "পেইন্ট হোস (রং সরবরাহের নল)",
+      "en": "paint hose",
+      "pos": "noun",
+      "example": {
+        "ko": "도료 호스가 스프레이 건에 연결되어 있어요.",
+        "bn": "পেইন্ট হোস স্প্রে গানের সঙ্গে যুক্ত আছে।",
+        "en": "The paint hose is connected to the spray gun."
+      },
+      "pronunciationTipBn": "'호스' [호스]—শেষের 'ㅡ' খুব হালকা, প্রায় শোনা যায় না।"
+    },
+    {
+      "ko": "분사하다",
+      "romanization": "bunsahada",
+      "bn": "ছিটানো, স্প্রে করা",
+      "en": "to spray",
+      "pos": "verb",
+      "example": {
+        "ko": "스프레이 건으로 페인트를 분사해요.",
+        "bn": "স্প্রে গান দিয়ে রং ছিটাই।",
+        "en": "I spray the paint with the spray gun."
+      },
+      "pronunciationTipBn": "'분사' [분사]—'ㄴ' এর পরে 'ㅅ' আসে, তাই 'ন' স্পষ্ট রাখুন।"
+    },
+    {
+      "ko": "물 분사기",
+      "romanization": "mul bunsagi",
+      "bn": "ওয়াটার স্প্রেয়ার (পানি ছেটানোর যন্ত্র)",
+      "en": "water sprayer",
+      "pos": "noun",
+      "example": {
+        "ko": "물 분사기로 선체를 청소했습니다.",
+        "bn": "ওয়াটার স্প্রেয়ার দিয়ে জাহাজের হাল পরিষ্কার করেছি।",
+        "en": "I cleaned the hull with a water sprayer."
+      },
+      "pronunciationTipBn": "'물 분사기' [물 분사기]—'물' এর 'ㄹ' জিভ তালুতে ঠেকিয়ে বলুন।"
+    },
+    {
+      "ko": "녹이 슬다",
+      "romanization": "nogi seulda",
+      "bn": "মরচে পড়া",
+      "en": "to get rusty",
+      "pos": "verb",
+      "example": {
+        "ko": "철판에 녹이 슬면 도장이 잘 안 됩니다.",
+        "bn": "লোহার পাতে মরচে পড়লে রং ভালোভাবে বসে না।",
+        "en": "If the steel plate gets rusty, the painting does not go well."
+      },
+      "pronunciationTipBn": "'녹이' [노기]—'녹' এর 'ㄱ' পরের স্বরে জুড়ে 'গি' হয়ে যায়।"
+    },
+    {
+      "ko": "부식",
+      "romanization": "busik",
+      "bn": "ক্ষয়, জারণ (ধাতু নষ্ট হওয়া)",
+      "en": "corrosion",
+      "pos": "noun",
+      "example": {
+        "ko": "선체는 부식에 강한 철판으로 만듭니다.",
+        "bn": "জাহাজের হাল ক্ষয়-প্রতিরোধী লোহার পাত দিয়ে তৈরি হয়।",
+        "en": "The hull is made of steel plate that resists corrosion."
+      },
+      "pronunciationTipBn": "'부식' [부식]—শেষের 'ㄱ' মুখ বন্ধ করে থামিয়ে দিন।"
     },
     {
       "ko": "균열",
       "romanization": "gyunyeol",
-      "bn": "ফাটল/ক্র্যাক",
+      "bn": "ফাটল, চিড়",
       "en": "crack",
       "pos": "noun",
       "example": {
-        "ko": "균열이 있으면 보고하세요.",
-        "bn": "ফাটল থাকলে জানাবেন।",
-        "en": "Report if there is a crack."
+        "ko": "선체 표면에 균열이 생겼어요.",
+        "bn": "জাহাজের হালের পৃষ্ঠে ফাটল দেখা দিয়েছে।",
+        "en": "A crack has appeared on the hull surface."
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'균열' [규녈]—'ㄴ' যোগ হয়ে 'ন' ধ্বনি ঢুকে পড়ে, 'গিউনিওল' এর মতো।"
     },
     {
-      "ko": "안전모",
-      "romanization": "anjeonmo",
-      "bn": "সেফটি হেলমেট",
-      "en": "safety helmet",
+      "ko": "물기",
+      "romanization": "mulgi",
+      "bn": "ভেজা ভাব, পানির অংশ",
+      "en": "dampness, water residue",
       "pos": "noun",
       "example": {
-        "ko": "안전모를 꼭 착용하세요.",
-        "bn": "সেফটি হেলমেট অবশ্যই পরুন।",
-        "en": "Be sure to wear a safety helmet."
+        "ko": "물기를 완전히 제거해 놓았습니다.",
+        "bn": "ভেজা ভাব পুরোপুরি মুছে ফেলেছি।",
+        "en": "I have removed the water residue completely."
       },
-      "pronunciationTipBn": "এই শব্দের উচ্চারণটি স্পষ্ট করে করুন।"
+      "pronunciationTipBn": "'물기' [물끼]—'ㄹ' এর পরে 'ㄱ' শক্ত হয়ে যায়।"
     },
     {
-      "ko": "안전화",
-      "romanization": "anjeonhwa",
-      "bn": "সেফটি জুতো",
-      "en": "safety shoes",
-      "pos": "noun",
+      "ko": "제거하다",
+      "romanization": "jegeohada",
+      "bn": "সরিয়ে ফেলা, দূর করা",
+      "en": "to remove",
+      "pos": "verb",
       "example": {
-        "ko": "안전화를 신으세요.",
-        "bn": "সেফটি জুতো পরুন।",
-        "en": "Wear safety shoes."
+        "ko": "선체 표면의 녹을 제거했어요.",
+        "bn": "জাহাজের হালের পৃষ্ঠ থেকে মরচে সরিয়েছি।",
+        "en": "I removed the rust from the hull surface."
       },
-      "pronunciationTipBn": "'안전화' উচ্চারণ করার সময় '화' (হওয়া) স্পষ্ট করে বলুন।"
+      "pronunciationTipBn": "'제거' [제거]—দুই ভাগই সমান, 'জেগো' নয় 'জেগঅ'।"
     },
     {
-      "ko": "보안경",
-      "romanization": "boangyeong",
-      "bn": "সেফটি গগলস",
-      "en": "safety goggles",
-      "pos": "noun",
+      "ko": "매끄럽다",
+      "romanization": "maekkeureopda",
+      "bn": "মসৃণ হওয়া",
+      "en": "to be smooth",
+      "pos": "adjective",
       "example": {
-        "ko": "보안경을 쓰세요.",
-        "bn": "সেফটি গগলস পরুন।",
-        "en": "Wear safety goggles."
+        "ko": "녹을 제거해서 표면이 매끄러워졌습니다.",
+        "bn": "মরচে সরানোর ফলে পৃষ্ঠ মসৃণ হয়ে গেছে।",
+        "en": "The surface became smooth after removing the rust."
       },
-      "pronunciationTipBn": "'보안경' এর '경' (গিয়ং) উচ্চারণটি গলার ভেতর থেকে আসবে।"
+      "pronunciationTipBn": "'매끄럽다' [매끄럽따]—'ㅂ' এর পরে 'ㄷ' শক্ত হয়ে 'ㄸ' হয়।"
     },
     {
-      "ko": "마스크",
-      "romanization": "maseukeu",
-      "bn": "মাস্ক",
-      "en": "mask",
-      "pos": "noun",
+      "ko": "골고루",
+      "romanization": "golgoru",
+      "bn": "সমানভাবে, সব জায়গায় সমান করে",
+      "en": "evenly",
+      "pos": "adverb",
       "example": {
-        "ko": "마스크를 착용하세요.",
-        "bn": "মাস্ক পরুন।",
-        "en": "Wear a mask."
+        "ko": "페인트를 골고루 칠해야 돼요.",
+        "bn": "রং সমানভাবে লাগাতে হবে।",
+        "en": "You have to apply the paint evenly."
       },
-      "pronunciationTipBn": "'마스크' (মাস্কু) এর শেষের '크' (কু) হালকা করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'골고루' [골고루]—'ㄹ' এর পরে 'ㄱ' নরমই থাকে, শক্ত হয় না।"
     },
     {
-      "ko": "귀마개",
-      "romanization": "gwimagae",
-      "bn": "ইয়ারপ্লাগ",
-      "en": "earplugs",
-      "pos": "noun",
+      "ko": "마무리하다",
+      "romanization": "mamurihada",
+      "bn": "শেষ করা, চূড়ান্ত টান দেওয়া",
+      "en": "to finish up",
+      "pos": "verb",
       "example": {
-        "ko": "귀마개를 하세요.",
-        "bn": "ইয়ারপ্লাগ ব্যবহার করুন।",
-        "en": "Use earplugs."
+        "ko": "분사 작업이 끝나면 붓으로 마무리하세요.",
+        "bn": "স্প্রে করার কাজ শেষ হলে ব্রাশ দিয়ে শেষ টান দিন।",
+        "en": "When the spraying is done, finish up with a brush."
       },
-      "pronunciationTipBn": "'귀마개' এর '귀' (গুই) উচ্চারণটি দ্রুত করুন।"
+      "pronunciationTipBn": "'마무리' [마무리]—তিনটি ভাগ সমান দ্রুত, টেনে বলবেন না।"
     },
     {
-      "ko": "작업복",
-      "romanization": "jageopbok",
-      "bn": "কাজের পোশাক",
-      "en": "work clothes",
+      "ko": "붓",
+      "romanization": "but",
+      "bn": "ব্রাশ, তুলি",
+      "en": "brush",
       "pos": "noun",
       "example": {
-        "ko": "작업복을 입으세요.",
-        "bn": "কাজের পোশাক পরুন।",
-        "en": "Wear work clothes."
+        "ko": "좁은 곳은 붓으로 칠합니다.",
+        "bn": "সরু জায়গা ব্রাশ দিয়ে রং করি।",
+        "en": "Narrow places are painted with a brush."
       },
-      "pronunciationTipBn": "'작업복' এর '복' (বোক) উচ্চারণ করার সময় ঠোঁট গোল করুন।"
+      "pronunciationTipBn": "'붓' [붇]—শেষের 'ㅅ' 'ㄷ' এর মতো থেমে যায়; '붓으로' হলে [부스로]।"
     },
     {
-      "ko": "안전대",
-      "romanization": "anjeondae",
-      "bn": "সেফটি বেল্ট",
-      "en": "safety harness",
+      "ko": "강관 비계",
+      "romanization": "ganggwan bigye",
+      "bn": "স্টিল পাইপ স্ক্যাফোল্ড (লোহার পাইপের ভারা)",
+      "en": "steel pipe scaffold",
       "pos": "noun",
       "example": {
-        "ko": "안전대를 매세요.",
-        "bn": "সেফটি বেল্ট বাঁধুন।",
-        "en": "Fasten the safety harness."
+        "ko": "높은 곳에서 일하려면 강관 비계를 설치해야 합니다.",
+        "bn": "উঁচু জায়গায় কাজ করতে হলে স্টিল পাইপের ভারা বসাতে হবে।",
+        "en": "To work at heights, you must install a steel pipe scaffold."
       },
-      "pronunciationTipBn": "'안전대' এর '대' (দে) উচ্চারণটি স্পষ্ট করুন।"
+      "pronunciationTipBn": "'비계' [비게]—'ㅖ' প্রায়ই [ㅔ] এর মতো, 'বিগে' শোনায়।"
     },
     {
-      "ko": "소화기",
-      "romanization": "sohwagi",
-      "bn": "অগ্নিনির্বাপক যন্ত্র",
-      "en": "fire extinguisher",
+      "ko": "비계 기둥",
+      "romanization": "bigye gidung",
+      "bn": "ভারার খুঁটি (উল্লম্ব পাইপ)",
+      "en": "scaffold column",
       "pos": "noun",
       "example": {
-        "ko": "소화기 위치를 확인하세요.",
-        "bn": "অগ্নিনির্বাপক যন্ত্রের অবস্থান চেক করুন।",
-        "en": "Check the location of the fire extinguisher."
+        "ko": "비계 기둥은 다 세웠어요.",
+        "bn": "ভারার খুঁটিগুলো সব দাঁড় করানো হয়েছে।",
+        "en": "All the scaffold columns have been set up."
       },
-      "pronunciationTipBn": "'소화기' এর '화' (হওয়া) উচ্চারণটি স্পষ্ট করুন।"
+      "pronunciationTipBn": "'기둥' [기둥]—শেষে 'ㅇ' নাক দিয়ে, 'গিদুং'।"
     },
     {
-      "ko": "비상구",
-      "romanization": "bisanggu",
-      "bn": "জরুরী প্রস্থান",
-      "en": "emergency exit",
+      "ko": "작업발판",
+      "romanization": "jageopbalpan",
+      "bn": "কাজের পাটাতন (যার উপর দাঁড়িয়ে কাজ করা হয়)",
+      "en": "work platform",
       "pos": "noun",
       "example": {
-        "ko": "비상구로 나가세요.",
-        "bn": "জরুরী প্রস্থান দিয়ে বের হন।",
-        "en": "Go out through the emergency exit."
+        "ko": "작업발판은 작업자가 서서 일할 수 있는 곳입니다.",
+        "bn": "কাজের পাটাতন হলো যেখানে দাঁড়িয়ে শ্রমিক কাজ করতে পারেন।",
+        "en": "The work platform is the place where a worker can stand and work."
       },
-      "pronunciationTipBn": "'비상구' এর '구' (গু) উচ্চারণটি স্পষ্ট করুন।"
+      "pronunciationTipBn": "'작업발판' [자겁빨판]—'ㅂ' এর পরে 'ㅂ' শক্ত হয়ে 'ㅃ' হয়।"
     },
     {
-      "ko": "환풍기",
-      "romanization": "hwanpunggi",
-      "bn": "ভেন্টিলেটর/এক্সজস্ট ফ্যান",
-      "en": "ventilator",
+      "ko": "안전난간",
+      "romanization": "anjeonnangan",
+      "bn": "নিরাপত্তা রেলিং (পড়ে যাওয়া ঠেকায়)",
+      "en": "safety railing",
       "pos": "noun",
       "example": {
-        "ko": "환풍기를 켜세요.",
-        "bn": "ভেন্টিলেটর চালু করুন।",
-        "en": "Turn on the ventilator."
+        "ko": "작업발판 옆에 안전난간도 설치할 거예요.",
+        "bn": "কাজের পাটাতনের পাশে নিরাপত্তা রেলিংও বসানো হবে।",
+        "en": "We will also install a safety railing beside the work platform."
       },
-      "pronunciationTipBn": "'환풍기' এর '풍' (পুং) উচ্চারণ করার সময় বাতাস বের করুন।"
+      "pronunciationTipBn": "'안전난간' [안전난간]—পরপর তিনটি 'ㄴ', প্রতিটি নাক দিয়ে স্পষ্ট।"
     },
     {
-      "ko": "스위치",
-      "romanization": "seuwichi",
-      "bn": "সুইচ",
-      "en": "switch",
+      "ko": "깔판",
+      "romanization": "kkalpan",
+      "bn": "ফ্লোরবোর্ড (ভারার উপর পাতা তক্তা)",
+      "en": "floorboard",
       "pos": "noun",
       "example": {
-        "ko": "스위치를 끄세요.",
-        "bn": "সুই치 বন্ধ করুন।",
-        "en": "Turn off the switch."
+        "ko": "깔판 작업을 모두 끝냈습니다.",
+        "bn": "ফ্লোরবোর্ডের কাজ পুরোটা শেষ করেছি।",
+        "en": "We have finished all the floorboard work."
       },
-      "pronunciationTipBn": "'스위치' (সুইচি) এর '치' (চি) উচ্চারণটি স্পষ্ট করুন।"
+      "pronunciationTipBn": "'깔판' [깔판]—শুরুতেই শক্ত 'ㄲ', গলা চেপে 'ক্কাল'।"
     },
     {
-      "ko": "전원",
-      "romanization": "jeonwon",
-      "bn": "পাওয়ার/বিদ্যুৎ",
-      "en": "power",
+      "ko": "밑받침 철물",
+      "romanization": "mitbatchim cheolmul",
+      "bn": "বেস মেটাল ফিটিং (ভারার নিচের ধাতব ভিত্তি)",
+      "en": "base metal fitting",
       "pos": "noun",
       "example": {
-        "ko": "전원을 차단하세요.",
-        "bn": "পাওয়ার বন্ধ করুন।",
-        "en": "Cut off the power."
+        "ko": "밑받침 철물을 설치한 후에 비계 기둥을 세우세요.",
+        "bn": "বেস মেটাল ফিটিং বসানোর পরে ভারার খুঁটি দাঁড় করান।",
+        "en": "Set up the scaffold columns after installing the base metal fittings."
       },
-      "pronunciationTipBn": "'전원' এর '원' (ওয়ন) উচ্চারণটি দ্রুত করুন।"
+      "pronunciationTipBn": "'밑받침' [믿빧침]—'ㅌ' [ㄷ] হয়ে যায়, পরের 'ㅂ' শক্ত হয়।"
     },
     {
-      "ko": "위험",
-      "romanization": "wiheom",
-      "bn": "বিপদ",
-      "en": "danger",
+      "ko": "밑동잡이",
+      "romanization": "mitdongjabi",
+      "bn": "বেস স্টেবিলাইজার (নিচের অংশ যাতে না নড়ে)",
+      "en": "base stabilizer",
       "pos": "noun",
       "example": {
-        "ko": "위험하니까 조심하세요.",
-        "bn": "বিপজ্জনক তাই সাবধানে থাকুন।",
-        "en": "It's dangerous, so be careful."
+        "ko": "밑동잡이는 비계 기둥이 흔들리지 않게 합니다.",
+        "bn": "বেস স্টেবিলাইজার ভারার খুঁটিকে নড়তে দেয় না।",
+        "en": "The base stabilizer keeps the scaffold column from shaking."
       },
-      "pronunciationTipBn": "'위험' এর '험' (হম) উচ্চারণটি গলার ভেতর থেকে আসবে।"
+      "pronunciationTipBn": "'밑동' [믿똥]—'ㅌ' [ㄷ] হয়ে পরের 'ㄷ' শক্ত করে দেয়।"
     },
     {
-      "ko": "주의",
-      "romanization": "juui",
-      "bn": "সতর্কতা",
-      "en": "caution",
+      "ko": "안전 로프",
+      "romanization": "anjeon ropeu",
+      "bn": "নিরাপত্তা দড়ি",
+      "en": "safety rope",
       "pos": "noun",
       "example": {
-        "ko": "주의 표지판을 보세요.",
-        "bn": "সতর্কতা সাইনবোর্ড দেখুন।",
-        "en": "Look at the caution sign."
+        "ko": "안전 로프를 설치한 덕분에 사고를 예방할 수 있었습니다.",
+        "bn": "নিরাপত্তা দড়ি বসানোর কারণেই দুর্ঘটনা এড়ানো গেছে।",
+        "en": "Thanks to installing the safety rope, we could prevent an accident."
       },
-      "pronunciationTipBn": "'주의' (জুউই) এর '의' (উই) উচ্চারণটি স্পষ্ট করুন।"
+      "pronunciationTipBn": "'로프' [로프]—শুরুর 'ㄹ' জিভ তালুতে ছুঁইয়ে হালকা 'র'।"
     },
     {
-      "ko": "경고",
-      "romanization": "gyeonggo",
-      "bn": "সতর্কবাণী",
-      "en": "warning",
+      "ko": "가새",
+      "romanization": "gasae",
+      "bn": "ব্রেস (কোনাকুনি বসানো পাইপ, ভারা শক্ত রাখে)",
+      "en": "brace",
       "pos": "noun",
       "example": {
-        "ko": "경고 방송을 들으세요.",
-        "bn": "সতর্কবাণী সম্প্রচার শুনুন।",
-        "en": "Listen to the warning broadcast."
+        "ko": "가새는 비계의 안정성을 높이려고 대각선으로 설치합니다.",
+        "bn": "ভারার স্থিতিশীলতা বাড়াতে ব্রেস কোনাকুনিভাবে বসানো হয়।",
+        "en": "Braces are installed diagonally to increase the stability of the scaffold."
       },
-      "pronunciationTipBn": "'경고' এর '경' (গিয়ং) উচ্চারণটি গলার ভেতর থেকে আসবে।"
+      "pronunciationTipBn": "'가새' [가새]—'ㅐ' মুখ একটু চওড়া করে 'অ্যা', 'গাসে' নয়।"
+    },
+    {
+      "ko": "수평",
+      "romanization": "supyeong",
+      "bn": "সমান্তরাল, লেভেল (আনুভূমিক)",
+      "en": "horizontal, level",
+      "pos": "noun",
+      "example": {
+        "ko": "수평을 잘 맞춘 덕분에 발판이 튼튼합니다.",
+        "bn": "লেভেল ঠিকভাবে মেলানোর কারণেই পাটাতন মজবুত হয়েছে।",
+        "en": "Thanks to leveling it well, the platform is sturdy."
+      },
+      "pronunciationTipBn": "'수평' [수평]—'ㅍ' এ বাতাস ছেড়ে, 'সুপিয়ং'।"
+    },
+    {
+      "ko": "수직",
+      "romanization": "sujik",
+      "bn": "উল্লম্ব, খাড়া",
+      "en": "vertical",
+      "pos": "noun",
+      "example": {
+        "ko": "비계 기둥은 수직으로 세워야 합니다.",
+        "bn": "ভারার খুঁটি খাড়াভাবে দাঁড় করাতে হবে।",
+        "en": "The scaffold columns must be set up vertically."
+      },
+      "pronunciationTipBn": "'수직' [수직]—শেষের 'ㄱ' মুখ বন্ধ করে থামান।"
+    },
+    {
+      "ko": "대각선",
+      "romanization": "daegakseon",
+      "bn": "কর্ণ বরাবর, কোনাকুনি",
+      "en": "diagonal",
+      "pos": "noun",
+      "example": {
+        "ko": "가새를 대각선으로 설치하세요.",
+        "bn": "ব্রেস কোনাকুনিভাবে বসান।",
+        "en": "Please install the brace diagonally."
+      },
+      "pronunciationTipBn": "'대각선' [대각썬]—'ㄱ' এর পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয়।"
+    },
+    {
+      "ko": "안정성",
+      "romanization": "anjeongseong",
+      "bn": "স্থিতিশীলতা, নড়বড়ে না হওয়া",
+      "en": "stability",
+      "pos": "noun",
+      "example": {
+        "ko": "가새는 비계의 안정성을 높입니다.",
+        "bn": "ব্রেস ভারার স্থিতিশীলতা বাড়ায়।",
+        "en": "Braces increase the stability of the scaffold."
+      },
+      "pronunciationTipBn": "'안정성' [안정썽]—'ㅇ' এর পরে 'ㅅ' শক্ত হয়ে 'ㅆ' হয়।"
+    },
+    {
+      "ko": "설치하다",
+      "romanization": "seolchihada",
+      "bn": "বসানো, স্থাপন করা",
+      "en": "to install, to set up",
+      "pos": "verb",
+      "example": {
+        "ko": "임시로 비계를 설치했습니다.",
+        "bn": "অস্থায়ীভাবে ভারা বসিয়েছি।",
+        "en": "We installed the scaffold temporarily."
+      },
+      "pronunciationTipBn": "'설치' [설치]—'ㄹ' এর পরে 'ㅊ', জিভ সরিয়ে দ্রুত 'চি'।"
     }
   ],
   "grammar": [
     {
-      "pattern": "-고 있다",
-      "titleBn": "-고 있다 (চলমান ক্রিয়া)",
-      "explanationBn": "কার্যটি এখনই চলছে বোঝাতে ব্যবহার করা হয়। উদাহরণ: \n1) 용접하고 있다. — ওয়েল্ড করছে। — Welding is in progress.\n2) 철판을 옮기고 있습니다. — স্টীল প্লেট সরানো হচ্ছে। — The steel plate is being moved.",
-      "explanationEn": "Used to describe an action that is currently ongoing. Examples included above.",
+      "pattern": "A/V + -아지다/어지다",
+      "titleBn": "অবস্থার ধীরে ধীরে পরিবর্তন '-아지다/어지다'",
+      "explanationBn": "বিশেষণের সঙ্গে '-아지다/어지다' যোগ করলে কোনো অবস্থা ধীরে ধীরে পরিবর্তিত হওয়া বোঝায়। ক্রিয়াপদের সঙ্গে যুক্ত হলে কোনো কাজ এমনিতেই বা বাইরের প্রভাবে ঘটে যাওয়া প্রকাশ করে। মূল স্বরধ্বনি 'ㅏ' বা 'ㅗ' হলে '-아지다' (깨끗하다 → 깨끗해지다), অন্য স্বরধ্বনি হলে '-어지다' (길다 → 길어지다), '-하다' ক্রিয়া হলে '-해지다' (익숙하다 → 익숙해지다)। জাহাজ-নির্মাণ প্রসঙ্গে খুব প্রয়োজনীয়: 'পৃষ্ঠ মসৃণ হয়ে গেল', 'কাজ দ্রুত হচ্ছে'।",
+      "explanationEn": "-아지다/어지다 attaches to adjectives to indicate that a state gradually changes. When attached to verbs, it shows that an action happens either automatically or due to an external factor. Use -아지다 after stems with ㅏ or ㅗ vowel (깨끗하다 → 깨끗해지다), -어지다 after other vowels (길다 → 길어지다), and -해지다 for -하다 verbs (익숙하다 → 익숙해지다).",
       "examples": [
         {
-          "ko": "작업자가 용접하고 있다.",
-          "bn": "কর্মী ওয়েল্ডিং করছে।",
-          "en": "The worker is welding."
+          "ko": "도장 작업을 해서 선체가 깨끗해졌습니다.",
+          "bn": "রং করার কাজ করায় জাহাজের হাল পরিষ্কার হয়ে গেছে।",
+          "en": "The hull became clean because we did the painting work."
         },
         {
-          "ko": "크레인이 철판을 옮기고 있습니다.",
-          "bn": "ক্রেন স্টীল প্লেট সরাচ্ছে।",
-          "en": "The crane is moving the steel plate."
+          "ko": "새 기계가 들어와서 작업 속도가 빨라졌어요.",
+          "bn": "নতুন যন্ত্র আসায় কাজের গতি দ্রুত হয়েছে।",
+          "en": "The work speed became faster because a new machine arrived."
         },
         {
-          "ko": "이것을 주의하세요.",
-          "bn": "এটি খেয়াল রাখুন।",
-          "en": "Please pay attention to this."
+          "ko": "녹을 제거하니까 표면이 매끄러워졌습니다.",
+          "bn": "মরচে সরিয়ে ফেলায় পৃষ্ঠ মসৃণ হয়ে গেছে।",
+          "en": "The surface became smooth because we removed the rust."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় সঠিক কাল ও বিভক্তি খেয়াল রাখুন।"
+      "commonMistakeBn": "'많다'-এর রূপ '많아지다'—'아' দিয়ে শেষ, তাই '-아지다'। 'ㄹ' বাতচিম বাদ যায়: '길다' → '길어지다' (×길라지다)।"
     },
     {
-      "pattern": "-(으)면",
-      "titleBn": "-(으)면 (যদি/শর্ত)",
-      "explanationBn": "শর্ত বা পরিপ্রেক্ষিত দেখায় — যদি এটি ঘটে তবে পরবর্তী কাজ হবে। উদাহরণ: \n1) 도면을 보면 이해됩니다. — ব্লুপ্রিন্ট দেখলে বোঝা যাবে।\n2) 안전모를 쓰면 출입 가능합니다. — হেলমেট পরলে ঢুকতে পারবেন।",
-      "explanationEn": "Indicates a condition (if/when). Examples in Bengali show conditional sentences.",
+      "pattern": "V + -는/(으)ㄴ 덕분에",
+      "titleBn": "ভালো ফলাফলের কারণ '-는/(으)ㄴ 덕분에' (... এর জন্য / ... এর কারণে)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-는/(으)ㄴ 덕분에' যুক্ত করলে সামনের বাক্যাংশটি পিছনের ভালো ফলাফলের কারণ বা উৎস বোঝায়—বাংলায় '... এর জন্যই', '... এর কারণেই'। বর্তমান/ভবিষ্যৎ কাজে '-는 덕분에' (잘하다 → 잘하는 덕분에), অতীত কাজে বাতচিম থাকলে '-은 덕분에' (잡다 → 잡은 덕분에), বাতচিম না থাকলে বা 'ㄹ' বাতচিম হলে '-ㄴ 덕분에' (배우다 → 배운 덕분에, 만들다 → 만든 덕분에)। বিশেষ্যের সঙ্গে 'বিশেষ্য + 덕분에'। কর্মস্থলে ব্যবহারযোগ্য: 'সুপারভাইজার শিখিয়েছেন বলেই', 'অভিজ্ঞ সহকর্মীদের কারণেই'।",
+      "explanationEn": "-는/(으)ㄴ 덕분에 attaches to verbs to indicate that the preceding content is the reason or cause for a positive outcome. Use -는 덕분에 for present/future actions, -은 덕분에 after a past-tense stem ending in a consonant, and -ㄴ 덕분에 after a vowel or ㄹ. With nouns, use '명사 덕분에'.",
       "examples": [
         {
-          "ko": "도면을 보면 작업 시작하세요.",
-          "bn": "ব্লুপ্রিন্ট দেখলে কাজ শুরু করবেন।",
-          "en": "If you check the drawing, start work."
+          "ko": "비계를 튼튼하게 설치한 덕분에 안전하게 작업할 수 있습니다.",
+          "bn": "ভারা মজবুতভাবে বসানোর কারণেই নিরাপদে কাজ করা যাচ্ছে।",
+          "en": "Thanks to installing the scaffold firmly, we can work safely."
         },
         {
-          "ko": "안전 교육을 들으면 허가받습니다.",
-          "bn": "নিরাপত্তা প্রশিক্ষণ নিলে অনুমতি পাবেন।",
-          "en": "If you attend safety training, you get permission."
+          "ko": "반장님이 잘 가르쳐 주신 덕분에 실수를 하지 않았습니다.",
+          "bn": "সুপারভাইজার ভালোভাবে শিখিয়েছেন বলেই ভুল হয়নি।",
+          "en": "Thanks to the supervisor teaching me well, I did not make a mistake."
         },
         {
-          "ko": "이것을 주의하세요.",
-          "bn": "এটি খেয়াল রাখুন।",
-          "en": "Please pay attention to this."
+          "ko": "최신 장비를 사용한 덕분에 작업 속도가 빨라졌어요.",
+          "bn": "আধুনিক যন্ত্র ব্যবহার করায় কাজের গতি বেড়েছে।",
+          "en": "Thanks to using the latest equipment, the work speed has increased."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় সঠিক কাল ও বিভক্তি খেয়াল রাখুন।"
+      "commonMistakeBn": "শুধু ভালো ফলাফলের জন্য—খারাপ ফলে '-(으)ㄴ 탓에' বা '-아서/어서' ব্যবহার করুন। 'ㄹ' বাদ যায়: '만들다' → '만든 덕분에' (×만들은)।"
     },
     {
-      "pattern": "-(으)세요",
-      "titleBn": "-(으)세요 (নমনীয় অনুরোধ/আদেশ)",
-      "explanationBn": "অভিব্যক্তি বিনীতভাবে আদেশ বা অনুরোধ করার জন্য। উদাহরণ: \n1) 안전모를 착용하세요. — সেফটি হেলমেট পরুন।\n2) 용접을 멈추세요. — ওয়েল্ডিং বন্ধ করুন।",
-      "explanationEn": "Polite imperative/request form used for instructions or requests with respect.",
+      "pattern": "V + -지 않도록 / -지 않게",
+      "titleBn": "যাতে না হয় '-지 않도록 / -지 않게' (উদ্দেশ্য বা সতর্কতা)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-지 않도록' বা '-지 않게' যুক্ত করলে 'যাতে না ঘটে' বা 'এজন্য যে না হয়' ধরনের সতর্কতামূলক উদ্দেশ্য বোঝায়। '-지 않도록'টি '-도록' এর নেতিবাচক রূপ (মানে 'যেন / যাতে'), '-지 않게'টি '-게' এর নেতিবাচক রূপ (মানে 'এমনভাবে যাতে না')। উভয়েই সব ক্রিয়ার সঙ্গে একইভাবে যুক্ত হয়: 미끄러지다 → 미끄러지지 않도록 / 미끄러지지 않게। জাহাজ-নির্মাণে নিরাপত্তা প্রসঙ্গে জরুরি: 'যাতে ভারা না নড়ে', 'যাতে দুর্ঘটনা না ঘটে'।",
+      "explanationEn": "-지 않도록 / -지 않게 attach to verbs to express a cautionary purpose or preventive intention ('so that ... not', 'in order to avoid'). Both forms negate the purpose: -지 않도록 ('so as not to'), -지 않게 ('in such a way that ... not'). They attach uniformly to all verbs.",
       "examples": [
         {
-          "ko": "장갑을 착용하세요.",
-          "bn": "হাতে গ্লাভস পরুন।",
-          "en": "Wear gloves."
+          "ko": "갑판에서 작업할 때는 미끄러지지 않도록 조심해야 돼요.",
+          "bn": "ডেকে কাজের সময় যাতে পিছলে না যান সেজন্য সাবধান থাকতে হবে।",
+          "en": "When working on the deck, you must be careful so as not to slip."
         },
         {
-          "ko": "도면을 다시 확인하세요.",
-          "bn": "ব্লুপ্রিন্ট আবার চেক করুন।",
-          "en": "Please check the drawing again."
-        },
-        {
-          "ko": "이것을 주의하세요.",
-          "bn": "এটি খেয়াল রাখুন।",
-          "en": "Please pay attention to this."
+          "ko": "비계 기둥이 흔들리지 않게 밑동잡이를 설치했습니다.",
+          "bn": "ভারার খুঁটি যাতে না নড়ে সেজন্য বেস স্টেবিলাইজার বসিয়েছি।",
+          "en": "I installed the base stabilizer so that the scaffold columns do not shake."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় সঠিক কাল ও বিভক্তি খেয়াল রাখুন।"
+      "commonMistakeBn": "'-지 않도록' এবং '-지 않게' দুটোই প্রায় একই অর্থে ব্যবহার হয়—শুধু নিরাপত্তা-নির্দেশে পছন্দ ভিন্ন হতে পারে।"
     },
     {
-      "pattern": "-지 마세요",
-      "titleBn": "-지 마세요 (নিষেধাজ্ঞা)",
-      "explanationBn": "কোনো কাজ করতে নিষেধ করার জন্য ব্যবহার করা হয়।",
-      "explanationEn": "Used to prohibit an action (Do not...).",
+      "pattern": "V + -(으)ㄴ/는지 알려 주다",
+      "titleBn": "তথ্য জানানোর অনুরোধ '-(으)ㄴ/는지 알려 주다' (... কি না জানান)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-(으)ㄴ/는지' + '알려 주다' দিয়ে কোনো তথ্য বা পরিস্থিতি জানানোর অনুরোধ বা নির্দেশ দেওয়া হয়—বাংলায় '... কি না জানান'। বর্তমান কাজে '-는지 알려 주다' (작동하다 → 작동하는지 알려 주세요), অতীত কাজে বাতচিম থাকলে '-은지', না থাকলে '-ㄴ지' (끝나다 → 끝났는지, 설치하다 → 설치했는지)। কর্মস্থলে ঊর্ধ্বতনদের কাছে রিপোর্ট করার সময় ব্যবহৃত: 'কাজ শেষ হলো কি না জানাবেন'।",
+      "explanationEn": "-(으)ㄴ/는지 알려 주다 attaches to verbs to request that someone inform or report whether something is the case. Use -는지 for present/future actions and -(으)ㄴ지 for past actions, following the regular past-tense rules.",
       "examples": [
         {
-          "ko": "위험하니까 들어가지 마세요.",
-          "bn": "বিপজ্জনক তাই প্রবেশ করবেন না।",
-          "en": "It's dangerous, so do not enter."
+          "ko": "설치 작업이 끝나면 나한테 알려 주세요.",
+          "bn": "বসানোর কাজ শেষ হলে আমাকে জানাবেন।",
+          "en": "Please let me know when the installation work is done."
         },
         {
-          "ko": "안전모를 벗지 마세요.",
-          "bn": "সেফটি হেলমেট খুলবেন না।",
-          "en": "Do not take off the safety helmet."
-        },
-        {
-          "ko": "스위치를 만지지 마세요.",
-          "bn": "সুইচ ধরবেন না।",
-          "en": "Do not touch the switch."
+          "ko": "펌프가 잘 작동하는지 같이 확인하기로 해요.",
+          "bn": "পাম্প ঠিকভাবে চলছে কি না একসঙ্গে পরীক্ষা করি।",
+          "en": "Let's check together whether the pump is working well."
         }
       ],
-      "commonMistakeBn": "অনেকে '안' ব্যবহার করে নিষেধ করতে চান, কিন্তু আদেশের ক্ষেত্রে '-지 마세요' ব্যবহার করতে হয়।"
+      "commonMistakeBn": "'는지' বর্তমান বা ভবিষ্যতে; 'ㄴ/은지' অতীতের জন্য। 'ㄹ' বাতচিম বাদ যায়: '만들다' → '만드는지' (×만들는지)।"
     },
     {
-      "pattern": "-아/어야 하다",
-      "titleBn": "-아/어야 하다 (বাধ্যবাধকতা)",
-      "explanationBn": "কোনো কাজ অবশ্যই করতে হবে বোঝাতে ব্যবহার করা হয়।",
-      "explanationEn": "Used to express obligation or necessity (must/have to).",
+      "pattern": "V + -(으)ㄹ 점 / 주의할 점",
+      "titleBn": "লক্ষণীয় বিষয় '-(으)ㄹ 점' (যে বিষয়, যে পয়েন্ট)",
+      "explanationBn": "ক্রিয়ার সঙ্গে '-(으)ㄹ' + '점' দিয়ে 'যে বিষয় / যে পয়েন্ট' বা 'লক্ষণীয় / মনে রাখার বিষয়' প্রকাশ করা হয়। বাতচিম থাকলে '-을 점', না থাকলে '-ㄹ 점' (주의하다 → 주의할 점, 확인하다 → 확인할 점)। কর্মস্থলে প্রায়ই 'যে বিষয়ে সতর্ক থাকতে হবে' অর্থে ব্যবহার হয়: '주의할 점' = সতর্ক থাকার বিষয়, '확인할 점' = পরীক্ষা করার বিষয়।",
+      "explanationEn": "-(으)ㄹ 점 attaches to verbs to create noun phrases meaning 'a point/matter to ...' or 'something that should be ...'. Use -을 점 after a stem ending in a consonant and -ㄹ 점 after a vowel or ㄹ. Commonly seen in workplace instructions: 주의할 점 ('points to be careful about'), 확인할 점 ('matters to check').",
       "examples": [
         {
-          "ko": "안전화를 신어야 합니다.",
-          "bn": "সেফটি জুতো অবশ্যই পরতে হবে।",
-          "en": "You must wear safety shoes."
+          "ko": "도장 작업을 할 때 주의할 점이 있어요.",
+          "bn": "রং করার কাজের সময় সতর্ক থাকার বিষয় আছে।",
+          "en": "There are points to be careful about when doing painting work."
         },
         {
-          "ko": "도면을 확인해야 합니다.",
-          "bn": "ব্লুপ্রিন্ট অবশ্যই চেক করতে হবে।",
-          "en": "You must check the blueprint."
-        },
-        {
-          "ko": "보호구를 착용해야 합니다.",
-          "bn": "সুরক্ষা সরঞ্জাম অবশ্যই পরতে হবে।",
-          "en": "You must wear protective gear."
+          "ko": "비계를 설치하기 전에 확인할 점을 알려 드릴게요.",
+          "bn": "ভারা বসানোর আগে পরীক্ষা করার বিষয়গুলো জানাব।",
+          "en": "I will tell you the matters to check before installing the scaffold."
         }
       ],
-      "commonMistakeBn": "অনেকে স্বরবর্ণের নিয়ম ভুলে যান; 'ㅏ/ㅗ' থাকলে '-아야 하다', অন্যথায় '-어야 하다' বসবে।"
+      "commonMistakeBn": "'ㄹ' বাতচিম বাদ যায়: '만들다' → '만들 점' (×만들을 점)। '있다'-এ 'ㅅ' বাতচিম আছে: '있을 점'।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "용접 작업 확인",
-      "titleEn": "Welding Work Check",
+      "titleBn": "রং করার প্রস্তুতি শেষ",
+      "titleEn": "Preparations for Painting Are Done",
       "lines": [
         {
-          "speaker": "팀장",
-          "ko": "용접 상황 보고해 주세요.",
-          "bn": "ওয়েল্ডিং স্ট্যাটাস বলুন।",
-          "en": "Please report the welding status."
+          "speaker": "칼로",
+          "ko": "반장님, 도장 준비를 마쳤습니다.",
+          "bn": "সুপারভাইজার, রং করার প্রস্তুতি শেষ করেছি।",
+          "en": "Banjangnim, I am done with the preparations for painting."
         },
         {
-          "speaker": "작업자",
-          "ko": "지금 용접하고 있고, 용접봉을 교체해야 합니다.",
-          "bn": "এখন ওয়েল্ডিং চলছে, রড বদলাতে হবে।",
-          "en": "I'm welding now and need to replace the welding rod."
+          "speaker": "반장님",
+          "ko": "선체 표면은 물로 깨끗하게 청소했지요?",
+          "bn": "জাহাজের হালের পৃষ্ঠ পানি দিয়ে ভালোভাবে পরিষ্কার করেছেন তো?",
+          "en": "You cleaned the hull surface well with water, right?"
         },
         {
-          "speaker": "팀장",
-          "ko": "안전모와 보호장구 착용했나요?",
-          "bn": "হেলমেট এবং সুরক্ষা গিয়ার পরেছেন কি?",
-          "en": "Did you wear the helmet and protective gear?"
+          "speaker": "칼로",
+          "ko": "네, 물 분사기로 청소한 후에 물기를 완전히 제거해 놓았습니다.",
+          "bn": "জি, ওয়াটার স্প্রেয়ার দিয়ে পরিষ্কার করার পরে ভেজা ভাব পুরোপুরি মুছে ফেলেছি।",
+          "en": "Yes, I cleaned it with the water sprayer and then removed all the moisture."
         },
         {
-          "speaker": "작업자",
-          "ko": "네, 안전장비는 모두 착용했습니다.",
-          "bn": "হ্যাঁ, সব সুরক্ষা সামগ্রী পরেছি।",
-          "en": "Yes, I wore all safety equipment."
+          "speaker": "반장님",
+          "ko": "어디 봅시다. 표면이 깨끗해졌네요. 바로 도장 작업을 하면 되겠어요.",
+          "bn": "দেখি তো। পৃষ্ঠ পরিষ্কার হয়ে গেছে। এখনই রং করার কাজ শুরু করতে পারেন।",
+          "en": "Let's see. The surface has become clean. You can start the painting work right away."
         },
         {
-          "speaker": "팀장",
-          "ko": "용접 끝나면 도면과 비교하세요.",
-          "bn": "ওয়েল্ডিং শেষ হলে ব্লুপ্রিন্ট-এর সাথে মিলান করুন।",
-          "en": "After welding, compare with the drawing."
+          "speaker": "칼로",
+          "ko": "에어 스프레이 건으로 작업하면 되지요?",
+          "bn": "এয়ার স্প্রে গান দিয়ে কাজ করলেই হবে, তাই না?",
+          "en": "I can work with the air spray gun, right?"
+        },
+        {
+          "speaker": "반장님",
+          "ko": "에어 스프레이 건 말고 에어리스 스프레이 건으로 작업하세요. 그래야 짧은 시간에 넓은 면적을 도장할 수 있어요.",
+          "bn": "এয়ার স্প্রে গান নয়, এয়ারলেস স্প্রে গান দিয়ে কাজ করুন। তাহলেই অল্প সময়ে বড় জায়গা রং করা যাবে।",
+          "en": "Use the airless spray gun instead of the air spray gun. That way you can paint a large area in a short time."
+        },
+        {
+          "speaker": "칼로",
+          "ko": "알겠습니다. 분사 작업이 끝나면 붓으로 마무리하겠습니다.",
+          "bn": "বুঝেছি। স্প্রে করার কাজ শেষ হলে ব্রাশ দিয়ে শেষ টান দেব।",
+          "en": "Understood. When the spraying is done, I will finish up with a brush."
         }
       ]
     },
     {
-      "titleBn": "철판 운반 지시",
-      "titleEn": "Steel Plate Transport Instruction",
+      "titleBn": "ভারা বসানোর কাজ কতদূর এগোল",
+      "titleEn": "How Far Has the Scaffolding Work Progressed?",
       "lines": [
         {
-          "speaker": "현장감독",
-          "ko": "크레인으로 철판을 부두 옆으로 옮기세요.",
-          "bn": "ক্রেন দিয়ে স্টীল প্লেট ঘাটের পাশে সরান।",
-          "en": "Move the steel plate to beside the pier with the crane."
+          "speaker": "반장님",
+          "ko": "칼로 씨, 오늘 작업해야 하는 구역이 어디예요?",
+          "bn": "কার্লো, আজ কোন এলাকায় কাজ করতে হবে?",
+          "en": "Carlo, where is the area we need to work on today?"
         },
         {
-          "speaker": "운전사",
-          "ko": "무게가 무겁습니다. 몇 장인지요?",
-          "bn": "এটি ভারি। কতগুলো আছে?",
-          "en": "It is heavy. How many sheets are there?"
+          "speaker": "칼로",
+          "ko": "조타실 쪽입니다.",
+          "bn": "হুইলহাউসের দিকে।",
+          "en": "It's near the wheelhouse."
         },
         {
-          "speaker": "현장감독",
-          "ko": "다섯 장입니다. 천천히 옮기세요.",
-          "bn": "পাঁচটি। ধীরে সরান।",
-          "en": "Five sheets. Move slowly."
+          "speaker": "반장님",
+          "ko": "비계 기둥은 다 세웠어요?",
+          "bn": "ভারার খুঁটিগুলো কি সব দাঁড় করানো হয়েছে?",
+          "en": "Have all the scaffold columns been set up?"
         },
         {
-          "speaker": "운전사",
-          "ko": "안전벨트와 로프를 확인하겠습니다.",
-          "bn": "সেফটি বেল্ট এবং রশি চেক করব।",
-          "en": "I'll check the safety belt and rope."
+          "speaker": "칼로",
+          "ko": "네, 비계 기둥은 다 세웠고 띠장도 거의 다 붙였습니다.",
+          "bn": "জি, ভারার খুঁটি সব দাঁড় করানো হয়েছে আর আড়াআড়ি পাইপও প্রায় সব লাগানো হয়েছে।",
+          "en": "Yes, all the scaffold columns are up and the wales are almost all attached."
         },
         {
-          "speaker": "현장감독",
-          "ko": "확인 후 시작하세요.",
-          "bn": "চেক করে শুরু করুন।",
-          "en": "Start after checking."
+          "speaker": "반장님",
+          "ko": "생각보다 많이 진행했네요.",
+          "bn": "ভেবেছিলাম তার চেয়ে অনেক বেশি এগিয়েছেন।",
+          "en": "You have made much more progress than I thought."
+        },
+        {
+          "speaker": "칼로",
+          "ko": "반장님이 잘 가르쳐 주신 덕분이에요. 띠장 작업이 끝나면 밑받침 철물을 설치하는 거 맞지요?",
+          "bn": "সুপারভাইজার ভালোভাবে শিখিয়েছেন বলেই। আড়াআড়ি পাইপের কাজ শেষ হলে বেস মেটাল ফিটিং বসাতে হবে, তাই না?",
+          "en": "It is thanks to you teaching me well. Once the wale work is done, we install the base fittings, right?"
+        },
+        {
+          "speaker": "반장님",
+          "ko": "네, 맞아요. 안전 로프하고 가새도 설치해야 되니까 작업을 서두르죠.",
+          "bn": "জি, ঠিক। নিরাপত্তা দড়ি আর ব্রেসও বসাতে হবে, তাই কাজে একটু তাড়াতাড়ি করি।",
+          "en": "Yes, that's right. We also need to install the safety ropes and braces, so let's hurry with the work."
         }
       ]
     },
     {
-      "titleBn": "안전 장비 점검 (নিরাপত্তা সরঞ্জাম চেক)",
-      "titleEn": "Safety Equipment Check",
+      "titleBn": "উঁচুতে নিরাপদে কাজ করা গেল",
+      "titleEn": "Now We Can Work Safely at Heights",
       "lines": [
         {
-          "speaker": "반장",
-          "ko": "작업 시작 전에 안전 장비를 확인합시다.",
-          "bn": "কাজ শুরুর আগে নিরাপত্তা সরঞ্জাম চেক করি।",
-          "en": "Let's check the safety equipment before starting work."
+          "speaker": "칼로",
+          "ko": "반장님, 비계 설치 작업을 다 마쳤습니다.",
+          "bn": "সুপারভাইজার, ভারা বসানোর কাজ পুরোটা শেষ করেছি।",
+          "en": "Banjangnim, I have finished all the scaffolding installation work."
         },
         {
-          "speaker": "투안",
-          "ko": "네, 안전모와 안전화를 착용했습니다.",
-          "bn": "হ্যাঁ, সেফটি হেলমেট এবং সেফটি জুতো পরেছি।",
-          "en": "Yes, I wore the safety helmet and safety shoes."
+          "speaker": "반장님",
+          "ko": "수고했어요. 비계를 설치한 덕분에 높은 곳에서도 안전하게 작업할 수 있겠네요.",
+          "bn": "ভালো কাজ করেছেন। ভারা বসানোর কারণেই উঁচু জায়গাতেও নিরাপদে কাজ করা যাবে।",
+          "en": "Good work. Thanks to installing the scaffold, we can work safely even at heights."
         },
         {
-          "speaker": "반장",
-          "ko": "용접할 때는 보안경도 꼭 써야 합니다.",
-          "bn": "ওয়েল্ডিং করার সময় সেফটি গগলসও অবশ্যই পরতে হবে।",
-          "en": "You must also wear safety goggles when welding."
+          "speaker": "칼로",
+          "ko": "안전난간과 깔판도 확인했는데 흔들리지 않게 잘 고정했습니다.",
+          "bn": "নিরাপত্তা রেলিং আর ফ্লোরবোর্ডও দেখেছি, যাতে না নড়ে সেভাবে ভালো করে আটকেছি।",
+          "en": "I also checked the safety railing and floorboards, and fixed them well so they do not shake."
         },
         {
-          "speaker": "투안",
-          "ko": "알겠습니다. 지금 쓰겠습니다.",
-          "bn": "বুঝেছি। এখনই পরছি।",
-          "en": "Understood. I will wear them now."
+          "speaker": "반장님",
+          "ko": "잘했어요. 수평을 잘 맞춘 덕분에 발판이 튼튼하게 설치되었어요.",
+          "bn": "বেশ করেছেন। লেভেল ঠিকভাবে মেলানোর কারণেই পাটাতন মজবুতভাবে বসেছে।",
+          "en": "Well done. Thanks to leveling it properly, the platform has been installed sturdily."
         },
         {
-          "speaker": "반장",
-          "ko": "그리고 환풍기도 켜세요.",
-          "bn": "এবং ভেন্টিলেটরও চালু করুন।",
-          "en": "And turn on the ventilator too."
+          "speaker": "칼로",
+          "ko": "그럼 이제 용접 작업을 시작하면 될까요?",
+          "bn": "তাহলে এখন ওয়েল্ডিংয়ের কাজ শুরু করলেই হবে?",
+          "en": "Then may I start the welding work now?"
+        },
+        {
+          "speaker": "반장님",
+          "ko": "네, 시작하세요. 작업이 끝나면 이상이 없는지 알려 주세요.",
+          "bn": "জি, শুরু করুন। কাজ শেষ হলে কোনো সমস্যা আছে কি না জানাবেন।",
+          "en": "Yes, go ahead. When the work is done, let me know whether everything is fine."
         }
       ]
     }
@@ -674,602 +730,569 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "다음 중 '용접'의 의미로 সঠিকটি কোনটা?",
-      "questionKo": "'용접'의 뜻은 무엇입니까?",
+      "questionBn": "'জাহাজের যে খোলা উপরের তলায় দাঁড়িয়ে কাজ করা হয়' — কোরিয়ানে সেটি কী?",
+      "questionKo": "다음 중 배의 넓고 평평한 위쪽 바닥을 뜻하는 말은 무엇입니까?",
       "options": [
-        "도면을 그리는 것",
-        "페인트를 바르는 것",
-        "철판을 연결하는 것",
-        "스틸을 절단하는 것"
+        "조타실",
+        "갑판",
+        "선원실",
+        "프로펠러"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "용접은 두 금속을 붙여 연결하는 작업, 즉 '철판을 연결하는 것'।"
+      "answer": 1,
+      "explanationBn": "'갑판' মানে ডেক—জাহাজের খোলা উপরের তলা, যেখানে দাঁড়িয়ে কাজ করা হয়। '조타실' হলো হুইলহাউস (জাহাজ চালানোর কক্ষ), '선원실' নাবিকদের থাকার ঘর, আর '프로펠러' জাহাজের ঘোরানো পাখা।"
     },
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "안전 지시: '안전모를 꼭 착용하세요.' 한국어로 옳은 것은?",
-      "questionKo": "Choose the correct Korean sentence for wearing a safety helmet.",
+      "questionBn": "প্রপেলার জাহাজের কোন অংশে থাকে?",
+      "questionKo": "프로펠러가 있는 부분은 어디입니까?",
       "options": [
-        "안전모를 저장하세요.",
-        "안전모를 닦으세요.",
-        "안전모를 벗으세요.",
-        "안전모를 꼭 착용하세요."
+        "선수부",
+        "중앙부",
+        "선미부",
+        "조타실"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "'꼭 착용하세요'는 'অবশ্যই পরুন' অর্থে, সঠিক বাক্য।"
+      "answer": 2,
+      "explanationBn": "'선미부' হলো জাহাজের পিছনের অংশ, যেখানে প্রপেলার বসানো থাকে। '선수부' সামনের অংশ, '중앙부' মাঝের অংশ, আর '조타실' জাহাজ চালানোর কক্ষ—এগুলোতে প্রপেলার থাকে না।"
     },
     {
       "id": "p3",
-      "type": "multiple-choice",
-      "questionBn": "도면을 보면 무엇을 해야 합니까?",
-      "questionKo": "If you look at the drawing, what should you do?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 녹이 슬면 선체에 부식이 일어나기 쉬우니까 도장할 때 페인트를 ______ 칠해야 돼요.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
       "options": [
-        "작업을 시작하다",
-        "재료를 버리다",
-        "작업을 멈추다",
-        "도면을 숨기다"
+        "골고루",
+        "임시로",
+        "정기적으로",
+        "완전히"
       ],
-      "pairs": [],
       "answer": 0,
-      "explanationBn": "도면을 보면 일반적으로 작업을 시작하거나 진행 방법을 확인하므로 '작업을 시작하다'가 맞습니다।"
+      "explanationBn": "'골고루' মানে সমানভাবে—রং সব জায়গায় সমান করে লাগালেই ক্ষয় ঠেকানো যায়, তাই এটিই সঠিক। '임시로' মানে অস্থায়ীভাবে, '정기적으로' নিয়মিতভাবে, '완전히' পুরোপুরি—কোনোটিই 'সমানভাবে ছড়িয়ে লাগানো' বোঝায় না।"
     },
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "크레인이 철판을 옮길 때 가장 먼저 확인할 것은?",
-      "questionKo": "What should be checked first when the crane moves the steel plate?",
+      "questionBn": "নিচের বর্ণনাটি কোন কাজের কথা বলছে? '에어리스 스프레이 건으로 페인트를 분사한 후에 붓으로 마무리합니다.'",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
       "options": [
-        "도면의 글씨체",
-        "안전벨트와 로프",
-        "작업복 사이즈",
-        "용접봉 색깔"
+        "포장 작업",
+        "연마 작업",
+        "도장 작업",
+        "재단 작업"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "무거운 물건 운반 시 '안전벨트와 로프'를 먼저 확인해야 합니다।"
+      "answer": 2,
+      "explanationBn": "স্প্রে গান দিয়ে রং ছিটিয়ে তারপর ব্রাশ দিয়ে শেষ করা—এটিই '도장 작업' (রং করার কাজ)। '포장 작업' মোড়কজাত করা, '연마 작업' ঘষে মসৃণ করা, '재단 작업' কেটে মাপে আনা।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "선체에 '부식'이 생기면 어떻게 해야 합니까?",
-      "questionKo": "What to do if corrosion occurs on the hull?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 도장 작업을 할 때는 작업장을 환기시켜야 합니다. 그래서 작업 전에 ______을 열어야 합니다.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
       "options": [
-        "부식을 칠한다",
-        "부식을 방치한다",
-        "부식을 방지하거나 수리한다",
-        "부식을 먹는다"
+        "창문",
+        "붓",
+        "송풍기",
+        "사다리"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "부식이 생기면 방지 조치 또는 수리를 해야 하므로 첫 번째가 맞습니다।"
+      "answer": 0,
+      "explanationBn": "বাতাস চলাচলের জন্য খুলতে হয় '창문' (জানালা)। '붓' হলো ব্রাশ, '송풍기' ব্লোয়ার (এটি চালু করা হয়, খোলা হয় না), আর '사다리' মানে মাচা—কোনোটিই 'খোলার' জিনিস নয়।"
     },
     {
       "id": "p6",
       "type": "fill-blank",
-      "questionBn": "빈칸에 들어갈 말은? '_______을(를) 확인하세요.' (크레인과 로프 점검)",
-      "questionKo": "Fill the blank: '_______을(를) 확인하세요.' (Check crane and rope)",
+      "questionBn": "'-아지다/어지다' ব্যবহার করে বাক্যটি পূরণ করুন: 도장 작업을 해서 선체가 ______.",
+      "questionKo": "'-아지다/어지다'를 사용하여 문장을 완성하십시오.",
       "options": [
-        "도면",
-        "용접봉",
-        "페인트",
-        "안전벨트"
+        "깨끗해졌습니다",
+        "깨끗았습니다",
+        "깨끗하겠습니다",
+        "깨끗해집니다만"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "'크레인과 로프' 관련으로 '안전벨트'를 확인하라는 문장이 자연스럽습니다।"
+      "answer": 0,
+      "explanationBn": "'깨끗하다' একটি '-하다' বিশেষণ, তাই '-해지다' রূপ নিয়ে অতীতে '깨끗해졌습니다' হয়—অর্থাৎ 'পরিষ্কার হয়ে গেছে'। '깨끗았습니다' ব্যাকরণসম্মত নয়, '깨끗하겠습니다' ভবিষ্যতের অনুমান, আর '깨끗해집니다만' বাক্য শেষ না করে বিরোধ যোগ করে।"
     },
     {
       "id": "p7",
-      "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '용접을 _______ 하세요.' (বিঃদ্রঃ সাবধান করে)",
-      "questionKo": "Fill: '용접을 _______ 하세요.' (do carefully)",
+      "type": "multiple-choice",
+      "questionBn": "কোন বাক্যটি '-아지다/어지다' সঠিকভাবে ব্যবহার করেছে?",
+      "questionKo": "'-아지다/어지다'를 바르게 사용한 문장을 고르십시오.",
       "options": [
-        "정확히",
-        "빠르게",
-        "닦지",
-        "시끄럽게"
+        "새 기계가 들어와서 작업 속도가 빨라졌어요.",
+        "새 기계가 들어와서 작업 속도가 빠르어졌어요.",
+        "새 기계가 들어와서 작업 속도가 빨라했어요.",
+        "새 기계가 들어와서 작업 속도가 빠지었어요."
       ],
-      "pairs": [],
       "answer": 0,
-      "explanationBn": "'정확히'는 'সঠিকভাবে' অর্থে, 안전하고 좋은 결과를 위해 적절합니다।"
+      "explanationBn": "'빠르다'-এর মূল স্বরধ্বনি 'ㅡ' অনিয়মিতভাবে বদলে '빨라지다' হয়, তাই অতীতে '빨라졌어요' সঠিক। '빠르어졌어요' নিয়ম ভুলভাবে প্রয়োগ করেছে, '빨라했어요' ও '빠지었어요' অস্তিত্বহীন রূপ।"
     },
     {
       "id": "p8",
       "type": "fill-blank",
-      "questionBn": "빈칸: '도면을 먼저 보고 _______ 하세요.' (কাজ শুরু করা)",
-      "questionKo": "Fill: '도면을 먼저 보고 _______ 하세요.' (start work)",
+      "questionBn": "'-(으)ㄴ 덕분에' ব্যবহার করে পূরণ করুন: 비계를 튼튼하게 ______ 안전하게 작업할 수 있습니다.",
+      "questionKo": "'-(으)ㄴ 덕분에'를 사용하여 문장을 완성하십시오.",
       "options": [
-        "멈추",
-        "시작",
-        "버리",
-        "달리"
+        "설치한 덕분에",
+        "설치할 덕분에",
+        "설치는 덕분에",
+        "설치하는 덕분이다"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "'시작'은 '시작하세요' 형태로 문맥상 옳습니다।"
+      "answer": 0,
+      "explanationBn": "কাজটি ইতিমধ্যে শেষ হয়েছে, তাই অতীত রূপ '설치한 덕분에' সঠিক—'বসানোর কারণেই'। '설치할 덕분에' ভবিষ্যৎ রূপ যা এই কাঠামোতে চলে না, '설치는 덕분에' ভুল সংযোগ, আর '설치하는 덕분이다' বাক্যটি এখানে শেষ করে দেয়।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "다음 한국어 단어와 বাংলা 의미를 연결하세요.",
-      "questionKo": "Match the Korean word with the Bengali meaning.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "철판",
-          "right": "স্টীল প্লেট"
-        },
-        {
-          "left": "용접",
-          "right": "ওয়েল্ডিং"
-        },
-        {
-          "left": "조선소",
-          "right": "শিপইয়ার্ড"
-        },
-        {
-          "left": "안전모",
-          "right": "সেফটি হেলমেট"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'-덕분에' কোন ধরনের ফলাফলের সঙ্গে ব্যবহার করা হয়?",
+      "questionKo": "'-덕분에'는 어떤 결과와 함께 사용합니까?",
+      "options": [
+        "부정적인 결과",
+        "긍정적인 결과",
+        "불확실한 결과",
+        "과거의 결과만"
       ],
-      "answer": 0,
-      "explanationBn": "각 한국어 단어와 বাংলা অর্থ সোজাসুজি মিলেছে।"
+      "answer": 1,
+      "explanationBn": "'-덕분에' কেবল ইতিবাচক বা ভালো ফলাফলের কারণ বোঝাতে ব্যবহৃত হয়। খারাপ ফলাফলের জন্য '-(으)ㄴ 탓에' ব্যবহার করতে হয়। ফলাফল অনিশ্চিত কি না বা অতীত কি না—তার সঙ্গে এই কাঠামোর সম্পর্ক নেই।"
     },
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "다음 작업 동작과 বাংলা 설명을 연결하세요.",
-      "questionKo": "Match the work action with the Bengali description.",
-      "options": [],
+      "questionBn": "ভারার প্রতিটি অংশের সঙ্গে তার সঠিক কাজ মিলান।",
+      "questionKo": "비계의 각 부분과 그 역할을 연결하십시오.",
       "pairs": [
         {
-          "left": "도면 확인",
-          "right": "ব্লুপ্রিন্ট দেখে নিশ্চিত করা"
+          "left": "작업발판",
+          "right": "작업자가 서서 일할 수 있는 곳"
         },
         {
-          "left": "골격 조립",
-          "right": "ফ্রেম জোড়া করা"
+          "left": "가새",
+          "right": "비계의 안정성을 높이려고 대각선으로 설치하는 파이프"
         },
         {
-          "left": "코팅 바르기",
-          "right": "কোটিং লাগানো"
+          "left": "밑동잡이",
+          "right": "비계 기둥이 흔들리지 않도록 아랫부분에 설치하는 파이프"
         },
         {
-          "left": "균열 보고",
-          "right": "ফাটল খবর দেওয়া"
+          "left": "안전난간",
+          "right": "작업자가 떨어지지 않게 옆에 설치하는 난간"
+        },
+        {
+          "left": "강관 비계",
+          "right": "높은 곳에서 안전하게 일하려고 임시로 설치하는 구조물"
         }
       ],
-      "answer": 0,
-      "explanationBn": "কাজ এবং বাংলা বর্ণনা একে অপরের সাথে মিলছে।"
+      "explanationBn": "প্রতিটি অংশের আলাদা কাজ আছে: পাটাতনে দাঁড়িয়ে কাজ হয়, ব্রেস কোনাকুনি বসে স্থিতিশীলতা বাড়ায়, বেস স্টেবিলাইজার নিচে বসে খুঁটির নড়াচড়া ঠেকায়, রেলিং পাশে বসে পড়ে যাওয়া ঠেকায়, আর পুরো স্টিল পাইপ ভারাটিই অস্থায়ী কাঠামো।"
     },
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "용접할 때 눈을 보호하기 위해 무엇을 써야 합니까?",
-      "questionKo": "용접할 때 눈을 보호하기 위해 무엇을 써야 합니까?",
+      "questionBn": "রং করার আগে জাহাজের পৃষ্ঠ থেকে কী সরাতে হয়?",
+      "questionKo": "도장 작업 전에 선체 표면에서 무엇을 제거해야 합니까?",
       "options": [
-        "안전화",
-        "보안경",
-        "귀마개",
-        "안전대"
+        "도료",
+        "붓",
+        "녹과 물기",
+        "안전 로프"
       ],
-      "answer": 1,
-      "explanationBn": "눈을 보호하기 위해서는 보안경(세ফটি গগলস)을 써야 합니다."
+      "answer": 2,
+      "explanationBn": "মরচে ('녹') আর ভেজা ভাব ('물기') থাকলে রং ঠিকমতো বসে না, তাই দুটোই আগে সরাতে হয়। '도료' হলো রং নিজেই, '붓' রং লাগানোর যন্ত্র, আর '안전 로프' নিরাপত্তার সরঞ্জাম—কোনোটিই সরানোর জিনিস নয়।"
     },
     {
       "id": "p12",
-      "type": "multiple-choice",
-      "questionBn": "발을 보호하기 위해 신는 것은 무엇입니까?",
-      "questionKo": "발을 보호하기 위해 신는 것은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 도장을 마친 선체 표면에 ______ 금이 간 부분을 다시 도장해야 합니다.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
       "options": [
-        "안전모",
-        "마스크",
-        "안전화",
-        "작업복"
+        "균열이 생기면",
+        "습기가 마르면",
+        "도료가 남으면",
+        "붓이 없으면"
       ],
-      "answer": 2,
-      "explanationBn": "발을 보호하기 위해서는 안전화(세ফটি জুতো)를 신어야 합니다."
+      "answer": 0,
+      "explanationBn": "'금이 가다' মানে ফাটল ধরা, তাই আগের অংশে '균열이 생기면' (ফাটল দেখা দিলে) বসাতে হয়। বাকি তিনটি—আর্দ্রতা শুকানো, রং বেঁচে যাওয়া, ব্রাশ না থাকা—ফাটলের সঙ্গে সম্পর্কিত নয়।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "높은 곳에서 일할 때 떨어지지 않게 매는 것은 무엇입니까?",
-      "questionKo": "높은 곳에서 일할 때 떨어지지 않게 매는 것은 무엇입니까?",
+      "questionBn": "এয়ারলেস স্প্রে গান ব্যবহারের প্রধান সুবিধা কী?",
+      "questionKo": "에어리스 스프레이 건의 가장 큰 장점은 무엇입니까?",
       "options": [
-        "안전대",
-        "소화기",
-        "환풍기",
-        "스위치"
+        "짧은 시간에 넓은 면적을 도장할 수 있다",
+        "페인트를 적게 쓸 수 있다",
+        "물로 청소할 필요가 없다",
+        "붓으로 마무리하지 않아도 된다"
       ],
       "answer": 0,
-      "explanationBn": "높은 곳에서 일할 때는 안전대(세ফটি বেল্ট)를 매야 합니다."
+      "explanationBn": "সংলাপে সুপারভাইজার বলেছেন, এয়ারলেস স্প্রে গান দিয়ে অল্প সময়ে বড় জায়গা রং করা যায়—এটিই মূল সুবিধা। রং কম লাগা, পানি দিয়ে পরিষ্কারের দরকার না হওয়া বা ব্রাশে শেষ না করা—এগুলো পাঠে বলা হয়নি; বরং ব্রাশে শেষ করতেই বলা হয়েছে।"
     },
     {
       "id": "p14",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 들어갈 말은? '먼지가 많으니까 _______을(를) 쓰세요.'",
-      "questionKo": "빈칸에 들어갈 말은? '먼지가 많으니까 _______을(를) 쓰세요.'",
-      "options": [
-        "마스크",
-        "귀마개",
-        "안전화",
-        "전원"
+      "type": "matching",
+      "questionBn": "প্রতিটি কোরিয়ান শব্দের সঙ্গে তার বাংলা অর্থ মিলান।",
+      "questionKo": "다음 단어와 뜻을 연결하십시오.",
+      "pairs": [
+        {
+          "left": "부식",
+          "right": "ক্ষয়, ধাতু নষ্ট হওয়া"
+        },
+        {
+          "left": "균열",
+          "right": "ফাটল, চিড়"
+        },
+        {
+          "left": "물기",
+          "right": "ভেজা ভাব"
+        },
+        {
+          "left": "수평",
+          "right": "সমান্তরাল, লেভেল"
+        },
+        {
+          "left": "대각선",
+          "right": "কোনাকুনি, কর্ণ বরাবর"
+        }
       ],
-      "answer": 0,
-      "explanationBn": "먼지가 많을 때는 마스크(মাস্ক)를 써야 합니다."
+      "explanationBn": "এই পাঁচটি শব্দ জাহাজ নির্মাণে প্রায়ই আসে: '부식' ধাতুর ক্ষয়, '균열' পৃষ্ঠের ফাটল, '물기' রং করার আগে মোছা ভেজা ভাব, '수평' পাটাতন বসানোর লেভেল, আর '대각선' ব্রেস বসানোর দিক।"
     },
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "빈칸에 들어갈 말은? '시끄러우니까 _______을(를) 하세요.'",
-      "questionKo": "빈칸에 들어갈 말은? '시끄러우니까 _______을(를) 하세요.'",
+      "questionBn": "'-지 않도록' ব্যবহার করে পূরণ করুন: 갑판에서 작업할 때는 ______ 조심해야 돼요.",
+      "questionKo": "'-지 않도록'을 사용하여 문장을 완성하십시오.",
       "options": [
-        "보안경",
-        "귀마개",
-        "작업복",
-        "비상구"
+        "미끄러지지 않도록",
+        "미끄러지도록",
+        "미끄러지 않도록",
+        "미끄럽지 않아서"
       ],
-      "answer": 1,
-      "explanationBn": "시끄러울 때는 귀마개(ইয়ারপ্লাগ)를 해야 합니다."
+      "answer": 0,
+      "explanationBn": "'যাতে পিছলে না যাই' বোঝাতে '미끄러지다' + '-지 않도록' = '미끄러지지 않도록'। '미끄러지도록' উল্টো অর্থ দেয় (যাতে পিছলে যায়), '미끄러지 않도록' এ '-지' বাদ পড়েছে, আর '미끄럽지 않아서' কারণ বোঝায়, উদ্দেশ্য নয়।"
     },
     {
       "id": "p16",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 들어갈 말은? '불이 나면 _______(으)로 불을 끄세요.'",
-      "questionKo": "빈칸에 들어갈 말은? '불이 나면 _______(으)로 불을 끄세요.'",
+      "type": "multiple-choice",
+      "questionBn": "ভারার বিভিন্ন অংশের মধ্যে কোনটি কোনাকুনিভাবে বসানো হয়?",
+      "questionKo": "비계 구조물 중에서 대각선으로 설치하는 것은 무엇입니까?",
       "options": [
-        "소화기",
-        "환풍기",
-        "스위치",
-        "안전대"
+        "작업발판",
+        "가새",
+        "안전난간",
+        "깔판"
       ],
-      "answer": 0,
-      "explanationBn": "불이 나면 소화기(অগ্নিনির্বাপক যন্ত্র)로 불을 꺼야 합니다."
+      "answer": 1,
+      "explanationBn": "'가새' (ব্রেস) ভারার স্থিতিশীলতা বাড়াতে কোনাকুনিভাবে বসানো হয়। '작업발판' সমান্তরালে বসে, '안전난간' পাশে বসে পড়া ঠেকায়, '깔판' মেঝে তৈরি করে—এগুলো কোনাকুনি নয়।"
     },
     {
       "id": "p17",
-      "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
-      "questionKo": "다음 단어와 의미를 연결하세요.",
-      "pairs": [
-        {
-          "left": "안전화",
-          "right": "세ফটি জুতো"
-        },
-        {
-          "left": "보안경",
-          "right": "세ফটি গগলস"
-        },
-        {
-          "left": "마스크",
-          "right": "মাস্ক"
-        },
-        {
-          "left": "귀마개",
-          "right": "ইয়ারপ্লাগ"
-        }
+      "type": "fill-blank",
+      "questionBn": "'-(으)ㄴ/는지 알려 주다' ব্যবহার করে পূরণ করুন: 설치 작업이 끝나면 나한테 ______.",
+      "questionKo": "'-(으)ㄴ/는지 알려 주다'를 사용하여 문장을 완성하십시오.",
+      "options": [
+        "알려 주세요",
+        "알려 줬어요",
+        "알려 주지요",
+        "알려 줄까요"
       ],
-      "explanationBn": "각 단어의 올바른 뜻을 연결합니다."
+      "answer": 0,
+      "explanationBn": "কাজ শেষ হওয়ার পরে জানানোর অনুরোধ করছেন, তাই '알려 주세요' (জানাবেন) সঠিক। '알려 줬어요' অতীত কাল, '알려 주지요' নিশ্চিতকরণ জানতে চাওয়া, '알려 줄까요' প্রস্তাব—কোনোটিই এখানে মানায় না।"
     },
     {
       "id": "p18",
-      "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
-      "questionKo": "다음 단어와 의미를 연결하세요.",
-      "pairs": [
-        {
-          "left": "작업복",
-          "right": "কাজের পোশাক"
-        },
-        {
-          "left": "안전대",
-          "right": "세ফটি বেল্ট"
-        },
-        {
-          "left": "소화기",
-          "right": "অগ্নিনির্বাপক যন্ত্র"
-        },
-        {
-          "left": "비상구",
-          "right": "জরুরী প্রস্থান"
-        }
+      "type": "multiple-choice",
+      "questionBn": "কোরিয়ার জাহাজ-নির্মাণ শিল্পের সবচেয়ে বড় শক্তি কী?",
+      "questionKo": "한국 조선업의 가장 큰 장점은 무엇입니까?",
+      "options": [
+        "낮은 인건비",
+        "높은 기술력과 생산성",
+        "풍부한 원자재",
+        "정부의 낮은 세금"
       ],
-      "explanationBn": "각 단어의 올바른 뜻을 연결합니다."
+      "answer": 1,
+      "explanationBn": "পাঠ্যাংশে বলা হয়েছে, কোরিয়ার জাহাজ-নির্মাণ শিল্পের মূল শক্তি হলো উন্নত প্রযুক্তি, উৎপাদনশীলতা ও প্রতিযোগিতামূলক দাম—অর্থাৎ উচ্চ প্রযুক্তি দক্ষতা ও উৎপাদনশীলতা। শ্রম খরচ, কাঁচামাল বা কর—এসব পাঠে উল্লেখ নেই।"
     },
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
-      "questionKo": "다음 단어와 의미를 연결하세요.",
+      "questionBn": "প্রতিটি ক্রিয়াপদের সঙ্গে তার '-아지다/어지다' রূপ মিলান।",
+      "questionKo": "동사와 '-아지다/어지다' 형태를 연결하십시오.",
       "pairs": [
         {
-          "left": "환풍기",
-          "right": "ভেন্টিলেটর"
+          "left": "깨끗하다",
+          "right": "깨끗해지다"
         },
         {
-          "left": "스위치",
-          "right": "সুইচ"
+          "left": "빠르다",
+          "right": "빨라지다"
         },
         {
-          "left": "전원",
-          "right": "পাওয়ার"
+          "left": "길다",
+          "right": "길어지다"
         },
         {
-          "left": "위험",
-          "right": "বিপদ"
+          "left": "많다",
+          "right": "많아지다"
+        },
+        {
+          "left": "익숙하다",
+          "right": "익숙해지다"
         }
       ],
-      "explanationBn": "각 단어의 올바른 뜻을 연결합니다."
+      "explanationBn": "'-하다' শব্দে '-해지다' যোগ হয় (깨끗하다→깨끗해지다, 익숙하다→익숙해지다)। 'ㅏ/ㅗ' স্বরধ্বনির পরে '-아지다' (많다→많아지다, 'ㅡ' বদলে 'ㅏ' দিয়ে 빠르다→빨라지다)। অন্য স্বরে '-어지다' (길다→길어지다)।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
-      "questionKo": "다음 단어와 의미를 연결하세요.",
-      "pairs": [
-        {
-          "left": "주의",
-          "right": "সতর্কতা"
-        },
-        {
-          "left": "경고",
-          "right": "সতর্কবাণী"
-        },
-        {
-          "left": "안전모",
-          "right": "세ফটি হেলমেট"
-        },
-        {
-          "left": "용접",
-          "right": "ওয়েল্ডিং"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: ______ 비계 기둥이 흔들리지 않도록 아랫부분에 설치합니다.",
+      "questionKo": "빈칸에 알맞은 것을 고르십시오.",
+      "options": [
+        "밑동잡이는",
+        "깔판은",
+        "가새는",
+        "띠장은"
       ],
-      "explanationBn": "각 단어의 올바른 뜻을 연결합니다."
+      "answer": 0,
+      "explanationBn": "'밑동잡이' (বেস স্টেবিলাইজার) হলো ভারার নিচে বসানো পাইপ, যা খুঁটি নড়তে দেয় না। '깔판' মেঝে তৈরি করে, '가새' কোনাকুনি বসে স্থিতিশীলতা বাড়ায়, '띠장' আড়াআড়ি পাইপ—এগুলো নিচে বসানো নয়।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পঠন: নিচের অংশ পড়ে সঠিক উত্তরটি চয়ন করুন।",
-      "questionKo": "다음 글을 읽고 알맞은 것을 고르세요.",
-      "passage": "현장에서는 항상 안전모를 착용해야 합니다. 안전모를 착용하지 않으면 작업할 수 없습니다.",
+      "questionBn": "নিচের বর্ণনাটি জাহাজের কোন অংশের?",
+      "questionKo": "다음은 배의 어느 부분에 대한 설명입니까?",
+      "passage": "배를 운전하는 곳입니다. 여기에서 배가 가는 방향을 정합니다.",
       "options": [
-        "안전모는 집에서만 착용한다.",
-        "안전모는 선택 사항이다.",
-        "안전모를 벗고 작업할 수 있다.",
-        "안전모를 착용해야 작업할 수 있다."
+        "갑판",
+        "조타실",
+        "선미부",
+        "선체"
       ],
-      "answer": 3,
-      "explanationBn": "본문은 안전모를 반드시 착용해야 작업할 수 있다고 분명히 말합니다।"
+      "answer": 1,
+      "explanationBn": "জাহাজ চালানোর ও দিক ঠিক করার জায়গা হলো '조타실' (হুইলহাউস)। '갑판' খোলা ডেক, '선미부' পিছনের অংশ, '선체' জাহাজের মূল দেহ।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "পঠন: 어떤 장비가 철판을 옮긴다고 했습니까?",
-      "questionKo": "다음 글을 읽고, 철판을 옮기는 장비는 무엇입니까?",
-      "passage": "부두에서 큰 크레인이 철판을 옮겼다. 작업자는 크레인 조종을 도왔다.",
+      "questionBn": "শূন্যস্থানে কোনটি বসবে?",
+      "questionKo": "다음 빈칸에 알맞은 것을 고르십시오.",
+      "passage": "선체에 ______이/가 슬면 부식이 일어나기 때문에 빨리 제거해야 합니다.",
       "options": [
-        "펌프",
-        "도장기",
-        "크레인",
-        "용접기"
+        "녹",
+        "붓",
+        "깔판",
+        "수평"
       ],
-      "answer": 2,
-      "explanationBn": "문장에 '큰 크레인이 철판을 옮겼다'라고 되어 있어 정답은 크레인입니다।"
+      "answer": 0,
+      "explanationBn": "'녹이 슬다' একটি নির্দিষ্ট প্রয়োগ—মরচে ধরা, আর মরচে থেকেই ক্ষয় ('부식') হয়। '붓' ব্রাশ, '깔판' ফ্লোরবোর্ড, '수평' লেভেল—কোনোটির সঙ্গে '슬다' বসে না।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "পঠন: '부식'을 막기 위해 무엇을 하면 좋습니까?",
-      "questionKo": "다음 글을 읽고, 부식을 막기 위한 방법은?",
-      "passage": "철판에 부식이 생기면 코팅과 도장을 통해 보호해야 한다.",
+      "questionBn": "শূন্যস্থানে কোনটি বসবে?",
+      "questionKo": "다음 빈칸에 알맞은 것을 고르십시오.",
+      "passage": "새 스프레이 건을 사용한 ______ 도장 작업이 빨리 끝났습니다.",
       "options": [
-        "도면을 버린다",
-        "코팅과 도장을 한다",
-        "용접만 한다",
-        "방치한다"
+        "덕분에",
+        "때문에",
+        "동안에",
+        "대신에"
       ],
-      "answer": 1,
-      "explanationBn": "본문은 부식을 막기 위해 '코팅과 도장'을 해야 한다고 말합니다।"
+      "answer": 0,
+      "explanationBn": "ফল ভালো (কাজ তাড়াতাড়ি শেষ), তাই '-(으)ㄴ 덕분에' সঠিক। '때문에' নিরপেক্ষ বা খারাপ ফলে বেশি বসে, '동안에' সময় বোঝায়, '대신에' বিকল্প বোঝায়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "পঠন: 골격을 먼저 조립하면 다음에 무엇을 합니까?",
-      "questionKo": "다음 글을 읽고, 골격 조립 다음에 할 일은?",
-      "passage": "골격을 먼저 조립한 후 철판을 접합하고 용접 작업을 한다.",
+      "questionBn": "নিচের বর্ণনাটি কোন জিনিসের?",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "passage": "높은 곳에서 일할 때 작업자가 떨어지지 않도록 옆에 설치하는 것입니다.",
       "options": [
-        "철판을 접합하고 용접한다",
-        "골격을 해체한다",
-        "바로 도장을 한다",
-        "작업을 중단한다"
+        "작업발판",
+        "안전난간",
+        "밑동잡이",
+        "가새"
       ],
-      "answer": 0,
-      "explanationBn": "글에 따르면 골격 조립 후 철판 접합과 용접을 한다고 되어 있습니다।"
+      "answer": 1,
+      "explanationBn": "পড়ে যাওয়া ঠেকাতে পাশে বসানো হয় '안전난간' (নিরাপত্তা রেলিং)। '작업발판' দাঁড়ানোর পাটাতন, '밑동잡이' নিচের স্টেবিলাইজার, '가새' কোনাকুনি ব্রেস।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পঠন: 작업 전에 무엇을 확인해야 합니까?",
-      "questionKo": "다음 글을 읽고, 작업 전에 확인할 것은?",
-      "passage": "작업 전에 도면과 안전장비, 로프 상태를 확인하세요.",
+      "questionBn": "শূন্যস্থানে কোনটি বসবে?",
+      "questionKo": "다음 빈칸에 알맞은 것을 고르십시오.",
+      "passage": "매일 운동을 해서 몸이 많이 ______.",
       "options": [
-        "점심 메뉴",
-        "단지 도장 색상",
-        "집 주소",
-        "도면과 안전장비, 로프"
+        "건강해졌어요",
+        "건강했어요",
+        "건강하겠어요",
+        "건강해요"
       ],
-      "answer": 3,
-      "explanationBn": "본문은 작업 전에 '도면과 안전장비, 로프'를 확인하라고 지시합니다।"
+      "answer": 0,
+      "explanationBn": "ধীরে ধীরে অবস্থা বদলে গেছে বোঝাতে '-아지다/어지다' লাগে, তাই '건강해졌어요'। বাকি তিনটি কেবল অবস্থা জানায়, পরিবর্তন নয়।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "শুনুন এবং প্রশ্নের উত্তর দিন: 작업 지시를 고르세요।",
-      "questionKo": "다음 대화를 듣고 지시로 맞는 것을 고르세요.",
-      "passage": "남자: 크레인으로 철판을 옮기기 전에 안전벨트를 확인하세요.\n여자: 네, 지금 확인하겠습니다.",
+      "section": "reading",
+      "questionBn": "নিচের লেখাটি পড়ে প্রশ্নের উত্তর দিন। কালো কেন সুপারভাইজারকে ফোন করেছিলেন?",
+      "questionKo": "다음을 읽고 물음에 답하십시오. 칼로 씨는 왜 반장님에게 전화했습니까?",
+      "passage": "오늘 오후에 선체 도장 작업을 시작했습니다. 그런데 페인트를 칠하다가 선체 아랫부분에 균열이 생긴 것을 발견했습니다. 칼로 씨는 바로 작업을 멈추고 반장님에게 전화했습니다.",
       "options": [
-        "작업복을 세탁하라.",
-        "용접봉을 교체하라.",
-        "안전벨트를 확인하라.",
-        "도면을 버리라."
+        "페인트가 모자라서",
+        "선체에 금이 간 곳을 발견해서",
+        "스프레이 건이 고장 나서",
+        "작업 시간이 끝나서"
       ],
-      "answer": 2,
-      "explanationBn": "대화에서 감독은 '안전벨트를 확인하세요'라고 말했습니다, তাই এটি সঠিক।"
+      "answer": 1,
+      "explanationBn": "লেখায় বলা হয়েছে, রং করার সময় জাহাজের নিচের অংশে ফাটল ('균열') দেখতে পেয়ে কাজ থামিয়ে ফোন করেছেন। রং কম পড়া, যন্ত্র নষ্ট হওয়া বা সময় শেষ হওয়ার কথা লেখায় নেই।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "শুনুন: 누가 작업을 시작하라고 말했나요?",
-      "questionKo": "다음 문장을 듣고 누가 시작하라고 했는지 고르세요.",
-      "passage": "남자: 도면을 확인하면 작업을 시작하세요.\n여자: 네, 바로 확인하겠습니다.",
+      "section": "reading",
+      "questionBn": "উপরের লেখা অনুযায়ী কালো ফোন করার আগে কী করেছিলেন?",
+      "questionKo": "위 글에서 칼로 씨는 전화하기 전에 무엇을 했습니까?",
+      "passage": "오늘 오후에 선체 도장 작업을 시작했습니다. 그런데 페인트를 칠하다가 선체 아랫부분에 균열이 생긴 것을 발견했습니다. 칼로 씨는 바로 작업을 멈추고 반장님에게 전화했습니다.",
       "options": [
-        "감독관",
-        "팀장",
-        "작업자",
-        "운전사"
+        "작업을 멈췄습니다",
+        "균열을 도장했습니다",
+        "비계를 설치했습니다",
+        "병원에 갔습니다"
       ],
-      "answer": 1,
-      "explanationBn": "대화에서 '도면을 확인하면 작업을 시작하세요'라고 말한 이는 팀장입니다।"
+      "answer": 0,
+      "explanationBn": "'바로 작업을 멈추고 반장님에게 전화했습니다'—অর্থাৎ ফোন করার আগে সঙ্গে সঙ্গে কাজ থামিয়েছেন। ফাটল রং করা, ভারা বসানো বা হাসপাতালে যাওয়া—কোনোটিই লেখায় নেই।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "শুনুন: 다음 중 보호 장비로 언급되지 않은 것은?",
-      "questionKo": "다음 음성을 듣고 언급되지 않은 보호 장비를 고르세요.",
-      "passage": "우리는 안전모와 장갑을 착용했습니다. 이제 용접을 시작합니다.",
+      "section": "reading",
+      "questionBn": "শূন্যস্থানে কোনটি বসবে?",
+      "questionKo": "다음 빈칸에 알맞은 것을 고르십시오.",
+      "passage": "비계 위에서 물건이 ______ 잘 묶어 두세요.",
       "options": [
-        "안전벨트",
-        "안전모",
-        "용접기",
-        "장갑"
+        "떨어지지 않도록",
+        "떨어지도록",
+        "떨어져서",
+        "떨어지니까"
       ],
       "answer": 0,
-      "explanationBn": "음성에서는 '안전모'와 '장갑'만 언급되었습니다; '안전벨트'는 언급되지 않았습니다।"
+      "explanationBn": "'যাতে না পড়ে' এই উদ্দেশ্য বোঝাতে '-지 않도록' লাগে। '떨어지도록' উল্টো অর্থ, আর '떨어져서'/'떨어지니까' কারণ বোঝায়, উদ্দেশ্য নয়।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "다음 표지판의 의미는 무엇입니까?",
-      "questionKo": "다음 표지판의 의미는 무엇입니까?",
-      "passage": "[안전화 착용 표지판]",
+      "questionBn": "নিচের কথাবার্তায় শূন্যস্থানে কোনটি বসবে?",
+      "questionKo": "다음 대화의 빈칸에 알맞은 것을 고르십시오.",
+      "passage": "가: 도장 작업할 때 주의할 점이 뭐예요?\n나: ______ 작업장을 환기시켜야 돼요.",
       "options": [
-        "안전화를 신으십시오.",
-        "안전모를 쓰십시오.",
-        "보안경을 쓰십시오.",
-        "마스크를 쓰십시오."
+        "페인트 냄새가 심하니까",
+        "페인트 냄새가 좋으니까",
+        "페인트가 비싸니까",
+        "페인트가 많으니까"
       ],
       "answer": 0,
-      "explanationBn": "안전화 착용 표지판은 안전화를 신으라는 의미입니다."
+      "explanationBn": "বাতাস চলাচল ('환기') দরকার হয় কারণ রঙের গন্ধ কড়া। গন্ধ ভালো লাগা, দাম বেশি হওয়া বা পরিমাণ বেশি হওয়া—কোনোটিই জানালা খোলার কারণ নয়।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르세요.",
-      "questionKo": "다음 글을 읽고 알맞은 것을 고르세요.",
-      "passage": "용접 작업을 할 때는 불꽃이 튈 수 있습니다. 그래서 반드시 보안경을 써야 합니다.",
+      "questionBn": "নিচের বর্ণনাটি কোন জিনিসের?",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "passage": "높은 곳에서 안전하게 일하려고 강관으로 임시로 만드는 구조물입니다.",
       "options": [
-        "용접할 때는 안전화만 신으면 됩니다.",
-        "용접할 때는 보안경을 써야 합니다.",
-        "용접할 때는 마스크를 벗어야 합니다.",
-        "용접할 때는 귀마개를 해야 합니다."
+        "강관 비계",
+        "조타실",
+        "프로펠러",
+        "에어리스 스프레이 건"
       ],
-      "answer": 1,
-      "explanationBn": "글에서 용접할 때 보안경을 써야 한다고 했습니다."
+      "answer": 0,
+      "explanationBn": "স্টিল পাইপ দিয়ে অস্থায়ীভাবে বানানো কাঠামো হলো '강관 비계' (স্টিল পাইপ ভারা)। '조타실' জাহাজের কক্ষ, '프로펠러' পাখা, স্প্রে গান রং করার যন্ত্র।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르세요.",
-      "questionKo": "다음 글을 읽고 알맞은 것을 고르세요.",
-      "passage": "높은 곳에서 일할 때는 떨어질 위험이 있습니다. 안전대를 꼭 매십시오.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "남자: 도장 작업이 끝났어요?",
       "options": [
-        "높은 곳에서는 안전대를 매야 합니다.",
-        "높은 곳에서는 소화기를 준비해야 합니다.",
-        "높은 곳에서는 환풍기를 켜야 합니다.",
-        "높은 곳에서는 스위치를 꺼야 합니다."
+        "네, 아까 끝냈어요.",
+        "네, 선체가 커요.",
+        "아니요, 페인트가 좋아요.",
+        "아니요, 조타실이 있어요."
       ],
       "answer": 0,
-      "explanationBn": "글에서 높은 곳에서 일할 때 안전대를 매라고 했습니다."
+      "explanationBn": "'끝났어요?' (শেষ হয়েছে কি?) প্রশ্নের উত্তরে কাজ শেষ হওয়া কি না বলতে হয়—'네, 아까 끝냈어요'। বাকি উত্তরগুলো জাহাজের আকার, রঙের গুণ বা কক্ষের কথা বলে, প্রশ্নের সঙ্গে মেলে না।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르세요.",
-      "questionKo": "다음 글을 읽고 알맞은 것을 고르세요.",
-      "passage": "작업장에 먼지가 많습니다. 마스크를 착용하고 환풍기를 켜십시오.",
+      "section": "listening",
+      "questionBn": "শুনে প্রশ্নের উপযুক্ত উত্তরটি বাছুন।",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "passage": "여자: 비계가 흔들리지 않아요?",
       "options": [
-        "먼지가 많으면 창문을 닫으십시오.",
-        "먼지가 많으면 마스크를 착용하십시오.",
-        "먼지가 많으면 안전화를 벗으십시오.",
-        "먼지가 많으면 전원을 차단하십시오."
+        "네, 아주 튼튼해요.",
+        "네, 비계가 높아요.",
+        "아니요, 비계가 많아요.",
+        "아니요, 갑판이 넓어요."
       ],
-      "answer": 1,
-      "explanationBn": "글에서 먼지가 많을 때 마스크를 착용하라고 했습니다."
+      "answer": 0,
+      "explanationBn": "'흔들리지 않아요?' (নড়ে না তো?) প্রশ্নে '네' বললে স্থিতিশীলতার কথাই আসবে—'아주 튼튼해요' (খুব মজবুত)। উঁচু হওয়া, সংখ্যা বেশি হওয়া বা ডেক চওড়া হওয়া—কোনোটিই নড়াচড়ার উত্তর নয়।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르세요.",
-      "questionKo": "다음 글을 읽고 알맞은 것을 고르세요.",
-      "passage": "불이 나면 당황하지 말고 비상구로 나가십시오. 그리고 소화기로 불을 끄십시오.",
+      "section": "listening",
+      "questionBn": "শুনে দুজন কী নিয়ে কথা বলছেন তা বাছুন।",
+      "questionKo": "다음을 듣고 두 사람이 무엇에 대해 이야기하는지 고르십시오.",
+      "passage": "남자: 이 부분은 녹이 많이 슬었네요.\n여자: 네, 그래서 먼저 녹을 제거하고 도장해야 돼요.",
       "options": [
-        "불이 나면 엘리베이터를 타십시오.",
-        "불이 나면 비상구로 나가십시오.",
-        "불이 나면 환풍기를 켜십시오.",
-        "불이 나면 스위치를 켜십시오."
+        "휴가 신청",
+        "녹 제거 작업",
+        "월급 인상",
+        "안전 교육 시간"
       ],
       "answer": 1,
-      "explanationBn": "글에서 불이 나면 비상구로 나가라고 했습니다."
+      "explanationBn": "মরচে ধরেছে, তাই আগে মরচে সরিয়ে রং করতে হবে—পুরো কথাটাই মরচে সরানোর কাজ নিয়ে। ছুটি, বেতন বা প্রশিক্ষণের কথা কোথাও নেই।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 반장님, 용접 작업이 끝났습니다.\n여자: 수고했어요. 이제 전원을 끄고 환풍기를 켜세요.",
+      "questionBn": "শুনে বিষয়বস্তুর সঙ্গে মিলে যাওয়া বাক্যটি বাছুন।",
+      "questionKo": "다음을 듣고 내용과 같은 것을 고르십시오.",
+      "passage": "여자: 안녕하세요. 작업발판 설치는 다 끝났어요?\n남자: 네, 어제 다 끝냈어요. 오늘은 안전난간을 설치할 거예요.",
       "options": [
-        "남자는 지금 용접을 하고 있습니다.",
-        "여자는 전원을 켜라고 했습니다.",
-        "남자는 환풍기를 꺼야 합니다.",
-        "여자는 환풍기를 켜라고 했습니다."
+        "남자는 오늘 작업발판을 설치합니다.",
+        "남자는 어제 안전난간을 설치했습니다.",
+        "남자는 오늘 안전난간을 설치할 겁니다.",
+        "남자는 아직 작업을 시작하지 않았습니다."
       ],
-      "answer": 3,
-      "explanationBn": "여자가 전원을 끄고 환풍기를 켜라고 지시했습니다."
+      "answer": 2,
+      "explanationBn": "পুরুষটি বলেছেন পাটাতন গতকাল শেষ, আর আজ নিরাপত্তা রেলিং বসাবেন। তাই তৃতীয় বাক্যটিই মিলে যায়; বাকিগুলো দিন বা কাজ উল্টে দিয়েছে।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 투안 씨, 높은 곳에서 일할 때는 안전대를 매야 해요.\n남자: 네, 알겠습니다. 지금 매겠습니다.",
+      "questionBn": "শুনে পুরুষটি এরপর কী করবেন তা বাছুন।",
+      "questionKo": "다음을 듣고 남자가 이어서 할 행동을 고르십시오.",
+      "passage": "여자: 페인트를 칠하기 전에 표면에 물기가 있는지 확인하세요.\n남자: 네, 알겠습니다.",
       "options": [
-        "남자는 안전대를 매고 있습니다.",
-        "여자는 안전화를 신으라고 했습니다.",
-        "남자는 높은 곳에서 일할 것입니다.",
-        "여자는 안전모를 쓰라고 했습니다."
+        "표면의 물기를 확인합니다.",
+        "스프레이 건을 수리합니다.",
+        "비계를 해체합니다.",
+        "반장님께 전화합니다."
       ],
-      "answer": 2,
-      "explanationBn": "여자가 높은 곳에서 일할 때 안전대를 매라고 했으므로 남자는 높은 곳에서 일할 것입니다."
+      "answer": 0,
+      "explanationBn": "নারীটি রং করার আগে পৃষ্ঠে ভেজা ভাব আছে কি না দেখতে বলেছেন এবং পুরুষটি রাজি হয়েছেন, তাই পরের কাজ সেটিই। যন্ত্র সারানো, ভারা খোলা বা ফোন করার কথা বলা হয়নি।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 작업장에 먼지가 너무 많아요.\n여자: 그럼 마스크를 쓰고 환풍기를 켜세요.",
+      "questionBn": "শুনে বিষয়বস্তুর সঙ্গে মিলে যাওয়া বাক্যটি বাছুন।",
+      "questionKo": "다음을 듣고 내용과 같은 것을 고르십시오.",
+      "passage": "남자: 비계를 튼튼하게 설치한 덕분에 오늘 작업이 아주 편했어요.\n여자: 맞아요. 안전하게 일할 수 있어서 좋았어요.",
       "options": [
-        "작업장은 아주 깨끗합니다.",
-        "여자는 마스크를 쓰라고 했습니다.",
-        "남자는 환풍기를 껐습니다.",
-        "여자는 창문을 열라고 했습니다."
+        "오늘 작업이 아주 힘들었습니다.",
+        "비계를 설치하지 못했습니다.",
+        "비계 덕분에 편하고 안전하게 일했습니다.",
+        "두 사람은 내일 비계를 설치할 겁니다."
       ],
-      "answer": 1,
-      "explanationBn": "여자가 먼지가 많으니 마스크를 쓰라고 했습니다."
+      "answer": 2,
+      "explanationBn": "'설치한 덕분에' দিয়ে ভালো ফলাফলের কারণ বলা হয়েছে—ভারা মজবুত হওয়ায় কাজ আরামদায়ক ও নিরাপদ হয়েছে। কাজ কঠিন হওয়া, ভারা না বসা বা আগামীকাল বসানো—কোনোটিই কথায় নেই।"
     }
   ]
 }
