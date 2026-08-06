@@ -6,27 +6,47 @@
  * Idempotent: skips users already completed; does not overwrite checkpoint unlockSource.
  *
  * Usage:
- *   DATABASE_URL=... node scripts/backfill-basics-legacy.mjs
- *   DATABASE_URL=... node scripts/backfill-basics-legacy.mjs --dry-run
+ *   node scripts/backfill-basics-legacy.mjs
+ *   node scripts/backfill-basics-legacy.mjs --dry-run
  *
- * Requires DATABASE_URL. Safe to re-run.
+ * Reads DB_FILE (default ./data/easyeps.db). Safe to re-run.
  */
-import mysql from "mysql2/promise";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import Database from "better-sqlite3";
 
 const dryRun = process.argv.includes("--dry-run");
-const databaseUrl = process.env.DATABASE_URL;
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
-if (!databaseUrl) {
-  console.error("DATABASE_URL is required");
+function dbPath() {
+  let file = process.env.DB_FILE;
+  if (!file) {
+    const envFile = path.join(root, ".env");
+    if (fs.existsSync(envFile)) {
+      const line = fs
+        .readFileSync(envFile, "utf8")
+        .split("\n")
+        .find(l => l.startsWith("DB_FILE="));
+      if (line) file = line.slice("DB_FILE=".length).trim();
+    }
+  }
+  return path.resolve(root, file || "./data/easyeps.db");
+}
+
+const target = dbPath();
+if (!fs.existsSync(target)) {
+  console.error(`No database at ${target}. Start the server once to create it.`);
   process.exit(1);
 }
 
-const connection = await mysql.createConnection(databaseUrl);
+const db = new Database(target);
 
 try {
   // Users with curriculum activity who are not yet Basics-complete
-  const [candidates] = await connection.query(
-    `
+  const list = db
+    .prepare(
+      `
     SELECT DISTINCT u.userId AS userId
     FROM (
       SELECT userId FROM lessonProgress
@@ -37,9 +57,8 @@ try {
     WHERE bp.userId IS NULL OR bp.completed = 0
     ORDER BY u.userId
     `,
-  );
-
-  const list = Array.isArray(candidates) ? candidates : [];
+    )
+    .all();
   console.log(
     `[backfill-basics-legacy] ${dryRun ? "DRY-RUN " : ""}candidates: ${list.length}`,
   );
@@ -60,27 +79,31 @@ try {
       continue;
     }
 
-    // Idempotent upsert: only set completed/unlock when not already complete
-    const [result] = await connection.execute(
-      `
+    // Idempotent upsert: only set completed/unlock when not already complete.
+    // The WHERE on the DO UPDATE arm means an already-complete row reports zero
+    // changes, so re-runs never rewrite unlockSource or completedAt.
+    const now = Math.floor(Date.now() / 1000);
+    const result = db
+      .prepare(
+        `
       INSERT INTO basicsProgress
         (userId, modules, completed, checkpointScore, checkpointTotal, completedAt, unlockSource, updatedAt)
       VALUES
-        (?, CAST('{}' AS JSON), 1, NULL, NULL, NOW(), 'legacy-migration', NOW())
-      ON DUPLICATE KEY UPDATE
-        completedAt = IF(completed = 0, NOW(), completedAt),
-        unlockSource = IF(completed = 0, 'legacy-migration', unlockSource),
-        updatedAt = IF(completed = 0, NOW(), updatedAt),
-        completed = IF(completed = 0, 1, completed)
+        (?, '{}', 1, NULL, NULL, ?, 'legacy-migration', ?)
+      ON CONFLICT(userId) DO UPDATE SET
+        completedAt = excluded.completedAt,
+        unlockSource = 'legacy-migration',
+        updatedAt = excluded.updatedAt,
+        completed = 1
+      WHERE basicsProgress.completed = 0
       `,
-      [userId],
-    );
+      )
+      .run(userId, now, now);
 
-    const affected = result?.affectedRows ?? 0;
-    // MySQL: insert = 1, update that changed row = 2, no-change = 0
+    const affected = result?.changes ?? 0;
     if (affected > 0) {
       upserted += 1;
-      console.log(`  grandfathered userId=${userId} (affectedRows=${affected})`);
+      console.log(`  grandfathered userId=${userId} (changes=${affected})`);
     } else {
       skipped += 1;
     }
@@ -90,5 +113,5 @@ try {
     `[backfill-basics-legacy] done. ${dryRun ? "wouldUpsert" : "upserted"}=${upserted} skipped=${skipped}`,
   );
 } finally {
-  await connection.end();
+  db.close();
 }

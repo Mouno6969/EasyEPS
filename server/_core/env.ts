@@ -4,11 +4,16 @@
  * Optional BUILT_IN_FORGE_* remains for storage/legacy Manus helpers only.
  */
 export const ENV = {
-  appId: process.env.VITE_APP_ID ?? "",
+  /**
+   * Binds a signed session to this app. Previously the Manus OAuth client id;
+   * now a fixed constant, since auth is self-hosted. Kept because
+   * `sdk.verifySession` rejects tokens whose `appId` does not match, which
+   * stops a token minted elsewhere under a shared secret from authenticating.
+   */
+  appId: "easyeps",
   cookieSecret: process.env.JWT_SECRET ?? "",
-  databaseUrl: process.env.DATABASE_URL ?? "",
-  oAuthServerUrl: process.env.OAUTH_SERVER_URL ?? "",
-  ownerOpenId: process.env.OWNER_OPEN_ID ?? "",
+  /** Path to the local SQLite database file. Created on first boot. */
+  dbFile: process.env.DB_FILE ?? "./data/easyeps.db",
   isProduction: process.env.NODE_ENV === "production",
   /** Preferred LLM key (SpaceXAI / xAI). */
   xaiApiKey: process.env.XAI_API_KEY ?? "",

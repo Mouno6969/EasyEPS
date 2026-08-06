@@ -1,4 +1,4 @@
-import { startLogin } from "@/const";
+import { goToSignIn } from "@/const";
 import { useLocale } from "@/contexts/LocaleContext";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -149,9 +149,11 @@ export function SiteShell({ children }: { children: ReactNode }) {
                 )}
               </div>
             ) : (
-              <Button onClick={() => startLogin()} className="hidden rounded-full bg-[var(--navy)] text-white hover:bg-[var(--navy)]/90 sm:inline-flex">
-                <LogIn className="size-4" />
-                {t.signIn}
+              <Button asChild className="hidden rounded-full bg-[var(--navy)] text-white hover:bg-[var(--navy)]/90 sm:inline-flex">
+                <Link href="/signin">
+                  <LogIn className="size-4" />
+                  {t.signIn}
+                </Link>
               </Button>
             )}
             <button
@@ -200,9 +202,11 @@ export function SiteShell({ children }: { children: ReactNode }) {
                 {t.profile}
               </Link>
               {!isAuthenticated && (
-                <Button onClick={() => startLogin()} className="mt-2 rounded-full bg-[var(--navy)] text-white sm:hidden">
-                  <LogIn className="size-4" />
-                  {t.signIn}
+                <Button asChild className="mt-2 rounded-full bg-[var(--navy)] text-white sm:hidden">
+                  <Link href="/signin" onClick={() => setMenuOpen(false)}>
+                    <LogIn className="size-4" />
+                    {t.signIn}
+                  </Link>
                 </Button>
               )}
             </nav>

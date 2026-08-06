@@ -15,8 +15,8 @@ Short ops checklist for shipping the Basics track and the curriculum write-gate.
 3. **Backfill grandfather** (idempotent; dry-run first):
 
    ```bash
-   DATABASE_URL=... node scripts/backfill-basics-legacy.mjs --dry-run
-   DATABASE_URL=... node scripts/backfill-basics-legacy.mjs
+   node scripts/backfill-basics-legacy.mjs --dry-run
+   node scripts/backfill-basics-legacy.mjs
    ```
 
    Eligibility: any `lessonProgress` row **or** any `attempts` row (including mock-test-only).

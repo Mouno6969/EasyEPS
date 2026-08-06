@@ -101,8 +101,12 @@ jspm_packages/
 tmp/
 temp/
 
-# Database
+# Database — the local SQLite file plus the -wal/-shm sidecars WAL mode creates.
+# The bare *.db glob does not match those, so they need their own entries.
+data/
 *.db
+*.db-wal
+*.db-shm
 *.sqlite
 *.sqlite3
 

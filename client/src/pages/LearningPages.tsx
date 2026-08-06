@@ -2,7 +2,7 @@ import { AIChatBox, type Message } from "@/components/AIChatBox";
 import { BasicsCtaBanner } from "@/components/basics/BasicsLockCard";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { startLogin } from "@/const";
+import { goToSignIn } from "@/const";
 import { useLocale } from "@/contexts/LocaleContext";
 import { buildDailyPlan } from "@/lib/dailyPlan";
 import {
@@ -79,7 +79,7 @@ function LoadingPanel() {
 }
 
 function AuthInvitation({ title, description }: { title: string; description: string }) {
-  return <div className="paper-card mx-auto max-w-2xl p-8 text-center md:p-12"><span className="mx-auto grid size-14 place-items-center rounded-2xl bg-[var(--gold)]/18 text-[var(--gold-dark)]"><LockKeyhole className="size-6" /></span><h2 className="mt-5 font-serif text-2xl font-bold text-[var(--navy)]">{title}</h2><p className="mx-auto mt-3 max-w-lg leading-7 text-[var(--navy)]/65">{description}</p><Button onClick={() => startLogin()} className="mt-7 rounded-full bg-[var(--navy)] px-6 text-white">সাইন ইন করুন</Button></div>;
+  return <div className="paper-card mx-auto max-w-2xl p-8 text-center md:p-12"><span className="mx-auto grid size-14 place-items-center rounded-2xl bg-[var(--gold)]/18 text-[var(--gold-dark)]"><LockKeyhole className="size-6" /></span><h2 className="mt-5 font-serif text-2xl font-bold text-[var(--navy)]">{title}</h2><p className="mx-auto mt-3 max-w-lg leading-7 text-[var(--navy)]/65">{description}</p><Button onClick={() => goToSignIn()} className="mt-7 rounded-full bg-[var(--navy)] px-6 text-white">সাইন ইন করুন</Button></div>;
 }
 
 export function CurriculumPage() {
@@ -184,7 +184,7 @@ export function DashboardPage() {
     <div className="container py-10">
       {!hangulReady && <BasicsCtaBanner className="mb-7" />}
       <DeferredProfilePrompt complete={profileComplete} />
-      {!isAuthenticated && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--gold)]/35 bg-[var(--gold)]/10 p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>অতিথি মোড:</strong> অগ্রগতি এই ডিভাইসে সংরক্ষিত। সাইন ইন করলে একাধিক ডিভাইসে সিঙ্ক হবে।</span><Button onClick={() => startLogin()} variant="outline" className="rounded-full border-[var(--navy)]/20">সাইন ইন</Button></div>}
+      {!isAuthenticated && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--gold)]/35 bg-[var(--gold)]/10 p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>অতিথি মোড:</strong> অগ্রগতি এই ডিভাইসে সংরক্ষিত। সাইন ইন করলে একাধিক ডিভাইসে সিঙ্ক হবে।</span><Button onClick={() => goToSignIn()} variant="outline" className="rounded-full border-[var(--navy)]/20">সাইন ইন</Button></div>}
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         {[{ label: "সম্পন্ন অধ্যায়", value: `${metrics.completedLessons}/60`, icon: BookCheck, tone: "sage" }, { label: "গড় স্কোর", value: `${metrics.averageScore}%`, icon: TrendingUp, tone: "gold" }, { label: "বর্তমান স্ট্রিক", value: `${metrics.streak} দিন`, icon: Flame, tone: "clay" }, { label: "মোট অধ্যয়ন", value: `${metrics.studyMinutes} মিনিট`, icon: Clock3, tone: "navy" }].map(({ label, value, icon: Icon, tone }) => <div key={label} className="metric-card"><span className={`metric-icon metric-${tone}`}><Icon className="size-5" /></span><p className="mt-5 text-sm font-semibold text-[var(--navy)]/55">{label}</p><p className="mt-1 font-serif text-3xl font-bold text-[var(--navy)]">{value}</p></div>)}
       </div>

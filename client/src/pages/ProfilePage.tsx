@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { startLogin } from "@/const";
+import { goToSignIn } from "@/const";
 import { useLocale } from "@/contexts/LocaleContext";
 import { prepareAvatarFile } from "@/lib/avatarImage";
 import { saveLocalAvatar, saveLocalProfile, useLocalProfile } from "@/lib/localProfile";
@@ -682,7 +682,7 @@ function ProfileDashboard({
       {!isAuthenticated && (
         <div className="mb-7 rounded-2xl border border-[var(--gold)]/30 bg-[var(--gold)]/10 p-5 text-sm leading-7 text-[var(--navy)]">
           <strong>এই ডিভাইসের প্রোফাইল দেখছেন।</strong> ক্লাউড সিঙ্ক ও সার্টিফিকেটের জন্য সাইন ইন করুন।{" "}
-          <button onClick={() => startLogin()} className="ml-1 font-bold underline">
+          <button onClick={() => goToSignIn()} className="ml-1 font-bold underline">
             সাইন ইন
           </button>
         </div>

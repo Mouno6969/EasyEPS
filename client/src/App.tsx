@@ -34,6 +34,7 @@ const MockTestPage = lazy(() => import("./pages/MockTestPage"));
 const VocabReviewPage = lazy(() => import("./pages/VocabReviewPage"));
 const CertificatePage = lazy(() => import("./pages/CertificatePage"));
 const ProfilePage = lazy(() => import("./pages/ProfilePage"));
+const AuthPage = lazy(() => import("./pages/AuthPage"));
 const FaqPage = lazy(() => import("./pages/FaqPage"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
@@ -78,6 +79,8 @@ function Router() {
           <Route path="/tutor" component={TutorPage} />
           <Route path="/profile" component={ProfilePage} />
           <Route path="/profile/setup" component={ProfilePage} />
+          <Route path="/signin" component={() => <AuthPage mode="signin" />} />
+          <Route path="/signup" component={() => <AuthPage mode="signup" />} />
           <Route path="/certificate/:code" component={CertificatePage} />
           <Route path="/faq" component={FaqPage} />
           <Route path="/admin" component={AdminPage} />

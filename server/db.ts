@@ -1,5 +1,9 @@
 import { and, count, desc, eq, gte, lte } from "drizzle-orm";
-import { drizzle } from "drizzle-orm/mysql2";
+import { drizzle } from "drizzle-orm/better-sqlite3";
+import { migrate } from "drizzle-orm/better-sqlite3/migrator";
+import Database from "better-sqlite3";
+import { existsSync, mkdirSync } from "node:fs";
+import { dirname, resolve } from "node:path";
 import type { CertificateRecipient } from "../shared/certificate";
 import { buildCertificateRecipient, certificateRecipientSchema } from "../shared/certificate";
 import type { ProfileSetupData } from "../shared/profile";
@@ -33,16 +37,47 @@ import { getBasicsManifest, getBasicsModule } from "./basicsContent";
 import { ENV } from "./_core/env";
 
 let _db: ReturnType<typeof drizzle> | null = null;
+/** Set once the schema has been applied, so migrations run at most once per process. */
+let _migrated = false;
 
+/**
+ * Opens the local SQLite database, creating the file and applying migrations on
+ * first use. Unlike the previous MySQL setup there is no network dependency, so
+ * a failure here is a real fault (bad path, unwritable directory) rather than an
+ * expected "not configured" state — but we still degrade to null so the guest
+ * curriculum keeps serving instead of the whole app failing to boot.
+ */
 export async function getDb() {
-  if (!_db && process.env.DATABASE_URL) {
-    try {
-      _db = drizzle(process.env.DATABASE_URL);
-    } catch (error) {
-      console.warn("[Database] Failed to connect:", error);
-      _db = null;
+  if (_db) return _db;
+
+  try {
+    const file = resolve(ENV.dbFile);
+    mkdirSync(dirname(file), { recursive: true });
+
+    const sqlite = new Database(file);
+    // WAL lets reads proceed during writes; without it a single slow write
+    // blocks every concurrent request.
+    sqlite.pragma("journal_mode = WAL");
+    sqlite.pragma("foreign_keys = ON");
+    // Wait rather than immediately throwing SQLITE_BUSY under concurrent writes.
+    sqlite.pragma("busy_timeout = 5000");
+
+    _db = drizzle(sqlite);
+
+    if (!_migrated) {
+      const migrationsFolder = resolve(process.cwd(), "drizzle/sqlite");
+      if (existsSync(migrationsFolder)) {
+        migrate(_db, { migrationsFolder });
+        _migrated = true;
+      } else {
+        console.warn(`[Database] Migrations folder not found at ${migrationsFolder}; skipping migrate`);
+      }
     }
+  } catch (error) {
+    console.warn("[Database] Failed to open SQLite database:", error);
+    _db = null;
   }
+
   return _db;
 }
 
@@ -73,14 +108,11 @@ export async function upsertUser(user: InsertUser): Promise<void> {
   if (user.role !== undefined) {
     values.role = user.role;
     updateSet.role = user.role;
-  } else if (user.openId === ENV.ownerOpenId) {
-    values.role = "admin";
-    updateSet.role = "admin";
   }
   values.lastSignedIn ??= new Date();
   if (Object.keys(updateSet).length === 0) updateSet.lastSignedIn = new Date();
 
-  await db.insert(users).values(values).onDuplicateKeyUpdate({ set: updateSet });
+  await db.insert(users).values(values).onConflictDoUpdate({ target: users.openId, set: updateSet });
 }
 
 export async function getUserByOpenId(openId: string) {
@@ -88,6 +120,73 @@ export async function getUserByOpenId(openId: string) {
   if (!db) return undefined;
   const result = await db.select().from(users).where(eq(users.openId, openId)).limit(1);
   return result[0];
+}
+
+/**
+ * Look up an account by login email. Emails are stored and compared lowercased
+ * so "A@b.com" and "a@b.com" cannot become two accounts.
+ */
+export async function getUserByEmail(email: string) {
+  const db = await getDb();
+  if (!db) return undefined;
+  const result = await db
+    .select()
+    .from(users)
+    .where(eq(users.email, email.trim().toLowerCase()))
+    .limit(1);
+  return result[0];
+}
+
+/**
+ * Create a password account and return the full row.
+ *
+ * The first account to register becomes the admin: there is no other path to
+ * granting the initial admin role, and `setUserRole` refuses to demote the last
+ * one, so without this the admin surface would be permanently unreachable.
+ * Registration is a single-threaded SQLite write, so the count-then-insert has
+ * no meaningful race.
+ */
+export async function createPasswordUser(input: {
+  openId: string;
+  email: string;
+  name: string | null;
+  passwordHash: string;
+}) {
+  const db = await requireDb();
+  const email = input.email.trim().toLowerCase();
+
+  const [existingAdmins] = await db.select({ value: count() }).from(users).where(eq(users.role, "admin"));
+  const role = (existingAdmins?.value ?? 0) === 0 ? "admin" : "user";
+
+  const now = new Date();
+  const [row] = await db
+    .insert(users)
+    .values({
+      openId: input.openId,
+      email,
+      name: input.name,
+      passwordHash: input.passwordHash,
+      loginMethod: "password",
+      role,
+      createdAt: now,
+      updatedAt: now,
+      lastSignedIn: now,
+    })
+    .returning();
+
+  return row;
+}
+
+/** Record a successful sign-in without touching any other column. */
+export async function touchLastSignedIn(userId: number) {
+  const db = await requireDb();
+  await db.update(users).set({ lastSignedIn: new Date() }).where(eq(users.id, userId));
+}
+
+/** Replace an account's password digest. Used by scripts/reset-password.mjs. */
+export async function setUserPasswordHash(userId: number, passwordHash: string) {
+  const db = await requireDb();
+  await db.update(users).set({ passwordHash }).where(eq(users.id, userId));
 }
 
 export async function listProgress(userId: number) {
@@ -147,8 +246,8 @@ export async function createAttempt(input: {
   detail?: unknown;
 }) {
   const db = await requireDb();
-  const result = await db.insert(attempts).values(input);
-  return { id: Number(result[0].insertId), ...input };
+  const [row] = await db.insert(attempts).values(input).returning({ id: attempts.id });
+  return { id: row.id, ...input };
 }
 
 export async function listAttempts(userId: number, limit = 30) {
@@ -232,8 +331,8 @@ export async function addPlannerItem(input: {
   kind: "lesson" | "practice" | "exam" | "review";
 }) {
   const db = await requireDb();
-  const result = await db.insert(plannerItems).values(input);
-  return { id: Number(result[0].insertId), done: false, ...input };
+  const [row] = await db.insert(plannerItems).values(input).returning({ id: plannerItems.id });
+  return { id: row.id, done: false, ...input };
 }
 
 export async function setPlannerItemDone(userId: number, id: number, done: boolean) {
@@ -262,8 +361,8 @@ export async function awardBadge(userId: number, badgeId: string) {
     .limit(1);
   if (existing) return existing;
   try {
-    const result = await db.insert(badges).values({ userId, badgeId });
-    return { id: Number(result[0].insertId), userId, badgeId, earnedAt: new Date() };
+    const [row] = await db.insert(badges).values({ userId, badgeId }).returning({ id: badges.id });
+    return { id: row.id, userId, badgeId, earnedAt: new Date() };
   } catch {
     const [race] = await db
       .select()
@@ -335,15 +434,18 @@ export async function issueCertificate(input: {
     };
   }
 
-  const result = await db.insert(certificates).values({
-    userId: input.userId,
-    code: input.code,
-    kind: input.kind,
-    scorePercent: input.scorePercent ?? null,
-    recipientSnapshot: snapshot,
-  });
+  const [row] = await db
+    .insert(certificates)
+    .values({
+      userId: input.userId,
+      code: input.code,
+      kind: input.kind,
+      scorePercent: input.scorePercent ?? null,
+      recipientSnapshot: snapshot,
+    })
+    .returning({ id: certificates.id });
   return {
-    id: Number(result[0].insertId),
+    id: row.id,
     issuedAt: new Date(),
     userId: input.userId,
     code: input.code,

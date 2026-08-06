@@ -18,7 +18,7 @@ function createAuthContext(): { ctx: TrpcContext; clearedCookies: CookieCall[] }
     openId: "sample-user",
     email: "sample@example.com",
     name: "Sample User",
-    loginMethod: "manus",
+    loginMethod: "password",
     role: "user",
     createdAt: new Date(),
     updatedAt: new Date(),
@@ -54,7 +54,9 @@ describe("auth.logout", () => {
     expect(clearedCookies[0]?.options).toMatchObject({
       maxAge: -1,
       secure: true,
-      sameSite: "none",
+      // "lax" (not "none"): local form login is same-origin, and "none" is
+      // ignored by browsers without secure:true, which broke plain-HTTP dev.
+      sameSite: "lax",
       httpOnly: true,
       path: "/",
     });

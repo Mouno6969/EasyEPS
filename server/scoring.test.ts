@@ -12,7 +12,7 @@ function createUserContext(role: "user" | "admin" = "user"): TrpcContext {
       openId: "scorer-user",
       email: "scorer@example.com",
       name: "Scorer",
-      loginMethod: "manus",
+      loginMethod: "password",
       role,
       createdAt: new Date(),
       updatedAt: new Date(),

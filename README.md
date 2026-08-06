@@ -6,7 +6,7 @@ Bangla-first **EPS-TOPIK** learning app for Bangladeshi learners preparing to li
 - **v2 enriched spec per chapter**: 30–35 vocabulary items, 20 practice questions, 16 EPS questions (10 reading / 6 listening)
 - **Guest mode**: browse, study, practice, and take mock tests with local progress
 - **Signed-in mode**: durable progress, planner, badges, certificates, AI tutor
-- **Stack**: React 19 · Tailwind 4 · Express · tRPC · Drizzle · MySQL · Zod · Vitest
+- **Stack**: React 19 · Tailwind 4 · Express · tRPC · Drizzle · SQLite · Zod · Vitest
 
 ## Quick start
 
@@ -33,12 +33,8 @@ See [`.env.example`](.env.example). Minimum for local curriculum browsing:
 
 | Variable | Required for | Notes |
 |---|---|---|
-| `DATABASE_URL` | Signed-in progress / planner / certs | MySQL connection string. Public curriculum works without it. |
-| `JWT_SECRET` | Auth sessions | Long random string |
-| `VITE_APP_ID` | Login button | Manus app id |
-| `VITE_OAUTH_PORTAL_URL` | Login button | Manus OAuth portal |
-| `OAUTH_SERVER_URL` | OAuth callback | Manus OAuth API base |
-| `OWNER_OPEN_ID` | First admin | Manus openId promoted to `admin` on first login |
+| `DB_FILE` | Signed-in progress / planner / certs | SQLite file path, default `./data/easyeps.db`. Created automatically. Public curriculum works without it. |
+| `JWT_SECRET` | Auth sessions | Random string, **minimum 32 bytes**. Generate with `openssl rand -hex 32`. Changing it signs everyone out. |
 | `XAI_API_KEY` | AI tutor | **SpaceXAI** key from [console.x.ai](https://console.x.ai). Server-side only. |
 | `XAI_BASE_URL` | AI tutor (optional) | Default `https://api.x.ai/v1` |
 | `XAI_MODEL` | AI tutor (optional) | Default `grok-4.5` |
@@ -82,9 +78,12 @@ Do not regenerate existing lessons. Author only missing chapters, validate again
 Optional DB seed (idempotent upsert by chapter):
 
 ```bash
-pnpm db:push          # apply migrations when DATABASE_URL is set
+pnpm db:push          # regenerate migrations after editing drizzle/schema.ts
 node scripts/seed-lessons.mjs
 ```
+
+The schema is applied automatically on first boot, so a fresh clone needs no
+migration step — just `pnpm start`.
 
 ## Scripts
 
@@ -95,14 +94,21 @@ node scripts/seed-lessons.mjs
 | `pnpm check` | `tsc --noEmit` |
 | `pnpm test` | Vitest |
 | `pnpm db:push` | Generate + migrate Drizzle schema |
+| `pnpm account` | List accounts, reset a password, grant admin |
 | `pnpm format` | Prettier |
 
 ## Architecture notes
 
 - Lesson JSON is the **public source of truth** for curriculum reads (validated with Zod on load).
-- Progress/attempts/planner/badges/certificates live in MySQL when configured.
+- Progress/attempts/planner/badges/certificates live in a local SQLite file (`DB_FILE`), created and migrated on first boot.
 - Exam answers are graded **server-side** for authenticated attempt recording (client score is not trusted for badges/certificates).
-- Auth currently uses **Manus OAuth**. Self-hosting without Manus requires wiring an alternate identity provider.
+- Auth is **self-hosted**: email + password, hashed with scrypt, sessions signed
+  as HS256 JWTs in an HttpOnly cookie. No third-party identity provider, so the
+  app runs anywhere with no external accounts to register.
+- **The first account to register becomes admin.** Create it immediately after
+  deploying, before the URL is public.
+- There is no password-reset email (no SMTP). Recovery is via `pnpm account
+  set-password <email> <password>` from a shell on the server.
 
 ## License
 

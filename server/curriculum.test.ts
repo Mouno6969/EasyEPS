@@ -87,7 +87,7 @@ describe("admin role gating", () => {
       openId: "regular-user",
       email: "user@example.com",
       name: "Regular User",
-      loginMethod: "manus",
+      loginMethod: "password",
       role: "user",
       createdAt: new Date(),
       updatedAt: new Date(),

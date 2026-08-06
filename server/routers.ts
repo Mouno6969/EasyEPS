@@ -1,4 +1,4 @@
-import { COOKIE_NAME } from "@shared/const";
+import { COOKIE_NAME, ONE_YEAR_MS, PASSWORD_MIN_LENGTH } from "@shared/const";
 import {
   basicsImportProgressSchema,
   basicsProgressPatchSchema,
@@ -37,6 +37,11 @@ import {
   getBasicsModuleSummaries,
   getStrokeFile,
 } from "./basicsContent";
+import { hashPassword, verifyPassword, generateOpenId } from "./_core/password";
+import type { User } from "../drizzle/schema";
+import type { Request } from "express";
+import type { TrpcContext } from "./_core/context";
+import { sdk } from "./_core/sdk";
 import * as db from "./db";
 import { ENV } from "./_core/env";
 import { assertBasicsComplete } from "./basicsGate";
@@ -46,6 +51,90 @@ import { systemRouter } from "./_core/systemRouter";
 import { adminProcedure, protectedProcedure, publicProcedure, router } from "./_core/trpc";
 import { storagePut } from "./storage";
 import { basicsModuleIdSchema } from "@shared/basics";
+
+const registerSchema = z.object({
+  email: z.string().trim().toLowerCase().email("Enter a valid email address"),
+  password: z
+    .string()
+    .min(PASSWORD_MIN_LENGTH, `Password must be at least ${PASSWORD_MIN_LENGTH} characters`)
+    .max(200, "Password is too long"),
+  fullName: z.string().trim().min(2, "Name must be at least 2 characters").max(80),
+});
+
+const loginSchema = z.object({
+  email: z.string().trim().toLowerCase().email("Enter a valid email address"),
+  password: z.string().min(1, "Enter your password"),
+});
+
+/**
+ * Shape sent to the browser. `passwordHash` must never appear here: `auth.me`
+ * is mirrored into localStorage by useAuth, so returning the raw row would
+ * publish every account's digest to the client.
+ */
+function toSafeUser(user: User | null) {
+  if (!user) return null;
+  return {
+    id: user.id,
+    name: user.name,
+    email: user.email,
+    role: user.role,
+    loginMethod: user.loginMethod,
+    createdAt: user.createdAt,
+    lastSignedIn: user.lastSignedIn,
+  };
+}
+
+async function setSessionCookie(ctx: TrpcContext, user: User) {
+  const token = await sdk.createSessionToken(user.openId, {
+    name: user.name ?? "",
+    expiresInMs: ONE_YEAR_MS,
+  });
+  ctx.res.cookie(COOKIE_NAME, token, {
+    ...getSessionCookieOptions(ctx.req),
+    maxAge: ONE_YEAR_MS,
+  });
+}
+
+/**
+ * Per-IP throttle on the credential endpoints. Password verification is
+ * deliberately slow (~100ms), so without a cap an attacker still gets thousands
+ * of guesses an hour against a known email. In-memory is enough for a
+ * single-process deploy; a multi-process one would need a shared store.
+ */
+const AUTH_RATE_WINDOW_MS = 60_000;
+const AUTH_RATE_MAX = 10;
+const authAttempts = new Map<string, { count: number; resetAt: number }>();
+
+function enforceAuthRateLimit(req: Request) {
+  const forwarded = req.headers["x-forwarded-for"];
+  const ip =
+    (Array.isArray(forwarded) ? forwarded[0] : forwarded?.split(",")[0]?.trim()) ||
+    req.socket?.remoteAddress ||
+    "unknown";
+
+  const now = Date.now();
+  const entry = authAttempts.get(ip);
+
+  if (!entry || now > entry.resetAt) {
+    authAttempts.set(ip, { count: 1, resetAt: now + AUTH_RATE_WINDOW_MS });
+    // Opportunistic sweep so the map cannot grow without bound.
+    if (authAttempts.size > 5000) {
+      for (const [key, value] of authAttempts) {
+        if (now > value.resetAt) authAttempts.delete(key);
+      }
+    }
+    return;
+  }
+
+  entry.count += 1;
+  if (entry.count > AUTH_RATE_MAX) {
+    throw new TRPCError({
+      code: "TOO_MANY_REQUESTS",
+      message: "Too many attempts. Please wait a minute and try again.",
+    });
+  }
+}
+
 
 function rowToProfile(
   row: Awaited<ReturnType<typeof db.getUserProfile>> | null | undefined,
@@ -136,7 +225,48 @@ function normalizeMatching(
 export const appRouter = router({
   system: systemRouter,
   auth: router({
-    me: publicProcedure.query(opts => opts.ctx.user),
+    me: publicProcedure.query(opts => toSafeUser(opts.ctx.user)),
+    register: publicProcedure.input(registerSchema).mutation(async ({ ctx, input }) => {
+      enforceAuthRateLimit(ctx.req);
+
+      const email = input.email.trim().toLowerCase();
+      const existing = await db.getUserByEmail(email);
+      if (existing) {
+        // Field-scoped so react-hook-form can attach it to the email input,
+        // matching how zodResolver surfaces validation errors elsewhere.
+        throw new TRPCError({
+          code: "CONFLICT",
+          message: "email: An account with this email already exists",
+        });
+      }
+
+      const passwordHash = await hashPassword(input.password);
+      const user = await db.createPasswordUser({
+        openId: generateOpenId(),
+        email,
+        name: input.fullName.trim() || null,
+        passwordHash,
+      });
+
+      await setSessionCookie(ctx, user);
+      return toSafeUser(user);
+    }),
+    login: publicProcedure.input(loginSchema).mutation(async ({ ctx, input }) => {
+      enforceAuthRateLimit(ctx.req);
+
+      const user = await db.getUserByEmail(input.email);
+      const ok = await verifyPassword(input.password, user?.passwordHash);
+
+      // Identical response whether the email is unknown or the password is
+      // wrong, so the endpoint cannot be used to enumerate registered emails.
+      if (!user || !ok) {
+        throw new TRPCError({ code: "UNAUTHORIZED", message: "Wrong email or password" });
+      }
+
+      await db.touchLastSignedIn(user.id);
+      await setSessionCookie(ctx, user);
+      return toSafeUser(user);
+    }),
     logout: publicProcedure.mutation(({ ctx }) => {
       const cookieOptions = getSessionCookieOptions(ctx.req);
       ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
