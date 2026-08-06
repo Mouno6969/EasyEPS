@@ -1,6 +1,6 @@
 {
   "id": "checkpoint",
-  "order": 7,
+  "order": 10,
   "title": {
     "bn": "বেসিক পরীক্ষা",
     "ko": "기초 확인",
@@ -11,7 +11,7 @@
     "ko": "체크포인트",
     "en": "Capstone"
   },
-  "estimatedMinutes": 25,
+  "estimatedMinutes": 12,
   "requirements": {
     "requiredStepIds": [
       "cp-quiz"
@@ -11009,6 +11009,916 @@
           "answer": 0,
           "explanationBn": "প্রতিটি হ্যাঙ্গুল শব্দ পড়ে বাংলা অর্থ মিলান।",
           "topic": "reading"
+        },
+        {
+          "id": "cp-sent-sit-1",
+          "kind": "multiple-choice",
+          "promptBn": "সহকর্মী সাহায্য করলেন। কী বলবেন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "감사합니다",
+            "죄송합니다",
+            "모르겠어요",
+            "잠깐만요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "সাহায্যের জন্য কৃতজ্ঞতা জানাতে '감사합니다' বলতে হয়।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-sit-2",
+          "kind": "multiple-choice",
+          "promptBn": "দেরি করে কাজে এসেছেন। কী বলবেন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "죄송합니다",
+            "감사합니다",
+            "괜찮아요",
+            "네"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ভুলের জন্য ক্ষমা চাইতে '죄송합니다' বলতে হয়।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-sit-3",
+          "kind": "multiple-choice",
+          "promptBn": "ফোরম্যানের নির্দেশ বুঝেছেন। কী বলবেন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "알겠습니다",
+            "모르겠어요",
+            "아니요",
+            "안녕하세요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "নির্দেশ বুঝলে '알겠습니다' বলাই কর্মস্থলের রীতি।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-sit-4",
+          "kind": "multiple-choice",
+          "promptBn": "কথা খুব দ্রুত, ধরতে পারছেন না। কী বলবেন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "천천히 말해 주세요",
+            "감사합니다",
+            "괜찮아요",
+            "네"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ধীরে বলার অনুরোধ করতে '천천히 말해 주세요' বলুন।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-sit-5",
+          "kind": "multiple-choice",
+          "promptBn": "আপনি অফিস থেকে বের হচ্ছেন, বাকিরা থাকছেন।",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "안녕히 계세요",
+            "안녕히 가세요",
+            "안녕하세요",
+            "잠깐만요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "যাঁরা থাকছেন তাঁদের '안녕히 계세요' বলতে হয়।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-sit-6",
+          "kind": "multiple-choice",
+          "promptBn": "সহকর্মী চলে যাচ্ছেন, আপনি থাকছেন।",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "안녕히 가세요",
+            "안녕히 계세요",
+            "실례합니다",
+            "죄송합니다"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "যিনি চলে যাচ্ছেন তাঁকে '안녕히 가세요' বলতে হয়।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-sit-7",
+          "kind": "multiple-choice",
+          "promptBn": "অচেনা কাউকে কিছু জিজ্ঞেস করার আগে কী বলবেন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "실례합니다",
+            "알겠습니다",
+            "아니요",
+            "네"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "কাউকে ডেকে কথা শুরু করতে '실례합니다' বলা ভদ্র রীতি।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-sit-8",
+          "kind": "multiple-choice",
+          "promptBn": "উত্তর জানা নেই। সৎভাবে কী বলবেন?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "모르겠어요",
+            "알겠습니다",
+            "네",
+            "괜찮아요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "না জানলে '모르겠어요' বলাই নিরাপদ, না বুঝে সম্মতি দেওয়া বিপজ্জনক।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-cop-1",
+          "kind": "multiple-choice",
+          "promptBn": "'카말' এর শেষে 'ㄹ' 받침 আছে। সঠিক রূপ কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "카말이에요",
+            "카말예요",
+            "카말요",
+            "카말이요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받침 থাকলে '이에요' বসে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-cop-2",
+          "kind": "multiple-choice",
+          "promptBn": "'수지' এর শেষে 받침 নেই। সঠিক রূপ কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "수지예요",
+            "수지이에요",
+            "수지에요",
+            "수지요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받침 না থাকলে '예요' বসে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-cop-3",
+          "kind": "multiple-choice",
+          "promptBn": "'선생님' এর শেষে 'ㅁ' 받침 আছে। সঠিক রূপ কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "선생님이에요",
+            "선생님예요",
+            "선생님요",
+            "선생님이요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받침 থাকলে '이에요' বসে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-cop-4",
+          "kind": "multiple-choice",
+          "promptBn": "'친구' এর শেষে 받침 নেই। সঠিক রূপ কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "친구예요",
+            "친구이에요",
+            "친구에요",
+            "친구요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받침 না থাকলে '예요' বসে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-cop-5",
+          "kind": "multiple-choice",
+          "promptBn": "'학생' এর শেষে 'ㅇ' 받침 আছে। সঠিক রূপ কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "학생이에요",
+            "학생예요",
+            "학생요",
+            "학생이요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받침 থাকলে '이에요' বসে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-cop-6",
+          "kind": "multiple-choice",
+          "promptBn": "সবচেয়ে আনুষ্ঠানিক রূপ কোনটি?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "저는 카말입니다",
+            "저는 카말이야",
+            "나는 카말",
+            "카말"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'입니다' সবচেয়ে আনুষ্ঠানিক, ঊর্ধ্বতনের সাথে এটি ব্যবহার করুন।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-par-1",
+          "kind": "multiple-choice",
+          "promptBn": "'친구' এর পরে 있어요 এলে কোন চিহ্ন বসবে?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "이",
+            "은",
+            "를"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받침 না থাকলে '가' বসে: 친구가 있어요।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-par-2",
+          "kind": "multiple-choice",
+          "promptBn": "'시간' এর পরে 있어요 এলে কোন চিহ্ন বসবে?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "이",
+            "가",
+            "는",
+            "을"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받침 থাকলে '이' বসে: 시간이 있어요।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-par-3",
+          "kind": "multiple-choice",
+          "promptBn": "'돈' এর পরে 없어요 এলে কোন চিহ্ন বসবে?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "이",
+            "가",
+            "은",
+            "를"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'돈' এর শেষে 'ㄴ' 받침 আছে, তাই '이' বসে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-par-4",
+          "kind": "multiple-choice",
+          "promptBn": "'회사' এর পরে 좋아요 এলে কোন চিহ্ন বসবে?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "가",
+            "이",
+            "은",
+            "을"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "받침 না থাকলে '가' বসে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-par-5",
+          "kind": "multiple-choice",
+          "promptBn": "있어요 / 없어요 এর আগে সাধারণত কোন চিহ্ন বসে?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "이/가",
+            "은/는",
+            "을/를",
+            "으로"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "있어요/없어요 এর আগে সাধারণত 이/가 বসে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-par-6",
+          "kind": "multiple-choice",
+          "promptBn": "নিজের পরিচয় দিতে সাধারণত কোন চিহ্ন ব্যবহার হয়?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "은/는",
+            "이/가",
+            "을/를",
+            "에서"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "নিজের কথা বলতে '저는' এর মতো করে 은/는 বসে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-ord-1",
+          "kind": "multiple-choice",
+          "promptBn": "কোরিয়ান বাক্যে ক্রিয়া কোথায় বসে?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "একদম শেষে",
+            "একদম শুরুতে",
+            "কর্তার আগে",
+            "মাঝখানে"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "কোরিয়ানে ক্রিয়া সবসময় বাক্যের শেষে বসে, বাংলার মতোই।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-ord-2",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বাক্যটি সঠিক ক্রমে আছে?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "저는 학생입니다",
+            "입니다 학생 저는",
+            "학생 저는 입니다",
+            "저는 입니다 학생"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ক্রম হলো কর্তা + বিশেষ্য + ক্রিয়া, ক্রিয়া শেষে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-ord-3",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বাক্যটি সঠিক?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "돈이 없어요",
+            "돈가 없어요",
+            "없어요 돈이",
+            "돈이 없어 있어요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'돈' এ 받침 আছে তাই '이', আর ক্রিয়া শেষে বসে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-ord-4",
+          "kind": "multiple-choice",
+          "promptBn": "নেতিবাচক করতে বিশেষণের আগে কী বসে?",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "안",
+            "네",
+            "은",
+            "가"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'안' বসিয়ে নেতিবাচক করা হয়: 안 좋아요।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-dlg-1",
+          "kind": "multiple-choice",
+          "promptBn": "가: 이름이 뭐예요?  나: ( )",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "저는 카말입니다",
+            "만나서 반갑습니다",
+            "감사합니다",
+            "어느 나라 사람이에요?"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "নাম জিজ্ঞেস করলে নিজের নাম বলতে হয়।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-dlg-2",
+          "kind": "multiple-choice",
+          "promptBn": "가: 오늘 시간이 있어요?  나: 아니요, 일이 ( ).",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "많아요",
+            "없어요",
+            "좋아요",
+            "맛있어요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "সময় নেই বলার কারণ হিসেবে 'কাজ অনেক' বলা স্বাভাবিক।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-dlg-3",
+          "kind": "multiple-choice",
+          "promptBn": "가: 어느 나라 사람이에요?  나: ( )",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "저는 방글라데시 사람입니다",
+            "저는 학생입니다",
+            "이름이 뭐예요?",
+            "감사합니다"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "কোন দেশ জিজ্ঞেস করা হয়েছে, তাই দেশের নাম দিয়ে উত্তর।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-dlg-4",
+          "kind": "multiple-choice",
+          "promptBn": "가: 감사합니다.  나: ( )",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "네, 괜찮아요",
+            "모르겠어요",
+            "죄송합니다",
+            "잠깐만요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "ধন্যবাদের উত্তরে '네, 괜찮아요' বলা যায়।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-dlg-5",
+          "kind": "multiple-choice",
+          "promptBn": "가: 만나서 반갑습니다.  나: ( )",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "저도 반갑습니다",
+            "안녕히 가세요",
+            "모르겠어요",
+            "일이 많아요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "পরিচয়ের উত্তরে '저도 반갑습니다' অর্থাৎ 'আমারও ভালো লাগল' বলা হয়।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-dlg-6",
+          "kind": "multiple-choice",
+          "promptBn": "가: 친구가 있어요?  나: 아니요, ( )",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [
+            "친구가 없어요",
+            "친구가 있어요",
+            "친구가 좋아요",
+            "친구가 많아요"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "নেতিবাচক উত্তরে '아니요' এর সাথে '없어요' মিলিয়ে বলতে হয়।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-1",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "저는 학생입니다",
+          "options": [
+            "আমি ছাত্র।",
+            "আমি শিক্ষক।",
+            "আমি অফিসকর্মী।",
+            "আপনি ছাত্র?"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'학생' মানে ছাত্র।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-2",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "이름이 뭐예요?",
+          "options": [
+            "আপনার নাম কী?",
+            "আমার নাম কামাল।",
+            "আপনি কোথায় থাকেন?",
+            "দেখা হয়ে ভালো লাগল।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "এটি নাম জিজ্ঞেস করার প্রশ্ন।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-3",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "친구가 있어요",
+          "options": [
+            "আমার বন্ধু আছে।",
+            "আমার বন্ধু নেই।",
+            "বন্ধু কোথায়?",
+            "আমার পরিবার আছে।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'있어요' মানে আছে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-4",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "시간이 없어요",
+          "options": [
+            "আমার সময় নেই।",
+            "আমার সময় আছে।",
+            "এখন কয়টা বাজে?",
+            "আমার টাকা নেই।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'없어요' মানে নেই।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-5",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "일이 많아요",
+          "options": [
+            "কাজ অনেক।",
+            "কাজ নেই।",
+            "কাজ সহজ।",
+            "আজ ছুটি।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'많아요' মানে অনেক।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-6",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "음식이 맛있어요",
+          "options": [
+            "খাবার সুস্বাদু।",
+            "খাবার ভালো না।",
+            "খাবার নেই।",
+            "খাবার অনেক।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'맛있어요' মানে সুস্বাদু।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-7",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "오늘 바빠요",
+          "options": [
+            "আজ ব্যস্ত।",
+            "আজ ছুটি।",
+            "কাল ব্যস্ত।",
+            "কাজ কষ্টকর।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'바빠요' মানে ব্যস্ত।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-8",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "날씨가 안 좋아요",
+          "options": [
+            "আবহাওয়া ভালো না।",
+            "আবহাওয়া ভালো।",
+            "আজ গরম।",
+            "আজ ঠান্ডা।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'안' বসায় অর্থ নেতিবাচক হয়েছে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-9",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "만나서 반갑습니다",
+          "options": [
+            "দেখা হয়ে ভালো লাগল।",
+            "আবার দেখা হবে।",
+            "ধন্যবাদ।",
+            "আপনার নাম কী?"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "পরিচয়ের সময় বলা হয়।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-10",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "알겠습니다",
+          "options": [
+            "বুঝেছি।",
+            "জানি না।",
+            "ধন্যবাদ।",
+            "অপেক্ষা করুন।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'알겠습니다' মানে বুঝেছি।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-11",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "모르겠어요",
+          "options": [
+            "আমি জানি না।",
+            "আমি বুঝেছি।",
+            "ঠিক আছে।",
+            "নমস্কার।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'모르겠어요' মানে জানি না।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-12",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "천천히 말해 주세요",
+          "options": [
+            "ধীরে বলুন।",
+            "আরেকবার বলুন।",
+            "অপেক্ষা করুন।",
+            "ধন্যবাদ।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'천천히' মানে ধীরে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-13",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "저는 방글라데시 사람입니다",
+          "options": [
+            "আমি বাংলাদেশের মানুষ।",
+            "আমি কোরিয়ার মানুষ।",
+            "আপনি কোন দেশের?",
+            "আমি বাংলা বলি।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'사람' মানে মানুষ।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-14",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "돈이 없어요",
+          "options": [
+            "আমার টাকা নেই।",
+            "আমার টাকা আছে।",
+            "টাকা কোথায়?",
+            "টাকা অনেক।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'없어요' মানে নেই।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-15",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "회사가 좋아요",
+          "options": [
+            "কোম্পানি ভালো।",
+            "কোম্পানি ভালো না।",
+            "কোম্পানি কোথায়?",
+            "কোম্পানি বড়।"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'좋아요' মানে ভালো।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-lis-16",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "promptKo": "",
+          "promptEn": "",
+          "listenText": "집이 어디예요?",
+          "options": [
+            "আপনার বাড়ি কোথায়?",
+            "আমার বাড়ি আছে।",
+            "বাড়ি ভালো।",
+            "আপনি বাড়ি যাচ্ছেন?"
+          ],
+          "pairs": [],
+          "answer": 0,
+          "explanationBn": "'어디' মানে কোথায়।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-mt-1",
+          "kind": "matching",
+          "promptBn": "বাক্যের সাথে অর্থ মেলান।",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [],
+          "pairs": [
+            {
+              "left": "저는 학생입니다",
+              "right": "আমি ছাত্র"
+            },
+            {
+              "left": "친구가 있어요",
+              "right": "আমার বন্ধু আছে"
+            },
+            {
+              "left": "시간이 없어요",
+              "right": "আমার সময় নেই"
+            },
+            {
+              "left": "일이 많아요",
+              "right": "কাজ অনেক"
+            }
+          ],
+          "explanationBn": "প্রতিটি বাক্যে কর্তা, চিহ্ন আর শেষে ক্রিয়া আছে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-mt-2",
+          "kind": "matching",
+          "promptBn": "পরিস্থিতির সাথে সঠিক বাক্য মেলান।",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [],
+          "pairs": [
+            {
+              "left": "সহকর্মী সাহায্য করলেন",
+              "right": "감사합니다"
+            },
+            {
+              "left": "দেরি করে এলেন",
+              "right": "죄송합니다"
+            },
+            {
+              "left": "নির্দেশ বুঝেছেন",
+              "right": "알겠습니다"
+            },
+            {
+              "left": "কথা ধরতে পারছেন না",
+              "right": "다시 한번 말해 주세요"
+            }
+          ],
+          "explanationBn": "পরিস্থিতি বুঝে সঠিক বাক্য বেছে নেওয়াই আসল দক্ষতা।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-mt-3",
+          "kind": "matching",
+          "promptBn": "প্রশ্নের সাথে সঠিক উত্তর মেলান।",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [],
+          "pairs": [
+            {
+              "left": "이름이 뭐예요?",
+              "right": "저는 카말입니다"
+            },
+            {
+              "left": "어느 나라 사람이에요?",
+              "right": "저는 방글라데시 사람입니다"
+            },
+            {
+              "left": "오늘 시간이 있어요?",
+              "right": "아니요, 일이 많아요"
+            },
+            {
+              "left": "만나서 반갑습니다",
+              "right": "저도 반갑습니다"
+            }
+          ],
+          "explanationBn": "প্রশ্ন কী জানতে চাইছে সেটা বুঝে উত্তর মেলাতে হবে।",
+          "topic": "sentence"
+        },
+        {
+          "id": "cp-sent-mt-4",
+          "kind": "matching",
+          "promptBn": "নামের সাথে সঠিক রূপ মেলান।",
+          "promptKo": "",
+          "promptEn": "",
+          "options": [],
+          "pairs": [
+            {
+              "left": "카말 (받침 আছে)",
+              "right": "카말이에요"
+            },
+            {
+              "left": "수지 (받침 নেই)",
+              "right": "수지예요"
+            },
+            {
+              "left": "학생 (받침 আছে)",
+              "right": "학생이에요"
+            },
+            {
+              "left": "친구 (받침 নেই)",
+              "right": "친구예요"
+            }
+          ],
+          "explanationBn": "받침 থাকলে '이에요', না থাকলে '예요' বসে।",
+          "topic": "sentence"
         }
       ],
       "drawCount": 25

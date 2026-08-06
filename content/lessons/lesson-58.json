@@ -10,647 +10,712 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "근로기준법과 관련된 기본 단어를 이해하고 사용할 수 있다.",
-      "간단한 근무 시간과 임금 관련 표현으로 질문하고 답할 수 있다.",
-      "직장에서 휴가와 야근 수당에 대해 기본적으로 묻고 대화할 수 있다."
+      "শ্রম চুক্তির শর্তাবলী নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "বেতনের বিবরণপত্র পড়ে বুঝতে পারা",
+      "'뿐만 아니라' দিয়ে একাধিক বিষয় যুক্ত করে বলতে পারা",
+      "'-(으)면 좋겠다' দিয়ে ইচ্ছা বা আশা প্রকাশ করতে পারা"
     ],
     "en": [
-      "Understand and use basic vocabulary related to the Labor Standards Act.",
-      "Ask and answer simple questions about work hours and wages.",
-      "Have basic conversations at work about leave and overtime pay."
+      "Can ask and answer questions about working conditions in the labor contract",
+      "Can read and understand pay stubs",
+      "Can link multiple items using 뿐만 아니라",
+      "Can express wishes or hopes using -(으)면 좋겠다"
     ]
   },
   "vocabulary": [
     {
       "ko": "근로기준법",
-      "romanization": "geunro gijunbeop",
+      "romanization": "geullogijunbeop",
       "bn": "শ্রমমান আইন",
       "en": "Labor Standards Act",
       "pos": "noun",
       "example": {
-        "ko": "근로기준법은 근로자의 기본 권리를 보호합니다.",
-        "bn": "শ্রমমান আইন শ্রমিকদের মৌলিক অধিকার রক্ষা করে।",
-        "en": "The Labor Standards Act protects basic rights of workers."
+        "ko": "근로계약서는 근로기준법에 따라 작성됩니다.",
+        "bn": "শ্রম চুক্তিপত্র শ্রমমান আইন অনুযায়ী তৈরি হয়।",
+        "en": "The labor contract is drafted in accordance with the Labor Standards Act."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'근' এর 'ㄴ' আর 'ㄹ' মিলে [글로기준법] হয়।"
     },
     {
-      "ko": "근로자",
-      "romanization": "geunroja",
-      "bn": "কর্মচারী",
-      "en": "worker/employee",
+      "ko": "표준근로계약서",
+      "romanization": "pyojungeullogyeyakseo",
+      "bn": "আদর্শ শ্রম চুক্তিপত্র",
+      "en": "standard labor contract",
       "pos": "noun",
       "example": {
-        "ko": "회사는 근로자를 존중해야 합니다.",
-        "bn": "কোম্পানিকে কর্মচারীদের সম্মান করতে হবে।",
-        "en": "The company should respect its employees."
+        "ko": "어제 표준근로계약서를 받았어요.",
+        "bn": "গতকাল আদর্শ শ্রম চুক্তিপত্র পেয়েছি।",
+        "en": "I received the standard labor contract yesterday."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'약서' এর 'ㄱ' এর পরে 'ㅅ' এলে [계약써] শক্ত হয়।"
     },
     {
-      "ko": "사용자",
-      "romanization": "sayongja",
-      "bn": "নিয়োগকারী/কর্মনির্বাহক",
-      "en": "employer",
+      "ko": "근로 조건",
+      "romanization": "geullo jogeon",
+      "bn": "কাজের শর্ত",
+      "en": "working conditions",
       "pos": "noun",
       "example": {
-        "ko": "사용자는 근로계약서를 작성해야 합니다.",
-        "bn": "নিয়োগকারীকে কাজের চুক্তি লিখতে হয়।",
-        "en": "The employer must prepare the employment contract."
+        "ko": "근로 조건이 좋은 것 같아요.",
+        "bn": "কাজের শর্ত ভালো মনে হচ্ছে।",
+        "en": "The working conditions seem good."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'조건' এর 'ㄴ' নাসিক্য, [조건]।"
     },
     {
-      "ko": "임금",
-      "romanization": "imgeum",
-      "bn": "বেতন",
-      "en": "wages",
+      "ko": "근로 계약 기간",
+      "romanization": "geullo gyeyak gigan",
+      "bn": "চুক্তির মেয়াদ",
+      "en": "period of employment",
       "pos": "noun",
       "example": {
-        "ko": "월 임금은 매월 말에 지급됩니다.",
-        "bn": "মাসিক বেতন প্রতি মাসের শেষে দেওয়া হয়।",
-        "en": "Monthly wages are paid at the end of each month."
+        "ko": "근로 계약 기간은 개월 수로 나타냅니다.",
+        "bn": "চুক্তির মেয়াদ মাসের সংখ্যায় লেখা হয়।",
+        "en": "The employment period is stated in months."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'계약' এর 'ㄱ' চাপা থাকে, [계약]।"
     },
     {
-      "ko": "최저임금",
-      "romanization": "choejeo imgeum",
-      "bn": "ন্যূনতম মজুরি",
-      "en": "minimum wage",
+      "ko": "수습 기간",
+      "romanization": "suseup gigan",
+      "bn": "শিক্ষানবিশ মেয়াদ",
+      "en": "probationary period",
       "pos": "noun",
       "example": {
-        "ko": "회사는 최저임금 이상을 지급해야 합니다.",
-        "bn": "কোম্পানিকে ন্যূনতম মজুরির বেশি দিতে হবে।",
-        "en": "The company must pay at least the minimum wage."
+        "ko": "수습 기간에는 월급의 90%를 받아요.",
+        "bn": "শিক্ষানবিশ মেয়াদে বেতনের ৯০ শতাংশ পাওয়া যায়।",
+        "en": "During the probationary period you receive 90% of your salary."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'습' এর 'ㅂ' এর পরে 'ㄱ' এলে [수습끼간] শক্ত হয়।"
     },
     {
-      "ko": "근무시간",
-      "romanization": "geunmu sigan",
+      "ko": "근로 시간",
+      "romanization": "geullo sigan",
       "bn": "কাজের সময়",
       "en": "working hours",
       "pos": "noun",
       "example": {
-        "ko": "오늘 근무시간은 오전 9시부터 오후 6시까지입니다.",
-        "bn": "আজ কাজের সময় সকাল ৯টা থেকে বিকেল ৬টা পর্যন্ত।",
-        "en": "Today's working hours are from 9 AM to 6 PM."
+        "ko": "1일 근로 시간을 계약서에 표시합니다.",
+        "bn": "দৈনিক কাজের সময় চুক্তিপত্রে লেখা হয়।",
+        "en": "The daily working hours are stated in the contract."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'근로' এর 'ㄴ' আর 'ㄹ' মিলে [글로] হয়।"
     },
     {
-      "ko": "휴게시간",
+      "ko": "휴게 시간",
       "romanization": "hyuge sigan",
       "bn": "বিশ্রামের সময়",
-      "en": "break time",
+      "en": "recess hours",
       "pos": "noun",
       "example": {
-        "ko": "점심은 12시부터 1시까지 휴게시간입니다.",
-        "bn": "দুপুর ১২টা থেকে ১টা পর্যন্ত বিরতির সময়।",
-        "en": "Lunch break is from 12 to 1."
+        "ko": "휴게 시간이 하루에 몇 분인지 적어야 해요.",
+        "bn": "দিনে কত মিনিট বিশ্রাম তা লিখতে হয়।",
+        "en": "You must state how many minutes of recess there are per day."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'휴' ঠোঁট গোল করে [휴게] বলুন।"
     },
     {
-      "ko": "연차휴가",
-      "romanization": "yeoncha yuga",
-      "bn": "বার্ষিক ছুটি",
-      "en": "annual leave",
+      "ko": "임금",
+      "romanization": "imgeum",
+      "bn": "মজুরি",
+      "en": "wages",
       "pos": "noun",
       "example": {
-        "ko": "연차휴가는 미리 신청해야 합니다.",
-        "bn": "বার্ষিক ছুটি আগে থেকে আবেদন করতে হয়।",
-        "en": "You should request annual leave in advance."
+        "ko": "임금뿐만 아니라 업무 내용도 확인하세요.",
+        "bn": "শুধু মজুরি নয়, কাজের বিবরণও দেখে নিন।",
+        "en": "Check not only the wages but also the job duties."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'임' এর 'ㅁ' এর পরে 'ㄱ' এলে [임끔] শক্ত হয়।"
     },
     {
-      "ko": "야근",
-      "romanization": "yageun",
-      "bn": "রাত পর্যন্ত কাজ/ওভারটাইম",
-      "en": "working late/overtime",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "오늘은 야근을 해야 합니다.",
-        "bn": "আজ রাতে ওভারটাইম করতে হবে।",
-        "en": "I have to work late today."
-      },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
-    },
-    {
-      "ko": "초과근무",
-      "romanization": "chogwa geunmu",
-      "bn": "অতিরিক্ত কাজ সময়",
-      "en": "overtime work",
+      "ko": "임금 지급일",
+      "romanization": "imgeum jigeubil",
+      "bn": "বেতনের দিন",
+      "en": "payday",
       "pos": "noun",
       "example": {
-        "ko": "초과근무를 할 때는 보고해야 합니다.",
-        "bn": "অতিরিক্ত কাজ করার সময় রিপোর্ট দিতে হয়।",
-        "en": "You should report when you work overtime."
+        "ko": "임금 지급일이 언제예요?",
+        "bn": "বেতনের দিন কবে?",
+        "en": "When is payday?"
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'급일' এর 'ㅂ' পরের স্বরে গিয়ে [지그빌] হয়।"
+    },
+    {
+      "ko": "월급",
+      "romanization": "wolgeup",
+      "bn": "মাসিক বেতন",
+      "en": "monthly salary",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 달 월급이 많이 들어왔어요.",
+        "bn": "এ মাসের বেতন বেশি এসেছে।",
+        "en": "My salary was higher this month."
+      },
+      "pronunciationTipBn": "'월' এর 'ㄹ' এর পরে 'ㄱ' এলে [월급] হয়।"
+    },
+    {
+      "ko": "기본급",
+      "romanization": "gibongeup",
+      "bn": "মূল বেতন",
+      "en": "base pay",
+      "pos": "noun",
+      "example": {
+        "ko": "급여 명세서에 기본급이 나와 있어요.",
+        "bn": "বেতনের বিবরণপত্রে মূল বেতন লেখা আছে।",
+        "en": "The base pay is shown on the pay stub."
+      },
+      "pronunciationTipBn": "'본' এর 'ㄴ' এর পরে 'ㄱ' এলে [기본끕] শক্ত হয়।"
     },
     {
       "ko": "수당",
       "romanization": "sudang",
-      "bn": "ভাতা/ভর্তুকি",
-      "en": "allowance/pay (e.g., overtime pay)",
+      "bn": "ভাতা",
+      "en": "extra pay, allowance",
       "pos": "noun",
       "example": {
-        "ko": "야근 수당은 근로계약서에 적습니다.",
-        "bn": "ওভারটাইম বেতন কাজের চুক্তিতে লেখা থাকে।",
-        "en": "Overtime pay is written in the employment contract."
+        "ko": "야간에 일하면 수당을 받을 수 있어요.",
+        "bn": "রাতে কাজ করলে ভাতা পাওয়া যায়।",
+        "en": "You can receive extra pay if you work at night."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'당' এর 'ㅇ' নাসিক্য, [수당]।"
     },
     {
-      "ko": "계약서",
-      "romanization": "gyeyakseo",
-      "bn": "চুক্তিপত্র",
-      "en": "contract",
+      "ko": "연장 근로 수당",
+      "romanization": "yeonjang geullo sudang",
+      "bn": "অতিরিক্ত সময়ের ভাতা",
+      "en": "overtime pay",
       "pos": "noun",
       "example": {
-        "ko": "계약서를 잘 읽고 서명하세요.",
-        "bn": "চুক্তিপত্র ভালো করে পড়ে স্বাক্ষর করুন।",
-        "en": "Read the contract carefully and sign it."
+        "ko": "일이 많아서 연장 근로 수당을 받았어요.",
+        "bn": "কাজ বেশি ছিল বলে অতিরিক্ত সময়ের ভাতা পেয়েছি।",
+        "en": "I received overtime pay because there was a lot of work."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'연장' এর 'ㄴ' নাসিক্য, [연장]।"
     },
     {
-      "ko": "해고",
-      "romanization": "haego",
-      "bn": "চাকরি থেকে বরখাস্ত/কর্তৃপক্ষের দ্বারা ছাঁটাই",
-      "en": "dismissal/termination",
-      "pos": "noun/verb",
-      "example": {
-        "ko": "부당 해고는 문제를 일으킬 수 있습니다.",
-        "bn": "অবিচারপূর্ণ বরখাস্ত সমস্যার কারণ হতে পারে।",
-        "en": "Unfair dismissal can cause problems."
-      },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
-    },
-    {
-      "ko": "퇴직금",
-      "romanization": "toejik geum",
-      "bn": "প্রস্থানকালীন ভাতা",
-      "en": "severance pay",
+      "ko": "야간 근로 수당",
+      "romanization": "yagan geullo sudang",
+      "bn": "রাতের কাজের ভাতা",
+      "en": "night work allowance",
       "pos": "noun",
       "example": {
-        "ko": "퇴직금은 퇴사 후에 처리됩니다.",
-        "bn": "প্রস্থানকালীন ভাতা চাকরি ছাড়ার পরে দেওয়া হয়।",
-        "en": "Severance pay is processed after leaving the job."
+        "ko": "밤에 일하면 야간 근로 수당이 나와요.",
+        "bn": "রাতে কাজ করলে রাতের কাজের ভাতা আসে।",
+        "en": "You get a night work allowance if you work at night."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'야간' এর 'ㄴ' নাসিক্য, [야간]।"
     },
     {
-      "ko": "산재보험",
-      "romanization": "sanjae boheom",
-      "bn": "শ্রমিক দায়বদ্ধতা/শ্রমিক দুর্ঘটনা বীমা",
-      "en": "industrial accident insurance",
+      "ko": "휴일 근로 수당",
+      "romanization": "hyuil geullo sudang",
+      "bn": "ছুটির দিনের কাজের ভাতা",
+      "en": "holiday pay",
       "pos": "noun",
       "example": {
-        "ko": "산재보험은 작업 중 사고 시 도움을 줍니다.",
-        "bn": "শ্রমদুর্ঘটনা বীমা কাজের দুঘটনার সময় সাহায্য করে।",
-        "en": "Industrial accident insurance helps in case of workplace accidents."
+        "ko": "쉬는 날 일하면 휴일 근로 수당을 받아요.",
+        "bn": "ছুটির দিনে কাজ করলে ছুটির দিনের ভাতা পাওয়া যায়।",
+        "en": "You receive holiday pay if you work on a day off."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'휴일' দুটি স্বর আলাদা, [휴일]।"
+    },
+    {
+      "ko": "상여금",
+      "romanization": "sangyeogeum",
+      "bn": "বোনাস",
+      "en": "bonus",
+      "pos": "noun",
+      "example": {
+        "ko": "설날이라서 상여금이 나왔어요.",
+        "bn": "নববর্ষ বলে বোনাস এসেছে।",
+        "en": "A bonus came because of the Lunar New Year."
+      },
+      "pronunciationTipBn": "'상' এর 'ㅇ' নাসিক্য, [상여금]।"
+    },
+    {
+      "ko": "급여 명세서",
+      "romanization": "geubyeo myeongseseo",
+      "bn": "বেতনের বিবরণপত্র",
+      "en": "pay stub",
+      "pos": "noun",
+      "example": {
+        "ko": "급여 명세서를 보고 확인하세요.",
+        "bn": "বেতনের বিবরণপত্র দেখে মিলিয়ে নিন।",
+        "en": "Check it by looking at the pay stub."
+      },
+      "pronunciationTipBn": "'급여' এর 'ㅂ' পরের স্বরে গিয়ে [그벼] হয়।"
+    },
+    {
+      "ko": "공제",
+      "romanization": "gongje",
+      "bn": "কর্তন",
+      "en": "deduction",
+      "pos": "noun",
+      "example": {
+        "ko": "세금과 보험은 공제 내역에 있어요.",
+        "bn": "কর ও বীমা কর্তনের তালিকায় থাকে।",
+        "en": "Taxes and insurance are in the deduction details."
+      },
+      "pronunciationTipBn": "'공' এর 'ㅇ' নাসিক্য, [공제]।"
+    },
+    {
+      "ko": "소득세",
+      "romanization": "sodeukse",
+      "bn": "আয়কর",
+      "en": "income tax",
+      "pos": "noun",
+      "example": {
+        "ko": "소득세는 공제 내역에 있어요.",
+        "bn": "আয়কর কর্তনের তালিকায় থাকে।",
+        "en": "Income tax is in the deduction details."
+      },
+      "pronunciationTipBn": "'득' এর 'ㄱ' এর পরে 'ㅅ' এলে [소득쎄] শক্ত হয়।"
+    },
+    {
+      "ko": "국민연금",
+      "romanization": "gungminyeongeum",
+      "bn": "জাতীয় পেনশন",
+      "en": "national pension",
+      "pos": "noun",
+      "example": {
+        "ko": "국민연금은 의무적으로 가입해야 해요.",
+        "bn": "জাতীয় পেনশনে বাধ্যতামূলক যোগ দিতে হয়।",
+        "en": "You must enroll in the national pension."
+      },
+      "pronunciationTipBn": "'국민' এর 'ㄱ' এর পরে 'ㅁ' এলে [궁민] নাসিক্য হয়।"
+    },
+    {
+      "ko": "건강보험",
+      "romanization": "geongangboheom",
+      "bn": "স্বাস্থ্য বীমা",
+      "en": "health insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "건강보험료가 매달 공제돼요.",
+        "bn": "স্বাস্থ্য বীমার টাকা প্রতি মাসে কাটা হয়।",
+        "en": "Health insurance is deducted every month."
+      },
+      "pronunciationTipBn": "'강' এর 'ㅇ' নাসিক্য, [건강보험]।"
     },
     {
       "ko": "고용보험",
-      "romanization": "goyong boheom",
-      "bn": "বেকারত্ব/নিযুক্তি বীমা",
+      "romanization": "goyongboheom",
+      "bn": "কর্মসংস্থান বীমা",
       "en": "employment insurance",
       "pos": "noun",
       "example": {
-        "ko": "고용보험은 실업 시 일부 지원을 합니다.",
-        "bn": "নিয়োগ বীমা বেকার হলে কিছু সহায়তা দেয়।",
-        "en": "Employment insurance provides some support when unemployed."
+        "ko": "고용보험에 가입하는 것이 의무입니다.",
+        "bn": "কর্মসংস্থান বীমায় যোগ দেওয়া বাধ্যতামূলক।",
+        "en": "Enrollment in employment insurance is mandatory."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'용' এর 'ㅇ' নাসিক্য, [고용보험]।"
     },
     {
-      "ko": "출근",
-      "romanization": "chulgeun",
-      "bn": "কর্মস্থলে এসে হাজির হওয়া",
-      "en": "go to work/clock in",
-      "pos": "verb/noun",
-      "example": {
-        "ko": "출근 시간은 오전 9시입니다.",
-        "bn": "কাজ শুরু সময় সকাল ৯টা।",
-        "en": "Work starts at 9 AM."
-      },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
-    },
-    {
-      "ko": "휴일",
-      "romanization": "hyuil",
-      "bn": "ছুটির দিন",
-      "en": "holiday/day off",
+      "ko": "실수령액",
+      "romanization": "silsuryeongaek",
+      "bn": "প্রকৃত প্রাপ্ত টাকা",
+      "en": "net pay",
       "pos": "noun",
       "example": {
-        "ko": "공휴일에는 회사가 쉬는 경우가 많습니다.",
-        "bn": "সরকারি ছুটিতে কোম্পানি বন্ধ থাকে।",
-        "en": "Companies are often closed on public holidays."
+        "ko": "실수령액이 통장에 들어와요.",
+        "bn": "প্রকৃত প্রাপ্ত টাকা ব্যাংক অ্যাকাউন্টে আসে।",
+        "en": "The net pay goes into the bank account."
       },
-      "pronunciationTipBn": "উচ্চারণ করার সময় স্বরবর্ণ ও ব্যঞ্জনবর্ণের দিকে খেয়াল রাখুন।"
+      "pronunciationTipBn": "'실' এর 'ㄹ' এর পরে 'ㅅ' এলে [실쑤령액] শক্ত হয়।"
     },
     {
-      "ko": "월차휴가",
-      "romanization": "wolchahyuga",
-      "bn": "মাসিক ছুটি",
-      "en": "Monthly leave",
-      "pos": "Noun",
+      "ko": "연말정산",
+      "romanization": "yeonmaljeongsan",
+      "bn": "বছরান্তের কর সমন্বয়",
+      "en": "year-end tax settlement",
+      "pos": "noun",
       "example": {
-        "ko": "이번 달에 월차휴가를 씁니다.",
-        "bn": "এই মাসে আমি মাসিক ছুটি নেব।",
-        "en": "I will take monthly leave this month."
+        "ko": "연말정산 환급금이 2월에 나와요.",
+        "bn": "বছরান্তের কর ফেরত ফেব্রুয়ারিতে আসে।",
+        "en": "The year-end tax refund comes in February."
       },
-      "pronunciationTipBn": "'월' এর 'ㄹ' এবং '차' এর 'ㅊ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'말' এর 'ㄹ' এর পরে 'ㅈ' এলে [연말쩡산] শক্ত হয়।"
     },
     {
-      "ko": "병가",
-      "romanization": "byeongga",
-      "bn": "অসুস্থতাজনিত ছুটি",
-      "en": "Sick leave",
-      "pos": "Noun",
+      "ko": "근로 장소",
+      "romanization": "geullo jangso",
+      "bn": "কাজের জায়গা",
+      "en": "workplace",
+      "pos": "noun",
       "example": {
-        "ko": "아파서 병가를 냈습니다.",
-        "bn": "অসুস্থ হওয়ায় অসুস্থতাজনিত ছুটি নিয়েছি।",
-        "en": "I took sick leave because I was sick."
+        "ko": "계약서에 근로 장소가 나와 있어요.",
+        "bn": "চুক্তিপত্রে কাজের জায়গা লেখা আছে।",
+        "en": "The workplace is stated in the contract."
       },
-      "pronunciationTipBn": "'병' এর 'ㅇ' অনুনাসিক, '가' এর 'ㄱ' স্পষ্ট করুন।"
+      "pronunciationTipBn": "'장소' এর 'ㅇ' নাসিক্য, [장소]।"
     },
     {
-      "ko": "출산휴가",
-      "romanization": "chulsanhyuga",
-      "bn": "মাতৃত্বকালীন ছুটি",
-      "en": "Maternity leave",
-      "pos": "Noun",
+      "ko": "업무 내용",
+      "romanization": "eomu naeyong",
+      "bn": "কাজের বিবরণ",
+      "en": "job duties",
+      "pos": "noun",
       "example": {
-        "ko": "출산휴가를 받았습니다.",
-        "bn": "আমি মাতৃত্বকালীন ছুটি পেয়েছি।",
-        "en": "I received maternity leave."
+        "ko": "업무 내용을 잘 확인하세요.",
+        "bn": "কাজের বিবরণ ভালো করে দেখে নিন।",
+        "en": "Check the job duties carefully."
       },
-      "pronunciationTipBn": "'출' এর 'ㅊ' এবং '산' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'내용' এর 'ㅇ' নাসিক্য, [내용]।"
     },
     {
-      "ko": "무급휴일",
-      "romanization": "mugeuphyuil",
-      "bn": "বেতনবিহীন ছুটি",
-      "en": "Unpaid holiday",
-      "pos": "Noun",
+      "ko": "숙식",
+      "romanization": "suksik",
+      "bn": "খাবার ও থাকা",
+      "en": "room and board",
+      "pos": "noun",
       "example": {
-        "ko": "내일은 무급휴일입니다.",
-        "bn": "আগামীকাল বেতনবিহীন ছুটি।",
-        "en": "Tomorrow is an unpaid holiday."
+        "ko": "회사에서 숙식을 제공해 줘요.",
+        "bn": "কোম্পানি খাবার ও থাকার ব্যবস্থা দেয়।",
+        "en": "The company provides room and board."
       },
-      "pronunciationTipBn": "'무' এর 'ㅁ' এবং '급' এর 'ㅂ' স্পষ্ট করুন।"
+      "pronunciationTipBn": "'숙' এর 'ㄱ' এর পরে 'ㅅ' এলে [숙씩] শক্ত হয়।"
     },
     {
-      "ko": "유급휴일",
-      "romanization": "yugeuphyuil",
-      "bn": "বেতনসহ ছুটি",
-      "en": "Paid holiday",
-      "pos": "Noun",
+      "ko": "제공하다",
+      "romanization": "jegonghada",
+      "bn": "সরবরাহ করা",
+      "en": "to provide",
+      "pos": "verb",
       "example": {
-        "ko": "일요일은 유급휴일입니다.",
-        "bn": "রবিবার বেতনসহ ছুটি।",
-        "en": "Sunday is a paid holiday."
+        "ko": "회사에서 기숙사를 제공해 줘요.",
+        "bn": "কোম্পানি আবাসন সরবরাহ করে।",
+        "en": "The company provides accommodation."
       },
-      "pronunciationTipBn": "'유' এর 'ㅇ' এবং '급' এর 'ㅂ' স্পষ্ট করুন।"
+      "pronunciationTipBn": "'제공' এর 'ㅇ' নাসিক্য, [제공하다]।"
     },
     {
-      "ko": "휴직",
-      "romanization": "hyujik",
-      "bn": "কাজের বিরতি",
-      "en": "Leave of absence",
-      "pos": "Noun",
+      "ko": "부담하다",
+      "romanization": "budamhada",
+      "bn": "বহন করা",
+      "en": "to bear a responsibility",
+      "pos": "verb",
       "example": {
-        "ko": "개인 사정으로 휴직을 했습니다.",
-        "bn": "ব্যক্তিগত কারণে কাজের বিরতি নিয়েছি।",
-        "en": "I took a leave of absence for personal reasons."
+        "ko": "근로자의 부담액을 적어야 해요.",
+        "bn": "শ্রমিকের বহনের পরিমাণ লিখতে হয়।",
+        "en": "You must state the worker's share of the cost."
       },
-      "pronunciationTipBn": "'휴' এর 'ㅎ' এবং '직' এর 'ㄱ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'부' ঠোঁট গোল করে [부담하다] বলুন।"
     },
     {
-      "ko": "복직",
-      "romanization": "bokjik",
-      "bn": "কাজে ফেরা",
-      "en": "Return to work",
-      "pos": "Noun",
+      "ko": "궁금하다",
+      "romanization": "gunggeumhada",
+      "bn": "জানতে ইচ্ছা করা",
+      "en": "to be curious",
+      "pos": "adjective",
       "example": {
-        "ko": "다음 달에 복직합니다.",
-        "bn": "আগামী মাসে কাজে ফিরব।",
-        "en": "I will return to work next month."
+        "ko": "근로 조건에 대해서 궁금한 게 있어요.",
+        "bn": "কাজের শর্ত সম্পর্কে জানতে ইচ্ছা করছে।",
+        "en": "I have questions about the working conditions."
       },
-      "pronunciationTipBn": "'복' এর 'ㄱ' এবং '직' এর 'ㄱ' স্পষ্ট করুন।"
+      "pronunciationTipBn": "'궁' এর 'ㅇ' নাসিক্য, [궁금하다]।"
     },
     {
-      "ko": "조퇴",
-      "romanization": "jotwe",
-      "bn": "তাড়াতাড়ি ছুটি নেওয়া",
-      "en": "Leaving early",
-      "pos": "Noun",
+      "ko": "확인하다",
+      "romanization": "hwaginhada",
+      "bn": "যাচাই করা",
+      "en": "to check, verify",
+      "pos": "verb",
       "example": {
-        "ko": "몸이 안 좋아서 조퇴했습니다.",
-        "bn": "শরীর খারাপ থাকায় তাড়াতাড়ি ছুটি নিয়েছি।",
-        "en": "I left early because I didn't feel well."
+        "ko": "표준근로계약서를 잘 확인해 봤어요?",
+        "bn": "আদর্শ শ্রম চুক্তিপত্র ভালো করে যাচাই করে দেখেছেন?",
+        "en": "Did you check the standard labor contract carefully?"
       },
-      "pronunciationTipBn": "'조' এর 'ㅈ' এবং '퇴' এর 'ㅌ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'확인' এর 'ㄱ' এর পরে 'ㅇ' এলে [화긴] নাসিক্য হয়।"
     },
     {
-      "ko": "결근",
-      "romanization": "gyeolgeun",
-      "bn": "অনুপস্থিতি",
-      "en": "Absence",
-      "pos": "Noun",
+      "ko": "익숙해지다",
+      "romanization": "iksukhaejida",
+      "bn": "অভ্যস্ত হওয়া",
+      "en": "to get accustomed to",
+      "pos": "verb",
       "example": {
-        "ko": "무단 결근을 하면 안 됩니다.",
-        "bn": "বিনা অনুমতিতে অনুপস্থিত থাকা যাবে না।",
-        "en": "You should not be absent without permission."
+        "ko": "일이 익숙해질 때까지 배워요.",
+        "bn": "কাজে অভ্যস্ত হওয়া পর্যন্ত শিখতে হয়।",
+        "en": "You learn until you get accustomed to the work."
       },
-      "pronunciationTipBn": "'결' এর 'ㄹ' এবং '근' এর 'ㄴ' স্পষ্ট করুন।"
+      "pronunciationTipBn": "'익' এর 'ㄱ' এর পরে 'ㅅ' এলে [익쑤카지다] শক্ত হয়।"
     },
     {
-      "ko": "지각",
-      "romanization": "jigak",
-      "bn": "দেরি করা",
-      "en": "Lateness",
-      "pos": "Noun",
+      "ko": "환급금",
+      "romanization": "hwangeubbeum",
+      "bn": "ফেরত টাকা",
+      "en": "refund",
+      "pos": "noun",
       "example": {
-        "ko": "오늘 회사에 지각했습니다.",
-        "bn": "আজ কোম্পানিতে দেরি করে এসেছি।",
-        "en": "I was late for work today."
+        "ko": "연말정산 환급금이 들어왔어요.",
+        "bn": "বছরান্তের কর ফেরত এসেছে।",
+        "en": "The year-end tax refund came."
       },
-      "pronunciationTipBn": "'지' এর 'ㅈ' এবং '각' এর 'ㄱ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'환' এর 'ㄴ' নাসিক্য, [환급금]।"
     },
     {
-      "ko": "야간근로",
-      "romanization": "yagangeunlo",
-      "bn": "রাতের কাজ",
-      "en": "Night work",
-      "pos": "Noun",
+      "ko": "들어오다",
+      "romanization": "deureooida",
+      "bn": "আসা (টাকা)",
+      "en": "to come in (money)",
+      "pos": "verb",
       "example": {
-        "ko": "야간근로 수당을 받았습니다.",
-        "bn": "রাতের কাজের ভাতা পেয়েছি।",
-        "en": "I received night work allowance."
+        "ko": "이번 달 월급이 많이 들어왔어요.",
+        "bn": "এ মাসের বেতন বেশি এসেছে।",
+        "en": "A lot of salary came in this month."
       },
-      "pronunciationTipBn": "'야' এর 'ㅇ' এবং '간' এর 'ㄴ' স্পষ্ট করুন।"
+      "pronunciationTipBn": "'들어' দুটি স্বর আলাদা, [드러오다]।"
     },
     {
-      "ko": "휴가원",
-      "romanization": "hyugawon",
-      "bn": "ছুটির আবেদনপত্র",
-      "en": "Leave application form",
-      "pos": "Noun",
+      "ko": "마음에 들다",
+      "romanization": "maeume deulda",
+      "bn": "পছন্দ হওয়া",
+      "en": "to like, be pleased with",
+      "pos": "verb phrase",
       "example": {
-        "ko": "휴가원을 제출했습니다.",
-        "bn": "ছুটির আবেদনপত্র জমা দিয়েছি।",
-        "en": "I submitted the leave application form."
+        "ko": "업무 내용과 임금 모두 마음에 들어요.",
+        "bn": "কাজের বিবরণ ও মজুরি দুটোই পছন্দ হয়েছে।",
+        "en": "I like both the job duties and the wages."
       },
-      "pronunciationTipBn": "'휴' এর 'ㅎ' এবং '원' এর 'ㅇ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "사유서",
-      "romanization": "sayuseo",
-      "bn": "কারণ দর্শানোর পত্র",
-      "en": "Letter of explanation",
-      "pos": "Noun",
-      "example": {
-        "ko": "지각 사유서를 썼습니다.",
-        "bn": "দেরি করার কারণ দর্শানোর পত্র লিখেছি।",
-        "en": "I wrote a letter of explanation for being late."
-      },
-      "pronunciationTipBn": "'사' এর 'ㅅ' এবং '유' এর 'ㅇ' স্পষ্ট করুন।"
-    },
-    {
-      "ko": "결재",
-      "romanization": "gyeoljae",
-      "bn": "অনুমোদন",
-      "en": "Approval",
-      "pos": "Noun",
-      "example": {
-        "ko": "반장님께 결재를 받았습니다.",
-        "bn": "ম্যানেজারের কাছ থেকে অনুমোদন পেয়েছি।",
-        "en": "I got approval from the manager."
-      },
-      "pronunciationTipBn": "'결' এর 'ㄹ' এবং '재' এর 'ㅈ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'마음' এর 'ㅁ' এর পরে স্বর এলে [마으메] হয়।"
     }
   ],
   "grammar": [
     {
-      "pattern": "아/어야 하다",
-      "titleBn": "কোথাও বাধ্যতা (করণ কর্তব্য)",
-      "explanationBn": "এঁর অর্থ 'করা উচিত/প্রয়োজন'। ব্যক্তিগত বা নিয়মগত বাধ্যতা জানানোর জন্য ব্যবহার করা হয়।",
-      "explanationEn": "Means 'must/should'. Used to express obligation or necessity.",
+      "pattern": "뿐만 아니라",
+      "titleBn": "শুধু নয়, তাছাড়াও",
+      "explanationBn": "'뿐만 아니라' বিশেষ্যের সাথে বসে বোঝায় যে একটি জিনিসেই সীমাবদ্ধ নয়, তার সাথে আরও কিছু আছে। ক্রিয়া বা বিশেষণের সাথে '-(으)ㄹ 뿐만 아니라' রূপ ব্যবহার হয়। শ্রম চুক্তিতে একাধিক শর্ত বা সুবিধার তালিকা দিতে এটি খুব কার্যকর।",
+      "explanationEn": "뿐만 아니라 attaches to nouns to show something is not limited to that one thing but includes others as well. With verbs or adjectives use -(으)ㄹ 뿐만 아니라. Very useful for listing multiple conditions or benefits in labor contracts.",
       "examples": [
         {
-          "ko": "계약서에 서명해야 합니다.",
-          "bn": "চুক্তিতে স্বাক্ষর করতে হবে।",
-          "en": "You must sign the contract."
+          "ko": "임금뿐만 아니라 업무 내용도 잘 확인해야 돼요.",
+          "bn": "শুধু মজুরি নয়, কাজের বিবরণও ভালো করে দেখতে হবে।",
+          "en": "You must check not only the wages but also the job duties carefully."
         },
         {
-          "ko": "출근 시간에 맞춰 출근해야 해요.",
-          "bn": "নির্ধারিত সময়ে এসে কাজ শুরু করতে হবে।",
-          "en": "You should arrive at work on time."
+          "ko": "회사에서 기숙사뿐만 아니라 점심 식사도 제공해 줘요.",
+          "bn": "কোম্পানি শুধু আবাসন নয়, দুপুরের খাবারও সরবরাহ করে।",
+          "en": "The company provides not only accommodation but also lunch."
+        },
+        {
+          "ko": "우리 회사 기숙사는 시설이 좋을 뿐만 아니라 깨끗해요.",
+          "bn": "আমাদের কোম্পানির আবাসন শুধু সুবিধা ভালো নয়, পরিচ্ছন্নও।",
+          "en": "Our company dormitory is not only well-equipped but also clean."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় ক্রিয়াপদের রূপ পরিবর্তনের দিকে খেয়াল রাখুন।"
+      "commonMistakeBn": "বিশেষ্যের সাথে সরাসরি '뿐만 아니라', ক্রিয়ায় '-(으)ㄹ 뿐만 아니라' বসে। '임금를 뿐만 아니라' ভুল।"
     },
     {
-      "pattern": "을/를 수 있다",
-      "titleBn": "সম্ভবতা/ক্ষমতা",
-      "explanationBn": "এটি 'করা সম্ভব' বা 'পারা' বোঝায়। ক্ষমতা বা সুযোগ প্রকাশ করতে ব্যবহার করা হয়।",
-      "explanationEn": "Expresses ability or possibility: 'can/able to'. Used to talk about capability or possibility.",
+      "pattern": "-(으)면 좋겠다",
+      "titleBn": "হলে ভালো হতো",
+      "explanationBn": "'-(으)면 좋겠다' ক্রিয়া বা বিশেষণের সাথে বসে কোনো কিছু ঘটার বা কোনো অবস্থা হওয়ার আশা বা ইচ্ছা প্রকাশ করে। ব্যঞ্জনান্ত মূলে '-으면 좋겠다', স্বরান্ত মূলে বা 'ㄹ' শেষে '-면 좋겠다' বসে। কাজের পরিবেশ বা বেতন নিয়ে আশা প্রকাশে খুব দরকারি।",
+      "explanationEn": "-(으)면 좋겠다 attaches to verbs or adjectives to express hope or wish for something to happen or a state to occur. Use -으면 좋겠다 after consonant stems, -면 좋겠다 after vowel stems or ㄹ. Very useful for expressing hopes about work conditions or salary.",
       "examples": [
         {
-          "ko": "야근을 할 수 있습니다.",
-          "bn": "আপনি ওভারটাইম করতে পারেন।",
-          "en": "You can work overtime."
+          "ko": "이번 주말에는 휴일 근무가 없으면 좋겠어요.",
+          "bn": "এ সপ্তাহের ছুটির দিনে কাজ না থাকলে ভালো হবে।",
+          "en": "I hope there is no holiday work this weekend."
         },
         {
-          "ko": "연차를 신청할 수 있어요.",
-          "bn": "আপনি বার্ষিক ছুটির জন্য আবেদন করতে পারেন।",
-          "en": "You can apply for annual leave."
+          "ko": "한국 회사에 취업하면 좋겠어요.",
+          "bn": "কোরীয় কোম্পানিতে চাকরি পেলে ভালো হবে।",
+          "en": "I hope I can get a job at a Korean company."
+        },
+        {
+          "ko": "돈을 많이 벌면 좋겠어요.",
+          "bn": "অনেক টাকা উপার্জন করতে পারলে ভালো হবে।",
+          "en": "I hope I can earn a lot of money."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় ক্রিয়াপদের রূপ পরিবর্তনের দিকে খেয়াল রাখুন।"
+      "commonMistakeBn": "'좋겠어요' এর আগে অবশ্যই '-(으)면' বসবে। '많이 벌 좋겠어요' ভুল, '많이 벌면 좋겠어요' সঠিক।"
     },
     {
-      "pattern": "기 전에",
-      "titleBn": "কোনো কাজের আগে",
-      "explanationBn": "এটি বোঝায় 'কখনো আগে'—কোনো কাজ করার পূর্বে আরেকটা কাজ করতে হবে বা দিতে হবে।",
-      "explanationEn": "Means 'before doing something'. Indicates an action that happens prior to another action.",
+      "pattern": "에 대해(서)",
+      "titleBn": "বিষয়ে, সম্পর্কে",
+      "explanationBn": "'에 대해(서)' বিশেষ্যের সাথে বসে সেই বিষয় নিয়ে কথা বলা বা প্রশ্ন করা বোঝায়। '에 대해' আর '에 대해서' একই অর্থ, দ্বিতীয়টি একটু বেশি আনুষ্ঠানিক। শ্রম আইন ও চুক্তির শর্তাবলী নিয়ে প্রশ্ন করতে এটি প্রয়োজনীয়।",
+      "explanationEn": "에 대해(서) attaches to nouns to indicate talking about or asking about that topic. 에 대해 and 에 대해서 have the same meaning; the latter is slightly more formal. Essential for asking questions about labor laws and contract terms.",
       "examples": [
         {
-          "ko": "출근하기 전에 알림을 확인하세요.",
-          "bn": "কাজে যাওয়ার আগে নোটিফিকেশন চেক করুন।",
-          "en": "Check notifications before going to work."
+          "ko": "근로 조건에 대해서 궁금한 게 있어요.",
+          "bn": "কাজের শর্ত সম্পর্কে জানতে চাই।",
+          "en": "I have questions about the working conditions."
         },
         {
-          "ko": "서명하기 전에 계약서를 읽으세요.",
-          "bn": "স্বাক্ষর করার আগে চুক্তিপত্র পড়ুন।",
-          "en": "Read the contract before signing."
+          "ko": "표준근로계약서에 대해 잘 모르겠어요.",
+          "bn": "আদর্শ শ্রম চুক্তিপত্র সম্পর্কে ভালো বুঝি না।",
+          "en": "I do not understand well about the standard labor contract."
         }
       ],
-      "commonMistakeBn": "এই ব্যাকরণটি ব্যবহারের সময় ক্রিয়াপদের রূপ পরিবর্তনের দিকে খেয়াল রাখুন।"
+      "commonMistakeBn": "'대해' এর আগে অবশ্যই '에' বসবে। '근로 조건 대해서' ভুল, '근로 조건에 대해서' সঠিক।"
     },
     {
-      "pattern": "-기 전에",
-      "titleBn": "-기 전에 (আগে)",
-      "explanationBn": "কোনো কাজ করার আগে অন্য একটি কাজ করা বোঝাতে ক্রিয়াপদের সাথে '-기 전에' যুক্ত হয়।",
-      "explanationEn": "Used to express doing something before another action.",
+      "pattern": "-(으)ㄴ/는 것 같다",
+      "titleBn": "মনে হয় যে",
+      "explanationBn": "'-(으)ㄴ/는 것 같다' দিয়ে অনুমান বা মতামত বোঝানো হয়। বর্তমান ক্রিয়ায় '-는 것 같다', অতীতে '-ㄴ/은 것 같다', বিশেষণে '-ㄴ/은 것 같다' বসে। বেতনের বিবরণপত্র দেখে বা কাজের অবস্থা সম্পর্কে মতামত দিতে এটি ব্যবহৃত হয়।",
+      "explanationEn": "-(으)ㄴ/는 것 같다 expresses a guess or opinion. Use -는 것 같다 for present verbs, -ㄴ/은 것 같다 for past or adjectives. Used when giving opinions about pay stubs or work conditions.",
       "examples": [
         {
-          "ko": "한국에 오기 전에 한국어를 공부했어요.",
-          "bn": "কোরিয়ায় আসার আগে কোরিয়ান ভাষা পড়েছি।",
-          "en": "I studied Korean before coming to Korea."
+          "ko": "근로 조건이 좋은 것 같아요.",
+          "bn": "কাজের শর্ত ভালো মনে হচ্ছে।",
+          "en": "The working conditions seem good."
         },
         {
-          "ko": "밥을 먹기 전에 손을 씻으세요.",
-          "bn": "ভাত খাওয়ার আগে হাত ধুয়ে নিন।",
-          "en": "Please wash your hands before eating."
-        },
-        {
-          "ko": "퇴근하기 전에 서류를 정리하세요.",
-          "bn": "কাজ শেষ করার আগে কাগজপত্র গুছিয়ে রাখুন।",
-          "en": "Please organize the documents before leaving work."
+          "ko": "이번 달 월급이 많이 들어온 것 같아요.",
+          "bn": "এ মাসের বেতন বেশি এসেছে মনে হচ্ছে।",
+          "en": "It seems my salary came in higher this month."
         }
       ],
-      "commonMistakeBn": "অনেকে বিশেষ্যের সাথে '-기 전에' ব্যবহার করেন; বিশেষ্যের সাথে শুধু '전에' বসবে।"
+      "commonMistakeBn": "'것' এর আগে ফাঁকা রাখুন। '좋은것 같아요' নয়, '좋은 것 같아요' লিখুন।"
     },
     {
-      "pattern": "-(으)ㄴ 후에",
-      "titleBn": "-(으)ㄴ 후에 (পরে)",
-      "explanationBn": "কোনো কাজ করার পরে অন্য একটি কাজ করা বোঝাতে ক্রিয়াপদের সাথে '-(으)ㄴ 후에' যুক্ত হয়।",
-      "explanationEn": "Used to express doing something after another action.",
+      "pattern": "-는/(으)ㄴ 금액",
+      "titleBn": "যে পরিমাণ",
+      "explanationBn": "ক্রিয়া বা বিশেষণের পরে '-는/(으)ㄴ' বসিয়ে বিশেষ্যকে বর্ণনা করা হয়। '받는 금액' মানে 'যে পরিমাণ পাওয়া যায়', '지급되는 금액' মানে 'যে পরিমাণ প্রদান করা হয়'। বেতনের বিবরণপত্রে বিভিন্ন খাতের টাকা বর্ণনায় এই গঠন খুব দরকারি।",
+      "explanationEn": "By adding -는/(으)ㄴ after a verb or adjective, you can describe a noun. 받는 금액 means 'the amount received', 지급되는 금액 means 'the amount paid'. This structure is essential for describing different amounts in pay stubs.",
       "examples": [
         {
-          "ko": "밥을 먹은 후에 약을 드세요.",
-          "bn": "ভাত খাওয়ার পরে ওষুধ খাবেন।",
-          "en": "Please take the medicine after eating."
+          "ko": "급여에서 실제로 받는 금액이 실수령액이에요.",
+          "bn": "বেতন থেকে প্রকৃতপক্ষে যে পরিমাণ পাওয়া যায় তা-ই নিট বেতন।",
+          "en": "The amount actually received from salary is the net pay."
         },
         {
-          "ko": "일을 끝낸 후에 쉬세요.",
-          "bn": "কাজ শেষ করার পরে বিশ্রাম নিন।",
-          "en": "Please rest after finishing the work."
-        },
-        {
-          "ko": "한국어 시험을 본 후에 고향에 갈 거예요.",
-          "bn": "কোরিয়ান ভাষার পরীক্ষা দেওয়ার পরে দেশে যাব।",
-          "en": "I will go to my hometown after taking the Korean test."
+          "ko": "세금, 보험 등 급여에서 빼는 금액이 공제액이에요.",
+          "bn": "কর, বীমা ইত্যাদি বেতন থেকে যে পরিমাণ কাটা হয় তা-ই কর্তন।",
+          "en": "The amount deducted from salary for taxes, insurance, etc. is the deduction."
         }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণ দিয়ে শেষ হওয়া ক্রিয়াপদের সাথে '-ㄴ 후에' ব্যবহার করেন; সেখানে '-(으)ㄴ 후에' বসবে।"
+      "commonMistakeBn": "ক্রিয়ার পরে সরাসরি বিশেষ্য আসতে পারে না। '받다 금액' ভুল, '받는 금액' সঠিক।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "출근 후 문의",
-      "titleEn": "Asking after arriving at work",
+      "titleBn": "শিক্ষানবিশ মেয়াদ কী",
+      "titleEn": "What is the probationary period",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "안녕하세요. 오늘 연차를 쓰고 싶습니다. 어떻게 신청하나요?",
-          "bn": "হ্যালো। আজ আমি বার্ষিক ছুটি নিতে চাই। কীভাবে আবেদন করব?",
-          "en": "Hello. I want to take annual leave today. How do I apply?"
-        },
-        {
-          "speaker": "관리자",
-          "ko": "인사팀에 이메일로 신청하면 됩니다.",
-          "bn": "এইচআর টিমকে ইমেইল পাঠিয়ে আবেদন করুন।",
-          "en": "Please apply by email to HR."
+          "speaker": "칼로",
+          "ko": "여보세요? 제가 어제 표준근로계약서를 받았는데 궁금한 게 있어요.",
+          "bn": "হ্যালো? আমি গতকাল আদর্শ শ্রম চুক্তিপত্র পেয়েছি, একটি প্রশ্ন আছে।",
+          "en": "Hello? I received the standard labor contract yesterday, and I have a question."
         },
         {
           "speaker": "직원",
-          "ko": "연차는 승인되면 언제 알 수 있나요?",
-          "bn": "ছুটির অনুমোদন হলে কবে জানতে পারি?",
-          "en": "When will I know if the leave is approved?"
+          "ko": "네, 무슨 일이세요?",
+          "bn": "হ্যাঁ, কী ব্যাপার?",
+          "en": "Yes, what can I help you with?"
         },
         {
-          "speaker": "관리자",
-          "ko": "보통 하루 이내에 답변합니다.",
-          "bn": "সাধারণত এক দিনের মধ্যে জবাব দেয়া হয়।",
-          "en": "Usually you'll get a reply within a day."
+          "speaker": "칼로",
+          "ko": "'수습 기간'이 뭐예요?",
+          "bn": "'শিক্ষানবিশ মেয়াদ' কী?",
+          "en": "What is the probationary period?"
         },
         {
           "speaker": "직원",
-          "ko": "감사합니다. 그럼 이메일 보낼게요.",
-          "bn": "ধন্যবাদ। আমি এখনই ইমেইল পাঠাচ্ছি।",
-          "en": "Thank you. I'll send the email now."
+          "ko": "수습 기간은 일이 익숙해질 때까지 일을 배우는 기간이에요. 그 기간 동안에는 월급의 90%를 받게 돼요.",
+          "bn": "শিক্ষানবিশ মেয়াদ হলো কাজে অভ্যস্ত হওয়া পর্যন্ত শেখার সময়। সেই সময়ে বেতনের ৯০ শতাংশ পাবেন।",
+          "en": "The probationary period is the time for learning until you get accustomed to the work. During that time you receive 90% of your salary."
+        },
+        {
+          "speaker": "칼로",
+          "ko": "그렇군요. 궁금한 게 하나 더 있는데요. 표준근로계약서에 있는 근로 시간에만 일을 하면 되는 거예요?",
+          "bn": "বুঝলাম। আরেকটি প্রশ্ন আছে। চুক্তিপত্রে যে কাজের সময় আছে শুধু সেই সময়েই কাজ করতে হয় তো?",
+          "en": "I see. I have another question. Do I only work during the hours stated in the contract?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "네, 그런데 일이 많으면 기본 근로 시간뿐만 아니라 야간이나 휴일에도 일할 수 있어요.",
+          "bn": "হ্যাঁ, কিন্তু কাজ বেশি থাকলে শুধু মূল সময় নয়, রাতে বা ছুটির দিনেও কাজ করতে হতে পারে।",
+          "en": "Yes, but if there is a lot of work, you may work not only during basic hours but also at night or on holidays."
+        },
+        {
+          "speaker": "칼로",
+          "ko": "야간 근무나 휴일 근무가 많아요?",
+          "bn": "রাতের কাজ বা ছুটির দিনের কাজ কি অনেক হয়?",
+          "en": "Is there a lot of night or holiday work?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "그건 사업장마다 달라요. 야간이나 휴일에 일하면 추가로 수당을 받을 수 있어요.",
+          "bn": "এটা কর্মস্থল ভেদে আলাদা। রাতে বা ছুটির দিনে কাজ করলে অতিরিক্ত ভাতা পাওয়া যায়।",
+          "en": "That depends on the workplace. If you work at night or on holidays, you receive extra pay."
         }
       ]
     },
     {
-      "titleBn": "야근 관련 대화",
-      "titleEn": "Conversation about working late",
+      "titleBn": "চুক্তির শর্ত যাচাই",
+      "titleEn": "Checking the contract terms",
       "lines": [
         {
-          "speaker": "팀원",
-          "ko": "오늘 프로젝트 때문에 야근해야 하나요?",
-          "bn": "প্রকল্পের জন্য আজ কি ওভারটাইম করতে হবে?",
-          "en": "Do we have to work late today for the project?"
+          "speaker": "마두",
+          "ko": "프엉 씨, 표준근로계약서는 잘 확인해 봤어요?",
+          "bn": "ফুওং ভাই, আদর্শ শ্রম চুক্তিপত্র ভালো করে দেখেছেন?",
+          "en": "Phuong, did you check the standard labor contract carefully?"
         },
         {
-          "speaker": "팀장",
-          "ko": "필요하면 부탁드릴게요. 가능하세요?",
-          "bn": "যদি দরকার হয় তবে অনুরোধ করব। পারবেন কি?",
-          "en": "If needed, I'll ask. Can you do it?"
+          "speaker": "프엉",
+          "ko": "네, 근로 조건이 좋은 것 같아요. 업무 내용뿐만 아니라 임금도 마음에 들어요.",
+          "bn": "হ্যাঁ, কাজের শর্ত ভালো মনে হচ্ছে। শুধু কাজের বিবরণ নয়, মজুরিও পছন্দ হয়েছে।",
+          "en": "Yes, the working conditions seem good. I like not only the job duties but also the wages."
         },
         {
-          "speaker": "팀원",
-          "ko": "네, 오늘은 가능합니다. 야근 수당은 어떻게 되나요?",
-          "bn": "হ্যাঁ, আজ পারি। ওভারটাইম পে কীভাবে হবে?",
-          "en": "Yes, I can today. How is overtime pay handled?"
+          "speaker": "마두",
+          "ko": "기숙사도 제공해 준다고 해요?",
+          "bn": "আবাসনও দিবে বলেছে?",
+          "en": "Did they say they will provide accommodation?"
         },
         {
-          "speaker": "팀장",
-          "ko": "정확한 수당은 인사팀에 확인하겠습니다.",
-          "bn": "সঠিক ভাতার ব্যাপারে আমি এইচআর-এ চেক করব।",
-          "en": "I'll check with HR about the exact allowance."
+          "speaker": "프엉",
+          "ko": "아니요, 기숙사는 안 돼요. 그래서 좀 걱정이에요.",
+          "bn": "না, আবাসন নেই। তাই একটু চিন্তা।",
+          "en": "No, there is no accommodation. So I am a bit worried."
         },
         {
-          "speaker": "팀원",
-          "ko": "알겠습니다. 알려 주세요.",
-          "bn": "ঠিক আছে। আমাকে জানাবেন।",
-          "en": "Okay. Please let me know."
+          "speaker": "마두",
+          "ko": "회사 근처에 싼 방을 구할 수 있으면 좋겠어요.",
+          "bn": "কোম্পানির কাছে সস্তা ঘর পেলে ভালো হবে।",
+          "en": "I hope you can find a cheap room near the company."
+        },
+        {
+          "speaker": "프엉",
+          "ko": "네, 저도 그랬으면 좋겠어요.",
+          "bn": "হ্যাঁ, আমিও তাই চাই।",
+          "en": "Yes, I hope so too."
         }
       ]
     },
     {
-      "titleBn": "연차휴가 신청 (বার্ষিক ছুটির আবেদন)",
-      "titleEn": "Applying for Annual Leave",
+      "titleBn": "এ মাসে বেতন বেশি এসেছে",
+      "titleEn": "Got more salary this month",
       "lines": [
         {
-          "speaker": "투안",
-          "ko": "반장님, 다음 주에 연차휴가를 쓰고 싶습니다.",
-          "bn": "ম্যানেজার, আমি আগামী সপ্তাহে বার্ষিক ছুটি নিতে চাই।",
-          "en": "Manager, I would like to take annual leave next week."
+          "speaker": "닛차난",
+          "ko": "마두 씨, 통장 확인해 봤어요? 저는 이번 달 월급이 조금 많이 들어온 것 같아요.",
+          "bn": "মধু ভাই, ব্যাংক অ্যাকাউন্ট চেক করেছেন? আমার এ মাসের বেতন একটু বেশি এসেছে মনে হচ্ছে।",
+          "en": "Madhu, did you check your bank account? It seems I got a bit more salary this month."
         },
         {
-          "speaker": "반장",
-          "ko": "무슨 일이 있어요?",
-          "bn": "কোনো সমস্যা আছে কি?",
-          "en": "Is there any problem?"
+          "speaker": "마두",
+          "ko": "표준근로계약서에서 본 금액과 달랐지요? 곧 설날이라서 상여금이 나와서 그래요.",
+          "bn": "চুক্তিপত্রে দেখা পরিমাণের চেয়ে আলাদা তো? শীঘ্রই নববর্ষ বলে বোনাস এসেছে।",
+          "en": "Was the amount different from what you saw in the contract? It is because you got a bonus with the New Year coming up."
         },
         {
-          "speaker": "투안",
-          "ko": "네, 고향에서 부모님이 오셔서요.",
-          "bn": "হ্যাঁ, দেশ থেকে বাবা-মা আসছেন।",
-          "en": "Yes, my parents are coming from my hometown."
+          "speaker": "닛차난",
+          "ko": "아, 그렇군요. 전 갑자기 월급이 많이 들어와서 놀랐어요.",
+          "bn": "ওহ, বুঝলাম। আমি হঠাৎ বেতন বেশি এসে অবাক হয়েছিলাম।",
+          "en": "Oh, I see. I was surprised because my salary suddenly increased."
         },
         {
-          "speaker": "반장",
-          "ko": "그래요? 그럼 휴가 신청서를 써서 내세요.",
-          "bn": "তাই নাকি? তাহলে ছুটির আবেদনপত্র লিখে জমা দিন।",
-          "en": "Is that so? Then fill out and submit a leave application form."
+          "speaker": "마두",
+          "ko": "그리고 다음 달에도 월급이 많을 거예요. 보통 2월에 연말정산 환급금이 들어오거든요.",
+          "bn": "আর পরের মাসেও বেতন বেশি হবে। সাধারণত ফেব্রুয়ারিতে বছরান্তের কর ফেরত আসে।",
+          "en": "And next month your salary will also be higher. We usually get the year-end tax refund in February."
         },
         {
-          "speaker": "투안",
-          "ko": "네, 알겠습니다. 감사합니다.",
-          "bn": "হ্যাঁ, বুঝতে পেরেছি। ধন্যবাদ।",
-          "en": "Yes, I understand. Thank you."
+          "speaker": "닛차난",
+          "ko": "그래요? 그럼 고향에 돈을 더 많이 보낼 수 있겠네요. 항상 월급이 많이 들어오면 좋겠어요.",
+          "bn": "সত্যি? তাহলে দেশে আরও বেশি টাকা পাঠাতে পারব। সবসময় বেতন বেশি এলে ভালো হতো।",
+          "en": "Really? Then I can send more money back home. I wish my salary was always this high."
         }
       ]
     }
@@ -659,584 +724,547 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "‘근로기준법’ শব্দের সঠিক অর্থ কী?",
-      "questionKo": "‘근로기준법’의 정확한 의미는 무엇입니까?",
+      "questionBn": "'뿐만 아니라' ব্যবহার করে সঠিকভাবে গঠিত বাক্যটি কোনটি?",
       "options": [
-        "근로 계약서 양식",
-        "노동자의 권리를 보호하는 법",
-        "근무 스케줄표",
-        "회사 내 규정 모음"
+        "표준근로계약서를 쓸 때 임금뿐만 아니라 업무 내용도 확인해야 돼요.",
+        "표준근로계약서를 쓸 때 임금뿐만 아니라도 업무 내용 확인해야 돼요.",
+        "표준근로계약서를 쓸 때 임금를 뿐만 아니라 업무 내용도 확인해야 돼요.",
+        "표준근로계약서를 쓸 때 임금이 뿐만 아니라 업무 내용도 확인해야 돼요."
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "근로기준법은 노동자의 권리와 노동 조건을 보호하는 법률을 의미합니다।"
+      "answer": 0,
+      "explanationBn": "বিশেষ্যের সাথে সরাসরি '뿐만 아니라' বসে। '임금뿐만 아니라' সঠিক।"
     },
     {
       "id": "p2",
-      "type": "multiple-choice",
-      "questionBn": "‘연차휴가’를 언제 신청해야 하나요?",
-      "questionKo": "‘연차휴가’를 언제 신청해야 합니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 수습 기간은 일이 익숙해질 때까지 일을 ( ) 기간이에요.",
       "options": [
-        "미리(또는 사전에) 신청합니다.",
-        "매일 신청합니다.",
-        "떠난 후에 신청합니다.",
-        "연차휴가는 신청할 필요가 없습니다."
+        "배우는",
+        "배운",
+        "배울",
+        "배웠는"
       ],
-      "pairs": [],
       "answer": 0,
-      "explanationBn": "연차휴가는 보통 미리 신청해야 하므로 '미리 신청'이 맞습니다।"
+      "explanationBn": "বর্তমান ক্রিয়ার বর্ণনা দিতে '-는' বসে। '배우는 기간' সঠিক।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "‘야근 수당’은 무엇과 관련있나요?",
-      "questionKo": "‘야근 수당’은 무엇과 관련되어 있습니까?",
+      "questionBn": "শিক্ষানবিশ মেয়াদে বেতনের কত শতাংশ পাওয়া যায়?",
       "options": [
-        "계약서 형식",
-        "연차 사용",
-        "출퇴근 시간",
-        "초과근무(오버타임) 보상"
+        "70%",
+        "80%",
+        "100%",
+        "90%"
       ],
-      "pairs": [],
       "answer": 3,
-      "explanationBn": "야근 수당은 초과근무에 대한 보상과 관련되어 있습니다।"
+      "explanationBn": "শিক্ষানবিশ মেয়াদে বেতনের ৯০ শতাংশ পাওয়া যায়।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "‘산재보험’은 주로 무엇을 돕나요?",
-      "questionKo": "‘산재보험’은 주로 무엇을 도와줍니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 한국 회사에 취업하면 ( ).",
       "options": [
-        "취업 비자 발급",
-        "세금 신고 지원",
-        "작업 중 사고에 대한 지원",
-        "휴가 신청 절차 안내"
+        "좋아요",
+        "좋겠어요",
+        "좋았어요",
+        "좋을까요"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "산재보험은 작업 중 사고가 발생했을 때 도움을 줍니다।"
+      "answer": 1,
+      "explanationBn": "আশা প্রকাশ করতে '-(으)면 좋겠다' বসে।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "계약서에 대해 올바른 행동은?",
-      "questionKo": "계약서에 대해 올바른 행동은?",
-      "options": [
-        "계약서를 무시한다.",
-        "계약서를 잘 읽고 서명한다.",
-        "서명 없이 바로 일을 시작한다.",
-        "구두 약속만 믿는다."
+      "type": "matching",
+      "questionBn": "শব্দের সাথে বাংলা অর্থ মেলান।",
+      "pairs": [
+        {
+          "left": "기본급",
+          "right": "মূল বেতন"
+        },
+        {
+          "left": "수당",
+          "right": "ভাতা"
+        },
+        {
+          "left": "공제",
+          "right": "কর্তন"
+        },
+        {
+          "left": "실수령액",
+          "right": "প্রকৃত প্রাপ্ত টাকা"
+        }
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "계약서는 내용을 확인하고 서명하는 것이 안전합니다।"
+      "explanationBn": "বেতনের বিবরণপত্রের শব্দগুলো মনে রাখা দরকার।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "다음 문장에서 알맞은 단어를 고르세요: '오늘은 ___ 때문에 야근해야 합니다.'",
-      "questionKo": "다음 문장에서 알맞은 단어를 고르세요: '오늘은 ___ 때문에 야근해야 합니다.'",
+      "type": "multiple-choice",
+      "questionBn": "নিচের কোনটি কর্তনের তালিকায় পড়ে না?",
       "options": [
-        "프로젝트",
-        "출근",
-        "휴일",
-        "연차휴가"
+        "소득세",
+        "국민연금",
+        "건강보험",
+        "상여금"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "프로젝트 때문에 야근한다는 문맥이 자연스럽습니다।"
+      "answer": 3,
+      "explanationBn": "বোনাস কর্তন নয়, প্রদানের তালিকায় থাকে।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "다음 문장에서 알맞은 단어를 고르세요: '회사에 ___ 를 제출해야 합니다.'",
-      "questionKo": "다음 문장에서 알맞은 단어를 고르세요: '회사에 ___ 를 제출해야 합니다.'",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 근로 조건에 ( ) 궁금한 게 있어요.",
       "options": [
-        "휴일",
-        "출근",
-        "야근",
-        "계약서"
+        "때문에",
+        "만큼",
+        "처럼",
+        "대해서"
       ],
-      "pairs": [],
       "answer": 3,
-      "explanationBn": "회사에 제출하는 것은 일반적으로 계약서가 맞습니다।"
+      "explanationBn": "বিষয় বোঝাতে '에 대해(서)' বসে।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "다음 문장에서 알맞은 단어를 고르세요: '근무시간 후에는 ___ 를 확인하세요.'",
-      "questionKo": "다음 문장에서 알맞은 단어를 고르세요: '근무시간 후에는 ___ 를 확인하세요.'",
+      "type": "multiple-choice",
+      "questionBn": "মূল বেতন বা ভাতার মতো, কাজের বিনিময়ে শ্রমিকদের পাওয়া টাকাকে কী বলে?",
       "options": [
-        "연차휴가",
-        "계약서",
-        "출근 기록",
-        "휴일"
+        "벌금",
+        "임금",
+        "세금",
+        "연금"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "근무시간 후에 확인할 것은 출근 기록(출퇴근 기록)이 적절합니다।"
+      "answer": 1,
+      "explanationBn": "কাজের বিনিময়ে পাওয়া টাকা হলো '임금' অর্থাৎ মজুরি। জরিমানা, কর ও পেনশন আলাদা।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "다음 단어와 뜻을 연결하세요.",
-      "questionKo": "다음 단어와 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "임금",
-          "right": "বেতন"
-        },
-        {
-          "left": "연차휴가",
-          "right": "বার্ষিক ছুটি"
-        },
-        {
-          "left": "출근",
-          "right": "কর্মস্থলে আসা"
-        },
-        {
-          "left": "야근",
-          "right": "রাত পর্যন্ত কাজ করা"
-        },
-        {
-          "left": "계약서",
-          "right": "চুক্তিপত্র"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 표준근로계약서에는 근로 장소( ) 아니라 업무 내용도 나와 있어요.",
+      "options": [
+        "뿐만",
+        "만큼",
+        "처럼",
+        "보다"
       ],
       "answer": 0,
-      "explanationBn": "좌측 단어와 오른쪽의 বাংলা 뜻을 각각 연결하면 됩니다।"
+      "explanationBn": "'뿐만 아니라' দিয়ে একাধিক বিষয় যুক্ত করা হয়।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "다음 단어와 뜻을 연결하세요.",
-      "questionKo": "다음 단어와 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "산재보험",
-          "right": "শ্রমদুর্ঘটনা বীমা"
-        },
-        {
-          "left": "고용보험",
-          "right": "নিয়োগ বীমা"
-        },
-        {
-          "left": "휴게시간",
-          "right": "বিরতির সময়"
-        },
-        {
-          "left": "해고",
-          "right": "বরখাস্ত"
-        }
+      "type": "multiple-choice",
+      "questionBn": "বছরান্তের কর ফেরত সাধারণত কোন মাসে আসে?",
+      "options": [
+        "1월",
+        "6월",
+        "2월",
+        "12월"
       ],
-      "answer": 0,
-      "explanationBn": "각 단어와 해당하는 বাংলা 뜻을 서로 연결하세요।"
+      "answer": 2,
+      "explanationBn": "বছরান্তের কর ফেরত সাধারণত ফেব্রুয়ারি মাসে আসে।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "빈칸에 들어갈 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 알맞은 말을 고르십시오.",
-      "options": [
-        "연차휴가",
-        "병가",
-        "출산휴가",
-        "조퇴"
+      "type": "matching",
+      "questionBn": "সংজ্ঞার সাথে সঠিক শব্দ মেলান।",
+      "pairs": [
+        {
+          "left": "급여에서 실제로 받는 금액",
+          "right": "실수령액"
+        },
+        {
+          "left": "세금, 보험 등 급여에서 빼는 금액",
+          "right": "공제액"
+        },
+        {
+          "left": "쉬는 날 일한 데 대해 지급되는 돈",
+          "right": "휴일 근로 수당"
+        },
+        {
+          "left": "번 돈에 대해 내야 하는 세금",
+          "right": "소득세"
+        }
       ],
-      "answer": 0,
-      "explanationBn": "개인적인 일로 쉬고 싶을 때 쓰는 휴가는 '연차휴가'입니다."
+      "explanationBn": "প্রতিটি সংজ্ঞা বেতনের বিবরণপত্রের একটি নির্দিষ্ট খাত বোঝায়।"
     },
     {
       "id": "p12",
       "type": "multiple-choice",
-      "questionBn": "빈칸에 들어갈 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 알맞은 말을 고르십시오.",
+      "questionBn": "আদর্শ শ্রম চুক্তিপত্রে কোন বিষয়টি থাকে না?",
       "options": [
-        "결근",
-        "지각",
-        "조퇴",
-        "휴직"
+        "근로 계약 기간",
+        "임금 지급일",
+        "숙식 제공 여부",
+        "회사 사장님의 나이"
       ],
-      "answer": 1,
-      "explanationBn": "회사에 늦게 도착하는 것은 '지각'입니다."
+      "answer": 3,
+      "explanationBn": "মালিকের বয়স চুক্তিপত্রে থাকে না। চুক্তির মেয়াদ, বেতনের দিন ও খাবার-থাকার তথ্য থাকে।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "빈칸에 들어갈 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 알맞은 말을 고르십시오.",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 야간이나 휴일에 일하면 추가로 ( )을 받을 수 있어요.",
       "options": [
-        "야간근로",
-        "휴게시간",
-        "근무시간",
-        "유급휴일"
+        "세금",
+        "공제",
+        "수당",
+        "부담"
       ],
       "answer": 2,
-      "explanationBn": "일하는 시간은 '근무시간'입니다."
+      "explanationBn": "অতিরিক্ত সময়ে কাজ করলে '수당' অর্থাৎ ভাতা পাওয়া যায়।"
     },
     {
       "id": "p14",
       "type": "multiple-choice",
-      "questionBn": "빈칸에 들어갈 알맞은 말을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 알맞은 말을 고르십시오.",
+      "questionBn": "'우리 회사 기숙사는 시설이 좋을 뿐만 아니라 깨끗해요.' — এই বাক্যে '뿐만 아니라' কীসের সাথে যুক্ত হয়েছে?",
       "options": [
-        "복직",
-        "휴직",
-        "병가",
-        "결근"
+        "명사",
+        "형용사",
+        "부사",
+        "조사"
       ],
-      "answer": 0,
-      "explanationBn": "쉬다가 다시 회사에 돌아와서 일하는 것은 '복직'입니다."
+      "answer": 1,
+      "explanationBn": "'좋다' বিশেষণ, তাই '-(으)ㄹ 뿐만 아니라' রূপ ব্যবহৃত হয়েছে।"
     },
     {
       "id": "p15",
       "type": "multiple-choice",
-      "questionBn": "다음 문장의 빈칸에 알맞은 말을 고르십시오.",
-      "questionKo": "다음 문장의 빈칸에 알맞은 말을 고르십시오.",
+      "questionBn": "আদর্শ শ্রম চুক্তিপত্রে চুক্তির মেয়াদ কী দিয়ে লেখা হয়?",
       "options": [
-        "하기 전에",
-        "한 후에",
-        "하면서",
-        "하면"
+        "일 수",
+        "개월 수",
+        "주 수",
+        "년 수"
       ],
-      "answer": 0,
-      "explanationBn": "퇴근하기 전에 서류를 정리해야 합니다."
+      "answer": 1,
+      "explanationBn": "চুক্তির মেয়াদ মাসের সংখ্যায় লেখা হয়।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 단어를 쓰십시오.",
-      "questionKo": "빈칸에 알맞은 단어를 쓰십시오.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 집이 회사에서 ( ) 좋겠어요.",
       "options": [
-        "먹기 전에",
-        "먹은 후에",
-        "먹으면서",
-        "먹으면"
+        "가까우면",
+        "가까운",
+        "가까울",
+        "가까워서"
       ],
-      "answer": 1,
-      "explanationBn": "밥을 먹은 후에 약을 먹어야 합니다."
+      "answer": 0,
+      "explanationBn": "'-(으)면 좋겠다' গঠনে '-(으)면' বসে। 'ㅂ' অনিয়মিত বিশেষণে '가깝다' থেকে '가까우면' হয়।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 단어를 쓰십시오.",
-      "questionKo": "빈칸에 알맞은 단어를 쓰십시오.",
-      "options": [
-        "연차",
-        "월차",
-        "병가",
-        "휴직"
+      "type": "matching",
+      "questionBn": "কাজের শর্তের সাথে ব্যাখ্যা মেলান।",
+      "pairs": [
+        {
+          "left": "수습 기간",
+          "right": "일을 배우는 기간"
+        },
+        {
+          "left": "휴게 시간",
+          "right": "일하는 중에 쉬는 시간"
+        },
+        {
+          "left": "임금 지급일",
+          "right": "월급을 받는 날"
+        },
+        {
+          "left": "근로 장소",
+          "right": "일을 하는 곳"
+        }
       ],
-      "answer": 2,
-      "explanationBn": "아파서 쉬는 것은 '병가'입니다."
+      "explanationBn": "চুক্তিপত্রের প্রতিটি শর্তের নির্দিষ্ট অর্থ আছে।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "빈칸에 알맞은 단어를 쓰십시오.",
-      "questionKo": "빈칸에 알맞은 단어를 쓰십시오.",
+      "type": "multiple-choice",
+      "questionBn": "আবাসন দেওয়া হলে চুক্তিপত্রে কী লিখতে হয়?",
       "options": [
-        "조퇴",
-        "결근",
-        "지각",
-        "휴직"
+        "숙박 시설의 주인 이름",
+        "숙박 시설의 건축 연도",
+        "숙박 시설의 색깔",
+        "숙박 시설의 유형과 근로자의 부담액"
       ],
-      "answer": 0,
-      "explanationBn": "일찍 퇴근하는 것은 '조퇴'입니다."
+      "answer": 3,
+      "explanationBn": "আবাসন দিলে তার ধরন ও শ্রমিকের বহনের পরিমাণ লিখতে হয়।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "알맞은 것끼리 연결하십시오.",
-      "questionKo": "알맞은 것끼리 연결하십시오.",
-      "pairs": [
-        {
-          "left": "연차휴가",
-          "right": "বার্ষিক ছুটি"
-        },
-        {
-          "left": "병가",
-          "right": "অসুস্থতাজনিত ছুটি"
-        },
-        {
-          "left": "출산휴가",
-          "right": "মাতৃত্বকালীন ছুটি"
-        },
-        {
-          "left": "무급휴일",
-          "right": "বেতনবিহীন ছুটি"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 이번 달에 월급이 많이 ( ) 것 같아요.",
+      "options": [
+        "들어오는",
+        "들어올",
+        "들어온",
+        "들어와"
       ],
-      "explanationBn": "단어의 뜻을 연결하는 문제입니다."
+      "answer": 2,
+      "explanationBn": "অতীতে ঘটে যাওয়া বিষয়ে অনুমান করতে '-(으)ㄴ 것 같다' বসে।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "알맞은 것끼리 연결하십시오.",
-      "questionKo": "알맞은 것끼리 연결하십시오.",
+      "questionBn": "প্রশ্নের সাথে সঠিক উত্তর মেলান।",
       "pairs": [
         {
-          "left": "지각",
-          "right": "회사에 늦게 옴"
+          "left": "월급이 언제 들어와요?",
+          "right": "표준근로계약서에서 임금 지급일을 확인하세요."
         },
         {
-          "left": "조퇴",
-          "right": "일찍 퇴근함"
+          "left": "언제까지 이 회사에서 일할 수 있어요?",
+          "right": "표준근로계약서에 있는 계약 기간을 보세요."
         },
         {
-          "left": "결근",
-          "right": "회사에 안 옴"
+          "left": "왜 월급이 적게 들어왔어요?",
+          "right": "지금 수습 기간이라서 그래요."
         },
         {
-          "left": "휴직",
-          "right": "오랫동안 쉼"
+          "left": "근로 조건은 어때요?",
+          "right": "업무 내용과 임금 모두 마음에 들어요."
         }
       ],
-      "explanationBn": "단어의 뜻을 연결하는 문제입니다."
+      "explanationBn": "প্রতিটি প্রশ্নের উত্তর চুক্তিপত্রের নির্দিষ্ট অংশে পাওয়া যায়।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
-      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
-      "passage": "김 씨는 회사에서 매일 오전 9시부터 오후 6시까지 근무합니다. 점심시간은 12시부터 1시까지입니다.",
+      "questionKo": "다음 내용과 관계있는 것을 고르십시오.",
+      "questionBn": "নিচের বাক্যের সাথে সম্পর্কিত শব্দটি বেছে নিন।",
+      "passage": "일이 익숙해질 때까지 일을 배우는 기간입니다.",
       "options": [
-        "김 씨는 오전 9시부터 오후 6시까지 근무한다.",
-        "김 씨는 점심시간에 일한다.",
-        "김 씨는 하루에 두 번 점심을 먹는다.",
-        "김 씨의 근무시간은 오후 6시부터 자정까지다."
+        "근로 시간",
+        "휴게 시간",
+        "수습 기간",
+        "계약 기간"
       ],
-      "answer": 0,
-      "explanationBn": "본문에 '오전 9시부터 오후 6시까지 근무합니다'라고 명시되어 있습니다।"
+      "answer": 2,
+      "explanationBn": "কাজে অভ্যস্ত হওয়া পর্যন্ত শেখার সময় হলো '수습 기간' অর্থাৎ শিক্ষানবিশ মেয়াদ।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
-      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
-      "passage": "연차휴가는 보통 미리 신청합니다. 인사팀에 이메일로 요청하세요.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "passage": "표준근로계약서를 쓸 때 임금뿐만 아니라 업무 ( )도 잘 확인해야 돼요.",
       "options": [
-        "인사팀은 연차를 거절할 수 없다.",
-        "연차휴가는 미리 신청해야 한다.",
-        "연차휴가는 즉석에서 승인된다.",
-        "연차는 이메일로 신청하지 못한다."
+        "시간",
+        "내용",
+        "장소",
+        "기간"
       ],
       "answer": 1,
-      "explanationBn": "본문에 '연차휴가는 보통 미리 신청합니다'라고 되어 있으므로 첫 번째가 맞습니다।"
+      "explanationBn": "মজুরির সাথে কাজের '내용' অর্থাৎ বিবরণও দেখা জরুরি।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
-      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
-      "passage": "야근 시에는 수당이 발생할 수 있습니다. 정확한 내용은 회사 규정이나 인사팀에 문의하세요.",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "questionBn": "পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "passage": "집이 회사에서 ( ) 좋겠어요.",
       "options": [
-        "야근 수당은 규정과 관계없다.",
-        "야근은 항상 무료 근무이다.",
-        "야근 수당은 회사 규정을 확인해야 한다.",
-        "야근에는 수당이 절대 없다."
+        "가까운",
+        "가까울",
+        "가까워서",
+        "가까우면"
       ],
-      "answer": 2,
-      "explanationBn": "본문에 '정확한 내용은 회사 규정이나 인사팀에 문의하세요'라고 되어 있습니다।"
+      "answer": 3,
+      "explanationBn": "'-(으)면 좋겠다' গঠনে '-(으)면' বসে। 'ㅂ' অনিয়মিত বিশেষণ '가깝다' থেকে '가까우면' হয়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
-      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
-      "passage": "계약서에 서명하기 전에 내용을 잘 읽으세요. 궁금한 점은 회사에 문의하세요.",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "questionBn": "লেখাটি পড়ে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "passage": "수습 기간은 일이 익숙해질 때까지 일을 배우는 기간입니다. 그 기간 동안에는 월급의 90%를 받게 됩니다. 기본 근로 시간뿐만 아니라 야간이나 휴일에도 일할 수 있습니다. 야간이나 휴일에 일하면 추가로 수당을 받을 수 있습니다.",
       "options": [
-        "계약서 내용은 변경할 수 없다.",
-        "서명 전에 계약서를 읽지 않아도 된다.",
-        "계약서는 항상 구두로만 한다.",
-        "서명하기 전에 계약서를 읽어야 한다."
+        "수습 기간에는 월급을 100% 받습니다.",
+        "수습 기간에는 일을 배울 수 없습니다.",
+        "기본 근로 시간에만 일할 수 있습니다.",
+        "야간이나 휴일에 일하면 수당을 받습니다."
       ],
       "answer": 3,
-      "explanationBn": "본문에 '계약서에 서명하기 전에 내용을 잘 읽으세요'라고 명시되어 있습니다।"
+      "explanationBn": "রাতে বা ছুটির দিনে কাজ করলে অতিরিক্ত ভাতা পাওয়া যায়। ৯০% বেতন, শেখা সম্ভব, আর মূল সময়ের বাইরেও কাজ হয়।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
-      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
-      "passage": "산재보험은 작업 중 사고가 발생했을 때 도움을 주는 제도입니다.",
+      "questionKo": "다음 글의 내용과 같은 것을 고르십시오.",
+      "questionBn": "লেখার সাথে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "passage": "급여 명세서에는 기본급, 수당, 상여금 등 지급 내역과 소득세, 국민연금, 건강보험, 고용보험 등 공제 내역이 나와 있습니다. 급여에서 실제로 받는 금액이 실수령액입니다.",
       "options": [
-        "산재보험은 작업 중 사고를 지원한다.",
-        "산재보험은 사무실 청소용이다.",
-        "산재보험은 여행 보험이다.",
-        "산재보험은 휴가를 주는 제도다."
+        "급여 명세서에는 공제 내역만 나와 있습니다.",
+        "실수령액은 공제액보다 적습니다.",
+        "급여 명세서에는 지급 내역과 공제 내역이 있습니다.",
+        "기본급은 공제 내역에 포함됩니다."
       ],
-      "answer": 0,
-      "explanationBn": "본문에 '작업 중 사고가 발생했을 때 도움을 주는 제도'라고 되어 있습니다।"
+      "answer": 2,
+      "explanationBn": "বেতনের বিবরণপত্রে প্রদান ও কর্তন দুটি তালিকাই থাকে। নিট বেতন কর্তনের পরের পরিমাণ, মূল বেতন প্রদানের খাত।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "다음을 듣고 질문에 답하세요.",
-      "questionKo": "다음을 듣고 질문에 답하세요.",
-      "passage": "남자: 오늘 야근 가능하세요?\n여자: 네, 오늘은 가능합니다. 수당은 인사팀에 확인해 주세요.",
+      "section": "reading",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন বিষয়ে?",
+      "passage": "기본급이나 수당과 같이 근로자들이 일을 하거나 서비스를 제공한 대가로 받는 돈입니다.",
       "options": [
-        "B는 오늘 야근이 불가능하다고 했다.",
-        "B는 오늘 야근이 가능하다고 했다.",
-        "B는 수당을 직접 계산해 주겠다고 했다.",
-        "B는 연차를 신청하겠다고 했다."
+        "벌금",
+        "세금",
+        "임금",
+        "연금"
       ],
-      "answer": 1,
-      "explanationBn": "대화에서 B가 '네, 오늘은 가능합니다'라고 말했습니다।"
+      "answer": 2,
+      "explanationBn": "কাজের বিনিময়ে পাওয়া টাকা হলো '임금' অর্থাৎ মজুরি।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "다음을 듣고 질문에 답하세요.",
-      "questionKo": "다음을 듣고 질문에 답하세요.",
-      "passage": "남자: 연차를 언제 신청해야 하나요?\n여자: 보통 미리 인사팀에 이메일로 신청합니다.",
+      "section": "reading",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "questionBn": "লেখাটি পড়ে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "passage": "표준근로계약서의 근로 시간은 1일 평균 근로 시간과 평균 시간 외 근로 시간을 적되 1주 또는 월 근로 시간으로 표시할 수 있습니다. 임금은 월 통상 임금을 적되 기본급, 고정적 수당, 상여금의 세부 내역을 포함해야 합니다.",
       "options": [
-        "인사팀은 연차를 승인하지 않는다.",
-        "연차는 당일에만 신청한다.",
-        "연차는 미리 인사팀에 이메일로 신청한다.",
-        "연차는 구두로만 신청한다."
+        "표준근로계약서에는 1일 평균 근로 시간이 제시되지 않습니다.",
+        "표준근로계약서에는 기본급, 수당, 상여금 등이 명시되어 있습니다.",
+        "표준근로계약서에는 임금의 지급 방법은 포함되지 않습니다.",
+        "표준근로계약서에는 업종과 상관없이 월 평균 근로 시간이 나와 있습니다."
       ],
-      "answer": 2,
-      "explanationBn": "대화에서 B는 '보통 미리 인사팀에 이메일로 신청합니다'라고 말했습니다।"
+      "answer": 1,
+      "explanationBn": "চুক্তিপত্রে মূল বেতন, ভাতা, বোনাস সব স্পষ্টভাবে লেখা থাকে। দৈনিক গড় সময় আছে, প্রদান পদ্ধতিও লেখা থাকে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "다음을 듣고 질문에 답하세요.",
-      "questionKo": "다음을 듣고 질문에 답하세요.",
-      "passage": "남자: 계약서에 서명하기 전에 무엇을 해야 하나요?\n여자: 서명하기 전에 내용을 잘 읽으세요.",
+      "section": "reading",
+      "questionKo": "다음 중 표준근로계약서에 포함되지 않는 내용은 무엇입니까?",
+      "questionBn": "আদর্শ শ্রম চুক্তিপত্রে যেটি থাকে না তা বেছে নিন।",
       "options": [
-        "서명 후에 계약서를 읽으라고 했다.",
-        "서명 전에 내용을 읽지 말라고 했다.",
-        "서명은 필요 없다고 했다.",
-        "서명 전에 내용을 잘 읽으라고 했다."
+        "근로 계약 기간",
+        "회사 사장님의 취미",
+        "근로 장소",
+        "숙식 제공 여부"
       ],
-      "answer": 3,
-      "explanationBn": "B는 '서명하기 전에 내용을 잘 읽으세요'라고 말했습니다।"
+      "answer": 1,
+      "explanationBn": "মালিকের শখ চুক্তিপত্রে থাকে না। চুক্তির মেয়াদ, কাজের জায়গা ও খাবার-থাকার তথ্য থাকে।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
-      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
-      "passage": "몸이 많이 아파서 회사에 갈 수 없습니다. 반장님께 전화를 해서 (   )를 신청했습니다.",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "questionBn": "পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "passage": "회사에서 직원들에게 기숙사( ) 아니라 점심 식사도 제공해 준다고 해요.",
       "options": [
-        "연차",
-        "병가",
-        "월차",
-        "휴직"
+        "만큼",
+        "처럼",
+        "보다",
+        "뿐만"
       ],
-      "answer": 1,
-      "explanationBn": "아파서 쉬는 것이므로 '병가'가 맞습니다."
+      "answer": 3,
+      "explanationBn": "'뿐만 아니라' দিয়ে একাধিক সুবিধা যুক্ত করা হয়।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
-      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
-      "passage": "오늘은 늦잠을 자서 회사에 늦게 도착했습니다. 반장님께 죄송하다고 말씀드렸습니다.",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন বিষয়ে?",
+      "passage": "세금, 보험 등 급여에서 빼는 금액입니다.",
       "options": [
-        "이 사람은 오늘 지각을 했습니다.",
-        "이 사람은 오늘 결근을 했습니다.",
-        "이 사람은 오늘 조퇴를 했습니다.",
-        "이 사람은 오늘 휴직을 했습니다."
+        "실수령액",
+        "기본급",
+        "공제액",
+        "상여금"
       ],
-      "answer": 0,
-      "explanationBn": "회사에 늦게 도착했으므로 '지각'입니다."
+      "answer": 2,
+      "explanationBn": "বেতন থেকে কর ও বীমা বাবদ কাটা টাকা হলো '공제액' অর্থাৎ কর্তন।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
-      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
-      "passage": "내일은 개인적인 일이 있어서 하루 쉬고 싶습니다. 그래서 오늘 휴가 신청서를 냈습니다.",
+      "section": "listening",
+      "questionKo": "두 사람은 무엇에 대해 말하고 있습니까?",
+      "questionBn": "দুজন কী নিয়ে কথা বলছেন?",
+      "passage": "남자: 어젯밤에 몇 시까지 일했어요?\n여자: 조금 늦게까지 했는데 10시 전에는 퇴근했어요.",
       "options": [
-        "이 사람은 내일 병가를 씁니다.",
-        "이 사람은 내일 연차를 씁니다.",
-        "이 사람은 내일 조퇴를 합니다.",
-        "이 사람은 내일 결근을 합니다."
+        "법정 근로 시간",
+        "휴일 근로 시간",
+        "연장 근로 시간",
+        "야간 근로 시간"
       ],
-      "answer": 1,
-      "explanationBn": "개인적인 일로 쉬는 것이므로 '연차'입니다."
+      "answer": 2,
+      "explanationBn": "রাতে দেরি পর্যন্ত কাজের কথা হচ্ছে, তাই '연장 근로 시간' অর্থাৎ অতিরিক্ত সময়।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
-      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
-      "passage": "오후에 갑자기 배가 너무 아팠습니다. 그래서 반장님께 허락을 받고 일찍 집에 갔습니다.",
+      "section": "listening",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "questionBn": "শোনা কথার সাথে মিল আছে এমন বাক্য কোনটি?",
+      "passage": "남자: 표준근로계약서는 잘 확인해 봤어요?\n여자: 네, 근로 조건이 좋은 것 같아요. 업무 내용과 임금 모두 마음에 들어요.\n남자: 기숙사도 제공해 준다고 해요?\n여자: 아니요. 그래서 좀 걱정이에요.",
       "options": [
-        "이 사람은 오늘 지각을 했습니다.",
-        "이 사람은 오늘 결근을 했습니다.",
-        "이 사람은 오늘 조퇴를 했습니다.",
-        "이 사람은 오늘 휴직을 했습니다."
+        "여자는 근로 조건을 마음에 들어 합니다.",
+        "여자는 표준근로계약서를 작성했습니다.",
+        "남자는 임금을 적게 받을까 봐 걱정하고 있습니다.",
+        "남자가 계약한 회사에서 기숙사를 제공해 주지 않습니다."
       ],
-      "answer": 2,
-      "explanationBn": "일찍 집에 갔으므로 '조퇴'입니다."
+      "answer": 0,
+      "explanationBn": "মহিলা কাজের শর্ত পছন্দ করেছেন বলেছেন। আবাসন না দেওয়ায় তিনি চিন্তিত।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "다음을 읽고 알맞은 보기를 고르세요.",
-      "questionKo": "다음을 읽고 알맞은 보기를 고르세요.",
-      "passage": "우리 회사는 일요일에 쉬지만 월급이 나옵니다. 일요일은 (   )입니다.",
+      "section": "listening",
+      "questionKo": "여자는 왜 월급을 많이 받았습니까?",
+      "questionBn": "মহিলা কেন বেশি বেতন পেয়েছেন?",
+      "passage": "남자: 이번 달 월급 들어왔지요?\n여자: 네. 그런데 지난달보다 많이 들어왔어요.\n남자: 곧 추석이라 상여금이 나와서 그럴 거예요.",
       "options": [
-        "무급휴일",
-        "유급휴일",
-        "근무시간",
-        "휴게시간"
+        "상여금을 받아서",
+        "세금이 줄어서",
+        "수당이 들어와서",
+        "기본급이 올라서"
       ],
-      "answer": 1,
-      "explanationBn": "쉬지만 월급이 나오는 날은 '유급휴일'입니다."
+      "answer": 0,
+      "explanationBn": "ছুটির উৎসবে বোনাস এসেছে বলে বেতন বেশি হয়েছে।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 질문에 답하세요.",
-      "questionKo": "다음을 듣고 질문에 답하세요.",
-      "passage": "남자: 리한 씨, 왜 이렇게 늦었어요?\n여자: 죄송합니다. 버스를 놓쳐서 지각했습니다.",
+      "questionKo": "남자가 이어서 할 행동은 무엇입니까?",
+      "questionBn": "পুরুষটি এরপর কী করবেন?",
+      "passage": "여자: 회사와 계약을 연장해서 한국에서 계속 일할 수 있을 것 같아요.\n남자: 그래요? 축하해요. 저도 한국에서 계속 일할 수 있으면 좋겠어요.",
       "options": [
-        "리한 씨는 오늘 결근했습니다.",
-        "리한 씨는 오늘 조퇴했습니다.",
-        "리한 씨는 오늘 지각했습니다.",
-        "리한 씨는 오늘 휴직했습니다."
+        "한국에서 계속 일하기를 바랍니다.",
+        "계약을 연장합니다.",
+        "회사를 그만둡니다.",
+        "고향으로 돌아갑니다."
       ],
-      "answer": 2,
-      "explanationBn": "대화에서 리한 씨가 '지각했습니다'라고 말했습니다."
+      "answer": 0,
+      "explanationBn": "পুরুষটি শেষে বলেছেন তিনিও কোরিয়ায় কাজ চালিয়ে যেতে চান। এটা তার আশা।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 질문에 답하세요.",
-      "questionKo": "다음을 듣고 질문에 답하세요.",
-      "passage": "남자: 반장님, 몸이 안 좋아서 오늘 병가를 쓰고 싶습니다.\n여자: 그래요? 그럼 푹 쉬고 내일 뵙겠습니다.",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে পরবর্তী সবচেয়ে উপযুক্ত বাক্যটি বেছে নিন।",
+      "passage": "남자: 생활비가 떨어졌어요.\n여자: 그래요? 그럼 월급날이 빨리 오면 좋겠네요.",
       "options": [
-        "남자는 오늘 연차를 씁니다.",
-        "남자는 오늘 병가를 씁니다.",
-        "남자는 오늘 조퇴를 합니다.",
-        "남자는 오늘 결근을 합니다."
+        "네, 저도 그랬으면 좋겠어요.",
+        "네, 월급날이 지났어요.",
+        "아니요, 생활비가 많이 남았어요.",
+        "아니요, 월급을 적게 받았어요."
       ],
-      "answer": 1,
-      "explanationBn": "대화에서 남자가 '병가를 쓰고 싶습니다'라고 말했습니다."
+      "answer": 0,
+      "explanationBn": "মহিলার আশার সাথে সহমত জানানো স্বাভাবিক। বাকি উত্তরগুলো প্রসঙ্গবহির্ভূত।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 질문에 답하세요.",
-      "questionKo": "다음을 듣고 질문에 답하세요.",
-      "passage": "남자: 수루 씨, 내일은 유급휴일이니까 회사에 안 나와도 돼요.\n여자: 네, 알겠습니다. 감사합니다.",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে পরবর্তী সবচেয়ে উপযুক্ত বাক্যটি বেছে নিন।",
+      "passage": "여자: 이번 달에 월급이 많이 들어왔거든요.\n남자: 좋겠어요. 나도 월급을 많이 받으면 좋겠어요.",
       "options": [
-        "내일은 무급휴일입니다.",
-        "내일은 유급휴일입니다.",
-        "내일은 근무일입니다.",
-        "내일은 야간근로를 합니다."
+        "그럼 월급을 적게 받게 되겠어요.",
+        "그럼 고향에 돈을 더 많이 보낼 수 있겠어요.",
+        "그럼 이번 달에는 일을 안 하겠어요.",
+        "그럼 수습 기간이 끝났겠어요."
       ],
       "answer": 1,
-      "explanationBn": "대화에서 A가 '내일은 유급휴일이니까'라고 말했습니다."
+      "explanationBn": "বেতন বেশি এলে দেশে বেশি টাকা পাঠানোর সম্ভাবনা প্রকাশ করা সঙ্গত।"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "chapter": 60,
   "slug": "employment-insurance",
   "title": {
-    "ko": "고용보험",
+    "ko": "근로자 보험",
     "bn": "কর্মসংস্থান ও শ্রমিক বীমা",
     "en": "Employment Insurance"
   },
@@ -10,668 +10,700 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কর্মসংস্থান বীমা সম্পর্কিত সাধারণ শব্দভাণ্ডার শেখা ও ব্যবহার করা।",
-      "দৈনন্দিন কর্মস্থলে বীমা সম্পর্কিত সহজ প্রশ্ন এবং উত্তর করতে পারা।",
-      "প申লিক আবেদন ও নথি জমা দেওয়ার সহজ বাক্যগুলো বোঝা ও তৈরি করা।"
+      "যে বীমায় যোগ দেওয়া হয়েছে তার বীমার টাকা নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "বিদেশি শ্রমিক সংক্রান্ত বীমা নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "'-는 바람에' দিয়ে অনাকাঙ্ক্ষিত ফলের কারণ বোঝাতে পারা",
+      "'-(으)려면' দিয়ে কোনো কিছু করতে চাইলে কী প্রয়োজন তা বলতে পারা"
     ],
     "en": [
-      "Learn and use basic vocabulary related to employment insurance.",
-      "Ask and answer simple workplace questions about insurance.",
-      "Understand and form basic sentences for applications and document submissions."
+      "Can ask and answer questions about the benefits of insurance one has signed up for",
+      "Can ask and answer questions about insurance for foreign workers",
+      "Can express the cause of an unexpected outcome using -는 바람에",
+      "Can state what is needed to do something using -(으)려면"
     ]
   },
   "vocabulary": [
     {
-      "ko": "고용보험",
-      "romanization": "goyong boheom",
-      "bn": "কর্মসংস্থান বীমা",
-      "en": "employment insurance",
+      "ko": "보험",
+      "romanization": "boheom",
+      "bn": "বীমা",
+      "en": "insurance",
       "pos": "noun",
       "example": {
-        "ko": "한국에서는 고용보험에 가입하면 실업급여를 받을 수 있어요.",
-        "bn": "দক্ষিণ কোরিয়ায় কর্মসংস্থান বীমা 가입 করলে बेरোজগার ভাতা পাওয়া যেতে পারে।",
-        "en": "In Korea, if you enroll in employment insurance you can receive unemployment benefits."
+        "ko": "외국인 근로자도 여러 보험에 가입해야 해요.",
+        "bn": "বিদেশি শ্রমিকদেরও বিভিন্ন বীমায় যোগ দিতে হয়।",
+        "en": "Foreign workers must also enroll in several insurances."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'험' এর 'ㅁ' ঠোঁট বন্ধ করে [보험]।"
     },
     {
-      "ko": "실업급여",
-      "romanization": "sileop geubyeo",
-      "bn": "বেকারত্ব ভাতা",
-      "en": "unemployment benefit",
-      "pos": "noun",
+      "ko": "보험에 가입하다",
+      "romanization": "boheome gaiphada",
+      "bn": "বীমায় যোগ দেওয়া",
+      "en": "to sign up for insurance",
+      "pos": "phrase",
       "example": {
-        "ko": "실업급여는 실직 후에 일정 요건을 충족하면 신청합니다.",
-        "bn": "বেকারত্ব ভাতা চাকরি কাটা পরে নির্দিষ্ট শর্ত পূরণ করলে আবেদন করা হয়।",
-        "en": "Unemployment benefits are applied for after job loss if certain conditions are met."
+        "ko": "귀국비용보험에 가입했습니다.",
+        "bn": "দেশে ফেরার খরচের বীমায় যোগ দিয়েছি।",
+        "en": "I signed up for Return Cost Insurance."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "가입하다",
-      "romanization": "gaip hada",
-      "bn": "সাবস্ক্রাইব/যোগদান করা",
-      "en": "to enroll / join",
-      "pos": "verb",
-      "example": {
-        "ko": "회사에서 고용보험에 가입해 주나요?",
-        "bn": "কোম্পানি কি আমাকে কর্মসংস্থান বীমায় যোগদানের ব্যবস্থা করে?",
-        "en": "Does the company enroll me in employment insurance?"
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'입' এর 'ㅂ' আর 'ㅎ' মিলে [가이파다] হয়।"
     },
     {
       "ko": "보험료",
-      "romanization": "boheomryo",
-      "bn": "বীমা প্রিমিয়াম",
+      "romanization": "boheomnyo",
+      "bn": "বীমার প্রিমিয়াম",
       "en": "insurance premium",
       "pos": "noun",
       "example": {
-        "ko": "보험료는 월급에서 자동으로 공제될 수 있어요.",
-        "bn": "বীমার প্রিমিয়াম বেতন থেকে স্বয়ংক্রিয়ভাবে কাটা হতে পারে।",
-        "en": "The premium may be automatically deducted from your salary."
+        "ko": "보험료는 세 번으로 나누어 낼 수 있어요.",
+        "bn": "বীমার প্রিমিয়াম তিন কিস্তিতে দেওয়া যায়।",
+        "en": "You can pay the premium in three installments."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'험' এর 'ㅁ' এর পরে 'ㄹ' এলে [보험뇨] হয়।"
     },
     {
-      "ko": "근로자",
-      "romanization": "geunroja",
-      "bn": "কর্মী",
-      "en": "worker / employee",
+      "ko": "보험금",
+      "romanization": "boheomgeum",
+      "bn": "বীমার টাকা",
+      "en": "insurance benefit",
       "pos": "noun",
       "example": {
-        "ko": "근로자는 일정 기간 보험료를 내야 자격이 생깁니다.",
-        "bn": "কর্মীকে নির্দিষ্ট সময় বীমা প্রিমিয়াম প্রদান করতে হয় যাতে যোগ্যতা তৈরি হয়।",
-        "en": "An employee must pay premiums for a certain period to be eligible."
+        "ko": "산재보험금을 받을 수 있어요.",
+        "bn": "শিল্প দুর্ঘটনা বীমার টাকা পাওয়া যায়।",
+        "en": "You can receive industrial accident insurance benefits."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'험' এর 'ㅁ' এর পরে 'ㄱ' এলে [보험끔] শক্ত হয়।"
+    },
+    {
+      "ko": "보험금을 청구하다",
+      "romanization": "boheomgeumeul cheongguhada",
+      "bn": "বীমার টাকা দাবি করা",
+      "en": "to claim insurance benefits",
+      "pos": "phrase",
+      "example": {
+        "ko": "서류를 준비해서 보험금을 청구하려고 합니다.",
+        "bn": "কাগজপত্র প্রস্তুত করে বীমার টাকা দাবি করতে চাই।",
+        "en": "I plan to prepare documents and claim the insurance benefits."
+      },
+      "pronunciationTipBn": "'청' এর 'ㅇ' নাসিক্য, [청구하다]।"
+    },
+    {
+      "ko": "지급 심사",
+      "romanization": "jigeup simsa",
+      "bn": "প্রদানের যাচাই",
+      "en": "payment review",
+      "pos": "noun",
+      "example": {
+        "ko": "먼저 지급 심사를 받아야 해요.",
+        "bn": "প্রথমে প্রদানের যাচাই করাতে হয়।",
+        "en": "You must first go through the payment review."
+      },
+      "pronunciationTipBn": "'심사' এর 'ㅁ' এর পরে 'ㅅ' এলে [심싸] শক্ত হয়।"
+    },
+    {
+      "ko": "4대 사회보험",
+      "romanization": "sadae sahoeboheom",
+      "bn": "চার প্রধান সামাজিক বীমা",
+      "en": "Four Major Social Insurances",
+      "pos": "noun",
+      "example": {
+        "ko": "모든 근로자는 4대 사회보험에 가입합니다.",
+        "bn": "সব শ্রমিক চার প্রধান সামাজিক বীমায় যোগ দেন।",
+        "en": "All workers enroll in the Four Major Social Insurances."
+      },
+      "pronunciationTipBn": "'회' ঠোঁট গোল করে [사회] বলুন।"
+    },
+    {
+      "ko": "산재보험",
+      "romanization": "sanjaeboheom",
+      "bn": "শিল্প দুর্ঘটনা বীমা",
+      "en": "Industrial Accident Compensation Insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "산재보험은 고용주가 반드시 가입해야 돼요.",
+        "bn": "শিল্প দুর্ঘটনা বীমায় নিয়োগকর্তাকে অবশ্যই যোগ দিতে হয়।",
+        "en": "The employer must sign up for industrial accident insurance."
+      },
+      "pronunciationTipBn": "'산' এর 'ㄴ' নাসিক্য, [산재보험]।"
+    },
+    {
+      "ko": "휴업 급여",
+      "romanization": "hyueop geubyeo",
+      "bn": "কাজ বন্ধকালীন ভাতা",
+      "en": "temporary layoff benefits",
+      "pos": "noun",
+      "example": {
+        "ko": "일을 못 해도 휴업 급여를 받을 수 있어요.",
+        "bn": "কাজ করতে না পারলেও কাজ বন্ধকালীন ভাতা পাওয়া যায়।",
+        "en": "You can receive layoff benefits even if you cannot work."
+      },
+      "pronunciationTipBn": "'급여' এর 'ㅂ' পরের স্বরে গিয়ে [그벼] হয়।"
+    },
+    {
+      "ko": "장해 보상금",
+      "romanization": "janghae bosanggeum",
+      "bn": "অক্ষমতার ক্ষতিপূরণ",
+      "en": "disability compensation",
+      "pos": "noun",
+      "example": {
+        "ko": "장해 보상금을 받으려면 진단서를 제출하세요.",
+        "bn": "অক্ষমতার ক্ষতিপূরণ পেতে হলে ডাক্তারি সনদ জমা দিন।",
+        "en": "Submit a medical certificate to receive disability compensation."
+      },
+      "pronunciationTipBn": "'상' এর 'ㅇ' এর পরে 'ㄱ' এলে [보상끔] শক্ত হয়।"
+    },
+    {
+      "ko": "의료비",
+      "romanization": "uiryobi",
+      "bn": "চিকিৎসা খরচ",
+      "en": "medical expenses",
+      "pos": "noun",
+      "example": {
+        "ko": "건강보험으로 의료비 혜택을 받을 수 있어요.",
+        "bn": "স্বাস্থ্য বীমা দিয়ে চিকিৎসা খরচের সুবিধা পাওয়া যায়।",
+        "en": "You can receive medical expense benefits through health insurance."
+      },
+      "pronunciationTipBn": "'료' জিভ তালুতে ঠেকিয়ে [의료비] বলুন।"
+    },
+    {
+      "ko": "병원비",
+      "romanization": "byeongwonbi",
+      "bn": "হাসপাতালের খরচ",
+      "en": "hospital bills",
+      "pos": "noun",
+      "example": {
+        "ko": "병원비가 많이 나올까 봐 걱정해요.",
+        "bn": "হাসপাতালের খরচ বেশি হবে ভেবে চিন্তিত।",
+        "en": "I am worried the hospital bills will be high."
+      },
+      "pronunciationTipBn": "'병' এর 'ㅇ' নাসিক্য, [병원비]।"
+    },
+    {
+      "ko": "입원하다",
+      "romanization": "ibwonhada",
+      "bn": "হাসপাতালে ভর্তি হওয়া",
+      "en": "to be hospitalized",
+      "pos": "verb",
+      "example": {
+        "ko": "다리를 다치는 바람에 입원했어요.",
+        "bn": "পায়ে আঘাত পাওয়ার কারণে হাসপাতালে ভর্তি হয়েছি।",
+        "en": "I was hospitalized because I injured my leg."
+      },
+      "pronunciationTipBn": "'입' এর 'ㅂ' পরের স্বরে গিয়ে [이붠하다] হয়।"
+    },
+    {
+      "ko": "혜택",
+      "romanization": "hyetaek",
+      "bn": "সুবিধা",
+      "en": "benefit",
+      "pos": "noun",
+      "example": {
+        "ko": "보험 혜택을 받을 수 있어요.",
+        "bn": "বীমার সুবিধা পাওয়া যায়।",
+        "en": "You can receive insurance benefits."
+      },
+      "pronunciationTipBn": "'혜' ঠোঁট ছড়িয়ে [혜택] বলুন।"
+    },
+    {
+      "ko": "출국만기보험",
+      "romanization": "chulgungmangiboheom",
+      "bn": "দেশত্যাগকালীন বীমা",
+      "en": "Departure Guarantee Insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "출국만기보험은 사업주가 가입하는 보험이에요.",
+        "bn": "দেশত্যাগকালীন বীমায় নিয়োগকর্তা যোগ দেন।",
+        "en": "Departure Guarantee Insurance is signed up for by the employer."
+      },
+      "pronunciationTipBn": "'국' এর 'ㄱ' এর পরে 'ㅁ' এলে [출궁만기] নাসিক্য হয়।"
+    },
+    {
+      "ko": "귀국비용보험",
+      "romanization": "gwigukbiyongboheom",
+      "bn": "দেশে ফেরার খরচের বীমা",
+      "en": "Return Cost Insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "외국인 근로자는 귀국비용보험에 가입해야 돼요.",
+        "bn": "বিদেশি শ্রমিককে দেশে ফেরার খরচের বীমায় যোগ দিতে হয়।",
+        "en": "Foreign workers must sign up for Return Cost Insurance."
+      },
+      "pronunciationTipBn": "'국' এর 'ㄱ' এর পরে 'ㅂ' এলে [귀국삐용] শক্ত হয়।"
+    },
+    {
+      "ko": "임금체불보증보험",
+      "romanization": "imgeumchebulbojeungboheom",
+      "bn": "বকেয়া মজুরির নিশ্চয়তা বীমা",
+      "en": "Pay Guarantee Insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "임금체불보증보험금을 신청하고 왔습니다.",
+        "bn": "বকেয়া মজুরির নিশ্চয়তা বীমার টাকার আবেদন করে এসেছি।",
+        "en": "I applied for Pay Guarantee Insurance benefits."
+      },
+      "pronunciationTipBn": "'체불' এর 'ㅂ' চাপা, [체불보증]।"
+    },
+    {
+      "ko": "상해보험",
+      "romanization": "sanghaeboheom",
+      "bn": "দুর্ঘটনাজনিত আঘাতের বীমা",
+      "en": "Personal Injury Insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "상해보험에 가입해 놓아서 걱정 안 해요.",
+        "bn": "আঘাতের বীমায় যোগ দেওয়ায় চিন্তা করি না।",
+        "en": "I do not worry because I signed up for injury insurance."
+      },
+      "pronunciationTipBn": "'상' এর 'ㅇ' নাসিক্য, [상해보험]।"
+    },
+    {
+      "ko": "국민연금",
+      "romanization": "gukminnyeonggeum",
+      "bn": "জাতীয় পেনশন",
+      "en": "National Pension",
+      "pos": "noun",
+      "example": {
+        "ko": "국민연금은 사업주와 근로자가 같이 가입해요.",
+        "bn": "জাতীয় পেনশনে নিয়োগকর্তা ও শ্রমিক উভয়ে যোগ দেন।",
+        "en": "Both the employer and worker enroll in National Pension."
+      },
+      "pronunciationTipBn": "'국' এর 'ㄱ' এর পরে 'ㅁ' এলে [궁민] নাসিক্য হয়।"
+    },
+    {
+      "ko": "건강보험",
+      "romanization": "geonggangboheom",
+      "bn": "স্বাস্থ্য বীমা",
+      "en": "Health Insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "건강보험에 가입하면 의료비 혜택을 받아요.",
+        "bn": "স্বাস্থ্য বীমায় যোগ দিলে চিকিৎসা খরচের সুবিধা পাওয়া যায়।",
+        "en": "If you enroll in Health Insurance, you receive medical expense benefits."
+      },
+      "pronunciationTipBn": "'강' এর 'ㅇ' নাসিক্য, [건강보험]।"
+    },
+    {
+      "ko": "고용보험",
+      "romanization": "goyongboheom",
+      "bn": "কর্মসংস্থান বীমা",
+      "en": "Employment Insurance",
+      "pos": "noun",
+      "example": {
+        "ko": "고용보험은 실직했을 때 도움이 돼요.",
+        "bn": "কর্মসংস্থান বীমা চাকরি হারালে সাহায্য করে।",
+        "en": "Employment Insurance helps when you lose your job."
+      },
+      "pronunciationTipBn": "'용' এর 'ㅇ' নাসিক্য, [고용보험]।"
+    },
+    {
+      "ko": "퇴직금",
+      "romanization": "toejikgeum",
+      "bn": "অবসরকালীন টাকা",
+      "en": "severance pay",
+      "pos": "noun",
+      "example": {
+        "ko": "일 년 이상 일하면 퇴직금을 받을 수 있어요.",
+        "bn": "এক বছরের বেশি কাজ করলে অবসরকালীন টাকা পাওয়া যায়।",
+        "en": "If you work more than a year, you can receive severance pay."
+      },
+      "pronunciationTipBn": "'직' এর 'ㄱ' এর পরে 'ㄱ' এলে [퇴직끔] শক্ত হয়।"
+    },
+    {
+      "ko": "체불 임금",
+      "romanization": "chebul imgeum",
+      "bn": "বকেয়া মজুরি",
+      "en": "unpaid wages",
+      "pos": "noun",
+      "example": {
+        "ko": "체불 임금이 있으면 고용노동부에 신고하세요.",
+        "bn": "বকেয়া মজুরি থাকলে শ্রম কার্যালয়ে খবর দিন।",
+        "en": "If there are unpaid wages, report to the labor office."
+      },
+      "pronunciationTipBn": "'불' এর 'ㄹ' পরের স্বরে গিয়ে [체부림금] হয়।"
+    },
+    {
+      "ko": "진단서",
+      "romanization": "jindanseo",
+      "bn": "ডাক্তারি সনদ",
+      "en": "medical certificate",
+      "pos": "noun",
+      "example": {
+        "ko": "보험금을 받으려면 진단서를 제출해야 해요.",
+        "bn": "বীমার টাকা পেতে হলে ডাক্তারি সনদ জমা দিতে হয়।",
+        "en": "You must submit a medical certificate to receive insurance benefits."
+      },
+      "pronunciationTipBn": "'진' এর 'ㄴ' নাসিক্য, [진단서]।"
+    },
+    {
+      "ko": "일시금",
+      "romanization": "ilsigeum",
+      "bn": "এককালীন পরিশোধ",
+      "en": "lump sum",
+      "pos": "noun",
+      "example": {
+        "ko": "보험료를 일시금으로 낼 수 있어요.",
+        "bn": "বীমার প্রিমিয়াম একবারে দেওয়া যায়।",
+        "en": "You can pay the premium in a lump sum."
+      },
+      "pronunciationTipBn": "'시' জিভ সামনে রেখে [일시금] বলুন।"
+    },
+    {
+      "ko": "다치다",
+      "romanization": "dachida",
+      "bn": "আহত হওয়া",
+      "en": "to be injured",
+      "pos": "verb",
+      "example": {
+        "ko": "작업하다가 손을 다쳤어요.",
+        "bn": "কাজ করতে গিয়ে হাতে আঘাত পেয়েছি।",
+        "en": "I injured my hand while working."
+      },
+      "pronunciationTipBn": "'치' জিভ সামনে রেখে [다치다] বলুন।"
+    },
+    {
+      "ko": "넘어지다",
+      "romanization": "neomeojida",
+      "bn": "পড়ে যাওয়া",
+      "en": "to fall down",
+      "pos": "verb",
+      "example": {
+        "ko": "계단에서 넘어지는 바람에 다리를 다쳤어요.",
+        "bn": "সিঁড়িতে পড়ে যাওয়ার কারণে পায়ে আঘাত পেয়েছি।",
+        "en": "I injured my leg because I fell down the stairs."
+      },
+      "pronunciationTipBn": "'넘' এর 'ㅁ' নাসিক্য, [넘어지다]।"
+    },
+    {
+      "ko": "사고를 당하다",
+      "romanization": "sagoreul danghada",
+      "bn": "দুর্ঘটনার শিকার হওয়া",
+      "en": "to have an accident",
+      "pos": "phrase",
+      "example": {
+        "ko": "친구가 작업하다가 사고를 당했어요.",
+        "bn": "বন্ধু কাজ করতে গিয়ে দুর্ঘটনার শিকার হয়েছেন।",
+        "en": "My friend had an accident while working."
+      },
+      "pronunciationTipBn": "'당' এর 'ㅇ' নাসিক্য, [당하다]।"
+    },
+    {
+      "ko": "고장이 나다",
+      "romanization": "gojangi nada",
+      "bn": "নষ্ট হয়ে যাওয়া",
+      "en": "to break down",
+      "pos": "phrase",
+      "example": {
+        "ko": "기계가 고장이 나는 바람에 늦게 퇴근했어요.",
+        "bn": "মেশিন নষ্ট হয়ে যাওয়ায় দেরিতে কাজ শেষ করেছি।",
+        "en": "I left work late because the machine broke down."
+      },
+      "pronunciationTipBn": "'장' এর 'ㅇ' নাসিক্য, [고장이]।"
+    },
+    {
+      "ko": "체하다",
+      "romanization": "chehada",
+      "bn": "বদহজম হওয়া",
+      "en": "to have indigestion",
+      "pos": "verb",
+      "example": {
+        "ko": "밥을 너무 빨리 먹는 바람에 체한 것 같아요.",
+        "bn": "খুব দ্রুত খাওয়ার কারণে বদহজম হয়েছে মনে হয়।",
+        "en": "I think I got indigestion because I ate too fast."
+      },
+      "pronunciationTipBn": "'체' মুখ একটু খুলে [체하다] বলুন।"
+    },
+    {
+      "ko": "질병",
+      "romanization": "jilbyeong",
+      "bn": "রোগ",
+      "en": "illness, disease",
+      "pos": "noun",
+      "example": {
+        "ko": "질병으로 발생하는 의료비를 지원해요.",
+        "bn": "রোগের কারণে হওয়া চিকিৎসা খরচে সহায়তা দেওয়া হয়।",
+        "en": "Medical expenses arising from illness are supported."
+      },
+      "pronunciationTipBn": "'질' এর 'ㄹ' এর পরে 'ㅂ' এলে [질뼝] শক্ত হয়।"
+    },
+    {
+      "ko": "재해",
+      "romanization": "jaehae",
+      "bn": "দুর্যোগ, দুর্ঘটনা",
+      "en": "disaster, accident",
+      "pos": "noun",
+      "example": {
+        "ko": "업무상 재해는 산재보험으로 보상받아요.",
+        "bn": "কাজের সময়ের দুর্ঘটনা শিল্প দুর্ঘটনা বীমা দিয়ে ক্ষতিপূরণ পায়।",
+        "en": "Work-related accidents are compensated by industrial accident insurance."
+      },
+      "pronunciationTipBn": "দুটি স্বর আলাদা করে [재해] বলুন।"
     },
     {
       "ko": "사업주",
       "romanization": "saeopju",
-      "bn": "কর্মসংস্থাপকের পক্ষ / মালিক",
-      "en": "employer",
+      "bn": "মালিক, নিয়োগকর্তা",
+      "en": "employer, business owner",
       "pos": "noun",
       "example": {
-        "ko": "사업주는 직원의 보험 가입을 도와야 합니다.",
-        "bn": "কাজদাতা কর্মচারীদের বীমায় যোগদানে সহায়তা করতে হয়।",
-        "en": "The employer should help enroll employees in insurance."
+        "ko": "산재보험은 사업주만 가입하면 돼요.",
+        "bn": "শিল্প দুর্ঘটনা বীমায় শুধু মালিক যোগ দিলেই হয়।",
+        "en": "Only the employer needs to sign up for industrial accident insurance."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'업' এর 'ㅂ' এর পরে 'ㅈ' এলে [사업쭈] শক্ত হয়।"
     },
     {
-      "ko": "실업",
-      "romanization": "sileop",
-      "bn": "বেকারত্ব",
-      "en": "unemployment",
+      "ko": "출국예정사실 확인서",
+      "romanization": "chulgugyejeongsasil hwaginseo",
+      "bn": "দেশত্যাগের পরিকল্পনার প্রত্যয়নপত্র",
+      "en": "certificate of expected departure",
       "pos": "noun",
       "example": {
-        "ko": "실업 상태일 때 실업급여를 신청할 수 있습니다.",
-        "bn": "বেকারত্ব অবস্থায় আপনি বেকারত্ব ভাতা আবেদন করতে পারবেন।",
-        "en": "When unemployed, you can apply for unemployment benefits."
+        "ko": "귀국비용보험금을 받으려면 출국예정사실 확인서가 필요해요.",
+        "bn": "দেশে ফেরার খরচের বীমার টাকা পেতে দেশত্যাগের প্রত্যয়নপত্র লাগে।",
+        "en": "You need a certificate of expected departure to receive Return Cost Insurance benefits."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
+      "pronunciationTipBn": "'정' এর 'ㅇ' নাসিক্য, [예정사실]।"
     },
     {
-      "ko": "이직",
-      "romanization": "ijik",
-      "bn": "চাকরি পরিবর্তন",
-      "en": "job change / job transfer",
-      "pos": "noun",
+      "ko": "부담 없다",
+      "romanization": "budam eopda",
+      "bn": "বোঝা না থাকা",
+      "en": "to be burden-free",
+      "pos": "adjective",
       "example": {
-        "ko": "이직 후에도 이전 근무 기간이 인정될 수 있어요.",
-        "bn": "চাকরি পরিবর্তনের পরে পূর্বের কাজের সময়ও গণ্য হতে পারে।",
-        "en": "After changing jobs, previous work periods may still count."
+        "ko": "부담 없이 고향에 돌아갈 수 있어요.",
+        "bn": "কোনো বোঝা ছাড়াই দেশে ফিরতে পারবেন।",
+        "en": "You can return home without any burden."
       },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "퇴직",
-      "romanization": "toejik",
-      "bn": "পদত্যাগ/অবসর",
-      "en": "resignation / retirement",
-      "pos": "noun",
-      "example": {
-        "ko": "퇴직 후 실업인정을 받아야 실업급여를 받을 수 있어요.",
-        "bn": "পদত্যাগের পরে বেকারত্ব স্বীকৃতি নিতে হবে যাতে ভাতা পাওয়া যায়।",
-        "en": "After resignation, you must receive unemployment recognition to get benefits."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "자격조건",
-      "romanization": "jagyeokjogeon",
-      "bn": "যোগ্যতার শর্ত",
-      "en": "eligibility requirements",
-      "pos": "noun",
-      "example": {
-        "ko": "실업급여의 자격조건은 근로 기간 등으로 결정됩니다.",
-        "bn": "বেকারত্ব ভাতার যোগ্যতা শর্ত কাজের সময় ইত্যাদির উপর নির্ভর করে।",
-        "en": "Eligibility for unemployment benefits depends on working periods, etc."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "신청서",
-      "romanization": "sincheongseo",
-      "bn": "আবেদনপত্র",
-      "en": "application form",
-      "pos": "noun",
-      "example": {
-        "ko": "신청서에 인적사항을 정확히 적으세요.",
-        "bn": "আবেদনপত্রে আপনার ব্যক্তিগত তথ্য সঠিকভাবে লিখুন।",
-        "en": "Fill in your personal details accurately on the application form."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "제출하다",
-      "romanization": "jechulhada",
-      "bn": "জমা দেওয়া",
-      "en": "to submit",
-      "pos": "verb",
-      "example": {
-        "ko": "증빙서류를 함께 제출하세요.",
-        "bn": "সহায়ক কাগজপত্রও সঙ্গে জমা দিন।",
-        "en": "Please submit the supporting documents together."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "심사",
-      "romanization": "simsa",
-      "bn": "পরীক্ষা/পর্যালোচনা",
-      "en": "review / assessment",
-      "pos": "noun",
-      "example": {
-        "ko": "심사 결과는 며칠 내에 통보됩니다.",
-        "bn": "পর্যালোচনার ফলাফল কয়েক দিনের মধ্যে জানানো হবে।",
-        "en": "The review result will be notified within a few days."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "상담",
-      "romanization": "sangdam",
-      "bn": "পরামর্শ",
-      "en": "consultation / counseling",
-      "pos": "noun",
-      "example": {
-        "ko": "고용센터에서 상담을 받아 보세요.",
-        "bn": "নিয়োগ কেন্দ্র থেকে পরামর্শ নিন।",
-        "en": "Try getting a consultation at the employment center."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "증빙서류",
-      "romanization": "jeungbing seoryu",
-      "bn": "প্রমাণ কাগজপত্র",
-      "en": "supporting documents",
-      "pos": "noun",
-      "example": {
-        "ko": "증빙서류로 급여명세서를 준비하세요.",
-        "bn": "প্রমাণ হিসেবে বেতন স্লিপ প্রস্তুত করুন।",
-        "en": "Prepare payslips as supporting documents."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "수급자",
-      "romanization": "sugeupja",
-      "bn": "ভাতা গ্রাহক",
-      "en": "benefit recipient",
-      "pos": "noun",
-      "example": {
-        "ko": "수급자는 실업인정을 받아야 합니다.",
-        "bn": "ভাতা গ্রাহককে বেকারত্ব স্বীকৃতি নিতে হয়।",
-        "en": "A recipient must get unemployment recognition."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "실업인정",
-      "romanization": "sileop injeong",
-      "bn": "বেকারত্ব স্বীকৃতি",
-      "en": "unemployment recognition",
-      "pos": "noun",
-      "example": {
-        "ko": "구직활동 기록을 제출해야 실업인정을 받을 수 있어요.",
-        "bn": "চাকরি খোঁজার কার্যক্রমের রেকর্ড জমা দিলে বেকারত্ব স্বীকৃতি পাওয়া যায়।",
-        "en": "You can get unemployment recognition by submitting job-seeking activity records."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "주소지",
-      "romanization": "jusoji",
-      "bn": "ঠিকানার স্থান",
-      "en": "residence address",
-      "pos": "noun",
-      "example": {
-        "ko": "주소지를 증명할 수 있는 서류를 가져오세요.",
-        "bn": "আপনার ঠিকানা প্রমাণ করার কাগজ আনুন।",
-        "en": "Bring documents that can prove your residence address."
-      },
-      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য অডিও শুনুন এবং অনুশীলন করুন।"
-    },
-    {
-      "ko": "고용센터",
-      "romanization": "goyong senteo",
-      "bn": "কর্মসংস্থান কেন্দ্র",
-      "en": "employment center",
-      "pos": "noun",
-      "example": {
-        "ko": "고용센터에 가서 상담을 받으세요.",
-        "bn": "কর্মসংস্থান কেন্দ্রে গিয়ে পরামর্শ নিন।",
-        "en": "Go to the employment center and get a consultation."
-      },
-      "pronunciationTipBn": "'고용' এর '고' একটু দীর্ঘ করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "신분증",
-      "romanization": "sinbunjeung",
-      "bn": "পরিচয়পত্র",
-      "en": "ID card",
-      "pos": "noun",
-      "example": {
-        "ko": "신분증을 꼭 가져오세요.",
-        "bn": "অবশ্যই পরিচয়পত্র নিয়ে আসবেন।",
-        "en": "Please make sure to bring your ID card."
-      },
-      "pronunciationTipBn": "'신' এর 'ㄴ' এবং '분' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "외국인등록증",
-      "romanization": "oegugin deungnokjeung",
-      "bn": "বিদেশী নিবন্ধন কার্ড",
-      "en": "alien registration card",
-      "pos": "noun",
-      "example": {
-        "ko": "외국인등록증을 제출해야 합니다.",
-        "bn": "বিদেশী নিবন্ধন কার্ড জমা দিতে হবে।",
-        "en": "You must submit your alien registration card."
-      },
-      "pronunciationTipBn": "'외' উচ্চারণ করার সময় ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "통장",
-      "romanization": "tongjang",
-      "bn": "ব্যাংক বই",
-      "en": "bankbook",
-      "pos": "noun",
-      "example": {
-        "ko": "통장 사본이 필요합니다.",
-        "bn": "ব্যাংক বইয়ের কপি প্রয়োজন।",
-        "en": "A copy of your bankbook is required."
-      },
-      "pronunciationTipBn": "'통' এর 'ㅇ' অনুনাসিক ধ্বনি।"
-    },
-    {
-      "ko": "사본",
-      "romanization": "sabon",
-      "bn": "কপি/অনুলিপি",
-      "en": "copy",
-      "pos": "noun",
-      "example": {
-        "ko": "서류 사본을 준비하세요.",
-        "bn": "কাগজপত্রের কপি প্রস্তুত করুন।",
-        "en": "Prepare copies of the documents."
-      },
-      "pronunciationTipBn": "'사' এর 'ㅅ' হালকাভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "지급되다",
-      "romanization": "jigeupdoeda",
-      "bn": "প্রদান করা হওয়া",
-      "en": "to be paid",
-      "pos": "verb",
-      "example": {
-        "ko": "실업급여가 통장으로 지급됩니다.",
-        "bn": "বেকারত্ব ভাতা ব্যাংক বইয়ে প্রদান করা হবে।",
-        "en": "Unemployment benefits will be paid to your bank account."
-      },
-      "pronunciationTipBn": "'지' এবং '급' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "구직활동",
-      "romanization": "gujik hwaldong",
-      "bn": "চাকরি খোঁজার কার্যক্রম",
-      "en": "job-seeking activity",
-      "pos": "noun",
-      "example": {
-        "ko": "구직활동을 증명해야 합니다.",
-        "bn": "চাকরি খোঁজার কার্যক্রম প্রমাণ করতে হবে।",
-        "en": "You must prove your job-seeking activities."
-      },
-      "pronunciationTipBn": "'구' এর 'ㄱ' একটু নরম করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "면접",
-      "romanization": "myeonjeop",
-      "bn": "সাক্ষাৎকার",
-      "en": "interview",
-      "pos": "noun",
-      "example": {
-        "ko": "내일 회사에서 면접을 봅니다.",
-        "bn": "আগামীকাল কোম্পানিতে সাক্ষাৎকার দেব।",
-        "en": "I have an interview at the company tomorrow."
-      },
-      "pronunciationTipBn": "'면' এর 'ㅁ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "이력서",
-      "romanization": "iryeokseo",
-      "bn": "জীবনবৃত্তান্ত",
-      "en": "resume",
-      "pos": "noun",
-      "example": {
-        "ko": "이력서를 작성해서 제출하세요.",
-        "bn": "জীবনবৃত্তান্ত লিখে জমা দিন।",
-        "en": "Write and submit your resume."
-      },
-      "pronunciationTipBn": "'이' এর পরে '력' উচ্চারণ করার সময় 'ㄹ' ধ্বনিটি 'ㄴ' এর মতো শোনাতে পারে।"
-    },
-    {
-      "ko": "채용",
-      "romanization": "chaeyong",
-      "bn": "নিয়োগ",
-      "en": "employment / hiring",
-      "pos": "noun",
-      "example": {
-        "ko": "새로운 직원을 채용합니다.",
-        "bn": "নতুন কর্মী নিয়োগ করা হচ্ছে।",
-        "en": "We are hiring new employees."
-      },
-      "pronunciationTipBn": "'채' এর 'ㅊ' একটু জোর দিয়ে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "근무처",
-      "romanization": "geunmucheo",
-      "bn": "কাজের জায়গা",
-      "en": "workplace",
-      "pos": "noun",
-      "example": {
-        "ko": "근무처를 변경하려면 신고해야 합니다.",
-        "bn": "কাজের জায়গা পরিবর্তন করতে চাইলে রিপোর্ট করতে হবে।",
-        "en": "You must report if you want to change your workplace."
-      },
-      "pronunciationTipBn": "'근' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "신고하다",
-      "romanization": "singohada",
-      "bn": "রিপোর্ট করা",
-      "en": "to report",
-      "pos": "verb",
-      "example": {
-        "ko": "경찰서에 신고하세요.",
-        "bn": "পুলিশ স্টেশনে রিপোর্ট করুন।",
-        "en": "Please report to the police station."
-      },
-      "pronunciationTipBn": "'신' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "연장하다",
-      "romanization": "yeonjanghada",
-      "bn": "মেয়াদ বাড়ানো",
-      "en": "to extend",
-      "pos": "verb",
-      "example": {
-        "ko": "체류 기간을 연장하고 싶어요.",
-        "bn": "আমি থাকার মেয়াদ বাড়াতে চাই।",
-        "en": "I want to extend my period of stay."
-      },
-      "pronunciationTipBn": "'연' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "체류",
-      "romanization": "cheryu",
-      "bn": "অবস্থান",
-      "en": "stay",
-      "pos": "noun",
-      "example": {
-        "ko": "한국 체류 기간이 끝났습니다.",
-        "bn": "কোরিয়ায় অবস্থানের মেয়াদ শেষ হয়েছে।",
-        "en": "My period of stay in Korea has ended."
-      },
-      "pronunciationTipBn": "'체' এর 'ㅊ' একটু জোর দিয়ে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'없다' এর 'ㅄ' এর পরে 'ㄷ' এলে [업따] হয়।"
     }
   ],
   "grammar": [
     {
-      "pattern": "-(으)면",
-      "titleBn": "যদি ... হয় (শর্ত)",
-      "explanationBn": "এই বাক্যরীতি কোনো শর্ত বা পরিস্থিতি বোঝায়: 'যদি X হয়, তাহলে Y'। উদাহরণ: \n1) 고용보험에 가입하면 실업급여를 신청할 수 있어요. (যদি বীমায় যোগ দেন, তাহলে আবেদন করতে পারবেন.)\n2) 서류를 제출하면 심사가 시작됩니다. (জমা দিলে পর্যালোচনা শুরু হবে.)",
-      "explanationEn": "This pattern expresses a condition: 'If X, then Y'. Examples:\n1) 고용보험에 가입하면 실업급여를 신청할 수 있어요. (If you enroll in insurance, you can apply for benefits.)\n2) 서류를 제출하면 심사가 시작됩니다. (If you submit documents, the review starts.)",
+      "pattern": "-는 바람에",
+      "titleBn": "কারণে (অনাকাঙ্ক্ষিত ফল)",
+      "explanationBn": "'-는 바람에' ক্রিয়ার সাথে বসে বোঝায় যে প্রথম অংশটি নেতিবাচক বা অপ্রত্যাশিত ফলের কারণ। সব ক্রিয়ায় '-는 바람에' একইভাবে বসে, 받침 দেখার দরকার নেই। মনে রাখতে হবে - ফলটি সাধারণত খারাপ বা অনাকাঙ্ক্ষিত হয়, তাই ভালো ফলের ক্ষেত্রে এটি ব্যবহার করা যায় না।",
+      "explanationEn": "-는 바람에 attaches to verbs to indicate the first clause is the cause of a negative or unexpected outcome. It takes the same form for all verbs regardless of the final consonant. Note the result is usually bad or unwanted, so it cannot be used for positive outcomes.",
       "examples": [
         {
-          "ko": "고용보험에 가입하면 실업급여를 받을 수 있어요.",
-          "bn": "যদি কর্মসংস্থান বীমায় যোগ দেন, তবে বেকারত্ব ভাতা নিতে পারবেন।",
-          "en": "If you enroll in employment insurance, you can receive unemployment benefits."
+          "ko": "안전화를 안 신는 바람에 바닥에 미끄러졌어요.",
+          "bn": "নিরাপত্তা জুতা না পরার কারণে মেঝেতে পিছলে গেছি।",
+          "en": "I slipped on the floor because I did not wear safety shoes."
         },
         {
-          "ko": "신청서를 제출하면 확인 전화를 받을 수 있어요.",
-          "bn": "যদি আবেদনপত্র জমা দেন, তাহলে যাচাইকরণের কল পেতে পারেন।",
-          "en": "If you submit the application, you may receive a verification call."
+          "ko": "비가 너무 많이 오는 바람에 오후 작업을 못 했어요.",
+          "bn": "খুব বেশি বৃষ্টি হওয়ার কারণে বিকেলের কাজ করতে পারিনি।",
+          "en": "I could not do the afternoon work because it rained too much."
         },
         {
-          "ko": "이것은 예문입니다.",
-          "bn": "এটি একটি উদাহরণ বাক্য।",
-          "en": "This is an example sentence."
+          "ko": "친구가 다리를 다치는 바람에 입원했어요.",
+          "bn": "বন্ধুর পায়ে আঘাত পাওয়ার কারণে হাসপাতালে ভর্তি হয়েছেন।",
+          "en": "My friend was hospitalized because he injured his leg."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যাকরণ ব্যবহারের জন্য বাক্যের গঠন খেয়াল রাখুন।"
+      "commonMistakeBn": "ভালো ফলে '-는 바람에' বসে না। '합격하는 바람에 기뻤어요' অস্বাভাবিক; সেখানে '-아서/어서' বলুন।"
     },
     {
-      "pattern": "-아/어야 하다",
-      "titleBn": "করণ আবশ্যকতা (করা হবে/করা উচিত)",
-      "explanationBn": "এই রীতি বলে যে কিছু করা আবশ্যক বা উচিত: '...해야 합니다/해요'. \nউদাহরণ:\n1) 증빙서류를 제출해야 합니다. (প্রমাণপত্র জমা দিতে হবে.)\n2) 상담을 받아야 문제를 빨리 해결할 수 있어요. (পরামর্শ নিতে হবে।)",
-      "explanationEn": "This expresses necessity or obligation: 'must/should do ...'. Examples:\n1) 증빙서류를 제출해야 합니다. (You must submit supporting documents.)\n2) 상담을 받아야 문제를 빨리 해결할 수 있어요. (You should get consultation to solve the issue quickly.)",
+      "pattern": "-(으)려면",
+      "titleBn": "করতে চাইলে",
+      "explanationBn": "'-(으)려면' ক্রিয়ার সাথে বসে বোঝায় যে প্রথম অংশের কাজটি করতে চাইলে দ্বিতীয় অংশের কাজ প্রয়োজন। ব্যঞ্জনান্ত মূলে '-으려면', স্বরান্ত মূলে বা 'ㄹ' শেষে '-려면' বসে। বীমার টাকা পাওয়ার শর্ত বলতে এটি সবচেয়ে দরকারি গঠন।",
+      "explanationEn": "-(으)려면 attaches to verbs to indicate that if you want to do the first action, the second action is necessary. Use -으려면 after consonant stems, -려면 after vowel stems or ㄹ. The most useful pattern for stating conditions for receiving insurance benefits.",
       "examples": [
         {
-          "ko": "신청서를 작성해야 합니다.",
-          "bn": "আবেদনপত্র লিখতে হবে।",
-          "en": "You must fill out the application form."
+          "ko": "보험금을 받으려면 통장 사본을 주셔야 해요.",
+          "bn": "বীমার টাকা পেতে চাইলে ব্যাংক বইয়ের অনুলিপি দিতে হবে।",
+          "en": "To receive insurance benefits, you must provide a copy of your bankbook."
         },
         {
-          "ko": "주소지를 증명할 서류가 있어야 해요.",
-          "bn": "ঠিকানা প্রমাণের কাগজ থাকতে হবে।",
-          "en": "You need to have a document proving your address."
+          "ko": "상해보험을 청구하려면 사고를 입증할 서류가 필요해요.",
+          "bn": "আঘাতের বীমা দাবি করতে চাইলে দুর্ঘটনার প্রমাণপত্র দরকার।",
+          "en": "To claim injury insurance, you need documents proving the accident."
         },
         {
-          "ko": "이것은 예문입니다.",
-          "bn": "এটি একটি উদাহরণ বাক্য।",
-          "en": "This is an example sentence."
+          "ko": "귀국비용보험금을 받으려면 출국예정사실 확인서를 제출해야 돼요.",
+          "bn": "দেশে ফেরার খরচের বীমার টাকা পেতে চাইলে দেশত্যাগের প্রত্যয়নপত্র জমা দিতে হবে।",
+          "en": "To receive Return Cost Insurance benefits, you must submit a certificate of expected departure."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যাকরণ ব্যবহারের জন্য বাক্যের গঠন খেয়াল রাখুন।"
+      "commonMistakeBn": "'ㄹ' শেষ মূলে 'ㄹ' পড়ে যায় না। '만들으려면' ভুল, '만들려면' সঠিক।"
     },
     {
-      "pattern": "-(으)세요",
-      "titleBn": "ভদ্র অনুরোধ/নির্দেশ",
-      "explanationBn": "এটি ভদ্রভাবে কেউকে অনুরোধ বা নির্দেশ দিতে ব্যবহৃত হয়। উদাহরণ:\n1) 서류를 가져오세요. (দয়া করে কাগজ আনুন.)\n2) 창구에서 상담하세요. (কাউন্টারে পরামর্শ নিন.)",
-      "explanationEn": "This is used to give polite requests or instructions. Examples:\n1) 서류를 가져오세요. (Please bring the documents.)\n2) 창구에서 상담하세요. (Please consult at the counter.)",
+      "pattern": "-(으)ㄹ까 봐",
+      "titleBn": "হয়ে যাবে ভেবে চিন্তা",
+      "explanationBn": "'-(으)ㄹ까 봐' ক্রিয়ার সাথে বসে বোঝায় যে কোনো অনাকাঙ্ক্ষিত কিছু ঘটতে পারে এই আশঙ্কায় চিন্তা বা সতর্কতা। ব্যঞ্জনান্ত মূলে '-을까 봐', স্বরান্ত মূলে '-ㄹ까 봐' বসে। পরে সাধারণত '걱정하다' বা 'ㄱㅓ정이다' আসে।",
+      "explanationEn": "-(으)ㄹ까 봐 attaches to verbs to express worry or caution that something unwanted might happen. Use -을까 봐 after consonant stems, -ㄹ까 봐 after vowel stems. Usually followed by 걱정하다 or similar.",
       "examples": [
         {
-          "ko": "창구에서 등록하세요.",
-          "bn": "কাউন্টারে নিবন্ধন করুন।",
-          "en": "Please register at the counter."
+          "ko": "병원비가 많이 나올까 봐 걱정하고 있어요.",
+          "bn": "হাসপাতালের খরচ বেশি হবে ভেবে চিন্তা করছি।",
+          "en": "I am worried the hospital bills will be high."
         },
         {
-          "ko": "자세한 내용은 상담하세요.",
-          "bn": "বিস্তারিত জানার জন্য পরামর্শ নিন।",
-          "en": "For details, please consult."
-        },
-        {
-          "ko": "이것은 예문입니다.",
-          "bn": "এটি একটি উদাহরণ বাক্য।",
-          "en": "This is an example sentence."
+          "ko": "보험금을 못 받을까 봐 서류를 다시 확인했어요.",
+          "bn": "বীমার টাকা পাব না ভেবে কাগজপত্র আবার দেখেছি।",
+          "en": "I checked the documents again, worried I might not receive the benefits."
         }
       ],
-      "commonMistakeBn": "সঠিক ব্যাকরণ ব্যবহারের জন্য বাক্যের গঠন খেয়াল রাখুন।"
+      "commonMistakeBn": "'봐' এর আগে ফাঁকা রাখুন। '나올까봐' নয়, '나올까 봐' লিখুন।"
     },
     {
-      "pattern": "-기 전에",
-      "titleBn": "কোনো কিছু করার আগে",
-      "explanationBn": "এই ব্যাকরণটি কোনো কাজ করার আগে অন্য একটি কাজ করার কথা বোঝাতে ব্যবহৃত হয়।",
-      "explanationEn": "This grammar is used to express doing something before doing another action.",
-      "commonMistakeBn": "অনেকে বিশেষ্যের সাথে '-기 전에' ব্যবহার করেন, কিন্তু বিশেষ্যের সাথে শুধু '전에' বসবে।",
+      "pattern": "-아/어 놓다",
+      "titleBn": "করে রাখা",
+      "explanationBn": "'-아/어 놓다' ক্রিয়ার সাথে বসে বোঝায় যে কোনো কাজ আগেই সম্পন্ন করে সেই অবস্থা রেখে দেওয়া হয়েছে। 'ㅏ, ㅗ' স্বরে '-아 놓다', অন্য স্বরে '-어 놓다' বসে। ভবিষ্যতের প্রয়োজনের জন্য আগেভাগে বীমায় যোগ দেওয়ার কথা বলতে খুব উপযোগী।",
+      "explanationEn": "-아/어 놓다 attaches to verbs to indicate an action was completed in advance and the state is maintained. Use -아 놓다 after ㅏ/ㅗ vowels, -어 놓다 after others. Useful for talking about signing up for insurance in advance for future needs.",
       "examples": [
         {
-          "ko": "한국에 오기 전에 한국어를 공부했어요.",
-          "bn": "কোরিয়ায় আসার আগে কোরিয়ান ভাষা পড়েছি।",
-          "en": "I studied Korean before coming to Korea."
+          "ko": "상해보험에 가입해 놓아서 병원비 걱정은 안 해요.",
+          "bn": "আঘাতের বীমায় যোগ দিয়ে রাখায় হাসপাতালের খরচ নিয়ে চিন্তা করি না।",
+          "en": "I do not worry about hospital bills because I signed up for injury insurance."
         },
         {
-          "ko": "밥을 먹기 전에 손을 씻으세요.",
-          "bn": "ভাত খাওয়ার আগে হাত ধোবেন।",
-          "en": "Wash your hands before eating."
-        },
-        {
-          "ko": "퇴근하기 전에 서류를 제출하세요.",
-          "bn": "কাজ শেষ করার আগে কাগজপত্র জমা দিন।",
-          "en": "Submit the documents before leaving work."
+          "ko": "퇴직금을 정산하기 전에 미리 요청해 놓았어요.",
+          "bn": "অবসরকালীন টাকা হিসাব করার আগে আগেই অনুরোধ করে রেখেছি।",
+          "en": "I requested it in advance before the severance pay was settled."
         }
-      ]
+      ],
+      "commonMistakeBn": "'놓다' আলাদা লিখুন। '가입해놓아서' নয়, '가입해 놓아서' সঠিক।"
     },
     {
-      "pattern": "-(으)ㄴ 후에",
-      "titleBn": "কোনো কিছু করার পরে",
-      "explanationBn": "এই ব্যাকরণটি কোনো কাজ করার পরে অন্য একটি কাজ করার কথা বোঝাতে ব্যবহৃত হয়।",
-      "explanationEn": "This grammar is used to express doing something after doing another action.",
-      "commonMistakeBn": "অনেকে বর্তমান কালের সাথে এটি ব্যবহার করেন, কিন্তু এটি অতীত বা সম্পন্ন কাজের পরে বোঝাতে ব্যবহৃত হয়।",
+      "pattern": "-(이)라도",
+      "titleBn": "হলেও",
+      "explanationBn": "'-(이)라도' বিশেষ্যের সাথে বসে বোঝায় যে সেই পরিচয় বা অবস্থা সত্ত্বেও ফলটি একই থাকে। ব্যঞ্জনান্ত বিশেষ্যে '-이라도', স্বরান্তে '-라도' বসে। বিদেশি শ্রমিকদের অধিকার সমান - এমন কথা বলতে এটি খুব প্রয়োজনীয়।",
+      "explanationEn": "-(이)라도 attaches to nouns to indicate that despite that identity or status, the outcome remains the same. Use -이라도 after consonants, -라도 after vowels. Essential for stating that foreign workers have equal rights.",
       "examples": [
         {
-          "ko": "퇴직한 후에 실업급여를 신청했어요.",
-          "bn": "পদত্যাগের পরে বেকারত্ব ভাতার জন্য আবেদন করেছি।",
-          "en": "I applied for unemployment benefits after resigning."
+          "ko": "외국인 근로자라도 퇴직금을 받을 수 있어요.",
+          "bn": "বিদেশি শ্রমিক হলেও অবসরকালীন টাকা পাওয়া যায়।",
+          "en": "Even foreign workers can receive severance pay."
         },
         {
-          "ko": "밥을 먹은 후에 약을 드세요.",
-          "bn": "ভাত খাওয়ার পরে ওষুধ খাবেন।",
-          "en": "Take the medicine after eating."
-        },
-        {
-          "ko": "서류를 제출한 후에 심사를 받습니다.",
-          "bn": "কাগজপত্র জমা দেওয়ার পরে পর্যালোচনা করা হয়।",
-          "en": "You will be reviewed after submitting the documents."
+          "ko": "짧은 기간이라도 산재보험 혜택을 받아요.",
+          "bn": "অল্প সময়ের জন্য হলেও শিল্প দুর্ঘটনা বীমার সুবিধা পাওয়া যায়।",
+          "en": "Even for a short period, you receive industrial accident insurance benefits."
         }
-      ]
+      ],
+      "commonMistakeBn": "ব্যঞ্জনান্ত বিশেষ্যে '이' বাদ দেবেন না। '근로자라도' ঠিক কারণ '자' স্বরান্ত, কিন্তু '기간이라도' তে '이' লাগে।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "회사 인사에게 문의",
-      "titleEn": "Asking HR at the Company",
+      "titleBn": "শিল্প দুর্ঘটনা বীমার সুবিধা",
+      "titleEn": "Industrial accident insurance benefits",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "안녕하세요. 고용보험 가입 관련해서 여쭤볼 게 있어요.",
-          "bn": "নমস্কার। কর্মসংস্থান বীমা সম্পর্কে কিছু জিজ্ঞাসা করতে চাই।",
-          "en": "Hello. I have a question about enrollment in employment insurance."
+          "speaker": "마두",
+          "ko": "진수 씨, 고용허가제로 한국에 온 외국인 근로자도 산재보험금을 받을 수 있어요?",
+          "bn": "জিনসু ভাই, কর্মসংস্থান পারমিট সিস্টেমে কোরিয়ায় আসা বিদেশি শ্রমিকও কি শিল্প দুর্ঘটনা বীমার টাকা পেতে পারেন?",
+          "en": "Jinsu, can foreign workers who came to Korea through the Employment Permit System also receive industrial accident insurance benefits?"
         },
         {
-          "speaker": "인사담당",
-          "ko": "어떤 부분이 궁금하신가요?",
-          "bn": "কোন বিষয় নিয়ে আপনি জানাতে চান?",
-          "en": "Which part are you curious about?"
+          "speaker": "진수",
+          "ko": "산재보험은 고용주가 반드시 가입해야 되니까 누구나 보험금을 받을 수 있어요. 무슨 일이 있어요?",
+          "bn": "শিল্প দুর্ঘটনা বীমায় মালিককে অবশ্যই যোগ দিতে হয়, তাই সবাই বীমার টাকা পেতে পারেন। কী হয়েছে?",
+          "en": "Employers must sign up for industrial accident insurance, so anyone can receive the benefits. Is something wrong?"
         },
         {
-          "speaker": "직원",
-          "ko": "회사에서 보험료를 어떻게 처리하나요?",
-          "bn": "কোম্পানি কীভাবে বীমার প্রিমিয়াম পরিচালনা করে?",
-          "en": "How does the company handle the insurance premium?"
+          "speaker": "마두",
+          "ko": "친구가 작업을 하다가 다리를 다치는 바람에 입원을 했거든요. 그런데 병원비가 많이 나올까 봐 걱정하고 있어서요.",
+          "bn": "বন্ধু কাজ করতে গিয়ে পায়ে আঘাত পাওয়ার কারণে হাসপাতালে ভর্তি হয়েছেন। কিন্তু হাসপাতালের খরচ বেশি হবে ভেবে চিন্তা করছেন।",
+          "en": "My friend was hospitalized because he injured his leg while working. But he is worried the hospital bills will be high."
         },
         {
-          "speaker": "인사담당",
-          "ko": "월급에서 일부 공제하고 회사도 일부 부담합니다.",
-          "bn": "বেতনের থেকে অংশ কাটা হয় এবং কোম্পানিও অংশ যায়।",
-          "en": "A portion is deducted from the salary and the company contributes a portion."
+          "speaker": "진수",
+          "ko": "일을 하다가 다쳤으면 산재보험금을 받을 수 있어요. 그리고 직장인이면 건강보험에 가입이 되어 있을 테니까 의료비 혜택도 받을 수 있고요.",
+          "bn": "কাজ করতে গিয়ে আহত হলে শিল্প দুর্ঘটনা বীমার টাকা পাওয়া যায়। আর চাকরিজীবী হলে স্বাস্থ্য বীমায় যোগ দেওয়া থাকবে, তাই চিকিৎসা খরচের সুবিধাও পাওয়া যাবে।",
+          "en": "If injured while working, he can receive industrial accident insurance benefits. And if he is an employee, he should be enrolled in health insurance, so he can also receive medical benefits."
         },
         {
-          "speaker": "직원",
-          "ko": "감사합니다. 가입 서류를 어디서 제출하면 될까요?",
-          "bn": "ধন্যবাদ। আবেদনপত্র কোথায় জমা দেব?",
-          "en": "Thank you. Where should I submit the enrollment papers?"
-        },
-        {
-          "speaker": "인사담당",
-          "ko": "인사팀 사무실에 제출하세요. 제가 도와드릴게요.",
-          "bn": "হিউম্যান রিসোর্স অফিসে জমা দিন। আমি সাহায্য করব।",
-          "en": "Submit them to HR office. I'll help you."
+          "speaker": "마두",
+          "ko": "그래요? 친구한테 보험 혜택을 받을 수 있다고 빨리 알려 줘야겠어요.",
+          "bn": "সত্যি? বন্ধুকে বীমার সুবিধা পাওয়া যায় বলে দ্রুত জানিয়ে দিতে হবে।",
+          "en": "Really? I need to quickly let my friend know he can receive insurance benefits."
         }
       ]
     },
     {
-      "titleBn": "고용센터에서 상담",
-      "titleEn": "Consultation at the Employment Center",
+      "titleBn": "দেশে ফেরার খরচের বীমায় যোগদান",
+      "titleEn": "Signing up for Return Cost Insurance",
       "lines": [
         {
-          "speaker": "상담사",
-          "ko": "안녕하세요. 실업급여 상담 도와드릴게요.",
-          "bn": "নমস্কার। বেকারত্ব ভাতা সম্পর্কে পরামর্শ দেব।",
-          "en": "Hello. I will help you with unemployment benefit consultation."
+          "speaker": "칼로",
+          "ko": "E-9 비자로 한국에 온 근로자인데 출국만기보험에 가입하고 싶어요.",
+          "bn": "E-9 ভিসায় কোরিয়ায় আসা শ্রমিক, দেশত্যাগকালীন বীমায় যোগ দিতে চাই।",
+          "en": "I am a worker who came to Korea on an E-9 visa, and I want to sign up for Departure Guarantee Insurance."
         },
         {
-          "speaker": "내담자",
-          "ko": "실직했는데 어떤 서류가 필요하나요?",
-          "bn": "আমি চাকরি হারিয়েছি, কী কী কাগজপত্র چاہیے?",
-          "en": "I lost my job; what documents are needed?"
+          "speaker": "직원",
+          "ko": "그러세요? 그런데 출국만기보험은 사업주가 근로자를 위해 가입하는 보험이에요. 외국인 근로자는 귀국비용보험과 상해보험에 가입하시면 돼요.",
+          "bn": "তাই নাকি? কিন্তু দেশত্যাগকালীন বীমায় মালিক শ্রমিকদের জন্য যোগ দেন। বিদেশি শ্রমিকরা দেশে ফেরার খরচের বীমা আর আঘাতের বীমায় যোগ দিলেই হয়।",
+          "en": "Is that so? But Departure Guarantee Insurance is signed up for by employers for workers. Foreign workers should sign up for Return Cost Insurance and Personal Injury Insurance."
         },
         {
-          "speaker": "상담사",
-          "ko": "신청서와 근로계약서, 급여명세서를 가져오세요.",
-          "bn": "আবেদনপত্র, কাজের চুক্তি, বেতন স্লিপ নিয়ে আসুন।",
-          "en": "Bring the application form, employment contract, and payslips."
+          "speaker": "칼로",
+          "ko": "상해보험은 아는데 귀국비용보험은 처음 들어요. 어떤 보험이에요?",
+          "bn": "আঘাতের বীমা জানি, কিন্তু দেশে ফেরার খরচের বীমা প্রথম শুনছি। এটা কী ধরনের বীমা?",
+          "en": "I know about injury insurance, but this is the first time hearing about Return Cost Insurance. What kind of insurance is it?"
         },
         {
-          "speaker": "내담자",
-          "ko": "심사는 얼마나 걸리나요?",
-          "bn": "পর্যালোচনা কতক্ষণে হবে?",
-          "en": "How long does the review take?"
+          "speaker": "직원",
+          "ko": "귀국에 필요한 비용을 준비하기 위한 보험이에요. 근로계약이 끝나고 부담 없이 고향에 돌아가려면 반드시 가입해야 돼요.",
+          "bn": "দেশে ফেরার জন্য প্রয়োজনীয় খরচ প্রস্তুত করার বীমা। কাজের চুক্তি শেষ হয়ে বোঝা ছাড়াই দেশে ফিরতে চাইলে অবশ্যই যোগ দিতে হবে।",
+          "en": "It is insurance to prepare for the costs needed to return home. You must sign up for it to return home without burden after your work contract finishes."
         },
         {
-          "speaker": "상담사",
-          "ko": "보통 며칠 걸리지만 상황에 따라 다릅니다.",
-          "bn": "সাধারণত কয়েক দিন লাগে, কিন্তু পরিস্থিতি অনুযায়ী ভিন্ন হতে পারে।",
-          "en": "Usually a few days, but it varies depending on the situation."
+          "speaker": "칼로",
+          "ko": "네, 알겠습니다. 그런데 보험료는 얼마예요?",
+          "bn": "হ্যাঁ, বুঝেছি। কিন্তু বীমার প্রিমিয়াম কত?",
+          "en": "Okay, I see. But how much is the premium?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "국가별로 내야 하는 금액이 다른데 일시금으로 내거나 3회 이내로 나누어 내시면 돼요.",
+          "bn": "দেশ অনুযায়ী দেওয়ার পরিমাণ আলাদা, কিন্তু একবারে দিতে পারেন বা তিন কিস্তিতে ভাগ করে দিতে পারেন।",
+          "en": "The amount varies by country, but you can pay it in a lump sum or in up to three installments."
         }
       ]
     },
     {
-      "titleBn": "고용센터 방문 (কর্মসংস্থান কেন্দ্রে পরিদর্শন)",
-      "titleEn": "Visiting the Employment Center",
+      "titleBn": "অবসরকালীন টাকার আবেদন",
+      "titleEn": "Applying for severance pay",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "어떻게 오셨습니까?",
-          "bn": "কীভাবে সাহায্য করতে পারি?",
-          "en": "How can I help you?"
-        },
-        {
-          "speaker": "투안",
-          "ko": "실업급여를 신청하려고 왔습니다.",
-          "bn": "আমি বেকারত্ব ভাতার জন্য আবেদন করতে এসেছি।",
-          "en": "I came to apply for unemployment benefits."
+          "speaker": "칼로",
+          "ko": "외국인 근로자라도 일 년 이상 일하면 퇴직금을 받을 수 있어요?",
+          "bn": "বিদেশি শ্রমিক হলেও এক বছরের বেশি কাজ করলে অবসরকালীন টাকা পাওয়া যায়?",
+          "en": "Can foreign workers also receive severance pay if they work more than one year?"
         },
         {
           "speaker": "직원",
-          "ko": "신분증과 이직확인서를 가져오셨나요?",
-          "bn": "আপনি কি পরিচয়পত্র এবং চাকরি ছাড়ার নিশ্চিতকরণ পত্র এনেছেন?",
-          "en": "Did you bring your ID card and job separation certificate?"
+          "ko": "그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요.",
+          "bn": "অবশ্যই। বিদেশি শ্রমিক হলেও অবসরকালীন টাকা পাওয়া যায়।",
+          "en": "Of course. Even foreign workers can receive severance pay."
         },
         {
-          "speaker": "투안",
-          "ko": "네, 여기 있습니다.",
-          "bn": "হ্যাঁ, এই নিন।",
-          "en": "Yes, here they are."
+          "speaker": "칼로",
+          "ko": "제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요?",
+          "bn": "আমি গত মাসে কোম্পানি বদলেছি, কীভাবে আবেদন করব?",
+          "en": "I changed companies last month. How do I apply?"
         },
         {
           "speaker": "직원",
-          "ko": "이 신청서를 작성해 주세요.",
-          "bn": "অনুগ্রহ করে এই আবেদনপত্রটি পূরণ করুন।",
-          "en": "Please fill out this application form."
+          "ko": "일하던 회사에 가서 직접 요청하셔야 돼요. 퇴직금을 정산하기 전에 미리 요청해 놓으면 좋아요.",
+          "bn": "যেখানে কাজ করতেন সেই কোম্পানিতে গিয়ে সরাসরি অনুরোধ করতে হবে। অবসরকালীন টাকা হিসাব করার আগে আগেই অনুরোধ করে রাখলে ভালো।",
+          "en": "You must go to your previous company and request it directly. It is good to request it in advance before the severance pay is settled."
+        },
+        {
+          "speaker": "칼로",
+          "ko": "회사가 체불 임금이 있어서 걱정인데 그래도 받을 수 있을까요?",
+          "bn": "কোম্পানির বকেয়া মজুরি আছে বলে চিন্তা, তবুও কি পাওয়া যাবে?",
+          "en": "I am worried because the company has unpaid wages. Can I still receive it?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "회사에서 임금체불보증보험에 가입해 두었으면 밀린 임금이랑 퇴직금을 받을 수 있어요. 고용노동부에 신고하세요.",
+          "bn": "কোম্পানি বকেয়া মজুরির নিশ্চয়তা বীমায় যোগ দিয়ে রাখলে বকেয়া মজুরি আর অবসরকালীন টাকা পাওয়া যায়। শ্রম কার্যালয়ে খবর দিন।",
+          "en": "If the company enrolled in Pay Guarantee Insurance, you can receive the unpaid wages and severance pay. Report it to the labor office."
         }
       ]
     }
@@ -680,584 +712,535 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "কোনটি '신청서' অর্থ বলে?",
-      "questionKo": "다음 중 '신청서'의 뜻은 무엇인가요?",
+      "questionBn": "শিল্প দুর্ঘটনা বীমায় কে যোগ দেবেন?",
       "options": [
-        "지원서 / 신청서",
-        "증명서 / 증빙서류",
-        "주소지 확인서",
-        "급여 명세서"
+        "근로자만",
+        "사업주만",
+        "사업주와 근로자",
+        "정부"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "'신청서' মানে আবেদনপত্র বা 지원পত্র — সঠিক উত্তর প্রথমটি।"
+      "answer": 1,
+      "explanationBn": "শিল্প দুর্ঘটনা বীমায় শুধু মালিক যোগ দেন। অন্য তিনটি সামাজিক বীমায় মালিক ও শ্রমিক উভয়ে যোগ দেন।"
     },
     {
       "id": "p2",
-      "type": "multiple-choice",
-      "questionBn": "고용보험에서 '실업급여'는 কী?",
-      "questionKo": "고용보험의 '실업급여'는 무엇인가요?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 계단에서 넘어지는 ( ) 다리를 다쳤어요.",
       "options": [
-        "주택 보조금",
-        "실직자에게 주는 금전적 지원",
-        "건강보험의 일종",
-        "교육비 지원"
+        "바람에",
+        "덕분에",
+        "때문이라",
+        "대신에"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "실업급여 হলো চাকরি হারানো ব্যক্তিদের দেওয়া আর্থিক সহায়তা — দ্বিতীয়টি সঠিক।"
+      "answer": 0,
+      "explanationBn": "'-는 바람에' দিয়ে অনাকাঙ্ক্ষিত ফলের কারণ বোঝায়।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "다음 중 '제출하다'의 올바른 사용은?",
-      "questionKo": "다음 중 '제출하다'를 올바르게 사용한 문장은?",
+      "questionBn": "নিচের কোন বীমায় শুধু বিদেশি শ্রমিক যোগ দেন?",
       "options": [
-        "서류를 제출하세요. (서류를 숨기세요.)",
-        "서류를 제출하세요. (서류를 태우세요.)",
-        "서류를 제출하세요. (서류를 가져오세요.)",
-        "서류를 제출하세요. (서류를 훔치세요.)"
+        "산재보험",
+        "출국만기보험",
+        "임금체불보증보험",
+        "귀국비용보험"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "'제출하다' মানে জমা দেওয়া — প্রথম বাক্যই সঠিক ব্যবহার।"
+      "answer": 3,
+      "explanationBn": "দেশে ফেরার খরচের বীমা ও আঘাতের বীমায় শুধু বিদেশি শ্রমিক যোগ দেন। বাকিগুলোতে মালিক যোগ দেন।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "문법: '-아/어야 하다'의 의미는?",
-      "questionKo": "다음 중 '-아/어야 하다'의 뜻으로 알맞은 것은?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 보험금을 ( ) 통장 사본을 주셔야 해요.",
       "options": [
-        "추측 (probably)",
-        "과거 완료 (had done)",
-        "가능성 (may)",
-        "필요/의무 (must/should)"
+        "받아서",
+        "받으니까",
+        "받으려면",
+        "받지만"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "'-아/어야 하다'는 '~해야 한다' — প্রয়োজন বা বাধ্যবাধকতা বোঝায়, তাই তৃতীয়টি।"
+      "answer": 2,
+      "explanationBn": "'-(으)려면' দিয়ে শর্ত বোঝায়। 'পেতে চাইলে'।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "다음 문장에서 빈칸에 들어갈 알맞은 말은? '실업 상태일 때, ____을(를) 신청할 수 있어요.'",
-      "questionKo": "다음 문장에서 빈칸에 들어갈 알맞은 말은? '실업 상태일 때, ____을(를) 신청할 수 있어요.'",
-      "options": [
-        "실업급여",
-        "보험료",
-        "주소지",
-        "사업주"
+      "type": "matching",
+      "questionBn": "বীমার সাথে তার উদ্দেশ্য মেলান।",
+      "pairs": [
+        {
+          "left": "산재보험",
+          "right": "근로 중 발생한 상해나 질병 보상"
+        },
+        {
+          "left": "출국만기보험",
+          "right": "외국인 근로자의 퇴직금 지급"
+        },
+        {
+          "left": "귀국비용보험",
+          "right": "귀국 시 필요한 비용 충당"
+        },
+        {
+          "left": "임금체불보증보험",
+          "right": "회사가 미지급한 체불 임금 보증"
+        }
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "실업 상태일 때 신청하는 것은 '실업급여' — প্রথমটি ঠিক।"
+      "explanationBn": "প্রতিটি বীমার আলাদা উদ্দেশ্য আছে।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '증빙서류를 ____해야 합니다.'",
-      "questionKo": "빈칸 채우기: '증빙서류를 ____해야 합니다.'",
+      "type": "multiple-choice",
+      "questionBn": "দুর্ঘটনা বা রোগের জন্য প্রস্তুতি হিসেবে প্রতি মাসে বীমা কোম্পানিকে দেওয়া টাকাকে কী বলে?",
       "options": [
-        "가입",
-        "제출",
-        "수급",
-        "심사"
+        "보상금",
+        "의료비",
+        "퇴직금",
+        "보험료"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "문맥상 '증빙서류를 제출해야 합니다.'가 맞으므로 첫 번째 '제출'।"
+      "answer": 3,
+      "explanationBn": "প্রতি মাসে বীমা কোম্পানিকে দেওয়া টাকা হলো '보험료' অর্থাৎ প্রিমিয়াম।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '회사에서 ____를 도와줍니다.' (보험 관련)",
-      "questionKo": "빈칸 채우기: '회사에서 ____를 도와줍니다.'",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 병원비가 많이 나올까 ( ) 걱정하고 있어요.",
       "options": [
-        "심사",
-        "수급자",
-        "가입",
-        "실업"
+        "서",
+        "면",
+        "도",
+        "봐"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "회사에서 도움 주는 것은 '가입'— বীমায় যোগদানে সহায়তা।"
+      "answer": 3,
+      "explanationBn": "'-(으)ㄹ까 봐' দিয়ে আশঙ্কা প্রকাশ করা হয়।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '심사 결과는 며칠 내에 ____됩니다.'",
-      "questionKo": "빈칸 채우기: '심사 결과는 며칠 내에 ____됩니다.'",
+      "type": "multiple-choice",
+      "questionBn": "কাজ করতে গিয়ে আহত হয়ে কাজ করতে না পারলে কী পাওয়া যায়?",
       "options": [
-        "제출",
-        "수급",
-        "가입",
-        "통보"
+        "휴업 급여",
+        "퇴직금",
+        "실업 급여",
+        "체불 임금"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "심사 결과는 '통보됩니다'가 자연스러우므로 첫 번째 '통보'।"
+      "answer": 0,
+      "explanationBn": "কাজ করতে গিয়ে আহত হয়ে কাজ করতে না পারলে '휴업 급여' অর্থাৎ কাজ বন্ধকালীন ভাতা পাওয়া যায়।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "কী মিলছে? (কোরিয়ান → বাংলা)",
-      "questionKo": "다음 단어와 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "고용보험",
-          "right": "কর্মসংস্থান বীমা"
-        },
-        {
-          "left": "실업급여",
-          "right": "বেকারত্ব ভাতা"
-        },
-        {
-          "left": "신청서",
-          "right": "আবেদনপত্র"
-        },
-        {
-          "left": "증빙서류",
-          "right": "প্রমাণ কাগজপত্র"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 상해보험에 가입해 ( ) 병원비 걱정은 안 해요.",
+      "options": [
+        "보고",
+        "놓아서",
+        "가서",
+        "두면"
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দের সঠিক বাংলা মিল দেওয়া আছে — মিল করুন।"
+      "answer": 1,
+      "explanationBn": "'-아/어 놓다' দিয়ে আগেই করে রাখা বোঝায়।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "কী মিলছে? (কোরিয়ান → English)",
-      "questionKo": "다음 단어와 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "사업주",
-          "right": "employer"
-        },
-        {
-          "left": "근로자",
-          "right": "worker"
-        },
-        {
-          "left": "제출하다",
-          "right": "to submit"
-        },
-        {
-          "left": "심사",
-          "right": "review"
-        },
-        {
-          "left": "상담",
-          "right": "consultation"
-        }
+      "type": "multiple-choice",
+      "questionBn": "চার প্রধান সামাজিক বীমার মধ্যে কোনটি পড়ে না?",
+      "options": [
+        "국민연금",
+        "건강보험",
+        "상해보험",
+        "고용보험"
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি জোড়ার মানে কোরিয়ান থেকে ইংরেজিতে দেওয়া আছে — মিল করুন।"
+      "answer": 2,
+      "explanationBn": "চার প্রধান সামাজিক বীমা হলো জাতীয় পেনশন, স্বাস্থ্য বীমা, কর্মসংস্থান বীমা ও শিল্প দুর্ঘটনা বীমা। আঘাতের বীমা বিদেশি শ্রমিকদের জন্য আলাদা।"
     },
     {
       "id": "p11",
       "type": "matching",
-      "questionBn": "সঠিক শব্দের সাথে অর্থ মিলান।",
+      "questionBn": "শব্দের সাথে বাংলা অর্থ মেলান।",
       "pairs": [
         {
-          "left": "고용보험",
-          "right": "কর্মসংস্থান বীমা"
+          "left": "보험료",
+          "right": "বীমার প্রিমিয়াম"
         },
         {
-          "left": "실업급여",
-          "right": "বেকারত্ব ভাতা"
+          "left": "보험금",
+          "right": "বীমার টাকা"
         },
         {
-          "left": "신분증",
-          "right": "পরিচয়পত্র"
+          "left": "진단서",
+          "right": "ডাক্তারি সনদ"
         },
         {
-          "left": "통장",
-          "right": "ব্যাংক বই"
+          "left": "일시금",
+          "right": "এককালীন পরিশোধ"
         }
       ],
-      "explanationBn": "고용보험 মানে কর্মসংস্থান বীমা, 실업급여 মানে বেকারত্ব ভাতা, 신분증 মানে পরিচয়পত্র, 통장 মানে ব্যাংক বই।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "explanationBn": "বীমা সংক্রান্ত মূল শব্দগুলো।"
     },
     {
       "id": "p12",
-      "type": "matching",
-      "questionBn": "সঠিক শব্দের সাথে অর্থ মিলান।",
-      "pairs": [
-        {
-          "left": "고용보험",
-          "right": "কর্মসংস্থান বীমা"
-        },
-        {
-          "left": "실업급여",
-          "right": "বেকারত্ব ভাতা"
-        },
-        {
-          "left": "신분증",
-          "right": "পরিচয়পত্র"
-        },
-        {
-          "left": "통장",
-          "right": "ব্যাংক বই"
-        }
+      "type": "multiple-choice",
+      "questionBn": "দেশে ফেরার খরচের বীমার প্রিমিয়াম কীভাবে দেওয়া যায়?",
+      "options": [
+        "일시금으로만 낼 수 있습니다.",
+        "매달 나누어서만 낼 수 있습니다.",
+        "회사에서 대신 냅니다.",
+        "일시금으로 내거나 3회 이내로 나누어 낼 수 있습니다."
       ],
-      "explanationBn": "고용보험 মানে কর্মসংস্থান বীমা, 실업급여 মানে বেকারত্ব ভাতা, 신분증 মানে পরিচয়পত্র, 통장 মানে ব্যাংক বই।",
-      "questionKo": "서로 맞는 것을 연결하세요."
+      "answer": 3,
+      "explanationBn": "একবারে বা তিন কিস্তির মধ্যে ভাগ করে দেওয়া যায়।"
     },
     {
       "id": "p13",
       "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "실업급여를 받으려면 ( )에 가입해야 합니다.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 외국인 근로자( ) 퇴직금을 받을 수 있어요.",
       "options": [
-        "건강보험",
-        "고용보험",
-        "산재보험",
-        "국민연금"
+        "이라도",
+        "라도",
+        "만",
+        "부터"
       ],
       "answer": 1,
-      "explanationBn": "বেকারত্ব ভাতা পেতে হলে কর্মসংস্থান বীমায় (고용보험) যোগ দিতে হবে।"
+      "explanationBn": "'자' স্বরান্ত, তাই '-라도' বসে। 'হলেও' অর্থে।"
     },
     {
       "id": "p14",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "실업급여를 받으려면 ( )에 가입해야 합니다.",
+      "type": "multiple-choice",
+      "questionBn": "কোম্পানি বন্ধ হয়ে বেতন না পেলে কী করতে হবে?",
       "options": [
-        "건강보험",
-        "고용보험",
-        "산재보험",
-        "국민연금"
+        "고용노동부에 신고 접수를 합니다.",
+        "아무것도 할 수 없습니다.",
+        "다시 취업할 때까지 기다립니다.",
+        "회사 사장님 집에 갑니다."
       ],
-      "answer": 1,
-      "explanationBn": "বেকারত্ব ভাতা পেতে হলে কর্মসংস্থান বীমায় (고용보험) যোগ দিতে হবে।"
+      "answer": 0,
+      "explanationBn": "কোম্পানি বন্ধ হয়ে বেতন না পেলে শ্রম কার্যালয়ে খবর দিতে হয়। বকেয়া মজুরির নিশ্চয়তা বীমা থাকলে টাকা পাওয়া যায়।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "শূন্যস্থানে সঠিক শব্দটি বসান।",
-      "questionKo": "실업급여를 받으려면 ( )에 가입해야 합니다.",
+      "type": "multiple-choice",
+      "questionBn": "দেশে ফেরার খরচের বীমার টাকা পেতে কী দরকার?",
       "options": [
-        "건강보험",
-        "고용보험",
-        "산재보험",
-        "국민연금"
+        "출국예정사실 확인서",
+        "진단서",
+        "사고 입증 서류",
+        "통합신청서"
       ],
-      "answer": 1,
-      "explanationBn": "বেকারত্ব ভাতা পেতে হলে কর্মসংস্থান বীমায় (고용보험) যোগ দিতে হবে।"
+      "answer": 0,
+      "explanationBn": "দেশে ফেরার খরচের বীমার টাকা পেতে দেশত্যাগের পরিকল্পনার প্রত্যয়নপত্র লাগে।"
     },
     {
       "id": "p16",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 실업급여를 신청할 때 필요한 서류가 아닌 것은 무엇입니까?",
-      "questionKo": "다음 중 실업급여를 신청할 때 필요한 서류가 아닌 것은 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 기계가 갑자기 고장이 ( ) 늦게 퇴근했어요.",
       "options": [
-        "신분증",
-        "통장 사본",
-        "이직확인서",
-        "비행기 표"
+        "나서 그런지",
+        "나는 바람에",
+        "나려면",
+        "날까 봐"
       ],
-      "answer": 3,
-      "explanationBn": "বেকারত্ব ভাতা আবেদনের জন্য পরিচয়পত্র, ব্যাংক বইয়ের কপি এবং চাকরি ছাড়ার নিশ্চিতকরণ পত্র প্রয়োজন। বিমানের টিকিট (비행기 표) প্রয়োজন নেই।"
+      "answer": 1,
+      "explanationBn": "'-는 바람에' দিয়ে অপ্রত্যাশিত ফলের কারণ বোঝায়।"
     },
     {
       "id": "p17",
-      "type": "multiple-choice",
-      "questionBn": "다음 중 실업급여를 신청할 때 필요한 서류가 아닌 것은 무엇입니까?",
-      "questionKo": "다음 중 실업급여를 신청할 때 필요한 서류가 아닌 것은 무엇입니까?",
-      "options": [
-        "신분증",
-        "통장 사본",
-        "이직확인서",
-        "비행기 표"
+      "type": "matching",
+      "questionBn": "অবস্থার সাথে সঠিক বীমা মেলান।",
+      "pairs": [
+        {
+          "left": "일하다가 다쳤어요.",
+          "right": "산재보험"
+        },
+        {
+          "left": "주말에 축구하다가 다쳤어요.",
+          "right": "상해보험"
+        },
+        {
+          "left": "회사에서 월급을 못 받았어요.",
+          "right": "임금체불보증보험"
+        },
+        {
+          "left": "고향에 돌아갈 비용이 필요해요.",
+          "right": "귀국비용보험"
+        }
       ],
-      "answer": 3,
-      "explanationBn": "বেকারত্ব ভাতা আবেদনের জন্য পরিচয়পত্র, ব্যাংক বইয়ের কপি এবং চাকরি ছাড়ার নিশ্চিতকরণ পত্র প্রয়োজন। বিমানের টিকিট (비행기 표) প্রয়োজন নেই।"
+      "explanationBn": "কাজের সময়ের দুর্ঘটনায় শিল্প দুর্ঘটনা বীমা, কাজের বাইরে আঘাতের বীমা।"
     },
     {
       "id": "p18",
       "type": "multiple-choice",
-      "questionBn": "다음 중 실업급여를 신청할 때 필요한 서류가 아닌 것은 무엇입니까?",
-      "questionKo": "다음 중 실업급여를 신청할 때 필요한 서류가 아닌 것은 무엇입니까?",
+      "questionBn": "নিচের কোন বাক্যে নিম্নরেখ অংশটি সঠিক তা বেছে নিন।",
       "options": [
-        "신분증",
-        "통장 사본",
-        "이직확인서",
-        "비행기 표"
+        "벼를 베으려면 낫이 있어야 해요.",
+        "철사를 펴으려면 플라이어가 필요해요.",
+        "체류 기간을 연장해려면 신청서를 내야 돼요.",
+        "보험금을 받으려면 통장 사본을 주셔야 해요."
       ],
       "answer": 3,
-      "explanationBn": "বেকারত্ব ভাতা আবেদনের জন্য পরিচয়পত্র, ব্যাংক বইয়ের কপি এবং চাকরি ছাড়ার নিশ্চিতকরণ পত্র প্রয়োজন। বিমানের টিকিট (비행기 표) প্রয়োজন নেই।"
+      "explanationBn": "'받다' ব্যঞ্জনান্ত, তাই '받으려면' সঠিক। বাকিগুলোতে রূপ ভুল।"
     },
     {
       "id": "p19",
-      "type": "multiple-choice",
-      "questionBn": "빈칸에 들어갈 알맞은 말을 고르십시오.",
-      "questionKo": "가: 실업급여를 신청하려면 어디로 가야 해요?\n나: ( )에 가야 해요.",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 상해보험을 청구하려면 사고를 ( ) 수 있는 서류가 필요해요.",
       "options": [
-        "우체국",
-        "경찰서",
-        "고용센터",
-        "소방서"
+        "입증한",
+        "입증하는",
+        "입증할",
+        "입증해"
       ],
       "answer": 2,
-      "explanationBn": "বেকারত্ব ভাতার জন্য কর্মসংস্থান কেন্দ্রে (고용센터) যেতে হবে।"
+      "explanationBn": "'-(으)ㄹ 수 있다' গঠনে '-(으)ㄹ' রূপ বসে।"
     },
     {
       "id": "p20",
       "type": "multiple-choice",
-      "questionBn": "빈칸에 들어갈 알맞은 말을 고르십시오.",
-      "questionKo": "가: 실업급여를 신청하려면 어디로 가야 해요?\n나: ( )에 가야 해요.",
+      "questionBn": "বিদেশি শ্রমিক অবসরকালীন টাকা পেতে কত বছরের বেশি কাজ করতে হয়?",
       "options": [
-        "우체국",
-        "경찰서",
-        "고용센터",
-        "소방서"
+        "6개월",
+        "일 년",
+        "이 년",
+        "삼 년"
       ],
-      "answer": 2,
-      "explanationBn": "বেকারত্ব ভাতার জন্য কর্মসংস্থান কেন্দ্রে (고용센터) যেতে হবে।"
+      "answer": 1,
+      "explanationBn": "এক বছরের বেশি কাজ করলে অবসরকালীন টাকা পাওয়া যায়।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "পাঠটি পড়ে প্রশ্নের সঠিক উত্তর চিহ্নিত করুন।",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "김씨는 지난달 회사를 그만두고 고용센터에 갔습니다. 상담 후 실업급여 신청서를 작성했고 증빙서류를 준비하라고 들었습니다.",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "questionBn": "নিচের কোন বাক্যটি সঠিক তা বেছে নিন।",
       "options": [
-        "김씨는 회사를 다니고 있다.",
-        "김씨는 실업급여 신청서를 작성했다.",
-        "고용센터에서 증빙서류를 필요로 하지 않았다.",
-        "김씨는 상담을 받지 않았다."
+        "벼를 베으려면 낫이 있어야 해요.",
+        "철사를 펴으려면 플라이어가 필요해요.",
+        "체류 기간을 연장해려면 신청서를 내야 돼요.",
+        "보험금을 받으려면 통장 사본을 주셔야 해요."
       ],
-      "answer": 1,
-      "explanationBn": "পাঠে বলা আছে 김씨가 신청서를 작성했고 상담 পেয়েছেন, তাই প্রথমটি সঠিক।"
+      "answer": 3,
+      "explanationBn": "'받다' ব্যঞ্জনান্ত মূল, তাই '받으려면' সঠিক। বাকিগুলোতে '-(으)려면' এর রূপ ভুল।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "পাঠটি পড়ে সঠিক বিকল্প নির্বাচন করুন।",
-      "questionKo": "다음 글을 읽고 옳은 것을 고르세요.",
-      "passage": "회사에서 보험료를 일부 공제하고 사업주도 일부 부담합니다. 직원은 가입 서류를 제출해야 합니다.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "passage": "일을 하다가 허리를 다쳐서 지난달부터 회사에 나가지 못하고 있습니다. 일을 못 하고 있지만 산재보험에 가입돼 있어서 ( )을/를 받을 수 있다고 합니다.",
       "options": [
-        "직원은 가입 서류를 제출해야 한다.",
-        "보험료는 전혀 공제되지 않는다.",
-        "가입은 직원 의무가 아니다.",
-        "사업주는 보험료를 전액 부담한다."
+        "퇴직금",
+        "실업 급여",
+        "체불 임금",
+        "휴업 급여"
       ],
-      "answer": 0,
-      "explanationBn": "পাঠে বলা আছে 직원কে 가입 서류 জমা দিতে হবে — দ্বিতীয়টি সঠিক।"
+      "answer": 3,
+      "explanationBn": "কাজের সময় আহত হয়ে কাজ করতে না পারলে '휴업 급여' পাওয়া যায়।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "পাঠটি পড়ে সঠিক উত্তরটি বেছে নিন।",
-      "questionKo": "다음 글을 읽고 질문에 답하세요.",
-      "passage": "실업인정을 받으려면 구직활동 기록을 제출해야 하고 상담을 받아야 합니다. 심사 후 결과가 통보됩니다.",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন বিষয়ে?",
+      "passage": "사고가 나거나 질병에 걸렸을 때를 대비해 매달 보험사에 내는 돈입니다.",
       "options": [
-        "구직활동 기록을 제출하지 않아도 된다.",
-        "상담은 선택 사항이다.",
-        "실업인정은 즉시 자동으로 된다.",
-        "심사 후 결과가 통보된다."
+        "보상금",
+        "보험료",
+        "의료비",
+        "퇴직금"
       ],
-      "answer": 3,
-      "explanationBn": "পাঠে বলা আছে 심사 후 결과 통보 হয় — দ্বিতীয়টি সঠিক।"
+      "answer": 1,
+      "explanationBn": "প্রতি মাসে বীমা কোম্পানিকে দেওয়া টাকা হলো '보험료'।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "পাঠ থেকে উপসংহার টানুন ও সঠিকটি চিহ্নিত করুন।",
-      "questionKo": "다음 글을 읽고 알맞은 것을 고르세요.",
-      "passage": "신청서에는 인적사항과 주소지, 근로 기간 등을 정확히 적어야 합니다. 주소지를 증명하는 서류를 준비하세요.",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "questionBn": "লেখাটি পড়ে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "passage": "고용허가제로 입국하는 모든 외국인 근로자는 4대 사회보험과 외국인 근로자 전용 보험에 가입해야 합니다. 4대 사회보험 중 산재보험은 사업주만 가입하면 되지만 국민연금, 건강보험, 고용보험은 사업주와 근로자가 같이 가입해야 합니다. 그리고 외국인 근로자 전용 보험 중 귀국비용보험과 상해보험은 외국인 근로자만 가입할 수 있습니다.",
       "options": [
-        "근로 기간은 적지 않아도 된다.",
-        "신청서에 인적사항을 쓰지 않는다.",
-        "주소지를 증명하는 서류가 필요하다.",
-        "신청서에 주소지는 중요하지 않다."
+        "산재보험은 근로자도 가입해야 합니다.",
+        "사업주는 4대 사회보험 모두 가입해야 합니다.",
+        "근로자는 외국인 근로자 전용 보험만 가입하면 됩니다.",
+        "고용보험과 상해보험은 외국인 근로자만 가입하는 보험입니다."
       ],
-      "answer": 2,
-      "explanationBn": "পাঠে ঠিকই বলা আছে ঠিকানা প্রমাণ কাগজ লাগবে — দ্বিতীয়টি সঠিক।"
+      "answer": 1,
+      "explanationBn": "মালিক চার প্রধান সামাজিক বীমার সবগুলোতে যোগ দেন। শিল্প দুর্ঘটনা বীমায় শ্রমিক যোগ দেন না।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "পাঠটি পড়ে সঠিক উত্তরের নম্বর নির্ণয় করুন।",
-      "questionKo": "다음 글을 읽고 옳은 것을 고르세요.",
-      "passage": "고용센터 상담사는 실업급여 관련 절차를 설명하고 필요한 서류 목록을 줍니다. 문의하면 도움을 받을 수 있습니다.",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "questionBn": "লেখাটি পড়ে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "passage": "자야: 귀국하기 전에 보험금 신청을 해야 한다고 들었어요. 어떻게 하면 돼요?\n아궁: 출국예정사실 확인서를 준비해서 신청하세요.",
       "options": [
-        "도움을 받을 수 없다.",
-        "고용센터는 상담을 제공한다.",
-        "서류 목록은 주지 않는다.",
-        "실업급여 절차를 설명하지 않는다."
+        "자야 씨는 지금 고향에 있습니다.",
+        "자야 씨는 보험금을 이미 받았습니다.",
+        "자야 씨는 보험금 신청 방법을 알고 싶어 합니다.",
+        "아궁 씨는 출국예정사실 확인서를 가지고 올 겁니다."
       ],
-      "answer": 1,
-      "explanationBn": "পাঠে বলা আছে 상담 দেয় এবং 서류 তালিকা দেয় — প্রথমটি সঠিক।"
+      "answer": 2,
+      "explanationBn": "জায়া বীমার টাকা আবেদনের পদ্ধতি জানতে চান। তিনি এখনো কোরিয়ায় আছেন।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "নিচের সংলাপ শুনে প্রশ্নের সঠিক উত্তর চিহ্নিত করুন।",
-      "questionKo": "다음 대화를 듣고 물음에 답하세요.",
-      "passage": "남자: 신청서를 제출했나요?\n여자: 네, 어제 창구에 제출했습니다.\n남자: 증빙서류도 같이요?\n여자: 네, 급여명세서와 계약서를 냈습니다.",
+      "section": "reading",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "questionBn": "পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "passage": "일을 마치고 집으로 돌아갈 때 필요한 비용을 준비하기 위해서 ( )에 가입했습니다.",
       "options": [
-        "B는 어제 신청서를 제출했다.",
-        "A가 신청서를 제출했다.",
-        "B는 신청서를 제출하지 않았다.",
-        "B는 증빙서류를 제출하지 않았다."
+        "출국만기보험",
+        "귀국비용보험",
+        "산재보험",
+        "임금체불보증보험"
       ],
-      "answer": 0,
-      "explanationBn": "대화에서 B가 '어제 창구에 제출했습니다'라고 했으므로 দ্বিতীয়টি সঠিক।"
+      "answer": 1,
+      "explanationBn": "দেশে ফেরার খরচ প্রস্তুত করার বীমা হলো '귀국비용보험'।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "সংলাপ শুনে সঠিক উত্তর দিন।",
-      "questionKo": "다음 대화를 듣고 물음에 답하세요.",
-      "passage": "실업급여 신청은 방문 접수와 온라인 둘 다 가능합니다. 방문 오시면 상담 도와드려요.",
+      "section": "reading",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন বীমার?",
+      "passage": "근로 중 발생한 상해나 질병에 대해 국가가 근로자와 그 가족의 생활을 보장하는 보험입니다.",
       "options": [
-        "방문하면 상담을 받을 수 없다.",
-        "실업급여 신청은 오직 우편으로만 가능하다.",
-        "온라인 신청은 불가능하다.",
-        "실업급여 신청은 방문과 온라인 모두 가능하다."
+        "국민연금",
+        "건강보험",
+        "산재보험",
+        "고용보험"
       ],
-      "answer": 3,
-      "explanationBn": "대화에서 방문과 온라인 둘 다 가능하다고 했으니 দ্বিতীয়টি সঠিক।"
+      "answer": 2,
+      "explanationBn": "কাজের সময়ের আঘাত বা রোগের জন্য রাষ্ট্র জীবনযাত্রার নিশ্চয়তা দেয় '산재보험' দিয়ে।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "নিচের কথাগুলো শুনে প্রশ্নের সঠিক উত্তর নির্বাচন করুন।",
-      "questionKo": "다음 문장을 듣고 질문에 답하세요.",
-      "passage": "서류를 모두 준비하셨다면 창구에서 제출하세요. 제출 후에는 심사가 시작됩니다.",
+      "section": "reading",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "questionBn": "পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "passage": "주말에 축구를 하다가 다리를 다쳤습니다. 다행히 ( )에 가입해 놓아서 병원비 걱정은 안 해도 됩니다.",
       "options": [
-        "창구에서는 서류를 받지 않는다.",
-        "심사는 제출 전에 시작된다.",
-        "서류 준비 후 창구에 제출하면 심사가 시작된다.",
-        "제출하면 심사가 필요 없다."
+        "산재보험",
+        "고용보험",
+        "상해보험",
+        "출국만기보험"
       ],
       "answer": 2,
-      "explanationBn": "문장에서 제출 후 심사가 시작된다고 하므로 দ্বিতীয়টি সঠিক।"
+      "explanationBn": "কাজের বাইরের দুর্ঘটনায় '상해보험' অর্থাৎ আঘাতের বীমা কাজে লাগে।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "저는 어제 회사에서 퇴직했습니다. 그래서 오늘 실업급여를 신청하려고 ( )에 갔습니다.",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "questionBn": "লেখাটি পড়ে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "passage": "지난번 회사에서 못 받은 월급이 있어서 임금체불보증보험금을 신청하고 왔습니다. 그동안 못 받은 월급을 다 받을 수 있다고 합니다.",
       "options": [
-        "고용센터",
-        "우체국",
-        "경찰서",
-        "병원"
+        "이 사람은 못 받은 월급을 받을 수 있습니다.",
+        "이 사람은 월급을 모두 받았습니다.",
+        "이 사람은 보험금을 신청하지 않았습니다.",
+        "이 사람은 지금 회사에서 월급을 못 받습니다."
       ],
       "answer": 0,
-      "explanationBn": "বেকারত্ব ভাতা আবেদনের জন্য কর্মসংস্থান কেন্দ্রে (고용센터) যেতে হয়।"
+      "explanationBn": "বকেয়া মজুরির নিশ্চয়তা বীমার টাকার আবেদন করে সব বকেয়া বেতন পাওয়া যাবে।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "저는 어제 회사에서 퇴직했습니다. 그래서 오늘 실업급여를 신청하려고 ( )에 갔습니다.",
+      "questionKo": "다음 중 외국인 근로자 전용 보험이 아닌 것을 고르십시오.",
+      "questionBn": "যেটি বিদেশি শ্রমিকদের বিশেষ বীমা নয় তা বেছে নিন।",
       "options": [
-        "우체국",
-        "경찰서",
-        "고용센터",
-        "병원"
+        "출국만기보험",
+        "임금체불보증보험",
+        "국민연금",
+        "귀국비용보험"
       ],
       "answer": 2,
-      "explanationBn": "বেকারত্ব ভাতা আবেদনের জন্য কর্মসংস্থান কেন্দ্রে (고용센터) যেতে হয়।"
+      "explanationBn": "জাতীয় পেনশন চার প্রধান সামাজিক বীমার একটি, বিদেশি শ্রমিকদের বিশেষ বীমা নয়।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "저는 어제 회사에서 퇴직했습니다. 그래서 오늘 실업급여를 신청하려고 ( )에 갔습니다.",
+      "section": "listening",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "questionBn": "শুনে প্রশ্নের সঠিক উত্তর বেছে নিন।",
+      "passage": "남자: 보험금을 받았어요?",
       "options": [
-        "우체국",
-        "병원",
-        "경찰서",
-        "고용센터"
+        "아니요, 보험금을 못 받았어요.",
+        "네, 보험금을 안 냈어요.",
+        "네, 보험금을 신청할 거예요.",
+        "아니요, 보험금이 많지 않아요."
       ],
-      "answer": 3,
-      "explanationBn": "বেকারত্ব ভাতা আবেদনের জন্য কর্মসংস্থান কেন্দ্রে (고용센터) যেতে হয়।"
+      "answer": 0,
+      "explanationBn": "টাকা পেয়েছেন কিনা জিজ্ঞাসায় 'না, পাইনি' সঙ্গত। বাকিগুলো প্রশ্নের সাথে মেলে না।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "저는 어제 회사에서 퇴직했습니다. 그래서 오늘 실업급여를 신청하려고 ( )에 갔습니다.",
+      "section": "listening",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "questionBn": "শুনে প্রশ্নের সঠিক উত্তর বেছে নিন।",
+      "passage": "여자: 누가 보험금을 청구했어요?",
       "options": [
-        "고용센터",
-        "우체국",
-        "경찰서",
-        "병원"
+        "어제 했어요.",
+        "퇴근 후에 했어요.",
+        "칼로 씨가 했어요.",
+        "인터넷으로 했어요."
       ],
-      "answer": 0,
-      "explanationBn": "বেকারত্ব ভাতা আবেদনের জন্য কর্মসংস্থান কেন্দ্রে (고용센터) যেতে হয়।"
+      "answer": 2,
+      "explanationBn": "'누가' ব্যক্তি জিজ্ঞাসা করে, তাই নাম বলা উত্তর সঠিক। বাকিগুলো সময় ও পদ্ধতি বলে।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "저는 어제 회사에서 퇴직했습니다. 그래서 오늘 실업급여를 신청하려고 ( )에 갔습니다.",
+      "section": "listening",
+      "questionKo": "두 사람은 무엇에 대해 말하고 있습니까?",
+      "questionBn": "দুজন কী নিয়ে কথা বলছেন?",
+      "passage": "남자: 귀국비용보험에 가입하고 싶은데 몇 번을 내야 돼요?\n여자: 세 번에 나눠서 내거나 한꺼번에 낼 수도 있어요.",
       "options": [
-        "우체국",
-        "경찰서",
-        "고용센터",
-        "병원"
+        "납입 횟수",
+        "납입 방법",
+        "납입 날짜",
+        "납입 금액"
       ],
-      "answer": 2,
-      "explanationBn": "বেকারত্ব ভাতা আবেদনের জন্য কর্মসংস্থান কেন্দ্রে (고용센터) যেতে হয়।"
+      "answer": 0,
+      "explanationBn": "কত কিস্তিতে দিতে হবে সেই আলোচনা, তাই '납입 횟수' অর্থাৎ কিস্তির সংখ্যা।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 실업급여를 신청하러 왔는데요.\n남자: 네, 신분증과 통장 사본을 주시겠어요?",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "questionBn": "শোনা কথার সাথে মিল আছে এমন বাক্য কোনটি?",
+      "passage": "여자: 회사 사정이 어려워져서 문을 닫았어요. 그래서 두 달째 월급을 못 받고 있어요.\n남자: 그럼 고용노동부에 가서 신고 접수부터 하세요. 회사에서 임금체불보증보험에 가입해 두었으면 밀린 월급을 받을 수 있을 거예요.",
       "options": [
-        "여자는 지금 병원에 있습니다.",
-        "여자는 신분증을 잃어버렸습니다.",
-        "남자는 통장을 만들려고 합니다.",
-        "여자는 실업급여를 신청하려고 합니다."
+        "여자는 회사에서 일한 적이 없습니다.",
+        "여자는 고용노동부에 갈 것입니다.",
+        "여자는 신고를 하고 월급을 받았습니다.",
+        "여자는 임금체불보증보험에 가입했습니다."
       ],
-      "answer": 3,
-      "explanationBn": "মহিলাটি বলেছেন যে তিনি বেকারত্ব ভাতার জন্য আবেদন করতে এসেছেন।"
+      "answer": 1,
+      "explanationBn": "পুরুষটি শ্রম কার্যালয়ে যেতে বলেছেন, তাই মহিলা যাবেন। তিনি এখনো খবর দেননি, আর বীমায় মালিক যোগ দেন।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 실업급여를 신청하러 왔는데요.\n남자: 네, 신분증과 통장 사본을 주시겠어요?",
+      "questionKo": "남자가 여자를 찾아온 이유는 무엇입니까?",
+      "questionBn": "পুরুষটি মহিলার কাছে কেন এসেছেন?",
+      "passage": "남자: 외국인 근로자도 한 회사에서 일 년 이상 일하면 퇴직금을 받을 수 있어요?\n여자: 그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요.\n남자: 제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요?\n여자: 일하던 회사에 가서 직접 요청하셔야 돼요.",
       "options": [
-        "여자는 실업급여를 신청하려고 합니다.",
-        "여자는 지금 병원에 있습니다.",
-        "남자는 통장을 만들려고 합니다.",
-        "여자는 신분증을 잃어버렸습니다."
+        "회사를 옮기고 싶어서",
+        "보험에 가입하고 싶어서",
+        "보험금 납입 방법을 알고 싶어서",
+        "퇴직금을 신청하고 싶어서"
       ],
-      "answer": 0,
-      "explanationBn": "মহিলাটি বলেছেন যে তিনি বেকারত্ব ভাতার জন্য আবেদন করতে এসেছেন।"
+      "answer": 3,
+      "explanationBn": "পুরুষটি অবসরকালীন টাকার আবেদন পদ্ধতি জানতে এসেছেন। কোম্পানি ইতিমধ্যে বদলেছেন।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 실업급여를 신청하러 왔는데요.\n남자: 네, 신분증과 통장 사본을 주시겠어요?",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে পরবর্তী সবচেয়ে উপযুক্ত বাক্যটি বেছে নিন।",
+      "passage": "남자: 친구가 작업하다가 다리를 다치는 바람에 입원했어요. 병원비가 걱정이에요.\n여자: 일하다가 다쳤으면 산재보험금을 받을 수 있어요.",
       "options": [
-        "여자는 지금 병원에 있습니다.",
-        "여자는 실업급여를 신청하려고 합니다.",
-        "남자는 통장을 만들려고 합니다.",
-        "여자는 신분증을 잃어버렸습니다."
+        "그래요? 친구한테 빨리 알려 줘야겠어요.",
+        "그래요? 그럼 병원비를 다 내야겠어요.",
+        "그래요? 친구가 보험에 가입해야겠어요.",
+        "그래요? 그럼 회사를 옮겨야겠어요."
       ],
-      "answer": 1,
-      "explanationBn": "মহিলাটি বলেছেন যে তিনি বেকারত্ব ভাতার জন্য আবেদন করতে এসেছেন।"
+      "answer": 0,
+      "explanationBn": "বীমার টাকা পাওয়া যাবে শুনে বন্ধুকে জানানোর কথা বলা সঙ্গত।"
     }
   ]
 }

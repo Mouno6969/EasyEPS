@@ -20,7 +20,7 @@
         "ko": "기본 자음",
         "en": "Basic Consonants"
       },
-      "estimatedMinutes": 20
+      "estimatedMinutes": 30
     },
     {
       "id": "vowels",
@@ -30,7 +30,7 @@
         "ko": "기본 모음",
         "en": "Basic Vowels"
       },
-      "estimatedMinutes": 15
+      "estimatedMinutes": 28
     },
     {
       "id": "syllables",
@@ -40,7 +40,7 @@
         "ko": "음절 만들기",
         "en": "Building Syllables"
       },
-      "estimatedMinutes": 15
+      "estimatedMinutes": 22
     },
     {
       "id": "batchim",
@@ -50,7 +50,7 @@
         "ko": "받침 입문",
         "en": "Final Consonants Intro"
       },
-      "estimatedMinutes": 12
+      "estimatedMinutes": 18
     },
     {
       "id": "speak-lab",
@@ -60,7 +60,7 @@
         "ko": "발음 연습",
         "en": "Speak Lab"
       },
-      "estimatedMinutes": 15
+      "estimatedMinutes": 26
     },
     {
       "id": "write-lab",
@@ -70,17 +70,47 @@
         "ko": "쓰기 연습",
         "en": "Write Lab"
       },
-      "estimatedMinutes": 15
+      "estimatedMinutes": 25
+    },
+    {
+      "id": "survival-phrases",
+      "order": 7,
+      "title": {
+        "bn": "দরকারি বাক্য",
+        "ko": "기본 인사말",
+        "en": "Survival Phrases"
+      },
+      "estimatedMinutes": 20
+    },
+    {
+      "id": "my-name-is",
+      "order": 8,
+      "title": {
+        "bn": "আমার নাম",
+        "ko": "이름 말하기",
+        "en": "My Name Is"
+      },
+      "estimatedMinutes": 20
+    },
+    {
+      "id": "simple-sentences",
+      "order": 9,
+      "title": {
+        "bn": "সহজ বাক্য",
+        "ko": "간단한 문장",
+        "en": "Simple Sentences"
+      },
+      "estimatedMinutes": 25
     },
     {
       "id": "checkpoint",
-      "order": 7,
+      "order": 10,
       "title": {
         "bn": "বেসিক পরীক্ষা",
         "ko": "기초 확인",
         "en": "Basics Check"
       },
-      "estimatedMinutes": 10
+      "estimatedMinutes": 12
     }
   ]
 }

@@ -10,662 +10,706 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "অভিবাসন সম্পর্কিত সহজ কথাবার্তা বুঝতে এবং বলার ক্ষমতা অর্জন করা।",
-      "ভিসা, 체류기간 এবং 재류カード সম্পর্কিত সাধারণ শব্দভাণ্ডার শিখা।",
-      "সরল নির্দেশনা (উদাহরণ: 연장해야 합니다, 신고해야 합니다) বুঝতে পারা।"
+      "বিদেশি নিবন্ধনের প্রক্রিয়া নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "অবস্থানের মেয়াদ বাড়ানোর পদ্ধতি নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা",
+      "'-더라도' দিয়ে 'যদিও এমন হয়' বোঝাতে পারা",
+      "'-는지/(으)ㄴ지' দিয়ে অনিশ্চিত কারণ অনুমান করতে পারা"
     ],
     "en": [
-      "Understand and use basic immigration-related phrases.",
-      "Learn common vocabulary about visas, period of stay, and residence cards.",
-      "Comprehend simple instructions (e.g., 'must extend', 'must report') in everyday and workplace situations."
+      "Can ask and answer questions about the foreigner registration procedure",
+      "Can ask and answer questions about how to extend one's period of stay",
+      "Can express 'even if' using -더라도",
+      "Can speculate about an uncertain reason using -는지/(으)ㄴ지"
     ]
   },
   "vocabulary": [
     {
       "ko": "출입국관리법",
-      "romanization": "chulipguk gwanribeop",
+      "romanization": "churipgukgwallibeop",
       "bn": "অভিবাসন আইন",
       "en": "Immigration Act",
       "pos": "noun",
       "example": {
-        "ko": "출입국관리법은 체류 규정을 정합니다.",
-        "bn": "অভিবাসন আইন বাসস্থানের নিয়ম ঠিক করে।",
-        "en": "The Immigration Act sets rules for stay."
+        "ko": "출입국관리법에 따라 외국인 등록을 해야 합니다.",
+        "bn": "অভিবাসন আইন অনুযায়ী বিদেশি নিবন্ধন করতে হয়।",
+        "en": "You must register as a foreigner under the Immigration Act."
       },
-      "pronunciationTipBn": "'출' এর 'ㅊ' একটু বাতাস দিয়ে উচ্চারণ করুন, '법' এর 'ㅂ' শেষে 'প' এর মতো শোনাবে।"
+      "pronunciationTipBn": "'출입' এর 'ㄹ' পরের স্বরে গিয়ে [추립꾹] হয়।"
     },
     {
-      "ko": "비자",
-      "romanization": "bija",
-      "bn": "ভিসা",
-      "en": "visa",
+      "ko": "외국인 등록",
+      "romanization": "oegugin deungnok",
+      "bn": "বিদেশি নিবন্ধন",
+      "en": "foreigner registration",
       "pos": "noun",
       "example": {
-        "ko": "비자 만료 전에 연장 신청하세요.",
-        "bn": "ভিসা শেষ হওয়ার আগে নবায়নের জন্য আবেদন করুন।",
-        "en": "Apply to extend your visa before it expires."
+        "ko": "입국하고 90일 이내에 외국인 등록을 해야 돼요.",
+        "bn": "দেশে প্রবেশের ৯০ দিনের মধ্যে বিদেশি নিবন্ধন করতে হয়।",
+        "en": "You must complete foreigner registration within 90 days of entry."
       },
-      "pronunciationTipBn": "'비' এর 'ㅂ' নরমভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'등록' এর 'ㄱ' এর পরে 'ㄹ' এলে [등녹] হয়।"
     },
     {
-      "ko": "체류기간",
-      "romanization": "cheryugigan",
-      "bn": "থাকবার সময়",
-      "en": "period of stay",
-      "pos": "noun",
-      "example": {
-        "ko": "체류기간을 확인하세요.",
-        "bn": "থাকবার সময় যাচাই করুন।",
-        "en": "Check your period of stay."
-      },
-      "pronunciationTipBn": "'체' এর 'ㅊ' বাতাস দিয়ে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "체류자격",
-      "romanization": "cheryujagyeok",
-      "bn": "থাকার যোগ্যতা/자격",
-      "en": "status of stay",
-      "pos": "noun",
-      "example": {
-        "ko": "체류자격에 따라 일할 수 있는지 달라집니다.",
-        "bn": "থাকার ধরণ অনুযায়ী কাজ করা যাবে কি না নির্ধারিত হয়।",
-        "en": "Whether you can work depends on your status of stay."
-      },
-      "pronunciationTipBn": "'자' এর 'ㅈ' নরমভাবে উচ্চারণ করুন, '격' এর 'ㄱ' শেষে 'ক' এর মতো শোনাবে।"
-    },
-    {
-      "ko": "입국",
-      "romanization": "ipguk",
-      "bn": "দেশে প্রবেশ",
-      "en": "entry / arrival",
-      "pos": "noun",
-      "example": {
-        "ko": "입국 심사에서 여권을 보여 주세요.",
-        "bn": "প্রবেশ পরীক্ষায় পাসপোর্ট দেখান।",
-        "en": "Show your passport at the entry inspection."
-      },
-      "pronunciationTipBn": "'입' এর 'ㅂ' শেষে 'প' এর মতো, '국' এর 'ㄱ' শেষে 'ক' এর মতো শোনাবে।"
-    },
-    {
-      "ko": "출국",
-      "romanization": "chulguk",
-      "bn": "দেশ ত্যাগ/প্রস্থান",
-      "en": "departure",
-      "pos": "noun",
-      "example": {
-        "ko": "출국 전에 체류 기록을 확인하세요.",
-        "bn": "প্রস্থান করার আগে থাকা-বিশদ বিবরণ যাচাই করুন।",
-        "en": "Check your stay records before departure."
-      },
-      "pronunciationTipBn": "'출' এর 'ㅊ' বাতাস দিয়ে উচ্চারণ করুন, '국' এর 'ㄱ' শেষে 'ক' এর মতো শোনাবে।"
-    },
-    {
-      "ko": "연장",
-      "romanization": "yeonjang",
-      "bn": "বর্ধিত করা/নবায়ন",
-      "en": "extension",
-      "pos": "noun",
-      "example": {
-        "ko": "체류기간 연장을 신청했습니다.",
-        "bn": "থাকার সময় বাড়ানোর জন্য আবেদন করেছি।",
-        "en": "I applied for an extension of my stay."
-      },
-      "pronunciationTipBn": "'연' এর 'ㄴ' এবং '장' এর 'ㅇ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "신고",
-      "romanization": "singo",
-      "bn": "প্রতিবেদন/নোটিশ করা",
-      "en": "report / notify",
-      "pos": "verb",
-      "example": {
-        "ko": "주소 변경은 14일 이내에 신고해야 합니다.",
-        "bn": "ঠিকানা বদল 14 দিনের মধ্যে জানাতে হবে।",
-        "en": "You must report an address change within 14 days."
-      },
-      "pronunciationTipBn": "'신' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "외국인등록증",
+      "ko": "외국인 등록증",
       "romanization": "oegugin deungnokjeung",
       "bn": "বিদেশি নিবন্ধন কার্ড",
-      "en": "foreigner registration card",
-      "pos": "noun",
-      "example": {
-        "ko": "외국인등록증을 항상 소지하세요.",
-        "bn": "বিদেশি নিবন্ধন কার্ড সবসময় সাথে রাখুন।",
-        "en": "Always carry your foreigner registration card."
-      },
-      "pronunciationTipBn": "'외' এর উচ্চারণ 'ওয়ে' এর মতো, '증' এর 'ㅈ' নরমভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "재류카드",
-      "romanization": "jaeryu kadeu",
-      "bn": "রেসিডেন্স কার্ড",
       "en": "residence card",
       "pos": "noun",
       "example": {
-        "ko": "재류카드에 주소를 적어 두세요.",
-        "bn": "রেসিডেন্স কার্ডে ঠিকানা লিখে রাখুন।",
-        "en": "Write your address on the residence card."
+        "ko": "외국인 등록증을 발급받는 방법 알아요?",
+        "bn": "বিদেশি নিবন্ধন কার্ড পাওয়ার উপায় জানেন?",
+        "en": "Do you know how to get a residence card?"
       },
-      "pronunciationTipBn": "'재' এর 'ㅈ' নরমভাবে উচ্চারণ করুন, '카' এর 'ㅋ' বাতাস দিয়ে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'록증' এর 'ㄱ' এর পরে 'ㅈ' এলে [등녹쯩] শক্ত হয়।"
     },
     {
-      "ko": "불법체류",
-      "romanization": "bulbeop cheryu",
-      "bn": "অবৈধ অবস্থান/ইলিগ্যাল স্টে",
-      "en": "illegal stay / overstaying",
+      "ko": "통합신청서",
+      "romanization": "tonghapsincheongseo",
+      "bn": "সমন্বিত আবেদনপত্র",
+      "en": "integrated application form",
       "pos": "noun",
       "example": {
-        "ko": "불법체류는 문제를 일으킬 수 있습니다.",
-        "bn": "অবৈধ থাকা সমস্যার কারণ হতে পারে।",
-        "en": "Illegal stay can cause problems."
+        "ko": "먼저 통합신청서를 작성해야 합니다.",
+        "bn": "প্রথমে সমন্বিত আবেদনপত্র পূরণ করতে হয়।",
+        "en": "First you must fill out the integrated application form."
       },
-      "pronunciationTipBn": "'불' এর 'ㄹ' বাংলা 'ল' এর মতো, '법' এর 'ㅂ' শেষে 'প' এর মতো শোনাবে।"
+      "pronunciationTipBn": "'합' এর 'ㅂ' এর পরে 'ㅅ' এলে [통합씬청서] শক্ত হয়।"
     },
     {
-      "ko": "자진출국",
-      "romanization": "jajin chulguk",
-      "bn": "স্বেচ্ছায় দেশত্যাগ",
-      "en": "voluntary departure",
+      "ko": "체류지 입증 서류",
+      "romanization": "cheryuji ipjeung seoryu",
+      "bn": "বসবাসের প্রমাণপত্র",
+      "en": "proof of residency",
       "pos": "noun",
       "example": {
-        "ko": "자진출국을 선택할 수 있습니다.",
-        "bn": "আপনি স্বেচ্ছায় প্রস্থান বেছে নিতে পারেন।",
-        "en": "You may choose voluntary departure."
+        "ko": "체류지 입증 서류도 필요해요.",
+        "bn": "বসবাসের প্রমাণপত্রও দরকার।",
+        "en": "You also need proof of residency."
       },
-      "pronunciationTipBn": "'자' এর 'ㅈ' নরমভাবে উচ্চারণ করুন, '출' এর 'ㅊ' বাতাস দিয়ে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'입증' এর 'ㅂ' এর পরে 'ㅈ' এলে [입쯩] শক্ত হয়।"
     },
     {
-      "ko": "체류지",
-      "romanization": "cheryuji",
-      "bn": "থাকার স্থান/ঠিকানা",
-      "en": "place of stay / address",
+      "ko": "숙소 제공 확인서",
+      "romanization": "sukso jegong hwaginseo",
+      "bn": "আবাসন সরবরাহের প্রত্যয়নপত্র",
+      "en": "confirmation of accommodation",
       "pos": "noun",
       "example": {
-        "ko": "체류지를 변경하면 신고하세요.",
-        "bn": "থাকার ঠিকানা বদলালে জানান।",
-        "en": "Report when you change your place of stay."
+        "ko": "회사에서 숙소 제공 확인서를 받으세요.",
+        "bn": "কোম্পানি থেকে আবাসন সরবরাহের প্রত্যয়নপত্র নিন।",
+        "en": "Get the confirmation of accommodation from the company."
       },
-      "pronunciationTipBn": "'체' এর 'ㅊ' বাতাস দিয়ে উচ্চারণ করুন, '지' এর 'ㅈ' নরমভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'숙소' এর 'ㄱ' এর পরে 'ㅅ' এলে [숙쏘] শক্ত হয়।"
     },
     {
-      "ko": "취업활동",
-      "romanization": "chwieop hwaldong",
-      "bn": "চাকরির কার্যক্রম",
-      "en": "employment activity",
+      "ko": "임대차 계약서",
+      "romanization": "imdaecha gyeyakseo",
+      "bn": "ভাড়ার চুক্তিপত্র",
+      "en": "lease agreement",
       "pos": "noun",
       "example": {
-        "ko": "어떤 체류자격은 취업활동이 제한됩니다.",
-        "bn": "কিছু স্ট্যাটাসে চাকরির কার্যক্রম সীমাবদ্ধ থাকে।",
-        "en": "Some statuses restrict employment activities."
+        "ko": "직접 집을 구한 경우 임대차 계약서를 제출해요.",
+        "bn": "নিজে বাসা নিলে ভাড়ার চুক্তিপত্র জমা দিতে হয়।",
+        "en": "If you found a place yourself, submit the lease agreement."
       },
-      "pronunciationTipBn": "'취' এর 'ㅊ' বাতাস দিয়ে উচ্চারণ করুন, '활' এর 'ㄹ' বাংলা 'ল' এর মতো শোনাবে।"
+      "pronunciationTipBn": "'계약서' এর 'ㄱ' এর পরে 'ㅅ' এলে [계약써] শক্ত হয়।"
     },
     {
-      "ko": "벌금",
-      "romanization": "beolgeum",
-      "bn": "জরিমানা",
-      "en": "fine",
+      "ko": "사업자등록증",
+      "romanization": "saeopjadeungnokjeung",
+      "bn": "ব্যবসায়িক নিবন্ধন সনদ",
+      "en": "business registration certificate",
       "pos": "noun",
       "example": {
-        "ko": "규정을 지키지 않으면 벌금이 부과될 수 있습니다.",
-        "bn": "নিয়ম না মানলে জরিমানা হতে পারে।",
-        "en": "Not following rules may result in a fine."
+        "ko": "사업자등록증 사본은 고용주가 준비해요.",
+        "bn": "ব্যবসায়িক নিবন্ধন সনদের অনুলিপি নিয়োগকর্তা তৈরি করেন।",
+        "en": "The employer prepares a copy of the business registration certificate."
       },
-      "pronunciationTipBn": "'벌' এর 'ㄹ' বাংলা 'ল' এর মতো, '금' এর 'ㅁ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "단속",
-      "romanization": "dansok",
-      "bn": "পড়া নজরদারি/রিটেল",
-      "en": "crackdown / enforcement",
-      "pos": "noun",
-      "example": {
-        "ko": "단속으로 불법체류자를 찾습니다.",
-        "bn": "নজরদারি করে অবৈধদের খোঁজা হয়।",
-        "en": "Enforcement finds illegal residents."
-      },
-      "pronunciationTipBn": "'단' এর 'ㄷ' নরমভাবে উচ্চারণ করুন, '속' এর 'ㄱ' শেষে 'ক' এর মতো শোনাবে।"
-    },
-    {
-      "ko": "허가",
-      "romanization": "heoga",
-      "bn": "অনুমতি/পারমিট",
-      "en": "permission / permit",
-      "pos": "noun",
-      "example": {
-        "ko": "일을 하려면 허가가 필요할 수 있습니다.",
-        "bn": "কাজ করার জন্য অনুমতি লাগতে পারে।",
-        "en": "You may need a permit to work."
-      },
-      "pronunciationTipBn": "'허' এর 'ㅎ' স্পষ্ট করে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "신분증",
-      "romanization": "sinbunjung",
-      "bn": "পরিচয়পত্র",
-      "en": "identification card",
-      "pos": "noun",
-      "example": {
-        "ko": "신분증을 요청하면 보여 주세요.",
-        "bn": "পরিচয়পত্র চাইলে দেখান।",
-        "en": "Show your ID when requested."
-      },
-      "pronunciationTipBn": "'신' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন, '증' এর 'ㅈ' নরমভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "여권",
-      "romanization": "yeogwon",
-      "bn": "পাসপোর্ট",
-      "en": "passport",
-      "pos": "noun",
-      "example": {
-        "ko": "여권을 잃어버리지 마세요.",
-        "bn": "পাসপোর্ট হারাবেন না।",
-        "en": "Do not lose your passport."
-      },
-      "pronunciationTipBn": "'여' এর উচ্চারণ 'ইয়' এর মতো, '권' এর 'ㄱ' নরমভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "국적",
-      "romanization": "gukjeok",
-      "bn": "জাতীয়তা",
-      "en": "nationality",
-      "pos": "noun",
-      "example": {
-        "ko": "국적이 어디입니까?",
-        "bn": "আপনার জাতীয়তা কী?",
-        "en": "What is your nationality?"
-      },
-      "pronunciationTipBn": "'국' এর 'ㄱ' শেষে 'ক' এর মতো, '적' এর 'ㅈ' নরমভাবে উচ্চারণ করুন।"
-    },
-    {
-      "ko": "서명",
-      "romanization": "seomyeong",
-      "bn": "স্বাক্ষর",
-      "en": "signature",
-      "pos": "noun",
-      "example": {
-        "ko": "여기에 서명해 주세요.",
-        "bn": "এখানে স্বাক্ষর করুন।",
-        "en": "Please sign here."
-      },
-      "pronunciationTipBn": "'서' এর 'ㅅ' নরমভাবে উচ্চারণ করুন, '명' এর 'ㅁ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'업자' এর 'ㅂ' এর পরে 'ㅈ' এলে [사업짜] শক্ত হয়।"
     },
     {
       "ko": "수수료",
       "romanization": "susuryo",
-      "bn": "ফি/মাশুল",
-      "en": "fee / commission",
+      "bn": "প্রক্রিয়াকরণ ফি",
+      "en": "processing fee",
       "pos": "noun",
       "example": {
-        "ko": "수수료를 내야 합니다.",
-        "bn": "ফি দিতে হবে।",
-        "en": "You must pay the fee."
+        "ko": "수수료가 비싸더라도 내야 해요.",
+        "bn": "ফি বেশি হলেও দিতে হবে।",
+        "en": "Even if the fee is expensive, you must pay it."
       },
-      "pronunciationTipBn": "'수' এর 'ㅅ' নরমভাবে উচ্চারণ করুন, '료' এর 'ㄹ' বাংলা 'র' এর মতো শোনাবে।"
+      "pronunciationTipBn": "'료' জিভ তালুতে ঠেকিয়ে [수수료] বলুন।"
     },
     {
-      "ko": "신청서",
-      "romanization": "sincheongseo",
-      "bn": "আবেদনপত্র",
-      "en": "application form",
+      "ko": "마약 검사 확인서",
+      "romanization": "mayak geomsa hwaginseo",
+      "bn": "মাদক পরীক্ষার প্রত্যয়নপত্র",
+      "en": "drug test confirmation form",
       "pos": "noun",
       "example": {
-        "ko": "신청서를 작성해 주세요.",
-        "bn": "আবেদনপত্র পূরণ করুন।",
-        "en": "Please fill out the application form."
+        "ko": "지정한 병원에서 마약 검사 확인서를 받으세요.",
+        "bn": "নির্ধারিত হাসপাতাল থেকে মাদক পরীক্ষার প্রত্যয়নপত্র নিন।",
+        "en": "Get the drug test confirmation form from a designated hospital."
       },
-      "pronunciationTipBn": "'신' এর 'ㄴ' স্পষ্ট করে উচ্চারণ করুন, '청' এর 'ㅊ' বাতাস দিয়ে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'검사' এর 'ㅁ' এর পরে 'ㅅ' এলে [검싸] শক্ত হয়।"
     },
     {
-      "ko": "심사",
-      "romanization": "simsa",
-      "bn": "পরীক্ষা/যাচাই",
-      "en": "inspection / screening",
+      "ko": "여권용 사진",
+      "romanization": "yeogwonyong sajin",
+      "bn": "পাসপোর্ট আকারের ছবি",
+      "en": "passport-sized photo",
       "pos": "noun",
       "example": {
-        "ko": "입국 심사를 받습니다.",
-        "bn": "প্রবেশ যাচাই করা হচ্ছে।",
-        "en": "I am undergoing entry inspection."
+        "ko": "여권용 사진도 준비해야 돼요.",
+        "bn": "পাসপোর্ট আকারের ছবিও প্রস্তুত রাখতে হবে।",
+        "en": "You must also prepare a passport-sized photo."
       },
-      "pronunciationTipBn": "'심' এর 'ㅁ' স্পষ্ট করে উচ্চারণ করুন, '사' এর 'ㅅ' নরমভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'권' এর 'ㄴ' নাসিক্য, [여권]।"
     },
     {
-      "ko": "지문",
-      "romanization": "jimun",
-      "bn": "আঙুলের ছাপ",
-      "en": "fingerprint",
-      "pos": "noun",
+      "ko": "작성하다",
+      "romanization": "jakseonghada",
+      "bn": "পূরণ করা",
+      "en": "to fill out",
+      "pos": "verb",
       "example": {
-        "ko": "지문을 등록해야 합니다.",
-        "bn": "আঙুলের ছাপ নিবন্ধন করতে হবে।",
-        "en": "You must register your fingerprints."
+        "ko": "통합신청서를 작성했어요.",
+        "bn": "সমন্বিত আবেদনপত্র পূরণ করেছি।",
+        "en": "I filled out the integrated application form."
       },
-      "pronunciationTipBn": "'지' এর 'ㅈ' নরমভাবে উচ্চারণ করুন, '문' এর 'ㅁ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'작' এর 'ㄱ' এর পরে 'ㅅ' এলে [작썽하다] শক্ত হয়।"
     },
     {
-      "ko": "사진",
-      "romanization": "sajin",
-      "bn": "ছবি",
-      "en": "photo",
-      "pos": "noun",
+      "ko": "제출하다",
+      "romanization": "jechulhada",
+      "bn": "জমা দেওয়া",
+      "en": "to submit",
+      "pos": "verb",
       "example": {
-        "ko": "여권 사진이 필요합니다.",
-        "bn": "পাসপোর্টের ছবি প্রয়োজন।",
-        "en": "A passport photo is required."
+        "ko": "작성한 서류를 제출했습니다.",
+        "bn": "পূরণ করা কাগজপত্র জমা দিয়েছি।",
+        "en": "I submitted the completed documents."
       },
-      "pronunciationTipBn": "'사' এর 'ㅅ' নরমভাবে উচ্চারণ করুন, '진' এর 'ㅈ' নরমভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'출' এর 'ㄹ' আর 'ㅎ' মিলে [제추라다] হয়।"
     },
     {
-      "ko": "발급",
-      "romanization": "balgeup",
-      "bn": "ইস্যু করা",
-      "en": "issuance",
-      "pos": "noun",
+      "ko": "발급받다",
+      "romanization": "balgeupbatda",
+      "bn": "ইস্যু করে নেওয়া",
+      "en": "to be issued",
+      "pos": "verb",
       "example": {
-        "ko": "외국인등록증을 발급받았습니다.",
-        "bn": "বিদেশি নিবন্ধন কার্ড ইস্যু করা হয়েছে।",
-        "en": "I received the issuance of my foreigner registration card."
+        "ko": "몇 주 후에 외국인 등록증을 발급받을 수 있어요.",
+        "bn": "কয়েক সপ্তাহ পরে বিদেশি নিবন্ধন কার্ড পাওয়া যায়।",
+        "en": "You can be issued the residence card a few weeks later."
       },
-      "pronunciationTipBn": "'발' এর 'ㄹ' বাংলা 'ল' এর মতো, '급' এর 'ㅂ' শেষে 'প' এর মতো শোনাবে।"
+      "pronunciationTipBn": "'급' এর 'ㅂ' এর পরে 'ㅂ' এলে [발급빧따] শক্ত হয়।"
     },
     {
-      "ko": "변경",
-      "romanization": "byeongyeong",
-      "bn": "পরিবর্তন",
-      "en": "change",
+      "ko": "방문 예약",
+      "romanization": "bangmun yeyak",
+      "bn": "সাক্ষাতের সময় বুকিং",
+      "en": "visit appointment",
       "pos": "noun",
       "example": {
-        "ko": "주소 변경을 신고했습니다.",
-        "bn": "ঠিকানা পরিবর্তনের প্রতিবেদন করেছি।",
-        "en": "I reported the change of address."
+        "ko": "인터넷으로 방문 예약을 신청하세요.",
+        "bn": "ইন্টারনেটে সাক্ষাতের সময় বুকিং করুন।",
+        "en": "Apply for a visit appointment online."
       },
-      "pronunciationTipBn": "'변' এর 'ㅂ' নরমভাবে উচ্চারণ করুন, '경' এর 'ㄱ' নরমভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'방문' এর 'ㅇ' আর 'ㅁ' নাসিক্য, [방문]।"
     },
     {
-      "ko": "갱신",
-      "romanization": "gaengsin",
-      "bn": "নবায়ন",
-      "en": "renewal",
-      "pos": "noun",
+      "ko": "방문하다",
+      "romanization": "bangmunhada",
+      "bn": "সরাসরি যাওয়া",
+      "en": "to visit",
+      "pos": "verb",
       "example": {
-        "ko": "비자를 갱신해야 합니다.",
-        "bn": "ভিসা নবায়ন করতে হবে।",
-        "en": "You must renew your visa."
+        "ko": "출입국·외국인 사무소에 방문했어요.",
+        "bn": "অভিবাসন কার্যালয়ে গিয়েছি।",
+        "en": "I visited the immigration office."
       },
-      "pronunciationTipBn": "'갱' এর 'ㄱ' নরমভাবে উচ্চারণ করুন, '신' এর 'ㅅ' নরমভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'문' এর 'ㄴ' আর 'ㅎ' মিলে [방무나다] শোনায়।"
     },
     {
-      "ko": "출입국관리사무소",
-      "romanization": "chulipguk gwanri samuso",
-      "bn": "ইমিগ্রেশন অফিস",
-      "en": "immigration office",
-      "pos": "noun",
+      "ko": "체류하다",
+      "romanization": "cheryuhada",
+      "bn": "অবস্থান করা",
+      "en": "to stay, to sojourn",
+      "pos": "verb",
       "example": {
-        "ko": "출입국관리사무소에 갑니다.",
-        "bn": "ইমিগ্রেশন অফিসে যাচ্ছি।",
-        "en": "I am going to the immigration office."
+        "ko": "90일을 초과하여 체류하려면 등록해야 해요.",
+        "bn": "৯০ দিনের বেশি থাকতে হলে নিবন্ধন করতে হয়।",
+        "en": "To stay more than 90 days you must register."
       },
-      "pronunciationTipBn": "'출' এর 'ㅊ' বাতাস দিয়ে উচ্চারণ করুন, '사' এর 'ㅅ' নরমভাবে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'체' মুখ একটু খুলে [체류하다] বলুন।"
     },
     {
-      "ko": "증명서",
-      "romanization": "jeungmyeongseo",
-      "bn": "সনদপত্র",
-      "en": "certificate",
+      "ko": "체류 기간",
+      "romanization": "cheryu gigan",
+      "bn": "অবস্থানের মেয়াদ",
+      "en": "period of stay",
       "pos": "noun",
       "example": {
-        "ko": "재직증명서가 필요합니다.",
-        "bn": "চাকরির সনদপত্র প্রয়োজন।",
-        "en": "A certificate of employment is required."
+        "ko": "제 체류 기간이 4개월 정도 남았어요.",
+        "bn": "আমার অবস্থানের মেয়াদ প্রায় চার মাস বাকি।",
+        "en": "I have about four months left in my period of stay."
       },
-      "pronunciationTipBn": "'증' এর 'ㅈ' নরমভাবে উচ্চারণ করুন, '명' এর 'ㅁ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'기간' দুটি শব্দাংশ সমান, [기간]।"
     },
     {
-      "ko": "계약서",
-      "romanization": "gyeyakseo",
-      "bn": "চুক্তিপত্র",
-      "en": "contract",
+      "ko": "체류 가능 기간",
+      "romanization": "cheryu ganeung gigan",
+      "bn": "অবস্থানের অনুমোদিত মেয়াদ",
+      "en": "permitted length of stay",
       "pos": "noun",
       "example": {
-        "ko": "근로계약서를 확인하세요.",
-        "bn": "কাজের চুক্তিপত্র যাচাই করুন।",
-        "en": "Check the employment contract."
+        "ko": "E-9 비자의 체류 가능 기간은 4년 10개월이에요.",
+        "bn": "E-9 ভিসার অনুমোদিত মেয়াদ ৪ বছর ১০ মাস।",
+        "en": "The permitted length of stay for an E-9 visa is 4 years and 10 months."
       },
-      "pronunciationTipBn": "'계' এর 'ㄱ' নরমভাবে উচ্চারণ করুন, '약' এর 'ㅇ' স্পষ্ট করে উচ্চারণ করুন।"
+      "pronunciationTipBn": "'능' এর 'ㅇ' নাসিক্য, [가능]।"
+    },
+    {
+      "ko": "체류 기간 만료일",
+      "romanization": "cheryu gigan mallyoil",
+      "bn": "অবস্থানের মেয়াদ শেষের তারিখ",
+      "en": "expiration date of period of stay",
+      "pos": "noun",
+      "example": {
+        "ko": "체류 기간 만료일이 언제예요?",
+        "bn": "অবস্থানের মেয়াদ শেষের তারিখ কবে?",
+        "en": "When is the expiration date of your period of stay?"
+      },
+      "pronunciationTipBn": "'만료' এর 'ㄴ' আর 'ㄹ' মিলে [말료] হয়।"
+    },
+    {
+      "ko": "연장하다",
+      "romanization": "yeonjanghada",
+      "bn": "মেয়াদ বাড়ানো",
+      "en": "to extend",
+      "pos": "verb",
+      "example": {
+        "ko": "체류 기간을 연장할 거예요.",
+        "bn": "অবস্থানের মেয়াদ বাড়াব।",
+        "en": "I will extend my period of stay."
+      },
+      "pronunciationTipBn": "'연장' এর 'ㄴ' নাসিক্য, [연장하다]।"
+    },
+    {
+      "ko": "허가를 받다",
+      "romanization": "heogareul batda",
+      "bn": "অনুমতি পাওয়া",
+      "en": "to receive permission",
+      "pos": "phrase",
+      "example": {
+        "ko": "체류 기간 연장 허가를 받았어요.",
+        "bn": "অবস্থানের মেয়াদ বাড়ানোর অনুমতি পেয়েছি।",
+        "en": "I received permission to extend my stay."
+      },
+      "pronunciationTipBn": "'받다' এর 'ㄷ' এর পরে 'ㄷ' এলে [받따] হয়।"
+    },
+    {
+      "ko": "만료되다",
+      "romanization": "mallyodoeda",
+      "bn": "মেয়াদ শেষ হওয়া",
+      "en": "to expire",
+      "pos": "verb",
+      "example": {
+        "ko": "체류 기간이 곧 만료돼요.",
+        "bn": "অবস্থানের মেয়াদ শীঘ্রই শেষ হবে।",
+        "en": "My period of stay will expire soon."
+      },
+      "pronunciationTipBn": "'만료' এর 'ㄴ' আর 'ㄹ' মিলে [말료되다] হয়।"
+    },
+    {
+      "ko": "구직등록필증",
+      "romanization": "gujikdeungnokpiljeung",
+      "bn": "চাকরি খোঁজার নিবন্ধন সনদ",
+      "en": "job seeker registration certificate",
+      "pos": "noun",
+      "example": {
+        "ko": "지방고용노동관서에서 구직등록필증을 받았어요.",
+        "bn": "স্থানীয় শ্রম কার্যালয় থেকে চাকরি খোঁজার নিবন্ধন সনদ পেয়েছি।",
+        "en": "I received the job seeker registration certificate from the labor office."
+      },
+      "pronunciationTipBn": "'필증' এর 'ㄹ' এর পরে 'ㅈ' এলে [필쯩] শক্ত হয়।"
+    },
+    {
+      "ko": "이직하다",
+      "romanization": "ijikhada",
+      "bn": "চাকরি বদলানো",
+      "en": "to change jobs",
+      "pos": "verb",
+      "example": {
+        "ko": "공장에 문제가 있어서 이직하려고 해요.",
+        "bn": "কারখানায় সমস্যা থাকায় চাকরি বদলাতে চাই।",
+        "en": "There is a problem at the factory, so I want to change jobs."
+      },
+      "pronunciationTipBn": "'직' এর 'ㄱ' আর 'ㅎ' মিলে [이지카다] হয়।"
+    },
+    {
+      "ko": "귀국하다",
+      "romanization": "gwigukhada",
+      "bn": "দেশে ফেরা",
+      "en": "to return to one's home country",
+      "pos": "verb",
+      "example": {
+        "ko": "귀국할 날이 얼마 안 남았어요.",
+        "bn": "দেশে ফেরার দিন বেশি বাকি নেই।",
+        "en": "There is not much time left until I return home."
+      },
+      "pronunciationTipBn": "'귀' ঠোঁট গোল করে [귀국하다] বলুন।"
+    },
+    {
+      "ko": "지방고용노동관서",
+      "romanization": "jibanggoyongnodonggwanseo",
+      "bn": "স্থানীয় শ্রম কার্যালয়",
+      "en": "regional employment and labor office",
+      "pos": "noun",
+      "example": {
+        "ko": "지방고용노동관서에 가서 신청하세요.",
+        "bn": "স্থানীয় শ্রম কার্যালয়ে গিয়ে আবেদন করুন।",
+        "en": "Go to the regional labor office and apply."
+      },
+      "pronunciationTipBn": "'용노' এর 'ㅇ' আর 'ㄴ' নাসিক্য, [고용노동]।"
+    },
+    {
+      "ko": "사업장 변경 가능 횟수",
+      "romanization": "saeopjang byeongyeong ganeung hoessu",
+      "bn": "কর্মস্থল বদলের অনুমোদিত সংখ্যা",
+      "en": "number of times permitted to change workplace",
+      "pos": "noun",
+      "example": {
+        "ko": "처음 3년 동안 사업장 변경 가능 횟수는 세 번이에요.",
+        "bn": "প্রথম ৩ বছরে কর্মস্থল বদলের অনুমোদিত সংখ্যা তিনবার।",
+        "en": "The permitted number of workplace changes in the first three years is three."
+      },
+      "pronunciationTipBn": "'횟수' এর 'ㅅ' এর পরে 'ㅅ' এলে [횃쑤] শক্ত হয়।"
+    },
+    {
+      "ko": "불법 체류",
+      "romanization": "bulbeop cheryu",
+      "bn": "অবৈধ অবস্থান",
+      "en": "illegal residence",
+      "pos": "noun",
+      "example": {
+        "ko": "등록을 안 하면 불법 체류가 됩니다.",
+        "bn": "নিবন্ধন না করলে অবৈধ অবস্থান হয়ে যায়।",
+        "en": "If you do not register, it becomes illegal residence."
+      },
+      "pronunciationTipBn": "'불법' এর 'ㄹ' এর পরে 'ㅂ' এলে [불법] হয়।"
+    },
+    {
+      "ko": "처벌",
+      "romanization": "cheobeol",
+      "bn": "শাস্তি",
+      "en": "punishment, penalty",
+      "pos": "noun",
+      "example": {
+        "ko": "불법 체류로 처벌을 받을 수 있어요.",
+        "bn": "অবৈধ অবস্থানের জন্য শাস্তি পেতে পারেন।",
+        "en": "You can be punished for illegal residence."
+      },
+      "pronunciationTipBn": "'벌' এর 'ㄹ' জিভ তালুতে ঠেকিয়ে [처벌]।"
+    },
+    {
+      "ko": "신분증",
+      "romanization": "sinbunjeung",
+      "bn": "পরিচয়পত্র",
+      "en": "identification card",
+      "pos": "noun",
+      "example": {
+        "ko": "외국인 등록증은 신분증으로 사용할 수 있어요.",
+        "bn": "বিদেশি নিবন্ধন কার্ড পরিচয়পত্র হিসেবে ব্যবহার করা যায়।",
+        "en": "The residence card can be used as identification."
+      },
+      "pronunciationTipBn": "'분증' এর 'ㄴ' এর পরে 'ㅈ' এলে [신분쯩] শক্ত হয়।"
+    },
+    {
+      "ko": "계좌를 개설하다",
+      "romanization": "gyejwareul gaeseolhada",
+      "bn": "ব্যাংক হিসাব খোলা",
+      "en": "to open a bank account",
+      "pos": "phrase",
+      "example": {
+        "ko": "은행 계좌를 개설할 때 필요해요.",
+        "bn": "ব্যাংক হিসাব খোলার সময় দরকার হয়।",
+        "en": "It is needed when opening a bank account."
+      },
+      "pronunciationTipBn": "'설' এর 'ㄹ' আর 'ㅎ' মিলে [개서라다] হয়।"
+    },
+    {
+      "ko": "목록",
+      "romanization": "mongnok",
+      "bn": "তালিকা",
+      "en": "list",
+      "pos": "noun",
+      "example": {
+        "ko": "필요한 서류 목록을 알려 줄게요.",
+        "bn": "প্রয়োজনীয় কাগজপত্রের তালিকা জানিয়ে দেব।",
+        "en": "I will let you know the list of required documents."
+      },
+      "pronunciationTipBn": "'목' এর 'ㄱ' এর পরে 'ㄹ' এলে [몽녹] নাসিক্য হয়।"
+    },
+    {
+      "ko": "이내",
+      "romanization": "inae",
+      "bn": "মধ্যে",
+      "en": "within",
+      "pos": "noun",
+      "example": {
+        "ko": "15일 이내에 변경 신고를 해야 해요.",
+        "bn": "১৫ দিনের মধ্যে পরিবর্তনের খবর দিতে হয়।",
+        "en": "You must report the change within 15 days."
+      },
+      "pronunciationTipBn": "দুটি স্বর আলাদা করে [이내] বলুন।"
+    },
+    {
+      "ko": "고치다",
+      "romanization": "gochida",
+      "bn": "সংশোধন করা",
+      "en": "to revise, to fix",
+      "pos": "verb",
+      "example": {
+        "ko": "신청서를 어떻게 고치면 돼요?",
+        "bn": "আবেদনপত্র কীভাবে সংশোধন করব?",
+        "en": "How should I revise the application form?"
+      },
+      "pronunciationTipBn": "'치' জিভ সামনে রেখে [고치다] বলুন।"
     }
   ],
   "grammar": [
     {
-      "pattern": "아/어야 하다",
-      "titleBn": "~해야 한다 (প্রয়োজনীয়তা)",
-      "explanationBn": "কোনো কাজ করা বাধ্যতামূলক বোঝাতে ব্যবহার করা হয়। সাধারণভাবে '해야 합니다' ইত্যাদি।",
-      "explanationEn": "Used to express necessity or obligation (must / have to). Forms like '해야 합니다'.",
+      "pattern": "-더라도",
+      "titleBn": "যদিও, তবুও",
+      "explanationBn": "'-더라도' ক্রিয়া বা বিশেষণের সাথে বসে বোঝায় যে প্রথম অংশের পরিস্থিতি স্বীকার করা হলেও, দ্বিতীয় অংশ সেই প্রত্যাশা নির্বিশেষে ঘটবে। অভিবাসন নিয়মের ক্ষেত্রে এটি গুরুত্বপূর্ণ - যেমন প্রক্রিয়া জটিল হলেও নিবন্ধন করতেই হবে। যেকোনো মূলের সাথে '-더라도' সরাসরি বসে।",
+      "explanationEn": "-더라도 attaches to verbs and adjectives to acknowledge a hypothetical situation in the first clause while expressing that the second clause occurs regardless of expectations. Important for immigration rules - even if the process is complex, registration is mandatory. Attaches to any stem directly.",
       "examples": [
         {
-          "ko": "비자를 연장해야 합니다.",
-          "bn": "ভিসা নবায়ন করতে হবে।",
-          "en": "You must extend your visa."
+          "ko": "외국인 등록 절차가 복잡하더라도 90일 이내에 해야 돼요.",
+          "bn": "বিদেশি নিবন্ধনের প্রক্রিয়া জটিল হলেও ৯০ দিনের মধ্যে করতে হবে।",
+          "en": "Even if the foreigner registration process is complex, you must do it within 90 days."
         },
         {
-          "ko": "주소를 신고해야 합니다.",
-          "bn": "ঠিকানা জানাতে হবে।",
-          "en": "You must report your address."
+          "ko": "서로 의견이 다르더라도 상대방을 존중해야 해요.",
+          "bn": "পরস্পরের মতামত আলাদা হলেও একে অপরকে সম্মান করতে হয়।",
+          "en": "Even if opinions differ, you must respect each other."
         },
         {
-          "ko": "외국인등록증을 만들어야 합니다.",
-          "bn": "বিদেশি নিবন্ধন কার্ড তৈরি করতে হবে।",
-          "en": "You must make a foreigner registration card."
+          "ko": "바쁘더라도 이번 달에 꼭 등록하세요.",
+          "bn": "ব্যস্ত থাকলেও এ মাসে অবশ্যই নিবন্ধন করুন।",
+          "en": "Even if you are busy, definitely register this month."
         }
       ],
-      "commonMistakeBn": "অনেকে '하다' এর জায়গায় '되다' ব্যবহার করে ফেলেন, যদিও '아/어야 되다' ও সঠিক, তবে '아/어야 하다' বেশি আনুষ্ঠানিক।"
+      "commonMistakeBn": "'-더라도' সবসময় একইভাবে বসে, 받침 দেখার দরকার নেই। '복잡으면' এর মত শর্ত নয়, জোরদার ছাড়।"
     },
     {
-      "pattern": "아/어도 되다",
-      "titleBn": "~해도 된다 (অনুমতি)",
-      "explanationBn": "কিছু করা অনুমোদিত বা করা যাবে বোঝাতে ব্যবহার হয় (অনুমতি)।",
-      "explanationEn": "Used to indicate permission (may / may do).",
+      "pattern": "-는지/(으)ㄴ지",
+      "titleBn": "কারণ অনুমান করা",
+      "explanationBn": "'-는지/(으)ㄴ지' ক্রিয়া বা বিশেষণের সাথে বসে বোঝায় যে প্রথম অংশের বিষয় নিশ্চিত নয়, কিন্তু দ্বিতীয় অংশের কারণ বা ভিত্তি হতে পারে। ক্রিয়ায় '-는지', বিশেষণ ও অতীত ক্রিয়ায় '-(으)ㄴ지' বসে। অন্যের অবস্থা থেকে কারণ আন্দাজ করতে এটি ব্যবহৃত হয়।",
+      "explanationEn": "-는지/(으)ㄴ지 attaches to verbs and adjectives, indicating the first clause is uncertain but serves as the basis or reason for the second clause. Use -는지 for present verbs, -(으)ㄴ지 for adjectives and past. Used to speculate about reasons from observed situations.",
       "examples": [
         {
-          "ko": "사진을 찍어도 돼요?",
-          "bn": "ফটো তোলাই যাবে কি?",
-          "en": "May I take a photo?"
+          "ko": "아궁 씨가 지금 일하는지 전화를 안 받네요.",
+          "bn": "আগুং ভাই এখন কাজ করছেন কিনা ফোন ধরছেন না।",
+          "en": "Agung is not answering the phone; he may be working now."
         },
         {
-          "ko": "재류카드를 보여줘도 돼요.",
-          "bn": "রেসিডেন্স কার্ড দেখানো যাবে।",
-          "en": "You may show your residence card."
+          "ko": "자하라 씨가 기분이 좋은지 표정이 밝아요.",
+          "bn": "জাহারা বোনের মন ভালো কিনা মুখে আনন্দ।",
+          "en": "Zahra's expression is bright; she seems to be in a good mood."
         },
         {
-          "ko": "여기에 앉아도 돼요?",
-          "bn": "এখানে বসা যাবে কি?",
-          "en": "May I sit here?"
+          "ko": "너무 바쁜지 연락이 없어요.",
+          "bn": "খুব ব্যস্ত কিনা যোগাযোগ নেই।",
+          "en": "There is no contact; maybe they are too busy."
         }
       ],
-      "commonMistakeBn": "অনেকে প্রশ্ন করার সময় '아/어도 돼요?' এর বদলে শুধু '아/어도?' বলে থামিয়ে দেন, যা অসম্পূর্ণ।"
+      "commonMistakeBn": "ক্রিয়ায় '-는지', বিশেষণে '-(으)ㄴ지'। '일하은지' ভুল, '일하는지' সঠিক। '좋는지' ভুল, '좋은지' সঠিক।"
     },
     {
-      "pattern": "(으)면 안 되다",
-      "titleBn": "~ করা চলবে না (নিষেধ)",
-      "explanationBn": "কোনো কাজ করা mana/নিষিদ্ধ বোঝাতে ব্যবহৃত হয় (উদাহরণ: 하면 안 됩니다)।",
-      "explanationEn": "Used to express prohibition (must not / cannot).",
+      "pattern": "-(으)ㄹ 수 있다/없다",
+      "titleBn": "পারা/না পারা",
+      "explanationBn": "'-(으)ㄹ 수 있다' ক্রিয়ার সাথে বসে সক্ষমতা বা সম্ভাবনা বোঝায়, '-(으)ㄹ 수 없다' দিয়ে অসম্ভবতা বোঝায়। ব্যঞ্জনান্ত মূলে '-을 수 있다', স্বরান্ত মূলে বা 'ㄹ' শেষে '-ㄹ 수 있다' বসে। অভিবাসন আইনে কী করা যায় বা যায় না তা বলতে খুব দরকারি।",
+      "explanationEn": "-(으)ㄹ 수 있다 attaches to verbs to express ability or possibility, -(으)ㄹ 수 없다 for impossibility. Use -을 수 있다 after consonant stems, -ㄹ 수 있다 after vowel stems or ㄹ. Essential for stating what can or cannot be done under immigration law.",
       "examples": [
         {
-          "ko": "불법체류하면 안 됩니다.",
-          "bn": "অবৈধভাবে থাকতে নেই।",
-          "en": "You must not stay illegally."
+          "ko": "외국인 등록증을 신분증으로 사용할 수 있어요.",
+          "bn": "বিদেশি নিবন্ধন কার্ড পরিচয়পত্র হিসেবে ব্যবহার করা যায়।",
+          "en": "You can use the residence card as identification."
         },
         {
-          "ko": "신분증 없이 출국하면 안 됩니다.",
-          "bn": "আইডি ছাড়া দেশ ছেড়ে যাওয়া যাবে না।",
-          "en": "You must not depart without ID."
-        },
-        {
-          "ko": "여권 없이 여행하면 안 됩니다.",
-          "bn": "পাসপোর্ট ছাড়া ভ্রমণ করা যাবে না।",
-          "en": "You must not travel without a passport."
+          "ko": "신청서를 접수하더라도 등록증을 바로 받을 수 없어요.",
+          "bn": "আবেদনপত্র জমা দিলেও নিবন্ধন কার্ড তৎক্ষণাৎ পাওয়া যায় না।",
+          "en": "Even if you submit the application, you cannot receive the card immediately."
         }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণের পরে '면' ব্যবহার করেন; ব্যঞ্জনবর্ণের পরে '으면' বসবে।"
+      "commonMistakeBn": "'ㄹ' শেষ মূলে '-을 수 있다' নয়, সরাসরি '-ㄹ 수 있다'। '알을 수 있다' ভুল, '알 수 있다' সঠিক।"
     },
     {
-      "pattern": "(으)려고 하다",
-      "titleBn": "~하려고 하다 (পরিকল্পনা/উদ্দেশ্য)",
-      "explanationBn": "কোনো কাজ করার পরিকল্পনা বা উদ্দেশ্য বোঝাতে ব্যবহৃত হয়।",
-      "explanationEn": "Used to express an intention or plan to do something.",
+      "pattern": "-(으)려고",
+      "titleBn": "উদ্দেশ্য প্রকাশ",
+      "explanationBn": "'-(으)려고' ক্রিয়ার সাথে বসে প্রথম ক্রিয়া দ্বিতীয় ক্রিয়ার উদ্দেশ্য বোঝায়। ব্যঞ্জনান্ত মূলে '-으려고', স্বরান্ত মূলে বা 'ㄹ' শেষে '-려고' বসে। 'যাতে' বা 'জন্য' এই অর্থে ব্যবহৃত হয়। আবেদন বা নিবন্ধন করার উদ্দেশ্য জানাতে প্রয়োজনীয়।",
+      "explanationEn": "-(으)려고 attaches to verbs to show the first action is the purpose or intention for the second action. Use -으려고 after consonant stems, -려고 after vowel stems or ㄹ. Means 'in order to'. Essential for expressing the purpose of applications or registrations.",
       "examples": [
         {
-          "ko": "비자를 연장하려고 합니다.",
-          "bn": "ভিসা নবায়ন করার পরিকল্পনা করছি।",
-          "en": "I plan to extend my visa."
+          "ko": "90일을 초과하여 체류하려고 외국인 등록을 해요.",
+          "bn": "৯০ দিনের বেশি থাকার জন্য বিদেশি নিবন্ধন করি।",
+          "en": "I do foreigner registration in order to stay more than 90 days."
         },
         {
-          "ko": "출입국관리사무소에 가려고 합니다.",
-          "bn": "ইমিগ্রেশন অফিসে যাওয়ার পরিকল্পনা করছি।",
-          "en": "I plan to go to the immigration office."
-        },
-        {
-          "ko": "주소를 변경하려고 합니다.",
-          "bn": "ঠিকানা পরিবর্তন করার পরিকল্পনা করছি।",
-          "en": "I plan to change my address."
+          "ko": "체류 기간을 연장하려고 서류를 준비하고 있어요.",
+          "bn": "অবস্থানের মেয়াদ বাড়ানোর জন্য কাগজপত্র প্রস্তুত করছি।",
+          "en": "I am preparing documents in order to extend my stay."
         }
       ],
-      "commonMistakeBn": "অনেকে ব্যঞ্জনবর্ণের পরে '려고' ব্যবহার করেন; ব্যঞ্জনবর্ণের পরে '으려고' বসবে।"
+      "commonMistakeBn": "'하다' থেকে '하려고', 'ㄹ' পড়ে যায় না। '살으려고' ভুল, '살려고' সঠিক।"
     },
     {
-      "pattern": "기 전에",
-      "titleBn": "~기 전에 (আগে)",
-      "explanationBn": "কোনো কাজ করার আগে অন্য কোনো কাজ করা বোঝাতে ব্যবহৃত হয়।",
-      "explanationEn": "Used to express doing something before another action.",
+      "pattern": "아야/어야 하다",
+      "titleBn": "অবশ্যই করতে হবে",
+      "explanationBn": "'아야/어야 하다' ক্রিয়ার সাথে বসে বাধ্যবাধকতা বা প্রয়োজনীয়তা বোঝায়। 'ㅏ, ㅗ' স্বরের মূলে '아야', অন্য স্বরে '어야', '하다' থেকে '해야' বসে। অভিবাসন আইনে বাধ্যতামূলক বিষয় বলতে এটি সবচেয়ে গুরুত্বপূর্ণ।",
+      "explanationEn": "아야/어야 하다 attaches to verbs to express obligation or necessity. Use 아야 after ㅏ/ㅗ vowel stems, 어야 after other vowels, 해야 from 하다. Most important pattern for stating mandatory requirements under immigration law.",
       "examples": [
         {
-          "ko": "비자가 만료되기 전에 연장하세요.",
-          "bn": "ভিসা শেষ হওয়ার আগে নবায়ন করুন।",
-          "en": "Extend your visa before it expires."
+          "ko": "입국하고 90일 이내에 외국인 등록을 해야 해요.",
+          "bn": "দেশে প্রবেশের ৯০ দিনের মধ্যে বিদেশি নিবন্ধন করতে হবে।",
+          "en": "You must complete foreigner registration within 90 days of entry."
         },
         {
-          "ko": "출국하기 전에 신고해야 합니다.",
-          "bn": "দেশ ত্যাগ করার আগে জানাতে হবে।",
-          "en": "You must report before departing."
-        },
-        {
-          "ko": "계약서에 서명하기 전에 잘 읽어보세요.",
-          "bn": "চুক্তিপত্রে স্বাক্ষর করার আগে ভালো করে পড়ে দেখুন।",
-          "en": "Read carefully before signing the contract."
+          "ko": "필요한 서류를 꼼꼼하게 챙겨야 돼요.",
+          "bn": "প্রয়োজনীয় কাগজপত্র সযত্নে সংগ্রহ করতে হবে।",
+          "en": "You must carefully gather the required documents."
         }
       ],
-      "commonMistakeBn": "অনেকে বিশেষ্যের পরে '기 전에' ব্যবহার করেন; বিশেষ্যের পরে শুধু '전에' বসবে (যেমন: 식사 전에)।"
+      "commonMistakeBn": "'하다' থেকে '해야', '하어야' নয়। '신청하어야' ভুল, '신청해야' সঠিক।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "회사에서 비자 확인",
-      "titleEn": "At the company: visa check",
+      "titleBn": "বিদেশি নিবন্ধন কার্ডের কাগজপত্র",
+      "titleEn": "Documents for the residence card",
       "lines": [
         {
-          "speaker": "인사담당자",
-          "ko": "안녕하세요. 비자 기간을 확인할 수 있을까요?",
-          "bn": "হ্যালো। ভিসার সময় যাচাই করতে পারি কি?",
-          "en": "Hello. May I check your visa period?"
+          "speaker": "마두",
+          "ko": "아궁 씨, 외국인 등록증을 발급받는 방법 알아요? 무슨 서류가 필요해요?",
+          "bn": "আগুং ভাই, বিদেশি নিবন্ধন কার্ড পাওয়ার উপায় জানেন? কী কাগজপত্র লাগে?",
+          "en": "Agung, do you know how to get the residence card? What documents are needed?"
         },
         {
-          "speaker": "근로자",
-          "ko": "네, 여기 재류카드와 비자가 있습니다.",
-          "bn": "হ্যাঁ, এখানে রেসিডেন্স কার্ড ও ভিসা আছে।",
-          "en": "Yes, here are my residence card and visa."
+          "speaker": "아궁",
+          "ko": "먼저 통합신청서하고 여권, 사진이 있어야 돼요. 그리고 체류지 입증 서류도 필요하고요.",
+          "bn": "প্রথমে সমন্বিত আবেদনপত্র, পাসপোর্ট আর ছবি থাকতে হবে। আর বসবাসের প্রমাণপত্রও দরকার।",
+          "en": "First you need the application form, passport, and photo. You also need proof of residency."
         },
         {
-          "speaker": "인사담당자",
-          "ko": "체류기간을 연장해야 할 경우 제가 알려드릴게요.",
-          "bn": "থাকার সময় বাড়াতে হলে আমি জানাব।",
-          "en": "If you need to extend your stay, I'll inform you."
+          "speaker": "마두",
+          "ko": "체류지 입증 서류는 어떻게 준비해요?",
+          "bn": "বসবাসের প্রমাণপত্র কীভাবে প্রস্তুত করব?",
+          "en": "How do I prepare the proof of residency?"
         },
         {
-          "speaker": "근로자",
-          "ko": "감사합니다. 언제 신고해야 하나요?",
-          "bn": "ধন্যবাদ। কখন জানাতে হবে?",
-          "en": "Thank you. When should I report?"
+          "speaker": "아궁",
+          "ko": "마두 씨는 기숙사에 사니까 회사에서 숙소 제공 확인서를 받아서 제출하면 되겠네요.",
+          "bn": "মধু ভাই আপনি ডরমিটরিতে থাকেন, তাই কোম্পানি থেকে আবাসন সরবরাহের প্রত্যয়নপত্র নিয়ে জমা দিলেই হবে।",
+          "en": "Since you live in the dormitory, you can get the confirmation of accommodation from the company and submit that."
         },
         {
-          "speaker": "인사담당자",
-          "ko": "가능하면 한 달 전에 준비하세요.",
-          "bn": "সম্ভব হলে এক মাস আগে প্রস্তুত করুন।",
-          "en": "If possible, prepare one month in advance."
+          "speaker": "마두",
+          "ko": "고마워요. 그런데 제가 이번 달에는 바빠서 시간이 없는데 다음 달에 해도 돼요?",
+          "bn": "ধন্যবাদ। কিন্তু এ মাসে ব্যস্ত থাকায় সময় নেই, পরের মাসে করলে হবে?",
+          "en": "Thank you. But I am busy this month and have no time, so can I do it next month?"
+        },
+        {
+          "speaker": "아궁",
+          "ko": "입국하고 90일 이내에는 해야 되니까 바쁘더라도 이번 달에 꼭 하세요.",
+          "bn": "দেশে প্রবেশের ৯০ দিনের মধ্যে করতে হয়, তাই ব্যস্ত থাকলেও এ মাসে অবশ্যই করুন।",
+          "en": "You must do it within 90 days of entry, so even if you are busy, definitely do it this month."
         }
       ]
     },
     {
-      "titleBn": "출입국사무소에서 문의",
-      "titleEn": "At immigration office",
+      "titleBn": "অবস্থানের মেয়াদ বাড়ানো",
+      "titleEn": "Extending the period of stay",
       "lines": [
         {
-          "speaker": "사무소 직원",
-          "ko": "오늘 무슨 업무로 오셨나요?",
-          "bn": "আজ কোন কাজে এসেছেন?",
-          "en": "What business do you have today?"
+          "speaker": "마두",
+          "ko": "자하라 씨, 제 체류 기간이 4개월 정도 남았는데 어떻게 해야 돼요?",
+          "bn": "জাহারা বোন, আমার অবস্থানের মেয়াদ প্রায় চার মাস বাকি, কী করতে হবে?",
+          "en": "Zahra, there are about four months left in my period of stay. What should I do?"
         },
         {
-          "speaker": "방문자",
-          "ko": "재류카드 주소 변경 신고하러 왔습니다.",
-          "bn": "রেসিডেন্স কার্ডের ঠিকানা বদল জানাতে এসেছি।",
-          "en": "I came to report an address change on my residence card."
+          "speaker": "자하라",
+          "ko": "좀 여유가 있지만 빨리 체류 기간 연장 허가 신청을 하면 좋겠네요. 도와줄까요?",
+          "bn": "কিছু সময় আছে, তবু দ্রুত মেয়াদ বাড়ানোর অনুমতির আবেদন করলে ভালো। সাহায্য করব?",
+          "en": "You have some time, but it would be good to apply for the extension soon. Shall I help?"
         },
         {
-          "speaker": "사무소 직원",
-          "ko": "신분증과 새 주소 증빙을 보여 주세요.",
-          "bn": "পরিচয়পত্র এবং নতুন ঠিকানার প্রমাণ দেখান।",
-          "en": "Please show your ID and proof of the new address."
+          "speaker": "마두",
+          "ko": "네, 도와주세요. 제 친구한테 물어봤는데 요즘 너무 바쁜지 연락이 없어요.",
+          "bn": "হ্যাঁ, সাহায্য করুন। বন্ধুকে জিজ্ঞেস করেছিলাম, আজকাল খুব ব্যস্ত কিনা যোগাযোগ নেই।",
+          "en": "Yes, please help. I asked my friend, but there is no reply; maybe he is too busy lately."
         },
         {
-          "speaker": "방문자",
-          "ko": "여기 사진과 임대계약서가 있습니다.",
-          "bn": "এখানে ছবি ও ভাড়ার চুক্তিপত্র আছে।",
-          "en": "Here are the photo and the lease contract."
+          "speaker": "자하라",
+          "ko": "체류 기간 연장 허가 신청은 혼자 할 수 없어요. 팀장님한테 말하면 필요한 서류를 준비해 줄 거예요.",
+          "bn": "মেয়াদ বাড়ানোর আবেদন একা করা যায় না। টিম লিডারকে বললে প্রয়োজনীয় কাগজপত্র প্রস্তুত করে দেবেন।",
+          "en": "You cannot apply for the extension alone. If you tell your team leader, they will prepare the necessary documents."
         },
         {
-          "speaker": "사무소 직원",
-          "ko": "확인 후 신고 처리를 해 드리겠습니다.",
-          "bn": "যাচাই করে আবেদন সম্পন্ন করে দিচ্ছি।",
-          "en": "After checking, I will process the report."
+          "speaker": "마두",
+          "ko": "서류를 받은 다음에는 뭘 해야 돼요?",
+          "bn": "কাগজপত্র পাওয়ার পর কী করতে হবে?",
+          "en": "What should I do after receiving the documents?"
+        },
+        {
+          "speaker": "자하라",
+          "ko": "여권하고 외국인 등록증 챙겨 가면 돼요. 사무소에 가기 전에 방문 예약 신청하고요.",
+          "bn": "পাসপোর্ট আর বিদেশি নিবন্ধন কার্ড নিয়ে গেলেই হবে। কার্যালয়ে যাওয়ার আগে সাক্ষাতের সময় বুকিং করে নিন।",
+          "en": "Just bring your passport and residence card. And book a visit appointment before going to the office."
         }
       ]
     },
     {
-      "titleBn": "비자 연장 신청",
-      "titleEn": "Applying for visa extension",
+      "titleBn": "সাক্ষাতের বুকিং বাতিল",
+      "titleEn": "Cancelling the appointment",
       "lines": [
         {
-          "speaker": "직원",
-          "ko": "어떻게 오셨습니까?",
-          "bn": "কীভাবে সাহায্য করতে পারি?",
-          "en": "How may I help you?"
+          "speaker": "자하라",
+          "ko": "내일 출입국·외국인 사무소에 가는 날인데 감기가 너무 심해요.",
+          "bn": "কাল অভিবাসন কার্যালয়ে যাওয়ার দিন, কিন্তু সর্দি খুব বেশি।",
+          "en": "Tomorrow is the day I go to the immigration office, but my cold is very bad."
         },
         {
-          "speaker": "외국인",
-          "ko": "비자를 연장하려고 왔습니다.",
-          "bn": "ভিসা নবায়ন করতে এসেছি।",
-          "en": "I came to extend my visa."
+          "speaker": "마두",
+          "ko": "많이 아파요? 예약을 취소할 수 있을까요?",
+          "bn": "খুব অসুস্থ? বুকিং বাতিল করা যাবে?",
+          "en": "Are you very sick? Can you cancel the appointment?"
         },
         {
-          "speaker": "직원",
-          "ko": "여권과 외국인등록증을 주세요.",
-          "bn": "পাসপোর্ট এবং বিদেশি নিবন্ধন কার্ড দিন।",
-          "en": "Please give me your passport and foreigner registration card."
+          "speaker": "자하라",
+          "ko": "그게 궁금해서요. 아직 취소할 수 있는지 모르겠어요.",
+          "bn": "সেটাই জানতে চাই। এখনো বাতিল করা যায় কিনা জানি না।",
+          "en": "That is what I want to know. I am not sure if I can still cancel."
         },
         {
-          "speaker": "외국인",
-          "ko": "네, 여기 있습니다. 수수료는 얼마입니까?",
-          "bn": "হ্যাঁ, এই নিন। ফি কত?",
-          "en": "Yes, here they are. How much is the fee?"
+          "speaker": "마두",
+          "ko": "네, 예약 취소는 방문 하루 전까지 할 수 있어요.",
+          "bn": "হ্যাঁ, বুকিং বাতিল সাক্ষাতের একদিন আগ পর্যন্ত করা যায়।",
+          "en": "Yes, you can cancel the appointment up to one day before the visit."
         },
         {
-          "speaker": "직원",
-          "ko": "6만 원입니다. 신청서도 작성해 주세요.",
-          "bn": "৬০ হাজার ওন। আবেদনপত্রও পূরণ করুন।",
-          "en": "It is 60,000 won. Please fill out the application form too."
+          "speaker": "자하라",
+          "ko": "그래요? 지금 바로 취소해야겠어요. 그리고 다시 예약할게요.",
+          "bn": "সত্যি? এখনই বাতিল করতে হবে। আর আবার বুকিং করব।",
+          "en": "Really? I should cancel right now. And I will book again."
+        },
+        {
+          "speaker": "마두",
+          "ko": "몸이 아프더라도 90일 이내에는 등록해야 되니까 빨리 다시 예약하세요.",
+          "bn": "শরীর খারাপ হলেও ৯০ দিনের মধ্যে নিবন্ধন করতে হবে, তাই দ্রুত আবার বুকিং করুন।",
+          "en": "Even if you are sick, you must register within 90 days, so book again quickly."
         }
       ]
     }
@@ -674,592 +718,535 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "‘비자’ শব্দের অর্থ কোনটি?",
-      "questionKo": "‘비자’라는 단어의 뜻은 무엇인가요?",
+      "questionBn": "দেশে প্রবেশের কত দিনের মধ্যে বিদেশি নিবন্ধন করতে হয়?",
       "options": [
-        "외국에서 온 사람이 받는 허가",
-        "벌금",
-        "출국",
-        "주소"
+        "30일",
+        "90일",
+        "60일",
+        "120일"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "비자는 বিদেশে প্রবেশ বা থাকার অনুমতি বোঝায়; তাই দ্বিতীয়টি সঠিক।"
+      "answer": 1,
+      "explanationBn": "দেশে প্রবেশের ৯০ দিনের মধ্যে বিদেশি নিবন্ধন করতে হয়।"
     },
     {
       "id": "p2",
-      "type": "multiple-choice",
-      "questionBn": "‘체류기간’을 가장 잘 설명한 것은?",
-      "questionKo": "‘체류기간’을 가장 잘 설명한 것은?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 바쁘( ) 이번 달에 꼭 등록하세요.",
       "options": [
-        "입국 심사 장소",
-        "머무르는 기간",
-        "여권의 번호",
-        "벌금의 종류"
+        "지만",
+        "더라도",
+        "니까",
+        "는데"
       ],
-      "pairs": [],
       "answer": 1,
-      "explanationBn": "체류기간 মানে কত দিন থাকা যাবে—অর্থাৎ 머무ার সময়।"
+      "explanationBn": "'-더라도' দিয়ে 'যদিও ব্যস্ত তবুও' বোঝায়।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "주소를 변경하면 무엇을 해야 하나요?",
-      "questionKo": "주소를 변경하면 무엇을 해야 하나요?",
+      "questionBn": "বিদেশি নিবন্ধন কার্ড পেতে কোনটি দরকার হয় না?",
       "options": [
-        "벌금 납부",
-        "출국",
-        "신고해야 한다",
-        "단속 대피"
+        "통합신청서",
+        "여권",
+        "여권용 사진",
+        "운전면허증"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "주소 변경은 신고 의무가 있으므로 '신고해야 한다' সঠিক।"
+      "answer": 3,
+      "explanationBn": "আবেদনপত্র, পাসপোর্ট, ছবি দরকার। ড্রাইভিং লাইসেন্স লাগে না।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "‘불법체류’ 상황에서 কী করা উচিত না?",
-      "questionKo": "‘불법체류’ 상황에서 무엇을 하면 안 되나요?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 요즘 너무 바쁜( ) 연락이 없어요.",
       "options": [
-        "증명서 준비하기",
-        "신고하기",
-        "자진출국 신청",
-        "무시하고 계속 머무르기"
+        "지만",
+        "더라도",
+        "지",
+        "니까"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "অবৈধভাবে স্থায়ী থাকা অবৈধ; তাই 'চলতে থাকা' ঠিক না।"
+      "answer": 2,
+      "explanationBn": "'-는지/(으)ㄴ지' দিয়ে কারণ অনুমান করা হয়। 'আজকাল খুব ব্যস্ত কিনা'।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "회사에서 체류기간을 묻는 이유는 কি?",
-      "questionKo": "회사에서 체류기간을 확인하는 이유는 무엇인가요?",
-      "options": [
-        "직원이 합법적으로 일할 수 있는지 확인하려고",
-        "비자 취소하려고",
-        "벌금 부과하려고",
-        "여행하기 위해"
+      "type": "matching",
+      "questionBn": "শব্দের সাথে বাংলা অর্থ মেলান।",
+      "pairs": [
+        {
+          "left": "체류하다",
+          "right": "অবস্থান করা"
+        },
+        {
+          "left": "연장하다",
+          "right": "মেয়াদ বাড়ানো"
+        },
+        {
+          "left": "제출하다",
+          "right": "জমা দেওয়া"
+        },
+        {
+          "left": "발급받다",
+          "right": "ইস্যু করে নেওয়া"
+        }
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "회사는 직원이 합법적으로 일할 수 있는지 확인하려고 체류기간을 묻습니다।"
+      "explanationBn": "অভিবাসন প্রক্রিয়ার মূল ক্রিয়াপদগুলো।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "‘_____을/를 신고해야 합니다.’ 빈칸에 알맞은 단어는?",
-      "questionKo": "‘_____을/를 신고해야 합니다.’ 빈칸에 알맞은 단어는?",
+      "type": "multiple-choice",
+      "questionBn": "'-더라도' ব্যবহার করে সঠিকভাবে গঠিত বাক্যটি কোনটি?",
       "options": [
-        "입국심사",
-        "주소",
-        "벌금",
-        "단속"
+        "서류가 복잡한더라도 꼭 제출해야 해요.",
+        "서류가 복잡으로더라도 꼭 제출해야 해요.",
+        "서류가 복잡이더라도 꼭 제출해야 해요.",
+        "서류가 복잡하더라도 꼭 제출해야 해요."
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "주소를 변경하면 신고해야 하므로 정답은 '주소'।"
+      "answer": 3,
+      "explanationBn": "'-더라도' সরাসরি বসে, কোনো রূপ পরিবর্তন নেই।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "‘비자 만료 전에 ____ 신청하세요.’ 알맞은 단어는?",
-      "questionKo": "‘비자 만료 전에 ____ 신청하세요.’ 알맞은 단어는?",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 외국인 등록증은 신분증으로 사용할 수 ( ).",
       "options": [
-        "출국",
-        "단속",
-        "연장",
-        "벌금"
+        "없어요",
+        "계세요",
+        "주세요",
+        "있어요"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "비자 만료 전에는 연장 신청을 합니다; তাই '연장'।"
+      "answer": 3,
+      "explanationBn": "'-(으)ㄹ 수 있다' দিয়ে সম্ভাবনা বোঝায়।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "‘외국인등록증을 항상 ____세요.’ 빈칸에 알맞은 표현은?",
-      "questionKo": "‘외국인등록증을 항상 ____세요.’ 빈칸에 알맞은 표현은?",
+      "type": "multiple-choice",
+      "questionBn": "ডরমিটরিতে থাকলে বসবাসের প্রমাণপত্র হিসেবে কী জমা দিতে হয়?",
       "options": [
-        "먹으",
-        "잔디",
-        "달려",
-        "갖고"
+        "임대차 계약서",
+        "숙소 제공 확인서",
+        "사업자등록증",
+        "구직등록필증"
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "신분증을 항상 소지하라는 의미로 '갖고'가 맞습니다।"
+      "answer": 1,
+      "explanationBn": "ডরমিটরিতে থাকলে কোম্পানির আবাসন সরবরাহের প্রত্যয়নপত্র জমা দিতে হয়।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "한국어 단어와 বাংলা অর্থ 잘 연결하세요।",
-      "questionKo": "한국어 단어와 의미를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "체류기간",
-          "right": "থাকবার সময়"
-        },
-        {
-          "left": "비자",
-          "right": "ভিসা"
-        },
-        {
-          "left": "재류카드",
-          "right": "রেসিডেন্স কার্ড"
-        },
-        {
-          "left": "신고",
-          "right": "প্রতিবেদন/জানানো"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 출입국·외국인 사무소에 방문하기 전에 미리 ( )해야 돼요.",
+      "options": [
+        "제출",
+        "연장",
+        "예약",
+        "귀국"
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া পাঠে শেখানো শব্দগুলির সরাসরি অনুবাদ।"
+      "answer": 2,
+      "explanationBn": "অভিবাসন কার্যালয়ে যাওয়ার আগে সাক্ষাতের সময় বুকিং করতে হয়।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "한국어 단어와 English 뜻 연결하세요।",
-      "questionKo": "한국어 단어와 영어 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "불법체류",
-          "right": "illegal stay"
-        },
-        {
-          "left": "연장",
-          "right": "extension"
-        },
-        {
-          "left": "허가",
-          "right": "permission"
-        },
-        {
-          "left": "단속",
-          "right": "enforcement"
-        }
+      "type": "multiple-choice",
+      "questionBn": "E-9 ভিসাধারী শ্রমিকের অবস্থানের অনুমোদিত মেয়াদ কত?",
+      "options": [
+        "4년 10개월",
+        "3년",
+        "5년",
+        "9년 8개월"
       ],
       "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া লেসনে শেখানো শব্দ-মর্মের মিল।"
+      "explanationBn": "E-9 ভিসার অনুমোদিত মেয়াদ ৪ বছর ১০ মাস। ৩ বছর কাজ করে মেয়াদ বাড়ালে আরও ১ বছর ১০ মাস।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "‘여권’ শব্দের অর্থ কোনটি?",
-      "questionKo": "‘여권’이라는 단어의 뜻은 무엇인가요?",
-      "options": [
-        "ঠিকানা",
-        "জরিমানা",
-        "পাসপোর্ট",
-        "ছবি"
+      "type": "matching",
+      "questionBn": "প্রশ্নের সাথে সঠিক উত্তর মেলান।",
+      "pairs": [
+        {
+          "left": "몇 번까지 직장을 바꿀 수 있어요?",
+          "right": "처음 3년 동안 사업장 변경 가능 횟수는 세 번이에요."
+        },
+        {
+          "left": "귀국할 날이 언제예요?",
+          "right": "체류 기간 만료일은 5월 23일이에요."
+        },
+        {
+          "left": "한국에서 몇 년 일할 수 있어요?",
+          "right": "체류 가능 기간은 4년 10개월이에요."
+        },
+        {
+          "left": "새 직장을 찾고 있어요.",
+          "right": "구직등록필증을 받으세요."
+        }
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "여권 মানে পাসপোর্ট, তাই তৃতীয়টি সঠিক।"
+      "explanationBn": "অবস্থান ও কর্মসংস্থান সংক্রান্ত প্রশ্নোত্তর।"
     },
     {
       "id": "p12",
       "type": "multiple-choice",
-      "questionBn": "‘수수료’를 가장 잘 설명한 것은?",
-      "questionKo": "‘수수료’를 가장 잘 설명한 것은?",
+      "questionBn": "নির্ধারিত সময়ের মধ্যে বিদেশি নিবন্ধন না করলে কী হয়?",
       "options": [
-        "어떤 일을 처리할 때 내는 돈",
-        "머무르는 기간",
-        "입국 심사 장소",
-        "외국인등록증"
+        "수수료를 더 내면 됩니다.",
+        "다음 해에 등록하면 됩니다.",
+        "아무 문제가 없습니다.",
+        "불법 체류로 간주되어 처벌을 받을 수 있습니다."
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "수수료 মানে ফি বা মাশুল, যা কোনো কাজ করার সময় দিতে হয়।"
+      "answer": 3,
+      "explanationBn": "নির্ধারিত সময়ে নিবন্ধন না করলে অবৈধ অবস্থান হিসেবে গণ্য হয়ে শাস্তি হতে পারে।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "비자를 연장할 때 필요한 것이 아닌 것은?",
-      "questionKo": "비자를 연장할 때 필요한 것이 아닌 것은?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 국적이나 여권이 변경된 경우 15일 ( )에 신고해야 해요.",
       "options": [
-        "여권",
-        "외국인등록증",
-        "수수료",
-        "비행기 표"
+        "이후",
+        "이상",
+        "이전",
+        "이내"
       ],
-      "pairs": [],
       "answer": 3,
-      "explanationBn": "비자 연장 시 비행기 표는 필요하지 않습니다."
+      "explanationBn": "'이내' মানে 'মধ্যে'। ১৫ দিনের মধ্যে পরিবর্তনের খবর দিতে হয়।"
     },
     {
       "id": "p14",
       "type": "multiple-choice",
-      "questionBn": "‘출입국관리사무소’에서 하는 일이 아닌 것은?",
-      "questionKo": "‘출입국관리사무소’에서 하는 일이 아닌 것은?",
+      "questionBn": "বিদেশি নিবন্ধন কার্ড দিয়ে কোন কাজটি করা যায় না?",
       "options": [
-        "비자 연장",
-        "체류지 변경 신고",
-        "외국인등록증 발급",
-        "물건 사기"
+        "은행 계좌를 개설합니다.",
+        "휴대전화 개통을 신청합니다.",
+        "주거 계약을 합니다.",
+        "다른 나라 비자를 발급받습니다."
       ],
-      "pairs": [],
       "answer": 3,
-      "explanationBn": "출입국관리사무소는 이민 관련 업무를 하는 곳이므로 물건을 사는 곳이 아닙니다."
+      "explanationBn": "বিদেশি নিবন্ধন কার্ড কোরিয়ায় পরিচয়পত্র হিসেবে কাজ করে, অন্য দেশের ভিসা দেয় না।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "‘여기에 _____을/를 해 주세요.’ 빈칸에 알맞은 단어는?",
-      "questionKo": "‘여기에 _____을/를 해 주세요.’ 빈칸에 알맞은 단어는?",
+      "type": "multiple-choice",
+      "questionBn": "অবস্থানের মেয়াদ বাড়ানোর আবেদন কে করেন?",
       "options": [
-        "서명",
-        "국적",
-        "벌금",
-        "출국"
+        "근로자 혼자 신청합니다.",
+        "회사만 신청합니다.",
+        "회사와 근로자가 함께 신청합니다.",
+        "출입국·외국인 사무소가 신청합니다."
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "문서에 이름을 쓰는 것을 서명이라고 하므로 '서명'이 맞습니다."
+      "answer": 2,
+      "explanationBn": "মেয়াদ বাড়ানোর আবেদন শ্রমিক একা করতে পারে না, কোম্পানির সাহায্য লাগে।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "‘_____ 사진이 필요합니다.’ 빈칸에 알맞은 단어는?",
-      "questionKo": "‘_____ 사진이 필요합니다.’ 빈칸에 알맞은 단어는?",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 아궁 씨가 기분이 ( ) 표정이 밝아요.",
       "options": [
-        "여권",
-        "수수료",
-        "지문",
-        "단속"
+        "좋는지",
+        "좋은지",
+        "좋지",
+        "좋더라도"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "사진과 어울리는 단어는 여권이므로 '여권'이 맞습니다."
+      "answer": 1,
+      "explanationBn": "বিশেষণে '-(으)ㄴ지' বসে। '좋다' থেকে '좋은지' হয়।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "‘비자를 _____하려고 합니다.’ 빈칸에 알맞은 단어는?",
-      "questionKo": "‘비자를 _____하려고 합니다.’ 빈칸에 알맞은 단어는?",
-      "options": [
-        "연장",
-        "벌금",
-        "단속",
-        "출국"
+      "type": "matching",
+      "questionBn": "শব্দের সাথে বাংলা অর্থ মেলান।",
+      "pairs": [
+        {
+          "left": "불법 체류",
+          "right": "অবৈধ অবস্থান"
+        },
+        {
+          "left": "처벌",
+          "right": "শাস্তি"
+        },
+        {
+          "left": "만료되다",
+          "right": "মেয়াদ শেষ হওয়া"
+        },
+        {
+          "left": "구직등록필증",
+          "right": "চাকরি খোঁজার সনদ"
+        }
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "비자와 어울리는 동사는 연장하다이므로 '연장'이 맞습니다."
+      "explanationBn": "অভিবাসন আইনের গুরুত্বপূর্ণ শব্দগুলো।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "‘외국인등록증을 _____받았습니다.’ 빈칸에 알맞은 단어는?",
-      "questionKo": "‘외국인등록증을 _____받았습니다.’ 빈칸에 알맞은 단어는?",
+      "type": "multiple-choice",
+      "questionBn": "অভিবাসন কার্যালয়ে সাক্ষাতের বুকিং কীভাবে করতে হয়?",
       "options": [
-        "발급",
-        "변경",
-        "신고",
-        "연장"
+        "전화로 예약합니다.",
+        "직접 가서 예약합니다.",
+        "인터넷으로 예약합니다.",
+        "회사에서 예약해 줍니다."
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "증명서를 새로 받는 것을 발급이라고 하므로 '발급'이 맞습니다."
+      "answer": 2,
+      "explanationBn": "অভিবাসন কার্যালয়ের সাক্ষাত ইন্টারনেটে বুকিং করতে হয়।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "한국어 단어와 বাংলা অর্থ 잘 연결하세요。",
-      "questionKo": "한국어 단어와 의미를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "여권",
-          "right": "পাসপোর্ট"
-        },
-        {
-          "left": "수수료",
-          "right": "ফি/মাশুল"
-        },
-        {
-          "left": "서명",
-          "right": "স্বাক্ষর"
-        },
-        {
-          "left": "사진",
-          "right": "ছবি"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 90일을 ( ) 체류하려면 외국인 등록을 해야 해요.",
+      "options": [
+        "초과하여",
+        "초과해도",
+        "초과하지만",
+        "초과하니까"
       ],
       "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া পাঠে শেখানো শব্দগুলির সরাসরি অনুবাদ।"
+      "explanationBn": "'초과하여' মানে 'অতিক্রম করে'। ৯০ দিনের বেশি থাকতে হলে।"
     },
     {
       "id": "p20",
-      "type": "matching",
-      "questionBn": "한국어 단어와 English 뜻 연결하세요。",
-      "questionKo": "한국어 단어와 영어 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "국적",
-          "right": "nationality"
-        },
-        {
-          "left": "신청서",
-          "right": "application form"
-        },
-        {
-          "left": "지문",
-          "right": "fingerprint"
-        },
-        {
-          "left": "발급",
-          "right": "issuance"
-        }
+      "type": "multiple-choice",
+      "questionBn": "'-는지/(으)ㄴ지' ব্যবহার করে সঠিকভাবে গঠিত বাক্যটি কোনটি?",
+      "options": [
+        "아궁 씨가 지금 일하는지 전화를 안 받아요.",
+        "아궁 씨가 지금 일하은지 전화를 안 받아요.",
+        "아궁 씨가 지금 일하지 전화를 안 받아요.",
+        "아궁 씨가 지금 일해지 전화를 안 받아요."
       ],
       "answer": 0,
-      "explanationBn": "প্রতিটি জোড়া লেসনে শেখানো শব্দ-মর্মের মিল।"
+      "explanationBn": "ক্রিয়ায় '-는지' বসে। '일하다' থেকে '일하는지' হয়।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর টিক করুন।",
-      "questionKo": "다음 글을 읽고 맞는 것을 고르세요.",
-      "passage": "출입국관리법에 따라 재류카드는 항상 소지하는 것이 권장됩니다. 주소를 변경하면 신고해야 합니다.",
+      "questionKo": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "questionBn": "নিচের কোন বাক্যটি সঠিক তা বেছে নিন।",
       "options": [
-        "재류카드는 집에만 보관해야 한다.",
-        "재류카드는 항상 가지고 다니는 것이 좋다.",
-        "주소 변경 후에는 신고할 필요가 없다.",
-        "재류카드는 외국에서만 필요하다."
+        "오늘은 작업이 빨리 끝났는 편이에요.",
+        "외국인 등록증을 잃어버리더라도 다시 발급받을 수 있어요.",
+        "타설했다가 갑자기 비가 와서 작업을 중단했어요.",
+        "제가 재고를 파악하면서 아궁 씨가 물건을 옮겨요."
       ],
       "answer": 1,
-      "explanationBn": "প্যাসেজে '재류카드는 항상 소지하는 것이 권장됩니다' আছে; তাই তৃতীয়টি সঠিক।"
+      "explanationBn": "'-더라도' সঠিকভাবে ব্যবহৃত হয়েছে। বাকিগুলোতে ব্যাকরণগত ভুল আছে।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর টিক করুন।",
-      "questionKo": "다음 글을 읽고 맞는 것을 고르세요.",
-      "passage": "비자 만료 전에 연장 신청을 하면 체류를 계속할 수 있습니다. 가능한 빨리 준비하세요.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "passage": "외국인 등록증을 발급받기 위해 필요한 서류를 작성했습니다. 그리고 출입국·외국인 사무소에 방문해서 작성한 서류를 ( ).",
       "options": [
-        "비자는 연장 신청으로 기간을 계속할 수 있다.",
-        "비자 만료 후에는 연장 신청이 항상 가능하다.",
-        "연장 신청은 출국할 때만 한다.",
-        "비자 연장은 서류가 필요 없다."
+        "혼합했습니다",
+        "절단했습니다",
+        "조절했습니다",
+        "제출했습니다"
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে বলা আছে 연장 신청 করলে 체류 চালানো যাবে; তাই প্রথমটি সঠিক।"
+      "answer": 3,
+      "explanationBn": "কাগজপত্র 'জমা দেওয়া' অর্থে '제출하다' সঠিক।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর টিক করুন।",
-      "questionKo": "다음 글을 읽고 맞는 것을 고르세요.",
-      "passage": "불법체류는 문제가 되므로 자진출국 등 해결 방법을 상담하는 것이 좋습니다.",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন বিষয়ে?",
+      "passage": "E-9 비자 근로자가 3년의 체류 기간을 초과하여 체류하고자 하는 경우 이것을 받아야 합니다.",
       "options": [
-        "불법체류는 항상 벌금만 있다.",
-        "상담이 필요없다.",
-        "불법체류는 문제가 아니다.",
-        "자진출국은 불법체류를 해결하는 한 방법이다."
+        "체류 기간 연장 허가",
+        "체류 가능 기간",
+        "구직 신청 방법",
+        "외국인 등록 절차"
       ],
-      "answer": 3,
-      "explanationBn": "প্যাসেজে 자진출국কে একটি সমাধান হিসেবে উল্লিখিত; তাই তৃতীয়টি সঠিক।"
+      "answer": 0,
+      "explanationBn": "৩ বছরের বেশি থাকতে হলে অবস্থানের মেয়াদ বাড়ানোর অনুমতি নিতে হয়।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর টিক করুন।",
-      "questionKo": "다음 글을 읽고 맞는 것을 고르세요.",
-      "passage": "회사에서 직원의 체류자격을 확인하는 것은 불법 취업을 막기 위함입니다.",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "questionBn": "লেখাটি পড়ে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "passage": "대한민국에서 90일을 초과하여 체류하려고 하는 외국인은 외국인 등록을 해야 합니다. 외국인 등록을 하려면 먼저 필요한 서류를 준비해서 인터넷으로 출입국·외국인 사무소 방문 예약을 신청합니다. 그리고 사무소를 방문하여 서류를 제출합니다.",
       "options": [
-        "회사는 체류자격을 확인할 필요가 없다.",
-        "체류자격은 항상 같아서 확인할 필요가 없다.",
-        "체류자격 확인은 불법 취업을 방지하려는 목적이다.",
-        "체류자격은 개인 정보가 아니어서 공개한다."
+        "인터넷으로 외국인 등록증을 발급받을 수 있습니다.",
+        "외국인 등록에 필요한 서류는 인터넷으로 내면 됩니다.",
+        "체류 기간이 90일이 넘지 않아도 외국인 등록을 해야 합니다.",
+        "출입국·외국인 사무소에 방문하기 전에 미리 예약해야 됩니다."
       ],
-      "answer": 2,
-      "explanationBn": "글에 회사가 확인하는 이유가 불법 취업 방지라고 되어 있어 দ্বিতীয়টি সঠিক।"
+      "answer": 3,
+      "explanationBn": "কার্যালয়ে যাওয়ার আগে ইন্টারনেটে বুকিং করতে হয়। কার্ড ইন্টারনেটে পাওয়া যায় না, কাগজপত্র সরাসরি জমা দিতে হয়।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে সঠিক উত্তর টিক করুন।",
-      "questionKo": "다음 글을 읽고 맞는 것을 고르세요.",
-      "passage": "주소 변경은 해당 기관에 신고해야 하며 증빙 서류를 준비하세요.",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "questionBn": "লেখাটি পড়ে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "passage": "유수프: 5개월 후에 체류 기간이 만료돼요. 지금 체류 기간 연장을 신청해야겠지요?",
       "options": [
-        "주소 변경은 외국에서만 적용된다.",
-        "주소 변경 시 신고와 증빙 서류 준비가 필요하다.",
-        "증빙 서류는 필요하지 않다.",
-        "주소 변경은 구두로만 알리면 된다."
+        "유수프 씨는 체류 기간 연장을 신청하려고 해요.",
+        "유수프 씨는 체류 기간이 만료됐어요.",
+        "유수프 씨는 체류 기간 만료일을 몰라요.",
+        "유수프 씨는 지금 체류 기간을 연장했어요."
       ],
-      "answer": 1,
-      "explanationBn": "প্যাসেজে স্পষ্টভাবে 신고 ও 증빙 প্রয়োজন বলা আছে; তাই প্রথমটি সঠিক।"
+      "answer": 0,
+      "explanationBn": "ইউসুফ মেয়াদ বাড়ানোর আবেদন করতে চান। মেয়াদ এখনো শেষ হয়নি, তারিখও জানেন।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "다음 대화를 듣고 질문에 답하세요। (말하는 내용을 읽으세요.)",
-      "questionKo": "다음 대화를 듣고 질문에 답하세요.",
-      "passage": "남자: 신분증과 임대계약서를 보여 주세요.\n여자: 여기 있습니다.\n남자: 확인 후 처리하겠습니다.",
+      "section": "reading",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "questionBn": "পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "passage": "외국인 등록 절차가 복잡( ) 90일 이내에 외국인 등록을 해야 돼요.",
       "options": [
-        "사무소는 서류 확인 후 처리한다고 했다.",
-        "사무소는 추가 벌금을 요구했다.",
-        "방문자는 서류를 가져오지 않았다.",
-        "방문자는 출국하겠다고 말했다."
+        "해서",
+        "하니까",
+        "하더라도",
+        "하면"
       ],
-      "answer": 0,
-      "explanationBn": "대화에 '확인 후 처리하겠습니다'라고 있어 দ্বিতীয়টি সঠিক।"
+      "answer": 2,
+      "explanationBn": "'-더라도' দিয়ে 'যদিও জটিল তবুও' বোঝায়।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "다음 대화를 듣고 질문에 답하세요. (말하는 내용을 읽으세요.)",
-      "questionKo": "다음 대화를 듣고 질문에 답하세요.",
-      "passage": "남자: 비자 기간을 확인할 수 있을까요?\n여자: 네, 재류카드가 여기 있습니다.",
+      "section": "reading",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন বিষয়ে?",
+      "passage": "회사에서 기숙사를 제공하는 경우에 제출하는 체류지 입증 서류입니다.",
       "options": [
-        "근로자는 재류카드가 없다.",
-        "인사담당자는 비자를 연장했다.",
-        "인사담당자는 출국을 요청했다.",
-        "근로자는 재류카드를 제시했다."
+        "임대차 계약서",
+        "사업자등록증",
+        "숙소 제공 확인서",
+        "마약 검사 확인서"
       ],
-      "answer": 3,
-      "explanationBn": "근로자가 '여기 재류카드가 있습니다'라고 했으므로 তৃতীয়টি সঠিক।"
+      "answer": 2,
+      "explanationBn": "কোম্পানি আবাসন দিলে আবাসন সরবরাহের প্রত্যয়নপত্র জমা দিতে হয়।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "다음 대화를 듣고 질문에 답하세요. (말하는 내용을 읽으세요.)",
-      "questionKo": "다음 대화를 듣고 질문에 답하세요.",
-      "passage": "남자: 주소를 변경하면 신고해야 합니다.\n여자: 알겠습니다. 언제까지 해야 하나요?",
+      "section": "reading",
+      "questionKo": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+      "questionBn": "লেখাটি পড়ে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "passage": "외국인 등록증은 은행 계좌를 개설하거나 휴대전화 개통 신청, 주거 계약 등 다양한 상황에서 신분증으로 사용될 수 있습니다. 외국인 등록증에는 외국인 등록번호와 함께 성명, 국가·지역, 체류 자격이 표시됩니다.",
       "options": [
-        "방문자는 신고를 원하지 않는다.",
-        "사무소 직원은 벌금을 부과했다.",
-        "방문자는 신고 기한을 물었다.",
-        "사무소 직원은 신고가 필요 없다고 말했다."
+        "외국인 등록증에는 성명이 표시되지 않습니다.",
+        "외국인 등록증은 신분증으로 사용할 수 있습니다.",
+        "외국인 등록증은 은행에서만 사용합니다.",
+        "외국인 등록증에는 체류 자격이 없습니다."
       ],
-      "answer": 2,
-      "explanationBn": "방문자가 '언제까지 해야 하나요?'라고 물었으므로 '신고 기한을 물었다' সঠিক।"
+      "answer": 1,
+      "explanationBn": "বিদেশি নিবন্ধন কার্ড পরিচয়পত্র হিসেবে নানা কাজে ব্যবহার করা যায়।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "비자 기간이 끝났는데 계속 한국에 있으면 (     )가 됩니다. 그러면 벌금을 내거나 강제로 출국해야 합니다.",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "questionBn": "পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "passage": "국적이나 여권이 변경된 경우에는 사유가 발생한 날로부터 ( ) 이내에 외국인 등록사항 변경 신고를 해야 합니다.",
       "options": [
-        "불법체류",
-        "자진출국",
-        "체류자격",
-        "취업활동"
+        "15일",
+        "30일",
+        "60일",
+        "90일"
       ],
       "answer": 0,
-      "explanationBn": "ভিসার মেয়াদ শেষ হওয়ার পরও কোরিয়ায় থাকলে তা অবৈধ অবস্থান (불법체류) হয়। তাই প্রথমটি সঠিক।"
+      "explanationBn": "জাতীয়তা বা পাসপোর্ট বদলালে ১৫ দিনের মধ্যে জানাতে হয়।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "다음 표지판의 의미로 알맞은 것을 고르십시오.",
-      "questionKo": "다음 표지판의 의미로 알맞은 것을 고르십시오.",
-      "passage": "[출입국관리사무소 - 외국인등록증 발급 및 체류기간 연장]",
+      "questionKo": "다음 중 외국인 등록에 필요한 서류가 아닌 것을 고르십시오.",
+      "questionBn": "বিদেশি নিবন্ধনে যে কাগজটি লাগে না তা বেছে নিন।",
       "options": [
-        "여기에서 비행기 표를 살 수 있습니다.",
-        "여기에서 외국인등록증을 만들 수 있습니다.",
-        "여기에서 한국어를 배울 수 있습니다.",
-        "여기에서 물건을 살 수 있습니다."
+        "고등학교 졸업장",
+        "통합신청서",
+        "여권",
+        "여권용 사진"
       ],
-      "answer": 1,
-      "explanationBn": "ইমিগ্রেশন অফিসে বিদেশি নিবন্ধন কার্ড ইস্যু করা হয়। তাই দ্বিতীয়টি সঠিক।"
+      "answer": 0,
+      "explanationBn": "আবেদনপত্র, পাসপোর্ট ও ছবি লাগে। স্কুলের সনদ লাগে না।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "이 글의 내용과 같은 것을 고르십시오.",
-      "questionKo": "이 글의 내용과 같은 것을 고르십시오.",
-      "passage": "외국인이 한국에서 이사를 하면 14일 이내에 출입국관리사무소나 구청에 가서 체류지 변경 신고를 해야 합니다. 신고를 하지 않으면 벌금을 낼 수 있습니다.",
+      "section": "listening",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "questionBn": "শুনে প্রশ্নের সঠিক উত্তর বেছে নিন।",
+      "passage": "남자: 외국인 등록증을 발급받았어요?",
       "options": [
-        "이사를 하면 한 달 안에 신고해야 합니다.",
-        "신고를 하지 않아도 벌금을 내지 않습니다.",
-        "이사를 하면 14일 안에 주소 변경을 신고해야 합니다.",
-        "주소 변경 신고는 경찰서에서 합니다."
+        "네, 외국인 등록증이 필요해요.",
+        "아니요, 외국인 등록증을 발급받았어요.",
+        "네, 외국인 등록증을 발급받았어요.",
+        "아니요, 외국인 등록증이 있어요."
       ],
       "answer": 2,
-      "explanationBn": "প্যাসেজে বলা হয়েছে যে বাসা বদলালে ১৪ দিনের মধ্যে ঠিকানা পরিবর্তনের প্রতিবেদন করতে হবে। তাই তৃতীয়টি সঠিক।"
+      "explanationBn": "কার্ড পেয়েছেন কিনা জিজ্ঞাসায় 'হ্যাঁ, পেয়েছি' সঙ্গত। বাকিগুলো স্ববিরোধী।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "passage": "외국인등록증을 만들려면 여권, 사진, 그리고 (     )가 필요합니다. 이것은 3만 원입니다.",
+      "section": "listening",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "questionBn": "শুনে প্রশ্নের সঠিক উত্তর বেছে নিন।",
+      "passage": "여자: 출입국·외국인 사무소 방문 예약을 어떻게 해요?",
       "options": [
-        "벌금",
-        "계약서",
-        "신분증",
-        "수수료"
+        "인터넷으로 예약하면 돼요.",
+        "내일 예약하면 돼요.",
+        "천천히 예약하면 돼요.",
+        "퇴근 후에 예약하면 돼요."
       ],
-      "answer": 3,
-      "explanationBn": "বিদেশি নিবন্ধন কার্ড তৈরি করতে ফি (수수료) দিতে হয়। তাই চতুর্থটি সঠিক।"
+      "answer": 0,
+      "explanationBn": "'어떻게' পদ্ধতি জিজ্ঞাসা করে, তাই 'ইন্টারনেটে' উত্তর সঠিক। বাকিগুলো সময় বলে।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "이 글의 내용과 같은 것을 고르십시오.",
-      "questionKo": "이 글의 내용과 같은 것을 고르십시오.",
-      "passage": "한국에서 일하려면 취업을 할 수 있는 체류자격이 있어야 합니다. 관광 비자로 와서 일을 하면 불법입니다.",
+      "section": "listening",
+      "questionKo": "두 사람은 무엇에 대해 말하고 있습니까?",
+      "questionBn": "দুজন কী নিয়ে কথা বলছেন?",
+      "passage": "남자: 한국에서 몇 년 동안 일할 수 있어요?\n여자: 3년 일한 후에 1년 10개월 더 일할 수 있어요.",
       "options": [
-        "관광 비자로 한국에서 일할 수 있습니다.",
-        "한국에서 일하려면 취업 체류자격이 필요합니다.",
-        "체류자격이 없어도 일할 수 있습니다.",
-        "모든 비자로 일할 수 있습니다."
+        "체류 기간 만료일",
+        "구직 신청 방법",
+        "체류 가능 기간",
+        "외국인 등록 절차"
       ],
-      "answer": 1,
-      "explanationBn": "কোরিয়ায় কাজ করতে হলে কাজের জন্য উপযুক্ত থাকার যোগ্যতা (체류자격) থাকতে হবে। তাই দ্বিতীয়টি সঠিক।"
+      "answer": 2,
+      "explanationBn": "কত বছর কাজ করা যায় সেই আলোচনা, তাই '체류 가능 기간' অর্থাৎ অনুমোদিত মেয়াদ।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 비자를 연장하려고 하는데요.\n여자: 네, 여권과 외국인등록증을 주시고요. 여기 신청서에 서명해 주세요.",
+      "questionKo": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+      "questionBn": "শোনা কথার সাথে মিল আছে এমন বাক্য কোনটি?",
+      "passage": "여자: 내일 출입국·외국인 사무소에 가는 날인데 감기가 너무 심해요. 예약을 취소할 수 있을까요?\n남자: 네, 예약 취소는 방문 하루 전까지 할 수 있어요.\n여자: 그래요? 지금 바로 취소해야겠어요.",
       "options": [
-        "여자는 남자에게 서명을 요구했습니다.",
-        "남자는 주소를 변경하려고 합니다.",
-        "남자는 벌금을 내려고 합니다.",
-        "여자는 남자에게 사진을 요구했습니다."
+        "여자는 피곤해서 예약을 취소하려고 합니다.",
+        "여자는 지금 예약을 취소할 겁니다.",
+        "오늘은 출입국·외국인 사무소에 가는 날입니다.",
+        "방문하기 한 시간 전까지 예약을 취소할 수 있습니다."
       ],
-      "answer": 0,
-      "explanationBn": "মহিলাটি পুরুষটিকে আবেদনপত্রে স্বাক্ষর (서명) করতে বলেছেন। তাই প্রথমটি সঠিক।"
+      "answer": 1,
+      "explanationBn": "মহিলা এখনই বাতিল করবেন বলেছেন। সর্দির কারণে, ক্লান্তির নয়; আর যাওয়ার দিন আগামীকাল।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 이사한 지 일주일이 지났는데 아직 주소 변경 신고를 안 했어요.\n남자: 그래요? 14일이 지나면 벌금을 내야 하니까 빨리 출입국관리사무소에 가 보세요.",
+      "questionKo": "여자의 체류 기간 연장 신청이 늦어지는 이유는 무엇입니까?",
+      "questionBn": "মহিলার মেয়াদ বাড়ানোর আবেদন দেরি হওয়ার কারণ কী?",
+      "passage": "남자: 체류 기간 연장은 신청했어요?\n여자: 아니요, 아직 신청하지 못했어요.\n남자: 2주 전에 체류 기간 연장을 신청한다고 했잖아요.\n여자: 회사에서 서류를 늦게 받아서 이제 신청하려고 해요.",
       "options": [
-        "여자는 이미 주소 변경 신고를 했습니다.",
-        "여자는 벌금을 냈습니다.",
-        "남자는 이사를 했습니다.",
-        "남자는 여자에게 빨리 신고하라고 말했습니다."
+        "2주 전에 신청을 해서",
+        "신청 기간이 아니어서",
+        "필요한 서류를 늦게 받아서",
+        "필요한 서류를 몰라서"
       ],
-      "answer": 3,
-      "explanationBn": "পুরুষটি মহিলাটিকে তাড়াতাড়ি ইমিগ্রেশন অফিসে গিয়ে প্রতিবেদন করতে বলেছেন। তাই চতুর্থটি সঠিক।"
+      "answer": 2,
+      "explanationBn": "কোম্পানি থেকে কাগজপত্র দেরিতে পাওয়ায় আবেদন দেরি হয়েছে।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "남자: 외국인등록증을 잃어버렸어요. 어떻게 해야 해요?\n여자: 출입국관리사무소에 가서 다시 발급받아야 해요. 여권과 사진을 가지고 가세요.",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে পরবর্তী সবচেয়ে উপযুক্ত বাক্যটি বেছে নিন।",
+      "passage": "남자: 이번 달에는 바빠서 외국인 등록을 할 시간이 없는데 다음 달에 해도 돼요?\n여자: 입국하고 90일 이내에는 해야 돼요.",
       "options": [
-        "남자는 외국인등록증을 새로 받았습니다.",
-        "여자는 외국인등록증을 잃어버렸습니다.",
-        "남자는 외국인등록증을 다시 만들어야 합니다.",
-        "여자는 남자에게 벌금을 내라고 했습니다."
+        "그럼 다음 달에 천천히 해야겠네요.",
+        "그럼 바쁘더라도 이번 달에 해야겠네요.",
+        "그럼 등록을 안 해도 되겠네요.",
+        "그럼 내년에 해야겠네요."
       ],
-      "answer": 2,
-      "explanationBn": "পুরুষটি তার বিদেশি নিবন্ধন কার্ড হারিয়ে ফেলেছেন, তাই তাকে আবার এটি তৈরি করতে হবে। তাই তৃতীয়টি সঠিক।"
+      "answer": 1,
+      "explanationBn": "৯০ দিনের সীমা শুনে ব্যস্ত থাকলেও এ মাসে করার সিদ্ধান্ত সঙ্গত।"
     }
   ]
 }

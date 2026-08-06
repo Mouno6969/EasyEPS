@@ -1,0 +1,808 @@
+{
+  "id": "simple-sentences",
+  "order": 9,
+  "title": {
+    "bn": "সহজ বাক্য",
+    "ko": "간단한 문장",
+    "en": "Simple Sentences"
+  },
+  "description": {
+    "bn": "কর্তা-চিহ্ন আর 있어요/없어요 দিয়ে নিজের বাক্য বানান। এরপর লেসন ১ সহজ লাগবে।",
+    "ko": "조사와 있어요/없어요로 스스로 문장 만들기.",
+    "en": "Build your own sentences with subject particles and 있어요/없어요. After this, Lesson 1 feels easy."
+  },
+  "estimatedMinutes": 25,
+  "requirements": {
+    "requiredStepIds": [
+      "ss-intro",
+      "ss-particles",
+      "ss-vocab",
+      "ss-speak-exist",
+      "ss-adjectives",
+      "ss-speak-adj",
+      "ss-dialogue",
+      "ss-read",
+      "ss-quiz"
+    ],
+    "minSpeakItems": 12,
+    "minWriteItems": 0,
+    "minBuilderItems": 0,
+    "minReadItems": 10,
+    "passRatio": 0.7
+  },
+  "steps": [
+    {
+      "id": "ss-intro",
+      "type": "explain",
+      "title": {
+        "bn": "নিজের বাক্য বানানো",
+        "ko": "스스로 문장 만들기",
+        "en": "Building your own sentences"
+      },
+      "body": {
+        "bn": [
+          "আগের ধাপে আপনি '저는 ___입니다' শিখেছেন। এখন আরও দুটি জিনিস যোগ করব: কর্তা-চিহ্ন আর 'আছে / নেই'।",
+          "এই দুটি শিখলে আপনি আর মুখস্থ বাক্যে আটকে থাকবেন না — নিজের শব্দ বসিয়ে নতুন বাক্য বানাতে পারবেন।",
+          "কোরিয়ান বাক্যের কাঠামো: [কর্তা] + [চিহ্ন] + [শেষে ক্রিয়া বা বিশেষণ]।",
+          "যেমন: 친구가 있어요 = বন্ধু + 가 + আছে = 'আমার বন্ধু আছে'।",
+          "লেসন ১-এ ঠিক এই কাঠামোই বারবার আসবে, তাই এখানে ভালো করে অনুশীলন করুন।"
+        ],
+        "en": [
+          "In the last module you learned 저는 ___입니다. Now we add two more pieces: subject particles and 'there is / there is not'.",
+          "With these you stop depending on memorized phrases and start building new sentences with your own words.",
+          "Korean sentence shape: [subject] + [particle] + [verb or adjective at the end].",
+          "Example: 친구가 있어요 = friend + 가 + exists = 'I have a friend'.",
+          "Lesson 1 uses exactly this shape again and again, so practise it well here."
+        ]
+      }
+    },
+    {
+      "id": "ss-particles",
+      "type": "explain",
+      "title": {
+        "bn": "은/는 আর 이/가",
+        "ko": "은/는 그리고 이/가",
+        "en": "은/는 and 이/가"
+      },
+      "body": {
+        "bn": [
+          "কোরিয়ানে কর্তা বোঝাতে ছোট চিহ্ন বসে। বাংলায় এমন চিহ্ন নেই, তাই এটি নতুনদের কাছে অচেনা লাগে।",
+          "প্রথম নিয়ম — 받침 আছে কি না দেখুন:",
+          "받침 থাকলে → 은 / 이। যেমন: 이름은, 친구가 নয় 친구는... আসলে '친구' তে 받침 নেই।",
+          "উদাহরণ: 이름 (받침 'ㅁ' আছে) → 이름은 / 이름이।",
+          "উদাহরণ: 친구 (받침 নেই) → 친구는 / 친구가।",
+          "দ্বিতীয় নিয়ম — কোনটি বেছে নেবেন:",
+          "은/는 — কোনো বিষয় নিয়ে কথা বলতে বা তুলনা করতে। '저는 학생이에요' (আমার কথা বলছি)।",
+          "이/가 — নতুন তথ্য জানাতে বা 있어요/없어요 এর সাথে। '친구가 있어요' (বন্ধু আছে)।",
+          "শুরুতে এই সহজ নিয়ম ধরুন: নিজের পরিচয়ে 은/는, আর 있어요/없어요 এর আগে 이/가।"
+        ],
+        "en": [
+          "Korean marks the subject with a small particle. Bangla has no equivalent, so this feels unfamiliar at first.",
+          "First rule — check for a final consonant (받침):",
+          "With 받침 → 은 / 이. Example: 이름 (ends in ㅁ) → 이름은 / 이름이.",
+          "Without 받침 → 는 / 가. Example: 친구 (ends in a vowel) → 친구는 / 친구가.",
+          "Second rule — which one to choose:",
+          "은/는 — to introduce a topic or make a contrast. 저는 학생이에요 (speaking about myself).",
+          "이/가 — to give new information, and with 있어요/없어요. 친구가 있어요 (I have a friend).",
+          "For now follow this simple guide: use 은/는 for self-introduction, and 이/가 before 있어요/없어요."
+        ]
+      }
+    },
+    {
+      "id": "ss-vocab",
+      "type": "explain",
+      "title": {
+        "bn": "দশটি মূল শব্দ",
+        "ko": "핵심 단어 10개",
+        "en": "Ten core words"
+      },
+      "body": {
+        "bn": [
+          "এই দশটি শব্দ দিয়ে অসংখ্য বাক্য বানানো যায়। প্রতিটি ভালো করে মনে রাখুন।",
+          "মানুষ: 저 (আমি), 친구 (বন্ধু), 가족 (পরিবার), 선생님 (শিক্ষক), 학생 (ছাত্র)।",
+          "জিনিস ও জায়গা: 시간 (সময়), 돈 (টাকা), 집 (বাড়ি), 회사 (কোম্পানি), 음식 (খাবার)।",
+          "ক্রিয়া: 있어요 (আছে) আর 없어요 (নেই)। এই দুটি প্রতিদিন কাজে লাগে।",
+          "মনে রাখুন — 있어요 দিয়ে 'আমার আছে' আর 'ওখানে আছে' দুটোই বোঝানো যায়।"
+        ],
+        "en": [
+          "These ten words let you build a large number of sentences. Learn each one well.",
+          "People: 저 (I), 친구 (friend), 가족 (family), 선생님 (teacher), 학생 (student).",
+          "Things and places: 시간 (time), 돈 (money), 집 (house), 회사 (company), 음식 (food).",
+          "Verbs: 있어요 (there is / I have) and 없어요 (there is not / I do not have). You will use these daily.",
+          "Note that 있어요 covers both 'I have' and 'it exists over there'."
+        ]
+      }
+    },
+    {
+      "id": "ss-speak-exist",
+      "type": "speak",
+      "minListens": 2,
+      "items": [
+        {
+          "id": "ss-s-chingu-iss",
+          "text": "친구가 있어요",
+          "romanization": "chinguga isseoyo",
+          "audioText": "친구가 있어요",
+          "bn": "আমার বন্ধু আছে।",
+          "en": "I have a friend."
+        },
+        {
+          "id": "ss-s-chingu-eops",
+          "text": "친구가 없어요",
+          "romanization": "chinguga eopseoyo",
+          "audioText": "친구가 없어요",
+          "bn": "আমার বন্ধু নেই।",
+          "en": "I do not have a friend."
+        },
+        {
+          "id": "ss-s-sigan-iss",
+          "text": "시간이 있어요",
+          "romanization": "sigani isseoyo",
+          "audioText": "시간이 있어요",
+          "bn": "আমার সময় আছে।",
+          "en": "I have time."
+        },
+        {
+          "id": "ss-s-sigan-eops",
+          "text": "시간이 없어요",
+          "romanization": "sigani eopseoyo",
+          "audioText": "시간이 없어요",
+          "bn": "আমার সময় নেই।",
+          "en": "I do not have time."
+        },
+        {
+          "id": "ss-s-don-eops",
+          "text": "돈이 없어요",
+          "romanization": "doni eopseoyo",
+          "audioText": "돈이 없어요",
+          "bn": "আমার টাকা নেই।",
+          "en": "I do not have money."
+        },
+        {
+          "id": "ss-s-gajok-iss",
+          "text": "가족이 있어요",
+          "romanization": "gajogi isseoyo",
+          "audioText": "가족이 있어요",
+          "bn": "আমার পরিবার আছে।",
+          "en": "I have a family."
+        },
+        {
+          "id": "ss-s-jip-eodi",
+          "text": "집이 어디예요?",
+          "romanization": "jibi eodiyeyo",
+          "audioText": "집이 어디예요?",
+          "bn": "আপনার বাড়ি কোথায়?",
+          "en": "Where is your house?"
+        },
+        {
+          "id": "ss-s-hoesa-iss",
+          "text": "회사가 여기 있어요",
+          "romanization": "hoesaga yeogi isseoyo",
+          "audioText": "회사가 여기 있어요",
+          "bn": "কোম্পানি এখানে আছে।",
+          "en": "The company is here."
+        }
+      ]
+    },
+    {
+      "id": "ss-adjectives",
+      "type": "explain",
+      "title": {
+        "bn": "অবস্থা বোঝানো",
+        "ko": "상태 말하기",
+        "en": "Describing things"
+      },
+      "body": {
+        "bn": [
+          "বিশেষণও বাক্যের শেষে বসে, ঠিক ক্রিয়ার মতো। গঠন একই: [কর্তা] + [চিহ্ন] + [বিশেষণ]।",
+          "음식이 맛있어요 = খাবার + 이 + সুস্বাদু = 'খাবার সুস্বাদু'।",
+          "পাঁচটি দরকারি বিশেষণ: 좋아요 (ভালো), 맛있어요 (সুস্বাদু), 많아요 (অনেক), 바빠요 (ব্যস্ত), 힘들어요 (কষ্টকর)।",
+          "কর্মস্থলে খুব কাজে লাগে: 일이 많아요 (কাজ অনেক), 오늘 바빠요 (আজ ব্যস্ত)।",
+          "নেতিবাচক বলতে সামনে 안 বসান: 안 좋아요 (ভালো না), 안 바빠요 (ব্যস্ত না)।"
+        ],
+        "en": [
+          "Adjectives also come at the end of the sentence, just like verbs. Same shape: [subject] + [particle] + [adjective].",
+          "음식이 맛있어요 = food + 이 + delicious = 'the food is delicious'.",
+          "Five useful adjectives: 좋아요 (good), 맛있어요 (delicious), 많아요 (many/much), 바빠요 (busy), 힘들어요 (hard/tough).",
+          "Very useful at work: 일이 많아요 (there is a lot of work), 오늘 바빠요 (I am busy today).",
+          "To negate, put 안 in front: 안 좋아요 (not good), 안 바빠요 (not busy)."
+        ]
+      }
+    },
+    {
+      "id": "ss-speak-adj",
+      "type": "speak",
+      "minListens": 2,
+      "items": [
+        {
+          "id": "ss-s-eumsik-mat",
+          "text": "음식이 맛있어요",
+          "romanization": "eumsigi masisseoyo",
+          "audioText": "음식이 맛있어요",
+          "bn": "খাবার সুস্বাদু।",
+          "en": "The food is delicious."
+        },
+        {
+          "id": "ss-s-il-manh",
+          "text": "일이 많아요",
+          "romanization": "iri manayo",
+          "audioText": "일이 많아요",
+          "bn": "কাজ অনেক।",
+          "en": "There is a lot of work."
+        },
+        {
+          "id": "ss-s-oneul-bappa",
+          "text": "오늘 바빠요",
+          "romanization": "oneul bappayo",
+          "audioText": "오늘 바빠요",
+          "bn": "আজ ব্যস্ত।",
+          "en": "I am busy today."
+        },
+        {
+          "id": "ss-s-himdeul",
+          "text": "일이 힘들어요",
+          "romanization": "iri himdeureoyo",
+          "audioText": "일이 힘들어요",
+          "bn": "কাজটা কষ্টকর।",
+          "en": "The work is hard."
+        },
+        {
+          "id": "ss-s-joayo",
+          "text": "회사가 좋아요",
+          "romanization": "hoesaga joayo",
+          "audioText": "회사가 좋아요",
+          "bn": "কোম্পানি ভালো।",
+          "en": "The company is good."
+        },
+        {
+          "id": "ss-s-an-joa",
+          "text": "날씨가 안 좋아요",
+          "romanization": "nalssiga an joayo",
+          "audioText": "날씨가 안 좋아요",
+          "bn": "আবহাওয়া ভালো না।",
+          "en": "The weather is not good."
+        }
+      ]
+    },
+    {
+      "id": "ss-dialogue",
+      "type": "explain",
+      "title": {
+        "bn": "ছোট কথোপকথন",
+        "ko": "짧은 대화",
+        "en": "A short conversation"
+      },
+      "body": {
+        "bn": [
+          "এবার শেখা সব অংশ একসাথে জুড়ে দেখুন। এটি কর্মস্থলের একটি সাধারণ কথোপকথন:",
+          "가: 안녕하세요. 이름이 뭐예요? (নমস্কার। আপনার নাম কী?)",
+          "나: 저는 카말입니다. 만나서 반갑습니다. (আমি কামাল। দেখা হয়ে ভালো লাগল।)",
+          "가: 오늘 시간이 있어요? (আজ আপনার সময় আছে?)",
+          "나: 아니요, 일이 많아요. (না, কাজ অনেক।)",
+          "লক্ষ করুন — এখানে নতুন কিছু নেই। সব অংশ আপনি এই তিনটি ধাপে শিখেছেন।",
+          "লেসন ১-এর কথোপকথনগুলোও ঠিক এভাবেই গঠিত, শুধু শব্দ বেশি।"
+        ],
+        "en": [
+          "Now put every piece together. This is an ordinary workplace exchange:",
+          "A: 안녕하세요. 이름이 뭐예요? (Hello. What is your name?)",
+          "B: 저는 카말입니다. 만나서 반갑습니다. (I am Kamal. Nice to meet you.)",
+          "A: 오늘 시간이 있어요? (Do you have time today?)",
+          "B: 아니요, 일이 많아요. (No, there is a lot of work.)",
+          "Notice there is nothing new here. Every piece came from these three modules.",
+          "Lesson 1 dialogues are built the same way, just with more words."
+        ]
+      }
+    },
+    {
+      "id": "ss-read",
+      "type": "read",
+      "title": {
+        "bn": "বাক্য পড়ে অর্থ বেছে নিন",
+        "ko": "문장 읽고 뜻 고르기",
+        "en": "Read the sentence, pick the meaning"
+      },
+      "items": [
+        {
+          "id": "ss-r-chingu",
+          "text": "친구가 있어요",
+          "romanization": "chinguga isseoyo",
+          "audioText": "친구가 있어요",
+          "bn": "আমার বন্ধু আছে।",
+          "en": "I have a friend.",
+          "distractorsBn": ["আমার বন্ধু নেই।", "আমার পরিবার আছে।", "বন্ধু কোথায়?"]
+        },
+        {
+          "id": "ss-r-sigan-eops",
+          "text": "시간이 없어요",
+          "romanization": "sigani eopseoyo",
+          "audioText": "시간이 없어요",
+          "bn": "আমার সময় নেই।",
+          "en": "I do not have time.",
+          "distractorsBn": ["আমার সময় আছে।", "আমার টাকা নেই।", "এখন কয়টা বাজে?"]
+        },
+        {
+          "id": "ss-r-don",
+          "text": "돈이 없어요",
+          "romanization": "doni eopseoyo",
+          "audioText": "돈이 없어요",
+          "bn": "আমার টাকা নেই।",
+          "en": "I do not have money.",
+          "distractorsBn": ["আমার টাকা আছে।", "টাকা কোথায়?", "আমার সময় নেই।"]
+        },
+        {
+          "id": "ss-r-eumsik",
+          "text": "음식이 맛있어요",
+          "romanization": "eumsigi masisseoyo",
+          "audioText": "음식이 맛있어요",
+          "bn": "খাবার সুস্বাদু।",
+          "en": "The food is delicious.",
+          "distractorsBn": ["খাবার নেই।", "খাবার ভালো না।", "খাবার কোথায়?"]
+        },
+        {
+          "id": "ss-r-il-manh",
+          "text": "일이 많아요",
+          "romanization": "iri manayo",
+          "audioText": "일이 많아요",
+          "bn": "কাজ অনেক।",
+          "en": "There is a lot of work.",
+          "distractorsBn": ["কাজ নেই।", "কাজ কষ্টকর।", "আজ ব্যস্ত।"]
+        },
+        {
+          "id": "ss-r-bappa",
+          "text": "오늘 바빠요",
+          "romanization": "oneul bappayo",
+          "audioText": "오늘 바빠요",
+          "bn": "আজ ব্যস্ত।",
+          "en": "I am busy today.",
+          "distractorsBn": ["আজ ছুটি।", "কাল ব্যস্ত।", "কাজ অনেক।"]
+        },
+        {
+          "id": "ss-r-himdeul",
+          "text": "일이 힘들어요",
+          "romanization": "iri himdeureoyo",
+          "audioText": "일이 힘들어요",
+          "bn": "কাজটা কষ্টকর।",
+          "en": "The work is hard.",
+          "distractorsBn": ["কাজ সহজ।", "কাজ অনেক।", "কাজ ভালো।"]
+        },
+        {
+          "id": "ss-r-hoesa-joa",
+          "text": "회사가 좋아요",
+          "romanization": "hoesaga joayo",
+          "audioText": "회사가 좋아요",
+          "bn": "কোম্পানি ভালো।",
+          "en": "The company is good.",
+          "distractorsBn": ["কোম্পানি ভালো না।", "কোম্পানি কোথায়?", "কোম্পানি বড়।"]
+        },
+        {
+          "id": "ss-r-nalssi",
+          "text": "날씨가 안 좋아요",
+          "romanization": "nalssiga an joayo",
+          "audioText": "날씨가 안 좋아요",
+          "bn": "আবহাওয়া ভালো না।",
+          "en": "The weather is not good.",
+          "distractorsBn": ["আবহাওয়া ভালো।", "আজ গরম।", "বৃষ্টি হচ্ছে।"]
+        },
+        {
+          "id": "ss-r-gajok",
+          "text": "가족이 있어요",
+          "romanization": "gajogi isseoyo",
+          "audioText": "가족이 있어요",
+          "bn": "আমার পরিবার আছে।",
+          "en": "I have a family.",
+          "distractorsBn": ["আমার পরিবার নেই।", "পরিবার কোথায়?", "আমার বন্ধু আছে।"]
+        },
+        {
+          "id": "ss-r-jip",
+          "text": "집이 어디예요?",
+          "romanization": "jibi eodiyeyo",
+          "audioText": "집이 어디예요?",
+          "bn": "আপনার বাড়ি কোথায়?",
+          "en": "Where is your house?",
+          "distractorsBn": ["আমার বাড়ি আছে।", "কোম্পানি কোথায়?", "বাড়ি ভালো।"]
+        },
+        {
+          "id": "ss-r-hakssaeng",
+          "text": "저는 학생이에요",
+          "romanization": "jeoneun haksaengieyo",
+          "audioText": "저는 학생이에요",
+          "bn": "আমি ছাত্র।",
+          "en": "I am a student.",
+          "distractorsBn": ["আমি শিক্ষক।", "ছাত্র আছে।", "আমি ছাত্র নই।"]
+        }
+      ]
+    },
+    {
+      "id": "ss-quiz",
+      "type": "quiz",
+      "drawCount": 14,
+      "questions": [
+        {
+          "id": "ss-q1",
+          "kind": "multiple-choice",
+          "promptBn": "'친구' শব্দের শেষে 받침 নেই। 있어요 এর আগে কোন চিহ্ন বসবে?",
+          "options": ["가", "이", "은", "를"],
+          "answer": 0,
+          "explanationBn": "받침 না থাকলে '가' বসে, তাই '친구가 있어요' সঠিক।",
+          "topic": "syllable"
+        },
+        {
+          "id": "ss-q2",
+          "kind": "multiple-choice",
+          "promptBn": "'시간' শব্দের শেষে 'ㄴ' 받침 আছে। 있어요 এর আগে কোন চিহ্ন বসবে?",
+          "options": ["이", "가", "는", "을"],
+          "answer": 0,
+          "explanationBn": "받침 থাকলে '이' বসে, তাই '시간이 있어요' সঠিক।",
+          "topic": "syllable"
+        },
+        {
+          "id": "ss-q3",
+          "kind": "multiple-choice",
+          "promptBn": "'আমার সময় নেই' — কোরিয়ানে কীভাবে বলবেন?",
+          "options": [
+            "시간이 없어요",
+            "시간이 있어요",
+            "시간이 많아요",
+            "시간이 좋아요"
+          ],
+          "answer": 0,
+          "explanationBn": "'없어요' মানে নেই, তাই '시간이 없어요' সঠিক।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q4",
+          "kind": "multiple-choice",
+          "promptBn": "'있어요' এর অর্থ কী?",
+          "options": ["আছে", "নেই", "ভালো", "অনেক"],
+          "answer": 0,
+          "explanationBn": "'있어요' মানে আছে, আর এর উল্টো '없어요' মানে নেই।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q5",
+          "kind": "multiple-choice",
+          "promptBn": "কোরিয়ান বাক্যে বিশেষণ কোথায় বসে?",
+          "options": ["একদম শেষে", "কর্তার আগে", "শুরুতে", "চিহ্নের আগে"],
+          "answer": 0,
+          "explanationBn": "কোরিয়ানে বিশেষণও ক্রিয়ার মতো বাক্যের শেষে বসে।",
+          "topic": "general"
+        },
+        {
+          "id": "ss-q6",
+          "kind": "multiple-choice",
+          "promptBn": "'음식이 맛있어요' এর অর্থ কী?",
+          "options": [
+            "খাবার সুস্বাদু।",
+            "খাবার নেই।",
+            "খাবার অনেক।",
+            "খাবার কোথায়?"
+          ],
+          "answer": 0,
+          "explanationBn": "'맛있어요' মানে সুস্বাদু।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q7",
+          "kind": "multiple-choice",
+          "promptBn": "নেতিবাচক করতে বিশেষণের আগে কী বসে?",
+          "options": ["안", "네", "은", "가"],
+          "answer": 0,
+          "explanationBn": "'안' বসিয়ে নেতিবাচক করা হয়, যেমন '안 좋아요' মানে ভালো না।",
+          "topic": "general"
+        },
+        {
+          "id": "ss-q8",
+          "kind": "multiple-choice",
+          "promptBn": "'কাজ অনেক' — কোরিয়ানে কীভাবে বলবেন?",
+          "options": ["일이 많아요", "일이 없어요", "일이 좋아요", "일이 힘들어요"],
+          "answer": 0,
+          "explanationBn": "'많아요' মানে অনেক, তাই '일이 많아요' সঠিক।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q9",
+          "kind": "multiple-choice",
+          "promptBn": "নিজের পরিচয় দিতে সাধারণত কোন চিহ্ন ব্যবহার হয়?",
+          "options": ["은/는", "이/가", "을/를", "에서"],
+          "answer": 0,
+          "explanationBn": "নিজের কথা বলতে '저는' এর মতো করে 은/는 ব্যবহার হয়।",
+          "topic": "general"
+        },
+        {
+          "id": "ss-q10",
+          "kind": "multiple-choice",
+          "promptBn": "'있어요' বা '없어요' এর আগে সাধারণত কোন চিহ্ন বসে?",
+          "options": ["이/가", "은/는", "을/를", "으로"],
+          "answer": 0,
+          "explanationBn": "있어요/없어요 এর আগে সাধারণত 이/가 বসে, যেমন '친구가 있어요'।",
+          "topic": "general"
+        },
+        {
+          "id": "ss-q11",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বাক্যটি সঠিক?",
+          "options": [
+            "돈이 없어요",
+            "돈가 없어요",
+            "없어요 돈이",
+            "돈이 없어 있어요"
+          ],
+          "answer": 0,
+          "explanationBn": "'돈' এর শেষে 'ㄴ' 받침 আছে, তাই '이' বসে আর ক্রিয়া শেষে থাকে।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q12",
+          "kind": "multiple-choice",
+          "promptBn": "'오늘 시간이 있어요?' প্রশ্নের নেতিবাচক উত্তর কোনটি?",
+          "options": [
+            "아니요, 시간이 없어요",
+            "네, 시간이 있어요",
+            "아니요, 시간이 있어요",
+            "네, 시간이 없어요"
+          ],
+          "answer": 0,
+          "explanationBn": "নেতিবাচক উত্তরে '아니요' এর সাথে '없어요' মিলিয়ে বলতে হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q13",
+          "kind": "multiple-choice",
+          "promptBn": "'회사' শব্দের শেষে 받침 নেই। সঠিক রূপ কোনটি?",
+          "options": ["회사가", "회사이", "회사은", "회사기"],
+          "answer": 0,
+          "explanationBn": "받침 না থাকলে '가' বসে।",
+          "topic": "syllable"
+        },
+        {
+          "id": "ss-q14",
+          "kind": "multiple-choice",
+          "promptBn": "'집' শব্দের শেষে 'ㅂ' 받침 আছে। সঠিক রূপ কোনটি?",
+          "options": ["집이", "집가", "집는", "집을"],
+          "answer": 0,
+          "explanationBn": "받침 থাকলে '이' বসে।",
+          "topic": "syllable"
+        },
+        {
+          "id": "ss-q15",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "친구가 있어요",
+          "options": [
+            "আমার বন্ধু আছে।",
+            "আমার বন্ধু নেই।",
+            "বন্ধু কোথায়?",
+            "আমার পরিবার আছে।"
+          ],
+          "answer": 0,
+          "explanationBn": "'있어요' মানে আছে।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q16",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "시간이 없어요",
+          "options": [
+            "আমার সময় নেই।",
+            "আমার সময় আছে।",
+            "এখন কয়টা বাজে?",
+            "আমার টাকা নেই।"
+          ],
+          "answer": 0,
+          "explanationBn": "'없어요' মানে নেই।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q17",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "일이 많아요",
+          "options": ["কাজ অনেক।", "কাজ নেই।", "কাজ সহজ।", "আজ ছুটি।"],
+          "answer": 0,
+          "explanationBn": "'많아요' মানে অনেক।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q18",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "음식이 맛있어요",
+          "options": [
+            "খাবার সুস্বাদু।",
+            "খাবার ভালো না।",
+            "খাবার নেই।",
+            "খাবার অনেক।"
+          ],
+          "answer": 0,
+          "explanationBn": "'맛있어요' মানে সুস্বাদু।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q19",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "오늘 바빠요",
+          "options": ["আজ ব্যস্ত।", "আজ ছুটি।", "কাল ব্যস্ত।", "কাজ কষ্টকর।"],
+          "answer": 0,
+          "explanationBn": "'바빠요' মানে ব্যস্ত।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q20",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "날씨가 안 좋아요",
+          "options": [
+            "আবহাওয়া ভালো না।",
+            "আবহাওয়া ভালো।",
+            "আজ গরম।",
+            "আজ ঠান্ডা।"
+          ],
+          "answer": 0,
+          "explanationBn": "'안' বসায় অর্থ নেতিবাচক হয়েছে।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q21",
+          "kind": "matching",
+          "promptBn": "শব্দের সাথে বাংলা অর্থ মেলান।",
+          "pairs": [
+            { "left": "친구", "right": "বন্ধু" },
+            { "left": "시간", "right": "সময়" },
+            { "left": "돈", "right": "টাকা" },
+            { "left": "음식", "right": "খাবার" }
+          ],
+          "explanationBn": "এই চারটি শব্দ প্রতিদিনের কথায় বারবার আসে।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q22",
+          "kind": "matching",
+          "promptBn": "শব্দের সাথে বাংলা অর্থ মেলান।",
+          "pairs": [
+            { "left": "가족", "right": "পরিবার" },
+            { "left": "집", "right": "বাড়ি" },
+            { "left": "회사", "right": "কোম্পানি" },
+            { "left": "학생", "right": "ছাত্র" }
+          ],
+          "explanationBn": "মানুষ ও জায়গার মূল শব্দগুলো একসাথে মনে রাখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q23",
+          "kind": "matching",
+          "promptBn": "বিশেষণের সাথে অর্থ মেলান।",
+          "pairs": [
+            { "left": "좋아요", "right": "ভালো" },
+            { "left": "맛있어요", "right": "সুস্বাদু" },
+            { "left": "많아요", "right": "অনেক" },
+            { "left": "힘들어요", "right": "কষ্টকর" }
+          ],
+          "explanationBn": "এই বিশেষণগুলো বাক্যের শেষে বসে অবস্থা বোঝায়।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q24",
+          "kind": "matching",
+          "promptBn": "বাক্যের সাথে অর্থ মেলান।",
+          "pairs": [
+            { "left": "친구가 있어요", "right": "আমার বন্ধু আছে" },
+            { "left": "돈이 없어요", "right": "আমার টাকা নেই" },
+            { "left": "일이 많아요", "right": "কাজ অনেক" },
+            { "left": "오늘 바빠요", "right": "আজ ব্যস্ত" }
+          ],
+          "explanationBn": "প্রতিটি বাক্যে কর্তা, চিহ্ন আর শেষে ক্রিয়া বা বিশেষণ আছে।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q25",
+          "kind": "multiple-choice",
+          "promptBn": "কোরিয়ান বাক্যের সঠিক কাঠামো কোনটি?",
+          "options": [
+            "কর্তা + চিহ্ন + ক্রিয়া",
+            "ক্রিয়া + কর্তা + চিহ্ন",
+            "চিহ্ন + ক্রিয়া + কর্তা",
+            "কর্তা + ক্রিয়া + চিহ্ন"
+          ],
+          "answer": 0,
+          "explanationBn": "কোরিয়ানে কর্তা আগে, তার সাথে চিহ্ন, আর ক্রিয়া সবসময় শেষে বসে।",
+          "topic": "general"
+        },
+        {
+          "id": "ss-q26",
+          "kind": "multiple-choice",
+          "promptBn": "'저는 학생이에요' বাক্যে '는' কী বোঝাচ্ছে?",
+          "options": [
+            "কর্তা চিহ্নিত করছে",
+            "কর্ম চিহ্নিত করছে",
+            "স্থান বোঝাচ্ছে",
+            "সময় বোঝাচ্ছে"
+          ],
+          "answer": 0,
+          "explanationBn": "'는' কর্তা-চিহ্ন, এখানে '저' অর্থাৎ আমি-কে কর্তা হিসেবে দেখাচ্ছে।",
+          "topic": "general"
+        },
+        {
+          "id": "ss-q27",
+          "kind": "multiple-choice",
+          "promptBn": "'কোম্পানি ভালো না' — কোরিয়ানে কীভাবে বলবেন?",
+          "options": [
+            "회사가 안 좋아요",
+            "회사가 좋아요",
+            "회사가 없어요",
+            "회사가 많아요"
+          ],
+          "answer": 0,
+          "explanationBn": "নেতিবাচক করতে বিশেষণের আগে '안' বসাতে হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q28",
+          "kind": "multiple-choice",
+          "promptBn": "'집이 어디예요?' এর অর্থ কী?",
+          "options": [
+            "আপনার বাড়ি কোথায়?",
+            "আপনার বাড়ি আছে?",
+            "বাড়ি ভালো?",
+            "আপনি বাড়ি যাচ্ছেন?"
+          ],
+          "answer": 0,
+          "explanationBn": "'어디' মানে কোথায়।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q29",
+          "kind": "multiple-choice",
+          "promptBn": "নিচের কথোপকথনে শূন্যস্থানে কী বসবে?\n가: 오늘 시간이 있어요?\n나: 아니요, 일이 ( ).",
+          "options": ["많아요", "없어요", "좋아요", "맛있어요"],
+          "answer": 0,
+          "explanationBn": "সময় নেই বলার কারণ হিসেবে 'কাজ অনেক' বলা স্বাভাবিক, তাই '많아요' বসে।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q30",
+          "kind": "multiple-choice",
+          "promptBn": "'저는' আর '제 이름은' এর মধ্যে পার্থক্য কী?",
+          "options": [
+            "প্রথমটি 'আমি', দ্বিতীয়টি 'আমার নাম'",
+            "দুটোই একই অর্থ",
+            "প্রথমটি প্রশ্ন, দ্বিতীয়টি উত্তর",
+            "প্রথমটি অভদ্র, দ্বিতীয়টি ভদ্র"
+          ],
+          "answer": 0,
+          "explanationBn": "'저는' মানে 'আমি', আর '제 이름은' মানে 'আমার নাম'। দুটো দিয়েই নিজের পরিচয় দেওয়া যায়।",
+          "topic": "general"
+        },
+        {
+          "id": "ss-q31",
+          "kind": "multiple-choice",
+          "promptBn": "'가족이 있어요' এর অর্থ কী?",
+          "options": [
+            "আমার পরিবার আছে।",
+            "আমার পরিবার নেই।",
+            "পরিবার কোথায়?",
+            "পরিবার বড়।"
+          ],
+          "answer": 0,
+          "explanationBn": "'가족' মানে পরিবার আর '있어요' মানে আছে।",
+          "topic": "reading"
+        },
+        {
+          "id": "ss-q32",
+          "kind": "multiple-choice",
+          "promptBn": "'일이 힘들어요' এর অর্থ কী?",
+          "options": [
+            "কাজটা কষ্টকর।",
+            "কাজ অনেক।",
+            "কাজ সহজ।",
+            "কাজ নেই।"
+          ],
+          "answer": 0,
+          "explanationBn": "'힘들어요' মানে কষ্টকর বা কঠিন।",
+          "topic": "reading"
+        }
+      ]
+    }
+  ]
+}

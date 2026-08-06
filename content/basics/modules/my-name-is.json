@@ -1,0 +1,699 @@
+{
+  "id": "my-name-is",
+  "order": 8,
+  "title": {
+    "bn": "আমার নাম",
+    "ko": "이름 말하기",
+    "en": "My Name Is"
+  },
+  "description": {
+    "bn": "প্রথম ব্যাকরণ: 'আমি ___' বলা শিখুন। এটাই লেসন ১-এর ভিত্তি।",
+    "ko": "첫 문법: '저는 ~입니다'로 자기소개하기.",
+    "en": "Your first grammar pattern: saying 'I am ___'. This is the foundation of Lesson 1."
+  },
+  "estimatedMinutes": 20,
+  "requirements": {
+    "requiredStepIds": [
+      "mn-intro",
+      "mn-copula",
+      "mn-speak-model",
+      "mn-question",
+      "mn-speak-question",
+      "mn-read",
+      "mn-quiz"
+    ],
+    "minSpeakItems": 10,
+    "minWriteItems": 0,
+    "minBuilderItems": 0,
+    "minReadItems": 8,
+    "passRatio": 0.7
+  },
+  "steps": [
+    {
+      "id": "mn-intro",
+      "type": "explain",
+      "title": {
+        "bn": "প্রথম ব্যাকরণ",
+        "ko": "첫 문법",
+        "en": "Your first grammar"
+      },
+      "body": {
+        "bn": [
+          "এতক্ষণ আপনি মুখস্থ বাক্য শিখেছেন। এখন প্রথম ব্যাকরণ — যেটা দিয়ে আপনি নিজের বাক্য বানাতে পারবেন।",
+          "কোরিয়ান বাক্যের ক্রম বাংলার মতোই: কর্তা আগে, ক্রিয়া শেষে। ইংরেজির মতো নয়।",
+          "বাংলা: আমি | কামাল | (আছি)। কোরিয়ান: 저는 | 카말 | 입니다.",
+          "খেয়াল করুন — '입니다' বাক্যের একদম শেষে বসে। কোরিয়ানে ক্রিয়া সবসময় শেষে থাকে।",
+          "এই একটি প্যাটার্ন দিয়েই আপনি নাম, পেশা, দেশ — সবকিছু বলতে পারবেন।"
+        ],
+        "en": [
+          "So far you memorized fixed phrases. Now comes your first grammar pattern, which lets you build your own sentences.",
+          "Korean word order is like Bangla: subject first, verb last. Not like English.",
+          "Bangla: ami | Kamal | (achi). Korean: 저는 | 카말 | 입니다.",
+          "Notice that 입니다 sits at the very end. In Korean the verb always comes last.",
+          "With this one pattern you can state your name, your job, and your country."
+        ]
+      }
+    },
+    {
+      "id": "mn-copula",
+      "type": "explain",
+      "title": {
+        "bn": "입니다 আর 이에요/예요",
+        "ko": "입니다 / 이에요 / 예요",
+        "en": "입니다 and 이에요/예요"
+      },
+      "body": {
+        "bn": [
+          "'X হলো Y' বোঝাতে কোরিয়ানে দুটি রূপ আছে — একই অর্থ, আলাদা ভদ্রতার মাত্রা।",
+          "입니다 — সবচেয়ে আনুষ্ঠানিক। সাক্ষাৎকার, প্রথম পরিচয়, ফোরম্যানের সাথে কথা বলার সময় এটি ব্যবহার করুন।",
+          "이에요 / 예요 — সাধারণ ভদ্র রূপ। সহকর্মী ও পরিচিতদের সাথে চলে।",
+          "이에요 না 예요 — কোনটি বসবে তা নির্ভর করে আগের শব্দের শেষে ব্যঞ্জন (받침) আছে কি না:",
+          "받침 থাকলে → 이에요। যেমন: 카말 → 카말이에요 ('ㄹ' আছে)।",
+          "받침 না থাকলে → 예요। যেমন: 수지 → 수지예요 (স্বরে শেষ)।",
+          "입니다 এর ক্ষেত্রে এই নিয়ম লাগে না — সব শব্দের পরেই 입니다 বসে।"
+        ],
+        "en": [
+          "To say 'X is Y', Korean has two forms with the same meaning but different politeness levels.",
+          "입니다 — the most formal. Use it in interviews, first introductions, and with your foreman.",
+          "이에요 / 예요 — the standard polite form. Fine with coworkers and acquaintances.",
+          "Whether you use 이에요 or 예요 depends on whether the previous word ends in a final consonant (받침):",
+          "With 받침 → 이에요. Example: 카말 → 카말이에요 (ends in ㄹ).",
+          "Without 받침 → 예요. Example: 수지 → 수지예요 (ends in a vowel).",
+          "This rule does not apply to 입니다 — it attaches to every word the same way."
+        ]
+      }
+    },
+    {
+      "id": "mn-speak-model",
+      "type": "speak",
+      "minListens": 2,
+      "items": [
+        {
+          "id": "mn-s-jeoneun",
+          "text": "저는 카말입니다",
+          "romanization": "jeoneun kamarimnida",
+          "audioText": "저는 카말입니다",
+          "bn": "আমি কামাল।",
+          "en": "I am Kamal."
+        },
+        {
+          "id": "mn-s-ireum",
+          "text": "제 이름은 카말입니다",
+          "romanization": "je ireumeun kamarimnida",
+          "audioText": "제 이름은 카말입니다",
+          "bn": "আমার নাম কামাল।",
+          "en": "My name is Kamal."
+        },
+        {
+          "id": "mn-s-suji",
+          "text": "저는 수지예요",
+          "romanization": "jeoneun sujiyeyo",
+          "audioText": "저는 수지예요",
+          "bn": "আমি সুজি।",
+          "en": "I am Suji."
+        },
+        {
+          "id": "mn-s-kamal-ieyo",
+          "text": "저는 카말이에요",
+          "romanization": "jeoneun kamarieyo",
+          "audioText": "저는 카말이에요",
+          "bn": "আমি কামাল। (সাধারণ ভদ্র রূপ)",
+          "en": "I am Kamal. (standard polite)"
+        },
+        {
+          "id": "mn-s-bangladesh",
+          "text": "저는 방글라데시 사람입니다",
+          "romanization": "jeoneun banggeulladesi saramimnida",
+          "audioText": "저는 방글라데시 사람입니다",
+          "bn": "আমি বাংলাদেশের মানুষ।",
+          "en": "I am Bangladeshi."
+        },
+        {
+          "id": "mn-s-hakssaeng",
+          "text": "저는 학생입니다",
+          "romanization": "jeoneun haksaengimnida",
+          "audioText": "저는 학생입니다",
+          "bn": "আমি ছাত্র।",
+          "en": "I am a student."
+        },
+        {
+          "id": "mn-s-hoesawon",
+          "text": "저는 회사원입니다",
+          "romanization": "jeoneun hoesawonimnida",
+          "audioText": "저는 회사원입니다",
+          "bn": "আমি অফিসকর্মী।",
+          "en": "I am an office worker."
+        },
+        {
+          "id": "mn-s-mannaseo",
+          "text": "만나서 반갑습니다",
+          "romanization": "mannaseo bangapseumnida",
+          "audioText": "만나서 반갑습니다",
+          "bn": "আপনার সাথে দেখা হয়ে ভালো লাগল।",
+          "en": "Nice to meet you."
+        }
+      ]
+    },
+    {
+      "id": "mn-question",
+      "type": "explain",
+      "title": {
+        "bn": "নাম জিজ্ঞেস করা",
+        "ko": "이름 묻기",
+        "en": "Asking someone's name"
+      },
+      "body": {
+        "bn": [
+          "নাম জানতে চাইলে বলুন: 이름이 뭐예요? — 'আপনার নাম কী?'",
+          "আরও ভদ্রভাবে জিজ্ঞেস করতে: 성함이 어떻게 되세요? — এটি বয়সে বড় বা ঊর্ধ্বতনদের জন্য।",
+          "উত্তরে নিজের নাম বলুন: 저는 ___입니다 অথবা 제 이름은 ___입니다.",
+          "কোরিয়ান নামের ক্রম বাংলার উল্টো নয় — পারিবারিক নাম আগে, ব্যক্তিগত নাম পরে। যেমন 김민수 তে 김 হলো বংশনাম।",
+          "পরিচয়ের শেষে বলুন: 만나서 반갑습니다 — 'দেখা হয়ে ভালো লাগল'।"
+        ],
+        "en": [
+          "To ask someone's name, say: 이름이 뭐예요? — 'What is your name?'",
+          "A more polite version: 성함이 어떻게 되세요? — use this with elders or superiors.",
+          "To answer, give your own name: 저는 ___입니다 or 제 이름은 ___입니다.",
+          "Korean name order puts the family name first and the given name second. In 김민수, 김 is the family name.",
+          "Close the introduction with: 만나서 반갑습니다 — 'nice to meet you'."
+        ]
+      }
+    },
+    {
+      "id": "mn-speak-question",
+      "type": "speak",
+      "minListens": 2,
+      "items": [
+        {
+          "id": "mn-s-ireumi",
+          "text": "이름이 뭐예요?",
+          "romanization": "ireumi mwoyeyo",
+          "audioText": "이름이 뭐예요?",
+          "bn": "আপনার নাম কী?",
+          "en": "What is your name?"
+        },
+        {
+          "id": "mn-s-seongham",
+          "text": "성함이 어떻게 되세요?",
+          "romanization": "seonghami eotteoke doeseyo",
+          "audioText": "성함이 어떻게 되세요?",
+          "bn": "আপনার নাম কী? (সম্মানসূচক)",
+          "en": "May I ask your name? (honorific)"
+        },
+        {
+          "id": "mn-s-eodi",
+          "text": "어느 나라 사람이에요?",
+          "romanization": "eoneu nara saramieyo",
+          "audioText": "어느 나라 사람이에요?",
+          "bn": "আপনি কোন দেশের মানুষ?",
+          "en": "Which country are you from?"
+        },
+        {
+          "id": "mn-s-jal",
+          "text": "잘 부탁드립니다",
+          "romanization": "jal butakdeurimnida",
+          "audioText": "잘 부탁드립니다",
+          "bn": "আমাকে দয়া করে দেখবেন। (পরিচয়ের শেষে বলা রীতি)",
+          "en": "Please treat me kindly. (said when introducing yourself)"
+        }
+      ]
+    },
+    {
+      "id": "mn-read",
+      "type": "read",
+      "title": {
+        "bn": "বাক্য পড়ে অর্থ বেছে নিন",
+        "ko": "문장 읽고 뜻 고르기",
+        "en": "Read the sentence, pick the meaning"
+      },
+      "items": [
+        {
+          "id": "mn-r-jeoneun",
+          "text": "저는 카말입니다",
+          "romanization": "jeoneun kamarimnida",
+          "audioText": "저는 카말입니다",
+          "bn": "আমি কামাল।",
+          "en": "I am Kamal.",
+          "distractorsBn": ["আপনার নাম কী?", "আমি ছাত্র।", "দেখা হয়ে ভালো লাগল।"]
+        },
+        {
+          "id": "mn-r-ireum",
+          "text": "제 이름은 수지예요",
+          "romanization": "je ireumeun sujiyeyo",
+          "audioText": "제 이름은 수지예요",
+          "bn": "আমার নাম সুজি।",
+          "en": "My name is Suji.",
+          "distractorsBn": ["আমি বাংলাদেশের মানুষ।", "আপনার নাম কী?", "আমি অফিসকর্মী।"]
+        },
+        {
+          "id": "mn-r-mwoyeyo",
+          "text": "이름이 뭐예요?",
+          "romanization": "ireumi mwoyeyo",
+          "audioText": "이름이 뭐예요?",
+          "bn": "আপনার নাম কী?",
+          "en": "What is your name?",
+          "distractorsBn": ["আমার নাম কামাল।", "কোন দেশের মানুষ?", "দেখা হয়ে ভালো লাগল।"]
+        },
+        {
+          "id": "mn-r-hakssaeng",
+          "text": "저는 학생입니다",
+          "romanization": "jeoneun haksaengimnida",
+          "audioText": "저는 학생입니다",
+          "bn": "আমি ছাত্র।",
+          "en": "I am a student.",
+          "distractorsBn": ["আমি অফিসকর্মী।", "আমি শিক্ষক।", "আমি কামাল।"]
+        },
+        {
+          "id": "mn-r-hoesawon",
+          "text": "저는 회사원입니다",
+          "romanization": "jeoneun hoesawonimnida",
+          "audioText": "저는 회사원입니다",
+          "bn": "আমি অফিসকর্মী।",
+          "en": "I am an office worker.",
+          "distractorsBn": ["আমি ছাত্র।", "আমি ডাক্তার।", "আমার নাম সুজি।"]
+        },
+        {
+          "id": "mn-r-nara",
+          "text": "어느 나라 사람이에요?",
+          "romanization": "eoneu nara saramieyo",
+          "audioText": "어느 나라 사람이에요?",
+          "bn": "আপনি কোন দেশের মানুষ?",
+          "en": "Which country are you from?",
+          "distractorsBn": ["আপনার নাম কী?", "আপনি কী করেন?", "আমি বাংলাদেশের মানুষ।"]
+        },
+        {
+          "id": "mn-r-banggeulladesi",
+          "text": "저는 방글라데시 사람입니다",
+          "romanization": "jeoneun banggeulladesi saramimnida",
+          "audioText": "저는 방글라데시 사람입니다",
+          "bn": "আমি বাংলাদেশের মানুষ।",
+          "en": "I am Bangladeshi.",
+          "distractorsBn": ["আপনি কোন দেশের মানুষ?", "আমি ছাত্র।", "আমি কোরিয়ার মানুষ।"]
+        },
+        {
+          "id": "mn-r-bangap",
+          "text": "만나서 반갑습니다",
+          "romanization": "mannaseo bangapseumnida",
+          "audioText": "만나서 반갑습니다",
+          "bn": "আপনার সাথে দেখা হয়ে ভালো লাগল।",
+          "en": "Nice to meet you.",
+          "distractorsBn": ["আবার দেখা হবে।", "ধন্যবাদ।", "আপনার নাম কী?"]
+        },
+        {
+          "id": "mn-r-butak",
+          "text": "잘 부탁드립니다",
+          "romanization": "jal butakdeurimnida",
+          "audioText": "잘 부탁드립니다",
+          "bn": "আমাকে দয়া করে দেখবেন।",
+          "en": "Please treat me kindly.",
+          "distractorsBn": ["দেখা হয়ে ভালো লাগল।", "ধন্যবাদ।", "দুঃখিত।"]
+        },
+        {
+          "id": "mn-r-seongham",
+          "text": "성함이 어떻게 되세요?",
+          "romanization": "seonghami eotteoke doeseyo",
+          "audioText": "성함이 어떻게 되세요?",
+          "bn": "আপনার নাম কী? (সম্মানসূচক)",
+          "en": "May I ask your name? (honorific)",
+          "distractorsBn": ["আপনার বয়স কত?", "আমার নাম কামাল।", "আপনি কোথায় থাকেন?"]
+        }
+      ]
+    },
+    {
+      "id": "mn-quiz",
+      "type": "quiz",
+      "drawCount": 12,
+      "questions": [
+        {
+          "id": "mn-q1",
+          "kind": "multiple-choice",
+          "promptBn": "কোরিয়ান বাক্যে ক্রিয়া কোথায় বসে?",
+          "options": ["একদম শেষে", "একদম শুরুতে", "কর্তার আগে", "মাঝখানে সবসময়"],
+          "answer": 0,
+          "explanationBn": "কোরিয়ানে ক্রিয়া সবসময় বাক্যের শেষে বসে, ঠিক বাংলার মতো। ইংরেজিতে ক্রিয়া মাঝে বসে।",
+          "topic": "general"
+        },
+        {
+          "id": "mn-q2",
+          "kind": "multiple-choice",
+          "promptBn": "'저는 카말___' — শূন্যস্থানে আনুষ্ঠানিক রূপ কোনটি?",
+          "options": ["입니다", "이에요", "예요", "습니다"],
+          "answer": 0,
+          "explanationBn": "'입니다' সবচেয়ে আনুষ্ঠানিক রূপ, সাক্ষাৎকার ও প্রথম পরিচয়ে ব্যবহৃত হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q3",
+          "kind": "multiple-choice",
+          "promptBn": "'수지' নামের শেষে 받침 নেই। সঠিক রূপ কোনটি?",
+          "options": ["수지예요", "수지이에요", "수지입니다요", "수지에요"],
+          "answer": 0,
+          "explanationBn": "받침 না থাকলে '예요' বসে, তাই '수지예요' সঠিক।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q4",
+          "kind": "multiple-choice",
+          "promptBn": "'카말' নামের শেষে 'ㄹ' 받침 আছে। সঠিক রূপ কোনটি?",
+          "options": ["카말이에요", "카말예요", "카말요", "카말이요"],
+          "answer": 0,
+          "explanationBn": "받침 থাকলে '이에요' বসে, তাই '카말이에요' সঠিক।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q5",
+          "kind": "multiple-choice",
+          "promptBn": "'이름이 뭐예요?' এর অর্থ কী?",
+          "options": [
+            "আপনার নাম কী?",
+            "আপনি কোথায় থাকেন?",
+            "আপনি কী করেন?",
+            "আপনার বয়স কত?"
+          ],
+          "answer": 0,
+          "explanationBn": "'이름' মানে নাম আর '뭐예요' মানে কী, তাই পুরো বাক্যের অর্থ 'আপনার নাম কী?'",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q6",
+          "kind": "multiple-choice",
+          "promptBn": "কেউ জিজ্ঞেস করল '이름이 뭐예요?' — সঠিক উত্তর কোনটি?",
+          "options": [
+            "저는 카말입니다",
+            "만나서 반갑습니다",
+            "감사합니다",
+            "어느 나라 사람이에요?"
+          ],
+          "answer": 0,
+          "explanationBn": "নাম জিজ্ঞেস করলে নিজের নাম বলতে হয়, তাই '저는 카말입니다' সঠিক উত্তর।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q7",
+          "kind": "multiple-choice",
+          "promptBn": "'제 이름은' এর অর্থ কী?",
+          "options": ["আমার নাম", "আপনার নাম", "তার নাম", "নাম কী"],
+          "answer": 0,
+          "explanationBn": "'제' মানে আমার আর '이름' মানে নাম, তাই '제 이름은' মানে 'আমার নাম'।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q8",
+          "kind": "multiple-choice",
+          "promptBn": "কোরিয়ান নাম 김민수 তে বংশনাম কোনটি?",
+          "options": ["김", "민수", "민", "수"],
+          "answer": 0,
+          "explanationBn": "কোরিয়ান নামে পারিবারিক নাম আগে বসে, তাই '김' হলো বংশনাম আর '민수' ব্যক্তিগত নাম।",
+          "topic": "general"
+        },
+        {
+          "id": "mn-q9",
+          "kind": "multiple-choice",
+          "promptBn": "নতুন কারো সাথে পরিচয়ের শেষে কী বলা রীতি?",
+          "options": [
+            "만나서 반갑습니다",
+            "안녕히 계세요",
+            "모르겠어요",
+            "잠깐만요"
+          ],
+          "answer": 0,
+          "explanationBn": "'만나서 반갑습니다' মানে দেখা হয়ে ভালো লাগল, পরিচয়ের শেষে এটি বলা হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q10",
+          "kind": "multiple-choice",
+          "promptBn": "'저는 방글라데시 사람입니다' এর অর্থ কী?",
+          "options": [
+            "আমি বাংলাদেশের মানুষ।",
+            "আমি বাংলাদেশে যাব।",
+            "বাংলাদেশ কোথায়?",
+            "আমি বাংলা বলি।"
+          ],
+          "answer": 0,
+          "explanationBn": "'사람' মানে মানুষ, তাই 'দেশের নাম + 사람입니다' দিয়ে নিজের দেশ বলা হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q11",
+          "kind": "multiple-choice",
+          "promptBn": "ফোরম্যানের সাথে প্রথম পরিচয়ে কোন রূপ বেশি উপযুক্ত?",
+          "options": ["저는 카말입니다", "저는 카말이야", "나는 카말", "카말"],
+          "answer": 0,
+          "explanationBn": "ঊর্ধ্বতনের সাথে আনুষ্ঠানিক '입니다' রূপ ব্যবহার করতে হয়।",
+          "topic": "general"
+        },
+        {
+          "id": "mn-q12",
+          "kind": "multiple-choice",
+          "promptBn": "'어느 나라 사람이에요?' প্রশ্নের সঠিক উত্তর কোনটি?",
+          "options": [
+            "저는 방글라데시 사람입니다",
+            "저는 학생입니다",
+            "이름이 뭐예요?",
+            "만나서 반갑습니다"
+          ],
+          "answer": 0,
+          "explanationBn": "কোন দেশের মানুষ জিজ্ঞেস করা হয়েছে, তাই দেশের নাম দিয়ে উত্তর দিতে হবে।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q13",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "저는 학생입니다",
+          "options": ["আমি ছাত্র।", "আমি শিক্ষক।", "আমি অফিসকর্মী।", "আপনি ছাত্র?"],
+          "answer": 0,
+          "explanationBn": "'학생' মানে ছাত্র।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q14",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "이름이 뭐예요?",
+          "options": [
+            "আপনার নাম কী?",
+            "আমার নাম কামাল।",
+            "আপনি কোথায় থাকেন?",
+            "দেখা হয়ে ভালো লাগল।"
+          ],
+          "answer": 0,
+          "explanationBn": "এটি নাম জিজ্ঞেস করার প্রশ্ন।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q15",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "만나서 반갑습니다",
+          "options": [
+            "দেখা হয়ে ভালো লাগল।",
+            "আবার দেখা হবে।",
+            "ধন্যবাদ।",
+            "আপনার নাম কী?"
+          ],
+          "answer": 0,
+          "explanationBn": "পরিচয়ের সময় বলা হয় '만나서 반갑습니다'।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q16",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "저는 회사원입니다",
+          "options": ["আমি অফিসকর্মী।", "আমি ছাত্র।", "আমি ডাক্তার।", "আমি কৃষক।"],
+          "answer": 0,
+          "explanationBn": "'회사원' মানে অফিসকর্মী।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q17",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "어느 나라 사람이에요?",
+          "options": [
+            "আপনি কোন দেশের মানুষ?",
+            "আপনার নাম কী?",
+            "আপনি কী করেন?",
+            "আপনি কোথায় যাচ্ছেন?"
+          ],
+          "answer": 0,
+          "explanationBn": "'어느 나라' মানে কোন দেশ।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q18",
+          "kind": "matching",
+          "promptBn": "বাক্যের সাথে অর্থ মেলান।",
+          "pairs": [
+            { "left": "저는 학생입니다", "right": "আমি ছাত্র" },
+            { "left": "저는 회사원입니다", "right": "আমি অফিসকর্মী" },
+            { "left": "이름이 뭐예요?", "right": "আপনার নাম কী?" },
+            { "left": "만나서 반갑습니다", "right": "দেখা হয়ে ভালো লাগল" }
+          ],
+          "explanationBn": "পরিচয়ের চারটি মূল বাক্য একসাথে মনে রাখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q19",
+          "kind": "matching",
+          "promptBn": "নামের সাথে সঠিক রূপ মেলান।",
+          "pairs": [
+            { "left": "카말 (받침 আছে)", "right": "카말이에요" },
+            { "left": "수지 (받침 নেই)", "right": "수지예요" },
+            { "left": "민수 (받침 নেই)", "right": "민수예요" },
+            { "left": "지한 (받침 আছে)", "right": "지한이에요" }
+          ],
+          "explanationBn": "받침 থাকলে '이에요', না থাকলে '예요' বসে। শেষ অক্ষরে ব্যঞ্জন আছে কি না দেখুন।",
+          "topic": "syllable"
+        },
+        {
+          "id": "mn-q20",
+          "kind": "multiple-choice",
+          "promptBn": "'입니다' আর '이에요' এর মধ্যে পার্থক্য কী?",
+          "options": [
+            "অর্থ একই, কিন্তু '입니다' বেশি আনুষ্ঠানিক",
+            "অর্থ সম্পূর্ণ আলাদা",
+            "'입니다' প্রশ্নে আর '이에요' উত্তরে বসে",
+            "'입니다' অতীতে আর '이에요' বর্তমানে বসে"
+          ],
+          "answer": 0,
+          "explanationBn": "দুটোরই অর্থ 'হলো', তবে '입니다' বেশি আনুষ্ঠানিক আর '이에요' সাধারণ ভদ্র রূপ।",
+          "topic": "general"
+        },
+        {
+          "id": "mn-q21",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বাক্যটি সঠিক?",
+          "options": [
+            "저는 카말입니다",
+            "입니다 카말 저는",
+            "카말 저는 입니다",
+            "저는 입니다 카말"
+          ],
+          "answer": 0,
+          "explanationBn": "কোরিয়ানে ক্রম হলো কর্তা + বিশেষ্য + ক্রিয়া, আর ক্রিয়া সবসময় শেষে বসে।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q22",
+          "kind": "multiple-choice",
+          "promptBn": "বয়সে বড় কাউকে নাম জিজ্ঞেস করার সবচেয়ে ভদ্র রূপ কোনটি?",
+          "options": [
+            "성함이 어떻게 되세요?",
+            "이름이 뭐예요?",
+            "이름 뭐야?",
+            "너 누구야?"
+          ],
+          "answer": 0,
+          "explanationBn": "'성함' হলো '이름' এর সম্মানসূচক রূপ, তাই বয়সে বড়দের ক্ষেত্রে এটি ব্যবহার করুন।",
+          "topic": "general"
+        },
+        {
+          "id": "mn-q23",
+          "kind": "multiple-choice",
+          "promptBn": "'저는' এর মধ্যে '는' কী কাজ করছে?",
+          "options": [
+            "কর্তা চিহ্নিত করছে",
+            "কর্ম চিহ্নিত করছে",
+            "স্থান বোঝাচ্ছে",
+            "সময় বোঝাচ্ছে"
+          ],
+          "answer": 0,
+          "explanationBn": "'는' একটি কর্তা-চিহ্ন। '저' মানে আমি, আর '저는' মানে 'আমি (কর্তা হিসেবে)'।",
+          "topic": "general"
+        },
+        {
+          "id": "mn-q24",
+          "kind": "multiple-choice",
+          "promptBn": "'잘 부탁드립니다' কখন বলা হয়?",
+          "options": [
+            "নিজের পরিচয় দেওয়ার পর",
+            "খাওয়ার আগে",
+            "কাজ শেষ করে",
+            "ক্ষমা চাওয়ার সময়"
+          ],
+          "answer": 0,
+          "explanationBn": "নতুন কর্মস্থলে বা নতুন পরিচয়ে নিজের নাম বলার পর '잘 부탁드립니다' বলা কোরিয়ান রীতি।",
+          "topic": "general"
+        },
+        {
+          "id": "mn-q25",
+          "kind": "multiple-choice",
+          "promptBn": "'선생님' শব্দটির শেষে 받침 আছে। সঠিক রূপ কোনটি?",
+          "options": ["선생님이에요", "선생님예요", "선생님요", "선생님이요"],
+          "answer": 0,
+          "explanationBn": "'님' এর শেষে 'ㅁ' 받침 আছে, তাই '이에요' বসে।",
+          "topic": "syllable"
+        },
+        {
+          "id": "mn-q26",
+          "kind": "multiple-choice",
+          "promptBn": "'친구' শব্দটির শেষে 받침 নেই। সঠিক রূপ কোনটি?",
+          "options": ["친구예요", "친구이에요", "친구요", "친구에요"],
+          "answer": 0,
+          "explanationBn": "'구' স্বরে শেষ হয়েছে, 받침 নেই, তাই '예요' বসে।",
+          "topic": "syllable"
+        },
+        {
+          "id": "mn-q27",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "제 이름은 카말입니다",
+          "options": [
+            "আমার নাম কামাল।",
+            "আপনার নাম কামাল?",
+            "কামাল কোথায়?",
+            "আমি কামালকে চিনি।"
+          ],
+          "answer": 0,
+          "explanationBn": "'제 이름은' মানে আমার নাম।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q28",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "잘 부탁드립니다",
+          "options": [
+            "আমাকে দয়া করে দেখবেন।",
+            "ধন্যবাদ।",
+            "দুঃখিত।",
+            "আবার দেখা হবে।"
+          ],
+          "answer": 0,
+          "explanationBn": "পরিচয়ের শেষে বলা হয় '잘 부탁드립니다'।",
+          "topic": "reading"
+        },
+        {
+          "id": "mn-q29",
+          "kind": "multiple-choice",
+          "promptBn": "নিজের পেশা বলতে কোন গঠন ব্যবহার হয়?",
+          "options": [
+            "저는 + পেশা + 입니다",
+            "저는 + পেশা + 있어요",
+            "পেশা + 저는 + 입니다",
+            "저는 + 입니다 + পেশা"
+          ],
+          "answer": 0,
+          "explanationBn": "'저는 학생입니다' এর মতো করে কর্তা, পেশা, তারপর ক্রিয়া বসে।",
+          "topic": "general"
+        },
+        {
+          "id": "mn-q30",
+          "kind": "matching",
+          "promptBn": "প্রশ্নের সাথে সঠিক উত্তর মেলান।",
+          "pairs": [
+            { "left": "이름이 뭐예요?", "right": "저는 카말입니다" },
+            { "left": "어느 나라 사람이에요?", "right": "저는 방글라데시 사람입니다" },
+            { "left": "만나서 반갑습니다", "right": "저도 반갑습니다" },
+            { "left": "성함이 어떻게 되세요?", "right": "제 이름은 수지입니다" }
+          ],
+          "explanationBn": "প্রশ্ন কী জানতে চাইছে সেটা বুঝে উত্তর মেলাতে হবে।",
+          "topic": "reading"
+        }
+      ]
+    }
+  ]
+}

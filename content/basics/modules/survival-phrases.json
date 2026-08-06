@@ -1,0 +1,678 @@
+{
+  "id": "survival-phrases",
+  "order": 7,
+  "title": {
+    "bn": "দরকারি বাক্য",
+    "ko": "기본 인사말",
+    "en": "Survival Phrases"
+  },
+  "description": {
+    "bn": "প্রথম দিনেই কাজে লাগে এমন পুরো বাক্য — অক্ষর নয়, সরাসরি কথা।",
+    "ko": "첫날부터 바로 쓸 수 있는 인사말과 기본 표현.",
+    "en": "Whole phrases you can use from day one — not letters, but speech."
+  },
+  "estimatedMinutes": 20,
+  "requirements": {
+    "requiredStepIds": [
+      "sv-intro",
+      "sv-greetings",
+      "sv-speak-core",
+      "sv-speak-work",
+      "sv-politeness",
+      "sv-read",
+      "sv-quiz"
+    ],
+    "minSpeakItems": 10,
+    "minWriteItems": 0,
+    "minBuilderItems": 0,
+    "minReadItems": 8,
+    "passRatio": 0.7
+  },
+  "steps": [
+    {
+      "id": "sv-intro",
+      "type": "explain",
+      "title": {
+        "bn": "এখন থেকে পুরো বাক্য",
+        "ko": "이제는 문장으로",
+        "en": "From letters to phrases"
+      },
+      "body": {
+        "bn": [
+          "এতক্ষণ আপনি অক্ষর চিনতে ও পড়তে শিখেছেন। এখন থেকে আমরা পুরো বাক্য শিখব — যেগুলো কোরিয়ায় প্রথম দিন থেকেই কাজে লাগে।",
+          "এই বাক্যগুলো ভেঙে বিশ্লেষণ করার দরকার নেই। পুরোটা একসাথে মুখস্থ করুন, ঠিক যেমন বাংলায় 'ধন্যবাদ' বলার সময় আমরা ভাগ করি না।",
+          "কোরিয়ান ভাষায় ভদ্রতা খুব গুরুত্বপূর্ণ। কর্মস্থলে সবসময় '-요' বা '-습니다' দিয়ে শেষ হওয়া ভদ্র রূপ ব্যবহার করুন।",
+          "প্রতিটি বাক্য অন্তত দুইবার শুনুন, তারপর নিজে বলুন। শোনা আর বলা — দুটোই দরকার।"
+        ],
+        "en": [
+          "So far you learned to recognize and read letters. Now we learn whole phrases you can use from your first day in Korea.",
+          "Do not break these phrases apart. Memorize each as one chunk, the way you say 'thank you' without analyzing it.",
+          "Politeness matters in Korean. At work, always use the polite forms ending in -요 or -습니다.",
+          "Listen to each phrase at least twice, then say it yourself. Both listening and speaking are needed."
+        ]
+      }
+    },
+    {
+      "id": "sv-greetings",
+      "type": "explain",
+      "title": {
+        "bn": "কোন সময় কোন অভিবাদন",
+        "ko": "상황별 인사말",
+        "en": "Which greeting when"
+      },
+      "body": {
+        "bn": [
+          "안녕하세요 — যেকোনো সময়ের অভিবাদন। সকাল, দুপুর, রাত সব সময় একই। বাংলায় 'নমস্কার' বা 'আসসালামু আলাইকুম' এর মতো।",
+          "বিদায়ের সময় দুটি আলাদা বাক্য আছে, আর এটাই নতুনদের সবচেয়ে বড় ভুল:",
+          "안녕히 가세요 — যিনি চলে যাচ্ছেন তাঁকে বলুন। মানে 'ভালোভাবে যান'।",
+          "안녕히 계세요 — যিনি থেকে যাচ্ছেন তাঁকে বলুন। মানে 'ভালোভাবে থাকুন'।",
+          "সহজ নিয়ম: আপনি যদি অফিস থেকে বের হন, আপনি বলবেন 안녕히 계세요, আর যাঁরা থাকছেন তাঁরা বলবেন 안녕히 가세요।"
+        ],
+        "en": [
+          "안녕하세요 — an all-purpose greeting. Morning, noon, or night, it does not change.",
+          "For goodbye there are two different phrases, and this is the most common beginner mistake:",
+          "안녕히 가세요 — say it to the person who is leaving. It means 'go well'.",
+          "안녕히 계세요 — say it to the person who is staying. It means 'stay well'.",
+          "Simple rule: if you are the one walking out, you say 안녕히 계세요, and those staying say 안녕히 가세요."
+        ]
+      }
+    },
+    {
+      "id": "sv-speak-core",
+      "type": "speak",
+      "minListens": 2,
+      "items": [
+        {
+          "id": "sv-s-annyeong",
+          "text": "안녕하세요",
+          "romanization": "annyeonghaseyo",
+          "audioText": "안녕하세요",
+          "bn": "নমস্কার / হ্যালো",
+          "en": "Hello"
+        },
+        {
+          "id": "sv-s-gaseyo",
+          "text": "안녕히 가세요",
+          "romanization": "annyeonghi gaseyo",
+          "audioText": "안녕히 가세요",
+          "bn": "বিদায় (যিনি চলে যাচ্ছেন তাঁকে)",
+          "en": "Goodbye (to the one leaving)"
+        },
+        {
+          "id": "sv-s-gyeseyo",
+          "text": "안녕히 계세요",
+          "romanization": "annyeonghi gyeseyo",
+          "audioText": "안녕히 계세요",
+          "bn": "বিদায় (যিনি থেকে যাচ্ছেন তাঁকে)",
+          "en": "Goodbye (to the one staying)"
+        },
+        {
+          "id": "sv-s-gamsa",
+          "text": "감사합니다",
+          "romanization": "gamsahamnida",
+          "audioText": "감사합니다",
+          "bn": "ধন্যবাদ",
+          "en": "Thank you"
+        },
+        {
+          "id": "sv-s-joesong",
+          "text": "죄송합니다",
+          "romanization": "joesonghamnida",
+          "audioText": "죄송합니다",
+          "bn": "দুঃখিত / মাফ করবেন",
+          "en": "I am sorry"
+        },
+        {
+          "id": "sv-s-ne",
+          "text": "네",
+          "romanization": "ne",
+          "audioText": "네",
+          "bn": "হ্যাঁ",
+          "en": "Yes"
+        },
+        {
+          "id": "sv-s-aniyo",
+          "text": "아니요",
+          "romanization": "aniyo",
+          "audioText": "아니요",
+          "bn": "না",
+          "en": "No"
+        },
+        {
+          "id": "sv-s-gwaenchana",
+          "text": "괜찮아요",
+          "romanization": "gwaenchanayo",
+          "audioText": "괜찮아요",
+          "bn": "ঠিক আছে / সমস্যা নেই",
+          "en": "It is okay"
+        }
+      ]
+    },
+    {
+      "id": "sv-speak-work",
+      "type": "speak",
+      "minListens": 2,
+      "items": [
+        {
+          "id": "sv-s-sillye",
+          "text": "실례합니다",
+          "romanization": "sillyehamnida",
+          "audioText": "실례합니다",
+          "bn": "মাফ করবেন (কাউকে ডাকার সময়)",
+          "en": "Excuse me"
+        },
+        {
+          "id": "sv-s-jamkkan",
+          "text": "잠깐만요",
+          "romanization": "jamkkanmanyo",
+          "audioText": "잠깐만요",
+          "bn": "একটু অপেক্ষা করুন",
+          "en": "Just a moment"
+        },
+        {
+          "id": "sv-s-alget",
+          "text": "알겠습니다",
+          "romanization": "algesseumnida",
+          "audioText": "알겠습니다",
+          "bn": "বুঝেছি",
+          "en": "I understand"
+        },
+        {
+          "id": "sv-s-moreu",
+          "text": "모르겠어요",
+          "romanization": "moreugesseoyo",
+          "audioText": "모르겠어요",
+          "bn": "আমি জানি না",
+          "en": "I do not know"
+        },
+        {
+          "id": "sv-s-dasi",
+          "text": "다시 한번 말해 주세요",
+          "romanization": "dasi hanbeon malhae juseyo",
+          "audioText": "다시 한번 말해 주세요",
+          "bn": "আরেকবার বলুন দয়া করে",
+          "en": "Please say it once more"
+        },
+        {
+          "id": "sv-s-cheoncheonhi",
+          "text": "천천히 말해 주세요",
+          "romanization": "cheoncheonhi malhae juseyo",
+          "audioText": "천천히 말해 주세요",
+          "bn": "একটু ধীরে বলুন",
+          "en": "Please speak slowly"
+        }
+      ]
+    },
+    {
+      "id": "sv-politeness",
+      "type": "explain",
+      "title": {
+        "bn": "কাজে না জানলে কী বলবেন",
+        "ko": "모를 때 쓰는 말",
+        "en": "What to say when you do not understand"
+      },
+      "body": {
+        "bn": [
+          "নতুন কর্মীর সবচেয়ে বড় ভুল হলো না বুঝেও '네' বলা। বুঝতে না পারলে চুপ থাকবেন না — জিজ্ঞেস করুন।",
+          "না বুঝলে বলুন: 다시 한번 말해 주세요 (আরেকবার বলুন) অথবা 천천히 말해 주세요 (ধীরে বলুন)।",
+          "জানা না থাকলে বলুন: 모르겠어요 (আমি জানি না)। এটি বলা লজ্জার কিছু নয়, বরং ভুল কাজ করার চেয়ে অনেক নিরাপদ।",
+          "নির্দেশ বুঝলে বলুন: 알겠습니다 (বুঝেছি)। কর্মস্থলে ফোরম্যান এই উত্তরটাই আশা করেন।",
+          "মনে রাখবেন: কারখানায় ভুল বোঝাবুঝি থেকে দুর্ঘটনা ঘটে। জিজ্ঞেস করা সবসময় নিরাপদ।"
+        ],
+        "en": [
+          "The biggest mistake new workers make is saying 네 without understanding. If you do not understand, do not stay silent — ask.",
+          "If you did not catch it, say: 다시 한번 말해 주세요 (say it again) or 천천히 말해 주세요 (speak slowly).",
+          "If you do not know, say: 모르겠어요 (I do not know). This is not shameful; it is far safer than doing the wrong thing.",
+          "If you understood the instruction, say: 알겠습니다 (I understand). This is what a foreman expects to hear.",
+          "Remember: accidents in factories start with misunderstandings. Asking is always the safe choice."
+        ]
+      }
+    },
+    {
+      "id": "sv-read",
+      "type": "read",
+      "title": {
+        "bn": "বাক্য পড়ে অর্থ বেছে নিন",
+        "ko": "문장 읽고 뜻 고르기",
+        "en": "Read the phrase, pick the meaning"
+      },
+      "items": [
+        {
+          "id": "sv-r-annyeong",
+          "text": "안녕하세요",
+          "romanization": "annyeonghaseyo",
+          "audioText": "안녕하세요",
+          "bn": "নমস্কার / হ্যালো",
+          "en": "Hello",
+          "distractorsBn": ["ধন্যবাদ", "দুঃখিত", "বিদায়"]
+        },
+        {
+          "id": "sv-r-gamsa",
+          "text": "감사합니다",
+          "romanization": "gamsahamnida",
+          "audioText": "감사합니다",
+          "bn": "ধন্যবাদ",
+          "en": "Thank you",
+          "distractorsBn": ["নমস্কার", "মাফ করবেন", "ঠিক আছে"]
+        },
+        {
+          "id": "sv-r-joesong",
+          "text": "죄송합니다",
+          "romanization": "joesonghamnida",
+          "audioText": "죄송합니다",
+          "bn": "দুঃখিত / মাফ করবেন",
+          "en": "I am sorry",
+          "distractorsBn": ["ধন্যবাদ", "হ্যাঁ", "আরেকবার বলুন"]
+        },
+        {
+          "id": "sv-r-gwaenchana",
+          "text": "괜찮아요",
+          "romanization": "gwaenchanayo",
+          "audioText": "괜찮아요",
+          "bn": "ঠিক আছে / সমস্যা নেই",
+          "en": "It is okay",
+          "distractorsBn": ["জানি না", "বিদায়", "একটু অপেক্ষা করুন"]
+        },
+        {
+          "id": "sv-r-alget",
+          "text": "알겠습니다",
+          "romanization": "algesseumnida",
+          "audioText": "알겠습니다",
+          "bn": "বুঝেছি",
+          "en": "I understand",
+          "distractorsBn": ["জানি না", "ধন্যবাদ", "ধীরে বলুন"]
+        },
+        {
+          "id": "sv-r-moreu",
+          "text": "모르겠어요",
+          "romanization": "moreugesseoyo",
+          "audioText": "모르겠어요",
+          "bn": "আমি জানি না",
+          "en": "I do not know",
+          "distractorsBn": ["বুঝেছি", "ঠিক আছে", "নমস্কার"]
+        },
+        {
+          "id": "sv-r-jamkkan",
+          "text": "잠깐만요",
+          "romanization": "jamkkanmanyo",
+          "audioText": "잠깐만요",
+          "bn": "একটু অপেক্ষা করুন",
+          "en": "Just a moment",
+          "distractorsBn": ["দ্রুত আসুন", "ধন্যবাদ", "দুঃখিত"]
+        },
+        {
+          "id": "sv-r-sillye",
+          "text": "실례합니다",
+          "romanization": "sillyehamnida",
+          "audioText": "실례합니다",
+          "bn": "মাফ করবেন (কাউকে ডাকার সময়)",
+          "en": "Excuse me",
+          "distractorsBn": ["ভালো থাকুন", "হ্যাঁ", "বুঝেছি"]
+        },
+        {
+          "id": "sv-r-dasi",
+          "text": "다시 한번 말해 주세요",
+          "romanization": "dasi hanbeon malhae juseyo",
+          "audioText": "다시 한번 말해 주세요",
+          "bn": "আরেকবার বলুন দয়া করে",
+          "en": "Please say it once more",
+          "distractorsBn": ["ধীরে বলুন", "আমি জানি না", "ধন্যবাদ"]
+        },
+        {
+          "id": "sv-r-cheoncheonhi",
+          "text": "천천히 말해 주세요",
+          "romanization": "cheoncheonhi malhae juseyo",
+          "audioText": "천천히 말해 주세요",
+          "bn": "একটু ধীরে বলুন",
+          "en": "Please speak slowly",
+          "distractorsBn": ["আরেকবার বলুন", "একটু অপেক্ষা করুন", "বুঝেছি"]
+        },
+        {
+          "id": "sv-r-gaseyo",
+          "text": "안녕히 가세요",
+          "romanization": "annyeonghi gaseyo",
+          "audioText": "안녕히 가세요",
+          "bn": "বিদায় (যিনি চলে যাচ্ছেন তাঁকে)",
+          "en": "Goodbye (to the one leaving)",
+          "distractorsBn": ["বিদায় (যিনি থাকছেন তাঁকে)", "নমস্কার", "আবার দেখা হবে"]
+        },
+        {
+          "id": "sv-r-gyeseyo",
+          "text": "안녕히 계세요",
+          "romanization": "annyeonghi gyeseyo",
+          "audioText": "안녕히 계세요",
+          "bn": "বিদায় (যিনি থেকে যাচ্ছেন তাঁকে)",
+          "en": "Goodbye (to the one staying)",
+          "distractorsBn": ["বিদায় (যিনি চলে যাচ্ছেন তাঁকে)", "ধন্যবাদ", "নমস্কার"]
+        }
+      ]
+    },
+    {
+      "id": "sv-quiz",
+      "type": "quiz",
+      "drawCount": 12,
+      "questions": [
+        {
+          "id": "sv-q1",
+          "kind": "multiple-choice",
+          "promptBn": "সকালে কর্মস্থলে ঢুকে সহকর্মীকে কী বলবেন?",
+          "options": ["안녕하세요", "감사합니다", "죄송합니다", "모르겠어요"],
+          "answer": 0,
+          "explanationBn": "'안녕하세요' যেকোনো সময়ের অভিবাদন। সকাল, দুপুর, রাত সব সময় একই বাক্য চলে।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q2",
+          "kind": "multiple-choice",
+          "promptBn": "আপনি অফিস থেকে বের হচ্ছেন, বাকিরা থেকে যাচ্ছেন। আপনি কী বলবেন?",
+          "options": ["안녕히 계세요", "안녕히 가세요", "안녕하세요", "잠깐만요"],
+          "answer": 0,
+          "explanationBn": "যাঁরা থেকে যাচ্ছেন তাঁদের 'ভালোভাবে থাকুন' বলতে হয়, তাই '안녕히 계세요'। উল্টোটা বললে ভুল হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q3",
+          "kind": "multiple-choice",
+          "promptBn": "সহকর্মী আপনার কাজে সাহায্য করলেন। কী বলবেন?",
+          "options": ["감사합니다", "죄송합니다", "아니요", "실례합니다"],
+          "answer": 0,
+          "explanationBn": "সাহায্যের জন্য কৃতজ্ঞতা জানাতে '감사합니다' বলতে হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q4",
+          "kind": "multiple-choice",
+          "promptBn": "ভুল করে কারো গায়ে ধাক্কা লেগেছে। কী বলবেন?",
+          "options": ["죄송합니다", "감사합니다", "괜찮아요", "네"],
+          "answer": 0,
+          "explanationBn": "ভুলের জন্য ক্ষমা চাইতে '죄송합니다' বলতে হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q5",
+          "kind": "multiple-choice",
+          "promptBn": "ফোরম্যান নির্দেশ দিলেন আর আপনি বুঝেছেন। কী বলবেন?",
+          "options": ["알겠습니다", "모르겠어요", "아니요", "안녕하세요"],
+          "answer": 0,
+          "explanationBn": "নির্দেশ বুঝলে '알겠습니다' বলাই কর্মস্থলের রীতি।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q6",
+          "kind": "multiple-choice",
+          "promptBn": "ফোরম্যান খুব দ্রুত কথা বলছেন, আপনি ধরতে পারছেন না। কী বলবেন?",
+          "options": ["천천히 말해 주세요", "감사합니다", "안녕히 가세요", "괜찮아요"],
+          "answer": 0,
+          "explanationBn": "ধীরে বলার অনুরোধ করতে '천천히 말해 주세요' বলুন। না বুঝে চুপ থাকা বিপজ্জনক।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q7",
+          "kind": "multiple-choice",
+          "promptBn": "'모르겠어요' এর অর্থ কী?",
+          "options": ["আমি জানি না", "আমি বুঝেছি", "ঠিক আছে", "ধন্যবাদ"],
+          "answer": 0,
+          "explanationBn": "'모르겠어요' মানে 'আমি জানি না'। এটি বলা লজ্জার নয়, ভুল কাজ করার চেয়ে নিরাপদ।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q8",
+          "kind": "multiple-choice",
+          "promptBn": "'괜찮아요' কখন বলা হয়?",
+          "options": [
+            "কেউ দুঃখ প্রকাশ করলে আশ্বস্ত করতে",
+            "প্রথম দেখা হলে",
+            "বিদায় নেওয়ার সময়",
+            "কাউকে ডাকার সময়"
+          ],
+          "answer": 0,
+          "explanationBn": "'괜찮아요' মানে 'ঠিক আছে, সমস্যা নেই'। কেউ '죄송합니다' বললে উত্তরে এটি বলা যায়।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q9",
+          "kind": "multiple-choice",
+          "promptBn": "রাস্তায় অচেনা কাউকে কিছু জিজ্ঞেস করার আগে কী বলবেন?",
+          "options": ["실례합니다", "안녕히 계세요", "알겠습니다", "아니요"],
+          "answer": 0,
+          "explanationBn": "কাউকে ডেকে কথা শুরু করতে '실례합니다' বলা ভদ্র রীতি।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q10",
+          "kind": "multiple-choice",
+          "promptBn": "কেউ আপনাকে ডাকল কিন্তু আপনি এখনই যেতে পারছেন না। কী বলবেন?",
+          "options": ["잠깐만요", "모르겠어요", "감사합니다", "안녕하세요"],
+          "answer": 0,
+          "explanationBn": "'잠깐만요' মানে 'একটু অপেক্ষা করুন'।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q11",
+          "kind": "multiple-choice",
+          "promptBn": "সহকর্মী কারখানা থেকে চলে যাচ্ছেন। আপনি থেকে যাচ্ছেন। আপনি কী বলবেন?",
+          "options": ["안녕히 가세요", "안녕히 계세요", "잠깐만요", "죄송합니다"],
+          "answer": 0,
+          "explanationBn": "যিনি চলে যাচ্ছেন তাঁকে 'ভালোভাবে যান' অর্থে '안녕히 가세요' বলতে হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q12",
+          "kind": "multiple-choice",
+          "promptBn": "না বুঝেও '네' বলা কেন বিপজ্জনক?",
+          "options": [
+            "ভুল বোঝাবুঝি থেকে কাজে দুর্ঘটনা ঘটতে পারে",
+            "'네' শব্দটি অভদ্র",
+            "'네' শুধু ফোনে ব্যবহার হয়",
+            "'네' মানে 'না'"
+          ],
+          "answer": 0,
+          "explanationBn": "না বুঝে সম্মতি দিলে ভুল কাজ হয়ে দুর্ঘটনা ঘটতে পারে। বুঝতে না পারলে জিজ্ঞেস করাই নিরাপদ।",
+          "topic": "general"
+        },
+        {
+          "id": "sv-q13",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "감사합니다",
+          "options": ["ধন্যবাদ", "দুঃখিত", "নমস্কার", "বিদায়"],
+          "answer": 0,
+          "explanationBn": "'감사합니다' মানে ধন্যবাদ।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q14",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "죄송합니다",
+          "options": ["দুঃখিত", "ধন্যবাদ", "হ্যাঁ", "ঠিক আছে"],
+          "answer": 0,
+          "explanationBn": "'죄송합니다' মানে দুঃখিত বা মাফ করবেন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q15",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "알겠습니다",
+          "options": ["বুঝেছি", "জানি না", "ধন্যবাদ", "অপেক্ষা করুন"],
+          "answer": 0,
+          "explanationBn": "'알겠습니다' মানে বুঝেছি।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q16",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "모르겠어요",
+          "options": ["আমি জানি না", "আমি বুঝেছি", "ঠিক আছে", "নমস্কার"],
+          "answer": 0,
+          "explanationBn": "'모르겠어요' মানে আমি জানি না।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q17",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "천천히 말해 주세요",
+          "options": ["ধীরে বলুন", "আরেকবার বলুন", "অপেক্ষা করুন", "ধন্যবাদ"],
+          "answer": 0,
+          "explanationBn": "'천천히' মানে ধীরে, তাই এটি ধীরে বলার অনুরোধ।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q18",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "괜찮아요",
+          "options": ["ঠিক আছে", "দুঃখিত", "জানি না", "বিদায়"],
+          "answer": 0,
+          "explanationBn": "'괜찮아요' মানে ঠিক আছে বা সমস্যা নেই।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q19",
+          "kind": "matching",
+          "promptBn": "বাক্যের সাথে অর্থ মেলান।",
+          "pairs": [
+            { "left": "안녕하세요", "right": "নমস্কার" },
+            { "left": "감사합니다", "right": "ধন্যবাদ" },
+            { "left": "죄송합니다", "right": "দুঃখিত" },
+            { "left": "괜찮아요", "right": "ঠিক আছে" }
+          ],
+          "explanationBn": "এই চারটি বাক্য প্রতিদিন কাজে লাগে, তাই আলাদা করে মনে রাখুন।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q20",
+          "kind": "matching",
+          "promptBn": "বাক্যের সাথে অর্থ মেলান।",
+          "pairs": [
+            { "left": "알겠습니다", "right": "বুঝেছি" },
+            { "left": "모르겠어요", "right": "জানি না" },
+            { "left": "잠깐만요", "right": "একটু অপেক্ষা করুন" },
+            { "left": "실례합니다", "right": "মাফ করবেন" }
+          ],
+          "explanationBn": "কর্মস্থলে এই চারটি বাক্য দিয়ে বেশিরভাগ পরিস্থিতি সামলানো যায়।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q21",
+          "kind": "matching",
+          "promptBn": "পরিস্থিতির সাথে সঠিক বাক্য মেলান।",
+          "pairs": [
+            { "left": "সহকর্মী সাহায্য করলেন", "right": "감사합니다" },
+            { "left": "দেরি করে এলেন", "right": "죄송합니다" },
+            { "left": "নির্দেশ বুঝেছেন", "right": "알겠습니다" },
+            { "left": "কথা ধরতে পারছেন না", "right": "다시 한번 말해 주세요" }
+          ],
+          "explanationBn": "পরিস্থিতি বুঝে সঠিক বাক্য বেছে নেওয়াই আসল দক্ষতা।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q22",
+          "kind": "multiple-choice",
+          "promptBn": "'안녕히 가세요' আর '안녕히 계세요' এর পার্থক্য কী?",
+          "options": [
+            "প্রথমটি যিনি যাচ্ছেন তাঁকে, দ্বিতীয়টি যিনি থাকছেন তাঁকে",
+            "প্রথমটি সকালে, দ্বিতীয়টি রাতে",
+            "প্রথমটি ভদ্র, দ্বিতীয়টি অভদ্র",
+            "কোনো পার্থক্য নেই"
+          ],
+          "answer": 0,
+          "explanationBn": "'가다' মানে যাওয়া আর '계시다' মানে থাকা। তাই যিনি যাচ্ছেন তাঁকে 가세요, যিনি থাকছেন তাঁকে 계세요।",
+          "topic": "general"
+        },
+        {
+          "id": "sv-q23",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বাক্যটি সবচেয়ে ভদ্র রূপে আছে?",
+          "options": ["감사합니다", "고마워", "미안", "응"],
+          "answer": 0,
+          "explanationBn": "'-습니다' দিয়ে শেষ হওয়া রূপ সবচেয়ে ভদ্র। কর্মস্থলে এটিই ব্যবহার করুন।",
+          "topic": "general"
+        },
+        {
+          "id": "sv-q24",
+          "kind": "multiple-choice",
+          "promptBn": "'네' এর অর্থ কী?",
+          "options": ["হ্যাঁ", "না", "হয়তো", "ধন্যবাদ"],
+          "answer": 0,
+          "explanationBn": "'네' মানে হ্যাঁ, আর '아니요' মানে না।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q25",
+          "kind": "multiple-choice",
+          "promptBn": "'아니요' এর অর্থ কী?",
+          "options": ["না", "হ্যাঁ", "ঠিক আছে", "দুঃখিত"],
+          "answer": 0,
+          "explanationBn": "'아니요' মানে না।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q26",
+          "kind": "multiple-choice",
+          "promptBn": "কোন বাক্যটি দিয়ে আপনি সাহায্য চাইবেন যখন কথা বুঝতে পারছেন না?",
+          "options": [
+            "다시 한번 말해 주세요",
+            "안녕히 가세요",
+            "괜찮아요",
+            "네"
+          ],
+          "answer": 0,
+          "explanationBn": "'다시 한번 말해 주세요' মানে আরেকবার বলুন। না বুঝলে এটি বলাই সঠিক।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q27",
+          "kind": "multiple-choice",
+          "promptBn": "কোরিয়ান কর্মস্থলে কোন রূপ ব্যবহার করা উচিত?",
+          "options": [
+            "'-요' বা '-습니다' দিয়ে শেষ হওয়া ভদ্র রূপ",
+            "শুধু ছোট রূপ",
+            "যেকোনো রূপ চলে",
+            "শুধু ইংরেজি"
+          ],
+          "answer": 0,
+          "explanationBn": "কর্মস্থলে সবসময় ভদ্র রূপ ব্যবহার করতে হয়, কারণ কোরিয়ান ভাষায় ভদ্রতা খুব গুরুত্বপূর্ণ।",
+          "topic": "general"
+        },
+        {
+          "id": "sv-q28",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "안녕히 계세요",
+          "options": [
+            "বিদায় (যিনি থাকছেন তাঁকে)",
+            "বিদায় (যিনি যাচ্ছেন তাঁকে)",
+            "নমস্কার",
+            "ধন্যবাদ"
+          ],
+          "answer": 0,
+          "explanationBn": "'계세요' এসেছে '계시다' অর্থাৎ থাকা থেকে, তাই এটি যিনি থাকছেন তাঁকে বলা হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q29",
+          "kind": "listen-choice",
+          "promptBn": "শুনে সঠিক অর্থ বেছে নিন।",
+          "listenText": "실례합니다",
+          "options": ["মাফ করবেন", "ধন্যবাদ", "বুঝেছি", "হ্যাঁ"],
+          "answer": 0,
+          "explanationBn": "'실례합니다' দিয়ে কাউকে ডেকে কথা শুরু করা হয়।",
+          "topic": "reading"
+        },
+        {
+          "id": "sv-q30",
+          "kind": "multiple-choice",
+          "promptBn": "কেউ আপনাকে '감사합니다' বলল। ভদ্র উত্তর কোনটি?",
+          "options": ["네, 괜찮아요", "모르겠어요", "죄송합니다", "잠깐만요"],
+          "answer": 0,
+          "explanationBn": "ধন্যবাদের উত্তরে '네, 괜찮아요' বলা যায়, যার মানে 'হ্যাঁ, সমস্যা নেই'।",
+          "topic": "reading"
+        }
+      ]
+    }
+  ]
+}

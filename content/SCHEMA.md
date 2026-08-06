@@ -79,7 +79,7 @@ Every lesson file `content/lessons/lesson-NN.json` MUST be valid JSON matching t
 ```
 
 ## Hard requirements
-- `vocabulary`: 30–35 items, each with ko/romanization/bn/en/pos/example (example has ko/bn/en).
+- `vocabulary`: minimum 30, **no upper bound** — a chapter carries every on-syllabus word its textbook unit indexes rather than truncating (ch11 household chores has 51). Each item has ko/romanization/bn/en/pos/example (example has ko/bn/en).
 - `grammar`: 4–5 patterns with Bengali explanations and 2+ examples each.
 - `dialogues`: 3 dialogues, 4–8 lines each.
 - `practice`: EXACTLY 20 items. Mix: ≥4 multiple-choice, ≥3 fill-blank, ≥2 matching.

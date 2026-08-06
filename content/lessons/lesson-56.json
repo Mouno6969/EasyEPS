@@ -2,7 +2,7 @@
   "chapter": 56,
   "slug": "industrial-accidents-and-first-aid",
   "title": {
-    "ko": "산업 재해와 응급 처치",
+    "ko": "산업 재해 및 응급 처치",
     "bn": "শিল্প দুর্ঘটনা ও প্রাথমিক চিকিৎসা",
     "en": "Industrial Accidents and First Aid"
   },
@@ -10,97 +10,19 @@
   "level": "beginner",
   "objectives": {
     "bn": [
-      "কারখানার সাধারণ দুর্ঘটনা ও সাধারণ ক্ষতসমূহ চিনতে পারা।",
-      "সহকর্মীকে দ্রুত এবং নিরাপদভাবে রিপোর্ট করা ও সুপারভাইজারকে জানানো শিখা।",
-      "সরল প্রাথমিক চিকিৎসার ফলে কী করতে হবে তা জানবে (উদাহরণ: রক্তপাত চাপানো, পুড়ে গেলে ঠান্ডা পানি ব্যবহার)।",
-      "নিরাপত্তা সাইন ও জরুরি নম্বর অনুসরণ করার গুরুত্ব বুঝা।"
+      "দুর্ঘটনার ধরন অনুযায়ী প্রাথমিক প্রতিক্রিয়া বলতে পারা",
+      "জরুরি পরিস্থিতি মোকাবিলার পদ্ধতি বলতে পারা",
+      "'-(으)ㄹ 뻔하다' দিয়ে 'প্রায় ঘটে যেত' বোঝাতে পারা",
+      "'-자마자' দিয়ে এক কাজের পরপরই আরেক কাজ বোঝাতে পারা"
     ],
     "en": [
-      "Recognize common workplace accidents and basic injuries.",
-      "Report incidents quickly and inform a supervisor safely.",
-      "Know simple first-aid actions (e.g., apply pressure for bleeding, cool burns with water).",
-      "Understand the importance of safety signs and contacting emergency services."
+      "Can talk about initial response for different types of accidents",
+      "Can talk about how to respond to emergency situations",
+      "Can express that something nearly happened using -(으)ㄹ 뻔하다",
+      "Can express that one action immediately follows another using -자마자"
     ]
   },
   "vocabulary": [
-    {
-      "ko": "산업 재해",
-      "romanization": "saneop jaehae",
-      "bn": "শিল্প দুর্ঘটনা",
-      "en": "industrial accident",
-      "pos": "noun",
-      "example": {
-        "ko": "공장에서 작은 산업 재해가 발생했습니다.",
-        "bn": "কারখানায় একটি ছোট শিল্প দুর্ঘটনা ঘটেছে।",
-        "en": "A small industrial accident happened at the factory."
-      },
-      "pronunciationTipBn": "'재해'-তে 'ㅈ' নরম 'জ'-এর মতো; 'জেহে' নয়, 'চেhe'-র কাছাকাছি নরমভাবে 'জэhe' বলুন — 'সানঅপ চэhe'।"
-    },
-    {
-      "ko": "안전모",
-      "romanization": "anjeonmo",
-      "bn": "নিরাপত্তা হেলমেট",
-      "en": "safety helmet",
-      "pos": "noun",
-      "example": {
-        "ko": "작업할 때 안전모를 꼭 착용하세요.",
-        "bn": "কাজ করার সময় নিরাপত্তা হেলমেট ব্যবহার করুন।",
-        "en": "Please wear a safety helmet while working."
-      },
-      "pronunciationTipBn": "'안전'-এর 'ㄴ' বাচিম পরের 'ㅈ'-এর সাথে যুক্ত হয়ে 'আনজন-মো' হয়; 'মো'-তে ঠোঁট গোল করুন।"
-    },
-    {
-      "ko": "보호장갑",
-      "romanization": "boho janggap",
-      "bn": "প্রটেকটিভ গ্লাভস",
-      "en": "protective gloves",
-      "pos": "noun",
-      "example": {
-        "ko": "화학 물질을 다룰 때 보호장갑을 씁니다.",
-        "bn": "রাসায়নিক সামগ্রী সামলানোর সময় প্রটেকটিভ গ্লাভস পরুন।",
-        "en": "Wear protective gloves when handling chemicals."
-      },
-      "pronunciationTipBn": "'보호'-তে দুটি 'ㅗ' ধ্বনি; বাংলা 'ও'-এর মতো ঠোঁট গোল করে 'বোহো-জাংগাপ' বলুন।"
-    },
-    {
-      "ko": "안전화",
-      "romanization": "anjeonhwa",
-      "bn": "নিরাপত্তা বুট",
-      "en": "safety shoes",
-      "pos": "noun",
-      "example": {
-        "ko": "무거운 물건을 들 때 안전화를 신으세요.",
-        "bn": "ওজন বাড়ানোর সময় নিরাপত্তা বুট ব্যবহার করুন।",
-        "en": "Wear safety shoes when lifting heavy objects."
-      },
-      "pronunciationTipBn": "'화'-তে 'ㅎ'+'ㅘ' মিলে 'হোয়া'-এর মতো শোনায়; 'আনজন-হোয়া' বলুন, 'হা' নয়।"
-    },
-    {
-      "ko": "비상구",
-      "romanization": "bisanggu",
-      "bn": "জরুরি পথ",
-      "en": "emergency exit",
-      "pos": "noun",
-      "example": {
-        "ko": "비상 시 비상구 위치를 확인하세요.",
-        "bn": "জরুরী পরিস্থিতিতে জরুরি পথের অবস্থান পরীক্ষা করুন।",
-        "en": "Check the location of the emergency exit in case of emergency."
-      },
-      "pronunciationTipBn": "'비상'-এর 'ㅂ' শব্দের শুরুতে নরম 'ব'; শেষের '구' দীর্ঘ 'উ' নয়, ছোট করে 'গু' বলুন।"
-    },
-    {
-      "ko": "경고 표지",
-      "romanization": "gyeonggo pyoji",
-      "bn": "সতর্কীকরণ চিহ্ন",
-      "en": "warning sign",
-      "pos": "noun",
-      "example": {
-        "ko": "경고 표지를 보면 속도를 줄이세요.",
-        "bn": "সতর্কীকরণ চিহ্ন দেখলে গতি কমান।",
-        "en": "Slow down when you see a warning sign."
-      },
-      "pronunciationTipBn": "'표'-তে 'ㅍ' শ্বাসযুক্ত 'প'; জোরে বাতাস ছেড়ে 'পিয়ো-জি' বলুন, নরম 'ব্যো' নয়।"
-    },
     {
       "ko": "응급 처치",
       "romanization": "eunggeup cheochi",
@@ -108,206 +30,141 @@
       "en": "first aid",
       "pos": "noun",
       "example": {
-        "ko": "응급 처치는 전문가가 오기 전까지 도움이 됩니다.",
-        "bn": "পেশাদার আসার আগে প্রাথমিক চিকিৎসা সহায়ক।",
-        "en": "First aid helps until a professional arrives."
+        "ko": "다친 사람이 있으면 응급 처치를 해야 합니다.",
+        "bn": "কেউ আহত হলে প্রাথমিক চিকিৎসা দিতে হবে।",
+        "en": "You must administer first aid if someone is injured."
       },
-      "pronunciationTipBn": "'응급'-এর 'ㅇ' বাচিম নাকি ধ্বনি 'ং'; 'উংগ্যুপ'-এর পরে '처'-তে শ্বাসযুক্ত 'ছ' দিন।"
+      "pronunciationTipBn": "'급' এর 'ㅂ' এর পরে 'ㅊ' এলে [응급처치] শক্ত হয়।"
     },
     {
-      "ko": "출혈",
-      "romanization": "chulhyeol",
-      "bn": "রক্তপাত",
-      "en": "bleeding",
+      "ko": "소화기",
+      "romanization": "sohwagi",
+      "bn": "অগ্নিনির্বাপক যন্ত্র",
+      "en": "fire extinguisher",
       "pos": "noun",
       "example": {
-        "ko": "출혈이 있으면 깨끗한 천으로 압박하세요.",
-        "bn": "রক্তপাত হলে পরিষ্কার কাপড় দিয়ে চাপ দিন।",
-        "en": "If there's bleeding, press with a clean cloth."
+        "ko": "소화기로 불을 껐대요.",
+        "bn": "অগ্নিনির্বাপক যন্ত্র দিয়ে আগুন নিভিয়েছেন।",
+        "en": "They put out the fire with a fire extinguisher."
       },
-      "pronunciationTipBn": "'출'-এর 'ㄹ' বাচিম আর '혈'-এর 'ㅎ' মিলে 'ছুরিয়ল'-এর মতো শোনায়; ধীরে 'ছুল-হিয়ল' অনুশীলন করুন।"
+      "pronunciationTipBn": "'화' ঠোঁট গোল করে [소화기] বলুন।"
     },
     {
-      "ko": "화상",
-      "romanization": "hwasang",
-      "bn": "দগ্ধ/জ্বলন",
-      "en": "burn",
+      "ko": "화재경보기",
+      "romanization": "hwajaegyeongbogi",
+      "bn": "অগ্নি সতর্কতা ঘণ্টা",
+      "en": "fire alarm",
       "pos": "noun",
       "example": {
-        "ko": "작은 화상은 흐르는 물로 식히세요.",
-        "bn": "ছোট জ্বলন হলে বয়ে যাওয়া ঠান্ডা পানিতে ঠান্ডা করুন।",
-        "en": "Cool a small burn with running water."
+        "ko": "불이 나면 화재경보기를 누르세요.",
+        "bn": "আগুন লাগলে অগ্নি সতর্কতা ঘণ্টা চাপুন।",
+        "en": "Press the fire alarm if a fire breaks out."
       },
-      "pronunciationTipBn": "'화'-তে 'হোয়া' ধ্বনি; 'হাসাং' নয়, 'হোয়াসাং' বলুন — শেষের 'ㅇ' নাকি 'ং'।"
+      "pronunciationTipBn": "'경' এর 'ㅇ' নাসিক্য, [경보기]।"
     },
     {
-      "ko": "골절",
-      "romanization": "goljeol",
-      "bn": "হাড়ভাঙ্গা",
-      "en": "fracture",
+      "ko": "소방호스릴",
+      "romanization": "sobanghoseuril",
+      "bn": "অগ্নিনির্বাপক পাইপ রিল",
+      "en": "fire hose reel",
       "pos": "noun",
       "example": {
-        "ko": "심한 통증과 변형이 있으면 골절을 의심하세요.",
-        "bn": "তীব্র ব্যথা ও বিকৃতির ক্ষেত্রে হাড়ভাঙ্গা সন্দেহ করুন।",
-        "en": "Suspect a fracture if there's severe pain and deformity."
+        "ko": "복도에 소방호스릴이 있습니다.",
+        "bn": "করিডোরে অগ্নিনির্বাপক পাইপ রিল আছে।",
+        "en": "There is a fire hose reel in the hallway."
       },
-      "pronunciationTipBn": "'골'-এর 'ㄹ' বাচিমে জিভ তালুতে হালকা স্পর্শ করান; 'গোল-জল' — দুই অক্ষরই ছোট রাখুন।"
+      "pronunciationTipBn": "'방' এর 'ㅇ' নাসিক্য, [소방]।"
     },
     {
-      "ko": "미끄러짐",
-      "romanization": "mikkeureojim",
-      "bn": "পিষে পড়া/পপড়ানো",
-      "en": "slip (fall)",
+      "ko": "방화문",
+      "romanization": "banghwamun",
+      "bn": "অগ্নিরোধী দরজা",
+      "en": "fire door",
       "pos": "noun",
       "example": {
-        "ko": "바닥이 젖으면 미끄러짐 주의 표지판이 필요합니다.",
-        "bn": "মেঝে ভেজা থাকলে প滑ে যাওয়ার সতর্কতা চিহ্ন দরকার।",
-        "en": "If the floor is wet, a slip caution sign is needed."
+        "ko": "방화문을 항상 닫아 두세요.",
+        "bn": "অগ্নিরোধী দরজা সবসময় বন্ধ রাখুন।",
+        "en": "Always keep the fire door closed."
       },
-      "pronunciationTipBn": "'끄'-তে টান টান (টেনস) 'ㄲ' ধ্বনি; গলা শক্ত করে বাতাস ছাড়া ছাড়াই 'মিক্কырじম'-এর মতো 'মিক্কুরজিম' বলুন।"
-    },
-    {
-      "ko": "기계",
-      "romanization": "gigae",
-      "bn": "যন্ত্র/মেশিন",
-      "en": "machine",
-      "pos": "noun",
-      "example": {
-        "ko": "기계 점검 전 전원을 끄세요.",
-        "bn": "মেশিন পরীক্ষা করার আগে শক্তি বন্ধ করুন।",
-        "en": "Turn off power before inspecting the machine."
-      },
-      "pronunciationTipBn": "'계'-এর 'ㅖ' এখানে 'এ'-এর মতো উচ্চারিত হয়; 'কিগিয়ে' নয়, সহজভাবে 'কিগে' বলুন।"
+      "pronunciationTipBn": "'화' ঠোঁট গোল করে [방화문]।"
     },
     {
       "ko": "신고하다",
       "romanization": "singohada",
-      "bn": "অভিযোগ/রিপোর্ট করা",
-      "en": "to report",
+      "bn": "খবর দেওয়া",
+      "en": "to report (to authorities)",
       "pos": "verb",
       "example": {
-        "ko": "사고가 나면 즉시 관리자에게 신고하세요.",
-        "bn": "দুর্ঘটনা হলে তাৎক্ষণিকভাবে ম্যানেজারকে জানান।",
-        "en": "Report the accident to the manager immediately."
+        "ko": "불이 나자마자 119에 신고했어요.",
+        "bn": "আগুন লাগার সঙ্গে সঙ্গেই ১১৯-এ খবর দিয়েছি।",
+        "en": "I reported to 119 as soon as the fire broke out."
       },
-      "pronunciationTipBn": "'신'-এর 'ㄴ' বাচিম স্পষ্ট রাখুন; 'শিনগো-হাদা' — 'ㅅ' এখানে 'শ'-এর মতো শোনায়।"
-    },
-    {
-      "ko": "관리자",
-      "romanization": "gwanrija",
-      "bn": "ম্যানেজার/প্রশাসক",
-      "en": "supervisor/manager",
-      "pos": "noun",
-      "example": {
-        "ko": "관리자에게 위험 지역을 알렸습니다.",
-        "bn": "ম্যানেজারকে ঝুঁকির অঞ্চল জানিয়েছি।",
-        "en": "I informed the supervisor about the hazard area."
-      },
-      "pronunciationTipBn": "'관'-এর 'ㄴ' পরের 'ㄹ'-এর প্রভাবে 'ㄹ' হয়ে যায়; তাই 'কোয়ান-রিজা' নয়, 'কোয়াল্লিজা' বলুন।"
-    },
-    {
-      "ko": "구조대",
-      "romanization": "gujodae",
-      "bn": "রেসকিউ টীম",
-      "en": "rescue team",
-      "pos": "noun",
-      "example": {
-        "ko": "큰 사고면 구조대를 요청해야 합니다.",
-        "bn": "বড় দুর্ঘটনার ক্ষেত্রে রেসকিউ টীমকে ডাকুন।",
-        "en": "Call the rescue team for a major accident."
-      },
-      "pronunciationTipBn": "'조'-তে নরম 'জ' ধ্বনি; 'কুজোদে' — শেষের '대' 'দে'-এর মতো, 'দাই' নয়।"
-    },
-    {
-      "ko": "응급실",
-      "romanization": "eunggeupsil",
-      "bn": "ইমার্জেন্সি রুম",
-      "en": "emergency room",
-      "pos": "noun",
-      "example": {
-        "ko": "심한 부상은 응급실로 이송해야 합니다.",
-        "bn": "গুরুতর আঘাত হলে ইমার্জেন্সি রুমে নেয়া উচিত।",
-        "en": "Severe injuries should be taken to the emergency room."
-      },
-      "pronunciationTipBn": "'실'-এর 'ㄹ' বাচিমে জিভের ডগা তালুতে ঠেকান; 'উংগ্যুপ-শিল' — 'ㅅ'+'ㅣ' মিলে 'শি' হয়।"
+      "pronunciationTipBn": "'신' এর 'ㄴ' নাসিক্য, [신고하다]।"
     },
     {
       "ko": "119",
-      "romanization": "ilbaegilsipguk",
-      "bn": "কোরা ওয়ান নাইন-নাইন (জরুরি নম্বর)",
-      "en": "119 (emergency number)",
+      "romanization": "illiggu",
+      "bn": "১১৯ (দমকল ও অ্যাম্বুলেন্স)",
+      "en": "119 (fire and ambulance)",
       "pos": "noun",
       "example": {
-        "ko": "위급하면 119에 전화하세요.",
-        "bn": "জরুরী হলে 119-এ কল করুন।",
+        "ko": "응급 상황에는 119에 전화하세요.",
+        "bn": "জরুরি অবস্থায় ১১৯-এ ফোন করুন।",
         "en": "Call 119 in an emergency."
       },
-      "pronunciationTipBn": "কোরিয়ানে '일일구' (ইল-ইল-গু) বলা হয়; প্রতিটি সংখ্যা আলাদা ও ছোট করে বলুন।"
+      "pronunciationTipBn": "[일일구] উচ্চারণ, প্রতিটি সংখ্যা আলাদা করে বলুন।"
     },
     {
-      "ko": "흉터",
-      "romanization": "hyungteo",
-      "bn": "দাগ/স্কার",
-      "en": "scar",
-      "pos": "noun",
+      "ko": "진화하다",
+      "romanization": "jinhwahada",
+      "bn": "আগুন নেভানো",
+      "en": "to extinguish a fire",
+      "pos": "verb",
       "example": {
-        "ko": "작은 상처는 잘 소독하면 흉터가 줄어요.",
-        "bn": "ছোট ক্ষত পরিষ্কার রাখলে দাগ কমে।",
-        "en": "Keeping a small wound clean reduces scarring."
+        "ko": "동료가 소화기로 진화했습니다.",
+        "bn": "সহকর্মী অগ্নিনির্বাপক যন্ত্র দিয়ে আগুন নিভিয়েছেন।",
+        "en": "A colleague extinguished the fire with an extinguisher."
       },
-      "pronunciationTipBn": "'흉'-এ 'ㅎ'+'ㅠ' মিলে 'হিয়ুং'; '터'-তে শ্বাসযুক্ত 'ㅌ' — জোরে বাতাস ছেড়ে 'টো' বলুন।"
+      "pronunciationTipBn": "'진' এর 'ㄴ' আর 'ㅎ' মিলে [지놔하다] শোনায়।"
     },
     {
-      "ko": "상처",
-      "romanization": "sangcheo",
-      "bn": "ক্ষত",
-      "en": "wound",
+      "ko": "불꽃",
+      "romanization": "bulkkot",
+      "bn": "স্ফুলিঙ্গ",
+      "en": "spark",
       "pos": "noun",
       "example": {
-        "ko": "상처를 깨끗한 물로 씻으세요.",
-        "bn": "ক্ষতটি পরিষ্কার পানি দিয়ে ধুয়ে নিন।",
-        "en": "Wash the wound with clean water."
+        "ko": "용접하다가 불꽃이 상자에 튀었어요.",
+        "bn": "ওয়েল্ডিংয়ের সময় স্ফুলিঙ্গ বাক্সে ছিটকে পড়েছে।",
+        "en": "A spark flew onto the box while welding."
       },
-      "pronunciationTipBn": "'상'-এর 'ㅇ' বাচিম নাকি 'ং' ধ্বনি; '처'-তে শ্বাসযুক্ত 'ছ' — 'সাংছ' বলুন।"
+      "pronunciationTipBn": "শেষের 'ㅊ' চাপা থাকে, [불꼳]।"
     },
     {
-      "ko": "붕대",
-      "romanization": "bungdae",
-      "bn": "ব্যান্ডেজ",
-      "en": "bandage",
-      "pos": "noun",
+      "ko": "튀다",
+      "romanization": "twida",
+      "bn": "ছিটকে পড়া",
+      "en": "to fly off, to splash",
+      "pos": "verb",
       "example": {
-        "ko": "상처에 붕대를 감으세요.",
-        "bn": "ক্ষতে ব্যান্ডেজ পেঁচিয়ে দিন।",
-        "en": "Wrap a bandage around the wound."
+        "ko": "파편이 튀어서 손을 다쳤어요.",
+        "bn": "টুকরো ছিটকে এসে হাতে আঘাত পেয়েছি।",
+        "en": "A fragment flew off and I hurt my hand."
       },
-      "pronunciationTipBn": "'붕'-এর শেষে নাকি 'ং' ধ্বনি; 'বুংদে' — '대' 'দে'-এর মতো ছোট করে বলুন।"
+      "pronunciationTipBn": "'튀' ঠোঁট গোল করে জোরে বাতাস ছাড়ুন, [튀다]।"
     },
     {
-      "ko": "소독",
-      "romanization": "sodok",
-      "bn": "জীবাণুমুক্তকরণ",
-      "en": "disinfection",
+      "ko": "파편",
+      "romanization": "papyeon",
+      "bn": "ভাঙা টুকরো",
+      "en": "fragment, debris",
       "pos": "noun",
       "example": {
-        "ko": "상처는 먼저 소독을 해야 합니다.",
-        "bn": "ক্ষত আগে জীবাণুমুক্ত করতে হবে।",
-        "en": "The wound must be disinfected first."
+        "ko": "파편이 눈에 들어갈 수 있어요.",
+        "bn": "ভাঙা টুকরো চোখে ঢুকতে পারে।",
+        "en": "A fragment could get into your eye."
       },
-      "pronunciationTipBn": "'독'-এর 'ㄱ' বাচিম অসমাপ্ত 'ক্'-এর মতো থেমে যায়; 'সোদোক্' বলুন, 'সোদোকু' নয়।"
-    },
-    {
-      "ko": "구급상자",
-      "romanization": "gugeup sangja",
-      "bn": "ফার্স্ট এইড বক্স",
-      "en": "first-aid kit",
-      "pos": "noun",
-      "example": {
-        "ko": "구급상자는 사무실 벽에 있습니다.",
-        "bn": "ফার্স্ট এইড বক্স অফিসের দেয়ালে আছে।",
-        "en": "The first-aid kit is on the office wall."
-      },
-      "pronunciationTipBn": "'급'-এর 'ㅂ' বাচিম ঠোঁট বন্ধ করে থামুন; 'কুগ্যুপ্-সাংজা' — মাঝে ছোট বিরতি দিন।"
+      "pronunciationTipBn": "'편' এর 'ㅍ' জোরে বাতাস ছেড়ে [파편]।"
     },
     {
       "ko": "감전",
@@ -316,24 +173,11 @@
       "en": "electric shock",
       "pos": "noun",
       "example": {
-        "ko": "젖은 손으로 만지면 감전 위험이 있습니다.",
-        "bn": "ভেজা হাতে ধরলে বিদ্যুৎস্পৃষ্ট হওয়ার ঝুঁকি আছে।",
-        "en": "There is a risk of electric shock if you touch it with wet hands."
+        "ko": "감전 사고가 나면 먼저 전원을 차단하세요.",
+        "bn": "বিদ্যুৎস্পৃষ্ট হওয়ার দুর্ঘটনায় আগে বিদ্যুৎ বিচ্ছিন্ন করুন।",
+        "en": "Cut off the power first if an electric shock accident occurs."
       },
-      "pronunciationTipBn": "'감'-এর 'ㅁ' বাচিমে ঠোঁট বন্ধ করুন; 'কাম-জন' — '전' নরম 'জ' দিয়ে বলুন।"
-    },
-    {
-      "ko": "추락",
-      "romanization": "churak",
-      "bn": "উপর থেকে পড়ে যাওয়া",
-      "en": "fall (from height)",
-      "pos": "noun",
-      "example": {
-        "ko": "높은 곳에서는 추락 사고를 조심하세요.",
-        "bn": "উঁচু জায়গায় পড়ে যাওয়ার দুর্ঘটনা থেকে সাবধান থাকুন।",
-        "en": "Be careful of fall accidents in high places."
-      },
-      "pronunciationTipBn": "'추'-তে শ্বাসযুক্ত 'ㅊ' — জোরে বাতাস ছেড়ে 'ছু' বলুন; '락'-এর 'ㄱ' বাচিম থামিয়ে 'রাক্'।"
+      "pronunciationTipBn": "'감' এর 'ㅁ' এর পরে 'ㅈ' এলে [감전] হয়।"
     },
     {
       "ko": "질식",
@@ -342,24 +186,206 @@
       "en": "suffocation",
       "pos": "noun",
       "example": {
-        "ko": "밀폐된 공간에서는 질식 위험이 있습니다.",
-        "bn": "বদ্ধ জায়গায় শ্বাসরোধের ঝুঁকি আছে।",
-        "en": "There is a risk of suffocation in enclosed spaces."
+        "ko": "밀폐 공간에서는 질식 위험이 있습니다.",
+        "bn": "আবদ্ধ স্থানে শ্বাসরোধের ঝুঁকি থাকে।",
+        "en": "There is a risk of suffocation in a confined space."
       },
-      "pronunciationTipBn": "'질'-এর 'ㄹ' বাচিমে জিভ তালুতে ঠেকান; 'জিল-শিক' — 'ㅅ'+'ㅣ' 'শি' হয়ে যায়।"
+      "pronunciationTipBn": "'질' এর 'ㄹ' এর পরে 'ㅅ' এলে [질씩] শক্ত হয়।"
     },
     {
-      "ko": "심폐소생술",
-      "romanization": "simpye sosaengsul",
-      "bn": "সিপিআর (কৃত্রিম শ্বাস-প্রশ্বাস)",
-      "en": "CPR",
+      "ko": "누출되다",
+      "romanization": "nuchuldoeda",
+      "bn": "লিক হওয়া",
+      "en": "to leak",
+      "pos": "verb",
+      "example": {
+        "ko": "가스가 누출될 뻔했습니다.",
+        "bn": "প্রায় গ্যাস লিক হয়ে যেত।",
+        "en": "The gas almost leaked."
+      },
+      "pronunciationTipBn": "'출' এর 'ㄹ' পরের স্বরে গিয়ে [누추뒈다] হয়।"
+    },
+    {
+      "ko": "무너짐",
+      "romanization": "muneojim",
+      "bn": "ধসে পড়া",
+      "en": "collapse",
       "pos": "noun",
       "example": {
-        "ko": "숨을 쉬지 않으면 심폐소생술을 시작하세요.",
-        "bn": "শ্বাস না নিলে সিপিআর শুরু করুন।",
-        "en": "If the person is not breathing, start CPR."
+        "ko": "무너짐 위험이 있으면 작업을 중지하세요.",
+        "bn": "ধসে পড়ার ঝুঁকি থাকলে কাজ বন্ধ করুন।",
+        "en": "Stop work if there is a risk of collapse."
       },
-      "pronunciationTipBn": "লম্বা শব্দটি ভেঙে বলুন: '심폐'(শিম-পে) + '소생'(সোসেং) + '술'(সুল); '폐' 'পে'-এর মতো।"
+      "pronunciationTipBn": "'너' এর 'ㄴ' নাসিক্য, [무너짐]।"
+    },
+    {
+      "ko": "밸브",
+      "romanization": "baelbeu",
+      "bn": "ভালভ",
+      "en": "valve",
+      "pos": "noun",
+      "example": {
+        "ko": "가스 냄새가 나면 빨리 밸브를 잠그세요.",
+        "bn": "গ্যাসের গন্ধ পেলে দ্রুত ভালভ বন্ধ করুন।",
+        "en": "Close the valve quickly if you smell gas."
+      },
+      "pronunciationTipBn": "'밸' মুখ খুলে [밸브] বলুন।"
+    },
+    {
+      "ko": "잠그다",
+      "romanization": "jamgeuda",
+      "bn": "বন্ধ করা, তালা দেওয়া",
+      "en": "to lock, to shut off",
+      "pos": "verb",
+      "example": {
+        "ko": "밸브를 잠그고 창문을 엽시다.",
+        "bn": "ভালভ বন্ধ করে জানালা খুলি।",
+        "en": "Let us shut off the valve and open the window."
+      },
+      "pronunciationTipBn": "'잠' এর 'ㅁ' এর পরে 'ㄱ' এলে [잠끄다] শক্ত হয়।"
+    },
+    {
+      "ko": "정지하다",
+      "romanization": "jeongjihada",
+      "bn": "থামানো",
+      "en": "to stop (a machine)",
+      "pos": "verb",
+      "example": {
+        "ko": "사고가 나면 기계를 정지하세요.",
+        "bn": "দুর্ঘটনা ঘটলে মেশিন থামান।",
+        "en": "Stop the machine if an accident occurs."
+      },
+      "pronunciationTipBn": "'정' এর 'ㅇ' নাসিক্য, [정지하다]।"
+    },
+    {
+      "ko": "중지하다",
+      "romanization": "jungjihada",
+      "bn": "কাজ বন্ধ করা",
+      "en": "to halt (work)",
+      "pos": "verb",
+      "example": {
+        "ko": "사고가 발생하자마자 작업을 중지했어요.",
+        "bn": "দুর্ঘটনা ঘটার সঙ্গে সঙ্গেই কাজ বন্ধ করেছি।",
+        "en": "I halted work as soon as the accident occurred."
+      },
+      "pronunciationTipBn": "'중' এর 'ㅇ' নাসিক্য, [중지하다]।"
+    },
+    {
+      "ko": "보고하다",
+      "romanization": "bogohada",
+      "bn": "রিপোর্ট করা",
+      "en": "to report (to a superior)",
+      "pos": "verb",
+      "example": {
+        "ko": "상급자에게 바로 보고해야 합니다.",
+        "bn": "ঊর্ধ্বতনকে সঙ্গে সঙ্গে রিপোর্ট করতে হবে।",
+        "en": "You must report to your superior immediately."
+      },
+      "pronunciationTipBn": "'보고' দুটি শব্দাংশ সমান, [보고하다]।"
+    },
+    {
+      "ko": "상급자",
+      "romanization": "sanggeupja",
+      "bn": "ঊর্ধ্বতন কর্মকর্তা",
+      "en": "superior, supervisor",
+      "pos": "noun",
+      "example": {
+        "ko": "상급자에게 사고를 알렸습니다.",
+        "bn": "ঊর্ধ্বতনকে দুর্ঘটনার কথা জানিয়েছি।",
+        "en": "I informed my superior about the accident."
+      },
+      "pronunciationTipBn": "'급' এর 'ㅂ' এর পরে 'ㅈ' এলে [상급짜] শক্ত হয়।"
+    },
+    {
+      "ko": "사고 현장",
+      "romanization": "sago hyeonjang",
+      "bn": "দুর্ঘটনাস্থল",
+      "en": "accident site",
+      "pos": "noun",
+      "example": {
+        "ko": "사고 현장을 그대로 두어야 합니다.",
+        "bn": "দুর্ঘটনাস্থল যেমন আছে তেমনই রাখতে হবে।",
+        "en": "The accident site must be left as it is."
+      },
+      "pronunciationTipBn": "'현' এর 'ㄴ' আর 'ㅈ' মিলে [현장] হয়।"
+    },
+    {
+      "ko": "원인",
+      "romanization": "wonin",
+      "bn": "কারণ",
+      "en": "cause",
+      "pos": "noun",
+      "example": {
+        "ko": "사고 원인을 조사해야 합니다.",
+        "bn": "দুর্ঘটনার কারণ অনুসন্ধান করতে হবে।",
+        "en": "The cause of the accident must be investigated."
+      },
+      "pronunciationTipBn": "'원' এর 'ㄴ' পরের স্বরে গিয়ে [워닌] হয়।"
+    },
+    {
+      "ko": "조사하다",
+      "romanization": "josahada",
+      "bn": "অনুসন্ধান করা",
+      "en": "to investigate",
+      "pos": "verb",
+      "example": {
+        "ko": "조사가 끝날 때까지 현장을 보존하세요.",
+        "bn": "অনুসন্ধান শেষ না হওয়া পর্যন্ত ঘটনাস্থল অক্ষত রাখুন।",
+        "en": "Preserve the site until the investigation is finished."
+      },
+      "pronunciationTipBn": "'조사' দুটি শব্দাংশ সমান, [조사하다]।"
+    },
+    {
+      "ko": "다치다",
+      "romanization": "dachida",
+      "bn": "আঘাত পাওয়া",
+      "en": "to get hurt",
+      "pos": "verb",
+      "example": {
+        "ko": "보안경을 쓰지 않았으면 크게 다칠 뻔했어요.",
+        "bn": "নিরাপত্তা চশমা না পরলে বড় আঘাত পেতাম।",
+        "en": "I would have been badly hurt if I had not worn goggles."
+      },
+      "pronunciationTipBn": "'다치다' প্রতিটি শব্দাংশ সমান দ্রুত।"
+    },
+    {
+      "ko": "베이다",
+      "romanization": "beida",
+      "bn": "কেটে যাওয়া",
+      "en": "to get cut",
+      "pos": "verb",
+      "example": {
+        "ko": "칼에 손을 베일 뻔했어요.",
+        "bn": "প্রায় ছুরিতে হাত কেটে যেত।",
+        "en": "I almost cut my hand on the knife."
+      },
+      "pronunciationTipBn": "'베' মুখ একটু খুলে [베이다]।"
+    },
+    {
+      "ko": "삐다",
+      "romanization": "ppida",
+      "bn": "মচকে যাওয়া",
+      "en": "to sprain",
+      "pos": "verb",
+      "example": {
+        "ko": "발목을 삘 뻔했어요.",
+        "bn": "প্রায় গোড়ালি মচকে যেত।",
+        "en": "I almost sprained my ankle."
+      },
+      "pronunciationTipBn": "'삐' ঠোঁট চেপে শক্ত করে [삐다] বলুন।"
+    },
+    {
+      "ko": "발목",
+      "romanization": "balmok",
+      "bn": "গোড়ালি",
+      "en": "ankle",
+      "pos": "noun",
+      "example": {
+        "ko": "발목을 다쳐서 병원에 갔어요.",
+        "bn": "গোড়ালিতে আঘাত পেয়ে হাসপাতালে গেছি।",
+        "en": "I hurt my ankle and went to the hospital."
+      },
+      "pronunciationTipBn": "'발' এর 'ㄹ' এর পরে 'ㅁ' এলে [발목] হয়।"
     },
     {
       "ko": "들것",
@@ -368,297 +394,328 @@
       "en": "stretcher",
       "pos": "noun",
       "example": {
-        "ko": "환자를 들것으로 옮기세요.",
-        "bn": "রোগীকে স্ট্রেচারে করে সরান।",
-        "en": "Move the patient on a stretcher."
+        "ko": "환자를 옮길 때 들것을 사용합니다.",
+        "bn": "রোগী সরানোর সময় স্ট্রেচার ব্যবহার করা হয়।",
+        "en": "A stretcher is used when moving a patient."
       },
-      "pronunciationTipBn": "'들'-এর 'ㅡ' ঠোঁট না গোল করে 'উ'-এর মতো; '것' শেষে 'ㅅ' বাচিম 'ত্'-এর মতো — 'তুলগত্'।"
+      "pronunciationTipBn": "'들' এর 'ㄹ' এর পরে 'ㄱ' এলে [들껏] শক্ত হয়।"
     },
     {
-      "ko": "보호안경",
-      "romanization": "boho angyeong",
-      "bn": "সেফটি চশমা",
-      "en": "safety goggles",
+      "ko": "구급 가방",
+      "romanization": "gugeup gabang",
+      "bn": "প্রাথমিক চিকিৎসার ব্যাগ",
+      "en": "first aid kit",
       "pos": "noun",
       "example": {
-        "ko": "그라인더 작업 시 보호안경을 쓰세요.",
-        "bn": "গ্রাইন্ডারে কাজের সময় সেফটি চশমা পরুন।",
-        "en": "Wear safety goggles when using a grinder."
+        "ko": "구급 가방은 사무실에 있습니다.",
+        "bn": "প্রাথমিক চিকিৎসার ব্যাগ অফিসে আছে।",
+        "en": "The first aid kit is in the office."
       },
-      "pronunciationTipBn": "'안경'-এর 'ㄴ'+'ㄱ' মিলে 'আঙ্গিয়ং'-এর মতো শোনায়; 'বোহো-আঙ্গিয়ং' বলুন।"
+      "pronunciationTipBn": "'급' এর 'ㅂ' এর পরে 'ㄱ' এলে [구급까방] শক্ত হয়।"
     },
     {
-      "ko": "귀마개",
-      "romanization": "gwimagae",
-      "bn": "কানের ছিপি (ইয়ারপ্লাগ)",
-      "en": "earplugs",
+      "ko": "산소 호흡기",
+      "romanization": "sanso hoheupgi",
+      "bn": "অক্সিজেন শ্বাসযন্ত্র",
+      "en": "oxygen resuscitator",
       "pos": "noun",
       "example": {
-        "ko": "소음이 심한 곳에서는 귀마개를 착용하세요.",
-        "bn": "বেশি শব্দের জায়গায় কানের ছিপি ব্যবহার করুন।",
-        "en": "Wear earplugs in very noisy areas."
+        "ko": "숨을 못 쉬면 산소 호흡기가 필요해요.",
+        "bn": "শ্বাস নিতে না পারলে অক্সিজেন শ্বাসযন্ত্র দরকার।",
+        "en": "An oxygen resuscitator is needed if someone cannot breathe."
       },
-      "pronunciationTipBn": "'귀'-তে 'ㄱ'+'ㅟ' মিলে 'কুই'-এর মতো; 'কুই-মাগে' — '개' 'গে'-এর মতো বলুন।"
+      "pronunciationTipBn": "'흡' এর 'ㅂ' এর পরে 'ㄱ' এলে [호흡끼] শক্ত হয়।"
     },
     {
-      "ko": "부상",
-      "romanization": "busang",
-      "bn": "আঘাত",
-      "en": "injury",
+      "ko": "비상 전화",
+      "romanization": "bisang jeonhwa",
+      "bn": "জরুরি টেলিফোন",
+      "en": "emergency telephone",
       "pos": "noun",
       "example": {
-        "ko": "부상을 입으면 바로 치료를 받으세요.",
-        "bn": "আঘাত পেলে সাথে সাথে চিকিৎসা নিন।",
-        "en": "If you get injured, get treatment right away."
+        "ko": "복도에 비상 전화가 설치되어 있어요.",
+        "bn": "করিডোরে জরুরি টেলিফোন বসানো আছে।",
+        "en": "An emergency telephone is installed in the hallway."
       },
-      "pronunciationTipBn": "'부'-তে নরম 'ব' আর ঠোঁট গোল করা 'উ'; শেষের 'ㅇ' নাকি 'ং' — 'পুসাং' বলুন।"
+      "pronunciationTipBn": "'전' এর 'ㄴ' আর 'ㅎ' মিলে [저놔] শোনায়।"
     },
     {
-      "ko": "치료",
-      "romanization": "chiryo",
-      "bn": "চিকিৎসা",
-      "en": "treatment",
+      "ko": "구명 부이",
+      "romanization": "gumyeong bui",
+      "bn": "লাইফ বয়া",
+      "en": "lifebuoy",
       "pos": "noun",
       "example": {
-        "ko": "병원에서 치료를 받았습니다.",
-        "bn": "হাসপাতালে চিকিৎসা নিয়েছি।",
-        "en": "I received treatment at the hospital."
+        "ko": "물에 빠진 사람에게 구명 부이를 던지세요.",
+        "bn": "পানিতে পড়া মানুষকে লাইফ বয়া ছুড়ে দিন।",
+        "en": "Throw a lifebuoy to a person who has fallen into the water."
       },
-      "pronunciationTipBn": "'치'-তে শ্বাসযুক্ত 'ছ'; '료'-এর 'ㄹ' বাংলা 'র' ও 'ল'-এর মাঝামাঝি — 'ছিরিও' বলুন।"
+      "pronunciationTipBn": "'명' এর 'ㅇ' নাসিক্য, [구명]।"
     },
     {
-      "ko": "위험하다",
-      "romanization": "wiheomhada",
-      "bn": "বিপজ্জনক হওয়া",
-      "en": "to be dangerous",
-      "pos": "adjective",
+      "ko": "상태",
+      "romanization": "sangtae",
+      "bn": "অবস্থা",
+      "en": "condition, state",
+      "pos": "noun",
       "example": {
-        "ko": "이 기계는 아주 위험합니다.",
-        "bn": "এই মেশিনটি খুবই বিপজ্জনক।",
-        "en": "This machine is very dangerous."
+        "ko": "먼저 환자의 상태를 파악하세요.",
+        "bn": "প্রথমে রোগীর অবস্থা বুঝে নিন।",
+        "en": "First assess the patient's condition."
       },
-      "pronunciationTipBn": "'위'-তে 'উই' ধ্বনি; '험'-এর 'ㅁ' বাচিমে ঠোঁট বন্ধ — 'উইহম-হাদা' বলুন।"
+      "pronunciationTipBn": "'상' এর 'ㅇ' এর পরে 'ㅌ' এলে [상태] হয়।"
+    },
+    {
+      "ko": "도움을 요청하다",
+      "romanization": "doumeul yocheonghada",
+      "bn": "সাহায্য চাওয়া",
+      "en": "to call for help",
+      "pos": "phrase",
+      "example": {
+        "ko": "주변 사람에게 도움을 요청하세요.",
+        "bn": "আশপাশের মানুষের কাছে সাহায্য চান।",
+        "en": "Call for help from people nearby."
+      },
+      "pronunciationTipBn": "'청' এর 'ㅇ' নাসিক্য, [요청하다]।"
     }
   ],
   "grammar": [
     {
-      "pattern": "~아/어야 하다",
-      "titleBn": "~아/어야 하다 (কর্তব্য/প্রয়োজন)",
-      "explanationBn": "কোনো কাজ করা প্রয়োজন হলে এই সূত্র ব্যবহার করা হয়। উদাহরণ: 신고해야 한다।",
-      "explanationEn": "Use this to express necessity or obligation. Example: You must report.",
+      "pattern": "-(으)ㄹ 뻔하다",
+      "titleBn": "প্রায় ঘটে যেত (কিন্তু ঘটেনি)",
+      "explanationBn": "'-(으)ㄹ 뻔하다' ক্রিয়ার সাথে বসে বোঝায় যে কাজটি আসলে ঘটেনি, তবে ঘটে যাওয়ার সম্ভাবনা খুব বেশি ছিল। ব্যঞ্জনান্ত মূলে '-을 뻔하다' (늦을 뻔했어요), স্বরান্ত মূলে '-ㄹ 뻔하다' (다칠 뻔했어요) বসে। সাধারণত অতীত রূপে '뻔했어요' ব্যবহার হয়, কারণ ঘটনাটি ইতিমধ্যেই পার হয়ে গেছে।",
+      "explanationEn": "-(으)ㄹ 뻔하다 attaches to a verb to show that something did not actually happen but very nearly did. Use -을 뻔하다 after consonant stems (늦을 뻔했어요) and -ㄹ 뻔하다 after vowel stems (다칠 뻔했어요). It usually appears in the past form 뻔했어요, since the near-miss is already over.",
       "examples": [
         {
-          "ko": "사고가 나면 관리자에게 신고해야 합니다.",
-          "bn": "দুর্ঘটনা হলে ম্যানেজারকে জানাতে হবে।",
-          "en": "If an accident happens, you must inform the manager."
+          "ko": "바닥이 미끄러워서 넘어질 뻔했어요.",
+          "bn": "মেঝে পিচ্ছিল ছিল, প্রায় পড়ে যেতাম।",
+          "en": "The floor was slippery and I almost fell."
         },
         {
-          "ko": "출혈이 있으면 압박해야 해요.",
-          "bn": "রক্তপাত হলে চাপ দিতে হবে।",
-          "en": "If there is bleeding, you must apply pressure."
+          "ko": "보안경을 쓰지 않았으면 크게 다칠 뻔했어요.",
+          "bn": "নিরাপত্তা চশমা না পরলে বড় আঘাত পেয়ে যেতাম।",
+          "en": "If I had not worn goggles I would have been badly hurt."
+        },
+        {
+          "ko": "가스 배관이 깨져서 가스가 누출될 뻔했습니다.",
+          "bn": "গ্যাসের পাইপ ফেটে প্রায় গ্যাস লিক হয়ে যেত।",
+          "en": "The gas pipe cracked and the gas almost leaked."
         }
       ],
-      "commonMistakeBn": "অনেকে সব ক্রিয়ার সাথে শুধু '어야' ব্যবহার করেন; মূল ধাতুর স্বর 'ㅏ/ㅗ' হলে '아야' (যেমন: 가야 하다), অন্য স্বর হলে '어야' (যেমন: 먹어야 하다) বসে।"
+      "commonMistakeBn": "কাজটি সত্যিই ঘটে গেলে '뻔하다' বসে না। সত্যিই পড়ে গেলে '넘어졌어요' বলুন, '넘어질 뻔했어요' নয়।"
     },
     {
-      "pattern": "~지 마세요",
-      "titleBn": "~지 마세요 (নির্দেশ/নিষেধ)",
-      "explanationBn": "কোনো কাজ করতে না বলার সময় ব্যবহার করুন। উদাহরণ: 기계를 만지지 마세요.",
-      "explanationEn": "Use this to tell someone not to do something. Example: Do not touch the machine.",
+      "pattern": "-자마자",
+      "titleBn": "যেই না ঘটল, সঙ্গে সঙ্গেই",
+      "explanationBn": "'-자마자' ক্রিয়ার সাথে বসে বোঝায় প্রথম কাজ শেষ হওয়ার সঙ্গে সঙ্গেই পরের কাজটি ঘটে। মূলের শেষে ব্যঞ্জন বা স্বর যা-ই থাকুক, রূপ একই থাকে: 도착하자마자, 나자마자, 받자마자। দুর্ঘটনার প্রতিক্রিয়া বোঝাতে এটি সবচেয়ে দরকারি গঠন।",
+      "explanationEn": "-자마자 attaches to a verb to show that the second action happens immediately after the first is completed. The form does not change with the stem ending: 도착하자마자, 나자마자, 받자마자. It is the most useful pattern for describing accident response.",
       "examples": [
         {
-          "ko": "젖은 바닥에서 뛰지 마세요.",
-          "bn": "ভেজা মেঝেতে দৌড়াবেন না।",
-          "en": "Do not run on a wet floor."
+          "ko": "불이 나자마자 119에 신고했어요.",
+          "bn": "আগুন লাগার সঙ্গে সঙ্গেই ১১৯-এ খবর দিয়েছি।",
+          "en": "I reported to 119 as soon as the fire broke out."
         },
         {
-          "ko": "심한 화상이면 스스로 약을 바르지 마세요.",
-          "bn": "গুরুতর পুড়ে গেলে নিজেরাই ওষুধ লাগাবেন না।",
-          "en": "If the burn is severe, do not apply medicine yourself."
+          "ko": "사고가 발생하자마자 작업을 중지했어요.",
+          "bn": "দুর্ঘটনা ঘটার সঙ্গে সঙ্গেই কাজ বন্ধ করেছি।",
+          "en": "I halted work as soon as the accident occurred."
+        },
+        {
+          "ko": "유해 물질이 유출되자마자 밖으로 대피했어요.",
+          "bn": "ক্ষতিকর পদার্থ বেরোনোর সঙ্গে সঙ্গেই বাইরে সরে গেছি।",
+          "en": "I evacuated outside as soon as the hazardous material spilled."
         }
       ],
-      "commonMistakeBn": "অনেকে ভুল করে ক্রিয়ার অতীত রূপের সাথে '지 마세요' যোগ করেন; সবসময় ক্রিয়ার মূল ধাতুর (어간) সাথে যোগ করুন — '만졌지 마세요' নয়, '만지지 마세요'।"
+      "commonMistakeBn": "'-자마자' এর আগে অতীত রূপ বসে না। '불이 났자마자' ভুল, '불이 나자마자' সঠিক।"
     },
     {
-      "pattern": "~(으)면 좋겠다",
-      "titleBn": "~(으)면 좋겠다 (আশা/পরামর্শ)",
-      "explanationBn": "কিছু আশা বা নম্র পরামর্শ জানাতে ব্যবহার করা হয়। উদাহরণ: 빨리 구조대가 오면 좋겠다.",
-      "explanationEn": "Use to express a hope or a polite suggestion. Example: I hope the rescue team arrives soon.",
+      "pattern": "-자마자 vs -는 대로",
+      "titleBn": "দুটি 'সঙ্গে সঙ্গেই' এর পার্থক্য",
+      "explanationBn": "'-는 대로' আর '-자마자' দুটোই 'সঙ্গে সঙ্গেই' বোঝায়, তবে একটি পার্থক্য আছে। পরের ঘটনাটি যদি দুর্ঘটনাক্রমে বা অনিচ্ছাকৃতভাবে ঘটে, তখন '-는 대로' বসে না, কেবল '-자마자' চলে। যেমন '집에 도착하자마자 회사에서 전화가 왔어요' ঠিক, কিন্তু '집에 도착하는 대로 전화가 왔어요' ভুল। নিজের পরিকল্পিত কাজে দুটোই চলে।",
+      "explanationEn": "Both -는 대로 and -자마자 mean 'as soon as', but there is one difference. When the second event happens coincidentally or beyond the speaker's control, -는 대로 cannot be used, only -자마자. So 집에 도착하자마자 회사에서 전화가 왔어요 is correct, while 집에 도착하는 대로 전화가 왔어요 is wrong. For your own planned actions, both work.",
       "examples": [
         {
-          "ko": "관리자가 빨리 오면 좋겠습니다.",
-          "bn": "আশা করি ম্যানেজার তাড়াতাড়ি আসবে।",
-          "en": "I hope the supervisor comes quickly."
+          "ko": "집에 도착하자마자 회사에서 전화가 왔어요.",
+          "bn": "বাসায় পৌঁছানোর সঙ্গে সঙ্গেই অফিস থেকে ফোন এসেছে।",
+          "en": "As soon as I got home, a call came from the office."
         },
         {
-          "ko": "사람들이 안전모를 쓰면 좋겠어요.",
-          "bn": "আশা করি সবাই নিরাপত্তা হেলমেট পরবে।",
-          "en": "I hope people wear safety helmets."
+          "ko": "작업이 끝나는 대로 작업장을 정리하세요.",
+          "bn": "কাজ শেষ হওয়ার সঙ্গে সঙ্গেই কর্মস্থল গুছিয়ে ফেলুন।",
+          "en": "Tidy up the workplace as soon as the work is done."
         }
       ],
-      "commonMistakeBn": "ধাতু ব্যঞ্জনবর্ণে শেষ হলে '으면' আর স্বরবর্ণে শেষ হলে শুধু '면' বসে; অনেকে সবসময় '으면' বলেন — '오으면' ভুল, সঠিক হলো '오면'।"
+      "commonMistakeBn": "অপ্রত্যাশিত ঘটনায় '-는 대로' ব্যবহার করবেন না। ফোন আসা বা আগুন লাগার মতো ঘটনায় '-자마자' বেছে নিন।"
     },
     {
-      "pattern": "~(으)ㄹ 때",
-      "titleBn": "~(으)ㄹ 때 (যখন/সময়ে)",
-      "explanationBn": "কোনো কাজ বা ঘটনা ঘটার সময় বোঝাতে ক্রিয়ার সাথে '~(으)ㄹ 때' যোগ করা হয়। কর্মক্ষেত্রে নিরাপত্তা নির্দেশনায় এটি খুব বেশি ব্যবহৃত হয়। উদাহরণ: 일할 때 (কাজ করার সময়), 사고가 났을 때 (দুর্ঘটনা ঘটলে)।",
-      "explanationEn": "Attach ~(으)ㄹ 때 to a verb stem to mean 'when/while doing something'. Very common in workplace safety instructions.",
+      "pattern": "-지 말고 …-아/어야 하다",
+      "titleBn": "এটা করবেন না, বরং ওটা করতে হবে",
+      "explanationBn": "'-지 말고' দিয়ে নিষেধ জানিয়ে তারপর '-아/어야 하다' দিয়ে করণীয় কাজ বলা হয়। দুর্ঘটনার নির্দেশে এই জোড়া খুব কাজে লাগে: '사고 현장을 정리하지 말고 그대로 두어야 합니다' মানে ঘটনাস্থল গোছাবেন না, বরং যেমন আছে তেমনই রাখতে হবে।",
+      "explanationEn": "-지 말고 states what not to do, and -아/어야 하다 that follows states what must be done instead. This pairing is common in accident instructions: 사고 현장을 정리하지 말고 그대로 두어야 합니다 means do not clean up the accident site but leave it as it is.",
       "examples": [
         {
-          "ko": "기계를 사용할 때 장갑을 끼세요.",
-          "bn": "মেশিন ব্যবহারের সময় গ্লাভস পরুন।",
-          "en": "Wear gloves when using the machine."
+          "ko": "현장을 정리하지 말고 그대로 두어야 합니다.",
+          "bn": "ঘটনাস্থল গোছাবেন না, যেমন আছে তেমনই রাখতে হবে।",
+          "en": "You must not clean up the site but leave it as it is."
         },
         {
-          "ko": "사고가 났을 때 바로 119에 전화하세요.",
-          "bn": "দুর্ঘটনা ঘটলে সাথে সাথে ১১৯-এ ফোন করুন।",
-          "en": "When an accident happens, call 119 right away."
-        },
-        {
-          "ko": "높은 곳에서 일할 때 안전벨트를 매야 합니다.",
-          "bn": "উঁচু জায়গায় কাজ করার সময় সেফটি বেল্ট বাঁধতে হবে।",
-          "en": "You must wear a safety harness when working at heights."
+          "ko": "혼자 해결하지 말고 상급자에게 보고해야 합니다.",
+          "bn": "একা সমাধান করবেন না, ঊর্ধ্বতনকে রিপোর্ট করতে হবে।",
+          "en": "You must not handle it alone but report to your superior."
         }
       ],
-      "commonMistakeBn": "অনেকে অতীতের ঘটনায়ও '났을 때'-এর বদলে '나을 때' বলেন; অতীত বোঝাতে ধাতুর সাথে '았/었' যোগ করে '~았/었을 때' ব্যবহার করুন।"
+      "commonMistakeBn": "'-지 말고' এর আগে অতীত রূপ বসে না। '정리했지 말고' ভুল, '정리하지 말고' সঠিক।"
     },
     {
-      "pattern": "~(으)면 안 되다",
-      "titleBn": "~(으)면 안 되다 (করা যাবে না/নিষেধ)",
-      "explanationBn": "কোনো কাজ করা নিষেধ বা অনুচিত বোঝাতে '~(으)면 안 되다' ব্যবহার করা হয়। নিরাপত্তা নিয়ম বলার সময় এটি '~지 마세요'-এর চেয়ে বেশি সাধারণ নিয়ম বোঝায়। উদাহরণ: 만지면 안 됩니다 (স্পর্শ করা যাবে না)।",
-      "explanationEn": "Use ~(으)면 안 되다 to say that something is not allowed. Common for stating safety rules.",
+      "pattern": "-(으)면 어떻게 해야 돼요?",
+      "titleBn": "এমন হলে কী করতে হবে?",
+      "explanationBn": "'-(으)면 어떻게 해야 돼요?' দিয়ে কোনো পরিস্থিতিতে করণীয় জানতে চাওয়া হয়। ব্যঞ্জনান্ত মূলে '-으면', স্বরান্ত মূলে '-면' বসে। নিরাপত্তা প্রশিক্ষণে বা কর্মস্থলে বিপদ নিয়ে প্রশ্ন করতে এটি সবচেয়ে স্বাভাবিক গঠন, আর উত্তরে সাধারণত '-아/어야 돼요' আসে।",
+      "explanationEn": "Use -(으)면 어떻게 해야 돼요? to ask what should be done in a given situation. Use -으면 after consonant stems and -면 after vowel stems. It is the most natural way to ask about hazards in safety training or at work, and answers usually come back with -아/어야 돼요.",
       "examples": [
         {
-          "ko": "안전모 없이 현장에 들어가면 안 됩니다.",
-          "bn": "নিরাপত্তা হেলমেট ছাড়া সাইটে ঢোকা যাবে না।",
-          "en": "You must not enter the site without a safety helmet."
+          "ko": "불이 나면 어떻게 해야 돼요?",
+          "bn": "আগুন লাগলে কী করতে হবে?",
+          "en": "What should I do if a fire breaks out?"
         },
         {
-          "ko": "젖은 손으로 전기 기계를 만지면 안 돼요.",
-          "bn": "ভেজা হাতে বৈদ্যুতিক মেশিন ধরা যাবে না।",
-          "en": "You must not touch electrical machines with wet hands."
-        },
-        {
-          "ko": "환자를 함부로 움직이면 안 됩니다.",
-          "bn": "রোগীকে যেমন-তেমনভাবে নাড়ানো যাবে না।",
-          "en": "You must not move the patient carelessly."
+          "ko": "다친 사람을 보면 어떻게 해야 돼요?",
+          "bn": "কাউকে আহত দেখলে কী করতে হবে?",
+          "en": "What should I do if I see an injured person?"
         }
       ],
-      "commonMistakeBn": "অনেকে '안 되다'-কে '않 되다' লেখেন বা '안돼요'-কে একসাথে না লিখে ভুল জায়গায় ফাঁক দেন; সঠিক রূপ হলো '~(으)면 안 돼요/안 됩니다'।"
+      "commonMistakeBn": "'어떻게' আর '어떤' মেলাবেন না। পদ্ধতি জানতে '어떻게', আর ধরন জানতে '어떤' বসে।"
     }
   ],
   "dialogues": [
     {
-      "titleBn": "작은 화상 발생 보고",
-      "titleEn": "Reporting a small burn",
+      "titleBn": "প্রায় আগুন লেগে যেত",
+      "titleEn": "A fire almost broke out",
       "lines": [
         {
-          "speaker": "근로자",
-          "ko": "저, 손을 약간 데였어요.",
-          "bn": "আমি, হাতে একটু দগ্ধ হয়ে গেছে।",
-          "en": "I burned my hand a little."
+          "speaker": "자하라",
+          "ko": "마두 씨, 무슨 일 있어요? 얼굴이 안 좋아 보여요.",
+          "bn": "মাদু ভাই, কী হয়েছে? মুখটা ভালো দেখাচ্ছে না।",
+          "en": "Madhu, is something wrong? You do not look well."
         },
         {
-          "speaker": "동료",
-          "ko": "어디요? 물로 식히고 관리자를 불러요.",
-          "bn": "কোথায়? পানি দিয়ে ঠান্ডা করুন এবং ম্যানেজারকে বলুন।",
-          "en": "Where? Cool it with water and call the manager."
+          "speaker": "마두",
+          "ko": "친구한테 전화가 왔는데 공장에서 불을 낼 뻔했대요.",
+          "bn": "বন্ধুর ফোন এসেছিল, কারখানায় প্রায় আগুন লাগিয়ে ফেলেছিল।",
+          "en": "I got a call from my friend; he almost started a fire at the factory."
         },
         {
-          "speaker": "근로자",
-          "ko": "네, 흐르는 물에 식히고 있어요.",
-          "bn": "ঠিক আছে, ঝরানো পানি দিয়ে ঠান্ডা করছি।",
-          "en": "Okay, I'm cooling it under running water."
+          "speaker": "자하라",
+          "ko": "정말요? 어쩌다가요?",
+          "bn": "সত্যি? কীভাবে?",
+          "en": "Really? How did that happen?"
         },
         {
-          "speaker": "동료",
-          "ko": "응급 처치 키트에서 소독약 주세요.",
-          "bn": "প্রাথমিক চিকিৎসা কিট থেকে ডিটর্জেন্ট আনুন।",
-          "en": "Get disinfectant from the first-aid kit."
+          "speaker": "마두",
+          "ko": "용접하다가 불꽃이 옆에 있던 상자에 튀었대요.",
+          "bn": "ওয়েল্ডিংয়ের সময় স্ফুলিঙ্গ পাশের বাক্সে ছিটকে পড়েছিল।",
+          "en": "A spark flew onto a box nearby while he was welding."
         },
         {
-          "speaker": "관리자",
-          "ko": "상처 상태 알려줘요. 필요하면 병원에 가자.",
-          "bn": "ক্ষত কেমন তা বলুন। প্রয়োজন হলে হাসপাতালে যাই।",
-          "en": "Tell me the wound's condition. If needed, we'll go to the hospital."
+          "speaker": "자하라",
+          "ko": "친구는 괜찮아요? 불은 바로 껐어요?",
+          "bn": "বন্ধু ঠিক আছেন? আগুন সঙ্গে সঙ্গে নিভিয়েছেন?",
+          "en": "Is your friend okay? Did they put out the fire right away?"
+        },
+        {
+          "speaker": "마두",
+          "ko": "다행히 옆에 있던 동료가 소화기로 진화했대요.",
+          "bn": "সৌভাগ্যক্রমে পাশের সহকর্মী অগ্নিনির্বাপক যন্ত্র দিয়ে নিভিয়েছেন।",
+          "en": "Fortunately a colleague nearby put it out with a fire extinguisher."
+        },
+        {
+          "speaker": "자하라",
+          "ko": "큰일 날 뻔했네요. 용접 전에 주변을 꼭 확인하세요.",
+          "bn": "বড় বিপদ হয়ে যেত। ওয়েল্ডিংয়ের আগে আশপাশ অবশ্যই দেখে নেবেন।",
+          "en": "That was a close call. Always check your surroundings before welding."
         }
       ]
     },
     {
-      "titleBn": "기계 손상과 응급 보고",
-      "titleEn": "Machine injury and emergency report",
+      "titleBn": "দুর্ঘটনা ঘটলে কী করতে হবে",
+      "titleEn": "What to do when an accident occurs",
       "lines": [
         {
-          "speaker": "작업자",
-          "ko": "기계에 손가락이 끼었어요!",
-          "bn": "মেশিনে আঙুল কেটে পড়েছে!",
-          "en": "My finger got caught in the machine!"
+          "speaker": "강연자",
+          "ko": "여러분, 사고가 발생하면 어떻게 해야 할까요?",
+          "bn": "সবাই শুনুন, দুর্ঘটনা ঘটলে কী করতে হবে?",
+          "en": "Everyone, what should we do when an accident occurs?"
         },
         {
-          "speaker": "동료",
-          "ko": "기계를 즉시 정지시키고 119에 연락해요.",
-          "bn": "মেশিন দ্রুত বন্ধ করে 119-এ কল করুন।",
-          "en": "Stop the machine immediately and call 119."
+          "speaker": "라흐만",
+          "ko": "먼저 작업을 중지해야 될 것 같습니다.",
+          "bn": "মনে হয় আগে কাজ বন্ধ করতে হবে।",
+          "en": "I think we should stop work first."
         },
         {
-          "speaker": "작업자",
-          "ko": "출혈이 심해요. 동료가 압박하고 있어요.",
-          "bn": "রক্তপাত বেশী। সহকর্মী চাপ দিচ্ছে।",
-          "en": "The bleeding is heavy. A coworker is applying pressure."
+          "speaker": "강연자",
+          "ko": "맞아요. 사고가 발생하자마자 작업을 중지하고 상급자에게 보고해야 합니다.",
+          "bn": "ঠিক। দুর্ঘটনা ঘটার সঙ্গে সঙ্গেই কাজ বন্ধ করে ঊর্ধ্বতনকে রিপোর্ট করতে হবে।",
+          "en": "Right. As soon as an accident occurs, stop work and report to your superior."
         },
         {
-          "speaker": "관리자",
-          "ko": "현장을 안전하게 하고 구조대를 기다립시다.",
-          "bn": "জায়গা নিরাপদ করুন এবং রেসকিউ টীমের অপেক্ষা করুন।",
-          "en": "Secure the area and wait for the rescue team."
+          "speaker": "라흐만",
+          "ko": "다친 사람이 있으면 어떻게 해야 돼요?",
+          "bn": "কেউ আহত হলে কী করতে হবে?",
+          "en": "What should we do if someone is injured?"
         },
         {
-          "speaker": "구조대",
-          "ko": "119 구조대가 곧 도착합니다. 환자를 편하게 해주세요.",
-          "bn": "119 রেসকিউ টীম শীঘ্রই আসছে। রোগীকে আরামদায়ক রাখুন।",
-          "en": "The 119 rescue team will arrive soon. Keep the patient comfortable."
+          "speaker": "강연자",
+          "ko": "119에 신고하고 응급 처치를 해야 합니다.",
+          "bn": "১১৯-এ খবর দিয়ে প্রাথমিক চিকিৎসা দিতে হবে।",
+          "en": "You must report to 119 and administer first aid."
+        },
+        {
+          "speaker": "강연자",
+          "ko": "그리고 사고 현장을 정리하지 말고 그대로 두어야 합니다. 원인을 조사해야 하니까요.",
+          "bn": "আর দুর্ঘটনাস্থল গোছাবেন না, যেমন আছে তেমনই রাখতে হবে। কারণ অনুসন্ধান করতে হবে তো।",
+          "en": "And do not clean up the accident site; leave it as it is, because the cause must be investigated."
         }
       ]
     },
     {
-      "titleBn": "নিরাপত্তা প্রশিক্ষণে প্রশ্নোত্তর",
-      "titleEn": "Q&A at a safety training",
+      "titleBn": "গ্যাসের গন্ধ পেলে",
+      "titleEn": "When you smell gas",
       "lines": [
         {
-          "speaker": "안전 관리자",
-          "ko": "여러분, 구급상자가 어디에 있는지 아세요?",
-          "bn": "সবাই, ফার্স্ট এইড বক্স কোথায় আছে জানেন?",
-          "en": "Everyone, do you know where the first-aid kit is?"
+          "speaker": "구엔",
+          "ko": "반장님, 가스 냄새가 나는 것 같아요.",
+          "bn": "ফোরম্যান স্যার, মনে হচ্ছে গ্যাসের গন্ধ পাচ্ছি।",
+          "en": "Foreman, I think I smell gas."
         },
         {
-          "speaker": "근로자",
-          "ko": "네, 사무실 벽에 있습니다.",
-          "bn": "জি, অফিসের দেয়ালে আছে।",
-          "en": "Yes, it is on the office wall."
+          "speaker": "김 반장",
+          "ko": "정말 냄새가 나네요. 빨리 밸브를 잠그고 창문을 엽시다.",
+          "bn": "সত্যিই গন্ধ আসছে। দ্রুত ভালভ বন্ধ করে জানালা খুলি।",
+          "en": "You are right, there is a smell. Let us shut the valve and open the windows."
         },
         {
-          "speaker": "안전 관리자",
-          "ko": "맞아요. 동료가 감전되면 어떻게 해야 해요?",
-          "bn": "ঠিক। সহকর্মী বিদ্যুৎস্পৃষ্ট হলে কী করতে হবে?",
-          "en": "Right. What should you do if a coworker gets an electric shock?"
+          "speaker": "구엔",
+          "ko": "배관이 조금 깨져 있었습니다. 가스가 누출될 뻔했어요.",
+          "bn": "পাইপটা একটু ফেটে ছিল। প্রায় গ্যাস লিক হয়ে যেত।",
+          "en": "The pipe was slightly cracked. The gas almost leaked."
         },
         {
-          "speaker": "근로자",
-          "ko": "먼저 전원을 끄고 몸을 직접 만지면 안 됩니다.",
-          "bn": "আগে বিদ্যুৎ বন্ধ করতে হবে, আর শরীর সরাসরি ধরা যাবে না।",
-          "en": "First turn off the power, and you must not touch the body directly."
+          "speaker": "김 반장",
+          "ko": "빨리 발견해서 다행이에요. 바로 작업을 중지하세요.",
+          "bn": "দ্রুত খেয়াল করেছেন, ভাগ্য ভালো। সঙ্গে সঙ্গে কাজ বন্ধ করুন।",
+          "en": "It is fortunate you found it quickly. Stop work immediately."
         },
         {
-          "speaker": "안전 관리자",
-          "ko": "아주 좋아요. 숨을 쉬지 않으면 심폐소생술을 하고 119에 전화하세요.",
-          "bn": "খুব ভালো। শ্বাস না নিলে সিপিআর করুন এবং ১১৯-এ ফোন করুন।",
-          "en": "Very good. If they are not breathing, do CPR and call 119."
+          "speaker": "구엔",
+          "ko": "네, 밖으로 대피할까요?",
+          "bn": "জি, বাইরে সরে যাব?",
+          "en": "Yes, should we evacuate outside?"
         },
         {
-          "speaker": "근로자",
-          "ko": "네, 잘 알겠습니다. 감사합니다.",
-          "bn": "জি, ভালোভাবে বুঝেছি। ধন্যবাদ।",
-          "en": "Yes, I understand well. Thank you."
+          "speaker": "김 반장",
+          "ko": "그렇게 하세요. 저는 상급자에게 보고하겠습니다.",
+          "bn": "তাই করুন। আমি ঊর্ধ্বতনকে রিপোর্ট করছি।",
+          "en": "Do that. I will report to the supervisor."
         }
       ]
     }
@@ -667,583 +724,550 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "রক্তপাত হলে প্রথমে কি করবেন?",
-      "questionKo": "출혈이 있으면 먼저 무엇을 해야 합니까?",
+      "questionBn": "'바닥이 미끄러워서 넘어질 뻔했어요.' — এই বাক্যের অর্থ কী?",
       "options": [
-        "기계를 다시 켠다",
-        "환자를 혼자 집으로 보낸다",
-        "즉시 약을 바른다",
-        "깨끗한 천으로 압박한다"
+        "실제로 넘어졌습니다.",
+        "넘어지지 않았지만 넘어질 가능성이 매우 높았습니다.",
+        "앞으로 넘어질 것입니다.",
+        "넘어지고 싶었습니다."
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "রক্তপাত হলে প্রথম কাজ হলো পরিষ্কার কাপড় দিয়ে চাপ দেওয়া — এটি রক্ত বন্ধ করতে সাহায্য করে।"
+      "answer": 1,
+      "explanationBn": "'-(으)ㄹ 뻔하다' মানে কাজটি ঘটেনি, তবে ঘটার সম্ভাবনা খুব বেশি ছিল।"
     },
     {
       "id": "p2",
-      "type": "multiple-choice",
-      "questionBn": "작업장에서 관리자에게 사고를 알려야 하는 이유는?",
-      "questionKo": "작업장에서 사고를 관리자에게 알려야 하는 이유는 무엇입니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 불이 ( ) 119에 신고했어요.",
       "options": [
-        "동료를 혼내기 위해",
-        "곧장 집에 가기 위해",
-        "안전 조치를 조정하고 보고를 하기 위해",
-        "기계를 다시 사용하기 위해"
+        "났자마자",
+        "나는 대로",
+        "나면서",
+        "나자마자"
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "ম্যানেজারকে জানালে নিরাপত্তা ব্যবস্থা নেওয়া এবং অফিসিয়াল রিপোর্ট করা যায়।"
+      "answer": 3,
+      "explanationBn": "'-자마자' এর আগে অতীত রূপ বসে না, তাই '나자마자' সঠিক। অপ্রত্যাশিত ঘটনায় '-는 대로' চলে না।"
     },
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "작은 화상이 발생하면 우선 무엇을 합니까?",
-      "questionKo": "작은 화상이 생기면 우선 무엇을 해야 합니까?",
+      "questionBn": "বিদ্যুৎস্পৃষ্ট হওয়ার দুর্ঘটনায় সবার আগে কী করতে হবে?",
       "options": [
-        "상처를 문지른다",
-        "흐르는 찬물로 식힌다",
-        "따뜻한 물에 담근다",
-        "즉시 기름을 바른다"
+        "물을 뿌립니다.",
+        "기계를 켭니다.",
+        "전원을 차단합니다.",
+        "환자를 만집니다."
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "ছোট পুড়ে গেলে প্রথমে ঠান্ডা ঝরনা বা চলমান ঠান্ডা পানি দিয়ে ঠান্ডা করা উচিত।"
+      "answer": 2,
+      "explanationBn": "বিদ্যুৎস্পৃষ্ট হলে আগে বিদ্যুৎ সংযোগ বিচ্ছিন্ন করতে হয়, নইলে উদ্ধারকারীও আক্রান্ত হবেন। পানি ছিটানো বিপজ্জনক।"
     },
     {
       "id": "p4",
-      "type": "multiple-choice",
-      "questionBn": "비상구 표지는 무엇을 나타냅니까?",
-      "questionKo": "비상구 표지는 무엇을 나타냅니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 보안경을 쓰지 않았으면 크게 ( ) 뻔했어요.",
       "options": [
-        "긴급 탈출 경로",
-        "정문 위치",
-        "휴게실 위치",
-        "화장실 위치"
+        "다친",
+        "다쳐서",
+        "다치고",
+        "다칠"
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "비상구 표지는 জরুরি অবস্থায় নিরাপদভাবে বের হতে হবে এমন পথ নির্দেশ করে।"
+      "answer": 3,
+      "explanationBn": "'뻔하다' এর আগে ক্রিয়ার '-(으)ㄹ' রূপ বসে, তাই '다칠 뻔했어요' সঠিক।"
     },
     {
       "id": "p5",
-      "type": "multiple-choice",
-      "questionBn": "긴급 상황에서 한국의 긴급 전화번호는 무엇입니까?",
-      "questionKo": "긴급 상황에서 한국의 긴급 전화번호는 무엇입니까?",
-      "options": [
-        "911",
-        "123",
-        "110",
-        "119"
+      "type": "matching",
+      "questionBn": "দুর্ঘটনার ধরনের সাথে প্রাথমিক প্রতিক্রিয়া মেলান।",
+      "pairs": [
+        {
+          "left": "감전",
+          "right": "전원 차단"
+        },
+        {
+          "left": "기계 재해",
+          "right": "기계 정지"
+        },
+        {
+          "left": "질식",
+          "right": "작업 중지, 대피"
+        },
+        {
+          "left": "화재",
+          "right": "초기 진화 및 대피"
+        }
       ],
-      "pairs": [],
-      "answer": 3,
-      "explanationBn": "한국에서 화재나 응급의료 등 긴급 상황의 대표 번호는 119입니다."
+      "explanationBn": "প্রতিটি দুর্ঘটনার প্রথম করণীয় আলাদা। বিদ্যুতে সংযোগ বিচ্ছিন্ন, মেশিনে থামানো, শ্বাসরোধে সরে যাওয়া, আর আগুনে নেভানো ও সরে যাওয়া।"
     },
     {
       "id": "p6",
-      "type": "fill-blank",
-      "questionBn": "기계에 사고가 나면 먼저 ____하세요.",
-      "questionKo": "기계에 사고가 나면 먼저 ____하세요.",
+      "type": "multiple-choice",
+      "questionBn": "আগুন লাগলে সবার আগে কী করতে হবে?",
       "options": [
-        "보호",
-        "돌려",
-        "정지시키",
-        "무시"
+        "사고 현장을 정리합니다.",
+        "'불이야!' 하고 큰 소리로 외칩니다.",
+        "엘리베이터를 탑니다.",
+        "작업을 계속합니다."
       ],
-      "pairs": [],
-      "answer": 2,
-      "explanationBn": "기계 사고 시 먼저 기계를 정지시켜 추가 위험을 막아야 합니다."
+      "answer": 1,
+      "explanationBn": "আগুন লাগলে প্রথমে চিৎকার করে সবাইকে জানাতে হয়, যাতে সবাই দ্রুত সরে যেতে পারেন।"
     },
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "작업 중 바닥이 젖으면 표지를 ____ 주세요.",
-      "questionKo": "작업 중 바닥이 젖으면 표지를 ____ 주세요.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 사고 현장을 정리하지 ( ) 그대로 두어야 합니다.",
       "options": [
-        "덮어",
-        "설치",
-        "제거",
-        "숨기"
+        "말고",
+        "않고",
+        "못하고",
+        "말아서"
       ],
-      "pairs": [],
-      "answer": 1,
-      "explanationBn": "젖은 바닥에는 위험 표시를 설치하여 다른 사람들에게 경고해야 합니다."
+      "answer": 0,
+      "explanationBn": "নিষেধ জানিয়ে বিকল্প বলতে '-지 말고' বসে, তাই '정리하지 말고' সঠিক।"
     },
     {
       "id": "p8",
-      "type": "fill-blank",
-      "questionBn": "응급 상황에서는 관리자에게 ____ 하세요.",
-      "questionKo": "응급 상황에서는 관리자에게 ____ 하세요.",
+      "type": "multiple-choice",
+      "questionBn": "দুর্ঘটনাস্থল কেন গোছানো যাবে না?",
       "options": [
-        "보고하",
-        "전화하지",
-        "보내",
-        "경고"
+        "청소하는 시간이 아까워서입니다.",
+        "현장이 더러워도 괜찮기 때문입니다.",
+        "상급자가 싫어하기 때문입니다.",
+        "사고 원인을 조사해야 하기 때문입니다."
       ],
-      "pairs": [],
-      "answer": 0,
-      "explanationBn": "응급 상황에서는 관리자에게 사건을 보고해야 합니다."
+      "answer": 3,
+      "explanationBn": "দুর্ঘটনার কারণ অনুসন্ধানের জন্য ঘটনাস্থল অক্ষত রাখতে হয়, নইলে প্রমাণ নষ্ট হয়ে যায়।"
     },
     {
       "id": "p9",
-      "type": "matching",
-      "questionBn": "다음 한국어 단어와 বাংলা 뜻을 연결하세요.",
-      "questionKo": "다음 한국어 단어와 뜻을 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "안전모",
-          "right": "নিরাপত্তা হেলমেট"
-        },
-        {
-          "left": "출혈",
-          "right": "রক্তপাত"
-        },
-        {
-          "left": "비상구",
-          "right": "জরুরি পথ"
-        },
-        {
-          "left": "응급 처치",
-          "right": "প্রাথমিক চিকিৎসা"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 가스 냄새가 나면 빨리 ( )를 잠그세요.",
+      "options": [
+        "밸브",
+        "들것",
+        "소화기",
+        "발목"
       ],
       "answer": 0,
-      "explanationBn": "প্রতি জোড়া হল সরাসরি অনুবাদ: 안전모=নিরাপত্তা হেলমেট, 출혈=রক্তপাত ইত্যাদি।"
+      "explanationBn": "গ্যাসের গন্ধ পেলে গ্যাসের সরবরাহ বন্ধ করতে '밸브' অর্থাৎ ভালভ বন্ধ করতে হয়।"
     },
     {
       "id": "p10",
-      "type": "matching",
-      "questionBn": "다음 행동과 권장 조치를 연결하세요.",
-      "questionKo": "다음 행동과 권장 조치를 연결하세요.",
-      "options": [],
-      "pairs": [
-        {
-          "left": "화상",
-          "right": "흐르는 물로 식히기"
-        },
-        {
-          "left": "기계 사고",
-          "right": "기계 정지 및 관리자 신고"
-        },
-        {
-          "left": "미끄러짐",
-          "right": "표지 설치 및 바닥 건조"
-        },
-        {
-          "left": "심한 출혈",
-          "right": "압박하고 119 연락"
-        }
+      "type": "multiple-choice",
+      "questionBn": "১১৯-এ খবর দেওয়ার পর কোন কাজটি করা যাবে না?",
+      "options": [
+        "응급 처치를 합니다.",
+        "사고가 난 주소를 말합니다.",
+        "다른 사람과 통화합니다.",
+        "환자의 상태를 확인합니다."
       ],
-      "answer": 0,
-      "explanationBn": "প্রতিটি আচরণে সঠিক প্রাথমিক ব্যবস্থাই মেলে: 화상=물로 식히기, 출혈=압박 এবং 119 যোগাযোগ।"
+      "answer": 2,
+      "explanationBn": "খবর দেওয়ার পর অন্য কারো সাথে ফোনে কথা বললে দমকল বা অ্যাম্বুলেন্স যোগাযোগ করতে পারে না।"
     },
     {
       "id": "p11",
-      "type": "multiple-choice",
-      "questionBn": "'붕대' শব্দের অর্থ কী?",
-      "questionKo": "'붕대'의 뜻은 무엇입니까?",
-      "options": [
-        "স্ট্রেচার",
-        "ব্যান্ডেজ",
-        "চশমা",
-        "ওষুধ"
+      "type": "matching",
+      "questionBn": "জরুরি সরঞ্জামের সাথে তার কাজ মেলান।",
+      "pairs": [
+        {
+          "left": "들것",
+          "right": "환자를 옮길 때 사용합니다."
+        },
+        {
+          "left": "구급 가방",
+          "right": "응급 처치 물품이 들어 있습니다."
+        },
+        {
+          "left": "산소 호흡기",
+          "right": "숨을 쉴 수 있게 공기를 공급합니다."
+        },
+        {
+          "left": "구명 부이",
+          "right": "물에 빠진 사람을 구합니다."
+        }
       ],
-      "answer": 1,
-      "explanationBn": "'붕대' মানে ব্যান্ডেজ — ক্ষত ঢাকতে বা চাপ দিতে ব্যবহৃত কাপড়ের ফিতা।"
+      "explanationBn": "প্রতিটি জরুরি সরঞ্জামের নির্দিষ্ট কাজ আছে। নাম দেখে কাজটি অনুমান করার অভ্যাস করুন।"
     },
     {
       "id": "p12",
       "type": "multiple-choice",
-      "questionBn": "সহকর্মী বিদ্যুৎস্পৃষ্ট (감전) হলে প্রথমে কী করতে হবে?",
-      "questionKo": "동료가 감전되면 먼저 무엇을 해야 합니까?",
+      "questionBn": "কোন বাক্যে '-자마자' সঠিকভাবে ব্যবহৃত হয়েছে?",
       "options": [
-        "몸을 손으로 잡는다",
-        "물을 뿌린다",
-        "전원을 끈다",
-        "혼자 둔다"
+        "집에 도착하자마자 전화가 왔어요.",
+        "집에 도착했자마자 전화가 왔어요.",
+        "집에 도착하는 자마자 전화가 왔어요.",
+        "집에 도착하고 자마자 전화가 왔어요."
       ],
-      "answer": 2,
-      "explanationBn": "বিদ্যুৎস্পৃষ্ট ব্যক্তিকে সরাসরি ধরলে আপনিও আক্রান্ত হবেন; আগে বিদ্যুতের উৎস (전원) বন্ধ করতে হবে।"
+      "answer": 0,
+      "explanationBn": "'-자마자' ক্রিয়ামূলের সাথে সরাসরি বসে, মাঝে অতীত বা অন্য কিছু আসে না।"
     },
     {
       "id": "p13",
-      "type": "multiple-choice",
-      "questionBn": "উঁচু জায়গায় কাজ করার সময় কোন দুর্ঘটনার ঝুঁকি সবচেয়ে বেশি?",
-      "questionKo": "높은 곳에서 일할 때 어떤 사고 위험이 가장 큽니까?",
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 사고가 발생하면 먼저 작업을 ( ) 상급자에게 보고하세요.",
       "options": [
-        "추락",
-        "질식",
-        "화상",
-        "감전"
+        "시작하고",
+        "계속하고",
+        "중지하고",
+        "준비하고"
       ],
-      "answer": 0,
-      "explanationBn": "উঁচু স্থানে কাজের প্রধান ঝুঁকি হলো '추락' অর্থাৎ উপর থেকে পড়ে যাওয়া।"
+      "answer": 2,
+      "explanationBn": "দুর্ঘটনা ঘটলে আগে কাজ বন্ধ করে তারপর রিপোর্ট করতে হয়। কাজ চালিয়ে গেলে বিপদ বাড়ে।"
     },
     {
       "id": "p14",
       "type": "multiple-choice",
-      "questionBn": "রোগী শ্বাস না নিলে কী করতে হবে?",
-      "questionKo": "환자가 숨을 쉬지 않으면 무엇을 해야 합니까?",
+      "questionBn": "ক্ষতিকর পদার্থ বেরিয়ে গেলে ('유해 물질이 유출되었을 때') সঠিক প্রতিক্রিয়া কোনটি?",
       "options": [
-        "물을 마시게 한다",
-        "심폐소생술을 한다",
-        "일으켜 세운다",
-        "그냥 기다린다"
+        "물질을 손으로 만져 봅니다.",
+        "환기 장치를 끕니다.",
+        "밸브를 차단하고 대피합니다.",
+        "작업을 계속합니다."
       ],
-      "answer": 1,
-      "explanationBn": "শ্বাস বন্ধ থাকলে দ্রুত সিপিআর (심폐소생술) শুরু করতে হবে এবং ১১৯-এ খবর দিতে হবে।"
+      "answer": 2,
+      "explanationBn": "ক্ষতিকর পদার্থ বেরোলে সরবরাহ বন্ধ করে সরে যেতে হয়, আর শ্বাস ও ত্বক রক্ষা করতে হয়।"
     },
     {
       "id": "p15",
-      "type": "fill-blank",
-      "questionBn": "খালি জায়গায় সঠিক শব্দ বসান: 그라인더 작업을 ____ 보호안경을 쓰세요.",
-      "questionKo": "그라인더 작업을 ____ 보호안경을 쓰세요.",
+      "type": "multiple-choice",
+      "questionBn": "আগুন বড় হয়ে নেভানো কঠিন হলে কী করতে হবে?",
       "options": [
-        "할 때",
-        "하지만",
-        "해서",
-        "하거나"
+        "바로 대피하고 119에 신고합니다.",
+        "혼자 계속 불을 끕니다.",
+        "사진을 찍습니다.",
+        "방화문을 엽니다."
       ],
       "answer": 0,
-      "explanationBn": "'~(으)ㄹ 때' মানে 'যখন/সময়ে'; কাজ করার সময় বোঝাতে '할 때' সঠিক।"
+      "explanationBn": "নিজে নেভানো সম্ভব না হলে জীবন বাঁচাতে সরে গিয়ে ১১৯-এ খবর দিতে হয়। অগ্নিরোধী দরজা খুললে আগুন ছড়ায়।"
     },
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "খালি জায়গায় সঠিক শব্দ বসান: 안전모 없이 현장에 들어가면 ____.",
-      "questionKo": "안전모 없이 현장에 들어가면 ____.",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 응급 상황이 생기면 먼저 환자의 ( )를 파악하세요.",
       "options": [
-        "좋습니다",
-        "안 됩니다",
-        "됩니다",
-        "재미있습니다"
+        "원인",
+        "주소",
+        "상태",
+        "이름"
       ],
-      "answer": 1,
-      "explanationBn": "'~(으)면 안 되다' দিয়ে নিষেধ বোঝানো হয়; হেলমেট ছাড়া ঢোকা নিষেধ, তাই '안 됩니다'।"
+      "answer": 2,
+      "explanationBn": "প্রাথমিক চিকিৎসার আগে রোগীর অবস্থা বুঝে নিতে হয়, তারপর সাহায্য চাইতে হয়।"
     },
     {
       "id": "p17",
-      "type": "fill-blank",
-      "questionBn": "খালি জায়গায় সঠিক শব্দ বসান: 상처에 ____를 감으세요.",
-      "questionKo": "상처에 ____를 감으세요.",
-      "options": [
-        "귀마개",
-        "들것",
-        "붕대",
-        "안전화"
+      "type": "matching",
+      "questionBn": "শব্দের সাথে বাংলা অর্থ মেলান।",
+      "pairs": [
+        {
+          "left": "누출되다",
+          "right": "লিক হওয়া"
+        },
+        {
+          "left": "베이다",
+          "right": "কেটে যাওয়া"
+        },
+        {
+          "left": "삐다",
+          "right": "মচকে যাওয়া"
+        },
+        {
+          "left": "진화하다",
+          "right": "আগুন নেভানো"
+        }
       ],
-      "answer": 2,
-      "explanationBn": "ক্ষতে পেঁচানো হয় ব্যান্ডেজ অর্থাৎ '붕대'।"
+      "explanationBn": "এই চারটি শব্দ দুর্ঘটনার বর্ণনায় বারবার আসে। আঘাতের ধরন অনুযায়ী আলাদা ক্রিয়া ব্যবহার হয়।"
     },
     {
       "id": "p18",
-      "type": "fill-blank",
-      "questionBn": "খালি জায়গায় সঠিক শব্দ বসান: 소음이 심한 곳에서는 ____를 착용하세요.",
-      "questionKo": "소음이 심한 곳에서는 ____를 착용하세요.",
+      "type": "multiple-choice",
+      "questionBn": "নিচের বর্ণনাটি কোন সরঞ্জামের? — আগুন নেভানোর সময় ব্যবহৃত যন্ত্র।",
       "options": [
-        "붕대",
+        "소화기",
         "들것",
-        "구급상자",
-        "귀마개"
+        "구급 가방",
+        "구명 부이"
       ],
-      "answer": 3,
-      "explanationBn": "বেশি শব্দের (소음) জায়গায় কান রক্ষার জন্য '귀마개' (ইয়ারপ্লাগ) পরতে হয়।"
+      "answer": 0,
+      "explanationBn": "আগুন নেভানোর যন্ত্র হলো '소화기'। স্ট্রেচার রোগী সরায়, ব্যাগে ওষুধ থাকে, আর বয়া পানিতে কাজে লাগে।"
     },
     {
       "id": "p19",
-      "type": "matching",
-      "questionBn": "দুর্ঘটনার ধরন ও বাংলা অর্থ মিলান।",
-      "questionKo": "사고 종류와 뜻을 연결하세요.",
-      "pairs": [
-        {
-          "left": "감전",
-          "right": "বিদ্যুৎস্পৃষ্ট হওয়া"
-        },
-        {
-          "left": "추락",
-          "right": "উপর থেকে পড়ে যাওয়া"
-        },
-        {
-          "left": "질식",
-          "right": "শ্বাসরোধ"
-        },
-        {
-          "left": "골절",
-          "right": "হাড়ভাঙ্গা"
-        }
+      "type": "fill-blank",
+      "questionBn": "শূন্যস্থান পূরণ করুন: 철근에 걸려서 ( ) 뻔했어요.",
+      "options": [
+        "넘어진",
+        "넘어져서",
+        "넘어질",
+        "넘어지면"
       ],
-      "explanationBn": "প্রতিটি কোরিয়ান শব্দের সরাসরি বাংলা অর্থ: 감전=বিদ্যুৎস্পৃষ্ট, 추락=পড়ে যাওয়া, 질식=শ্বাসরোধ, 골절=হাড়ভাঙ্গা।"
+      "answer": 2,
+      "explanationBn": "'뻔하다' এর আগে '-(으)ㄹ' রূপ বসে, তাই '넘어질 뻔했어요' সঠিক।"
     },
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "সুরক্ষা সরঞ্জাম ও তার কাজ মিলান।",
-      "questionKo": "보호 장비와 용도를 연결하세요.",
+      "questionBn": "পরিস্থিতির সাথে সঠিক প্রতিক্রিয়া মেলান।",
       "pairs": [
         {
-          "left": "보호안경",
-          "right": "চোখ রক্ষা"
+          "left": "불이 났어요.",
+          "right": "'불이야!' 하고 외치고 119에 신고해요."
         },
         {
-          "left": "귀마개",
-          "right": "কান রক্ষা"
+          "left": "동료가 다쳤어요.",
+          "right": "응급 처치를 하고 도움을 요청해요."
         },
         {
-          "left": "안전모",
-          "right": "মাথা রক্ষা"
+          "left": "가스 냄새가 나요.",
+          "right": "밸브를 잠그고 창문을 열어요."
         },
         {
-          "left": "안전화",
-          "right": "পা রক্ষা"
+          "left": "기계에 손이 끼였어요.",
+          "right": "먼저 기계를 정지해요."
         }
       ],
-      "explanationBn": "প্রতিটি সরঞ্জাম শরীরের নির্দিষ্ট অংশ রক্ষা করে: চশমা=চোখ, ইয়ারপ্লাগ=কান, হেলমেট=মাথা, সেফটি বুট=পা।"
+      "explanationBn": "প্রতিটি জরুরি পরিস্থিতির প্রথম করণীয় আলাদা। ভুল ক্রম বিপদ বাড়িয়ে দিতে পারে।"
     }
   ],
   "epsQuestions": [
     {
       "id": "e1",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে প্রশ্নের উত্তর দিন। 안전 표지의 목적은 무엇입니까?",
-      "questionKo": "다음 글을 읽고 물음에 답하세요: 작업장에는 '비상구'와 '경고 표지'가 있습니다. 표지는 사람들에게 위험을 알리고 안전한 행동을 안내합니다. 표지 없이는 빠른 대피가 어렵습니다. 표지의 목적은 무엇입니까?",
-      "passage": "작업장에는 '비상구'와 '경고 표지'가 있습니다. 표지는 사람들에게 위험을 알리고 안전한 행동을 안내합니다. 표지 없이는 빠른 대피가 어렵습니다.",
+      "questionKo": "다음 내용과 관계있는 것을 고르십시오.",
+      "questionBn": "নিচের বাক্যের সাথে সম্পর্কিত সরঞ্জামটি বেছে নিন।",
+      "passage": "불을 끌 때 사용하는 기구입니다.",
       "options": [
-        "작업 속도를 높이기 위해 설치한다",
-        "제품 광고를 위해 사용한다",
-        "사람들에게 위험을 알리고 안전 행동을 안내한다",
-        "청소 스케줄을 표시한다"
+        "들것",
+        "소화기",
+        "구급 가방",
+        "산소 호흡기"
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা আছে 표지는 মানুষকে ঝুঁকি জানায় এবং নিরাপদ আচরণ নির্দেশ করে।"
+      "answer": 1,
+      "explanationBn": "আগুন নেভানোর যন্ত্র হলো '소화기'। বাকিগুলো রোগী সরানো বা চিকিৎসার কাজে লাগে।"
     },
     {
       "id": "e2",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে প্রশ্নের উত্তর দিন। 응급 처치는 언제 সাহায্য করে?",
-      "questionKo": "다음 글을 읽고 물음에 답하세요: 응급 처치는 전문가가 올 때까지 환자에게 임시로 도움을 주는 것입니다. 심한 응급 상황에서는 119에 연락해야 합니다.",
-      "passage": "응급 처치는 전문가가 올 때까지 환자에게 임시로 도움을 주는 것입니다. 심한 응급 상황에서는 119에 연락해야 합니다.",
+      "questionKo": "다음 내용과 관계있는 것을 고르십시오.",
+      "questionBn": "নিচের বাক্যের সাথে সম্পর্কিত সরঞ্জামটি বেছে নিন।",
+      "passage": "환자를 옮길 때 사용하는 기구입니다.",
       "options": [
-        "기계 수리할 때",
-        "전문가가 떠난 후에",
-        "항상 병원에 가지 않고",
-        "전문가가 오기 전까지"
+        "구명 조끼",
+        "들것",
+        "화재경보기",
+        "방화문"
       ],
-      "answer": 3,
-      "explanationBn": "প্যাসেজে বলা আছে 응급 চিকিৎসা হলো বিশেষজ্ঞ আসা পর্যন্ত সহায়তা করা।"
+      "answer": 1,
+      "explanationBn": "রোগী সরানোর যন্ত্র হলো '들것' অর্থাৎ স্ট্রেচার।"
     },
     {
       "id": "e3",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে প্রশ্নের উত্তর দিন। 기계 사고 시 가장 먼저 해야 할 일은 무엇인가요?",
-      "questionKo": "다음 글을 읽고 물음에 답하세요: 기계 근처에서 사고가 나면 1) 기계를 정지하고 2) 출혈이 있으면 압박하고 3) 관리자를 부르세요.",
-      "passage": "기계 근처에서 사고가 나면 1) 기계를 정지하고 2) 출혈이 있으면 압박하고 3) 관리자를 부르세요.",
+      "questionKo": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শূন্যস্থানে সবচেয়ে উপযুক্ত শব্দটি বেছে নিন।",
+      "passage": "사고가 ( ) 바로 작업을 중지하고 상급자에게 보고해야 합니다.",
       "options": [
-        "기계를 정지한다",
-        "현장에서 물건을 치운다",
-        "기계를 바로 수리한다",
-        "관리자에게 먼저 보고한다"
+        "발생했자마자",
+        "발생하자마자",
+        "발생하는 대로",
+        "발생하면서"
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজে প্রথম ধাপ হিসেবে বলা আছে 기계를 정지 করতে।"
+      "answer": 1,
+      "explanationBn": "'-자마자' ক্রিয়ামূলের সাথে সরাসরি বসে, তাই '발생하자마자' সঠিক।"
     },
     {
       "id": "e4",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে প্রশ্নের উত্তর দিন। 작은 화상 관리 방법টি কী?",
-      "questionKo": "다음 글을 읽고 물음에 답하세요: 작은 화상은 흐르는 찬물로 식히고 깨끗한 천으로 덮으세요. 심하면 병원으로 갑니다.",
-      "passage": "작은 화상은 흐르는 찬물로 식히고 깨끗한 천으로 덮으세요. 심하면 병원으로 갑니다.",
+      "questionKo": "다음 글을 읽고 알맞은 것을 고르십시오.",
+      "questionBn": "লেখাটি পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "passage": "화재 예방 교육 안내\n다음 주에 화재 예방 교육이 있습니다. 신입 사원 여러분은 반드시 참석해 주십시오.\n일시: 다음 주 수요일 10:00~11:00\n장소: 회의실(2층 사무실 옆)\n대상: 신입 사원",
       "options": [
-        "즉시 약을 바른다",
-        "흐르는 찬물로 식힌다",
-        "강한 압박을 한다",
-        "바로 불을 붙인다"
+        "화재 예방 교육은 주말에 있습니다.",
+        "2층 회의실에서 화재 예방 교육을 합니다.",
+        "화재 예방 교육은 11시에 시작합니다.",
+        "신입 사원은 교육을 듣지 않아도 됩니다."
       ],
       "answer": 1,
-      "explanationBn": "প্যাসেজে বলা আছে ছোট পুড়ে গেলে ঠান্ডা পানি দিয়ে ঠান্ডা করতে।"
+      "explanationBn": "স্থান হিসেবে দ্বিতীয় তলার সভাকক্ষ লেখা আছে। এটি বুধবার, ১০টায় শুরু, আর নতুন কর্মীদের অবশ্যই যেতে হবে।"
     },
     {
       "id": "e5",
       "section": "reading",
-      "questionBn": "প্যাসেজ পড়ে প্রশ্নের উত্তর দিন। 작업장에서 신고해야 할 사람은 누구?",
-      "questionKo": "다음 글을 읽고 물음에 답하세요: 사고가 나면 즉시 관리자나 안전 담당자에게 알려야 합니다. 상황이 심하면 119에 연락합니다.",
-      "passage": "사고가 나면 즉시 관리자나 안전 담당자에게 알려야 합니다. 상황이 심하면 119에 연락합니다.",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন সরঞ্জামের?",
+      "passage": "불이 난 것을 사람들에게 알리기 위해 누르는 장치입니다.",
       "options": [
-        "친구만",
-        "제품 고객",
-        "관리자나 안전 담당자",
-        "광고 담당자"
+        "화재경보기",
+        "소화기",
+        "방화문",
+        "소방호스릴"
       ],
-      "answer": 2,
-      "explanationBn": "প্যাসেজে বলা আছে 사고 হলে ম্যানেজার বা নিরাপত্তা কর্মকর্তা জানাতে হবে।"
+      "answer": 0,
+      "explanationBn": "আগুন লাগার খবর সবাইকে জানাতে চাপা হয় '화재경보기'। বাকিগুলো নেভানো বা আগুন আটকানোর কাজ করে।"
     },
     {
       "id": "e6",
-      "section": "listening",
-      "questionBn": "듣고 맞는 답을 고르세요: 누가 119에 전화했나요?",
-      "questionKo": "다음 대화를 듣고 물음에 답하세요: \"동료: 기계에 손가락이 끼었어요!\\n관리자: 기계를 멈추고 119에 연락해요.\\n동료: 제가 지금 전화할게요.\"",
-      "passage": "남자: 기계에 손가락이 끼었어요!\n여자: 기계를 멈추고 119에 연락해요.\n남자: 제가 지금 전화할게요.",
+      "section": "reading",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "questionBn": "পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "passage": "바닥이 미끄러워서 ( ) 뻔했습니다. 다행히 난간을 잡아서 괜찮았습니다.",
       "options": [
-        "구조대",
-        "작업자",
-        "관리자",
-        "동료"
+        "넘어진",
+        "넘어져서",
+        "넘어지고",
+        "넘어질"
       ],
       "answer": 3,
-      "explanationBn": "대화에서 '동료: 제가 지금 전화할게요.'라고 하므로 동료가 전화했습니다."
+      "explanationBn": "'뻔하다' এর আগে ক্রিয়ার '-(으)ㄹ' রূপ বসে, তাই '넘어질 뻔했습니다' সঠিক।"
     },
     {
       "id": "e7",
-      "section": "listening",
-      "questionBn": "듣고 맞는 답을 고르세요: 화상을 어떻게 처리하라고 했나요?",
-      "questionKo": "다음 문장을 듣고 물음에 답하세요: \"간호사: 작은 화상은 흐르는 물로 식히고 관리자를 부르세요.\"",
-      "passage": "작은 화상은 흐르는 물로 식히고 관리자를 부르세요.",
+      "section": "reading",
+      "questionKo": "다음 글의 내용과 같은 것을 고르십시오.",
+      "questionBn": "লেখার সাথে মিল আছে এমন বাক্যটি বেছে নিন।",
+      "passage": "오늘 작업 현장에서 위험한 일이 많았습니다. 가스 배관이 조금 깨져 있어서 가스가 누출될 뻔했습니다. 빨리 발견해서 다행이었습니다. 오후에는 위에서 벽돌이 떨어져서 머리를 다칠 뻔했습니다.",
       "options": [
-        "흐르는 물로 식히라고",
-        "소독제로 문지르라고",
-        "즉시 주사를 맞으라고",
-        "약을 바르고 혼자 두라고"
+        "가스가 실제로 누출되었습니다.",
+        "벽돌에 맞아서 머리를 다쳤습니다.",
+        "가스 배관이 깨져 있는 것을 빨리 발견했습니다.",
+        "오늘은 위험한 일이 하나도 없었습니다."
       ],
-      "answer": 0,
-      "explanationBn": "말에 '흐르는 물로 식히고'라고 나오므로 두 번째 보기가 맞습니다."
+      "answer": 2,
+      "explanationBn": "লেখায় বলা আছে ফাটল দ্রুত খেয়াল করা গেছে। '뻔하다' মানে ঘটনাগুলো আসলে ঘটেনি।"
     },
     {
       "id": "e8",
-      "section": "listening",
-      "questionBn": "듣고 맞는 답을 고르세요: 출혈이 심하면 어떤 조치를 취하라고 했나요?",
-      "questionKo": "다음 문장을 듣고 물음에 답하세요: \"현장소장: 출혈이 심하면 깨끗한 천으로 압박하고 119에 연락하세요.\"",
-      "passage": "출혈이 심하면 깨끗한 천으로 압박하고 119에 연락하세요.",
+      "section": "reading",
+      "questionKo": "다음 중 사고 발생 시 대응 요령으로 알맞지 않은 것을 고르십시오.",
+      "questionBn": "দুর্ঘটনার সময় করণীয় হিসেবে যেটি সঠিক নয় তা বেছে নিন।",
       "options": [
-        "환자를 혼자 두라",
-        "압박하고 119에 연락하라",
-        "천으로 문질러라",
-        "기계를 다시 가동하라"
+        "작업을 중지하고 긴급 대피합니다.",
+        "관리감독자나 상급자에게 보고합니다.",
+        "사고 원인 조사가 끝나기 전에 현장을 정리합니다.",
+        "소방서나 경찰서에 신고합니다."
       ],
-      "answer": 1,
-      "explanationBn": "문장에 '천으로 압박하고 119에 연락하세요'라고 되어 있으므로 두 번째가 정답입니다."
+      "answer": 2,
+      "explanationBn": "অনুসন্ধান শেষ হওয়ার আগে ঘটনাস্থল গোছানো যাবে না, কারণ তাতে প্রমাণ নষ্ট হয়।"
     },
     {
       "id": "e9",
       "section": "reading",
-      "questionBn": "নোটিশটি পড়ে প্রশ্নের উত্তর দিন: এই নোটিশ অনুযায়ী কারখানায় কী বাধ্যতামূলক?",
-      "questionKo": "다음 안내문을 읽고 물음에 답하십시오.",
-      "passage": "[안내] 공장 안에서는 반드시 안전모와 안전화를 착용하십시오. 미착용 시 현장에 들어갈 수 없습니다.",
+      "questionKo": "다음을 읽고 알맞은 것을 고르십시오.",
+      "questionBn": "পড়ে সঠিক উত্তরটি বেছে নিন।",
+      "passage": "불이 나면 먼저 '불이야!' 하고 큰 소리로 외쳐야 합니다. 그리고 ( )을 눌러야 합니다.",
       "options": [
-        "점심 시간 지키기",
-        "안전모와 안전화 착용",
-        "기계 청소하기",
-        "서류 제출하기"
+        "비상 전화",
+        "방화문",
+        "화재경보기",
+        "구급 가방"
       ],
-      "answer": 1,
-      "explanationBn": "নোটিশে লেখা আছে কারখানার ভেতরে অবশ্যই হেলমেট (안전모) ও সেফটি বুট (안전화) পরতে হবে।"
+      "answer": 2,
+      "explanationBn": "চিৎকারের পর সবাইকে জানাতে অগ্নি সতর্কতা ঘণ্টা চাপতে হয়।"
     },
     {
       "id": "e10",
       "section": "reading",
-      "questionBn": "সাইনটি পড়ে প্রশ্নের উত্তর দিন: এই সতর্কীকরণ চিহ্নটি কী বোঝায়?",
-      "questionKo": "다음 표지를 보고 물음에 답하십시오.",
-      "passage": "[경고] 감전 주의! 젖은 손으로 스위치를 만지지 마시오.",
+      "questionKo": "다음은 무엇에 대한 설명입니까?",
+      "questionBn": "নিচের বর্ণনাটি কোন সরঞ্জামের?",
+      "passage": "응급 상황에서 심장의 정상적인 리듬을 유지하기 위해 사용되는 의료 기기입니다.",
       "options": [
-        "화재 위험",
-        "추락 위험",
-        "질식 위험",
-        "감전 위험"
+        "산소 호흡기",
+        "들것",
+        "구명 부이",
+        "자동 심장 박동기"
       ],
       "answer": 3,
-      "explanationBn": "সাইনে '감전 주의' লেখা — অর্থাৎ বিদ্যুৎস্পৃষ্ট হওয়ার ঝুঁকির সতর্কতা।"
+      "explanationBn": "হৃৎপিণ্ডের স্বাভাবিক ছন্দ ধরে রাখতে ব্যবহৃত যন্ত্র হলো '자동 심장 박동기'।"
     },
     {
       "id": "e11",
-      "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে প্রশ্নের উত্তর দিন: 구급상자 안에 없는 것은 무엇입니까?",
-      "questionKo": "다음 글을 읽고 물음에 답하십시오.",
-      "passage": "우리 회사 구급상자 안에는 붕대, 소독약, 가위가 있습니다. 들것은 창고에 따로 보관합니다.",
+      "section": "listening",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "questionBn": "শুনে প্রশ্নের সঠিক উত্তর বেছে নিন।",
+      "passage": "남자: 소화기 사용법을 알아요?",
       "options": [
-        "들것",
-        "붕대",
-        "소독약",
-        "가위"
+        "네, 소화기예요.",
+        "아니요, 소화기가 없어요.",
+        "네, 많이 있어요.",
+        "아니요, 사용법을 몰라요."
       ],
-      "answer": 0,
-      "explanationBn": "প্যাসেজ অনুযায়ী বক্সে আছে ব্যান্ডেজ, জীবাণুনাশক ও কাঁচি; স্ট্রেচার (들것) আলাদাভাবে গুদামে রাখা হয়।"
+      "answer": 3,
+      "explanationBn": "ব্যবহারের নিয়ম জানেন কি না জিজ্ঞাসা করা হচ্ছে, তাই জানা বা না জানার উত্তরই সঠিক।"
     },
     {
       "id": "e12",
-      "section": "reading",
-      "questionBn": "সময়সূচিটি পড়ে প্রশ্নের উত্তর দিন: 안전 교육은 언제 있습니까?",
-      "questionKo": "다음 일정을 보고 물음에 답하십시오.",
-      "passage": "[이번 주 일정] 월요일: 기계 점검 / 수요일: 안전 교육 (오후 2시) / 금요일: 현장 청소",
+      "section": "listening",
+      "questionKo": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+      "questionBn": "শুনে প্রশ্নের সঠিক উত্তর বেছে নিন।",
+      "passage": "여자: 왜 손을 다쳤어요?",
       "options": [
-        "월요일 오전",
-        "금요일 오후",
-        "수요일 오후 2시",
-        "매일 아침"
+        "파편이 튀어서 다쳤어요.",
+        "어제 다쳤어요.",
+        "작업장에서 다쳤어요.",
+        "마두 씨가 다쳤어요."
       ],
-      "answer": 2,
-      "explanationBn": "সময়সূচি অনুযায়ী নিরাপত্তা প্রশিক্ষণ (안전 교육) বুধবার দুপুর ২টায়।"
+      "answer": 0,
+      "explanationBn": "'왜' কারণ জানতে চায়, তাই কারণ বলা উত্তরটিই সঠিক। বাকিগুলো সময়, স্থান বা ব্যক্তি জানায়।"
     },
     {
       "id": "e13",
-      "section": "reading",
-      "questionBn": "প্যাসেজটি পড়ে প্রশ্নের উত্তর দিন: 산업 재해가 났을 때 회사에 알리는 이유는 무엇입니까?",
-      "questionKo": "다음 글을 읽고 물음에 답하십시오.",
-      "passage": "산업 재해가 나면 바로 회사에 알려야 합니다. 그래야 산재 보험 처리를 받을 수 있고, 치료비 지원도 가능합니다.",
+      "section": "listening",
+      "questionKo": "두 사람은 무엇에 대해 말하고 있습니까?",
+      "questionBn": "দুজন কী নিয়ে কথা বলছেন?",
+      "passage": "여자: 가스 냄새가 나는 것 같아요.\n남자: 정말 냄새가 나네요. 빨리 밸브를 잠그고 창문을 엽시다.",
       "options": [
-        "월급을 더 받기 위해",
-        "휴가를 가기 위해",
-        "동료를 돕기 위해",
-        "산재 보험 처리를 받기 위해"
+        "작업 시 주의 사항",
+        "작업장의 정돈 상태",
+        "작업 도구 사용 방법",
+        "응급 상황 대처 요령"
       ],
       "answer": 3,
-      "explanationBn": "প্যাসেজে বলা আছে জানালে শিল্প দুর্ঘটনা বীমা (산재 보험) প্রক্রিয়া ও চিকিৎসা খরচের সহায়তা পাওয়া যায়।"
+      "explanationBn": "গ্যাস লিকের মতো জরুরি অবস্থায় কী করতে হবে সেই কথা হচ্ছে, তাই '응급 상황 대처 요령' সঠিক।"
     },
     {
       "id": "e14",
       "section": "listening",
-      "questionBn": "সংলাপটি শুনে প্রশ্নের উত্তর দিন: 환자는 지금 어떤 상태입니까?",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 어떻게 됐어요?\n남자: 동료가 사다리에서 떨어져서 다리를 다쳤어요. 움직이지 못해요.\n여자: 들것을 가져오고 119에 전화할게요.",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে পরবর্তী সবচেয়ে উপযুক্ত বাক্যটি বেছে নিন।",
+      "passage": "남자: 철근에 걸려서 넘어질 뻔했어요.",
       "options": [
-        "다리를 다쳐서 움직이지 못한다",
-        "손을 데었다",
-        "감전되었다",
-        "이미 병원에 갔다"
+        "바닥에 내려놓으세요.",
+        "현장에서는 항상 조심하세요.",
+        "철근을 빨리 가져오세요.",
+        "빨리 발견해서 다행이에요."
       ],
-      "answer": 0,
-      "explanationBn": "পুরুষ কণ্ঠ বলছে সহকর্মী মই থেকে পড়ে পায়ে আঘাত পেয়েছে এবং নড়তে পারছে না।"
+      "answer": 1,
+      "explanationBn": "প্রায় পড়ে যাওয়ার কথা শুনে সাবধান থাকার পরামর্শ দেওয়াই স্বাভাবিক। বাকি উত্তরগুলো প্রসঙ্গের বাইরে।"
     },
     {
       "id": "e15",
       "section": "listening",
-      "questionBn": "ঘোষণাটি শুনে প্রশ্নের উত্তর দিন: 지금 무엇을 해야 합니까?",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "화재가 발생했습니다. 엘리베이터를 사용하지 말고 비상구로 대피하십시오.",
+      "questionKo": "여자가 이어서 할 행동은 무엇입니까?",
+      "questionBn": "নারীটি এরপর কী করবেন?",
+      "passage": "남자: 자하라 씨, 큰일 났어요. 용접하다가 불꽃이 상자에 튀었어요.\n여자: 용접기부터 끄세요. 어, 저기 불이 붙은 것 같아요. 소화기 가져와서 얼른 불을 끄세요.\n남자: 네, 빨리 가져올게요.\n여자: 저는 반장님을 불러올게요.",
       "options": [
-        "엘리베이터를 탄다",
-        "비상구로 대피한다",
-        "자리에서 기다린다",
-        "기계를 점검한다"
+        "반장님을 부르러 갑니다.",
+        "불을 끄러 갑니다.",
+        "용접기를 끄러 갑니다.",
+        "소화기를 가지러 갑니다."
       ],
-      "answer": 1,
-      "explanationBn": "ঘোষণায় বলা হয়েছে লিফট ব্যবহার না করে জরুরি পথ (비상구) দিয়ে বেরিয়ে যেতে।"
+      "answer": 0,
+      "explanationBn": "নারীটি শেষে বলেছেন তিনি ফোরম্যানকে ডেকে আনবেন। অগ্নিনির্বাপক যন্ত্র আনার কাজ পুরুষটির।"
     },
     {
       "id": "e16",
       "section": "listening",
-      "questionBn": "সংলাপটি শুনে প্রশ্নের উত্তর দিন: 남자는 왜 병원에 가야 합니까?",
-      "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
-      "passage": "여자: 손이 왜 그래요?\n남자: 아까 뜨거운 기름에 데었어요. 물집이 생겼어요.\n여자: 물로 식혔어요? 물집이 크면 병원에 가야 해요.",
+      "questionKo": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+      "questionBn": "শুনে পরবর্তী সবচেয়ে উপযুক্ত বাক্যটি বেছে নিন।",
+      "passage": "남자: 사고가 났는데 현장을 정리할까요?\n여자: 아니요, 사고 원인을 조사해야 하니까 그대로 두세요.",
       "options": [
-        "다리가 부러져서",
-        "감전되어서",
-        "화상으로 물집이 생겨서",
-        "머리를 다쳐서"
+        "네, 알겠습니다. 그대로 두겠습니다.",
+        "네, 빨리 청소하겠습니다.",
+        "네, 물건을 모두 옮기겠습니다.",
+        "네, 기계를 다시 켜겠습니다."
       ],
-      "answer": 2,
-      "explanationBn": "পুরুষটি গরম তেলে পুড়ে গেছে এবং ফোসকা (물집) হয়েছে; ফোসকা বড় হলে হাসপাতালে যেতে হবে।"
+      "answer": 0,
+      "explanationBn": "ঘটনাস্থল অক্ষত রাখতে বলা হয়েছে, তাই সেটি মেনে নেওয়ার উত্তরই সঠিক। বাকিগুলো নির্দেশের উল্টো।"
     },
     {
-      "id": "e-img-1",
+      "id": "e17",
       "section": "reading",
       "questionBn": "ছবির চিহ্নটি কোন স্থান নির্দেশ করে?",
       "questionKo": "다음 표지가 나타내는 장소를 고르십시오.",
@@ -1265,7 +1289,7 @@
       "explanationBn": "সবুজ ক্রস চিহ্ন মানে প্রাথমিক চিকিৎসা কেন্দ্র (응급처치)। বিকল্প ৪ সঠিক।"
     },
     {
-      "id": "e-img-2",
+      "id": "e18",
       "section": "listening",
       "questionBn": "ছবিটি দেখুন, তারপর অডিও শুনে সঠিক উত্তর দিন।",
       "questionKo": "그림을 보고 대화를 들은 후 알맞은 것을 고르십시오.",
