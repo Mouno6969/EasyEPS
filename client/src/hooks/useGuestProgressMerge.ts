@@ -1,6 +1,7 @@
 import { useAuth } from "@/_core/hooks/useAuth";
 import { getSnapshot } from "@/lib/localProgress";
 import { trpc } from "@/lib/trpc";
+import { tzOffsetMinutes } from "@/lib/tz";
 import { useEffect, useRef } from "react";
 import { toast } from "sonner";
 
@@ -67,7 +68,7 @@ export function useGuestProgressMerge() {
 
     started.current = true;
     merge
-      .mutateAsync({ progress, attempts, studyDays })
+      .mutateAsync({ progress, attempts, studyDays, tzOffsetMinutes: tzOffsetMinutes() })
       .then(result => {
         try {
           localStorage.setItem(mergeKey, "1");

@@ -155,6 +155,16 @@ class SDKServer {
 
   private getSessionSecret() {
     const secret = ENV.cookieSecret;
+    // Sessions are the only thing standing between a request and any user's account.
+    // An unset JWT_SECRET makes `jose` throw on the first login with an opaque
+    // "Zero-length key" DataError; a short one is brute-forceable offline, after which
+    // an attacker can mint a token for any openId — including an admin's.
+    if (!secret || Buffer.byteLength(secret, "utf8") < 32) {
+      throw new Error(
+        "JWT_SECRET must be set to at least 32 bytes. Sessions are signed with it; " +
+          "a missing or short value lets anyone forge a session for any user.",
+      );
+    }
     return new TextEncoder().encode(secret);
   }
 
@@ -217,6 +227,14 @@ class SDKServer {
         !isNonEmptyString(name)
       ) {
         console.warn("[Auth] Session payload missing required fields");
+        return null;
+      }
+
+      // Bind the session to this app. `appId` was written at signing time but never
+      // checked, so under a shared signing secret a token minted for a different app
+      // on the same platform would authenticate here as that openId.
+      if (ENV.appId && appId !== ENV.appId) {
+        console.warn("[Auth] Session appId does not match this app");
         return null;
       }
 

@@ -275,6 +275,17 @@ export async function awardBadge(userId: number, badgeId: string) {
   }
 }
 
+/**
+ * Issue a certificate, or return the one the learner already holds for this kind.
+ *
+ * A certificate is a verifiable credential: minting a fresh code on every click let a
+ * learner accumulate unlimited valid certificates for the same achievement, each with a
+ * different verification code. There is no unique index on (userId, kind) — only on
+ * `code`, which is regenerated per call — so the check has to happen here.
+ *
+ * `mock-test` certificates carry a score, so a genuinely better result should replace
+ * the old one rather than sit alongside it.
+ */
 export async function issueCertificate(input: {
   userId: number;
   code: string;
@@ -284,6 +295,46 @@ export async function issueCertificate(input: {
 }) {
   const db = await requireDb();
   const snapshot = certificateRecipientSchema.parse(input.recipientSnapshot);
+
+  const [existing] = await db
+    .select()
+    .from(certificates)
+    .where(and(eq(certificates.userId, input.userId), eq(certificates.kind, input.kind)))
+    .orderBy(desc(certificates.scorePercent))
+    .limit(1);
+
+  if (existing) {
+    const incoming = input.scorePercent ?? null;
+    const held = existing.scorePercent ?? null;
+    const improved = incoming != null && (held == null || incoming > held);
+    if (!improved) {
+      // Same achievement, no better score: hand back the credential already held.
+      return {
+        id: existing.id,
+        issuedAt: existing.issuedAt,
+        userId: existing.userId,
+        code: existing.code,
+        kind: existing.kind,
+        scorePercent: held,
+        recipientSnapshot: snapshot,
+      };
+    }
+    // Better score — refresh in place so the code the learner has already shared stays valid.
+    await db
+      .update(certificates)
+      .set({ scorePercent: incoming, recipientSnapshot: snapshot, issuedAt: new Date() })
+      .where(eq(certificates.id, existing.id));
+    return {
+      id: existing.id,
+      issuedAt: new Date(),
+      userId: existing.userId,
+      code: existing.code,
+      kind: existing.kind,
+      scorePercent: incoming,
+      recipientSnapshot: snapshot,
+    };
+  }
+
   const result = await db.insert(certificates).values({
     userId: input.userId,
     code: input.code,
@@ -439,8 +490,23 @@ export async function adminListUsers(limit = 100) {
     .limit(limit);
 }
 
+export async function countAdmins(): Promise<number> {
+  const db = await requireDb();
+  const [row] = await db.select({ value: count() }).from(users).where(eq(users.role, "admin"));
+  return row?.value ?? 0;
+}
+
 export async function setUserRole(userId: number, role: "user" | "admin") {
   const db = await requireDb();
+  if (role === "user") {
+    // Guard the last admin. There is no in-app path to grant the first admin role, so
+    // demoting the only one locks everybody out of the admin surface permanently and
+    // recovery needs direct database access.
+    const [target] = await db.select({ role: users.role }).from(users).where(eq(users.id, userId)).limit(1);
+    if (target?.role === "admin" && (await countAdmins()) <= 1) {
+      throw new Error("Cannot remove the last administrator");
+    }
+  }
   await db.update(users).set({ role }).where(eq(users.id, userId));
   return { userId, role };
 }

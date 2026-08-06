@@ -1,3 +1,4 @@
+import { publicRecipient, type CertificateRecipient } from "@shared/certificate";
 import { describe, expect, it } from "vitest";
 import {
   buildCertificateRecipient,
@@ -76,5 +77,29 @@ describe("certificate copy", () => {
   it("mentions 60 chapters for course completion", () => {
     const text = certificateAchievementText("course-completion", 100);
     expect(text.en.toLowerCase()).toContain("60");
+  });
+});
+
+describe("public certificate verification", () => {
+  it("withholds contact details from anyone holding the link", () => {
+    // certificates.verify is a publicProcedure: a shared certificate URL must not
+    // disclose the holder's email, phone, or internal user id.
+    const full: CertificateRecipient = {
+      fullName: "Kamal Hossain",
+      email: "kamal@example.com",
+      phone: "+8801700000000",
+      nationality: "Bangladesh",
+      city: "Dhaka",
+      learningLevel: "beginner",
+      targetIndustry: "manufacturing",
+      preferredLocale: "bn",
+      avatarUrl: "",
+    };
+    const pub = publicRecipient(full);
+    expect("email" in pub).toBe(false);
+    expect("phone" in pub).toBe(false);
+    // Still enough to prove who the credential belongs to.
+    expect(pub.fullName).toBe("Kamal Hossain");
+    expect(pub.nationality).toBe("Bangladesh");
   });
 });

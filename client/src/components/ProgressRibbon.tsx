@@ -16,6 +16,9 @@ const MODULE_BN: Record<BasicsModuleId, string> = {
   batchim: "ব্যাচিম পরিচিতি",
   "speak-lab": "উচ্চারণ অনুশীলন",
   "write-lab": "লেখা অনুশীলন",
+  "survival-phrases": "দরকারি বাক্য",
+  "my-name-is": "আমার নাম",
+  "simple-sentences": "সহজ বাক্য",
   checkpoint: "বেসিক পরীক্ষা",
 };
 

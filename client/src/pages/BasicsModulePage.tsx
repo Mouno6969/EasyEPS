@@ -12,6 +12,7 @@ import {
 } from "@/lib/localProgress";
 import { speakKorean } from "@/lib/speakKorean";
 import { trpc } from "@/lib/trpc";
+import { tzOffsetMinutes } from "@/lib/tz";
 import {
   BASICS_MODULE_IDS,
   emptyModuleProgress,
@@ -49,6 +50,9 @@ const MODULE_BN: Record<BasicsModuleId, string> = {
   batchim: "ব্যাচিম পরিচিতি",
   "speak-lab": "উচ্চারণ অনুশীলন",
   "write-lab": "লেখা অনুশীলন",
+  "survival-phrases": "দরকারি বাক্য",
+  "my-name-is": "আমার নাম",
+  "simple-sentences": "সহজ বাক্য",
   checkpoint: "বেসিক পরীক্ষা",
 };
 
@@ -153,7 +157,7 @@ export default function BasicsModulePage() {
     };
     applyLocalBasicsModulePatch(nextPatch, module, minutes);
     if (isAuthenticated) {
-      saveRemote.mutate({ ...nextPatch, minutes });
+      saveRemote.mutate({ ...nextPatch, minutes, tzOffsetMinutes: tzOffsetMinutes() });
     }
   };
 
@@ -798,6 +802,7 @@ function BasicsQuizRunner({
           matching: matchingByLeft,
           questionIds,
           durationSec: Math.round((Date.now() - startedAt) / 1000),
+          tzOffsetMinutes: tzOffsetMinutes(),
         });
         setResult({
           score: remote.score,

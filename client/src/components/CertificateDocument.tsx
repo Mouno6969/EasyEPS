@@ -12,7 +12,13 @@ export type CertificateDocumentProps = {
   kind: CertificateKind;
   scorePercent: number | null | undefined;
   issuedAt: string | Date;
-  recipient: CertificateRecipient;
+  /**
+   * Email and phone are absent when a stranger verifies the certificate by link —
+   * the public endpoint withholds them. The sheet already renders those rows
+   * conditionally, so a partial recipient is safe here.
+   */
+  recipient: Omit<CertificateRecipient, "email" | "phone"> &
+    Partial<Pick<CertificateRecipient, "email" | "phone">>;
   className?: string;
 };
 

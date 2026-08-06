@@ -66,10 +66,13 @@ def check(path: Path) -> list[str]:
         if not obj.get(lang):
             errs.append(f"objectives.{lang} empty")
 
-    # -- vocabulary: 30-35, full trilingual entries, no duplicates -------------
+    # -- vocabulary: min 30, full trilingual entries, no duplicates ------------
     vocab = d.get("vocabulary") or []
-    if not 30 <= len(vocab) <= 35:
-        errs.append(f"vocabulary {len(vocab)} outside 30-35")
+    # Lower bound only. The old 35 (then 40) ceiling silently dropped on-syllabus
+    # vocabulary from chapters whose textbook unit indexes more than that -- ch11
+    # (household chores) indexes ~51. A chapter now carries what its unit teaches.
+    if len(vocab) < 30:
+        errs.append(f"vocabulary {len(vocab)} below minimum 30")
     seen: dict[str, int] = {}
     for i, v in enumerate(vocab):
         where = f"vocab[{i}]"

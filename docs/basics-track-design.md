@@ -135,18 +135,57 @@ flowchart TB
 
 ### Curriculum structure (Basics modules)
 
-Basics is a track of **8 modules** (IDs stable for progress keys). Estimated total time: **90–150 minutes** (sessions may split).
+Basics is a track of **11 modules** (IDs stable for progress keys). Estimated total time: **210–230 minutes** (sessions may split).
+
+Modules **0–6 teach decoding**, modules **7–9 bridge decoding into production**, and module 10 verifies both. See [Bridge modules 7–9](#bridge-modules-79) for why the bridge is required rather than optional.
 
 | Order | Module ID | Title (en / bn / ko) | Skills | Primary activities | Completion (pure function inputs) |
 |------:|---|---|---|---|---|
 | 0 | `welcome` | Hangul Roadmap / হ্যাঙ্গুল পরিচিতি / 한글 안내 | Motivation, structure, romanization | Explain steps + quiz | All `requiredStepIds` in `stepsDone` + quiz ratio ≥ module `passRatio` |
-| 1 | `consonants` | Basic Consonants / মৌলিক ব্যঞ্জনবর্ণ / 기본 자음 | 14 plain consonants | jamo-grid, speak, write, quiz | `stepsDone` ⊇ required; `speakItemsDone.length ≥ minSpeakItems`; `writeItemsDone.length ≥ minWriteItems`; quiz ratio ≥ passRatio |
+| 1 | `consonants` | Basic Consonants / মৌলিক ব্যঞ্জনবর্ণ / 기본 자음 | 14 plain consonants | jamo-grid, speak, write, read, quiz | `stepsDone` ⊇ required; `speakItemsDone.length ≥ minSpeakItems`; `writeItemsDone.length ≥ minWriteItems`; quiz ratio ≥ passRatio |
 | 2 | `vowels` | Basic Vowels / মৌলিক স্বরবর্ণ / 기본 모음 | 10 basic vowels | Same as consonants | Same shape with module-level minima from content |
 | 3 | `syllables` | Building Syllables / অক্ষর গঠন / 음절 만들기 | CV composition | Syllable builder + quiz | Builder prompts done ≥ min + quiz ratio ≥ passRatio |
-| 4 | `batchim` | Final Consonants Intro / ব্যাচিম পরিচিতি / 받침 입문 | Final consonants concept | Explain + quiz | Required steps + quiz ratio ≥ passRatio |
-| 5 | `speak-lab` | Speak Lab / উচ্চারণ অনুশীলন / 발음 연습 | Listen & repeat | Speak items with minListens | Every speak item id in `speakItemsDone` (count-based, **not** “80% self-rate”) |
+| 4 | `batchim` | Final Consonants Intro / ব্যাচিম পরিচিতি / 받침 입문 | Final consonants concept | Explain + speak + quiz | Required steps + quiz ratio ≥ passRatio |
+| 5 | `speak-lab` | Speak Lab / উচ্চারণ অনুশীলন / 발음 연습 | Listen & repeat | Speak items with minListens | Every speak item id in `speakItemsDone` (count-based) |
 | 6 | `write-lab` | Write Lab / লেখা অনুশীলন / 쓰기 연습 | Stroke practice | StrokePractice per item | Every write item id in `writeItemsDone` (coverage or skip-after-fails) |
-| 7 | `checkpoint` | Basics Check / বেসিক পরীক্ষা / 기초 확인 | Capstone | Mixed quiz | **Server:** `score/total >= passRatio` (default **0.7**) via `submitCheckpoint` only |
+| 7 | `survival-phrases` | Survival Phrases / দরকারি বাক্য / 기본 인사말 | Fixed whole phrases | Explain, speak, read, quiz | Speak ≥ 10, read ≥ 8, quiz ratio ≥ passRatio |
+| 8 | `my-name-is` | My Name Is / আমার নাম / 이름 말하기 | Copula, verb-final order | Explain, speak, read, quiz | Speak ≥ 10, read ≥ 8, quiz ratio ≥ passRatio |
+| 9 | `simple-sentences` | Simple Sentences / সহজ বাক্য / 간단한 문장 | Particles, 있어요/없어요 | Explain, speak, read, quiz | Speak ≥ 12, read ≥ 10, quiz ratio ≥ passRatio |
+| 10 | `checkpoint` | Basics Check / বেসিক পরীক্ষা / 기초 확인 | Capstone | Mixed stratified draw | **Server:** `score/total >= passRatio` (default **0.7**) via `submitCheckpoint` only |
+
+#### Bridge modules 7–9
+
+**Problem.** Modules 0–6 teach *decoding* only. A learner who passes `write-lab` can sound
+out `저는 학생입니다` syllable by syllable and still not know what it means: the track
+contains **zero** grammar patterns, **zero** particles, and **zero** sentence-length speech.
+Lesson 1 (`자기소개`) opens with five grammar patterns, 35 vocabulary items with example
+sentences, and three multi-turn dialogues. The step from Basics to Lesson 1 is therefore
+not *i+1* — it is closer to *i+10*, and it is where beginners stall.
+
+**Fix.** Three modules that convert decoding into production, in the order Korean is
+normally sequenced for absolute beginners:
+
+1. **`survival-phrases`** — fixed, unanalyzed chunks (안녕하세요, 감사합니다, 알겠습니다).
+   Learners get usable speech on day one, before any grammar. Also teaches the
+   가세요/계세요 split and, for workplace safety, why answering `네` without
+   understanding is dangerous.
+2. **`my-name-is`** — the first productive pattern: verb-final word order and the copula,
+   including the 받침 rule that selects `이에요` vs `예요`. This is exactly Lesson 1's
+   `N + 입니다`, met once in isolation before it arrives alongside 34 other items.
+3. **`simple-sentences`** — subject particles (`은/는` vs `이/가`), `있어요/없어요`,
+   sentence-final adjectives, and `안` negation, over ten high-frequency nouns. Ends with
+   a dialogue assembled entirely from modules 7–9, so nothing in it is new.
+
+**Verification.** The checkpoint bank carries **≥30 `topic: "sentence"`** questions and the
+stratified sampler reserves **≥5 slots per 25-question draw** for them (`sampleBasicsQuiz`).
+A learner therefore cannot unlock the curriculum on decoding alone; the gate now tests the
+skills Lesson 1 actually assumes. Simulation over 400 draws: min 5 sentence, min 6 reading,
+min 5 listen-choice per paper.
+
+**Ordering constraint.** `checkpoint` must remain the last entry in `BASICS_MODULE_IDS`.
+`nextModuleId` in `BasicsModulePage` walks the array by index, `isModuleComplete` returns
+`false` for checkpoint by construction, and `BasicsHubPage` derives lock state from
+`indexOf`. Inserting the bridge modules *before* checkpoint keeps all three correct.
 
 **Jamo inventory (v1):**
 
@@ -830,12 +869,17 @@ export function scoreBasicsQuiz(
 
 **Checkpoint composition (schema + tests enforce on `checkpoint.json`):**
 
-- Total questions: **12–16**
-- ≥ 3 `listen-choice`
-- ≥ 3 syllable-related MCQ (prompt or options are precomposed Hangul / composition)
-- ≥ 2 batchim identification
-- ≥ 2 matching
-- Rest multiple-choice jamo ID
+- Bank size: **≥100 questions**, `drawCount: 25`
+- ≥ 20 `listen-choice`
+- ≥ 8 `matching`
+- ≥ 15 syllable-related
+- ≥ 10 batchim-related
+- ≥ 20 whole-word `reading`
+- ≥ 30 `sentence` (particles, copula, situational choice — the bridge-module skills)
+
+Stratified draw reserves per 25-question paper: ≥5 listen, ≥2 matching, ≥3 syllable,
+≥2 batchim, ≥6 reading, ≥5 sentence. This is what stops a learner unlocking the
+curriculum on decoding trivia alone.
 
 Each non-checkpoint module with a quiz step: `questions.min(3)`.
 

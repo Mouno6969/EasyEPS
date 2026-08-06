@@ -24,6 +24,25 @@ export const certificateRecipientSchema = z.object({
 
 export type CertificateRecipient = z.infer<typeof certificateRecipientSchema>;
 
+/**
+ * Public-safe subset for the unauthenticated verify endpoint. Email, phone, and userId
+ * should not be handed to strangers holding a certificate link.
+ */
+export function publicRecipient(full: CertificateRecipient): Pick<
+  CertificateRecipient,
+  "fullName" | "nationality" | "city" | "learningLevel" | "targetIndustry" | "preferredLocale" | "avatarUrl"
+> {
+  return {
+    fullName: full.fullName,
+    nationality: full.nationality,
+    city: full.city,
+    learningLevel: full.learningLevel,
+    targetIndustry: full.targetIndustry,
+    preferredLocale: full.preferredLocale,
+    avatarUrl: full.avatarUrl,
+  };
+}
+
 export const certificateKinds = ["course-completion", "mock-test"] as const;
 export type CertificateKind = (typeof certificateKinds)[number];
 

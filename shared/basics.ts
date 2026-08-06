@@ -2,7 +2,16 @@ import { z } from "zod";
 import { composeHangul } from "./hangul";
 import { localizedTextSchema } from "./lesson";
 
-/** Stable module ids used as progress keys (order 0–7). */
+/**
+ * Stable module ids used as progress keys (order 0–10).
+ *
+ * Modules 0–6 build Hangul literacy (decoding). Modules 7–9 bridge from decoding to
+ * production: learners who can only sound out syllables cannot survive lesson 1, which
+ * opens with five grammar patterns and 35 vocabulary items. The bridge modules teach
+ * formulaic phrases, the copula, and basic particles so lesson 1 reads as expansion
+ * rather than first exposure. `checkpoint` must stay last — next-module logic and
+ * `isModuleComplete` both key off its position.
+ */
 export const BASICS_MODULE_IDS = [
   "welcome",
   "consonants",
@@ -11,6 +20,9 @@ export const BASICS_MODULE_IDS = [
   "batchim",
   "speak-lab",
   "write-lab",
+  "survival-phrases",
+  "my-name-is",
+  "simple-sentences",
   "checkpoint",
 ] as const;
 
@@ -116,8 +128,13 @@ export const basicsQuizQuestionSchema = z
     /**
      * Authoring tag for composition checks.
      * `reading` = whole-word recognition (Hangul word → meaning, or meaning → word).
+     * `sentence` = production/comprehension above the word level (particles, copula,
+     * situational choice) — the bridge skills lesson 1 assumes on day one.
      */
-    topic: z.enum(["jamo", "syllable", "batchim", "reading", "general"]).optional().default("general"),
+    topic: z
+      .enum(["jamo", "syllable", "batchim", "reading", "sentence", "general"])
+      .optional()
+      .default("general"),
   })
   .superRefine((q, ctx) => {
     if (q.kind === "matching") {
@@ -328,6 +345,15 @@ export function isReadingQuestion(q: BasicsQuizQuestion): boolean {
   return /পড়ুন|read this|এই শব্দ|অর্থ|meaning|কী বোঝায়|what does|শব্দের অর্থ/i.test(hay);
 }
 
+/**
+ * Sentence-level items: particles, copula, and situational choice — skills above
+ * word recognition. A learner can decode every syllable in 저는 학생입니다 and still
+ * not know what it means, so the checkpoint must sample these explicitly.
+ */
+export function isSentenceQuestion(q: BasicsQuizQuestion): boolean {
+  return q.topic === "sentence";
+}
+
 function trackUniqueIds(
   ids: Iterable<string>,
   seen: Set<string>,
@@ -368,7 +394,7 @@ function countStepItems(module: { steps: BasicsStep[] }): {
 export const basicsModuleSchema = z
   .object({
     id: basicsModuleIdSchema,
-    order: z.number().int().min(0).max(7),
+    order: z.number().int().min(0).max(10),
     title: localizedTextSchema,
     description: localizedTextSchema.optional(),
     estimatedMinutes: z.number().int().min(1),
@@ -512,6 +538,7 @@ export const basicsModuleSchema = z
       const syllable = allQuestions.filter(isSyllableRelatedQuestion).length;
       const batchim = allQuestions.filter(isBatchimRelatedQuestion).length;
       const reading = allQuestions.filter(isReadingQuestion).length;
+      const sentence = allQuestions.filter(isSentenceQuestion).length;
       // Bank composition must support stratified draws of 25 with audio + reading items.
       if (listen < 20) {
         ctx.addIssue({
@@ -545,6 +572,13 @@ export const basicsModuleSchema = z
         ctx.addIssue({
           code: "custom",
           message: `checkpoint bank needs ≥20 whole-word reading questions, got ${reading}`,
+          path: ["steps"],
+        });
+      }
+      if (sentence < 30) {
+        ctx.addIssue({
+          code: "custom",
+          message: `checkpoint bank needs ≥30 sentence-level questions, got ${sentence}`,
           path: ["steps"],
         });
       }
@@ -591,7 +625,7 @@ export type BasicsModuleSummary = {
 
 export const basicsManifestModuleSchema = z.object({
   id: basicsModuleIdSchema,
-  order: z.number().int().min(0).max(7),
+  order: z.number().int().min(0).max(BASICS_MODULE_IDS.length - 1),
   title: localizedTextSchema,
   estimatedMinutes: z.number().int().min(1),
 });
@@ -600,7 +634,7 @@ export const basicsManifestSchema = z
   .object({
     version: z.literal(1),
     passScore: z.number().min(0).max(1).default(0.7),
-    modules: z.array(basicsManifestModuleSchema).length(8),
+    modules: z.array(basicsManifestModuleSchema).length(BASICS_MODULE_IDS.length),
   })
   .superRefine((manifest, ctx) => {
     const ids = manifest.modules.map(m => m.id);
@@ -760,18 +794,21 @@ export function sampleBasicsQuiz(
   const used = new Set<string>();
   const picked: BasicsQuizQuestion[] = [];
 
-  // Soft quotas scale with draw size (for 25: listen 5, matching 2, syllable 3, batchim 2, reading 6).
+  // Soft quotas scale with draw size (for 25: listen 5, matching 2, syllable 3,
+  // batchim 2, reading 6, sentence 5).
   const listenN = Math.max(3, Math.round(drawCount * 0.2));
   const matchingN = Math.max(2, Math.round(drawCount * 0.08));
   const syllableN = Math.max(3, Math.round(drawCount * 0.12));
   const batchimN = Math.max(2, Math.round(drawCount * 0.1));
   const readingN = Math.max(5, Math.round(drawCount * 0.24));
+  const sentenceN = Math.max(4, Math.round(drawCount * 0.2));
 
   picked.push(...take(bank.filter(q => q.kind === "listen-choice"), listenN, used));
   picked.push(...take(bank.filter(q => q.kind === "matching"), matchingN, used));
   picked.push(...take(bank.filter(isSyllableRelatedQuestion), syllableN, used));
   picked.push(...take(bank.filter(isBatchimRelatedQuestion), batchimN, used));
   picked.push(...take(bank.filter(isReadingQuestion), readingN, used));
+  picked.push(...take(bank.filter(isSentenceQuestion), sentenceN, used));
 
   if (picked.length < drawCount) {
     picked.push(...take([...bank], drawCount - picked.length, used));
@@ -1069,6 +1106,8 @@ export const basicsProgressPatchSchema = z
     quizTotal: z.number().int().min(0).optional(),
     lastStepId: z.string().optional(),
     minutes: z.number().int().min(0).max(240).default(5),
+  /** Minutes east of UTC, so the study day is attributed to the learner's date. */
+  tzOffsetMinutes: z.number().int().min(-720).max(840).optional(),
   })
   .superRefine((value, ctx) => {
     if (value.quizScore != null && value.quizTotal != null && value.quizScore > value.quizTotal) {
@@ -1094,6 +1133,8 @@ export const basicsSubmitCheckpointSchema = z.object({
    * Matching selections as left→right (preferred) or index→right (legacy).
    */
   matching: z.record(z.string(), z.record(z.string(), z.string())).optional(),
+  /** Minutes east of UTC, so the study day is attributed to the learner's date. */
+  tzOffsetMinutes: z.number().int().min(-720).max(840).optional(),
   /**
    * Required sampled question ids for this attempt (subset of the checkpoint bank).
    * Length must match the module drawCount (typically 25).

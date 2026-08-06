@@ -9,6 +9,23 @@ export function registerStorageProxy(app: Express) {
       return;
     }
 
+    // This route is unauthenticated (certificates render avatars for anyone with the
+    // link), so it must not become a generic reader for the whole bucket. Keys are
+    // minted server-side with a random suffix; a traversal segment can only come from
+    // a hand-crafted request. The URL encoding below already stops the forge endpoint
+    // itself being rewritten — this stops the escape reaching the storage backend.
+    const decodedKey = (() => {
+      try {
+        return decodeURIComponent(key);
+      } catch {
+        return key;
+      }
+    })();
+    if (decodedKey.split(/[\\/]/).some(segment => segment === "..")) {
+      res.status(400).send("Invalid storage key");
+      return;
+    }
+
     if (!ENV.forgeApiUrl || !ENV.forgeApiKey) {
       res.status(500).send("Storage proxy not configured");
       return;

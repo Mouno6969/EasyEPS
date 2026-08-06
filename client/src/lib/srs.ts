@@ -1,4 +1,4 @@
-export type ReviewKind = "chapter" | "basics" | "mock";
+export type ReviewKind = "chapter" | "basics" | "mock" | "vocab";
 export type ReviewRating = "again" | "hard" | "good" | "easy";
 
 export type ReviewHistoryEntry = {
@@ -14,6 +14,10 @@ export type ReviewItem = {
   kind: ReviewKind;
   chapter?: number;
   moduleId?: string;
+  /** Korean headword — set only for `vocab` items. This is the per-word state. */
+  word?: string;
+  /** Bangla gloss shown on the review card, so recall does not need a lesson fetch. */
+  glossBn?: string;
   labelBn: string;
   misses: number;
   lapses: number;
@@ -40,7 +44,14 @@ type LegacyReviewItem = Partial<ReviewItem> & {
 
 const KEY = "easyeps-srs-v2";
 const LEGACY_KEY = "easyeps-srs-v1";
+/**
+ * Capacity is budgeted per kind. Vocabulary is far more numerous than chapters
+ * (1,900+ headwords vs 60 chapters), so a single shared cap would let words evict
+ * every chapter/basics review — or the reverse. Budgeting separately keeps both
+ * queues useful.
+ */
 const MAX_ITEMS = 120;
+const MAX_VOCAB_ITEMS = 400;
 const MIN_EASE = 1.3;
 const MAX_EASE = 2.8;
 
@@ -80,6 +91,8 @@ function migrateItem(item: LegacyReviewItem): ReviewItem {
     kind: item.kind,
     chapter: item.chapter,
     moduleId: item.moduleId,
+    word: item.word,
+    glossBn: item.glossBn,
     labelBn: item.labelBn,
     misses,
     lapses: Math.max(0, Number(item.lapses ?? misses)),
@@ -112,14 +125,34 @@ function load(): ReviewItem[] {
   }
 }
 
-function save(items: ReviewItem[]) {
-  if (!isBrowser()) return;
-  localStorage.setItem(KEY, JSON.stringify(items.slice(0, MAX_ITEMS)));
+/**
+ * Trim to the per-kind budget. When over capacity the best-known items are dropped
+ * first: a word at high mastery with a distant due date has the least to lose from
+ * falling out of the queue.
+ */
+function withinBudget(items: ReviewItem[]): ReviewItem[] {
+  const keepFirst = (pool: ReviewItem[], limit: number) =>
+    pool.length <= limit
+      ? pool
+      : [...pool]
+          .sort((a, b) => a.mastery - b.mastery || a.dueDate.localeCompare(b.dueDate))
+          .slice(0, limit);
+  const vocab = keepFirst(items.filter(i => i.kind === "vocab"), MAX_VOCAB_ITEMS);
+  const rest = keepFirst(items.filter(i => i.kind !== "vocab"), MAX_ITEMS);
+  const kept = new Set([...vocab, ...rest].map(i => i.id));
+  // Preserve caller ordering (most-recently-touched first) for whatever survived.
+  return items.filter(i => kept.has(i.id));
 }
 
-function reviewId(input: { kind: ReviewKind; chapter?: number; moduleId?: string }) {
+function save(items: ReviewItem[]) {
+  if (!isBrowser()) return;
+  localStorage.setItem(KEY, JSON.stringify(withinBudget(items)));
+}
+
+function reviewId(input: { kind: ReviewKind; chapter?: number; moduleId?: string; word?: string }) {
   if (input.kind === "chapter") return `chapter-${input.chapter ?? "unknown"}`;
   if (input.kind === "basics") return `basics-${input.moduleId ?? "checkpoint"}`;
+  if (input.kind === "vocab") return `vocab-${input.chapter ?? 0}-${input.word ?? ""}`;
   return "mock-test";
 }
 
@@ -155,6 +188,11 @@ function scheduleReview(item: ReviewItem, rating: ReviewRating, reviewedAt: stri
   const scoreMastery = typeof scoreRatio === "number" ? Math.round(scoreRatio * 100) : item.mastery;
   const mastery = clamp(Math.round(item.mastery * 0.55 + scoreMastery * 0.25 + (item.mastery + masteryDelta) * 0.2), 0, 100);
   const reviewDate = reviewedAt.slice(0, 10);
+  // A lapse is due again immediately, not tomorrow. `intervalDays` stays >= 1 so the
+  // SM-2 ladder keeps its shape, but something just answered wrong should be
+  // re-drillable in the same sitting — otherwise the review queue reads as empty at
+  // exactly the moment the learner has proven they need it.
+  const dueDate = rating === "again" ? reviewDate : addDays(reviewDate, intervalDays);
 
   return {
     ...item,
@@ -168,7 +206,7 @@ function scheduleReview(item: ReviewItem, rating: ReviewRating, reviewedAt: stri
     lastScoreRatio: scoreRatio ?? item.lastScoreRatio,
     lastMissedAt: rating === "again" || rating === "hard" ? reviewedAt : item.lastMissedAt,
     lastReviewedAt: reviewedAt,
-    dueDate: addDays(reviewDate, intervalDays),
+    dueDate,
     history: [...item.history, { reviewedAt, rating, scoreRatio, intervalDays }].slice(-12),
   };
 }
@@ -182,6 +220,8 @@ export function recordReviewAttempt(input: {
   kind: ReviewKind;
   chapter?: number;
   moduleId?: string;
+  word?: string;
+  glossBn?: string;
   labelBn: string;
   score: number;
   total: number;
@@ -198,6 +238,8 @@ export function recordReviewAttempt(input: {
     kind: input.kind,
     chapter: input.chapter,
     moduleId: input.moduleId,
+    word: input.word,
+    glossBn: input.glossBn,
     labelBn: input.labelBn,
     misses: 0,
     lapses: 0,
@@ -212,7 +254,14 @@ export function recordReviewAttempt(input: {
     history: [],
   };
   const scheduled = scheduleReview(
-    { ...base, chapter: input.chapter, moduleId: input.moduleId, labelBn: input.labelBn },
+    {
+      ...base,
+      chapter: input.chapter,
+      moduleId: input.moduleId,
+      word: input.word ?? base.word,
+      glossBn: input.glossBn ?? base.glossBn,
+      labelBn: input.labelBn,
+    },
     ratingFromRatio(ratio),
     now,
     ratio,
@@ -223,6 +272,105 @@ export function recordReviewAttempt(input: {
 
 /** @deprecated Kept for compatibility with existing attempt flows. */
 export const recordWeakAttempt = recordReviewAttempt;
+
+/**
+ * Record one word's outcome. Words enter the queue from misses the learner already
+ * makes in practice and exams, so there is no extra step to opt into: getting a
+ * question wrong is the signal.
+ *
+ * `correct` maps onto the same SM-2 ladder as everything else — a wrong answer
+ * resets the interval, a right one extends it.
+ */
+export function recordVocabResult(input: {
+  chapter: number;
+  word: string;
+  glossBn: string;
+  correct: boolean;
+}) {
+  if (!input.word) return undefined;
+  return recordReviewAttempt({
+    kind: "vocab",
+    chapter: input.chapter,
+    word: input.word,
+    glossBn: input.glossBn,
+    labelBn: input.word,
+    score: input.correct ? 1 : 0,
+    total: 1,
+  });
+}
+
+/** Words due today, weakest first. */
+export function listDueVocab(limit = 20): ReviewItem[] {
+  const today = todayKey();
+  return load()
+    .filter(item => item.kind === "vocab" && item.dueDate <= today)
+    .sort((a, b) => a.mastery - b.mastery || a.dueDate.localeCompare(b.dueDate))
+    .slice(0, limit);
+}
+
+/** Queue size + how much is due, for dashboard copy. */
+export function vocabQueueStats(): { total: number; due: number; weak: number } {
+  const today = todayKey();
+  const vocab = load().filter(item => item.kind === "vocab");
+  return {
+    total: vocab.length,
+    due: vocab.filter(i => i.dueDate <= today).length,
+    // "Weak" means the learner has actually got it wrong — a freshly enrolled word
+    // starts at low mastery but has not been tested, so counting it here would show
+    // every new lesson as 35 problem words.
+    weak: vocab.filter(i => i.lapses > 0 && i.mastery < 60).length,
+  };
+}
+
+/**
+ * Enrol every headword of a lesson when the learner finishes its vocabulary section.
+ *
+ * Harvesting misses only reaches words that appear in a graded question — measured
+ * at 66% of the corpus. The remaining third live only in the word list, examples and
+ * dialogues, so without this they could never be scheduled. Enrolment is idempotent:
+ * words already in the queue keep the schedule they have earned.
+ */
+export function enrolVocabulary(
+  chapter: number,
+  words: Array<{ ko: string; bn: string }>,
+): number {
+  if (!words.length) return 0;
+  const now = new Date().toISOString();
+  const items = load();
+  const known = new Set(items.map(i => i.id));
+  const fresh: ReviewItem[] = [];
+
+  for (const { ko, bn } of words) {
+    const word = ko.trim();
+    if (!word) continue;
+    const id = reviewId({ kind: "vocab", chapter, word });
+    if (known.has(id)) continue;
+    known.add(id);
+    fresh.push({
+      id,
+      version: 2,
+      kind: "vocab",
+      chapter,
+      word,
+      glossBn: bn,
+      labelBn: word,
+      misses: 0,
+      lapses: 0,
+      repetitions: 0,
+      // Just-taught words come back the next day, then spread out from there.
+      intervalDays: 1,
+      easeFactor: 2.3,
+      mastery: 35,
+      lastMissedAt: now,
+      lastReviewedAt: now,
+      dueDate: addDays(todayKey(), 1),
+      history: [],
+    });
+  }
+
+  if (fresh.length) save([...fresh, ...items]);
+  return fresh.length;
+}
 
 export function listDueReviews(limit = 10): ReviewItem[] {
   const today = todayKey();
@@ -260,6 +408,7 @@ export function reviewRatingLabel(rating: ReviewRating) {
 }
 
 export function hrefForReview(item: ReviewItem): string {
+  if (item.kind === "vocab") return item.chapter ? `/lesson/${item.chapter}?tab=vocabulary` : "/review";
   if (item.kind === "chapter" && item.chapter) return `/lesson/${item.chapter}`;
   if (item.kind === "basics") return item.moduleId ? `/basics/${item.moduleId}` : "/basics";
   return "/mock-test";

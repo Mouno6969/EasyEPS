@@ -15,8 +15,18 @@ import {
   looksLikeImage,
   profileSetupSchema,
 } from "@shared/profile";
+import { publicRecipient } from "@shared/certificate";
 import { scoreLessonExam, scoreMockFromLessons, type MockQuestionRef } from "@shared/scoring";
 import { buildSmartMockQuestions } from "@shared/smartMock";
+import {
+  calculateStreakFrom,
+  isPlausibleStudyDay,
+  isRealDayKey,
+  KST_OFFSET_MINUTES,
+  localDayKey,
+  MAX_TZ_OFFSET_MINUTES,
+  MIN_TZ_OFFSET_MINUTES,
+} from "@shared/time";
 import { TRPCError } from "@trpc/server";
 import { nanoid } from "nanoid";
 import { z } from "zod";
@@ -70,23 +80,30 @@ function rowToProfile(
 }
 
 const chapterInput = z.object({ chapter: z.number().int().min(1).max(60) });
-const datePattern = /^\d{4}-\d{2}-\d{2}$/;
+/**
+ * A bare /^\d{4}-\d{2}-\d{2}$/ accepts 2026-13-45 and 0000-00-00, which then reach the
+ * database as unusable rows. Validate that the string is a real calendar date.
+ */
+const dayKeySchema = z.string().refine(isRealDayKey, "Expected a real yyyy-mm-dd date");
 
-function today() {
-  return new Date().toISOString().slice(0, 10);
+/**
+ * Optional client timezone offset (minutes east of UTC). Absent on older clients,
+ * which fall back to KST — the product's primary zone — rather than UTC, whose day
+ * boundary lands mid-morning for every learner this app serves.
+ */
+const tzOffsetInput = z
+  .number()
+  .int()
+  .min(MIN_TZ_OFFSET_MINUTES)
+  .max(MAX_TZ_OFFSET_MINUTES)
+  .optional();
+
+function today(tzOffsetMinutes?: number) {
+  return localDayKey(new Date(), tzOffsetMinutes ?? KST_OFFSET_MINUTES);
 }
 
-function calculateStreak(dates: string[]) {
-  const unique = new Set(dates);
-  let cursor = new Date();
-  const todayKey = cursor.toISOString().slice(0, 10);
-  if (!unique.has(todayKey)) cursor.setUTCDate(cursor.getUTCDate() - 1);
-  let streak = 0;
-  while (unique.has(cursor.toISOString().slice(0, 10))) {
-    streak += 1;
-    cursor.setUTCDate(cursor.getUTCDate() - 1);
-  }
-  return streak;
+function calculateStreak(dates: string[], tzOffsetMinutes?: number) {
+  return calculateStreakFrom(dates, today(tzOffsetMinutes));
 }
 
 function notFound(message: string): never {
@@ -268,13 +285,14 @@ export const appRouter = router({
           examTotal: z.number().int().min(0).max(20).nullable().optional(),
           completed: z.boolean().optional(),
           minutes: z.number().int().min(0).max(240).default(5),
+          tzOffsetMinutes: tzOffsetInput,
         }),
       )
       .mutation(async ({ ctx, input }) => {
         await assertBasicsComplete(ctx.user.id, ctx.user.role);
-        const { chapter, minutes, ...patch } = input;
+        const { chapter, minutes, tzOffsetMinutes, ...patch } = input;
         const saved = await db.saveProgress(ctx.user.id, chapter, patch);
-        await db.recordStudyDay(ctx.user.id, today(), minutes);
+        await db.recordStudyDay(ctx.user.id, today(tzOffsetMinutes), minutes);
         const all = await db.listProgress(ctx.user.id);
         const completed = all.filter(row => row.completed).length;
         if (completed >= 1) await db.awardBadge(ctx.user.id, "first-step");
@@ -346,13 +364,14 @@ export const appRouter = router({
           studyDays: z
             .array(
               z.object({
-                date: z.string().regex(datePattern),
+                date: dayKeySchema,
                 minutes: z.number().int().min(0).max(1440),
                 activities: z.number().int().min(0).max(500),
               }),
             )
             .max(120)
             .default([]),
+          tzOffsetMinutes: tzOffsetInput,
         }),
       )
       .mutation(async ({ ctx, input }) => {
@@ -400,8 +419,22 @@ export const appRouter = router({
           importedAttempts += 1;
         }
 
+        // Client-supplied history: the regex admits 2026-13-45 and 2999-12-31, which
+        // would either fail to parse or plant permanently-unreachable streak days.
+        const importTodayKey = today(input.tzOffsetMinutes);
+        let skippedDays = 0;
         for (const day of input.studyDays) {
+          if (!isPlausibleStudyDay(day.date, importTodayKey)) {
+            skippedDays += 1;
+            continue;
+          }
           await db.recordStudyDay(ctx.user.id, day.date, day.minutes);
+        }
+        if (skippedDays) {
+          console.warn("[progress.importGuest] skipped implausible study days", {
+            userId: ctx.user.id,
+            skippedDays,
+          });
         }
 
         const all = await db.listProgress(ctx.user.id);
@@ -433,6 +466,7 @@ export const appRouter = router({
             score: z.number().int().min(0).optional(),
             total: z.number().int().min(1).max(100).optional(),
             durationSec: z.number().int().min(0).max(14400).nullable().optional(),
+            tzOffsetMinutes: tzOffsetInput,
             answers: z.record(z.string(), z.number().int()).optional(),
             matching: z.record(z.string(), z.record(z.string(), z.string())).optional(),
             mockQuestions: z
@@ -531,7 +565,11 @@ export const appRouter = router({
           durationSec: input.durationSec,
           detail,
         });
-        await db.recordStudyDay(ctx.user.id, today(), Math.max(1, Math.round((input.durationSec ?? 300) / 60)));
+        await db.recordStudyDay(
+          ctx.user.id,
+          today(input.tzOffsetMinutes),
+          Math.max(1, Math.round((input.durationSec ?? 300) / 60)),
+        );
 
         if (input.chapter && input.kind === "practice") {
           await db.saveProgress(ctx.user.id, input.chapter, {
@@ -563,8 +601,8 @@ export const appRouter = router({
       .input(
         z
           .object({
-            from: z.string().regex(datePattern).optional(),
-            to: z.string().regex(datePattern).optional(),
+            from: dayKeySchema.optional(),
+            to: dayKeySchema.optional(),
           })
           .optional(),
       )
@@ -585,14 +623,14 @@ export const appRouter = router({
             .regex(/^([01]\d|2[0-3]):[0-5]\d$/)
             .nullable()
             .optional(),
-          targetExamDate: z.string().regex(datePattern).nullable().optional(),
+          targetExamDate: dayKeySchema.nullable().optional(),
         }),
       )
       .mutation(({ ctx, input }) => db.savePlannerSettings(ctx.user.id, input)),
     add: protectedProcedure
       .input(
         z.object({
-          date: z.string().regex(datePattern),
+          date: dayKeySchema,
           chapter: z.number().int().min(1).max(60),
           kind: z.enum(["lesson", "practice", "exam", "review"]),
         }),
@@ -621,10 +659,16 @@ export const appRouter = router({
     }),
     verify: publicProcedure
       .input(z.object({ code: z.string().min(6).max(32) }))
-      .query(async ({ input }) => {
+      .query(async ({ input, ctx }) => {
         const certificate = await db.getCertificate(input.code);
         if (!certificate) notFound("Certificate was not found");
-        return certificate;
+        // Anyone with the link can reach this. Verification only needs to prove the
+        // credential is genuine and name its holder — not disclose their email, phone,
+        // or internal user id. The owner still sees the full record via certificates.mine.
+        const isOwner = ctx.user?.id === certificate.userId;
+        if (isOwner) return certificate;
+        const { userId: _userId, recipient, ...publicFields } = certificate;
+        return { ...publicFields, recipient: publicRecipient(recipient) };
       }),
     issue: protectedProcedure
       .input(z.object({ kind: z.enum(["course-completion", "mock-test"]) }))
@@ -821,7 +865,7 @@ export const appRouter = router({
       .input(basicsProgressPatchSchema)
       .mutation(async ({ ctx, input }) => {
         // Defense in depth: drop any unlock-shaped keys if the schema is widened later
-        const { minutes, ...modulePatch } = input;
+        const { minutes, tzOffsetMinutes, ...modulePatch } = input;
         const unsafe = modulePatch as Record<string, unknown>;
         delete unsafe.completed;
         delete unsafe.checkpointPassedAt;
@@ -829,7 +873,7 @@ export const appRouter = router({
 
         try {
           const { progress, row } = await db.saveBasicsModuleProgress(ctx.user.id, modulePatch);
-          await db.recordStudyDay(ctx.user.id, today(), minutes);
+          await db.recordStudyDay(ctx.user.id, today(tzOffsetMinutes), minutes);
           return {
             progress,
             completed: row.completed,
@@ -860,7 +904,7 @@ export const appRouter = router({
           });
           await db.recordStudyDay(
             ctx.user.id,
-            today(),
+            today(input.tzOffsetMinutes),
             Math.max(1, Math.round((input.durationSec ?? 300) / 60)),
           );
           return {
@@ -998,7 +1042,15 @@ export const appRouter = router({
       .query(({ input }) => db.adminListUsers(input?.limit ?? 100)),
     setRole: adminProcedure
       .input(z.object({ userId: z.number().int().positive(), role: z.enum(["user", "admin"]) }))
-      .mutation(({ input }) => db.setUserRole(input.userId, input.role)),
+      .mutation(async ({ input }) => {
+        try {
+          return await db.setUserRole(input.userId, input.role);
+        } catch (error) {
+          const message = error instanceof Error ? error.message : "Could not change role";
+          if (message.includes("last administrator")) badRequest(message);
+          throw error;
+        }
+      }),
     lesson: adminProcedure.input(chapterInput).query(({ input }) => getLesson(input.chapter)),
     saveLesson: adminProcedure
       .input(z.object({ chapter: z.number().int().min(1).max(60), content: lessonSchema }))

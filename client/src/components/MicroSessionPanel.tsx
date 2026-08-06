@@ -1,5 +1,5 @@
-import { hrefForReview, type ReviewItem } from "@/lib/srs";
-import { BookOpenText, BrainCircuit, ChevronRight, Clock3, RotateCcw } from "lucide-react";
+import { hrefForReview, vocabQueueStats, type ReviewItem } from "@/lib/srs";
+import { BookOpenText, BrainCircuit, ChevronRight, Clock3, Layers3, RotateCcw } from "lucide-react";
 import { Link } from "wouter";
 
 export function MicroSessionPanel({
@@ -12,15 +12,27 @@ export function MicroSessionPanel({
   dueReviews: ReviewItem[];
 }) {
   const review = dueReviews[0];
+  const vocab = vocabQueueStats();
   const sessions = [
-    {
-      id: "five-minute",
-      minutes: 5,
-      title: hangulReady ? `অধ্যায় ${nextChapter} · শব্দ ঝালাই` : "হ্যাঙ্গুল ঝালাই",
-      detail: "একটি ছোট flashcard ও উচ্চারণ সেশন",
-      href: hangulReady ? `/lesson/${nextChapter}` : "/basics",
-      icon: BookOpenText,
-    },
+    // Word recall leads when anything is due: it is the shortest session and the one
+    // that decays fastest if skipped.
+    vocab.due > 0
+      ? {
+          id: "vocab",
+          minutes: 5,
+          title: `${vocab.due}টি শব্দ ঝালাই`,
+          detail: "আগে শেখা শব্দ ভুলে যাওয়ার আগে আবার দেখুন",
+          href: "/review/vocab",
+          icon: Layers3,
+        }
+      : {
+          id: "five-minute",
+          minutes: 5,
+          title: hangulReady ? `অধ্যায় ${nextChapter} · শব্দ ঝালাই` : "হ্যাঙ্গুল ঝালাই",
+          detail: "একটি ছোট flashcard ও উচ্চারণ সেশন",
+          href: hangulReady ? `/lesson/${nextChapter}` : "/basics",
+          icon: BookOpenText,
+        },
     {
       id: "review",
       minutes: 7,

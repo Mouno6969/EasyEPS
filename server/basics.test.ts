@@ -123,21 +123,42 @@ describe("shared/strokeCoverage coverageRatio", () => {
 });
 
 describe("content loader + schema fixtures", () => {
-  it("loads manifest with 8 modules and passScore 0.7", () => {
+  it("loads manifest with every module id and passScore 0.7", () => {
     const manifest = getBasicsManifest();
     expect(manifest.version).toBe(1);
     expect(manifest.passScore).toBe(0.7);
-    expect(manifest.modules).toHaveLength(8);
+    expect(manifest.modules).toHaveLength(BASICS_MODULE_IDS.length);
     expect(manifest.modules.map(m => m.id).sort()).toEqual([...BASICS_MODULE_IDS].sort());
   });
 
-  it("loads and validates all 8 module fixtures", () => {
+  it("loads and validates every module fixture", () => {
     const modules = getAllBasicsModules();
-    expect(modules).toHaveLength(8);
+    expect(modules).toHaveLength(BASICS_MODULE_IDS.length);
     for (const id of BASICS_MODULE_IDS) {
       const mod = getBasicsModule(id);
       expect(mod).toBeDefined();
       expect(basicsModuleSchema.parse(mod).id).toBe(id);
+    }
+  });
+
+  it("orders modules so checkpoint stays last", () => {
+    // Next-module navigation and the curriculum gate both key off checkpoint's position.
+    expect(BASICS_MODULE_IDS[BASICS_MODULE_IDS.length - 1]).toBe("checkpoint");
+    const manifest = getBasicsManifest();
+    for (const entry of manifest.modules) {
+      expect(entry.order).toBe(BASICS_MODULE_IDS.indexOf(entry.id));
+    }
+  });
+
+  it("bridges decoding to production before the checkpoint", () => {
+    // Lesson 1 opens with copula + particles, so Basics must teach them first.
+    for (const id of ["survival-phrases", "my-name-is", "simple-sentences"] as const) {
+      const mod = getBasicsModule(id);
+      expect(mod, `${id} module should exist`).toBeDefined();
+      const speakItems = mod!.steps.flatMap(s => (s.type === "speak" ? s.items : []));
+      expect(speakItems.length, `${id} needs spoken sentences`).toBeGreaterThan(0);
+      // Bridge modules drill whole phrases, not isolated jamo.
+      expect(speakItems.some(i => i.text.length > 2)).toBe(true);
     }
   });
 

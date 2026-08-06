@@ -133,7 +133,10 @@ export const lessonSchema = z
       bn: z.array(z.string().min(1)).min(1),
       en: z.array(z.string().min(1)).min(1),
     }),
-    vocabulary: z.array(vocabularyItemSchema).min(16).max(40),
+    // No upper bound: a chapter carries whatever its textbook unit actually indexes.
+    // ch11 (household chores) alone indexes ~51 on-syllabus words, so any ceiling
+    // silently drops vocabulary the unit teaches.
+    vocabulary: z.array(vocabularyItemSchema).min(16),
     grammar: z.array(grammarItemSchema).min(2).max(6),
     dialogues: z.array(dialogueSchema).min(2).max(4),
     practice: z.array(practiceQuestionSchema).min(10).max(24),
