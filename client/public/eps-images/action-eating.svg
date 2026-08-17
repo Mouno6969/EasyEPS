@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="밥을 먹고 있습니다 — eating a meal">
+  <rect width="240" height="240" rx="16" fill="#ffffff"/>
+  <g transform="translate(120,120)">
+    <circle cx="0" cy="-46" r="26" fill="#b02e2e"/>
+    <path d="M-30 60 q0 -76 30 -76 q30 0 30 76 z" fill="#b02e2e"/>
+    <path d="M-22 -52 q16 10 44 -6" stroke="#e8c18f" stroke-width="8" stroke-linecap="round"/>
+    <g transform="translate(16,-34)">
+      <rect x="-4" y="-2" width="8" height="16" fill="#e8c18f"/>
+    </g>
+    <ellipse cx="-4" cy="38" rx="38" ry="12" fill="none" stroke="#1a2b4a" stroke-width="6"/>
+    <ellipse cx="-4" cy="34" rx="34" ry="9" fill="#f5e7c8"/>
+  </g>
+</svg>

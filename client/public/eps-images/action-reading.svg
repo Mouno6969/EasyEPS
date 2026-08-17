@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="책을 읽고 있습니다 — reading a book">
+  <rect width="240" height="240" rx="16" fill="#ffffff"/>
+  <g transform="translate(120,120)">
+    <circle cx="0" cy="-46" r="26" fill="#2f6bb3"/>
+    <path d="M-30 60 q0 -76 30 -76 q30 0 30 76 z" fill="#2f6bb3"/>
+    <g transform="translate(0,26) rotate(-8)">
+      <rect x="-34" y="-26" width="34" height="52" rx="3" fill="#d6eaff" stroke="#1a2b4a" stroke-width="5"/>
+      <rect x="0" y="-26" width="34" height="52" rx="3" fill="#ffffff" stroke="#1a2b4a" stroke-width="5"/>
+      <line x1="-24" y1="-14" x2="-10" y2="-14" stroke="#1a2b4a" stroke-width="3"/>
+      <line x1="-24" y1="0" x2="-10" y2="0" stroke="#1a2b4a" stroke-width="3"/>
+      <line x1="-24" y1="14" x2="-10" y2="14" stroke="#1a2b4a" stroke-width="3"/>
+      <line x1="10" y1="-14" x2="24" y2="-14" stroke="#1a2b4a" stroke-width="3"/>
+      <line x1="10" y1="0" x2="24" y2="0" stroke="#1a2b4a" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

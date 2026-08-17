@@ -87,7 +87,8 @@ describe("image questions in authored content", () => {
     const imageQuestions = lessons.flatMap(lesson =>
       lesson.epsQuestions.filter(question => question.image).map(question => ({ chapter: lesson.chapter, question })),
     );
-    expect(imageQuestions.length).toBeGreaterThanOrEqual(10);
+    // Official EPS-TOPIK style picture questions now ship across every category.
+    expect(imageQuestions.length).toBeGreaterThanOrEqual(200);
     const safetyChapters = new Set(imageQuestions.map(item => item.chapter));
     for (const chapter of [53, 54, 55, 56]) {
       expect(safetyChapters.has(chapter)).toBe(true);
@@ -106,7 +107,11 @@ describe("image questions in authored content", () => {
     const chapter53 = summaries.find(summary => summary.chapter === 53);
     expect(chapter53?.imageQuestionCount).toBeGreaterThanOrEqual(4);
     const chapter1 = summaries.find(summary => summary.chapter === 1);
-    expect(chapter1?.imageQuestionCount).toBe(0);
+    expect(chapter1?.imageQuestionCount).toBeGreaterThanOrEqual(4);
+    // Picture questions now ship across every category so every lesson has at least one.
+    for (const summary of summaries) {
+      expect(summary.imageQuestionCount).toBeGreaterThanOrEqual(1);
+    }
   });
 });
 

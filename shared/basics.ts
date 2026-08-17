@@ -715,11 +715,8 @@ export function getModuleQuizQuestions(module: BasicsModule): BasicsQuizQuestion
 }
 
 /** Fisher–Yates shuffle copy (unbiased). */
-export function shuffleBasicsQuestions(
-  questions: readonly BasicsQuizQuestion[],
-  random: () => number = Math.random,
-): BasicsQuizQuestion[] {
-  const items = [...questions];
+export function shuffleArray<T>(source: readonly T[], random: () => number = Math.random): T[] {
+  const items = [...source];
   for (let i = items.length - 1; i > 0; i -= 1) {
     const j = Math.floor(random() * (i + 1));
     const tmp = items[i]!;
@@ -727,6 +724,13 @@ export function shuffleBasicsQuestions(
     items[j] = tmp;
   }
   return items;
+}
+
+export function shuffleBasicsQuestions(
+  questions: readonly BasicsQuizQuestion[],
+  random: () => number = Math.random,
+): BasicsQuizQuestion[] {
+  return shuffleArray(questions, random);
 }
 
 /**
@@ -786,10 +790,10 @@ export function shuffleQuestionPresentation(
   if (question.kind === "matching") {
     return {
       ...question,
-      pairs: shuffleBasicsQuestions(
+      pairs: shuffleArray(
         question.pairs.map(pair => ({ ...pair })),
         random,
-      ) as BasicsQuizQuestion["pairs"],
+      ),
     };
   }
 

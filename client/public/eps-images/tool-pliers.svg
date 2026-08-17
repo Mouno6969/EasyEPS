@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="펜치 — pliers">
+  <rect width="240" height="240" rx="16" fill="#ffffff"/>
+  <g transform="translate(120,120) rotate(25)">
+    <path d="M-8 -70 q-16 10 -18 36" stroke="#7a8796" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M8 -70 q16 10 18 36" stroke="#7a8796" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <line x1="-10" y1="-34" x2="-22" y2="30" stroke="#c0392b" stroke-width="20" stroke-linecap="round"/>
+    <line x1="10" y1="-34" x2="22" y2="30" stroke="#c0392b" stroke-width="20" stroke-linecap="round"/>
+    <circle cx="0" cy="-38" r="9" fill="#1a2b4a"/>
+  </g>
+</svg>

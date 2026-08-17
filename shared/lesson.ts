@@ -25,48 +25,6 @@ const grammarItemSchema = z.object({
   commonMistakeBn: z.string().optional().default(""),
 });
 
-const dialogueSchema = z.object({
-  titleBn: z.string().min(1),
-  titleEn: z.string().min(1),
-  lines: z
-    .array(
-      z.object({
-        speaker: z.string().min(1),
-        ko: z.string().min(1),
-        bn: z.string().min(1),
-        en: z.string().min(1),
-      }),
-    )
-    .min(4)
-    .max(8),
-});
-
-const practiceQuestionSchema = z
-  .object({
-    id: z.string().min(1),
-    type: z.enum(["multiple-choice", "fill-blank", "matching"]),
-    questionBn: z.string().min(1),
-    questionKo: z.string().optional().default(""),
-    options: z.array(z.string()).optional().default([]),
-    pairs: z.array(z.object({ left: z.string().min(1), right: z.string().min(1) })).optional().default([]),
-    answer: z.number().int().optional().default(0),
-    explanationBn: z.string().min(1),
-  })
-  .superRefine((question, ctx) => {
-    if (question.type === "matching") {
-      if (question.pairs.length < 2) {
-        ctx.addIssue({ code: "custom", message: "Matching questions need at least 2 pairs", path: ["pairs"] });
-      }
-      return;
-    }
-    if (question.options.length < 2) {
-      ctx.addIssue({ code: "custom", message: "Non-matching questions need options", path: ["options"] });
-    }
-    if (question.answer < 0 || question.answer >= question.options.length) {
-      ctx.addIssue({ code: "custom", message: "answer index out of range", path: ["answer"] });
-    }
-  });
-
 /**
  * Optional image attached to an EPS question — the real EPS-TOPIK exam uses
  * pictures, safety signs, notices, and workplace diagrams.
@@ -91,6 +49,50 @@ export const epsQuestionImageSchema = z.object({
   /** What the image depicts — powers filtering, analytics, and styling. */
   kind: z.enum(["photo", "illustration", "safety-sign", "notice", "diagram"]).default("illustration"),
 });
+
+const dialogueSchema = z.object({
+  titleBn: z.string().min(1),
+  titleEn: z.string().min(1),
+  lines: z
+    .array(
+      z.object({
+        speaker: z.string().min(1),
+        ko: z.string().min(1),
+        bn: z.string().min(1),
+        en: z.string().min(1),
+      }),
+    )
+    .min(4)
+    .max(8),
+});
+
+const practiceQuestionSchema = z
+  .object({
+    id: z.string().min(1),
+    type: z.enum(["multiple-choice", "fill-blank", "matching"]),
+    questionBn: z.string().min(1),
+    questionKo: z.string().optional().default(""),
+    /** Optional picture used by EPS-style picture questions in practice mode. */
+    image: epsQuestionImageSchema.optional(),
+    options: z.array(z.string()).optional().default([]),
+    pairs: z.array(z.object({ left: z.string().min(1), right: z.string().min(1) })).optional().default([]),
+    answer: z.number().int().optional().default(0),
+    explanationBn: z.string().min(1),
+  })
+  .superRefine((question, ctx) => {
+    if (question.type === "matching") {
+      if (question.pairs.length < 2) {
+        ctx.addIssue({ code: "custom", message: "Matching questions need at least 2 pairs", path: ["pairs"] });
+      }
+      return;
+    }
+    if (question.options.length < 2) {
+      ctx.addIssue({ code: "custom", message: "Non-matching questions need options", path: ["options"] });
+    }
+    if (question.answer < 0 || question.answer >= question.options.length) {
+      ctx.addIssue({ code: "custom", message: "answer index out of range", path: ["answer"] });
+    }
+  });
 
 export type EpsQuestionImage = z.infer<typeof epsQuestionImageSchema>;
 

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="떨어질 수 있으니까 조심하세요 — falling hazard warning sign">
+  <rect width="240" height="240" rx="16" fill="#ffffff"/>
+  <g transform="translate(120,108)">
+    <path d="M0 -80 L62 48 H-62 Z" fill="#f0a923"/>
+    <g>
+      <circle cx="-18" cy="-36" r="12" fill="#1a2b4a"/>
+      <path d="M-32 40 q-6 -40 10 -52 q14 -10 16 4 l8 18 l16 26" stroke="#1a2b4a" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <path d="M-46 62 l84 2" stroke="#f0a923" stroke-width="6"/>
+    </g>
+  </g>
+  <rect x="40" y="180" width="160" height="14" rx="4" fill="#e0e6ef"/>
+</svg>

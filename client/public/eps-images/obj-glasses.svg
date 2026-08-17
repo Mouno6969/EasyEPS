@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="안경 — a pair of glasses">
+  <rect width="240" height="240" rx="16" fill="#ffffff"/>
+  <g transform="translate(120,112)">
+    <circle cx="-38" cy="0" r="32" fill="none" stroke="#2f6bb3" stroke-width="12"/>
+    <circle cx="38" cy="0" r="32" fill="none" stroke="#2f6bb3" stroke-width="12"/>
+    <path d="M-8 0 q16 -14 30 0" fill="none" stroke="#2f6bb3" stroke-width="8"/>
+    <line x1="-70" y1="-6" x2="-92" y2="-20" stroke="#2f6bb3" stroke-width="10" stroke-linecap="round"/>
+    <line x1="70" y1="-6" x2="92" y2="-20" stroke="#2f6bb3" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

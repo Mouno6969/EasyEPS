@@ -902,6 +902,7 @@ export const appRouter = router({
             speakItemsDone: mod.speakItemsDone ?? [],
             writeItemsDone: mod.writeItemsDone ?? [],
             builderItemsDone: mod.builderItemsDone ?? [],
+            readItemsDone: mod.readItemsDone ?? [],
             quizScore: mod.quizScore,
             quizTotal: mod.quizTotal,
             lastStepId: mod.lastStepId,
