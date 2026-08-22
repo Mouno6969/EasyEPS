@@ -8,12 +8,14 @@ import { useLocalProfile } from "@/lib/localProfile";
 import { trpc } from "@/lib/trpc";
 import {
   BookOpenText,
+  BookMarked,
   Bot,
   CalendarDays,
   ChevronDown,
   CircleHelp,
   ExternalLink,
   GraduationCap,
+  Headphones,
   LayoutDashboard,
   LogIn,
   LogOut,
@@ -21,6 +23,7 @@ import {
   Pencil,
   ShieldCheck,
   SpellCheck2,
+  Target,
   UserRound,
   X,
 } from "lucide-react";
@@ -31,6 +34,9 @@ const navItems = [
   { href: "/basics", key: "basics", icon: SpellCheck2 },
   { href: "/curriculum", key: "curriculum", icon: BookOpenText },
   { href: "/mock-test", key: "mockTest", icon: GraduationCap },
+  { href: "/diagnostic", key: "diagnostic", icon: Target },
+  { href: "/listening", key: "listening", icon: Headphones },
+  { href: "/daily-vocabulary", key: "dailyVocabulary", icon: BookMarked },
   { href: "/dashboard", key: "dashboard", icon: LayoutDashboard },
   { href: "/planner", key: "planner", icon: CalendarDays },
   { href: "/tutor", key: "tutor", icon: Bot },

@@ -1227,12 +1227,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "아이돌",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "피아노를 치고 있습니다.",
+        "전화를 하고 있습니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1247,12 +1247,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜",
-        "가방",
-        "안경",
-        "가위"
+        "대중문화입니다.",
+        "컵입니다.",
+        "가방입니다.",
+        "지갑입니다."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে ব্যাগ (가방) আঁকা আছে — ভ্রমণের সময় জিনিসপত্র ব্যাগে রাখা হয়।"
     },
     {
@@ -1267,12 +1267,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜",
-        "가방",
-        "안경",
-        "가위"
+        "무대입니다.",
+        "지갑입니다.",
+        "신발입니다.",
+        "안경입니다."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "ছবিতে চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1287,14 +1287,76 @@
         "kind": "illustration"
       },
       "options": [
-        "문구점에서 샀어요.",
-        "병원에서 샀어요.",
         "시장에서 샀어요.",
-        "도서관에서 샀어요."
+        "문구점에서 샀어요.",
+        "도서관에서 샀어요.",
+        "은행에서 샀어요."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্টেশনারি দোকান থেকে বলপেন কেনা হয়েছে — ছবিতেও বলপেন।",
-      "passage": "남: 이 선물은 어디에서 샀어요? / 여: 문구점에서 볼펜을 샀어요."
+      "passage": "남자: 한국의 대중문화에서 이 물건을 어디에서 샀어요?\n여자: 문구점에서 샀어요."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "장르",
+      "romanization": "jang-reu",
+      "bn": "শৈলী/ধরনের শ্রেণি (সাহিত্য, 영화, গান ইত্যাদির)",
+      "en": "genre",
+      "pos": "noun",
+      "example": {
+        "ko": "그 영화는 멜로와 스릴러가 섞인 장르라 관객층이 다양하다.",
+        "bn": "ওই সিনেমাটি রোমান্স ও থ্রিলারের মিশ্র শৈলীর, তাই দর্শকবর্গ বৈচিত্র্যময়।",
+        "en": "That movie is a mix of romance and thriller genres, so the audience is diverse."
+      },
+      "pronunciationTipBn": "장(জাং)-르(রึ)",
+      "layer": "exam-transfer",
+      "sourceChapter": 30
+    },
+    {
+      "ko": "자막",
+      "romanization": "ja-mak",
+      "bn": "স্ক্রিনে প্রদর্শিত লেখা যা কথোপকথন অনুবাদ বা উল্লিখিত করে",
+      "en": "subtitles",
+      "pos": "noun",
+      "example": {
+        "ko": "외국 드라마를 볼 때 자막을 켜면 내용 이해에 도움이 된다.",
+        "bn": "বহির্গতম নাটক দেখলে সাবটাইটেল চালালে বিষয়বস্তু বুঝতে সুবিধা হয়।",
+        "en": "Turning on subtitles helps comprehension when watching foreign dramas."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 30
+    },
+    {
+      "ko": "리메이크",
+      "romanization": "ri-me-i-keu",
+      "bn": "আলাদা করে আবার নির্মাণ করা (বিশেষত চলচ্চিত্র বা নাটক পুনর্নির্মাণ)",
+      "en": "remake",
+      "pos": "noun",
+      "example": {
+        "ko": "오래된 드라마의 리메이크가 새 배우들로 제작된다.",
+        "bn": "পুরোনো নাটকের রিমেক নতুন অভিনেতাদের নিয়ে নির্মাণ করা হবে।",
+        "en": "A remake of an old drama is being produced with new actors."
+      },
+      "pronunciationTipBn": "리(রি)-메(মে)-이크(이크)",
+      "layer": "exam-transfer",
+      "sourceChapter": 30
+    },
+    {
+      "ko": "팬덤",
+      "romanization": "paen-deom",
+      "bn": "সকল ভক্তদের সংগঠন বা ভক্তসমূহের সম্প্রদায়",
+      "en": "fandom",
+      "pos": "noun",
+      "example": {
+        "ko": "그 가수의 팬덤은 온라인에서 활발하게 의견을 교환한다.",
+        "bn": "সেই গায়কের ভক্তসমাজ অনলাইনে সক্রিয়ভাবে মতবিনিময় করে।",
+        "en": "That singer's fandom actively exchanges opinions online."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 30
     }
   ]
 }

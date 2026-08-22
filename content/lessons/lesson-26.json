@@ -1240,9 +1240,9 @@
         "kind": "illustration"
       },
       "options": [
+        "화장실",
+        "일을 하고 있습니다.",
         "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
         "피아노를 치고 있습니다."
       ],
       "answer": 3,
@@ -1260,12 +1260,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜",
-        "가방",
-        "안경",
-        "가위"
+        "보증금입니다.",
+        "지갑입니다.",
+        "신발입니다.",
+        "가방입니다."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে ব্যাগ (가방) আঁকা আছে — ভ্রমণের সময় জিনিসপত্র ব্যাগে রাখা হয়।"
     },
     {
@@ -1280,12 +1280,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜",
-        "가방",
-        "안경",
-        "가위"
+        "부동산입니다.",
+        "안경입니다.",
+        "우산입니다.",
+        "시계입니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1301,13 +1301,75 @@
       },
       "options": [
         "문구점에서 샀어요.",
-        "병원에서 샀어요.",
-        "시장에서 샀어요.",
-        "도서관에서 샀어요."
+        "은행에서 샀어요.",
+        "우체국에서 샀어요.",
+        "편의점에서 샀어요."
       ],
       "answer": 0,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্টেশনারি দোকান থেকে বলপেন কেনা হয়েছে — ছবিতেও বলপেন।",
-      "passage": "남: 이 선물은 어디에서 샀어요? / 여: 문구점에서 볼펜을 샀어요."
+      "passage": "남자: 한국의 주거 문화와 음식 문화에서 이 물건을 어디에서 샀어요?\n여자: 문구점에서 샀어요."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "관리사무소",
+      "romanization": "gwanrisamuso",
+      "bn": "বিল্ডিং পরিচালনা অফিস / ম্যানেজমেন্ট অফিস",
+      "en": "building management office",
+      "pos": "noun",
+      "example": {
+        "ko": "관리사무소에서 택배 수령과 시설 고장 신고를 합니다.",
+        "bn": "বিল্ডিং ম্যানেজমেন্ট অফিসে পার্সেল গ্রহণ এবং সুবিধার ত্রুটি রিপোর্ট করা হয়।",
+        "en": "At the management office, you receive parcels and report facility malfunctions."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 26
+    },
+    {
+      "ko": "포장마차",
+      "romanization": "pojangmacha",
+      "bn": "রাস্তার খাবারের ঘর / ফুড স্টল",
+      "en": "street food stall",
+      "pos": "noun",
+      "example": {
+        "ko": "겨울 밤이면 포장마차에서 오뎅과 떡볶이를 많이 팔아요.",
+        "bn": "শীতের রাতে রাস্তার ফুড স্টলগুলোতে ওডেঙ ও ট্টকবোককি বিক্রি হয়।",
+        "en": "On winter nights, street stalls often sell odeng and tteokbokki."
+      },
+      "pronunciationTipBn": "포장마차 → 'পো-জাং-মা-চা' বলা হয়.",
+      "layer": "exam-transfer",
+      "sourceChapter": 26
+    },
+    {
+      "ko": "세대주",
+      "romanization": "sedaeju",
+      "bn": "গৃহপ্রধান / বাড়ির প্রধান সদস্য",
+      "en": "head of household (leaseholder)",
+      "pos": "noun",
+      "example": {
+        "ko": "세대주 이름으로 관리비 입금 확인이 필요합니다.",
+        "bn": "গৃহপ্রধানের নামে মেইনটেন্যান্স ফি প্রদানের নিশ্চয়তা দরকার।",
+        "en": "Payment confirmation for maintenance fees under the head of household's name is required."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 26
+    },
+    {
+      "ko": "공용시설",
+      "romanization": "gongyongsiseol",
+      "bn": "সবার ব্যবহারের সুবিধা / কমন ফ্যাসিলিটি",
+      "en": "shared facilities / common facilities",
+      "pos": "noun",
+      "example": {
+        "ko": "공용시설은 사용 후 다음 사람을 위해 깨끗하게 이용하세요.",
+        "bn": "কমন সুবিধাগুলি ব্যবহারের পর পরবর্তী ব্যক্তির জন্য পরিষ্কার রাখুন।",
+        "en": "Please keep shared facilities clean after use for the next person."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 26
     }
   ]
 }

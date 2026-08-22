@@ -1191,12 +1191,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
+        "스패너입니다.",
         "안경입니다.",
-        "가방입니다."
+        "가방입니다.",
+        "볼펜입니다."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1212,9 +1212,9 @@
       },
       "options": [
         "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "철사입니다.",
+        "오토바이입니다.",
+        "화물차입니다."
       ],
       "answer": 0,
       "explanationBn": "ছবিতে মাল তোলার যন্ত্র ফর্কলিফট (지게차) আঁকা আছে।"
@@ -1231,12 +1231,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
         "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "기차입니다.",
+        "배입니다.",
+        "지게차입니다."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে মাটি খননকারী যন্ত্র এক্সকেভেটার (굴착기) আঁকা আছে।"
     },
     {
@@ -1251,12 +1251,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "페인트입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "화물차입니다.",
+        "자동차입니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1271,12 +1271,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
+        "드릴입니다.",
+        "경운기입니다.",
         "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "트랙터입니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1291,12 +1291,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
         "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "페인트",
+        "비상구를 이용하세요.",
+        "보호 장갑을 착용하세요."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
     },
     {
@@ -1311,12 +1311,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
         "펜치",
+        "붓",
         "쇠톱",
         "망치"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে প্লায়ার্স (펜치) আঁকা আছে — এটি তার কাটা ও বাঁকানোর কাজে লাগে।"
     },
     {
@@ -1331,12 +1331,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
-        "펜치",
-        "쇠톱",
-        "망치"
+        "페인트",
+        "줄자",
+        "망치",
+        "안전모"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে হাতুড়ি (망치) আঁকা আছে — এটি পেরেক ঠুকে বসানোর কাজে লাগে।"
     },
     {
@@ -1351,10 +1351,10 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
+        "장화",
         "작업복",
-        "비빔밥",
-        "기차표"
+        "반사 조끼",
+        "보호 장갑"
       ],
       "answer": 1,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
@@ -1371,14 +1371,76 @@
         "kind": "illustration"
       },
       "options": [
+        "장화",
+        "앞치마",
         "반사 조끼를 입어야 합니다.",
-        "보호 장갑을 구매해야 합니다.",
-        "비상 계단을 이용해야 합니다.",
-        "환기 장치를 작동해야 합니다."
+        "반사 조끼"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 어두운 곳에서 작업할 때 무엇을 입어요? / 여: 반사 조끼를 입어야 해요."
+      "passage": "남자: 가구 제작에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "각재",
+      "romanization": "gakjae",
+      "bn": "কাঠের কোণাকার বা বর্গাকার পাতলা খণ্ড (তৈরি কাঠের 부품)",
+      "en": "squared timber / lumber piece",
+      "pos": "noun",
+      "example": {
+        "ko": "각재의 결 방향을 확인한 후 절단하세요.",
+        "bn": "কাঠের খণ্ডটির মালবিন্যাস (গ্রেন) যাচাই করে কেটে নিন।",
+        "en": "Check the grain direction of the timber piece before cutting."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 42
+    },
+    {
+      "ko": "라미네이트",
+      "romanization": "ramineiteu",
+      "bn": "표면에 붙이는 합성 시트나 코팅(라미네이션)",
+      "en": "laminate",
+      "pos": "noun",
+      "example": {
+        "ko": "라미네이트를 붙일 때 공기층이 남지 않도록 압착하세요.",
+        "bn": "ল্যামিনেট লাগানোর সময় বায়ু কণিকা না থেকে চেপে বসান।",
+        "en": "When applying laminate, press it down to avoid trapped air layers."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 42
+    },
+    {
+      "ko": "홈가공",
+      "romanization": "homgagong",
+      "bn": "목재에 홈(슬ট)을 내는 가공 작업",
+      "en": "grooving (groove cutting)",
+      "pos": "noun",
+      "example": {
+        "ko": "홈가공 깊이는 도면에 맞게 일정하게 유지하세요.",
+        "bn": "নালী কাটার গভীরতা নকশা অনুযায়ী সমান রাখুন।",
+        "en": "Keep the grooving depth consistent according to the drawing."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 42
+    },
+    {
+      "ko": "천공점",
+      "romanization": "cheongongjeom",
+      "bn": "나사를 넣거나 핀을 박을 때 드릴로 뚫는 위치",
+      "en": "drilling point",
+      "pos": "noun",
+      "example": {
+        "ko": "천공점 위치를 표시한 뒤 안전한 속도로 천천히 천공하세요.",
+        "bn": "ছিদ্র করার স্থান চিহ্নিত করে সুরক্ষিত গতিতে ধীরে ছিদ্র করুন।",
+        "en": "Mark the drilling point and drill slowly at a safe speed."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 42
     }
   ]
 }

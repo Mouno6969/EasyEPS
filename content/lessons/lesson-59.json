@@ -1273,10 +1273,10 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
+        "지문",
         "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "떨어질 수 있으니까 조심하세요.",
+        "바닥이 미끄러우니까 조심하세요."
       ],
       "answer": 1,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
@@ -1293,10 +1293,10 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
+        "국적",
         "작업복",
-        "비빔밥",
-        "기차표"
+        "보호 안경",
+        "방진 마스크"
       ],
       "answer": 1,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে।"
@@ -1313,14 +1313,76 @@
         "kind": "illustration"
       },
       "options": [
-        "아침 일곱 시",
-        "오전 아홉 시",
-        "오후 두 시",
-        "밤 열 시"
+        "오전 열 시입니다.",
+        "오전 아홉 시입니다.",
+        "오전 열한 시입니다.",
+        "오후 한 시입니다."
       ],
       "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে সকাল ৯টা থেকে কাজ শুরু, ছবিতেও ঘড়ি ৯টা দেখাচ্ছে।",
-      "passage": "남: 공장 일하는 시간은 몇 시부터예요? / 여: 오전 아홉 시부터예요."
+      "passage": "남자: 출입국관리법에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "결격사유",
+      "romanization": "gyeolgyeok sayu",
+      "bn": "অযোগ্যতা বা বাতিল করার কারণ",
+      "en": "disqualifying reason",
+      "pos": "noun",
+      "example": {
+        "ko": "결격사유가 있으면 입국 심사에서 거부될 수 있습니다.",
+        "bn": "যদি অযোগ্যতার কারণে থাকে, প্রবেশিকৃতির সময়ে প্রত্যাখ্যাত হতে পারে।",
+        "en": "If there is a disqualifying reason, entry may be denied during inspection."
+      },
+      "pronunciationTipBn": "결격은 'গিয়ল-গেক' (gyeol-gyeok) হিসেবে শুনুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 59
+    },
+    {
+      "ko": "확인도장",
+      "romanization": "hwagin dojjang",
+      "bn": "নিশ্চিতকারী ছাপ/স্ট্যাম্প (প্রাপ্তি বা অনুমোদনের ছাপ)",
+      "en": "confirmation stamp",
+      "pos": "noun",
+      "example": {
+        "ko": "서류 제출 후 담당자 확인도장을 받으세요.",
+        "bn": "নথি জমা দেয়ার পরে দায়িত্বশীলের কনফার্মেশন স্ট্যাম্প নিন।",
+        "en": "After submitting the documents, get the confirmation stamp from the officer."
+      },
+      "pronunciationTipBn": "도장은 'ডো-জাং' (do-jang) হিসেবে উচ্চারণ করুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 59
+    },
+    {
+      "ko": "소지품검사",
+      "romanization": "sojipum geomsa",
+      "bn": "ব্যাক্তিগত জিনিসপত্র পরীক্ষা",
+      "en": "inspection of personal belongings / baggage check",
+      "pos": "noun",
+      "example": {
+        "ko": "공항에서는 가끔 소지품검사를 진행합니다.",
+        "bn": "বিমানবন্দরে কখনও কখনও ব্যক্তিগত মালামালের পরীক্ষা করা হয়।",
+        "en": "At the airport, personal belongings may sometimes be inspected."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 59
+    },
+    {
+      "ko": "병역사항",
+      "romanization": "byeongyeok sahang",
+      "bn": "সেনাবাহিনী সেবার তথ্য (মিলিটারি সার্ভিস রেকর্ড)",
+      "en": "military service details",
+      "pos": "noun",
+      "example": {
+        "ko": "재류 심사서에 병역사항을 정확히 기재하세요.",
+        "bn": "নথিতে মিলিটারি সার্ভিস সংক্রান্ত তথ্য সঠিকভাবে লিখুন।",
+        "en": "Record your military service details accurately on the residency form."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 59
     }
   ]
 }

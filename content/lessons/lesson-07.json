@@ -1122,12 +1122,12 @@
         "kind": "illustration"
       },
       "options": [
+        "기온입니다.",
         "볼펜입니다.",
         "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "안경입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1142,10 +1142,10 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
+        "시계입니다.",
         "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "휴대전화입니다.",
+        "열쇠입니다."
       ],
       "answer": 1,
       "explanationBn": "ছবিতে একজোড়া কাঁচি (가위) আঁকা আছে।"
@@ -1162,12 +1162,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
+        "장마입니다.",
         "안경입니다.",
+        "가위입니다.",
         "가방입니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1182,12 +1182,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "가방입니다.",
+        "지갑입니다.",
+        "신발입니다.",
+        "볼펜입니다."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে একটি ব্যাগ (가방) আঁকা আছে।"
     },
     {
@@ -1202,10 +1202,10 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "버스입니다.",
+        "경운기입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "택시입니다."
       ],
       "answer": 2,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
@@ -1222,12 +1222,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "자동차입니다.",
+        "경운기입니다.",
+        "기차입니다.",
+        "배입니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1242,12 +1242,12 @@
         "kind": "illustration"
       },
       "options": [
+        "버스를 타고 있습니다.",
+        "요리를 하고 있습니다.",
         "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "잠을 자고 있습니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
     },
     {
@@ -1262,12 +1262,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
         "밥을 먹고 있습니다.",
+        "태풍",
         "친구를 만나고 있습니다.",
         "피아노를 치고 있습니다."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
     },
     {
@@ -1282,12 +1282,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "우산",
+        "청소를 하고 있습니다.",
+        "운동을 하고 있습니다.",
+        "친구를 만나고 있습니다."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
     },
     {
@@ -1302,12 +1302,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "피아노를 치고 있습니다.",
+        "건조하다",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "친구를 만나고 있습니다."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1322,14 +1322,76 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 계절과 날씨에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "일교차",
+      "romanization": "ilgyocha",
+      "bn": "দিন ও রাতের তাপমাত্রার পার্থক্য",
+      "en": "diurnal temperature range (difference between day and night)",
+      "pos": "noun",
+      "example": {
+        "ko": "봄철에는 일교차가 커서 아침과 낮에 옷차림을 달리해야 한다.",
+        "bn": "বসন্তকালে দিনে ও রাতে তাপমাত্রার পার্থক্য বেশি থাকে, তাই সকালে ও দুপুরে পোশাক আলাদা করা উচিত।",
+        "en": "In spring the diurnal temperature range is large, so you should dress differently in the morning and afternoon."
+      },
+      "pronunciationTipBn": "ইল-গ্যো-চা",
+      "layer": "exam-transfer",
+      "sourceChapter": 7
+    },
+    {
+      "ko": "체감온도",
+      "romanization": "chegamondo",
+      "bn": "শরীর অনুভব অনুযায়ী তাপমাত্রা (ফিলস-লাইক)",
+      "en": "perceived temperature (feels-like temperature)",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘 체감온도는 기온보다 3도 낮게 느껴진다.",
+        "bn": "আজ শরীর দ্বারা অনুভূত তাপমাত্রা বাস্তব তাপমাত্রার চেয়ে প্রায় ৩ ডিগ্রি কম অনুভব হচ্ছে।",
+        "en": "Today's feels-like temperature feels about 3 degrees lower than the actual temperature."
+      },
+      "pronunciationTipBn": "চে-গাম-ওন-ডো",
+      "layer": "exam-transfer",
+      "sourceChapter": 7
+    },
+    {
+      "ko": "자외선",
+      "romanization": "jaoeseon",
+      "bn": "সূর্যের অতিবেগুনি রশ্মি",
+      "en": "ultraviolet rays (UV)",
+      "pos": "noun",
+      "example": {
+        "ko": "여름에는 자외선 지수가 높으니 자외선 차단제를 꼭 바르세요.",
+        "bn": "গরমকালে সূর্যের অতিবেগুনি রশ্মির সূচক বেশি থাকে, তাই অবশ্যই সানস্ক্রিন লাগান।",
+        "en": "In summer the UV index is high, so be sure to apply sunscreen."
+      },
+      "pronunciationTipBn": "জা-ও-এ-সন",
+      "layer": "exam-transfer",
+      "sourceChapter": 7
+    },
+    {
+      "ko": "서늘하다",
+      "romanization": "seoneulhada",
+      "bn": "হালকা ঠাণ্ডা লাগা (সতেজ ঠাণ্ডা)",
+      "en": "to be cool (slightly chilly)",
+      "pos": "adjective",
+      "example": {
+        "ko": "가을 아침은 서늘해서 가벼운 외투가 필요하다.",
+        "bn": "শরৎকাল সকালে হালকা ঠাণ্ডা থাকে, তাই হালকা জ্যাকেট লাগে।",
+        "en": "Autumn mornings are cool, so a light jacket is needed."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 7
     }
   ]
 }

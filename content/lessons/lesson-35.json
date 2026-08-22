@@ -1161,12 +1161,12 @@
         "kind": "illustration"
       },
       "options": [
+        "우산입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "시계입니다.",
+        "휴대전화입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1182,9 +1182,9 @@
       },
       "options": [
         "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "버스입니다.",
+        "택시입니다.",
+        "자전거입니다."
       ],
       "answer": 0,
       "explanationBn": "ছবিতে মাল তোলার যন্ত্র ফর্কলিফট (지게차) আঁকা আছে।"
@@ -1201,12 +1201,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
+        "자동차입니다.",
+        "화물차입니다.",
         "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "기차입니다."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে মাটি খননকারী যন্ত্র এক্সকেভেটার (굴착기) আঁকা আছে।"
     },
     {
@@ -1221,12 +1221,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "정리정돈입니다.",
+        "지게차입니다.",
+        "굴착기입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1241,12 +1241,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "보안경입니다.",
+        "배입니다.",
+        "경운기입니다.",
+        "굴착기입니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1261,10 +1261,10 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
+        "보고서",
         "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "전기가 흐르니까 조심하세요.",
+        "떨어질 수 있으니까 조심하세요."
       ],
       "answer": 1,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
@@ -1281,12 +1281,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
         "펜치",
-        "쇠톱",
-        "망치"
+        "삽",
+        "줄자",
+        "보호 장갑"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে প্লায়ার্স (펜치) আঁকা আছে — এটি তার কাটা ও বাঁকানোর কাজে লাগে।"
     },
     {
@@ -1301,12 +1301,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
+        "망치",
         "펜치",
         "쇠톱",
-        "망치"
+        "드라이버"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে হাতুড়ি (망치) আঁকা আছে — এটি পেরেক ঠুকে বসানোর কাজে লাগে।"
     },
     {
@@ -1321,12 +1321,12 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
+        "우비",
+        "안전벨트",
         "작업복",
-        "비빔밥",
-        "기차표"
+        "앞치마"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     },
     {
@@ -1341,14 +1341,76 @@
         "kind": "illustration"
       },
       "options": [
+        "방진 마스크",
+        "보호 안경",
         "반사 조끼를 입어야 합니다.",
-        "보호 장갑을 구매해야 합니다.",
-        "비상 계단을 이용해야 합니다.",
-        "환기 장치를 작동해야 합니다."
+        "안전벨트"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 어두운 곳에서 작업할 때 무엇을 입어요? / 여: 반사 조끼를 입어야 해요."
+      "passage": "남자: 작업장 관리에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "정비 기록",
+      "romanization": "jeongbi girok",
+      "bn": "রক্ষণাবেক্ষণের নথি",
+      "en": "maintenance log",
+      "pos": "noun",
+      "example": {
+        "ko": "정비 기록을 정기적으로 확인하면 고장 원인을 빨리 찾을 수 있습니다.",
+        "bn": "রক্ষণাবেক্ষণের নথি নিয়মিত পরীক্ষা করলে ত্রুটির কারণ দ্রুত খুঁজে পাওয়া যায়।",
+        "en": "Regularly checking the maintenance log helps find the cause of malfunctions quickly."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 35
+    },
+    {
+      "ko": "비품 목록",
+      "romanization": "bipum mongnok",
+      "bn": "সরঞ্জামের তালিকা",
+      "en": "list of supplies",
+      "pos": "noun",
+      "example": {
+        "ko": "비품 목록을 확인해서 부족한 물품을 주문하세요.",
+        "bn": "সরঞ্জামের তালিকা দেখে কোন আইটেম কম আছে তা অর্ডার করুন।",
+        "en": "Check the supplies list and order any missing items."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 35
+    },
+    {
+      "ko": "결함 확인",
+      "romanization": "gyeolham hwagin",
+      "bn": "ত্রুটি যাচাই করা",
+      "en": "defect check",
+      "pos": "phrase",
+      "example": {
+        "ko": "출고 전에 결함 확인을 꼭 하세요.",
+        "bn": "প্রেরণের আগে অবশ্যই ত্রুটি যাচাই করুন।",
+        "en": "Be sure to check for defects before shipping out."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 35
+    },
+    {
+      "ko": "기기 매뉴얼",
+      "romanization": "gigi maenyueol",
+      "bn": "যন্ত্রের ম্যানুয়াল",
+      "en": "equipment manual",
+      "pos": "noun",
+      "example": {
+        "ko": "새 기기를 사용하기 전에 기기 매뉴얼을 숙지하세요.",
+        "bn": "নতুন যন্ত্রটি ব্যবহার করার আগে যন্ত্রের ম্যানুয়াল পড়ে নিন।",
+        "en": "Read the equipment manual before using the new device."
+      },
+      "pronunciationTipBn": "매뉴얼=ম্যানুয়াল (ম্য-নু-য়াল)",
+      "layer": "exam-transfer",
+      "sourceChapter": 35
     }
   ]
 }

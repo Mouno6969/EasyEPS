@@ -1131,12 +1131,12 @@
         "kind": "illustration"
       },
       "options": [
+        "블라우스입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "컵입니다.",
+        "책입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1151,7 +1151,7 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
+        "단추입니다.",
         "가위입니다.",
         "안경입니다.",
         "가방입니다."
@@ -1171,12 +1171,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "작다입니다.",
+        "휴대전화입니다.",
+        "열쇠입니다.",
+        "안경입니다."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1191,12 +1191,12 @@
         "kind": "illustration"
       },
       "options": [
+        "옷입니다.",
+        "가방입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "가위입니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি ব্যাগ (가방) আঁকা আছে।"
     },
     {
@@ -1211,12 +1211,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
+        "모자입니다.",
         "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "경운기입니다.",
+        "트랙터입니다."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1231,12 +1231,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "경운기입니다.",
+        "모자입니다.",
+        "택시입니다.",
+        "자전거입니다."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1252,9 +1252,9 @@
       },
       "options": [
         "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "스웨터",
+        "피아노를 치고 있습니다.",
+        "전화를 하고 있습니다."
       ],
       "answer": 0,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
@@ -1271,12 +1271,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "외투",
+        "전화를 하고 있습니다.",
+        "청소를 하고 있습니다."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
     },
     {
@@ -1291,10 +1291,10 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "신다",
+        "청소를 하고 있습니다.",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "요리를 하고 있습니다."
       ],
       "answer": 2,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
@@ -1311,12 +1311,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "구두",
+        "피아노를 치고 있습니다.",
+        "일을 하고 있습니다.",
+        "책을 읽고 있습니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1331,14 +1331,76 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 옷에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "탈의실",
+      "romanization": "taluisil",
+      "bn": "পরিবর্তন কক্ষ/ফিটিং রুম",
+      "en": "fitting room / changing room",
+      "pos": "noun",
+      "example": {
+        "ko": "탈의실은 매장 뒤편에 있으니 직원에게 문의하세요.",
+        "bn": "ফিটিং রুম দোকানের পেছনে আছে, তাই কর্মীর কাছে জানতে বলুন।",
+        "en": "The fitting room is at the back of the store, so ask a staff member."
+      },
+      "pronunciationTipBn": "탈의실 [tal-ui-sil] - '탈'+'의'+'실' 순으로 천천히 발음해 보세요.",
+      "layer": "exam-transfer",
+      "sourceChapter": 15
+    },
+    {
+      "ko": "어깨끈",
+      "romanization": "eokkaekkeun",
+      "bn": "কাঁধের স্ট্র্যাপ",
+      "en": "shoulder strap",
+      "pos": "noun",
+      "example": {
+        "ko": "이 원피스는 어깨끈이 얇아서 여름에 입기 좋아요.",
+        "bn": "এই ড্রেসটির কাঁধের স্ট্র্যাপ পাতলা, তাই গরমে পরা সুবিধাজনক।",
+        "en": "This dress has thin shoulder straps, so it's good to wear in summer."
+      },
+      "pronunciationTipBn": "어깨끈 [eo-kkae-kkeun] - '어깨'는 'eo-kkae'로, '끈'은 'kkeun'로 발음.",
+      "layer": "exam-transfer",
+      "sourceChapter": 15
+    },
+    {
+      "ko": "신축성",
+      "romanization": "sinchukseong",
+      "bn": "নমনীয়তা/স্ট্রেচযোগ্যতা",
+      "en": "elasticity / stretchability",
+      "pos": "noun",
+      "example": {
+        "ko": "이 소재는 신축성이 좋아서 활동할 때 편안합니다.",
+        "bn": "এই উপকরণটি নমনীয়, তাই সক্রিয় থাকলে আরামদায়ক।",
+        "en": "This material has good elasticity, so it's comfortable when you move around."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 15
+    },
+    {
+      "ko": "밑단",
+      "romanization": "mitdan",
+      "bn": "পুতাই/হেম (পোশাকের নিচের অংশ)",
+      "en": "hem (bottom edge of clothing)",
+      "pos": "noun",
+      "example": {
+        "ko": "신발에 밑단이 닿아서 밑단을 수선해야 합니다.",
+        "bn": "জুতোর সঙ্গে প্যার্টের তলসামান্য ছোঁয়ায় হেমটি মেরামত করতে হবে।",
+        "en": "The hem touches the shoes, so the hem needs to be altered."
+      },
+      "pronunciationTipBn": "밑단 [mit-dan] - '밑'은 'mit'로 소리 납니다.",
+      "layer": "exam-transfer",
+      "sourceChapter": 15
     }
   ]
 }

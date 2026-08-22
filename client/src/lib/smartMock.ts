@@ -34,6 +34,15 @@ export function deriveSmartMockFocus(
   }
   if ([...weights.values()].some(weight => weight > 0)) reasons.push("অধ্যায় অনুশীলন ও পরীক্ষার কম স্কোর");
 
+  for (const evidence of Object.values(state.itemEvidence ?? {})) {
+    if (!evidence.chapter) continue;
+    if (evidence.mastery < 75 || evidence.lastCorrect === false || evidence.lastConfidence !== "sure") {
+      addWeight(evidence.chapter, Math.max(5, 28 - evidence.mastery * 0.2) + (evidence.section === "listening" ? 8 : 0));
+    }
+    if (section !== "auto" && evidence.section === section) addWeight(evidence.chapter, 5);
+  }
+  if (Object.keys(state.itemEvidence ?? {}).length) reasons.push("আইটেম mastery, uncertainty ও listening gap");
+
   for (const attempt of state.attempts.slice(0, 25)) {
     if (!attempt.chapter || attempt.total <= 0) continue;
     const ratio = attempt.score / attempt.total;

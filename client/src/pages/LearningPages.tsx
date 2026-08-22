@@ -25,9 +25,11 @@ import { buildReadinessReport } from "@/lib/readiness";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { isBasicsComplete } from "@shared/basics";
+import { isDue, summarizeItemEvidence } from "@shared/learning";
 import {
   BarChart3,
   BookCheck,
+  BookMarked,
   BookOpenText,
   CalendarDays,
   Check,
@@ -131,7 +133,7 @@ export function CurriculumPage() {
             return <Link key={lesson.chapter} href={`/lesson/${lesson.chapter}`} className="lesson-card group">
               <div className="flex items-start justify-between gap-4"><span className="chapter-number">{String(lesson.chapter).padStart(2, "0")}</span>{progress?.completed ? <span className="status-done"><Check className="size-3.5" />সম্পন্ন</span> : <span className="status-open">শুরু করুন</span>}</div>
               <div className="mt-6"><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider" style={{ color: info.color }}><span className="size-2 rounded-full" style={{ background: info.color }} />{locale === "ko" ? info.ko : locale === "en" ? info.en : info.bn}</div><h2 className="mt-3 font-serif text-2xl font-bold leading-tight text-[var(--navy)]">{localTitle(lesson.title, locale)}</h2>{locale !== "ko" && <p className="mt-1 text-base font-semibold text-[var(--navy)]/45">{lesson.title.ko}</p>}</div>
-              <div className="mt-7 flex items-center justify-between border-t border-[var(--navy)]/8 pt-4 text-sm text-[var(--navy)]/55"><span>{lesson.vocabularyCount} শব্দ · {lesson.practiceCount} অনুশীলন</span><ChevronRight className="size-5 transition-transform group-hover:translate-x-1" /></div>
+              <div className="mt-7 flex items-center justify-between border-t border-[var(--navy)]/8 pt-4 text-sm text-[var(--navy)]/55"><span>{lesson.vocabularyCount} core + {lesson.extraVocabularyCount} extra শব্দ · {lesson.practiceCount} অনুশীলন</span><ChevronRight className="size-5 transition-transform group-hover:translate-x-1" /></div>
             </Link>;
           })}
         </div>
@@ -143,6 +145,7 @@ export function CurriculumPage() {
 export function DashboardPage() {
   const state = useLocalLearning();
   const overview = learningOverview(state);
+  const evidenceSummary = summarizeItemEvidence(state.itemEvidence);
   const basics = useLocalBasics();
   const hangulReady = isBasicsComplete(basics);
   const { t } = useLocale();
@@ -163,6 +166,7 @@ export function DashboardPage() {
   const maxMinutes = Math.max(30, ...studyDays.map(day => day.minutes));
   const weak = listRecentWeak(5);
   const due = listDueReviews(5);
+  const dueLearningItems = Object.values(state.itemEvidence).filter(item => isDue(item)).sort((a, b) => a.mastery - b.mastery).slice(0, 5);
   const reviewPack = useMemo(() => {
     const seen = new Set<string>();
     const pack = [];
@@ -185,9 +189,12 @@ export function DashboardPage() {
       {!hangulReady && <BasicsCtaBanner className="mb-7" />}
       <DeferredProfilePrompt complete={profileComplete} />
       {!isAuthenticated && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--gold)]/35 bg-[var(--gold)]/10 p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>অতিথি মোড:</strong> অগ্রগতি এই ডিভাইসে সংরক্ষিত। সাইন ইন করলে একাধিক ডিভাইসে সিঙ্ক হবে।</span><Button onClick={() => startLogin()} variant="outline" className="rounded-full border-[var(--navy)]/20">সাইন ইন</Button></div>}
+      {!state.diagnostic && <div className="mb-7 flex flex-col gap-4 rounded-3xl border border-[var(--gold)]/35 bg-[var(--gold)]/10 p-5 md:flex-row md:items-center md:justify-between"><div><p className="text-xs font-bold uppercase tracking-[.18em] text-[var(--gold-dark)]">শুরু করার আগে</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">আপনার level জানুন</h2><p className="mt-1 text-sm leading-6 text-[var(--navy)]/60">২০টি diagnostic প্রশ্নে কোন অধ্যায় ও skill দিয়ে শুরু করবেন তা ঠিক করুন।</p></div><Link href="/diagnostic"><Button className="rounded-full bg-[var(--navy)] text-white">Diagnostic দিন <ChevronRight className="size-4" /></Button></Link></div>}
+      <div className="mb-7 flex flex-col gap-5 rounded-3xl bg-[var(--navy)] p-6 text-white md:flex-row md:items-center md:justify-between md:p-7"><div><p className="text-xs font-bold uppercase tracking-[.18em] text-[var(--gold)]">প্রতিদিনের extra vocabulary</p><h2 className="mt-2 font-serif text-2xl font-bold">৮টি শব্দে ছোট active-recall সেশন</h2><p className="mt-2 max-w-2xl text-sm leading-6 text-white/65">বাংলা অর্থ দেখে Korean লিখুন, confidence জানান, উদাহরণ শুনুন এবং নতুন exam-transfer term ও due review একসাথে অনুশীলন করুন।</p></div><Link href="/daily-vocabulary"><Button className="shrink-0 rounded-full bg-[var(--gold)] text-[var(--navy)] hover:bg-[var(--gold)]/90"><BookMarked className="size-4" />আজকের শব্দ শুরু করুন <ChevronRight className="size-4" /></Button></Link></div>
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         {[{ label: "সম্পন্ন অধ্যায়", value: `${metrics.completedLessons}/60`, icon: BookCheck, tone: "sage" }, { label: "গড় স্কোর", value: `${metrics.averageScore}%`, icon: TrendingUp, tone: "gold" }, { label: "বর্তমান স্ট্রিক", value: `${metrics.streak} দিন`, icon: Flame, tone: "clay" }, { label: "মোট অধ্যয়ন", value: `${metrics.studyMinutes} মিনিট`, icon: Clock3, tone: "navy" }].map(({ label, value, icon: Icon, tone }) => <div key={label} className="metric-card"><span className={`metric-icon metric-${tone}`}><Icon className="size-5" /></span><p className="mt-5 text-sm font-semibold text-[var(--navy)]/55">{label}</p><p className="mt-1 font-serif text-3xl font-bold text-[var(--navy)]">{value}</p></div>)}
       </div>
+      <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4"><div className="rounded-2xl border border-[var(--navy)]/8 bg-white p-4"><p className="text-xs font-bold text-[var(--navy)]/48">Item accuracy</p><p className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">{evidenceSummary.itemAccuracy}%</p><p className="mt-1 text-xs text-[var(--navy)]/45">প্রথম ও পরের সব recall</p></div><div className="rounded-2xl border border-[var(--navy)]/8 bg-white p-4"><p className="text-xs font-bold text-[var(--navy)]/48">Delayed retention</p><p className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">{evidenceSummary.retentionAccuracy || "—"}{evidenceSummary.retentionAccuracy ? "%" : ""}</p><p className="mt-1 text-xs text-[var(--navy)]/45">কয়েক দিন পরে মনে থাকা</p></div><div className="rounded-2xl border border-[var(--navy)]/8 bg-white p-4"><p className="text-xs font-bold text-[var(--navy)]/48">Listening gap</p><p className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">{evidenceSummary.listeningAccuracy || "—"}{evidenceSummary.listeningAccuracy ? "%" : ""}</p><p className="mt-1 text-xs text-[var(--navy)]/45">audio থেকে accuracy</p></div><div className="rounded-2xl border border-[var(--navy)]/8 bg-white p-4"><p className="text-xs font-bold text-[var(--navy)]/48">First exposure</p><p className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">{evidenceSummary.novelAccuracy || "—"}{evidenceSummary.novelAccuracy ? "%" : ""}</p><p className="mt-1 text-xs text-[var(--navy)]/45">নতুন item-এ transfer</p></div></div>
 
       {/* ১০ মিনিট রিভিউ pack */}
       <section className="paper-card mt-7 p-6">
@@ -230,9 +237,10 @@ export function DashboardPage() {
             </Link>
           </div>
         )}
+        {dueLearningItems.length ? <div className="mt-6 border-t border-[var(--navy)]/8 pt-5"><p className="text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">আজকের item review</p><div className="mt-3 flex flex-wrap gap-2">{dueLearningItems.map(item => <Link key={item.itemId} href={item.section === "listening" ? "/listening" : item.chapter ? `/lesson/${item.chapter}` : "/curriculum"} className="rounded-full border border-[var(--gold)]/35 bg-[var(--gold)]/10 px-3 py-2 text-xs font-bold text-[var(--navy)]">{item.section === "listening" ? "Listening" : "Recall"} · {item.mastery}%</Link>)}</div></div> : null}
       </section>
 
-      <MicroSessionPanel nextChapter={nextChapter} hangulReady={hangulReady} dueReviews={due} />
+      <MicroSessionPanel nextChapter={nextChapter} hangulReady={hangulReady} dueReviews={due} sessionOptions={dailyPlan.sessionOptions} />
 
       <div className="mt-7 grid gap-7 lg:grid-cols-[1.25fr_.75fr]">
         <section className="paper-card p-6"><div className="flex items-center justify-between"><div><p className="eyebrow">গত ৭ দিন</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">অধ্যয়নের ধারাবাহিকতা</h2></div><BarChart3 className="size-6 text-[var(--gold-dark)]" /></div><div className="mt-8 flex h-56 items-end gap-3">{studyDays.map(day => <div key={day.key} className="flex h-full flex-1 flex-col items-center justify-end gap-2"><span className="text-xs font-bold text-[var(--navy)]/45">{day.minutes || ""}</span><div className="w-full max-w-14 rounded-t-xl bg-[var(--sage)] transition-all" style={{ height: `${Math.max(5, day.minutes / maxMinutes * 100)}%` }} /><span className="text-xs font-semibold text-[var(--navy)]/55">{day.label}</span></div>)}</div></section>
@@ -271,6 +279,8 @@ export function DashboardPage() {
         </section>
       </div>
       <ReadinessCard report={readiness} />
+
+      <section className="paper-card mt-7 overflow-hidden"><div className="border-b border-[var(--navy)]/8 p-6"><div className="flex flex-wrap items-end justify-between gap-3"><div><p className="eyebrow">শেখার milestones</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">যে অগ্রগতি সত্যিই গুরুত্বপূর্ণ</h2></div><span className="rounded-full bg-[var(--gold)]/15 px-3 py-1.5 text-xs font-bold text-[var(--gold-dark)]">{state.milestones.length} earned</span></div></div>{state.milestones.length ? <div className="grid gap-3 p-6 md:grid-cols-2">{state.milestones.slice(-6).reverse().map(milestone => <div key={milestone.id} className="rounded-2xl border border-[var(--gold)]/25 bg-[var(--gold)]/8 p-4"><p className="font-bold text-[var(--navy)]">{milestone.titleBn}</p><p className="mt-1 text-sm leading-6 text-[var(--navy)]/58">{milestone.detailBn}</p></div>)}</div> : <div className="p-6 text-sm leading-6 text-[var(--navy)]/55">Diagnostic, active recall, delayed review এবং listening practice থেকে milestones অর্জন করুন।</div>}</section>
 
       <section className="paper-card mt-7 overflow-hidden">
         <div className="border-b border-[var(--navy)]/8 p-6">

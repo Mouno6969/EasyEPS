@@ -997,10 +997,10 @@
       "questionKo": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
       "passage": "",
       "options": [
-        "배편입니다.",
+        "오후 한 시입니다.",
         "항공편입니다.",
-        "기차편입니다.",
-        "버스편입니다."
+        "오후 두 시입니다.",
+        "오후 세 시입니다."
       ],
       "answer": 1,
       "explanationBn": "비행기 그림이므로 '항공편' (항공편)입니다.",
@@ -1130,9 +1130,9 @@
       },
       "options": [
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "신분증입니다.",
+        "신발입니다.",
+        "가위입니다."
       ],
       "answer": 0,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
@@ -1149,10 +1149,10 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
+        "우체통입니다.",
         "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "열쇠입니다.",
+        "컵입니다."
       ],
       "answer": 1,
       "explanationBn": "ছবিতে একজোড়া কাঁচি (가위) আঁকা আছে।"
@@ -1169,10 +1169,10 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
+        "우체국입니다.",
+        "시계입니다.",
         "안경입니다.",
-        "가방입니다."
+        "열쇠입니다."
       ],
       "answer": 2,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
@@ -1189,12 +1189,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "가방입니다.",
+        "우체부입니다.",
+        "책입니다.",
+        "지갑입니다."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে একটি ব্যাগ (가방) আঁকা আছে।"
     },
     {
@@ -1209,12 +1209,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "빠른우편입니다.",
+        "오토바이입니다.",
+        "화물차입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1229,12 +1229,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "등기입니다.",
+        "택시입니다.",
+        "경운기입니다.",
+        "오토바이입니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1249,12 +1249,12 @@
         "kind": "illustration"
       },
       "options": [
+        "재다",
         "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
         "친구를 만나고 있습니다.",
         "피아노를 치고 있습니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
     },
     {
@@ -1269,12 +1269,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "빠른우편",
+        "요리를 하고 있습니다.",
+        "버스를 타고 있습니다."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
     },
     {
@@ -1289,10 +1289,10 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "신분증",
         "밥을 먹고 있습니다.",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "전화를 하고 있습니다."
       ],
       "answer": 2,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
@@ -1309,9 +1309,9 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
+        "풀",
+        "사진을 찍고 있습니다.",
+        "일을 하고 있습니다.",
         "피아노를 치고 있습니다."
       ],
       "answer": 3,
@@ -1329,14 +1329,76 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 우체국에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "수취인",
+      "romanization": "su-chwi-in",
+      "bn": "প্রাপক",
+      "en": "recipient",
+      "pos": "noun",
+      "example": {
+        "ko": "수취인 주소가 정확한지 다시 확인하세요.",
+        "bn": "প্রাপকের ঠিকানা সঠিক কিনা আবার যাচাই করুন।",
+        "en": "Please double-check that the recipient's address is correct."
+      },
+      "pronunciationTipBn": "수취인 (수-취-인 su-chwi-in)",
+      "layer": "exam-transfer",
+      "sourceChapter": 23
+    },
+    {
+      "ko": "발송",
+      "romanization": "bal-song",
+      "bn": "প্রেরণ / পাঠানো",
+      "en": "dispatch / send",
+      "pos": "verb",
+      "example": {
+        "ko": "국제 소포는 발송 전 세관 신고를 해야 합니다.",
+        "bn": "আন্তর্জাতিক পার্সেল প্রেরণের আগে কাস্টমসে ঘোষণা করতে হবে।",
+        "en": "International parcels must be declared to customs before dispatch."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 23
+    },
+    {
+      "ko": "취급주의",
+      "romanization": "chwi-geup-ju-ui",
+      "bn": "সাবধানে পরিচালনা / সতর্কতার নির্দেশ",
+      "en": "handle with care (label)",
+      "pos": "expression",
+      "example": {
+        "ko": "유리 물건에는 '취급주의' 스티커를 붙이세요.",
+        "bn": "কাচের জিনিসে 'সাবধানে পরিবহণ' স্টিকার লাগান।",
+        "en": "Put a 'handle with care' sticker on glass items."
+      },
+      "pronunciationTipBn": "취급주의 (চুই-গึপ-জু-ই chwi-geup-ju-ui)",
+      "layer": "exam-transfer",
+      "sourceChapter": 23
+    },
+    {
+      "ko": "추적번호",
+      "romanization": "chu-jeok-beon-ho",
+      "bn": "ট্র্যাকিং নম্বর",
+      "en": "tracking number",
+      "pos": "noun",
+      "example": {
+        "ko": "추적번호를 입력하면 배송 위치를 확인할 수 있습니다.",
+        "bn": "ট্র্যাকিং নম্বরটি দিলে ডেলিভারির অবস্থান দেখা যায়।",
+        "en": "You can check the delivery location by entering the tracking number."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 23
     }
   ]
 }

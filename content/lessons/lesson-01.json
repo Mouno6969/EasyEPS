@@ -1157,12 +1157,12 @@
         "kind": "illustration"
       },
       "options": [
+        "책입니다.",
+        "컵입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "지갑입니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1177,12 +1177,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
         "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "휴대전화입니다.",
+        "열쇠입니다.",
+        "컵입니다."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে একজোড়া কাঁচি (가위) আঁকা আছে।"
     },
     {
@@ -1197,12 +1197,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
+        "우산입니다.",
         "안경입니다.",
-        "가방입니다."
+        "시계입니다.",
+        "휴대전화입니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1217,9 +1217,9 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
+        "지갑입니다.",
+        "컵입니다.",
+        "책입니다.",
         "가방입니다."
       ],
       "answer": 3,
@@ -1237,12 +1237,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "굴착기입니다.",
+        "경운기입니다.",
+        "버스입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1257,12 +1257,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "경운기입니다.",
+        "의사입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "버스입니다."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1277,12 +1277,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "피아노를 치고 있습니다.",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "책을 읽고 있습니다.",
+        "전화를 하고 있습니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
     },
     {
@@ -1297,12 +1297,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "전화를 하고 있습니다.",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "피아노를 치고 있습니다.",
+        "밥을 먹고 있습니다."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
     },
     {
@@ -1317,12 +1317,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "버스를 타고 있습니다.",
+        "운동을 하고 있습니다.",
+        "요리를 하고 있습니다.",
+        "친구를 만나고 있습니다."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
     },
     {
@@ -1337,12 +1337,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "일을 하고 있습니다.",
+        "사진을 찍고 있습니다.",
+        "피아노를 치고 있습니다.",
+        "책을 읽고 있습니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1357,14 +1357,76 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 자기소개에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "출신",
+      "romanization": "chulsin",
+      "bn": "জন্মস্থান / উৎস",
+      "en": "place of origin",
+      "pos": "noun",
+      "example": {
+        "ko": "자기소개할 때 출신 지역을 말하세요.",
+        "bn": "নিজের পরিচয় দেওয়ার সময় আপনার জন্মস্থান বলুন।",
+        "en": "When introducing yourself, state your place of origin."
+      },
+      "pronunciationTipBn": "출신: 'চুল-সিন' (chul-sin)처럼 বলুন.",
+      "layer": "exam-transfer",
+      "sourceChapter": 1
+    },
+    {
+      "ko": "전공",
+      "romanization": "jeon-gong",
+      "bn": "বিশেষায়িত বিষয় (মেজর)",
+      "en": "major; field of study",
+      "pos": "noun",
+      "example": {
+        "ko": "면접에서 전공을 묻는 경우가 많습니다.",
+        "bn": "ইন্টারভিউতে খুবই প্রায়ই আপনার মেজর সম্পর্কে প্রশ্ন করা হয়।",
+        "en": "Interviewers often ask about your major."
+      },
+      "pronunciationTipBn": "전공: 'জন-গং' (jeon-gong) এর মতো উচ্চারণ করুন.",
+      "layer": "exam-transfer",
+      "sourceChapter": 1
+    },
+    {
+      "ko": "연락처",
+      "romanization": "yeollak-cheo",
+      "bn": "যোগাযোগ নম্বর / ঠিকানা",
+      "en": "contact information",
+      "pos": "noun",
+      "example": {
+        "ko": "지원서에 연락처를 빠짐없이 적어 주세요.",
+        "bn": "আবেদনপত্রে আপনার যোগাযোগের নম্বর সম্পূর্ণভাবে লিখুন।",
+        "en": "Please fill in your contact information completely on the application."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 1
+    },
+    {
+      "ko": "거주지",
+      "romanization": "geo-ju-ji",
+      "bn": "বাসস্থানের ঠিকানা",
+      "en": "residence; place of living",
+      "pos": "noun",
+      "example": {
+        "ko": "거주지를 변경하면 관련 기관에 신고하세요.",
+        "bn": "বসবাসের ঠিকানা বদলালে সংশ্লিষ্ট প্রতিষ্ঠানে জানাবেন।",
+        "en": "If you change your residence, report it to the relevant office."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 1
     }
   ]
 }

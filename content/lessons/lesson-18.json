@@ -1143,12 +1143,12 @@
         "kind": "illustration"
       },
       "options": [
+        "기타 치기입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "컵입니다.",
+        "책입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1163,7 +1163,7 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
+        "기타 치기입니다.",
         "가위입니다.",
         "안경입니다.",
         "가방입니다."
@@ -1183,12 +1183,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
         "안경입니다.",
-        "가방입니다."
+        "뜨개질입니다.",
+        "신발입니다.",
+        "볼펜입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1203,12 +1203,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "사진 촬영입니다.",
+        "컵입니다.",
+        "가방입니다.",
+        "지갑입니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে একটি ব্যাগ (가방) আঁকা আছে।"
     },
     {
@@ -1223,10 +1223,10 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "수영입니다.",
+        "버스입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "자전거입니다."
       ],
       "answer": 2,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
@@ -1243,12 +1243,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "경운기입니다.",
+        "바둑입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "버스입니다."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1263,12 +1263,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "영화 보기",
+        "일을 하고 있습니다.",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "책을 읽고 있습니다."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
     },
     {
@@ -1283,10 +1283,10 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "바둑",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "청소를 하고 있습니다.",
+        "운동을 하고 있습니다."
       ],
       "answer": 1,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
@@ -1303,12 +1303,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "춤추기",
+        "책을 읽고 있습니다.",
+        "밥을 먹고 있습니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
     },
     {
@@ -1323,12 +1323,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "피아노를 치고 있습니다.",
+        "춤추기",
+        "청소를 하고 있습니다.",
+        "운동을 하고 있습니다."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1343,14 +1343,76 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 취미에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "공방",
+      "romanization": "gongbang",
+      "bn": "শিল্পকর্মের কর্মশালা (হাতে তৈরি কাজ বা ক্লাস হওয়ার জায়গা)",
+      "en": "workshop; studio (for crafts)",
+      "pos": "noun",
+      "example": {
+        "ko": "주말에 도자기 공방에 가서 직접 컵을 만들어 보았습니다.",
+        "bn": "সপ্তাহান্তে সারামিক ওয়ার্কশপে গিয়ে নিজেরাই একটি কাপ বানিয়ে দেখেছি।",
+        "en": "On the weekend I went to a pottery workshop and made a cup myself."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 18
+    },
+    {
+      "ko": "수강료",
+      "romanization": "sugangryo",
+      "bn": "কোর্স-ফি (ক্লাস বা কোর্সে অংশ নেওয়ার জন্য পারিশ্রমিক)",
+      "en": "tuition fee; course fee",
+      "pos": "noun",
+      "example": {
+        "ko": "요가 클래스의 수강료는 한 달에 4만 원입니다.",
+        "bn": "যোগ ক্লাসের কোর্স ফি মাসে ৪০,০০০ ওয়ান।",
+        "en": "The tuition for the yoga class is 40,000 won per month."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 18
+    },
+    {
+      "ko": "정기모임",
+      "romanization": "jeonggimoim",
+      "bn": "নিয়মিত বৈঠক/মিলন (নির্দিষ্ট সময়ে হওয়া সখের গ্রুপের মিলন)",
+      "en": "regular meeting/group gathering",
+      "pos": "noun",
+      "example": {
+        "ko": "취미 관련 정기모임에 참여하면 같은 관심사를 가진 사람들을 만날 수 있습니다.",
+        "bn": "শখ ভিত্তিক নিয়মিত মিলনে যোগ দিলে একই আগ্রহের মানুষদের সঙ্গে দেখা হয়।",
+        "en": "Joining a regular hobby meeting lets you meet people with the same interests."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 18
+    },
+    {
+      "ko": "창작활동",
+      "romanization": "changjakhwaldong",
+      "bn": "সৃজনকর্ম (নতুন কিছু তৈরি বা রচনা করার কার্যকলাপ)",
+      "en": "creative activity; creative work",
+      "pos": "noun",
+      "example": {
+        "ko": "저는 주말마다 그림 그리는 창작활동으로 스트레스를 풉니다.",
+        "bn": "আমি প্রতি সপ্তাহান্তে চিত্রাঙ্কন সৃজনকর্ম করে মানসিক চাপ কমাই।",
+        "en": "I relieve stress by doing creative painting activities every weekend."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 18
     }
   ]
 }

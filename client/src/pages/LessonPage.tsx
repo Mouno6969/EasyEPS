@@ -3,17 +3,19 @@ import { DialogueScript } from "@/components/DialogueScript";
 import { EpsQuestionImage } from "@/components/EpsQuestionImage";
 import { GuidedListening } from "@/components/GuidedListening";
 import { PronunciationCoach } from "@/components/PronunciationCoach";
+import { RecallDrill } from "@/components/RecallDrill";
 import { pushCelebration } from "@/components/CelebrationBanner";
 import { Button } from "@/components/ui/button";
 import { useLocale } from "@/contexts/LocaleContext";
 import { useBasicsGate } from "@/hooks/useBasicsGate";
-import { addLocalAttempt, updateChapterProgress, useLocalBasics, useLocalLearning } from "@/lib/localProgress";
+import { addLocalAttempt, recordItemResult, recordListeningEvidence, updateChapterProgress, useLocalBasics, useLocalLearning } from "@/lib/localProgress";
 import { speakDialogue, speakNamedDialogue } from "@/lib/dialogueSpeech";
 import { KOREAN_SPEECH_RATES, speakKorean, type KoreanSpeechRate } from "@/lib/speakKorean";
 import { recordWeakAttempt } from "@/lib/srs";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { isBasicsComplete } from "@shared/basics";
+import { diagnoseMistake, learningItemId, questionSkillTags, type ConfidenceLevel } from "@shared/learning";
 import type { EpsQuestion, Lesson, PracticeQuestion } from "@shared/lesson";
 import { ArrowLeft, ArrowRight, BookOpenText, Check, ChevronLeft, ChevronRight, Clock3, GraduationCap, Headphones, Layers3, Loader2, MessagesSquare, RotateCcw, Sparkles, Volume2, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
@@ -97,7 +99,7 @@ function VocabularyView({ lesson, done, onDone }: { lesson: Lesson; done?: boole
   const [speakRate, setSpeakRate] = useState<KoreanSpeechRate>(KOREAN_SPEECH_RATES.normal);
   const item = lesson.vocabulary[index];
   if (flashcards) return <section className="paper-card p-6 md:p-8"><div className="flex flex-wrap items-center justify-between gap-3"><div><p className="eyebrow">Flashcard {index + 1}/{lesson.vocabulary.length}</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">শব্দ মনে রাখুন</h2></div><div className="flex flex-wrap items-center gap-2"><SpeakRateToggle rate={speakRate} onChange={setSpeakRate} /><Button variant="outline" onClick={() => setFlashcards(false)} className="rounded-full">তালিকা</Button></div></div><button onClick={() => setFlipped(value => !value)} className="mt-8 grid min-h-80 w-full place-items-center rounded-[2rem] border border-[var(--gold)]/25 bg-[radial-gradient(circle_at_top,rgba(204,166,92,.18),transparent_45%)] p-8 text-center shadow-inner"><div>{flipped ? <><p className="font-serif text-4xl font-bold text-[var(--navy)]">{item.bn}</p><p className="mt-3 text-lg text-[var(--navy)]/55">{item.en}</p><div className="mx-auto mt-7 max-w-2xl rounded-2xl bg-white/70 p-5"><p className="text-xl font-bold text-[var(--navy)]">{item.example.ko}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/60">{item.example.bn}</p></div></> : <><p className="text-sm font-bold uppercase tracking-[.2em] text-[var(--gold-dark)]">{item.pos}</p><p className="mt-5 font-serif text-6xl font-bold text-[var(--navy)]">{item.ko}</p><p className="mt-3 text-lg text-[var(--navy)]/45">{item.romanization}</p><p className="mt-7 text-sm font-semibold text-[var(--navy)]/45">অর্থ দেখতে কার্ডে চাপুন</p></>}</div></button><div className="mt-6 flex items-center justify-between"><Button variant="outline" onClick={() => { setIndex(value => Math.max(0, value - 1)); setFlipped(false); }} disabled={index === 0} className="rounded-full"><ChevronLeft className="size-4" />আগেরটি</Button><button onClick={() => void speakKorean(item.ko, { rate: speakRate })} className="grid size-11 place-items-center rounded-full bg-[var(--gold)]/18 text-[var(--gold-dark)]"><Volume2 className="size-5" /></button><Button onClick={() => { if (index === lesson.vocabulary.length - 1) onDone(); else { setIndex(value => value + 1); setFlipped(false); } }} className="rounded-full bg-[var(--navy)] text-white">{index === lesson.vocabulary.length - 1 ? "সম্পন্ন" : "পরেরটি"}<ChevronRight className="size-4" /></Button></div></section>;
-  return <section className="paper-card p-6 md:p-8"><div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="eyebrow">{lesson.vocabulary.length}টি দরকারি শব্দ</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">শব্দভাণ্ডার</h2></div><div className="flex flex-wrap items-center gap-2"><SpeakRateToggle rate={speakRate} onChange={setSpeakRate} /><Button variant="outline" onClick={() => setFlashcards(true)} className="rounded-full"><RotateCcw className="size-4" />Flashcard mode</Button></div></div><div className="mt-7 grid gap-3">{lesson.vocabulary.map((word, wordIndex) => <div key={`${word.ko}-${wordIndex}`} className="group grid gap-4 rounded-2xl border border-[var(--navy)]/8 bg-white p-4 transition hover:border-[var(--gold)]/30 md:grid-cols-[1.1fr_1fr_2fr_auto] md:items-center"><div><p className="text-xl font-bold text-[var(--navy)]">{word.ko}</p><p className="mt-1 text-xs text-[var(--navy)]/42">{word.romanization} · {word.pos}</p></div><div><p className="font-bold text-[var(--navy)]">{word.bn}</p><p className="text-xs text-[var(--navy)]/45">{word.en}</p></div><div className="rounded-xl bg-[var(--cream)] px-4 py-3"><p className="font-semibold text-[var(--navy)]">{word.example.ko}</p><p className="mt-1 text-xs leading-5 text-[var(--navy)]/52">{word.example.bn}</p>{word.pronunciationTipBn ? <p className="mt-2 rounded-lg bg-[var(--gold)]/12 px-3 py-1.5 text-xs leading-5 text-[var(--gold-dark)]"><strong>উচ্চারণ:</strong> {word.pronunciationTipBn}</p> : null}</div><button onClick={() => void speakKorean(`${word.ko}. ${word.example.ko}`, { rate: speakRate })} aria-label="Play Korean" className="grid size-10 place-items-center rounded-full bg-[var(--gold)]/14 text-[var(--gold-dark)]"><Volume2 className="size-4" /></button></div>)}</div><CompleteButton done={done} onClick={onDone}>শব্দভাণ্ডার সম্পন্ন করুন</CompleteButton></section>;
+  return <><section className="paper-card p-6 md:p-8"><div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="eyebrow">{lesson.vocabulary.length}টি দরকারি শব্দ</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">শব্দভাণ্ডার</h2></div><div className="flex flex-wrap items-center gap-2"><SpeakRateToggle rate={speakRate} onChange={setSpeakRate} /><Button variant="outline" onClick={() => setFlashcards(true)} className="rounded-full"><RotateCcw className="size-4" />Flashcard mode</Button></div></div><div className="mt-7 grid gap-3">{lesson.vocabulary.map((word, wordIndex) => <div key={`${word.ko}-${wordIndex}`} className="group grid gap-4 rounded-2xl border border-[var(--navy)]/8 bg-white p-4 transition hover:border-[var(--gold)]/30 md:grid-cols-[1.1fr_1fr_2fr_auto] md:items-center"><div><p className="text-xl font-bold text-[var(--navy)]">{word.ko}</p><p className="mt-1 text-xs text-[var(--navy)]/42">{word.romanization} · {word.pos}</p></div><div><p className="font-bold text-[var(--navy)]">{word.bn}</p><p className="text-xs text-[var(--navy)]/45">{word.en}</p></div><div className="rounded-xl bg-[var(--cream)] px-4 py-3"><p className="font-semibold text-[var(--navy)]">{word.example.ko}</p><p className="mt-1 text-xs leading-5 text-[var(--navy)]/52">{word.example.bn}</p>{word.pronunciationTipBn ? <p className="mt-2 rounded-lg bg-[var(--gold)]/12 px-3 py-1.5 text-xs leading-5 text-[var(--gold-dark)]"><strong>উচ্চারণ:</strong> {word.pronunciationTipBn}</p> : null}</div><button onClick={() => void speakKorean(`${word.ko}. ${word.example.ko}`, { rate: speakRate })} aria-label="Play Korean" className="grid size-10 place-items-center rounded-full bg-[var(--gold)]/14 text-[var(--gold-dark)]"><Volume2 className="size-4" /></button></div>)}</div><CompleteButton done={done} onClick={onDone}>শব্দভাণ্ডার সম্পন্ন করুন</CompleteButton></section><RecallDrill words={lesson.vocabulary.slice(0, Math.min(12, lesson.vocabulary.length))} chapter={lesson.chapter} /></>;
 }
 
 function PracticeRunner({
@@ -119,6 +121,7 @@ function PracticeRunner({
   const questions = kind === "practice" ? lesson.practice : lesson.epsQuestions;
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [matching, setMatching] = useState<Record<string, Record<number, string>>>({});
+  const [confidence, setConfidence] = useState<Record<string, ConfidenceLevel>>({});
   const [submitted, setSubmitted] = useState(false);
   const [startedAt] = useState(Date.now());
   const [remaining, setRemaining] = useState(kind === "exam" ? 25 * 60 : 0);
@@ -134,6 +137,23 @@ function PracticeRunner({
 
   const finish = (finalScore: number) => {
     setSubmitted(true);
+    for (const question of questions) {
+      const isMatchingQuestion = kind === "practice" && (question as PracticeQuestion).type === "matching";
+      const correct = isMatchingQuestion
+        ? (question as PracticeQuestion).pairs.every((pair, pairIndex) => matching[question.id]?.[pairIndex] === pair.right)
+        : answers[question.id] === question.answer;
+      const itemKind = kind === "exam" ? ((question as EpsQuestion).section === "listening" ? "listening" : "eps") : "practice";
+      recordItemResult({
+        itemId: learningItemId(itemKind, kind === "exam" ? lesson.chapter : undefined, question.id),
+        kind: itemKind,
+        chapter: kind === "exam" ? lesson.chapter : undefined,
+        section: kind === "exam" ? (question as EpsQuestion).section : undefined,
+        skillTags: questionSkillTags(question),
+        correct,
+        confidence: confidence[question.id] ?? "guessed",
+        isRetentionCheck: Boolean(savedScore),
+      });
+    }
     onComplete(finalScore, questions.length, Math.round((Date.now() - startedAt) / 1000), { answers, matching });
   };
 
@@ -151,7 +171,7 @@ function PracticeRunner({
   });
 
   const submit = () => finish(score);
-  const reset = () => { setAnswers({}); setMatching({}); setSubmitted(false); };
+  const reset = () => { setAnswers({}); setMatching({}); setConfidence({}); setSubmitted(false); };
   return <section className="paper-card overflow-hidden"><div className="flex flex-col gap-4 border-b border-[var(--navy)]/8 p-6 md:flex-row md:items-center md:justify-between"><div><p className="eyebrow">{kind === "exam" ? "EPS-style chapter test" : "নিজেকে যাচাই করুন"}</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">{kind === "exam" ? "অধ্যায় পরীক্ষা" : "অনুশীলন"}</h2>{typeof savedScore === "number" && !submitted && <p className="mt-2 text-sm text-[var(--sage-dark)]">সর্বশেষ স্কোর: {savedScore}/{questions.length}</p>}</div>{kind === "exam" && <div className="inline-flex items-center gap-2 self-start rounded-full bg-[var(--navy)] px-4 py-2 font-mono text-sm font-bold text-white"><Clock3 className="size-4 text-[var(--gold)]" />{String(Math.floor(remaining / 60)).padStart(2, "0")}:{String(remaining % 60).padStart(2, "0")}</div>}</div><div className="divide-y divide-[var(--navy)]/8">{questions.map((question, questionIndex) => {
     const practice = question as PracticeQuestion;
     const isMatching = kind === "practice" && practice.type === "matching";
@@ -159,6 +179,8 @@ function PracticeRunner({
     const correct = isMatching ? practice.pairs.every((pair, index) => matching[practice.id]?.[index] === pair.right) : chosen === question.answer;
     const optionList = question.options ?? [];
     const isListening = kind === "exam" && (question as EpsQuestion).section === "listening";
+    const isAnswered = isMatching ? Object.keys(matching[practice.id] ?? {}).length === practice.pairs.length : typeof chosen === "number";
+    const diagnosis = submitted && !correct ? diagnoseMistake(question, chosen) : null;
     const passageText = "passage" in question ? question.passage : "";
     const questionImage =
       kind === "exam" ? (question as EpsQuestion).image : practice.image;
@@ -167,7 +189,7 @@ function PracticeRunner({
       {passageText ? (
         isListening && !submitted ? (
           <div className="mt-4 space-y-2">
-            <GuidedListening text={passageText} compact label="শুনতে চাপুন · script লুকানো" />
+            <GuidedListening text={passageText} compact label="শুনতে চাপুন · script লুকানো" onEvidenceChange={evidence => recordListeningEvidence({ itemId: learningItemId("listening", lesson.chapter, question.id), ...evidence })} />
             <p className="text-center text-xs font-semibold text-[var(--navy)]/45">EPS listening মোড: জমা দেওয়ার পর script দেখা যাবে।</p>
           </div>
         ) : (
@@ -183,11 +205,13 @@ function PracticeRunner({
         )
       ) : null}
       {isMatching ? <div className="mt-5 grid gap-3">{practice.pairs.map((pair, pairIndex) => <div key={`${pair.left}-${pairIndex}`} className="grid gap-2 sm:grid-cols-2 sm:items-center"><div className="rounded-xl bg-[var(--cream)] px-4 py-3 font-bold text-[var(--navy)]">{pair.left}</div><select disabled={submitted} value={matching[practice.id]?.[pairIndex] ?? ""} onChange={event => setMatching(previous => ({ ...previous, [practice.id]: { ...(previous[practice.id] ?? {}), [pairIndex]: event.target.value } }))} className="h-12 rounded-xl border border-[var(--navy)]/12 bg-white px-3"><option value="">সঠিক অর্থ বেছে নিন</option>{[...practice.pairs].sort((a, b) => a.right.localeCompare(b.right)).map(option => <option key={option.right} value={option.right}>{option.right}</option>)}</select></div>)}</div> : <div className="mt-5 grid gap-2 sm:grid-cols-2">{optionList.map((option, optionIndex) => { const selected = chosen === optionIndex; const revealCorrect = submitted && optionIndex === question.answer; const revealWrong = submitted && selected && optionIndex !== question.answer; return <button key={`${option}-${optionIndex}`} disabled={submitted} onClick={() => setAnswers(previous => ({ ...previous, [question.id]: optionIndex }))} className={`answer-option ${selected ? "answer-selected" : ""} ${revealCorrect ? "answer-correct" : ""} ${revealWrong ? "answer-wrong" : ""}`}><span>{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span>{revealCorrect && <Check className="ml-auto size-4" />}{revealWrong && <X className="ml-auto size-4" />}</button>; })}</div>}
+      {!submitted && isAnswered ? <div className="mt-5 rounded-2xl border border-[var(--gold)]/25 bg-[var(--gold)]/8 p-4"><p className="text-sm font-bold text-[var(--navy)]">আপনার confidence বেছে নিন</p><div className="mt-3 flex flex-wrap gap-2">{([['sure', 'নিশ্চিত'], ['uncertain', 'অনিশ্চিত'], ['guessed', 'অনুমান']] as Array<[ConfidenceLevel, string]>).map(([value, label]) => <button key={value} type="button" onClick={() => setConfidence(previous => ({ ...previous, [question.id]: value }))} className={`rounded-full border px-3 py-2 text-xs font-bold ${confidence[question.id] === value ? "border-[var(--gold-dark)] bg-[var(--gold)]/25 text-[var(--navy)]" : "border-[var(--navy)]/12 bg-white text-[var(--navy)]/55"}`}>{label}</button>)}</div></div> : null}
       {submitted && <div className={`mt-5 rounded-2xl p-4 text-sm leading-6 ${correct ? "bg-emerald-50 text-emerald-800" : "bg-red-50 text-red-800"}`}><strong>{correct ? "সঠিক।" : "সঠিক উত্তর দেখুন।"}</strong> {question.explanationBn}
-        {!correct ? <p className="mt-2 border-t border-red-200/80 pt-2 text-red-900/80"><strong>শেখার টিপ:</strong> {feedbackTipForQuestion(question, kind)}</p> : null}
+        {!correct && diagnosis ? <div className="mt-3 rounded-xl border border-red-200/80 bg-white/50 p-3"><p className="font-bold text-red-900">{diagnosis.titleBn}</p><p className="mt-1 text-red-900/75">{diagnosis.detailBn}</p><p className="mt-2 font-semibold text-red-900/90">পরের ধাপ: {diagnosis.nextStepBn}</p></div> : null}
+        {!correct ? <p className="mt-3 border-t border-red-200/80 pt-3 text-red-900/80"><strong>শেখার টিপ:</strong> {feedbackTipForQuestion(question, kind)}</p> : null}
       </div>}
     </div></div></article>;
-  })}</div><div className="flex flex-col gap-4 border-t border-[var(--navy)]/8 bg-[var(--cream)] p-6 sm:flex-row sm:items-center sm:justify-between">{submitted ? <><div><p className="font-serif text-3xl font-bold text-[var(--navy)]">স্কোর {score}/{questions.length}</p><p className="text-sm text-[var(--navy)]/50">{Math.round(score / questions.length * 100)}% · {score / questions.length >= .75 ? "ভালো করেছেন!" : "ব্যাখ্যা পড়ে আবার চেষ্টা করুন।"}</p></div><Button onClick={reset} variant="outline" className="rounded-full"><RotateCcw className="size-4" />আবার চেষ্টা</Button></> : <><p className="text-sm font-semibold text-[var(--navy)]/50">উত্তর দেওয়া হয়েছে {Object.keys(answers).length + Object.keys(matching).length}/{questions.length}</p><Button onClick={submit} className="rounded-full bg-[var(--navy)] px-7 text-white">উত্তর জমা দিন</Button></>}</div></section>;
+  })}</div><div className="flex flex-col gap-4 border-t border-[var(--navy)]/8 bg-[var(--cream)] p-6 sm:flex-row sm:items-center sm:justify-between">{submitted ? <><div><p className="font-serif text-3xl font-bold text-[var(--navy)]">স্কোর {score}/{questions.length}</p><p className="text-sm text-[var(--navy)]/50">{Math.round(score / questions.length * 100)}% · {score / questions.length >= .75 ? "ভালো করেছেন!" : "ব্যাখ্যা পড়ে আবার চেষ্টা করুন।"}</p></div><Button onClick={reset} variant="outline" className="rounded-full"><RotateCcw className="size-4" />আবার চেষ্টা</Button></> : <><p className="text-sm font-semibold text-[var(--navy)]/50">উত্তর দেওয়া হয়েছে {Object.values(answers).length + Object.values(matching).filter(value => Object.keys(value).length === (questions.find(question => question.id === Object.keys(matching).find(id => id === question.id)) as PracticeQuestion | undefined)?.pairs?.length).length}/{questions.length}</p><Button onClick={submit} className="rounded-full bg-[var(--navy)] px-7 text-white">উত্তর জমা দিন</Button></>}</div></section>;
 }
 
 export default function LessonPage() {

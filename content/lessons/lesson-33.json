@@ -1151,12 +1151,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "회의록입니다.",
+        "책입니다.",
+        "지갑입니다.",
+        "볼펜입니다."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1171,12 +1171,12 @@
         "kind": "illustration"
       },
       "options": [
+        "경운기입니다.",
         "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "버스입니다.",
+        "택시입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে মাল তোলার যন্ত্র ফর্কলিফট (지게차) আঁকা আছে।"
     },
     {
@@ -1191,12 +1191,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "화물차입니다.",
+        "자전거입니다.",
+        "오토바이입니다.",
+        "굴착기입니다."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে মাটি খননকারী যন্ত্র এক্সকেভেটার (굴착기) আঁকা আছে।"
     },
     {
@@ -1211,12 +1211,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "팀입니다.",
+        "자동차입니다.",
+        "기차입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1231,9 +1231,9 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
+        "부하 직원입니다.",
+        "버스입니다.",
+        "택시입니다.",
         "경운기입니다."
       ],
       "answer": 3,
@@ -1251,12 +1251,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
-        "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "안전모를 반드시 쓰세요.",
+        "바닥이 미끄러우니까 조심하세요.",
+        "불이 붙을 수 있으니까 조심하세요.",
+        "이 길로 통행하면 안 됩니다."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
     },
     {
@@ -1271,12 +1271,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
-        "펜치",
-        "쇠톱",
-        "망치"
+        "삽",
+        "드라이버",
+        "렌치",
+        "펜치"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে প্লায়ার্স (펜치) আঁকা আছে — এটি তার কাটা ও বাঁকানোর কাজে লাগে।"
     },
     {
@@ -1291,12 +1291,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
-        "펜치",
-        "쇠톱",
-        "망치"
+        "사다리",
+        "귀마개",
+        "망치",
+        "토치"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে হাতুড়ি (망치) আঁকা আছে — এটি পেরেক ঠুকে বসানোর কাজে লাগে।"
     },
     {
@@ -1311,12 +1311,12 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
+        "안전화",
+        "안전모",
         "작업복",
-        "비빔밥",
-        "기차표"
+        "귀마개"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     },
     {
@@ -1331,14 +1331,76 @@
         "kind": "illustration"
       },
       "options": [
+        "장화",
+        "앞치마",
         "반사 조끼를 입어야 합니다.",
-        "보호 장갑을 구매해야 합니다.",
-        "비상 계단을 이용해야 합니다.",
-        "환기 장치를 작동해야 합니다."
+        "반사 조끼"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 어두운 곳에서 작업할 때 무엇을 입어요? / 여: 반사 조끼를 입어야 해요."
+      "passage": "남자: 동료 관계에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "말투",
+      "romanization": "maltu",
+      "bn": "কথার ভঙ্গি/কথাবার্তার ধরণ",
+      "en": "tone (of speech)",
+      "pos": "noun",
+      "example": {
+        "ko": "같이 일하는 사람에게는 정중한 말투를 쓰는 것이 좋습니다.",
+        "bn": "একসাথে কাজ করা লোকেদের কাছে নম্র এবং ভদ্র ভঙ্গিতে কথা বলা ভালো।",
+        "en": "It's good to use a polite tone with people you work with."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 33
+    },
+    {
+      "ko": "의논",
+      "romanization": "uinon",
+      "bn": "আলোচনা/পরামর্শ",
+      "en": "discussion; consultation",
+      "pos": "noun",
+      "example": {
+        "ko": "문제가 생기면 빠르게 의논하여 해결 방안을 찾으세요.",
+        "bn": "সমস্যা হলে দ্রুত আলোচনা করে সমাধান খুঁজুন।",
+        "en": "If a problem arises, discuss it quickly to find a solution."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 33
+    },
+    {
+      "ko": "잡담",
+      "romanization": "jabdam",
+      "bn": "ছোটখাটো আলাপ/বাতচিত",
+      "en": "small talk; chit-chat",
+      "pos": "noun",
+      "example": {
+        "ko": "일이 바쁠 때는 불필요한 잡담을 줄이는 것이 예의입니다.",
+        "bn": "কাজ ব্যস্ত হলে অনাবশ্যক বলচাল কমানো শিষ্টাচার।",
+        "en": "When work is busy, reducing unnecessary small talk is polite."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 33
+    },
+    {
+      "ko": "인수인계",
+      "romanization": "insuinge",
+      "bn": "কাজ বা দায়িত্ব হস্তান্তর",
+      "en": "handover (of duties/work)",
+      "pos": "noun",
+      "example": {
+        "ko": "퇴근 전에는 다음 사람이 알 수 있도록 인수인계를 자세히 적어 두세요.",
+        "bn": "ছেড়ে যাওয়ার আগে পরবর্তী ব্যক্তির জন্য কাজের হস্তান্তর বিস্তারিত লিখে রাখুন।",
+        "en": "Before leaving, write detailed handover notes so the next person knows what to do."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 33
     }
   ]
 }

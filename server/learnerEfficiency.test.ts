@@ -11,6 +11,7 @@ import {
 import { pronunciationSimilarity } from "../client/src/components/PronunciationCoach";
 import {
   buildSmartMockQuestions,
+  questionContentKey,
   type MockQuestionCandidate,
 } from "../shared/smartMock";
 
@@ -66,8 +67,14 @@ function candidate(chapter: number, section: "reading" | "listening", index: num
     id: `${section}-${chapter}-${index}`,
     chapter,
     section,
+    passage: `${section} passage ${chapter}-${index}`,
+    questionBn: `${section} question ${chapter}-${index}`,
+    questionKo: `${section} question ${chapter}-${index}`,
+    options: [`option ${index} A`, `option ${index} B`, `option ${index} C`, `option ${index} D`],
+    answer: 0,
+    explanationBn: "explanation",
     lessonTitle: { bn: `অধ্যায় ${chapter}`, ko: `제${chapter}과`, en: `Chapter ${chapter}` },
-  } as unknown as MockQuestionCandidate;
+  } as MockQuestionCandidate;
 }
 
 describe("expanding-interval review scheduling", () => {
@@ -118,6 +125,19 @@ describe("adaptive smart mock selection", () => {
       Array.from({ length: 4 }, (_, index) => candidate(chapter, section, index)),
     ),
   );
+
+  it("collapses the same content across chapters and ignores answer-choice order", () => {
+    const first = candidate(1, "reading", 0);
+    const duplicate = { ...candidate(2, "reading", 1), passage: first.passage, options: [...first.options].reverse() };
+    expect(questionContentKey(first)).toBe(questionContentKey(duplicate));
+    const questions = buildSmartMockQuestions([first, duplicate, candidate(3, "reading", 2)], {
+      count: 10,
+      mode: "balanced",
+      focusSection: "reading",
+    });
+    expect(questions).toHaveLength(2);
+    expect(new Set(questions.map(question => questionContentKey(question))).size).toBe(2);
+  });
 
   it("preserves the EPS section ratio while prioritizing but not isolating weak chapters", () => {
     const questions = buildSmartMockQuestions(pool, { count: 20, mode: "smart", focusChapters: [1, 2] });
@@ -170,7 +190,8 @@ describe("readiness analytics", () => {
     const report = buildReadinessReport(state, reviews, new Date("2026-07-23T12:00:00.000Z"));
     expect(report.score).toBeGreaterThanOrEqual(90);
     expect(report.band).toBe("ready");
-    expect(report.components).toHaveLength(4);
+    expect(report.components).toHaveLength(5);
+    expect(report.components.map(component => component.id)).toContain("retention");
     expect(report.trend).toHaveLength(6);
     expect(report.targetDaysRemaining).toBe(30);
   });

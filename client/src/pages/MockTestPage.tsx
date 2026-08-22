@@ -2,9 +2,10 @@ import { DialogueScript } from "@/components/DialogueScript";
 import { EpsQuestionImage } from "@/components/EpsQuestionImage";
 import { GuidedListening } from "@/components/GuidedListening";
 import { Button } from "@/components/ui/button";
-import { addLocalAttempt, useLocalLearning } from "@/lib/localProgress";
+import { addLocalAttempt, recordItemResult, recordListeningEvidence, useLocalLearning } from "@/lib/localProgress";
 import { speakDialogue } from "@/lib/dialogueSpeech";
 import { listDueReviews, listRecentWeak, recordWeakAttempt } from "@/lib/srs";
+import { diagnoseMistake, learningItemId, questionSkillTags, type ConfidenceLevel } from "@shared/learning";
 import { deriveSmartMockFocus } from "@/lib/smartMock";
 import { getWeeklyChallenge, recordWeeklyChallengeScore } from "@/lib/weeklyChallenge";
 import { trpc } from "@/lib/trpc";
@@ -46,10 +47,21 @@ export default function MockTestPage() {
     () => deriveSmartMockFocus(learning, reviewFocus, focusSection),
     [learning, reviewFocus, focusSection],
   );
+  const smartItemIds = useMemo(
+    () => Object.values(learning.itemEvidence)
+      .filter(item => item.attempts > 0 && (item.mastery < 75 || item.lastCorrect === false || item.lastConfidence !== "sure"))
+      .sort((a, b) => a.mastery - b.mastery)
+      .slice(0, 100)
+      .map(item => item.itemId),
+    [learning.itemEvidence],
+  );
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, number>>({});
+  const [confidence, setConfidence] = useState<Record<string, ConfidenceLevel>>({});
+  const [responseTimes, setResponseTimes] = useState<Record<string, number>>({});
+  const [questionStartedAt, setQuestionStartedAt] = useState(Date.now());
   const [remaining, setRemaining] = useState(50 * 60);
   const [startedAt, setStartedAt] = useState(0);
   const query = trpc.curriculum.mockTest.useQuery(
@@ -58,6 +70,7 @@ export default function MockTestPage() {
       mode,
       focusChapters: mode === "smart" ? smartFocus.chapters : [],
       focusSection: mode === "smart" ? focusSection : "auto",
+      focusItemIds: mode === "smart" ? smartItemIds : [],
     },
     { enabled: started, retry: false, refetchOnWindowFocus: false },
   );
@@ -69,7 +82,24 @@ export default function MockTestPage() {
   const finish = () => {
     if (!questions.length || finished) return;
     const durationSec = Math.max(1, Math.round((Date.now() - startedAt) / 1000));
+    const finalResponseTimes = current ? { ...responseTimes, [current.testId]: (responseTimes[current.testId] ?? 0) + Math.max(0, Date.now() - questionStartedAt) } : responseTimes;
+    setResponseTimes(finalResponseTimes);
     setFinished(true);
+    for (const question of questions) {
+      const itemKind = question.section === "listening" ? "listening" : "eps";
+      const itemId = learningItemId(itemKind, question.chapter, question.id);
+      recordItemResult({
+        itemId,
+        kind: itemKind,
+        chapter: question.chapter,
+        section: question.section,
+        skillTags: questionSkillTags(question),
+        correct: answers[question.testId] === question.answer,
+        confidence: confidence[question.testId] ?? "guessed",
+        responseMs: finalResponseTimes[question.testId],
+        isRetentionCheck: Boolean(learning.itemEvidence[itemId]),
+      });
+    }
     addLocalAttempt({ kind: "mock-test", score, total: questions.length, durationSec });
     recordWeakAttempt({
       kind: "mock",
@@ -90,6 +120,10 @@ export default function MockTestPage() {
           id: question.id,
           testId: question.testId,
         })),
+        detail: {
+          confidence,
+          itemEvidenceIds: questions.map(question => learningItemId(question.section === "listening" ? "listening" : "eps", question.chapter, question.id)),
+        },
       });
     }
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -105,10 +139,20 @@ export default function MockTestPage() {
   });
 
   const begin = () => {
-    setStarted(true); setFinished(false); setIndex(0); setAnswers({}); setStartedAt(Date.now());
+    const now = Date.now();
+    setStarted(true); setFinished(false); setIndex(0); setAnswers({}); setConfidence({}); setResponseTimes({}); setQuestionStartedAt(now); setStartedAt(now);
     setRemaining(count === 40 ? 50 * 60 : count === 20 ? 25 * 60 : 12 * 60);
   };
-  const reset = () => { setStarted(false); setFinished(false); setAnswers({}); setIndex(0); };
+  const reset = () => { setStarted(false); setFinished(false); setAnswers({}); setConfidence({}); setResponseTimes({}); setIndex(0); };
+
+  const goToQuestion = (nextIndex: number) => {
+    if (!current || nextIndex === index) return;
+    const now = Date.now();
+    setResponseTimes(previous => ({ ...previous, [current.testId]: (previous[current.testId] ?? 0) + Math.max(0, now - questionStartedAt) }));
+    setQuestionStartedAt(now);
+    setIndex(nextIndex);
+  };
+  const averageTimeSec = questions.length ? Math.round(Object.values(responseTimes).reduce((sum, value) => sum + value, 0) / questions.length / 1000) : 0;
 
   if (!started) return <>
     <section className="bg-[var(--navy)] text-white"><div className="sacred-grid-dark"><div className="container grid min-h-[420px] items-center gap-10 py-16 lg:grid-cols-[1fr_.55fr]"><div><p className="eyebrow text-[var(--gold)]">Realistic EPS practice</p><h1 className="mt-4 font-serif text-5xl font-bold md:text-6xl">পূর্ণাঙ্গ মক টেস্ট</h1><p className="mt-5 max-w-2xl text-lg leading-8 text-white/60">সময় নিয়ন্ত্রণ, reading ও listening প্রশ্ন, তাৎক্ষণিক স্কোর এবং বিস্তারিত ব্যাখ্যার মাধ্যমে পরীক্ষার পরিবেশে নিজেকে যাচাই করুন।</p></div><GraduationCap className="mx-auto size-40 text-[var(--gold)]/25" /></div></div></section>
@@ -133,7 +177,7 @@ export default function MockTestPage() {
       {mode === "smart" && (
         <div className="mt-4 rounded-2xl bg-[var(--cream)] p-4">
           <div className="flex flex-wrap items-center justify-between gap-3">
-            <div><p className="text-sm font-bold text-[var(--navy)]">ফোকাস: {smartFocus.chapters.length ? smartFocus.chapters.map(chapter => `অধ্যায় ${chapter}`).join(", ") : "নতুন balanced baseline"}</p><p className="mt-1 text-xs text-[var(--navy)]/48">{smartFocus.reasons.join(" · ")}</p></div>
+            <div><p className="text-sm font-bold text-[var(--navy)]">ফোকাস: {smartFocus.chapters.length ? smartFocus.chapters.map(chapter => `অধ্যায় ${chapter}`).join(", ") : smartItemIds.length ? `${smartItemIds.length}টি weak item` : "নতুন balanced baseline"}</p><p className="mt-1 text-xs text-[var(--navy)]/48">{smartFocus.reasons.join(" · ")}</p></div>
             <div className="inline-flex rounded-full border border-[var(--navy)]/10 bg-white p-1 text-xs font-bold">
               {(["auto", "reading", "listening"] as const).map(section => <button key={section} type="button" onClick={() => setFocusSection(section)} className={`rounded-full px-3 py-1.5 ${focusSection === section ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/50"}`}>{section === "auto" ? "Auto" : section === "reading" ? "Reading" : "Listening"}</button>)}
             </div>
@@ -145,7 +189,7 @@ export default function MockTestPage() {
 
   if (query.isLoading || !current) return <div className="container py-32 text-center"><Loader2 className="mx-auto size-8 animate-spin text-[var(--gold-dark)]" /><p className="mt-4 font-semibold text-[var(--navy)]/55">প্রশ্নপত্র তৈরি হচ্ছে…</p></div>;
 
-  if (finished) return <div className="container py-12"><section className="mx-auto max-w-4xl paper-card overflow-hidden"><div className="bg-[var(--navy)] p-8 text-center text-white md:p-12"><span className="mx-auto grid size-16 place-items-center rounded-full bg-[var(--gold)] text-[var(--navy)]"><GraduationCap className="size-7" /></span><p className="mt-6 text-sm font-bold uppercase tracking-[.2em] text-[var(--gold)]">Mock test complete</p><h1 className="mt-3 font-serif text-5xl font-bold">{score}/{questions.length}</h1><p className="mt-3 text-xl text-white/65">{Math.round(score / questions.length * 100)}% · {score / questions.length >= .8 ? "অসাধারণ প্রস্তুতি!" : score / questions.length >= .6 ? "ভালো—আরও অনুশীলন করুন।" : "ভিত্তি শক্ত করতে পাঠগুলো পুনরালোচনা করুন।"}</p></div><div className="flex flex-wrap items-center justify-center gap-3 border-b border-[var(--navy)]/8 p-6"><Button onClick={reset} variant="outline" className="rounded-full"><RotateCcw className="size-4" />নতুন পরীক্ষা</Button><Link href="/dashboard"><Button className="rounded-full bg-[var(--navy)] text-white">অগ্রগতি দেখুন</Button></Link></div><div className="divide-y divide-[var(--navy)]/8">{questions.map((question, questionIndex) => { const selected = answers[question.testId]; const correct = selected === question.answer; return <article key={question.testId} className="p-6 md:p-8"><div className="flex gap-4"><span className={`grid size-9 shrink-0 place-items-center rounded-full ${correct ? "bg-emerald-600" : "bg-red-600"} text-white`}>{correct ? <Check className="size-4" /> : <X className="size-4" />}</span><div className="min-w-0 flex-1"><p className="text-xs font-bold text-[var(--gold-dark)]">অধ্যায় {question.chapter} · {question.section === "reading" ? "READING" : "LISTENING"}</p><p className="mt-2 font-bold leading-7 text-[var(--navy)]">{question.questionBn}</p><p className="mt-1 font-semibold text-[var(--navy)]">{question.questionKo}</p>
+  if (finished) return <div className="container py-12"><section className="mx-auto max-w-4xl paper-card overflow-hidden"><div className="bg-[var(--navy)] p-8 text-center text-white md:p-12"><span className="mx-auto grid size-16 place-items-center rounded-full bg-[var(--gold)] text-[var(--navy)]"><GraduationCap className="size-7" /></span><p className="mt-6 text-sm font-bold uppercase tracking-[.2em] text-[var(--gold)]">Mock test complete</p><h1 className="mt-3 font-serif text-5xl font-bold">{score}/{questions.length}</h1><p className="mt-3 text-xl text-white/65">{Math.round(score / questions.length * 100)}% · {score / questions.length >= .8 ? "অসাধারণ প্রস্তুতি!" : score / questions.length >= .6 ? "ভালো—আরও অনুশীলন করুন।" : "ভিত্তি শক্ত করতে পাঠগুলো পুনরালোচনা করুন।"}</p><p className="mt-3 text-sm text-white/45">গড় সময়: {averageTimeSec || "—"} সেকেন্ড/প্রশ্ন · confidence ও ভুলের ধরনও সংরক্ষিত হয়েছে</p></div><div className="flex flex-wrap items-center justify-center gap-3 border-b border-[var(--navy)]/8 p-6"><Button onClick={reset} variant="outline" className="rounded-full"><RotateCcw className="size-4" />নতুন পরীক্ষা</Button><Link href="/dashboard"><Button className="rounded-full bg-[var(--navy)] text-white">অগ্রগতি দেখুন</Button></Link></div><div className="divide-y divide-[var(--navy)]/8">{questions.map((question, questionIndex) => { const selected = answers[question.testId]; const correct = selected === question.answer; const diagnosis = !correct ? diagnoseMistake(question, selected) : null; return <article key={question.testId} className="p-6 md:p-8"><div className="flex gap-4"><span className={`grid size-9 shrink-0 place-items-center rounded-full ${correct ? "bg-emerald-600" : "bg-red-600"} text-white`}>{correct ? <Check className="size-4" /> : <X className="size-4" />}</span><div className="min-w-0 flex-1"><p className="text-xs font-bold text-[var(--gold-dark)]">অধ্যায় {question.chapter} · {question.section === "reading" ? "READING" : "LISTENING"}</p><p className="mt-2 font-bold leading-7 text-[var(--navy)]">{question.questionBn}</p><p className="mt-1 font-semibold text-[var(--navy)]">{question.questionKo}</p>
             {question.image ? <EpsQuestionImage image={question.image} compact /> : null}
             {question.passage ? (
               <div className="mt-4 rounded-2xl bg-[var(--cream)] p-4 text-sm leading-7 text-[var(--navy)]/75">
@@ -160,15 +204,15 @@ export default function MockTestPage() {
             ) : null}
             <div className="mt-4 grid gap-2 sm:grid-cols-2">{question.options.map((option, optionIndex) => <div key={optionIndex} className={`rounded-xl border px-4 py-3 text-sm ${optionIndex === question.answer ? "border-emerald-300 bg-emerald-50 font-bold text-emerald-800" : optionIndex === selected ? "border-red-300 bg-red-50 text-red-800" : "border-[var(--navy)]/8 text-[var(--navy)]/55"}`}>{String.fromCharCode(65 + optionIndex)}. {option}</div>)}</div>
             <p className="mt-4 rounded-xl bg-[var(--cream)] p-4 text-sm leading-6 text-[var(--navy)]/65">{question.explanationBn}</p>
-            {!correct ? <p className="mt-3 rounded-xl border border-red-200 bg-red-50 p-3 text-sm leading-6 text-red-900"><strong>শেখার টিপ:</strong> {question.section === "listening" ? "আবার audio শুনে মূল শব্দ/স্থান/সময় ধরুন; vocabulary ট্যাবে অপরিচিত শব্দ রিভিউ করুন।" : "passage-এর সাথে বিকল্প মিলিয়ে দেখুন—অতিরিক্ত অনুমান এড়িয়ে চলুন।"}</p> : null}
+            {!correct && diagnosis ? <div className="mt-3 rounded-xl border border-red-200 bg-red-50 p-3 text-sm leading-6 text-red-900"><p><strong>ভুলের ধরন:</strong> {diagnosis.titleBn}</p><p className="mt-1"><strong>পরের ধাপ:</strong> {diagnosis.nextStepBn}</p></div> : null}
           </div></div></article>; })}</div></section></div>;
 
   return <div className="container py-7"><div className="mb-5 flex flex-wrap items-center justify-between gap-4 rounded-2xl bg-[var(--navy)] px-5 py-4 text-white"><div><p className="text-xs font-bold uppercase tracking-wider text-[var(--gold)]">EasyEPS Mock Test</p><p className="mt-1 text-sm text-white/55">প্রশ্ন {index + 1}/{questions.length} · উত্তর {Object.keys(answers).length}</p></div><div className={`inline-flex items-center gap-2 rounded-full px-4 py-2 font-mono font-bold ${remaining < 300 ? "bg-red-600" : "bg-white/10"}`}><Clock3 className="size-4 text-[var(--gold)]" />{String(Math.floor(remaining / 60)).padStart(2, "0")}:{String(remaining % 60).padStart(2, "0")}</div></div><div className="grid gap-6 lg:grid-cols-[1fr_260px]"><section className="paper-card overflow-hidden"><div className="border-b border-[var(--navy)]/8 p-6 md:p-8"><div className="flex items-center justify-between gap-4"><span className="rounded-full bg-[var(--gold)]/14 px-3 py-1 text-xs font-bold text-[var(--gold-dark)]">{current.section === "reading" ? "읽기 · READING" : "듣기 · LISTENING"}</span><span className="text-xs font-semibold text-[var(--navy)]/40">অধ্যায় {current.chapter}</span></div><h1 className="mt-6 text-lg font-bold leading-8 text-[var(--navy)]">{current.questionBn}</h1><p className="mt-2 text-xl font-semibold leading-8 text-[var(--navy)]">{current.questionKo}</p>{current.image ? <div className="mt-2"><EpsQuestionImage image={current.image} /></div> : null}{current.section === "listening" ? (
                 <div className="mt-6 space-y-2">
-                  <GuidedListening text={current.passage} label="Audio শুনতে চাপুন" />
+                  <GuidedListening text={current.passage} label="Audio শুনতে চাপুন" onEvidenceChange={evidence => recordListeningEvidence({ itemId: learningItemId("listening", current.chapter, current.id), ...evidence })} />
                   <p className="text-center text-xs font-semibold text-[var(--navy)]/45">Listening script পরীক্ষা চলাকালীন লুকানো—জমা দেওয়ার পর দেখা যাবে।</p>
                 </div>
               ) : current.passage ? (
                 <div className="mt-6 rounded-2xl bg-[var(--cream)] p-5 text-lg font-semibold leading-8 text-[var(--navy)]">{current.passage}</div>
-              ) : null}</div><div className="grid gap-3 p-6 md:p-8">{current.options.map((option, optionIndex) => <button key={optionIndex} onClick={() => setAnswers(previous => ({ ...previous, [current.testId]: optionIndex }))} className={`answer-option min-h-14 ${answers[current.testId] === optionIndex ? "answer-selected" : ""}`}><span>{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>)}</div><div className="flex items-center justify-between border-t border-[var(--navy)]/8 bg-[var(--cream)] p-5"><Button variant="outline" disabled={index === 0} onClick={() => setIndex(value => value - 1)} className="rounded-full"><ChevronLeft className="size-4" />আগেরটি</Button>{index === questions.length - 1 ? <Button onClick={finish} className="rounded-full bg-[var(--gold-dark)] text-white">পরীক্ষা জমা দিন</Button> : <Button onClick={() => setIndex(value => value + 1)} className="rounded-full bg-[var(--navy)] text-white">পরেরটি<ChevronRight className="size-4" /></Button>}</div></section><aside className="paper-card h-fit p-5 lg:sticky lg:top-28"><div className="flex items-center gap-2"><Headphones className="size-5 text-[var(--gold-dark)]" /><h2 className="font-bold text-[var(--navy)]">Question palette</h2></div><div className="mt-5 grid grid-cols-5 gap-2">{questions.map((question, questionIndex) => <button key={question.testId} onClick={() => setIndex(questionIndex)} className={`grid aspect-square place-items-center rounded-lg text-xs font-bold ${index === questionIndex ? "ring-2 ring-[var(--gold)] ring-offset-2" : ""} ${typeof answers[question.testId] === "number" ? "bg-[var(--navy)] text-white" : "bg-[var(--cream)] text-[var(--navy)]/55"}`}>{questionIndex + 1}</button>)}</div><div className="mt-6 border-t border-[var(--navy)]/8 pt-5 text-xs leading-6 text-[var(--navy)]/50"><p><span className="mr-2 inline-block size-2 rounded-full bg-[var(--navy)]" />উত্তর দেওয়া হয়েছে</p><p><span className="mr-2 inline-block size-2 rounded-full bg-[var(--cream)] ring-1 ring-[var(--navy)]/10" />উত্তর বাকি</p></div><Button onClick={() => { if (confirm("পরীক্ষা জমা দিতে চান?")) finish(); }} variant="outline" className="mt-5 w-full rounded-full border-[var(--navy)]/18">এখনই জমা দিন</Button></aside></div></div>;
+              ) : null}</div><div className="grid gap-3 p-6 md:p-8">{current.options.map((option, optionIndex) => <button key={optionIndex} onClick={() => setAnswers(previous => ({ ...previous, [current.testId]: optionIndex }))} className={`answer-option min-h-14 ${answers[current.testId] === optionIndex ? "answer-selected" : ""}`}><span>{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>)}</div><div className="mt-5 rounded-2xl border border-[var(--gold)]/25 bg-[var(--gold)]/8 p-4"><p className="text-sm font-bold text-[var(--navy)]">এই উত্তরের confidence</p><div className="mt-3 flex flex-wrap gap-2">{([['sure', 'নিশ্চিত'], ['uncertain', 'অনিশ্চিত'], ['guessed', 'অনুমান']] as Array<[ConfidenceLevel, string]>).map(([value, label]) => <button key={value} type="button" onClick={() => setConfidence(previous => ({ ...previous, [current.testId]: value }))} className={`rounded-full border px-3 py-2 text-xs font-bold ${confidence[current.testId] === value ? "border-[var(--gold-dark)] bg-[var(--gold)]/25 text-[var(--navy)]" : "border-[var(--navy)]/12 bg-white text-[var(--navy)]/55"}`}>{label}</button>)}</div></div><div className="flex items-center justify-between border-t border-[var(--navy)]/8 bg-[var(--cream)] p-5"><Button variant="outline" disabled={index === 0} onClick={() => goToQuestion(index - 1)} className="rounded-full"><ChevronLeft className="size-4" />আগেরটি</Button>{index === questions.length - 1 ? <Button onClick={finish} className="rounded-full bg-[var(--gold-dark)] text-white">পরীক্ষা জমা দিন</Button> : <Button onClick={() => goToQuestion(index + 1)} className="rounded-full bg-[var(--navy)] text-white">পরেরটি<ChevronRight className="size-4" /></Button>}</div></section><aside className="paper-card h-fit p-5 lg:sticky lg:top-28"><div className="flex items-center gap-2"><Headphones className="size-5 text-[var(--gold-dark)]" /><h2 className="font-bold text-[var(--navy)]">Question palette</h2></div><div className="mt-5 grid grid-cols-5 gap-2">{questions.map((question, questionIndex) => <button key={question.testId} onClick={() => goToQuestion(questionIndex)} className={`grid aspect-square place-items-center rounded-lg text-xs font-bold ${index === questionIndex ? "ring-2 ring-[var(--gold)] ring-offset-2" : ""} ${typeof answers[question.testId] === "number" ? "bg-[var(--navy)] text-white" : "bg-[var(--cream)] text-[var(--navy)]/55"}`}>{questionIndex + 1}</button>)}</div><div className="mt-6 border-t border-[var(--navy)]/8 pt-5 text-xs leading-6 text-[var(--navy)]/50"><p><span className="mr-2 inline-block size-2 rounded-full bg-[var(--navy)]" />উত্তর দেওয়া হয়েছে</p><p><span className="mr-2 inline-block size-2 rounded-full bg-[var(--cream)] ring-1 ring-[var(--navy)]/10" />উত্তর বাকি</p></div><Button onClick={() => { if (confirm("পরীক্ষা জমা দিতে চান?")) finish(); }} variant="outline" className="mt-5 w-full rounded-full border-[var(--navy)]/18">এখনই জমা দিন</Button></aside></div></div>;
 }

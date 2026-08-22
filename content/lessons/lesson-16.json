@@ -1138,12 +1138,12 @@
         "kind": "illustration"
       },
       "options": [
+        "깨끗하다입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "지갑입니다.",
+        "신발입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1158,12 +1158,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
+        "우산입니다.",
+        "가방입니다.",
         "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "시계입니다."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে একজোড়া কাঁচি (가위) আঁকা আছে।"
     },
     {
@@ -1178,12 +1178,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
+        "화장실입니다.",
         "안경입니다.",
-        "가방입니다."
+        "시계입니다.",
+        "휴대전화입니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1198,9 +1198,9 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
+        "시끄럽다입니다.",
+        "휴대전화입니다.",
+        "열쇠입니다.",
         "가방입니다."
       ],
       "answer": 3,
@@ -1218,12 +1218,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "자동차입니다.",
+        "기차입니다.",
+        "배입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1238,12 +1238,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
+        "전세입니다.",
+        "경운기입니다.",
         "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "트랙터입니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1258,12 +1258,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "이삿짐",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "피아노를 치고 있습니다.",
+        "책을 읽고 있습니다."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
     },
     {
@@ -1278,10 +1278,10 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "멀다",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "사진을 찍고 있습니다.",
+        "일을 하고 있습니다."
       ],
       "answer": 1,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
@@ -1298,12 +1298,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "거실",
         "친구를 만나고 있습니다.",
+        "밥을 먹고 있습니다.",
         "피아노를 치고 있습니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
     },
     {
@@ -1318,12 +1318,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "화장실",
+        "피아노를 치고 있습니다.",
+        "청소를 하고 있습니다.",
+        "운동을 하고 있습니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1338,14 +1338,76 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 집 구하기에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "임대료",
+      "romanization": "imdaeryo",
+      "bn": "ভাড়া (কোনো জায়গা ভাড়া নেওয়ার খরচ)",
+      "en": "rental fee; rent",
+      "pos": "noun",
+      "example": {
+        "ko": "이 아파트의 임대료는 월 50만 원입니다.",
+        "bn": "এই অ্যাপার্টমেন্টের ভাড়া প্রতি মাসে ৫০만 ওয়ান।",
+        "en": "The rent for this apartment is 500,000 won per month."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 16
+    },
+    {
+      "ko": "계약금",
+      "romanization": "gyeyakgeum",
+      "bn": "চুক্তি-অগ্রিম (করশিদ বা চুক্তির সময় নগদ অগ্রিম)",
+      "en": "deposit (upon signing a contract)",
+      "pos": "noun",
+      "example": {
+        "ko": "집을 계약할 때 계약금으로 총액의 10%를 냈습니다.",
+        "bn": "বাড়ি চুক্তি করার সময় মোট মূল্যর ১০% অগ্রিম দিয়েছি।",
+        "en": "When signing for the house, I paid 10% of the total amount as a deposit."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 16
+    },
+    {
+      "ko": "확정일자",
+      "romanization": "hwakjeongilja",
+      "bn": "নিশ্চিত তারিখ (계약서에 신고해 법적 보호를 받는 날짜)",
+      "en": "registered date (official date stamp on a lease for legal protection)",
+      "pos": "noun",
+      "example": {
+        "ko": "계약서에 확정일자를 받으면 보증금을 더 안전하게 보호받을 수 있습니다.",
+        "bn": "চুক্তিপত্রে '확정일자' নিলে আপনার জামানত টাকা আরও নিরাপদে রক্ষা করা যায়।",
+        "en": "If you obtain a registered date on the contract, your deposit can be better protected."
+      },
+      "pronunciationTipBn": "‘확정일자’에서 '확'의 받침 ㄱ은 약하게 들립니다; '확-정-일-자'로 끊어 발음하세요.",
+      "layer": "exam-transfer",
+      "sourceChapter": 16
+    },
+    {
+      "ko": "층간소음",
+      "romanization": "cheunggansoeum",
+      "bn": "তলাবিস্তরের গোলমাল (তার নিচে বা ওপরের তলায় শব্দ হওয়া)",
+      "en": "noise between floors; inter-floor noise",
+      "pos": "noun",
+      "example": {
+        "ko": "계약 전에 낮에 방문해서 층간소음 정도를 꼭 확인하세요.",
+        "bn": "চুক্তি করার আগে দিনের বেলায় গিয়ে তলাবিস্তরের শব্দ কেমন তা অবশ্যই পরীক্ষা করুন।",
+        "en": "Before signing the contract, visit during the day and check the level of inter-floor noise."
+      },
+      "pronunciationTipBn": "‘층’은 'চুং'처럼 들립니다; 합쳐서 '층-간-소-음'으로 천천히 소리내 보세요.",
+      "layer": "exam-transfer",
+      "sourceChapter": 16
     }
   ]
 }

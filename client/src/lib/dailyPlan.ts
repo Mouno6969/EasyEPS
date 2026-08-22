@@ -1,5 +1,6 @@
 import type { LocalLearningState, LocalPlannerItem } from "@/lib/localProgress";
 import { hrefForReview, type ReviewItem } from "@/lib/srs";
+import { isDue, summarizeItemEvidence } from "@shared/learning";
 
 export type DailyPlanTask = {
   id: string;
@@ -15,6 +16,8 @@ export type DailyPlanTask = {
 export type DailyPlan = {
   date: string;
   goalMinutes: number;
+  sessionOptions: Array<{ minutes: number; titleBn: string; detailBn: string; href: string }>;
+
   studiedMinutes: number;
   plannedMinutes: number;
   progressPercent: number;
@@ -72,6 +75,26 @@ export function buildDailyPlan(input: {
     .map(plannerTask);
   const chapterIds = new Set(tasks.map(task => `${task.kind}-${task.href}`));
 
+  const dueItems = Object.values(input.state.itemEvidence ?? {})
+    .filter(item => isDue(item, date))
+    .sort((a, b) => a.mastery - b.mastery || a.lastAttemptedAt.localeCompare(b.lastAttemptedAt));
+  for (const item of dueItems.slice(0, 3)) {
+    const href = item.section === "listening" ? "/listening" : item.chapter ? `/lesson/${item.chapter}` : "/curriculum";
+    const key = `item-${item.itemId}`;
+    if (chapterIds.has(key)) continue;
+    tasks.push({
+      id: `item-review-${item.itemId}`,
+      kind: "review",
+      titleBn: item.section === "listening" ? "Listening · দুর্বল আইটেম" : "দুর্বল আইটেম · active recall",
+      detailBn: `${item.mastery}% mastery · ${item.attempts} বার চেষ্টা · আজ review দরকার`,
+      href,
+      minutes: item.section === "listening" ? 10 : 7,
+      done: false,
+      source: "review",
+    });
+    chapterIds.add(key);
+  }
+
   for (const review of input.dueReviews.slice(0, 3)) {
     const href = hrefForReview(review);
     const key = `review-${href}`;
@@ -117,10 +140,18 @@ export function buildDailyPlan(input: {
   }
 
   const plannedMinutes = tasks.filter(task => !task.done).reduce((sum, task) => sum + task.minutes, 0);
+  const evidence = summarizeItemEvidence(input.state.itemEvidence);
+  const weakestHref = evidence.listeningAccuracy > 0 && evidence.listeningAccuracy < evidence.itemAccuracy ? "/listening" : input.hangulReady ? `/lesson/${input.nextChapter}` : "/basics";
+  const sessionOptions = [
+    { minutes: 10, titleBn: "১০ মিনিট · দ্রুত recall", detailBn: dueItems.length ? "আজকের due item আগে ঝালাই করুন" : "৩টি নতুন শব্দ ও ৫টি mixed question", href: dueItems[0]?.section === "listening" ? "/listening" : "/mock-test?count=10&mode=smart" },
+    { minutes: 20, titleBn: "২০ মিনিট · শেখা + review", detailBn: "একটি lesson segment, active recall ও listening", href: weakestHref },
+    { minutes: 30, titleBn: "৩০ মিনিট · complete study block", detailBn: "due review, mixed practice ও mini test", href: "/mock-test?count=20&mode=smart" },
+  ];
   const progressPercent = Math.min(100, Math.round((studiedMinutes / goalMinutes) * 100));
   return {
     date,
     goalMinutes,
+    sessionOptions,
     studiedMinutes,
     plannedMinutes,
     progressPercent,

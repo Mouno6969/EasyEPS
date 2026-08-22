@@ -1126,12 +1126,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
+        "짐을 싸다입니다.",
         "가위입니다.",
-        "안경입니다.",
+        "볼펜입니다.",
         "가방입니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1146,12 +1146,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
+        "짐을 싸다입니다.",
         "안경입니다.",
-        "가방입니다."
+        "가위입니다.",
+        "우산입니다."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে একজোড়া কাঁচি (가위) আঁকা আছে।"
     },
     {
@@ -1166,12 +1166,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
+        "짐을 싸다입니다.",
         "안경입니다.",
-        "가방입니다."
+        "우산입니다.",
+        "시계입니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1186,12 +1186,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "온천입니다.",
+        "가방입니다.",
+        "지갑입니다.",
+        "신발입니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি ব্যাগ (가방) আঁকা আছে।"
     },
     {
@@ -1206,12 +1206,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "펜션입니다.",
+        "자전거입니다.",
+        "오토바이입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1226,12 +1226,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "경운기입니다.",
+        "펜션입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "버스입니다."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1247,9 +1247,9 @@
       },
       "options": [
         "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "축제",
+        "버스를 타고 있습니다.",
+        "잠을 자고 있습니다."
       ],
       "answer": 0,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
@@ -1266,12 +1266,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "온천",
+        "청소를 하고 있습니다.",
+        "운동을 하고 있습니다."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
     },
     {
@@ -1286,12 +1286,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "축제",
+        "청소를 하고 있습니다.",
+        "운동을 하고 있습니다.",
+        "친구를 만나고 있습니다."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
     },
     {
@@ -1306,12 +1306,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "잠을 자고 있습니다.",
+        "버스를 타고 있습니다.",
+        "피아노를 치고 있습니다.",
+        "사진을 찍고 있습니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1326,14 +1326,76 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 휴가에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "성수기",
+      "romanization": "seongsugi",
+      "bn": "চরম মৌসুম (ভ্রমণে ভিড় বেশি থাকে এমন সময়)",
+      "en": "peak season",
+      "pos": "noun",
+      "example": {
+        "ko": "성수기에는 숙소 가격이 크게 오르니 미리 예약하세요.",
+        "bn": "চরম মৌসুমে হোটেলের দাম অনেক বাড়ে, তাই আগে থেকে বুক করুন।",
+        "en": "During peak season accommodation prices rise significantly, so book in advance."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 17
+    },
+    {
+      "ko": "비수기",
+      "romanization": "bisugi",
+      "bn": "অবনমনকাল (পর্যটনের শিথিল সময়ে ভাড়া ও ভিড় কম থাকে)",
+      "en": "off-season",
+      "pos": "noun",
+      "example": {
+        "ko": "비수기에는 관광지가 한적하고 숙박비가 저렴합니다.",
+        "bn": "অবনমনকালে দর্শনীয় স্থানগুলো শান্ত থাকে এবং থাকার খরচ কমে যায়।",
+        "en": "In the off-season tourist spots are less crowded and lodging is cheaper."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 17
+    },
+    {
+      "ko": "왕복",
+      "romanization": "wangbok",
+      "bn": "আসা-যাওয়া (একবার গিয়ে ফিরে আসা হিসেবে টিকেট)",
+      "en": "round-trip",
+      "pos": "noun",
+      "example": {
+        "ko": "왕복으로 예약하면 편리하고 가끔 할인도 받을 수 있습니다.",
+        "bn": "আসা-যাওয়ার টিকিট করলে সুবিধাজনক হয় এবং কখনোই ছাড়ও পাওয়া যায়।",
+        "en": "Booking a round-trip is convenient and sometimes comes with discounts."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 17
+    },
+    {
+      "ko": "관광안내소",
+      "romanization": "gwangwangannaeso",
+      "bn": "পর্যটন-তথ্যকেন্দ্র (দেখার জায়গা ও মানচিত্র দেয় এমন কেন্দ্র)",
+      "en": "tourist information center",
+      "pos": "noun",
+      "example": {
+        "ko": "도착하면 먼저 관광안내소에서 지도를 받아 일정과 교통편을 확인하세요.",
+        "bn": "পৌঁছানোর পর আগে পর্যটন তথ্যকেন্দ্রে গিয়ে মানচিত্র নিয়ে সময়সূচি ও যাতায়াত দেখুন।",
+        "en": "When you arrive, first get a map at the tourist information center and check your schedule and transport."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 17
     }
   ]
 }

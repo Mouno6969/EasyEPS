@@ -43,13 +43,15 @@ export function useGuestProgressMerge() {
       examTotal: row.examTotal ?? null,
       completed: row.completed,
     }));
-    const attempts = state.attempts.slice(0, 30).map(item => ({
-      kind: item.kind,
-      chapter: item.chapter ?? null,
-      score: item.score,
-      total: item.total,
-      durationSec: item.durationSec,
-    }));
+    const attempts = state.attempts
+      .slice(0, 30)
+      .flatMap(item => item.kind === "diagnostic" ? [] : [{
+        kind: item.kind as "practice" | "chapter-exam" | "mock-test",
+        chapter: item.chapter ?? null,
+        score: item.score,
+        total: item.total,
+        durationSec: item.durationSec,
+      }]);
     const studyDays = Object.entries(state.studyDays).map(([date, day]) => ({
       date,
       minutes: day.minutes,

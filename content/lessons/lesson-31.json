@@ -1156,12 +1156,12 @@
         "kind": "illustration"
       },
       "options": [
+        "작업복입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "책입니다.",
+        "지갑입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1176,12 +1176,12 @@
         "kind": "illustration"
       },
       "options": [
+        "자전거입니다.",
         "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "오토바이입니다.",
+        "화물차입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে মাল তোলার যন্ত্র ফর্কলিফট (지게차) আঁকা আছে।"
     },
     {
@@ -1196,12 +1196,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "근무 태도입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "굴착기입니다.",
+        "버스입니다."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে মাটি খননকারী যন্ত্র এক্সকেভেটার (굴착기) আঁকা আছে।"
     },
     {
@@ -1216,12 +1216,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
+        "단추입니다.",
+        "굴착기입니다.",
         "경운기입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1236,12 +1236,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "근무 태도입니다.",
+        "버스입니다.",
+        "경운기입니다.",
+        "자전거입니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1256,12 +1256,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
         "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "귀마개를 착용하세요.",
+        "물이 있을 수 있으니까 조심하세요.",
+        "전기가 흐르니까 조심하세요."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
     },
     {
@@ -1276,10 +1276,10 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
+        "안전모",
         "펜치",
-        "쇠톱",
-        "망치"
+        "귀마개",
+        "사다리"
       ],
       "answer": 1,
       "explanationBn": "ছবিতে প্লায়ার্স (펜치) আঁকা আছে — এটি তার কাটা ও বাঁকানোর কাজে লাগে।"
@@ -1296,12 +1296,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
-        "펜치",
-        "쇠톱",
-        "망치"
+        "보호 장갑",
+        "줄자",
+        "망치",
+        "안전모"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে হাতুড়ি (망치) আঁকা আছে — এটি পেরেক ঠুকে বসানোর কাজে লাগে।"
     },
     {
@@ -1316,12 +1316,12 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
-        "작업복",
-        "비빔밥",
-        "기차표"
+        "안전벨트",
+        "보호 안경",
+        "방진 마스크",
+        "작업복"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     },
     {
@@ -1336,14 +1336,76 @@
         "kind": "illustration"
       },
       "options": [
-        "반사 조끼를 입어야 합니다.",
-        "보호 장갑을 구매해야 합니다.",
-        "비상 계단을 이용해야 합니다.",
-        "환기 장치를 작동해야 합니다."
+        "우비",
+        "방진 마스크",
+        "안전벨트",
+        "반사 조끼를 입어야 합니다."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 어두운 곳에서 작업할 때 무엇을 입어요? / 여: 반사 조끼를 입어야 해요."
+      "passage": "남자: 복장과 근무 태도에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "드레스 코드",
+      "romanization": "deureseu kodeu",
+      "bn": "ড্রেস কোড (পোশাক নীতি)",
+      "en": "dress code",
+      "pos": "phrase",
+      "example": {
+        "ko": "회사에는 부서별 드레스 코드가 정해져 있습니다.",
+        "bn": "কোম্পানিতে বিভাগভিত্তিক ড্রেস কোড নির্ধারিত আছে।",
+        "en": "The company has a department-based dress code."
+      },
+      "pronunciationTipBn": "ড্রে-স কো-ডেু",
+      "layer": "exam-transfer",
+      "sourceChapter": 31
+    },
+    {
+      "ko": "소매",
+      "romanization": "somae",
+      "bn": "আস্তিন",
+      "en": "sleeve",
+      "pos": "noun",
+      "example": {
+        "ko": "기계 근처에서 작업할 때는 소매를 꼭 접어 올리세요.",
+        "bn": "মেশিনের কাছে কাজ করার সময় আস্তিন অবশ্যই তুলে নিন।",
+        "en": "When working near machines, make sure to roll up your sleeves."
+      },
+      "pronunciationTipBn": "소-메",
+      "layer": "exam-transfer",
+      "sourceChapter": 31
+    },
+    {
+      "ko": "옷차림",
+      "romanization": "otcharim",
+      "bn": "পোশাক/পোশাকের ধরন",
+      "en": "attire; outfit",
+      "pos": "noun",
+      "example": {
+        "ko": "현장 근무 시에는 안전 장비에 맞는 옷차림을 하세요.",
+        "bn": "ফিল্ডে কাজ করার সময় নিরাপত্তা সরঞ্জামের সাথে মিলিয়ে পোশাক পরুন।",
+        "en": "For on-site work, wear attire appropriate for safety equipment."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 31
+    },
+    {
+      "ko": "세탁 라벨",
+      "romanization": "setak rabel",
+      "bn": "ধোয়ার লেবেল",
+      "en": "care label (on clothing)",
+      "pos": "noun",
+      "example": {
+        "ko": "세탁 라벨을 확인한 후 회사에서 지급한 옷을 세탁하세요.",
+        "bn": "ধোয়ার লেবেল দেখে কোম্পানি দ্বারা দেওয়া পোশাক ধুয়ে নিন।",
+        "en": "Check the care label before washing company-provided clothes."
+      },
+      "pronunciationTipBn": "세-탁 라-벨",
+      "layer": "exam-transfer",
+      "sourceChapter": 31
     }
   ]
 }

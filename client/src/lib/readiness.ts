@@ -1,10 +1,11 @@
 import type { LocalLearningState } from "@/lib/localProgress";
 import type { ReviewItem } from "@/lib/srs";
+import { summarizeItemEvidence } from "@shared/learning";
 
 export type ReadinessBand = "foundation" | "building" | "near-ready" | "ready";
 
 export type ReadinessComponent = {
-  id: "assessment" | "coverage" | "review" | "consistency";
+  id: "assessment" | "coverage" | "review" | "consistency" | "retention";
   labelBn: string;
   score: number;
   weight: number;
@@ -26,6 +27,13 @@ export type ReadinessReport = {
   trend: ReadinessPoint[];
   insights: string[];
   targetDaysRemaining: number | null;
+  metrics: {
+    itemAccuracy: number;
+    novelAccuracy: number;
+    retentionAccuracy: number;
+    listeningAccuracy: number;
+    confidenceCalibration: number;
+  };
 };
 
 function clamp(value: number, min = 0, max = 100) {
@@ -51,6 +59,7 @@ function scoreAt(state: LocalLearningState, reviews: ReviewItem[], endDate: Date
   }).length;
   const coverage = clamp(Math.round((completed / 60) * 100));
 
+  const evidence = summarizeItemEvidence(state.itemEvidence);
   const attempts = state.attempts
     .filter(attempt => new Date(attempt.createdAt).getTime() <= end && attempt.total > 0)
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
@@ -81,8 +90,9 @@ function scoreAt(state: LocalLearningState, reviews: ReviewItem[], endDate: Date
     return time >= windowStart.getTime() && time <= end && value.minutes > 0;
   }).length;
   const consistency = clamp(Math.round((activeDays / 10) * 100));
-  const score = Math.round(assessment * 0.4 + coverage * 0.25 + review * 0.2 + consistency * 0.15);
-  return { score, assessment, coverage, review, consistency, completed, activeDays, attempts: attempts.length };
+  const retention = evidence.retentionItems > 0 ? evidence.retentionAccuracy : review;
+  const score = Math.round(assessment * 0.32 + coverage * 0.18 + review * 0.15 + consistency * 0.12 + retention * 0.23);
+  return { score, assessment, coverage, review, consistency, retention, completed, activeDays, attempts: attempts.length, evidence };
 }
 
 function bandFor(score: number): { band: ReadinessBand; label: string } {
@@ -116,41 +126,55 @@ export function buildReadinessReport(
       id: "assessment",
       labelBn: "পরীক্ষার নির্ভুলতা",
       score: current.assessment,
-      weight: 40,
+      weight: 32,
       detailBn: current.attempts ? `সাম্প্রতিক ${current.attempts}টি ফলের weighted average` : "এখনও কোনো graded attempt নেই",
     },
     {
       id: "coverage",
       labelBn: "পাঠ্যক্রম কভারেজ",
       score: current.coverage,
-      weight: 25,
+      weight: 18,
       detailBn: `${current.completed}/60 অধ্যায় সম্পন্ন`,
     },
     {
       id: "review",
       labelBn: "রিভিউ mastery",
       score: current.review,
-      weight: 20,
+      weight: 15,
       detailBn: reviews.length ? `${reviews.length}টি scheduled item-এর mastery` : "রিভিউ ডেটা তৈরি হচ্ছে",
     },
     {
       id: "consistency",
       labelBn: "১৪ দিনের ধারাবাহিকতা",
       score: current.consistency,
-      weight: 15,
+      weight: 12,
       detailBn: `গত ১৪ দিনে ${current.activeDays} দিন পড়া হয়েছে`,
+    },
+    {
+      id: "retention",
+      labelBn: "Delayed retention",
+      score: current.retention,
+      weight: 23,
+      detailBn: current.evidence.retentionAccuracy ? `${current.evidence.retentionAccuracy}% delayed review accuracy` : "Delayed review evidence তৈরি হচ্ছে",
     },
   ];
 
-  const insights = [...components]
+  const metricInsights = [
+    current.evidence.listeningAccuracy < current.evidence.itemAccuracy - 8 ? "Listening accuracy বাড়াতে slow → normal audio progression ব্যবহার করুন।" : "Reading ও listening-এর ভারসাম্য ভালো রাখুন।",
+    current.evidence.confidenceCalibration < 70 ? "উত্তর দেওয়ার আগে confidence বেছে নিন—guess করা সঠিক উত্তরও review করুন।" : "Confidence ও ফলাফলের মিল ভালো; unseen item-এ transfer অনুশীলন করুন।",
+    current.evidence.retentionAccuracy > 0 && current.evidence.retentionAccuracy < 75 ? "Delayed review-তে ভুল হওয়া আইটেমগুলো আজকের প্রথম priority করুন।" : "Delayed review শক্তিশালী হলে নতুন context-এ recall বাড়ান।",
+  ];
+  const componentInsights = [...components]
     .sort((a, b) => a.score - b.score)
     .slice(0, 2)
     .map(component => {
       if (component.id === "assessment") return "১০–২০ প্রশ্নের smart test দিয়ে পরীক্ষার accuracy বাড়ান।";
       if (component.id === "coverage") return "প্রতিদিন অন্তত একটি lesson step শেষ করে coverage বাড়ান।";
       if (component.id === "review") return "আজ নির্ধারিত review pack শেষ করে ভুলের পুনরাবৃত্তি কমান।";
+      if (component.id === "retention") return "Delayed review-তে ভুল হওয়া আইটেম আগে অনুশীলন করুন।";
       return "১৪ দিনের মধ্যে অন্তত ১০ দিন ছোট session রাখুন।";
     });
+  const insights = [...componentInsights, ...metricInsights].slice(0, 4);
 
   let targetDaysRemaining: number | null = null;
   if (/^\d{4}-\d{2}-\d{2}$/.test(state.planner.targetExamDate)) {
@@ -166,5 +190,6 @@ export function buildReadinessReport(
     trend,
     insights,
     targetDaysRemaining,
+    metrics: current.evidence,
   };
 }

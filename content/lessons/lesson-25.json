@@ -1247,7 +1247,7 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "산업 재해",
         "밥을 먹고 있습니다.",
         "친구를 만나고 있습니다.",
         "피아노를 치고 있습니다."
@@ -1267,10 +1267,10 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜",
-        "가방",
-        "안경",
-        "가위"
+        "지원하다입니다.",
+        "가방입니다.",
+        "열쇠입니다.",
+        "컵입니다."
       ],
       "answer": 1,
       "explanationBn": "ছবিতে ব্যাগ (가방) আঁকা আছে — ভ্রমণের সময় জিনিসপত্র ব্যাগে রাখা হয়।"
@@ -1287,12 +1287,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜",
-        "가방",
-        "안경",
-        "가위"
+        "컴퓨터 교육입니다.",
+        "가위입니다.",
+        "가방입니다.",
+        "안경입니다."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "ছবিতে চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1307,14 +1307,76 @@
         "kind": "illustration"
       },
       "options": [
+        "식당에서 샀어요.",
         "문구점에서 샀어요.",
-        "병원에서 샀어요.",
-        "시장에서 샀어요.",
-        "도서관에서 샀어요."
+        "약국에서 샀어요.",
+        "공원에서 샀어요."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্টেশনারি দোকান থেকে বলপেন কেনা হয়েছে — ছবিতেও বলপেন।",
-      "passage": "남: 이 선물은 어디에서 샀어요? / 여: 문구점에서 볼펜을 샀어요."
+      "passage": "남자: 외국인력지원센터에서 이 물건을 어디에서 샀어요?\n여자: 문구점에서 샀어요."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "접수처",
+      "romanization": "jeopsucheo",
+      "bn": "নথি গ্রহণ কাউন্টার / রেজিস্ট্রেশন কাউন্টার",
+      "en": "reception desk / registration counter",
+      "pos": "noun",
+      "example": {
+        "ko": "외국인 근로자는 접수처에서 서류를 제출하세요.",
+        "bn": "বিদেশি কর্মীরা রেজিস্ট্রেশন কাউন্টারে কাগজপত্র জমা দিন।",
+        "en": "Foreign workers, please submit your documents at the reception desk."
+      },
+      "pronunciationTipBn": "접수처 → 'জেব-সু-চো' বলে উচ্চারণ করুন.",
+      "layer": "exam-transfer",
+      "sourceChapter": 25
+    },
+    {
+      "ko": "접수번호",
+      "romanization": "jeopsubunho",
+      "bn": "রেজিস্ট্রেশন নম্বর",
+      "en": "registration number",
+      "pos": "noun",
+      "example": {
+        "ko": "접수번호를 확인하면 상담 순서를 알 수 있습니다.",
+        "bn": "রেজিস্ট্রেশন নম্বর দেখে পরামর্শের ক্রম জানা যায়।",
+        "en": "You can know your counseling order by checking the registration number."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 25
+    },
+    {
+      "ko": "의뢰서",
+      "romanization": "uirseo",
+      "bn": "অনুরোধ পত্র / রেফারেল ফর্ম",
+      "en": "referral form / request form",
+      "pos": "noun",
+      "example": {
+        "ko": "의뢰서를 작성하면 센터에서 필요한 기관으로 연결해 줍니다.",
+        "bn": "অনুরোধ পত্র পূরণ করলে কেন্দ্র আপনাকে প্রয়োজনীয় সংস্থার সঙ্গে সংযুক্ত করবে।",
+        "en": "If you fill out the referral form, the center will connect you with the necessary agency."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 25
+    },
+    {
+      "ko": "행정대행",
+      "romanization": "haengjeongdaehaeng",
+      "bn": "প্রশাসনিক কাজের পক্ষে পরিচালনা / প্রশাসনিক সহায়তা",
+      "en": "administrative proxy / administrative assistance",
+      "pos": "noun",
+      "example": {
+        "ko": "행정대행을 신청하면 센터에서 기관 제출을 대신해 줍니다.",
+        "bn": "প্রশাসনিক সহায়তা আবেদন করলে কেন্দ্র সংস্থার কাছে কাগজপত্র জমা দেওয়া আপনার পক্ষে করে দেবে।",
+        "en": "If you apply for administrative assistance, the center will submit documents to agencies on your behalf."
+      },
+      "pronunciationTipBn": "행정대행 → 'হেং-জং-দে-হেং' হিসেবে উচ্চারণ করুন.",
+      "layer": "exam-transfer",
+      "sourceChapter": 25
     }
   ]
 }

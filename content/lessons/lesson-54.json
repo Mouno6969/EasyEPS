@@ -1131,12 +1131,12 @@
         "kind": "illustration"
       },
       "options": [
+        "보안경입니다.",
+        "기차입니다.",
         "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "굴착기입니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে মাল তোলার যন্ত্র ফর্কলিফট (지게차) আঁকা আছে।"
     },
     {
@@ -1151,12 +1151,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "배입니다.",
+        "자동차입니다.",
+        "기차입니다.",
+        "굴착기입니다."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে মাটি খননকারী যন্ত্র এক্সকেভেটার (굴착기) আঁকা আছে।"
     },
     {
@@ -1172,11 +1172,11 @@
       },
       "options": [
         "전기가 흐르니까 조심하세요.",
-        "떨어질 수 있으니까 조심하세요.",
-        "바닥이 미끄러우니까 조심하세요.",
-        "불이 붙을 수 있으니까 조심하세요."
+        "물이 있을 수 있으니까 조심하세요.",
+        "이 길로 통행하면 안 됩니다.",
+        "바닥이 미끄러우니까 조심하세요."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "চিহ্নটি পিচ্ছল মেঝের সতর্কতা বোঝায়, তাই 'মেঝে পিচ্ছল, সাবধান' (바닥이 미끄러우니까 조심하세요) সঠিক।"
     },
     {
@@ -1192,9 +1192,9 @@
       },
       "options": [
         "전기가 흐르니까 조심하세요.",
-        "떨어질 수 있으니까 조심하세요.",
-        "바닥이 미끄러우니까 조심하세요.",
-        "불이 붙을 수 있으니까 조심하세요."
+        "안전모를 반드시 쓰세요.",
+        "담배를 피우면 안 됩니다.",
+        "이곳에 들어가면 안 됩니다."
       ],
       "answer": 0,
       "explanationBn": "চিহ্নটিতে বিদ্যুতের চিহ্ন আছে, তাই 'বিদ্যুৎ প্রবাহিত হচ্ছে, সাবধান' (전기가 흐르니까 조심하세요) সঠিক।"
@@ -1211,12 +1211,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "전기가 흐르니까 조심하세요.",
-        "떨어질 수 있으니까 조심하세요.",
+        "안전모를 반드시 쓰세요.",
         "바닥이 미끄러우니까 조심하세요.",
-        "불이 붙을 수 있으니까 조심하세요."
+        "불이 붙을 수 있으니까 조심하세요.",
+        "떨어질 수 있으니까 조심하세요."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "চিহ্নটিতে মানুষ পড়ে যাওয়ার ছবি আছে, তাই 'পড়ে যেতে পারে, সাবধান' (떨어질 수 있으니까 조심하세요) সঠিক।"
     },
     {
@@ -1231,12 +1231,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "전기가 흐르니까 조심하세요.",
-        "떨어질 수 있으니까 조심하세요.",
-        "바닥이 미끄러우니까 조심하세요.",
-        "불이 붙을 수 있으니까 조심하세요."
+        "이곳에 들어가면 안 됩니다.",
+        "불이 붙을 수 있으니까 조심하세요.",
+        "비상구를 이용하세요.",
+        "보호 장갑을 착용하세요."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "চিহ্নটিতে আগুনের শিখা আছে, তাই 'আগুন লাগতে পারে, সাবধান' (불이 붙을 수 있으니까 조심하세요) সঠিক।"
     },
     {
@@ -1251,10 +1251,10 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
+        "위험",
         "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "담배를 피우면 안 됩니다.",
+        "이곳에 들어가면 안 됩니다."
       ],
       "answer": 1,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
@@ -1271,12 +1271,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
+        "사다리",
+        "귀마개",
         "펜치",
-        "쇠톱",
-        "망치"
+        "토치"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে প্লায়ার্স (펜치) আঁকা আছে — এটি তার কাটা ও বাঁকানোর কাজে লাগে।"
     },
     {
@@ -1291,12 +1291,12 @@
         "kind": "illustration"
       },
       "options": [
-        "반사 조끼",
-        "작업복",
         "보호 장갑",
-        "안전모"
+        "반사 조끼",
+        "안전모",
+        "안전화"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে রিফ্লেকটিভ সেফটি ভেস্ট (반사 조끼) আঁকা আছে — অদ্ধকারে দূর থেকে দেখা যায় বলে এটি পরতে হয়।"
     },
     {
@@ -1311,13 +1311,75 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
-        "작업복",
-        "비빔밥",
-        "기차표"
+        "안전대",
+        "우비",
+        "앞치마",
+        "작업복"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "시정조치",
+      "romanization": "sijeongjochi",
+      "bn": "সংশোধনমূলক ব্যবস্থা (corrective action)",
+      "en": "corrective action",
+      "pos": "noun",
+      "example": {
+        "ko": "발견된 문제는 시정조치 계획에 따라 처리하세요.",
+        "bn": "যে কোনো সমস্যা সংশোধনমূলক ব্যবস্থা অনুযায়ী পরিচালনা করুন।",
+        "en": "Handle any discovered issues according to the corrective action plan."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 54
+    },
+    {
+      "ko": "재발방지",
+      "romanization": "jaebalbangji",
+      "bn": "পুনরাবৃত্তি প্রতিরোধ",
+      "en": "prevention of recurrence",
+      "pos": "noun",
+      "example": {
+        "ko": "사고 후 재발방지를 위해 개선안을 마련하세요.",
+        "bn": "দুর্ঘটনার পরে পুনরাবৃত্তি রোধে উন্নয়ন পরিকল্পনা তৈরি করুন।",
+        "en": "After an incident, prepare improvement measures to prevent recurrence."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 54
+    },
+    {
+      "ko": "근본원인분석",
+      "romanization": "geunbonwoninbunseok",
+      "bn": "মূল কারণ বিশ্লেষণ (root cause analysis)",
+      "en": "root cause analysis (RCA)",
+      "pos": "noun",
+      "example": {
+        "ko": "사고가 발생하면 근본원인분석을 실시하여 보고서로 제출하세요.",
+        "bn": "দুর্ঘটনা হলে মূল কারণ বিশ্লেষণ করে রিপোর্ট জমা দিন।",
+        "en": "When an accident occurs, perform a root cause analysis and submit a report."
+      },
+      "pronunciationTipBn": "근본-원인-분석 → 'গিনবন-ওনিন-বুনসেওক'",
+      "layer": "exam-transfer",
+      "sourceChapter": 54
+    },
+    {
+      "ko": "절차서",
+      "romanization": "jeolchaseo",
+      "bn": "প্রক্রিয়া নির্দেশিকা (procedural document)",
+      "en": "procedure manual / procedural document",
+      "pos": "noun",
+      "example": {
+        "ko": "절차서를 따라 작업을 시작하기 전에 확인하세요.",
+        "bn": "কাজ শুরু করার আগে প্রক্রিয়া নির্দেশিকা পরীক্ষা করে নিন।",
+        "en": "Check the procedure manual before starting the task."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 54
     }
   ]
 }

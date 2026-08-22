@@ -1173,12 +1173,12 @@
         "kind": "illustration"
       },
       "options": [
+        "공구입니다.",
+        "신발입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "안경입니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1193,12 +1193,12 @@
         "kind": "illustration"
       },
       "options": [
+        "도면입니다.",
+        "경운기입니다.",
         "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "택시입니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে মাল তোলার যন্ত্র ফর্কলিফট (지게차) আঁকা আছে।"
     },
     {
@@ -1213,12 +1213,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
         "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "망치입니다.",
+        "지게차입니다.",
+        "트랙터입니다."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে মাটি খননকারী যন্ত্র এক্সকেভেটার (굴착기) আঁকা আছে।"
     },
     {
@@ -1233,12 +1233,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "전동드릴입니다.",
+        "자전거입니다.",
+        "오토바이입니다.",
+        "트랙터입니다."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1253,9 +1253,9 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
+        "와셔입니다.",
+        "화물차입니다.",
+        "자동차입니다.",
         "경운기입니다."
       ],
       "answer": 3,
@@ -1273,12 +1273,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
         "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "풀다",
+        "물이 있을 수 있으니까 조심하세요.",
+        "전기가 흐르니까 조심하세요."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
     },
     {
@@ -1293,12 +1293,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
-        "펜치",
-        "쇠톱",
-        "망치"
+        "안전모",
+        "줄자",
+        "보호 장갑",
+        "펜치"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে প্লায়ার্স (펜치) আঁকা আছে — এটি তার কাটা ও বাঁকানোর কাজে লাগে।"
     },
     {
@@ -1313,12 +1313,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
-        "펜치",
-        "쇠톱",
-        "망치"
+        "렌치",
+        "망치",
+        "안전모",
+        "귀마개"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে হাতুড়ি (망치) আঁকা আছে — এটি পেরেক ঠুকে বসানোর কাজে লাগে।"
     },
     {
@@ -1333,12 +1333,12 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
+        "귀마개",
+        "안전화",
         "작업복",
-        "비빔밥",
-        "기차표"
+        "보호 안경"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     },
     {
@@ -1353,14 +1353,76 @@
         "kind": "illustration"
       },
       "options": [
+        "장화",
+        "앞치마",
         "반사 조끼를 입어야 합니다.",
-        "보호 장갑을 구매해야 합니다.",
-        "비상 계단을 이용해야 합니다.",
-        "환기 장치를 작동해야 합니다."
+        "반사 조끼"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 어두운 곳에서 작업할 때 무엇을 입어요? / 여: 반사 조끼를 입어야 해요."
+      "passage": "남자: 기계 조립에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "체결",
+      "romanization": "chegyeol",
+      "bn": "বাঁধাই; ফাস্টেনিং (যোগবন্ধন করা)",
+      "en": "fastening; securing (of parts)",
+      "pos": "noun",
+      "example": {
+        "ko": "모든 체결 상태를 점검한 후 작업을 시작하세요.",
+        "bn": "সব ফাস্টেনিং ঠিক আছে কি না পরীক্ষা করে তারপর কাজ শুরু করুন।",
+        "en": "Check that all fastenings are secure before starting work."
+      },
+      "pronunciationTipBn": "체(che)-결(gyeol) গানে না করে স্পষ্ট বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 38
+    },
+    {
+      "ko": "클램프",
+      "romanization": "keullaempeu",
+      "bn": "ক্ল্যাম্প (আটকানোর যন্ত্র)",
+      "en": "clamp",
+      "pos": "noun",
+      "example": {
+        "ko": "부품을 작업대에 클램프로 단단히 고정하세요.",
+        "bn": "অংশটি ওয়ার্কবেঞ্চে ক্ল্যাম্প দিয়ে শক্তভাবে আটকান।",
+        "en": "Secure the part firmly to the workbench with a clamp."
+      },
+      "pronunciationTipBn": "클(keul)-램(laem)-프(peu) আলাদা আলাদা উচ্চারণ করুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 38
+    },
+    {
+      "ko": "정렬",
+      "romanization": "jeongryeol",
+      "bn": "সারি/সারিবদ্ধতা (অংশগুলোর মিল)",
+      "en": "alignment",
+      "pos": "noun",
+      "example": {
+        "ko": "부품 정렬이 틀리면 결합 부위에 무리가 갑니다.",
+        "bn": "অংশগুলোর সারিবদ্ধতা ভুল হলে সংযোগ স্থানে অতিরিক্ত চাপ পড়ে।",
+        "en": "If parts are misaligned, the connection points will be stressed."
+      },
+      "pronunciationTipBn": "정(jeong)-렬(ryeol) 'ryeol' অল্প কণ্ঠে বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 38
+    },
+    {
+      "ko": "완충재",
+      "romanization": "wanchungjae",
+      "bn": "কুশনিং উপাদান (ধাক্কা শোষণ করার উপকরণ)",
+      "en": "cushioning material; padding",
+      "pos": "noun",
+      "example": {
+        "ko": "운송 전 완성품에 완충재를 넣어 손상을 방지하세요.",
+        "bn": "পরিবহনের আগে সম্পন্ন পণ্যের চারপাশে কুশনিং বসান যাতে ক্ষতি না হয়।",
+        "en": "Before transport, add cushioning around finished products to prevent damage."
+      },
+      "pronunciationTipBn": "완(wan)-충(chung)-재(jae) ধাপে ধাপে বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 38
     }
   ]
 }

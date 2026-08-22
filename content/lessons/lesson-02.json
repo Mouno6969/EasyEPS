@@ -1090,12 +1090,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
         "안경입니다.",
+        "가위입니다.",
+        "볼펜입니다.",
         "가방입니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1111,11 +1111,11 @@
       },
       "options": [
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "지갑입니다.",
+        "신발입니다.",
+        "가위입니다."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে একজোড়া কাঁচি (가위) আঁকা আছে।"
     },
     {
@@ -1130,12 +1130,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "시계입니다.",
+        "가방입니다.",
+        "우산입니다.",
+        "안경입니다."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1150,12 +1150,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "수건입니다.",
+        "가방입니다.",
+        "책입니다.",
+        "지갑입니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি ব্যাগ (가방) আঁকা আছে।"
     },
     {
@@ -1170,10 +1170,10 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "배입니다.",
+        "기차입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "지게차입니다."
       ],
       "answer": 2,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
@@ -1190,12 +1190,12 @@
         "kind": "illustration"
       },
       "options": [
+        "배입니다.",
+        "경운기입니다.",
         "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "굴착기입니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1210,12 +1210,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "이불",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "피아노를 치고 있습니다.",
+        "책을 읽고 있습니다."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
     },
     {
@@ -1230,10 +1230,10 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "일을 하고 있습니다.",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "책을 읽고 있습니다.",
+        "친구를 만나고 있습니다."
       ],
       "answer": 1,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
@@ -1250,12 +1250,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "피아노를 치고 있습니다.",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "전화를 하고 있습니다.",
+        "청소를 하고 있습니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
     },
     {
@@ -1270,12 +1270,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "문",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "피아노를 치고 있습니다.",
+        "청소를 하고 있습니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1290,14 +1290,76 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 일상생활에 필요한 물건에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "서랍",
+      "romanization": "seo-rap",
+      "bn": "ড্রয়ারের বাক্স (ড্রয়ার)",
+      "en": "drawer",
+      "pos": "noun",
+      "example": {
+        "ko": "서랍에 필기도구를 넣어 두세요.",
+        "bn": "ড্রয়ারে লেখার উপকরণগুলো রেখে দিন।",
+        "en": "Put the writing instruments in the drawer."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 2
+    },
+    {
+      "ko": "전기포트",
+      "romanization": "jeon-gi-po-teu",
+      "bn": "বৈদ্যুতিক কেটলি",
+      "en": "electric kettle",
+      "pos": "noun",
+      "example": {
+        "ko": "작업실에 전기포트를 비치해 두면 편리합니다.",
+        "bn": "কর্মক্ষেত্রে বৈদ্যুতিক কেটলি রাখলে সুবিধা হবে।",
+        "en": "It's convenient to have an electric kettle in the workspace."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 2
+    },
+    {
+      "ko": "멀티탭",
+      "romanization": "meol-ti-taep",
+      "bn": "মাল্টি-সকেট / পাওয়ার স্ট্রিপ",
+      "en": "power strip; multi-outlet",
+      "pos": "noun",
+      "example": {
+        "ko": "멀티탭에 여러 기기를 한 번에 연결하지 마세요.",
+        "bn": "মাল্টি-সকেটে একসাথে অনেক ডিভাইস একসাথে সংযুক্ত করবেন না।",
+        "en": "Do not connect many devices at once to a power strip."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 2
+    },
+    {
+      "ko": "빨래집게",
+      "romanization": "ppal-lae-jip-ge",
+      "bn": "কাপড় পিন (ক্লথেসপিন)",
+      "en": "clothespin",
+      "pos": "noun",
+      "example": {
+        "ko": "빨래를 널 때 빨래집게로 옷을 고정하세요.",
+        "bn": "কাপড় ঝুলানোর সময় কাপড় পিন দিয়ে কাপড়গুলো আটকান।",
+        "en": "When hanging laundry, secure the clothes with clothespins."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 2
     }
   ]
 }

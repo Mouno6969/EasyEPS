@@ -1179,12 +1179,12 @@
         "kind": "illustration"
       },
       "options": [
+        "축사입니다.",
+        "컵입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "지갑입니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1199,12 +1199,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "소독하다입니다.",
+        "자동차입니다.",
+        "기차입니다.",
+        "지게차입니다."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "ছবিতে মাল তোলার যন্ত্র ফর্কলিফট (지게차) আঁকা আছে।"
     },
     {
@@ -1219,12 +1219,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
         "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "이동입니다.",
+        "오토바이입니다.",
+        "화물차입니다."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে মাটি খননকারী যন্ত্র এক্সকেভেটার (굴착기) আঁকা আছে।"
     },
     {
@@ -1239,10 +1239,10 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "소입니다.",
+        "기차입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "지게차입니다."
       ],
       "answer": 2,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
@@ -1259,9 +1259,9 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
+        "오리입니다.",
+        "화물차입니다.",
+        "자동차입니다.",
         "경운기입니다."
       ],
       "answer": 3,
@@ -1279,12 +1279,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
         "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "치료하다",
+        "귀마개를 착용하세요.",
+        "물이 있을 수 있으니까 조심하세요."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
     },
     {
@@ -1299,12 +1299,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
-        "펜치",
-        "쇠톱",
-        "망치"
+        "주사",
+        "줄자",
+        "보호 장갑",
+        "펜치"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে প্লায়ার্স (펜치) আঁকা আছে — এটি তার কাটা ও বাঁকানোর কাজে লাগে।"
     },
     {
@@ -1319,12 +1319,12 @@
         "kind": "illustration"
       },
       "options": [
+        "망치",
+        "임신하다",
         "토치",
-        "펜치",
-        "쇠톱",
-        "망치"
+        "펜치"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে হাতুড়ি (망치) আঁকা আছে — এটি পেরেক ঠুকে বসানোর কাজে লাগে।"
     },
     {
@@ -1339,12 +1339,12 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
-        "작업복",
-        "비빔밥",
-        "기차표"
+        "우비",
+        "방진 마스크",
+        "안전벨트",
+        "작업복"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     },
     {
@@ -1359,14 +1359,76 @@
         "kind": "illustration"
       },
       "options": [
+        "우비",
         "반사 조끼를 입어야 합니다.",
-        "보호 장갑을 구매해야 합니다.",
-        "비상 계단을 이용해야 합니다.",
-        "환기 장치를 작동해야 합니다."
+        "앞치마",
+        "장화"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 어두운 곳에서 작업할 때 무엇을 입어요? / 여: 반사 조끼를 입어야 해요."
+      "passage": "남자: 가축 관리에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
+    }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "급수장치",
+      "romanization": "geupsujangchi",
+      "bn": "জল সরবরাহ ব্যবস্থা",
+      "en": "watering system",
+      "pos": "noun",
+      "example": {
+        "ko": "매일 아침 급수장치의 물 공급 상태를 확인하세요.",
+        "bn": "প্রতিদিন সকালে জল সরবরাহ ব্যবস্থার পানি সরবরাহ ঠিক আছে কি না পরীক্ষা করুন।",
+        "en": "Check the water supply of the watering system every morning."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 46
+    },
+    {
+      "ko": "분만실",
+      "romanization": "bunmansil",
+      "bn": "প্রসব কক্ষ",
+      "en": "maternity pen / delivery room (for animals)",
+      "pos": "noun",
+      "example": {
+        "ko": "분만실은 출산 전후에 조용하고 청결하게 유지하세요.",
+        "bn": "প্রসব কক্ষটি প্রসবের আগে ও পরে শান্ত ও পরিচ্ছন্ন রাখুন।",
+        "en": "Keep the maternity pen quiet and clean before and after birth."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 46
+    },
+    {
+      "ko": "살균제",
+      "romanization": "salgyunje",
+      "bn": "জীবাণুনাশক",
+      "en": "disinfectant / sterilizer",
+      "pos": "noun",
+      "example": {
+        "ko": "도구를 사용한 뒤에는 지정된 살균제로 처치한 후 충분히 건조시키세요.",
+        "bn": "উপকরণ ব্যবহারের পরে নির্ধারিত জীবাণুনাশক দিয়ে পরিশোধন করে ভাল করে শুকিয়ে নিন।",
+        "en": "After using tools, treat them with the designated disinfectant and dry thoroughly."
+      },
+      "pronunciationTipBn": "발음을 '살-균-제 (sal-gyun-je)'처럼 খুল어 말하세요.",
+      "layer": "exam-transfer",
+      "sourceChapter": 46
+    },
+    {
+      "ko": "발굽",
+      "romanization": "balgup",
+      "bn": "খুর (পশুর পায়ের খুর)",
+      "en": "hoof",
+      "pos": "noun",
+      "example": {
+        "ko": "발굽은 젖거나 균열이 없는지 정기적으로 확인하세요.",
+        "bn": "খুর নিয়মিত পরীক্ষা করুন — ভেজা বা ফাটল আছে কি না দেখুন।",
+        "en": "Check hooves regularly for wetness or cracks."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 46
     }
   ]
 }
