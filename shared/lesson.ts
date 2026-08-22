@@ -217,6 +217,8 @@ export const attemptDetailSchema = z.object({
     )
     .optional(),
   serverGraded: z.boolean().optional(),
+  confidence: z.record(z.string(), z.enum(["sure", "uncertain", "guessed"])).optional(),
+  itemEvidenceIds: z.array(z.string()).max(100).optional(),
 });
 
 export type AttemptDetail = z.infer<typeof attemptDetailSchema>;

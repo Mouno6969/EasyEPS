@@ -190,7 +190,8 @@ describe("readiness analytics", () => {
     const report = buildReadinessReport(state, reviews, new Date("2026-07-23T12:00:00.000Z"));
     expect(report.score).toBeGreaterThanOrEqual(90);
     expect(report.band).toBe("ready");
-    expect(report.components).toHaveLength(4);
+    expect(report.components).toHaveLength(5);
+    expect(report.components.map(component => component.id)).toContain("retention");
     expect(report.trend).toHaveLength(6);
     expect(report.targetDaysRemaining).toBe(30);
   });

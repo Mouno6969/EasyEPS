@@ -36,6 +36,8 @@ ANNOUNCE = {"대사", "질문", "방송", "안내"}
 def split_labelled(passage: str):
     """Return list of (label, text) using any generic label; text before the
     first label gets label None."""
+    # Treat slash-separated turns as real line breaks before locating labels.
+    passage = re.sub(r"\s[/／]\s", "\n", passage)
     parts = []
     matches = list(GENERIC_LABEL.finditer(passage))
     if not matches:

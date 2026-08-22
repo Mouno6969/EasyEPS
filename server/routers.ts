@@ -221,6 +221,15 @@ export const appRouter = router({
       const chapters = [1, 9, 21, 31, 53, 57];
       return getLessonSummaries().filter(lesson => chapters.includes(lesson.chapter));
     }),
+    diagnostic: publicProcedure.query(() => {
+      const all = getAllLessons().flatMap(lesson =>
+        lesson.epsQuestions.map(question => ({ ...question, chapter: lesson.chapter, lessonTitle: lesson.title })),
+      );
+      return buildSmartMockQuestions(all, { count: 20, mode: "balanced", focusSection: "auto" }).map((question, index) => ({
+        ...question,
+        testId: `diagnostic-${index + 1}-${question.chapter}-${question.id}`,
+      }));
+    }),
     mockTest: publicProcedure
       .input(
         z
@@ -229,6 +238,7 @@ export const appRouter = router({
             mode: z.enum(["balanced", "smart"]).default("balanced"),
             focusChapters: z.array(z.number().int().min(1).max(60)).max(20).default([]),
             focusSection: z.enum(["auto", "reading", "listening"]).default("auto"),
+            focusItemIds: z.array(z.string().min(1)).max(100).default([]),
           })
           .optional(),
       )
@@ -246,6 +256,7 @@ export const appRouter = router({
           mode: input?.mode ?? "balanced",
           focusChapters: input?.focusChapters ?? [],
           focusSection: input?.focusSection ?? "auto",
+          focusItemIds: input?.focusItemIds ?? [],
         });
         return selected.map((question, index) => ({
           ...question,

@@ -8,6 +8,17 @@ import {
   type BasicsProgress,
   type BasicsProgressPatch,
 } from "@shared/basics";
+import {
+  evaluateMilestones,
+  summarizeItemEvidence,
+  updateItemEvidence,
+  type ConfidenceLevel,
+  type DiagnosticResult,
+  type ItemEvidence,
+  type LearningItemKind,
+  type ListeningEvidence,
+  type Milestone,
+} from "@shared/learning";
 
 export type ChapterProgress = {
   chapter: number;
@@ -24,7 +35,7 @@ export type ChapterProgress = {
 
 export type LocalAttempt = {
   id: string;
-  kind: "practice" | "chapter-exam" | "mock-test";
+  kind: "practice" | "chapter-exam" | "mock-test" | "diagnostic";
   chapter?: number;
   score: number;
   total: number;
@@ -53,15 +64,27 @@ export type LocalLearningState = {
   };
   /** Hangul Basics track progress (optional for parse tolerance of older saves). */
   basics?: BasicsProgress;
+  /** Per-item retrieval, confidence, and delayed-retention evidence. */
+  itemEvidence: Record<string, ItemEvidence>;
+  /** First-use diagnostic placement result. */
+  diagnostic?: DiagnosticResult;
+  /** Listening speed, replay, transcript, and dictation evidence. */
+  listening: Record<string, ListeningEvidence>;
+  /** Educational milestones, not vanity points. */
+  milestones: Milestone[];
 };
 
-const KEY = "easyeps-learning-v2";
+const KEY = "easyeps-learning-v3";
+const LEGACY_KEY = "easyeps-learning-v2";
 const emptyState: LocalLearningState = {
   progress: {},
   attempts: [],
   studyDays: {},
   planner: { dailyGoalMinutes: 30, dailyGoalLessons: 1, reminderTime: "20:00", targetExamDate: "", items: [] },
   basics: emptyBasicsProgress(),
+  itemEvidence: {},
+  listening: {},
+  milestones: [],
 };
 
 let cachedRaw = "";
@@ -89,6 +112,10 @@ function parseState(raw: string | null): LocalLearningState {
       studyDays: parsed.studyDays ?? {},
       planner: { ...emptyState.planner, ...(parsed.planner ?? {}), items: parsed.planner?.items ?? [] },
       basics: parseBasics(parsed.basics),
+      itemEvidence: parsed.itemEvidence ?? {},
+      diagnostic: parsed.diagnostic,
+      listening: parsed.listening ?? {},
+      milestones: parsed.milestones ?? [],
     };
   } catch {
     return emptyState;
@@ -96,7 +123,7 @@ function parseState(raw: string | null): LocalLearningState {
 }
 
 export function getSnapshot() {
-  const raw = localStorage.getItem(KEY) ?? "";
+  const raw = localStorage.getItem(KEY) ?? localStorage.getItem(LEGACY_KEY) ?? "";
   if (raw !== cachedRaw) {
     cachedRaw = raw;
     cachedState = parseState(raw);
@@ -268,17 +295,90 @@ export function localBasicsCompleted(state?: LocalLearningState): boolean {
   return isBasicsComplete(basics);
 }
 
+function updateMilestones(state: LocalLearningState): LocalLearningState {
+  const overview = learningOverview(state);
+  const evidenceSummary = summarizeItemEvidence(state.itemEvidence);
+  return {
+    ...state,
+    milestones: evaluateMilestones({
+      current: state.milestones,
+      completedLessons: overview.completedLessons,
+      itemCount: evidenceSummary.itemCount,
+      retainedItems: Object.values(state.itemEvidence).filter(item => item.retentionChecks > 0 && item.retentionCorrect / item.retentionChecks >= 0.8).length,
+      diagnosticCompleted: Boolean(state.diagnostic),
+      listeningItems: Object.values(state.itemEvidence).filter(item => item.section === "listening" && item.attempts > 0).length,
+      streak: overview.streak,
+      totalAttempts: state.attempts.length,
+    }),
+  };
+}
+
+export function recordItemResult(input: {
+  itemId: string;
+  kind: LearningItemKind;
+  chapter?: number;
+  section?: "reading" | "listening";
+  skillTags?: string[];
+  correct: boolean;
+  confidence: ConfidenceLevel;
+  responseMs?: number;
+  isRetentionCheck?: boolean;
+  minutes?: number;
+}) {
+  const current = getSnapshot();
+  const nextEvidence = updateItemEvidence(current.itemEvidence[input.itemId], input);
+  const day = new Date().toISOString().slice(0, 10);
+  const previousDay = current.studyDays[day] ?? { minutes: 0, activities: 0 };
+  const next = updateMilestones({
+    ...current,
+    itemEvidence: { ...current.itemEvidence, [input.itemId]: nextEvidence },
+    studyDays: {
+      ...current.studyDays,
+      [day]: { minutes: previousDay.minutes + (input.minutes ?? 0), activities: previousDay.activities + 1 },
+    },
+  });
+  save(next);
+  return nextEvidence;
+}
+
+export function saveDiagnosticResult(result: DiagnosticResult) {
+  const current = getSnapshot();
+  const next = updateMilestones({ ...current, diagnostic: result });
+  save(next);
+  return result;
+}
+
+export function recordListeningEvidence(input: Omit<ListeningEvidence, "updatedAt">) {
+  const current = getSnapshot();
+  const previous = current.listening[input.itemId];
+  const merged: ListeningEvidence = {
+    ...previous,
+    ...input,
+    plays: Math.max(previous?.plays ?? 0, input.plays),
+    slowPlays: Math.max(previous?.slowPlays ?? 0, input.slowPlays),
+    transcriptRevealed: Boolean(previous?.transcriptRevealed || input.transcriptRevealed),
+    typedAnswer: input.typedAnswer ?? previous?.typedAnswer,
+    updatedAt: new Date().toISOString(),
+  };
+  const next = updateMilestones({
+    ...current,
+    listening: { ...current.listening, [input.itemId]: merged },
+  });
+  save(next);
+  return next.listening[input.itemId];
+}
+
 export function updateChapterProgress(chapter: number, patch: Omit<Partial<ChapterProgress>, "chapter" | "updatedAt">, minutes = 5) {
   const current = getSnapshot();
   const previous = current.progress[chapter] ?? { chapter, updatedAt: new Date().toISOString() };
   const nextProgress = { ...previous, ...patch, chapter, updatedAt: new Date().toISOString() };
   const day = new Date().toISOString().slice(0, 10);
   const previousDay = current.studyDays[day] ?? { minutes: 0, activities: 0 };
-  save({
+  save(updateMilestones({
     ...current,
     progress: { ...current.progress, [chapter]: nextProgress },
     studyDays: { ...current.studyDays, [day]: { minutes: previousDay.minutes + minutes, activities: previousDay.activities + 1 } },
-  });
+  }));
   return nextProgress;
 }
 
@@ -287,14 +387,14 @@ export function addLocalAttempt(attempt: Omit<LocalAttempt, "id" | "createdAt">)
   const record: LocalAttempt = { ...attempt, id: crypto.randomUUID(), createdAt: new Date().toISOString() };
   const day = record.createdAt.slice(0, 10);
   const previousDay = current.studyDays[day] ?? { minutes: 0, activities: 0 };
-  save({
+  save(updateMilestones({
     ...current,
     attempts: [record, ...current.attempts].slice(0, 200),
     studyDays: {
       ...current.studyDays,
       [day]: { minutes: previousDay.minutes + Math.max(1, Math.round(record.durationSec / 60)), activities: previousDay.activities + 1 },
     },
-  });
+  }));
   return record;
 }
 
@@ -320,7 +420,7 @@ export function removePlannerItem(id: string) {
 
 export function learningOverview(state: LocalLearningState) {
   const completedLessons = Object.values(state.progress).filter(item => item.completed).length;
-  const scored = state.attempts.filter(item => item.total > 0);
+  const scored = state.attempts.filter(item => item.total > 0 && item.kind !== "diagnostic");
   const averageScore = scored.length ? Math.round(scored.reduce((sum, item) => sum + item.score / item.total * 100, 0) / scored.length) : 0;
   const dates = new Set(Object.keys(state.studyDays));
   let cursor = new Date();
