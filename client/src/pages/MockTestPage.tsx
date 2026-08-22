@@ -4,7 +4,7 @@ import { GuidedListening } from "@/components/GuidedListening";
 import { Button } from "@/components/ui/button";
 import { addLocalAttempt, useLocalLearning } from "@/lib/localProgress";
 import { speakDialogue } from "@/lib/dialogueSpeech";
-import { listDueReviews, listRecentWeak, recordWeakAttempt } from "@/lib/srs";
+import { listDueReviews, listRecentWeak, recordItemReviews, recordWeakAttempt } from "@/lib/srs";
 import { deriveSmartMockFocus } from "@/lib/smartMock";
 import { getWeeklyChallenge, recordWeeklyChallengeScore } from "@/lib/weeklyChallenge";
 import { trpc } from "@/lib/trpc";
@@ -76,6 +76,17 @@ export default function MockTestPage() {
       labelBn: "পূর্ণাঙ্গ মক টেস্ট",
       score,
       total: questions.length,
+    });
+    // Schedule each missed exam question individually. Mock questions keep their source chapter and
+    // id, so they share a schedule with the same question answered in a chapter exam.
+    recordItemReviews({
+      kind: "eps",
+      results: questions.map(question => ({
+        chapter: question.chapter,
+        itemId: question.id,
+        labelBn: question.questionBn,
+        correct: answers[question.testId] === question.answer,
+      })),
     });
     recordWeeklyChallengeScore(score, questions.length);
     if (isAuthenticated) {

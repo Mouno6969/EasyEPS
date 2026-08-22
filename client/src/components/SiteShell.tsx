@@ -231,6 +231,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
               <Link href="/basics">বেসিক</Link>
               <Link href="/curriculum">পাঠ্যক্রম</Link>
               <Link href="/mock-test">মক টেস্ট</Link>
+              <Link href="/review">রিভিউ ড্রিল</Link>
               <Link href="/tutor">এআই শিক্ষক</Link>
             </div>
           </div>

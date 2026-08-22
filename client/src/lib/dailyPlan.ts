@@ -1,5 +1,5 @@
 import type { LocalLearningState, LocalPlannerItem } from "@/lib/localProgress";
-import { hrefForReview, type ReviewItem } from "@/lib/srs";
+import { hrefForReview, isDrillableKind, type ReviewItem } from "@/lib/srs";
 
 export type DailyPlanTask = {
   id: string;
@@ -61,6 +61,8 @@ export function buildDailyPlan(input: {
   dueReviews: ReviewItem[];
   hangulReady: boolean;
   nextChapter: number;
+  /** Total drillable items due today. Passed in because `dueReviews` is usually truncated. */
+  drillDueCount?: number;
   date?: string;
 }): DailyPlan {
   const date = input.date ?? todayKey();
@@ -72,17 +74,28 @@ export function buildDailyPlan(input: {
     .map(plannerTask);
   const chapterIds = new Set(tasks.map(task => `${task.kind}-${task.href}`));
 
+  // Item-level entries all lead to the same drill, so they collapse into one task instead of
+  // filling the day's plan with three near-identical single-word rows.
+  const drillDue = input.drillDueCount ?? input.dueReviews.filter(review => isDrillableKind(review.kind)).length;
+
   for (const review of input.dueReviews.slice(0, 3)) {
     const href = hrefForReview(review);
     const key = `review-${href}`;
     if (chapterIds.has(key)) continue;
+    const drillable = isDrillableKind(review.kind);
     tasks.push({
-      id: `review-${review.id}`,
+      id: drillable ? "review-drill" : `review-${review.id}`,
       kind: "review",
-      titleBn: review.labelBn,
-      detailBn: `আজ নির্ধারিত · দক্ষতা ${review.mastery}% · ${review.intervalDays} দিনের ধাপ`,
+      titleBn: drillable ? `${drillDue}টি শব্দ ও প্রশ্নের রিভিউ` : review.labelBn,
+      detailBn: drillable
+        ? "ভুল হওয়া শব্দ ও প্রশ্ন — আজ নির্ধারিত"
+        : `আজ নির্ধারিত · দক্ষতা ${review.mastery}% · ${review.intervalDays} দিনের ধাপ`,
       href,
-      minutes: review.kind === "mock" ? 15 : 7,
+      minutes: drillable
+        ? Math.min(15, Math.max(4, Math.round(drillDue * 0.5)))
+        : review.kind === "mock"
+          ? 15
+          : 7,
       done: false,
       source: "review",
     });

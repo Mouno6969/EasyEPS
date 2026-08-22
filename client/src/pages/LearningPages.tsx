@@ -20,7 +20,7 @@ import { MicroSessionPanel } from "@/components/MicroSessionPanel";
 import { OfflineLessonManager } from "@/components/OfflineLessonManager";
 import { ReadinessCard } from "@/components/ReadinessCard";
 import { DeferredProfilePrompt } from "@/components/DeferredProfilePrompt";
-import { hrefForReview, listDueReviews, listRecentWeak, listUpcomingReviews } from "@/lib/srs";
+import { countDueDrillItems, hrefForReview, isDrillableKind, listDueReviews, listRecentWeak, listUpcomingReviews } from "@/lib/srs";
 import { buildReadinessReport } from "@/lib/readiness";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
@@ -163,10 +163,13 @@ export function DashboardPage() {
   const maxMinutes = Math.max(30, ...studyDays.map(day => day.minutes));
   const weak = listRecentWeak(5);
   const due = listDueReviews(5);
+  const drillDueCount = countDueDrillItems();
   const reviewPack = useMemo(() => {
     const seen = new Set<string>();
     const pack = [];
-    for (const item of [...due, ...weak]) {
+    // Item-level entries are represented by the drill card, so this pack keeps its original job:
+    // chapters, basics checkpoints and mock tests that are worth revisiting whole.
+    for (const item of [...due, ...weak].filter(item => !isDrillableKind(item.kind))) {
       if (seen.has(item.id)) continue;
       seen.add(item.id);
       pack.push(item);
@@ -176,7 +179,7 @@ export function DashboardPage() {
   }, [due, weak]);
   const nextHref = hangulReady ? `/lesson/${nextChapter}` : "/basics";
   const nextLabel = hangulReady ? "পরবর্তী অধ্যায়" : t.startBasics;
-  const dailyPlan = buildDailyPlan({ state, dueReviews: due, hangulReady, nextChapter });
+  const dailyPlan = buildDailyPlan({ state, dueReviews: due, hangulReady, nextChapter, drillDueCount });
   const readiness = buildReadinessReport(state, listUpcomingReviews(120));
 
   return <>
@@ -205,6 +208,18 @@ export function DashboardPage() {
             </Link>
           ) : null}
         </div>
+        {drillDueCount ? (
+          <Link
+            href="/review"
+            className="mt-5 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-[var(--gold)]/40 bg-[var(--gold)]/10 px-5 py-4 transition hover:border-[var(--gold)]"
+          >
+            <span>
+              <span className="block font-bold text-[var(--navy)]">{drillDueCount}টি শব্দ ও প্রশ্ন আজ রিভিউয়ের জন্য প্রস্তুত</span>
+              <span className="mt-1 block text-sm text-[var(--navy)]/55">যেগুলোতে ভুল হয়েছিল শুধু সেগুলোই — পুরো অধ্যায় নয়</span>
+            </span>
+            <span className="shrink-0 rounded-full bg-[var(--navy)] px-4 py-2 text-sm font-bold text-white">ড্রিল শুরু</span>
+          </Link>
+        ) : null}
         {reviewPack.length ? (
           <ul className="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
             {reviewPack.map(item => (
@@ -219,7 +234,7 @@ export function DashboardPage() {
               </li>
             ))}
           </ul>
-        ) : (
+        ) : drillDueCount ? null : (
           <div className="mt-5 rounded-2xl border border-dashed border-[var(--navy)]/15 bg-[var(--cream)]/60 px-5 py-8 text-center">
             <p className="font-semibold text-[var(--navy)]/65">এখন কোনো রিভিউ বাকি নেই</p>
             <p className="mt-2 text-sm text-[var(--navy)]/50">
@@ -232,7 +247,7 @@ export function DashboardPage() {
         )}
       </section>
 
-      <MicroSessionPanel nextChapter={nextChapter} hangulReady={hangulReady} dueReviews={due} />
+      <MicroSessionPanel nextChapter={nextChapter} hangulReady={hangulReady} dueReviews={due} drillDueCount={drillDueCount} />
 
       <div className="mt-7 grid gap-7 lg:grid-cols-[1.25fr_.75fr]">
         <section className="paper-card p-6"><div className="flex items-center justify-between"><div><p className="eyebrow">গত ৭ দিন</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">অধ্যয়নের ধারাবাহিকতা</h2></div><BarChart3 className="size-6 text-[var(--gold-dark)]" /></div><div className="mt-8 flex h-56 items-end gap-3">{studyDays.map(day => <div key={day.key} className="flex h-full flex-1 flex-col items-center justify-end gap-2"><span className="text-xs font-bold text-[var(--navy)]/45">{day.minutes || ""}</span><div className="w-full max-w-14 rounded-t-xl bg-[var(--sage)] transition-all" style={{ height: `${Math.max(5, day.minutes / maxMinutes * 100)}%` }} /><span className="text-xs font-semibold text-[var(--navy)]/55">{day.label}</span></div>)}</div></section>

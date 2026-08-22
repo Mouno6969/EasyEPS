@@ -1,5 +1,5 @@
 import type { LocalLearningState } from "@/lib/localProgress";
-import type { ReviewItem } from "@/lib/srs";
+import { isDrillableKind, type ReviewItem } from "@/lib/srs";
 import type { SmartMockSectionFocus } from "@shared/smartMock";
 
 export type SmartMockFocus = {
@@ -21,10 +21,18 @@ export function deriveSmartMockFocus(
   };
 
   for (const review of reviews) {
-    if (review.kind !== "chapter") continue;
-    addWeight(review.chapter, 20 + review.lapses * 4 + Math.max(0, 75 - review.mastery));
+    if (review.kind === "chapter") {
+      addWeight(review.chapter, 20 + review.lapses * 4 + Math.max(0, 75 - review.mastery));
+      continue;
+    }
+    // A single missed word is far weaker evidence than a failed chapter exam, but item entries
+    // accumulate: ten shaky words in one chapter should outweigh one merely mediocre exam.
+    if (isDrillableKind(review.kind)) {
+      addWeight(review.chapter, 4 + review.lapses * 2 + Math.round(Math.max(0, 70 - review.mastery) / 6));
+    }
   }
   if (reviews.some(review => review.kind === "chapter")) reasons.push("নির্ধারিত রিভিউ ও কম mastery");
+  if (reviews.some(review => isDrillableKind(review.kind))) reasons.push("ভুল হওয়া শব্দ ও প্রশ্ন");
 
   for (const progress of Object.values(state.progress)) {
     const practiceRatio = progress.practiceTotal ? (progress.practiceScore ?? 0) / progress.practiceTotal : undefined;
