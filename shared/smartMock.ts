@@ -16,6 +16,43 @@ export type SmartMockOptions = {
   focusSection?: SmartMockSectionFocus;
 };
 
+function normalizeQuestionText(value: string | undefined) {
+  return (value ?? "").replace(/\s+/g, " ").trim();
+}
+
+function hashContent(value: string) {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return (hash >>> 0).toString(16).padStart(8, "0");
+}
+
+/**
+ * Identifies the question content independently of its lesson/chapter ID.
+ * Sorted options make the key insensitive to answer-choice order. The key
+ * intentionally excludes chapter, ID, image URL, and localized prompt text so
+ * broadcast picture questions collapse into one candidate.
+ */
+export function questionContentKey(question: Pick<MockQuestionCandidate, "passage" | "options">) {
+  const payload = JSON.stringify({
+    passage: normalizeQuestionText(question.passage),
+    options: [...(question.options ?? [])].map(normalizeQuestionText).sort(),
+  });
+  return hashContent(payload);
+}
+
+function dedupeCandidates(items: MockQuestionCandidate[]) {
+  const seen = new Set<string>();
+  return items.filter(question => {
+    const key = questionContentKey(question);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function interleaveChapters(items: MockQuestionCandidate[]) {
   const grouped = new Map<number, MockQuestionCandidate[]>();
   for (const item of shuffleCopy(items)) {
@@ -53,10 +90,10 @@ function selectSection(
   const selected = [...focused.slice(0, focusTarget), ...broad.slice(0, count - focusTarget)];
 
   if (selected.length < count) {
-    const selectedIds = new Set(selected.map(question => `${question.chapter}:${question.id}`));
+    const selectedKeys = new Set(selected.map(question => questionContentKey(question)));
     selected.push(
       ...interleaveChapters(pool)
-        .filter(question => !selectedIds.has(`${question.chapter}:${question.id}`))
+        .filter(question => !selectedKeys.has(questionContentKey(question)))
         .slice(0, count - selected.length),
     );
   }
@@ -68,6 +105,7 @@ export function buildSmartMockQuestions(
   options: SmartMockOptions,
 ): MockQuestionCandidate[] {
   const count = Math.max(10, Math.min(40, Math.round(options.count)));
+  const unique = dedupeCandidates(all);
   const mode = options.mode ?? "balanced";
   const focusSection = options.focusSection ?? "auto";
   const focusChapters = new Set((options.focusChapters ?? []).filter(chapter => chapter >= 1 && chapter <= 60));
@@ -76,13 +114,13 @@ export function buildSmartMockQuestions(
   const readingCount = count - listeningCount;
 
   const reading = selectSection(
-    all.filter(question => question.section === "reading"),
+    unique.filter(question => question.section === "reading"),
     readingCount,
     mode,
     focusChapters,
   );
   const listening = selectSection(
-    all.filter(question => question.section === "listening"),
+    unique.filter(question => question.section === "listening"),
     listeningCount,
     mode,
     focusChapters,
