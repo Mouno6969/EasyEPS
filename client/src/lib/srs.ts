@@ -1,5 +1,19 @@
-export type ReviewKind = "chapter" | "basics" | "mock";
+/**
+ * Aggregate kinds ("chapter", "basics", "mock") schedule a whole unit and are kept for the
+ * dashboard, planner and readiness surfaces. Item kinds ("vocab", "practice", "eps") schedule a
+ * single word or question, which is what spaced repetition is actually for: a learner who misses
+ * 3 words out of 30 should review those 3, not re-read the chapter.
+ */
+export type ReviewKind = "chapter" | "basics" | "mock" | "vocab" | "practice" | "eps";
 export type ReviewRating = "again" | "hard" | "good" | "easy";
+
+/** Item kinds the review drill can quiz directly. */
+export const DRILLABLE_KINDS = ["vocab", "practice", "eps"] as const;
+export type DrillableKind = (typeof DRILLABLE_KINDS)[number];
+
+export function isDrillableKind(kind: ReviewKind): kind is DrillableKind {
+  return (DRILLABLE_KINDS as readonly string[]).includes(kind);
+}
 
 export type ReviewHistoryEntry = {
   reviewedAt: string;
@@ -14,6 +28,8 @@ export type ReviewItem = {
   kind: ReviewKind;
   chapter?: number;
   moduleId?: string;
+  /** Item kinds only: the vocabulary key (`ko`) or question id this entry tracks. */
+  itemId?: string;
   labelBn: string;
   misses: number;
   lapses: number;
@@ -40,7 +56,14 @@ type LegacyReviewItem = Partial<ReviewItem> & {
 
 const KEY = "easyeps-srs-v2";
 const LEGACY_KEY = "easyeps-srs-v1";
-const MAX_ITEMS = 120;
+/**
+ * The curriculum holds 1922 vocabulary entries and ~2400 questions, so the old cap of 120 could
+ * not hold even one entry per word. Items are stored most-recently-touched first and evicted from
+ * the tail, keeping the active working set rather than the whole curriculum.
+ */
+const MAX_ITEMS = 2500;
+/** Trimmed from 12 to keep 2500 items inside the ~5 MB localStorage budget. */
+const HISTORY_LIMIT = 8;
 const MIN_EASE = 1.3;
 const MAX_EASE = 2.8;
 
@@ -80,6 +103,7 @@ function migrateItem(item: LegacyReviewItem): ReviewItem {
     kind: item.kind,
     chapter: item.chapter,
     moduleId: item.moduleId,
+    itemId: item.itemId,
     labelBn: item.labelBn,
     misses,
     lapses: Math.max(0, Number(item.lapses ?? misses)),
@@ -91,7 +115,7 @@ function migrateItem(item: LegacyReviewItem): ReviewItem {
     lastMissedAt: item.lastMissedAt ?? lastReviewedAt,
     lastReviewedAt,
     dueDate: item.dueDate ?? addDays(todayKey(), intervalDays),
-    history: Array.isArray(item.history) ? item.history.slice(-12) : [],
+    history: Array.isArray(item.history) ? item.history.slice(-HISTORY_LIMIT) : [],
   };
 }
 
@@ -112,15 +136,33 @@ function load(): ReviewItem[] {
   }
 }
 
+/**
+ * Writes are best-effort: a learner deep into the curriculum can hold thousands of items, and
+ * mobile Safari throws QuotaExceededError rather than silently dropping data. Rather than losing
+ * the whole schedule, progressively drop the coldest items (the list is most-recent-first) until
+ * the payload fits.
+ */
 function save(items: ReviewItem[]) {
   if (!isBrowser()) return;
-  localStorage.setItem(KEY, JSON.stringify(items.slice(0, MAX_ITEMS)));
+  let capped = items.slice(0, MAX_ITEMS);
+  for (let attempt = 0; attempt < 6; attempt++) {
+    try {
+      localStorage.setItem(KEY, JSON.stringify(capped));
+      return;
+    } catch {
+      if (capped.length <= 50) break;
+      capped = capped.slice(0, Math.floor(capped.length / 2));
+    }
+  }
 }
 
-function reviewId(input: { kind: ReviewKind; chapter?: number; moduleId?: string }) {
+function reviewId(input: { kind: ReviewKind; chapter?: number; moduleId?: string; itemId?: string }) {
   if (input.kind === "chapter") return `chapter-${input.chapter ?? "unknown"}`;
   if (input.kind === "basics") return `basics-${input.moduleId ?? "checkpoint"}`;
-  return "mock-test";
+  if (input.kind === "mock") return "mock-test";
+  // Item kinds are scoped by chapter so the same word appearing in two chapters is one entry per
+  // chapter, matching how the lessons actually teach it.
+  return `${input.kind}-${input.chapter ?? 0}-${input.itemId ?? "unknown"}`;
 }
 
 function scheduleReview(item: ReviewItem, rating: ReviewRating, reviewedAt: string, scoreRatio?: number): ReviewItem {
@@ -169,7 +211,40 @@ function scheduleReview(item: ReviewItem, rating: ReviewRating, reviewedAt: stri
     lastMissedAt: rating === "again" || rating === "hard" ? reviewedAt : item.lastMissedAt,
     lastReviewedAt: reviewedAt,
     dueDate: addDays(reviewDate, intervalDays),
-    history: [...item.history, { reviewedAt, rating, scoreRatio, intervalDays }].slice(-12),
+    history: [...item.history, { reviewedAt, rating, scoreRatio, intervalDays }].slice(-HISTORY_LIMIT),
+  };
+}
+
+function createItem(input: {
+  id: string;
+  kind: ReviewKind;
+  chapter?: number;
+  moduleId?: string;
+  itemId?: string;
+  labelBn: string;
+  now: string;
+  scoreRatio?: number;
+  mastery?: number;
+}): ReviewItem {
+  return {
+    id: input.id,
+    version: 2,
+    kind: input.kind,
+    chapter: input.chapter,
+    moduleId: input.moduleId,
+    itemId: input.itemId,
+    labelBn: input.labelBn,
+    misses: 0,
+    lapses: 0,
+    repetitions: 0,
+    intervalDays: 1,
+    easeFactor: 2.3,
+    mastery: input.mastery ?? 40,
+    lastScoreRatio: input.scoreRatio,
+    lastMissedAt: input.now,
+    lastReviewedAt: input.now,
+    dueDate: todayKey(),
+    history: [],
   };
 }
 
@@ -192,25 +267,17 @@ export function recordReviewAttempt(input: {
   const id = reviewId(input);
   const items = load();
   const existing = items.find(item => item.id === id);
-  const base: ReviewItem = existing ?? {
-    id,
-    version: 2,
-    kind: input.kind,
-    chapter: input.chapter,
-    moduleId: input.moduleId,
-    labelBn: input.labelBn,
-    misses: 0,
-    lapses: 0,
-    repetitions: 0,
-    intervalDays: 1,
-    easeFactor: 2.3,
-    mastery: 40,
-    lastScoreRatio: ratio,
-    lastMissedAt: now,
-    lastReviewedAt: now,
-    dueDate: todayKey(),
-    history: [],
-  };
+  const base: ReviewItem =
+    existing ??
+    createItem({
+      id,
+      kind: input.kind,
+      chapter: input.chapter,
+      moduleId: input.moduleId,
+      labelBn: input.labelBn,
+      now,
+      scoreRatio: ratio,
+    });
   const scheduled = scheduleReview(
     { ...base, chapter: input.chapter, moduleId: input.moduleId, labelBn: input.labelBn },
     ratingFromRatio(ratio),
@@ -224,12 +291,119 @@ export function recordReviewAttempt(input: {
 /** @deprecated Kept for compatibility with existing attempt flows. */
 export const recordWeakAttempt = recordReviewAttempt;
 
+/**
+ * Record per-item outcomes from one attempt. This is what makes the schedule useful: a learner who
+ * misses 3 words out of 30 gets those 3 back tomorrow instead of re-reading the whole chapter.
+ *
+ * Correct answers map to "good" and wrong ones to "again" rather than going through
+ * `ratingFromRatio`, because a binary outcome carries no confidence signal — treating a first-try
+ * correct as "easy" would push the next review out four days on no evidence.
+ */
+export function recordItemReviews(input: {
+  kind: DrillableKind;
+  chapter?: number;
+  /** `chapter` per result overrides the batch chapter — a mock test draws from many chapters. */
+  results: Array<{ itemId: string; labelBn: string; correct: boolean; chapter?: number }>;
+}): ReviewItem[] {
+  if (!input.results.length) return [];
+  const now = new Date().toISOString();
+  const items = load();
+  const byId = new Map(items.map(item => [item.id, item] as const));
+  const touched: ReviewItem[] = [];
+  const seen = new Set<string>();
+
+  for (const result of input.results) {
+    if (!result.itemId || !result.labelBn) continue;
+    const chapter = result.chapter ?? input.chapter;
+    const id = reviewId({ kind: input.kind, chapter, itemId: result.itemId });
+    // One attempt may show the same word twice; the first outcome is the honest one.
+    if (seen.has(id)) continue;
+    seen.add(id);
+    const base =
+      byId.get(id) ??
+      createItem({
+        id,
+        kind: input.kind,
+        chapter,
+        itemId: result.itemId,
+        labelBn: result.labelBn,
+        now,
+      });
+    touched.push(
+      scheduleReview(
+        { ...base, chapter, itemId: result.itemId, labelBn: result.labelBn },
+        result.correct ? "good" : "again",
+        now,
+        result.correct ? 1 : 0,
+      ),
+    );
+  }
+
+  if (!touched.length) return [];
+  save([...touched, ...items.filter(item => !seen.has(item.id))]);
+  return touched;
+}
+
+/**
+ * Register the vocabulary of a chapter the learner has just worked through. Seeded entries are due
+ * immediately with a low mastery so the next drill covers the new words. Words that already have a
+ * schedule are left alone, and seeds are appended after existing items so that when the store is
+ * over quota an un-drilled seed is evicted before a real review history.
+ */
+export function seedVocabReviews(input: {
+  chapter: number;
+  entries: Array<{ itemId: string; labelBn: string }>;
+}): number {
+  if (!input.entries.length) return 0;
+  const now = new Date().toISOString();
+  const items = load();
+  const known = new Set(items.map(item => item.id));
+  const created: ReviewItem[] = [];
+
+  for (const entry of input.entries) {
+    if (!entry.itemId || !entry.labelBn) continue;
+    const id = reviewId({ kind: "vocab", chapter: input.chapter, itemId: entry.itemId });
+    if (known.has(id)) continue;
+    known.add(id);
+    created.push(
+      createItem({
+        id,
+        kind: "vocab",
+        chapter: input.chapter,
+        itemId: entry.itemId,
+        labelBn: entry.labelBn,
+        now,
+        mastery: 20,
+      }),
+    );
+  }
+
+  if (!created.length) return 0;
+  save([...items, ...created]);
+  return created.length;
+}
+
 export function listDueReviews(limit = 10): ReviewItem[] {
   const today = todayKey();
   return load()
     .filter(item => item.dueDate <= today)
     .sort((a, b) => a.dueDate.localeCompare(b.dueDate) || a.mastery - b.mastery || b.lapses - a.lapses)
     .slice(0, limit);
+}
+
+/** Due items the review drill can quiz directly (single words/questions), weakest first. */
+export function listDueDrillItems(limit = 20): ReviewItem[] {
+  const today = todayKey();
+  return load()
+    .filter(item => isDrillableKind(item.kind) && !!item.itemId && item.dueDate <= today)
+    .sort((a, b) => a.dueDate.localeCompare(b.dueDate) || a.mastery - b.mastery || b.lapses - a.lapses)
+    .slice(0, limit);
+}
+
+/** Total drillable items due today, for badges and the daily plan. */
+export function countDueDrillItems(): number {
+  const today = todayKey();
+  return load().filter(item => isDrillableKind(item.kind) && !!item.itemId && item.dueDate <= today).length;
 }
 
 export function listRecentWeak(limit = 5): ReviewItem[] {
@@ -243,6 +417,11 @@ export function listUpcomingReviews(limit = 10): ReviewItem[] {
   return load()
     .sort((a, b) => a.dueDate.localeCompare(b.dueDate) || a.mastery - b.mastery)
     .slice(0, limit);
+}
+
+/** Storage id for an item entry, so callers can map drill cards back to their schedule. */
+export function itemReviewId(input: { kind: DrillableKind; chapter?: number; itemId: string }) {
+  return reviewId(input);
 }
 
 export function markReviewed(id: string, rating: ReviewRating = "good") {
@@ -260,6 +439,9 @@ export function reviewRatingLabel(rating: ReviewRating) {
 }
 
 export function hrefForReview(item: ReviewItem): string {
+  // Item kinds go to the drill, which quizzes the word or question itself; sending a learner back
+  // to a 30-minute chapter to recover one missed word is the behaviour this replaces.
+  if (isDrillableKind(item.kind)) return "/review";
   if (item.kind === "chapter" && item.chapter) return `/lesson/${item.chapter}`;
   if (item.kind === "basics") return item.moduleId ? `/basics/${item.moduleId}` : "/basics";
   return "/mock-test";

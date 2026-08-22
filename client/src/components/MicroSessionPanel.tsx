@@ -1,4 +1,4 @@
-import { hrefForReview, type ReviewItem } from "@/lib/srs";
+import { hrefForReview, isDrillableKind, type ReviewItem } from "@/lib/srs";
 import { BookOpenText, BrainCircuit, ChevronRight, Clock3, RotateCcw } from "lucide-react";
 import { Link } from "wouter";
 
@@ -6,12 +6,16 @@ export function MicroSessionPanel({
   nextChapter,
   hangulReady,
   dueReviews,
+  drillDueCount = 0,
 }: {
   nextChapter: number;
   hangulReady: boolean;
   dueReviews: ReviewItem[];
+  /** Total drillable items due today, so the card offers the whole drill rather than one word. */
+  drillDueCount?: number;
 }) {
   const review = dueReviews[0];
+  const drill = review && isDrillableKind(review.kind);
   const sessions = [
     {
       id: "five-minute",
@@ -24,8 +28,12 @@ export function MicroSessionPanel({
     {
       id: "review",
       minutes: 7,
-      title: review?.labelBn ?? "দুর্বল জায়গা রিভিউ",
-      detail: review ? `আজ নির্ধারিত · mastery ${review.mastery}%` : "নতুন ভুল জমলে এখানে ব্যক্তিগত রিভিউ আসবে",
+      title: drill ? `${drillDueCount || 1}টি আইটেমের রিভিউ ড্রিল` : review?.labelBn ?? "দুর্বল জায়গা রিভিউ",
+      detail: drill
+        ? "ভুল হওয়া শব্দ ও প্রশ্ন — একটি করে"
+        : review
+          ? `আজ নির্ধারিত · mastery ${review.mastery}%`
+          : "নতুন ভুল জমলে এখানে ব্যক্তিগত রিভিউ আসবে",
       href: review ? hrefForReview(review) : hangulReady ? `/lesson/${nextChapter}` : "/basics",
       icon: RotateCcw,
     },

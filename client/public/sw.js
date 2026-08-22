@@ -25,7 +25,11 @@ self.addEventListener("activate", event => {
 function isCurriculumQuery(url) {
   return url.origin === self.location.origin
     && url.pathname.startsWith("/api/trpc")
-    && (url.pathname.includes("curriculum.get") || url.pathname.includes("curriculum.list"));
+    && (url.pathname.includes("curriculum.get")
+      || url.pathname.includes("curriculum.list")
+      // Review drill cards: the same due queue is usually drilled more than once a day, so caching
+      // it lets a learner finish a session after losing signal.
+      || url.pathname.includes("curriculum.reviewItems"));
 }
 
 async function networkWithCacheFallback(request, cacheName) {

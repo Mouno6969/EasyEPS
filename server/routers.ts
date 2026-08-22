@@ -15,6 +15,7 @@ import {
   looksLikeImage,
   profileSetupSchema,
 } from "@shared/profile";
+import { buildReviewCards } from "@shared/reviewCards";
 import { scoreLessonExam, scoreMockFromLessons, type MockQuestionRef } from "@shared/scoring";
 import { buildSmartMockQuestions } from "@shared/smartMock";
 import { TRPCError } from "@trpc/server";
@@ -217,6 +218,28 @@ export const appRouter = router({
       if (!lesson) notFound(`Lesson ${input.chapter} was not found`);
       return lesson;
     }),
+    /**
+     * Resolve spaced-repetition entries into ready-to-answer drill cards. The review queue mixes
+     * items from many chapters, so the alternative is one `curriculum.get` per chapter — several
+     * hundred KB of lesson JSON on mobile data to quiz twenty words. This returns only the fields
+     * the drill renders.
+     */
+    reviewItems: publicProcedure
+      .input(
+        z.object({
+          refs: z
+            .array(
+              z.object({
+                kind: z.enum(["vocab", "practice", "eps"]),
+                chapter: z.number().int().min(1).max(60),
+                itemId: z.string().min(1).max(200),
+              }),
+            )
+            .min(1)
+            .max(40),
+        }),
+      )
+      .query(({ input }) => buildReviewCards(input.refs, getLesson)),
     featured: publicProcedure.query(() => {
       const chapters = [1, 9, 21, 31, 53, 57];
       return getLessonSummaries().filter(lesson => chapters.includes(lesson.chapter));
