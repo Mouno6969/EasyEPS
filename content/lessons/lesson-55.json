@@ -1360,5 +1360,67 @@
       "answer": 2,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "안전점검표",
+      "romanization": "anjeon jeomgeompyo",
+      "bn": "নিরাপত্তা চেকলিস্ট",
+      "en": "safety checklist",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 시작 전에 안전점검표를 작성하세요.",
+        "bn": "কাজ শুরু করার আগে নিরাপত্তা চেকলিস্ট পূরণ করুন।",
+        "en": "Fill out the safety checklist before starting work."
+      },
+      "pronunciationTipBn": "표는 'প্যো'처럼 পড়েন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 55
+    },
+    {
+      "ko": "비상조명",
+      "romanization": "bisang jomyeong",
+      "bn": "জরুরি আলো",
+      "en": "emergency lighting",
+      "pos": "noun",
+      "example": {
+        "ko": "비상조명이 고장 나면 즉시 관리자에게 보고하세요.",
+        "bn": "জরুরি আলো খারাপ হলে দ্রুত ব্যবস্থাপককে জানান।",
+        "en": "If the emergency lighting is not working, report it to the supervisor immediately."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 55
+    },
+    {
+      "ko": "추락방지망",
+      "romanization": "churak bangji-mang",
+      "bn": "পতন প্রতিরোধ জাল",
+      "en": "fall-arrest net",
+      "pos": "noun",
+      "example": {
+        "ko": "고소 작업 시 추락방지망을 반드시 설치해야 합니다.",
+        "bn": "উচ্চতায় কাজ করার সময় অবশ্যই পতন প্রতিরোধ জাল বসাতে হবে।",
+        "en": "You must install a fall-arrest net when working at heights."
+      },
+      "pronunciationTipBn": "추락은 'চুরাক'처럼 발음하세요.",
+      "layer": "exam-transfer",
+      "sourceChapter": 55
+    },
+    {
+      "ko": "전기차단기",
+      "romanization": "jeongi chadan-gi",
+      "bn": "সার্কিট ব্রেকার (বিদ্যুৎ বিচ্ছিন্নকারী)",
+      "en": "circuit breaker",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 전기차단기로 전원을 먼저 차단하세요.",
+        "bn": "কাজ শুরু করার আগে সার্কিট ব্রেকার দিয়ে বিদ্যুৎ বন্ধ করুন।",
+        "en": "Turn off the power with the circuit breaker before starting work."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 55
+    }
   ]
 }

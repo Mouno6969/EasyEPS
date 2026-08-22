@@ -1358,5 +1358,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 광물 자원 개발과 생산에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "갱구",
+      "romanization": "gaenggu",
+      "bn": "খনি প্রবেশদ্বার",
+      "en": "mine entrance",
+      "pos": "noun",
+      "example": {
+        "ko": "갱구 주변에는 통행로를 확보하고 장비를 정리하세요.",
+        "bn": "খনি মুখের আশেপাশে চলাচলের পথ সুনিশ্চিত করুন এবং সরঞ্জামগুলো সাজিয়ে রাখুন।",
+        "en": "Keep access routes clear around the mine entrance and organize equipment."
+      },
+      "pronunciationTipBn": "갱은 'geng'에 가깝게, 구는 'gu'처럼 발음합니다.",
+      "layer": "exam-transfer",
+      "sourceChapter": 49
+    },
+    {
+      "ko": "지층",
+      "romanization": "jicheung",
+      "bn": "পাথরের স্তর",
+      "en": "geological stratum",
+      "pos": "noun",
+      "example": {
+        "ko": "시추 전에는 지층 구조를 확인해야 합니다.",
+        "bn": "বোরিং করার আগে স্তরীয় গঠন পরীক্ষা করতে হবে।",
+        "en": "Before drilling, you should check the stratum structure."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 49
+    },
+    {
+      "ko": "선별",
+      "romanization": "seonbyeol",
+      "bn": "বাছাই করা",
+      "en": "to sort; to screen",
+      "pos": "verb",
+      "example": {
+        "ko": "채석장에서 채취한 암석은 크기와 성분별로 선별합니다.",
+        "bn": "শিলাভাগ থেকে সংগ্রহ করা পাথরগুলো আকার ও উপাদান অনুযায়ী বাছাই করা হয়।",
+        "en": "Rocks taken from the quarry are sorted by size and composition."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 49
+    },
+    {
+      "ko": "환기구",
+      "romanization": "hwangigu",
+      "bn": "বায়ু চলাচলের খোলা অংশ (ভেন্ট)",
+      "en": "vent; ventilation opening",
+      "pos": "noun",
+      "example": {
+        "ko": "환기구가 막히면 가스 농도가 높아지므로 즉시 청소해야 합니다.",
+        "bn": "ভেন্ট বন্ধ হলে গ্যাস ঘনত্ব বেড়ে যায়, তাই তাৎক্ষণিকভাবে পরিষ্কার করতে হবে।",
+        "en": "If vents are blocked gas concentration rises, so clean them immediately."
+      },
+      "pronunciationTipBn": "'환'은 'hwan'처럼 발음됩니다.",
+      "layer": "exam-transfer",
+      "sourceChapter": 49
+    }
   ]
 }

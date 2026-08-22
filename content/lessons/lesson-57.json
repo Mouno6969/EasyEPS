@@ -1334,5 +1334,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে সকাল ৯টা থেকে কাজ শুরু, ছবিতেও ঘড়ি ৯টা দেখাচ্ছে।",
       "passage": "남자: 고용허가제에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "접수증",
+      "romanization": "jeopsujeung",
+      "bn": "গ্রহণ সনদ / জমা রসিদ",
+      "en": "receipt (for document submission)",
+      "pos": "noun",
+      "example": {
+        "ko": "서류를 제출하면 접수증을 꼭 받으세요.",
+        "bn": "নথি জমা দিলে অবশ্যই গ্রহণ সনদ (রসিদ) নিন।",
+        "en": "When you submit documents, be sure to get a receipt."
+      },
+      "pronunciationTipBn": "증은 'জึง'처럼 소리 납니다.",
+      "layer": "exam-transfer",
+      "sourceChapter": 57
+    },
+    {
+      "ko": "공증",
+      "romanization": "gongjeung",
+      "bn": "নোটারাইজেশন (দলিল প্রমাণীকরণ)",
+      "en": "notarization",
+      "pos": "noun",
+      "example": {
+        "ko": "중요한 서류는 번역 후 공증을 받아 오세요.",
+        "bn": "গুরুত্বপূর্ণ নথি অনুবাদের পরে নোটারাইজেশন করিয়ে আনুন।",
+        "en": "Have important documents notarized after translation and bring them."
+      },
+      "pronunciationTipBn": "공증의 끝음 'ㅇ' (ng) নম্রভাবে থাকায় লক্ষ্য করুন.",
+      "layer": "exam-transfer",
+      "sourceChapter": 57
+    },
+    {
+      "ko": "위임장",
+      "romanization": "wiimjang",
+      "bn": "অধিকার হস্তান্তর পত্র (পাওয়ার অব অ্যাটর্নি)",
+      "en": "power of attorney / authorization letter",
+      "pos": "noun",
+      "example": {
+        "ko": "대리인이 오면 위임장을 제출해야 합니다.",
+        "bn": "প্রতিনিধি এলে অবশ্যই 위임장 (অনুমতি পত্র) জমা দিতে হবে।",
+        "en": "If a representative comes, they must submit a power of attorney."
+      },
+      "pronunciationTipBn": "위임은 'উই-임'처럼 두 음절로 읽어요.",
+      "layer": "exam-transfer",
+      "sourceChapter": 57
+    },
+    {
+      "ko": "안내문",
+      "romanization": "annaemun",
+      "bn": "বিজ্ঞপ্তি / 안내 পত্র",
+      "en": "notice / information bulletin",
+      "pos": "noun",
+      "example": {
+        "ko": "고용센터 게시판의 안내문에서 제출 서류 목록을 확인하세요.",
+        "bn": "কর্মসংস্থান কেন্দ্রের বোর্ডে থাকা 안내মেনে জমা কাগজপত্রের তালিকা দেখুন।",
+        "en": "Check the notice on the employment center's board for the list of required documents."
+      },
+      "pronunciationTipBn": "안내의 'ㅐ'는 'এ' স্বরে পড়েন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 57
+    }
   ]
 }

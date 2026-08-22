@@ -1350,5 +1350,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남자: 하루 일과에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "습관",
+      "romanization": "seupgwan",
+      "bn": "অভ্যাস",
+      "en": "habit",
+      "pos": "noun",
+      "example": {
+        "ko": "아침에 스트레칭하는 습관이 생겼어요.",
+        "bn": "সকালে স্ট্রেচিং করার অভ্যাস গড়ে উঠেছে।",
+        "en": "I developed the habit of stretching in the morning."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 6
+    },
+    {
+      "ko": "알람",
+      "romanization": "allam",
+      "bn": "অ্যালার্ম/সতর্ক সংকেত",
+      "en": "alarm (clock or alert)",
+      "pos": "noun",
+      "example": {
+        "ko": "휴대폰 알람을 끄지 말고 출근 준비하세요.",
+        "bn": "মোবাইল অ্যালার্ম বন্ধ করবেন না এবং অফিসে যাওয়ার প্রস্তুতি নিন।",
+        "en": "Don't turn off the phone alarm; get ready for work."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 6
+    },
+    {
+      "ko": "우선순위",
+      "romanization": "useonsunwi",
+      "bn": "অগ্রাধিকার",
+      "en": "priority",
+      "pos": "noun",
+      "example": {
+        "ko": "오늘의 할 일 우선순위를 적어 보세요.",
+        "bn": "আজকের কাজগুলোর অগ্রাধিকারের তালিকা লিখে নিন।",
+        "en": "Write down the priorities for today's tasks."
+      },
+      "pronunciationTipBn": "우선순위 발음: '우선(우선)' + '순위(순-위)'",
+      "layer": "exam-transfer",
+      "sourceChapter": 6
+    },
+    {
+      "ko": "체크리스트",
+      "romanization": "chekeuriseuteu",
+      "bn": "চেকলিস্ট/পরীক্ষা তালিকা",
+      "en": "checklist",
+      "pos": "noun",
+      "example": {
+        "ko": "퇴근 전에 체크리스트로 장비를 확인하세요.",
+        "bn": "ছুটির আগে চেকলিস্ট দেখে যন্ত্রপাতি পরীক্ষা করুন।",
+        "en": "Check the equipment with a checklist before leaving work."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 6
+    }
   ]
 }

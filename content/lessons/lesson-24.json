@@ -1309,5 +1309,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남자: 은행에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "예금주",
+      "romanization": "ye-geum-ju",
+      "bn": "হিসাবধারী",
+      "en": "account holder",
+      "pos": "noun",
+      "example": {
+        "ko": "계좌 명의와 예금주가 일치하는지 확인하세요.",
+        "bn": "একাউন্টের নাম এবং হিসাবধারীর নাম মিলছে কি না যাচাই করুন।",
+        "en": "Check whether the account name matches the account holder."
+      },
+      "pronunciationTipBn": "예금주 (예-금-주 ye-geum-ju)",
+      "layer": "exam-transfer",
+      "sourceChapter": 24
+    },
+    {
+      "ko": "잔고증명서",
+      "romanization": "jan-go-jeung-myeong-seo",
+      "bn": "ব্যালান্স সার্টিফিকেট",
+      "en": "balance certificate",
+      "pos": "noun",
+      "example": {
+        "ko": "비자 제출을 위해 은행에서 잔고증명서를 발급받았습니다.",
+        "bn": "ভিসার জন্য ব্যাংক থেকে ব্যালান্স সার্টিফিকেট সংগ্রহ করেছি।",
+        "en": "I obtained a balance certificate from the bank to submit for the visa."
+      },
+      "pronunciationTipBn": "잔고증명서 (잔-고-증-명-서 jan-go jeung-myeong-seo)",
+      "layer": "exam-transfer",
+      "sourceChapter": 24
+    },
+    {
+      "ko": "한도",
+      "romanization": "han-do",
+      "bn": "সীমা / লিমিট",
+      "en": "limit",
+      "pos": "noun",
+      "example": {
+        "ko": "카드 결제 한도가 낮으면 증액 신청을 하세요.",
+        "bn": "কার্ড পেমেন্ট লিমিট কম হলে বাড়ানোর আবেদন করুন।",
+        "en": "If your card payment limit is low, apply to increase it."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 24
+    },
+    {
+      "ko": "수표",
+      "romanization": "su-pyo",
+      "bn": "চেক (ব্যাংক চেক)",
+      "en": "check (bank)",
+      "pos": "noun",
+      "example": {
+        "ko": "수표를 현금으로 바꾸려면 신분증을 제시하세요.",
+        "bn": "চেক নগদ করতে হলে পরিচয়পত্র দেখান।",
+        "en": "Present ID to cash a check."
+      },
+      "pronunciationTipBn": "수표 (수-표 su-pyo)",
+      "layer": "exam-transfer",
+      "sourceChapter": 24
+    }
   ]
 }

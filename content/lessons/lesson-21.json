@@ -1377,5 +1377,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남자: 병원에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "진단서",
+      "romanization": "jindanseo",
+      "bn": "রোগ নির্ণয়ের সনদ",
+      "en": "medical certificate / doctor's note",
+      "pos": "noun",
+      "example": {
+        "ko": "병가를 내려면 회사에 진단서를 제출해야 합니다.",
+        "bn": "ছুটির জন্য কোম্পানিকে রোগনির্ণয় সনদ জমা দিতে হবে।",
+        "en": "To take sick leave, you must submit a medical certificate to your company."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 21
+    },
+    {
+      "ko": "초음파",
+      "romanization": "choeumpa",
+      "bn": "আল্ট্রাসাউন্ড পরীক্ষা",
+      "en": "ultrasound",
+      "pos": "noun",
+      "example": {
+        "ko": "의사가 복부 초음파 검사를 권해서 예약을 잡았습니다.",
+        "bn": "চিকিৎসক পেটের আল্ট্রাসাউন্ড পরীক্ষা করতে বলেছেন, তাই অ্যাপয়েন্টমেন্ট নিয়েছি।",
+        "en": "The doctor recommended an abdominal ultrasound, so I made an appointment."
+      },
+      "pronunciationTipBn": "초-음-파를 'চো-উম-পা' মতো বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 21
+    },
+    {
+      "ko": "혈압",
+      "romanization": "hyeolap",
+      "bn": "রক্তচাপ",
+      "en": "blood pressure",
+      "pos": "noun",
+      "example": {
+        "ko": "간호사가 혈압을 재러 왔으니 앞으로 팔을 내밀어 주세요.",
+        "bn": "নার্স রক্তচাপ নেবেন, তাই প্লিজ আপনার বাহু এগিয়ে দিন।",
+        "en": "The nurse is here to measure your blood pressure, so please extend your arm."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 21
+    },
+    {
+      "ko": "소견",
+      "romanization": "sogyeon",
+      "bn": "의사의 소견/의학적 의견",
+      "en": "medical opinion / doctor's remarks",
+      "pos": "noun",
+      "example": {
+        "ko": "검사 결과와 의사의 소견을 자세히 설명해 주었습니다.",
+        "bn": "পরীক্ষার ফলাফল ও চিকিৎসকের মতামত তিনি বিস্তারিতভাবে ব্যাখ্যা করেছেন।",
+        "en": "He explained the test results and the doctor's opinion in detail."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 21
+    }
   ]
 }

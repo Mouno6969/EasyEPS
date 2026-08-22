@@ -1316,5 +1316,67 @@
       "answer": 2,
       "explanationBn": "금연 চিহ্ন ও সংলাপ দুটোই বলছে কারখানার ভেতরে ধূমপান নিষেধ — আগুনের ঝুঁকি আছে। বিকল্প ৩ সঠিক।"
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "금연",
+      "romanization": "geumyeon",
+      "bn": "ধূমপান নিষেধ",
+      "en": "no smoking",
+      "pos": "expression",
+      "example": {
+        "ko": "이 구역은 금연입니다. 담배를 피우지 마세요.",
+        "bn": "এই এলাকা ধূমপান নিষিদ্ধ। দয়া করে সিগারেট না জ্বালান।",
+        "en": "This area is non-smoking. Please do not smoke."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 53
+    },
+    {
+      "ko": "누전",
+      "romanization": "nujeon",
+      "bn": "বিদ্যুতের শর্ট সার্কিট/লিকেজ",
+      "en": "electrical leakage / short circuit",
+      "pos": "noun",
+      "example": {
+        "ko": "누전이 의심되면 전원을 끄고 관리자에게 보고하세요.",
+        "bn": "শর্ট সার্কিট সন্দেহ হলে বিদ্যুৎ বন্ধ করে তাত্ক্ষণিকভাবে ব্যবস্থাপনাকে জানান।",
+        "en": "If you suspect electrical leakage, shut off the power and report to the supervisor."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 53
+    },
+    {
+      "ko": "미끄럼방지",
+      "romanization": "miggeureombangji",
+      "bn": "পিচ্ছিলতা প্রতিরোধ (anti-slip)",
+      "en": "anti-slip / slip prevention",
+      "pos": "noun/adjective",
+      "example": {
+        "ko": "바닥에 미끄럼방지 테이프를 붙여 주세요.",
+        "bn": "ফ্লোরে পিচ্ছিলতা প্রতিরোধ টেপ বসান।",
+        "en": "Please apply anti-slip tape to the floor."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 53
+    },
+    {
+      "ko": "점멸등",
+      "romanization": "jeommyeoldeung",
+      "bn": "ঝলমলে/ঝলকানো সতর্কবার্তা বাতি (ফ্ল্যাশিং 라이트)",
+      "en": "flashing indicator light",
+      "pos": "noun",
+      "example": {
+        "ko": "점멸등이 깜빡이면 기계를 멈추고 점검을 요청하세요.",
+        "bn": "লাইট ঝলমল করলে যন্ত্র বন্ধ করুন এবং পরীক্ষা করার অনুরোধ জানান।",
+        "en": "If the flashing light blinks, stop the machine and request an inspection."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 53
+    }
   ]
 }

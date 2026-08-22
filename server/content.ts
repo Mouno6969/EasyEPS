@@ -49,6 +49,7 @@ export function getLessonSummaries(): LessonSummary[] {
     practiceCount: lesson.practice.length,
     epsQuestionCount: lesson.epsQuestions.length,
     imageQuestionCount: lesson.epsQuestions.filter(question => question.image).length,
+    extraVocabularyCount: lesson.extraVocabulary.length,
   }));
 }
 

@@ -1319,5 +1319,67 @@
       "answer": 3,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "시정조치",
+      "romanization": "sijeongjochi",
+      "bn": "সংশোধনমূলক ব্যবস্থা (corrective action)",
+      "en": "corrective action",
+      "pos": "noun",
+      "example": {
+        "ko": "발견된 문제는 시정조치 계획에 따라 처리하세요.",
+        "bn": "যে কোনো সমস্যা সংশোধনমূলক ব্যবস্থা অনুযায়ী পরিচালনা করুন।",
+        "en": "Handle any discovered issues according to the corrective action plan."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 54
+    },
+    {
+      "ko": "재발방지",
+      "romanization": "jaebalbangji",
+      "bn": "পুনরাবৃত্তি প্রতিরোধ",
+      "en": "prevention of recurrence",
+      "pos": "noun",
+      "example": {
+        "ko": "사고 후 재발방지를 위해 개선안을 마련하세요.",
+        "bn": "দুর্ঘটনার পরে পুনরাবৃত্তি রোধে উন্নয়ন পরিকল্পনা তৈরি করুন।",
+        "en": "After an incident, prepare improvement measures to prevent recurrence."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 54
+    },
+    {
+      "ko": "근본원인분석",
+      "romanization": "geunbonwoninbunseok",
+      "bn": "মূল কারণ বিশ্লেষণ (root cause analysis)",
+      "en": "root cause analysis (RCA)",
+      "pos": "noun",
+      "example": {
+        "ko": "사고가 발생하면 근본원인분석을 실시하여 보고서로 제출하세요.",
+        "bn": "দুর্ঘটনা হলে মূল কারণ বিশ্লেষণ করে রিপোর্ট জমা দিন।",
+        "en": "When an accident occurs, perform a root cause analysis and submit a report."
+      },
+      "pronunciationTipBn": "근본-원인-분석 → 'গিনবন-ওনিন-বুনসেওক'",
+      "layer": "exam-transfer",
+      "sourceChapter": 54
+    },
+    {
+      "ko": "절차서",
+      "romanization": "jeolchaseo",
+      "bn": "প্রক্রিয়া নির্দেশিকা (procedural document)",
+      "en": "procedure manual / procedural document",
+      "pos": "noun",
+      "example": {
+        "ko": "절차서를 따라 작업을 시작하기 전에 확인하세요.",
+        "bn": "কাজ শুরু করার আগে প্রক্রিয়া নির্দেশিকা পরীক্ষা করে নিন।",
+        "en": "Check the procedure manual before starting the task."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 54
+    }
   ]
 }

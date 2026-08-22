@@ -1416,5 +1416,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 플라스틱과 고무 성형에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "이형제",
+      "romanization": "ihyeongje",
+      "bn": "ছাঁচ থেকে সহজে আলাদা করার জন্য ব্যবহৃত তরল/রসায়ন",
+      "en": "release agent",
+      "pos": "noun",
+      "example": {
+        "ko": "이형제를 금형 표면에 고르게 도포하세요.",
+        "bn": "ছাঁচের পৃষ্ঠে ইহ্যোঁজে/রিলিজ এজেন্ট সমানভাবে লাগান।",
+        "en": "Apply the release agent evenly to the mold surface."
+      },
+      "pronunciationTipBn": "‘이-형-제’를 'ই-হিয়ং-জে' ভেবে উচ্চারণ করুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 40
+    },
+    {
+      "ko": "사이클타임",
+      "romanization": "saikeultaimeu",
+      "bn": "একটি 성형 사이클 সম্পূর্ণ হতে যে সময় লাগে (সেকেন্ডে)",
+      "en": "cycle time",
+      "pos": "noun",
+      "example": {
+        "ko": "사이클타임을 30초로 조정하면 생산성이 올라갑니다.",
+        "bn": "সাইকেলটাইম ৩০ সেকেন্ডে ঠিক করলে উৎপাদন বাড়বে।",
+        "en": "If you set the cycle time to 30 seconds, productivity increases."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 40
+    },
+    {
+      "ko": "클램프력",
+      "romanization": "keullaempeuryeok",
+      "bn": "금형을 단단히 고정하는 압력(클램핑 힘)",
+      "en": "clamping force",
+      "pos": "noun",
+      "example": {
+        "ko": "클램프력이 부족하면 제품에 플래시가 생길 수 있습니다.",
+        "bn": "ক্ল্যাম্পফোর্স কম থাকলে পণ্যে অতিরিক্ত ঝিল্লি (ফ্ল্যাশ) হতে পারে।",
+        "en": "If the clamping force is insufficient, the product may have flash."
+      },
+      "pronunciationTipBn": "클램프력: '클램프-력'으로 끊어 읽으세요",
+      "layer": "exam-transfer",
+      "sourceChapter": 40
+    },
+    {
+      "ko": "표면결함",
+      "romanization": "pyomyeon-gyeolham",
+      "bn": "제품 표면에서 보이는 긁힘, 기포, 얼룩 같은 결함",
+      "en": "surface defect",
+      "pos": "noun",
+      "example": {
+        "ko": "검사에서 표면결함이 발견되면 즉시 불량으로 분류하고 보고하세요.",
+        "bn": "পরিদর্শনে 표면-ত্রুটি দেখা গেলে তা দ্রুত ত্রুটিপূর্ণ হিসেবে চিহ্নিত করে রিপোর্ট করুন।",
+        "en": "If a surface defect is found during inspection, classify it as defective and report immediately."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 40
+    }
   ]
 }

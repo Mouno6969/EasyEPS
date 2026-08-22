@@ -1338,5 +1338,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남자: 우체국에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "수취인",
+      "romanization": "su-chwi-in",
+      "bn": "প্রাপক",
+      "en": "recipient",
+      "pos": "noun",
+      "example": {
+        "ko": "수취인 주소가 정확한지 다시 확인하세요.",
+        "bn": "প্রাপকের ঠিকানা সঠিক কিনা আবার যাচাই করুন।",
+        "en": "Please double-check that the recipient's address is correct."
+      },
+      "pronunciationTipBn": "수취인 (수-취-인 su-chwi-in)",
+      "layer": "exam-transfer",
+      "sourceChapter": 23
+    },
+    {
+      "ko": "발송",
+      "romanization": "bal-song",
+      "bn": "প্রেরণ / পাঠানো",
+      "en": "dispatch / send",
+      "pos": "verb",
+      "example": {
+        "ko": "국제 소포는 발송 전 세관 신고를 해야 합니다.",
+        "bn": "আন্তর্জাতিক পার্সেল প্রেরণের আগে কাস্টমসে ঘোষণা করতে হবে।",
+        "en": "International parcels must be declared to customs before dispatch."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 23
+    },
+    {
+      "ko": "취급주의",
+      "romanization": "chwi-geup-ju-ui",
+      "bn": "সাবধানে পরিচালনা / সতর্কতার নির্দেশ",
+      "en": "handle with care (label)",
+      "pos": "expression",
+      "example": {
+        "ko": "유리 물건에는 '취급주의' 스티커를 붙이세요.",
+        "bn": "কাচের জিনিসে 'সাবধানে পরিবহণ' স্টিকার লাগান।",
+        "en": "Put a 'handle with care' sticker on glass items."
+      },
+      "pronunciationTipBn": "취급주의 (চুই-গึপ-জু-ই chwi-geup-ju-ui)",
+      "layer": "exam-transfer",
+      "sourceChapter": 23
+    },
+    {
+      "ko": "추적번호",
+      "romanization": "chu-jeok-beon-ho",
+      "bn": "ট্র্যাকিং নম্বর",
+      "en": "tracking number",
+      "pos": "noun",
+      "example": {
+        "ko": "추적번호를 입력하면 배송 위치를 확인할 수 있습니다.",
+        "bn": "ট্র্যাকিং নম্বরটি দিলে ডেলিভারির অবস্থান দেখা যায়।",
+        "en": "You can check the delivery location by entering the tracking number."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 23
+    }
   ]
 }

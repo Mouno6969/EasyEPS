@@ -1368,5 +1368,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 섬유 제조에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "편직",
+      "romanization": "pyeonjik",
+      "bn": "বোনা প্রক্রিয়া (নিটিং) — সূতা/তন্তু থেকে কাপড় তৈরি করা",
+      "en": "knitting (process)",
+      "pos": "noun",
+      "example": {
+        "ko": "편직 공정에서는 바늘 상태를 자주 점검하세요.",
+        "bn": "নিটিং প্রক্রিয়ায় সুইয়ের অবস্থা বারবার পরীক্ষা করুন।",
+        "en": "In the knitting process, check the condition of the needles frequently."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 41
+    },
+    {
+      "ko": "장력조절",
+      "romanization": "jangnyeokjojol",
+      "bn": "실이나 원단의 당기는 힘(장력)을 조절하는 것",
+      "en": "tension control",
+      "pos": "noun",
+      "example": {
+        "ko": "장력조절이 잘못되면 직물 폭과 무늬가 달라질 수 있습니다.",
+        "bn": "টেনশন নিয়ন্ত্রণ ভুল হলে কাপড়ের প্রস্থ ও নকশা বদলে যেতে পারে।",
+        "en": "If tension control is wrong, fabric width and pattern may change."
+      },
+      "pronunciationTipBn": "장력: 'জাং-নিক' নয়, 'জাং-녁' মনে করুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 41
+    },
+    {
+      "ko": "보풀",
+      "romanization": "bopul",
+      "bn": "কাপড়ের ওপর ছোট তন্তুর গুচ্ছ বা পিলিং",
+      "en": "pilling",
+      "pos": "noun",
+      "example": {
+        "ko": "출하 전에 보풀을 제거하고 품질검사를 하세요.",
+        "bn": "পণ্য পাঠানোর আগে কাপড়ের বোপুল/পিলিং সরিয়ে গুণগত পরীক্ষা করুন।",
+        "en": "Remove pilling and perform quality checks before shipment."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 41
+    },
+    {
+      "ko": "스풀교체",
+      "romanization": "seupulgyoche",
+      "bn": "실이 감긴 스풀(릴)을 교체하는 작업",
+      "en": "spool replacement",
+      "pos": "phrase",
+      "example": {
+        "ko": "스풀교체 시 기계를 정지시키고 안전장비를 착용하세요.",
+        "bn": "স্পুল বদল করার সময় মেশিন বন্ধ করে সুরক্ষামূলক উপকরণ পরুন।",
+        "en": "When replacing a spool, stop the machine and wear safety equipment."
+      },
+      "pronunciationTipBn": "스풀: '스-풀'로 간단히 발음하세요",
+      "layer": "exam-transfer",
+      "sourceChapter": 41
+    }
   ]
 }

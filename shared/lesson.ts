@@ -16,6 +16,11 @@ const vocabularyItemSchema = z.object({
   pronunciationTipBn: z.string().optional().default(""),
 });
 
+const extraVocabularyItemSchema = vocabularyItemSchema.extend({
+  layer: z.enum(["exam-transfer", "recycled"]).default("exam-transfer"),
+  sourceChapter: z.number().int().min(1).max(60).optional(),
+});
+
 const grammarItemSchema = z.object({
   pattern: z.string().min(1),
   titleBn: z.string().min(1),
@@ -136,6 +141,7 @@ export const lessonSchema = z
       en: z.array(z.string().min(1)).min(1),
     }),
     vocabulary: z.array(vocabularyItemSchema).min(16).max(40),
+    extraVocabulary: z.array(extraVocabularyItemSchema).max(8).default([]),
     grammar: z.array(grammarItemSchema).min(2).max(6),
     dialogues: z.array(dialogueSchema).min(2).max(4),
     practice: z.array(practiceQuestionSchema).min(10).max(24),
@@ -200,6 +206,7 @@ export type LessonSummary = Pick<Lesson, "chapter" | "slug" | "title" | "categor
   epsQuestionCount: number;
   /** How many EPS questions in this chapter include an exam-style image. */
   imageQuestionCount: number;
+  extraVocabularyCount: number;
 };
 
 export const attemptDetailSchema = z.object({

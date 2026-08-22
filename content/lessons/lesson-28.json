@@ -1264,5 +1264,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্টেশনারি দোকান থেকে বলপেন কেনা হয়েছে — ছবিতেও বলপেন।",
       "passage": "남자: 한국의 명절에서 이 물건을 어디에서 샀어요?\n여자: 문구점에서 샀어요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "한과",
+      "romanization": "han-gwa",
+      "bn": "প্রথাগত কোরিয়ান মিষ্টান্ন",
+      "en": "traditional Korean confections",
+      "pos": "noun",
+      "example": {
+        "ko": "집안에 손님이 오면 한과와 차를 내어 대접한다.",
+        "bn": "বাড়িতে অতিথি এলে প্রথাগত মিষ্টান্ন ও চা পরিবেশন করা হয়।",
+        "en": "When guests come to the house, traditional confections and tea are served."
+      },
+      "pronunciationTipBn": "한(হান) - 과(গোয়া)",
+      "layer": "exam-transfer",
+      "sourceChapter": 28
+    },
+    {
+      "ko": "상차림",
+      "romanization": "sang-cha-rim",
+      "bn": "ভোজন বা টেবিল সাজানো, খাবার পরিবেশনের বিন্যাস",
+      "en": "table setting / arrangement of dishes",
+      "pos": "noun",
+      "example": {
+        "ko": "명절에는 조상님을 위한 상차림과 조화에 신경을 쓴다.",
+        "bn": "উৎসবে পূর্বপুরুষদের জন্য ভোজন সাজানো এবং উপস্থাপনায় খেয়াল রাখা হয়।",
+        "en": "During holidays people pay attention to the table setting and arrangement for ancestors."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 28
+    },
+    {
+      "ko": "세시풍속",
+      "romanization": "se-si-pung-sok",
+      "bn": "ঋতু বা মৌসুম অনুযায়ী পালন করা চলমান রীতিরীতি",
+      "en": "seasonal customs / folk practices tied to the lunar calendar",
+      "pos": "noun",
+      "example": {
+        "ko": "한국의 세시풍속은 계절과 농사와 밀접한 관련이 있다.",
+        "bn": "কোরিয়ার ঋতু-সংক্রান্ত ঐতিহ্যগুলি ঋতু ও কৃষির সঙ্গে গভীরভাবে সম্পর্কিত।",
+        "en": "Korean seasonal customs are closely related to the seasons and farming."
+      },
+      "pronunciationTipBn": "세시(সে-শি), 풍속(পুং-সক)",
+      "layer": "exam-transfer",
+      "sourceChapter": 28
+    },
+    {
+      "ko": "향",
+      "romanization": "hyang",
+      "bn": "ধূপ / আরতিতে ব্যবহৃত সুঘ্রাণযুক্ত কাঠি বা সুগন্ধি",
+      "en": "incense",
+      "pos": "noun",
+      "example": {
+        "ko": "제사나 추모식 때 향을 피워 조상에게 경의를 표한다.",
+        "bn": "অনুষ্ঠান বা স্মরণসভায় ধূপ জ্বেলে পূর্বপুরুষদের প্রতি শ্রদ্ধা জানায়।",
+        "en": "At memorial rites people burn incense to show respect to ancestors."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 28
+    }
   ]
 }

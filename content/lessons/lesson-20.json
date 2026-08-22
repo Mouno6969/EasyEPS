@@ -1307,5 +1307,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남자: 인터넷과 스마트폰에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "동기화",
+      "romanization": "donggihwa",
+      "bn": "সমন্বয়/সিঙ্ক করা",
+      "en": "synchronization (to sync)",
+      "pos": "verb",
+      "example": {
+        "ko": "사진을 클라우드에 자동으로 동기화하도록 설정해 두세요.",
+        "bn": "ছবিগুলো ক্লাউডে স্বয়ংক্রিয়ভাবে সিঙ্ক হলেই চলবে এমনভাবে সেট করুন।",
+        "en": "Set your photos to automatically sync to the cloud."
+      },
+      "pronunciationTipBn": "동-기-화를 'ডং-গি-হো' মতো বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 20
+    },
+    {
+      "ko": "업데이트",
+      "romanization": "eobdeiteu",
+      "bn": "আপডেট করা",
+      "en": "update",
+      "pos": "verb",
+      "example": {
+        "ko": "앱이 자꾸 멈추면 업데이트가 있는지 확인하세요.",
+        "bn": "অ্যাপটা বারবার হ্যাং করলে আপডেট আছে কি না পরীক্ষা করুন।",
+        "en": "If the app keeps freezing, check whether there is an update."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 20
+    },
+    {
+      "ko": "알림",
+      "romanization": "allim",
+      "bn": "বিজ্ঞপ্তি/নোটিফিকেশন",
+      "en": "notification",
+      "pos": "noun",
+      "example": {
+        "ko": "중요한 메시지는 알림을 허용해 놓아야 놓치지 않습니다.",
+        "bn": "গুরুত্বপূর্ণ মেসেজগুলো মিস না করতে নোটিফিকেশন অনুমোদন করে রাখুন।",
+        "en": "Allow notifications for important messages so you don't miss them."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 20
+    },
+    {
+      "ko": "링크",
+      "romanization": "linkeu",
+      "bn": "লিংক/সংযোগের ঠিকানা",
+      "en": "link (URL)",
+      "pos": "noun",
+      "example": {
+        "ko": "회의 자료는 이 링크에서 다운받을 수 있습니다.",
+        "bn": "সভার উপকরণটি এই লিঙ্ক থেকে ডাউনলোড করা যাবে।",
+        "en": "You can download the meeting materials from this link."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 20
+    }
   ]
 }

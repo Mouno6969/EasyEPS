@@ -1349,5 +1349,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 산림 자원 관리에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "임도",
+      "romanization": "imdo",
+      "bn": "বন রাস্তাপথ",
+      "en": "forest road",
+      "pos": "noun",
+      "example": {
+        "ko": "임도로 장비를 옮길 때는 차량 규정을 지키세요.",
+        "bn": "বন পথ দিয়ে সরঞ্জাম বহন করার সময় যানবাহন নিয়ম মেনে চলুন।",
+        "en": "When moving equipment along forest roads, follow vehicle rules."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 50
+    },
+    {
+      "ko": "조림지",
+      "romanization": "jorimji",
+      "bn": "পুনঃবনায়ন এলাকা",
+      "en": "reforested area",
+      "pos": "noun",
+      "example": {
+        "ko": "조림지는 식목 후 최소 3년간 보호해야 합니다.",
+        "bn": "পুনঃবনায়িত এলাকা গাছ রোপণের পরে কমপক্ষে ৩ বছর রক্ষা করা উচিত।",
+        "en": "Reforested areas should be protected for at least three years after planting."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 50
+    },
+    {
+      "ko": "생장률",
+      "romanization": "saengjangryul",
+      "bn": "বৃদ্ধির হার",
+      "en": "growth rate",
+      "pos": "noun",
+      "example": {
+        "ko": "나무의 생장률은 토양과 강우량에 따라 달라집니다.",
+        "bn": "গাছের বৃদ্ধির হার মাটির গুণমান ও বৃষ্টির পরিমাণের ওপর নির্ভর করে।",
+        "en": "Tree growth rate depends on soil quality and rainfall."
+      },
+      "pronunciationTipBn": "'률'은 'ryul'에 가깝게 발음됩니다.",
+      "layer": "exam-transfer",
+      "sourceChapter": 50
+    },
+    {
+      "ko": "좌표",
+      "romanization": "jwapyo",
+      "bn": "স্থানাঙ্ক (কর্ডিনেট)",
+      "en": "coordinates",
+      "pos": "noun",
+      "example": {
+        "ko": "측량 결과의 좌표를 정확히 기록하세요.",
+        "bn": "জমির মাপের ফলাফলের স্থানাঙ্ক সঠিকভাবে নথিভুক্ত করুন।",
+        "en": "Record the coordinates of the survey results accurately."
+      },
+      "pronunciationTipBn": "'좌'는 'jwa' 소리로 발음됩니다.",
+      "layer": "exam-transfer",
+      "sourceChapter": 50
+    }
   ]
 }

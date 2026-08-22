@@ -8,6 +8,7 @@ import { useLocalProfile } from "@/lib/localProfile";
 import { trpc } from "@/lib/trpc";
 import {
   BookOpenText,
+  BookMarked,
   Bot,
   CalendarDays,
   ChevronDown,
@@ -35,6 +36,7 @@ const navItems = [
   { href: "/mock-test", key: "mockTest", icon: GraduationCap },
   { href: "/diagnostic", key: "diagnostic", icon: Target },
   { href: "/listening", key: "listening", icon: Headphones },
+  { href: "/daily-vocabulary", key: "dailyVocabulary", icon: BookMarked },
   { href: "/dashboard", key: "dashboard", icon: LayoutDashboard },
   { href: "/planner", key: "planner", icon: CalendarDays },
   { href: "/tutor", key: "tutor", icon: Bot },

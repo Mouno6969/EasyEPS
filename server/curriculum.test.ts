@@ -28,7 +28,20 @@ describe("curriculum.list", () => {
       expect(summary.vocabularyCount).toBeGreaterThanOrEqual(16);
       expect(summary.practiceCount).toBeGreaterThanOrEqual(10);
       expect(summary.epsQuestionCount).toBeGreaterThanOrEqual(8);
+      expect(summary.extraVocabularyCount).toBe(4);
     }
+  });
+});
+
+describe("curriculum.dailyVocabulary", () => {
+  it("returns four unique exam-transfer terms for every chapter alongside the core pool", async () => {
+    const pool = await guestCaller.curriculum.dailyVocabulary();
+    expect(pool).toHaveLength(2162);
+    const extra = pool.filter(item => item.layer === "exam-transfer");
+    expect(extra).toHaveLength(240);
+    expect(new Set(extra.map(item => item.word.ko)).size).toBe(240);
+    expect(new Set(extra.map(item => item.itemId)).size).toBe(240);
+    expect(new Set(extra.map(item => item.chapter)).size).toBe(60);
   });
 });
 

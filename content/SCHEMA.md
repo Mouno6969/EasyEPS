@@ -24,6 +24,23 @@ Every lesson file `content/lessons/lesson-NN.json` MUST be valid JSON matching t
       }
     }
   ],
+  "extraVocabulary": [
+    {
+      "ko": "출신",
+      "romanization": "chulsin",
+      "bn": "জন্মস্থান / উৎস",
+      "en": "place of origin",
+      "pos": "noun",
+      "layer": "exam-transfer",
+      "sourceChapter": 1,
+      "example": {
+        "ko": "자기소개할 때 출신 지역을 말하세요.",
+        "bn": "নিজের পরিচয় দেওয়ার সময় আপনার জন্মস্থান বলুন।",
+        "en": "When introducing yourself, state your place of origin."
+      },
+      "pronunciationTipBn": ""
+    }
+  ],
   "grammar": [
     {
       "pattern": "N + 은/는",
@@ -79,7 +96,8 @@ Every lesson file `content/lessons/lesson-NN.json` MUST be valid JSON matching t
 ```
 
 ## Hard requirements
-- `vocabulary`: 30–35 items, each with ko/romanization/bn/en/pos/example (example has ko/bn/en).
+- `vocabulary`: 30–35 core items, each with ko/romanization/bn/en/pos/example (example has ko/bn/en).
+- `extraVocabulary`: 0–8 optional items for daily exam-transfer practice. Each item uses the vocabulary shape plus `layer` (`exam-transfer` or `recycled`) and an optional `sourceChapter`. The current corpus provides exactly 4 new exam-transfer terms per chapter.
 - `grammar`: 4–5 patterns with Bengali explanations and 2+ examples each.
 - `dialogues`: 3 dialogues, 4–8 lines each.
 - `practice`: EXACTLY 20 items. Mix: ≥4 multiple-choice, ≥3 fill-blank, ≥2 matching.
@@ -87,6 +105,7 @@ Every lesson file `content/lessons/lesson-NN.json` MUST be valid JSON matching t
 - `image` is OPTIONAL and backward-compatible. When present, `src` and `altBn` are required; a listening question with an image must still include a `passage` so audio can be synthesized. Local assets live in `client/public/eps-images/` and are referenced as `/eps-images/<name>.svg`.
 - `answer` index MUST point to the correct option. Content MUST be original artwork/text.
 - All Bengali text natural and correct; Korean text uses standard hangul with correct spacing.
+- Repeated terms are permitted only when they are deliberately recycled practice; new extra terms must be unique across the corpus.
 
 ## Categories
 chapters 1–24: "daily-life", 25–30: "culture", 31–52: "workplace", 53–56: "safety", 57–60: "laws"

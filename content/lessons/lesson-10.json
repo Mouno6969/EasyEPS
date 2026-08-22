@@ -1324,5 +1324,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남자: 쇼핑에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "할인율",
+      "romanization": "halin-yul",
+      "bn": "ডিসকাউন্টের হার",
+      "en": "discount rate",
+      "pos": "noun",
+      "example": {
+        "ko": "이 자켓은 시즌 세일로 할인율이 30%입니다.",
+        "bn": "এই জ্যাকেটটি সিজন সেলের কারণে ৩০% ছাড়ে।",
+        "en": "This jacket has a 30% discount because of the seasonal sale."
+      },
+      "pronunciationTipBn": "হালিন-ইউল (halin-yul)",
+      "layer": "exam-transfer",
+      "sourceChapter": 10
+    },
+    {
+      "ko": "교환",
+      "romanization": "gyohwan",
+      "bn": "বদল/বিনিময়",
+      "en": "exchange (an item)",
+      "pos": "noun",
+      "example": {
+        "ko": "제품에 하자가 있으면 7일 이내에 교환해 드립니다.",
+        "bn": "পণ্যে ত্রুটি হলে ৭ দিনের মধ্যে বদল করে দেওয়া হবে।",
+        "en": "If the product has a defect, we will exchange it within 7 days."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 10
+    },
+    {
+      "ko": "시식",
+      "romanization": "sisik",
+      "bn": "স্বাদ নেওয়া/নমুনা খাওয়া",
+      "en": "tasting/sample (food)",
+      "pos": "noun",
+      "example": {
+        "ko": "과일 코너에서 시식을 해 보고 신선한지 확인하세요.",
+        "bn": "ফল বিভাগের নমুনা খেয়ে দেখে নিন এটা تازা কিনা।",
+        "en": "Try the samples at the fruit section to check if they are fresh."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 10
+    },
+    {
+      "ko": "품절",
+      "romanization": "pumjeol",
+      "bn": "বিক্রি শেষ/স্টক নেই",
+      "en": "sold out",
+      "pos": "adjective",
+      "example": {
+        "ko": "인기 상품이라서 금방 품절되기도 합니다.",
+        "bn": "জনপ্রিয় পণ্য হলে দ্রুত বিক্রি হয়ে শেষ হয়ে যেতে পারে।",
+        "en": "Popular items can sell out quickly."
+      },
+      "pronunciationTipBn": "পুমজল (pumjeol)",
+      "layer": "exam-transfer",
+      "sourceChapter": 10
+    }
   ]
 }

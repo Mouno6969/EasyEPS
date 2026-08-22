@@ -1362,5 +1362,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 기계 가공에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "윤활유",
+      "romanization": "yunhwalyu",
+      "bn": "লুব্রিক্যান্ট তেল (যন্ত্র চলাচলের তেল)",
+      "en": "lubricating oil; lubricant",
+      "pos": "noun",
+      "example": {
+        "ko": "기계에 윤활유를 주기적으로 보충하세요.",
+        "bn": "মেশিনে নিয়মিত লুব্রিক্যান্ট তেল যোগ করুন।",
+        "en": "Refill the machine's lubricating oil regularly."
+      },
+      "pronunciationTipBn": "윤(yun)-활(hwal)-유(yu) মুক্তভাবে জোড়ে বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 37
+    },
+    {
+      "ko": "오작동",
+      "romanization": "ojakdong",
+      "bn": "অস্বাভাবিক কাজ/মালফাংশন",
+      "en": "malfunction",
+      "pos": "noun",
+      "example": {
+        "ko": "오작동이 발생하면 즉시 작업을 멈추고 보고하세요.",
+        "bn": "মালফাংশন হলে তৎক্ষণাৎ কাজ বন্ধ করে রিপোর্ট করুন।",
+        "en": "If a malfunction occurs, stop work immediately and report it."
+      },
+      "pronunciationTipBn": "오(o)-작(jak)-동(dong) স্পষ্ট করে উচ্চারণ করুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 37
+    },
+    {
+      "ko": "정밀도",
+      "romanization": "jeongmildo",
+      "bn": "নির্ভুলতা; প্রকৃতিকৈ নির্ধারণের মাত্রা",
+      "en": "precision; accuracy",
+      "pos": "noun",
+      "example": {
+        "ko": "제품의 정밀도를 주기적으로 검사해야 합니다.",
+        "bn": "পণ্যের নির্ভুলতা নিয়মিত পরীক্ষা করতে হবে।",
+        "en": "You should inspect the product's precision periodically."
+      },
+      "pronunciationTipBn": "정(jeong)-밀(mil)-도(do) ধীরে পড়ুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 37
+    },
+    {
+      "ko": "유량계",
+      "romanization": "yuryanggye",
+      "bn": "প্রবাহ পরিমাপক (ফ্লো মিটার)",
+      "en": "flow meter",
+      "pos": "noun",
+      "example": {
+        "ko": "유량계 수치가 낮으면 윤활유 공급을 점검하세요.",
+        "bn": "ফ্লো মিটারের মান কমলে লুব্রিক্যান্ট সরবরাহ পরীক্ষা করুন।",
+        "en": "If the flow meter reading is low, check the lubricant supply."
+      },
+      "pronunciationTipBn": "유(yu)-량(ryang)-계(gye) তাল মিলিয়ে বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 37
+    }
   ]
 }

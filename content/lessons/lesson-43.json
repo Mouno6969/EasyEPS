@@ -1310,5 +1310,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 건물 건설에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "거푸집",
+      "romanization": "geopujip",
+      "bn": "কংক্রিট ঢালাইয়ের ছাঁচ (ফর্মওয়ার্ক)",
+      "en": "formwork (concrete mold)",
+      "pos": "noun",
+      "example": {
+        "ko": "거푸집을 정확히 고정하세요.",
+        "bn": "ফর্মওয়ার্কটি সঠিকভাবে আটকান।",
+        "en": "Secure the formwork correctly."
+      },
+      "pronunciationTipBn": "গো-পু-জিপ",
+      "layer": "exam-transfer",
+      "sourceChapter": 43
+    },
+    {
+      "ko": "방수층",
+      "romanization": "bangsuchung",
+      "bn": "জলরোধী স্তর",
+      "en": "waterproofing layer",
+      "pos": "noun",
+      "example": {
+        "ko": "방수층을 바르기 전에 표면을 깨끗이 닦으세요.",
+        "bn": "জলরোধী স্তর দেওয়ার আগে পৃষ্ঠটি পরিষ্কার করে মুছুন।",
+        "en": "Clean the surface before applying the waterproofing layer."
+      },
+      "pronunciationTipBn": "বাং-সু-চুং",
+      "layer": "exam-transfer",
+      "sourceChapter": 43
+    },
+    {
+      "ko": "양생",
+      "romanization": "yangsaeng",
+      "bn": "কিউরিং (উপাদান শক্ত হওয়ার সময়)",
+      "en": "curing (setting period)",
+      "pos": "noun",
+      "example": {
+        "ko": "양생 기간 동안 표면을 보호하기 위해 물을 뿌리세요.",
+        "bn": "কিউরিং সময় পৃষ্ঠ রক্ষা করতে জল ছিটান।",
+        "en": "During curing, spray water to protect the surface."
+      },
+      "pronunciationTipBn": "ইয়াং-সেইং",
+      "layer": "exam-transfer",
+      "sourceChapter": 43
+    },
+    {
+      "ko": "임시 울타리",
+      "romanization": "imsi ultari",
+      "bn": "অস্থায়ী বেড়া",
+      "en": "temporary fence",
+      "pos": "phrase",
+      "example": {
+        "ko": "임시 울타리를 설치하여 출입을 통제하세요.",
+        "bn": "অস্থায়ী বেড়া লাগিয়ে প্রবেশ নিয়ন্ত্রণ করুন।",
+        "en": "Install a temporary fence to control access."
+      },
+      "pronunciationTipBn": "ইম-সি উল-তা-রি",
+      "layer": "exam-transfer",
+      "sourceChapter": 43
+    }
   ]
 }

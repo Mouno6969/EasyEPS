@@ -1364,5 +1364,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 회사 시설 이용에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "사물함",
+      "romanization": "samulham",
+      "bn": "লকার/ব্যক্তিগত আলমারি",
+      "en": "locker",
+      "pos": "noun",
+      "example": {
+        "ko": "사물함은 개인 물품을 보관하는 곳입니다.",
+        "bn": "লকার ব্যক্তিগত জিনিস রাখার জায়গা।",
+        "en": "A locker is a place to store personal items."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 32
+    },
+    {
+      "ko": "프린터 대기열",
+      "romanization": "peurinteo daegiyeol",
+      "bn": "প্রিন্টারের অপেক্ষার সারি",
+      "en": "printer queue",
+      "pos": "phrase",
+      "example": {
+        "ko": "대량 문서를 출력할 때는 프린터 대기열을 확인하세요.",
+        "bn": "বহু কাগজ প্রিন্ট করার সময় প্রিন্টারের কিউটা দেখে নিন।",
+        "en": "When printing a large number of documents, check the printer queue."
+      },
+      "pronunciationTipBn": "프린-터 대-기-열",
+      "layer": "exam-transfer",
+      "sourceChapter": 32
+    },
+    {
+      "ko": "프로젝터",
+      "romanization": "peurojekteo",
+      "bn": "প্রজেক্টর",
+      "en": "projector",
+      "pos": "noun",
+      "example": {
+        "ko": "발표 전에 프로젝터 연결 상태를 미리 점검하세요.",
+        "bn": "প্রেজেন্টেশনের আগে প্রজেক্টরের সংযোগ পরীক্ষা করে নিন।",
+        "en": "Check the projector connection before the presentation."
+      },
+      "pronunciationTipBn": "프로-젝-터",
+      "layer": "exam-transfer",
+      "sourceChapter": 32
+    },
+    {
+      "ko": "콘센트 위치",
+      "romanization": "konsenteu wichi",
+      "bn": "সকেটের অবস্থান",
+      "en": "power outlet location",
+      "pos": "phrase",
+      "example": {
+        "ko": "책상 옆 콘센트 위치를 확인한 후 충전기를 사용하세요.",
+        "bn": "ডেস্কের পাশে সকেট কোথায় আছে সেটা দেখে চার্জ করুন।",
+        "en": "Check the outlet beside your desk before using a charger."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 32
+    }
   ]
 }

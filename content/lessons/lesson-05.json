@@ -1366,5 +1366,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남자: 날짜와 요일에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "기한",
+      "romanization": "gihan",
+      "bn": "শেষ সময়/সময়ের সীমা",
+      "en": "deadline; period limit",
+      "pos": "noun",
+      "example": {
+        "ko": "신청서 제출 기한은 다음 달 10일까지입니다.",
+        "bn": "আবেদনপত্র জমা দেওয়ার শেষ সময় আগামী মাসের ১০ তারিখ পর্যন্ত।",
+        "en": "The deadline for submitting applications is until the 10th of next month."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 5
+    },
+    {
+      "ko": "연기하다",
+      "romanization": "yeongihada",
+      "bn": "স্থগিত করা/বিলম্ব করা",
+      "en": "to postpone",
+      "pos": "verb",
+      "example": {
+        "ko": "출장 날짜를 악천후 때문에 연기했습니다.",
+        "bn": "খারাপ আবহাওয়ার কারণে ব্যবসায়িক যাত্রার তারিখ স্থগিত করা হয়েছে।",
+        "en": "We postponed the business trip date due to bad weather."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 5
+    },
+    {
+      "ko": "스케줄",
+      "romanization": "seukejul",
+      "bn": "সময়সূচী/সূচি",
+      "en": "schedule",
+      "pos": "noun",
+      "example": {
+        "ko": "면접 스케줄을 메일로 알려 주세요.",
+        "bn": "ইন্টারভিউর সময়সূচি ইমেইলে জানান।",
+        "en": "Please let me know the interview schedule by email."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 5
+    },
+    {
+      "ko": "선착순",
+      "romanization": "seonchaksun",
+      "bn": "আগে আসা প্রথমদের ভিত্তিতে",
+      "en": "first-come, first-served",
+      "pos": "expression",
+      "example": {
+        "ko": "무료 배포는 선착순으로 진행됩니다.",
+        "bn": "বিনামূল্যের বিতরণ আগমনের ক্রম অনুযায়ী করা হবে।",
+        "en": "The free distribution will be on a first-come, first-served basis."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 5
+    }
   ]
 }

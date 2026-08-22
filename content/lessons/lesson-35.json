@@ -1350,5 +1350,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 작업장 관리에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "정비 기록",
+      "romanization": "jeongbi girok",
+      "bn": "রক্ষণাবেক্ষণের নথি",
+      "en": "maintenance log",
+      "pos": "noun",
+      "example": {
+        "ko": "정비 기록을 정기적으로 확인하면 고장 원인을 빨리 찾을 수 있습니다.",
+        "bn": "রক্ষণাবেক্ষণের নথি নিয়মিত পরীক্ষা করলে ত্রুটির কারণ দ্রুত খুঁজে পাওয়া যায়।",
+        "en": "Regularly checking the maintenance log helps find the cause of malfunctions quickly."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 35
+    },
+    {
+      "ko": "비품 목록",
+      "romanization": "bipum mongnok",
+      "bn": "সরঞ্জামের তালিকা",
+      "en": "list of supplies",
+      "pos": "noun",
+      "example": {
+        "ko": "비품 목록을 확인해서 부족한 물품을 주문하세요.",
+        "bn": "সরঞ্জামের তালিকা দেখে কোন আইটেম কম আছে তা অর্ডার করুন।",
+        "en": "Check the supplies list and order any missing items."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 35
+    },
+    {
+      "ko": "결함 확인",
+      "romanization": "gyeolham hwagin",
+      "bn": "ত্রুটি যাচাই করা",
+      "en": "defect check",
+      "pos": "phrase",
+      "example": {
+        "ko": "출고 전에 결함 확인을 꼭 하세요.",
+        "bn": "প্রেরণের আগে অবশ্যই ত্রুটি যাচাই করুন।",
+        "en": "Be sure to check for defects before shipping out."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 35
+    },
+    {
+      "ko": "기기 매뉴얼",
+      "romanization": "gigi maenyueol",
+      "bn": "যন্ত্রের ম্যানুয়াল",
+      "en": "equipment manual",
+      "pos": "noun",
+      "example": {
+        "ko": "새 기기를 사용하기 전에 기기 매뉴얼을 숙지하세요.",
+        "bn": "নতুন যন্ত্রটি ব্যবহার করার আগে যন্ত্রের ম্যানুয়াল পড়ে নিন।",
+        "en": "Read the equipment manual before using the new device."
+      },
+      "pronunciationTipBn": "매뉴얼=ম্যানুয়াল (ম্য-নু-য়াল)",
+      "layer": "exam-transfer",
+      "sourceChapter": 35
+    }
   ]
 }

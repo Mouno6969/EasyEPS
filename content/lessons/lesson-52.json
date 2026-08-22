@@ -1341,5 +1341,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 음식 준비에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "거품기",
+      "romanization": "geopumgi",
+      "bn": "ডিম/সস ফেটানোর হুইস্ক (হাতিয়াার)",
+      "en": "whisk",
+      "pos": "noun",
+      "example": {
+        "ko": "거품기로 계란을 잘 저어 주세요.",
+        "bn": "দয়া করে হুইস্ক দিয়ে ডিমটি ভালোভাবে ফেটান।",
+        "en": "Please whisk the eggs well with the whisk."
+      },
+      "pronunciationTipBn": "거(거→고)품(품→পুম)기 → 'গো-পুম-গি'",
+      "layer": "exam-transfer",
+      "sourceChapter": 52
+    },
+    {
+      "ko": "계량스푼",
+      "romanization": "gyeryangseupun",
+      "bn": "পরিমাপ চামচ (মাপার চামচ)",
+      "en": "measuring spoon",
+      "pos": "noun",
+      "example": {
+        "ko": "레시피에 맞게 계량스푼으로 소금을 한 스푼 재세요.",
+        "bn": "রেসিপি অনুযায়ী মাপচামচ দিয়ে লবণ এক চামচ পরিমাপ করে নিন।",
+        "en": "Measure one spoon of salt with the measuring spoon according to the recipe."
+      },
+      "pronunciationTipBn": "계(gye→গ্য)량(ryang→র্যাং)스푼 → 'গ্যর্যাং-스픈'",
+      "layer": "exam-transfer",
+      "sourceChapter": 52
+    },
+    {
+      "ko": "채반",
+      "romanization": "chaeban",
+      "bn": "ছাঁকনি/কলান্ডার (পানি ঝরাবার ডিশ)",
+      "en": "colander / strainer",
+      "pos": "noun",
+      "example": {
+        "ko": "채반에 채소를 헹군 후 물기를 빼세요.",
+        "bn": "ছাঁকনিতে সবজি ধুয়ে রেখে পানি ঝরিয়ে নিন।",
+        "en": "Rinse the vegetables in the colander and let the water drain."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 52
+    },
+    {
+      "ko": "식중독",
+      "romanization": "sikjungdok",
+      "bn": "খাদ্যজনিত বিষক্রিয়া (ফুড পয়জনিং)",
+      "en": "food poisoning",
+      "pos": "noun",
+      "example": {
+        "ko": "식중독 예방을 위해 손을 자주 씻으세요.",
+        "bn": "খাদ্যজনিত বিষক্রিয়া প্রতিরোধে হাত নিয়মিত ধুয়ে নিন।",
+        "en": "To prevent food poisoning, wash your hands frequently."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 52
+    }
   ]
 }

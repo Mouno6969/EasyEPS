@@ -1362,5 +1362,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 기계 조립에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "체결",
+      "romanization": "chegyeol",
+      "bn": "বাঁধাই; ফাস্টেনিং (যোগবন্ধন করা)",
+      "en": "fastening; securing (of parts)",
+      "pos": "noun",
+      "example": {
+        "ko": "모든 체결 상태를 점검한 후 작업을 시작하세요.",
+        "bn": "সব ফাস্টেনিং ঠিক আছে কি না পরীক্ষা করে তারপর কাজ শুরু করুন।",
+        "en": "Check that all fastenings are secure before starting work."
+      },
+      "pronunciationTipBn": "체(che)-결(gyeol) গানে না করে স্পষ্ট বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 38
+    },
+    {
+      "ko": "클램프",
+      "romanization": "keullaempeu",
+      "bn": "ক্ল্যাম্প (আটকানোর যন্ত্র)",
+      "en": "clamp",
+      "pos": "noun",
+      "example": {
+        "ko": "부품을 작업대에 클램프로 단단히 고정하세요.",
+        "bn": "অংশটি ওয়ার্কবেঞ্চে ক্ল্যাম্প দিয়ে শক্তভাবে আটকান।",
+        "en": "Secure the part firmly to the workbench with a clamp."
+      },
+      "pronunciationTipBn": "클(keul)-램(laem)-프(peu) আলাদা আলাদা উচ্চারণ করুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 38
+    },
+    {
+      "ko": "정렬",
+      "romanization": "jeongryeol",
+      "bn": "সারি/সারিবদ্ধতা (অংশগুলোর মিল)",
+      "en": "alignment",
+      "pos": "noun",
+      "example": {
+        "ko": "부품 정렬이 틀리면 결합 부위에 무리가 갑니다.",
+        "bn": "অংশগুলোর সারিবদ্ধতা ভুল হলে সংযোগ স্থানে অতিরিক্ত চাপ পড়ে।",
+        "en": "If parts are misaligned, the connection points will be stressed."
+      },
+      "pronunciationTipBn": "정(jeong)-렬(ryeol) 'ryeol' অল্প কণ্ঠে বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 38
+    },
+    {
+      "ko": "완충재",
+      "romanization": "wanchungjae",
+      "bn": "কুশনিং উপাদান (ধাক্কা শোষণ করার উপকরণ)",
+      "en": "cushioning material; padding",
+      "pos": "noun",
+      "example": {
+        "ko": "운송 전 완성품에 완충재를 넣어 손상을 방지하세요.",
+        "bn": "পরিবহনের আগে সম্পন্ন পণ্যের চারপাশে কুশনিং বসান যাতে ক্ষতি না হয়।",
+        "en": "Before transport, add cushioning around finished products to prevent damage."
+      },
+      "pronunciationTipBn": "완(wan)-충(chung)-재(jae) ধাপে ধাপে বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 38
+    }
   ]
 }

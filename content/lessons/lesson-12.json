@@ -1384,5 +1384,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남자: 대중교통에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "승객",
+      "romanization": "seunggaek",
+      "bn": "যাত্রী",
+      "en": "passenger",
+      "pos": "noun",
+      "example": {
+        "ko": "출퇴근 시간에는 승객이 많아서 자리가 없을 때가 많습니다.",
+        "bn": "কর্মস্থলে যাতায়াতের সময়ে অনেক যাত্রী থাকে, তাই জায়গা না পাওয়া যায়।",
+        "en": "During commuting hours there are many passengers, so seats are often unavailable."
+      },
+      "pronunciationTipBn": "সึงগ্যাক (seunggaek)",
+      "layer": "exam-transfer",
+      "sourceChapter": 12
+    },
+    {
+      "ko": "개찰구",
+      "romanization": "gaechalgu",
+      "bn": "টিকিট গেট/চেকগেট",
+      "en": "ticket gate",
+      "pos": "noun",
+      "example": {
+        "ko": "개찰구 근처에서는 질서를 지키고 줄을 서서 차례를 기다리세요.",
+        "bn": "টিকিট গেটের কাছে নিয়ম মেনে লাইনে দাঁড়িয়ে আপনার পালা পর্যন্ত অপেক্ষা করুন।",
+        "en": "Near the ticket gate, keep order and wait in line for your turn."
+      },
+      "pronunciationTipBn": "গে-চাল-গু (gaechalgu)",
+      "layer": "exam-transfer",
+      "sourceChapter": 12
+    },
+    {
+      "ko": "막차",
+      "romanization": "makcha",
+      "bn": "শেষ রুটি/শেষ যানবাহন",
+      "en": "last (train/bus) of the day",
+      "pos": "noun",
+      "example": {
+        "ko": "막차 시간을 확인하지 못하면 밤에 집에 돌아가기 어려울 수 있습니다.",
+        "bn": "শেষ বাস/রেল সময় না দেখে গেলে রাতে বাড়ি ফিরে যাওয়া কঠিন হতে পারে।",
+        "en": "If you miss checking the last vehicle time, it may be difficult to get home at night."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 12
+    },
+    {
+      "ko": "지연",
+      "romanization": "jiyeon",
+      "bn": "বিলম্ব",
+      "en": "delay (in schedule)",
+      "pos": "noun",
+      "example": {
+        "ko": "열차 지연 정보는 전광판과 모바일 앱에서 실시간으로 확인하세요.",
+        "bn": "ট্রেন বিলম্বের তথ্য স্ক্রিন এবং মোবাইল অ্যাপে রিয়েলটাইমে দেখে নিন।",
+        "en": "Check train delay information in real time on the display board and mobile app."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 12
+    }
   ]
 }

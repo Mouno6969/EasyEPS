@@ -1367,5 +1367,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남자: 요리에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "데치다",
+      "romanization": "dechida",
+      "bn": "হালকা সেদ্ধ করা",
+      "en": "blanch",
+      "pos": "verb",
+      "example": {
+        "ko": "시금치는 끓는 물에 30초만 데쳐서 찬물에 식히세요.",
+        "bn": "पालং শাককে ফুটন্ত পানিতে মাত্র ৩০ সেকেন্ড হালকা সেদ্ধ করে ঠাণ্ডা জলে ঠাণ্ডা করে নিন।",
+        "en": "Blanch the spinach in boiling water for only 30 seconds and cool it in cold water."
+      },
+      "pronunciationTipBn": "데-치-다를 'ডে-চি-দা' মতো বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 19
+    },
+    {
+      "ko": "재우다",
+      "romanization": "jaeuda",
+      "bn": "মেরিনেট করা/মশলায় ভিজিয়ে রাখা",
+      "en": "to marinate",
+      "pos": "verb",
+      "example": {
+        "ko": "닭고기는 소금과 마늘에 재워 두면 더 맛있습니다.",
+        "bn": "মুরগিকে লবণ ও রসুনে মেরিনেট করে রাখলে আরও সুস্বাদু হয়।",
+        "en": "If you marinate the chicken with salt and garlic, it becomes more flavorful."
+      },
+      "pronunciationTipBn": "짧게 'জে-우-다'처럼 উচ্চ하세요।",
+      "layer": "exam-transfer",
+      "sourceChapter": 19
+    },
+    {
+      "ko": "조리법",
+      "romanization": "joribeop",
+      "bn": "রেসিপি/রান্নার পদ্ধতি",
+      "en": "recipe / cooking method",
+      "pos": "noun",
+      "example": {
+        "ko": "이 조리법에는 오븐에서 25분간 구워 완성하라고 나와 있어요.",
+        "bn": "এই রেসিপিটিতে ওভেনে ২৫ মিনিট বেক করে প্রস্তুত করতে বলেছে।",
+        "en": "This recipe says to finish by baking in the oven for 25 minutes."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 19
+    },
+    {
+      "ko": "중불",
+      "romanization": "jungbul",
+      "bn": "মাঝারি আঁচ",
+      "en": "medium heat",
+      "pos": "noun",
+      "example": {
+        "ko": "소스는 중불에서 10분 정도 졸이면 맛이 진해집니다.",
+        "bn": "সসটি মাঝারি আঁচে প্রায় ১০ মিনিট ঘন করলে স্বাদ আরো গভীর হবে।",
+        "en": "If you simmer the sauce over medium heat for about 10 minutes, the flavor deepens."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 19
+    }
   ]
 }

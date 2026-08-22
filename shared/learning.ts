@@ -1,4 +1,4 @@
-import type { EpsQuestion, Lesson, PracticeQuestion } from "./lesson";
+import type { EpsQuestion, Lesson, PracticeQuestion, VocabularyItem } from "./lesson";
 
 export type LearningItemKind = "vocabulary" | "practice" | "eps" | "listening" | "grammar";
 export type ConfidenceLevel = "sure" | "uncertain" | "guessed";
@@ -65,6 +65,18 @@ export type AdaptiveCandidate = {
   section?: "reading" | "listening";
   skillTags?: string[];
   question?: EpsQuestion | PracticeQuestion;
+};
+
+export type DailyVocabularyCandidate = {
+  itemId: string;
+  chapter: number;
+  word: VocabularyItem;
+  layer: "core" | "exam-transfer";
+  sourceChapter?: number;
+};
+
+export type DailyVocabularyPracticeItem = DailyVocabularyCandidate & {
+  practiceLayer: "extra" | "recycled";
 };
 
 export function normalizeLearningText(value: string | undefined) {
@@ -209,6 +221,54 @@ export function rankAdaptiveCandidates<T extends AdaptiveCandidate>(
     return { candidate, score: dueBoost + unseenBoost + weakBoost + uncertainty * 18 + chapterBoost + sectionBoost - repetitionPenalty + deterministicTie };
   });
   return scored.sort((a, b) => b.score - a.score).slice(0, options.limit).map(item => item.candidate);
+}
+
+function dailySeed(value: string) {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return (hash >>> 0).toString(16).padStart(8, "0");
+}
+
+function dailySeededOrder(candidates: DailyVocabularyCandidate[], date: string) {
+  return [...candidates].sort((a, b) => {
+    const aHash = dailySeed(`${date}:${a.itemId}`);
+    const bHash = dailySeed(`${date}:${b.itemId}`);
+    return aHash.localeCompare(bHash);
+  });
+}
+
+export function buildDailyVocabularySelection(
+  candidates: DailyVocabularyCandidate[],
+  evidence: Record<string, ItemEvidence> | undefined,
+  options: { limit: number; date?: string },
+): DailyVocabularyPracticeItem[] {
+  const limit = Math.max(4, Math.min(20, Math.round(options.limit)));
+  const today = options.date ?? todayKey();
+  const safeEvidence = evidence ?? {};
+  const byId = new Map(candidates.map(candidate => [candidate.itemId, candidate]));
+  const selected: DailyVocabularyPracticeItem[] = [];
+  const seen = new Set<string>();
+  const add = (items: DailyVocabularyCandidate[], practiceLayer: "extra" | "recycled") => {
+    for (const item of items) {
+      if (seen.has(item.itemId) || selected.length >= limit) continue;
+      seen.add(item.itemId);
+      selected.push({ ...item, practiceLayer });
+    }
+  };
+  const due = dailySeededOrder(candidates.filter(candidate => isDue(safeEvidence[candidate.itemId], today)), today);
+  add(rankAdaptiveCandidates(due, safeEvidence, { limit, now: new Date(`${today}T12:00:00Z`) }), "recycled");
+  const remaining = candidates.filter(candidate => !seen.has(candidate.itemId));
+  const extras = dailySeededOrder(remaining.filter(candidate => candidate.layer === "exam-transfer"), today);
+  add(rankAdaptiveCandidates(extras, safeEvidence, { limit, now: new Date(`${today}T12:00:00Z`) }), "extra");
+  const core = dailySeededOrder(remaining.filter(candidate => candidate.layer === "core"), today);
+  add(rankAdaptiveCandidates(core, safeEvidence, { limit, now: new Date(`${today}T12:00:00Z`) }), "recycled");
+  if (selected.length < limit) {
+    add(rankAdaptiveCandidates(dailySeededOrder([...byId.values()].filter(candidate => !seen.has(candidate.itemId)), today), safeEvidence, { limit, now: new Date(`${today}T12:00:00Z`) }), "recycled");
+  }
+  return selected;
 }
 
 export function diagnosticRecommendation(input: { score: number; total: number; listeningScore: number; listeningTotal: number; readingScore: number; readingTotal: number }) {

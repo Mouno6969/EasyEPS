@@ -1363,5 +1363,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 금속 가공에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "모따기",
+      "romanization": "mottagi",
+      "bn": "চ্যামফার (ধারের প্রান্ত কাটা/সমতল করা)",
+      "en": "chamfering",
+      "pos": "noun",
+      "example": {
+        "ko": "마감 전에 모따기로 날카로운 모서리를 다듬으세요.",
+        "bn": "শেষ প্রক্রিয়ার আগে ধারালো প্রান্তগুলো চ্যামফার করে সমতল করুন।",
+        "en": "Before finishing, chamfer the sharp edges."
+      },
+      "pronunciationTipBn": "모(mo)-따(tta)-기(gi) '따' জোরে বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 39
+    },
+    {
+      "ko": "도금",
+      "romanization": "dogeum",
+      "bn": "প্লেটিং; পৃষ্ঠ আবরণ",
+      "en": "plating; surface coating",
+      "pos": "noun",
+      "example": {
+        "ko": "부식 방지를 위해 부품에 도금 처리를 합니다.",
+        "bn": "জং প্রতিরোধের জন্য অংশগুলোর পৃষ্ঠে প্লেটিং করা হয়।",
+        "en": "Apply plating to parts to prevent corrosion."
+      },
+      "pronunciationTipBn": "도(do)-금(geum) সংক্ষেপে বললে সহজ",
+      "layer": "exam-transfer",
+      "sourceChapter": 39
+    },
+    {
+      "ko": "열처리",
+      "romanization": "yeolchori",
+      "bn": "হিট ট্রিটমেন্ট; তাপপ্রক্রিয়া (শক্তি বা কাঠামো পরিবর্তন)",
+      "en": "heat treatment",
+      "pos": "noun",
+      "example": {
+        "ko": "열처리 온도를 정확히 지켜야 제품 강도가 확보됩니다.",
+        "bn": "হিট ট্রিটমেন্টের তাপমাত্রা সঠিকভাবে মেনে চললে পণ্যের শক্তি নিশ্চিত হয়।",
+        "en": "Maintaining the correct heat-treatment temperature ensures product strength."
+      },
+      "pronunciationTipBn": "열(yeol)-처(cho)-리(ri) '처' ঘনিষ্ঠভাবে বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 39
+    },
+    {
+      "ko": "절삭유",
+      "romanization": "jeolsagyu",
+      "bn": "কাটিং ফ্লুইড; মেশিন কাটার তেল",
+      "en": "cutting fluid",
+      "pos": "noun",
+      "example": {
+        "ko": "절삭유가 부족하면 교체하거나 보충하세요.",
+        "bn": "কাটিং ফ্লুইড কমলে তা বদলান বা ভরাট করুন।",
+        "en": "If the cutting fluid is low, replace or refill it."
+      },
+      "pronunciationTipBn": "절(jeol)-삭(sak)-유(yu) গড়ে বলুন",
+      "layer": "exam-transfer",
+      "sourceChapter": 39
+    }
   ]
 }

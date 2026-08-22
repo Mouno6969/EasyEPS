@@ -1299,5 +1299,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে সকাল ৯টা থেকে কাজ শুরু, ছবিতেও ঘড়ি ৯টা দেখাচ্ছে।",
       "passage": "남자: 근로기준법에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "시급",
+      "romanization": "sigup",
+      "bn": "ঘণ্টাভিত্তিক বেতন",
+      "en": "hourly wage",
+      "pos": "noun",
+      "example": {
+        "ko": "시급은 근무 시간에 따라 계산됩니다.",
+        "bn": "ঘণ্টাভিত্তিক বেতন কাজের সময় অনুযায়ী হিসাব করা হয়।",
+        "en": "The hourly wage is calculated according to working hours."
+      },
+      "pronunciationTipBn": "প্রায় 'শিগুپ' (shi-gup) হিসেবে উচ্চারণ করুন.",
+      "layer": "exam-transfer",
+      "sourceChapter": 58
+    },
+    {
+      "ko": "수습기간",
+      "romanization": "suseupgigan",
+      "bn": "প্রশিক্ষণ/পরীক্ষামূলক সময় (প্রোবেশন পিরিয়ড)",
+      "en": "probationary period",
+      "pos": "noun",
+      "example": {
+        "ko": "수습기간 동안에는 업무 평가가 이루어집니다.",
+        "bn": "প্রোবেশন সময়ের মধ্যে কাজের মূল্যায়ন করা হয়।",
+        "en": "During the probationary period, job performance is evaluated."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 58
+    },
+    {
+      "ko": "근태기록표",
+      "romanization": "geuntae girokpyo",
+      "bn": "এইচএম/আসা-যাওয়ার রেকর্ড ফরম (যেমন 출퇴근 기록표)",
+      "en": "attendance record sheet",
+      "pos": "noun",
+      "example": {
+        "ko": "출근과 퇴근 시간을 근태기록표에 정확히 적으세요.",
+        "bn": "আসা ও যাওয়ার সময়টি উপস্থিতি রেকর্ডে সঠিকভাবে লিখুন।",
+        "en": "Write your arrival and departure times accurately on the attendance record."
+      },
+      "pronunciationTipBn": "근태는 'กึน-테' (geun-te) মনে করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 58
+    },
+    {
+      "ko": "정산일",
+      "romanization": "jeongsanil",
+      "bn": "চূড়ান্ত হিসাব-নিরীক্ষা/পেমেন্ট নিষ্পত্তির দিন",
+      "en": "payroll settlement date / accounting date",
+      "pos": "noun",
+      "example": {
+        "ko": "정산일은 매월 말일이거나 회사 규정에 따릅니다.",
+        "bn": "হিসাব-নিরীক্ষার দিন প্রতিমাসের শেষ দিন বা প্রতিষ্ঠানের নিয়ম অনুযায়ী হয়।",
+        "en": "The settlement date is the end of each month or as set by company rules."
+      },
+      "pronunciationTipBn": "",
+      "layer": "exam-transfer",
+      "sourceChapter": 58
+    }
   ]
 }

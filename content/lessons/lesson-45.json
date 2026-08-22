@@ -1364,5 +1364,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남자: 작물 재배에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 합니다.을 입어야 해요."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "토양 산도계",
+      "romanization": "toyang sandogye",
+      "bn": "মাটির পিএইচ পরিমাপক",
+      "en": "soil pH meter",
+      "pos": "noun",
+      "example": {
+        "ko": "씨 뿌리기 전에 토양 산도계로 pH를 검사하세요.",
+        "bn": "বীজ বপনের আগে মাটির পিএইচ পরীক্ষা করুন।",
+        "en": "Check the soil pH with a soil pH meter before sowing."
+      },
+      "pronunciationTipBn": "তো-ইয়াং সান-ডো-গে",
+      "layer": "exam-transfer",
+      "sourceChapter": 45
+    },
+    {
+      "ko": "멀칭",
+      "romanization": "meolching",
+      "bn": "মালচিং (মাটির ঢাকনা)",
+      "en": "mulching",
+      "pos": "noun",
+      "example": {
+        "ko": "여름에는 멀칭으로 토양 수분을 유지하세요.",
+        "bn": "গরমে মালচিং করে মাটির আর্দ্রতা বজায় রাখুন।",
+        "en": "In summer, use mulching to retain soil moisture."
+      },
+      "pronunciationTipBn": "মল-চিং",
+      "layer": "exam-transfer",
+      "sourceChapter": 45
+    },
+    {
+      "ko": "생육 관찰일지",
+      "romanization": "saengyuk gwanchal-ilji",
+      "bn": "উদ্ভিদ বৃদ্ধির পর্যবেক্ষণ লজ/ডায়রি",
+      "en": "growth observation log",
+      "pos": "phrase",
+      "example": {
+        "ko": "생육 관찰일지에 병충해와 생장 상태를 기록하세요.",
+        "bn": "বৃদ্ধি পর্যবেক্ষণ ডায়রিতে পোকামাকড় ও বৃদ্ধি অবস্থা লিখে রাখুন।",
+        "en": "Record pests and growth status in the growth observation log."
+      },
+      "pronunciationTipBn": "সেং-ইউক গু-আন-চাল ইল-জি",
+      "layer": "exam-transfer",
+      "sourceChapter": 45
+    },
+    {
+      "ko": "이랑 만들기",
+      "romanization": "ilang mandeulgi",
+      "bn": "বীজ বোনার জন্য মাটিতে সারি তৈরি করা",
+      "en": "making ridges for planting",
+      "pos": "phrase",
+      "example": {
+        "ko": "이랑 만들기는 배수를 좋게 하고 뿌리 발달을 돕습니다.",
+        "bn": "ই랑 তৈরি করলে পানি নিষ্কাশন ভালো হয় এবং শিকড়ের বৃদ্ধি সাহায্য করে।",
+        "en": "Making ridges improves drainage and helps root development."
+      },
+      "pronunciationTipBn": "ই-রাং মান-দুল-গি",
+      "layer": "exam-transfer",
+      "sourceChapter": 45
+    }
   ]
 }

@@ -1347,5 +1347,67 @@
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남자: 약국에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "복용량",
+      "romanization": "bok-yong-ryang",
+      "bn": "ডোজ / ওষুধের মাত্রা",
+      "en": "dosage",
+      "pos": "noun",
+      "example": {
+        "ko": "의사의 지시에 따라 복용량을 조절하세요.",
+        "bn": "ডাক্তারের নির্দেশ অনুযায়ী ডোজ সমন্বয় করুন।",
+        "en": "Adjust the dosage according to the doctor's instructions."
+      },
+      "pronunciationTipBn": "복용량 (বক-용-량 bok-yong-ryang)",
+      "layer": "exam-transfer",
+      "sourceChapter": 22
+    },
+    {
+      "ko": "복용시간",
+      "romanization": "bok-yong-si-gan",
+      "bn": "ওষুধ খাওয়ার সময়",
+      "en": "time to take medicine / dosing schedule",
+      "pos": "noun",
+      "example": {
+        "ko": "복용시간을 지켜서 약을 먹어야 효과가 좋아집니다.",
+        "bn": "নির্ধারিত সময়ে ওষুধ খেলে ভালো ফল পাওয়া যায়।",
+        "en": "Taking medicine at the scheduled times improves effectiveness."
+      },
+      "pronunciationTipBn": "복용시간 (বক-용-সি-গান bok-yong-si-gan)",
+      "layer": "exam-transfer",
+      "sourceChapter": 22
+    },
+    {
+      "ko": "부작용",
+      "romanization": "bu-jak-yong",
+      "bn": "পার্শ্বপ্রতিক্রিয়া",
+      "en": "side effect",
+      "pos": "noun",
+      "example": {
+        "ko": "새로 먹는 약은 부작용이 있는지 꼭 확인하세요.",
+        "bn": "নতুন ওষুধে পার্শ্বপ্রতিক্রিয়া আছে কিনা নিশ্চিত করুন।",
+        "en": "Be sure to check whether the new medicine has side effects."
+      },
+      "pronunciationTipBn": "부작용 (বু-জাক-용 bu-jak-yong)",
+      "layer": "exam-transfer",
+      "sourceChapter": 22
+    },
+    {
+      "ko": "투약",
+      "romanization": "tu-yak",
+      "bn": "ওষুধ দেওয়া / চিকিৎসা হিসেবে দেওয়া",
+      "en": "administration (of medicine)",
+      "pos": "verb",
+      "example": {
+        "ko": "간호사가 환자에게 투약 시간을 안내했습니다.",
+        "bn": "নার্স রোগীকে ওষুধ দেওয়ার সময় জানিয়েছেন।",
+        "en": "The nurse informed the patient of the medication schedule."
+      },
+      "pronunciationTipBn": "투약 (টু-য়াক tu-yak)",
+      "layer": "exam-transfer",
+      "sourceChapter": 22
+    }
   ]
 }

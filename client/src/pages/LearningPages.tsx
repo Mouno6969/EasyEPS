@@ -29,6 +29,7 @@ import { isDue, summarizeItemEvidence } from "@shared/learning";
 import {
   BarChart3,
   BookCheck,
+  BookMarked,
   BookOpenText,
   CalendarDays,
   Check,
@@ -132,7 +133,7 @@ export function CurriculumPage() {
             return <Link key={lesson.chapter} href={`/lesson/${lesson.chapter}`} className="lesson-card group">
               <div className="flex items-start justify-between gap-4"><span className="chapter-number">{String(lesson.chapter).padStart(2, "0")}</span>{progress?.completed ? <span className="status-done"><Check className="size-3.5" />সম্পন্ন</span> : <span className="status-open">শুরু করুন</span>}</div>
               <div className="mt-6"><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider" style={{ color: info.color }}><span className="size-2 rounded-full" style={{ background: info.color }} />{locale === "ko" ? info.ko : locale === "en" ? info.en : info.bn}</div><h2 className="mt-3 font-serif text-2xl font-bold leading-tight text-[var(--navy)]">{localTitle(lesson.title, locale)}</h2>{locale !== "ko" && <p className="mt-1 text-base font-semibold text-[var(--navy)]/45">{lesson.title.ko}</p>}</div>
-              <div className="mt-7 flex items-center justify-between border-t border-[var(--navy)]/8 pt-4 text-sm text-[var(--navy)]/55"><span>{lesson.vocabularyCount} শব্দ · {lesson.practiceCount} অনুশীলন</span><ChevronRight className="size-5 transition-transform group-hover:translate-x-1" /></div>
+              <div className="mt-7 flex items-center justify-between border-t border-[var(--navy)]/8 pt-4 text-sm text-[var(--navy)]/55"><span>{lesson.vocabularyCount} core + {lesson.extraVocabularyCount} extra শব্দ · {lesson.practiceCount} অনুশীলন</span><ChevronRight className="size-5 transition-transform group-hover:translate-x-1" /></div>
             </Link>;
           })}
         </div>
@@ -189,6 +190,7 @@ export function DashboardPage() {
       <DeferredProfilePrompt complete={profileComplete} />
       {!isAuthenticated && <div className="mb-7 flex flex-col gap-3 rounded-2xl border border-[var(--gold)]/35 bg-[var(--gold)]/10 p-4 text-sm text-[var(--navy)] md:flex-row md:items-center md:justify-between"><span><strong>অতিথি মোড:</strong> অগ্রগতি এই ডিভাইসে সংরক্ষিত। সাইন ইন করলে একাধিক ডিভাইসে সিঙ্ক হবে।</span><Button onClick={() => startLogin()} variant="outline" className="rounded-full border-[var(--navy)]/20">সাইন ইন</Button></div>}
       {!state.diagnostic && <div className="mb-7 flex flex-col gap-4 rounded-3xl border border-[var(--gold)]/35 bg-[var(--gold)]/10 p-5 md:flex-row md:items-center md:justify-between"><div><p className="text-xs font-bold uppercase tracking-[.18em] text-[var(--gold-dark)]">শুরু করার আগে</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">আপনার level জানুন</h2><p className="mt-1 text-sm leading-6 text-[var(--navy)]/60">২০টি diagnostic প্রশ্নে কোন অধ্যায় ও skill দিয়ে শুরু করবেন তা ঠিক করুন।</p></div><Link href="/diagnostic"><Button className="rounded-full bg-[var(--navy)] text-white">Diagnostic দিন <ChevronRight className="size-4" /></Button></Link></div>}
+      <div className="mb-7 flex flex-col gap-5 rounded-3xl bg-[var(--navy)] p-6 text-white md:flex-row md:items-center md:justify-between md:p-7"><div><p className="text-xs font-bold uppercase tracking-[.18em] text-[var(--gold)]">প্রতিদিনের extra vocabulary</p><h2 className="mt-2 font-serif text-2xl font-bold">৮টি শব্দে ছোট active-recall সেশন</h2><p className="mt-2 max-w-2xl text-sm leading-6 text-white/65">বাংলা অর্থ দেখে Korean লিখুন, confidence জানান, উদাহরণ শুনুন এবং নতুন exam-transfer term ও due review একসাথে অনুশীলন করুন।</p></div><Link href="/daily-vocabulary"><Button className="shrink-0 rounded-full bg-[var(--gold)] text-[var(--navy)] hover:bg-[var(--gold)]/90"><BookMarked className="size-4" />আজকের শব্দ শুরু করুন <ChevronRight className="size-4" /></Button></Link></div>
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         {[{ label: "সম্পন্ন অধ্যায়", value: `${metrics.completedLessons}/60`, icon: BookCheck, tone: "sage" }, { label: "গড় স্কোর", value: `${metrics.averageScore}%`, icon: TrendingUp, tone: "gold" }, { label: "বর্তমান স্ট্রিক", value: `${metrics.streak} দিন`, icon: Flame, tone: "clay" }, { label: "মোট অধ্যয়ন", value: `${metrics.studyMinutes} মিনিট`, icon: Clock3, tone: "navy" }].map(({ label, value, icon: Icon, tone }) => <div key={label} className="metric-card"><span className={`metric-icon metric-${tone}`}><Icon className="size-5" /></span><p className="mt-5 text-sm font-semibold text-[var(--navy)]/55">{label}</p><p className="mt-1 font-serif text-3xl font-bold text-[var(--navy)]">{value}</p></div>)}
       </div>
