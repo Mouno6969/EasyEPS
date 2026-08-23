@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { epsQuestionImageSchema, lessonSchema } from "../shared/lesson";
 import { scoreEps } from "../shared/scoring";
+import { questionContentKey } from "../shared/smartMock";
 import type { EpsQuestion } from "../shared/lesson";
 import { appRouter } from "./routers";
 import type { TrpcContext } from "./_core/context";
@@ -82,6 +83,12 @@ describe("lessonSchema image-question rules", () => {
 });
 
 describe("image questions in authored content", () => {
+  it("keeps authored image-question content unique across the corpus", () => {
+    const lessons = getAllLessons();
+    const keys = lessons.flatMap(lesson => lesson.epsQuestions.filter(question => question.image).map(question => questionContentKey(question)));
+    expect(new Set(keys).size).toBe(keys.length);
+  });
+
   it("ships representative image-based questions in safety chapters", () => {
     const lessons = getAllLessons();
     const imageQuestions = lessons.flatMap(lesson =>

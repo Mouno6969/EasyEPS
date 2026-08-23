@@ -12,6 +12,7 @@ import {
   parseDialogueTurns,
   speakDialogue,
   speakNamedDialogue,
+  speakNamedTurn,
 } from "./dialogueSpeech";
 
 class MockSpeechSynthesisUtterance {
@@ -206,6 +207,15 @@ describe("speakDialogue playback", () => {
     for (const call of speak.mock.calls) {
       expect((call[0] as MockSpeechSynthesisUtterance).rate).toBeCloseTo(0.82);
     }
+  });
+
+  it("uses the stable speaker profile for an individual line replay", async () => {
+    const done = await run(speakNamedTurn("민수", "안녕하세요.", ["라힘", "민수"]));
+    expect(done).toBe(true);
+    expect(speak).toHaveBeenCalledTimes(1);
+    const utterance = speak.mock.calls[0][0] as MockSpeechSynthesisUtterance;
+    expect(utterance.voice?.name).toContain("InJoon");
+    expect(utterance.pitch).toBe(1);
   });
 
   it("keeps four named speakers distinguishable and stable with only two installed voices", async () => {

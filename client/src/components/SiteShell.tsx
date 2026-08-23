@@ -8,6 +8,7 @@ import { useLocalProfile } from "@/lib/localProfile";
 import { trpc } from "@/lib/trpc";
 import {
   BookOpenText,
+  BookMarked,
   Bot,
   CalendarDays,
   ChevronDown,
@@ -21,6 +22,7 @@ import {
   Pencil,
   ShieldCheck,
   SpellCheck2,
+  Sparkles,
   UserRound,
   X,
 } from "lucide-react";
@@ -31,6 +33,8 @@ const navItems = [
   { href: "/basics", key: "basics", icon: SpellCheck2 },
   { href: "/curriculum", key: "curriculum", icon: BookOpenText },
   { href: "/mock-test", key: "mockTest", icon: GraduationCap },
+  { href: "/daily-vocabulary", key: "dailyVocabulary", icon: BookMarked },
+  { href: "/transfer-practice", key: "transferPractice", icon: Sparkles },
   { href: "/dashboard", key: "dashboard", icon: LayoutDashboard },
   { href: "/planner", key: "planner", icon: CalendarDays },
   { href: "/tutor", key: "tutor", icon: Bot },
@@ -231,6 +235,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
               <Link href="/basics">বেসিক</Link>
               <Link href="/curriculum">পাঠ্যক্রম</Link>
               <Link href="/mock-test">মক টেস্ট</Link>
+              <Link href="/daily-vocabulary">দৈনিক শব্দ</Link>
               <Link href="/tutor">এআই শিক্ষক</Link>
             </div>
           </div>
