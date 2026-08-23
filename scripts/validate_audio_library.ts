@@ -24,6 +24,7 @@ for (const lesson of lessons) {
     if (dialogue.audio) references.push({ src: dialogue.audio.src, location: `lesson-${lesson.chapter}/dialogue-${dialogueIndex + 1}/full`, clip: dialogue.audio });
     dialogue.lines.forEach((line, lineIndex) => {
       if (line.audio) references.push({ src: line.audio.src, location: `lesson-${lesson.chapter}/dialogue-${dialogueIndex + 1}/line-${lineIndex + 1}`, clip: line.audio });
+      if (line.pronunciationAudio) references.push({ src: line.pronunciationAudio.src, location: `lesson-${lesson.chapter}/dialogue-${dialogueIndex + 1}/line-${lineIndex + 1}/pronunciation`, clip: line.pronunciationAudio });
     });
   });
   lesson.epsQuestions.forEach((question, questionIndex) => {

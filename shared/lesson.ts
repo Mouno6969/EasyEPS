@@ -73,6 +73,8 @@ const dialogueSchema = z.object({
         bn: z.string().min(1),
         en: z.string().min(1),
         audio: audioClipRefSchema.optional(),
+        /** Optional deliberately slow reference clip used by pronunciation coaching. */
+        pronunciationAudio: audioClipRefSchema.optional(),
       }),
     )
     .min(4)

@@ -1,5 +1,5 @@
 {
-  "libraryVersion": "audio-v1-generated-dialogues",
+  "libraryVersion": "audio-v1-generated-dialogues-pronunciation",
   "generatedAt": "2026-08-23T00:00:00.000Z",
   "clips": {
     "lesson-01-dialogue-01-line-01": {
@@ -2080,6 +2080,138 @@
       "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 4 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
       "reviewStatus": "generated",
       "audioVersion": "audio-v1-generated-dialogues"
+    },
+    "lesson-01-dialogue-01-line-01-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-01-line-01-rahim.wav",
+      "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+      "speakerRole": "male",
+      "durationMs": 4600,
+      "contentHash": "287abb6a0851bd5c75d4c1ea23f2afe15536b18c40bc200cddb1b76eca4da01f",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-01-line-02-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-01-line-02-minsu.wav",
+      "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+      "speakerRole": "female",
+      "durationMs": 6280,
+      "contentHash": "64249cdd884b2a14bde116c08f7256d6e0607a9787983a8ba09d36aad121c71e",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-01-line-03-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-01-line-03-rahim.wav",
+      "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+      "speakerRole": "male",
+      "durationMs": 9080,
+      "contentHash": "03d51762dd6b138cf00680664b82ffb13e47eacaa396feeb0696e147315af975",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-01-line-04-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-01-line-04-minsu.wav",
+      "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+      "speakerRole": "female",
+      "durationMs": 3880,
+      "contentHash": "ad0ed3edbb27759d2b202f85cb78a41dfd1662e53bad066e62abb4e67081ae77",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-02-line-01-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-02-line-01-susan.wav",
+      "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+      "speakerRole": "female",
+      "durationMs": 5480,
+      "contentHash": "de856bb9d6d040501f934f3ed48203563d99b768e2fe6db6a2aee4714d5d8f59",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-02-line-02-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-02-line-02-rahim.wav",
+      "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+      "speakerRole": "male",
+      "durationMs": 5880,
+      "contentHash": "6ade4a19154924e02e10530ef0b20ba3fdba79f5e2bfa54529ef9de74c0dc456",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-02-line-03-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-02-line-03-susan.wav",
+      "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+      "speakerRole": "female",
+      "durationMs": 3280,
+      "contentHash": "263052d7e371a1f263ad1cf3c49fdc6500acab07cea270fe4b9fb9d19f4e08a9",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-02-line-04-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-02-line-04-rahim.wav",
+      "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+      "speakerRole": "male",
+      "durationMs": 4440,
+      "contentHash": "fa4777f20e61252aa7eacf9376f9e68b0217d4822ffcf80f1b4add514d19657b",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-03-line-01-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-03-line-01-tuan.wav",
+      "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+      "speakerRole": "female",
+      "durationMs": 5040,
+      "contentHash": "af619a7ea3c4a2451e65a72b60833eb52ddccf2b58b88699084d97d2122f340b",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-03-line-02-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-03-line-02-rahim.wav",
+      "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+      "speakerRole": "male",
+      "durationMs": 9440,
+      "contentHash": "6a9557d9fd78f7c3686a537d823ff8c21f1fd8e23c6f80615cabfb9ccc5901bd",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-03-line-03-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-03-line-03-tuan.wav",
+      "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+      "speakerRole": "female",
+      "durationMs": 7280,
+      "contentHash": "ca458ea804fa6ea8ffebf6c13aea49dcbf6aa48a99fdb796a56b1fb5f7852510",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
+    },
+    "lesson-01-dialogue-03-line-04-pronunciation-slow": {
+      "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-03-line-04-rahim.wav",
+      "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+      "speakerRole": "male",
+      "durationMs": 3680,
+      "contentHash": "3cf900f7e32ddfc925e436401ad8e7f18d058d83606615077281a4b25570fd93",
+      "license": "generated",
+      "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+      "reviewStatus": "generated",
+      "audioVersion": "audio-v1-generated-slow-pronunciation"
     }
   }
 }

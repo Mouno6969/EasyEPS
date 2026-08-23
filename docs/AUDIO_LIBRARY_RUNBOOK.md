@@ -4,7 +4,7 @@
 
 EasyEPS supports optional natural Korean audio without making lessons dependent on an audio CDN or a specific device. Audio is attached through the validated `AudioClipRef` contract in `shared/audio.ts`. The application prefers a usable attached recording and falls back to Korean browser TTS when a file is absent, blocked, unavailable offline, or fails to play. The interface reports the source honestly.
 
-The current shipped generated release contains **one full-dialogue WAV for every one of the 180 authored dialogues across all 60 lessons**, plus **12 individual lesson-1 dialogue-line WAVs**. The full-dialogue recordings are intended for natural full-conversation replay. Individual line replay uses the lesson-1 line clips where present and otherwise retains speaker-aware browser TTS and pitch fallback. EPS listening-question passages are not represented as attached generated clips in this release; they continue to use their authored passage with the existing dialogue/browser-TTS fallback.
+The current shipped generated release contains **one full-dialogue WAV for every one of the 180 authored dialogues across all 60 lessons**, **12 individual lesson-1 dialogue-line WAVs**, and **12 separate deliberately slow pronunciation-reference WAVs**. The full-dialogue recordings are intended for natural full-conversation replay. Individual line replay uses the normal lesson line clips where present and otherwise retains speaker-aware browser TTS and pitch fallback. The pronunciation coach prefers its separate slow AI reference clip, starts at deliberately slow delivery, and also offers normal 1× playback. EPS listening-question passages are not represented as attached generated clips in this release; they continue to use their authored passage with the existing dialogue/browser-TTS fallback.
 
 ## Asset status and attribution
 
@@ -64,11 +64,11 @@ Add the file under a stable public path, calculate its SHA-256 hash and duration
 }
 ```
 
-For a full listening question, attach one generated clip to the question’s `audio` field only when the exact passage has actually been rendered, validated, and attached. Do not attach a dialogue recording to an unrelated listening question merely to increase coverage. Until listening clips are generated and attached, preserve the authored passage and browser fallback.
+For a full listening question, attach one generated clip to the question’s `audio` field only when the exact passage has actually been rendered, validated, and attached. Do not attach a dialogue recording to an unrelated listening question merely to increase coverage. For a pronunciation coach, attach a separately rendered slow reference to a dialogue line’s `pronunciationAudio` field; keep the ordinary `audio` field unchanged for normal dialogue replay. Until listening clips are generated and attached, preserve the authored passage and browser fallback.
 
 ## Runtime behavior
 
-`GuidedListening` and dialogue playback prefer a usable attached clip. Generated clips report `generated-audio`; human-reviewed clips report `reviewed-audio`; browser fallback reports `browser-tts` or the explicitly documented pitch fallback. If an attached file fails, the application continues with Korean browser TTS. Full-dialogue replay prefers the dialogue-level recording before falling back to line-by-line speaker-aware playback. Individual line replay remains line-specific where a line clip exists and otherwise uses browser TTS.
+`GuidedListening`, dialogue playback, and pronunciation coaching prefer a usable attached clip. Generated clips report `generated-audio`; human-reviewed clips report `reviewed-audio`; browser fallback reports `browser-tts` or the explicitly documented pitch fallback. If an attached file fails, the application continues with Korean browser TTS. Full-dialogue replay prefers the dialogue-level recording before falling back to line-by-line speaker-aware playback. Individual line replay remains line-specific where a line clip exists and otherwise uses browser TTS. Pronunciation coaching starts with the deliberately slow reference and exposes both slow 0.6× and normal 1× controls; the chosen rate is applied to either the generated WAV or browser TTS.
 
 Listening evidence records its audio source so analytics can distinguish generated recordings, reviewed recordings, and browser speech. A generated source must not be interpreted as human review or transcript verification.
 
