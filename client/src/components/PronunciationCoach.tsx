@@ -117,14 +117,6 @@ export function PronunciationCoach({ text, compact = true, audio }: { text: stri
     recognition.start();
   };
 
-  if (!supported) {
-    return (
-      <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[var(--navy)]/38" title="Speech recognition is unavailable in this browser">
-        <MicOff className="size-3" /> pronunciation check unavailable
-      </span>
-    );
-  }
-
   const verdict = score == null
     ? ""
     : score >= 85
@@ -146,10 +138,10 @@ export function PronunciationCoach({ text, compact = true, audio }: { text: stri
           {playing ? <Volume2 className="size-3.5 animate-pulse" /> : <Volume2 className="size-3.5" />}
           {playing ? "শোনা হচ্ছে…" : "আগে শুনুন"}
         </button>
-        <button type="button" onClick={begin} disabled={listening} className="inline-flex items-center gap-1.5 rounded-full bg-[var(--gold)] px-3 py-1.5 text-xs font-bold text-[var(--navy)] disabled:opacity-60">
+        {supported ? <button type="button" onClick={begin} disabled={listening} className="inline-flex items-center gap-1.5 rounded-full bg-[var(--gold)] px-3 py-1.5 text-xs font-bold text-[var(--navy)] disabled:opacity-60">
           {listening ? <Mic className="size-3.5 animate-pulse" /> : score == null ? <Mic className="size-3.5" /> : <RotateCcw className="size-3.5" />}
           {listening ? "বলুন…" : score == null ? "উচ্চারণ যাচাই" : "আবার বলুন"}
-        </button>
+        </button> : <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[var(--navy)]/38" title="Speech recognition is unavailable in this browser"><MicOff className="size-3" /> pronunciation check unavailable</span>}
         {score != null && <span className={`inline-flex items-center gap-1 text-xs font-bold ${score >= 85 ? "text-emerald-600" : score >= 65 ? "text-amber-700" : "text-red-600"}`}><CheckCircle2 className="size-3.5" />মিল {score}%</span>}
       </div>
       <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-[11px] font-semibold text-[var(--navy)]/45">
