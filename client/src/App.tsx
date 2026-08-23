@@ -31,6 +31,7 @@ const AdminPage = lazy(() =>
 );
 const LessonPage = lazy(() => import("./pages/LessonPage"));
 const MockTestPage = lazy(() => import("./pages/MockTestPage"));
+const DailyVocabularyPage = lazy(() => import("./pages/DailyVocabularyPage"));
 const CertificatePage = lazy(() => import("./pages/CertificatePage"));
 const ProfilePage = lazy(() => import("./pages/ProfilePage"));
 const FaqPage = lazy(() => import("./pages/FaqPage"));
@@ -71,6 +72,7 @@ function Router() {
           <Route path="/curriculum" component={CurriculumPage} />
           <Route path="/lesson/:chapter" component={LessonPage} />
           <Route path="/mock-test" component={MockTestPage} />
+          <Route path="/daily-vocabulary" component={DailyVocabularyPage} />
           <Route path="/dashboard" component={DashboardPage} />
           <Route path="/planner" component={PlannerPage} />
           <Route path="/tutor" component={TutorPage} />

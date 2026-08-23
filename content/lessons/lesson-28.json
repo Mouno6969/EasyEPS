@@ -1262,7 +1262,40 @@
       ],
       "answer": 2,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্টেশনারি দোকান থেকে বলপেন কেনা হয়েছে — ছবিতেও বলপেন।",
-      "passage": "남: 한국의 명절에서 이 물건을 어디에서 샀어요? / 여: 문구점에서 샀어요."
+      "passage": "남자: 한국의 명절에서 이 물건을 어디에서 샀어요?\n여자: 문구점에서 샀어요."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "전통시장",
+      "romanization": "jeontongsijang",
+      "bn": "ঐতিহ্যবাহী বাজার",
+      "en": "traditional market",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 행사에서 전통시장을 경험해 보세요.",
+        "bn": "এই অনুষ্ঠানে ঐতিহ্যবাহী বাজার অভিজ্ঞতা করে দেখুন।",
+        "en": "Try experiencing traditional market at this event."
+      },
+      "pronunciationTipBn": "শব্দটি নতুন Korean সংস্কৃতি প্রসঙ্গে ব্যবহার করুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 28
+    },
+    {
+      "ko": "야시장",
+      "romanization": "yasijang",
+      "bn": "রাতের বাজার",
+      "en": "night market",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 행사에서 야시장을 경험해 보세요.",
+        "bn": "এই অনুষ্ঠানে রাতের বাজার অভিজ্ঞতা করে দেখুন।",
+        "en": "Try experiencing night market at this event."
+      },
+      "pronunciationTipBn": "শব্দটি নতুন Korean সংস্কৃতি প্রসঙ্গে ব্যবহার করুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 28
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

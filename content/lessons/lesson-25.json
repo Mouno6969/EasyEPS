@@ -1314,7 +1314,40 @@
       ],
       "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্টেশনারি দোকান থেকে বলপেন কেনা হয়েছে — ছবিতেও বলপেন।",
-      "passage": "남: 외국인력지원센터에서 이 물건을 어디에서 샀어요? / 여: 문구점에서 샀어요."
+      "passage": "남자: 외국인력지원센터에서 이 물건을 어디에서 샀어요?\n여자: 문구점에서 샀어요."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "전시회",
+      "romanization": "jeonsihoe",
+      "bn": "প্রদর্শনী",
+      "en": "exhibition",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 행사에서 전시회를 경험해 보세요.",
+        "bn": "এই অনুষ্ঠানে প্রদর্শনী অভিজ্ঞতা করে দেখুন।",
+        "en": "Try experiencing exhibition at this event."
+      },
+      "pronunciationTipBn": "শব্দটি নতুন Korean সংস্কৃতি প্রসঙ্গে ব্যবহার করুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 25
+    },
+    {
+      "ko": "공연장",
+      "romanization": "gongyeonjang",
+      "bn": "পারফরম্যান্স হল",
+      "en": "performance hall",
+      "pos": "noun",
+      "example": {
+        "ko": "이번 행사에서 공연장을 경험해 보세요.",
+        "bn": "এই অনুষ্ঠানে পারফরম্যান্স হল অভিজ্ঞতা করে দেখুন।",
+        "en": "Try experiencing performance hall at this event."
+      },
+      "pronunciationTipBn": "শব্দটি নতুন Korean সংস্কৃতি প্রসঙ্গে ব্যবহার করুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 25
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

@@ -1364,7 +1364,40 @@
       ],
       "answer": 0,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 연근해 어업과 양식에서 어두운 곳에서 무엇을 입어요? / 여: 반사 조끼를 입어야 합니다.을 입어야 해요."
+      "passage": "남자: 연근해 어업과 양식에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 해요."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "소음",
+      "romanization": "so-eum",
+      "bn": "শব্দদূষণ",
+      "en": "noise",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 소음을 확인하세요.",
+        "bn": "কাজের আগে শব্দদূষণ পরীক্ষা করুন।",
+        "en": "Check the noise before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 47
+    },
+    {
+      "ko": "보호덮개",
+      "romanization": "bohodeopgae",
+      "bn": "সুরক্ষা কভার",
+      "en": "protective cover",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 보호덮개를 확인하세요.",
+        "bn": "কাজের আগে সুরক্ষা কভার পরীক্ষা করুন।",
+        "en": "Check the protective cover before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 47
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

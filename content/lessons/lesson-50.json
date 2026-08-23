@@ -1347,7 +1347,40 @@
       ],
       "answer": 2,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 산림 자원 관리에서 어두운 곳에서 무엇을 입어요? / 여: 반사 조끼를 입어야 합니다.을 입어야 해요."
+      "passage": "남자: 산림 자원 관리에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 해요."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "생산라인",
+      "romanization": "saengsanrain",
+      "bn": "উৎপাদন লাইন",
+      "en": "production line",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 생산라인을 확인하세요.",
+        "bn": "কাজের আগে উৎপাদন লাইন পরীক্ষা করুন।",
+        "en": "Check the production line before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 50
+    },
+    {
+      "ko": "교대조",
+      "romanization": "gyodaejo",
+      "bn": "শিফট দল",
+      "en": "shift team",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 교대조를 확인하세요.",
+        "bn": "কাজের আগে শিফট দল পরীক্ষা করুন।",
+        "en": "Check the shift team before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 50
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

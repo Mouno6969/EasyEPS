@@ -1320,7 +1320,40 @@
       ],
       "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে সকাল ৯টা থেকে কাজ শুরু, ছবিতেও ঘড়ি ৯টা দেখাচ্ছে।",
-      "passage": "남: 출입국관리법에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 출입국관리법에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "건강검진",
+      "romanization": "geongang geomjin",
+      "bn": "স্বাস্থ্য পরীক্ষা",
+      "en": "health checkup",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 건강검진을 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে স্বাস্থ্য পরীক্ষা সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about health checkup."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 59
+    },
+    {
+      "ko": "구직신청",
+      "romanization": "gujik sincheong",
+      "bn": "চাকরি খোঁজার আবেদন",
+      "en": "job-seeking application",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 구직신청을 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে চাকরি খোঁজার আবেদন সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about job-seeking application."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 59
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

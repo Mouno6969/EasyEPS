@@ -1360,5 +1360,38 @@
       "answer": 2,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "안전난간",
+      "romanization": "anjeonnangan",
+      "bn": "নিরাপত্তা রেলিং",
+      "en": "safety railing",
+      "pos": "noun",
+      "example": {
+        "ko": "안전난간을 확인한 뒤 작업을 시작하세요.",
+        "bn": "নিরাপত্তা রেলিং পরীক্ষা করার পর কাজ শুরু করুন।",
+        "en": "Check the safety railing before starting work."
+      },
+      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য Korean বাক্যটি ধীরে পড়ুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 55
+    },
+    {
+      "ko": "미끄럼방지",
+      "romanization": "mikkeureombangji",
+      "bn": "পিছলে যাওয়া রোধ",
+      "en": "slip prevention",
+      "pos": "noun",
+      "example": {
+        "ko": "미끄럼방지를 확인한 뒤 작업을 시작하세요.",
+        "bn": "পিছলে যাওয়া রোধ পরীক্ষা করার পর কাজ শুরু করুন।",
+        "en": "Check the slip prevention before starting work."
+      },
+      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য Korean বাক্যটি ধীরে পড়ুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 55
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

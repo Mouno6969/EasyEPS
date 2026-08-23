@@ -8,6 +8,19 @@ import {
   type BasicsProgress,
   type BasicsProgressPatch,
 } from "@shared/basics";
+import {
+  evaluateMilestones,
+  LEARNING_CONTENT_VERSION,
+  summarizeItemEvidence,
+  updateItemEvidence,
+  type ConfidenceLevel,
+  type DiagnosticResult,
+  type ItemEvidence,
+  type LearningItemKind,
+  type ListeningEvidence,
+  type Milestone,
+  type PracticeFormat,
+} from "@shared/learning";
 
 export type ChapterProgress = {
   chapter: number;
@@ -53,15 +66,25 @@ export type LocalLearningState = {
   };
   /** Hangul Basics track progress (optional for parse tolerance of older saves). */
   basics?: BasicsProgress;
+  contentVersion: string;
+  itemEvidence: Record<string, ItemEvidence>;
+  listening: Record<string, ListeningEvidence>;
+  diagnostic?: DiagnosticResult;
+  milestones: Milestone[];
 };
 
-const KEY = "easyeps-learning-v2";
+const KEY = "easyeps-learning-v5";
+const LEGACY_KEYS = ["easyeps-learning-v4", "easyeps-learning-v3", "easyeps-learning-v2"];
 const emptyState: LocalLearningState = {
   progress: {},
   attempts: [],
   studyDays: {},
   planner: { dailyGoalMinutes: 30, dailyGoalLessons: 1, reminderTime: "20:00", targetExamDate: "", items: [] },
   basics: emptyBasicsProgress(),
+  contentVersion: LEARNING_CONTENT_VERSION,
+  itemEvidence: {},
+  listening: {},
+  milestones: [],
 };
 
 let cachedRaw = "";
@@ -89,6 +112,11 @@ function parseState(raw: string | null): LocalLearningState {
       studyDays: parsed.studyDays ?? {},
       planner: { ...emptyState.planner, ...(parsed.planner ?? {}), items: parsed.planner?.items ?? [] },
       basics: parseBasics(parsed.basics),
+      contentVersion: parsed.contentVersion ?? LEARNING_CONTENT_VERSION,
+      itemEvidence: parsed.itemEvidence ?? {},
+      listening: parsed.listening ?? {},
+      diagnostic: parsed.diagnostic,
+      milestones: parsed.milestones ?? [],
     };
   } catch {
     return emptyState;
@@ -96,7 +124,7 @@ function parseState(raw: string | null): LocalLearningState {
 }
 
 export function getSnapshot() {
-  const raw = localStorage.getItem(KEY) ?? "";
+  const raw = localStorage.getItem(KEY) ?? LEGACY_KEYS.map(key => localStorage.getItem(key)).find(Boolean) ?? "";
   if (raw !== cachedRaw) {
     cachedRaw = raw;
     cachedState = parseState(raw);
@@ -280,6 +308,94 @@ export function updateChapterProgress(chapter: number, patch: Omit<Partial<Chapt
     studyDays: { ...current.studyDays, [day]: { minutes: previousDay.minutes + minutes, activities: previousDay.activities + 1 } },
   });
   return nextProgress;
+}
+
+function updateMilestones(state: LocalLearningState): LocalLearningState {
+  const overview = learningOverview(state);
+  const summary = summarizeItemEvidence(state.itemEvidence);
+  return {
+    ...state,
+    milestones: evaluateMilestones({
+      current: state.milestones,
+      completedLessons: overview.completedLessons,
+      itemCount: summary.itemCount,
+      retainedItems: Object.values(state.itemEvidence).filter(item => item.retentionChecks > 0 && item.retentionCorrect / item.retentionChecks >= 0.8).length,
+      transferItems: Object.values(state.itemEvidence).filter(item => item.transferChecks > 0 && item.transferCorrect / item.transferChecks >= 0.6).length,
+      diagnosticCompleted: Boolean(state.diagnostic),
+      listeningItems: Object.values(state.itemEvidence).filter(item => item.section === "listening" && item.attempts > 0).length,
+      streak: overview.streak,
+      totalAttempts: state.attempts.length,
+    }),
+  };
+}
+
+export function recordItemResult(input: {
+  itemId: string;
+  kind: LearningItemKind;
+  chapter?: number;
+  section?: "reading" | "listening";
+  skillTags?: string[];
+  correct: boolean;
+  confidence: ConfidenceLevel;
+  responseMs?: number;
+  isRetentionCheck?: boolean;
+  isTransferCheck?: boolean;
+  format?: PracticeFormat;
+  minutes?: number;
+}) {
+  const current = getSnapshot();
+  const nextEvidence = updateItemEvidence(current.itemEvidence[input.itemId], input);
+  const day = new Date().toISOString().slice(0, 10);
+  const previousDay = current.studyDays[day] ?? { minutes: 0, activities: 0 };
+  const next = updateMilestones({
+    ...current,
+    itemEvidence: { ...current.itemEvidence, [input.itemId]: nextEvidence },
+    studyDays: { ...current.studyDays, [day]: { minutes: previousDay.minutes + (input.minutes ?? 0), activities: previousDay.activities + 1 } },
+  });
+  save(next);
+  return nextEvidence;
+}
+
+export function saveDiagnosticResult(result: DiagnosticResult) {
+  const current = getSnapshot();
+  const next = updateMilestones({ ...current, diagnostic: result });
+  save(next);
+  return result;
+}
+
+export function recordListeningEvidence(input: Omit<ListeningEvidence, "updatedAt">) {
+  const current = getSnapshot();
+  const previous = current.listening[input.itemId];
+  const merged: ListeningEvidence = {
+    ...previous,
+    ...input,
+    plays: Math.max(previous?.plays ?? 0, input.plays),
+    normalPlays: Math.max(previous?.normalPlays ?? 0, input.normalPlays),
+    slowPlays: Math.max(previous?.slowPlays ?? 0, input.slowPlays),
+    dictationAttempts: Math.max(previous?.dictationAttempts ?? 0, input.dictationAttempts),
+    dictationCorrect: Math.max(previous?.dictationCorrect ?? 0, input.dictationCorrect),
+    transcriptRevealed: Boolean(previous?.transcriptRevealed || input.transcriptRevealed),
+    transcriptDependentCount: Math.max(previous?.transcriptDependentCount ?? 0, input.transcriptDependentCount),
+    firstPlayCorrect: previous?.firstPlayCorrect ?? input.firstPlayCorrect,
+    updatedAt: new Date().toISOString(),
+  };
+  save(updateMilestones({ ...current, listening: { ...current.listening, [input.itemId]: merged } }));
+  return merged;
+}
+
+export function exportLearningState() {
+  const state = getSnapshot();
+  return { exportVersion: 1, exportedAt: new Date().toISOString(), ...state };
+}
+
+export function downloadLearningExport() {
+  const payload = JSON.stringify(exportLearningState(), null, 2);
+  const url = URL.createObjectURL(new Blob([payload], { type: "application/json" }));
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = `easyeps-progress-${new Date().toISOString().slice(0, 10)}.json`;
+  anchor.click();
+  URL.revokeObjectURL(url);
 }
 
 export function addLocalAttempt(attempt: Omit<LocalAttempt, "id" | "createdAt">) {

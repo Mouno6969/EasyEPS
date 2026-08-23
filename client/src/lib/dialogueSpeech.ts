@@ -225,6 +225,48 @@ export type NamedDialogueLine = {
 
 const NAMED_SPEAKER_PITCHES = [0.78, 1.22, 0.92, 1.08];
 
+type NamedVoiceProfile = { voice?: SpeechSynthesisVoice; pitch: number };
+
+export type NamedDialogueVoiceMode = "separate-voices" | "pitch-fallback" | "unsupported";
+
+/** Report what the current browser can actually provide for named dialogue speakers. */
+export function getNamedDialogueVoiceMode(speakers: string[]): NamedDialogueVoiceMode {
+  if (!isSpeechSupported()) return "unsupported";
+  const uniqueCount = new Set(speakers.map(speaker => speaker.trim()).filter(Boolean)).size;
+  return getKoreanVoices().length >= Math.max(2, uniqueCount) ? "separate-voices" : "pitch-fallback";
+}
+
+function namedVoiceProfiles(speakers: string[], voices: SpeechSynthesisVoice[]): Map<string, NamedVoiceProfile> {
+  const unique = [...new Set(speakers.map(speaker => speaker.trim() || "narrator"))];
+  const needsPitchProfiles = voices.length < unique.length;
+  return new Map(unique.map((speaker, index) => [
+    speaker,
+    {
+      voice: voices.length > 0 ? voices[index % voices.length] : undefined,
+      pitch: needsPitchProfiles ? NAMED_SPEAKER_PITCHES[index % NAMED_SPEAKER_PITCHES.length] : 1,
+    },
+  ]));
+}
+
+/** Speak a line with the same stable profile used by the complete dialogue. */
+export function speakNamedTurn(
+  speaker: string,
+  text: string,
+  allSpeakers: string[],
+  opts?: SpeakDialogueOptions,
+): Promise<boolean> {
+  const spoken = text.trim();
+  if (!spoken) return Promise.resolve(false);
+  if (!isSpeechSupported()) return speakKorean(spoken, { rate: opts?.rate, onError: opts?.onError });
+  const profile = namedVoiceProfiles(allSpeakers, getKoreanVoices()).get(speaker.trim() || "narrator");
+  return speakKorean(spoken, {
+    rate: opts?.rate,
+    pitch: profile?.pitch ?? 1,
+    voice: profile?.voice,
+    onError: opts?.onError,
+  });
+}
+
 /**
  * Speak lesson dialogue lines while keeping each named speaker on a stable,
  * distinguishable voice-and-pitch profile. Supports the repository's
@@ -245,18 +287,8 @@ export async function speakNamedDialogue(
     return speakKorean(turns[0].text, { rate: opts?.rate, onError: opts?.onError });
   }
 
-  const speakers = [...new Set(turns.map(turn => turn.speaker || "narrator"))];
   const voices = getKoreanVoices();
-  const needsPitchProfiles = voices.length < speakers.length;
-  const profiles = new Map(
-    speakers.map((speaker, index) => [
-      speaker,
-      {
-        voice: voices.length > 0 ? voices[index % voices.length] : undefined,
-        pitch: needsPitchProfiles ? NAMED_SPEAKER_PITCHES[index % NAMED_SPEAKER_PITCHES.length] : 1,
-      },
-    ]),
-  );
+  const profiles = namedVoiceProfiles(turns.map(turn => turn.speaker || "narrator"), voices);
 
   return playPreparedTurns(
     turns.map(turn => {

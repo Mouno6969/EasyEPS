@@ -1366,7 +1366,40 @@
       ],
       "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 가축 관리에서 어두운 곳에서 무엇을 입어요? / 여: 반사 조끼를 입어야 합니다.을 입어야 해요."
+      "passage": "남자: 가축 관리에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 해요."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "윤활유",
+      "romanization": "yunhwal yu",
+      "bn": "লুব্রিকেন্ট",
+      "en": "lubricant",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 윤활유를 확인하세요.",
+        "bn": "কাজের আগে লুব্রিকেন্ট পরীক্ষা করুন।",
+        "en": "Check the lubricant before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 46
+    },
+    {
+      "ko": "세척제",
+      "romanization": "secheokje",
+      "bn": "পরিষ্কারক",
+      "en": "cleaning agent",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 세척제를 확인하세요.",
+        "bn": "কাজের আগে পরিষ্কারক পরীক্ষা করুন।",
+        "en": "Check the cleaning agent before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 46
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

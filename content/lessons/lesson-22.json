@@ -1345,7 +1345,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 약국에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 약국에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "진료예약",
+      "romanization": "jinryoyeyak",
+      "bn": "চিকিৎসা অ্যাপয়েন্টমেন্ট",
+      "en": "medical appointment",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 진료예약을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে চিকিৎসা অ্যাপয়েন্টমেন্ট বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check medical appointment."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 22
+    },
+    {
+      "ko": "복용법",
+      "romanization": "bogyongbeop",
+      "bn": "ওষুধ খাওয়ার নিয়ম",
+      "en": "dosage instructions",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 복용법을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে ওষুধ খাওয়ার নিয়ম বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check dosage instructions."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 22
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

@@ -1332,7 +1332,40 @@
       ],
       "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে সকাল ৯টা থেকে কাজ শুরু, ছবিতেও ঘড়ি ৯টা দেখাচ্ছে।",
-      "passage": "남: 고용허가제에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 고용허가제에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "근로조건",
+      "romanization": "geunro jogeon",
+      "bn": "কাজের শর্ত",
+      "en": "working conditions",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 근로조건을 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে কাজের শর্ত সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about working conditions."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 57
+    },
+    {
+      "ko": "임금명세서",
+      "romanization": "imgeum myeongseseo",
+      "bn": "বেতন বিবরণী",
+      "en": "pay statement",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 임금명세서를 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে বেতন বিবরণী সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about pay statement."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 57
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

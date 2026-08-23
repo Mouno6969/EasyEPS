@@ -1319,5 +1319,38 @@
       "answer": 3,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "대피훈련",
+      "romanization": "daepihunryeon",
+      "bn": "উচ্ছেদ মহড়া",
+      "en": "evacuation drill",
+      "pos": "noun",
+      "example": {
+        "ko": "대피훈련을 확인한 뒤 작업을 시작하세요.",
+        "bn": "উচ্ছেদ মহড়া পরীক্ষা করার পর কাজ শুরু করুন।",
+        "en": "Check the evacuation drill before starting work."
+      },
+      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য Korean বাক্যটি ধীরে পড়ুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 54
+    },
+    {
+      "ko": "화재감지기",
+      "romanization": "hwajaegamjigi",
+      "bn": "আগুন শনাক্তকারী",
+      "en": "fire detector",
+      "pos": "noun",
+      "example": {
+        "ko": "화재감지기를 확인한 뒤 작업을 시작하세요.",
+        "bn": "আগুন শনাক্তকারী পরীক্ষা করার পর কাজ শুরু করুন।",
+        "en": "Check the fire detector before starting work."
+      },
+      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য Korean বাক্যটি ধীরে পড়ুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 54
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

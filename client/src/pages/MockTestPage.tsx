@@ -2,13 +2,14 @@ import { DialogueScript } from "@/components/DialogueScript";
 import { EpsQuestionImage } from "@/components/EpsQuestionImage";
 import { GuidedListening } from "@/components/GuidedListening";
 import { Button } from "@/components/ui/button";
-import { addLocalAttempt, useLocalLearning } from "@/lib/localProgress";
+import { addLocalAttempt, recordItemResult, useLocalLearning } from "@/lib/localProgress";
 import { speakDialogue } from "@/lib/dialogueSpeech";
 import { listDueReviews, listRecentWeak, recordWeakAttempt } from "@/lib/srs";
 import { deriveSmartMockFocus } from "@/lib/smartMock";
 import { getWeeklyChallenge, recordWeeklyChallengeScore } from "@/lib/weeklyChallenge";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
+import { learningItemId, questionSkillTags } from "@shared/learning";
 import { BrainCircuit, Check, ChevronLeft, ChevronRight, Clock3, GraduationCap, Headphones, Loader2, RotateCcw, ShieldCheck, Volume2, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "wouter";
@@ -70,6 +71,22 @@ export default function MockTestPage() {
     if (!questions.length || finished) return;
     const durationSec = Math.max(1, Math.round((Date.now() - startedAt) / 1000));
     setFinished(true);
+    questions.forEach(question => {
+      const selected = answers[question.testId];
+      const attempted = Object.prototype.hasOwnProperty.call(answers, question.testId);
+      recordItemResult({
+        itemId: learningItemId("eps", question.chapter, question.id),
+        kind: "eps",
+        chapter: question.chapter,
+        section: question.section,
+        skillTags: questionSkillTags(question),
+        correct: selected === question.answer,
+        confidence: !attempted ? "unknown" : selected === question.answer ? "sure" : "uncertain",
+        isRetentionCheck: true,
+        isTransferCheck: Boolean(question.image),
+        format: question.section === "listening" ? "listening" : question.image ? "picture" : "recognition",
+      });
+    });
     addLocalAttempt({ kind: "mock-test", score, total: questions.length, durationSec });
     recordWeakAttempt({
       kind: "mock",
@@ -165,10 +182,10 @@ export default function MockTestPage() {
 
   return <div className="container py-7"><div className="mb-5 flex flex-wrap items-center justify-between gap-4 rounded-2xl bg-[var(--navy)] px-5 py-4 text-white"><div><p className="text-xs font-bold uppercase tracking-wider text-[var(--gold)]">EasyEPS Mock Test</p><p className="mt-1 text-sm text-white/55">প্রশ্ন {index + 1}/{questions.length} · উত্তর {Object.keys(answers).length}</p></div><div className={`inline-flex items-center gap-2 rounded-full px-4 py-2 font-mono font-bold ${remaining < 300 ? "bg-red-600" : "bg-white/10"}`}><Clock3 className="size-4 text-[var(--gold)]" />{String(Math.floor(remaining / 60)).padStart(2, "0")}:{String(remaining % 60).padStart(2, "0")}</div></div><div className="grid gap-6 lg:grid-cols-[1fr_260px]"><section className="paper-card overflow-hidden"><div className="border-b border-[var(--navy)]/8 p-6 md:p-8"><div className="flex items-center justify-between gap-4"><span className="rounded-full bg-[var(--gold)]/14 px-3 py-1 text-xs font-bold text-[var(--gold-dark)]">{current.section === "reading" ? "읽기 · READING" : "듣기 · LISTENING"}</span><span className="text-xs font-semibold text-[var(--navy)]/40">অধ্যায় {current.chapter}</span></div><h1 className="mt-6 text-lg font-bold leading-8 text-[var(--navy)]">{current.questionBn}</h1><p className="mt-2 text-xl font-semibold leading-8 text-[var(--navy)]">{current.questionKo}</p>{current.image ? <div className="mt-2"><EpsQuestionImage image={current.image} /></div> : null}{current.section === "listening" ? (
                 <div className="mt-6 space-y-2">
-                  <GuidedListening text={current.passage} label="Audio শুনতে চাপুন" />
+                  <GuidedListening text={current.passage} itemId={`listening:mock-test:${current.testId}`} label="Audio শুনতে চাপুন" />
                   <p className="text-center text-xs font-semibold text-[var(--navy)]/45">Listening script পরীক্ষা চলাকালীন লুকানো—জমা দেওয়ার পর দেখা যাবে।</p>
                 </div>
               ) : current.passage ? (
                 <div className="mt-6 rounded-2xl bg-[var(--cream)] p-5 text-lg font-semibold leading-8 text-[var(--navy)]">{current.passage}</div>
-              ) : null}</div><div className="grid gap-3 p-6 md:p-8">{current.options.map((option, optionIndex) => <button key={optionIndex} onClick={() => setAnswers(previous => ({ ...previous, [current.testId]: optionIndex }))} className={`answer-option min-h-14 ${answers[current.testId] === optionIndex ? "answer-selected" : ""}`}><span>{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>)}</div><div className="flex items-center justify-between border-t border-[var(--navy)]/8 bg-[var(--cream)] p-5"><Button variant="outline" disabled={index === 0} onClick={() => setIndex(value => value - 1)} className="rounded-full"><ChevronLeft className="size-4" />আগেরটি</Button>{index === questions.length - 1 ? <Button onClick={finish} className="rounded-full bg-[var(--gold-dark)] text-white">পরীক্ষা জমা দিন</Button> : <Button onClick={() => setIndex(value => value + 1)} className="rounded-full bg-[var(--navy)] text-white">পরেরটি<ChevronRight className="size-4" /></Button>}</div></section><aside className="paper-card h-fit p-5 lg:sticky lg:top-28"><div className="flex items-center gap-2"><Headphones className="size-5 text-[var(--gold-dark)]" /><h2 className="font-bold text-[var(--navy)]">Question palette</h2></div><div className="mt-5 grid grid-cols-5 gap-2">{questions.map((question, questionIndex) => <button key={question.testId} onClick={() => setIndex(questionIndex)} className={`grid aspect-square place-items-center rounded-lg text-xs font-bold ${index === questionIndex ? "ring-2 ring-[var(--gold)] ring-offset-2" : ""} ${typeof answers[question.testId] === "number" ? "bg-[var(--navy)] text-white" : "bg-[var(--cream)] text-[var(--navy)]/55"}`}>{questionIndex + 1}</button>)}</div><div className="mt-6 border-t border-[var(--navy)]/8 pt-5 text-xs leading-6 text-[var(--navy)]/50"><p><span className="mr-2 inline-block size-2 rounded-full bg-[var(--navy)]" />উত্তর দেওয়া হয়েছে</p><p><span className="mr-2 inline-block size-2 rounded-full bg-[var(--cream)] ring-1 ring-[var(--navy)]/10" />উত্তর বাকি</p></div><Button onClick={() => { if (confirm("পরীক্ষা জমা দিতে চান?")) finish(); }} variant="outline" className="mt-5 w-full rounded-full border-[var(--navy)]/18">এখনই জমা দিন</Button></aside></div></div>;
+              ) : null}</div><div className="grid gap-3 p-6 md:p-8">{current.options.map((option, optionIndex) => <button key={optionIndex} onClick={() => setAnswers(previous => ({ ...previous, [current.testId]: optionIndex }))} className={`answer-option min-h-14 ${answers[current.testId] === optionIndex ? "answer-selected" : ""}`}><span>{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>)}</div><button type="button" onClick={() => setAnswers(previous => ({ ...previous, [current.testId]: -1 }))} className="mx-6 mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--navy)]/15 px-4 py-2 text-xs font-bold text-[var(--navy)]/65 hover:border-[var(--gold)]/50">জানি না — পরে আবার দেখব</button><div className="flex items-center justify-between border-t border-[var(--navy)]/8 bg-[var(--cream)] p-5"><Button variant="outline" disabled={index === 0} onClick={() => setIndex(value => value - 1)} className="rounded-full"><ChevronLeft className="size-4" />আগেরটি</Button>{index === questions.length - 1 ? <Button onClick={finish} className="rounded-full bg-[var(--gold-dark)] text-white">পরীক্ষা জমা দিন</Button> : <Button onClick={() => setIndex(value => value + 1)} className="rounded-full bg-[var(--navy)] text-white">পরেরটি<ChevronRight className="size-4" /></Button>}</div></section><aside className="paper-card h-fit p-5 lg:sticky lg:top-28"><div className="flex items-center gap-2"><Headphones className="size-5 text-[var(--gold-dark)]" /><h2 className="font-bold text-[var(--navy)]">Question palette</h2></div><div className="mt-5 grid grid-cols-5 gap-2">{questions.map((question, questionIndex) => <button key={question.testId} onClick={() => setIndex(questionIndex)} className={`grid aspect-square place-items-center rounded-lg text-xs font-bold ${index === questionIndex ? "ring-2 ring-[var(--gold)] ring-offset-2" : ""} ${typeof answers[question.testId] === "number" ? "bg-[var(--navy)] text-white" : "bg-[var(--cream)] text-[var(--navy)]/55"}`}>{questionIndex + 1}</button>)}</div><div className="mt-6 border-t border-[var(--navy)]/8 pt-5 text-xs leading-6 text-[var(--navy)]/50"><p><span className="mr-2 inline-block size-2 rounded-full bg-[var(--navy)]" />উত্তর দেওয়া হয়েছে</p><p><span className="mr-2 inline-block size-2 rounded-full bg-[var(--cream)] ring-1 ring-[var(--navy)]/10" />উত্তর বাকি</p></div><Button onClick={() => { if (confirm("পরীক্ষা জমা দিতে চান?")) finish(); }} variant="outline" className="mt-5 w-full rounded-full border-[var(--navy)]/18">এখনই জমা দিন</Button></aside></div></div>;
 }

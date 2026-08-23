@@ -1366,5 +1366,38 @@
       "answer": 3,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "추락방지",
+      "romanization": "churakbangji",
+      "bn": "পড়ে যাওয়া রোধ",
+      "en": "fall prevention",
+      "pos": "noun",
+      "example": {
+        "ko": "추락방지를 확인한 뒤 작업을 시작하세요.",
+        "bn": "পড়ে যাওয়া রোধ পরীক্ষা করার পর কাজ শুরু করুন।",
+        "en": "Check the fall prevention before starting work."
+      },
+      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য Korean বাক্যটি ধীরে পড়ুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 56
+    },
+    {
+      "ko": "끼임사고",
+      "romanization": "kkiim sago",
+      "bn": "চাপা পড়ার দুর্ঘটনা",
+      "en": "caught-in accident",
+      "pos": "noun",
+      "example": {
+        "ko": "끼임사고를 확인한 뒤 작업을 시작하세요.",
+        "bn": "চাপা পড়ার দুর্ঘটনা পরীক্ষা করার পর কাজ শুরু করুন।",
+        "en": "Check the caught-in accident before starting work."
+      },
+      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য Korean বাক্যটি ধীরে পড়ুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 56
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

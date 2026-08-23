@@ -1338,7 +1338,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 옷에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 옷에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "재활용품",
+      "romanization": "jaehwalyongpum",
+      "bn": "পুনর্ব্যবহারযোগ্য জিনিস",
+      "en": "recyclables",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 재활용품을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে পুনর্ব্যবহারযোগ্য জিনিস বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check recyclables."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 15
+    },
+    {
+      "ko": "쓰레기봉투",
+      "romanization": "sseuregibongtu",
+      "bn": "ময়লার ব্যাগ",
+      "en": "garbage bag",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 쓰레기봉투를 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে ময়লার ব্যাগ বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check garbage bag."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 15
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

@@ -1348,7 +1348,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 하루 일과에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 하루 일과에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "계좌",
+      "romanization": "gyejwa",
+      "bn": "ব্যাংক হিসাব",
+      "en": "bank account",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 계좌를 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে ব্যাংক হিসাব বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check bank account."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 6
+    },
+    {
+      "ko": "송금",
+      "romanization": "songgeum",
+      "bn": "টাকা পাঠানো",
+      "en": "money transfer",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 송금을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে টাকা পাঠানো বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check money transfer."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 6
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

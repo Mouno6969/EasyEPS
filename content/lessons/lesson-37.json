@@ -1360,7 +1360,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 기계 가공에서 어두운 곳에서 무엇을 입어요? / 여: 반사 조끼를 입어야 합니다.을 입어야 해요."
+      "passage": "남자: 기계 가공에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 해요."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "전선",
+      "romanization": "jeonseon",
+      "bn": "বৈদ্যুতিক তার",
+      "en": "electric wire",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 전선을 확인하세요.",
+        "bn": "কাজের আগে বৈদ্যুতিক তার পরীক্ষা করুন।",
+        "en": "Check the electric wire before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 37
+    },
+    {
+      "ko": "콘센트",
+      "romanization": "konsenteu",
+      "bn": "সকেট",
+      "en": "electrical outlet",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 콘센트를 확인하세요.",
+        "bn": "কাজের আগে সকেট পরীক্ষা করুন।",
+        "en": "Check the electrical outlet before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 37
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

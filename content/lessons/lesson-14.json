@@ -1360,7 +1360,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 길 찾기에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 길 찾기에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "생활비",
+      "romanization": "saenghwalbi",
+      "bn": "জীবনযাত্রার খরচ",
+      "en": "living expenses",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 생활비를 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে জীবনযাত্রার খরচ বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check living expenses."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 14
+    },
+    {
+      "ko": "공과금",
+      "romanization": "gonggwageum",
+      "bn": "ইউটিলিটি বিল",
+      "en": "utility bill",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 공과금을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে ইউটিলিটি বিল বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check utility bill."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 14
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

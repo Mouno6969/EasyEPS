@@ -1329,7 +1329,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 계절과 날씨에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 계절과 날씨에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "택배",
+      "romanization": "taekbae",
+      "bn": "কুরিয়ার",
+      "en": "parcel delivery",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 택배를 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে কুরিয়ার বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check parcel delivery."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 7
+    },
+    {
+      "ko": "우편함",
+      "romanization": "upyeonham",
+      "bn": "ডাকবাক্স",
+      "en": "mailbox",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 우편함을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে ডাকবাক্স বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check mailbox."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 7
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

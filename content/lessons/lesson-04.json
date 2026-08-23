@@ -1334,7 +1334,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 행동과 사물에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 행동과 사물에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "계산대",
+      "romanization": "gyesandae",
+      "bn": "ক্যাশ কাউন্টার",
+      "en": "checkout counter",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 계산대를 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে ক্যাশ কাউন্টার বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check checkout counter."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 4
+    },
+    {
+      "ko": "배달",
+      "romanization": "baedal",
+      "bn": "ডেলিভারি",
+      "en": "delivery",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 배달을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে ডেলিভারি বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check delivery."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 4
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

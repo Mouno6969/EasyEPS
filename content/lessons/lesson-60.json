@@ -1318,7 +1318,40 @@
       ],
       "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে সকাল ৯টা থেকে কাজ শুরু, ছবিতেও ঘড়ি ৯টা দেখাচ্ছে।",
-      "passage": "남: 고용보험에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 고용보험에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "직장변경",
+      "romanization": "jikjang byeongyeong",
+      "bn": "কর্মস্থল পরিবর্তন",
+      "en": "workplace change",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 직장변경을 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে কর্মস্থল পরিবর্তন সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about workplace change."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 60
+    },
+    {
+      "ko": "출국만료",
+      "romanization": "chulguk manyo",
+      "bn": "দেশত্যাগের সময়সীমা শেষ",
+      "en": "departure deadline",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 출국만료를 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে দেশত্যাগের সময়সীমা শেষ সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about departure deadline."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 60
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

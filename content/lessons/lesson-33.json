@@ -1338,7 +1338,40 @@
       ],
       "answer": 2,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 동료 관계에서 어두운 곳에서 무엇을 입어요? / 여: 반사 조끼를 입어야 합니다.을 입어야 해요."
+      "passage": "남자: 동료 관계에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 해요."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "검사기준",
+      "romanization": "geomsagijun",
+      "bn": "পরীক্ষার মানদণ্ড",
+      "en": "inspection standard",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 검사기준을 확인하세요.",
+        "bn": "কাজের আগে পরীক্ষার মানদণ্ড পরীক্ষা করুন।",
+        "en": "Check the inspection standard before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 33
+    },
+    {
+      "ko": "불량품",
+      "romanization": "bullyangpum",
+      "bn": "ত্রুটিপূর্ণ পণ্য",
+      "en": "defective product",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 불량품을 확인하세요.",
+        "bn": "কাজের আগে ত্রুটিপূর্ণ পণ্য পরীক্ষা করুন।",
+        "en": "Check the defective product before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 33
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

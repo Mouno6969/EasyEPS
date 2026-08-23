@@ -1333,7 +1333,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 휴가에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 휴가에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "전기요금",
+      "romanization": "jeongiyogeum",
+      "bn": "বিদ্যুৎ বিল",
+      "en": "electricity bill",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 전기요금을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে বিদ্যুৎ বিল বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check electricity bill."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 17
+    },
+    {
+      "ko": "가스요금",
+      "romanization": "gaseuyogeum",
+      "bn": "গ্যাস বিল",
+      "en": "gas bill",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 가스요금을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে গ্যাস বিল বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check gas bill."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 17
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

@@ -1298,7 +1298,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 장소와 위치에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 장소와 위치에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "교환",
+      "romanization": "gyohwan",
+      "bn": "বদল",
+      "en": "exchange",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 교환을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে বদল বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check exchange."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 3
+    },
+    {
+      "ko": "할인",
+      "romanization": "harin",
+      "bn": "ছাড়",
+      "en": "discount",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 할인을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে ছাড় বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check discount."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 3
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

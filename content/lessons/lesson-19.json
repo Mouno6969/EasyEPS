@@ -1365,7 +1365,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 요리에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 요리에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "주민센터",
+      "romanization": "jumin senteo",
+      "bn": "স্থানীয় বাসিন্দা কেন্দ্র",
+      "en": "community service center",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 주민센터를 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে স্থানীয় বাসিন্দা কেন্দ্র বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check community service center."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 19
+    },
+    {
+      "ko": "민원",
+      "romanization": "minwon",
+      "bn": "নাগরিক অভিযোগ / আবেদন",
+      "en": "civil request",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 민원을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে নাগরিক অভিযোগ / আবেদন বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check civil request."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 19
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

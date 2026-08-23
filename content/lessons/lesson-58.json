@@ -1297,7 +1297,40 @@
       ],
       "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে সকাল ৯টা থেকে কাজ শুরু, ছবিতেও ঘড়ি ৯টা দেখাচ্ছে।",
-      "passage": "남: 근로기준법에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 근로기준법에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "임금체불",
+      "romanization": "imgeum chebul",
+      "bn": "বেতন বকেয়া",
+      "en": "unpaid wages",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 임금체불을 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে বেতন বকেয়া সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about unpaid wages."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 58
+    },
+    {
+      "ko": "근로복지",
+      "romanization": "geunro bokji",
+      "bn": "শ্রমিক কল্যাণ",
+      "en": "worker welfare",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 근로복지를 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে শ্রমিক কল্যাণ সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about worker welfare."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 58
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

@@ -1378,7 +1378,40 @@
       ],
       "answer": 2,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 가구 제작에서 어두운 곳에서 무엇을 입어요? / 여: 반사 조끼를 입어야 합니다.을 입어야 해요."
+      "passage": "남자: 가구 제작에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 해요."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "높이",
+      "romanization": "nopi",
+      "bn": "উচ্চতা",
+      "en": "height",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 높이를 확인하세요.",
+        "bn": "কাজের আগে উচ্চতা পরীক্ষা করুন।",
+        "en": "Check the height before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 42
+    },
+    {
+      "ko": "너비",
+      "romanization": "neobi",
+      "bn": "প্রস্থ",
+      "en": "width",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 너비를 확인하세요.",
+        "bn": "কাজের আগে প্রস্থ পরীক্ষা করুন।",
+        "en": "Check the width before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 42
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

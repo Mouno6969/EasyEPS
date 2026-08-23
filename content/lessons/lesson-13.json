@@ -1338,7 +1338,40 @@
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 주말 활동에서 일은 몇 시에 시작해요? / 여: 오전 아홉 시에 시작합니다."
+      "passage": "남자: 주말 활동에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "소요시간",
+      "romanization": "soyosigan",
+      "bn": "প্রয়োজনীয় সময়",
+      "en": "required time",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 소요시간을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে প্রয়োজনীয় সময় বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check required time."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 13
+    },
+    {
+      "ko": "길찾기",
+      "romanization": "gilchatgi",
+      "bn": "পথ খোঁজা",
+      "en": "finding a route",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 길찾기를 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে পথ খোঁজা বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check finding a route."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 13
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

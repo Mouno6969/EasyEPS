@@ -221,6 +221,10 @@ export const appRouter = router({
       const chapters = [1, 9, 21, 31, 53, 57];
       return getLessonSummaries().filter(lesson => chapters.includes(lesson.chapter));
     }),
+    dailyVocabulary: publicProcedure.query(() => getAllLessons().flatMap(lesson => [
+      ...lesson.vocabulary.map(word => ({ itemId: `vocabulary:${lesson.chapter}:${word.ko}`, chapter: lesson.chapter, word, layer: "core" as const })),
+      ...lesson.extraVocabulary.map(word => ({ itemId: `vocabulary:${lesson.chapter}:${word.ko}`, chapter: lesson.chapter, word, layer: "exam-transfer" as const, sourceChapter: word.sourceChapter })),
+    ])),
     mockTest: publicProcedure
       .input(
         z
@@ -993,6 +997,7 @@ export const appRouter = router({
 
   admin: router({
     stats: adminProcedure.query(async () => ({ ...(await db.adminStats()), lessons: getAllLessons().length })),
+    analytics: adminProcedure.query(() => db.adminAnalytics()),
     users: adminProcedure
       .input(z.object({ limit: z.number().int().min(1).max(200).default(100) }).optional())
       .query(({ input }) => db.adminListUsers(input?.limit ?? 100)),
