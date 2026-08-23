@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import { getAllLessons } from "../server/content";
+import { getAllBasicsModules } from "../server/basicsContent";
 import { audioLibraryManifestSchema, audioClipRefSchema, type AudioClipRef } from "../shared/audio";
 
 const manifestPath = resolve("content/audio/manifest.json");
@@ -13,6 +14,7 @@ if (!manifestResult.success) {
 }
 const manifest = manifestResult.data;
 const lessons = getAllLessons();
+const basicsModules = getAllBasicsModules();
 const manifestEntries = Object.entries(manifest.clips);
 const manifestClips = new Map(manifestEntries.map(([key, clip]) => [clip.src, { key, clip }]));
 const references: Array<{ src: string; location: string; clip: AudioClipRef }> = [];
@@ -31,6 +33,26 @@ for (const lesson of lessons) {
     if (question.audio) references.push({ src: question.audio.src, location: `lesson-${lesson.chapter}/eps-${questionIndex + 1}`, clip: question.audio });
   });
 }
+
+function collectBasicsAudioReferences(value: unknown, location: string): void {
+  if (Array.isArray(value)) {
+    value.forEach((entry, index) => collectBasicsAudioReferences(entry, `${location}[${index}]`));
+    return;
+  }
+  if (!value || typeof value !== "object") return;
+  const object = value as Record<string, unknown>;
+  const audio = object.audio;
+  const sourceKey = ["audioText", "listenText", "text"].find(key => typeof object[key] === "string");
+  if (audio && typeof audio === "object" && typeof (audio as Record<string, unknown>).src === "string" && sourceKey) {
+    const clip = audio as AudioClipRef;
+    references.push({ src: clip.src, location: `basics/${location}`, clip });
+  }
+  for (const [key, child] of Object.entries(object)) {
+    if (key !== "audio") collectBasicsAudioReferences(child, `${location}.${key}`);
+  }
+}
+
+basicsModules.forEach(module => collectBasicsAudioReferences(module, module.id));
 
 function localPathForSrc(src: string): string | undefined {
   if (!src.startsWith("/audio/")) return undefined;
@@ -118,7 +140,8 @@ const generatedFullDialogues = fullDialogueExpected.filter(item => item.audio?.r
 const attachedListening = listeningExpected.length - missingListening.length;
 console.log(`manifest_version=${manifest.libraryVersion}`);
 console.log(`manifest_clips=${manifestEntries.length}`);
-console.log(`lesson_audio_references=${references.length}`);
+console.log(`lesson_audio_references=${references.filter(reference => reference.location.startsWith("lesson-")).length}`);
+console.log(`basics_audio_references=${references.filter(reference => reference.location.startsWith("basics/")).length}`);
 console.log(`status_counts=${JSON.stringify(Object.fromEntries(statusCounts))}`);
 console.log(`full_dialogue_coverage=${generatedFullDialogues}/${fullDialogueExpected.length}`);
 console.log(`listening_audio_coverage=${attachedListening}/${listeningExpected.length}`);

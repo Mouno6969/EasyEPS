@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { composeHangul } from "./hangul";
 import { localizedTextSchema } from "./lesson";
+import { audioClipRefSchema } from "./audio";
 
 /** Stable module ids used as progress keys (order 0–7). */
 export const BASICS_MODULE_IDS = [
@@ -118,6 +119,8 @@ export const basicsQuizQuestionSchema = z
      * `reading` = whole-word recognition (Hangul word → meaning, or meaning → word).
      */
     topic: z.enum(["jamo", "syllable", "batchim", "reading", "general"]).optional().default("general"),
+    /** Optional deliberately slow AI pronunciation reference for listen-choice prompts. */
+    audio: audioClipRefSchema.optional(),
   })
   .superRefine((q, ctx) => {
     if (q.kind === "matching") {
@@ -157,6 +160,8 @@ const jamoItemSchema = z.object({
   ko: z.string().optional(),
   /** Bangla visual/shape mnemonic for the letter (e.g. "ㄱ looks like a gun"). */
   shapeMnemonicBn: z.string().min(1).optional(),
+  /** Optional deliberately slow AI pronunciation reference. */
+  audio: audioClipRefSchema.optional(),
 });
 
 const speakItemSchema = z.object({
@@ -166,6 +171,8 @@ const speakItemSchema = z.object({
   audioText: z.string().min(1),
   bn: z.string().min(1),
   en: z.string().min(1),
+  /** Optional deliberately slow AI pronunciation reference. */
+  audio: audioClipRefSchema.optional(),
 });
 
 const writeItemSchema = z.object({
@@ -252,6 +259,8 @@ const readItemSchema = z.object({
   en: z.string().min(1),
   /** Wrong meaning choices (Bangla) shown with the correct `bn`. */
   distractorsBn: z.array(z.string().min(1)).min(2).max(5),
+  /** Optional deliberately slow AI pronunciation reference. */
+  audio: audioClipRefSchema.optional(),
 });
 
 const readStepSchema = z.object({
