@@ -22,6 +22,10 @@ self.addEventListener("activate", event => {
   );
 });
 
+function isAudioRequest(request, url) {
+  return url.origin === self.location.origin && (request.destination === "audio" || url.pathname.startsWith("/audio/"));
+}
+
 function isCurriculumQuery(url) {
   return url.origin === self.location.origin
     && url.pathname.startsWith("/api/trpc")
@@ -46,7 +50,7 @@ self.addEventListener("fetch", event => {
   if (request.method !== "GET") return;
   const url = new URL(request.url);
 
-  if (isCurriculumQuery(url)) {
+  if (isCurriculumQuery(url) || isAudioRequest(request, url)) {
     event.respondWith(networkWithCacheFallback(request, LESSON_CACHE));
     return;
   }

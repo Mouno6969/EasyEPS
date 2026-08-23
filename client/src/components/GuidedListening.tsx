@@ -1,7 +1,9 @@
 import { KOREAN_SPEECH_RATES, type KoreanSpeechRate } from "@/lib/speakKorean";
-import { speakDialogue } from "@/lib/dialogueSpeech";
+import { type AudioPlaybackSource } from "@/lib/audioPlayback";
+import { speakDialogueWithAudio } from "@/lib/dialogueSpeech";
 import { recordListeningEvidence } from "@/lib/localProgress";
 import { normalizeLearningText } from "@shared/learning";
+import type { AudioClipRef } from "@shared/audio";
 import { Gauge, Headphones, RotateCcw, ScrollText, Check, Volume2 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
@@ -11,6 +13,8 @@ export type GuidedListeningProps = {
   itemId?: string;
   /** Set after grading when the learner answered the item correctly. */
   firstPlayCorrect?: boolean;
+  /** Optional reviewed natural recording. Browser Korean TTS is the fallback. */
+  audio?: AudioClipRef;
   compact?: boolean;
   className?: string;
   label?: string;
@@ -24,6 +28,7 @@ export function GuidedListening({
   text,
   itemId,
   firstPlayCorrect,
+  audio,
   compact = false,
   className = "",
   label = "Audio শুনতে চাপুন",
@@ -40,6 +45,7 @@ export function GuidedListening({
   const [dictationAttempts, setDictationAttempts] = useState(0);
   const [dictationCorrect, setDictationCorrect] = useState(0);
   const [dictationSubmitted, setDictationSubmitted] = useState(false);
+  const [audioSource, setAudioSource] = useState<AudioPlaybackSource>(() => audio?.reviewStatus === "approved" ? "reviewed-audio" : "browser-tts");
   const playbackRequest = useRef(0);
 
   const persist = (patch: Partial<{
@@ -51,6 +57,8 @@ export function GuidedListening({
     dictationAttempts: number;
     dictationCorrect: number;
     firstPlayCorrect: boolean;
+    audioSource: AudioPlaybackSource;
+    audioVersion: string;
   }> = {}) => {
     recordListeningEvidence({
       itemId: evidenceId,
@@ -62,6 +70,8 @@ export function GuidedListening({
       dictationAttempts: patch.dictationAttempts ?? dictationAttempts,
       dictationCorrect: patch.dictationCorrect ?? dictationCorrect,
       firstPlayCorrect: patch.firstPlayCorrect ?? firstPlayCorrect,
+      audioSource: patch.audioSource ?? audioSource,
+      audioVersion: patch.audioVersion ?? (patch.audioSource === "reviewed-audio" ? audio?.audioVersion : undefined),
     });
   };
 
@@ -81,8 +91,11 @@ export function GuidedListening({
     setSlowPlays(nextSlowPlays);
     setPlaying(true);
     persist({ plays: nextPlays, normalPlays: nextNormalPlays, slowPlays: nextSlowPlays });
-    // Dialogue-aware: two-speaker passages play with distinct voices per speaker.
-    void speakDialogue(text, { rate }).finally(() => {
+    void speakDialogueWithAudio(text, audio, { rate }).then(result => {
+      if (playbackRequest.current !== request) return;
+      setAudioSource(result.source);
+      persist({ audioSource: result.source, audioVersion: result.source === "reviewed-audio" ? audio?.audioVersion : undefined });
+    }).finally(() => {
       if (playbackRequest.current === request) setPlaying(false);
     });
   };
@@ -128,6 +141,7 @@ export function GuidedListening({
         </span>
         <span>{playing ? "শোনা হচ্ছে…" : label}</span>
       </button>
+      <p className="text-center text-[11px] font-semibold text-[var(--navy)]/45" aria-live="polite">{audioSource === "reviewed-audio" ? `Reviewed Korean audio · ${audio?.voiceId ?? "verified voice"}` : audio?.reviewStatus === "approved" ? "Reviewed recording available · browser fallback will be used only if needed" : audio ? "Clip pending review · browser Korean TTS" : "Browser Korean TTS"}</p>
 
       <div className="flex flex-wrap items-center justify-center gap-2 text-xs font-bold">
         <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--cream)] px-3 py-1.5 text-[var(--navy)]/55">

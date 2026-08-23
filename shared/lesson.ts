@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { audioClipRefSchema } from "./audio";
 
 export const localizedTextSchema = z.object({
   ko: z.string().min(1),
@@ -69,6 +70,7 @@ const dialogueSchema = z.object({
         ko: z.string().min(1),
         bn: z.string().min(1),
         en: z.string().min(1),
+        audio: audioClipRefSchema.optional(),
       }),
     )
     .min(4)
@@ -114,6 +116,8 @@ const epsQuestionSchema = z
     passage: z.string().optional().default(""),
     /** Optional exam-style picture/safety sign. Omitted on legacy questions. */
     image: epsQuestionImageSchema.optional(),
+    /** Optional reviewed natural audio clip; browser TTS remains the fallback. */
+    audio: audioClipRefSchema.optional(),
     options: z.array(z.string().min(1)).min(4).max(4),
     answer: z.number().int().min(0).max(3),
     explanationBn: z.string().min(1),

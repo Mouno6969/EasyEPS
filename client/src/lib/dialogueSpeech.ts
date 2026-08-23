@@ -1,3 +1,5 @@
+import { playAudioClip, playAudioOrTts } from "./audioPlayback";
+import { audioClipIsUsable, type AudioClipRef } from "@shared/audio";
 import {
   beginSpeechSequence,
   cancelSpeech,
@@ -150,14 +152,21 @@ function wait(ms: number): Promise<void> {
 export type SpeakDialogueOptions = {
   /** Playback rate for every turn. Defaults to 1×. */
   rate?: number;
+  /** Optional reviewed natural clip for a single named line. */
+  audio?: import("@shared/audio").AudioClipRef;
   /** Optional error hook, forwarded to the underlying speech calls. */
   onError?: (error: Error) => void;
+  /** Internal voice controls used when a browser fallback is needed. */
+  pitch?: number;
+  voice?: SpeechSynthesisVoice;
+  sequence?: import("./speakKorean").SpeechSequence;
 };
 
 type PreparedSpeechTurn = {
   text: string;
   pitch: number;
   voice?: SpeechSynthesisVoice;
+  audio?: import("@shared/audio").AudioClipRef;
 };
 
 async function playPreparedTurns(turns: PreparedSpeechTurn[], opts?: SpeakDialogueOptions): Promise<boolean> {
@@ -165,14 +174,12 @@ async function playPreparedTurns(turns: PreparedSpeechTurn[], opts?: SpeakDialog
   for (let index = 0; index < turns.length; index += 1) {
     if (!isSpeechSequenceCurrent(sequence)) return false;
     const turn = turns[index];
-    const finished = await speakKorean(turn.text, {
-      rate: opts?.rate,
-      pitch: turn.pitch,
-      voice: turn.voice,
-      sequence,
-      onError: opts?.onError,
+    const finished = await playAudioOrTts({
+      text: turn.text,
+      audio: turn.audio,
+      options: { rate: opts?.rate, onError: opts?.onError, sequence, pitch: turn.pitch, voice: turn.voice },
     });
-    if (!finished) return false;
+    if (!finished.ok) return false;
 
     if (index < turns.length - 1) {
       await wait(TURN_GAP_MS);
@@ -218,9 +225,19 @@ export async function speakDialogue(passage: string, opts?: SpeakDialogueOptions
   );
 }
 
+/** Play one reviewed full-passage clip, otherwise retain speaker-aware dialogue TTS. */
+export async function speakDialogueWithAudio(passage: string, audio?: AudioClipRef, opts?: SpeakDialogueOptions): Promise<{ ok: boolean; source: "reviewed-audio" | "browser-tts" }> {
+  if (audio && audioClipIsUsable(audio)) {
+    const played = await playAudioClip(audio, { rate: opts?.rate, onError: opts?.onError });
+    if (played) return { ok: true, source: "reviewed-audio" };
+  }
+  return { ok: await speakDialogue(passage, opts), source: "browser-tts" };
+}
+
 export type NamedDialogueLine = {
   speaker: string;
   text: string;
+  audio?: import("@shared/audio").AudioClipRef;
 };
 
 const NAMED_SPEAKER_PITCHES = [0.78, 1.22, 0.92, 1.08];
@@ -257,14 +274,12 @@ export function speakNamedTurn(
 ): Promise<boolean> {
   const spoken = text.trim();
   if (!spoken) return Promise.resolve(false);
-  if (!isSpeechSupported()) return speakKorean(spoken, { rate: opts?.rate, onError: opts?.onError });
-  const profile = namedVoiceProfiles(allSpeakers, getKoreanVoices()).get(speaker.trim() || "narrator");
-  return speakKorean(spoken, {
-    rate: opts?.rate,
-    pitch: profile?.pitch ?? 1,
-    voice: profile?.voice,
-    onError: opts?.onError,
-  });
+  const profile = namedVoiceProfiles(allSpeakers, isSpeechSupported() ? getKoreanVoices() : []).get(speaker.trim() || "narrator");
+  return playAudioOrTts({
+    text: spoken,
+    audio: opts?.audio,
+    options: { rate: opts?.rate, pitch: profile?.pitch ?? 1, voice: profile?.voice, onError: opts?.onError },
+  }).then(result => result.ok);
 }
 
 /**
@@ -277,23 +292,19 @@ export async function speakNamedDialogue(
   opts?: SpeakDialogueOptions,
 ): Promise<boolean> {
   const turns = lines
-    .map(line => ({ speaker: line.speaker.trim(), text: line.text.trim() }))
+    .map(line => ({ speaker: line.speaker.trim(), text: line.text.trim(), audio: line.audio }))
     .filter(line => line.text);
   if (turns.length === 0) return false;
   if (turns.length === 1) {
-    return speakKorean(turns[0].text, { rate: opts?.rate, onError: opts?.onError });
+    return playAudioOrTts({ text: turns[0].text, audio: turns[0].audio, options: { rate: opts?.rate, onError: opts?.onError } }).then(result => result.ok);
   }
-  if (!isSpeechSupported()) {
-    return speakKorean(turns[0].text, { rate: opts?.rate, onError: opts?.onError });
-  }
-
-  const voices = getKoreanVoices();
+  const voices = isSpeechSupported() ? getKoreanVoices() : [];
   const profiles = namedVoiceProfiles(turns.map(turn => turn.speaker || "narrator"), voices);
 
   return playPreparedTurns(
     turns.map(turn => {
       const profile = profiles.get(turn.speaker || "narrator");
-      return { text: turn.text, voice: profile?.voice, pitch: profile?.pitch ?? 1 };
+      return { text: turn.text, audio: turn.audio, voice: profile?.voice, pitch: profile?.pitch ?? 1 };
     }),
     opts,
   );
