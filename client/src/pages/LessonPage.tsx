@@ -7,13 +7,15 @@ import { pushCelebration } from "@/components/CelebrationBanner";
 import { Button } from "@/components/ui/button";
 import { useLocale } from "@/contexts/LocaleContext";
 import { useBasicsGate } from "@/hooks/useBasicsGate";
-import { addLocalAttempt, updateChapterProgress, useLocalBasics, useLocalLearning } from "@/lib/localProgress";
-import { speakDialogue, speakNamedDialogue } from "@/lib/dialogueSpeech";
+import { addLocalAttempt, recordItemResult, updateChapterProgress, useLocalBasics, useLocalLearning } from "@/lib/localProgress";
+import { cancelDialogue, getNamedDialogueVoiceMode, speakDialogue, speakDialogueWithAudio, speakNamedDialogue, speakNamedTurn, type NamedDialogueVoiceMode } from "@/lib/dialogueSpeech";
 import { KOREAN_SPEECH_RATES, speakKorean, type KoreanSpeechRate } from "@/lib/speakKorean";
 import { recordWeakAttempt } from "@/lib/srs";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { isBasicsComplete } from "@shared/basics";
+import { learningItemId, questionSkillTags } from "@shared/learning";
+import { audioClipIsUsable } from "@shared/audio";
 import type { EpsQuestion, Lesson, PracticeQuestion } from "@shared/lesson";
 import { ArrowLeft, ArrowRight, BookOpenText, Check, ChevronLeft, ChevronRight, Clock3, GraduationCap, Headphones, Layers3, Loader2, MessagesSquare, RotateCcw, Sparkles, Volume2, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
@@ -102,12 +104,14 @@ function VocabularyView({ lesson, done, onDone }: { lesson: Lesson; done?: boole
 
 function PracticeRunner({
   lesson,
+  chapter,
   kind,
   savedScore,
   onComplete,
 }: {
-  lesson: Lesson;
-  kind: "practice" | "exam";
+    lesson: Lesson;
+    chapter: number;
+    kind: "practice" | "exam";
   savedScore?: number;
   onComplete: (
     score: number,
@@ -134,6 +138,27 @@ function PracticeRunner({
 
   const finish = (finalScore: number) => {
     setSubmitted(true);
+    questions.forEach(question => {
+      const practice = question as PracticeQuestion;
+      const isMatching = kind === "practice" && practice.type === "matching";
+      const attempted = isMatching ? Object.keys(matching[question.id] ?? {}).length > 0 : Object.prototype.hasOwnProperty.call(answers, question.id);
+      const correct = isMatching
+        ? practice.pairs.every((pair, pairIndex) => matching[practice.id]?.[pairIndex] === pair.right)
+        : answers[question.id] === question.answer;
+      const eps = question as EpsQuestion;
+      recordItemResult({
+        itemId: learningItemId(kind === "exam" ? "eps" : "practice", chapter, question.id),
+        kind: kind === "exam" ? "eps" : "practice",
+        chapter,
+        section: kind === "exam" ? eps.section : undefined,
+        skillTags: questionSkillTags(question as EpsQuestion | PracticeQuestion),
+        correct,
+        confidence: !attempted ? "unknown" : correct ? "sure" : "uncertain",
+        isRetentionCheck: true,
+        isTransferCheck: Boolean(question.image),
+        format: kind === "exam" && eps.section === "listening" ? "listening" : "recognition",
+      });
+    });
     onComplete(finalScore, questions.length, Math.round((Date.now() - startedAt) / 1000), { answers, matching });
   };
 
@@ -167,7 +192,7 @@ function PracticeRunner({
       {passageText ? (
         isListening && !submitted ? (
           <div className="mt-4 space-y-2">
-            <GuidedListening text={passageText} compact label="শুনতে চাপুন · script লুকানো" />
+            <GuidedListening text={passageText} audio={(question as EpsQuestion).audio} itemId={`listening:${kind}:${question.id}`} compact label="শুনতে চাপুন · script লুকানো" />
             <p className="text-center text-xs font-semibold text-[var(--navy)]/45">EPS listening মোড: জমা দেওয়ার পর script দেখা যাবে।</p>
           </div>
         ) : (
@@ -175,7 +200,7 @@ function PracticeRunner({
             {isListening && submitted ? <p className="mb-2 text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">শোনার script (জমার পর)</p> : null}
             {isListening ? <DialogueScript passage={passageText} /> : passageText}
             {isListening && submitted ? (
-              <button type="button" onClick={() => void speakDialogue(passageText, { rate: 0.82 })} className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-[var(--gold-dark)]">
+              <button type="button" onClick={() => void speakDialogueWithAudio(passageText, (question as EpsQuestion).audio, { rate: 0.82 })} className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-[var(--gold-dark)]">
                 <Volume2 className="size-4" />আবার শুনুন
               </button>
             ) : null}
@@ -183,6 +208,7 @@ function PracticeRunner({
         )
       ) : null}
       {isMatching ? <div className="mt-5 grid gap-3">{practice.pairs.map((pair, pairIndex) => <div key={`${pair.left}-${pairIndex}`} className="grid gap-2 sm:grid-cols-2 sm:items-center"><div className="rounded-xl bg-[var(--cream)] px-4 py-3 font-bold text-[var(--navy)]">{pair.left}</div><select disabled={submitted} value={matching[practice.id]?.[pairIndex] ?? ""} onChange={event => setMatching(previous => ({ ...previous, [practice.id]: { ...(previous[practice.id] ?? {}), [pairIndex]: event.target.value } }))} className="h-12 rounded-xl border border-[var(--navy)]/12 bg-white px-3"><option value="">সঠিক অর্থ বেছে নিন</option>{[...practice.pairs].sort((a, b) => a.right.localeCompare(b.right)).map(option => <option key={option.right} value={option.right}>{option.right}</option>)}</select></div>)}</div> : <div className="mt-5 grid gap-2 sm:grid-cols-2">{optionList.map((option, optionIndex) => { const selected = chosen === optionIndex; const revealCorrect = submitted && optionIndex === question.answer; const revealWrong = submitted && selected && optionIndex !== question.answer; return <button key={`${option}-${optionIndex}`} disabled={submitted} onClick={() => setAnswers(previous => ({ ...previous, [question.id]: optionIndex }))} className={`answer-option ${selected ? "answer-selected" : ""} ${revealCorrect ? "answer-correct" : ""} ${revealWrong ? "answer-wrong" : ""}`}><span>{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span>{revealCorrect && <Check className="ml-auto size-4" />}{revealWrong && <X className="ml-auto size-4" />}</button>; })}</div>}
+      {!submitted && <button type="button" onClick={() => { setAnswers(previous => ({ ...previous, [question.id]: -1 })); if (isMatching) setMatching(previous => ({ ...previous, [practice.id]: {} })); }} className="mt-3 inline-flex items-center gap-2 rounded-full border border-[var(--navy)]/15 px-4 py-2 text-xs font-bold text-[var(--navy)]/65 hover:border-[var(--gold)]/50">জানি না — পরে আবার দেখব</button>}
       {submitted && <div className={`mt-5 rounded-2xl p-4 text-sm leading-6 ${correct ? "bg-emerald-50 text-emerald-800" : "bg-red-50 text-red-800"}`}><strong>{correct ? "সঠিক।" : "সঠিক উত্তর দেখুন।"}</strong> {question.explanationBn}
         {!correct ? <p className="mt-2 border-t border-red-200/80 pt-2 text-red-900/80"><strong>শেখার টিপ:</strong> {feedbackTipForQuestion(question, kind)}</p> : null}
       </div>}
@@ -194,6 +220,8 @@ export default function LessonPage() {
   const [, params] = useRoute("/lesson/:chapter");
   const chapter = Math.min(60, Math.max(1, Number(params?.chapter ?? 1)));
   const [active, setActive] = useState<Tab>("overview");
+  const [dialogueVoiceMode, setDialogueVoiceMode] = useState<NamedDialogueVoiceMode>("unsupported");
+  const [dialogueRate, setDialogueRate] = useState<KoreanSpeechRate>(KOREAN_SPEECH_RATES.normal);
   const { locale, t } = useLocale();
   const state = useLocalLearning();
   const localBasics = useLocalBasics();
@@ -211,7 +239,15 @@ export default function LessonPage() {
   const softBanner = !gate.loading && !hardBlocked && !hangulReadyLocal && !gate.completed;
   const writesBlocked = hardBlocked;
 
-  useEffect(() => { window.scrollTo({ top: 0, behavior: "smooth" }); setActive("overview"); }, [chapter]);
+  useEffect(() => { window.scrollTo({ top: 0, behavior: "smooth" }); setActive("overview"); setDialogueRate(KOREAN_SPEECH_RATES.normal); }, [chapter]);
+  useEffect(() => {
+    const speakers = lesson?.dialogues.flatMap(dialogue => dialogue.lines.map(line => line.speaker)) ?? [];
+    const update = () => setDialogueVoiceMode(getNamedDialogueVoiceMode(speakers));
+    update();
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    window.speechSynthesis.addEventListener("voiceschanged", update);
+    return () => window.speechSynthesis.removeEventListener("voiceschanged", update);
+  }, [lesson]);
   const saveProgress = (patch: Parameters<typeof updateChapterProgress>[1], minutes = 5) => {
     if (writesBlocked) {
       toast.message(t.completeBasicsFirst);
@@ -278,7 +314,7 @@ export default function LessonPage() {
   if (!lesson) return <div className="container py-28 text-center"><h1 className="font-serif text-4xl font-bold text-[var(--navy)]">পাঠ পাওয়া যায়নি</h1><Link href="/curriculum" className="mt-5 inline-flex font-bold text-[var(--gold-dark)]">পাঠ্যক্রমে ফিরুন</Link></div>;
   const title = lesson.title[locale];
   return <>
-    <section className="bg-[var(--navy)] text-white"><div className="sacred-grid-dark"><div className="container py-10 md:py-14"><div className="flex items-center justify-between gap-4"><Link href="/curriculum" className="inline-flex items-center gap-2 text-sm font-bold text-white/60 hover:text-[var(--gold)]"><ArrowLeft className="size-4" />পাঠ্যক্রম</Link><span className="rounded-full bg-white/8 px-3 py-1 text-xs font-bold text-[var(--gold)]">{local?.completed ? "সম্পন্ন" : `CHAPTER ${String(chapter).padStart(2, "0")}`}</span></div><div className="mt-9 max-w-4xl"><p className="text-sm font-bold uppercase tracking-[.2em] text-[var(--gold)]">{lesson.category.replace("-", " ")}</p><h1 className="mt-4 font-serif text-4xl font-bold leading-tight md:text-6xl">{title}</h1>{locale !== "ko" && <p className="mt-3 text-2xl font-semibold text-white/45">{lesson.title.ko}</p>}<div className="mt-8 flex flex-wrap gap-4 text-sm text-white/55"><span>{lesson.vocabulary.length} শব্দ</span><span>·</span><span>{lesson.grammar.length} ব্যাকরণ</span><span>·</span><span>{lesson.practice.length} অনুশীলন</span><span>·</span><span>{lesson.epsQuestions.length} পরীক্ষার প্রশ্ন</span></div></div></div></div></section>
+    <section className="bg-[var(--navy)] text-white"><div className="sacred-grid-dark"><div className="container py-10 md:py-14"><div className="flex items-center justify-between gap-4"><Link href="/curriculum" className="inline-flex items-center gap-2 text-sm font-bold text-white/60 hover:text-[var(--gold)]"><ArrowLeft className="size-4" />পাঠ্যক্রম</Link><span className="rounded-full bg-white/8 px-3 py-1 text-xs font-bold text-[var(--gold)]">{local?.completed ? "সম্পন্ন" : `CHAPTER ${String(chapter).padStart(2, "0")}`}</span></div><div className="mt-9 max-w-4xl"><p className="text-sm font-bold uppercase tracking-[.2em] text-[var(--gold)]">{lesson.category.replace("-", " ")}</p><h1 className="mt-4 font-serif text-4xl font-bold leading-tight md:text-6xl">{title}</h1>{locale !== "ko" && <p className="mt-3 text-2xl font-semibold text-white/45">{lesson.title.ko}</p>}<div className="mt-8 flex flex-wrap gap-4 text-sm text-white/55"><span>{lesson.vocabulary.length} শব্দ</span><span>·</span><span>{lesson.grammar.length} ব্যাকরণ</span><span>·</span><span>{lesson.practice.length} অনুশীলন</span><span>·</span><span>{lesson.epsQuestions.length} পরীক্ষার প্রশ্ন</span><span>·</span><span>content {lesson.contentVersion}</span></div></div></div></div></section>
 
     <div className="sticky top-[7.25rem] z-30 overflow-x-auto border-b border-[var(--navy)]/10 bg-[var(--cream)]/95 backdrop-blur-xl"><div className="container flex min-w-max gap-1 py-2">{tabs.map(({ id, label, icon: Icon }) => <button key={id} onClick={() => setActive(id)} className={`lesson-tab ${active === id ? "lesson-tab-active" : ""}`}><Icon className="size-4" />{label}</button>)}</div></div>
 
@@ -303,9 +339,9 @@ export default function LessonPage() {
       {active === "overview" && <section className="grid gap-7 lg:grid-cols-[1.15fr_.85fr]"><div className="paper-card p-7 md:p-9"><p className="eyebrow">এই অধ্যায়ে শিখবেন</p><h2 className="mt-3 font-serif text-3xl font-bold text-[var(--navy)]">শেখার লক্ষ্য</h2><div className="mt-7 grid gap-4">{lesson.objectives[locale === "en" ? "en" : "bn"].map((objective, index) => <div key={objective} className="flex gap-4"><span className="grid size-8 shrink-0 place-items-center rounded-full bg-[var(--gold)]/18 font-serif font-bold text-[var(--gold-dark)]">{index + 1}</span><p className="pt-1 leading-7 text-[var(--navy)]/70">{objective}</p></div>)}</div><Button onClick={() => setActive("vocabulary")} className="mt-9 rounded-full bg-[var(--navy)] px-6 text-white">শব্দভাণ্ডার শুরু করুন <ArrowRight className="size-4" /></Button></div><aside className="paper-card overflow-hidden"><div className="bg-[var(--gold)]/14 p-7"><p className="eyebrow">পাঠের অগ্রগতি</p><p className="mt-2 font-serif text-4xl font-bold text-[var(--navy)]">{[local?.vocabDone, local?.grammarDone, local?.dialogueDone, typeof local?.practiceScore === "number", typeof local?.examScore === "number"].filter(Boolean).length}/5</p><div className="mt-4 h-2 overflow-hidden rounded-full bg-white"><div className="h-full rounded-full bg-[var(--navy)]" style={{ width: `${[local?.vocabDone, local?.grammarDone, local?.dialogueDone, typeof local?.practiceScore === "number", typeof local?.examScore === "number"].filter(Boolean).length / 5 * 100}%` }} /></div></div><div className="divide-y divide-[var(--navy)]/8 p-3">{tabs.slice(1).map(tab => { const done = tab.id === "vocabulary" ? local?.vocabDone : tab.id === "grammar" ? local?.grammarDone : tab.id === "dialogue" ? local?.dialogueDone : tab.id === "practice" ? typeof local?.practiceScore === "number" : typeof local?.examScore === "number"; return <button key={tab.id} onClick={() => setActive(tab.id)} className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left text-sm font-semibold hover:bg-[var(--cream)]"><span className={`grid size-7 place-items-center rounded-full ${done ? "bg-[var(--sage)] text-white" : "bg-[var(--cream)] text-[var(--navy)]/35"}`}>{done ? <Check className="size-4" /> : <tab.icon className="size-4" />}</span>{tab.label}<ChevronRight className="ml-auto size-4 text-[var(--navy)]/30" /></button>; })}</div></aside></section>}
       {active === "vocabulary" && <VocabularyView lesson={lesson} done={local?.vocabDone} onDone={() => saveProgress({ vocabDone: true })} />}
       {active === "grammar" && <section className="paper-card p-6 md:p-8"><p className="eyebrow">Pattern + meaning + examples</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">ব্যাকরণ</h2><div className="mt-7 space-y-5">{lesson.grammar.map((grammar, index) => <article key={grammar.pattern} className="overflow-hidden rounded-3xl border border-[var(--navy)]/9"><div className="flex flex-col gap-3 bg-[var(--navy)] p-5 text-white sm:flex-row sm:items-center sm:justify-between"><span className="text-xs font-bold text-[var(--gold)]">GRAMMAR {index + 1}</span><p className="font-serif text-2xl font-bold">{grammar.pattern}</p></div><div className="p-6"><h3 className="text-lg font-bold text-[var(--navy)]">{grammar.titleBn}</h3><p className="mt-3 leading-7 text-[var(--navy)]/65">{grammar.explanationBn}</p><p className="mt-2 text-sm leading-6 text-[var(--navy)]/45">{grammar.explanationEn}</p>{grammar.commonMistakeBn ? <div className="mt-4 rounded-2xl border border-red-200 bg-red-50 p-4"><p className="text-xs font-bold uppercase tracking-wider text-red-500">সাধারণ ভুল</p><p className="mt-1 text-sm leading-6 text-red-800">{grammar.commonMistakeBn}</p></div> : null}<div className="mt-5 grid gap-3">{grammar.examples.map((example, exampleIndex) => <div key={exampleIndex} className="rounded-2xl bg-[var(--cream)] p-4"><div className="flex items-start justify-between gap-3"><p className="font-bold leading-7 text-[var(--navy)]">{example.ko}</p><button onClick={() => void speakKorean(example.ko)} className="grid size-8 shrink-0 place-items-center rounded-full bg-white text-[var(--gold-dark)]"><Volume2 className="size-3.5" /></button></div><p className="mt-1 text-sm leading-6 text-[var(--navy)]/58">{example.bn}</p></div>)}</div></div></article>)}</div><CompleteButton done={local?.grammarDone} onClick={() => saveProgress({ grammarDone: true })}>ব্যাকরণ সম্পন্ন করুন</CompleteButton></section>}
-      {active === "dialogue" && <section className="paper-card p-6 md:p-8"><p className="eyebrow">শুনুন ও অনুকরণ করুন</p><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">বাস্তব সংলাপ</h2><div className="mt-7 grid gap-6">{lesson.dialogues.map((dialogue, dialogueIndex) => <article key={dialogueIndex} className="rounded-3xl border border-[var(--navy)]/9 p-5 md:p-7"><div className="flex items-center justify-between gap-4"><div><p className="text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">Dialogue {dialogueIndex + 1}</p><h3 className="mt-1 font-serif text-2xl font-bold text-[var(--navy)]">{dialogue.titleBn}</h3></div><button onClick={() => void speakNamedDialogue(dialogue.lines.map(line => ({ speaker: line.speaker, text: line.ko })), { rate: .8 })} aria-label={`${dialogue.titleBn} সংলাপ শুনুন`} className="grid size-11 place-items-center rounded-full bg-[var(--gold)]/18 text-[var(--gold-dark)]"><Headphones className="size-5" /></button></div><div className="mt-6 space-y-4">{dialogue.lines.map((line, lineIndex) => <div key={lineIndex} className={`flex ${lineIndex % 2 ? "justify-end" : "justify-start"}`}><div className={`max-w-[88%] rounded-2xl p-4 md:max-w-[72%] ${lineIndex % 2 ? "rounded-tr-md bg-[var(--navy)] text-white" : "rounded-tl-md bg-[var(--cream)] text-[var(--navy)]"}`}><p className={`text-xs font-bold ${lineIndex % 2 ? "text-[var(--gold)]" : "text-[var(--gold-dark)]"}`}>{line.speaker}</p><div className="mt-2 flex items-start gap-3"><p className="text-lg font-semibold leading-7">{line.ko}</p><button onClick={() => void speakKorean(line.ko)} className="mt-1 opacity-60 hover:opacity-100"><Volume2 className="size-3.5" /></button></div><p className={`mt-2 text-sm leading-6 ${lineIndex % 2 ? "text-white/60" : "text-[var(--navy)]/55"}`}>{line.bn}</p><PronunciationCoach text={line.ko} /></div></div>)}</div></article>)}</div><CompleteButton done={local?.dialogueDone} onClick={() => saveProgress({ dialogueDone: true })}>সংলাপ সম্পন্ন করুন</CompleteButton></section>}
-      {active === "practice" && <PracticeRunner lesson={lesson} kind="practice" savedScore={local?.practiceScore} onComplete={(score, total, duration, payload) => record("practice", score, total, duration, payload)} />}
-      {active === "exam" && <PracticeRunner lesson={lesson} kind="exam" savedScore={local?.examScore} onComplete={(score, total, duration, payload) => record("chapter-exam", score, total, duration, payload)} />}
+      {active === "dialogue" && <section className="paper-card p-6 md:p-8"><p className="eyebrow">শুনুন ও অনুকরণ করুন</p><div className="flex flex-wrap items-end justify-between gap-3"><div><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">বাস্তব সংলাপ</h2><p className="mt-2 text-sm font-semibold text-[var(--navy)]/50">নিচের গতি সব generated audio, line replay এবং browser fallback-এ প্রয়োগ হবে।</p></div><SpeakRateToggle rate={dialogueRate} onChange={setDialogueRate} /></div><div className="mt-7 grid gap-6">{lesson.dialogues.map((dialogue, dialogueIndex) => <article key={dialogueIndex} className="rounded-3xl border border-[var(--navy)]/9 p-5 md:p-7"><div className="flex items-center justify-between gap-4"><div><p className="text-xs font-bold uppercase tracking-wider text-[var(--gold-dark)]">Dialogue {dialogueIndex + 1}</p><h3 className="mt-1 font-serif text-2xl font-bold text-[var(--navy)]">{dialogue.titleBn}</h3></div><div className="flex items-center gap-2"><span className="hidden max-w-56 text-right text-xs font-semibold leading-5 text-[var(--navy)]/45 sm:inline">{audioClipIsUsable(dialogue.audio) || dialogue.lines.some(line => audioClipIsUsable(line.audio)) ? (dialogue.audio?.reviewStatus === "generated" || dialogue.lines.some(line => line.audio?.reviewStatus === "generated") ? "AI-generated Korean audio available" : "Human-reviewed Korean audio available") : dialogueVoiceMode === "separate-voices" ? "পৃথক browser Korean voices" : dialogueVoiceMode === "pitch-fallback" ? "একটি browser voice · আলাদা pitch fallback" : "এই browser-এ voice playback নেই"}</span><button onClick={() => cancelDialogue()} aria-label="সংলাপ থামান" className="grid size-9 place-items-center rounded-full border border-[var(--navy)]/10 text-[var(--navy)]/50 hover:text-[var(--navy)]"><X className="size-4" /></button><button onClick={() => void speakNamedDialogue(dialogue.lines.map(line => ({ speaker: line.speaker, text: line.ko, audio: line.audio })), { rate: dialogueRate, audio: dialogue.audio })} aria-label={`${dialogue.titleBn} সংলাপ শুনুন`} className="grid size-11 place-items-center rounded-full bg-[var(--gold)]/18 text-[var(--gold-dark)]"><Headphones className="size-5" /></button></div></div><div className="mt-6 space-y-4">{dialogue.lines.map((line, lineIndex) => <div key={lineIndex} className={`flex ${lineIndex % 2 ? "justify-end" : "justify-start"}`}><div className={`max-w-[88%] rounded-2xl p-4 md:max-w-[72%] ${lineIndex % 2 ? "rounded-tr-md bg-[var(--navy)] text-white" : "rounded-tl-md bg-[var(--cream)] text-[var(--navy)]"}`}><p className={`text-xs font-bold ${lineIndex % 2 ? "text-[var(--gold)]" : "text-[var(--gold-dark)]"}`}>{line.speaker}</p><div className="mt-2 flex items-start gap-3"><p className="text-lg font-semibold leading-7">{line.ko}</p><button onClick={() => void speakNamedTurn(line.speaker, line.ko, dialogue.lines.map(item => item.speaker), { rate: dialogueRate, audio: line.audio })} aria-label={`${line.speaker} লাইন শুনুন`} className="mt-1 opacity-60 hover:opacity-100"><Volume2 className="size-3.5" /></button></div><p className={`mt-2 text-sm leading-6 ${lineIndex % 2 ? "text-white/60" : "text-[var(--navy)]/55"}`}>{line.bn}</p><PronunciationCoach text={line.ko} audio={line.pronunciationAudio ?? line.audio} /></div></div>)}</div></article>)}</div><CompleteButton done={local?.dialogueDone} onClick={() => saveProgress({ dialogueDone: true })}>সংলাপ সম্পন্ন করুন</CompleteButton></section>}
+      {active === "practice" && <PracticeRunner lesson={lesson} chapter={chapter} kind="practice" savedScore={local?.practiceScore} onComplete={(score, total, duration, payload) => record("practice", score, total, duration, payload)} />}
+      {active === "exam" && <PracticeRunner lesson={lesson} chapter={chapter} kind="exam" savedScore={local?.examScore} onComplete={(score, total, duration, payload) => record("chapter-exam", score, total, duration, payload)} />}
         </>
       )}
     </div>

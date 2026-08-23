@@ -392,6 +392,33 @@ export async function getCertificateEligibleProfile(userId: number) {
   }
 }
 
+export async function adminAnalytics() {
+  const db = await requireDb();
+  const rows = await db
+    .select({ kind: attempts.kind, score: attempts.score, total: attempts.total, durationSec: attempts.durationSec })
+    .from(attempts)
+    .orderBy(desc(attempts.createdAt))
+    .limit(1000);
+  const byKind = {
+    practice: { attempts: 0, averageScore: 0, averageDurationSec: 0 },
+    "chapter-exam": { attempts: 0, averageScore: 0, averageDurationSec: 0 },
+    "mock-test": { attempts: 0, averageScore: 0, averageDurationSec: 0 },
+  };
+  for (const row of rows) {
+    const bucket = byKind[row.kind];
+    bucket.attempts += 1;
+    bucket.averageScore += row.total > 0 ? row.score / row.total * 100 : 0;
+    bucket.averageDurationSec += row.durationSec ?? 0;
+  }
+  for (const bucket of Object.values(byKind)) {
+    if (bucket.attempts > 0) {
+      bucket.averageScore = Math.round(bucket.averageScore / bucket.attempts);
+      bucket.averageDurationSec = Math.round(bucket.averageDurationSec / bucket.attempts);
+    }
+  }
+  return { sampleSize: rows.length, byKind };
+}
+
 export async function adminStats() {
   const db = await requireDb();
   const [[userCount], [attemptCount], [completionCount], [basicsCompletedCount]] = await Promise.all([

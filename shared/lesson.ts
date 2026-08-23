@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { audioClipRefSchema } from "./audio";
 
 export const localizedTextSchema = z.object({
   ko: z.string().min(1),
@@ -6,7 +7,7 @@ export const localizedTextSchema = z.object({
   en: z.string().min(1),
 });
 
-const vocabularyItemSchema = z.object({
+export const vocabularyItemSchema = z.object({
   ko: z.string().min(1),
   romanization: z.string().min(1),
   bn: z.string().min(1),
@@ -14,6 +15,14 @@ const vocabularyItemSchema = z.object({
   pos: z.string().min(1),
   example: localizedTextSchema,
   pronunciationTipBn: z.string().optional().default(""),
+  collocations: z.array(z.object({ ko: z.string().min(1), bn: z.string().min(1), en: z.string().min(1) })).max(5).optional().default([]),
+});
+
+export type VocabularyItem = z.infer<typeof vocabularyItemSchema>;
+
+const extraVocabularyItemSchema = vocabularyItemSchema.extend({
+  layer: z.enum(["exam-transfer", "recycled"]).default("exam-transfer"),
+  sourceChapter: z.number().int().min(1).max(60).optional(),
 });
 
 const grammarItemSchema = z.object({
@@ -53,13 +62,19 @@ export const epsQuestionImageSchema = z.object({
 const dialogueSchema = z.object({
   titleBn: z.string().min(1),
   titleEn: z.string().min(1),
+  /** Optional full-dialogue generated recording; line clips remain preferred for speaker replay. */
+  audio: audioClipRefSchema.optional(),
   lines: z
     .array(
       z.object({
         speaker: z.string().min(1),
+        speakerRole: z.enum(["male", "female", "narrator", "other"]).optional().default("other"),
         ko: z.string().min(1),
         bn: z.string().min(1),
         en: z.string().min(1),
+        audio: audioClipRefSchema.optional(),
+        /** Optional deliberately slow reference clip used by pronunciation coaching. */
+        pronunciationAudio: audioClipRefSchema.optional(),
       }),
     )
     .min(4)
@@ -105,6 +120,8 @@ const epsQuestionSchema = z
     passage: z.string().optional().default(""),
     /** Optional exam-style picture/safety sign. Omitted on legacy questions. */
     image: epsQuestionImageSchema.optional(),
+    /** Optional reviewed natural audio clip; browser TTS remains the fallback. */
+    audio: audioClipRefSchema.optional(),
     options: z.array(z.string().min(1)).min(4).max(4),
     answer: z.number().int().min(0).max(3),
     explanationBn: z.string().min(1),
@@ -126,6 +143,7 @@ const epsQuestionSchema = z
 
 export const lessonSchema = z
   .object({
+    contentVersion: z.string().min(1).default("2026-08-23-v5"),
     chapter: z.number().int().min(1).max(60),
     slug: z.string().min(1),
     title: localizedTextSchema,
@@ -136,6 +154,7 @@ export const lessonSchema = z
       en: z.array(z.string().min(1)).min(1),
     }),
     vocabulary: z.array(vocabularyItemSchema).min(16).max(40),
+    extraVocabulary: z.array(extraVocabularyItemSchema).max(8).default([]),
     grammar: z.array(grammarItemSchema).min(2).max(6),
     dialogues: z.array(dialogueSchema).min(2).max(4),
     practice: z.array(practiceQuestionSchema).min(10).max(24),
@@ -190,7 +209,6 @@ export const lessonSchema = z
   });
 
 export type Lesson = z.infer<typeof lessonSchema>;
-export type VocabularyItem = Lesson["vocabulary"][number];
 export type PracticeQuestion = Lesson["practice"][number];
 export type EpsQuestion = Lesson["epsQuestions"][number];
 
@@ -200,6 +218,8 @@ export type LessonSummary = Pick<Lesson, "chapter" | "slug" | "title" | "categor
   epsQuestionCount: number;
   /** How many EPS questions in this chapter include an exam-style image. */
   imageQuestionCount: number;
+  extraVocabularyCount: number;
+  contentVersion: string;
 };
 
 export const attemptDetailSchema = z.object({

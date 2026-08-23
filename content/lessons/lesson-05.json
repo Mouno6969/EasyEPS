@@ -605,7 +605,18 @@
           "bn": "মঙ্গলবার।",
           "en": "It is Tuesday."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-05-dialogue-01.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 9880,
+        "contentHash": "18c40f8f2dbbce2b2ab698423cd252e797688bec6d8624a97b5f7e0dce41a254",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "সপ্তাহান্তের পরিকল্পনা",
@@ -635,7 +646,18 @@
           "bn": "হ্যাঁ, সপ্তাহান্ত ভালো কাটুক।",
           "en": "Yes, have a good weekend."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-05-dialogue-02.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 11440,
+        "contentHash": "3026b5a71fdaeb5720c804ffc7c759c32b1f819d2705d394602e209a93bc499e",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "কাজের সময়সূচি",
@@ -665,7 +687,18 @@
           "bn": "হ্যাঁ, শনিবার এবং রবিবার বিশ্রাম নিই।",
           "en": "Yes, I rest on Saturday and Sunday."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-05-dialogue-03.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 11840,
+        "contentHash": "0e8b05fc7d4a68527866091fd1a108dde7ea281be0874f57086f7e5649129ae0",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     }
   ],
   "practice": [
@@ -1158,9 +1191,9 @@
       },
       "options": [
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "책입니다.",
+        "지갑입니다.",
+        "신발입니다."
       ],
       "answer": 0,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
@@ -1177,12 +1210,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
+        "컵입니다.",
+        "열쇠입니다.",
         "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "책입니다."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে একজোড়া কাঁচি (가위) আঁকা আছে।"
     },
     {
@@ -1197,10 +1230,10 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
+        "열쇠입니다.",
+        "휴대전화입니다.",
         "안경입니다.",
-        "가방입니다."
+        "컵입니다."
       ],
       "answer": 2,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
@@ -1217,9 +1250,9 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
+        "신발입니다.",
+        "책입니다.",
+        "지갑입니다.",
         "가방입니다."
       ],
       "answer": 3,
@@ -1237,12 +1270,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "오후입니다.",
+        "배입니다.",
+        "지게차입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1257,12 +1290,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "오토바이입니다.",
+        "자전거입니다.",
+        "경운기입니다.",
+        "화물차입니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1277,12 +1310,12 @@
         "kind": "illustration"
       },
       "options": [
+        "청소를 하고 있습니다.",
+        "전화를 하고 있습니다.",
         "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "운동을 하고 있습니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
     },
     {
@@ -1297,10 +1330,10 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "전화를 하고 있습니다.",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "청소를 하고 있습니다.",
+        "운동을 하고 있습니다."
       ],
       "answer": 1,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
@@ -1317,12 +1350,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "아침",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "요리를 하고 있습니다.",
+        "버스를 타고 있습니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
     },
     {
@@ -1337,12 +1370,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "피아노를 치고 있습니다.",
+        "월",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "친구를 만나고 있습니다."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1357,14 +1390,47 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 날짜와 요일에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "주문",
+      "romanization": "jumun",
+      "bn": "অর্ডার",
+      "en": "order",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 주문을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে অর্ডার বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check order."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 5
+    },
+    {
+      "ko": "잔돈",
+      "romanization": "jandon",
+      "bn": "খুচরা টাকা",
+      "en": "change",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 잔돈을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে খুচরা টাকা বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check change."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 5
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

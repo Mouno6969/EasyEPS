@@ -593,25 +593,113 @@
           "speaker": "라힘",
           "ko": "안녕하세요?",
           "bn": "নমস্কার/আসসালামু আলাইকুম?",
-          "en": "Hello?"
+          "en": "Hello?",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-01-line-01-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus",
+            "speakerRole": "male",
+            "durationMs": 1080,
+            "contentHash": "aa1f4951e0dfaaf1355d71f18c0f8d41c6d0206dd571fa5d14215a8ab89d1726",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-01-line-01-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+            "speakerRole": "male",
+            "durationMs": 4600,
+            "contentHash": "287abb6a0851bd5c75d4c1ea23f2afe15536b18c40bc200cddb1b76eca4da01f",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         },
         {
           "speaker": "민수",
           "ko": "안녕하세요? 저는 민수입니다.",
           "bn": "নমস্কার/আসসালামু আলাইকুম? আমি মিনসু।",
-          "en": "Hello? I am Minsu."
+          "en": "Hello? I am Minsu.",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-01-line-02-minsu.wav",
+            "voiceId": "ko-generated-female-erinome",
+            "speakerRole": "female",
+            "durationMs": 3000,
+            "contentHash": "828b0b164e6d68d711846d4646050a2927db4bd8e2b854b7a10c711584a71b44",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-01-line-02-minsu.wav",
+            "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+            "speakerRole": "female",
+            "durationMs": 6280,
+            "contentHash": "64249cdd884b2a14bde116c08f7256d6e0607a9787983a8ba09d36aad121c71e",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         },
         {
           "speaker": "라힘",
           "ko": "만나서 반갑습니다. 저는 라힘입니다.",
           "bn": "আপনার সাথে দেখা হয়ে ভালো লাগলো। আমি রহিম।",
-          "en": "Nice to meet you. I am Rahim."
+          "en": "Nice to meet you. I am Rahim.",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-01-line-03-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus",
+            "speakerRole": "male",
+            "durationMs": 3320,
+            "contentHash": "4b6b67f9c268e7f9d4f6ce52aff132a1adbcdf86e34ae964844276ec3fbac4ea",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-01-line-03-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+            "speakerRole": "male",
+            "durationMs": 9080,
+            "contentHash": "03d51762dd6b138cf00680664b82ffb13e47eacaa396feeb0696e147315af975",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         },
         {
           "speaker": "민수",
           "ko": "네, 반갑습니다.",
           "bn": "হ্যাঁ, আমারও ভালো লাগলো।",
-          "en": "Yes, nice to meet you too."
+          "en": "Yes, nice to meet you too.",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-01-line-04-minsu.wav",
+            "voiceId": "ko-generated-female-erinome",
+            "speakerRole": "female",
+            "durationMs": 1840,
+            "contentHash": "63cbd3e709d7c71fd1355e473ab09bb5d08a67bc71bd0b4772d353557b0651ad",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-01-line-04-minsu.wav",
+            "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+            "speakerRole": "female",
+            "durationMs": 3880,
+            "contentHash": "ad0ed3edbb27759d2b202f85cb78a41dfd1662e53bad066e62abb4e67081ae77",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         }
       ]
     },
@@ -623,25 +711,113 @@
           "speaker": "수잔",
           "ko": "어느 나라 사람입니까?",
           "bn": "আপনি কোন দেশের মানুষ?",
-          "en": "Which country are you from?"
+          "en": "Which country are you from?",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-02-line-01-susan.wav",
+            "voiceId": "ko-generated-female-erinome",
+            "speakerRole": "female",
+            "durationMs": 2120,
+            "contentHash": "7b7b8b75f4094cbf9ef0cd3f2b9f36610d945d16c08c79e3ca6e8bc88a969f55",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-02-line-01-susan.wav",
+            "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+            "speakerRole": "female",
+            "durationMs": 5480,
+            "contentHash": "de856bb9d6d040501f934f3ed48203563d99b768e2fe6db6a2aee4714d5d8f59",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         },
         {
           "speaker": "라힘",
           "ko": "방글라데시 사람입니다.",
           "bn": "আমি বাংলাদেশি।",
-          "en": "I am Bangladeshi."
+          "en": "I am Bangladeshi.",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-02-line-02-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus",
+            "speakerRole": "male",
+            "durationMs": 1840,
+            "contentHash": "5e117682abc119e901b4daa8514b04721ece96e975ae3d1263b5eaa72e9a69e6",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-02-line-02-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+            "speakerRole": "male",
+            "durationMs": 5880,
+            "contentHash": "6ade4a19154924e02e10530ef0b20ba3fdba79f5e2bfa54529ef9de74c0dc456",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         },
         {
           "speaker": "수잔",
           "ko": "학생입니까?",
           "bn": "আপনি কি ছাত্র?",
-          "en": "Are you a student?"
+          "en": "Are you a student?",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-02-line-03-susan.wav",
+            "voiceId": "ko-generated-female-erinome",
+            "speakerRole": "female",
+            "durationMs": 1600,
+            "contentHash": "a9fd53df9c89f6a80511af3bf39791d53ee70f63d0094a0a27163a006c178aff",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-02-line-03-susan.wav",
+            "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+            "speakerRole": "female",
+            "durationMs": 3280,
+            "contentHash": "263052d7e371a1f263ad1cf3c49fdc6500acab07cea270fe4b9fb9d19f4e08a9",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         },
         {
           "speaker": "라힘",
           "ko": "아니요, 회사원입니다.",
           "bn": "না, আমি চাকরিজীবী।",
-          "en": "No, I am an office worker."
+          "en": "No, I am an office worker.",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-02-line-04-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus",
+            "speakerRole": "male",
+            "durationMs": 1880,
+            "contentHash": "00599170747c63f4993568da2dfd71bdd95ff774f2617f9333383a9fe02e3236",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-02-line-04-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+            "speakerRole": "male",
+            "durationMs": 4440,
+            "contentHash": "fa4777f20e61252aa7eacf9376f9e68b0217d4822ffcf80f1b4add514d19657b",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         }
       ]
     },
@@ -653,25 +829,113 @@
           "speaker": "투안",
           "ko": "라힘 씨는 농부입니까?",
           "bn": "রহিম সাহেব কি কৃষক?",
-          "en": "Is Mr. Rahim a farmer?"
+          "en": "Is Mr. Rahim a farmer?",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-03-line-01-tuan.wav",
+            "voiceId": "ko-generated-female-erinome",
+            "speakerRole": "female",
+            "durationMs": 2600,
+            "contentHash": "9cfa2d84bcb108af8cf83027a9a1829226187f3970bdedcbd7c5093ec0b4f024",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-03-line-01-tuan.wav",
+            "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+            "speakerRole": "female",
+            "durationMs": 5040,
+            "contentHash": "af619a7ea3c4a2451e65a72b60833eb52ddccf2b58b88699084d97d2122f340b",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         },
         {
           "speaker": "라힘",
           "ko": "아니요, 농부가 아닙니다. 저는 목수입니다.",
           "bn": "না, কৃষক নই। আমি কাঠমিস্ত্রি।",
-          "en": "No, I am not a farmer. I am a carpenter."
+          "en": "No, I am not a farmer. I am a carpenter.",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-03-line-02-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus",
+            "speakerRole": "male",
+            "durationMs": 4080,
+            "contentHash": "c0fe5f08dda27fe753c9fcab8abd1b51be26d62f43c2e8c622d54b263a8b3209",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-03-line-02-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+            "speakerRole": "male",
+            "durationMs": 9440,
+            "contentHash": "6a9557d9fd78f7c3686a537d823ff8c21f1fd8e23c6f80615cabfb9ccc5901bd",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         },
         {
           "speaker": "투안",
           "ko": "아, 그렇습니까? 저는 기술자입니다.",
           "bn": "আহ, তাই নাকি? আমি টেকনিশিয়ান।",
-          "en": "Ah, is that so? I am a technician."
+          "en": "Ah, is that so? I am a technician.",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-03-line-03-tuan.wav",
+            "voiceId": "ko-generated-female-erinome",
+            "speakerRole": "female",
+            "durationMs": 3880,
+            "contentHash": "d8832c0ae46966386c3fedba16962dc88d27b8864c1d7131ff08c4157527b57f",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-03-line-03-tuan.wav",
+            "voiceId": "ko-generated-female-erinome-slow-pronunciation",
+            "speakerRole": "female",
+            "durationMs": 7280,
+            "contentHash": "ca458ea804fa6ea8ffebf6c13aea49dcbf6aa48a99fdb796a56b1fb5f7852510",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         },
         {
           "speaker": "라힘",
           "ko": "네, 반갑습니다.",
           "bn": "হ্যাঁ, আপনার সাথে দেখা হয়ে ভালো লাগলো।",
-          "en": "Yes, nice to meet you."
+          "en": "Yes, nice to meet you.",
+          "audio": {
+            "src": "/audio/generated/lesson-01-dialogue-03-line-04-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus",
+            "speakerRole": "male",
+            "durationMs": 1800,
+            "contentHash": "58088a828dae4984e6fb191f3dbb87c632d15425a2d1ff3cd3b5417fcd612a26",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-sample"
+          },
+          "pronunciationAudio": {
+            "src": "/audio/generated/pronunciation-slow/lesson-01-dialogue-03-line-04-rahim.wav",
+            "voiceId": "ko-generated-male-iapetus-slow-pronunciation",
+            "speakerRole": "male",
+            "durationMs": 3680,
+            "contentHash": "3cf900f7e32ddfc925e436401ad8e7f18d058d83606615077281a4b25570fd93",
+            "license": "generated",
+            "attribution": "AI-generated EasyEPS pronunciation reference; deliberately slow Korean beginner delivery; not human-recorded or independently transcript-reviewed",
+            "reviewStatus": "generated",
+            "audioVersion": "audio-v1-generated-slow-pronunciation"
+          }
         }
       ]
     }
@@ -1157,12 +1421,12 @@
         "kind": "illustration"
       },
       "options": [
+        "책입니다.",
+        "컵입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "지갑입니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1177,12 +1441,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
         "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "휴대전화입니다.",
+        "열쇠입니다.",
+        "컵입니다."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "ছবিতে একজোড়া কাঁচি (가위) আঁকা আছে।"
     },
     {
@@ -1197,12 +1461,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
+        "우산입니다.",
         "안경입니다.",
-        "가방입니다."
+        "시계입니다.",
+        "휴대전화입니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1217,9 +1481,9 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
+        "지갑입니다.",
+        "컵입니다.",
+        "책입니다.",
         "가방입니다."
       ],
       "answer": 3,
@@ -1237,12 +1501,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "굴착기입니다.",
+        "경운기입니다.",
+        "버스입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1257,12 +1521,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "경운기입니다.",
+        "의사입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "버스입니다."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1277,12 +1541,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "피아노를 치고 있습니다.",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "책을 읽고 있습니다.",
+        "전화를 하고 있습니다."
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
     },
     {
@@ -1297,12 +1561,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "전화를 하고 있습니다.",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "피아노를 치고 있습니다.",
+        "밥을 먹고 있습니다."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
     },
     {
@@ -1317,12 +1581,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "버스를 타고 있습니다.",
+        "운동을 하고 있습니다.",
+        "요리를 하고 있습니다.",
+        "친구를 만나고 있습니다."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
     },
     {
@@ -1337,12 +1601,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "일을 하고 있습니다.",
+        "사진을 찍고 있습니다.",
+        "피아노를 치고 있습니다.",
+        "책을 읽고 있습니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1357,14 +1621,47 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 자기소개에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "방문",
+      "romanization": "bangmun",
+      "bn": "পরিদর্শন",
+      "en": "visit",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 방문을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে পরিদর্শন বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check visit."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 1
+    },
+    {
+      "ko": "초대",
+      "romanization": "chodae",
+      "bn": "আমন্ত্রণ",
+      "en": "invitation",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 초대를 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে আমন্ত্রণ বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check invitation."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 1
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

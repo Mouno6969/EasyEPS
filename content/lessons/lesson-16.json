@@ -577,7 +577,18 @@
           "bn": "ঠিক এমন একটি ভালো রুম আছে। একসাথে দেখতে যাব কি?",
           "en": "I happen to have a good room. Shall we go see it together?"
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-16-dialogue-01.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 21040,
+        "contentHash": "db7797d3148f32500da7d7396984e620898fe7097b82bcc40b2c466285f3915b",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "রুম দেখা এবং চুক্তি করা",
@@ -619,7 +630,18 @@
           "bn": "তাহলে রিয়েল এস্টেট এজেন্সিতে গিয়ে চুক্তিপত্র লিখলেই হবে।",
           "en": "Then we can go to the real estate agency and write the contract."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-16-dialogue-02.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 20120,
+        "contentHash": "6e84b77c51f5d9ddd474f389e458907565dbf671e5a0c911eec62ebcb2992223",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "বাসা বদলের প্রস্তুতি",
@@ -661,7 +683,18 @@
           "bn": "তাহলে শনিবার সকালে যাব।",
           "en": "Then I will go on Saturday morning."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-16-dialogue-03.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 17440,
+        "contentHash": "60025a8fc77d95b319cf07a9cc7df68880301c62359b7fd0aec8e549c5121f52",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     }
   ],
   "practice": [
@@ -1138,12 +1171,12 @@
         "kind": "illustration"
       },
       "options": [
+        "깨끗하다입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "지갑입니다.",
+        "신발입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1158,12 +1191,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
+        "우산입니다.",
+        "가방입니다.",
         "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "시계입니다."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে একজোড়া কাঁচি (가위) আঁকা আছে।"
     },
     {
@@ -1178,12 +1211,12 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
+        "화장실입니다.",
         "안경입니다.",
-        "가방입니다."
+        "시계입니다.",
+        "휴대전화입니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে একজোড়া চশমা (안경) আঁকা আছে।"
     },
     {
@@ -1198,9 +1231,9 @@
         "kind": "illustration"
       },
       "options": [
-        "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
+        "시끄럽다입니다.",
+        "휴대전화입니다.",
+        "열쇠입니다.",
         "가방입니다."
       ],
       "answer": 3,
@@ -1218,12 +1251,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "자동차입니다.",
+        "기차입니다.",
+        "배입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1238,12 +1271,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
+        "전세입니다.",
+        "경운기입니다.",
         "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "트랙터입니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1258,12 +1291,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "이삿짐",
         "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "피아노를 치고 있습니다.",
+        "책을 읽고 있습니다."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "ছবিতে মানুষটি বই খুলে পড়ছে (책을 읽고 있습니다)।"
     },
     {
@@ -1278,10 +1311,10 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
+        "멀다",
         "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "사진을 찍고 있습니다.",
+        "일을 하고 있습니다."
       ],
       "answer": 1,
       "explanationBn": "ছবিতে মানুষটি খাবার খাচ্ছে (밥을 먹고 있습니다)।"
@@ -1298,12 +1331,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
+        "거실",
         "친구를 만나고 있습니다.",
+        "밥을 먹고 있습니다.",
         "피아노를 치고 있습니다."
       ],
-      "answer": 2,
+      "answer": 1,
       "explanationBn": "ছবিতে দুজন মানুষ করমর্দন করে দেখা করছে (친구를 만나고 있습니다)।"
     },
     {
@@ -1318,12 +1351,12 @@
         "kind": "illustration"
       },
       "options": [
-        "책을 읽고 있습니다.",
-        "밥을 먹고 있습니다.",
-        "친구를 만나고 있습니다.",
-        "피아노를 치고 있습니다."
+        "화장실",
+        "피아노를 치고 있습니다.",
+        "청소를 하고 있습니다.",
+        "운동을 하고 있습니다."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanationBn": "ছবিতে মানুষটি পিয়ানো বাজাচ্ছে (피아노를 치고 있습니다)।"
     },
     {
@@ -1338,14 +1371,47 @@
         "kind": "illustration"
       },
       "options": [
-        "부천시입니다.",
-        "김미소입니다.",
-        "튼튼치과입니다.",
+        "오후 네 시입니다.",
+        "오후 두 시입니다.",
+        "오후 세 시입니다.",
         "오전 아홉 시입니다."
       ],
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
-      "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+      "passage": "남자: 집 구하기에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "분리수거",
+      "romanization": "bunrisugeo",
+      "bn": "বর্জ্য আলাদা করা",
+      "en": "waste sorting",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 분리수거를 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে বর্জ্য আলাদা করা বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check waste sorting."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 16
+    },
+    {
+      "ko": "수도요금",
+      "romanization": "sudoyogeum",
+      "bn": "পানির বিল",
+      "en": "water bill",
+      "pos": "noun",
+      "example": {
+        "ko": "필요하면 수도요금을 예약하거나 확인하세요.",
+        "bn": "প্রয়োজন হলে পানির বিল বুক করুন বা পরীক্ষা করুন।",
+        "en": "If necessary, reserve or check water bill."
+      },
+      "pronunciationTipBn": "দৈনন্দিন কথোপকথনে শব্দটি ব্যবহার করে বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 16
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

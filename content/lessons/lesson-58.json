@@ -580,7 +580,18 @@
           "bn": "ধন্যবাদ। আমি এখনই ইমেইল পাঠাচ্ছি।",
           "en": "Thank you. I'll send the email now."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-58-dialogue-01.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 16840,
+        "contentHash": "abfa9ba019c47f20393411631ae03123b4e570f7c696dfadbde1a4b3a41b2af3",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "야근 관련 대화",
@@ -616,7 +627,18 @@
           "bn": "ঠিক আছে। আমাকে জানাবেন।",
           "en": "Okay. Please let me know."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-58-dialogue-02.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 16720,
+        "contentHash": "47d1ca9b2429ecaecd70b2607266c17885537ad7c544c1b3d27f7371a043f96b",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "연차휴가 신청 (বার্ষিক ছুটির আবেদন)",
@@ -652,7 +674,18 @@
           "bn": "হ্যাঁ, বুঝতে পেরেছি। ধন্যবাদ।",
           "en": "Yes, I understand. Thank you."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-58-dialogue-03.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 15600,
+        "contentHash": "6ff59ed67d8389f1f1f429780a15f26bf81f71c413a32ece067556a9f9e25927",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     }
   ],
   "practice": [
@@ -1250,10 +1283,10 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
+        "산재보험",
         "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "전기가 흐르니까 조심하세요.",
+        "떨어질 수 있으니까 조심하세요."
       ],
       "answer": 1,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
@@ -1270,12 +1303,12 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
+        "휴게시간",
+        "안전벨트",
         "작업복",
-        "비빔밥",
-        "기차표"
+        "앞치마"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে।"
     },
     {
@@ -1290,14 +1323,47 @@
         "kind": "illustration"
       },
       "options": [
-        "아침 일곱 시",
-        "오전 아홉 시",
-        "오후 두 시",
-        "밤 열 시"
+        "오전 열 시입니다.",
+        "오전 아홉 시입니다.",
+        "오전 열한 시입니다.",
+        "오후 한 시입니다."
       ],
       "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে সকাল ৯টা থেকে কাজ শুরু, ছবিতেও ঘড়ি ৯টা দেখাচ্ছে।",
-      "passage": "남: 공장 일하는 시간은 몇 시부터예요? / 여: 오전 아홉 시부터예요."
+      "passage": "남자: 근로기준법에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "임금체불",
+      "romanization": "imgeum chebul",
+      "bn": "বেতন বকেয়া",
+      "en": "unpaid wages",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 임금체불을 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে বেতন বকেয়া সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about unpaid wages."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 58
+    },
+    {
+      "ko": "근로복지",
+      "romanization": "geunro bokji",
+      "bn": "শ্রমিক কল্যাণ",
+      "en": "worker welfare",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 근로복지를 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে শ্রমিক কল্যাণ সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about worker welfare."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 58
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

@@ -582,7 +582,18 @@
           "bn": "ভালো। যদি কোনো ঝুঁকি দেখেন তাত্ক্ষণিক রিপোর্ট করবেন।",
           "en": "Good. Report any hazard right away."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-55-dialogue-01.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 17920,
+        "contentHash": "aa0442cb6741c0cabc551ddd0351eb7a74ab32b5743c441bf38606d1054b0d77",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "비상 상황 보고",
@@ -618,7 +629,18 @@
           "bn": "বুঝেছি। সবাই নিরাপদে বেরিয়ে যান।",
           "en": "Understood. Everyone evacuate safely."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-55-dialogue-02.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 17840,
+        "contentHash": "522545514844dd7c2cb5f8a79b21efb8b873ce41885f0b240220ea9c0c4d36ac",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "안전수칙 교육 (নিরাপত্তা নিয়ম প্রশিক্ষণ)",
@@ -648,7 +670,18 @@
           "bn": "হ্যাঁ, কাজ করার আগে সব প্রতিরক্ষামূলক সরঞ্জাম চেক করে নেব।",
           "en": "Yes, I will check all protective gear before working."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-55-dialogue-03.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 18720,
+        "contentHash": "6af839c8a3ba91532ea36356f5c9220939f86ff3214cff889251f88d563c1f84",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     }
   ],
   "practice": [
@@ -1172,12 +1205,12 @@
         "kind": "illustration"
       },
       "options": [
+        "보호장구입니다.",
         "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "배입니다.",
+        "굴착기입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে মাল তোলার যন্ত্র ফর্কলিফট (지게차) আঁকা আছে।"
     },
     {
@@ -1192,12 +1225,12 @@
         "kind": "illustration"
       },
       "options": [
+        "추락입니다.",
         "지게차입니다.",
         "굴착기입니다.",
-        "트랙터입니다.",
         "경운기입니다."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে মাটি খননকারী যন্ত্র এক্সকেভেটার (굴착기) আঁকা আছে।"
     },
     {
@@ -1212,12 +1245,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "전기가 흐르니까 조심하세요.",
-        "떨어질 수 있으니까 조심하세요.",
         "바닥이 미끄러우니까 조심하세요.",
-        "불이 붙을 수 있으니까 조심하세요."
+        "보호 장갑을 착용하세요.",
+        "귀마개를 착용하세요.",
+        "물이 있을 수 있으니까 조심하세요."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "চিহ্নটি পিচ্ছল মেঝের সতর্কতা বোঝায়, তাই 'মেঝে পিচ্ছল, সাবধান' (바닥이 미끄러우니까 조심하세요) সঠিক।"
     },
     {
@@ -1232,12 +1265,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "전기가 흐르니까 조심하세요.",
-        "떨어질 수 있으니까 조심하세요.",
-        "바닥이 미끄러우니까 조심하세요.",
-        "불이 붙을 수 있으니까 조심하세요."
+        "물이 있을 수 있으니까 조심하세요.",
+        "보호 장갑을 착용하세요.",
+        "귀마개를 착용하세요.",
+        "전기가 흐르니까 조심하세요."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "চিহ্নটিতে বিদ্যুতের চিহ্ন আছে, তাই 'বিদ্যুৎ প্রবাহিত হচ্ছে, সাবধান' (전기가 흐르니까 조심하세요) সঠিক।"
     },
     {
@@ -1252,12 +1285,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "전기가 흐르니까 조심하세요.",
+        "물이 있을 수 있으니까 조심하세요.",
+        "귀마개를 착용하세요.",
         "떨어질 수 있으니까 조심하세요.",
-        "바닥이 미끄러우니까 조심하세요.",
-        "불이 붙을 수 있으니까 조심하세요."
+        "이 길로 통행하면 안 됩니다."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "চিহ্নটিতে মানুষ পড়ে যাওয়ার ছবি আছে, তাই 'পড়ে যেতে পারে, সাবধান' (떨어질 수 있으니까 조심하세요) সঠিক।"
     },
     {
@@ -1272,7 +1305,7 @@
         "kind": "safety-sign"
       },
       "options": [
-        "전기가 흐르니까 조심하세요.",
+        "비상구",
         "떨어질 수 있으니까 조심하세요.",
         "바닥이 미끄러우니까 조심하세요.",
         "불이 붙을 수 있으니까 조심하세요."
@@ -1292,10 +1325,10 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
+        "비상구",
         "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "떨어질 수 있으니까 조심하세요.",
+        "바닥이 미끄러우니까 조심하세요."
       ],
       "answer": 1,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
@@ -1312,12 +1345,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
+        "방진마스크",
+        "사다리",
         "펜치",
-        "쇠톱",
-        "망치"
+        "쇠톱"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে প্লায়ার্স (펜치) আঁকা আছে — এটি তার কাটা ও বাঁকানোর কাজে লাগে।"
     },
     {
@@ -1332,12 +1365,12 @@
         "kind": "illustration"
       },
       "options": [
+        "안전벨트",
+        "방진 마스크",
         "반사 조끼",
-        "작업복",
-        "보호 장갑",
-        "안전모"
+        "우비"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanationBn": "ছবিতে রিফ্লেকটিভ সেফটি ভেস্ট (반사 조끼) আঁকা আছে — অদ্ধকারে দূর থেকে দেখা যায় বলে এটি পরতে হয়।"
     },
     {
@@ -1352,13 +1385,46 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
+        "추락",
+        "안전화",
         "작업복",
-        "비빔밥",
-        "기차표"
+        "보호 안경"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "안전난간",
+      "romanization": "anjeonnangan",
+      "bn": "নিরাপত্তা রেলিং",
+      "en": "safety railing",
+      "pos": "noun",
+      "example": {
+        "ko": "안전난간을 확인한 뒤 작업을 시작하세요.",
+        "bn": "নিরাপত্তা রেলিং পরীক্ষা করার পর কাজ শুরু করুন।",
+        "en": "Check the safety railing before starting work."
+      },
+      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য Korean বাক্যটি ধীরে পড়ুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 55
+    },
+    {
+      "ko": "미끄럼방지",
+      "romanization": "mikkeureombangji",
+      "bn": "পিছলে যাওয়া রোধ",
+      "en": "slip prevention",
+      "pos": "noun",
+      "example": {
+        "ko": "미끄럼방지를 확인한 뒤 작업을 시작하세요.",
+        "bn": "পিছলে যাওয়া রোধ পরীক্ষা করার পর কাজ শুরু করুন।",
+        "en": "Check the slip prevention before starting work."
+      },
+      "pronunciationTipBn": "সঠিক উচ্চারণের জন্য Korean বাক্যটি ধীরে পড়ুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 55
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

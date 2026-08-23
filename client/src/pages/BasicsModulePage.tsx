@@ -10,8 +10,10 @@ import {
   setLocalBasicsCheckpointPass,
   useLocalBasics,
 } from "@/lib/localProgress";
-import { speakKorean } from "@/lib/speakKorean";
+import { playAudioOrTts } from "@/lib/audioPlayback";
+import { KOREAN_SPEECH_RATES, speakKorean, type KoreanSpeechRate } from "@/lib/speakKorean";
 import { trpc } from "@/lib/trpc";
+import type { AudioClipRef } from "@shared/audio";
 import {
   BASICS_MODULE_IDS,
   emptyModuleProgress,
@@ -83,6 +85,7 @@ export default function BasicsModulePage() {
   const module = moduleQuery.data;
   const [stepIndex, setStepIndex] = useState(0);
   const [listenCounts, setListenCounts] = useState<Record<string, number>>({});
+  const [basicRate, setBasicRate] = useState<KoreanSpeechRate>(KOREAN_SPEECH_RATES.slow);
   const celebratedRef = useRef<string | null>(null);
 
   useEffect(() => {
@@ -255,6 +258,8 @@ export default function BasicsModulePage() {
             locale={locale}
             listenCounts={listenCounts}
             setListenCounts={setListenCounts}
+            basicRate={basicRate}
+            onRateChange={setBasicRate}
             markStepDone={markStepDone}
             persist={persist}
             isAuthenticated={isAuthenticated}
@@ -319,6 +324,13 @@ export default function BasicsModulePage() {
   );
 }
 
+function BasicsRateToggle({ rate, onChange }: { rate: KoreanSpeechRate; onChange: (rate: KoreanSpeechRate) => void }) {
+  return <span className="inline-flex overflow-hidden rounded-full border border-[var(--navy)]/12 bg-white p-0.5 text-xs font-bold">
+    <button type="button" onClick={() => onChange(KOREAN_SPEECH_RATES.slow)} aria-pressed={rate === KOREAN_SPEECH_RATES.slow} className={`rounded-full px-2.5 py-1.5 ${rate === KOREAN_SPEECH_RATES.slow ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}>ধীর 0.6×</button>
+    <button type="button" onClick={() => onChange(KOREAN_SPEECH_RATES.normal)} aria-pressed={rate === KOREAN_SPEECH_RATES.normal} className={`rounded-full px-2.5 py-1.5 ${rate === KOREAN_SPEECH_RATES.normal ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}>সাধারণ 1×</button>
+  </span>;
+}
+
 function stepLabel(step: BasicsStep, locale: "bn" | "ko" | "en"): string {
   const map: Record<BasicsStep["type"], { bn: string; ko: string; en: string }> = {
     explain: { bn: "ব্যাখ্যা", ko: "설명", en: "Explain" },
@@ -344,6 +356,8 @@ function StepRenderer({
   isAuthenticated,
   submitCheckpoint,
   onCheckpointResult,
+  basicRate,
+  onRateChange,
 }: {
   module: BasicsModule;
   step: BasicsStep;
@@ -375,7 +389,10 @@ function StepRenderer({
     total: number;
     passed: boolean;
   }) => void | Promise<void>;
+  basicRate: KoreanSpeechRate;
+  onRateChange: (rate: KoreanSpeechRate) => void;
 }) {
+
   if (step.type === "explain") {
     const body = step.body[locale] ?? step.body.bn;
     const title = step.title?.[locale] ?? step.title?.bn;
@@ -417,9 +434,9 @@ function StepRenderer({
     return (
       <section className="paper-card p-6 md:p-8">
         <p className="eyebrow">Jamo chart</p>
-        <h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">
+        <div className="flex flex-wrap items-end justify-between gap-3"><div><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">
           {locale === "en" ? "Letters" : locale === "ko" ? "자모" : "অক্ষর"}
-        </h2>
+        </h2><p className="mt-2 text-sm font-semibold text-[var(--navy)]/50">AI pronunciation reference · ধীরে শুনে অক্ষর বলুন</p></div><BasicsRateToggle rate={basicRate} onChange={onRateChange} /></div>
         <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {step.items.map(item => (
             <div
@@ -447,7 +464,7 @@ function StepRenderer({
               </div>
               <button
                 type="button"
-                onClick={() => void speakKorean(item.char, { audioText: item.audioText, rate: 0.75 })}
+                onClick={() => void playAudioOrTts({ text: item.char, audio: item.audio, options: { rate: basicRate } })}
                 className="grid size-10 place-items-center rounded-full bg-[var(--gold)]/14 text-[var(--gold-dark)]"
                 aria-label="Play"
               >
@@ -476,9 +493,9 @@ function StepRenderer({
     return (
       <section className="paper-card p-6 md:p-8">
         <p className="eyebrow">Speak lab</p>
-        <h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">
+        <div className="flex flex-wrap items-end justify-between gap-3"><div><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">
           {locale === "en" ? "Listen & repeat" : "শুনুন ও বলুন"}
-        </h2>
+        </h2><p className="mt-2 text-sm font-semibold text-[var(--navy)]/50">AI pronunciation reference · আগে ধীরে শুনুন, তারপর বলুন</p></div><BasicsRateToggle rate={basicRate} onChange={onRateChange} /></div>
         <p className="mt-3 rounded-2xl border border-[var(--gold)]/25 bg-[var(--gold)]/10 px-4 py-3 text-sm font-semibold leading-6 text-[var(--navy)]/80">
           জোরে বলুন · অন্তত {minListens} বার শুনুন
         </p>
@@ -505,10 +522,7 @@ function StepRenderer({
                 <button
                   type="button"
                   onClick={() => {
-                    void speakKorean(item.text, {
-                      audioText: item.audioText || undefined,
-                      rate: 0.8,
-                    });
+                    void playAudioOrTts({ text: item.text, audio: item.audio, options: { rate: basicRate } });
                     setListenCounts(prev => {
                       const nextCount = (prev[item.id] ?? 0) + 1;
                       const next = { ...prev, [item.id]: nextCount };
@@ -608,12 +622,14 @@ function StepRenderer({
           const readItemsDone = uniqStrings([...(progress.readItemsDone ?? []), id]);
           persist({ readItemsDone, lastStepId: step.id });
         }}
-        onMarkStep={() => markStepDone(step.id)}
+                onMarkStep={() => markStepDone(step.id)}
+        basicRate={basicRate}
+        onRateChange={onRateChange}
       />
     );
   }
-
   if (step.type === "quiz") {
+
     const drawCount =
       step.drawCount ?? (module.id === "checkpoint" ? 25 : undefined);
     return (
@@ -627,6 +643,7 @@ function StepRenderer({
         isCheckpoint={module.id === "checkpoint"}
         isAuthenticated={isAuthenticated}
         submitCheckpoint={submitCheckpoint}
+        basicRate={basicRate}
         onLocalScored={(score, total) => {
           persist(
             {
@@ -658,6 +675,7 @@ function BasicsQuizRunner({
   submitCheckpoint,
   onLocalScored,
   onCheckpointResult,
+  basicRate,
 }: {
   module: BasicsModule;
   stepId: string;
@@ -674,6 +692,7 @@ function BasicsQuizRunner({
     total: number;
     passed: boolean;
   }) => void | Promise<void>;
+  basicRate: KoreanSpeechRate;
 }) {
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [matching, setMatching] = useState<Record<string, Record<string, string>>>({});
@@ -885,7 +904,7 @@ function BasicsQuizRunner({
                   {q.kind === "listen-choice" && q.listenText && (
                     <button
                       type="button"
-                      onClick={() => void speakKorean(q.listenText!)}
+                      onClick={() => void playAudioOrTts({ text: q.listenText!, audio: q.audio, options: { rate: basicRate } })}
                       className="mt-3 inline-flex items-center gap-2 rounded-full bg-[var(--gold)]/15 px-4 py-2 text-sm font-bold text-[var(--gold-dark)]"
                     >
                       <Headphones className="size-4" /> Listen
@@ -1008,6 +1027,8 @@ function ReadWordPractice({
   doneIds,
   onItemCorrect,
   onMarkStep,
+  basicRate,
+  onRateChange,
 }: {
   stepId: string;
   items: Array<{
@@ -1018,11 +1039,14 @@ function ReadWordPractice({
     bn: string;
     en: string;
     distractorsBn: string[];
+    audio?: AudioClipRef;
   }>;
   locale: "bn" | "ko" | "en";
   doneIds: string[];
   onItemCorrect: (id: string) => void;
   onMarkStep: () => void;
+  basicRate: KoreanSpeechRate;
+  onRateChange: (rate: KoreanSpeechRate) => void;
 }) {
   const [index, setIndex] = useState(0);
   const [picked, setPicked] = useState<string | null>(null);
@@ -1058,9 +1082,9 @@ function ReadWordPractice({
     <section className="paper-card overflow-hidden">
       <div className="border-b border-[var(--navy)]/8 p-6 md:p-8">
         <p className="eyebrow">Reading lab · পুরো শব্দ পড়ুন</p>
-        <h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">
+        <div className="flex flex-wrap items-end justify-between gap-3"><div><h2 className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">
           {locale === "en" ? "Read the whole word" : "পুরো শব্দ পড়ে অর্থ বলুন"}
-        </h2>
+        </h2><p className="mt-2 text-sm font-semibold text-[var(--navy)]/50">AI pronunciation reference · ধীরে শুনে পুরো শব্দ বলুন</p></div><BasicsRateToggle rate={basicRate} onChange={onRateChange} /></div>
         <p className="mt-3 max-w-2xl text-sm leading-7 text-[var(--navy)]/65">
           {locale === "en"
             ? "Do not spell letter-by-letter only — read the block as one word, then pick the meaning."
@@ -1075,7 +1099,7 @@ function ReadWordPractice({
           <p className="font-serif text-6xl font-bold tracking-tight text-[var(--navy)] md:text-7xl">{item.text}</p>
           <button
             type="button"
-            onClick={() => void speakKorean(item.text, { audioText: item.audioText || item.text, rate: 0.75 })}
+            onClick={() => void playAudioOrTts({ text: item.text, audio: item.audio, options: { rate: basicRate } })}
             className="mt-5 inline-flex items-center gap-2 rounded-full bg-[var(--gold)]/15 px-4 py-2 text-sm font-bold text-[var(--gold-dark)]"
           >
             <Volume2 className="size-4" /> শুনুন (পরে)

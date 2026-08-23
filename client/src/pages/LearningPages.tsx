@@ -7,6 +7,7 @@ import { useLocale } from "@/contexts/LocaleContext";
 import { buildDailyPlan } from "@/lib/dailyPlan";
 import {
   addPlannerItem,
+  downloadLearningExport,
   learningOverview,
   removePlannerItem,
   savePlannerSettings,
@@ -25,6 +26,7 @@ import { buildReadinessReport } from "@/lib/readiness";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { isBasicsComplete } from "@shared/basics";
+import { summarizeItemEvidence } from "@shared/learning";
 import {
   BarChart3,
   BookCheck,
@@ -33,6 +35,7 @@ import {
   Check,
   ChevronRight,
   Clock3,
+  Download,
   Flame,
   GraduationCap,
   Loader2,
@@ -131,7 +134,7 @@ export function CurriculumPage() {
             return <Link key={lesson.chapter} href={`/lesson/${lesson.chapter}`} className="lesson-card group">
               <div className="flex items-start justify-between gap-4"><span className="chapter-number">{String(lesson.chapter).padStart(2, "0")}</span>{progress?.completed ? <span className="status-done"><Check className="size-3.5" />সম্পন্ন</span> : <span className="status-open">শুরু করুন</span>}</div>
               <div className="mt-6"><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider" style={{ color: info.color }}><span className="size-2 rounded-full" style={{ background: info.color }} />{locale === "ko" ? info.ko : locale === "en" ? info.en : info.bn}</div><h2 className="mt-3 font-serif text-2xl font-bold leading-tight text-[var(--navy)]">{localTitle(lesson.title, locale)}</h2>{locale !== "ko" && <p className="mt-1 text-base font-semibold text-[var(--navy)]/45">{lesson.title.ko}</p>}</div>
-              <div className="mt-7 flex items-center justify-between border-t border-[var(--navy)]/8 pt-4 text-sm text-[var(--navy)]/55"><span>{lesson.vocabularyCount} শব্দ · {lesson.practiceCount} অনুশীলন</span><ChevronRight className="size-5 transition-transform group-hover:translate-x-1" /></div>
+              <div className="mt-7 flex items-center justify-between border-t border-[var(--navy)]/8 pt-4 text-sm text-[var(--navy)]/55"><span>{lesson.vocabularyCount} শব্দ · +{lesson.extraVocabularyCount} extra · {lesson.practiceCount} অনুশীলন</span><span className="text-[10px] uppercase tracking-wider text-[var(--navy)]/35">{lesson.contentVersion}</span><ChevronRight className="size-5 transition-transform group-hover:translate-x-1" /></div>
             </Link>;
           })}
         </div>
@@ -178,9 +181,14 @@ export function DashboardPage() {
   const nextLabel = hangulReady ? "পরবর্তী অধ্যায়" : t.startBasics;
   const dailyPlan = buildDailyPlan({ state, dueReviews: due, hangulReady, nextChapter });
   const readiness = buildReadinessReport(state, listUpcomingReviews(120));
+  const evidenceSummary = summarizeItemEvidence(state.itemEvidence);
+  const skillMetrics = ["vocabulary", "reading", "listening", "safety", "grammar"].map(skill => {
+    const items = Object.values(state.itemEvidence).filter(item => item.attempts > 0 && (item.kind === skill || item.skillTags.includes(skill)));
+    return { skill, count: items.length, accuracy: items.length ? Math.round(items.reduce((sum, item) => sum + item.correct / item.attempts, 0) / items.length * 100) : 0 };
+  });
 
   return <>
-    <PageIntro eyebrow="আপনার শেখার যাত্রা" title="অগ্রগতি এক নজরে" description="ছোট ছোট নিয়মিত পদক্ষেপই আপনাকে EPS-TOPIK লক্ষ্যের কাছে নিয়ে যাবে।" actions={<div className="flex flex-wrap gap-2"><ShareProgressCard /><Link href={nextHref}><Button className="rounded-full bg-[var(--navy)] px-6 text-white">{nextLabel} <ChevronRight className="size-4" /></Button></Link></div>} />
+    <PageIntro eyebrow="আপনার শেখার যাত্রা" title="অগ্রগতি এক নজরে" description="ছোট ছোট নিয়মিত পদক্ষেপই আপনাকে EPS-TOPIK লক্ষ্যের কাছে নিয়ে যাবে।" actions={<div className="flex flex-wrap gap-2"><Button variant="outline" className="rounded-full border-[var(--navy)]/20" onClick={downloadLearningExport}><Download className="size-4" />Export</Button><ShareProgressCard /><Link href={nextHref}><Button className="rounded-full bg-[var(--navy)] px-6 text-white">{nextLabel} <ChevronRight className="size-4" /></Button></Link></div>} />
     <div className="container py-10">
       {!hangulReady && <BasicsCtaBanner className="mb-7" />}
       <DeferredProfilePrompt complete={profileComplete} />
@@ -272,6 +280,12 @@ export function DashboardPage() {
       </div>
       <ReadinessCard report={readiness} />
 
+      <section className="paper-card mt-7 p-6 md:p-7">
+        <div className="flex flex-wrap items-end justify-between gap-3"><div><p className="eyebrow">Evidence, not just scores</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">দক্ষতার বাস্তব চিত্র</h2><p className="mt-1 text-sm leading-6 text-[var(--navy)]/55">আপনি কী জানেন, কতটা ধরে রেখেছেন এবং নতুন context-এ প্রয়োগ করতে পারছেন—এই তিনটি আলাদা করে দেখা হচ্ছে।</p></div><Link href="/daily-vocabulary" className="text-sm font-bold text-[var(--gold-dark)]">দৈনিক শব্দ খুলুন →</Link></div>
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">{[{ label: "Item accuracy", value: evidenceSummary.itemAccuracy }, { label: "Delayed retention", value: evidenceSummary.retentionAccuracy }, { label: "Transfer accuracy", value: evidenceSummary.transferAccuracy }, { label: "Listening accuracy", value: evidenceSummary.listeningAccuracy }].map(metric => <div key={metric.label} className="rounded-2xl bg-[var(--cream)] p-4"><p className="text-xs font-bold uppercase tracking-wider text-[var(--navy)]/45">{metric.label}</p><p className="mt-2 font-serif text-3xl font-bold text-[var(--navy)]">{metric.value}%</p></div>)}</div>
+        <div className="mt-6 grid gap-4 md:grid-cols-2">{skillMetrics.map(metric => <div key={metric.skill}><div className="flex items-center justify-between text-sm font-bold text-[var(--navy)]"><span className="capitalize">{metric.skill}</span><span>{metric.count ? `${metric.accuracy}% · ${metric.count} items` : "এখনও data নেই"}</span></div><div className="mt-2 h-2 overflow-hidden rounded-full bg-[var(--navy)]/8" role="progressbar" aria-label={`${metric.skill} accuracy`} aria-valuemin={0} aria-valuemax={100} aria-valuenow={metric.accuracy}><div className="h-full rounded-full bg-[var(--sage)]" style={{ width: `${metric.accuracy}%` }} /></div></div>)}</div>
+      </section>
+
       <section className="paper-card mt-7 overflow-hidden">
         <div className="border-b border-[var(--navy)]/8 p-6">
           <h2 className="font-serif text-2xl font-bold text-[var(--navy)]">সাম্প্রতিক ফলাফল</h2>
@@ -347,11 +361,12 @@ export function TutorPage() {
 export function AdminPage() {
   const { user, isAuthenticated } = useAuth();
   const stats = trpc.admin.stats.useQuery(undefined, { enabled: user?.role === "admin", retry: false });
+  const analytics = trpc.admin.analytics.useQuery(undefined, { enabled: user?.role === "admin", retry: false });
   const users = trpc.admin.users.useQuery(undefined, { enabled: user?.role === "admin", retry: false });
   const setRole = trpc.admin.setRole.useMutation({ onSuccess: () => { users.refetch(); toast.success("ভূমিকা আপডেট হয়েছে"); }, onError: error => toast.error(error.message) });
   if (!isAuthenticated) return <div className="container py-24"><AuthInvitation title="অ্যাডমিন এলাকায় সাইন ইন প্রয়োজন" description="শুধু অনুমোদিত প্রশাসক এই অংশে প্রবেশ করতে পারেন।" /></div>;
   if (user?.role !== "admin") return <div className="container py-24"><div className="paper-card mx-auto max-w-xl p-10 text-center"><ShieldCheck className="mx-auto size-10 text-red-600" /><h1 className="mt-5 font-serif text-3xl font-bold text-[var(--navy)]">প্রবেশাধিকার নেই</h1><p className="mt-3 text-[var(--navy)]/60">এই পৃষ্ঠা শুধু EasyEPS প্রশাসকের জন্য।</p></div></div>;
   return <><PageIntro eyebrow="Owner-only control center" title="EasyEPS প্রশাসন" description="পাঠ্যক্রম, শিক্ষার্থী এবং প্ল্যাটফর্মের ব্যবহার পর্যবেক্ষণ করুন।" />
-    <div className="container py-10"><div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{[{ label: "পাঠ", value: stats.data?.lessons ?? 60, icon: BookOpenText }, { label: "শিক্ষার্থী", value: stats.data?.users ?? 0, icon: UserRound }, { label: "পরীক্ষা", value: stats.data?.attempts ?? 0, icon: GraduationCap }, { label: "সম্পন্ন পাঠ", value: stats.data?.completedLessons ?? 0, icon: BookCheck }].map(({ label, value, icon: Icon }) => <div key={label} className="metric-card"><span className="metric-icon metric-gold"><Icon className="size-5" /></span><p className="mt-5 text-sm text-[var(--navy)]/50">{label}</p><p className="font-serif text-3xl font-bold text-[var(--navy)]">{value}</p></div>)}</div><section className="paper-card mt-7 overflow-hidden"><div className="border-b border-[var(--navy)]/8 p-6"><h2 className="font-serif text-2xl font-bold text-[var(--navy)]">ব্যবহারকারী ব্যবস্থাপনা</h2></div><div className="overflow-x-auto"><table className="w-full min-w-[720px] text-left text-sm"><thead className="bg-[var(--cream)] text-xs uppercase tracking-wider text-[var(--navy)]/50"><tr><th className="px-6 py-4">নাম</th><th className="px-6 py-4">ইমেইল</th><th className="px-6 py-4">শেষ সাইন ইন</th><th className="px-6 py-4">ভূমিকা</th></tr></thead><tbody className="divide-y divide-[var(--navy)]/8">{users.data?.map(account => <tr key={account.id}><td className="px-6 py-4 font-bold text-[var(--navy)]">{account.name || "Unnamed"}</td><td className="px-6 py-4 text-[var(--navy)]/60">{account.email || "—"}</td><td className="px-6 py-4 text-[var(--navy)]/60">{account.lastSignedIn ? new Date(account.lastSignedIn).toLocaleDateString() : "—"}</td><td className="px-6 py-4"><select value={account.role} onChange={event => setRole.mutate({ userId: account.id, role: event.target.value as "user" | "admin" })} className="rounded-full border bg-white px-3 py-1.5 font-semibold"><option value="user">User</option><option value="admin">Admin</option></select></td></tr>)}</tbody></table></div></section></div>
+    <div className="container py-10"><div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{[{ label: "পাঠ", value: stats.data?.lessons ?? 60, icon: BookOpenText }, { label: "শিক্ষার্থী", value: stats.data?.users ?? 0, icon: UserRound }, { label: "পরীক্ষা", value: stats.data?.attempts ?? 0, icon: GraduationCap }, { label: "সম্পন্ন পাঠ", value: stats.data?.completedLessons ?? 0, icon: BookCheck }].map(({ label, value, icon: Icon }) => <div key={label} className="metric-card"><span className="metric-icon metric-gold"><Icon className="size-5" /></span><p className="mt-5 text-sm text-[var(--navy)]/50">{label}</p><p className="font-serif text-3xl font-bold text-[var(--navy)]">{value}</p></div>)}</div><section className="paper-card mt-7 overflow-hidden"><div className="border-b border-[var(--navy)]/8 p-6"><div className="flex flex-wrap items-end justify-between gap-3"><div><p className="eyebrow">Aggregate outcomes · latest sample</p><h2 className="mt-2 font-serif text-2xl font-bold text-[var(--navy)]">মূল্যায়ন analytics</h2></div><span className="text-xs font-semibold text-[var(--navy)]/45">{analytics.data?.sampleSize ?? 0}টি attempt</span></div></div><div className="overflow-x-auto"><table className="w-full min-w-[560px] text-left text-sm"><thead className="bg-[var(--cream)] text-xs uppercase tracking-wider text-[var(--navy)]/50"><tr><th className="px-6 py-4">ধরন</th><th className="px-6 py-4">চেষ্টা</th><th className="px-6 py-4">গড় স্কোর</th><th className="px-6 py-4">গড় সময়</th></tr></thead><tbody className="divide-y divide-[var(--navy)]/8">{Object.entries(analytics.data?.byKind ?? {}).map(([kind, value]) => <tr key={kind}><td className="px-6 py-4 font-bold text-[var(--navy)]">{kind}</td><td className="px-6 py-4 text-[var(--navy)]/60">{value.attempts}</td><td className="px-6 py-4 text-[var(--navy)]/60">{value.averageScore}%</td><td className="px-6 py-4 text-[var(--navy)]/60">{Math.round(value.averageDurationSec / 60)} মিনিট</td></tr>)}</tbody></table></div></section><section className="paper-card mt-7 overflow-hidden"><div className="border-b border-[var(--navy)]/8 p-6"><h2 className="font-serif text-2xl font-bold text-[var(--navy)]">ব্যবহারকারী ব্যবস্থাপনা</h2></div><div className="overflow-x-auto"><table className="w-full min-w-[720px] text-left text-sm"><thead className="bg-[var(--cream)] text-xs uppercase tracking-wider text-[var(--navy)]/50"><tr><th className="px-6 py-4">নাম</th><th className="px-6 py-4">ইমেইল</th><th className="px-6 py-4">শেষ সাইন ইন</th><th className="px-6 py-4">ভূমিকা</th></tr></thead><tbody className="divide-y divide-[var(--navy)]/8">{users.data?.map(account => <tr key={account.id}><td className="px-6 py-4 font-bold text-[var(--navy)]">{account.name || "Unnamed"}</td><td className="px-6 py-4 text-[var(--navy)]/60">{account.email || "—"}</td><td className="px-6 py-4 text-[var(--navy)]/60">{account.lastSignedIn ? new Date(account.lastSignedIn).toLocaleDateString() : "—"}</td><td className="px-6 py-4"><select value={account.role} onChange={event => setRole.mutate({ userId: account.id, role: event.target.value as "user" | "admin" })} className="rounded-full border bg-white px-3 py-1.5 font-semibold"><option value="user">User</option><option value="admin">Admin</option></select></td></tr>)}</tbody></table></div></section></div>
   </>;
 }

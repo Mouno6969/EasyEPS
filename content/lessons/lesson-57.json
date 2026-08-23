@@ -595,7 +595,18 @@
           "bn": "সামাজিক বীমার কাগজও প্রস্তুত করে রাখবেন।",
           "en": "Please also prepare the social insurance documents."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-57-dialogue-01.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 14000,
+        "contentHash": "e0723966571c5f979c87b0ac5721e1733c8e8e3c93c5b16d58bb353f8ae68a4b",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "출입국 관리 문의",
@@ -637,7 +648,18 @@
           "bn": "সাধারণত কয়েক দিন লাগে। ফোন করব।",
           "en": "Usually it takes a few days. We'll call you."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-57-dialogue-02.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 17520,
+        "contentHash": "b3ddefbc9e4433b452e0c6f6223bf75e5abedfdb7deef099d16dd2b9a4b9be79",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "외국인등록증 신청",
@@ -679,7 +701,18 @@
           "bn": "প্রায় ৩ সপ্তাহ লাগবে। মেসেজ দিয়ে জানিয়ে দেব।",
           "en": "It takes about 3 weeks. I will let you know by text message."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-57-dialogue-03.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 20880,
+        "contentHash": "da1f28345b16769ff5ab3082dc58d3198700e2abc679aa09f20de56736170d5c",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     }
   ],
   "practice": [
@@ -1285,12 +1318,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
-        "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "사업장",
+        "비상구를 이용하세요.",
+        "보호 장갑을 착용하세요.",
+        "이 길로 통행하면 안 됩니다."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
     },
     {
@@ -1305,12 +1338,12 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
-        "작업복",
-        "비빔밥",
-        "기차표"
+        "연장",
+        "방진 마스크",
+        "안전벨트",
+        "작업복"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে।"
     },
     {
@@ -1325,14 +1358,47 @@
         "kind": "illustration"
       },
       "options": [
-        "아침 일곱 시",
-        "오전 아홉 시",
-        "오후 두 시",
-        "밤 열 시"
+        "오전 열 시입니다.",
+        "오전 아홉 시입니다.",
+        "오전 열한 시입니다.",
+        "오후 한 시입니다."
       ],
       "answer": 1,
       "explanationBn": "কথোপকথনে বলা হয়েছে সকাল ৯টা থেকে কাজ শুরু, ছবিতেও ঘড়ি ৯টা দেখাচ্ছে।",
-      "passage": "남: 공장 일하는 시간은 몇 시부터예요? / 여: 오전 아홉 시부터예요."
+      "passage": "남자: 고용허가제에서 일은 몇 시에 시작해요?\n여자: 오전 아홉 시에 시작합니다."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "근로조건",
+      "romanization": "geunro jogeon",
+      "bn": "কাজের শর্ত",
+      "en": "working conditions",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 근로조건을 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে কাজের শর্ত সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about working conditions."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 57
+    },
+    {
+      "ko": "임금명세서",
+      "romanization": "imgeum myeongseseo",
+      "bn": "বেতন বিবরণী",
+      "en": "pay statement",
+      "pos": "noun",
+      "example": {
+        "ko": "관련 기관에 임금명세서를 문의하세요.",
+        "bn": "সংশ্লিষ্ট প্রতিষ্ঠানে বেতন বিবরণী সম্পর্কে জিজ্ঞাসা করুন।",
+        "en": "Ask the relevant office about pay statement."
+      },
+      "pronunciationTipBn": "প্রথমে শব্দটি আলাদা করে, পরে পুরো বাক্যটি বলুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 57
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

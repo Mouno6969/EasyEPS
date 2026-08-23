@@ -1,4 +1,7 @@
-import { CheckCircle2, Mic, MicOff, RotateCcw, ShieldAlert } from "lucide-react";
+import { playAudioOrTts, type AudioPlaybackSource } from "@/lib/audioPlayback";
+import { KOREAN_SPEECH_RATES, type KoreanSpeechRate } from "@/lib/speakKorean";
+import type { AudioClipRef } from "@shared/audio";
+import { CheckCircle2, Gauge, Mic, MicOff, RotateCcw, ShieldAlert, Volume2 } from "lucide-react";
 import { useRef, useState } from "react";
 
 interface RecognitionAlternativeLike {
@@ -61,13 +64,27 @@ export function pronunciationSimilarity(target: string, spoken: string) {
   return Math.max(0, Math.round((1 - previous[b.length] / Math.max(a.length, b.length)) * 100));
 }
 
-export function PronunciationCoach({ text, compact = true }: { text: string; compact?: boolean }) {
+function initialAudioSource(audio?: AudioClipRef): AudioPlaybackSource {
+  return audio?.reviewStatus === "generated" ? "generated-audio" : audio?.reviewStatus === "approved" ? "reviewed-audio" : "browser-tts";
+}
+
+export function PronunciationCoach({ text, compact = true, audio }: { text: string; compact?: boolean; audio?: AudioClipRef }) {
   const supported = Boolean(recognitionConstructor());
   const recognitionRef = useRef<RecognitionLike | null>(null);
   const [listening, setListening] = useState(false);
+  const [playing, setPlaying] = useState(false);
+  const [rate, setRate] = useState<KoreanSpeechRate>(KOREAN_SPEECH_RATES.slow);
+  const [audioSource, setAudioSource] = useState<AudioPlaybackSource>(() => initialAudioSource(audio));
   const [transcript, setTranscript] = useState("");
   const [score, setScore] = useState<number | null>(null);
   const [error, setError] = useState("");
+
+  const playReference = () => {
+    setPlaying(true);
+    void playAudioOrTts({ text, audio, options: { rate } }).then(result => {
+      setAudioSource(result.source);
+    }).finally(() => setPlaying(false));
+  };
 
   const begin = () => {
     const Constructor = recognitionConstructor();
@@ -100,14 +117,6 @@ export function PronunciationCoach({ text, compact = true }: { text: string; com
     recognition.start();
   };
 
-  if (!supported) {
-    return (
-      <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[var(--navy)]/38" title="Speech recognition is unavailable in this browser">
-        <MicOff className="size-3" /> pronunciation check unavailable
-      </span>
-    );
-  }
-
   const verdict = score == null
     ? ""
     : score >= 85
@@ -116,19 +125,36 @@ export function PronunciationCoach({ text, compact = true }: { text: string; com
         ? "ভালো শুরু—ধীরে শুনে শব্দের শেষ অংশ মিলিয়ে বলুন।"
         : "আরেকবার শুনে ছোট ছোট অংশে অনুকরণ করুন।";
 
+  const sourceLabel = audioSource === "generated-audio"
+    ? "AI-generated Korean reference"
+    : audioSource === "reviewed-audio"
+      ? "Reviewed Korean reference"
+      : "Browser Korean reference";
+
   return (
     <div className={`${compact ? "mt-3" : "mt-5"} rounded-xl border border-current/10 bg-white/8 p-3`}>
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <button type="button" onClick={begin} disabled={listening} className="inline-flex items-center gap-1.5 rounded-full bg-[var(--gold)] px-3 py-1.5 text-xs font-bold text-[var(--navy)] disabled:opacity-60">
+        <button type="button" onClick={playReference} disabled={playing} className="inline-flex items-center gap-1.5 rounded-full border border-[var(--navy)]/12 bg-white px-3 py-1.5 text-xs font-bold text-[var(--navy)] disabled:opacity-60" aria-label={`Reference pronunciation; ${rate === KOREAN_SPEECH_RATES.slow ? "slow" : "normal"} speed`}>
+          {playing ? <Volume2 className="size-3.5 animate-pulse" /> : <Volume2 className="size-3.5" />}
+          {playing ? "শোনা হচ্ছে…" : "আগে শুনুন"}
+        </button>
+        {supported ? <button type="button" onClick={begin} disabled={listening} className="inline-flex items-center gap-1.5 rounded-full bg-[var(--gold)] px-3 py-1.5 text-xs font-bold text-[var(--navy)] disabled:opacity-60">
           {listening ? <Mic className="size-3.5 animate-pulse" /> : score == null ? <Mic className="size-3.5" /> : <RotateCcw className="size-3.5" />}
           {listening ? "বলুন…" : score == null ? "উচ্চারণ যাচাই" : "আবার বলুন"}
-        </button>
+        </button> : <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[var(--navy)]/38" title="Speech recognition is unavailable in this browser"><MicOff className="size-3" /> pronunciation check unavailable</span>}
         {score != null && <span className={`inline-flex items-center gap-1 text-xs font-bold ${score >= 85 ? "text-emerald-600" : score >= 65 ? "text-amber-700" : "text-red-600"}`}><CheckCircle2 className="size-3.5" />মিল {score}%</span>}
+      </div>
+      <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-[11px] font-semibold text-[var(--navy)]/45">
+        <span>{sourceLabel} · {rate === KOREAN_SPEECH_RATES.slow ? "ধীর 0.6×" : "সাধারণ 1×"}</span>
+        <span className="inline-flex overflow-hidden rounded-full border border-[var(--navy)]/12 bg-white p-0.5">
+          <button type="button" onClick={() => setRate(KOREAN_SPEECH_RATES.slow)} aria-pressed={rate === KOREAN_SPEECH_RATES.slow} className={`inline-flex items-center gap-1 rounded-full px-2 py-1 ${rate === KOREAN_SPEECH_RATES.slow ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}><Gauge className="size-3" />ধীর</button>
+          <button type="button" onClick={() => setRate(KOREAN_SPEECH_RATES.normal)} aria-pressed={rate === KOREAN_SPEECH_RATES.normal} className={`rounded-full px-2 py-1 ${rate === KOREAN_SPEECH_RATES.normal ? "bg-[var(--navy)] text-white" : "text-[var(--navy)]/55"}`}>সাধারণ</button>
+        </span>
       </div>
       {transcript && <p className="mt-2 text-xs leading-5 opacity-70"><strong>শোনা গেছে:</strong> {transcript}</p>}
       {verdict && <p className="mt-1 text-xs font-semibold leading-5 opacity-75">{verdict}</p>}
       {error && <p className="mt-2 flex items-start gap-1.5 text-xs leading-5 text-red-600"><ShieldAlert className="mt-0.5 size-3.5 shrink-0" />{error}</p>}
-      {!transcript && !error && <p className="mt-2 text-[11px] leading-4 opacity-45">Browser speech service Korean শব্দ চিনে মিল দেখাবে; ফলটি অনুশীলন-সহায়ক, চূড়ান্ত উচ্চারণ মূল্যায়ন নয়।</p>}
+      {!transcript && !error && <p className="mt-2 text-[11px] leading-4 opacity-45">আগে ধীর Korean reference শুনুন, তারপর বলুন; ফলটি অনুশীলন-সহায়ক, চূড়ান্ত উচ্চারণ মূল্যায়ন নয়।</p>}
     </div>
   );
 }

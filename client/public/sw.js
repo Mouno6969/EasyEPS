@@ -22,10 +22,14 @@ self.addEventListener("activate", event => {
   );
 });
 
+function isAudioRequest(request, url) {
+  return url.origin === self.location.origin && (request.destination === "audio" || url.pathname.startsWith("/audio/"));
+}
+
 function isCurriculumQuery(url) {
   return url.origin === self.location.origin
     && url.pathname.startsWith("/api/trpc")
-    && (url.pathname.includes("curriculum.get") || url.pathname.includes("curriculum.list"));
+    && (url.pathname.includes("curriculum.get") || url.pathname.includes("curriculum.list") || url.pathname.includes("curriculum.dailyVocabulary") || url.pathname.includes("curriculum.transferPractice"));
 }
 
 async function networkWithCacheFallback(request, cacheName) {
@@ -46,7 +50,7 @@ self.addEventListener("fetch", event => {
   if (request.method !== "GET") return;
   const url = new URL(request.url);
 
-  if (isCurriculumQuery(url)) {
+  if (isCurriculumQuery(url) || isAudioRequest(request, url)) {
     event.respondWith(networkWithCacheFallback(request, LESSON_CACHE));
     return;
   }

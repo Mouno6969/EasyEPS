@@ -580,7 +580,18 @@
           "bn": "বুঝেছি। ধন্যবাদ।",
           "en": "Understood. Thank you."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-31-dialogue-01.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 16040,
+        "contentHash": "9a12c8058eea9cd7dea593a3f936fa5f92d652a0cc273ffa945cac4ddde82a2c",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "근무 태도 이야기",
@@ -616,7 +627,18 @@
           "bn": "ধন্যবাদ। সাহায্য লাগলে বলবেন।",
           "en": "Thank you. Let me know if you need help."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-31-dialogue-02.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 17480,
+        "contentHash": "8ac25e7a0014e969e6938d520c1513e6e14bffd2368dea47f15e1452f5dc35b1",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "안전 장비 착용",
@@ -652,7 +674,18 @@
           "bn": "নিরাপত্তাই সবচেয়ে গুরুত্বপূর্ণ, তাই সবসময় সাবধানে থাকবেন।",
           "en": "Safety is the most important, so always be careful."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-31-dialogue-03.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 18960,
+        "contentHash": "993e1b5cba6833883eef35b9face1fdb6d5bc5240dbeb978629a9e3b80adca15",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     }
   ],
   "practice": [
@@ -1156,12 +1189,12 @@
         "kind": "illustration"
       },
       "options": [
+        "작업복입니다.",
         "볼펜입니다.",
-        "가위입니다.",
-        "안경입니다.",
-        "가방입니다."
+        "책입니다.",
+        "지갑입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে একটি বলপেন (볼펜) আঁকা আছে।"
     },
     {
@@ -1176,12 +1209,12 @@
         "kind": "illustration"
       },
       "options": [
+        "자전거입니다.",
         "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "오토바이입니다.",
+        "화물차입니다."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanationBn": "ছবিতে মাল তোলার যন্ত্র ফর্কলিফট (지게차) আঁকা আছে।"
     },
     {
@@ -1196,12 +1229,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
+        "근무 태도입니다.",
         "트랙터입니다.",
-        "경운기입니다."
+        "굴착기입니다.",
+        "버스입니다."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanationBn": "ছবিতে মাটি খননকারী যন্ত্র এক্সকেভেটার (굴착기) আঁকা আছে।"
     },
     {
@@ -1216,12 +1249,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
         "트랙터입니다.",
+        "단추입니다.",
+        "굴착기입니다.",
         "경운기입니다."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanationBn": "ছবিতে বড় চাকার ট্র্যাক্টর (트랙터) আঁকা আছে।"
     },
     {
@@ -1236,12 +1269,12 @@
         "kind": "illustration"
       },
       "options": [
-        "지게차입니다.",
-        "굴착기입니다.",
-        "트랙터입니다.",
-        "경운기입니다."
+        "근무 태도입니다.",
+        "버스입니다.",
+        "경운기입니다.",
+        "자전거입니다."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে ছোট চাষের যন্ত্র কাল্টিভেটর (경운기) আঁকা আছে।"
     },
     {
@@ -1256,12 +1289,12 @@
         "kind": "safety-sign"
       },
       "options": [
-        "이 길을 지나가도 됩니다.",
         "이 길로 통행하면 안 됩니다.",
-        "여기서 쉬어도 됩니다.",
-        "이 표지는 비상구입니다."
+        "귀마개를 착용하세요.",
+        "물이 있을 수 있으니까 조심하세요.",
+        "전기가 흐르니까 조심하세요."
       ],
-      "answer": 1,
+      "answer": 0,
       "explanationBn": "চিহ্নটি চলাচল নিষেধ (통행금지) বোঝায়, তাই এই পথ দিয়ে যাওয়া যায় না (이 길로 통행하면 안 됩니다)।"
     },
     {
@@ -1276,10 +1309,10 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
+        "안전모",
         "펜치",
-        "쇠톱",
-        "망치"
+        "귀마개",
+        "사다리"
       ],
       "answer": 1,
       "explanationBn": "ছবিতে প্লায়ার্স (펜치) আঁকা আছে — এটি তার কাটা ও বাঁকানোর কাজে লাগে।"
@@ -1296,12 +1329,12 @@
         "kind": "illustration"
       },
       "options": [
-        "토치",
-        "펜치",
-        "쇠톱",
-        "망치"
+        "보호 장갑",
+        "줄자",
+        "망치",
+        "안전모"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanationBn": "ছবিতে হাতুড়ি (망치) আঁকা আছে — এটি পেরেক ঠুকে বসানোর কাজে লাগে।"
     },
     {
@@ -1316,12 +1349,12 @@
         "kind": "illustration"
       },
       "options": [
-        "컴퓨터",
-        "작업복",
-        "비빔밥",
-        "기차표"
+        "안전벨트",
+        "보호 안경",
+        "방진 마스크",
+        "작업복"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanationBn": "ছবিতে কাজের পোশাক (작업복) আঁকা আছে — এটি '복장' শব্দের সাথে সম্পর্কিত।"
     },
     {
@@ -1336,14 +1369,47 @@
         "kind": "illustration"
       },
       "options": [
-        "반사 조끼를 입어야 합니다.",
-        "보호 장갑을 구매해야 합니다.",
-        "비상 계단을 이용해야 합니다.",
-        "환기 장치를 작동해야 합니다."
+        "우비",
+        "방진 마스크",
+        "안전벨트",
+        "반사 조끼를 입어야 합니다."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
-      "passage": "남: 어두운 곳에서 작업할 때 무엇을 입어요? / 여: 반사 조끼를 입어야 해요."
+      "passage": "남자: 복장과 근무 태도에서 어두운 곳에서 무엇을 입어요?\n여자: 반사 조끼를 입어야 해요."
     }
-  ]
+  ],
+  "extraVocabulary": [
+    {
+      "ko": "작업지시",
+      "romanization": "jageopjisi",
+      "bn": "কাজের নির্দেশ",
+      "en": "work instruction",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 작업지시를 확인하세요.",
+        "bn": "কাজের আগে কাজের নির্দেশ পরীক্ষা করুন।",
+        "en": "Check the work instruction before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 31
+    },
+    {
+      "ko": "작업순서",
+      "romanization": "jageopsunseo",
+      "bn": "কাজের ক্রম",
+      "en": "work sequence",
+      "pos": "noun",
+      "example": {
+        "ko": "작업 전에 작업순서를 확인하세요.",
+        "bn": "কাজের আগে কাজের ক্রম পরীক্ষা করুন।",
+        "en": "Check the work sequence before work."
+      },
+      "pronunciationTipBn": "কাজের নির্দেশের সাথে শব্দটি একসাথে মনে রাখুন।",
+      "layer": "exam-transfer",
+      "sourceChapter": 31
+    }
+  ],
+  "contentVersion": "2026-08-23-v5"
 }

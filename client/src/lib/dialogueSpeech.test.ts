@@ -12,7 +12,9 @@ import {
   parseDialogueTurns,
   speakDialogue,
   speakNamedDialogue,
+  speakNamedTurn,
 } from "./dialogueSpeech";
+import type { AudioClipRef } from "@shared/audio";
 
 class MockSpeechSynthesisUtterance {
   text: string;
@@ -26,6 +28,28 @@ class MockSpeechSynthesisUtterance {
   constructor(text: string) {
     this.text = text;
   }
+}
+
+class MockGeneratedAudio {
+  static instances: MockGeneratedAudio[] = [];
+  src: string;
+  preload = "";
+  playbackRate = 1;
+  onended: (() => void) | null = null;
+  onerror: (() => void) | null = null;
+  currentTime = 0;
+
+  constructor(src: string) {
+    this.src = src;
+    MockGeneratedAudio.instances.push(this);
+  }
+
+  play() {
+    queueMicrotask(() => this.onended?.());
+    return Promise.resolve();
+  }
+
+  pause() {}
 }
 
 function makeVoice(name: string, lang = "ko-KR"): SpeechSynthesisVoice {
@@ -149,12 +173,17 @@ describe("speakDialogue playback", () => {
       configurable: true,
       value: MockSpeechSynthesisUtterance,
     });
+    MockGeneratedAudio.instances = [];
+    Object.defineProperty(globalThis, "Audio", { configurable: true, value: MockGeneratedAudio });
+    Object.defineProperty(globalThis, "HTMLAudioElement", { configurable: true, value: MockGeneratedAudio });
   });
 
   afterEach(() => {
     vi.useRealTimers();
     Reflect.deleteProperty(globalThis, "window");
     Reflect.deleteProperty(globalThis, "SpeechSynthesisUtterance");
+    Reflect.deleteProperty(globalThis, "Audio");
+    Reflect.deleteProperty(globalThis, "HTMLAudioElement");
     vi.clearAllMocks();
   });
 
@@ -208,6 +237,15 @@ describe("speakDialogue playback", () => {
     }
   });
 
+  it("uses the stable speaker profile for an individual line replay", async () => {
+    const done = await run(speakNamedTurn("민수", "안녕하세요.", ["라힘", "민수"]));
+    expect(done).toBe(true);
+    expect(speak).toHaveBeenCalledTimes(1);
+    const utterance = speak.mock.calls[0][0] as MockSpeechSynthesisUtterance;
+    expect(utterance.voice?.name).toContain("InJoon");
+    expect(utterance.pitch).toBe(1);
+  });
+
   it("keeps four named speakers distinguishable and stable with only two installed voices", async () => {
     const firstVoice = makeVoice("Korean Voice 1");
     const secondVoice = makeVoice("Korean Voice 2");
@@ -229,6 +267,33 @@ describe("speakDialogue playback", () => {
     expect(new Set(profiles).size).toBe(4);
     expect(utterances[4].voice).toBe(utterances[0].voice);
     expect(utterances[4].pitch).toBe(utterances[0].pitch);
+  });
+
+  it("prefers a generated full-dialogue clip and applies slow speed before browser TTS", async () => {
+    const generated: AudioClipRef = {
+      src: "/audio/generated/full-dialogues/lesson-44-dialogue-01.wav",
+      voiceId: "ko-generated-multivoice-distinct-speakers",
+      speakerRole: "other",
+      durationMs: 1000,
+      contentHash: "0123456789abcdef0123456789abcdef",
+      license: "generated",
+      attribution: "AI-generated EasyEPS dialogue",
+      reviewStatus: "generated",
+      audioVersion: "audio-v1-generated-dialogues",
+    };
+
+    const done = await speakNamedDialogue(
+      [
+        { speaker: "작업자", text: "첫 번째 말입니다." },
+        { speaker: "동료", text: "두 번째 말입니다." },
+      ],
+      { rate: 0.6, audio: generated },
+    );
+
+    expect(done).toBe(true);
+    expect(MockGeneratedAudio.instances).toHaveLength(1);
+    expect(MockGeneratedAudio.instances[0].playbackRate).toBe(0.6);
+    expect(speak).not.toHaveBeenCalled();
   });
 
   it("does not resume with the next turn when cancelled during the inter-turn gap", async () => {
