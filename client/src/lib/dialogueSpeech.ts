@@ -1,4 +1,4 @@
-import { playAudioClip, playAudioOrTts } from "./audioPlayback";
+import { playAudioClip, playAudioOrTts, type AudioPlaybackSource } from "./audioPlayback";
 import { audioClipIsUsable, type AudioClipRef } from "@shared/audio";
 import {
   beginSpeechSequence,
@@ -226,10 +226,10 @@ export async function speakDialogue(passage: string, opts?: SpeakDialogueOptions
 }
 
 /** Play one reviewed full-passage clip, otherwise retain speaker-aware dialogue TTS. */
-export async function speakDialogueWithAudio(passage: string, audio?: AudioClipRef, opts?: SpeakDialogueOptions): Promise<{ ok: boolean; source: "reviewed-audio" | "browser-tts" }> {
+export async function speakDialogueWithAudio(passage: string, audio?: AudioClipRef, opts?: SpeakDialogueOptions): Promise<{ ok: boolean; source: AudioPlaybackSource }> {
   if (audio && audioClipIsUsable(audio)) {
     const played = await playAudioClip(audio, { rate: opts?.rate, onError: opts?.onError });
-    if (played) return { ok: true, source: "reviewed-audio" };
+    if (played) return { ok: true, source: audio.reviewStatus === "generated" ? "generated-audio" : "reviewed-audio" };
   }
   return { ok: await speakDialogue(passage, opts), source: "browser-tts" };
 }
@@ -297,6 +297,10 @@ export async function speakNamedDialogue(
   if (turns.length === 0) return false;
   if (turns.length === 1) {
     return playAudioOrTts({ text: turns[0].text, audio: turns[0].audio, options: { rate: opts?.rate, onError: opts?.onError } }).then(result => result.ok);
+  }
+  if (opts?.audio && audioClipIsUsable(opts.audio)) {
+    const played = await playAudioClip(opts.audio, { rate: opts.rate, onError: opts.onError });
+    if (played) return true;
   }
   const voices = isSpeechSupported() ? getKoreanVoices() : [];
   const profiles = namedVoiceProfiles(turns.map(turn => turn.speaker || "narrator"), voices);

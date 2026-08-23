@@ -1,7 +1,7 @@
 import { audioClipIsUsable, type AudioClipRef } from "@shared/audio";
 import { cancelSpeech, speakKorean, type SpeechSequence } from "./speakKorean";
 
-export type AudioPlaybackSource = "reviewed-audio" | "browser-tts";
+export type AudioPlaybackSource = "reviewed-audio" | "generated-audio" | "browser-tts";
 export type AudioPlaybackOptions = {
   rate?: number;
   pitch?: number;
@@ -83,7 +83,7 @@ export function playAudioClip(clip: AudioClipRef, options?: AudioPlaybackOptions
 export async function playAudioOrTts(input: { text: string; audio?: AudioClipRef; options?: AudioPlaybackOptions }): Promise<{ ok: boolean; source: AudioPlaybackSource }> {
   if (input.audio && audioClipIsUsable(input.audio)) {
     const played = await playAudioClip(input.audio, input.options);
-    if (played) return { ok: true, source: "reviewed-audio" };
+    if (played) return { ok: true, source: input.audio.reviewStatus === "generated" ? "generated-audio" : "reviewed-audio" };
   }
   const ok = await speakKorean(input.text, { rate: input.options?.rate, pitch: input.options?.pitch, voice: input.options?.voice, sequence: input.options?.sequence, onError: input.options?.onError });
   return { ok, source: "browser-tts" };

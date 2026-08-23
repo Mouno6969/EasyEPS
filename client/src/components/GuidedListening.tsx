@@ -45,7 +45,7 @@ export function GuidedListening({
   const [dictationAttempts, setDictationAttempts] = useState(0);
   const [dictationCorrect, setDictationCorrect] = useState(0);
   const [dictationSubmitted, setDictationSubmitted] = useState(false);
-  const [audioSource, setAudioSource] = useState<AudioPlaybackSource>(() => audio?.reviewStatus === "approved" ? "reviewed-audio" : "browser-tts");
+  const [audioSource, setAudioSource] = useState<AudioPlaybackSource>(() => audio?.reviewStatus === "generated" ? "generated-audio" : audio?.reviewStatus === "approved" ? "reviewed-audio" : "browser-tts");
   const playbackRequest = useRef(0);
 
   const persist = (patch: Partial<{
@@ -71,7 +71,7 @@ export function GuidedListening({
       dictationCorrect: patch.dictationCorrect ?? dictationCorrect,
       firstPlayCorrect: patch.firstPlayCorrect ?? firstPlayCorrect,
       audioSource: patch.audioSource ?? audioSource,
-      audioVersion: patch.audioVersion ?? (patch.audioSource === "reviewed-audio" ? audio?.audioVersion : undefined),
+      audioVersion: patch.audioVersion ?? (patch.audioSource === "reviewed-audio" || patch.audioSource === "generated-audio" ? audio?.audioVersion : undefined),
     });
   };
 
@@ -94,7 +94,7 @@ export function GuidedListening({
     void speakDialogueWithAudio(text, audio, { rate }).then(result => {
       if (playbackRequest.current !== request) return;
       setAudioSource(result.source);
-      persist({ audioSource: result.source, audioVersion: result.source === "reviewed-audio" ? audio?.audioVersion : undefined });
+      persist({ audioSource: result.source, audioVersion: result.source === "reviewed-audio" || result.source === "generated-audio" ? audio?.audioVersion : undefined });
     }).finally(() => {
       if (playbackRequest.current === request) setPlaying(false);
     });
@@ -141,7 +141,7 @@ export function GuidedListening({
         </span>
         <span>{playing ? "শোনা হচ্ছে…" : label}</span>
       </button>
-      <p className="text-center text-[11px] font-semibold text-[var(--navy)]/45" aria-live="polite">{audioSource === "reviewed-audio" ? `Reviewed Korean audio · ${audio?.voiceId ?? "verified voice"}` : audio?.reviewStatus === "approved" ? "Reviewed recording available · browser fallback will be used only if needed" : audio ? "Clip pending review · browser Korean TTS" : "Browser Korean TTS"}</p>
+      <p className="text-center text-[11px] font-semibold text-[var(--navy)]/45" aria-live="polite">{audioSource === "reviewed-audio" ? `Reviewed Korean audio · ${audio?.voiceId ?? "verified voice"}` : audioSource === "generated-audio" ? `AI-generated Korean audio · ${audio?.voiceId ?? "generated voice"}` : audio?.reviewStatus === "approved" ? "Reviewed recording available · browser fallback will be used only if needed" : audio?.reviewStatus === "generated" ? "AI-generated recording available · browser fallback will be used only if needed" : audio ? "Clip pending review · browser Korean TTS" : "Browser Korean TTS"}</p>
 
       <div className="flex flex-wrap items-center justify-center gap-2 text-xs font-bold">
         <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--cream)] px-3 py-1.5 text-[var(--navy)]/55">

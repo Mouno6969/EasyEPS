@@ -21,6 +21,19 @@ describe("audio metadata contract", () => {
     expect(result.success).toBe(false);
   });
 
+  it("accepts a complete generated clip as usable without treating it as approved", () => {
+    const clip = audioClipRefSchema.parse({
+      ...base,
+      license: "generated",
+      attribution: "AI-generated EasyEPS dialogue",
+      durationMs: 2400,
+      contentHash: "0123456789abcdef0123456789abcdef",
+      reviewStatus: "generated",
+    });
+    expect(audioClipIsUsable(clip)).toBe(true);
+    expect(clip.reviewStatus).toBe("generated");
+  });
+
   it("accepts a complete approved clip and manifest", () => {
     const clip = audioClipRefSchema.parse({
       ...base,

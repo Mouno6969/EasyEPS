@@ -16,6 +16,18 @@ const approved: AudioClipRef = {
   audioVersion: "audio-v1",
 };
 
+const generated: AudioClipRef = {
+  src: "/audio/generated/full-dialogues/lesson-44-dialogue-01.wav",
+  voiceId: "ko-generated-multivoice-distinct-speakers",
+  speakerRole: "other",
+  durationMs: 1000,
+  contentHash: "0123456789abcdef0123456789abcdef",
+  license: "generated",
+  attribution: "AI-generated EasyEPS dialogue",
+  reviewStatus: "generated",
+  audioVersion: "audio-v1-generated-dialogues",
+};
+
 class MockAudio {
   static instances: MockAudio[] = [];
   src = "";
@@ -52,6 +64,14 @@ describe("audio playback", () => {
     expect(audio.playbackRate).toBe(0.6);
     audio.onended?.();
     await expect(promise).resolves.toBe(true);
+    expect(mocks.speakKorean).not.toHaveBeenCalled();
+  });
+
+  it("plays a generated clip and reports generated-audio instead of reviewed-audio", async () => {
+    const promise = playAudioOrTts({ text: "안전모를 착용하세요.", audio: generated });
+    const audio = MockAudio.instances[0];
+    audio.onended?.();
+    await expect(promise).resolves.toEqual({ ok: true, source: "generated-audio" });
     expect(mocks.speakKorean).not.toHaveBeenCalled();
   });
 

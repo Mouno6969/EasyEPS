@@ -582,7 +582,18 @@
           "bn": "ক্ষত কেমন তা বলুন। প্রয়োজন হলে হাসপাতালে যাই।",
           "en": "Tell me the wound's condition. If needed, we'll go to the hospital."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-56-dialogue-01.wav",
+        "voiceId": "ko-generated-multivoice-distinct-speakers",
+        "speakerRole": "other",
+        "durationMs": 16080,
+        "contentHash": "c4f823874ba58b6d7ab7adaf030ec58988ee3bcffb973b09e10ce8cec6e2e854",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 3 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "기계 손상과 응급 보고",
@@ -618,7 +629,18 @@
           "bn": "119 রেসকিউ টীম শীঘ্রই আসছে। রোগীকে আরামদায়ক রাখুন।",
           "en": "The 119 rescue team will arrive soon. Keep the patient comfortable."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-56-dialogue-02.wav",
+        "voiceId": "ko-generated-multivoice-distinct-speakers",
+        "speakerRole": "other",
+        "durationMs": 18000,
+        "contentHash": "cba4d85a3df201c328b60dd1ebcf6cfe102b0fcb31b031f22c5a2ef8c46f3c56",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 4 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     },
     {
       "titleBn": "নিরাপত্তা প্রশিক্ষণে প্রশ্নোত্তর",
@@ -660,7 +682,18 @@
           "bn": "জি, ভালোভাবে বুঝেছি। ধন্যবাদ।",
           "en": "Yes, I understand well. Thank you."
         }
-      ]
+      ],
+      "audio": {
+        "src": "/audio/generated/full-dialogues/lesson-56-dialogue-03.wav",
+        "voiceId": "ko-generated-duo-iapetus-erinome",
+        "speakerRole": "other",
+        "durationMs": 25000,
+        "contentHash": "fce46ef0b883f387c6e70960e22e7d3d95dbb0b7fe4069b1a60570566b21d85f",
+        "license": "generated",
+        "attribution": "AI-generated EasyEPS dialogue; generated with prebuilt Korean voice models; 2 distinct synthetic speaker voices; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
+        "audioVersion": "audio-v1-generated-dialogues"
+      }
     }
   ],
   "practice": [

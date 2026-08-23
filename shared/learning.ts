@@ -62,7 +62,7 @@ export type ListeningEvidence = {
   dictationCorrect: number;
   transcriptRevealed: boolean;
   transcriptDependentCount: number;
-  audioSource?: "reviewed-audio" | "browser-tts";
+  audioSource?: "reviewed-audio" | "generated-audio" | "browser-tts";
   audioVersion?: string;
   updatedAt: string;
 };

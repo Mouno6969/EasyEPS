@@ -62,6 +62,8 @@ export const epsQuestionImageSchema = z.object({
 const dialogueSchema = z.object({
   titleBn: z.string().min(1),
   titleEn: z.string().min(1),
+  /** Optional full-dialogue generated recording; line clips remain preferred for speaker replay. */
+  audio: audioClipRefSchema.optional(),
   lines: z
     .array(
       z.object({

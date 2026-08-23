@@ -25,7 +25,7 @@ CLIPS = [
 
 lesson = json.loads(LESSON_PATH.read_text(encoding="utf-8"))
 manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
-manifest["clips"] = {}
+manifest.setdefault("clips", {})
 
 for filename, dialogue_index, line_index, expected_speaker, role, voice_id in CLIPS:
     path = PUBLIC_AUDIO / filename
@@ -47,16 +47,16 @@ for filename, dialogue_index, line_index, expected_speaker, role, voice_id in CL
         "durationMs": duration_ms,
         "contentHash": content_hash,
         "license": "generated",
-        "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model",
-        "reviewStatus": "approved",
+        "attribution": "AI-generated EasyEPS sample; generated with a prebuilt Korean voice model; not human-recorded or independently transcript-reviewed",
+        "reviewStatus": "generated",
         "audioVersion": "audio-v1-generated-sample",
     }
     line["audio"] = clip
     manifest["clips"][clip_id] = clip
 
 lesson["contentVersion"] = "2026-08-23-v5"
-manifest["libraryVersion"] = "audio-v1-generated-sample"
-manifest["generatedAt"] = "2026-08-23T00:00:00.000Z"
+manifest["libraryVersion"] = "audio-v1-generated-dialogues"
+manifest["generatedAt"] = manifest.get("generatedAt", "2026-08-23T00:00:00.000Z")
 LESSON_PATH.write_text(json.dumps(lesson, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 MANIFEST_PATH.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(f"attached={len(CLIPS)}")
