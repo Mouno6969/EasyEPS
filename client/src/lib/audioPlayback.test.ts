@@ -67,12 +67,21 @@ describe("audio playback", () => {
     expect(mocks.speakKorean).not.toHaveBeenCalled();
   });
 
-  it("plays a generated clip and reports generated-audio instead of reviewed-audio", async () => {
-    const promise = playAudioOrTts({ text: "안전모를 착용하세요.", audio: generated });
+  it("plays a generated clip at slow speed and reports generated-audio", async () => {
+    const promise = playAudioOrTts({ text: "안전모를 착용하세요.", audio: generated, options: { rate: 0.6 } });
     const audio = MockAudio.instances[0];
+    expect(audio.playbackRate).toBe(0.6);
     audio.onended?.();
     await expect(promise).resolves.toEqual({ ok: true, source: "generated-audio" });
     expect(mocks.speakKorean).not.toHaveBeenCalled();
+  });
+
+  it("uses normal 1× speed for a generated clip", async () => {
+    const promise = playAudioOrTts({ text: "안전모를 착용하세요.", audio: generated, options: { rate: 1 } });
+    const audio = MockAudio.instances[0];
+    expect(audio.playbackRate).toBe(1);
+    audio.onended?.();
+    await expect(promise).resolves.toEqual({ ok: true, source: "generated-audio" });
   });
 
   it("does not cancel the owning speech sequence for a queued clip", async () => {
