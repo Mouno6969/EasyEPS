@@ -4,7 +4,7 @@ export const LEARNING_CONTENT_VERSION = "2026-08-23-v5";
 export type LearningItemKind = "vocabulary" | "practice" | "eps" | "listening" | "grammar" | "dialogue";
 export type ConfidenceLevel = "sure" | "uncertain" | "guessed" | "unknown";
 export type MasteryStage = "new" | "learning" | "recalled" | "retained" | "transferred" | "mastered";
-export type PracticeFormat = "recognition" | "recall" | "dictation" | "sentence" | "picture" | "listening" | "dialogue";
+export type PracticeFormat = "recognition" | "recall" | "dictation" | "sentence" | "picture" | "listening" | "dialogue" | "picture-to-word" | "word-to-situation" | "short-typed" | "cloze" | "listening-to-meaning" | "polite-response";
 
 export type ItemEvidence = {
   itemId: string;

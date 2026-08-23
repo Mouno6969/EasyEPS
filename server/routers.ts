@@ -16,6 +16,7 @@ import {
   profileSetupSchema,
 } from "@shared/profile";
 import { scoreLessonExam, scoreMockFromLessons, type MockQuestionRef } from "@shared/scoring";
+import { buildTransferItems } from "@shared/transfer";
 import { buildSmartMockQuestions } from "@shared/smartMock";
 import { TRPCError } from "@trpc/server";
 import { nanoid } from "nanoid";
@@ -221,6 +222,12 @@ export const appRouter = router({
       const chapters = [1, 9, 21, 31, 53, 57];
       return getLessonSummaries().filter(lesson => chapters.includes(lesson.chapter));
     }),
+    transferPractice: publicProcedure
+      .input(z.object({ chapter: z.number().int().min(1).max(60).optional() }).optional())
+      .query(({ input }) => {
+        const lessons = input?.chapter ? getAllLessons().filter(lesson => lesson.chapter === input.chapter) : getAllLessons();
+        return buildTransferItems(lessons);
+      }),
     dailyVocabulary: publicProcedure.query(() => getAllLessons().flatMap(lesson => [
       ...lesson.vocabulary.map(word => ({ itemId: `vocabulary:${lesson.chapter}:${word.ko}`, chapter: lesson.chapter, word, layer: "core" as const })),
       ...lesson.extraVocabulary.map(word => ({ itemId: `vocabulary:${lesson.chapter}:${word.ko}`, chapter: lesson.chapter, word, layer: "exam-transfer" as const, sourceChapter: word.sourceChapter })),

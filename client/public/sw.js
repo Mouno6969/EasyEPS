@@ -25,7 +25,7 @@ self.addEventListener("activate", event => {
 function isCurriculumQuery(url) {
   return url.origin === self.location.origin
     && url.pathname.startsWith("/api/trpc")
-    && (url.pathname.includes("curriculum.get") || url.pathname.includes("curriculum.list") || url.pathname.includes("curriculum.dailyVocabulary"));
+    && (url.pathname.includes("curriculum.get") || url.pathname.includes("curriculum.list") || url.pathname.includes("curriculum.dailyVocabulary") || url.pathname.includes("curriculum.transferPractice"));
 }
 
 async function networkWithCacheFallback(request, cacheName) {

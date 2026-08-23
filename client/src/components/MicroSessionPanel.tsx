@@ -1,5 +1,5 @@
 import { hrefForReview, type ReviewItem } from "@/lib/srs";
-import { BookMarked, BookOpenText, BrainCircuit, ChevronRight, Clock3, RotateCcw } from "lucide-react";
+import { BookMarked, BookOpenText, BrainCircuit, ChevronRight, Clock3, RotateCcw, Sparkles } from "lucide-react";
 import { Link } from "wouter";
 
 export function MicroSessionPanel({
@@ -20,6 +20,14 @@ export function MicroSessionPanel({
       detail: "নতুন exam-transfer শব্দ ও due review",
       href: "/daily-vocabulary",
       icon: BookMarked,
+    },
+    {
+      id: "transfer-lab",
+      minutes: 8,
+      title: "নতুন context transfer",
+      detail: "ছবি, cloze, listening ও workplace response",
+      href: "/transfer-practice",
+      icon: Sparkles,
     },
     {
       id: "five-minute",
@@ -57,7 +65,7 @@ export function MicroSessionPanel({
         </div>
         <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--gold)]/14 px-3 py-1.5 text-xs font-bold text-[var(--gold-dark)]"><Clock3 className="size-3.5" />আজই করা যায়</span>
       </div>
-      <div className="mt-5 grid gap-3 md:grid-cols-4">
+      <div className="mt-5 grid gap-3 md:grid-cols-2 xl:grid-cols-5">
         {sessions.map(({ id, minutes, title, detail, href, icon: Icon }) => (
           <Link key={id} href={href} className="group rounded-2xl border border-[var(--navy)]/10 bg-[var(--cream)] p-4 transition hover:border-[var(--gold)]/45 hover:bg-white">
             <div className="flex items-center justify-between gap-3">
