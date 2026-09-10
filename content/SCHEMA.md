@@ -73,6 +73,22 @@ Every lesson file `content/lessons/lesson-NN.json` MUST be valid JSON matching t
       "options": ["...", "...", "...", "..."],
       "answer": 2,
       "explanationBn": "ব্যাখ্যা..."
+    },
+    {
+      "id": "e2",
+      "section": "reading",
+      "questionBn": "লেখাটি পড়ে সঠিক ছবিটি বাছাই করুন।",
+      "questionKo": "다음을 읽고 알맞은 그림을 고르십시오.",
+      "passage": "못을 두드릴 때 망치를 사용합니다.",
+      "imageOptions": [
+        { "src": "/eps-images/obj-scissors.svg", "altBn": "কাঁচি", "altKo": "가위", "kind": "illustration" },
+        { "src": "/eps-images/tool-hammer.svg", "altBn": "হাতুড়ি", "altKo": "망치", "kind": "illustration" },
+        { "src": "/eps-images/tool-pliers.svg", "altBn": "প্লায়ার", "altKo": "펜치", "kind": "illustration" },
+        { "src": "/eps-images/obj-pen.svg", "altBn": "কলম", "altKo": "볼펜", "kind": "illustration" }
+      ],
+      "options": [],
+      "answer": 1,
+      "explanationBn": "'망치' (হাতুড়ি) দিয়ে পেরেক ঠোকা হয়..."
     }
   ]
 }
@@ -83,8 +99,9 @@ Every lesson file `content/lessons/lesson-NN.json` MUST be valid JSON matching t
 - `grammar`: 4–5 patterns with Bengali explanations and 2+ examples each.
 - `dialogues`: 3 dialogues, 4–8 lines each.
 - `practice`: EXACTLY 20 items. Mix: ≥4 multiple-choice, ≥3 fill-blank, ≥2 matching.
-- `epsQuestions`: EXACTLY 16 items. Mix: 10 reading + 6 listening-style. All options in Korean where natural; instructions in Bengali. (Chapters may exceed 16 up to the schema max of 20 when image-based questions are appended, matching the real exam's picture/safety-sign items.)
+- `epsQuestions`: EXACTLY 16 items. Mix: 10 reading + 6 listening-style. All options in Korean where natural; instructions in Bengali. (Chapters may exceed 16 up to the schema max of 30 when image-based or picture-choice questions are appended, matching the real exam's picture/safety-sign items.)
 - `image` is OPTIONAL and backward-compatible. When present, `src` and `altBn` are required; a listening question with an image must still include a `passage` so audio can be synthesized. Local assets live in `client/public/eps-images/` and are referenced as `/eps-images/<name>.svg`.
+- `imageOptions` (PICTURE-CHOICE questions) — exactly 4 images as the answer choices, mirroring the real EPS-TOPIK format where the learner picks the picture matching a reading sentence or listening script. Rules: exactly 4 entries; every entry requires `src` + `altBn` (Bengali alt text for screen readers); the four `src` values must be distinct; text `options` MUST be empty (`[]`); `answer` (0–3) indexes into `imageOptions`; listening picture questions still require a `passage`. Rendered by `EpsOptionImages` (A–D badges, Bangla fallback if an image fails to load).
 - `answer` index MUST point to the correct option. Content MUST be original artwork/text.
 - All Bengali text natural and correct; Korean text uses standard hangul with correct spacing.
 

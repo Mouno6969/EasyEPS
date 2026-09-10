@@ -53,11 +53,13 @@ describe("curriculum.get", () => {
 });
 
 describe("curriculum.mockTest", () => {
-  it("builds a 40-question mock test mixing reading and listening from many chapters", async () => {
+  it("builds a 40-question mock test as 20 listening (first) + 20 reading from many chapters", async () => {
     const questions = await guestCaller.curriculum.mockTest({ count: 40 });
     expect(questions).toHaveLength(40);
     const listening = questions.filter(question => question.section === "listening");
-    expect(listening.length).toBe(16);
+    expect(listening.length).toBe(20);
+    // Real exam order: listening section (듣기 1–20) precedes reading (읽기 21–40).
+    expect(questions.slice(0, 20).every(question => question.section === "listening")).toBe(true);
     const distinctChapters = new Set(questions.map(question => question.chapter));
     expect(distinctChapters.size).toBeGreaterThan(5);
     const ids = new Set(questions.map(question => question.testId));

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { epsQuestionImageSchema, lessonSchema } from "../shared/lesson";
+import { epsQuestionImageSchema, epsQuestionSchema, lessonSchema } from "../shared/lesson";
 import { scoreEps } from "../shared/scoring";
 import type { EpsQuestion } from "../shared/lesson";
 import { appRouter } from "./routers";
@@ -113,6 +113,29 @@ describe("image questions in authored content", () => {
       expect(summary.imageQuestionCount).toBeGreaterThanOrEqual(1);
     }
   });
+
+  it("ships authored picture-choice questions (imageOptions) across sections", () => {
+    const lessons = getAllLessons();
+    const pictureChoice = lessons.flatMap(lesson =>
+      lesson.epsQuestions.filter(question => (question.imageOptions?.length ?? 0) > 0),
+    );
+    // Real EPS-TOPIK offers four PICTURES as choices on several reading and
+    // listening questions; authored content must keep covering that format.
+    expect(pictureChoice.length).toBeGreaterThanOrEqual(10);
+    const listening = pictureChoice.filter(question => question.section === "listening");
+    const reading = pictureChoice.filter(question => question.section === "reading");
+    expect(listening.length).toBeGreaterThanOrEqual(3);
+    expect(reading.length).toBeGreaterThanOrEqual(5);
+    for (const question of pictureChoice) {
+      expect(question.imageOptions).toHaveLength(4);
+      expect(question.options).toHaveLength(0);
+      expect(new Set(question.imageOptions?.map(image => image.src)).size).toBe(4);
+      expect(question.answer).toBeLessThanOrEqual(3);
+      if (question.section === "listening") {
+        expect(question.passage.length).toBeGreaterThan(0);
+      }
+    }
+  });
 });
 
 describe("APIs propagate the image field", () => {
@@ -174,5 +197,56 @@ describe("scoring is unaffected by the image field", () => {
     expect(graded.score).toBe(1);
     expect(graded.total).toBe(2);
     expect(graded.correctIds).toEqual(["e1"]);
+  });
+});
+
+describe("picture-choice questions (imageOptions)", () => {
+  const images = (prefix: string) =>
+    ["a", "b", "c", "d"].map(letter => ({ src: `/eps-images/${prefix}-${letter}.svg`, altBn: `ছবি ${letter}` }));
+
+  const pictureChoice = {
+    id: "e-pic",
+    section: "reading" as const,
+    questionBn: "সঠিক ছবিটি বাছাই করুন।",
+    questionKo: "그림을 보고 알맞은 것을 고르십시오.",
+    passage: "",
+    imageOptions: images("obj"),
+    options: [],
+    answer: 2,
+    explanationBn: "ব্যাখ্যা",
+  };
+
+  it("accepts a valid picture-choice eps question", () => {
+    const parsed = epsQuestionSchema.parse(pictureChoice);
+    expect(parsed.imageOptions).toHaveLength(4);
+    expect(parsed.options).toHaveLength(0);
+  });
+
+  it("rejects picture-choice questions that also define text options", () => {
+    expect(() => epsQuestionSchema.parse({ ...pictureChoice, options: ["가", "나", "다", "라"] })).toThrow(
+      /must not also define text options/,
+    );
+  });
+
+  it("rejects duplicate image options and out-of-range answers", () => {
+    expect(() =>
+      epsQuestionSchema.parse({
+        ...pictureChoice,
+        imageOptions: [...images("x").slice(0, 3), images("x")[0]!],
+        answer: 0,
+      }),
+    ).toThrow(/4 distinct images/);
+    expect(() => epsQuestionSchema.parse({ ...pictureChoice, answer: 4 })).toThrow();
+  });
+
+  it("keeps requiring exactly four text options on non-picture questions", () => {
+    expect(() =>
+      epsQuestionSchema.parse({
+        ...pictureChoice,
+        imageOptions: undefined,
+        options: ["가", "나", "다"],
+        answer: 0,
+      }),
+    ).toThrow(/exactly 4 options/);
   });
 });

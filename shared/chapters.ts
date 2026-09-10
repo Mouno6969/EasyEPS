@@ -1,4 +1,19 @@
-/** Canonical 60-chapter EPS-TOPIK curriculum list (standard textbook topics). */
+/**
+ * Canonical 60-chapter EPS-TOPIK curriculum list (standard textbook topics).
+ *
+ * Source of truth: BOESL Bangla edition of the 한국어표준교재 (EPS-TOPIK
+ * standard textbook). The official REVISED edition groups its 60 chapters as
+ *   예비편 1–5 · 기본 생활 6–15 · 일상·여가 16–25 · 공공 기관 26–30 ·
+ *   한국 문화 31–35 · 직장 문화 36–40 · 직장 생활 41–50 ·
+ *   법령·제도 51–58 · 직장 생활 용어 59–60 (산업안전 1·2),
+ * with sentence-form lesson titles (e.g. 28 = "통장을 만들려고 왔어요").
+ * This app keeps topical chapter titles and its own ordering — public
+ * institutions compressed into 21–25, culture 26–30, safety 53–56, laws
+ * 57–60 — so lesson numbers are intentionally NOT identical to the revised
+ * TOC. When authoring NEW chapters, mirror the official grouping's topic
+ * coverage (bank, post office, visa/등록, pay slip, leave, 산업안전) even if
+ * the chapter number differs.
+ */
 export type ChapterCategory = "daily-life" | "culture" | "workplace" | "safety" | "laws";
 
 export interface ChapterMeta {

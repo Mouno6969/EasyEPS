@@ -109,7 +109,7 @@
       "pos": "noun",
       "example": {
         "ko": "비료를 너무 많이 주지 마세요.",
-        "bn": "সার খুব 많이 দেবেন না।",
+        "bn": "সার খুব বেশি দেবেন না।",
         "en": "Don't give too much fertilizer."
       },
       "pronunciationTipBn": "'ㄹ' এর উচ্চারণ 'র' এর মতো করুন (পির‍্যো)।"
@@ -929,7 +929,7 @@
         "비료"
       ],
       "answer": 1,
-      "explanationBn": "মাটি খোঁড়ার জন্য '벨চা' (삽) ব্যবহার করা হয়। তাই 2 নম্বর।"
+      "explanationBn": "মাটি খোঁড়ার জন্য '벨차' (কোদাল) ব্যবহার করা হয়। তাই 2 নম্বরটি সঠিক।"
     },
     {
       "id": "p17",
@@ -1363,6 +1363,86 @@
       "answer": 0,
       "explanationBn": "কথোপকথনে বলা হয়েছে অদ্ধকারে রিফ্লেকটিভ ভেস্ট (반사 조끼) পরতে হয় — ছবিতেও সেটাই আঁকা, তাই প্রথম বিকল্প সঠিক।",
       "passage": "남: 어두운 곳에서 작업할 때 무엇을 입어요? / 여: 반사 조끼를 입어야 해요."
+    },
+    {
+      "id": "q21",
+      "section": "reading",
+      "questionBn": "লেখাটি পড়ে সঠিক ছবিটি বাছাই করুন।",
+      "questionKo": "다음을 읽고 알맞은 그림을 고르십시오.",
+      "passage": "논을 갈 때 트랙터를 사용합니다.",
+      "options": [],
+      "imageOptions": [
+        {
+          "src": "/eps-images/obj-tiller.svg",
+          "altBn": "কৃষিযন্ত্র (টিলার)",
+          "altKo": "경운기",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-excavator.svg",
+          "altBn": "খননযন্ত্র",
+          "altKo": "굴착기",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-tractor.svg",
+          "altBn": "ট্রাক্টর",
+          "altKo": "트랙터",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-bag.svg",
+          "altBn": "ব্যাগ",
+          "altKo": "가방",
+          "captionBn": "",
+          "kind": "illustration"
+        }
+      ],
+      "answer": 2,
+      "explanationBn": "'트랙터' (ট্রাক্টর) দিয়ে জমি চাষ করা হয়—তাই ট্রাক্টরের ছবিটি সঠিক।"
+    },
+    {
+      "id": "q22",
+      "section": "reading",
+      "questionBn": "লেখাটি পড়ে সঠিক ছবিটি বাছাই করুন।",
+      "questionKo": "다음을 읽고 알맞은 그림을 고르십시오.",
+      "passage": "밭을 곱게 갈 때 경운기를 사용합니다.",
+      "options": [],
+      "imageOptions": [
+        {
+          "src": "/eps-images/obj-bag.svg",
+          "altBn": "ব্যাগ",
+          "altKo": "가방",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-tiller.svg",
+          "altBn": "কৃষিযন্ত্র (টিলার)",
+          "altKo": "경운기",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-excavator.svg",
+          "altBn": "খননযন্ত্র",
+          "altKo": "굴착기",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-tractor.svg",
+          "altBn": "ট্রাক্টর",
+          "altKo": "트랙터",
+          "captionBn": "",
+          "kind": "illustration"
+        }
+      ],
+      "answer": 1,
+      "explanationBn": "'경운기' (টিলার) দিয়ে মাটি নরম ও ঝুরঝুরে করা হয়—তাই টিলারের ছবিটি সঠিক।"
     }
   ]
 }

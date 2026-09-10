@@ -1349,6 +1349,86 @@
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+    },
+    {
+      "id": "q21",
+      "section": "listening",
+      "questionBn": "অডিওটি শুনে সঠিক ছবিটি বাছাই করুন।",
+      "questionKo": "다음을 잘 듣고 알맞은 그림을 고르십시오.",
+      "passage": "(남) 퇴근 후에 피아노를 쳐요.",
+      "options": [],
+      "imageOptions": [
+        {
+          "src": "/eps-images/action-eating.svg",
+          "altBn": "কেউ খাবার খাচ্ছেন",
+          "altKo": "밥을 먹습니다",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/action-meeting.svg",
+          "altBn": "দুজন বন্ধু হাত মিলাচ্ছেন",
+          "altKo": "친구를 만납니다",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/action-reading.svg",
+          "altBn": "কেউ বই পড়ছেন",
+          "altKo": "책을 읽습니다",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/action-piano.svg",
+          "altBn": "কেউ পিয়ানো বাজাচ্ছেন",
+          "altKo": "피아노를 칩니다",
+          "captionBn": "",
+          "kind": "illustration"
+        }
+      ],
+      "answer": 3,
+      "explanationBn": "অডিওতে বলা হয়েছে '퇴근 후에 피아노를 쳐요' (কাজ শেষে পিয়ানো বাজাই)—তাই পিয়ানো বাজানোর ছবিটি সঠিক।"
+    },
+    {
+      "id": "q22",
+      "section": "listening",
+      "questionBn": "অডিওটি শুনে সঠিক ছবিটি বাছাই করুন।",
+      "questionKo": "다음을 잘 듣고 알맞은 그림을 고르십시오.",
+      "passage": "(여) 저는 아침에 일어나서 밥을 먹어요.",
+      "options": [],
+      "imageOptions": [
+        {
+          "src": "/eps-images/action-piano.svg",
+          "altBn": "কেউ পিয়ানো বাজাচ্ছেন",
+          "altKo": "피아노를 칩니다",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/action-eating.svg",
+          "altBn": "কেউ খাবার খাচ্ছেন",
+          "altKo": "밥을 먹습니다",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/action-meeting.svg",
+          "altBn": "দুজন বন্ধু হাত মিলাচ্ছেন",
+          "altKo": "친구를 만납니다",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/action-reading.svg",
+          "altBn": "কেউ বই পড়ছেন",
+          "altKo": "책을 읽습니다",
+          "captionBn": "",
+          "kind": "illustration"
+        }
+      ],
+      "answer": 1,
+      "explanationBn": "'밥을 먹어요' (ভাত খাই)—তাই খাবার খাওয়ার ছবিটি সঠিক।"
     }
   ]
 }

@@ -1045,8 +1045,8 @@
       "explanationBn": "ছবিটি একটি সাইকেলের, তাই সঠিক উত্তর '자전거' (সাইকেল)।",
       "image": {
         "src": "/eps-images/obj-bag.svg",
-        "altBn": "সাইকেলের ছবি",
-        "altKo": "자전거",
+        "altBn": "ব্যাগ",
+        "altKo": "가방",
         "captionBn": "",
         "kind": "illustration"
       }
@@ -1099,7 +1099,7 @@
     {
       "id": "q06",
       "section": "reading",
-      "questionBn": "표지판의 의미로 맞는 것을 고르십시오.",
+      "questionBn": "চিহ্নটির সঠিক অর্থ বাছাই করুন।",
       "questionKo": "다음 표지판의 의미로 맞는 것을 고르십시오.",
       "passage": "",
       "options": [
@@ -1121,7 +1121,7 @@
     {
       "id": "q07",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "অডিওটি শুনে সঠিক উত্তরটি বাছাই করুন।",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "passage": "오토바이",
       "options": [
@@ -1136,7 +1136,7 @@
     {
       "id": "q08",
       "section": "listening",
-      "questionBn": "질문을 듣고 알맞은 대답을 고르십시오.",
+      "questionBn": "প্রশ্নটি শুনে সঠিক উত্তরটি বাছাই করুন।",
       "questionKo": "질문을 듣고 알맞은 대답을 고르십시오.",
       "passage": "교통카드를 충전하고 싶어요. 어디로 가야 해요?",
       "options": [
@@ -1151,7 +1151,7 @@
     {
       "id": "q09",
       "section": "listening",
-      "questionBn": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+      "questionBn": "গল্পটি শুনে প্রশ্নের সঠিক উত্তরটি বাছাই করুন।",
       "questionKo": "이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
       "passage": "남자: 수루 씨, 퇴근 시간에 지하철을 타면 사람이 많아요?\n여자: 네, 사람이 아주 많아요. 그래서 저는 조금 일찍 퇴근해요.",
       "options": [
@@ -1383,6 +1383,86 @@
       "answer": 3,
       "explanationBn": "কথোপকথনে বলা হয়েছে স্পতালটি সকাল ৯টায় খোলে, আর ছবিতেও ঘড়িটি ৯টা দেখাচ্ছে — তাই দ্বিতীয় বিকল্প সঠিক।",
       "passage": "남: 이 병원은 몇 시에 문을 열어요? / 여: 오전 아홉 시에 문을 엽니다."
+    },
+    {
+      "id": "q21",
+      "section": "listening",
+      "questionBn": "অডিওটি শুনে সঠিক ছবিটি বাছাই করুন।",
+      "questionKo": "다음을 잘 듣고 알맞은 그림을 고르십시오.",
+      "passage": "(남) 출근길에 가방 안에 서류를 넣어요.",
+      "options": [],
+      "imageOptions": [
+        {
+          "src": "/eps-images/item-clock.svg",
+          "altBn": "দেয়াল ঘড়ি",
+          "altKo": "시계",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-bag.svg",
+          "altBn": "ব্যাগ",
+          "altKo": "가방",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-glasses.svg",
+          "altBn": "চশমা",
+          "altKo": "안경",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-pen.svg",
+          "altBn": "বলপয়েন্ট কলম",
+          "altKo": "볼펜",
+          "captionBn": "",
+          "kind": "illustration"
+        }
+      ],
+      "answer": 1,
+      "explanationBn": "'가방' (ব্যাগ)-এর ভেতরে কাগজপত্র রাখা হয়—তাই ব্যাগের ছবিটি সঠিক।"
+    },
+    {
+      "id": "q22",
+      "section": "reading",
+      "questionBn": "লেখাটি পড়ে সঠিক ছবিটি বাছাই করুন।",
+      "questionKo": "다음을 읽고 알맞은 그림을 고르십시오.",
+      "passage": "버스는 아침 여섯 시 십 분에 출발합니다. 시계를 보고 나오세요.",
+      "options": [],
+      "imageOptions": [
+        {
+          "src": "/eps-images/obj-bag.svg",
+          "altBn": "ব্যাগ",
+          "altKo": "가방",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-pen.svg",
+          "altBn": "বলপয়েন্ট কলম",
+          "altKo": "볼펜",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/item-clock.svg",
+          "altBn": "দেয়াল ঘড়ি",
+          "altKo": "시계",
+          "captionBn": "",
+          "kind": "illustration"
+        },
+        {
+          "src": "/eps-images/obj-glasses.svg",
+          "altBn": "চশমা",
+          "altKo": "안경",
+          "captionBn": "",
+          "kind": "illustration"
+        }
+      ],
+      "answer": 2,
+      "explanationBn": "বাসের সময় মেনে চলতে '시계' (ঘড়ি) দেখতে হবে—তাই ঘড়ির ছবিটি সঠিক।"
     }
   ]
 }

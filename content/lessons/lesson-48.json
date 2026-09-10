@@ -380,7 +380,7 @@
       "pos": "noun",
       "example": {
         "ko": "스위치를 끄세요.",
-        "bn": "সুই치 বন্ধ করুন।",
+        "bn": "সুইচ বন্ধ করুন।",
         "en": "Turn off the switch."
       },
       "pronunciationTipBn": "'스위치' (সুইচি) এর '치' (চি) উচ্চারণটি স্পষ্ট করুন।"
@@ -674,7 +674,7 @@
     {
       "id": "p1",
       "type": "multiple-choice",
-      "questionBn": "다음 중 '용접'의 의미로 সঠিকটি কোনটা?",
+      "questionBn": "নিচের কোনটি '용접' (ওয়েল্ডিং)-এর সঠিক অর্থ?",
       "questionKo": "'용접'의 뜻은 무엇입니까?",
       "options": [
         "도면을 그리는 것",
@@ -689,7 +689,7 @@
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "안전 지시: '안전모를 꼭 착용하세요.' 한국어로 옳은 것은?",
+      "questionBn": "নিরাপত্তা নির্দেশ: 'অবশ্যই নিরাপত্তা হেলমেট পরুন।'—সঠিক কোরীয় বাক্য কোনটি?",
       "questionKo": "Choose the correct Korean sentence for wearing a safety helmet.",
       "options": [
         "안전모를 저장하세요.",
@@ -704,7 +704,7 @@
     {
       "id": "p3",
       "type": "multiple-choice",
-      "questionBn": "도면을 보면 무엇을 해야 합니까?",
+      "questionBn": "নকশা দেখে কী করতে হয়?",
       "questionKo": "If you look at the drawing, what should you do?",
       "options": [
         "작업을 시작하다",
@@ -719,7 +719,7 @@
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "크레인이 철판을 옮길 때 가장 먼저 확인할 것은?",
+      "questionBn": "ক্রেন দিয়ে লোহার পাত সরানোর সময় প্রথমে কী যাচাই করতে হয়?",
       "questionKo": "What should be checked first when the crane moves the steel plate?",
       "options": [
         "도면의 글씨체",
@@ -734,7 +734,7 @@
     {
       "id": "p5",
       "type": "multiple-choice",
-      "questionBn": "선체에 '부식'이 생기면 어떻게 해야 합니까?",
+      "questionBn": "জাহাজের হালে '부식' (ক্ষয়) দেখা দিলে কী করতে হয়?",
       "questionKo": "What to do if corrosion occurs on the hull?",
       "options": [
         "부식을 칠한다",
@@ -749,7 +749,7 @@
     {
       "id": "p6",
       "type": "fill-blank",
-      "questionBn": "빈칸에 들어갈 말은? '_______을(를) 확인하세요.' (크레인과 로프 점검)",
+      "questionBn": "শূন্যস্থানে কী বসবে? '_______을(를) 확인하세요.' (크레인과 로프 점검)",
       "questionKo": "Fill the blank: '_______을(를) 확인하세요.' (Check crane and rope)",
       "options": [
         "도면",
@@ -764,7 +764,7 @@
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "빈칸 채우기: '용접을 _______ 하세요.' (বিঃদ্রঃ সাবধান করে)",
+      "questionBn": "শূন্যস্থান পূরণ করুন: '용접을 _______ 하세요.' (বিঃদ্রঃ সাবধান করে)",
       "questionKo": "Fill: '용접을 _______ 하세요.' (do carefully)",
       "options": [
         "정확히",
@@ -779,7 +779,7 @@
     {
       "id": "p8",
       "type": "fill-blank",
-      "questionBn": "빈칸: '도면을 먼저 보고 _______ 하세요.' (কাজ শুরু করা)",
+      "questionBn": "শূন্যস্থান: '도면을 먼저 보고 _______ 하세요.' (কাজ শুরু করা)",
       "questionKo": "Fill: '도면을 먼저 보고 _______ 하세요.' (start work)",
       "options": [
         "멈추",
@@ -794,7 +794,7 @@
     {
       "id": "p9",
       "type": "matching",
-      "questionBn": "다음 한국어 단어와 বাংলা 의미를 연결하세요.",
+      "questionBn": "কোরীয় শব্দের সঙ্গে বাংলা অর্থ মেলান।",
       "questionKo": "Match the Korean word with the Bengali meaning.",
       "options": [],
       "pairs": [
@@ -821,7 +821,7 @@
     {
       "id": "p10",
       "type": "matching",
-      "questionBn": "다음 작업 동작과 বাংলা 설명을 연결하세요.",
+      "questionBn": "কাজের ক্রিয়ার সঙ্গে বাংলা বর্ণনা মেলান।",
       "questionKo": "Match the work action with the Bengali description.",
       "options": [],
       "pairs": [
@@ -848,7 +848,7 @@
     {
       "id": "p11",
       "type": "multiple-choice",
-      "questionBn": "용접할 때 눈을 보호하기 위해 무엇을 써야 합니까?",
+      "questionBn": "ওয়েল্ডিং-এর সময় চোখ রক্ষায় কী ব্যবহার করতে হয়?",
       "questionKo": "용접할 때 눈을 보호하기 위해 무엇을 써야 합니까?",
       "options": [
         "안전화",
@@ -857,12 +857,12 @@
         "안전대"
       ],
       "answer": 1,
-      "explanationBn": "눈을 보호하기 위해서는 보안경(세ফটি গগলস)을 써야 합니다."
+      "explanationBn": "চোখ রক্ষার জন্য নিরাপত্তা চশমা (সেফটি গগলস) ব্যবহার করতে হবে।"
     },
     {
       "id": "p12",
       "type": "multiple-choice",
-      "questionBn": "발을 보호하기 위해 신는 것은 무엇입니까?",
+      "questionBn": "পা রক্ষায় কী পরা হয়?",
       "questionKo": "발을 보호하기 위해 신는 것은 무엇입니까?",
       "options": [
         "안전모",
@@ -871,12 +871,12 @@
         "작업복"
       ],
       "answer": 2,
-      "explanationBn": "발을 보호하기 위해서는 안전화(세ফটি জুতো)를 신어야 합니다."
+      "explanationBn": "পা রক্ষার জন্য নিরাপত্তা জুতা (সেফটি জুতো) পরতে হবে।"
     },
     {
       "id": "p13",
       "type": "multiple-choice",
-      "questionBn": "높은 곳에서 일할 때 떨어지지 않게 매는 것은 무엇입니까?",
+      "questionBn": "উঁচু জায়গায় কাজ করার সময় পড়ে যাওয়া রোধে কী পরা/বাঁধা হয়?",
       "questionKo": "높은 곳에서 일할 때 떨어지지 않게 매는 것은 무엇입니까?",
       "options": [
         "안전대",
@@ -885,12 +885,12 @@
         "스위치"
       ],
       "answer": 0,
-      "explanationBn": "높은 곳에서 일할 때는 안전대(세ফটি বেল্ট)를 매야 합니다."
+      "explanationBn": "উঁচু জায়গায় কাজ করার সময় নিরাপত্তা বেল্ট (সেফটি বেল্ট) বাঁধতে হবে।"
     },
     {
       "id": "p14",
       "type": "fill-blank",
-      "questionBn": "빈칸에 들어갈 말은? '먼지가 많으니까 _______을(를) 쓰세요.'",
+      "questionBn": "শূন্যস্থানে কী বসবে? '먼지가 많으니까 _______을(를) 쓰세요.'",
       "questionKo": "빈칸에 들어갈 말은? '먼지가 많으니까 _______을(를) 쓰세요.'",
       "options": [
         "마스크",
@@ -904,7 +904,7 @@
     {
       "id": "p15",
       "type": "fill-blank",
-      "questionBn": "빈칸에 들어갈 말은? '시끄러우니까 _______을(를) 하세요.'",
+      "questionBn": "শূন্যস্থানে কী বসবে? '시끄러우니까 _______을(를) 하세요.'",
       "questionKo": "빈칸에 들어갈 말은? '시끄러우니까 _______을(를) 하세요.'",
       "options": [
         "보안경",
@@ -918,7 +918,7 @@
     {
       "id": "p16",
       "type": "fill-blank",
-      "questionBn": "빈칸에 들어갈 말은? '불이 나면 _______(으)로 불을 끄세요.'",
+      "questionBn": "শূন্যস্থানে কী বসবে? '불이 나면 _______(으)로 불을 끄세요.'",
       "questionKo": "빈칸에 들어갈 말은? '불이 나면 _______(으)로 불을 끄세요.'",
       "options": [
         "소화기",
@@ -932,7 +932,7 @@
     {
       "id": "p17",
       "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
+      "questionBn": "কোরীয় শব্দের সঙ্গে সঠিক অর্থ মেলান।",
       "questionKo": "다음 단어와 의미를 연결하세요.",
       "pairs": [
         {
@@ -957,7 +957,7 @@
     {
       "id": "p18",
       "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
+      "questionBn": "কোরীয় শব্দের সঙ্গে সঠিক অর্থ মেলান।",
       "questionKo": "다음 단어와 의미를 연결하세요.",
       "pairs": [
         {
@@ -982,7 +982,7 @@
     {
       "id": "p19",
       "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
+      "questionBn": "কোরীয় শব্দের সঙ্গে সঠিক অর্থ মেলান।",
       "questionKo": "다음 단어와 의미를 연결하세요.",
       "pairs": [
         {
@@ -1007,7 +1007,7 @@
     {
       "id": "p20",
       "type": "matching",
-      "questionBn": "다음 단어와 의미를 연결하세요.",
+      "questionBn": "কোরীয় শব্দের সঙ্গে সঠিক অর্থ মেলান।",
       "questionKo": "다음 단어와 의미를 연결하세요.",
       "pairs": [
         {
@@ -1064,7 +1064,7 @@
     {
       "id": "q03",
       "section": "reading",
-      "questionBn": "다음 표지판의 의미는 무엇입니까?",
+      "questionBn": "নিচের চিহ্নটির অর্থ কী?",
       "questionKo": "다음 표지판의 의미는 무엇입니까?",
       "passage": "[안전화 착용 표지판]",
       "options": [
@@ -1079,7 +1079,7 @@
     {
       "id": "q04",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르세요.",
+      "questionBn": "লেখাটি পড়ে সঠিক উত্তরটি বাছাই করুন।",
       "questionKo": "다음 글을 읽고 알맞은 것을 고르세요.",
       "passage": "용접 작업을 할 때는 불꽃이 튈 수 있습니다. 그래서 반드시 보안경을 써야 합니다.",
       "options": [
@@ -1094,7 +1094,7 @@
     {
       "id": "q05",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르세요.",
+      "questionBn": "লেখাটি পড়ে সঠিক উত্তরটি বাছাই করুন।",
       "questionKo": "다음 글을 읽고 알맞은 것을 고르세요.",
       "passage": "높은 곳에서 일할 때는 떨어질 위험이 있습니다. 안전대를 꼭 매십시오.",
       "options": [
@@ -1109,7 +1109,7 @@
     {
       "id": "q06",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르세요.",
+      "questionBn": "লেখাটি পড়ে সঠিক উত্তরটি বাছাই করুন।",
       "questionKo": "다음 글을 읽고 알맞은 것을 고르세요.",
       "passage": "작업장에 먼지가 많습니다. 마스크를 착용하고 환풍기를 켜십시오.",
       "options": [
@@ -1124,7 +1124,7 @@
     {
       "id": "q07",
       "section": "reading",
-      "questionBn": "다음 글을 읽고 알맞은 것을 고르세요.",
+      "questionBn": "লেখাটি পড়ে সঠিক উত্তরটি বাছাই করুন।",
       "questionKo": "다음 글을 읽고 알맞은 것을 고르세요.",
       "passage": "불이 나면 당황하지 말고 비상구로 나가십시오. 그리고 소화기로 불을 끄십시오.",
       "options": [
@@ -1139,7 +1139,7 @@
     {
       "id": "q08",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "অডিওটি শুনে সঠিক উত্তরটি বাছাই করুন।",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "passage": "남자: 반장님, 용접 작업이 끝났습니다.\n여자: 수고했어요. 이제 전원을 끄고 환풍기를 켜세요.",
       "options": [
@@ -1154,7 +1154,7 @@
     {
       "id": "q09",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "অডিওটি শুনে সঠিক উত্তরটি বাছাই করুন।",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "passage": "여자: 투안 씨, 높은 곳에서 일할 때는 안전대를 매야 해요.\n남자: 네, 알겠습니다. 지금 매겠습니다.",
       "options": [
@@ -1169,7 +1169,7 @@
     {
       "id": "q10",
       "section": "listening",
-      "questionBn": "다음을 듣고 알맞은 것을 고르십시오.",
+      "questionBn": "অডিওটি শুনে সঠিক উত্তরটি বাছাই করুন।",
       "questionKo": "다음을 듣고 알맞은 것을 고르십시오.",
       "passage": "남자: 작업장에 먼지가 너무 많아요.\n여자: 그럼 마스크를 쓰고 환풍기를 켜세요.",
       "options": [

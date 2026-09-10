@@ -6,6 +6,16 @@ import {
   isSpeechSupported,
   speakKorean,
 } from "./speakKorean";
+import {
+  isDialoguePassage,
+  parseDialogueTurns,
+  type DialogueSpeaker,
+  type DialogueTurn,
+} from "@shared/dialogue";
+
+/** Re-exported so existing client callers keep a single import site. */
+export { isDialoguePassage, parseDialogueTurns };
+export type { DialogueSpeaker, DialogueTurn };
 
 /**
  * EPS-TOPIK dialogue playback.
@@ -23,25 +33,6 @@ import {
  * real exam audio, where only the utterances are heard.
  */
 
-export type DialogueSpeaker = "male" | "female" | "narrator";
-
-export type DialogueTurn = {
-  speaker: DialogueSpeaker;
-  /** Utterance text with the speaker label stripped. */
-  text: string;
-};
-
-/** Canonical labels used in lesson content (scripts normalize to these). */
-const MALE_LABELS = ["남자", "남"];
-const FEMALE_LABELS = ["여자", "여"];
-
-/**
- * Matches a speaker label at the start of a segment: `남자:`, `여:`, etc.
- * Only 남/여 forms are recognized — content is normalized to this format.
- */
-const TURN_SPLIT_RE = /(?=(?:^|[\s\u00a0])(?:남자|여자|남|여)\s*[:：])/g;
-const LABEL_RE = /^[\s\u00a0]*(남자|여자|남|여)\s*[:：]\s*/;
-
 /** Distinct fallback pitches when a single Korean voice must play both roles. */
 export const DIALOGUE_PITCHES: Record<DialogueSpeaker, number> = {
   male: 0.75,
@@ -51,55 +42,6 @@ export const DIALOGUE_PITCHES: Record<DialogueSpeaker, number> = {
 
 /** Pause between dialogue turns (ms) so speaker changes are audible. */
 export const TURN_GAP_MS = 420;
-
-/**
- * Parse a listening passage into speaker turns.
- * Passages without 남/여 labels are treated as one narrator turn.
- */
-export function parseDialogueTurns(passage: string): DialogueTurn[] {
-  const text = (passage ?? "").trim();
-  if (!text) return [];
-
-  const segments = text
-    .split(TURN_SPLIT_RE)
-    .map(segment => segment.trim())
-    .filter(Boolean);
-
-  const turns: DialogueTurn[] = [];
-  for (const segment of segments) {
-    const match = segment.match(LABEL_RE);
-    if (!match) {
-      // No label — narration (or continuation before the first label).
-      turns.push({ speaker: "narrator", text: segment });
-      continue;
-    }
-    const label = match[1];
-    const speaker: DialogueSpeaker = MALE_LABELS.includes(label)
-      ? "male"
-      : FEMALE_LABELS.includes(label)
-        ? "female"
-        : "narrator";
-    const [spoken, ...narratorParagraphs] = segment
-      .replace(LABEL_RE, "")
-      .split(/\n\s*\n/)
-      .map(part => part.trim());
-    if (spoken) turns.push({ speaker, text: spoken });
-    for (const narration of narratorParagraphs) {
-      if (narration) turns.push({ speaker: "narrator", text: narration });
-    }
-  }
-  return turns;
-}
-
-/** True when the passage contains at least two distinct labelled speakers. */
-export function isDialoguePassage(passage: string): boolean {
-  const speakers = new Set(
-    parseDialogueTurns(passage)
-      .map(turn => turn.speaker)
-      .filter(speaker => speaker !== "narrator"),
-  );
-  return speakers.size >= 2;
-}
 
 /** Voice-name fragments that suggest a gender, across common TTS engines. */
 const FEMALE_NAME_HINTS = [/\bfemale\b/i, /여성/, /여자/, /yuna/i, /sora/i, /heami/i, /sun-?hi/i, /jimin/i, /seoyeon/i, /google.*한국/i];

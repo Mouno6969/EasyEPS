@@ -119,11 +119,11 @@ describe("adaptive smart mock selection", () => {
     ),
   );
 
-  it("preserves the EPS section ratio while prioritizing but not isolating weak chapters", () => {
+  it("preserves the exam-accurate 50/50 section ratio while prioritizing but not isolating weak chapters", () => {
     const questions = buildSmartMockQuestions(pool, { count: 20, mode: "smart", focusChapters: [1, 2] });
     expect(questions).toHaveLength(20);
-    expect(questions.filter(question => question.section === "reading")).toHaveLength(12);
-    expect(questions.filter(question => question.section === "listening")).toHaveLength(8);
+    expect(questions.filter(question => question.section === "reading")).toHaveLength(10);
+    expect(questions.filter(question => question.section === "listening")).toHaveLength(10);
     const focused = questions.filter(question => question.chapter === 1 || question.chapter === 2).length;
     expect(focused).toBeGreaterThanOrEqual(10);
     expect(focused).toBeLessThan(20);

@@ -23,9 +23,10 @@ describe("mock test scoring contract", () => {
     expect(questions).toHaveLength(20);
 
     for (const question of questions) {
-      expect(question.options.length).toBeGreaterThanOrEqual(4);
+      const choiceCount = question.imageOptions?.length ?? question.options.length;
+      expect(choiceCount).toBe(4);
       expect(question.answer).toBeGreaterThanOrEqual(0);
-      expect(question.answer).toBeLessThan(question.options.length);
+      expect(question.answer).toBeLessThan(choiceCount);
       expect(question.explanationBn.length).toBeGreaterThan(0);
     }
 
@@ -58,11 +59,28 @@ describe("mock test scoring contract", () => {
     expect(halfScore).toBe(10);
   });
 
-  it("keeps the 20-question quick test at the documented 12 reading + 8 listening split", async () => {
+  it("keeps the 20-question quick test at the exam-accurate 10 listening + 10 reading split, listening first", async () => {
     const questions = await guestCaller.curriculum.mockTest({ count: 20 });
     const reading = questions.filter(question => question.section === "reading");
     const listening = questions.filter(question => question.section === "listening");
-    expect(reading).toHaveLength(12);
-    expect(listening).toHaveLength(8);
+    expect(reading).toHaveLength(10);
+    expect(listening).toHaveLength(10);
+    // Real exam order: the listening section (듣기) always comes first.
+    const firstReadingIndex = questions.findIndex(question => question.section === "reading");
+    const lastListeningIndex = questions.map(question => question.section).lastIndexOf("listening");
+    expect(lastListeningIndex).toBeLessThan(firstReadingIndex);
+    for (let index = 0; index < 10; index += 1) {
+      expect(questions[index].section).toBe("listening");
+    }
+  });
+
+  it("builds the full 40-question paper as 20 listening then 20 reading (EPS CBT pattern)", async () => {
+    const questions = await guestCaller.curriculum.mockTest({ count: 40 });
+    expect(questions).toHaveLength(40);
+    expect(questions.slice(0, 20).every(question => question.section === "listening")).toBe(true);
+    expect(questions.slice(20).every(question => question.section === "reading")).toBe(true);
+    // testIds stay unique across the paper
+    const ids = new Set(questions.map(question => question.testId));
+    expect(ids.size).toBe(40);
   });
 });

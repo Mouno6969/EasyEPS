@@ -63,6 +63,12 @@ function selectSection(
   return selected;
 }
 
+/**
+ * Compose a mock paper that mirrors the real EPS-TOPIK CBT:
+ * every exam has 20 listening questions FIRST (듣기, 25 min) followed by
+ * 20 reading questions (읽기, 25 min) — 40 questions, 50 minutes, 100 points.
+ * Sub-length tests keep the same listening→reading order and proportions.
+ */
 export function buildSmartMockQuestions(
   all: MockQuestionCandidate[],
   options: SmartMockOptions,
@@ -71,7 +77,9 @@ export function buildSmartMockQuestions(
   const mode = options.mode ?? "balanced";
   const focusSection = options.focusSection ?? "auto";
   const focusChapters = new Set((options.focusChapters ?? []).filter(chapter => chapter >= 1 && chapter <= 60));
-  const listeningRatio = focusSection === "listening" ? 0.55 : focusSection === "reading" ? 0.25 : 0.4;
+  // Real exam is an even 20 listening / 20 reading split. Section focus only
+  // skews practice papers, never the default balanced one.
+  const listeningRatio = focusSection === "listening" ? 0.7 : focusSection === "reading" ? 0.3 : 0.5;
   const listeningCount = Math.round(count * listeningRatio);
   const readingCount = count - listeningCount;
 
@@ -87,5 +95,6 @@ export function buildSmartMockQuestions(
     mode,
     focusChapters,
   );
-  return shuffleCopy([...reading, ...listening]);
+  // Exam order: the listening section always comes first (1–20), then reading.
+  return [...listening, ...reading];
 }

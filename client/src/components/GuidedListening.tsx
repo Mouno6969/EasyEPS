@@ -1,13 +1,19 @@
 import { speakDialogue } from "@/lib/dialogueSpeech";
-import { KOREAN_SPEECH_RATES, type KoreanSpeechRate } from "@/lib/speakKorean";
+import { KOREAN_SPEECH_RATES, type KoreanSpeechRate, warmSpeechVoices } from "@/lib/speakKorean";
 import { Gauge, Headphones, RotateCcw, Volume2 } from "lucide-react";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export type GuidedListeningProps = {
   text: string;
   compact?: boolean;
   className?: string;
   label?: string;
+  /**
+   * Cap on audio replays. The real EPS-TOPIK CBT plays each listening item
+   * exactly TWICE — pass 2 to reproduce that constraint (mock exam). Omit or
+   * pass 0 for unlimited practice playback.
+   */
+  maxPlays?: number;
 };
 
 export function GuidedListening({
@@ -15,13 +21,23 @@ export function GuidedListening({
   compact = false,
   className = "",
   label = "Audio শুনতে চাপুন",
+  maxPlays = 0,
 }: GuidedListeningProps) {
   const [rate, setRate] = useState<KoreanSpeechRate>(KOREAN_SPEECH_RATES.normal);
   const [plays, setPlays] = useState(0);
   const [playing, setPlaying] = useState(false);
   const playbackRequest = useRef(0);
 
+  // Preload the voice list so the first tap speaks instantly.
+  useEffect(() => {
+    warmSpeechVoices();
+  }, []);
+
+  const exhausted = maxPlays > 0 && plays >= maxPlays;
+  const blocked = exhausted && !playing;
+
   const play = () => {
+    if (blocked) return;
     const request = ++playbackRequest.current;
     setPlays(value => value + 1);
     setPlaying(true);
@@ -40,23 +56,29 @@ export function GuidedListening({
           ? "কঠিন হলে ধীর গতি বেছে নিয়ে আরেকবার শুনুন।"
           : "ধীরে শোনার পর সাধারণ গতিতে মিলিয়ে নিন।";
 
+  const playCountLabel = maxPlays > 0 ? `শোনা ${plays}/${maxPlays} বার` : `শোনা ${plays} বার`;
+
   return (
     <div className={`${compact ? "space-y-2" : "space-y-3"} ${className}`}>
       <button
         type="button"
         onClick={play}
-        aria-label={`${label}; ${rate === KOREAN_SPEECH_RATES.slow ? "slow" : "normal"} speed`}
-        className={`flex w-full items-center justify-center gap-3 rounded-2xl bg-[var(--navy)] font-bold text-white transition hover:bg-[var(--navy)]/90 ${compact ? "p-4" : "p-5"}`}
+        disabled={blocked}
+        aria-label={`${label}; ${rate === KOREAN_SPEECH_RATES.slow ? "slow" : "normal"} speed${maxPlays > 0 ? `; ${maxPlays - plays} of ${maxPlays} plays left` : ""}`}
+        className={`flex w-full items-center justify-center gap-3 rounded-2xl bg-[var(--navy)] font-bold text-white transition ${compact ? "p-4" : "p-5"} ${
+          blocked ? "cursor-not-allowed opacity-45" : "hover:bg-[var(--navy)]/90"
+        }`}
       >
         <span className={`grid place-items-center rounded-full bg-[var(--gold)] text-[var(--navy)] ${compact ? "size-9" : "size-10"}`}>
           {playing ? <Volume2 className="size-5 animate-pulse" /> : <Headphones className="size-5" />}
         </span>
-        <span>{playing ? "শোনা হচ্ছে…" : label}</span>
+        <span>{playing ? "শোনা হচ্ছে…" : blocked ? "শোনার সীমা শেষ" : label}</span>
       </button>
 
       <div className="flex flex-wrap items-center justify-center gap-2 text-xs font-bold">
         <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--cream)] px-3 py-1.5 text-[var(--navy)]/55">
-          <RotateCcw className="size-3.5" /> শোনা {plays} বার
+          <RotateCcw className="size-3.5" /> {playCountLabel}
+          {maxPlays > 0 ? <span className="font-semibold text-[var(--gold-dark)]">· পরীক্ষার নিয়ম: ২ বার</span> : null}
         </span>
         <span className="inline-flex overflow-hidden rounded-full border border-[var(--navy)]/12 bg-white p-0.5">
           <button

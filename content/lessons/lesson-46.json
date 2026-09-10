@@ -208,7 +208,7 @@
     {
       "ko": "물통",
       "romanization": "multong",
-      "bn": "পানির টব (물 trough)",
+      "bn": "পানির টব",
       "en": "water trough",
       "pos": "noun",
       "example": {
@@ -697,7 +697,7 @@
     {
       "id": "p2",
       "type": "multiple-choice",
-      "questionBn": "사료의 অর্থ কী?",
+      "questionBn": "'사료' (পশুখাদ্য)-এর অর্থ কী?",
       "questionKo": "‘사료’는 무슨 뜻입니까?",
       "options": [
         "barn",
@@ -727,7 +727,7 @@
     {
       "id": "p4",
       "type": "multiple-choice",
-      "questionBn": "검역의 বাংলা অর্থ কী?",
+      "questionBn": "'검역' (কোয়ারেন্টিন)-এর বাংলা অর্থ কী?",
       "questionKo": "‘검역’은 무슨 뜻입니까?",
       "options": [
         "feeding",
@@ -742,7 +742,7 @@
     {
       "id": "p5",
       "type": "multiple-choice",
-      "questionBn": "아래 중 방목의 가장 কাছাকাছি অর্থ কোনটি?",
+      "questionBn": "'방목' (পশু চরানো)-এর সবচেয়ে কাছের অর্থ কোনটি?",
       "questionKo": "‘방목’의 의미는?",
       "options": [
         "to let graze",
@@ -772,7 +772,7 @@
     {
       "id": "p7",
       "type": "fill-blank",
-      "questionBn": "‘우리는 오늘 축사를 ___ 해야 합니다.’ (পরিশোধ/পরিষ্কার)",
+      "questionBn": "পরিশোধ/পরিষ্কার।",
       "questionKo": "빈칸을 채우세요: '우리는 오늘 축사를 ___ 해야 합니다.'",
       "options": [
         "번식",
@@ -1020,7 +1020,7 @@
     {
       "id": "q01",
       "section": "listening",
-      "questionBn": "대화에서 누가 오기로 했나요?",
+      "questionBn": "সংলাপ অনুযায়ী কে আসতে চলেছে?",
       "questionKo": "대화에서 누구가 오기로 했나요?",
       "passage": "남자: 새로 온 염소가 아파요.\n여자: 수의사가 오고 있습니다.\n남자: 감사합니다.",
       "options": [
@@ -1035,7 +1035,7 @@
     {
       "id": "q02",
       "section": "listening",
-      "questionBn": "무슨 작업을 하라고 요청했나요?",
+      "questionBn": "কোন কাজ করতে অনুরোধ করা হয়েছে?",
       "questionKo": "어떤 작업을 하라고 요청했나요?",
       "passage": "남자: 울타리를 점검하고 사료를 채워 주세요.\n여자: 예, 알겠습니다.",
       "options": [

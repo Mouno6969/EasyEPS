@@ -151,6 +151,15 @@ function warmVoicesInBackground(): void {
 }
 
 /**
+ * Public voice warm-up for page mounts (exam pages preload listening items).
+ * Populates the voice list ahead of the first user gesture so the very first
+ * tap plays instantly with the correct ko-KR voice. Never speaks.
+ */
+export function warmSpeechVoices(): void {
+  warmVoicesInBackground();
+}
+
+/**
  * Speak Korean text via the browser TTS engine.
  * Prefers a `ko-KR` / `ko*` voice when already loaded; always sets `lang` to `ko-KR`.
  *

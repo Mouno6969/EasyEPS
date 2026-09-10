@@ -74,6 +74,8 @@ const practiceQuestionSchema = z
     questionKo: z.string().optional().default(""),
     /** Optional picture used by EPS-style picture questions in practice mode. */
     image: epsQuestionImageSchema.optional(),
+    /** Picture-choice practice question: four pictures as the answer choices. */
+    imageOptions: z.array(epsQuestionImageSchema).length(4).optional(),
     options: z.array(z.string()).optional().default([]),
     pairs: z.array(z.object({ left: z.string().min(1), right: z.string().min(1) })).optional().default([]),
     answer: z.number().int().optional().default(0),
@@ -83,6 +85,27 @@ const practiceQuestionSchema = z
     if (question.type === "matching") {
       if (question.pairs.length < 2) {
         ctx.addIssue({ code: "custom", message: "Matching questions need at least 2 pairs", path: ["pairs"] });
+      }
+      return;
+    }
+    if (question.imageOptions && question.imageOptions.length > 0) {
+      if (question.options.length > 0) {
+        ctx.addIssue({
+          code: "custom",
+          message: "picture-choice questions (imageOptions) must not also define text options",
+          path: ["options"],
+        });
+      }
+      if (question.answer < 0 || question.answer >= question.imageOptions.length) {
+        ctx.addIssue({ code: "custom", message: "answer index out of range", path: ["answer"] });
+      }
+      const srcs = new Set(question.imageOptions.map(image => image.src));
+      if (srcs.size !== question.imageOptions.length) {
+        ctx.addIssue({
+          code: "custom",
+          message: "imageOptions must contain 4 distinct images",
+          path: ["imageOptions"],
+        });
       }
       return;
     }
@@ -96,7 +119,7 @@ const practiceQuestionSchema = z
 
 export type EpsQuestionImage = z.infer<typeof epsQuestionImageSchema>;
 
-const epsQuestionSchema = z
+export const epsQuestionSchema = z
   .object({
     id: z.string().min(1),
     section: z.enum(["reading", "listening"]),
@@ -105,11 +128,52 @@ const epsQuestionSchema = z
     passage: z.string().optional().default(""),
     /** Optional exam-style picture/safety sign. Omitted on legacy questions. */
     image: epsQuestionImageSchema.optional(),
-    options: z.array(z.string().min(1)).min(4).max(4),
+    /**
+     * Real EPS-TOPIK picture questions offer four PICTURES as the answer
+     * choices (e.g. "그림을 보고 알맞은 것을 고르십시오"). When present,
+     * `imageOptions` replaces the text `options` and `answer` indexes into it.
+     */
+    imageOptions: z.array(epsQuestionImageSchema).length(4).optional(),
+    options: z.array(z.string().min(1)).max(4).default([]),
     answer: z.number().int().min(0).max(3),
     explanationBn: z.string().min(1),
   })
   .superRefine((question, ctx) => {
+    const hasImageOptions = question.imageOptions && question.imageOptions.length > 0;
+    if (hasImageOptions) {
+      // Picture-choice question: text options are not rendered.
+      if (question.options.length > 0) {
+        ctx.addIssue({
+          code: "custom",
+          message: "picture-choice questions (imageOptions) must not also define text options",
+          path: ["options"],
+        });
+      }
+      if (question.answer >= question.imageOptions!.length) {
+        ctx.addIssue({ code: "custom", message: "answer index out of range", path: ["answer"] });
+      }
+      const srcs = new Set(question.imageOptions!.map(image => image.src));
+      if (srcs.size !== question.imageOptions!.length) {
+        ctx.addIssue({
+          code: "custom",
+          message: "imageOptions must contain 4 distinct images",
+          path: ["imageOptions"],
+        });
+      }
+      const correctImage = question.imageOptions![question.answer];
+      if (correctImage && !correctImage.altBn) {
+        ctx.addIssue({ code: "custom", message: "every image option needs altBn", path: ["imageOptions"] });
+      }
+      return;
+    }
+    // Standard text-option question: the exam always offers exactly 4 choices.
+    if (question.options.length !== 4) {
+      ctx.addIssue({
+        code: "custom",
+        message: "text-option questions need exactly 4 options (or use imageOptions)",
+        path: ["options"],
+      });
+    }
     if (question.answer >= question.options.length) {
       ctx.addIssue({ code: "custom", message: "answer index out of range", path: ["answer"] });
     }
@@ -139,7 +203,7 @@ export const lessonSchema = z
     grammar: z.array(grammarItemSchema).min(2).max(6),
     dialogues: z.array(dialogueSchema).min(2).max(4),
     practice: z.array(practiceQuestionSchema).min(10).max(24),
-    epsQuestions: z.array(epsQuestionSchema).min(8).max(20),
+    epsQuestions: z.array(epsQuestionSchema).min(8).max(30),
   })
   .superRefine((lesson, ctx) => {
     const practiceIds = new Set<string>();
